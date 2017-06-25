@@ -1,0 +1,159 @@
+＄91-30-19-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 3019001 1 アルトリア]
+[charaSet D 3019000 1 アルトリア？]
+[scene 20700]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+戦闘、終了しました。[r]敵対勢力が……いえ、消滅？　これは……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFace A 12]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+＠アルトリア
+ここは[#私の戦場]だ。[r]夢の中[line 2]とは、些か異なるだろうが。
+[k]
+
+[charaFace C 1]
+＠アルトリア
+存分にこの剣を振るいたくなったのでな、[r]マスターに無理を言った。
+[k]
+
+？1：そうなの？
+？2：覚えがないけど
+
+？！
+
+[charaFace C 4]
+＠アルトリア
+確認を取った相手は貴様の無意識だ。[r]悪いな。
+[k]
+
+[charaFace C 0]
+＠アルトリア
+私のサーヴァントとしての特性が、[r]こういう事態を招いたのだろう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 3]
+＠Dr.ロマン
+特性？　固有結界的なものなのかな？？[r]いや、でも、彼女にそういう宝具はなかったような。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠アルトリア
+詮索などつまらんぞ。[r]さあ[line 2]
+[k]
+
+[charaFace C 0]
+＠アルトリア
+戦うとしよう。[r]雑魚はもう終わりだ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[bgm BGM_EVENT_3 0.4]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠マシュ
+……魔力反応！　この感じ、以前にも！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+近似の数値がこっちの記録にもある！[r]これは、間違いない、彼女の[#別の側面]だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+＠アルトリア？
+[line 4]。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[line 2]聖槍ロンゴミニアドを携えた彼女がもう一人！？[r]だ、ダブルロンゴミニアドってどういうこと！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠アルトリア
+面白い。[r]私を充足させる相手は、私しかいないか。
+[k]
+
+[charaFace C 5]
+＠アルトリア
+行くぞ、マスター。[r]何であれアレを倒さねば貴様は帰還できない。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+！？
+[k]
+
+？1：そういうことなら、やるしかない
+？2：マシュ、戦闘態勢！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……はい、マスター。[r]敵性サーヴァントとの戦闘態勢に入ります。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠アルトリア
+戦いの匂いがする。[r]そうだ、私は雑魚を蹴散らす程度では満足しない。
+[k]
+
+[charaFace C 2]
+＠アルトリア
+全力で戦える猛者。[r]それが、今の私が望む相手[line 2]
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

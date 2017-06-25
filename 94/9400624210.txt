@@ -1,0 +1,62 @@
+＄94-00-62-42-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 5027000 1 マリー]
+[charaSet B 2025200 1 アン]
+[charaSet C 2025100 1 メアリー]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マリー
+あら、凱旋門。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠メアリー
+立派なものだけど……[r]何かの役に立つの？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+ここをぐるぐるするとですね、[r]楽しいのであります！
+[k]
+
+＠G：うりぼう
+ありますなー。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,508 @@
+
+
+
+
+
+
+
+＄01-00-07-15-4-1
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet F 3027001 1 アナ]
+[charaSet G 98106000 1 キングゥ]
+[charaSet H 3028001 1 ジャガーマン]
+
+[bgm BGM_EVENT_24 0.1]
+[scene 34700]
+[fadein black 1.5]
+[wait fade]
+
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+
+＠Dr.ロマン
+待った、ストップだマーリン！[r]そこから三百メートル先に凄まじい神性反応がある！
+[k]
+
+＠Dr.ロマン
+鮮血神殿だ！[r]ケツァル・コアトルに合図を送ってくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マーリン
+よし来た、任せてもらおうか！[r]ではブリテン魔術・アルトリアごはんですよ、詠唱！
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[se ad39]
+[effect bit_talk_21]
+[wt 0.7]
+[messageOff]
+[wipeout downToUp 0.4 1]
+[wait wipe]
+[effectStop bit_talk_21]
+[scene 20320]
+[wipein upToDown 0.4 1]
+[wait wipe]
+
+[effect bit_talk_22]
+[se bac132]
+[wt 3.0]
+[messageOff]
+[wipeout upToDown 0.4 1]
+[wait wipe]
+[scene 34700]
+[effectStop bit_talk_22]
+
+[wipein downToUp 0.4 1]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+閃光弾！？[r]閃光弾のようなものが上がりました、先輩！
+[k]
+
+？1：いまの魔術名について詳しく！
+？2：まずい、逃げないと！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+ばか、私たちがまだ避難してないでしょ！？[r]あんな質量のものがぶっ飛んでくるのよ！？
+[k]
+
+＠イシュタル
+着地地点から三百メートルぐらい離れてないと、[r]私たちも衝撃で吹っ飛ぶじゃない！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+おおっと。ごめん、手が滑った。[r]ぽいっと。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_24 0.4]
+[charaFadeout A 0.1]
+[se ad110]
+[messageOff]
+[se ad75]
+[seStop ad75 2.0]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[scene 32600]
+[wt 0.1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+
+＠マシュ
+あ。
+[k]
+
+
+＠イシュタル
+ちょっ！？
+[k]
+
+
+＠アナ
+マーリンは死ぬべきです！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[scene 34700]
+[wt 0.1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+[FFFFFF]？[-]　どうしたの、みんな？[r]急に固まって。何かあった？
+[k]
+
+？1：マーリンが……杖を……
+？2：鮮血神殿の方に、放り投げて……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[scene 32600]
+[wt 0.4]
+[se ad239]
+[seVolume ad239 0 0.4]
+[seVolume ad239 2.0 0.95]
+[wt 2.0]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+[wt 1.2]
+[seStop ad239]
+[se ad237]
+[shake 0.01 8 8 4.0]
+[effect bit_talk_40]
+[scene 32610 2.0]
+[fadeout white 1.5]
+[wait fade]
+[wt 1.0]
+[fadein white 1.5]
+[effectStop bit_talk_40]
+[wait fade]
+
+
+[messageShake 0.03 5 5 1.0]
+＠ケツァル・コアトル
+ス[line 3]イ[line 3]シ[line 3]ダ[line 3]！！！！！！？
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[scene 34700]
+[wt 0.1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠マシュ
+遠く何マイルも離れたバビロンのこちら側にまで[r]ケツァル・コアトルさんの絶叫が聞こえてきました……
+[k]
+
+＠マシュ
+あれは……もう……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+ええ……イヤな事件だったわね……
+[k]
+
+[charaFadeout C 0.1]
+[charaSet C 98002000 1 フォウ]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マーリン
+いやあ、手が滑ってしまったものは仕方がない。
+[k]
+
+[charaFace A 4]
+＠マーリン
+まさか杖がビーコンになって斧をあらぬ地点に[r]誘導してしまうとは、しっぱい、しっぱい。
+[k]
+
+＠マーリン
+結果、マルドゥークの斧はここに着弾せず、[r]そのまま鮮血神殿に突き刺さってしまったようだね。
+[k]
+
+[charaFace A 1]
+＠マーリン
+でもまあ、おかげで結果オーライだぞ、みんな！[r]ケツァル・コアトルの[#尊:とうと]い犠牲を無駄にしてはいけない！
+[k]
+
+[charaFace A 0]
+＠マーリン
+私たちは私たちの成すべき事をやろう！[r]さあ、いよいよ決戦だ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaShake C 0.01 0 10 0.7]
+
+＠フォウ
+フォ[line 2]フォフォフォ[line 9]！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout C 0.1]
+[scene 34600]
+[wt 1.0]
+[fadein black 1.5]
+[wt 0.5]
+[bgm BGM_EVENT_24 1.0]
+[wait fade]
+
+[se ad180]
+[wt 0.4]
+[effect bit_talk_14]
+[wt 0.1]
+[shake 0.05 5 5 0.7]
+[se ad170]
+[wt 1.4]
+
+[messageOff]
+[wipeout downToUp 0.4 1]
+[wait wipe]
+[scene 20320]
+[wt 0.1]
+[wipein upToDown 0.4 1]
+[wait wipe]
+
+[effect bit_talk_22]
+[se bac132]
+[seVolume bac132 0 0.2]
+[wt 3.0]
+
+[wipeout upToDown 0.4 1]
+[wait wipe]
+[effectStop bit_talk_22]
+[scene 34600]
+[wt 0.1]
+[wipein downToUp 0.4 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+（……合図！）[r]遊びは終わりよ、キングゥ！
+[k]
+
+[se ad238]
+[shake 0.05 5 5 0.4]
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠キングゥ
+マルドゥークの斧……！[r]そんなものをエリドゥからここまで[line 3]！？
+[k]
+
+[charaFace G 5]
+＠キングゥ
+だが！
+[k]
+
+[se ad239]
+[seStop ad239 4.0]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[charaMoveReturn G -80,0 0.4]
+[wt 0.5]
+[charaFace G 7]
+＠キングゥ
+そんな大振りが当たるものか。[r]切り札は相手の[#脚:あし]を止めてから使うものだよ、焼き鳥！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+焼き鳥とは失礼ね。
+[k]
+
+＠ケツァル・コアトル
+頭を引っつかんで地面にめり込ませて[r]反省させるところだけど、今回は許してあげましょう。
+[k]
+
+[charaFace E 1]
+＠ケツァル・コアトル
+なぜなら、私たちの狙い通りだからデース！[r]あの斧はあくまでパス！
+[k]
+
+＠ケツァル・コアトル
+私は頼まれた品物を指定通りバッチリ届けた、[r]有能な配達[line 3]
+[k]
+
+[messageOff]
+[fadeout white 0.5]
+[wait fade]
+[charaFadeout E 0.1]
+[se ad62]
+
+＠ケツァル・コアトル
+ス[messageShake 0.01 10 10 1.0][line 3]イ[line 3]シ[line 3]ダ[line 3]！！！！！！？
+[k]
+
+
+[seStop ad62 1.5]
+[fadein white 1.5 1]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠ジャガーマン
+ああ！　ククルんが焼き鳥に！[r]そしてスイシーダとはスペイン語で自殺の意！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+[charaFadein H 0.1 0]
+
+
+＠ケツァル・コアトル
+焼き鳥じゃないわ、火の鳥よ！[r]ああもう、神罰が落ちちゃったじゃない！
+[k]
+
+[charaFace H 1]
+＠ジャガーマン
+おお……あんなに山盛りだったククルんの神性が……[r]なんと半分以下に！
+[k]
+
+＠ジャガーマン
+んー、女神の契りを破ったけど、[r]自分の意思じゃないからセーフだったのかニャ？
+[k]
+
+[charaFace E 5]
+＠ケツァル・コアトル
+マーリン、覚えてらっしゃい！
+[k]
+
+＠ケツァル・コアトル
+アナタには絶対、ぜぇぇぇぇぇったい、[r]ルチャの神髄でお仕置きをしてあげるわ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠キングゥ
+ゴルゴーンの神性が低下している[line 3][r]まさか、今ので神殿が破壊されたのか！？
+[k]
+
+[charaFace G 2]
+＠キングゥ
+ケツァル・コアトル……！[r]そこまでして人間の味方をするのか、貴様は！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+ええ！　ここまでする気はありませんでしたが、[r]結果的にそこまでしてしまいましたとも！
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+あ、でも安心なさいキングゥ。[r]私の手助けはここまでよ。
+[k]
+
+＠ケツァル・コアトル
+ゴルゴーン本人には手を出しません。[r]彼女を討つのは人間たちの役割ですから。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠キングゥ
+……っ！[r]しまった、ここにあの[#女神の幼体]がいない！
+[k]
+
+＠キングゥ
+なんて事だ[line 3]あのサーヴァントだけはまずい！[r]彼女を……ゴルゴーンを助けに行かないと……
+[k]
+
+[charaFace G 5]
+＠キングゥ
+命拾いをしたな、ケツァル・コアトル！[r]貴様の始末はゴルゴーンを助けた後だ！
+[k]
+
+[messageOff]
+
+[charaSpecialEffect G erasureReverse 1 0.1]
+[charaEffect G bit_talk_21]
+[se ad73]
+[wt 0.1]
+[charaEffectStop G bit_talk_21]
+[wt 0.4]
+[se ad136]
+[wt 0.7]
+[seStop ad136 0.8]
+[wt 1.5]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+……やれやれ。[r]後は[%1][&君:さん]の運次第ね。
+[k]
+
+＠ケツァル・コアトル
+けど意外だったわ。[r]キングゥは本気でゴルゴーンを案じていた。
+[k]
+
+＠ケツァル・コアトル
+ゴルゴーンを利用している節もあったけど、[r]あの子はあの子なりに彼女を愛していたのかしら……？
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_24 1.5]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

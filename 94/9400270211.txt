@@ -1,0 +1,199 @@
+
+
+＄94-00-27-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98053000 1 メドゥーサ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 6010001 1 ステンノ]
+[charaSet D 98027000 1 概念礼装]
+
+[scene 22800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ステンノ
+まあ、おめでとうございます。[r]見事な戦いでしたわ、[%1]様♡
+[k]
+
+？1：戦う相手、ぜんぜん違うじゃん！
+？2：ライダークラスが二人いた！
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠エウリュアレ
+それはそうよ。[r]今のは私たちの考えた聖杯戦争ですもの♡
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠メドゥーサ
+本当にすみません……[r]結局、またこんな事になってしまって……
+[k]
+
+？1：メドゥーサさんも被害者だから……
+
+？！
+
+[charaFace A 1]
+＠メドゥーサ
+[line 6]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠エウリュアレ
+はーい、隙あらば和むのはそこまで！[r]私の眼が黒いうちはラブコメとか許さないわよ！
+[k]
+
+[charaTalk A]
+[charaFace A 3]
+[wt 1.0]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ステンノ
+ふふ。[#私:エウリュアレ]ったら過保護なんだから。[r]ともあれ、約束だものね。
+[k]
+
+＠ステンノ
+はい、どうぞマスター。[r]勝利の報酬を受け取りなさい？
+[k]
+
+[messageOff]
+
+[wt 0.1]
+[effect bit_ajcd02]
+[wt 0.1]
+[se ad97]
+[wait effect bit_ajcd02]
+[wt 0.6]
+
+？1：……これは？
+
+？！
+
+[charaFadeout D 0.4]
+[wt 0.3]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠メドゥーサ
+それが今回発表された『劇場版Heaven's Feel』、[r]その第一作をお知らせするメインビジュアルです。
+[k]
+
+＠メドゥーサ
+素敵なカットでしょう？[r]桜もたいへん愛らしく描かれています。
+[k]
+
+？1：そんなドヤ顔で、ライダーさん……
+？2：うん、どことなく不穏だけど、まあ……
+
+？！
+
+[charaFace A 5]
+＠メドゥーサ
+当然です！　可憐さの中に潜む深淵[line 3][r]それが『Heaven's Feel』の醍醐味なのですから！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠エウリュアレ
+そこは譲れないんだ。[r]……はあ。我が妹ながら男心を分かってないんだから。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ステンノ
+いいのよ[#私:エウリュアレ]。[r]私は好きよ、このビジュアル。
+[k]
+
+＠ステンノ
+素朴な花だって磨けば光るものでしょうし。[r]もっとも[line 3]
+[k]
+
+＠ステンノ
+世の中には磨いてはいけないものもある。[r]この少女がそうでない事を祈りましょう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠メドゥーサ
+いえ、そこはガチです。[r]桜はstay nightイチのヒロインですから。
+[k]
+
+＠メドゥーサ
+磨けば磨くほど、その方向の魅力は[r]増していくものと断言します。
+[k]
+
+？1：そうか、安心した！
+？2：ライダーさんが言うなら確かですね！
+
+？！
+
+[charaFace A 6]
+＠メドゥーサ
+もちろん。期待は裏切りませんとも。[r]公開された暁には、ぜひ劇場まで足をお運びください。
+[k]
+
+＠メドゥーサ
+お勧めはやはり夜のレイトです。[r]臨場感が違いますから、きっと！
+[k]
+
+[charaFace A 1]
+＠メドゥーサ
+[line 3]さて。[r]長くなってしまいましたが、私からはここまでです。
+[k]
+
+＠メドゥーサ
+詳しくは作品公式のホームページ、[r]またはufotableさんからの続報をお待ちください。
+[k]
+
+＠メドゥーサ
+『Fate/Grand Order』もいよいよ後半戦ですが、[r]『劇場版Heaven's Feel』もよろしくお願いします！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wt 1.9]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

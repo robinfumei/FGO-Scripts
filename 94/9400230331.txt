@@ -1,0 +1,213 @@
+
+＄94-00-23-03-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4004001 1 アストルフォ]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 2018001 1 子ギル]
+
+[scene 20210]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+な、何とか仕留めました……。[r]巨大霊体、崩壊していきます……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠子ギル
+よしよしオッケー。[r]さあ[line 6]砕け散れ！
+[k]
+
+[messageOff]
+[se ad39]
+[fowardEffect bit_talk_36]
+[wt 2.0]
+[fadeout white 1.0]
+[wait fade]
+[fowardEffectStop bit_talk_36]
+[charaFadeout F 0.1]
+
+[wt 1.0]
+[bgmStop BGM_EVENT_3 0.1]
+[se bac39]
+[seStop bac39 1.0]
+[wt 0.05]
+[se bac25]
+[shake 0.05 0 5 0.04]
+
+
+[wt 2.0]
+[fadein white 1.5]
+[wait fade]
+[wt 1.0]
+
+[bgm BGM_EVENT_6 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠天草四郎
+やれやれ、終わった。[r]あれでは[#天の杯:ヘブンズフィール]に届くまい。
+[k]
+
+[charaFace E 0]
+＠天草四郎
+こうして壊れる結末が、一番相応しかったのかもしれませんね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠子ギル
+はあ、大して欲しくもなかったけど[r]こうして壊れると惜しかった気が……しないかな。
+[k]
+
+[charaFace F 0]
+＠子ギル
+所詮は蝋で作った翼のようなもの。[r]烏の黒羽にも劣る代物でしたし。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アストルフォ
+やあ、これで亜種聖杯戦争も終わりかー。[r]今度こそ[#天草四郎:キミ]を殴れるかと思ったのになあ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠天草四郎
+それは惜しかったですね。しかし、こんな場所で[r]本物のマスターに会うとは僥倖でした。
+[k]
+
+[charaFace E 0]
+＠天草四郎
+いつか正式な契約が結べたならば、[r]お役に立てることもあるでしょう。
+[k]
+
+＠天草四郎
+我が夢を叶えるためにも、[r]喜んで協力させて頂きます。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠アストルフォ
+ボクはその夢、ロクでもないなーって[r]思うんだけどね！
+[k]
+
+[charaFace D 0]
+＠アストルフォ
+ま、いいや。
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+じゃあ、縁があったらシャルルマーニュ十二騎士団の[r]アストルフォ、よろしくね！
+[k]
+
+＠アストルフォ
+召喚してくれたら肩たたきだってしてあげるよ！[r]じゃねー！
+[k]
+
+[messageOff]
+[charaSpecialEffect D flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect D]
+
+[wt 0.4]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠子ギル
+いやあ……ボクも召喚されたいのは山々なんですが、[r]元々ボクも全盛期という訳ではないですし。
+[k]
+
+[charaFace F 0]
+＠子ギル
+でもまあ、大人になったボクより役立てるかも[r]しれないなあ。
+[k]
+
+[charaFace F 1]
+＠子ギル
+うん。どちらが正しいサーヴァントなのか、[r]この際、マスターに審判してもらいましょう！
+[k]
+
+[charaFace F 0]
+＠子ギル
+じゃ、縁があったらよろしく。[r]さようなら、マスター。
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect F]
+
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠天草四郎
+我々サーヴァントにも、夢や野望を持つ者がいます。[r]その夢のため、何かを裏切ることもあるでしょう。
+[k]
+
+[charaFace E 5]
+＠天草四郎
+しかし、かの“王”が行ったそれは夢ではない。[r]時代の焼却、世界の崩壊を夢とは呼びますまい。
+[k]
+
+[charaFace E 4]
+＠天草四郎
+だから彼はきっと、致命的に何かが壊れている。[r]……いや、あるいは[#何もない]のかもしれませんね。
+[k]
+
+[charaFace E 0]
+＠天草四郎
+つけいる隙などなさそうな、圧倒的な力ですが[line 2]。[r]それでもお役に立てることはあるでしょう。
+[k]
+
+＠天草四郎
+マスター、[%1]殿。[r]我が真名は天草四郎時貞。
+[k]
+
+[charaFace E 1]
+＠天草四郎
+裁定者として、サーヴァントとして、[r][&貴方:貴女]と共に戦いに挑みましょう！
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout white 2.0]
+[wait fade]
+[scene 10001]
+[charaFadeout E 0.1]
+[wt 1.0]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_6 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

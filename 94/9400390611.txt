@@ -1,0 +1,114 @@
+＄94-00-39-06-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+
+[scene 27700]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠三蔵
+これが……芭蕉扇？[r]噂の芭蕉扇とは、だいぶ違うけれど……。
+[k]
+
+[charaFace A 4]
+＠三蔵
+まるで……聖剣のようじゃない……？[r]僧侶が刃物持っていいのかしら……？
+[k]
+
+[charaFace A 1]
+＠三蔵
+火焔山の[#火根:かこん]を絶つには四十九度あおぐはず。ところが[r]これはＥＸ級だから一度でいい、とも彼女は言っていたし。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠沙悟浄
+羅刹女めが持っていた経典も、素直に差し出しおった。[r]芭蕉扇だけが[#偽物:にせもの]とは考えにくかろう。
+[k]
+
+＠猪八戒
+なあに、[#贋作:がんさく]を掴まされたかどうかは[r]一発振るってみればわかるさブヒ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+[bgmStop BGM_EVENT_7 1.5]
+＠三蔵
+それもそうね、やってみる！[r]それじゃあ、いっくわよぉ[line 3]。
+[k]
+
+[charaFace A 2]
+＠三蔵
+[fontSize large]エクスぅ～～～[wait touch]カリ[#芭蕉扇:ばしょうせん]！
+[k]
+
+
+[messageOff]
+[se bas1]
+[fowardEffect bit_talk_30]
+[wt 0.8]
+
+[charaFadeout A 0.1]
+
+[se ad2]
+[fowardEffect bit_talk_tornado01]
+
+[scene 27710 2.0]
+[wait scene]
+[seStop ad2 0.8]
+
+[bgm BGM_EVENT_2 0.1]
+
+＠三蔵
+すごい！　消えた！[r]炎を吹き飛ばしたわ！
+[k]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠三蔵
+じゃあ火渡りの修行は無駄ってコト？　と[r]悲しくなるけど、それはそれ！
+[k]
+
+[charaFace A 1]
+＠三蔵
+[%1]！[r]やったのね、あたしたち！
+[k]
+
+？1：えっと、残るは牛魔王のみ……！？
+？2：牛魔王が話がわかる相手だといいね？
+？！
+
+[charaFace A 0]
+＠三蔵
+[line 3]ええ！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

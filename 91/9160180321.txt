@@ -1,0 +1,191 @@
+＄91-60-18-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6018001 1 Ｘ]
+[charaSet D 1001001 1 アルトリア]
+[charaSet E 1013001 1 カエサル]
+[charaSet F 1018001 1 アルテラ]
+[charaSet G 1026001 1 シュヴァリエ・デオン]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+
+[scene 20900]
+[fadein black 2]
+[wait fade]
+
+＠アルトリア
+そ、そんな馬鹿な……、ホームグラウンドかつ[r]知名度補正ＭＡＸの私が敗れるとは……（がくー）
+[k]
+
+[se ad58]
+[charaFadeout D 0.1]
+[seStop ad58 0.5]
+
+[wt 1]
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+[charaFace C 1]
+＠Ｘ
+……か、勝った、勝ちましたよマスター！！[r]ついに、ついに私が……
+[k]
+
+＠Ｘ
+“セイバー・ＴＨＥ・セイバー”に！！
+[k]
+
+？1：おめでとう、セイ……、じゃないヒロインＸ！！
+
+＠Ｘ
+ありがとうございますマスター！　これでもう未知の[r]セイバーに怯えて枕を濡らす日々ともさよならです！
+[k]
+
+？2：マシュも何か言ってあげて。
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+え？　わ、わたしからですか！？
+[k]
+
+[charaFace A 1]
+＠マシュ
+お、おめでとうございます、アルト……、[r]じゃない謎のヒロインＸさん！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+
+？！
+
+＠Ｘ
+ついに全てのセイバーが滅ぼされ[r]最高のセイバーである私が素敵で無敵に勝ち進む
+[k]
+
+＠Ｘ
+セイバーのための聖杯戦争……[r]真の聖杯戦争が幕を開けるのです！！
+[k]
+
+[charaFadeout C 0.1]
+
+[messageOff]
+[charaFace E 1]
+[charaFace G 1]
+[charaFace F 1]
+[charaTalk off]
+[charaDepth G 1]
+
+
+[charaFadein E 0.4 2]
+[wt 0.5]
+[charaFadein F 0.4 0]
+[wt 0.5]
+[charaFadein G 0.4 1]
+[wt 0.5]
+
+＠いろんなセイバー
+おめでとう！　おめでとう！　おめでとう！！
+[k]
+
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠Ｘ
+ありがとうございます、みなさん！！[r]ありがとうございます、みなさん！！
+[k]
+
+＠Ｘ
+全てのセイバーを超えた究極のセイバー[r]そう、わたしこそが……
+[k]
+
+＠Ｘ
+“セイバー・ＴＨＥ・セイバー”！！
+[k]
+
+[messageOff]
+[se ad16]
+[fadeout white 2.0]
+[wait fade]
+[wt 1.0]
+[seStop ad16 1.5]
+[wt 0.5]
+[bgmStop BGM_EVENT_4 0.1]
+[wt 1.0]
+[bgm BGM_EVENT_2 0.1]
+[scene 21006]
+[charaFadeout C 0.1]
+[fadein white 2.5]
+[wait fade]
+
+[wt 0.5]
+＠？？？
+……さん、……イバーさん、じゃなかった[r]謎のヒロインＸさん！
+[k]
+
+＠Ｘ
+ところで皆さん、気づかなかったと思いますが[r]実は私はアーサ……、はっ！！？
+[k]
+
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+夕食のおうどんができましたから[r]そろそろ起きてください。
+[k]
+
+[charaFadeout A 0.1]
+
+[se ad7]
+[wt 1.0]
+[seStop ad7]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 5]
+＠Ｘ
+こ、これは……、まさか……
+[k]
+
+？1：寝ぼけてるの？
+？2：おうどん食べないの？
+
+？！
+
+[charaFace C 2]
+＠Ｘ
+いまどき夢オチって！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォーウ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

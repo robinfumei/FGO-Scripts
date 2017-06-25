@@ -1,0 +1,502 @@
+＄94-00-39-05-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+[charaSet D 7003000 1 白龍馬]
+[charaSet E 99502600 1 マシュ]
+[charaSet F 98003003 1 Dr.ロマン]
+
+[scene 20300]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠三蔵
+みんな！[r]あの山は絶対に面白いんだから！
+[k]
+
+？1：えっ、[#藪:やぶ]から[#棒:ぼう]に、なに？
+？2：フラグを立てにいくスタイルよくない
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+……？　お師匠さまはずいぶんハイになってるけど、[r]なんのことだろうね？
+[k]
+
+＠沙悟浄
+紅孩児を倒したのだ。となれば[line 3][r]次なる最大の障害は[#火焔山:かえんざん]であろう。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+……話は変わるが、お師匠。[r]我らは何者かに[#追躡:ついじょう]されておる。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠三蔵
+[#尾行:びこう]の気配ってヤツ？[r]いいわよ。魔物に狙われるのは仕方がないわ。
+[k]
+
+＠三蔵
+むしろ都合がいいわ。その追っ手だって、[r]この先の火焔山で[#撒:ま]くことができるからネ！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+
+[charaFadeout A 0]
+
+[scene 27700]
+
+[cameraMove 0 0,100 1.5]
+[wait camera]
+
+[bgm BGM_EVENT_5 2.0]
+[se ad11]
+[fadein black 2.0]
+[wait fade]
+
+[cameraMove 3.0 0,-100 1.5]
+[wait camera]
+[seStop ad11 2.0]
+
+[cameraHome 0.5]
+[wait camera]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+
+＠猪八戒
+……熱い……熱い……ブヒ……ね……[r][%1]の[&兄貴:姉貴]。実は……。
+[k]
+
+＠猪八戒
+僕はこう見えて、熱さに弱くて、ね……[r]こんがりと焼けてしまいそうだ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+うむ、これは聞きしに[#勝:まさ]る魔の山よ。
+[k]
+
+＠沙悟浄
+雨にも消えることなく、燃え尽きることもない。[r]その炎は鋼鉄をも溶かす、と言う。
+[k]
+
+[charaFace C 4]
+＠沙悟浄
+これは……さすがに、人間は当然として、[r]サーヴァントですら避けて通る障害だな……。
+[k]
+
+？1：地上に現れた地獄みたいだけど……
+？2：お師さん、まさか……
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠三蔵
+もっちろん！[r]あの山は、絶対に面白いもの！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+お師匠。『面白ければいい、という話ではない』[r]彼はそう言っているブヒ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠三蔵
+それは修行が足りないから！[r]ちょうど良いわ、ここで修行ポイントを稼ぎなさい！
+[k]
+
+[charaFace A 0]
+＠三蔵
+これこそは御仏の導き！[r]艱難辛苦も慣れれば涼し！
+[k]
+
+[charaFace A 5]
+＠三蔵
+この燃えさかる山脈を越えずして[r]天竺にはたどり着けないわ！　決して！
+[k]
+
+？1：ぐ、具体的な方法は！？
+
+？！
+
+[charaFace A 0]
+＠三蔵
+そこはアンシンして。
+[k]
+
+[charaFace A 1]
+＠三蔵
+魔物たちの到来はともかくとして、[r]この火焔山はあたしも予期していた。
+[k]
+
+＠三蔵
+[#取経:しゅきょう]の旅を通じて、[#功徳:くどく]を積んだあたしは、[r]火の上を自在に渡ることが出来るの。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+ほお、[#火渡:ひわた]りの[#荒行:あらぎょう]か。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+この[#業火:ごうか]も、元は天上の[#八卦炉:はっけろ]の火が[r]地上にこぼれ落ちたもの。
+[k]
+
+＠三蔵
+御仏の与えた試練ならば、[r]あたしが渡りきれば、この火も消えるはず……！
+[k]
+
+？1：……そう都合よくいく[&だろうか:かな？]
+？2：嫌な予感がする
+
+？！
+
+[charaFace A 0]
+＠三蔵
+いいから見てなさい。[r]……ちょっと時間はかかるかもだけど！
+[k]
+
+[charaFace A 5]
+＠三蔵
+すぅ……はぁ……[r]すぅ……はぁ……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+あ、お師匠さんの♪[r]ちょっといいとこ見てみたい♪
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+（ゴクリ）
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.4]
+[seLoop ad60]
+[wt 1.0]
+[seStop ad60 2.0]
+[wt 2.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠沙悟浄
+………………先へ向かったぞ。[r]炎の上を確かに歩いているが……。
+[k]
+
+[charaFace B 5]
+＠猪八戒
+行ってしまったね。[r]まさか本当にやるとはブヒ。
+[k]
+
+[charaFace B 4]
+＠猪八戒
+でもねぇ。焼き豚経験から言うと、アレだよ？[r]炎の上を歩いたところで、高熱と煙があるよ？
+[k]
+
+[charaFace C 5]
+＠沙悟浄
+っ！　うむ、その通りだ！[r]儂ともあろうものが抜かったわ！
+[k]
+
+？1：た、助けなきゃ！
+？2：ダッシュだ白龍馬！　お師さんを連れ戻[&せ:して]！
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+？！
+
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[wipeout rollLeft 2.0 0.5]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_7 3.0]
+[wt 1.0]
+[wipein rollLeft 2.0 0.5]
+[wait wipe]
+
+[se ad54]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+
+
+＠三蔵
+げほっ……げほっげほっ……[r]うう……[#入滅:にゅうめつ]するかと思った……。
+[k]
+
+[charaFace A 5]
+＠三蔵
+火に触れてなくても肉って焼けるのね……[r][#燻:いぶ]す、ってこういうコトかぁ……。
+[k]
+
+＠三蔵
+如来様の袈裟がなかったら[r]とっくに消し炭になってたかも……。
+[k]
+
+？1：お、面白かった？
+
+[charaFace A 4]
+＠三蔵
+ぎゃてぇ……[r]ぜんぜん面白い山じゃなかった……ぐすん……。
+[k]
+
+？2：心配させないで[&くれ:よ]、お師さん！
+
+[charaFace A 3]
+＠三蔵
+ぎゃてぇ……[r]ごめんなさい……反省する……。
+[k]
+
+？！
+
+[charaFace A 5]
+＠三蔵
+でも……。
+[k]
+
+＠三蔵
+これ、違う……！　ぜんぜん違う！[r]あたしの知ってる火焔山じゃない……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace A 5]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠沙悟浄
+それはいかなる意味か？[r]頭チリチリのお師匠よ。
+[k]
+
+[bgmStop BGM_EVENT_7 0.1]
+
+[messageOff]
+[charaTalk E]
+[se ad13]
+[wait se ad13]
+
+[se ad31]
+＠E：？？？
+……輩……そこ……先輩……か……！？
+[k]
+
+[seStop ad31 1.0]
+
+？1：声が……！？
+？2：[line 3]マシュ！
+？！
+
+
+[bgm BGM_EVENT_2 0.1]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut F 1]
+
+[charaEffect F bit_talk_10]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0 1]
+
+＠マシュ
+ああ……よかったっ……[r]ずっと待ってました、先輩……！
+[k]
+
+[charaFace E 1]
+＠マシュ
+ドクター！　ドクター！[r]至急、管制室へ来てください！
+[k]
+
+[charaFadeout E 0.1]
+[charaPut F 1200,1200]
+[charaEffectStop F bit_talk_10]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+おや。カルデアからの通信かい？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaEffect E bit_talk_10]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0 1]
+
+＠マシュ
+状態がとても不安定です……[r]通信が[#途絶:とぜつ]する前に、[#手短:てみじか]に伝えます……！
+[k]
+
+[charaFadeout E 0.1]
+[charaPut E 1200,1200]
+[charaEffectStop E bit_talk_10]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+＠猪八戒
+……む。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace B 1]
+＠猪八戒
+いや、なんでもないよ。[&兄貴:姉貴]は[r]のんびり通信しているといい。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+うむ、ゆるりとな。[r]背後は[#任:まか]されよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+あれは……山を追われた魔物たち！？[r]こっちへ向かって……？
+[k]
+
+？1：くっ、こんな時に敵襲だなんて……！
+？2：頼[&む:むね]、[#弟弟子:おとうとでし]たち！
+
+？！
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,784 @@
+
+
+＄94-00-91-02-1-0
+
+
+
+[charaSet A 99502600 1 マシュ]
+[charaSet B 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4019001 1 マルタ]
+[charaSet E 4014001 1 牛若丸]
+[charaSet F 6011001 1 荊軻]
+[charaSet G 6014001 1 マタ・ハリ]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 20322]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+『賢者の贈り物』、という物語が[r]ありますよね、トナカイさん？
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+私が思うに、[r]あれの感激はその一瞬でしかありません。
+[k]
+
+[charaFace B 4]
+＠ジャンヌ・オルタ・サンタ・リリィ
+髪は伸びますが、親の形見である時計が[r]取り戻されることはもうない。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+あの様子では、旦那さんが新しい時計を[r]買うことも当分ないでしょう。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+奥さんの方は櫛を使う度に罪悪感が募り、[r]旦那さんは櫛を見る度に被害者的な感情に苛まれる。
+[k]
+
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+これはいけません。志が尊くとも、やはりあの贈り物は[r]賢者ではなく、愚者のそれなのです。
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[line 3]そう、だから彼女に[r]本当に相応しいプレゼントは、これなのです。
+[k]
+
+
+[fadeout black 0.6]
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[wt 1.0]
+[charaFadeout B 0.1]
+[wait fade]
+
+[scene 10000]
+
+
+[fadein black 0.5]
+[wait fade]
+
+[fowardEffect bit_queststart80035]
+[wt 0.1]
+[wait fowardEffect bit_queststart80035]
+[wt 0.9]
+
+[fadeout black 1.0]
+[wait fade]
+[scene 20322]
+[fadein black 0.6]
+[wait fade]
+
+[bgm BGM_EVENT_7 0.4]
+
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ふんふんふーん、ふんふんふーん、[se ad187][seVolume ad187 0 0.5][r]ふんふんふん　ふふーん♪[se ad187][seVolume ad187 0 0.3]
+[k]
+
+[seStop ad187 1.5]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+夜空を切り裂き、空を飛ぶ[line 3][r]これこそサンタのあるべき姿です！
+[k]
+
+？1：楽しそうだね
+
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+楽っ……い、いえ。[r]これは仕事です、仕事ですから！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+サンタは歌うのもお仕事なんです！
+[k]
+
+？2：綺麗な声だね
+
+[charaFace B 3]
+＠ジャンヌ・オルタ・サンタ・リリィ
+きれっ……。[wt 0.3][r]ト、[charaFace B 0]トナカイさんはなかなか見る目がありますね！
+[k]
+
+？！
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+という訳で、最初のリクエストは[r]け、き……けーさんです。
+[k]
+
+？1：荊軻だね
+？！
+
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+わ、分かってます！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+去年のリクエストは『切れ味の良い短刀』で、[r]貰ったものは『優雅なおじ様』だったそうですが……。
+[k]
+
+[charaFace B 4]
+＠ジャンヌ・オルタ・サンタ・リリィ
+『優雅なおじ様』って何ですか？
+[k]
+
+？1：背中からぐさーっ！　されるおじ様
+？！
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+……？
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+分かりませんが、ともかくけーかさんの[r]プレゼントとしては相応しくありません！
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+この方に相応しいプレゼントを持ってきたので、[r]早速洞窟に向かいましょう！
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ところで、これどうやって降りるんですか……？
+[k]
+
+
+
+[wipeout rectangleStripDownToUp 1.3 1.0]
+[messageOff]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[scene 20110]
+[wt 1.5]
+
+[wipein rectangleStripUpToDown 1.3 1.0]
+[wait wipe]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 2 2 1.0]
+＠マルタ
+また！[r]去年に！　引き続いて！　コレなの！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠牛若丸
+まあまあまあ、まあまあまあ、[r]一杯いかがですか、マルタ殿。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠マルタ
+ああもう、今年は牛若丸もへべれけ状態……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠牛若丸
+いやいや、いやいやいや。[r]拙者、酔ってないでござるよ。
+[k]
+
+[charaFace E 6]
+＠牛若丸
+主殿も大概でござるなあ。[r]（地蔵様に話しかけながら）
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠マルタ
+胡散臭いサムライ語を喋らないの。[r]拙者なんて一人称、ひとりいれば十分です。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠荊軻
+マ[line 3]ル[line 3]タ[line 3]！[r]鉄拳ユッケ作って鉄拳ユッケ[line 3]！
+[k]
+
+[charaFace F 6]
+＠荊軻
+拳で！　肉を挽き潰して！[r]フシギと美味しくなるあれ[line 3]！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+はいはい、分かったわよ。[r]今年も手間の掛かる二人ですね、まったく！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠マタ・ハリ
+でも今年のクリスマスは楽しいわあ。[r]去年はどうして教えてくれなかったのよ～。
+[k]
+
+[charaFace G 1]
+＠マタ・ハリ
+ねえ、マルタ。ねえってばあ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 2 2 1.0]
+＠マルタ
+ええい、手間の掛かるのが増えた！[r]こうなる予感がしてたからよ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠マタ・ハリ
+ぶぅぅぅぅぅぅ……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠マルタ
+荊軻ー！[r]他に何かリクエストあるー？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠荊軻
+んー？
+[k]
+
+[charaFace F 6]
+＠荊軻
+酒はたっぷりあるから、[r]ひとまずユッケだけで充分だぞー！　ぷはー！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠牛若丸
+あ、はいはいはい！[r]私からリクエストが。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠マルタ
+はいはい、何？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠牛若丸
+まる鍋を所望したいのですが、[r]いかがでしょう。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠マルタ
+まる鍋？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠マタ・ハリ
+マルタを鍋るの？[r]猟奇的じゃないかしら～。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠牛若丸
+いえ、まる鍋とはスッポン鍋のことです。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+ああ、スッポン……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠荊軻
+おー、スッポンかー！[r]スッポンいいなー！　アレは精力つくしなー！
+[k]
+
+[charaFace F 8]
+＠荊軻
+我らが主に食べさせるという手もあるぞー！[r]夜は激しいぞ[line 4]！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+はいはい。[r]残念だけど、スッポンは調達してないわよ。
+[k]
+
+[charaFace D 2]
+＠マルタ
+大体、この厳かな日に精力とか何事ですか。
+[k]
+
+[charaFace D 4]
+＠マルタ
+多少騒ぐ程度は大目に見ても、[r]そういうのはちょっと……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFace E 6]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+＠牛若丸
+ははははは、マルタ殿は何を仰っているのか。[r]スッポンなら、ほらここに大きいのが。
+[k]
+
+[charaMove E 3 1.0]
+[wait charaMove E]
+
+[charaTalk off]
+[charaFace D 2]
+＠マルタ
+[messageShake 0.05 4 4 1.0]
+それタラスク！[r]ターラースーク－！
+[k]
+
+[charaMove D 1 0.4]
+[wait charaMove D]
+[wt 0.4]
+
+
+
+
+[charaMove D 2 0.7]
+[charaMove E 0 0.7]
+[wait charaMove D]
+[wait charaMove E]
+
+[charaTalk F]
+[charaTalk on]
+
+
+＠G：タラスク
+（姐さん……友達は選んだ方が……）[r]↑雨で濡れた子イヌのように怯えきった顔で
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠マタ・ハリ
+ちょっと牛若丸ちゃん、[r]タラスクちゃんが可哀想じゃない。
+[k]
+
+[charaFace G 3]
+＠マタ・ハリ
+大体、こんなに大きいと大味じゃないの？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠荊軻
+んー、それじゃー、一丁やってみるってのは[r]どうかな！？
+[k]
+
+[charaFace F 7]
+＠荊軻
+ははははは！[r]タラスク鍋、タラスク鍋だー！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad60]
+[wt 1.3]
+[seStop ad60 0.3]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 2]
+[charaMove B 1 0.7]
+[wait charaMove B]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ほら、見て下さいトナカイさん。[r]この酸鼻極まった状況を。
+[k]
+
+？1：恐ろしい光景だ……
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+大の大人がよってたかって、[r]亀をつつき回すとか。
+[k]
+
+[charaFace B 4]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ちょっとした地獄絵図ですよね。[r]醜い……具体的に言うと醜い……。
+[k]
+
+？2：色々な意味でむごい……
+
+[charaFace B 4]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい、タラスクも惨いですがそれ以上に惨いのが、[r]普段シャンとしている大人たちです。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut C 1]
+[charaEffect C bit_talk_10]
+[wt 0.1]
+[se ad13]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+昨年の出来事はサンタオルタさんから[r]伺っていましたが……聞きしに勝る酷さですね……。
+[k]
+
+[charaFadeout A 0.1]
+[charaPut C 1200,1200]
+[charaEffectStop C bit_talk_10]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+あ、サンタとトナカイ。[r]また来たの？　こんな早くに？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+来ました！[r]まったく、去年と変わらずろくでなしなのですね！
+[k]
+
+[charaFace B 5]
+＠ジャンヌ・オルタ・サンタ・リリィ
+何かと言えばお酒に逃げて、お酒に依存して、[r]お酒に溺れるなど、それでも大人ですか！
+[k]
+
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+まったくもう、[r]バカじゃないですか！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+……随分ちっこくなったわね。[r]去年と比較して。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 4 4 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+背丈のことは言わないで下さい！[r]伸びます！　これからもーっと伸ーびーまーすー！
+[k]
+
+[charaTalk off]
+
+[charaFace F 6]
+[charaFadein F 0.1 -1024,0]
+[charaMove F -128,0 1.7]
+＠荊軻
+なあにぃ、サーンーター？
+[k]
+
+[wait charaMove F]
+[charaShake B 0.05 4 4 0.4]
+[wt 0.4]
+
+[charaFace B 2]
+[charaMove B 1024,0 0.2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ぴぃっ！
+[k]
+[wait charaMove B]
+
+[charaMove F 1 0.4]
+[wait charaMove F]
+
+[charaFace F 8]
+＠荊軻
+あー、サンタがまた来てるー！[r]ま、ま、ま。一杯一杯。
+[k]
+
+[charaTalk on]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠牛若丸
+荊軻殿、サンタが怯えて隠れてしまいました。[r]ダメでしょう。
+[k]
+
+[charaFace E 7]
+＠牛若丸
+もぐらを殺すには、煙で燻す。
+[k]
+
+[charaFace E 6]
+＠牛若丸
+砦に籠もった兵士たちの首を刎ねるには、[r]何もかも燃やしてしまうのが一番です。
+[k]
+
+＠牛若丸
+という訳でザックリと燃やしましょう！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 4 4 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+トトトトナカイさん！　トナカイさん！？[r]牛若丸さんが怖いんですけど！
+[k]
+
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+これだから酔っ払いは嫌なんです！[r]クリスマスに相応しくありません！
+[k]
+
+？1：とりあえずおしおきで
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠牛若丸
+おしおき……酔い響き、違う、良い響きです。
+[k]
+
+＠牛若丸
+こう、兄上は眉間に指をあてて[r]その指をぷるぷると震わせているだけなのですが、
+[k]
+
+＠牛若丸
+義姉に当たる政子様は、それはそれは苛烈な方で。
+[k]
+
+＠牛若丸
+功績を挙げ続けなければ、即座に首が刎ねられていても、[r]おかしくはありませんでした。
+[k]
+
+＠牛若丸
+おしおきですね、いいでしょう。
+[k]
+
+[charaFace E 7]
+＠牛若丸
+しかし、半端なおしおきだった場合、[r]この牛若丸、遠慮なく噛み砕いてみせます！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+？2：拳で説得するしかない
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠マルタ
+拳で説得……いい言葉ね。[r]けれど、これでも私たちは女子会メンバー。
+[k]
+
+＠マルタ
+友情を尊重し、私はこちら側に立つわ……！[r]あと、ついでにマスターには記憶を失って貰いましょう。
+[k]
+
+[charaFace D 3]
+
+＠マルタ
+ほら、次に会うとき気まずそうですし。[r]ねえ？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？！
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+フッ、戦いですか。[r]いいでしょう。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+では、トナカイさん。[r]指揮をお願いします！
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+戦いに勝った暁には、[r]ちゃんと私を褒め称えて下さいね！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut C 1]
+[charaEffect C bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+へべれけ残念女子会メンバー、来ます……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaPut C 1200,1200]
+[charaEffectStop C bit_talk_10]
+
+[soundStopAll]
+[end]

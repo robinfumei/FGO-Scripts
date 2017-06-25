@@ -1,0 +1,104 @@
+＄91-20-11-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10902]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 2011001 1 ニコラ・テスラ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 98006100 1 ホムンクルス]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ま、魔力反応……。[r]完全に消滅……しました……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+倒しちゃったね。うん。[r]いやあ人間ていうか英霊、やればできるもんだ。
+[k]
+
+＠Dr.ロマン
+こっちからの観測記録じゃ正確なことまでは[r]把握できないけれど、もしも真性悪魔だったなら……。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……いや、うん。やめよう！[r]この話やめ！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+と、ともかく！　放っておいても、もしかしたら[r]時代の修正が先に終わって大丈夫だったかもだけど。
+[k]
+
+＠Dr.ロマン
+危険な可能性をひとつ排除できた。[r]素直に喜んでおこう！
+[k]
+
+？1：うん、良かった
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。そうですね、先輩。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+？2：雷電すごいですね
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ニコラ・テスラ
+ははは。[r]時代を拓く人類神話の源だ。凄いとも。
+[k]
+
+[charaFace C 0]
+？！
+
+＠ニコラ・テスラ
+さてと。[r]散歩はこのあたりで終わりとしよう。
+[k]
+
+＠ニコラ・テスラ
+次は、そうだな[line 2][r]レイシフトなるものの[#実地調査:フィールドワーク]が必要だ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え、またやるの！？[r]も、もう悪魔みたいなのは勘弁ですよ！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォウフォウ、フォーウ！
+[k]
+
+[charaFadeout D 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

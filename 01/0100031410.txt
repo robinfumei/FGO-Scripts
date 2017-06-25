@@ -1,0 +1,296 @@
+＄01-00-03-14-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21340 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98019000 1 イアソン]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaSet F 3016000 1 ヘクトール]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 98018100 1 海賊]
+[charaTalk F]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace F 0]
+[charaFadein F 0 2]
+[fadein black 1]
+[wait fade]
+＠ヘクトール
+……遅いですねえ。
+[k]
+
+＠イアソン
+矢はもう射ってこないか……？[r]メディア、使い魔で様子を見てみろ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠メディア・リリィ
+その必要はなさそうです。[r]残念ですが、ヘラクレスが倒されました。
+[k]
+
+[charaFace D 3]
+＠イアソン
+何……？[r]おい、メディア。その冗談、全く笑えないぞ。
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21250 0]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ドレイク
+お、いたいた。[r]おーい、聞こえるかイアソン！
+[k]
+
+[charaFace G 2]
+＠ドレイク
+さあて、それじゃ戦おうじゃないか！
+[k]
+
+＠イアソン
+……馬鹿な！[r]ヘラクレス！　ヘラクレスはどうした！？
+[k]
+
+[charaFace G 0]
+＠ドレイク
+おいおい。[r]どうした、ってアタシたちに聞くのかい？
+[k]
+
+[charaFace G 1]
+＠ドレイク
+アイツが生きてたら、アタシたちが[r]生きているはずないだろ？
+[k]
+
+＠ドレイク
+アタシたちが生きているんだから、アイツは死んだ。[r]そら、わかりやすい理屈じゃないか。
+[k]
+
+＠イアソン
+死ぬはずがないだろう！？[r]アイツはヘラクレスだぞ！　不死身の大英雄だ！
+[k]
+
+＠イアソン
+[#英雄:オレ]たちの誰もが憧れ、挑み、[r]一撃で返り討ちにされ続けた頂点なんだぞ！？
+[k]
+
+＠イアソン
+それがこんな、おまえらのような[r]寄せ集めの雑魚どもに倒されてたまるものかァ！！！！
+[k]
+
+[charaFace G 0]
+＠ドレイク
+……ふーん、アンタにも[#一角:ひとかど]の友情はあったんだね。[r]ひどく歪んでいるけどさ。
+[k]
+
+[charaFace G 0]
+＠ドレイク
+ま、いいさ。そう信じたいならそうすればいい。[r]こっちは勝負を決めるだけさね。
+[k]
+
+[charaFadeout G 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21340 0]
+[charaFace D 3]
+[charaFadein D 0.4 0]
+[charaFace F 0]
+[charaFadein F 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠イアソン
+く……ふ、船を出せ！
+[k]
+
+[charaFace F 0]
+＠ヘクトール
+おや、逃げるんですかい？
+[k]
+
+[charaFace D 2]
+＠イアソン
+撤退だ！　この聖杯を使って、[r]新しいサーヴァントを召喚すればいい！
+[k]
+
+[charaFace F 0]
+＠ヘクトール
+見たところ、まだこちらの方が有利だと思いますがね。[r]……ま、キャプテンの命令なら仕方ないかねえ。
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21250 0]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[charaFadein H 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ドレイク
+やっぱり逃げる気かい。[r]予想通りだ、野郎ども準備はいいね！
+[k]
+
+[charaFace G 2]
+＠ドレイク
+『[#黄金の鹿号:ゴールデン・ハインド]』！[r]これが最後の航海、最後の海賊だ！
+[k]
+
+[charaFace G 5]
+＠ドレイク
+目標はアルゴー号！[r]連中が持っている財宝はアタシたちの自由の海だ！
+[k]
+
+[charaFace G 0]
+＠ドレイク
+ぜんぶまとめて取り返すよ！[r]鐘を鳴らしな、兄弟！
+[k]
+
+＠海賊
+あいよ、姐御！
+[k]
+
+[charaFace G 2]
+＠ドレイク
+取り舵一杯！[r]砲撃と射撃を行いつつ、接近！
+[k]
+
+[se ad34]
+[charaFadeout G 0.4]
+[charaFadeout H 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21340 0]
+[charaFace D 3]
+[charaFadein D 0.4 0]
+[charaFace F 0]
+[charaFadein F 0.4 2]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait wipe]
+＠イアソン
+なにをやっている！[r]さっさと突き放せ！
+[k]
+
+＠ヘクトール
+アーチャークラスが大勢いるせいか。[r]攻撃も一段と激しいねぇ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠メディア・リリィ
+砲弾程度ならどうにかなりますが、[r]アタランテたちの矢は、私たちでないと防げません。
+[k]
+
+[charaFace D 3]
+＠イアソン
+くそ、なぜ追いつかれる……！[r]この船は伝説のアルゴー号だぞ！
+[k]
+
+[charaFace D 3]
+＠イアソン
+あいつらが使っている、[r]神秘の欠片もない帆船とは訳が違うのに……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ヘクトール
+操舵手の差ってやつでしょうかね。[r]あれが海と共に生きてきた人間の技。
+[k]
+
+[charaFace F 1]
+＠ヘクトール
+目的があって旅をしただけの人間とは、[r]根幹から違うってことでしょうなあ。
+[k]
+
+[charaFace D 2]
+＠イアソン
+くそ……仕方あるまい。[r]聖杯よ！
+[k]
+
+[se su2]
+[charaFadeout D 0.4]
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21250 0]
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ドレイク
+追いついたねえ、顔だけ男！[r]最期に格好いいとこ見せてもらおうじゃないか！
+[k]
+
+＠イアソン
+この、下衆どもめが……！[r]行け！　殺せ！
+[k]
+
+[charaFadeout G 0.4]
+[charaSet B 98025000 1 シャドウサーヴァント(素手)]
+[charaFadein B 0.1 1]
+[wt 0.7]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ！
+[k]
+
+＠マシュ
+……あれは、シャドウサーヴァント！[r]気をつけて下さい、皆さん！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaSet H 2006000 1 ダビデ]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠ダビデ
+やれやれ。ろくでもない代物だ。
+[k]
+
+[charaFace H 0]
+＠ダビデ
+……だが、ろくでもない代物に頼り出すってことは[r]そろそろ追い詰められているね？
+[k]
+
+＠イアソン
+なんだと、テメェ……！
+[k]
+
+[charaFace H 1]
+＠ダビデ
+おいおい、イアソン君とやら。[r]そう怖い顔をしないでくれ……図星だろう？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

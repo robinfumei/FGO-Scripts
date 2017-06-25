@@ -1,0 +1,123 @@
+
+
+＄94-00-57-09-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 4024000 1 モードレッド]
+[charaSet E 3025000 1 清姫]
+[charaSet F 5027000 1 マリー]
+
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+人が、道を作ったことで楽になったとする。[r]ならば、その次に人が考えることは何だと思う？
+[k]
+
+[charaFace B 0]
+＠スカサハ
+人間の代表として[%1]に聞こう。[r]答えよ。
+[k]
+
+
+？1：[line 2]もっと楽をしたい、だと思います！
+？！
+
+[charaFace B 4]
+＠スカサハ
+その通りだ。嘆かわしいとも言えるし、楽をするために[r]修行をし続けているとも言える。難しいところだな……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+というわけで、次は水路ですね。
+[k]
+
+＠マシュ
+貯水施設に水を運ぶ経路を作ることで、より真水の確保を[r]しやすくしてしまおう、ということです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+異論はありません。[r]木で作ると優しい感じがして好みですね。
+[k]
+
+＠清姫
+端材で簡単な水車なども作ると、[r]さらにいろいろ捗ると思いますよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+石の水路のほうがしっかりしてない？[r]見た目もそっちのほうがオシャレだと思うわ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+まあ待て。もっとこう[line 2]あるだろ？　できるだろ？[r]スカサハの技術ならもっとスゲェのが！
+[k]
+
+＠モードレッド
+つーわけで、オレはパイプを推すぜ。[r]スタイリッシュで超クールだろ？
+[k]
+
+[charaFace C 4]
+＠モードレッド
+ったく、オマエらは毎回毎回、選択肢にロマンが[r]足りねえよ。
+[k]
+
+[charaFace C 2]
+＠モードレッド
+あ、勿論、あのナヨッとしたヤツのことじゃねぇぞ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+久しぶりに聞いた単語なのでちょっと懐かしいですね。[r]ドクター、どうしているでしょうか……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+と、ちょっとノスタルジックになりつつも、[r]先輩、選択をお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

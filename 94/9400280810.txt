@@ -1,0 +1,509 @@
+＄94-00-28-08-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 11003001 1 ジャンヌ・オルタ]
+[charaSet E 3012001 1 ブリュンヒルデ]
+
+[scene 20901]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ブリュンヒルデ
+心苦しいですが、ここまでです。[r]さよなら、お姉様[line 2]
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect E flashErasure 0 0 1]
+[wait charaSpecialEffect E]
+[charaFadeout E 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.5]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+…………。[r]フン。戯れ言ね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+今のは真実の吐露だったように見えるが。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+戯れ言よ。[r]あの七騎の贋作英霊は、私が娯楽で作り出した駒。
+[k]
+
+＠ジャンヌ・オルタ
+そこに敬愛も信頼もないわ。[r]だって私たちは、初めから偽物として生まれたのだから。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+……はあ。ここまで追い詰められて、[r]まだ自分の本心に気づかないなんて。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+黒いジャンヌ・ダルク。[r]絵画や彫像の贋作は置いといてだ。
+[k]
+
+＠ダ・ヴィンチちゃん
+英霊の贋作に関しては、君は良い線行っているよ。[r]贋作が真作を超える事を目標にしていたと言うけれど。
+[k]
+
+＠ダ・ヴィンチちゃん
+その点において、[r]君は既に真作を超えた贋作を作っている。
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+だってほら、真作の連中は[#英雄らしさ]に縛られるから。[r][%1][&君:ちゃん]もそう思うだろ？
+[k]
+
+？1：彼らは皆楽しそうだった
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+……。[r]……。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+楽しそうって何よ。[r]ふざけないでよ、楽しいはずないでしょうが。
+[k]
+
+？2：一人も恨み言は言わなかった
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+馬鹿馬鹿しい。[r]なに言ってるの。恨んでない訳ない。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+私はアイツらを強引に召喚して、[r]それだけじゃ飽き足らずにパラメータを改竄した。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+表向きは私の配下に収まっていても、[r]裏では蔑んでいたに決まってる……！
+[k]
+
+？！
+
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+あのねえ。私は数多の真作の創造主、[r]レオナルド・ダ・ヴィンチだぞ？
+[k]
+
+＠ダ・ヴィンチちゃん
+その私が、真贋を見定められないとでも思うのかい？[r]彼らは[charaFace B 0]心から満足していた。
+[k]
+
+＠ダ・ヴィンチちゃん
+それこそ、本物のサーヴァント以上にね。[r]君への気遣いと、親愛を持っていた。
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+それに[%1][&君:ちゃん]の発言も重要だ。[r]ここまで幾つもの修羅場を潜ってきたマスター。
+[k]
+
+＠ダ・ヴィンチちゃん
+その[&彼:彼女]が断言したんだ。[r]あの贋作英霊たちに偽りはなかった、と。
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+ほら。私を信じられなくても、[r][%1][&君:ちゃん]は信じられるだろう？
+[k]
+
+
+[bgmStop BGM_EVENT_5 1.0]
+[wt 1.0]
+[bgm BGM_EVENT_2 0.1]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+……分からない。分からない分からない分からない！[r]何も、何一つとして分からない！
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+だって……私に愛される要素なんてない！[r]魅力なんてない！　どうしようもなく捻くれた小娘よ！
+[k]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+あるのは吐き気がするほど強い力だけ！[r]でも、しょうがないでしょ！？
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+私にはそれしかない！[r]復讐に駆り立てられる私には、それしかない！
+[k]
+
+＠ダ・ヴィンチちゃん
+[line 2]うん。なら、それでいいんじゃないか？
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+……は？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+愛される要素とか、魅力とか、[r]サーヴァントとして相応しいかどうかとか、
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+そういうのを色々と考えて悩んで、[r]結論付けているのが混乱の素だ。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+君はとうの昔に理解しているじゃないか。[r]復讐に燃える少女よ。
+[k]
+
+＠ダ・ヴィンチちゃん
+その邪悪な力を大いに振るい、[r]反英雄なり何なりになってしまえば良かった。
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+そうしてから、こちらのサーヴァントとして、[r]召喚されてしまえば良かったんだ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+フン。今更どのツラ下げて[line 2]。
+[k]
+
+？1：歓迎するよ
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+少しは考えなさいよ、このスカタン！！
+[k]
+
+？2：ようこそカルデアへ！
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+アナタの頭にはシークタイムって[r]ものが存在しないの！？　電卓なの！？
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+英霊だとか反英雄だとかへの拘らなさに関してなら、[r][%1][&君:ちゃん]は満点三つ星のマスターだよ。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+さあ、どうする？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+……。[r]……。
+[k]
+
+？1：……
+？！
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+…………。[r]…………。
+[k]
+
+？1：…………
+？！
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+……………………。[r]……………………。
+[k]
+
+？1：……………………
+？！
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+……私の負けね。
+[k]
+
+＠エミヤ
+敗北を認めるのか？
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+ある一点を除いて、[r]私は敗北を認めます。
+[k]
+
+＠ジャンヌ・オルタ
+あの聖女への劣等感を認めます。[r]誰かに求められたいという渇望を認めます。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+そして、未だこの胸に[#燻:くすぶ]る憎悪を認めます。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+私がどれほどの功を成し、どれほどの命を救おうと[line 3][r]報われる事のないアヴェンジャーである事も認めます。
+[k]
+
+＠ジャンヌ・オルタ
+そして、それでも。[r]あらゆる罪を犯した、どうしようもない復讐者の私でも。
+[k]
+
+＠ジャンヌ・オルタ
+この力を望むなら、この憎悪の旗を望むなら。[r]召喚に応じましょう、世界最後のマスターよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター……やりました！
+[k]
+
+？1：それじゃあ、帰――
+？！
+
+[bgmStop BGM_EVENT_2 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+さあ、それでは最後の殺し合いを[r]開始しましょう！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+え……えぇ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+ハァ？　デミ・サーヴァント、何で目玉ひん剥いてる訳？[r]そら、戦うわよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+え、でも……！？[r]貴女は降伏したはずでは……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+[line 2]してないわよ。全然、全くしてない。[r]まさか私がこのままカルデアに行くと思ったの？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい。[r]少なくとも殺し合う必要はない、と思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+あるわよ。[r]だって、アナタたち[line 2][#私の駒を倒したじゃない]。
+[k]
+
+＠ジャンヌ・オルタ
+贋作英霊の頂点として、譲れないのはその一点。[r]全力で戦う。後にはこれっぽっちも退けないわ。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+だって[line 3]私、とびきり邪悪な英霊ですもの。[r]私に楯突いた相手を、簡単に逃がすと思う？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠エミヤ
+……まったく。[r]悪なりのリーダーの矜持というヤツか。
+[k]
+
+＠エミヤ
+これは仕方がないな。[r]観念して戦うぞ、マスター。
+[k]
+
+[charaFace C 1]
+＠エミヤ
+気分を切り替えろ。[r]これが最後の戦いになる。
+[k]
+
+？1：……でも
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+[%1][&君:ちゃん]。[r]いいや、マスター。
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+もう君だって分かっているはずだ。[r]この戦いは誰より彼女に必要なんだって事に。
+[k]
+
+＠ダ・ヴィンチちゃん
+もしここで私たちが退いたら、[r]君は一生彼女に恨まれるよ？
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+それは、ほら。[r]なんていうか、すごく怖いし、すごく嫌だろう？
+[k]
+
+？1：……戦闘準備！
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+ウイ。[r]そう、そうそう、その生意気な顔よ！
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+オルレアンでも何度、跪かせてやりたかったか！[r]踏みにじってやりたかったか！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+[line 2]さあ、喰らってやるわ真作ども！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……ッ！[r]残っていたエネミーも来ます！
+[k]
+
+[charaFace A 5]
+＠マシュ
+マシュ・キリエライト行きます！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

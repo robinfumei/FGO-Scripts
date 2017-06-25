@@ -1,0 +1,95 @@
+
+＄91-30-13-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3013001 1 スカサハ]
+[charaSet E 3001001 1 クー・フーリン]
+
+[scene 20700]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠スカサハ
+やはりおまえは鉄火場が似合うなクー・フーリン。[r]両目が爛々と輝きだしているではないか。
+[k]
+
+＠クー・フーリン
+切ったはったしてりゃあ血ぐらい高ぶる。[r]戦好きはガキの頃からの悪癖だ。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+うむ。だが槍の精度がちと甘い。[r]雑魚だからと力任せで手を抜いたな？
+[k]
+
+[charaFace D 4]
+＠スカサハ
+槍は筋力で振るうものではないと教えただろうに。[r]おまえのさぼり癖だけは私でも直せなかったが……
+[k]
+
+[charaFace D 5]
+＠スカサハ
+よし、次は竜だ。[r]竜殺しの称号、ついでに戴いておこう……百匹ほどな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+この人も滅茶苦茶言ってるなあ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+クー・フーリンさん、生きてますか？[r]……というか、まだ続けますか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+続けるとも。肩も暖まってきた頃合いだしな。[r]ようし、[charaFace E 2]竜でも何でも持ってきやがれ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.4]
+[bgmStop BGM_EVENT_2 0.1]
+
+[se ad19]
+[wait se ad19]
+
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠スカサハ
+よろしい。[r]それでは行け、我が愛弟子よ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

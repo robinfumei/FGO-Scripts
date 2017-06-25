@@ -1,0 +1,260 @@
+＄01-00-04-12-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20201 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98026000 1 マキリ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ？？？]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[se ad61]
+[backEffect bit_talk_lightning_01t]
+[fadein black 1]
+[wait fade]
+[seStop ad61 5.0]
+[wt 2.0]
+＠H：？？？
+[line 3]私を、呼んだな。
+[k]
+
+[charaFace H 5]
+＠H：？？？
+雷電たるこの身を呼び寄せたものは、何か。[r]天才たるこの身を呼び寄せたものは、何だ？
+[k]
+
+＠H：？？？
+叫びか。願いか。善か。悪か。
+[k]
+
+[charaFace H 0]
+＠H：？？？
+なるほど[line 3][r]今こそ、それらのすべてが私を呼び付けたと言う訳か。
+[k]
+
+[charaFace H 2]
+＠H：？？？
+この私を。[r]天才にして雷電たる、このニコラ・テスラを！
+[k]
+
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaFace H 0]
+[charaFadein H 0]
+＠ニコラ・テスラ
+なかなかに面白い。[r]碩学たちが揃いも揃って私を呼ぶか！
+[k]
+
+＠ニコラ・テスラ
+人類に新たな神話をもたらした者！[r]インドラを超え、ゼウスさえも超えるこの私！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+ハハハ[line 3]
+[k]
+
+＠ニコラ・テスラ
+ハハハハハハハハハハハハハハハハハ！！[r]面白い！　我が哄笑をもたらしたぞ、碩学ども！
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+私は天才であると同時に[#奇矯:ききょう]を愛する超人である！[r]ならば、良かろう！
+[k]
+
+＠ニコラ・テスラ
+お前たちの願いのままに！[r]天才にして雷電たる我が身は地上へと赴こう！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+ハハハ！[r]ハハ[line 3]ははははははははははははははははッ！！
+[k]
+
+[charaFadeout H 0.4]
+[se ad60]
+[wt 0.4]
+[backEffectStop bit_talk_lightning_01t]
+[wt 1.6]
+[messageOff]
+[fadeout black 0.5]
+[seStop ad60 0.4]
+[wait effect]
+[wait fade]
+[wt 0.3]
+[scene 20201 0]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 0]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_1 0.1]
+[wait fade]
+＠Dr.ロマン
+[line 2]と言う訳で、だ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+召喚による爆発的な魔力で、君たちがそれぞれ[r]吹き飛ばされたり瓦礫の下敷きになりかかってるうちに。
+[k]
+
+＠Dr.ロマン
+英霊ニコラ・テスラは地上への移動を開始した。[r]それがおよそ数分前の出来事だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ニコラ・テスラ。[r]科学者や発明家として知られる人物ですね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+仮に現代を電気を中心とした機械文明として捉えれば、[r]彼はその[#礎:いしずえ]を築いた人物と言えるでしょう。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+彼自身もそう言っていたけども、[r]星の開拓者のひとり、と呼べるかも知れないね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+本来はこの時代に生きる人間のはずですが、[r]英霊、サーヴァントとして現界した、と……？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+そういうことだね。過去の記録にも、[r]同様の例はあるようだ。片方は人間、片方は英霊。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+だが今回、人間のニコラ・テスラは関係ないだろう。[r]英霊として現界した彼を止めるだけだ。
+[k]
+
+＠Dr.ロマン
+ニコラ・テスラが自動的に周囲へもたらす[r]強力な雷電は、瞬時に魔霧を活性化させる性質がある。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+彼がこのまま魔霧の特に集積する地帯へと至れば、[r]ロンドンの異常事態は爆発的に拡大してしまうだろう。
+[k]
+
+＠Dr.ロマン
+ロンドンだけの話じゃない。[r]被害はブリテン島全域に及ぶ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そうなってしまえば[r]この特異点の人理修復は不可能だ。
+[k]
+
+＠Dr.ロマン
+人理の底は完全に破壊され、[r]人類の歴史はこの時代で途絶えるだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+それは……マキリ・ゾォルケンの語っていた[r]言葉通りになる、ということですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+その前に、あの雷野郎を叩けばいいんだろ？[r]わかり易くていいぜ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+本来、魔霧から現界した英霊は[r]自動的に敵となる訳じゃないはずなんだけど……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+彼の場合、マキリの詠唱によって[r]僅かに狂化スキルに似た効果を付与されたようだ。
+[k]
+
+＠Dr.ロマン
+完全なバーサーカー、という訳じゃない。[r]でも、自我と行動を抑制されているのは確かだ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+ボクが回線越しに声を掛けた時、[r]彼は一通り、それなりには反応していたけど[line 3]
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+確かに、行動を抑制されている気配があった。[r]放っておけば彼は自動的に魔霧に接触してしまう。
+[k]
+
+？1：止めよう！
+
+？2：早く追い掛けよう
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、先輩。[r]ところで……その、怪我はしていませんか？
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]のバイタルに問題はないよ。[r]マシュが咄嗟に庇ってくれたからね。それより、だ。
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+ああ、敵だ。雑魚どもが来たぞ。[r]主人が消えたってのに、律儀なこった！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、指示を。[r]敵性集団を撃破します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

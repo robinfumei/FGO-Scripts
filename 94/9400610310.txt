@@ -1,0 +1,402 @@
+＄94-00-61-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 5027000 1 マリー]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 4024000 1 モードレッド]
+[charaSet F 98101700 1 魔猪]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+魔猪以外にも、エネミーがいるようですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+
+＠スカサハ
+魔猪の仕業ではないな、コレは。[r]もしかすると、うりぼうたちが作ったのかもしれん。
+[k]
+
+＠スカサハ
+防衛用か自衛用か……。[r]いずれにせよ、[charaFace B 4]魔猪には勝てなかったようだが。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+我々以外が倒したオートマタも転がっていた。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠マリー
+わたしには、相当強かったように[r]思えたのだけど……。
+[k]
+
+＠マリー
+少なくとも、今まで戦ってきた魔猪さんより、[r]強かったと思うわ。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+……つまり、こういう事だ。[r]あの雑魚魔猪を上回る力を持つモノがいる。
+[k]
+
+＠スカサハ
+恐らく、この先にな。[r]マスター、進むぞ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+さすがにあの島の巨大魔猪みたいなものが、[r]そうそう生誕するとは思えないが[line 3]
+[k]
+
+＠スカサハ
+放置しておけば、魔猪は爆発的に能力を向上させる。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+もしかすると、城塞級の怪物が複数体[r]出現するかもしれん。
+[k]
+
+＠スカサハ
+各自、用心を怠らないように。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠玉藻の前
+それはまた、難儀ですね……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+まあ、それを待つという手もあるか。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+城塞級の魔猪……クラン・カラティンと[r]同格か、あるいは……フフフフフ。
+[k]
+
+？1：バトルマニア自重
+
+[charaFace B 3]
+＠スカサハ
+う、うむ。[r]分かっている、分かっているぞ。
+[k]
+
+＠スカサハ
+マスターの指示にきちんと従う[r]良いサーヴァントだからな、私は。
+[k]
+
+？2：ダメなり
+
+[charaFace B 4]
+＠スカサハ
+ダメなりか……。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マリー
+……あ、見えてきたわ！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_5 0.4]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.3]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+
+＠魔猪
+……。[r]……。
+[k]
+
+[charaFadeout F 0.4]
+[wt 0.7]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠マリー
+こ、この魔猪さん……。
+[k]
+
+[charaFace D 2]
+＠玉藻の前
+デカッ！？
+[k]
+
+[charaFace D 5]
+＠玉藻の前
+あの例の巨大魔猪と[r]ほぼ同サイズですよ、コレ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……でも、巨大魔猪ではないようですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠スカサハ
+どうやらこの木を守っているようだが[line 3][r]ん[charaFace B 0]？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠マリー
+どうしたの？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠スカサハ
+[line 3]ああ、なるほど。[r]そういう事か。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+なるほどなるほど。[r]そうかそうか。んー。
+[k]
+
+？1：何が？
+
+[charaFace B 5]
+＠スカサハ
+……まあ、これが終わったら見せてやろう。
+[k]
+
+＠スカサハ
+恐らく、この先に待ち構えているものがあるはずだ。[r]それと対面すれば、否応なく理解できるだろうさ。
+[k]
+
+？2：気付いたことでも？
+
+＠スカサハ
+少々な。[r]何、さして状況に変わりはないよ。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+ただまあ、問題が一つあってな。[r]……この島、マズいかもしれん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+マズい……ですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠モードレッド
+何だよー、教えろよー！
+[k]
+
+[charaFace C 1]
+＠マリー
+何やらとっても意味深ね！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠スカサハ
+それはそうだ。[r]美人は秘密を幾つも抱えているものだからな。
+[k]
+
+？！
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠魔猪
+……。[r]……。
+[k]
+
+
+＠玉藻の前
+あらあら？　何か喋りたそうに[r]口を開いてますけど……。
+[k]
+
+[effect bit_talk_41]
+[shake 0.05 0 4 0.4]
+[se ad19]
+＠魔猪
+ギ……ギギ。[r]ギィィィィィィィィィィィッ！！
+[k]
+
+
+＠マリー
+きゃあ！？
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.3]
+
+[messageOff]
+[effect bit_talk_06b2]
+[wt 1.0]
+[se ad42]
+[charaShadow F true]
+[charaChange F 7001000 2 fade 1.0]
+[wt 0.2]
+[effectStop bit_talk_06b2]
+[wt 2.0]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaShadow F false]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠玉藻の前
+へ、変化した！？[r]しかもアレは[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠スカサハ
+ギリシャ神話に誉れも高き、ヘラクレスか……！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaShadow F true]
+[charaFadein F 0.1 1]
+[effect bit_talk_41]
+[shake 0.05 0 4 0.4]
+[voice 700100_0_B100]
+＠魔猪
+[image berserker_language_1][line 2]！！！
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.3]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaShadow F false]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠スカサハ
+……[#狂戦士:バーサーカー]め！[r]問答無用ということらしいな！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠玉藻の前
+マスター、お退がりを！
+[k]
+
+[charaFace D 0]
+＠玉藻の前
+頭で物事考えられないタイプのサーヴァント、[r][#私:わたくし]の得意分野でございます！
+[k]
+
+[charaFace D 2]
+＠玉藻の前
+ウェルダンに焼くか、レアに焼いてワサビ醤油[r]というのも乙でございましょうね！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

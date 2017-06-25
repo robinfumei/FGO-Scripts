@@ -1,0 +1,863 @@
+＄01-00-03-10-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaSet F 7001001 1 ヘラクレス]
+[charaSet G 2012001 1 エウリュアレ]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk H]
+[charaFace F 5]
+[charaFadein F 0 0]
+[charaFace H 2]
+[charaFadein H 0 2]
+[fadein black 1]
+[wait fade]
+＠アステリオス
+う、ぅ、ああああああああああああ！！
+[k]
+
+[messageOff]
+[se bac5]
+[charaEffect F bit_talk_12]
+[wt 0.5]
+[charaEffectStop F]
+[wait charaEffect F]
+[charaFace F 2]
+＠ヘラクレス
+[image berserker_language_2][line 2]！！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+倒した……！？
+[k]
+
+＠Dr.ロマン
+いや、ダメだ……！[r]反応はまだ消えていない！
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21330 0]
+[charaSet E 98019000 1 イアソン]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠イアソン
+おー、頑張る頑張る頑張るねえ！[r]そこで君たちにとっておきの情報だ！
+[k]
+
+[charaFace E 4]
+＠イアソン
+[line 2]ヘラクレスはね、死なないんだよ。
+[k]
+
+＠マシュ
+え……？
+[k]
+
+[charaFace E 0]
+＠イアソン
+ヘラクレスのもっとも有名な[#伝説:エピソード]。[r]神から与えられた十二の試練。
+[k]
+
+＠イアソン
+それを踏破したコイツは、[r]それだけの生命が報酬として与えられている。
+[k]
+
+[charaFace E 1]
+＠イアソン
+ま、つまりあと十一回倒さなきゃいけないということで。[r]頑張ってくれ。
+[k]
+
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+そん、な……十一回……なんて。
+[k]
+
+＠Dr.ロマン
+ふ、不可能だ。イカサマ過ぎるぞこんなもの……！！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+……撤退だ！　撤退するよ、全員！[r]さあ、船に戻りな！！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21330 0]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠イアソン
+ははははは！　いいね、最高だ！[r]圧倒的な暴力で敵を駆逐する！
+[k]
+
+＠イアソン
+これが「正義」の醍醐味だ！　そう思わないか！？[r]なあ、ヘクトール！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk B]
+[charaFadein E 0.1 0]
+[charaSet B 3016000 1 ヘクトール]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaFace B 1]
+＠ヘクトール
+ん～……まあ、ヘラクレスは楽でいいですねぇ。[r]ああ、それと聖杯です。
+[k]
+
+[effect bit_talk_20 0]
+[se bac35]
+[wt 0.5]
+[charaFace E 4]
+＠イアソン
+おお、これが聖杯か。[r]ま、この世界の王である資格としては充分か。
+[k]
+
+[effectStop]
+[wait effect]
+[charaFace E 3]
+＠イアソン
+私の前の所有者が、愚劣な海賊であることが残念だ。[r]後はエウリュアレと[line 2]『[#契約の箱:アーク]』。
+[k]
+
+[charaFace E 4]
+＠イアソン
+それですべてが揃う！
+[k]
+
+＠フォウ
+フォウ……！
+[k]
+
+＠マシュ
+アーク……？
+[k]
+
+[charaSet C 98003003 1 Dr.ロマン]
+＠Dr.ロマン
+アークだと……!?
+[k]
+
+[charaFace B 0]
+＠ヘクトール
+キャプテン、それバラしていいんですかねえ？
+[k]
+
+[charaFace E 0]
+＠イアソン
+構わないさ、ヘクトール！[r]どうせ彼らには何も[#理解:わか]らない！
+[k]
+
+＠イアソン
+この世界も！　この時代も！[r]我らの真意も、何一つな！
+[k]
+
+[charaFace B 4]
+＠ヘクトール
+……まあ、理解できてないのはお互い様だと思うがねえ。
+[k]
+
+[charaFace E 4]
+＠イアソン
+さあ、ヘラクレス！[r]トドメを刺せ！
+[k]
+
+[charaFadeout E 0.4]
+[charaFadeout B 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ヘラクレス
+[image berserker_language_1][line 8]！！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 15]
+＠マシュ
+くっ……！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠アステリオス
+……！！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk G]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[se bac8]
+[charaShake G 0.05 0 2 0.5]
+[wt 0.3]
+[charaFace G 2]
+＠エウリュアレ
+きゃっ！
+[k]
+
+＠ドレイク
+しまっ……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[charaFadein F 0.1 1]
+[charaFace F 5]
+＠ヘラクレス
+[image berserker_language_2][line 4]！！
+[k]
+
+＠エウリュアレ
+[line 2]あ、ダメ、かな。
+[k]
+
+＠イアソン
+！？[r]バカな、やめろヘラクレス……！！
+[k]
+
+＠イアソン
+段取りが狂うだろうが！[r]その女を殺すなァァァァッ！！
+[k]
+
+＠アステリオス
+……っ！！
+[k]
+
+＠エウリュアレ
+……っ！
+[k]
+
+[messageOff]
+[se ad32]
+[fadeout white 0.1]
+[wait fade]
+[charaFadeout F 0.1]
+[wt 0.3]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+[fadein black 0]
+[wait fade]
+＠エウリュアレ
+アステリオス[line 2]！？
+[k]
+
+[charaFace H 2]
+＠アステリオス
+ぬ、ぅぅぅぅぁぁぁぁぁぁぁぁぁっ！！
+[k]
+
+[se ad33]
+[wait se ad33]
+＠エウリュアレ
+アステリオス……駄目よ、もう。[r]敵わない！　私たちは、そいつに、勝てない！
+[k]
+
+＠エウリュアレ
+駄目なのに、駄目なのに、どうして……！[r]アステリオス！
+[k]
+
+[charaFace H 5]
+＠アステリオス
+……っ！[r]……ぅぅぅ！！
+[k]
+
+＠アステリオス
+ころ、した。ころした、ころした、ころした！[r]なにもしらない、こどもを、ころした！
+[k]
+
+＠アステリオス
+ちちうえが、そうしろって。[r]ちちうえが、おまえはかいぶつだから、って！
+[k]
+
+[charaFace H 4]
+＠アステリオス
+でもぜんぶ、じぶんのせい、だ。[r]きっとはじめから、ぼくのこころは、かいぶつだった。
+[k]
+
+＠アステリオス
+でも、なまえを、よんでくれた。[r]みんながわすれた、ぼくの、なまえ……！
+[k]
+
+[charaFace H 0]
+＠アステリオス
+なら、もどらなくっ、ちゃ。[r]ゆるされなくても、みにくいままでも、
+[k]
+
+[charaFace H 2]
+＠アステリオス
+ぼくは、にんげんに、もどらなくちゃ……！
+[k]
+
+[messageOff]
+[se bac4]
+[charaEffect H bit_talk_12]
+[charaEffectStop H]
+[wait charaEffect H]
+[charaFace H 5]
+＠アステリオス
+……ぐっ！
+[k]
+
+＠イアソン
+気が利いてるじゃないか、牛頭！[r]メディア！　エウリュアレを回収しろ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メディア・リリィ
+はい。さすがはミノスの牡牛。一度きりとはいえ、[r]最期にヘラクレスを押し返してくれました。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+[charaFace D 5]
+＠ドレイク
+させるか……！
+[k]
+
+[se bac21]
+[wait se bac21]
+[charaFace D 2]
+＠ドレイク
+こっちに来な、エウリュアレ！
+[k]
+
+[charaFace E 5]
+＠メディア・リリィ
+……？　なぜそこまで彼女を守るのです？[r]恋も愛も知らない。欲望だけの海賊のアナタが、なぜ？
+[k]
+
+[charaFace D 2]
+＠ドレイク
+ハッ、そんなコトもわからないのかい？[r]アタシが非人間だろうと、この小娘の美しさは本物だ！
+[k]
+
+[charaFace D 0]
+＠ドレイク
+とくに心が美しい。アンタみたいに盲目じゃない。[r]とくれば、アタシらが守るのも当然さ！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+エウリュアレはアタシらのお宝だよ！[r]あんな男に髪の毛一本だってくれてやるもんか！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+＠エウリュアレ
+ドレイク……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+エウリュアレさん、退がって……！[r]向こうの狙いはあなたです！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21330 0]
+[charaSet E 98019000 1 イアソン]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠イアソン
+何をやってる、ヘラクレス、メディア！
+[k]
+
+[charaFace E 3]
+＠イアソン
+ああクソ、どうしてオレ以外のヤツラは[r]果てしなくバカなんだ！
+[k]
+
+＠イアソン
+ヘラクレス、その牛男にトドメを刺せ！[r]だがエウリュアレには手を出すな！
+[k]
+
+＠ヘラクレス
+[image berserker_language_2][line 3]！
+[k]
+
+＠アステリオス
+ぐ、うぅ……！！
+[k]
+
+[charaFace E 2]
+＠イアソン
+オレの言うコトがきけねえのかクソがぁ！[r]ぐ、くっ[line 3]ふう、ヘクトール！
+[k]
+
+[charaFadeout E 0]
+[charaTalk B]
+[charaFadein E 0.1 0]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠ヘクトール
+はいよ。[r]……やっちまいますかね？
+[k]
+
+[charaFace E 3]
+＠イアソン
+……ああ。私は物事が順序よく進まないと[r]苛立つ性格でね。
+[k]
+
+＠イアソン
+特に味方の無秩序さは我慢ならない。[r]命令を守れないのなら、それは敵より醜いものだ。
+[k]
+
+[charaFace B 0]
+＠ヘクトール
+あいよ。[r]それじゃ[line 2]宝具解放。
+[k]
+
+[charaEffect B bit_talk_36]
+[se ad39]
+[wt 0.5]
+[charaSet C 2009102 1 オリオン]
+＠オリオン
+あ、ヤベえやコレ。[r]アステリオス、回避しろ！
+[k]
+
+＠アステリオス
+……いや。[r]あれは、だめ、だ。
+[k]
+
+[charaFace B 2]
+＠ヘクトール
+止めたければアキレウスかアイアスの[r]盾を持ってくるんだな！　『[#不毀の極槍:ドゥリンダナ・ピルム]』！！
+[k]
+
+[flashin once 1 0.4 FFFFFF80 00000000]
+[wait flash]
+[charaFadeout E 0.4]
+[charaFadeout B 0.4]
+[charaEffectStop B]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaDepth F 0]
+[charaDepth H 3]
+[charaFace F 5]
+[charaFadein F 0.1 3]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ヘクトール
+……何！
+[k]
+
+[charaFace G 2]
+＠エウリュアレ
+いや……！　アステリオス……！
+[k]
+
+[charaFace F 2]
+[se bac14]
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[wait flash]
+＠ヘラクレス
+[image berserker_language_1][line 4]！！
+[k]
+
+[charaFadeout F 0.4]
+[charaFadeout H 0.4]
+[charaFadeout G 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21330 0]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait wipe]
+＠イアソン
+よくやったヘクトール！[r]牛頭め、ヘラクレスごと串刺しであの世行きだ！
+[k]
+
+[charaFace E 1]
+＠イアソン
+だがヘラクレスはすぐに蘇る。[r]さあ、早く蘇生してエウリュアレを奪え！
+[k]
+
+＠イアソン
+一度死んで牛頭も死んだんだ！[r]おまえの頭も少しは冷めただろう！
+[k]
+
+[charaFace B 4]
+＠ヘクトール
+ありゃ。[r]……そうはいきそうにないですぜ、キャプテン。
+[k]
+
+[charaFace B 5]
+＠ヘクトール
+アステリオスのヤロウ、まだ[#生きて]やがる。
+[k]
+
+[charaFace E 2]
+＠イアソン
+な、何だとぅ!?
+[k]
+
+[charaFace B 1]
+＠ヘクトール
+……すげえな。[r]そういう事か、敵ながら感心するぜ。
+[k]
+
+[charaFace B 0]
+＠ヘクトール
+アイツ、我が身を貫く槍を承知の上で[r]ヘラクレスにしがみついたんですよ。
+[k]
+
+＠ヘクトール
+そうすればこっちの槍が鎖になって、[r]ヘラクレスをつなぎ止められるから。
+[k]
+
+＠ヘクトール
+やっこさん、致命傷を負ってでも[r]エウリュアレを逃がしたいんでしょうなあ。
+[k]
+
+[charaFadeout B 0.4]
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaDepth F 0]
+[charaDepth H 3]
+[charaFace F 5]
+[charaFadein F 0.4 1]
+[charaFace H 4]
+[charaFadein H 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠アステリオス
+……ます、たあ……！[r]ますたあ、ますたぁ、ますたー……！！
+[k]
+
+？1：……撤退する
+
+？！
+
+[charaFace H 0]
+＠アステリオス
+う、うん……！[r]ありが、とう……！
+[k]
+
+[charaFace H 3]
+＠アステリオス
+ますたぁ、も、なまえ、よんでくれた！[r]みんな、かいぶつだと、きらわなかった！
+[k]
+
+＠アステリオス
+うまれて、はじめて！[r]うまれて、はじめて、たのしかった……！
+[k]
+
+＠アステリオス
+ぼくは、うまれて、うれしかった！
+[k]
+
+＠マシュ
+[line 6]
+[k]
+
+[charaFace H 0]
+＠アステリオス
+えうりゅあれを、よろし、く……！[r]ぜんぶ、えうりゅあれの、おかげ、で[line 3]
+[k]
+
+[charaFace H 3]
+＠アステリオス
+ぼくは、えうりゅあれが、だいすき、だ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+＠ドレイク
+船を動かすよ！[r]煙幕用の砲弾をありったけ撃て！
+[k]
+
+[charaFace G 5]
+＠エウリュアレ
+駄目よ。アステリオスが[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+[charaSet E 2009102 0 オリオン]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠オリオン
+うっせえ、チビ女神！[r]アイツの心意気を汲んでやれ！
+[k]
+
+[charaFace G 2]
+＠エウリュアレ
+アステリオス！
+[k]
+
+[charaFace G 4]
+＠エウリュアレ
+誰が何と言おうと、[r]あなたはアステリオス以外の誰でもないわ。
+[k]
+
+＠エウリュアレ
+だから[line 2]お願いだから。[r]怪物になりきれなかったことを、悔やまないで。
+[k]
+
+＠エウリュアレ
+それはとても、尊いことなんだから。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaDepth F 0]
+[charaDepth H 3]
+[charaFace F 5]
+[charaFadein F 0.4 1]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠アステリオス
+……うん。[r]でも、やっぱりかいぶつは、ちゃんとばつをうけないと。
+[k]
+
+[messageOff]
+[se ad36]
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[wt 0.3]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21330 0]
+[charaSet H 98019000 1 イアソン]
+[charaFace H 3]
+[charaFadein H 0.4 0]
+[charaFace B 0]
+[charaFadein B 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠イアソン
+なん、だと……！[r]ヘクトール、追いかけろ！
+[k]
+
+＠ヘクトール
+申し訳ないですが、こりゃ無理ですな。[r]俺の槍諸共、水に沈んじまった。
+[k]
+
+[charaFace B 4]
+＠ヘクトール
+アステリオスは死ぬまで、[r]ヘラクレスから離れないでしょうし[line 2]。
+[k]
+
+[charaFace B 0]
+＠ヘクトール
+ヘラクレスが戻ってくる頃には、[r]連中は遙か彼方です。
+[k]
+
+[charaFace H 2]
+＠イアソン
+……くそ。[r]メディア！
+[k]
+
+[charaFadeout B 0.1]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠メディア・リリィ
+は、はい。
+[k]
+
+[charaFace H 0]
+＠イアソン
+追跡は可能かい？
+[k]
+
+＠メディア・リリィ
+はい、接触した際に彼らの魔術回路構造を解析しました。[r]この世界の何処かにいる限り、見つけ出せます。
+[k]
+
+＠イアソン
+『[#契約の箱:アーク]』は見つけ出せるかい？
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+はい。我々が探しに行かずとも[line 2]。[r]彼らが探し出してくれます。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+あの船長、フランシス・ドレイクはかつてこの世界を[r]大きく広げた英雄。即ち、星の開拓者と呼ばれる者。
+[k]
+
+＠メディア・リリィ
+彼女は世界を開拓するが故に、[r]奇跡を起こすでしょう。
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+それを摘み取ってしまえば、この世界はまさしく[r]イアソンさまの望むままです。
+[k]
+
+＠メディア・リリィ
+大丈夫です、マスター。[r]エウリュアレはいつでも確保可能でしょう。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+あの二騎のサーヴァントが存在する限り、[r]私たちに敵はありませんし[line 2]。
+[k]
+
+＠メディア・リリィ
+わたしたちは聖杯の欠片を手に入れました。[r]これにより、この海の世界を統べる資格を得たのです。
+[k]
+
+[charaFace H 1]
+＠イアソン
+そうか！　なるほど、彼らを利用すればいい訳か！[r]さすがだね、メディア。
+[k]
+
+＠イアソン
+やはり君は裏切りの魔女ではない。英雄の賢妻だ。[r]君はそう呼ばれるべき女性だよ。愛しいメディア。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+裏切りの魔女……誰のことかしら……？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+＠ヘクトール
+姫様よ。アンタ、いつ真実を告げる気だい？
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+真実を告げる必要があるの？[r]いずれ世界は消えるのです。
+[k]
+
+＠メディア・リリィ
+この海だけが永遠なんて、[r]そんなことをあのお方は許さない。
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+なら最後まで幸福な想いに浸ることは、[r]悪い訳ではないと思うけれど？
+[k]
+
+[charaFace B 1]
+＠ヘクトール
+……アンタがそう言うんなら、[r]オジサンは黙っておきますがね。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+それよりヘラクレスに注意をして下さい。[r]彼、やっぱり知性があるみたいです。
+[k]
+
+＠メディア・リリィ
+エウリュアレが鍵であることを知っているのでしょう。[r]だから殺して、崩壊を防ごうとした。
+[k]
+
+[charaFace B 4]
+＠ヘクトール
+あの状態で“知性”があるとは思えないがねぇ……[r]いいさ、注意はきっちりしておくよ。
+[k]
+
+[charaFace B 1]
+＠ヘクトール
+やれやれ。オジサン、真っ当な聖杯戦争に[r]召喚されたかったねえ……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メディア・リリィ
+終焉の針がまた進みました。[r]あと一押しで[#世界:ちつじょ]は崩れ落ちるでしょう。
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+愛しいあなた。それまでにどうか、[r]わたしを夢から覚まさせてくださいね？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

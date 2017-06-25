@@ -1,0 +1,583 @@
+＄94-00-66-18-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103400 1 クロエ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98103500 1 テスタメント]
+[charaSet E 98103900 1 ？？？]
+[charaSet F 98103900 1 ？？？]
+[charaSet G 98103900 1 ？？？]
+[charaSet H 98103900 1 ？？？]
+
+
+[scene 31200]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+もしかしてだけど……
+[k]
+
+[charaFace B 4]
+＠クロエ
+この先に、まだ魔法少女マニアの変態さんが[r]待ち構えてるの？　四天王の親玉ってこと？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+四天王の皆さんが口にしていた[r]あの御方……でしょうか？
+[k]
+
+[charaFace A 14]
+＠マシュ
+……っ……！　あれは……？
+[k]
+
+[charaScale E 0.3]
+[charaScale F 0.3]
+[charaScale G 0.3]
+[charaScale H 0.3]
+
+[charaPut E 600,-200]
+[charaPut F 200,-200]
+[charaPut G -200,-200]
+[charaPut H -600,-200]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaEffect E bit_talk_11]
+[charaEffect F bit_talk_11]
+[charaEffect G bit_talk_11]
+[charaEffect H bit_talk_11]
+[wt 1.0]
+
+
+[charaMove E 0,-200 0.5]
+[charaMove F 0,-200 0.5]
+[charaMove G 0,-200 0.5]
+[charaMove H 0,-200 0.5]
+[wait charaMove]
+
+
+
+[se ad42]
+[charaEffectStop E bit_talk_11]
+[wt 0.05]
+[charaEffectStop F bit_talk_11]
+[wt 0.05]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 1.0 1]
+
+[charaEffectStop G bit_talk_11]
+[wt 0.05]
+[charaEffectStop H bit_talk_11]
+
+[wt 1.0]
+
+
+？1：影が集結して、プリズマでコスモスなカンジに……！？
+？！
+
+[charaChange D 98103900 0 fade 1.0]
+[wait charaChange D]
+
+＠D：？？？
+[line 3]そう、私よ。[r]魔法少女の前に立ちはだかる魔物さんたち？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠クロエ
+ま、魔物ぉ！？　わたしたちが？
+[k]
+
+＠フォウ
+フォウ～！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+我が名はテスタメント[line 3][r][#紳士:おとこ]たちとの聖なる契約の[#標:しるし][line 3]！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ファースト・レディと同じくクロさんに……？[r]いえ、イリヤさんによく似ています……！
+[k]
+
+
+？1：やっぱりイリヤは理想の魔法少女だった？
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+あなたたちがそう思うなら、[r]私の姿もそのように映ることでしょうね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+驚いた……。今度はわたしの[#身体:カラダ]を使わず、[r]直接に魔力で創造したってこと？
+[k]
+
+
+？2：使い回しの使い回しだね
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+そんな残念な言い方やめて！[r]コスモスのデザインは文句なしでしょう！？
+[k]
+
+[charaFace B 5]
+＠クロエ
+ややこしいのは認めるけれど！
+[k]
+
+？！
+
+
+[charaFace B 0]
+＠クロエ
+ま、まあでも、ちょっとほっとしたわ。
+[k]
+
+[charaFace B 5]
+＠クロエ
+ここでプリズマ☆アイリ、華麗に[#降臨:こうりん]！[r]とかいってママが現れたりしたら……
+[k]
+
+[charaFace B 4]
+＠クロエ
+なーんて、内心おっかなびっくりだったもの。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、それは精神的にも[#堪:こた]えそうですね……。
+[k]
+
+
+？1：いったい四天王はなんのために[line 3]？
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+ファントム、ジル・ド・レェ、[r]ディルムッド[line 3]そして、黒髭。
+[k]
+
+[charaFace D 1]
+＠テスタメント
+彼らの強き願い、そして尊い犠牲を通じ、[r]私は存在を確かなものと出来たの。ふふっ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ちょ、出来たのフフフ、って！[r]事も無げに！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+嘘ではないわ。私こそ、彼らの想いの結晶。[r]哀しき[#紳士:おとこ]たちによって創り出された偶像。
+[k]
+
+＠テスタメント
+少女の想いが魔法少女の[#原動力:ちから]となるように[r][#紳士:おとこ]たちの願いが、私を生かし、羽ばたかせる。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あなたが想いの結晶……？　[charaFace A 0]いいえ、そんなものでは。[r][#願い]というより……あれは[#妄執]でした。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+そうね。[r][#尊い]というより、[#憐れで無残]だったわ。
+[k]
+
+[charaFace B 5]
+＠クロエ
+イベント前半にメインで関わってたわたしが[r]言うのもなんだけど、あなた大分歪んでる。
+[k]
+
+[charaFace B 4]
+＠クロエ
+犠牲をささげた魔法で変える世界なんて[r]意味が無いって、何度言えばわかるのかしら。
+[k]
+
+[charaFace B 5]
+＠クロエ
+……なによりイリヤっぽい顔で喋るの[r]そろそろきついからやめてよね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+フフッ、犠牲くらいなんだっていうのかしら？[r]彼らは好んで私に[#貢:みつ]いでくれたのだし？
+[k]
+
+＠テスタメント
+私はすべてを与えるわ。[r]ただ決して[#応:こた]えはしないだけ。
+[k]
+
+[charaFace D 1]
+＠テスタメント
+だってそんなの[#現世:うつしよ]の女で充分でしょう？
+[k]
+
+＠テスタメント
+彼らは[#ＥＤ:エンディング]とかで踊り舞う私に、[r]ただ魅了されているだけでいい[line 3]。
+[k]
+
+[charaFace D 0]
+＠テスタメント
+[#変身バンク:つかいまわし]を無限ループで[r]目に焼きつけているだけでいい[line 3]。
+[k]
+
+
+[charaEffect D bit_talk_06b2]
+
+＠テスタメント
+男たちの願いが[#暗澹:あんたん]と救われぬ[#劣等感:コンプレックス]に満ちているほど、[r]私の夢はキラキラと美しく輝く！
+[k]
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+なっ……急にドロドロと……！
+[k]
+
+
+？1：まるで[#泥中:でいちゅう]の[#蓮:はちす]だ
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+ええ、そうよ。
+[k]
+
+＠テスタメント
+彼らの願いに寄り添いながらも[r]決して入り交じりはしないのが、この私。
+[k]
+
+
+？2：魔法少女ファンを馬鹿にするのだけは許さない！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+そんなつまらない[#自負心:プライド]で[r]ファンを自称だなんて、恥ずかしいわね。
+[k]
+
+？！
+
+[charaFace D 4]
+＠テスタメント
+だいたいアレでしょう？
+[k]
+
+[charaFace D 5]
+＠テスタメント
+むさくるしい男なんて、魔法少女の世界では[r]魔物よりも無価値な[#不要物:ゴミクズ]だわ？
+[k]
+
+[charaFace D 1]
+＠テスタメント
+それにホラ、やっぱり、ね……？
+[k]
+
+[charaFace D 3]
+＠テスタメント
+魔法少女はぁ、魔法少女同士で[r]恋愛すべきだと思うの（はぁと）
+[k]
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+……っ…………。
+[k]
+
+
+？1：だめだ、腐ってやがる
+
+＠クロエ
+アイツ、ミユの姿を借りたほうが[r]良かったんじゃないかしら……。
+[k]
+
+[charaFadeout B 0.1]
+
+
+？2：おともの小動物の美少年化も捨てがたい
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+……キュゥ？
+[k]
+
+[charaShake C 0.05 0 16 0.8]
+＠フォウ
+フォウ、フォフォーウ。[r]フォウフォウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+フォウさんからの慎重で厳重なる抗議[r]のように見受けられますが。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+フフッ、でもちょうどよかったわ。
+[k]
+
+[charaFace D 0]
+＠テスタメント
+私の物語は始まったばかりなのだから。[r]ここで[#餞別:はなむけ]に散りなさい、魔界の魔物さん！
+[k]
+
+[charaFace D 1]
+＠テスタメント
+[#紳士:おとこ]たちの願いを一身にあつめ絶望させながらも[r]ギリギリ[#ＨＰ:ヒットポイント]を残して[#儚:はかな]い希望を抱かせる[line 3]
+[k]
+
+[charaFace D 2]
+＠テスタメント
+そんな甘くて苦い天国と地獄を繰り返す[r]私の旅路を邪魔しないで！？
+[k]
+
+
+？1：……っ……[&こいつ:アレ]は邪悪だと断言する
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+異論はありません！
+[k]
+
+[charaFadeout A 0.1]
+
+？2：[#円環:サークル]の姫とか[#破壊者:クラッシャー]とか[&苦手だなぁ:ちょっと苦手]……
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+キュゥ。
+[k]
+
+[charaFadeout C 0.1]
+
+？！
+
+[bgmStop BGM_EVENT_5 0.5]
+[wt 0.5]
+[bgm BGM_BATTLE_28 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+さて……それはそれとして、[r]このドレスじゃ戦いづらいし転身しなくちゃ！
+[k]
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ええっ……イヤな予感！？[r]もしかしてまた私のボディを使う気！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+フフッ、もうその必要はないわ。
+[k]
+
+[charaFace D 0]
+＠テスタメント
+真に魔法少女に似合う色は何色なのか、[r]カラダで教えてあげるわ！
+[k]
+
+？1：肌色９９％のアレ[&ですか:かな]？
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+倫理！　デンジャー案件！
+[k]
+
+＠クロエ
+あっそう、そこまでいうなら見せてもらうわ！[r]理想の魔法少女の[#戦闘服:ドレス]とその戦いぶりをね！
+[k]
+
+
+？2：ぜひ【ザ・ビースト】バージョンでお頼みします
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター落ち着いてください！[r]そんなむきだしの願いが彼女を生んでしまったのでは？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+その通りよ！[r]……っていうか……
+[k]
+
+[charaFace B 5]
+＠クロエ
+わたしはそういうのも嫌いじゃないけど……[r]時と場所を選んでよね！？
+[k]
+
+？！
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

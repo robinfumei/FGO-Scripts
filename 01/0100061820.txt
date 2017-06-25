@@ -1,0 +1,73 @@
+＄01-00-06-18-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98079000 1 ？？？]
+[charaSet E 6009002 1 静謐のハサン]
+
+[scene 29300]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[charaBackEffect E bit_talk_11]
+＠？？？
+過程は問わぬ。結果のみを見定める。[r]死の舞踏を始めよ、静謐の翁。
+[k]
+
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_24 0.1]
+
+[charaFace E 5]
+＠？？？
+どちらの首が[#晩鐘:ばんしょう]に選ばれるか[line 3][r]それは、汝らが決める事だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaBackEffectStop E bit_talk_11]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+来るぞ……！[r]静謐のハサンの霊基数値、爆発的に増大中……！
+[k]
+
+＠Dr.ロマン
+今までの彼女と思っていたら一瞬で終わるぞ！[r]全力で応戦するんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+でも静謐さんを倒すなんて……！[r]先輩……！
+[k]
+
+？1：イチかバチか、やるしかない……！
+？2：今まで通り、全力で……！
+
+？！
+
+[charaFace A 7]
+[wt 1.0]
+[charaFace A 2]
+＠マシュ
+[line 3]はい！　マシュ・キリエライト、[r]先輩のサーヴァントとして全力で戦います……！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]

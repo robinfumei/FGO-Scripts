@@ -1,0 +1,178 @@
+
+＄91-10-05-03-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1005001 1 ネロ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 亡霊]
+
+
+[scene 20701]
+[fadein black 2]
+[wait fade]
+
+[charaShadow D true]
+[wt 0.3]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+
+[se bac5]
+[charaEffect D bit_talk_12]
+[wt 0.4]
+[se ad32]
+[flashin once 0.1 0.1 FFFFFF80 00000000]
+[shake 0.05 4 4 0.2]
+[wt 0.4]
+
+[se bac5]
+[fowardEffect bit_talk_37 0]
+[wt 0.4]
+[se ad32]
+[flashin once 0.1 0.1 FFFFFF80 00000000]
+[shake 0.05 4 4 0.2]
+[wt 0.4]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaShadow D false]
+[wt 0.4]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 2]
+＠ネロ
+ばかものが！[r]役者たるもの、終幕を拒んでなんとする！
+[k]
+
+＠ネロ
+我らは存分に栄え、その末に滅びるもの！[r]死は避けられぬ！　終わりは変えられぬ！
+[k]
+
+＠ネロ
+だからこそ謳うのだ！[r]だからこそ叫ぶのだ！
+[k]
+
+＠ネロ
+余は愛する事を悔やまず、諦めぬ！[r]幾たび、終幕を迎えようと！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaShadow D true]
+[wt 0.3]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+[bgmStop BGM_EVENT_3 0.5]
+[wt 0.1]
+
+[se bac7]
+[effect bit_talk_12]
+[wait effect bit_talk_12]
+
+＠亡霊
+…………ああ………………聞こえる…………[r]都の嬌声……………………六番目の…………
+[k]
+
+[messageOff]
+
+
+[se ad52]
+[seStop ad52 2.0]
+[charaFadeout D 1.0]
+[wt 1.0]
+[charaShadow D false]
+[wait se ad52]
+[wt 1.0]
+
+[se ad2]
+
+[wt 2]
+
+[seStop ad2 3.5]
+
+[wt 1]
+
+[charaTalk B]
+[charaFadein B 0.4 1]
+[charaFace B 4]
+[wt 0.7]
+＠ネロ
+……さらばだ。[r]ついぞ、“私”に戻る事のなかった少女よ。
+[k]
+
+？1：ネロ……
+？2：“私”って？
+
+？！
+
+＠ネロ
+……うむ。[r]くだらぬ独り言だ、気にしないでほしい。
+[k]
+
+＠ネロ
+それより[line 3]
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+[wt 0.8]
+
+[charaFace B 1]
+＠ネロ
+見事であった、[%1]。[r]さすがは我が契約者！　頼もしい事この上なかったぞ！
+[k]
+
+[charaFace B 4]
+＠ネロ
+おかげでローマを騒がす……いや、騒がしては[r]いないな……なにしろ無視されていたからな……
+[k]
+
+＠ネロ
+淋しいな、余……ちょっとヘコみそうだぞ……
+[k]
+
+[charaFace B 1]
+＠ネロ
+いや、そこはそれ、市民たちは余に気を遣って[r]見ないフリをしてくれていたに違いない！
+[k]
+
+＠ネロ
+さすがは余、そしてローマ市民たち！[r]人類最高の空気を読んだ、だな！
+[k]
+
+？1：どこまでも……ポジティブッ！
+？2：なんという……強がり！
+
+？！
+
+＠ネロ
+ふっ。そうでなくては皇帝なぞ勤まるものか。[r]わずかな希望があれば平気だと笑ってみせる。
+[k]
+
+＠ネロ
+それが余の生き方だ！[r]何度倒れようと、諦めるまでは立ち上がる！
+[k]
+
+＠ネロ
+次からはその証を見せるぞ、[r]マシュ、[%1]よ。
+[k]
+
+＠ネロ
+この勝利は[#そなた]らのおかげ。[r]返礼は戦場の活躍をもって返すとしよう。
+[k]
+
+＠ネロ
+ではカルデアに戻ろうではないか、マスター！[r]我らの手で、地に万雷の喝采を！
+[k]
+
+
+[messageOff]
+[fadeout black 3]
+[wait fade]
+[soundStopAll]
+[end]
+

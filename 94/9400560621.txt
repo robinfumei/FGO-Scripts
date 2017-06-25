@@ -1,0 +1,257 @@
+
+＄94-00-56-06-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+[charaSet A 6001002 1 小次郎]
+[charaSet B 98006000 1 タラスク]
+[charaSet C 9004000 1 マルタ]
+[charaSet D 98100400 1 マシュ]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[se ad114]
+[wt 1.0]
+
+[se ad60]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠小次郎
+くっ！
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+
+[wt 0.5]
+
+
+
+[wipeout downToUp 0.4 1.0]
+[wait wipe]
+
+[scene 20320]
+
+[wipein upToDown 0.5 1.0]
+[wait wipe]
+
+
+[wt 0.3]
+
+＠タラスク
+姐さ[line 3]ん！[r]なぜワシまで塩にィ[line 4]！？
+[k]
+
+[messageOff]
+
+[se ad42]
+
+[wait se ad42]
+
+[wipeout upToDown 0.6 1.0]
+
+[wait wipe]
+
+[scene 30400]
+
+[wipein downToUp 0.7 1.0]
+
+[wait wipe]
+
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠マルタ
+あ、ごめんタラスク。[r]ついカッとなって、いつものノリで。ごめんね☆
+[k]
+
+？1：何ィ、正体は佐々木小次郎だったのかー（棒）
+？2：アイランド仮面……やぶれたり！
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠小次郎
+……ふ、ふふふ。いやあ、負けた負けた。[r]完敗にござる。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠マルタ
+……満足した？　ていうかもう一回聞くけど[line 3][r]何のつもりだったのよ？
+[k]
+
+＠マルタ
+勝者[line 3]違う、争いの空しさを説いた聖職者には、[r]それくらい聞く権利があるでしょ？
+[k]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠小次郎
+拙者……拙者は……。
+[k]
+
+[charaFace A 2]
+＠小次郎
+[fontSize large]拙者だって遊びたかったのでござる！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠マシュ
+……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠マルタ
+……は？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠小次郎
+せっかくの夏、せっかくの無人島。[r]雅を解するものとしては、それを満喫するのが当然。
+[k]
+
+＠小次郎
+少しは羽目を外してもよいか、と思いはしたものの[r][line 3]残念、[#拙:それがし]には貴殿たちのように、
+[k]
+
+＠小次郎
+水着になってはしゃぐという選択肢は[r]与えられなかったのでござる……！
+[k]
+
+＠小次郎
+何故なら、星が一つしかないから……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠マシュ
+……聞いてはいけない叫びを聞いてしまった気がします……
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠小次郎
+となれば、後は盛る方向で変身する他なし。[r]その妙案がこの仮面でござったのさ。のさ。のさ。
+[k]
+
+
+？1：ところでその仮面はどこから……？
+？！
+
+[charaFace A 1]
+＠小次郎
+フッ。マスターはご存じなかろう。[r]我ら星１同盟、コモン英霊たちの熱い結束を。
+[k]
+
+＠小次郎
+“何かあったら使ってくれたまえ”[r]そうアマデウス殿から手渡されたこの仮面。
+[k]
+
+＠小次郎
+マルタ殿の一撃で木っ端微塵だが、[r]この仮面こそ我ら同盟の覚悟の現れでござった……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+
+＠マシュ
+なるほど……スパルタクスさんの仮面でなくて[r]ホント良かったです……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠マルタ
+はいはい。[r]憂さ晴らししたかったアンタの気持ちは分かったわ。
+[k]
+
+＠マルタ
+それはまた今度ちゃんと聞くとして。[r]そもそもなんで私たちの邪魔をしたの？
+[k]
+
+＠マルタ
+先に行った男ども、コモン英霊じゃないでしょ？[r]助ける義理はないんじゃない？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠小次郎
+ふむ。アイランド仮面活躍の場として、[r]彼らに雇ってもらっていただけでござるが[line 3]
+[k]
+
+＠小次郎
+その背景は口で説明するより、実際に見てもらった[r]ほうが早かろうな。
+[k]
+
+＠小次郎
+敗れた門番に選択肢はない。[r]案内しよう。
+[k]
+
+＠小次郎
+……途中に魔物が出るかもしれんが、まあ、[r]マスター達ならば問題はなかろう？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

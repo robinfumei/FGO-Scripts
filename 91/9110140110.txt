@@ -1,0 +1,393 @@
+＄91-10-14-01-1-0
+
+[soundStopAll]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1014001 1 フェルグス]
+[charaSet E 3012001 1 ブリュンヒルデ]
+
+[scene 10400]
+[wt 1.0]
+[se ad8]
+[wt 0.5]
+[fadein black 2.0]
+[wt 1.0]
+[bgm BGM_EVENT_2 0.1]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠フェルグス
+失礼。くつろぎ時に邪魔をする。[r]サーヴァント悩み相談室はここで合っているかな？
+[k]
+
+？1：本日は休店ですが……
+
+[charaFace D 4]
+＠フェルグス
+むう。やはりそうであったか。[r]だがそこを押して頼む。事態は急を要するのでな。
+[k]
+
+？2：イエスでありノーです？
+
+[charaFace D 1]
+＠フェルグス
+はっはっは。そうではないと否定したが、[r]もう断るのも諦めた、という顔だなマスター！
+[k]
+
+[charaFace D 4]
+＠フェルグス
+サーヴァントどもの我が儘を日々聞いていれば[r]辟易ともしよう。その心労は察する。
+[k]
+
+[charaFace D 1]
+＠フェルグス
+だが今回も、例によって諦めてもらおうか。[r]俺にも緊急の悩みがあってな。
+[k]
+
+＠フェルグス
+聞いてくれるかな？
+[k]
+
+？！
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[charaFace D 1]
+[wt 0.5]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+＠フェルグス
+はっはっは、照れるな照れるな！
+[k]
+
+＠フェルグス
+戦いも重要だが、俺にとっては女に愛を囁くのも[r]同じくらい重要なことなのだ。
+[k]
+
+＠フェルグス
+無論、嫌がる女を無理矢理というつもりはない。[r]ただ見つめて口説くことを了承してくれ。
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad8]
+[wait se ad8]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠マシュ
+先輩先輩！[r]ドクターの部屋でおはぎを発見しました！
+[k]
+
+＠マシュ
+これは中々の逸品かと。[r]見つからない内にこっそり食べてしまいましょう。
+[k]
+
+[charaFace A 7]
+＠マシュ
+いえ、本題は無論、ドクターの調査です。
+[k]
+
+＠マシュ
+この食糧難の中、ドクターはどこで甘味を[r]調達しているのかという謎を……
+[k]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+おや？　フェルグスさんですか？
+[k]
+
+[charaFace D 1]
+＠フェルグス
+おお、マシュか。[r]いや、君からも頼んで欲しいのだ。
+[k]
+
+[charaFace D 4]
+＠フェルグス
+実は……。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[wt 0.5]
+[charaTalk A]
+[charaFace B 5]
+[charaFace A 12]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+＠マシュ
+お話は分かりましたが、[r]さすがにそれは難しいかと。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そもそも人類が滅ぶ未来を防ぐために[r]戦っている訳ですし……。
+[k]
+
+＠マシュ
+サーヴァントを口説くといっても、[r]下手をすれば殺し合いになりそうな……。
+[k]
+
+＠フェルグス
+うーむ、弱ったなあ。
+[k]
+
+＠フェルグス
+せめて口説いても大丈夫なサーヴァントかどうか、[r]予め判別できるような……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.4 1]
+＠Dr.ロマン
+フッ。そういう話ならボクに任せてほしい。[r]というか、なんでボクのところに来ないのかなー？
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+おっと、美味しそうなおはぎ発見。[r]ひとつ貰うよ。もぐもぐ……
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+ほほう、これはボクのコレクションに勝るとも劣らない[r]銘菓、というかまさにそのもののような……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩のおはぎが！
+[k]
+
+？1：マシュのおはぎが！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+仲が良いなキミたち。[r]それは[charaFace B 5]ともかく、フェルグス殿。
+[k]
+
+＠Dr.ロマン
+バーチャルトレーニングシステムに、幾つかの[r]サーヴァントのプロフィールを組み込んでみた。
+[k]
+
+＠Dr.ロマン
+多少機械的ではあるが、[r]君の言葉にきちんとした反応を示すはずだ。
+[k]
+
+＠Dr.ロマン
+まずはそれで試してみて、食いつきが良ければ実際に[r]探して口説いてみる、というのは如何だろうか？
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+今後の参考のためにも、是非。[r]結果はボクが個人的に参考にさせてもらう。
+[k]
+
+[charaFace D 1]
+＠フェルグス
+ふむ……それは面白いかもしれんな。[r]やってみよう！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、先輩。[r]何故でしょう、嫌な予感がしてなりません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ、フォーウ……。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaSet A 8001001 1 マシュ]
+[wt 1.0]
+
+[scene 20300]
+[fadein black 1.0]
+[wait fade]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+オッケー、転送確認ー。[r]じゃあ一人目を口説いてくれるかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フェルグス
+おう、ドンときたまえ。[r]さあて、いかほどの滾女が来るものか[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……あの。[r]たぎじょ、ってなんでしょうかね先輩？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+こう、股間に滾る美女ってコトじゃない？[r]お、出るぞ出るぞー！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[wt 0.4]
+[charaTalk E]
+[se ad42]
+[charaSpecialEffect E appearance 1 1.0]
+[wait charaSpecialEffect E]
+[wt 1.5]
+[charaFadeout E 0.1]
+
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フェルグス
+おお、戦乙女ブリュンヒルデか！[r]……[charaFace D 4]いや、待て待て待て。
+[k]
+
+＠フェルグス
+確かおぬし、恋人がおったな。[r]略奪愛はあまり好きではないのだが……
+[k]
+
+[charaFace D 5]
+＠フェルグス
+うむ。[r]好きではないのだが、それと情欲は関係のない話だな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠フェルグス
+ブリュンヒルデ。[r]おまえが欲しい。今宵一晩、俺と過ごさぬか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+（……誤解のしようがないほどの、[r]　まっすぐな提案なんですね……）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠ブリュンヒルデ
+ああ……困ります。[r]そんなに愛を直截に囁かれては[line 2]。
+[k]
+
+＠フェルグス
+うむ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaFace E 5]
+＠ブリュンヒルデ
+殺す[bgm BGM_EVENT_3 0.1]しかありません……。
+[k]
+
+[charaFace D 1]
+＠フェルグス
+うむ、まったく分からんがそうなるか！[r]そちらの情事はケルト以上に猛々しい！
+[k]
+
+[charaFace E 1]
+＠ブリュンヒルデ
+ええ、ありがとう名も知れぬお方。[r]では殺し合いましょう……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠フェルグス
+[%1]、マシュ、すまん！[r]あと一歩というところで失敗した！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+見れば分かります。[r]ああもう、戦闘準備ですマスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

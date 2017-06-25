@@ -1,0 +1,158 @@
+＄01-00-06-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 1012001 1 ベディヴィエール]
+[charaSet F 98084000 1 粛正騎士]
+
+[scene 29020]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+よーし、うまく囲みを抜けたぞ！[r]状況はどうなっているかな、ロマニ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+騎士たちの陣形は二箇所だけ崩れ、[r]その箇所から難民たちが逃げ出している。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]たちの方には[r]五十人ほどの生命反応、もう一方の方には百人ほどだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+あちらの方が数が多い……[r]でも、戦える人はいないのでは！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠ベディヴィエール
+……それは、彼らの尽力にかける他ありません。[r]距離的にあちらと合流しては一網打尽になります。
+[k]
+
+＠ベディヴィエール
+今できる事は、[r]それぞれ別方向に逃げる事ぐらいです……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ルキウス、いやベディヴィエール君の言う通りだ。[r]我々はこちら側の難民たちの[#殿:しんがり]を務めよう。
+[k]
+
+＠ダ・ヴィンチ
+幸いガウェイン卿は追ってこない。[r]ほら、空が夜に戻ってるだろう？
+[k]
+
+＠ダ・ヴィンチ
+おそらく、まだ『正門から離れて追撃しろ』といった[r]命令が下っていないんだろう。
+[k]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+彼が追ってくる前に、[r]闇夜に紛れて出来るだけ聖都から離れよう！
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+ああ、でもその前に[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad166]
+[wt 1.0]
+[seStop ad166 3.0]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠粛正騎士
+逃がすな！　聖罰を受けた者は粛正せよ！[r]生かしておけば後々の禍根になるぞ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+まずは追ってくる彼らを叩きます！[r]準備はいいですか、[%1][&:さん]！
+[k]
+
+？1：もちろん、後ろは任せ[&ろ:て]！
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ヒュウ、[r]勇ましくなったものさ[%1][&君:ちゃん]！
+[k]
+
+＠ダ・ヴィンチ
+では難民たちの先導は私が任されよう！[r]みんなバラバラに逃げては元も子もないからね！
+[k]
+
+？2：ダ・ヴィンチちゃんは先頭に！
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+その通り、いい判断だ[%1][&君:ちゃん]！[r]では、その期待に応えましょう！
+[k]
+
+＠ダ・ヴィンチ
+なにしろ五十人以上のパニック集団だ、[r]誰かが纏めないといけないからね！
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+粛正騎士、難民たちのグループに接触します……！[r][line 3]戦闘、開始します！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

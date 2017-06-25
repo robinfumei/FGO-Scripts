@@ -1,0 +1,533 @@
+
+
+＄94-00-57-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 3025000 1 清姫]
+[charaSet F 5027000 1 マリー]
+[charaSet G 9004000 1 マルタ]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21108]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+さて、しばらくはこの島で生活をしなければならない[r]流れになってしまいましたが……。
+[k]
+
+＠マシュ
+まず、何から手をつけるべきでしょうか？
+[k]
+
+
+？1：そうだなあ……
+？2：ノープラン。アイデア求む
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+まあまあ、慌てることはありませんよマスター。
+[k]
+
+＠玉藻の前
+この状況を受け入れると一旦決めてしまえば楽なもの。[r]南国らしくのんびりとですね[line 2]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_28 0.1]
+
+[scene 21104 0.5]
+[se ad176]
+[wait scene]
+
+[charaFace D 2]
+
+[wt 2.0]
+[seStop ad176 1.5]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠玉藻の前
+きゃー！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォーウ！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩、凄いスコールです！　痛いほどの！
+[k]
+
+
+？1：どこか雨宿りできるところは？
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+オイ、こっちの崖に小さな洞窟があるぞ。[r]とりあえず入ろうぜ！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout C 0]
+
+[scene 20110]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+ひー、ずぶ濡れです、濡れ狐です！　せめて[r]水もしたたるいい狐、になってればいいのですが……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+いたた……わたしのお肌、赤くなってない？
+[k]
+
+＠マリー
+こんな凄い勢いの雨、フランスで降ったこと[r]あったかしら……？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠マルタ
+南国でも雨は冷たいんですね……。[r]初めて知りました。
+[k]
+
+
+？1：清姫さん、火をお願いできますか？
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠清姫
+まあ、ますたぁ。ついに覚悟を決めて[r]くださったのですね。
+[k]
+
+＠清姫
+もちろん、おまかせくださいませ。
+[k]
+
+＠清姫
+さあ、身も心も、全てわたくしに委ねてください。[r]抱きしめて、骨までわたくしの熱で[line 2]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+
+＠マシュ
+き、清姫さん！　マスターがおっしゃっているのは、[r]たき火の火付けのことかと！
+[k]
+
+[charaFace E 4]
+＠清姫
+なんだ……そうでしたか……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+？2：玉藻さん、火をお願いできますか？
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+[#炎の呪術:炎天]ですか？[r]確かにたき火か何かが欲しいですね……。
+[k]
+
+[charaFace D 4]
+＠玉藻の前
+でも、ご協力したいのはやまやまなのですが、[r]ちょっと今の[#私:わたくし]には事情がありまして[line 2]
+[k]
+
+＠玉藻の前
+なかなかすぐには難しいのですよぅ。[r]無理矢理ランサーになっている関係上、といいますか。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+それよりなんか音がしねぇか？
+[k]
+
+
+？1：うん。洞窟の奥の方から……何か……
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、木の葉が擦れるような、カサカサと[r]いうような音が……何でしょう？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 5]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠アルトリア
+むっ、音が近付いてきます！　気をつけてください！
+[k]
+
+[charaFace A 15]
+＠マシュ
+っ！　洞窟の奥から、何かが、出て……！？
+[k]
+
+[charaFace B 2]
+＠アルトリア
+あの、地面を這い、絨毯のように広がる黒い影。[r]あれは。あれは[line 2]！？
+[k]
+
+[charaFace B 0]
+＠アルトリア
+…………。
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaFace B 4]
+＠アルトリア
+虫ですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk off]
+
+[charaFace F 2]
+[charaFace D 2]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+[charaShake F 0.05 3 3 0.5]
+[charaShake D 0.05 3 3 0.5]
+
+＠マリー＆玉藻の前
+[fontSize x-large]きゃ～～～～！？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaTalk on]
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[scene 21100]
+
+[bgm BGM_EVENT_2 0.1]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+はぁはぁ……[r]あの洞窟、もう生理的に使えないわ……。
+[k]
+
+？1：ていうか誰か宝具撃ってなかった？
+？2：それ以前にもう崩れてますけど……
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……逃げる最中、背中のほうでたいへんな破壊力の解放が[r]行われたと記憶しています。
+[k]
+
+[charaFace A 8]
+＠マシュ
+その人の名誉のために、特定はしないほうがよいでしょう。[r]みんな気持ちは一緒だったと思いますし。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マルタ
+そう言えば……いつのまにか雨が止んでいますね。[r]それだけは幸運です。神の思し召しでしょうか。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+しかしそれは、いつまたスコールになってもおかしくない[r]という天候の不安定さを示しています。
+[k]
+
+＠アルトリア
+私達はともかく、マスターには今後も少々きつい温度変化[r]になるかもしれませんね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+ふむ。となると[line 2]
+[k]
+
+[charaFace D 1]
+＠玉藻の前
+みこーん！　思いつきましたマスター！　何はともあれ、[r]我々は生活拠点を作るべきだと思うのですよ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFace D 1]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+＠清姫
+そうですね。腰を落ち着ける場所は必要だと思います。[r]幸い、木は簡単に手に入りそうですし。
+[k]
+
+＠玉藻の前
+うんうん、さすが清姫ちゃん、わかってるーゥ！[r]やっぱり木の匂いは落ち着きますのでねぇ。
+[k]
+
+[charaFace E 1]
+＠清姫
+いくら狭くても構いませんよ、ますたぁ。[r]住めば都と申します。
+[k]
+
+[charaFace E 3]
+＠清姫
+むしろ、身を寄せ合って過ごさざるをえないような……[r]ふとしたときに肩が触れ合うような……
+[k]
+
+＠清姫
+…………。
+[k]
+
+[charaFace E 0]
+＠清姫
+あ、大変です。となると。[r]赤ちゃんの名前を考えておいたほうが……？
+[k]
+
+[charaFace D 4]
+＠玉藻の前
+どれだけ飛躍してるんですか……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+待ってください。[r]差し出がましいことを言うようですが[line 2]
+[k]
+
+＠アルトリア
+木で作る簡易住居とは、まるで馬小屋のように[r]なりはしませんか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace B 0]
+[charaFace D 5]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+
+＠玉藻の前
+むむっ、木の小屋なんて動物が使うものだ的なｄｉｓ……！[r]そりゃまぁ狐と蛇ですけども！
+[k]
+
+[charaFace B 3]
+
+＠アルトリア
+いえ、その、失礼なことを言うつもりはなかった[r]のですが……申し訳ありません。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+私はただ、[r]マスターが最初の拠点とする場所[line 2]
+[k]
+
+＠アルトリア
+この島の開拓の橋頭堡として、木の小屋というのは[r]いかにも簡素では、と言いたかっただけなのです。
+[k]
+
+＠アルトリア
+ここはひとまず、石でしっかりと居住空間を[r]構築すべきだと思います。
+[k]
+
+[charaFace B 1]
+＠アルトリア
+石造りの安心感は何物にも代えがたい。[r]防御力もなかなかのものです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+くそー、たまたまで偶然の一致だけど、意見がカブっち[r]まったな！　うんうん、防御力は大事だ！
+[k]
+
+＠モードレッド
+そうだ……じゃあいっそのこと、鉄！　[r]鉄で作るのはどうだ？
+[k]
+
+＠モードレッド
+コイツは強いぞ、どんな敵が来ても安心だ。[r]ナイスアイデアだろ？（チラッ）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+というわけでマスター、私は石の小屋を薦めます。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+（……聞こえてねぇかのように！　ちくしょー！）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+皆さん、いろいろお考えがあるようですが……[r]最終的にはマスターの好みでいいと思いますよ。
+[k]
+
+＠マシュ
+勿論わたしも文句など言いませんので、[r]ズバッと決めてしまってください、マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+
+＠フォウ
+フォウ！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

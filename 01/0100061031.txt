@@ -1,0 +1,687 @@
+＄01-00-06-10-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_25 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 6002001 1 呪腕のハサン]
+[charaSet F 98083000 1 ルシュド]
+[charaSet H 2013000 1 アーラシュ]
+
+[scene 29120]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アーラシュ
+おう、今夜もお疲れさん！[r]山での戦いも慣れてきたな、マシュ、[%1]！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ルシュド
+お帰りなさい、[%1][&兄ちゃん:姉ちゃん]、[r]マシュお姉ちゃん！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+ただいまです、ルシュド君。[r]今日は何をしていたんですか？
+[k]
+
+＠ルシュド
+今日はみんなで新しい水場を作ってた！[r]もうすぐ、西の村から馬がやってくるんだって！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アーラシュ
+馬用の水飲み場かぁ。[r]それはともかく、俺にお帰りはないのかルシュド？
+[k]
+
+＠ルシュド
+アーラシュの兄ちゃんかぁ……[r]まあ、お帰り。
+[k]
+
+[charaFace H 4]
+＠アーラシュ
+なんだいそりゃ。待遇違いすぎないかー？
+[k]
+
+＠ルシュド
+だって嘘の名前なんだもん。[r]アーラシュだなんて、そんなハズないじゃん。
+[k]
+
+[charaFace H 1]
+＠アーラシュ
+ばっか、正真正銘のアーラシュだぞ俺はー！[r]そういう疑り深い子供は、こうだーっ！
+[k]
+
+[charaAttack H normal 0,0 0.5]
+[wt 0.7]
+[seLoop ad104]
+[seStop ad104 0.7]
+[charaShake F 0.05 3 3 0.7]
+
+＠ルシュド
+ひゃ[line 3]！？[r]脇腹もしゃもしゃするのやめて、くすぐったい[line 2]！
+[k]
+
+[charaAttack H normal -250,0 0.5]
+[charaFadeout H 0.4]
+[wt 0.05]
+[charaAttack F normal -500,0 0.5]
+[charaFadeout F 0.4]
+[wt 0.4]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+アーラシュさん、子供のあやし方が上手いんですね。[r]ルシュド君、アーラシュさんといるといつも笑顔です。
+[k]
+
+？1：マシュの時もそうだよ
+
+[charaFace A 13]
+＠マシュ
+だとしたら嬉しいです。[r]ルシュド君にはまだ本当の事を言えていませんから……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+？2：もしかして精神年齢が……
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+いやいや。アーラシュは子供たちのヒーローなんだよ。[r]とくにこの中東ではね。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_25 2.0]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+……しかし。この村に滞在して一週間。[r]円卓の追撃は振りきれたようだけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。この先、どうしたものか。[r]獅子王と面会する手段はありません。
+[k]
+
+＠マシュ
+聖都に向かえば円卓の騎士との戦闘になります。[r]今の我々では彼らと戦う戦力はありません。
+[k]
+
+＠マシュ
+それに……この村も放ってはおけません。[r]村の暮らしはとても厳しくて……
+[k]
+
+＠マシュ
+明日の食料にも困っている状況です。
+[k]
+
+＠マシュ
+わたしたちが離れたら、狩りに出られるのは[r]アーラシュさんだけでしょうし……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……そうだね。[r]ボクらもそろそろ覚悟を決める時だろう。
+[k]
+
+＠Dr.ロマン
+獅子王と対面し、なぜこんな事をしているのかを[r]問いただすために、円卓の騎士たちと戦うと。
+[k]
+
+？1：……まだ、分からない
+？2：……獅子王は本当に敵なんだろうか？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠ベディヴィエール
+こちらでしたか[%1][&:さん]。[r]今夜の狩りも無事終わったようで何よりです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ベディヴィエール
+……それと、マシュ。[r]お休みになる前に、少しだけ宜しいでしょうか。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……先輩ではなく、わたしにですか？
+[k]
+
+[charaFace D 4]
+＠ベディヴィエール
+はい。個人的な話ですので場所を変えましょう。[r][%1][&:さん]もどうぞ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[scene 28620]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 0]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+＠ベディヴィエール
+マシュ・キリエライト。[r]貴女の名乗られた姓名でしたね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+はい。わたしの名です。[r]それが何か……？
+[k]
+
+＠ベディヴィエール
+不躾ながら重ねてお尋ねします。[r]その名、英霊としての真名でしょうか？
+[k]
+
+[charaFace A 4]
+＠マシュ
+それは……。
+[k]
+
+[charaFace D 0]
+＠ベディヴィエール
+本来であればサーヴァントに尋ねるべき[r]事柄ではないと理解しています。
+[k]
+
+＠ベディヴィエール
+ですが、敢えてお尋ねします。[r]無礼をお許し下さい。
+[k]
+
+[charaFace A 4]
+＠マシュ
+……。
+[k]
+
+？1：言ったほうがいい
+
+[charaFace A 13]
+＠マシュ
+……はい、先輩。
+[k]
+
+？2：言わなくてもいい
+
+[charaFace A 13]
+＠マシュ
+……ありがとうございます。[r]でも、大丈夫です、マスター。
+[k]
+
+？！
+
+[charaFace A 7]
+＠マシュ
+サー・ベディヴィエール。[r]わたしは……正しいサーヴァントではありません。
+[k]
+
+＠マシュ
+デミ・サーヴァント。[r]正確には、人間と英霊が融合したモノです。
+[k]
+
+＠マシュ
+マシュ・キリエライトは[r]わたしの人間としての名前にすぎません。
+[k]
+
+[charaFace A 12]
+＠マシュ
+真名は……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+わたしに融合した英霊は、それを告げずに消滅しました。[r]ですので、わたしは自分が一体どういう英霊なのか、
+[k]
+
+＠マシュ
+自身だけでなく宝具の真名さえも分かりません。[r]ですから、宝具の出力も……著しく低下しています。
+[k]
+
+[charaFace D 4]
+＠ベディヴィエール
+……そうだったのですか。[r]話して頂き、ありがとうございます。
+[k]
+
+＠ベディヴィエール
+重ねて、無礼をお詫びします。[r]私の中にあった疑念は消え失せました。
+[k]
+
+[charaFace A 0]
+＠マシュ
+いいえ、気にしないで下さい。[r]わたしも……自分自身の特殊性を失念していました。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そうだね。デミ・サーヴァントがどんなものなのか、[r]不思議に思うサーヴァントがいてもおかしくない。
+[k]
+
+＠Dr.ロマン
+むしろ今までの英霊たちのが珍しいだろう。[r]すんなり受け入れてくれたんだから。
+[k]
+
+＠Dr.ロマン
+マシュはサーヴァントでありながら英霊じゃない。
+[k]
+
+＠Dr.ロマン
+ベディヴィエール卿。[r]キミはその違いにずっと戸惑っていたんだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……はい。[r]正直、敵なのか味方なのかさえ迷っていました。
+[k]
+
+[charaFace D 0]
+＠ベディヴィエール
+ですが今の答えで私の迷いは晴れました。[r]改めて、レディ・マシュ。
+[k]
+
+[charaFadeout D 0.4]
+[wt 0.4]
+[se ad54]
+[se ad54 0.5]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい。
+[k]
+
+？1：レ、レディ？
+？2：さ、さすがは本物の騎士
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+片膝を付いての謝罪とか！[r]いや、いわゆる騎士による淑女への礼なのかな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+し、淑女……ですか。[r]いえ、そういった呼称は些か……抵抗が……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+無礼の詫びではありませんが、[r]できうるかぎり敬意を示します。
+[k]
+
+＠ベディヴィエール
+[%1][&:さん]と、貴女のこれまでの戦いに。[r]貴方たちは真実、世界を救うために現れた方だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+い、いえ……先輩はともかく、わたしは先輩に[r]守られているだけのデミ・サーヴァントで……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+いいえ、レディ。[r]それは違いましょう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+……レディ……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……貴女に力を預けた英霊が語らぬ以上、[r]私が語る事はありません。
+[k]
+
+[charaFace D 8]
+＠ベディヴィエール
+それでもあえて伝えましょう。[r]同じ円卓の騎士として、貴女に。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+！
+[k]
+
+？1：マシュが円卓の騎士だって……！？
+？2：………………
+
+？！
+
+[charaFace A 14]
+＠マシュ
+待ってください、ベディヴィエールさん。[r]貴方は、わたしと融合した英霊をご存じなのですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+もちろん。私だけではありません。貴方と対面した[r]円卓の騎士たちは、例外なく感じたでしょう。
+[k]
+
+＠ベディヴィエール
+貴方にその宝具を預けた騎士は、[r]それほど特別な騎士なのです。
+[k]
+
+＠ベディヴィエール
+最も強き騎士、最も堅き騎士、最も猛き騎士[line 3]
+[k]
+
+＠ベディヴィエール
+それぞれ誇るものが違う円卓において、[r]ただひとり武を誇らず、精神の在り方を示した騎士。
+[k]
+
+＠ベディヴィエール
+その真名を他ならぬ貴女自身が[r]見つけ出せる事を祈ります。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+………教えては、くれないのですね。[r]この宝具の持ち主の真名を。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+はい。もう答えはでているようなものですが、[r]それを探すのは貴方たちの使命です。
+[k]
+
+[charaFace D 4]
+＠ベディヴィエール
+……ただ。貴方の中の英霊が円卓の騎士である以上、[r]問題は他にもあります。
+[k]
+
+＠ベディヴィエール
+かつて同胞だった騎士たちと戦えるのか、[r]という問題です。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+それは……
+[k]
+
+？1：そうか、それでガウェインとの戦いは……
+？2：マシュ、ずっと苦しそうだった
+
+？！
+
+[charaFace A 4]
+＠マシュ
+……はい。聖都の壁を見た時も、[r]ガウェイン卿と戦った時も、体が叫んでいました。
+[k]
+
+＠マシュ
+“これは違う。[r][f small]  [f -]こんなものはアーサー王の所業ではない”って……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……ええ、その通りです。
+[k]
+
+＠ベディヴィエール
+この地で行われている王の行いは、[r]決して我らの知るアーサー王のものではありません。
+[k]
+
+＠ベディヴィエール
+……はっきり言いましょう。[r]私は何を犠牲にしても獅子王を……アーサー王を倒す。
+[k]
+
+＠ベディヴィエール
+その為にここまで来た。[r]その為に、今まで生きてきたのです。
+[k]
+
+[charaFace D 5]
+＠ベディヴィエール
+ですが貴女は？[r]いえ、貴方たちは？
+[k]
+
+＠ベディヴィエール
+貴方たちの目的が時代の修復であるのなら、[r]獅子王と対決する必要はないかもしれない。
+[k]
+
+[charaFace D 11]
+＠ベディヴィエール
+……私はこのまま村に残り、ハサン・サッバーハの[r]力を借りようと考えています。
+[k]
+
+＠ベディヴィエール
+私もハサン殿も聖都にとっては叛逆者。[r]彼らは容赦なく粛正にかかるでしょう。
+[k]
+
+[charaFace D 8]
+＠ベディヴィエール
+ですが貴方たちはまだどちらでもない。[r]降伏すれば、今ならまだ間に合う。
+[k]
+
+＠ベディヴィエール
+それでも[line 3]戦いますか？[r]円卓の騎士たちと。あの強大な獅子王と。
+[k]
+
+？1：……当然だ
+？2：間違っているのは、獅子王だ
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。その通りです、マスター。
+[k]
+
+＠マシュ
+わたしたちは獅子王と戦います。自分たちの命は[r]もちろん惜しいです。でも、それ以上に[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+聖都の獅子王の所業を許せない。[r]これは騎士としての責任だけではありません。
+[k]
+
+＠マシュ
+この地に生きる人々、あの門で命を落とした[r]人々すべてへの、果たすべき[#贖:あがな]いです。
+[k]
+
+？1：マシュ……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+[line 6]
+[k]
+
+[charaFace D 1]
+＠ベディヴィエール
+[line 3]お見事。[r]貴方たちになら、彼の騎士ですら力を貸しましょう。
+[k]
+
+[charaFace D 0]
+＠ベディヴィエール
+私の話はこれだけです。[r]邪魔をして申し訳ありません。
+[k]
+
+＠ベディヴィエール
+明日、ハサン殿にすべてを打ち明けましょう。[r]その上で彼らの選択に従います。
+[k]
+
+＠ベディヴィエール
+彼らと共に戦う事を許していただけるのか。[r]我々は、共に手を取る事ができるのか、と。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。[r]ハサンさんなら、きっと！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_11 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 1.5]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+＠呪腕のハサン
+………………むう。[r]職務とはいえ、盗み聴きなどするものではないな……
+[k]
+
+＠呪腕のハサン
+……まことに難儀。[r]これでは断れないではないか……
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,206 @@
+＄94-00-61-07-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 4024000 1 モードレッド]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 98100400 1 マシュ]
+[charaSet D 6024000 1 スカサハ]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 98101700 1 魔猪]
+
+[scene 20110]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+＠モードレッド
+……ここにも魔猪がいるな。[r]しかもデカいやつが。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠アルトリア
+今度はベオウルフなどに盗られないよう、[r]皆さん気をつけましょう！！
+[k]
+
+＠アルトリア
+[f large][s 6]絶対[messageShake 0.075 3 3 0.6]に！　[s -]盗られないよう！[f -]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 0]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠モードレッド
+父上、張り切りすぎ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マシュ
+ま、まあまあ。[r]頑張りましょう、皆さん！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠モードレッド
+ケッ、良い子ちゃんぶりやがって。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠アルトリア
+マシュは良い子ちゃんぶっているのではなく、[r]純粋に秩序正しい善良な性質なのです。
+[k]
+
+＠アルトリア
+喩えるのなら天然の石清水。
+[k]
+
+[charaFace B 8]
+＠アルトリア
+一方、貴方はコーラに砂糖とクリームとチュロスを混ぜた、[r]安めの[#混沌:カオティック]飲料ですが。
+[k]
+
+
+[charaFace A 2]
+＠モードレッド
+それもう飲み物じゃねーよ！？[r]ただのデビルズチョコサンデーだよ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠マシュ
+ま、まあまあお二人とも。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠スカサハ
+良いではないか、混沌も。[r]閉塞した時代を打破するのに、必要な性質だしな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠アルトリア
+ですが、戦乱の時代にこそ秩序が必要なのです。[r]さもなくば、混沌から悪が発生する。
+[k]
+
+？1：あの、皆さん……
+？！
+
+[charaFace D 0]
+＠スカサハ
+だが、全てが秩序に固まれば面白味がない。[r]そも、善悪の価値観は時代によってズレるが道理だろう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠モードレッド
+そうだそうだ！[r]だからオレも全く悪くないぞー！
+[k]
+
+？1：ですから……
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace B 8]
+[charaFadein B 0.1 2]
+＠アルトリア
+それでも、定まった善というものはあります。[r]必ず。少なくとも私はそう信じています。
+[k]
+
+＠スカサハ
+定まった、ではなく固まったではないかな？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠モードレッド
+そんなに堅苦しいからランスロットのアホが、[r]バカやらかしたんじゃねえのか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace C 14]
+[charaFadein C 0.1 2]
+＠マシュ
+モードレッドさん、それ禁句！　禁句です！
+[k]
+
+＠フォウ
+フォウフォ[line 2]ウ！
+[k]
+
+[charaFadeout E 0.7]
+[charaFadeout C 0.7]
+
+[messageOff]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 -1024,0]
+[charaMove F -512,0 4.0]
+[wt 4.0]
+＠魔猪
+（まだかな……？）
+[k]
+
+？1：すいません、今準備します！
+？！
+
+
+[wt 0.4]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

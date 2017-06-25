@@ -1,0 +1,315 @@
+＄01-00-03-06-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 ？？？]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 2009201 1 ？？？]
+[fadein black 1]
+[wait fade]
+[wt 0.3]
+[se ad22]
+[wait se ad22]
+[wt 0.5]
+[charaFace H 0]
+[charaFadein H 0 1]
+＠H：？？？
+……よし、と。[r]ええと、これを切って……調味料をつけて、炒めて……。
+[k]
+
+[charaFace H 1]
+＠H：？？？
+あ、いっけない。[r]野菜も食べなきゃいけないわよね。
+[k]
+
+[charaFace H 0]
+＠H：？？？
+生えてる草でいいかしら？[r]えいっ。
+[k]
+
+＠H：？？？
+うん、これを箱に入れて……混ぜて……。[r]完成！
+[k]
+
+[charaFace H 1]
+＠H：？？？
+ダーリン、お弁当作ったの！
+[k]
+
+[charaFadeout H 0]
+[charaTalk E]
+[charaFadein H 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠E：？？？
+待って。[r]工程の一から十まで弁当じゃないから、それ。
+[k]
+
+[charaFace E 5]
+＠E：？？？
+肉を焼いて、雑草を引き抜いて散らしただけの[r]ものは断じてお弁当とは呼ばれないから。
+[k]
+
+[charaFace H 4]
+＠H：？？？
+そんなこと言わずに食べてよ、ね？[r]美味しいよ？
+[k]
+
+＠E：？？？
+何でそのクオリティの弁当に絶対的な自信が持てるの？
+[k]
+
+[charaFace H 1]
+＠H：？？？
+もう贅沢なんだから、ダーリンは……。[r]あら？
+[k]
+
+[charaFace E 0]
+＠E：？？？
+ん……何か来たな。[r]サーヴァントっぽいかな。
+[k]
+
+[charaFace H 0]
+＠H：？？？
+敵かな、味方かな。
+[k]
+
+[charaFace E 3]
+＠E：？？？
+可愛ければどっちでも構わな[line 2]
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[se bac3]
+[wait se bac3]
+[se bac3]
+[wait se bac3]
+[charaTalk E]
+[charaFadein H 0.1 1]
+[charaFace H 1]
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠E：？？？
+いえ、何でもありません。[r]だから無力なわたしを木の幹で擦るのを止めてててて！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFadein E 0.1 2]
+[charaFace E 4]
+[charaFadein H 0.1 0]
+[charaFace H 1]
+＠H：？？？
+でも、丁度いいかも。[r]いい加減、この島も飽きてきたし。
+[k]
+
+[charaFace H 0]
+＠H：？？？
+そもそも、どうして私たちが[r]召喚されたのかすらわからないし！
+[k]
+
+[charaFace E 0]
+＠E：？？？
+あー、そうだな。[r]敵でも味方でも、とにかく手掛かりが欲しいよな。
+[k]
+
+[charaFace H 0]
+＠H：？？？
+……まあ、私はこのままでもいいかなって[r]思うんだけど、ね？
+[k]
+
+[charaFace E 5]
+＠E：？？？
+え、やだよ俺。[r]この島も、前にいた島も退屈極まりないし。
+[k]
+
+＠H：？？？
+可愛い女の子もいないし？
+[k]
+
+[charaFace E 1]
+＠E：？？？
+そうそう！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[charaTalk E]
+[charaFadein H 0.1 1]
+[charaFace H 1]
+[charaFadein E 0.1 1]
+[se bac9]
+[wt 1]
+[charaFace E 0]
+＠E：？？？
+……あの、すいません。ホントすいません。
+[k]
+
+＠E：？？？
+当方、貴女様におんぶにだっこで[r]ヒモであることを忘れておりました。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+謝る、謝るから振り回すのはやめてくださささ[line 2]！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein E 0.1 2]
+[charaFace H 5]
+＠H：？？？
+あ（すぽっ）
+[k]
+
+[charaFace E 0]
+＠E：？？？
+あ[line 4]れ[line 4]！？
+[k]
+
+[charaFace H 2]
+[se bac20]
+[wait se bac20]
+[charaFadeout E 0.4]
+＠H：？？？
+キャー！　ダーリンごめーん！！
+[k]
+
+＠E：？？？
+ゴメンですむかアホタレー！
+[k]
+
+[charaFadeout H 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20803 0]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait wipe]
+＠Dr.ロマン
+……気を付けてくれ。ドラゴンの反応が複数ある。[r]それから……ん、何かなこれ？
+[k]
+
+＠Dr.ロマン
+物凄く小さい、使い魔みたいな……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+こんな島に使い魔ですか？
+[k]
+
+＠Dr.ロマン
+うーん、使い魔のそれとも微妙に異なる気がする。
+[k]
+
+＠Dr.ロマン
+まあ大した魔力が計測されている訳でもないから、[r]それほど気にする必要はないと思うけど。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠エウリュアレ
+……ん。
+[k]
+
+[charaFace G 4]
+＠アステリオス
+う？
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+別に。ちょっと厭な感覚があっただけよ。
+[k]
+
+[charaFace F 4]
+＠エウリュアレ
+それから、あなたの高さだと木の枝が頭に[r]当たっちゃうわ。
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+もうちょっとしゃがむか、腕で抱えてちょうだい。[r]……うん、よしよし。これでいいわ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ドレイク
+ったく。お嬢様かい、アンタは。
+[k]
+
+＠エウリュアレ
+あら。女神様よ、私。
+[k]
+
+[se ad19]
+[wait se ad19]
+＠E：？？？
+ちょ、やめてやめて噛まんといて噛まんといて！[r]ノー食料！　ノー食料！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+いま、かすかに人の声が……！[r]マスター！
+[k]
+
+？1：助けよう
+
+？2：すぐに行こう
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい！
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20803 0]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait wipe]
+＠マシュ
+ワイバーン……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠ドレイク
+丁度いいや、素材にしてやる！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,105 @@
+＄94-00-21-05-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 3005000 1 エリザベート]
+
+[scene 22140]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠メフィスト
+はーい、お邪魔しますよーぅ？[r]ウヒ！　これはいい、いい焦げ具合です！
+[k]
+
+＠メフィスト
+臭います、臭いますよぅ、同類の臭いです！[r]生前の悪行から！　人々に噂され、恐れられ！
+[k]
+
+＠メフィスト
+“あんな恐ろしい事をしたヤツは怪物に違いない”と！[r]死後も相応しい罰を受けたクリーチャーの臭いがねぇ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.25]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.4 1]
+[wt 0.7]
+＠エリザベート
+[line 3]ハ。[r]その通りよ道化。ちゃんと喋れるじゃない。
+[k]
+
+＠エリザベート
+けど今更なに？　引っ越し祝いに来たの？[r][#私:アタシ]が暗いレンガの部屋に戻ったから？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+エリザベートさん……いえ。[r]確かめなくても分かります。
+[k]
+
+＠マシュ
+先輩、あのエリザさんは完全に別人です。[r]あれはもう、実際の彼女とはかけ離れてしまった[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠エリザベート
+そう、正真正銘、[#無辜:むこ]の怪物ってワケ！[r]美味しそうなのを連れてきたじゃない、道化。
+[k]
+
+＠エリザベート
+いいわ、とても気が利いてるわ！[r]そうね、すごく気が向いてきたわ！
+[k]
+
+＠エリザベート
+今日はナンのパーティーだったかしら！[r]なんでもいいわよね、ご馳走なんだもの！
+[k]
+
+＠エリザベート
+エビみたいに、生きたまま手足をもいでいいのよね？[r]ブタみたいに、[#内臓:なか]から焼いていいのよね？
+[k]
+
+＠エリザベート
+やった、じゃあ殺すわ！[r]殺しましょう、始めましょうニンゲンども！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+来ます、先輩！[r]たとえエリザさんでも、全力で戦ってください！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

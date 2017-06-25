@@ -1,0 +1,875 @@
+＄01-00-06-31-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 6002001 1 呪腕のハサン]
+[charaSet F 6003001 1 百貌のハサン]
+[charaSet G 6009001 1 静謐のハサン]
+[charaSet H 2008000 1 トリスタン]
+
+[scene 29802]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ダ・ヴィンチ
+山ほどいた粛正騎士軍団よ、さらば！[r]これで本当に打ち止めだ！
+[k]
+
+
+？1：そういう事を言うとまた出てくるよ
+？2：これが最後の粛正騎士とは思えない……
+
+？！
+
+[charaFace B 3]
+＠ダ・ヴィンチ
+そうそう。忘れた頃に粛正騎士ジャイアントとして[r]最後の最後に立ちはだかるって寸法サ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+バカ言ってないで、キミたちも急ぐんだ！[r]ランスロット卿は既に王城に入っているみたいだぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace A 0]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠ベディヴィエール
+城の造りはブリテンのキャメロットと同じようですね。[r]案内は私が。行きましょう、皆さん！
+[k]
+
+[charaFace A 12]
+＠マシュ
+はい。でも……[r]ハサンさんたちは大丈夫でしょうか……
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaSet A 6003001 1 ？？？]
+[charaSet B 6003001 1 ？？？]
+[charaSet C 6003001 1 ？？？]
+[charaSet D 6003001 1 ？？？]
+
+[scene 29802]
+
+[wt 1.0]
+
+[fadein black 2.0]
+[wait fade]
+
+
+
+[se bac53]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+[messageOff]
+[se bac95]
+[charaEffect F bit_talk_12_red_L]
+[charaShake F 0.05 3 3 0.5]
+[wt 0.5]
+[se ad42]
+[charaSpecialEffect F enemyErasure 1 1.0]
+[wait charaSpecialEffect F]
+[charaFadeout F 0]
+
+[se bac53]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+
+[messageOff]
+[se bac95]
+[charaEffect F bit_talk_12_red_L]
+[charaShake F 0.05 3 3 0.5]
+[wt 0.5]
+[se ad42]
+[charaSpecialEffect F enemyErasure 1 1.0]
+[wait charaSpecialEffect F]
+[charaFadeout F 0]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+……これで九十。[r]確か、貴方の[#人格:ぶんしん]は百人と聞きました。
+[k]
+
+＠トリスタン
+……何かあるような口ぶりでしたが……[r]話になりませんね。
+[k]
+
+＠トリスタン
+残り十人。いえ、
+[k]
+
+[charaFadeout H 0.1]
+
+
+[messageOff]
+[charaTalk off]
+
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 3]
+[charaFace D 0]
+[charaFadein D 0.1 5]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[wt 0.2]
+
+[se bac95]
+[charaEffect F bit_talk_12_red_L]
+[charaShake F 0.05 3 3 0.5]
+[charaEffect A bit_talk_12_red_L]
+[charaShake A 0.05 3 3 0.5]
+[charaEffect B bit_talk_12_red_L]
+[charaShake B 0.05 3 3 0.5]
+[charaEffect C bit_talk_12_red_L]
+[charaShake C 0.05 3 3 0.5]
+[charaEffect D bit_talk_12_red_L]
+[charaShake D 0.05 3 3 0.5]
+
+[wt 0.5]
+[se ad42]
+[charaSpecialEffect F enemyErasure 1 1.0]
+[charaSpecialEffect A enemyErasure 1 1.0]
+[charaSpecialEffect B enemyErasure 1 1.0]
+[charaSpecialEffect C enemyErasure 1 1.0]
+[charaSpecialEffect D enemyErasure 1 1.0]
+[wait charaSpecialEffect F]
+[charaFadeout F 0]
+[charaFadeout A 0]
+[charaFadeout B 0]
+[charaFadeout C 0]
+[charaFadeout D 0]
+
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+ついに片手で数えられる程になりました。
+[k]
+
+＠トリスタン
+この通り、私には傷ひとつない。[r]無駄な時間を使いましたね。
+[k]
+
+[charaFadeout H 0.1]
+
+[se bac53]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠百貌のハサン
+[line 3]本当に、そう思うか？
+[k]
+
+
+[messageOff]
+[se bas1]
+[charaPut A 1]
+[charaEffect A bit_talk_gagemist_Purple]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+む……！？[r]馬鹿な、この霧は……！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠静謐のハサン
+……私は静謐のハサン。[r]夜に咲く毒の花[line 3]既に、この周辺は我が毒に満ちた。
+[k]
+
+＠静謐のハサン
+貴様は百貌殿を圧倒していたのではない。[r]百貌殿と呪腕殿に[#翻弄:ほんろう]されていたのだ。
+[k]
+
+＠静謐のハサン
+お二人は貴様の体をむしばむ毒に気づかぬよう、[r]極限の戦いを仕掛けていた。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+毒[line 3]毒、だと……[r]貴方たちは、私の[line 3]！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠百貌のハサン
+そうだ、ここに黄金のイゾルデはいない！[r]円卓の騎士、トリスタン！
+[k]
+
+＠百貌のハサン
+無敗の弓使いであった貴様は、毒によって命を終えた！[r]女を裏切り、またその女に裏切られてな！
+[k]
+
+＠百貌のハサン
+貴様という英霊にとって毒こそ、[r]抗いようのない運命！
+[k]
+
+＠百貌のハサン
+言ってやろう。[r]白い手の[#運命:イゾルデ]は、貴様についに追いついた。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+っ……！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠百貌のハサン
+多くの山の民を殺し、村を焼き、[r]同胞すら殺そうとした男には相応しい幕引きだ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+[line 3]嗚呼。[r]それは、実に悲しい[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout H 0.1]
+
+[charaPut A 1200,1200]
+[charaEffectStop A bit_talk_gagemist]
+
+[se ad60]
+[charaFace F 0]
+[charaFadein B 0.1 1]
+[charaFadein C 0.1 1]
+[charaFadein F 0.1 1]
+
+[charaFadeTime B 0 0.6]
+[charaFadeTime C 0 0.6]
+
+[charaMove B 2 0.5]
+[charaMove C 0 0.5]
+[wait charaMove]
+[seStop ad60]
+
+[charaFadeTime B 0.2 1.0]
+[charaFadeTime C 0.2 1.0]
+[wt 0.2]
+[charaFadeout B 0.4]
+[charaFadeout C 0.4]
+[charaFadeout F 0.4]
+[wt 0.6]
+[charaScale B 1.2]
+[charaScale C 1.2]
+[charaScale F 1.4]
+
+[se bac53]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+[charaFadein F 0.1 1]
+[wt 0.5]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[se bac95]
+[charaEffect F bit_talk_12_red_L]
+[charaShake F 0.05 3 3 0.5]
+[charaEffect B bit_talk_12_red_L]
+[charaShake B 0.05 3 3 0.5]
+[charaEffect C bit_talk_12_red_L]
+[charaShake C 0.05 3 3 0.5]
+
+[wt 0.5]
+[se ad42]
+[charaSpecialEffect F enemyErasure 1 1.0]
+[charaSpecialEffect B enemyErasure 1 1.0]
+[charaSpecialEffect C enemyErasure 1 1.0]
+[wait charaSpecialEffect F]
+[charaFadeout F 0]
+[charaFadeout B 0]
+[charaFadeout C 0]
+
+[charaScale B 1.0]
+[charaScale C 1.0]
+[charaScale F 1.0]
+
+[charaTalk on]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠静謐のハサン
+え[line 3]？
+[k]
+
+[messageOff]
+[se bac95]
+[charaEffect G bit_talk_12_red_L]
+[charaShake G 0.05 3 3 0.5]
+[wt 0.5]
+
+[se ad113]
+[charaChange G 6009002 5 fade 0.5]
+[wt 1.0]
+
+
+[charaFadeout G 0.4]
+[wt 0.5]
+[se ad144]
+[wt 1.0]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[se bac95]
+[charaEffect F bit_talk_12_red_L]
+[charaShake F 0.05 3 3 0.5]
+[wt 0.5]
+
+[se ad113]
+[charaChange F 6003002 0 fade 0.5]
+[wt 1.0]
+
+＠百貌のハサン
+な[line 3]ぜ？[r]確実に[line 3]致死量の、筈[line 3]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+ふ……ふふ、ふふふふ！[r]ははははははは！
+[k]
+
+[charaFace H 0]
+＠トリスタン
+いえ、失礼。あまりにも悲しい話でしたので、つい。
+[k]
+
+[charaFace H 6]
+＠トリスタン
+貴方がたに、[r]私の[#祝福:ギフト]を語ってはいませんでしたね。
+[k]
+
+＠トリスタン
+私に与えられた[#祝福:ギフト]は“反転”。[r]これは私が一切の迷いなく獣である為のものでしたが……
+[k]
+
+＠トリスタン
+その特性は、あらゆるものを逆にするのです。[r]ですので今の私には、[#毒だけは絶対に効かない]。
+[k]
+
+[charaFace H 1]
+＠トリスタン
+貴方がたの決死の策は、まさに無駄骨と言えましょう。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+[charaFace F 4]
+＠百貌のハサン
+な……
+[k]
+
+
+[messageOff]
+[charaFadeout F 0.4]
+[wt 0.5]
+[se ad144]
+[wt 1.0]
+
+[charaTalk E]
+[charaFace F 4]
+[charaFadein E 0.1 1]
+
+＠呪腕のハサン
+なんという[line 6][r]我らの最後の秘策も……徒労に終わったとは…
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+ええ。では、貴方も後を追いなさい。
+[k]
+
+[messageOff]
+[se bac20]
+[wt 0.5]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace F 5]
+[charaFadein E 0.1 1]
+
+＠呪腕のハサン
+っ……！
+[k]
+
+
+[messageOff]
+[se bac52]
+[charaFadeout E 0.3]
+[wt 0.3]
+
+[se bac20]
+[charaEffect F bit_talk_12_red_L]
+
+[charaTalk E]
+[charaFace F 5]
+[charaFadein E 0.3 2]
+[wt 0.5]
+
+[se bac52]
+[charaFadeout E 0.3]
+[wt 0.3]
+
+[se bac20]
+[charaEffect B bit_talk_12_red_R]
+
+[charaTalk E]
+[charaFace F 5]
+[charaFadein E 0.3 0]
+[wt 0.5]
+
+[se bac52]
+[charaFadeout E 0.3]
+[wt 0.3]
+
+[se bac20]
+[charaEffect C bit_talk_12_red_L]
+
+
+[charaTalk E]
+[charaFace F 5]
+[charaFadein E 0.3 1]
+[wt 0.3]
+
+[se bac95]
+[charaEffect E bit_talk_12_red_R]
+[charaShake E 0.05 3 3 0.5]
+[wt 0.5]
+
+
+[se ad7]
+[charaChange E 6002002 0 fade 0.5]
+[wt 1.0]
+
+＠呪腕のハサン
+無念……！　ここまで受けていながら、[r]あの弓が一向に見えぬとは……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+見えませんよ。目で見ているうちは。
+[k]
+
+＠トリスタン
+この結果は分かりきった事でした。[r]貴方がたでは私は倒せない。
+[k]
+
+[charaFace H 1]
+＠トリスタン
+それを、最後まで理解しなかったそちらの悲劇です。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace F 4]
+[charaFadein E 0.1 1]
+
+＠呪腕のハサン
+……そのようだな。[r]ここにきて己の無力さを痛感したわ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+では。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace F 5]
+[charaFadein E 0.1 1]
+
+＠呪腕のハサン
+だが。私では貴様は倒せずとも、[r][#倒せるものは知っているぞ]。
+[k]
+
+
+[messageOff]
+[se bac52]
+[charaFadeout E 0.5]
+[wt 0.5]
+
+[charaScale E 1.5]
+
+[se bac53]
+[charaTalk E]
+[charaFace F 5]
+[charaFadein E 0.1 1]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[se bac95]
+[charaEffect E bit_talk_12_red_L]
+[charaShake E 0.05 3 3 0.5]
+[wt 0.5]
+
+[se ad7]
+[wt 0.5]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠呪腕のハサン
+ふぅぅぅぅ、取ったり……！[r]その腕、掴んだぞトリスタン！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaScale E 1.0]
+
+[charaTalk H]
+[charaFace E 0]
+[charaFace H 5]
+[charaFadein E 0.1 2]
+[charaFadein H 0.1 0]
+
+＠トリスタン
+……掴んだからなんだと言うのです。[r]命を捨てて、ようやく私の手を掴んだ。
+[k]
+
+＠トリスタン
+ですがそれまで。[r]腹を割かれ内臓をこぼすその体で、一体何が[line 3]
+[k]
+
+
+[messageOff]
+[maskout black 0.1]
+[wait mask]
+[charaFadeout E 0]
+[charaFadeout H 0]
+
+[charaPut A 1]
+[charaEffect A bit_talk_06b2]
+
+[se ad46]
+[wait se ad46]
+[se ad53]
+[wt 1.0]
+
+
+[charaTalk H]
+[charaFace E 0]
+[charaFace H 5]
+[charaFadein E 0 2]
+[charaFadein H 0 0]
+
+[maskin black 0.1]
+[wait mask]
+
+＠トリスタン
+……腕がひとりでに！？[r]いえ、これは……！？
+[k]
+
+＠呪腕のハサン
+……我が腕は[#魔神:シャイタン]からかすめ取ったもの。[r]それを呪術で御し得ていたが[line 3]
+[k]
+
+＠呪腕のハサン
+いま、その呪いを解いた。
+[k]
+
+＠呪腕のハサン
+魔神は受肉し、盗人である私と、[r]贄である貴様を食らうだろう。
+[k]
+
+
+[charaTalk H]
+
+[messageOff]
+[charaShake H 0.05 3 3 2.6]
+[wait scene]
+[se ad46]
+[wait se ad46]
+[se bac95]
+[se ad46]
+[wait se ad46]
+[se bac95]
+[se ad46]
+[wait se ad46]
+[se bac95]
+[wt 0.5]
+
+[charaFace H 5]
+＠トリスタン
+ぬぅううううう……！[r]なぜ離れない[line 3]離れなさい！
+[k]
+
+＠トリスタン
+つう、こんな、馬鹿な[line 3][r]私たちの[#霊基:からだ]を、エサにしているのですか！？
+[k]
+
+＠呪腕のハサン
+く、く……！[r]凄まじい、まさに生きたまま全身を貫かれる痛みよな！
+[k]
+
+＠呪腕のハサン
+そしてすまぬな、トリスタン卿。[r]敵ながら、その技量には感服する他ない。
+[k]
+
+[charaFace E 5]
+＠呪腕のハサン
+我らとて技に生きるもの。どれほどその弓に心血を[r]そそぎ、どれほどの鍛錬を重ねたのか……
+[k]
+
+＠呪腕のハサン
+貴公のこれまでの修羅を思えば、[r]その歳月に敬意を表さずにはいられぬ。
+[k]
+
+[charaFace E 2]
+＠呪腕のハサン
+だが！　その上で、貴様には地獄が相応しい！[r]共にいってもらうぞトリスタン！
+[k]
+
+[charaFace H 5]
+＠トリスタン
+わた、私が、死ぬというのですか……！[r]このような醜い怪物に食われて！？
+[k]
+
+[charaFace H 2]
+＠トリスタン
+いいえ、死ぬのは貴方も同じだ！[r]この苦しみは同じものだ！　ならば、なぜそこまで！？
+[k]
+
+＠トリスタン
+貴方は[#祝福:ギフト]で縛られてもいないというのに！
+[k]
+
+[charaFace E 5]
+＠呪腕のハサン
+ギフトなぞ我々には必要なし！
+[k]
+
+＠呪腕のハサン
+痩せた土地と共存し、この地に生きる同胞を護り、[r]この地に起きた教えを全てとした！
+[k]
+
+＠呪腕のハサン
+他の国なぞ知らぬ！　理想の国なぞ知らぬ！[r]我らは、この土地に住む人々を愛した！
+[k]
+
+＠呪腕のハサン
+我らはその為に生き、その為に死んだのだ！[r]それが我ら山の翁の、原初の掟である……！
+[k]
+
+[charaFace H 5]
+＠トリスタン
+ぐ、お[line 3][r]おおおおおおおおおおおおおおおおおおお！
+[k]
+
+
+[charaTalk H]
+
+[messageOff]
+[charaShake H 0.05 3 3 2.1]
+[wait scene]
+[se bac95]
+[se ad46]
+[wait se ad46]
+[se bac95]
+[se ad46]
+[wait se ad46]
+[se bac95]
+[se ad46]
+[wait se ad46]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[messageOff]
+[se bac94]
+[charaEffect F bit_talk_12_red_L]
+[wt 1.0]
+
+＠呪腕のハサン
+……………………。
+[k]
+
+[charaPut A 1200,1200]
+[charaEffectStop A bit_talk_06b2]
+
+[messageOff]
+[charaFadeout E 0.1]
+[se ad144]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaMove H 1 1.0]
+
+＠トリスタン
+ふぅ……ふぅぅうう…………
+[k]
+
+[wait charaMove]
+
+＠トリスタン
+右手を自由にしたのは、失策ですね……[r]指一本あれば、フェイルノートは射れるのですよ……
+[k]
+
+＠トリスタン
+……さて。[r]なんとか……山の翁を、切り離せは、しましたが[line 3]
+[k]
+
+
+[messageOff]
+[charaShake H 0.05 3 3 1.4]
+[wait scene]
+[se ad46]
+[wait se ad46]
+[se ad46]
+[wait se ad46]
+
+[charaFace H 1]
+＠トリスタン
+……私は、手遅れですか……[r]もう半分、魔神に食べられています、からね……
+[k]
+
+[charaFace H 5]
+＠トリスタン
+[line 3]しかし。[r]怖ろしいまでの、執念……いえ、信仰、と言うべきか……
+[k]
+
+[charaFace H 4]
+＠トリスタン
+異教徒など……[r]本来、私には、どうでもよいのですが……
+[k]
+
+[charaFace H 1]
+＠トリスタン
+技に生きた、などと言われては……[r]……はは。その[#信仰:ものいい]は、反則というものです……
+[k]
+
+
+[messageOff]
+[se ad53]
+[charaChange H 98025000 0 fade 1.0]
+[wt 1.0]
+[seStop ad53 1.0]
+[wt 1.0]
+
+＠H：？？？？？
+……窓に映っているのは、私、ですか……
+[k]
+
+＠H：？？？？？
+かくして、悪逆の騎士は見るもおぞましい、[r]怪物に成りはてる[line 3]
+[k]
+
+＠H：？？？？？
+……ふ。この地に来てから、悲しい事、ばかりでしたが。[r]最期に、愉快なものを、見たようで[line 3]
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+
+[se ad46]
+[wait se ad46]
+[wt 0.5]
+
+[soundStopAll]
+[end]

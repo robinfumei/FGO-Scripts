@@ -1,0 +1,136 @@
+
+＄91-70-08-01-4-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7008001 1 ベオウルフ]
+[charaSet D 98006200 1 グレンデル]
+[charaSet E 9001001 1 ジャンヌ]
+[charaSet F 1005001 1 ネロ]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 98016000 1 兵士Ａ]
+
+[scene 20602]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+どこにもいませんね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+……フォウ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさん？
+[k]
+
+＠フォウ
+フォウ、フォウ、フォウ！
+[k]
+
+[charaFace A 0]
+＠マシュ
+……下、ですか？
+[k]
+
+[wt 0.1]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+ああ、くそ。気付かなかった。[r]この城、地下室があるな。行ってみよう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout C 0.1]
+[wt 1.0]
+[scene 20110]
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+地下室の穴が、こんな場所に通じていたなんて……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+あの野郎、死んだと見せかけてここに逃げ込んだか。[r]ってことは[line 2]。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[charaFadeout C 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠グレンデル
+ぐ……お、のれ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+追い詰められたな。[r]おまえの母親は、もういない。
+[k]
+
+[charaFace C 2]
+＠ベオウルフ
+在るべき[#世界:じごく]に叩き込んでやる。[r]このベオウルフ、容赦はしねェッ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠グレンデル
+容赦せぬのは……こちらの話だ……。[r]おまえを殺したものの記憶……読み取ったぞ！
+[k]
+
+[messageOff]
+[se ad17]
+[wait se ad17]
+
+
+[fadeout black 1.0]
+[wt 0.9]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]

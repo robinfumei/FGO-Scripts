@@ -1,0 +1,118 @@
+＄94-00-62-41-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 9004000 1 マルタ]
+[charaSet B 5027000 1 マリー]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マリー
+ネオマリーランドですって！？[r]素敵じゃないかしら！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+素敵。
+[k]
+
+＠G：うりぼう
+無敵。
+[k]
+
+＠H：うりぼう
+全部五時間待ちであります。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マリー
+どんなアトラクションがあるのかしら？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+女神様の偉大なる顔をモチーフにした[r]ジェットコースターであります！
+[k]
+
+＠G：うりぼう
+女神様の偉大なる顔をモチーフにした[r]観覧車であります！
+[k]
+
+＠H：うりぼう
+女神様の偉大なる顔をモチーフにした[r]コーヒーカップであります！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マリー
+なるほど！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 1]
+[charaFace A 4]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+＠マルタ
+……ねえ、マリー。[r]何かこれ不気味じゃない？
+[k]
+
+＠マルタ
+コーヒーカップとか、顔が超高速回転してて[r]怖いんだけど。
+[k]
+
+[charaFace B 5]
+＠マリー
+……そ、そんなことないわよ～？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

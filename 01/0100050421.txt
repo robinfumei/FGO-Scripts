@@ -1,0 +1,74 @@
+
+＄01-00-05-04-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5023001 1 ブラヴァツキー]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 5025001 1 エジソン]
+
+[scene 20904]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+はぁ、はぁ……。[r]ダメ、切りがありません……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+……っ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠エジソン
+我が自慢の機械化歩兵も、サーヴァントの手に[r]掛かればものの数分でガラクタか。
+[k]
+
+＠エジソン
+だが、時に量は質に勝る。[r]もうおまえたちに余力はあるまい。
+[k]
+
+[charaFace E 2]
+＠エジソン
+[line 2]ブラヴァツキー！[r]彼らを地下の特別牢へ封印せよ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+くっ……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+はいはい。しょうがないわね。[r]それじゃ悪いけど、閉じ込めさせてもらうわ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

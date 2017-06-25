@@ -1,0 +1,351 @@
+
+
+＄91-70-06-02-1-1
+[charaSet A 6021001 1 酒呑童子]
+[charaSet B 7006001 1 坂田金時]
+[charaSet C 99502600 1 マシュ]
+[charaSet D 6019001 1 風魔小太郎]
+[charaSet E 7023001 1 源頼光]
+[charaSet F 4011001 1 ブーディカ]
+[charaSet G 2001000 1 エミヤ]
+[charaSet H 98002000 1 フォウ]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 28700]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠酒呑童子
+あら、まあ。[r]神さんの鬼が三匹もおったのに[line 3]
+[k]
+
+[charaFace A 1]
+＠酒呑童子
+呆気ないもんやわぁ。[r]ふふ。相も変わらず強いんやねぇ、金髪碧眼の小僧。
+[k]
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+……黙れ。[r]つーかテメエ、何しに来やがった。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 14]
+[charaEffect C bit_talk_10]
+[charaFadein C 0.1 1]
+
+
+＠マシュ
+待ってください金時さん！[r]本当に、酒呑童子さんはマスターと金時さんのお手伝いを、
+[k]
+
+＠マシュ
+ご自分から望んでレイシフトしたんです。[r]危険でも構わないからできるだけ急いで欲しい、と。
+[k]
+
+＠マシュ
+幾ら強靭なサーヴァントといっても、[r]性急なレイシフトには存在の危険が付きまといます。
+[k]
+
+[charaFace C 8]
+＠マシュ
+それなのに、彼女は[line 3]
+[k]
+
+[charaPut C 0,-10000]
+[charaEffectStop C bit_talk_10]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+ンな殊勝なもんかよ。コイツは鬼だ。[r]どれだけ人間と似ていても、やる事は別モンだ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠酒呑童子
+あら、つれないわぁ。見目でそないに決めつけはるん？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+見目じゃねえ。外っ側じゃねえ。[r][#中身]で判断してンだよ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠酒呑童子
+……ふふ。小僧はちゃあんと中、見てくれはるねぇ……
+[k]
+
+[messageOff]
+[wt 0.4]
+[charaFace A 1]
+[wt 1.0]
+[charaFace A 0]
+
+＠酒呑童子
+それで？[r]此処で死ぬまでやり合うん？　うちは別にかまへんけど。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+……金時殿。無用な[#諍:いさか]いは。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+分かってる。コイツは鬼だが、大将のサーヴァントだ。[r]何よりこの行軍のトップはオレじゃねえ。
+[k]
+
+＠坂田金時
+大将、アンタに任せる。オレは従うぜ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+？1：酒呑童子も連れて行こう
+[bgm BGM_EVENT_2 0.1]
+[charaFace B 0]
+＠坂田金時
+[#了解:オーライ]。[r]大将がそう決めたんなら文句は言わねえ。先を急ごうぜ。
+[k]
+
+？2：酒呑童子が役に立つ瞬間が来る気がする……
+[bgm BGM_EVENT_2 0.1]
+＠坂田金時
+……マジか、大将もかよ。[r]こいつはいよいよ頭が痛ぇぜ……
+[k]
+
+[charaFace B 4]
+＠坂田金時
+実は、オレっちもそんな気がしたっつーか……[r]オレだけの気の迷いってワケでもねえのか……
+[k]
+
+？！
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[charaFadein B 0.1 0]
+[charaMove A 50,0 0.4]
+[wait charaMove A]
+＠酒呑童子
+なになに？[r]なーにを、こそこそお話してはるん？
+[k]
+
+＠酒呑童子
+まぜてぇな。[charaMoveReturn A 0,0 0.4]うちも、うちも。[charaMoveReturn A 0,0 0.4]なぁ[line 3][charaFace A 1]ますたぁ？
+[k]
+
+[charaFace B 2]
+[charaShake B 0.01 0 5 0.7]
+＠坂田金時
+近ぇ！　オレにも大将にも近付きすぎるんじゃねえ！
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad7]
+[charaFadeout B 0.1]
+[charaFace A 4]
+[wt 0.4]
+[charaFadeout A 0.1]
+[wt 0.4]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+[charaTalk on]
+＠酒呑童子
+ふふ、何やのもう。いけずやなぁ。
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1]
+[bgmStop BGM_EVENT_2 0.7]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+[scene 10310]
+[wipein rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+[charaShake E 0.05 10 0 0.7]
+
+＠源頼光
+[line 6]はっ。何やら良くない予感がいたします！
+[k]
+
+[charaFace E 5]
+＠源頼光
+この母を悲しませるような出来事が、[r]とてもとても宜しくないふしだらな何かが、どこかで……
+[k]
+
+＠源頼光
+もしやまた良くない虫が……[r]マスターや金時を困らせているのでは……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠ブーディカ
+はいはい、いいから。いいから。[r]包丁を持ってる最中によそ見をしなーいの。
+[k]
+
+＠ブーディカ
+色んな国や時代の料理を学びたいって言い出したのは[r]そっちなんだから。言った以上は、きちんとやる。
+[k]
+
+[charaFace F 0]
+＠ブーディカ
+いい？　今は、こっちは先生。そっちは生徒。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠源頼光
+は、はい。[r]すみません先生。私とした事が……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠エミヤ
+もう良いかな？　では、次の工程に移ろう。[r]とはいえ刃物の扱いにかけては見事と言う他にない。
+[k]
+
+＠エミヤ
+いささか独特な技法ではあるが、[r]結果としてきちんと切れているからには、まあ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+
+＠ブーディカ
+いや、いや。そこは注意しておこう？
+[k]
+
+＠ブーディカ
+空中に素材を投げてから包丁一閃とか、やっぱりさ、[r]良くないと思うんだよね……
+[k]
+
+＠ブーディカ
+うん……良くないよね。一から教えてあげようよ。
+[k]
+
+
+[charaFace G 4]
+＠エミヤ
+まあ、そうだな。では、包丁の持ち方から[line 3]
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.7 1]
+[bgmStop BGM_EVENT_7 0.7]
+[wait wipe]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[wt 1.0]
+[scene 28700]
+[wipein rectangleStripLeftToRight 0.7 1]
+[wait wipe]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+…………こう、よくない予感がしました。はい。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウフォウ、フォウ。[r]キャウ。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+カルデアに戻った後の事は考えたくないですね……[r]いえ、ただの予感ではあるのですが。
+[k]
+
+
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

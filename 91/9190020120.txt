@@ -1,0 +1,603 @@
+
+＄91-90-02-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 9002001 1 天草四郎]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 7003001 1 呂布]
+[charaSet F 7006001 1 坂田金時]
+[charaSet G 6019001 1 風魔小太郎]
+[charaSet H 98064000 1 ？？？]
+
+[scene 20110]
+[fadein black 2.0]
+[wt 1.5]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+実のところ。[r]私は奇跡を起こした訳ではないのですよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、そうなんですか？
+[k]
+
+＠マシュ
+天草四郎といえば、紛れもなく奇跡を起こした[r]人物として伝説に残されているのですが……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+はい。私は単なる魔術使いでした。
+[k]
+
+＠天草四郎
+といっても、ほとんど無意識に行使していたので、[r]自分自身ですらそれと気付いていなかったのですが。
+[k]
+
+＠天草四郎
+ところが信仰というのは奇妙なもので、死して英霊と[r]なってから、奇跡を行使できるようになりました。
+[k]
+
+＠天草四郎
+それこそが私の本来の宝具[line 2]『[#右腕・悪逆捕食:ライトハンド・イヴィルイーター]』と[r]『[#左腕・天恵基盤:レフトハンド・キサナドゥマトリクス]』です。
+[k]
+
+？1：イモータルカオスブリゲイド的な？
+？！
+
+[charaFace C 1]
+
+＠天草四郎
+ええ、大体そんな感じですね！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+ふふふ、坂田金時さんや風魔小太郎さんとは奇妙なまでに[r][#共感:シンパシー]を抱くのです。
+[k]
+
+＠天草四郎
+呂布さんも誘ってみたのですが[line 3]
+[k]
+
+[messageOff]
+[wipeout rollLeft 1.5 1]
+[bgmStop BGM_EVENT_2 1.5]
+[wait wipe]
+[charaFadeout C 0.1]
+
+[scene 10400]
+[wt 1.5]
+[wipein rollLeft 1.5 1]
+[wait wipe]
+[bgm BGM_EVENT_7 0.1]
+
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[shake 0.05 10 10 0]
+[charaEffect E bit_talk_41]
+
+＠呂布
+[image berserker_language_1][line 4]！！！！
+[k]
+
+[shakeStop]
+[charaEffectStop E]
+[wt 0.5]
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+
+[charaFace G 0]
+[charaFadein G 0.1 2]
+
+＠坂田金時
+なるほどな、そいつはゴールデンだぜ！
+[k]
+
+[wt 0.5]
+[charaTalk G]
+
+＠風魔小太郎
+金時殿、呂布殿は一体何と……？
+[k]
+
+[charaTalk F]
+＠坂田金時
+ああ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+『残念ナリ。我が宝具の名は強い想いを以て[r]　付けられた芸術ナリ。変更は不許可ラニ』
+[k]
+
+[wt 0.5]
+[charaFace F 1]
+＠坂田金時
+ってぇ訳だ！
+[k]
+
+[messageOff]
+[wipeout rollLeft 1.5 1]
+[bgmStop BGM_EVENT_7 0.5]
+[wait wipe]
+[charaFadeout F 0.1]
+
+[scene 20110]
+[wt 1.5]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+[bgm BGM_EVENT_2 0.1]
+
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+そんな訳で、呂布さんは誘えなかったのです。[r]いや残念でした。
+[k]
+
+[charaFadeout C 0.1]
+
+[communicationChara 98003003 1 5 0 1]
+
+＠Dr.ロマン
+ははは、カルデアで知らない内に[r]知らない人間関係が構築されつつあるね。
+[k]
+
+＠Dr.ロマン
+地味に笑い事じゃない気もするけど、[r]連携が取りやすくなるのは良いことだ！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+
+[scene 20113]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+
+[wt 1.0]
+
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+[line 3]それにしても。[r]天草四郎が魔術使いだったとは驚いたね。
+[k]
+
+＠Dr.ロマン
+魔術使いということは、[r]正式に魔術を習った訳ではないんだろう？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+はい、まあ極々稀にいる天然というやつですね。
+[k]
+
+＠天草四郎
+生まれつき[#奇跡:まじゅつ]を行使でき、しかもそれを[r]指摘する人間が誰一人としていなかったので[line 3]。
+[k]
+
+[charaFace C 0]
+
+＠天草四郎
+私は奇跡として崇められてしまいました。
+[k]
+
+＠天草四郎
+もしかすると、[#森宗意軒:もりそういけん]あたりが[r]その手の噂を抑えていたのかもしれません。
+[k]
+
+＠天草四郎
+今となっては、何が真実なのかは分かりませんが……。
+[k]
+
+[charaFadeout C 0.1]
+
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+キミの魔術の特異性を聞いたかぎり、[r]そりゃ当時の協会も放置しなかっただろうなあ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+まあ、所詮は生前の出来事です。[r]今はこの世界を救うことに注力しましょう。
+[k]
+
+？1：世界を救いたい？
+？！
+
+＠天草四郎
+ええ。私はたとえ相手が親の仇であったとしても[r]救いますとも。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+さすが聖人ですね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+いいえ、聖人ではありませんよ。[r]認定はされていませんし。
+[k]
+
+＠天草四郎
+聖人とあろうとしてはいます。けれど、そこに辿り着く[r]ためには捨てなければならないものがあるのです。
+[k]
+
+[charaFace C 4]
+
+＠天草四郎
+……憎悪。[r]それがある限り、終生聖人ではない。
+[k]
+
+[charaFace C 0]
+
+＠天草四郎
+もっともかのジャンヌ・ダルクのように、[r]生まれついての聖人のような存在もいるのですが[line 3]。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ジャンヌさんはご自分のことを聖人だとは[r]思っていらっしゃらないようですね。
+[k]
+
+[charaFace A 8]
+
+＠マシュ
+度々、からかわれているのを耳にします。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+本人の意識と、他者からの観点は別物ですよ。
+[k]
+
+[charaFace C 1]
+
+＠天草四郎
+彼女がどう言おうと、私はジャンヌ・ダルクが[r]聖人であることを信じています。
+[k]
+
+[charaFace C 0]
+
+＠天草四郎
+……もっとも彼女からすれば、[r]心底余計なお世話というところでしょうが、ね。
+[k]
+
+[charaFadeout C 0.1]
+
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+そう言えば、キミはジャンヌ・ダルクと[r]何か関係があるのかい？
+[k]
+
+＠Dr.ロマン
+同じクラス・ルーラーという割りには[r]あまり親しくなさそうだけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+ああ、それは[line 3]
+[k]
+
+[charaFace C 0]
+[wt 0.5]
+
+＠天草四郎
+……それは、秘密にしておきましょう。[r]何しろ、互いの理念に関わることですので。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠フォウ
+……[wt 0.5][bgmStop BGM_EVENT_2 0.3][seLoop ad14][shake 0.05 0.5 0.5 0]フォウ！？
+[k]
+
+[wt 0.5]
+
+[charaFadeout D 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠Dr.ロマン
+待て！[r]その洞窟の特異点が、急速に確立しようとしているぞ！
+[k]
+
+＠Dr.ロマン
+速い……何だコレは！？[r]急げ、何か不味いことが起きている！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+……！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.25 1]
+[se ad73]
+[wt 0.1]
+[se ad59]
+[wait wipe]
+[charaFadeout C 0.1]
+
+[scene 20230]
+[wt 1.0]
+[seStop ad59 0.5]
+[wt 0.5]
+[wipein rectangleStripRightToLeft 0.25 1]
+[wait wipe]
+
+[seLoop ad177]
+[wt 1.5]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+これは……！
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+
+＠Dr.ロマン
+汚染された聖杯だって！？[r]何でこんなものが[line 3]！
+[k]
+
+＠Dr.ロマン
+気をつけろ、滲み出ている黒い泥は[r]サーヴァントを汚染する代物だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[seStop ad177 1.0]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+……ふむ。
+[k]
+
+[charaFace C 0]
+＠天草四郎
+落ち着いて下さい。[r]確立する前に、吹き飛ばしてしまえば済む話です。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、それはそうですが……！
+[k]
+
+？1：どうやって？
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+それはもちろん、宝具でです。[r]時間との勝負ですが……。
+[k]
+
+[charaTalk H]
+
+＠？？？
+させぬぞ、ルーラー……！[r]この聖杯は、ワシのものだ……！
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.5]
+[charaFace H 0]
+[charaFadein H 0.7 1]
+[wt 1.0]
+
+
+？1：人間……！？
+
+[charaFadeout H 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+
+＠Dr.ロマン
+いや、違うぞ！[r]そいつは人間じゃない！
+[k]
+
+＠Dr.ロマン
+聖杯の泥が生み出した、[r]記録の残滓だ！
+[k]
+
+？2：ぬらりひょん……！？
+
+[charaFadeout H 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+
+＠Dr.ロマン
+いやいや、いやいやいや。[r]何でこの状況で日本の妖怪が出てくるのさ！
+[k]
+
+＠Dr.ロマン
+恐らく、聖杯の泥が生み出した[r]記録の残滓だろう。
+[k]
+
+？！
+
+＠Dr.ロマン
+よくあること……ではないけど、[r]ともかく遠慮なく対処するんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+ああ、もしかすると聖杯戦争で戦った仲でしょうか。[r]申し訳ありません、生憎とうろ覚えでして。
+[k]
+
+[charaFace C 4]
+
+＠天草四郎
+しかし、彼が出てくるとなると……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠？？？
+貴様も……貴様も、欲しいのだろう？[r]この聖杯は、確立すればさぞや強大になる大業物！
+[k]
+
+[charaFace H 2]
+
+＠？？？
+[#あの冬木の聖杯に]、勝るとも劣らぬモノに[line 3]！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+＠天草四郎
+……マスター、仕留めましょう。[r]耳を傾けても、時間の浪費でしかない。
+[k]
+
+[charaFace C 2]
+
+＠天草四郎
+行きます……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

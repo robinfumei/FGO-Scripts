@@ -1,0 +1,151 @@
+＄94-00-21-02-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 3006001 1 弁慶]
+
+[scene 22140]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠弁慶
+おお……おおお……ぬぅおおおおおおお！
+[k]
+
+[messageOff]
+[charaSpecialEffect E flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect E]
+
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.7]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+弁慶さん……消えてしまいました。[r]わたしたちは彼を倒してしまったのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 0 5 0 5]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠Dr.ロマン
+いや、どうだろう。[r]カルデアで結んだ契約[line 3]
+[k]
+
+＠Dr.ロマン
+霊基の退去先は英霊の座ではなく、[r]カルデアになったままだ。
+[k]
+
+＠Dr.ロマン
+おそらく、時間の経過と共に[r]カルデアに戻ってくるだろう。
+[k]
+
+＠Dr.ロマン
+なぜその部屋に閉じこもっていたかは不明だが、[r]君たちは“サーヴァントを解放した”と見ていい。
+[k]
+
+[charaFace A 12]
+＠マシュ
+そうですか……乱暴な手段でしたが、[r]一応の解決にはなったのですね。
+[k]
+
+[wt 0.4]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠両儀式
+やっぱり何もないな。[r]この部屋は外れだ。他をあたろうぜ[%1]。
+[k]
+
+＠両儀式
+ん？　暗い顔してるけど……[r]もしかして落ち込んでるのか？
+[k]
+
+？1：そりゃそうだよ
+？2：だって弁慶さんの出番が……
+
+？！
+
+[charaFace D 6]
+＠両儀式
+おまえたちな。言っておくけど、[r]このマンションはずっとこの調子だぞ？
+[k]
+
+＠両儀式
+悪いと思うのは勝手だけど、[r]それでやられてちゃ世話がない。
+[k]
+
+[charaFace D 8]
+＠両儀式
+というか。おまえたちが力ずくで追い出さないと、[r]アイツらはずっとあんな状態のままだ。
+[k]
+
+＠両儀式
+その方がよっぽど惨いんじゃないか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……そうだね。両儀くんの言う通りだ。
+[k]
+
+＠Dr.ロマン
+少々乱暴だが、サーヴァントが襲いかかってきた場合、[r]こちらも敵として対処する。
+[k]
+
+＠Dr.ロマン
+このマンションではそれが最適解のようだ。[r]いいね、マシュ、[%1][&君:ちゃん]。
+[k]
+
+？1：……了解しました。
+？2：確かに、こんな部屋は辛そうだ。
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+そうそう。気の持ちようだけはしっかりな。[r]このマンションに住み着いたヤツはたいてい気を病む。
+[k]
+
+＠両儀式
+ペースを乱す事なく、少しずつ捜査を進めようぜ。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_5 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

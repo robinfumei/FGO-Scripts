@@ -1,0 +1,440 @@
+
+
+
+＄01-00-07-11-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 3027000 1 アナ]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[charaSet E 98107500 1 ウルク兵士Ａ]
+[charaSet F 98107500 1 ウルク兵士Ｂ]
+[charaSet G 98107500 1 ウルク兵士]
+
+[wipeFilter cinema 0.5 0]
+[scene 32900]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.2]
+[charaFadein F 0.4 0]
+[charaFadein G 0.4 2]
+[wt 0.2]
+＠ウルク兵士Ａ
+住民の避難を急がせろ[line 3]！[r]来るぞ、ズンズンやってくるぞ！
+[k]
+
+＠ウルク兵士Ａ
+槍兵、三重で構え[line 3]！[r]十人がかりで無理なら三十人がかりだ！
+[k]
+
+＠ウルク兵士Ａ
+後ろの者は前を押せ[line 3]！[r]一気に押し返すぞ[line 2]！
+[k]
+
+[charaTalk off]
+＠ウルク兵士たち
+うおぉおおおお[line 8]！[r]これ以上、殺させるか[line 5]！
+[k]
+
+[backEffect bit_talk_41]
+[se ad16]
+[seStop ad16 2.0]
+[wt 1.0]
+[messageOff]
+[wt 0.7]
+[backEffectStop bit_talk_41]
+[wt 0.3]
+[charaEffect A bit_talk_13]
+[wt 0.2]
+[se ad38]
+[se bac11]
+[shake 0.05 0 10 0.4]
+[charaShake E 0.05 3 3 0.25]
+[charaShake F 0.05 3 3 0.25]
+[charaShake G 0.05 3 3 0.25]
+
+[wt 0.7]
+[se ad75]
+[seStop ad75 2.0]
+[charaFadeout E 0.4]
+[wt 0.2]
+[charaFadeout F 0.4]
+[wt 0.2]
+[charaFadeout G 0.4]
+[wt 1.0]
+
+[charaTalk on]
+＠D：陽気な声
+んー、なかなかの気合いデース！[r]でもタッグマッチは興醒めネー！
+[k]
+
+＠D：陽気な声
+順番に戦いますと言ったデショウ？[r]言いつけを守れない子は、んー、どうしようかなー……
+[k]
+
+＠D：陽気な声
+決めた、お手玉にして頭を冷やしてあげましょう！[r]はーい、[se ad110][#一つ:ウノ]、[wt 0.3][se ad110][#二つ:ドス]、[wt 0.3][se ad110][#三つ:トレス]……！
+[k]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaFadein F 0.1 0]
+[charaFadein G 0.1 2]
+＠ウルク兵士たち
+バカな[line 3][r]人間が、泥団子のように[line 3]
+[k]
+
+＠ウルク兵士たち
+ああ、落ちる！　あんな高さから落とされたら……[r]あああああ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.4]
+
+[se ad144]
+[wt 0.1]
+[se ad46]
+[shake 0.05 0 5 0.7]
+[wt 1.4]
+
+[charaTalk on]
+＠D：陽気な声
+あら。プランチャも下手なら着地も下手なの？[r]そんな事じゃ一流のルチャドールになれないわよ？
+[k]
+
+＠D：陽気な声
+ハイ、ルチャリブレはする方もされる方も、[r]身軽な受け身が超・重要デース！
+[k]
+
+＠D：陽気な声
+分かる、そこのキミたち？[r]相手を倒す技術の前に、自分を守る技術を身につける[line 3]
+[k]
+
+＠D：陽気な声
+それができないなら、[r]何人いようと私の相手は務まらないわよ？
+[k]
+
+[se ad14]
+[seVolume ad14 0 0.8]
+[wt 1.0]
+[se ad57]
+[wt 1.0]
+[seStop ad57]
+[seStop ad14 0.5]
+[wt 0.5]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ウルク兵士Ａ
+だ[line 3]ダメだ、総員、退避、退避[line 3]！[r]我々の敵う相手ではない！
+[k]
+
+＠ウルク兵士Ａ
+カルデアの戦士を待て……！[r]それまで、それまで[line 3]
+[k]
+
+＠ウルク兵士Ａ
+[line 3]それまで、ヤツの要求通りやってやる！[r]一対一なら文句はないと言ったな、貴様[line 3]！
+[k]
+
+＠D：陽気な声
+もっちろんデース！[r]スリーカウントで沈めてくだサーイ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[wipeOff]
+[wipeout rightToLeft 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.5]
+[se ad59]
+[seStop ad59 2.0]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+ウルク南市場に到着しました！[r]ギルガメッシュ王の要請で駆けつけましたが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠アナ
+あそこです！[r]っ、危ない！
+[k]
+
+[messageOff]
+[se ad73]
+[charaFadeout C 0.2]
+[charaMove C -256,0 0.2]
+[wt 0.4]
+
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+＠D：陽気な声
+残念デース！[r]アナタには高さが足りまセーン！
+[k]
+
+[se ad85]
+
+＠ウルク兵士
+う、うわああああ！[r]なぜか大の字で飛び込んできた[line 3]！？
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+[charaMove C 0,0 0.2]
+[wt 0.1]
+[charaMove C -256,0 0.1]
+[charaMove G -256,0 0.1]
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[fowardEffect bit_talk_14]
+[wt 0.1]
+[wt 0.1]
+[se bac150]
+[shake 0.05 0 6 0.4]
+[wt 0.7]
+
+[charaTalk C]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠アナ
+させませんっ……！[r]逃げてください、早く！
+[k]
+
+＠ウルク兵士
+あ、ああ……！
+[k]
+
+[se ad55]
+[seStop ad55 1.5]
+[charaMove G -512,0 0.4]
+[charaFadeout G 0.4]
+[wt 1.0]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠ケツァル・コアトル
+ワオ！　[#技巧派:テクニコ]！[r]見事な空中技ね！　四十点あげまショーウ！
+[k]
+
+[charaFace D 0]
+＠ケツァル・コアトル
+んー、でも人の対戦相手を横取りするのはマナー違反ね。[r]まだ決着はついていなかったでしょう？
+[k]
+
+＠ケツァル・コアトル
+勝ち負けが出ていないのに試合を終わらせるのは[r]私の主義に反するわ。
+[k]
+
+＠ケツァル・コアトル
+ん－、だー、かー、らー。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.4]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wt 0.7]
+
+
+＠ウルク兵士
+な[se bac30]……足下から風が！？[r]うわああああ、[charaEffect G bit_talk_tornado01]舞いあげられる[line 3]！？[wt 0.4][charaFadeout G 0.1]
+[k]
+
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+罰として、百メートルの高さから[r]リング外にご退場願おうかしら？
+[k]
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.3 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[scene 20320]
+[wt 0.2]
+[se ad2]
+[seVolume ad2 0 0.7]
+[wipein rectangleStripUpToDown 0.3 1]
+[wait wipe]
+
+＠ウルク兵士
+うわあ[line 7]！[r]お[line 3]ち[line 3]る[line 4]！
+[k]
+
+[seStop ad2 0.7]
+[messageOff]
+[wipeout rectangleStripUpToDown 0.3 1]
+[wait wipe]
+[charaFadeout G 0.1]
+[scene 32900]
+[wt 0.2]
+[wipein rectangleStripDownToUp 0.3 1]
+[wait wipe]
+[wt 0.4]
+
+[se ad164]
+[wt 0.1]
+[se ad195]
+[wt 0.7]
+[se ad196]
+[wt 0.7]
+[se ad129]
+[wt 1.0]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠ウルク兵士
+[line 3]って、生きてる[line 3]！
+[k]
+
+？1：アナ、ナイスキャッチ！
+？2：アナ、ナイスチェーン！
+
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+＠アナ
+急いで退避を！[r]後は私たちが受け持ちます！
+[k]
+
+＠ウルク兵士
+あ、ああ……！[r]ありがとう、任せたぞ、可愛い子ちゃん！
+[k]
+[se ad55]
+[seStop ad55 1.5]
+[charaMove G -512,0 0.4]
+[charaFadeout G 0.4]
+[wt 1.0]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+む。ルール的に、他人に受け止めてもらうのは[r]アリかしら？　ナシかしら？
+[k]
+
+＠ケツァル・コアトル
+個人的にはナシだけど……[r]ま、会場が盛り上がるならそれもいっか！
+[k]
+
+[charaFace D 1]
+＠ケツァル・コアトル
+私たちは相手を殺すために戦うのではなくて、[r]人々に勇気を与えるために戦っているのだから！
+[k]
+
+[charaFace D 0]
+＠ケツァル・コアトル
+さて、そんな訳で次の相手は貴方たち？
+[k]
+
+[charaFace D 1]
+＠ケツァル・コアトル
+いいわ、みんな活きが良さそう！[r]ひとりひとり、心臓ブチ抜くまで戦いましょう！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+あれが……南米の女神、ケツァル・コアトル……！
+[k]
+
+＠マシュ
+……っ。怖いです、マスター。[r]こんなのは初めてで[line 3]
+[k]
+
+＠マシュ
+あの方は心の底から笑っています！[r]憎しみも敵意もない笑いです！
+[k]
+
+＠マシュ
+なのに、人を殺す事に何の躊躇もない……[r]アンバランスすぎて、どう向き合えばいいのか……！
+[k]
+
+？1：確かに……初めて見るタイプだ……！
+？2：（人を、殺している……？）
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+話は後だ、来るぞ！[r]敵は最高ランクの神霊、本物の“女神”だ！
+[k]
+
+＠Dr.ロマン
+聖杯で女神となったゴルゴーンとも、[r]疑似サーヴァントであるイシュタル神とも違う！
+[k]
+
+＠Dr.ロマン
+各自、最大級の警戒を！[r]倒す事より死なない事を優先してくれ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

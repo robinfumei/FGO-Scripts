@@ -1,0 +1,149 @@
+＄94-00-45-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 4023001 1 坂田金時]
+[charaSet G 6001001 1 小次郎]
+
+[scene 28220]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠小次郎
+くっ……見事。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+や、やりました。凄まじい体力の鬼でしたが、[r]なんとか削りきれました……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+油断したなぁ、ひょうろく侍？
+[k]
+
+＠坂田金時
+このベアー号はスピードだけじゃねえ。[r]パワーとテクもゴールデン級よ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠小次郎
+フッ……機械仕掛けの馬と忍者の鳥に敗れるか……。
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+ブレーキの壊れた忠犬もお忘れなく！
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+（ついに自分で言っちゃった！）
+[k]
+
+[charaTalk G]
+[charaFace G 3]
+
+＠小次郎
+やはり色香に迷ったのがそもそもの敗因か……[r]いや、峠の茶屋の団子が美味すぎてな……
+[k]
+
+＠小次郎
+ここで一句。[r]『夏の青　浜辺でデレる　マルタどの』
+[k]
+
+[charaFace G 1]
+
+＠小次郎
+……ふふ……ありえぬ……ありえぬなぁ……
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect G flashErasure 0 0 1]
+[wait charaSpecialEffect G]
+[charaFadeout G 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.2]
+
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+
+
+＠Dr.ロマン
+用心棒、ここに潰える……[r]最後まで風流だったね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ともあれ、ようやく鍵を入手しました。[r]これで第一の大門は越えられるでしょう。
+[k]
+
+[charaFace A 1]
+
+＠マシュ
+一歩前進できましたね。[r]引き続き頑張っていきましょう、マスター！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

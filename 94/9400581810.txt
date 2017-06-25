@@ -1,0 +1,176 @@
+
+＄94-00-58-18-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet D 2025200 1 アン]
+[charaSet F 2025100 1 メアリー]
+
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk F]
+[charaFace F 1]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+立派なトウモロコシ畑だ！[r]ありがとう、マスター！
+[k]
+
+＠アン
+これならたくさんのトウモロコシが[r]収穫できそうですわね？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい……ところで、これを作る前の話ですが。[r]どうしてトウモロコシが海賊っぽいのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+ああ……マシュ、マスター。[r]トウモロコシで有名な場所はどこだと思う？
+[k]
+
+？1：アンデスな感じ
+？2：どこだろう……
+
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そうですね……生産量で言えばアメリカが一番だった[r]ような気がします。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+？！
+
+
+＠メアリー
+そうだね。もとはほとんどアメリカ大陸にしかないもの[r]だったんだよ。
+[k]
+
+＠メアリー
+でも、それがボク達の生きたヨーロッパ側にも、[r]あるタイミングで一気に広まった。
+[k]
+
+＠アン
+ある人がアメリカ大陸からヨーロッパに持ち帰ったという[r]わけですわね。
+[k]
+
+＠メアリー
+そう[line 2]クリストファー・コロンブスって男さ。
+[k]
+
+
+？1：聞いたことある
+？2：大西洋を横断した人だね
+？！
+
+＠メアリー
+トウモロコシだけじゃない。
+[k]
+
+＠メアリー
+今までヨーロッパ世界になかったものが、その男一人の[r]手によっていろいろ爆発的に広まったんだ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+聞いたことがあります。その彼の行動により起こった、[r]大陸規模での、いえ、地球の西半球と東半球間における、
+[k]
+
+＠マシュ
+凄まじい規模での動植物や文化の新しい行き来[line 2][r]それを『コロンブス交換』というそうです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+へえ、専門用語ではそう言うんだ。
+[k]
+
+＠アン
+呼び方はまあどうでもいいのですけど[line 2][r]それって、よく考えてみれば凄いことでしょう？
+[k]
+
+＠アン
+[line 2]そんなもの、世界にあるはずがない。
+[k]
+
+＠アン
+別の大陸に住む人間がお互いにそう思っていたような、[r]きっと想像すらしていなかった新しいモノが、
+[k]
+
+＠アン
+次々と『当たり前』として自分達の世界に[r]伝播していったのです。今までの常識が覆されたのです。
+[k]
+
+＠メアリー
+そう、だからボクは思うんだ。
+[k]
+
+＠メアリー
+コロンブスは長い航海の果てに、『大陸の常識』を奪った、[r]って言えるのかもしれない、って。
+[k]
+
+＠メアリー
+そう考えたら[line 2]コロンブスは、ボク達のような海賊の[r]大先輩になるのかもしれないね。
+[k]
+
+＠アン
+ですから、大先輩に敬意を表して、[r]このトウモロコシ畑なのです。
+[k]
+
+＠アン
+願わくば。わたくし達も、世界がひっくり返るような[r]大きなお宝を強奪できますように、と！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

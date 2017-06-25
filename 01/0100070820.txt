@@ -1,0 +1,113 @@
+
+
+
+＄01-00-07-08-2-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+
+[charaSet B 98106200 1 マーリン]
+[charaSet C 98107500 1 ウルク兵士]
+[charaSet D 98006000 1 魔獣]
+
+
+
+
+[bgm BGM_EVENT_4 0.1]
+[scene 32930]
+[se ad5]
+[seVolume ad5 0 0.05]
+[seVolume ad5 1.5 0.4]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+
+
+＠マシュ
+すごい……！[r]見てください、先輩！
+[k]
+
+＠マシュ
+ウルクと変わらない賑わいです！[r]城塞なのに兵士以外にも、多くの人が働いています！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+そりゃあそうさ。この規模の防衛を半年だよ？[r]維持をするには、それはもう街を作るしかない。
+[k]
+
+[charaFace B 0]
+＠マーリン
+ああ、だけど気をつけるように。[r]城壁は確かに魔獣たちを追い返すものだけど、
+[k]
+
+[messageOff]
+[seStop ad5 0.7]
+[bgmStop BGM_EVENT_4 0.4]
+[wipeout rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.1]
+[wipein rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+
+[bgm BGM_EVENT_3 0.1]
+[se ad16]
+[seVolume ad16 0 0.4]
+
+＠ウルク兵士
+警報、警報ッ！　ギの17を乗り越えられたー！[r]付近の市民は退避しろ、獅子班は至急討伐にあたれー！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[se ad23]
+
+＠魔獣
+GuuuuRuuaaaaaaaaaaaa[line 3]！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[wt 0.1]
+[wipein rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+
+＠マーリン
+このように、脚力自慢の魔獣たちは単身で[r]壁を駆け上がってくるからね！
+[k]
+
+＠マーリン
+なに、遠慮する事はない[%1]君。[r]道中なにごともなく退屈だっただろう？
+[k]
+
+＠マーリン
+ここで景気づけに、私たちの腕前をアピールしよう！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[seStop ad16 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

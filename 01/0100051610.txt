@@ -1,0 +1,353 @@
+
+＄01-00-05-16-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_12 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3005002 1 エリザベート]
+[charaSet C 7014001 1 ナイチンゲール]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 3013001 1 スカサハ]
+[charaSet F 1019001 1 ラーマ]
+[charaSet G 5025001 1 エジソン]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+[scene 20904]
+[fadein black 2]
+[wait fade]
+
+[charaFace G 2]
+＠エジソン
+さあ、席につきたまえ！[r]考えるぞ皆の衆！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+＠エリザベート
+はい！　先生、はい！
+[k]
+
+[charaFace G 0]
+＠エジソン
+うむ、エリザベート君。[r]何かな？
+[k]
+
+[charaFace B 2]
+＠エリザベート
+攻め込んで殴るのよ、それしかないわ！
+[k]
+
+[charaFace G 2]
+＠エジソン
+超却下！！[r]である。
+[k]
+
+[charaFace B 5]
+＠エリザベート
+何でよ[line 2]！！
+[k]
+
+[charaFace B 1]
+＠エリザベート
+……そうだわ！[r]歌で彼らを癒してあげるっていうのはどうかしら！
+[k]
+
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[messageOff]
+[charaDepth D 1]
+[charaFace C 6]
+[charaFace F 2]
+[charaFace D 2]
+[charaTalk off]
+[charaFadein C 0.1 2]
+[wt 0.2]
+[charaFadein F 0.1 0]
+[wt 0.2]
+[charaFadein D 0.1 1]
+
+＠一同
+[fontSize x-large]却下！[fontSize -]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaTalk on]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠エリザベート
+何でよ[line 2]！？
+[k]
+
+？1：彼らには文明度が足りない
+？2：彼らには歌を受け入れる度量がない
+？！
+
+[charaFace B 4]
+＠エリザベート
+そ、そう。[r]それじゃあ仕方ないわね。
+[k]
+
+[charaFace B 0]
+＠エリザベート
+歌を理解するのにも、素養というものが必要。[r]彼らにはそれがないなら、仕方ないわね。
+[k]
+
+？1：デスメタルが発明されるまで待たないと
+？！
+
+＠エリザベート
+そう、デスメタルが[line 2][charaFace B 2]いま何て言ったの[&子イヌ:子ジカ]！？
+[k]
+
+[charaFace B 5]
+＠エリザベート
+アイドル！　私のジャンルは[r]ポップでキュートなアイドルソングだからね！？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+＠エジソン
+百家争鳴、と言うのだったか。[r]ともかく皆、改めて現状を把握して貰おう。
+[k]
+
+＠エジソン
+地図だ。[r]ケルトは北米大陸の東半分を占領している。
+[k]
+
+
+＠エジソン
+最終的に彼らは南北の二ルートから攻め入るだろう。[r]現状はそうするための布石を敷いている段階だ。
+[k]
+
+[charaFace G 5]
+＠エジソン
+我々が攻め込むということは、どちらかに穴が空く。[r]圧し負けてこちらの敗北だ。
+[k]
+
+[charaFadeout G 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+これまでのデータを元にすると、恐らくこの戦争の敗北条件は[r]「一定以上の領土が占有されること」
+[k]
+
+＠Dr.ロマン
+だと推測できる。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ただでさえ脆弱な時代との繋がりは、ケルトが支配領域を[r]広げれば広げるほど、どんどん切れていく。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+その内、現実との剥離に耐えられず[line 2]この時代は、[r]“死亡”する。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+だから、攻めるにしても現状の領土をこれ以上[r]食われないようにしなければならないね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠エジソン
+……そうだったのか……では、応急処置として[r]兵力を増やし、前線を押し返した私の行いは……
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein G 0.1 0]
+[charaFadein C 0.1 2]
+
+＠ナイチンゲール
+結果的にこの国を救っていた、という事ですね。[r]患者の体力は減る一方でしたが、心臓は守り抜いた。
+[k]
+
+[charaFace G 0]
+＠エジソン
+うむ……うむ……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+だが、それが限界でもあったな。[r]前線はわずかに押し返したが、それもじき崩れようさ。
+[k]
+
+[charaFace E 5]
+＠スカサハ
+攻めてくる軍はサーヴァントが指揮を執るだろう。
+[k]
+
+＠スカサハ
+機械化歩兵たちでは敵わず、[r]領土は押し広げられていく……このままではな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠エリザベート
+でもそれって、さっきまでの話でしょ？[r]今ならサーヴァント沢山いるんだし！
+[k]
+
+[charaSet H 5023001 1 ブラヴァツキー]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ブラヴァツキー
+ま、そこなエリエリの言う通りなんだけど。[r]んー、向こうの戦力はまず[line 2]。
+[k]
+
+[charaFace H 5]
+＠ブラヴァツキー
+女王メイヴ、クー・フーリン。[r]それからベオウルフとアルジュナ。
+[k]
+
+＠ブラヴァツキー
+数では勝っていても、向こうはケルトに限らず[r]世界有数の大英雄たちよ。
+[k]
+
+＠ブラヴァツキー
+それに加えて数が揃えばサーヴァントすら[r]圧倒できるケルトの戦士たち。
+[k]
+
+＠ブラヴァツキー
+更にどさくさ紛れに引っ張ってくるモンスターやら、[r]シャドウサーヴァントやら。
+[k]
+
+[charaFace H 4]
+＠ブラヴァツキー
+おまけに無限増殖機能付き。[r]倒せる？　あたし倒せないわー、絶対無理。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ラーマ
+む、むぅ。[r]余の全力であれば拮抗はできるが[line 2]。
+[k]
+
+[charaFace F 4]
+＠ラーマ
+倒せ、と言われては保証しかねるな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+サーヴァントだけに狙いを絞るって言ってもなー。[r]そりゃやれって言われたらやりますけど？
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+一対一ならフルボッコ。[r]せめてもう一人いれば何とかって感じかね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠エジソン
+ふうむ……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ラーマ
+……うーむ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ブラヴァツキー
+さて……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠エジソン
+……いかんな、議論が詰まってきている。[r]少し体でも動かすとするか。
+[k]
+
+[bgmStop BGM_EVENT_12 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠エジソン
+[%1]君、折角だから君も[r]付き合いたまえ！
+[k]
+
+[charaFace G 1]
+＠エジソン
+何、私が発明したバーチャル戦闘だ。[r]危険は少ししかない！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

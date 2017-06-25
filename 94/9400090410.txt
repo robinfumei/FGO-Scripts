@@ -1,0 +1,789 @@
+＄94-00-09-04-1-0
+
+[bgm BGM_EVENT_2 0.1]
+[scene 21100]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 5001001 1 毛利メディナリ]
+[charaSet D 1027000 1 桜セイバー]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaSet F 3001001 1 島津セタンタ]
+[charaSet G 2001001 1 長宗我部エミチカ]
+[charaSet H 9940030 1 ちびノブ]
+[fadein black 2]
+[wait fade]
+
+
+[se ad37]
+
+[charaTalk F]
+[charaFadein F 0.1 0]
+[charaFadein G 0.1 2]
+[charaFace F 4]
+＠島津セタンタ
+で、次はオレたちの出番ってわけか……。[r]しかし何でおまえらと組まなきゃならねぇんだよ。
+[k]
+
+[charaFace G 4]
+＠長宗我部エミチカ
+召喚されれば従うしかないのがサーヴァントだが[r]今回ばかりは辞退したかったものだ……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠毛利メディナリ
+こっちのセリフよ！　大体なんなのこの謎空間は！？[r]聖杯からの魔力の流れも妙なことになってるし
+[k]
+
+＠毛利メディナリ
+またろくでもないことに聖杯が使われてるわね。[r]たまには真面目な聖杯戦争をする気は無いの！？
+[k]
+
+[seStop ad37 3]
+[charaFadeout C 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠長宗我部エミチカ
+ほう、さすがは神代の魔女。[r]今回のからくりもお見通しというワケかね？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠毛利メディナリ
+当然でしょう。[r]……まあ、わかった所でどうしようもないのだけど。
+[k]
+
+＠毛利メディナリ
+ほら、死体の肉を集めて作った[r]使い魔ってあるらしいじゃない？
+[k]
+
+＠毛利メディナリ
+フレッシュ……シュタイン？　でしたっけ。[r]今回の聖杯はそんなものよ。
+[k]
+
+＠毛利メディナリ
+後付けで色々弄られまくって、[r]おかしなモノになっちゃったっていうか……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 4]
+＠島津セタンタ
+難儀なこったぜ。[r]で、そろそろ奴さん達が来るみたいだが策はあんのか？
+[k]
+
+[charaFadeout F 0.1]
+
+
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠毛利メディナリ
+まずは、ランサー……、ええと島津セタンタ？[r]貴方は敵をおびき寄せて頂戴。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 1]
+＠島津セタンタ
+おう、囮ってわけか、まかせな。[r]し[charaFace F 4]かしなんでオレだけ幼名なんだろうな……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠毛利メディナリ
+貴方は本名なんだからまだマシよ！[r]私の毛利なんとかってなんなの！？
+[k]
+
+＠毛利メディナリ
+は？　戦国武将？　なによ戦国って？[r]極東の歴史なんか知るわけないでしょう！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 4]
+＠長宗我部エミチカ
+ふむ、希代の謀将に裏切りの魔女とは[r]聖杯も酷な因子を結びつけたものだ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠毛利メディナリ
+そこ、ひとりで分かったような顔してないで。
+[k]
+
+＠毛利メディナリ
+貴方はおびき寄せた敵を横から[r]叩いてちょうだい。いわば伏兵ね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 1]
+＠長宗我部エミチカ
+釣り野伏せという奴だな。なかなかどうして[r]謀将が板についてるじゃないかキャスター。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠島津セタンタ
+[line 3]で、おまえはどうすんだ、キャスター？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 3]
+＠毛利メディナリ
+どうって、私はか弱い奥様系魔女ですし？[r]そういう荒事は遠慮させていただきます。
+[k]
+
+＠毛利メディナリ
+高速神言でNPチャージ、無情のルルブレ無双を[r]するのも吝かではないんだけど……
+[k]
+
+[charaFace C 1]
+＠毛利メディナリ
+ほら。最近、話題沸騰の若い頃Verとかも[r]召喚されてるみたいだし？
+[k]
+
+＠毛利メディナリ
+今後はおしとやかで可憐なイメージを[r]大事にしていきたいのよね。
+[k]
+
+＠毛利メディナリ
+いえ、別に今も若いのですけどね、私は。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 1]
+＠島津セタンタ
+オッケー、話長そうなんでどうでもいいわ！[r]そんじゃいくぞ野郎ども！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein H 0.1 1]
+[charaFace H 0]
+＠ちびノブ
+ノブノブー！！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.5]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠長宗我部エミチカ
+ああ、油断するなよランサー。[r]ところでその生き物、野郎なのかね？
+[k]
+
+[charaFadeout G 0.1]
+
+[messageOff]
+[fadeout black 2]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[bgm BGM_EVENT_3 0.1]
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠島津セタンタ
+ってなわけで、その心臓おいてけやぁ！！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+うわああああああああああ！？[r]わしの心臓がああああああああ！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+まだ取られてません！！　とにかく迎撃を！！[r]あれ？　桜セイバーさんは？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠桜セイバー
+すみません、今日は病欠でお願いします……。[r]こ[charaFace D 6]ふっ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace D 6]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠マシュ
+そんな……！　ランサークラス相手なら、[r]セイバーさんがいないと困ります！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+桜セイバーが使いにくすぎなんじゃが……。
+[k]
+
+
+？1：口調おかしいですよ！？
+[communicationCharaFace 2]
+＠Dr.ロマン
+うわっ、ホントだ。どうしよう！？[r]よし、マギ☆マリに相談だ！（現実逃避）
+[k]
+
+？2：ドクターまで汚染されて……
+[communicationCharaFace 2]
+＠Dr.ロマン
+カルデアはしっかり隔離したはずなのに……[r]ダ・ヴィンチちゃん、ワクチンの作成お願いします！
+[k]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+ええい！　頼りにならん人斬りめ……って[r]ん？[charaFace E 5]　どうしたのだ？　あ奴、逃げてゆくぞ？
+[k]
+
+[charaFadeout E 0.1]
+
+[messageOff]
+[wipeout leftToRight 0.5 3]
+[wait wipe]
+[scene 21100]
+[wipein rightToLeft 0.5 3]
+[wait wipe]
+
+[charaFadein F 0.1 1]
+[charaFace F 4]
+＠島津セタンタ
+ちっ、物見の報告より数が多いじゃねーか。[r]こりゃ、一旦引くしかねぇな。
+[k]
+
+[charaFadeout F 0.1]
+
+[messageOff]
+[wipein rightToLeft 0.5 3]
+[wait wipe]
+[scene 21100]
+[wipeout LeftToright 0.5 3]
+[wait wipe]
+
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+なんだかわかりませんがチャンスです！[r]追いかけましょう、先輩！
+[k]
+
+
+？1：よし追撃だ！！
+[charaFace A 2]
+＠マシュ
+はい！[r]マシュ・キリエライト、突貫します！！
+[k]
+
+[charaFace A 1]
+＠マシュ
+あ、桜セイバーさんは[r]わたしがおんぶしていきますね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein A 0.1 0]
+[charaFadein D 0.1 2]
+[charaFace D 4]
+＠桜セイバー
+……いつもすみません、マシュちゃん。
+[k]
+
+
+[charaFace A 6]
+＠マシュ
+今日がはじめてですから！？
+[k]
+
+？2：うーん、嫌な予感が……
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+グズグズするでない、わしに続けい！！
+[k]
+
+＠魔人アーチャー
+人斬りもさっさと回復せんか！[r]使えないサーヴァント扱いされてしまうぞ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠桜セイバー
+強いサーヴァント、弱いサーヴァント[r]そんなの人の勝手……
+[k]
+
+[charaFace D 6]
+＠桜セイバー
+本当に強いマスターならですね……、こふっ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠マシュ
+とにかく安静にしてください！？
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[messageOff]
+[fadeout black 2]
+[wait fade]
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠島津セタンタ
+あーあ、素直に追いついちまったか……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー
+ふはははは、追い詰めたぞ、島津なんたら！[r]さて、覚悟してもらおうかのう！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠島津セタンタ
+おう、覚悟しな[line 3]テメエらがな。
+[k]
+
+[charaFadeout F 0.1]
+
+
+[se ad38]
+[shake 0.05 5 4 0.2]
+[wt 0.3]
+[se ad38]
+[shake 0.05 5 4 0.3]
+[wt 0.3]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+きゃっ！？　砲撃！？　一体どこから！？
+[k]
+
+[charaFadeout A 0.1]
+
+
+[messageOff]
+[wipeout rightToLeft 0.5 3]
+[wait wipe]
+[scene 20300]
+[wipein leftToRight 0.5 3]
+[wait wipe]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠長宗我部エミチカ
+まんまと術中にはめたようだなランサーは。[r]それでは弓兵の本領発揮と行こうか。
+[k]
+
+＠長宗我部エミチカ
+トレースオン！！[r]ブロークンファンタズム・シュート！！
+[k]
+
+[se ad38]
+[wt 0.3]
+[charaFadeout A 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠長宗我部エミチカ
+その弓いつ使うんですかだと？[r]それが今だ、フィィィッッシュ！！
+[k]
+
+[charaFadeout G 0.1]
+
+
+[se ad38]
+[wt 0.3]
+[se ad38]
+[wt 0.3]
+
+
+[messageOff]
+[wipeout leftToRight 0.5 3]
+[wait wipe]
+[scene 21100]
+[wipein rightToLeft 0.5 3]
+[wait wipe]
+
+[se ad38]
+[wt 0.3]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー
+なんじゃこの矢？の雨は！？　中入りか！？[r]あ、中入りと言うのは奇襲とかそういう意味でじゃな。
+[k]
+
+[charaFadeout E 0.1]
+
+[se ad38]
+[wt 0.3]
+
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+打ち上げとか中入りとか、[r]そういうご苦労様会的なものではないんですね！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠毛利メディナリ
+ふふふ、まんまと引っかかったわねお馬鹿さん達[r]ランサーもご苦労様、あとでパン買ってあげるわ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFadein C 0.1 2]
+[charaFace C 1]
+[charaFadein F 0.1 0]
+[charaFace F 2]
+＠島津セタンタ
+子供かオレは！[r]でも焼きそば入ってるヤツな、麻婆は勘弁な！
+[k]
+
+[charaFace F 4]
+＠島津セタンタ
+……しっかし、テメエらももう少し警戒したらどうだ。[r]どうみてもオレの逃げっぷりおかしかっただろ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+くっ、わしとしたことがうかつだったのじゃ……。[r]こんなの金ヶ崎以来の失敗なのじゃ、長政ェ……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠長宗我部エミチカ
+ふむ、どうやら観念したようだな。[r]で、彼らをどうするつもりだキャスター？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠毛利メディナリ
+さーて、どう料理してあげようかしら？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠マシュ
+申し訳ありません先輩……。[r]せめて桜セイバーさんが健在なら……。
+[k]
+
+
+？1：諦めないで！
+[charaFadein A 0.1 1]
+[charaFace A 15]
+＠マシュ
+なにか、なにか起死回生の策はないでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+うーむ、サルかミッチーでもいれば[#殿:しんがり]を任せて[r]さっさと逃げるんじゃがのう……。
+[k]
+
+？2：具合はどうですか？
+[charaFadeout A 0.1]
+＠桜セイバー
+…………（死ーん）
+[k]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+返事がない、ただの死に体のようじゃな。
+[k]
+
+[charaFace E 6]
+＠魔人アーチャー
+どう見ても外れセイバーです[r]本当にありがとうございましたのじゃ。
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠毛利メディナリ
+ほほほほほ！！　この毛利メディナリの前には[r]飛んで火にいる夏の虫だったわね！！
+[k]
+
+[charaFace C 4]
+＠毛利メディナリ
+……ところで私、[r]ちょっと悪者っぽ過ぎないかしら？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠桜セイバー
+……毛利？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 4]
+＠島津セタンタ
+いや悪者だろ普通に。
+[k]
+
+[charaFace F 1]
+＠島津セタンタ
+だがまあ、これでオレの島津なんたらとかいう[r]役目もお役御免ってトコだな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠桜セイバー
+……島津？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 4]
+＠長宗我部エミチカ
+やれやれ。結局、私がなぜ長宗我部なのかも[r]よく分からなかったが、そういう事になりそうだな。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠桜セイバー
+……長宗我部、……土佐？
+[k]
+
+[se ad14]
+[wt 0.4]
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+……おや！？　桜セイバーさんの様子が……！
+[k]
+
+[charaFadeout A 0.1]
+
+[seStop ad14]
+[wt 0.3]
+[se ad39]
+
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠桜セイバー
+うおおおおおおおおお！！
+[k]
+
+＠桜セイバー
+……哀しみと八つ当たり的な気持ちを力に変えて[r]今こそ纏いましょう、我が誓いの羽織を！
+[k]
+
+＠桜セイバー
+薩長死すべし、慈悲は無い！！
+[k]
+
+[messageOff]
+[fadeout white 2]
+[wait fade]
+[charaSet D 1027002 1 桜セイバー]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+[scene 21100]
+[fadein white 2]
+[wait fade]
+
+[wt 1.5]
+
+[charaFadeout D 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠毛利メディナリ
+え？　薩長？　なにそれ？[r]この子、急に雰囲気変わって恐いんですけど！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+説明するのじゃ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+わっ！？　びっくり！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+実はこの虚弱人斬りこと桜セイバー……[r]その真名こそは幕末の京都にその名を轟かした
+[k]
+
+＠魔人アーチャー
+薩長絶対殺すマンこと[r]新選組一番隊隊長、沖田総司なのじゃ！！
+[k]
+
+[charaFadeout E 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+＠Dr.ロマン
+随分唐突な真名ばらしですね！？
+[k]
+
+＠Dr.ロマン
+それにしてもあの沖田総司が女の子って！？[r]いや、このパターン慣れてきましたけども！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+私はあまり詳しく無いのですが[r]有名な英霊なのでしょうか、先輩……？
+[k]
+
+？1：うん、日本ではかなり
+？2：女の子とはたまげたなぁ（棒）
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠魔人アーチャー
+ちなみに魔人アーチャーことわしの真名は[r]織田ノ……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠沖田総司
+いまこそ薩長に鳥羽伏見の借りを[r]返すときが来ましたよ、近藤さん！！
+[k]
+
+＠沖田総司
+ええ、ついでに土佐も何となく許しませんとも！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 4]
+＠長宗我部エミチカ
+うむ、薩長同盟とかもあるし仕方ないのだろうな。[r]正直、長宗我部に言われても困るが。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaSet D 1027002 1 沖田総司]
+
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠沖田総司
+新選組一番隊隊長、沖田総司！　推して参る！！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.7]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

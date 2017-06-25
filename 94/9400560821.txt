@@ -1,0 +1,584 @@
+
+＄94-00-56-08-2-1
+
+[soundStopAll]
+[charaSet A 98101700 1 ？？？]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 2026000 1 アルトリア]
+[charaSet D 6024000 1 スカサハ]
+[charaSet E 98100800 1 うりぼう]
+[charaSet F 5027000 1 マリー]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 3024000 1 玉藻の前]
+
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[se ad109]
+[charaShake A 0.05 3 3 1.0]
+
+＠？？？
+Ｇ……ッ、ォ、オオオオ……！
+[k]
+
+[messageOff]
+[se ba6]
+[charaSpecialEffect A enemyErasure 0 1.0]
+[wait charaSpecialEffect A]
+[se ad36]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マシュ
+や……やりました！[r]完全に動かなくなって[line 3]沈んでいきます！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠アルトリア
+手応えあり、です。[r]やりましたね、マスター。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+ふむ。やはり猪相手では死ねんか。そうよな。[r]猪相手に本気で死ぬなど、そうそうあることではない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠うりぼう
+……ぴ、ぴぎ……ぴぎっ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFace E 0]
+[charaFadein F 0.1 2]
+[charaFadein E 0.1 0]
+
+＠マリー
+あっ……ええ、そうよ。もう大丈夫。[r]もう怖い猪はいなくなったの！
+[k]
+
+[charaShake E 0.1 0 3 1.0]
+
+＠うりぼう
+ぴぎっ、ぴぎっ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウー。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+あっ……フォウさんがまた、『そこは自分の立ち位置だ』[r]みたいな雰囲気を醸し出して……！
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠マシュ
+だ、大丈夫ですよフォウさん！
+[k]
+
+[charaFace B 16]
+＠マシュ
+ちゃんとわたしはフォウさんを見て『勝ったんだな』って[r]勝利に浸っているところですから！
+[k]
+
+＠フォウ
+フォウ？　フォウフォウ。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_4 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+[wt 1.0]
+
+[scene 21101]
+
+[bgm BGM_EVENT_29 0.1]
+[se ad37]
+[fadein black 2.0]
+[wait fade]
+[wt 1.5]
+[seStop ad37 1.0]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠玉藻の前
+最初はいろいろ不便で、なんじゃこの島はー、と尻尾を[r]掻きむしるようなこともありましたが[line 3]
+[k]
+
+＠玉藻の前
+今になってみると、それも懐かしい気がいたしますねぇ。[r]何やら感慨深いです。
+[k]
+
+
+？1：うん……
+？2：この島に愛着が湧いてきたよね
+
+[charaFace H 0]
+＠玉藻の前
+ええ、不思議なことに。
+[k]
+
+＠玉藻の前
+自分たちで住みやすくしていった苦労があったからこそ、[r]でしょうかね？
+[k]
+
+？！
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……お別れの、時間ですね。[r]マリーさん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+ええ、わかっているわ。[r]名残惜しいけど[line 3]
+[k]
+
+[charaTalk E]
+[charaFace F 4]
+[charaFace E 3]
+[charaFadein F 0.1 2]
+[charaFadein E 0.1 0]
+
+＠うりぼう
+ぴぎ……。
+[k]
+
+[charaFace F 0]
+＠マリー
+そんな哀しそうに鳴かないで。[r]どうか、幸せに暮らしてね。
+[k]
+
+＠マリー
+あなたたちからしてみれば、わたしたちの開拓は、[r]島を荒らしたのと変わりないのかもしれないけど[line 3]
+[k]
+
+[charaFace F 1]
+＠マリー
+畑の食べ物とか、全部、自由にしていいからね。[r]何なら、新しく開墾しちゃってもいいの。
+[k]
+
+＠うりぼう
+ぴぎー。
+[k]
+
+[charaFace F 0]
+＠マリー
+……それじゃあ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaSet E 98100900 1 うりぼう]
+[charaSet A 98100900 1 うりぼう１]
+[charaSet G 98100900 1 うりぼう２]
+
+[scene 21101]
+
+[charaScale E 0.5]
+[charaScale A 0.5]
+[charaScale G 0.5]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 300,-300]
+
+[charaFace A 0]
+[charaFadein A 0.1 150,-300]
+
+[charaFace G 0]
+[charaFadein G 0.1 0,-300]
+
+[cameraMove 0 -150,80 1.6]
+[wait camera]
+
+[fadein black 2.0]
+[wait fade]
+
+[cameraMove 2.0 -80,80 1.4]
+[wait camera]
+
+＠うりぼう
+[fontSize small][line 3]ぴー、ぎー！　ぴー！
+[k]
+
+[charaTalk on]
+
+＠マリー
+さようならー！[r]楽しかったわよー！
+[k]
+
+[charaTalk off]
+
+＠うりぼう
+[fontSize small]……ぴー……！
+[k]
+[messageOff]
+[cameraMove 5.0 150,80 1.2]
+[cameraHome 5.0]
+
+[wt 3.0]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wait camera]
+
+[charaTalk on]
+
+[charaFadeout E 0]
+[charaFadeout A 0]
+[charaFadeout G 0]
+
+[scene 20321]
+[cameraHome 0]
+[wait camera]
+[se ad37]
+
+[shake 0.5 0 5 4.0]
+[fadein black 2.0]
+[wait fade]
+
+[wt 1.0]
+[seStop ad37 2.0]
+
+
+？1：なんだか寂しいね
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠マリー
+そう？　わたしは……元気よ？
+[k]
+
+？2：幸せに暮らしてほしいね
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+ええ、本当に。あの子たちの楽園になりますように、[r]と祈っておくわ。
+[k]
+
+？！
+
+[charaSet A 2025100 1 メアリー]
+[charaSet E 2025200 1 アン]
+
+
+[charaFace F 0]
+＠マリー
+さ。問題はこれからのことでしょう？[r]だいぶ揺れ始めたけど、この船、本当に大丈夫？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+あれだけの時間をかけて準備した最高の船だぞ。[r]ルーンの守りも万全だ。心配はいらん。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+
+＠メアリー
+それともボクたちの操船技術を疑ってるのかな？[r]ちゃんと走っているよ。
+[k]
+
+＠アン
+どこに向かうかはまだ決まっていませんけれどね？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+なに、真っ直ぐ進めばどこかに辿り着くだろう。
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaSet F 3025000 1 清姫]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠清姫
+適当ですねぇ。大丈夫なのですか、その指針で？[r]嘘はいけませんよ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠アルトリア
+少なくとも、食料はたっぷり積んでいますよ。それは[r]出航前に確認しました。大事なことですから何度も。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaSet F 9004000 1 マルタ]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マルタ
+どこに辿り着いてもいいんですよね。[r]とにかくカルデアに連絡がつくようになれば。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はい、早速試みています。[r]いつ繋がるようになってもおかしくないですから。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaSet F 4024000 1 モードレッド]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠モードレッド
+逆に言やあ、いつになるかわかんねえってことだろ。[r]やれやれ、気長な航海になりそうだぜ……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠玉藻の前
+まあまあ、今まではのんびり島でヴァカンスだったのです。[r]今度は海の上で優雅にヴァカンスと参りましょうー！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaSet C 3001001 1 クー・フーリン]
+[charaSet D 6001002 1 小次郎]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFace C 0]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+
+＠クー・フーリン
+どうせおまえらは船の上でも水着なんだろ？[r]オレたちだって空気ぐれぇ読む……
+[k]
+
+＠クー・フーリン
+野郎どもが脇役なのはまだ変わんねぇ、ってな。[r]今までと同じに、隅っこで大人しくしとくさ。
+[k]
+
+＠小次郎
+島ではそれなりにアクティブに楽しませて[r]もらったでござるからな。
+[k]
+
+＠小次郎
+ここでは大人しく、[r]船室で花札にでも興じておくとしよう。
+[k]
+
+[charaFace C 1]
+＠クー・フーリン
+日本のカード遊びか、なぜか知ってるぜ。[r]そりゃいい暇潰しになりそうだ。
+[k]
+
+＠クー・フーリン
+つーわけでオレたちはカルデアに着くまで出てこねえかも[r]しんねぇが、ま、気にすんな。テキトーにやってるさ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ふふ……[r]玉藻さんのスタンスが正しいのかもしれませんね。
+[k]
+
+＠マシュ
+ゴールがいつになるかわからない状況では、[r]ずっと気を張っていても仕方ありません。
+[k]
+
+[charaFace B 1]
+＠マシュ
+島での日々のように、のんびりと船の上での暮らしを[r]楽しんでいればそれでいいのかも、ということです。
+[k]
+
+＠マシュ
+先輩。[r]先輩は、何か船の上でしたいことはありますか？
+[k]
+
+
+？1：釣り……かな
+
+[charaFace B 13]
+＠マシュ
+釣りは島でもさんざんやりましたが……そうですね。[r]海釣りはまた違うと思います。
+[k]
+
+＠マシュ
+どんなお魚が釣れるのでしょうね？
+[k]
+
+
+？2：海賊ごっこ……かな
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+
+＠メアリー
+え、なになに、マスター。[r]海賊に興味があるの？
+[k]
+
+[charaFace A 1]
+＠メアリー
+いいね、うん、実にいい。
+[k]
+
+[charaFace E 1]
+＠アン
+うふふ、教えますとも、教えますとも！[r]手取り足取り！　昼も夜も！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ちょっと、お二人は操船をお願いします！[r]せめてどちらか一人は！
+[k]
+
+？！
+
+[charaSet A 98002000 1 フォウ]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+
+＠フォウ
+フォウー。
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 3.0]
+[bgmStop BGM_EVENT_29 3.0]
+[wait fade]
+[soundStopAll]
+[end]
+

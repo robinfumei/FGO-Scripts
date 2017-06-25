@@ -1,0 +1,323 @@
+＄01-00-08-02-1-0
+
+
+
+
+[charaSet A 98017000 1 魔神ナベリウス]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 9001001 1 ジャンヌ・ダルク]
+[charaSet D 1008001 1 ジークフリート]
+[charaSet E 4017001 1 マリー]
+[charaSet F 6012001 1 サンソン]
+[charaSet G 5015001 1 アマデウス]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_3 0.1]
+
+[scene 36100]
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神ナベリウス
+起動せよ。起動せよ。[r]溶鉱炉を司る九柱。即ち、
+[k]
+
+＠魔神ナベリウス
+ゼパル。ボディス。バティン。サレオス。[r]プルソン。モラクス。イポス。アイム。
+[k]
+
+[se ad63]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wt 0.4]
+
+＠魔神ナベリウス
+我ら九柱、音を知るもの。[r]我ら九柱、歌を編むもの。
+[k]
+
+＠魔神ナベリウス
+“七十二柱の魔神”の名にかけて、[r]我ら、この灯火を消す事能わず……！
+[k]
+
+[charaFadeout A 0.1]
+[seStop ad14 0.2]
+[wt 0.1]
+[messageOff]
+[wt 0.2]
+
+[charaTalk B]
+[charaDepth B 2]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠マシュ
+敵魔神柱、九柱確認……！[r]この数をわたしたちだけで相手をするのは[line 3]！
+[k]
+
+？1：[&ああ:ええ]、ちょっと無理かも……！
+？2：どう考えても多すぎ[&る:ます]！
+
+
+？！
+
+[bgmStop BGM_EVENT_3 0.3]
+[seStop ad14 0.2]
+
+[charaFadeout B 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_4 1.0]
+
+
+[messageOff]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ジャンヌ・ダルク
+何を言われるのです。貴方たちであればこの程度の[r]魔神柱、もう慣れたものではないですか。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.7 1]
+＠ジークフリート
+まったくだ。オレは直に見るのは初めてだが、[r]こんなものと戦ってきたとは、恐れ入る。
+[k]
+
+＠ジークフリート
+そして敬意を表さずにはいられない。
+[k]
+
+＠ジークフリート
+君たちだけでも乗り切れる試練だろうが、[r]余計な手を出させてもらおう。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 22]
+[charaFadein B 0.1 1]
+＠マシュ
+ジャンヌさん[line 3]ジークさん！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジャンヌ・ダルク
+この宙域は我々が抑えます。[r]どうか指示を、カルデアの[%1]。
+[k]
+
+[charaFace C 5]
+＠ジャンヌ・ダルク
+あの凶悪な魔女に比べれば魔神柱など取るに足りぬ！
+[k]
+
+＠ジャンヌ・ダルク
+我ら反邪竜同盟、[r]オルレアンでの活躍に、今こそ酬いる時です！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠マリー
+ええ、そうねジャンヌ！[r]そしてヴィヴ・ラ・フランス、[%1]さん！
+[k]
+
+＠マリー
+嬉しいわ、またご挨拶ができるなんて！[r]ほら、アマデウスも、サンソンも！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠サンソン
+……い、いえ。僕は合わせる顔がありませんので、[r]こうして陰から力になれていれば、それで……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.4 1]
+＠アマデウス
+おお、なんて事だこの几帳面！[r]この期に及んでまだ体面を気にしているなんて！
+[k]
+
+[charaFace G 0]
+＠アマデウス
+過ぎた事は過ぎた事。[r]不評だったコンサートなんて気にしても仕方がない。
+[k]
+
+[charaFace G 3]
+＠アマデウス
+大衆なんてものは、みな記憶が緩いからね？[r]今一番いい演奏をすれば、たいていの失敗は帳消しなのさ。
+[k]
+
+[charaFace G 4]
+＠アマデウス
+いい歳をしてそんな事も分からないとは。
+[k]
+
+＠アマデウス
+そんな繊細さでよくムッシュ・ド・パリなんて通り名に[r]耐えられたものだ。
+[k]
+
+[charaFace G 1]
+＠アマデウス
+だって『パリの男』とか、恥ずかしいにも程がある！[r]僕なら半日で逃げ出しているとも！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠サンソン
+貴様は責任感が無いだけだろう！[r]気にくわない事があればすぐに逃げ出す人間の屑め！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠アマデウス
+ははは、ではその責任感を見せてもらおう！[r]フランスではさんざん[&彼:彼女]らに迷惑をかけたんだ。
+[k]
+
+[charaFace G 3]
+＠アマデウス
+ステージ裏のお手伝い程度では、とてもとても。[r]メインに立って、その十倍の働きはしてもらわないとね？
+[k]
+
+＠アマデウス
+それに、今回は人を救うための戦いだ。[r]処刑台に立つより何百倍もマシだろう？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠サンソン
+っ……。[r]本当に、口の減らない音楽家だな、貴様は！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠マシュ
+アマデウスさん、サンソンさんも！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠アマデウス
+やあ[#お嬢さん:フロイライン]、また会えたね。[r]僕のただ一度のアドバイスは覚えているかな？
+[k]
+
+[charaFace G 3]
+＠アマデウス
+ま、それは今は必要ないか。[r]そもそも話をしている場合じゃあない。
+[k]
+
+＠アマデウス
+準備はいいかい？[r]今から僕らで魔神退治だ。
+[k]
+
+[charaFace G 0]
+＠アマデウス
+……実のところ、僕もコイツらには[r]ちょっとだけ因縁があるんだけどね。
+[k]
+
+＠アマデウス
+でも幸いな事に、僕は“七十二柱の魔神”なんて連中の[r]絶対尊厳なんて興味はなかった。
+[k]
+
+[charaFace G 1]
+＠アマデウス
+僕はとっくに音楽に魂を売っていたからね。[r]アムドゥシアスは、別の誰かが成ったのだろうさ。
+[k]
+
+[charaFace G 3]
+＠アマデウス
+あるいは[line 3]
+[k]
+
+[messageOff]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠マリー
+あら？　なにかしら、アマデウス。[r]今とても、親愛に満ちた眼差しを向けられたような？
+[k]
+
+[messageOff]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠アマデウス
+なに、ちょっとした奇蹟を思い出しただけさ。[r]さあ、戦いの音を鳴らそうか、[%1]君！
+[k]
+
+[charaFace G 2]
+＠アマデウス
+長丁場になりそうだが、[r]今回は助っ人も盛りだくさんだ。
+[k]
+
+＠アマデウス
+こんな前哨戦はさっさと片付けて、[r]次の会場に急がなくてはね！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.5]
+[wait fade]
+[soundStopAll]
+[end]

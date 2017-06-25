@@ -1,0 +1,234 @@
+
+＄94-00-64-08-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98103500 1 レディ]
+[charaSet E 98102200 1 美遊]
+
+[charaDepth E 1]
+[charaDepth A 3]
+
+[charaTalk depthOff]
+
+[charaFilter A silhouette 00000080]
+
+[scene 31200]
+[wipeFilter circleIn 0.5 0.5]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠美遊
+………ハァ…………ハァ…………。
+[k]
+
+[messageOff]
+[se ad91]
+[wt 1.5]
+[seLoop ad95]
+[wt 0.5]
+
+[charaFace E 5]
+＠美遊
+……！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[seStop ad95]
+
+
+
+[se ad60]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠A：？？？
+[line 3]美遊。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠美遊
+………………。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠A：？？？
+ねえ、返事をして美遊[line 3]美遊・エーデルフェルト。[r]まだ私のものになる気はない？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[charaShake E 0.05 3 3 0.5]
+[se bac3]
+
+＠美遊
+……っ……触らないで……[r]この拘束を解いて……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠A：？？？
+その[#服喪面紗:ヴォワラ・ドゥイユ]から流れ込んでくる、[r]あなたの魔力は素晴らしいわ。
+[k]
+
+＠A：？？？
+いいえ、魔力だけじゃない。[r]あなたの存在そのものが、最優の器として機能している。
+[k]
+
+＠A：？？？
+あともう少しで、外の世界へ届きかけた。[r]あとほんの一歩で、私の夢を果たすことができる。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠美遊
+顔も見せないような相手と、交渉なんて……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠レディ
+ふふ……私は、レディ。[r]そう呼ばれている……。
+[k]
+
+＠レディ
+あなたたちが[#魔法少女であるかぎり]、[r][#私に逆らうことは出来ない]……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk off]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+[charaFadein A 0.1 0]
+
+[seLoop ad95]
+[charaMove A 200,0 1.0]
+[wait charaMove]
+[seStop ad95]
+
+[charaTalk on]
+
+＠美遊
+……やめ…………む、ぐ……。
+[k]
+
+[messageOff]
+[se bac180]
+[wt 0.17]
+[seStop bac180]
+
+[se ad60]
+[charaMove A 0 0.2]
+[wait charaMove]
+[wt 0.3]
+[seStop ad60]
+
+＠レディ
+…………っ……[r]……唇、噛まれちゃった……。
+[k]
+
+＠レディ
+ホント、おとなしそうに見えて[r]気が強いんだから。
+[k]
+
+＠レディ
+嫌いじゃないけど。そういうの。
+[k]
+
+＠美遊
+…………っ…………？[r]レディ、あなたは……もしかして……？
+[k]
+
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠レディ
+ふふ……[r]その拘束、[#服喪面紗:ヴォワラ・ドゥイユ]は生きてる……。
+[k]
+
+＠レディ
+[#魔術回路:しんけい]から侵食を続ける術式が[r]あなたの潜在意識にまで到達するのが先か[line 3]。
+[k]
+
+＠レディ
+それとも、あなたの大事なイリヤスフィールが[r]ここへやって来るのが先か[line 3]どちらかしら？
+[k]
+
+＠レディ
+いずれにせよ、私は果たすことができるわ。[r][#棄:す]てられてしまった少女たちの夢を[line 3]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠美遊
+…………っ……。
+[k]
+
+[charaFace E 4]
+＠美遊
+…………イリヤ……。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout E 0]
+
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+[fowardEffect bit_queststart80025_03]
+[wait fowardEffect bit_queststart80025_03]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

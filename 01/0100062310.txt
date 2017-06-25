@@ -1,0 +1,472 @@
+＄01-00-06-23-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet D 98086000 1 ホームズ]
+[charaSet E 5022001 1 三蔵]
+[charaSet G 98002000 1 フォウ]
+
+
+[scene 21400]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ホームズ
+キミが[&ミスター:ミス][%1]。[r]そちらがミス・キリエライト。
+[k]
+
+＠ホームズ
+そちらがサーヴァント、玄奘三蔵。[r]そちらがサーヴァント、俵藤太。
+[k]
+
+＠ホームズ
+そしてそちらが[line 3]ほう。[r]これは驚きだ。円卓の騎士の一人が仲間とは。
+[k]
+
+＠ホームズ
+初めまして、サー・ベディヴィエール。[r]同郷の人間として、親近感を覚えずにはいられないね。
+[k]
+
+？1：どうして[&自分:わたし]の名前を……！？
+？2：どうしてみんなの真名を……！？
+
+？！
+[charaFace D 0]
+＠ホームズ
+なに。初歩的な事だよ、諸君。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（お決まりの名台詞、来ました……！[r]　この方は本物のミスター・ホームズです……！）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+キミたちと私は既に接触を果たしている。[r]こうして顔を合わせる前に、情報を介してね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+情報……ですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+ロンドンでは、私が魔術協会に残した情報を[r]無事に入手してくれただろう？
+[k]
+
+＠ホームズ
+単なる書類整理だったが、[r]あのときは値千金の仕事だった筈だ。
+[k]
+
+＠ホームズ
+必要な情報だけを纏め、[r]読みやすいように並べておいたのだからね。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+その段階でキミたちは私という協力者の影を[r]許容できるようになっていた筈だ。
+[k]
+
+？1：そういえば……
+？2：アンデルセンが、なにか……
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。アンデルセンさんが言っていました。[r]自分が調べる前に誰かが整理していた、と！
+[k]
+
+[charaFace A 1]
+＠マシュ
+あれはミスター・ホームズのお仕事だったんですね！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+イエス。あまり分かりやすく纏めてはマキリに[r]気づかれてしまう。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+本当の知恵者が、真実の目的を求めて来た時のみ[r]意味を成すように配列したものだ。
+[k]
+
+＠ホームズ
+キミたちはあの情報を知る必要があった。[r]傍観者ではなく、この殺人事件の解決者になる為にはね。
+[k]
+
+？1：……殺人事件？
+
+？！
+
+[charaFace D 5]
+＠ホームズ
+ああ、殺人事件だ。私もかつて体験した事のない規模の。[r]『人理焼却による根底からの霊長類の殺害』
+[k]
+
+[charaFace D 0]
+＠ホームズ
+まさに神話級の殺人事件だ。[r]であれば、私が現れるというのも当然だろう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+……あの、[%1]、レディ・マシュ[r]盛り上がっているところ申し訳ないのですが……
+[k]
+
+[charaFace B 4]
+＠ベディヴィエール
+彼は何者なのでしょう？[r]ホームズ……そんな騎士に覚えはないのですが……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+それは悲しい。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+確かに私は[#騎士:サー]の称号を得た事はありません。[r]私の活躍の伝達者はその称号を得ていましたがね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+[FFFFFF]？　貴方の活躍を伝えた者は騎士だったのですか？[r]えっと……レディ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFace B 4]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+はい、ベディヴィエール卿。[r]ミスター・ホームズは世界で最も有名な探偵です。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+クラスは……たぶん、キャスターですよね？[r]正真正銘、あらゆる探偵の祖のひとりです。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ああ、モニターが生きていれば[r]ドクターも大喜びだったはずです！
+[k]
+
+＠マシュ
+そして、わたしの感動もひとしおです！[r]シャーロック・ホームズは実在しました！
+[k]
+
+＠マシュ
+つまり、サー・コナン・ドイルの小説は[r]ワトソン博士による伝記だったのです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace A 1]
+[charaFace D 1]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ホームズ
+ふ。無垢なる少女に手放しで喜ばれるのなら、[r]私もワトソンの小銭稼ぎも報われるというものだ。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+ですがミス・キリエライト。[r]私の正体、本質は貴女が思うものとは些か異なります。
+[k]
+
+[charaFace D 4]
+＠ホームズ
+そして悲しいかな、それを語るのは今回の本題ではない。
+[k]
+
+＠ホームズ
+私はまだ、[&ミスター:ミス][%1]の[r]依頼は受けられないのですから。
+[k]
+
+[charaFace A 12]
+＠マシュ
+え……そうなんですか？
+[k]
+
+[charaFace A 11]
+＠マシュ
+ミスター・ホームズが変装もせず、[r]素顔で出てきたのですから、てっきり……
+[k]
+
+[charaFace D 1]
+＠ホームズ
+ははははは！　これはよい愛読者だ！[r]私の性格をよく心得ている！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+……ふう。私も協力したいのは[r]山々なのだが。依頼された順番というものがある。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+私はバベッジ卿にこの事件の解明を依頼された。
+[k]
+
+＠ホームズ
+彼に残されていたわずかな理性、一欠片ほどしか[r]なかった、しかし綺羅星のような理性を代償に、だ。
+[k]
+
+＠ホームズ
+この依頼が終わるまで私はカルデアに[r]縁を結ぶ事はできない。
+[k]
+
+＠ホームズ
+だが、それは致命的な問題ではない。[r]戦いは君たち英雄に任せよう。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+私は探偵だ。正義にも名誉にも興味はない。[r]ただ謎を暴く。それが私の本分なのだから。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（そ、想像した通りのホームズさんです……！）
+[k]
+
+？1：つまり、ただ先に来ただけ……？
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+ああ、まさしくその通り！[r]落とし穴を作動させ、諸君らを招きはしたがね！
+[k]
+
+？2：謎って一体……
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+それはこれからレクチャーするとしよう。[r]なにしろ道中は長そうだ。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠三蔵
+[%1][&:さん]の味方はするけど、[r]仲間にはならない……そういうことでいいのかしら？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+イエス。[r]諸君はこの学院に知識を求めに来た。
+[k]
+
+＠ホームズ
+“全てを知る必要がある”……おそらく、[r]山の翁はそう語ったのだろう？
+[k]
+
+[charaFace D 5]
+＠ホームズ
+であれば諸君らはこの学院の中心部を目指すべきだ。[r]そして私も、その中心部に用がある。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+中心部はここから遙か５００メートルの地下だ。[r]通路はご丁寧にも折り重なり[#地下迷宮:ダンジョン]の様相を呈している。
+[k]
+
+＠ホームズ
+私は中心部への道を示し、[r]諸君らはトラップをその肉体で排除する。
+[k]
+
+[charaFace D 1]
+＠ホームズ
+まさに無駄のない共同作業だ。[r]さあ急ごう。無限の知識が我々を待っている！
+[k]
+
+
+[bgmStop BGM_EVENT_2 2.0]
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+
+[charaFadeout D 0.1]
+[wt 1.0]
+
+[scene 21410]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[se ad60]
+[wt 2.5]
+[seStop ad60]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.4 1]
+
+＠ベディヴィエール
+なし崩し的にホームズ殿と行動する事になりましたが……[r]これでいいのでしょうか、[%1]？
+[k]
+
+？1：探偵を信じよう
+？2：互いの目的は一致している
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace B 3]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠フォウ
+フォウ。フォウ、フォーウ！
+[k]
+
+[charaFace B 4]
+＠ベディヴィエール
+……そうですか。私はどうもあの手のタイプは苦手で。[r]マーリンと同じ匂いがします、あの人……
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_5 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、魔力反応です！[r]何か来ます！
+[k]
+
+＠マシュ
+これはロンドンと同じ[line 3][r]自律型の使い魔です！
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+やはり防衛装置は生きていたようだ！[r]諸君らの到着を待って正解だった！
+[k]
+
+＠ホームズ
+今の私は存在が揺らいでいる、とても戦闘はできない。[r]諸君らの活躍に期待しよう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

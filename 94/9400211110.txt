@@ -1,0 +1,144 @@
+＄94-00-21-11-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 4009200 1 アン]
+[charaSet G 4009100 1 メアリー]
+[charaSet H 4009000 1 アン＆メアリー]
+
+[scene 22170]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠メアリー
+ふう。やっと来たね、待ちくたびれたよ。
+[k]
+
+＠メアリー
+キミたちはシルバーソーサー？[r]それともオセロピザ？
+[k]
+
+＠メアリー
+ま、どっちでもいいや。いつも通り、ブツを置いて[r]出て行ってね。命だけは取らないであげるから。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+キッチンを埋めるレーションの空容器……[r]ジェンガのように積み上げられたピザの段ボール……
+[k]
+
+[charaFace A 2]
+＠マシュ
+これは紛うことなき疲れたＯＬの部屋！[r]疲れたＯＬの部屋です、先輩！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠アン
+はーい、誰か私のコトをお呼びになりまして－？
+[k]
+
+[wt 0.4]
+[charaFace F 4]
+＠アン
+……あら。通販のお兄さんではありませんのね。[r]ではチェンジで。
+[k]
+
+＠アン
+早く海洋冒険小説百選を届けてくださいまし。[r]もう退屈で退屈で。食事ばかり進んでしまいますわ。
+[k]
+
+[charaFace F 1]
+＠アン
+あ、もちろん料金はロハでお願いします。[r]私たち、見ての通り一文無しですので♪
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+アンさんまでこんなだらしのない生活を……！[r]お二人とも、海賊の矜持はどうしたんですか！？
+[k]
+
+＠マシュ
+財宝を探すのが楽しい、聖杯に求めるものは宝ではなく[r]宝の地図だと微笑んだお二人はどこにいったんです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠メアリー
+それはネットの海に捨てちゃったというか……[r]黒髭のヤツが、試しに使ってみろって言うから……
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠アン
+ええ……これがとても便利で……深淵で……[r]刺激的で……あと楽で……
+[k]
+
+[bgmStop BGM_EVENT_7 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+[bgm BGM_EVENT_3 0.1]
+＠アン＆メアリー
+気がついたら、こんな生活になっていたのさ！[r]でもいいよね、私たち海賊なんだし！
+[k]
+
+＠アン＆メアリー
+商品を届けに来たお兄さんはマスケット銃で脅して、[r]着払い伝票はカトラスで切り刻む！
+[k]
+
+＠アン＆メアリー
+これが海賊！　新しい海賊の矜持さ！
+[k]
+
+＠アン＆メアリー
+マシュ、マスター！[r]こんなオトナになっちゃいけないぞ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+これは　酷い！[r]黒髭氏はほんとロクなコトをしませんね！？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

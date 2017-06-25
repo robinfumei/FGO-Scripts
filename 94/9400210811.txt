@@ -1,0 +1,193 @@
+
+
+＄94-00-21-08-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+
+[scene 22150]
+[fadein black 2.0]
+[wait fade]
+[wt 0.4]
+
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+敵ゴースト、消滅しました！[r]やりました、ありがとうございます式さ……ん？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+＠両儀式
+あいたた……木の根っこにつまずいて転ぶなんて、[r]なにやってんだオレ……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠両儀式
+ん？　なんだ、オレが馬鹿やってるうちに片付けたのか。[r]お疲れさん、[%1]、マシュ。
+[k]
+
+[charaFace A 3]
+＠マシュ
+いえ、あの……今のは式さんがですね、
+[k]
+
+？1：いいんだ。黙っていよう、マシュ。
+
+[charaFace A 12]
+＠マシュ
+……そうですね。何か事情がおありのようですし。
+[k]
+
+＠マシュ
+……でも、あの振り袖は綺麗でした。[r]詳しい話を聞きたかったです……
+[k]
+
+？2：式、変身魔法少女だったのか……
+
+[charaFace D 3]
+＠両儀式
+変身？　なに言ってんだおまえ。[r]だいいち少女って歳じゃないぞ、オレ。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠両儀式
+お。なんだよフォウ、おまえも褒めてほしいのか？[r]……ってなんだそれ。鍵じゃないか。
+[k]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+この場所に隠されていたようですね。[r]お手柄です、フォウさん。よしよし。
+[k]
+
+[charaFace D 3]
+＠両儀式
+………………
+[k]
+
+[wt 0.4]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+おやおや！　式さんも毛並みに触りたいご様子！[r]それではどうぞ遠慮なく！
+[k]
+
+＠メフィスト
+何を隠そう、[#私:わたくし]のケープは[r]悪魔毛１００パーセントの逸品でございます！
+[k]
+
+＠メフィスト
+ほら、触ってごらんなさい。[r]ゴージャスですよ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠両儀式
+…………はあ。[r]仕方ない、妥協するか。ちょっと触らせろ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.4]
+[se bac4]
+[fowardEffect bit_talk_37]
+[wt 0.1]
+[charaMoveReturn E 0 0.3]
+[wt 1.0]
+
+[charaFace E 2]
+＠メフィスト
+あっぶな～い！　メッフィーピーンチ！[r]いま[#私:わたくし]のキューティクルを断髪しようと！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+あ、ごめん。[r]我慢できなくて。その長髪、うざかったし。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メフィスト
+いけませんいけません、断髪はハサミの仕事！[r]式さんのナイフではそれこそ丸坊主が関の山！
+[k]
+
+＠メフィスト
+[#私:わたくし]、伊達男を気取っていますので！[r]この髪だけは死守させていただきます！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠両儀式
+！[r]それオシャレだったのか！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

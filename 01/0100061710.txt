@@ -1,0 +1,949 @@
+＄01-00-06-17-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_11 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98083000 1 ルシュド]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 6003001 1 百貌のハサン]
+[charaSet G 5022001 1 三蔵]
+[charaSet H 1012001 1 ベディヴィエール]
+
+[wipeFilter cinema 0.5 0]
+[scene 28600]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠百貌のハサン
+私はここから別行動をとる。[r]荒野に戻り、聖都攻略の準備を進めておく。
+[k]
+
+＠百貌のハサン
+……まだ脈のある集落がいくつかあるのでな。[r]何としてもあと千人、戦士を募ってみせる。
+[k]
+
+＠百貌のハサン
+いずれ東の村で落ち合おう。[r]呪腕の、後は任せたぞ。
+[k]
+
+[messageOff]
+[charaFadeout F 0.7]
+[wt 2.0]
+[charaSet F 2013000 1 アーラシュ]
+[bgmStop BGM_EVENT_11 1.0]
+[fadeout black 1.0]
+[wait fade]
+[wipeOff]
+[wt 0.5]
+[wipeout circleIn 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wt 0.8]
+[wipein circleIn 1.5 1]
+[wait wipe]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……という訳で、百貌さんと別れてはや二日。[r]ようやく東の村が見えてきましたね、先輩。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 10]
+[charaFadein H 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠ベディヴィエール
+アーラシュ殿のあの奇行から丸一週間ですか。[r]まさに夢のような、遠い出来事のように思えますね。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠三蔵
+なに？　なんか楽しそうな話、してる？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アーラシュ
+おう、楽しいぞう！[r]大声上がるの待ったなしだ！
+[k]
+
+[charaFace F 4]
+＠アーラシュ
+しかし、帰り道もどうかと提案したが却下された。[r]無念だ。
+[k]
+
+[charaFace F 1]
+＠アーラシュ
+まあ実際の話、今回は前より人数が多いからなぁ。[r]途中で失速して不時着する恐れはあった。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+それは落下というのでは……[r]時間は貴重ですが、安全も大切かと……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+マシュ殿の言う通り。慎重を期せば敵に遭う事もなし。[r]さあ、我らの村が見えてきましたぞ！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rightToLeft 0.5 1]
+[bgmStop BGM_EVENT_2 0.5]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaSet G 98002000 1 フォウ]
+[scene 29100]
+[wt 0.5]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+[bgm BGM_EVENT_25 0.1]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 1.0]
+
+[charaTalk C]
+＠ルシュド
+おかえり、マシュお姉ちゃん、[r][%1][&兄ちゃん:姉ちゃん]！
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaMove C -200,0 0.1]
+[wt 0.1]
+[se ad7]
+[charaShake A 0.05 5 5 0.25]
+[charaFace A 3]
+＠マシュ
+ひゃあ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+はっはっは。これルシュド、気持ちは分かるが[r]物陰から飛びかかるのは良くない。
+[k]
+
+＠呪腕のハサン
+これで相手が静謐や三蔵殿であったらお主、[r]一日はものが通らぬ体だったぞ？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ルシュド
+そこは大丈夫！[r]人を選んでやってるからね！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+うむ、ならば良し。穏やかな者と乱暴な者、[r]その目利きができるのなら今後も安心だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+あの……それでも、[r]いきなり抱きつかれるのは驚くといいますか……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+でも、ルシュド君が元気なのは何よりです。[r]ただいま戻りました。村にお変わりはありませんか？
+[k]
+
+＠ルシュド
+うん、ないよ！　アーラシュ兄ちゃんと[r]頭目さまがいなくなって、みんな不安がってたけど！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaSet H 2014000 1 俵藤太]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……うむ。皆には苦労をかけてしまったか。[r]だが今回はいい土産がある。
+[k]
+
+[charaFace D 2]
+＠呪腕のハサン
+藤太殿。ほれ。あれをやってください、あれを。[r]前の宴から二日、すでに充電できているのでは？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠俵藤太
+うむ、任されよ！[r]前回ほどではないが蓄えていたところだ！
+[k]
+
+[se ad39]
+[charaEffect H bit_talk_36]
+＠俵藤太
+いくぞ！[r]美味しいお米が、どーん、どーん！
+[k]
+
+[se ad35]
+[shake 0.05 3 6 0.2]
+[wt 0.7]
+[charaEffectStop H bit_talk_36]
+[se ad35]
+[shake 0.05 3 6 0.2]
+[wt 0.5]
+[messageOff]
+[fadeout white 1.0]
+[wt 0.6]
+[se ad36]
+[charaPut D 0,250]
+[charaEffect D bit_talk_sakura02]
+[wait fade]
+[cameraMove 0.1 0,0 1.0]
+[charaFadeout H 0.1]
+[charaPut H 0,-300]
+[charaEffect H bit_talk_06]
+[wt 1.0]
+[fadein white 1.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ルシュド
+わああああ[line 4]！[r]すごい、この兄ちゃんすご[line 3]い！
+[k]
+
+＠ルシュド
+同じ弓の人だけど、[r]アーラシュ兄ちゃんよりすご[line 3]い！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アーラシュ
+ああ、トータ殿はまさに救いの神だからな！[r]俺も見習いたいもんだ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_25 1.0]
+[wait fade]
+[charaFadeout F 0.1]
+[charaEffectStop H bit_talk_06]
+[charaSet H 1012001 1 ベディヴィエール]
+[scene 29100]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……さて。本来であれば村で一晩明かし、[r]疲れを癒やすところですが……
+[k]
+
+＠呪腕のハサン
+今回はこのまま村を通過致します。[r]我らが目指すのはこの村より更に奥、深き[#幽谷:ゆうこく]。
+[k]
+
+＠呪腕のハサン
+山の民でさえ近寄れぬ、[r]アズライールの廟までご同行願いたい。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+アズライール……？[r]もしかして死告天使アズライールの事かい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……はい。天命の下、[#諸人:もろびと]に[r]死を告げに現れる大天使アズライール……
+[k]
+
+＠静謐のハサン
+本人が望まなくともその名を冠した暗殺者……[r]それが我らの“山の翁”の初代……教団を守護する方。
+[k]
+
+＠静謐のハサン
+あの方であれば円卓の騎士など敵ではありません。[r]獅子王すら問題ではないでしょう……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+山の翁の初代[line 3]つまり、皆さんの先祖ですね！[r]確かに、味方になってくれれば頼もしいです！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+うーん……それはどうかなあ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+山の翁の初代って言っても、[r]やっぱりアサシンのサーヴァントだろう？
+[k]
+
+＠Dr.ロマン
+対人特化はしているだろうけど、今の円卓の騎士や[r]ギフトを使いこなすアーサー王に対抗できるかな……
+[k]
+
+＠Dr.ロマン
+そもそも対抗できるならとっくに出てきて[r]獅子王を暗殺しているのでは？
+[k]
+
+？1：何か事情があるのでは？
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……………………。
+[k]
+
+[charaFadeout D 0.1]
+
+？2：確かにそうかも……
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……それは……そう、かもですが……
+[k]
+
+[charaFadeout E 0.1]
+
+？！
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ベディヴィエール
+……いえ。[r]静謐殿の言葉は正しいのです、魔術師殿。
+[k]
+
+＠ベディヴィエール
+アズライールの廟にいるサーヴァントは特別な存在。[r]彼にとってあらゆるサーヴァントは平等と聞きました。
+[k]
+
+＠ベディヴィエール
+強きものも弱きものも、[r]その刃の前には“一つの命”にすぎない。
+[k]
+
+＠ベディヴィエール
+そのサーヴァントは自らの力で相手を殺すのではなく、[r]彼に相対した者は“自らの運命”に殺されるのだと。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+自らの運命に、ですか……？[r]どういう意味でしょう、先輩……
+[k]
+
+？1：難しくて分からない
+？2：直死の魔眼みたいなものかなあ……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠呪腕のハサン
+……ベディヴィエール殿。[r]我らが初代をそこまで敬っていただけるのは嬉しいが……
+[k]
+
+＠呪腕のハサン
+ますますもって貴方が分からなくなってきた。[r]円卓の騎士である貴方が、なぜその事を？
+[k]
+
+[charaFace H 4]
+＠ベディヴィエール
+いえ、すべて受け売りです。[r]ここへ訪れる前に魔術師に教わった知識にすぎません。
+[k]
+
+＠ベディヴィエール
+私自身は未熟な、[r]円卓にいただけの騎士ですから。
+[k]
+
+[charaFace D 0]
+＠呪腕のハサン
+……ふむ。そういう事にしておきましょう。[r]しかし貴公、嘘が下手ですなあ。
+[k]
+
+[charaFace H 4]
+＠ベディヴィエール
+はい、申し訳ありませ……
+[k]
+
+[charaFace H 3]
+＠ベディヴィエール
+いえ、嘘ではありません！　ありませんとも！[r]初代の伝説はフランスで直に聞いたのですから！
+[k]
+
+？1：…………
+？2：（言っちゃってるけど……）
+
+？！
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠フォウ
+フォ[line 3]ウ…………
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ベディヴィエール
+おほん。とにかく、アズライールの廟に案内して[r]いただくこと、私も賛成です。
+[k]
+
+＠ベディヴィエール
+“山の翁”の実力が伝説通りであれば良し、[r]そうでなくとも戦力が一つ増えるのではありませんか？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+それはその通りだ。[r]ハサン君、その廟にはどのくらいで？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+我が案内をもってすれば往復で二日、というところ。[r]どうですかな、[%1]殿？
+[k]
+
+？1：もちろん、こちらこそお願いします
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+お任せください。[%1]様であれば[r]初代様もお力を貸してくれるかと！
+[k]
+
+？2：やっぱりその人も髑髏面なの？
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+（マスター、ハサンさんに失礼かと……！[r]　初代さんとのご挨拶は慎重にお願いします……！）
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_11 1.0]
+[wait fade]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaSet E 2014000 1 俵藤太]
+[charaSet G 5022001 1 三蔵]
+[scene 28600]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠アーラシュ
+話は分かった。[r]俺もその廟に興味はあるが、今回も居残りだな。
+[k]
+
+＠アーラシュ
+モードレッドの事もある。[r]誰かが民を守らなきゃならんからな。
+[k]
+
+[charaFace F 1]
+＠アーラシュ
+なに。村からなら山の麓にも目が届く。[r]目が届くなら矢も届くって寸法だ。
+[k]
+
+[charaFace F 0]
+＠アーラシュ
+聖都の軍勢が上がってきても二日は凌げる。[r]気にせず行ってこい。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。アーラシュさんなら確かに。[r]だって西の村にさえ矢が届きますから。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ルシュド
+うわあ、西の村まで！！[r]マシュお姉ちゃんが言うならホントなんだよね……
+[k]
+
+[charaTalk C]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ルシュド
+すごいな、アーラシュの兄ちゃん！[r]ほんとにアーラシュ・カマンガーみたい！
+[k]
+
+[charaFace F 1]
+＠アーラシュ
+だから本物だって言っただろー？[r]落ち着いたら弓の基本を教えてやるから覚悟しとけよー？
+[k]
+
+＠ルシュド
+うん！　まずは弓作りからだね、兄ちゃん！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+[wt 0.2]
+
+[charaTalk G]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠三蔵
+あの子、あんなに目をキラキラさせてるわ。[r]アーラシュさん、子供に好かれるタイプだったのね。
+[k]
+
+[charaFace E 0]
+＠俵藤太
+うむ。そこは拙者も一歩譲る。[r]拙者も子供好きだが、それ以上に女好きだからなあ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+（さりげなく問題発言をしている俵藤太を[r]　笑顔でスルー……三蔵ちゃんも根は大雑把と見た）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+さて……そろそろ出立いたしましょうか。[r]ルシュド、村に戻っておれ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ルシュド
+うん。行ってらっしゃい、お姉ちゃん。[r]……これでいなくなったりしないよね？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+もちろんです。[r]行ってきますね、ルシュド君。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アーラシュ
+ああ、気をつけてな。[r]吉報を楽しみにしているぜ。
+[k]
+
+[charaFace F 4]
+＠アーラシュ
+それとベディヴィエール卿。[r]アンタ、結局みんなに伝えなかったな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+＠ベディヴィエール
+……アーラシュ殿。[r]……お心遣い、かたじけない。
+[k]
+
+＠ベディヴィエール
+ですが、これは私の問題ですので……[r]みなさんに話すほどの事ではありません。
+[k]
+
+[charaFace F 4]
+＠アーラシュ
+………………そうか。[r]アンタがそう決めたんならいいさ。
+[k]
+
+＠アーラシュ
+けど無理はするなよ。モードレッドにも言ったが、[r]アンタら円卓の騎士様はどうも戦い方を間違えている。
+[k]
+
+＠アーラシュ
+どうせならみんなで生き残れる方をとれよ。[r]その方針が一番楽に終わるんだぞ、戦いってのは。
+[k]
+
+[charaFace H 1]
+＠ベディヴィエール
+はい、それは確かに。[r]貴方にそう言われると特別堪えますね、アーラシュ殿。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[charaSet F 6009002 1 静謐のハサン]
+[scene 28700]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[se ad2]
+[wt 1.5]
+[seStop ad2 3.0]
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+[charaShake A 0.05 2 0 0]
+＠マシュ
+[line 3]そしてものすごい絶壁です！[r]これは聞いていなかったかと、マスター！
+[k]
+
+＠マシュ
+率直な意見を述べてよろしいでしょうかっ！
+[k]
+
+？1：足、震えてるよ、マシュ
+
+[charaFace A 7]
+＠マシュ
+もちろんです。これは必死の防衛本能なのです。[r]気を抜くと座りこんで、立ち上がれそうにありません！
+[k]
+
+[charaFadeout A 0.1]
+
+？2：これはアーラシュフライトより怖い……！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+ははは、そうでしょうなあ。
+[k]
+
+＠呪腕のハサン
+あちらは強制的なものでしたが、[r]登山は自らの足で進むもの。
+[k]
+
+＠呪腕のハサン
+この、自分の意思で前に進む、というのが[r]慣れていないと怖ろしいものなのですよ。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠静謐のハサン
+怖いのでしたら、どうぞ私にお掴まりください。[r]……その、何があっても離しませんので。
+[k]
+
+[charaShakeStop A]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+[charaFace A 3]
+[charaFadein A 0.1 2]
+[wt 1.0]
+[charaFace A 7]
+＠マシュ
+いえ、いけます、慣れました。[r]静謐さんは前方を注意してくだされば。
+[k]
+
+[charaFace F 1]
+＠静謐のハサン
+はい。それでは[%1]様に[r]ぴったりとくっついて、前方を注意しますね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠三蔵
+あわわ……ちょっと待って、[r][%1]の腕はあたし！　あたしの！
+[k]
+
+＠三蔵
+落ちる、もう前を見てるだけで目がチカチカして[r]落ちちゃう！　あたし、こういうのダメ[line 2]！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠俵藤太
+ええい、暑さも寒さも地下も高所も駄目ときた！[r]お主、それでも三蔵法師か！？
+[k]
+
+＠俵藤太
+そんな様で天竺までの魔境巡り、[r]どうやってこなしたというのだ！？
+[k]
+
+[charaFace G 3]
+＠三蔵
+あれは事前に気合い入れてたの！　頑張ったの！[r]功徳全開だったの！
+[k]
+
+＠三蔵
+でもこれ聞いてなかった[line 3]っ！[r]あたし、何事もいきなりはダメなんだってば[line 2]！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……フッ。あの廟への礼拝が、[r]これほど賑やかになる時が来ようとは……
+[k]
+
+＠呪腕のハサン
+まったく、運命とは分からぬものだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+おや。人生とは分からぬものだ、ではなく？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+そこはそれ、我が身は今や英霊ですからな。[r]人としての生は、既に答えを出してしまっている。
+[k]
+
+＠呪腕のハサン
+……まさに、無念しかない人生だった。[r]これはもう変えようのない結末だ。
+[k]
+
+[charaFace D 4]
+＠呪腕のハサン
+いやはや。成功したつもりだったが、[r]私は愚かで小賢しい人間だった。
+[k]
+
+＠呪腕のハサン
+それをこうして、[r]英霊として体を得た今になって思い知らされる。
+[k]
+
+[charaFace D 0]
+＠呪腕のハサン
+虚しくもあるが、楽しくもある。[r]だから運命は分からない、で良いのですよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ベディヴィエール
+………………。
+[k]
+
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+！　待った、敵性反応だ！　こんな高所にも[r]棲んでいるものがいるのかい、ハサン君！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+[line 3]否！[r]普段であれば[#晩鐘:ばんしょう]の音を恐れ、人も獣も寄りつかぬ！
+[k]
+
+＠呪腕のハサン
+どうやら今は常ならざる事態であるらしい！[r][%1]殿、応戦を！
+[k]
+
+＠呪腕のハサン
+この者ども、とうに正気を失っているようだ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

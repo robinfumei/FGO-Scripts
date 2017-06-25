@@ -1,0 +1,1033 @@
+
+
+＄94-00-77-06-2-0
+
+[soundStopAll]
+
+[se ad14]
+[seVolume ad14 0 0.5]
+
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5012001 1 ニトクリス]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1010001 1 エリザベート]
+[charaSet E 7013001 1 清姫]
+[charaSet F 7022001 1 茨木童子]
+[charaSet G 7023001 1 源頼光]
+[charaSet H 6009002 1 静謐のハサン]
+
+[scene 31900]
+[fadein black 2.0]
+[wait fade]
+
+[se ad177]
+[se ad48]
+[seVolume ad48 0 0.3]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+＠エリザベート
+ぜー、ぜー、ぜー……！[r]や、やったわ……やってやったわ……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+で、では進みましょう！
+[k]
+
+？1：……
+？！
+
+[charaFace A 12]
+＠マシュ
+どうしました、マスター？[r]顔色が優れないようですが……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ニトクリス
+優れない、というか土気色に近いですね。[r]正直、好みの色です。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+体調不良かもだ。極寒から猛暑に切り替わって、[r]体温調整がおかしくなったとか？
+[k]
+
+？1：そうじゃなくて……なんか、急に悪寒が
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 2]
+＠Dr.ロマン
+[%1][&君:ちゃん]！？[r]キミ、メンタルが物凄いブレを示しているぞ！
+[k]
+
+＠Dr.ロマン
+付近に何か異常なものでもあるのかい？[r]見ただけで精神に異常をきたす感じの石像とか書物とか！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ここは溶岩地帯です！[r]そんなものは見当たりません！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エリザベート
+大丈夫よ、[&子イヌ:子ジカ]。[r]この五人なら、誰が相手でも問題ないわ。
+[k]
+
+[charaFace D 0]
+＠エリザベート
+マシュが[#護り:ドラム]、ニトクリスが[#支援:ベース]。[r]緑が[#援護:ジャーマネ]、そして[#私:アタシ]とイバラキが切り開く。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そうですね……バランスの取れた、[r]良いチームだと思います。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 0]
+＠Dr.ロマン
+その意気やよし！
+[k]
+
+＠Dr.ロマン
+サーヴァントたちが待ち構えているようだが、[r]このパーティなら大丈夫だろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エリザベート
+さあ、もうすぐ溶岩地帯も終わりよ！[r]誰が相手でも、恐れることはないわ！！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 0.7]
+[seStop ad14 0.4]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[wt 1.0]
+
+[fadein black 2.0]
+[wt 1.0]
+[se ad177]
+[se ad48]
+[seVolume ad48 0 0.3]
+[wt 0.1]
+[wait fade]
+
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.7 1]
+＠源頼光
+……。[r]……まあ。
+[k]
+
+[charaFadeout G 0.4]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.7 1]
+＠静謐のハサン
+……。[r]…[charaFace H 3]…。
+[k]
+
+
+[charaFadeout H 0.4]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.7 1]
+＠清姫
+……。[r]……。
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.7]
+
+[messageOff]
+[bgm BGM_EVENT_3 0.1]
+
+？1：おうちかえる！！！！
+？！
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……あれは……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 2]
+＠Dr.ロマン
+[%1][&君:ちゃん]が『生命以外の危機を感じる』と[r]訴えかけて止まない三人組……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+通称『マイルームの寝床に勝手に入り込んでくる』[r]トリオ……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+いやいや。[r]それもう物の怪かなんかの類いだろ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠源頼光
+あら？[r]あら、あら、あら？
+[k]
+
+＠源頼光
+皆さん、[r]あの子の声が聞こえませんでしたか？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace D 2]
+[charaFace C 2]
+[charaFace A 14]
+[charaFadein D 0.1 -288,0]
+[charaFadein C 0.1 1]
+[charaFadein A 0.1 2]
+[charaDepth D 2]
+[charaDepth C 3]
+[charaDepth A 1]
+＠全員
+！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠茨木童子
+げぇ、ライコゥ！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace E 1]
+[charaFace H 3]
+[charaFadein E 0.1 0]
+[charaFadein H 0.1 2]
+＠静謐のハサン
+はい、確かに。[r]『愛している！』と叫んだような気がします。
+[k]
+
+＠清姫
+ええ、恐らくそれは[r]わたくしに掛けられたものでしょう。
+[k]
+
+[charaFace H 1]
+＠静謐のハサン
+…………くす。
+[k]
+
+[charaFace E 3]
+＠清姫
+…………ふふふ。
+[k]
+
+[charaFadeout H 0.4]
+[charaFadeout E 0.4]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_3 1.5]
+[wt 2.0]
+
+[messageOff]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[wt 0.4]
+[charaEffect C bit_talk_14]
+[charaEffectStop C bit_talk_14]
+[charaFadeTime C 0 0.7]
+[wait charaSpecialEffect C]
+＠ロビンフッド
+（か、顔のない王がギリギリで間に合った……）
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaPut A 1]
+[charaFadeTime A 0.1 0.7]
+[wt 0.1]
+＠マシュ
+（マスター、先輩、大丈夫ですか？[r]　深呼吸、深呼吸です。大丈夫、見つかってません）
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaPut D 1]
+[charaFadeTime D 0.1 0.7]
+[wt 0.1]
+＠エリザベート
+（ねえ、ちょっとどうして隠れるの？[r]　倒さないと通れないんじゃないの？）
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaPut B 1]
+[charaFadeTime B 0.1 0.7]
+[wt 0.1]
+＠ニトクリス
+（しっ。いいから黙っていなさいエリザベート。[r]　私には分かるのです。霊的に）
+[k]
+
+＠ニトクリス
+（アナタは人類の根源的マイナス波動ですが、[r]　あの三名は宇宙の根源的マイナス波動……）
+[k]
+
+[charaFace B 2]
+＠ニトクリス
+（即ち、ブラックホール的な存在だと……！）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+[wt 0.1]
+＠茨木童子
+（そうなのだ……貴様、中々の慧眼だぞ……[r]　とくに頼光はやばい。あの女は当たり判定がない！）
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad177]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠清姫
+んー……あら、おかしいですね。[r]や[charaFace E 1]っぱり[%1]様の匂いがします。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaPut C 1]
+[charaFadeTime C 0.1 0.7]
+[wt 0.1]
+＠ロビンフッド
+（匂いって何なのこのサーヴァント……！）
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[se ad177]
+[se ad48]
+[seVolume ad48 0 0.3]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠清姫
+くん、くん、くん。[r]ちーかーくーにー、いーまーせーんーかー？
+[k]
+
+？1：ひぃぃぃぃぃ
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFace A 2]
+[charaPut C 0]
+[charaFadeTime C 0.1 0.7]
+[charaPut A 2]
+[charaFadeTime A 0.1 0.7]
+[wt 0.1]
+＠マシュ
+（大丈夫です、大丈夫ですから[r]　落ち着いて下さいマスター！）
+[k]
+
+[charaFace C 4]
+＠ロビンフッド
+（どれだけトラウマを抱えてんの……！？）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：ぷるぷるぷるぷる
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+[wt 0.1]
+＠茨木童子
+（ぬ、主、大丈夫か？[r]　葛餅の如く震え始めておるぞ……？）
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace D 8]
+[charaFace A 0]
+[charaPut D 0]
+[charaFadeTime D 0.1 0.7]
+[charaPut A 2]
+[charaFadeTime A 0.1 0.7]
+[wt 0.1]
+＠マシュ
+（持久戦になりますが、[r]　このままやり過ごしましょう……）
+[k]
+
+[charaFace D 5]
+＠エリザベート
+（まだ溶岩地帯から抜けきってないから、[r]　超暑苦しいんだけど！？）
+[k]
+
+＠マシュ
+（では、あの三人を相手にしますか！？）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[se ad177]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wt 1.0]
+[charaFadeout G 0.4]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+[wt 1.0]
+[charaFadeout H 0.4]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 1.0]
+[charaFadeout E 0.4]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFace A 0]
+[charaPut D 0]
+[charaFadeTime D 0.1 0.7]
+[charaPut A 2]
+[charaFadeTime A 0.1 0.7]
+[wt 0.1]
+＠エリザベート
+（……それは……ちょっと……）
+[k]
+
+＠マシュ
+（でしょう）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠清姫
+うーん……居るはずなんですが……。[r]どーこーかーしーらー。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠源頼光
+かくれんぼですか。[r]お二人とも、かくれんぼの必勝法をご存知ですか？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace H 0]
+[charaFace E 0]
+[charaFadein H 0.1 2]
+[charaFadein E 0.1 0]
+＠二人
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[seStop ad14 0.4]
+
+[charaTalk G]
+[charaFace G 0]
+[charaEffect G bit_talk_lightning_01g]
+[se ar8]
+[charaFadein G 0.1 1]
+＠源頼光
+[line 3]『[#牛王招雷:ごおうしょうらい]・[#天網恢々:てんもうかいかい]』！
+[k]
+
+[charaEffectStop G bit_talk_lightning_01g]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaPut A 1]
+[charaFadeTime A 0.1 0.7]
+[wt 0.1]
+＠マシュ
+（なっ[line 3]！？）
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+[seStop ar8 2.0]
+[bgm BGM_EVENT_3 0.1]
+
+[effect bit_talk_lightning_03g]
+
+[se ad63]
+[wt 2.0]
+
+[effectStop bit_talk_lightning_03g]
+[effect bit_talk_lightning_05g]
+
+[se ad64]
+[seStop ad64 2.0]
+[wt 1.0]
+
+[se ad65]
+[seStop ad65 2.0]
+[wt 1.0]
+
+[effectStop bit_talk_lightning_05g]
+[seStop ad63 2.0]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠源頼光
+隠れられそうな場所を、[r]片っ端から焼き払えばいいのですよ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace H 0]
+[charaFace E 0]
+[charaFadein H 0.1 2]
+[charaFadein E 0.1 0]
+＠二人
+なるほどー。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk C]
+[charaFace C 2]
+[charaPut C 1]
+[charaFadeTime C 0.1 0.7]
+[wt 0.1]
+＠ロビンフッド
+（……オタク、何であんなのと契約してんの？）
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaPut B 1]
+[charaFadeTime B 0.1 0.7]
+[wt 0.1]
+＠ニトクリス
+（……[%1]、差し出がましい事ですが。[r]　これは覚悟決めた方がいいのではないですか？）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaPut A 1]
+[charaFadeTime A 0.1 0.7]
+[wt 0.1]
+＠マシュ
+（マスター……）
+[k]
+
+？1：たたかおう……！
+
+[charaFace A 0]
+＠マシュ
+（は、はい！[r]　了解です、マスター！）
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？2：がんばろう……！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaPut B 1]
+[charaFadeTime B 0.1 0.7]
+[wt 0.1]
+＠ニトクリス
+（勇気を振り絞っている感が伝わってきます……。[r]　それでこそ我が同盟者です！）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？！
+
+[messageOff]
+
+[se ad7]
+[wait se ad7]
+
+[wt 0.4]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠源頼光
+あら。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠清姫
+まあ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠静謐のハサン
+……見つけました……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エリザベート
+悪いけど、通らせてもらうわよ。[r]あと、[&子イヌ:子ジカ]は渡さないわ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠源頼光
+その子を引き渡してくれるなら、[r]通してあげますのに……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+[wt 0.7]
+
+[charaFace D 2]
+＠エリザベート
+……っ、渡さないわ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+今、ちょっと迷ったな……。
+[k]
+
+？1：エリちゃん！？
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エリザベート
+大丈夫、大丈夫よ[&子イヌ:子ジカ]！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace B 9]
+[charaFace F 0]
+[charaFadein B 0.4 0]
+[charaFadein F 0.4 2]
+＠茨木童子
+……おい、そこな異人。
+[k]
+
+[charaFace B 7]
+＠ニトクリス
+え、私ですか？
+[k]
+
+[charaTalk F]
+[charaMove F 1 0.4]
+[wait charaMove F]
+＠茨木童子
+うむ。[r]貴様の技で少し頼みたいことがあってな……。
+[k]
+
+[charaFadeout B 0.7]
+[charaFadeout F 0.7]
+[wt 0.7]
+
+[wt 0.4]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠源頼光
+では仕方ありません。[r]毒蛾をさらっと潰して、愛する我が子を取り戻しましょう。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エリザベート
+毒蛾？[r]毒蛾って誰のこと？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+多分、エリザベートさんのことではないかと……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エリザベート
+ふむふむ……。[r]…[charaFace D 2]…[#私:アタシ]を毒蛾、ですってぇ！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠源頼光
+ええ、毒蛾です。[r]ほら、触角ついていますし。
+[k]
+
+＠源頼光
+色も無駄に鮮やかというか、[r]目に痛々しいですし？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エリザベート
+ふふふふふ。[r]あはははは。
+[k]
+
+[charaFace D 5]
+＠エリザベート
+よし、殺すわ。そもそも[#私:アタシ]、雷鳴とか怖くないし。[r]ヤーノシュ山の雷鳴、舐めんじゃないわ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠清姫
+ふふふふふ。[r]大抵のことには寛大なわたくしですが……。
+[k]
+
+[charaFace E 1]
+＠清姫
+このエリちゃんさんという方には、[r]何か……宿命めいたものを感じます。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠静謐のハサン
+……あの、私は寝床に潜り込むだけで[r]幸せなのですが[line 3]。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+却下です、却下！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠静謐のハサン
+くすん。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エリザベート
+心配いらないわ、[&子イヌ:子ジカ]！
+[k]
+
+[charaFace D 1]
+＠エリザベート
+この勇者エリザベートが、アンタを[r]このドス黒い、ろくでなしトリオから守ってあげる！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace E 0]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadein E 0.1 0]
+[charaFadein G 0.1 1]
+[charaFadein H 0.1 2]
+[charaDepth H 2]
+[charaDepth E 3]
+[charaDepth G 1]
+＠三人
+……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠茨木童子
+……アイツは人の神経を逆撫でにする天才か？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠ニトクリス
+天然素材ですね……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エリザベート
+さあ、かかってらっしゃい！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[charaFadeout D 0.4]
+
+[soundStopAll]
+[end]

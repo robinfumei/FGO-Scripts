@@ -1,0 +1,324 @@
+
+＄94-00-45-12-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 4023001 1 坂田金時]
+[charaSet G 7013001 1 清姫]
+
+[scene 28200]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……ここが最後の大門ですね。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+そしてやはり、サーヴァント反応もあるぞ。[r]あそこにいるのは[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+
+
+＠清姫
+赤……それは情熱の色。[r]燃えさかる炎の色。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+清姫さん……なぜ……？
+[k]
+
+[charaTalk G]
+
+＠清姫
+なぜ？　愚問です。[r]わたくしは[line 2]
+[k]
+
+
+＠清姫
+わたくしはマスターである[%1]さま……[r]いえ、安珍様がいらっしゃる所に必ず現れます。
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.3]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace G 9]
+
+＠清姫
+だって[line 3]安珍様を慕い、どこまでも追い掛けて[r]追い詰める、愛の忠犬なのですから！
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+それ忠犬じゃなくて猟犬って言いますよね！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+＠風魔小太郎
+……酒の匂いがします。[r]彼女もたらふくあの酒を飲んでしまったかと……
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+[#蛇:うわばみ]なだけに酒は底なしってか……[r]こりゃあ生粋のバーサーカーだぜ……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+
+＠牛若丸
+はい。ですが今の一言で私も理解できました。[r]清姫殿がここにいる理由が。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 0]
+
+＠フォウ
+フォウ、フォーウ？
+[k]
+
+[charaTalk D]
+[charaFace D 2]
+
+＠牛若丸
+そうですともフォウ殿。[r]彼女もやはり、犬枠を狙う刺客なのです！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+
+＠風魔小太郎
+あ、そういう……[r]キジ枠ならいくらでも替わってあげられるのですが……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+＠坂田金時
+キジにもサルにもなる気はなさそうだけどな、[r]あのドラゴン。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+
+＠清姫
+当たり前です。[r]ひ弱なキジにも下品なサルにも興味はありません。
+[k]
+
+
+
+＠清姫
+犬は正直者といいます。つまり、誰よりも嘘を嫌う[r]わたくしこそが犬にふさわしい。
+[k]
+
+＠清姫
+なのに、ああ[line 2]わたくし以外の女性が[r]安珍様に犬と呼ばれるなど！
+[k]
+
+[charaFace G 8]
+
+＠清姫
+毎夜毎夜、この雌犬め犬らしく鳴いてみせろ[r]わんわんよーしいい子だご褒美をくれてやろう……
+[k]
+
+[charaFace G 9]
+
+＠清姫
+みたいな破廉恥なプレイに励んでいるなど！[r]けっして許す訳にはまいりません！
+[k]
+
+＠清姫
+想像するだけで嫉妬の炎が口から零れます！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠牛若丸
+誤解です清姫殿！
+[k]
+
+＠牛若丸
+確かに私は犬役をいただいてはおりますが、[r]破廉恥なことなど何一つありませぬ。
+[k]
+
+＠牛若丸
+主殿にいただく褒美と言えば、働きに応じて、[r]よーしよしいい子だ気持ち良く撫でてやろう、と。
+[k]
+
+[charaFace D 2]
+
+＠牛若丸
+そんな感じの恩賞をいただいているだけですので！
+[k]
+
+[charaTalk G]
+
+＠清姫
+きしゃ[line 4]！？[r]わたくしの妄想通りじゃないですか[line 3]！？
+[k]
+
+？1：頭。頭だよ。頭
+
+[charaTalk D]
+[charaFace D 3]
+
+＠牛若丸
+おっとそうでした。[r]しつげん、しつげん。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+
+？2：フォウくんも撫でます！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウッ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+
+？！
+
+＠清姫
+……やはり安珍様は、そして安珍様の犬の座は力尽くで[r]取り戻さなくてはならないようですね。
+[k]
+
+
+
+[charaFace G 9]
+
+＠清姫
+出でよ、[#轟力丸:ごうりきまる]！
+[k]
+
+[bgmStop BGM_EVENT_7 0.1]
+[se ad14]
+
+[wt 0.5]
+
+[seStop ad14 1.5]
+
+[charaFace G 6]
+
+＠清姫
+[#是:これ]なる赤鬼は『力』の具現。嘘は大嫌いなのでお教え[r]しますが、力では決して勝てません。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠清姫
+では一時のお覚悟を、[%1]さま。
+[k]
+
+[charaFace G 9]
+
+＠清姫
+わたくし以外の誰も犬呼ばわりできないよう、[r]折檻させていただきます！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+……いや、オレっちが言うのも何だけどよ大将。[r]アンタ、女難の相とか持ってねえか？
+[k]
+
+[wt 0.4]
+
+[charaFace F 1]
+＠坂田金時
+だがまぁ、安心しな。[r]相撲で鳴らしたオレっちとベアー号がいるんだぜ？
+[k]
+
+[charaFace F 2]
+＠坂田金時
+力比べ上等ォ。蛇だろうが鬼だろうが、喜んで[r]同じ土俵に上がってみせようじゃねぇか！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

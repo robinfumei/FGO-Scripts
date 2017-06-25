@@ -1,0 +1,199 @@
+
+
+
+＄01-00-07-15-5-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 3027001 1 アナ]
+[charaSet D 98107100 1 ゴルゴーン]
+
+[se ad14]
+[shake 0.05 0 2 0]
+[bgm BGM_EVENT_24 0.1]
+[scene 32400]
+[fadein black 1.5]
+[wait fade]
+[charaScale D 1.01]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ゴルゴーン
+まだだ[line 3]！[r]まだ終わるものか、ここで終わるものか[line 3]！
+[k]
+
+＠ゴルゴーン
+私は復讐する、この地上を、[r]私を棄てたオマエたちを塗り潰す[line 3]！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ゴルゴーン、倒れません……！[r]玉座も持たないというのに、まだ……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+うそ、不死性は健在なの！？[r]もう傷が塞がってるわよ、アレ！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ゴルゴーン
+当然だ、この程度で私を倒せるものか！[r]私は原初の女神、ティアマト……！
+[k]
+
+＠ゴルゴーン
+ティアマト、ティアマトの、筈だ……！
+[k]
+
+＠ゴルゴーン
+声が聞こえる！[r]むせび泣く母の声が、今も……！
+[k]
+
+＠ゴルゴーン
+だから、私は[line 3][r]代わりに、復讐を、果たさなければ[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[se ad10]
+[shake 0.05 0 6 1.0]
+[wt 1.0]
+[shake 0.05 0 2 0]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+落盤、止まりません！[r]ダメ、このままだと全員下敷きに……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠アナ
+[line 3]いえ。[r]アナタはただの怪物です、ゴルゴーン。
+[k]
+
+＠アナ
+形のない島の女怪、英雄殺しのゴルゴーン。[r]アナタの復讐は、決して、島の外には出ないのです。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+アナさん！？[r]いけません、戻って……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ゴルゴーン
+貴様[line 3]やめろ、来るな！[r]私を見るな[line 3]私を、私を[line 3]！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠アナ
+……ええ。共に消えましょう、ゴルゴーン。[r]それが、私がこの地に呼ばれた理由なのですから。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[se ad73]
+[charaAttack C normal -128,40 0.2]
+[charaFadeout C 0.2]
+[wt 0.3]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 0.7]
+[charaEffect D bit_talk_13]
+[wt 0.1]
+[se bac135]
+[se bac137]
+[charaShake D 0.05 2 5 0.7]
+[wt 0.2]
+[se ad161]
+[charaEffect C bit_talk_35]
+[wt 1.0]
+[se ad10]
+[shake 0.05 0 8 0]
+[charaMove D 0,-10 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_24 1.0]
+[wipeout clash 2.0 1]
+[scene 10000 2.0]
+[wait wipe]
+[effect bit_talk_43l]
+[wipeFilter circleIn 0.5 1.0]
+[se ad75]
+[fadein black 0.4]
+[wait fade]
+[charaFadein C 0.7 1]
+[wt 2.0]
+[charaFadeout C 0.1]
+[charaFadein D 0.7 1]
+[se ad75]
+
+[wt 2.0]
+[effectStop bit_talk_43l]
+[charaFadeout D 0.1]
+[wt 1.0]
+
+
+？1：アナ……！
+？2：手を、早く！
+？！
+[charaFace C 1]
+[charaFadein C 0.7 1]
+[wt 0.7]
+[charaFace C 10]
+[charaMoveReturn C 0,-50 0.4]
+[wait charaMove C]
+[wt 0.7]
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout C 0.1]
+[se ad10]
+[seStop ad14 2.0]
+[se ad144]
+[wt 3.0]
+[shakeStop]
+
+[soundStopAll]
+[end]
+
+
+

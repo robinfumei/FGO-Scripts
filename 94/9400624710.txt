@@ -1,0 +1,119 @@
+＄94-00-62-47-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 2026000 1 アルトリア]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk H]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+……というわけで。[r]願望実現装置を完成させたであります。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠アルトリア
+[line 3]失礼。今、何と？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+願望実現装置。[r]これがあれば、大抵の夢は叶えられますですぞー！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠アルトリア
+せ、聖杯を作ってしまったのですか……。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+いいえ、願望実現装置です。
+[k]
+
+＠G：うりぼう
+これを使えば……。
+[k]
+
+＠H：うりぼう
+一日中、のんびりできます。[r]ずっとだらだら過ごせるであります。
+[k]
+
+＠F：うりぼう
+夢のようでありますなー。
+[k]
+
+＠G：うりぼう
+なー。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠アルトリア
+マスター、さすがに[r]これは破壊した方がいいのでしょうか……。
+[k]
+
+[charaFace A 8]
+
+＠アルトリア
+だがしかし、ごろごろするだけならば……。[r]うーん……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

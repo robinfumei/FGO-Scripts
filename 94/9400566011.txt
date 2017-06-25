@@ -1,0 +1,96 @@
+
+＄94-00-56-60-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 3024000 1 玉藻の前]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+
+[scene 20300]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+うんうん、これですっきりです！
+[k]
+
+[charaFace A 0]
+＠玉藻の前
+これでまたしばらくは、内にケモノを秘めた優雅なセレブ[r]狐のスタイルで肢体を見せつけることに集中できますね。
+[k]
+
+＠玉藻の前
+浜辺のビューティ。ガツガツしない余裕ある姿……それを[r]当たり前だと思っていたアノ人は、夏が終わったそのとき、
+[k]
+
+[charaFace A 3]
+＠玉藻の前
+自分が恋に落ちていたことに初めて気付くのであった……[r]みたいな！　きゃっ♪
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+…………。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+…………こほん。
+[k]
+
+＠玉藻の前
+というわけで、何でしたっけ。マルタさんの祈りと[r]スカサハさんの種でどうにかするんでしたっけ？
+[k]
+
+＠玉藻の前
+それじゃ、呼んできますねー。
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[se ad59]
+[wt 0.8]
+[seStop ad59 0.7]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠マシュ
+夏の玉藻さんは……本当にちょっと、行動の読めない[r]ケモノ的部分がありますね……？
+[k]
+
+？1：夏だから、さ……
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,240 @@
+＄01-00-03-08-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98018100 1 海賊]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 4008002 0 黒髭]
+[charaSet F 3016000 1 ？？？]
+[charaSet G 2012001 1 エウリュアレ]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk F]
+[charaFace E 5]
+[charaFadein E 0 2]
+[charaFace F 1]
+[charaFadein F 0 0]
+[fadein black 1]
+[wait fade]
+＠F：？？？
+いやあ……やっと隙が出来たよな、船長。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+まったく、油断ブッこいてる振りして、どこだろうと[r]用心深く銃を握り締めているんだからねえ。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+オジサン、まったく感心したぜ。
+[k]
+
+＠F：？？？
+天才を自称するバカより、[r]バカを演じる天才の方がそりゃ厄介だわ。
+[k]
+
+[charaFace E 0]
+＠黒髭
+……なるほどな……。[r]道理で……裏が読めぬ相手だと……。
+[k]
+
+[charaFace E 1]
+＠黒髭
+しかし、この状況で裏切るとか、[r]アホでござるか。[#ヘクトール]氏は。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ヘクトール……！？
+[k]
+
+[charaSet F 3016000 1 ヘクトール]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠ヘクトール
+いや何、オジサンもそれなりに勝算があって[r]やっていることでね。
+[k]
+
+＠ヘクトール
+それじゃ、船長。[r]アンタの聖杯を戴こうか……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠黒髭
+舐めるンじゃ、ねぇ……！！
+[k]
+
+[se bac21]
+[wait se bac21]
+[effect bit_talk_20 0]
+[se bac35]
+[wt 1]
+[charaFace F 1]
+＠ヘクトール
+残念、外れ。[r]聖杯…………獲った！！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+聖杯が表出した……!?
+[k]
+
+[charaFace A 7]
+＠マシュ
+エドワード・ティーチが、[r]この時代の特異点だったんですか……!?
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠黒髭
+ぬかっ、た……！
+[k]
+
+[effectStop]
+[wait effect]
+[wt 0.5]
+[charaFadeout E 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+[charaFace F 0]
+＠ヘクトール
+後は[line 2]フランシス・ドレイク。[r]アンタだけだな。
+[k]
+
+[charaFace F 5]
+＠ヘクトール
+まったく、馬鹿に聖杯を預ければ時代が[r]狂うって話だったのにさァ。
+[k]
+
+＠ヘクトール
+まさかそれを食い止めるだけの航海者が現れるとは。[r]ほんと、人類の航海図ってのは綱渡りだよ。
+[k]
+
+？1：止めろ、マシュ！
+
+？2：倒すんだ、マシュ！
+
+？！
+
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+させません……！
+[k]
+
+[se bac1]
+[charaFadeout F 0.1]
+[wt 0.5]
+[charaFace A 6]
+＠マシュ
+え……！？
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21330 0]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ヘクトール
+なんて、ね。[r]正しい聖杯なんざどうでもいいさ。
+[k]
+
+[charaFace F 0]
+＠ヘクトール
+こっちの[#本命:ねらい]は[line 2]。[r]彼女でね。
+[k]
+
+＠マシュ
+わたしたちの船に……！？
+[k]
+
+[charaFadeout F 0]
+[charaTalk F]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+[charaFadein F 0.1 0]
+＠エウリュアレ
+きゃっ！？
+[k]
+
+＠マシュ
+エウリュアレさん！
+[k]
+
+[charaFace G 5]
+＠エウリュアレ
+この、離しなさい……！
+[k]
+
+＠ヘクトール
+大人しくしておいてくれよ、っと。
+[k]
+
+＠ドレイク
+この船に乗りこむ前から[r]ティーチを裏切ってた、ってことかい？
+[k]
+
+[charaFace F 1]
+＠ヘクトール
+そうだねえ。[r]これぞまさに、トロイの木馬ってやつかな？
+[k]
+
+＠ヘクトール
+ま、俺は実物を見たことがないんだけどねぇ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+＠アステリオス
+はな、せええええええええええええええええ！！
+[k]
+
+[messageOff]
+[se bac6]
+[effect bit_talk_12 1]
+[charaEffectStop A]
+[wait charaEffect A]
+[wt 0.5]
+[charaFace F 2]
+[charaFace F 2]
+＠ヘクトール
+……っと！[r]危ないなあ、おまえさん！
+[k]
+
+＠エウリュアレ
+あ……！
+[k]
+
+[charaFace F 1]
+＠ヘクトール
+ミノタウロス[line 2]ねえ。[r]まさに美女と野獣って組み合わせか。
+[k]
+
+[charaFace F 0]
+＠ヘクトール
+ま、もっとも……能無しのバーサーカー程度に[r]遅れを取るほど、オジサン落ちぶれちゃいねえがな！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,103 @@
+＄94-00-09-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1027000 1 桜セイバー]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaSet F 7011001 1 武田ダレイオス]
+[charaSet G 4001001 1 真田メドゥーサ]
+[fadein black 2]
+[wait fade]
+
+
+[charaTalk off]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+[wt 0.9]
+[charaFadeout A 0.4]
+[wt 0.9]
+[charaFadein E 0.1 2]
+[charaFace E 5]
+[charaFadein D 0.1 0]
+[charaFace D 5]
+[wt 0.9]
+[charaFadeout D 0.4]
+[charaFadeout E 0.4]
+[wt 0.3]
+
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠武田ダレイオス
+[image berserker_language_1][line 2]ッ！！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠真田メドゥーサ
+ついに決着をつける時が来たな、尾張のうつけ、[r]とお館様は申しております。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠武田ダレイオス
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠真田メドゥーサ
+我が武田騎馬軍団の前に屍をさらすがよい[r]と、お館様は申しております。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー
+貴様が乗ってるの、どう見ても象なんじゃが……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠武田ダレイオス
+[image berserker_language_1][line 2]ッ！！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠真田メドゥーサ
+細かいことは気にするな、ハゲるぞ[r]と、お館様は申しております。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+こっちのセリフじゃ！！
+[k]
+
+[charaFadeout E 0.1]
+
+[messageOff]
+[charaFadeout E 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

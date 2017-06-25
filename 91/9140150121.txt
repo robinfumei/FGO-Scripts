@@ -1,0 +1,241 @@
+
+＄91-40-15-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4015001 1 アレキサンダー]
+[charaSet E 98018100 1 海賊]
+[charaSet F 98018100 1 海賊たち]
+[charaSet G 98018100 1 海賊たち]
+[charaSet H 98072000 1 アキレウス]
+
+[charaDepth F 1]
+
+[scene 21100 0]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+
+＠アキレウス
+堂々としたもんだ。王ってのは苦手極まる部類だが、[r]おまえさんは特別だ。なかなか気に入った。
+[k]
+
+＠アキレウス
+それに、その馬な[line 3]そいつもいい。実にいい。
+[k]
+
+[charaFace H 0]
+＠アキレウス
+というか、ライダーのクラスに[r]悪いヤツはそういない。俺はそう主張したい。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠アレキサンダー
+はあ、はあ……それは、僕も同感、だけど……[r]なんて事だろう……貴方には将才もあったのか……！
+[k]
+
+＠アレキサンダー
+あの、エリザベートの歌みたいにグチャグチャだった[r]海賊たちの動きが、こんなにも見違えるなんて……
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+一騎打ちじゃない、[r]兵を用いての競い合いは……こんなに楽しい……！
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+僕はこの感覚をいずれ知るし、[r]本当は既に知っている。でも、いま僕は思う。
+[k]
+
+＠アレキサンダー
+きみと……いいや、貴方と、もっと戦いたい。[r]僕は、この高揚を、戦いの誉れを、いつか……。
+[k]
+
+[charaFace D 4]
+＠アレキサンダー
+もっと……。[r]多くの、者、たちに……。
+[k]
+
+[messageOff]
+[charaFadeout D 0.7]
+[wt 0.7]
+[shake 0.05 2 2 0.4]
+[se ad54]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あっ、アレキサンダーさん[line 2]！？
+[k]
+
+＠アレキサンダー
+…………ぐー。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+魔力的にはまだいけるはずだけど、これは、[r]いわゆる気力が尽きたってやつかな。寝ちゃったね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠海賊
+……すげえ。すげえもん見ちまったぜ、オレたち……。[r]そしてよく生きてるなオレたち……。
+[k]
+
+＠海賊
+世界は広い……広すぎる……。
+[k]
+
+＠海賊
+空を飛んだり雷電を呼ぶ馬がいるとか……。[r]なんか一から人生見直したっつーか……。
+[k]
+
+＠海賊
+うん、ムリ！　こんなのがゴロゴロいる海で[r]海賊なんて自殺行為だった！
+[k]
+
+＠海賊
+オレたちには畑と山が似合ってると見た！[r]用心棒のセンセイ、オレたちスパッと足を洗いますわ！
+[k]
+
+＠海賊
+これまでの武芸授業料は出世払いというコトで！[r]そんじゃ！
+[k]
+
+[se ad60]
+[seStop ad60 1.4]
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+[wt 1.0]
+[charaTalk on]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アキレウス
+お、おう？　出世払いっつっても、[r]オメーら陸にあがったら捕まって牢獄行き……
+[k]
+
+[charaFace H 0]
+＠アキレウス
+ま、いいか。どうあれ達者でな、バカども！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……戦闘、終了しました。[r]味方の損害はなく、あちらにも死者はありません。
+[k]
+
+？1：気持ちのいい戦いだったね
+？2：こんな戦いも、あるんだね
+
+？！
+
+[charaFace A 1]
+＠マシュ
+……はい。アレキ君の一騎がけも、海賊たちを指揮する[r]アキレウスさんの機転も、素晴らしいものでした。
+[k]
+
+[charaFace A 13]
+＠マシュ
+当初は危険な気配のあった海賊たちも……[r]すっかり毒気が抜かれていた様子でした。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠アキレウス
+[line 2]さてと。[r]おまえさんたちもよく戦ったな。
+[k]
+
+[charaFace H 0]
+＠アキレウス
+お疲れさん。保護者なんだろ、そこの小僧の？[r]人を振り回す天性っつうのかね。
+[k]
+
+＠アキレウス
+いずれ、本当にどこかの大王になるだろうよ。[r]それまでは観念して付き合うしかないだろうな。
+[k]
+
+[charaFace H 1]
+＠アキレウス
+ま、いまはただのワンパク坊主だが。[r]おーおー、イイ顔で寝ちまいやがって。
+[k]
+
+＠アレキサンダー
+…………ぐー。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+[wt 0.5]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……本当に。[r]いい表情、してますね。先輩。
+[k]
+
+＠マシュ
+どんなに明るく振る舞っても、彼の行動、信念が[r]力に満ちたものであるコトは感じ取れます。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……たとえ、その道が波乱に満ちたものであっても。
+[k]
+
+[charaFace A 1]
+＠マシュ
+彼に率いられた人々は、[r]充実した人生を送れるのではないでしょうか。
+[k]
+
+？1：どうあれ、濃い人生になりそうだ。
+？2：まわりはたまったものじゃないけどね
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 1.9]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

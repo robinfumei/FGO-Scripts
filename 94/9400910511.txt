@@ -1,0 +1,643 @@
+
+
+＄94-00-91-05-1-1
+
+[charaSet A 99502600 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 6005001 1 ジャック]
+[charaSet D 5004001 1 ナーサリー・ライム]
+[charaSet E 3009001 1 レオニダス]
+[charaSet F 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet G 98105600 1 サンタアイランド仮面]
+[charaSet H 98105600 1 サンタアイランド仮面（シルエット用）]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 21804]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+レオニダスさん、撃破しました……！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠レオニダス
+はっはっは！[r]残念ながら負けました、マスター殿！
+[k]
+
+？1：じゃあ、通らせて貰うね
+？2：勝ったから、乗り越えていく
+？！
+
+[charaFace E 0]
+＠レオニダス
+おっと、伝え忘れるところでした。
+[k]
+
+[charaFace E 0]
+＠レオニダス
+サンタよ、この先にはまだまだ四天王とか五人衆とか[r]八部衆みたいなサーヴァントたちが控えています！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+そ、そんなに多く！？
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠レオニダス
+え？　そんなに数はいない？　計算を間違えましたか……[r]失礼しました。もうちょっと少ないかもしれません。
+[k]
+
+＠レオニダス
+……ともかく、楽に海へと辿り着けるとは[r]思わないことですね！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ど、どうしてサンタが願いを叶えるのを[r]邪魔するんですか！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFace D 4]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+[charaShake C 0.1 4 4 0.7]
+＠ジャック
+『海』が見たいだけなのにー！
+[k]
+
+[charaTalk D]
+[charaShake D 0.1 4 4 0.7]
+＠ナーサリー・ライム
+横暴よー！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠レオニダス
+そこらへんは黒幕にお聞き下さい！[r]私もちょっとその、良く分かっていないので！
+[k]
+
+[charaFace E 0]
+＠レオニダス
+理系の私にとって、心理学とかそんな感じのものは[r]あまり得意分野ではないので！
+[k]
+
+＠レオニダス
+なので、この次のサーヴァントにでもお尋ね下さい！
+[k]
+
+[charaEffect E bit_talk_06]
+＠レオニダス
+では、さようなら皆さん！[r]またカルデアでお会いしましょう！
+[k]
+
+[wt 0.3]
+[messageOff]
+[bgmStop BGM_EVENT_2 1.0]
+
+[charaSpecialEffect E flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect E]
+[charaEffectStop E bit_talk_06]
+[wt 1.2]
+[charaFadeout E 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+サーヴァント反応、消失しました。[r]レオニダスさんには、後でお話を聞いておきます！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[bgm BGM_EVENT_2 0.4]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+皆さん、大丈夫ですか？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 1]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+[charaMove C 256,20 0.2]
+[wait charaMove C]
+[charaMove C 256,0 0.1]
+[wait charaMove C]
+＠ジャック
+げんき！
+[k]
+
+[charaTalk D]
+＠ナーサリー・ライム
+サンタさんは大丈夫かしら？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい！[r]この程度へっちゃらです！
+[k]
+
+[wt 0.4]
+
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.4]
+
+[messageOff]
+[cameraMove 0.5 64,-64 1.4]
+[charaMove F 5 0.5]
+[charaFadeout F 0.7]
+[wt 0.3]
+
+[effect bit_talk_rarrow01red]
+[scene 10000 0.2]
+[wt 0.2]
+[se bac20]
+[wt 1.0]
+[effectStop bit_talk_rarrow01red]
+[se bac12]
+[seVolume bac12 0 0.5]
+[effect bit_talk_bara]
+[wt 0.7]
+[effectStop bit_talk_bara]
+[wt 0.8]
+
+[cameraHome 0.1]
+[scene 21804 0.2]
+[wt 0.4]
+
+？1：はいはい、薔薇の黒鍵
+？！
+
+[se ad188]
+[seVolume ad188 0 0.5]
+[charaTalk H]
+[charaFace H 0]
+[charaFace G 0]
+[charaPut G 1]
+[charaFadeTime G 0 0]
+[charaFilter H silhouette 00000080]
+[charaFadein H 0.7 1]
+＠サンタアイランド仮面
+どうです、ジャンヌ・ダルク・オルタ・サンタ・リリィ。
+[k]
+
+[bgm BGM_EVENT_7 0.7]
+[charaFadeTime G 2.0 1.0]
+＠サンタアイランド仮面
+どうやらここから先の旅路には、[r]敵サーヴァントたちが幾人も待ち受けているようです。
+[k]
+
+[wait charaFade G]
+[charaFadeout H 0.1]
+＠サンタアイランド仮面
+正体も目的も不明ですが、[r]彼らはあなたたちが海に行くことを妨害するでしょう。
+[k]
+
+＠サンタアイランド仮面
+願いを叶えるのは、果てしなく困難で。[r]願いを叶えたとしても、それは当たり前の出来事。
+[k]
+
+＠サンタアイランド仮面
+何故なら、貴女はサンタクロースなのです。[r]行き先に報酬など、何一つ存在しません。
+[k]
+
+＠サンタアイランド仮面
+それでも、行きますか？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_7 2.0]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+わ、私は……。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ジャック
+……。
+[k]
+
+[charaTalk D]
+＠ナーサリー・ライム
+……。
+[k]
+
+？1：サンタが決めることだよ
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+私は……私は、願いを叶えたいんです。[r]押しつけた贈り物じゃなくて。
+[k]
+
+[charaFace F 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+この二人が願った、その通りのものを、[r]贈って上げたいと思います。
+[k]
+
+[bgm BGM_EVENT_4 0.4]
+
+[charaFace F 6]
+＠ジャンヌ・オルタ・サンタ・リリィ
+お二人がよければ、私はまだ願いを叶えます。[r]海を……見に行きましょう！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠二人
+はーい！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠サンタアイランド仮面
+そうですか。[r]しかし、心しなさいサンタ。
+[k]
+
+＠サンタアイランド仮面
+願いを叶えるということは、本来不平等なことなのです。[r]不平等とは、即ち欲望。
+[k]
+
+＠サンタアイランド仮面
+他愛もない願いでも、人生の浮沈が掛かる如き深刻な願いでも、[r]それを叶える[line 3]取捨選択を行うのはサンタクロース。
+[k]
+
+＠サンタアイランド仮面
+祈った誰かの願いが叶い、[r]祈らなかった誰かの願いが果たされない。
+[k]
+
+[charaFace G 4]
+＠サンタアイランド仮面
+……サンタというのは、考えてみれば、[r]聖人とはほど遠い存在なのかもしれませんね。
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_4 0.7]
+[charaFadeout G 0.7]
+[wt 0.7]
+
+[wipeout rectangleStripDownToUp 1.3 1.0]
+[wt 0.4]
+[messageOff]
+[wait wipe]
+
+[scene 20322]
+[wt 0.1]
+
+[wipein rectangleStripUpToDown 1.3 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_11 0.1]
+
+＠
+サンタとは、聖人とはほど遠い存在だ[line 3][r]と、サンタアイランド仮面は言った。
+[k]
+
+＠
+そんなことはない、と反論したかった。
+[k]
+
+[wt 0.3]
+[messageOff]
+
+[wipeout rollFlashRight 1.0 1]
+[wait wipe]
+
+[wt 0.5]
+
+[scene 21805]
+[wt 0.1]
+
+[wipein rollFlashRight 1.0 1]
+[wait wipe]
+
+＠
+サンタクロースは立派な、誰かの願いを叶える聖人で、[r][#だからこそ]私もサンタを選んだのだと。
+[k]
+
+＠
+でも、あの人の言葉が正しいのだという[r]奇妙な確信がある。
+[k]
+
+＠
+……クリスマスが終わった後のことを思うと、[r]怖くて体が震える。
+[k]
+
+＠
+[#トナカイさん:マ　ス　タ　ー]、[#トナカイさん:マ　ス　タ　ー]、[#トナカイさん:マ　ス　タ　ー]。[r]私は、大丈夫でしょうか。私は、いいのでしょうか。
+[k]
+
+＠
+[line 3]私は、此処に在ることを、許されるのでしょうか？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_11 1.0]
+[wipeout circleIn 2.0 1.0]
+[wait wipe]
+
+[scene 21804]
+[wt 0.1]
+
+[wipein circleIn 0.7 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ジャック
+あれ？[r]ダメだ、ソリが動かなくなっちゃった。
+[k]
+
+？1：故障したみたいだね
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+そうですか……でも、先ほどのように[r]正体不明の力で引き摺り下ろされても困ります。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+ソリはここに置いておきましょう。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+大丈夫です、ソリはこちらで回収しておきます。
+[k]
+
+＠マシュ
+幸い、皆さんのいらっしゃる場所から海までは[r]それほど遠くありません。
+[k]
+
+[charaFace A 8]
+＠マシュ
+マスターにはお辛いかもしれませんが……。
+[k]
+
+？1：大丈夫、皆で歩こう
+？！
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+そうですね、ジャックとナーサリーも、[r]それで大丈夫ですか？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ジャック
+うーん、じゃあトナカイさんに[r]お願いがあるんだけど。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠ナーサリー・ライム
+そうね、わたしもトナカイさんに[r]お願いしたいことがあるのだわ。
+[k]
+
+[charaTalk off]
+＠二人
+せ、え、の。[r]手をつないであるこー！！
+[k]
+
+[charaMove C 128,20 0.1]
+[charaMove D -128,20 0.1]
+[wt 0.2]
+[se ad111]
+[wait charaMove C]
+[wait charaMove D]
+[wt 0.4]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 4 0 1.0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+あ、ズルッ……！
+[k]
+
+[charaFace F 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+もとい、[#トナカイさん:マ　ス　タ　ー]が歩きにくそうですし、[r]止めましょう！
+[k]
+
+？1：気にしないよ？
+
+[charaFace F 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+え、いや……き、気にしてください！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+[#トナカイさん:マ　ス　タ　ー]が幼い子を[#侍:はべ]らせているなんて、[r]サンタ的に体裁が悪いです！
+[k]
+
+？2：サンタもどう？
+
+[charaFace F 3]
+＠ジャンヌ・オルタ・サンタ・リリィ
+！[wt 0.1][r]そ、それじゃ私も……って、[charaFace F 2]どこに繋げばいいんですか！？
+[k]
+
+[charaFace F 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+え、背中？[r]おんぶ？
+[k]
+
+[charaFace F 3]
+＠ジャンヌ・オルタ・サンタ・リリィ
+だ、ダメです恥ずかしいです。[r]止めてくださーい！！
+[k]
+
+[charaShake F 0.05 4 0 1.0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……うー……。[r]ありがとうございます……。
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+先輩！　その、帰ったらわたしも是非……[r]いえ、おんぶはさすがに恥ずかしいので！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+マシュー？[r]マシュー？
+[k]
+
+[charaFace B 2]
+＠Dr.ロマン
+いい加減、ボクもそろそろ喋りたいんだけど……。[r]マシュさーん？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[soundStopAll]
+[end]

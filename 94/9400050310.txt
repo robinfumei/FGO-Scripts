@@ -1,0 +1,236 @@
+＄94-00-05-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20402]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 6014001 1 マタ・ハリ]
+[fadein black 1]
+[wait fade]
+[wt 0.4]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+先輩。サーヴァントの気配がします。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+ですわね。[r]旦那様、わたくしの背後にお隠れなさいませ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFace A 14]
+＠マシュ
+あの、いま『旦那様』と言いませんでしたか？
+[k]
+
+[charaFace D 1]
+＠清姫
+言いましたが、何か？
+[k]
+
+[charaFace A 11]
+＠マシュ
+あ、いえ……その……[r]意味合いは正しいのかな、と……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+ちなみに旦那は「面倒を見てくれる人」が語源にあるから、[r]男女どちらに使っても構わないとボクは思うよ！
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+良かったね、[%1][&君:ちゃん]！
+[k]
+
+？1：いやいやいや
+
+？！
+
+＠E：？？？
+ラー、ラー、ラ～～♪
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.7]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+こんばんは。いい夜ね。若くて、甘い夜。[r]あなたは若くて、苦い[&男:女]かしら？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+ど、毒婦の気配……！[r]退がって下さい旦那様！　那由多の彼方まで！
+[k]
+
+？1：うん、確かにそんな気分
+
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+ははは。清姫から逃げたい、という意味でかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠清姫
+あ゛゛？
+[k]
+
+＠Dr.ロマン
+なんでもない、なんでもないです！
+[k]
+
+[charaFadeout D 0.1]
+？2：それだと帰って来られないよ
+
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠清姫
+まあ、マスターったら奥ゆかしいんですから……[r]どんなに離れようと、必ず迎えに行きますわ♡
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace A 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……フォーウ……
+[k]
+
+[charaFace A 6]
+＠マシュ
+“もうこれダメじゃない、アンチン的に”ですか……？
+[k]
+
+[charaFace A 7]
+＠マシュ
+ダメですフォウさん。皆さん分かっている事なので、[r]ここは黙っておかないと。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+あらあら、うふふ。[r]可愛らしい招待客さんたちね。
+[k]
+
+＠E：？？？
+幻想飛び交うハロウィン・パーティーにようこそ！[r]私の名はマタ・ハリ。
+[k]
+
+[charaFadein E 0 1]
+[charaFace E 1]
+＠マタ・ハリ
+今宵一夜かぎりのお祭り騒ぎ。[r]どうか楽しんで下さいませ。
+[k]
+
+＠マタ・ハリ
+それでは、拙いですが私の踊りを楽しんで下さいね。[r]よいしょ、と……（ぬぎぬぎ）。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠清姫
+！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠フォウ
+ドフォ[line 4]ウ！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+ちょっと待って下さい！！！？？[r]な、何で脱いでいるんですか！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠マタ・ハリ
+あら。だって私、そういうのが得意ですので。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠清姫
+キャ[line 9]！[r]はしたないはしたないはしたない！
+[k]
+
+[charaFace D 5]
+＠清姫
+だだだだだだ旦那様！　これより諸肌見せるこの[r]不埒極まる[#女性:にょしょう]、成敗致します！
+[k]
+
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3]
+[charaFadein E 0 1]
+[charaFace E 0]
+＠マタ・ハリ
+あらあらあら～。[r]ふふふ、それならそれで構わないわよ。
+[k]
+
+[charaFadeout E 0.1]
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+……チッ。[r]（そっと記録モードを解除する）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0 1]
+[charaFace A 7]
+＠マシュ
+ドクター？
+[k]
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 2]
+＠Dr.ロマン
+なにもしてない。なにもしてませんよボクは。[r]そして残念だが戦闘だ。
+[k]
+
+＠Dr.ロマン
+お祭りにダンサーは定番だしね。[r]みんな、思う存分戦ってくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

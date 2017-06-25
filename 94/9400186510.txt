@@ -1,0 +1,92 @@
+
+
+
+＄94-00-18-65-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 3019001 1 アルトリア]
+
+[scene 20300]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 0]
+＠アルトリア
+[line 20]。
+[k]
+
+[charaFace A 1]
+＠アルトリア
+世間は何やら騒がしいようですね、主。[r]チョコレート贈呈、極東の風習であると聞き及びました。
+[k]
+
+[charaFace A 4]
+＠アルトリア
+……実に、くだらぬ。
+[k]
+
+＠アルトリア
+糖分の適宜摂取であれば、まあ、[r]頭脳に対する栄養補給としては優秀の部類ではあるが。
+[k]
+
+＠アルトリア
+一方的なチョコレートの贈呈などと、戦闘と破壊を[r]旨とする[#我々:サーヴァント]には無用の行為でしょう。
+[k]
+
+＠アルトリア
+……………………。
+[k]
+
+[wt 0.5]
+[charaFace A 3]
+＠アルトリア
+と、ところで主よ。[r]話はまったくもって変わってしまうのですが。
+[k]
+
+＠アルトリア
+このようなものが、[r]私の胸に挟まっていたのです……
+[k]
+
+[wt 0.2]
+[charaFadeout A 0.5]
+[charaFadein A 0.5 0]
+
+[wt 0.3]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[charaFadeout A 0.5]
+[charaFadein A 0.5 1]
+
+＠アルトリア
+我が呪いの槍をかたどったチョコレート[line 3]
+[k]
+
+＠アルトリア
+いや。いや違う。違うのです。[r]これはきっと槍のもたらす機能に他ならず、ですから……
+[k]
+
+＠アルトリア
+世俗の風習に対して僅かに心ときめかせた、[r]等ということは決してなく……
+[k]
+
+[charaFace A 5]
+＠アルトリア
+ええい！[r]些末な事は気にしない、[%1]！
+[k]
+
+＠アルトリア
+もらえるモノは素直にもらっておきなさい！[r]世界を繋ぐ呪いの槍、泣きながら味わう時だ！！
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

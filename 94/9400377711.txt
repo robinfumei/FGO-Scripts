@@ -1,0 +1,1056 @@
+
+＄94-00-37-77-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 7006000 1 坂田金時]
+[charaSet D 6021001 1 酒呑童子]
+
+[scene 27600]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+っ…………。
+[k]
+
+[bgmStop BGM_EVENT_3 2.0]
+
+
+[charaTalk A]
+
+
+
+＠マシュ
+ぎ、ぎりぎりでマサカリを止めていますね。[r]彼女のほうは、避けもしていません[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+あららぁ。いきなり情熱的やなぁ……。
+[k]
+
+[charaFace D 1]
+
+＠酒呑童子
+起き抜けを襲うなんて、んふふ、[r]よっぽど溜まってはったん？
+[k]
+
+＠酒呑童子
+うちはかまへんけどなぁ。[r]相変わらずのイケメンやし、目も覚めるちゅうもんや。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+おい……なんだ。[r]テメェのそのザマは。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+何がやの？　うちはうちやろ？
+[k]
+
+＠酒呑童子
+この肌の白さも、胸の膨らみ加減も、[r]尻の丸みも……ぜんぶ、あんたが知っとうままやろ？
+[k]
+
+＠酒呑童子
+[line 3]なんなら、もっとよく見せよか？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+み、見ねぇよ！[r]テメェはどうしてそう明けっぴろげなンだよ！？
+[k]
+
+？1：ゴールデン……そういうご関係で……
+
+？！
+
+＠坂田金時
+オレゃあいつも被害者じゃん！？[r]つーかコイツは誰にでもそうだっつーの！
+[k]
+
+[charaFace C 3]
+
+＠坂田金時
+いや、んな事よりもだなぁ！？
+[k]
+
+＠坂田金時
+茨木以上の鬼であるテメェが、[r]なーんで[#ただの小娘]みてェになってんだって話だ！
+[k]
+
+
+[charaTalk A]
+
+＠マシュ
+……はい。[r]あの方から感じられる力はひどく微弱なものです。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠酒呑童子
+あー、そやそや。[r]なんや身体に力が入らん思うたわぁ。
+[k]
+
+＠酒呑童子
+どうも、うちの力の大半は茨木に吸われとったみたい[r]やなぁ。こんなこと普段はあらしまへんのやけど。
+[k]
+
+
+[charaTalk A]
+
+＠マシュ
+今までのことは……覚えてるんですか？
+[k]
+
+
+[charaTalk D]
+
+＠酒呑童子
+なんとなくは、なぁ。せやから知っとるよ。[r]小僧がな、うちを必死に助けようとした事もな？
+[k]
+
+
+[charaTalk C]
+
+＠坂田金時
+オレは必死じゃねえっ。[r]テメェはオマケみたいなモンだっつの！
+[k]
+
+
+[charaTalk D]
+[charaFace D 0]
+
+＠酒呑童子
+ふふ。半分は夢うつつやったけども、[r]囚われの姫さん気分を味わわせてもろうたえ。
+[k]
+
+
+
+＠酒呑童子
+新鮮で、嬉しかったわぁ……。
+[k]
+
+[charaFace D 1]
+
+
+
+＠酒呑童子
+そや、助けられた姫さんは、礼をするものやんなぁ。[r]……感謝の口づけでもしよか？　ほら、んー……。
+[k]
+
+[messageOff]
+
+[wipein rightToLeft 1.0 0.5]
+
+[charaFadeout D 0.1]
+
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+[wt 0.3]
+
+[wait wipe]
+
+[charaMove D 1 0.5]
+
+[wt 0.5]
+
+
+
+[charaTalk C]
+[charaFace C 2]
+
+
+
+＠坂田金時
+[fontSize large][messageShake 0.05 5 8 1.5]スパ[line 6]クッ！[fontSize -]
+[k]
+[messageOff]
+[charaFadeout C 0.1]
+[se ad73]
+
+[wt 0.7]
+
+
+[charaTalk A]
+
+
+＠マシュ
+すごい飛び離れっぷりです！
+[k]
+
+
+[charaTalk D]
+[charaFace D 0]
+
+
+＠酒呑童子
+あん、いけず。[r]逃げなくともよろしおすのに。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+……酒呑童子さん、ですよね。[r]そろそろ事情を説明してもらいたいところなのですが。
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+
+＠酒呑童子
+そやなぁ。いつまでも小僧と遊んどってもしゃあないか。[r]……案内しよか。ついてき。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1.2]
+
+[bgmStop BGM_EVENT_2 2.0]
+
+[wait wipe]
+
+
+[scene 27400]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+
+[bgm BGM_EVENT_1 0.1]
+
+[wipein leftToRight 1.0 1.2]
+
+[wt 0.8]
+
+
+[wait wipe]
+
+[wt 0.4]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+ほら。あんたはん達が探しとったんは、あれやろ？
+[k]
+
+[messageOff]
+
+[charaFadeout D 0.1]
+
+
+[effect bit_talk_20c]
+[wt 0.2]
+
+[se bac35]
+
+[wt 2.2]
+
+[effectStop bit_talk_20c]
+
+
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……あれは……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.5]
+
+[seLoop ad31]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+聖杯……少なくとも聖杯に似た何かの反応だぞ！
+[k]
+
+＠Dr.ロマン
+間違いない。[r]君たちの前にあるそれが、今回の事件の元凶だ！
+[k]
+
+＠Dr.ロマン
+中に何かの液体が満ちているようだけど、これは……。
+[k]
+
+[seStop ad31 0.3]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+なんかなあ、茨木と一緒にここで目が覚めたらなぁ。[r]それが目の前に置いてあったんやわ。
+[k]
+
+＠酒呑童子
+[#美味そな酒がなみなみ注がれた]状態でなぁ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+
+＠マシュ
+あの……まさか。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠酒呑童子
+うん。呑んだえ。
+[k]
+
+[charaTalk A]
+[charaFace A 14]
+
+＠マシュ
+……そんな、あからさまに怪しげなものを……。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+聞きたくはないけど、なぜ？
+[k]
+
+
+[charaTalk C]
+
+＠坂田金時
+そういう奴なんだよ、コイツは。[r]茨木のヤツは嫌がっただろうけどな。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠酒呑童子
+もち、茨木は怯えとったなあ。[r]拾いもの食べるのは良くない言うて。
+[k]
+
+＠酒呑童子
+でもまあ、うちが酌で飲めんのか？聞いたら、[r]涙目で飲んでくれたで？
+[k]
+
+
+[charaTalk A]
+[charaFace A 8]
+
+
+
+＠マシュ
+茨木さん……[r]もっと優しくしてあげるべきでした……。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠酒呑童子
+でなぁ、さんざん呑んだら眠くなってしもうて。[r]ほんで気付いたらこうなっとった、いう話やねぇ。
+[k]
+
+＠酒呑童子
+茨木に力は吸われとるし、囚われの姫さんになっとるし、[r]小僧はうちの心と身体を情熱的に求めてきよるし……。
+[k]
+
+
+[charaTalk C]
+
+＠坂田金時
+[fontSize large]求めてねぇからな！[fontSize -]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+
+＠マシュ
+は、はあ。では結局、[r]酒呑童子さんにもこれが何かは分からないと……？
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+
+＠酒呑童子
+いや。わからんけど、わかるえ。[r]どうあれこれは酒で、うちはそれを呑んだ。
+[k]
+
+＠酒呑童子
+そいで、顛末はあれやろ？　なら答えは明白や。[r]これはなぁ[line 2]『願いを叶える』酒やわ。
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+
+＠マシュ
+……！
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+聖杯に注がれた酒……聖杯の願望機の側面が作用して……[r]いやしかし、そんなことが本当に……？
+[k]
+
+[charaTalk D]
+
+＠酒呑童子
+そう言えば、[r]さっきから声だけ聞こえるひとがいはるなぁ。
+[k]
+
+＠酒呑童子
+まだうちが酔うとるんか思っとったけど、陰陽師か？[r]たいそう骨の無い声やけど。……まあええか。
+[k]
+
+＠酒呑童子
+言うても、[r]この酒は願いをそのまま叶えるわけやおへん。
+[k]
+
+[charaFace D 0]
+
+
+
+＠酒呑童子
+心に秘めた願いを、せやけど、ちびっと違う形で[line 2][r]歪めて、叶える。そういうもんやねぇ。
+[k]
+
+＠酒呑童子
+酒は酔うもの、酔えば惑うもの……だからやろか。[r]それが酒の楽しいところなんやけどなぁ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[seLoop ad31]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+なるほど[line 2]だとすると。そこでは、その酒が揮発した[r]ものが空間中に広がっていて、
+[k]
+
+＠Dr.ロマン
+それが抵抗力の無い人間達を『酔わせていた』[r]ということになるのか。
+[k]
+
+＠Dr.ロマン
+だからその京周辺の人々の様子がおかしなことに[r]なっていたんだろう。
+[k]
+
+[communicationCharaFace 4]
+
+＠Dr.ロマン
+酒の強さには個人差があるものだからね。[r][%1][&君:ちゃん]が無事でよかった……。
+[k]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+……ところで、マシュ。
+[k]
+
+＠Dr.ロマン
+もしここに[%1][&君:ちゃん]目掛けて[r]紙飛行機が飛んできたらどうする？
+[k]
+
+＠Dr.ロマン
+ただし、それは紙飛行機世界チャンピオンが飛ばしたもの[r]で、飛行距離世界記録の更新がかかっているものとする。
+[k]
+
+[seStop ad31 0.3]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それはたいへんな偉業ですね……世界新記録、並々ならぬ[r]苦労とドラマがあったと推測します。
+[k]
+
+[charaFace A 7]
+
+＠マシュ
+でもノータイムで宝具展開です。[r]先輩の安全が第一ですので。
+[k]
+
+
+
+
+
+
+＠Dr.ロマン
+……（マシュもまだほろ酔いだな）……。
+[k]
+
+
+＠Dr.ロマン
+いや、待てよ。ということは、人間だけじゃない。[r]この空間にいるサーヴァントも……酔う？
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+[charaFace A 7]
+[charaFadein A 0.1 2]
+
+
+＠酒呑童子
+そやなぁ。多分やけど、茨木は『うちと一緒に大暴れ[r]したい』いう願いがあったんやろねぇ……。
+[k]
+
+＠酒呑童子
+それが[#うちの力と一緒に]、いう形に[r]歪んでしもうた、いうことやろ。
+[k]
+
+
+[charaTalk A]
+[charaFace A 0]
+
+＠マシュ
+わたしも影響は受けていないのでいいとして……[r]では、ゴールデンさんは……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+
+
+＠坂田金時
+……。[r]オレっちの、願い……。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+そう言えば、力が普段以上に湧き上がってくる、[r]というような話をしていたね。もしかしてそれ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+ああ[line 3]小僧も同じやったんかなぁ。[r]んふふ。そないにうちと遊びたかったん？
+[k]
+
+
+
+＠酒呑童子
+剥き出しの部分をぶつけあって。見つめあって。[r]獣みたいな声をあげて[line 2]
+[k]
+
+[charaTalk C]
+
+＠坂田金時
+違、違ェよ！[r]バババ、バカかテメェ、んな訳ある訳ないじゃんよ！
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+
+＠酒呑童子
+すまへんなぁ。うちがこのざまでは、[r]小僧の想いはとても受け止められへんわぁ……。
+[k]
+
+[charaFace D 0]
+
+＠酒呑童子
+ああ、でも、それなりに茨木相手で発散はできたんかな？[r]小僧は願いの発散の相手がずれてもうたんやなぁ。
+[k]
+
+[charaTalk C]
+
+＠坂田金時
+…………。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠酒呑童子
+さて、どんな酒を呑んだかも思い出せたことやし。[r][line 3]壊そか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+
+＠マシュ
+そうですね。何にせよ、それが全ての元凶です。[r]破壊しなければ解決とは言えないでしょう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+……オイ。
+[k]
+
+[charaTalk D]
+
+＠酒呑童子
+ん？
+[k]
+
+[charaTalk C]
+
+＠坂田金時
+テメェは。[r]テメェの願いは、何だったんだ。
+[k]
+
+[charaTalk D]
+
+＠酒呑童子
+…………ふふ。[r]なんやったと思う？
+[k]
+
+[charaTalk C]
+
+＠坂田金時
+ケッ。わかるかよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+うちのことを気にしてくれはるんやねぇ。[r]小僧は見た目も心もイケメンやなあ。
+[k]
+
+
+
+＠酒呑童子
+うち、気が多い性質やけど[line 3][r]一途な男は、とくべつ大好きやわぁ。
+[k]
+
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠酒呑童子
+酒をほかすのは気が引けるけども……[r]ま、しゃあないわぁ。
+[k]
+
+[messageOff]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[cameraMove 1.5 0,0 1.5]
+[wait camera]
+
+[charaPut C 0,600]
+[charaEffect C bit_talk_20c]
+[wt 0.2]
+[charaPut C 0,0]
+
+[se bac35]
+
+[wt 3.5]
+
+[charaEffectStop C bit_talk_20c]
+[wt 0.8]
+
+[cameraHome 1.1]
+[wait camera]
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+これは、自分の願いに悪酔いする酒や。
+[k]
+
+＠酒呑童子
+悪酔いしもって見えるもんは、歪んどるのが常やけど。[r]今回はえげつない。自分自身も歪んどる。
+[k]
+
+＠酒呑童子
+茨木との合わせ技やろうけど、うちも歪みすぎとる。
+[k]
+
+[charaFace D 4]
+
+＠酒呑童子
+こんな、力もない、人も喰らえん、小僧も襲えん、[r]ただの小娘のようなうちは[line 2]うちやあらへんもんなぁ。
+[k]
+
+＠酒呑童子
+せやから、このまま飲み干すわけにはいきまへん。[r]酒気に微睡み続けるわけにはいきまへん。
+[k]
+
+
+
+＠酒呑童子
+瞼を開いて見えるんが、[r]どれだけ恋い焦がれたものであろうとも[line 2]
+[k]
+
+＠酒呑童子
+これは[line 3]ただの、酔夢や。
+[k]
+
+[charaFace D 1]
+
+＠酒呑童子
+さあ、あんじょう目覚めよな。
+[k]
+
+[messageOff]
+
+[charaFadeout D 0.1]
+
+[wt 0.3]
+
+[effect bit_talk_12]
+
+
+[wt 0.5]
+
+[effectStop]
+
+[fadeout white 0.7]
+
+[wt 0.2]
+
+[se ad114]
+
+[wt 2.0]
+
+[charaFadeout A 0.1]
+
+[wait charaEffect A]
+
+[fadein white 2.0]
+
+
+
+[wt 1.2]
+
+
+＠Dr.ロマン
+お[line 2]いいぞ、クリアだ！[r]異変の元凶の反応がたったいま消滅した！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+さて。目覚めて……仕切り直しの、飲み直しやわ。
+[k]
+
+[charaFace D 1]
+
+＠酒呑童子
+そんときは逃がさへんよ、小僧。[r]必ず[line 2][#あのとき]のお返しをして。
+[k]
+
+＠酒呑童子
+それから、うちのイケメンハーレムの一人として、[r]酌をさせたるからなぁ……ふふ……。
+[k]
+
+
+[effect bit_talk_06]
+[charaFace D 0]
+
+＠酒呑童子
+ほな、またな。
+[k]
+
+[messageOff]
+[effectStop bit_talk_06]
+[wait effect bit_talk_06]
+[wt 0.2]
+
+[se ad52]
+[charaSpecialEffect D flashErasure 0 0 1]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.2]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+
+＠坂田金時
+満足げに消えやがって。[r]結局、アイツは何がしたかったんだ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+なんとなくですが。[r]推測はできるような、気がします。
+[k]
+
+
+
+＠マシュ
+もしかして、と思うのですが。[r]ゴールデンさんがあまりにも気にしているから……。
+[k]
+
+＠マシュ
+“もう気にしなくていい”と笑いたくて、[r]ここに呼び寄せたのではないでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+………チ。なんだそりゃ。[r]そんなん、余計に気にするだろうが。
+[k]
+
+＠坂田金時
+……まったく、[r]相変わらずゴールデンじゃねえぜ……。
+[k]
+
+[effect bit_talk_06]
+
+
+
+
+＠坂田金時
+……と。ここでのオレの役目は終わりみてぇだ。[r]ま、アンタらとはまたどこかで会うかもな。
+[k]
+
+[charaFace C 3]
+
+＠坂田金時
+だがよ。気ィつけとけ。
+[k]
+
+
+
+[charaTalk A]
+
+＠マシュ
+……はい。[r]まだ謎が全て解けた訳ではありません。
+[k]
+
+
+
+＠マシュ
+彼女は、酒の注がれた[#杯:さかずき]が目の前に置いてあった、[r]と言っていました。なら[line 2]
+[k]
+
+＠マシュ
+そこに[#杯:さかずき]を置いて、酒を注いだのは[line 2][r]一体、誰だったのでしょうか？
+[k]
+
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+…………さてな。もし黒幕がいるんなら話はこれで[r]終わらねえ。まだ続きがあるだろうさ。
+[k]
+
+＠坂田金時
+だが今回はここまで、羅生門の鬼退治は終了だ。[r]オレはとっとと帰らせてもらうぜ。
+[k]
+
+
+
+[messageOff]
+[effectStop bit_talk_06]
+[wait effect bit_talk_06]
+[wt 0.2]
+
+[se ad52]
+[charaSpecialEffect C flashErasure 0 0 1]
+[wait charaSpecialEffect C]
+[charaFadeout C 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.7]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+その近くに残っているサーヴァント反応は……ゼロだ。[r]事態は解決した、と言ってもいいだろう。
+[k]
+
+[communicationCharaFace 0]
+
+[bgm BGM_EVENT_2 0.1]
+
+＠Dr.ロマン
+お疲れさま、[r]マシュ、[%1][&君:ちゃん]。
+[k]
+
+[communicationCharaClear]
+[charaFadeout A 0.1]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。[r]とりあえずカルデアに帰りましょう、先輩。
+[k]
+
+[charaFace A 16]
+
+＠マシュ
+…………（じー）。
+[k]
+
+？1：どうした[&んだ:の]、マシュ？
+？！
+
+[charaFace A 6]
+
+
+
+＠マシュ
+……すみません。もし先輩が酔っ払ったらどうなるのか、[r]少し興味が出てきた、といいますか……。
+[k]
+
+
+[charaFace A 16]
+
+＠マシュ
+……あ、あの。もし先輩が望まれるのなら、[r]晩酌のお相手くらいはできますよ？
+[k]
+
+[charaFace A 17]
+
+＠マシュ
+大丈夫です、わたしは多分まったく酔いません。[r]今回のことでわかりましたので。
+[k]
+
+＠マシュ
+どうですか？　呑みますか？　普段見せたことのない[r]先輩の姿をオープンにするべき機会では？
+[k]
+
+？1：マシュ、ひょっとしてまだ酔ってる！？
+？2：誰かお水を持ってきてー！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 3]
+
+＠Dr.ロマン
+あー、君たち。[r]一つ大事なことを言わせてもらおう。
+[k]
+
+[communicationCharaFace 2]
+
+＠Dr.ロマン
+……お酒は二十歳になってから！
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

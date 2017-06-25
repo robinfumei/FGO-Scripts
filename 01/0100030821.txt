@@ -1,0 +1,87 @@
+＄01-00-03-08-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98018100 1 海賊]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 4008002 0 黒髭]
+[charaTalk E]
+[charaFace D 5]
+[charaFadein D 0 2]
+[charaFace E 2]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠黒髭
+ぐっ……まだ、まだ……。[r]拙者まだ……本気出してない……ですし！
+[k]
+
+[charaFace E 5]
+＠黒髭
+その気になれば、サーヴァントの一騎や二騎、[r]ましてＢＢＡなんかに負けない……ですよ？
+[k]
+
+[charaFace D 0]
+＠ドレイク
+致命傷を受けて、そんだけペラペラ喋れるあたり、[r]大した根性だよアンタ。
+[k]
+
+＠ドレイク
+尊敬はしないけど、感心はするね。[r]アタシの百年後に生まれる大海賊。
+[k]
+
+＠ドレイク
+聖杯が欲しかったんだろうけど、諦めな。[r]あれはアタシのお宝だ。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+海の宝に正しい持ち主なんざいない。[r]早い者勝ちってのがアタシらのルールだろう？
+[k]
+
+[charaFace E 1]
+＠黒髭
+へ……その通り……気持ちいい……気持ちのいい結論、[r]ですな……海賊ってのは、そうでなきゃ……
+[k]
+
+[messageOff]
+[se bac12]
+[charaEffect E bit_talk_13]
+[flashin once 0.5 0.5 FF000080 00000000]
+[flashout 0.7]
+[wait flash]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadein E 0 1]
+[charaFace E 2]
+＠黒髭
+ゴガッ……！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……え？
+[k]
+
+[charaFadeout A 0.1]
+[charaSet F 3016000 1 ？？？]
+[charaFadein F 0.1 1]
+[wt 0.4]
+[charaFadeout F 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ドレイク
+ティーチ！？[r]クソ、テメエ仲間を……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

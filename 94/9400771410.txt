@@ -1,0 +1,124 @@
+
+
+＄94-00-77-14-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1 0.5]
+
+
+[charaSet D 1010001 1 エリザベート]
+[charaSet G 3003001 1 ヴラド三世]
+
+[scene 32200]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.4 1]
+＠エリザベート
+……その、ええと……。[r]ト[charaFace D 1]リック・オア・トリート、おじ様！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.7 1]
+＠ヴラド三世
+祭りの音が聞こえるな……[r]気付いたのか、それとも気付かされたか。
+[k]
+
+＠ヴラド三世
+気付いたのであれば、[r]貴様にもいくばくかの見所はあろう。
+[k]
+
+＠ヴラド三世
+気付かされたのであれば、貴様と共にある者が、[r]貴様を思いやったのであろう。
+[k]
+
+＠ヴラド三世
+裁決は結果のみを見る。[r]民が満たされたのであれば、この先に進む資格がある。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エリザベート
+おじ様……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_7 0.8]
+[wt 0.5]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ヴラド三世
+だが。
+[k]
+
+＠ヴラド三世
+この姿の[#吾:オレ]は貴様には特に厳しい。[r]貴様が犯した罪は数多い。
+[k]
+
+＠ヴラド三世
+その中の一つに、英霊となった[#吾:オレ]にとっては[r]決して見逃せぬ罪がある。
+[k]
+
+＠ヴラド三世
+[line 3]死をもって償え、とは言わん。[r]償いの場など与えぬからな。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エリザベート
+……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ヴラド三世
+王たる[#吾:オレ]は鷹揚にして苦悩する人間であるが、[r]武人たる[#吾:オレ]は一切の邪悪を赦しはしない。
+[k]
+
+＠ヴラド三世
+不義不徳、民を[#玩弄:がんろう]し、[r]無知である事を当然だと考えた殺人鬼よ。
+[k]
+
+＠ヴラド三世
+貴様の罪は百年経っても覚めぬ悪夢、[r]貴様の悪は歴史に刻まれし罪科である。
+[k]
+
+＠ヴラド三世
+[#何人:なんぴと]も訪れぬ暗闇に還る時だ。[r]では[line 3]徹頭徹尾、[#鏖:みなごろし]である。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[charaFadeout G 0.4]
+
+[soundStopAll]
+[end]

@@ -1,0 +1,91 @@
+＄01-00-04-06-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10908]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5010001 1 「Ｐ」]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+結構、量がいたな。[r]ふう。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+お疲れさまでした。[r]休息の必要はありますか？
+[k]
+
+[charaFace E 0]
+＠モードレッド
+まさか。ただ量が多いだけだ。[r]ヘルタースケルターがいたら話は別だけどな。
+[k]
+
+[charaFace E 1]
+＠モードレッド
+あいつ、強いからな。[r]今回の現界で楽しみながら戦えるのはあいつだけだ。
+[k]
+
+＠Dr.ロマン
+マシュと[%1][&君:ちゃん]が遭遇したのはまだ[r]一度だけだけど、強力な相手だったね。
+[k]
+
+＠Dr.ロマン
+あまり数は多くないのかい？[r]そういえば、あちこち移動したが見掛けないね。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+そうだな……[r]言われてみりゃ、アレが数いるところは見たことねえな。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+せっかくなら歯応えのある奴がいいし、[r]今夜あたり、出て来ねーかなー。
+[k]
+
+？1：そういうこと言うと出るよ
+
+？2：縁起でもない
+
+？！
+
+[charaFace E 1]
+＠モードレッド
+お、そうか？
+[k]
+
+[charaFace A 7]
+＠マシュ
+もう少し移動しましょうか。[r]シティの端までは、まだ距離がありますね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あ、いえ。地図情報を確認しただけで……[r]ロンドンに対しての土地勘がある訳ではないんですが。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+ま。何か出れば、出た時の話だ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,274 @@
+＄01-00-03-07-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2009102 1 オリオン]
+[charaSet C 2012001 1 エウリュアレ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 4008002 0 黒髭]
+[charaSet G 4009101 1 メアリー]
+[charaSet H 4009201 1 アン]
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0 2]
+[charaFace F 5]
+[charaFadein F 0 0]
+[fadein black 1]
+[wait fade]
+＠黒髭
+へい、同志諸君！　エウリュアレちゃんの矢に[r]当たったら即座にブチ殺すから、気を付けてね！
+[k]
+
+＠海賊
+……は？　船長、一体何言って……。
+[k]
+
+[charaEffect E bit_talk_13]
+[se bac16]
+[wait se bac16]
+＠海賊
+いでっ！？
+[k]
+
+[charaEffect E bit_talk_28]
+[se bas15]
+＠海賊
+……あ、あ、あ、あ、あ……。[r]あぁぁぁぁぁぁぁぁぁぁぁぁッ！？
+[k]
+
+＠海賊
+お前ら……お前ら！[r]エウリュアレ様のために、死ねッ！！
+[k]
+
+[se bac12]
+[messageOff]
+[charaEffect E bit_talk_12]
+[wt 0.5]
+[charaEffectStop E]
+[wait charaEffect E]
+＠海賊
+あ……れ？[r]船長、なんでオレを……う、あ[line 3]
+[k]
+
+[se ba6]
+[charaSpecialEffect E enemyErasure 0 0.5]
+[wait charaSpecialEffect E]
+[wt 0.5]
+[charaFace F 1]
+＠黒髭
+ほーら、返り血で濡れちゃったじゃん？[r]無闇やたらとこうなるワケＤＥＡＴＨヨ？
+[k]
+
+[charaFadein E 0.1 2]
+＠海賊
+ア、アイアイサー！
+[k]
+
+[charaFace F 3]
+＠黒髭
+アン氏、アン氏～。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+＠アン
+気持ち悪い声で呼ばないで下さい。[r]何でしょう船長。
+[k]
+
+[charaFace F 1]
+＠黒髭
+ギギギ。いやまあ、とりあえず撃ってちょんまげ（死語
+[k]
+
+[charaFace H 0]
+＠アン
+余計な茶々が入らなければ、そうするつもりでした。
+[k]
+
+＠黒髭
+よっろしくぅ♪
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+[wt 0.5]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠黒髭
+さてさて。[r]まさかＢＢＡちゃん、これだけじゃないよねぇ？
+[k]
+
+＠ドレイク
+[line 2]あったりめえだろうが、このボケ船長。
+[k]
+
+[se bac1]
+[wait se bac1]
+[charaFace F 5]
+＠黒髭
+……上か！？
+[k]
+
+[charaFadeout F 0]
+[charaTalk D]
+[charaFadein F 0.1 0]
+[charaSet D 2009201 1 アルテミス]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[se bac2]
+[wait se bac2]
+＠アルテミス
+ハァイ♪
+[k]
+
+[charaFace F 3]
+＠黒髭
+天使や……天使がおる……。[r]天使がおるけど……誰ナノジャ！？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠メアリー
+サーヴァント……！？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+[charaFace D 1]
+＠アルテミス
+私、オリオンでーす！[r]全員、[#射殺:いころ]しちゃうゾ☆
+[k]
+
+[se bac20]
+[wait se bac20]
+[se bac13]
+[charaEffect E bit_talk_13]
+＠海賊
+ぐえっ！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein E 0.1 0]
+[se bac13]
+[charaEffect E bit_talk_13]
+＠海賊
+ぎゃあ！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFadein H 0.1 2]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+＠メアリー
+僕が行く！　アンはそのまま射撃続行！
+[k]
+
+[charaFace H 5]
+＠アン
+わかったわ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠オリオン
+……ったく。ぬいぐるみ遣いが荒いったら……。[r]よいせ、よいせ、よいせ。
+[k]
+
+[se ad55]
+[wt 1]
+[seStop ad55]
+[charaFadeout B 0.1]
+[charaFadein E 0.1 1]
+＠海賊
+もうすぐ砲弾が届く距離まで近付くぞ！[r]弾薬庫から、ありったけ予備弾を持ってこい！
+[k]
+
+＠オリオン
+はいはい、案内してちょうだいなっと……。
+[k]
+
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaFace D 5]
+[charaFadein D 0.4 2]
+[charaFadein E 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠アルテミス
+えいっ、やっ、とぅっ！
+[k]
+
+＠海賊
+ぎゃひ！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠黒髭
+くそっ……！　メアリー氏！[r]頼むでござる！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFadein D 0.1 2]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+＠メアリー
+言われなくとも！
+[k]
+
+[charaFace D 3]
+＠アルテミス
+あぁら、人間さん。接近戦に持ち込まれると、[r]私、困っちゃう。
+[k]
+
+[charaFace G 0]
+＠メアリー
+見た感じ、アーチャーだろうからね……！
+[k]
+
+[charaFace D 1]
+＠アルテミス
+だから、逃げちゃうわ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 2]
+＠メアリー
+この、待て……！
+[k]
+
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠オリオン
+アルテミス！[r]準備できたと伝えろ！
+[k]
+
+＠アルテミス
+ダーリーン！[r]わかったわ、船長さーん！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,1178 @@
+
+
+
+＄91-50-12-01-1-0
+[soundStopAll]
+[charaSet A 5012001 1 ニトクリス]
+[charaSet B 98001000 1 マシュ]
+[charaSet C 5012001 1 ニトクリス２]
+[charaSet D 4002001 1 イスカンダル]
+[charaSet E 4012000 1 オジマンディアス]
+[charaSet F 98006300 1 逆臣たち]
+[charaSet G 98006300 1 逆臣たち]
+[charaSet H 98006300 1 逆臣たち]
+
+[charaDepth A 1]
+[charaDepth C 0]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 10200]
+[wt 0.7]
+[se ad8]
+[fadein black 1.5]
+[wait fade]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 1]
+
+
+＠マシュ
+おや。あれは……？
+[k]
+
+[charaFadeout B 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_7 0.1]
+[messageOff]
+[charaTalk off]
+[charaFace E 3]
+[charaFace D 0]
+[charaDepth D 0]
+[charaDepth E 1]
+[charaFadein D 0.4 0]
+[charaFadein E 0.4 2]
+[wt 1.0]
+[charaTalk on]
+[charaTalk E]
+
+＠オジマンディアス
+[line 3]ふうむ。
+[k]
+
+[charaFace E 0]
+＠オジマンディアス
+安酒だな。しかしその卑俗な身で余の喉元を通り過ぎる[r]名誉に怯えてか、[#青褪:あおざ]めながら疾く消える。
+[k]
+
+[charaFace E 1]
+＠オジマンディアス
+その潔さだけは認めてやってもよい。
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+はっはっは、それはもしや『冷たい喉越しが良い』と[r]いう評価なのではないか？　回りくどい物言いだのう！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+宴会……でしょうか？
+[k]
+
+[charaFace B 0]
+＠マシュ
+あっ、端にいるニトクリスさんは[#素面:しらふ]に見えますね。[r]一番まともに見えます。
+[k]
+
+＠マシュ
+お話を聞いてみましょう、先輩。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[se ad60]
+[wt 1.5]
+[seStop ad60]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠ニトクリス
+あら、マスターにマシュ。どうかしましたか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+わたしたちは偶然通り掛かったのですが、[r]ええと……ここで何をしていらっしゃるのですか？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+見ての通り、酒宴ですが何か。
+[k]
+
+[charaFace A 6]
+＠ニトクリス
+私はあちらのファラオお二人にちょっと誘われて[line 3][r]いいえ、むしろ自ら望んで[#酌:しゃく]をしているのです。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+しかし、どうして[#管制室:こ　こ]で？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠ニトクリス
+その問いの意味が場所の事であれば、[r]ここが王の宴にふさわしいとファラオ・イスカンダルが。
+[k]
+
+[charaFace A 7]
+＠ニトクリス
+もしくは、目的の事であれば……
+[k]
+
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 2]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[charaFadein D 0.1 1]
+
+
+＠イスカンダル
+そんな端で何をしておるか、ニトクリスよ！[r]飲め。杯を空にし、そしてまた飲め。
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+これはファラオの集い。貴様も主役の一人なのだぞ。
+[k]
+
+[charaFace D 4]
+＠イスカンダル
+クレオパトラめも呼び付けたのだが、あれは[r]感激と萎縮の板挟みになって伸びてしまってなぁ。
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+となれば最早、カルデアの女ファラオ代表として[r]貴様が堂々と我らと向かい合う他にあるまい！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+[line 3]畏れ多くも、そういうわけです。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+言われてみれば確かに、みなさん[r]ファラオとして名を有している方々ばかりですね。
+[k]
+
+？1：そうなの？
+？2：イスカンダルもそうだっけ？
+？！
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+
+
+＠イスカンダル
+む、よく見れば我がマスターとマシュではないか。[r]さては酒の匂いに惹かれて来たな？
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+うむ、かまわん！　我ら共通の友として特に許そう！[r]貴様らも飲めぇい！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+
+＠オジマンディアス
+ファラオの集いを安くするつもりか？[r]それに確か、あれらは飲酒を避ける年頃であったような。
+[k]
+
+[charaFace E 1]
+＠オジマンディアス
+……まあ、そもそも貴様がファラオかどうか怪しい。[r]年齢にも目角を立てまい。許す。飲めい！
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+はは、手厳しいな。しかし余にもきちんと即位名がある。[r]メリアメン・セテプエンラーというものだ！
+[k]
+
+[charaFace E 0]
+＠オジマンディアス
+ほう？
+[k]
+
+[charaFace E 1]
+＠オジマンディアス
+ふん、余も同じくセテプエンラーの名を有している。[r]ファラオに多き名ではあるがな。
+[k]
+
+＠オジマンディアス
+上下エジプトの王、ウセルマアトラー・セテプエンラー。[r]ラーの息子、ラムセス、アメンに愛されたる者。
+[k]
+
+[charaFace E 2]
+＠オジマンディアス
+それこそが余、太陽たるオジマンディアスである！[r]許す。霊核と霊基に深く刻み付け、記憶せよ。
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+なんと！[r]ではまこと兄弟のようなものではないか！　なあ！
+[k]
+
+[charaFace E 5]
+＠オジマンディアス
+ええい、兄弟ではない。ないが、ふうむ[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+大王様は、[#妾:わらわ]的には、確かにファラオです！[r]……とクレオパトラあたりであれば言いそうですね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein A 0.1 0]
+[charaFadein E 0.1 2]
+
+＠オジマンディアス
+ほう。余の意向に刃向かってみせるのか、貴様？
+[k]
+
+[charaFace A 4]
+＠ニトクリス
+い、いえ、ファラオ、決してそのような事は！[r]彼女であれば言いそうだと脳裏を[#過:よぎ]り、つい……
+[k]
+
+[charaFace E 1]
+＠オジマンディアス
+確かにあれは言うであろうがな。[r]女ファラオ同士、いつの間にか親しくなっていたか？
+[k]
+
+[charaFace A 8]
+＠ニトクリス
+お戯れを……どうかお許しくださいませ。我が主は[r]太陽王のみ、同盟相手は[%1]のみ！
+[k]
+
+＠ニトクリス
+[#彼女:クレオパトラ]は、そう……年の離れた、[r]手のかかる妹のようなもので[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠イスカンダル
+ははは。そう虐めてやるな太陽王。[r]クレオパトラであれば確かにそう口にするであろうが。
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+あれは地上に於ける最後のファラオ、[r]であればそう、我らが孫娘のようなものではないか。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠オジマンディアス
+否定はせん。血の繋がりなぞなくとも、[r]確かにあれはファラオと神々を継いだ最後の者だな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠イスカンダル
+そうであろうが。[r]うむ、しかしそうすると[line 3]
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+ニトクリス。貴様だ、貴様。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+は、はい？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+
+
+＠イスカンダル
+我らの中では最も古きファラオは貴様だな。[r]つまりはあれだ、母親のようなものとは言えまいか？
+[k]
+
+
+
+[charaFace D 7]
+＠オジマンディアス
+ん。確かにこれは、古きホルスの化身だな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠ニトクリス
+わ、わ、わ、私が母親[line 3]ですか！？[r]オジマンディアス様の！
+[k]
+
+[charaFace A 3]
+
+＠ニトクリス
+それはあんなコトやこんなコトも許されるのですか！[r]母であるからには、息子に対して……
+[k]
+
+＠ニトクリス
+お料理をしたり膝枕をしたり！[r]あまつさえ、昔話を聞かせたり怖い話を聞かせたり！
+[k]
+
+＠ニトクリス
+い、いいのでしょうか私、[r]子供だって産んだコトないのに……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ニ、ニトクリスさん……？
+[k]
+
+[charaFadeout B 0.1]
+[bgmStop BGM_EVENT_7 0.5]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+い、い、いえ、あまりに畏れ多いというもの！
+[k]
+
+[bgm BGM_EVENT_2 0.5]
+[charaFace A 9]
+＠ニトクリス
+そう、畏れ多すぎます。たとえばイスカンダル[line 2][r]貴方は私よりも遙かに多くを為したファラオ。
+[k]
+
+[charaFace A 7]
+＠ニトクリス
+地上を駆け抜け、多くを制覇した征服王。[r]私など足下にも及びません、本当に。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠オジマンディアス
+国を広げるだけ広げて滅ぼした王に何を見る。[r]余こそが神であり太陽であり、真のファラオであるぞ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+ファラオ・オジマンディアス！[r]それは、もはや私などが言うまでもなき事……！
+[k]
+
+[charaFace A 9]
+＠ニトクリス
+貴方は[#王の中の王:オジマンディアス]、神の王たるファラオ。
+[k]
+
+[charaFace A 8]
+＠ニトクリス
+比較の天秤に乗せようと試みる事すら[r][#烏滸:おこ]がましい、尊き存在であらせられる……
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaTalk off]
+[charaFadein C 0 1]
+[charaChange A 5012001 7 fade 1.0]
+[wt 1.5]
+[charaChange A 5012001 8 fade 0.4]
+[wt 0.4]
+
+＠ニトクリス
+……ファラオ・クレオパトラもです。[r]私は彼女ほど真摯に、国を守ろうとはしなかった。
+[k]
+
+[charaTalk on]
+
+？1：クレオパトラは確か……
+？2：国を滅ぼしてしまったんだよね？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠オジマンディアス
+滅ぶというなら、真のファラオである余を失った時点で[r]既に上下エジプトの滅びは不可避であったのだ。
+[k]
+
+＠オジマンディアス
+余が統治しておらぬ以上、[r]誰がファラオとなろうと不完全な治世にすぎぬ。
+[k]
+
+＠オジマンディアス
+ナイルの流れが如く、そこへ辿り着くは必定。[r]期待もしておらぬ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠イスカンダル
+ははは、前にも言った気がするが[line 3][r]滅ばぬ国というものはない。余のマケドニアですらな。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠ニトクリス
+はい。いつか滅びるが必定であるならば、[r]彼女は立派にファラオの役割を果たしたのでしょう。
+[k]
+
+[charaFace A 8]
+
+＠ニトクリス
+でも、私は…………
+[k]
+
+[charaFace A 7]
+＠ニトクリス
+………………。
+[k]
+
+？1：なんだか悲しそうだね
+？2：ニトクリス……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+はい、先輩。わたしも同感です。[r]ここにいる彼女は沈んでいるように見えます。
+[k]
+
+＠マシュ
+彼女は、その。どうしてか、[r]お酒にも手を付けていないように見受けられます。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+……やはり、わかってしまいますか。
+[k]
+
+[charaFace A 7]
+＠ニトクリス
+私は[line 4]ファラオとして未熟に過ぎます。
+[k]
+
+[charaFace A 8]
+＠ニトクリス
+そう、この偉大なファラオの方々を見ていると。[r]この偉大なファラオの方々の前に身を晒していると。
+[k]
+
+＠ニトクリス
+私はしょんぼりしてしまいます……[r]い、いえ、我が身を恥じるような心持ちとなります。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+しかし、イスカンダルさんも仰っていましたが、[r]ニトクリスさんはカルデアでは最古のファラオですよね？
+[k]
+
+＠マシュ
+つまりは、神代に数えられるほどの過去に生きた[r]ファラオであったとも……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+貴方たちの魔術の考え方ですね。[r]古く、色濃い神秘は力を持つ。
+[k]
+
+＠ニトクリス
+けれどいいえ、私には、年月など関係ありません。
+[k]
+
+[charaFace A 8]
+＠ニトクリス
+神の子、神へ至る王、[r]神の化身たるファラオの在り方の問題です。
+[k]
+
+[messageOff]
+[wt 1.0]
+[charaTalk off]
+[charaFadein C 0 1]
+[charaChange A 5012001 7 fade 1.0]
+[wt 1.5]
+[charaChange A 5012001 8 fade 0.4]
+[wt 0.4]
+
+＠ニトクリス
+…………なぜ、私が英霊であるのか。
+[k]
+
+[charaTalk on]
+[charaFace A 7]
+＠ニトクリス
+なぜ、死後に永遠の国へと至る事がなかったのか、[r]お分かりですか？
+[k]
+
+＠ニトクリス
+オジマンディアス様は例外です。[r]あの御方は、きっと、永遠の国を選ばなかった。
+[k]
+
+＠ニトクリス
+けれど私は……きっと、かの国には至っていない[r]という事なのでしょうね。
+[k]
+
+＠ニトクリス
+[%1]。同盟相手の貴方には……[r]語っておくべきかも、しれません。
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_11 0.3]
+
+[messageOff]
+[charaFace A 8]
+＠ニトクリス
+私は……
+[k]
+
+＠ニトクリス
+私は、自ら永遠の国へと至る道を閉ざした[r]愚かなるファラオなのです。
+[k]
+
+[charaFace A 9]
+＠ニトクリス
+私は、死後の復活の備えなく[r]自ら命を絶ちました。けれど後悔はありません。
+[k]
+
+＠ニトクリス
+兄弟たちのために、[r]私は、我が身をひとつの刃として[line 3]
+[k]
+
+＠ニトクリス
+ファラオを[#傀儡:かいらい]とした逆臣たちを、[r]ファラオを愚弄した愚か者たちを。
+[k]
+
+＠ニトクリス
+一切の慈悲なく、躊躇なく、後悔なく、[r]ことごとくナイルの流れの底へと沈めてみせました。
+[k]
+
+？1：仇討ちだね
+？2：殺した……って事かな
+
+？！
+
+＠ニトクリス
+ええ、逆臣どもを[#屠:ほふ]ったのです。この手で。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_11 0.5]
+
+
+
+[scene 21510]
+[effect bit_sepia01]
+[wt 2.0]
+[charaFace A 2]
+[bgm BGM_EVENT_1 0.5]
+[fadein black 1.5]
+[wait fade]
+[seLoop ad14]
+[charaTalk A]
+[charaFadein A 0.4 1]
+
+＠ニトクリス
+滅び去れ、醜きものども……！！
+[k]
+
+＠ニトクリス
+おまえたちの悲鳴も、呻きも、懇願も！[r]誰も聞き届ける事はない！
+[k]
+
+＠ニトクリス
+私が、おまえたちを殺す！[r]ナイルの水に抱かれて死ねるのだ、むしろ喜ぶがいい！
+[k]
+
+[charaFace A 9]
+＠ニトクリス
+我が兄弟たちをことごとく傀儡のファラオとして操り、[r]あまつさえ殺し尽くしたおまえたちを……
+[k]
+
+[charaFace A 5]
+＠ニトクリス
+許しはしない。許すものか。許さない許さない！[r]この日を待ち望んでいた……！
+[k]
+
+[charaTalk D]
+
+
+＠逆臣たち
+なぜだ、ニトクリス[line 3][r]おまえをファラオへ押し上げたのは我らであるのに！
+[k]
+
+
+
+[charaFace A 9]
+＠ニトクリス
+この日のために。[r]すべて、すべて、おまえたちを屠るためにだ。
+[k]
+
+＠ニトクリス
+私はそのためだけに生きてきた。[r]おまえたちが次なる傀儡として私を選ぶように……
+[k]
+
+＠ニトクリス
+私の尊厳を、存在を、肉体と意思を、[r]自在に操り我が物とできるのだと錯誤させたのだ。
+[k]
+
+＠ニトクリス
+そして、おまえたちは我が罠に掛かった。[r]私からの贈り物と聞いて、何を想像したのだ？
+[k]
+
+[charaFace A 5]
+＠ニトクリス
+酒池肉林の宴？　黄金の財宝か？[r]それとも[line 3][wt 0.4]ああ、私の体が味わえるとでも？
+[k]
+
+[charaFace A 2]
+＠ニトクリス
+終わりだ。すべて終わらせてくれる。[r]ファラオを操らんとする不遜、ここに[#潰:つい]えよ！
+[k]
+
+[charaTalk D]
+
+
+＠逆臣たち
+やめてくれ、いやだ、死にたくない……！[r]たすけてくれぇ……！
+[k]
+
+
+[charaFace A 5]
+
+＠ニトクリス
+我が愛しき兄弟たちに請い願え！[r]おまえたちが、慈悲なく殺してみせた彼らにな！
+[k]
+
+[charaFace A 9]
+＠ニトクリス
+おまえたちは永遠の国へは赴けまい。[r]ふふ、だが喜べ。私もそうだ。私も、すぐに行く。
+[k]
+
+[charaFace A 2]
+＠ニトクリス
+死したおまえたちを捕らえて、[r]未来永劫、消えぬ苦しみを与えてやるために[line 3]！
+[k]
+
+[messageOff]
+
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 10200]
+[bgmStop BGM_EVENT_1 0.7]
+[effectStop bit_sepia01]
+[seStop ad14 0.4]
+[se bac69]
+[wt 0.7]
+[se ad36]
+[wait se bac69]
+[wt 1.0]
+[charaSet H 98003000 1 Dr.ロマン]
+[bgm BGM_EVENT_2 0.5]
+[fadein black 1.5]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+彼らを殺して……[r]そして、私もまた命を落としました。
+[k]
+
+[charaFace A 7]
+＠ニトクリス
+……耐えに耐えた末の、復讐でした。
+[k]
+
+＠ニトクリス
+思えば、英霊としての私が短気に過ぎるのは、[r]生前の行いのためなのかもしれませんね。
+[k]
+
+
+
+[messageOff]
+[charaTalk off]
+[charaFadein C 0 1]
+[charaChange A 5012001 8 fade 1.0]
+[wt 1.5]
+[charaChange A 5012001 7 fade 0.4]
+[wt 0.4]
+
+＠ニトクリス
+私は、傀儡のファラオ。[r]為した事と言えば復讐がせいぜいです。
+[k]
+
+[charaTalk on]
+＠ニトクリス
+それでも、だからこそ、正しく在ろうと努めました。
+[k]
+
+＠ニトクリス
+ファラオの座を弄ぶ不敬の徒に罰を与え、[r]ファラオの誇りを地上に取り戻そうとしたのです。
+[k]
+
+＠ニトクリス
+私のファラオとしての誇りは、確かにこの胸に。[r]しかし、それでも……
+[k]
+
+＠ニトクリス
+他のファラオの方々と比べれば、この身は[r]なんと小さきものなのかと、震えてしまいます……
+[k]
+
+[charaFace A 4]
+＠ニトクリス
+情けないにもほどがあって……[r]正直に言って、うう、顔が上げられません……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+
+＠オジマンディアス
+…………。
+[k]
+
+＠イスカンダル
+小さきもの、なあ……？
+[k]
+
+[charaMove D 3 1.0]
+[wait charaMove D]
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaFadein D 0.1 2]
+[charaMove D 1 1.0]
+[wait charaMove D]
+
+＠イスカンダル
+どれ。これを……こうか？　[charaShake D 0.5 0 5 0.7][se ad15]ぴっぴっ、と。
+[k]
+[wt 0.2]
+[se ad15]
+[wt 0.2]
+
+＠イスカンダル
+難易度設定……？　ほう、スパルタモードとな。[r]良い響きだ、奴らのごとく精強というわけか。[charaShake D 0.5 0 5 0.7]無論コレだ。
+[k]
+[se ad15]
+[wt 0.2]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+イスカンダルさん……？[r]コンソールの前で何をして……
+[k]
+
+
+[se ad13]
+[charaTalk H]
+
+＠Dr.ロマン
+あれ？　おおい、もしもーし？
+[k]
+
+＠Dr.ロマン
+訓練プログラムが走り始めたんだけど、[r]キミたち、何かしてるのかい？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠イスカンダル
+しておるとも！　酒精で身体が温まってきた頃合い、[r]余興代わりに剣の一つも振るってみようではないか！
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+ああ、ちなみに余は敵方に加勢するぞ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+……！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠オジマンディアス
+安酒にも飽きた。児戯に付き合うも一興か！
+[k]
+
+[charaFace E 1]
+＠オジマンディアス
+喜べ、偽りの者ども。貴様らを消し去るのではなく、[r]背より照らすために余は立とう！
+[k]
+
+＠オジマンディアス
+命なき民だろうと感涙するであろう。[r]ファラオの威光をその身に刻め！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠イスカンダル
+ふむふむ。ではそちらはマスターにマシュ、ニトクリスと[r]いうわけだ。よいチーム分けではないか。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+いつのまにか全員参加に！？
+[k]
+
+[charaTalk H]
+
+＠Dr.ロマン
+あー、流れがよくわからないんだけど、[r]シミュレーターで戦闘するって事でいいんだね？
+[k]
+
+＠Dr.ロマン
+ええと、まあ、怪我はしないようにね？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+正真正銘のファラオと……私が……？[r]そのような事、あまりにも不敬に過ぎて[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+
+＠イスカンダル
+敵前逃亡は許さんぞ。[r]逃げるなら、それなりの罰を受けてもらわねばなぁ。
+[k]
+
+
+[charaFace D 0]
+＠イスカンダル
+どうする、太陽王？
+[k]
+
+[charaFace E 2]
+＠オジマンディアス
+逃亡も敗北も、神たるファラオには不要！[r]故に[line 3]
+[k]
+
+[charaFace D 5]
+＠イスカンダル
+そうさな。よし、逃げるのならば、[r]貴様はこれから[#ファラオである事を捨てよ]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+……っ！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+
+＠イスカンダル
+それを名乗るな、使うな。それから……うむ、[r]今までファラオでごめんなさいと申してみせよ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+
+＠ニトクリス
+それは。それは[line 3]できません[line 3]。
+[k]
+
+[charaFace A 2]
+＠ニトクリス
+私はファラオ。どれほど短い在位であっても！[r]それは、それだけは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠イスカンダル
+では戦うしかないのう。ああ、言うまでもないが、[r]これに負けても一緒な。わざと負けられてもつまらんし。
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+逆に貴様が勝てば……[r]まあ、何かしら褒美を与えよう。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠オジマンディアス
+口上が長いぞ、征服王！
+[k]
+
+
+[charaFace E 0]
+＠オジマンディアス
+ニトクリス。余の無限の光輝に照らされてなお、[r]貴様の鏡は暗黒を映していられるか、否か[line 2]
+[k]
+
+[charaFace E 1]
+＠オジマンディアス
+ファラオならば耐えてみせよ！[r]耐えねば消える。ハッ、それだけの話よ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+やるしか……ないようですね……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+……[%1]！　我が同盟相手！
+[k]
+
+＠ニトクリス
+……私は未熟なファラオです。[r]それでも、ファラオである事実だけは我が誇り。
+[k]
+
+[charaFace A 2]
+＠ニトクリス
+それを失うというのならば。[r]逃げるわけにも、負けるわけにもいきません！
+[k]
+
+＠ニトクリス
+ぶっちゃけ勝たねばなりません！[r]力を貸しなさい！　いいえ、貸してください！
+[k]
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.7]
+[charaFadeout A 0.1]
+[fadeout black 1.5]
+[wait fade]
+[soundStopAll]
+[end]

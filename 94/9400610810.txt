@@ -1,0 +1,419 @@
+＄94-00-61-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[charaSet A 5025001 1 エジソン]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98101200 1 うりぼう]
+[charaSet D 6024000 1 スカサハ]
+[charaSet E 2026000 1 アルトリア]
+[charaSet F 3024000 1 玉藻の前]
+[charaSet G 98101400 1 うりぼう長]
+[charaSet H 98101000 1 うりぼう3]
+
+[wipeFilter cinema 0.5 0]
+[effect bit_sepia01]
+[cameraMove 0.1 0,-40 1.0]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0 1]
+
+[scene 30800]
+[fadein black 2.0]
+[wait fade]
+
+＠エジソン
+そう……聖杯だ！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_4 0.7]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠マシュ
+聖杯……！？
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[wipeOff]
+[effectStop bit_sepia01]
+[cameraMove 0.1 0,0 1.0]
+[charaSet B 98100800 1 うりぼう2]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠C：うりぼう
+以上、前回の話であります！
+[k]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 1]
+＠B：うりぼう
+この期間、様々な出来事がありましたが！
+[k]
+
+[charaTalk H]
+[charaFace B 0]
+[charaFace H 1]
+＠H：うりぼう
+大雑把に割愛であります！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠スカサハ
+ふぅむ、聖杯か。[r]それはまた難儀なものを……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠エジソン
+え、君たち持ってないのかね。[r]聖杯。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠アルトリア
+あれはそうポンポン持ってて良いもの[r]ではないのですが。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠玉藻の前
+本来は聖杯戦争の長く苦しい戦いを経て手に入れる[r]大事なものなんですけど。
+[k]
+
+＠エジソン
+むぅ、困ったな。
+[k]
+
+＠エジソン
+聖杯が持つ膨大な魔力がないと、[r]さすがにカルデアに通信を繋げるという訳には……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠スカサハ
+この島のどこかに、聖杯はあるのか？
+[k]
+
+[charaFace A 0]
+＠エジソン
+ある！[r]それは間違いない。
+[k]
+
+[charaFace A 4]
+＠エジソン
+しかし、誰が所有しているかは分からない。[r]どこかにいるサーヴァントか、あるいは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠うりぼう
+聖杯！
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠C：うりぼう
+生き残るは、ただ一組[line 3]であります！
+[k]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 1]
+＠B：うりぼう
+デフレでありますなー。
+[k]
+
+[charaTalk H]
+[charaFace B 1]
+[charaFace H 0]
+＠H：うりぼう
+ある意味インフレでもありますなー。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠うりぼう長
+おまえたちちょっと黙っててな。[r]聖杯については心当たりありません。
+[k]
+
+＠うりぼう長
+そんな凄いものがあれば、[r]とっくに使っていますので。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaSet B 98100400 1 マシュ]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠エジソン
+あったら、それを使って[r]魔猪を撃退しているだろうしなあ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet H 2025200 1 アン]
+
+[charaTalk D]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠スカサハ
+……となると、聖杯は魔猪が持っていると[r]考えるが適切だろう。
+[k]
+
+[charaSet G 2025100 1 メアリー]
+
+＠スカサハ
+五十年前に突如大量に出現した魔猪。[r]これに聖杯が関わっていると考えていい。
+[k]
+
+[charaSet C 3025000 1 清姫]
+
+[charaFace A 1]
+＠エジソン
+うむ、論理的だ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠玉藻の前
+ですが、一体どの魔猪が聖杯を所有しているって[r]言うんですかねえ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠アン
+一体一体しらみつぶしに探すしかないのかしら。
+[k]
+
+[charaFace G 4]
+＠メアリー
+面倒だなー。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠清姫
+何事も小さなことからコツコツとですよ。
+[k]
+
+[charaFace C 3]
+＠清姫
+わたくしも旦那様を攻略するため、[r]夜這いからコツコツやっております。
+[k]
+
+[charaSet A 9004000 1 マルタ]
+
+？1：コツコツ……
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace C 3]
+[charaFadein C 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠メアリー
+まあまあ、落ち着いてマスター。
+[k]
+
+[charaFace G 3]
+＠メアリー
+大丈夫、ボクが君のベッドを守るから。
+[k]
+
+[charaFace C 5]
+＠清姫
+……むー。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+
+？2：それゴール地点だよね？
+
+＠清姫
+いいえ、一緒の棺に入るところでようやく中間地点。
+[k]
+
+[charaFace C 1]
+＠清姫
+それから幾度も輪廻転生を繰り返しつつ、記憶を保持し続けて[r]最後には宇宙の消滅を共に迎えるあたりでゴールです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マルタ
+（……ったく。輪廻転生とかないんだけどここはスルー。[r]　話がこじれちゃうものね）
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠スカサハ
+[line 3]いやまあ、魔猪の本拠地がどこにあるかは[r]少々心当たりがある。
+[k]
+
+＠スカサハ
+魔猪の大軍が居ることが予想されるが、[r]入念に準備を整え、それから全員で向かおう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaSet H 3001001 1 クー・フーリン]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠清姫
+まあ、それは大所帯ですね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠クー・フーリン
+それはいいんだが、おまえらいつまで水着なんだ？[r]……おい、[charaFace D 4]目を逸らすなよ。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠スカサハ
+[line 3]という訳で、だ。[r]さあ、[#戦闘:じゅんび]をするぞ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠清姫
+あの、いま何かちょっとばかり[#変換:ルビ]機能に[r]バグが生じたような気がするのですが。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 1]
+＠スカサハ
+いいや、合っている。[r]皆で[#準備運動:せんとう]をしようと言ったのだ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠スカサハ
+さあさあ、最初は誰からする？
+[k]
+
+＠スカサハ
+私としては、全員でバトルロイヤるというのが[r]理想的なのだが[line 3]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+……順番にやっていきましょう。[r]では、トレーニング開始です！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

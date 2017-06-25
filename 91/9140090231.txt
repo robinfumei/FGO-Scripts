@@ -1,0 +1,178 @@
+＄91-40-09-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20112]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4009200 2 アン]
+[charaSet E 4009100 2 メアリー]
+[fadein black 1]
+[wait fade]
+
+[wt 0.2]
+[se ad18]
+[wt 1.5]
+[se ad10]
+[se ad57]
+[seStop ad57 0.5]
+[shake 0.05 0 4 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[wt 1.5]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠メアリー
+……勝利、ブイ。
+[k]
+
+＠アン
+ふぅ、くったくた。[r]ああ、早くお風呂に入りたいですわね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+財宝を守るのがドラゴンというのは[r]確かに王道ですが……。まさかテンプル騎士団まで。
+[k]
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_2 1.0]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+これぞまさに[line 2][r]テンプル騎士団ならぬテンプレ騎士団！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさん、帰ったらドクター・ロマンの鼻を[r]噛んであげてください。目一杯。
+[k]
+
+＠フォウ
+フォウルルル！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ご、ごめんなさい！[r]我ながら上手いこと言ったつもりでした！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メアリー
+何はともあれ金銀財宝山の如くだよ、マスター。[r]うん。いいね。
+[k]
+
+＠メアリー
+これだけあれば、国の一つや二つ余裕で買えるよ。[r]聖杯は[line 2]。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、聖杯と思しき反応はない。[r]ただ、魔力の反応が財宝の中にちらほらあるな。
+[k]
+
+＠Dr.ロマン
+探してみてくれないか？
+[k]
+
+[messageOff]
+[wipeout rollRight 1.0 1]
+[wait wipe]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 1.0]
+[wipein rollLeft 1.0 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 0]
+[charaFace D 0]
+[charaFadein D 0.4 2]
+＠メアリー
+うーん、もしかしてこれかな？[r]この水晶の[#髑髏:どくろ]。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+クリスタル・スカルか！[r]そりゃ稀少なお宝だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠アン
+これは……どうかしら？[r]武器と鎧が一通り揃ってますけど。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+テンプル騎士団の使ったものだろうね。[r]魔術的にはともかく、財宝としてはかなりの価値がある。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠メアリー
+本当なら信徒たちに返還するのが筋なんだろうけど、[r]僕たち海賊だし、ありがたく戴いちゃおう。
+[k]
+
+＠アン
+うふふふふ。これも世界を救うためですから。
+[k]
+
+＠メアリー
+うん。[r]世界を救うために、有効活用しよう。ね、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

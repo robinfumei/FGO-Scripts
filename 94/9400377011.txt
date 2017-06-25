@@ -1,0 +1,146 @@
+
+＄94-00-37-70-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7006000 1 坂田金時]
+[charaSet C 98071000 1 茨木童子]
+
+
+
+[scene 27600]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+チッ、かてぇなコイツは！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠茨木童子
+くはは、くははは！[r][#滾:たぎ]る、[#滾:たぎ]るな金時！
+[k]
+
+＠茨木童子
+人は掴めばすぐ[#拉:ひし]げる。[r]人は撫でればすぐ割れる！
+[k]
+
+[charaFace C 5]
+
+＠茨木童子
+だが[#汝:なれ]との力比べは岩山を組み敷く手応え！[r]駆け比べはいずれか死ぬまで留まらぬ！
+[k]
+
+[charaFace C 0]
+
+＠茨木童子
+これは[#一時:いちじ]に終わらせてはつまらぬな。[r]ひとまず仕切り直しといこうかッ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+
+
+
+＠坂田金時
+逃がすか阿呆！[r]吹き飛べ、[#黄金:ゴールデン][line 2]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠茨木童子
+くはは、[#急:せ]くな、そう[#急:せ]くな！[r][#吾:われ]らが酒宴はまだ続くぞ！
+[k]
+
+＠茨木童子
+くははははは！
+[k]
+
+[messageOff]
+[se ad73]
+[charaSpecialEffect C erasureReverse 1 0.3]
+[wait charaSpecialEffect C]
+[charaFadeout C 0.1]
+
+[wt 0.6]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+
+
+＠マシュ
+一瞬で門の向こうに……[r]なんという素早さでしょう。
+[k]
+
+＠マシュ
+……すみません、ゴールデンさん。[r]こちらの被害も甚大です。消耗しすぎています。
+[k]
+
+＠マシュ
+この状態であの門をくぐるのは、[r]ひどく危険な気がします……。
+[k]
+
+[bgmStop BGM_EVENT_3 0.7]
+[charaFadeout A 0.1]
+
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+っと、そうか。[r]すまねえ、オレっちだけの戦いじゃあなかったな。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace B 3]
+
+＠坂田金時
+しょうがねェ、また明日だ。[r]今のうちにメシでも食っときな。
+[k]
+
+＠坂田金時
+今の京でも、探せばマトモな飯屋があるだろ。[r][#金団:きんとん]か[#金鍔:きんつば]焼きがオススメだ。
+[k]
+
+＠坂田金時
+精力つけてこいよ。他のどんな生き物よりも貪欲で、[r]何をしでかすかわかんねぇのが鬼だ。
+[k]
+
+＠坂田金時
+ことによると、アンタらが想像してるよりも、[r]遙かに長ぇ戦いになるかもしれねェ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 0.5]
+[wait fade]
+[wt 1.0]
+[soundStopAll]
+[end]

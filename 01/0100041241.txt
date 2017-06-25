@@ -1,0 +1,309 @@
+＄01-00-04-12-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21410 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7006001 1 ？？？]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7006001 1 坂田金時]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace E 5]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 3]霧が回復します！[r]一時的に撤退するしかありません、マスター！
+[k]
+
+＠モードレッド
+くそ、霧が邪魔でまともに魔力が通らない！[r]奴を叩き斬れん！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+ふうむ。善戦していたようだがここまでか！[r]ははははははははッ、哀れなりし旧き英霊たち！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+では、此度の余興はここまで！[r]この天才は改めてロンドンの空へ向かうとしよう。
+[k]
+
+[charaFace H 3]
+＠ニコラ・テスラ
+……ああ、うむ。[r]しかし、現在の私は些か気性を異にはしているが。だ。
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+本来私は人類を愛する英霊でもある。[r]故に、其処なる人間、君には伝えておこう。
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+地上へ出た後にこの雷電が向かう先は[r]魔霧の集積地域、およそバッキンガム宮殿の[#上空]だ。
+[k]
+
+＠ニコラ・テスラ
+そこで私が雷電の一撃を加えることで、[r]魔霧は真なる活性状態となってすべてを呑み込む[line 2]
+[k]
+
+[charaFace H 5]
+＠ニコラ・テスラ
+すべてだ。[r]そう、正しく言葉通りに万象をだ！！
+[k]
+
+＠ニコラ・テスラ
+不衛生な文明を破壊し、大地の虚飾を剥がし、[r]この島を不可侵の雷雲で焼き尽くす！
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+この特異点を起点に、[r]以後の人類の歴史は焼却されゆく定めとなる！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……………！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+だが、しかし、だ！[r]だが[line 3]
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+だがもしも未だ君たちが諦めないのであれば、[r]私を追うがいい。私を止めてみせろ、勇者たち！
+[k]
+
+＠ニコラ・テスラ
+新たな神話を以て新時代、新文明を築いた[r]この私、この新たなる雷の神と相対しようというのだ。
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+ならば！[r]更なる新たな神話の[#顕現:けんげん]を以て我が身を[#穿:うが]て！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+他に手はないぞ！[r]はは[line 3]ははははッ！　はははははははははははは！！
+[k]
+
+[charaFadeout H 0.4]
+[wt 1.0]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+待て……！[r]ニコラ・テスラ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout E 0.1]
+[wt 1]
+[se ad61]
+[seStop ad61 6.0]
+[scene 10908 0]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0 1]
+[effect bit_talk_lightning_01t]
+[fadein black 0.5]
+[wait fade]
+＠ニコラ・テスラ
+…………ロンドン、か。久しぶりだ。
+[k]
+
+[charaFace H 4]
+＠ニコラ・テスラ
+英国紳士たらんと志したこの私が、[r]よもや、世界を破壊する者の役を演じさせられるとは。
+[k]
+
+＠ニコラ・テスラ
+かつては思いも寄らなかったな。[r]だが[line 3]
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+はは！　新たなる時代を[#拓:ひら]いた神話たる我が身が、[r]電気文明もろとも人類史を終焉させるとは、これもまた！
+[k]
+
+＠ニコラ・テスラ
+皮肉にして、一興！！[r]はは！！　はははははははは！！
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+さあ来たれ！　私は是より天へと進まん！[r]運命の上空集積地帯へと至るがための足場を此処へ！
+[k]
+
+[messageOff]
+[se ad62]
+[backEffect bit_talk_lightning_02t]
+[effectStop bit_talk_lightning_01t]
+[flashin once 0.2 0 FFFFFF80 FFFFFF00]
+[wt 0.2]
+[flashout 0.2]
+[wt 0.2]
+[flashin once 0.2 0 FFFFFF80 FFFFFF00]
+[wt 0.2]
+[flashout 0.2]
+[wt 0.2]
+[flashin once 0.15 0 FFFFFF80 FFFFFF00]
+[wt 0.15]
+[flashout 0.15]
+[wt 0.15]
+[fadeout white 0.1]
+[wait fade]
+[backEffectStop bit_talk_lightning_02t]
+[charaFadeout H 0]
+[seStop ad62]
+[se ad63]
+[wt 1.0]
+[fadein white 0.4]
+[wt 0.2]
+[se ad65]
+[effect bit_talk_lightning_05t]
+[wait fade]
+[scene 10909 2.0]
+[wt 2.4]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.4 1]
+[backEffect bit_talk_lightning_01t]
+＠ニコラ・テスラ
+呼び声に応じて此処へと参じた[#大雷電階段:ペルクナス・ラダー]！[r]今許そう、我が身を何処へとも運ぶがいい！
+[k]
+
+＠ニコラ・テスラ
+ははははははははははははは！　ははは！！[r]最早、私を止める者は何処にも現れはしないか！
+[k]
+
+＠D：？？？
+[line 3]笑ってねえで、降りりゃあいいだけだ。[r]簡単だろう？
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+ほう[line 3]？
+[k]
+
+[se ad62]
+[se ad64]
+[seStop ad64 0.5]
+[wt 0.5]
+[seStop ad62 5.0]
+[se ad64]
+[seStop ad64 0.5]
+[wt 0.5]
+[se ad65]
+[seStop ad65 3.0]
+[charaFace H 5]
+＠ニコラ・テスラ
+ふむ、雷電が鳴いている。[r]これは……！
+[k]
+
+[messageOff]
+[charaPut A 2]
+[charaPut E 0]
+[charaFadeout H 0.1]
+[backEffectStop bit_talk_lightning_01t]
+[wt 0.1]
+[seStop ad62 0]
+[effect bit_talk_lightning_03g]
+[se ad63]
+[flashin once 0.4 0.4 FFFFFF80 FFFF0080]
+[wt 0.1]
+[flashout 0.1]
+[wt 0.1]
+[se ad64]
+[charaEffect E bit_talk_lightning_03g]
+[flashin once 0.4 0.4 FFFFFF80 FFFF0080]
+[wt 0.1]
+[flashout 0.1]
+[wt 0.1]
+[charaEffect A bit_talk_lightning_03g]
+[flashin once 0.4 0.4 FFFFFF80 FFFF0080]
+[wt 0.1]
+[flashout 0.1]
+[wait flash]
+[fadeout white 0.1]
+[effectStop]
+[wait effect]
+[wait fade]
+[charaTalk D]
+[charaFace D 0]
+[charaFilter D silhouette 00000080]
+[effect bit_talk_lightning_03g]
+[se ad63]
+[charaFadein D 0.4 1]
+[fadein white 0.4]
+[wait fade]
+[backEffect bit_talk_lightning_01g]
+[wt 1]
+＠D：？？？
+雷電を、受けて輝く[#黄金:ゴールデン][line 3]
+[k]
+
+＠D：？？？
+誰かがオレを呼びやがる。[r]魔性を屠り、鬼を討てと言いやがる。
+[k]
+
+＠D：？？？
+うるせえなァ[line 3]
+[k]
+
+[charaFace D 5]
+＠D：？？？
+うるせえうるせえ、耳元であれこれ言うんじゃねえ！[r]いつだってオレァ、オレの斧を振るうまで！
+[k]
+
+[charaFace D 2]
+＠D：？？？
+悪鬼を制し羅刹を殴り！[r][line 3]輝くマサカリ、ゴールデン！
+[k]
+
+[charaTalk off]
+[charaFadein F 0.7 1]
+[charaFadeout D 0.7]
+[wt 0.7]
+[charaFilter D normal 00000080]
+[charaTalk F]
+[charaTalk on]
+＠坂田金時
+名乗りたくはねえが名乗らせてもらうぜ。[r]英霊・坂田金時[line 3]只今ここに見参だ。
+[k]
+
+[charaFace F 1]
+＠坂田金時
+そこのド派手な背広組。その階段は交通違反だ。[r]無様に家に逃げ帰って、めそめそ女々しく泣き言いいな。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[backEffectStop bit_talk_lightning_01g]
+[soundStopAll]
+[end]

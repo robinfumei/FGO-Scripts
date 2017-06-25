@@ -1,0 +1,198 @@
+＄01-00-06-07-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98084000 1 粛正騎士]
+[charaSet F 98081000 1 難民たちＡ]
+[charaSet G 98082000 1 難民たちＢ]
+
+[scene 29000]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.2]
+[effect bit_talk_14]
+[wt 0.1]
+[shake 0.05 3 2 0.4]
+[se bac10]
+[wait se bac10]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+敵性集団、撃破！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk off]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠難民たち
+なんだ、仲間割れか……！？[r]なんでもいい、助かった！
+[k]
+
+＠難民たち
+みんな、こっちだ[line 4]！[r]今なら逃げられるぞ[line 3]！
+[k]
+
+[se ad4]
+[wt 1.0]
+[seStop ad4 4.0]
+
+[charaMove F 0,0 0.4]
+[charaMove G 500,0 0.4]
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+やった……！[r]ほんのわずかですが、敵の囲みを乱しました！
+[k]
+
+＠マシュ
+これなら集まった人たちも……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaEffect E bit_talk_06]
+＠粛正騎士
+[line 6]。
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[se ad52]
+[wt 1.0]
+[charaEffectStop E bit_talk_06]
+[wt 1.5]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+倒れた騎士が消滅していきます。[r]この騎士たちは一体……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+反応は人間ではあるけれど、半ば英霊に近い。
+[k]
+
+＠Dr.ロマン
+強大な魔力によって作り替えられた[r]生体兵器のようなものだ。
+[k]
+
+＠Dr.ロマン
+こんなこと……人の[#業:ごう]じゃないぞ……[r]あの獅子王とやらは本当に英霊なのか！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad166]
+[seStop ad166 1.5]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠粛正騎士
+アグラヴェイン様に報告せよ。[r]サーヴァントによる妨害を受けている。
+[k]
+
+＠粛正騎士
+英霊であれ例外はない。[r]聖罰を受けたものは、何であれ不要である。
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+敵影多数、増援だ！[r]敵性反応、キミたちの位置に殺到している！
+[k]
+
+＠Dr.ロマン
+もういい、逃げるんだ！[r]このままだと数で押されるぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+でも……！　わたしたちが戦わないと、[r]難民の皆さんが……！
+[k]
+
+[wt 0.2]
+[charaTalk B]
+[se ad34]
+[wait se ad34]
+[wt 0.1]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なんだぁ！？[r]別方向でも魔力反応を確認！
+[k]
+
+＠Dr.ロマン
+これは[line 3]他にも戦いを始めた者がいるぞ！[r]君たちは西、この誰かは東の陣を破っている！
+[k]
+
+＠Dr.ロマン
+これなら少しは負担が減りそうだ！[r]ダ・ヴィンチちゃん！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+了解、限界まで持ちこたえるとも！[r]行くぞ、[%1][&君:ちゃん]！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

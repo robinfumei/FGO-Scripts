@@ -1,0 +1,546 @@
+＄01-00-04-04-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10916]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5004000 1 魔本]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 少年]
+[charaTalk C]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠フォウ
+フォーウ!?
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+くそ、当たってるはずなのに攻撃が通らねー！[r]何だこの本！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+わたしにも不明です。[r]確かに攻撃は届いているはずなのに、倒れません！
+[k]
+
+＠Dr.ロマン
+攻撃は届いているのか。幻覚の類ではないね？[r]確かに、君たちの攻撃は届いていると。
+[k]
+
+[charaFace A 15]
+＠マシュ
+はい、ドクター。[r]こちらにステータス異常はありません。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠魔本
+…………………………………………。[r]…………………………………………。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+ああ、もう、ぷかぷか浮かびやがって！[r]本のクセに生意気な、落丁本か何かかテメェ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFadein E 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠少年
+どちらかというと発禁本だがな。[r]その内容が[#真:まこと]なら本であれ人を殺せる、という話さ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+さっきの子……いけません、外に出ては！[r]ここは危険です。退避を！
+[k]
+
+[charaFace H 1]
+＠少年
+魔本から目を離すなお嬢さん。[r]俺の事はいい、言うことを言ったらさっさと逃げる。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠モードレッド
+おまえ……[r]いい声してやがると思ったが、まさか。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+もしかして、サーヴァントか？[r]くそ。オレの勘も霧のせいでうまく働かん！
+[k]
+
+＠少年
+やっと気付いたか。[r]そう、俺もおまえと同じ英霊だ。というか[line 3]
+[k]
+
+＠少年
+このタイミングで[#悠々:ゆうゆう]と[#稀覯:きこう]本を[r]読みあさっている子供が[#普通:マトモ]だとでも思ったか？
+[k]
+
+[charaFace H 0]
+＠少年
+魔力感知の感度はともかく、読み手としての勘は[r]下の下だなセイバー。もっと本を読め。
+[k]
+
+[charaFace H 1]
+＠少年
+一階のＥの棚のシリーズがお勧めだぞ。おまえの[r]好きそうな夢と浪漫とバッドエンドが詰まっている。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+な[line 3]テメエ、どこの誰だ！[r]ずいぶんふざけた[line 3]
+[k]
+
+[charaSet H 5005001 1 アンデルセン]
+[charaFace H 0]
+[charaFadein H 0 0]
+＠アンデルセン
+アンデルセン。[r]ハンス・クリスチャン・アンデルセン。
+[k]
+
+＠アンデルセン
+クラスはキャスターだ。[r]詳しく知りたいのなら俺の本を一冊でも読め。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え。えっ。[r][line 3]えぇぇえっ！？
+[k]
+
+[charaFace A 1]
+＠マシュ
+作家ハンス・クリスチャン・アンデルセン[line 2][r]すごい……世界三大童話作家の一角ですよ、先輩！
+[k]
+
+？1：落ち着いて
+
+？2：童話、好きなの？
+
+？！
+
+[charaFace A 3]
+＠マシュ
+あっ、いえ……その……[r]好きというか、相当数の読み直しをした程度で。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アンデルセン
+ほう。その様子、隠さなくてもハッキリわかるぞ！[r]さては愛読者だな！　サーヴァントにも愛読者か！
+[k]
+
+＠Dr.ロマン
+架空とされた小説の登場人物たちの次は[r]作家本人か。そして敵は本と来た！
+[k]
+
+＠Dr.ロマン
+ようし、今回もまたワケのわからない状況に[r]なってきたな、[%1][&君:ちゃん]！
+[k]
+
+＠Dr.ロマン
+それで、ミスター・アンデルセンはどうなんだい!?[r]サーヴァントとしてすごいのかい!?
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+はあ？　なにを期待しているんだその大間抜けは。[r]俺は作家だ、クソ弱いに決まっているだろう。
+[k]
+
+＠アンデルセン
+人々を襲って回る魔本と遭遇したはいいが、[r]俺ひとりでは倒すことなど不可能もいいところ。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+そこで、肉体労働に適したサーヴァントが来るのを[r]こうして待っていたというワケさ！
+[k]
+
+＠アンデルセン
+さあ戦うがいいセイバー、愛読者のお嬢さん！[r]その一部始終、こぼさずメモにとってやろう！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFadein H 0.1 0]
+[charaFadein C 0.1 2]
+＠フォウ
+ンー、キュウ！[r]キャーウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠モードレッド
+よし黙れ、たのむ黙れ！[r]魔本より先にテメエに斬りかかっちまいそうだ！
+[k]
+
+[charaFace H 3]
+＠アンデルセン
+なに？　魔本の考察をする知能もないばかりか、[r]敵か味方かの判断もできないのか？
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+すごいな、極まった蛮族だ！　あれか、頭に[r]マッシュポテトでも詰まっているんだな、きっと！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMoveReturn E 0 0.5]
+[charaDepth H 0]
+[charaDepth A 2]
+[charaDepth E 3]
+[charaFace A 7]
+[charaFadein A 0.1 6]
+[charaMove A 0 0.2]
+[se ad32]
+[charaEffect A bit_talk_12]
+[shake 0.05 0 5 0.5]
+[charaEffectStop A]
+[wait charaEffect A]
+[wt 0.5]
+[charaFadeout H 0]
+[charaTalk on]
+[charaFace E 2]
+＠モードレッド
+どけ盾ヤロウ！[r]まずそのクソガキを叩きのめしてやる！
+[k]
+
+[charaFace A 15]
+＠マシュ
+気持ちはわかりますが落ち着いて……！[r]ミスター・アンデルセン、貴方も何か言ってください！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+何か言え？　ああ、益になる発言か。[r]ふむ。では仕方ない、レクチャーしてやろう。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+おまえたちは魔本の性質に触れたな？[r]攻撃が通じない。それはそうだ。
+[k]
+
+＠アンデルセン
+あれを本だと思うからそうなる。[r]違うぞ。あれは、一種の固有結界だ。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+固有結界……！？
+[k]
+
+？1：固有結界？
+
+？2：確か、それは……。
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい。世界の在り方そのものを書き換える、[r]ある種の魔術の奥義です。魔法にさえ等しいとか。
+[k]
+
+＠マシュ
+ごく稀に、現界を果たしたサーヴァントの宝具として[r]用いられる例もありますが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+そうだ。多くは空間に対して働くらしいが、[r]こいつは違う。[#存在そのもの]が固有結界だ。
+[k]
+
+＠アンデルセン
+無敵に等しい耐久力はそのためだ。[r]自らが固有結界であることを有効に用いている。
+[k]
+
+＠アンデルセン
+では何故それが可能なのか？[r]いいぞ、もっともな質問だ。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+だがその程度、自分で考えろ！　判断材料は多分にある、[r]数分ほど考えれば誰にでもわかろうさ！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFadein H 0.1 0]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠モードレッド
+その数分が無えんだよこっちは！[r]結論を言え、結論を！
+[k]
+
+＠モードレッド
+今は浮かんでるだけだが、[r]いつまた襲って来るかわからん！
+[k]
+
+[charaFace H 3]
+＠アンデルセン
+なんて性急な……本を後ろのページから読むタイプか？[r]仕方あるまい。愛読者に免じて、特別に教えてやる。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+俺の類推するところでは、こいつは本来、[r]マスターの精神を映し出すサーヴァントだろう。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+ドラマツルギーから導き出せば簡単だ。[r]まあ、俺も一時間ほど考える必要があったが。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+たっぷり時間かけてんじゃねえか！[r]もういい、結論を言え結論を！
+[k]
+
+＠アンデルセン
+結論というか見たまんまの問題だよ。[r]こいつは[#はぐれ]だ。マスターがいない。
+[k]
+
+＠アンデルセン
+だからこそ、こいつはソーホーの人々を襲った。[r]眠りに落として夢を見させた。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+ようはマスター探しさ。夢の顕現として、こいつは[r]疑似サーヴァントとしての[#実体を得ようとしている]。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+何だと？
+[k]
+
+＠Dr.ロマン
+……そうか！[r]この魔本の姿は、まだ実体ではないのか！
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+ご名答！　こいつはサーヴァントですらない、[r]サーヴァントになりたがっている魔力の塊だ。
+[k]
+
+＠アンデルセン
+放っておけばいずれ実体化するだろう。[r]代わりに、ソーホー市民すべてが眠りの中へ落ちる。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+外に漂ってる魔力の霧に比べれば、[r]さほど、あくどい被害ではないかも知れん。
+[k]
+
+＠アンデルセン
+だが、だ。
+[k]
+
+＠アンデルセン
+眠ったまま衰弱して死ぬ奴もいるかも知れないし、[r]もしかしたら死ぬ奴はいないかも知れない。
+[k]
+
+[charaFace H 2]
+＠アンデルセン
+そもそも眠りに時間をとられては[r]我ら物書きは商売あがったりだ！
+[k]
+
+[charaFace H 5]
+＠アンデルセン
+故に倒す。[r]ソーホーには書店や古書店も多いしな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠マシュ
+矛盾していますMr.アンデルセン！[r]実体がないから倒せない、と今[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+だから、さ。名前のない本だから探せないんだ。[r]物語に実体を与える方法なんて簡単だ。
+[k]
+
+[charaFace H 5]
+＠アンデルセン
+聞こえるか！[r]おまえに名前を付けてやるぞ、魔本、いいや[line 3]
+[k]
+
+＠アンデルセン
+[line 3][#誰かの為の物語:ナーサリー・ライム]！
+[k]
+
+[wt 0.3]
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaFadein D 0.1 1]
+[wt 0.5]
+[charaSpecialEffect D flash]
+[se ad39]
+[wt 7]
+[fadeout white 0]
+[charaSpecialEffectStop D 0]
+[charaSet D 5004002 1 ナーサリー・ライム]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.5]
+[fadein white 0.5]
+＠ナーサリー・ライム
+……………………！！
+[k]
+
+[wt 0.5]
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFace H 0]
+[charaFadein E 0.1 2]
+[charaFadein H 0.1 0]
+＠モードレッド
+やればできるじゃねえか、ガキ！[r]だが、なんで今までしなかった!?
+[k]
+
+[charaFace H 2]
+＠アンデルセン
+バカめ、実体を与えたらこっちも襲われるだろうが。[r]言っとくが殴り合いなら弱いぞ、俺は。
+[k]
+
+＠アンデルセン
+おまえたちという肉体労働者が来るまで、[r]息を潜めて読書しているしかなかったと言っただろう。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ナーサリー・ライム
+……ナーサリー……ライム……
+[k]
+
+[charaFace D 4]
+＠ナーサリー・ライム
+いいえ、ちがうわ。[r]それは名前じゃない。名前は、[#アリス:あたし]。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アンデルセン
+ん？　おや？
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+何か……アンデルセンさんの予想とは[r]些か違うようですが……しかし、先輩、これは。
+[k]
+
+？1：実体化している！
+
+？2：結果よければすべて良し！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい。敵は実体化しています！[r]わかります、今は明確に、ここに実体がある！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+よっし。やるぞ！[r]その後にあのクソガキを締めてやるっ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ナーサリー・ライム
+ありす、どこ？[r]ここには……ありすがいない……
+[k]
+
+＠ナーサリー・ライム
+ねえ、お姉ちゃんたち。[r]ひとりぼっちの[#ありす:あたし]はどこにいるの？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+……おまえにマスターはいない。[r]いや、正しくは、この時代にはいないのだろうな。
+[k]
+
+＠アンデルセン
+……まさか、名前のない本をここまで愛した[r][#誰か:マスター]がいたとはな。
+[k]
+
+＠アンデルセン
+見るに忍びないとはこの事だ。[r]悪いが、早々に倒してやってくれ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

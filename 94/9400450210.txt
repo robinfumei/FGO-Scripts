@@ -1,0 +1,260 @@
+
+＄94-00-45-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 98075000 1 鬼]
+
+
+[scene 28100]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+
+＠マシュ
+仮想存在定義、終了。[r]レイシフト完了しました。
+[k]
+
+＠マシュ
+ここは……
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.3]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+お。モニターの様子は良好のようだ。[r]大いに結構！
+[k]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+座標も確認できた。[r]位置的には本州の近くにある一つの島だね。
+[k]
+
+＠Dr.ロマン
+以前、京にレイシフトしただろう？[r]あのとき沖合にちらりと見えた島がそこだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 0]
+
+＠マシュ
+なるほど。あのときの……。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+周囲の様子はどうだい？
+[k]
+
+[charaTalk A]
+
+＠マシュ
+様子ですか。そうですね。[r]まずは島の全景から……。
+[k]
+
+[charaFace A 7]
+
+＠マシュ
+…………。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+マシュ？
+[k]
+
+[charaFace A 7]
+
+＠マシュ
+……いえ。これは……私の基準としている知識が[r]間違っているだけかもしれません。
+[k]
+
+＠マシュ
+私より日本に詳しい方についてきてもらっていますから、[r]そちらに意見を求めてみたいと思います。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+ふふふ。[#此度:こたび]の戦場が日の本であれば、[r]私に白羽の矢が立つのも道理ですね。
+[k]
+
+[charaFace D 0]
+
+＠牛若丸
+物の怪退治は不慣れなれど、日の本一の若武者と[r]あらば誰ぞある！
+[k]
+
+[charaFace D 2]
+
+＠牛若丸
+舟はなくとも徒歩で飛ぶ！[r]不肖、牛若丸、主殿の危機と聞いてはせ参じました！
+[k]
+
+[charaFace D 3]
+
+＠牛若丸
+まあ、実際はフォウ殿にうまく誘導されたのですが、[r]それはそれ。水ようかんは取り損ねました。
+[k]
+
+＠Dr.ロマン
+（ああ、コフィンに水ようかんが置かれていたのって、[r]　そういうコトか……）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+
+[charaFace D 3]
+[charaFadein D 0.1 0]
+
+＠マシュ
+助力、感謝します牛若丸さん。[r]頼もしいかぎりです。なんていうか、世界観的に。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠牛若丸
+でしょうとも。そうでしょうとも。[r]私もなんとなく、今回は大活躍な気がしています！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[wt 0.1]
+
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォ[line 3]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+
+[charaFace D 1]
+[charaFadein D 0.1 0]
+
+
+＠マシュ
+はい。それで、牛若丸さんの目から見て[r]この島に何かおかしなところはありませんか？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠牛若丸
+おかしなところですか？[r]そうですね……。
+[k]
+
+[charaFace D 5]
+
+＠牛若丸
+…………！
+[k]
+
+＠牛若丸
+なんと、これは……面妖な、と申しましょうか。
+[k]
+
+＠牛若丸
+これは、この島の姿は。[r]もしや、噂に聞くところの……。
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+
+＠マシュ
+……やはり、これは普通ではないのですね。[r]この島は、ありえない形状をしています。
+[k]
+
+＠マシュ
+まるで、[#絵本に描かれている挿絵そのもののような]。[r]あまりにも分かりやすすぎる、[#あの島]の[line 2]
+[k]
+
+[charaTalk B]
+[bgm BGM_EVENT_3 0.1]
+
+＠Dr.ロマン
+待った、見た事のない反応が近付いている！[r]なんだこれ……妙にぐにゃぐにゃだな！？
+[k]
+
+＠Dr.ロマン
+鳥とか獣とかが踊っているような、戯れているような、[r]相撲をとっているような[#画:グラフ]というか……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠？？？
+オオオ……[r]オオオオオオオオオオ！
+[k]
+
+
+[charaTalk C]
+
+＠フォウ
+フォウッ！？
+[k]
+
+
+
+
+
+＠牛若丸
+なんと面妖極まる！[r]絵に描いたような鬼です、主殿！
+[k]
+
+
+＠マシュ
+襲ってきます！[r]敵性存在として対処するしかありません。
+[k]
+
+＠マシュ
+指示をお願いします、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

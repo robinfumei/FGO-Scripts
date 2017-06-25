@@ -1,0 +1,813 @@
+＄91-50-25-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5025001 1 エジソン]
+[charaSet E 3001001 1 クー・フーリン]
+[charaSet F 5001001 1 メディア]
+[charaSet G 2001001 1 エミヤ]
+
+[scene 10400]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.4 1]
+＠マシュ
+先輩、お茶をどうぞ。
+[k]
+
+？1：ありがとう
+
+？！
+
+[charaFace A 1]
+＠マシュ
+いえ、たまの休日です。[r]のんびりして下さい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠フォウ
+フォーウ……。
+[k]
+
+＠マシュ
+フォウさんもゴロゴロと良い気分のようです。[r]お腹を撫でさせてもらいましょう。
+[k]
+
+＠フォウ
+フォウ～。
+[k]
+
+？1：穏やかな日だなあ
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。[r]こんな日がずっと続くと良いのですが……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+
+[se ad34]
+[wait se ad34]
+
+[charaFace A 8]
+＠マシュ
+…………やはり。[r]これもマーフィーの法則、というヤツでしょうか……
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[scene 10310]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠エジソン
+うむ、失敗だ！[r]やはりアレだな、何かが足りん！
+[k]
+
+[charaFace D 4]
+＠エジソン
+電力か、素材か、はたまた別のプラスαが必要なのか。[r][#我咆:ううむ]、どうしたものか。
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad55]
+[seStop ad55 1.0]
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.4 2]
+＠マシュ
+ど、どうしましたエジソンさん！？
+[k]
+
+[charaFace D 1]
+＠エジソン
+グッモーニン！　マシュ君にマスターか！[r]何、私の宝具をやや改良しようと思ってね。
+[k]
+
+＠エジソン
+あれこれ弄くり回していたところ、[r]弾みでボン！　と爆発してしまったらしい！
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[charaFace D 3]
+＠エジソン
+ははははは！　失敗はいただけないが、さすがは[r]我が宝具！　暴発しただけでも大した威力だ！
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace A 13]
+＠マシュ
+絶え間のない向上心、[r]さすがですプレジデント。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ですが、他のサーヴァントもいらっしゃいます。[r]騒ぎは起こさないでください。特に廊下では。
+[k]
+
+[charaFace D 0]
+＠エジソン
+いやだって部屋狭いし。[r]実験は開けたところでだね、
+[k]
+
+[charaFace A 7]
+＠マシュ
+テスラさんでもそこは守りますよ？
+[k]
+
+[charaFace D 5]
+[charaShake D 0.05 3 3 0.25]
+＠エジソン
+[#轟咆:ごほっ]、あのトンチキと比べられては堪らない！[r]私が[charaFace D 0]悪かったレディ。次はまず消音機能から入るよ。
+[k]
+
+＠エジソン
+だが試み自体は間違いではなかろう？[r]これから先の戦いを考えると、宝具強化は必須だ。
+[k]
+
+[charaFace D 4]
+＠エジソン
+しかしこうも上手くいかないとなると、[r]発想の転換が必要だな……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+発想の転換ですか……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+エジソンさんといえば、画期的でも尖りすぎていたり[r]コストのような問題を抱えていた発明品を、
+[k]
+
+＠マシュ
+洗練された品物にするのが[r]得意だったと記憶していますが……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+そういう際の思考で、[r]宝具を改良してみては如何でしょうか？
+[k]
+
+[charaFace D 0]
+＠エジソン
+ふむ、確かにその通りだ。
+[k]
+
+＠エジソン
+だがしかし自分の宝具ばかり考えていては、[r]どうも行き詰まってしまうな。
+[k]
+
+＠エジソン
+他のサーヴァントの宝具を参考に[r]するというのは……。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ほ、他のサーヴァント……ですか？
+[k]
+
+[charaFace D 1]
+＠エジソン
+よろしい！
+[k]
+
+＠エジソン
+では早速、カルデアにいるサーヴァントたちに[r]コンタクトを取ってみよう！
+[k]
+
+[charaFace A 12]
+＠マシュ
+でも大丈夫なんでしょうか、[r]宝具は皆さんのプライドそのものなので……
+[k]
+
+＠マシュ
+そういう、[r]あからさまに性能を検分したりするのは……
+[k]
+
+[charaFace D 2]
+＠エジソン
+大丈夫か大丈夫ではないか、ではない！[r]とりあえずやってみる！のだ！
+[k]
+
+？1：とりあえず、の精神だね！
+？2：やってみよう、の精神だね！
+？！
+
+[charaFace A 14]
+＠マシュ
+どちらも同じニュアンスです、先輩！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[scene 10400]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+という訳で思いついたのだよ！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠クー・フーリン
+……おーいマスターよ。[r]それで。オレが呼ばれた理由は何だ？
+[k]
+
+[charaFace E 4]
+＠クー・フーリン
+嫌な予感しかしない上に、[r]隣の魔女とは相性良くねえんだがねぇ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+大丈夫だ、クー・フーリン君。[r]これは君の得になる話でもある。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠メディア
+……あのね、これでも私は忙しいの。
+[k]
+
+＠メディア
+キャスターとして他の魔術師たちに講義したり、[r]例の箱庭の調整したり……。
+[k]
+
+＠メディア
+[#昔の私:リリィ]が余計なことを言い出さないか見張ったり、[r]色々あるのですけど。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+もちろんです、エレガントなレディ。[r]これは貴女の得になる話でもある。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠メディア
+……そう。話だけは聞いてあげましょうか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace F 3]
+[charaFadein F 0.1 2]
+＠クー・フーリン
+レディ（笑）
+[k]
+
+
+[charaFace F 2]
+＠メディア
+何が（笑）なのかは分からないけど、[r]とりあえず殺すわルールブレイカーッ！！[se ad39][charaEffect F bit_talk_36][wait se ad39][charaEffectStop F bit_talk_36]
+[k]
+
+[charaFace E 2]
+＠クー・フーリン
+相変わらず沸点低いなテメエ！？[r]あと宝具解放がズバ抜けて速ぇ[line 2]！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+お、落ち着いて下さいメディアさん！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エジソン
+そう！[r]それだよ！！
+[k]
+
+＠G：全員
+へ？
+[k]
+
+[charaFace D 0]
+＠エジソン
+前から考えていたのだ。
+[k]
+
+＠エジソン
+クー・フーリン君のゲイ・ボルクは因果を逆転させ、[r]あらゆる軌道を描いて必ず突き刺さるという。
+[k]
+
+＠エジソン
+そして一方、[r]レディ・メディアのルールブレイカーは、
+[k]
+
+＠エジソン
+あらゆる魔術支援を打破するだけでなく、[r]サーヴァントの契約すら破戒する、対魔術宝具という！
+[k]
+
+[charaFace D 1]
+＠エジソン
+そこで私は思いついたのだよ！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+……ライオンがなに思いつくんだっつーの。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エジソン
+ライオンではない、この逞しい姿は[r]荒ぶる知性の獣、その具現である！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠メディア
+獣であるのは否定しないのね。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠エジソン
+無論。ブラッシングも万全だからね。おかげで最近は[r]朝も一時間早く起きている。[charaFace D 0]いや、そうではなく。
+[k]
+
+[wt 0.2]
+[charaFace D 1]
+＠エジソン
+いいかね！　クー・フーリン君のゲイ・ボルクに、[r]メディア君のルールブレイカーを溶接する！
+[k]
+
+＠エジソン
+相手がどのようなサーヴァントであろうと、[r]因果を逆転して契約を破棄させる画期的宝具！
+[k]
+
+[effect bit_talk_41]
+[charaFace D 2]
+＠エジソン
+名付けて、『エジソン式ボルクブレイカー』！
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.2]
+[charaFadeout D 0.1]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+おーい。[r]帰っていいか、マスター？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠メディア
+……詳しい話を聞かせて頂戴な。
+[k]
+
+[charaFace E 4]
+＠クー・フーリン
+魔女！？[r]じゃない、メディアさん！？
+[k]
+
+[charaFace F 4]
+＠メディア
+いえ。私も前から思っていたの。
+[k]
+
+＠メディア
+ルールブレイカーでいちいち敵に接近するの、[r]キャスターの役割じゃないでしょう？
+[k]
+
+＠メディア
+面倒だし危険だし、返り血はつくし。[r]あとローブの裾を踏んで転びそうになるし。
+[k]
+
+[charaFace F 0]
+＠メディア
+だから、貴方がその槍でサクサク宝具を発動して[r]くれるなら、それに越した事はないのよ。
+[k]
+
+[charaFace F 5]
+＠メディア
+そもそも私の宝具は冒険の末に手に入れたもの[r]ではなく、裏切りの伝説が具現化したもの。
+[k]
+
+＠メディア
+特に思い入れがある訳でもありません。[r]できれば他に押しつけたいぐらいです。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+うむ、さすがキャスター。[r]その合理的な思考、エレガンティック。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+この脳筋、いや脳魔どもがァ！[r]便利ならなんでもいいってワケじゃねえぞ！？
+[k]
+
+＠クー・フーリン
+オレはこの朱槍に思い入れがあるんですよー！[r]滅茶苦茶アイデンティティなんですよー！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+そ、そうですよね。
+[k]
+
+＠マシュ
+クー・フーリンさんのゲイ・ボルクは[r]厳しい修練の果てに体得した伝説の槍。
+[k]
+
+＠マシュ
+そうそう簡単にいじくり回すわけには[line 2]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠メディア
+いいじゃない、槍の一本や二本。[r]なんならスカサハから予備でも貰ってきましょうか？
+[k]
+
+＠メディア
+それともこう言おうかしら。
+[k]
+
+[charaFace F 4]
+＠メディア
+“貴女のところの弟子は槍の一本も差し出さない、[r]しみったれた戦士ですこと”なんて。
+[k]
+
+＠クー・フーリン
+この……人の一番かゆいところ突いてきやがって……[r]これだから魔女ってヤツは……ほらよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[se ad7]
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+協力感謝する！[r]それでは宝具改良……行くぞ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.5]
+[se ad101]
+[wt 0.7]
+[se ad62]
+[wt 0.3]
+[wait se ad101]
+[se ad70]
+[wt 0.1]
+[se ad71]
+[wt 0.5]
+[wait se ad70]
+[wait se ad71]
+[seStop ad62]
+
+[charaFadeout D 0.1]
+[scene 20300]
+[charaSet A 8001001 1 マシュ]
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+＠エジソン
+さあ、完成したぞ！[r]『エジソン式ボルク・ブレイカー』！！
+[k]
+
+[charaFace D 1]
+＠エジソン
+ふはははは！[r]この流麗なデザインを見よ！
+[k]
+
+＠エジソン
+特許、特許を取っておかなくてはな！[r]何はなくともまずは特許だ！
+[k]
+
+[charaFadeout D 0.1]
+
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+ああ、オレのゲイ・ボルクが……。[r]無駄の一切ない、刺し穿つ朱槍が……なんかDXに！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+まあまあ、クー・フーリン君。[r]まずは実験だ。
+[k]
+
+＠エジソン
+幸い、ボランティアで協力してくれる[r]サーヴァントがいた。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+手際がいいなオイ！？　そんな奇特な[r]サーヴァントがホイホイ見つかるとはねぇ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.4 1]
+＠エミヤ
+フッ。宝具を改造とはな。[r]無骨で野蛮な男かと思ったが、中々どうして。
+[k]
+
+＠エミヤ
+近代に生きたエジソンはともかく、[r]神代に生きた君にしては柔軟な発想だ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+お[line 2]ま[line 2]え[line 2]か[line 2]よ[line 2]！！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace F 1]
+[charaFadein F 0.1 2]
+＠メディア
+ええ。このキザ男、魔術師のクセにアーチャーかつ、[r]宝具盗難、不法改造の常習犯でしょう？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠エミヤ
+人聞きが悪いなキャスター。[r]良く言うだろう。
+[k]
+
+[charaFace G 5]
+＠エミヤ
+オレの[#宝具:モノ]はオレの[#宝具:モノ]。[r]おまえの宝具はオレが[#投影:コピー]すると。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+わ、わたしが預からせていただいている、[r]この宝具もですか……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠クー・フーリン
+言わねえよ！　それ他のサーヴァントが聞いたら[r]殺しに掛かるレベルの発言だからな！？
+[k]
+
+[charaFace G 0]
+＠エミヤ
+無論、相手を選んでの発言だよ。[r]“絶対に真似てほしくない”英霊にはこっそりと、
+[k]
+
+＠エミヤ
+“やれるものならやってみろ”的な英霊には[r]正面から堂々と投影するのが私のセオリーだ。
+[k]
+
+[charaFace G 4]
+＠エミヤ
+まあ、あとは難易度だな。[r]ゲイ・ボルク級の宝具なら簡単には投影できない。
+[k]
+
+[charaFace G 3]
+＠エミヤ
+マシュ嬢の宝具も、そういう意味では[r]私が模倣することのできない領域の代物だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、ありがとうございます。[r]良かったです、[charaFace A 1]マスター！
+[k]
+
+？1：マシュはいつだってオンリーワンだよ
+
+？！
+
+[charaFace A 3]
+＠マシュ
+は、はい！[r]そうなれるよう、日々研鑽します、マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠メディア
+青春ね……。[r]妙に肌が潤うわ……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠エミヤ
+それでは、一つ投影してみるか。[r]準備はいいな、エジソン！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+うむ！[r]では、クー・フーリン君！
+[k]
+
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_2 0.5]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+一つ、やってみてくれたまえ！[r]私もバックアップしよう！
+[k]
+
+＠エジソン
+実戦を想定して、適当なエネミーも[r]用意しておいた！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+ああもう、こうなりゃ自棄だ！[r]この一撃、手向けとして受け取るがいい！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+戦闘行動、開始します！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

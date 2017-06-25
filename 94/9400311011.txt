@@ -1,0 +1,302 @@
+＄94-00-31-10-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98062000 1 アイリスフィール]
+[charaSet F 98060000 1 アルトリア]
+[charaSet G 6015001 1 アサシン？]
+
+[scene 25600]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠アサシン？
+くッ、余計な邪魔を！[r]おまえたち、聖杯戦争の参加者じゃないな！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+そこはお互い様のようだな。いったい狙いは何だ？[r]どうしてアインツベルンのマスターを狙った？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アサシン？
+……説明は無意味だ。
+[k]
+
+＠アサシン？
+僕は人の理解の埒外において使役される者。[r]人倫の枠に囚われた者とは、相容れる筈もない。
+[k]
+
+[bgmStop BGM_EVENT_3 0.5]
+
+[messageOff]
+[se bac1]
+[charaFadeout G 0.4]
+[wt 1.5]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+アサシン、撤退した模様です。……追跡しますか？
+[k]
+
+＠エルメロイ
+いや、これ以上の連戦は避けよう。[r]過度の消耗は別の敵につけいる隙を与えてしまう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+アインツベルンにも、[r]今日の所は矛を収めるのが得策と進言したい。
+[k]
+
+＠エルメロイ
+貴方がたが警戒しなければならない相手は、[r]我々だけではないはずだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠アイリスフィール
+……いいでしょう。[r]結果的にこちらが助けられた形になったわけですし。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+今さら何を、とお思いかもしれないが、[r]我々にアインツベルンと敵対する意図はない。
+[k]
+
+＠エルメロイ
+波止場での諍いについては[r]止むに止まれぬ仕儀あってのこと。
+[k]
+
+＠エルメロイ
+むしろあって然るべき追い打ちがなかったことに、[r]そこのセイバーも違和感を感じていたのでは？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace E 4]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠アルトリア
+……その通りですアイリ。[r]この者たちの戦い方は確かに奇妙だ。
+[k]
+
+＠アルトリア
+意図は分かりませんが、自らの勝ち筋を敢えて遠ざけて[r]いるかのような手緩さがあります。
+[k]
+
+[charaFace E 5]
+＠アイリスフィール
+端的に言って、あなたたちは敵なの？　味方なの？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+我々の目的は聖杯争奪戦とは別にあり、そのためには貴方[r]の契約するセイバーが無事でいてもらわなければ困る……。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+偽らざる事実として語りうるのは、[r]今のところここまでが限度でね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFace E 6]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+＠アイリスフィール
+……いいわ。明確にアインツベルンの障害と[r]ならないかぎり、今後は手出しを控えましょう。
+[k]
+
+[charaFace E 4]
+＠アイリスフィール
+我々とて、優先的に打倒しなければならない敵対者は[r]まだ他に大勢いるのだし。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+むしろこちらからもお尋ねしたい。[r]先程のアサシンについて何か心当たりは？
+[k]
+
+[charaFace E 4]
+＠アイリスフィール
+いいえ特には。さっき奇妙なことを言っていたわね。[r]どちらも聖杯戦争の参加者ではない、とか……。
+[k]
+
+＠エルメロイ
+あのアサシンの存在がイレギュラーなのは間違いない。
+[k]
+
+＠エルメロイ
+まぁその点については我々も他人のことは言えないが。[r]奴についての謎を解き明かすのが、目下の我々の目的だ。
+[k]
+
+[charaFace E 6]
+＠アイリスフィール
+謎、ね……[r]確かに何だか奇妙な感覚はあったけれど。
+[k]
+
+＠エルメロイ
+と、いうと？
+[k]
+
+[charaFace E 4]
+＠アイリスフィール
+初めて会う相手のはずなのに、何故か……[r]私にとって深い因縁のある人だったような……。
+[k]
+
+＠アイリスフィール
+彼は私を殺すためだけに、私は彼に殺されるためだけに、[r]この場に居合わせたかのような……。
+[k]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 -900,0]
+[charaMove F 0 0.5]
+[charaMove E 2 0.5]
+[charaMove D 900,0 0.5]
+[wait charaMove]
+[charaFadeout D 0.1]
+[seStop ad60]
+
+＠アルトリア
+そんな！
+[k]
+
+[charaFace E 4]
+＠アイリスフィール
+私たちは二人とも、お互いを壊し壊される運命に[r]あるような、そんな気がしたのです。
+[k]
+
+＠エルメロイ
+アインツベルンの秘技の結晶たるホムンクルスの[r]直感ともなると、笑い飛ばせる話ではないな。
+[k]
+
+[charaFace F 0]
+＠アルトリア
+……互いを殺し合う運命……いいえ。[r]いいえ、アイリスフィール。それはありません。
+[k]
+
+[charaFace F 3]
+＠アルトリア
+貴女は私がこの剣に懸けて守り通します。[r]貴女は勝利すべくしてこの戦場に立っているのですから。
+[k]
+
+[charaFace E 1]
+＠アイリスフィール
+ええ、そうね。こんな頼もしいサーヴァントが[r]側に居るのだし。何も怖がることなんてないわ。
+[k]
+
+[charaFace E 0]
+＠アイリスフィール
+最後に、そちらの盾の英霊さん。[r]あの援護は本当に見事でした。礼を言います。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、そんな……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アルトリア
+……（あの盾のようなものは……[r]仮にそうだとしたら、あの少女は……）
+[k]
+
+[charaFace F 4]
+＠アルトリア
+……（……いや、本人がまだ知り得ないのなら、[r]私が口にするべきではないのでしょう……）
+[k]
+
+？1：マシュの盾がどうかした？
+？2：見覚えでもあるの？
+
+？！
+
+[charaFace F 0]
+＠アルトリア
+……いえ、特に。ですが貴方がたは悪人ではない。[r]それだけは[charaFace F 1]確かなようです。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+……は、はい。[r]そう言っていただけるのは嬉しいのですが……。
+[k]
+
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

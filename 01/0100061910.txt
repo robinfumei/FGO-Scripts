@@ -1,0 +1,619 @@
+＄01-00-06-19-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 1012001 1 ベディヴィエール]
+[charaSet G 5022001 1 三蔵]
+[charaSet H 2014000 1 俵藤太]
+
+[scene 28700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠三蔵
+はあー、やっと太陽の下に戻ってきたー！[r]色々あったけどみんな無事でなによりね！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+うむ、初代様の協力は得られましたな。[r]しかし、この首が繋がっていようとは……
+[k]
+
+？1：首を斬られないで良かった！
+
+[charaFace D 3]
+＠呪腕のハサン
+ははは。まったくです。
+[k]
+
+＠呪腕のハサン
+覚悟していたとはいえ、あの感覚を[r]もう一度味わうのは怖ろしかったですからなぁ。
+[k]
+
+？2：初代様、怖すぎません？
+
+[charaFace D 1]
+＠呪腕のハサン
+恐怖なくして頭目は務まりませぬ。
+[k]
+
+＠呪腕のハサン
+我々はアサシンたちの頭目ですからこの程度ですが、[r]あの方は歴代19人、山の翁すべての頭目。
+[k]
+
+＠呪腕のハサン
+本来であれば姿を見た瞬間に恐怖判定ですぞ？
+[k]
+
+？！
+
+[charaFace D 0]
+＠呪腕のハサン
+それより静謐めに声をかけていただけませぬか。[r]ほれ、先ほどからあのように
+[k]
+
+[charaFadeout D 0.1]
+
+[cameraMove 1.0 44,-12 1.1]
+[wt 1.2]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 0]
+＠静謐のハサン
+……すみません、すみません、すみません……[r]……私、こんな事ばかりで……
+[k]
+
+＠静謐のハサン
+……すみません、すみません、すみません……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[cameraHome 1.0]
+[wt 1.2]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+あのように平謝りで顔を上げませぬ。[r]みな事情は分かっているというのに、まったく。
+[k]
+
+？1：みんな無事で良かったよ
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+＠静謐のハサン
+ああ……[%1]様にまで気を遣わせて[r]しまって……私はダメなハサンです……
+[k]
+
+＠静謐のハサン
+……この失態は、なんとしてもお返しします……[r]具体的には体で……この命に代えても……
+[k]
+
+？2：こっちこそ、力任せで悪かった
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.4 1]
+＠静謐のハサン
+…………そう、でした。[r]私を殺さないよう、あんなにも勇敢に、乱暴に……
+[k]
+
+＠静謐のハサン
+……ありがとうございます。[r]呪腕殿だけでなく、私まで救っていただいて。
+[k]
+
+＠静謐のハサン
+……はい……これはもう……婚姻するしか……[r]命を捧げる、という意味で……
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad31]
+[seStop ad31 2.0]
+[wt 1.0]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+お。やっと通信が元に戻った！[r]一体どうなったんだい？
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]の状態はモニター[r]できているんだけど、音も映像も拾えていない。
+[k]
+
+＠Dr.ロマン
+事の顛末を教えてくれると助かるんだが？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……はいドクター。[r]状況、報告します。
+[k]
+
+[messageOff]
+[wipeout rollLeft 1.0 0.5]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+[scene 28700]
+[wt 0.7]
+[wipein rollLeft 1.0 0.5]
+[wait wipe]
+
+＠Dr.ロマン
+なるほどなるほど……[r]砂漠にある異界、アトラス院ときたか。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+ん？　アトラス院……[r]アトラス院って、あのアトラス院か！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。そのアトラス院かと。
+[k]
+
+？1：マシュ、アトラス院ってなに？
+
+[charaFace A 0]
+＠マシュ
+アトラス院は魔術協会の一部です。[r]魔術協会は大きく三つの流派に分かれていますが、
+[k]
+
+＠マシュ
+その中でも錬金術に特化し、[r]独自の成長を遂げてきた学院がアトラス院です。
+[k]
+
+＠マシュ
+カルデアスを解析する疑似霊子演算器[line 2][r]トリスメギストスは、アトラス院寄贈のものです。
+[k]
+
+＠マシュ
+その他にも、アトラス院はカルデアに[r]多くの技術を提供してくれています。
+[k]
+
+？2：たしか、トリスメギストスの製造元？
+
+[charaFace A 0]
+＠マシュ
+はい。カルデアスを解析する霊子コンピューター……[r]疑似霊子演算器トリスメギストスの製造元です。
+[k]
+
+＠マシュ
+アトラス院は最古の錬金術師の子孫であり、[r]“悪い未来を回避する”為に活動する学院です。
+[k]
+
+＠マシュ
+カルデアが魔術協会や国連に認められる程の組織に[r]なったのも、アトラス院の協力あってのものだとか。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+うーん。アトラス院かぁ。[r]その時代にあるアトラス院……
+[k]
+
+＠Dr.ロマン
+いや、オジマンディアスの砂漠は紀元前なんだっけ。
+[k]
+
+＠Dr.ロマン
+じゃあ魔術協会ができるより前の[r]アトラス院になるね……なんか危険そうだなあ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 3]
+＠マシュ
+……ドクターは反対ですか？[r]先輩がアトラス院に向かうのは。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+え、なんで？[r]行こうよ、アトラス院！
+[k]
+
+＠Dr.ロマン
+そこに行けば獅子王の真実……つまり円卓の目的が[r]分かるんだよね？　なら止める理由はない！
+[k]
+
+[charaFace A 6]
+＠マシュ
+そ、そうですか。……意外です。[r]ドクターはてっきり反対するものかと。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+そりゃあ危ないとは思うけど、[r]特異点で危険じゃないところはないんだし。
+[k]
+
+＠Dr.ロマン
+ボクも獅子王の目的には興味がある。聖杯を使わず、[r]どうやって人理定礎を乱しているのかもね。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+……でも心配なのは事実だ。
+[k]
+
+＠Dr.ロマン
+魔術師の工房というものは、[r]侵入者に対するトラップを山ほどしかけている。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ロンドンの魔術協会地下もそうだっただろう？
+[k]
+
+＠Dr.ロマン
+アトラス院と言えば“世界を七回滅ぼせる”と[r]言われるほどの魔術兵器の廃棄場だ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+そんな場所にキミたちだけを送り込むなんて、[r]ダ・ヴィンチちゃんがいたらなんて言われるか……
+[k]
+
+[charaFace A 4]
+＠マシュ
+……そうですね。[r]ダ・ヴィンチちゃんが生きていれば……。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……生きてるとも。レオナルドは消えていない。[r]あの図太い天才が、そう簡単にやられるもんか。
+[k]
+
+？1：ドクター……
+？2：………………
+
+？！
+
+[wt 0.4]
+[communicationCharaFace 0]
+＠Dr.ロマン
+……と、無駄話をしている場合じゃなかったな！[r]まずは東の村に戻ろう！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+そうですな。帰りは下り故、体力的には[r]楽になりましょう。脚への負担は変わりませぬが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠三蔵
+そうそう。楽だからってつい休まずにいくと、[r]膝が大変なことになっちゃうのよねー。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠俵藤太
+ふむ、三蔵にしては殊勝だな。[r]てっきり俵の上に乗せろ、と言い出すものかと。
+[k]
+
+[charaFace G 2]
+＠三蔵
+言わないわよ！　よけい高くなるじゃない！[r]こーゆー天剣の岩山では自分の脚が一番ですーぅ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+ははは、違いない。[r]ではみなでゆっくりと下山いたしましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[charaFadeout D 0.1]
+[scene 28720]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.4 1]
+＠マシュ
+帰りはあっという間でしたね、先輩。[r]敵性反応もなく、一日のうちにここまで来ました。
+[k]
+
+＠マシュ
+あともう少し下りれば、[r]村の明かりが見えてくる頃ですよ。
+[k]
+
+？1：楽で良かった
+
+[charaFace A 12]
+＠マシュ
+とはいえ、みなさんお疲れです。[r]村に帰ったらまずは睡眠ですね。
+[k]
+
+？2：……マシュ、さっきのドクターへの反応……
+
+[charaFace A 4]
+＠マシュ
+……はい。[r]なんとなく、なのですが……
+[k]
+
+＠マシュ
+初代の山の翁さんは、意図的にカルデアとの通信を[r]妨害したように感じたのです。
+[k]
+
+＠マシュ
+アトラス院の話をドクターに聞かせたくない……[r]そんな気がしたのです。
+[k]
+
+＠マシュ
+なのでわたしも、ついドクターに[r]否定的な反応をしてしまいました。
+[k]
+
+[charaFace A 13]
+＠マシュ
+でも、それはわたしの勘違いだったようです。
+[k]
+
+＠マシュ
+ドクターはいつもの、[r]少し頼りないけれど善良な、我々のリーダーです。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.4]
+
+[bgmStop BGM_EVENT_11 1.5]
+
+＠俵藤太
+[line 3]待て。[r]なんだあれは。どうなっている！？
+[k]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+藤太殿？　何かおかしなものでも？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠俵藤太
+そうか、お主らではまだ見えぬか！[r]火だ！[bgm BGM_EVENT_3 0.1]　村の方角に火の手が見える！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk off]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[wt 1.0]
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠俵藤太
+無数のかがり火がせわしなく移動しておる！[r]あれは[line 3]聖都の兵士たちだぞ！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+[wt 1.0]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+[line 3][%1]殿、御免！[r]先行いたしまする！
+[k]
+
+＠呪腕のハサン
+静謐、貴様は[%1]殿をお守りしろ！[r]三蔵殿、藤太殿、ベディヴィエール殿……
+[k]
+
+＠呪腕のハサン
+伏してお願いする……！[r]村の者の救助を……！
+[k]
+
+[charaSpecialEffect D erasureReverse 1 0.5]
+[wt 0.1]
+[se ad73]
+[wait charaSpecialEffect D]
+[wt 0.5]
+
+[charaTalk G]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠三蔵
+言われるまでもないわ！[r]行くわよ、トータ！
+[k]
+
+＠俵藤太
+うむ！　我らは村の東に回ろう！
+[k]
+
+[se ad59]
+[seStop ad59 1.5]
+[charaAttack H normal 0,0 0.5]
+[charaAttack G normal 500,0 0.5]
+[charaFadeout H 0.2]
+[charaFadeout G 0.2]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター！　わたしたちも……！
+[k]
+
+？1：村に急ぐぞ！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaSet E 6009001 1 静謐のハサン]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠静謐のハサン
+承知。案内は私にお任せを……！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaSet C 98084000 1 粛正騎士]
+[scene 28620]
+[wt 0.3]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠粛正騎士
+[line 6]。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+粛正騎士……！
+[k]
+
+[charaFace A 6]
+＠マシュ
+な……その、手にして、いるのは[line 3][r]人間、の[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠粛正騎士
+[line 3]こちらマルクト３、十人目の異教徒を発見した。[r]ただちに粛正する。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.1 1]
+＠マシュ
+あ[line 3]あああああ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+落ち着いて、マシュ！[r]倒されるのは奴らの方よ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

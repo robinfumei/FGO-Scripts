@@ -1,0 +1,375 @@
+＄01-00-04-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 11000 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009003 1 ダ・ヴィンチ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+＠ジキル
+この子[line 3]フランは、うん、人造人間だ。[r]身体組成は霊体ではなかったよ。英霊じゃないね。
+[k]
+
+[charaFace G 0]
+＠ジキル
+この時代に生きる人間だ。[r]いや、人造人間か。
+[k]
+
+＠ジキル
+小説の記述が誤りだったのか……[r]いや、そこまでは断言できないけれど。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFadein G 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠フラン
+……ゥゥ……ァ……。
+[k]
+
+[charaFace G 1]
+＠ジキル
+うん？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+ええと、その……[r]彼女は、ええと……何と言ったらよいでしょう……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠モードレッド
+調査だ、とか言っておまえがあちこち触ったんで、[r]不満みたいだぞ。謝れ、ジキル。
+[k]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+＠ジキル
+えっ。あ、ごめんよ。[r]僕としたことが、英国紳士にあるまじき行為を。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠フラン
+……ゥ。
+[k]
+
+[charaFace G 0]
+＠ジキル
+[FFFFFF]?[-]
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+わかってくれればそれでいい、[r]的なニュアンスの声……でしょうか。今の発声は。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠モードレッド
+そうだな。
+[k]
+
+？1：うん、そう言ってる
+
+？2：なんで君たちわかるの？
+
+？！
+
+[charaFace G 5]
+＠ジキル
+なぜ、君たちは彼女の意思がわかるんだ？[r][#同性ゆえ]の、あっ、いや、何でもない！
+[k]
+
+[charaFace E 5]
+＠モードレッド
+次はないぞ。殺す。
+[k]
+
+[charaFace G 4]
+＠ジキル
+はい。うん。ごめん、二度と言わない。[r]で[line 3]だね。僕の情報網に別件が引っ掛かったんだよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠ジキル
+ソーホーエリアに妙なものが現れた。[r]何でも、屋内にまで入り込んできて市民を襲う、と。
+[k]
+
+＠Dr.ロマン
+確認だ。ホムンクルスや[#自動人形:オートマタ]、[r]それにヘルタースケルターは、これまでに[line 3]
+[k]
+
+＠ジキル
+屋内に入り込んだという前例はないはずだ。[r]僕の情報網と、セイバーが見回った限りではね。
+[k]
+
+＠ジキル
+屋内にまでやって来て、市民を襲うもの。[r]それが、人間ぐらいの大きさの本であるらしい。
+[k]
+
+＠ジキル
+僕は仮にこれを、[#魔本:まほん]、と仮称することにした。[r]君たちはこれに対処して欲しい。
+[k]
+
+[charaFace G 4]
+＠ジキル
+件の「魔霧計画」に関係しているかは不明だが、[r]少なくともソーホーでは被害が出ているんだ。
+[k]
+
+[charaFace G 0]
+＠ジキル
+どうか、頼みたい。[r]引き受けてくれるかい？
+[k]
+
+？1：任せて
+
+？2：じっとしていても仕方ない
+
+？！
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね、マスター。[r]わたしたちは数少ない屋外活動要員ですから。
+[k]
+
+[charaFace A 13]
+＠マシュ
+わたしも、先輩の力になるよう努めます。[r]いえ、なれたら……幸いです。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠モードレッド
+なに言ってんだ、おまえ。[r]デミだろうが何だろうがサーヴァントだろうが。
+[k]
+
+[charaFace A 11]
+＠マシュ
+は、はい。
+[k]
+
+[charaFace E 3]
+＠モードレッド
+……あー、いや、まあ。いい。忘れろ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え[line 3]
+[k]
+
+[charaFace E 4]
+＠モードレッド
+マスターとの関係性はそれぞれのもんだしな。[r]オレが口出すことでもない。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+じゃ、行くか。[r]フランは戦力になるかわからんから置いていく。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠フラン
+……ゥ、ゥ……。[r]……ゥ……。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠モードレッド
+なんだよ寂しいのか？[r]おとなしく待ってろ、すぐ帰ってくるから。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+外は、危険ですから。[r]戻ってきたら、また話をしましょう。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠フラン
+…………ゥ、ゥ。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 1]
+[scene 10906 0]
+[charaTalk E]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace E 5]
+[charaFadein E 0 0]
+[fadein black 0.5]
+[wait fade]
+＠モードレッド
+でかい本、魔本ねえ。[r]オレの頃のブリテンにはいなかった類の怪物だな。
+[k]
+
+[charaFace A 7]
+＠マシュ
+あなたの生前のブリテンというと……[r]円卓の騎士の時代に、怪物が存在していたんですか？
+[k]
+
+[charaFace E 0]
+＠モードレッド
+そりゃあいたさ。[r]円卓の騎士ってのはドラゴンや巨人とも戦ったんだぜ。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+深い森や険しい山、突風の絶えない断崖。[r]人の立ち入らない領域ってのは恰好の幻想種の巣だ。
+[k]
+
+＠モードレッド
+たまに人里に降りたりもするけどな。[r]で、まあ、ただの人間じゃ大抵の場合は餌になる。
+[k]
+
+[charaFace A 4]
+＠マシュ
+餌、ですか。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+魔獣、幻獣、竜種が相手じゃ並の兵は戦うだけ無駄だ。[r]おまえらの時代の兵器でも大概は通用しない。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+ただし、例外はある。[r]ブリテンの場合は[line 3][#円卓の騎士:オレたち]だ。
+[k]
+
+＠モードレッド
+それなりに戦って、それなりの数を殺したぜ？[r]幻想種との戦闘ってのはなかなかこれで[line 3]
+[k]
+
+[charaFace E 5]
+＠モードレッド
+ああ、あとアレだ。アレ。[r]ピクト人。
+[k]
+
+[charaFace A 0]
+＠マシュ
+わたしたちの時代では謎に包まれた人々ですね。[r]かつて、スコットランドを中心に繁栄した部族だとか。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+いや、人々って言うかあれは……[r]うーん……
+[k]
+
+＠モードレッド
+アレは、もう、部族とか蛮族とか……[r]そういう次元のものじゃなかったような……
+[k]
+
+[charaFace E 0]
+＠モードレッド
+おまえらの時代風に言うとなんだろうなァ、[r]ＳＦ映画、とかに出て来そうな感じだったぞ？
+[k]
+
+[charaFace E 1]
+＠モードレッド
+エイリアン？[r]とか、そういう感じ。ああ、そういう感じだ。
+[k]
+
+？1：円卓ギャグ？
+
+？2：お、面白いねその冗談。
+
+？！
+
+[charaFace A 3]
+＠マシュ
+はい、先輩。わたしも冗談に聞こえます。[r]……はっ。
+[k]
+
+[charaFace A 8]
+＠マシュ
+モードレッドさん、その……[r]すみません。笑うタイミングを完全に外してしまって。
+[k]
+
+＠Dr.ロマン
+ううむ、これが円卓ジョークなのか。[r]そこでそう外してくるのか……ふむふむ、なるほど。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ……
+[k]
+
+[charaFace E 3]
+＠モードレッド
+冗談？　いや、オレ冗談なんて[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 5]
+＠モードレッド
+っと。敵だ。[r]この感じは[#自動人形:オートマタ]が多いな。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+…………戦闘ですね。マスター、指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

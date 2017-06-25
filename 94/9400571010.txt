@@ -1,0 +1,133 @@
+
+＄94-00-57-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 3025000 1 清姫]
+[charaSet F 6024000 1 スカサハ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+ザ・楽をしたいシリーズ第三弾ー！
+[k]
+
+
+[charaFace D 1]
+＠玉藻の前
+というわけで橋を作りましょう、マスター？
+[k]
+
+＠玉藻の前
+や、[#私:わたくし]達は基本的に大ジャンプで川とか崖とかひとっ飛び[r]なんですけど、マスターのためを思ってといいますかー。
+[k]
+
+
+？1：確かに、あると助かる
+？2：見えてるのに遠回りはめんどいからね
+？！
+
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠スカサハ
+まぁ……せっかく良い道ができたのだ。迂回していた場所[r]に橋をかければ、さらに効率も上がるだろうな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+日本には美しい橋がいくつもあります。[r]そのような木橋がよいのではないでしょうか？
+[k]
+
+[charaFace E 3]
+＠清姫
+美しい橋の上、しずしずと歩くわたくしとますたぁ……[r]触れ合う手……二人は見つめ合い、そして……ふふ……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+日本の橋ですか……美しいのは認めますが、[r]どうにも脆いイメージがありますね。
+[k]
+
+＠アルトリア
+やはりここは石をメインとした橋でいくのはどうかと。[r]石門と跳ね橋をセットにすれば防備も完璧です。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+おお、オレが言いそうなことを父上が……ムフ……。
+[k]
+
+[charaFace C 5]
+＠モードレッド
+い、いや違ェな！　暇を惜しんで叛逆！
+[k]
+
+[charaFace C 0]
+＠モードレッド
+そんなフツーの橋じゃ誰も納得しねぇよ。[r]またスカサハの技術を利用するときがきたぜ。
+[k]
+
+＠モードレッド
+発想の転換だ[line 2]橋じゃなくて、橋の役目をする別のモン[r]でもいいだろ。川とかが越えられりゃいいんだ。
+[k]
+
+[charaFace C 2]
+＠モードレッド
+つまり[line 2]ロープウェイだ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+…………。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+（フフ……オレの大胆な発想に言葉も出ねぇ[r]　みたいだな……！）
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

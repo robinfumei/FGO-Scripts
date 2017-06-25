@@ -1,0 +1,500 @@
+
+
+
+＄01-00-07-05-4-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 3027000 1 アナ]
+[charaSet E 3028001 1 ジャガーマン]
+[charaSet D 98024100 1 ウル市民]
+[charaSet F 98003000 1 Dr.ロマン]
+
+
+[se ad220]
+[seVolume ad220 0 0.05]
+[scene 32700]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ここが……ウル市……[r]規模的にはウルクとあまり変わりませんが……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠アナ
+……木々の侵食が市内にまで及んでいます。[r]気温はウルクより高いですが、まだ許容範囲です。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+大気中の魔力密度もウルクと同じだ。[r]そして、何より[line 3]
+[k]
+
+？1：人が、普通に生活してる……！？
+
+？！
+
+[seStop ad220 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。[#市:まち]の活気はウルクに及ぶべくもありませんが、[r]ウルの人たちは健在です！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マーリン
+少しばかり元気がなさそうだけどね。[r]これは話を聞いてみるしかないな。
+[k]
+
+＠マーリン
+失礼、そこのご婦人。[r]ここはウルで間違いないのかな？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ウル市民
+そうですが……貴方がたは？[r]河を越えてきたのですか？
+[k]
+
+[charaFace B 0]
+＠マーリン
+ええ、ウルクから来た者です。ギルガメッシュ王より、[r]森に飲まれたウルの調査を行うように、と。
+[k]
+
+＠ウル市民
+まあ、ウルクから。それは大変だったでしょう。[r]辿り着けたのは貴方たちだけですか？
+[k]
+
+＠ウル市民
+毒蛇に噛まれた方、蠍に刺された方がいらっしゃれば[r]よい医者を紹介いたしますよ。
+[k]
+
+＠マーリン
+それはご親切に。幸い怪我人はおりません。[r]今回はあくまで調査だったので少人数なのですよ。
+[k]
+
+＠マーリン
+皆さんが生きていると知っていたのなら、[r]王は大規模な救援隊を組織したでしょう。
+[k]
+
+＠ウル市民
+救援隊……そうでしたか。[r]申し訳ありません。わたしたちはウルクには避難しません。
+[k]
+
+＠ウル市民
+だって、ウルは安全です。[r]密林があるかぎり魔獣たちは入って来ない。
+[k]
+
+＠ウル市民
+森の女神の[#法:ルール]を守っているかぎり、[r]私たちは魔獣に食い殺される事はないのです。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.5]
+[wt 0.1]
+[messageOff]
+[wt 0.3]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaFadeout A 0.1]
+[bgm BGM_EVENT_5 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠アナ
+……そういえば……ティアマトの魔獣たちは、[r]密林にはいませんでした。
+[k]
+
+＠アナ
+……見ようによっては、[r]密林はウルの人たちを守っていると言えます。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+
+[charaFace B 0]
+＠マーリン
+[line 3]ふむ。では死傷者はいないのですね？[r][#河の間:メソポタミア]に比べてここは安全だと。
+[k]
+
+＠マーリン
+だからウルクに連絡は送らなかった。[r]ウルに閉じこもっていれば良いと考えたのですか？
+[k]
+
+[charaFace D 1]
+＠ウル市民
+まさか！[r]私たちもウルクへ応援を送ろうとしたのです！
+[k]
+
+＠ウル市民
+ですが……それは……
+[k]
+
+＠マーリン
+森の女神の[#法:ルール]とやらに抵触する。[r]なるほどなるほど、状況は分かりました。
+[k]
+
+＠マーリン
+貴方たちは安全であると同時に、ウルから出られない。[r]助けに来た者も、助けに行く者も、等しく森に殺される。
+[k]
+
+＠マーリン
+このまま何もしない事。[r]それがウルの自衛手段だったのですね。
+[k]
+
+[charaFace D 0]
+＠ウル市民
+……はい。[r]ご理解していただけて助かります。
+[k]
+
+＠マーリン
+ええ、分かりますとも。[r]無抵抗であれば生きながらえる。
+[k]
+
+＠マーリン
+それは[#諦:あきら]めた者の常套手段ですので。[r]それで、[#犠牲:いけにえ]に選ばれるのは何人？
+[k]
+
+＠マーリン
+やはり一日に一人程度ですか？
+[k]
+
+[charaFace D 1]
+＠ウル市民
+！　な、なにを仰っているのでしょう。[r]生贄なんて、そんな[line 3]
+[k]
+
+[charaFace B 1]
+＠マーリン
+見渡しただけで分かりますよ。[r]男の数が少なすぎる。
+[k]
+
+＠マーリン
+戦いのなかったこのウルで、それは不自然だ。[r]となれば、違う要因でいなくなったのは自明の理。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 1 1 0.7]
+＠ウル市民
+わ[line 3]わたしたちは悪くありません！[r]生贄は必要な対価です！
+[k]
+
+＠ウル市民
+みな納得の上、合意の上で選んだのです！
+[k]
+
+＠ウル市民
+一日に一度、エリドゥに生贄を一人差し出すだけでいい！[r]それであの悪魔は満足するのですから！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+な……！　そんな方法で[r]自分たちの命を守ってきたというのですか！？
+[k]
+
+＠マシュ
+戦う事もせず、ウルクに向かう事もせずに！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+[wt 1.0]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠ウル市民
+よそ者に何が分かりますかッ！
+[k]
+
+＠ウル市民
+アナタはあの怖ろしい女神を見ていないから、[r]そんな愚かな事を言えるのです……！
+[k]
+
+＠ウル市民
+ウルの市民が一丸になってもあの女神には敵わない！[r]話し合いも通じない！
+[k]
+
+＠ウル市民
+あれは森に棲む獣そのもの、[r]“食べて”“殺す”だけの怪物です！
+[k]
+
+[charaShake D 0.05 1 1 0]
+＠ウル市民
+わたしたちに出来る事なんて、[r]いつ自分の番になるか怯えて耐える事ぐらい……！
+[k]
+
+＠ウル市民
+もうメソポタミアのどこにも、[r]まともな世界などないのです……！
+[k]
+[messageOff]
+[charaFadeout D 0.4]
+[se ad59]
+[charaShakeStop D]
+[wt 1.5]
+[seStop ad59 1.0]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マーリン
+しまったな。マシュ嬢の気持ちも分かるけど、[r]あと数分だけ自重してほしかった。
+[k]
+
+＠マーリン
+ほら、まわりの市民たちも、後ろめたさから[r]我先にと家に逃げ込んでしまった。
+[k]
+
+＠マーリン
+こうなると我々は邪魔者だ。説得には時間がかかる。[r]もう少し情報を手に入れたかったのだけどね。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……すみません。
+[k]
+
+＠マシュ
+マーリンさんの予定も、先ほどの方の心境も考えず、[r]考えなしに話してしまって……
+[k]
+
+？1：考えなしなんかじゃなかった
+？2：自分も同じ気持ちだった
+
+？！
+
+＠マシュ
+……でも……あの方を傷つけてしまったのは確かです。[r]当事者の方たちが一番辛いのに、わたしは……
+[k]
+
+
+[bgmStop BGM_EVENT_5 0.7]
+
+[charaTalk E]
+
+＠E：？？？
+ハ[line 3][r]ははははははは、はははははははははははは！
+[k]
+
+[charaFace A 6]
+＠E：？？？
+その心配は必要ニャい！[r]なぜって、生贄を殺すとか時代遅れと怒られた！
+[k]
+
+＠E：？？？
+人類最強テストにあえなく落ちた戦士たちはみな、[r]エリドゥで強制労働を押しつけられている！
+[k]
+
+＠E：？？？
+だって食べてもぉ、私たちとはぁ、規格が違うしぃ？[r]勇者の心臓しかグルメな私は[#拝領:いただ]かニャい！
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+こ、この笑い声は……！
+[k]
+
+？1：何者だ、名を名乗れ！
+
+？！
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.1]
+[wipein rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+
+＠ジャガーマン
+ニャはははははははははは！
+[k]
+
+＠ジャガーマン
+あれは何だ！　空を見ろ！[r]青い空！　白い雲！　うん、それは普通ですよね。
+[k]
+
+＠ジャガーマン
+じゃなくて、鳥だ、飛行機だ、文明だ！[r]いや[line 3]あれこそは灼熱のジャガーマンッッッ！
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+[charaEffect E bit_talk_41]
+[charaFadein E 0.1 0,20]
+[charaMove E 1 0.1]
+[wait charaMove E]
+[se ad223]
+[bgm BGM_EVENT_3 0.1]
+[wt 1.0]
+
+[messageOff]
+
+[charaEffectStop E bit_talk_41]
+[wt 0.4]
+
+[charaTalk F]
+＠Dr.ロマン
+（ビタイチ飛んでない！）
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[se ad55]
+[charaTalk E]
+[wt 0.7]
+[seStop ad55 0.7]
+[wipein rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+
+＠ジャガーマン
+鳥が好き！　魚も好き！　人とか食べる！[r]ジャガーの戦士、ここにテレポテーショ[line 2]ン！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+（そして普通に走ってきました！）
+[k]
+
+？1：[line 6]（ゴクリ）
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ジャガーマン
+フフ……あまりにカッコイイ登場に声も出ないようニャ。[r]うろたえるな[&セニョール:セニョリータ]！
+[k]
+
+＠ジャガーマン
+貴様たちがウルの住人を叱るのは、まあいいです。[r]いい事です。コイツら気合い足らないし。
+[k]
+
+[charaFace E 5]
+＠ジャガーマン
+でも外に連れだそうというのなら許さニャい。[r]なぜってコイツらジャガーな私の非常食。
+[k]
+
+[charaFace E 4]
+＠ジャガーマン
+連れて行かれると今までの努力が台無しになるばかりか、[r]ククルんに私が泣かされるコトになるのです。
+[k]
+
+[charaFace E 0]
+＠ジャガーマン
+そんな訳でトットとお帰り願いましょう。[r]待ってね、いま格好いいタンカ聞かせるから。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[se ad7]
+
+[charaSet E 3028000 1 ジャガーマン]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ジャガーマン
+[line 3]そう。[r]ここは私たちの世界。螺旋描く蛇の大地。
+[k]
+
+＠ジャガーマン
+神の定義を弁えぬ人間よ、今は立ち去るがいい。[r]森の護りあるかぎり我ら太陽は無敵なり[line 3]
+[k]
+
+[charaFace E 2]
+＠ジャガーマン
+つまり何が言いたいかと言うと、[r]“お土産の一つも持ってきやがれ、ベランメェ！”
+[k]
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

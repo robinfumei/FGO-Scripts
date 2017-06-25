@@ -1,0 +1,404 @@
+＄01-00-04-03-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10956 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7004001 1 フラン]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 6007001 1 ジキル]
+[charaSet G 5014001 1 メフィストフェレス]
+[charaSet H 7004001 1 ？？？]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+＠メフィストフェレス
+実に、実に……口惜しい……！[r]今回の現界ではそれほど楽しめませんでしたね……。
+[k]
+
+＠メフィストフェレス
+やはり、マスターは必要なのでしょう……。[r]そう、マスターとサーヴァントとの絆の力が……。
+[k]
+
+＠メフィストフェレス
+どうこう……。[r]では、なくて。ええ、そうではなくて。
+[k]
+
+[charaFace G 0]
+＠メフィストフェレス
+切なる願いを叶えると決めたマスターに、[r]子供一人くらいは手に掛けさせなくては、ね。
+[k]
+
+[charaFace G 3]
+＠メフィストフェレス
+聖杯戦争の醍醐味を味わえないというもの。[r]ああ、貴方様が妬ましい……盾のサーヴァント……。
+[k]
+
+＠メフィストフェレス
+貴方は、これから先、幾度でも……。[r]マスターを裏切り、絶望へ落とす機会がある……！
+[k]
+
+[charaFace G 5]
+＠メフィストフェレス
+なんと……妬ましい……！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+[line 3]黙れ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[wt 0.5]
+[messageOff]
+[se bac4]
+[wait se bac4]
+[charaSpecialEffect G flashErasure 1 1.5]
+[wt 0.5]
+[se ba5]
+[wait charaSpecialEffect G flashErasure]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[wt 1]
+[scene 11010 0]
+[charaTalk E]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace E 0]
+[charaFadein E 0 0]
+[fadein black 0.5]
+[bgm BGM_EVENT_2 0.1]
+[wait fade]
+＠モードレッド
+……なにか見付かったか？
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい。博士の遺したメモが。[r]これを書いている最中に、襲われたようです。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+そっか。[r]最期まで締まらねえじいさんだったぜ。まったく。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……読み上げますね。
+[k]
+
+＠マシュ
+『私はひとつの計画の存在を突き止めた。[r]　名は「魔霧計画」。実態は、未だ不明なままだが』
+[k]
+
+＠マシュ
+『計画主導者は「Ｐ」「Ｂ」「Ｍ」の三名。[r]　いずれも人智を超えた魔術を操る、恐らくは英霊だ』
+[k]
+
+[charaFace E 5]
+＠モードレッド
+「Ｍ」ってのはさっきの奴か？[r]まあ、持って帰ってジキルにも読ませよう。
+[k]
+
+＠モードレッド
+で。だ。[r]オレもひとつ面白いものを見付けたぞ。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+おい、こっち来い。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：？？？
+……ゥ。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……女の子？
+[k]
+
+？1：ツノがあるね
+
+＠マシュ
+ありますね。ツノ……。
+[k]
+
+？2：人間かな？　サーヴァント？
+
+[charaFace A 0]
+＠マシュ
+どうでしょう。[r]それは、本人に尋ねてみるのが良いでしょうね。
+[k]
+
+？！
+
+[charaFace A 13]
+＠マシュ
+あなたは人間ですか？[r]それとも、わたしたちと同じサーヴァント？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠H：？？？
+……ゥゥ。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+?
+[k]
+
+＠Dr.ロマン
+んー、こちらでは判別できないな……[r]生体反応と動体反応までしか判らない。
+[k]
+
+＠Dr.ロマン
+魔霧による感知関係の影響は屋内にも及ぶようだ。[r]マシュはどうだい？
+[k]
+
+[charaFace A 4]
+＠マシュ
+わかりません、わたしにも。[r]モードレッドさんは、どうですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠モードレッド
+気配だけじゃなんとも言えないな。[r]ま、外の魔霧のせいだろ。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+で、こいつが何なのかって？[r]そんなのサーヴァントに決まってるだろ[line 3]
+[k]
+
+[charaFace E 3]
+＠モードレッド
+って言いたいとこなんだがな。[r]……オレの記憶じゃそのはずだったし……。
+[k]
+
+[charaFace E 1]
+＠モードレッド
+まあ、うん。[r]こいつは人造人間。らしい。
+[k]
+
+[charaFace A 6]
+＠マシュ
+人造、人間[line 3]ですか。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+奥の部屋の棺に入ってたんだけど。[r]説明書きがくっついてたんだよ。ええとな。
+[k]
+
+＠モードレッド
+祖父ヴィクター・フランケンシュタインの制作した[r]一体目の人造人間、だったかな。
+[k]
+
+＠Dr.ロマン
+フランケンシュタインの怪物、だね。[r]でも、小説に依れば最後は燃え尽きていたような？
+[k]
+
+＠Dr.ロマン
+ボクの声は聞こえるかな。[r]ええと、君は、フランケンシュタインの怪物かい？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：？？？
+……ゥゥ、ァ……ゥゥ……。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace A 0]
+[charaFace E 5]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+＠モードレッド
+ん？
+[k]
+
+[charaFace A 13]
+＠マシュ
+言語機能が備わっていないようですね。[r]でも、どことなくわかります。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：？？？
+……。[r]……。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFadein H 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+名前、でしょうか。[r]怪物[line 3]という呼称ではやっぱり嫌ですよね。
+[k]
+
+[charaFace H 5]
+＠H：？？？
+……ゥゥ。
+[k]
+
+？1：じゃあ、フラン、でどうかな？
+
+？！
+
+[charaFace H 1]
+＠H：？？？
+……ゥ……。
+[k]
+
+[charaFace A 1]
+＠マシュ
+あ、喜んでいるみたいです。[r]じゃあ、あなたはフランさん、ですね。
+[k]
+
+[charaFace D 1]
+[charaFadein D 0 0]
+[charaFadeout H 0.1]
+＠フラン
+……ゥ……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+あなたは人造人間……で合っていますか？
+[k]
+
+[charaFace D 0]
+＠フラン
+……ゥ、ゥ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+サーヴァントじゃない、か。[r]あー、成る程。[#生前]ってことなのか？
+[k]
+
+[charaFace E 1]
+＠モードレッド
+やっと合点がいったぜ。[r]そっか、そりゃあ見た目で分からない訳だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+?
+[k]
+
+[charaFace E 0]
+＠モードレッド
+いいや、こっちの話。
+[k]
+
+＠モードレッド
+ここに置いといても何だし、[r]取りあえず、ジキルのとこに連れて帰ろうぜ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠フラン
+……ゥ、ゥ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+お前の主人はもうここにはいない。[r]だから、まあ、お前は何処に行ってもいいんだ。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+取りあえずジキルのとこに置いてやる。[r]行くぞ。人造人間なら、魔霧の影響はないだろ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+そう……でしょうか。[r]そうとは限りません。危険な行為です。
+[k]
+
+＠モードレッド
+大丈夫だって、こいつ呼吸してねーもん。[r]な。フラン。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フラン
+……ゥ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠モードレッド
+ほらな。頷いてる。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

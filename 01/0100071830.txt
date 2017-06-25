@@ -1,0 +1,570 @@
+
+
+
+＄01-00-07-18-3-0
+
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5018001 1 ギルガメッシュ]
+[charaSet C 3028000 1 ジャガーマン]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[charaSet E 2020001 1 イシュタル]
+[charaSet F 98003000 1 Dr.ロマン]
+
+[scene 34800]
+[fadein black 2.0]
+[wait fade]
+
+[se ad1]
+[wt 0.4]
+[charaTalk B]
+[communicationChara 98108400 1 5 0 2]
+[wt 0.3]
+
+[bgm BGM_EVENT_40 0.1]
+＠ギルガメッシュ
+遅いわカルデアの！[r]そちらで何があったか、[#委細:いさい]要領よく報告するがよい！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ギ、ギルガメッシュ王！？
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationCharaLoop 98108400 1 5 0 2]
+[wt 0.7]
+
+？1：なにこれ、ドクターのパクリ！？
+
+[communicationCharaFace 2]
+＠ギルガメッシュ
+パクリではない、参考にしたのだ！[r]以前、何のために観測所まで足を運んだと思ったか！
+[k]
+
+＠ギルガメッシュ
+この時のために連絡装置を作っておいた[#我:オレ]の機転よ！
+[k]
+
+？2：透けてますぞ王！？
+
+[communicationCharaFace 5]
+＠ギルガメッシュ
+むう、やはりそう見えているか。
+[k]
+
+＠ギルガメッシュ
+カルデアの模倣ではつまらぬ、より完成度の高い[r]通信装置を作ったつもりだが、ええい腹立たしい！
+[k]
+
+[communicationCharaFace 1]
+＠ギルガメッシュ
+だが急造にしては合格点であろう！[r]魔術師としての[#我:オレ]の手腕、讃えても良い！
+[k]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[communicationCharaLoop 98107200 1 5 0 1]
+
+
+＠ジャガーマン
+うわ、なにそれ！　映ってる、映ってるニャー！[r]おーいククルん、私はここニャー！
+[k]
+
+[communicationCharaFace 0]
+＠ジャガーマン
+そっちはどうなってる？[r]こっちはもう大パニック！
+[k]
+
+＠ジャガーマン
+またもラフムどもの襲撃ときた！[r]だが今回は凄いぞ、わりとなんとかなってるニャ！
+[k]
+
+[communicationCharaFace 1]
+＠ジャガーマン
+王さま、城壁に例の弓矢を展開！[r]その数、なんと三百六十機なり！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[communicationCharaLoop 98108400 1 5 0 1]
+＠ギルガメッシュ
+当然だ。全方位に迎撃可能な数を用意したからな。[r]一時間程度であればラフムどもを押しとどめられよう。
+[k]
+
+[communicationCharaFace 2]
+＠ギルガメッシュ
+だが！　それ以上は兵士たちが持たぬ！[r][#我:オレ]の魔力もな！
+[k]
+
+＠ギルガメッシュ
+こちらの状況は以上だ！[r]そちらはどうなっている！
+[k]
+
+？1：できるだけ簡潔に状況を説明する
+？2：聖杯がティアマトに渡ってやばい
+
+？！
+
+[communicationCharaFace 4]
+＠ギルガメッシュ
+[line 6]
+[k]
+
+[communicationCharaFace 2]
+＠ギルガメッシュ
+ええい、何をしていたのだ、貴様ら！[r]エリドゥで何があった！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+ああもう、騒がないでギルガメッシュ！[r]いい？　キングゥの心臓が聖杯だったの！
+[k]
+
+＠ケツァル・コアトル
+ティアマト神は聖杯を動力源にする事で[r]エルキドゥの残骸を使っていたってコト！
+[k]
+
+＠ケツァル・コアトル
+そして、その聖杯をラフムたちが奪って、[r]ペルシア湾の中心まで運んで投げ込んでこの始末よ！
+[k]
+
+＠ケツァル・コアトル
+責任は私にあるわ！　私が悪いの！　それでいい？[r]それでいいわね？　はい、じゃあこの話は終わり！
+[k]
+
+＠ケツァル・コアトル
+それで、そちらに対策案はあるかしら！？[r]今なら何でもするわよ、私！
+[k]
+
+[charaFadeout D 0.1]
+
+
+
+[communicationCharaLoop 98108400 1 5 0 2]
+
+＠ギルガメッシュ
+そうか、話が早いなケツァル・コアトル！[r]では[#我:オレ]の所感を述べよう！
+[k]
+
+＠ギルガメッシュ
+まず一つ目！[r]前回の水質調査の結果が出た！
+[k]
+
+＠ギルガメッシュ
+黒く染まった海水はティアマト神の権能そのものだ！
+[k]
+
+[communicationCharaFace 5]
+＠ギルガメッシュ
+それは触れた生命体を侵食し、ティアマト神が持つ[r]権能を細胞に複写させ、眷属としてしまう。
+[k]
+
+＠ギルガメッシュ
+ラフムはティアマト神の泥から生まれたモノ、[r]泥の影響は受けぬだろうが、
+[k]
+
+＠ギルガメッシュ
+サーヴァントであれ人間であれ、その[#黒泥:こくでい]に[r]触れればティアマト神に取り込まれる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[communicationCharaLoop 98107200 1 5 0 2]
+
+＠ジャガーマン
+なるほど！　決して触れるべからず！！[r]触れるにしても、触れる面積を最小限にして魔力防御だニャ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad60]
+[seStop ad60 1.0]
+[wt 0.2]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.4 1]
+＠イシュタル
+その通りよ。母さん……ティアマト神の権能は[r]自己改造、個体増殖、生体融合と様々だけど、
+[k]
+
+＠イシュタル
+なにより強力なのが『[#細胞強制:アミノギアス]』。
+[k]
+
+＠イシュタル
+一度あの泥に取り込まれたら、[r]どんなサーヴァントでも[#黒化:こくか]するわ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 8]
+[charaFadein E 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+イシュタルさん！　来てくれたんですね！
+[k]
+
+[charaFace E 7]
+＠イシュタル
+ええ、遅くなってごめんなさい。[r]でも、エリドゥはなんとか持ち直したわ。
+[k]
+
+＠イシュタル
+市民たちはウルクにじゃなくて、[r]エリドゥのジグラットの地下に避難させた。
+[k]
+
+＠イシュタル
+あそこなら一日は籠城できる。[r]ラフムでもそう簡単には破壊できない。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[communicationCharaLoop 98108400 1 5 0 5]
+
+＠ギルガメッシュ
+黒化の泥、だと……？[r]ええい、見た覚えはないが不愉快極まる単語よ。
+[k]
+
+[communicationCharaFace 2]
+＠ギルガメッシュ
+まあよい、二つ目だ！　その観測所では水質の他、[r]水位、波の高さも測量している！
+[k]
+
+＠ギルガメッシュ
+現在、その水位に異常が見られる。貴様らが聖杯を[r]奪われた時点から、分単位で水位が増している！
+[k]
+
+＠ギルガメッシュ
+計算では三時間後にはその観測所は海に沈み、[r]黒海は波となって大地に浸食しよう。
+[k]
+
+＠ギルガメッシュ
+かつてメソポタミアを滅ぼした大洪水。[r]それ以上のものが起きようとしている。
+[k]
+
+＠ギルガメッシュ
+触れた生命を、怪物に書き換える黒い泥の海としてな！
+[k]
+
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そんな事になったらウルクは、[r]いや、人類史は終わりだ！
+[k]
+
+＠Dr.ロマン
+都市社会の基点、四大文明の一つメソポタミアが[r]怪物の世界になったら、人理定礎は完全に崩壊する！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 2]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+そんな事は絶対にさせません！[r]ドクター、対策をお願いします！
+[k]
+
+＠マシュ
+ありますか！？　ありますよね！？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……ある。あるけど……これは……
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[communicationCharaLoop 98108400 1 5 0 2]
+＠ギルガメッシュ
+構わぬ、申せ！[r]聞くだけは聞いてやろう！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああもう、分かった、言うよ！[r]たった今、ペルシア湾中心の海面に霊基反応を観測！
+[k]
+
+＠Dr.ロマン
+聖杯の反応であり、そして、その魔力量は[r]七つ分の聖杯を上回る、超々々級魔力炉心[line 3]
+[k]
+
+＠Dr.ロマン
+間違いなくメソポタミア世界を生み出した原初の魔獣、[r]ティアマトの[#霊基:もの]と推測される！
+[k]
+
+＠Dr.ロマン
+この異変、この海がティアマトの権能だと言うのなら、[r]ティアマト本体を倒すしか解決する道はない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+…………！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠イシュタル
+うわ、やっぱりこの大気の震え、母さんが[r][#海面:そと]に出てきた余波だったのね……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+………………。
+[k]
+
+[charaFadeout D 0.1]
+
+[communicationCharaLoop 98108400 1 5 0 3]
+
+＠ギルガメッシュ
+……確かに、本体を倒せば泥も治まるは道理。[r]だが、いけるのか？
+[k]
+
+＠ギルガメッシュ
+貴様が今まで降してきた魔神どもとは格が違う。[r]それでもやると言うのか、[%1]よ？
+[k]
+
+？1：[line 3]行きます！
+？2：みんな、手を貸し[&てくれ:て]！
+
+？！
+
+[communicationCharaFace 5]
+＠ギルガメッシュ
+よく言った。[r]であれば、[#我:オレ]もそのように動く。
+[k]
+
+＠ギルガメッシュ
+そちらに援軍は送れぬが、[r]そちらもウルクを気にかける必要はない。
+[k]
+
+[communicationCharaFace 2]
+＠ギルガメッシュ
+ティアマトの首、その姿！[r]見事取ってくるがよい！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+そうなると、脚は私の翼竜たちね。
+[k]
+
+＠ケツァル・コアトル
+どこかに空を飛ぶ黄金の船でもあったら[r]助かったのだけど、仕方ないか。
+[k]
+
+[charaFadeout D 0.1]
+
+[communicationCharaLoop 98108400 1 5 0 4]
+＠ギルガメッシュ
+む。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+翼竜に乗っての接近ですね。[r]……あの、先輩はここに残って指揮をとるべきかと。
+[k]
+
+＠マシュ
+戦闘時は海水に触れる危険性が出てきます。[r]それに……万が一、海に落ちでもしたら……
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationCharaLoop 98108400 1 5 0 5]
+＠ギルガメッシュ
+それはならん。[r]マスターなくしてサーヴァントに勝利があるか。
+[k]
+
+＠ギルガメッシュ
+マスターとの距離が離れれば、それだけ魔力提供の効率が[r]悪くなる。ここぞという時の令呪の支援もある。
+[k]
+
+＠ギルガメッシュ
+マシュよ。マスターの安全を最優先にする、という場面は[r]とうに過ぎたのだ。そうだな、[%1]？
+[k]
+
+？1：（無言で頷く）
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……その通りだ、マスター・[%1]。[r]危険を前提にして、キミを送り出す。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：（目を点にして王さまを見る）
+
+[communicationCharaFace 2]
+＠ギルガメッシュ
+とうに！　過ぎたのだ！[r]いまさら臆病風に吹かれるでない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？！
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠イシュタル
+決まりね。[%1]には[r]翼竜に縛り付けてでも付いてきてもらうとして、
+[k]
+
+[charaFace E 8]
+＠イシュタル
+問題は途中でラフムに襲われた場合よ。[r]私はともかく、他の面子はどうするの？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そこはジャガーマンが言っていた[#戦法:スタイル]しかない。[r]足に魔力障壁を張って、海水の上で戦うんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[communicationCharaLoop 98108400 1 5 0 0]
+
+＠ギルガメッシュ
+歴戦のサーヴァントであればその程度は出来るであろう。[r]マシュはどうか？　経験はあるか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[communicationCharaLoop 98108400 0 5 0 0]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+ありませんが、頑張ります！[r]でも、できればコツなどを伝授していただきたく！
+[k]
+
+[communicationCharaFace 1]
+＠ギルガメッシュ
+ふはは、そんな時間はないわたわけ。[r]だがその健気さに応えるのが王の器というもの。
+[k]
+
+＠ギルガメッシュ
+こんな事もあろうかと、その観測所には[r]水避けの呪具をこっそり隠しておいた。
+[k]
+
+＠ギルガメッシュ
+ア・メンボと言う。貴様ひとりであれば、[r]水に弾かれ、海中に落ちる事はないだろう。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+[messageShake 0.05 4 4 0.7]
+＠イシュタル
+アンタ、ほんとに便利ね！？[r]戦士より魔術師のが向いてるんじゃないの！？
+[k]
+
+[charaFadeout E 0.1]
+
+
+[communicationCharaLoop 98108400 1 5 0 0]
+＠ギルガメッシュ
+ハ。[#我:オレ]は何であろうと対応するわ。[r]ランサーだけは、まあ、話は別とするが。
+[k]
+
+[communicationCharaFace 2]
+＠ギルガメッシュ
+では行くがいい、カルデアの[%1]、[r]マシュ、そして三バカ女神同盟の残党ども！
+[k]
+
+＠ギルガメッシュ
+敵は原初の獣ティアマト神[line 3][r]ラフムどもを生み出す、魔獣たちの根源だ！
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[bgmStop BGM_EVENT_40 0.7]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[communicationCharaClear]
+[wait communicationChara]
+
+[fadeout black 0.1]
+[wait fade]
+[wipein leftToRight 0.1 1]
+[wait wipe]
+[wt 0.4]
+[soundStopAll]
+[end]

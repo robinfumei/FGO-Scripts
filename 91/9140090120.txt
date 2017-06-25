@@ -1,0 +1,160 @@
+＄91-40-09-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4009201 2 アン]
+[charaSet E 4009101 2 メアリー]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[fadein black 1]
+[scene 20800]
+[wait fade]
+＠メアリー
+おしまいっと。[r]うーん、ねえマスター。
+[k]
+
+＠メアリー
+ちょっと可哀想だから……。[r]埋めてあげたいんだけど、いいかな？
+[k]
+
+？1：いいよ
+
+？2：当然だ
+
+？！
+
+[charaFace E 1]
+＠メアリー
+ありがとう、マスター。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+[charaFace D 1]
+＠アン
+優しいですのね、あなたは。[r]さ、メアリー。手伝うわ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 2]
+[charaFace A 13]
+＠マシュ
+わたしも手伝います。
+[k]
+
+＠メアリー
+うん。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[messageOff]
+[fadeout black 0.8]
+[wait fade]
+[wt 0.3]
+[se ab54]
+[wt 0.8]
+[se ab54]
+[wt 0.3]
+[fadein black 0.8]
+[wait fade]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠アン
+[line 2]それでは僭越ながら、わたくしが。
+[k]
+
+[charaFace D 4]
+＠アン
+天の聖人は来たりて彼を助け、主天使は出でて彼を迎え、[r]彼の霊魂を受け取り、高きところにまします天に捧げ[line 2]
+[k]
+
+＠アン
+我らを哀れみ、我らを救い給え。[r]……アーメン。
+[k]
+
+[wt 0.4]
+[charaFadeout D 0.1]
+[fadeout black 0.8]
+[wait fade]
+[fadein black 0.8]
+[wait fade]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠メアリー
+ありがとう。手間取らせちゃったね。[r]大抵の海賊なんて、海に投げ棄てられるものだから。
+[k]
+
+＠メアリー
+たまには、こういう風に誰かに祈られるのも[r]悪くはないかなって思ったんだ。
+[k]
+
+[charaFace E 1]
+＠メアリー
+さ、行こう！
+[k]
+
+[charaFadeout E 0.1]
+[messageOff]
+[wipeout RightToleft 1 1]
+[wait wipe]
+[scene 20700]
+[wipein leftToRight 1 1]
+[wait wipe]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠メアリー
+この荒野を行くと、山の麓に洞窟があってね。[r]そこに財宝があるはず。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+＠アン
+そんな簡単なのに、今までよく見つからなかったわね。[r]あの海賊たちだって、あと一歩のところだったのに。
+[k]
+
+[charaFace E 0]
+＠メアリー
+うーん、それは多分[line 2]。
+[k]
+
+＠メアリー
+ああいうのが跳梁跋扈しているせいじゃないかな、と。
+[k]
+
+[bgmStop BGM_EVENT_4 0.1]
+[wt 0.3]
+[se ad21]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 1]
+＠アン
+うふふ、メアリー。[r]そーゆーことは、予め言っておいてね。
+[k]
+
+[charaFace 4 1]
+＠メアリー
+うん、ごめんね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+せ、戦闘準備します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

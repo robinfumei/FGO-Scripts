@@ -1,0 +1,415 @@
+＄91-30-02-01-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 3011001 1 フィン]
+[charaSet F 98006200 1 エネミー]
+
+[scene 10400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+？1：いいこ、いいこ
+？2：背中さすさす
+？！
+
+＠フォウ
+フォーウ……。[r]（ごろごろ）
+[k]
+
+[wt 0.4]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、[r]ディルムッドさんからお話があるようですよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠ディルムッド
+マスター、謁見の許可を戴き感謝します。[r]それにしても、この軍は素晴らしい。
+[k]
+
+？1：素晴らしいって何が？
+？2：何の話？
+
+？！
+
+[charaFace D 1]
+＠ディルムッド
+私の顔を見ても、何も言わないことです。[r]今までは歩く事だけにも気を遣いましたから。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+あ。[r]なるほど、ディルムッドさんの黒子ですね。
+[k]
+
+[charaFace D 4]
+＠ディルムッド
+ええ。愛というよりは呪いのようなものです。[r]この黒子のせいで、酷い目に遭い続けた。
+[k]
+
+＠ディルムッド
+……いえ、それでも後悔していない愛もあるには[r]あるのですが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ディルムッド
+失礼、話が逸れました。[r]マスター、お話というのは宝具についてです。
+[k]
+
+＠ディルムッド
+現在、私の宝具は『[#破魔の紅薔薇:ゲイ・ジャルグ]』と『[#必滅の黄薔薇:ゲイ・ボウ]』を[r]使用しているのですが[line 2]。
+[k]
+
+[charaFace D 5]
+＠ディルムッド
+二つの宝具を利用しているせいか、[r]どちらも真価を発揮していない。
+[k]
+
+＠ディルムッド
+言うなれば封印された状態なのです。
+[k]
+
+[charaFace D 4]
+＠ディルムッド
+これをどうにかして解放できれば、[r]一層のことお役に立てると思ったのですが[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+宝具が満足に使えなくて辛い、というお気持ちは[r]痛いほど分かります。
+[k]
+
+[charaFace A 13]
+＠マシュ
+ドクターに手掛かりがないか調査してもらいましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 1.0]
+[scene 10204]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.4 1]
+＠Dr.ロマン
+ふむ、宝具が封印された状態か……。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+大抵はその英霊が生きていた時代に[r]何かしらの手掛かりがあるものだけど[line 2]
+[k]
+
+[wt 0.4]
+[se ad15]
+[wait se ad15]
+[wt 1.0]
+
+＠Dr.ロマン
+うーん。特に反応はないなあ。
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+元々ディルムッドが生きていた時代は相当に古いから、[r]辿りきれないのかもしれないが……。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+いずれにせよ、その宝具はむしろ君自身によって[r]封印されている可能性もある。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+どういうことですか？
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+召喚の際の不具合か、はたまた無意識に[r]サーヴァントが自分自身を縛り付けているのか[line 2]。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+どうだろう。もし宝具を解放したいのであれば、[r]彼の心にダイブしてみるのは。危険だけどね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+危険……なのですか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+何人かのサーヴァントと、マスターである[&彼:彼女]も[r]同行する必要があるからね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+……。[r]……。
+[k]
+
+[wt 0.7]
+
+[charaFace D 5]
+＠ディルムッド
+主を危険に晒す訳にはいきません。[r]この話は辞退させていただきます。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+だ、そうだけど。[r][%1][&君:ちゃん]はどうしたいのかな？
+[k]
+
+？1：探しに向かうべき。きっと大切なものだ
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ディルムッド
+おお、主よ……！　これほどの心遣いを向けてくれる[r]主君に出会えるとは、身に余る幸運か……！
+[k]
+
+？2：ディルムッさんのいいところを見てみたい
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+そう言っていただけるのは嬉しいのですが……[r]その、ディルムッさんというのは……
+[k]
+
+[charaFace D 3]
+＠ディルムッド
+少々、照れくさいです。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+よし。それじゃあ、早速準備しよう。
+[k]
+
+[wt 0.7]
+
+[bgmStop BGM_EVENT_2 0.1]
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+[wt 2.0]
+
+[charaSet A 8001001 1 マシュ]
+
+[wt 1.5]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[fadein white 2.0]
+[wait fade]
+
+[wt 0.4]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠ディルムッド
+ここが俺の心[line 2]なのか。
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+心象風景というやつだね。ディルムッド、[r]君が先導して宝具に関する手掛かりを探すんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ディルムッド
+了解しました。[r]ではマスター、早速ですが行きましょう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+行く宛は何かあるのでしょうか？
+[k]
+
+[charaFace D 4]
+＠ディルムッド
+もちろん。この風景はよく知っている。[r]近くに森があり、昔はそこでよく狩りをしていた。
+[k]
+
+＠ディルムッド
+……彼女と共に走り抜けた場所でもある。
+[k]
+
+[charaFace A 6]
+＠マシュ
+彼女、というともしかして[line 2]。
+[k]
+
+[charaFace D 0]
+＠ディルムッド
+ああ、君の想像している通り。[r]グラニア……かつて、愛した女だ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 20300]
+[bgm BGM_EVENT_5 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ディルムッド
+……胡散臭い気配が幾つかあるな。[r]これがサーヴァントと共に向かえ、と言っていた理由か。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、用心を。[r]エネミーが存在するようです。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace A 2]
+＠マシュ
+……来ます！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[wt 0.4]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.4]
+[se ad21]
+[wt 1.5]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ディルムッド
+なるほど。言うなれば白血球[line 2]俺の心象風景の[r][#護人:もりびと]のようなものか。
+[k]
+
+[charaFace D 5]
+＠ディルムッド
+倒すのは些か申し訳ないが、仕方あるまい。[r]推して参る、行くぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]

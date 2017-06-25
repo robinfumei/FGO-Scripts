@@ -1,0 +1,164 @@
+＄94-00-61-62-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 9004000 1 マルタ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 7008001 1 ベオウルフ]
+[charaSet F 98101200 1 うりぼう]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[scene 20523]
+[fadein black 2.0]
+[wait fade]
+
+＠ベオウルフ
+かははははっ！　さすがだな！[r]うりぼう達が[#鉄拳の女神:アイアン・ビューティ]として崇めるのも無理ないってもんよ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+ちょ！？[r]その不名誉な称号は一体どこから！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+人質となっているうりぼうからだ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+何ですって、人質！？[r]卑怯な真似を…………ッ！！[se bac3]（ギリィ）
+[k]
+
+[wait se bac3]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠うりぼう
+おー。
+[k]
+
+＠うりぼう
+お助け下さい！[r]で、ありまーす！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠マシュ
+……うりぼうさんが絡むと、[r]どうしても緊張感が……。
+[k]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+おっと勘違いするなよ！
+[k]
+
+[charaFace E 0]
+＠ベオウルフ
+コイツは単に迷っていたところを保護してやっただけで、[r]傷一つつけちゃいねえからな！
+[k]
+
+[charaFace E 1]
+＠ベオウルフ
+そこらへん、俺の紳士っぷりは知ってるだろうが、[r]アンタたちもよ！
+[k]
+
+[charaFace E 4]
+＠ベオウルフ
+え、知らない？[r]あ、そう。
+[k]
+
+[charaFace E 0]
+＠ベオウルフ
+……ま、いいや。[r]それじゃ、俺の出番ってとこか！
+[k]
+
+[charaFace E 5]
+＠ベオウルフ
+生憎と手加減する余裕はねえ、[r]最初から[#全力で行くぜ:フルスロットルだ]……！
+[k]
+
+[charaFace E 2]
+＠ベオウルフ
+魔猪ども！[r]歌え！　凱歌だ！　凱歌を歌え！
+[k]
+
+[charaFadeout E 0.1]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.5]
+[wt 0.5]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[bgm BGM_EVENT_4 0.1]
+
+＠マルタ
+上等じゃないの！
+[k]
+
+＠マルタ
+そっちがフルスロットルなら、こっちはスイッチを[r]入れるわよ！
+[k]
+
+[effect bit_talk_06]
+[se bac41]
+[wt 0.3]
+[effectStop bit_talk_06]
+[wt 0.5]
+
+＠マルタ
+ブッ飛ばしてやるわ！[r]ホアチャーッッ！！
+[k]
+
+？1：怪鳥音！！
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,386 @@
+
+＄01-00-05-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5016001 1 ジェロニモ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 98022000 1 兵士]
+
+[scene 11210]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+おはようございます先輩。[r]目が覚めましたか？
+[k]
+
+？1：おはよう、マシュ。
+
+[charaFace A 1]
+＠マシュ
+はい、きっかり三時間の仮眠でした。[r]休める時に休む、の精神です。
+[k]
+
+？2：ここは……？
+
+＠マシュ
+長い移動になるので仮眠していろ、と[r]ジェロニモさんは言っていましたが……
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+安心しろ。西部の小さな街だ。[r]既にケルトの猛攻のせいか住人は避難している。
+[k]
+
+＠ジェロニモ
+今いるのは、[r]我々がこの地で引き入れた同胞たちだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠兵士
+ジェロニモか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+彼は無事か？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠兵士
+サーヴァントの生命力は凄まじいな。[r]無事とは言い難いが、かろうじて呼吸はしている。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+サーヴァントがいるんですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠ジェロニモ
+ああ、実は三騎目のサーヴァントを[r]ここに匿っていてね。
+[k]
+
+＠ジェロニモ
+君たちを助けたのは、協力して欲しいのも無論だが、[r]何より彼を治療したいためだ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+つまり私の出番、ということでよろしいですね。[r]いえ、出番であろうがなかろうが[line 2]。
+[k]
+
+＠ナイチンゲール
+治療を求める患者がいるのならば、[r]私は出向きます。
+[k]
+
+＠ジェロニモ
+ああ、頼む。[r]君の治療があれば、何とかなるかもしれない。
+[k]
+
+[charaFace C 2]
+＠ジェロニモ
+よし、彼を運んできてくれ！
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 3]
+[bgmStop BGM_EVENT_2 1.0]
+[wait wipe]
+[wt 1.0]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[bgm BGM_EVENT_5 0.1]
+[wipein leftToRight 1.0 3]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+＠D：？？？
+ぐっ……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……酷い……！
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+心臓が半ば抉られているじゃないか……！？[r]よく生きていられるな、彼！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠D：？？？
+まあ……頑丈なのが……取り柄だからな……。[r]ぐっ……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+[line 2]こんな傷は初めてです。[r]ですが、見捨てることはしません。
+[k]
+
+＠ナイチンゲール
+安心しなさい、少年。[r]地獄に落ちても引き摺り出して見せます。
+[k]
+
+[charaFace D 1]
+＠D：？？？
+くく……それは、安心できそうだ……！
+[k]
+
+[charaFace D 2]
+＠D：？？？
+あ、イタタタタ！[r]き、貴様もうちょっと手加減できんのか！？
+[k]
+
+＠D：？？？
+余は心臓を潰されているのだぞ！
+[k]
+
+＠ナイチンゲール
+心臓を砕かれて喋っている君の方が驚愕です。
+[k]
+
+＠ナイチンゲール
+ともかく治療します。[r]まず、心臓の機能がほぼ停止しかかっています。
+[k]
+
+＠ナイチンゲール
+これでは全身に血を巡らせることができません。[r]……切断しましょう。
+[k]
+
+＠ナイチンゲール
+両手両足、できれば肺以外全て摘出する感じで。
+[k]
+
+＠D：？？？
+ま、待て待て待て！[r]切断せずに、心臓の修復のみに注力して貰いたい！
+[k]
+
+＠D：？？？
+余はここで戦う術を失う訳にはいかんのだ！
+[k]
+
+＠ナイチンゲール
+何を言います。[r]生きること以上の喜びなど、存在しません！
+[k]
+
+＠ナイチンゲール
+貴方はこの大地に根を下ろした一個の生命体として、[r]どうなろうと生き続ける義務がある！
+[k]
+
+[charaFace D 4]
+＠D：？？？
+そ、そんなこと言われてもだな！？
+[k]
+
+[charaFace B 7]
+＠ナイチンゲール
+大丈夫です。[r]必ず治療します……必ず！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……それで、こちらの方は？[r]この国出身のサーヴァントではなさそうですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠D：？？？
+よ、余のことか！？[r]余はラーマ！　コサラの偉大なる王である！
+[k]
+
+[charaFace D 2]
+＠ラーマ
+詳しくは……あいだだだだ！[r]『ラーマーヤナ』を読め、以上だ！
+[k]
+
+＠ラーマ
+ああ、くそ。ホントに痛いぞ！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+……悔しい。[r]悔しい、悔しい、悔しい、悔しい……！！
+[k]
+
+＠ナイチンゲール
+追いかける死の速度を鈍くはできても、[r]止めることはできないの……！？
+[k]
+
+＠ナイチンゲール
+いいえ、諦めはしません。この肉体が[r]生きているかぎり、私は己の役割を果たすのです！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ああ、ナイチンゲールさん、お手柔らかに！[r]一体、誰と戦えばこんな深手を……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ラーマ
+仕方あるまい……何しろ相手は……クー・フーリン。[r]アイルランド最強の英雄だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+クー・フーリン……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うぁぁ……いるよなあ、ケルトの戦士たちが相手[r]なんだから、絶対に居るよなあ……。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+クー・フーリン。[r]光の御子と呼ばれたアイルランド屈指の大英雄。
+[k]
+
+＠Dr.ロマン
+彼の持つ槍ゲイ・ボルクは、[r]狙えば必ず心臓を穿つという。
+[k]
+
+＠Dr.ロマン
+……ラーマーヤナの[#主人公:ヒーロー]である彼でも、[r]回避するのは難しいか。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……というか、生きているのが奇跡的だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+戦線の維持も大切だが、ラーマの治癒も優先したい。
+[k]
+
+＠ジェロニモ
+そこで、兵士の治療に専念するサーヴァントがいると[r]聞いてここまで来てもらったのだが[line 3]む？
+[k]
+
+[charaTalk A]
+[bgmStop BGM_EVENT_5 0.1]
+[se ad19]
+[wait se ad19]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+この声……空ですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+ちっ、斥候か。[r]一匹残らず殲滅させるぞ。
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

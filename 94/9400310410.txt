@@ -1,0 +1,82 @@
+＄94-00-31-04-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 98065000 1 エルメロイ]
+
+[scene 25800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+
+＠Dr.ロマン
+ちょっと待った！　付近に魔力反応……[r]明らかに人間のものじゃないのがそっちに向かっている！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[seLoop ad46]
+[wt 1.0]
+[seStop ad46 1.0]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+こちらも視認しました。何でしょうあの怪物は……[r]見るからに、その、勘弁してほしい造形ですが……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+キャスターが召喚した海魔どもの断片だな。
+[k]
+
+＠エルメロイ
+この聖杯戦争に参加したキャスターは[r]完全に理性を失っている。
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+戦略も何も度外視で、でたらめに使い魔を召喚し、[r]無辜の市民を餌食にしていた厄介者だ。
+[k]
+
+？1：放っておけない
+？2：やっつけよう！
+
+？！
+
+[charaFace D 4]
+＠エルメロイ
+放置しても我々の害にはならないが……。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+こんな裏路地とはいえ、[r]何も知らない一般人が迷い込んできたら大惨事だ。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+一手間かけて駆除していこうか。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

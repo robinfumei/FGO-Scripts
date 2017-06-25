@@ -1,0 +1,250 @@
+＄94-00-61-62-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 9004000 1 マルタ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 7008001 1 ベオウルフ]
+[charaSet F 98101200 1 うりぼう]
+[charaSet G 6001002 1 小次郎]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[scene 20523]
+
+[charaBackEffect D bit_talk_41_black_out]
+[fadein black 1.0]
+[wait fade]
+
+＠マルタ
+うっりゃああああああああああああ！！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+ぬおおおおおおおおおおおおおおお！！
+[k]
+
+[messageOff]
+[charaPut D 1200,1200]
+[charaBackEffectStop D bit_talk_41_black_out]
+
+[effect bit_talk_41]
+
+[charaTalk off]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+
+[bgmStop BGM_EVENT_3 0.1]
+[se bac11]
+[charaShake B 0.05 3 3 0.5]
+[charaEffect B bit_talk_13]
+[charaShake E 0.05 3 3 0.5]
+[charaEffect E bit_talk_13]
+[wt 1.0]
+[effectStop bit_talk_41]
+[wt 0.5]
+
+[charaTalk on]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[se ad60]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.5]
+[seStop ad60]
+[wt 0.5]
+[charaFace E 1]
+[wt 1.0]
+[se ad144]
+[charaFadeout E 0.4]
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+クロスカウンター……！[r]打ち負けたのは……ベオウルフさんの方です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+ガッ……！[r]き、効いたぜ……アイアン・ビューティ……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+その二つ名みたいなの止めてね！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+しょうがねえか……力で上回られたんだ……。
+[k]
+
+[charaFace E 1]
+＠ベオウルフ
+最後に貴様のような強者と戦うことができて、[r]俺の人生に悔いは無い……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+は、負けたくせに何言ってんのよ。[r]死ぬとか許さないし？
+[k]
+
+＠マルタ
+アンタはこの街を頑張って建て直すの。[r]復興させるの。
+[k]
+
+＠マルタ
+死ぬ気で。[r]拒否したら受諾するまでとっちめるから！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+……参ったね。[r]どうやら俺の完敗らしい。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠小次郎
+いやいや、どうやら八方丸く収まったようだな。[r]さすがはマルタ殿。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+
+[charaFace B 0]
+[charaFadein B 0.1 2]
+
+＠うりぼう
+女神様！（ぽてぽて）
+[k]
+
+＠マルタ
+良かった、無事？
+[k]
+
+＠うりぼう
+うりぼう、感動したであります。[r]見習いたいであります！
+[k]
+
+[charaFace B 4]
+＠マルタ
+そう。でも危ないから真似しちゃダメよ？
+[k]
+
+[charaFace F 1]
+＠うりぼう
+という訳で記念にでありますね、[r]ここにドーンと巨大な拳オブジェを建造したいでありますが。
+[k]
+
+[charaFace B 5]
+＠マルタ
+ダメよ。[r]絶対ダメよ。
+[k]
+
+[charaFace F 2]
+＠うりぼう
+残念無念でありますー。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……ともかく、街は無事に解放されました。[r]さあ、開拓を続けましょう！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+
+[charaFace F 1]
+[charaFadein F 0.1 0]
+
+＠マルタ
+いい？　拳オブジェとか絶対にノーよ！？
+[k]
+
+＠うりぼう
+わかってるでありますぅー。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace A 8]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠フォウ
+フォウ……。
+[k]
+
+＠マシュ
+（絶対に作っちゃいそうだけど、[r]　話が進まなくなるので黙っておこう……）
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

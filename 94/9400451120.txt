@@ -1,0 +1,740 @@
+
+＄94-00-45-11-2-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 4014001 1 牛若丸]
+[charaSet D 6019000 1 風魔小太郎]
+[charaSet E 4023001 1 坂田金時]
+[charaSet F 6021001 1 酒呑童子]
+[charaSet G 7022001 1 茨木童子]
+[charaSet H 98076000 1 弁慶]
+
+
+[scene 27910]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+くっ……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+あの体格で、これほどの威力とは……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠酒呑童子
+ええわぁ。なんでやろねぇ？[r]いつもの殺し合いより滾ってくるわぁ……。
+[k]
+
+＠酒呑童子
+マスターの差なんかなあ？[r][&坊:お嬢]の采配、うちも聞いてみたいわぁ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+おう、羨ましいかい酔っ払い！
+[k]
+
+＠坂田金時
+さっきはああ言ったが、今からでも改心するか？[r]テメェは鬼だが、マスター付きなら話は別だ！
+[k]
+
+
+
+＠坂田金時
+なにしろ令呪の縛りがあるからなぁ！[r]裏切るもクソもねぇ！
+[k]
+
+＠坂田金時
+もっとも、テメェのひん曲がった性根じゃあ、[r]うちの大将に頼られもしねえだろうけど、よォ！
+[k]
+
+
+[messageOff]
+
+[se ad61]
+[seStop ad61 3.0]
+[backEffect bit_talk_lightning_02g]
+[wt 1]
+[charaEffect E bit_talk_36]
+[se ad62]
+[seStop ad62 3.0]
+
+
+
+[messageOff]
+
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[wait flash]
+[seStop ad62 0.1]
+
+[charaFadeout E 0.1]
+
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+[fadeout white 0.5]
+[se ad63]
+[charaEffectStop E bit_talk_36]
+[backEffectStop bit_talk_lightning_02g]
+
+[wait effect]
+[wait fade]
+
+[se ad7]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaFadein F 0.1 0]
+
+
+[fadein white 0.5]
+
+[wait fade]
+
+
+
+
+[wt 0.5]
+
+
+
+[charaTalk F]
+
+＠酒呑童子
+ちょい、危ないやんか！[r]うちの営業、邪魔しないでほしいわぁ！
+[k]
+
+[se ad59]
+[seStop ad59 0.2]
+[charaMove F 1 0.2]
+[charaFace F 1]
+
+＠酒呑童子
+それとも嫉妬やろか？[r]それならまあ、悪い気はしまへんなあ。
+[k]
+
+＠酒呑童子
+だいじょうぶ、小僧のことも忘れとりゃしまへんえ。[r]小僧の想いも、よーさん受け止めたるさかいなぁ……。
+[k]
+
+[charaFace F 0]
+
+＠酒呑童子
+ああ、楽しい、楽しいわぁ。
+[k]
+
+＠酒呑童子
+ええ男たちと、[charaFace F 1]ふかく、ふかーく、[r]お互いの肉をぶつけあう……
+[k]
+
+＠酒呑童子
+天上の美酒の如く、やなぁ。[r]いつまでも溺れたいと思うほど、酔うてまうわ……。
+[k]
+
+
+[messageOff]
+[wipeout rightToLeft 0.6 1.0]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[wipein leftToRight 0.6 1.0]
+[wait wipe]
+
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+くはは、どうした、武者！[r]足が幼子のようにふらついておるぞ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+
+[charaFace H 2]
+[charaFadein H 0.1 0]
+
+＠牛若丸
+ちいっ……。
+[k]
+
+[charaTalk H]
+
+＠弁慶
+お下がりくだされ義経様！
+[k]
+
+[charaTalk C]
+[charaFace C 2]
+
+＠牛若丸
+なんの、まだ、まだっ……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+くく。くはは。わかる、わかるぞ。[r][#汝:なれ]の太刀筋と匂いでな。
+[k]
+
+[charaFace G 0]
+
+＠茨木童子
+貴様[line 3]源だな？
+[k]
+
+[charaTalk C]
+
+＠牛若丸
+……であれば何だ、鬼。
+[k]
+
+[charaTalk G]
+[charaFace G 1]
+
+＠茨木童子
+くく、くくく、くくくくく！[r]ああ、そうさな、楽しくなってきたとも、酒呑！
+[k]
+
+＠茨木童子
+そこの坂田金時は言うまでもなく[line 2][r][#吾:われ]ら、源には幾つも貸しがある。
+[k]
+
+＠茨木童子
+良い機会だ、まとめて返してもらうとしよう。[r]その貧相な体で払いきれるものでもないがなァ！
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+まずい、宝具を使う気だ！
+[k]
+
+[charaTalk A]
+
+＠マシュ
+牛若丸さんには、[r]疲労でいつもの素早さがありません！
+[k]
+
+
+[bgm BGM_EVENT_3 0.1]
+
+＠茨木童子
+我が炎熱の拳の十連撃、避けられるか？[r]十を数えて骨となれ[line 3]大江山大炎起！
+[k]
+
+
+[charaFadeout G 0.1]
+
+[messageOff]
+
+[charaFace C 5]
+[charaFadein C 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+
+[effect bit_talk_29]
+[se bac27]
+
+
+[wt 0.3]
+
+[effect bit_talk_29]
+[se bac27]
+
+[wt 0.3]
+
+
+[charaTalk H]
+[charaFace H 2]
+
+
+＠弁慶
+義経様、[se ad73][charaMove H 1 0.2][wt 0.2]ご無礼！
+[k]
+
+[charaTalk C]
+
+＠牛若丸
+っ……！
+[k]
+
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+
+＠茨木童子
+忠義、見事！[r]だが、ここからが本番よ！
+[k]
+
+[se ad11]
+
+[effect bit_talk_gouka]
+
+＠茨木童子
+ひと　ふた　み　よ　いつ[line 2]！
+[k]
+
+
+[effect bit_talk_29]
+[se bac27]
+
+[effectStop bit_talk_gouka]
+
+
+[wt 0.5]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[effect bit_talk_32 0,0]
+[effect bit_talk_32 -200,0]
+[effect bit_talk_32 200,0]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠弁慶
+ぐっ、お、がッ……！
+[k]
+
+[charaTalk C]
+
+＠牛若丸
+弁慶、何をしている弁慶、退くのだ！
+[k]
+
+＠牛若丸
+私はまだ動ける！[r]私の前で仁王立ちなどする必要はないぞ！
+[k]
+
+[charaTalk H]
+
+[se ad11]
+
+[effect bit_talk_29 0,0]
+
+＠茨木童子
+む　なな　や……！
+[k]
+
+[effect bit_talk_29]
+[se bac27]
+
+[charaTalk H]
+[charaFace H 4]
+
+＠弁慶
+っ、ぐふっ、南無……！
+[k]
+
+
+[charaTalk A]
+
+＠マシュ
+マスター！[r]あのままでは弁慶さんが……！
+[k]
+
+[seStop ad11 0.3]
+
+[effectStop bit_talk_32]
+
+[wt 0.3]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+弁慶……この、この[line 2]
+[k]
+
+[charaFace C 2]
+
+＠牛若丸
+この、愚か者がぁぁぁッ！
+[k]
+
+[charaTalk A]
+
+＠マシュ
+……！？
+[k]
+
+[charaTalk C]
+
+＠牛若丸
+ああそうだ、愚か者め！[r]貴様がここで立ち往生してどうする！
+[k]
+
+＠牛若丸
+貴様の願いは、[r]武蔵坊の勇名を永遠のものとする事であって[line 2]
+[k]
+
+＠牛若丸
+[#貴様が弁慶として死にたい訳ではあるまいに]！
+[k]
+
+
+
+
+
+[charaTalk H]
+
+＠弁慶
+……ッ[line 2]！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[se ad11]
+
+[effect bit_talk_gouka]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+仕舞いよ[line 2]ここの　たり！
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+[seStop ad11 0.1]
+
+[effectStop bit_talk_gouka 0.1]
+
+[effect bit_talk_29 -300,0]
+[effect bit_talk_29 300,0]
+[se bac27]
+
+[wt 0.7]
+
+[effect bit_talk_32 -200,0]
+[effect bit_talk_32 200,0]
+
+[charaFadeout G 0.1]
+
+
+
+[messageOff]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+[se ad7]
+
+[seStop ad11 0.1]
+
+[se ad7]
+
+[charaMove C 120,0 0.2]
+[wt 0.2]
+
+[se ad7]
+
+[charaMove C -120,0 0.2]
+[wt 0.2]
+
+[se ad7]
+
+[charaFadeout C 0.4]
+[wt 0.3]
+
+
+[charaTalk C]
+[charaFadein C 0.1 0,20]
+
+[se bac5]
+[charaMove C 0,-80 0.2]
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[capture]
+[specialEffect cutting]
+
+[wait se bac5]
+
+[effectStop bit_talk_32 0.1]
+
+[wt 0.3]
+
+[wait specialEffect]
+
+
+
+[wt 1.2]
+
+[bgm BGM_EVENT_5 0.1]
+
+[se bac2]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[wait se bac2]
+
+
+＠牛若丸
+…………。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠弁慶
+…………。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+
+＠茨木童子
+……チィ、読みが外れたわ。
+[k]
+
+
+＠茨木童子
+最後はおのおの逃げ出すと思い、炎を二つに分けてしまった。[r]おかげで威力が落ちたわ。
+[k]
+
+＠茨木童子
+最後の炎、ひとまとめにしておれば一匹は[r]焼き殺せたものをなぁ。
+[k]
+
+[bgm BGM_EVENT_6 0.7]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+凄い…牛若丸さん、弁慶さんの肩を駆け上がって、[r]そのまま[#独楽:コマ]のように回転して……
+[k]
+
+＠マシュ
+茨木童子の炎を刀だけで両断、霧散させました……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+
+[charaFace H 0]
+[charaFadein H 0.1 0]
+
+＠牛若丸
+遮那王流離譚が五景外伝、[r]喜見城・[#氷柱:つらら]削り[line 3]
+[k]
+
+[charaFace C 5]
+
+＠牛若丸
+舐めるな、盗賊の鬼風情が。[r]この義経、鬼の島に渡るはこれが一度目でもない。
+[k]
+
+
+[charaTalk H]
+[charaFace H 4]
+
+＠弁慶
+おお……義経様……[r]拙僧なんぞの為に、大切な奥義を[line 3]
+[k]
+
+[charaTalk C]
+[charaFace C 3]
+
+＠牛若丸
+…………別に。[r]貴様が倒れれば燃えるのは私ですから。
+[k]
+
+＠牛若丸
+本当は主殿がピンチの際、スパッと決めて褒められた[r]かったのですが……まあ、それは次の機会という事で。
+[k]
+
+[charaFace C 4]
+
+＠牛若丸
+それより弁慶！　さっきから気になっていたのだが、[r]貴様、酒臭いぞ！　さっさと流さぬか、バカ者！
+[k]
+
+[charaTalk H]
+[charaFace H 1]
+
+＠弁慶
+おお[line 3]おおおおお！[r]確かに、確かに！
+[k]
+
+＠弁慶
+酒を抜くには運動が何よりですからな！[r]この弁慶、これより鬼神の如く働きましょう！
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+
+＠牛若丸
+うむ。それはそれとして、貴様、後で寺の裏な。[r]勧進帳で受けた百叩きの仕置き、返してやろう。
+[k]
+
+[charaTalk H]
+[charaFace H 2]
+
+＠弁慶
+おおう、逆恨みここに極まる！[r]やはりものすごく根に持っていたのですな、義経様！
+[k]
+
+
+[bgmStop BGM_EVENT_6 1.5]
+
+[messageOff]
+[wipeout leftToRight 1.0 0.6]
+[wait wipe]
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[wipein rightToLeft 1.0 0.6]
+[wait wipe]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠酒呑童子
+茨木もやんちゃにはしゃいどるなぁ。
+[k]
+
+＠酒呑童子
+こら、うちももう少し本気出さんと[r]釣り合いがとれへんわぁ……。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+
+＠坂田金時
+おう、こっちも慣らし運転が終わったところだ。[r][#最高速:ファステスト]、狙いにいくぜ……
+[k]
+
+＠坂田金時
+やるぜ大将、アクセル全開だ！[r]ここで決着をつけようじゃねえか！
+[k]
+
+？1：任[&せろ:せて]、ブン回す！
+？2：オーバーヒート上等ダゼ！
+
+？！
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace E 1]
+
+＠坂田金時
+いいねぇ、ブッこみ上等だ！[r]拝めや鬼ども、仏さまの慈悲ってなぁ！
+[k]
+
+＠坂田金時
+こいつは極楽浄土までカッ飛ぶ金色の雷電よ。[r]酔い覚ましにゃあ、充分すぎる刺激だろうぜッ！
+[k]
+
+[se ad128]
+
+[wait se ad128]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

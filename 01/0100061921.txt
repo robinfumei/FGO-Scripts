@@ -1,0 +1,434 @@
+＄01-00-06-19-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2008000 1 トリスタン]
+[charaSet C 1020000 1 ランスロット]
+[charaSet E 6009001 1 静謐のハサン]
+[charaSet F 2013000 1 アーラシュ]
+[charaSet G 98081000 1 村人]
+[charaSet H 98083000 1 ルシュド]
+
+[scene 29121]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+やっぱり……[%1]様、[r]村人たちの半数は避難を済ませています！
+[k]
+
+＠静謐のハサン
+この村には避難用の洞窟があると聞きました！[r]おそらくはそこかと！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+！　さすがはアーラシュさんです……！[r]でも彼は！？　アーラシュさんはどこに！？
+[k]
+
+[messageOff]
+[wipeout rollFlashRight 1.0 1]
+[bgmStop BGM_EVENT_5 1.0]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 29110]
+[wt 0.7]
+[wipein rollFlashRight 1.0 1]
+[wait wipe]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+敵襲だ！　洞窟へ急げ！[r]まだ時間はある、あわてるな！
+[k]
+
+＠アーラシュ
+二人でいい、戦える男は俺に付いてこい！[r]騎士たちを迎撃する！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠村人
+狙撃の手伝いだな、任せてくれ！[r]おい、動ける者は女子供の避難を手伝うぞ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠ルシュド
+待ってアーラシュ兄ちゃん……！[r]ひとりでどうするの！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アーラシュ
+おっと。誰かと思えばルシュドか。[r]そう怖い顔をしなさんな。
+[k]
+
+＠アーラシュ
+ちょいと村の入り口に陣取って、[r]登ってくる間抜けを射落としてくる。
+[k]
+
+＠アーラシュ
+避難は万が一に備えてだ。[r]連中がここまで上がってくるようなヘマはしないぜ。
+[k]
+
+＠ルシュド
+でも、みんなで逃げた方がいいよ……！[r]あいつら、あんなにいるじゃないか！
+[k]
+
+[charaFace F 0]
+＠アーラシュ
+む。二キロ先の連中が見えるのか。[r]いい眼をしているじゃないか。ますます教え甲斐がある。
+[k]
+
+＠アーラシュ
+安心しろ、俺を誰だと思っている。[r]大英雄アーラシュと同じ名前のアーラシュさんだぞ？
+[k]
+
+＠アーラシュ
+手早く全滅させてくるとも。[r]それまでみんなを頼むぞ。
+[k]
+
+[se ad55]
+[seStop ad55 1.2]
+[charaFadeout F 0.4]
+[wt 0.7]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ルシュド
+アーラシュ兄ちゃ[line 3]ん！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[cameraMove 0.1 -120,20 1.5]
+[scene 28610]
+[wt 0.5]
+[fadeout black 0.1]
+[wait fade]
+[wipein leftToRight 0.1 1]
+[wait wipe]
+[fadein black 0.5]
+[wait fade]
+
+[wt 0.4]
+[se bac20]
+[charaPut A 80,-20]
+[charaEffect A bit_shot_01]
+[wt 0.5]
+[se bac16]
+[shake 0.05 2 4 0.25]
+[wt 0.7]
+
+[cameraMove 0.4 0,0 1.0]
+[wt 0.7]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+よし、次！[r]正面は問題ない、東の道はどうだ！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠村人
+敵影はない、大丈夫だ！[r]アンタは正面の騎士にだけ専念してくれ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アーラシュ
+おう、任せな！[r]これで二十人目、と[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.4]
+[se bac20]
+[charaPut A 0,0]
+[charaEffect A bit_shot_01]
+[wt 0.5]
+[se bac16]
+[shake 0.05 2 4 0.25]
+[wt 0.7]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠村人
+しかし奴ら、どうやってこの村の場所を……！[r]ここ二日間、誰も山から下りていないというのに！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+愚痴は後だ、今は手を動かせ！
+[k]
+
+＠アーラシュ
+左から回り込まれたら厄介だ！[r]正面は俺が[#観:み]るが、東の峠を頼む！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.4]
+[se bac20]
+[charaPut A 0,0]
+[charaEffect A bit_shot_01]
+[wt 0.6]
+[se bac23]
+[wt 0.2]
+[se ad44]
+[seStop ad44 0.5]
+[wt 0.7]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+！？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.2]
+[se bac20]
+[charaEffect A bit_shot_01]
+[wt 0.2]
+[se bac20]
+[charaBackEffect A bit_shot_01]
+[wt 0.5]
+[se bac23]
+[wt 0.2]
+[se bac23]
+[wt 0.2]
+[se ad44]
+[seStop ad44 0.5]
+[wt 1.0]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠村人
+どうなっている！？[r]アーラシュの矢が騎士の目の前で落とされていくぞ！？
+[k]
+
+＠村人
+誰も、何もしていないのに！？[r]やつらの神の加護だというのか！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+[line 3]マジかよ。[r]この距離で俺と撃ち合えるヤツがいるってのか……？
+[k]
+
+＠アーラシュ
+……いや。そうか、一人いたな。[r]円卓の騎士、妖弦使いトリスタン……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠村人
+なんだって、円卓の騎士が来ているのか！？[r]こんな小さな村を潰すために！？
+[k]
+
+＠C：？？？
+そうだ。[r]だが、諸君らは一つ間違えている。
+[k]
+
+[charaEffect G bit_talk_12]
+[wt 0.1]
+[se bac7]
+[charaShake G 0.05 3 3 0.2]
+[wait charaEffect G bit_talk_12]
+[charaFadeout G 0.4]
+[wt 0.3]
+[se ad58]
+[seStop ad58 0.5]
+[shake 0.05 2 4 0.4]
+[wt 0.2]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.4 1]
+＠ランスロット
+追いついた円卓の騎士は、トリスタン卿だけではない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+……湖の騎士、ランスロットか！
+[k]
+
+[se bac6]
+[charaEffect F bit_talk_12]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[charaShake F 0.05 3 3 0.25]
+
+[charaFace F 4]
+＠アーラシュ
+ぐっ……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ランスロット
+このような鎧姿だが、姿隠しには長けていてな。[r]すまないが、これで終わりだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アーラシュ
+ハッ……一撃受けただけだ、まだ終わっちゃいない。[r]もう少し付き合ってもらうぜ、優男。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ランスロット
+いや、終わっている。
+[k]
+
+＠ランスロット
+敵はアーラシュ・カマンガー。[r]ならば、初撃に全霊をかけるのは鉄則にして絶対。
+[k]
+
+＠ランスロット
+……さらばだ。[r]我が宝剣は貴殿のような強敵にこそ、真価を発揮する。
+[k]
+
+[se ad39]
+[charaEffect C bit_talk_36]
+＠ランスロット
+極光よ、斬撃より湖面を映せ。[r][line 3][#縛鎖全断:アロンダイト]・[#過重湖光:オーバーロード]。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 1.0]
+[charaEffectStop C bit_talk_36]
+[charaFadeout C 0.1]
+
+[effect bit_talk_34]
+[wt 0.5]
+[flashin once 2.5 20000.0 8BD1E8FF 8BD1E800]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[wt 1.5]
+[se ad39]
+[se bac107]
+[seStop bac107 1.2]
+[wt 1.5]
+[charaFadeout F 0.1]
+
+＠アーラシュ
+なに[line 3]っ、これ、はああああぁああああ！？
+[k]
+
+[messageOff]
+[fadeout white 2.0]
+[wait fade]
+[flashOff]
+[scene 10000]
+[wt 1.0]
+[fadein white 1.0]
+[wait fade]
+
+[fadeout black 0.1]
+[wait fade]
+[scene 29121]
+[wt 2.5]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+＠B：？？？
+偉大なる弓兵であれば、既にこの世に亡く。[r]……ああ、私は悲しい。
+[k]
+
+＠B：？？？
+あれほどの担い手、あれほどの[#名手:めいしゅ]と[r]向き合う機会を与えられながら、騙し討ちで決着など……
+[k]
+
+[charaTalk off]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[wt 1.0]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 1]
+＠トリスタン
+[line 3]本当に、悲しくて[#微笑:わら]ってしまう。[r]運命はようやく、貴方がたに追いついた。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[soundStopAll]
+[end]
+

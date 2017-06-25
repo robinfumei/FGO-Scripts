@@ -1,0 +1,452 @@
+＄94-00-23-01-1-0
+
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4004001 1 アストルフォ]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 2018001 1 子ギル]
+[charaSet G 98006300 1 エネミー]
+
+[scene 10000]
+[fadein black 0.5]
+[wait fade]
+
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+[wt 2.0]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[fadein white 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+ドクター。新たな特異点になりつつある、という座標は[r]こちらでよろしかったでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+ああ、予想通り敵性反応がそこかしこに[r]確認されている。
+[k]
+
+＠Dr.ロマン
+放置しておけば、楔を打たれた七つの時代の[r]崩壊が加速するかもしれない。
+[k]
+
+＠Dr.ロマン
+対抗してサーヴァントも召喚されているようだから、[r]協力して時代の修正に当たって欲しい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+了解です。[r]ではマスター、ひとまずサーヴァントを捜索しましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 1.0]
+[charaFadeout A 0.1]
+[scene 20520]
+[bgm BGM_EVENT_5 0.1]
+[fadein black 1.0]
+[wait fade]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+崩壊した街ですね。[r]人っ子一人見当たりませんが……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+サーヴァントの反応がすぐ近くにあるんだけど、[r]見当たらないかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+サーヴァント……ですか？[r]確かにわたしにも知覚できるほどですが、姿が[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[charaFilter D silhouette 00000000]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[wt 0.1]
+[se ad7]
+[wait charaSpecialEffect D]
+[shake 0.05 0 5 0.4]
+＠？？？
+[f large]ばあ！！[f -]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+ひゃあ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウァ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFilter D normal 00000000]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠？？？
+あはははは！[r]ビックリした？　ビックリした？
+[k]
+
+＠？？？
+いやー、ごめんね。[r]何かこう、ノリで！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+そ、空からいきなり現れるなんて……。[r]サーヴァントらしからぬ声を出してしまいました。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ええと、サーヴァント……ですよね？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠？？？
+いかにも！[r]ボクの名前はアストルフォ！
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+シャルルマーニュ十二勇士が一人、[r]クラスはライダー！
+[k]
+
+[charaFace D 0]
+＠アストルフォ
+趣味は散歩、食事、馬上試合、ギャンブル、お酒、読書、[r]おしゃべり、それからそれから……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+も、もう結構です。[r]わたしの名はマシュ・キリエライト。
+[k]
+
+[charaFace A 13]
+＠マシュ
+こちらは[%1]、[r]わたしのマスターです。
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+その可愛い子はサーヴァントで……キミがマスターかぁ！[r]よろしくね！
+[k]
+
+[charaFace D 4]
+＠アストルフォ
+あれ？[r]キミってボクと会ったことある？
+[k]
+
+[charaFace D 0]
+＠アストルフォ
+んー………………忘れたし、まあいいか！[r]それでキミたち、どうしてここへ？
+[k]
+
+[charaFace A 0]
+＠マシュ
+は、はい。わたしたちは特異点の調査に[line 2]。
+[k]
+
+[charaFace D 4]
+＠アストルフォ
+特異点？[r]そっか、最近そんなのも出てきたっけ。
+[k]
+
+＠アストルフォ
+でも心当たりはないなあ。
+[k]
+
+＠マシュ
+そうですか……。[r]では、残りのサーヴァントはご存知ですか？
+[k]
+
+[charaFace D 2]
+＠アストルフォ
+あー！
+[k]
+
+[charaFace A 6]
+＠マシュ
+は、はい！？
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+それだ！　ボクがキミたちに声を掛けた訳！[r]思い出した思い出した！
+[k]
+
+[charaFace D 3]
+＠アストルフォ
+いやー、もうちょっとで忘れるところだった。[r]てへへ。
+[k]
+
+[charaFace A 8]
+＠マシュ
+忘れないで下さい……。
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+実は他にもサーヴァントが二人いてね、[r]しかも一人はルーラーなんだ！
+[k]
+
+[charaFace A 6]
+＠マシュ
+ルーラー……ルーラーですか！？[r]ジャンヌさんみたいな！？
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+そうそう、あの子みたいな！[r]で、もう一人はアーチャーでね。
+[k]
+
+[charaFace D 4]
+＠アストルフォ
+えっと、名前なんだっけな……。[r]ギラ……ギリ……ギル……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……ギルガメッシュ、でしょうか？
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+そうそう、ギルガメッシュだ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+英雄王ギルガメッシュ……。[r]汲めども尽きぬ財を持つ最古の英雄。
+[k]
+
+＠マシュ
+彼の宝物庫から流れ出た武器が、[r]世界の英雄たちが所有する武器の原型……。
+[k]
+
+＠マシュ
+そうダ・ヴィンチちゃんに伺っています。[r]わたしはお目にかかったことはないのですが……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あ、いえ。[r]会ったことはあるような……ないような……。
+[k]
+
+？1：夢の話さ
+
+[charaFace A 13]
+＠マシュ
+あ、夢ですか。[r]なるほど、そう言われればそんな気も。
+[k]
+
+？2：見たことはある
+
+[charaFace A 6]
+＠マシュ
+そうでしたか？[r]え……サンタさんですか？
+[k]
+
+[charaFace A 8]
+＠マシュ
+何の話でしょうか？[r]不勉強で申し訳ありません……。
+[k]
+
+？！
+
+[charaFace D 0]
+＠アストルフォ
+いやあ、確かにその名に相応しい霊格を[r]持つ子だったねえ。
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+うんうん、あの子は将来立派な英雄になるよ！[r]まあ、暴君にもなっちゃうんだけどね！
+[k]
+
+[charaFace A 0]
+＠マシュ
+それで、そのお二人がどうしたのでしょうか？
+[k]
+
+[charaFace D 4]
+＠アストルフォ
+いやあ、その。[r]何て言うかさ……。
+[k]
+
+＠アストルフォ
+そのルーラーと、アーチャーがね。[r]……してるんだよね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+している……何をです？
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaFace D 5]
+＠アストルフォ
+聖杯戦争。
+[k]
+
+[charaFace A 0]
+＠マシュ
+はあ……。[r]聖杯……。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+[charaFace A 14]
+＠マシュ
+ええええ！？
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+さ、ついてきて！[r]ともかく、あの二人を止めて欲しいんだ！
+[k]
+
+＠アストルフォ
+ほらほら急いで急いで！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+おーい、[#和気藹々:わきあいあい]としているところ[r]申し訳ないけど、戦闘のお時間だ。
+[k]
+
+＠Dr.ロマン
+ラミアタイプのエネミーがそちらに向かっているよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+
+[messageOff]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wt 0.2]
+[se ad21]
+[wt 0.2]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+了解。[r]エネミー視認しました、対処します！
+[k]
+
+[charaFace A 14]
+＠マシュ
+……って、アストルフォさん！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アストルフォ
+わはははは！[r]蛇だ蛇だー！
+[k]
+
+[charaFace D 0]
+＠アストルフォ
+よーし、狩るぞ－！[r]今日は三十頭くらい成仏……昇天？
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+ともかく黄泉路に送ってやるー！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]

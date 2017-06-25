@@ -1,0 +1,169 @@
+＄91-70-08-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7008001 1 ベオウルフ]
+[charaSet D 98006000 1 グレンデル]
+[charaSet E 9001001 1 ジャンヌ]
+[charaSet F 1005001 1 ネロ]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 98016000 1 兵士Ａ]
+
+[scene 20602]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+もうすぐだ……。[r]おい、出てこい。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.4]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+＠ジャンヌ
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠ネロ
+……。[r]……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.4 1]
+＠ドレイク
+……。[r]……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+……こ、これが全部、偽者なんですか……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠ベオウルフ
+そうだよ。鎧や服に見えるものは皮膚が硬質化したもの。[r]武器は爪や髪の毛の延長線だ。
+[k]
+
+＠ベオウルフ
+最低の趣味だろ？[r]だから邪悪なんだよ、こいつらは。
+[k]
+
+[charaFace C 0]
+＠ベオウルフ
+しかし幸い、喋り出す前に退治できそうだ。[r]声だけはどうにもならんからな。
+[k]
+
+[charaFace A 12]
+＠マシュ
+喋るんですか？
+[k]
+
+[charaFace C 4]
+＠ベオウルフ
+記憶を読み取ったら読み取った分だけな。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk off]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+＠グレンデル
+……ち、がう。[r]まだ、この体格になじんで、ない、だけだ。
+[k]
+
+＠グレンデル
+何故、召喚されたのか、分からないが。[r]私は、やるべきことを、やる。
+[k]
+
+[charaTalk on]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+一体何を……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk off]
+
+
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠グレンデル
+おまえたちを、残虐に殺す。[r]ひとり残らず、残忍に殺す。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFace G 5]
+[charaFadein G 0.4 1]
+
+＠グレンデル
+そうでなくてはならない。[r]そうでなければいけない。
+[k]
+
+＠グレンデル
+それがグレンデルをグレンデルたらしめる要素だ。[r]かつて、あの城で人の魂を貪り続けたように……！
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[charaFadeout G 0.1]
+[charaTalk on]
+
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+うるせえ、母親の受け売りだろうがそンなもん。[r]地獄の底で、あのボケナスと乳繰り合ってろ。
+[k]
+
+[charaFace C 2]
+＠ベオウルフ
+マスター、行くぞ……！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

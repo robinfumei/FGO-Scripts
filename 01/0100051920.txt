@@ -1,0 +1,678 @@
+
+＄01-00-05-19-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 7020000 1 クー・フーリン・オルタ]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 3004001 1 カルナ]
+[charaSet F 2015001 1 アルジュナ]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 98057000 1 マーリン]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+
+[scene 20721]
+[fadein black 2]
+[wait fade]
+
+＠マシュ
+はぁ、はぁ、はぁ……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+その盾の強度……妙だな………[r]そこまでの盾は記憶にない。伝承にもない。
+[k]
+
+[charaFace C 0]
+＠クー・フーリン・オルタ
+だが確かに宝具だ。[r]お嬢ちゃん、その盾は[line 3]
+[k]
+
+[charaFace C 5]
+＠クー・フーリン・オルタ
+……まあいい。[r]仕留めちまえば、関係ねえか……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ラーマ
+宝具が来るぞ、マシュ！[r]あの朱槍は何があろうが心臓を抉ってくる！
+[k]
+
+＠ラーマ
+全速で遠ざかるしかない！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+ダメです、もう間に合わない……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+蠢動せよ[line 2][#死棘:しきょく]の魔槍。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+く……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[messageOff]
+
+[fadeout white 0.2]
+[wait fade]
+
+[scene 10001]
+
+[fadein white 0.2]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+[fowardEffect bit_talk_40]
+
+[fadeout white 0.2]
+[wait fade]
+
+[charaFadeout G 0.1]
+[scene 20721]
+
+[fadein white 0.2]
+[wait fade]
+
+[soundStopAll]
+
+[se ad32]
+[wt 1.0]
+[seStop ad32 1.5]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+何……！？
+[k]
+
+[charaFadeout C 0.1]
+
+[messageOff]
+[bgm BGM_EVENT_1 0.1]
+
+[wt 2.0]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠H：？？？
+ちょっとうたた寝しながら歩いていたら、[r]そこは見知らぬ荒野の国。
+[k]
+
+[charaFace H 4]
+＠H：？？？
+これは夢の続きか、それとも単なる幻か。[r]まあ、どちらでもいいのだけどね。
+[k]
+
+[charaFace H 1]
+＠マーリン
+おはよう。そしてこんにちは、諸君。[r]みんなの頼れる相談役、マーリンさんの登場だよ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+[wt 1.0]
+
+？1：マ……誰です？
+？2：なんだあのとっぽい兄ちゃんは!?
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠マーリン
+はいそこー、あまり気にしない－。[r]今回の私は出血サービス、気まぐれのお忍びだ。
+[k]
+
+[charaFace H 4]
+＠マーリン
+私とキミたちはいまだ交える運命にない者同士。[r]そもそも私は楽園にある幽閉塔で引きこもりの身だ。
+[k]
+
+[charaFace H 1]
+＠マーリン
+素敵なお兄さんが助けてくれてラッキー、[r]ぐらいで済ませてほしい。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace H 0]
+[charaFadein C 0.1 0]
+[charaFadein H 0.1 2]
+＠クー・フーリン・オルタ
+テメエは[line 2]どこのボンクラだ？[r]こいつは白昼夢ってヤツか？
+[k]
+
+[charaFace H 0]
+＠マーリン
+もちろん。私の十八番、[r]相手を煙に巻いてなんとかする戦法さ。
+[k]
+
+[charaFace H 1]
+＠マーリン
+そしてこの度は戴冠おめでとう、クー・フーリン。
+[k]
+
+＠マーリン
+アイルランドの大英雄が玉座に落ち着く日が[r]くるとは。いやはや、運命とは分からないものだねぇ。
+[k]
+
+[charaFace C 4]
+＠クー・フーリン・オルタ
+この気配、夢魔のたぐいだな……[r]ってことは、そうか。テメエが星見か。
+[k]
+
+[charaFace C 5]
+＠クー・フーリン・オルタ
+……反則級の邪魔をしやがって。[r]いいのかよ魔術師。テメエの矜持が崩れるぞ？
+[k]
+
+[charaFace H 1]
+＠マーリン
+そこはそれ、臨機応変ってヤツさ。そもそも私に[r]誇りとか決まりとか、そういうの無いからね。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あなたは[line 2]一体[line 2]？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠マーリン
+最果ての島から世界のすべてを見る者だ。[r]そう、すべてを見る。
+[k]
+
+[charaFace H 4]
+＠マーリン
+大事なのはココでね。要は、ただ見てるだけの[r]観客という訳なんだ。[line 3]今はまだ、ね。
+[k]
+
+[messageOff]
+[charaFadeout H 0.4]
+[wt 0.3]
+[charaFadein H 0.1 1]
+[wt 0.3]
+[charaFadeout H 0.4]
+[wt 0.3]
+[charaFadein H 0.1 1]
+[wt 0.3]
+[charaFadeout H 0.4]
+
+[wt 0.3]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠マーリン
+……っと、ホントにうたた寝から目覚めそうだ。
+[k]
+
+[charaFace H 4]
+＠マーリン
+申し訳ないけど私にできる手助けはこれぐらいだ。[r]後はキミたちの手であの獣を倒すしかない。
+[k]
+
+[charaFace H 0]
+＠マーリン
+それが成された時、[r]私たちが出会う未来はくるだろう。
+[k]
+
+[charaFace H 1]
+＠マーリン
+それではまた、いつか、微妙に違う未来で。[r]キャスパリーグをよろしくしてやってくれ。
+[k]
+
+
+[messageOff]
+[fowardEffectStop bit_talk_40]
+
+[bgmStop BGM_EVENT_1 1.0]
+[charaFadeout H 0.4]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+チィ、後ろか……ッ！
+[k]
+
+[se ad39]
+[charaFadeout C 0.1]
+
+[charaEffect E bit_talk_36]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠カルナ
+灼き尽くせ……『[#日輪よ、死に随え:ヴァサヴィ・シャクティ]』……。
+[k]
+
+[charaEffectStop E bit_talk_36]
+[charaFadeout E 0.1]
+
+
+[messageOff]
+[fowardEffect bit_talk_29]
+
+[se bac36]
+[seStop bac36 1.5]
+[wt 0.1]
+[charaShake C 0.05 2 4 0.4]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+[wait fowardEffect bit_talk_29]
+
+[charaFace C 4]
+＠クー・フーリン・オルタ
+……チッ……！！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+カルナさん……！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アルジュナ
+……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠カルナ
+この威力では……届かなかったか……。[r]マスター……さらばだ……。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect E flashErasure 0 1.7]
+[wait charaSpecialEffect E]
+[charaFadeout E 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.3]
+
+
+[charaTalk D]
+[charaFace C 0]
+[charaFace D 4]
+[charaFadein C 0.1 0]
+[charaFadein D 0.1 2]
+＠ラーマ
+……カルナ……。
+[k]
+
+[charaFace C 5]
+＠クー・フーリン・オルタ
+最後の最後で足掻きやがって。[r]これだから槍使いの生き死には信用ならねぇ。
+[k]
+
+[charaFace D 2]
+＠ラーマ
+ほざけ、今なら[line 2]！
+[k]
+
+[charaMove D 0,0 0.2]
+[charaFadeout C 0.1]
+
+[charaEffect C bit_talk_12]
+[se ad73]
+[wt 0.5]
+[seStop ad73 0.5]
+
+[wait charaMove]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+ほざいてんのはテメエだろうが。[r]なに人様の成果で得意になってやがる。
+[k]
+
+[charaFace C 4]
+＠クー・フーリン・オルタ
+こちとら今ので全身[#大火傷:おおやけど]だ。[r]帰って涼ませてもらうぜ。
+[k]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFace C 5]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ナイチンゲール
+……逃げても無駄ですよ、クー・フーリン。[r]どれほど猛ろうと、その傷は決して癒されない。
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+貴方は、病気です。
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠クー・フーリン・オルタ
+……ハ。おまえの言う通りだ、血塗れの聖女。[r]オレが癒される日なんざ、永遠に来ねえだろうよ。
+[k]
+
+[charaFace C 0]
+＠クー・フーリン・オルタ
+倒れて朽ち果てるその日まで、[r]オレは王であり続けるだけだ。
+[k]
+
+[charaFace C 5]
+＠クー・フーリン・オルタ
+[line 2]来るなら来い。[r]ワシントンで戦ってやる。
+[k]
+
+
+[charaFadeout C 0.4]
+[wt 0.8]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ラーマ
+……この機を逃すな！[r]全軍、押せ、押せ、押せ……！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アルジュナ
+……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFace F 5]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠ラーマ
+アルジュナ、悪いが仕留めさせてもらうぞ……！
+[k]
+
+[charaTalk B]
+
+[se bac22]
+[wt 0.1]
+[charaShake D 0.05 3 3 0.25]
+[wt 0.9]
+[seStop bac22]
+
+[charaTalk D]
+[charaFace D 2]
+＠ラーマ
+って、ナイチンゲール！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+[line 2]アルジュナ。[r]治療を受ける気はありますか？
+[k]
+
+[charaTalk F]
+[charaFace F 4]
+＠アルジュナ
+……治療？[r]私が何を、病んでいると言うのです。
+[k]
+
+[charaTalk B]
+[charaFace B 7]
+＠ナイチンゲール
+カルナはサーヴァントであろうとした。[r]ただそれだけです。
+[k]
+
+＠ナイチンゲール
+第二の生を受けた英雄であろうとしていても、[r]貴方はサーヴァントであろうとはしていない。
+[k]
+
+＠ナイチンゲール
+我々はどちらともつかない存在です。[r]我欲がある一方で、与えられた[#使命:オーダー]がある。
+[k]
+
+＠ナイチンゲール
+あの一瞬、カルナはサーヴァントに立ち戻り、[r]クー・フーリンを止めることが勝利に繋がると信じた。
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+……それは、貴方の妄執に付き合うよりも[r]正しいことだと信じたのです。
+[k]
+
+[charaTalk F]
+[charaFace F 5]
+＠アルジュナ
+妄執[line 2]ですと？[r]私の、この積年の想いが……。
+[k]
+
+[charaFace F 2]
+＠アルジュナ
+貴女になど、分かってたまるものか！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ラーマ
+お、おいナイチンゲール。[r]その、あまり挑発しては……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFace F 5]
+[charaFadein B 0.1 2]
+[charaFadein F 0.1 0]
+＠ナイチンゲール
+[line 2]妄執です。後悔は先に立たず、放つべきでない矢を[r]放って宿敵を倒した貴方は[line 2]。
+[k]
+
+[charaFace B 7]
+＠ナイチンゲール
+一生を、後悔と共に添い遂げなければならない。[r]それは他の英雄も同じです。
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+狂おしいほどにやり直しを願い、叶わなかった願いを求め。[r]……それでも最後の一線を引くのが、サーヴァント。
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+貴方はその最後の線を、理解しようとしなかった。
+[k]
+
+[charaTalk F]
+[charaFace F 4]
+＠アルジュナ
+……私は……。
+[k]
+
+[charaTalk B]
+[charaFace B 6]
+＠ナイチンゲール
+戦いますか？[r]それでも構いませんが。
+[k]
+
+[charaTalk F]
+[charaFace F 4]
+＠アルジュナ
+……そうですね。[r]戦う必要などない、八つ当たりをする気力はない。
+[k]
+
+[charaFace F 5]
+＠アルジュナ
+ただ、決着をつけたい。[r]この心の、どうしようもない何かを払拭するためにも。
+[k]
+
+[charaFace F 4]
+＠アルジュナ
+断られるならば、仕方ないですが。
+[k]
+
+？1：戦おう
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ラーマ
+お、おい！？[r]マスター、アルジュナと戦うのか！？
+[k]
+
+[charaFace D 1]
+＠ラーマ
+誰が！？[r]余たちだな、うむ、当然だ！
+[k]
+
+？2：こちらが勝つ
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ラーマ
+ははははは、マスター！[r]共に戦う者として一言言っておきたいことがある！
+[k]
+
+[charaFace D 5]
+＠ラーマ
+勝てるかどうかは分からんぞ、[r]何しろ相手はアルジュナだ！
+[k]
+
+[charaFace D 2]
+＠ラーマ
+ええい、こうなったら自棄だ！[r]やってやるさ！
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アルジュナ
+[line 2]ありがとう。[r]それではしばし、お付き合い戴きましょう。
+[k]
+
+[charaFace F 2]
+＠アルジュナ
+我が名はアルジュナ。[r]この矢に倒れること[line 2]光栄と知れ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ラーマ
+余とて、魔王ラーヴァナを打ち倒した誇りがある。[r][line 2]行くぞ、アルジュナ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

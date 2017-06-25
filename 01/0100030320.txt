@@ -1,0 +1,310 @@
+＄01-00-03-03-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 8001001 1 マシュ]
+[charaSet G 98018000 1 海賊]
+[charaSet H 5009001 1 ダ・ヴィンチ]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+ところでさー。
+[k]
+
+[charaFace A 6]
+＠マシュ
+はい？
+[k]
+
+＠ドレイク
+結局、この海域には何があると思う？
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドクターの仰ることが正しいなら、[r]財宝はあるかもしれません。
+[k]
+
+＠マシュ
+ただ……それは要するに、この海域が大航海時代も[r]同然ということですから。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……財宝を狙う海賊は、ドレイクさんだけではない。[r]ということです。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+あっはっは、滾るねえ！[r]早い者勝ちってのは、実にわかりやすい！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 2]
+＠海賊
+でも姐御。[r]財宝のアテがないっすよ、全然。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+お馬鹿。[r]そのアテを見つけるところから始めるんだよ。
+[k]
+
+＠海賊
+……姐御！[r]島です！　島が見えます！　東北東方向です！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……確かに島ですね。[r]ドクター。
+[k]
+
+＠Dr.ロマン
+ああ、島にはサーヴァント反応がある。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFadeout A 0]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+＠マシュ
+ドレイク船長。島には例の、[r]大砲を受けても倒れない超人がいます。
+[k]
+
+[charaFace A 15]
+＠マシュ
+海賊の皆さんは下がらせてください。[r]闘えるのはわたしと先輩、それに船長だけです。
+[k]
+
+[charaFace D 2]
+＠ドレイク
+早速かい。ま、今回はアンタらもいる。[r]おう、オマエたち！　アンタたちは船を守りな！
+[k]
+
+＠ドレイク
+アタシと[%1]とで、[r]様子を探りに行ってくるからね！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 2]
+＠海賊
+了解でさあ姐御！[r]お帰り、お待ちしておりやすぜ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.5]
+[scene 21100 0]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 7]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+慎重に進みましょう、マスター。[r]サーヴァントが敵なのか味方なのか、まだ……
+[k]
+
+＠ドレイク
+んー、そのあたりかあ？
+[k]
+
+[se bac21]
+[wait se bac21]
+[charaFadeout D 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！？
+[k]
+
+[charaFace A 2]
+＠マシュ
+ひゃ……！？[r]ドレイクさん、敵ですか！？
+[k]
+
+[charaFace A 15]
+＠マシュ
+あああ、フォウさん走り回らないで！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ドレイク
+いや、何となく気配がしたから撃ってみた。
+[k]
+
+[charaFace A 6]
+＠マシュ
+「何となく」「撃ってみた」……！？
+[k]
+
+[charaFace D 0]
+＠ドレイク
+悪い予感がしたら銃声で打ち払う。[r]それが生きるためのコツだよ？
+[k]
+
+[charaFace A 14]
+＠マシュ
+なんて乱暴な……[r]それは無法者の精神構造です……！
+[k]
+
+？1：で、当たった？
+
+？2：仕留めた？
+
+？！
+
+[charaFace D 1]
+＠ドレイク
+あはは、そんなの見るまでわかるもんか！[r]死んだか殺したか、ちょっと見てくるよ。
+[k]
+
+[se ad27]
+[charaFadeout D 0.4]
+[wt 0.4]
+[charaFadeout A 0]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……ドレイク船長はジャンヌさんともネロさんとも[r]違います。今まで知る事のなかったタイプです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ともあれ、慎重に行く、という計画は破綻しました。[r]先輩、どうしましょう……
+[k]
+
+？1：まあ落ち着いて
+
+？2：臨機応変に対処しよう
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……はい。[r]落ち着いて、臨機応変に対処します。
+[k]
+
+＠ドレイク
+おーい！　マシュ、[%1]！[r]こっち来てみな－！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 20800 0]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 6]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+石版……ですか？
+[k]
+
+＠ドレイク
+そうだ。刻んである文字は解読できるかい？
+[k]
+
+[charaFace A 0]
+＠マシュ
+これは[line 2]ルーン文字のようですね。[r]ドクター、解読可能ですか？
+[k]
+
+＠ダ・ヴィンチ
+ほうほう、随分と新しいルーン文字だね。[r]刻まれたのは、おおよそ一週間以内だ。
+[k]
+
+＠Dr.ロマン
+いや、ダ・ヴィンチちゃん？[r]それ、ボクの仕事だよ？　とらないで？
+[k]
+
+＠ダ・ヴィンチ
+ええと、何々……。
+[k]
+
+＠ダ・ヴィンチ
+『一度は眠りし[#血斧王:けっふおう]、再びここに蘇る』
+[k]
+
+＠ダ・ヴィンチ
+……大雑把な意味合いはこんなところだな。[r]しかし血斧王？　はて、どこかで聞いたような[line 2]
+[k]
+
+＠Dr.ロマン
+け、[#血斧王:けっふおう]は九世紀ノルウェーを[r]支配したヴァイキングの王だよ！
+[k]
+
+＠Dr.ロマン
+そして気をつけて、その石版には[r]先ほどの海賊コピーたちと同じ反応がある！
+[k]
+
+[charaFace A 7]
+＠マシュ
+敵ですか？
+[k]
+
+[charaFace D 5]
+＠ドレイク
+……ああ、そのようだね。チクチクとしたイヤな殺気だ。[r]マシュ、[%1]！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 2]
+＠ドレイク
+戦いの準備をしな、行くよ！[r]こういうのは先に殴った方が、勝ちだ！
+[k]
+
+＠ドレイク
+……来たぞ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+＠海賊
+我らが王、エイリークのために！[r]偉大なる王、エイリークのために！
+[k]
+
+[charaFadeout E 0]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+了解、マスター……行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

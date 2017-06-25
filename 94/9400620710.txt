@@ -1,0 +1,218 @@
+＄94-00-62-07-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 3024000 1 玉藻の前]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+そろそろ娯楽が欲しいでありますなー。
+[k]
+
+＠G：うりぼう
+漫画のでありますか？
+[k]
+
+＠H：うりぼう
+そうではなく。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+娯楽施設……ということでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+行き着くところまで行き着いたという[r]感じでございますねえ、マスター。
+[k]
+
+[charaFace B 0]
+＠玉藻の前
+しかし娯楽施設と言っても幅が広いですよ。[r]具体的には？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+シアターとか……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+ふむふむ、映画館。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠G：うりぼう
+ミュージアムとか……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+ほうほう、博物館。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+Ｚｏｏ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+なるほど動物園。[r]……[charaFace B 5]動物園？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+獣を見学するガーデンでありますな。
+[k]
+
+
+？1：突っ込んだら負けな気がする
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい……。[r]いかんともコメントし難いです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+[#私:わたくし]、閉じ込められやしないでしょうね……。
+[k]
+
+[charaFadeout B 0.1]
+
+
+？2：何が入ってるの？
+
+
+＠F：うりぼう
+それはもちろん、我々でありますよ。
+[k]
+
+＠G：うりぼう
+動物園でうりぼうを見学するという、[r]極めて高度なぶらっくじょーく。
+[k]
+
+＠H：うりぼう
+ＨＡＨＡＨＡＨＡＨＡＨＡ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それでマスター。[r]何を造ればいいんでしょうか……？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

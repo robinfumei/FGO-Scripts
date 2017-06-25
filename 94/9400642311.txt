@@ -1,0 +1,848 @@
+＄94-00-64-23-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98102500 1 イリヤ]
+[charaSet C 98103600 1 ルビー]
+[charaSet D 98102300 1 美遊]
+[charaSet E 98103200 1 サファイア]
+[charaSet F 98104000 1 クーちゃん]
+[charaSet G 5023000 1 エレナ]
+[charaSet H 5023000 1 ？？？]
+
+[charaBackEffect H bit_talk_diremond_dust]
+
+[scene 21810]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠マシュ
+ハァ……ハァ……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+おお、やるもんだ。[r]いい連携じゃねえか。
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+何戦かやって息が合ってきたか、アンタら。[r]盾役がまた地味に厄介だ。
+[k]
+
+[charaFace F 1]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+ここでどっちかを潰しとくか。[r]と、なりゃあ……。
+[k]
+
+[messageOff]
+[voice NP_702000_1]
+[charaEffect E bit_talk_06b2]
+[wt 1.5]
+[voiceStop NP_702000_1 1.0]
+
+＠クーちゃん
+こいつの出番だ[line 3][r][line 3][#爆ぜ喰らう甘牙の幼獣:ア　マ　ガ　ミ ・ コ　イ　ン　ヘ　ン]。
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+恨むなよ、嬢ちゃん。[r]そっちのガキは、メイヴが軍団に欲しがってたもんでな。
+[k]
+
+
+？1：この使い魔、宝具まで[line 3]！？
+
+[charaFace F 1]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+ああ。悪いが見た目の千倍痛ぇ。[r]覚悟はしなくていいぞ。あっさり死ぬからよ。
+[k]
+
+？2：イリヤを……欲しがる？
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+おう。[r][#願望:ねがい]の[#器:いれもの]とやらにふさわしいそうだ。
+[k]
+
+＠クーちゃん
+[#欲:ほっ]すれば[#欲:ほっ]すほど[#渇:かわ]くのが貪欲ってもんだ。[r]そんなわけで悪いが[line 3]
+[k]
+
+？！
+
+[messageOff]
+[se bas1]
+[charaEffectStop E bit_talk_06b2]
+[wt 1.0]
+[charaPut E 1200,1200]
+
+[charaFace F 3]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+[line 3]いくぜ。
+[k]
+
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[charaDepth B 1]
+[charaDepth A 3]
+
+[charaTalk depthOff]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+[charaFace B 2]
+[charaFadein B 0.1 -100]
+
+[se ad32]
+[effect bit_talk_14]
+[charaShake A 0.05 3 3 0.5]
+
+＠マシュ
+……ぐっ！
+[k]
+
+[messageOff]
+[charaMove A 2 0.5]
+[charaMove B 0 0.5]
+[wait charaMove]
+
+[charaTalk depthOn]
+
+＠イリヤ
+マシュさん！[r]ま[charaFace B 4]たわたしたちを庇って……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+ややー？[r]イリヤさん、あちらをご覧ください！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ルビー、今それどこじゃ[line 3]んん？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+＠サファイア
+イリヤ様ー！　ルビー姉さん！[r]遅くなりましたー！
+[k]
+
+[messageOff]
+[se bas1]
+[effect bit_talk_21]
+[wt 0.5]
+[effectStop bit_talk_21]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+[charaEffect E bit_talk_41]
+[charaShake E 0.07 0 16 1.0]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[charaPut E 1200,1200]
+[charaEffectStop E bit_talk_41]
+
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+やっふー！[r]無事だったんですね、サファイアちゃーんっ☆
+[k]
+
+＠イリヤ
+サファイア！？　あなただけ！？[r][line 3]あれはミユの[#杖:ステッキ]です、[&お兄さん:お姉さん]！
+[k]
+
+？1：でも、美遊の姿がない！？
+？！
+
+
+[charaShake C 0.07 0 8 1.0]
+＠ルビー
+いいところに来ましたサファイアちゃん、[r]そちらのマシュさんと一時契約を！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+彼女はイリヤ様のお味方ですね。[r][#承:うけたまわ]りました。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+失礼いたします。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+[se ad39]
+[fowardEffect bit_talk_15]
+[wt 1.0]
+
+[charaEffect A bit_talk_yume01]
+[charaFace A 3]
+＠マシュ
+ふぁっ[line 3][r]なんだか、妙な気持ちに。
+[k]
+
+[charaFadeout A 0.1]
+[charaPut A 1200,1200]
+[charaEffectStop A bit_talk_yume01]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+[line 3]ほう。[r]急に魔法少女らしくなったじゃねえか。
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+となると、遊びに付き合うのはここまでだ。[r]退くとするか[line 3]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠エレナ
+そうしなさいな、クー。[r]そしてメイヴにお伝えなさい。
+[k]
+
+＠エレナ
+[#彼女:イリヤ]はすでに二つの宝石を持っていると。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+おう、匂いで分かってる分かってる。[r]アンタの[#懐:ふところ]にも一つ、だろ？
+[k]
+
+[charaFace F 1]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+了ー解。[r]メイヴが[#悦:よろこ]びそうな[#状況:シチュ]だこと。
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[messageOff]
+[se ad42]
+[charaFadeout F 0.7]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+[wt 0.5]
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+まずは、こちらをご覧下さいませ。[r]美遊様から託されたメッセージです。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[charaDepth D 0]
+[charaDepth B 3]
+[charaDepth C 3]
+
+[charaTalk depthOff]
+
+[messageOff]
+[se ad31]
+[charaPut H 1200,1200]
+[charaPut F 1]
+[charaEffect F bit_talk_security]
+[scene 31200]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠美遊
+………………ハァ……ハァ……。
+[k]
+
+[seStop ad31 1.0]
+
+＠イリヤ
+…………ミユっ……！
+[k]
+
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+ううっ（涙）[r]美遊さん、こんなひどい[#辱:はずかし]めを。
+[k]
+
+＠ルビー
+しかし幾分エロい感じの拘束で、これはなかなか……[r]ぅわ[shake 0.05 0 4 1.0]痛たたたギブですギブですー！
+[k]
+
+[shakeStop]
+
+[charaFace D 0]
+＠美遊
+イリヤ[line 3][r]あるいはイリヤスフィールを知る、誰かへ。
+[k]
+
+＠美遊
+わたしは美遊……エーデルフェルト。[r]ま、[charaFace D 3]魔法少女……です。
+[k]
+
+[charaFadeout D 0.1]
+[charaPut F 1200,1200]
+[charaPut H 1]
+[charaEffectStop F bit_talk_security]
+[scene 21810]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+（やっぱりミユも[r]　ちょっと恥ずかしいんだ……）
+[k]
+
+[charaFadeout B 0.1]
+
+[messageOff]
+[charaPut G 1]
+[charaPut H 1200,1200]
+[charaEffect G bit_talk_security]
+[scene 31200]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠美遊
+わたしはイリヤと共に、この世界へ出現しました。
+[k]
+
+[charaFace D 4]
+＠美遊
+わたしはファースト・レディに囚われています。[r]彼女こそ、この固有結界の世界を創った張本人。
+[k]
+
+＠美遊
+この固有結界の中央に位置する、黒い障壁の内部。[r]そこにレディの城があります。
+[k]
+
+[charaFace D 5]
+＠美遊
+黒い障壁は、レディの使い魔しか[r]通過できません。
+[k]
+
+[charaFace D 4]
+＠美遊
+わたしとイリヤを襲撃したメイヴという女性も[r]壁に阻まれ、それ以上の追跡は許されませんでした。
+[k]
+
+[charaFadeout D 0.1]
+[charaPut G 1200,1200]
+[charaEffectStop G bit_talk_security]
+[charaPut H 1]
+
+[scene 21810]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……女王メイヴも最初は[r]美遊さんに目をつけていたのですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[messageOff]
+[charaPut F 1]
+[charaEffect F bit_talk_security]
+[charaPut H 1200,1200]
+[scene 31200]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠美遊
+わたしたちが、この世界へ不本意に招かれた原因は、[r]おそらくファースト・レディです。
+[k]
+
+＠美遊
+レディは平行世界へと干渉する[r]なんらかの技術を得たようです。
+[k]
+
+＠美遊
+とても平和的な目的だとは思えません。[r]わたしを捕らえているのも、関係があるはずです。
+[k]
+
+[charaFace D 6]
+＠美遊
+どうにかして……[r]彼女の計画を、防がなくちゃ。
+[k]
+
+[charaFace D 5]
+＠美遊
+……この城は、まるで合わせ鏡の迷路です。[r]使い魔たちの守備も、抜け目ありません。
+[k]
+
+[charaFace D 0]
+＠美遊
+けれどサファイアならば、城から脱出して、[r]道案内を果たしてくれると信じています。
+[k]
+
+[charaFace D 6]
+＠美遊
+でも……[r]もし……イリヤ、あなたなら……。
+[k]
+
+[charaFace D 5]
+＠美遊
+あなたは来てはだめ……[r]協力者を捜して。その人に託すの……。
+[k]
+
+[charaFadeout D 0.1]
+[charaPut F 1200,1200]
+[charaPut H 1]
+[charaEffectStop F bit_talk_security]
+
+[scene 21810]
+[charaTalk B]
+[charaFace B 2]
+[charaFace G 0]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠イリヤ
+ええっ！？　何を言ってるのミユ！？[r]あなたまたそういう[line 3]
+[k]
+
+[charaTalk G]
+[charaFace G 5]
+[charaMove G 1 0.5]
+[wait charaMove]
+
+＠エレナ
+どうどう。記録映像よ。[r]落ち着いて。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[messageOff]
+[charaPut G 1]
+[charaPut H 1200,1200]
+[charaEffect G bit_talk_security]
+[scene 31200]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠美遊
+……っ……！[r]使い魔の巡回が……。
+[k]
+
+[charaFace D 6]
+＠美遊
+もう行って、サファイア……！[r]どうか無事で……！
+[k]
+
+[se ad31]
+[messageOff]
+[charaFadeout D 0.1]
+[wt 1.0]
+[seStop ad31 1.0]
+
+[charaPut H 1]
+[charaPut G 1200,1200]
+[charaEffectStop G bit_talk_security]
+
+[scene 21810]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+………………（ずーん）
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………ああ……[r]イリヤさんがすごく落ち込んで……。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace B 4]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+[line 3]イリヤ様。[r]美遊様は、イリヤ様を待っておられます。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+気を落とさずに……[r]わたしもご協力いたします。
+[k]
+
+[charaFace B 0]
+＠イリヤ
+……うん、そうだよね。[r]ありがと、サファイア。無事に再会できて嬉しい。
+[k]
+
+[charaShake E 0.07 0 16 1.0]
+＠サファイア
+はい。美遊様のおそばにいるはずの私が、[r]ひとり戻りまして……本当に悔しいのです！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+それにこちらのカルデアの方々も……[r]イリヤ様をお守りくださって……感謝の念で一杯です。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+どうか、どうか……[r]美遊様をお救いくださいまし……！
+[k]
+
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaShake C 0.07 0 8 1.0]
+
+＠ルビー
+城へ潜入したサファイアちゃんの話を[r]聞きますと……。
+[k]
+
+[charaShake C 0.07 0 8 1.0]
+
+＠ルビー
+サファイアちゃんが、ミユさんと距離を置いた[r]にも関わらず、転身は解けなかったそうですし……。
+[k]
+
+[charaShake C 0.07 0 8 1.0]
+
+＠ルビー
+ファースト・レディは、こと魔法少女に関して、[r]特別な力をお持ちのようですね。
+[k]
+
+[charaShake C 0.07 0 16 1.0]
+
+＠ルビー
+これは危険です！[r]ルビーちゃんも、ミユさんが心配です！
+[k]
+
+？1：確かに、レディの計画は見過ごせない
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 3]ええ。サファイアさんの大切なマスター、[r]イリヤさんのご友人を助け出しましょう！
+[k]
+
+[charaFadeout A 0.1]
+
+
+？2：二人目にクール系は定番だ[&ね:ものね]
+
+
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+さすが[#Ω:おめが]高いですネ！[r]ドジっ子キュートとくれば清楚系クールです！
+[k]
+
+[charaShake C 0.07 0 8 1.0]
+＠ルビー
+しかもあれでなかなか[r]ムッツリな性癖を絶賛こじらせて……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace C 0]
+[charaFace E 0]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+[charaShake E 0.07 0 16 1.0]
+＠サファイア
+姉さん。それ以上いけない。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ちょ、何の話！？
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠イリヤ
+でも……ねえ、サファイア……[r]どうしてミユはあんなことを言ったの？
+[k]
+
+＠イリヤ
+わたしだけは来ちゃダメだなんて……。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+それは……私にも解りません。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+ですが美遊様は、レディの正体に関して[r]何か気付くところがあったようです。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+それでイリヤ様を[#慮:おもんぱか]ったのでしょう。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+レディの……正体？
+[k]
+
+
+？1：[&きみ:あなた]は何か知らない？　エレナ？
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠エレナ
+レディの正体[line 3][r]それなら、あたしたちも推測はしたわ。
+[k]
+
+[charaFace G 4]
+＠エレナ
+ファースト・レディ。[r]この魔法少女の総覧たる、固有結界の所有者。
+[k]
+
+[charaFace G 5]
+＠エレナ
+彼女は[line 3][r][#最初の魔法少女]と、云われている。
+[k]
+
+＠エレナ
+人類史を彩るあまたの英雄たちにも、[r]その原初たる、英雄の王が存在するように。
+[k]
+
+[charaFace G 4]
+＠エレナ
+魔法少女としての概念を、[r]最初に確立した少女がいる……。
+[k]
+
+[charaFace G 5]
+＠エレナ
+そんな推測をメイヴと語ったことはある。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ふぇ……[r]……知ってる？　ルビー？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+ん[line 7]！[r]ヤバい案件だってのはわかります！
+[k]
+
+[charaShake C 0.07 0 8 1.0]
+＠ルビー
+その理屈でいきますとー？　わたしたちは何度も[r]コピーを繰り返された偽物ってことになりますから、
+[k]
+
+[charaShake C 0.07 0 8 1.0]
+＠ルビー
+魔術的にはひじょうに劣勢に[r]立たされることになりますネ！
+[k]
+
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+ふふふふふ、[r]ルビーちゃん燃えてきましたよー！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace C 0]
+[charaFace E 0]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+[charaShake E 0.07 0 16 1.0]
+＠サファイア
+それでこそ姉さんです。
+[k]
+
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+あはは……[r]頼もしいけど……やっぱり不安。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………ですが……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+それが、美遊さんが、イリヤさんを[r]避けようとした理由なのでしょうか……？
+[k]
+
+[charaBackEffectStop H bit_talk_diremond_dust]
+[wt 0.5]
+[messageOff]
+[bgmStop BGM_EVENT_2 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+
+[charaFadeout A 0]
+
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+[fowardEffect bit_talk_eyecatch_07]
+[wait fowardEffect bit_talk_eyecatch_07]
+
+[fadeout black 1.0]
+[wait fade]
+[soundStopAll]
+[end]

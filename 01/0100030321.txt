@@ -1,0 +1,38 @@
+＄01-00-03-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20800 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 8001001 1 マシュ]
+[charaSet G 98018000 1 海賊]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……ふう。戦闘、終了しましたマスター。
+[k]
+
+＠Dr.ロマン
+周囲を探知……特に反応なし。[r]近くのサーヴァントの反応も動いていない。
+[k]
+
+＠Dr.ロマン
+気付いていないのかな？[r]ともかく、迅速にそこから離れることだ。
+[k]
+
+＠マシュ
+了解。このまま進みましょう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,416 @@
+＄01-00-06-16-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 6002001 1 呪腕のハサン]
+[charaSet C 98014000 1 砦の兵士]
+[charaSet D 98014000 1 砦の兵士Ｂ]
+[charaSet E 98014000 1 砦の兵士Ｃ]
+[charaSet F 2008000 1 トリスタン]
+
+[scene 29220]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠呪腕のハサン
+ふう。思いの外、長くなってしまいましたな。[r]さすがに宴は終わってしまいましたか。
+[k]
+
+＠呪腕のハサン
+[%1]殿、マシュ殿。[r]今宵はここで休まれよ。
+[k]
+
+＠呪腕のハサン
+……明日は朝から戦いの話をする事になります故。[r]しからば。
+[k]
+
+[charaSpecialEffect B erasureReverse 1 0.5]
+[wt 0.1]
+[se ad73]
+[wait charaSpecialEffect B]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……呪腕さんもお休みになるようですね。[r]広場は散らかったままですが、仕方ありません。
+[k]
+
+＠マシュ
+先刻は凄かったですね。[r]トータさんの米俵から大量のお米が出てきて……。
+[k]
+
+＠マシュ
+三蔵さんとトータさんがそれを炊いて、[r]沢山の炒め物を作って。チャーハン、でしたか。
+[k]
+
+＠マシュ
+この村の人たち全員が口にしてもなくならない、[r]無限の米俵。
+[k]
+
+＠マシュ
+聞きましたか？[r]あれは、トータさんの宝具なんだそうです。
+[k]
+
+？1：びっくりだ
+？2：戦闘能力はないけどね
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……はい。[r]あれは戦闘には使用できませんね。
+[k]
+
+＠マシュ
+戦えない宝具。サーヴァントのスペシャルアーツ。[r]でも、あの宝具の評価はＥＸランクです。
+[k]
+
+＠マシュ
+戦闘……戦わず、ああして人々の飢えを満たす。[r]そんな宝具もあるのだと初めて知りました。
+[k]
+
+＠マシュ
+……凄いですね。
+[k]
+
+＠マシュ
+ネロさんの言葉を思い出しました。[r]笑い声のない国があってたまるものか[line 2]
+[k]
+
+＠マシュ
+神祖ロムルスとの戦闘前に、[r]彼女は先輩にそう言っていました。
+[k]
+
+？1：言っていた
+？2：マシュ、聞いてたんだ？
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。聞いていました。[r]ただ、あの時、すぐには出て行けなくて。
+[k]
+
+＠マシュ
+先刻、この村の人々が浮かべていた表情……。[r]笑顔でした。誰も彼も、喜んで。
+[k]
+
+＠マシュ
+あの米俵は、[#そういう宝具]なんですね。[r]わたしは予想した事もありませんでした。
+[k]
+
+[charaFace A 7]
+＠マシュ
+もちろん、人を害する存在を“倒す”宝具も、[r]それは人を救うこととイコールで繋がる筈です。
+[k]
+
+＠マシュ
+でも[line 2]
+[k]
+
+[charaFace A 13]
+＠マシュ
+いいえ、すみません。言葉にできません。
+[k]
+
+[charaFace A 12]
+＠マシュ
+分かってはいるつもり……です。特異点で発生する[r]すべての事象は、本来は有り得ないはずの歪み。
+[k]
+
+＠マシュ
+わたしたちが聖杯を入手すれば、[r]すべては修正されます。事象も記憶も、すべて。
+[k]
+
+＠マシュ
+カルデアにとって、先輩にとって、[r]本当に意味がある行為は人理定礎を復元する事だけ。
+[k]
+
+＠マシュ
+だから、こんな風に特異点で苦しむ人々と[r]交友する行為には、本質的に意味がない。
+[k]
+
+＠マシュ
+けれど、それでも……何か……。
+[k]
+
+？1：意味がない事はないよ
+
+[charaFace A 13]
+＠マシュ
+……そうですよね。[r]その時にあった出来事。喜び。悲しみ。
+[k]
+
+＠マシュ
+……そういった感情の働きは、[r]たとえ消え去るにしても、偽物ではないのですから。
+[k]
+
+？2：記録には残らなくても、意味は残るよ
+
+[charaFace A 6]
+＠マシュ
+意味は残る……ですか？[r]記録には残らないのに？
+[k]
+
+＠マシュ
+もしかして逆、なんでしょうか？
+[k]
+
+＠マシュ
+たとえ誰にも記憶されず、[r]カルデアにも記録されないとしても[line 3]
+[k]
+
+＠マシュ
+“知られなかったけれど、そういう人生があった”[r]という事自体が、人類史の要素の一つだと？
+[k]
+
+[charaFace A 13]
+＠マシュ
+……そうですね。[r]難しくてわたしには分かりませんが[line 3]
+[k]
+
+＠マシュ
+その表現は、たいへん素晴らしいと思います。[r]“記録には残らなくても意味は残る”……
+[k]
+
+＠マシュ
+……たとえ、みんなから忘れられても。[r]その時にあった気持ちが、今を積み重ねていくのだと。
+[k]
+
+？！
+
+＠マシュ
+…………すみません、話し込んでしまって。[r]ハサンさんの言う通り、明日は朝から忙しそうです。
+[k]
+
+＠マシュ
+おやすみなさいマスター。[r]明日もいつも通りの、よい目覚めがありますように。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 1.9]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 20402]
+[wt 1.5]
+[fadein black 2.0]
+[wait fade]
+[bgm BGM_EVENT_1 0.1]
+
+
+[wt 0.4]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠砦の兵士
+全隊、礼！[r]円卓の騎士、トリスタン卿、ご来訪[line 4]！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠トリスタン
+……歓迎、ありがとうございます。[r]ですが、今はそのような気持ちではありません。
+[k]
+
+＠トリスタン
+現場を見せていただきます。[r]……どうか案内を。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠砦の兵士
+は！　こちらでございます！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.7 1]
+[wait wipe]
+
+[scene 20402]
+[wt 0.5]
+
+[fadeout black 0.1]
+[wait fade]
+[wipein leftToRight 0.1 1]
+[wait wipe]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+＠砦の兵士
+以上が昨夜の出来事です。[r]叛逆者の奇襲により兵力は七割減少。
+[k]
+
+＠砦の兵士
+現在、この砦は砦としての役割を果たす事が[r]できない状態です。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠トリスタン
+……なんと痛ましい。[r]聖都の騎士が毒による窒息死とは……
+[k]
+
+＠トリスタン
+このような非道を、王が聞けばなんと嘆かれる事か……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠砦の兵士
+……は。犠牲になった兵士三十余名、[r]アグラヴェイン様がお連れになった騎士二十六名。
+[k]
+
+＠砦の兵士
+この葬儀を執り行うため、[r]砦の兵士たちも一丸となって働いております。
+[k]
+
+＠砦の兵士
+獅子王陛下であればこう言われるでしょう。[r]弔いを済ませ次第、この雪辱を全力で果たせ、と。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠トリスタン
+……悲しい。[r]私は、本当に悲しい。
+[k]
+
+＠トリスタン
+[line 3]そのような判断しかできない貴方たちに、[r]この砦を任せていたなどと。
+[k]
+
+[bgmStop BGM_EVENT_1 0.3]
+[charaFadeout F 0.1]
+[se ad152]
+[seStop ad152 0.7]
+[wt 0.7]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠砦の兵士
+は[line 3]れ？
+[k]
+
+[messageOff]
+[capture]
+[specialEffect cutting]
+[charaFadeout C 0.1]
+
+[shake 0.05 2 2 0.2]
+[flashin once 0.1 0.1 FF0000AF FF000000]
+[se ad161]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠砦の兵士Ｂ
+ひ、ぃ……！？[r]トリスタン卿、何を[line 3]！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠トリスタン
+同胞の死を悼む暇など誰が与えたのです。[r]ああ……貴方たちの無能さが、私は悲しい。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[se ad152]
+[seStop ad152 0.7]
+[wt 0.7]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 0.1]
+
+[capture]
+[specialEffect cutting]
+[charaFadeout D 0.1]
+
+[shake 0.05 2 2 0.2]
+[flashin once 0.1 0.1 FF0000AF FF000000]
+[se ad161]
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠砦の兵士Ｃ
+ト、トリスタン卿……！[r]おお、お許しを、お許しを……！
+[k]
+
+＠砦の兵士Ｃ
+至急、追撃部隊を編成いたします！[r]名誉にかけて、山の民どもを殲滅いたしますので……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠トリスタン
+急ぎなさい。[r]彼らは馬で逃げた。
+[k]
+
+＠トリスタン
+であればその足跡、我が妖弦で辿るのみ。[r]一日前のものなら十分に追跡は可能です。
+[k]
+
+[charaFace F 4]
+＠トリスタン
+このような仕事は遊撃騎士の役割ですが、[r]これも獅子王陛下の思し召し。
+[k]
+
+＠トリスタン
+虫と言えど、[r]未だに[#燻:くすぶ]り続けるのは見るに堪えない。
+[k]
+
+[charaFace F 1]
+＠トリスタン
+ああ、本当に[line 3]私は悲しい。[r]この指でまた、彼らの命を摘み取らねばならないとは。
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.2]
+[soundStopAll]
+[end]

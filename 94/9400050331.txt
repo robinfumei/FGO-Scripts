@@ -1,0 +1,84 @@
+＄94-00-05-03-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20402]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 6014001 1 マタ・ハリ]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+[fadein black 1]
+[wait fade]
+＠マタ・ハリ
+あらあら、負けちゃった。[r]それではお通し致します。
+[k]
+
+[charaFace E 0]
+＠マタ・ハリ
+まだまだ歌も踊りもありますので、[r]どうかお楽しみ下さいませ。
+[k]
+
+[charaFace E 1]
+＠マタ・ハリ
+デラックスしてね、ふふふ。
+[k]
+
+[charaFadeout E 0.5]
+[wt 0.8]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+サーヴァント・アサシン、撤退しました。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……よかった。[r]まだパーティーは始まったばかりみたいですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠清姫
+旦那様との披露宴もこれくらい[r]派手に決めるべきでしょうか？
+[k]
+
+？1：さ、さあ……
+
+[charaFace D 2]
+＠清姫
+もう、しっかりして下さいまし。[r]わたくしだけの問題ではないのですよ？
+[k]
+
+[charaFadeout D 0.1]
+？2：ジミ婚で！
+
+[charaFace D 1]
+＠清姫
+まあ！　気が合いますわね！
+[k]
+
+＠清姫
+わたくしも確かに派手な披露宴はしたくないと[r]思っていたのです！
+[k]
+
+[charaFadeout D 0.1]
+？！
+
+[communicationChara 98003003 1 5 0 1]
+＠Dr.ロマン
+いやあ、この何を言っても結果が同じというあたり、[r]どうしようもない絶望感があるね、[%1][&君:ちゃん]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.5]
+[messageOff]
+[fadeout black 0.7]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

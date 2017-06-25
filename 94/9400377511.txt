@@ -1,0 +1,264 @@
+
+
+＄94-00-37-75-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7006000 1 坂田金時]
+[charaSet C 98071000 1 茨木童子]
+
+
+
+[scene 27600]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠茨木童子
+ぐっ……オ……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+辛そうじゃねぇか頭領！[r]年貢の納め時ってやつか、オラ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠茨木童子
+ッ……まだ……まだよ。
+[k]
+[charaFace C 2]
+[#吾:われ]をそう容易く[#屠:ほふ]れると思うか！
+[k]
+
+＠茨木童子
+[#汝:なれ]は知っているはずだ！
+[k]
+
+＠茨木童子
+如何な数の刀が身を裂こうとも、[r]如何な数の槍が身を貫こうとも！
+[k]
+
+＠茨木童子
+[#吾:われ]らは止まらぬ。[r]自らが飽くまで止まらぬ。
+[k]
+
+＠茨木童子
+[#吾:われ]らというモノは即ち、[#生き汚さの極致]。[r]他者の[#生:死]を喰らい続けるが故の、生の権化！
+[k]
+
+
+＠茨木童子
+それが[line 2]鬼なのだッッ！
+[k]
+
+[messageOff]
+
+[se ad11]
+
+[effect bit_talk_gouka]
+
+[seStop ad11 1.5]
+
+[wt 1.0]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+っ。ここまで届く……なんて熱量！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+
+＠茨木童子
+一軍すら焼き砕く、[#吾:わ]が炎熱の拳[line 3][r]その身に受けて、骨と化せ！
+[k]
+
+[charaFace C 2]
+
+＠茨木童子
+[line 3]走れ、[#叢原火:そうげんび]！
+[k]
+
+
+
+[effect bit_talk_29]
+[se bac27]
+
+[effectStop bit_talk_gouka]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[wt 1.5]
+[seStop bac27 0.5]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+あち、あちちち……！[r]自爆する気か、テメェ！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+宝具、展開します！
+[k]
+
+
+
+
+[messageOff]
+
+
+[voice NP_800100_2]
+
+[charaEffect A bit_talk_14]
+
+[fadeout white 0.7]
+
+[wt 1.5]
+[bgmStop BGM_EVENT_3 2.0]
+[wt 2.0]
+[charaFadeout A 0.1]
+
+[wait charaEffect A]
+
+[fadein white 2.0]
+
+[wait fade]
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+
+
+＠マシュ
+……ふう。なんとか防ぎきれました……[r]茨木童子は逃がしてしまいましたが。
+[k]
+
+
+
+＠マシュ
+あんな底力を出してくるとは……。
+[k]
+
+[charaFadeout A 0.1]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+
+＠坂田金時
+ああ、ありゃあ最後のあがきだ。[r]もうあの火力は出せねえよ。
+[k]
+
+
+＠坂田金時
+相手をぶっ倒す為じゃなく、[r]逃げる為にとっておきの宝具を使うとはな。
+[k]
+
+＠坂田金時
+そんな様だから酒呑に勝てねえんだよ、アイツは。[r]乱暴に振る舞っているが、根は受けっつーか。
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+
+＠マシュ
+はあ。では、その……酒呑さんは？
+[k]
+
+[charaTalk B]
+[charaFace B 1]
+
+＠坂田金時
+そりゃあ茨木とは正反対だ。[r]上品に見えて根っからの鬼だからな、アイツは。
+[k]
+
+[charaFace B 0]
+
+＠坂田金時
+って、んな話はどうでもいい。[r]いよいよ終わりが近いぜ、大将。
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+
+
+
+＠マシュ
+同感です。[r]ですが我々も疲労が蓄積していますので……。
+[k]
+
+？1：ああ、油断しないでいこう
+
+＠マシュ
+はい。鬼の怖ろしさはこれまでの戦いで[r]嫌というほどわかりました。
+[k]
+
+？2：……勝とう
+
+＠マシュ
+はい、マスター。もちろんです。
+[k]
+
+？！
+
+＠マシュ
+今のうちに、できる準備は全て済ませて、[r]万全の態勢で挑めるようにしておきましょう。
+[k]
+
+
+
+＠マシュ
+全ては、明日の決戦のために[line 2]
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_1 0.5]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

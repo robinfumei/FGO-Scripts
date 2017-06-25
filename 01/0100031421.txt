@@ -1,0 +1,138 @@
+＄01-00-03-14-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21250 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 3016000 1 ヘクトール]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0 2]
+[charaFace C 4]
+[charaFadein C 0 0]
+[fadein black 1]
+[wait fade]
+＠ヘクトール
+……畜生、ここまでか。[r]まあ、やるだけのことはやったからねえ。
+[k]
+
+[charaFace C 2]
+＠ヘクトール
+だが、せめてもの置き土産だ。[r]エウリュアレ、その命[line 2]『[#契約の箱:アーク]』に捧げな！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+しまっ……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace B 1]
+[charaFadein B 0 2]
+[charaFace C 0]
+[charaFadein C 0 0]
+＠エウリュアレ
+[line 2]そうね、そうするでしょうね。あなたは。
+[k]
+
+[charaFace C 2]
+＠ヘクトール
+なっ……！
+[k]
+
+[se bac15]
+[messageOff]
+[charaEffect C bit_talk_12]
+[wt 0.5]
+[charaEffectStop C]
+[wait charaEffect C]
+[charaFace B 0]
+＠エウリュアレ
+『[#女神の視線:アイ・オブ・ザ・エウリュアレ]』。
+[k]
+
+[charaFace C 3]
+＠ヘクトール
+ぐっ、は……参ったね。[r]オジサンの企み……どこで見抜いた……？
+[k]
+
+[charaFace B 5]
+＠エウリュアレ
+いいえ、別に見抜いた訳じゃないわ。[r]ただ、あなたは[#アステリオスを殺した]。
+[k]
+
+＠エウリュアレ
+私にとっては、それだけで充分に注意を払う[r]理由になっていただけよ、オジサン。
+[k]
+
+[charaFace C 0]
+＠ヘクトール
+……けっ。[r]やっぱり慣れない悪役はするもんじゃねえな。
+[k]
+
+[charaFace C 1]
+＠ヘクトール
+世界の終わりくらい、[#弾:ハジ]けようと思ったんだがね。[r]やっぱ[#頭:トップ]がダメだとどーしよーもねぇなあ。
+[k]
+
+[messageOff]
+[charaSpecialEffect C flashErasure 1 1]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect C]
+[wt 0.5]
+[charaFadeout B 0.1]
+[charaSet D 98019000 1 イアソン]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaFace D 3]
+[charaFace E 0]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+＠イアソン
+なっ……ヘクトール！？
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+ヘクトールも逝きましたか。[r]イアソンさま、どうなさいますか？
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+降伏は不可能、撤退も不可能。[r]私は治癒と防衛しか能の無い魔術師。
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+さあ、いかがいたしましょう？
+[k]
+
+[charaFace D 2]
+＠イアソン
+うるさい、黙れッ！[r]妻なら妻らしく、夫の身を守ることを考えろ！
+[k]
+
+＠メディア・リリィ
+ええ。もちろん考えています、マスター。[r]だってそれがサーヴァントですものね。
+[k]
+
+[charaFace D 3]
+＠イアソン
+っ……なんだその顔は。なんだってまだ笑っている！[r]おまえ、この状況がわかっていないのか……!?
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

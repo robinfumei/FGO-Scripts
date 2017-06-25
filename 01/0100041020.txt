@@ -1,0 +1,367 @@
+＄01-00-04-10-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 11000 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5011001 1 バベッジ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+おはようございます、先輩。[r]よく眠れましたか？
+[k]
+
+＠マシュ
+先ほど、仮眠用の部屋へ[r]おひとりで入って行かれたように見えましたが……
+[k]
+
+？1：あまり眠れなかった
+
+？2：あの部屋、作家英霊ズがいて…
+
+？！
+
+[charaFace A 11]
+＠マシュ
+え……あっ、そうでしたね……[r]あの部屋は作家英霊のおふたりが占拠していて……
+[k]
+
+[charaFace A 8]
+＠マシュ
+それだと、先輩は休めませんでしたよね。[r]す、すみません。気付きませんでした。
+[k]
+
+[charaFace A 12]
+＠マシュ
+わたしに割り当てられた居間のソファ、[r]先輩に使ってもらったほうが良かった……ですね……
+[k]
+
+？1：大丈夫
+
+？2：これで良かったんだよ
+
+？！
+
+＠マシュ
+……せんぱい……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠モードレッド
+ん。ふたりとも起きたのか。[r]なあ、おまえたち、フラン見なかったか？
+[k]
+
+[charaFace A 0]
+＠マシュ
+そういえば……[r]あっ。先輩、フランさんは、もしかして……
+[k]
+
+？1：隣の部屋です
+
+？2：作家部屋です
+
+？！
+
+[charaFace E 3]
+＠モードレッド
+……まあ、あいつがいいならいいけどな。[r]オレはあの部屋には入らねーぞ。
+[k]
+
+[charaFace A 11]
+＠マシュ
+ある種の異様な空気が充満していますよね。[r]あれが、締め切り前の作家の迫力なんでしょうか。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+現界してやることが、執筆、だからなあ。[r]アンデルセンは書いてるのかよくわからんけど。
+[k]
+
+[charaFace A 8]
+＠マシュ
+鬼気迫る、という極東の慣用句を[r]わたしはつい思い浮かべてしまいました……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ジキル
+おはよう、皆。[r]それぞれ仮眠は終えたようだね。
+[k]
+
+[charaFace G 0]
+＠ジキル
+ちょっと話がある。いいかな。[r]数時間前、君たちが見付けた名前についてだ。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout G 0.1]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+チャールズ・バベッジだったかな。[r]優れた科学者にして数学者、十九世紀英国の人物だよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジキル
+うん。彼はこの時代の人間だ。[r]僕は会ったことがないけど、思い出したことがある。
+[k]
+
+＠ジキル
+初代のヴィクター・フランケンシュタイン博士と[r]彼は知己であったはずなんだ。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFadein G 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+[line 3]すみません、待ってください。
+[k]
+
+＠マシュ
+バベッジ氏はこの時代から数えて十年以上も前、[r]既に亡くなっているはずの人物です。
+[k]
+
+[charaFace G 1]
+＠ジキル
+え。いや、それはおかしいな。[r]老齢だが健在で、碩学として活動しているはずだよ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+ジキル君、それは記憶違いではないのかい。[r]確実にバベッジ氏がこの時代の人間だと言えるかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジキル
+勿論。今年に入ってから読んだ王立協会の年鑑に[r]彼の名前があった。ヴィクターも彼の話をしていたし。
+[k]
+
+＠ジキル
+そんな彼がまさか死んでいるはずがないよ。[r]去年や今年の新聞にだって、彼の発明品が載ってある。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+確認させていただけますか。[r]ええと、そう、新聞で構いません。
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[wt 0.5]
+[scene 11000 0]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.4 1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+＠マシュ
+……確かに、記述がありますね。[r]チャールズ・バベッジ。生年1791年。氏本人です。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+考えられる可能性は二つだ。[r]一つ目、ボクらの歴史的記録が事実と異なっていた。
+[k]
+
+＠Dr.ロマン
+二つ目、事象に[#ずれ]が生じている。[r]それ自体はこれまでの時代でもあったからね。
+[k]
+
+＠Dr.ロマン
+オルレアンやローマ、世界の海でも。[r]いずれも事象が[#ずれて]ねじ曲がっていた。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+英霊としてではなく、[r]事象の変化として故人が生存している[line 3]
+[k]
+
+＠Dr.ロマン
+十二分に有り得ることだろう。[r]魔霧による死者にしても、そうだ。
+[k]
+
+＠Dr.ロマン
+二十世紀の事件がこの時代にまでずれ込んで[r]しまっている、ということなのかも知れないね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+では……。[r]フランさんや、ミスター・ジキルも？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+可能性は否定できない。[r]誰がこの時代の人間なのか、そうでないのか。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+特定するのはきわめて難しいだろうね。[r]現存する記録が存在しない場合は、特にそうだ[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジキル
+ん。僕の話をしてるのかい？[r]気になるけど今は後回しにしよう。緊急連絡だ。
+[k]
+
+[charaFace G 4]
+＠ジキル
+僕の情報網に引っ掛かったんだけれど、[r]悪い知らせだ。セイバーもいいかい、聞いてくれ。
+[k]
+
+[charaFace G 5]
+＠ジキル
+完全に稼働停止していた[r]ヘルタースケルターのすべてが[line 3]再起動した。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+何だ、またか。[r]リモコンが他にもあったってことか？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……確かに緊急事態ですね。[r]速やかに、再度、停止させる必要があります。
+[k]
+
+＠Dr.ロマン
+そうだね。敵にこれ以上、霧から現界する[r]サーヴァントを確保させてやる訳にはいかない。
+[k]
+
+＠Dr.ロマン
+マシュ、[%1][&君:ちゃん]、頼んだ。[r]今度こそヘルタースケルターを停止させてくれ！
+[k]
+
+？1：了解！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 1]
+[scene 10916 0]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0 0]
+[charaFace F 0]
+[charaFadein F 0 2]
+[fadein black 0.5]
+[wait fade]
+＠モードレッド
+とは言え、だ。[r]こっちにはフランがいるんだ。敵はかわせるぜ。
+[k]
+
+＠モードレッド
+前回の要領だ。[r]まっすぐ、敵との遭遇なくリモコンまで行ける。
+[k]
+
+＠フラン
+…………。[r]…………。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。[r]ですが、油断せずに急ぎましょう。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+油断はしないけどな。[r]それでも、前回のフランの精度を考えれば[line 3]
+[k]
+
+[se ad14]
+[wt 1]
+[charaFace E 3]
+＠モードレッド
+あれ。遭遇したのか……？[r]これ、まだリモコンの個体じゃないよな？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……機械作動音。大型、複数！[r]敵性集団です。マスター、指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[seStop ad14 0.4]
+[wait fade]
+[soundStopAll]
+[end]

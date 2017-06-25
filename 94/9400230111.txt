@@ -1,0 +1,60 @@
+
+＄94-00-23-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4004001 1 アストルフォ]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 2018001 1 子ギル]
+
+[scene 20520]
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アストルフォ
+大漁大漁！[r]いやー、やっぱりスネークハンティングはいいなあ！
+[k]
+
+＠アストルフォ
+この調子で生態系を変えてみようか！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+生態系を変えるのは止めて下さい……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+いえ、ラミアは生態系に関わりのない存在なので[r]問題ないですが……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+そ、それより、聖杯戦争を始めたという二人を[r]止めないと……！
+[k]
+
+[charaFace D 0]
+＠アストルフォ
+そうだったそうだった！[r]それじゃあ二人とも、ついてきて！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]

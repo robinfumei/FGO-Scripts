@@ -1,0 +1,167 @@
+＄94-00-31-07-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 3002000 1 ディルムッド]
+[charaSet F 98059000 1 ケイネス]
+[charaSet G 5002001 1 ジル]
+
+[scene 25100]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+敵の勢いが弱まってます！[r]今のうちに……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFace E 0]
+[charaFadein F 0.1 2]
+[charaFadein E 0.1 0]
+＠ディルムッド
+一気に突破します。宜しいかマスター？
+[k]
+
+[charaFace F 5]
+＠ケイネス
+うむ。この汚らわしい眷属の主に、[r]エルメロイの名のもと誅を下せ！
+[k]
+
+？1：エルメロイ？
+？2：やっぱり縁者？
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+（まぁその話はいずれまた、な……）
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 25200]
+
+[charaFadeout D 0.1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.4 1]
+＠マシュ
+こ、これは……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFace E 5]
+[charaFadein F 0.1 2]
+[charaFadein E 0.1 0]
+＠ディルムッド
+なんとおぞましい……死体をここまで慰み物にするとは！
+[k]
+
+＠ケイネス
+ふむ、これは監督役が始末を急ぐのも頷ける。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+
+＠Dr.ロマン
+気をつけてくれ！[r]サーヴァント反応、すぐそばにいるぞ！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_5 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.4 1]
+
+＠G：キャスター
+おのれ、我らが美の探求を阻む蒙昧め！[r]さては貴様らも聖処女の覚醒を阻むつもりか！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ジル・ド・レェ元帥！？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaTalk B]
+
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 4]
+
+＠Dr.ロマン
+相変わらずこの人はどこに召喚されても話が[r]まともに通じないよね……。
+[k]
+
+＠エルメロイ
+今回は召喚したマスターの影響もあってひときわ悪質だ。[r]聖杯戦争云々を抜きに、さっさと排除する必要がある。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ジル
+戯言を！[r]ここで供物となるのは貴様らの方だぁ！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

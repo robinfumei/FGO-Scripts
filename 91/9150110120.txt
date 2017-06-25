@@ -1,0 +1,148 @@
+＄91-50-11-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20900]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5011001 1 バベッジ]
+[charaSet D 98006100 1 ？？？]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠？？？
+バ、バカな……我が無敵の邪悪ゴーレム軍団が、[r]たった一体の機械の巨人に敗れるだと！？
+[k]
+
+＠？？？
+貴様……！[r]貴様は一体何者なんだ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠バベッジ
+我が名は蒸気王！！
+[k]
+
+＠バベッジ
+有り得た未来を掴むこと叶わず、[r]仮初めと消えた儚き空想世界の王である！
+[k]
+
+＠バベッジ
+我に武勇なく、覇業なく、栄光も有り得ず。[r]この身すべては妄念と夢想に過ぎず、故に[line 2]
+[k]
+
+[charaFace C 3]
+＠バベッジ
+そうとも、故にこそ！[r]我が宝具は真に無尽無限にして無双であると知れ！
+[k]
+
+[se ad42]
+[wt 0.3]
+[charaFace C 2]
+＠バベッジ
+[line 4]！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+蒸気王さま！[r]今宵も、わたしたちを助けてくださるのですね！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠バベッジ
+然り！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+＠？？？
+おのれおのれおのれッ！[r]ならば、私も奥の手を出すまでだ[line 2]変身！！
+[k]
+
+[messageOff]
+[flashin once 0.1 0.3 FF000000 00000000]
+[fadeout white 1]
+[wait fade]
+[charaSet D 98013100 1 ？？？]
+[charaTalk D]
+[charaFadein D 0 1]
+[wt 0.3]
+[fadein white 1]
+[wait fade]
+[se ad17]
+[wt 0.3]
+＠？？？
+[fontSize large]ＧＡＡＡＡＡＡＡＡＡＡＡ！！[fontSize -]
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+きゃああああああ！！
+[k]
+
+？1：大変だ、ドラゴンだバベッジ！
+
+？2：戦うしかないよ！
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠バベッジ
+……たとえ、幻想の王たる竜が立ちはだかろうと。[r]私は姫とこの世界を守るまでのこと。
+[k]
+
+[charaFace C 3]
+＠バベッジ
+我が宝具は是より真に開帳される！[r]見るがいい！
+[k]
+
+＠バベッジ
+絢爛なりし灰燼世界[line 2][r]あらゆる悪徳は失せ、人の栄える我が夢想の果て！
+[k]
+
+[se ad42]
+[wt 0.3]
+[charaFace C 2]
+＠バベッジ
+[line 4]機関全開！！
+[k]
+
+＠バベッジ
+全兵装解放！[r]蒸気式エーテル・リアクター、全力稼働である！
+[k]
+
+？1：戦おう、蒸気王！
+
+？！
+
+[se ad42]
+[wt 0.3]
+＠バベッジ
+[line 4]了解である！！
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

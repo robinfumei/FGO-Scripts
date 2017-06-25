@@ -1,0 +1,154 @@
+＄94-00-28-07-1-1
+
+[scene 20901]
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 11003001 1 ジャンヌ・オルタ]
+[charaSet E 3012001 1 ブリュンヒルデ]
+
+[scene 20901]
+
+[charaTalk C]
+[charaFace A 0]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+[fadein black 2.0]
+[wait fade]
+
+＠エミヤ
+ブリュンヒルデはどうにか仕留めたが……！
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい。ジャンヌ・オルタは[r]まだ生存しています……！
+[k]
+
+[charaFace C 5]
+＠エミヤ
+だが、あと一押しだ。[r]気張れマスター！
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1]
+[wait wipe]
+
+[scene 20901]
+
+[charaFadeout A 0]
+[charaFadeout C 0]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFace E 4]
+[charaFadein D 0 2]
+[charaFadein E 0 0]
+
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+＠ブリュンヒルデ
+……こちらの敗北です。[r]マスター……お役に立てず、申し訳ありません……
+[k]
+
+＠ジャンヌ・オルタ
+別にいいわよ。[r]アンタの奮闘は間近で見て、分かっていたし。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+実力不足は私の責任。[r]アンタをきちんとした形で召喚できなかった。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+精々、他の連中みたいに私を責めて死ねば？
+[k]
+
+[charaFace E 1]
+＠ブリュンヒルデ
+まあ、ふふふ。[r]ご主人様はまだ理解していないのですか。
+[k]
+
+＠ブリュンヒルデ
+[line 2]私は楽しかったですよ。[r]とても楽しかった。
+[k]
+
+＠ブリュンヒルデ
+私たちは贋作の英霊。本来の人格では決して[r]出来ない悪徳を、自虐を、愚行を行えました。
+[k]
+
+＠ブリュンヒルデ
+ご主人様のお陰で、馬鹿のように楽しかった。
+[k]
+
+＠ブリュンヒルデ
+そんな享楽を与えてくれた貴女を、[r]どうして私たちが責められましょう。
+[k]
+
+＠ブリュンヒルデ
+与えられた感情だろうが、作り物の設定だろうが、[r]それはただの起点に過ぎないのです。
+[k]
+
+＠ブリュンヒルデ
+私たちはそこから始まって、[r]貴女を好きになったのですから。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ブリュンヒルデ
+心苦しいですが、ここまでです。[r]さよなら、お姉様[line 2]
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect E flashErasure 0 0 1]
+[wait charaSpecialEffect E]
+[charaFadeout E 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wipeout leftToRight 1.0 1]
+[wait wipe]
+
+[scene 20901]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+＠ダ・ヴィンチちゃん
+残りは一人、か。
+[k]
+
+＠ダ・ヴィンチちゃん
+[%1][&君:ちゃん]、君はこの騒動を[r]どうやって解決するべきだと思う？
+[k]
+
+＠ダ・ヴィンチちゃん
+それを考えなきゃいけないよ？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+[soundStopAll]
+[end]

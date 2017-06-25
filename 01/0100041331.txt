@@ -1,0 +1,186 @@
+＄01-00-04-13-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 10909 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5003001 1 玉藻の前]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 3]敵性サーヴァント、撃破しましたっ！！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+オレの雷の勝ちだ！[r]残念だったな、ニコラ・テスラ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+はは……！[r]ははは、はははははははははは……！！
+[k]
+
+＠ニコラ・テスラ
+いいや、そう残念と言う訳でもなかろうさ！[r]私は紛うことなき星の開拓者なれば！
+[k]
+
+[charaFace H 4]
+＠ニコラ・テスラ
+真に、人類と世界の終焉など望むことはないとも。[r]天と地の英霊は未だ以て邪魔ではあるが[line 3]
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+世界の存続は我が雷電の文明の存続に他ならない！[r]礼を言おう、新たな神話を望む者ども！
+[k]
+
+＠ニコラ・テスラ
+希望の勇者たち！[r]現代に於けるゼウスたる我が身をよくも[#斃:たお]した！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+なれば素直に、[r]私は再び座へ戻るまで[line 3]
+[k]
+
+＠ニコラ・テスラ
+はは！！　はははははははは！！[r]それでは諸君[line 3]
+[k]
+
+＠ニコラ・テスラ
+[fontSize large][line 3]さらば！！[fontSize -]
+[k]
+
+[messageOff]
+[charaSpecialEffect H flashErasure 1 2]
+[wt 0.5]
+[se ba5]
+[wait charaSpecialEffect H flashErasure]
+[wt 1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……敵性サーヴァント、完全に反応消失しました。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠モードレッド
+ったく。最後まで言いたい放題、[r]やりたい放題の野郎だったぜ。
+[k]
+
+＠Dr.ロマン
+ニコラ・テスラの消滅を確認。[r]よし、お疲れさま。これで事態は収拾するはずだよ。
+[k]
+
+＠マシュ
+この足場は彼の魔力によって形成されていましたから、[r]じきに存在が不安定になるものと予想されます。
+[k]
+
+＠マシュ
+それでもかなり強力な効果ですので、今すぐに[r]消えてしまったりはしないとは思いますが……
+[k]
+
+＠Dr.ロマン
+まずは無事に地上へ戻らないとね。[r]さて、ロンドンの異変もこれでなんとか解決に[line 2]
+[k]
+
+＠Dr.ロマン
+………………………あ。そうか。しまった。
+[k]
+
+＠モードレッド
+ん？
+[k]
+
+[charaFace A 12]
+＠マシュ
+何でしょうか、ドクター。
+[k]
+
+？1：何か忘れてるような気がする
+
+？2：……聖杯は？
+
+？！
+
+[charaFace A 6]
+＠マシュ
+あっ[line 3]
+[k]
+
+＠Dr.ロマン
+うん。アングルボダから聖杯を回収してなかった。[r]い、いや、仕方ない。ボクらは急いでいたしね、うん！
+[k]
+
+[charaFace E 1]
+＠モードレッド
+ゆっくり戻って回収すりゃいいだろ。[r]もう、敵って言ったって雑魚しかいないんだしな。
+[k]
+
+[charaFace A 8]
+＠マシュ
+そう、ですね。[r]また地下へ戻るのは少し気が引けますが。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+じゃ、さっさと取りに行くか。[r]ジキルのアパルトメントに戻るまでもないだろ。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+[line 3]っと。[r]言った矢先に何か来たみたいだぜ。何だ？
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 7]
+＠Dr.ロマン
+高密度の魔力反応があるぞ……？[r]魔霧の中でも分かるほどの、膨大な……何だ……！？
+[k]
+
+＠Dr.ロマン
+ニコラ・テスラのそれとは異質だ、[r]バッキンガム宮殿上空に集積した魔霧が集まっている！
+[k]
+
+＠Dr.ロマン
+何かとてつもないものが来る！[r]警戒してくれ、マシュ、[%1][&君:ちゃん]！
+[k]
+
+[charaFace E 2]
+＠モードレッド
+何が来ようと関係あるかよ！[r]オレが、まとめて叩き斬ってやる！
+[k]
+
+[charaFace E 5]
+＠モードレッド
+[line 3]来い！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

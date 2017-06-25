@@ -1,0 +1,175 @@
+＄01-00-03-06-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊たち]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 5009001 1 ダ・ヴィンチ]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+へえ、これが本物のドラゴンかい！[r]ホントにトカゲみたいだねぇ！
+[k]
+
+＠マシュ
+正確にはワイバーンです。[r]フランスにおける戦いでは苦労させられました。
+[k]
+
+[charaFace A 6]
+＠マシュ
+……ん？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠エウリュアレ
+何かあったかしら？
+[k]
+
+[charaFace A 11]
+＠マシュ
+あ、いえ。今、ぼんやりと何か思いついたような[r]気が……。
+[k]
+
+？1：竜を材料にする
+
+？2：竜で船を補修する
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……それです、マスター！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ドレイク
+は？　竜でアタシの船を補修するってこと？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+＠エウリュアレ
+……あら、いいわね。[r]竜種の鱗ってのは、鎧に加工すれば鋼より頑丈よ。
+[k]
+
+[charaFace F 4]
+＠エウリュアレ
+ただ、相当な力を持つ者でないと加工は難しい[r]けど……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠アステリオス
+うー……。
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+あ、あなたがいたわね。[r]やれる？
+[k]
+
+[charaFace G 1]
+＠アステリオス
+う。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+アステリオスさんなら、問題なさそうですね。[r]では、早速鱗を剥いでみます！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein E 0.1 0]
+＠海賊たち
+おう、この兄ちゃんなら安心だ！[r]でもさっきみたいな無理はほどほどにな！
+[k]
+
+＠海賊たち
+おら、まずはメシ食えメシ！[r]そのあとにうちの[#鍛冶:オヤジ]に会わせてやるよ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+＠アステリオス
+う[line 3]う、ん。[r]食事、みんなで、食べる。
+[k]
+
+[charaFadeout G 0.4]
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20300 0]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[se ad32]
+[wt 1]
+[charaFace D 4]
+＠ドレイク
+うーん、確かに頑丈だけどまだまだ足りないねえ。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[seStop ad32]
+＠マシュ
+レオナルド技術長。[r]あと何頭倒せば船の補修に有用でしょうか？
+[k]
+
+＠ダ・ヴィンチ
+その鱗の大きさと加工による縮小分を考慮すると……[r]およそ三十頭分もあればいけそうかな。
+[k]
+
+[charaFace A 1]
+＠マシュ
+それなら巣が見つかれば、一日でどうにかできる[r]レベルですね。
+[k]
+
+？1：じゃあハンティングだ
+
+？2：となればクエストだ
+
+？！
+
+[charaFace A 13]
+＠マシュ
+マスター。[r]何だか冒険者っぽいですね、わたしたち。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+うーむ、やっぱり船の名前も『[#黄金の竜号:ゴールデン・ドラゴン]』に[r]変えた方がいいのかね……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

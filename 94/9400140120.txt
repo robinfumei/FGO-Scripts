@@ -1,0 +1,279 @@
+
+＄94-00-14-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2015001 1 アーチャー]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3004001 1 ランサー]
+
+[wt 0.3]
+[scene 21300]
+[fadein black 1]
+[wait fade]
+
+[charaTalk A]
+[charaFadein A 0.4 2]
+[charaFadein B 0.4 0]
+[charaFace A 0]
+＠A：マシュ
+殲滅完了しました。[r]マスター、お疲れ様でした。
+[k]
+
+[charaTalk B]
+[charaFace B 4]
+＠B：アーチャー
+……不甲斐ない。[r]あまりお役に立てず、恥じ入るばかりです。
+[k]
+
+[charaTalk A]
+＠A：マシュ
+い、いえ。[r]ご無事で何よりです。
+[k]
+
+？1：迷いがあった
+
+[charaTalk B]
+＠B：アーチャー
+……[&貴方:貴女]はどうやら、慧眼の持ち主らしい。[r]その通りです。私は……戦いに迷っています。
+[k]
+
+？2：戦いたくない？
+
+＠B：アーチャー
+優れたマスターは、自分のサーヴァントですらない[r]サーヴァントでも理解してしまうのでしょうか？
+[k]
+
+＠B：アーチャー
+その通りです。[r]私は[line 2]どうやら戦いに憂いを抱いている。
+[k]
+
+？！
+
+[charaTalk A]
+＠A：マシュ
+どういうことですか？
+[k]
+
+[charaTalk B]
+＠B：アーチャー
+今の私は真名はおろか、聖杯戦争を幾つ戦い、[r]幾つ勝利したのかも判らない。
+[k]
+
+＠B：アーチャー
+……敗北したとは思いません。[r]私は私の技量に絶大な信頼を置いています。
+[k]
+
+＠B：アーチャー
+私が一敗地に塗れるとすれば、[r]恐らくマスターが自害でも命じたのでしょう。
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+＠A：マシュ
+み、みなぎる自信……！[r]でもこの言葉には嘘がありません、先輩！
+[k]
+
+[charaTalk B]
+＠B：アーチャー
+そして生前も、恐らく私は敗北などしなかった。[r]だからこそ、虚しい。
+[k]
+
+＠B：アーチャー
+私の勝利も、あるいは敗北も。
+[k]
+
+＠B：アーチャー
+時間という高波に攫われるだけの、[r]矮小な小舟でしかない。
+[k]
+
+＠B：アーチャー
+勝利の喜びに意味はない。[r]敗北の屈辱も意味はない。
+[k]
+
+＠B：アーチャー
+ならば、執着にも意味はありますまい。
+[k]
+
+？1：ここで生きていることも？
+
+＠B：アーチャー
+……はい。言いにくいことですが、[r]今の私はそんな状態です。
+[k]
+
+＠B：アーチャー
+恐らく、マスターがいなければ[r]戦うことも放棄したかもしれません。
+[k]
+
+？2：死んだとしても？
+
+＠B：アーチャー
+元より、私はサーヴァントであり……[r]かつて戦士の階級にいたものでしょう。
+[k]
+
+＠B：アーチャー
+死を恐れることなど、ありませんから。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+＠ランサー
+それは違うぞ、アーチャー。[r]お前は死を恐れぬ戦士ではない。
+[k]
+[soundStopAll]
+
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠アーチャー
+……！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+え、誰……！？
+[k]
+
+[messageOff]
+[wt 0.3]
+
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaShadow D true]
+[wt 0.8]
+[charaFadein D 1.0 1]
+[charaFace D 0]
+＠ランサー
+今のお前は死を恐れているのではない。[r]死を見ていないだけだ。
+[k]
+
+＠ランサー
+あまりにも安穏、あまりにも安易に栄光を重ね、[r]そのあげく、無様にも生に飽いた。
+[k]
+
+＠ランサー
+達観はその果ての自暴自棄にすぎない。[r]自身の存在に全く重きを置いていないだけ。
+[k]
+
+＠ランサー
+それは殉教ですらない。[r]おまえには、その道は許されない。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.2]
+[charaShadow D false]
+
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠アーチャー
+……お前は……誰だ……！？[r]いや、違う……。私は、誰だ……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaShadow D true]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ランサー
+……業腹だが。[r]オレが真実を告げても、お前は決して納得すまい。
+[k]
+
+＠ランサー
+この世において唯一、何があろうと認めぬ相手。[r]オレにとってはそれが貴様だ、弓の男よ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.2]
+[charaShadow D false]
+
+[wt 0.1]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠アーチャー
+……ッ！
+[k]
+
+[messageOff]
+[se bac20]
+[wt 0.1]
+[fadeout white 0.1]
+[wait fade]
+[fadein white 0.1]
+[wait fade]
+[wait se bac20]
+
+[charaFadeout B 0.1]
+
+[charaShadow D true]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ランサー
+乱暴、かつ雑な一射だ。[r]これが素か？　だとしたら弦張りからやり直すのだな。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.2]
+[charaShadow D false]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+アーチャーさん！？
+[k]
+
+[charaFace A 0]
+＠マシュ
+落ち着いてください、彼は味方ではありませんが、[r]まだ敵と決まった訳では……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠アーチャー
+……分かっています。分かっているのですが……[r]私はあの男が[line 3]いや。
+[k]
+
+[charaFace B 5]
+＠アーチャー
+私は、お前が許せない。[r]どうあっても、お前の存在が許せないのだ……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaShadow D true]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ランサー
+[line 2]少しは調子が戻ってきたか。[r]その猛り、その理不尽な憎悪。
+[k]
+
+＠ランサー
+その傲慢さこそがおまえの真価だ。[r]神罰の如き怒りこそ、その弓の持ち主に相応しい。
+[k]
+
+＠ランサー
+誰はばかる事なく振り下ろすがいい。[r]なに、遠慮は無用だ。
+[k]
+
+＠ランサー
+オレも一切の手心なく、[r]この影の槍をおまえの喉に打ち込もう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

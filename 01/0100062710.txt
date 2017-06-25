@@ -1,0 +1,688 @@
+＄01-00-06-27-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 4012000 1 オジマンディアス]
+[charaSet D 1020000 1 ランスロット]
+
+[scene 29310]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ランスロット
+ではオジマンディアス王。[r]貴方からの軍勢は聖都の西から、このように進軍を。
+[k]
+
+＠ランスロット
+我々が聖都に到着するのは四日後の朝です。
+[k]
+
+[charaFace D 6]
+＠ランスロット
+夜通しで聖都付近の荒野まで移動し、[r]夜明けと共に進軍する。くれぐれも……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFace D 6]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+
+＠オジマンディアス
+安心しろ。神獣兵団は期限までに納品する。[r]城壁西側の陽動は任せよ。
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+我が獣使いたちは先行して貴様らに同行させる。[r]連携の打ち合わせは道すがら、綿密にやっておけ。
+[k]
+
+[charaFace D 1]
+＠ランスロット
+かたじけない。[r]……流石、[#戦:いくさ]に慣れていらっしゃる。
+[k]
+
+[charaFace B 5]
+＠オジマンディアス
+世辞はいらぬ。聞き飽きた。それより帰路を急げ。[r]早馬でも山岳地帯まで三日では厳しかろう。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+はい。ありがとうございました、オジマンディアス王。[r]御身もお気を付けて。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+フン……貴重な神獣を貸し与えるのだ。[r]くれぐれも無駄にはするなよ？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout B 0]
+
+[scene 28820]
+
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+
+[fadeout black 2.0]
+[wait fade]
+
+[scene 28410]
+
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+
+[fadeout black 2.0]
+[wait fade]
+
+[scene 28500]
+
+[bgmStop BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+
+[bgm BGM_EVENT_25 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 29112]
+
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet C 6002001 1 呪腕のハサン]
+[charaSet D 6009002 1 静謐のハサン]
+[charaSet E 6003001 1 百貌のハサン]
+[charaSet F 5022001 1 三蔵]
+[charaSet G 5009001 1 ダ・ヴィンチ]
+[charaSet H 98003000 1 Dr.ロマン]
+
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 0]
+[wt 0.5]
+
+[fadein black 2.0]
+[wait fade]
+
+＠Dr.ロマン
+という訳で、最短距離で東の村に到着だ。[r]ぎりぎり、決戦前に間に合ったようだね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+お帰り、お待ちしておりました。[r]お疲れ様です、[%1]。
+[k]
+
+＠ベディヴィエール
+オジマンディアス王への協力要請……[r]万事上手くいったと聞いています。
+[k]
+
+[charaFace B 0]
+＠ベディヴィエール
+彼の王と話をつけると聞いた時は[r]我が耳を疑いましたが……
+[k]
+
+[charaFace B 1]
+＠ベディヴィエール
+彼の王の協力が得られた事は喜ばしい。[r]こちらからも良い報告があります。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+よくぞ戻られた皆さま。[r]こちらの準備はこの通り、ほぼ済んでおります。
+[k]
+
+？1：なんか、村の様子が……
+？2：活気がある……
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠静謐のハサン
+はい。この村には今、[r]様々な村の代表が集まっていますので。
+[k]
+
+＠静謐のハサン
+聖都攻略に備えて連携をとっているところです。[r]我々が集めた七千。それに[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠百貌のハサン
+……あれから我らの蜂起に賛同し、水面下で[r]立ち上がった聖地の民、二千。
+[k]
+
+＠百貌のハサン
+目的の一万……いや、二万には届かなかったが、
+[k]
+
+＠百貌のハサン
+それはおまえたちが連れてきたランスロットの軍勢と[r]オジマンディアスの兵団で補えるだろう。
+[k]
+
+？1：ハサンさんたち、ただいま
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+こちらは特に波風立たず……[r]とはいきませんでしたな、ははは。
+[k]
+
+[charaFadeout C 0.1]
+
+？2：こっちは大丈夫だった？
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠静謐のハサン
+それが、連日の忙しさです。[r]まさかこんな事になるなんて、思っていなかったので。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠三蔵
+予想外の出来事があったってコト？[r]それにしてはみんな嬉しそうだけど……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠百貌のハサン
+…………ふん。[r]言っただろう、二千もの参戦があったと。
+[k]
+
+＠百貌のハサン
+私は兵力の増強など諦めていた。[r]夢のまた夢だとな。
+[k]
+
+[charaFace E 0]
+＠百貌のハサン
+だが、一日、また一日と少しずつこの村を訪れる[r]村々の長が出てきてな。
+[k]
+
+＠百貌のハサン
+十人が三十人に。三十人が六十人に。[r]あとは倍々というヤツさ。
+[k]
+
+[charaFace E 4]
+＠百貌のハサン
+今まで我々がどれほど説得しても[r]重い腰をあげなかったというのにな。
+[k]
+
+[charaFace E 0]
+＠百貌のハサン
+“私を嘆きの壁で助けてくれた人がいる”[r]“オレたちを聖都で逃がしてくれた人がいる”
+[k]
+
+＠百貌のハサン
+果ては、[r]“砂漠の入り口で、人間だと言ってくれた”だとさ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 6]。
+[k]
+
+？1：それって[line 3]
+？2：あの時の[line 3]
+
+？！
+
+[charaSet H 98002000 1 フォウ]
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠百貌のハサン
+その連中がいるなら仲間になってもいい、なんて[r]話じゃない。ただ、それで気が変わったのだとか。
+[k]
+
+[charaFace E 4]
+＠百貌のハサン
+まったく[line 3]人間の心理というヤツはこれだから。
+[k]
+
+[charaFace E 0]
+＠百貌のハサン
+私たち山の翁が山の民を助けるのは当たり前だ。[r]だから誰も“なぜ”と思わない。
+[k]
+
+＠百貌のハサン
+だが助ける義理のない異邦人に助けられた者は[r]いつまでも疑問に思っていたんだろうさ。
+[k]
+
+＠百貌のハサン
+“なぜ、あの異邦人は我々を見捨てなかったのか”[r]とな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠ダ・ヴィンチ
+そうか。それは私にはない発想だ。[r]最強でも最優でもない。けれど小さな事を投げ出さない。
+[k]
+
+＠ダ・ヴィンチ
+……ロマニが必要だと信じたのは、[r]そういう[#人間:マスター]だったんだね。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.2]
+
+[messageOff]
+[charaSet E 98083000 1 ルシュド]
+[charaSet G 2014000 1 俵藤太]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ルシュド
+あ[line 3]！　お帰りなさい、[r][%1][&兄ちゃん:姉ちゃん]、マシュお姉ちゃん！
+[k]
+
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[charaTalk off]
+
+[charaFace A 6]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+[wt 0.1]
+[charaMove E 1 0.25]
+[wait charaMove]
+
+[se ad111]
+[charaShake A 0.05 3 3 0.2]
+[wt 0.5]
+[charaMove E 0 0.5]
+[wait charaMove]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 1]
+＠マシュ
+はい。ルシュド君、ただいまです。[r]元気にしていましたか？
+[k]
+
+＠ルシュド
+もっちろん！[r]焼けちゃった家も元通りにしないといけないしね！
+[k]
+
+[charaFace A 13]
+＠マシュ
+それはたいへん結構です。
+[k]
+
+[charaFace A 3]
+＠マシュ
+でも、一直線に突撃してくるのはいけません。[r]それはタックルと呼ばれる特殊な捕獲[#行動:アクション]なので。
+[k]
+
+＠ルシュド
+はーい。……あれ？　アーラシュの兄ちゃんは？[r]一緒に行ったんじゃないの？
+[k]
+
+[charaFace A 6]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+………………。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……アーラシュさんは、先に荒野の方に向かっています。[r]聖都の様子を観察する、と。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ルシュド
+…………そっか。[r]なら、またいつか会えるよね！
+[k]
+
+[messageOff]
+[charaFadeout E 0.4]
+[se ad59]
+[wt 1.0]
+[seStop ad59 1.0]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠静謐のハサン
+……広場の方に走っていきました。[r]ルシュドは[#聡:さと]い子ですから、その……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠俵藤太
+逆に気を遣われてしまうとはなあ。[r]うむ、では拙者は台所で一仕事してくるか！
+[k]
+
+＠俵藤太
+悲しい時には美味い飯だ！[r]今夜は特によく龍神さまに頼むとしよう！
+[k]
+
+
+[messageOff]
+[charaFadeout G 0.4]
+[wt 0.8]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠三蔵
+待った、あたしも行く[line 3]！[r]お弟子は勝手に行動しな[line 3]い！
+[k]
+
+＠三蔵
+いきなり半裸の大男が現れてみなさい！[r]トータだけじゃみんなが怖がるでしょ！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+[charaFadein H 0.1 0]
+
+＠フォウ
+フォフォーウ！
+[k]
+
+[messageOff]
+[charaFadeout F 0.4]
+[charaFadeout H 0.4]
+[wt 0.8]
+
+[charaSet F 1020000 1 ランスロット]
+[charaSet H 6003001 1 百貌のハサン]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+……いや、懐かしい騒がしさだ。[r]たった数日しか開いていなかった筈なのですがな。
+[k]
+
+？1：まったくだ
+？2：どんな時も明るいのがカルデアだよ
+
+？！
+
+[charaFace C 1]
+＠呪腕のハサン
+うむ、それは強い。[r]私も見習うといたしましょう。
+[k]
+
+[charaFace C 0]
+＠呪腕のハサン
+[line 3]では[%1]殿。[r]改めて、最後の確認を致します。
+[k]
+
+＠呪腕のハサン
+我らはこれより荒野に下り、[r]各地に散らばった軍勢を集結、聖都に向けて移動する。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠ランスロット
+道案内は私がします。荒野にも[#凹凸:おうとつ]があり、[r]聖都の見張りには見つからない死角がありますので。
+[k]
+
+＠ランスロット
+ですが、それも聖都付近まで。[r]聖都周辺の荒野に隠れる場所は存在しない。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+然り。故に、我らは荒野で最後の休息をとり、[r]夜の闇に紛れて聖都を目指す。
+[k]
+
+＠呪腕のハサン
+夜のうちに聖都に辿り着ければ良いのですが、[r]なにしろ一万近い軍勢。馬も少ない。
+[k]
+
+＠呪腕のハサン
+聖都を視界に収める頃には夜明けとなりましょう。[r]そして、それは聖都側にも同じ事。
+[k]
+
+＠呪腕のハサン
+獅子王は我らの進軍に気づき、守りを固める。[r]我らはこれを突破し、聖都内に侵攻。
+[k]
+
+＠呪腕のハサン
+我々の連合軍で聖都を制圧し、王城を陥落させる。[r]その後は[%1]殿にお願いしたい。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+……獅子王を討つ役目は我々に、という事ですね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+然り。獅子王はサーヴァント。[r]兵士が何人かかろうと太刀打ちできない相手。
+[k]
+
+＠呪腕のハサン
+我ら山の翁が束になっても獅子王の喉に刃は[r]届きますまい。
+[k]
+
+＠呪腕のハサン
+残された対抗手段は貴方がたのみ。[r][line 3]よろしいですな？
+[k]
+
+
+？1：……（無言で頷く）
+
+？！
+
+[bgmStop BGM_EVENT_25 1.5]
+
+[charaFace C 5]
+＠呪腕のハサン
+であれば、構えられよ[%1]殿。[r]マシュ殿。ベディヴィエール卿。
+[k]
+
+[bgm BGM_EVENT_24 0.1]
+
+＠呪腕のハサン
+我ら山の翁、これより貴方がたに戦いを挑みまする。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 0.5]
+[charaFace A 7]
+
+＠マシュ
+！？[r]なぜでしょう、戦う理由が分かりません……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠百貌のハサン
+我々なりの落としどころだ。[r]私はよそ者を信頼するなど、今でも反対なのだがな。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠静謐のハサン
+聞き流してください[%1]様。[r]百貌殿はこうでも言わないと格好がつかないのです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+＠百貌のハサン
+落としどころだと言ったろう！[r]より強い者になら仕方なく任せる、という話だ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+如何にも、百貌めの言う通り。[r]どうかお付き合いを、[%1]殿。
+[k]
+
+＠呪腕のハサン
+我ら山の民の命運を托すに足る実力か否か[line 3][r]ここで、最後の打ち合いをさせていただく！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.5]
+[wait fade]
+[soundStopAll]
+[end]

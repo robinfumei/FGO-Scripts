@@ -1,0 +1,106 @@
+＄01-00-03-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 4008002 0 黒髭]
+[charaSet G 4009101 1 メアリー]
+[charaSet H 4009201 1 アン]
+[charaFace G 2]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+＠メアリー
+はあああああああああ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadein A 0 1]
+[charaFace A 15]
+＠マシュ
+……くっ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠アン
+メアリー、加わるわ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadein G 0.1 1]
+[charaFace G 2]
+＠メアリー
+うん！
+[k]
+
+[charaSet G 4009001 0 メアリー]
+[charaSet H 4009001 0 アン]
+[charaTalk A]
+[charaFadein H 0.1 0]
+[charaFadein G 0.1 0]
+[charaFadein A 0 2]
+＠マシュ
+この二人……一組でサーヴァント！？
+[k]
+
+[charaFadeout A 0.1]
+[charaSet G 4009101 1 メアリー]
+[charaSet H 4009201 1 アン]
+[charaTalk G]
+[charaFadein A 0 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠メアリー
+僕の名はメアリー・リード。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadein H 0.1 0]
+[charaFace H 0]
+＠アン
+そして私がアン・ボニー。
+[k]
+
+[charaFadeout H 0.1]
+[charaSet G 4009001 0 メアリー]
+[charaSet H 4009001 0 アン]
+[charaTalk A]
+[charaFadein H 0.1 0]
+[charaFadein G 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+伝説の女海賊。メアリー・リードとアン・ボニー。[r]道理で抜群の連携な訳です……！
+[k]
+
+[charaFace H 1]
+[charaFace G 1]
+＠メアリー
+……面白いね。[r]盾の英霊なんてホントにいたんだ。
+[k]
+
+＠アン
+そちらにもサーヴァントが沢山いらっしゃることですし。[r]メアリー。ここはひとまず、いつものように。
+[k]
+
+＠メアリー
+[line 2]うん。[r]僕たちはまだ負けていない。
+[k]
+
+＠メアリー
+ここで君たちを押し切れば、勝てるはずだ。[r]……行くよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

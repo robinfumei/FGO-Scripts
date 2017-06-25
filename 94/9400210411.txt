@@ -1,0 +1,469 @@
+
+
+＄94-00-21-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 6007002 1 ジキル]
+
+[scene 22110]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ジキル
+う、ぐ……ああ、またハイドが出たんだね……[r]ごめん……僕もハイドも、アイツに操られて……
+[k]
+
+＠ジキル
+[%1][&君:ちゃん]、メフィストに気をつけて……[r]そいつは信用できない……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィスト
+おや？　[#私:わたくし]？[r]いえいえ、[#私:わたくし]とっくに改心してますよぅ？
+[k]
+
+＠メフィスト
+あ、いけません、改心はいけません！[r]だって[#私:わたくし]、善のメッフィーですから！
+[k]
+
+＠メフィスト
+改心しては悪になってしまいます！[r]してませんしてません、ぜーんぜん反省してませーん！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ジキル
+ぐっ……！　どういう事だろう、[#霊基:からだ]が保てない……[r]視界が黒くなっていく……
+[k]
+
+＠ジキル
+[%1][&君:ちゃん]、手を、手を出して……[r]最期に、渡さなくちゃいけないものが[line 3]
+[k]
+
+？1：ジキルに手を差し出す
+
+
+[charaFace F 1]
+＠ジキル
+……良かった。人を信じる心を持っている……[r]君は、僕が願った通りのマスターだ。
+[k]
+
+[charaFace F 5]
+
+？2：…………
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……マスター？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+？！
+
+＠ジキル
+さあ、この鍵を[line 3]これで上の階に[line 3]
+[k]
+
+[bgmStop BGM_EVENT_6 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠ジキル
+上の階に行く前に死ねぇぇぇええええ！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[charaSet F 6007003 1 ハイド]
+
+[se bac4]
+[effect bit_talk_37]
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 0.1]
+[fowardEffect bit_talk_14]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[shake 0.05 0 5 0.4]
+[wt 0.1]
+[se ad82]
+[wt 0.7]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ハイド
+ギッ[line 3]！
+[k]
+
+[messageOff]
+[se bac4]
+[fowardEffect bit_talk_37]
+[wt 0.2]
+[charaShake F 0.05 3 3 0.4]
+[wt 0.2]
+
+
+[wt 0.7]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+ごくろうさん。[r]鍵はありがたく使わせてもらうぜ、先輩。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ハイド
+て、めえ[line 3]！　二度までも[r]オレの騙し討ちを台無しにしやがったな！？
+[k]
+
+＠ハイド
+瀕死の美少年の頼みさえ聞かないとは恐れ入る！[r]人を信じる心がねえのか！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠両儀式
+普段のおまえなら騙されてる。[r]いや、ほだされてる、かな。
+[k]
+
+＠両儀式
+でも今回はどっちもないよ。[r]だっておまえ、さっきからずっと[#一人じゃないか]。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ハイド
+[line 6]げ。[r]もしかして、モロバレでした？
+[k]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠両儀式
+有名なジキル博士に会いたかったのに、[r]はじめからいないんだものな。
+[k]
+
+＠両儀式
+二重人格じゃなくて、[r]一人が二重人格の演技をしているだけなんだ。
+[k]
+
+＠両儀式
+ファンとして、[r]オレが失望するのも無理からぬ事だろう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ハイド
+あー……それは恥ずかしい。マジ恥ずかしい。[r]ナイフさばきで負けた事より恥ずかしい。
+[k]
+
+＠ハイド
+穴があったら入りたいぜ、ちくしょう。[r]ま、その必要はなさそうですけど？
+[k]
+
+＠ハイド
+物騒な後輩に免じて、オレもここらで消えておくか。
+[k]
+
+＠ハイド
+じゃあな、現代の殺人鬼。[r]せいぜい[#もどき:エピゴーネン]にならないよう気を張りやがれ。
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect F]
+
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……敵サーヴァント、消滅しました。[r]あの……今のはどういう事なのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠両儀式
+知らない。[r]ハサミ男、なんか喋れ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メフィスト
+ヒヒヒ！[r]ではどうでもいい事なので二行で語りましょう！
+[k]
+
+＠メフィスト
+あのジキル博士はこのマンションに来てすっかり変質、[r]心身ともに腐れ落ち、ご臨終なされていたのです！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaFace A 7]
+＠マシュ
+ジキル博士は二重人格のサーヴァント……[r]その主人格であるジキル博士は既に失われていた、と？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+そして残ったハイド氏だけがジキル博士のフリを[r]していた訳か……物語通りの結末とは、悲しいな……
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+しかし、変質とは何でしょう？
+[k]
+
+＠マシュ
+ジキル博士は薬でハイド氏に変貌するサーヴァント[r]ですが、その薬による変貌とは違うようでしたが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠メフィスト
+ああ、それはですねぇ。[r]言い忘れていましたが、このマンションの特色でして。
+[k]
+
+＠メフィスト
+ある特徴、経歴？　それとも前科？[r]んー、まあそのあたりはアバウトに？
+[k]
+
+＠メフィスト
+とにかく、ここにいると特定のサーヴァントは[r]属性が変化し、恨みがましくなるのでーす！
+[k]
+
+＠メフィスト
+かくいう[#私:わたくし]もこの通り！　戦いたくても[r][#脛:すね]に[#瑕:きず]を受けてしまいまして！ヒホッ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+英霊の属性が変化するだって！？[r]パラメーター改ざんの新タイプか！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィスト
+はい。まあ、怒りやすくなる、といったストレス値？[r]沸点が低くなる？　ような？
+[k]
+
+＠メフィスト
+なので特に害はありませんねぇ。[r]ああ、ただ[line 3]
+[k]
+
+[charaFace E 3]
+＠メフィスト
+恨みや辛みを持ったまま最期を迎えた方たちには、[r]これはてきめん効くのではないかと！
+[k]
+
+＠メフィスト
+人を恨むあまり悪霊化してしまう英霊とか、[r]なかなかアイロニーに満ちた顛末ですしぃ？
+[k]
+
+＠メフィスト
+悪い[#私:わたくし]もその手のサーヴァントの方たちに[r]声をかけた次第で。はい。
+[k]
+
+＠メフィスト
+連れてこられたサーヴァントの皆さん、[r]こう、ドロッと凶暴化していましたよ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ダ、ダメじゃないですかー！[r]メフィストさん、やっぱりギルティです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+ヒヒ、[#私:わたくし]は不動産業に[#勤:いそ]しんだだけデース！[r]悪いのは土地と建物と黒幕デース！
+[k]
+
+？1：次に会うときは法廷だな。
+
+[charaFace E 4]
+＠メフィスト
+なんと……裁判官のサーヴァントとまで[r]契約なさっておいでとは……
+[k]
+
+＠メフィスト
+その裁判にホムンクルスの陪審員はいらっしゃい[r]ますでしょうな？　人間よりの裁判はズルいですよぅ？
+[k]
+
+？2：黒幕……？
+
+[charaFace E 3]
+＠メフィスト
+おおっと、マシュ嬢の愛らしさに釣られて[r]つい口が。えい、お口チャック。
+[k]
+
+＠メフィスト
+そこはそれ、上の階に行けば自ずと分かりますので！[r]たぶん！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠両儀式
+[line 6]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠メフィスト
+おや。そこで微笑む？　なぜでしょう？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+[%1]といると楽しそうだぞ、ピエロ。[r]やっぱりいい客がいるとノリがよくなるのか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+そんなこと？　あるのです？[r][#私:わたくし]、つねにご機嫌ヒャッホーですが？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+それは見れば分かる。[r]いいよ、これで上に行けるんだろ？
+[k]
+
+＠両儀式
+先に進もうぜ、[%1]。[r]ここからがようやく本番らしい。
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_5 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+
+

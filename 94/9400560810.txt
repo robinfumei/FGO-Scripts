@@ -1,0 +1,401 @@
+
+
+＄94-00-56-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 6024000 1 スカサハ]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 2026000 1 アルトリア]
+[charaSet E 2025100 1 メアリー]
+[charaSet F 2025200 1 アン]
+[charaSet G 3025000 1 清姫]
+[charaSet H 4024000 1 モードレッド]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+＠スカサハ
+うむ。こんなものか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠マシュ
+か……完成です！　[r]ついに脱出船が完成しましたよ、マスター！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaSet C 3024000 1 玉藻の前]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠アルトリア
+それなりに長い道のりだったような気がします。[r]感慨深いものですね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠メアリー
+いい船だと思う。乗り心地については、[r]動かしてみないとわからないけど。
+[k]
+
+＠アン
+どうあれ、実際の操船に関してはご心配なく。[r]私たちにお任せください。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠清姫
+今度はますたぁとのクルーズ……船上での[r]ろまんす、というやつですね。うふふ……。
+[k]
+
+[charaFace G 1]
+＠清姫
+あ、そうだ……船首！　船首のあれ！[r]確か、たいたにくでございましたか！
+[k]
+
+[charaFace G 3]
+＠清姫
+あれ、一緒にやりましょう旦那様！[r]まあ、そんな恥ずかしがらずとも！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠モードレッド
+もうちょい鉄板とか貼っつけたほうが[r]カッコよくねぇか？　トゲとかさ？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠玉藻の前
+楽しいヴァカンスもそろそろ終わりですかぁ。
+[k]
+
+[charaFace C 0]
+＠玉藻の前
+まあいいです、充分に夏の[#私:わたくし]の姿の残像は[r]マスターの網膜に刻み込めたでしょうし。
+[k]
+
+＠玉藻の前
+カルデアに帰れば必殺・タマモサブリミナルが炸裂です。[r]もう水着を見ないと落ち着かない身体に、みたいな！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaSet C 5027000 1 マリー]
+[charaSet G 98100800 1 うりぼう]
+[charaSet H 9004000 1 マルタ]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠マルタ
+……ん？　ふふ、うりぼうさんたちも[r]喜んでくれていますね。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠うりぼう
+ぴぎ、ぴぎ、ぴぎー！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠マリー
+まあ。みんなで拍手してくれてるみたいね？[r]ありがとう[line 3]
+[k]
+
+[charaFace C 4]
+＠マリー
+ねえ、スカサハさん。[r]この子たち、乗せてあげられないの？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠スカサハ
+無理だ。[r]数が数だし、最初の設計時にも想定しておらん。
+[k]
+
+＠スカサハ
+この船には様々な事態に対処できるようルーンも施して[r]おるが、魔術的にシビアな調整をしてある。
+[k]
+
+＠スカサハ
+そやつらを乗せては立ちゆかなくなるぞ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠マリー
+そうなの……残念ね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠うりぼう
+……ぴぎー……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠マリー
+でも、この島にはまだあの大きな魔猪がいるのでしょう？[r]この子たち、残しておいたら[line 3]
+[k]
+
+？1：襲われちゃうかも
+？2：安心して暮らせないかも
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+そうですね。その可能性がありました。[r]なんとか後顧の憂いのないようにしたいのですが[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠スカサハ
+ふん[line 3][#解決策が]、[#向こうから来おったぞ]。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaSet H 98101700 1 ？？？]
+
+[bgmStop BGM_EVENT_2 0.1]
+[se ad36]
+[charaTalk H]
+[charaFadein H 0.4 1]
+[wt 0.5]
+＠？？？
+[line 3]ＧＲＲＲＲＲＲＲＦＦＦＦＦ！
+[k]
+
+[charaFadeout H 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠アルトリア
+また現れましたか！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFace F 5]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠メアリー
+でも見て。[r]こないだ与えた傷が癒えきっていない。
+[k]
+
+＠アン
+今なら[line 3]殺せるかもしれませんわ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaSet G 3025000 1 清姫]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……マスター。
+[k]
+
+[bgmStop BGM_EVENT_3 1.5]
+
+？1：今すぐ船に飛び乗って出航すれば逃げられるね
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠マリー
+マスター。
+[k]
+
+
+？1：……でも
+？！
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠清姫
+……ますたぁ。
+[k]
+
+
+？1：うりぼうたちにはいろいろ借りがある
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠スカサハ
+…………フッ。
+[k]
+
+[charaSet E 4024000 1 モードレッド]
+
+
+？1：島の平和のために[line 3]戦おう！
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+ヘッ……そうこなくっちゃな！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠アルトリア
+よくぞ言ってくれました、マスター。
+[k]
+
+[charaFace D 6]
+＠アルトリア
+円卓の騎士は揃っておらず、我が愛犬カヴァスもおらず、[r]軍を率いてもいませんが[line 3]
+[k]
+
+＠アルトリア
+この島は一時、我らが暮らした王国で。[r]背にいるのは、共に暮らしたその王国の民だ。
+[k]
+
+[charaFace D 2]
+＠アルトリア
+戦わずして[line 3]何が王か！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠？？？
+ＧＲＲＲＲＲＲＦＦＦＦ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+いきましょう、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.4]
+[wait fade]
+[soundStopAll]
+[end]

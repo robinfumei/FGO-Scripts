@@ -1,0 +1,67 @@
+＄01-00-03-10-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaSet F 98019000 1 イアソン]
+[charaSet G 2012001 1 エウリュアレ]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0 0]
+[charaFace E 0]
+[charaFadein E 0 2]
+[fadein black 1]
+[wait fade]
+＠メディア・リリィ
+頑丈で強情な方達なんですね。[r]それでは私も行ってきます、マスター。
+[k]
+
+[charaFace F 0]
+＠イアソン
+ああ、頼んだよ私のメディア。[r]ヘラクレスだけで十分だが、君がいればさらに確実だ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0]
+[wt 0.5]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠Dr.ロマン
+来るぞ。王女メディアは魔術が日常化していた[r]ギリシャ世界ですら“魔女”と言われた魔術師だ！
+[k]
+
+＠Dr.ロマン
+コルキスの魔女、[r]その腕前は恐らく世界で五本の指に入るだろう！
+[k]
+
+[charaFace E 5]
+＠メディア・リリィ
+私はすべてを捧げ、すべてを捨て、[r]すべてを[#擲:なげう]ちます。
+[k]
+
+＠メディア・リリィ
+見返りがなくとも、益がなくとも。[r]だってそれが私が島を出た理由なのですもの。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+ではお覚悟を、みなさまがた。
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+戦いはあまり巧くありませんから、[r]苦しませたらごめんなさい？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

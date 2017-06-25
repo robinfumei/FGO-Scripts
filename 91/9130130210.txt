@@ -1,0 +1,319 @@
+＄91-30-13-02-1-0
+
+[soundStopAll]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3001001 1 クー・フーリン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98104300 1 ？？？]
+
+[scene 10000]
+[fadein black 1.0]
+[wait fade]
+
+＠マシュ
+…………マスター、[wt 0.5]マスター。[wt 1.0][r]起きて下さい、[wt 0.5]マスター。
+[k]
+
+[wt 0.5]
+
+[wipeout circleIn 0.1 2]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+[scene 20702]
+[wipein circleIn 3 2]
+[se ad2]
+[seVolume ad2 0 0.3]
+
+[wait wipe]
+[wt 0.5]
+
+
+[charaFace A 13]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+[wait charaFade msh]
+
+[messageOff]
+[wt 1.0]
+[cameraMove 1.0 -100,-0 1.25]
+[wait camera]
+[wt 1.0]
+[cameraMove 2.0 100,0 1.25]
+[wait camera]
+[wt 1.0]
+[cameraMove 1.0 0,0 1.0]
+[wait camera]
+[wt 1.0]
+
+
+？1：あれ？　何があった？
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+
+[bgm BGM_EVENT_5 0.1]
+＠マシュ
+わたしにも分かりません。[r]ただ……カルデアでも、どこかの時代でもないようです。
+[k]
+
+＠マシュ
+確実なのは[line 3]
+[k]
+
+
+？2：ここは……？
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いえ、此処がどこかは分かりません。[r]確実なのは[line 3]
+[k]
+
+？！
+
+[seStop ad2 1.0]
+[charaFace A 7]
+
+＠マシュ
+魔力を感知できる場所である、ということです。[r]わたしとマスター以外にも……
+[k]
+
+[se ad60]
+[wt 2.0]
+
+[charaFadeout A 0.1]
+
+[seStop ad60 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+[wait charaFade kfr]
+
+＠クー・フーリン
+いよう。[r]おまえさんも迷い込んだか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+＠マシュ
+クー・フーリンさん！[r]……ということは、もしかすると……
+[k]
+
+[charaFace B 4]
+[bgm BGM_EVENT_5 0.5]
+
+＠クー・フーリン
+スカサハだな。とうとう影の国にご招待って訳だ。[r]関係者ながら、身勝手かつ強引な師匠で申し訳ねえ。
+[k]
+
+[charaFace A 12]
+
+＠マシュ
+クー・フーリンさんが謝られるコトでは……[r]あ、[charaFace A 0]ここが影の国なんですか？
+[k]
+
+[charaFace B 0]
+
+＠クー・フーリン
+いや、オレが前に来た場所とは微妙に違う。
+[k]
+
+＠クー・フーリン
+スカイ島でもない。影の国が世界と地続きだった頃の[r]名残りなんだが、似ても似つかねえ。
+[k]
+
+＠クー・フーリン
+寒々しい魔力が漂う土地、[r]ってあたりはそっくりなんだがな。
+[k]
+
+[charaFace B 4]
+
+＠クー・フーリン
+……ま、となると、だ。あの女の記憶やら[r]何やらに取り込まれた、と見るべきかね。
+[k]
+
+[charaFace A 0]
+
+＠マシュ
+記憶……ですか。
+[k]
+
+[charaFace B 0]
+
+＠クー・フーリン
+それが無意識の行為なのか[r]意識的なのかまでは分からんが[line 3]
+[k]
+
+＠クー・フーリン
+ともかく、記憶の中であろうと、[r]影の国なんざいつまでも居られる場所じゃねえ。
+[k]
+
+＠クー・フーリン
+下手するとマスター共々取り込まれて死んじまうぞ。[r]世界は滅び、ここで全員のたれ死にだ。
+[k]
+
+[charaFace A 14]
+
+＠マシュ
+そんな……！
+[k]
+
+[charaFace B 1]
+
+＠クー・フーリン
+ま、安心しな。[r]身内の不始末だ。
+[k]
+
+＠クー・フーリン
+オレだけならともかく、さすがにマスターと[r]嬢ちゃんを巻き込む訳にはいかねえな。
+[k]
+
+＠クー・フーリン
+そんなワケで傍迷惑な女退治だ。[r]さっくり倒しに行くとしますか！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1.0]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[wt 1.5]
+[wipein leftToRight 1.0 1.0]
+[wait wipe]
+[wt 1.0]
+
+[se ad22]
+[wait se ad22]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+
+＠マシュ
+死霊がそこら中を彷徨ってますね……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠クー・フーリン
+現実のここは[#幽世:かくりよ]に近い場所だったからな。[r]気付かれるなよ？　一気に襲い掛かってくるぞ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+は、はい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFace A 6]
+
+＠マシュ
+……フォウさんもいたんですか！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クー・フーリン
+ええい、大声で話すな！[r]……[wt 1.0][bgmStop BGM_EVENT_5 0.1][charaFace B 4]あ、やべっ。
+[k]
+
+[charaFadeout B 0.1]
+
+[messageOff]
+[se ad22]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk D]
+[charaFace D 0]
+
+[charaFadein D 0.1 1]
+
+[wait se ad22]
+[wt 0.5]
+
+[charaFadeout D 0.1]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……バレましたね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠クー・フーリン
+……悪かったな。[wt 1.0][r]ま、[charaFace B 1]訓練がてら昇天させてやるか。
+[k]
+
+[charaFace B 2]
+＠クー・フーリン
+嬢ちゃん、振り落とされんじゃねえぞ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい！[r]マスター、指示を！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,44 @@
+＄01-00-03-10-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaSet F 98019000 1 イアソン]
+[charaSet G 2012001 1 エウリュアレ]
+[charaSet H 7009001 1 アステリオス]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠メディア・リリィ
+さすが。既に二つの“時代”を打ち砕いただけの[r]ことはありますのね。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+……フォウ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+これなら、何とかいけます……！
+[k]
+
+＠Dr.ロマン
+ホントに戦いが下手で助かったな！[r]だが問題はもう一人の方だ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

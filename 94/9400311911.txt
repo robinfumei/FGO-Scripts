@@ -1,0 +1,448 @@
+＄94-00-31-19-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5020000 1 天の衣]
+[charaSet C 11001001 1 アヴェンジャー]
+
+[scene 20210]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.4 1]
+＠アヴェンジャー
+つあ[line 4]！？[r]テメェら、ケガ人相手に本気だしやがったな！？
+[k]
+
+[charaFace C 5]
+＠アヴェンジャー
+ここはアレですよね、善人らしく[r]“なぜ倒れていたんですか？”って聞く場面ですよ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+それは失礼しました。[r]では改めて。
+[k]
+
+＠マシュ
+なぜ倒れていなかったんですか？[r]まだ息が有るように見えますが。
+[k]
+
+[charaFace C 5]
+＠アヴェンジャー
+そりゃあ有りますよ。[r]死んでも死なない、蘇るのがオレの持ち味なんだし。
+[k]
+
+[charaFace C 4]
+＠アヴェンジャー
+あー、いや、その話はいいや。[r]今はそれどころじゃなかった。
+[k]
+
+[charaFace C 0]
+＠アヴェンジャー
+アンタらはアレだろ？[r]抑止力の兄ちゃんと一緒に大聖杯を壊したヤツらだろ？
+[k]
+
+[charaFace A 6]
+＠マシュ
+は、はい。[r]先輩の事をご存じなのですか？
+[k]
+
+[charaFace C 1]
+＠アヴェンジャー
+おうとも。ちょいとアリーナで観戦していたもんでね。[r]それで、まあ、なんだ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+
+[charaFace C 0]
+＠アヴェンジャー
+オレが倒れていたのはアンタらのせいでもある……[r]って言ったら信じるかい？
+[k]
+
+[bgmStop BGM_EVENT_7 1.0]
+
+[charaFace A 12]
+＠マシュ
+わたしたちのせいで……？
+[k]
+
+
+[se ba2]
+[messageOff]
+[wipeout leftToRight 1.0 1]
+[wait wipe]
+
+[charaFadeout A 0]
+[charaFadeout C 0]
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+[bgm BGM_EVENT_1 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.7 1]
+[wt 0.8]
+
+＠天の衣
+その先は私が説明するわアヴェンジャー。[r]貴方は下がっていて。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+貴女はアイリさん……！？[r]いえ、ですがその姿は……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠天の衣
+こんにちは、マシュさん、[%1][&君:さん]。[r]今回はお疲れさまでした。
+[k]
+
+＠天の衣
+私は天の衣。さっきまで貴方たちと行動を共にしていた[r]アイリスフィールとは別の存在[line 3]
+[k]
+
+＠天の衣
+平たく言ってしまうと、[r]この大聖杯の精霊みたいなものね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アヴェンジャー
+そうそう。アンタらが壊した黒い女がいただろ？[r]アレの善人版と思えばいい。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠天の衣
+乱暴な説明ねアヴェンジャー。[r]どうして貴方はこう、品というものがないのかしら……。
+[k]
+
+＠アヴェンジャー
+そこはご勘弁を。なにしろさっきまでアンタに[r]ぼっこぼこにされてたからさ。恨み骨髄なワケですよ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+！　そこの黒い人を瀕死寸前にしたのは[r]アイリさんなんですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠天の衣
+……ええ。とても言いづらいのだけど、[r]イエスでもありノーでもあるわ。
+[k]
+
+＠天の衣
+[%1][&君:さん]。[r]よく聞いて。これは貴方たちの問題でもあるのだから。
+[k]
+
+[charaFace B 4]
+＠天の衣
+貴方は黒い聖杯を破壊した。[r]それはいいの。私は気にしていないわ。痛かったけど。
+[k]
+
+[charaFace B 5]
+＠天の衣
+けど、率直に言うとあれは失策よ。[r]貴方たちの行動は間違いだった。
+[k]
+
+[bgmStop BGM_EVENT_1 1.0]
+
+＠天の衣
+なぜなら[line 3]
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace B 2]
+＠天の衣
+なぜなら！[r]壊し方がまったくもって手ぬるかったから！
+[k]
+
+＠天の衣
+もっとこう、パーフェクトにやってくれないと！[r]例えば高級ホテルをワンフロアごと爆破するぐらい！
+[k]
+
+？1：ロックですね！？
+？2：……よし、いつもの展開になってきたぞ
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あの……アイリ？　さん。[r]それはどういう……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠天の衣
+だから、仕事が甘かったのよ。[r]貴方たちは黒い聖杯を壊しきれなかったの。
+[k]
+
+[charaFace B 4]
+＠天の衣
+貴方たちは大雑把に器を破壊した。[r]その結果、小聖杯……
+[k]
+
+[charaFace B 5]
+＠天の衣
+アイリスフィールは大雑把な欠片として散らばり、[r]それぞれ活動を開始してしまったのよ。
+[k]
+
+[charaFace B 2]
+＠天の衣
+それが彼女たち[line 3][r]火のアイリ、水のアイリ、土のアイリ、風のアイリ！
+[k]
+
+？1：四元素のアイリスフィール……！
+？2：増えすぎですね
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+＠アヴェンジャー
+そうだよ。四人とかもう手に負えねー。[r]オレは大人しくするよう言い含めたんだが……。
+[k]
+
+＠アヴェンジャー
+連中、問答無用で襲いかかってきやがった。
+[k]
+
+＠天の衣
+ええ。四元素に別れた彼女たちは元のアイリスフィール[r]同様、本来なら心優しい性格だった。
+[k]
+
+＠天の衣
+でもその中でひときわ過激な火のアイリが[r]反乱を起こしたの。
+[k]
+
+？1：火のアイリが
+？2：反乱を
+
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠天の衣
+ええ。それが飛び火して、他のアイリたちも[r]暴力性に目覚めてしまった。
+[k]
+
+＠天の衣
+悲しい事だけど……自由を得た事、個性を得た事、[r]なにより貴方たちへの恨みが消えなかったのね……。
+[k]
+
+[charaFace B 5]
+＠天の衣
+分かってもらえたかしら、[%1][&君:さん]。[r]貴方たちの戦いはまだ終わっていない。
+[k]
+
+＠天の衣
+冬木に解き放たれた四色のアイリスフィール。[r]彼女たちを倒す責任と義務が、貴方にはある。
+[k]
+
+[charaFace B 4]
+＠天の衣
+彼女たちは、なんていうか……[r]とにかくしつこくて、めげなくて、懲りないと思う。
+[k]
+
+[charaFace B 5]
+＠天の衣
+何度倒しても復活するでしょう。[r]でもそこは根気よく付き合ってほしい。
+[k]
+
+[charaFace B 4]
+＠天の衣
+あの陰気だけどシャイで繊細で素敵な人……[charaFace B 0]コホン、[r]フードの暗殺者さんはもう帰ってしまったみたいだし、
+[k]
+
+[charaFace B 1]
+＠天の衣
+そもそもあの人にはこういう仕事、[r]まるっきり性に合わないでしょうし。
+[k]
+
+[charaFace B 0]
+＠天の衣
+アヴェンジャーに代わって、[r]私からお願いするわ。
+[k]
+
+＠天の衣
+暗殺者さん……彼の代わりに冬木の街を救って。[r]これは貴方たちにしかできない仕事よ。
+[k]
+
+？1：任せて。望むところだ
+
+[bgmStop BGM_EVENT_3 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace B 1]
+＠天の衣
+ありがとう。[r]その返事を期待していたわ、可愛いマスターさん♡
+[k]
+
+
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠アヴェンジャー
+話は終わったかい？[r]んじゃあまあ、後始末はそっちに任せたぜ？
+[k]
+
+＠アヴェンジャー
+オレは戦闘向きじゃないし、その白い女は[r]だらしない自分と対面するのはイヤだって言うし。
+[k]
+
+＠アヴェンジャー
+ここからはアンタらの領分だ。[r]最後までめいっぱい、聖杯の欠片を懲らしめてくれ。
+[k]
+
+
+
+？2：その格好、素敵ですね
+
+[bgmStop BGM_EVENT_3 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace B 3]
+＠天の衣
+っ……！[r]こ、これはアインツベルンの正装というか、
+[k]
+
+＠天の衣
+魔術儀式用のドレスだから！[r]恥ずかしいとか、そういうのは言わない約束っ！
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace B 3]
+[charaFadein B 0.1 2]
+＠アヴェンジャー
+話は終わったかい？[r]んじゃあまあ、後始末はそっちに任せたぜ？
+[k]
+
+＠アヴェンジャー
+オレは戦闘向きじゃないし、その白い女は[r]だらしない自分と対面するのはイヤだって言うし。
+[k]
+
+＠アヴェンジャー
+ここからはアンタらの領分だ。[r]最後までめいっぱい、聖杯の欠片を懲らしめてくれ。
+[k]
+
+
+
+
+
+
+
+
+？！
+
+[charaFace B 0]
+＠天の衣
+はい。[r]後は任せましたよ、[%1][&君:さん]。
+[k]
+
+[charaFace B 1]
+＠天の衣
+それとアヴェンジャーには話がありますので、[r]どうぞこちらへ。元はと言えば貴方のせいですよね？
+[k]
+
+[charaFace C 4]
+＠アヴェンジャー
+オレだって被害者なんだけどナー。[r]体罰とかホント野蛮だナー。
+[k]
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[messageOff]
+[charaFadeout C 0.4]
+[charaFadeout B 0.4]
+
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+……えーと……。
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace A 1]
+＠マシュ
+よく分かりませんが、[r]新しいミッション発令ですマスター！
+[k]
+
+＠マシュ
+心機一転、装いも新たに冬木の街を探索しましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_4 2.0]
+[wait fade]
+[soundStopAll]
+[end]

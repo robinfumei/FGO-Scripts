@@ -1,0 +1,109 @@
+
+＄01-00-05-12-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3011001 1 フィン]
+[charaSet C 3002001 1 ディルムッド]
+
+[scene 20400]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+捉えました。[r]フィン・マックール、そしてディルムッド・オディナ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠フィン
+いいとも。いよいよ決戦だ！[r]さあ、君を[#娶:めと]るか否か。戦いが始まるぞ！
+[k]
+
+＠ディルムッド
+王よ。どうか、花嫁可愛さで手を抜きませぬよう。[r]あれは既に強敵。[#此度:こたび]の[#婚姻:こんいん]は諦められよ。
+[k]
+
+[charaFace B 1]
+＠フィン
+はははは！　残念だが当然だディルムッド！[r]彼らが手を抜いて勝てる相手だと思うかい？
+[k]
+
+[charaFace C 0]
+＠ディルムッド
+いいえ、まったく。
+[k]
+
+＠フィン
+だろう？　ふふふ、サーヴァントであるかぎり[line 2][r]この欲からは逃れられぬ。
+[k]
+
+＠フィン
+強者との戦い。[r]命を削り、魂を刻む。
+[k]
+
+[charaFace B 2]
+＠フィン
+それがあるからこその聖杯戦争だ！[r]……そう考えると、我らが王は異例中の異例か。
+[k]
+
+[charaFace B 4]
+＠フィン
+究極の武を持ちながら、[r]その実まったく何の愉悦も感じられないとは！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……愉悦を感じられない……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フィン
+ふ。知りたくば王に会うがいい。[r]もっともあの方は[line 2]敵に対して、容赦はないが！
+[k]
+
+[charaFace C 5]
+＠ディルムッド
+雑談はそこまでにしましょう。
+[k]
+
+
+[charaFace C 2]
+＠ディルムッド
+フィオナ騎士団が一番槍[line 2][r]ディルムッド・オディナ。参る！
+[k]
+
+
+[charaFace B 2]
+＠フィン
+おう、そうするか！　フィオナ騎士団が団長、[r]フィン・マックール[line 2]行くぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

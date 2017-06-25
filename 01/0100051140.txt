@@ -1,0 +1,236 @@
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 3005002 1 エリザベート]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 7008001 1 ベオウルフ]
+
+[scene 20400]
+[fadein black 2]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+なんだそりゃ、痛みを感じてねえのかお嬢さん！[r]それとも何か、心が鉄で出来ているのか？
+[k]
+
+＠ベオウルフ
+エジソンどもの機械化兵士の方がまだ人間らしい。[r]鋼鉄が服を着ているようだぜ、バーサーカー！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+よく言われます。まったく問題ありません。[r]私の体は、患者を治すための機構なのですから。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+目的の為だけ走るカラクリってワケか！[r]こりゃあ、完全に潰さねえと止まらねえな！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ラーマ
+っ……待て。[r]ナイチンゲール、頼みがある。
+[k]
+
+＠ナイチンゲール
+[line 2]患者は大人しくしていてください。
+[k]
+
+[charaFace B 5]
+＠ラーマ
+いいや、治療のために必要な行為だ。
+[k]
+
+＠ナイチンゲール
+……何ですか？
+[k]
+
+＠ラーマ
+余を下ろせ。
+[k]
+
+[charaFace D 4]
+＠ナイチンゲール
+……できません。
+[k]
+
+＠ラーマ
+余を治療するために下ろすのだ。[r]ここでおまえが倒れては、誰が余を治すのだ。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+[line 3]できるのですか、貴方に？
+[k]
+
+＠ラーマ
+余を信じろ。[r]患者と医者は、まず互いを信頼するものだろう？
+[k]
+
+＠ナイチンゲール
+……一つだけ、訂正を。[r]私は看護師です。医者ではありません。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+[wt 0.7]
+
+[se ad51]
+[wait se ad51]
+
+[wt 0.4]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+あ？
+[k]
+
+＠ベオウルフ
+おいおい、俺はそこの、[r]動く鉄人形の姉ちゃんと殴り合いたいんだ。
+[k]
+
+＠ベオウルフ
+生きる屍と殴り合う趣味はねえ。[r]いいからそこらでくたばってろ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ラーマ
+……まったくだ。まさに生きる屍だな。[r]だが……まあ、話を聞け。
+[k]
+
+[charaFace B 1]
+＠ラーマ
+余からとっておきの話があるのだ。[r]とても甘い話だ。損はさせない。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+あん？　こんな監獄くんだりまで来て甘い話だあ？[r]なんだ、看守に賄賂でも弾もうって話[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ラーマ
+[line 3]『[#羅刹を穿つ不滅:ブラフマーストラ]』！！
+[k]
+
+[se ad39]
+[fowardEffect bit_talk_41]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+なんとぉ！？
+[k]
+
+[messageOff]
+[fowardEffect bit_talk_14]
+[wt 0.2]
+[fadeout white 0.1]
+[wait fade]
+
+[fowardEffectStop bit_talk_41]
+[seStop ad39]
+[se bac36]
+[se bac45]
+[wt 0.8]
+[shake 0.05 0 5 0.3]
+[charaShake E 0.05 3 3 0.3]
+
+[fadein white 0.15]
+[wait fade]
+
+[wt 0.4]
+[charaFace E 1]
+＠ベオウルフ
+なんだテメエ、育ちの良い顔しやがって不意打ちか！[r]面白いじゃねえかチクショウ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ラーマ
+うるさい、邪魔だ！　そこを退け！[r]馬に蹴られないだけマシと思え！
+[k]
+
+＠ラーマ
+余の妻が待っているのだ！！[r]手段なんぞ選んでいられるかっ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+ハ[line 3]はは、そりゃあそうだ！[r]確かにコイツは俺が悪い！
+[k]
+
+[charaFace E 2]
+＠ベオウルフ
+悪党を気取ってみたが、[r]今の俺は悪党どころか三下だった！
+[k]
+
+＠ベオウルフ
+いいぜ、かかってきな優男！[r]そのなりで俺をブチのめせたんなら正義の勝ちだ！
+[k]
+
+＠ベオウルフ
+女のために命を張って、見事玉砕していきな！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

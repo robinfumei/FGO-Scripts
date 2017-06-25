@@ -1,0 +1,416 @@
+＄91-50-17-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5017001 1 メディア・リリィ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4004001 1 アストルフォ]
+[charaSet F 98006100 1 ワイバーン]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+＠メディア・リリィ
+改めて自己紹介させていただきますね、マスター。[r]私はキャスターのクラス、メディアと申します。
+[k]
+
+＠メディア・リリィ
+月の女神ヘカテに師事する神殿の巫女長として、[r]一心に魔術の修行をして参りました。
+[k]
+
+[charaFace B 1]
+＠メディア・リリィ
+ですので、どうぞ私の事は魔法を使えるお手伝いさん、[r]ぐらいの気軽さでお付き合いくださいませ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+うわあ……これがあのメディア……？[r]変われば変わるものだなぁ、女は魔物ってホントだよ……
+[k]
+
+？1：ロマン、失礼だぞ
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+まったくです。[r]ドクターはちょっと黙っていてください。
+[k]
+
+[charaFadeout A 0.1]
+
+？2：ロマン、だからモテないんだぞ
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+まったくです。ドクターが[r]ネットアイドルに熱中する理由がわかりました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あのね、ボクがモテないのと[r]マギ☆マリのファンなのは関係ないからね！
+[k]
+
+＠Dr.ロマン
+すべてのアイドルファンに謝ってほしい！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？！
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+＠マシュ
+それはそれとして、メディア……いえ、リリィさん。[r]なぜこんな場所に先輩を呼びだしたのです？
+[k]
+
+[charaFace B 0]
+＠メディア・リリィ
+はい。実はみなさんの健康を[#呪:いわ]っている[#最中:さなか]、[r]この島にいけない[#王気:オーラ]を感知しましたの。
+[k]
+
+[charaFace B 4]
+＠メディア・リリィ
+放っておいては大惨事になる……いいえ、それ以上に[r]ふたりの友情に[#罅:ヒビ]が入るのは見るに耐えない……
+[k]
+
+[charaFace B 1]
+＠メディア・リリィ
+そう思った時、[%1]さんの顔が、こう、[r]脳裏に浮かんだのです。きらり、って、素敵な笑顔で♡
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+えーと……つまり、[%1][&君:ちゃん]に[r]ケンカの仲裁をしてほしい、と？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠メディア・リリィ
+はい♡[r]マスターの人徳で[#諫:いさ]めていただければ嬉しいです。
+[k]
+
+[charaFace A 4]
+＠マシュ
+……そういえば、[r]森の方から物凄い剣戟の音が聞こえてきますね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+先輩、イヤな予感しかしませんが行ってみましょう。
+[k]
+
+＠メディア・リリィ
+ふふ、マシュちゃんは心配性なんですから。[r]危険なコトなんて、砂糖小さじ一杯分もないですよ？
+[k]
+
+[messageOff]
+[wipeout leftToRight 1 3]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaTalk off]
+[scene 20800]
+[soundStopAll]
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.1]
+[wipein rightToLeft 1 3]
+[wait wipe]
+
+
+[charaFadein D 0.1 1]
+[charaFadein E 0.1 1]
+[charaFace D 5]
+[charaFace E 5]
+
+[se ad32]
+[fowardEffect bit_talk_13]
+[seStop ad32 1.5]
+[shake 0.05 1.0 1.0 0.2]
+
+[wt 0.2]
+
+[fowardEffectStop]
+
+[charaMove D 0 0.2]
+[charaMove E 2 0.2]
+
+[wt 0.3]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 2]
+＠ジャンヌ
+その奔放な立ち振る舞い、もはや看過できません！
+[k]
+
+＠ジャンヌ
+カルカッソンヌのように広く固い私の堪忍袋も[r]木っ端微塵に砕け散りました！
+[k]
+
+[charaFace E 2]
+＠アストルフォ
+それはこっちの台詞だよ、ムッツリ聖女！[r]なーにが節度あれ節度あれ、だ！
+[k]
+
+＠アストルフォ
+そのぶよぶよした体付きで言われても[r]説得力ゼロなんだけど！
+[k]
+
+＠アストルフォ
+あとＪＫの姿はあざとすぎて笑い死ぬかと思ったよ！[r]全サーヴァントを代表して慰謝料でも貰おうかな！
+[k]
+
+[charaTalk D]
+[charaShake D 0.05 1 1 0.2]
+[wt 0.15]
+＠ジャンヌ
+ジェ、ＪＫのどこが悪いのです[line 3]っ！？
+[k]
+
+[charaMove D 1 0.2]
+[charaMove E 1 0.2]
+[wt 0.2]
+
+[se ad32]
+[fowardEffect bit_talk_13]
+[seStop ad32 1.5]
+[shake 0.05 1.0 1.0 0.2]
+[wt 0.1]
+
+[charaMove D 0 0.2]
+[charaMove E 2 0.2]
+[wt 0.3]
+
+＠アストルフォ
+ジャンヌオルタとかバカじゃないのぉ[line 3]！？
+[k]
+
+[charaMove D 1 0.2]
+[charaMove E 1 0.2]
+[wt 0.2]
+
+[se ad32]
+[fowardEffect bit_talk_13]
+[seStop ad32 1.5]
+[shake 0.05 1.0 1.0 0.2]
+[wt 0.1]
+
+[charaMove D 0 0.2]
+[charaMove E 2 0.2]
+[wt 0.3]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠メディア・リリィ
+まあ。
+[k]
+
+＠マシュ
+これは…………控えめに言って、地獄？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 3]
+
+＠Dr.ロマン
+よし諸君、見なかった事にして帰ろう。[r]これは手を出しちゃいけない案件だ。
+[k]
+
+？1：まったく同感だ
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+＠メディア・リリィ
+そんな……[%1]さんなら[r]頼れると信じていましたのに……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+……先輩、諦めてトライしましょう。[r]リリィさんに泣かれるのも、それはそれで怖いです。
+[k]
+
+[charaFadeout A 0.1]
+
+？2：これを放置しろと？
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠メディア・リリィ
+[%1]さん……！[r]ええ、私、信じていました！　信じていましたから！
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+……仕方ないなあ。[r]じゃあ[%1]君、どうぞ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk off]
+[charaFadein D 0.4 0]
+[charaFadein E 0.4 2]
+[charaFace D 2]
+[charaFace E 2]
+[wt 1.0]
+
+？1：ケンカはやめたまえ！
+？2：たしかにオルタはどうかと思った！
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk on]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠ジャンヌ
+アストルフォのシンパですか！？[r]シンパですね！　この倒錯者！　地獄に[#Ｊ:ジェット]・[#Ｇ:ゴー]！
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+なーんかどこかで見た顔ですが、[r]邪魔をするのなら容赦はしません！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+きたれ、聖女の使い、規律の風！[r]我が旗の下に集い、我に絶対服従せよ！
+[k]
+
+
+
+[se ad19]
+[seStop ad19 1.5]
+＠ワイバーン
+きしゃー。たすけ、きしゃー！
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+＠アストルフォ
+ぼはっ！（←驚きのあまり吹き出した）
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠ジャンヌ
+見なさい、ワイバーンを使役する事ぐらい、[r]実は私だってできるのです！
+[k]
+
+＠ジャンヌ
+でも色々と大事なものを失うので、[r]怒り心頭の時まで隠していただけなのです！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ちょっ、ホントはオルタじゃないか彼女！？[r]待て、話せばわかる、話をしよう！
+[k]
+
+＠Dr.ロマン
+ボクはどっちかっていうとジャンヌ派だからね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠ジャンヌ
+問答無用、弁明却下！[r]さあ、いきなさいジャンヌ隊！　不届きものたちに天誅を！
+[k]
+
+
+[se ad19]
+[seStop ad19 1.5]
+＠ワイバーン
+きしゃー。ひど、きしゃー！
+[k]
+
+[charaFadeout D 0.1]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

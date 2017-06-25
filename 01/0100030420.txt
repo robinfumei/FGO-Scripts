@@ -1,0 +1,105 @@
+＄01-00-03-04-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠Dr.ロマン
+うん。この島はさっきと比較すると格段に大きいな。[r]おかげで霊脈のポイントも発見できた。
+[k]
+
+＠Dr.ロマン
+座標を送るから、ひとまずそこを目標にしてほしい。[r]ただし、幾つか生体反応もあるから要注意だ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+了解です。ドレイクさん、こちらへ進みたいのですが[r]問題ありませんか？
+[k]
+
+[charaFace D 1]
+＠ドレイク
+いいよ。アタシも同じ方向がいいと思ってた。
+[k]
+
+[charaFace A 13]
+＠マシュ
+それでは出発します。[r]行きましょう、先輩。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20300 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 1]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[wait fade]
+＠ドレイク
+広いねぇ、島とは思えないわこりゃ。[r]それにいい風だ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……そうですね。[r]マスター、この感覚は少し前の[line 2]。
+[k]
+
+？1：ローマ？
+
+[charaFace A 1]
+＠マシュ
+ええ、ローマに少し似ていると思います。
+[k]
+
+？2：フランス？
+
+＠マシュ
+フランスよりは、ローマに似ている気がします。
+[k]
+
+？！
+
+[charaFace A 0]
+＠マシュ
+マスター。[r]間もなく指定座標地点です。
+[k]
+
+[charaFace D 2]
+＠ドレイク
+……何だい、ありゃ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+あれは[line 2]骸骨のように見えますが、[r]少し違いますね。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+竜牙兵、竜の歯を用いて作られる兵隊だ。[r][%1][&君:ちゃん]、蹴散らしてやりなさい。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,466 @@
+＄01-00-06-28-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet C 6002001 1 呪腕のハサン]
+[charaSet D 6003001 1 百貌のハサン]
+[charaSet E 6009001 1 静謐のハサン]
+[charaSet F 5022001 1 三蔵]
+[charaSet G 2014000 1 俵藤太]
+[charaSet H 98003000 1 Dr.ロマン]
+
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.5]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.5]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 0.5]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.5]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[wt 0.5]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+[wt 0.5]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+……モニターは良好。[r]そちらの時刻は七時ジャスト。空は雲一つない青空だ。
+[k]
+
+＠Dr.ロマン
+聖都は目と鼻の先。こちらの進軍に気づいて、[r]正門には大量の兵士が配置されている。
+[k]
+
+＠Dr.ロマン
+連合軍と聖都軍。どちらも一触即発の状態だ。
+[k]
+
+＠Dr.ロマン
+どちらかがあと一歩でも踏み出せば、[r]それが戦いの合図になるだろう。
+[k]
+
+＠Dr.ロマン
+[%1]君、準備はいいかい？
+[k]
+
+
+？1：……（無言で頷く）
+？2：……怖いけど、やるしかない
+
+？！
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaSet D 1020000 1 ランスロット]
+[charaSet E 98081000 1 兵士]
+[charaSet H 5009001 1 ダ・ヴィンチ]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ダ・ヴィンチ
+安心したまえ、キミには私とマシュ、[r]それにベディヴィエール卿がついている。
+[k]
+
+＠ダ・ヴィンチ
+私たちは歩兵部隊の一員として正門に向かう。[r]騎兵部隊にはランスロット卿と、
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace F 1]
+[charaFace G 0]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+
+＠俵藤太
+拙者と、その後ろに三蔵だな。
+[k]
+
+＠俵藤太
+一騎だけの遊撃部隊だが、[r]気ままに戦場をかき混ぜるとしよう。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+三蔵さんと藤太さん、二人乗りで行かれるんですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFace G 0]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+
+＠三蔵
+そうなのよー！[r]あたしだって馬には多少の心得があるのに、
+[k]
+
+＠三蔵
+トータったら、あたしの騎乗を見たら無言で[r]ひっつかんで後ろに乗せたのよー！？
+[k]
+
+[charaFace G 5]
+＠俵藤太
+お主のは騎乗と言わん！[r]今までよほどよい馬に乗せられていたのだろう！
+[k]
+
+＠俵藤太
+あのようなへっぴり腰で戦場を行かれては[r]みなが迷惑するからな。
+[k]
+
+＠俵藤太
+拙者の後ろで伸びる棒やら怪しげな呪文やらを[r]まき散らした方が、敵には何百倍も怖ろしかろう。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+我々は城壁に張り付き次第、城壁の弓兵どもを[r]間引きましょう。しかし……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+……そうだ。アグラヴェインめ、そういう事か。[r]城壁の弓兵が増員されている。
+[k]
+
+[charaFace D 5]
+＠ランスロット
+以前の三倍ではきかんぞ、あれは。[r]こちらが近づく前に一掃する算段か。
+[k]
+
+[charaFace D 0]
+＠ランスロット
+オジマンディアス王の神獣兵団があと少しで到着する。
+[k]
+
+＠ランスロット
+彼らには聖都西側に揺さぶりをかけてもらい、[r]それと同時にこちらは全力で進軍する。
+[k]
+
+＠ランスロット
+我ら騎馬隊も先行するが、陽動としては弱い。[r]弓による損害は甚大なものになるだろう。
+[k]
+
+[charaFace D 6]
+＠ランスロット
+正門まで到達できるのは、よく見ても全体の六割だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+………………
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠ランスロット
+それでも我々には正面からの進軍の他、手段はない。
+[k]
+
+＠ランスロット
+サー・ベディヴィエール。[r][%1]殿を頼んだぞ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFace D 0]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ベディヴィエール
+貴方も、サー・ランスロット。[r]キングハサン殿の言葉を疑う訳ではありませんが……
+[k]
+
+＠ベディヴィエール
+もはやこれ以上は待てない。最悪、ガウェイン卿の[r]相手は貴方にしてもらう事になります。
+[k]
+
+[charaFace D 1]
+＠ランスロット
+ふ。夜まで持ちこたえてみせる、と言いたいところだが、[r]卿には継続のギフトがある。
+[k]
+
+[charaFace D 0]
+＠ランスロット
+今回ばかりは、時間切れでこちらの勝ち、[r]という戦法はとれないな。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+＠三蔵
+任せて。その時はあたしとトータとランスロットさん、[r]三人がかりでとっちめるから。
+[k]
+
+[charaFace D 1]
+＠ランスロット
+うむ、頼りにしていますとも。[r]東洋のご婦人は芯が強い。とてもチャーミングだ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+
+＠マシュ
+いままさに開戦一分前なのに、[r]ランスロット卿は頭の病気なのですか？
+[k]
+
+[charaFace D 5]
+＠ランスロット
+ゴホン、失敬！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+……では旗の準備を。[r][line 3]これより我らは聖都を落とす。
+[k]
+
+[charaFace D 2]
+＠ランスロット
+この地に生きる者すべてのため！[r]獅子王の過ちを糾弾するため！
+[k]
+
+＠ランスロット
+みな、剣を取れ！[r]今こそ、聖地を正しい姿に戻す時だ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[charaSet G 98003000 1 Dr.ロマン]
+
+[bgmStop BGM_EVENT_4 0.1]
+[se ad16]
+[wt 1.0]
+[seStop ad16 1.0]
+
+[se ad134]
+[scene 28420 1.5]
+[backEffect bit_talk_haboob_02]
+
+[wt 1.5]
+[seStop ad134 0.5]
+[seLoop ad135]
+
+[bgm BGM_EVENT_5 0.1]
+[seStop ad2 1.0]
+
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+[line 3]なにごとだ……！？[r]砂嵐が聖都に起きるなど、今まで一度も[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[seStop ad135 2.0]
+
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠兵士
+おお、見ろ……！　北の空から嵐が降りてくる！[r]忌まわしい聖都を呑み込むように！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩、わたしの見間違い、なのでしょうか[line 3][r]いま、砂嵐に巨大な髑髏の模様、が[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+ああ、確かに髑髏の模様が見えた！[r]でも驚くべきはそこじゃない！
+[k]
+
+＠Dr.ロマン
+その嵐には魔力は一切含まれていない！[r]あくまで自然現象だ！
+[k]
+
+＠Dr.ロマン
+ただし、極めて高い指向性を持った、ね！[r]これこそ本当の天の助けってヤツだ！
+[k]
+
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[se ad143]
+[wt 2.0]
+[seStop ad143 0.5]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+おお、この鐘の音は……！[r]ランスロット卿！　これこそは初代様のお力！
+[k]
+
+[charaFace C 2]
+＠呪腕のハサン
+約束はここに果たされた！[r]今こそ進軍の時ッ！
+[k]
+
+
+？1：この砂嵐なら、弓矢も届かない！
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+！　総員、弓は捨てよ、役にたたん！[r]速さが全てだ！
+[k]
+
+＠ランスロット
+くれぐれも中央に陣取るガウェインには近づくな！[r]奴を迂回して城壁を目指せ！
+[k]
+
+＠ランスロット
+行くぞ[line 3]総員、進軍ッ！
+[k]
+
+[se ad16]
+[wt 1.0]
+[seStop ad16 1.0]
+
+？1：よし、行くぞマシュ……！
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい……！[r]マシュ・キリエライト、全力を尽くします！
+[k]
+
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[backEffectStop]
+[soundStopAll]
+[end]

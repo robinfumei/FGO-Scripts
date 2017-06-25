@@ -1,0 +1,92 @@
+＄01-00-04-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10906 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+先輩[line 3][r]大丈夫ですか、些か顔色が優れないようですが。
+[k]
+
+？1：ねむい
+
+？2：まだ早朝だからね
+
+？！
+
+[charaFace A 0]
+＠マシュ
+……そうですね。[r]ですが、早朝の哨戒も不要なものではありません。
+[k]
+
+＠マシュ
+モードレッドさんの行動は間違っていません。[r]昨夜のような出来事もまだ充分ありえます。
+[k]
+
+[charaFace A 12]
+＠マシュ
+その……先輩が過度に疲労を溜め込んでしまうのは、[r]とても、望ましくないんですが……
+[k]
+
+？1：大丈夫
+
+？2：そんなに気にしないで
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……はい。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠モードレッド
+不便だなあ、マスターってのは。[r]まあ人間のままなんだから仕方ないけどな。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+どうせ敵といっても歯応えのない雑魚なんだ、[r]別にオレだけでも[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[se ad14]
+[wt 2]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 2]
+＠マシュ
+…………機械作動音を確認。大型のものです！
+[k]
+
+＠モードレッド
+言ってるそばから大物だな。[r]はは、久々にヘルタースケルターと戦えるか！
+[k]
+
+[charaFace A 7]
+＠マシュ
+すみませんマスター！[r]戦闘になります、指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[seStop ad14 0.4]
+[wait fade]
+[soundStopAll]
+[end]

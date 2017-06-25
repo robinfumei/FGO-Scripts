@@ -1,0 +1,1162 @@
+
+
+
+＄01-00-07-16-1-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[charaSet E 3006001 1 弁慶]
+[charaSet F 98002000 1 フォウ]
+[charaSet G 5009001 1 ダ・ヴィンチ]
+[charaSet H 98024000 1 ウル市民]
+
+[bgm BGM_EVENT_24 0.1]
+[scene 32610]
+[fadein black 1.5]
+[wait fade]
+
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+ペルシア湾から大量の魔力反応が[r]メソポタミア全土に拡散している！
+[k]
+
+＠Dr.ロマン
+速度には個体差があって、[r]時速30キロほどのモノから100キロ以上のモノもいる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+ウルクは！？[r]そいつらがウルクに到達するまで、どれくらい！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 0]
+
+＠ダ・ヴィンチ
+横から失礼するよ、女神イシュタル。[r]私はカルデアのスーパーバイザー、ダ・ヴィンチちゃん。
+[k]
+
+＠ダ・ヴィンチ
+ロマニはこの生物の解析に専念してもらうので、[r]ここからは私がキミたちの担当だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+あっそう、よろしくね！[r]御託はいいわ、状況を教えて！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 5]
+
+＠ダ・ヴィンチ
+オッケー。生命体の総数は一億近く観測されているが、[r]地上に這い出てきたのはそのごく一部だ。
+[k]
+
+＠ダ・ヴィンチ
+ざっとサーチして[#まだ]十万体ほどかな？[r]このうち二万体ほどがウルクに向かっている。
+[k]
+
+＠ダ・ヴィンチ
+到達予想時間は三時間弱。[r]このままだと半日を待たずにウルクは襲撃される。
+[k]
+
+＠ダ・ヴィンチ
+エリドゥは既に襲撃された。[r]ウルもあと一時間ほど。
+[k]
+
+＠ダ・ヴィンチ
+途中にあるラガシュ、ギルス、ウンマで何体か脱落すると[r]見積もって、ウルクに着くのは一万体ほどかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+一万！　ウガルなみの怪物が一万なんて、[r]今のウルクで持ちこたえられるワケないじゃない！
+[k]
+
+[charaFace B 8]
+＠イシュタル
+[%1]、先に行くわ。[r]私ひとりならカッ飛ばせば十分間に合う！
+[k]
+
+＠イシュタル
+ウルクで会いましょう！[r]途中でケツァル・コアトルに拾ってもらって！
+[k]
+
+[se ad73]
+[charaMove B 0,50 0.1]
+[charaFadeout B 0.1]
+[wt 0.2]
+[se ad81]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+イシュタルさん、単独でウルクに向かいました！[r]音の壁とか突破した音が聞こえます！
+[k]
+
+＠マシュ
+でも、わたしたちはどうしたら[line 3][r]マーリンさんもアナさんも、イシュタルさん……
+[k]
+
+＠マシュ
+今まで多くの人たちに助けられてきましたが、[r]ここにきてわたしたちだけでは……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 2]
+
+＠ダ・ヴィンチ
+キミたちは北壁に向かうべきだ。[r]ケツァル・コアトルとジャガーマンがいる。
+[k]
+
+＠ダ・ヴィンチ
+それと、皮肉な事に北壁はいまメソポタミアで[r]一番安全な場所だ。ペルシア湾からもっとも遠い。
+[k]
+
+＠ダ・ヴィンチ
+これから多くの人間が北壁目指して集まってくるだろう。
+[k]
+
+＠ダ・ヴィンチ
+何人辿り着けるか分からないが、[r]北壁はこれからも最重要施設だ。きちんと守らないとね。
+[k]
+
+
+
+？1：北壁に急ごう、マシュ！
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい……！[r]マスターをお抱えして、全力で戻ります！
+[k]
+
+
+？2：マーリンは……どうなったのかな……
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+マーリンは消滅した。[r]おそらく本体を殺されたんだ。
+[k]
+
+＠Dr.ロマン
+彼は夢魔、知性体が睡眠状態に構築する集合無意識に[r]介入できる数少ない魔術師だ。
+[k]
+
+＠Dr.ロマン
+その特性を利用して、マーリンはずっと[r]ある神の眠りの中にいたんだろう。
+[k]
+
+＠Dr.ロマン
+その神を眠らせ続ける事で行動を封じていた。[r][%1]君と一緒にいたのはその影だ。
+[k]
+
+＠Dr.ロマン
+だが、その本体はたったいま殺された。
+[k]
+
+＠Dr.ロマン
+夢魔は深度の深い夢ではおおよそ無敵だが、[r]致命的な弱点がある。レム睡眠だ。
+[k]
+
+＠Dr.ロマン
+眠っている本人の意識が半ば覚醒してしまうと、[r]夢の世界すべてが夢魔の敵に回る。
+[k]
+
+＠Dr.ロマン
+ゴルゴーンの死によって意識を起こしたソレは[r][#微睡:まどろ]みの中でマーリンを捕らえ、抹殺した。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……マーリンさん……
+[k]
+
+？！
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 32940]
+[wt 1.0]
+[se ad59]
+[seStop ad59 2.0]
+[fadein black 1.5]
+[wait fade]
+
+[se ad158]
+[seVolume ad158 0 0.4]
+[seVolume ad158 2.0 0.9]
+[wt 2.0]
+[seStop ad158]
+
+[wt 0.4]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+
+＠ケツァル・コアトル
+二人とも無事ね！？　良かった、[#僥倖:ぎょうこう]ね！[r]それで、あの度しがたいマーリンは！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……マーリンさんはもういません。[r]アナさんも、ゴルゴーンと決着を付けられました。
+[k]
+
+＠マシュ
+イシュタルさんは先行してウルクに向かわれています。[r]ケツァル・コアトルさんはどうしてここに！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ケツァル・コアトル
+もちろん、アナタたちを迎えに来たのデース！[r]北壁の魔獣たちはほぼ壊滅、森に逃げてくれマシタ！
+[k]
+
+[charaFace D 0]
+＠ケツァル・コアトル
+ゴルゴーンとの戦いは終わったわ。[r]だから私たちはこちらに来たの。
+[k]
+
+＠ケツァル・コアトル
+……マーリンは消えたのね。[r]言いたい事はあるけど、それは自重しましょう。
+[k]
+
+＠ケツァル・コアトル
+海からの異常は私たちも感知しています。[r]人の脚ではウルクには間に合いません。
+[k]
+
+＠ケツァル・コアトル
+だから、私の翼竜に乗っていきなさい。[r]荒っぽい運転だけど、地上を行くより遥かに早いわ。
+[k]
+
+？1：ありがとう、ケツァル・コアトル！
+
+[charaFace D 3]
+＠ケツァル・コアトル
+そんな、さすが大人のお姉さん、[r]女神一の美人とか言われると照れてしまいますネ……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 0]
+
+＠ダ・ヴィンチ
+そんな発言はまったく拾ってないけど、[r]なるほど、さすが『三女神同盟』の一柱！
+[k]
+
+＠ダ・ヴィンチ
+この女神もかなりの脳内無敵症と見た！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+？2：マルドゥークの斧は……？
+
+[charaFace D 5]
+＠ケツァル・コアトル
+あれはもう使えないから無視よ、無視！[r]鮮血神殿を壊した時に神性も吹き飛んだわ！
+[k]
+
+＠ケツァル・コアトル
+ついでに私の神性も半分ほどね！[r]この件についてマーリンを弾劾したかったのだけど！
+[k]
+
+＠ケツァル・コアトル
+となりにいたのに止めなかった[%1][&君:さん]も[r]同罪！　お説教、覚悟しておきなさい！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+？！
+
+[se ad19]
+＠ケツァルコアトルス
+クェ[line 4]！[r]クェェェエエ[line 4]！
+[k]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 4 4 0.4]
+
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ケツァル・コアトル
+っと、長話をしている暇はなかったわ。[r]二人とも、そっちの翼竜の背中に乗って。
+[k]
+
+[charaFace D 5]
+＠ケツァル・コアトル
+さあ、ウルクまで一直線よ！[r]しっかり掴まってなさい！
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[wt 0.1]
+[se ad7]
+[shake 0.05 2 2 0.4]
+[wt 0.4]
+[se ad158]
+[fadeout black 1.5]
+[wait fade]
+[seStop ad158 1.0]
+[scene 32700]
+[charaFadeout D 0.1]
+[charaSet B 98107800 1 ラフム]
+[wt 1.5]
+[se ad4]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+[charaShake H 0.01 1 1 0]
+
+＠ウル市民
+ひぃ、ひぃいいいい……！[r]なんだコレ、なんだコレェェェ！
+[k]
+
+＠ウル市民
+見逃してくれるんじゃなかったのか！？[r]女神に従っていれば、殺されないんじゃなかったのか！？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk B]
+[charaFadein B 0.4 1]
+[wt 0.7]
+[charaMoveReturn B 0,-20 0.2]
+[wait charaMove B]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+[se bac167]
+[charaEffect H bit_talk_12_red_R]
+[charaShake H 0.05 4 4 0.4]
+[wt 0.7]
+[capture]
+[specialEffect cutting]
+[se ad161]
+[effect bit_talk_35]
+[charaFadeout H 0.1]
+[wait specialEffect]
+
+[wt 0.7]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[se ad162]
+[seVolume ad162 0 0.7]
+[charaSet H 98107800 1 ラフムB]
+
+＠ウル市民
+みんな、外に出て……！[r]逃げて、逃げるのよぉ……っ！
+[k]
+
+＠ウル市民
+ウルクに逃げるの、早く！　ウルに戦士は残っていない！[r]みんなエリドゥに生贄に出してしまったじゃない！
+[k]
+
+＠ウル市民
+早く、早く逃げ[line 3]きゃあああああああああ！？
+[k]
+
+[seStop ad4 0.4]
+[seStop ad162 0.4]
+[messageOff]
+[se bac167]
+[wt 0.2]
+[seStop bac167 0.4]
+[se ad171]
+[wt 0.2]
+[effect bit_bolg_03]
+[wt 0.2]
+[se ad170]
+[shake 0.05 5 5 0.4]
+＠ウル市民
+[line 3]え？[r]ア、ア[line 3]あな、たは？
+[k]
+
+[messageOff]
+[seStop ad4 0.4]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+
+＠弁慶
+……名はない。行き場を失った流れ者だ。[r]荒野の魔獣たちを殺し、殺し、殺し尽くし[line 3]
+[k]
+
+＠弁慶
+人語すら忘れ、狂戦士と化した男に、[r]おまえたちは一宿一飯を与えた。
+[k]
+
+＠弁慶
+……その礼だ。早々に逃げるがいい。[r]この魔物どもは俺の獲物。一匹たりとも他には譲らん。
+[k]
+
+＠弁慶
+なに。[r]もはや槍を振るうしか能の無い愚者が一匹。
+[k]
+
+[charaFace E 2]
+＠弁慶
+地獄の魔物どもと殺し合うは、[r]当然の末路というものよ[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[wt 0.2]
+[charaMoveReturn B 0,-20 0.2]
+[wait charaMove B]
+[wt 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[se bac167]
+[wt 0.2]
+[seStop bac167 0.4]
+[se ad171]
+[wt 0.2]
+[effect bit_bolg_03]
+[wt 0.2]
+[se ad170]
+[shake 0.05 5 5 0.4]
+[wt 0.5]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠弁慶
+はははははは！[r]しかしこれはどうした事か！
+[k]
+
+＠弁慶
+寝ても覚めても魔獣どもを食い殺した結果か！[r]新たな獲物が現れるとは！
+[k]
+
+[charaFace E 2]
+＠弁慶
+いいぞ、そうでなくてはなぁ！[r]畜生道に落ちた男には、この地獄が相応しい！
+[k]
+
+＠弁慶
+もはや我、生きるに[#能:あた]わず！[r]煩悩も執着も捨てきれず、武蔵坊の境地にも至れなかった！
+[k]
+
+＠弁慶
+いかに仙術を修め[#三昧:ざんまい]に浸ろうと意味はなし！[r]この男の性根は何も変わらなかったのだ！
+[k]
+
+＠弁慶
+ふはは、ふははははは……！[r]醜い、共に醜いわ魔物ども！
+[k]
+
+＠弁慶
+この未熟者を殺せるものなら殺してみせよ！[r]その後で存分に、逃げた者たちを食らうがよい！
+[k]
+
+[charaTalk off]
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaFadein B 0.1 0]
+[charaFadein H 0.1 2]
+[se ad171]
+[charaEffect H bit_talk_12_red_L]
+[se bac95]
+[charaShake H 0.04 3 3 0.3]
+[wt 0.4]
+[charaEffect B bit_talk_12_red_L]
+[se ad171]
+[se bac95]
+[charaShake B 0.04 3 3 0.3]
+[wt 0.7]
+[se ad42]
+[charaSpecialEffect H enemyErasure 1 1.0]
+[charaSpecialEffect B enemyErasure 1 1.0]
+[wt 1.6]
+[seStop ad201]
+[wt 0.4]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠弁慶
+どうしたどうした[#有象無象:うぞうむぞう]！[r]地獄の釜が開いたのであろう？
+[k]
+
+＠弁慶
+もっと束になってかかってこぬか！[r]一匹二匹ではもの足りぬわ！
+[k]
+
+
+＠H：？？？
+[line 3]勇ましいな弁慶。[r]あの臆病者にしてはよく吼える。
+[k]
+
+[charaFace E 0]
+＠H：？？？
+少しは血が[#通:かよ]ったか。[r]それとも、もとの[#剽軽:ひょうきん]ぶりが顔を出したか。
+[k]
+
+＠H：？？？
+どちらにせよ、耳障りな事には変わらぬが。
+[k]
+
+[charaFace E 0]
+
+＠弁慶
+むっ、なにやつ！[r]そのようなナリで知ったような口を[line 3]
+[k]
+
+[charaFace E 4]
+＠弁慶
+[line 6]馬鹿な。[r]貴方さま、は。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaSet B 98006200 1 ？？？]
+[charaFadeout E 0.1]
+[wt 0.1]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠？？？
+だが邪魔だ。[r]我らの[#愉:たの]しみに水を差すな。
+[k]
+
+＠？？？
+愚か者め。死にたい、と言っていたな？[r][line 3]では望み通り、[#私が殺して進ぜよう]。
+[k]
+
+[charaTalk depthOff]
+[messageOff]
+[se ad73]
+[charaFadeout B 0.1]
+[wt 0.4]
+[charaDepth E 0]
+[charaFadein E 0.1 1]
+[se ad171]
+[effect bit_talk_ichimon01re]
+[charaSet B 98107800 1 ラフムA]
+[charaDepth B 1]
+[charaDepth H 2]
+[wt 0.7]
+[charaEffect H bit_talk_35]
+[se ad161]
+[charaShake E 0.01 5 5 0.7]
+[wt 0.7]
+[charaMove E 0,-50 0.7]
+[wait charaMove E]
+
+[charaFadein B 0.1 128,0]
+[charaMove B 0,0 0.2]
+[wt 0.1]
+[charaFadeout B 0.1]
+[wait charaMove B]
+[effect bit_talk_12_red_R]
+[se bac167]
+[charaShake E 0.01 5 5 0.2]
+[charaEffect H bit_talk_35]
+[se ad161]
+[wt 0.7]
+
+[charaFadein H 0.1 -128,0]
+[charaMove H 0,0 0.2]
+[wt 0.1]
+[charaFadeout H 0.1]
+[wait charaMove H]
+[effect bit_talk_12_red_L]
+[se bac167]
+[charaShake E 0.01 5 5 0.4]
+[effect bit_talk_35]
+[se ad161]
+[wt 0.7]
+[charaFadeout E 0.4]
+[wt 0.1]
+
+＠弁慶
+バカな、バカな[line 3]ぐおお、[r]ぐああああああああああああああ…………！！！
+[k]
+
+[messageOff]
+[se bac167]
+[flashin once 0.2 0.1 FF0000AF FF000000]
+[wt 0.5]
+[se bac167]
+[flashin once 0.2 0.1 FF0000AF FF000000]
+[wt 0.7]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 1.0]
+[charaTalk on]
+[charaSet B 2020001 1 イシュタル]
+[scene 20320]
+[seStop ad4]
+[seStop ad162]
+[fadein black 1.5]
+[wait fade]
+[se ad2]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、ウルク上空です！[r][#市:まち]が……ウルクの市が燃えています！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+[se bac71]
+[wt 0.4]
+[se bac71]
+[wt 0.4]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+ああもうこいつら！　次から次へと！[r]しかも硬い！　なんなの、あの硬さ！
+[k]
+
+[charaFace B 9]
+＠イシュタル
+って、[%1]！？[r]予想より早かったわね！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ケツァル・コアトル
+ハーイ！　私の方から迎えに行きましたから！[r]アナタより頭一つ分、気の利くお姉さんなのでした☆
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+ああそう、どうでもいいけど助かったわ！[r]空からの狙撃じゃ限度があったの！
+[k]
+
+＠イシュタル
+ウルクに降りてアイツらを迎撃して！[r]一匹でも多く！　早く！
+[k]
+
+？1：任せて！
+？2：こっちは頼んだ！
+
+？！
+
+[charaFace B 7]
+＠イシュタル
+……青い顔してるのに無茶しちゃって。[r]でも助かるわ。ありがとう。
+[k]
+
+[charaFace B 8]
+＠イシュタル
+市に降りたらジグラットまでの道を確保して。[r]市民が無事に逃げられるように。
+[k]
+
+＠イシュタル
+[line 3]それと、意識をしっかり持って。[r]下にいるのはアナタが見た事もなかった生き物よ。
+[k]
+
+＠イシュタル
+戦う前に戦意を失わないよう、気をつけて。
+[k]
+
+
+[messageOff]
+[seStop ad2 0.4]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaSet H 98024000 1 ウル市民]
+[charaSet B 98107800 1 ラフム]
+[scene 32910]
+[wt 0.1]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+[charaShake H 0.01 2 2 0.7]
+
+＠ウルク市民
+ひぃ、来るな、来るな[line 3]！[r]誰か、助けてくれ、誰か[line 5]！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠？？？
+[line 3]ｓ＠４ｒ；ｆ＠ｅｅｙｗ＠ｒ[r]ｕｉｔ＠ｓ＠ｋ９４ｉ４ｂ＠ｅｗｅ？
+[k]
+
+
+[messageOff]
+[charaMoveReturn B 0,-20 0.2]
+[wait charaMove B]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaFadein H 0.1 1]
+[se bac167]
+[charaShake H 0.05 4 4 0.7]
+[fowardEffect bit_talk_35]
+[se ad161]
+[wt 1.0]
+
+＠ウルク市民
+いてぇ、いてぇ[line 5]えええええ！[r]やめろ、やめろよ、やめて、やめて、
+[k]
+
+[charaShake H 0.05 4 4 1.0]
+＠ウルク市民
+なんで、つま先から、縦に、縦に裂いて、[r]ひぃいい、いたい、たいいぃぃいいいい！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠？？？
+！　ｕｙｑ＠ｂ４ｅ４ｂｓｔ＜[r]ｕ．－ｓ＠＜ｕ．－＠ｓ！
+[k]
+
+
+[messageOff]
+[charaMoveReturn B 0,-20 0.2]
+[wait charaMove B]
+[se bac167]
+[wt 0.2]
+[charaMoveReturn B 0,-20 0.2]
+[wait charaMove B]
+[se bac167]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaFadein H 0.1 1]
+[charaShake H 0.05 5 5 0.7]
+[fowardEffect bit_talk_35]
+[se ad161]
+[wt 1.0]
+
+＠ウルク市民
+ぎぃぃいいいいいいい！[r]ひぃぃぃいいいいいいい！
+[k]
+
+[messageOff]
+[capture]
+[specialEffect cutting]
+[se ad161]
+[charaFadeout H 0.1]
+[wait specialEffect]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 1.0]
+[charaSet H 98024100 1 ウルク市民]
+[charaSet E 98024000 1 ウルク市民]
+[charaSet F 98107800 1 ラフムC]
+[charaSet G 98107800 1 ラフムD]
+[charaSet D 98107800 1 ラフムE]
+[charaSet C 98107800 1 ラフムF]
+[fadein black 1.5]
+[wait fade]
+
+
+
+[charaTalk off]
+[charaDepth E 2]
+[charaDepth H 0]
+[charaFace H 1]
+[charaFace E 1]
+[charaFadein H 0.1 -200,0]
+[charaFadein E 0.1 200,0]
+[charaShake H 0.05 0 2 0]
+[charaShake E 0.05 0 2 0]
+
+＠ウルク市民
+はぁ[line 3]はぁ、はぁ、はぁ[line 3]！
+[k]
+
+[seStop ad60 0.4]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[cameraMove 0.4 10,-30 1.2]
+＠？？？
+ｕｔｊ　ｕｔｊ　ｗ＠ｆｕｅ……？[r]６ｄ５ｗ　６ｄ５ｗ　ｕｉｔ＠　ｅ７ｕｋ
+[k]
+
+
+[cameraHome 0.4]
+[wait camera]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaFadein H 0.1 -200,0]
+[charaFadein E 0.1 200,0]
+[charaShake H 0.01 1 1 0]
+[charaShake E 0.01 1 1 0]
+
+＠ウルク市民
+ふう、ふうう、うう……！[r]うううう……！
+[k]
+
+＠E：ウルク市民
+ふ、ふぅぅ……あ、あああああ！[r]いやだ、[se ad59][seStop ad59 1.0][charaFadeout E 0.2][charaMove E 300,0 0.2]もういやだ、誰かたすけ
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaShakeStop E]
+[charaFadeout H 0.1]
+[wt 0.1]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wt 0.7]
+[messageOff]
+[charaTalk off]
+[charaDepth B 1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaFadein B 0.4 1]
+[wt 0.4]
+[charaFadein F 0.4 2]
+[wt 0.4]
+[charaFadein G 0.4 0]
+[wt 0.4]
+[charaFadein D 0.4 512,0]
+[wt 0.4]
+[charaFadein C 0.4 -512,0]
+[wt 0.4]
+
+＠？？？
+！　４ｂ＠ｅｑ＜４ｂ＠ｅｑ！
+[k]
+
+
+[messageOff]
+[charaMove B 0,-20 0.2]
+[wait charaMove B]
+[se bac167]
+[wt 0.4]
+[effect bit_talk_35]
+[se ad161]
+[wt 0.7]
+
+＠？？？
+[line 3]ｂ；ｆ？　ｂ；ｍ　６ｕｄ＠　ＭＯＮＯ？[r]６ｍｄ
+[k]
+
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[charaFadein H 0.1 1]
+＠ウルク市民
+ひぃ、こっちに来た！？
+[k]
+
+＠ウルク市民
+な、なんで！？　動かなかった、わたし動かなかった！[r]必死に我慢してたのに、なんで！？
+[k]
+
+＠ウルク市民
+あいつが！　あいつが、逃げたりなんかしたからぁ！
+[k]
+
+[messageOff]
+[se bac167]
+[charaEffect H bit_talk_12_red_L]
+[wt 0.1]
+[charaShake H 0.05 4 4 1.0]
+[wt 0.3]
+[charaFadeout H 0.1]
+[wt 0.4]
+[se ad161]
+[se bac167]
+[flashin once 0.2 0.1 FF0000AF FF000000]
+[wt 0.5]
+[se bac167]
+[flashin once 0.2 0.1 FF0000AF FF000000]
+[wt 0.5]
+[se bac167]
+[flashin once 0.2 0.1 FF0000AF FF000000]
+[wt 1.0]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaSet H 98107500 1 ウルク兵士]
+[charaSet E 98107500 1 ウルク兵士A]
+[charaSet C 98107500 1 ウルク兵士B]
+[fadein black 1.5]
+[wait fade]
+
+
+[charaTalk on]
+[se ad16]
+[charaTalk H]
+[charaFadein H 0.4 1]
+
+＠ウルク兵士
+逃げるな、戦え！[r]ここで止められなければ後がないぞ！
+[k]
+
+＠ウルク兵士
+全員でかかれ！　全員で一匹ずつ仕留めるのだ！
+[k]
+
+[messageOff]
+[se ad51]
+[charaFadein E 0.4 0]
+[charaFadein C 0.4 2]
+[wt 1.0]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+[se ad171]
+[wt 0.7]
+[effect bit_talk_13]
+[wt 0.1]
+[charaShake B 0.05 0 4 0.2]
+[se ad32]
+[wt 0.4]
+[effect bit_talk_13]
+[wt 0.1]
+[charaShake B 0.05 0 4 0.2]
+[se ad32]
+[wt 0.4]
+[effect bit_talk_13]
+[wt 0.1]
+[charaShake B 0.05 0 4 0.2]
+[se ad32]
+[wt 0.7]
+
+＠？？？
+ｑｋｄｅ　ｑｋｄｅ！[r]ｇ＠’ｆｆｆｆｆｆｆｆｆｆｆｆｆｆｆｆｆｆ！
+[k]
+
+
+[seStop ad16 0.7]
+[charaMoveReturn B 0,-20 0.2]
+[wait charaMove B]
+[messageOff]
+[charaFadeout B 0.1]
+[charaFadein H 0.1 1]
+[charaFadein E 0.1 0]
+[charaFadein C 0.1 2]
+[se bac167]
+[flashin once 0.2 0.1 FF0000AF FF000000]
+[wt 0.2]
+[charaFadeout H 0.4]
+[se ad161]
+[wt 0.4]
+[se bac167]
+[flashin once 0.2 0.1 FF0000AF FF000000]
+[wt 0.2]
+[charaFadeout E 0.4]
+[se ad161]
+[wt 0.4]
+[flashin once 0.2 0.1 FF0000AF FF000000]
+[se bac167]
+[wt 0.2]
+[charaFadeout C 0.4]
+[se ad161]
+[wt 0.4]
+[wt 0.7]
+[wipeout leftToRight 0.7 1]
+[wait wipe]
+[wt 0.4]
+[wipein rightToLeft 0.7 1]
+[wait wipe]
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠ウルク兵士
+だめだ……歯が立たない、槍も弓も通らない！[r]なんなんだ、なんなんだこの生き物は！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠？？？
+ｑｋｄｅ！　ｑｋｄｅ！[r]ｇ＠’ｆｆｆｆｆｆｆｆｆｆｆｆｆｆｆｆｆｆ！
+[k]
+
+
+
+[messageOff]
+[charaMoveReturn B 0,-20 0.2]
+[se bac167]
+[seStop bac167 0.6]
+[wait charaMove B]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 128,0]
+[charaMove A 0,0 0.2]
+[wt 0.2]
+[se bac8]
+[charaFace A 7]
+[charaMove H -56,0 0.2]
+[charaFadeout H 0.2]
+[wt 0.2]
+
+[charaEffect A bit_talk_14]
+[wt 0.1]
+[se ad32]
+[charaShake A 0.05 4 4 0.4]
+[wt 1.0]
+
+？1：[line 3]そこまでだ、化け物！
+？2：マシュ、行く[&ぞ:よ]……！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい……！[r]未知の生命体との交戦を開始します、マスター！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_24 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

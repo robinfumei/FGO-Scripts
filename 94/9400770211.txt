@@ -1,0 +1,529 @@
+
+＄94-00-77-02-1-1
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1010001 1 エリザベート]
+[charaSet D 2008000 1 トリスタン]
+[charaSet E 1020001 1 ランスロット]
+[charaSet F 98002000 1 フォウ]
+[charaSet G 6008001 1 ？？？]
+[charaSet H 98084000 1 騎士]
+[bgm BGM_EVENT_3 0.1]
+[scene 20502]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk H]
+[charaFadein H 0.4 1]
+
+＠女王騎士
+ふ、不覚……！！[r]撤退、撤退である！
+[k]
+
+[messageOff]
+[se ad166]
+[charaMove H 1024,0 0.7]
+[wait charaMove H]
+[seStop ad166 1.0]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_3 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_2 0.4]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+どうにか撤退させましたが……。[r]皆、一方ならぬ技量の持ち主でした。
+[k]
+
+[charaFace A 7]
+＠マシュ
+彼らほどの騎士が心酔する女王……[r]一体何者なのでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+特異点修正のためにも、[r]会いに行かねばならないだろうね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠エリザベート
+さ、[&子イヌ:子ジカ]。[r]もちろん協力してくれるわね！
+[k]
+
+？1：[%1]たちが、なかまになった！
+？！
+
+[charaFace C 7]
+＠エリザベート
+……。[r]……よ、良かったぁ……。
+[k]
+
+[charaFace C 6]
+＠エリザベート
+ありがとう……[#私:アタシ]ってば、感激も感激よ。[r]今すぐ歌い踊りたいくらいに。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それは結構ですさあ出発しましょう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+即答！？
+[k]
+
+[charaFace C 0]
+＠エリザベート
+……まあいいわ。[r]ともかく！
+[k]
+
+
+[charaFace C 5]
+＠エリザベート
+勇者エリザベートの伝説が、今ここから始まるのよ！[r]見てらっしゃい、あの魔女め！
+[k]
+
+[messageOff]
+[wipeout rollRight 0.7 1]
+[wait wipe]
+[bgmStop BGM_EVENT_2 0.3]
+
+[charaFadeout C 0.1]
+[wt 1.0]
+[scene 20322]
+[wipein rollLeft 0.7 1]
+[wait wipe]
+
+
+
+＠ナレーション
+ゆうしゃエリザベートのぼうけんが　[se ad139]はじまった！
+[k]
+
+
+[messageOff]
+[wipeout rollRight 0.7 1]
+[wait wipe]
+[charaEffectStop C bit_talk_41]
+[charaFadeout C 0.1]
+[wt 1.0]
+
+[bgm BGM_EVENT_7 0.3]
+[charaTalk A]
+[charaFace A 0]
+[charaFace C 0]
+[scene 20502]
+[wipein rollLeft 0.7 1]
+[wait wipe]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+ところでどうして酒場であんな看板を……？
+[k]
+
+[charaFace C 1]
+＠エリザベート
+ああ、あれは[line 3]
+[k]
+
+＠エリザベート
+『それじゃあ仲間の希望はね、強くてキラキラしてて[r]　[#私:アタシ]を飾り立てて[#私:アタシ]を崇めてくれる人！
+[k]
+
+＠エリザベート
+　当方ボーカル希望。バンド経歴なし。[r]　ギター、ベース、ドラム、プロ級の者、募集』
+[k]
+
+[charaFace C 2]
+＠エリザベート
+……って言ったら、あの酒場の女が満面の笑顔で[r]これを渡してくれたの！　ひどくない！？
+[k]
+
+[charaFace A 4]
+＠マシュ
+自業自得でしたか……。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.5]
+[wait fade]
+[wt 1.0]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[bgm BGM_EVENT_5 0.5]
+[wt 0.1]
+[scene 20901]
+[charaTalk E]
+[charaFace E 0]
+[charaFace D 0]
+[fadein black 1.5]
+[wait fade]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+
+＠ランスロット
+女王。カルデアからの訪問客を確認しました。[r]張り巡らせていた結界に引っかかったようです。
+[k]
+
+＠トリスタン
+……。[r]……。
+[k]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠？？？
+フッ、さすが完璧な[#妾:わらわ]、予想済みです！[r]当然、対策は立てているわ！
+[k]
+
+[charaFace G 3]
+＠？？？
+さらに最強の門番が控えている以上、[r][#妾:わらわ]の優位は動かない……ああ、美しすぎる……
+[k]
+
+[charaFace G 1]
+＠？？？
+この領地は[#妾:わらわ]が支配する。[r]適切に、寛容に、そして無慈悲に。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠女王騎士
+あ、あの……女王。[r]引き続き、ハロウィンは禁止ですか？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+
+＠？？？
+たわけ＆パッとしない男！[r]後で美容院に行きなさい！
+[k]
+
+＠？？？
+ハロウィンなど愚民には早すぎる！
+[k]
+
+[charaFace G 5]
+＠？？？
+世情が不安定なこの時期に、[r]あのような浮かれた祭りなど愚の骨頂。
+[k]
+
+[charaFace G 2]
+＠？？？
+慎みと慈しみを持ちなさい！[r]この！　[#妾:わらわ]のように！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠女王騎士
+……しかし、誰もがハロウィンを楽しみに[r]していたのは確かですし……私の子供も……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠？？？
+不敬者！　[#妾:わらわ]に口答えなど処刑ものです！[r]ですが子供に免じて有休一日で許してあげましょう！
+[k]
+
+
+＠？？？
+いますぐ剣を置き、貧相な家に帰りなさい！[r]その命が惜しいというのなら！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠女王騎士
+え、は？[r]あの、それはどういう……
+[k]
+
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ランスロット
+君、いいから今日は帰りなさい。[r]明日一日はオフという事だ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠女王騎士
+……はあ。[r]では、恐れながら[#有休:しょばつ]を謹んで……
+[k]
+
+[se ad166]
+[messageOff]
+[charaFadeout H 0.7]
+[seStop ad166 1.5]
+[wt 1.5]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ランスロット
+それで女王。[r]我々は如何致しましょうか？
+[k]
+
+＠ランスロット
+今から、総出で掛かって討ち取り、[r]後顧の憂いを無くしますか？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+
+＠？？？
+ホホホホホ！[r]この、愚か者め！
+[k]
+
+
+[charaFace G 2]
+＠？？？
+それではまるで[#妾:わらわ]が[#彼奴:きゃつ]らを[r]恐れているようではないですか！
+[k]
+
+[charaFace G 0]
+＠？？？
+街に騎士たちは派遣しましょう。[r]民が浮き足立つのを防ぐためです。
+[k]
+
+
+＠？？？
+おまえたちは……そうね。[r]別に出撃する必要はなくてよ。
+[k]
+
+[charaFace G 2]
+＠？？？
+街に放った途端、町娘をナンパするつもりなのは[r]まるっとお見通し。世の中そう甘くはないわ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFace D 4]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+
+＠ランスロット
+……いや、私は別に……
+[k]
+
+＠トリスタン
+…………なんという…………[r]我々の生態を完全に把握されているとは……。
+[k]
+
+[charaFace E 0]
+＠ランスロット
+いや、トリスタン卿。[r]私は純粋に街の治安をだね。
+[k]
+
+[charaFace D 6]
+＠トリスタン
+……あの街の酒場には先日、賭け事で身代を崩した[r]男に捨てられた、傷心の美女がいると聞きましたが……
+[k]
+
+[charaFace E 2]
+＠ランスロット
+どこの酒場かね？[r]もしや、三番街のトネリコ亭のあの美女の話か？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+
+＠？？？
+ホホホ。[r]自室待機より上の、[charaFace G 5]牢獄待機の方がいいかしら？
+[k]
+
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 6]
+[charaFace D 4]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+
+＠ランスロット
+失敬。待機の任、承りました女王。
+[k]
+
+[charaFace E 0]
+＠ランスロット
+それでは、我々はこれで。[r]女王はごゆるりとお休み下さいませ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠？？？
+言われずとも[#寛:くつろ]ぎます。[r]さっさと退出なさい！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_5 1.0]
+[charaTalk D]
+[charaFace E 0]
+[charaFace D 4]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+
+＠トリスタン
+……。[r]……。
+[k]
+
+＠ランスロット
+ははっ。[r]……トリスタン？
+[k]
+
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠？？？
+……？
+[k]
+
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠トリスタン
+……。[r]……。
+[k]
+
+＠トリスタン
+……。[r]……スヤァ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+
+＠？？？
+……。[r]……。
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[se ad38]
+[shake 0.05 10 10 0.7]
+[wt 0.7]
+[charaFadeout G 0.1]
+[wt 0.1]
+[scene 20602]
+[charaTalk D]
+[charaFace E 0]
+[charaFace D 4]
+[fadein black 1.5]
+[wt 0.4]
+[bgm BGM_EVENT_5 1.0]
+[wait fade]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+
+
+
+＠トリスタン
+……[se ad152]（我が肉体が痛みで物理的に）悲しい。
+[k]
+
+
+＠ランスロット
+[#卿:けい]はある意味凄いな……。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 0.7]
+[wait fade]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[soundStopAll]
+[end]
+

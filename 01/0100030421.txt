@@ -1,0 +1,202 @@
+＄01-00-03-04-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 5009003 1 ダ・ヴィンチ]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘終了しました、マスター。[r]ターミナルポイント作成します。
+[k]
+
+[se ad31]
+[wt 1]
+[seStop ad31]
+＠Dr.ロマン
+……うん？[r]いま何か……。
+[k]
+
+＠マシュ
+どうしました？
+[k]
+
+＠Dr.ロマン
+いや、気のせいだろう。[r]いつものように設置をはじめていいよ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+わかりました。[r]では[line 2]。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[charaFadeout A 0.4]
+[wait fade]
+[wt 0.5]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[communicationChara 5009003 1 5 0 1]
+[wt 0.3]
+＠ダ・ヴィンチ
+[line 2]それでは諸君。ダ・ヴィンチちゃんの[r]清く正しい授業の始まりだ。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+君たちが今いるのは、大航海時代の真っ只中。
+[k]
+
+＠ダ・ヴィンチ
+様々なものが東側から流入し、[r]ヨーロッパは先を争って、新大陸への進出を開始した。
+[k]
+
+＠ダ・ヴィンチ
+その際に得られたものの一つが、香辛料。[r]ナツメグ、グローブ、そしてペッパー……胡椒だ。
+[k]
+
+＠ダ・ヴィンチ
+腐敗した肉を食べるために必要だった胡椒は、[r]この時代において黄金にも勝る価値を持っていた。
+[k]
+
+＠ダ・ヴィンチ
+試しにドレイク船長に転送した胡椒瓶を[r]手渡してみると、どうなると思う？
+[k]
+
+＠ダ・ヴィンチ
+やってごらん。
+[k]
+
+＠ドレイク
+マジでええええええええええええ！？
+[k]
+
+[wt 0.5]
+[se bac11]
+[wait se bac11]
+？1：倒れた
+
+？2：失神した
+
+？！
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチ
+愉快だろう。あ、ちゃんと回収しておいて。[r]いたずらに相場を乱しちゃいけないからね。
+[k]
+
+＠ダ・ヴィンチ
+そうこうしているうちに召喚サークルも確立したよ。[r]思う存分使ってほしい。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[scene 10500 0]
+[charaFace A 0]
+[charaFadein A 0 1]
+[se ad29]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+召喚サークル確立。[r]ポイント生成完了しました。
+[k]
+
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠Dr.ロマン
+あ、そうそう。[r]先ほど海賊旗の結果が出たんだけど[line 2]
+[k]
+
+[se ad31]
+[wt 1]
+＠Dr.ロマン
+あの旗は伝説の大■賊「■■」の■■。[r]つまり、あの海賊たちは■■■■■という■■■……。
+[k]
+
+[charaFace A 14]
+＠マシュ
+ドクター？　ドクター、通信の調子が[line 2][r]ドクター！？
+[k]
+
+[communicationCharaStop]
+[seStop ad31]
+＠Dr.ロマン
+[line 6]。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein A 0.1 1]
+[scene 20300 0]
+[charaFace A 7]
+＠マシュ
+通信途絶えました。[r]一体何が……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[se ad14]
+[messageOff]
+[shake 0.05 0 5 0]
+[charaFace A 6]
+＠マシュ
+きゃ、地震……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ドレイク
+伏せな、かなり大きいよ！
+[k]
+
+[wt 1]
+[shakeStop]
+[seStop ad14 2]
+[charaFace A 0]
+＠マシュ
+……収まった、ようです。[r]マスター、大丈夫ですか？
+[k]
+
+？1：問題ない
+
+？2：怪我はない
+
+？！
+
+[charaFace A 13]
+＠マシュ
+そのようですね、何よりです。[r]ドレイクさんも大丈夫ですか？
+[k]
+
+[charaFace D 0]
+＠ドレイク
+荒れた海に比べりゃそよ風さ。[r]だが船と部下が心配だ。一旦戻って構わないかい？
+[k]
+
+[charaFace A 0]
+＠マシュ
+そうしましょう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

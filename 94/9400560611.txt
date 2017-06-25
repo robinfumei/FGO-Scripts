@@ -1,0 +1,332 @@
+
+
+
+＄94-00-56-06-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 5027000 1 マリー]
+[charaSet B 3024000 1 玉藻の前]
+[charaSet C 2026000 1 アルトリア]
+[charaSet D 4024000 1 モードレッド]
+[charaSet E 6024000 1 スカサハ]
+[charaSet F 98100400 1 マシュ]
+[charaSet G 9004000 1 マルタ]
+[charaSet H 3001001 1 クー・フーリン]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マリー
+ふう、ボール遊びは楽しいけれど、少し疲れちゃった。[r]また今度ね？　大丈夫、時間はいっぱいありそうだもの。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+なんというエレガントさで勝利してしまったのでしょう[r][#私:わたくし]……怖い！　自分の優雅さが怖い！
+[k]
+
+＠玉藻の前
+けれど余裕のある美女は何事もなく受け止め、[r]パラソルの下に寝そべり尻尾をモフ立て、
+[k]
+
+＠玉藻の前
+このセクシーバディを周囲に見せつけるのでした……と。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠アルトリア
+貴女たち。どれだけ南国気分でいるかは[r]各自の裁量でしょうが、
+[k]
+
+＠アルトリア
+どうあれ最終的には、我々の行動が[r]マスターの生命と未来に関わるのです。
+[k]
+
+＠アルトリア
+それだけは忘れないように。[r]引き締めるべきところは引き締めなくてはいけません。
+[k]
+
+＠アルトリア
+ところでマスター。大事な質問があります。[r]今夜の食事はどうなるのでしょうか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace C 6]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+＠モードレッド
+クソ、やっぱ、なーんかやり辛えなー。[r]見えるところにいられるとなー（チラチラ）。
+[k]
+
+[charaFace D 5]
+＠モードレッド
+……言うまでもねぇが、目障りって意味だぜ？[r]マジでな？
+[k]
+
+[charaFace D 0]
+＠モードレッド
+あー、とりあえず気分スッキリさせてぇ。[r]波にでも乗ってくるとするか！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠スカサハ
+さて、まだまだ為すべきことは山積しているぞ。[r]次はどれに手をつけるべきか。ふふ……。
+[k]
+
+[charaFace E 3]
+＠スカサハ
+……む？　私は今、高揚していたのか？
+[k]
+
+[charaFace E 0]
+＠スカサハ
+海、浜、降り注ぐ太陽がそうさせるのか。[r]珍しいこともある……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+
+＠マシュ
+皆さん、少しずつこの島の生活に慣れてきたようですね。
+[k]
+
+＠マシュ
+最初は何もかも不便で、不平不満もありましたが[line 3][r]いろいろ頑張って開拓してきた成果でしょうか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠マルタ
+でも……最近、少し妙なことがあるのです。[r]聞いてくれますか、マスター。
+[k]
+
+？1：もちろん
+？2：なんなりとお申しつけください聖女様！
+
+[charaFace G 5]
+＠マルタ
+そ、そういうふうに[r]畏まりすぎるのやめてほしいんだけど！
+[k]
+
+＠マルタ
+冗談じゃないんならホントに舎弟にするわよ！？[r][line 3][charaFace G 3]おほん。ええと、なんでしたっけ。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace G 0]
+＠マルタ
+男性陣の様子が、少しおかしい気がするのです。[r]ほら、ちょうど、あそこ。
+[k]
+
+[messageOff]
+[se ba1]
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+
+[charaSet A 3004001 1 カルナ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 3025000 1 清姫]
+
+
+[bgm BGM_EVENT_5 0.1]
+
+[messageOff]
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace A 0]
+[charaFace H 0]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+[charaDepth A 0]
+[charaDepth H 3]
+
+[cameraMove 0 0,-50 1.2]
+[wait camera]
+
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+[charaShake H 0.1 0 3 0.5]
+[wt 1.0]
+[charaTalk A]
+[charaShake A 0.1 0 3 0.5]
+[wt 1.0]
+[charaTalk H]
+[charaFace H 1]
+[charaShake H 0.1 0 3 0.5]
+[wt 1.0]
+[charaTalk A]
+[charaShake A 0.1 0 3 0.5]
+[wt 1.0]
+[charaTalk H]
+[charaFace H 4]
+[charaShake H 0.1 0 3 0.5]
+[wt 1.0]
+[charaTalk A]
+[charaFace A 1]
+[charaShake A 0.1 0 3 0.5]
+[wt 1.0]
+[charaTalk H]
+[charaFace H 3]
+[charaShake H 0.1 0 3 0.5]
+[wt 1.0]
+
+[charaFadeout A 0.4]
+[charaFadeout H 0.4]
+[wt 1.0]
+
+[messageOff]
+[se ba1]
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+
+[charaSet A 3024000 1 玉藻の前]
+
+[cameraHome 0]
+[wait camera]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+＠マルタ
+見ましたか。[r]こそこそ二人で何かを密談し[line 3]
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+二人でどこかに消えていかれました、ね……？
+[k]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+うむうむ。最近、男性陣の方々はふらりと[r]姿を消すことが多いですねぇ。
+[k]
+
+＠玉藻の前
+仕事はきちんとこなしているので見過ごしがちですが、[r][#私:わたくし]も気付いておりましたよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠清姫
+わたくしはまったく気付いておりませんでした！[r]ずっとますたぁだけを見ていましたので！（力説）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マルタ
+ともあれ[line 3]どうします、マスター？
+[k]
+
+？1：コッソリ追いかけてみよう
+？2：何をしてるのか今すぐ問い詰めてみよう
+
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+シラを切られるという可能性もありますので、[r]とりあえず尾行を提案いたしましょう！
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+
+＠マルタ
+乗ったわ。もしも神の教えに外れるようなことを[r]していたのなら、同じ漂流者でもけっして見過ごせない。
+[k]
+
+＠マルタ
+ええ、これはけっして下世話な覗き見根性ではなく、[r]あくまで聖なる確認作業[line 3]言わば[#聖覗:せいし]なのです！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠マシュ
+その漢字を使うと、やっぱり覗きのニュアンスが……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+[soundStopAll]
+[end]

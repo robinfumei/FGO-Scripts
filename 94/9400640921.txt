@@ -1,0 +1,334 @@
+
+＄94-00-64-09-2-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet D 98102500 1 イリヤ]
+[charaSet F 98003000 1 Dr.ロマン]
+[charaSet G 5017002 1 メディア・リリィ]
+[charaSet H 98104200 1 イアソンくん]
+[charaSet C 98104200 1 ？？？]
+
+[charaFilter C silhouette 00000000]
+
+[charaDepth H 1]
+[charaDepth C 3]
+
+[charaTalk depthOff]
+
+
+[scene 21260]
+[se ad37]
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+[seStop ad37 1.5]
+
+[messageOff]
+[charaTalk F]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.5]
+
+＠Dr.ロマン
+まだ生きてるね、[%1][&君:ちゃん]！？[r]もう充分キツいだろうが、今度はサーヴァントだ！
+[k]
+
+＠Dr.ロマン
+こちらが押している戦況をみても、退くことなく[r]あちらから距離を詰めて来たようだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+では、この国の魔法少女でしょうか？[r]警戒心の強い、とても用意周到な相手です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+うん[line 3]感じるよ。近づいてきてる。[r]ナーサリーちゃんからあずかった石のおかげみたい。
+[k]
+
+[charaFace D 3]
+＠イリヤ
+…………わっ来た！[r]……っ……！？　あの人は……。
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk off]
+[charaFace G 1]
+[charaFace H 0]
+[charaFadein G 0.1 2]
+[charaFadein C 0.1 -250,-100]
+[charaFadeTime C 0.1 0.8]
+[charaFadein H 0.1 -250,-100]
+
+＠メディア・リリィ
+はじめまして、見知らぬ異世界の方々。[r]私はメディア[line 3]
+[k]
+
+＠メディア・リリィ
+愛と癒やしの魔法少女メディカル☆メディア[r]と申します。どうか、よしなに。
+[k]
+
+＠イアソンくん
+………………。
+[k]
+
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFace B 0]
+[charaFadein D 0.1 2]
+[charaFadein B 0.1 0]
+
+＠イリヤ
+あ、あの格好……！[r]ルビー、もしかしてあのひと……！
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+おおー。ちょーっと違いますけど、[r]清楚いやらしいあのスリットはまさにキャスターさん！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+イリヤさんにとって最初の強敵、[r]魔術師のサーヴァント、キャスターさんです！
+[k]
+
+[charaFace D 1]
+＠イリヤ
+うんうん、そうそう！
+[k]
+
+[charaFace D 0]
+＠イリヤ
+あの時はごめんなさいっ！[r]わたしイリヤです！　イリヤスフィール！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+イリヤさん……彼女と面識が？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+はい、一方的な面識なんですけど……[r]でも[charaFace D 3]あのイケメンさんっぽい人形はダレだろ……？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠メディア・リリィ
+……？　私たち、知り合いでしたの？[r]そんな[line 3]
+[k]
+
+[charaFace G 4]
+＠メディア・リリィ
+そうとは知らず、手荒な真似をしてしまいました。[r]ごめんなさい、桃色の方。
+[k]
+
+＠メディア・リリィ
+私、昔の事を意識していないのです……[r]だから、もしあなたと私が友人だったとしても……
+[k]
+
+[charaFace G 1]
+＠メディア・リリィ
+そこはそれ、過去より今を見るという事で忘れましょう？[r]都合の悪い昔話は棄てた方が楽ですよ？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+え……？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠メディア・リリィ
+はい。ですので、先ほどの戦いも忘れましょう。[r]お互い、ちょっとした食い違いがあったという事で。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+メディアさん、杖を収めてくれました。[r]なんであれ、戦いが終わったのは良い事です。
+[k]
+
+[charaFace A 1]
+＠マシュ
+あとは魔法少女らしく、[r]話し合いで解決できる流れとみました！
+[k]
+
+
+？1：そうかなぁ……
+？2：マトモな話ができればね
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠メディア・リリィ
+話し合いですか？[r]それはたいへん素晴らしい事です。
+[k]
+
+＠メディア・リリィ
+ただ話し合うだけで相手の命を奪えるのなら、[r]それに越した事はないのですから。
+[k]
+
+[charaFace G 1]
+＠メディア・リリィ
+そうやってアナタたちは宝石を手に入れたのでしょう？[r][#魔法少女:もちぬし]の血に濡れた宝石を。
+[k]
+
+＠メディア・リリィ
+いったいどの国の魔法少女を殺したのかしら？[r]きっとたいへんな戦いだったのでしょう。
+[k]
+
+[charaFace G 0]
+＠メディア・リリィ
+その武勇伝、お話ししてくださいますか？[r]私も今後の参考にしたいので。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+ち、ちがうよ？　メディアさん！
+[k]
+
+[charaFace D 4]
+＠イリヤ
+たしかに一人の魔法少女と[r]バトルする結果にはなっちゃったけど[line 3]
+[k]
+
+[charaFace D 5]
+＠イリヤ
+わたしたちは殺し合いなんてしていない。[r]この宝石はナーサリーちゃんから譲ってもらったの。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadeout G 0.1]
+
+[charaTalk off]
+[charaFace G 1]
+[charaFace H 0]
+[charaFadein G 0.1 2]
+[charaFadein C 0.1]
+[charaFadeTime C 0.1 0.8]
+[charaFadein H 0.1]
+
+＠メディア・リリィ
+[line 6]。
+[k]
+
+[charaFace H 0]
+＠イアソンくん
+……………………。
+[k]
+
+[charaFace G 0]
+＠メディア・リリィ
+なるほど、話は分かりました。[r]あなたたちはナーサリー・ライムの国から来たのですね。
+[k]
+
+[charaFace G 1]
+＠メディア・リリィ
+そして、今度は私の宝石を獲りに来た。[r]ふふ[line 3]なんてお転婆な方でしょう！
+[k]
+
+[charaFace G 5]
+＠メディア・リリィ
+魔法少女としては歓迎できるお客様ではありませんが、[r]一国の王女として無視できる方ではありません！
+[k]
+
+[charaFace G 0]
+＠メディア・リリィ
+ね、そうでしょうイアソンさま？[r]この方たち、宝石を集めているんですって。
+[k]
+
+[charaFace G 1]
+＠メディア・リリィ
+その勇敢さ、蛮勇さを讃えたいです、私。[r]みなさん、私のお城に来てくださいますか？
+[k]
+
+＠メディア・リリィ
+道すがら、旅のお話を聞かせてください。[r]話のできる魔法少女なんて、何百年ぶりでしょう！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaTalk on]
+
+[charaFadeout G 0]
+[charaFadeout H 0]
+[charaFadeout C 0]
+
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+[fowardEffect bit_talk_eyecatch_03]
+[wait fowardEffect bit_talk_eyecatch_03]
+
+[fadeout black 1.0]
+[wait fade]
+[soundStopAll]
+[end]

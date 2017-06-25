@@ -1,0 +1,116 @@
+＄01-00-04-10-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10906 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5011001 1 バベッジ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 3]大型敵性体、沈黙しました。
+[k]
+
+[charaFace A 14]
+＠マシュ
+サーヴァントではなかったようですが……[r]これが、他の個体を操る宝具本体だったのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace E 5]
+[charaFace F 0]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+＠フラン
+……ゥ。[r]……ゥ、ウゥ。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+そうみたいだな。[r]よし、これで厄介事がひとつ片付いたか。
+[k]
+
+[charaFace E 1]
+＠モードレッド
+よくやった。フラン。[r]おまえのお陰で助かったぜ。
+[k]
+
+[charaFace F 3]
+＠フラン
+……ゥ、ゥ。ァ……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠Dr.ロマン
+マシュ、[%1][&君:ちゃん]。念のため、[r]その残骸の映像情報をまた送信してくれるかな？
+[k]
+
+＠Dr.ロマン
+一応こちらでも解析しておこう。[r]いや、ダ・ヴィンチちゃんに尋ねるだけだけどさ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+了解です。
+[k]
+
+[se ad41]
+[wt 0.5]
+[se ad41]
+[wt 0.25]
+[se ad41]
+[wt 0.5]
+[charaFace A 14]
+＠マシュ
+……ドクター。妙なものを発見しました。[r]他のヘルタースケルターにはなかったものです。
+[k]
+
+[charaFace A 6]
+＠マシュ
+製造者氏名、でしょうか。[r]英語表記です。
+[k]
+
+[charaFace A 7]
+＠マシュ
+『チャールズ・バベッジ、AD.1888』
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace E 0]
+[charaFace F 2]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+＠フラン
+…………ゥ！！？
+[k]
+
+[charaFace E 5]
+＠モードレッド
+ん。どうした、フラン？
+[k]
+
+[charaFace F 5]
+＠フラン
+…………。[r]…………。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

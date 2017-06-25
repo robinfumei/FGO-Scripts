@@ -1,0 +1,330 @@
+
+
+
+＄01-00-07-04-5-0
+
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+
+[charaSet B 98106200 1 マーリン]
+
+[charaSet D 3027000 1 アナ]
+
+[charaSet E 98107600 1 祭祀長シドゥリ]
+
+[charaSet G 98003000 1 Dr.ロマン]
+[charaSet F 3006001 1 弁慶]
+[charaSet H 4014000 1 牛若丸]
+[charaSet C 3009000 1 レオニダス]
+
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 33202]
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.4]
+
+？1：ただいま[line 2]！
+？2：川の掃除から帰ってきたぞ[line 2]！
+
+？！
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+
+＠弁慶
+おお、お疲れでしたな。[r]ささ、こちらへどうぞ。じき夕食ですからな。
+[k]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠牛若丸
+おや、お帰りなさい[%1]殿。[r]今日は市内の川掃除だったのですか？
+[k]
+
+[charaFace H 1]
+＠牛若丸
+私は害鳥退治でした。屋根から屋根へぽーん、ぽーん、[r]と跳ぶのはよいのですが、鳥どもも最近は頭が良くて。
+[k]
+
+[charaFace H 3]
+＠牛若丸
+あえて大通りの道を低空で滑空などする次第。[r]果物屋と花屋をあわせて四つほど犠牲にしてしまいました。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ああ、それでギルガメッシュ王が[r]苦い顔をしていたのですね。
+[k]
+
+＠マシュ
+“一日の終わりに報告に来るよう言ったのは[#我:オレ]だが、[r][f small]  [f -]苦情と一緒に来いとは言ってはおらんわ！”と。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠牛若丸
+是非もなし。難行の達成には犠牲がつきもの。[r]損害賠償は弁慶の給金から引かれるでしょう……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 0.4]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_7 0.1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+[se ad60]
+[seStop ad60 1.5]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠レオニダス
+ふぃー、今日もよく鍛えました！[r]そろそろ兵士たちも一人前となるでしょう！
+[k]
+
+＠レオニダス
+おや？　皆さんお揃いとは珍しい。[r]私の席はこちらですか？　ありがとうございます。
+[k]
+
+＠レオニダス
+……ところで、夕食の当番は誰でしょうか？[r]アナ殿でしたら、私、急用を思い出したのですが……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠祭祀長シドゥリ
+ご安心を。今日の夕食は私が担当です。
+[k]
+
+＠祭祀長シドゥリ
+向かいの家のご厚意から[#竈:かまど]を借りられたので、[r]今日はバターケーキも用意しました。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠アナ
+バターケーキー……！　それはもしかして、[r]巫女の銀が十枚ないと買えない、あの食べ物ですか？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠祭祀長シドゥリ
+その食べ物です。菓子としては最上級のものですとも。
+[k]
+
+＠祭祀長シドゥリ
+材料は私の気持ちですので、[r]どうぞ満足いくまでお召し上がりください。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠アナ
+……[charaMoveReturn D 0,-10 0.4]…………美味[charaMoveReturn D 0,-10 0.4]しい。[r]これは一切れ、取って置いても構いませんか？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠祭祀長シドゥリ
+構いません。ですが明日の昼までには食べてください。[r]傷んでしまいますからね。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠牛若丸
+かたじけない、シドゥリ殿。しかし、祭祀長である[r]貴方が連日ここに来てよいのですか？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠祭祀長シドゥリ
+良いのです。王からの命令ですから。[r]私も日中は王の補佐をしていますので、お気になさらず。
+[k]
+
+＠祭祀長シドゥリ
+ああ、そちらに積まれている粘土板は[r]ウルク市民から、皆さんへの感謝の言葉となります。
+[k]
+
+＠祭祀長シドゥリ
+気が向いた時でよいので目を通すように。[r]これも皆さんへの報酬ですので。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠マーリン
+ふむ。シドゥリ殿の手料理と聞いては[r]私も黙ってはいられない。
+[k]
+
+[charaFace B 1]
+＠マーリン
+やあこんばんは、久しぶりだね諸君！[r]ん？　今まで何があったか報告したい？
+[k]
+
+＠マーリン
+フッ、その必要はあまり無いよ。だって、たいていは[r]部屋にいて仕事をサボっていただけだからね。
+[k]
+
+[charaFace B 0]
+＠マーリン
+[%1]君がどんな仕事を押しつけられたか、[r]大部分熟知しているとも。
+[k]
+
+
+[charaSet C 98002000 1 フォウ]
+[charaTalk C]
+[charaFadein C 0.1 512,-100]
+
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+[wt 0.1]
+[messageOff]
+[charaTalk off]
+[charaDepth C 1]
+[charaDepth B 0]
+[charaAttack C normal 0,0 0.3]
+[wt 0.3]
+[se ad102]
+[charaFace B 5]
+[charaShake B 0.05 5 5 0.4]
+[charaFadeout C 0.4]
+[wt 0.7]
+[charaFadeout B 0.4]
+[wt 0.5]
+
+？1：……なんというか……
+？2：……学生寮……？
+
+？！
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.4]
+[se ad13]
+[charaTalk G]
+[communicationChara 98105900 1 5 0 4]
+[wt 0.3]
+[bgm BGM_EVENT_2 0.1]
+
+＠Dr.ロマン
+まったくだよ。[r]人理崩壊の危機、最後の特異点だというのにね。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+でもまあ、これだけの人数が同じ家で暮らしているんだ。[r]雑居状態になるのは仕方がない。
+[k]
+
+＠Dr.ロマン
+ウルクに慣れる事は重要だし、その時代の人々の生活を[r]知っておく事は、かならず君の力になる。
+[k]
+
+＠Dr.ロマン
+泣いても笑っても戦いの時はやってくるんだし。[r]今は肩の力を抜いて楽しんでもいいんじゃないかな？
+[k]
+
+？1：そうですね
+
+[communicationCharaFace 6]
+＠Dr.ロマン
+ああ。考えてみれば得がたい瞬間だ。[r]そこにいる英霊は正規のサーヴァントじゃない。
+[k]
+
+＠Dr.ロマン
+みなその時代に生きる生命として、[r]ウルクを守るために働いている。
+[k]
+
+＠Dr.ロマン
+それはカルデアにはない、より深い人類史との関係性だ。[r]そういう奇蹟が、[#偶:たま]にあったという話さ。
+[k]
+
+？2：混ざれなくて寂しい、ドクター？
+
+[messageOff]
+[communicationCharaFace 10]
+[wt 1.0]
+[communicationCharaFace 9]
+＠Dr.ロマン
+まあ、そうだね。[r]シドゥリさんの手料理は美味しそうだし。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+でもボクだってカルデアのスタッフと、[r]今日も徹夜の夜食パーティーがあるんだぞ？
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+学生寮のような騒ぎはこっちでは毎日だよ。[r]だからぜーんぜん寂しくないとも。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+[%1]君。ボクに気は使わなくていいから、[r]束の間の団らんを楽しむといい。
+[k]
+
+＠Dr.ロマン
+それが引いてはカルデアの為にもなる。[r]何事も適材適所、というヤツさ。
+[k]
+
+？！
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,113 @@
+
+＄91-60-18-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6018001 1 Ｘ]
+[charaSet D 1009001 1 モードレッド]
+
+[charaTalk D]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+[charaFace D 4]
+[charaFace C 5]
+
+[scene 21600]
+[fadein black 2]
+[wait fade]
+
+＠モードレッド
+この容赦のなさ……やっぱりどうみても……[r]ち、ち……　う……
+[k]
+
+[charaFace C 2]
+＠Ｘ
+とりあえず廃嫡だよカリバー！！
+[k]
+
+[messageOff]
+[charaEffect C bit_talk_36]
+[se ad39]
+[wt 1.0]
+
+[fadeout white 0.4]
+
+[charaEffectStop C]
+
+[wait fade]
+[se ad34]
+[seStop ad34 1.5]
+[shake 0.05 4 4 0.5]
+[fadein white 0.3]
+[wait fade]
+[wt 0.5]
+
+[charaFace D 3]
+＠モードレッド
+うわあああああああああん！？[r]父上のバカヤロー！！
+[k]
+
+[charaFadeout D 0.4]
+[se ad75]
+[wait se ad75]
+[se ad29]
+[wait se ad29]
+
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_2 0.1]
+
+[wt 0.4]
+[charaFadeout C 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠Ｘ
+危なげなく勝った！
+[k]
+
+＠Ｘ
+こうしてイングランドの危機は回避され[r]また一人、私以外のセイバーが消えました。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace A 12]
+＠マシュ
+いやその、さっきの対戦相手の方[r]お知り合いだったのでは……
+[k]
+
+[charaFace C 1]
+＠Ｘ
+さあ、まったくもってまるでなんとも[r]初対面かつ家庭的な事情もありませんとも！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+い、一体、何が起きてるんだ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォーウ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

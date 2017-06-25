@@ -1,0 +1,563 @@
+
+
+
+＄01-00-07-10-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 2020001 1 イシュタル]
+
+[scene 20732]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.4 1]
+＠イシュタル
+ワーオ、世は全て事もなし！[r]みんな、何事もなくエビフ山を下山できたわね！
+[k]
+
+＠イシュタル
+最後に何か出てきたけど、まあ気にしない方向で！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠アナ
+……エビフ山は踏んだり蹴ったりでしたね……[r]次に来る時があったら優しくしてあげましょう……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+まあまあ、女神イシュタルとの記念すべき[r]初共闘だったんだ。相手については触れないでおこう。
+[k]
+
+＠Dr.ロマン
+それよりマシュ、その近くに放棄された[r]家があるようだ。今夜はそこで野営といこう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+了解ですドクター。[r]先輩もそれで構いませんか？
+[k]
+
+？1：もちろん
+？2：最初の見張りは任せて
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠イシュタル
+ふーん。旅慣れているのね、アナタたち。[r]交代制の見張りとか、いかにもって感じで。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk depthOff]
+
+[charaDepth C 2]
+[charaDepth F 1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠マーリン
+イシュタル女神におかれましては、[r]寝所以外で眠りにつく経験はおありかな？
+[k]
+
+＠マーリン
+なければどうぞ遠慮なく、私たちの代わりに[r]寝ずの番をしていただいて構わないのだが？
+[k]
+
+[charaFace F 0]
+＠イシュタル
+お生憎様、野営の経験ぐらいはありましてよ？[r]お父様の目を盗んで、しょっちゅう出かけてたんだし。
+[k]
+
+＠イシュタル
+寝台もこの[#天舟:ゆみ]があれば十分。[r]何なら嫌味なしで、私が見張り番をしてあげましょうか？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+それは助かる。[r]というか、意外に協力的なんだな。
+[k]
+
+＠Dr.ロマン
+今までが今までだったし、[r]てっきり人間嫌いの女神様かと思ってた。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠イシュタル
+あら、それは間違いじゃないわよ？[r]私が優しくするのは後で驚かせるためだし。
+[k]
+
+＠イシュタル
+基本、人間はいじめて楽しむものでしょ？[r]どんなに根がお人好しになっても、[#私:イシュタル]らしさは変わらないわ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そうですか……[r]ボクらもエビフ山のようにならないよう気をつけよう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+反面、私は頼もしいと思っているよ。[r]イシュタルは冷酷でなくてはならない。
+[k]
+
+＠マーリン
+なにしろゴルゴーンとの対決の切り札だ。[r]そこは神話通りの活躍をしてくれないとね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。イシュタルさんが味方になってくれた今、[r]女神ゴルゴーンとの直接対決にも勝算ができました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ははは、むしろ何が来ても負けないさ！[r]メソポタミア最強と言っても過言じゃないんだからね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠イシュタル
+あはは、もっと言ってもっと言って！[r]褒めても何もでないけど、事実だから気持ちいいわ！
+[k]
+
+[charaFace F 7]
+＠イシュタル
+んー、でもちょっと待ってね。[r]アナタたち、どうしてそう思うの？
+[k]
+
+＠イシュタル
+私、アナタたちとは引き分けばっかりだったし。[r]そこまで凄いところ、見せたコトあったかしら？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace F 7]
+[charaFadein F 0.1 0]
+[communicationCharaLoop 98003003 2 5 0 1]
+＠Dr.ロマン
+やだなあ、天の牡牛だよ。[r]キミが主神アンから譲り受けた神造兵器。
+[k]
+
+[charaTalk F]
+[charaFace F 9]
+[charaShake F 0.05 2 2 0.15]
+[wt 0.7]
+
+[charaTalk B]
+[communicationCharaFace 0]
+＠Dr.ロマン
+あれ、ギルガメッシュ王ですら一目置く神獣なんだろ？[r]なら、いざとなれば天の牡牛でゴルゴーンを撃破できる。
+[k]
+
+＠Dr.ロマン
+キミ自身が戦うワケでもないから[r]同盟の決まりにも反さない。
+[k]
+
+＠Dr.ロマン
+まあ、地形が変わってしまう環境破壊兵器らしいから、[r]使うとしたら最後の手段だろうけどね。
+[k]
+
+[charaFace F 15]
+＠イシュタル
+そ、そうね。分かってるじゃない。[r]使うとしたら最後の手段よね。オホホ。
+[k]
+
+[charaFadeout F 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠イシュタル
+ところで、今夜から日記をつけるコトにしたから、[r]やっぱり見張りは[%1]に任せるわ。
+[k]
+
+＠イシュタル
+じゃ！　そーゆーことで、お先に失礼～～！
+[k]
+
+[se ad59]
+[seVolume ad59 0 0.7]
+[seStop ad59 1.0]
+[charaFadeout F 0.4]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+イシュタルさん、荷台から毛布を持って[r]廃屋に飛び込んでいきました。
+[k]
+
+＠マシュ
+ふふ。ご自分で言っていた通り、[r]野営には慣れているようですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ、フォ？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout E 0.1]
+[scene 20732]
+
+
+[wt 2.0]
+[fadein black 1.5]
+[wt 0.4]
+[se ad11]
+[seVolume ad11 0 0.15]
+[wait fade]
+
+[wt 0.5]
+[se ad117]
+[seStop ad11 4.0]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠イシュタル
+まだ交代していなかったの？[r]ずいぶんサーヴァント思いのマスターなのね、アナタ。
+[k]
+
+？1：できるだけマシュを休ませてあげたい
+
+[charaFace F 8]
+＠イシュタル
+ふーん。マシュってあの盾のサーヴァントよね。[r]長い契約なんだ。
+[k]
+
+？2：あと一時間は余裕
+
+[charaFace F 7]
+＠イシュタル
+それじゃ夜が明けてしまうわ。[r]根を詰めすぎてもいいコトないわよ？
+[k]
+
+＠イシュタル
+頑張れば頑張るほど周りはそれが当たり前だって[r]思うんだから。普段は八割ぐらいが丁度いいの。
+[k]
+
+＠イシュタル
+ま、それができるようならここまで来てないだろうけど。[r]平気そうな顔でいつも全力って、たいへんね。
+[k]
+
+？！
+
+[charaFace F 0]
+＠イシュタル
+となり、いい？[r]いい機会だから少し話したくて。
+[k]
+
+[charaFadeout F 0.4]
+[wt 0.7]
+
+[se ad78]
+[charaScale F 1.12]
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.4 0,35]
+＠イシュタル
+………………。
+[k]
+
+？1：……[&えっと:あの]、なに……？
+
+？！
+
+[charaFace F 0]
+＠イシュタル
+別になーんにも。[r]なんとなく見てただけ。
+[k]
+
+＠イシュタル
+まさかイシュタルを味方につけるとはね、って。[r]予想外すぎて、まじまじと見てみたくなるじゃない？
+[k]
+
+[charaFace F 6]
+＠イシュタル
+それとも単なる一目惚れかしら？[r]なに、未来の人間ってそんなに節操ないの？
+[k]
+
+？1：そういう訳では……
+
+[charaFace F 1]
+＠イシュタル
+分かってるわ、冗談よ。[r]言ってみただけ。ごめんなさい、困らせて。
+[k]
+
+？2：そう。カルデアは未来に生きている
+
+[charaFace F 3]
+＠イシュタル
+へ、へぇ……否定はしないんだ。[r]……ふーん……そうか、脈アリかぁ……
+[k]
+
+？！
+
+[charaFace F 11]
+＠イシュタル
+……と、ちょっとタイム。[r]こんな薄着だからかしら、寒気が……は、は、
+[k]
+
+[charaFadeout F 0.2]
+[charaMove F 0,25 0.2]
+＠イシュタル
+く[messageShake 0.05 5 5 0.4]しゅん！
+[k]
+
+[charaSet F 99371100 1 イシュタル]
+[charaScale F 1.12]
+
+[bgmStop BGM_EVENT_11 1.0]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠イシュタル
+それで、話の続きなんだけど。
+[k]
+
+？1：[line 3]！？
+？2：なん[line 3]だと[line 3]？
+
+？！
+
+[charaFace F 5]
+＠イシュタル
+……なによ、今の態度。[r]私から逃げようとしなかった？
+[k]
+
+＠イシュタル
+いえ、間違いなく逃げようとしたわね。[r]腰が引けたもの。そういうの、何度も見てきたもの。
+[k]
+
+[charaFace F 4]
+＠イシュタル
+……そうなんだ。[r]……やっぱり、アナタも私を怖がるの？
+[k]
+
+？1：[line 3]いえ、別に。今のはクシャミです
+？2：（……そういう権能もあるのか！）
+
+？！
+
+[bgm BGM_EVENT_11 0.1]
+[charaFace F 4]
+＠イシュタル
+……ホント？[r]本当に私が怖くない？　女神だからって嫌わない？
+[k]
+
+？1：種族では嫌いません
+
+[charaFace F 8]
+＠イシュタル
+！
+[k]
+
+？2：女神でも酷い女神は酷いと思います
+
+[charaFace F 7]
+＠イシュタル
+わ、私は酷くないから！　無慈悲なだけだから！[r]そもそもスプラッターとか苦手だから！
+[k]
+
+？！
+
+[charaFace F 3]
+＠イシュタル
+……って、そうじゃなくて。[r]時間がないんだから、本題に入らないと。
+[k]
+
+[charaFace F 0]
+＠イシュタル
+アナタは『三女神同盟』と戦う気のようだけど。[r]実際の話、彼女たちをどう思っているの？
+[k]
+
+＠イシュタル
+魔獣の女神は……そうね、彼女はどうしようもない。[r]始めからアナタたちと和解する選択はない。
+[k]
+
+＠イシュタル
+密林の女神は、正直分からない。[r]文化圏が違いすぎて、彼女が『善い』と感じる事柄は、
+[k]
+
+＠イシュタル
+私たちの世界では『悪い』と感じる事柄かもしれない。[r]なにしろ他天体の末裔だし。
+[k]
+
+＠イシュタル
+それで、問題の三柱目。[r]言うまでもなく私の事だけど……
+[k]
+
+[charaFace F 5]
+＠イシュタル
+私は今のメソポタミアを許さない。
+[k]
+
+＠イシュタル
+神々を棄て、自分たちだけの世界を作ろうとする[r][#人間:アナタ]たちを認めない。
+[k]
+
+[charaFace F 0]
+＠イシュタル
+だってそれ、苦しいだけだもの。[r]人間は生の苦しみ、死の恐怖から逃れられない。
+[k]
+
+＠イシュタル
+現実をありのままに受け入れるには、[r]あまりに知性を成長させすぎた。
+[k]
+
+[charaFace F 5]
+＠イシュタル
+でも神代でならその苦しみも緩和するわ。[r]だって“人間では理解できないもの”が居るのだもの。
+[k]
+
+＠イシュタル
+多くの理不尽。多くの無慈悲を、[r]神様のせいにして日々を大らかに生きていける。
+[k]
+
+＠イシュタル
+私はそんな在り方を善しと信じた。[r]今まで何千年、何万年もそうやって我慢してきた。
+[k]
+
+＠イシュタル
+だから[line 3]今回の同盟にも参加した。[r][#人間:アナタ]たちの世界が、[#人と神:わたしたち]の世界になるように。
+[k]
+
+[charaFace F 0]
+＠イシュタル
+私は人間の敵じゃなくて、人間たちの世界の敵なの。[r]そのあたり、[%1]にだけ教えてあげたわ。
+[k]
+
+？1：そうだったのか……
+？2：優しいんだ[&な:ね]、イシュタル
+
+？！
+
+[charaFace F 3]
+＠イシュタル
+…………わ、私が言いたかったのは以上だから。[r]あ、あくまで今夜のところは、だから。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad7]
+[charaScale F 1.0]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠イシュタル
+それじゃあおやすみなさい、私もそろそろ眠るわ！[r]アナタも夜更かしはしないよーに！
+[k]
+
+[messageOff]
+[se ad132]
+[seStop ad132 1.5]
+[charaFadeout F 0.4]
+[charaMove F -128,0 0.4]
+[wt 1.5]
+
+？1：おやすみ、イシュタル
+？2：おやすみ、女神さま
+
+？！
+
+[wt 0.2]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_11 1.4]
+[wait fade]
+[wt 1.0]
+
+[scene 10000]
+[fadein black 1.0]
+[wait fade]
+[effect bit_talk_telop01]
+[wt 6.0]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.4]
+[soundStopAll]
+[end]

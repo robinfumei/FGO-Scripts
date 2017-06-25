@@ -1,0 +1,416 @@
+
+＄94-00-56-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 6024000 1 スカサハ]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 3011000 1 フィン]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 98002000 1 フォウ]
+
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+魔物どもの腹を割いてみたが、この畑の作物を[r]食ろうた様子はない。犯人はこやつらではなさそうだ。
+[k]
+
+？1：じゃあ、いったい何が……？
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+＠マシュ
+……わかりません。[r]何か手がかりでもあればよいのですが……。
+[k]
+
+[charaFace A 0]
+＠スカサハ
+手がかりを探し、原因を究明し、可能ならば排除する、[r]というのがこれからの道筋であろうが[line 3]
+[k]
+
+[charaFace A 1]
+＠スカサハ
+ふむ？　[r]それに有用そうな男がおるな、そう言えば。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+その視線[line 3]ふ、さっそく来たという訳ですな、[r]私の智慧の使いどころが！
+[k]
+
+＠フィン
+よろしい。滅多に見せるものではないのですが、[r]これも何かの因果。
+[k]
+
+＠フィン
+それでは、私の内より溢れる智慧をご覧にいれよう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ディルムッド
+おお[line 3]出ます！　我が主の親指に跳ねたという、[r]智慧の鮭の脂に由来する宝具[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.4]
+
+[effect bit_talk_41]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠フィン
+[#親指かむかむ智慧もりもり:フィンタン・フィネガス]！
+[k]
+
+[se ad110]
+[wt 0.2]
+[charaFace C 4]
+[wt 1.0]
+[effectStop bit_talk_41]
+[wt 0.3]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+[charaFace B 15]
+＠マシュ
+あの……ポーズは……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ……。
+[k]
+
+？1：いわゆる……おしゃぶり……
+？2：（……こらえるんだ……）
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠フィン
+来た……来たぞ。[r]頭が、非常に、冴えてきた……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠スカサハ
+ぬっ！？　これは……！[r]感じる。感じるぞ。
+[k]
+
+[charaFace A 2]
+＠スカサハ
+これは[line 3]もの凄いＤＨＡ反応だ。[r]地球上では有り得ない濃度のＤＨＡ反応だ！
+[k]
+
+＠スカサハ
+自分でも何を言っているのかわからぬが、[r]魔境の智慧にて得た分析探知スキルがそう告げている！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠フィン
+ふう……よし。[r]みんな、鮭はいいぞ鮭は。食べよう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace B 15]
+[charaFadein B 0.1 2]
+＠マシュ
+本来ならば、鮭よりも青魚のほうが含有率は高いはず[r]ですが。智慧の鮭とは……いったい……？
+[k]
+
+[bgmStop BGM_EVENT_7 0.7]
+
+[charaFace B 12]
+＠マシュ
+と、ともあれ、フィンさん。[r]何かわかりますか？
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace C 0]
+＠フィン
+そうだな。まずは[line 3]やはり、[r]何かの獣がこの畑を荒らした痕跡が確認できる。
+[k]
+
+＠フィン
+冴えた頭は臭いにも敏感。薄く残っている獣臭も[r]その推測を裏付けている。
+[k]
+
+＠フィン
+間違いない。犯人は人ではなく、獣。[r]足跡から見て、おそらくは四足歩行の獣だ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウフォウッ？　フォーウ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+＠マシュ
+大丈夫ですよフォウさん、[r]誰もフォウさんが犯人だとは思っていません。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+それから[line 3]なるほど、なるほど。
+[k]
+
+＠フィン
+全てを総合的に判断した結果、[r]次に我々が取るべき手は一つに絞りきれた。
+[k]
+
+？1：すごい！　それはどういう手？
+？2：鮭のＤＨＡ、マジパネェっス……
+
+？！
+
+[charaFace C 0]
+＠フィン
+今夜はこの畑で寝ずの見張り番だ、ディルムッド。[r]一度来たものは二度来るだろう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ディルムッド
+は？　……はっ、仰せとあらば。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠マシュ
+見張り番……ですか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠スカサハ
+待て。犯人についてはわかったのか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+いいえ。わかりませんな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+犯人は獣。だがどんな獣か、[r]今どこにいるかはわからない。
+[k]
+
+＠フィン
+だから実際に目で見るしかないというのが、[r]私の智慧が弾き出した結論です。
+[k]
+
+[charaFace C 4]
+＠フィン
+私の智慧は謎を明らかにできますが、知らないものを[r]無条件に全て知れるようになる訳ではないのですよ。
+[k]
+
+＠フィン
+もしそうなら、この島のことやカルデアへの帰還方法も[r]既にこの頭に思い浮かんでいましょう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マシュ
+まぁ……そうですよね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠フィン
+おっと、きみは今『別にフツーの結論だし宝具なんか[r]使わなくてもよかったんじゃ』と思ったね？
+[k]
+
+[charaFace C 5]
+＠フィン
+[line 3]違う。[r]やはり宝具は使うべきだった。
+[k]
+
+[charaFace C 1]
+＠フィン
+[#全ての状況を総合的に判断して]、今夜は畑の見張りを[r]すべきだ、という結論に至ったのだ。そこは大事だよ。
+[k]
+
+[charaFace B 12]
+＠マシュ
+……？　すみません、少し意味が……。
+[k]
+
+[charaFace C 0]
+＠フィン
+やれやれ。では少し小声で話そう。
+[k]
+
+＠フィン
+ここにいるきみやスカサハ殿だけではない。この島には[r]魅力的な女性たちが多くいる。しかも薄着の。
+[k]
+
+[charaFace C 4]
+＠フィン
+正直、そろそろ夜に何かの女難的な危険が待ち受けて[r]いる気がしてならなかった。
+[k]
+
+[charaFace C 0]
+＠フィン
+ここで一晩距離を置いてクールダウンすべし、という[r]意味合いも含まれているのさ。多分ね。
+[k]
+
+[charaFace B 0]
+＠マシュ
+は、はぁ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+おい。見張りに手伝いはいるか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+おっと[line 3][r]いいえ、我々フィオナ騎士団だけで充分でしょう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+そうか。では任せるぞ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠マシュ
+よくわかりませんが……フィンさん達にはフィンさん達[r]なりの苦労というか、気遣いがあるようですね。
+[k]
+
+[charaFace B 13]
+＠マシュ
+とりあえず今夜はお二人に任せて、わたしたちはまた明日[r]畑の様子を見にくることにしましょう、マスター。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

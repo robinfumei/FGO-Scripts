@@ -1,0 +1,620 @@
+
+
+
+
+＄01-00-08-02-4-0
+
+
+
+
+[charaSet A 98017000 1 魔神ゼパル]
+[charaSet B 7013001 1 清姫]
+[charaSet C 3005001 1 エリザベート]
+[charaSet D 4006001 1 ゲオルギウス]
+[charaSet E 4019001 1 マルタ]
+[charaSet F 1008001 1 ジークフリート]
+[charaSet G 1026001 1 デオン]
+[charaSet H 5015001 1 アマデウス]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_42 0.1]
+
+
+[scene 36301]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[effect bit_talk_kengekiall01]
+[wt 0.2]
+[se bac11]
+[wt 0.2]
+[se bac6]
+[wt 0.2]
+[se bac10]
+[wt 0.7]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神ゼパル
+聞いていない[line 3][r]このような予測は聞いていない！
+[k]
+
+＠魔神ゼパル
+統括局は何をしていた！[r][#弾劾:だんがい]せよ！　弾劾せよ！　弾劾せよ！
+[k]
+
+＠魔神ゼパル
+侵入を許した不手際ではない！
+[k]
+
+＠魔神ゼパル
+我ら九柱が凡百の英霊に圧されるなど、[r]明らかな設計ミスである[line 3]！
+[k]
+
+[seStop ad14 0.2]
+[wt 0.3]
+
+
+[charaTalk B]
+[charaFace B 5]
+[charaFace C 5]
+[charaFadein B 0.4 2]
+[charaFadein C 0.4 0]
+＠清姫
+あら。自らの未熟さを棚に上げて見苦しい。[r]統括局とやらに非はありません。
+[k]
+
+[charaFace B 1]
+＠清姫
+ますたぁの為ならこの清姫、たとえ地の果て宙の果て。[r]これもすべて乙女の恋心のなせる業でございます。
+[k]
+
+[charaTalk C]
+＠エリザベート
+ええ、見苦しいったらないわ。自分の力不足を上に[r]押しつけるとか、地下活動からやり直しよ。
+[k]
+
+[charaFace C 0]
+＠エリザベート
+そもそも、自分と同じバックダンサーが71人も[r]いるなんてナッシング。表現がブレブレじゃない。
+[k]
+
+＠エリザベート
+センターである以上、弱音なんて吐かない事よ。[r]そこのマスターみたいにね？
+[k]
+
+
+＠エリザベート
+[&子イヌ:子ジカ]の相手は三年早いわ。[r]顔を洗ってリトライなさい！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaSet B 4017001 1 マリー]
+[charaSet C 6012001 1 サンソン]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+＠ゲオルギウス
+ふむ。その度に改心してくれれば楽なのですが、[r]あの者たちにはそもそも心がないようです。
+[k]
+
+[charaFace D 0]
+＠ゲオルギウス
+しかし……私は今かすかな驚きと、[r]妙な感動を覚えています。
+[k]
+
+[charaFace D 2]
+＠ゲオルギウス
+竜の娘であるエリザベートにさえ[r]悪を認め、改めようとする良心があるという事に！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠マルタ
+ふふ。竜にも色々あるのです、聖ゲオルギウス。
+[k]
+
+＠マルタ
+竜イコール悪、という考えはそろそろ[r]おやめになってはいかがでしょう？
+[k]
+
+＠マルタ
+そもそも悪であろうと誠心誠意こめて対決、いえ、[r]対話すれば分かり合えるものなのですから。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ジークフリート
+……そうか。[r]オレに足りなかったものはその根気強さか。
+[k]
+
+＠ジークフリート
+あの[#邪竜:ファヴニール]ですら宝を惜しむ欲望を捨てきれなかった。[r]分かり合える道はあったのだ。
+[k]
+
+＠ジークフリート
+オレに貴女ほどの優しさがあったのなら、[r]違った結末があったのだろうか……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.4 1]
+＠デオン
+ない！　それはない！[r]人を見る目をもっと養うべきだ、貴君は！
+[k]
+
+[charaFace G 3]
+＠デオン
+あ……いや、失礼。戦闘中だというのに、つい。[r]なんだか他人の気がしなかったので。
+[k]
+
+[charaFace G 0]
+＠デオン
+こほん。ジークフリート殿はもう少し、[r]自らの功績を正当に評価しても良いのでは？
+[k]
+
+[charaFace G 1]
+＠デオン
+そこの変質者を見習えとは言いませんが、[r]せめてサンソンぐらいの客観性をですね、
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+＠アマデウス
+おっと僕への批評は僕に聞こえないところで[r]やってくれないかなデオン！
+[k]
+
+＠アマデウス
+見ての通り僕の心はガラス細工のように繊細でね！[r]なんかもう疲れたし帰りたくなってきたじゃないか！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠マリー
+うふふ。気にしないでいいのよデオン。[r]アマデウスは自堕落の責任を押しつけたいだけです。
+[k]
+
+＠マリー
+彼は悪評も好評も気にしない人でなし。[r]自分より優れた音楽にしか興奮しない倒錯者だから♡
+[k]
+
+[messageOff]
+
+[charaTalk C]
+[charaFace C 1]
+
+[wt 0.7]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠アマデウス
+くそぅ、どうしようもない事実だ！[r]反論のしようがない！
+[k]
+
+[charaFace H 5]
+＠アマデウス
+それはそれとして、[r]サンソンがニヤけているのが本当に気持ち悪い！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠サンソン
+笑ってなどいない！　今のは憐れみだ！[r]貴様は口より手を動かせ、ろくでなしめ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+
+
+
+
+[charaSet B 7007001 1 ヴラド三世]
+[charaSet C 6017001 1 カーミラ]
+[charaSet H 6013001 1 ファントム]
+
+
+
+[shake 0.05 0 3 0]
+
+[se bac14]
+[effect bit_bolg_01y]
+
+[wt 0.2]
+[se bac14]
+[effect bit_bolg_02y]
+[wt 0.6]
+[shakeStop]
+
+[wt 0.5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaDepth B 9]
+[charaFadein B 0.4 1]
+＠ヴラド三世
+……ふむ。二万もの兵を串刺しにしたこの[#杭:ゆび]が、[r]よもや足りなくなる時がこようとは。
+[k]
+
+＠ヴラド三世
+腐った肉に[#蛆:うじ]が湧くのは道理だが、[r]これは[#些:いささ]か多すぎではないかな？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+
+＠カーミラ
+まあ。ヴラド公ともあろうお方が嘆息なんて。[r][#憂鬱:ゆううつ]な陰りが絵になるとでもお思いなのかしら。
+[k]
+
+[charaFace C 1]
+＠カーミラ
+本性をお出しになったらいかが、Mr.ドラキュラ。[r]その槍の真価、今度こそ[&彼:あの娘]に見せつけるのではなくて？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ヴラド三世
+憎まれ口は変わらずか、女吸血鬼。[r]なるほど貴様は[#勤勉:きんべん]だ。
+[k]
+
+[charaFace B 0]
+＠ヴラド三世
+自らが背負った役職に[#励:はげ]み、[r]今まさに、その[#鉄棺:メイデン]を振るう手は千切れんばかり。
+[k]
+
+[charaFace B 1]
+＠ヴラド三世
+[line 3]衆目など気にした余が愚かであった。[r]ここは元より人理の果て。[#繕:つくろ]うべき我は無し。
+[k]
+
+[charaFace B 2]
+＠ヴラド三世
+吸血鬼と望まれた通り、[r]おぞましい怪物を晒すとしよう……！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaSet D 7002001 1 ランスロット]
+[charaSet E 1022001 1 ジル・ド・レェ]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠ファントム
+然り、然り……[r]此処は既に地獄の底、罪を隠す謂われはない……
+[k]
+
+[charaFace H 5]
+＠ファントム
+贖罪は地上にて行うもの。[r]我ら地の底の住人は、ただ暴力を[#謳:うた]えばよい[line 3]
+[k]
+
+[charaFace H 2]
+＠ファントム
+おお、クリスティーヌ、クリスティーヌ！
+[k]
+
+[charaFace H 5]
+＠ファントム
+我が為に歌い、我が為に堕ち、我が為に、[r]ああ、我が為に地上に戻れ！
+[k]
+
+[charaFace H 2]
+＠ファントム
+光は貴方にこそ相応しい！[r]あらゆる汚濁は、我ら亡者が引き受けよう！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaSet B 9001001 1 ジャンヌ・ダルク]
+[charaSet G 98003003 1 Dr.ロマン]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+＠ランスロット
+FuuuuuUuuuuuuuuuuuuu[line 6][r]Aaaaaaaaaaaaaaaaaaa[line 3]！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaDepth E 9]
+
+[charaFadein E 0.4 1]
+
+＠ジル・ド・レェ
+圧しているようですが、敵の底はいまだ見えず……[r]これほどの精鋭を以てして敵陣に穴を開けられぬとは。
+[k]
+
+[charaFace E 1]
+＠ジル・ド・レェ
+我が旗だけでは護りが弱い。[r][line 3]手を貸していただけますかな、ジャンヌ？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace E 1]
+[charaDepth B 0]
+[charaDepth E 9]
+[charaFadein E 0.1 2]
+[charaFadein B 0.1 0]
+
+＠ジャンヌ・ダルク
+ええ。貴方と私の戦いにおいて、破れぬ敵陣が[r]今まで何処にあったと言うのでしょう。
+[k]
+
+[charaFace B 5]
+＠ジャンヌ・ダルク
+行きましょう、ジル。[r]今こそ我らの誓いをここに！
+[k]
+
+＠ジャンヌ・ダルク
+[#我が神はここにありて]、
+[k]
+
+[charaFace E 2]
+＠ジル・ド・レェ
+[#神聖たる旗に集いて吼えよ]！
+[k]
+
+[charaTalk off]
+[messageOff]
+
+[se bac214]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[seStop bac214 1.0]
+
+[charaFadeout B 0.7]
+[charaFadeout E 0.7]
+[wt 0.7]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.4]
+
+[effect bit_talk_kengekiall01]
+[shake 0.05 7 7 0]
+[wt 0.2]
+[se bac11]
+[wt 0.2]
+[se bac6]
+[wt 0.2]
+[se bac10]
+[wt 0.7]
+
+[charaSpecialEffect A enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect A]
+[charaFadeout A 0.1]
+[shakeStop]
+[wt 0.8]
+
+[charaSet C 8001002 1 マシュ]
+[charaSet D 5009000 1 通信ノイズ]
+[charaSet H 5009003 1 ダ・ヴィンチ]
+
+
+＠魔神ナベリウス
+末端素子の拡散を確認。[r]玉座への接続を解除、自己復元に専念する。
+[k]
+
+＠魔神ナベリウス
+ゼパル。ボディス。バティン。サレオス。[line 3]再誕。[r]プルソン。モラクス。イポス。アイム。[line 3]再誕。
+[k]
+
+＠魔神ナベリウス
+溶鉱炉ナベリウス、再起動。[r]敵サーヴァントを駆逐する[line 3]
+[k]
+
+[seLoop ad14]
+[se ad63]
+[charaSpecialEffect A appearance]
+[wt 0.3]
+[flashin loop 0.2 0.2 FFFFFFFF FFFFFF00]
+[wt 1.3]
+[flashOff]
+[wait charaSpecialEffect A]
+
+[seStop ad14 1.0]
+
+[wt 0.4]
+[messageOff]
+
+
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 36100]
+[wipein rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+
+
+[charaPut D 1]
+[charaEffect D bit_talk_10]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0 0,-151]
+＠Dr.ロマン
+やはり、[r]どれほど倒したところで数は減らないのか……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+[charaEffectStop D bit_talk_10]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジークフリート
+そのようだな。[r]根本を倒さないかぎり、この生き物は不滅らしい。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ジャンヌ・ダルク
+ですが力を削ぐ事はできる。
+[k]
+
+＠ジャンヌ・ダルク
+私たちに倒され、復元を繰り返すかぎり、[r]この魔神柱たちはそれ以外の事ができない。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut D 1]
+[charaEffect D bit_talk_10]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0 0,-90]
+＠ダ・ヴィンチ
+ああ、その通りだジャンヌ君！
+[k]
+
+[charaFace H 2]
+＠ダ・ヴィンチ
+その拠点から玉座に向けられていた[r]魔力供給がストップしている！
+[k]
+
+[charaFace H 0]
+＠ダ・ヴィンチ
+少なくとも、ここの九柱は[r]中央玉座に戻る事はできないという事だ！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+[charaEffectStop D bit_talk_10]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・ダルク
+[line 3]では、私たちのやるべき事は一つですね。
+[k]
+
+[charaFace B 5]
+＠ジャンヌ・ダルク
+魔神柱が無尽蔵に蘇るのなら、[r]こちらも力の続くかぎり、これを制圧する。
+[k]
+
+＠ジャンヌ・ダルク
+玉座への道は我々が切り開きます。[r]カルデアの皆さんはどうか先に。
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・ダルク
+その道に祝福と主のご加護があらん事を！
+[k]
+
+？1：もちろん、任せて！
+？2：みんなも気をつけて……！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠マシュ
+はい！[r]ありがとうございます、ジャンヌさん！
+[k]
+
+
+[messageOff]
+
+[se ad59]
+[charaFadeout C 0.7]
+[wt 0.7]
+
+
+[messageOff]
+[fadeout black 2.0]
+[seStop ad59 0.4]
+[bgmStop BGM_EVENT_42 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,373 @@
+＄91-40-09-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+[scene 21100]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet D 4009200 2 アン]
+[charaSet E 4009100 2 メアリー]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+今回も財宝ですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠メアリー
+うん、といっても海賊の財宝じゃないけどね。[r]ほら、テンプル騎士団の財宝。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ああ……確か異端として処刑されたテンプル騎士団が[r]密かに隠匿していたという。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+やっぱり海賊はロマンだね！[r]……[communicationCharaFace 4]今回はちゃんとモニターするよ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠アン
+そう願いますわ。でも、メアリー。[r]よくテンプル騎士団の財宝なんて知っていましたわね。
+[k]
+
+[charaFace E 0]
+＠メアリー
+海賊稼業のときに、色々と見て回ったじゃないか。
+[k]
+
+[charaFace D 1]
+＠アン
+ああ、メアリーは港に着く度にしょっちゅう[r]出歩いていましたわね。
+[k]
+
+＠メアリー
+道を歩くだけで、男が後から後からくっついてくる[r]アンには難しいよね。
+[k]
+
+[charaFace D 3]
+＠アン
+もう、いじわるね。
+[k]
+
+[charaFace E 1]
+＠メアリー
+ふふふ。[r]えっと、ドクター。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、何だろう？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠メアリー
+僕もテンプル騎士団については一通り知っているつもり[r]だけど、やっぱり説明は任せるよ。
+[k]
+
+[charaFace E 0]
+＠メアリー
+めんどくさいし。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+わあい、面倒臭い仕事を押しつけられたぞぅ。[r]まあいいか、[communicationCharaFace 0]後方支援ってそういうものだし。
+[k]
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_1 0.1]
+[communicationCharaFace 5]
+＠Dr.ロマン
+テンプル騎士団は、聖地巡礼する信徒たちを守るために[r]聖職者たちによって結成された騎士団だ。
+[k]
+
+＠Dr.ロマン
+その任務の一つに教徒たちや騎士たちの財産を[r]管理運営する、という役割があった。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+聖地巡礼する信徒と十字軍が増えることに比例して、[r]管理する財産も膨れ上がっていき[line 2]。
+[k]
+
+＠Dr.ロマン
+最終的には貸し付けも行う銀行業務へと発展し、[r]一国の財産を預かるまでに至った。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ところが、巨額の負債を抱えていたフランス王国は[r]彼らを逮捕、拷問にかけた。
+[k]
+
+＠Dr.ロマン
+目的は借金の帳消しと財産没収だね。
+[k]
+
+＠Dr.ロマン
+もちろんこれによって借金は帳消しになったものの、[r]目的であった財産は、大部分が闇に消えてしまった。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+聖杯を所有していたとも言われているが、[r]全ては謎に包まれたままだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠メアリー
+僕がこの情報を知ったのは、[r]騎士団の生き残りの子孫っていう老人からなんだけどね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの、それ信用できるのですか？
+[k]
+
+[charaFace E 4]
+＠メアリー
+うーん、どうかな。酔っ払ってたし、[r]テンションが激しく上下してたし。
+[k]
+
+[charaFace E 0]
+＠メアリー
+ただ、話自体は割ともっともらしかったんだよね。[r]老人曰く。
+[k]
+
+＠メアリー
+テンプル騎士団は、情報網によって既に彼らの命が[r]風前の灯火であることを理解していた。
+[k]
+
+＠メアリー
+そこで彼らは船で財宝を運び、ある場所に秘匿した。[r]財宝の輸送に関わった人間は、その場で皆殺しにしてね。
+[k]
+
+＠メアリー
+いつか騎士団が再結成される日まで、財宝は秘匿する。[r]それが彼らの意志だった。
+[k]
+
+＠メアリー
+老人の先祖は捕まらないように、騎士団を脱退した。[r]彼の居場所は騎士団たちすら知らない事柄だ。
+[k]
+
+＠メアリー
+だが、再結成される日はとうとう訪れなかった。[r]老人の先祖は子々孫々、騎士団の再結成を待てと伝えた。
+[k]
+
+[charaFace E 1]
+＠メアリー
+けれど、四百年も経ってそんな義理はもうなくなった。[r]このネタで酒が貰えるなら……って、話してくれたよ。
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_7 0.1]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠アン
+不安要素いっぱいね。
+[k]
+
+[charaFace E 4]
+＠メアリー
+そうだね。ハズレだったらごめんね。
+[k]
+
+？1：問題ない
+
+？2：楽しいからいい
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そうだね。財宝に行き着くまでが楽しいんだ。[r]財宝そのものは、現状だと使い道があまりないし。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+でもＱＰの足しにはなるし、何か面白いものが[r]見つかるかもしれない。頑張ろう！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rightToLeft 1 3]
+[bgmStop BGM_EVENT_7 1.0]
+[wait wipe]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[scene 21410]
+[wt 1.0]
+[bgm BGM_EVENT_5 0.1]
+[wipein leftToRight 1 3]
+[wait wipe]
+＠メアリー
+老人が言うには、ここの奥だったはずだけど。[r]……目の前は石壁だね。
+[k]
+
+[charaFace D 4]
+＠アン
+外れ……かしら？
+[k]
+
+[charaFace E 4]
+＠メアリー
+ゴメン……。
+[k]
+
+？1：まだ早い
+
+？2：諦めるな
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、待ってください。[r]この石壁、僅かですが血痕が残っています。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠メアリー
+あ、ホントだ。[r]よく見ると、近くの壁もそうだ。……どうしてだろう？
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドクター、わたしたちの前方にある壁を[#走査:そうさ]してください。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+了解。[#走査:そうさ]開始。[r]ふむ……石壁に強い魔力の反応があるな。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+アン、一発撃ち込んでみてくれ。
+[k]
+
+＠Dr.ロマン
+今のキミはサーヴァントだ。[r]その弾丸で、反応がないはずがない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠アン
+承りましたわ。[r]では[line 2]。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.2]
+
+[messageOff]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[shake 0.05 0 2 0.2]
+[se bac21]
+[wt 0.4]
+[se ad82]
+[se ad101]
+[shake 0.05 0 2 0.2]
+[wt 0.5]
+[seStop ad101]
+[wt 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.4]
+[se ad14]
+[shake 0.05 0 4 3.0]
+[wt 1.0]
+[seStop ad14 2.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+石壁が動き始めました。[r]これは[bgm BGM_EVENT_3 0.1]……ゴーレム！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠メアリー
+うわお。そういえばテンプル騎士団って、[r]黒魔術が使えるとか何とか……。
+[k]
+
+[charaFace D 5]
+＠アン
+そういう[#謂:いわ]れがあったかしらねえ。[r]ま、叩いてしまいましょう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,329 @@
+
+＄94-00-56-06-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 9004000 1 マルタ]
+[charaSet C 3024000 1 玉藻の前]
+[charaSet D 3025000 1 清姫]
+[charaSet E 98100500 1 アイランド仮面]
+[charaSet F 3001001 1 クー・フーリン]
+[charaSet G 3004001 1 カルナ]
+
+[shake 0.2 0 4 0]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFace F 0]
+[charaFadein G 0.1 2]
+[charaFadein F 0.1 0]
+[charaDepth G 0]
+[charaDepth F 3]
+
+[scene 30400]
+[se ad60]
+[fadein black 2.0]
+[wait fade]
+
+
+[wt 1.5]
+
+[seStop ad60]
+[se ba1]
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+[shakeStop]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+＠マシュ
+どんどん進んでいきますね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+やっぱり人目を避けるような動きです。[r]これは……何かやましいことをしているとしか……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠玉藻の前
+慎重にいきましょう。少々見失っても痕跡は辿れます。[r]それよりも尾行に気付かれたくはありません。
+[k]
+
+＠玉藻の前
+人目を避けているというなら、[r]それなりの理由があるのでしょう。
+[k]
+
+[charaFace C 4]
+＠玉藻の前
+もし気付かれればどうなるか……。
+[k]
+
+？1：怖いこと言わないでよ
+？2：仲間なんだから……
+？！
+
+[charaFace C 5]
+＠玉藻の前
+マスターは甘すぎます！[r][#甘葛煎:あまづらせん]よりもアマアマです！
+[k]
+
+＠玉藻の前
+[#私:わたくし]はさっきから、尾行経路にトラップが[r]ないか気をつけているといいますのに！
+[k]
+
+＠玉藻の前
+いいですかマスター。『やましいことをしている殿方』の[r]本気っぷりをナメてはいけません。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠清姫
+確かにその通りです。ええ。[r]逃げたり……嘘をついたり……本当に……。
+[k]
+
+
+？1：（急に寒気が！）
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+そうこうしてるうちに彼らの姿を見失いましたよ。[r]追えなくもないのでしょうが……一つ問題が。
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+＠マルタ
+トラップはなくても。[r]門番は、いたようですね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ！
+[k]
+
+[charaFadeout A 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+出てきなさい、何者ですか！[r]そこにいるのはわかっています！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+＠？？？
+ほう……さすがだ。[r]それでは姿を現そう[line 3]
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFace B 5]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+こっ、この声は！
+[k]
+
+[charaFace B 4]
+＠マルタ
+この声、は……？
+[k]
+
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠E：？？？
+拙者の名は[line 3]アイランド仮面！
+[k]
+
+？1：正体はいったい……何次郎なんだ……！
+？2：何やってんですか燕返しさん
+
+？！
+
+[charaFace E 1]
+＠E：？？？
+アイランド仮面、にござる。門番役に定評のある[r]雅な剣士とは特に何の関係もないのであしからず。
+[k]
+
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+……あー。その。なに？
+[k]
+
+＠マルタ
+アイランド仮面、だっけ。[r]そう名乗るならそれでいいけど。
+[k]
+
+＠マルタ
+その仮面、顔面ならいくら殴ってもＯＫって意味？[r]割れるまでならノーカン？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠アイランド仮面
+ははは。仮面を見てそういう感想を漏らすのは[r]世界広しといえどマルタ殿だけでござるよ？
+[k]
+
+＠アイランド仮面
+だがこの仮面は借り物なので壊さないようお願いしたい。[r]というかガントレットで殴るのはどうかと。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マルタ
+分かったわ。じゃあお腹を執拗に狙います。[r]三日は食べ物を消化できないぐらいに。つまり断食ね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠アイランド仮面
+なにがつまりなのかてんで分からぬ。[r]これが鉄拳教育系聖女というヤツか……
+[k]
+
+＠アイランド仮面
+まあ、それはそれとして。[r]門番は門番の役目を果たすのみ。
+[k]
+
+＠アイランド仮面
+ここを通りたくば拙者を倒してから進め、[r]とかそういう感じでござる。
+[k]
+
+＠アイランド仮面
+拙者は大いなる森の意志が形をもった謎の存在。[r]善悪を超越したところにいるのであって云々。
+[k]
+
+＠アイランド仮面
+要約すると手加減は無用、という話よ。[r]さあ、マルタ殿。いざ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+はぁ……水着で抑えの利かなくなったあたしに対して、[r]抑えが利かなくなっちゃったって事なのかしらね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 4]
+[charaFace C 1]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠玉藻の前
+罪作りな聖女サマですねぇ。[r]あんなに求められて、ちょっとは嬉しかったりしません？
+[k]
+
+[charaFace B 1]
+＠マルタ
+え？　それは、その[line 3][r]やっぱり、ビキニタイプは魅力的すぎだったかしら？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠アイランド仮面
+いや、マルタ殿本人は別に、どうという事も。[r]拙者が待ち焦がれているのは彼の大鉄甲竜なりよ？
+[k]
+
+[charaFace E 2]
+＠アイランド仮面
+さあ、早く早く。グワーッでグオーッとした[r]タラスク殿を拙者の前に……早く！（そわそわ）
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+よーし、もう手加減しないから！[r]天使を相手にする気でやってやるわ！
+[k]
+
+＠マルタ
+お望み通り！　争いの空しさを！[r]この鉄拳で骨の髄までたたき込んでやろうじゃない！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

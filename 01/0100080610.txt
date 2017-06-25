@@ -1,0 +1,1191 @@
+
+
+＄01-00-08-06-1-0
+
+
+
+
+
+[charaSet A 4003001 1 ドレイク]
+[charaSet B 98018100 1 海賊]
+[charaSet C 7009001 1 アステリオス]
+[charaSet D 2012001 1 エウリュアレ]
+[charaSet E 4008002 1 黒髭]
+[charaSet F 9938300 1 魔神フォルネウス]
+[charaSet G 4009101 1 メアリー]
+[charaSet H 4009201 1 アン]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_42 0.1]
+
+[scene 36320]
+
+[shake 0.05 5 5 0]
+[voice NP_400800_1]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.0]
+[voiceStop NP_400800_1 1.5]
+[wt 1.0]
+[shakeStop]
+[wt 0.3]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ドレイク
+いよぅし、手応えありだ！[r]だが足りないね、まったく足りない！
+[k]
+
+[charaFace A 2]
+＠ドレイク
+追い詰めた相手はとことんまでブチのめす！[r]砲弾はまだ残ってるだろうね！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠海賊
+アイアイ、姉御！[r]ありったけ積んできやしたぜ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ドレイク
+よーし、さあ[%1]！[r]さっさと向かいな！
+[k]
+
+[charaFace A 1]
+＠ドレイク
+空に星があれば、向かうべき道筋なんて見えてくる。[r]ここはアタシらだけで満員だよ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.4 0]
+[charaFadein D 0.4 2]
+＠アステリオス
+ここは、だいじょうぶ、だから。[r]うん。
+[k]
+
+[charaFace C 1]
+＠アステリオス
+がんばって、ますたー……！
+[k]
+
+[charaTalk D]
+＠エウリュアレ
+そうよ。[#私:エウリュアレ]だけじゃなく、[#私:ステンノ]までいるんでしょう？[r]まあ、[#駄妹:メドゥーサ]もオマケでいるみたいだし。
+[k]
+
+[charaFace D 1]
+＠エウリュアレ
+それなら、無限に時間を稼いであげるわ。[r]さあ、アステリオス！
+[k]
+
+[charaFace C 0]
+＠アステリオス
+う……ん……！[r]かた、のって……！
+[k]
+
+[charaTalk off]
+
+[charaMove D 160,0 0.2]
+[wt 0.4]
+[charaShake C 0.05 4 0 0.4]
+[wt 0.4]
+
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 2]
+＠エウリュアレ
+ええ。[r]行くわよ、[#私:ステンノ]！
+[k]
+
+[charaFace D 5]
+＠エウリュアレ
+どちらが優れた狩人か、[r]たまには一勝負といきましょう……！
+[k]
+
+＠アステリオス
+……むりはしないで？
+[k]
+
+[charaFace D 1]
+＠エウリュアレ
+ふふふ、駄目よ。[r]今回はお互い、無理も無茶もするの。
+[k]
+
+＠エウリュアレ
+遠慮なしに、暴れ回れるなんて機会、[r]そうそう無くてよ？
+[k]
+
+[charaFace C 1]
+＠アステリオス
+……たしかに。[r]じゃあ、ぼくも、あばれよう！
+[k]
+
+[charaTalk off]
+
+[charaFace D 2]
+[charaShake C 0.05 4 0 0.7]
+[charaShake D 0.05 0 7 1.0]
+[wt 0.4]
+
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 2]
+＠エウリュアレ
+きゃああ！[r]暴れるのはいいけど、乗物ってこと意識しなさいよね！
+[k]
+
+[charaFace C 0]
+＠アステリオス
+ご、ごめん。[r]ほどほどに、する……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠ドレイク
+おっとそうだ、エウリュアレ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+
+＠エウリュアレ
+ん、どしたの？
+[k]
+
+[charaFace A 1]
+＠ドレイク
+折角だ、歌でも歌って皆を送ってやりな！[r][%1]が勇気凜々になるようなやつをな！
+[k]
+
+[charaFace D 1]
+＠エウリュアレ
+へぇ、リクエストね。[r]いいじゃない、今日だけは大盤振る舞いよ。
+[k]
+
+＠エウリュアレ
+さあ、[%1]。[r]聴き惚れて立ち止まらないようにね！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+[scene 36310]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaSet A 7015001 1 エイリーク]
+[charaSet B 2005001 1 アタランテ]
+[charaSet C 2006000 1 ダビデ]
+[charaSet D 2009101 1 オリオン]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 3]
+[charaDepth E 2]
+[charaFadein E 0.1 1]
+
+[charaMove E 64,0 0.2]
+[wt 0.2]
+[charaMove E -64,0 0.2]
+[wt 0.2]
+[charaMove E 64,0 0.2]
+[wt 0.2]
+[charaMove E -64,0 0.2]
+[wt 0.2]
+[charaMove E 1 0.1]
+＠黒髭
+ああ、いいなあ！[r]あっちでエウリュアレといちゃついてるの、いいなあ！
+[k]
+
+[charaMove E 0,20 0.1]
+[wt 0.1]
+[charaMove E 0,0 0.1]
+[wt 0.2]
+
+[charaMove E 0,20 0.1]
+[wt 0.1]
+[charaMove E 0,0 0.1]
+[wt 0.2]
+
+＠黒髭
+拙者もいちゃつきたい。[messageShake 0.05 4 4 1.0][r]いーちゃーつーきーたーいー！
+[k]
+
+[charaFace E 0]
+＠黒髭
+でもそんなルサンチマンをパワーに変えて！[r]オラ、このクソ[#烏賊:イカ]野郎ブッ殺してやらあ！
+[k]
+
+[messageOff]
+[fadeout black 0.4]
+[wait fade]
+
+[charaFadeout E 0.1]
+[wt 0.3]
+
+[scene 36100]
+[charaTalk F]
+[charaDepth F 1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[fadein black 0.4]
+[wait fade]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神フォルネウス
+我はイカではない。エイである。[r]貴様は特に不認なり。
+[k]
+
+[messageOff]
+
+[fadeout black 0.4]
+[wait fade]
+
+[charaFadeout F 0.1]
+[seStop ad14 0.2]
+[scene 36310]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 3]
+[charaDepth E 2]
+[charaFadein E 0.1 1]
+
+[fadein black 0.4]
+[wait fade]
+
+
+[charaShake E 0.05 4 0 0.7]
+＠黒髭
+なーんで拙者にだけフレンドリーに話しかけてくるの[r]かなー。もしかして同類と思われてる？　やだ怖い！
+[k]
+
+[charaFace E 5]
+＠黒髭
+よし、怖いからやっぱり殺すかァ！
+[k]
+
+[charaFace E 2]
+
+[shake 0.05 3 3 0]
+
+[se bac11]
+＠黒髭
+オラ！　目！　鼻！　ない！[se bac13][r]なのでまた目！　目！　目！[se bac14]
+[k]
+
+[charaFace E 5]
+＠黒髭
+目だけしかねえじゃねえかこの野郎！！[se bac177]
+[k]
+
+
+[charaFadeout E 0.1]
+[shakeStop]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadein G 0.1 0]
+[charaFadein H 0.1 2]
+＠メアリー
+あーしてると迫力あるねー。
+[k]
+
+[charaFace H 4]
+＠アン
+口を開くと駄目な男って、[r]良くいるものよ。
+[k]
+
+＠メアリー
+エイリークには、ビックリしたけど。[r]あ、一応王様なんだから様付けしとく？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠エイリーク
+今更様付けなど、結構だよ。[r]何、その点で言うなら俺も口を開いたら駄目な類だ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace G 0]
+[charaFace H 4]
+[charaFadein G 0.1 0]
+[charaFadein H 0.1 2]
+＠アン
+ど、どうして普段はその、[r]奇声を発しているだけだったんですの？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠エイリーク
+グンヒルドがな……。[r]他の女と口を利くと…………拗ねる…………。
+[k]
+
+＠エイリーク
+拗ねるだけならいいのだが……。[r]たまに相手を呪ったりする……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadein G 0.1 0]
+[charaFadein H 0.1 2]
+＠メアリー
+お、思わぬところで仲睦まじい夫婦の闇を見た感じだ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠エイリーク
+何、どうせ俺が召喚されるのは[r]バーサーカーと相場が決まっている……問題ないのだ。
+[k]
+
+＠エイリーク
+それではもう少し、暴れてくるとしよう。[charaFace A 2][r][line 3]シャァッ！
+[k]
+
+[charaFace A 5]
+＠エイリーク
+ダダダダダダダァァァァァァァァッ！！[messageShake 0.05 4 4 2.0][se bac7][r]コロス、コロス、コロスコロスコロスゥゥゥッ！！[se bac11]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠黒髭
+おお、エイリークさんもモーレツゥッ！[charaFace E 5][se bac11][r]拙者も負けていられないでござるぅ！[se bac14]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk G]
+[charaFace G 2]
+[charaFace H 2]
+[charaFadein G 0.1 0]
+[charaFadein H 0.1 2]
+＠メアリー
+く、なんかボクたち出遅れてる感があるよ！[r]この黒髭海賊団のヒロイン的に、負ける訳には！
+[k]
+
+＠アン
+ええ、そうね。あの最後の戦闘のように、[r]片っ端からぶちのめして差し上げますわ！
+[k]
+
+
+[charaFace G 1]
+＠メアリー
+でも、あの時とは違うよ！[r]こっちの船長は、馬鹿だけど最前線で戦うもんね！
+[k]
+
+[charaFace H 1]
+＠アン
+ええ、まったくですわ[line 3]。
+[k]
+
+[charaTalk off]
+[se bac33]
+
+[charaFace E 2]
+[charaScale E 1.2]
+[charaFadein E 0.1 -1024,0]
+[charaShake E 0.05 0 7 0]
+
+[charaMove E 1024,0 0.4]
+[wait charaMove E]
+[wt 0.4]
+[charaMove E 1 0.2]
+[wait charaMove E]
+[se ad267]
+＠黒髭
+アッチィィィィッ！[r]ケツ！　ケツに火がああああああああああああ！
+[k]
+
+＠黒髭
+バケツバケツバケツゥゥゥゥ！
+[k]
+
+[charaMove E -1024,0 0.1]
+[wait charaMove E]
+[se ad266]
+[charaShakeStop E]
+[charaFadeout E 0.1]
+
+[charaFace G 1]
+[charaFace H 1]
+＠二人
+本当に、馬鹿だけど！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk on]
+
+[wt 0.4]
+
+[scene 36301]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaSet E 2009201 1 アルテミス]
+[charaSet F 2009001 1 オリオン＆アルテミス]
+[charaSet G 98019000 1 イアソン]
+[charaSet H 5017000 1 メディア・リリィ]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+
+
+
+[effect bit_talk_arrow01bl]
+[se bac20]
+[wt 1.8]
+
+[se bac16]
+[wt 0.4]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaDepth B 9]
+[charaFadein B 0.4 1]
+
+＠アタランテ
+……ハッ！[r]……よし、少し落ち着いたな。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.3]
+
+[charaTalk C]
+[charaFace C 1]
+[charaDepth C 1]
+[charaFadein C 0.4 1]
+
+＠ダビデ
+うんうん。[r]あとは僕に任せて、ゆるりと休むといい。
+[k]
+
+＠ダビデ
+ところでアビシャグ。良い島を見つけたんだ。[r]この戦いが終わったら一緒に遊びに行こう。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.3]
+
+[charaTalk B]
+[charaFace B 5]
+[charaDepth B 9]
+[charaFadein B 0.1 2]
+
+[charaFace C 1]
+[charaDepth C 1]
+[charaFadein C 0.1 0]
+
+＠アタランテ
+アビシャグでは、ない。
+[k]
+
+＠ダビデ
+いいや、大丈夫。僕にとってはいつだって、[r]美女がいればそれがアビシャグなんだ。幸いな事にね。
+[k]
+
+[charaFace B 1]
+＠アタランテ
+ははははは、まったく大丈夫ではないな。[charaFace B 2][r]いいからさっさと石を投げるがいい、酒もないのに酔っ払い男！
+[k]
+
+[charaFace C 4]
+＠ダビデ
+うーん、つれないなあ。でもまあ仕方ない。
+[k]
+
+[charaFace C 0]
+＠ダビデ
+[%1][&君:ちゃん]に一つ、[r]信頼に値するところを[#公開:アピール]するとしよう。
+[k]
+
+＠ダビデ
+僕はやるよ。とてもやる。仮に、相手が息子であろうと、[r]その名を騙る何者かであってもね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[messageOff]
+
+[wt 0.4]
+
+[effect bit_talk_arrow01br]
+[se bac20]
+[wt 1.8]
+
+[se bac16]
+[wt 0.4]
+[charaTalk off]
+
+[charaFace D 0]
+[charaFace F 1]
+[charaDepth D 2]
+[charaDepth F 1]
+[charaFadein D 0.1 -49,217]
+[charaFadein F 0.1 1]
+＠アルテミス
+ダーリン、ダーリン！[r]見た見た、今の！？
+[k]
+
+＠アルテミス
+私、格好良かったよね！？
+[k]
+
+＠オリオン
+あー、はいはい。[r]とってもかっこよかったよー。
+[k]
+
+[charaFace F 5]
+＠アルテミス
+棒読みひどーい！[r]ぷんぷんだぞー！
+[k]
+
+[charaFace D 0]
+＠オリオン
+そういう頭の抜けたレスポンスは止めてもらおうか！[r]女神のイメージダウンに繋がるからネ！
+[k]
+
+[charaFace D 2]
+＠オリオン
+おまえは良くても、他の女神からクレームが来るから！[r]しかも俺宛に！　ほら四通も！
+[k]
+
+[charaFace D 0]
+＠オリオン
+“バカップルはいいとして、ちゃんと監督しなさい”[r]“月の女神はみんな脳天気なのデース！”
+[k]
+
+＠オリオン
+“スキンシップは自室でお願いします”[r]“ニャ－！　ＩＱあげて行こう、ぜっ！”
+[k]
+
+[charaFace F 2]
+＠アルテミス
+[line 3]それはつまり、うわき？
+[k]
+
+[charaFace D 4]
+＠オリオン
+ちがいます。[r]ちがいます。
+[k]
+
+＠オリオン
+その虚ろな瞳を止めて下さい。[r]はい、はい！　ほらほら敵さんがやってきたぞ～！
+[k]
+
+[charaFace F 5]
+＠アルテミス
+ダーリン、後でじっっっっっっっくり！！[r]お話しようね！
+[k]
+
+[charaFace D 0]
+＠オリオン
+大丈夫、大丈夫だよ！[r]俺が愛しているのはおまえだけだから！
+[k]
+
+[charaFace D 4]
+＠オリオン
+ホントマジマジ。[r]おまえだけだーかーらー！
+[k]
+
+[charaTalk on]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1024,0]
+[charaMove C 5 0.4]
+＠ダビデ
+でも互いに愛はなくとも体は貪ったんだろ？[r]いいねぇ、美女の添い寝は。冷えた肌が癒やされる。
+[k]
+
+[charaMove C 1024,0 0.2]
+[charaFadeout C 0.7]
+
+[charaTalk off]
+
+[charaFace D 3]
+＠オリオン
+はい、美味しゅうございました。
+[k]
+
+[charaFace D 2]
+＠オリオン
+……なに言わせてんのぉ！？
+[k]
+
+[charaFace F 1]
+＠アルテミス
+[line 3]うん、この戦いが終わったら[r]二人で幸せになりましょう。
+[k]
+
+＠アルテミス
+海の底とかで。
+[k]
+
+[charaFace D 4]
+＠オリオン
+心中じゃないですかヤダー！！
+[k]
+
+[messageOff]
+
+[charaFadeout F 0.7]
+[charaFadeout D 0.7]
+[wt 1.0]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.4 1]
+[wt 0.4]
+＠アタランテ
+……ふ、ふふ、ふふふ。[r]大丈夫、大丈夫、私はまだ頑張れる！
+[k]
+
+[charaFace B 2]
+＠アタランテ
+この状況で口説いてくる変な王様とか！[r]この状況で痴話喧嘩を始める信奉する女神様とか！
+[k]
+
+＠アタランテ
+そういうものに、私は負けない！
+[k]
+
+[charaFace B 0]
+＠アタランテ
+子供たちの笑顔が！[r]そういう感じの色々なアレがエネルギーとなって！
+[k]
+
+[charaFace B 2]
+＠アタランテ
+さあ次は汝か、それとも汝か！？[r]掛かってくるがいい！
+[k]
+
+[charaFace B 5]
+＠アタランテ
+今の私は、女神の加護無しでもカリュドンの猪を[r]射貫くくらいは出来るぞ！
+[k]
+
+[se bac20]
+[wait se bac20]
+[se bac16]
+
+[charaFace B 4]
+＠アタランテ
+ああ、しかしせめてもうちょっとこう、[r]真っ当な仲間が欲しかった！
+[k]
+
+[charaFace B 2]
+＠アタランテ
+あの韋駄天馬鹿でも来てくれなかったものか……！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[wt 0.4]
+
+[scene 36310]
+
+[charaSet A 3016000 1 ヘクトール]
+[charaSet B 7001001 1 ヘラクレス]
+[charaSet C 5001001 1 メディア]
+[charaSet D 7001001 1 ヘラクレスシルエット]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk G]
+[charaFace G 3]
+[charaDepth G 9]
+[charaFadein G 0.1 1]
+[charaShake G 0.05 4 0 2.0]
+＠イアソン
+おおおおおおお……！　とや、むん、ほぁ！[r]クソ、死ぬ死ぬ死ぬ死ぬいや生きる駄目だ死ぬぅ！
+[k]
+
+[charaFace G 2]
+＠イアソン
+畜生くそったれ馬鹿野郎！[r]どうかしてたのか私は！　名誉挽回のチャンス……か……
+[k]
+
+[charaFace G 3]
+＠イアソン
+なんて、一時の感情に惑わされ、[r]こんな場所に召喚されてしまうとは……ッ！
+[k]
+
+[charaFace G 2]
+＠イアソン
+私は知恵と勇気で戦う英霊なんだ！[r]敵側の戦力がこちらより十倍以上な戦場なんてゴメン被る！
+[k]
+
+＠イアソン
+ああいやだ、もっと楽に勝ちたい！　だからもう帰ろう！[r]何も考えなくて済む、そういう場所が私の[#独壇場:ホームグラウンド]だ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace G 3]
+[charaFace H 4]
+[charaDepth H 1]
+[charaFadein G 0.1 2]
+[charaFadein H 0.1 0]
+＠メディア・リリィ
+え、あの。[r]イアソン様は縁に応じて、来て下さったのでは……？
+[k]
+
+[charaFace G 2]
+＠イアソン
+気の迷いだよ、気の迷い！[r]俺はほとんど、おまえに引っ張られたんだよ！
+[k]
+
+[charaFace G 3]
+＠イアソン
+ヘラクレスの気持ちがいま、わずかだが分かった！[r]理解ではなく共感できた！
+[k]
+
+＠イアソン
+おのれ女神ヘラ、なぜ英霊として昇華されてからも、[r]俺はおまえとワンセットなのか！
+[k]
+
+[charaFace G 2]
+＠イアソン
+ワンモア！　ワンモア！　ループ推奨！[r]強くて知識がある状態で冒険をやり直したい！
+[k]
+
+[charaFace H 2]
+＠メディア・リリィ
+だ、大丈夫です！[r]イアソン様は私が守りますから！
+[k]
+
+[charaFace H 0]
+＠メディア・リリィ
+ヘクトールさんだっていらっしゃいますし、ね！？
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFace G 2]
+[charaFace H 0]
+[charaDepth A 1]
+[charaFadein A 0.1 288,0]
+[charaFadein G 0.1 1]
+[charaFadein H 0.1 -288,0]
+＠ヘクトール
+へいへい、俺ぁ防衛戦なら得意でね。[r]しばらくの間なら、このアルゴノーツ共々保つでしょうよ。
+[k]
+
+[charaFace G 2]
+[charaShake G 0.05 4 0 1.0]
+＠イアソン
+はあ！？
+[k]
+
+[charaFace G 3]
+＠イアソン
+馬鹿かおまえたちは！[r]メディアはともかく、ヘクトール！
+[k]
+
+[charaFace G 2]
+＠イアソン
+おまえまで間が抜けているのか！？[r]それでもトロイアの守護者か！
+[k]
+
+＠イアソン
+おまえも、メディアも[line 3][r]ヘラクレスの援護に回れ！！
+[k]
+
+[charaFace H 2]
+[charaFace A 2]
+
+＠イアソン
+コイツが攻撃に集中できるよう、[r]徹底的に露払いをこなすんだ！
+[k]
+
+[charaFace H 2]
+＠メディア・リリィ
+え、えぇぇ！？[r]ここの守りはどうなさるのです……？
+[k]
+
+[charaFace G 3]
+＠イアソン
+それじゃ万に一つの勝ち目もなくなるんだよ間抜けが！[r]いいか、コレは単純な算数の問題だ！
+[k]
+
+[charaFace G 2]
+＠イアソン
+１を１０にするより、１０を１００にする方が[r]強いに決まってるだろうが！
+[k]
+
+＠イアソン
+アルゴノーツを１０にしたところで粉微塵だ！[r]それならヘラクレスを１００にした方が万倍マシだ！
+[k]
+
+[charaFace G 2]
+＠イアソン
+だろう、ヘラクレス！　理性はなくとも戦闘の話だ、[r]私の言いたい事は分かるだろう！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 1]
+＠ヘラクレス
+………………（ニィ）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠イアソン
+それでこそだ！[r]ヘラクレスを援護しろ、おまえたち！
+[k]
+
+＠イアソン
+そして、私はここで待つ！[r]面倒だが、[#帆:セイル]の上手い使い方を見せてやろう！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+[charaFadein A 0.1 2]
+＠ヘクトール
+……。[r]……はー……。
+[k]
+
+＠メディア・リリィ
+……。[r]……。
+[k]
+
+＠メディア・リリィ
+ふふふ。[r]ヘクトールさん、信じられないって顔ですね。
+[k]
+
+＠メディア・リリィ
+これがイアソン様です。
+[k]
+
+[charaFace H 4]
+＠メディア・リリィ
+イアソン様はこう、本当に、図に乗ったりすると[r]見事なまでに滑り落ちてしまうのですが[line 3]
+[k]
+
+[charaFace H 0]
+＠メディア・リリィ
+逆にもうドン底のドン底まで追い詰められて、[r]自分の命も投げ出さなきゃ、くらいにヤケッパチになると……。
+[k]
+
+[charaFace H 2]
+＠メディア・リリィ
+何故か、物凄く冴え渡ってくるんです！[r]そして格好良くなるんです！
+[k]
+
+[charaFace A 4]
+＠ヘクトール
+あー、いや。[r]それもあるんですがね。
+[k]
+
+[charaFace A 0]
+＠ヘクトール
+何で[#あの海:オケアノス]で、オジサンがこっち側に配置されたか、[r]ようやく理解できた気がしてね。
+[k]
+
+[charaFace A 4]
+＠ヘクトール
+ああ、うん。[r]なるほど、よく似てるわ。
+[k]
+
+[charaFace A 2]
+＠ヘクトール
+追い詰められて自棄になると英雄の本質が[r]現れるあたり、ウチの愚弟とそっっっっっくりだわ！
+[k]
+
+[charaFace A 5]
+＠ヘクトール
+いや、顔も性格も全然違うんだけどな。[r]それじゃあ、繋いだ縁を逃さぬよう[line 3]
+[k]
+
+[charaFace H 5]
+＠メディア・リリィ
+ええ、行きましょう。[r]援護します、ヘラクレス！
+[k]
+
+[charaFace H 2]
+＠メディア・リリィ
+このメディアが、全力であなたを強化します。[r]神話に名高き英雄の膂力を、見せつけてあげなさい！
+[k]
+
+
+[messageOff]
+
+
+[charaFadeout A 0.4]
+[charaFadeout H 0.4]
+[wt 0.3]
+
+[charaTalk off]
+
+[se ad14]
+[charaFace B 2]
+[charaDepth B 2]
+[charaFadein B 0.1 1]
+[charaFace D 2]
+[charaDepth D 2]
+[charaFilter D silhouette FFFFFF80]
+[charaFadein D 0.1 1]
+
+[charaFadeout B 0.7]
+[wt 1.0]
+
+[charaSet B 7001002 1 ヘラクレス]
+[wait charaChange B]
+
+[charaFace B 2]
+
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[charaFilter D silhouette 00000080]
+[seStop ad14 1.0]
+[se bac215]
+[shake 0.05 4 4 0]
+[wt 0.7]
+[flashOff]
+
+[charaFadeout D 0.7]
+[charaFadein B 0.7 1]
+[seStop bac215 1.0]
+[shakeStop]
+[wt 0.8]
+[voice 700100_0_B100]
+[wt 0.2]
+[charaShake B 0.05 2 4 2.0]
+
+＠ヘラクレス
+[image berserker_language_1][line 6]！！
+[k]
+
+[wait voice 700100_0_B100]
+
+[messageOff]
+
+[charaFadeout B 0.7]
+[wt 1.0]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠ヘクトール
+あばよ、イアソン船長！[r]アンタはそこで吉報を待ってな！
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠イアソン
+……バカめ。吉報なんぞあるはずないだろ。[r]俺たちはここで使い潰されに来たんだからな。
+[k]
+
+[charaFace G 2]
+＠イアソン
+ああ、くそ。[r]ここでまた私は、無為に死んでしまうのだろうな！
+[k]
+
+
+＠C：？？？
+……目を疑ったわ。英霊に至ってから、[r]貴方に感心させられる時が来るなんてね。
+[k]
+
+＠C：？？？
+正直、絶句よ。
+[k]
+
+[charaFace G 0]
+＠イアソン
+[font large]え。
+[k]
+
+[charaFace G 0]
+＠イアソン
+あの……。[r]その声は……。
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.7 2]
+＠メディア
+今の方針は正しいと言ったのよ。[r]ヘラクレスに全力を出させる事が、この場での最適解。
+[k]
+
+[charaFace C 4]
+＠メディア
+……はあ。[%1]との縁もあるし、[r]私も少し手伝いましょう。
+[k]
+
+[charaFace G 2]
+[charaMove G 0 0.1]
+[charaShake G 0.05 7 0 1.0]
+＠イアソン
+ギャー！！[r]ホ・ン・モ・ノ[line 4]！！
+[k]
+
+[charaFace C 5]
+＠メディア
+……どこまでも頭の痛くなる反応ね。[r]あっちのメディアも本物よ。
+[k]
+
+[charaFace C 0]
+＠メディア
+使い潰されに来たのは確かですけど、[r]それを一秒でも遅らせるのが私たちの仕事でしょう。
+[k]
+
+[charaFace C 0]
+＠メディア
+貴方は船長ですものね。片手間でなら守護します。[r]せいぜい、アルゴノーツを動かして惑わせなさい。
+[k]
+
+[charaFace C 2]
+＠メディア
+はい、分かったらさっさとする！[r]帆の使い方ならヘラクレス以上の天才でしょう、貴方は！
+[k]
+
+[charaFace G 2]
+[charaShake G 0.05 4 0 1.0]
+＠イアソン
+畜生、悪夢だ……！[r]二人って！　一度に二人って！
+[k]
+
+[charaFace G 3]
+＠イアソン
+夢なら早く醒めて欲しいなあ！
+[k]
+
+[charaFace C 2]
+＠メディア
+さあ、[&坊や:お嬢さん]！
+[k]
+
+[charaFace C 0]
+＠メディア
+さっさと踏破しなさい、[r]いつまでも追い風という話はなくてよ！？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_42 2.0]
+[wait fade]
+[soundStopAll]
+[end]

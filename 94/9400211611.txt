@@ -1,0 +1,459 @@
+
+
+＄94-00-21-16-1-1
+
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 98051000 1 ？？？]
+
+[bgm BGM_EVENT_3 0.1]
+[scene 22160]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+敵巨大ゴースト、消滅しました！[r]後はあのサーヴァントだけ[line 3]あ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+サーヴァント、逃走します！[r]でもその先は[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠両儀式
+屋上の端……飛び降りて逃げるつもりか！[r]けど、その逃げ方はよくないぜ伊達男……！
+[k]
+
+[messageOff]
+[effect bit_talk_41]
+[se ad73]
+[wt 0.2]
+[charaFadeout D 0.1]
+[effectStop bit_talk_41]
+[stretchout full 0.5 5.0]
+[wipeout circleOut 0.3 1]
+[wait wipe]
+
+[wt 0.4]
+[stretchin full 0 1.0]
+
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+式さん！？[r]その勢いで追い掛けたら、一緒に……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+墜落してでも仕留めるつもりか！？[r][line 3]いや、駄目だ、いけない！
+[k]
+
+＠Dr.ロマン
+霊子反応が示している、[r]そのサーヴァントはそこにはいない！
+[k]
+
+＠Dr.ロマン
+そいつはただの影だ！[r]落ちるのは君だけだぞ、両儀くん！
+[k]
+
+＠Dr.ロマン
+君の魔眼なら影であっても敵の本体を[r]殺させるだろう、しかし[line 3]
+[k]
+
+＠Dr.ロマン
+[#追い掛けては君も死ぬ]！
+[k]
+
+＠Dr.ロマン
+せっかくカルデアに来たのに、[r]顔も分からない相手と心中するのかい！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+
+？1：ストップ、両儀さん！
+
+[bgmStop BGM_EVENT_3 0.1]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠両儀式
+！
+[k]
+
+？2：ハウス、式ちゃん！
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠両儀式
+……。
+[k]
+
+？！
+
+[bgm BGM_EVENT_5 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+やれやれ……ギリギリで踏みとどまってくれたか。[r]ナイスかけ声、[%1][&君:ちゃん]。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+……チ。マスター命令なら仕方がない。[r]間が良かったな、伊達男。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+……追ってこないのか。
+[k]
+
+＠？？？
+それが命を代償にした行為であれば、[r]甘んじて受けてやったものを。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+だろうな。[r]そういうヤツだと思ったよ、オマエ。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se bac23]
+[effect bit_talk_37]
+[wt 0.4]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[fowardEffect bit_talk_13]
+[se bac5]
+[charaShake F 0.05 3 3 0.4]
+[wt 0.4]
+＠？？？
+ッ……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+投げナイフ……！[r]式さんの、もう一本ナイフを隠してたんですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+ああ。帯の後ろに一本だけな。[r]隠し武器は女の[#嗜:たしな]み、だろ？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+グッ[line 3]これ、は[line 3][r]水面に映った影でさえ、その眼は“殺す”のか。
+[k]
+
+＠？？？
+もとから命の無いものさえ“生きている”と捉える。[r]幻さえ殺されては、確かに、オレの仕事もここまでだ。
+[k]
+
+[effect bit_talk_06]
+[wt 1.5]
+
+＠Dr.ロマン
+霊子反応が消えていく……[r]いや、待ちたまえ、黒いサーヴァント！
+[k]
+
+＠Dr.ロマン
+君はなぜこんな場所を作った！[r]仕事は誰に頼まれた事だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+決まっている。そして理解していよう。[r]おまえたちが敵とみなす人物にだ。
+[k]
+
+＠？？？
+ヤツはこの塔を新たな特異点にしてもよい、と[#嘯:うそぶ]いた。[r]だが[line 3]
+[k]
+
+＠？？？
+オレとヤツの目的は違う。
+[k]
+
+＠？？？
+オレは恩讐によって[#在:い]きるものだが、[r]あの男は、オレとは本質から違うモノだった。
+[k]
+
+＠？？？
+怨念を持たない者に、オレが手を貸す道理はない。[r]よってヤツの依頼は断った。
+[k]
+
+＠？？？
+オレはオレの性質として、[r]サーヴァントどもに復讐の機会を与えたのだ。
+[k]
+
+＠？？？
+“虎よ、虎のように吼えよ。[r]　今こそ獲物を貪る時だ”と。
+[k]
+
+＠Dr.ロマン
+怨念を持たない……なんだそれ、ますます分からない……[r]なら、何が目的で人類史を燃やす……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+その解答にはおまえたちが辿り着け。[r]オレには興味のない話だ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……マスター。[r]敵サーヴァント、消滅します。
+[k]
+
+？1：待て！
+？2：それより、[#おまえ]は何者なんだ！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+答える義理はない。
+[k]
+
+＠？？？
+……フ。だが、そう問われたのなら[r]オレはこう答えるしかあるまい。
+[k]
+
+＠？？？
+“[line 3]待て。しかして希望せよ”……とな。
+[k]
+
+[messageOff]
+[effectStop bit_talk_06]
+[wait effect bit_talk_06]
+[wt 0.2]
+[charaSpecialEffect F flashErasure 1 1.7]
+[se ba5]
+[wt 1.7]
+[wt 1.0]
+
+[wt 2.0]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_8 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……今度こそ終わりのようだね。[r]死霊たちを集めていた大黒柱は、今度こそ消え去った。
+[k]
+
+＠Dr.ロマン
+そのマンションも焼却された歴史に戻る。[r]……長い夜が、ようやく明けるんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+それは喜ばしい事ですが……[r]結局、あのサーヴァントの正体は分からずじまいでした。
+[k]
+
+＠マシュ
+あの口ぶりではわたしたちの敵のようですし……[r]また、戦う事になるのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠両儀式
+さあな。あの手の男は一度転べばあっさり落ちるぜ。[r]あんがい、頼りになる味方になるかもだ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+そうなのですか？
+[k]
+
+[charaFace D 6]
+＠両儀式
+そうなんだよ。[r]マシュ。人間が人間に復讐する理由を知っている？
+[k]
+
+[charaFace A 12]
+＠マシュ
+い、いえ。復讐といった行動理由は、[r]いまのところ覚えたことがなくて……
+[k]
+
+＠両儀式
+簡単だよ。人間は好きな相手に裏切られたから恨むんだ。[r]どうでもいい相手になら、何をされても無視するさ。
+[k]
+
+＠両儀式
+だから[line 3][r]あの黒いの、基本的に人間大好きなんじゃない？
+[k]
+
+＠両儀式
+憎しみから生まれたものが愛を語り、[r]愛から生まれたものが憎しみを語る。
+[k]
+
+＠両儀式
+そういう在り方をするクラスなんだろ、アイツら。
+[k]
+
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+そうだね。縁があればまた遭遇するだろう。[r]それより今は事件の完全解決を祝おう。
+[k]
+
+？1：迷宮入りは避けられたね！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+ああ。捜査は足だって言ったけど、[r]おまえのしつこさはこっちの予想以上だった。
+[k]
+
+＠両儀式
+マスターを失業したらオレの家に来い。[r]探偵……はいるから、その助手として雇ってやる。
+[k]
+
+[charaFadeout D 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 1]
+
+？2：そして犯人はロマン！
+
+＠Dr.ロマン
+いやあ、それはどうだろう。ここから遠隔操作とか[r]できたら、もう少し活躍できるんだけどなあ。
+[k]
+
+？！
+
+＠Dr.ロマン
+ともかく、みんなおつかれさま。[r]最後まで辛抱強く、よく探索してくれた。
+[k]
+
+もうやり残しはないだろうし、[r]その座標の歪みも消えるだろう。
+[k]
+
+カルデアでみんなの帰りを待っているよ。[r]オガワハイムの幽霊事件はこれにて終了だ！
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout white 2.0]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[scene 10001]
+[wt 0.4]
+[fadeout black 1.0]
+[wt 0.9]
+[bgmStop BGM_EVENT_8 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

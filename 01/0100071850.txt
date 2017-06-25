@@ -1,0 +1,315 @@
+
+
+
+＄01-00-07-18-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 98108300 1 ティアマト]
+[charaSet C 8001002 1 マシュ]
+[charaSet D 2020001 1 イシュタル]
+[charaSet E 4018001 1 ケツァル・コアトル]
+
+[scene 35010]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+異例の霊基反応、確認！[r]来たぞ！　接触まであと200メートル！
+[k]
+
+＠Dr.ロマン
+すでに目視できる筈だ！[r]海上に、この異変の元凶がいる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad204]
+[effect bit_talk_voice01]
+＠？？？
+A[line 3]
+[k]
+
+[effectStop bit_talk_voice01]
+
+？1：この声は……
+？2：……歌？
+
+？！
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠マシュ
+海面に敵影、確認しました！[r]でもアレは[line 3]アレが、本当に……？
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_3 0.7 0.5]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[scene 35000]
+[wt 0.2]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[wt 0.7]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 1.0 1]
+[wt 3.0]
+
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+[scene 35010]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+＠マシュ
+あれがティアマト神……？[r]本当に？
+[k]
+
+[charaFace C 7]
+＠マシュ
+とても美しくて……悲しげで……[r]あの女性体が魔獣たちの母にはとても……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠イシュタル
+え、ええ……実は私も見るのは初めてだけど……[r]あの大地を象徴する大角、星の[#内海:うちうみ]を映す瞳……
+[k]
+
+＠イシュタル
+あれは創世の神、ティアマト神よ。間違いなく。
+[k]
+
+[charaFace D 8]
+＠イシュタル
+創世後に切り捨てられた母胎、そのもの。[r]生命を生み出す土壌としてのね。
+[k]
+
+＠イシュタル
+神話では神々によって殺されたとあるけれど、[r]事実は少し違う。
+[k]
+
+[charaFace D 5]
+＠イシュタル
+彼女は棄てられた。[r]自分が生み出した[#世界の全て:こどもたち]に。
+[k]
+
+＠イシュタル
+[#惑星:ほし]の環境が落ち着いて、生態系が[r]確立された後に、不要なものとして追放されたの。
+[k]
+
+＠イシュタル
+一枚の敷物の下にある旧世界にでさえない。[r]世界の裏側、生命のいない虚数世界に。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+……そうね。生命の系統樹を得た霊長類にとって、[r]“次の世界”を生みだしかねない彼女は危険すぎた。
+[k]
+
+＠ケツァル・コアトル
+せっかく出来た土台に[r]次の土台を混ぜられかねない。だから、
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠イシュタル
+封じ込めた。永遠に。[r]それが今、こうして戻ってきた。
+[k]
+
+＠イシュタル
+魔術王が虚数世界から引き上げたのか、[r]それとも人理そのものが呼び寄せたのか。
+[k]
+
+[charaFace D 5]
+＠イシュタル
+どちらにせよ、[r]彼女はもうこの[#惑星:ほし]にいてはいけないもの。
+[k]
+
+＠イシュタル
+もう一度深い眠りに落ちてもらうしかない。[r]ないん、だけど……
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[scene 35000]
+[wt 0.2]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[wt 2.0]
+
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+[scene 35010]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+＠イシュタル
+なんか、封印されてない？[r]手足、拘束されてるわ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+目覚めたばかり……とは違うようね。[r]ラフムが聖杯を届けた理由はあれかしら。
+[k]
+
+＠ケツァル・コアトル
+こちらにも気付いてないようだし、[r]もしかして、このままいける？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+こちらでもティアマト神を映像として確認した！[r]チャンスだぞ、彼女の手足はまだ稼働していない！
+[k]
+
+＠Dr.ロマン
+完全に封印されている！[r]自由になるのは胴体と頭部だけだ！
+[k]
+
+？1：[line 3]倒すなら今しかない！
+？2：……躊躇はできない。ウルクが危ない！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠マシュ
+はい！　敵個体、ティアマト神！[r]この特異点最後の戦いをかい、きゃっ！？
+[k]
+
+[charaFadeout C 0.1]
+[messageOff]
+[wt 0.1]
+[se ad204]
+[effect bit_talk_voice01]
+
+[shake 0.05 0 6 0]
+[wt 2.0]
+[effectStop bit_talk_voice01]
+
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[shakeStop]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[scene 35000]
+[wt 0.2]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[bgm BGM_EVENT_3 0.5]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ティアマト
+A[line 3]
+[k]
+
+[effect bit_talk_voice01]
+[se ad205]
+[charaFace B 3]
+＠ティアマト
+A[line 3]Aaaaaa、aaaaaaa[line 6]！
+[k]
+
+[messageOff]
+[charaChange B 98108310 3 fade 1.5]
+[wt 3.0]
+[effectStop bit_talk_voice01]
+[charaFadeout B 0.1]
+[wt 0.2]
+
+＠マシュ
+……っ！！[r]体が、痺れ[line 2]ッ！？
+[k]
+
+[effectStop bit_talk_41]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ティアマト神内部の魔力反応、増大！[r]まずい、何かする気だ！
+[k]
+
+＠Dr.ロマン
+この魔力量、水爆に匹敵する！[r]もし放たれればそこからでもウルクが吹っ飛ぶ！
+[k]
+
+＠Dr.ロマン
+撃たせるな、[%1]君！[r]その前に彼女を倒すんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[effect bit_talk_41]
+[charaTalk B]
+[se ad205]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+[effect bit_talk_voice01]
+
+＠ティアマト
+A[line 3]Aaaaaa、aaaaaaa[line 6]！
+[k]
+[effectStop bit_talk_voice01]
+
+？1：っ……時間がない。攻撃を開始[&する:します]！
+？2：やるしかない……！
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[effectStop bit_talk_41]
+[soundStopAll]
+[end]

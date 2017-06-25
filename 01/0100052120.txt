@@ -1,0 +1,45 @@
+
+＄01-00-05-21-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet B 4013001 1 メイヴ]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[scene 11210]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠メイヴ
+この程度じゃ、相手にならないか。
+[k]
+
+[charaFace B 2]
+＠メイヴ
+……でも、負ける訳にはいかないわ。[r]来なさい、スプリガン！
+[k]
+
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+まだ増えるのか！？[r]本当に無限に兵士を生み出せるのか、女王メイヴは！？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]
+

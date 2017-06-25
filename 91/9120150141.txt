@@ -1,0 +1,99 @@
+
+＄91-20-15-01-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 2 マシュ]
+[charaSet D 2015001 1 アルジュナ]
+
+[scene 20803]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アルジュナ
+[#炎神:アグニ]の業炎により、塵のように消え去れ！[r]……いや、まだ足りないな。
+[k]
+
+
+＠アルジュナ
+[#破壊神:シヴァ]よ、その力で天より罰を与えよ！
+[k]
+
+[messageOff]
+[charaEffect D bit_talk_36]
+[se ad39]
+[flashin once 0.1 0.3 FFFFFFDF 00000000]
+[flashin once 0.1 0.7 FFFFFFDF 00000000]
+[fadeout white 1.0]
+[wait fade]
+
+[bgmStop BGM_EVENT_3 0.5]
+[charaEffectStop D]
+[wait charaEffect D]
+[charaFadeout D 0.1]
+[wt 1.0]
+[scene 20700]
+[bgm BGM_EVENT_2 0.1]
+
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠アルジュナ
+……いかがでしたか、マスター。[r]いえ、何も言われる必要はありません。
+[k]
+
+＠アルジュナ
+これにより、我が力は完全に立証されました。[r]我が武器、我が宝具、共に最強。
+[k]
+
+＠アルジュナ
+私こそが最高のサーヴァントだと、[r]胸を張って宣言してもいいのですよ？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠マシュ
+あ、あの……。
+[k]
+
+[charaFace D 0]
+＠アルジュナ
+はい？
+[k]
+
+[charaFace A 12]
+＠マシュ
+森が更地になったのですが[line 2]。
+[k]
+
+＠アルジュナ
+……。[r]……ええと。
+[k]
+
+[charaFace D 4]
+＠アルジュナ
+少し張り切りすぎたようです……[r]申し訳ありません。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

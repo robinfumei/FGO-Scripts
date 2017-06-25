@@ -1,0 +1,94 @@
+
+＄94-00-18-10-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6010001 1 ステンノ]
+[charaSet D 2012001 1 エウリュアレ]
+[charaSet E 4001001 1 メドゥーサ]
+
+[scene 20300]
+[fadein black 2]
+[wait fade]
+
+[charaTalk off]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+
+＠ステンノ・エウリュアレ
+あーれー！
+[k]
+
+[se ad75]
+[seStop ad75 2.0]
+[charaFadeout C 0.7]
+[charaFadeout D 0.7]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メドゥーサ
+……なんという力強い一撃……！[r]姉様たちの百倍、心のこもった攻撃でした……！
+[k]
+
+[charaFace E 1]
+＠メドゥーサ
+私たちの完敗です、マシュ。[r]本当にお疲れ様でした。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……ありがとうございます！[r]そしてメドゥーサさんも、がんばって……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+さて……次の試練は誰になるのでしょう？
+[k]
+
+＠フォウ
+フォウ？
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい、この調子だと第二第三の試練があるに[r]違いないと、自分を引き締めていました！
+[k]
+
+＠マシュ
+二度あることは三度あると言いますし！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

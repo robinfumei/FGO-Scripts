@@ -1,0 +1,94 @@
+
+
+＄01-00-07-10-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_11 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 3027000 1 アナ]
+
+[scene 28700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……酷い目に遭いました……[r]女神イシュタルの美的センスが壊滅的です……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠マーリン
+ああ……ここまで残念な女神だったとはね……[r]もしかしたら放っておいても自滅するんじゃないかな……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アナ
+皆さん、お気を確かに。[r]あちらをご覧ください。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_11 1.4]
+[wipeout rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[scene 34200]
+[wt 0.7]
+[wipein rectangleStripLeftToRight 0.7 1]
+[wait wipe]
+
+[wt 1.0]
+
+？1：あれが……イシュタル神殿！
+
+[bgm BGM_EVENT_5 0.1]
+＠マシュ
+はい！　“私はエビフ山を征服した”といわんばかりの[r]神殿ですが、荘厳な神殿だと思います！
+[k]
+
+？2：よし帰ろう
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+[scene 28700]
+[wt 0.2]
+[wipein rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+
+[se ad7]
+[shake 0.05 0 4 0.4]
+[wt 0.7]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠アナ
+……[%1]、[r]イヤな事から逃げてはいけません。
+[k]
+
+＠アナ
+間違いなくイシュタルとは戦闘になるでしょうが、[r]諦めて進みましょう。
+[k]
+
+？！
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[soundStopAll]
+[end]

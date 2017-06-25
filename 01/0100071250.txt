@@ -1,0 +1,447 @@
+
+
+
+＄01-00-07-12-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 3028000 1 ジャガーマン]
+[charaSet E 2020001 1 イシュタル]
+
+[scene 34000]
+[wipeout upToDown 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wipein upToDown 0.4 1]
+[wait wipe]
+
+[wt 0.2]
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+よし、よく登り切った！　急げ[%1][&君:ちゃん]！[r]その祭壇にある石が太陽遍歴[line 3]
+[k]
+
+＠Dr.ロマン
+古代アステカにおいて世界の過去・現在・未来を[r]示したとされる巨石[line 3]アスティックカレンダーだ！
+[k]
+
+＠Dr.ロマン
+間違いなくケツァル・コアトルの第二宝具！[r]それを壊せばこの神殿はただの飾りになって、
+[k]
+
+＠Dr.ロマン
+ケツァル・コアトルの切り札も封じられる！[r]まさに一石二鳥だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ、フォーウ！[r]ロマ、フォーウ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+っ！　マシュたちが戦闘不能状態！[r]ケツァル・コアトルが来るぞ！
+[k]
+
+＠Dr.ロマン
+急げ、[%1]君！[r]邪悪な女神を倒せるのは今しかない！
+[k]
+
+[bgmStop BGM_EVENT_3 0.7]
+
+？1：邪悪[line 3]？
+？2：それは[line 3]
+
+？！
+
+＠Dr.ロマン
+どうした、マスター・[%1]！？[r]なぜそこで手を止める……！？
+[k]
+
+？1：……それは違うと思います、ドクター
+？2：ケツァル・コアトルが見たいのは、そうじゃなくて……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_3 0.1]
+＠ケツァル・コアトル
+残念、時間切れね[%1][&君:さん]！[r]いま階段を一息で駆け上がるわ！
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャガーマン
+ふむ。つまりククルんにはサーヴァントによる勝利ではなく、[r]人間としての決意を見せるべき、と悟ったかニャ？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ジャガーマン！？[r]キミ、いつの間に祭壇の上まで！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠イシュタル
+地上から一気にジャンプしたのよ、そいつ。[r]私はもともと空を飛べるからフワッと来たけど。
+[k]
+
+[charaFace E 8]
+＠イシュタル
+それより[%1]、どうするの？[r]せっかくのチャンスを棒に振って、何をする気？
+[k]
+
+＠イシュタル
+今なら私とジャガーで、[r]一度だけケツァル・コアトルの突進を防げるわ。
+[k]
+
+＠イシュタル
+その隙に巨石を砕けるけど？
+[k]
+
+？1：……ジャガーマンの言う通りだ
+？2：……これは、人間の戦いだ
+
+？！
+
+[charaFace E 7]
+＠イシュタル
+ものすごい見栄の張りようね。[r][line 3]ええ。私もその意見には賛成よ。
+[k]
+
+[charaFace E 5]
+＠イシュタル
+でも、具体的にはどう戦うの？[r]その棍棒で殴りかかる？
+[k]
+
+？1：決まっている。高さだ……！
+？2：決まっている。勇気だ……！
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+高さ……勇気……ハ！？[r]となりでダ・ヴィンチちゃんが大笑いしている！？
+[k]
+
+＠Dr.ロマン
+まさか[%1][&君:ちゃん]、[r]あの女神相手に、その、プロレス技をしかけるとでも！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャガーマン
+フッ。見事だ[&少年:ベイビー]。[r]さすが私が見込んだ、未来の高額納税者。
+[k]
+
+＠ジャガーマン
+その意気や良し。[r]では、プランチャーしかあるまいよ（ニヤリ）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+その高さからボディアタックだって[line 3]！？[r]無茶だ、止めなさい、自殺行為にも程がある！
+[k]
+
+＠Dr.ロマン
+階段下のケツァル・コアトルが[r]横に退くだけで自爆するぞ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジャガーマン
+何をすっとんきょうな事を言っているのかしら[r]このひょうろく玉は。
+[k]
+
+＠ジャガーマン
+階段の高度差なんて話にニャらニャい。[r]プランチャーは高ければ高いほどいいニャ。
+[k]
+
+＠ジャガーマン
+つまり、もっと高度が必要なのニャ[line 3]！
+[k]
+
+？1：え？
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠イシュタル
+そういう事なら私に任せて。[r]限界まで攻めるわ！
+[k]
+
+？1：え？
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale E 1.2]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 0,60]
+[se ad7]
+[shake 0.05 0 4 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.4 0.5]
+
+[messageOff]
+[se ad85]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[scene 20320]
+[wt 0.1]
+[se ad2]
+[seVolume ad2 0 0.4]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+[charaFace E 7]
+＠イシュタル
+よし、こんな[#高度:ところ]ね。[r]ざっと二百メートルは上昇したわ。
+[k]
+
+？1：え？
+
+？！
+
+[charaFace E 0]
+＠イシュタル
+後はアナタの運次第。[r]いちおう、ケツァル・コアトルめがけて手を離すけど、
+[k]
+
+＠イシュタル
+もし当たりそうになかったら手足を使って[r]なんとか軌道修正して。すたびらいざー！　って。
+[k]
+
+＠イシュタル
+たぶん、自分のおへそをケツァル・コアトルの鎖骨あたりに[r]ぶつける気持ちでいくと、いい線行くと思う。
+[k]
+
+[charaFace E 1]
+＠イシュタル
+じゃ、お一人様、ごあんな～～～い！[r]ナイスファイト！　イエーイ！
+[k]
+
+[se ad7]
+[charaFadeout E 0.1]
+[wt 0.2]
+[messageOff]
+[shake 0.05 0 3 0]
+[wt 0.2]
+[charaScale E 1.0]
+
+[effect bit_talk_41]
+[se ad75]
+
+？1：お[line 3]ぼ[line 3]え[line 3]て[line 3]ろ[line 3]！
+？2：スカイハ[line 2]イ！　プランチャ[line 3]！
+
+？！
+
+[seStop ad2 0.4]
+[wipeout upToDown 0.3 1]
+[effectStop bit_talk_41]
+[wait wipe]
+[shakeStop]
+[scene 34000]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.3]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+ホントに落ちてきたわね……！？[r]その高さ、[#受け手:わたし]がルチャマスターでも死ぬしかないわよ！？
+[k]
+
+＠ケツァル・コアトル
+それでも[line 3][r]それでも、この私にプランチャを見舞わせるというの！？
+[k]
+
+？1：受[line 2]け[line 2]止[line 2]め[line 2]て[line 2]！
+？2：うぉおおお、くらえ[line 6]！！！！
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_3 2.0]
+[cameraMove 2.0 0,-60 3.0]
+[wait camera]
+
+[cameraMove 0.4 0,0 3.0]
+[shake 0.05 10 10 0.2]
+[charaShake C 0.05 5 5 0.4]
+[charaFadeout C 0.2]
+[se ad34]
+[wt 0.4]
+[effect bit_talk_40]
+[shake 0.05 4 4 0.5]
+[wt 0.5]
+[cameraMove 0.1 10,0 3.0]
+[wait camera]
+[cameraMove 0.1 10,10 3.0]
+[wait camera]
+[se ad74]
+[shake 0.05 7 7 0.5]
+[wt 0.5]
+[cameraMove 0.1 20,10 3.0]
+[wait camera]
+[cameraMove 0.1 20,20 3.0]
+[wait camera]
+[se ad74]
+[shake 0.05 7 7 0.5]
+[wt 0.5]
+[cameraMove 0.1 30,20 3.0]
+[wait camera]
+[cameraMove 0.1 30,30 3.0]
+[wait camera]
+[se ad74]
+[shake 0.05 7 7 0.5]
+[wt 0.7]
+
+[wt 2.0]
+[effectStop bit_talk_40]
+
+[cameraMove 1.0 0,60 1.2]
+[wt 1.0]
+
+[scene 34000]
+
+？1：あいたたたたた…………
+？2：生きてる……？
+
+？！
+
+＠ケツァル・コアトル
+ハァイ、生きてマース………私が伝説級の[r]ルチャドーラだった事に感謝してくだサーイ……
+[k]
+
+＠ケツァル・コアトル
+空を飛ぶ技は、アレですよ？
+[k]
+
+＠ケツァル・コアトル
+受ける側と仕掛ける側、どっちも一流の腕がないと[r]人死にが出るのデース……
+[k]
+
+＠ケツァル・コアトル
+その点、[%1][&君:さん]は素人でしたから、[r]お姉さんメチャクチャ緊張しちゃいました……
+[k]
+
+＠ケツァル・コアトル
+でも、どうしてこんな無茶を？[r]私が避けたら、とか考えなかったデスか？
+[k]
+
+？1：受け止めてくれると信じてました
+？2：だって、人間大好きなんでしょ？
+
+？！
+
+＠ケツァル・コアトル
+～～～～～っっっ！
+[k]
+
+
+[se ad7]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.4 0,30]
+[wt 0.4]
+
+[se ad78]
+[shake 0.05 0 3 0.2]
+[cameraMove 0.4 0,-60 1.2]
+[wt 0.4]
+
+[bgm BGM_EVENT_2 0.1]
+＠ケツァル・コアトル
+あ[line 4]もう、[%1][&君:さん]大好き[line 3]！[r]私、女神同盟に入って良かった[line 4]！
+[k]
+
+[charaFace C 1]
+＠ケツァル・コアトル
+うん、そしてたった今、同盟から抜けるのデシタ！[r]だって[%1][&君:さん]と契約するからネ！
+[k]
+
+＠ケツァル・コアトル
+ありがとう。負けたわ、マスター！[r]こんなに私を打ちのめした人は初めて！
+[k]
+
+＠ケツァル・コアトル
+南米の女神、ケツァル・コアトル！[r]ここからはアナタのために、この力を振るっちゃうから！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[cameraMove 0.1 0,0 1.0]
+[wait camera]
+[wt 0.3]
+[soundStopAll]
+[end]

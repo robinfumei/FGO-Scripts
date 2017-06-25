@@ -1,0 +1,240 @@
+
+＄01-00-05-22-2-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 3005002 1 エリザベート]
+[charaSet B 2003001 1 ロビンフッド]
+[charaSet C 5023001 1 ブラヴァツキー]
+[charaSet D 5025001 1 エジソン]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFace D 4]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+[scene 20722]
+[fadein black 2]
+[wait fade]
+
+＠ブラヴァツキー
+……エジソン、ミスタ・エジソン。[r]もう分かっているでしょう？
+[k]
+
+＠エジソン
+……。
+[k]
+
+[charaFace C 2]
+＠ブラヴァツキー
+立ちなさい。[r]立って、戦いなさい。
+[k]
+
+[charaFace C 5]
+＠ブラヴァツキー
+あなたはアメリカ人じゃないの？[r]剣の代わりに斧と銃を手にした開拓者じゃないの？
+[k]
+
+＠ブラヴァツキー
+あなたは[#隠秘:オカルト]を信じながらも、[r]その力に縋ることを否定した。
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+そういうあなただからこそ、[r]私はあなたと親交を持ったのだし[line 2]。
+[k]
+
+＠ブラヴァツキー
+彼らはついていこうとした。未知を拒絶し、[r]未来を望むのがあなたの取り柄でしょ。
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+さあ、だから[line 2]。
+[k]
+
+＠エジソン
+……。[r]……。
+[k]
+
+
+[messageOff]
+[wipeout rightToLeft 0.5 1]
+[wait wipe]
+
+[charaFadeout C 0]
+[charaFadeout D 0]
+
+[scene 12000]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0 1]
+
+[wt 0.1]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+＠エリザベート
+あ、ヤバッ……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ロビンフッド
+おい、お嬢！？
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[messageOff]
+[se ad17]
+[fadeout white 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+[wt 1.0]
+[seStop ad17 1.5]
+
+[wt 0.5]
+
+[scene 10000]
+
+[fadein white 1.5]
+[wait fade]
+
+＠エリザベート
+……っ。[r]……？
+[k]
+
+＠エリザベート
+あれ？[r][#私:アタシ]無事？
+[k]
+
+[messageOff]
+
+
+[charaPut D 3]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.7 -200,0]
+[scene 12000 0.7]
+
+[se ad61]
+[seStop ad61 2.5]
+[charaEffect D bit_talk_lightning_02g]
+[wt 2.0]
+[charaEffectStop D]
+[wait charaEffect]
+
+[bgm BGM_EVENT_4 0.1]
+
+＠エジソン
+[line 2]立って、戦うことの何と難しいことか。
+[k]
+
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+そうね、難しいわよね。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠エジソン
+だが、幾多の絶望を踏み越えるからこその英雄。
+[k]
+
+[charaFace D 2]
+＠エジソン
+この[#小さなお嬢さん:リトル・レディ]にばかり[r]負担を強いるなど[line 2]アメリカ人の名折れである！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠エジソン
+ふはははは！　見せてくれよう真・発明王の勇姿！[r][#“Ｗ・Ｆ・Ｄ”:ワールド・フェイス・ドミネーション]！！
+[k]
+
+[messageOff]
+[fowardEffect bit_talk_29]
+[shake 0.05 0 4 0.5]
+[se ad34]
+[wait fowardEffect bit_talk_29]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 2]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠エリザベート
+……凄い！
+[k]
+
+[charaFace D 1]
+＠エジソン
+そうだろう、そうだろう。
+[k]
+
+[charaFace A 1]
+＠エリザベート
+それがあれば、[#私:アタシ]のライブがより一層輝きそう！[r]こう、キラキラで！　ピカピカで！　ドラドラで！
+[k]
+
+[charaFace D 4]
+＠エジソン
+……そういう使い方は想定していなかったな……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+エジソンは立ってくれた。
+[k]
+
+[charaFace C 4]
+＠ブラヴァツキー
+でも……たとえ五騎で戦ったとしても、[r]あと何分保つかしらね。
+[k]
+
+[charaFace C 5]
+＠ブラヴァツキー
+……もう一つ、何か……。[r]決定的な何かがあれば、いいんだけど……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.5]
+[wait fade]
+[soundStopAll]
+[end]

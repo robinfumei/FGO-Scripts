@@ -1,0 +1,409 @@
+
+
+＄01-00-08-12-1-0
+
+
+
+[soundStopAll]
+
+[bgm BGM_EVENT_42 0.1]
+
+[scene 36301]
+[charaSet A 5022001 1 三蔵]
+[charaSet B 1007002 1 ガウェイン]
+
+[charaSet C 9938600 1 魔神アモン]
+[charaSet D 4012002 1 オジマンディアス]
+[charaSet E 3020000 1 獅子面の騎士]
+[charaSet F 1012001 1 銀騎士]
+
+[charaSet G 9938600 1 魔神アモン2]
+[charaSet H 9938600 1 魔神アモン3]
+
+[charaDepth C 10]
+
+[fadein black 2.0]
+[wait fade]
+
+
+
+[effect bit_talk_kengekiall01]
+[wt 0.2]
+[se bac11]
+[wt 0.2]
+[se bac6]
+[wt 0.2]
+[se bac10]
+[wt 0.7]
+
+
+＠魔神アモン
+おお……おおぉおおおお……！
+[k]
+
+＠魔神アモン
+我らは覗覚星、七十二柱の魔神、[r]その思考と理論を司るもの！
+[k]
+
+＠魔神アモン
+いかな英霊が相手であろうと、[r]我らの知性を焼き尽くす事能わず……！
+[k]
+
+＠魔神アモン
+蘇れ、顕れよ、新生せよ！[r]我ら九柱無くして、大偉業の達成はない……！
+[k]
+
+
+[messageOff]
+[charaTalk off]
+
+
+[wt 0.4]
+[se ad63]
+[flashin loop 0.2 0.2 FFFFFFFF FFFFFF00]
+
+[charaFadein G 0.4 512,0]
+[wt 0.4]
+[charaFadein H 0.4 -512,0]
+[wt 0.5]
+
+[charaFadein C 0.4 1]
+
+[wt 0.4]
+[flashOff]
+
+[wt 0.8]
+[charaFadeout C 0.4]
+[charaFadeout G 0.4]
+[charaFadeout H 0.4]
+[wt 0.3]
+
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+うわっ、一気に増えたぁ！？[r]悟空の分身じゃあるまいし、いくら何でも多すぎない！？
+[k]
+
+[charaFadeout A 0.1]
+[charaSet A 6002001 1 呪腕のハサン]
+
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠呪腕のハサン
+く、押し返される……！[r]このような大群、我らの力だけでは……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+
+＠E：？？？
+……いや。[r]貴殿らは[#佳:よ]く戦った。それは魔神どもの最後の断末魔。
+[k]
+
+＠E：？？？
+意志を[#伴:ともな]わぬ暴力なぞ、恐れるに値しない。[r]そうであろう。遠き、円卓の騎士たちよ。
+[k]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+
+＠ガウェイン
+[line 3]貴方、は[line 3]
+[k]
+
+[messageOff]
+
+[charaFadeout B 0.1]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.7 1]
+[wt 0.7]
+
+＠獅子面の騎士
+……[#縁:えにし]は[#光芒:こうぼう]に散り、因果は立ち消えた。[r]されど我が槍は、貴殿らの戦いを忘却する事はない。
+[k]
+
+＠獅子面の騎士
+最後の一押しを任されよう、[%1]。[r]我が名は嵐の王。ロンゴミニアドを預かる者。
+[k]
+
+＠獅子面の騎士
+最果てより[#宙:ソラ]の外に星の[#錨:いかり]を打ちに来た。[r][line 3]供をせよ、[#菫:スミレ]色の銀騎士よ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 11]
+[charaFadein F 0.1 1]
+
+＠銀騎士
+[line 3]は。[r][#剣を摂れ:スイッチオン]、[#白銀の:アガート][line 3]
+[k]
+
+[messageOff]
+
+[flashin loop 4.0 1.0 F0E68C F0E68C]
+
+[charaFadeout F 0.1]
+
+[voice NP_101200_1]
+[voice NP_302000_1]
+
+[wt 4.5]
+[flashin loop 0.1 0.2 F5F5F5 FFFFFF00]
+[voice NP_302000_4]
+
+[charaTalk off]
+[charaFadein C 0.4 1]
+[charaFadein G 0.4 -512,0]
+[charaFadein H 0.4 512,0]
+
+[shake 0.05 7 7 0]
+[charaSpecialEffect C enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect C]
+[charaFadeout C 0.1]
+[shakeStop]
+[wt 0.3]
+
+[shake 0.05 7 7 0]
+[charaSpecialEffect G enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect G]
+[charaFadeout G 0.1]
+[shakeStop]
+[wt 0.3]
+
+[shake 0.05 7 7 0]
+[charaSpecialEffect H enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect H]
+[charaFadeout H 0.1]
+[shakeStop]
+[wt 0.3]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[shakeStop]
+[charaTalk on]
+
+
+＠魔神アモン
+末端素子の消滅、を、確認[line 3][r]玉座への接続切断[line 3]新生復帰、不可能[line 3]
+[k]
+
+＠魔神アモン
+アガレス。ウァサゴ。ガミジン。マルバス[line 3]復元。[r]マレファル。アロケル。オロバス。[line 3]融合復元。
+[k]
+
+[charaSet E 98003000 1 Dr.ロマン]
+
+＠魔神アモン
+覗覚星アモン、再起動まで、あと二分[line 3]。[r]敵サーヴァントの駆逐に、専念[line 3]
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+[scene 36100]
+[wipein rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+
+
+[communicationChara 98003003 1 5 0 2]
+
+＠Dr.ロマン
+よし、この拠点の機能は二割に低下した！[r]玉座への魔力提供も途絶えたぞ！
+[k]
+
+[charaSet A 5022001 1 三蔵]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠三蔵
+へっへーん！　所詮は怪物の集合体ね！
+[k]
+
+＠三蔵
+げこげこ鳴くだけの井底の[#蛙:かわず]、[r][#夜郎自大:やろうじだい]に[#馬耳東風:ばじとうふう]！
+[k]
+
+[charaFace A 1]
+
+[charaSet H 6003001 1 百貌のハサン]
+
+＠三蔵
+ここまでくればあたしたちだけで十分に抑えられるわ！[r][%1]、先に行って！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠百貌のハサン
+な、まだ我々に戦えと……！？[r]もう無理、これはもう無理だろう！？　頭が破裂する！
+[k]
+
+[charaSet G 6002001 1 呪腕のハサン]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠呪腕のハサン
+はっはっは。[r]百貌の泣き言は聞き流してくださって結構。
+[k]
+
+[charaFace G 0]
+
+＠呪腕のハサン
+三蔵殿の言う通り、[r]先を急がれよ[%1]殿。
+[k]
+
+＠呪腕のハサン
+我らは力で劣るサーヴァントなれど、生き残る事、[r]敵を惑わす事には海千山千のくせ者なり。
+[k]
+
+[charaSet H 6002001 1 呪腕のハサン2]
+
+＠呪腕のハサン
+残る数分、なんとしてもあの怪物どもを[r]抑え込んで見せましょう。ですので、どうか。
+[k]
+
+
+[charaDepth G 1]
+[charaDepth H 0]
+
+？1：[line 3]ありがとう！　頼んだ！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠オジマンディアス
+無論、任せるがよい！[r]円卓どもにいいところは持っていかせぬわ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？2：ハサンさんは弱い英霊なんかじゃないですよ
+
+[messageOff]
+[charaTalk off]
+[charaFadein H 0 1]
+[charaChange G 6002001 2 fade 0.6]
+[wt 0.6]
+
+＠呪腕のハサン
+[line 3]それはそれは。[r]貴方さまにそう言われると、不思議とそう信じられますなぁ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+？！
+
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、マシュ、急いで！[r]時間がないぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaPut D 1]
+
+[charaSet G 8001002 1 マシュ]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マシュ
+はい！　マスター、行きましょう！[r]次の拠点まで、あと少しです！
+[k]
+
+
+[charaSet A 5022001 1 三蔵]
+
+[se ad73]
+[charaEffect D bit_talk_41]
+
+
+
+
+[charaFadeout G 0.4]
+[wt 0.3]
+[messageOff]
+[charaPut D -1200,-1200]
+
+[charaEffectStop D bit_talk_41]
+[seStop ad73 0.3]
+
+[wt 0.6]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠三蔵
+ばいばーい！　しっかりね、[%1]！[r]修行の成果、確かに見届けたわ[line 3]！
+[k]
+
+＠三蔵
+あたしもすぐに追いつくからー！[r]それまで、御仏の加護ありませ[line 3]い！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_42 2.0]
+[wait fade]
+[soundStopAll]
+[end]

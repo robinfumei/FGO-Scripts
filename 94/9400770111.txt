@@ -1,0 +1,188 @@
+
+
+＄94-00-77-01-1-1
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7022001 1 ？？？]
+[charaSet C 98002000 1 フォウ]
+
+
+[bgm BGM_EVENT_2 0.1]
+
+[scene 31800]
+
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+
+＠マシュ
+ふぅ、戦闘終了です。[r]一通り掃討しましたので、大丈夫でしょう。
+[k]
+
+
+[charaFace A 0]
+＠マシュ
+ひとまず街に出てみませんか、マスター。[r]サーヴァントの妨害がある可能性は高いですが……。
+[k]
+
+
+[messageOff]
+[wipeout downToUp 0.4 1]
+[wait wipe]
+[charaFadeout A 0]
+[scene 20322]
+[wipein upToDown 0.4 1]
+[wait wipe]
+[wt 0.4]
+？1：報酬は特等席のライブかぁ……
+
+[charaFace A 12]
+＠マシュ
+マスター、挫けないで下さい……。
+[k]
+
+[charaFace A 1]
+＠マシュ
+大丈夫です、わたしも一緒に付き合います！[r]マスターとサーヴァントは、一蓮托生です！
+[k]
+
+？2：くじけそう
+
+[charaFace A 6]
+＠マシュ
+ど、どんな状況でも前向きだったマスターが……！
+[k]
+
+[charaFace A 13]
+＠マシュ
+大丈夫です、帰ったら……そう、帰ったら[r]アマデウスさんに音楽でも聴かせてもらいませんか？
+[k]
+
+＠マシュ
+こう、すごく癒やされる感じの曲を[r]リクエストしましょう……。
+[k]
+
+？！
+
+[wt 0.2]
+[messageOff]
+[wipeout upToDown 0.4 1]
+[wait wipe]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0 1]
+[scene 31800]
+[wipein downToUp 0.4 1]
+[wait wipe]
+[wt 0.4]
+[charaFace A 13]
+＠マシュ
+どうにかミッション続行のモチベーションを[r]取り戻してくれましたね。良かった……。
+[k]
+
+[charaFace A 1]
+＠マシュ
+さあ、それでは街に向けて進みましょう！
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+[messageOff]
+[charaFadeout A 0.4]
+[wt 1.2]
+[charaFilter B silhouette 00000080]
+
+[charaFadein B 0.4 6]
+[wt 0.7]
+
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[wt 0.1]
+[charaShakeStop B]
+[charaFadeout B 0.1]
+[scene 31800]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[wt 0.2]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ……？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+フォウさん、どうしました。[r]……まさか……。
+[k]
+
+？1：決して後ろを振り返ってはいけない
+
+[charaFace A 7]
+＠マシュ
+は、はい！[r]見なければ、まだ不確定ですからね……。
+[k]
+
+？2：走れ[line 3]！！
+
+[charaFace A 6]
+＠マシュ
+い、いきなり全力ダッシュですか！？[r]待って下さい、マスター！　マスター！
+[k]
+
+？！
+[bgmStop BGM_EVENT_5 0.4]
+
+[se ad59]
+[seVolume ad59 0 0.5]
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 31800]
+[seStop ad59 1.0]
+[wt 1.0]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[wt 0.4]
+
+[charaFilter B silhouette 00000080]
+[charaFadein B 0.4 1]
+
+＠？？？
+は[charaShake B 0.05 5 5 0.7]くちょ！
+[k]
+
+＠？？？
+……ク。こっそり[#霊死埠頭:れ　い　し　ふ　と]は成功したようだな。[r]ふふふ……恐れおののくがいい。
+[k]
+
+[charaShake B 0.05 5 5 0.7]
+＠？？？
+へちょ！
+[k]
+
+[charaShake B 0.05 1 1 0]
+＠？？？
+……しかし冷える……西洋の山がこんなに寒いとは……[r]……困ったな……やや薄着過ぎか、[#吾:われ]……？
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[charaShakeStop B]
+[soundStopAll]
+[end]
+

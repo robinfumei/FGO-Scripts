@@ -1,0 +1,64 @@
+＄01-00-03-13-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 7001001 1 ヘラクレス]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaTalk F]
+[charaFace B 0]
+[charaFadein B 0 2]
+[charaFace F 5]
+[charaFadein F 0 0]
+[fadein black 1]
+[wait fade]
+＠ダビデ
+来たな。[r]エウリュアレ、[%1]、急げ！
+[k]
+
+[charaFace B 2]
+＠エウリュアレ
+もうちょっとの辛抱だから、頑張りなさいマスター！
+[k]
+
+？1：メチャクチャ走ってる！
+
+？2：メチャクチャ全力だ！
+
+？！
+
+[voice 700100_0_B030]
+[wait voice 700100_0_B030]
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[wt 0.5]
+[charaFadeout C 0]
+[charaTalk E]
+[charaFadein C 0.1 0]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠アタランテ
+到着したぞ、準備しろ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+追いつきました。[r]行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

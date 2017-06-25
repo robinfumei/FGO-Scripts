@@ -1,0 +1,175 @@
+＄01-00-04-05-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10916]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5004002 1 ナーサリーライム]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+あらかた潰したな！[r]残りはもういい、走るぞマシュ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！
+[k]
+
+[se ad59]
+[shake 0.05 0 3 0]
+[wt 0.5]
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[wt 1.0]
+[seStop ad59]
+[shakeStop]
+[scene 10916 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+しかし、すごい戦いっぷりだね、カレは。[r]流石は叛逆の騎士といったところだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 1]
+[charaFace A 1]
+[charaFadein A 0.4 2]
+＠マシュ
+はい。そうですね、[r]伝説に違わない戦闘能力であると思います。
+[k]
+
+[charaFace A 7]
+＠マシュ
+空を[#疾:はし]る雷電のように迅速に、正確に、[r]その剣先にはおよそ迷いというものがありません。
+[k]
+
+？1：叛逆の騎士？
+
+？2：モードレッドのこと？
+
+？！
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+あ、そう言えば[line 3][r]ちゃんと[%1][&君:ちゃん]には言ってなかったね。
+[k]
+
+＠Dr.ロマン
+叛逆の騎士たるモードレッド、[r]ここではセイバーのクラスで現界している英霊だが。
+[k]
+
+＠Dr.ロマン
+勿論この時代の人間じゃない。[r]本来は、五世紀から六世紀に於けるアーサー王伝説、
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+その終焉を飾った人物なんだ。[r]文字通り、アーサー王に叛逆してね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ただの叛逆、ではありません。外敵を初めとして[r]存在していた反アーサー勢力のすべてを纏め上げて、
+[k]
+
+＠マシュ
+言わば叛逆の王として立った人物です。[r]平時であれば、王になり得たかも知れません。
+[k]
+
+[charaFace A 13]
+＠マシュ
+多くの武勇の伝説を持つ人物でもあります。[r]元は、円卓の騎士であり[line 3]
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+アーサー王の[#息子]だったとも言われているね。[r]ただ、王には子と認められなかったという話もある。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+だからこそ、反旗を翻したとも。[r]何故、モードレッドはアーサー王に逆らったのか？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+本当のところは彼[line 3][r]じゃない、彼女本人にしかわからないことだ。
+[k]
+
+？1：叛逆は成功した？
+
+？2：叛逆は失敗した？
+
+？！
+
+[charaFace A 0]
+＠マシュ
+……はい。騎士モードレッドは、[r]カムランの丘の戦いで命を落としました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+事実上の相打ちです。[r]魔剣クラレントを以て彼女はアーサー王と戦って、
+[k]
+
+＠マシュ
+アーサー王は聖なる槍で戦い、[r]彼女を貫きました。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そして、アーサー王自身も致命傷を負って[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+なーにをごちゃごちゃ喋ってやがる！[r]さっさと先を急ぐぞ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+あっ、は、はい！
+[k]
+
+？1：急ごう！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……了解です、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,948 @@
+
+
+＄94-00-77-04-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 5012001 1 ニトクリス]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 1010001 1 エリザベート]
+[charaSet F 98002000 1 フォウ]
+
+
+[scene 20805]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+＠エリザベート
+……ねえ、まだー？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+はいはい、もうちょいとお待ちなさい。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ロビンさん、ロビンさん。
+[k]
+
+[charaFace A 12]
+＠マシュ
+その……エリザベートさんに似ているという、[r]魔術師さんはどのような方なのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+だから、そこのお嬢と似たもの同士だよ。[r]多少、インテリジェンスに振ってるけど。
+[k]
+
+[charaFace D 4]
+＠ロビンフッド
+頭はいいクセに視野が狭い。[r]偉そう、横暴、割と生真面目、だが瞬間湯沸かし器。
+[k]
+
+＠ロビンフッド
+早とちりで暴走したあげく、[r]目も当てられない惨劇を巻き起こす。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace F 0]
+[charaFace A 12]
+[charaFadein F 0.1 0]
+[charaFadein A 0.1 2]
+＠マシュ
+あー……。
+[k]
+
+＠フォウ
+フォー……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠エリザベート
+何よ。[r]全然[#私:アタシ]と似てないじゃないの。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace D 4]
+[charaFace A 4]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+＠二人
+そっくりです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠エリザベート
+あぐぅ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+おまけに自称天空の神で冥界の神で、[r]ファラオで女王様だぞ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaTalk E]
+[charaFace A 12]
+[charaFace E 2]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+＠エリザベート
+何それ、盛りすぎじゃない？[r]属性過多なのは、アイドルとして低性能って証拠よ。
+[k]
+
+＠マシュ
+貴族、吸血鬼、[#連続殺人鬼:シリアルキラー]、悪魔羽、竜の角、[r]アイドル、竜の娘……盛りすぎでは。
+[k]
+
+[charaFace E 5]
+＠エリザベート
+[#私:アタシ]の属性、[r]ちょっとネガティブなの多くないかしら！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+おや、ちょっと待った。[r]何か、強烈な反応が[line 3]。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+
+[bgmStop BGM_EVENT_7 0.1]
+
+
+
+
+[wt 0.4]
+[messageOff]
+
+[wipeout rectangleStripDownToUp 0.3 1.0]
+[wait wipe]
+
+[scene 20322]
+[wt 1.5]
+
+[wipein rectangleStripUpToDown 0.3 1.0]
+[wait wipe]
+[wt 1.0]
+
+[se bas1]
+[charaEffect C bit_talk_41]
+[shake 0.05 0 4 1.0]
+
+[charaScale C 2.2]
+[charaTalk C]
+[charaFace C 2]
+[charaPut C 0,100]
+[charaFadeTime C 0.7 0.5]
+[wt 0.7]
+＠C：？？？
+こんな夜更けに約束もなく何事ですか！[r]立ち去るがいい、不敬者ども！
+[k]
+
+[wt 0.4]
+[messageOff]
+
+[messageOff]
+[charaFadeout C 0.5]
+[scene 20805 0.5]
+
+
+[charaEffectStop C bit_talk_41]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[scene 20805]
+
+[charaTalk F]
+[charaFace A 2]
+[charaFace F 0]
+[charaFadein A 0.1 2]
+[charaFadein F 0.1 0]
+[charaShake F 0.05 2 2 0.5]
+＠フォウ
+フォーウ！
+[k]
+
+[charaShake A 0.05 2 2 0.5]
+＠マシュ
+い、いきなり！？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[charaShake E 0.05 3 3 0.7]
+＠エリザベート
+キャ[line 6]！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+落ち着け、幻影だ幻影。[r]イリュージョン。
+[k]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaFace D 0]
+＠ロビンフッド
+おーい、女王さんよ。
+[k]
+
+
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠C：？？？
+[#皐月の王:メイキング]。[r]このような輩を連れてくるとは、血迷いましたか。
+[k]
+
+[charaFace C 5]
+＠C：？？？
+お互いに領分を守ろうというのが、[r]我らの盟約だったはず。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wait scene]
+
+
+＠ロビンフッド
+まず、その呼び方恥ずいから止めてくれない？
+[k]
+
+＠ロビンフッド
+で、何なのオタク。[r]いきなり幻影で警告とか。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠C：？？？
+当然でしょう。
+[k]
+
+＠C：？？？
+貴方とそこの大盾の少女ならいざ知らず、[r]悪辣な雰囲気が臭う、そこの女。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+ほや、[#私:アタシ]？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠C：？？？
+そうです。[r]名を名乗りなさい、不敬の輩。
+[k]
+
+[charaFace C 7]
+＠C：？？？
+貴女は……こう、何か、こう。[wt 0.3][r]心底で[charaFace C 9]微妙な共感を覚えるのが忌々しい！
+[k]
+
+[charaFace C 2]
+＠C：？？？
+突然ですが不倶戴天の敵と認識致しましょう！[r]いいですね！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+いいわよ！
+[k]
+
+[charaFace E 5]
+＠エリザベート
+こっちだって、何かこう、アンタと話してると[r]頭痛が痛くてイライラしてくるわ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠C：？？？
+なるほど、お互い意見は一致したようです。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+そうね。[r]その点は良かったわ。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠C：？？？
+……。[r]……。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+
+[charaTalk off]
+
+
+[charaScale C 1.5]
+
+
+[charaFace C 5]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+
+[charaDepth E 2]
+[charaDepth C 1]
+
+[charaPut C -250,100]
+[charaFadeTime C 0.1 0.5]
+[wt 0.1]
+
+[wait scene]
+
+＠二人
+[f large][messageShake 0.05 5 5 0.7]名乗りなさい！！
+[k]
+
+[charaTalk on]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wait scene]
+
+＠マシュ
+この二人が会話していると、[r]一生終わらない気がします、マスター！
+[k]
+
+[charaPut C 0,100]
+
+？1：二人とも自己紹介！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠C：？？？
+え、あ。[r]そ、そうですね。
+[k]
+
+[charaFace C 0]
+
+？2：[%1]と言います！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠エリザベート
+え、名前？[r]あ、そうね。名前、うん、名前ね。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+？！
+
+＠ニトクリス
+我が名はニトクリス。[r]彼方の地にて、ファラオを務めし者。
+[k]
+
+＠ニトクリス
+天空の神ホルスの化身にして、[r]冥界の神。
+[k]
+
+＠ニトクリス
+そして今は、深き洞窟にて[r]死霊と戯れつつ、魔術を修める者[line 3]
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+[#私:アタシ]の名はエリザベート・バートリー。[r]見ての通り、アイドルよ。
+[k]
+
+[charaFace E 1]
+＠エリザベート
+得意なジャンルはアイドルポップかしら。[r]竜の血を引いているから、ドラゴンブレスもお手の物。
+[k]
+
+[charaFace E 0]
+＠エリザベート
+後は由緒正しき貴族とか？[r]この羽根と角？　キュートでしょ、他に何かある？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠ニトクリス
+なるほど。[r]これでお互いのことがよく分かりました。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+そうね、[#私:アタシ]もそう思うわ。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+
+[charaTalk off]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 -250,100]
+[charaFadeTime C 0 0.5]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+
+[wait scene]
+
+＠二人
+[messageShake 0.05 5 5 0.7]
+気が合わないわね！！
+[k]
+
+
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wait scene]
+
+＠ロビンフッド
+いや、滅茶苦茶気が合ってない？[r]オタクら……。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠ニトクリス
+どこがですか！[r]典型的な西洋貴族の甘やかされガール！
+[k]
+
+[charaFace C 5]
+＠ニトクリス
+私がこの世でもっとも忌み嫌うタイプの女性です！[r]もっと苦労を苦労らしく背負いなさい！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+ソ、ソッチだって見るからに女王様じゃない！[r]女王様スタイルとか虫唾が走るわ！　特に年増の！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+（マスター、カーミラさんのことでしょうかコレ）
+[k]
+
+？1：多分……
+
+[charaFace A 8]
+＠マシュ
+（悲しいことですね……）
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？2：否定し合っているからね
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+アイツも大概ややこしい人生送ってるな……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？！
+
+[bgmStop BGM_EVENT_7 0.5]
+[wt 0.7]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠エリザベート
+我慢ならないわ！　決闘よ！[r]アンタのひねたツラに聖剣叩き込んであげるわ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠ニトクリス
+上等です！　身の程を知りなさい80年代スタイルが！
+[k]
+
+[charaFace C 5]
+＠ニトクリス
+あまりにも古くさい、具体的にどこがと言われると[r]困りますが、あまりにも古くさいアーマーです！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+何よ、レトロフューチャーも知らないの！？[r]このスットコドッコイ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠ニトクリス
+レトロなのはエジプトだけで十分です！[r]このズンドコヘンペイムシ！！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[scene 20805 0.1]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+[wait scene]
+
+＠エリザベート
+[messageShake 0.05 5 5 0.7]
+キ[line 3]ッ！！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 20322 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0,100]
+[charaFadeTime C 0 0.5]
+[wait scene]
+
+＠ニトクリス
+[messageShake 0.05 5 5 0.7]
+ニャ[line 3]スッ！！
+[k]
+
+
+
+
+
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk on]
+
+[wt 0.1]
+
+[scene 20805 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein F 0.1 0]
+[charaFadein A 0.1 2]
+
+[wait scene]
+
+＠マシュ
+マスター、訳が分かりません。[r]フォウさんの鳴き声の方が、まだ分かりやすいです。
+[k]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠エリザベート
+何モタモタしてるのよ、行くわよ[&子イヌ:子ジカ]！！[r]勇者エリザベートが、悪の魔術師を倒しに行くわ！！
+[k]
+
+[charaFace E 2]
+＠エリザベート
+ついてきなさ[line 3]い！！
+[k]
+
+[se ad7]
+[shake 0.05 0 5 0.3]
+[wt 0.4]
+[shake 0.05 2 4 0]
+[se ad59]
+
+[charaMove E -1024,0 0.4]
+[wait charaMove E]
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+
+
+[wait wipe]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[shakeStop]
+[seStop ad59 1.5]
+[wt 1.5]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ちょ！？[r]マスターを勝手に連れて行かないで下さーい！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+ええい、くそ。[r]仕方ない、後を追うぞ！
+[k]
+
+[se ad59]
+
+[charaMove D -1024,0 0.7]
+[wait charaMove D]
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+
+[wait wipe]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[seStop ad59 1.5]
+[wt 1.5]
+
+[scene 20115]
+[charaScale C 1.0]
+[charaPut C 1]
+
+[wt 0.1]
+[wipein rectangleStripLeftToRight 0.7 1.0]
+
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadeTime C 0.1 0.5]
+
+＠ニトクリス
+それでは、まずは私の可愛い可愛い死霊たちと[r]戦ってもらいましょう！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1024,0]
+[charaMove E 1 0.3]
+[wait charaMove E]
+＠エリザベート
+上等、行くわよ[&子イヌ:子ジカ]！
+[k]
+
+？1：分かったから手を放して[line 2]！
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[charaFadeout E 0.4]
+
+[soundStopAll]
+[end]

@@ -1,0 +1,455 @@
+＄01-00-06-08-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 1012001 1 ベディヴィエール]
+[charaSet F 1020000 1 ランスロット]
+[charaSet G 98084000 1 粛正騎士]
+
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+粛正騎士、迎撃しました！[r]難民の皆さんも荷を捨てて山に走っています！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+[line 3]駄目だ、第二陣が来る！[r]この速さ[line 3]貴公か、ランスロット……！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.5 1]
+[bgmStop BGM_EVENT_3 0.5]
+[wait wipe]
+[charaFadeout E 0.1]
+[wt 1.0]
+[wipein leftToRight 0.5 1]
+[seLoop ad84]
+[wait wipe]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.4 1]
+[wt 1.5]
+[seStop ad84 4.0]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[charaFace F 6]
+[charaFadein F 0.1 2]
+＠粛正騎士
+ランスロット卿。[r]敵影、捕捉しました。第三陣の到着を待ちますか？
+[k]
+
+[charaFace F 0]
+＠ランスロット
+いや、このまま突撃する。
+[k]
+
+＠ランスロット
+第三陣は左右に分け、[r]我々が交戦している間に難民たちを取り囲め。
+[k]
+
+＠ランスロット
+命令は叛逆者の[#拿捕:だほ]だ。[r]抵抗しなければ難民たちと矛を交える必要はない。
+[k]
+
+[charaFace F 5]
+＠ランスロット
+よいな。これは王命ではなく、アグラヴェインからの[r]指令だ。手間をかける必要はない。
+[k]
+
+＠ランスロット
+補佐官殿はこの任務が終わらぬうちは[r]我らに聖都への入場許可は出せない、と仰せだ。
+[k]
+
+[charaFace F 4]
+＠ランスロット
+まったく[line 3]
+[k]
+
+＠ランスロット
+つまらぬ些事、つまらぬ[#謀:はかりごと]だよ。[r]早々に片付けて聖都に帰投する。
+[k]
+
+＠粛正騎士
+了解致しました。[r]我らが旗に、騎士王の誇りあれ！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[bgmStop BGM_EVENT_5 0.5]
+[wait wipe]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+[scene 28400]
+
+[wt 1.0]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+[bgm BGM_EVENT_3 0.1]
+
+＠マシュ
+敵本隊、さらに加速！　その数四十騎！[r]追いつかれます、マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠ベディヴィエール
+っ……！[r]かくなる上は、私が……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+＠ダ・ヴィンチ
+いやあ、あの数はベディヴィエール卿じゃ無理でしょ。
+[k]
+
+[bgmStop BGM_EVENT_3 2.5]
+
+＠ダ・ヴィンチ
+あー、残念。[r]円卓の騎士がひとりだけなら任せたんだけどなー。
+[k]
+
+？1：ダ・ヴィンチちゃん！？
+？2：なにバギーに乗ってるの！？
+
+？！
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+うん？　これかい？
+[k]
+
+＠ダ・ヴィンチ
+心臓部に私のマナ収束機構を取り付けた改良型[r]オーニソプター、その名もスピンクスメギド号さ！
+[k]
+
+＠ダ・ヴィンチ
+要するに走って、敵陣の中で爆発する自走爆弾。[r]唯一の欠点はオートパイロット機能がないこと。
+[k]
+
+＠ダ・ヴィンチ
+これであの連中は一掃するから、[r][%1][&君:ちゃん]たちは難民たちと行きなさい。
+[k]
+
+＠ダ・ヴィンチ
+ここは私の本当の出番、というか、[r]これが私の最後の出番、というワケなのだね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]あの。[r]それは、どういう[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 1]
+＠Dr.ロマン
+いやだなあダ・ヴィンチちゃん。それじゃあまるで、[r]キミがそいつを操縦するように聞こえるぞ？
+[k]
+
+＠Dr.ロマン
+ホントはあるんだろ、オートパイロット？[r]だって爆弾作るより楽だろ、そっちの方が？
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+いやあ。爆弾っていっても、要は私の杖と、[r]私の魔術回路を利用した自爆だからね。
+[k]
+
+＠ダ・ヴィンチ
+この戦法、私が乗る事が前提なんだ。[r]だからオートパイロットを作る必要はなかったんだよ。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+馬鹿かキミは！？[r]そんな戦法、そもそも却下だ！
+[k]
+
+[charaFace D 3]
+＠ダ・ヴィンチ
+まあまあ。聖都に辿り着く前、赤毛の騎士を見てから[r]予見していた事だし、これはもうしょうがない。
+[k]
+
+＠ダ・ヴィンチ
+あの連中に捕まったら、[r]これぐらいしか逃げる手段はないってさ。
+[k]
+
+＠ダ・ヴィンチ
+だからまあ、私としては別段、どうという事はない。[r]ついに自分の番がきたか、ぐらい。
+[k]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+そうだろ、ロマニ？　サーヴァントなんて、[r]ほんとは一日や二日で別れる、使い捨ての消耗品さ。
+[k]
+
+＠ダ・ヴィンチ
+私はちょっと、それが他より長かっただけだ。[r]というか、長すぎたかもだ。
+[k]
+
+[charaFace D 3]
+＠ダ・ヴィンチ
+後はキミが上手くやりたまえ。[r]チキンのクセに、ここまで頑張ってきたんだろ？
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+そんな、ダ・ヴィンチさん……！[r]ドクター、止めてください！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+………………。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ま、ダ・ヴィンチちゃんのする事だし。[r]どうせ止められないよ。ひとりで行ってくれば？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 3]
+＠マシュ
+ドクター！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[se bac109]
+[wt 0.2]
+[se ad14]
+[wt 1.0]
+[seStop ad14 4.0]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+あっはっは！　じゃあアクセル全開でつっこむか！[r]敵陣ぜんぶ爆発に巻き込むぞう！
+[k]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+チヴェディアーモ、ドクター・ロマン！[r]そして[%1][&君:ちゃん]、マシュ！
+[k]
+
+＠ダ・ヴィンチ
+大丈夫、天才は不滅だ！[r]生きていたら必ず会おう！
+[k]
+
+[bgmStop BGM_EVENT_11 2.0]
+[messageOff]
+[charaFadeout D 0.4]
+[se ad140]
+[wt 1.0]
+[seStop ad140 5.0]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+オーニソプター、敵陣に突撃[line 3][r]接触します！
+[k]
+
+[messageOff]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[se ad34]
+[se bac61]
+[wt 0.1]
+[fadeout white 0.25]
+[wait fade]
+
+[se bac54]
+[scene 28400]
+[wt 2.0]
+[fadein white 1.0]
+[wait fade]
+
+[charaFace A 19]
+＠マシュ
+マスター！　ダ・ヴィンチさんが[line 3][r]ダ・ヴィンチさんが！
+[k]
+
+？1：…………っ
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[bgm BGM_EVENT_3 0.1]
+
+？2：助けに戻ろう！
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+いけません……！　まだ敵の第三陣が健在です！[r]左右に分けていたとは……！
+[k]
+
+？！
+
+＠ベディヴィエール
+彼の犠牲を無駄にはしないで……！[r]後続の第三陣が来る前に山岳地帯に逃げ込みます！
+[k]
+
+＠ベディヴィエール
+しっかりして、[%1]！[r]あのサーヴァントは、貴方を信じて後を託したのです！
+[k]
+
+？1：……山に走[&るぞ:ります]！
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。[r]必ず戻ってきます、ダ・ヴィンチさん……！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[scene 28400]
+[wt 2.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ランスロット
+自らの命を引き替えにしての足止めとは……。[r]愚かだが、見事な覚悟だった。
+[k]
+
+＠ランスロット
+これほどの決意を持つ者が[r]ただの叛逆者のはずがあるまい。
+[k]
+
+[charaFace F 6]
+＠ランスロット
+……フン。実のところ、あのアグラヴェインを[r]焦らせる程の相手だった、という事か。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace F 6]
+[charaFadein F 0.1 2]
+＠粛正騎士
+ランスロット卿。こちらの負傷者は六名ほどですが、[r]馬をすべてやられました。
+[k]
+
+＠粛正騎士
+ここからの追撃は徒歩となりますが……
+[k]
+
+[charaFace F 0]
+＠ランスロット
+いや。私はともかく、おまえたちでは追いつけまい。[r]重装備の欠点だな。山越えには馬がどうしても必要だ。
+[k]
+
+＠ランスロット
+西の砦に伝令を送り、馬の補充をする。[r]山岳地帯に詳しい現地人の手配も忘れないように。
+[k]
+
+[charaFace F 5]
+＠ランスロット
+……聖都に戻るのは一週間後だな。[r]ここからは山狩りになるぞ。
+[k]
+
+＠粛正騎士
+はッ[line 3]！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,321 @@
+＄01-00-04-13-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[scene 10909 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5003001 1 玉藻の前]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠坂田金時
+[line 3]吹き飛べ、必殺！
+[k]
+
+[se ad61]
+[seStop ad61 3.0]
+[backEffect bit_talk_lightning_02g]
+[wt 1]
+[charaEffect D bit_talk_36]
+[se ad62]
+[seStop ad62 3.0]
+[wt 0.5]
+[charaFace D 2]
+＠坂田金時
+[fontSize x-large][#黄金衝撃:ゴールデンスパーク]！[fontSize -]
+[k]
+
+[messageOff]
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[seStop ad62 0]
+[se ad63]
+[wait flash]
+[fadeout white 0.5]
+[charaEffectStop D bit_talk_36]
+[backEffectStop bit_talk_lightning_02g]
+[wait effect]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 1]
+[bgmStop BGM_EVENT_4 2.0]
+[wt 2]
+[scene 10909 0]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace E 0]
+[charaFadein E 0 0]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+……地上に出ました、先輩！
+[k]
+
+[charaFace E 4]
+＠モードレッド
+ん？　誰かいるな。[r]男と女だ。死んでないから、サーヴァントか？
+[k]
+
+＠Dr.ロマン
+どうやら魔霧から現界したサーヴァントのようだ。[r]反応は二体。襲って来る気配はないみたいだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠坂田金時
+おう。アンタらか。[r]……奴が言ってた勇者だ何だってのは。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+勇者かどうかはどうでもいい。[r]それよりおまえ、奴と一戦交えたみたいだな。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠坂田金時
+ああ。……取りあえず、あれだ。[r]厄介な霧は[#全部]引き剥がしておいたぜ。
+[k]
+
+[charaFace D 0]
+＠坂田金時
+後は後任にまる投げっつーか、美味しいところは[r]譲るっつーか……オレは……休む。ふう……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFadein D 0.1 0]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠玉藻の前
+そりゃあ、あれだけ魔力を吸収されながら戦っていたら[r]疲労困憊、[#天人五衰:てんにんごすい]は当たり前です。
+[k]
+
+[charaFace F 0]
+＠玉藻の前
+ですがお見事と耳を掻きましょう。[r]流石の頼光四天王、胆力まさに天を衝く、でございました。
+[k]
+
+[charaFace D 3]
+＠坂田金時
+そっちも、援護感謝な！[r]ふー。
+[k]
+
+[charaFace F 5]
+＠玉藻の前
+……そう言う割に今、チラッと目逸らしませんでした？[r]逸らしましたよねえ。何です？　信仰、嘘ですか？
+[k]
+
+＠坂田金時
+あー、逸らしてねえけど。[r]気のせいじゃん？
+[k]
+
+＠坂田金時
+（胸元！　胸元はだけてんだよこのキツネ！[r]　こんなん目線のやり場に困るじゃん……!?）
+[k]
+
+[charaFace F 0]
+＠玉藻の前
+??
+[k]
+
+＠Dr.ロマン
+ともかく、これはありがたい。活路が開けたぞ、[r]活性魔霧がなければ彼と今度こそまともに戦えるはずだ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFace A 13]
+[charaFadein E 0.1 0]
+[charaFadein A 0.1 2]
+＠モードレッド
+後は追い付いて叩き斬るだけか。[r]よっし、このまま奴を追うぞマシュ、[%1]！
+[k]
+
+？1：あの階段を上がるのかな
+
+＠マシュ
+はい、ある種の魔術で構成された階段……[r]であるようです。わたしたちの足場にもなりそうですね。
+[k]
+
+＠モードレッド
+途中で消えたらゾッとしねえが、[r]ま、落ちたら落ちたでその時は何とかしてやるさ。
+[k]
+
+？2：休んでいる暇はなさそうだ
+
+＠モードレッド
+ああ。あの階段を走って上がるぞ。[r]ま、途中で消えたりするかもしれねーけどな！
+[k]
+
+＠マシュ
+恐らくあれは、ニコラ・テスラの作り出した[r]魔術的な階段のようです。いつまで保つものか……
+[k]
+
+＠モードレッド
+その時はその時で何とかしてやるさ。[r]おまえの言う通り、今は迷ってる暇はねえ。
+[k]
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFace F 0]
+[charaFadein D 0.1 0]
+[charaFadein F 0.1 2]
+＠坂田金時
+任せたぜ。ま、せいぜいうまくやれや！
+[k]
+
+[charaFace F 4]
+＠玉藻の前
+あれ？　私たちの出番、これだけです？
+[k]
+
+[charaFace F 5]
+＠玉藻の前
+むぅ～、なんか保安検査場で金属探知機に[r]引っかかった気分なんですけどぉ！
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[wt 1]
+[scene 10909 0]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait wipe]
+＠モードレッド
+[line 3]追い付いたッ、今度こそ仕留める！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+英霊ニコラ・テスラを再度発見。[r]バッキンガム宮殿上空へ徒歩にて移動中の模様です！
+[k]
+
+？1：ここで倒す！
+
+？2：彼を取り巻いている活性魔霧は───
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい先輩、活性魔霧の存在は確認できません。[r]あの金色のサーヴァントの言葉通りであるようです！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.3]
+[se ad61]
+[seStop ad61 5.0]
+[charaTalk H]
+[charaFace H 1]
+[backEffect bit_talk_lightning_01t]
+[charaFadein H 0.4 1]
+[wt 0.5]
+＠ニコラ・テスラ
+来たか[line 3][r]やはり、君たちは新たな神話を築かんとするか！
+[k]
+
+[charaFace H 4]
+＠ニコラ・テスラ
+だが、哀しいかな不可能だ。[r]活性魔霧がなくとも私の操る雷電はあまりに強力だ。
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+何故なら、私は天才だ。[r]何故なら、私は雷電だ。
+[k]
+
+＠ニコラ・テスラ
+神とは[line 3][r]神とは何だ。そう、雷だ。
+[k]
+
+＠ニコラ・テスラ
+遙か古代より多くの人々がそう信じ、[r]実際のところ……
+[k]
+
+＠ニコラ・テスラ
+主神ゼウスや[#帝釈天:インドラ]の名を挙げずとも、確かに[r]神ではあるのだろう。雷。空より来たる神なる力。
+[k]
+
+[charaFace H 5]
+＠ニコラ・テスラ
+見るがいい。私が地上へ導いたこの輝きこそ、[r]大いなる力そのものだ！
+[k]
+
+＠ニコラ・テスラ
+新たなる電気文明、消費文明を導きしエネルギー！[r]旧き時代と神話に決定的な別れを告げる、我が雷電！
+[k]
+
+＠ニコラ・テスラ
+其は新たなる神話！[r]其は人類にもたらされた[#我が光]！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+さあ！[r]君たちにもご覧に入れよう！
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+[fontSize large][line 2]人類神話・雷電降臨！[fontSize -]
+[k]
+
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[backEffectStop bit_talk_lightning_01t]
+[effectStop bit_talk_lightning_02t]
+[se ad63]
+[wait flash]
+[wt 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[effectStop]
+[wait effect]
+[wait fade]
+[soundStopAll]
+[end]

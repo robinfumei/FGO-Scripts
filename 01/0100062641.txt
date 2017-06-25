@@ -1,0 +1,365 @@
+＄01-00-06-26-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 4012000 1 オジマンディアス]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet E 5022001 1 三蔵]
+[charaSet G 5012001 1 ニトクリス]
+
+[scene 29320]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+[line 3]さて。[r]何の話をしていたのだったか。
+[k]
+
+？1：堂々と玉座に座り直した……！
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+そこ、いちいち茶々を入れるのではありません！[r]ファラオ一流の切り返しと思いなさい！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+
+？2：王よ、共同戦線の話ですぞ
+
+[charaFace B 3]
+＠オジマンディアス
+分かっておる。戦いの後では気まずかろうと、[r]余なりの配慮だ。流さぬか、[#鰐頭:わにあたま]め。
+[k]
+
+[charaFace B 5]
+
+？！
+
+
+＠オジマンディアス
+汝らは力を示した。[r]であれば、余も無下には扱えぬ。
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+己の民だけを守っていては獅子王と同じ、か。[r]玄奘三蔵。貴様の言う通りだ。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+余は先を見据えるあまり、もっとも安全な道を選んだ。[r]それは強固ではあるが、同時に狭い話だった。
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+ふん……なまじ聖杯なぞ手にしたが故に、[r]柄でもない事に執心しすぎたのかもしれぬ。
+[k]
+
+[messageOff]
+[se bac20]
+[wait se bac23]
+[wt 0.3]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+え……オジマンディアス王、これは……
+[k]
+
+[messageOff]
+[se ad39]
+[fowardEffect bit_talk_20]
+[wt 2.0]
+[fowardEffectStop bit_talk_20]
+[wt 0.5]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+褒美だ。くれてやる。[r]それに足るだけの、胸のすく戦いであった。
+[k]
+
+[charaFace B 5]
+＠オジマンディアス
+だが、この時代は他の特異点とは違う。[r]聖杯を得るのみでは人理は修復されぬ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+承知しているとも。獅子王の聖槍を止めなければ、[r]この時代の乱れは消え去らない。
+[k]
+
+＠ダ・ヴィンチ
+オジマンディアス王。[r]貴方は切り札である聖杯を手放した。
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+それは、我々の聖都攻略に協力する[line 3][r]という意味でいいのかな？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+みなまで言わせるな、美しい女よ。[r]既に外の守護獣どもは引き上げさせた。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+おまえたちには余の神獣兵団を貸しだそう。[r]余も戦場にて王威を示したいところだが[line 3]
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+おそらく、他にやるべき事がある。[r]聖都攻略は貴様らだけで行え。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+神獣兵団って、外のスフィンクス軍団ね！[r]この国の最強の部隊じゃない！
+[k]
+
+＠三蔵
+ありがとう、オジマンディアス王！[r]本人が来てくれないのは残念だけど！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+フン。そこは戦場での見せ場を奪われなくて助かった、[r]と喜んでおけ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、ありがとうございます。
+[k]
+
+＠マシュ
+良かったですね、先輩。[r]キングハサンさんにもいい報告ができそうです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+なに？[r]キング……ハサンだと？
+[k]
+
+＠オジマンディアス
+それは死神の如き姿の剣士の事か？[r]貴様ら、奴の助言で我が砂漠を訪れたと？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠三蔵
+そうよ。ガイコツの偉い人が砂漠に行けって。[r]そうすればガウェイン卿の相手をしてくれるって。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+[line 3]そうであったか。[r]それは、無駄な事をしたものだな、[%1]よ。
+[k]
+
+
+？1：あれ、名前……
+
+＠オジマンディアス
+ニトクリスがあまりにも繰り返すのでな。[r]貴様の名前を覚えてしまっただけだ。
+[k]
+
+
+？2：無駄な事って……？
+
+[charaFace B 1]
+＠オジマンディアス
+[line 3]（ニタリ）
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+……ファラオ・オジマンディアス。[r]キングハサンとは何者なのです？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+山の翁どもの頭目よ。[r]そして余が獅子王同様に警戒した相手だ。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+獅子王に全面戦争をしかけなかった理由は、[r]何もこの大神殿の守りを固める為だけではない。
+[k]
+
+＠オジマンディアス
+余はこの砂漠を広げ、山の民と敵対した。[r]その直後の話だ。
+[k]
+
+＠オジマンディアス
+この玉座でひとり軍策を練っていると、[r]背筋に稲妻が走った。
+[k]
+
+[charaFace B 5]
+＠オジマンディアス
+あまりの悪寒に振り返れば、そこにはあの男[line 3][r]初代“山の翁”が立っていた。
+[k]
+
+＠オジマンディアス
+それも、とうに仕事を終えてな。[r]見事なまでの太刀筋で、余の首を撥ねていた。
+[k]
+
+＠オジマンディアス
+余も全力でこれに応えたが、[r]奴は闇に溶けるように立ち去ったのだ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+首を撥ねられた……ああ！[r]先輩、あれです、あれ……！
+[k]
+
+？1：初めて会った時のアレか……！
+？2：なんで生きてるの！？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+敵ながら、まさに神域の暗殺よ。
+[k]
+
+＠オジマンディアス
+余の神殿での戦いでなければ[line 3][r]この首、とうに落ちていたわ。
+[k]
+
+[charaFace B 5]
+＠オジマンディアス
+それからというもの、[r]傷が癒えるまでは余自らが動く事はできなかった。
+[k]
+
+＠オジマンディアス
+貴様たちが我が神殿に訪れたのは、[r]もうじき傷が癒える、という頃合だったのだ。
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+まったく……奴が協力していると知っていれば、[r]始めから手を貸していた。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+無駄な事、とはそういう事だ。先に話しておれば、[r]余と戦わずとも済んだのだ、貴様らは。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+そうね。[r]でも、戦って良かったでしょ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+それこそ、みなまで言わせるな。[r]やってみなければ分からない事もある、など[line 3]
+[k]
+
+＠オジマンディアス
+神々の王としては、照れくさいにも程があろう？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

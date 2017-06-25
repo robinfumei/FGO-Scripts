@@ -1,0 +1,237 @@
+＄91-20-18-01-2-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 2018001 1 子ギル]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98006000 1 エネミー]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ふう……先輩、大丈夫でしたか？
+[k]
+
+？1：うん、かすり傷一つないよ
+？2：マシュのおかげで助かった
+
+？！
+
+[charaFace A 1]
+＠マシュ
+そうですか、それならよかったです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+生き残りがいないか、少し周囲を警戒してきます。[r]先輩たちもまだ油断しないでくださいね。
+[k]
+
+[se ad173]
+[seStop ad173 0.7]
+[charaMove A -128,0 0.4]
+[charaFadeout A 0.4]
+
+[wt 0.4]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 4]
+＠ダ・ヴィンチ
+……言われてみると、確かにそうかもしれないね。[r]サーヴァントよりもサーヴァントらしい、か……。
+[k]
+
+[communicationCharaClear]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+マシュはカルデアで育った、仕事優先の子だからね。[r]もとからそういう素養はあったんだよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠子ギル
+選択肢を与えられなかった適性は素養とは言いません。[r]それは呪いというんですよ、アーキマン。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+……むう。今回はヤケに絡むなあ。[r]キミ、そこまで情に厚い英霊だったっけ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+まさか。嗜好が変わっているだけで[r]根底の性格は変わりません。
+[k]
+
+＠子ギル
+大人のボクが冷酷であるなら、ボクだって冷酷です。[r]節度があるかの違いです。
+[k]
+
+[charaFace C 4]
+＠子ギル
+でも、確かにお節介すぎました。[r]結局のところ、ボクらにできることはたかが知れています。
+[k]
+
+[charaFace C 0]
+＠子ギル
+だから[line 2]マスター。
+[k]
+
+＠子ギル
+いつも彼女の一番近くにいる貴方は、マシュの事を[r]よく見ていてあげてください。
+[k]
+
+＠子ギル
+彼女がどんな風に戦っていたのか。[r]どんな戦いをしていたのか、忘れないように。
+[k]
+
+＠子ギル
+ボクが言いたいのはそういうことです。
+[k]
+
+？1：……わかった
+？2：……ありがとう
+
+？！
+
+[charaFace C 1]
+＠子ギル
+まあ、マスターは聡明な人のようですから。ボクなんかが[r]わざわざ言う必要はなかったと思いますけどね。
+[k]
+
+[wt 0.2]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[messageOff]
+[se ad173]
+[seStop ad173 1.0]
+[wt 0.3]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 -128,0]
+[charaMove A 0,0 0.4]
+[wt 0.7]
+＠マシュ
+脅威は完全に排除できたようです、先輩。
+[k]
+
+[charaFace A 3]
+＠マシュ
+……ええと。それで、ですね。[r]誤解のないように言っておきたいのですけど。
+[k]
+
+＠マシュ
+…………。
+[k]
+
+[charaFace A 11]
+＠マシュ
+先輩の前で水着を着ることが、嫌なわけではないんです。
+[k]
+
+＠マシュ
+あくまでも今回は、ギルくんの用意してくれたものが、[r]その、わたしにはレベルが高すぎたというだけで……。
+[k]
+
+[charaFace A 3]
+＠マシュ
+普通の水着だったら。機会があれば。[r]わたしは、別に……。
+[k]
+
+＠マシュ
+そ、そういうわけなので。失礼します。
+[k]
+
+[messageOff]
+[se ad132]
+[seStop ad132 1.0]
+[charaAttack A normal -250,0 0.4]
+[charaFadeout A 0.4]
+
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠子ギル
+うん、収穫収穫。懸念していたよりは、[r]ずっと見込みがある感じじゃないですか。
+[k]
+
+[charaFace C 0]
+＠子ギル
+これならボクが出張らなくても大丈夫そうですね。[r]宝石磨きの続きはマスターに任せますよ。
+[k]
+
+＠子ギル
+あ、でも何か女性らしさを引き出すための道具が必要に[r]なったら、いつでもボクに言ってくださいね。
+[k]
+
+[charaFace C 1]
+＠子ギル
+なんでも宝物庫から引っ張り出しますから！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 1]
+＠ダ・ヴィンチ
+そして美といえばこの私、[r]ダ・ヴィンチちゃんもお忘れなく、さ。
+[k]
+
+＠ダ・ヴィンチ
+もし彼女が自分の美的な在り方に迷っているような様子が[r]少しでも見えたら、遠慮なく私に投げてくれ。
+[k]
+
+＠ダ・ヴィンチ
+なにしろ、女性らしさの身につけ方においては、[r]私の右に出るものはいないと自負しているからね！
+[k]
+
+[communicationCharaClear]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……はあ。[r]まあ、確かに多少は気にかけるべき事項かもしれないね。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ボクはマシュが健康に過ごしてくれればそれに[r]勝る喜びはないんだけどなあ……
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+ま、人生に彩りができるのはいいことだしね！[r]マシュの水着の制作費をちょっと捻出してみようかな！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]
+

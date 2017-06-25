@@ -1,0 +1,68 @@
+＄94-00-62-33-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 3024000 1 玉藻の前]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+映画ですかぁ。
+[k]
+
+[charaFace B 1]
+＠玉藻の前
+ロマンチックな恋愛映画とか、[r]上映してもらいたいですねえ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+ＵＲＩＭＡＸシアターでは、[r]ＵＲＩＢＯＵが出てくる映画しか上映しないであります。
+[k]
+
+＠G：うりぼう
+すると不思議なことに、ラインナップが[r]大体、しょうもないホラー映画だけに。
+[k]
+
+＠H：うりぼう
+何故でありましょうか……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+その縛りは解いた方がいいと思います……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,357 @@
+＄94-00-61-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 6024000 1 スカサハ]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98101200 1 うりぼう]
+[charaSet D 98101400 1 うりぼう長]
+[charaSet E 4024000 1 モードレッド]
+[charaSet F 2025100 1 メアリー]
+[charaSet G 98100800 1 うりぼう2]
+[charaSet H 98101000 1 うりぼう3]
+
+[scene 30700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マシュ
+先輩。わたしたち、人理を修復するため、[r]色々な時代の色々な場所に行きましたよね。
+[k]
+
+＠マシュ
+少し前に滞在していた島では、生きるために[r]色々なものを作成したりしましたが……。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.7 1]
+[wait wipe]
+[scene 30800]
+[charaFadeout B 0.1]
+[wt 0.4]
+[wipein leftToRight 0.7 1]
+[wait wipe]
+
+[wt 0.7]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.4 1]
+＠マシュ
+まさか、こんなビルを建てることになるとは[r]思いませんでした……。
+[k]
+
+＠マシュ
+新鮮な経験にも程があります。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+……という訳で我々はうりぼう達を手伝い、[r]ビル建てたりコンビニ建てたり発電所建てたり[line 3]
+[k]
+
+＠スカサハ
+古本屋とかマンションとかバーガーショップその他だとか、[r]色々なものを建設している訳だが。
+[k]
+
+？1：自分たちは何をやっているんだろう
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠マシュ
+先輩、どうかそれは禁句に。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.4]
+
+？2：人理修復……
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠マシュ
+……小さなことからコツコツと、[r]ということで……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.4]
+
+？！
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+そこで気付いたのだが、[r]やはり文明発達が順当に過ぎる。
+[k]
+
+＠スカサハ
+たとえ我々が力を貸し与えたとしても、[r]いくら何でもこの発展はおかしい。
+[k]
+
+＠スカサハ
+そこでうりぼう長に、[#九人の女神:ナイン・シスターズ]の他に、[r]何か伝説がないか尋ねてみたのだが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠うりぼう長
+伝説によれば百年ほど前、魔術師を名乗るサーヴァントが[r]我々に電気をもたらしたと伝えられています。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠うりぼう
+エレクトロニクスであります！
+[k]
+
+[charaFace G 1]
+[charaFace C 0]
+＠G：うりぼう
+電気ビリビリ！
+[k]
+
+[charaFace G 0]
+[charaFace H 1]
+＠H：うりぼう
+うなぎぬたぬたー！[r]であります！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+おまえらうりぼう爺さんと違って何か適当っつーか[r]本能に任せて、喋ってるよな……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠うりぼう
+我らは所詮うりぼう。[r]即ちボットのようなものでありますなー。
+[k]
+
+[charaFace C 0]
+＠うりぼう
+お気遣いなくであります。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠メアリー
+魔術師……キャスターか。[r]ソイツが電気をもたらしたんだね。
+[k]
+
+[charaFace F 4]
+＠メアリー
+でも、数百年前だとさすがに死んでるよね。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠うりぼう長
+これまた伝説によれば、
+[k]
+
+[charaFace D 1]
+＠うりぼう長
+『私はいずれ来るであろう同胞のために、[r]　今は眠りに就こう。何かあったら起こしてネ☆』
+[k]
+
+[charaFace D 0]
+＠うりぼう長
+と最後に言い残し、島の奥地にある大洞窟に[r]消えていったそうですが。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+……という訳で、明日はその洞窟に向かおうと思うが[r]どうだろうか、マスター。
+[k]
+
+？1：一緒に行く
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace A 1]
+＠スカサハ
+勿論だ。[r]おまえの目で、そのサーヴァントを見定めて欲しいしな。
+[k]
+
+[charaFace A 0]
+
+？2：ついていっていい？
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 13]
+[charaFadein B 0.1 2]
+＠マシュ
+はい、ではわたしもマスターと一緒に！
+[k]
+
+？！
+
+＠スカサハ
+私も行くか。後は[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaSet G 2026000 1 アルトリア]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠アルトリア
+私が行きましょう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace G 6]
+[charaFadein G 0.1 0]
+[charaFace E 6]
+[charaFadein E 0.1 2]
+＠モードレッド
+……仕方ねえなあ。[r]アーサー王が行くなら、オレも行くぜ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠スカサハ
+……う、うむ。少々不安だが、[r]とりあえずこのメンバーで行くか。
+[k]
+
+[charaFace A 0]
+＠スカサハ
+他の者は防備や建設作業をお願いする。[r]それでは解散！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 20700]
+[wipeout rightToLeft 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wt 0.7]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.2]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.4 1]
+＠アルトリア
+しかし、いくらサーヴァントといっても[r]数百年の月日に耐えられるものでしょうか。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠スカサハ
+普通の土地ならその通りだが、何しろこの島は事実上、[r]時間制限が取っ払われたようなものだからな……。
+[k]
+
+＠スカサハ
+単独行動が可能なら、マスター不在でも少し活動可能なように、[r]工夫を凝らせば数百年を過ごせるかもしれん。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+＠アルトリア
+そろそろうりぼうのおじいさんが言っていた[r]大洞窟ですが……。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+
+[charaTalk A]
+[se ad109]
+[wt 2.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+＠アルトリア
+その前に、うろうろしている魔猪たちをさっさと[r]片付けた方が良さそうですね。
+[k]
+
+[charaFace G 2]
+＠アルトリア
+[line 3]行きます、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

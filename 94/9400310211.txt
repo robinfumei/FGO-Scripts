@@ -1,0 +1,513 @@
+＄94-00-31-02-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 3002000 1 ランサー]
+[charaSet F 98059000 1 ケイネス]
+
+[scene 25000]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+敵セイバー、戦線を離脱します！
+[k]
+
+？1：追わなくていいの？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace A 2]
+[charaFace D 4]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠エルメロイ
+いいんだ。[r]ここでの本命は次にやってくるお客さんだ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+次……ですか？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+本来セイバーに挑戦するはずだったサーヴァントを、[r]奇門遁甲陣で閉め出しておいた。そろそろ……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+＠ランサー
+おのれ、いったい何者だ？　あの妙な石の迷路は貴様らの[r]仕業か！　セイバーのサーヴァントはどうなった！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウッ！？
+[k]
+
+？1：ほんとになんか来た！？
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+落ち着かれよフィオナ騎士団の一番槍。[r]我々はアーチボルト陣営の敵ではない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ランサー
+なっ！？　私の真名を……。
+[k]
+
+＠F：？？？
+ふむ、どうやら只者ではないようだな。[r]なぜランサーのマスターが私だと気付いた？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 0]
+
+＠マシュ
+ッ？　どこから声が？
+[k]
+
+[charaTalk B]
+[communicationCharaFace 5]
+＠Dr.ロマン
+魔術迷彩だね。そのサーヴァントのマスター、[r]すぐ近くに隠れているよ。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ケイネス卿、[r]我々は御身の支援にはせ参じた者です。
+[k]
+
+＠エルメロイ
+故あって名は秘せざるを得ないのですが、ここはひとまず[r]レディ・ライネスの名代とだけ申し上げておきます。
+[k]
+
+＠F：？？？
+ライネス……我が姪の？[r]いったいどういうことだ？
+[k]
+
+＠エルメロイ
+この場でご説明差し上げるのも[#吝:やぶさ]かではないのですが、[r]敢えて明日までご猶予をいただきたい。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+ただ、これだけを先に申し上げておきましょう。[r]「キャスターの居所をお伝えできる」と。
+[k]
+
+＠F：？？？
+キャスター？　それがどうした？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+この言葉、[r]明日の昼頃にあらためて吟味していただきたい。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+そのときは改めて我々の話に耳を傾ける価値を[r]見出していただけるものと。
+[k]
+
+＠F：？？？
+ふむ……。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+明日２２時、冬木ニュータワー最上階のスイートをお訪ね[r]いたします。ひとまずこの場は見逃していただけますか？
+[k]
+
+[charaFadeout D 0.1]
+
+＠F：？？？
+ほう？　こちらの所在すら把握済みか。[r]……よかろう。有能な男は嫌いじゃあない。
+[k]
+
+＠F：？？？
+それが礼を弁えた魔術師であれば尚更だ。[r]少々、田舎まじりの[#英語:イングリッシュ]なのが残念だがね。
+[k]
+
+＠F：？？？
+いいだろう、君の提案を受けよう。
+[k]
+
+＠F：？？？
+先程のセイバーをあしらった手際に免じて、[r]この場はこちらも矛を収めよう。
+[k]
+
+[messageOff]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠ケイネス
+私は逃げも隠れもしない。[r]何を企んでいるのか、聞き出すのが愉しみだよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あれが……ランサーのマスター？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFace E 0]
+[charaFadein F 0.1 2]
+[charaFadein E 0.1 0]
+＠ランサー
+宜しいのですか？　マスター。
+[k]
+
+＠ケイネス
+逸るなランサー。たしかに怪しい連中ではあるが、[r]ここまで得体が知れぬとなると様子見が得策だ。
+[k]
+
+＠ケイネス
+[charaFace F 3]
+緒戦はあくまで慎重に、な。
+[k]
+
+＠ランサー
+……了解しました。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+それではお暇させていただきます。[r]さあ行こう[%1]。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+
+[scene 25700]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+＠エルメロイ
+さてと、これでようやく落ち着いて話ができる。[r]さっきはどこまで説明していたかな？
+[k]
+
+？1：この戦いが終わると世界が滅ぶとか……
+
+？！
+
+[charaFace D 0]
+＠エルメロイ
+ああ、そこだったな。冬木の大聖杯は戦闘で脱落した[r]サーヴァントを生け贄として取り込み完成する。
+[k]
+
+＠エルメロイ
+だがそこから出現するのは願望機ではなくアンリマユ……[r]この戦いには初めから勝利者など存在しないのだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ひどい話があったもんだね……。
+[k]
+
+＠Dr.ロマン
+他の魔術師たちを殺してまで手に入れた報酬が、[r]まさか真逆のものだなんて……本当に酷い……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エルメロイ
+まったくだ。もし私が第五次の勝者だったら、[r]絶望で悪逆に落ちていたと思うよ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+いや、すまない。[r]感傷は意味がない、と言ったのは私だったな。
+[k]
+
+＠エルメロイ
+私の経験上、大聖杯が限定的ながらも稼働を始めるのは、[r]七人のうち五人目のサーヴァントが敗退した後だ。
+[k]
+
+＠エルメロイ
+つまり裏を返せば、最低でも3体のサーヴァントを[r]健在のまま戦線離脱させれば……。
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[charaTalk B]
+
+[charaFadein C 0.1 0]
+
+[communicationCharaLoop 98003003 2 5 0 5]
+＠Dr.ロマン
+儀式は有耶無耶のうちに終わり、聖杯は完成せず、[r]その器だけを確保することができる、ですね？
+[k]
+
+＠フォウ
+フォ～ウ。
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+了解しました。今回は他のサーヴァントを倒すのではなく、[r]守るための戦い、というわけですね。
+[k]
+
+＠マシュ
+穏便に事が済むなら、[r]それに越したことはないと思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ああ。[r]だからといって平和主義で事が済む訳でもない。
+[k]
+
+＠エルメロイ
+最終的に和解で決着をつけるためにも、まずは和解に[r]応じる余地のない相手を積極的に排除させてもらう。
+[k]
+
+？1：紳士的かと思ったら独裁的だ！
+？2：論理的かと思ったら暴力的だ！
+
+？！
+
+＠エルメロイ
+荒っぽいのは自覚している。[charaFace D 4]言っておくと、[r]元来の私はもっと臆病で、卑屈な男なんだがね。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+だが、今はどうにもこの身に宿した[r]乱世の策士が昂ぶって仕方ない。
+[k]
+
+？1：孔明なら仕方がない
+
+[charaFace D 1]
+＠エルメロイ
+まったくだ。中華の軍師は時に武将より猛々しく、[r]暴力的だ。
+[k]
+
+？2：ほんとーでござるか？
+
+[charaFace D 5]
+＠エルメロイ
+なんだその巫山戯た質問は！
+[k]
+
+[charaFace D 2]
+＠エルメロイ
+外国人ならともかく、日本人の君が「ござる」などと、[r]そんなコミック的な言葉遣いはしないように！
+[k]
+
+＠エルメロイ
+実在したサムライたちに失礼だぞっ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォフォフォーウ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+？！
+
+[charaFace D 0]
+＠エルメロイ
+さて、話を戻そう。
+[k]
+
+＠エルメロイ
+今回の聖杯戦争の参加者のうち、どう転んでも[r]救いようがないのはキャスターとアーチャーだ。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+こいつらははっきり言ってまともに意思疎通できる[r]相手ですらない。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+他のサーヴァントと交戦状態になるより先に[r]お引き取り願いたい。
+[k]
+
+＠エルメロイ
+それとアサシン。こいつらはマスターが[r]アーチャーを擁する陣営と結託している。
+[k]
+
+＠エルメロイ
+アーチャーと敵対する上では彼らも避けて通れない。[r]どのみち我々は敵対者としてマークされているだろう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+あ、レイシフト直後の戦いで……。
+[k]
+
+＠エルメロイ
+次にバーサーカーだが……なにせ狂化している以上、[r]これはマスター次第、というほかない。
+[k]
+
+＠エルメロイ
+令呪を温存し、サーヴァントを十全に制御できる状態の[r]うちにマスターを懐柔できるかどうかが鍵だ。
+[k]
+
+＠エルメロイ
+とはいえバーサーカーだからな。マスターの意向と[r]関係なく暴走に陥る可能性は常にある。
+[k]
+
+＠エルメロイ
+とりわけ第四次のバーサーカーの召喚者は心身ともに[r]危うい状態の人物だったと、後から調査で判明している。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+私も会ったことはないのだが……。
+[k]
+
+＠マシュ
+では、バーサーカーについては保留ですか？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+安全牌ではない、と結論せざるを得ない。
+[k]
+
+＠エルメロイ
+よって消去法で最終的な保護対象は、[r]セイバー、ランサー、ライダーの三人という事になる。
+[k]
+
+＠Dr.ロマン
+ああ、それで先程の波止場では[r]セイバーとランサーの衝突を回避させたんだね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ではあとはライダーの陣営ですね。[r]うまく交渉できるでしょうか？
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+？1：どうしてそこで黙っちゃいますか？
+？2：なにか心配事でも？
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……ああ。[r]連中と上手く話をつけられるかどうかが、鍵だ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

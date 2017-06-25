@@ -1,0 +1,412 @@
+
+
+
+＄01-00-07-10-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 2020001 1 イシュタル]
+[charaSet F 98006000 1 ？？？]
+
+[scene 34200]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠イシュタル
+そういうワケで、仮契約だけどカルデアの[r]サーヴァントになってあげたイシュタルよ。
+[k]
+
+＠イシュタル
+私が退屈だと思わない事なら[r]お願いを聞いてあげるから、よろしくね☆
+[k]
+
+[charaFadeout E 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+うわあ……ミス・アルテミスに続き、[r]二人目のガチ女神系サーヴァントかぁ……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+と、頭を抱えている場合じゃないな。[r]基本的な事は確認しておかないと。
+[k]
+
+＠Dr.ロマン
+女神イシュタル。[r]人間の体をベースにした疑似サーヴァントだね？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠イシュタル
+そうよ。本来、神霊は人間の使い魔にはできない。[r][#存在規模:スケール]が違いすぎるもの。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マーリン
+けど逆に違いすぎて、[r]キミたちが移住した世界からこちらには来られない。
+[k]
+
+＠マーリン
+神代が終わり、神霊は人類史をただ眺めるだけの[r]モノとなった。この時代でだって例外じゃない。
+[k]
+
+＠マーリン
+そんなキミがサーヴァントとして現界できているのは、[r]相性のいい人間に乗り移ったから……でいいのかな？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+相性が関係あるのですね。[r]魔術回路の質や才能といったものでしょうか？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠イシュタル
+そのあたりは当然として、後は魂のカタチね。[r]最終的にどんな人間として終わるか。
+[k]
+
+＠イシュタル
+それが[#私:イシュタル]と似通っている人間なら[r]私と規格が合うのだもの。
+[k]
+
+[charaFace E 8]
+＠イシュタル
+でも、それがどうしたのよ。[r]疑似サーヴァントぐらい、そっちにもいるんでしょ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+まあ、これまでの特異点で何人か確認されてはいるよ。[r]でもキミのようなケースは初めてだ。
+[k]
+
+＠Dr.ロマン
+キミはこの時代で召喚されたらしいけど、[r]その経緯はどんなものだったんだい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 11]
+[charaFadein E 0.1 1]
+＠イシュタル
+あー、そこかー。[r]そこは私もアヤフヤなのよね……
+[k]
+
+＠イシュタル
+ウルクの巫女所で巫女長が[#私:イシュタル]を[r]召喚しようとしたのは確かよ。
+[k]
+
+＠イシュタル
+でもそのやり方がまた回りくどくて。
+[k]
+
+[charaFace E 8]
+＠イシュタル
+ウルクが特異点になりそうだから、[r]違う時代と接触できるようになった。
+[k]
+
+＠イシュタル
+普通は『時間と空間』はセットだけど、[r]特異点って『時間』と『空間』にまたがるものでしょ？
+[k]
+
+＠イシュタル
+それで、まずどこかの時代で『私』と相性のいい魔術師の[r]女の子を見つけて、その子に私を降ろしたそうなの。
+[k]
+
+＠イシュタル
+その後、疑似サーヴァントとして成立した私を[r]ウルクの地に強引に召喚した。
+[k]
+
+[charaFace E 11]
+＠イシュタル
+まあ、そんな方法だったから、[r]私も呼ばれた前後の事は記憶にないのよ。
+[k]
+
+＠イシュタル
+気がつくと巫女長は魔力の使いすぎで死んでいた。[r]ウルクに出てみれば、
+[k]
+
+＠イシュタル
+かろうじて続いていた神代の糸……[r]天上と地上を結ぶパスは途絶えていた。
+[k]
+
+＠イシュタル
+ギルガメッシュのヤツが“人間だけでやっていける”[r]城塞都市なんて作るから、神は不要になってしまった。
+[k]
+
+[charaFace E 8]
+＠イシュタル
+それを目の当たりにした私がどれだけ混乱したか分かる？[r]そりゃあ手当たり次第、弓を撃ちたくなるでしょう？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アナ
+……それは……少しだけですが、同情の余地があります。[r]少しだけ、ですが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk depthOff]
+[charaDepth E 0]
+[charaDepth D 1]
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠イシュタル
+アンタも私のコト言えないでしょうが。[r]アナ、だっけ？　自分の不始末、自分でつけなさいよ？
+[k]
+
+[charaFace D 4]
+＠アナ
+……分かっています。[r]ですので、その話はしないでください。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+なるほど。それで色々と合点がいったよ。
+[k]
+
+＠Dr.ロマン
+キミはソロモンの聖杯に呼ばれた神霊ではなく、[r]ウルクの巫女たちが呼んだ神霊だった。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でも、そうなると一つ問題がある。
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+＠Dr.ロマン
+カルデアの代表として……[r]いや、医者として人道的な問題だ。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+＠Dr.ロマン
+キミが取り憑いた少女はどうなっている？[r]キミに乗っ取られたカタチになるのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠イシュタル
+なによ。マシュみたいなデミ・サーヴァントを[r]生み出しておいて、今さら人道？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 10]
+＠Dr.ロマン
+……そうだね。そこを指摘されると、[r]ボクには何も言い返せないんだが……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でも、ボクの過ちとキミの問題は別の話だ。[r]そこは分けて、女神イシュタルに問いただしている。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠イシュタル
+……ふうん。[r]いい答えね、ちょっと見直したわ。
+[k]
+
+[charaFace E 7]
+＠イシュタル
+見直したから答えてあげる。[r]この体の持ち主を殺したかと言えば、ノー。
+[k]
+
+＠イシュタル
+彼女の意識が表面に出るかと言われれば、これもノー。
+[k]
+
+[charaFace E 0]
+＠イシュタル
+彼女と私は溶け合って、[r]今は私が７、彼女が３ってところね。
+[k]
+
+＠イシュタル
+神霊と人間の疑似サーヴァントの場合、神霊の方が[#霊子:りょうし]が[r]多いから、メインのパーソナリティは[#私:イシュタル]になるわ。
+[k]
+
+[charaFace E 7]
+＠イシュタル
+まあ、元の[#私:イシュタル]……高次元にいるイナンナは、[r]今の私ほど人間くさくないけどね。
+[k]
+
+＠イシュタル
+どちらが上とか下もなし。[r]だって、私はどうあっても私なんだし。
+[k]
+
+＠イシュタル
+そういう風に考えられる人間にしか[r]私は憑依できないワケだし。
+[k]
+
+＠イシュタル
+だからこう考えなさい。
+[k]
+
+＠イシュタル
+この人間はイシュタルに乗っ取られたんじゃなくて、[r]ある日突然、新しいイシュタルになったんだって。
+[k]
+
+？1：なるほど、わからん
+
+[charaFace E 0]
+＠イシュタル
+分からなくて結構よ。私だってたまに[r]どっちがどっちだか分からなくなるんだし。
+[k]
+
+？2：じゃあ、その女の子は眠っているワケじゃなく
+
+[charaFace E 7]
+＠イシュタル
+ええ、ちゃんと“私”としてアナタと話している。[r]二重人格が一つになったようなものね。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaFace E 1]
+＠イシュタル
+とにかく、私は私ってコト！
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+＠イシュタル
+さ、新しい契約者も手にいれたし、[r]さっさとこんな山からおさらばしましょう！
+[k]
+
+[charaFace E 5]
+＠イシュタル
+ウルクじゃ居場所がないからエビフ山に神殿を[r]作ったけど、ここ、本当に何もないんだもの。
+[k]
+
+＠イシュタル
+山脈はケーキみたいにすぱっと切られているわ、[r]山奥だから信者も巫女もやってこないわ、
+[k]
+
+＠イシュタル
+愛らしい鹿もいないわ森は毒蛇だらけだわ！
+[k]
+
+[charaFace E 8]
+＠イシュタル
+自分で選んでおいて何だけど、私、なんで[r]こんな場所を本拠地にしていたのかしら。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.2]
+[charaTalk F]
+[shake 0.05 0 4 0]
+[se ad14]
+[seVolume ad14 0 0.7]
+
+[wt 2.0]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout E 0.1]
+
+[charaFilter F silhouette 00000080]
+[charaScale F 1.25]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 0,75]
+＠F：？？？
+[line 5]タル…………[r]イ[line 6]シュ[line 4]タ[line 3]ル[line 3]
+[k]
+
+＠F：？？？
+さ[line 3]ん[line 3]ざ[line 3]ん、[r]ゆ[line 2]る[line 2]さ[line 2]ん[line 2]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠イシュタル
+はい？　どなた？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,75]
+＠F：？？？
+おまえ[line 4]を、た[line 2]お[line 2]す[line 2][r]あ[line 2]く[line 2]ま[line 2]よ[line 2]、ほ[line 2]ろ[line 2]び[line 2]よ[line 2]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、正体不明の岩が襲いかかってきます……[r]何か悲しいものを感じますが、迎撃を！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[seStop ad14 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

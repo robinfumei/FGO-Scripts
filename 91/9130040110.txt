@@ -1,0 +1,482 @@
+＄91-30-04-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3004001 1 カルナ]
+[charaSet E 5009001 1 ダ・ヴィンチ]
+[charaSet F 98021000 1 村人]
+[charaSet G 98016000 1 盗賊]
+
+[scene 10310]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.4 1]
+＠マシュ
+マスター、お食事ですか？[r]それならご一緒します。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウフォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+＠マシュ
+ではフォウさんもご一緒に……、[r]おや？[charaFace A 0]　あれは……、カルナさんですね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 0.4]
+[wt 0.4]
+
+？1：へいよーかるでらっくす！
+？2：へいよーかるでらっくす！
+
+？！
+
+＠カルナ
+へいよーかるでらっくす。
+[k]
+
+[se bac8]
+[seStop bac8 1.0]
+[wait se bac8]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+え……先輩、カルナさん！？[r]何がどうしたんですか！？
+[k]
+
+[charaFace D 4]
+＠カルナ
+……驚くのはこちらの方だ。[r]カルデアではこう挨拶すると教わったのだが。
+[k]
+
+[charaFace A 4]
+＠マシュ
+だ、誰でしょうか、[r]そんな妙な挨拶を広めているのは……
+[k]
+
+[charaFace D 0]
+＠カルナ
+マスターだが。
+[k]
+
+[charaFace A 14]
+＠マシュ
+なっ！？　……そんな……
+[k]
+
+[charaFace A 4]
+＠マシュ
+そんな、素敵な挨拶があったなんて……[r]先輩、どうして教えてくれなかったんですか……
+[k]
+
+？1：昨日考えたからね
+？2：ごめん、言い忘れた
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……。わたしにもお願いします。
+[k]
+
+？1：え？
+？2：まさか？
+
+？！
+
+[charaFace A 0]
+＠マシュ
+……へいよー、なんとかです。[r]さっきの、はいたっちするやつです。
+[k]
+
+？1：へ、へいよーかるでらっくす
+？2：へいよーかるでらっくす！
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい、へいよーかるでらっくす。
+[k]
+
+[se bac8]
+[seStop bac8 1.0]
+[wait se bac8]
+
+[charaFace A 13]
+＠マシュ
+[line 3]なるほど、このような効果ですか。[r]精神状態がこう、ふわっとなりますね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ですが現在、カルデアは警戒態勢です。[r]以後、この挨拶は禁止とさせていただきます。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……。
+[k]
+
+？1：……はい、ごめんなさい……
+？2：……マシュは時々怖いですよね……
+
+？！
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ところでカルナさんは何を？
+[k]
+
+＠カルナ
+ああ、売店にパンを買いに行くところだ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ダ・ヴィンチちゃんの売店ですか？[r]これからお昼なのでしたら、ご一緒に……。
+[k]
+
+＠カルナ
+いや、ドクター……、ロマンだったか？[r]買ってくるよう頼まれたんだ。
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+[se ad13]
+[wait se ad13]
+
+＠マシュ
+……。[r]ドクター。わたしです。マシュです。
+[k]
+
+
+＠マシュ
+率直に質問します。[r]なぜカルナさんにこのようなお使いを？
+[k]
+
+＠Dr.ロマン
+ああいやその、忙しくてつい出来心で……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+英霊をお使い……しかもパンの購入……[r]他に……もっと……有用なお仕事が……
+[k]
+
+＠Dr.ロマン
+いや、ほら、ボクも冗談のつもりだったんだよ！？[r]でも彼、わかったって出てっちゃうから……
+[k]
+
+？1：そうなの？
+？2：いいのかそれで？
+
+？！
+
+＠カルナ
+ああ、ドクターの言い分は正しい。[r]なに一つ、虚偽は含まれていないが。
+[k]
+
+[charaFace D 4]
+＠カルナ
+……なにかおかしいのか？
+[k]
+
+[charaFace A 12]
+＠マシュ
+いや、その、ご本人にそう言われると[r]わたしも困ってしまうのですが……。
+[k]
+
+[charaFace D 0]
+＠カルナ
+そうか、問題ないなら売店に行くとしよう。
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[scene 10600]
+[wt 0.4]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ダ・ヴィンチ
+残念！！　ダ・ヴィンチちゃん印の[r]画期的に美味しい創作パンは売り切れなんだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠カルナ
+……そう、……なのか。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+（もの凄い落ち込みようです、先輩……！）[r]あの、いつもは余っているのにどうしたんですか？
+[k]
+
+[charaFace E 3]
+＠ダ・ヴィンチ
+いやー、それがついに小麦が底をついてね。[r]ロマンも無駄遣いするなって。
+[k]
+
+[charaFace E 1]
+＠ダ・ヴィンチ
+そうだ、この際だから[r]新しい仕入れルートを開拓しよう！
+[k]
+
+[charaFace E 0]
+＠ダ・ヴィンチ
+当然協力してくれるよね？　いい小麦を売って[r]いるのはフランスのここらへんだから。
+[k]
+
+＠ダ・ヴィンチ
+このダ・ヴィンチちゃん収納袋に詰めてくれれば、[r]作物ぐらいはなんとかカルデアに持ち帰れる。
+[k]
+
+＠ダ・ヴィンチ
+本来ならシバとカルデアスをうまく誤作動させて、[r]レイシフト先の資源を実体化させるんだけど……
+[k]
+
+＠ダ・ヴィンチ
+こんな事でカルデアスを使ったらそれこそカルデアの[r]備蓄がなくなる。収支が合わない、というヤツさ。
+[k]
+
+＠ダ・ヴィンチ
+だからこういう時はこう、[r]小さく細やかなズルをしなくちゃいけないワケ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠カルナ
+了解。レイシフトを開始する。[r]マスター、すまないが用意を頼む。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+即答ですか！？
+[k]
+
+？1：は、はい
+？2：了解しました
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[effect bit_talk_07]
+[se ad12]
+[wt 4.0]
+[fadeout white 1.0]
+[effectStop]
+[wait effect]
+[wait fade]
+[charaSet A 8001001 2 マシュ]
+[scene 20300]
+
+[fadein white 1.0]
+[wait fade]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……はあ。[r]そんな[#経緯:ワケ]でやってきました、フランス農村部。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad13]
+[wait se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+＠Dr.ロマン
+むう。ちょっとマギ☆マリのブログを見ている間に、[r]何でこんなことになったわけ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクターのせいです！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠カルナ
+あの村か。……む？
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+[se ad4]
+[seStop ad4 2.0]
+[wait se ad4]
+[wt 0.5]
+[bgm BGM_EVENT_5 0.4]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠村人
+ああっ、旅のお方……、いや、その槍、[r]もしやフランス正規兵の方ですか！？
+[k]
+
+[charaFace D 4]
+＠カルナ
+……いや、違う。
+[k]
+
+＠村人
+そ、そんな……、[r]村が盗賊団に占拠されてもう３日……。
+[k]
+
+＠村人
+やっと助けに来てくれたと思ったのに……。
+[k]
+
+[charaFace D 0]
+＠カルナ
+それは大事だな。[r]わかった、助けよう。
+[k]
+
+＠村人
+え？　よ、よろしいのですか？[r]ですが、この人数では……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+いえ、それは問題ありませんが、[r]カ[charaFace A 7]ルナさん……、いえ、今は村へ急ぎましょう！！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.1]
+[wait fade]
+[wt 0.5]
+[scene 21000]
+[bgm BGM_EVENT_3 0.4]
+
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠盗賊
+ヒャッハー！！[r]酒持ってこーい！！　女もだ！！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+[#狼藉:ろうぜき]はそこまでです。[r]健康のため、アルコールも女性も控えてください。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠盗賊
+なんだぁ、てめぇらは？　ガキに小娘、[r]もやしみてぇな男……。
+[k]
+
+＠盗賊
+ケッ、てめえら、痛い目見せてやんな！！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

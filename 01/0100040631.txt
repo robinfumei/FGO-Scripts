@@ -1,0 +1,88 @@
+＄01-00-04-06-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10918]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5010001 1 「Ｐ」]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+……ったく、歯応えのない。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+敵性体、すべて撃退しました。[r]いえ。それほど楽な相手という訳でもない、ような……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠モードレッド
+霧からサーヴァントが出るってんなら、[r]派手に、強い奴をどんと出して欲しいもんだぜ。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+あー……でも、あれか。[r]出てくるのが敵とはかぎらないのか？
+[k]
+
+＠Dr.ロマン
+そうだね。事実、君はボクらと協力してくれてるし、[r]アンデルセンにしてもそうだ。
+[k]
+
+＠Dr.ロマン
+でも、ナーサリー・ライムやジャックは敵だった。[r]彼らもきっと魔霧から現界したサーヴァントだろう。
+[k]
+
+＠モードレッド
+搦め手の奴ばっかりじゃなくて、たまには[r]真正面から戦うような奴が来て欲しいな、オレは。
+[k]
+
+？1：確かに
+
+[charaFace E 1]
+＠モードレッド
+そうだろ？[r]おまえ、なかなか分かってるマスターだな。
+[k]
+
+？2：搦め手もいいものだよ
+
+[charaFace E 4]
+＠モードレッド
+……そうかあ？
+[k]
+
+？！
+
+[charaFace A 7]
+＠マシュ
+先輩、哨戒を続けますね。[r]あと少しでシティの端まで到着します。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+強い奴、来い。来い！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

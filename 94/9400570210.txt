@@ -1,0 +1,246 @@
+
+＄94-00-57-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 2025200 1 アン]
+[charaSet E 3025000 1 清姫]
+[charaSet F 2025100 1 メアリー]
+[charaSet G 9004000 1 マルタ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩。ご存じですか。人間が一日に必要とする[r]水分量はおよそ３リットルだそうです。
+[k]
+
+＠マシュ
+実際にはこの南国の炎天下ですから、それ以上に摂る必要[r]があるとは思いますが。
+[k]
+
+？1：詳しいね、マシュ
+？2：顔、真面目すぎない……？
+？！
+
+＠マシュ
+水分は大事なのです。命に関わります。[r]ですからもっと気にしましょう。
+[k]
+
+[charaFace A 0]
+
+＠マシュ
+今までは雨水を溜めたり、別の場所からその都度汲んできて[r]いましたが、さすがに非効率と思い始めましたので[line 2]
+[k]
+
+
+＠マシュ
+スカサハさんに相談してみたのです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+うむ。相談されたぞ。とりあえず、[r]決まったところに水場を作ろうという話になった。
+[k]
+
+＠スカサハ
+確保してきた真水の保存場所だな。保存の仕組み自体は、[r]私がルーンでなんとかするが[line 2]
+[k]
+
+＠スカサハ
+マスターに決めてもらいたいのは、その水場の形状だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+水場……ですか。やはり井戸では？[r]木を使えば簡単にできると思いますよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マルタ
+井戸はいいですけど、木は腐ったりしませんか……？[r]煉瓦製にしたほうが頑丈な気がしますけど。
+[k]
+
+＠マルタ
+見栄えもいいと思いますし……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFace D 5]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+水は大事だ。ボクもマシュに同意するよ。
+[k]
+
+＠アン
+勿論です。航海では水はまさに命綱。
+[k]
+
+＠アン
+一度切らしてしまえばあとは祈るのみ。[r]死ぬのが早いか雨が降るのが早いか、です。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+じ、実感がこもっていますね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+だから提案するよ。水場は合理的であるべきだ。[r]最も合理的な形であるべきだ。つまり[line 2]
+[k]
+
+[charaFace D 1]
+＠アン
+蛇口がいいと思います☆
+[k]
+
+
+？1：……！？
+？！
+
+[charaFace F 3]
+＠メアリー
+カルデアにいたころから、実は感動していたんだ。
+[k]
+
+＠メアリー
+蛇口を捻れば水が出る。[r]これはなんて素晴らしいシステムなんだろうって。
+[k]
+
+[charaFace D 4]
+＠アン
+まったく。わたくし達の船にも蛇口がついていれば、[r]水を奪い合っての醜い揉め事や船内反乱など
+[k]
+
+＠アン
+起こらなかったかもしれませんのに……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（根本的な問題は他のところにあるような……）
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+風情のある木の井戸ですよね、ますたぁ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マルタ
+長く使うものになると思うし、[r]煉瓦の井戸が一番汎用的じゃない？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠アン
+あ。ところで風の噂に聞いただけなのですが。
+[k]
+
+[charaFace D 1]
+＠アン
+捻ればオレンジジュースが出る蛇口というのも[r]あるそうですね？
+[k]
+
+[charaFace D 3]
+＠アン
+それどころか、うどんのおダシの出る蛇口すらも[line 2]
+[k]
+
+[se ad60]
+[charaMove D 800,0 0.5]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 -800,0]
+[charaMove B 1 0.5]
+[wait charaMove]
+[seStop ad60]
+[charaFadeout D 0.1]
+
+
+
+＠アルトリア
+待ってください。[r]今、なんと？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+まあ、材料さえあればどれも不可能ではあるまい。[r]決めるのはお主だぞ、マスター……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

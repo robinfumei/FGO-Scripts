@@ -1,0 +1,256 @@
+
+＄91-60-18-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6018001 1 Ｘ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 1009001 1 司会]
+[charaSet F 98003000 1 Dr.ロマン]
+
+[scene 21600]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+[charaFace C 5]
+
+＠Ｘ
+前回の試合から幾星霜、襲いくるセイバーを[r]ちぎってはカリバー、ちぎってはカリバーし
+[k]
+
+＠Ｘ
+ついにこの時がやってきました……！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+やってきてしまいましたか……
+[k]
+
+？1：マシュ？
+
+[charaFace A 7]
+＠マシュ
+だ、大丈夫です、先輩！
+[k]
+[charaFace A 8]
+ただ、ちょっと疲れが……[-]
+[k]
+
+？2：投げやりになってない？
+
+[charaFace A 7]
+＠マシュ
+い、いえ、そんなことはありません、先輩！
+[k]
+[charaFace A 8]
+ただ、ちょっと疲れが……[-]
+[k]
+
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+
+＠Dr.ロマン
+なんだかよくわからないがマシュが精神的に[r]疲弊している件について。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+[charaFadeout B 0.1]
+
+＠司会
+続いての試合、選手入場ッ！！[r]東の方角、極東方面から登場するのは
+[k]
+
+＠司会
+ここまで圧倒的な実力で数々のセイバーを[r]打倒してきた謎のヒロインＸこと
+[k]
+
+＠司会
+“謎のヒロインＸ”だッッ！！
+[k]
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+[charaFace C 0]
+[se ad6]
+[wt 1.5]
+[seStop ad6 2.0]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+いやですから、紹介が被ってますって。
+[k]
+
+[charaFadeout A 0.1]
+
+＠司会
+そして西の方角、ローマからは……[r]政務で忙しい中来てくれたこのお方だッッ！！
+[k]
+
+＠司会
+我々市民はあなたを待っていた！！[r]永遠なるローマの都に咲き誇る薔薇の皇帝！！
+[k]
+
+＠司会
+“ネロ・クラウディウス皇帝陛下”その人だッ！！
+[k]
+
+[charaTalk D]
+[charaFadein D 0.4 1]
+[charaFace D 0]
+[se ad16]
+[wt 1.5]
+[seStop ad16 2.0]
+
+[charaFace D 2]
+＠ネロ
+皆の者！　今日はよく来てくれた！！[r]余が押しも押されぬ、第５代ローマ帝国皇帝
+[k]
+
+＠ネロ
+“ネロ・クラウディウス”である！！
+[k]
+
+[se ad16]
+[se ad6]
+[wt 2.0]
+[seStop ad6 1.0]
+[seStop ad16]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+ね、ネロさん、すごい人気ですね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+いやまあ、ここ、彼女のお膝元だしね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+
+[charaFace C 4]
+＠Ｘ
+くっ……、ブリテン開催ならば私の方が[r]大人気間違いなしだというのは確定的に明らか！
+[k]
+
+[charaFace D 1]
+＠ネロ
+うむ！　うむ！　皆の期待に応えてこそ皇帝！[r]では試合の前に一曲披露しようではないか！！
+[k]
+
+[se ad5]
+[wt 1.0]
+[seStop ad5 2.0]
+[wt 0.5]
+
+[charaFace C 2]
+＠Ｘ
+悪逆非道はそこまでです！　暴君ネロ……、いや[r]あえてこう呼ばせて頂きましょう。
+[k]
+
+＠Ｘ
+“赤セイバー”！！
+[k]
+
+[charaFace D 2]
+＠ネロ
+なっ！？　き、貴様は……！！
+[k]
+
+[charaFace C 1]
+＠Ｘ
+ふっ……、私の顔を見忘れたとは言わせません。[r]赤セイバーもついに年貢の納め時というわけです。
+[k]
+
+[charaFace C 5]
+＠Ｘ
+そもそも、本来セイバーは青セイバーの独占市場！[r]黒や白なども許すわけにはいきませんが
+[k]
+
+＠Ｘ
+まあ、個人的には許容できなくもない[r]ラインナップだったのですが赤はダメです、赤は！
+[k]
+
+＠Dr.ロマン
+あ、そこは許容できるんだ。
+[k]
+
+＠Ｘ
+そもそも青だの赤だのという区分自体、[r]私は許可を出した覚えはありません！
+[k]
+
+＠Ｘ
+それを後から出てきて市民に愛される[r]悪逆非道の大人気皇帝陛下気取り……
+[k]
+
+[charaFace C 2]
+＠Ｘ
+もはやその増上慢、許してはおけません！！
+[k]
+
+[charaFace D 5]
+＠ネロ
+き、貴様……
+[k]
+
+[charaFace C 5]
+＠Ｘ
+命乞いならもうおそ……
+[k]
+
+[charaFace D 0]
+＠ネロ
+ところで、どこのどなたか？
+[k]
+
+[charaFace C 2]
+＠Ｘ
+死ねぇえええええええええ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

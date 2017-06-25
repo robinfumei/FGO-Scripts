@@ -1,0 +1,150 @@
+
+
+＄94-00-91-01-1-1
+
+
+[charaSet A 98001000 1 マシュ]
+[charaSet B 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet C 4022001 1 サンタオルタ]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 10400]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠サンタオルタ
+……及第点ギリギリというところだな。[r]ひみつ袋はおまえに預けよう。
+[k]
+
+＠サンタオルタ
+ではトナカイ。[r]サンタの名に恥じぬよう、くれぐれも励め。
+[k]
+
+[messageOff]
+
+[se ad95]
+[charaMove C 1024,0 2.0]
+[seStop ad95 2.0]
+[wait charaMove C]
+[charaFadeout C 0.1]
+
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 7 0 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+こ、こわかった……こわかった……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+大丈夫ですか？[r]終始涙目で戦っていたような……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 4 0 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+いいえ、泣いてません。[r]サンタは泣きません、笑顔を届けるクラスですから！
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ともかく、先代サンタさんの許しも得ました。[r]さあ、早速プレゼントを配りに行きましょう！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+え、まだ早いって？[r]何を言いますか、トナカイさん。
+[k]
+
+[charaFace B 1]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+よく言うでしょう、[#善:サンタ]は急げと！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+わ、分かりました。[r]でも、準備があるのでちょっとだけ待って下さいね！
+[k]
+
+[charaFace A 0]
+＠マシュ
+まだ冬ではないとはいえ、晩秋。[r]場所によっては雪が降っていてもおかしくないでしょう。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ひとまず、冬季用の装備を準備してきます！
+[k]
+
+
+
+[se ad59]
+[charaFadeout A 0.4]
+[seStop ad59 1.0]
+
+[wt 0.6]
+
+
+
+[bgmStop BGM_EVENT_2 2.0]
+
+[messageOff]
+[wipeout rollRight 2.0 1]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[wt 1.0]
+[scene 10310]
+
+
+[wipein rollLeft 2.0 1]
+[wait wipe]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+さあ、回想も終わって出発ですよトナカイさん！
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+プレゼントを欲しがるサーヴァントたちが、[r]私たちを待っています！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_4 2.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[soundStopAll]
+[end]

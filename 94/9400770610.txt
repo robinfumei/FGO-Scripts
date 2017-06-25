@@ -1,0 +1,355 @@
+
+
+＄94-00-77-06-1-0
+
+[soundStopAll]
+
+[se ad14]
+[seVolume ad14 0 0.5]
+
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5012001 1 ニトクリス]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1010001 1 エリザベート]
+[charaSet E 98003003 1 Dr.ロマン]
+[charaSet F 7022001 1 茨木童子]
+[charaSet G 98002000 1 フォウ]
+
+[scene 31900]
+[fadein black 2.0]
+[wait fade]
+
+
+[se ad177]
+[se ad48]
+[seVolume ad48 0 0.3]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.4 1]
+＠エリザベート
+あつい[bgm BGM_EVENT_7 0.1][line 7]！[r]あつい[line 7]！！
+[k]
+
+[se ad178]
+[charaShake D 0.05 5 5 0.7]
+[charaFace D 2]
+＠エリザベート
+あちゃ！[r]マグマ！　マグマが撥ねたあついー！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.4 1]
+＠マシュ
+だ、大丈夫ですか！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エリザベート
+[messageShake 0.05 3 3 0.4]
+マシュぅぅぅぅ！
+[k]
+
+[se ad59]
+[seStop ad59 1.0]
+[charaMove D 1024,0 0.7]
+[wait charaMove D]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se ad7]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 3 3 0.4]
+＠マシュ
+盾の陰に！？[r]わ、[charaFace A 0]分かりました！
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスターも、ここは危険ですから[r]わたしの盾に隠れて下さい！
+[k]
+
+[se ad48]
+[seVolume ad48 0 0.2]
+[wt 0.7]
+
+[se ad48]
+[seVolume ad48 0 0.4]
+[wt 0.1]
+
+[se ad177]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠ニトクリス
+す、すいません私もお願いします！[r]剥き出しの太股が辛くて……！
+[k]
+
+[se ad59]
+[seStop ad59 1.0]
+[charaMove B 1024,0 0.7]
+[se ad177]
+[seVolume ad177 0 0.3]
+[wt 0.7]
+[wait charaMove B]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad7]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 3 3 0.4]
+＠マシュ
+ぎゅ、ぎゅうぎゅう詰め……！
+[k]
+
+？1：ロビンもこっちに！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+レスキューどーも。でも気持ちだけで十分ですわ。[r]こっちはフードもあるし何とかなる。
+[k]
+
+＠ロビンフッド
+冒険の旅には暑さ対策も必須なんでね。[r]まあ、さすがに溶岩は想定してませんでしたがねぇ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：バキちゃんもこっちに！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠茨木童子
+くはは、不要だ！[r]鬼の肌はこの程度の熱気で傷つくものではない！
+[k]
+
+[charaFace F 0]
+＠茨木童子
+[#吾:われ]はこのままで構わん。[r]せいぜい、[#吾:われ]の分まで貧弱な体を守っていろ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+？！
+
+[se ad177]
+[se ad48]
+[seVolume ad48 0 0.3]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace B 9]
+[charaFace D 8]
+[charaFadein B 0.1 0]
+[charaFadein D 0.1 2]
+
+[messageOff]
+
+[se ad48]
+[seVolume ad48 0 0.2]
+[wt 0.3]
+
+[se ad48]
+[seVolume ad48 0 0.1]
+[wt 0.7]
+
+[se ad48]
+[seVolume ad48 0 0.4]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk D]
+＠エリザベート
+ええいこの……[r]もうちょっと空けなさいよ、ニトクリス！
+[k]
+
+[charaMove D 192,0 0.1]
+[wait charaMove D]
+[charaShake B 0.05 3 3 0.05]
+[charaMove D 2 0.2]
+[wait charaMove D]
+[charaMove D 192,0 0.1]
+[wait charaMove D]
+[charaShake B 0.05 3 3 0.2]
+[charaMove D 2 0.05]
+[wait charaMove D]
+
+[se ad177]
+[se ad48]
+[seVolume ad48 0 0.1]
+[wt 0.2]
+
+[se ad48]
+[seVolume ad48 0 0.1]
+[wt 0.1]
+
+[charaShake B 0.05 3 3 0.2]
+＠ニトクリス
+嫌です！[r]これ以上はみ出ると、太股が……太股が……！
+[k]
+
+[charaTalk off]
+
+[messageOff]
+
+
+[shake 0.05 2 2 0.4]
+[se ad177]
+[se ad48]
+[seVolume ad48 0 0.2]
+[wt 0.7]
+
+[charaMove D 192,0 0.1]
+[wait charaMove D]
+[charaShake B 0.05 3 3 0.05]
+[charaMove D 2 0.2]
+[wait charaMove D]
+[charaMove D 192,0 0.1]
+[wait charaMove D]
+[charaShake B 0.05 3 3 0.2]
+[charaMove D 2 0.05]
+[wait charaMove D]
+
+[se ad48]
+[seVolume ad48 0 0.1]
+[wt 0.2]
+
+[se ad48]
+[seVolume ad48 0 0.1]
+[wt 0.4]
+
+[se ad178]
+[shake 0.05 5 5 0.7]
+
+[charaMoveReturn B -256,10 0.2]
+[charaMoveReturn D 256,10 0.2]
+
+[charaFace B 2]
+[charaFace D 2]
+＠二人
+[messageShake 0.05 5 5 0.7]
+熱[line 11]！
+[k]
+
+[wt 0.2]
+[bgmStop BGM_EVENT_7 0.4]
+[seStop ad14 0.4]
+
+[charaTalk on]
+[charaTalk C]
+[se ad21]
+[wt 1.5]
+[seStop ad21 1.5]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+こりゃマズい。[r]おい、敵さんが出てきたぞ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠エリザベート
+敵？[r]こんなところに敵……？
+[k]
+
+[charaFace D 5]
+＠エリザベート
+なに考えてんのあの女王！？[r]こんな！　溶岩地帯に！　敵を！　配置するとか！
+[k]
+
+[charaFace D 2]
+＠エリザベート
+そもそも、ここピラミッドへの一本道なのに！[r]何で溶岩地帯があるの！？
+[k]
+
+[charaFace D 5]
+＠エリザベート
+向こうだって、ここを通って城下街に行くの！？[r]バカなの？　バカなの！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[communicationCharaFace 0]
+[wt 0.3]
+＠Dr.ロマン
+……どうやら、過剰なストレスでこう……[r]インテリジェンスが一時的に強化されたようだね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+気持ちは大変よく分かりますが、[r]ともかく戦闘です皆さん！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エリザベート
+このマップを考えた奴、殺してやるわ！！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[charaFadeout D 0.4]
+
+[soundStopAll]
+[end]

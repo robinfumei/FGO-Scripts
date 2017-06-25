@@ -1,0 +1,102 @@
+＄94-00-61-61-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 98100800 1 うりぼう]
+[charaSet D 98101000 1 うりぼう]
+[charaSet E 98101200 1 うりぼう]
+[charaSet F 98002000 1 フォウ]
+
+[scene 20110]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+さあ、マスター！[r]今度こそ、きちんと仕留めました！
+[k]
+
+？1：やっぱりアルトリアがナンバー１！
+？！
+
+
+[charaFace B 9]
+＠アルトリア
+その通りです。
+[k]
+
+[charaFace B 7]
+＠アルトリア
+聖剣を使わずとも、セイバークラスでなくとも、[r]私が最優のサーヴァントであることは疑いない。
+[k]
+
+[charaFace B 1]
+＠アルトリア
+マスターも理解していただけたようで何よりです。[r]うんうん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace A 13]
+[charaFace F 0]
+[charaFadein A 0.1 2]
+[charaFadein F 0.1 0]
+
+＠フォウ
+フォウ……。
+[k]
+
+＠マシュ
+ともあれ、この洞窟も解放できましたね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠C：うりぼう
+鉱脈とかあるといいですなー。
+[k]
+
+＠D：うりぼう
+宝石とか出る気がするであります。
+[k]
+
+＠E：うりぼう
+ジュエルジュエルゴコウノスリキレ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+相変わらず常時シークタイムゼロセカンドで[r]喋っていますね、うりぼうさんは……。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]

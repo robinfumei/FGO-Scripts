@@ -1,0 +1,897 @@
+
+
+
+＄01-00-07-07-4-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+
+[charaSet B 98106200 1 マーリン]
+[charaSet C 98002000 1 フォウ]
+
+[charaSet D 3027000 1 アナ]
+[charaSet E 98003000 1 Dr.ロマン]
+
+[charaSet F 2020001 1 イシュタル]
+[charaSet G 98015000 1 スケルトン１]
+[charaSet H 98015000 1 スケルトン２]
+
+
+[bgm BGM_EVENT_3 0.1]
+[scene 20320]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 17]
+[charaFadein F 0.1 0,50]
+[charaShake F 0.2 0 3 0]
+
+＠イシュタル
+無駄無駄、ここをどこだと思っているのかしら！[r]エビフ山を望むティグリス河の上流よ！
+[k]
+
+＠イシュタル
+空も飛べない身で、[r]この私を捉えられると思わないコトね！
+[k]
+
+[messageOff]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[charaFadeout F 0.1]
+[scene 32940]
+[wt 0.1]
+[wipein downToUp 0.2 1]
+[wait wipe]
+
+[wt 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+ダメです、やはり女神イシュタルには敵いません！
+[k]
+
+＠マシュ
+というより、[r]こちらが優勢になると空に逃げられてしまいます！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+その通りだ、ズルいぞイシュタル！[r]地面に降りて正々堂々と勝負しないか！
+[k]
+
+[messageOff]
+[wipeout downToUp 0.2 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 20320]
+[charaTalk F]
+[charaFace F 17]
+[charaFadein F 0.1 0,50]
+[wt 0.1]
+[wipein upToDown 0.2 1]
+[wait wipe]
+
+
+＠イシュタル
+お馬鹿さん、自分の優位性を捨てるワケないじゃない！[r]さあ、遊びはここまで、いよいよ本気を出して[line 3]
+[k]
+
+
+[charaFace F 4]
+＠イシュタル
+出して[line 3]して[line 6]て[charaShakeStop F]
+[k]
+
+？1：動きが止まった……！？
+？2：いまだ、アナ！
+
+？！
+[messageOff]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[charaFadeout F 0.1]
+[scene 32940]
+[wt 0.1]
+[wipein downToUp 0.2 1]
+[wait wipe]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠アナ
+……いきます！[r]空を飛べなくとも、これだけ屋根があれば……！
+[k]
+
+
+[charaMove D 0,50 0.05]
+[wait charaMove]
+[se ad73]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[messageOff]
+[wipeout downToUp 0.2 1]
+[wait wipe]
+[scene 20320]
+[wt 0.1]
+[wipein upToDown 0.2 1]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,-50]
+[charaMove D 0,20 0.05]
+[wt 0.1]
+
+＠アナ
+……隙あり！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 0,50]
+
+＠イシュタル
+え？　って、いつの間に背後にとぅは！？
+[k]
+
+[messageOff]
+[effect bit_talk_12_blue_L]
+[se ad98]
+[charaShake F 0.01 5 5 0.7]
+[wt 0.4]
+[charaMove F 0,-50 0.4]
+[wait charaMove]
+[charaFadeout F 0.1]
+[se ad75]
+[wipeout upToDown 0.4 1]
+[wait wipe]
+[bgmStop BGM_EVENT_3 1.5]
+[wt 1.5]
+[scene 32940]
+[wipein downToUp 0.4 1]
+[wait wipe]
+[se ad74]
+[shake 0.05 5 5 0.7]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+女神イシュタル、墜落しました！[r]あれは[line 3][charaFace A 15]ちょっと痛い墜落の仕方です！
+[k]
+
+[charaFadeout A 0.1]
+
+＠イシュタル
+Ｑ～～…………
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……脳天から落ちましたからね……[r]女神イシュタル、完全に沈黙……気絶しています。
+[k]
+
+＠マシュ
+……あの、マスター。[r]どうしましょう、この方……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠アナ
+いまのうちに殺しておきましょう。[r]目を覚ましたらまたうるさくなります。
+[k]
+
+
+？1：……そうだ[&な:ね]、とりあえず[line 3]
+？！
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+
+[wt 2.0]
+
+[scene 20322]
+[fadein black 1.5]
+[wait fade]
+[wt 1.5]
+[wipeout downToUp 0.7 1]
+[wait wipe]
+
+[scene 32942]
+[fadein black 0.4]
+[wt 0.7]
+[wipein upToDown 0.7 1]
+[wait wipe]
+[bgm BGM_EVENT_2 0.1]
+[wt 0.4]
+
+[charaTalk F]
+[charaFace F 12]
+[charaFadein F 0.4 1]
+
+＠イシュタル
+[line 3]いた、頭いたっ……！[r]何よこれ、ここはどこ、私ったら縛られてる！？
+[k]
+
+[charaFace F 16]
+＠イシュタル
+意味が分からないわ！　説明を求めるわ！[r]いったい、何がどうなってるのかしら[line 3]！？
+[k]
+
+？1：あ、起きた
+
+[charaFace F 9]
+＠イシュタル
+起きたって、そりゃあ起きるわよ夜ですもの！[r]それより誰よ、アナタ！？
+[k]
+
+？2：おはようございます
+
+[charaFace F 0]
+＠イシュタル
+ええ、おはよう。私、丁寧な挨拶は好きよ。[r]……でも、アナタ誰？
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+
+
+＠イシュタル
+なにそれ、それ災厄の獣じゃない！？[r]なんでそんなのがここにいるの！？
+[k]
+
+[charaShake F 0.05 2 2 0]
+＠イシュタル
+もしかして食べられる？[r]私、生贄にされてしまうのかしら！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaShakeStop F]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+落ち着いてください、女神イシュタル。[r]我々はアナタに危害を加えるつもりはありません。
+[k]
+
+＠マシュ
+アナタに質問があるのです。
+[k]
+
+＠マシュ
+また、両手両足を縛っている事はご理解ください。[r]こちらの安全の為ですので。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 16]
+[charaFadein F 0.1 1]
+
+＠イシュタル
+！？
+[k]
+
+[charaFace F 12]
+＠イシュタル
+私を縛るとか、前代未聞なんですけど！？[r]私よ？　私なのよ！？　アナタ、後が怖くないの！？
+[k]
+
+？1：いやあ。これまで十分脅されましたから
+
+[charaFace F 9]
+＠イシュタル
+そ、そうなの？　嘘は言っていない眼ね……[r]うわぁ、そうなんだ……酷い女神ね、私……
+[k]
+
+？2：……怖いといえば怖いけど……
+
+[charaFace F 4]
+＠イシュタル
+そうよね、怖いわよね……いいわ、慣れてるから。[r]私、メソポタミア一の嫌われものなのだわ……
+[k]
+
+？！
+
+[charaFace F 5]
+＠イシュタル
+でも、こんな縄ぐらいで私を捕まえられると思うの？[r]本気出したら皆殺しよ、アナタたちなんて。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+いやいや、そこはこちらも容赦なしだよ。
+[k]
+
+＠マーリン
+その縄はキミの大好きなラピス・ラズリと[r]魔獣の皮で編んだ特注品だ。
+[k]
+
+＠マーリン
+さしもの女神のイシュタルでも解くのに数秒かかる。[r]それだけあれば後ろの彼女が黙っていないさ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[se ad51]
+
+＠アナ
+……はい。私の鎌は不死殺しですので。[r]なまじ死ねないと痛いですよ、イシュタル。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+
+＠イシュタル
+…………そう。[r]どうやら本当に捕まったようね、私。
+[k]
+
+[charaFace F 10]
+＠イシュタル
+それで、なに？[r]私を殺す前に聞きたい事でもあるのかしら？
+[k]
+
+？1：殺す気はありません
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace F 8]
+＠イシュタル
+…………どうだか。[r]ま、用件なんて一つだけ。『三女神同盟』のコト、でしょ？
+[k]
+
+？2：『三女神同盟』について聞きたい
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace F 0]
+＠イシュタル
+ま、そうなるでしょうね。[r]いいわ、何が聞きたいの？
+[k]
+
+？！
+
+[wt 0.4]
+[bgm BGM_EVENT_1 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+こちらからの質問はシンプルです。
+[k]
+
+＠マシュ
+なぜ女神はウルクを襲うのか。[r]他の女神たちの真名は何なのか。
+[k]
+
+＠マシュ
+そして、誰があなたたちを召喚したのか。[r]聞かせていただけないでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠イシュタル
+ふーん……アナタ、名前は？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+マシュ・キリエライトと言います。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠イシュタル
+そう、マシュ。[r]そこの人間は？
+[k]
+
+？1：[%1]です
+
+？！
+
+[charaFace F 7]
+＠イシュタル
+[%1]、と。
+[k]
+
+＠イシュタル
+いいでしょう。私に名前を教えた愚かさに免じて、[r]答えられる範囲で答えてあげる。
+[k]
+
+[effect bit_talk_40 0,-400]
+
+[charaFace F 0]
+＠イシュタル
+まず一つ目。私たち『三女神同盟』がウルクを襲う理由。[r]言うまでも無く、これからの地上を支配するためよ。
+[k]
+
+＠イシュタル
+まあ、私は人間の支配で、[r]北の女神は地上の支配、という細かな違いはあるけど。
+[k]
+
+＠イシュタル
+あと[#一柱:ひとり]の南の女神は……何なのかしらね、アレ。[r]アイツ、文化が違うからぜんぜん読めないわ。
+[k]
+
+＠イシュタル
+ともあれ、私たちは私たちで競争しているのよ。
+[k]
+
+＠イシュタル
+誰が最初にウルクを滅ぼして、ギルガメッシュ王が[r]隠し持つ聖杯を手に入れるかってね。
+[k]
+
+＠イシュタル
+いちばん最初にウルクの聖杯を手に入れた女神が[r]この土地を所有物とする。
+[k]
+
+＠イシュタル
+他の二柱は立ち去るか、[r]残るのなら従属神として仕える。
+[k]
+
+＠イシュタル
+それが私たち『三女神同盟』の目的よ。[r]単純でしょう？
+[k]
+
+？1：……北と南の女神の真名を教えてほしい
+
+？！
+
+[charaFace F 8]
+＠イシュタル
+それは答えられない。『三女神同盟』には[r]“互いに攻撃する事を禁じる”戒律があります。
+[k]
+
+＠イシュタル
+私たちはそれぞれ不可侵であり、妨害をしてはならない。[r]他の二柱の真名を明かすのは戒律違反よ。
+[k]
+
+[charaFace F 7]
+＠イシュタル
+アナタ……[%1]だって、[r]親しい友人の秘密は明かせないでしょう？
+[k]
+
+＠イシュタル
+本人がいない所で陰口を叩くなんて、[r]規律を良しとする女神として恥ずべき事。
+[k]
+
+＠イシュタル
+たとえ殺されても他の二柱の真名は語らないわ。[r][line 3]よろしくて？
+[k]
+
+？1：うん。それはそうだ。真名は諦めよう
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠イシュタル
+いい返答ね。高潔な人間は好きよ、私。
+[k]
+
+？2：……さっきまであんなに自分勝手だったのに……
+
+[charaFace F 11]
+＠イシュタル
+……そうでしょうね。[r]そこは自分でもそう思うわ……
+[k]
+
+？！
+
+[charaFace F 7]
+＠イシュタル
+あとは『私たちを召喚したのは誰か？』[r]という質問だけど[line 3]
+[k]
+
+＠イシュタル
+私はウルクの巫女たちに呼ばれた。[r]でも北の女神と南の女神は別。
+[k]
+
+[charaFace F 8]
+＠イシュタル
+あの二柱は聖杯に引き寄せられた女神よ。
+[k]
+
+＠イシュタル
+そこに魔術王とやらの思惑があったかまでは[r]私の知るところではないわね。
+[k]
+
+[charaFadeout F 0.1]
+[bgmStop BGM_EVENT_1 0.7]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マーリン
+ふむ。だいたいこちらの推測通りのようだ。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+＠マーリン
+他の二柱にくらべてイシュタルの攻勢が[r]おとなしめだったのも、呼ばれ方が違った為だ。
+[k]
+
+
+
+？1：話してくれてありがとう
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠イシュタル
+アナタこそ。[r]敵であれ礼を尽くしてくれた事には感心したわ。
+[k]
+
+？2：でも、どうしてそんな同盟に？
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠イシュタル
+……決まっているでしょう。[r]アナタたち人間に文句があるからよ。
+[k]
+
+＠イシュタル
+私は私のやり方でウルクを落とす。[r]どのみち他の女神に殺されるのなら、私が殺すのよ。
+[k]
+
+？！
+
+[effect bit_talk_40 0,-256]
+
+[charaFace F 0]
+＠イシュタル
+質問はこれで終わり？[r]なら私からも一つ、いいかしら。
+[k]
+
+＠イシュタル
+[%1]、カルデアの魔術師なのよね。
+[k]
+
+＠イシュタル
+年代的に言うなら人類最後のマスター、[r]で間違いはないかしら？
+[k]
+
+？1：最後にはならないよ
+
+？！
+
+[charaFace F 6]
+＠イシュタル
+言うじゃない。そしてレアじゃない。[r][line 3]いいわ。ますます私の好みだわ。
+[k]
+[charaFadeout F 0.1]
+[bgmStop BGM_EVENT_2 0.3]
+[effect bit_talk_40 0,-128]
+[wt 0.4]
+[messageOff]
+
+[se ad244]
+[seVolume ad244 0 0.2]
+
+[wt 0.7]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaShake C 0.1 0 5 0.7]
+
+＠フォウ
+フォウ……フォ？[r]ふぉ、フォフォフォフォフォ[line 4]ウ！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+フォウさん、いま大事な話をしているところなので[r]落ち着いて。ごはんでしたら後で[line 3]
+[k]
+
+[charaFace A 6]
+＠マシュ
+あと、で[line 3]
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.1]
+[seVolume ad244 0 0.4]
+
+[charaSet G 98015000 1 スケルトン１]
+[charaSet H 98015000 1 スケルトン２]
+[charaSet C 98015000 1 スケルトン３]
+[charaSet F 98015000 1 スケルトン４]
+[charaSet B 98015000 1 スケルトン５]
+[charaDepth G 2]
+[charaDepth B 1]
+[charaDepth H 1]
+[charaDepth F 0]
+[charaDepth C 0]
+
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[charaFadein G 0.4 1]
+[wt 0.4]
+[charaFadein B 0.4 192,0]
+[wt 0.4]
+[charaFadein H 0.4 -192,0]
+[wt 0.4]
+[charaFadein F 0.4 384,0]
+[wt 0.4]
+[charaFadein C 0.4 -384,0]
+[wt 0.4]
+
+[wt 0.7]
+[seStop ad244 1.0]
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 98002000 1 フォウ]
+
+[charaSet F 2020001 1 イシュタル]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ドクター、大変です！[r][#市:まち]のいたるところに骸骨が現れています！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+そ、そうなのかい！？[r]こちらでは何の反応もないぞ！？
+[k]
+
+＠Dr.ロマン
+あるのは大量の[#魔力:マナ]だけだ！[r]さっきから何も異常は[line 3]
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そうか、分からない筈だ！
+[k]
+
+＠Dr.ロマン
+西暦ならこれほどの魔力反応があれば異常になるけど、[r]そこは神代だ！
+[k]
+
+＠Dr.ロマン
+死体が動くぐらいじゃ魔力測定に揺れは起きない！[r]そっちではそれぐらい異常でもなんでもないんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+そのようだ、私もこれはどうかと思う！[r]この数、どう見てもクタ市の総人口より多いからね！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+
+＠アナ
+……撤退するべきです。[r]幸い、目的の粘土板は回収しています。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+
+＠Dr.ロマン
+ああ、至急クタ市から脱出を！[r]このままじゃ骸骨たちに呑み込まれるぞ！
+[k]
+
+？1：了解！　でもその前に……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠イシュタル
+…………。
+[k]
+
+？1：敬意を払って縄を解く
+？2：仕方ないので縄を解く
+
+？！
+
+[messageOff]
+[se ad77]
+[charaFace F 9]
+[wt 1.0]
+[charaFadeout F 0.4]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、急いで！[r]アナさんと戦力を集中して、一点突破します！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wt 0.4]
+[se ad59]
+[wait wipe]
+[wt 0.7]
+[seStop ad59 0.4]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+
+＠イシュタル
+[line 3]待ちなさい。[r]なぜ私の縄を解いたの？
+[k]
+
+？1：だってイシュタル様、ウルクを襲ってないでしょ
+[messageOff]
+
+[charaFace F 16]
+[wt 1.5]
+
+？2：話し合えば分かると思って
+[charaFace F 14]
+
+＠イシュタル
+ぐっ……そんなワケ、ないじゃない……[r]話し合いとか、したくとも出来なかったし……
+[k]
+
+？！
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠アナ
+……急いでください……！[r]時間が経つほど数が増えていきます！
+[k]
+
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[scene 10000]
+[wt 0.2]
+[bgmStop BGM_EVENT_3 0.5]
+[wt 0.4]
+
+[messageOff]
+[effectStop bit_talk_40]
+[fadeout black 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

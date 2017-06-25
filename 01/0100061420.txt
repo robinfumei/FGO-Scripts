@@ -1,0 +1,342 @@
+＄01-00-06-14-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet F 5022001 1 三蔵]
+[charaSet G 2014000 1 ？？？]
+
+[scene 11800]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+想像以上に広く、複雑な作りですね……[r]もう砦の敷地以上は歩いている筈ですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠呪腕のハサン
+うむ。陰湿な作りの地下牢よ。[r]入ってきた者から捕らえる気のようだ。
+[k]
+
+[charaFace D 0]
+＠呪腕のハサン
+マシュ殿は気づいていないようですが、[r]ここは既に地下三階だったりしますぞ？
+[k]
+
+[charaFace A 6]
+＠マシュ
+そんな！？[r]階段も坂道もなかったのにですか！？
+[k]
+
+[charaFace D 0]
+＠呪腕のハサン
+道そのものがはじめから傾いているのですよ。[r]暗闇になれた者でなければ気がつきませぬ。
+[k]
+
+[charaFace D 4]
+＠呪腕のハサン
+……これは既に地下迷宮。[r]少々厄介な話になってきましたな……
+[k]
+
+？1：ところで、アグラヴェインって誰？
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そうか、[%1][&君:ちゃん]は[r]アグラヴェインをあまり知らなかったんだね。
+[k]
+
+＠Dr.ロマン
+華々しい伝説を持つガウェイン卿やランスロット卿、[r]パーシヴァル卿やらと比べると見劣りするけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠マシュ
+……アグラヴェイン卿は、[r]アーサー王の副官とも言える人物です。
+[k]
+
+＠マシュ
+アーサー王の姉であり、生涯にわたって[r]アーサー王を呪い、[#疎:うと]んだモルガンの息子のひとり。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+ほう。アーサー王の敵の息子……つまり、[r]スパイとして送り込まれた獅子身中の虫だったと？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠マシュ
+……はい。系譜だけを見れば。アーサー王に[r]叛逆したモードレッド卿の異父兄でもありますし。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+同時にアーサー王に忠誠を誓ったガウェイン卿の[r]末弟でもある。
+[k]
+
+[charaFace A 4]
+＠マシュ
+はい。でもガウェイン卿と妖妃モルガンには[r]あまり接点はなかったようです。
+[k]
+
+＠マシュ
+モードレッド卿もモルガンに作られた子供では[r]ありますが、モルガンの許にいたのは幼少期だけ。
+[k]
+
+＠マシュ
+もしかすると、妖妃モルガンはアグラヴェイン卿だけを[r]信頼できる息子として扱っていたのかもしれません。
+[k]
+
+[charaFace A 0]
+＠マシュ
+アグラヴェイン卿は冷静な人物で、キャメロットでは[r]アーサー王に次いで国政を担っていた文官です。
+[k]
+
+＠マシュ
+円卓の騎士たちの大半は彼を嫌っていたのでしょう。[r]いつ裏切るとも分からないモルガンの手の者、と。
+[k]
+
+[charaFace A 4]
+＠マシュ
+けれど、その最期は[line 3]
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ランスロット卿の手によって殺されてしまうんだよね。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+アーサー王の妻ギネヴィア。[r]そのギネヴィアと関係を持ったランスロット。
+[k]
+
+＠Dr.ロマン
+二人の不貞を告発したのはアグラヴェインだ。[r]アグラヴェインはギネヴィアを不浄の女と[#罵:ののし]り、
+[k]
+
+＠Dr.ロマン
+ランスロットはその怒りでアグラヴェインを[r]斬り殺してしまう。そして……
+[k]
+
+[charaFace A 4]
+＠マシュ
+それがきっかけになって、円卓の崩壊は始まった。
+[k]
+
+＠マシュ
+ランスロットは王妃ギネヴィアを攫って[r]キャメロットから自国であるフランス領に戻り、
+[k]
+
+＠マシュ
+アーサー王はローマ遠征を成功させたものの、[r]その帰国時にモードレッド卿の叛乱にあって……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……カムランの丘で、その生涯を終えてしまう。[r]それが有名なアーサー王伝説の結末だ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+うん。そういった視点で言うと、アグラヴェインは[r]モルガンの目論見通り、アーサー王を謀殺した事になる。
+[k]
+
+＠Dr.ロマン
+彼さえ王妃ギネヴィアとランスロットの不貞を[r]暴かなければ、円卓は衰退しなかったんだから。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そうですね……[r]最小の発言で、最大の効果を出したと言えます。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+ふーむ……円卓の騎士の伝説など興味も[r]ありませんでしたが、こう聞くとアレですなぁ。
+[k]
+
+＠呪腕のハサン
+騎士道だのなんだのと誇っておきながら、[r]内実は世知辛いのですなぁ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠三蔵
+おーい、トータ～。[r]どこー。
+[k]
+
+＠三蔵
+……お～～～～いっ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+＠フォウ
+フォ[line 3]ウ！
+[k]
+
+[charaFace F 4]
+＠三蔵
+うう……。こんなに探しても見つからないなんて……[r]もしかして、もうやられちゃったとか……？
+[k]
+
+＠三蔵
+そんなのやだ……。[r]うう……あたしの……せいだ……。
+[k]
+
+＠三蔵
+あたし、お師匠様なのに……お弟子ひとり助けられない[r]なんて、ごめん、ごめんトータ……！
+[k]
+
+＠フォウ
+フォーウ。[r]フォ？　[charaAttack C normal -400,0 0.4][charaFadeout C 0.4]フォウ、フォーウ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+フォウさん、いけません。[r]今は寄り道をしている場合では[charaFace A 6][line 3]あ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスター、こちらに隠し道が！[r]奥に牢があります！
+[k]
+
+＠マシュ
+加えて、牢の前には守衛と思われる敵影を視認！[r]牢に居るのはサーヴァントです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠三蔵
+本当！？[r]待って、すぐに行く、すぐに行くわ！
+[k]
+
+
+＠？？？
+ん？　この落ち着きのない困った声……[r]おーい！　もしや三蔵か[line 3]！
+[k]
+
+[charaFace F 1]
+＠三蔵
+トータ！　今の声、トータだわ！[r]お[line 3]い！　そうよ、あたしよ[line 3]！
+[k]
+
+[charaFace F 0]
+＠三蔵
+弟子の危機なら垣根も越える、[r][#乾闥婆城:けんだつばじょう]も何の[#園:その]！
+[k]
+
+＠三蔵
+[#阿毘達磨:あびだつま]を論ずれば、[r]即ち経蔵、律蔵、論蔵なり！
+[k]
+
+[charaFace F 1]
+＠三蔵
+これぞ御仏に至る道、すべてを修める三蔵法師！[r]ようするに玄奘三蔵、遅刻したけど戻ってきたわ！
+[k]
+
+
+＠？？？
+おお、そのバチ当たりな大見得はまさしく！[r]しかし、嬉しいが気をつけろと言っておこう！
+[k]
+
+[se ad57]
+
+＠？？？
+牢の前にあるのは拙者に並ぶ怪力無双！[r]そうら、いまお主に向かっていったぞ！
+[k]
+
+＠？？？
+特に蹴りが痛いぞ、蹴りが！[r]わはは、まともに受ければ内臓がでんぐり返しよ！
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[seStop ad57 1.0]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace F 2]
+＠三蔵
+って、きゃ[line 4]！[r]みんな、迎撃、迎撃！
+[k]
+
+＠三蔵
+あのでっかいのをやっつけて、[r]まずはトータを助けちゃいましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

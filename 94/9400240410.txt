@@ -1,0 +1,614 @@
+＄94-00-24-04-1-0
+
+
+
+
+[charaSet B 11002002 1 エドモン・ダンテス]
+[charaSet C 99490000 1 ナイチンゲール]
+[charaSet D 1022000 1 ジル・ド・レェ]
+[charaSet E 9001001 1 ジャンヌ・ダルク]
+[charaSet H 9001001 1 ジャンヌ影]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 10420]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[wt 2.0]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠ジャンヌ・ダルク
+[line 3]ああ、良かった。瞼を開けてもらえました。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・ダルク
+聞こえていますね、[%1]。[r]私には分かります。
+[k]
+
+[charaFace E 5]
+＠ジャンヌ・ダルク
+あなたに、聞かせたいお話があるのです。[r]それは遠い過去の日々の記録であり、恩讐の果て……
+[k]
+
+
+[charaFace E 4]
+＠ジャンヌ・ダルク
+誰しもに忘れ去られても、[r]決して、朽ちる事のなかった想いの物語。
+[k]
+
+[charaFace E 5]
+＠ジャンヌ・ダルク
+一人の男の物語です。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[scene 20160201]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+
+＠C：メルセデス
+……おはようございます、[%1]様。
+[k]
+
+[charaFace C 4]
+＠C：メルセデス
+小声で失礼しますね。
+[k]
+[charaFace C 0]
+実は今朝は……あ、朝かどうか分からないですが。
+[k]
+
+[charaFace C 5]
+＠C：メルセデス
+その、アヴェンジャー様のご機嫌が[r]あまり宜しくないようなのです。
+[k]
+
+[charaFace C 4]
+＠C：メルセデス
+ですから……[r]あまり、刺激しない方が。
+[k]
+
+？1：彼は最初から不機嫌なような
+
+[charaFace C 0]
+＠C：メルセデス
+そう、でしょうか？[r]私にはそういう風には見えなくて……
+[k]
+
+＠C：メルセデス
+むしろ、普段は楽しそうにさえ思えます。[r]でも今日は何だか……
+[k]
+
+？2：そんなに怒ってるの？
+
+[charaFace C 0]
+＠C：メルセデス
+普段はもっと楽しげな方だと思うのです。
+[k]
+[charaFace C 4]
+……え？　違いますか？
+[k]
+
+[charaFace C 0]
+＠C：メルセデス
+朗らか、というのとは違いますが[r]ご本人としては楽しげ、と言いますか……
+[k]
+
+[charaFace C 4]
+＠C：メルセデス
+でも、今日は何だか違って。[r]ひどく荒ぶられているような……
+[k]
+
+？！
+
+[wt 1.0]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠B：アヴェンジャー
+…………目覚めたか。
+[k]
+
+＠B：アヴェンジャー
+第四の裁きへと赴くぞ。遅れるな。
+[k]
+
+[se ad7]
+[messageOff]
+[charaFadeout B 0.1]
+
+？1：……本当だ
+？2：テンションがいつもより低い？
+
+？！
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠C：メルセデス
+です、よね。[r]あ、今日もどうかお気を付けてくださいませ。
+[k]
+
+[charaFace C 1]
+＠C：メルセデス
+怪我などなさらないよう、[r]無事のお戻りを此処からお祈りいたします。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[scene 22000]
+
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[se ad60]
+[wt 2.5]
+[seStop ad60]
+
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+…………先に、言っておく。
+[k]
+
+＠B：アヴェンジャー
+おまえが殺す相手。[r]第四の『裁きの間』にいるのは、憤怒の具現だ。
+[k]
+
+＠B：アヴェンジャー
+憤怒。怒り、憤り。[r]それは最も強き感情であるとオレが定義するモノ。
+[k]
+
+＠B：アヴェンジャー
+自らに帰因する怒りたる私憤でも、[r]世界に対しての怒りたる公憤でも構わん。
+[k]
+
+[charaFace B 4]
+＠B：アヴェンジャー
+等しく、正当な憤怒こそが最もヒトを惹き付ける。[r]時に、怒りが導く悲劇さえもヒトは讃えるだろう。
+[k]
+
+[charaFace B 0]
+＠B：アヴェンジャー
+見事な[#仇討ち]だ、とな。
+[k]
+
+＠B：アヴェンジャー
+古今東西、老若男女の別なく。[r]復讐譚を[#人間:オマエタチ]は好み、愛おしむのだ。
+[k]
+
+[wt 1.0]
+
+
+[messageOff]
+[se ad39]
+[fowardEffect bit_talk_06]
+[wt 1.5]
+[fowardEffectStop bit_talk_06]
+[seStop ad39 0.2]
+[se ad42]
+[seStop ad42 0.8]
+[wt 0.3]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+それを……！
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+ヤツは認めようとはしない！[r]怒りを、最も純粋なる想いを否定する！
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+第四の支配者に配置されておきながら、[r]さも当然とばかりに救いと[#赦:ゆる]しを口にし続ける！
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+許されぬ。許されぬ。[r]おお、偽りの救い手なぞ反吐が出ようというものだ。
+[k]
+
+？1：そんなに『憤怒』が好きなのか
+
+[charaFace B 5]
+＠B：アヴェンジャー
+つまらんことを聞くな。[r]行くぞ。
+[k]
+
+？2：ヤツ？
+
+[charaFace B 5]
+＠B：アヴェンジャー
+そうとも！[r]ヤツだ、人が[#赦:ゆる]し神が赦そうともオレは赦さぬ！
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+おまえが！　この先の『裁きの間』で殺し合う相手！[r]ああ、戦いでは存分にオレを使うがいい！
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+喜んでおまえの力になろう！[r]ヤツを引き裂けるのは僥倖としか言えぬわ！
+[k]
+
+？！
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[wt 2.0]
+
+[charaFadeout B 0]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0 1]
+
+[scene 23000]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad45]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジル・ド・レェ
+……来ましたね。[r]迷える魂を更なる淀みに引き込む者、正義の敵よ。
+[k]
+
+＠ジル・ド・レェ
+もう一人の私は狂気と共に在ったようですが[r]この私はジル・ド・レェ、聖なる旗に集いし騎士！
+[k]
+
+[charaFace D 2]
+＠ジル・ド・レェ
+正義の刃のもと、[r]あなたたちを断罪しよう！
+[k]
+
+？1：セイバーのジル・ド・レェ！？
+
+[charaTalk B]
+＠B：アヴェンジャー
+前回とは些か気配が異なるな。[r]ほう、ヤツに引きずられて現界したと見える。
+[k]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+ヤツは騎士の奥にいる。[r]見るがいい。
+[k]
+
+？2：第四の支配者…
+
+[charaTalk B]
+＠B：アヴェンジャー
+違う。[r]ヤツは、その奥にいる者だ。見ろ。
+[k]
+
+？！
+
+[messageOff]
+
+[charaFilter H silhouette 00000000]
+[charaTalk H]
+[charaFadeout D 0.7]
+[charaFadein H 0.7 1]
+[wt 1.0]
+
+[charaTalk E]
+[charaFadein E 1.0 1]
+[wt 1.1]
+[charaFadeout H 0]
+
+＠B：アヴェンジャー
+見ろ、見ろ！　あれが！　聖なる旗を掲げるモノ！[r]愚かしくも主の加護なぞを口にして調停者を気取る！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+サーヴァント・ルーラー！[r]その真名をオレは知っている[line 3]
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+忌まわしきはジャンヌ・ダルク！[r]我が道を阻まんとして自ら望み監獄塔へと入りし女！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ・ダルク
+……アヴェンジャー。[r]はい。あなたの言葉の通りです。
+[k]
+
+[charaFace E 5]
+＠ジャンヌ・ダルク
+私は、あなたを止めるために此処へと至った。[r]かつての昔、導く者として立った私があなたを阻む。
+[k]
+
+？1：聖女ジャンヌ！
+？2：彼女が、憤怒の具現…？
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+そうだ、ジャンヌ・ダルクこそ憤怒の具現よ！[r][#今更:いまさら]言うまでもなかろうよ！
+[k]
+
+＠B：アヴェンジャー
+[#人間:オマエタチ]を信じ、主を信じ、[r]それらのすべてに裏切られ炎に消えた無念の聖女！
+[k]
+
+＠B：アヴェンジャー
+ならばその魂には消えぬ炎が灯る。[r]いいや、炎こそが核として燃え盛るが道理！
+[k]
+
+＠B：アヴェンジャー
+哀しみをおまえは知るだろう！[r]怒り、恨み、噴きあがる黒き炎こそおまえだ！
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+おまえこそ！[r]第四の裁きに相応しい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ・ダルク
+いいえ。アヴェンジャー。[r]私には、元から憤怒など存在しないのです。
+[k]
+
+[charaFace E 5]
+＠ジャンヌ・ダルク
+私は決して[%1]を裁きません。[r]その資格も、その意思もない。
+[k]
+
+＠ジャンヌ・ダルク
+この場にいる私が……[r]正しく現界した私ではないのだとしても、構わない。
+[k]
+
+＠B：アヴェンジャー
+……何ィ……？
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・ダルク
+あなたです、復讐者。
+[k]
+
+＠ジャンヌ・ダルク
+世界とヒトを憎悪し続けるようにと定められた[r]哀しくも荒ぶる魂、アヴェンジャーよ。
+[k]
+
+[charaFace E 5]
+＠ジャンヌ・ダルク
+私は、あなたを救いましょう。[r]聖旗が、シャトー・ディフに在ってもこうして輝くように。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+黙れ。黙れ、黙れ！！
+[k]
+
+
+[charaFace B 2]
+
+[se ad51]
+[shake 0.05 0 4 0.5]
+＠B：アヴェンジャー
+[fontSize x-large]黙れェ！！
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFace E 5]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ジル・ド・レェ
+ジャンヌよ、お下がりください！[r]神と貴女に捧げた剣、今こそ振るう時であると心得た！
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・ダルク
+ジル！[r]いけません、彼は私が[line 3]
+[k]
+
+[charaFace D 5]
+＠ジル・ド・レェ
+あの黒き気配、邪悪の怨念！[r]監獄塔に在っては、主の救いさえあの魂には及ばず！
+[k]
+
+[charaFace D 2]
+＠ジル・ド・レェ
+聖女よ、アレは貴女の思う魂とは違う！[r]狂い果てた魂は断罪の刃を以てあたる他にない！
+[k]
+
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+[se ad39]
+[fowardEffect bit_talk_06]
+
+＠B：アヴェンジャー
+はははははははは！[r]そうだ、このオレは恩讐の彼方より来たる復讐者！
+[k]
+
+[fowardEffectStop bit_talk_06]
+[seStop ad39 0.2]
+[se ad42]
+[seStop ad42 0.8]
+[wt 0.3]
+
+＠B：アヴェンジャー
+そう在れかしと誰しもが言うのだ。[r]憎め、殺せ、敵の[#悉:ことごと]くを[#屠:ほふ]り尽くせと期待し続ける！
+[k]
+
+＠B：アヴェンジャー
+ならばオレはそう在ろう！[r][#人間:オマエタチ]が請い願うままに、世界に復讐する！
+[k]
+
+＠B：アヴェンジャー
+此処に愛しきエデはなく、尊きファリア神父はなく、[r]ならば主さえも我が魂を救えはしない！
+[k]
+
+？1：エデ？　ファリア神父？
+
+[charaFace B 1]
+＠B：アヴェンジャー
+おまえもだ！[r]仮初めのマスターよ、おまえはオレを救わない！
+[k]
+
+＠B：アヴェンジャー
+救える筈があるかよ！[r]この黒炎が消える事など未来永劫有り得ぬ！
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+はは！　ははははは！[r]はははははははははははははは！！
+[k]
+
+？2：分かるように言え、アヴェンジャー！
+
+[charaFace B 1]
+＠B：アヴェンジャー
+ああ、そうだな！[r]おまえのために第四の支配者を殺すというコトだ！
+[k]
+
+＠B：アヴェンジャー
+希望の旗を鮮やかに引き裂こう！[r]輝きも、聖なるモノも、オレには何の意味もない！
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+尊く、聖なるモノ！[r]すべて等しく[#無価値]に過ぎぬわ！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace D 5]
+[charaFace E 5]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ジャンヌ・ダルク
+……仕方ありません。[r]対話では、あなたを止められないのなら。
+[k]
+
+
+[charaFace E 2]
+＠ジャンヌ・ダルク
+私は戦いましょう。[r]ジル、どうか力を貸してください！
+[k]
+
+[charaFace D 2]
+＠ジル・ド・レェ
+はっ。聖女よ、貴女と主の輝きの旗に勝利あれ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+ははははははははは！　来い！　来い！[r]神がオレをどう思っているのか常々知りたかった！
+[k]
+
+[charaFace B 0]
+＠B：アヴェンジャー
+いいかマスター！[r]何と言おうがアレは『裁きの間』の支配者だ！
+[k]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+故におまえは戦い、勝つ他にない！[r]生き残りたければ[line 3]
+[k]
+
+[charaFace B 2]
+＠B：アヴェンジャー
+[line 3]聖女を！　殺せ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

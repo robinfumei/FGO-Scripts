@@ -1,0 +1,508 @@
+
+
+
+＄01-00-07-14-3-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98108200 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5018001 1 ギルガメッシュ]
+
+[se ad229]
+[seVolume ad229 0 0.2]
+[scene 33900]
+[fadein black 1.5]
+[wait fade]
+[wt 1.5]
+
+[fadeout black 1.5]
+[wt 1.0]
+[seStop ad229 1.0]
+[wait fade]
+[scene 33800]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[flashin once 0.7 0.7 FFFFFFAF FFFFFF00]
+[se ad65]
+[wt 2.0]
+
+
+[bgm BGM_EVENT_5 0.1]
+[charaScale B 1.12]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.4 0,-50]
+
+＠イシュタル
+っ……やっぱりまた呪われたか……[r]魔力全開で防御してもダメみたいね……
+[k]
+
+＠イシュタル
+このままいくと戦闘に参加できないばかりか、[r]本気でエレシュキガルにひねり潰されちゃうじゃない……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そうでしょうか？[r]見たかぎり、弓の破壊力はまったく低下していませんよ？
+[k]
+
+＠マシュ
+大きさが変化しているだけで、[r]イシュタルさんの戦闘力は頼りになっています。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 0,-50]
+
+＠イシュタル
+ゴメン、それもこのあたりが限界。[r]そろそろ割が合わなくなるから、戦闘はお任せするわ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+……まずいな、まだ第二の門だ。[r]女神イシュタル無しでどこまで行けるか……
+[k]
+
+
+？1：自分とマシュで何とかする
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、もちろんです。[r]先輩の期待に応えられるよう、鋭意努力しますね！
+[k]
+
+
+？2：イシュタルはまだいける
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 0,-50]
+[messageShake 0.05 5 5 0.4]
+
+＠イシュタル
+アナタ、私の話聞いてなかった！？[r]疲れるから無理だって言ったでしょ！？
+[k]
+
+
+？！
+
+[wt 0.2]
+[se ad60]
+[seVolume ad60 0 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 1.0]
+[scene 33900]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+[seStop ad60 0.4]
+
+
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+第三の門だね。試練の敵も着実に強さを増している。[r]今回もなんとか切り抜けられるといいんだが……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+女神エレシュキガルよりの選択をすれば、[r]戦闘難易度は明らかに軽減されるのですが……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0,-50]
+
+
+＠イシュタル
+それはだめ。どんなに辛くても[r]譲れない一線が女にはあるのよ、マシュ。
+[k]
+
+＠イシュタル
+“他の女神は相対的に見て私のが上だからいいけど[r][f small]  [f -]コイツにだけは絶対的に負けられない”
+[k]
+
+＠イシュタル
+そんな、もうどうしようもなく[r]気に食わないライバルとの戦いとかね！
+[k]
+
+？1：鏡に映った自分のような強敵だからね……
+？2：主観も客観も超越しているんだね……
+
+？！
+
+
+[wt 0.2]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[cameraMove 0.1 80,0 1.25]
+[wt 0.1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+＠？？？
+貴様にそれほどの気概があったとはな。[r]いっぱしの口を利くようになったな、小娘よ。
+[k]
+
+＠？？？
+[FFFFFF]？　いや、実際に小娘になっていないか小娘よ？[-][r]ふははは、なんだそれは面白い！
+[k]
+
+＠？？？
+それではさぞ冥界下りは不安であろう！[r]ついに進退[#窮:きわ]まったな、小娘、そして[%1]！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[cameraHome 0.1]
+[wait camera]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+！　岩陰に何かいます！[r]マスター、攻撃の許可を！
+[k]
+
+？1：よし、全力で叩け！
+？2：待て、あれは……！
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.4]
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+[bgm BGM_EVENT_4 0.1]
+
+＠ギルガメッシュ
+ふはははははははははは出迎えご苦労！
+[k]
+
+＠ギルガメッシュ
+冥界のあまりの寒々しさに[#怯:おび]えているな[#一見:いちげん]さんめ！[r]冥界に詳しい[#我:オレ]の[#案内:ガイド]は必要か？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+貴方はギルガメッシュ王[line 3]！
+[k]
+
+＠マシュ
+なぜこんなところに！？[r]エレシュキガルに囚われているのでは！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+フッ。冥界なぞ[#我:オレ]の庭よ。[r]それなりに勝手は知っている。何度も来たからな。
+[k]
+
+[charaFace D 5]
+＠ギルガメッシュ
+油断して死んでしまったが、ガルラ霊どもが来る前に[r]物陰に[#隠:かく]れ呼吸を止め瞑想に[#浸:ひた]り気配遮断EX。
+[k]
+
+＠ギルガメッシュ
+完璧に奴らの目から逃れた後、ここでどうしたものかと[r]思案していた時に貴様らが現れた、それだけの話よ！
+[k]
+
+？1：超・元気だこのひと……
+？2：さすが王さま、いつも通りです！
+
+？！
+
+[charaFace D 1]
+＠ギルガメッシュ
+貴様もな、[%1]。[r]猪突猛進な貴様の事だ、必ずや冥界に来ると予見していたわ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 0,-50]
+
+＠イシュタル
+……エレシュキガルに捕まっていないのは良かったけど、[r]想像以上に元気そうでムカつくわね、コイツ……
+[k]
+
+＠イシュタル
+私同様、[r]呪いを受けていればまだ可愛げがあったのに……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+バカめ。冥界の呪いは生者にかかるもの。[r][#我:オレ]は死んでいる故な、冥界の罰は落ちぬ。
+[k]
+
+[charaFace D 3]
+＠ギルガメッシュ
+だが、それは同時にエレシュキガルの[#法律:ルール]下に[r]あると言える。
+[k]
+
+＠ギルガメッシュ
+ウルクに戻りたくとも、[r]ヤツの許しなくして冥界からの出国は敵わぬ。
+[k]
+
+[charaFace D 0]
+＠ギルガメッシュ
+ヤツがおとなしく[#我:オレ]を帰すとも思えぬ。[r]であれば、分かるな[%1]？
+[k]
+
+[charaFace D 2]
+＠ギルガメッシュ
+王たる[#我:オレ]が命じる。[#我:オレ]のために冥界の門を抜け、[r]あのさもしいエレシュキガルめをこらしめるがいい！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+
+＠Dr.ロマン
+ああ、[%1][&君:ちゃん]はもとから[r]そのつもりで来たからね。
+[k]
+
+＠Dr.ロマン
+あべこべな話になってしまったけど、キミもエレシュキガル[r]退治に協力してくれるんだろう、ギルガメッシュ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+任せるがいい。[r]そこの[#小小:ココ]小娘との格の違いを見せてやろう。
+[k]
+
+[bgmStop BGM_EVENT_4 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+＠ギルガメッシュ
+ところで、なぜそんなに縮んだのだ？[r]今さら己の愚かさに気づき、[#畏:かしこ]まりまくったのか？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0,-50]
+[charaShake B 0.01 5 5 0.5]
+
+＠イシュタル
+エレシュキガルの呪いだって言ってるでしょーがっ！
+[k]
+
+＠イシュタル
+ああもう、[r]やっぱりアンタなんて助けに来るんじゃなかったわ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+ははは。こやつめ、ははは。[r]貴様が[#我:オレ]を助けに来るなど、これは夢か？
+[k]
+
+＠ギルガメッシュ
+もしや我、冥界でさらなる過労死を迎え、[r]幻でも見てしまっているのかな？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 0,-50]
+
+
+＠イシュタル
+ええ、そうだったら後腐れなく見捨てられたのにね。[r]このまま深淵まで落ちれば？
+[k]
+
+＠イシュタル
+泳ぎ、得意でしょアナタ。[r]沐浴に夢中になって、霊草を蛇に盗まれる程度には。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+ぬう、[#我:オレ]のトラウマを適確に[#抉:えぐ]るその口汚さ！[r]これは幻ではない……真のイシュタルだ！
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+しかしそれでは辻褄が合わぬ。
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]の夢でないのなら、[r]このやや愛らしいイシュタルはなんだと言うのだ？
+[k]
+
+＠ギルガメッシュ
+よもや、確変でも起きたというのか？[r][%1]の手前、猫を百匹[#被:かぶ]っているのか？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-50]
+
+＠イシュタル
+うわ、きも。愛らしいって、アンタに言われると[r]寒気がするわ。あとネコとかまったく覚えがないのだわ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あの、お二人とも。ウルクトークはそのあたりにして、[r]第三の門に向かいましょう。ほら、あちら、
+[k]
+
+[wt 0.2]
+[messageOff]
+[bgmStop BGM_EVENT_2 0.4]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.4]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+
+
+＠第三の門
+………………答えよー………………[r]………………我の問いに答えてー………………
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[wt 0.4]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 3]
+
+
+＠Dr.ロマン
+可哀想に。さっきからずっと叫んでいたけど、[r]完全に無視されて自信を無くしてしまったようだね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[bgm BGM_EVENT_1 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+おっと、そうであった。[r]よいぞ、許す。第三の門よ、貴様が裁定は何だ？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+＠第三の門
+……共に戦う仲間……[r]信頼、敬愛、そして勝利に相応しいのは……
+[k]
+
+＠第三の門
+どちらだと……思いますか？
+[k]
+
+
+？1：イシュタルだよ
+？2：ギルガメッシュだよ
+
+？！
+
+
+[messageOff]
+[bgmStop BGM_EVENT_1 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

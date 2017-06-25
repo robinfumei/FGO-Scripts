@@ -1,0 +1,385 @@
+
+
+
+＄01-00-07-06-2-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5018001 1 ギルガメッシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98003000 1 Dr.ロマン]
+[charaSet F 98106000 1 エルキドゥ]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 33300]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+
+＠マシュ
+無事、観測所に到着しました。
+[k]
+
+＠マシュ
+石像事件からは順風満帆、[r]穏やかな旅でしたね、マスター。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+
+＠ギルガメッシュ
+……むう。何も起きないではないか。つまらん。[r]貴様らの珍道中に期待したというのに……
+[k]
+
+？1：石像事件もかなりの珍イベントでしたよ？
+
+[charaFace B 0]
+＠ギルガメッシュ
+ははは。そのような事件は既に忘れた。[r]貴様も疾く忘れよ。しつこいであろう。
+[k]
+
+？2：瓶を取り替えればいいのですね？
+
+[charaFace B 1]
+＠ギルガメッシュ
+そうだ。荷車のものと取り替えよ。[r]今の[#我:オレ]は力仕事には向かぬ故、励めよ。
+[k]
+
+？！
+
+[messageOff]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[wt 2.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+
+＠フォウ
+フォウ～！[r]フォフォ、フォ[line 3]ウ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+フォウさーん、あまり遠くへ行ってはダメですよ[line 2]！
+[k]
+
+[charaFace A 13]
+＠マシュ
+……ふう。[r]瓶の取り替えも終わって一段落ですね。
+[k]
+
+＠マシュ
+ギルガメッシュ王は“調べる事がある”と観測所に[r]残られましたが、二十分もすれば済むそうです。
+[k]
+
+＠マシュ
+それまで、ちょっとだけ休憩ですね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk E]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+
+＠Dr.ロマン
+ああ。いっそここで休日になれば[r]海で泳ぐこともできたのに、残念だ。
+[k]
+
+＠Dr.ロマン
+肉眼で見るペルシア湾はどうだい？[r]オケアノスとはまた違って見えるだろうけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+オケアノスに比べると、さすがに小さいです。[r]海といっても港のような地形ですから。
+[k]
+
+＠マシュ
+でも、この先にインド洋が広がっているかと[r]思うとドキドキします。
+[k]
+
+[charaFace A 13]
+＠マシュ
+どれほど過去の世界だろうと、人間は海と向き合い、[r]そして渡ってきたのですね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+
+＠Dr.ロマン
+そうだね。それと、細かな話だけど第七特異点は[r]今までの特異点より規模が大きいようだ。
+[k]
+
+＠Dr.ロマン
+ペルシア湾の先、インド洋まで観測結果が届いている。
+[k]
+
+＠Dr.ロマン
+メソポタミア世界にとって海は[r]欠かせないファクターなんだろう。
+[k]
+
+？1：……海か……
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……先輩？　ずいぶんと遠い目で水平線を[r]見つめていますが、何か思うところでも？
+[k]
+
+[charaFace A 6]
+＠マシュ
+夢……？　夢の中で潮騒を聞いた、ですか……？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+？2：こんなにのんびりして[&いいんだろうか:いいのかな]……
+
+[communicationCharaFace 0]
+
+
+＠Dr.ロマン
+気持ちは分かるよ。魔獣戦線、ウルの密林。[r]そして聖杯の探索。問題は山積みだ。
+[k]
+
+＠Dr.ロマン
+けど焦っても仕方がない。キミが戦場に向かったとしても、[r]根本的な解決にはならない。今はまだ、ね。
+[k]
+
+＠Dr.ロマン
+状況が見えてくるまで耐えるのも戦いだよ。[r]戦う気持ちは、その時が来るまで溜めておこう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[wt 0.4]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 0 10 0.4]
+
+＠フォウ
+！　フォウ、フォ[line 4]ウ！
+[k]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+フォウさん？[r]何かあったのですか？　そんなに飛び跳ねて[line 3]
+[k]
+
+[se ad225]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[bgm BGM_EVENT_3 0.1]
+
+＠マシュ
+[#飛行機雲:ヴェイパートレイル]！　ドクター、九時の方角を！[r]何かが一直線に飛んできます！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+うわ、こちらも確認した！[r]神代の[#魔力:マナ]濃度の中で、時速500キロ[line 3]！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 2]
+
+
+＠ダ・ヴィンチ
+接触まであと３、[wt 0.4]２、[wt 0.4]１[line 3][wt 0.4][r]マシュ、シールドを！　衝撃に備えて！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[messageOff]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[wt 0.2]
+[charaMove A 1 0.2]
+[wait charaMove A]
+[charaEffect A bit_talk_30]
+[seStop ad225 0.4]
+[se ad226]
+[shake 0.05 10 10 2.5]
+[flashin once 0.2 0.2 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[wt 0.2]
+[fadeout white 0.4]
+[wait fade]
+[charaFadeout A 0.1]
+[fowardEffect bit_talk_haboob_03]
+[scene 33300]
+[wt 0.6]
+[fadein white 1.0]
+[wait fade]
+[wt 1.0]
+[fowardEffectStop bit_talk_haboob_03]
+[wt 0.4]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+
+
+＠エルキドゥ
+[line 3]呆れた。[r]随分と危機感が薄いんだね、キミたちは。
+[k]
+
+＠エルキドゥ
+ウルクから離れたばかりか、こんな人気の無いところに[r]護衛もなしでやってくるなんて。
+[k]
+
+＠エルキドゥ
+自分たちの強運に慣れてしまったのか、[r]それともボクたちを舐めているのか[line 3]
+[k]
+
+[charaFace F 7]
+＠エルキドゥ
+ま、どっちでもいいコトか。[r]どうあれ、今度は誰も助けには来ないんだから。
+[k]
+
+？1：エルキドゥ……！
+
+＠エルキドゥ
+ああ、そうだとも。[r]良かった、少し安心したよ。
+[k]
+
+＠エルキドゥ
+頭の緩さはどうしようもないけど、[r]ボクの名前ぐらいは覚えていられるようで、ね。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+違います、マスター！[r]目前の敵個体は英霊エルキドゥではありません……！
+[k]
+
+＠マシュ
+彼から魔術王の気配を感じます……！[r]ウルクで聞いたエルキドゥさんとはとても思えません！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+？2：偽エルキドゥ……！
+
+？！
+
+[charaFace F 6]
+＠エルキドゥ
+またそれか。ちょっと持ち主が変わっただけで[r]偽者扱いとか、人間は本当にどうしようもない。
+[k]
+
+[charaFace F 7]
+＠エルキドゥ
+でもまあ[line 3]うん、キミたちは正しい。[r]ボクはエルキドゥとしては偽者だ。
+[k]
+
+＠エルキドゥ
+そこは確かに明言しておかないとね。[r]だって、この先ヘンに期待されても面倒だろう？
+[k]
+
+＠エルキドゥ
+ボクは壊れるまで人間の敵だ。[r]何があろうとそこは変わらない。
+[k]
+
+[charaFace F 8]
+＠エルキドゥ
+それを今、キミたちの命で証明しよう。[r]イシュタルのいないこの港に来たのが運の尽きだ。
+[k]
+
+＠エルキドゥ
+ああ、でも苦しませるような[#方法:マネ]はしない。[r]三女神ほどボクは野蛮ではないからね。
+[k]
+
+[charaFace F 7]
+＠エルキドゥ
+痛みは一瞬、かつ絶大に。[r]せいぜい全身を[#隈:くま]なく串刺しにする程度さ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+仮称敵、エルキドゥ、来ます……！[r]マスター、どうか全力で……！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

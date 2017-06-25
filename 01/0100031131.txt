@@ -1,0 +1,198 @@
+＄01-00-03-11-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2012001 1 エウリュアレ]
+[charaSet F 2009102 1 オリオン]
+[charaSet G 2009201 1 アルテミス]
+[charaSet H 98018100 1 海賊]
+[charaTalk F]
+[charaFace G 0]
+[charaFadein G 0 0]
+[charaFace F 0]
+[charaFadein F 0 2]
+[fadein black 1]
+[wait fade]
+＠オリオン
+おい、[%1]。[r]おまえはどっちに賭ける？
+[k]
+
+？1：アタリ
+
+？2：ハズレ
+
+？！
+
+＠オリオン
+そうか、俺はな[line 2]。
+[k]
+
+[messageOff]
+[se bac15]
+[flashin once 0.5 0.5 FFFFFF80 00000000]
+[wait flash]
+[charaFace F 5]
+＠オリオン
+……ひゃぅ！？
+[k]
+
+[charaFace G 2]
+＠アルテミス
+ダーリンの頭に矢が！？[r]大当たり！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、敵襲です！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠エウリュアレ
+あら、矢ガモ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠アルテミス
+ダーリン、ね、ね、痛い？　やっぱり痛い？
+[k]
+
+[charaFace F 2]
+＠オリオン
+めっちゃ痛ぇわボケェ！[r]と、とにかく抜かなくては！
+[k]
+
+[charaFace F 0]
+＠オリオン
+このっ、このっ……あ、いま気付いたけど[r]俺って自分の頭に手が届かないわ！？
+[k]
+
+[charaFace F 4]
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+衝撃的事実が明らかになりました、マスター！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFadein G 0.1 0]
+[charaFadein F 0.1 2]
+[charaFace F 0]
+＠オリオン
+抜いてくれ！　ほら、早く！
+[k]
+
+[charaFace G 5]
+[charaFadein G 0.1 0]
+＠アルテミス
+わ、わかった。アルテミス、頑張る！[r]せーの、ぐーりぐーり。
+[k]
+
+[charaFace F 4]
+＠オリオン
+痛い痛い痛い！　一気に引き抜けよ！[r]なんでもったいぶるんだよ！
+[k]
+
+[charaFace G 3]
+＠アルテミス
+あ、私が頼られたことってあまりないから[r]嬉しくって……つい。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ドレイク
+く……泣かせるじゃあないか……[r]けなげなオトメ心だねぇ。（ホロリ
+[k]
+
+[charaFace F 0]
+＠オリオン
+もうちょっと違う状況で発露して欲しいなあ、[r]そういうの！
+[k]
+
+[se ad7]
+[wait se ad7]
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFadein F 0.1 1]
+[charaFace F 4]
+＠オリオン
+ひぃ、ひぃ。[r]死ぬかと思った……。
+[k]
+
+[charaFace F 0]
+＠オリオン
+……ん？[r]何かついてる。
+[k]
+
+＠マシュ
+はい？
+[k]
+
+＠オリオン
+あ、矢文だわコレ。[r]よいしょ、よいしょ。
+[k]
+
+[charaFace F 4]
+＠オリオン
+……誰か開封してください。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+[charaFace G 1]
+＠アルテミス
+はいはい。どれどれ……。[r]あ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+アルテミスさん？
+[k]
+
+[charaFace G 0]
+＠アルテミス
+うふふ、知り合いだったわ。[r]相変わらず堅苦しいわね。
+[k]
+
+[charaFace G 3]
+＠アルテミス
+やっぱり愛を知らない純潔少女だからかしら。
+[k]
+
+[charaFace A 12]
+＠マシュ
+知り合い……あの、どちら様ですか？
+[k]
+
+[charaFace G 0]
+＠アルテミス
+ええと、この娘は[line 2]。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

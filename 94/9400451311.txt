@@ -1,0 +1,134 @@
+＄94-00-45-13-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 4023001 1 坂田金時]
+[charaSet G 7013001 1 清姫]
+
+[scene 28200]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠清姫
+ああっ！[r]くやしい……。
+[k]
+
+＠清姫
+でも、この雑な扱い[line 2][r]な[charaFace G 7]んとなく雌犬扱いされたようで、しあわせ……。
+[k]
+
+
+[messageOff]
+
+[se ad52]
+[charaSpecialEffect G flashErasure 0 0 1]
+[wait charaSpecialEffect G]
+[charaFadeout G 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.2]
+
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+さすがは清姫さん……[r]バーサーカーらしく、一際わけがわからない勝利感です。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠牛若丸
+清姫殿の熱い想い……確かに受け取りました。
+[k]
+
+＠牛若丸
+鬼ヶ島の鬼退治、桃太郎の仲間の役目とは、[r]生半可な決意では決して果たせぬもの。
+[k]
+
+[charaFace D 0]
+
+＠牛若丸
+それほどの大命なのだと教えられた気分です。
+[k]
+
+＠牛若丸
+誓いましょう。清姫殿の想いを糧とし、[r]その熱を胸に抱き、この牛若丸……
+[k]
+
+[charaFace D 2]
+
+＠牛若丸
+主殿の雌犬として、[r]最後まで立派に戦いぬいてみせます！
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+うつってるうつってる。[r]雌は外そうね雌は。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+何はともあれ……赤鬼の鍵も入手、です。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+
+＠坂田金時
+ああ。これで最後の大門もフルオープンだ。[r]もうベアー号の走りを止めるモンはねぇな。
+[k]
+
+＠坂田金時
+山頂のゴールテープをブッチギって[line 2][r]この鬼ヶ島の元凶にご対面といこうぜ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

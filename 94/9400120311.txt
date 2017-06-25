@@ -1,0 +1,415 @@
+＄94-00-12-03-1-1
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98027200 1 魔術鉱石]
+[charaSet B 98027300 1 メイド・イン・ハロウィン]
+[charaSet C 98027400 1 ジャック・オー・ランタン]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 4004001 1 アストルフォ]
+[charaSet F 1026001 1 デオン]
+[charaSet G 4017002 1 マリー]
+
+[scene 21802]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠デオン
+っ……この、あきれるほど力任せの剣筋、[r]貴公、もしやサンタではないのか……！？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠マリー
+あら。デオンは戦う前に気づかなかったの？[r]この方、先ほどのサンタクロースとは別人でしてよ？
+[k]
+
+[charaFace F 3]
+＠デオン
+し、失礼……冷静さを欠いていましたので……[r]ですが王妃、気づいていたのでしたら矛を収めても……
+[k]
+
+[charaFace G 1]
+＠マリー
+ごめんなさい、でも勢いは大切だと思ったの！[r]サンタさんも楽しかったでしょう？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+もちろんだ。たまには童心に返るのもいい。[r]そちらの騎士には手荒い真似をしてしまったな。
+[k]
+
+＠サンタオルタ
+ところで。先ほどの良く育った愛犬……。[r]もしや貴様がマリーちゃんなのでは？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠マリー
+はい、私がマリーちゃんです。[r]お手紙、読んでくださったのねサンタさん！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠デオン
+（愛犬……あのキメラ、愛犬だったんだ……どう見ても[r]　パピヨン犬じゃなかったけど……王妃が言うなら……）
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad59]
+[seStop ad59 0.4]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠アストルフォ
+お待たせー！　……って、あれ？[r]もう戦い終わっちゃった？　ボク、顔見せだけ？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+これで全員か。[r]行き違いはあったようだが、誤解が解けてなによりだ。
+[k]
+
+＠サンタオルタ
+ではプレゼントを渡そう。[r]どう猛なチビッ子たちよ、そこに並ぶがいい。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠マリー
+はいはーい！[r]ほらデオン、アストルフォ、一緒に並びましょう！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠デオン
+え……私にもくれるのか？[r]貴公、見かけによらず本当に善人なのか？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+見かけによらず、は余計だ。[r]貴様とは気が合いそうだ。特別に認めよう。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+フランスの男装は風雅だな[#騎士:シュバリエ]。[r]後で詳しく教えるがいい。そのフリルは悪くない。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠デオン
+だ、男装ではない！[r]私は見ての通り男なのだから！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+…………だそうだ。[r]何か言いたい事はあるか、ヒポ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠アストルフォ
+なんでそこでボクに振るのさ。[r]いいじゃんか、女の子が男の子の格好しても。
+[k]
+
+＠アストルフォ
+人間、自分に合った服を着るのが一番だよ。[r]デオンはちょっと服に振り回されてると思うけどねー。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+＠デオン
+おまえは自由に生きすぎだ！　ローランといい、[r]十二勇士には変態しかいないのか！
+[k]
+
+[charaFace E 2]
+＠アストルフォ
+えー！[r]ローランと一緒にされるのはさすがに心外ー！
+[k]
+
+＠アストルフォ
+あいつは手錠をかけられるタイプの趣味で、[r]ボクは新聞に載るタイプの趣味じゃんかー！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+仲が良くて結構だ。[r]どれ……
+[k]
+
+[se ad77]
+[wt 0.6]
+
+＠サンタオルタ
+マリーちゃんにはこれを。[r]ぜひメリーゴーラウンドの参考にしてほしい。
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaFadein D 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[wt 0.1]
+[wt 0.3]
+
+[charaDepth A 3]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout A 0.4]
+[wt 0.4]
+[wt 0.3]
+[charaTalk on]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠マリー
+まあ、ガラスの馬ね！[r]ありがとう、サンタさん！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+次は[#騎士:シュバリエ]だな。貴様にはこれだ。
+[k]
+
+[se ad77]
+[wt 0.6]
+
+[messageOff]
+[charaTalk off]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaFadein D 0.1 0]
+[charaFace F 1]
+[charaFadein F 0.1 2]
+[wt 0.1]
+[wt 0.3]
+
+[charaDepth B 3]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout B 0.4]
+
+[wt 0.4]
+[wt 0.3]
+
+[charaTalk on]
+[charaFadeout D 0.1]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠デオン
+メ、メイド……？[r]なぜ私にはメイドなんだ？　着替えろというのか？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+せめてネコよりは美味い料理を作れ、という応援だ。[r]今からでも嫁のもらい手があれば、と思ってな。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠デオン
+私は生涯独身だっ！[r]サーヴァントになってもな！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+そうか。そんなところも気が合いそうだ。[r]後で連絡先を教えるがいい。
+[k]
+
+[charaFace D 0]
+＠サンタオルタ
+……さて。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠アストルフォ
+……（わくわく）
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+帰るぞトナカイ。[r]さらばだ、また来年に会おう淑女たち！
+[k]
+
+[se ad7]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠アストルフォ
+ちょ、ちょっと待った[line 3]！[r]ボクには！？　ボクにはなんかないの、サンタさん！？
+[k]
+
+＠サンタオルタ
+何もない！　戦わざるもの貰うべからずだ、[r]オルレアンを救わなかったなまけ者め！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠デオン
+まったくだ。[r]あのアタランテでさえ敵として頑張ったというのに。
+[k]
+
+[se ad75]
+
+＠アストルフォ
+なにそれー！[r]ボクのせいじゃないんですけどー！？
+[k]
+
+＠アストルフォ
+だいたいフランス編とかとっくに終わってるじゃん！[r]ってコトはボクにもう出番はないって[seStop ad75 0.2][line 3][se ad76]あいた！？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth C 3]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout C 0.4]
+[wt 0.4]
+[charaTalk on]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠マリー
+まあ、さすがはサンタさん。[r]きちんとプレゼントをくれましたわね。
+[k]
+
+＠マリー
+でもハロウィンのカボチャ……[r]どういう意味なのかしら？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アストルフォ
+えーと……カボチャみたいに可愛いってコト、かな？
+[k]
+
+[charaFace E 3]
+＠アストルフォ
+やだなあ。口ではああ言って、ホントはボクに[r]デレデレだったなんて……でへへ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace E 3]
+[charaFadein E 0.1 0]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠デオン
+いや。単に「パーティーに出遅れたな馬鹿め」という[r]意味じゃないか？　これ、旨みの過ぎた礼装だし。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠マリー
+あ。分かったわ、つまりこういうコトね！[r]「来年のハロウィンまで出番はない」みたいな！
+[k]
+
+[charaFace E 2]
+＠アストルフォ
+あ[line 3]あーりーえーなーいー！[r]こんなの嘘、もっと早くに出るからねボク！？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

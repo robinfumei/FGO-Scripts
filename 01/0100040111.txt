@@ -1,0 +1,90 @@
+＄01-00-04-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10906 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009003 1 ダ・ヴィンチ]
+[charaSet E 3016001 1 ？？？]
+[charaFace A 13]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 3]突破しました。[r]なんとか、囲まれずに移動できたようです。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 4]
+＠Dr.ロマン
+霧の中にあんなものがいるなんてねえ。[r]そりゃあ、誰ひとりとして建物から出て来ないわけだ。
+[k]
+
+＠Dr.ロマン
+扉や窓が蹴破られてないってことは、[r]あれ、建物への侵入はしないってコトだろうし？
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+変だなあ。[r]ううん、実に妙だ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+はい。奇妙な敵性生物……でした。[r]いいえ、あれらは生物ではなかったと思います。
+[k]
+
+[charaFace A 7]
+＠マシュ
+敵性体と仮称します。[r]あれは恐らく、魔術式の[#自動人形:オートマタ]です。
+[k]
+
+＠マシュ
+残骸の構造に見覚えがありました。[r]一部、この時代の機械が使われていましたが。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そう、か……
+[k]
+
+＠Dr.ロマン
+すまない、正直言ってこちらでは事前感知できない。[r]魔力系の反応感知は完全に混乱状態だ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+せいぜいが動体感知のみ。[r]ううん、困ったな。
+[k]
+
+[charaFace A 12]
+＠マシュ
+わたしも同じです。[r]まるで、この都市と同じよう……です。
+[k]
+
+＠マシュ
+霧、煙。[r]そういった、[#靄:モヤ]に……掛かっているかのようで……
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+何にせよ、今まで以上に慎重に警戒しつつ行動だ。[r]さあ、あの少女を追うとしよう。
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい。……先輩、行きましょう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,208 @@
+＄94-00-61-63-2-1
+
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 98100800 1 うりぼう]
+[charaSet D 98101000 1 うりぼう]
+[charaSet E 98101200 1 うりぼう]
+[charaSet F 3024000 1 玉藻の前]
+[charaSet G 5027000 1 マリー]
+[charaSet H 4024000 1 モードレッド]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+＠マリー
+勝ちました！[r]なので、招待状をねじり込みまーす！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠玉藻の前
+強要罪とかないんですかねぇ、この島！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠E：うりぼう
+教養罪？
+[k]
+
+＠C：うりぼう
+滋養強壮によく効くお薬ならあるかもですなー。
+[k]
+
+＠D：うりぼう
+しかも眠らなくても疲れないし、痛覚も麻痺するし、[r]虫歯も治るし盲腸も治るであります。
+[k]
+
+＠E：うりぼう
+しかもまったくＧＯＨＯであります。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠玉藻の前
+相変わらず無関係の[#私:わたくし]たちまで、[r]胃をキリキリさせるボムトーク……！
+[k]
+
+[charaFace F 2]
+＠玉藻の前
+きっとコンサートとやらもロクでもないに決まってます！
+[k]
+
+
+[charaFace F 4]
+＠玉藻の前
+うう、でも敗北した上に招待状があるとなっては、[r]覚悟を決めなきゃいけないんでしょうね……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+[scene 30700]
+[wt 0.5]
+[fadein black 2.0]
+[wait fade]
+
+＠マリー
+さあ、これでライブ会場はお客さんで満員です！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+楽しみですね、マリーさん。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+歌ううりぼうたちも揃っていますね。[r]緊張している様子が、なかなか愛らしい。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠モードレッド
+何歌うのかなー、あいつら。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠玉藻の前
+[#コーン:ツーン]。[r]絶ッ対にロクでもない歌に決まってます。
+[k]
+
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠E：うりぼう
+それでは、我々の歌をお聴き下さいであります。[r]タイトルは[line 3]
+[k]
+
+[bgmStop BGM_EVENT_28 1.0]
+
+[messageOff]
+[charaFadeout C 0.5]
+[charaFadeout D 0.5]
+[charaFadeout E 0.5]
+
+[scene 20320 1.0]
+[wait scene]
+
+[bgm BGM_EVENT_29 0.1]
+
+＠マシュ
+うりぼうさん達はそれはそれは素晴らしい歌を[r]聞かせてくれました。
+[k]
+
+＠マシュ
+満員御礼、拍手喝采。[r]うりぼうさん達もふんすふんすと、大変満足そうでした。
+[k]
+
+＠マシュ
+……問題があったとすれば。
+[k]
+
+＠マシュ
+何故か心を抉るような歌詞とトーンの歌ばかり[r]チョイスされたことでしょうか。
+[k]
+
+＠マシュ
+……暗闇の森は怖いですね……。[r]美術館に監禁とか……突然の交通事故とか……。
+[k]
+
+[bgmStop BGM_EVENT_29 0.3]
+
+[effect bit_talk_41]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠玉藻の前
+だから言ったじゃないですかぁ！？
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[soundStopAll]
+[end]

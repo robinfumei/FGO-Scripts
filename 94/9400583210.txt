@@ -1,0 +1,256 @@
+
+
+＄94-00-58-32-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet C 6024000 1 スカサハ]
+[charaSet E 3001001 1 クー・フーリン]
+[charaSet F 6001002 1 小次郎]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+うむ……いいな。これはいい。[r]なんとも言えぬ[#趣:おもむき]がある。
+[k]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+入ってはダメですよ、フォウさん。[r]はい、フォウさんはわたしの膝の上にどうぞ。
+[k]
+
+＠マシュ
+この特設縁側に座って一緒に見ましょう。
+[k]
+
+[charaFace A 13]
+＠マシュ
+これは……砂と石を用いて、波紋などで水を表現している[r]のですね。水のない水の光景[line 2]なんだか深いです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠小次郎
+うむうむ、この詫び寂び……なんと風流なことか。[r]見えざるものを見、無きものをこそ感ずる[line 2]
+[k]
+
+[charaFace F 0]
+＠小次郎
+それは武の神髄にも通じるものがあるのではないかな、[r]スカサハ殿？
+[k]
+
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+[#然:しか]り、だ。これに興味があったのは戦士の精神修養にも[r]役立つかと思ったからでな。
+[k]
+
+[charaFace C 4]
+＠スカサハ
+あの馬鹿弟子にも、この空間を十日間ほど見つめ続けよ、[r]というような試練を与えるべきであったか。
+[k]
+
+
+？1：確かに何かが見えてきそうだ……
+？2：目薬がたくさんいりそうですね
+？！
+
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ、そう言えば。日本庭園に合うかと思いまして、[r]熱いお茶を用意しておきました。どうぞ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠小次郎
+おお、かたじけない。いただこう。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+気が利くな。もらうぞ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、マスターも。[r]フォウさんには新鮮な冷たいお水ですよ。
+[k]
+
+
+？1：いただきます！
+？2：いつもすまないねぇ……
+
+＠マシュ
+わたしはマスターのお役に立てるのが嬉しいので。[r]お気になさらないでください。
+[k]
+
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠小次郎
+……（ずずー）
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+……（ずずー）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……（ずずー）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠クー・フーリン
+……？　うおっ！？[r]なんだお前ら？
+[k]
+
+[charaFace E 4]
+＠クー・フーリン
+無言で変な石見つめて茶ぁ啜ってるとか……大丈夫かよ。[r]ジジィババァの集団に見えるぜ。
+[k]
+
+[charaFace E 1]
+＠クー・フーリン
+揃いも揃って年寄りみてぇに腰でもイワしたのか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFace E 1]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+
+＠スカサハ
+誰が[line 2]年寄りだと？　この馬鹿弟子！
+[k]
+
+＠クー・フーリン
+いや、違、別にアンタのことじゃ[line 2]
+[k]
+
+[se bac94]
+[charaFace E 2]
+
+[charaShake E 0.05 3 3 0.5]
+＠クー・フーリン
+うおおおっ！？[r]いきなり足ボルクはやめろ！
+[k]
+
+＠スカサハ
+ちょうどいい。今からでも遅くないかもしれん。[r]この庭にて見えぬものを見る精神を養えば、
+[k]
+
+[charaFace C 1]
+＠スカサハ
+殺せぬ私の殺し方も見いだせるかもしれんぞ。[r]さあ。修行だ。さあ。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[se ad33]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠小次郎
+いやはや。風流に……ござるなぁ……（ずずー）
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、そう……ですかね……？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

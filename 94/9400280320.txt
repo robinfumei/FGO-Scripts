@@ -1,0 +1,301 @@
+＄94-00-28-03-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 3016001 1 ヘクトール]
+[charaSet G 98003003 1 Dr.ロマン]
+
+[scene 21804]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠ダ・ヴィンチちゃん
+ロマンー。[r]ちょっとこのホムンクルスを分析してー。
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[charaTalk G]
+
+[charaFace B 2]
+[charaFadein B 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 4]
+＠Dr.ロマン
+また、そこのミカンとってー、みたいなノリで……[r]まったくもう、はいはい。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+……ふむふむ。やっぱりそれも違うね。[r]『ホムンクルスとは似て非なる』存在だ。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+やっぱりコレも贋作か……。[r]よし、ともかく行こう。
+[k]
+
+＠ダ・ヴィンチちゃん
+このホムンクルスが贋作である以上、[r]私たちは正しい方向に進んでいるんだし！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_5 2.0]
+
+[charaFadeout B 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[scene 20110]
+
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+[se ad60]
+[wt 1.0]
+[seStop ad60]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠ヘクトール
+お、来た来た。[r]こんにちは、真作英霊さんよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace A 0]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠ダ・ヴィンチちゃん
+ってことは、そっちが贋作英霊かい？
+[k]
+
+[charaFace A 7]
+＠マシュ
+ヘクトールさん、あなたも[line 2]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヘクトール
+ま、サーヴァントなんて元々が贋作みたいなもんだ。[r]だからほら、[charaFace D 1]見逃してくれるとオジサン嬉しいねえ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+できない相談だ。[r]贋作を流出させている事実に変わりはあるまい。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ヘクトール
+正義の味方さんは頭が固いねえ。
+[k]
+
+[charaFace D 0]
+＠ヘクトール
+どうだいマスター？　アンタなら、[r]少しは柔軟な思考をしてくれると思うんだけど。
+[k]
+
+？1：目的を教えて欲しい
+？！
+
+＠ヘクトール
+目的……目的かあ。俺の目的は強いて言うなら、[r]頭を[charaFace D 1]撫でるとかかねえ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace B 2]
+[charaFace A 6]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠マシュ
+……はい？
+[k]
+
+＠ダ・ヴィンチちゃん
+ちょっと何を言っているのか、[r]分からないんですけどー！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヘクトール
+オジサンは甘やかしの担当でね。[r]贋作英霊ヘクトール、オジサンの司る属性は[line 2]。
+[k]
+
+[charaFace D 1]
+＠ヘクトール
+『海外から帰国したちょっとフランクな血が繋がっているような[r]いないような、フリーダムなオジサン』だ！
+[k]
+
+？1：長っ
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+す、凄いですね。[r]と言うか海外ってどこを起点としているんでしょう。
+[k]
+
+[charaFace C 5]
+＠エミヤ
+よせ、それ以上あやふやな設定に触れると[r]怪我をするぞ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヘクトール
+要するに包容力を求められているからね。[r]優しく甘く、言う事に従わなきゃならないのさ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+アレキサンダーの証言といい……どうやら相当な[r]駄々っ子のようだな、そちらのマスターは。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ヘクトール
+駄々っ子だねえ、[charaFace D 1]でもそういうところが[r]愛おしいんじゃないかね。
+[k]
+
+[charaFace D 0]
+＠ヘクトール
+我が侭を言うって事は、信頼を試しているって事だ。[r]信頼を試すのは、どうしようもない不安からだろうさ。
+[k]
+
+[charaFace D 1]
+＠ヘクトール
+そういうところ、可愛いだろう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+ふむふむ。甘やかし昼行灯ダンディ系英雄か……。[r]イケ[charaFace B 1]るなコレ！
+[k]
+
+？1：いけないよ
+？2：ダメなりよ
+？！
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+まあ、それはそれとして。[r]当方の[charaFace B 2]贋作は許し難い！
+[k]
+
+＠ダ・ヴィンチちゃん
+そら、そこの先ほど仕上がったばかりの[r]モナ・リザ！
+[k]
+
+＠ダ・ヴィンチちゃん
+何が忌々しいかって技術はともかく、[r][#熱意が気に入らない]！
+[k]
+
+＠ダ・ヴィンチちゃん
+技術はまだ模造レベルだけど、熱意は本物。[r]だけどコレ、似せようとしてないじゃないか！
+[k]
+
+＠ダ・ヴィンチちゃん
+似せる事、同一になる事に熱意を傾けるのではなく、[r]凌駕する事に力をこめ始めている！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヘクトール
+やあ、気付かれたか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+技術は若干拙いものの、その熱意が合わさった結果、[r]真作らしく見せているという事だな。
+[k]
+
+＠エミヤ
+放置しておいてはならない部類の贋作だ。[r][line 2][charaFace C 5]覚悟はいいな、ヘクトール。
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_5 2.0]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ヘクトール
+ヘイヘイ、やっぱそういう事になりますヨネー。[r]まあいいさ。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 2]
+＠ヘクトール
+贋作は贋作なりに、意地張ってやらあな！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,189 @@
+
+
+＄94-00-58-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet F 5027000 1 マリー]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+知らなかったわ。[r]ピザってとっても美味しいのね！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+はい。上に乗せる具などは簡素ですが[line 2][r]焼き加減はちょうどいい塩梅です。
+[k]
+
+＠フォウ
+フォーウ！　ハフハフ……。
+[k]
+
+
+？1：シーフード……ジャーマン……ミート……
+？2：和風……テリヤキチキン……カレー……
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠マリー
+なぁにそれ、ピザの種類？　ただでさえ美味しいのに、[r]そんなにバリエーションが……興味深いわ。
+[k]
+
+[charaFace F 0]
+＠マリー
+でも不思議ね。こんなに美味しいのに、どうしてサンソン達は[r]わたしに食べさせてくれなかったのかしら。いじわる？
+[k]
+
+
+？1：お行儀的な問題、かな……？
+
+[charaFace F 0]
+＠マリー
+うーん？　でも普通、パンは手で食べるものだと思うわ。[r]同じようなものだと思うけれど。
+[k]
+
+
+？2：ひょっとしたらカロリー的な問題、かも……
+
+[charaFace F 0]
+＠マリー
+そうなの？　でもわたし、あんまりたくさんは[r]食べられないから、ちょうどいいと思うんだけど……。
+[k]
+
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+イメージの問題かもしれませんね。お姫様とピザというのは、[r]確かに、その、あまり……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+あるいは、別の可能性としては。
+[k]
+
+[charaFace A 1]
+＠マシュ
+サンソンさん達もピザの味を知らなかったというのは[r]どうでしょう？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+まあ！　うふふ、あるかもしれないわね？
+[k]
+
+＠マリー
+二人とも、手がべたべたするのは嫌いそうだもの。[r]お仕事に支障が出るから、って。
+[k]
+
+[charaFace F 0]
+＠マリー
+わかったわ。じゃあカルデアに帰ったら、まずは二人を[r]呼んでピザパーティーを開いてみましょう？
+[k]
+
+＠マリー
+たっぷりのピザと、たくさんの種類のピザと、コーラも[r]たくさん……どんな反応するかしら？　うふふ。
+[k]
+
+
+？1：そのときには呼んでね
+？2：楽しみだね
+？！
+
+[charaFace F 1]
+＠マリー
+ええ！　すっごく楽しみ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ、そうこうしているうちに追加のピザが焼けたようですよ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+今の試し焼きの一枚がうまくいったので、次々焼いていく[r]予定ですし。手すきの皆さんも呼んで[line 2]
+[k]
+
+
+[se ad60]
+[charaMove A 800,0 0.5]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 -800,0]
+[charaMove B 1 0.5]
+[wait charaMove]
+[seStop ad60]
+[charaFadeout A 0.1]
+
+
+＠アルトリア
+はい、私は貴女がたが選ばれると信じていましたよ。[r]それでこそ、応援していた甲斐があったというものです。
+[k]
+
+[charaFace B 1]
+＠アルトリア
+勿論みんなで分けるものですが、せっかくですので[r]この最初の相伴に与らせていただきましょう。
+[k]
+
+[charaFace B 9]
+＠アルトリア
+ピザ最高。
+[k]
+
+
+？1：…………
+？！
+
+[charaFace B 1]
+＠アルトリア
+何か？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

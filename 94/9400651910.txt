@@ -1,0 +1,287 @@
+
+＄94-00-65-19-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_32 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102500 1 イリヤ]
+[charaSet D 1018001 1 偽アルテラ]
+[charaSet E 1018001 1 偽アルテラd]
+[charaPut E 0,-250]
+
+[scene 20432]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アルテラ
+魔法少女は悪い文明（フフン）[wt 0.2][charaFace D 1]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠イリヤ
+ああ……やりきった顔……
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_32 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+に、偽アルテラさんも、元はこの固有結界に[r]魔法少女として[#召喚:よ]ばれたのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アルテラ
+……いかにも、そうダ。
+[k]
+
+＠偽アルテラ
+私はこの固有結界に無念を残す魔法少女として[r]顕現した者の一人ダ。
+[k]
+
+[charaFace D 4]
+＠偽アルテラ
+ただ強すぎたあまり、悪目立ちをして[r]集中攻撃を受けまくった末に敗退したのだガ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠イリヤ
+そうだったんですか……[r]やっぱりこんなこと、やめさせないと……！
+[k]
+
+？1：じゃあレディの使い魔としての自覚が……？
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アルテラ
+その隷属の意識は確かにあル。[r]屈辱的だが、否定はしなイ。
+[k]
+
+？2：（年齢で目立った可能性も……）
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アルテラ
+何かつぶやいたカ？　よく聞こえなかっタ。[r]喉の調子がすぐれぬようだナ。
+[k]
+
+[charaFace D 1]
+＠偽アルテラ
+その喉にフォトン・レイが[r]どこまで入るか挑戦してみるカ？
+[k]
+
+＠偽アルテラ
+……フン。[r]確かに、敗北と隷従は屈辱ダ。
+[k]
+
+[charaFace D 0]
+
+？！
+
+＠偽アルテラ
+だが、聞ケ[line 3]。[r]私は自らの意志でここに立っていル。
+[k]
+
+[charaFace D 5]
+＠偽アルテラ
+魔法少女は悪い文明。[r]滅ぶべシ。
+[k]
+
+＠偽アルテラ
+同じ[#季節:クール]にライバルあらば蹴り落とス。[r]十二才以上だとお役目御免と首を切られル。
+[k]
+
+＠偽アルテラ
+クール中盤にはバス、あるいはプールを強制されル。[r]十年休まず日曜の朝に出勤すル。いやこれはよイ。
+[k]
+
+[charaFace D 0]
+＠偽アルテラ
+分かるカ。[r]そんな競い合いに満ちた文明はいずれ破綻すル。
+[k]
+
+＠偽アルテラ
+サーヴァント由来の利己をそぎ落とされ、[r][#魔法の杖:ステッキ]の力で生まれ変わった今[line 3]
+[k]
+
+[charaFace D 5]
+＠偽アルテラ
+私は大王の位階を超え、軍神そのものに昇華した[r]といってももはや過言では無イ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+[charaFace D 1]
+＠偽アルテラ
+いわば神[line 3]シン・アルテラ、ダ（フフン）[wt 0.2][charaFace D 1]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠イリヤ
+フ……フフンって……[r]また言ってやったぞって顔を……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+偽サヴァさんたちは、[r]もっぱら極端方向にステ振りされるみたいです？
+[k]
+
+[charaFace C 2]
+＠イリヤ
+もっと丸くなってほしいです！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_32 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ……[r]アルテラさん……
+[k]
+
+[charaFace A 7]
+＠マシュ
+それでは……むしろ、ここで戦いを避けるのは[r]あなたにとって失礼にあたりますね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アルテラ
+その通りダ。[r]慈悲深いのだナ、キリエライト。
+[k]
+
+[charaFace D 5]
+＠偽アルテラ
+[line 3]だが破壊すル。ゆえに破壊すル。[r]最大限の礼を以て、おまえたちを壊そウ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……っ……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠イリヤ
+え～～！　なんでそうなるの！？[r]もう文化が違ーう！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アルテラ
+そこは諦めロ。私はそのように生まれたもノ。[r]偽になっても変わりようのない、私の核ダ。
+[k]
+
+＠偽アルテラ
+果て無き荒野のその最果てにぞ、[r][#燦然:さんぜん]たる命を見いださン[line 3]
+[k]
+
+[charaFace D 5]
+＠偽アルテラ
+無垢なる少女よ、白き魔術の使い手ヨ[line 3]
+[k]
+
+[charaFace D 2]
+＠偽アルテラ
+我が蹂躙の剣を振るい、[r]おまえを、破壊すル[line 3]！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

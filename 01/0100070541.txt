@@ -1,0 +1,434 @@
+
+
+
+＄01-00-07-05-4-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 3027000 1 アナ]
+[charaSet D 3028000 1 ジャガーマン]
+[charaSet E 5018001 1 ギルガメッシュ]
+[charaSet F 98107600 1 祭祀長シドゥリ]
+[charaSet G 98003000 1 Dr.ロマン]
+
+
+[scene 32700]
+[bgm BGM_EVENT_3 0.1]
+[fadein black 1.5]
+[wait fade]
+
+[effect bit_talk_kengekiall01]
+[wt 0.1]
+[se ad33]
+[wt 1.0]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[shake 0.05 3 3 0.4]
+[wt 0.7]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.4 1]
+
+＠アナ
+仕留めた……！？[r]ううん、速い……！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFace C 5]
+[charaFace D 2]
+[charaFadein C 0.1 1]
+[charaFadein D 0.1 -512,0]
+[charaMove D 2 0.2]
+[se ad73]
+[seVolume ad73 0 0.5]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[wait charaMove D]
+
+[charaMove D 0 0.2]
+[se ad73]
+[seVolume ad73 0 0.5]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[wait charaMove D]
+[wt 0.4]
+
+＠ジャガーマン
+フッ、残像ニャ！[r]私の人生の大部分は残像ニャ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+[effect bit_talk_13]
+[wt 0.1]
+[charaFace C 4]
+[se ad32]
+[charaShake C 0.05 3 3 0.4]
+[wt 0.6]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+自称ジャガーマン、強敵です！[r]こちらの攻撃が効いていません……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠マーリン
+[line 3]仕方ない、撤退だ！[r][%1]君、あれはああ見えて神霊だ！
+[k]
+
+＠マーリン
+同じ神性を持つサーヴァントでなければ[r]太刀打ちできない！　今回はこれで良しとしよう！
+[k]
+
+＠マーリン
+ウルの状況、謎の[#英霊:いきもの]ジャガーマン！[r]この二つを知っただけで価値はある！
+[k]
+
+？1：はい……！　マシュ、撤退だ！
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+了解……！[r]マスターと共にウルから離脱します！
+[k]
+
+？2：くそ、マンなのに女性なのが気になる……ッ！
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ジャガーマン
+そこに気付くとは……やはりマスター……。[r]ジャガーの好感度が二百アップ！
+[k]
+
+＠ジャガーマン
+だがそこに取り戻せない夢、そして隙があった！[r]ニャハハ具体的に死ねぇい！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[se ad73]
+[seVolume ad73 0 0.5]
+[effect bit_bolg_03y]
+[wt 0.1]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[shake 0.05 3 3 0.4]
+[se ad32]
+[wt 0.5]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[wt 0.2]
+＠アナ
+撤[charaFace C 2]退！　しますので！[r]アレに付き合わないでください、[%1]！
+[k]
+
+？！
+
+[messageOff]
+
+[bgmStop BGM_EVENT_3 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 3.0]
+[scene 20730]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+
+
+＠マシュ
+……はあ。無事ジャングルから脱出できました……
+[k]
+
+＠マシュ
+何度か追いつかれましたが、[r]その度にアナさんがジャガーマンを迎撃してくれて……
+[k]
+
+
+？1：ありがとう、アナ
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠アナ
+…………お礼はやめてください。[r]どう返していいのか、分からないので……
+[k]
+
+？2：ジャガーマンには当たりがきつい？
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠アナ
+……まあ、多少は。[r]ああいう機能性のないフードとか、よくないです。
+[k]
+
+？！
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+まあまあ、気を取り直して。予想外の展開とはいえ、[r]仕事は立派にこなしたんだ。
+[k]
+
+＠マーリン
+ウルクに戻って王様に報告しよう。[r]さてさて、王様はどんな反応をしたものかな？
+[k]
+
+
+[messageOff]
+
+[bgmStop BGM_EVENT_5 0.7]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout B 0.1]
+[wt 1.0]
+[scene 33100]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_40 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠マシュ
+……以上がウルの状況です。
+[k]
+
+[charaFace A 4]
+＠マシュ
+敵性サーヴァントを撃退できず、[r]住民たちの保護はできませんでしたが……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠ギルガメッシュ
+ぐ、ぬ……！[r]むざむざ撤退してきたというのか……！
+[k]
+
+＠ギルガメッシュ
+記念すべき[#我:オレ]からの初任務において、[r]またもそのような馬鹿話を……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠祭祀長シドゥリ
+いけません、[r]どうか落ち着かれよギルガメッシュ王……！
+[k]
+
+＠祭祀長シドゥリ
+[%1]たちは生還したのです、[r]その点だけでも今までとは雲泥の違いが、
+[k]
+
+[bgmStop BGM_EVENT_40 0.7]
+[wt 2.0]
+[bgm BGM_EVENT_4 0.1]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠ギルガメッシュ
+ええい、なんだその面白サーヴァントは！[r][#我:オレ]も直に見たかったぞ！
+[k]
+
+＠ギルガメッシュ
+なぜそう阿呆な出来事ばかり引き当てるのかっ！[r]温厚な[#我:オレ]ではあるが、次は我慢の限界と思え！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠祭祀長シドゥリ
+仲間はずれにされた子供ですか王よ！？
+[k]
+
+？1：悔しがってただけだった……！
+？2：……（シドゥリさん、たいへんなんだな……）
+
+？！
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠ギルガメッシュ
+……ふん。[r]どうあれウルの調査、ご苦労だった。
+[k]
+
+＠ギルガメッシュ
+ウル市民の救助と英霊ジャガーマンへの[r]対応はしばし棚上げとする。
+[k]
+
+＠ギルガメッシュ
+どうやら『密林の女神』とやらは、[r]北の『魔獣の女神』とは相反する考えのようだからな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠アナ
+……そうなのですか？[r]生贄というのは、私たちにはない文化でしたが……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ギルガメッシュ
+ほう？[r]そういうおまえの常識には供物はなかったのか？
+[k]
+
+＠ギルガメッシュ
+差別。偏見。享楽。冤罪。恐怖。それらの感情から、[r]罪なきものを[#貶:おとし]める風習はなかったと？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠アナ
+……それは……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠ギルガメッシュ
+人間社会であるかぎり、生贄など大なり小なり存在する。[r]だが[#我:オレ]の聞いたかぎり、ウル市のものは違う。
+[k]
+
+＠ギルガメッシュ
+野蛮だが理性がある。[#貶:おとし]める為に殺すのではなく、[r]価値を認めるが故に殺すように思える。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk G]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+
+＠Dr.ロマン
+価値を認めるが故……生贄に選ばれる者は、[r]それ自体が栄誉な事だと言いたいのですか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+
+＠ギルガメッシュ
+所感だがな。とはいえ[#犠牲:ぎせい]には変わりはない。[r]歯がゆいが、今は手を出せぬ。
+[k]
+
+[charaFace E 0]
+＠ギルガメッシュ
+マーリン。ウルよりエリドゥは見えたか？[r]斧は健在であったか？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マーリン
+いいや。樹海はとても深い。[r]ウルからではエリドゥの様子は分からなかった。
+[k]
+
+＠マーリン
+しかし、強力な神気は確かに感じ取った。[r]斧は変わらずエリドゥにあると見ていい。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+
+＠ギルガメッシュ
+そうか。では樹海攻略は必須だな。[r]荷車の製作にとりかからねばならぬか……
+[k]
+
+[charaFace E 1]
+＠ギルガメッシュ
+ともあれ、長旅ご苦労だった[%1]。[r]おって次の任を出す。下がってよい。
+[k]
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_4 1.4]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+
+

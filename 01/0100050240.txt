@@ -1,0 +1,97 @@
+
+＄01-00-05-02-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 3011001 1 フィン]
+[charaSet B 3002001 1 ディルムッド]
+
+[scene 20721]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ディルムッド
+くっ……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠フィン
+不覚をとったなディルムッド！[r]任せよ、傷を癒すぞ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+[wt 0.2]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[se bas3]
+[wait se bas3]
+
+[charaFace B 1]
+＠ディルムッド
+我が主、感謝を。[r]そして謝罪を。申し訳ありません、圧されました。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠フィン
+ふふふ、さすが“女殺し”のディルムッド。[r]やはり女性を相手取るのは苦手かな？
+[k]
+
+[charaFace B 4]
+＠ディルムッド
+いや、それは、その……。
+[k]
+
+[charaFace A 1]
+＠フィン
+ふっはっは、冗談さ冗談、わりと気の利いたね！
+[k]
+
+[charaFace A 0]
+＠フィン
+だが気にする事はない。[r]二人共に見目麗しく、強い女性だ。
+[k]
+
+＠フィン
+槍の穂先が鈍るのも無理はあるまい。[r]さて、それでは私も出張るとしよう。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠フィン
+栄光たるフィオナ騎士団の名の下に[line 2][r]その首級、貰い受けよう！！
+[k]
+
+[charaFace A 5]
+＠フィン
+ランサー、フィン・マックール……行くぞ！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

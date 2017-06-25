@@ -1,0 +1,479 @@
+
+＄01-00-05-15-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3005002 1 エリザベート]
+[charaSet C 7014001 1 ナイチンゲール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 3004001 1 カルナ]
+[charaSet F 1019001 1 ラーマ]
+[charaSet G 99502500 1 エジソン]
+[charaSet H 99502300 1 ブラヴァツキー]
+
+[scene 20423]
+[fadein black 2.0]
+[wait fade]
+
+[effect bit_talk_13]
+[wt 0.1]
+[se bac11]
+[shake 0.05 2 4 0.4]
+[wait effect bit_talk_13]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+お退きなさい！[r]病人が待っているのです！
+[k]
+
+＠ラーマ
+うむ、実に励まされる言葉だな……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+あの台詞と一緒に相手を蹴り飛ばしてなきゃ[r]良い言葉なんだろうけどなあ！
+[k]
+
+[se ad31]
+[seStop ad31 0.2]
+[wt 0.2]
+[se ad31]
+[seStop ad31 1.0]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……ん？[r]何だこれ、バースト通信？　え？　あれ？
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+わ、わ、わ……！？
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+[se ad31]
+[wt 0.4]
+[communicationCharaStop]
+[wait communicationChara]
+[seStop ad31 0.4]
+
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター！？[r]ドクター、応答して下さい……ドクター！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+[se ad13]
+[charaTalk G]
+[charaEffect G bit_talk_10]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[wt 0.3]
+＠エジソン
+おのれ、貴様ら……まさかケルトに屈するとはな！[r]それでも英雄か！
+[k]
+
+＠エジソン
+なにより我がマドンナ、クリミアの天使よ[line 3][r]貴女ほどの信念の人が、私の信念を介さないとは！
+[k]
+
+＠エジソン
+失望ここに極まる！[r]これほど悲しいのは失業率が三割を超えた時以来だ！
+[k]
+
+
+[charaTalk off]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+＠ナイチンゲール
+失望？　いいえ、まだ望みはありますとも。[r]私たちは貴方を裏切ってなどいない。
+[k]
+
+＠ナイチンゲール
+ましてケルトに与するなど、冗談にも程があります。
+[k]
+
+[communicationCharaClear]
+[charaFadeout G 0.1]
+[charaTalk on]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠ブラヴァツキー
+攻め込んできて何を言っているんだか。
+[k]
+
+＠ブラヴァツキー
+情報によると、あなたたちはメイヴ暗殺に失敗した。[r]それで生きているのは不自然なのよ。
+[k]
+
+＠ブラヴァツキー
+敵に寝返って命乞いをした、というのが[r]まっとうな見解じゃなくて、フローレンス？
+[k]
+
+[charaEffectStop G bit_talk_10]
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut G -1000,0]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠エリザベート
+なんですって……？[r]命乞いをして、寝返った……？
+[k]
+
+[charaFace B 2]
+＠エリザベート
+ふざけんじゃないわよ、[r]アイツがそんなタマかって言うの！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaPut G 1]
+[charaEffect G bit_talk_10]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ブラヴァツキー
+あら、竜の尾っぽを踏んじゃったみたい。[r]気に障ったなら……[charaFace H 4]いえ失礼をしたわ、ごめんなさい。
+[k]
+
+[charaFace H 5]
+＠ブラヴァツキー
+どうやらあの子たちはただの負け犬みたい。[r]ケルトに与したって線はなさそうよ、エジソン。
+[k]
+
+[communicationCharaClear]
+[charaFadeout H 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠エジソン
+ぬう？　つまり敗軍だと？[r]では我々の庇護を求めに来たというワケか？
+[k]
+
+[charaFace G 5]
+＠エジソン
+だが、それにしては殺気に充ち満ちている！[r]クリミアの天使よ、なぜ私に銃を向けるのだ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk off]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+＠ナイチンゲール
+……天使、ですか。[r]そう呼ばれたこともありましたが。
+[k]
+
+＠ナイチンゲール
+それで綿飴のように優しい生物を連想されるのは、[r]苦痛この上ありませんね。
+[k]
+
+＠ナイチンゲール
+発明王エジソン。[r]こうして対面してみて理解できました。
+[k]
+
+[charaTalk on]
+[charaFace G 0]
+＠エジソン
+むう、何かね？[r]ようやく私の偉大さと知性に気づいてくれたかね？
+[k]
+
+[charaTalk off]
+＠ナイチンゲール
+貴方は病んでいます。[r]即刻、治療を受けた方がよろしい。
+[k]
+
+[charaTalk on]
+[charaFace G 5]
+＠エジソン
+なん……だと？
+[k]
+
+
+＠G：ブラヴァツキー
+あー……本人を前に言い切っちゃったかー……
+[k]
+
+
+＠エジソン
+[line 2]無礼な。[r]私のどこが病んでいるというのだ。
+[k]
+
+＠エジソン
+この強じんな四肢。はち切れんばかりの健康。[r]研ぎ澄まされた知性。
+[k]
+
+[charaFace G 2]
+＠エジソン
+どこをとってもスタンダードではないか！
+[k]
+
+[charaTalk off]
+[charaFace C 6]
+＠ナイチンゲール
+黙りなさい。[r]病人に病を告げることの、どこが無礼ですか。
+[k]
+
+＠ナイチンゲール
+甘やかされたいなら、母親か妻にでも甘えなさい。
+[k]
+
+＠ナイチンゲール
+世界を救う力を持ちながら、[r]理性を保ったまま世界を破滅に追いやろうとしている。
+[k]
+
+＠ナイチンゲール
+それが病以外の何なのです。
+[k]
+
+[charaTalk on]
+[charaFace G 5]
+＠エジソン
+違う！[r]私は[line 2]。
+[k]
+
+[charaTalk off]
+[charaFace C 6]
+＠ナイチンゲール
+今、そちらに向かいます。[r]大人しくベッドで休んでなさい。
+[k]
+
+[wt 0.1]
+
+[se bac21]
+
+[wt 0.1]
+[charaEffectStop G bit_talk_10]
+[charaSpecialEffect G erasureReverse 1 0.7]
+[wt 1.7]
+[wt 0.7]
+
+[wt 0.7]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[charaTalk on]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+わ！？　あれ？[r]ハ、ハッキングから解放された。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+よ、良かった。しばらく通信できていなかったけど、[r]一体何があったんだい？
+[k]
+
+？1：エジソンが割り込んできた
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+さ、さすがエジソン。前回、ちょっと見せただけで[r]こちらの通信に割り込むとは……。
+[k]
+
+？2：セキュリティが甘いですね
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+いやいや、これでもセキュリティに関しては[r]凄く気を遣っていたからね！？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+ただ、まあ……その……相手がエジソンだと、[r]ちょっとどうにもならないかな……ははは。
+[k]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+銃を撃つとハッキングを停止させられる。[r]覚えました、マスター！
+[k]
+
+？1：忘れなさい
+？！
+
+[charaFace A 4]
+＠マシュ
+は、はい。忘れます。[r]……駄目なんでしょうか、やはり。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+無駄話をしている暇はありません。[r][line 2]さあ、踏み込みましょう。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[wt 1.0]
+[charaFadeout C 0.1]
+[scene 20602]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠カルナ
+[line 2]やはり来たか。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+無論です、カルナ。
+[k]
+
+＠ナイチンゲール
+貴方もまた病人です。[r]退散なさい、貴方はここに居てはいけない人だ。
+[k]
+
+＠ナイチンゲール
+望むモノが、あると言うのに。[r]僻地での療養をお勧めします。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠カルナ
+……確かにおまえの言う通りかもしれない。[r]オレは忠実であろうという病に罹患している。
+[k]
+
+＠カルナ
+望んだモノを立ち所に見抜くのは、[r]看護師という職業故か。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+いいえ、貴方が分かりやすいだけです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠カルナ
+……………………………………………………………………[r]…………………………………………………………なるほど。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あの、カルナさんが何やら凹んでいるような。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠カルナ
+[line 2]ご指摘、感謝する。[r]しかし、この道を譲る訳にはいかん。
+[k]
+
+＠カルナ
+何しろあの発明王に助けを乞われたのだ。[r]オレのような益体もない男に、跪いてな。
+[k]
+
+＠カルナ
+先に乞うたのが彼だった。[r]おまえたちに敵対する理由としては充分だろう。
+[k]
+
+[charaFace E 4]
+＠カルナ
+……それに、もう一つ。[r]エジソンはオレの知己に似た男だ。
+[k]
+
+＠カルナ
+賢くありながら愚かであり、[r]傲慢でありながら博愛に満ちた男。
+[k]
+
+＠カルナ
+かつてオレを友と呼び、オレを助けた王がいた。
+[k]
+
+[charaFace E 1]
+＠カルナ
+あのひとなつっこい男に、エジソンはよく似ている。[r]一言で言えば放っておけない、というヤツだ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+[line 3]驚きました。[r]貴方のような人が、そのように笑うなんて。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠カルナ
+オレとて人の子だ。人並みの感情はあるよ。[r]だが、おしゃべりはここまでにしておこう。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace E 5]
+＠カルナ
+一度目は様子を見た。此度は二度目。[r]どれほど腕を上げたか、見せてもらおう[line 3]！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,686 @@
+＄94-00-61-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5027000 1 マリー]
+[charaSet E 3025000 1 清姫]
+[charaSet F 3024000 1 玉藻の前]
+[charaSet G 2026000 1 アルトリア]
+[charaSet H 4024000 1 モードレッド]
+
+
+[scene 20700]
+[cameraMove 0.1 170,50 1.5]
+[wait camera]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.7]
+
+[cameraMove 2.5 -170,50 1.5]
+[wait camera]
+
+[wt 0.7]
+
+[cameraMove 1.0 0,0 1.0]
+[wait camera]
+
+[bgmStop BGM_EVENT_5 0.7]
+[wt 0.7]
+
+[charaFace G 2]
+[charaFadein G 0.1 -325,0]
+
+[charaFace F 2]
+[charaFadein F 0.1 325,0]
+
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+
+＠全員
+[messageShake 0.05 5 5 0.5]
+[fontSize large]荒い！！[-]
+[k]
+
+[messageOff]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_7 0.3]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠玉藻の前
+ちょっと何ですかこの荒野は……。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+前の南国風の島が懐かしいですね……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+
+＠マリー
+土地も痩せているわ。[r]……あまり食べ物には期待できそうにないわね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠アルトリア
+えっ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠玉藻の前
+そもそも食べられる物があるんですかね、ここ？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠アルトリア
+えっ、えっ、えっ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+
+＠清姫
+期待できそうにないですね……。
+[k]
+
+[charaFace E 0]
+
+＠清姫
+ああ、ますたぁ、ご安心下さい。[r]いざというときは、わたくしを食べて頂ければ！
+[k]
+
+？1：そういう猟奇的な食べ物はちょっと……
+
+[charaFace E 1]
+
+＠清姫
+鶏肉に程近い感じで美味しいですから、きっと！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ～？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+？2：（万が一のときは）ありがたくいただきます
+
+[charaFace E 3]
+
+＠清姫
+まあ！[r]まあ、まあ、まあ！
+[k]
+
+[charaFace E 0]
+
+＠清姫
+お聞きになりましたか皆様！[r]ますたぁが！　わたくしを！　食べて下さると！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……マスター、迂闊な返答は止した方がよいかと。[r]ほら、ノリノリですよ清姫さん。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+
+＠アルトリア
+食べ物が……ない……ですか……。
+[k]
+
+＠アルトリア
+いえ、サーヴァントはご飯を食べずとも平気です。[r]ただテンションが下がるだけで。
+[k]
+
+[charaFace G 6]
+
+＠アルトリア
+問題はマスターです。[r]きちんと栄養を摂らなければ命に関わります。
+[k]
+
+＠アルトリア
+つまり、我々の心が死ぬのが先か、[r][%1]の体が死ぬのが先か、という話ですね。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace G 6]
+[charaFadein G 0.1 0]
+[charaFace H 2]
+[charaFadein H 0.1 2]
+
+＠モードレッド
+どっちも死ぬの前提かよ！？[r]その前に食い物探せばいいじゃんか！
+[k]
+
+[charaTalk C]
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.2]
+
+＠C：？？？
+たすけて[line 7][bgm BGM_EVENT_3 0.3]！！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+[charaSet E 9004000 1 マルタ]
+
+＠マシュ
+今のは、助けを求める声でした！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠マルタ
+そうね、そして人が住んでいるということは[line 3]。
+[k]
+
+？1：食べ物が！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠アルトリア
+そうですね！　私には全く関係ありませんが、[r]食べ物があるということです！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+？2：文明が！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+もしかしたら、[r]カルデアに連絡できるかもしれませんね！
+[k]
+
+[charaFace A 7]
+
+？！
+
+[charaSet E 2025100 1 メアリー]
+[charaSet F 2025200 1 アン]
+
+＠マシュ
+助けに向かいましょう、[r]でも声はどこから……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+[charaFace F 0]
+[charaFadein F 0.1 0]
+
+
+＠メアリー
+アン、望遠鏡で周りを見てみたら？
+[k]
+
+[charaTalk F]
+
+＠アン
+了解ですわ。[r]さて、声の方向は[line 2]。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.5 0.5]
+[wait wipe]
+[fadeout black 0.1]
+[wait fade]
+[wipeOff]
+[charaSet C 98101200 1 うりぼう]
+[charaFilter C silhouette 00000080]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wipeFilter cinema 0.5 0]
+[fadein black 0.5]
+[wait fade]
+
+[wt 0.4]
+[cameraMove 1.5 0,-50 1.5]
+[wt 1.3]
+[charaScale C 0.5]
+[charaFadein C 0.4 0,-100]
+[wt 1.7]
+
+[fadeout black 0.2]
+[wait fade]
+[charaFadeout C 0.1]
+[charaFilter C normal 00000080]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFadein E 0.1 2]
+[cameraMove 0.1 0,0 1.0]
+[wipeOff]
+[wt 0.1]
+[wipeout rectangleStripRightToLeft 0.1 0.1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wipein rectangleStripRightToLeft 0.25 1]
+[wait wipe]
+
+＠アン
+…………………………………………は？
+[k]
+
+[charaTalk E]
+[charaFace E 5]
+
+＠メアリー
+どうしたの？
+[k]
+
+[charaTalk F]
+[charaFace F 4]
+
+＠アン
+……いえ。何かちょっと得体の知れないものが。[r]航海の後で疲れているのかしら。
+[k]
+
+＠アン
+メアリー、代わってくれる？
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+
+＠メアリー
+いいけど、一体何が[line 3]。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.5 0.5]
+[wait wipe]
+[fadeout black 0.1]
+[wait fade]
+[wipeOff]
+[charaFilter C silhouette 00000080]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFadein C 0.1 0,-100]
+[cameraMove 0.1 0,-50 1.5]
+[wait camera]
+[wipeFilter cinema 0.5 0]
+[fadein black 0.5]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout black 0.2]
+[wait fade]
+[charaFadeout C 0.1]
+[charaFilter C normal 00000080]
+[charaFace E 2]
+[charaFadein F 0.1 0]
+[charaFadein E 0.1 2]
+[cameraMove 0.1 0,0 1.0]
+[wipeOff]
+[wt 0.1]
+[wipeout rectangleStripRightToLeft 0.1 0.1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wipein rectangleStripRightToLeft 0.25 1]
+[wait wipe]
+
+
+＠メアリー
+…………………………………………は？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+お二人ともどうなさったのですか！？[r]一体何を[line 6]。
+[k]
+
+[se ad14]
+[seVolume ad14 0 0.75]
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_3 1.5]
+[wt 0.1]
+
+[seStop ad14 2.5]
+[charaScale C 1.0]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.4 1]
+
+＠？？？
+撤退！[r]撤退でありまーす！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マリー
+あ、あら？
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+＠マリー
+うりぼうさん……[charaFace D 5]うりぼうさん！？[r]うりぼうさんが、助けを呼んでいます！
+[k]
+
+[charaFace D 4]
+
+＠マリー
+……え？[r]うりぼうさんが喋ってる？
+[k]
+
+＠マリー
+え、え、え？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+え？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1000,0]
+
+[charaMove C 0,0 0.5]
+
+[wt 0.5]
+
+[se ad144]
+
+[charaFace C 2]
+[charaMove C 0,-200 0.3]
+
+[charaSet F 3024000 1 玉藻の前]
+
+＠うりぼう
+あうち！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠玉藻の前
+あら、コケましたね。
+[k]
+
+[charaFadeout F 0.1]
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+
+＠マリー
+助けに行きますわ！
+[k]
+
+[charaTalk H]
+
+＠モードレッド
+ま、いいか。
+[k]
+
+＠モードレッド
+人語を喋る謎は置いといて、[r]とりあえず助けるぞマスター！
+[k]
+
+
+
+[messageOff]
+[wipeout rightToLeft 0.3 1.2]
+[wait wipe]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[charaSet C 98101300 1 うりぼう]
+[charaSet G 98025100 1 シャドウサーヴァント]
+[wt 0.1]
+
+[wipein leftToRight 0.3 1.2]
+
+[wait wipe]
+
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう
+うう……。
+[k]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠シャドウサーヴァント
+……。[r]……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう
+なんまんだぶなんまんだぶ。
+[k]
+
+＠うりぼう
+せめて痛くならないよう[line 2]
+[k]
+
+＠うりぼう
+全身麻酔の後で的確に捌いてくれたら、[r]嬉しいでありますなー。
+[k]
+
+[se ad23]
+[wait se ad23]
+
+
+
+＠うりぼう
+うう……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.4 1]
+
+＠スカサハ
+そ・こ・ま・で・だ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+[wt 0.1]
+
+[messageOff]
+[effect bit_bolg_01]
+[charaShake G 0.05 5 5 0.2]
+[se bac64]
+[wt 0.3]
+[effect bit_bolg_02]
+[charaShake G 0.05 5 5 0.5]
+[wait se bac64]
+
+
+＠シャドウサーヴァント
+……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+[charaFace B 0]
+[charaFadein B 0.1 0]
+
+
+＠マシュ
+シャドウサーヴァント……！
+[k]
+
+[charaTalk B]
+
+＠スカサハ
+ひとまず問答無用で退治すべきか。[r]さて[charaFace B 2][line 3]行くぞ！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

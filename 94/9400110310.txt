@@ -1,0 +1,463 @@
+
+＄94-00-11-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3013001 1 スカサハ]
+[charaSet E 1014001 1 フェルグス]
+[charaSet F 98017000 1 ？？？]
+
+
+
+[scene 10700]
+[fadein black 2]
+[wait fade]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠フェルグス
+はぁ…………どっしり、がっかり。
+[k]
+
+[charaFace E 2]
+＠フェルグス
+これを期待はずれと言わずなんと言う！[r]燃える街、なるほど戦いには相応しい状況ではあるが！
+[k]
+
+＠フェルグス
+佳い女をさがそうにも、この有り様では[r]肝心の女が何処にもいない！　さして男もおらん。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+
+[charaFadein E 0.1 2]
+[charaFace E 2]
+
+[charaFadein D 0.1 0]
+[charaFace D 4]
+＠スカサハ
+やれやれ。[r]好色は英雄の[#性:さが]とは言うがおまえは別格だのぅ。
+[k]
+
+＠スカサハ
+その旺盛に過ぎる獣欲こそがおまえという男を[r]英雄たらしめる力の源なのやもしれぬ。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+マシュよ、知っているか？[r]この男はな───
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠マシュ
+は、はい？　え？[r]どうしてこっちに振るんでしょうかスカサハさん？
+[k]
+
+
+＠スカサハ
+この男はな。あまりに旺盛に過ぎるものだから[r]およそ人間の女では妻として務まらぬがゆえ、いやはや、
+[k]
+
+＠スカサハ
+ものの数日で音を上げるゆえ、とうとう、最後の最後に[r]正妻となったのは何と森の女神であったのだ。
+[k]
+
+＠スカサハ
+そう、いわゆる神霊というやつだ。[r]アルスター[#時代:サイクル]でも神の降臨は稀有であったが、
+[k]
+
+＠スカサハ
+その稀有のうちの一例こそこやつの妻だ。[r]そうせねばならぬほどに、こやつは大したものなのだ。
+[k]
+
+
+[charaFace A 12]
+＠マシュ
+は、はい……[r]その……
+[k]
+
+＠マシュ
+なん……と……いえば……い、いい……のか……[r]わたしは、その……せ、せんぱいっ……
+[k]
+
+？1：すごいなぁフェルグスさん
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠フェルグス
+ははは！[r]そうでもあるな！　我ながら！
+[k]
+
+？2：[&自分:わたし]もどうすればいいのか！
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaFadein C 0.1 1]
+＠フォウ
+フォウフォウ。[r]フォウ。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠フェルグス
+ふう……こうなってしまえばこの一命を賭してでも、[r]スカサハ姐にお願いするしかあるまいな。うむ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+え。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠フェルグス
+本当はな、マシュよ。[%1]よ。[r]お主たちをとも思うのだが、何せ、今のお主たちは
+[k]
+
+[charaFace E 4]
+＠フェルグス
+姐さんによって導かれる最中である身。[r]言わば幼子も同然。
+[k]
+
+＠フェルグス
+ならば幼子に手を出す訳にもいかぬから、まあ、[r]となれば。やはり。何、避けていたという訳でもない。
+[k]
+
+＠フェルグス
+アルスターの男として生まれた以上、いずれ、[r]影の国のあるじを我が物とするという本懐をだな───
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+
+[charaFadein E 0.1 2]
+[charaFace E 0]
+
+[charaFadein D 0.1 0]
+[charaFace D 1]
+＠スカサハ
+私はいつでも構わんぞ。
+[k]
+
+
+[charaFace E 2]
+＠フェルグス
+おおぉ[#僥倖:ぎょうこう]！！！！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein C 0.1 2]
+[charaFace C 0]
+＠フォウ
+フォウフォウフォウ！！！
+[k]
+
+
+[charaFace D 1]
+＠スカサハ
+神さえ殺す我が[#抉:えぐ]りの一撃を喰らいたくば、ああ、[r]いつでも寄ってくるがいい。うむ、邪険にはせぬから。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein E 0.1 2]
+[charaFace E 4]
+＠フェルグス
+あっ……うむ……。[r]そういう……うむ……。
+[k]
+
+[charaFace E 1]
+＠フェルグス
+ならばまあ、それは後に取っておくとしよう。[r]まずはこの幼子ふたりの介添えという役目を終えねばな！
+[k]
+
+[charaFace E 2]
+＠フェルグス
+その上で！[r]改めて！　尋常にお願いしたい！
+[k]
+
+＠フェルグス
+まずは殺し合いだ！[r]勝てた時には勿論お願いするが、負ければ負けた時！！
+[k]
+
+？1：豪快だ、フェルグスさん！
+？2：応ッ！
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+は、はい先輩。すべて本気の発言なんだと思います。[r]すごいというか、すさまじいと言うべきか───
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠スカサハ
+ふふ。剛胆と強欲、爽快と無欲、その両立は[r]英雄性とやらのひとつではあろう。
+[k]
+
+＠スカサハ
+紛うことなき人々の羨望、[r]まさしく栄光と勝利の象徴たる英雄そのものよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace A 12]
+＠マシュ
+英雄そのもの、ですか……
+[k]
+
+[charaFace D 0]
+＠スカサハ
+マシュ・キリエライト。そう難しい顔をするな。[r]何、お主たちが奴を無理に真似る必要などなかろうよ。
+[k]
+
+[charaFace D 1]
+＠スカサハ
+強きモノを前に己を省みられるのは、美徳だぞ。[r]よしよし。
+[k]
+
+
+[charaFace A 3]
+＠マシュ
+あっ……頭、撫で……[r]は、はい……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠スカサハ
+うむ。次はおまえだぞ、[%1]。
+[k]
+
+？1：（頭を撫でられる）
+
+[charaFace D 4]
+＠スカサハ
+……うむ、いい子だ。よしよし。
+[k]
+
+
+？2：（頭を撫でられるのをかわす）
+
+[charaFace D 5]
+＠スカサハ
+……何だ。何を恥ずかしがる？
+[k]
+
+？！
+
+[charaFace D 0]
+＠スカサハ
+人はなるようにしかならぬし、[r]おまえはおまえ以外のモノにはならぬ。絶対にな。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+…………さて、話はここまでだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+
+[messageOff]
+
+[se ad14]
+
+[wt 2]
+[shake 0.05 5 4 5]
+[wt 3]
+
+
+
+
+
+
+[se ad53]
+[charaFadein F 2.5 1]
+
+[wt 1]
+
+
+
+
+
+
+
+
+
+[bgm BGM_EVENT_3 0.1]
+
+＠？？？
+[image berserker_language_1]！！[r][image berserker_language_1]！！
+[k]
+
+[seStop ad14]
+
+＠マシュ
+こ、これは、圧倒的な魔力量です……！[r]周囲の[#大源:マナ]を吸収しながら自動的に拡大している！？
+[k]
+
+＠マシュ
+あれには明確な敵意と殺意が存在しています！[r]こちらを、見ている……
+[k]
+
+
+＠？？？
+[image berserker_language_1]！！
+[k]
+
+[charaFadeout F 0.1]
+
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+これは……[r]こんな……
+[k]
+
+？1：落ち着いて、マシュ
+？2：今までの敵とそう変わらないはず
+
+？！
+
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+……はい先輩、一瞬混乱しました。[r]おかけで大丈夫です、戦えます……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+
+[charaFadein A 0.1 2]
+
+[charaFadein D 0.1 0]
+[charaFace D 0]
+＠スカサハ
+ほう、ほう。そういう反応になるか。[r]アレをお主はそうまで恐れるものか、マシュ？
+[k]
+
+[charaFace A 12]
+＠マシュ
+……はい、とても、怖いです。
+[k]
+
+[charaFace A 8]
+＠マシュ
+きっと、わたしには戦うことそのものが……[r]そ[charaFace A 7]れでも今は戦います。その必要があるのですから。
+[k]
+
+
+[charaFace D 0]
+＠スカサハ
+ふむ。それがいつか、[r]おまえの命を奪い取るかもしれぬ、としても？
+[k]
+
+
+＠マシュ
+もちろんです。わたしの恐怖と、[r]わたしの命は別のものです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+それに……もっと怖いものを、わたしは知っている。
+[k]
+
+[charaFace A 8]
+＠マシュ
+何もしない[line 3]何も残せないという寂しさを、[r]もう知っているのです。
+[k]
+
+
+[charaFace D 4]
+＠スカサハ
+……そうか。命の真理に、お主はとうに[r]たどり着いておったのだな。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+ではワシから言う事はない。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+ここで死ねばお主たちは内側から弾け飛び、[r]カルデアなる場所はたちまち死の残骸どもに覆われて、
+[k]
+
+[charaFace D 0]
+＠スカサハ
+人類と文明、お主たちの歩み、[r]すべてのものは最後の希望を決定的に失うだろう。
+[k]
+
+？1：分かっています
+？2：絶対そういうことだろうなと思ってた
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+はい、先輩。わたしも同じです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、ファーウ！[r]キャウ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠フェルグス
+よしよし、覚悟充分ということで良いのだな！[r]ならば、一気に削り取ってしまうとするか！
+[k]
+
+
+
+[messageOff]
+[charaFadeout E 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

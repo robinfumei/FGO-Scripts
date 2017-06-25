@@ -1,0 +1,727 @@
+
+＄94-00-56-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5003001 1 玉藻の前]
+[charaSet C 7013001 1 清姫]
+[charaSet D 4017001 1 マリー]
+[charaSet E 4019001 1 マルタ]
+[charaSet F 3013001 1 スカサハ]
+[charaSet G 1009001 1 モードレッド]
+[charaSet H 1001001 1 アルトリア]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ふう。ひとまず、安全は確保できたようです。
+[k]
+
+？1：現状確認に戻ろう
+
+＠マシュ
+そうですね。誰か、この場所に心当たりのある方は[r]おられないのでしょうか。
+[k]
+
+？2：誰か、この場所に心当たりのある人ー？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠玉藻の前
+うーん。残念ながら、[r][#私:わたくし]の記憶にもない場所ですねぇ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠清姫
+はい。正直に申し上げて、わかりません。[r]少なくとも日の本ではなさそうです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マリー
+わからないけれど、多分、フランスでもなさそうよ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaSet B 4009201 1 アン]
+
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠マルタ
+私の記憶にも該当する場所は、ちょっと。[r]いい砂浜だとは思いますが……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaSet C 4009101 1 メアリー]
+
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠スカサハ
+同感だな。どこか落ち着く光景ではあるが、[r]場所についてはなんとも言えん。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaSet D 4008001 1 黒髭]
+
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠モードレッド
+オレに聞くな、知らねぇよ。[r]つーか、それよりもだな……（チラチラ）
+[k]
+
+[charaMove G -250,0 1.5]
+[wt 1.6]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+＠アルトリア
+私は先程言った通りです。[r]力になれず申し訳ありません。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaSet E 3011000 1 フィン]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠アン
+私たちの本領発揮、という場面ですけど……。[r]特徴の一つでもないことには難しいですわ。
+[k]
+
+[charaSet F 3002001 1 ディルムッド]
+
+＠アン
+メアリーはどうかしら？
+[k]
+
+[charaSet G 3001001 1 クー・フーリン]
+
+[charaFace C 4]
+＠メアリー
+うーん、わかんない。[r]こんな砂浜、今までにいくらでも見てきてるし。
+[k]
+
+[charaSet H 6001002 1 小次郎]
+
+＠メアリー
+……さっきみたいなカニはいなかったけどさ。
+[k]
+
+？1：サーヴァント、多ッ！
+？2：なんだか賑やかだな……
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、マスター。[r]カルデアのドクターと連絡が取れないのは不安ですが。
+[k]
+
+＠マシュ
+これだけのサーヴァントの皆さんがいれば、[r]きっと何が起こっても[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠黒髭
+セイ！　セイセイセーイ！
+[k]
+
+[effect bit_talk_41]
+[bgm BGM_EVENT_7 0.1]
+＠黒髭
+さっきからずっとここに立っているというのに、[r]まるで見えていないフリ！
+[k]
+
+＠黒髭
+意外とガラスのハートな拙者、傷つきますぞ！[r]抱きしめてフォーリンラブですぞ！
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.3]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠黒髭
+まったく、この温厚な黒髭も激おこ（死語）でござるよ。[r]そんなに女性陣ばかり見ていたいのかと小一時間……
+[k]
+
+[charaFace D 0]
+＠黒髭
+あ、いや、うん。[r]よく考えれば誰だってそーする。拙者だってそーする。
+[k]
+
+[charaFace D 2]
+＠黒髭
+[line 3]だがそれはそれとして無視は止めてくだちい！[r]寂しいから！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠フィン
+はっはっは。[r]それはいささか短絡的ではないかな髭の御仁。
+[k]
+
+＠フィン
+この状況では、私たちはむやみに輝かず、[r]おとなしく輝くのがいい案配というものさ。
+[k]
+
+[charaFace E 4]
+＠フィン
+なにしろ[line 3]そう、なにしろだ！[r]やけに魅力的な女性が多すぎる……ッ！
+[k]
+
+[charaFace E 5]
+＠フィン
+私たちがその魅力を遺憾なく発揮してしまえば[r]二股やら重婚やらハーレムやら、
+[k]
+
+＠フィン
+そんな、少しばかり厄介な事件が[r]多発してしまうというもの。
+[k]
+
+[charaFace E 1]
+＠フィン
+[line 3]そうではないかな、ディルムッド？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ディルムッド
+はっ。さすがは我が主……ご自分の……を、[r]よく理解していらっしゃる。まこと慧眼かと。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠クー・フーリン
+はあ。なにか、テメェらの[#時:サイクル]は[r]コントから始める掟でもあったのか？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ディルムッド
+……申し訳ありません。我が主はこう見えて、[r]大変はしゃいでいるようで……
+[k]
+
+[charaFace G 1]
+＠クー・フーリン
+ああ、その気持ちは分かる。見知らぬ島に[r]流れ着くなんざ、危険な匂いしかしねえからな。
+[k]
+
+[charaFace F 0]
+＠ディルムッド
+いえ、我が主が喜んでいるのはそういう勇者の冒険的な[r]ものではなく、英雄の交友関係的な何かというか……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠小次郎
+ははは。そこはまあ、なるべく時になるようになるもの。[r]今は島の景観を楽しむ時ではないかな？
+[k]
+
+＠小次郎
+美しい海、穏やかな風、斬りごたえのあるカニ。[r]なかなかに面妖な浜辺ではないか。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaSet F 3004001 1 カルナ]
+[charaSet H 98006000 1 ？？？]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠カルナ
+…………カニとはな。[r]横にしか歩けない人生は、辛くはないか……？
+[k]
+
+＠カルナ
+つねに相手の顔を見続けるその気概は、[r]武芸者として見習うべきではあるが……
+[k]
+
+＠カルナ
+そしてヤドカリ……自らの住み処を背負うとは……[r]移動型ひきこもり……ジナコも見習うべきだな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+えーと、男性陣の方々はあそこですね。
+[k]
+
+[bgmStop BGM_EVENT_7 4.0]
+
+＠マシュ
+他にも何人か出発時にはいたはずですが、はぐれて[r]しまっているようです。無事だとよいのですが。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠メアリー
+同じ[bgm BGM_EVENT_5 0.1]海賊として聞くけど。[r]黒髭、おまえ、この海がどこだかわからないの？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠黒髭
+…………。
+[k]
+
+[charaFace C 5]
+＠メアリー
+オイコラ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.2]
+
+[charaTalk D]
+[charaMove D -256,10 0.1]
+[wt 0.1]
+[charaMove D -256,0 0.1]
+[wt 0.15]
+[charaFace D 3]
+[bgm BGM_EVENT_7 0.1]
+＠黒髭
+おっと失礼！　拙者、久しぶりのメアリー氏との語らい、[r]つまり言語的さわりっこに興奮しておりまして！
+[k]
+
+＠黒髭
+やはりロリっ娘は声もたまらんですなぁ！　なんというか[r]こう……耳通りが！　ツルッとしてペタッで！
+[k]
+
+[charaFace C 5]
+＠メアリー
+よーし殺しとこうコイツ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+＠アン
+ええ、殺しましょう。[r]サクサク殺しましょう。
+[k]
+
+[charaFace D 0]
+＠黒髭
+いやいや待った待った。この海のことですな？[r]まあぶっちゃけ現状ではとんとわからんのでござるが。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠メアリー
+よし。やっぱり使えないから安心だ。[r]殺そう。
+[k]
+
+[charaFace D 2]
+[charaShake D 0.05 3 3 0.5]
+＠黒髭
+決断早すぎィ！　ジャケ買いして騙されたオトナの[r]映像作品を二度と見ないと見限るときのごとし！
+[k]
+
+＠黒髭
+沖から見ればまた違うかもしれんですなあ、と[r]続けようとしたのですぞ、拙者は！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠アン
+それは……そうですわね。私たちはどちらかと言えば[r]『海から見た陸の形』を覚えているものですし。
+[k]
+
+？1：じゃあ……見てきてくれないかな？
+？2：よろしくお願いします、黒髭さん
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。それが現状打てる最善の手でしょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠黒髭
+えー？　ウソー？　そういうこと言うの、[r]言っちゃうの、マスター？
+[k]
+
+＠黒髭
+拙者はカワイイ黒髭たんですぞ？[r]こんな得体の知れない海の沖に一人で行けなんて……。
+[k]
+
+＠黒髭
+船もないし……。[r]こんなことのために宝具とか使いたくないし……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠メアリー
+船ならあるじゃないか。[r]ほら、あんなに立派なのが。
+[k]
+
+
+[charaFace D 2]
+＠黒髭
+どこからどー見ても、砂浜に流れ着いてる[r]ただの丸太でござるよねえ！？　シングル丸太！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+[wt 0.1]
+[charaMoveReturn B 226,0 0.15]
+＠アン
+はいこれ、[se ad7][charaShake D 0.05 3 3 0.15]オールもどうぞ。完璧ですわね。
+[k]
+
+[charaFace D 2]
+＠黒髭
+板！　ただの！　板！
+[k]
+
+[charaFace D 4]
+＠黒髭
+こんなんで沖に出たら……死ぬ。[r]サーヴァントでも確実に死んじゃうでござるよ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠メアリー
+やれやれ、しょうがないなあ。[r]このままじゃ話が進まないし。
+[k]
+
+＠メアリー
+……わかったよ。行ってくれたら礼はするから。
+[k]
+
+[bgmStop BGM_EVENT_7 0.4]
+
+[se ad29]
+
+[charaFace D 1]
+[charaScale F 0.01]
+[charaPut F -250,-80]
+[charaEffect F bit_talk_37]
+＠黒髭
+キュピーン！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ねじ切れんばかりに首が回りました！？[r]そして凄い眼光です！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+[messageOff]
+[wipeFilter cinema 0.5 0]
+[cameraMove 1.0 100,-100 1.5]
+[wt 1.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+
+＠黒髭
+ハァハァハァ……ゴクリ。メアリー殿。[r]その、その礼とは……どんな？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[cameraMove 1.0 -100,-100 1.5]
+[wt 1.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠メアリー
+そうだなあ……ボクの身体に１タッチしていい、[r]ってことにしようか。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[cameraMove 1.0 100,-100 1.5]
+[wt 1.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+
+＠黒髭
+どこでも！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[cameraMove 1.0 -100,-100 1.5]
+[wt 1.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠メアリー
+どこでもいいよー。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[messageOff]
+[cameraMove 1.0 0,0 1.0]
+[wipeFilter cinema 0 0]
+[wt 1.0]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.5]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠黒髭
+キタ！　ついに拙者の時代がキター！[r]行ってくるでござるよ、デュフ、デュフフフフ！
+[k]
+
+[bgmStop BGM_EVENT_4 5.0]
+[se ad54]
+[se ad14]
+[seStop ad14 4.0]
+
+[charaAttack D normal -1000,0 0.5]
+[charaScale F 0.1]
+[charaPut F 500,-400]
+[charaAttack F normal -1000,-400 1.0]
+[charaBackEffect F bit_talk_haboob_01]
+[wt 0.1]
+[charaBackEffectStop F bit_talk_haboob_01]
+
+[wt 2.0]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+丸太に跨って……板で波を漕いで……[r]行ってしまいました。
+[k]
+
+＠マシュ
+あ、あんな一言で……いろいろ驚きです。[r]よかったのでしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠アン
+マシュとは別の意味で、ですけれど。[r]よかったのですか、メアリー？
+[k]
+
+[charaFace C 0]
+＠メアリー
+よくはないさ。でも構いはしないよ。[r]ただの勘だけど、この海にはただならないものを感じる。
+[k]
+
+＠メアリー
+きっとあいつ、ただでは帰ってこられな[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.5]
+
+[se ad21]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠？？？
+……[bgm BGM_EVENT_3 0.1]……！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……ッ！　また敵です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フィン
+ほほう。[r]こちらが海に意識を向けた隙をついての襲撃とは。
+[k]
+
+＠フィン
+この島に棲むものたちは戦いを心得ているようだ。[r]知識ではなく、本能的にね。
+[k]
+
+＠フィン
+[%1]殿、いかがするかな？[r]髭の御仁を見捨てて逃げる手もあるが？
+[k]
+
+？1：殲滅するしかない！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。[r]マシュ・キリエライト[line 3]行きます！
+[k]
+
+？2：黒ひーを信じて逃げようか？
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、黒髭さんのファイトを信じる気持ちは[r]素晴らしいと思いますが、きっとダメです！
+[k]
+
+＠マシュ
+もし黒髭さんが帰ってこられた時のために、[r]迎え撃ちましょう！
+[k]
+
+？！
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

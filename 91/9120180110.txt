@@ -1,0 +1,323 @@
+＄91-20-18-01-1-0
+
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 2018001 1 子ギル]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98006000 1 エネミー]
+
+[scene 21230]
+[fadein black 2.0]
+[se ad37]
+[wait fade]
+
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.4 1]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.7]
+＠子ギル
+……いいですねぇ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[seStop ad37 2.0]
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[bgm BGM_EVENT_2 0.1]
+＠マシュ
+あ……すみません、少しぼうっとしていたようです。[r]『いい』とは……？
+[k]
+
+[charaFace C 1]
+＠子ギル
+いえ、何でもないですよマシュお姉さん。[r]今のはただの個人的感想です。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ま、マシュお姉さん……？[r]なんだか新鮮な呼ばれ方です。
+[k]
+
+[charaFace C 0]
+＠子ギル
+おや、嫌でしたか？[r]これは失礼しました。耳障りでしたら変えますね。
+[k]
+
+[charaFace A 13]
+＠マシュ
+いいえ、嫌というわけでは。[r]少しびっくりしただけです。
+[k]
+
+[charaFace C 1]
+＠子ギル
+それならよかった。ああ……考えてみると、[r]ここはよかったコトだらけですね。
+[k]
+
+＠子ギル
+何よりもまず、ボクを喚んでくれたのがよかった。
+[k]
+
+[charaFace A 12]
+＠マシュ
+はあ……それは、どういう……？
+[k]
+
+[charaFace C 0]
+＠子ギル
+成人したボクじゃなくてよかった、という意味です。[r]今回はどうにもおかしなコトになってるみたいですから、
+[k]
+
+＠子ギル
+ひょっとしたらあっちが[r]同時に喚ばれる事もあるのかもしれないですけど。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[wt 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+あー……
+[k]
+
+＠Dr.ロマン
+キミに関してはこちらとしても扱いに迷うというか……[r]とりあえず、何と呼べばいいんだろう……？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+いや待て、安全第一に行くなら、まず言葉遣いから……[r]何と呼ばせていただくべきなのでしょうか、か[line 2]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠子ギル
+イヤだな、そんなに緊張しないでくださいドクター。[r]ボクはあのボクとは違います。
+[k]
+
+[charaFace C 0]
+＠子ギル
+気に入らないからってすぐ手を出したりはしません。[r]ほんと、あの人は子供みたいで最低ですよね。
+[k]
+
+＠Dr.ロマン
+（……この姿の自分にこんなこと言われてるとは、[r]　最古の英雄王も想像してないだろうな……）
+[k]
+
+＠子ギル
+何にしても、ボクのことは気さくに……そうですね。[r]ギルくんとでも呼んでください。
+[k]
+
+？1：よろしくね、ギルくん
+
+[charaFace C 1]
+＠子ギル
+はい、よろしくお願いしますね、マスター。
+[k]
+
+？2：よろしくお願いします、ギルくん様！
+
+[charaFace C 1]
+＠子ギル
+嫌だなあ、マスター。[r]ボクはただの一サーヴァント、一アーチャーですよ。
+[k]
+
+＠子ギル
+普通にしてください、普通に。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+ではわたしも……よろしくお願いしますね、ギルくん。
+[k]
+
+＠子ギル
+はい。いやあ[line 2]ここにあるもう一つの『よかったこと』[r]をまた思い出してしまいました。
+[k]
+
+[charaFace C 0]
+＠子ギル
+本当に、改めて言いますけど、よかったです。[r]マシュお姉さんのような素敵な人に出会えて。
+[k]
+
+[charaFace A 3]
+＠マシュ
+え……？
+[k]
+
+＠子ギル
+ボクは女性を見る目にも自信があるんです。
+[k]
+
+＠子ギル
+成人したボクでは、[r]きっとマシュお姉さんの美しさには気付かず[line 2]
+[k]
+
+[charaFace C 4]
+＠子ギル
+……いや、でも、どうかな。部分的に引っかかるものを[r]感じたりはするかもしれませんね。
+[k]
+
+[charaFace C 0]
+＠子ギル
+なんとなくそう思うだけで、[r]理由はまだ言語化できませんが。
+[k]
+
+＠子ギル
+うん、まあ、とにかくマシュお姉さんの可憐さはとても[r]ボク好みです。少し大人しすぎるきらいはありますけど。
+[k]
+
+[charaFace A 11]
+＠マシュ
+か、からかわないでください、ギルくん……。
+[k]
+
+？1：全面的に同意
+？2：マシュが可憐なのは前から知ってる[&ぞ:よ]！
+
+？！
+
+[charaFace A 3]
+＠マシュ
+先輩まで！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+はは。[r]いいじゃないか、ストレートな褒め言葉だ！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+素直に喜んでいいんじゃないかな？[r]女の子として悪い気はしないだろ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+そういう問題では……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ん？　ちょっと待った、これは[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_2 0.7]
+[wt 0.6]
+[messageOff]
+[wt 0.1]
+
+[charaFilter E silhouette 00000000]
+[se ad36]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.7]
+[se ad21]
+[wt 0.3]
+[wt 1.2]
+[charaFadeout E 0.1]
+[wt 0.2]
+
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+敵だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+どうやら、[r]話をしている状況でもなくなったようですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠子ギル
+あーあ、せっかく可憐な花を愛でていたところだったのに。[r]空気を読まないなあ……。
+[k]
+
+[charaFace C 0]
+＠子ギル
+でも、これもいいことに含まれますね。
+[k]
+
+＠子ギル
+この通りボクは子供ですが、喚ばれたからには[r]戦力に数えられるところを証明できます。
+[k]
+
+
+[charaFace C 5]
+＠子ギル
+（それに[line 2]確かめておきたいこともある）
+[k]
+
+＠子ギル
+（彼女という花の美しさが何に因っているのか。[r]　その答えによっては[line 2]）
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

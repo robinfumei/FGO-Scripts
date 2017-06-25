@@ -1,0 +1,254 @@
+
+＄94-00-18-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 5007001 1 シェイクスピア]
+[charaSet B 2001001 1 エミヤ]
+[charaSet C 3002001 1 ディルムッド]
+[charaSet D 1013001 1 カエサル]
+
+[scene 10720]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+[wt 0.5]
+＠エミヤ
+……。[r]……。
+[k]
+
+？1：…………
+？2：何か弁明は？
+？！
+
+[charaFace B 0]
+＠エミヤ
+まあ、待てマスター。[r]気持ちはよく分かる、分かるが私の話も聞きなさい。
+[k]
+
+＠エミヤ
+私はその特質上、バレンタインデーのような[r]現代に通ずるイベントにも精通している。
+[k]
+
+[charaFace B 5]
+＠エミヤ
+故に、君がトラブルに巻き込まれる可能性を出来得る[r]かぎり排除したのだと考えるべきではないかな？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+さすがはカルデアにその名も轟く過保護サーヴァント。[r]とはいえ動機は理解しましたが、詳細をお伺いしなくては。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠エミヤ
+過保護には反論したいのだが……。[r]まあ、今はいい。
+[k]
+
+[charaFace B 0]
+＠エミヤ
+マスター。[&おまえ:君]にチョコを贈ろうとしているのは[r]ただの人間ではない。
+[k]
+
+＠エミヤ
+そう[line 2]サーヴァント、過去の英雄たちなんだぞ？[r]常人と比べて、あらゆる点がぶっちぎりの連中だ。
+[k]
+
+＠エミヤ
+能力、精神、スキル、そして暴走力、[r]すべてにおいて無駄に超一流だ。
+[k]
+
+[charaFace B 4]
+＠エミヤ
+そんな彼女たちがチョコを作って贈る、[r]それだけで済むはずがあるまい。
+[k]
+
+[charaFace B 5]
+＠エミヤ
+断言しよう。[&おまえ:君]は酷い目に遭う、と。[r]ほぼ間違いなく、１４行きになると！
+[k]
+
+＠エミヤ
+地雷原へのこのこ呑気に出掛けていく主を止めるのは、[r]サーヴァントとして当然[line 3]
+[k]
+
+[charaFace B 3]
+＠エミヤ
+いや、人の心を持つ友人として当然のこと。[r]私には分かるんだ。だって女難の相持ってるしネ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+やっぱり過保護ですな、このサーヴァント。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠エミヤ
+むう。私だけのコメントでは信用し切れないか。[r]こんな事もあろうかとゲストを呼んでおいた。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+ふむ、ゲストですか。[r]女性で痛い目に遭った感じのゲスト……つまり。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ディルムッド
+[fontSize large]チョコは危険ですマスター！！[fontSize -]
+[k]
+
+？1：せ、説得力がありすぎる……
+？2：ああうん、信用するよ……
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+ですよねー。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ディルムッド
+それはようございました！
+[k]
+
+[charaFace C 5]
+＠ディルムッド
+とある聖杯戦争でうっかりチョコを貰ったばっかりに！[r]ギスギスした争いが！　私の前で！
+[k]
+
+[charaFace C 4]
+＠ディルムッド
+せめて殴り合いなら止められたのですが……。
+[k]
+
+＠ディルムッド
+言葉という刃を微笑みながら突き刺し合っていては、[r]止められるはずもなく……！
+[k]
+
+[charaFace C 5]
+＠ディルムッド
+胃潰瘍待ったなしでした……！
+[k]
+
+[charaFace C 0]
+＠ディルムッド
+マスター、チョコレートは危険です。[r]あれは人を惑わせるもの……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFace B 3]
+[charaFadein B 0.1 0]
+＠エミヤ
+ありがとう、麗しの若武者殿。[r]心に迫る教訓、本当にありがとう。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠エミヤ
+さて。この通り、[r]先達のコメントを噛み締め、ここは堪えてくれ。
+[k]
+
+＠エミヤ
+マスター。人類の未来が[&おまえ:君]に[r]掛かっていることを忘れないように。
+[k]
+
+？1：でも皆、チョコがないとふて腐れますよね？
+？2：貰った方が危険はなさそう
+
+？！
+
+[charaFace B 4]
+＠エミヤ
+……やれやれ。説得はここまでか。[r]では力づくでも止めさせてもらおう。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace B 5]
+＠エミヤ
+百を救うために一を切り捨てる[line 3]イヤな話だが、[r]今回だけはこれは絶対の正義だとオレは信じる！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+＠ディルムッド
+その通りだ見知らぬアーチャー！[r]アーチャークラスでありながら気が合うな貴殿とは！
+[k]
+
+[charaFace C 5]
+＠ディルムッド
+そしてマスター！[r]このディルムッド、あえて主君に刃を向けても[line 2]
+[k]
+
+＠ディルムッド
+マスターの為に、血を流しましょう！[r]その方が確実に被害が抑えられるのですから！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+ははははは！　やはりこうなりますか！[r]よろしい、マスターやってしまいなさい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

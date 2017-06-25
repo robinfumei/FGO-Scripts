@@ -1,0 +1,361 @@
+＄94-00-31-13-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98061000 1 ウェイバー]
+[charaSet F 4002001 1 イスカンダル]
+[charaSet G 3002000 1 ディルムッド]
+[charaSet H 7002001 1 バーサーカー]
+
+[scene 25300]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 900,0]
+
+[fadein black 2.0]
+[wait fade]
+[se ad33]
+[wait se ad33]
+
+[fowardEffect bit_talk_42]
+[charaMove G 1 0.2]
+[wait charaMove]
+[fowardEffectStop bit_talk_42]
+
+＠ディルムッド
+穿て！　[#破魔の紅薔薇:ゲイ・ジャルグ]！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+[se bac13]
+[fowardEffect bit_talk_13]
+[charaShake H 0.05 3 3 0.5]
+
+＠バーサーカー
+uaaaaaッ！
+[k]
+
+[wait fowardEffect bit_talk_13]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+今だ[%1]、とどめを……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace H 5]
+[charaFadein H 0.1 100,0]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠イスカンダル
+待てぇぇぇィ！！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォッ！？
+[k]
+
+＠マシュ
+ライダーがバーサーカーを庇った……！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠ウェイバー
+おいおいおい何やってんだオマエ！？
+[k]
+
+＠イスカンダル
+うむ。諸々考えた末に腹が決まった。[r]余はこの狂戦士に加勢する。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エルメロイ
+な、何だと！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠ウェイバー
+どうしてそんな急に？[r]こいつ味方につけて何かメリットあるのか？
+[k]
+
+＠イスカンダル
+うむ、まぁ何もなかろうな。
+[k]
+
+[charaFace E 3]
+＠ウェイバー
+じゃあ何でだよ！？　放っときゃいいのに！
+[k]
+
+＠イスカンダル
+誰と馴れ合うかの判断でなく、誰と矛を交えるかの選択だ。
+[k]
+
+＠イスカンダル
+まぁ本命とばかり思っていた英雄王めがあの顛末だからな。[r]次の一手をどうしたもんか、考えあぐねておったのだ。
+[k]
+
+[charaFace E 1]
+＠ウェイバー
+じゃあ、次はセイバーを倒そうってのか？
+[k]
+
+[charaFace F 5]
+＠イスカンダル
+いいや違う、あの眉間ジワの辛気臭い軍師。あいつが敵だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace D 5]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+え？
+[k]
+
+＠エルメロイ
+……どうしてそうなる？[r]利害関係には何一つ抵触していないだろう！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace E 1]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠イスカンダル
+うむ、別に。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+こちらはあなたとの衝突を避けるために[r]細心の注意を払ってきたのだ！　なのに何故！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠イスカンダル
+なんとなく貴様が気に食わん。ただそれだけの話だよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠エルメロイ
+な……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウフォウ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠ウェイバー
+何で！？　オマエどーして肝心な時に限って[r]そういう訳わかんない理由で動くわけ！？
+[k]
+
+[charaFace F 4]
+＠イスカンダル
+訳がわからんのはな、そもそもこの軍師どもの存在自体、[r]まるきり訳がわからんからだ。
+[k]
+
+[se ad60]
+[charaFace F 0]
+[charaMove F 1 0.5]
+[charaMove E 900,0 0.5]
+[wait charaMove]
+[charaFadeout E 0.1]
+[seStop ad60]
+
+＠イスカンダル
+人間とも英霊ともつかぬ奇妙奇天烈なサーヴァント、[r]ただの予測にしては不気味なほど的確すぎる先読み……。
+[k]
+
+＠イスカンダル
+明らかにこいつらはこの戦いのルールの外にいる。それで[r]いて積極的にこちらの戦況に干渉しようとしておる。
+[k]
+
+[charaFace F 5]
+＠イスカンダル
+ただひとつ間違いないのは……こいつらが我々の[r]聖杯戦争を邪魔しに来ているという点だけだ。
+[k]
+
+[charaFace F 0]
+＠イスカンダル
+目的も何も知ったことではないが、[r]余もまた聖杯の争奪を賭けて招かれた英霊の一人。
+[k]
+
+＠イスカンダル
+勝負の枠組みそのものを破壊しようなどと企んでいる[r]連中は、敵よりさらにタチの悪い障害物であろう？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……ッ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠イスカンダル
+そういうわけで、セイバー、ランサー、[r]そいつに与する貴様らも今この時点より余の敵だ。
+[k]
+
+[charaFace F 1]
+＠イスカンダル
+よってバーサーカーを支援する。実に明快であろう？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ディルムッド
+……どうするのだマスター？　バーサーカーより先に[r]あのライダーを退けよ、というなら応じるが。
+[k]
+
+？1：戦っていい？
+？2：勝ち目あるかな？
+
+？！
+
+[bgmStop BGM_EVENT_3 1.5]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace A 0]
+[charaFace D 2]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠エルメロイ
+……いいや、駄目だ。当初の目的を忘れたか？[r]我々が倒していいサーヴァントは四人が限度だ！
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠マシュ
+キャスターとアーチャーを消滅させ、[r]アサシンも群体の大方を排除済みです。
+[k]
+
+[charaFace A 14]
+＠マシュ
+ここでさらに二人のサーヴァントを敵に廻したのでは、[r]確かに……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠イスカンダル
+まぁバーサーカーはかなり消耗しておるし、[r]そもそもマスターが瀕死だからな。
+[k]
+
+[charaFace F 0]
+＠イスカンダル
+我々としてはこいつらを連れて一旦退散したいところだが。[r]どうする？　追い討ちをかけるかね？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……立ち去るがいい。こちらは打つ手なしだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠イスカンダル
+良し良し。[r]賢しいだけの敵は御しやすくて助かる。
+[k]
+
+＠イスカンダル
+ではバーサーカーが復活した後で、[r]改めて雌雄を決するとしようか。さらばだ！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+[soundStopAll]
+[end]

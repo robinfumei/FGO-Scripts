@@ -1,0 +1,548 @@
+
+＄94-00-45-03-3-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 4023001 1 坂田金時]
+[charaSet G 7023001 1 ？？？]
+
+[scene 27800]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+敵性反応、消滅しましたが……[r]これは……やはり……
+[k]
+
+？1：何か気になる事が？
+？2：今までと違う？
+
+？！
+
+[charaFace A 12]
+
+＠マシュ
+……はい。うまく言えないのですが、[r]手応えが軽いというか……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+うん。数値だけで見ると、内部構造が霊体よりだね。
+[k]
+
+＠Dr.ロマン
+荒々しい見た目に反して、[r]本質は高等な精神体なのかもしれない。
+[k]
+
+＠Dr.ロマン
+日本の幻想種の全てがそうとは限らないが。[r]そのあたりどうだい、牛若くん。
+[k]
+
+＠Dr.ロマン
+キミ、天狗に育てられたんだろう？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 5]
+
+＠牛若丸
+はあ。師匠たちについての言及は“駄目ぞ”と[r]禁じられていますので、詳細は語れませんが……
+[k]
+
+[charaFace D 0]
+
+＠牛若丸
+日の本の怪異も西洋と同じく、[r]霊獣と[#御霊:ごりょう]とに分かれます。
+[k]
+
+＠牛若丸
+実在するものの人の世から隠れ棲む霊獣と、[r]実在しないまま人の世に生まれる呪い、と言いますか。
+[k]
+
+＠牛若丸
+この鬼どもは後者のようですね。[r]斬っていても張り合いがない。
+[k]
+
+＠牛若丸
+吸い込めば死に至る煙のようなものです。[r]人の業が生み出した呪いの類ですね。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+[#歴:れっき]とした生態系を持つ生き物じゃないってコトか。[r]うん、それなら納得だ。
+[k]
+
+[communicationCharaFace 2]
+
+＠Dr.ロマン
+って、今はのんびり話してる場合じゃなかった！[r][%1][&君:ちゃん]、そこの美女にカメラを！
+[k]
+
+＠Dr.ロマン
+とにかく話を聞くんだ！[r]貴重なおっぱ、いや、重要な参考人だからね！
+[k]
+
+[communicationCharaClear]
+[charaFadeout D 0.1]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠？？？
+おや、どこからお声が……？
+[k]
+
+＠？？？
+繊細で慎重、小心ながらも理を以て万事にあたる……[r]そんなお人柄を感じますが……？
+[k]
+
+？1：すみません、その人チキンなんですよ
+
+[charaTalk B]
+
+＠Dr.ロマン
+え？　いやだなあ[%1][&君:ちゃん]。[r]そんな改まって褒められても。
+[k]
+
+？2：アナタは一体……？
+
+[charaTalk G]
+
+＠？？？
+うふふ……お気になさらず。[r]私はただの、通りすがりの鎧武者です。
+[k]
+
+？！
+
+[charaTalk G]
+[charaFace G 1]
+
+＠？？？
+ともあれ、ご尽力感謝いたします、[r]名も知れぬ異邦の方々。
+[k]
+
+[charaFace G 0]
+
+＠？？？
+珍しい出で立ちですが、どうやってこの島に？[r]港に船が来るのはまだ先の筈ですが……
+[k]
+
+＠？？？
+[line 3]あら？　あらあらあら？[r]そこの可愛らしい武者は、どなたでしょう？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+
+＠牛若丸
+み……いえ、牛若丸と申します。[r]鬼どもを相手に一歩も引かぬ姿、感服いたしました。
+[k]
+
+＠牛若丸
+ただならぬ太刀筋に佇まい。[r]さぞや名のある武人の方とお見受けしますが？
+[k]
+
+[charaShake D 0.1 1 1 99]
+
+[charaTalk G]
+
+＠？？？
+まあ……ふふ……（なでりなでり）
+[k]
+
+
+[charaTalk D]
+[charaFace D 3]
+
+[charaShakeStop D]
+
+＠牛若丸
+わっ……その、ええと……。
+[k]
+
+[charaTalk G]
+
+＠？？？
+本当に、[r]私のことなど気にせずともよいのですよ。
+[k]
+
+
+＠？？？
+今回のこれも、私は私の為すべきことをし、[r]貴方がたは貴方がたの為すべきことをした[line 2]
+[k]
+
+＠？？？
+その結果として、[r]互いの道筋がたまたま交わったというだけです。
+[k]
+
+
+＠？？？
+巡り合わせがあれば、また会うこともあるでしょう。
+[k]
+
+＠？？？
+それでは、私はこれにて失礼。
+[k]
+
+[se ad60]
+[seStop ad60 1.5]
+[charaFadeout G 0.4]
+[wt 1.2]
+
+
+[charaFadeout D 0.1]
+[wt 0.6]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+
+
+＠マシュ
+行ってしまわれました……。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+引き留めようよ！[r]そこは引き留めて欲しかったなぁ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+……いえ。あれは引き留められません。[r]貴人の振る舞いに異を唱える事は、非礼に当たります。
+[k]
+
+＠風魔小太郎
+……僕は陰に生きる者ですが、[r]その僕でも、今のお方の位は分かります。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+不思議な雰囲気の女性でしたね。[r]包容力があるといいますか、母性的と言いますか。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+
+＠牛若丸
+ううーん……？　あの方……んー？
+[k]
+
+？1：やっぱり知ってる人？
+？！
+
+＠牛若丸
+いえ、初対面なのは確実なのですが。
+[k]
+
+＠牛若丸
+どことなく見知った雰囲気があるといいますか、匂いが…[r]…なんというかこう……懐かしいような……ううん……？
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+（ろくろを回すような手の動きをしながら首を傾げてるぞ）
+[k]
+
+＠Dr.ロマン
+まあ、わからないものは仕方がない。[r]とりあえず今は[line 2]っと。
+[k]
+
+[messageOff]
+
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+
+
+[se ad121]
+[wait se ad121]
+
+[wt 0.3]
+
+
+
+
+[se ad127]
+
+[seStop ad127 1.0]
+
+[wt 1.5]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠坂田金時
+悪ィな、ちと遅れたぜ。
+[k]
+
+＠坂田金時
+ベアー号の調子がゴキゲンすぎたモンでよ！[r]予定より遠くまでカッ飛ばしちまった。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+
+＠マシュ
+あ、金時さん。
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+……ご無事で。[r]ようこそお帰り、くださいました……。
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+……あ？　なんだよ、一戦やらかした後かよ。[r]チ、暴れ損ねたぜ。ズリィぞお前ら。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+＠牛若丸
+いえ、こちらもやや不完全燃焼といいますか……
+[k]
+
+＠牛若丸
+ほとんど、通りすがりの鎧武者の方が片付けて[r]しまわれたので。あまり出番はありませんでした。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+
+＠坂田金時
+鎧武者ァ？[r]ンなもんがいたのかよ。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+うん。なんというか、凄まじい腕前に、凄まじい胸部体積の……[r]いろんな意味で母性のカタマリみたいな……。
+[k]
+
+[charaFace F 5]
+
+＠坂田金時
+[line 6]あ？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、鎧を着ていながらすらりとした立ち姿で。[r]柔らか……というか、艶やか、というか。
+[k]
+
+＠マシュ
+とにかく、匂い立つような美しい振る舞いでした。[r]名のある武将のようでしたが……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+
+
+＠坂田金時
+…………どういう事だ、そりゃあ。[r]いや、まさかな……。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+金時くん？
+[k]
+
+[charaTalk F]
+[charaFace F 1]
+
+＠坂田金時
+ああ、いや、なんでもねぇ。[r]それより状況はどうなってる？
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+そうだね。情報のすりあわせをしておこう。[r]まずは[line 2]
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+
+[wt 1.0]
+
+[scene 27800]
+
+[fadein black 2]
+[wait fade]
+
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+ふん。三匹の大鬼を倒さなきゃ、上には行けねぇってか。[r]で、ソイツらはゴールデンにクソ強ぇときた。
+[k]
+
+[charaFace F 1]
+
+＠坂田金時
+いいねぇ、面白くなってきた！[r]何より分かりやすいのが最高だ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+
+＠牛若丸
+金時どのならそう仰ると思っておりました！
+[k]
+
+[charaTalk E]
+[charaFace E 1]
+
+＠風魔小太郎
+同意……です。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+ああ……バトル上等な人達はこれだから……。[r]金時くん、キミの見回りの成果は？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+ああ。鬼どもが人間を働かせている現場は[r]言うまでもねえが、
+[k]
+
+＠坂田金時
+人間たちの集落みてえな場所もありやがった。[r]遠くにちらっと見えただけだがな。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+集落か。確かに、ずっと労働させ続けるのは非効率だ。[r]人間達を生活させる場所も必要だろうね。
+[k]
+
+＠Dr.ロマン
+危険はあるが、[r]行けば何か情報を得られるかもしれない。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+大門を守る大鬼を撃破し、鍵を手に入れる。[r]そして、集落での情報収集。
+[k]
+
+＠マシュ
+さしあたっての目標は決まりましたね。[r]マスター、気をつけていきましょう！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

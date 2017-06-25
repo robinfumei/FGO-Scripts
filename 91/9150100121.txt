@@ -1,0 +1,163 @@
+＄91-50-10-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 21401]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5010001 1 パラケルスス]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 5010001 1 パラケルスス？]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……大型敵性体、撃破っ！！
+[k]
+
+[charaFace A 8]
+＠マシュ
+強敵、でしたが……。[r]何とか、破壊することができました……。
+[k]
+
+[charaFadeout A 0.1]
+[charaShadow E true]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠パラケルスス？
+無念[line 2]
+[k]
+
+[charaFace E 4]
+＠パラケルスス？
+諦めた私は、そう言わざるを得ない。[r]世界は焼却されるのだから。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠パラケルスス
+いいえ。[r]貴方は間違っている。
+[k]
+
+[charaFace C 0]
+＠パラケルスス
+諦めることを止めた私は、そう言いましょう。[r]世界はきっと救われるのだから。
+[k]
+
+[charaTalk E]
+[charaFace E 1]
+＠パラケルスス？
+……ふふ、滑稽なことです。[r]まさか、この私が。
+[k]
+
+＠パラケルスス？
+望まぬ悪逆を選び続けた私が、こうして、[r]自分自身の手で……断罪を……。
+[k]
+
+＠パラケルスス？
+受ける、とは……。
+[k]
+
+[charaFace E 4]
+＠パラケルスス？
+ああ……。[r]この、醜く哀れな私の末路を……。
+[k]
+
+＠パラケルスス？
+私は、貴女に捧げよう……美沙夜……。
+[k]
+
+[messageOff]
+[se ba5]
+[charaSpecialEffect E darkEnemyErasure 1 3]
+[wait charaSpecialEffect E]
+[charaShadow E false]
+[bgmStop BGM_EVENT_6 0.4]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+敵性サーヴァント、完全に消滅しました。[r]……戦闘終了です。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+流石は魔術協会のお膝元と言うべきか……。[r]とんでもない相手だったね、あれは、うん。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ファヴニールにさえ並ぶ大物中の大物だ。[r]倒せたのは、僥倖だったとしか言いようがないよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠パラケルスス
+いいえ[line 2]
+[k]
+
+[charaFace C 1]
+＠パラケルスス
+貴方たちは勝利することができる。[r]たとえ再び、アレが目覚めることがあっても。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うん？？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠パラケルスス
+貴方たちは悪逆を斃す者。[r]私の信じた、[#正義の味方]に他ならないのですから。
+[k]
+
+[charaFace C 5]
+＠パラケルスス
+ならば、きっと。[r]如何なる強敵に出会ったとしても。
+[k]
+
+＠パラケルスス
+如何なる裏切りを経たとしても、[r]如何なる絶望の果てを目にしたとしても。
+[k]
+
+[charaFace C 1]
+＠パラケルスス
+負けることなど、有り得ません[line 2]
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

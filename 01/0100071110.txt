@@ -1,0 +1,416 @@
+
+
+
+＄01-00-07-11-1-0
+
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 2020001 1 イシュタル]
+[charaSet F 5018001 1 ギルガメッシュ]
+[charaSet G 98107600 1 祭祀長シドゥリ]
+[charaSet H 98107500 1 ウルク兵士]
+
+[scene 33100]
+[fadein black 2.0]
+[wait fade]
+
+
+[bgm BGM_EVENT_7 0.1 0.7]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠ギルガメッシュ
+ふははははははははははははははははははははははははは[r]はははははは！　よくぞ帰った、素晴らしき勇者たちよ！
+[k]
+
+＠ギルガメッシュ
+そして恥知らずにも出戻ってきた、そこの女神！[r]我らが軍門に[#降:くだ]った感想を述べるがよい！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠イシュタル
+だーれがアンタの軍門に降ったかって言うの！
+[k]
+
+＠イシュタル
+私はビジネスパートナーとして[%1]と[r]契約した、先見の明あふれる女神イシュタル！
+[k]
+
+＠イシュタル
+見てなさい、コイツすっごいマスターになるから。
+[k]
+
+＠イシュタル
+っていうか、すっごいマスターになるまで、[r]死のうが爆散しようが私が生き返らせるから！
+[k]
+
+[charaFace E 6]
+＠イシュタル
+[line 3]フ。もうどっちが勝ち組かは言うまでもないわね。[r]そして、その時になってアンタはこう言うのよ！
+[k]
+
+[charaFace E 7]
+＠イシュタル
+“おお、イシュタルはまさしく勝利の女神であったのか！[r][f small]  [f -]無念だ。よし、我死のう”ってね！
+[k]
+
+[charaFace F 2]
+＠ギルガメッシュ
+死なぬわ、たわけ！　[#寝所:エアンナ]まで解放してやったというのに、[r]まったく反省の色がないな！
+[k]
+
+[charaFace E 10]
+＠イシュタル
+あるわけないでしょ、むしろ怒りマシマシよ！[r]もともとエアンナは私のものじゃない！
+[k]
+
+＠イシュタル
+なのに、なに勝手に押収してるの！？[r]あー、やっぱり来るんじゃなかった！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠祭祀長シドゥリ
+お二人とも、どうかそこまでに。
+[k]
+
+＠祭祀長シドゥリ
+何であれ都市神が実際に舞い降りるなど、[r]祭祀を司る者としてこの上ない名誉なこと。
+[k]
+
+＠祭祀長シドゥリ
+『牧場主からの被害報告』等は水に流し、[r]イシュタル女神のご帰還を祝いましょう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+ふん。だそうだ、イシュタル。[r]祭祀長はこう言っているが？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+＠イシュタル
+く……シドゥリ相手には文句は言えないわね……[r]ウルクで一番信心深い、お手本みたいな神官だし……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+イシュタルさんもシドゥリさんには[r]強く出れないようですね。
+[k]
+
+[charaFace A 1]
+＠マシュ
+この様子なら、ギルガメッシュ王とイシュタルさんも[r]協力しあえる気がしてきました！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.5]
+[bgm BGM_EVENT_40 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+まあ良い。今は貴様の更正は後回しだ。[r]次の問題が控えているからな。
+[k]
+
+？1：次の問題というと……
+？2：密林の女神？
+
+？！
+
+[charaFace F 1]
+＠ギルガメッシュ
+そうだ。ゴルゴーンめがティアマト神の化身と[r]判った以上、実に有効な武器がある。
+[k]
+
+＠ギルガメッシュ
+かつてティアマト神の[#喉:のど]を裂いたマルドゥーク神。[r]その手斧が、エリドゥには保管されていた。
+[k]
+
+＠ギルガメッシュ
+この手斧をもって、ゴルゴーン打倒の要因とするのだ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+エリドゥ……シュメル神話において、[r]最初に天から王権が降りた都市だね。
+[k]
+
+＠Dr.ロマン
+でも、今は密林に覆われている。[r]そうか、だから[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+女神を倒すには順番がある、と言っただろう。[r]まずはイシュタル、次に南。そして北だ。
+[k]
+
+＠ギルガメッシュ
+で、どうなのだイシュタル？[r]密林の女神の正体、貴様なら知っていよう。
+[k]
+
+＠ギルガメッシュ
+過去、我の召喚に応えた勇者たちは[r]密林の闇に挑み、帰らぬ者となった。
+[k]
+
+＠ギルガメッシュ
+あれほどのサーヴァントを倒す者だ。[r]さぞ名のある神霊に違いないが？
+[k]
+
+？1：ジャガーマンではなく？
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アナ
+……当然です。あのサーヴァントも神霊ですが、[r]あくまで付属物。次はハぎます。
+[k]
+
+[charaFadeout D 0.1]
+
+？2：良かった……ジャガーマンは違うんだ……
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マーリン
+無視してもいい相手、という事だね。[r]私としてはその方が助かるな。
+[k]
+
+[charaFace C 1]
+＠マーリン
+なにしろ、あれが三女神の一柱だった場合、[r]打つ手がまったく考えつかない！
+[k]
+
+[charaFadeout C 0.1]
+
+？！
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+ジャガーマンの話は気になるが後にしろ！[r]で、どうなのだ。密林の女神の真名は？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠イシュタル
+……まあ、それぐらいなら教えてあげてもいいか。
+[k]
+
+＠イシュタル
+ウルクの南に陣取った女神は“翼ある蛇”……
+[k]
+
+＠イシュタル
+私と同じ金星の女神にして太陽の大鳥、[r]南米の風、ケツァル・コアトルよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠マーリン
+ケツァル・コアトル……！[r]マヤの征服王、トルテカの太陽神か！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+主神クラスじゃないかー！[r]それ、下手したらゴルゴーンより格上だぞ！？
+[k]
+
+＠Dr.ロマン
+そもそもケツァル・コアトルは男性神じゃなかったか！？[r]なんで女神になってるんだ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+＠イシュタル
+ああ、そっか。人間は知らないわよね。
+[k]
+
+[charaFace E 8]
+＠イシュタル
+あなたたちで言うところのメキシコ、[r]南米の神話体系はまた一段と変わり種なのよ。
+[k]
+
+＠イシュタル
+あそこの神性はこの[#惑星:ほし]で生まれたものじゃなくて、[r]空から降ってきたものだと言われているわ。
+[k]
+
+＠イシュタル
+地表に衝突した小惑星。その惑星についていた[r]“何か”が植物に寄生して、生き延びて[line 3]
+[k]
+
+＠イシュタル
+やがて現地動物を“神”に変化させる微生物となって、[r]あの土地の文明を築き上げた。
+[k]
+
+[charaFace E 10]
+＠イシュタル
+南米の神性は“人間から人間”に乗り移るもの。[r]その中には女性の“器”もあったんでしょうね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+と、とんでもない情報をありがとう女神さま！[r]地球はまだまだ奥深いな！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+ケツァル・コアトル……むう、人理が焼却された今、[r]その南米とやらの未来も見えぬ。
+[k]
+
+[charaFace F 2]
+＠ギルガメッシュ
+ドクター・ロマン！[r]おってその女神の情報を纏めるがよい！
+[k]
+
+＠ギルガメッシュ
+西暦になった後も蘇る神なんぞ、[r][#我:オレ]の知る範囲ではないわ！
+[k]
+
+[bgmStop BGM_EVENT_40 0.4]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[messageOff]
+[shake 0.05 0 10 0.4]
+[se ad14]
+[seVolume ad14 0 0.5]
+[se ad34]
+[seVolume ad34 0 0.5]
+[wt 0.1]
+[se ad10]
+[seVolume ad10 0 0.5]
+[wt 0.3]
+[seStop ad14 3.0]
+[shake 0.05 0 4 2.0]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……！[r]マスター、いま地震のようなものが……！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ウルク兵士
+報告、報告[line 4]！[r]王よ、失礼致します！　ウルク南門より火急の報あり！
+[k]
+
+＠ウルク兵士
+南門、消滅！[r]至急応援を寄こされたし、との事！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+[line 3]敵襲か！　ええい、物見は何をしていた！？[r]魔獣の群であれば襲撃の予兆があろう！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ウルク兵士
+それが……敵影はただ一体！
+[k]
+
+＠ウルク兵士
+ケツァル・コアトルと名乗る女が[r]素手で城壁を粉砕し、ウルク内部に侵攻！
+[k]
+
+＠ウルク兵士
+ジグラットを目指して、一直線に向かってきます！
+[k]
+
+[charaFadeout H 0.1]
+
+[messageOff]
+[charaTalk off]
+[charaFace C 2]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[wt 1.5]
+
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_3 1.4]
+[wait fade]
+[charaTalk on]
+[soundStopAll]
+[end]

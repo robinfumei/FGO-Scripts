@@ -1,0 +1,55 @@
+
+
+＄94-00-77-08-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+
+[charaSet A 1010001 1 エリザベート]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 5012001 1 ニトクリス]
+
+
+[scene 31800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+たくさん、カボチャが手に入りましたね……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ニトクリス
+民たちに配りましょう。[r]これでハロウィンが始められるはずです。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+そうね。[r]今度はちゃんと、ハロウィンをやってみせるわ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

@@ -1,0 +1,178 @@
+＄94-00-05-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20902]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 7016001 1 タマモキャット]
+[fadein black 1]
+[wait fade]
+[wt 0.3]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠タマモキャット
+ワオーーーーーーーーーーン！[r]あらぶるネコの波動！
+[k]
+
+＠タマモキャット
+オッス、我タマモキャット！
+[k]
+
+[charaFace E 1]
+＠タマモキャット
+ご主人（仮）、[r]もはや散歩に連れて行くしかないな！
+[k]
+
+[charaFadeout E 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+あれ、なんか酷く疲弊した感じだけど。
+[k]
+
+？1：最後にこの廃テンションは辛い
+
+？2：大丈夫、平気
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠清姫
+……まったく何の脈絡も伏線もなく、[r]極々当たり前のように登場しましたね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠タマモキャット
+フ。あんまり褒めるな蛇娘。[r]その着物で爪をといでも構わない、と？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+褒めてません。[r]あと近寄らないで。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠タマモキャット
+むむう。褒めてもなければ帰れと言う。[r]つまり、どちらかが死ぬしかないというワケか？
+[k]
+
+？1：その前に話し合おう
+
+？2：もうちょっと待って
+
+？！
+
+[charaFace E 0]
+＠タマモキャット
+そう。必要なのは対話。理解する心。[r]さすがご主人（仮）はインテリなのだな。
+[k]
+
+＠タマモキャット
+では事情を話そう。[r]忙しいので手短にな。
+[k]
+
+＠タマモキャット
+アタシはハロウィン用のトラップを仕掛けたり[r][#カボチャゴースト:ジャック・オー・ランタン]を調理する門番だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+あ、食べられるんですかアレ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠タマモキャット
+[#good:キャッツ]．
+[k]
+
+[charaFace E 5]
+＠タマモキャット
+だがカルデアじゃ二番目だ。鼻を摘まめば何とか！[r]所詮は低級霊、生臭いにも程がある！
+[k]
+
+[charaFace E 1]
+＠タマモキャット
+あははははは！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+相変わらずの廃々テンションですね。[r][#メル友:玉藻さん]の眷属とは思えませ[line 2]。
+[k]
+
+[charaFace D 4]
+＠清姫
+いや、あの子も何というか……。[r]奥底ではこんなノリだったのかも？
+[k]
+
+＠清姫
+シリアスな場面でやっちゃいけないことを[r]嬉々としてやってしまう系？
+[k]
+
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠タマモキャット
+よーし盛り上がってきたーーー！[r]いくぞっ！　最終けっせんだっ！
+[k]
+
+[charaFace E 0]
+＠タマモキャット
+さあさご主人（仮）！[r]パンプキンゴーストパイの時間なり！
+[k]
+
+＠タマモキャット
+お腹いっぱい、はち切れんばかりに食べて[r]いただきたい！　コン、コンっとな！
+[k]
+
+[charaFace E 5]
+＠タマモキャット
+なお、毒は入っておりませんがアタシは知っている。
+[k]
+
+[charaFace E 1]
+＠タマモキャット
+このパンプキンゴーストパイの中に一つ、[r]現在のご主人が作ったものがあるワン！
+[k]
+
+？1：正真正銘の毒入りってコトだね！
+
+？2：ロシアンルーレットだね！
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+なるほど。[r]それは、嫌な予感しか致しませんわね！
+[k]
+
+[charaFadeout D 0.5]
+[wt 0.3]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

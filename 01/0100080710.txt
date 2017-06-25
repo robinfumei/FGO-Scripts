@@ -1,0 +1,923 @@
+＄01-00-08-07-1-0
+
+
+
+[soundStopAll]
+
+[bgm BGM_EVENT_3 0.1]
+
+[scene 36100]
+
+[charaSet A 1009001 1 モードレッド]
+[charaSet B 6007001 1 ジキル]
+
+[charaSet C 9938400 1 バルバトス]
+[charaSet D 2011001 1 ニコラ・テスラ]
+[charaSet E 7004001 1 フランケンシュタイン]
+[charaSet F 5011001 1 バベッジ]
+[charaSet G 7006001 1 坂田金時]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+
+＠魔神バルバトス
+起動せよ。起動せよ。[r]管制塔を司る九柱。即ち、
+[k]
+
+＠魔神バルバトス
+パイモン。ブエル。グシオン。シトリー。[r]ベレト。レラジェ。エリゴス。カイム。
+[k]
+
+[se ad63]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wt 0.4]
+
+＠魔神バルバトス
+我ら九柱、統括を補佐するもの。[r]我ら九柱、末端を維持するもの。
+[k]
+
+＠魔神バルバトス
+“七十二柱の魔神”の名にかけて、[r]我ら、この統合を止む事認めず……！
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_3 0.3]
+[seStop ad14 0.2]
+[wt 0.3]
+
+
+
+[effect bit_talk_12_yellow_R]
+[effect bit_talk_lightning_02g 0,-100]
+[se ad64]
+[se bac2]
+[wt 0.5]
+[effectStop bit_talk_lightning_02g 0.1]
+
+[shake 0.05 7 7 0]
+[charaSpecialEffect C enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect C]
+[charaFadeout C 0.1]
+[shakeStop]
+[wt 0.8]
+
+
+[bgm BGM_MAP_6 0.1]
+
+
+[charaSet C 1009001 1 モードレッド]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+
+[charaDepth A 1]
+[charaDepth C 0]
+
+＠モードレッド
+ハッ！　残念だな魔神ども！[r]整理するのがテメエら九匹の役目だってんなら[line 3]
+[k]
+
+＠モードレッド
+バラバラにすんのはオレの領分だ！[r]栄光の円卓だろうとまぁ、この手でぶち割ったしな！
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[charaFadein C 0 1]
+[charaChange A 1009001 4 fade 0.6]
+[wt 0.6]
+
+＠モードレッド
+…………そうだ。[r]何にだって終わりは来る。
+[k]
+
+[charaTalk on]
+[charaTalk A]
+[charaFadeout C 0.1]
+
+＠モードレッド
+誇らしく輝く王城はいずれ崩れ去り、[r]剣持ち鎧纏う騎士たちも、いずれ等しく死に絶える。
+[k]
+
+[charaSet C 6007003 1 ハイド]
+
+＠モードレッド
+世界だって終わるんだろうさ、いつの日か。[wt 0.3][r]だ[charaFace A 5]が、おまえたちじゃない。違う。
+[k]
+
+＠モードレッド
+世界の終わりの[#貌:かお]は、多分、ソレとは違う。
+[k]
+
+＠モードレッド
+むしろ終わるのはおまえたちだ。[r]なあ、もう充分好き勝手に灼き尽くしただろ？
+[k]
+
+[charaFace A 0]
+
+＠モードレッド
+なら終わっとけ。オレが[line 3]引導渡してやるよ！
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+
+＠ジキル
+セイバー、魔力の残量には気を付けてくれよ。[r]現界できてはいても、きみたちの存在は不安定だ。
+[k]
+
+＠ジキル
+正式なマスターは相変わらずいないみたいだし、[r]聖杯戦争とは違うんだな。興味深い。
+[k]
+
+[charaFace B 4]
+
+＠ジキル
+…………それは僕も同じか。[r]どうやら僕は、此処では、人間ではなくて[line 3]
+[k]
+
+[messageOff]
+
+[se ad39]
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+[fadein white 1.0]
+[wait fade]
+
+
+
+＠ハイド
+ヒ、ヒヒ[line 3]ヒャハハハハハハハハハ……ッ！！
+[k]
+
+＠ハイド
+きた、きた[line 3]来た来た来た来たキタキタキタァ！[r]ヒャハハハハそうじゃなくちゃなァ、俺様ちゃん参上！
+[k]
+
+＠ハイド
+どうなってンだよオレの頭ン中ぐちゃぐちゃだ！[r]此処はどこでオレは何、オガワハイムじゃねぇのかよ！
+[k]
+
+[charaFace C 1]
+
+＠ハイド
+ロンドンじゃねえから特異点じゃねェな、[r]ってもマスターもいねぇから聖杯戦争でもねぇ！
+[k]
+
+＠ハイド
+オイオイ何だよ！　せっかくの大々々ぶっ殺しパーティー[r]だってのに誰もオレ招待してねーのかよォ！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+うるせえ黙れ！[r]キンキン叫ぶな、叩き斬るぞ。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+[wt 0.3]
+
+
+[se ad39]
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+[fadein white 1.0]
+[wait fade]
+
+＠ジキル
+……も、戻った。すまないセイバー。[r]霊薬を何度も使用しすぎたせいだ、これは……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠モードレッド
+だーから、自分が英霊かどうかも[r]よく分からない状態で無理なんざするなっての！
+[k]
+
+[charaFace A 5]
+
+＠モードレッド
+おまえ、前と違って何か混ざってるぞ多分。
+[k]
+
+＠モードレッド
+そもそもな、自分を切り替えながら戦闘とか、[r]ンな器用な玉かよ。いいから後は補佐に回っとけ。
+[k]
+
+＠モードレッド
+いいか、無理したら殺すからな[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_6 1.0]
+
+＠D：？？？
+その通り、無理は禁物。敵など我らに任せるがいい！
+[k]
+
+
+[se ad62]
+[effect bit_talk_lightning_04t 256,160]
+[effect bit_talk_lightning_04t -256,160]
+[effect bit_talk_lightning_05t 0,100]
+
+[wt 0.5]
+[seStop ad62 0.7]
+[wt 0.5]
+
+＠？？？
+見よ！　神鳴る[#雷霆:らいてい]は此処にあり！[r]ふふ、ふはははははははは三相交流電流が冴え渡る！
+[k]
+
+[bgm BGM_EVENT_4 0.4]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠ジキル
+こ、この出力……そしてこの高笑いは……！！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠モードレッド
+あー。アイツかー。[r]来るだろうとは思ってたけどなー。
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[se ad62]
+[backEffect bit_talk_lightning_01t]
+[wt 1.0]
+[seStop ad62 0.3]
+[wt 0.3]
+
+[backEffectStop bit_talk_lightning_01t 0.1]
+
+＠ニコラ・テスラ
+大雷電階段の高みからゆっくり降りてきて失礼！[r]左様、ニコラ・テスラ此処に在り！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+なんで最初ッから参戦しないで後から来るんだよ！[r]おまえは！　[#莫迦:ばか]か！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠ニコラ・テスラ
+迷子になっていたレディを案内していたのだよ。[r]フッ。何、許してくれて構わんよ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠フランケンシュタイン
+ゥ、ゥ。……ゥゥ、ゥゥ……！！
+[k]
+
+[wt 0.3]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠ジキル
+そこにいるのはフランなのかい！？[r]そうか、きみも同じように此処に来ていたんだね。
+[k]
+
+[charaFace B 0]
+
+
+＠ジキル
+これは何と言うか、ある意味凄いな。[r]見事に電気系能力者が三人も揃うなんて。
+[k]
+
+[charaFace B 5]
+
+＠ジキル
+こんな稀少なケースはそうないぞ、[r]よしデータを取る……のは今は置いておいて……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+ったく、余計な事してんじゃねえぞおっさん！[r]まあこいつが来たってのは悪かないが。
+[k]
+
+＠モードレッド
+フラン[line 3]ああ、待て。おまえはどっちだ？
+[k]
+
+＠モードレッド
+前みたいにまだ生きてんのか、それとも英霊か。[r]はたまた今のジキルみたいにどっちつかずか。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠フランケンシュタイン
+ゥ、ゥ。ゥ……！！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+へえ、そうか。そりゃあいいな。
+[k]
+
+＠モードレッド
+[line 3]って訳だ。[r]ジキル、こいつも戦力になるぜ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ジキル
+へ？　だってフランは……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+フランじゃねえよ。こいつはフランケンシュタイン、[r]オレがいつか手に掛けた……。まあアレだ！
+[k]
+
+[charaFace A 2]
+
+＠モードレッド
+バーサーカーだよ！[r]こいつは！
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad61]
+[backEffect bit_talk_lightning_01t]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[seStop ad61 2.0]
+
+＠フランケンシュタイン
+ゥウウウ、ナァアアアアアアアアアア！！
+[k]
+
+[backEffectStop bit_talk_lightning_01t 0.1]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠ニコラ・テスラ
+良い電力だ！　この大気振るわせる純粋な雷電は[r]まず間違いなく交流であるに違いない！
+[k]
+
+＠ニコラ・テスラ
+そして素晴らしい戦闘意欲でもある。[r]レディ、君はどうやら魔神柱を灼くつもりらしいね。
+[k]
+
+＠ニコラ・テスラ
+では共に征こうではないか！[r]我ら三騎、九柱の魔神を叩き伏せるに充分な戦力！
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠ジキル
+そうかも知れないけど無闇な[#吶喊:とっかん]は控えて！[r]補給がない以上は持久戦になる、攻撃だけじゃ[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+あ。何だよ？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ジキル
+そうだな……僕に、聖杯戦争の[r]マスターとしての目はないけど……
+[k]
+
+[charaFace B 5]
+
+＠ジキル
+このままじゃ編成が攻撃に偏りすぎている。[r]まずはこうして敵を叩いてみるしかないとはいえ、
+[k]
+
+＠ジキル
+いざ持久戦となれば。特にフラン、きみは耐久力の[r]観点でセイバーとテスラのそれから一枚落ちるだろう？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ニコラ・テスラ
+私だ。私が最も耐久力パラメーターが低い。[r]カタログスペックではね。ただスキルで補填は効く。
+[k]
+
+[charaFace D 1]
+
+＠ニコラ・テスラ
+となれば確かにレディ・バーサーカー、[r]彼女を効果的に[#護:まも]ることも考えねばなるまいな！
+[k]
+
+[charaFadeout D 0.1]
+
+
+[messageOff]
+[wt 0.3]
+[se ad270]
+[seVolume ad270 0 0.8]
+[wt 0.6]
+[seStop ad270 0.3]
+
+[wt 0.5]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[se ad67]
+[wt 0.5]
+[seStop ad67 0.7]
+
+＠バベッジ
+[line 3]ならば。我を用いるがよい、ニコラ・テスラ。[r]そして押し寄せる終末の波濤に抗う者たちよ。
+[k]
+
+＠バベッジ
+我が夢想、我が妄念は泡沫として消え果てたが、[r]おまえたちの未来に残滓は在る。消えてくれるな。
+[k]
+
+＠バベッジ
+[%1]の歩みの先に[r]垣間見えた仄かな未来、なかなかに悪くない。故に。我は来た。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠モードレッド
+おお、バベッジのおっさん！！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠フランケンシュタイン
+ゥ、ゥ……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠ジキル
+鋼鉄鎧を纏ったミスター・チャールズ・バベッジ！[r]これなら充分、防御を織り交ぜた編成が可能だ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[se ad67]
+[wt 0.5]
+[seStop ad67 0.7]
+
+＠バベッジ
+我が鎧、おまえたちを護る鋼鉄の盾となろう。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+
+＠坂田金時
+そうかい！　そんならこっちは刃になろうか！
+[k]
+
+＠坂田金時
+天を断ち地を割り、魔神どもごと[#宙:ソラ]を裂く！[r]おおよ、これが[#電火:でんか]の宝刀、いま必殺のォ！
+[k]
+
+
+[charaFace G 2]
+
+＠坂田金時
+[fontSize large][messageShake 0.05 3 3 0]天下無双、[#黄金衝撃:ゴールデンスパーク]だ[line 4]！！
+[k]
+
+
+[bgmStop BGM_EVENT_4 1.5]
+
+[messageOff]
+[messageShakeStop]
+[se ad61]
+[backEffect bit_talk_lightning_01g]
+[wt 0.8]
+[backEffect bit_talk_lightning_02g]
+[se ad62]
+
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[seStop ad61 1.5]
+[seStop ad62 1.5]
+[wait flash]
+
+[se ad63]
+[fadeout white 0.5]
+[charaEffectStop G bit_talk_36]
+[backEffectStop bit_talk_lightning_02g 0.1]
+[backEffectStop bit_talk_lightning_01g 0.1]
+[wait effect]
+[wait fade]
+[charaFadeout G 0.1]
+
+[wt 1.0]
+
+[fadein white 1.0]
+[wait fade]
+[bgm BGM_BATTLE_20 0.4]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+[wt 0.4]
+
+＠ニコラ・テスラ
+来たか！　Mr.ゴールデン！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠坂田金時
+おう、暫くぶりだなスーツ組！[r]なりふり構わずにやって来たぜ。呼ぶ声が聞こえたからな。
+[k]
+
+[charaFace G 0]
+
+＠坂田金時
+ああ、もちろんアンタたちのじゃあねえ。[r]もっとか細くか弱い声さ。
+[k]
+
+[charaFace G 3]
+
+＠坂田金時
+[#悔しくてやりきれない]ってな。[r]ありゃあ世界が灼かれた瞬間、無数の誰かが叫んだ声だ。
+[k]
+
+＠坂田金時
+やりたい事がどんだけあったろうな。[r]飯をこさえる母もいた。明日も遊びたいガキもいた。
+[k]
+
+＠坂田金時
+……オレにはてんで分からねぇ。[r]奥歯をかみ砕くぐらい分からねぇ。
+[k]
+
+[charaFace G 2]
+
+＠坂田金時
+そういうものがよ、どんだけ大切なものか分からねぇって[r]ヤツの頭ん中が分からねぇ！
+[k]
+
+
+[backEffect bit_talk_lightning_03g 30,-100]
+[se ad63]
+[wt 1.0]
+
+＠坂田金時
+人理だ未来だ言う前に、[r]この馬鹿共の性根をたたき直す！
+[k]
+
+
+＠坂田金時
+コイツらが焼き尽くしちまった何でもない毎日と、
+[k]
+
+
+＠坂田金時
+そんなモンを、手に入れたくても手に入れられなかった[r]奴らの為にブン殴る！
+[k]
+
+[charaFace G 0]
+
+＠坂田金時
+オレは金時、坂田金時、音に聞こえた頼光四天王！
+[k]
+
+＠坂田金時
+悪鬼を制し、羅刹を殴り！[r]時にはゴールデンなマシンを駆ってひた走る[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ニコラ・テスラ
+……名乗りが以前と違う！[r]一体何をするつもりなのだ、ゴールデン・ブレイブ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠坂田金時
+こうするんだよ！　いくぜ！[r]雷電一閃、ゴージャス・ゴールデン・ライダー……
+[k]
+
+＠坂田金時
+[fontSize large]……変[line 6]身ッ！！！！
+[k]
+
+
+[messageOff]
+
+[se ad39]
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout G 0.1]
+
+[charaSet G 4023000 1 坂田金時]
+
+[wt 1.0]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+[fadein white 1.0]
+[wt 0.3]
+[wait fade]
+[wt 0.7]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠ニコラ・テスラ
+！！！！！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠フランケンシュタイン
+ゥ、ゥ……ヘン、シン……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[se ad67]
+[wt 0.5]
+[seStop ad67 0.7]
+
+＠バベッジ
+見事なまでの早変わり、いや、変身である。[r]まるで霊基までもが変わっているようではないか！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ジキル
+そんな莫迦な！　む、無茶苦茶じゃないか！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠坂田金時
+さあて、お立ち会い[line 3]ッ！
+[k]
+
+[charaFace G 1]
+
+＠坂田金時
+世界が危ういその時に！[r]何の因果か揃いも揃った電気系英霊の大バカども！
+[k]
+
+＠坂田金時
+電力全開、クールにデンジャーにブッ込み決めるぜ！[r]泣いても笑っても後戻りなんざノーサンキュー！
+[k]
+
+＠坂田金時
+ヘイ！　英雄たち！[r]夜通し続く、ロックンロールの準備はＯＫかい！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+ハッ、おい誰にモノ言ってんだバーカ！[r]ロックの本場が何処か分かって言ってンのか？
+[k]
+
+＠モードレッド
+当然！　こっちは！　[#常時常態:オールウェイズ]で！
+[k]
+
+
+
+[charaFace A 2]
+
+＠モードレッド
+[line 6]ロックンロールの真っ最中だぜ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+
+
+[bgmStop BGM_BATTLE_20 0.5]
+
+[wait fade]
+[soundStopAll]
+[end]

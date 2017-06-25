@@ -1,0 +1,159 @@
+
+
+＄94-00-45-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 98073000 1 風魔小太郎]
+[charaSet G 98076000 1 弁慶]
+
+
+[scene 27800]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+大勢は決しましたね。[r]お疲れ様でした……特に小太郎さん。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+……いいえ。僕ひとりの手柄ではありません。[r]全員の働きがあってこそ、です。
+[k]
+
+[charaFace E 0]
+
+＠風魔小太郎
+何度か危ない場面もありましたし。[r]特に……ええと……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+
+[charaFace G 0]
+[charaFadein G 0.1 0]
+
+＠牛若丸
+いよいよこの時がやってきましたね。[r]おい弁慶。そこに正座して、うつむくのです。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+（牛若丸さん、すでに刀に手を伸ばしています！[r]　先輩、止めてくださーい！）
+[k]
+
+？1：無理　なの　では？
+？2：牛若ヲ信ジテイル
+
+？！
+
+[charaTalk G]
+[charaFace G 1]
+
+＠弁慶
+はっはっは、ええ、そうですな、[r]懐かしゅうございましたな？
+[k]
+
+[charaTalk D]
+[charaFace D 5]
+
+＠牛若丸
+なに……？
+[k]
+
+[charaTalk G]
+
+＠弁慶
+勧進帳です勧進帳。まるであの時のようでした。[r]覚えておられませんか？
+[k]
+
+＠弁慶
+平泉目指して加賀の国の関を越えようとした際、[r]義経様が富樫某に見咎められてしまって。
+[k]
+
+＠弁慶
+拙僧は偽の勧進帳を読み上げ、[r]さらにはやむなく義経様をバシバシと殴打[line 2]
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+………………貴様が勧進帳を語るのか？[r]鬼の弁慶の涙を、[#知っている]と？
+[k]
+
+[charaTalk G]
+[charaFace G 3]
+
+＠弁慶
+無論、[#覚えています]とも。[r]拙僧とて酔狂で弁慶なのではありませぬ。
+[k]
+
+＠弁慶
+この身、この魂、この信条は全て真。[r]一片の過ちあれば、その場で解雇されて結構です。
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+
+＠牛若丸
+………………はあ。[r]妙な功績を残したものですね、あの朴念仁が。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 1]
+
+＠Dr.ロマン
+ま、まあ、難所も越えられたことだし。[r]とりあえず先に進もうじゃないか、ね？
+[k]
+
+＠Dr.ロマン
+牛若丸くんも、その、気持ちはわかるけど……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+私は怒ってません。[r]弁慶のおかげであの場を切り抜けられた事は確かです。
+[k]
+
+[charaFace D 0]
+
+＠牛若丸
+……ですが、余計に疑問は強まりました。[r]何故、この島での弁慶はあれほど隆々なのか、と……。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

@@ -1,0 +1,255 @@
+＄01-00-04-05-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 11000]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5004002 1 ナーサリー・ライム]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+＠アンデルセン
+ほう。なかなかいい隠れ家じゃないか。[r]気に入った。俺は隣りの書斎をいただこう。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+荷物を解いているから、何かあったら声をかけてくれ。[r]ああ、入る時はノックを忘れずにな。
+[k]
+
+[charaFadeout H 0.4]
+[se ad45]
+[wt 1.5]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+……あー、疲れた。[r]お荷物のおかげで二倍疲れた。三倍疲れた！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジキル
+また、僕の個人用ソファを乱暴に……[r]できればそっちの来客用にして……いい、もういい。
+[k]
+
+[charaFace G 0]
+＠ジキル
+そのままでいい。聞いてくれ。[r]マシュ君と[%1]君もだ。
+[k]
+
+[charaFace G 5]
+＠ジキル
+[#切り裂きジャック:ジャック・ザ・リッパー]が再び現れた。[r]しかも今度は、霧に紛れて女性を襲う殺人じゃない。
+[k]
+
+＠ジキル
+籠城状態にあった[#スコットランドヤード:ロンドン警視庁]を襲撃中だ。[r]ロンドン全域の警察署への、救援の電信を受信してね。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+あいつか！！[r]やっと出てきやがったか、あの野郎！
+[k]
+
+？1：因縁があるみたいだ
+
+？2：知り合い？
+
+？！
+
+＠モードレッド
+ああ、あいつはサーヴァントだ。クラスはアサシン。[r]霧の中で何度かやり合ったんだが……
+[k]
+
+[charaFace E 2]
+＠モードレッド
+毎度、逃げられちまう。[r]仕留めきれねえ。霧の中に逃げられる！
+[k]
+
+[charaFace E 5]
+＠モードレッド
+おまけに顔も姿形も具体的能力も、[r]何も思い出せやしねえ。あーもう、苛つくぜ……！
+[k]
+
+＠モードレッド
+切り裂きジャック、って名前を聞けば[r]ああそうかあのアサシンか、とか思うので精一杯だ！
+[k]
+
+[charaFace E 4]
+＠モードレッド
+ああ、くそ、もやもやしやがる！[r]あの野郎[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジキル
+マシュ君たちも以前に遭遇しているかも知れないね。[r]どうだい？　[#アサシンと]戦った覚えはあるかい？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFadein G 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+あ…………
+[k]
+
+[charaFace A 15]
+＠マシュ
+そうです、そう言えば……[r]アサシンだったような気がします。奇襲……を……
+[k]
+
+＠マシュ
+そう……奇襲を受けました。[r]今、唐突に記憶がわたしの中に蘇ってきています。
+[k]
+
+[charaFace A 7]
+＠マシュ
+殆どのことを思い出せずにいました。[r]でも、サーヴァントであるなら理由は絞られる[line 3]
+[k]
+
+？1：スキルかな
+
+？2：宝具かな
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい、先輩。そうですね。[r]スキルか宝具、どちらかに依るものでしょう。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠モードレッド
+奴は逃げ足が速い。[r]急がないと逃げられるな、行くぞ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.4]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+＠アンデルセン
+なに、外出か？　ならそう言え。[r]土産は……そうだな、スコーンあたりが欲しいな。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+おまえは来ないのかよ！[r]いや、来られても別に役に立たねえか……
+[k]
+
+[charaFace E 0]
+＠モードレッド
+……待てよ。[r]こないだの奴みたいに、倒しやすくできるか？
+[k]
+
+＠アンデルセン
+前回は例外中の例外だ。あてにするな。[r]だいたいな、作家に何を求めている。
+[k]
+
+＠アンデルセン
+全知全能の神とでも思っているのか？[r]だとしたら考えを改めるがいい。
+[k]
+
+[charaFace H 5]
+＠アンデルセン
+いいか、作家なんて者は現実がままならなかったから[r]ペンに走るしかなかったバカ者の総称だ！
+[k]
+
+[charaFace H 2]
+＠アンデルセン
+そんな俺が何かの役に立つと思うのか？
+[k]
+
+[charaFace E 5]
+＠モードレッド
+……聞いたオレが馬鹿だった。[r]行くぞ、マシュ、[%1]！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 1]
+[scene 10906 0]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0 1]
+[fadein black 0.5]
+[bgm BGM_EVENT_5 0.1]
+[wait fade]
+＠モードレッド
+全速力で行くぞ。[r]マシュ、[%1]を抱えてやれ。時間との勝負だ。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+人間の足に合わせる暇が惜しい。[r][#オレたち:サーヴァント]の全力疾走でヤードを目指すんだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい。[r]……先輩、すみません。少しだけ失礼しますね。
+[k]
+
+？1：落とさないでね
+
+？2：こちらこそ、失礼します
+
+？！
+
+[charaFace A 3]
+＠マシュ
+は、はい。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……できるだけ落とさないように注意します。[r]先輩も、手を離さないで下さい。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+おい、さっさと[line 3][r]チッ。言ってるそばから敵が湧いてきたぞ！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+敵性反応多数だ。四方八方から寄ってくる。[r]囲まれるぞ、突破するんだ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

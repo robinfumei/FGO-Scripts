@@ -1,0 +1,133 @@
+＄94-00-39-03-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+
+[charaSet G 4001001 1 銅角]
+
+[scene 20704]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠三蔵
+ふう、満腹、満腹っと！
+[k]
+
+[charaFace A 1]
+＠三蔵
+金角と銀角は逃がしちゃったけど、[r]ま、特に悪さはしなかったし追い打ちはやめましょう！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 1]
+[charaFace B 1]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+賢明な判断さ。今は戦利品のが大事だからね。[r]ああ、金銀財宝の管理は僕に任せて。うまくやるよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠銅角
+……参りました。[r]どうぞ、処分はいかようにでも。もうどうでも。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace G 4]
+[charaFadein A 0.1 2]
+[charaFadein G 0.1 0]
+
+＠三蔵
+偉いわ、妖魔のクセに改心するのね！[r]……っていうか、あなた、悪行値はゼロね？
+[k]
+
+[charaFace A 4]
+＠三蔵
+えーと、ヒンズースクワット一万回と、[r][#般若心経:はんにゃしんぎょう]の[#写経:しゃきょう]一万回、どっちがいいかしら……。
+[k]
+
+[charaFace A 1]
+＠三蔵
+あなた、肉体派だし。[r]やっぱり写経の方が罰になるかしら？
+[k]
+
+[charaFace G 3]
+＠銅角
+それでしたら写経を。ええ。[#写本:しゃほん]がいいです。[r]そういうの、苦手なタイプなので。
+[k]
+
+[charaFace A 1]
+＠三蔵
+了解したわ！　なら[#大慈恩寺:だいじおんじ]の蔵書係へ紹介状を[r]書いてあげる！　ばっちり勉強してきなさい！
+[k]
+
+[charaFace G 1]
+＠銅角
+ありがとうございます。[r]私的に最高の結果です。
+[k]
+
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+
+＠沙悟浄
+銅角……いや、今は何も言うまい。[r]むしろ何かしらの魔王にされるよりマシだろうよ。
+[k]
+
+
+？1：はい、お師さん。経典ですよ
+？2：はい、三蔵ちゃん。経典だよ
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠三蔵
+あ……うん。[r]そっか、ちゃんとお役目、果たしてくれたのね。
+[k]
+
+[charaFace A 0]
+＠三蔵
+ふふ。どうなることかと思ったけど、[r]今回の弟子はみんな働き者みたい！
+[k]
+
+＠三蔵
+悟空、悟浄、八戒！　みんなありがとう！[r]さあ、天竺への旅を続けましょう！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]

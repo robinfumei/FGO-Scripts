@@ -1,0 +1,174 @@
+
+＄91-50-17-02-2-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5017001 1 メディア・リリィ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet E 99348500 1 魔神柱ハーゲンティ]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+＠メディア・リリィ
+ああ、びっくりしました。[r]みなさん、ご無事ですか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+はい、なんとか……あんなにあっさり召喚された[r]悪魔に倒されるワケにはいかないと言うか……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+おお。マシュにもサーヴァントとしての[r]プライドが出来ていたんだね。うん、いい事だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+いえ、わたしに力を預けてくれた英霊に、[r]ほんと、申し訳ないだけです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠メディア・リリィ
+そうですね。上級の霊体でしたが、あれではちょっと。[r]呪いの触媒には最適ですけど、今回は目的が違います。
+[k]
+
+[se ad39]
+[charaPut C 0,-200]
+[charaEffect C bit_talk_06]
+＠メディア・リリィ
+では、気を取り直して今度こそ……[r]メイプルハニ～、バニラクリーム～
+[k]
+
+＠メディア・リリィ
+カスタードベルホイップ～！[r]レッツサモン！　魔の痕跡から出でよ、深淵の同属よ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaEffectStop C bit_talk_06]
+[wt 0.3]
+[messageOff]
+[charaEffect E bit_talk_15]
+[se ad29]
+[wait charaEffect E]
+
+[bgmStop BGM_EVENT_2 0.1]
+
+[se ad14]
+[shake 0.05 0 3 0]
+[wt 0.7]
+[charaTalk E]
+[charaFadein E 1.0 1]
+[charaFace E 0]
+[wt 1.0]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[seStop ad14 2.0]
+
+＠E：？？？
+[line 3]誰ぞ。[r]我が[shakeStop]同属の断末魔を寄る辺に、我を呼ぶは誰ぞ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+あわわ……ほ、ほんとに出てきました！[r]どこまで優秀なんですかリリィさん！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠B：メディア
+はいはい、私です！[r]女神ヘカテの一番弟子、メディアが貴方を召喚しました！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠E：？？？
+[line 3]ほう。神霊に連なるものか。[r]ならば認めよう。汝に呼ばれた我を認めよう。
+[k]
+
+＠E：？？？
+我は七十二柱の魔神が一柱、ハーゲンティ。[r]水を富に、富を水に替えるもの。
+[k]
+
+＠魔神柱ハーゲンティ
+女神の希望よ。貴様の望みを語れ。[r]人の絶滅か。人の衰退か。人の隷属か。
+[k]
+
+＠魔神柱ハーゲンティ
+[#邪:よこしま]な望みを言え。淫らな望みを言え。[r]聞くに堪えぬ呪いの言葉を捧げるがいい！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 5]
+＠メディア・リリィ
+はい！[r]貴方を倒して、貴方の魔力因子をいただきます！
+[k]
+
+[charaEffect B bit_talk_41]
+[charaFace B 2]
+＠メディア・リリィ
+率直にいって、私の料理の材料になってもらいます！
+[k]
+
+[charaEffectStop B bit_talk_41]
+[wt 0.3]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠魔神柱ハーゲンティ
+うむ、よい、よい言葉だ、人への呪いに満ちて[line 3][r][line 6]なんです？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 2]
+＠メディア・リリィ
+さあ皆さん、今こそ真の力を発揮する時！[r]パンケーキのために頑張りましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

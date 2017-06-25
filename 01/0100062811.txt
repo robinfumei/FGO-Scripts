@@ -1,0 +1,271 @@
+＄01-00-06-28-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 1007002 1 ガウェイン]
+[charaSet B 98014000 1 聖都軍兵士Ａ]
+[charaSet C 98014000 1 聖都軍兵士Ｂ]
+[charaSet D 98079000 1 “山の翁”]
+
+[scene 28900]
+
+[imageSet F talk_img_black_gradation 1]
+[wait imageSet F]
+[charaScale F 1.1]
+[charaCutin F upToDown 0.1 0]
+
+[effect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[se ad33]
+[wait se ad33]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+伝達を急げ！[r]城壁の弓隊には真下の敵兵だけを狙えと伝えろ！
+[k]
+
+＠ガウェイン
+この嵐では足下ですら満足に狙えないが、[r]味方への誤射よりはマシである！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠聖都軍兵士Ａ
+ガウェイン卿、右翼第三隊から救援の要請です！[r]妙な騎兵が一騎、手が付けられません！
+[k]
+
+＠聖都軍兵士Ａ
+白い穀物のようなものが津波のように[r]押し寄せて動けない、と！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+穀物……？　なんという贅沢な手を！[r]おそらくサーヴァントだ、直接戦闘は避けるように！
+[k]
+
+＠ガウェイン
+モードレッド卿の遊撃部隊が向かう！[r]それまで敵軍を押しとどめよ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠聖都軍兵士Ｂ
+ガウェイン卿、左翼第一隊から伝令！[r]潰走の危機にある、繰り返す、我潰走の危機にある！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+第一が！？　選りすぐりの精鋭が、[r]寄せ集めの兵士に敗れるというのですか！
+[k]
+
+＠ガウェイン
+相手は何者です！？[r]異邦のマスターと、そのサーヴァントですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠聖都軍兵士Ｂ
+それが……申し上げにくいのですが……[r]敵影は紫の甲冑で統一された騎兵隊[line 3]
+[k]
+
+＠聖都軍兵士Ｂ
+遊撃騎士、ランスロット卿のものです！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+[line 3]！[r]……そうですか……残念です。本当に[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠聖都軍兵士Ｂ
+……ガウェイン卿？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+左翼は第四隊にいたるまで後退。[r]右翼に合流するように伝えなさい。
+[k]
+
+＠ガウェイン
+[line 3]聖剣を使用する。[r][#こちら側]の敵兵もろとも、叛逆者を焼却します。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠聖都軍兵士Ｂ
+おお、ついにガラティーンを！[r]聞け、聖都の騎士たちよ！
+[k]
+
+＠聖都軍兵士Ｂ
+ガウェイン卿、出陣！[r]もはやこの[#戦:いくさ]、我らが戦うまでもな[line 3]
+[k]
+
+[messageOff]
+[se bac5]
+[wait se bac5]
+[capture]
+[specialEffect cutting]
+[charaFadeout C 0]
+[wait specialEffect]
+[charaEffect C bit_talk_35]
+[wt 1]
+[captureRelease]
+
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+[line 6]。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaFilter D silhouette 00000000]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+
+＠D：？？？
+出陣は[#能:あた]わず。[r]砂塵は諸人を覆い、汝の道をも塗りつぶした。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+…………。[r]貴方がこの砂嵐の元凶とみました。
+[k]
+
+＠ガウェイン
+見事な術ですが、愚かにすぎます。[r]自らこのガウェインの前に現れるとは。
+[k]
+
+＠ガウェイン
+日中において我が身は不敗。[r]我が剣は獅子王の聖剣にも並び立つ。
+[k]
+
+[charaFace A 2]
+＠ガウェイン
+何者であろうと、断てないものはありません……！
+[k]
+
+[charaPut B 0,900]
+[charaScale B 5.0]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaScale A 1.5]
+[charaFadein A 0.1 0,100]
+[se bac94]
+[shake 0.05 0 4 0.5]
+[charaEffect B bit_talk_12]
+[wt 0.5]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[charaScale A 1.2]
+
+[se ad32]
+[charaEffect D bit_talk_14]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 0,50]
+[wt 0.3]
+[charaFadeout A 0.4]
+[se ad60]
+[wt 0.4]
+[charaScale A 1.0]
+[wt 0.1]
+[seStop ad60]
+[charaFadein A 0.1 1]
+
+[charaFilter D normal FFFFFF00]
+
+＠ガウェイン
+つぅ……！？[r]馬鹿な、外套の一振りで私の剣戟を……！？
+[k]
+
+＠ガウェイン
+何者ですか、貴方は……！？
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠“山の翁”
+ハサン・サッバーハ。[r]幽谷の[#淵:ふち]より、生者を連れに参上した。
+[k]
+
+＠“山の翁”
+天を見よ、粛正を[#驕:おご]る騎士よ。[r][line 3]その頭上に、日輪の陽は在るか？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_3 2.0]
+[wait fade]
+[effectStop]
+[soundStopAll]
+[end]

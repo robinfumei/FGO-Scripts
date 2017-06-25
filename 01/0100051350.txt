@@ -1,0 +1,274 @@
+
+＄01-00-05-13-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 3013001 1 スカサハ]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 3017001 1 李書文]
+[charaSet D 3005002 1 エリザベート]
+[charaSet E 1019001 1 ラーマ]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+＠スカサハ
+ふむ。……シャドウサーヴァントが出てきたか。[r]メイヴめ、聖杯の使い方を心得ているらしい。
+[k]
+
+＠スカサハ
+サーヴァントのなり損ない、[r]英雄に後一歩及ばなかった霊体。
+[k]
+
+＠スカサハ
+あるいは英霊であるものの、召喚者の実力不足、[r]召喚陣の不首尾などが理由で影となった者たち。
+[k]
+
+＠スカサハ
+つまり、サーヴァントにもっとも近い生命体とも[r]言える。必ず仕留めろ、人間では彼らに敵うまい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠マシュ
+……あれ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+……む？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.4 1]
+＠C：？？？
+[line 4]ハァッ！！
+[k]
+
+[se bac16]
+[wt 0.1]
+[shake 0.05 2 6 0.4]
+[wait se bac16]
+[wt 0.4]
+
+
+[se ad52]
+[wait se ad52]
+[wt 0.4]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エリザベート
+ちょ、何よあれ！？[r]黒いのが片っ端から消えていくんだけど！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace B 12]
+[charaFadein B 0.1 2]
+＠ラーマ
+……サーヴァント。だがケルトではないな。[r]というか、余の国に近い……中華か？
+[k]
+
+＠マシュ
+敵ではないようですね。[r]でも……味方……なのでしょうか？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠スカサハ
+[line 2]しかし、見事な技の冴えよ。
+[k]
+
+＠スカサハ
+天賦の才と地獄のような修練を潜り抜け、[r]肉体に技を浸透させなければ、ああはいくまい。
+[k]
+
+[charaFace A 1]
+＠スカサハ
+……いい。実にいい。[r]眠っていた戦の虫が騒ぎだしたわ。
+[k]
+
+[charaFace A 2]
+＠スカサハ
+そこの者！[r]名は何と申す！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠C：？？？
+ランサー、李書文！[r]よくぞ現れてくれたな、二つ槍のサーヴァントよ！
+[k]
+
+＠李書文
+貴様を見た時から我が心中は嵐の如し。[r]もはや倒さねば収まらん。いざ、立ち合いを所望する！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠スカサハ
+[line 2]ほう、私とか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠李書文
+無論。儂が召喚された理由は知っている。
+[k]
+
+[charaFace C 0]
+＠李書文
+しかし、自分はやはり[line 2]どうしようもなく、[r]我欲に満ちた存在でな。
+[k]
+
+＠李書文
+己の槍が神に通じるかどうか、[r]試したくてたまらんのだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ラーマ
+[#飢虎:きこ]、あるいは[#餓狼:がろう]というやつか……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠スカサハ
+……なんといじりがいのあるオモ……コホン。[r]鍛え[charaFace A 1]がいのある逸材よ。
+[k]
+
+[charaFace A 0]
+＠スカサハ
+ランサー。李書文よ。[r]ここが影の国であれば真っ先に稽古をつけるところだが、
+[k]
+
+＠スカサハ
+あいにく、私はもう[%1]専属になった。[r]故に順番というものがある。
+[k]
+
+＠スカサハ
+マシュと戦い、勝利してみせろ。[r]であればこのスカサハが直々に相手をしよう。
+[k]
+
+[charaFace A 5]
+＠スカサハ
+だが敗北したなら、疾く立ち去るがいい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠李書文
+……なるほど、道理ではある。[r]ではマシュとやら。立ち合い願おう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠マシュ
+でも……。[r]戦う理由が、わたしの方に存在しません。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠李書文
+儂はお主と向かい合っておる。[r]それで理由は充分だろう？
+[k]
+
+＠李書文
+それでも不足なら、儂は[#彼ら:ケルト]の側の[r]サーヴァントだと思え。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠マシュ
+先輩……。
+[k]
+
+？1：戦うしかない
+？2：敵だ
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠李書文
+うむ。そちらのマスターはなかなか判断力があるな。[r]その通り、儂は敵だ。紛れもなくお前たちの敵だ。
+[k]
+
+[charaFace C 5]
+＠李書文
+さもなくば[line 2]死ぬぞ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+分かりました……マスター！[r]指示をお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

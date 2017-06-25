@@ -1,0 +1,1333 @@
+
+
+＄01-00-08-04-1-0
+
+
+
+
+[charaSet A 5019001 1 エルメロイ二世]
+[charaSet B 4015001 1 アレキサンダー]
+[charaSet C 7011001 1 ダレイオス三世]
+[charaSet D 7003001 1 呂布]
+[charaSet E 7005001 1 スパルタクス]
+[charaSet F 6011001 1 荊軻]
+[charaSet G 7011001 1 ダレイオス三世シルエット]
+[charaSet H 4011001 1 ブーディカ]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_42 0.1]
+
+[scene 36300]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠エルメロイ二世
+……なるほど。文字を得て事象を詠む、か。
+[k]
+
+＠エルメロイ二世
+オリアス。ウァプラ。ザガン。ウァラク。アンドラス。[r]アンドレアルフス。キマリス。アムドゥシアス。
+[k]
+
+[charaFace A 4]
+
+＠エルメロイ二世
+七十二柱の魔神と言えば、[r]半数近くが知恵を司っているものだが……
+[k]
+
+＠エルメロイ二世
+五十九位から六十七位。この座に配された個体は、[r]特に知識や学術といった特徴で結び付けられている。
+[k]
+
+[charaFace A 0]
+
+＠エルメロイ二世
+知の集合。編み上げられる戦術は面倒ではあるが、[r]何、ローマ軍団の勢いに対してはさほど有効ではない。
+[k]
+
+＠エルメロイ二世
+力押しで充分に押し切れる。[r]贅沢を言えばあと一押しが欲しいところだが[line 3]
+[k]
+
+[charaFace A 1]
+＠エルメロイ二世
+そこは、こちらで一翼を担うしかあるまい。[r]準備はいいな。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace A 1]
+[charaFadein A 0.4 0]
+[charaFadein B 0.4 2]
+
+＠アレキサンダー
+いいよ、先生。[r]いつだって大丈夫。僕はあの九柱を蹂躙しよう。
+[k]
+
+[charaFace B 0]
+＠アレキサンダー
+倒しきるのは不可能らしいけど、それはそれで[r]面白いよ。ほら、ずっと戦っていられるんだよね？
+[k]
+
+[charaFace B 1]
+＠アレキサンダー
+それならやりたい事も色々とある。[r]試したい戦術なら、百通り以上は浮かぶしね。
+[k]
+
+[charaFace A 0]
+＠エルメロイ二世
+……ふむ。[r]過ぎたるは及ばざるが如し、と言っても通じないな。
+[k]
+
+＠エルメロイ二世
+百は多すぎだ。その中から十通りを厳選し、[r]より精度を高める事を推奨するよ。
+[k]
+
+[charaFace A 0]
+＠エルメロイ二世
+まあ、今回は特例だが。[r]敵が無尽蔵であるのなら、戦術は多いに越した事はない。
+[k]
+
+[charaFace A 1]
+＠エルメロイ二世
+今回は存分にやりたまえ。[r]魔力切れについては、今さら気にするな。
+[k]
+
+[charaFace A 0]
+＠エルメロイ二世
+時間神殿そのものを解析・掌握するのは至難だが、[r]この座に限って言えば仕組みはある程度絞れた。
+[k]
+
+＠エルメロイ二世
+惑星魔術を中心とした巨大な立体魔法陣、[r]ならばこちらにも手はある。
+[k]
+
+[charaFace B 1]
+＠アレキサンダー
+すごいや先生。それってもしかしてアレかな、[r]敵から魔力を頂戴しちゃったり？
+[k]
+
+[charaFace B 4]
+＠アレキサンダー
+ちょっと嫌だなぁそれ。[r]ぐねぐねした魔力とか気持ち悪いかも。
+[k]
+
+[charaFace A 1]
+＠エルメロイ二世
+そんなものをおまえに喰わせられるか。[r]地の利をこちら側の優勢に働かせる程度のものだ。
+[k]
+
+[charaFace A 0]
+＠エルメロイ二世
+魔力については私が[#経路:パス]を繋ぐ。今は[r]マスターならざる身だが、原理的には可能だからな。
+[k]
+
+[charaFace B 1]
+＠アレキサンダー
+任せるよ。先生、存分にやって。
+[k]
+
+[charaFace A 1]
+＠エルメロイ二世
+それは私の言葉なんだが……[r]まあいい。私は私の最善を尽くすまでだ、我が王よ。
+[k]
+
+[charaFace B 5]
+＠アレキサンダー
+心得た！　我が未来の臣下！[r]さあ、また戦場を踏み荒らそうかブケファラス！
+[k]
+
+[se ad83]
+＠G：ブケファラス
+…………！！
+[k]
+
+[seStop ad83 1.0]
+
+[charaFace B 1]
+＠アレキサンダー
+それと、あとひとり。[r]さて行こうか[line 3]我が未来の好敵手くん！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.7 1]
+[wt 1.0]
+＠ダレイオス三世
+[image berserker_language_2]……ッッ！！！
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.7]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+＠エルメロイ二世
+かろうじて制御できているのか……？[r]いや、襲い掛からない以上はそうなのだろうが……
+[k]
+
+[charaFace B 1]
+＠アレキサンダー
+あはは。そうだね、我慢してくれている。[r]ダレイオス三世、我が最高の好敵手となるだろう男。
+[k]
+
+[charaFace B 0]
+＠アレキサンダー
+アケメネス朝ペルシャ最後の王。[r]僕はきみの存在をしっかりとは実感できないけど、
+[k]
+
+＠アレキサンダー
+僕はきみの事が嫌いじゃない。多分、好きだ。
+[k]
+
+[charaFace B 1]
+＠アレキサンダー
+……未来の僕がどうなのかは分からないけど、[r]でも、嫌ってはいないと思う。きっとね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ダレイオス三世
+[image berserker_language_1]…………
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+＠アレキサンダー
+僕は僕にとっての未来を待たずに、今だって[r]きみと戦いたい。ローマの時にはできなかったしね。
+[k]
+
+[charaFace B 4]
+＠アレキサンダー
+でも、ごめんよ。[r]今はどうしても駄目なんだ。
+[k]
+
+[charaFace A 4]
+＠エルメロイ二世
+…………。
+[k]
+
+[charaFace A 0]
+＠エルメロイ二世
+言葉が通じているかは分からない。[r]彼は、高ランクの狂化スキルを有しているからな。
+[k]
+
+＠エルメロイ二世
+悪いが、意味のないやり取りかもしれんぞ。
+[k]
+
+[charaFace B 0]
+＠アレキサンダー
+そうだね。だからこれは、僕の[#我:わ]が[#儘:まま]だ。[r]再度の突撃を行う前に言っておきたい。
+[k]
+
+[charaFace B 4]
+
+＠アレキサンダー
+ダレイオス王。[r]どうしてそんなにも衝動に耐えて……
+[k]
+
+＠アレキサンダー
+存在すべてを懸けてこの僕を殺したいだろうに、[r]なぜ、あの九柱と戦うんだい？
+[k]
+
+＠アレキサンダー
+世界が消えてしまったら僕と戦えないから、[r]とかだったら分かりやすいんだろうけど。違うよね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ダレイオス三世
+[image berserker_language_1][line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠アレキサンダー
+うん。もしかしなくても、なんていうか[line 3]
+[k]
+
+[charaFace B 1]
+＠アレキサンダー
+きみは、僕と肩を並べて戦う“もしも”を、[r]狂気の果てに見たんじゃないか？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk off]
+
+[se ad14]
+[charaFace C 2]
+[charaDepth C 2]
+[charaFadein C 0.1 1]
+[charaFace G 2]
+[charaDepth G 2]
+[charaFilter G silhouette FFFFFF80]
+[charaFadein G 0.1 1]
+
+[charaFadeout C 0.7]
+[wt 1.0]
+
+[charaSet C 7011002 1 ダレイオス三世]
+[wait charaChange C]
+
+[charaFace C 2]
+
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[charaFilter G silhouette 00000080]
+[seStop ad14 1.0]
+[se bac215]
+[shake 0.05 4 4 0]
+[wt 0.7]
+[flashOff]
+
+[charaFadeout G 0.7]
+[charaFadein C 0.7 1]
+[seStop bac215 1.0]
+[shakeStop]
+[wt 0.6]
+[voice 701100_0_B100]
+[wt 0.3]
+＠ダレイオス三世
+[image berserker_language_2]ッッ！！！！[wait voice 701100_0_B100]
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.7]
+[wt 1.0]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace B 0]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+＠エルメロイ二世
+霊基再臨！？[r]アレキサンダー、流石に刺激しすぎだ！
+[k]
+
+[charaFace B 1]
+＠アレキサンダー
+あはは。べつに冗談じゃないんだけどね。[r]でもほら、やっぱり襲ってこない。きみって男は……
+[k]
+
+[charaFace B 0]
+＠アレキサンダー
+……いや。これ以上は良くないな。
+[k]
+
+[charaFace B 5]
+＠アレキサンダー
+待たせてごめん。さあ行こう二人とも！[r]ダレイオス三世、そしてロード・エルメロイ二世！
+[k]
+
+＠アレキサンダー
+我が未来の好敵手と、我が未来の臣下！[r]共に駆けよう！
+[k]
+
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[scene 36301]
+
+[wt 0.4]
+
+[charaSet A 6010001 1 ステンノ]
+[charaSet B 1018001 1 アルテラ]
+[charaSet C 9938200 1 魔神オリアス]
+[charaSet G 1005001 1 ネロ]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠呂布
+[image berserker_language_1][line 3]！！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠スパルタクス
+圧政、圧政、圧政！　私の肉体を鞭打つか！[r]押し寄せる肉塊の群れは永劫に続く圧政の象徴である！
+[k]
+
+[charaFace E 2]
+＠スパルタクス
+傷付けるがいい。打ち据えるがいい。[r]その力のすべてが倍となっておまえたちを襲うのだ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠荊軻
+至近距離で[#宝具:ソレ]を使うなよ、スパルタクス！[r]呂布は突出しすぎ……なのはもうどうでもいい！
+[k]
+
+[charaFace F 5]
+＠荊軻
+薙ぎ払え、砕いて進め！[r]今は、おまえたちの破壊力が何より有り難い！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠呂布
+[image berserker_language_2]……！！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠荊軻
+分かった分かった、別に王を気取ってはいない。[r]指揮官なども願い下げだ。だから寝首は掻かんでいい。
+[k]
+
+[charaFace F 0]
+＠荊軻
+はぁ。これも懐かれてると思うべきか……
+[k]
+
+＠荊軻
+心底本当に、何もかも終わったら[r]酒杯を思うさま[#呷:あお]らねばやっておれんぞ。
+[k]
+
+[charaFace F 5]
+＠荊軻
+こちらばかりに連中のお守りを任せて、[r]ブーディカは一体何をして[line 3]ああ、いや。そうか。
+[k]
+
+[charaFace F 0]
+＠荊軻
+やれやれ。よりにもよってこの状況で、とは。[r]……少し放っておくか。
+[k]
+
+
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaFadeout F 0.1]
+
+[scene 36300]
+
+[charaSet D 3010002 1 ロムルス]
+[charaSet E 1013001 1 カエサル]
+
+[wt 0.4]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ネロ
+[#怯:ひる]むな、押しとどめよ！[r]陣形を維持できなければ余の名を呼ぶがよい！
+[k]
+
+[charaFace G 5]
+＠ネロ
+すぐに駆け付け、たちまち肉の柱を切り裂こう！
+[k]
+
+[charaFace G 4]
+[charaShake G 0.05 2 0 0.7]
+[wt 1.0]
+
+[charaFace G 5]
+＠ネロ
+…………っ。頭痛は、[#些:いささ]かきついが[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFace G 5]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠ブーディカ
+あーもう、そこは無茶をしなさんな。[r]ネロ・クラウディウス？
+[k]
+
+[charaFace H 5]
+＠ブーディカ
+英霊だか人間だかよく分からない状態で[r]参戦してるんだから、アンタは無茶しちゃ駄目さ。
+[k]
+
+＠ブーディカ
+体を張るのはこっちの役目。[r]アンタは王で、この軍を率いる指揮官なんだよ。
+[k]
+
+[charaFace H 0]
+＠ブーディカ
+右翼の向こうの方じゃ、なんだか別の援軍が[r]アララライしてるみたいだけど[line 3]
+[k]
+
+[charaFace H 5]
+＠ブーディカ
+ともかく。アンタはでんと構えてくれないと。
+[k]
+
+[charaFace G 4]
+＠ネロ
+……すまぬな、ブーディカ。[r]この身に溢れる魔力とやらが余を血気に[#逸:はや]らせる。
+[k]
+
+＠ネロ
+才多き身というのも時には悩ましい。[r]ついでに言えば、この頭痛が何ともままならぬ。
+[k]
+
+[charaFace H 0]
+＠ブーディカ
+へえ、これは珍しいものを見た。[r]素直に言う事を聞いてくれる皇帝陛下なんてね。
+[k]
+
+[charaFace G 5]
+＠ネロ
+むむ。余は、万雷の喝采を受ける名君で[line 3]
+[k]
+
+[charaFace G 4]
+
+[charaShake G 0.05 1 0 0.4]
+[wt 0.7]
+
+[charaFace G 0]
+＠ネロ
+……………。[r]……いや。余は、真の名君ではないのだろう。
+[k]
+
+[charaFace G 4]
+＠ネロ
+言い訳はせぬ。ブリタニアでの出来事、[r]今の余はすべてを思い出している。貴様に……
+[k]
+
+＠ネロ
+……貴様と子女、そして故郷のすべてに。[r]余は非道を以て支配を成した。
+[k]
+
+[charaFace H 4]
+＠ブーディカ
+アンタ本人の行いじゃないだろう。代官あたりが[r]独走したんだろうってのを、[#英霊:いま]のあたしは知ってる。
+[k]
+
+＠ネロ
+臣下の暴走は、余の不徳。[r]皇帝の責任である。
+[k]
+
+[charaFace H 0]
+＠ブーディカ
+それは、まあ。そうさね。
+[k]
+
+[charaFace H 2]
+＠ブーディカ
+……ああ。おためごかしはやめよう。[r]そうだ、あたしはローマを未来永劫絶対に許さない。
+[k]
+
+[charaFace H 5]
+＠ブーディカ
+あたしが汚されるのはいい。嫌だけど。[r]でもあんたたちローマは娘を汚して、故郷を汚した。
+[k]
+
+[charaFace H 2]
+＠ブーディカ
+夫との約定だってあっさり破ってさ。[r]随分と、好き放題にやってくれたもんだよ。
+[k]
+
+＠ネロ
+………………。
+[k]
+
+[charaFace H 0]
+＠ブーディカ
+でもね。あたしの復讐はもうとっくに終わってる。[r]だから[line 3]この話は、これでもう終わり。
+[k]
+
+＠ブーディカ
+霊基をいじくられたら、[r]まあ、こんなに物わかり良くないかもだけど？
+[k]
+
+＠ブーディカ
+でもいいんだ。今のあたしはこのあたし。[r]だから、これ以上は言わないよ。
+[k]
+
+[charaFace H 5]
+＠ブーディカ
+むしろあんたの方はどうなのさ、ネロ。[r]あたしはね、山ほどローマ人の女子供を殺したよ。
+[k]
+
+[charaFace H 4]
+＠ブーディカ
+たとえばいつかのロンディニウムでね。[r]あたしは、命乞いをする無数の親たちの前で……
+[k]
+
+[charaFace G 4]
+＠ネロ
+[line 3]言うなブーディカ。[r]どうか、それ以上は言ってくれるでない。
+[k]
+
+＠ネロ
+そこから先は駄目なのだ。すまぬ。[r]きっと、怨嗟を無限に繰り返す事になるのだ。
+[k]
+
+＠ネロ
+ゆえに…………言うな、ブーディカ。
+[k]
+
+[charaFace H 4]
+＠ブーディカ
+…………うん、そう。その通りだよ。
+[k]
+
+[charaFace H 0]
+＠ブーディカ
+あたしはもうとっくに亡者だ。英霊ってのは[r]人類史に刻まれた影で、過去を生きた本人じゃない。
+[k]
+
+[charaFace H 1]
+＠ブーディカ
+それなら多少恰好付けたっていいさ。[r]なあ、ネロ公！
+[k]
+
+[charaFace G 0]
+＠ネロ
+う、うむ？
+[k]
+
+[charaFace H 1]
+＠ブーディカ
+本人じゃない[#英霊:あたし]は、[r]本人か英霊かよく分かんない皇帝を許すって事！
+[k]
+
+[charaFace G 1]
+＠ネロ
+…………！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠荊軻
+いつまでじゃれ合っている二人とも！[r]スパルタクスと呂布をいつまで私だけに任せる！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ネロ
+それを言うなら魔神柱では……[r]いや、そうであったすまぬ、すぐに余が参るぞ！
+[k]
+
+
+
+[messageOff]
+
+[charaFace G 5]
+[charaFadeout G 0.7]
+[se ad59]
+[wt 0.7]
+[seStop ad59 0.7]
+
+[wt 0.7]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠荊軻
+話はできたか？
+[k]
+
+
+
+＠ブーディカ
+……ありがと。これで、思い切りやれるさね。
+[k]
+
+[charaFace F 1]
+＠荊軻
+気にするな。後顧の憂いは断たねばならん。
+[k]
+
+[charaFace F 2]
+＠荊軻
+では正真正銘、最後の戦いへと赴くとしようか。[r]戦場で猛将たちが待っている！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+[scene 36301]
+[wt 0.4]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.7 1]
+＠ステンノ
+…………戦っているわね。ヒトが。
+[k]
+
+[charaFace A 1]
+＠ステンノ
+見なれた光景だわ。[r]勇者。英雄。栄光を求め、血を撒いて、肉をこぼす。
+[k]
+
+＠ステンノ
+勇ましく、また惨たらしい。[r]英雄譚というものは飾られた肉料理のよう。
+[k]
+
+＠ステンノ
+華やかに見えてその実は残忍だわ。[r]そう思わない、アルテラ？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaDepth B 1]
+[charaDepth A 9]
+[charaFadein B 0.4 1]
+
+＠アルテラ
+……私に返答できる質問ではない。[r]私は、何をも感じない。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[charaFace A 0]
+＠ステンノ
+そうかしら。[r]私には、今のあなたはヒトのように見えるのだけど。
+[k]
+
+[charaFace A 1]
+＠ステンノ
+少なくとも一万四千年前とは別人ね。[r]いえ、霊基の[#規模:スケール]だけの話ではなくて。
+[k]
+
+＠ステンノ
+一万四千年前のことを私たちは忘れていない。[r][#妹:メドゥーサ]は憶えていないでしょうけど、私たちはね。
+[k]
+
+[charaFace A 4]
+＠ステンノ
+遙かな太古の[#概念:神々]さえ、あなたには勝てなかった。[r][#巨:おお]いなるもの、星より落ちて大地を砕く巨人には。
+[k]
+
+＠ステンノ
+星の海を渡ってきたのでしょう？[r]そういう意味では同じはずなのに、随分と差が付いて。
+[k]
+
+[charaFace A 0]
+＠ステンノ
+あなたは破壊そのものだった。[r]天と地の自然も、概念さえもあなたに敗北した。
+[k]
+
+[charaFace A 4]
+＠ステンノ
+オリンポスの十二神のトラウマよ、あなたの存在は。
+[k]
+
+[charaFace A 0]
+＠ステンノ
+……今回はどうなの？[r]あなた、どちらの側に付くの。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+
+＠アルテラ
+私は、[%1]との繋がりによって[r][#此処]へと喚び出されている[line 3]
+[k]
+
+＠ステンノ
+そう。ではヒトの側に立つのね。[r][#回収前]に奪われたら困るという事かしら。
+[k]
+
+[charaFace B 4]
+＠アルテラ
+分からない。私は、おまえの発する言葉のうち[r]半分程度しか意味を拾えない。
+[k]
+
+[charaFace B 0]
+＠アルテラ
+私は私自身をあまり知らない。[r]私は、きっと本体から切り離された英霊だから[line 3]
+[k]
+
+＠アルテラ
+不完全なのだ。この私には、[r]破壊の大王として地上を駆けた記憶しかない。
+[k]
+
+[charaFace B 4]
+＠アルテラ
+[#巨:おお]いなるもの……？[r]私には、いいや、分からない……
+[k]
+
+[charaFace A 1]
+＠ステンノ
+それは私たちにとって幸運ね。[r]データの破損なのかしら。
+[k]
+
+[charaFace B 0]
+＠アルテラ
+けれど、今はこうも思ってしまう。
+[k]
+
+＠アルテラ
+私は破壊であり、[r]文明を滅ぼす機械装置かもしれないが……
+[k]
+
+[charaFace B 4]
+＠アルテラ
+ここで終わるのは嫌だ。[r]私は、剣以外の何をも知らずに終わりたくはない。
+[k]
+
+[charaFace B 0]
+＠アルテラ
+馬を駆り、風となって草原を駆け抜けたい。
+[k]
+
+＠アルテラ
+花嫁のように着飾りたい。[r]いつか、美味しいものだって作ってみたい。
+[k]
+
+[charaFace B 4]
+＠アルテラ
+私は、まだ、終わりたくない[line 3]
+[k]
+
+[charaFace A 4]
+＠ステンノ
+…………ああ、なんという事でしょう。[r]あなた、幾星霜を経ても破壊の化身だとばかり。
+[k]
+
+＠ステンノ
+死した亡者、英霊となってから[#それ]を[r]口にしてしまうだなんて。よほど不器用なのね。
+[k]
+
+[charaFace A 0]
+＠ステンノ
+それなら私は謝るしかありません。
+[k]
+
+[charaFace A 4]
+＠ステンノ
+ごめんなさい。[r]アルテラを名乗る草原の少女。
+[k]
+
+[charaFace A 1]
+＠ステンノ
+[line 5]あなた、とっくに[#人間:ヒト]だったのね。
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[scene 36300]
+
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaDepth C 1]
+[charaFadein C 0.1 1]
+
+[wipein rectangleStripRightToLeft 0.7 1.0]
+[wait wipe]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神オリアス
+不明なり。不可解なり。[r]我らを相手取りながら、ここまで戦える道理が見えぬ。
+[k]
+
+＠魔神オリアス
+神代の真価も知らぬ有象無象の集合。[r]無知の軍勢。凡百の英霊の寄せ集め[line 3]
+[k]
+
+＠魔神オリアス
+その矮小な総合値が、何故、[r]我ら九柱を押しとどめる[line 3]！
+[k]
+
+[charaFadeout C 0.4]
+[seStop ad14 0.2]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+[charaFadein D 0.1 2]
+＠ロムルス
+想い、願い、尊ぶ事こそ我らがローマの光なれば、[r]恐怖と絶望の肉塊などに敗北する[#謂:い]われなし。
+[k]
+
+[charaFace D 1]
+＠ロムルス
+笑止、と言うべきであろうな。[r]そして[line 3]
+[k]
+
+[charaFace G 0]
+＠ネロ
+む。どうされたのだ神祖？[r]突然、あらぬ方へと赤色の視線をやって……
+[k]
+
+[messageOff]
+
+
+[charaFadeout D 0.4]
+[charaFadeout G 0.4]
+[wt 0.1]
+[messageOff]
+[wt 0.2]
+
+[wt 0.7]
+
+
+
+
+
+[shake 0.05 2 2 0]
+[se ad276]
+[wt 2.0]
+[shakeStop]
+[shake 0.05 7 7 7.0]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 1.0]
+[flashOff]
+[wt 2.0]
+
+
+[charaTalk H]
+[charaFace H 2]
+[charaFace F 2]
+[charaDepth H 2]
+[charaDepth F 3]
+[charaFadein H 0.1 2]
+[charaFadein F 0.1 0]
+＠ブーディカ
+この音！[r]空から……何か、魔神柱に落ちていく！？
+[k]
+
+＠荊軻
+相当の魔力量……！！
+[k]
+
+[messageOff]
+
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+[shakeStop]
+
+[seStop ad276 2.0]
+
+[scene 10001]
+
+[fadein white 1.0]
+[wait fade]
+
+＠ネロ
+光の柱が、魔神柱に突き立ったのか……！[r]まぶしくて何も見えぬ！　何だというのだこれは！
+[k]
+
+[wt 1.0]
+
+[messageOff]
+
+
+[wt 0.4]
+
+[scene 36301 2.0]
+[wt 2.0]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+＠アルテラ
+…………[#涙の星、軍神の剣:ティアードロップ・フォトン・レイ]。
+[k]
+
+＠アルテラ
+この霊基で撃つにはいささか無理があったな。[r]だが、先手は打てたようだ。
+[k]
+
+＠アルテラ
+ローマのものたちよ。[r]私は破壊する。ただし……
+[k]
+
+[charaFace B 5]
+＠アルテラ
+今回は、おまえたちの文明ではなく。[r]我が破壊ならざる破壊をもたらすモノどもを。
+[k]
+
+[messageOff]
+
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[wt 0.4]
+
+[scene 36300]
+
+[charaSet A 7003001 1 呂布]
+[charaSet B 7005001 1 スパルタクス]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ネロ
+……見えたぞ。あれはアルテラの剣！
+[k]
+
+＠ネロ
+どうやら、魔神柱に不意の一撃を[r]喰らわせた雰囲気ではあるが、さては[line 3]
+[k]
+
+[charaFace G 1]
+＠ネロ
+うむ！　ここでも余の軍門に降ったか！[r]うむ。ん。ここでもとは、何だ……？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠ブーディカ
+なにあれ、すっごい宝具！[r]確か前ン時はあんなの見なかったよねえ！？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠呂布
+[image berserker_language_1]……！！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠スパルタクス
+[font large]圧政！！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠荊軻
+どうどう。落ち着け落ち着け。[r]うん、魔力量に惹かれて走っていくんじゃないぞ。
+[k]
+
+＠荊軻
+いいや、魔力量で言えば圧倒的に魔神柱が上だ。[r]おまえたちは本能に従っていてくれ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠呂布
+[image berserker_language_1][line 6]！！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠カエサル
+……神祖。あれは、マルスの剣だな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+
+＠ロムルス
+うむ。間違いなく。
+[k]
+
+＠ネロ
+マルス……ああ、そういえばアルテラは[r]どういう理由か軍神大好きっ子であったような……
+[k]
+
+＠ロムルス
+ネロよ、おまえは知らぬのだな。[r]あれは真の[line 3]我が父たる軍神マルスの剣である。
+[k]
+
+[charaFace G 2]
+＠ネロ
+な……んと……？[r]神祖よ、今なんと言われたのか！
+[k]
+
+[charaFace D 4]
+＠ロムルス
+衛星軌道上に仮想顕現した軍神マルスが振るう光の巨剣。[r]太古の、戦闘の概念がカタチとなったモノである。
+[k]
+
+＠ロムルス
+魔力そのものはアルテラのそれを使用するが、[r]威力はある意味では複合されている。恐らくな。
+[k]
+
+[charaFace D 1]
+＠ロムルス
+久方ぶりに目にしたな。[r]成る程、父が単身で振るうよりも細やかな仕事ぶり。
+[k]
+
+[charaFace G 0]
+＠ネロ
+[FFFFFF]？？？？[-]
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ブーディカ
+…………神霊の仮想顕現？　あはははまたまた。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ネロ
+今の余にはよく分からぬが……[r]うむうむ、軍神ならば心強いではないか神祖よ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ロムルス
+ほう。そう言えるのだな、ネロ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ネロ
+うむ！　言える！
+[k]
+
+[charaFace G 0]
+＠ネロ
+かつての折、首都ローマへと向かって[r]歩いて来た時にはどうしたものかと慌てたがっ。
+[k]
+
+[charaFace G 1]
+＠ネロ
+[#此度:こたび]のアルテラは味方となってくれた。[r]ならば、軍神マルスを味方にしたも同然[line 3]
+[k]
+
+[charaFace G 5]
+＠ネロ
+この戦い！　我らローマの勝利は必定である！
+[k]
+
+[messageOff]
+
+[charaTalk H]
+
+[se ad16]
+[shake 0.05 4 4 2.0]
+＠E：ローマ軍団
+オオオオオオオオオオオオオオオオオオオオォ……！[r]ネロ陛下、号令を！
+[k]
+
+[seStop ad16 3.0]
+
+
+
+[charaFace G 5]
+＠ネロ
+うむ[line 3]これこそ最後の戦いである！[wt 0.3][charaFace G 0][r]と、その前に。
+[k]
+
+＠ネロ
+ここは余と、余のローマ軍団が預かるとしよう。[r]貴様は先へと進むがよい、[%1]。
+[k]
+
+[charaFace G 1]
+＠ネロ
+世界は、決して終わらぬ。[r]すべての道は我らが七丘へと続くのだから！
+[k]
+
+[charaFace G 5]
+＠ネロ
+前へ！　征くのだ！[r]その歩み、やがて明日の[#世界:ローマ]を拓くであろう！
+[k]
+
+？1：[line 3]ローマ！
+？2：また後で！　ネロ！
+
+？！
+
+
+[se ad59]
+[wt 0.7]
+[seStop ad59 2.0]
+
+[charaTalk G]
+[charaFace G 1]
+＠ネロ
+………………うむ！！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_42 2.0]
+[wait fade]
+[soundStopAll]
+[end]

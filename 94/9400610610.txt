@@ -1,0 +1,902 @@
+＄94-00-61-06-1-0
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 9004000 1 マルタ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 98100400 1 マシュ]
+[charaSet E 2025100 1 メアリー]
+[charaSet F 2025200 1 アン]
+[charaSet G 98101200 1 うりぼう]
+[charaSet H 98101400 1 うりぼう長]
+
+[scene 30700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マルタ
+ここが前の島！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 2]
+[charaFadein A 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠アルトリア
+あの緑豊かな島の、成れの果てがこの島なのですか？
+[k]
+
+？1：石像があった
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠スカサハ
+あの石像がある以上、証拠としては充分だが……。[r]もう一つ。
+[k]
+
+＠スカサハ
+魔猪が守っていたトネリコの木があったろう？[r]あれ、私が苗を植えたものだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠マシュ
+ああ、確か毒を吸って成長すると言っていた！
+[k]
+
+＠スカサハ
+毒気が消えたこの島は、[r]うりぼうの棲息環境としては最適だったろうな。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠メアリー
+なるほど。つまり[#九人の女神:ナイン・シスターズ]というのはボクたちの事だったのか。
+[k]
+
+[charaFace E 3]
+＠メアリー
+女神……ボクたちが……。
+[k]
+
+[charaFace F 4]
+＠アン
+スケールが壮大過ぎて、[r]ただの海賊としてはついていけませんわね……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠うりぼう
+つまり。女神様でありますか？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠うりぼう長
+そういう事になるかの。[r]わし、びっくり。
+[k]
+
+＠うりぼう
+びっくりー……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠マシュ
+でも、ここが前の島だとしたら[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 7]
+[charaFadein D 0.1 2]
+＠スカサハ
+また船に乗って出発するのは得策ではないの。
+[k]
+
+[charaFace C 4]
+＠スカサハ
+次にやってきたらうりぼうが絶滅して[r]数千年ということになりかねん。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaShake G 0.05 3 3 0.4]
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠うりぼう
+ぴゃー！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaSet F 5027000 1 マリー]
+
+[charaTalk F]
+[charaFace G 3]
+[charaFadein G 0.1 -128,0]
+[charaFace F 0]
+[charaFadein F 0.1 128,0]
+＠マリー
+おお、よしよし。[r]大丈夫よ、心配なんていらないわ。よしよし。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaSet E 98002000 1 フォウ]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウフォウフォウ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 12]
+[charaFadein D 0.1 2]
+＠マシュ
+フォウさんがライバル登場に打ち震えています。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaSet H 3025000 1 清姫]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠清姫
+はい、スカサハ先生。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠スカサハ
+うむ、何じゃ清姫。
+[k]
+
+[charaFace H 5]
+＠清姫
+スカサハ先生のお話によれば、[r]この島は英雄も魔術師もいなくて。
+[k]
+
+＠清姫
+たとえここで一年過ごしても、[r]島の外側ではわずかな時間しか経過しないと。
+[k]
+
+＠清姫
+ということはつまり、この島は[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[cameraMove 0.25 0,-75 1.5]
+[wt 0.25]
+
+[se ad64]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+[charaPut D 0,100]
+[charaEffect D bit_talk_41]
+＠清姫
+わたくしと、旦那様がアダムとイヴっても[r]構わないということですね！？
+[k]
+
+[charaEffectStop D bit_talk_41]
+[wt 0.3]
+[charaFadeout H 0.1]
+
+[cameraMove 0.25 0,0 1.0]
+[wt 0.3]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠スカサハ
+……まあ、合意の上ならな。
+[k]
+
+[charaSet A 3024000 1 玉藻の前]
+[charaSet G 4024000 1 モードレッド]
+
+？1：ちょっと待って！？
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+＠清姫
+旦那様！
+[k]
+
+＠清姫
+先生のお許しも出たことですし、[r]アダムとイヴに！　アダムとイヴに！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+[charaFace H 3]
+[charaFadein H 0.1 2]
+＠モードレッド
+おーちーつーけー！
+[k]
+
+[charaMoveReturn G -172,0 0.5]
+[wt 0.2]
+[charaEffect H bit_talk_13]
+[wt 0.1]
+[se bac98]
+[charaShake H 0.05 3 3 0.4]
+[wt 0.2]
+[charaFadeout H 0.4]
+[wt 0.3]
+[se ad144]
+[seVolume ad144 0 0.6]
+＠清姫
+きゅぅ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠モードレッド
+危なかったな、マスター。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠アルトリア
+（……プリドゥエンは殴るものではないのですが）
+[k]
+
+[charaFadeout B 0.1]
+
+？2：きよひーにそんな事言ったら！
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠清姫
+合意！[r]合意しましょう、ますたぁ！
+[k]
+
+＠清姫
+この輪廻から外れた島で、[r]イチャイチャしまくりましょう！
+[k]
+
+＠玉藻の前
+[line 3]氷天よ！
+[k]
+
+[charaTalk H]
+[flashin once 0.1 0.3 4FB5DDAF 4FB5DD00]
+[se bac28]
+[wt 0.1]
+[charaFace H 4]
+[charaShake H 0.05 4 0 0.5]
+[wait se bac28]
+
+＠清姫
+しゃむい！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠玉藻の前
+ふぅ。ご無事ですか、マスター？
+[k]
+
+[charaFace A 4]
+＠玉藻の前
+どうやら『永遠にイチャイチャできる』あたりが[r]清姫さんにとって最高にツボだったみたいですね。
+[k]
+
+＠玉藻の前
+しばらくそっとしておきましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 9004000 1 マルタ]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マルタ
+それで？[r]これから先はどうするの？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠スカサハ
+島の謎を解く必要も出てきたな。[r]さもなくば、本当にアダムとイヴｓになってしまうぞ。
+[k]
+
+
+[selectionUse masterFemale]
+？1：自分もイヴなんですけど……
+
+[charaFace C 1]
+＠スカサハ
+ははは、気にするな。[r]いざとなればルーンで何とかなる。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 14]
+[charaFadein D 0.1 2]
+＠マシュ
+何とかしちゃうんですか！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォルーン！？
+[k]
+
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠モードレッド
+……アホみたいなこと言ってないで、[r]さっさと話進めようぜ。
+[k]
+
+[charaFace G 0]
+＠モードレッド
+謎って一体何が謎なんだよ？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠スカサハ
+一つ目、この島を脱出するために必要な手段。[r]二つ目、この島を隔離している原因。
+[k]
+
+＠スカサハ
+一つ目の謎を解くためには、文明の復興が重要だ。
+[k]
+
+＠スカサハ
+文明レベルが上がれば、カルデアとの連絡手段が[r]確保できるかもしれんし[line 3]
+[k]
+
+＠スカサハ
+この島を取り巻く世界ごと脱出可能かもしれん。
+[k]
+
+＠スカサハ
+二つ目の謎を解くためには[r]あちこちに出向くしかないだろうな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠マリー
+それに、魔猪さんも退治せねばなりませんし。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠スカサハ
+やるべきことは山積みだが、[r]我らに与えられた期限もそう長くはない。
+[k]
+
+[charaFace C 5]
+＠スカサハ
+この一夏で勝負をつけるぞ。[r]いいな！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaSet G 98101200 1 うりぼう]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠うりぼう
+女神様！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠スカサハ
+ん？[r]どうした？
+[k]
+
+[charaFace G 1]
+＠うりぼう
+サーヴァントが来訪しました！[r]どうなさいますか？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠スカサハ
+ほう、サーヴァントが……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+[charaFace C 2]
+＠全員
+[f large]何！？[f -]
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rollRight 1.0 0.5]
+[wait wipe]
+[charaSet E 3001001 1 クー・フーリン]
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[wt 0.7]
+[wipein rollLeft 1.0 0.5]
+[wait wipe]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+＠クー・フーリン
+ぜぇ、ぜぇ、ぜぇ。[r]ひ、酷い目に遭った……。
+[k]
+
+？1：クー・フーリン兄貴！？
+
+[charaFace E 1]
+＠クー・フーリン
+おうよ、気付いたら海岸に流れ着いててな！[r]死ぬかと思った！
+[k]
+
+？2：生きてた[line 3]！？
+
+[charaFace E 2]
+＠クー・フーリン
+生きてたよ！
+[k]
+
+[charaFace E 4]
+＠クー・フーリン
+いや、大波に攫われたときはホント死ぬかと思ったけどな！
+[k]
+
+
+[charaFace E 1]
+＠クー・フーリン
+極力体力を使わない犬かきで乗り切った！[r][#英霊:にんげん]、何でもやってみるもんだな！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠スカサハ
+我が弟子ながら、呆れたタフさだな。
+[k]
+
+＠クー・フーリン
+ははははは。[r]褒めるなよ、師匠。
+[k]
+
+[charaFace C 1]
+＠スカサハ
+いや、私はおまえを見誤っていた。[r]おまえは私の予想を超えて強くなっていたのだな。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaSet G 3024000 1 玉藻の前]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠玉藻の前
+……[charaFace G 0]（ミコーン！）
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠玉藻の前
+そうでございますねえ。[r]さすがアイルランドの光の御子。
+[k]
+
+[charaFace G 1]
+＠玉藻の前
+その伊達男っぷりには、女子サーヴァントたちも[r]ときめくこと間違いなしでございます♪
+[k]
+
+[charaFace E 3]
+＠クー・フーリン
+いやははは！　そうかな、そうかもな！？[r]長年の雌伏の時を経て、オレの時代来てるからな！
+[k]
+
+[charaFace E 1]
+＠クー・フーリン
+オルタとかキャスターとか、所詮は亜流。[r]本家はランサーだからな！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+＠マリー
+クー・フーリンさん、カッコいいわ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+＠玉藻の前
+やったー、カッコイー！
+[k]
+
+＠クー・フーリン
+なははははは！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠スカサハ
+そこでおまえには最前線で頑張ってもらおう！
+[k]
+
+＠クー・フーリン
+応、了解だ師匠！[r][line 3][charaFace E 0]で、なにすんの？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠アルトリア
+……ランサー……。
+[k]
+
+[charaFadeout B 0.1]
+
+
+
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+
+
+[charaFace E 0]
+
+[charaFadein E 0.1 2]
+＠スカサハ
+安心しろ我が弟子。
+[k]
+
+＠スカサハ
+とっても簡単、誰にでもできるお仕事だ。[r]同僚も皆フレンドリーで、[#和気藹々:わきあいあい]。
+[k]
+
+[charaFace E 2]
+＠クー・フーリン
+それ明らかにブラックのうたい文句ですよね！？
+[k]
+
+＠スカサハ
+大丈夫。[r]私はおまえを信じている。信じているから[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+[charaFace C 0]
+＠スカサハ
+魔猪を百頭ほど狩ってこい。[r]何頭かは超巨大だが、がんばれ。
+[k]
+
+＠クー・フーリン
+鬼か[#手前:テメェ]！？
+[k]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠玉藻の前
+信じてますからね、クー・フーリンさん。
+[k]
+
+[charaFace E 4]
+＠クー・フーリン
+こ、この雌狐……！
+[k]
+
+[charaFace G 1]
+＠玉藻の前
+コンコン♡
+[k]
+
+？1：不覚にも可愛い！
+？！
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠玉藻の前
+えへ、マスターありがとうございまーす！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk off]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+[charaFace D 7]
+[charaFadein D 0.1 2]
+＠二人
+……。[r]……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠スカサハ
+そう心配するな。[r]何より、マスターも手伝ってくれるだろう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[wt 0.4]
+
+？1：一緒にがんばろう！
+
+[charaFace E 3]
+＠クー・フーリン
+ぐ、む……。[r]しょうがねえ、やってやるよ。ああもう！
+[k]
+
+？2：自分がついてる
+
+[charaFace E 0]
+＠クー・フーリン
+へいへい、ありがとさん。[r]……何気におまえさんも苦労人だな。
+[k]
+
+[charaFace E 1]
+＠クー・フーリン
+しゃあねぇ、一緒に頑張るとするか！
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+[charaFadeout E 0.1]
+[scene 20700]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[wt 0.2]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠マシュ
+[line 3]という訳です。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠クー・フーリン
+なるほどねえ。[r]ここが前の島だってのは、まあ分かった。
+[k]
+
+[charaFace E 0]
+＠クー・フーリン
+……ところで一つ質問があるんだが。
+[k]
+
+[charaFace D 6]
+＠マシュ
+はい？
+[k]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+＠クー・フーリン
+この島って、[#元々はどんなところなんだ]？
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace D 12]
+＠マシュ
+さあ、それは……。
+[k]
+
+[charaFace E 3]
+＠クー・フーリン
+ああ、悪い。ちと気になっただけだ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace E 0]
+＠クー・フーリン
+そんなことより、魔猪百頭か。[r]気ぃ抜いてると、今夜中に終わらねえぞ！
+[k]
+
+[charaFace E 1]
+＠クー・フーリン
+そうなりゃ野宿確定だ！
+[k]
+
+[charaFace D 2]
+＠マシュ
+が、がんばりましょう先輩！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,336 @@
+＄01-00-04-13-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 11000 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 5007001 1 シェイクスピア]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+＠ジキル
+たった今、Dr.ロマンから連絡があったよ。[r]作戦は成功だ！
+[k]
+
+＠ジキル
+英霊ニコラ・テスラを撃破した後、[r]魔霧から出現した別のサーヴァントも何とか撃破。
+[k]
+
+[charaFace G 1]
+＠ジキル
+そしてちょうど今、地下のアングルボダから[r]聖杯を取り外すことに成功したそうだ。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFadein G 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠フラン
+……ゥゥ……。
+[k]
+
+[charaFace G 0]
+＠ジキル
+あれ、君だけ？[r]隣の部屋のアンデルセンとシェイクスピアは[line 3]
+[k]
+
+[charaFace G 4]
+＠ジキル
+ああ、そうか。それはそうだね。[r]聖杯の回収。特異点の修正。それなら、うん。
+[k]
+
+＠ジキル
+時代は正しく修正される。[r]今までの異常事態も出来事も何もかも、消える。
+[k]
+
+[charaFace G 0]
+＠ジキル
+すべてのサーヴァントたちは消えて、[r]僕たちの記憶だって修正されてしまうんだろうね。
+[k]
+
+[charaFace F 4]
+＠フラン
+……ゥ、ゥ……ァ……。
+[k]
+
+＠ジキル
+ああ……うん。そうか。[r]今だけは何となく、僕にも君の言葉がわかる気がする。
+[k]
+
+＠フラン
+……ゥゥ……。
+[k]
+
+[charaFace G 4]
+＠ジキル
+……ああ。そうだね。[r]少し、寂しいな。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[wt 1]
+[scene 20201 0]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 0.5]
+[wait fade]
+＠モードレッド
+ま、何だ[line 3]
+[k]
+
+＠モードレッド
+お疲れさん。[r]おまえたちのお陰であれこれ助かったぜ。
+[k]
+
+＠モードレッド
+ロンディニウムは救われた。[r]オレ以外の誰かに蹂躙されることはなかった。
+[k]
+
+[charaFace E 1]
+＠モードレッド
+めでたし、めでたしだ。[r]じゃあな。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 11]
+[charaFadein A 0.1 2]
+＠マシュ
+……その、モードレッドさん。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+ん？
+[k]
+
+[charaFace A 7]
+＠マシュ
+ひとつだけ……伝えておきます。[r]先刻のサーヴァントは、明らかな暴走状態でした。
+[k]
+
+＠マシュ
+マキリ・ゾォルケンの最後の詠唱と、[r]魔霧による現界という特殊性のためでしょう。
+[k]
+
+[charaFace A 14]
+＠マシュ
+何らかの意図を持っていた、とか、[r]そのために現界したということは……ないと思います。
+[k]
+
+[charaFace E 3]
+＠モードレッド
+……なんだそれ。[r]おまえ、もしかしてオレのこと慰めるつもりか？
+[k]
+
+[charaFace E 5]
+＠モードレッド
+やめておけ。[r]別れの間際に殺し合いはしたくない。
+[k]
+
+[charaFace A 11]
+＠マシュ
+いいえ、違います。わたしは……そういう……[r]ことでは……なく……
+[k]
+
+？1：言いたいことを言ったんだよ
+
+？！
+
+[charaFace E 1]
+＠モードレッド
+……はは、そうか！[r]なるほどな。オレがさんざん言ったことだった！
+[k]
+
+＠モードレッド
+はは、確かにそうだ。[r]こいつは痛いところを突かれたな。
+[k]
+
+[charaFace E 3]
+＠モードレッド
+じゃあ特別に殺し合いはナシだ。[r]くそ、フランに変なこと言うんじゃなかった。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠シェイクスピア
+おや。叛逆の騎士ともあろう者が甘すぎるのでは？
+[k]
+
+[charaFace C 1]
+＠シェイクスピア
+相手が誰であれ、情けを向ければ斬り殺すのが[r]貴方のキャラクター性だと捉えておりましたが？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+違う。そいつはある種の相手に[#絆:ほだ]されやすいだけだ。[r]フランを見ればわかるだろう。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+……ぜんぶ終わってからノコノコやってきやがって。[r]いいぜ、そこに並べ。そろって首を落としてやるよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠坂田金時
+あん？　更なるピンチと駆けつけてみれば、[r]妙な面子になってるじゃねえか。
+[k]
+
+[charaFace D 0]
+＠坂田金時
+そこの二人、サーヴァントか？[r]俺の助けは必要か？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFadein D 0.1 0]
+[wt 0.1]
+[charaSet F 5003001 1 玉藻の前]
+[charaFace F 4]
+[charaFadein F 0.4 2]
+＠玉藻の前
+はあ、はあ……もうっ、お待ちください金時さん。[r]少々走るのが速いんじゃな[line 3]ゲ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠アンデルセン
+むっ。[r]どこかで見たような、見ないような狐耳……
+[k]
+
+＠アンデルセン
+セイバー。シェイクスピアを仕留めるのはいいが、[r]その前に俺の話を聞け。
+[k]
+
+＠アンデルセン
+倒す順番でいうのならあの狐耳が先だ。[r]なんだか知らんが色々と面倒な女と見た！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+仕留めるのはテメエも一緒だよっ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFace H 5]
+[charaFadein F 0.1 2]
+[charaFadein H 0.1 0]
+＠玉藻の前
+あいかわらず[#私:わたくし]にだけ[r]当たりのきついマセガキですねぇ!?
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 1]
+＠Dr.ロマン
+ははは。なんだか騒がしくなったね。[r]事件も解決したし、大団円には相応しいけど。
+[k]
+
+？1：うん、みんな仲良く
+
+？2：ドクター、聖杯を回収しないと
+
+？！
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……と、そうだった。[r]聖杯の回収を済ませないと。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+もうこの時代に脅威はないからつい気が……[r]待った、なんだこの反応……!?
+[k]
+
+[se ad31]
+[wt 1.5]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 2 5]
+＠Dr.ロマン
+みんな気をつけて！[r]地下空間の一部が歪んでいる……！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+[#何か]がそこへ出現するぞ！[r]サーヴァントの現界とも異なる不明の現象だ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+不明？　いや、これはむしろレイシフトに似てるか？[r]そんなはずはないぞ、カルデア以外にこの技術は……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+え……先輩、ヘンです。[r]何も異常はないのに、寒気が[line 3]凄くて[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 2 2]
+＠Dr.ロマン
+……空間が開く！　来るぞ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[seStop ad31 0.4]
+[wait fade]
+[soundStopAll]
+[end]

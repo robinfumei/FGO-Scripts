@@ -1,0 +1,668 @@
+＄01-00-04-07-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 11000 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+＠ジキル
+……なるほど。[r]そんなことになっていたのか。
+[k]
+
+[charaFace G 0]
+＠ジキル
+ともかくお疲れさま。よく戻ってくれた。[r]まずは休息を取って欲しい。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFadein G 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠モードレッド
+あー……[r]生き返る……はぁー……
+[k]
+
+[charaFace G 3]
+＠ジキル
+また僕の個人用ソファを占拠して……[r]まあ……うん。昨夜といい、君は頑張ってくれたしね。
+[k]
+
+？1：ぐったり
+
+？2：へろへろ
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、無理せず休んで下さい。[r]今後は先輩のバイタル管理にも気を付けますね。
+[k]
+
+＠Dr.ロマン
+あれ、それボクの仕事なんだけど……？
+[k]
+
+＠Dr.ロマン
+う、うん。そうだね、[r]身近にいる人間の看護の方が嬉しいよね……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠ジキル
+しかし、そうか。ヘルタースケルターは量産が[r]効かないものかと思っていたけど、こんな事態とは。
+[k]
+
+＠ジキル
+恐らくは「魔霧計画」の主導者三名の一人、[r]魔術師「Ｐ」ことパラケルススを倒したためだろう。
+[k]
+
+＠ジキル
+敵は君たちを脅威であると認識し、[r]現界した英霊を確実に手にするべく戦力を増強した。
+[k]
+
+[charaFace G 4]
+＠ジキル
+そう、考えるべきだろうね。でも、[r]彼らは一体どんな英霊を求めているんだろうか……
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFadein G 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠モードレッド
+知らん。考えるのはおまえの仕事だ。[r]オレは……疲れた。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+……そうだ。考えるって言えばそれしか能の無い[r]ゴクツブシがいるじゃねえか。それも二人も。
+[k]
+
+＠モードレッド
+ジキル、アイツら何をやってるんだ？[r]となりの書斎にいるんだろ？
+[k]
+
+[se ad45]
+[wait se ad45]
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+呼んだか？
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠シェイクスピア
+お呼びですかな！？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠モードレッド
+…………はあ。すげえ後悔した。オレともあろうものが、[r]テメエの手でアークを開けちまったぜ
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+アーク？　アークとはあの[#聖柩:アーク]の事ですかな？[r]ははは、これは手厳しい、これは大げさな！
+[k]
+
+＠シェイクスピア
+吾輩、確かにひとたび口を開けば荘厳麗句が尽きぬ[r]びっくり箱を自負しておりますが、
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+彼の災厄の箱には及びません！[r]というか、そもそも無いでしょう、そんな箱。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 0]
+＠アンデルセン
+ああ、ないな。あってたまるか。[r]なにしろ用途があり得ない。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+開けたら世界が終わる系の逸話ほど興醒めのものはない。[r]死にたければ独りで死ねという話だよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+……………あの、先輩。
+[k]
+
+？1：……アークの事は黙っていよう。
+
+[charaFace A 4]
+＠マシュ
+……ですね。[r]二人ともああ言ってますが、どう見ても大好物です。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ここは黙っている事が得策だと判断します。
+[k]
+
+？2：いや、あるよアーク。知ってる。
+
+[charaFadeout A 0.1]
+[charaTalk off]
+[charaFace D 2]
+[charaFace H 5]
+[charaFadein D 0.1 0]
+[charaFadein H 0.1 2]
+＠アンデルセン＆シェイクスピア
+マジで!?
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[charaTalk on]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠シェイクスピア
+む。おっと失礼、アンデルセン君につられて、[r]つい声を荒立たせてしまいました。
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+それはそれとして、[%1]殿。[r]今の話、吾輩たいへん興味がありますな！
+[k]
+
+＠シェイクスピア
+さあ、いつどこでアークを見たのです！[r]そして何処の誰が、どのような理由で開いたのか！
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+具体的にいうと、どれほど滑稽で哀しい、[r]そして喜劇あふれるバッドエンドを迎えたのですかな!?
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFadein D 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アンデルセン
+…………ふむ（←冷静に聞き耳をたてている）
+[k]
+
+＠アンデルセン
+…………ふむ（←無言で紅茶の準備を始めている）
+[k]
+
+＠アンデルセン
+…………ふむ（←スコーンにジャムを塗っている）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+……バカが、猫の尻尾を踏みやがって。[r]オレは知らないからな。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+[%1]、マシュ。[r]そいつらが満足するまで書斎で話してこい。
+[k]
+
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout leftToRight 0.7 1]
+[wait wipe]
+[wt 0.5]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0 1]
+[wipein leftToRight 0.7 1]
+[wait wipe]
+＠マシュ
+げっそり……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFadein A 0.1 2]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+＠ジキル
+お疲れさま。[r]まあ、休憩になったと思えばいいんじゃないか？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠モードレッド
+ハ。ガチョウの池の前で昼寝ができるかよ。[r]見ろ、[%1]の顔。すっかり毒気が抜かれてる。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+そうだ、言い忘れていた。[r]俺たちが何をしているか、だったな。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+あの演劇作家はひたすらこの事件をかき上げているが、[r]俺は違う。仕事なんざ極力したくないからな。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+だが気になる事はある。[%1]から聞いた[r]これまでの経緯……七つの特異点というヤツだ。
+[k]
+
+＠アンデルセン
+……いや、正しくは聖杯戦争、という[r]魔術儀式に引っかかるものがあるというか……
+[k]
+
+[charaFace H 4]
+＠アンデルセン
+……判断するには資料が足りない。[r]正直に言って、行き詰まりかけている。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+……ふーん。キャスターらしい事もするじゃないか。[r]ま、役立たずなのは変わらないが。
+[k]
+
+＠Dr.ロマン
+あー、すまない。そろそろ話を戻していいかな？[r]現状の確認と、今後の方針について。
+[k]
+
+＠Dr.ロマン
+幸運なのは、敵の認識が魔霧に注がれている点だね。[r]こちらを殲滅するつもりなら建物も破壊して回るはずだ。
+[k]
+
+＠Dr.ロマン
+そうしないということは、[r]魔霧の及ぶ街路しか敵は認識していない。
+[k]
+
+＠Dr.ロマン
+きっと、そこに付けこむ隙が[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジキル
+……あるかい？
+[k]
+
+＠Dr.ロマン
+あるといいなあ。[r]ううん……あるかな……あるといいな……いいなぁ……
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+面倒だから何とかしろ。流石に、[r]今までみたいに外での長時間活動は無理がある。
+[k]
+
+＠モードレッド
+無闇にうろうろしても、[r]戦闘の度にこっちの魔力が減っていくだけだ。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+ヘルタースケルターさえ無力化できれば、[r]まあ、どうってことないが……
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジキル
+手段がないね。[r]困ったな、手詰まりになりそうだ。
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 4]
+＠フラン
+……ゥ……。[r]……ゥ、ゥ……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[wt 0.5]
+＠アンデルセン
+よし、ではこういうのはどうだ。
+[k]
+
+＠アンデルセン
+ヘルタースケルターの大量発生中ではあるが、[r]俺の考察を裏付けるための資料を集めるというのは。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+ようはお使いだな。[r]体力のあるおまえたちにはもってこいの仕事じゃないか？
+[k]
+
+＠Dr.ロマン
+あれだけ大量のヘルタースケルターの間をぬって[r]屋外活動するのは、大変そうだけど……。
+[k]
+
+？1：やってみよう
+
+？2：アンデルセンたちに協力しよう
+
+？！
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、先輩。[r]目下の事態への対応ではありませんが[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+このアパルトメントに籠もっていたとしても[r]事態は好転しないものと思われます。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+＠Dr.ロマン
+まあ、できることがあるなら[r]手を付けてみるというのも建設的ではあるね。
+[k]
+
+＠Dr.ロマン
+でも、資料を集めると言っても[r]どこに行ったものかなぁ。
+[k]
+
+＠フォウ
+キュ、フォーウ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+おいおい、ここはロンドンだぞ？[r]であれば自ずと行き先は決まっている。
+[k]
+
+？1：決まっている？
+
+＠Dr.ロマン
+うーん、なんだろう。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジキル
+魔術協会[line 3]通称「時計塔」の事かな。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+？2：魔術協会、かな？
+
+[charaFace H 1]
+＠アンデルセン
+その通り。西暦以後、魔術師たちにとって[r]中心とも言える巨大学院[line 3]魔術協会、時計塔だ。
+[k]
+
+？！
+
+＠Dr.ロマン
+あ！！！
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+そうだ。世界に於ける神秘を解き明かす巨大学府が[r]このロンドンには存在している。活用しない手があるか？
+[k]
+
+＠Dr.ロマン
+確かにそうだね……[r]で、でも、ロンドンはこの有様だし、どうだろう。
+[k]
+
+＠Dr.ロマン
+魔術協会[line 3]時計塔が健在であるとするなら、[r]当然、ジキル氏が連絡を取り合ってると思ってたんだけど。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。そして、ジキルさんから[r]時計塔の話が出たことはありません。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジキル
+……話す必要がなかったからね。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFadein G 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠モードレッド
+魔術協会ってのは、あれだろ。リージェントパークから[r]ウェストミンスターにかけての地下にあるとかいう？
+[k]
+
+＠モードレッド
+オレが現界して、[#ジキル:こいつ]と会ってすぐに[r]始めたのがそこの確認だ。
+[k]
+
+＠モードレッド
+大英博物館だっけか。[r]そこに入口があるって話だから、行ってみたけどな。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+入口なんざすっかり塞がってたぜ。[r]瓦礫の廃墟だ。
+[k]
+
+[charaFace G 5]
+＠ジキル
+そう、珍しいことに[#建物が破壊されていた]。[r]完膚なきまでにね。
+[k]
+
+＠ジキル
+今にして思えば、「魔霧計画」の首謀者たちによって[r]反抗の可能性を叩き潰されたのかも知れないな[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+破壊されていようが構わん。[r]瓦礫でもな。
+[k]
+
+＠アンデルセン
+魔術師たちが生きているならそれに超したことはないが、[r]別段、俺の目的にはさしたる影響もない。
+[k]
+
+[charaFace H 2]
+＠アンデルセン
+必要なのは記録だ。資料だ。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+重要な資料庫の類なら相当に頑丈な封印なりで[r]守られているのはまず確実だ。そこまで俺を連れて行け。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+キュー……。[r]フォウ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠シェイクスピア
+でしたら吾輩も同行いたしましょう。[r]神秘の学府の跡地となれば、閃きの源泉にもなるはず！
+[k]
+
+＠Dr.ロマン
+結構な大人数での行動になりそうだね。[r]……いや、待てよ？
+[k]
+
+＠Dr.ロマン
+ヘルタースケルターと遭遇するなら、[r]戦力は多いほうがいいか。うん。確かにそうだ。
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 4]
+＠フラン
+……ゥ……。[r]……ゥ……？？
+[k]
+
+？1：フランはここにいたほうがいい
+
+？2：危ないから、フランには留守番を
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。現在のロンドンは特に危険な状況になっています。[r]フランさんはここにいて下さいね。
+[k]
+
+＠フラン
+……ゥ、ウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+では、出発だ。[r]かつての華やかなりし神秘の学府を尋ねるとしよう。
+[k]
+
+＠アンデルセン
+ああ、それとセイバー。[r]よくよく俺たちひ弱なキャスターを守るように。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFadein H 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠モードレッド
+あ？　守る、だ？[r]そういうのはそこの盾ヤロウに言っとけ。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[charaTalk E]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+あっ、え、ええと[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ジキル
+よし、僕も行くからね！[r]出発だ！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFadein G 0.1 0]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠モードレッド
+は？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+えっ？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

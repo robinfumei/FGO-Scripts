@@ -1,0 +1,109 @@
+
+＄94-00-23-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4004001 1 アストルフォ]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 2018001 1 子ギル]
+
+[scene 20110]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.4 1]
+＠子ギル
+あいたたた……。[r]子供相手に大人げないなあ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠アストルフォ
+なーにが子供さ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠天草四郎
+くっ……聖職者相手に大人げないですね……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠アストルフォ
+どーこーがー聖職者さ！[r]じゃ、[charaFace D 0]聖杯はマスターのものということで！
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaFadeout D 0.1]
+
+[messageOff]
+[seLoop ad14]
+[shake 0.05 0 3 2.25]
+[wt 2.0]
+[seStop ad14 0.25]
+[wt 0.5]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+＠子ギル
+あれ？
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace E 4]
+＠天草四郎
+……しまった。[r]時間を掛けすぎたようです。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+時間……ですか？[r]一体何が……。
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+[%1][&君:ちゃん]、緊急だ！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+先ほどの疑似聖杯がシャドウサーヴァントを[r]勝手に召喚してしまったらしい！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+色々と未知数だ。[r]心して掛かってくれ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]

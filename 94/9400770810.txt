@@ -1,0 +1,529 @@
+
+
+＄94-00-77-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+
+[charaSet A 1010001 1 エリザベート]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 7022001 1 茨木童子]
+[charaSet E 5012001 1 ニトクリス]
+[charaSet F 98003003 1 Dr.ロマン]
+
+
+[scene 31800]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+
+＠エリザベート
+……戻ってきちゃった……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+夜空に浮かび上がった巨大なジークフリートさんは[r]ともかくとしてですね……。
+[k]
+
+＠マシュ
+エリザベートさんが理解していないことって、[r]一体何でしょうか……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠茨木童子
+緑の人。[r]貴様、何か知っておるな？
+[k]
+
+[charaTalk D]
+
+＠ロビンフッド
+あん？
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠茨木童子
+[#呵々:かか]、惚けるでない。
+[k]
+
+＠茨木童子
+先ほど、お主だけが戸惑わず、[r]“これはしたり”という顔をしていたであろう。
+[k]
+
+[charaFace C 4]
+
+＠ロビンフッド
+ああ……まあ、多分な。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 0]
+
+＠エリザベート
+何！[r]何なの、[#私:アタシ]が理解してないことって！
+[k]
+
+[charaFace C 0]
+
+＠ロビンフッド
+……オタクさ、街の様子見て気付かなかったか？
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+
+＠エリザベート
+街……？[r]んー……ああ、そう言えば。
+[k]
+
+＠エリザベート
+ハロウィンの支度してなかったわね。[r]みんな家に閉じこもってたわ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+あれは、女王という方がハロウィンを[r]禁止していたせいでは？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+[charaFace A 7]
+[charaFadein A 0.1 0]
+
+＠ロビンフッド
+いいや、違う。
+[k]
+
+＠ロビンフッド
+ハロウィンの準備をしていなかったのは、[r]女王が来る前からずっとだ。
+[k]
+
+＠エリザベート
+……え？
+[k]
+
+[charaFace C 4]
+
+＠ロビンフッド
+というか、アレだ。
+[k]
+
+[charaFace C 5]
+
+＠ロビンフッド
+ハロウィンに浮かれて、[r]執政を何にもしてなかっただろオタク！
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.3]
+
+[bgm BGM_EVENT_7 0.3]
+
+[charaFace A 4]
+
+＠エリザベート
+……あ。
+[k]
+
+[charaFace C 2]
+
+＠ロビンフッド
+あ、じゃねえですよー！
+[k]
+
+＠ロビンフッド
+オタクがなーんにもしないから、[r]街の連中は祭りの準備をしていいのか分からねえし！
+[k]
+
+＠ロビンフッド
+兵士たちは準備を進めるべきか、[r]止めるべきかで大混乱だったっつーの！
+[k]
+
+＠ロビンフッド
+ハロウィン気分で浮かれ騒いでたのはな、[r]オタク一人だけだったってことですよ！
+[k]
+
+[charaShake A 0.05 2 2 0.5]
+
+＠エリザベート
+あわ、あわわ、あわわわわ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+
+
+＠ニトクリス
+こ、これはひどい……。
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+
+＠エリザベート
+……それ、だわ……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠茨木童子
+[#汝:なれ][line 3]祭りの準備もさせずに、[r]一人で浮かれていたのか？
+[k]
+
+[charaFace D 4]
+
+＠茨木童子
+呆れたな。[r]配下の面倒を見ずして何が頭領か。
+[k]
+
+＠茨木童子
+頭領はまず手下どもの食い扶持を確保するもの。[r]自らのハラを満たすのはその後よ。[charaChange D 98105300 0 normal 0][wait charaMove D][charaFace D 0][se ad182][seVolume ad182 0 0.4]（ぼりぼり）[wt 0.2][se ad182]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+
+＠エリザベート
+だ、だってライブの準備で忙しかったし……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+
+[charaFace A 3]
+[charaFadein A 0.1 0]
+
+＠マシュ
+……これはさすがに弁解の余地がありませんね……。
+[k]
+
+[charaFace A 7]
+
+＠エリザベート
+う……ど、どうしよう[&子イヌ:子ジカ]！？[r]おじ様、滅茶苦茶怒ってたわ！
+[k]
+
+？1：もう一度怒られに行こう
+
+＠エリザベート
+うぅぅぅぅ……。
+[k]
+
+＠マシュ
+エリザベートさん、気持ちは分かりますが……。
+[k]
+
+＠マシュ
+そもそも、女王に会うためには[r]あの門へもう一度向かわなくてはなりません。
+[k]
+
+[charaTalk A]
+
+＠エリザベート
+でも、おじ様に怒られる……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠ニトクリス
+怒られるのは仕方ありません。[r]ですが、詫びる方法はあります。
+[k]
+
+[charaFace E 9]
+
+＠ニトクリス
+祭りを改めてやり遂げるのです。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+
+[charaFace A 7]
+[charaFadein A 0.1 0]
+
+
+？2：ハロウィンを盛り上げよう
+
+[charaTalk A]
+
+＠エリザベート
+盛り上げる……でも、どうやって？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ロビンフッド
+……そりゃ、街の人間にハロウィンの開催を[r]宣言すりゃいいだけっしょ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+
+[charaFace A 7]
+[charaFadein A 0.1 0]
+
+
+？！
+
+＠マシュ
+そうです、エリザベートさん！[r]ハロウィンをきちんと開催しましょう！
+[k]
+
+[charaTalk A]
+[charaFace A 5]
+
+＠エリザベート
+そ、そうよね！[r]で[charaFace A 7]も、どうやって……？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠ロビンフッド
+カボチャを配って、お菓子を撒き散らして、[r]ガキンチョたちに、仮装の準備をさせて。
+[k]
+
+＠ロビンフッド
+後は、それにつられて彷徨う幽霊たちを[r]退治して廻ればいいんじゃねえの？
+[k]
+
+[charaTalk A]
+[charaFace A 5]
+
+＠エリザベート
+……わ、分かったわ！
+[k]
+
+[charaSet D 7022001 1 茨木童子]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+＠茨木童子
+ふむ、ならば[#汝:なれ]、宣言せよ。
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+
+＠エリザベート
+ほえ？
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠茨木童子
+ここで菓子溢れる約束の祭り[line 3][r]その宣言をせよと言っているのだ。
+[k]
+
+＠茨木童子
+頭領たる者、大喝の一つくらいはできよう。[r]というか、貴様の叫び声であれば容易かろう。
+[k]
+
+[charaTalk A]
+[charaFace A 5]
+
+＠エリザベート
+……そうね。分かったわ。[r]マイクに口パクとか[#私:アタシ]のプライドが許さないし。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.3]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+
+
+＠エリザベート
+……いくわよ。
+[k]
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.3]
+
+[bgm BGM_EVENT_4 0.1]
+
+[effect bit_talk_41]
+[charaFace A 2]
+
+＠エリザベート
+我が名はチェイテ城の主、[r]エリザベート・バートリー！！
+[k]
+
+＠エリザベート
+遅くなってごめんなさ[line 3]い！！
+[k]
+
+＠エリザベート
+今、此処に！！[r]ハロウィンの開催を[line 3]宣言するわ！！！
+[k]
+
+[charaFadeout A 0.1]
+
+[messageOff]
+
+[effectStop bit_talk_41]
+
+[wt 0.5]
+
+[bgmStop BGM_EVENT_4 0.3]
+[wt 0.3]
+
+
+
+[backEffect bit_talk_helloween01 1]
+[se ad21]
+
+[wt 2.0]
+
+[wt 0.1]
+
+
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+気をつけるんだ！[r]エリザベートの宣言と共に、亡者が噴出した！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠茨木童子
+[#呵々:かか]！！[r]予想通り、お前の言葉で亡者どもが喚き出したぞ！
+[k]
+
+＠茨木童子
+ここからがハロウィンとやらの開催よ！[r]さあ、マスター！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠ニトクリス
+[#カボチャ頭:パンプキンヘッド]がどんどん出てきますよ。[r]片っ端から潰さなければ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+マスター！[r]頑張るわよ、[#私:アタシ]！
+[k]
+
+＠エリザベート
+今度こそ、ちゃんとハロウィンしてみせるわ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

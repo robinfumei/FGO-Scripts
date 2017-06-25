@@ -1,0 +1,197 @@
+＄01-00-06-22-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 1020000 1 ランスロット]
+[charaSet C 5012001 1 ニトクリス]
+
+[scene 28801]
+
+[backEffect bit_talk_haboob_02]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠三蔵
+だめでした[line 6]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 4]
+[charaFace F 5]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠俵藤太
+お主が妙な言葉を吐くからだ！[r]いや、それにしてもあの男は堅すぎる……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[se ad137]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+っ……この、程度……！[r]アーラシュ殿の無念に比べれば……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、撤退を！[r]心の底から無念ですが、これ以上の戦闘は困難です……！
+[k]
+
+？1：そこまで悔しい[&のか:の]……！？
+
+[charaFace A 8]
+＠マシュ
+……いえ、つい……わたしも、こんなに負けたくないと[r]感じたのは初めてのコトなので……
+[k]
+
+？2：完全に包囲されてる……！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+諦めよ。ここはオジマンディアスの砂漠。[r]諸君らを助ける山の民はいない。
+[k]
+
+[charaFace H 5]
+＠ランスロット
+砂漠に逃げたのが[#仇:あだ]となったな。[r]話は道すがら、ゆっくり[line 3]
+[k]
+
+
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se bas1]
+
+[charaEffect G bit_talk_41]
+[shake 0.05 0 4 1.0]
+
+＠C：？？？
+何をやっているのです、この不埒者ども！[r]ここが太陽王ご執心の地と知っての[#狼藉:ろうぜき]ですか！
+[k]
+
+[se ba1]
+[messageOff]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+
+[charaEffectStop G bit_talk_41]
+
+[charaScale C 2.2]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0 0,800]
+[charaFadeTime C 0 0.5]
+
+[wipein upToDown 0.5 1]
+[wait wipe]
+
+
+[bgm BGM_EVENT_3 0.1]
+[wt 1.0]
+
+[se ba1]
+[messageOff]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+
+[scene 28300]
+[charaPut C 0,400 0]
+
+
+[wipein upToDown 0.5 1]
+[wait wipe]
+[wt 1.0]
+
+
+[se ba1]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+
+[scene 20320]
+[charaPut C 0,100 0]
+
+[wipein upToDown 0.3 1]
+[wait wipe]
+
+
+[se bac24]
+[charaPut G 1]
+[charaEffect G bit_talk_41]
+[wt 2.0]
+
+
+[charaPut G 1200,1200]
+[scene 28801 0.5]
+[charaFadeout C 0.5]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.5 1]
+
+[wait scene]
+[charaEffectStop G bit_talk_41]
+
+[charaShake H 0.05 3 3 0.5]
+＠ランスロット
+な[line 3]
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+[charaShake A 0.05 3 3 0.5]
+＠マシュ
+なんですか[line 5]！？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_3 2.0]
+[wait fade]
+[backEffectStop]
+[soundStopAll]
+[end]
+
+

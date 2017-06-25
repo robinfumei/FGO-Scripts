@@ -1,0 +1,279 @@
+
+＄94-00-56-05-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98002000 1 フォウ]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 5027000 1 マリー]
+[charaSet D 9004000 1 マルタ]
+[charaSet E 6024000 1 スカサハ]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101600 1 魔猪]
+
+[effect bit_talk_gagemist_Purple]
+
+[scene 30500]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠フォウ
+フォウッ！？　フォ、ウェー……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠マシュ
+くっ、これは……！？[r]さっきの場所とは比較にならないほどの毒気です！
+[k]
+
+＠マシュ
+完全に、一帯が毒の沼地と化しています……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠マリー
+ひどいわ。ヴェルサイユ宮殿の毒気も相当に[r]ひどかったけれど、これはそれ以上のひどさだわ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠マルタ
+ここまで毒素を溜め込むなんて……！[r]なんなの、聖女舐めてんの！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[se ad36]
+[se ad53]
+[seStop ad53 1.4]
+[wt 0.8]
+[wt 0.7]
+[se ad36]
+[se ad53]
+[seStop ad53 1.4]
+[wt 0.8]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+[line 3]音がするな。[r]警戒せよ。何かがおるようだぞ。
+[k]
+
+？1：うん、びちゃんばちゃんと凄い音が
+？2：嫌な予感がする……
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+あっ。見てくださいマスター。
+[k]
+
+[charaFace B 12]
+＠マシュ
+毒沼のど真ん中で、何かが転げ回っているのが[r]見えます。瘴気にやられた動物でしょうか……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠マリー
+違うわ。あれは……。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 -64,0]
+[wt 1.0]
+
+[se ad36]
+[se ad53]
+[seStop ad53 1.4]
+[charaMove G 64,0 0.8]
+[wt 0.8]
+[shake 0.05 0 3 0.4]
+[wt 0.7]
+
+[se ad36]
+[se ad53]
+[seStop ad53 1.4]
+[charaMove G -64,0 0.8]
+[wt 0.8]
+[shake 0.05 0 3 0.4]
+[wt 0.7]
+[wt 0.4]
+
+[se ad104]
+[seStop ad104 0.7]
+[charaShake G 0.05 3 0 0.5]
+[wt 1.5]
+
+[charaFadeout G 0.1]
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠うりぼう
+ぴぎっ！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠マリー
+魔猪！　やっぱりまだいたのね！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+あれは泥浴だな。体表についた汚れや寄生虫を[r]落とすために猪が行うものだ。
+[k]
+
+＠スカサハ
+それを行う場所を[#沼田場:ぬたば]という。その様子が[r]『のたうちまわる』の語源と言われておるな、極東では。
+[k]
+
+？1：く、詳しい……！
+？2：教えて！！　スカサハ先生！
+？！
+
+[charaFace E 5]
+＠スカサハ
+毒沼を[#沼田場:ぬたば]とするとは[line 3]いや、逆か。[r][#奴が転げ回るから毒沼が生まれておる]、のだろうな。
+[k]
+
+＠スカサハ
+先程の水たまりレベルの毒地は、何かのついでで[r]たまたま生じた程度のもの。
+[k]
+
+＠スカサハ
+こちらは本格的だ。何度も浸かりに来る、[r]お気に入りの風呂場、といったところか。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+＠マルタ
+何にしても[line 3][r]毒は奴らの身体から出ているってことね。
+[k]
+
+[charaFace B 15]
+＠マシュ
+ではやはり、うりぼうさんたちが教えてくれた、[r]毒の土地の元凶は[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.4]
+
+[se ad23]
+[seStop ad23 1.0]
+[effect bit_talk_41]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠魔猪
+グルッ……グルッフッ！
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.3]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+気付かれました！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+ふむ、身体から毒を出す魔猪よ。
+[k]
+
+＠スカサハ
+貴様がそれで餌を獲るなり、[r]何だりするぶんには何も言わぬがな。
+[k]
+
+[charaFace E 5]
+＠スカサハ
+島の土を荒らし、腐らせるのは看過できぬ。[r]それは我々の生活にも仇なす所業である故だ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.4]
+
+[se ad23]
+[effect bit_talk_41]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠魔猪
+グルル、グルフフ！
+[k]
+
+[messageOff]
+[cameraMove 0.5 0,0 1.75]
+[wipeout circleIn 0.5 1]
+[wait wipe]
+
+
+
+[messageOff]
+[effectStop bit_talk_41]
+[effectStop bit_talk_gagemist_Purple]
+[fadeout black 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[cameraMove 0.1 0,0 1.0]
+[wipein circleOut 0.1 1]
+[wait wipe]
+[soundStopAll]
+[end]

@@ -1,0 +1,228 @@
+
+
+
+＄01-00-07-18-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98107400 1 牛若丸]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 98107800 1 ラフム]
+[charaSet F 98107800 1 ラフム]
+[charaSet G 98107800 1 ラフム]
+
+[scene 35000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+[wt 0.4]
+[charaEffect A bit_talk_13]
+[wt 0.1]
+[se bac10]
+[charaShake A 0.05 5 5 0.4]
+[wt 1.0]
+＠牛若丸
+ふん……達者なのは口だけではなかったか。
+[k]
+
+[charaFace A 1]
+＠牛若丸
+だが、どのみち貴様らに勝ちの目はない。[r]たった今、聖杯は母上の元に届けられた。
+[k]
+
+？1：……止められなかった……！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠マシュ
+っ……はい。牛若丸を突破できなかった、[r]わたしたちの責任です……！
+[k]
+
+[charaFadeout B 0.1]
+
+？2：牛若丸、なんでこんな事を……！
+
+[charaFace A 0]
+＠牛若丸
+……なぜ？[r]さて。私にも分かりませぬ。
+[k]
+
+[charaFace A 4]
+＠牛若丸
+『かつての私』は泥の海で死に絶えた。[r]ここに在るのは理性を[#剥:は]ぎ、本能のみとなった亡者の[#類:たぐい]。
+[k]
+
+＠牛若丸
+私はもともと素質があったのです、[r][%1]殿。
+[k]
+
+[charaFace A 1]
+＠牛若丸
+このように人の世を恨み、殺したくてたまらないと願う、[r]人でなしの暗い[#淀:よど]みが。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？！
+
+[messageOff]
+[wt 0.7]
+[se bac112]
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.4 0,-64]
+[charaMove E 0,0 0.4]
+[wt 0.2]
+[se bac112]
+[charaFace F 0]
+[charaFadein F 0.4 -320,-64]
+[charaMove F -320,0 0.4]
+[wt 0.2]
+[se bac112]
+[charaFace G 0]
+[charaFadein G 0.4 320,-64]
+[charaMove G 320,0 0.4]
+[wt 1.0]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠マシュ
+ラフム、再び大量に出現……！[r]こんな……こんな数、もう今のウルクでは耐えられません！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠牛若丸
+……始まったか。こうしてはおられぬ。[r]獲物が減っては我が刀の行き場がない。
+[k]
+
+＠牛若丸
+さて、亀のように籠城したウルクを落とすか、[r]北壁に落ち延びようとする難民たちで遊ぶか。
+[k]
+
+[charaFace A 0]
+＠牛若丸
+どちらにせよ、この体は廃棄する。[r]傷を負った個体に執着はない。
+[k]
+
+＠牛若丸
+さらばだ、カルデアの残党。[r]私を討ち取った事は称賛しよう。
+[k]
+
+[charaFace A 4]
+＠牛若丸
+……もっとも、意味の無い勝利ですが。[r]『今の私』には、死という[#敗北:おわり]は無くなったので。
+[k]
+
+[messageOff]
+[se ad161]
+[charaSpecialEffect A enemyErasure 1 1.8]
+[wt 0.4]
+[se ad42]
+[wt 0.5]
+[effect bit_talk_tokeru01]
+[wait effect bit_talk_tokeru01]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+っ……ウルクに戻りましょう、マスター！[r]間に合わなくても、このまま放ってはおけません！
+[k]
+
+？1：いや。いったん観測所に行こう
+？2：こういう時はまず落ち着こう、マシュ
+
+？！
+
+[bgmStop BGM_EVENT_3 1.0]
+[se ad7]
+[charaShake B 0.05 3 3 0.5]
+
+[charaFace B 3]
+＠マシュ
+そ……それは、そうですがっ！[r]でも手を握られると、落ち着きます！
+[k]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+ええ。その発想、正解よ。[r]私も[%1][&君:さん]に賛成。
+[k]
+
+＠ケツァル・コアトル
+……そして、ごめんなさい。[r]私が[#不甲斐:ふがい]ないばかりに、ラフムを取り逃してしまった。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+いや、ケツァル・コアトルに落ち度はない。[r]あんな妨害が入るなんて、誰にも予測できるもんか。
+[k]
+
+＠Dr.ロマン
+それより、今は[%1]君の言うとおり[r]観測所に向かってくれ！
+[k]
+
+＠Dr.ロマン
+緊急事態だが、だからといって闇雲には動けない。[r]まずは状況を把握しよう！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+それに、たとえ数分であろうと休憩は大切だしね。
+[k]
+
+＠Dr.ロマン
+ここまでずっと戦い続きなんだ。[r]せめて屋根のあるところで二人を休ませてあげてほしい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+ハイ、それはもちろん！　ドクターの気遣いも正解ネ！[r]まずはゴハンにしましょう、ゴハン！
+[k]
+
+＠ケツァル・コアトル
+日本のマイクパフォーマンス曰く、[r]腹が減ってはなんとやらデース！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[soundStopAll]
+[end]

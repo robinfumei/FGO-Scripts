@@ -1,0 +1,594 @@
+
+
+＄94-00-77-01-1-0
+[soundStopAll]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 98001000 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+
+
+[bgm BGM_EVENT_7 0.1]
+[scene 10200]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+
+＠Dr.ロマン
+それでは、ブリーフィングを始めよう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.4 1]
+
+＠マシュ
+ドクター、いつになくテンション高いですね？[r]何か良いことでもありました？
+[k]
+
+[bgmStop BGM_EVENT_7 0.3]
+[charaFadeout B 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠Dr.ロマン
+……。[r]……。
+[k]
+
+＠Dr.ロマン
+……それでは、ブリーフィングを始めよう！
+[k]
+
+？1：どしたの、ロマン？
+
+
+＠Dr.ロマン
+いやいや、ボクは普段からこんな感じじゃないかな？[r]は[charaFace A 1]はは、それとも最近徹夜続きだからかな。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ドクター、状況が切迫しているのに[r]お手伝いできなくて、申し訳ありません。
+[k]
+
+[charaFadeout B 0.1]
+
+？2：……怪しい……
+
+[charaFace A 0]
+＠Dr.ロマン
+おやおや、どうしたんだい[%1][&君:ちゃん]、[r]その鋭い眼差しは。
+[k]
+
+[charaFace A 1]
+＠Dr.ロマン
+ははは、疲れているのカナ？[r]でも世界を救うためだから、頑張って欲しいんだ！
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+フォウさんが何やら疑念の眼差しで[r]ドクターを見始めました。
+[k]
+
+[charaFace B 7]
+＠マシュ
+……何か隠していること、ありますか？
+[k]
+
+[charaFace B 12]
+＠マシュ
+というか、なぜ職員さんたちはわたしたちを[r]取り囲んでいるのでしょう！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠Dr.ロマン
+実は……微少な特異点の発生が確認されてね。
+[k]
+
+[charaFace A 5]
+＠Dr.ロマン
+当然ながら放置することもできない。[r]キミたちには調査と、修正作業をお願いしたいんだ。
+[k]
+
+？1：……いつものことだよね？
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+は、はい。[r]わたしも先輩も、状態は万全です。
+[k]
+
+＠マシュ
+特に任務に支障はないと思いますが[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_4 0.1]
+
+？2：隠してることない？
+
+[charaFace A 3]
+＠Dr.ロマン
+……。[r]……。
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace A 5]
+＠Dr.ロマン
+……よし、それじゃコフィンに入ってくれ！[r]レイシフト準備だ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ドクター！？
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠Dr.ロマン
+ブリーフィングは終わったし、[r]早速向かってもらわないとね！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+待って下さいドクター！[r]レイシフト先がどこか、まだ知らされていません！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠Dr.ロマン
+おっと、いけないいけない。[r]こんなところに資料が落ちていた。
+[k]
+
+[charaFace A 5]
+
+＠Dr.ロマン
+えーと、レイシフト先だけど……。[r]これはどう読むんだったっけなー。えーと確かえーと。
+[k]
+
+[bgmStop BGM_EVENT_4 0.7]
+[charaFace A 3]
+＠Dr.ロマン
+[f small]チェイテ城。
+[k]
+
+[charaFace A 1]
+＠Dr.ロマン
+だったかな！[r]よし、分かったね。それじゃ出発だ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_7 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 5 5 0.25]
+
+＠フォウ
+ドフォーウ！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+ドクター！？[r]今、聞き捨てならない城の名前を言いませんでした！？
+[k]
+
+？1：……蘇る……悪夢！
+
+
+[charaFace B 14]
+＠マシュ
+そうです！[r]もうすぐハロウィンでした！
+[k]
+
+[charaFace B 8]
+＠マシュ
+本来なら楽しい筈の催しですが、[r]昨年のデスライブの記憶が鮮明すぎて……！
+[k]
+
+[charaFace B 7]
+＠マシュ
+先輩、危険です！[r]あの音楽は連続摂取すると人格が崩壊します！
+[k]
+
+？2：よし、解散だマシュ！
+
+[charaFace B 2]
+＠マシュ
+はい！
+[k]
+
+[charaFace B 7]
+＠マシュ
+何だか嫌な予感しかしないので、[r]本日は自主的な休暇ということで！
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_7 0.3]
+[charaFadeout B 0.1]
+[wt 0.4]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[bgm BGM_EVENT_3 0.1]
+
+＠Dr.ロマン
+そうはいくか！[r]職員諸君！　スクラムだ！
+[k]
+
+[charaFace A 3]
+＠Dr.ロマン
+世界を救った暁には、[r]キミたちの給与体系の見直しも図られるだろう！
+[k]
+
+[charaFace A 5]
+＠Dr.ロマン
+レオニダスと共に学んだ筋トレの成果を、[r]今こそ発揮するときだ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ひ、卑怯ですよドクター！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+
+＠フォウ
+フォウゥゥ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠Dr.ロマン
+それいくぞー！[r]クラウチ・バインド・セット！
+[k]
+
+[charaFace A 2]
+＠Dr.ロマン
+乗り込ませろ[line 3]！！
+[k]
+
+＠C：カルデア職員ｓ
+[messageShake 0.05 5 5 0.7]
+[f x-large]オ[line 2]！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+[se ad35]
+[wt 0.4]
+
+[charaMove B 128,0 0.5]
+[charaShake B 0.05 5 5 0.5]
+[shake 0.05 2 4 0.5]
+[wait charaMove B]
+[se ad35]
+[wt 0.4]
+[charaMove B 256,0 0.5]
+[charaShake B 0.05 5 5 0.5]
+[shake 0.05 2 4 0.5]
+[wait charaMove B]
+
+
+＠マシュ
+きゃ[line 5]！！
+[k]
+
+[se ad35]
+[wt 0.4]
+[charaMove B 400,0 0.5]
+[charaShake B 0.05 5 5 0.5]
+[shake 0.05 2 4 0.5]
+[wait charaMove B]
+[se ad35]
+[wt 0.4]
+[charaMove B 500,0 0.5]
+[charaShake B 0.05 5 5 0.5]
+[shake 0.05 2 4 0.5]
+[wait charaMove B]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？1：おのれ、化けて出てやるぞー！
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠Dr.ロマン
+いいとも、その暁にはパンプキン料理で[r]おもてなししてあげよう！
+[k]
+
+？2：まさかドクターがラスボスだなんて！
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠Dr.ロマン
+ちょっと！？[r]どさくさ紛れに悪質なデマを流さないでくれるかなあ！？
+[k]
+
+？！
+
+
+[charaFace A 5]
+＠Dr.ロマン
+さあ、ともかく出発だ！
+[k]
+
+[charaFace A 4]
+＠Dr.ロマン
+ええと、その……今年もエリザベートに[r]付き合ってあげてくれ！
+[k]
+
+[charaFace A 1]
+＠Dr.ロマン
+要するに、ライブはちゃんと聴いてあげてね！[r]アイドルはノリが悪いと寂しくて泣いちゃうから！
+[k]
+
+＠Dr.ロマン
+ほら、ボクのサイリウムも分けてあげよう！[r]ではでは、強制レイシフト、スタート！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_3 0.7]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+[wt 1.0]
+[scene 10001]
+
+
+[scene 31800]
+[charaChange B 8001001 8 fade 0]
+[wait charaChange B]
+[charaPut B 1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.4]
+[fadein white 2.0]
+[wait fade]
+
+
+[charaTalk B]
+[charaFadein B 0.4 1]
+
+
+＠マシュ
+……。[r]……。
+[k]
+
+？1：来ちゃったかー……
+
+[charaFace B 12]
+＠マシュ
+はい、レイシフト成功ですね……。[r]フォウさんもついてきてくれたようです。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+？2：気が重い……
+
+[charaFace B 12]
+＠マシュ
+はい……。
+[k]
+
+[charaFace B 8]
+＠マシュ
+まさか、またここにお邪魔するとは[r]思いませんでした……。
+[k]
+
+[charaFace B 0]
+？！
+
+＠マシュ
+ドクターとの通信は……[se ad15]大丈夫のようですね。[r]ドクター、レイシフト成功しました。
+[k]
+
+[charaFace B 7]
+＠マシュ
+後で覚えていてください。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk A]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+忘れてくれると嬉しいかな……。[r]それはともかく、状況はどんな感じだい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ここは……墓場のようですね。
+[k]
+
+＠マシュ
+ドクターへのリベンジは棚上げして、[r]ひとまず先へ進みましょう。
+[k]
+
+[charaFace B 6]
+＠マシュ
+……あれ？
+[k]
+
+[charaFace B 0]
+＠マシュ
+すいません、マスター。
+[k]
+
+＠マシュ
+確か去年ここに来たときは、[r]既にゴーストが森を闊歩していたような。
+[k]
+
+[charaFace B 12]
+＠マシュ
+ここは墓場なのに、ゴーストが見当たりませんね……。[r]どうしたのでしょうか。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 5]
+[bgm BGM_EVENT_3 0.1]
+
+＠Dr.ロマン
+む、何か反応があるぞ。[r]キミたちのすぐ近くだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[messageOff]
+[se bac112]
+[wt 01.0]
+[se bac112]
+[wt 01.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+えーと……虫ですね。
+[k]
+
+＠マシュ
+ハロウィンとは全然関係ありませんが、[r]墓場にいては迷惑が掛かります。
+[k]
+
+
+[charaFace B 7]
+＠マシュ
+サクサクと退治しましょう！
+[k]
+
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.4]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout B 0.1]
+[soundStopAll]
+[end]

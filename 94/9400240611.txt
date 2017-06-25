@@ -1,0 +1,233 @@
+＄94-00-24-06-1-1
+
+[charaSet B 11002002 1 エドモン・ダンテス]
+[charaSet D 9002001 1 天草四郎]
+[charaSet E 9001001 1 ジャンヌ・ダルク]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 23000]
+
+[charaTalk D]
+[charaFace E 4]
+[charaFace D 4]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+
+[fadein black 1.0]
+[wait fade]
+
+
+
+＠天草四郎
+……アヴェンジャー。[r]あなたを救いたいと、私たちは願う。
+[k]
+
+[charaFace D 0]
+＠天草四郎
+私もジャンヌ・ダルクも同じ想いのもと戦った。[r]……そうですね、聖女。
+[k]
+
+＠ジャンヌ・ダルク
+はい……[r]ですが、またも私は力およばず[line 3]
+[k]
+
+＠天草四郎
+復讐はヒトの手に余るのです。[r]聖典を引用するまでもなく、ソレは過ぎたる行いだ。
+[k]
+
+[charaFace D 0]
+＠天草四郎
+予言でも預言でもなく、[r]私はあなたにこう言おう、アヴェンジャー。
+[k]
+
+[charaFace D 4]
+＠天草四郎
+その黒炎はあなた自身をいつか滅ぼすだろう、と。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+それが残す言葉か、ルーラーども。
+[k]
+
+[charaFace B 0]
+＠B：アヴェンジャー
+オレが永久の復讐者である事実は主さえ[r]書き換える事は叶わぬ。それを知って尚言うか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ジャンヌ・ダルク
+……永久のものなどありません。[r]それが、悪しきものであれば尚の事。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+甘いな。甘い。なんという甘さだ！[r]嘲笑さえ浮かばんぞ！
+[k]
+
+＠B：アヴェンジャー
+その甘さ故に！　おまえたちはこの塔で[r]憤怒や強欲の化身なぞを押し付けられたのだと知れ！
+[k]
+
+[charaFace B 4]
+＠B：アヴェンジャー
+[#ルーラー:おまえたち]が真に正しく現界していたならば、[r]こうも容易く……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace E 5]
+[charaFace D 1]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+＠天草四郎
+[line 4]。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+いいや。言うまい。別の地獄で会おう。
+[k]
+
+＠B：アヴェンジャー
+此処に在ってさえ気高さを失わぬ者どもよ。[r]おまえたちの主をオレは嗤うが、おまえたちは別だ。
+[k]
+
+＠B：アヴェンジャー
+憤怒を抱く事なく赦したもうた聖女、[r]そして、悪たる世界に立ち向かわんとした強欲の聖者よ。
+[k]
+
+[charaFace B 4]
+＠B：アヴェンジャー
+[line 3]さらば。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ジャンヌ・ダルク
+……あなたの、魂に……
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect E flashErasure 0 0 1]
+[wait charaSpecialEffect E]
+[charaFadeout E 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+＠天草四郎
+安寧があらん事を、[r]此処ならぬ何処かで祈ります。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 0 0 1]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 1.5]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+……待たせたな。仮初めのマスターよ。
+[k]
+
+＠B：アヴェンジャー
+残る『裁きの間』は、ただ一つだ。[r]おまえは、ともすれば生還を果たすかもしれんぞ？
+[k]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+おまえが諦めず、[r]殺し、歩み続けるならば。だが。
+[k]
+
+[wt 1.0]
+
+？1：彼らを、本当に倒すべきだった[&のか:の]？
+
+[charaFace B 4]
+＠B：アヴェンジャー
+[line 3]さあな？
+[k]
+
+[charaFace B 0]
+＠B：アヴェンジャー
+連中が戦う目的はこのオレだった。[r]連中の目論見が果たされた時、おまえはどうなる？
+[k]
+
+[charaFace B 4]
+＠B：アヴェンジャー
+救われたかもしれん。[r]ただただ、此処に囚われ続けただけかもしれん。
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+今となってはどうとも言えるがな！[r]どうあれ、おまえはオレを信じる他あるまいよ！
+[k]
+
+？2：（無言）
+
+[charaFace B 0]
+＠B：アヴェンジャー
+……フッ。良い顔をするものだ。
+[k]
+
+？！
+
+[charaFace B 4]
+＠B：アヴェンジャー
+牢獄へ戻るぞ。[r]此度ばかりはオレも、流石に疲弊したからな[line 3]
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 2.0]
+[soundStopAll]
+[end]
+
+
+
+

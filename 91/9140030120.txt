@@ -1,0 +1,127 @@
+＄91-40-03-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20800]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4003001 2 ドレイク]
+[charaSet E 98006000 2 魔物]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+[se bac21]
+[wt 0.3]
+[se bac21]
+[fadein black 1]
+[wait fade]
+[wt 0.2]
+＠ドレイク
+オラオラ、命が惜しいならさっさと退散しな！
+[k]
+
+＠ドレイク
+アンタらが勝てばアタシらが食い物だが、[r]アタシらが勝てばアンタらはおしまいだ！
+[k]
+
+＠ドレイク
+それでもいいならかかってきな！　今度は根こそぎ、[r]肉ばかりか皮まで剥いで売り物にするよ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[se ad26]
+＠魔物
+GUeeeeeeeeee！
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.3]
+[bgmStop BGM_EVENT_4 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……優しいんですね、船長。[r]逃げる獣たちを殺さないなんて。
+[k]
+
+＠ドレイク
+あ？　別に助けたワケじゃないよ？　ヘンに数を[r]減らして、この島の生態系を狂わせたくないだけさ。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+陸地に戻った時、今の連中に高値がついたら[r]儲け話になる。その時、数が減ってちゃ大損だろ？
+[k]
+
+[charaFace A 8]
+＠マシュ
+そ、そうですね……あはは……[r]ドレイク船長は、そういう人でした……
+[k]
+
+＠Dr.ロマン
+みんな、その近くに洞窟がありそうだ。[r]でも妙な反応もある。入るなら注意してくれ。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+斥候がいるのは便利でいいね。[r]じゃあ気をつけてお邪魔するとしようか。
+[k]
+
+[fadeout black 1]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[scene 20110]
+[fadein black 1]
+[wait fade]
+[charaFace D 1]
+＠ドレイク
+あー、こりゃ当たりだ。[r]典型的な宝の部屋。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+このあたりを住みかにした海賊の倉庫だったんだろ。[r]今でも宝が残ってる。んで、もちろん[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[se ad23]
+[wt 0.3]
+[charaFadein E 0.1 1]
+＠魔物
+[image berserker_language_1][line 3]！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace A 7]
+＠マシュ
+門番も残っている、という事ですね。[r]ドレイク船長、これは倒してもいいものですか？
+[k]
+
+[charaFace D 1]
+＠ドレイク
+ああ、倒したらお宝が吹っ飛ぶ、なんて罠もなさそうだ。[r]景気よく倒しちまおう！
+[k]
+
+＠マシュ
+了解しました。[r]マスター、豪快に蹴散らしましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

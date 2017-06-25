@@ -1,0 +1,568 @@
+＄01-00-06-10-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_25 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet H 2013000 1 アーラシュ]
+
+[scene 29110]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.7]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.4 1]
+＠ベディヴィエール
+ここが山の民の隠れ里……[r]立派な村ではないですか！
+[k]
+
+＠ベディヴィエール
+でも、山岳地帯からまったく見えませんでしたよ！？[r]魔術の結界もないのに、どうやって……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アーラシュ
+そこは山に住む者の知恵ってヤツだな。[r]うまく山陰に隠れるようになってるんだよ。
+[k]
+
+[charaFace H 0]
+＠アーラシュ
+よほどの土地勘がなければこの村にはたどり着けん。
+[k]
+
+＠アーラシュ
+呪腕の兄さんがアンタらを案内したくなかったのは、[r]村の位置を万が一にも知らせたくないからさ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+なるほど、確かに。魔術の守りがないから、[r]見つかったらおしまいなワケだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……そして生活も苦しそうだ。飢餓とまでは[r]いかなくとも、わずかな余裕もないだろう。
+[k]
+
+＠Dr.ロマン
+それでも、ここに住む人々は[r]聖地への想いを捨てなかった。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+……山の民と聖都の騎士。[r]そりゃあ、相容れる筈もないね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……はい。ロマン殿の仰る通り。[r]そして今、その想いは踏みにじられている……。
+[k]
+
+＠ベディヴィエール
+私は獅子王の騎士ではありませんが、[r]円卓に連なるもの。
+[k]
+
+＠ベディヴィエール
+……そんな私を招き入れてくれるなんて……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠アーラシュ
+あまり気にしなさんな。ここの連中は[r]異教徒だからって偏見は持たないからな。
+[k]
+
+＠アーラシュ
+厳しい暮らしによるものだろう。[r]辛い旅をしてきた人間は一目で分かるんだよ。
+[k]
+
+[charaFace H 0]
+＠アーラシュ
+騎士の兄さん。アンタの姿や立場はともかく、アンタの[r]生き方は、ここの人間にとって同士に見えたんだろう。
+[k]
+
+[charaFace D 4]
+＠ベディヴィエール
+私の生き方が……ですか。[r]私は、人に誇れる事など一つもない男ですが……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+？1：ところで、アーラシュさんは？
+？2：やっぱりここの出身の英霊？
+
+？！
+
+[charaShake C 0.05 3 6 0.25]
+＠フォウ
+ブフォ[line 3]ウ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アーラシュ
+お。すげえコト聞いてくるなあ！[r]俺がここの出身か、だって？
+[k]
+
+[charaFace H 0]
+＠アーラシュ
+確かにこのあたりの出身ではある。[r]ちょいと時代は違うがね。
+[k]
+
+[charaFace H 1]
+＠アーラシュ
+ま、見ての通り弓兵だ。[r]しがない三流サーヴァントと思ってくれ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+（アーラシュが気さくな性格で助かった……[r]　というか、知らないって怖いなぁ……）
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+（知名度こそ低いが、アーラシュといえば西アジアでは[r]　[#弓兵:アーチャー]そのものを指すほどの英雄だ）
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+（加えて、[#彼:か]のオジマンディアスが[r]　尊敬する数少ない大英雄なんだけど……）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アーラシュ
+で、そっちは？[r]ここで人間のマスターを見るのは初めてだ。
+[k]
+
+＠アーラシュ
+ここまで来た経緯を聞かせてくれ。[r]ずいぶんと特別な星を背負っているようだからな。
+[k]
+
+[wt 0.25]
+[messageOff]
+[wt 0.25]
+[wipeout rollLeft 1.0 0.5]
+[wait wipe]
+[charaFadeout H 0.1]
+[scene 29110]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+[wt 1.0]
+[wipein rollLeft 1.0 0.5]
+[wait wipe]
+
+＠Dr.ロマン
+[line 3]以上がこちらの事情だ。[r]カルデアは人理焼却を正すべく設立された組織でね。
+[k]
+
+＠Dr.ロマン
+そして[%1][&君:ちゃん]は[r]カルデア唯一のマスターなんだよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アーラシュ
+なるほど、カルデア、んでもって人理定礎か！[r]面白い、面白い！
+[k]
+
+[charaFace H 5]
+＠アーラシュ
+[line 3]って、なんだ、笑い事じゃない！[r]おまえさんたち、とんでもない大任じゃないか！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+はあ、まあ……。[r]改めて言われると、そうですね先輩。
+[k]
+
+？1：無茶ぶりには慣れた。ね、ロマン
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ははは。[r]そう言ってもらえるとボクも気が休まるなぁ！
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、[r]帰ったら秘蔵の饅頭をあげよう！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター。今のは先輩なりの抗議かと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……うん。ごめん。ほんとごめん。[r]カルデアが完全復帰した暁にはボーナス、弾むね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：大変なのはみんな一緒
+
+[charaFace A 13]
+＠マシュ
+はい。そうですね、先輩。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アーラシュ
+いまいち緊張感がないな……[r]まあ、気負うよりはいくぶんいいが。
+[k]
+
+[charaFace H 0]
+＠アーラシュ
+じゃあそっちの兄さんはカルデアからのお供かい？
+[k]
+
+＠アーラシュ
+同じ……いや、もと円卓の騎士として、[r]仲間たちを[#糾:ただ]しに来たと？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ベディヴィエール
+いえ、私は……砂漠地帯で[%1][&:さん]と[r]出会ったのです。
+[k]
+
+＠ベディヴィエール
+それから聖都の門で再会し、[r]こうして共に旅をしています。
+[k]
+
+[charaFace H 0]
+＠アーラシュ
+……ふうん。[r]とりあえず行き先が一緒なだけ、か。
+[k]
+
+？1：どういう意味？
+
+？！
+
+[charaFace H 0]
+＠アーラシュ
+目的が一緒なワケじゃないってコトさ。[r]いずれ同じ目的になるとしても、な。
+[k]
+
+[charaFace H 1]
+＠アーラシュ
+まあいい。とにかく俺はおまえさんたちを歓迎する。[r]遠路はるばるお疲れ様だ。
+[k]
+
+[charaFace H 0]
+＠アーラシュ
+まずは召喚サークルの設置だろう？[r]この村の地脈は確かだ。さっさとやっちまおう。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そこまで察しがいいのかい！？[r]すごい目端が利くな、この英霊は！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+召喚サークル、設置します。あ……でも、[r]アサシンさんに断りなくいいのでしょうか……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠アーラシュ
+構わん構わん。呪腕の兄さん、口じゃあアンタらを[r]嫌っているが、もう仲間意識持ってるからな。
+[k]
+
+[charaFace A 13]
+＠マシュ
+それは……わたしたちも嬉しいです。[r]顔に似合わずいい人なんですね。
+[k]
+
+[charaFace A 3]
+＠マシュ
+あ。……いえ、顔というか、はい……
+[k]
+
+[wt 0.4]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+[scene 10500]
+[fadein black 0.5]
+[wait fade]
+[se ad29]
+[flashin once 0.7 0.5 FFFFFFBF 00000000]
+[wait flash]
+[wt 2.0]
+
+[fadeout black 0.5]
+[wait fade]
+[scene 29110]
+[wt 1.0]
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+な[line 3]な、な……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……設置、完了しました。
+[k]
+
+＠マシュ
+いつもならダ・ヴィンチちゃんが[r]小粋なトークを披露してくれるのですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アーラシュ
+落ち着いたな？[r]よし、ここからはこっちの話だ。
+[k]
+
+＠アーラシュ
+アンタら、しばらくこの村にいるんだろう？[r]円卓の騎士の目から逃れるにはもってこいだからな。
+[k]
+
+＠アーラシュ
+この村にいるかぎりおまえさんたちは安泰。[r]情報収集もできる。
+[k]
+
+＠アーラシュ
+そこの騎士の兄さんの疲れも相当なもんだしな。[r]本拠地は必要だ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ベディヴィエール
+私は疲れてなどいません。難民たちを避難させた後、[r]一人でも聖都に戻るつもりですが。
+[k]
+
+？1：一人で行くんですか？
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……それは、まあ。[r]はじめからその覚悟でしたから……
+[k]
+
+？2：一人がいいんですか？
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+え[line 3]いえ、そういう意味ではなくて。[r]あの……すみません。……ありがとうございます。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ、[%1][&君:ちゃん]の言う通りだ。[r]単独行動は褒められないぞ、ベディヴィエール卿。
+[k]
+
+＠Dr.ロマン
+貴方の霊基は酷いものだ。こっちから見える範囲の[r]話だけど、なんていうかメチャクチャすぎる。
+[k]
+
+＠Dr.ロマン
+今までどんな無理をしてきたんだい？[r]霊基が乱れすぎて、モザイクレベルの不安定さだぞ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アーラシュ
+ほらな。[r]どのみち、腰を落ち着ける場所が必要だったのさ。
+[k]
+
+＠アーラシュ
+で、だ。おまえさんたち、[r]ちょいと仕事に付き合ってくれないか？
+[k]
+
+＠アーラシュ
+最近、村の周りも物騒になってな。[r]盗賊や怪物が徘徊している。
+[k]
+
+＠アーラシュ
+これを退治していけば村人は安心、[r]おまえさんたちは村人に信頼されて最高！
+[k]
+
+＠アーラシュ
+いいこと尽くめだと思うんだがね。[r]どうだい？　俺と狩りに出てくれるかい？
+[k]
+
+？1：それで信頼してもらえるなら
+？2：よろしく、アーラシュ
+
+？！
+
+[charaFace H 1]
+＠アーラシュ
+いい返事だ。んじゃ、早速行こうか！
+[k]
+
+[charaFace H 0]
+＠アーラシュ
+ああ、騎士の兄さんは休んでな。[r]俺の代わりに村を守ってくれてりゃあいい。
+[k]
+
+＠アーラシュ
+まずは山の中腹、水場に集まる怪物どもの駆除だ。[r]頼りにしているぜ、マスター！
+[k]
+
+？1：もうマスター扱い！？
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、驚きの話の早さです、アーラシュさん！
+[k]
+
+？2：応ッ！
+
+[charaFace H 1]
+＠アーラシュ
+お、そりゃあケルト式の挨拶だな！[r]知ってる知ってる！
+[k]
+
+？！
+
+
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_25 0.9]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,114 @@
+
+＄94-00-23-03-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4004001 1 アストルフォ]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 2018001 1 子ギル]
+
+[scene 20210]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠天草四郎
+では、私たちがこの巨大な霊体を抑え込み[line 2]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠子ギル
+ボクが『[#王の財宝:ゲート・オブ・バビロン]』からてきとー[r]に剣を取り出して破壊する、と。
+[k]
+
+[charaFace F 1]
+＠子ギル
+それじゃ、露払いお願いします。[r]間違っても射線上に入らないでくださいねー。
+[k]
+
+[charaFace F 0]
+＠子ギル
+そこの[#騎乗兵:ライダー]さんは特に。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠アストルフォ
+わ、わかってるよぅ！[r]大丈夫！　射線には絶対に入らないから！
+[k]
+
+[charaFace D 2]
+＠アストルフォ
+だってキミって間違いなく諸共滅ぼそうとするもんね！[r]ボクの直感が囁いてるんだ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠子ギル
+はい、大正解です！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠アストルフォ
+将来暴君王になる奴はこれだから！！[r]まあいいや、よーし……ヒポ君、ゴー！
+[k]
+
+[messageOff]
+[se ad19]
+[wt 1.5]
+[se ad54]
+[charaSpecialEffect D erasureReverse 1 0.3]
+[wait charaSpecialEffect D]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠天草四郎
+それでは、私もアレを押し留めます。
+[k]
+
+＠天草四郎
+……マスターは我々の内、[r]誰かをフォローしてくれればよろしい。
+[k]
+
+[charaFace E 2]
+＠天草四郎
+それでは行きます。[r][line 2][#告げる:セット]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、指示を！[r]あの疑似聖杯を、破壊します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]

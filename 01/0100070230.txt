@@ -1,0 +1,986 @@
+
+
+
+＄01-00-07-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98106000 1 エルキドゥ]
+[charaSet E 98057000 1 ？？？]
+[charaSet F 3027000 1 アナ]
+[charaSet G 5009001 1 ダ・ヴィンチ]
+
+[scene 10000]
+[fadein black 0.5]
+[wait fade]
+
+[effect bit_talk_kengekiall01]
+[se ad32]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[se ad171]
+[wt 0.2]
+[se ad110]
+[wt 0.1]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad32]
+[wt 0.5]
+
+[flashOff]
+
+[effectStop bit_talk_41]
+[fadeout black 0.5]
+[wait fade]
+[scene 34700]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アナ
+ッ……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+話にならないな。サーヴァントのようだけど、[r]大英雄という訳でもない。せいぜい二流だ。
+[k]
+
+＠エルキドゥ
+その程度の神秘性で、[r]このボクの手足と[#鎬:しのぎ]を削れるとでも？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アナ
+……アナタを打ち倒す必要はありません。[r]今回の戦闘における勝利条件は別のものです。
+[k]
+
+＠アナ
+人間のような知性は、時として[#仇:あだ]になる。[r]いい機会なので学習してください。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+[line 3]なんだって？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 3.0]
+[wipeout polka04 3.0 1.5]
+[wt 0.1]
+[se ad193]
+[wait wipe]
+[wt 1.0]
+[scene 20730]
+[wipein polka02 3.0 1.5]
+[wt 0.1]
+[se bac96]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.7]
+[charaFace D 5]
+＠エルキドゥ
+これは……そうか。[r]途中から夢を見せられていたんだね。
+[k]
+
+[charaFace D 6]
+＠エルキドゥ
+ではあれがウルクの魔術師か……[r]ようやく本人と出会えたな。それは幸運ではあるけど……
+[k]
+
+＠エルキドゥ
+まいったな。悔しいが[#伝承:うわさ]通りだ。[r]逃げ足だけは超一流ときた。
+[k]
+
+＠エルキドゥ
+捕らえるのは至難の業、[r]殺害となると更に困難。
+[k]
+
+[charaFace D 5]
+＠エルキドゥ
+……となると。あの“術”を破るには、[r]やっぱりあの方法しかないか……
+[k]
+
+[charaFace D 6]
+＠エルキドゥ
+仕方ない。今回は諦めよう。[r]まる一日、[#彼女]をひとりにもしておけないしね。
+[k]
+
+＠エルキドゥ
+まったく、あんな図体をしているクセに子供なんだから。[r]ボクがいないと暴れ出すとか情緒不安定にも程がある。
+[k]
+
+＠エルキドゥ
+こっちはきちんと計画を立てて、[r]丁寧に旧人類を[#淘汰:とうた]しているんだ。
+[k]
+
+＠エルキドゥ
+彼女が本気になったら一日で終わってしまう。[r]それはよくないよね、ホント。
+[k]
+
+＠エルキドゥ
+だって、[#ただ殺す]だけじゃ人間たちと変わらない。
+[k]
+
+＠エルキドゥ
+殺すにしてもきちんと理由とテーマを持って。[r]それが優れた知性を持つ、新しいヒトの義務だからね。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wipeout rightToLeft 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[scene 34700]
+[wt 1.5]
+[se bac8]
+[seVolume bac8 0 0.4]
+[wt 0.5]
+[se bac8]
+[seVolume bac8 0 0.2]
+[wt 0.25]
+[se bac8]
+[seVolume bac8 0 0.4]
+[wt 0.7]
+[wipein openEye 2.0 0.5]
+[wt 0.7]
+[shake 0.05 3 0 0.4]
+[wait wipe]
+
+[wt 0.1]
+[shake 0.05 3 0 0.4]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[se ad7]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+！？[r]わたしたちは仮称敵エルキドゥと戦って[line 3]あれ？
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+？1：いつのまにかエルキドゥがいない……！？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠？？？
+はっはっは！[r]いや、うまくいった、うまくいった！
+[k]
+
+[bgm BGM_EVENT_11 0.1]
+＠？？？
+やっぱり精神攻撃にはまだ耐性がなかったな。[r]純粋な子供を[#騙:だま]すようで気が引けたけど、そこはそれ。
+[k]
+
+＠？？？
+我々が生き延びるためだ。[r]非紳士的行為も、少しだけなら許されるさ。
+[k]
+
+＠？？？
+何しろ相手は『三女神同盟』の調停役、[r]すべてのウルク民にとっての裏切り者、エルキドゥだ。
+[k]
+
+[charaFace E 0]
+＠？？？
+あの少年……いや少女？　まあどっちでもいいか。[r]彼に殺された戦士たちはそれこそ数え切れない。
+[k]
+
+[charaFace E 1]
+＠？？？
+魔獣たちの指揮者であるあの少年こそ、[r]魔術王直属の配下、と言えるからね！
+[k]
+
+？1：エルキドゥが魔術王の……！？
+？2：あれは本人なんですか……！？
+
+？！
+
+[charaFace E 3]
+＠？？？
+ああ。本人はそう名乗り、多くの城塞都市を滅ぼした。[r]ウルクの人々は彼を偽者と思い込みたいようだが、
+[k]
+
+＠？？？
+残念ながらあの戦闘力はエルキドゥ以外の何者でもない。
+[k]
+
+＠？？？
+キミたちも気をつけたまえ。[r]美しい姿だが、あれは人間を殺す兵器。
+[k]
+
+＠？？？
+ギルガメッシュ王と出会う前の、[r]残忍な兵器に戻ってしまったのだからね。
+[k]
+
+[charaFace E 0]
+＠？？？
+さて。そういう訳で、諸君！[r]改めてごきげんよう！
+[k]
+
+＠？？？
+危ないところを助けてもらったんだ、[r]お礼の言葉とか、雨のように浴びせてほしい！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+あ、はい！[r]あ、ありがとうございます、見知らぬ人！
+[k]
+
+[charaFace A 12]
+＠マシュ
+あれ……見知らぬ？[r]先輩、この方は見知らぬ人、だったでしょうか……？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_11 0.7 0.5]
+
+[messageOff]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.7]
+[se ad27]
+[charaMove C 0,50 1.0]
+＠フォウ
+フォウフォウ。
+[k]
+
+？1：おや……？　フォウ君が木に登って？
+
+？！
+
+[se ad78]
+[charaMoveReturn C 0,54 0.5]
+＠フォウ
+フォウフォウフォウ。
+[k]
+
+？1：爪を突きだして？　体をよじって？
+
+？！
+
+[se ad214]
+[charaMoveReturn C 0,58 0.5]
+＠フォウ
+フォウフォウフォ[line 3]ウ！！！！！[r]マーリン[charaMoveReturn C 0,62 0.5]シスベシフォ[line 3]ウ！
+[k]
+
+[messageOff]
+[effect bit_talk_42]
+[seStop ad214 0.4]
+[se ad85]
+[charaAttack C normal -1024,-40 0.5]
+[charaFadeout C 0.4]
+[wt 0.4]
+[effectStop bit_talk_42]
+[wt 0.7]
+
+？1：高速回転しながらローブの人に突撃した[line 3]！？
+
+？！
+
+[bgmStop BGM_EVENT_11 0.4]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[wt 0.4]
+
+[se bac11]
+[charaEffect E bit_talk_13]
+[charaShake E 0.05 5 5 0.4]
+＠？？？
+ドフォ[line 3]ウ！？
+[k]
+
+[charaFadeout E 0.4]
+[charaMove E 0,-50 0.4]
+[se ad144]
+[wt 1.4]
+
+
+[charaSet E 98106200 1 マーリン]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.2 0,-50]
+[charaMove E 0,0 0.2]
+[bgm BGM_EVENT_7 0.1]
+＠E：？？？
+なんて事をするんだこの凶獣！[r]長年世話をしてやった恩も忘れて、この、この！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFace E 2]
+＠E：？？？
+ああ、思えばこんな悪獣を引き取るんじゃなかった！[r]キャスパリーグ！　恐るべき災厄のネコよ！
+[k]
+
+＠E：？？？
+その愛らしさで何人の肉球愛好家をたぶらかしたんだ！[r]ただ可愛いだけでご婦人たちに可愛がられるとか、
+[k]
+
+＠E：？？？
+日頃の苦労がバカみたいじゃないか！[r]手練手管を駆使している私に悪いとは思わないのか！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 6]
+[k]
+
+？1：フォウ君と[line 3]同レベルの争いをしている！
+
+？！
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_7 0.7]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠アナ
+マーリン。[r]奇行、痴態は夜更けにひとりで行ってください。
+[k]
+
+[bgm BGM_EVENT_11 0.1]
+＠アナ
+指示通り、敵個体の誘導に成功しました。
+[k]
+
+＠アナ
+追ってはこないようですが、[r]早急に目的地まで移動する事を推奨します。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠マーリン
+おっと、それは良かった。ご苦労さまだ、アナ。[r]キミのおかげでまた助かった。
+[k]
+
+[charaFace F 0]
+＠アナ
+……契約外の戦闘です。[r]感謝より反省をしてください。
+[k]
+
+[charaFace E 1]
+＠マーリン
+ははは、これは手厳しい。[r]でもほら、義を見てせざるは、というヤツさ。
+[k]
+
+＠マーリン
+さて。アナも戻ってきた事だし、[r]まとめて自己紹介をさせてもらおう。
+[k]
+
+[charaFace E 0]
+＠マーリン
+私はマーリン。実はサーヴァントでね。[r]こちらの少女はアナ。彼女もサーヴァントだ。
+[k]
+
+[charaFace E 1]
+＠マーリン
+私の事は気軽にマーリンお兄さんと呼んでほしい。[r]アナは？　アナはどう呼ばれたい？
+[k]
+
+[charaFace F 0]
+＠アナ
+……別に。アナでいいです。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+ご、ご丁寧にどうも。先ほどは助けていただき、[r]ありがとうございますアナさん。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アナ
+さんは入りません。アナでお願いします。
+[k]
+
+＠アナ
+……それと、人間は嫌いです。[r]できれば近寄らないでください。
+[k]
+
+[charaFadeout F 0.1]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マーリン
+ああ、アナのスタンスは気にしないでくれ。[r]本当に人間が嫌いなだけで、別に裏とかないからね。
+[k]
+
+＠マーリン
+それより[line 3]
+[k]
+
+
+＠Dr.ロマン
+[f large][messageShake 0.05 5 5 1.2]って、待った[line 10]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あまりの事にモニターの前で凍りつき、[r]ようやく解凍されたボクからの渾身の待った[line 4]！
+[k]
+
+＠Dr.ロマン
+マーリン！？　マーリンだって！？[r]ブリテン島の大魔術師、夢魔と人間の混血、
+[k]
+
+＠Dr.ロマン
+世界有数のキングメーカーにして最高峰のろくでなし！[r]あのマーリンが、本当にそこにいるのかい！？
+[k]
+
+＠Dr.ロマン
+しかもサーヴァントとして！[r]世界の終わりまで死ねない筈の[#冠位:グランド]の魔術師が！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠マーリン
+ふははは！[r]予想通りの紹介ありがとう、ロマニ・アーキマン！
+[k]
+
+＠マーリン
+そう、私はグランドキャスター・マーリンお兄さん。[r]魔術師の中の魔術師だ！
+[k]
+
+[charaFace E 3]
+＠マーリン
+いやまあ、実際のところグランドの資格があるだけで[r]霊基は普通だから、ただのキャスターなんだけどね？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あーりーえーなーいー！[r]マーリンが英霊化しているものか！
+[k]
+
+＠Dr.ロマン
+どこからどう見ても本人だけど、[r]嘘つけ、この偽マーリン！　本物なら正体を現せ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+？1：なんかメチャクチャだ……
+？2：なんでドクターはあんなになってるんだ？
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+それは……おそらく、魔術師マーリンの伝承との[r]齟齬からでしょう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+マーリンはブリテン島の伝説的な魔術師で、[r]おもにアーサー王伝説で活躍します。
+[k]
+
+＠マシュ
+アーサー王……アルトリア・ペンドラゴンを[r]王として担ぎ出したのは彼の仕事です。
+[k]
+
+[charaFace A 7]
+＠マシュ
+その後、アーサー王の補佐として宮廷魔術師になり、[r]数々の逸話を残しますが、
+[k]
+
+[charaFace A 12]
+＠マシュ
+その女癖の悪さからブリテン島にいられなくなり、[r]最後は理想郷アヴァロンに渡ったと言います。
+[k]
+
+＠マシュ
+彼はそれまでの素行の悪さ……というか罪を悔い、[r]自ら、アヴァロンの中に塔を作って幽閉されました。
+[k]
+
+＠マシュ
+彼は死ぬ事なく、その狭い塔の中から[r]世界を見渡す事を自らの罰としたのだそうです。
+[k]
+
+＠マシュ
+アヴァロンは『世界の果て』にある塔。[r]人類史が終わるまで消える事のない時間の外側。
+[k]
+
+[charaFace A 0]
+＠マシュ
+なので、マーリンはまだ生きている。[r]生きている者は英霊にはなれません。
+[k]
+
+＠マシュ
+ドクターが指摘しているのは[r]その部分ではないでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+その通りだマシュ。[r]マーリンは英霊にはカウントされない英雄だ。
+[k]
+
+＠Dr.ロマン
+スカサハのように何らかのイレギュラーによって[r]召喚される、という可能性もあるけど……
+[k]
+
+＠Dr.ロマン
+そもそも、その男は戦闘面においては[r]何の役にも立たない！
+[k]
+
+＠Dr.ロマン
+冠位の資格を持つ魔術師はみな優れた千里眼を保有する。[r]たとえばソロモンは過去と未来を見渡す眼。
+[k]
+
+＠Dr.ロマン
+ギルガメッシュ王は未来を見渡す眼。[r]そこのろくでなしは現在すべてを見渡す眼。
+[k]
+
+＠Dr.ロマン
+それぞれに精度・距離の違いはあるが、[r]いずれも“監視者”としての力を持つ。
+[k]
+
+＠Dr.ロマン
+でも、基本は見るだけの異能だ。[r]特にマーリンは一番酷い！
+[k]
+
+＠Dr.ロマン
+だって、『すごく便利』なだけだからね！
+[k]
+
+＠Dr.ロマン
+マーリンにできる事といったら、[r]アヴァロンの塔から地球中を覗き見するぐらいさ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+現代でいうなら、すべてのネットワークを自由に[r]閲覧できる程度の[line 3]あ[communicationCharaFace 2]。
+[k]
+
+？1：……あの、それ凄い事ですよ？
+？2：……確かに派手ではないけど……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 1]
+＠ダ・ヴィンチ
+はーい、横から失礼～☆
+[k]
+
+＠ダ・ヴィンチ
+今回は[%1][&君:ちゃん]の存在証明に[r]専念しているので出番の少ないダ・ヴィンチちゃんだ。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+ロマンが固まってしまったので私から[r]マーリンに質問しよう。
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチ
+まずは感謝を。キミ、今まで何度か秘密裏に[r]魔力リソースの提供をしてくれたでしょう？
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+人理焼却によって世界は滅んだが、[r]キミのいるアヴァロンはまだ健在だ。
+[k]
+
+＠ダ・ヴィンチ
+だからレイシフトじみた補給方法でカルデアの炉……[r]プロメテウスの火に薪をいれてくれた。
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチ
+魔術王にバレないよう、本当に必要なタイミングにのみ[r]こっそりとね。素晴らしい腕前だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マーリン
+なに、サービスだよ、サービス。[r]なにしろ私は世界最長の引きこもりだ。
+[k]
+
+＠マーリン
+他にやることもなかったから、[r]ちょっとロマニ君に塩を送っただけさ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 4]
+＠ダ・ヴィンチ
+だが。となると、[r]やはりキミが英霊化しているのはおかしい。
+[k]
+
+＠ダ・ヴィンチ
+キミはまだアヴァロンにいるのだろう？[r]どうしてまたサーヴァントになっているのかな？
+[k]
+
+[communicationCharaFace 5]
+＠ダ・ヴィンチ
+理由と方法。その二つを語ってもらえないと、[r]こちらとしては信用できない。
+[k]
+
+＠ダ・ヴィンチ
+先ほどエルキドゥに襲われたばかりだからね。
+[k]
+
+＠ダ・ヴィンチ
+エルキドゥはカルデアが立てた探索計画において、[r]もっとも信頼していたナビゲーター候補だった。
+[k]
+
+＠ダ・ヴィンチ
+その一人が真っ先に敵に回ってしまったんだ。
+[k]
+
+＠ダ・ヴィンチ
+味方らしい新顔こそもっとも油断ならない……[r]ロマニの心配も当然の事だと思うけど？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠マーリン
+んー……そうか。[r]それでそんなに怒っていたのか、あのバカ。
+[k]
+
+＠マーリン
+仕方ないなあ。けど理由については語れない。[r]この特異点に縁がある、とだけ言っておくよ。
+[k]
+
+[charaFace E 0]
+＠マーリン
+けど方法は明かしておこう。[r]というか単純な話だよ、ダ・ヴィンチ君。
+[k]
+
+＠マーリン
+この特異点は私が地球に発生する前の時代だ。[r]つまり、ここでは私の体は存在していない。
+[k]
+
+＠マーリン
+ない、という事は、その世界において[r]私は死んでいると仮定できる。
+[k]
+
+＠マーリン
+それを利用してサーヴァント化させてもらった。[r]強い召喚者によって呼ばれた、というのもあるがね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+召喚者に呼ばれた……[r]この時代に、先輩以外にもマスターがいるのですか！？
+[k]
+
+[charaFace E 1]
+＠マーリン
+ああ、いるとも。[r]私はその男に呼ばれ、今は宮廷魔術師として仕えている。
+[k]
+
+＠マーリン
+一方、アナは聖杯の影響によって呼ばれた、[r]マスターを持たないはぐれサーヴァント。
+[k]
+
+[charaFace E 0]
+＠マーリン
+実はアナと知り合ったのは二日前でね。
+[k]
+
+[charaFace E 1]
+＠マーリン
+この森で迷っていたら出会い、意気投合のすえ[r]契約したのさ。互いの目的の為に力を合わせよう、と。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アナ
+……最悪です。騙されました。
+[k]
+
+＠アナ
+控えめに言って、マーリンはこの世すべての不誠実が[r]カタチになったような魔術師です。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠マーリン
+ふふ、いやだなあ、よしてくれないか！[r]本当の事をストレートに語るのは！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace E 3]
+[charaFadein E 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 0]
+＠ダ・ヴィンチ
+なるほど、そちらの事情はおおむね把握した。[r]……ロマニ、[#諦:あきら]めて。あのマーリンは本物だよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うう、胃が痛くなってきた……[r]ただでさえ混乱している状況でマーリン登板とは……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でもえり好みはしていられない。[r]ろくでなしとはいえ最高峰の魔術師である事は事実だ。
+[k]
+
+＠Dr.ロマン
+魔術師マーリン。[r]キミはカルデアに協力するために現れたのか？
+[k]
+
+＠Dr.ロマン
+特異点を修復し、人理焼却を無くし、[r]人類史を存続させるために戦ってくれるのか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠マーリン
+もちろん。当たり前じゃあないか。[r]私の楽しみは『現在を見ること』だけだ。
+[k]
+
+＠マーリン
+その『現在』が失われてしまったら、私は塔の中の[r][#花園:ガーデン]を眺めるだけの寂しい男になってしまう。
+[k]
+
+＠マーリン
+それはゾッとする未来だろう？[r]なのでキミたちに協力するとも。
+[k]
+
+[charaFace E 3]
+＠マーリン
+それに、ここまで[%1]君を応援していたのは[r]キミたちだけとは思わないでくれないかな？
+[k]
+
+[charaFace E 1]
+＠マーリン
+私[line 3]いや、僕だって手に汗握って、[r]ここまでの戦いを見てきたんだ。
+[k]
+
+＠マーリン
+今さら仲間外れにするとか大人げないぞ？[r]まあ、[charaFace E 3]キャスターとして私が脅威なのは分かるけどね！
+[k]
+
+＠マーリン
+なにしろ冠位の魔術師だから、私は。[r]魔術王と同格の、選ばれたキャスターだ。
+[k]
+
+＠マーリン
+他のサーヴァント、特にキャスターのサーヴァントが[r]私を[#羨:うらや]み、[#妬:ねた]み[line 3]
+[k]
+
+＠マーリン
+そして最後には負けを認めて二軍落ちするのは、[r]もう避けようのない展開だからね！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 1]
+＠ダ・ヴィンチ
+[line 3]（イラッ）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_11 0.7]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マーリン
+……おっと。[r]すまない、お喋りが過ぎたようだ。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠マーリン
+アナの忠告をきかなかった[#酬:むく]いかな。[r]団体さんがやってくる。
+[k]
+
+＠マーリン
+ふむ。しかし、いい機会と言えばいい機会だ。[r]私も言ってみたい台詞があったんだ。
+[k]
+
+[charaFace E 2]
+＠マーリン
+“みんな、気をつけて！[r][f small]  [f -]ワイバーンがやってくるぞ！”
+[k]
+
+[charaFace E 3]
+＠マーリン
+フッ、どうかなロマニ！[r]似ていただろう、今の！　では採点を頼む！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ははは。うん、そっくりだ！[r]百点をくれてやる！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+よーし、[%1][&君:ちゃん]、頼む！
+[k]
+
+＠Dr.ロマン
+戦闘のどさくさに紛れて、[r]そのろくでなしを一度殴っておいてくれ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

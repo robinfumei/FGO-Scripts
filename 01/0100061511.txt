@@ -1,0 +1,65 @@
+＄01-00-06-15-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 6003001 1 百貌のハサン]
+
+[scene 20402]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……ふう。以上が私の性能です、[%1]様。[r]どうか思うままに使い捨ててくださいますよう……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+[%1]殿、馬の準備が出来もうした。[r]早急に砦を離れましょう。
+[k]
+
+＠呪腕のハサン
+アグラヴェインめを取り逃したのは残念ですが、[r]今回はこれで良しとするべきかと。
+[k]
+
+[charaFace D 1]
+＠呪腕のハサン
+むしろヤツの逃げ足を見たのは胸のすく快事。[r]我らの中でも語り草となりましょうな、はっはっは！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠百貌のハサン
+いいから乗れ、呪腕。[r]夜が明けるまでに山に戻るぞ。
+[k]
+
+＠百貌のハサン
+アーラシュ殿がいるにしても、[r]村を二日も空けているのだ。心配でならん。
+[k]
+
+[charaFace D 1]
+＠呪腕のハサン
+うむ、その通り！　新しい客人も二人増えた。[r]急ぎ村に戻り、今後の作戦を立て直そうではないか！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.2]
+[soundStopAll]
+[end]

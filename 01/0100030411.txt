@@ -1,0 +1,58 @@
+＄01-00-03-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21330 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+よし、こっちは片付いたよ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+こちらもです。[r]戦力としては中の下でした。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 2]
+＠海賊
+姐御、今の連中の海賊旗っスよ。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+うーん、確かに見覚えがないねえ。[r]マシュ、心当たりないかい？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 2]
+＠マシュ
+有名な海賊旗なら記録に残っているかもしれません。[r]ドクター、調べていただけますか？
+[k]
+
+＠Dr.ロマン
+オッケー。すぐに結果は出るよ。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+よし、じゃあ引き続き船を進めるよ。[r]海図の通りなら、もうすぐ島が見えてくるはずだ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

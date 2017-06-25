@@ -1,0 +1,369 @@
+＄94-00-31-14-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet F 1001000 1 アルトリア]
+[charaSet G 98062000 1 アイリスフィール]
+[charaSet H 6015001 1 アサシン？]
+
+[scene 25300]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠アサシン？
+ちっ、手こずらせてくれる……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+待て、これ以上の闘争は不毛だ。[r]お互いに得るところはない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アサシン？
+得るところ？　まるで僕の都合を完全に[r]理解しているかのような言いぐさだ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+おまえ個人に都合などあるまい。[r]マスターなきサーヴァント。
+[k]
+
+＠エルメロイ
+おまえは誰を利するために戦っているわけでも[r]ないのだからな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アルトリア
+マスターがいない？　では契約は？[r]どうやって魔力の供給を？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+当然、サーヴァントとしての現界は[r]契約に基づく召喚あってのこと。
+[k]
+
+＠エルメロイ
+ただしその契約対象が人間ではない、というだけだ。[r]……そうだな？　抑止力の使者よ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+抑止力！？[r]ではこの英霊は「世界」と契約を！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アサシン？
+……どうして、その結論に至った？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+我々もまたこの時間軸の存在ではなく、[r]状況を俯瞰する立場にいる。
+[k]
+
+＠エルメロイ
+冬木の聖杯戦争の決着が世界の破滅に繋がることは[r]先刻承知だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace D 0]
+[charaFace G 3]
+[charaFadein D 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アイリスフィール
+なんですって？　どういうこと？
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+……これは最後まで黙っている予定だったが、[r]仕方あるまい。告白しよう。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+今回の冬木の儀式は過去や未来のそれと違って、[r]まず間違いなく成功し、大聖杯の起動に至る。
+[k]
+
+＠エルメロイ
+それがシバに観測された理由[line 3][r]この領域を特異点たらしめた正体に間違いない。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……！　そうか、不安定な時空というだけではなく、[r]崩壊の基点となるから特異点として観測されたのか！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace D 0]
+[charaFace G 5]
+[charaFadein D 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アイリスフィール
+あなたは……過去だけでなく未来までも知っている？[r]違う時間軸の存在なの？
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+然り。四度目の失敗を見守り、五度目の失敗を調査し、[r]そして六度目を未然に防いだ。それが私だ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+その知識と比較してこの戦いがどう「違う」のかを[r]探る役目を引き受けていた。
+[k]
+
+＠エルメロイ
+その答えは……貴女だ、アイリスフィール。聖杯の器の[r]担い手でありながらサーヴァントを統べるマスター。
+[k]
+
+＠エルメロイ
+本当ならその完成まであと１０年を費やすはずだった、[r]アインツベルン家の究極にして至高のホムンクルス。
+[k]
+
+[charaFace G 3]
+＠アイリスフィール
+１０年？　それって……。
+[k]
+
+＠エルメロイ
+僅かな差のようでいて、これは決定的なアドバンテージだ。
+[k]
+
+＠エルメロイ
+第四次の時点でアインツベルンは姑息なゲリラ戦でなく、[r]正攻法に勝算を見出すことが出来たんだからな。
+[k]
+
+＠エルメロイ
+マスターとして望みうる最強のスペックで、さらに最優の[r]サーヴァントを従え、かつ小聖杯の優先権も手中にある。
+[k]
+
+＠エルメロイ
+これはもはや勝ったも同然だ。そしてその勝利のもたらす[r]ものは……抑止力の発動原因となるに充分だった。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アサシン？
+……おまえの知る聖杯戦争では、[r]抑止力の介入はなかったと？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ああ。三度目までは話にならず、四度目、五度目も[r]成否の確率はほぼ半々、といった所だった。
+[k]
+
+＠エルメロイ
+少なくとも「世界」の観点からすれば、干渉するほど[r]火急の危機とは見なされなかったのだろう。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+第四次におけるアインツベルンの研究成果はまだ一世代[r]遅れており、ようやく完成に至った第五次では戦略を誤った。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+正直、ここまでアインツベルンが聖杯戦争に「王手」を[r]かける特例的状況が成立していたとは驚きだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+つまり整理すると、この特異点は……。
+[k]
+
+＠Dr.ロマン
+「もしアインツベルンがもっと優秀だったら」という[r]ifのもとに出現した可能性の具象、ということかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ああ。そしてカルデアが検知した聖杯の反応も、[r]おそらくはアイリスフィールの魔術回路そのもの……。
+[k]
+
+＠エルメロイ
+ここまで完璧に仕上がったアインツベルンの成果なら、[r]それはもはや疑似聖杯と呼んでも差し支えない代物だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace D 0]
+[charaFace G 6]
+[charaFadein D 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アイリスフィール
+褒められてるのか貶されてるのか複雑だけれど、そんな[r]ことより貴方にはもっと詳しく説明してもらわないと。
+[k]
+
+[charaFace G 5]
+＠アイリスフィール
+冬木の聖杯の完成が世界を滅ぼす、[r]というのは一体どういうこと？
+[k]
+
+＠エルメロイ
+ああ。一切合切を開示して差し上げよう。[r]抑止の代行者、おまえもついてくるがいい。
+[k]
+
+＠エルメロイ
+課された役目をより、[r]徹底して完遂できる方法を提示してやろう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アサシン？
+それは、このホムンクルスを破壊するよりも[r]確実で容易な方法なのか？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠アイリスフィール
+……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+まぁまったくもって容易ではない。[r]が、そこは逆に問わせてもらおうか英霊よ。
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaFace D 0]
+＠エルメロイ
+おまえは容易でさえあれば手段を選ばないのか？　この[r]アイリスフィールを是非ともその手で殺してみたい、と？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+
+＠フォウ
+……フォ～ウ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_6 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アサシン？
+……分からない。考えもしなかった。[r]是も非もないと観念していた。選択の余地などない、と。
+[k]
+
+[charaFace H 3]
+＠アサシン？
+だが今、改めて選べと言われると……[r]どうにも説明しがたい葛藤があるのは、事実だ。
+[k]
+
+＠アサシン？
+とりわけこのホムンクルスについては……[r]別の手段があるというなら、それを探ってみたいとは思う。
+[k]
+
+[charaFace H 0]
+＠アサシン？
+何故だろうな？　こんな感覚は初めてだ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+それはつまり、お前にまだ人としての心が残っていた、[r]ということさ。
+[k]
+
+＠エルメロイ
+抑止力なんていう装置の一部に成り果てるより前の、[r]愚かしくも尊い魂が、な。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_6 2.0]
+[wait fade]
+[soundStopAll]
+[end]

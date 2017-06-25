@@ -1,0 +1,304 @@
+
+＄94-00-56-05-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98101600 1 魔猪]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98100800 1 うりぼう]
+[charaSet D 9004000 1 マルタ]
+[charaSet E 5027000 1 マリー]
+[charaSet F 6024000 1 スカサハ]
+[charaSet G 98002000 1 フォウ]
+
+[effect bit_talk_gagemist_Purple]
+
+[scene 30500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[charaEffect A bit_talk_13]
+[wt 0.1]
+[se bac11]
+[charaShake A 0.05 3 3 0.25]
+[wait se bac11]
+[wt 0.4]
+
+[se ad24]
+＠魔猪
+グガァッ……！
+[k]
+
+[bgmStop BGM_EVENT_3 0.7]
+[messageOff]
+[charaSpecialEffect A enemyErasure 1 1.7]
+[se ad42]
+[wait charaSpecialEffect A]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+まだ同じような猪がいて、この島の土地を[#穢:けが]す毒気を[r]持っているのだとすれば……厄介ですね。
+[k]
+
+＠マシュ
+いずれまた同じような処理をする必要があるのかも[r]しれません。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠うりぼう
+びぎゅー……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+はいはい、とりあえず今はこの不浄の沼地をどうにか[r]しましょう。聖水を撒いて、と[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[messageOff]
+[charaFadeout D 0.4]
+[se ad78]
+[wt 0.5]
+[se ad42]
+[seStop ad42 2.0]
+[wt 0.2]
+[effect bit_talk_06]
+[wt 1.0]
+[effectStop bit_talk_06]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠マルタ
+はあっ！？　浄化できない！？[r]私の祈りが聞けないってーの！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠マルタ
+……っと、違うわ、私の祈りが足りないのね。
+[k]
+
+[charaFace D 4]
+＠マルタ
+それか、昨日海岸の岩場をサンドバッグ代わりに[r]鍛錬してたら調子に乗って岩場殴りすぎて、
+[k]
+
+＠マルタ
+海岸線の形をちょっと変えてしまったから……。[r]お許しください……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠マリー
+つまり[line 3]この毒の沼地は、綺麗にできないの？
+[k]
+
+＠マルタ
+前のは規模が小さかったからなんとかなったのですけど。[r]ここの浸食は強すぎて……消せないわね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+＠マシュ
+マルタさんでも無理となると……[r]他の手を探したとしても、難しそうですね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠スカサハ
+うむ……だが、何もしないよりはよかろう。[r]どれ、手伝ってみるか。
+[k]
+
+＠スカサハ
+たまたまトネリコの種を持っておる。[r]これに地中の毒気を吸って成長する性質を与えよう。
+[k]
+
+[charaFadeout F 0.1]
+
+
+[charaTalk E]
+[charaFace C 0]
+[charaFadein C 0.1 -128,0]
+[charaFace E 1]
+[charaFadein E 0.1 128,0]
+＠マリー
+その種が地面を綺麗にしてくれるっていうこと？[r]素敵ね！
+[k]
+
+[charaFace C 1]
+＠うりぼう
+ぴぎっ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠スカサハ
+だが、すぐにというわけにはいかんぞ。[r]マルタも言ったが、この毒は濃い。
+[k]
+
+＠スカサハ
+そして植物とは永き時をかけて強く成長していく[r]ものだ。慌てれば毒気に負けてすぐに枯れ果てる。
+[k]
+
+[charaFace F 5]
+＠スカサハ
+少しずつ、少しずつ、長い年月をかけて[line 3][r]毒を一滴ずつ吸い取るように、慎重に吸わせねばならん。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠マシュ
+長い年月とは、具体的にはどのくらいですか？
+[k]
+
+[charaFace F 0]
+＠スカサハ
+そうさな[line 3]ざっと千年ほどかのう？
+[k]
+
+？1：長っ！
+？！
+
+[charaFace F 0]
+＠スカサハ
+だがそうすれば、最終的には元の正常な大地に[r]土の状態を戻せるだろう。
+[k]
+
+[charaFace F 4]
+＠スカサハ
+今すぐどうにかできぬ以上、[r]次善の策を取るしかあるまい。
+[k]
+
+[charaFace F 0]
+＠スカサハ
+マルタの聖水と合わせてこの種を植えれば、少なくとも[r]これ以上毒の沼地が広がらぬようにはできるはずだ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マリー
+そうね。何もしないよりはいいわよね、きっと。[r]そこにわたしたちは、もういないかもしれないけれど。
+[k]
+
+＠マリー
+この島を使わせてもらってるんだから、[r]この島の未来に恩返し……みたいな感じかしら？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace B 13]
+[charaFadein B 0.1 2]
+＠マシュ
+はい。それはとても素晴らしい展望だと思います。
+[k]
+
+[charaFace G 0]
+＠フォウ
+フォウフォウ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+それじゃ、作業に入りましょうか。[r]記念すべき最初の、ね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠スカサハ
+うむ。[r]魔猪はまだいると見て間違いない。
+[k]
+
+＠スカサハ
+しかしトネリコの種は幸い、まだいくつかある。
+[k]
+
+＠スカサハ
+このような毒の沼地、そしてそれを発生させている[r]魔猪を見つけたら、
+[k]
+
+＠スカサハ
+今後も同じ事をする必要が出てくるだろう。[r]見逃さぬようにな、マスター……。
+[k]
+
+[wt 0.2]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

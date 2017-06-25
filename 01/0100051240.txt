@@ -1,0 +1,95 @@
+
+＄01-00-05-12-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 7014001 1 ナイチンゲール]
+[charaSet B 3002001 1 ディルムッド]
+
+[scene 20400]
+[fadein black 2]
+[wait fade]
+
+[se bac21]
+[wait se bac21]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ディルムッド
+待て待て待て！[r]おまえはサーヴァントだが、看護師だろう！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠ナイチンゲール
+ええ、看護師ですよ。[r]ですから、貴方たちを殺すのです。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.4]
+
+[messageOff]
+[se bac13]
+[effect bit_talk_14]
+[wait effect bit_talk_14]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ディルムッド
+不可思議な理屈だな！[r]チッ……甘いか！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠ナイチンゲール
+どこが不可思議ですか。[r]貴方たちは、熱病に浮かされている患者のようなもの。
+[k]
+
+＠ナイチンゲール
+治さなければ、救われない！[r]そう、たとえ殺してでも貴方たちを救う！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ディルムッド
+ぬぬ……出鱈目な理屈だが、その信念は本物と見た。[r]先ほどの失言は撤回する。
+[k]
+
+[charaFace B 5]
+＠ディルムッド
+救いを与えようとするその行為は気高い。[r]それでも俺はあの王に仕える身でな。
+[k]
+
+[charaFace B 2]
+＠ディルムッド
+この命続くかぎり、その命に殉ずるのみ！[r]かかれ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠ナイチンゲール
+その命が続く限り[line 2]ですか。[r]では、遠慮なく終わらせます！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

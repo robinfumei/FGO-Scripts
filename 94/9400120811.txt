@@ -1,0 +1,429 @@
+＄94-00-12-08-1-1
+
+[soundStopAll]
+[bgm BGM_CHRISMAS_1 0.1]
+[charaSet A 98012000 1 ピエールＤ]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 98007000 1 ジャンヌオルタ]
+[charaSet F 98028000 1 ジャンヌクリスマス礼装]
+
+[scene 21805]
+[fadein black 2]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+ふん。しょせん亡霊たちじゃこの程度ね。[r]やっぱり頼れるのはジルとワイバーンだけだわ。
+[k]
+
+＠ジャンヌオルタ
+で、どうするの？　お遊びを続けるのかしら？
+[k]
+
+＠ジャンヌオルタ
+この通り、地の底で呪うだけの日々ですからね。[r]いくらでも付き合ってあげましょう。
+[k]
+
+？1：ぜんぜん堪えてない……！？
+？2：まったく反省していない！
+
+？！
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+その通りだ[%1]。[r]精神的にあの女を負かさないかぎり戦いは続く。
+[k]
+
+＠サンタオルタ
+負けても悪びれない。[r]どう見てもこちらの勝利なのにひっくり返す。
+[k]
+
+＠サンタオルタ
+そんな困ったチビッ子には、特別、[r]きっついお仕置きをくれてやらねばな。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+……なによ。[r]切り札があるっていうの？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+無論だ。“一生ここにいる”など、[r]このプレゼントを贈られてもそう言えるかな？
+[k]
+
+[se ad77]
+[wt 0.6]
+[messageOff]
+[charaTalk off]
+[se su4]
+[charaFadeout D 0.1]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[wt 1.2]
+[charaDepth F 3]
+[charaFace F 0]
+[charaFadein F 0.7 1]
+[wt 0.7]
+[wt 1.4]
+[charaFadeout F 0.4]
+[charaTalk on]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+[line 6]。
+[k]
+
+？1：あ、真顔になった。
+？2：うん、ちょっとその気持ち、分かる。
+
+？！
+
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+自らの光……光か……まあ光だな……[r]光の部分を直視した気持ちはどうだ？
+[k]
+
+＠サンタオルタ
+貴様がくすぶっているからこうなるのだ。[r]このままではジャンヌ・リリィまであるかもだぞ？
+[k]
+
+[bgmStop BGM_CHRISMAS_1 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_2 0.1]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+[line 3]煉獄に戻るわ。[r]こんなところで遊んでいる場合じゃなかった。
+[k]
+
+[charaFace E 2]
+＠ジャンヌオルタ
+一刻も早く霊基をあげてサーヴァント化して、[r]今度こそ聖女気取りの馬鹿女を串刺しにしてやる……！
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.4]
+[wt 0.4]
+
+[charaSet A 98012000 1 ピエールＡ]
+[charaSet B 98012000 1 ピエールＢ]
+[charaSet C 98012000 1 ピエールＣ]
+[charaSet D 98012000 1 ピエールＤ]
+[charaSet E 98012000 1 ピエールＥ]
+[charaSet F 98012000 1 ピエールＦ]
+[charaSet G 98012000 1 ピエールＧ]
+[charaDepth A 1]
+[charaDepth B 2]
+[charaDepth C 1]
+[charaDepth D 3]
+[charaDepth E 1]
+[charaDepth F 2]
+[charaDepth G 1]
+
+[charaFace B 0]
+[charaFace D 0]
+[charaFace F 0]
+[charaFace C 0]
+[charaFace E 0]
+[charaTalk off]
+[charaFadein B 0.1 0]
+[charaFadein D 0.1 1]
+[charaFadein F 0.1 2]
+
+[charaFadein C 0.1 3]
+[charaFadein E 0.1 5]
+＠ピエールズ
+「おおおおおおお！」「解放された」「解放された」[r]「助かった！」「ありがとう！」「ありがとう！」
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 98007000 1 ジャンヌオルタ]
+[charaSet F 98028000 1 ジャンヌクリスマス礼装]
+[charaSet A 98012000 1 ピエールＤ]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+ああ、その前に忘れ物がありました。
+[k]
+
+＠ジャンヌオルタ
+行きますよ司教。[r]煉獄でも試練のお手伝い、よろしくお願いしますね？
+[k]
+
+[charaTalk off]
+＠ピエールズ
+「たすけてー」「たすけてー」「たすけてー」[r]「たすけてー」「たすけてー」「たすけてー」
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 0.7]
+[charaFadeout E 0.1]
+[fadeout black 1.0]
+[wait fade]
+[wt 2.0]
+[charaTalk on]
+[bgm BGM_EVENT_6 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠サンタオルタ
+……よし。「お願いサンタさん」宛のプレゼントは[r]これですべて配り終わった。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+私の仕事もここまでだ。[r]貴様もよく働いたな、[%1]。
+[k]
+
+＠サンタオルタ
+貴様の尽力なくして完遂はなかっただろう。
+[k]
+
+＠サンタオルタ
+貴様が付いていなければ一人目あたりで[r]投げ出していただろうからな。
+[k]
+
+[charaFace D 0]
+＠サンタオルタ
+……実のところ、私はこう見えて飽きっぽく、[r]短気なのだ。気づかなかったと思うが。
+[k]
+
+？1：あ、はい。
+？2：まあ、はい。
+
+？！
+
+[charaFace D 1]
+＠サンタオルタ
+そういうところがいい。[r]付き合いが良い、というのは契約者として長所だろう。
+[k]
+
+[charaFace D 5]
+＠サンタオルタ
+………………。[r]…………………………。
+[k]
+
+[charaFace D 3]
+＠サンタオルタ
+………………むう。ここまで言っても伝わらないか。[r]仕方あるまい。膝をついて頭を下げるのだ。
+[k]
+
+＠サンタオルタ
+剣を肩に向けるが斬りつけはしない。[r]少しだけ我慢するがいい。
+[k]
+
+[se ad51]
+[wait se ad51]
+
+[charaFace D 0]
+＠サンタオルタ
+[line 3]改めて貴様を認めよう、[%1]。[r]この10日間の事は忘れず、記憶に止めておく。
+[k]
+
+
+＠サンタオルタ
+貴様は我が騎士、我が従者にして先導者。
+[k]
+
+＠サンタオルタ
+どうかこの先も、[r]その明かりを絶やさぬよう努めてほしい。
+[k]
+
+[se ad51]
+[wait se ad51]
+
+[effect bit_talk_06]
+
+＠サンタオルタ
+……さて。いよいよ時間が来たようだ。[r]騒がしかったクリスマスも終わり、という事だな。
+[k]
+
+＠サンタオルタ
+最後に、貴様への贈り物がある。[r]正統な報酬だ。受け取るがいい。
+[k]
+
+[charaEffect D bit_talk_20]
+[se bas2]
+[wait time 2.0]
+[charaEffectStop D]
+[wait charaEffect D]
+＠サンタオルタ
+……つまり、新しい戦力だ。[r]これ以上の説明は不要だろう。
+[k]
+
+＠サンタオルタ
+カルデアのシステムは色々と未熟だからな。[r]もう一度初めからやり直す事になるが、それはご愛嬌だ。
+[k]
+
+＠サンタオルタ
+その隙間の多さ、曖昧さのおかげでこうして[r]多くの出会いがある。それは喜ばしい事だ。
+[k]
+
+
+[charaFace D 1]
+＠サンタオルタ
+私の剣はおまえと共にある！[r]気が向いたらまたソリに乗るがいい！
+[k]
+
+＠サンタオルタ
+では、さらばだマスター！[r][line 3]メリー・クリスマス！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_6 2.0]
+[fadeout white 2]
+[wait fade]
+[charaFadeout D 0.1]
+[effectStop]
+[scene 10001]
+[fadein white 0.1]
+[wait fade]
+[effect bit_talk_07_02]
+[se ad12]
+[wt 4]
+[wait effect]
+[fadeout white 0.1]
+[wait fade]
+
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[scene 20151101]
+
+[fadein white 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩！？
+[k]
+
+＠マシュ
+ドクター、先輩です！[r]無人の筈のトイレからひょっこり現れました！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+なんだって[line 3]！？[r]あのトイレ、隠し部屋でもあったのかい！？
+[k]
+
+？1：……頭が……ぼうっとして……
+？2：……サンタが……いたような……
+
+？！
+
+[charaFace A 1]
+＠マシュ
+良かった、大事はないようです。[r]あ、でもこれは[line 3]
+[k]
+
+[charaFace A 13]
+＠マシュ
+先輩、レムレムしています。[r]とても眠そうですね。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+そうなのかい？　長時間のレイシフトは精神的に疲れる[r]から睡眠時間は多いに越した事はないけど……
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+あ、でも健康状態は問題ないようだね。
+[k]
+
+＠Dr.ロマン
+マシュに“カルデアの一大事です！”と引っ張られた時は[r]何かと思ったけど、大事がなくて良かった良かった！
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+それに消失からの時間差出現とか、大した[#大舞台:プレステージ]だ！[r]これはパーティーのいい[#手品:ネタ]になるね！
+[k]
+
+？1：パーティー……？
+？2：もしかして、今日は[line 3]
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい。クリスマス当日ですよ先輩。
+[k]
+
+＠マシュ
+会議室ではみなさん、[r]クリスマスケーキを片手に先輩を待っています、が……
+[k]
+
+[charaFace A 12]
+＠マシュ
+……マスター？[r]何か、気になる事でもあるのでしょうか……？
+[k]
+
+？1：いや。後で、ちょっと面白い話をするよ。
+？！
+
+[charaFace A 13]
+＠マシュ
+それは楽しみです。ダ・ヴィンチちゃんの手品だけでは[r]多少の不安がありましたから。
+[k]
+
+[charaFace A 1]
+＠マシュ
+今年もあと数日。私たちの戦いはまだまだ続きますが、[r]今夜は思いっきりクリスマスを祝いましょう！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

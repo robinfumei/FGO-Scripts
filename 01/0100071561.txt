@@ -1,0 +1,432 @@
+
+
+
+＄01-00-07-15-6-1
+
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 98106000 1 キングゥ]
+[charaSet F 98107800 1 ラフム]
+[charaSet G 98107800 1 ラフムB]
+[charaSet H 98107800 1 ラフムC]
+
+[bgm BGM_EVENT_24 0.1]
+[scene 32400]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.4]
+[charaEffect E bit_talk_14]
+[wt 0.1]
+[bgmStop BGM_EVENT_24 1.5]
+[se ad170]
+[charaMove E -56,0 0.2]
+[charaShake E 0.05 4 4 0.4]
+[wt 1.0]
+
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+！？　観測が途切れている！[r]シバが黒く変色して、光が戻らない！
+[k]
+
+＠Dr.ロマン
+[%1]君、そっちでは何が起こっている！？[r]ゴルゴーンは消滅した、その時代の危機は去った！
+[k]
+
+＠Dr.ロマン
+なのになぜ、まだ第七特異点は存在しているんだ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+……ここまでか。[r]いけない、ボクも熱くなってしまった。
+[k]
+
+＠キングゥ
+予定より一日早く決着がついてしまったからね。[r]やりすぎではあったけど、彼女はよく尽力してくれた。
+[k]
+
+＠キングゥ
+だから[line 3]母さんが目を覚ますその時まで、[r]少しでも長く生きていて欲しかったのだけど。
+[k]
+
+[shake 0.05 2 2 0]
+[seLoop ad14]
+[seVolume ad14 0 0.7]
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+シバ02、06、09、破損！[r]その揺れは局地的なものじゃない！
+[k]
+
+＠Dr.ロマン
+時空震だ！　メソポタミア世界すべてに起こっている[r]空間断裂と推測される！
+[k]
+
+＠Dr.ロマン
+一体、何が[line 3]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk depthOff]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マーリン
+っ……！
+[k]
+
+[messageOff]
+[se ad240]
+[charaEffect F bit_talk_35]
+[charaShake A 0.05 4 4 0.7]
+[wt 1.0]
+[charaShake A 0.05 2 0 0]
+[charaMove A 0,-80 0.4]
+[charaFadeout A 0.4]
+[se ad78]
+[wait charaMove A]
+[charaShakeStop A]
+[wt 0.5]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+マーリンさん！？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0,-50]
+
+＠マーリン
+……しまった、そういう事か。[r]化かし合いにおいて、一枚上をいかれるとは。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+ああ。そういう事さ、[#小賢:こざか]しい夢魔。
+[k]
+
+＠キングゥ
+キミは[#母さん]に夢の檻を仕掛ける事で、[r]その目覚めを先延ばしにした。
+[k]
+
+＠キングゥ
+しかし眠りに落ちた母さんはボクに聖杯を与え、[r]第一の息子とした。
+[k]
+
+＠キングゥ
+となれば、ボクの仕事はたった一つ。[r]いかにして母さんを眠りから引き上げるか、だったが……
+[k]
+
+＠キングゥ
+なに、簡単な話さ。生きている内は覚めぬ眠りなら、[r][#一度殺してしまえばいい]。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0,-50]
+
+＠マーリン
+ゴルゴーンがティアマト神の権能を持っていたのは、[r]コピーしたからではない。
+[k]
+
+＠マーリン
+同調[line 3]本物のティアマト神と感覚を[r][#共有:シェア]する事で獲得した百獣母胎……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+そう。そしてゴルゴーンはいま[#死んだ]。
+[k]
+
+＠キングゥ
+その死は同調していた彼女に到達し、[r]深い眠りから解き放った。
+[k]
+
+＠キングゥ
+結果、キミは[#微睡:まどろ]む彼女の夢の中で[r]その正体を晒し、無残に握り潰されたのさ。
+[k]
+
+[charaFace E 0]
+＠キングゥ
+[line 3]さて。[r]三女神による時間稼ぎは、これで終わりだ。
+[k]
+
+[charaFace E 2]
+＠キングゥ
+我らの本当の[#神:はは]の姿。[r][#人間:おまえ]たちの原罪の姿をとくと見るがいい！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[scene 33300]
+[wt 0.3]
+[wipein rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+
+[wt 1.0]
+[se ad4]
+[seVolume ad4 0 0.05]
+[seVolume ad4 1.5 0.5]
+[scene 33301 1.5]
+[wait scene]
+
+＠研究員Ａ
+なんだあれは、海が黒く染まっていくぞ……！？[r]終わりが見えない！　世界の果てまで真っ黒だ！
+[k]
+
+＠研究員Ｂ
+これが王の言っていた滅びの時か！？[r]至急、ウルクに使者を送れ！
+[k]
+
+＠研究員Ｂ
+港も海も黒い泥に覆われてしまったと！[r]現在、それ以外の変化は[line 3]変化、は[line 3]
+[k]
+
+[se bac112]
+[wt 0.3]
+[se bac112]
+[wt 0.3]
+[se bac112]
+
+＠研究員Ｃ
+どうした！？　屋上、何が見えた！？[r]この音は一体なんだ！？　何が起き[line 5]
+[k]
+
+[seStop ad4 0.7]
+[messageOff]
+[scene 33302 2.0]
+[seStop bac112]
+[se bac167]
+[wt 0.7]
+[se bac167]
+[wt 0.7]
+
+＠研究員Ａ
+[line 6]なんだ、あれは。
+[k]
+
+[messageOff]
+[charaFadein F 0.7 1]
+[wt 1.5]
+
+＠研究員Ａ
+魔獣じゃない。シュメルの怪物でもない。
+[k]
+
+＠研究員Ａ
+そもそも、オレたちの世界に、[r]あんな生き物がいる筈がない[line 3]
+[k]
+
+＠研究員Ａ
+人を食ってる……？　建物も穀物にも手を付けない……[r]適確に、人間だけを襲っている[line 3]？
+[k]
+
+[messageOff]
+[charaFadein G 0.7 0]
+[wt 0.4]
+[charaFadein H 0.7 2]
+[wt 1.0]
+
+＠研究員Ａ
+……いや、違う……人間が……作り直されて……[r]………はは。なんだあれ。あんなのアリかよ。
+[k]
+
+＠研究員Ａ
+あれじゃあ食われた方が、[r]殺された方がまだマシじゃねえか！
+[k]
+
+
+＠研究員Ａ
+はは。はははははははは。はははははははははははははは[r]ははははははははははははははははははは！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[se bac167]
+[wt 0.4]
+[se bac167]
+[wt 0.7]
+[scene 32400]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[charaTalk D]
+[communicationCharaLoop 98105900 1 5 0 5]
+
+＠Dr.ロマン
+ペルシア湾海中に正体不明の魔力反応、大量に確認！[r]一個体の魔力反応はウガルを上回る！
+[k]
+
+＠Dr.ロマン
+数は[line 3]その総数、は[line 3]
+[k]
+
+＠Dr.ロマン
+現在、一億を超えて、さらに増殖中[line 3]
+[k]
+
+＠Dr.ロマン
+こんなもの[line 3]カルデアに、[r]人類にどうこうできるものじゃない……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0,-50]
+
+＠マーリン
+っ……さながら、空を埋め尽くすリョコウバトだね。[r]皮肉な事に、あちらは人間に絶滅させられたが。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+そうだ。もう誰にも[#彼女]は止められない。[r]神々にも。魔術王にも。
+[k]
+
+＠キングゥ
+だが安心してほしい。[r]キミたちは滅びるが、人類は滅びない。
+[k]
+
+＠キングゥ
+じき世界を覆う彼らこそ、[r]彼女にデザインされた“次の世代”の、完璧な人間だ。
+[k]
+
+＠キングゥ
+旧人類はここで捨て去られ、淘汰される。[r]この惑星はボクらのものだ。
+[k]
+
+＠キングゥ
+[line 3]それじゃあ、今度こそお別れだ。[r]彼らに埋め尽くされる大地で、ひっそりと終わるがいい。
+[k]
+
+[messageOff]
+[charaSpecialEffect E erasureReverse 1 0.1]
+[charaEffect E bit_talk_21]
+[se ad73]
+[wt 0.1]
+[charaEffectStop E bit_talk_21]
+[wt 0.3]
+[se ad136]
+[wt 0.7]
+[seStop ad136 0.8]
+[wt 1.5]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+（ラフム……ティアマト神が産んだ最後の神性……[r]　本当に戻ってきたのね、母さん……）
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+
+＠マシュ
+キングゥ、この洞窟から離脱しました！[r]でもドクター、マーリンさんが……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0,-50]
+[charaEffect A bit_talk_06]
+
+＠マーリン
+っ……まいったな、私の失策だ。[r]余裕を作るつもりが、事態を一つ早めてしまった。
+[k]
+
+＠マーリン
+急いでウルクに戻りなさい。[r]目覚めたといっても、アレはまだ動き出していない。
+[k]
+
+＠マーリン
+……全滅は避けられないが、まだ打つ手は残っている。[r]ギルガメッシュ王にはこう伝えるんだ。
+[k]
+
+＠マーリン
+本来、[#冠位:グランド]クラス七騎を[#以:もっ]てしか対抗できない、[r]人理を食らう[#抑止:よくし]の[#獣:けもの][line 3]
+[k]
+
+＠マーリン
+……生命の海、原初の母。[r]『七つの人類悪』のひとつ、[#原罪の獣:ビースト]が目を覚ました、と。
+[k]
+
+
+
+[charaEffectStop A bit_talk_06]
+[messageOff]
+[charaSpecialEffect A flashErasure 0 1.7]
+[se ad52]
+[wait charaSpecialEffect A]
+[wt 1.0]
+[messageOff]
+[fadeout black 2.0]
+[seStop ad14 2.0]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+
+

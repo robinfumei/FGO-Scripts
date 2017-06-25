@@ -1,0 +1,288 @@
+＄01-00-06-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 5012001 1 ニトクリス]
+[charaSet F 1012001 1 ルキウス]
+
+[scene 28801]
+[backEffect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ルキウス
+[line 3]ご免！
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.7]
+[se bac7]
+[effect bit_talk_12_yellow_R]
+[wait effect bit_talk_12_yellow_R]
+[se bac117]
+[wt 0.25]
+[effect bit_talk_17]
+[wt 0.25]
+[flashin once 1.0 2000.0 F2FF5CAF F2FF5C00]
+[fadeout white 1.0]
+[wait fade]
+[effectStop bit_talk_17]
+[flashOff]
+[wt 1.0]
+[fadein white 0.5]
+[wait fade]
+[wt 0.75]
+[se ad24]
+[wait se ad24]
+[wt 0.7]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+すごい……スフィンクス、完全に消滅しました！[r]霊子復元、起こりません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+あれは……あの騎士の右腕は……！[r]間違いない、アガートラムの輝きだ！
+[k]
+
+＠ダ・ヴィンチ
+ケルトの戦神ヌァザの神腕！　神霊クラスの神秘を[r]あのサーヴァントは武器にしているのか！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ニトクリス
+あわ、あわわ……ファラオの神獣が……[r]オジマンディアス様から預かった[#貴:とうと]い神獣が……
+[k]
+
+＠ニトクリス
+完全に、地上から消え去るなんて……[r]な……なんだと言うのです[line 4]！？
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_4 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk F]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ルキウス
+ですので、ご免、と。[r]こうでもしなければ収まらないと判断しましたので。
+[k]
+
+[charaFace F 5]
+＠ルキウス
+そして話を聞きなさい、寝起きのファラオ。[r]ホルス神の化身、ニトクリス殿。
+[k]
+
+＠ルキウス
+彼らが貴女を助けたのは本当です。[r]なにしろ私が見ていました。
+[k]
+
+＠ルキウス
+彼らは山の翁たちに連れ去られようとしていた[r]貴女を見かけ、義をもってこれを救った。
+[k]
+
+＠ルキウス
+それを信じられない、というのであれば、[r]この銀腕をもう一度振るう他ありませんが……
+[k]
+
+＠ルキウス
+これ以上、太陽王の信頼を失ってよいのですか？[r]貴女の立場も危うくなるのでは？
+[k]
+
+[charaFace E 9]
+＠ニトクリス
+う……でもですね、エジプトの民でもない者たちが、[r]私を助ける理由がですね……
+[k]
+
+[charaFace F 5]
+＠ルキウス
+では逆に問いましょう。山の民ならいざ知らず、[r]聖都の騎士が貴方を攫う理由があると？
+[k]
+
+[charaFace E 8]
+＠ニトクリス
+それは……そうですね……。
+[k]
+
+＠ニトクリス
+そもそも……我が神殿に忍び込めるのは、[r]山の民ぐらいのもの……でした……
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ニトクリスさん、しゅんとしてしまいましたね……[r]後悔していらっしゃる、のでしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+ああ、たたみかけるなら今がチャンスだ。[r][%1][&君:ちゃん]、やってしまいなさい！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_5 0.5]
+[wt 0.7]
+
+？1：信じてもらえたようですね！
+
+？！
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ニトクリス
+きゃっ！？[r]な、なんですか、突然大きな声をだして！？
+[k]
+
+？1：貴女を助けたものですが、何か！
+
+？！
+
+[charaFace E 3]
+＠ニトクリス
+う、ぐ……それは……はい。[r]冷静に考えてみれば、それ以外ありませんし……
+[k]
+
+＠ニトクリス
+感謝、しております、旅の方。[r]…………ごめんなさい。私の短気が、また……
+[k]
+
+？1：ところで水が飲みたいのですが！
+
+？！
+
+[charaFace E 3]
+＠ニトクリス
+み、水ですか……！？[r]それなら、近場のオアシスにでも……
+[k]
+
+？1：果物とかも食べたいです！
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaAttack C normal 0,10 0.1]
+[wt 0.1]
+[charaAttack C normal 0,0 0.1]
+[wt 0.1]
+[charaAttack C normal 0,15 0.1]
+[wt 0.1]
+[charaAttack C normal 0,0 0.1]
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+そうだー！[r]水浴びもしたいし、休憩もしたいぞー！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ニトクリス
+（なんなのコヤツら、急にふてぶてしく……！[r]　ああでも、助けてもらって礼を欠く訳には……！）
+[k]
+
+[charaFace E 2]
+＠ニトクリス
+……コホン。いいでしょう、分かりました！[r]特例中の特例として、貴方たちを私の客人とします！
+[k]
+
+[charaFace E 9]
+＠ニトクリス
+持てなしを受けたいのですね？[r]であれば、私を神殿まで護衛しなさい。
+[k]
+
+＠ニトクリス
+スフィンクスの問いかけに答えた者のみが招かれる[r]太陽王の複合神殿[line 3]
+[k]
+
+[charaFace E 2]
+＠ニトクリス
+この砂漠において最も栄えた理想の国。[r][#光輝の大複合神殿:ラムセウム・テンティリス]に立ち入る栄誉を与えましょう！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 1.9]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[wt 0.1]
+[soundStopAll]
+[end]
+

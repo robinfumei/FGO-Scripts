@@ -1,0 +1,842 @@
+
+
+
+
+
+
+
+
+
+＄94-00-66-01-1-0
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103400 1 クロエ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4008001 1 黒髭]
+[charaSet E 6013001 1 ファントム]
+
+[scene 31500]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 3]ここ……は？[r]見覚えのある風景ですが……！
+[k]
+
+？1：（ヤッホーゥ、番組の続きだァ！）
+
+？！
+
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠クロエ
+なに……これって、[r]また戻ってきちゃったとか？
+[k]
+
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+今度はクロさんに、フォウさんまで！？
+[k]
+
+
+？1：[&いや:あの]、自分もいるんだけど？
+？！
+
+[charaFace A 11]
+＠マシュ
+……マスターは心なしか嬉しそうなので[r]ノーカウントです！
+[k]
+
+[charaFace A 8]
+＠マシュ
+いえ、失礼しました。[r]動揺のあまり。
+[k]
+
+[charaFace A 0]
+＠マシュ
+もうこちらの世界との行き来は[r]出来なくなったもの、と認識していたのですが。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ロマニは確かにそう言ってたけど[line 3][r]また偶発的なレイシフトってヤツなの？
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+＠？？？
+デュクシデュクシ！[r]偶然などではありませんずぉ？
+[k]
+
+
+？1：この声は……！
+？2：この暗黒かつビッグかつサイトなオーラは！？
+？！
+
+[messageOff]
+[se ad120]
+[charaEffect D bit_talk_41]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0,-50]
+[wt 0.1]
+[cameraMove 0.2 0,0 1.6]
+[wait camera]
+[cameraMove 0.2 0,0 1.1]
+[wait camera]
+[cameraMove 0.2 0,0 1.4]
+[wait camera]
+[cameraMove 0.2 0,0 1.0]
+[wait camera]
+[cameraMove 0.2 0,0 1.2]
+[wait camera]
+[cameraHome 0.2]
+[wait camera]
+[wt 0.5]
+
+[bgm BGM_EVENT_7 0.1]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaPut D 1200,1200]
+[charaEffectStop D bit_talk_41]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+やはり黒髭さん……っ……！？
+[k]
+
+[charaFace A 15]
+＠マシュ
+その、それは[line 3][r]なぜ下半身にミニスカートを着用されて……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠クロエ
+立ち絵の都合で、ギリギリ腰下は見えないけど、[r]ミニスカと筋肉隆々な太腿のインパクトはなかなかね。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+＠ファントム
+そして私を[line 3]この私にこそ刮目せよ[line 3]
+[k]
+
+[se ad119]
+[scene 10001 0.2]
+[charaBackEffect E bit_talk_41_black_out]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0,-50]
+
+＠ファントム
+ふわふわなるパニエ、ぴっちりたる純白のタイツ！[r]隙の無い、あまりに完璧なドレス、コーディ、ネイト。
+[k]
+
+[seStop ad119 0.5]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut E 1200,1200]
+[scene 31500 0.2]
+[wait scene]
+[charaBackEffectStop E bit_talk_41_black_out]
+
+[charaShake C 0.05 3 3 0.5]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ、フォウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、その、珍装方面に趣向を凝らしたお二人までが[r]なぜこちらにいらっしゃってるのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 0,-50]
+[se ad103]
+
+＠黒髭
+……デュフフ、それはですな[line 3][charaFadeout D 0.1][wt 0.1][charaScale D 1.2][charaFadein D 0.4]（ずずい）[wt 0.5][r]それはですな！[charaFadeout D 0.1][wt 0.1][charaScale D 1.4][charaFadein D 0.4]（ずずずい）
+[k]
+
+[seStop ad103 0.5]
+[wt 0.5]
+
+
+[messageOff]
+[se bac10]
+[charaFace D 2]
+[charaShake D 0.05 3 3 0.5]
+[charaEffect C bit_talk_13]
+[wt 0.5]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaScale D 1.0]
+[charaFadein D 0.4 0,-50]
+[wt 0.5]
+
+[charaFace D 4]
+＠黒髭
+[line 3][#痛い:ペイン]！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あっ、すみませんすみません思わず！[r]髭とスカートが同時にチクフサッとしたので！
+[k]
+
+[charaFace A 7]
+＠マシュ
+とにかくクロさんへの教育悪影響につき[r]もっと距離を要請します！
+[k]
+
+[charaFace A 5]
+＠マシュ
+でないと、わたしのシールドで[#桂剥:かつらむ]きです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1]
+
+＠黒髭
+ぐぬぬぬ、シールドとは！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+マシュってば[line 3][r]見た目はリズ寄りだけど性格はセラ寄りね。
+[k]
+
+[charaFace B 0]
+＠クロエ
+わたしは平気よ。そんな過敏にならなくたって。
+[k]
+
+＠クロエ
+ファッションだから恥ずかしくないもん[line 3]、[r]とか言い張る[#穿:は]いてない保険医とかもいるみたいだし？
+[k]
+
+[charaFace B 1]
+＠クロエ
+それに、ダメな大人たちをそばで見てるのって、[r]結構楽しいもの。ふふふっ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1]
+[charaShake D 0.05 3 3 0.5]
+＠黒髭
+クロ殿の優しさと[r]小悪魔スマイルが染み渡るっ[line 3]
+[k]
+
+[charaFace D 0]
+＠黒髭
+しかしつまりかなりやはり我々の体を張った主義主張は[r]理解されがたいのでござるか……。
+[k]
+
+
+？1：と、いうと？
+？2：（分かるけど黙っている）
+？！
+
+＠黒髭
+我々は日頃より魔法少女を愛好し、[r]全身全霊をもって信奉せし者[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein D 0.1 250,-50]
+[charaFadein E 0.1 -250,-50]
+
+＠ファントム
+映像、グッズ、むろん[#乙女の美声:中　の　人　の　Ｃ　Ｄ]も！[r]だがそれらを愛でるには飽き足らず、
+[k]
+
+[charaFace E 3]
+＠ファントム
+寝食を共にして一心同体となりたい……。[r]そう、我ら一つに、我ら一つに。
+[k]
+
+[charaFace D 3]
+＠黒髭
+イエス！　可能な限りそばにいたーい！[r]でも自分が魔法少女になったら意味がなーい！
+[k]
+
+[charaFace E 0]
+[charaFace D 2]
+＠黒髭
+そんなアンビバレンツな我々の願いに、[r]遂に[#あの御方]が応えられたのだ！
+[k]
+
+
+？1：あの御方……ってまさかファースト・レディ？
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0,-50]
+
+[charaFace D 1]
+＠黒髭
+イエーイ！[r]教えてあげないよーだ！
+[k]
+
+[charaFace D 5]
+＠黒髭
+裏切り者の[%1]殿は[r]仲間に入れてあげないでござるもんねー！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[#我々]……とは、お二人の他にも[r]まだいるかのような口振りですが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0,-50]
+
+＠ファントム
+いかにも……我々を含めて同志は四人！[r]いわば魔法少女[#恋煩:フィリア]四天王！
+[k]
+
+[charaFace E 0]
+＠ファントム
+この平行世界の狭間の空間を[line 3]
+[k]
+
+＠ファントム
+魔法少女のトレビアン☆サイケデリックランドの[r]存在を知った我々のとった行動は一つ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFace E 2]
+[charaFadein D 0.1 250,-50]
+[charaFadein E 0.1 -250,-50]
+
+＠黒髭
+それは[line 3][r]全て遠き理想の魔法少女のご降臨[line 3]！
+[k]
+
+
+？1：なるほど、わか[&らん:りません]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+なんだかずいぶんと[r]ご都合主義な話に聞こえるけど？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+＠ファントム
+だからこそ我々は求め欲するのです……。[r][#虚構:フィクション]の狭間にある真理を……。
+[k]
+
+[charaFadeout E 0.1]
+
+
+？2：話は聞いた。自分を入れて五人衆[&だ:だね]！
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0,-50]
+
+＠黒髭
+ペペーッ、ぺーッ！[r][%1]殿はお断りですぞー！
+[k]
+
+[charaFace D 2]
+＠黒髭
+裏切り者の[&紳士:淑女]を迎え入れるほど[r][#拙者物好き:ポジティブシンキング]ではないでござる！
+[k]
+
+[charaFace D 3]
+＠黒髭
+あ、そちらのクロ殿でしたらバッチ来ーいですぞ？[r]魔法少女好き好き同盟の名誉顧問魔法少女として！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+面白そうだけど遠慮する。[r]そういう派閥っぽいのとか好きじゃないし。
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+結局、その珍装とのつながりはよく解らないのですが、[r]そ[charaFace A 0]れはさておき[line 3]
+[k]
+
+＠マシュ
+マスター、クロさん、お気づきですか。[r]この世界、どこかが……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+[line 3]ええ。わたしたちが離れた時とは[r]また大きく変質してしまったようだわ。
+[k]
+
+＠クロエ
+空間のつながりも、潜んでいる敵の気配も[line 3][r]驚くほど異なっている。
+[k]
+
+＠クロエ
+なにより、こっちに残ったエレナさんの姿も[r]見当たらないし？
+[k]
+
+[charaFace B 4]
+＠クロエ
+また別の固有結界なんだとしたら、[r]ずいぶん固有結界も安くなったものね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……いかがいたしましょうマスター？
+[k]
+
+[charaFace A 8]
+＠マシュ
+このまま黒髭さんたちが[#蔓延:はびこ]り繁殖するのを放置しても、[r]実害は無いのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0,-50]
+
+＠黒髭
+害虫みたいに言わないデネ！
+[k]
+
+
+？1：なんとなく気に入らない
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい……[r]実はわたしもです。
+[k]
+
+[charaFace A 4]
+＠マシュ
+黒髭さんたちの趣味嗜好に[r]異見したくはないのですが[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+また外なる世界やカルデア内部にまで侵食するような[r]暴走を見過ごしておくわけには……！
+[k]
+
+[charaFadeout A 0.1]
+
+
+？2：また不幸な魔法少女が生まれる事態なら放っておけない
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠クロエ
+それはあるかもね。[r]でも、[%1][&お兄ちゃん:お姉ちゃん]？
+[k]
+
+[charaFace B 1]
+＠クロエ
+一面ではわたし、オジさんたちの意見に賛成ー。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,-50]
+[charaShake D 0.05 0 8 0]
+＠黒髭
+フォォ、クロ氏！　あなたが女神か！
+[k]
+
+[charaShake D 0.05 0 0 0.1]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠クロエ
+別にいいんじゃない？[r]可愛いものと触れ合いたいってのは自然なコトでしょ。
+[k]
+
+[charaFace B 1]
+[charaMove B -100,0 0.5]
+[wait charaMove]
+[charaShake C 0.05 3 3 0.5]
+[se ad111]
+
+＠クロエ
+ねー、フォウ？（もふきゅっ）
+[k]
+
+[charaShake C 0.05 3 3 0.5]
+＠フォウ
+キュゥ……
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk off]
+
+[charaFace D 3]
+[charaFace E 3]
+[charaFadein D 0.1 250,-50]
+[charaFadein E 0.1 -250,-50]
+
+＠黒髭＆ファントム
+（ほんわり）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk on]
+[wt 0.1]
+
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+でも、ね……[r]だけども……
+[k]
+
+[se ad14]
+[shake 0.05 0 2 0]
+
+[charaFace B 5]
+＠クロエ
+わたしの記念すべき最初の任務を……[r]こんなくだらない茶番にした罪は重いわ！
+[k]
+
+[charaFace B 2]
+＠クロエ
+生まれてきたことを後悔するほどの苦痛と、[r]確実な死をもって[#贖:あがな]ってもらうから！
+[k]
+
+
+[seStop ad14]
+[shakeStop]
+
+[messageOff]
+[se bas1]
+[charaEffect B bit_talk_30]
+[charaChange B 2027001 2 fade 1.0]
+[wait charaChange B]
+[charaFadein B 0 1]
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,-50]
+
+＠黒髭
+今この瞬間に、茶番じゃなくなった！？
+[k]
+
+[charaFace D 5]
+＠黒髭
+よかろう、我々四天王を止めてみせるがいいデスヨ！[r]数々の試練がおまえたちを待ち構えているメイビー！
+[k]
+
+[charaFace D 0]
+＠黒髭
+具体的に言うとネ、我々が選びに選び抜いた[r][#魔法紳士:つわもの]のトップランカーが……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+[line 3][#偽・螺旋剣:カ ラ ド ボ ル グ Ⅱ]。
+[k]
+
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[se bac23]
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,-50]
+[charaEffect D bit_talk_14]
+[charaShake D 0.05 3 3 0.5]
+[se bac16]
+[wt 1.0]
+
+[charaShake D 0.05 0 8 0.8]
+[charaFace D 2]
+＠黒髭
+ふぁっ！　アっブねぇーこの褐色幼体ー！？[r]エロいでしょ！？　死んじゃうでしょぉー！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+チッ、し損じたわね……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0,-50]
+
+＠黒髭
+やだその虫を見るような瞳、怖い！[r]将来[charaFace D 5]もうとンでもない女王様になると見ましたぞ！
+[k]
+
+[charaFace D 4]
+＠黒髭
+でもクロエ殿に望まれているのは[r]そういうんじゃないのですよねぇ……
+[k]
+
+[charaFace D 3]
+＠黒髭
+もっとこう、[r]この世すべての小悪魔が一つになったかのような……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+[#偽・偽・螺旋剣:カ　ラ　ド　ボ　ル　グ　Ⅲ]！
+[k]
+
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[se bac23]
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,-50]
+[charaEffect D bit_talk_14]
+[charaShake D 0.05 5 5 0.5]
+[se bac16]
+[se bac18]
+[wt 1.0]
+
+＠黒髭
+ワーオテリブル！　まことに残念ですが交渉の余地は[r]なさそうですなぁ……ひとまず撤退、撤退ー！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 5]
+[charaFace E 0]
+[charaFadein D 0.1 250,-50]
+[charaFadein E 0.1 -250,-50]
+
+＠ファントム
+ええ……異論はない……異論はない……
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[charaFadeout E 0.4]
+[se ad55]
+[wt 0.1]
+[se ad55]
+[wt 0.5]
+[seStop ad55 1.0]
+[wt 0.1]
+[seStop ad55 1.0]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+待ってください！[r]黒髭さん、ファントムさん！
+[k]
+
+[charaFace A 5]
+＠マシュ
+せめて、見苦しくない範囲に着替えを！[r]着替えを済ませてからの撤退を希望します！
+[k]
+
+
+？1：ひとまず四天王とやらを、追うしか[&ないか:ないのかな]？
+？！
+
+
+[charaFace A 7]
+＠マシュ
+りょ……了解です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ええ、本気でやるわ。久々にね！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_3 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,487 @@
+＄94-00-61-03-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 5027000 1 マリー]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 4024000 1 モードレッド]
+[charaSet F 7001000 1 ヘラクレス]
+[charaSet G 98002000 1 フォウ]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠玉藻の前
+その首、獲ったぁ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaShadow F true]
+[charaFadein F 0.1 1]
+
+[wt 0.2]
+
+[charaEffect F bit_talk_14]
+[wt 0.1]
+[se bac14]
+[charaShake F 0.05 3 3 0.4]
+[wt 1.0]
+
+[bgmStop BGM_EVENT_3 0.7]
+[charaSpecialEffect F darkEnemyErasure 1 1.7]
+[se ad52]
+[wt 1.0]
+[charaChange F 98101700 0 fade 1.0]
+[wt 0.1]
+[charaShadow F false]
+[wt 0.9]
+
+＠魔猪
+…………ご。お。[r]ろ。ずずずずずずずずずずず。
+[k]
+
+＠魔猪
+ず……。
+[k]
+
+[messageOff]
+[charaSpecialEffect F enemyErasure 1 1.7]
+[se ad42]
+[wait charaSpecialEffect F]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+はー、くたびれましたー。[r]マスター、[charaFace D 0]マスター。どうぞマッサージなど♪
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+随分とまあ粘ったものだ。[r]今までの魔猪などとは格が違うな。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+あの島の巨大魔猪同様、[r]幻獣の域に達した怪物……魔物。
+[k]
+
+＠スカサハ
+本来なら、世界の裏側に居るか[r]とうの昔に絶滅したはずの代物だ。
+[k]
+
+＠スカサハ
+なのにこいつらは、平然とこの世界に存在し、[r]力を蓄え続けている。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……この島は、余程隔離された場所なのでは？
+[k]
+
+＠スカサハ
+世界を見通す英雄など幾らでもいる。
+[k]
+
+＠スカサハ
+まして、このランクの魔獣が闊歩している土地を、[r]強欲な魔術師が見逃すはずあるまい。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+[line 3]となると、結論は自ずと絞られる。[r]さ、もう少し歩くぞ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+待って下さい。[r]魔猪はこの木を守っていました。
+[k]
+
+[charaFace A 12]
+＠マシュ
+何か調べてから先に進んだ方が[line 3]
+[k]
+
+＠スカサハ
+調べるまでもない。[r]それはな、[#トネリコの木だ]。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……？
+[k]
+
+＠スカサハ
+さ、行くぞ。[r]……砕けてなければ、風化はしていないはずだが……。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.5 1]
+[bgmStop BGM_EVENT_5 0.5]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[scene 30641]
+[wt 0.5]
+
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+[se ad37]
+[seVolume ad37 0 0.5]
+[wt 1.5]
+[seStop ad37 5.0]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+＠モードレッド
+……オレじゃん、これ！？
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+こ、これはモードレッドさんが前の島で張り切って[r]建てたモーさん像！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+こうして朽ち果てた姿を見ると、[r]何とも栄枯盛衰、ただ春の夜の夢の如く[line 2]。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+ぶっちゃけ怖いな。[r]夢に出てきそうだ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+オレの石像が……。[r]うわーん、マスター！
+[k]
+
+？1：はい、よしよし
+？！
+
+[wt 0.4]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え、え、え？
+[k]
+
+＠マシュ
+この壊れて古びた石像って、[r]あの島で作ったやつですよね！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ……？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マリー
+…………ああ！[r]そーゆーことなのね！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠スカサハ
+おお、マリーは[#聡:さと]いな。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠スカサハ
+そう複雑な謎でもないさ、マシュ。[r]物事は至極単純で至極真っ当だ。
+[k]
+
+＠スカサハ
+ここにこの石像が、こんな状態であるなら。[r]当然、[#この島はあの島に決まっている]。
+[k]
+
+[charaFace A 6]
+＠マシュ
+あ…………！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+我々は船出をして真っ直ぐ進み、ここに辿り着いた。
+[k]
+
+＠スカサハ
+だが、その間に我々を除いて[r]時間が猛烈な勢いで進んだのだろう。
+[k]
+
+＠スカサハ
+そして曖昧なまま、[r]再びこの島に戻ってきた時[line 3]
+[k]
+
+＠スカサハ
+この島では、大雑把に[r]約二千年の月日が流れていたということだ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠玉藻の前
+に[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+二千年！？
+[k]
+
+？1：自分たちはどうして巻き込まれなかった？
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+……というより、この島だけが特別なのだろう。[r]恐らく、時間の進み方が異常なのだ。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+ここで一年過ごそうとも、外の世界[line 3]つまり、[r]島の外側では、わずかな時間しか経過しない。
+[k]
+
+[charaFace B 0]
+
+？2：自分たちはどうすれば脱出できる？
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠スカサハ
+まず脱出法を考慮するあたり、さすがだなマスター。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+確かに島の謎を解き明かしたのはいいが、[r]脱出法はな……。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+まあ良い。[r]謎を解く内に見えてくるものもあるだろう。
+[k]
+
+？！
+
+＠スカサハ
+ともかく、この世界は[line 3]二千年以上前から、[r]『我々の世界』とは切り離されている。
+[k]
+
+＠スカサハ
+魔術師もいない、英雄も存在しない。
+[k]
+
+＠スカサハ
+うりぼうが日がな一日のんびりするだけの、[r]世界だった。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+ところが、その世界に[#闖入者:ちんにゅうしゃ]がやってきた。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+それが、わたしたち……。
+[k]
+
+＠スカサハ
+左様。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠玉藻の前
+なるほどですねえ。
+[k]
+
+＠玉藻の前
+私たちがあの島で暮らし、文明を築いたせいで、[r]うりぼうたちもまた文明というものに目覚めてしまった。
+[k]
+
+[charaFace D 4]
+＠玉藻の前
+……しかし、発達しすぎじゃありません？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠スカサハ
+うむ。まあ、そこら辺は確かに疑問があるが……。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+ともかく、うりぼうは二千年の月日を経て[r]この島に壮大な文明を築き上げた。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+あの石像も、恐らくは大事にされていたのだろうな。[r]何しろ、我々が作ったものだし。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マリー
+あの子たち、とっても頑張ったのね！[r]帰ったら褒めてあげましょう！
+[k]
+
+[charaFace A 13]
+＠マシュ
+マリーさんが褒めると、[r]皆とっても嬉しそうですからね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠フォウ
+フォウフォウ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、フォウさんはいつでも[r]わたしたちに勇気を与えてくれます。
+[k]
+
+＠フォウ
+フォム。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+よし、ひとまず帰還しよう。[r]この事実を開示して、善後策を講じねばな。
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

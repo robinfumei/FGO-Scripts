@@ -1,0 +1,377 @@
+
+
+
+＄01-00-07-12-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98107500 1 ウルク兵士]
+[charaSet C 3027000 1 アナ]
+[charaSet D 2020001 1 イシュタル]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 98106200 1 マーリン]
+[charaSet G 98003000 1 Dr.ロマン]
+[charaSet H 3028000 1 ジャガーマン]
+
+[scene 32800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠マシュ
+ケツァル・コアトル攻略作戦、開始ですマスター。[r]まずはウルに向かいましょう。
+[k]
+
+[charaFace A 13]
+＠マシュ
+あ、門番さん。[r]こちら、ギルガメッシュ王からの外出証明印です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠ウルク兵士
+はい、確かに。[r]皆さん、どうかご無事で。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠アナ
+貴方は……初めてウルクに来た時、[r]門番をされていた方ですね。
+[k]
+
+＠アナ
+この南門はケツァル・コアトルに襲撃されましたが……[r]無事だったのですか？
+[k]
+
+＠ウルク兵士
+はは……それがお恥ずかしい事に、[r]相手にされなかったのです。
+[k]
+
+＠ウルク兵士
+ここ数日、ウルクで原因不明の体調不良者が[r]出ている事は知っていますか？
+[k]
+
+[charaFace C 4]
+＠アナ
+……知っています。[r]体力のないお年寄りから亡くなってしまう、と。
+[k]
+
+＠ウルク兵士
+私もその兆しがあるのです。[r]ここ三日ばかり、食欲も失せてしまって。
+[k]
+
+＠ウルク兵士
+そんな私の顔を見ると、あの女神はこう言いました。[r]“無理はよくないヨー、マンゴー食べル？”と。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 2]
+＠イシュタル
+マンゴーって、果物のマンゴー？[r]名前は私も知ってるけど……この時代にあったんだ……
+[k]
+
+＠ウルク兵士
+はい。これがまた、たいへん美味しく、口にすると[r]みるみる回復しまして。おかげで門番に復帰したのです。
+[k]
+
+[charaFace D 2]
+＠イシュタル
+そして食べたんだ！
+[k]
+
+＠ウルク兵士
+ははは。そんな事もあったので、[r]みなが怖がっていた南門の護りについたのですよ。
+[k]
+
+＠ウルク兵士
+なので、その……私にはあの密林の女神が[r]邪悪なものとは思えないのです。
+[k]
+
+＠ウルク兵士
+こんな事を言われても迷惑でしょうが、[r]密林の女神と出遭った時、会話ができる状況であるなら……
+[k]
+
+＠ウルク兵士
+刃を交える前に、どうか話をしてみてください。[r]戦いを避ける道があるかもしれません。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[scene 30400]
+[wt 2.0]
+[se ad220]
+[seVolume ad220 0 0.05]
+[seVolume ad220 1.5 0.3]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……と、門番の方は言ってらっしゃいましたが……[r]ケツァル・コアトルと会話は[seStop ad220 1.5]成立するのでしょうか？
+[k]
+
+？1：しそうな気はする
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠イシュタル
+しないわよ、あんなの。[r]襲われたら迎撃する、ぐらいの覚悟でいなさい。
+[k]
+
+[charaFace D 7]
+＠イシュタル
+大丈夫、今度は私も戦いに参加してあげるから。[r]女神としてどっちが格上か、よく見てなさい。
+[k]
+
+[charaFadeout D 0.1]
+
+？2：もっと[&オレ:わたし]に高さがあれば……
+
+[charaFace A 0]
+＠マシュ
+高さ、ですか？[r]先輩の身長は[&男性:女性]として低い方ではないと思いますが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ、フォフォーウ。
+[k]
+
+[charaFadeout E 0.1]
+
+？！
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠マーリン
+ケツァル・コアトルとの対話か。[r]確かに戦闘を回避する可能性はあるかもだ。
+[k]
+
+＠マーリン
+彼女はこう言った。[r]“母さんに呼ばれたから人間を滅ぼす”と。
+[k]
+
+[charaFace F 1]
+＠マーリン
+という事は、[r]人間と敵対しているのは彼女自身の考えじゃない。
+[k]
+
+[charaFace F 0]
+＠マーリン
+ただ、その“母さん”というのが何者なのか、という[r]次の問題も出てきてしまうけどね。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠アナ
+……母さん、という以上、[r]魔獣たちの母、ティアマトではないのですか？
+[k]
+
+[charaFace F 0]
+＠マーリン
+まあ、順当にいけばそうなる。[r]そのあたりどうなんだい、女神イシュタル？
+[k]
+
+＠マーリン
+ゴルゴーンはキミたちに人類排斥を命じたのかな？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠イシュタル
+はあ？[r]知らないわよ、『三女神同盟』の事なんて。
+[k]
+
+＠イシュタル
+ケツァル・コアトルは翼ある蛇なんでしょ？[r]同じ蛇仲間としてゴルゴーンに肩入れしてるんじゃない？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+（……イシュタルは『三女神同盟』に興味はない……？[r]　いや、待てよ……これまでの違和感、もしかして……）
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_11 0.7]
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad221]
+[seVolume ad221 0 0.05]
+[seVolume ad221 0.5 0.5]
+[wt 1.5]
+[seStop ad221 1.5]
+
+＠H：？？？
+はははははははははニャははははははははは！[r]やはり予想通りノコノコ現れたニャ獲物ども！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠H：？？？
+ククルんが密林に帰ったのなら、[r]オマエたちもまた密林に入る！　これ自明の理なり！
+[k]
+
+＠H：？？？
+だがその獲物を横からブンどるのがジャガーの知恵！[r]いざつまみ食いといくぜ、とーう！
+[k]
+
+[wt 0.2]
+[messageOff]
+[se ad7]
+[charaSpecialEffect H appearanceReverse 1 0.4]
+[wait charaSpecialEffect H]
+[se ad223]
+[wt 1.0]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、ジャガーマンさんです。[r]いつも通り、木の上から飛び降りてきました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、密林の中では流石のステルス性能だね。[r]周囲の濃い魔力に紛れてまったく分からなかったよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠マーリン
+しかしケツァル・コアトルとて南米の主神だ。
+[k]
+
+＠マーリン
+いかにゴルゴーンが聖杯で強化されているとはいえ、[r]理由もなしで従うとは思えない。
+[k]
+
+[charaFace F 0]
+＠マーリン
+門番クンの言う通り、彼女にも事情はあると見た。[r]母とやらの問題はさておき、会話を試みるのはいい事だ。
+[k]
+
+[charaFace F 1]
+＠マーリン
+そう、会話。会話こそ人間の真心であり[r]優しさだからね、[%1]君。
+[k]
+
+？1：はい
+？2：はい
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠ジャガーマン
+もう[messageShake 0.05 5 5 0.7]ぜんっぜん説得力がねぇ[line 3]！
+[k]
+
+[charaFace H 4]
+＠ジャガーマン
+いま！　目の前で！　会話すらしてもらえない神が一匹、[r]涙で瞳を曇らせていると思えないのかニャ[line 3]！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アナ
+はい。ケツァル・コアトルの神格を見た後だと、[r]木彫りの虎ぐらいにしか見えませんでした。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠ジャガーマン
+よーし殺す。ここで千年に渡る[r]光と闇の戦いに決着をつけてやらあ！
+[k]
+
+＠ジャガーマン
+オマエたち人間に明日はない！[r]なぜって弱いものは死ぬるが定め！
+[k]
+
+＠ジャガーマン
+そこに善とか悪とかは関係ないのです！[r]生き残りたければ強くあれ！　それが野性の掟ニャリ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ジャガーマン、戦闘態勢に入りました……！[r]そして、なんとなく言っている事がマトモです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠ジャガーマン
+フッ、今さら気付いても手加減はしないぜ[#ベイビー:ハニー]？[r]弱肉強食の掟に沈むがいいニャー！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

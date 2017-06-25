@@ -1,0 +1,194 @@
+＄94-00-21-06-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 4011000 1 ブーディカ]
+
+[scene 22130]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+あ……この部屋は正常のようです。[r]部屋の住人は……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+[wt 0.7]
+＠ブーディカ
+や。こんばんは、マシュ、[%1]。[r]あたしの部屋にようこそ。
+[k]
+
+＠ブーディカ
+もしかして迎えに来てくれたの？[r]それはありがとう。でも[line 3]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+でも……なんですか、ブーディカさん。[r]貴女も、やはり……
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[bgm BGM_EVENT_2 0.1]
+＠ブーディカ
+もう、ダメだよ、呼び鈴も押さずに入ってくるなんて。[r]そこはちゃんと叱っておくからね、お姉さんとして。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+……！　先輩、良かったです！[r]ブーディカさんは変質していません！
+[k]
+
+＠マシュ
+いつもの、頼りになって、優しくて、それで[line 3][r]抱きしめられるとほわっとするブーディカさんでした！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ブーディカ
+え？　なに、やだなあマシュったら。[r]あたし、そんなにハグばっかりするハグ魔だった？
+[k]
+
+[charaFace F 1]
+＠ブーディカ
+まあいいや。ちょうどシチュー作ってたところなんだ。[r]キミも食べていくでしょ、[%1]？
+[k]
+
+？1：ええ、もちろん。
+？2：食べたら帰りましょうね。
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！　先輩の活動時間も限界値を超えていますし、[r]このあたりで栄養補給をするべきではないかと。
+[k]
+
+[charaFace A 13]
+＠マシュ
+そして、食事を摂った後はカルデアへ戻りましょう。[r]何ならブーディカさんを送る為、一旦帰還して[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ブーディカ
+[line 3]帰る？[r]なにを言っているの、マシュ？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+
+[wt 0.25]
+[scene 22140]
+
+[charaFadeout F 0.1]
+
+[charaSet F 4011002 1 ブーディカ]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1]
+
+[fadein black 0.5]
+[wait fade]
+
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wt 0.3]
+
+＠ブーディカ
+ふざけたコトを言わないで。[r]帰る、ですって？
+[k]
+
+＠ブーディカ
+あたしは帰らない。私に帰る場所なんてない。[r]だって[line 3]ぜんぶ、おまえたちが奪ったんだ！
+[k]
+
+＠ブーディカ
+あの人の親族はあたしたちだけだった。[r]王には、あたしと娘しかいなかった！
+[k]
+
+＠ブーディカ
+だからあたしは後を継いだのに[line 3][r]女には相続権がないと言って[line 3]
+[k]
+
+＠ブーディカ
+おまえたちが！[r][#ローマ:おまえたち]が、あたしたちから奪ったんだ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+ブーディカさん……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ブーディカ
+あたしは忘れていた。[r]人類史を守る、なんて大義名分で誤魔化していた。
+[k]
+
+＠ブーディカ
+この怒りを。この憎しみを。[r]この復讐を[line 3]！
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠ブーディカ
+それを邪魔するものは誰だろうと許さない。[r]勝利の女王の名の下に、その首を晒すがいい……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,336 @@
+
+
+＄94-00-45-08-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 98076000 1 弁慶]
+[charaSet G 98075000 1 鬼]
+[charaSet H 4023001 1 坂田金時]
+
+
+[scene 27800]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+
+＠牛若丸
+あれで最後の一匹。なかなか素早いですが、[r]この牛若の前では敵ではありません！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠鬼
+グガアアアッ！！
+[k]
+
+[charaTalk A]
+
+＠マシュ
+危ない、反撃してきます！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+なんの、そのような攻撃！　ハッ！
+[k]
+
+[messageOff]
+
+[charaMove D -800,0 0.3]
+[se ad73]
+[wt 0.3]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+さすがです、素早い動きでかわしましたが……
+[k]
+
+＠マシュ
+あれ？　牛若丸さんの足下に何かが転がっ……。
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+
+[wt 0.4]
+
+
+[se ad129]
+
+[wt 1.0]
+
+[charaFace A 14]
+
+＠マシュ
+……！　
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk B]
+
+＠Dr.ロマン
+まあ、あんなに激しく飛び跳ねながら戦い続けたら、[r]そうだね。持ってる地蔵への衝撃もあるよね……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+あ……兄上のクビがもげたーッ！
+[k]
+
+[charaFace D 5]
+
+＠牛若丸
+おのれ、よくも兄上を！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠鬼
+ギイッ！？
+[k]
+
+[messageOff]
+
+[se bac13]
+[effect bit_talk_12]
+
+[charaFadeout G 0.1]
+[wt 0.7]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+理不尽！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+兄上は、兄上のクビは……そこかっ！[r]ま、待てー！
+[k]
+
+[se ad59]
+[seStop ad59 1.5]
+[charaFadeout D 0.4]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+お地蔵さまの首が、凄い勢いで転がっていきます。[r]まるでおむすびころりんのように……。
+[k]
+
+＠マシュ
+そして、その先にあるのは[charaFace A 15][line 2]あっ。
+[k]
+
+
+＠マシュ
+あれは……ジャパニーズ・トラディショナル・[r]人的農業堆肥生産設備[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+[charaFace F 0]
+[charaFadein F 0.1 0]
+
+＠風魔小太郎
+肥溜めですね。
+[k]
+
+[bgmStop BGM_EVENT_7 0.1]
+
+[wt 0.2]
+
+[se ad130]
+
+[wait se ad130]
+
+[bgm BGM_EVENT_7 0.1]
+
+
+[charaTalk F]
+
+＠弁慶
+そして落ちましたな。
+[k]
+
+
+[charaFadeout E 0.1]
+
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+
+＠坂田金時
+地蔵サマ……まあそういう事もあるよな……[r]地蔵菩薩でも、テメェだけは救えねえってか……
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+…………………………。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+さすがに固まってらっしゃいますが……[r]あ。
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+さ。参りましょうか、主殿。[r]先はまだまだ長いですよ。（ぽいっ）
+[k]
+
+[se ad129]
+
+[charaTalk B]
+
+＠Dr.ロマン
+（胴体[line 2]捨てた！）
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠マシュ
+ええと、あの。あれは[line 2][r]兄上さんは、いいんですか……？
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠牛若丸
+ははは、何を言っているのですマシュ殿。
+[k]
+
+[charaFace D 5]
+
+＠牛若丸
+私の完璧な兄上は厠とか行きませんから。[r]よって、あのクビは兄上ではありません。
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+
+＠マシュ
+はあ……牛若丸さんの中で、[r]とても神格化されているのですね、お兄さんは。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠牛若丸
+さあ行きましょう。[r]次の大門はもうすぐのようですよ。
+[k]
+
+
+
+＠牛若丸
+……？　ああ、大丈夫です。[r]兄[charaFace D 1]上はどこにでもおられますから。
+[k]
+
+[charaFace D 6]
+
+＠牛若丸
+よく見ればあの岩肌も兄上で、この小石も兄上で、[r]空の色も兄上で、ふふ……兄上がいっぱい……。
+[k]
+
+[charaFace D 7]
+
+＠牛若丸
+両手いっぱいの兄上とか、もうどうしたものか……[r]牛若は幸せものです……
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+まともに戻ったかと思ったら……やっぱり、[r]どこかが局所的におかしいね……
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_7 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

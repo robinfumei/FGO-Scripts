@@ -1,0 +1,962 @@
+
+
+
+＄01-00-07-01-1-0
+
+[soundStopAll]
+[charaSet A 98024010 1 シュメル人]
+[charaSet B 98106910 1 ？？？]
+
+[charaSet C 4018001 1 ？？？]
+
+[charaSet D 99371100 1 ？？？]
+[charaSet E 98024110 1 シュメル人]
+
+
+
+
+
+[scene 32400]
+[fadein black 2.0]
+[wait fade]
+
+
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaScale B 1.01]
+
+[wt 0.8]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.7 1]
+＠シュメル人
+おお……どうか、どうか慈悲を……！[r]母なる女神、魔獣たちの母、原初の支配者よ……！
+[k]
+
+＠シュメル人
+我々はあなた様には逆らいません……！[r]残った街も、人も、財宝も、すべてあなた様に[line 3]
+[k]
+
+[se ad190]
+[wt 1.0]
+[seStop ad103 0.4]
+
+[charaShake A 0.05 4 4 0.4]
+＠シュメル人
+ひぃいいい！[r]食べ、食べないで、食べないでくれぃぃいいい……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠シュメル人
+カザル市はウルク市とは違う！[r]あんな愚かな王に従う気はないのです！
+[k]
+
+＠シュメル人
+カザル市は二等市民に至るまで、[r]すべてあなた様の家畜として捧げます！
+[k]
+
+＠シュメル人
+だから、どうか、私たち、私たちだけ、ひ、[r]ひゃああああああああああ……！！！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[wt 0.2]
+[se ad191]
+[charaFadeout E 0.1]
+
+[shake 0.05 4 4 0.7]
+[wt 0.4]
+[fadein black 1.0]
+[effect bit_talk_35]
+[se ad46]
+
+[wt 2.5]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.7 1]
+＠B：？？？
+下等種が。ほとほと呆れる。[r]人類は一匹たりとも残さぬと告げたであろう。
+[k]
+
+＠B：？？？
+まこと猿以下の脳味噌よな。[r]喰うに[#値:あたい]するとでも思うたか。せいぜいが大地の[#肥:こえ]よ。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[maskout black 0.1]
+[wait mask]
+[wipeOff]
+[charaFadeout B 0.1]
+[fadeMove black 0.1 0.7]
+[wait fade]
+[wipeFilter circleIn 0.7 1.0]
+[maskin black 0.4]
+[wait mask]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠C：？？？
+だからって蛇腹でミンチにするのは良くないと思うの。[r]ここは一応、私たちの集会場でしょう？
+[k]
+
+＠C：？？？
+捕まえた[#獲物:ニンゲン]の始末は自分の巣でやるのが[r]マナーというものではありません？
+[k]
+
+[messageOff]
+[maskout black 0.4]
+[wait mask]
+[wipeOff]
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[fadein black 0.1]
+[wait fade]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[maskin black 0.1]
+[wait mask]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠B：？？？
+なんだ。蛇は嫌いか？[r]今のはおまえ好みの遊びだと思ったがな。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[maskout black 0.1]
+[wait mask]
+[wipeOff]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[fadeMove black 0.1 0.7]
+[wait fade]
+[wipeFilter circleIn 0.7 1.0]
+[maskin black 0.4]
+[wait mask]
+＠C：？？？
+そうね……力勝負で負けたらミンチ、というのは[r]確かに私の好きな戦い方だけど……
+[k]
+
+[charaFace C 1]
+＠C：？？？
+やっぱりナシでーす、さすがに階級差とか気にしマース！[r]アナタの[#殺:や]り方とても雑デース！
+[k]
+
+[messageOff]
+[maskout black 0.4]
+[wait mask]
+[wipeOff]
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[fadein black 0.1]
+[wait fade]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[maskin black 0.1]
+[wait mask]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠B：？？？
+これでも丁寧に扱ったつもりだがな。[r]人間どもが[#脆:もろ]すぎるだけだ。
+[k]
+
+＠B：？？？
+エシュヌンナ、シッパル、キシュ、そしてカザル。[r]もはや北部の市はすべて我が腹が呑み込んだ。
+[k]
+
+＠B：？？？
+ニップル陥落は時間の問題。[r]あの忌々しい北壁を叩き潰すまで、あと[#一月:ひとつき]もかかるまい。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[maskout black 0.1]
+[wait mask]
+[wipeOff]
+[charaFadeout B 0.1]
+[fadeMove black 0.1 0.7]
+[wait fade]
+[wipeFilter circleIn 0.7 1.0]
+[maskin black 0.4]
+[wait mask]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠D：？？？
+あら。図体も大きければ口も大きいのね、あなた。[r]半年もかけておいて、あと[#一月:ひとつき]追加、ですって？
+[k]
+
+＠D：？？？
+地を埋め尽くすほどの魔獣たちを使って、[r]できた事が北部の制圧だけなんて。
+[k]
+
+＠D：？？？
+本当にあと一月であの戦線を崩せるのかしら？[r]私たち、手助けしなくてよろしいの？
+[k]
+
+[messageOff]
+[maskout black 0.4]
+[wait mask]
+[wipeOff]
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[fadein black 0.1]
+[wait fade]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[maskin black 0.1]
+[wait mask]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠B：？？？
+よいとも。我らは互いに不可侵を[#契:ちか]った同盟。[r]おまえたちの手は借りぬ。第一[line 3]
+[k]
+
+＠B：？？？
+人間どもを一息に殺してしまっては、[r]それこそ釣り合いが取れぬというもの。
+[k]
+
+＠B：？？？
+魔獣たちには[#人間はどう扱ってもよい]と命じてある。
+[k]
+
+＠B：？？？
+巣に引きこみ[#嬲:なぶ]り殺すのも良い。[r]生きたまま食い殺すのも良い。
+[k]
+
+＠B：？？？
+あるいは[line 3]我が神殿の素材にするのも良い、とな。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[maskout black 0.1]
+[wait mask]
+[wipeOff]
+[charaFadeout B 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[fadeMove black 0.1 0.7]
+[wait fade]
+[wipeFilter circleIn 0.7 1.0]
+[maskin black 0.4]
+[wait mask]
+＠D：？？？
+……神殿の素材、ね。[r]どうりで前来た時より臭いと思ったわ。
+[k]
+
+＠D：？？？
+どこもかしこも生々しくて吐き気がする。[r]本来、死は清浄なものなのにね。
+[k]
+
+＠D：？？？
+そのあたり、あなたも同じじゃないの？[r]そっちの神話でも死は身近なものだったのでしょう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+＠C：？？？
+その通りデース！　殺したものをまだ殺さずに[r]とっておくとか、ちょっと考えられませーん！
+[k]
+
+[charaFace C 0]
+＠C：？？？
+とはいえ、これも弱肉強食の結果。[r]彼女の方針に意見はしないわ。だって[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[fadeMove black 0.4 0.4]
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.4 1]
+＠C：？？？
+私も、やる事は同じだものねぇ？[r]最終的にはひとりひとり、丹念に消していく。
+[k]
+
+＠C：？？？
+これってそういう話でしょう？[r]私たちはその為に呼ばれたもの。
+[k]
+
+＠C：？？？
+この時代の王を殺し、聖杯を手に入れた[#女神:もの]が[r]この世界の支配者となる。
+[k]
+
+＠C：？？？
+それが私たち、『三女神同盟』の契約だものねぇ？
+[k]
+
+＠C：？？？
+それともなに？　今さら気が乗らなくなった？[r]どれほど愚かな人間でも処理するのは可哀想になった？
+[k]
+
+＠C：？？？
+この時代に一人だけ残ってしまった、[r][#正統]なシュメルの女神さまとしては？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+＠D：？？？
+……馬鹿言わないで。[r]私こそ望むところよ。
+[k]
+
+＠D：？？？
+もともとウルクは私の[#世界:もの]。[r]気まぐれで人間どもに貸してやっていただけ。
+[k]
+
+＠D：？？？
+今さらかける慈悲も義理もないわ。『三女神同盟』の[r]一柱として、人間を地上から一掃してみせる。
+[k]
+
+[messageOff]
+[maskout black 0.4]
+[wait mask]
+[wipeOff]
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[fadein black 0.1]
+[wait fade]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[maskin black 0.1]
+[wait mask]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠B：？？？
+フ……土着の女神にさえ見捨てられるとは、[r]この時代の人間どもも、救いがたい下等種よな。
+[k]
+
+[charaTalk E]
+[se ad192]
+[wait se ad192]
+[wt 0.4]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[maskout black 0.1]
+[wait mask]
+[wipeOff]
+[charaFadeout B 0.1]
+[fadeMove black 0.1 0.7]
+[wait fade]
+[wipeFilter circleIn 0.7 1.0]
+[maskin black 0.4]
+[wait mask]
+
+＠E：少年の声
+良かった。皆さんの意志は堅いようだ。[r]これなら母上も安心できる。同盟の誓いは永遠だと。
+[k]
+
+[messageOff]
+[maskout black 0.4]
+[wait mask]
+[wipeOff]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[fadein black 0.1]
+[wait fade]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[maskin black 0.1]
+[wait mask]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠B：？？？
+……そなたか。いつ戻ったのだ？[r]戻ったのなら母の元に参れと何度言えばいい。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[maskout black 0.1]
+[wait mask]
+[wipeOff]
+[charaFadeout B 0.1]
+[fadeMove black 0.1 0.7]
+[wait fade]
+[wipeFilter circleIn 0.7 1.0]
+[maskin black 0.4]
+[wait mask]
+＠E：少年の声
+だからこの通り、すぐに馳せ参じたのです。
+[k]
+
+＠E：少年の声
+母上の方こそ、[r]単独で彼女たちと会合するのは控えてほしい。
+[k]
+
+＠E：少年の声
+彼女たちは頼もしい同胞ですが、[r]同時に恐るべき競争相手。何しろ[line 3]
+[k]
+
+＠E：少年の声
+この地上で母上を殺せる[#権能:ちから]を持つものは、[r]この二柱しかいないのですから。
+[k]
+
+＠E：少年の声
+聖杯ほしさにこの場で手を組み、[r]母上に騙し討ちをする、という話も十分に有り得ます。
+[k]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠D：？？？
+しないわよ、そんなの。[r]女神の同盟はそんな安いものじゃない。
+[k]
+
+＠D：？？？
+他の女神への攻撃は天罰となって自分自身に返る。[r]手を上げれば、手を上げた方が消滅するのよ。
+[k]
+
+＠D：？？？
+だから、私たちが出来る攻撃は、[r]相手より早く聖杯を手に入れる事。
+[k]
+
+＠D：？？？
+これ、そういうゲームなんでしょ？
+[k]
+
+[charaFadeout D 0.1]
+
+＠E：少年の声
+ええ。ウルク王が隠し持つ聖杯。[r]これを手にした女神が、人理焼却後の世界を支配する。
+[k]
+
+＠E：少年の声
+それが聖杯をこの地に送ったモノ[line 3][r]魔術王が示した、ただ一つの契約です。
+[k]
+
+＠E：少年の声
+ですが目的達成の手段は定められていません。[r]そこはみな自由に、好きなやり方で聖杯を求めればいい。
+[k]
+
+[messageOff]
+[maskout black 0.4]
+[wait mask]
+[wipeOff]
+[fadein black 0.1]
+[wait fade]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[maskin black 0.1]
+[wait mask]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.2]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠E：少年の声
+例えば[line 3]母上のように、人間を殺し尽くした後、[r]焦土と化したウルクで聖杯を探すもよし。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[maskout black 0.1]
+[wait mask]
+[wipeOff]
+[charaFadeout B 0.1]
+[fadeMove black 0.1 0.7]
+[wait fade]
+[wipeFilter circleIn 0.7 1.0]
+[maskin black 0.4]
+[wait mask]
+[wt 0.2]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠E：少年の声
+あなたのように自然と共に手を伸ばし、[r]目に見える脅威としてウルクを滅ぼすのもいい。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.2]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠E：少年の声
+そしてあなたのように[line 3]人々が気付かぬまま、[r]ある朝ぱったりと、すべてが死に絶えるやり方でも。
+[k]
+
+[charaFadeout D 0.4]
+
+＠E：少年の声
+すべては聖杯を手に入れる為のルートに過ぎません。[r]ああ、でも気をつけて。
+[k]
+
+＠E：少年の声
+先ほど妙な揺らぎを確認しました。[r]ウルクの星読みが予言したという希望[line 3]
+[k]
+
+＠E：少年の声
+人理を守る最後の魔術師が、[r]この世界にようやく現れたようですので。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 1.5]
+[maskout black 1.5]
+[wait mask]
+[fadein black 0.1]
+[wait fade]
+
+[wipeOff]
+[wipeout circleIn 0.1 1]
+[wait wipe]
+[maskin black 0.1]
+[wait mask]
+
+[wt 1.5]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+
+
+[scene 20320]
+[effect bit_talk_41]
+[shake 0.05 0 4 0]
+[se ad2]
+[seVolume ad2 0 0.05]
+[seVolume ad2 1.0 0.5]
+[wipein upToDown 1.0 1]
+[wait wipe]
+
+＠マシュ
+きゃ[line 5]ああああああ！
+[k]
+
+＠フォウ
+フォ[line 4]ウウウウウウ！
+[k]
+
+？1：わ[line 6]あああああ！
+
+？！
+
+＠マシュ
+落ちてる、落ちてます、バンジーです！[r]目視ですが現在、高度二百メートル！
+[k]
+
+＠マシュ
+地上まであと７秒！[r]マママ、マスター、指示を！　わたしはどうすれば！？
+[k]
+
+？1：落ち着いて着地に備えるンだ……ッ！
+？2：マシュ、頼む……！
+
+？！
+
+＠マシュ
+！
+[k]
+
+＠マシュ
+はい、マシュ・キリエライト、最善を尽くします！[r]マスター、手を……！
+[k]
+
+[se ad215]
+＠マシュ
+はい、キャッチＯＫです！[r]そのままわたしの腰に掴まってくださ[line 3]い！
+[k]
+
+[se ad183]
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+[se ad39]
+[effect bit_talk_36]
+＠マシュ
+宝具、展開……！[r]ギャラハッドさん、お力、お借りします……！
+[k]
+
+[messageOff]
+[effectStop bit_talk_36]
+[effect bit_talk_30]
+[wt 0.2]
+[shakeStop]
+[fadeout white 0.5]
+[seStop ad2 0.5]
+[wait fade]
+[effectStop bit_talk_41]
+[shake 0.05 0 10 1.0]
+[se ad38]
+[se ad74]
+[wt 2.5]
+[scene 28300]
+[fadein white 1.5]
+[wait fade]
+
+[wt 0.7]
+
+[charaTalk depthOff]
+[charaDepth A 0]
+[charaDepth B 1]
+[charaScale A 1.25]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.7 0,75]
+＠マシュ
+っ……先輩……いえ、マスター。[r]お怪我はありませんか……？
+[k]
+
+？1：……なんとか
+？2：……ありがとう。ナイス、マシュ
+
+？！
+
+[bgm BGM_EVENT_2 0.1 0.5]
+[charaFace A 13]
+＠マシュ
+いえ、お礼を言うのはこちらです。[r]わたし、咄嗟の事で頭が真っ白で[line 3]
+[k]
+
+[charaFace A 3]
+＠マシュ
+真っ白で…………。[r]………あの。ぴったり、密着していますね、先輩。
+[k]
+
+[wt 0.4]
+[messageOff]
+[se ad77]
+[charaShake A 0.05 2 2 0.4]
+[wt 0.5]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.2 88,-40]
+[charaAttack B normal 88,40 0.2]
+[wt 0.2]
+[charaAttack B normal 88,-100 0.25]
+[wt 0.3]
+＠フォウ
+フォフォフォーウ。[r]フーッ、フォウ！
+[k]
+
+[charaFace A 13]
+＠マシュ
+あ……フォウさんも盾の内側に隠れてくれたのですね。[r]無事で良かったです。
+[k]
+
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+先輩、立てますか？
+[k]
+
+？1：ああ、大丈夫
+
+[charaFace A 13]
+＠マシュ
+それは良かった。トラブルはありましたが、[r]レイシフト、無事に成功のようですね。
+[k]
+
+？2：フォウ……やはり知性があるな、貴様……ッ！
+
+＠フォウ
+……フォ。ムキュ、フォ[line 3][r]フォウ、フォーウゥ…………
+[k]
+
+？！
+
+[wt 0.2]
+[messageOff]
+[wipeout downToUp 0.5 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaTalk depthOn]
+[charaScale A 1.0]
+[scene 32940]
+[wipein upToDown 0.5 1]
+[wait wipe]
+
+[wt 0.2]
+[se ad13]
+[charaTalk C]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+二人とも無事かい！？　無事だね！？[r]良かった、一時はどうなる事かと！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 2]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+はい。上空二百メートルからのフリーフォールでしたが[r]マスターの機転で助かりました。
+[k]
+
+＠マシュ
+今まで多くのアクシデントがありましたが、[r]上空に放り出される、というのは例を見ません。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクター、一体なにが起きたのでしょう……？
+[k]
+
+[bgmStop BGM_EVENT_2 1.4]
+[communicationCharaFace 5]
+＠Dr.ロマン
+……それが、レイシフトを[r]意図的に妨害されたようなんだ。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+＠Dr.ロマン
+我々はその時代における最大の都市に[r]転移するようセッティングし、成功した。
+[k]
+
+＠Dr.ロマン
+けどレイシフトが成立した直後、キミたちは[r]強制的にその場所に飛ばされてしまったようだ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……それは。[r]魔術王の妨害、という事でしょうか？
+[k]
+
+？1：うーん。それは違うんじゃないかな
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+うん。ボクも[%1][&君:ちゃん]と同意見だ。[r]おそらくキミたちを弾いたのは都市の力だ。
+[k]
+
+＠Dr.ロマン
+ソロモンだって万能じゃない。そんな四六時中、[r]いつ現れるか分からないボクらを警戒できないさ。
+[k]
+
+？2：もしかして、ここがその都市なのかも
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+都市？　待って、そこも街なのかい？[r]確かに生命反応が多数見られるが……
+[k]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 0 5 0 0]
+＠ダ・ヴィンチ
+はい、話の途中にゴメンね～☆[r]ロマン、結果が出た。今のは結界による強制退去だよ。
+[k]
+
+＠ダ・ヴィンチ
+ウルク市には防御結界が張られているようだ。[r]襲撃を見据えてのものだろう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……都市の防衛機構に弾かれた、という事ですね。[r]確かに、我々は不法侵入者ではありますが……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+……うん。問題はそんな物騒な結界を[r]どうして張っているか、という事だろう。
+[k]
+
+＠Dr.ロマン
+今までの特異点同様、ウルク市にも危険が[r]迫っていると見て間違いはない。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、マシュ。[r]まずは状況を再確認してくれ。
+[k]
+
+＠Dr.ロマン
+こちらも座標を計ってはいるものの[r]まだ観測精度が低い。というか情報が多すぎる！
+[k]
+
+＠Dr.ロマン
+さすが西暦以前の世界だ、大気中の魔力濃度が[r]濃すぎてこちらの情報処理が追いつかない。
+[k]
+
+＠Dr.ロマン
+こうなると[%1][&君:ちゃん]の視認する映像が[r]解析の手がかりになる。
+[k]
+
+＠Dr.ロマン
+どうだい、何か変わったものはあるかい？[r]空の光帯はどうなっている？
+[k]
+
+[charaFace A 6]
+＠マシュ
+あ……そうでした。状況確認続行します。[r]空の光帯は[charaFace A 7]……やはり、存在しています。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……そうか。その時代にもあるのか。
+[k]
+
+＠Dr.ロマン
+こうなると“人理焼却が行われた場所”には[r]必ず出現している、と考えるべきだろう。
+[k]
+
+＠Dr.ロマン
+それと、他には？[r]そこはどんな場所なんだい？
+[k]
+
+？1：ずばり廃墟です
+？2：どう見ても廃墟です
+
+？！
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+そっかぁ、やっぱり廃墟かぁー。[r]いや、映像からなんとなく分かっていたけど、はあ……
+[k]
+
+＠Dr.ロマン
+そこはウルクから随分と離れた場所だ。ウルクに[r]向かう前に食料を調達できれば、と思っていたけど……
+[k]
+
+[charaFace A 8]
+＠マシュ
+はい、残念です……見渡すかぎりの廃墟で、[r]これでは食料も、情報収集もできません……
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+だよねぇ……不幸中の幸いはダ・ヴィンチちゃんの[r]マフラーがしっかり機能している事ぐらいか。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+こちらに返ってくるデータによると、[r]大気中の魔力濃度はエジプト領のものより濃い。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、体の調子は？[r]耳鳴りや頭痛はしないかな？
+[k]
+
+？1：いたって平気です
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 0 5 0 1]
+＠ダ・ヴィンチ
+ほら、私の言った通り。私の仕事は完璧だよ。[r]後で秘蔵の和菓子を私に寄こしたまえロマニ！
+[k]
+
+？2：耳鳴りと言えば……鳴き声が聞こえます
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+鼓膜に異常が？[r]いや、鳴き声が聞こえるって事は[line 3]
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_5 0.7]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad14]
+[seVolume ad14 0 0.2]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+！　待ってください、ドクター！[r]わずかに地響きのような音と[line 3]
+[k]
+
+＠マシュ
+異様な魔力反応が接近しています！[r]モニターされていますか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+！　いま確認した、敵性反応だ！[r]今までにないパターンで確認が遅れた！
+[k]
+
+＠Dr.ロマン
+スタッフもゴメンと謝っている！[r]ああいや、それはまた後の話にして、来るぞ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+紀元前2600年、古代シュメル[line 3][r]神代領域での初戦闘だ。
+[k]
+
+＠Dr.ロマン
+だが恐れる事はない。[r]キミたちだって負けてはいないのだから。
+[k]
+
+＠Dr.ロマン
+今まで六つの特異点を越えたマスターとその[r]サーヴァントの力を、この時代に見せつけてやれ！
+[k]
+
+？1：了解！　行[&くぞ:こう]、マシュ！
+？2：さすがドクター、やる気出てきた[line 3]！
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[seStop ad14 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

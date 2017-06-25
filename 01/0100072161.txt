@@ -1,0 +1,87 @@
+
+
+
+＄01-00-07-21-6-1
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+
+[scene 35500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ビーストⅡ、壁から[#剥離:はくり]！[r]冥界の底に落ちていきます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+霊基崩壊を確認、魔力炉心11基、すべて臨界を確認！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+みんな、急いで上空、ウルクに退避を！[r]ビーストⅡ、爆散するぞ[line 5]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、手を……！
+[k]
+
+？1：マシュ……！
+
+？！
+
+[messageOff]
+[charaShake A 0.05 1 1 0.8]
+[wt 0.8]
+[charaFadeout A 0.2]
+[wt 0.1]
+[se ad215]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_24 2.0]
+[fadeout white 1.5]
+[wait fade]
+[se bac60]
+[wt 1.0]
+[se bac61]
+
+[scene 10001]
+[wt 0.1]
+[fadein white 0.1]
+[wait fade]
+
+[wt 2.0]
+[wt 1.0]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

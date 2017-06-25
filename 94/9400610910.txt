@@ -1,0 +1,371 @@
+
+＄94-00-61-09-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 2026000 1 アルトリア]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 98101200 1 うりぼう]
+[charaSet D 5025001 1 エジソン]
+[charaSet E 6001002 1 小次郎]
+[charaSet F 3004001 1 カルナ]
+[charaSet G 4024000 1 モードレッド]
+[charaSet H 9004000 1 マルタ]
+
+[scene 30800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠アルトリア
+……何と。
+[k]
+
+＠アルトリア
+まさか、あのトゥルッフ・トゥルウィスが[r]全ての原因だったとは[line 3]。
+[k]
+
+＠アルトリア
+申し訳ない、うりぼう。[r]私の不徳のいたすところです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠スカサハ
+まあ、お主のせいではない。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+というか、さすがに生き残ってこの島に漂着するなど、[r]どんな奇跡を起こせば可能なのだ、という話だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠うりぼう
+お気になさらずであります！
+[k]
+
+[charaFace C 1]
+＠うりぼう
+そもそも、メカ魔猪の機械技術は多分、[r]我々のご先祖様の責任であります。
+[k]
+
+＠うりぼう
+[#５０ー５０:フィフティフィフティ]ということで、[r]いかがでありますかー？
+[k]
+
+＠アルトリア
+気が楽になるような、ならないような……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠スカサハ
+まあ、解決したのだからもういいだろう。[r]さて、エジソンからも吉報が届いている。
+[k]
+
+[charaFadeout B 0.1]
+
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+うむ！[r]……という訳で、遂に脱出装置の完成である！
+[k]
+
+＠エジソン
+計算によれば、カルデアへの通信もこれで[r]可能になるはずだ。
+[k]
+
+＠B：全員
+おー！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaSet A 98101000 1 うりぼう]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 0]
+[charaFace F 0]
+[charaFadein F 0.4 2]
+＠小次郎
+いや、めでたいめでたい。
+[k]
+
+[charaFace F 1]
+＠カルナ
+脱出か……。[r]感慨深い、と言えるのだろうな。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+
+
+[charaSet B 98100800 1 うりぼう]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠C：うりぼう
+増えたでありますなー。
+[k]
+
+[charaFace C 0]
+[charaFace B 1]
+＠B：うりぼう
+いつのまにか現れた方々も[r]いらっしゃいますなー。
+[k]
+
+[charaFace B 0]
+[charaFace A 1]
+＠A：うりぼう
+きっと我々には与り知らぬ、[r]壮大な物語があったのであります。
+[k]
+
+[charaTalk off]
+[charaFace C 1]
+[charaFace B 1]
+＠うりぼうｓ
+なるほどー。
+[k]
+
+[wt 0.2]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠モードレッド
+というか、おめーらどこに居たんだよ……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠小次郎
+[#拙:それがし]はカルナ殿共々、ベオウルフ殿のところで[r]世話になっていてな。
+[k]
+
+[charaFace G 0]
+＠モードレッド
+ふーん。……まあ、無事ならマスターも喜ぶから[r]いいんだけどさ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+
+[charaTalk on]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠カルナ
+しかしマスター。[r]オレたちも加わって構わないのか？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠マルタ
+いくら何でも置いていける訳ないでしょ。[r]ベオウルフ、アンタもよ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaSet F 7008001 1 ベオウルフ]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+＠ベオウルフ
+そりゃありがたいこった。[r]お礼にリターンマッチを要望するぜ。
+[k]
+
+[charaFace H 5]
+＠マルタ
+お礼になってない！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エジソン
+さて、これで脱出そのものは今すぐでも[r]可能だが[line 3]。
+[k]
+
+＠エジソン
+皆、この島でやり残したこともあるだろう。
+[k]
+
+＠エジソン
+別れを惜しむもよし、[r]島の環境を整備するもよし。
+[k]
+
+[charaFace D 1]
+＠エジソン
+思い残すことがなきよう、[r]この島での生活を楽しもうではないか！
+[k]
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+[scene 30820]
+[charaSet F 6024000 1 スカサハ]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠スカサハ
+おっと、マスター。[r]少々いいか？
+[k]
+
+[charaFace F 5]
+＠スカサハ
+大変唐突だが。[r]……この水着、どう思う？
+[k]
+
+？1：似合ってる
+
+[charaFace F 3]
+＠スカサハ
+……！
+[k]
+
+＠スカサハ
+そうか……。[r]お前がそう思ってくれるなら、心強い。
+[k]
+
+？2：綺麗だ
+
+[charaFace F 3]
+＠スカサハ
+ス、ストレートだな！？[r]……コホン。
+[k]
+
+＠スカサハ
+まあ、それならいい。
+[k]
+
+？！
+
+[charaFace F 0]
+＠スカサハ
+実は、お前に告白しなければならないことがある。[r]水着にするときに、霊基を弄ったと言ったな？
+[k]
+
+[wt 0.2]
+[charaFace F 4]
+＠スカサハ
+……忘れた。
+[k]
+
+？1：はい？
+？！
+
+[bgmStop BGM_EVENT_11 1.0]
+[wt 0.7]
+
+[charaFace F 2]
+＠スカサハ
+霊基の戻し方を[line 3]綺麗さっっっっぱり、[r]ものの見事に、すとーんと、忘れてしまった、のだ！
+[k]
+
+[charaFace F 0]
+＠スカサハ
+つまりだな、帰ってからも水着姿のまま、[r]ということになる。
+[k]
+
+[charaFace F 1]
+＠スカサハ
+だが、今の言葉で安心した。[r][#マスターがそう言うなら]、[#仕方ない]。
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+＠スカサハ
+この姿のまま、一年中戦ってやろうではないか！[r]何、サーヴァントたる私は風邪など引かぬ。
+[k]
+
+＠スカサハ
+冬の雪嵐とて、この姿で戦おう！
+[k]
+
+＠スカサハ
+……どーしたマスター、顔が引き攣っているぞ？[r]嬉しいだろう？　ん？　ん？　ん？
+[k]
+
+[wt 0.2]
+[charaFadeout F 0.4]
+[wt 1.0]
+
+[messageOff]
+[scene 20322 1.5]
+[wt 2.0]
+[bgmStop BGM_EVENT_7 1.5]
+
+＠スカサハ
+え、他のサーヴァントはどうなるか……？
+[k]
+
+＠スカサハ
+あっ。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+
+
+
+
+

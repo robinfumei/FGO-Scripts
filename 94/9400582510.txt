@@ -1,0 +1,225 @@
+
+＄94-00-58-25-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+
+[charaSet A 98100400 1 マシュ]
+[charaSet E 3025000 1 清姫]
+[charaSet F 6001002 1 小次郎]
+[charaSet H 98002000 1 フォウ]
+
+[scene 30500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+まあ……ありがとうございます、ますたぁ。[r]素朴で落ち着く、いい水路ができましたね。
+[k]
+
+＠清姫
+それに、小さな水車も……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+水の運動エネルギーを半永久的に回転エネルギーへと[r]変える仕組み、ですね。
+[k]
+
+＠マシュ
+単純ですが、よくよく考えると凄いです。
+[k]
+
+
+？1：何千年も使い続けられる技術かぁ……
+
+＠マシュ
+はい。人間の知恵というものが形になっているような、[r]そんな気がします。大袈裟かもしれませんが。
+[k]
+
+
+？2：一番最初に発明したのは誰なんだろうね？
+
+[charaFace A 4]
+＠マシュ
+それは[line 2]すみません、わかりません……。[r]誰なのでしょう……？
+[k]
+
+[charaFace A 7]
+＠マシュ
+カルデアに帰ったあかつきには、データベースを[r]目を皿のようにして検索し、
+[k]
+
+＠マシュ
+わかりやすくまとめたレポートにてきちんとご報告する[r]というのを約束します！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠小次郎
+ほぉう、聞き慣れた音に惹かれて来てみれば。[r]水車か。善き[#哉:かな]善き[#哉:かな]。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+聞き慣れた？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠小次郎
+拙者は百姓の息子でござるからな。[r]村に水車ぐらいあったでござるとも。
+[k]
+
+＠小次郎
+そのときにはどうも思わなんだが[line 2][r]このような南国の無人島でその音を聞くとなると。
+[k]
+
+[charaFace F 1]
+＠小次郎
+いやはや、意外に風流なものでござるな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はぁ……風流……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠清姫
+風流でも雅でもいいですが。わたくしはますたぁとの[r]憩いのひとときを堪能していたのです。
+[k]
+
+＠清姫
+邪魔者が一人増えるごとにますたぁ密度が薄れていく[r]のです。早く用事を済ませて帰ってください。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠小次郎
+用事も何も、拙者はこの音に惹かれて来ただけでござる[r]からなぁ。
+[k]
+
+＠小次郎
+[line 2]そう、マシュ殿も、マスターも。[r]水車の便利さや歴史に思いを馳せるのもよいが。
+[k]
+
+＠小次郎
+たまにはただ目を閉じ、跳ねる水音と、軋む木材の音に[r]耳を澄ませるのもよいでござるぞ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ、フォウフォーウ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あっ、なんだかウズウズしていたフォウさんが水車に[r]飛び乗って[line 2]エクササイズマシンのように！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+[seLoop ad108]
+[charaShake H 0.05 3 3 0]
+＠フォウ
+フォウッ、フォウッ♪
+[k]
+
+[seStop ad108 1.0]
+
+？1：楽しそうだ
+？2：どこかでよく見たような光景だ
+？！
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠清姫
+……あれも風流ですか……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠小次郎
+勿論にござる。ここで一句。[r]右下で　走り続ける　けものかな[line 2]と。
+[k]
+
+[charaFace F 1]
+＠小次郎
+いやあ、雅、雅……。頭の句を特に意味なく右下にしたのが、[r]非凡なセンスを感じさせるでござるな。フフ[line 2]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+どうやら風流の道は、[r]まだわたしには難しすぎるようです……。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

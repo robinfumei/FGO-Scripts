@@ -1,0 +1,684 @@
+＄94-00-64-28-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5028001 1 イリヤ]
+[charaSet C 98103600 1 ルビー]
+[charaSet E 98103200 1 サファイア]
+[charaSet F 98104000 1 クーちゃん]
+[charaSet G 5023000 1 エレナ]
+[charaSet H 4013001 1 メイヴ]
+
+[scene 20901]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaShake H 0.05 3 3 0.5]
+＠メイヴ
+きゃあ[line 4]！[r]この私があんなピンク色に[line 4]！
+[k]
+
+[bgmStop BGM_EVENT_3 1.5]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ピンク系なのは[#メイヴ:そっち]の方です[line 2]！
+[k]
+
+[bgm BGM_EVENT_34 0.1]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace H 10]
+[charaFace F 3]
+[charaFadein H 0.1 2]
+[charaFadein F 0.1 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+……ったく。前菜なんざ食ってる暇があるから[r]やられるんだよ、マヌケ。
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+らしくなく丁寧に、順序立てて侵略するとはな。[r]以前のテメエならまず主菜から食い殺しただろうに。
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+同じ魔法少女の末路とやらに少しでも同情した[r]おまえさんの負けだよ、メイヴ。
+[k]
+
+＠メイヴ
+くっ、バッカじゃないの……！？[r]いくらクーちゃんでも、その台詞は許せないわ…………！
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+はあ？　基本、オレはテメエの敵だぞ？[r]敵同士でつるみ合ってるのがオレたちの[#契約:かんけい]じゃねえか。
+[k]
+
+[charaFace H 3]
+＠メイヴ
+そ、それはそうだけど、クーちゃんにはいつも[r]愛憎入り交じっているけど！
+[k]
+
+[charaFace H 6]
+＠メイヴ
+でも、基本的にはラブのが強かったの！[r]だってトゲトゲが格好いいんだもの！
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+はいはい。趣味悪いな、テメエ。
+[k]
+
+[bgmStop BGM_EVENT_34 1.5]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 10]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+それよりさっきの失言、取り消して！[r]私は女王、他の魔法少女なんてどうでもいいんだから！
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace H 7]
+＠メイヴ
+私が救われて、私が満足して、[r]私が可愛くて、私が一番偉い[line 3]
+[k]
+
+[charaFace H 2]
+＠メイヴ
+そんな世界のために軍団を作っただけよ！[r]行き場のない魔法少女を集めていたのは結果論！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+[line 6]。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+なによ、その顔。[r]不思議なものを見るような目とか、何様のつもり！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+いえ……その。[r]いまのメイヴさんの言葉が、意外だったので……
+[k]
+
+[charaFace B 0]
+＠イリヤ
+でも、クーちゃんさんの指摘は正しいと思います。[r]メイヴさんは、立派な女王さまだったんですね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+はあ？　何ですって？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+だって、いま自分で言っていました。
+[k]
+
+＠イリヤ
+“私が救われて、私が満足して、[r]　私が可愛くて、私が一番偉い[line 3]”
+[k]
+
+[charaFace B 4]
+＠イリヤ
+……それはナーサリーちゃんも、メディアさんも[r]願っていた事だと思うけど……
+[k]
+
+[charaFace B 0]
+＠イリヤ
+メイヴさんも、“私だけが”とは言わなかった。
+[k]
+
+[charaFace B 1]
+＠イリヤ
+言葉にはしないけれど、メイヴさんは消えていった[r]魔法少女たちを、仲間として認めていたんですね。
+[k]
+
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 12]
+[charaFadein H 0.1 1]
+[wt 1.2]
+
+[bgmStop BGM_EVENT_2 0.1]
+[messageOff]
+[charaFadeout H 0.1]
+[se ad14]
+[shake 0.05 0 4 0]
+
+？1：城が……崩れる……！？
+
+？！
+
+[seStop ad14 1.0]
+[shakeStop]
+
+[bgm BGM_EVENT_6 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+おう、今のでトドメだな。[r]最後まで追い打ちありがとうよ、お嬢ちゃん。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+え……！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+いまメイヴの心が折れた。[r]城が崩れだしたのはその証拠だ。
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+なあ、そうだろメイヴ？　テメエの甘さに気づいて、[r]いま自分を本気で殺したよな、テメエ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 11]
+[charaFace F 0]
+[charaFadein H 0.1 2]
+[charaFadein F 0.1 0]
+
+＠メイヴ
+…………ごめんなさい。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+でも、こんな私はクーちゃんに[#相応:ふさわ]しくないから……[r]死んで出直してくるわ……
+[k]
+
+[charaFace H 14]
+＠メイヴ
+もっともっと邪悪で、[#放蕩:ほうとう]で、悪逆な[line 3][r]もうすっごい魔法少女になってカムバックするから！
+[k]
+
+[charaFace H 3]
+＠メイヴ
+その時まで待っていてね、クーちゃん♡
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+縁があったらな。[r]まあ、そん時はそん時で返り討ちにしてやるけどよ。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+………………ふふ。[r]そうよね。そういう関係よね、私たち。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+……さて。これで私も退場、打ち切りかあ。[r]悪役にしてはもった方かなあ。
+[k]
+
+[charaFace H 7]
+＠メイヴ
+で、そこのブタ。[r]カルデアの、なんて言ったっけ？
+[k]
+
+
+？1：[%1]です
+？！
+
+
+＠メイヴ
+[%1]。つっまんない名前。[r]覚えたくもないから、さっさと行って。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+そこの雌犬も連れて。こんな所にいないで。[r]あなたのくだらない世界を救いなさいよ。
+[k]
+
+[charaFace H 14]
+＠メイヴ
+最後まで、やってみせなさい。
+[k]
+
+[charaFadeout H 0.1]
+[se ad14]
+[shake 0.05 0 4 0]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………メイヴ……さん……、[r]……[charaFace A 5]っ……マスター！　もうお城が持ちません！
+[k]
+
+[charaFadeout A 0.1]
+
+[seStop ad14 1.0]
+
+[charaTalk E]
+[charaFace C 0]
+[charaFace E 0]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+[charaShake E 0.07 0 16 1.0]
+＠サファイア
+皆様、城の外へ退避を。
+[k]
+
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+イリヤさん！　何してるんですかー！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaPut B 1200,1200]
+[charaChange B 98102500 5 fade 0]
+[wt 0.1]
+[charaFadeout B 0]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……っ……[r]メイヴ、あなたも！
+[k]
+
+[charaFace B 5]
+＠イリヤ
+エレナさんの力も借りれば、[r]その傷を治療することだって！
+[k]
+
+
+？1：そう[&だ:だよ]、メイヴ[line 3]！　一緒に！
+？！
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[se ad14]
+[shake 0.04 0 6 0]
+[wt 1.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+それじゃあ、駄目だぜ。[r]逃げられねえ。
+[k]
+
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+こいつは、[#揺り戻し]って奴だ。
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+無理をして[#他:よそ]の世界に干渉したツケが[r][#メイヴ:こいつ]自身に[#還:かえ]ってくるのさ。
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+それを誤魔化す事はメイヴへの侮辱だ。[r]コイツは最初から承知の上で悪役を始めた。
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+命も心もくれてやったが、その[#矜持:きょうじ]まではやれねぇよ。[r]テメエらはさっさと先に進みやがれ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ……マスター！
+[k]
+
+
+？1：……[&すまない:ごめんなさい]、メイヴ
+？！
+
+[charaFace A 4]
+＠マシュ
+…………
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[se ad59]
+[wt 1.0]
+[seStop ad59 1.0]
+[wt 1.0]
+
+[shakeStop]
+[seStop ad14]
+[se ad38]
+[wipeFilter circleIn 0.5 0.5]
+[wt 1.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+……連中、行きやがったか。[r]チ[charaFace F 3]ィッ[line 3]オレも、だめだ。
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+メイヴ、てめえのなけなしの魔力も[r]底をついたな。
+[k]
+
+
+＠メイヴ
+………………。
+[k]
+
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+聞きたかったんだがよ。
+[k]
+
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+この世で一番の幸せってのは、なんだったんだ。
+[k]
+
+＠メイヴ
+もう[#叶:かな]った……わ……クーちゃん……。
+[k]
+
+＠メイヴ
+……いい女の、一番の幸せは……。[r]……死ぬ時に、最愛の人が、そばに[line 3]
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+あ？[r]なんだそりゃ。メイヴ。起きろ。
+[k]
+
+[messageOff]
+[se ad38]
+[wipeFilter circleIn 0.8 0.5]
+[wt 1.0]
+
+[charaFace F 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+……マジか。すげえな。[r]最後の最後に勝ち組ってワケかよ、おまえさん。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_6 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[wipeOff]
+[charaFadeout F 0]
+[scene 10000]
+
+[fadein black 0.5]
+[wait fade]
+
+[effect bit_talk_06]
+[wt 2.0]
+[effectStop bit_talk_06]
+[se ad52]
+[wait se ad52]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 21810]
+
+[charaSet H 98147000 1 ？？？]
+
+[charaDepth A 1]
+[charaDepth H 3]
+
+[charaTalk depthOff]
+
+
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaShake E 0.07 0 8 1.0]
+＠サファイア
+城が完全に崩壊してしまいました。
+[k]
+
+
+[charaFadeout E 0.1]
+
+[charaTalk off]
+
+[se ad39]
+
+[charaFadein H 0.4 1]
+[charaEffect H bit_talk_blight_01]
+
+[wt 3]
+
+[charaFadeout H 0.4]
+[wt 0.4]
+[charaPut H 1200,1200]
+[charaEffectStop H bit_talk_blight_01]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……っ……宝石が……！[r]わたしの手の中に……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk on]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠エレナ
+…………そう。[r]メイヴは[#亡霊:エコー]になったのね。
+[k]
+
+[charaFace G 0]
+＠エレナ
+ならいずれ、あたしの書斎で逢えるでしょう。[r]……彼女が本好きだったためしなんて無いけれど。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+エレナさん……[r]約束通り、エレナさんの石、お返しします。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠エレナ
+どうも。[r][line 3][charaFace G 1]ああ、メイヴなら気にしないで。
+[k]
+
+[charaFace G 5]
+＠エレナ
+あなたたちを殺す気満々だった人なのよ。[r]情けなんか無用よ。
+[k]
+
+[charaFace G 0]
+＠エレナ
+それと、その宝石はメイヴが託したのでしょう。[r]イリヤではなくマシュ、あなたにね。
+[k]
+
+[charaFace G 5]
+＠エレナ
+ついに……こうして宝石が四つ揃った。[r]ということは[line 3]。
+[k]
+
+
+？1：黒壁の内側の領域へ……？
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……ファースト・レディの王国へ……！
+[k]
+
+[charaFace B 3]
+
+[messageOff]
+[se ad39]
+[fadeout white 0.5]
+[wait fade]
+[wt 0.2]
+[fadein white 0.3]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+宝石たちが……[r]どんどん輝きを増して……っ……！
+[k]
+
+
+
+[messageOff]
+[se ad39]
+[bgmStop BGM_EVENT_2 3.0]
+[fadeout white 3.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[scene 10000]
+
+[se ad148]
+[wait se ad148]
+[wt 0.5]
+
+[se ad149]
+[fadein white 0.2]
+[wait fade]
+[wait se ad149]
+
+
+
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[soundStopAll]
+[end]

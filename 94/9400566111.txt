@@ -1,0 +1,67 @@
+
+＄94-00-56-61-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 4024000 1 モードレッド]
+[charaSet B 98100400 1 マシュ]
+
+[scene 30500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+あーあ、白けちまった。戻ろうぜ、マスター。[r]あとのことはスカサハ達に任せりゃいい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+あ、あの、モードレッドさん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+
+＠モードレッド
+なんだよ。
+[k]
+
+？1：今日はありがとう。楽しかったよ
+？！
+
+[messageOff]
+[charaFace A 2]
+[wt 1.0]
+[charaFace A 3]
+＠モードレッド
+……べ、別に、オマエらを[r]楽しませるためじゃなかったけどな。
+[k]
+
+＠モードレッド
+見られてたのがウザかったから教育しただけだぜ、教育。
+[k]
+
+[charaFace A 6]
+＠モードレッド
+せっかく教えたんだ。次また一緒に波乗りしたとき、[r]忘れてたら……怒るからな、オレ！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

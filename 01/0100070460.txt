@@ -1,0 +1,235 @@
+
+
+
+＄01-00-07-04-6-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 98002000 1 フォウ]
+
+[charaSet D 3027000 1 アナ]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 33200]
+[fadein black 1.5]
+[wait fade]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠マーリン
+おはよう[%1]君。[r]今朝も労働、ご苦労さま。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+おはようございますマーリンさん。[r]これからお出かけですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マーリン
+いやいや、ただの朝帰りだよ。[r]部屋に直行したかったが、君たちに用があってね。
+[k]
+
+＠マーリン
+今日でちょうど二十日。[r]ウルクでの生活にもずいぶんと馴染んできたかな？
+[k]
+
+？1：おかげさまで
+？2：実はすごく楽しいです
+
+？！
+
+[charaFace B 1]
+＠マーリン
+それは結構。順応性の高さは優れた動物の証だ。
+[k]
+
+＠マーリン
+目に見えるものすべてを楽しむからこそ、[r]人間の夢は美しく、面白い。
+[k]
+
+[charaFace B 4]
+＠マーリン
+などと言っておきながら、実は残念な報せがあってね。[r]シドゥリ殿からの伝言だ。
+[k]
+
+＠マーリン
+“本日、依頼はありません。[r][f small]  [f -]休日としてウルクをお楽しみください”との事だ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+休日……ですか。それは嬉しいのですが……[r]いささか拍子抜けですね、先輩。
+[k]
+
+＠マシュ
+今日はどんなお仕事が来るのかと[r]楽しみにしていたのですが。
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠アナ
+……仕事……休み……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マーリン
+では私はこれで。ああ、良い機会なんだから[r]マシュをデートに誘ったらどうだい？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[wt 1.2]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+逢い引きならエアンナ前の庭園がお勧めだよ。[r]イシュタルの寝所だけあっていい花を揃えている。
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[se ad60]
+[seVolume ad60 0 0.4]
+[wt 1.5]
+[seStop ad60 1.0]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ま、マーリンさんは二階に向かわれました。[r]……えっと、いかがいたしましょう、マスター？
+[k]
+
+？1：デートしかないのでは？
+？2：やはりデートしかないのでは？
+
+？！
+
+[messageOff]
+[charaTalk off]
+[charaFace A 3]
+[wt 1.5]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠アナ
+……すみません。[r]お二人は今日、手が空いているのですね？
+[k]
+
+＠アナ
+それでしたら、私が仕事を依頼します。
+[k]
+
+＠アナ
+……こちらが今まで貯金した銀です。[r]王の銀に交換して、七つあります。
+[k]
+
+＠アナ
+これで私に付いてきていただけないでしょうか……？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 0.7]
+
+[charaFace A 13]
+[wt 0.2]
+＠マシュ
+もちろんです。アナさんの頼みなら断れません。[r]お代も結構です。
+[k]
+
+＠マシュ
+ね、そうですよね、先輩？[r]ちょうどやり甲斐のある仕事を探していたのです！
+[k]
+
+？1：マシュの言う通り。任せて、アナ
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠アナ
+……それでは、現場にご案内します。[r]戦闘になりますので、よろしくお願いします。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+へ？　戦闘、なんですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ、フォーウ？
+[k]
+
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

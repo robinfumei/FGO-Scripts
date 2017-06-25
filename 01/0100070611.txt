@@ -1,0 +1,41 @@
+
+
+
+＄01-00-07-06-1-1
+
+[soundStopAll]
+[charaSet A 5018001 1 ギルガメッシュ]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 20730]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠ギルガメッシュ
+お、くぉ……！[r]強烈な前蹴りが、王の腹筋を破るとは……！
+[k]
+
+＠ギルガメッシュ
+なんだあれは、なぜ三号のクラスだけ違うのか！
+[k]
+
+？1：悪意しか感じない配置でしたね……
+？2：あと三倍は欲しかったですね……
+？！
+
+＠ギルガメッシュ
+ええい、今後はウルクにおいて[r]石像の不法投棄は重罰にしてくれる！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.4]
+[fadeout black 1.5]
+[wait fade]
+[soundStopAll]
+[end]
+

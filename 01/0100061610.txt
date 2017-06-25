@@ -1,0 +1,544 @@
+＄01-00-06-16-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_25 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet C 2013000 1 アーラシュ]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 6003002 1 百貌のハサン]
+[charaSet G 5022001 1 三蔵]
+[charaSet H 2014000 1 俵藤太]
+
+[scene 29200]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+＠アーラシュ
+おう、お疲れさん！　よくやったな！[r]吉報、届いてるぜ[%1]！
+[k]
+
+[charaFace C 0]
+＠アーラシュ
+そら、ベディヴィエール卿も民家の陰に隠れてないで。[r]功労者はちゃんと迎えてやらないとな？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+＠ベディヴィエール
+……はい。それは分かっているのですが……[r]私は大事な時に倒れていた、情けない騎士ですので……
+[k]
+
+？1：ただいま、ベディヴィエール卿！
+
+[charaFace B 3]
+＠ベディヴィエール
+は、はい！[r]お帰りなさい、[%1][&:さん]。
+[k]
+
+[charaFace B 1]
+＠ベディヴィエール
+……本当に、よく無事で。
+[k]
+
+＠ベディヴィエール
+アグラヴェイン卿と鉢合わせた、と聞いた時は[r]肝を冷やしましたが……
+[k]
+
+[charaFace B 10]
+＠ベディヴィエール
+ふふ。あの“鉄のアグラヴェイン”を撤退させるとは、[r]さすがのご活躍。私も同席したかった。
+[k]
+
+？2：気にしなくていいのに
+
+[charaFace B 4]
+＠ベディヴィエール
+……ありがとうございます。
+[k]
+
+＠ベディヴィエール
+私も、落ち込んでいる暇があるのなら[r]挽回の機会に備えるべし、と分かっているのですが……
+[k]
+
+[charaFace B 1]
+＠ベディヴィエール
+いけませんね、どうしても悪い方に考えてしまう。[r]貴方の前向きさを見習うとしましょう。
+[k]
+
+[charaFace B 10]
+＠ベディヴィエール
+そしてご活躍、お見事でした[%1][&:さん]。[r]我が事のように嬉しいです。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アーラシュ
+それで、そっちの二人が追加の二人かい？[r]……これまた珍しい出で立ちだが……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠三蔵
+ええ、あたしは玄奘三蔵！[r]御仏のご加護を届けに来たわ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.4 1]
+＠俵藤太
+拙者は俵藤太。見ての通り巻き込まれた通行人だ。[r]……なるほど。これが西の村か。
+[k]
+
+＠俵藤太
+ここに来るまで村の様子はよく聞いていた。[r]であれば[line 3]むっふっふ。
+[k]
+
+[charaFace H 1]
+＠俵藤太
+長話も挨拶も後回しだ！[r]まずはコイツをお見舞いしてやらねばなァ！
+[k]
+
+＠俵藤太
+悪虫退治に工夫を凝らし、三上山を往来すれば[r]汲めども汲めども尽きぬ[#幸:さち][line 3]
+[k]
+
+＠俵藤太
+お山を七巻き、まだ足りぬ。[r]お山を鉢巻、なんのその。
+[k]
+
+＠俵藤太
+どうせ食うならお山を渦巻き、[r]龍神さまの太っ腹、釜を開ければ大漁満席！
+[k]
+
+[se ad39]
+[charaEffect H bit_talk_36]
+＠俵藤太
+さあ、行くぞぅ！[r]対宴宝具[line 3][#美味いお米]が、どーん、どーん！
+[k]
+
+[se ad35]
+[shake 0.05 3 6 0.2]
+[wt 0.7]
+[charaEffectStop H bit_talk_36]
+[se ad35]
+[shake 0.05 3 6 0.2]
+[wt 0.5]
+[bgmStop BGM_EVENT_25 0.4]
+[messageOff]
+[fadeout white 1.0]
+[wt 0.6]
+[se ad36]
+[charaPut G 0,250]
+[charaEffect G bit_talk_sakura02]
+[wait fade]
+[cameraMove 0.1 0,0 1.0]
+[charaFadeout H 0.1]
+[charaPut H 0,-300]
+[charaEffect H bit_talk_06]
+[se ad167]
+[wt 1.0]
+[fadein white 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+な。
+[k]
+
+＠呪腕のハサン
+な。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace B 3]
+[charaFadein B 0.1 2]
+＠ベディヴィエール
+な。
+[k]
+
+＠静謐のハサン
+[FFFFFF]？[-]
+[k]
+
+？1：なんだそりゃあ[line 5]！？
+
+？！
+
+[seStop ad167 3.0]
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠百貌のハサン
+ななな、なんだこの滝のような穀物は！？[r]食べ物か！？　食べ物なのかー！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……！　これは間違いなくお米です！[r]百貌さんもつい仮面を外してしまうほどです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠アーラシュ
+なんだそりゃあ、すげえアーチャーだなアンタ！[r]コイツはなにより頼もしい助っ人だ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠三蔵
+ええ。これ込みで御仏の加護よ？[r]だからトータとあたしは出会ったんだから、ね！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaEffectStop H bit_talk_06]
+[charaFadeout G 0.1]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet E 98083000 1 子供たち]
+[scene 29220]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.4 1]
+[wt 0.4]
+[seLoop ad168]
+[seStop ad168 1.5]
+＠三蔵
+ほわ[charaShake G 0.05 3 3 0]たたたたたたたた[line 6]！[r]あちょお[line 8][charaShakeStop G]！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠E：子供たち
+おお[line 4]。[r]おお[line 9]！
+[k]
+
+[charaFace G 1]
+＠三蔵
+まだまだこんなもんじゃないわ！[r]おにぎり百連如来掌、まだまだ握るわよ[line 3]！
+[k]
+
+[seLoop ad168]
+[seStop ad168 1.5]
+[charaShake G 0.05 3 3 1.2]
+[wt 1.2]
+
+＠E：子供たち
+おおおおおお[line 3]！[r]姉ちゃん、すげぇええええ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+なんだいこの盛り上がり！？[r]いったい何が起きているんだ、[%1][&君:ちゃん]！？
+[k]
+
+？1：宴会が　始まったのだ
+？2：ついに宴会が　始まったのだ
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠俵藤太
+いやはや天晴れな飲みっぷり！[r]一升を一息とは、アーラシュ殿もいける口ですな！
+[k]
+
+[charaFace C 1]
+＠アーラシュ
+いやはや何の、トータ殿も気持ちいい食いっぷり！[r]あの大魚をぺろりと一口とはお見それ致したぞ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠百貌のハサン
+……この二人は完全に出来上がっているな。[r]言葉遣いまで同じになって……まったく。
+[k]
+
+＠百貌のハサン
+しかし、妙な味だが慣れれば悪くない。[r]米を発酵させた酒か……ふん、悪くない。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠三蔵
+はい次、詰め物いくわ詰め物！[r]あたしはお肉ダメだけど子供たちにはご馳走だものね！
+[k]
+
+＠三蔵
+モツを抜いて、お米を詰める……！[r]前に悟能に教えてあげた料理法よ！
+[k]
+
+[charaFace G 0]
+＠三蔵
+あ。悟能で思い出した。[r]お弟子さん、できればあと一人欲しいわね。
+[k]
+
+＠三蔵
+トータが悟空で、アーラシュが悟能なら、あとは悟浄！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace H 1]
+[charaFadein H 0.1 2]
+＠アーラシュ
+待てぇい、[messageShake 0.05 5 5 0.3]不穏な響きだなそれは！[r]もりもり食べているのはトータ殿だ！
+[k]
+
+＠アーラシュ
+その、ゴノウ？　というのはなんともよくない！[r]トータ殿と取り替えてくれ！
+[k]
+
+[charaFace H 3]
+＠俵藤太
+いやあ。拙者は美味ければ肉も魚も平らげる故、[r][#八戒:五葷三厭]を守るとは程遠い。
+[k]
+
+＠俵藤太
+その点、アーラシュ殿は高潔だ！[r]先ほどから豆ばかり食べているではないか、豆！
+[k]
+
+[charaFace C 4]
+＠アーラシュ
+いや、俺だって肉は食うぞぅ！？[r]ただこのエンドウ豆が美味すぎてな？
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[bgm BGM_EVENT_6 0.5 0.4]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+[wt 0.5]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[wt 0.7]
+
+？1：見事にできあがっている……
+？2：これはもう止められない……
+
+？！
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+そのようですな。このような状況で油断がすぎる、と[r]叱りたいところですが……
+[k]
+
+[charaFace D 1]
+＠呪腕のハサン
+大地が燃え、聖地が襲われてからこの半年、[r]毎日が節制の連続でしたからなあ。
+[k]
+
+＠呪腕のハサン
+今ぐらいは村の者たちにも良い思いをさせてやりたい。[r]いや、すべては俵殿のおかげですが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+……はい。村の皆さんもあんなにはしゃいで。
+[k]
+
+＠マシュ
+でも呪腕さんはいいんですか？[r]先ほどからお酒も食べ物も口にしていませんが。
+[k]
+
+[charaFace D 0]
+＠呪腕のハサン
+私はいいのです。[r]いや、酒に弱い、というのではなく[line 3]
+[k]
+
+＠呪腕のハサン
+この体が、ですな。[r]あまり、人の食事を受け付けないのですよ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+[line 3]？[r]それはどういう……
+[k]
+
+[charaFace D 4]
+＠呪腕のハサン
+ははは。恥ずかしい話になりますが、[r]私は歴代の“山の翁”の中でも平凡な者でした。
+[k]
+
+＠呪腕のハサン
+万事をそれなりにこなせるものの、[r]特筆すべき才が無かった。
+[k]
+
+＠呪腕のハサン
+“山の翁”はその代の暗殺者たちの頂点がなるもの。[r]何か一つ、誰にも真似のできない『[#業:わざ]』が必須となる。
+[k]
+
+＠呪腕のハサン
+百貌はあのように人格を百に分ける才能を。[r]静謐は全身が毒であり、また毒を無効にする才能を。
+[k]
+
+＠呪腕のハサン
+私はそういったものが無かった。[r]無かったというのに、山の翁の名を求めた。
+[k]
+
+＠呪腕のハサン
+……若さ故、いえ、生あるが故の[r]焦りだったのでしょうなあ……
+[k]
+
+＠呪腕のハサン
+私は何としても山の翁の名が欲しかった。[r]自分を偉大な者、優れた者として名を残したかった。
+[k]
+
+＠呪腕のハサン
+その手段として、私は自分の体を犠牲にした。
+[k]
+
+＠呪腕のハサン
+……我が右腕は人の腕にあらず。[r]これは[#魔神:シャイタン]の腕なのです。
+[k]
+
+＠呪腕のハサン
+自分に才能がなければ、特別な力を持つモノを[r]自分の体にすればよい、と。
+[k]
+
+＠呪腕のハサン
+その結果がこの体、呪腕のハサンなのです。
+[k]
+
+＠呪腕のハサン
+私は顔を捨て、人を捨て、[r]恋しい女を捨てて山の翁となった。
+[k]
+
+＠呪腕のハサン
+……その結果が、誰でもない“何者か”に[r]成りはてるなど思いもしないまま。
+[k]
+
+[charaFace A 4]
+＠マシュ
+………………。
+[k]
+
+[charaFace D 1]
+＠呪腕のハサン
+いや失礼、辛気くさい話を聞かせてしまった。[r]しかし、酔っていないのは我々だけのようだ。
+[k]
+
+＠呪腕のハサン
+[%1]殿、ひとつ頼まれていただきたい。
+[k]
+
+＠呪腕のハサン
+食料の匂いに釣られて、[r]村の外によくないものが集まっている。
+[k]
+
+＠呪腕のハサン
+酒に酔えない者の貧乏くじとして、[r]少しばかり付き合っていただけませぬか？
+[k]
+
+？1：もちろん
+？2：呪腕さんだけじゃ頼りないし
+
+？！
+
+[charaFace D 0]
+＠呪腕のハサン
+ははは。では宴を乱さぬよう、こっそりと。[r]今宵はまさに一夜の夢。みなに現実は突きつけられぬ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい……お供します、ハサンさん！
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_6 0.9]
+[wait fade]
+[wt 0.2]
+[soundStopAll]
+[end]

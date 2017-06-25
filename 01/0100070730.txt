@@ -1,0 +1,899 @@
+
+
+
+＄01-00-07-07-3-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3027000 1 アナ]
+[charaSet E 98003000 1 Dr.ロマン]
+[charaSet F 98006200 1 ？？？]
+
+[charaSet G 98107700 1 ジウスドゥラ]
+[charaSet H 2020001 1 イシュタル]
+
+
+
+[bgm BGM_EVENT_11 0.1]
+[scene 32940]
+[fadein black 1.5]
+[wait fade]
+
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠マシュ
+ここがクタ市……[r]一夜にして活動が止まった[#市:まち]……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠アナ
+……それにしては損壊が酷いです。[r]住人が死に絶えた後、魔獣に襲われたのでしょうか……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk E]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+
+＠Dr.ロマン
+……いや、それはなさそうだ。
+[k]
+
+＠Dr.ロマン
+その都市にある生命反応はキミたちの分だけ。[r]魔獣たちは市の外から中に入ろうとしていない。
+[k]
+
+＠Dr.ロマン
+理由は分からないが、[r]魔獣たちはその[#市:まち]を恐れているようだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マーリン
+ふむ……確かに“自分だけは何としても助かるぞ”という[r]私の[#第六感:センス]も、ここに脅威はないと告げている。
+[k]
+
+＠マーリン
+ただ怖ろしいまでの静寂、[r]清浄なまでの死があるだけだ。
+[k]
+
+＠マーリン
+……私もギルガメッシュ王も見落としたものだ。[r]クタ市の事件は他の市とは根本からして違う。
+[k]
+
+＠マーリン
+王様が『天命の粘土板』をここに置いてきた事すら[r]因果じみたものを感じるのだが、さて[line 3]
+[k]
+
+[charaFace B 0]
+＠マーリン
+いや、深く考える前にまずはお宝探しといこう。
+[k]
+
+＠マーリン
+マシュは東地区。私は北地区。アナは西地区。[r]そして[%1]君は南地区を見てまわろうか。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いえ、それは[line 3]わたしは先輩のサーヴァントですので、[r]マスターから離れる訳には。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マーリン
+大丈夫だよ。幸い、魔獣は入ってこない訳だしね。[r][%1]君にはロマン君のナビゲートもある。
+[k]
+
+[charaFace B 0]
+＠マーリン
+ああ、それとキャスパリーグもいる。[r]コイツはこう見えて、ピンチになったらやるヤツだ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaShake C 0.1 0 5 0.7]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ですが……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 3]
+
+＠Dr.ロマン
+うーん……ボクも反対ではあるんだが、[r]確かに手分けした方が効率的だ。
+[k]
+
+＠Dr.ロマン
+敵性反応もないし、[r]マシュもアナもそう離れる訳でもない。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+[%1]君だってこの先[r]ひとりで調査をするケースも出てくるだろうし、
+[k]
+
+＠Dr.ロマン
+何事も経験は必要だし、別行動をしてもいいと思うよ？
+[k]
+
+？1：だいじょうぶ、何かあったら呼ぶよ
+？2：広いし、手分けして探さないとね
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………はい。[r]マスターがそう仰るのなら、了解です。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マーリン
+決まりだ。では早速調査を始めよう。
+[k]
+
+[charaFace B 0]
+＠マーリン
+天命の粘土板はギルガメッシュ王が持っている[r][#神権印章:ディンギル]の粘土板と同じものだ。
+[k]
+
+＠マーリン
+微弱な魔力を帯びているだろうから、[r]近くにあれば感じ取れるさ。
+[k]
+
+[charaFace B 1]
+＠マーリン
+とりあえず一時間だけ手分けして探してみよう。[r]みんなも結果はどうあれここに集合するように！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_11 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[wt 2.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+
+？1：（……と、あれから十分ほど経過したけど……）
+
+？！
+
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 5]
+[wt 0.3]
+
+＠Dr.ロマン
+うーん、見渡すかぎりの廃墟だねぇ……[r]マーリンは微弱な魔力とか言ってたけど、
+[k]
+
+＠Dr.ロマン
+そもそもこんなに[#魔力:マナ]の密度が高いと[r]逆に見つけ出せないよ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォーウ……
+[k]
+
+？1：とりあえず、歩き回ります
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ああ、捜査は足からって言うしね。
+[k]
+
+＠Dr.ロマン
+カルデアの観測波は[%1][&君:ちゃん]を[r]中心に広がっているものだから、
+[k]
+
+＠Dr.ロマン
+基本、[%1][&君:ちゃん]の周りの反応が[r]一番細か[se ad31][wipeout sideBlind 0.02 1][wait wipe][wipein sideBlind 0.02 1][wait wipe]く[line 3]
+[k]
+[wt 1.2]
+[messageOff]
+[bgmStop BGM_EVENT_11 0.5]
+[wipeout sideBlind 0.05 1]
+[wait wipe]
+[wipein sideBlind 0.05 1]
+[wait wipe]
+[charaEffect E bit_talk_10]
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad227]
+[wt 0.7]
+[wipeout sideBlind 0.05 1]
+[wait wipe]
+[wipein sideBlind 0.05 1]
+[wait wipe]
+[communicationCharaLoop 98003003 1 5 10 0]
+[wt 0.7]
+[wipeout sideBlind 0.05 1]
+[wait wipe]
+[wipein sideBlind 0.05 1]
+[wait wipe]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaPut E 1,-10000]
+[charaEffectStop E bit_talk_10]
+[charaFadeout E 0.1]
+[seStop ad31 0.1]
+
+
+？1：あれ、今[line 3]
+
+？！
+
+
+[se ad228]
+
+[shake 0.05 3 5 0]
+
+[charaShake C 0.05 0 5 0.7]
+[seStop ad228 1.5]
+
+＠フォウ
+フォウ……フォ[line 3]ウ！？
+[k]
+[messageOff]
+[wipeout clash 1.5 1]
+[wait wipe]
+
+
+[shakeStop]
+[charaFadeout C 0.1]
+[wt 5.0]
+[se ad229]
+[seVolume ad229 0 0.4]
+[scene 33400]
+
+[wipein openEye 3.0 1]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+
+
+？1：[&どこだ:どこ]、ここ……！？
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+
+[charaShake C 0.1 0 5 0.7]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+？2：ドクター、ドクター……！
+
+[se ad13]
+[se ad31]
+[charaTalk E]
+[communicationChara 98003003 1 5 1 0]
+[wt 0.3]
+[communicationCharaClear]
+[wait communicationChara]
+[charaPut E 0,0]
+[charaEffect E bit_talk_10]
+[wt 0.1]
+[communicationChara 98003003 1 5 1 0]
+[wt 0.3]
+
+＠Dr.ロマン
+[line 6]
+[k]
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 1.0]
+[seStop ad31 0.7]
+[charaPut E 0,-1000]
+[charaEffectStop E bit_talk_10]
+[wt 1.0]
+
+？！
+
+[charaTalk F]
+[charaFace F 0]
+[charaPut F -256,0]
+[charaFadeTime F 0.4 0.4]
+[wt 0.4]
+
+＠F：？？？
+生者[line 3]生者だ。[r]なぜ冥界に生者がいる……なぜ……
+[k]
+
+[charaSet E 98006200 1 ？？？]
+[charaTalk E]
+[charaFace E 0]
+[charaPut E 256,0]
+[charaFadeTime E 0.4 0.4]
+[wt 0.4]
+
+＠E：？？？
+笑いに来たのか……奪いに来たのか……[r]逃げて来たのか……捨てに来たのか……
+[k]
+
+[charaSet D 98006200 1 ？？？]
+[charaTalk D]
+[charaFace D 0]
+[charaPut D 0,0]
+[charaFadeTime D 0.4 0.4]
+[wt 0.4]
+
+[bgmStop BGM_EVENT_5 1.5]
+＠D：？？？
+許されない[line 3]どれも許されない[line 3][r]温かな息など、温かな肉など不要[line 3]
+[k]
+
+[charaTalk off]
+[charaFadeTime F 0.4 1]
+[charaFadeTime E 0.4 1]
+[charaFadeTime D 0.4 1]
+[se ad21]
+＠？？？
+死ね[line 3]死ね、死ね、死ね、死ね、[r]死ね[bgm BGM_EVENT_3 0.1]死ね死ね死ね死死死死死死死死死死死死死死死死！
+[k]
+
+
+？1：うわあああああああああ！？
+？2：きゃあああああああああ！？
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 0 5 0.7]
+
+＠フォウ
+フォ[line 4]ウ！
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+＠G：？？？
+……待て。[r]ガルラ霊よ、その者はまだ死してはいない。
+[k]
+
+＠G：？？？
+連れ去っては主人の怒りを買おう。[r]七つの門を閉じ、[#籠槍:かごやり]の番に戻るがいい。
+[k]
+
+[messageOff]
+[charaTalk G]
+[se ad7]
+[charaFadein G 0.4 1]
+[wt 1.5]
+
+[charaFadeout G 0.1]
+[wt 0.2]
+[charaTalk off]
+[charaDepth E 1]
+[charaFadein F 0.1 0]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 1]
+
+[se ad42]
+[seVolume ad42 1.0 0.5]
+[charaFadeout F 0.7]
+[wt 1.0]
+[se ad42]
+[seVolume ad42 1.0 0.5]
+[charaFadeout D 0.7]
+[wt 1.0]
+[se ad42]
+[seVolume ad42 1.0 0.5]
+[charaFadeout E 0.7]
+[wt 1.0]
+
+[seStop ad229 0.3]
+[bgmStop BGM_EVENT_5 0.3]
+？1：……助かった……？
+？2：貴方は……
+
+？！
+[wt 0.4]
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ジウスドゥラ
+彼らに非はない。[r]無礼を働いたのはそちらだ、若者よ。
+[k]
+
+＠ジウスドゥラ
+生きたまま死の国に訪れたのだ。ガルラ霊とて[r]怒るというもの。本来、助ける道理はない。
+[k]
+
+＠ジウスドゥラ
+……ふむ。[r]だが、そなたには恩が、一つある。
+[k]
+
+＠ジウスドゥラ
+不肖の弟子とはいえ、そなたは信念を守った。[r]時に信仰は命と同義となる。即ち、命を救うに値する。
+[k]
+
+？1：……えっと、あの……？
+？2：何が何だか……
+
+？！
+
+＠ジウスドゥラ
+クタ市の地下は冥界に繋がっている。[r]そなたは生きたまま冥界に落ちたのだ。
+[k]
+
+＠ジウスドゥラ
+だがそれもここまで。[r]……この門は私が閉じよう。
+[k]
+
+＠ジウスドゥラ
+そなたは地上に戻り、魔術師にこう伝えよ。[r]冥界は健在なり、と。
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_11 0.7]
+[wt 0.4]
+[se ad51]
+[wt 0.4]
+[charaFadeout G 0.1]
+[wt 0.1]
+[se ad161]
+[effect bit_bolg_02]
+[wt 0.2]
+[shake 0.05 5 5 0.7]
+[fadeout white 1.5]
+[wait fade]
+[wt 2.0]
+[scene 10001]
+[fadein white 0.1]
+[wait fade]
+[fadeout black 1.5]
+[wait fade]
+[scene 32940]
+[wt 2.75]
+[bgm BGM_EVENT_2 0.1]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+
+＠フォウ
+フォーウ……フォーウ……
+[k]
+
+
+？1：ハッ！？
+？2：夢……？
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+
+
+＠マシュ
+ただいま戻りました。[r]こちらにはそれらしいものは発見できず……
+[k]
+
+[charaFace A 6]
+＠マシュ
+[FFFFFF]？[-][r]先輩、そのお尻の下にあるものは、もしや[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠マーリン
+おや、二人も戻ってきていたか。[r]いやはや徒労徒労、まったく無駄骨に終わって……おや？
+[k]
+
+[charaFadeout B 0.1]
+[charaSet D 3027000 1 アナ]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+
+
+＠アナ
+……西地区をしらみ潰しに探しましたが[r]粘土板らしきものはありませんでした。…………む。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ？
+[k]
+
+
+？1：なんです？
+
+？！
+[charaFadeout C 0.1]
+[messageOff]
+[wt 0.1]
+[charaFace A 6]
+[charaFace B 2]
+[charaFace D 2]
+[charaDepth B 1]
+[charaFadein A 0.1 264,0]
+[charaFadein B 0.1 -36,0]
+[charaFadein D 0.1 -336,0]
+[wt 1.5]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、敷物として使っているその板は、[r]どう見ても『天命の粘土板』では！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaShake C 0.1 0 5 0.7]
+
+＠フォウ
+フォ……フォ[line 3]ウ！？
+[k]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マーリン
+間違いない、それは天命の粘土板だ。[r]いや、簡単に見つかって良かった良かった！
+[k]
+
+＠マーリン
+でも何処にあったのかな？[r]私の見立てでは南地区にも無さそうだったのだが。
+[k]
+
+？1：それが、地下に落ちて……
+？2：ジウスドゥラさんに助けられて……
+
+？！
+
+[charaFace B 0]
+＠マーリン
+ほうほう地下に？　そんな痕跡はないが……[r]それにジウスドゥラという老人ときたか。
+[k]
+
+＠マーリン
+ロマニ、そちらの記録は？[r][%1]君をモニターしてたんだろう？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet E 98003000 1 Dr.ロマン]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 8]
+[wt 0.3]
+
+
+＠Dr.ロマン
+いや、それがここ数分の記録がなくて……
+[k]
+
+＠Dr.ロマン
+というか[%1][&君:ちゃん]の[r]生命反応が途絶えていて……
+[k]
+
+＠Dr.ロマン
+こっちも狸に化かされた気分だよ。[r]でもその老人はジウスドゥラと名乗ったのかい？
+[k]
+
+？1：イエス
+？2：ウルクでも会った
+
+？！
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……[%1]君。
+[k]
+
+＠Dr.ロマン
+ジウスドゥラというのは、シュメルの伝説における[r]人類絶滅の大洪水を生き残った唯一の『人』の名だ。
+[k]
+
+＠Dr.ロマン
+旧約聖書でいうところのノア。[r]ギルガメッシュ叙事詩ではウトナピュシュテムが相当する。
+[k]
+
+＠Dr.ロマン
+世界の終わりを見、そして深淵の守り番となった人物。
+[k]
+
+＠Dr.ロマン
+『世界の終わりを警鐘する者』、[r]あるいは『全ての死を看取ったもの』と言える。
+[k]
+
+＠Dr.ロマン
+ジウスドゥラ本人とは思えないが、イシュタルや[r]エルキドゥがいる以上、もしや、という事もある。
+[k]
+
+＠Dr.ロマン
+そのジウスドゥラが現れたという事は……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+ふーむ。あるいはジウスドゥラの役割に近い何者か、だ。[r]伊達や酔狂で名乗る名称ではないからね。
+[k]
+
+＠マーリン
+しかし、『冥界は健在なり』か。[r]という事は……
+[k]
+
+＠マーリン
+[#冥界の主人]も現界している、と考えるべきか……[r]では僕が千里眼で“視た”あの三女神の集まりは……
+[k]
+
+[charaFadeout B 0.1]
+[bgmStop BGM_EVENT_2 1.0]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+！　みんな、気をつけて！[r]強力な霊基反応がそちらに向かっている！
+[k]
+
+＠Dr.ロマン
+このパターンはもう三度目[line 3][r]間違いない、女神イシュタルがやってくるぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+
+
+[charaFace A 7]
+[charaFace B 5]
+[charaFace D 5]
+[charaFadein A 0.1 264,0]
+[charaFadein B 0.1 -36,0]
+[charaFadein D 0.1 -336,0]
+[wt 1.0]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_3 0.1]
+
+[se ad2]
+[wt 2.0]
+[seStop ad2 1.0]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 0,100]
+[charaMove H 0,0 0.2]
+[wait charaMove H]
+[charaMove H 0,50 0.2]
+[wait charaMove H]
+[charaShake H 0.2 0 3 0]
+
+＠イシュタル
+見つけたわよ、[#不埒:ふらち]な人間たち！[r]牧場主たちに、私の事を根掘り葉掘り聞いたそうね！
+[k]
+
+＠イシュタル
+何のつもりか知らないけど、[r]やめてよね、そーゆーコト！
+[k]
+
+＠イシュタル
+女神の[#休日:オフ]を調べようとか、[r]デリカシーがないにも程があるんじゃない！？
+[k]
+
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[messageOff]
+[se bac19]
+[effect bit_shot_01]
+[wt 0.7]
+[se bac19]
+[effect bit_shot_01]
+[wt 0.7]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+女神イシュタル、警告なしで威嚇射撃です！[r]マスター、建物の陰に避難してください！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+おや、人々たちから宝石を巻き上げては[r]貯金している女神が現れた！
+[k]
+
+＠マーリン
+これはまずい、今回の獲物は我々のようだ！
+[k]
+
+＠マーリン
+なにしろギルガメッシュ王からたんまりと財宝を[r]受け取ったからね！　我々の[#懐:ふところ]はウハウハさ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 0,50]
+
+＠イシュタル
+それが風評被害だっていうの！[r]金銭目的で人間を襲ったコトなんてないんだから！
+[k]
+
+＠イシュタル
+私の要求は当然の報酬っ！　そもそも、[#無料:タダ]で[r]助けたりしたら人間はすぐ堕落しちゃうじゃない！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+タダで……助ける？[r]自由気ままな女神イシュタルが人間を、ですか……？
+[k]
+
+？1：あー……やっぱり……
+？2：だんだん分かってきたぞ……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 14]
+[charaFadein H 0.1 0,50]
+
+＠イシュタル
+しまった……余計なコト言っちゃった……
+[k]
+
+[charaFace H 5]
+＠イシュタル
+ともかく！　アナタたちには天罰が必要よ。[r]この私を二度も[#虚仮:こけ]にした罪を償いなさい。
+[k]
+
+＠イシュタル
+具体的に言うと、アナタが持ってるそのお宝っぽいの。[r]それ、気になるから没収するわ。
+[k]
+
+[charaFace H 6]
+＠イシュタル
+後はそうねぇ……ええ、[#懐:ふところ]が暖かいのなら[r]心身共に寒くなってもらいましょうか。
+[k]
+
+[charaFace H 2]
+＠イシュタル
+覚悟なさい。私に見つかったのが運の尽き、[r]容赦なく[#素寒貧:すかんぴん]にしてあげる！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

@@ -1,0 +1,449 @@
+＄01-00-06-19-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2008000 1 トリスタン]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 5022001 1 三蔵]
+[charaSet G 2014000 1 俵藤太]
+
+[scene 29121]
+[fadein black 2.0]
+[wait fade]
+
+[se ad137]
+[wait se ad137]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠ベディヴィエール
+[line 3]っ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠トリスタン
+……肉と骨の焼ける音……[r]なんという……見苦しい事この上ない。
+[k]
+
+[charaFace B 0]
+＠トリスタン
+いかなる経緯でそのような銀腕を手に入れたのかは[r]知りませんが、貴方には過ぎた力……
+[k]
+
+[charaFace B 6]
+＠トリスタン
+もっとも。それも、私には届きませんが。[r]まさに無駄骨と嘆きましょう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+敵サーヴァント、健在です……！[r]あれだけ傷を与えたのに……瞬く間に回復していきます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠トリスタン
+む……ランスロット卿は早々に下山しましたか。[r]アーチャーの相手をお願いする、と言いましたが……
+[k]
+
+＠トリスタン
+本当に一騎しか相手にしないとは。[r]……生真面目なのは変わりませんね。
+[k]
+
+[charaFace B 0]
+＠トリスタン
+まあいいでしょう。結果に変わりはない。[r]……さて。私もそう時間がありません。
+[k]
+
+＠トリスタン
+どうあれ貴方がたはここで消えるのです。[r]無駄な抵抗はここで終わりにしていた[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.2]
+[wipeout leftToRight 0.2 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wipein rightToLeft 0.2 1]
+[wait wipe]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠三蔵
+ほわちゃあ[line 5]！
+[k]
+
+[charaFadeout F 0.1]
+[se bac119]
+[wt 0.4]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 0.2]
+[charaEffect B bit_talk_13]
+[wt 0.1]
+[se ad32]
+[charaShake B 0.05 3 3 0.25]
+[wt 0.7]
+
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠俵藤太
+ぬぅん！
+[k]
+
+[charaFadeout G 0.1]
+[se bac20]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 0.1]
+[charaEffect B bit_shot_01]
+[wt 0.1]
+[se ad32]
+[charaShake B 0.05 3 3 0.25]
+[wt 0.7]
+
+[wipeout circleIn 0.2 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wipein circleIn 0.2 1]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+[#石榴:ざくろ]と散れぃい！
+[k]
+
+[charaFadeout D 0.1]
+[se bac23]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 0.1]
+[charaEffect B bit_talk_14]
+[wt 0.2]
+[se ad32]
+[charaShake B 0.05 3 3 0.25]
+[wt 0.7]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+皆さん……！[r]来てくれたんですね……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠三蔵
+ええ、そこいらの雑魚たちを片付けてね！[r]待たせてごめんなさい！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠トリスタン
+[line 3]不出来な。[r]この程度のサーヴァントの足止めもできないとは。
+[k]
+
+＠トリスタン
+……[#木偶:デク]に用はありません。粛正騎士たちは、[r]もう一段階性能をあげていただかなくては。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠三蔵
+寝言は寝て言いなさい！[r]貴方、無事には済まさないわよ！
+[k]
+
+＠呪腕のハサン
+[line 3]円卓の騎士、トリスタン。[r]貴様だけは何があろうと決して許さぬ……！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠トリスタン
+それは我々も同じです、山の翁。[r]王は決して貴方たちを赦しはしない。
+[k]
+
+＠トリスタン
+貴方たちが反抗などしなければ、[r]王の目的はとうに果たされていたのですから。
+[k]
+
+[charaFace B 4]
+＠トリスタン
+[line 3]時が来ました。見上げなさい、西の空を。[r]その[#酬:むく]い、無念と共に受け入れる時です。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+な……なんだと………まさか、まさか……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+あれは……西の空に何か、光のようなものが[line 3][r]いえ、空から光の柱が、落ちて[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+[bgmStop BGM_EVENT_24 0.7]
+
+
+
+[wt 0.7]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[fadeout white 0.5]
+[wt 0.2]
+[se bac60]
+[shake 0.05 0 10 0]
+[wait fade]
+[wt 0.7]
+[se bac54]
+[wt 1.5]
+[fadein white 1.5]
+[wait fade]
+
+[shakeStop]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+[line 6]そん、な。
+[k]
+
+＠静謐のハサン
+西の村、が[line 3]光に、飲まれて[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠ベディヴィエール
+[line 6]。
+[k]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠トリスタン
+これが獅子王の裁き。[r]聖槍ロンゴミニアドによる浄化の柱。
+[k]
+
+＠トリスタン
+悲しい……何の理由もなく、言葉もなく。[r]ただあるだけで美しいものは、こうも悲しい……
+[k]
+
+[charaFace B 6]
+＠トリスタン
+ご覧の通り、[r]ちっぽけな山の民たちの村は消え去りました。
+[k]
+
+＠トリスタン
+そして言うまでもなく、次はこの村です。[r]一切の痕跡なく浄化致しましょう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ベディヴィエール
+卿[line 3]卿らは正気なのか！？[r]あれが、あれがアーサー王の所業だと！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠トリスタン
+無論！　正気でなく粛正が許されるものか！[r]ヒトを残さんがため、我が王は聖断された！
+[k]
+
+＠トリスタン
+裁きに情があってはならない！[r]彼の王はついに、人の心を完全に切り捨てたのだから！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ベディヴィエール
+……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠トリスタン
+……これより五分の[#後:のち]、[r]王の裁きはこの山に落ちる。
+[k]
+
+＠トリスタン
+さらばです、ベディヴィエール卿。[r]もう会う事もないでしょう。
+[k]
+
+[charaFadeout B 0.4]
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.5]
+[messageOff]
+
+[charaSet B 98084000 1 粛正騎士]
+[charaSet C 98084000 1 粛正騎士]
+[charaSet H 98084000 1 粛正騎士]
+
+[bgm BGM_EVENT_3 0.1]
+
+[se ad166]
+[seStop ad166 1.5]
+[charaTalk off]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 0.2]
+[charaFace C 0]
+[charaFadein C 0.4 -300,0]
+[charaFace H 0]
+[charaFadein H 0.4 300,0]
+[wt 1.3]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+
+[wt 0.4]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+ぎゃてぇ……最後の足止めってワケね[line 3][r]なによ、悟空の分身じゃあるまいし、ウジャウジャと！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠俵藤太
+ええい、文句を言う前に手を動かせ！[r]こやつらをどうにかせんと何もできんぞ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+上空に高密度の魔力反応を確認！[r]みんな、一刻も早くそこから離れるんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠呪腕のハサン
+……離れる事などできようか……[r]だが静謐よ、我らの役目は分かっているな！
+[k]
+
+＠静謐のハサン
+はい！　我ら、たとえこの地で死のうとも[r][%1]様をお助けいたします！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、指示を！[r]粛正騎士たちを突破します……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,200 @@
+＄91-50-03-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20803]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5003001 1 玉藻の前]
+[charaSet D 98002000 1 フォウ]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠玉藻の前
+いやー、お山の宿でゆっくりするのも[r]よろしいですねぇ、マスター？
+[k]
+
+？1：そうだねー
+
+？2：ゆっくりしたいね……
+
+？！
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+何なんでしょうか、この流れは……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+さあ、僕に聞かれても……、
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[se ad43]
+[wt 0.5]
+＠玉藻の前
+それでですね、マスター……、[r]ってなんですか、こんな時に……、
+[k]
+
+[charaFace C 0]
+[se ad15]
+[wt 0.5]
+＠玉藻の前
+あら、清姫ちゃんからメール……？[r]なになに……、
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+「わたくしー、本日は夫でもあるマスターと[r]ショッピングに行ってまいりましたの」
+[k]
+
+＠玉藻の前
+「何と言いましたか、仏蘭西の有名な呉服屋さんで[r]マスターに南蛮の服をプレゼントされまして。
+[k]
+
+[charaFace C 3]
+＠玉藻の前
+ほんと、こういうの困ってしまいますわ。[r]ところでタマモさんは……、あっ（察し）
+[k]
+
+＠玉藻の前
+それではまたメール致しますの。[r]～仏蘭西より愛をこめて～　清姫ちゃんより」
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+またですか！！　だからなんなんですか[r]（察し）って、なんなんですか！！
+[k]
+
+＠玉藻の前
+だいたいこれ、絶対騙されてますよ、相手の方が！！
+[k]
+
+？1：清姫ちゃんじゃなくて？
+
+？2：相手が！？
+
+？！
+
+[charaFace C 5]
+＠玉藻の前
+ええ、こう言ってはなんですが、清姫さんは[r]私と違って思い込みが激しいところがありまして。
+[k]
+
+＠玉藻の前
+一目惚れ癖はまあいいとして？[r]意中の方と一度も話していないのに脳内で相思相愛、
+[k]
+
+＠玉藻の前
+仮想現実もかくやという脳内シミュレートの果てに、[r]もう結婚を前提にした仲にまで進展、
+[k]
+
+[charaFace C 4]
+＠玉藻の前
+挙句の果てに相手を鐘に閉じ込めて焼いちゃったり[r]するタイプですし、相手の方、心配ですねぇ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……あ、お弁当でも持ってくれば良かったですね。
+[k]
+
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+あ、まったりしているところだけどまた反応が……、[r]うわぁ、そこ、偶然ワイバーンの生息地だってさ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠玉藻の前
+またですか～。もー、私マスターとちょっとした[r]思い出づくりをしたいだけですのになんですか、
+[k]
+
+＠玉藻の前
+この仕打ちは！！[r]メル友はメル友で毎日毎日、
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+脳みそお花畑なメールばっかり送ってくるし[r]もう我慢の　限　界　です！！
+[k]
+
+？1：限界ですよね
+
+？2：限界だよね！！
+
+？！
+
+[charaFace C 5]
+＠玉藻の前
+飛竜だか妖怪トビトカゲだか何だか知りませんが、[r]私のこの、日曜日に何か有意義なことを
+[k]
+
+＠玉藻の前
+しようと思い立つも、結局だらだらと[r]TVとかみて何もしないで、お風呂に入り、
+[k]
+
+＠玉藻の前
+気が付けば、夜、床に就いていた……。[r]時のようなやるせない気持ち
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+　ぶ　つ　け　て　差し上げます！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace C 2]
+[charaFadein C 0.1 0]
+＠マシュ
+……今まさに、私もそんな気分なのですが、[r]あ、先輩、嘘です！　が、がんばります！！
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,654 @@
+＄94-00-39-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+[charaSet D 7003000 1 白龍馬]
+[charaSet E 6010001 1 金角]
+[charaSet F 2012001 1 銀角]
+[charaSet G 4001001 1 銅角]
+[charaSet H 98073000 1 ？？？]
+
+[scene 20110]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠金角
+恐れを知らぬ憐れな[#唐僧:とうそう]が、私たち[#蓮華洞:れんげどう]の縄張りに[r]まんまと踏み込んできたようだわ、[#銀角:わたし]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠銀角
+可愛くて美味しそうな唐僧が、この[#平頂山:へいちょうざん]の芳香に[r][#誘:おび]き寄せられてきたようね、[#金角:わたし]。
+[k]
+
+[charaFace E 1]
+＠金角
+男なら、骨の随まで溶かしてしまいましょうね。[r][#嬲:なぶ]って[#虐:いじ]めて呑み込んで。そうでしょう？　[#銀角:わたし]。
+[k]
+
+[charaFace F 1]
+＠銀角
+ええ、[#金角:わたし]。でも、もし女なら、[#懇:ねんご]ろに[#弄:もてあそ]んで[#懐:なつ]かせて[r][#緩緩:ゆるゆる]と飲み干してしまいましょうね。くすくす。
+[k]
+
+[charaTalk off]
+＠金角　銀角
+嗚呼、[#疼:うず]いて[#堪:たま]らない……[r]待ち遠しいわ、待ちきれないわ。
+[k]
+
+[charaFace F 0]
+[charaFace E 0]
+＠金角　銀角
+……それはそれとして。[r]この役柄にまったく違和感がないわね、わたしたち……。
+[k]
+
+[charaTalk on]
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+
+[charaFadeout E 0]
+[charaFadeout F 0]
+
+[scene 20704]
+
+[cameraMove 0 -150,-100 1.5]
+[wait camera]
+
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[se ad116]
+[cameraMove 5.0 150,-100 1.5]
+[wait camera]
+
+[cameraHome 0.5]
+[wait camera]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+
+＠三蔵
+行けども行けども荒野ばかり……[#隊商:たいしょう]の道を[#辿:たど]れば[r]そろそろオアシスがあるはずなのに……！
+[k]
+
+[charaFace A 2]
+＠三蔵
+すべては幻覚なの！？　けれども喉は[#渇:かわ]き、お[#腹:なか]は[#減:へ]る……[r]おおブッダよ！　お買い物中なのですか！
+[k]
+
+？1：自分たち、過去の時代にいる[&んだろうか:のかな]？
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+玄奘三蔵の生きた時代に[r]レイシフトしてしまったのかって？
+[k]
+
+＠猪八戒
+さてさて、それは違うんじゃないかな、[r][%1]の[&兄貴:姉貴]。
+[k]
+
+＠猪八戒
+こうして何日間もこちらで過ごしていても、[r]空に例の光帯は見えないだろう？
+[k]
+
+＠猪八戒
+ただ、僕らサーヴァントが存在するにも魔力の供給が[r]必要なはずだ。それは[#何処:どこ]からか今も行われている。
+[k]
+
+[charaFadeout B 0.1]
+
+？2：それとも童話の世界に？　つまり『[#西遊記:さいゆうき]』？
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+さて。[#戯曲:ぎきょく]『西遊記』を演じさせられていると言うなら、[r]それこそ我らの出番など無かろう。
+[k]
+
+[charaFace C 0]
+＠沙悟浄
+師の[#傍:かたわ]らには、本物の孫悟空に、猪八戒、沙悟浄が居て[r]しかるべき。師だけを招いて再演する意味はなんだ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+…………うっ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace A 5]
+[charaFace C 4]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠沙悟浄
+師よ。何か思い当たる[#節:ふし]は？[r]経典を得たことで、何か感ずるところがあったのでは？
+[k]
+
+＠三蔵
+うん……一つ、思い出した。
+[k]
+
+＠三蔵
+どうしてか分からないけど、[r]弟子には……悟空たちには、暇を出したの。
+[k]
+
+＠三蔵
+三人の弟子たちは、[r]みんな私のもとを去って行ったわ。
+[k]
+
+[charaFace C 0]
+＠沙悟浄
+……ほう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+任期満了による整理解雇かな？[r]リストラってヤツさ。クール、そしてドライな事さ。
+[k]
+
+[charaFace B 1]
+＠猪八戒
+でも僕はそんな師匠を[#糾弾:きゅうだん]しないよ。[r]なぜって、経営者は現実的じゃないと成り立たない。
+[k]
+
+[charaFace B 2]
+＠猪八戒
+まあ、僕なら退社はさせないけど！[r]ブタは太らせてから喰え、というじゃない！？
+[k]
+
+？1：そうブヒね
+？2：おまえはいつ太るブヒか？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+ん……でも、そうかも……[r]だから彼らも今、ここにいないんだわ……。
+[k]
+
+？1：落ち込むようなことじゃない
+？2：いつかまた皆、戻ってくる[&さ:って]
+
+？！
+
+＠三蔵
+そうかなぁ……。
+[k]
+
+＠三蔵
+……それはそれとして、あたし、なんだか……[r]気持ち悪い……お腹に[#掌打:しょうだ]をくらったみたいに……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace A 4]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠沙悟浄
+言わぬことではない。食を取らぬからだ。[r]やはり獣の生き血を呑ませるしかあるまい。
+[k]
+
+＠三蔵
+それだけはやめてー……[r]ほんとやめてー……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+？1：向こうに洞窟が見えるって！
+？2：水場があるかもしれない
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠三蔵
+ねえ……[%1]、[r]……一つだけ……。
+[k]
+
+＠三蔵
+マシュって……誰？[r]石の下でうなされる[&きみ:あなた]が、ずっと呼んでいた。
+[k]
+
+＠三蔵
+[%1]の大切な人？
+[k]
+
+？1：……大切な後輩、とても
+？2：離れていても一緒にいる気がする
+
+？！
+
+[charaFace A 4]
+＠三蔵
+…………そう……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+
+[se ad60]
+[wt 1.5]
+[seStop ad60 1.0]
+[wt 1.0]
+
+[charaFilter H silhouette 00000000]
+
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.7 1]
+
+＠？？？
+…………
+[k]
+
+
+
+[messageOff]
+[charaFadeout H 0.7]
+[wt 0.5]
+
+
+[fadeout black 2.0]
+[wait fade]
+[bgmStop BGM_EVENT_2 2.0]
+
+[charaFadeout H 0]
+
+[scene 20110]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+[se ad118]
+[wt 2.5]
+
+[se ad60]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠三蔵
+甘い匂い……果物の匂い……[r]ここ、間違いなく食料庫だわ……！
+[k]
+
+[charaFace A 0]
+＠三蔵
+さっすがあたしの一番弟子！[r]鼻が、いえ、勘がいいのね！　いっただっきまーす！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+え、なに？　ワナ？[r]その桃は腐っている？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad60]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠金角
+あら。真っ先に口にして人参になると思ったのに。[r]お話通りにはいかないものね。
+[k]
+
+[charaFace E 1]
+＠金角
+くすくす、[#蓮華洞:れんげどう]へようこそ。[r]唐僧とその[#徒弟:とてい]さんたち。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠銀角
+待ちくたびれちゃったわ。[r]でもあのお猿さん、いい感じに水気が抜けて食べ頃ね。
+[k]
+
+？1：すごく悪そうなゴルゴン姉妹が！
+？2：ちょっと待って、自分たちがわからない！？
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠沙悟浄
+蓮華洞と申したな。されば[#彼奴:きゃつ]らめは、[r][#金角大王:きんかくだいおう]に、[#銀角大王:ぎんかくだいおう][line 3]。
+[k]
+
+[charaFace B 4]
+＠猪八戒
+……属性が同じすぎたようだね。[r]悲しい事だ。
+[k]
+
+[charaFace B 0]
+＠猪八戒
+彼女たちはいけない。役に飲まれているどころか、[r]人を破滅させる女神の本質に戻っているようだ。
+[k]
+
+[charaFace C 4]
+＠沙悟浄
+ふむ……[r]敵の真名を察したはよいが[line 3]。
+[k]
+
+[charaFace C 0]
+＠沙悟浄
+[%1]よ。儂が言うまでもないが、[r]金角、銀角と言えばアレよ。
+[k]
+
+＠沙悟浄
+名前を呼ばれて応じれば、たちまち吸い込まれて[r]生きながら溶かされる、というヒョウタンだ。
+[k]
+
+＠沙悟浄
+[#紫金紅葫蘆:しきんこうころ]に、[#羊脂玉浄瓶:ようしぎょくじょうへい]。[r]それがどうも見あたらぬな。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠銀角
+宝具は必要ないの。私たちの毒がまわれば、[r]何度も何度も名前を呼んで[#懇願:こんがん]するようになるの。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+そうか。この洞窟そのものが既にヒョウタン池、[r]僕らは水面に落ちた[#蠅:ハエ]というワケだね。
+[k]
+
+[charaFace B 2]
+＠猪八戒
+自分は安全圏で敵を倒したい、なんて、[r]なんという[#悪辣:あくらつ]さだ！　恥をしりたまえ、この毒婦！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠金角
+悪辣ではないわ、怠慢というのよ。[r][#尤:もっと]も、アナタからは同じ匂いを感じますが？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+ふ、その手には乗らないさレディ。[r]挑発されて僕が激するとでも？
+[k]
+
+[charaFace B 5]
+＠猪八戒
+ここにいるだけでピンチなら、後は戦闘担当に[r]戦ってもらうまでさ。僕は下がるブヒ。
+[k]
+
+[charaFace B 2]
+＠猪八戒
+さあ[%1]の[&兄貴:姉貴]！[r]やっちゃってくださいネ！
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+＠沙悟浄
+[#然:しか]り。[r]西遊記の[#華:はな]といえば妖魔退治と決まっている！！
+[k]
+
+＠沙悟浄
+見ればこの金角、銀角、共に[#鍛:きた]え方がなってない。[r]儂と赤馬殿だけで十分よ[line 3]！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠金角
+お馬鹿さん。かよわい私たちが、槍で[#血豆:ちまめ]を作ったり、[r][#無骨:ぶこつ]で鉄臭い刀剣を好むわけがないでしょう。
+[k]
+
+[charaFace F 1]
+＠銀角
+ここには、食料も水もたっぷりあるわ。[r]あなたたちの求める経典も。
+[k]
+
+[charaFace E 1]
+＠金角
+でも呑み込むの、私たちが、すべて。
+[k]
+
+[charaTalk off]
+＠金角　銀角
+さあ、ごくりと一呑みに、[r][#溶:と]かして[#融:と]かして[#熔:と]かしてしまいなさい、
+[k]
+
+[charaFace E 2]
+[charaFace F 2]
+＠金角　銀角
+[fontSize x-large][line 3][#銅角:どうかく]！
+[k]
+
+？1：銅角だって[line 3]！？
+？2：初めて聞いたぞ[line 3]！？
+
+？！
+
+[bgmStop BGM_EVENT_3 0.1]
+[se ad60]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk on]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+[bgm BGM_EVENT_7 0.1]
+＠銅角
+あの……………………[r]……………………はい。銅角、です……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+よし！　銅角ちゃんは僕の守備範囲の外だ！[r]遠慮なく倒してしまいなさい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+……いや。儂も武人だが、鬼ではない。[r]これほど悲しい姉妹愛、[#正視:せいし]に[#堪:た]えん……。
+[k]
+
+[charaFace C 0]
+＠沙悟浄
+[#率直:そっちょく]に言って[#萎:な]えた。[r]師匠。ここはまず、あの銅角を救うべきでは？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+いいえ、それはダメ。あたしには判るわ。[r]あれは妖魔どものいつもの手よ。
+[k]
+
+[bgmStop BGM_EVENT_7 1.5]
+＠三蔵
+あたしたちの心の弱さにつけこんだ[#常套:じょうとう]手段。[r]乗ってあげるワケにはいかないわ。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠三蔵
+それにお腹も限界だし！[r]話し合いは相手の食料を奪ってからよ！
+[k]
+
+[charaFace A 2]
+＠三蔵
+ＧＯ、[%1]！[r]まずはあの大きな女の子から懲らしめなさい！
+[k]
+
+？1：お師さんを助ける[&ためだ:ため]、仕方ない！
+？2：女の子……？
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

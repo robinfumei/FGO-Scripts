@@ -1,0 +1,478 @@
+＄94-00-61-06-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 3001001 1 クー・フーリン]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98100400 1 マシュ]
+[charaSet D 4024000 1 モードレッド]
+[charaSet E 2026000 1 アルトリア]
+[charaSet F 2025100 1 メアリー]
+[charaSet G 7008001 1 ベオウルフ]
+[charaSet H 98101700 1 魔猪大]
+
+[scene 20701]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+チッ、下手なサーヴァントよりしぶといな、[r]手前……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ……！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠マシュ
+……フォウさん？
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+＠G：？？？
+[line 3]その獲物、貰ったァ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[wt 0.4]
+[se bac93]
+[charaScale B 2.5]
+[charaPut B 0,450]
+[charaEffect B bit_talk_12_red_R]
+[charaShake H 0.05 4 4 0.5]
+[wt 1.5]
+
+[charaFadeout H 0.4]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+なんだと……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaScale B 1.0]
+[messageOff]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[wt 0.2]
+[se ad20]
+[wait se ad20]
+[charaFadeout H 0.4]
+[wt 0.3]
+[se ad144]
+[shake 0.05 0 4 0.4]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠ベオウルフ
+悪いな、アンタら。[r]だがまあ悪く思うな。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠マシュ
+あれだけ粘っていた魔猪をいとも簡単に……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+ま、コイツなら出来るだろうな。[r]ベオウルフ、人の獲物パクってんじゃねえ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ベオウルフ
+悪いね。まあ、俺の方も部下どもを[r]喰わせなきゃならんのでな。
+[k]
+
+[charaFace G 1]
+＠ベオウルフ
+しかし、魔猪に魔猪を喰わせるなんて[r]共喰いにも程があるな！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠マシュ
+ちょ、ちょっと待って下さい！[r]魔猪が部下……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ベオウルフ
+ガハハハハ！[r]この拳一つで俺ァ魔猪を従えてるからな！
+[k]
+
+[charaFace G 2]
+＠ベオウルフ
+まさにウェルカム世紀末、[r]魔猪を部下にしたくらいで驚くこたぁねえだろう！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+……何か普段よりテンション高ぇなアンタ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ベオウルフ
+おお、テンションも高くなるってモンよ！[r]何しろ一国の支配者だからな！
+[k]
+
+＠ベオウルフ
+俺の国は弱肉強食。強ければ喰う、弱ければ肉になる！[r]……文字通りの意味でな！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+＠マシュ
+た、食べてるんですね魔猪……。
+[k]
+
+？1：野菜も摂ろうよ……
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ベオウルフ
+何だとう、タンパク質最高じゃねえか！
+[k]
+
+？2：不健康だと思う
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ベオウルフ
+それでいいんだよ。[r]サーヴァントなんて、存在自体が不健康だ。
+[k]
+
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+まあ、その意見には賛成するがね。[r][line 3]で、おまえは敵か？　それとも敵か？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ベオウルフ
+まあ、味方って訳じゃねえな！[r]こう、毒かさもなきゃ酒か何かの影響かね。
+[k]
+
+[charaFace G 2]
+＠ベオウルフ
+[#天下を獲りたくて獲りたくて仕方がない]！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+天下……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ベオウルフ
+ま、今回はこの獲物を持って撤退だ！[r]放置しておいて腐っちまったらマズいしな！
+[k]
+
+[charaFace G 1]
+＠ベオウルフ
+ふはははは！[r]肉を奪いたけりゃ、俺の街に来るんだな！
+[k]
+
+[charaFadeout G 0.7]
+[se ad173]
+[seStop ad173 2.0]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+あー……何か、最後の最後で気が抜けちまったな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace C 12]
+[charaFadein C 0.1 2]
+＠マシュ
+でも、これってマズいですよね？
+[k]
+
+＠マシュ
+ただでさえ魔猪が闊歩しているのに、[r]ベオウルフさんがそれを統率しているとか……。
+[k]
+
+＠クー・フーリン
+悪夢過ぎるな……。[r]ま、[charaFace A 0]ともかく終わった終わった。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン
+とりあえず帰って飯にしようぜ。[r]魔猪ばかり狩ってたら、人間みたいに腹が減った気分だ。
+[k]
+
+[charaFace C 0]
+＠マシュ
+はい、それでは一旦戻りましょう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+＠マシュ
+魔猪、うりぼうさんの謎文明、[r]レイシフトできないこの状況。
+[k]
+
+＠マシュ
+そして遂に、敵対するサーヴァントまで……。[r]マスター、この先どうなるんでしょうか。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.5]
+[wait fade]
+[charaFadeout C 0.1]
+[charaSet G 9004000 1 マルタ]
+[charaSet H 6024000 1 スカサハ]
+[scene 30710]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠モードレッド
+ベオウルフ！？[r]あのチンピラ野郎までいるのか……！
+[k]
+
+[charaFace D 5]
+＠モードレッド
+くそ、行けば良かったぜ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠アルトリア
+（チンピラ度合いなら、卿もいい勝負であろう）
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠メアリー
+しかも敵だって。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠マルタ
+まあ、顔がいかにも世紀末風よねー。[r]あの[charaFace G 4]バｋ[line 9]んっ、んっ。
+[k]
+
+＠マルタ
+いずれ立ち向かわなければならない[r]相手ということでしょう。
+[k]
+
+？1：ここは一つ、マルタ神拳を
+
+[charaFace G 5]
+＠マルタ
+そうね。我が一子相伝のマルタ拳法[line 3][r]遂に封印を解く日が来たようね。
+[k]
+
+[se bac180]
+[wait se bac180]
+[wt 0.2]
+
+[charaFace G 4]
+＠マルタ
+……って、何やらせんのよ！
+[k]
+
+？2：姐御、やるんですかい
+
+[shake 0.05 2 4 0.25]
+[se bac8]
+[wait se bac8]
+
+[charaFace G 5]
+＠マルタ
+[#是:ゼ]ッ！[r]売られた喧嘩は万倍返しで買ってやるわ！
+[k]
+
+[charaFace G 4]
+＠マルタ
+……。[r]……。
+[k]
+
+[charaFace G 5]
+＠マルタ
+……なに言わせてんのかしら、[r]このマスターは……！
+[k]
+
+？！
+
+[shake 0.05 0 2 0]
+[se bac3]
+[wait se bac3]
+
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠マシュ
+マルタさんマルタさん。先輩の頬が[r]ゆるゆるになっちゃいますから、その辺で……。
+[k]
+
+[shakeStop]
+
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠スカサハ
+まあ、ベオウルフのことはひとまず置いておいて。[r]こちらも報告したいことがある。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠マシュ
+はい、何でしょう。
+[k]
+
+＠スカサハ
+おまえたちが魔猪を狩っている間、[r]私たちもこの島の探索を行いつつ、情報収集を行った訳だが。
+[k]
+
+[charaFace H 5]
+＠スカサハ
+一つ気になることがあってな……。
+[k]
+
+[charaFace C 6]
+＠マシュ
+はい？[r]それは一体[line 3]
+[k]
+
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

@@ -1,0 +1,129 @@
+＄94-00-28-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 3016001 1 ヘクトール]
+
+[scene 20110]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠ヘクトール
+ちぇっ……あーあ、負けちまったか。[r]所詮、贋作じゃここまでが限界かね。
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+違うよ、ヘクトール君。[r]贋作だから負けたんじゃない。
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+弱いから負けたのさ、君は。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ヘクトール
+うわ、キツいなあアンタ！[r]でもまあ、[charaFace D 0]そっちの方が気楽かね。
+[k]
+
+＠ヘクトール
+じゃ、次は強くなってリベンジさせて貰うぜ。[r]あばよ！
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 0 0 1]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+……ふぅ。口ぶりで軽くみせているものの、[r]その槍は鋭く重い。油断した時がこちらの終わりだ。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+あの話術もあっての防衛の上手さなのだろう。[r]大英雄アキレウスが敬遠する理由が分かったよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ダ・ヴィンチちゃん
+熱意ある贋作。[r]真作を凌駕しようとする贋作……か。
+[k]
+
+＠エミヤ
+まあ、長く続けばそうなる。[r]贋作者の多くは、最後にその境地を目指す。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+模倣に留まらず、真作に成る事すらも捨てて、[r]上回ろうとする。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+誰が[#黒幕:マスター]なのかは分からないが、[r]その想いは混ざりけのない[#本物]だよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+＠マシュ
+ダ・ヴィンチちゃん。他にその贋作で、[r]何か分かる事はありませんか？
+[k]
+
+＠ダ・ヴィンチちゃん
+んー……。[r]…………[charaFace B 0]れろっ。
+[k]
+
+？1：舐めた！？
+？！
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+絵の具の味から察するに……。[r]次に行くべきは、海かなー？
+[k]
+
+[charaFace A 6]
+＠マシュ
+海！　ですか！？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

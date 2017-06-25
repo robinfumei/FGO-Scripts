@@ -1,0 +1,41 @@
+
+＄01-00-05-13-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 3013001 1 スカサハ]
+[charaSet B 3013001 1 エネミー]
+
+[charaTalk B]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+[se ad25]
+[wait se ad25]
+
+[charaTalk A]
+＠スカサハ
+次はケルト戦士の中でも上位に位置する者だ。[r]人間辞めてしまった連中だがな。
+[k]
+
+＠スカサハ
+サーヴァント並みに素早く、そして強い。[r]だがこの程度で苦戦してはクー・フーリンには届かぬ。
+[k]
+
+[charaFace A 1]
+＠スカサハ
+サーヴァントを把握し、使いこなしてみせよ。[r]私を失望させるなよ？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

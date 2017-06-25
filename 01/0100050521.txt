@@ -1,0 +1,69 @@
+
+＄01-00-05-05-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3004001 1 カルナ]
+[charaSet C 5016001 1 ジェロニモ]
+
+[scene 20301]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠カルナ
+っ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+な、何とか押し切りました……！[r]マスター、これなら！
+[k]
+
+？1：逃げよう！
+？2：離脱しよう！
+？！
+
+＠マシュ
+はい！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+今だ！[r]走れ、走れ[line 2]！！
+[k]
+
+[se ad59]
+[seStop ad59 1.5]
+[charaFadeout C 0.4]
+[wt 2.0]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠カルナ
+ここまでか。……エジソン。[r]どうやら終わりの刻が近付き始めたらしい。
+[k]
+
+＠カルナ
+助けを乞われた以上、最後まで付き合うが……[r]さて、どう動けば悲劇的な結末を避けられるのか。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,195 @@
+＄01-00-06-07-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 1007002 1 ガウェイン]
+[charaSet F 1012001 1 ベディヴィエール]
+
+[scene 28901]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+
+[wt 1.0]
+[charaFadeout F 0.1]
+[wt 0.2]
+[se bac7]
+[effect bit_talk_12_yellow_R]
+[wait effect bit_talk_12_yellow_R]
+[se bac117]
+[wt 0.25]
+[effect bit_talk_17]
+[wt 0.25]
+[flashin once 1.0 2000.0 F2FF5CAF F2FF5C00]
+[fadeout white 1.0]
+[wait fade]
+[effectStop bit_talk_17]
+[flashOff]
+[wt 1.0]
+[fadein white 0.5]
+[se ad32]
+[shake 0.05 2 4 0.4]
+[effect bit_talk_14]
+[wait effect bit_talk_14]
+[wait fade]
+[wt 0.75]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+私のガラティーンを押し退けた……！？[r]馬鹿な、本当にヌァザの腕だとでも[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+ぐ、っぅぅぅぅぅううう……！
+[k]
+
+[charaShake F 0.05 2 2 1.5]
+[se ad137]
+[wait se ad137]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 7]
+[charaFadein F 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+この匂い[line 3]まさか、焼けているのですか！？[r]その腕ごと、体の内部が！？
+[k]
+
+[charaFace F 7]
+＠ベディヴィエール
+気になさらず、それより急いで！[r]今なら撤退できます！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+そのつもりだとも！　ルキウス君が戦っている間に[r]後ろの敵は蹴散らしておいた！
+[k]
+
+＠ダ・ヴィンチ
+逃げるぞ、[%1][&君:ちゃん]！[r]昼間のガウェイン卿なんか相手にしていられない！
+[k]
+
+？1：了解！
+？2：さっすがダ・ヴィンチちゃん！
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace F 7]
+[charaFadein F 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、頼れる万能サーヴァントです！[r]ルキ……ベディヴィエールさん！　一緒に！
+[k]
+
+[charaAttack A normal 0,0 0.4]
+[wt 0.7]
+[charaFace F 3]
+＠ベディヴィエール
+え……[se ad7][charaFadeout F 0.4]お、ひゃ！？
+[k]
+
+＠ベディヴィエール
+ち、力持ちですね、レディ！？[r]盾を持ったまま私を片手で持ち上げるなど！
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスター、この子をお願いします！
+[k]
+
+？1：任せて！
+？2：応ッ！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+では諸君、対閃光、衝撃防御だ！[r]具体的に言うと口をあけて目と耳を塞ぎたまえ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+……！
+[k]
+
+[bgmStop BGM_EVENT_24 1.8]
+[se bac117]
+[wt 0.7]
+[messageOff]
+[charaFadeout E 0.1]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad34]
+[wt 0.15]
+[fowardEffect bit_talk_40]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad34]
+[wt 0.2]
+[fadeout white 0.1]
+[wait fade]
+[fowardEffectStop bit_talk_40]
+[wt 2.0]
+[fadein white 2.0]
+[wait fade]
+
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ガウェイン
+ベディヴィエール！[r]待て、どういう事なのです！？
+[k]
+
+＠ガウェイン
+貴方が[line 3]貴方のような騎士が、[r]何故このような戦場に現れたのです……！
+[k]
+
+[wt 0.5]
+[messageOff]
+[wt 0.5]
+[charaFadeout E 1.0]
+[wt 2.0]
+
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

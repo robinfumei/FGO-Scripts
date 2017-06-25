@@ -1,0 +1,54 @@
+
+＄94-00-18-56-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 1006001 1 ネロ・ブライド]
+
+[scene 20901]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 3]
+
+＠ネロ・ブライド
+……こうして改まると照れてしまうな。[r]余はともかく、[%1]の目がよくない。
+[k]
+
+＠ネロ・ブライド
+……真剣すぎて、まっすぐに見られないというか……[r]惚れ直してしまうではないか……
+[k]
+
+＠ネロ・ブライド
+余は、そこまで安い皇帝ではないのだぞ？
+[k]
+
+[charaFace A 0]
+＠ネロ・ブライド
+……うむ。だが許す。
+[k]
+
+＠ネロ・ブライド
+我が契約者、我が愛、我が剣を預かる者よ。[r]貴様への愛を此処に示しておかなくてはな。
+[k]
+
+＠ネロ・ブライド
+さあ[line 3]受け取るがよい！
+[k]
+
+＠ネロ・ブライド
+これぞローマの全てをこめた天上の果実。[r]運命を薔薇色に変える、至高の銘菓である。
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

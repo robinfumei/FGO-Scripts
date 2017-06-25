@@ -1,0 +1,102 @@
+＄01-00-06-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+
+[scene 28801]
+[backEffect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+なんか、最後に妙なのがいなかった！？[r]砂嵐でよく観察できなかったけど！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+……、同感です。ゴーレムの一種のようでしたが、[r]砂嵐でよく見えなくて……！
+[k]
+
+＠マシュ
+マスターはどうでしたか！？[r]敵の容姿が分かりましたか！？
+[k]
+
+？1：鎧の騎士だった……！
+？2：二人は分からなかった[&のか:の]？
+
+？！
+
+[charaFace A 6]
+＠マシュ
+大きな……鎧の騎士？
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+そうか。後ろから俯瞰している方が[r]相手の容姿は確認しやすいんだね。
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+こっちはまるでダメだ。敵に接近していると砂嵐で[r]シルエットぐらいしか判断できない。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+
+[charaFace A 7]
+＠マシュ
+……！[r]敵影、[bgm BGM_EVENT_3 0.1]さらに追加です！
+[k]
+
+[charaFace A 15]
+＠マシュ
+[line 3]全身がビリビリする[line 3][r]何か、異質なものがやってきます、マスター！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ……フォ[line 3]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+[line 3]計測器が振り切っている。[r]あの羽の音とシルエットは、まさか[line 3]
+[k]
+
+[charaFace D 6]
+＠ダ・ヴィンチ
+[%1][&君:ちゃん]、様子見はなしだ！[r]次の相手は文句なしの強敵だぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[soundStopAll]
+[end]
+

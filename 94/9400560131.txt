@@ -1,0 +1,326 @@
+
+＄94-00-56-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 4009201 1 アン]
+[charaSet C 4009101 1 メアリー]
+[charaSet D 4008001 1 黒髭]
+[charaSet E 3011000 1 フィン]
+[charaSet F 3002001 1 ディルムッド]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フィン
+おや。あの浜辺に流れ着いているものは……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ディルムッド
+さすが我が主、お目が高い。[r]あれなるは海岸に流れ着いた海草……ではなく。
+[k]
+
+＠ディルムッド
+あれは先の激戦の中、特にそれとは関係なくひっそりと[r]流れ着いていた溺死体。
+[k]
+
+＠ディルムッド
+マスターの国の専門用語で言うところの、[r]ドザエモンです。埋葬しましょう。
+[k]
+
+
+＠黒髭
+イエス、美少女、ノー、埋葬……生きてる、拙者、[r]生きてるナリよぉ……？（ぴくぴく）
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+黒髭さんです！　戦いの間に帰ってきていたのですね！
+[k]
+
+[charaFace A 7]
+＠マシュ
+偵察の成果を聞いてみましょう。[r]話が聞けるうちに。
+[k]
+
+[messageOff]
+[se ad132]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.4]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠メアリー
+そら黒髭。成果報告しろ。
+[k]
+
+＠黒髭
+ああ、なんだかグラングランする頭に幼女の声が[r]染み渡るゥ……そうだ、ご褒美、ご褒美を……。
+[k]
+
+[charaFace C 5]
+＠メアリー
+結果を聞いてからね。早くしろ。
+[k]
+
+[messageOff]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[cameraMove 0.1 0,100 1.5]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 0,-256]
+[wt 0.2]
+[wipein downToUp 0.2 1]
+[wait wipe]
+
+＠黒髭
+デュフフ、これから上る大人の階段の高さにモジモジ、[r]期待と不安にドキをムネムネさせてるメアリー氏。
+[k]
+
+＠黒髭
+たまらんですなぁ[line 3][r]ではお楽しみはあとにして報告を。
+[k]
+
+[charaFace D 0]
+＠黒髭
+海からこの陸地を見た結論、ここがどこだかは拙者にも[r]ちーともわかりませぬ。
+[k]
+
+＠黒髭
+夜に見えた星の並びも支離滅裂。[r]現在位置を知る助けには全然ならず[line 2]
+[k]
+
+
+＠アン
+他に情報は？
+[k]
+
+[charaFace D 0]
+＠黒髭
+あ、ヤバイ、目が霞む……興奮しすぎかしら拙者？
+[k]
+
+＠黒髭
+……外洋、激しく波高し。潮の流れも複雑怪奇、[r]そんじょそこらの船ではまともな航行は不可能案件にござる。
+[k]
+
+[charaShake D 0.05 3 3 0.25]
+[charaFace D 3]
+＠黒髭
+それから……ゲホッゲホッ。おやあ、なくしたと思っていた[r]殿堂入り薄い本がこんなところに……やったぁ……。
+[k]
+
+
+＠アン
+ちょっと！　あっちの世界に旅立つのは[r]情報を全部喋ってからにしてくださいまし！
+[k]
+
+[charaFace D 0]
+＠黒髭
+ご褒美……ご褒美さえあれば……頑張れるよー……。
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout downToUp 0.2 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[cameraMove 0.1 0,0 1.0]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[wt 0.2]
+[wipein upToDown 0.2 1]
+[wait wipe]
+
+＠メアリー
+しょうがないなあ。[r]……あー、黒髭。よく生きて帰ってきたよ。
+[k]
+
+＠メアリー
+ナイス偵察。さすが大海賊。尊敬するね。（棒）[r]いぇーい。
+[k]
+
+＠黒髭
+い……いぇーい……？
+[k]
+
+[charaFadeout C 0.4]
+[wt 1.2]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+メアリーさんが、プルプル震えてるだけの黒髭さんに[r]手を伸ばして……黒髭さんもそれに反応して……。
+[k]
+
+＠マシュ
+ハイタッチ、的なことを。
+[k]
+
+[messageOff]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[cameraMove 0.1 0,100 1.5]
+[charaTalk C]
+[charaFace D 3]
+[charaFadein D 0.1 -192,-256]
+[charaFace C 3]
+[charaFadein C 0.1 192,-96]
+[wt 0.2]
+[wipein downToUp 0.2 1]
+[wait wipe]
+
+＠メアリー
+触った。触ったね？　はい約束の１タッチ終わり。[r]取引終了。さ、続き続き。
+[k]
+
+[se ad173]
+[seStop ad173 1.5]
+[charaFadeout C 0.4]
+[wt 1.2]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0,-256]
+＠黒髭
+……。……！[r]おお……おおお……！
+[k]
+
+＠黒髭
+拙者、絶望に震えつつも、ちっちゃくて柔らかい手の平の[r]感触にちょっとムフッとした純真さをアピール……！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.4]
+
+＠黒髭
+絶望……そう、絶望でござる……。[r]この[bgm BGM_EVENT_5 0.1]黒髭様がテメェらに絶望を与えてやるぜ！
+[k]
+
+？1：なんかいきなりシリアスモードに！
+？2：絶望……とは？
+
+？！
+
+[charaFace D 0]
+＠黒髭
+フフ、フフフ。海からこの陸地を調べてわかった、[r]最後の結論[line 3]
+[k]
+
+＠黒髭
+ここは……島だ。[r]絶海の孤島で、おそらく、無人島でござるぞ！
+[k]
+
+＠マシュ
+……っ！？
+[k]
+
+＠黒髭
+デュフフフ。無人島……脱出不可能……女性陣に[r]モミクチャにされるハーレム生活がこれから始まるのは確実。
+[k]
+
+＠黒髭
+……なのに。[r]なのに、どうして[line 3]
+[k]
+
+[charaFace D 5]
+＠黒髭
+今のところ一番頑張った拙者が、[r]そこに参加できないのかー！　テラ理不尽！
+[k]
+
+＠黒髭
+呪う！　拙者、世界を呪いますぞぉぉぉー！[r]うおおお、聖パイに呪いあれぇえええ！
+[k]
+
+[bgm BGM_EVENT_5 0.4 0.25]
+[messageOff]
+[charaSpecialEffect D flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect D]
+[wt 1.0]
+
+[messageOff]
+[wipeout downToUp 0.2 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[cameraMove 0.1 0,0 1.0]
+[wt 0.2]
+[wipein upToDown 0.2 1]
+[wait wipe]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ディルムッド
+深く……妙な親近感を覚えてしまった……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……残念です。[r]致命的なダメージを受けておられたようですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠メアリー
+話によると、ただの海でもなさそうだったしね。[r]それに……無人島、か。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+カルデアと通信もできない状況で……[r]どこかもわからない無人島に、わたしたちだけ。
+[k]
+
+＠マシュ
+いったい……[r]これからどうすればいいのでしょう……？
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,339 @@
+＄91-70-04-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20702]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 7004001 1 フラン]
+[charaSet D 7004001 1 フラン（？）]
+[charaSet E 7004001 1 ？？？]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……ふぅ。[r]生体反応消失を確認。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+こちらでも確認した。やれやれ、ビックリした……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フラン
+ゥゥ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+フランさん？[r]……ホムンクルスを調べて欲しいんですか？
+[k]
+
+＠フラン
+ゥ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドクター。分析できますか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、少し時間が掛かるけど……[r]ひとまず、こちらでやっておくよ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+それから、先ほど感知された強い魔力について。[r]その先にある砦に似たものが検知された。
+[k]
+
+＠Dr.ロマン
+直ちに追跡を開始して欲しい。ホムンクルスのことを[r]考慮するかぎり、状況はよろしくなさそうだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+了解しました。[r]では、すぐに向かいます。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[wt 0.5]
+[scene 20405]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0 1]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+＠フラン
+……ゥゥゥ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠マシュ
+フランさん、落ち着いて下さい。[r][line 2]誰も、出てきませんね。
+[k]
+
+[charaFace A 4]
+＠マシュ
+人の気配もない。[r]……ますます、よろしくなさそうです。
+[k]
+
+[charaFace C 2]
+＠フラン
+ゥゥゥ……ゥゥ！！
+[k]
+
+[se ad59]
+[charaFadeout C 0.4]
+[wt 0.4]
+[seStop ad59]
+[charaFace A 6]
+＠マシュ
+フランさん！？
+[k]
+
+？1：後を追おう！
+
+？2：捕まえよう！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。[r]フランさん、待って下さい！
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+[scene 10915]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0 1]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+＠フラン
+……ゥゥ！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠？？？
+[line 2]出た、わね。欠陥品の、姉。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠フラン
+……！？
+[k]
+
+[charaFace E 1]
+＠？？？
+面白い、顔を、するのね。[r]それとも、自分の、顔を、鏡で、見たこと、ない？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+フランさん、速いですってば……。[r]え……！？
+[k]
+
+？1：同じ顔……？
+
+？2：フランがもう一人……？
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠フラン（？）
+それが、新しい、マスター、なのね。[r]やっぱり、欠陥品は、モラルも、欠如している。
+[k]
+
+＠フラン（？）
+[line 2]主に、見捨てられたら、死ぬ。[r][line 2]それが、私たちの、掟でしょう。
+[k]
+
+[charaFace D 4]
+＠フラン（？）
+なのに、英霊にまで、なって、[r]新しいマスターに、忠誠を誓うなんて、
+[k]
+
+＠フラン（？）
+姉さんは、人工神経の髄まで、欠陥品。
+[k]
+
+[charaFace C 2]
+＠フラン
+ゥゥ……！
+[k]
+
+[charaFace D 1]
+＠フラン（？）
+ああ、そうか。[r]喋れないのね、可哀想な、姉さん！
+[k]
+
+＠フラン（？）
+私はこんなに、喋られる！[r]お父様からも、愛して、もらっている！
+[k]
+
+＠フラン（？）
+あなたとは、何もかも、何もかも、違うのよ！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+何者ですか、あなたは。[r]それから[line 2]この砦の人間を、何処にやりました。
+[k]
+
+[charaFace D 0]
+＠フラン（？）
+莫迦な、人間。[r]質問をすれば、答えが返ってくるとでも？
+[k]
+
+＠マシュ
+いいえ、その回答で明瞭です。[r][line 2]あなたは、この砦の人間を死に追いやった。
+[k]
+
+[charaFace D 1]
+＠フラン（？）
+ふふふ。[r]違うわ。
+[k]
+
+＠フラン（？）
+死に、追いやったのでは、なく。[r]新しい、生を、与えて、あげた、のよ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え…………！？
+[k]
+
+[charaFace A 4]
+＠マシュ
+まさか……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+わかったぞ！　あのホムンクルス、[r]素材に人間が使われている！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+君も知っての通り、ホムンクルスは[r]魔術回路を素体として鋳造されるものだが[line 2]
+[k]
+
+＠Dr.ロマン
+これは、死体を加工して魔力で動かしている。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ホムンクルスというよりは、フランと同じ……[r]人造人間に近い！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フラン（？）
+アハハハハ！[r]それじゃ、まずは小手調べ。
+[k]
+
+＠フラン（？）
+頑張ってね、姉さん。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……来ます！[r]フランさん、準備を！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フラン
+ゥ……。
+[k]
+
+？1：フラン！
+
+？2：落ち着け！
+
+？！
+
+＠フラン
+……。[r]……ゥ（こくこく）
+[k]
+
+＠フラン
+ナーーーーーーーーーーーーーーーーオゥゥゥゥゥ!!
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

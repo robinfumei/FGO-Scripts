@@ -1,0 +1,921 @@
+
+
+＄94-00-77-09-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 1010001 1 エリザベート]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 7022001 1 茨木童子]
+[charaSet E 5012001 1 ニトクリス]
+[charaSet F 98003003 1 Dr.ロマン]
+[charaSet G 98084000 1 女王騎士]
+[charaSet H 2008000 1 トリスタン]
+
+[scene 20502]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.4 1]
+
+＠マシュ
+やはり街はハロウィンを祝っていませんね。[r]心なしか、街の方々も元気がなさそうです。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+まず街をハロウィン仕様にするわよ。[r]いいわね、[&子イヌ:子ジカ]！
+[k]
+
+？1：どうやって？
+
+[charaFace A 4]
+
+＠エリザベート
+え！？[r]それはその……。
+[k]
+
+[charaFace A 7]
+
+＠エリザベート
+……[#私:アタシ]がやると決めたら、[r]何か勝手にそうなったりしない？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ロビンフッド
+しねーよ！[r]どこのお姫様だお前は！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠ニトクリス
+我々だけでは手が足りません。[r]街の人に手を貸してもらいましょう。
+[k]
+
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+？2：皆でやろう！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠ロビンフッド
+そうだな。そこのマスターの言う通りだ。
+[k]
+
+＠ロビンフッド
+街の連中に声を掛けないと、[r]いつまで経っても終わらねーぞ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？！
+
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠エリザベート
+……わ、分かった！[r]じゃあ、この街の[#人間:ブタ]どもに命令しましょう！
+[k]
+
+[charaFace C 5]
+
+＠ロビンフッド
+ブタと言われて喜ぶ人間はいねぇって話ですよ。[r]ちゃんと事情から説明しろっての。領主なんだから。
+[k]
+
+[charaFace A 2]
+
+＠エリザベート
+何よ！　[#私:アタシ]のファンは大体、[r]喜んでくれるわよ！
+[k]
+
+＠エリザベート
+匿名希望のコマドリだってピーピー喜んでくれたし、[r]飼い主であるアナタだって嬉しいんじゃないの！？
+[k]
+
+[charaFace C 2]
+
+＠ロビンフッド
+あのデブ鳥とオレには何の関係もねー！[r]勝手に付いてきてるだけだからなあの鳥！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 2]
+
+
+＠ニトクリス
+エリザベート。[r]人間を画一的に捉えてはいけません。
+[k]
+
+＠ニトクリス
+ハロウィンを盛り上げたいのであれば、[r]しっかりと頼むべきです。
+[k]
+
+[charaFace A 7]
+
+＠エリザベート
+わ、分かったわよ……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ロビンフッド
+そんじゃまあ。[r]手分けして、片っ端から頼んでみるか。
+[k]
+
+＠ロビンフッド
+その時、カボチャもバンバン渡していく感じで[r]いいだろ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ニトクリス
+そうですね。[r]では、二時間後一旦ここに集合しましょう。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ロビンフッド
+おう、そんじゃまあ解散だ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+え？[r]あれ？　[#私:アタシ]どこに行けばいいの？
+[k]
+
+？1：ついてきて
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+エリザベートさんは、[r]わたしたちと同行しましょう。
+[k]
+
+[charaFace B 8]
+
+＠マシュ
+（変な物言いでトラブルになっても[r]　困りますし……）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+うん！
+[k]
+
+[charaSet D 98105300 0 茨木童子]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaMove D 0,-4 0.1]
+[wait charaMove D]
+
+[charaChange D 7022001 0 normal 0]
+[wait charaChange D]
+[charaMove D 1 0.1]
+[wait charaMove D]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaChange D 98105300 0 normal 0]
+[wait charaMove D]
+
+＠茨木童子
+では[#吾:われ]は留守番だな。[r]ここで待っていてやろう！（ぼりぼり）
+[k]
+
+
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFadeout D 0.1]
+[wt 1.0]
+
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠マシュ
+皆さん、集まっていますね。
+[k]
+
+[charaFace B 8]
+
+＠マシュ
+こちらは戦果ゼロでした。[r]……マスター、気が重いです……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 0]
+
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠ニトクリス
+そちらもですか？[r]……ロビンフッド、貴方は？
+[k]
+
+[charaFace C 4]
+
+＠ロビンフッド
+ダメダメ、なしのつぶてってやつ。
+[k]
+
+[charaFace C 0]
+
+＠ロビンフッド
+ただ、何つーか祭りをしたがってる[r]様子ではあったな。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+
+＠マシュ
+あ、はい。それは同感です。
+[k]
+
+＠マシュ
+言葉を濁されましたが、ハロウィンに[r]拒否感のようなものはなかったと思います。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+
+＠エリザベート
+ぐぐぐぐぐ……許せないわ！[r]ハロウィンは、子供も大人も楽しめるお祭りなのに！
+[k]
+
+[charaFace E 7]
+
+＠ニトクリス
+エリザベートは執政者としての貫禄が[r]いまいち足りないようですね。
+[k]
+
+＠ニトクリス
+加えて、ピラミッドの女王がハロウィンを[r]禁止しているため、踏ん切りがつかないようです。
+[k]
+
+[charaFace E 9]
+
+＠ニトクリス
+……まったく。どこの女王でしょう、[r]ピラミッドをあんな風に使うなんて……
+[k]
+
+[messageOff]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+ねえ、[#私:アタシ]のどこがダメなの！？
+[k]
+
+[charaTalk H]
+
+＠H：全員
+格好（ではないかと）。
+[k]
+
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+
+＠エリザベート
+[messageShake 0.05 5 5 0.7]
+[f x-large]勇者なのにー！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad166]
+
+[seStop ad166 1.2]
+
+[wt 1.2]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠女王騎士
+ハロウィンは禁止と[line 3][r]ま[charaShake G 0.05 3 3 0.4]たアンタたちぃ！？
+[k]
+
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+
+[charaFace G 0]
+[charaFadein G 0.1 0]
+
+
+＠エリザベート
+あ、そうだ！[r]ねえ、ちょっとそこの！
+[k]
+
+＠エリザベート
+[#私:アタシ]を見て、どう思う？
+[k]
+
+
+＠女王騎士
+どう思うって……。
+[k]
+
+＠女王騎士
+露出は程ほどにしないと、[r]斬られたとき痛いぞ？
+[k]
+
+[charaFace A 5]
+
+＠エリザベート
+センス、ゼロね！
+[k]
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.3]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[wt 0.5]
+
+
+
+[se ad151]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+……今の音は……きゃっ！？
+[k]
+
+[se bac127]
+[seVolume bac127 0 0.7]
+[shake 0.05 5 5 0.2]
+[wait se bac127]
+
+
+
+[charaSet D 7022001 1 茨木童子]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 1.0 1]
+
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+[wt 1.0]
+
+[wipein rectangleStripRightToLeft 1.0 1]
+
+[wait wipe]
+
+＠茨木童子
+む？　また何か騒ぎが起きているのか。[r][#吾:われ]には関係のない話だがな。
+[k]
+
+[charaFace D 1]
+
+＠茨木童子
+何故なら、我が前にはついに町人に[r]分けてもらったチョコケーキがある故なぁ。
+[k]
+
+＠茨木童子
+ふ、ふふふ……勿体なくて手が付けられぬ……[r]どこからかじれば美味いのか……
+[k]
+
+[charaFace D 0]
+
+＠茨木童子
+むう、どこを囓っても美味そうに見えるではないか……[r]こ[charaFace D 1]やつめ、ふふふ、こやつめ……
+[k]
+
+＠茨木童子
+やはりここは大切に、はじっこから少しずつ[r]味わって[line3]
+[k]
+
+[messageOff]
+
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.3]
+
+[se bac127]
+[seVolume bac127 0 0.7]
+[shake 0.05 5 5 0.2]
+[wait se bac127]
+
+[wt 0.3]
+
+[se ad46]
+[seVolume ad46 0 0.3]
+
+[wt 0.2]
+[seStop ad46 0.1]
+
+
+[wt 0.3]
+
+[se ad119]
+
+[charaFace D 2]
+
+＠茨木童子
+[fontSize large]にゃんとぉぉおおおおおお！！！！！？
+[k]
+
+
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0 1]
+[wt 1.0]
+
+
+[wipein rectangleStripLeftToRight 1.0 1]
+
+[wait wipe]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠マシュ
+貴方は[line 3]！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.4 1]
+
+
+
+＠？？？
+ああ、悲しい……。
+[k]
+
+
+＠？？？
+街を橙色に染めるのは、[r]女王の本意で無いことが酷く苦しい……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠ロビンフッド
+はい？　何なんスか、この優男。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+私はトリスタン……。[r]元円卓の騎士、現在女王の騎士。
+[k]
+
+＠トリスタン
+嘆きのトリスタン……あるいは暮れなずむ夕陽に[r]思いを馳せるトリスタンともお呼び下さい……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠ロビンフッド
+長い長い！
+[k]
+
+[charaSet D 1020001 1 ？？？]
+
+
+
+
+[charaTalk D]
+
+
+＠？？？
+卿よ、貴公はアーチャーなのだから[r]前に出ずとも[line 3]
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+新手……！
+[k]
+
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.3]
+
+[charaFace D 2]
+[charaFadein D 0.1 2000,0]
+
+[charaMove D -1000,0 0.4]
+
+
+[wt 0.5]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+
+＠マシュ
+……が、逃げて行きました！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+え、なに今の？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+卿……？[r]一体、何処へ[line 3]？
+[k]
+
+[messageOff]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+
+[charaSet D 7002002 1 謎の黒騎士]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 -2000,0]
+
+[charaMove D 1 0.6]
+
+[wt 0.5]
+
+[charaFace D 2]
+
+
+
+＠謎の黒騎士
+……ＡＡＡＡＡＡＡＡＡＡＡＡＡ！！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠マシュ
+今度こそ新手です！
+[k]
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠トリスタン
+どうしたのです、ラン[line 3]。
+[k]
+
+[charaMove D -100,0 0.1]
+
+[wt 0.2]
+
+
+
+[se ad180]
+
+[charaFace H 5]
+
+[charaShake H 0.05 2 2 0]
+
+[charaFace D 2]
+
+＠謎の黒騎士
+ＳＨＵＵＵＵＵＵＵＵＴＴＴＴＴ[r]ＵＰＰＰＰＰＰＰＰＰＰＰ[line 3]！！
+[k]
+
+
+＠トリスタン
+おおう、卿よ！？[r]いきなり裸絞めとは何事です[line 3]！？
+[k]
+
+[se ad151]
+[wait se 151]
+
+[wt 0.2]
+
+[se ad151]
+[wait se 151]
+
+
+＠トリスタン
+ギブ、ギブギブギブ！[r]タップ！　タップしてますから！
+[k]
+
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+
+
+＠マシュ
+仲間割れを始めました！[r]マスター、今の内に叩きましょう！
+[k]
+
+[charaFace B 0]
+
+＠マシュ
+……その、よく分からないのですが。
+[k]
+
+＠マシュ
+あの黒騎士だけは絶対に許してはならない、[r]とにかく彼をガウェイン料理の如くマッシュすべしと、
+[k]
+
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.3]
+
+[charaFace B 5]
+
+
+
+＠マシュ
+わたしの[#霊基:からだ]が告げているのです……！！
+[k]
+
+？1：やっちゃえマーシューカー！
+
+[charaFace B 7]
+
+＠マシュ
+はい！[r]いきます、お覚悟を！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？2：し、深呼吸！
+
+[charaFace B 7]
+
+＠マシュ
+は、はい。マシュ・キリエライト深呼吸します！
+[k]
+
+
+＠マシュ
+す[line 3]は[line 3]、[charaFace B 2]す[line 3]は[line 3]。[wt 0.3][r]す[charaFace B 7][line 4]は[line 4]、す[line 4][charaFace B 2]は[line 4]……。
+[k]
+
+[charaFace B 7]
+
+＠マシュ
+……よし、叩き潰します！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+
+＠エリザベート
+闘志満々過ぎるわね！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+
+[charaFace D 0]
+[charaFadein D 0.1 -100,0]
+
+
+＠トリスタン
+卿、卿よ。[r]敵、敵です、敵が来ました……。
+[k]
+
+[se ad7]
+[charaMove D 0 0.2]
+
+
+[charaFace D 2]
+[charaShakeStop H]
+[charaFace H 0]
+
+
+
+＠謎の黒騎士
+ＥＮＥＭＹＹＹＹＹＹＹＹＹＹＹＹ！！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+今の内に……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

@@ -1,0 +1,189 @@
+＄94-00-66-99-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103400 1 クロエ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98002000 1 ？？？]
+
+[scene 31600]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+さあ、これで四天王とやらを全員倒したはず！[r]ずいぶん手こずらせてくれちゃって。
+[k]
+
+[charaFace B 4]
+＠クロエ
+オジさんズ＆ホクロのおにーさんが[r]何を目論んでたのか知らないけど[line 3]
+[k]
+
+[charaFace B 1]
+＠クロエ
+これでもう、このヘンテコ固有結界ごと[r]おしまいよね！？
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace B 0]
+＠クロエ
+カルデアに戻りま……[charaFace B 5]しょ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ……？
+[k]
+
+
+[se ad14]
+[shake 0.05 0 4 0]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+またこの魔法の国々に異変が……！
+[k]
+
+
+
+
+
+[messageOff]
+[seStop ad14 2.0]
+[fadeout white 2.0]
+[wait fade]
+[shakeStop]
+
+[charaFadeout A 0.1]
+
+[charaPut A 1]
+[charaPut B 1]
+[charaPut C 1]
+
+[scene 31000]
+
+[bgm BGM_EVENT_1 2.0]
+[fadein white 2.0]
+[wait fade]
+
+[se bac55]
+[charaEffect A bit_talk_21]
+[wt 0.5]
+[seStop bac55]
+[charaPut A 1200,1200]
+[charaEffectStop A bit_talk_21]
+
+[se ba1]
+[wipeout rightToLeft 0.5 1]
+[wait wipe]
+
+[scene 21360]
+
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+
+[se bac55]
+[charaEffect B bit_talk_21]
+[wt 0.5]
+[seStop bac55]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_21]
+
+
+[se ba1]
+[wipeout rightToLeft 0.5 1]
+[wait wipe]
+
+[scene 31400]
+
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+
+[se bac55]
+[charaEffect C bit_talk_21]
+[wt 0.5]
+[seStop bac55]
+[charaPut C 1200,1200]
+[charaEffectStop C bit_talk_21]
+
+[se ba1]
+[wipeout rightToLeft 0.5 1]
+[wait wipe]
+
+[scene 21810]
+
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+
+[se bac55]
+[charaEffect D bit_talk_21]
+[wt 0.5]
+[seStop bac55]
+[charaPut D 1200,1200]
+[charaEffectStop D bit_talk_21]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 31100]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaPut A 1]
+[charaEffect A bit_talk_06]
+[wt 0.8]
+[se bas1]
+[charaEffectStop A bit_talk_06]
+[wt 1.5]
+
+？1：あれが最後の目的地か……？
+？！
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+
+[charaPut A 1200,1200]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0 1]
+
+[scene 31600]
+
+[fadein black 1.0]
+[wait fade]
+
+
+＠クロエ
+わかりやすくて親切だけど……[r]やっぱり、これって罠よね。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_1 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,507 @@
+
+
+
+＄01-00-07-14-2-0
+[soundStopAll]
+[voice NP_100100_1]
+[voiceStop NP_100100_1 0]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 98104300 1 エレシュキガル]
+[charaSet E 98104300 1 エレシュキガルB]
+[charaSet F 98104300 1 エレシュキガルC]
+[charaSet G 98104300 1 エレシュキガルD]
+
+
+[scene 33900]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+
+＠マシュ
+敵戦力、沈黙しました！[r]先に進めそうです、先輩！
+[k]
+
+？1：ああ、おそろしい質問だった……
+？2：ああ、深遠な問いかけだった……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+悪意しか感じられない内容だったけど。[r]……この先、ずっとこの調子じゃないでしょうね……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+
+＠Dr.ロマン
+いや、今のはたまたまじゃないかな？
+[k]
+
+＠Dr.ロマン
+イシュタルとエレシュキガル。天と地の女神だからね。[r]キミたちは分かりやすい[#評価基準:ものさし]なんだよ、きっと。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+だと良いけど。[r]あとは……門をくぐらないといけないのよね。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。特にトラップはなさそうです。[r]ほら、わたしが通っても何も起きませんよ、イシュタルさん。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠イシュタル
+そうみたいね。安心したわ。[r]ありがと、マシュ。
+[k]
+
+？1：よし、先に進もう！
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.0]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+[scene 33800]
+
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+
+[flashin once 0.7 0.7 FFFFFFAF FFFFFF00]
+[se ad65]
+[wt 2.0]
+
+＠イシュタル
+きゃっ！？
+[k]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+イシュタルさん！？[r]どうしました、何かありましたか！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaScale B 0.93]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.4 1]
+
+＠イシュタル
+あいたたた……なんか痺れた……[r]大丈夫よ、門を通ったらヘンな悪寒が走っただけ。
+[k]
+
+＠イシュタル
+別にこれといって何も……何も……
+[k]
+
+[charaFace B 9]
+＠イシュタル
+ねえ。何かおかしくない？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk off]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 -256,0 5 0 5]
+[wt 2.0]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+？1：ちょっと痩せた……？
+？2：脱皮とかした……？
+
+？！
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+[charaShake B 0.01 5 5 0.7]
+＠イシュタル
+やっぱり！？[r]明らかに縮んでるわよね、私！？
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.7]
+[wipeout rightToLeft 0.7 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 0.4]
+
+
+[wipein fire 1.0 1]
+[wait wipe]
+
+[charaTalk depthOff]
+[charaTalk off]
+[charaDepth D 0]
+[charaDepth E 1]
+[charaDepth F 2]
+[charaDepth G 3]
+[charaFadein D 0.4 1]
+[charaPut E 0,0]
+[charaPut F 0,0]
+[charaPut G 0,0]
+[charaFilter E silhouette 4B008280]
+[charaFilter F silhouette 19197080]
+[charaFadeTime E 0 0.5]
+[charaFadeTime F 0 0.8]
+[charaFadeTime G 0 0.3]
+[wait wipe]
+
+[bgm BGM_EVENT_1 0.1]
+
+
+＠エレシュキガル
+そうよ。[r]自らの愚かさを思い知ったかしら、イシュタル。
+[k]
+
+＠エレシュキガル
+アナタは冥界下りに失敗している。この神話上の事実が[r]あるかぎり、冥界の呪いからは逃れられない。
+[k]
+
+＠エレシュキガル
+荒野を象徴する冠。葦の測量尺。瑠璃の首飾り。[r]ビーズのネックレス。金の腕輪。魅惑の胸飾り。
+[k]
+
+＠エレシュキガル
+そして、最後に残された貴婦人の衣装。[r]かつてアナタは、この七つの宝を私に奪われた。
+[k]
+
+＠エレシュキガル
+その決まりは今も生きている。宝に該当する権能が[r]ない以上、アナタ自身が負債を払うしかないわ。
+[k]
+
+＠エレシュキガル
+分かる？　アナタは門をくぐる度に小さくなっていく。[r]七分の一ずつ神性を奪われていく。
+[k]
+
+＠エレシュキガル
+第二の門をくぐる頃には下級の神霊に。[r]第四の門をくぐる頃にはガルラ霊以下の精霊に。
+[k]
+
+＠エレシュキガル
+そして最後には無力な羽虫になるでしょう。[r]私に握り潰されるだけの、憐れな蝶に。
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaPut E 1000,0]
+[charaPut F 1000,0]
+[charaPut G 1000,0]
+[wt 0.1]
+[charaTalk depthOn]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+＠イシュタル
+趣味わる！[r]また一段とこじらせてるようね、エレシュキガル！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk depthOff]
+[charaTalk off]
+[charaDepth D 0]
+[charaDepth E 1]
+[charaDepth F 2]
+[charaDepth G 3]
+[charaFadein D 0.1 1]
+[charaPut E 0,0]
+[charaPut F 0,0]
+[charaPut G 0,0]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+
+＠エレシュキガル
+[line 3]そんな事はありません。[r]これでも恩情を与えている方です。
+[k]
+
+＠エレシュキガル
+本来なら生者を連れてきた段階で、[r]アナタも、そこの人間も冥界の底に落としています。
+[k]
+
+＠エレシュキガル
+ですが七門の試練を受けるというのであれば、[r]その答えを見定めるのが冥界の決まり。
+[k]
+
+＠エレシュキガル
+[%1]。[r]私を倒しに来たのであれば、試練を越えてみるがいい。
+[k]
+
+＠エレシュキガル
+無事に七門を通り抜けたのであれば、[r]その時は冥界の主として来訪者を迎えよう[line 3]
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_1 1.4]
+[wipeout fire 1.0 1]
+[wait wipe]
+[charaTalk depthOn]
+[charaTalk on]
+[charaFadeout D 0.1]
+[charaPut E 1000,0]
+[charaPut F 1000,0]
+[charaPut G 1000,0]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+[wt 0.4]
+[wipein rightToLeft 0.7 1]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+
+
+＠マシュ
+た、たいへんな事になってしまいました！[r]これではイシュタルさんは先に進めません！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+
+＠イシュタル
+…………いえ。進むわよ、私。[r]これぐらいの事は覚悟してきたから。
+[k]
+
+＠イシュタル
+私は冥界じゃ戦力にならないって言ったでしょ？[r]状況はとくに変わらないわ。
+[k]
+
+＠イシュタル
+私もアナタたちも、それにギルガメッシュも、[r]冥界にいる時点でもう逃げ場はないの。
+[k]
+
+＠イシュタル
+私たちが冥界の寒さに慣れてしまう前に[r]エレシュキガルを倒して脱出しないとウルクは滅びる。
+[k]
+
+＠イシュタル
+ならやるしかないでしょ。[r]覚悟を決めなさい、[%1]。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+
+＠Dr.ロマン
+……そうだったね。[r]エレシュキガルは『三女神同盟』の一柱でもある。
+[k]
+
+＠Dr.ロマン
+どのみち彼女とは対決するんだ。[r]ここで倒しておくのが最適解だ。
+[k]
+
+＠Dr.ロマン
+先に進んでくれ、[%1]君。[r]どうやら時間はなさそうだ。
+[k]
+
+＠Dr.ロマン
+冥界は現世ではあるけれど、いるだけでキミの[r]バイタルと運命力が低下している。
+[k]
+
+＠Dr.ロマン
+運命力というのは、そうだな……“生存のために[r]使われている、当然のような幸運”と思ってくれ。
+[k]
+
+＠Dr.ロマン
+どのような生命であれ、ボクらは常に[r]“危険に遭遇しない”という幸運を使っているんだ。
+[k]
+
+＠Dr.ロマン
+これが著しく低下した者は間の悪い事故にあったりする。[r]歩いていると運転ミスをした車がぶつかってくる、とかね。
+[k]
+
+＠Dr.ロマン
+冥界では死が満ちていて、運命力は必要ない。[r]生きる為の幸運が必要ない世界、なんだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+
+＠イシュタル
+そういうこと。だから、こんな場所に染まりきったら[r]地上に戻っても長生きはできない。
+[k]
+
+＠イシュタル
+これで冥界のなんたるかは分かった？[r]ならさっさと第二の門に急ぎましょう。
+[k]
+
+[wt 0.2]
+[se ad60]
+[seVolume ad60 0 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_5 0.4]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 1.0]
+
+[scene 33900]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+[seStop ad60 0.4]
+
+
+[bgm BGM_EVENT_1 0.1]
+
+＠第二の門
+答えよ[line 3][r]答えよ[line 3]
+[k]
+
+＠第二の門
+財の分配は流動なれど、相応の持ち主は一人なり。[r]地にありし富、その保管は一方に委ねるべし。
+[k]
+
+＠第二の門
+即ち[line 3]財を預けるに足る女神は、[r]エレシュキガルとイシュタル、どちらなりや？
+[k]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+
+＠イシュタル
+よし、二門めもラッキー問題ね！[r]考えるまでもない話だわ、[%1]！
+[k]
+
+[input selectBranch]
+[scene 33900]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaTalk B]
+[charaFadein B 0.1]
+[charaScale B 0.93]
+[messageOff]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+？1：考えるまでもなくイシュタルさん……！
+[charaFace B 13]
+
+＠イシュタル
+とーうぜん、私の得意分野だもの！[r]カルデアの資金運用はまーかせて！
+[k]
+
+[charaFadeout B 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.4]
+[se ad233]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+
+＠第二の門
+Ｏ[line 4]Ｕ[line 4]Ｔ[line 4][r]な[line 3]ぜ[line 3]こ[line 3]り[line 3]ぬ[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+？2：深く考えた結果エレシュキガル……！
+[charaFace B 9]
+＠イシュタル
+そ、そうね、あえてエレシュキガルに任せて、[r]家計を火の車にする作戦ね！
+[k]
+
+＠イシュタル
+アイツのダメさ加減を白日の下に[#晒:さら]して、私との差を[r]明確にする……そういう作戦って信じていいのね！？
+[k]
+
+
+[charaFadeout B 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.4]
+[se ad232]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+＠第二の門
+Ｓ[line 3]Ａ[line 3]Ｆ[line 3]Ｅ[line 3][r]ま[line 2]か[line 2]す[line 2]の[line 2]だ[line 4]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+？！
+

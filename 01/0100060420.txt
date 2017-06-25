@@ -1,0 +1,506 @@
+＄01-00-06-04-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 5012001 1 ニトクリス]
+[charaSet F 4012000 1 オジマンディアス]
+[charaSet B 98006300 1 ？？？]
+
+[scene 29310]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……はあ。[r]嵐のような展開でしたね、先輩。
+[k]
+
+？1：うん。訳が分からない
+？2：うん。でもわりと嫌いじゃない
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠フォウ
+フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠ダ・ヴィンチ
+うんうん。まさか一戦交えた後、[r]豪華な食事を振る舞ってくれるとは思わなかった。
+[k]
+
+＠ダ・ヴィンチ
+その後、“じゃあ帰れ”と神殿から[r]追い出されるところまでね。
+[k]
+
+[charaFace A 8]
+＠マシュ
+……はい。もう一度、オジマンディアス王の[r]言葉を振り返ってみると[line 3]
+[k]
+
+[messageOff]
+[wipeout circleIn 1.0 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[scene 29320]
+[wt 1.5]
+[wipein circleIn 1.0 1.0]
+[bgm BGM_EVENT_1 0.1]
+[wait wipe]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠オジマンディアス
+客はねぎらう。当然だ。
+[k]
+
+＠オジマンディアス
+我ら砂の民、遠方より訪れた客人を無下には扱わぬ。[r]長旅の苦しさを知るが故な。
+[k]
+
+[charaFace F 1]
+＠オジマンディアス
+だが、そう容易く協定を結べるとは思うな。[r]加えて、おまえたちには覚悟も[#矜持:きょうじ]も足りぬ。
+[k]
+
+＠オジマンディアス
+この世界の真実、この世界の残酷さを[#見聞:けんぶん]するがいい。[r]その後であれば、余はもう一度のみ機会を与えよう。
+[k]
+
+[charaFace F 4]
+＠オジマンディアス
+余はこの時代を支配する暴君。[r]おまえたちは必ず、余の首を[#獲:と]りに戻るだろう。
+[k]
+
+＠オジマンディアス
+その時はもはや客としては扱わぬ。[r]余に刃向かう愚かな獣として迎えよう。
+[k]
+
+[charaFace F 1]
+＠オジマンディアス
+では、我がエジプト領から追放する。[r]まずは聖都を目指すがいい。話はそれからだ。
+[k]
+
+[messageOff]
+[wipeout circleIn 1.0 1.0]
+[bgmStop BGM_EVENT_1 1.0]
+[wait wipe]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+[scene 29310]
+[wt 1.5]
+[wipein circleIn 1.0 1.0]
+[bgm BGM_EVENT_2 0.1]
+[wait wipe]
+[se ad156]
+[seStop ad156 1.9]
+
+＠マシュ
+という訳で、あれよあれよと[r]ここまで運ばれてしまいました……
+[k]
+
+[charaFace A 8]
+＠マシュ
+もっと建物の事とか、知りたい事があったのですが……[r]建設王、とてもせっかちで……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠ニトクリス
+何の不満があるのです！　王は貴方たちに[r]貴重な水と食料まで与えているというのに！
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい。そこはたいへん感謝しています。
+[k]
+
+[charaFace A 7]
+＠マシュ
+“エジプト領を出るまでは野たれ死なれては[r][f small]  [f -]余の面子が立たぬ[line 3]”
+[k]
+
+[charaFace A 13]
+＠マシュ
+そう言って、大量の物資を分けていただきました。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[se ad156]
+[seStop ad156 1.9]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+うんうん。神殿にあった資材も使わせてくれたし。[r]暴君なのは確かだけど、気前がいいのも確かだった！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠ニトクリス
+……当然です。[r]王は無慈悲な方ですが、勇者には寛大な方です。
+[k]
+
+＠ニトクリス
+それに、王も貴方たちを気に入った模様です。[r][%1]の空気というか、雰囲気でしょうか。
+[k]
+
+＠ニトクリス
+おそらく、貴方の緩やかな在り方が、[r]遠い日のご友人に似ていらっしゃったのでしょう。
+[k]
+
+[charaFace E 9]
+＠ニトクリス
+ですが、それも一度きりです。[r]ファラオ・オジマンディアスは怖ろしいお方。
+[k]
+
+＠ニトクリス
+次に出会う時が貴方がたの死の運命。[r]……それを決して忘れないように。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 9]
+[charaFadein E 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+……はい。忠告、ありがとうございます。[r]お世話になりました、女王ニトクリス。
+[k]
+
+[charaFace E 9]
+＠ニトクリス
+あくまで借りを返しただけです。[r]私にも二度目はありません。
+[k]
+
+[charaFace E 7]
+＠ニトクリス
+…………。[r]………………。
+[k]
+
+[charaFace A 12]
+＠マシュ
+女王？[r]……あの、わたしに何か？
+[k]
+
+[charaFace E 8]
+＠ニトクリス
+……いいえ。覚悟がないのは私も同じでした。[r]マシュ。貴女も戦いは怖いのでしょう？
+[k]
+
+＠ニトクリス
+サーヴァントとして勇ましく戦っていますが、[r]私には分かりました。貴殿の本質が。
+[k]
+
+[charaFace A 4]
+＠マシュ
+…………それは…………
+[k]
+
+[charaFace E 0]
+＠ニトクリス
+いいのです。それは誇れる事だと私は感じました。[r]オジマンディアス様であれば軟弱者となじるでしょう。
+[k]
+
+＠ニトクリス
+でも、貴女は私とは違いました。[r]怖くとも、それを誤魔化さずに[#奮:ふる]い立っている。
+[k]
+
+[charaFace E 1]
+＠ニトクリス
+ふふ。共に支え合えるマスターというものは[r]いいものですね。
+[k]
+
+＠ニトクリス
+ファラオとしては問題ですが、私も少し……[r]少しだけですが羨ましく思いました。
+[k]
+
+？1：マシュと何を話してる[&んだ:の]？
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ニトクリス
+噂に聞いたガールズトークというヤツです！[r]気にしないでいただきたい！
+[k]
+
+[charaFace E 7]
+＠ニトクリス
+それでは、私もここで。
+[k]
+
+＠ニトクリス
+エジプト領から出れば、そこは終末の地のまっただ中。[r]……気をつけてお行きなさい。
+[k]
+
+[se ad158]
+[seStop ad158 2.0]
+[charaFadeout E 0.7]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+女王、行ってしまいましたね……[r]スフィンクスに乗って……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[se ad157]
+＠ダ・ヴィンチ
+ああ。まったく羨ましい。[r]私も一度ぐらいは乗ってみたいな、スフィンクス！
+[k]
+
+？1：ダ・ヴィンチちゃん、なにしてるの？
+？2：ダ・ヴィンチちゃん、五月蠅くない？
+
+？！
+
+[seStop ad157 0.5]
+[charaFace D 2]
+＠ダ・ヴィンチ
+よくぞ聞いてくれました！[r]どうやら今回は長時間の肉体労働になりそうだからね。
+[k]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+＠ダ・ヴィンチ
+オジマンディアス王から木材を分けてもらってぇ……[r]じゃ[line 2]ん！
+[k]
+
+＠ダ・ヴィンチ
+このように、砂漠移動用車など作ってみました！[r]名付けて万能車両オーニソプター・スピンクス！さ！
+[k]
+
+[charaTalk F]
+[imageSet G cut003_desert 1]
+[imageSet H cut001_buggy 1]
+[charaScale G 1.05]
+[charaDepth G 1]
+[charaDepth H 2]
+[charaCutin G leftToRight 1.0 0.0]
+[charaCutin H leftToRight 1.0 0.0]
+[wait charaCut H]
+
+[charaEffect F bit_talk_41]
+[se ad139]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+＠フォウ
+フォウ、フォ[line 3]ウッッッッッ！[r]（特別意訳：ダ・ヴィンチちゃんってバカだよね[line 2]！）
+[k]
+
+＠マシュ
+これは……どこから見てもバギーです、先輩！[r]十三世紀にあってはもはやオーパーツかと！
+[k]
+
+？1：どうなってんのコレ！？
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+＠ダ・ヴィンチ
+いやあ。その時代から逸脱した技術は[r]成功しづらいものだから、
+[k]
+
+＠ダ・ヴィンチ
+この時代の技術レベルでちょちょいと[r]何とかしてみたのサ。
+[k]
+
+＠ダ・ヴィンチ
+全部木組みだけど、ちゃんと動くよ？
+[k]
+
+？2：さすがダ・ヴィンチちゃん！
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+＠ダ・ヴィンチ
+ああ、当然さ！[r]だって私は天才だからね！
+[k]
+
+＠ダ・ヴィンチ
+これは全部木組みで作ったオーダーメイド。[r]他にも七つの機能があるけど、それはそれ、追々ね？
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaEffectStop F bit_talk_41]
+[charaCutout G 1.0]
+[charaCutout H 1.0]
+[wait charaCut H]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+なんという……おお、なんという……[r]Mr.レオナルド！　運転免許は必要でしょうか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+必要ない必要ない、だってエンジンとかないし！[r]基本的には自転車と一緒さ！
+[k]
+
+＠ダ・ヴィンチ
+まあ、魔力をガソリン代わりにしているので[r]最大時速60キロが限界だけど、そこはそれ！
+[k]
+
+＠ダ・ヴィンチ
+さあ、乗りこみたまえ諸君！[r]これで肉体労働ともおさらばだ！
+[k]
+
+＠ダ・ヴィンチ
+目的地はここから東に100キロの彼方、[r]砂漠を越えた先に待つ、私たちの本当の目的地だ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+ラジャー！
+[k]
+
+＠フォウ
+フォーウ！
+[k]
+
+？1：やったー！
+？2：ヒャッホー！
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+yeah……！！！！
+[k]
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_7 0.4]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+……………………。
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+……………………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+…………ゥ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+[FFFFFF]？　？　……！[-][r]y、[cameraMove 0.25 0,-75 1.25][charaMove C 0,140 0.25]yeah[line 4]！！！！[charaEffect C bit_talk_41]
+[k]
+
+
+[charaEffectStop C bit_talk_41]
+[wt 0.2]
+[cameraMove 0.25 0,0 1.0]
+[wt 0.3]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]余分な[#快哉:かいさい]を発見しました、マスター！[r]いつの間にか取り囲まれています！
+[k]
+
+＠マシュ
+先輩の記念すべき初運転の邪魔はさせません[line 3][r]全力で排除します！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

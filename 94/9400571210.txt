@@ -1,0 +1,151 @@
+
+
+＄94-00-57-12-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet F 5027000 1 マリー]
+[charaSet G 9004000 1 マルタ]
+
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+もう少し、遊べる場所があったらなーって思うの。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+遊べる場所……ですか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+うんうん。みんな、資源を集めるために動いたり、[r]適当に海とか入って泳いだりしてると思うけど。
+[k]
+
+[charaFace F 1]
+＠マリー
+さすがにそれにも飽きてきたかなーって。だから、ただ[r]遊ぶために身体を動かす場所、みたいなのが欲しいわ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+ふむ……話は聞かせてもらいました。[r]いいですね。スポーツは心と体に好影響だ。
+[k]
+
+＠アルトリア
+私もいくつか心得がありますよ。運動場を用意していただ[r]ければ、マスター達のお相手もできるでしょう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+遊ぶために身体を動かす場所？[r]なるほど。つまり[line 2][#闘技場:コロッセウム]だな。
+[k]
+
+
+？1：つまり、じゃないですけど！
+？2：平然とおかしなことを！
+？！
+
+＠スカサハ
+なぜだ。戦士である我々にとって、強敵と戦うことは[r]これ以上ない遊興となるぞ。なあ、マルタ殿？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠マルタ
+え？　そ、そう[line 2]でしょうか？　[r]すみません、私にはあまり実感がわきませんけれど……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+小手を磨きながら言われても説得力が……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+わたしはね、マリーランドがいいと思うわ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+は、はぁ。それはいったい、どのような……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+マリーランドはマリーランドよ。[r]とっても楽しいわよー！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+よくわかりませんが、とにかく自信はあるようですね。[r]……どうしましょう、先輩？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,1776 @@
+
+＄94-00-91-01-1-0
+
+
+
+
+[charaSet A 98001000 1 マシュ]
+[charaSet B 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet C 11003001 1 ジャンヌ・オルタ]
+[charaSet D 5002001 1 ジル]
+[charaSet E 9001001 1 ジャンヌ]
+[charaSet F 2018001 1 子ギル]
+[charaSet G 4022001 1 サンタオルタ]
+
+[soundStopAll]
+[bgm BGM_EVENT_38 0.1]
+
+[scene 30644]
+
+[fadein black 2.0]
+[wait fade]
+
+[se ad37]
+[seVolume ad37 0 0.4]
+
+
+＠
+ざあざあと、波が音を立てていました。[r]ごうごうと、こわい風が吹き荒んでいました。
+[k]
+
+＠
+生きている物がいないのに、[r]生きていると主張するような激しさ。
+[k]
+
+＠
+この世の始まりのように恐ろしいくせに、[r]この世の果てのように美しい風景です。
+[k]
+
+＠
+不要なはずの贈り物が、[r]どうしてか目の前で開かれて。
+[k]
+
+＠
+……結局、私はたぶん、[r]おちこぼれのサンタだったんだと思います。
+[k]
+
+＠
+だからきっと、[r]この涙は悔しくて泣いているのでしょう。
+[k]
+
+＠
+胸にぽっかりと空いた一つの穴。[r]それを埋めてくれたのは[line 3]
+[k]
+
+
+[seStop ad37 1.0]
+
+[fadeout black 2.0]
+[messageOff]
+[bgmStop BGM_EVENT_38 2.5]
+[wt 1.0]
+[wait fade]
+
+[scene 10000]
+
+[fadein black 0.5]
+[wait fade]
+
+[fowardEffect bit_queststart80035_01]
+[wt 0.1]
+[wait fowardEffect bit_queststart80035_01]
+[wt 0.9]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 10310]
+
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_7 0.4]
+
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠マシュ
+先輩、もうそろそろ出発ですよね？[r]トナカイ衣装、たいへんお似合いなのではないかとっ！
+[k]
+
+？1：ありがとう
+
+[charaFace A 13]
+＠マシュ
+あ、大事なものを忘れてますよ。[r]はい、真っ赤なお鼻です。
+[k]
+
+？2：それ、褒めてるの？
+
+[charaFace A 1]
+＠マシュ
+はい！[r]もちろんです！
+[k]
+
+？！
+
+[charaFace A 13]
+＠マシュ
+実はサーヴァントの皆さんから、[r]色々なものを預かっているんです。
+[k]
+
+＠マシュ
+長丁場になると予想されますので、[r]ぜひ持っていって下さい。
+[k]
+
+[charaFace A 1]
+＠マシュ
+まずは……こちら、携帯用のカイロです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+上空七五〇〇メートルをカッ飛ぶそうですから、[r]冷えないように、と。
+[k]
+
+＠マシュ
+メディアさんが魔術で編み上げたものなので、[r]温かさは折り紙付きです。
+[k]
+
+？1：ありがたい！
+？！
+
+[charaFace A 1]
+＠マシュ
+こちら、エミヤさんからお弁当です。
+[k]
+
+[charaFace A 0]
+＠マシュ
+この糸を引っ張ると、自動的に温まるように[r]なっているそうです。
+[k]
+
+＠マシュ
+エジソンさんと共同で開発した、[r]とか何とか……。
+[k]
+
+[charaFace A 6]
+＠マシュ
+あ、欠点としてシューマイの匂いが強く出るので、[r]気をつけて食べて下さいとのことです。
+[k]
+
+？1：ジェットシューマイ……
+？！
+
+[charaFace A 1]
+＠マシュ
+それから、こちらはマリーさんからです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+クリスマスにはちょっと早いけど、[r]スパイス入りの温めた[#葡萄酒:ワイン]だそうです。
+[k]
+
+＠マシュ
+保温機能のついたケースに入れておくので、[r]寒くなってきたら、飲んでください[line 3]とのことでした。
+[k]
+
+？1：何から何まで……
+？！
+
+[charaFace A 13]
+＠マシュ
+最後に先輩、[r]こちらはサンタオルタさんと、わたしから。
+[k]
+
+＠マシュ
+共同で作ったお守りです。[r]交通安全他、色々あらたかな効果が……。
+[k]
+
+[charaFace A 1]
+＠マシュ
+あるといいですねっ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それから、サンタオルタさんから伝言です。[r]『泣かせるなよ？』だそうです。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ふふふ、サンタオルタさんもなんだかんだで[r]心配みたいですね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+今年のクリスマスは[line 3][r]ちょっと大変な事になりそうですけど。
+[k]
+
+＠マシュ
+でも、先輩ならきっと何とか[r]してくれると信じています。
+[k]
+
+[charaFace A 11]
+＠マシュ
+わたしは緊急のメンテナンスが必要なため、[r]ドクターと一緒にお留守番ですが……。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ちゃんとモニターしてますから！
+[k]
+
+[charaFace A 3]
+＠マシュ
+その、先輩からも……[r]連絡していただけると、嬉しいです。
+[k]
+
+？1：了解！
+？！
+
+[charaFace A 1]
+＠マシュ
+はい、行ってらっしゃいマスター！[r]どうか気をつけて！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 1]
+
+＠？？？
+さあ、[#トナカイさん:マ　ス　タ　ー]！[r]出発ですよ、行きましょう！
+[k]
+
+＠？？？
+外は相当寒いようですけど、[r]へいちゃらです！
+[k]
+
+＠？？？
+何故なら私[line 3]ジャンヌ・ダルク・オルタは[charaFace B 2][r]サンタなのですから！
+[k]
+
+[charaFace B 1]
+＠？？？
+極めて論破的、もとい論理的ですね！
+[k]
+
+？1：よし、訳が分からない
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ええと、[r]話は少し前に遡ります[line 3]
+[k]
+
+[fadeout black 3.0]
+[messageOff]
+[bgmStop BGM_EVENT_7 2.0]
+[wt 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+
+[scene 10311]
+
+[bgm BGM_EVENT_5 0.4]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠ジャンヌ・オルタ
+思い知って貰いましょうか……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace C 0]
+[charaDepth C 9]
+[charaDepth D 1]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+＠ジル
+おお、ジャンヌ！[r]こんな夜に呼び出しとは何事ですかな？
+[k]
+
+[charaFace D 1]
+＠ジル
+黒魔術の儀式なら、もう少し後の方がよろしいかと。
+[k]
+
+[charaTalk C]
+[charaFace C 3]
+＠ジャンヌ・オルタ
+違うから違うから違うから。
+[k]
+
+[charaFace C 4]
+＠ジャンヌ・オルタ
+そんな胡散臭くて何の効果もなさそうな[r]儀式、興味ないし。
+[k]
+
+[charaFace C 0]
+＠ジャンヌ・オルタ
+ほら……もうすぐ、アレじゃない？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠ジル
+アレと申しますと？
+[k]
+
+[charaTalk C]
+＠ジャンヌ・オルタ
+お子様サーヴァントたちが騒ぎ始めてるでしょ。[r]いやまあ、大人も騒ぎ始めてるけど。
+[k]
+
+＠ジャンヌ・オルタ
+何なのかしら、あのスイーツ路線のサーヴァントとか。[r]あれでも、歴史に名を刻んだ英雄なの？
+[k]
+
+[charaFace C 2]
+＠ジャンヌ・オルタ
+まったく、本物というやつはただそこに在るってだけで[r]満足して、向上心というものが足りないのよね。
+[k]
+
+[charaFace C 0]
+＠ジャンヌ・オルタ
+マスターによると、向上心がない奴は馬鹿だって、[r]昔の人が言っていたらしいの。
+[k]
+
+[charaFace C 0]
+＠ジャンヌ・オルタ
+誰だか知らないけど、ジャンヌ・オルタ缶バッジを[r]あげたくなるくらい、良い言葉だわ。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠ジル
+ホホ、話がズレていますよジャンヌ。[r]それで、一体何が始まるというのです？
+[k]
+
+[charaTalk C]
+[charaFace C 3]
+＠ジャンヌ・オルタ
+……コホン。
+[k]
+
+[charaFace C 0]
+＠ジャンヌ・オルタ
+要するに、もうすぐクリスマスじゃない？[r]浮かれてるのが腹立つじゃない？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠ジル
+いいえ、わたくしは全然。
+[k]
+
+[charaFace D 1]
+＠ジル
+むしろはしゃぐ子供達を見ると、[r]微笑ましい気持ちでいっぱいになります。
+[k]
+
+[charaFace C 4]
+[charaFace D 0]
+＠ジル
+何故か私がほっこりした顔でそう告げると、[r]警戒態勢に入られたのは解せませんが。
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠ジャンヌ・オルタ
+……聞いた私が馬鹿だったわ。[r]あと警戒態勢は極めて順当だから。
+[k]
+
+＠ジャンヌ・オルタ
+ともかく、いい、ともかくよ。
+[k]
+
+＠ジャンヌ・オルタ
+クリスマスが近付くにつれて、[r]アイツがはしゃぐのよ、アイツが。
+[k]
+
+[charaTalk D]
+＠ジル
+アイツと申しますと……？
+[k]
+
+[charaTalk C]
+＠ジャンヌ・オルタ
+分からない？
+[k]
+
+[charaFace C 2]
+＠ジャンヌ・オルタ
+あの忌々しい、死体色の肌をした[r]ブラックサンタよ！
+[k]
+
+[charaFace C 5]
+＠ジャンヌ・オルタ
+この間なんか、廊下を歩いていただけで[r]危うくはね飛ばされそうになったわ！
+[k]
+
+[charaFace C 4]
+＠ジャンヌ・オルタ
+『前方不注意だな黒い聖女。[r]　見ての通りラムレイ二号の調整中だと分からないか？』
+[k]
+
+＠ジャンヌ・オルタ
+『いや分かるだろう。何しろもうすぐクリスマスだ。[r]　楽しいクリスマスだ。また我が剣が世界を救ってしまうな！』
+[k]
+
+[charaFace C 5]
+＠ジャンヌ・オルタ
+二回言うのよ、アイツ。[r]しつこく二回言うのよ。
+[k]
+
+＠ジャンヌ・オルタ
+そしてその後、ジングルベルの鼻歌交じりに[r]戦闘シミュレータで宝具をバンバンブッ放して帰って行ったわ。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠ジル
+（見てたんでしょうか……）
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠ジャンヌ・オルタ
+あの浮かれ具合で、ちゃんとサンタが[r]やれるのかしら[line 3]と、私は不安になったワケよ。
+[k]
+
+[charaFace C 0]
+＠ジャンヌ・オルタ
+だから、[#盗む:かりる]わ。[r]サンタオルタの、あの袋を。
+[k]
+
+[charaTalk D]
+[charaFace D 2]
+＠ジル
+何と。[r]サンタ殿がプレゼントを持ち運ぶ、あの袋をですと！？
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠ジャンヌ・オルタ
+そうよ。そして、アイツに先んじてこの私が[r]プレゼントを配ってやるのよ。
+[k]
+
+[charaFace C 1]
+＠ジャンヌ・オルタ
+子供たちはガッカリ、サンタオルタもガッカリ。[r]私はニンマリ。
+[k]
+
+[charaFace C 0]
+＠ジャンヌ・オルタ
+良い案でしょう？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠ジル
+しかしジャンヌよ。
+[k]
+
+＠ジル
+差し出がましいですが、いくら深夜とはいえ、[r]彼女はサーヴァント。
+[k]
+
+[charaFace D 4]
+＠ジル
+まして気配遮断もできぬ我らでは、[r]盗むにも一苦労なのでは。
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠ジャンヌ・オルタ
+フッ、私を甘く見ているようねジル！
+[k]
+
+＠ジャンヌ・オルタ
+抜かりはないわ、あの英雄王（子）に、[r]ちゃんと透明になる薬を貰っているもの。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠ジル
+おお、先ほどからお持ちになっていた、[r]どどめ色に濁った、[#水薬:ポーション]はその為の……！
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠ジャンヌ・オルタ
+その通り、これで透明になってさっさと盗むわ。[r]そして今日一晩でプレゼントを配り終える。
+[k]
+
+＠ジャンヌ・オルタ
+明日には、子供たちがプレゼントを貰って喜ぶ中、[r]愕然とする他ないサンタオルタの寂しい姿[line 3]
+[k]
+
+[charaFace C 1]
+＠ジャンヌ・オルタ
+[fontSize large]ざ・ま・あ・み・な・さ・い！
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠ジル
+何と美しく完璧な計画！[r]つまり、後はその水薬を飲むだけですなジャンヌ！
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠ジャンヌ・オルタ
+そう！[r]後はこれを飲むだけなのよ、ジル！
+[k]
+
+[charaFace C 0]
+＠ジャンヌ・オルタ
+……。[r]……。
+[k]
+
+[charaFace C 4]
+＠ジャンヌ・オルタ
+おかしいわね、急に胃がキリキリ痛むような[r]不安に襲われてきたわ。
+[k]
+
+＠ジャンヌ・オルタ
+大丈夫よね、用心のために[#本家:　ギルガメッシュ]じゃなくて[r]子供の方を選んだのだし。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠ジル
+ええ、根拠レスですがどうせ面白いことになるのは、[r]私ではなくジャンヌですので。
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠ジャンヌ・オルタ
+ざっくりとした真実を[#衝:つ]いたわね！？
+[k]
+
+＠ジャンヌ・オルタ
+でもいいわ、後先のことなど考えるようなら、[r]サーヴァントになんかなっていません。
+[k]
+
+＠ジャンヌ・オルタ
+私は復讐の魔女。たとえ騙され、毒薬だったとしても[r]笑いながら飲むのみです。一気に。
+[k]
+
+[charaFace C 2]
+＠ジャンヌ・オルタ
+それでは、せーの！[r]（ごく[charaShake C 0.05 2 2 0.4]り）
+[k]
+
+[charaFace C 4]
+[wt 0.4]
+[charaShake C 0.05 4 4 0.2]
+[wt 0.7]
+
+[charaFace C 5]
+＠ジャンヌ・オルタ
+……不味いわこれ。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠ジル
+良薬は口に苦いものですぞ、ジャンヌ。
+[k]
+
+[charaFace C 0]
+[charaTalk C]
+＠ジャンヌ・オルタ
+はいはい。[r]それで、どう？　体透けてきた？
+[k]
+
+[charaTalk D]
+＠ジル
+いえ、特には。
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+＠ジャンヌ・オルタ
+ぐっ、やっぱり騙されたのかしら。[r]こうなったら、強引に[line 3][charaFace C 4]う、くっ！？[charaShake C 0.05 4 0 0]
+[k]
+
+[charaTalk D]
+[charaFace D 2]
+＠ジル
+いかがなされたジャンヌ！
+[k]
+
+[charaShakeStop C]
+[charaShake C 0.05 8 0 0]
+
+[charaFace C 4]
+＠ジャンヌ・オルタ
+か、体が熱……[charaFace C 2]きゃああああああああ！！
+[k]
+
+[se ad39]
+
+[fadeout white 2.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wt 1.0]
+[wait fade]
+
+[charaShakeStop C]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[scene 10001]
+
+[fadein white 0.5]
+[wait fade]
+
+＠ジル
+い、一体何が……！？[r]ジャンヌ！　お気を確かに！　ジャンヌ！
+[k]
+
+＠ジル
+ジャンヌゥゥゥゥゥッ！？
+[k]
+
+
+[seStop ad39 4.0]
+[fadeout white 0.5]
+[wait fade]
+
+[messageOff]
+
+[scene 10311]
+
+[fadein white 2.0]
+[wait fade]
+
+＠？？？
+騒がしいですよ、ジル・ド・レェさん！
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジル
+え。
+[k]
+
+
+[charaTalk B]
+
+＠B：？？？
+フン、嫌がらせのために透明になろうなんて、[r][#大人になった私]は最低ですね。
+[k]
+
+[charaTalk D]
+＠ジル
+え、え、え。
+[k]
+
+[charaTalk B]
+
+＠B：？？？
+ですが、サンタをやろうとする心意気やよし！[r]ならば、その意志はこの私が引き継ぎましょう。
+[k]
+
+[charaTalk D]
+[charaFace D 2]
+[charaShake D 0.05 4 0 1.0]
+＠ジル
+まさか、まさか、アナタは……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.4]
+
+
+[se ad139]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+＠？？？
+私はジャンヌ・オルタ・リリィ。[r]次のサンタになるべく、生まれ落ちた者！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 4 0 2.0]
+＠ジル
+おお、ジャンヌが……ジャンヌが……！[r]こんないたいけにも程がある愛し子に……！！！
+[k]
+
+[se ad39]
+[flashin loop 0.1 0.1 FF80FFFF FF80FFFF]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaSet D 5002002 1 ジル（キャスター）]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[flashout 1.0]
+[seStop ad39 1.0]
+＠ジル
+興奮のあまり、私の服の何か分からない部分も開放！[r]これにはプレラーティもニッコリ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+それにしても、透明になって盗みだそうなんて、[r]どうしようもなく短絡的ですね、成長した私は。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ジル
+ほほう、すると幼きジャンヌには何か策が？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+策？　ジルさん、バカじゃないですか！[r]そんなものは不要です！
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+私がいかにサンタに相応しいか、[r]アルトリアサンタさんを説得すれば済む話です！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠ジル
+おお、幼い頃から猪突猛進はお変わりなく！
+[k]
+
+[charaFace D 1]
+＠ジル
+どう転んでも[#惨憺:さんたん]たる結末しか想像できませんが、[r]それもまた、経験……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+[FFFFFF]？[-][r]では行ってきます。
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+あ、ジル・ド・レェさんはダメですよ、[r]女性の居る場所に深夜忍び込もうなど以ての外です！
+[k]
+
+[charaFace D 2]
+
+[messageOff]
+
+[se ad59]
+[charaFadeout B 0.4]
+[wt 0.1]
+
+[seStop ad59 1.0]
+[wt 1.4]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジル
+……。[r]……。
+[k]
+
+
+[bgmStop BGM_EVENT_7 0.7]
+[wt 0.7]
+
+[bgm BGM_EVENT_3 0.4]
+
+[charaTalk B]
+[charaFace D 2]
+[charaShake D 0.05 4 4 0.7]
+
+＠サンタオルタ
+いきなりサンタを譲れとは何事だ極光反転カリバー！
+[k]
+
+[messageOff]
+[shake 0.05 7 7 0]
+
+[voice NP_402200_2]
+[wt 2.3]
+[voice NP_402200_1]
+[wt 3.0]
+
+[shakeStop]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 1.0]
+きゃあああああああああああああああああ！？
+[k]
+
+＠サンタオルタ
+うん？[r]今、声が心なしか幼かったような[line 3]
+[k]
+
+＠サンタオルタ
+まあ良いか、寝よう……むにゃ……。[r]クリスマスに備えて寝だめしておかなければ……
+[k]
+
+[wt 0.4]
+
+[bgmStop BGM_EVENT_3 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaTalk D]
+[charaFace D 4]
+[charaShakeStop D]
+
+＠ジル
+おお、ジャンヌよ！
+[k]
+
+＠ジル
+あの方は寄らば用心して噛みつく、[r]寄らなくとも気に入れば噛みつくタイプ。
+[k]
+
+＠ジル
+無防備に近寄ったのが、敗因と言えるでしょうか。[r]おお、何たる悲しみ……！
+[k]
+
+[messageOff]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+
+[charaFace B 4]
+[charaFadein B 0.1 1024,0]
+
+[charaMove B 6 1.0]
+[wait charaMove B]
+[wt 0.4]
+[charaMove B 2 1.0]
+[wait charaMove B]
+[wt 0.4]
+[charaMove B 1 0.7]
+[wait charaMove B]
+
+[wt 0.6]
+
+[charaTalk on]
+
+[charaFace B 7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+それを先に言って下さい！[r]怖かったですよ、[charaShake B 0.05 7 7 0.7]滅茶苦茶怖かったですよ！
+[k]
+
+[charaFace B 4]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 1.0]
+いえ、泣いてはいないのですけど！
+[k]
+
+[messageOff]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[wt 1.0]
+[messageOff]
+
+[se ad15]
+
+[scene 10310 0.3]
+[wt 0.5]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+＠ジャンヌ
+目が飛び出ている方のジル……。[r]こんな夜更けに何事ですか。
+[k]
+
+＠ジャンヌ
+サーヴァントはともかく、マスターや[r]職員の皆さんが休んでいるのですよ。
+[k]
+
+[charaFace E 4]
+＠ジャンヌ
+はしゃぐのであれば、[r]せめて皆さんが起きている時間帯に[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+[charaMove B 0,20 0.2]
+[wait charaMove B]
+[charaReturn B 0.1]
+[wait charaMove B]
+＠ジャンヌ・オルタ・サンタ・リリィ
+正しく成長した方の私！[r]正しく成長した方の私ではないですか！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+なるほど、貴女が居るのならば[r]成長した私が焦るのも仕方ありません。
+[k]
+
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ですが、今年のサンタはこの私が戴きます！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ
+……。[r]……。
+[k]
+
+[charaFace E 1]
+＠ジャンヌ
+ジル？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+
+[charaFadein D 0.1 1]
+＠ジル
+な、何でしょうジャンヌ……。
+[k]
+
+＠ジル
+心なしかいつもより数割増しで笑顔が[r]引き攣っておられますが……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[charaShake E 0.05 4 0 0.7]
+＠ジャンヌ
+これが引き攣らない状況に思えますか？[r]さあ、話を聞かせて貰いましょうか！
+[k]
+
+＠ジャンヌ
+キリキリ白状しないと、[r]迷わず二本の指が目玉に飛びますよ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 4 0 2.0]
+[wt 1.0]
+
+[fadeout black 2.0]
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wait fade]
+
+[charaTalk on]
+
+[scene 10400]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ
+……という訳です。
+[k]
+
+？1：何、その、何？
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+落ち着きがありませんね、私のマスター。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+私のマスターであれば、『たいぜんじじゃく』と[r]落ち着いていて然るべきです。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？2：そっかー、また増えたかー……
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ちょっとマスター、何ですかそのなげやりな態度は。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ
+そうですよ、マスター。[r]ぽこじゃか増えるのはアルトリアさんの特権です。
+[k]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ
+私が増えるのは、極めて例外中の例外ですよ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+それでは申し訳ありません、[r]もう一度、名前とクラスをお尋ねしてよろしいですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+もちろんです。[r]私は[line 3]
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+『ジャンヌ・ダルク・オルタ・サンタ・リリィ・ランサー』[r]です！
+[k]
+
+？1：もう一度、アレグロで
+？！
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+は、速めに？[r]分かりました。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+『ジャンヌダルクサンタオルタリリィサンタ』！[wt 0.3][r]あ[charaFace B 8]れ、何か違いますね。ええと、
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+『サンタジャンヌオルタダルクリリィ』！[charaShake B 0.05 2 2 0.4][r]ええと、ええと……。
+[k]
+
+[charaFace B 2]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+『シャンタジャンタリリィンサー』！[charaShake B 0.05 4 4 0.4][wt 0.3][r]あ[charaFace B 4]れ？　あれ、あれ？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ
+マスター、この[#娘:こ]をからかうのは[r]程ほどにお願いします。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+からかう……？[r]こ、子供ですかマスターは！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+大体事情は分かりました。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ジャンヌ・オルタさんがリリィに変わってしまった、[r]その原因は子ギルさんの水薬にある、という訳ですね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠子ギル
+反省してまーす。
+[k]
+
+？1：してないよね？
+
+＠子ギル
+はい。ボクだって夜眠いのに叩き起こされたんですから、[r]薬の一つや二つ間違えてしまうことだってあります。
+[k]
+
+＠子ギル
+決して故意ではありません。[r]強いて言うのであれば『うっかり』です。
+[k]
+
+？2：許した
+
+[charaFace F 1]
+
+＠子ギル
+ありがとうございます！
+[k]
+
+[charaFace F 4]
+＠子ギル
+……まあ、言い訳させて貰うと夜中に叩き起こされて[r]手元が狂ったと言いますか。
+[k]
+
+[charaFace F 5]
+＠子ギル
+横着して、寝転がったまま宝物庫の扉を開けたのが[r]良くなかったかもしれませんねー。
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+軽率すぎますよ、ギル君。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠子ギル
+あはは、ジャンヌ・オルタさんに真っ当な理由で[r]叱られるとか、一生ないと思ってました。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+成長した私はロクデナシですからね！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ
+そ、それほど酷い訳ではありませんよ？
+[k]
+
+[charaFace E 0]
+＠ジャンヌ
+あの子も根っこのところでは、[r]立派なサーヴァントとして……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+そうやって違う私が甘やかすから、[r]袋を盗もうなどと考えるのです！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠サンタオルタ
+……そうか、あのトンチキ娘の[r]成長前か……。
+[k]
+
+[charaFace G 4]
+＠サンタオルタ
+……。[r]……。
+[k]
+
+[charaFace G 0]
+＠サンタオルタ
+自称清純派聖女とマスター。[r]少々、話がある。ついてこい。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ
+自称したことないですけど、そんなの！？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠サンタオルタ
+マシュ、おまえたちはしばらく[r]そいつと遊んでやれ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+遊ぶなんて歳じゃありません。
+[k]
+
+[charaFace B 0]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+それよりアルトリアサンタさん、[r]サンタの袋を[line 3]。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaDepth G 9]
+[charaFadein G 0.1 1]
+＠サンタオルタ
+いいから遊んでいろ。[r]さもなくば、悪い子カリバーだ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 7 0 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ぴゃぁっ！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠サンタオルタ
+……フッ。
+[k]
+
+[charaTalk off]
+
+[se ad95]
+[charaMove G 1024,0 2.0]
+[wait charaMove G]
+[charaFadeout G 0.1]
+[seStop ad95 0.4]
+
+
+
+[wt 0.7]
+[charaTalk on]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 1.0]
+きょ、脅迫なんてサンタにあるまじき[r]行為だと思います！（ぷるぷる）
+[k]
+
+[fadeout black 2.0]
+[messageOff]
+[wt 2.0]
+[charaFadeout B 0.1]
+[wait fade]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 0]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+＠マシュ
+やはり、ジャンヌ・オルタ・サンタ・リリィさん……と[r]お呼びすべきでしょうか？
+[k]
+
+[charaFace A 0]
+＠マシュ
+それとも、何か愛称とか……。
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ジャンヌ・オルタで大丈夫ですよ。[r]もしくは、サンタジャンヌとでも。
+[k]
+
+[charaFace A 0]
+＠マシュ
+では、ひとまずジャンヌ・オルタさん。[r]どうしてサンタクロースになりたいのですか？
+[k]
+
+[charaFace B 6]
+＠ジャンヌ・オルタ・サンタ・リリィ
+それはもちろん、[r]私の方がサンタに相応しいからです。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+私は的確に、皆の模範となる[r]正しいプレゼントをお渡しできます。
+[k]
+
+[charaFace A 4]
+＠マシュ
+正しいプレゼント……ですか。
+[k]
+
+[charaFace A 8]
+＠マシュ
+確かにエミヤさんたちは黒鍵を貰って、[r]大変に微妙な顔をしていらっしゃいましたが……。
+[k]
+
+[charaFace B 5]
+＠ジャンヌ・オルタ・サンタ・リリィ
+それがダメなのです。そもそも、アーチャーに黒鍵を[r]渡してどうなるものでもないのに！
+[k]
+
+[charaFace A 4]
+＠マシュ
+……正論ですね。
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+去年のクリスマスの様子は、成長した私の記憶から[r]大まかなことは知っています。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+私の方が、絶対により良いプレゼントを渡せるし、[r]皆に喜ばれると思います！
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad95]
+[wait se ad95]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠サンタオルタ
+ほう、よく吼えた。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+おかえりなさい、マスター。[r]どうかしましたか？
+[k]
+
+？1：何でもないよ
+？2：ただいま
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 7 0 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+な、何ですかアルトリアサンタさん。[r]カリバーですか、またカリバーですか。
+[k]
+
+[se ad59]
+[charaShake B 0.05 7 0 0.4]
+[charaMove B 2 0.4]
+
+[wt 0.4]
+[seStop ad59 0.1]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+や、やれるものならやってみてください！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠サンタオルタ
+マスターの後ろに隠れて言うセリフではないな、[r]それは。
+[k]
+
+＠サンタオルタ
+……話し合った結果、今年はサンタを[r]おまえに任せることにした。
+[k]
+
+＠サンタオルタ
+受け取れ。これがサンタひみつ袋だ。
+[k]
+
+[se ad7]
+[wait se ad7]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……え？
+[k]
+
+[charaFace B 3]
+＠ジャンヌ・オルタ・サンタ・リリィ
+い、いいんですか？[r]本当に？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠サンタオルタ
+嫌なら、今年も私がサンタするだけだ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 7 0 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+い、いいえ。[r]やります、やりますよ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠サンタオルタ
+トナカイよ。今年は去年とは勝手が違う。[r]貴様が先導してやるがいい。
+[k]
+
+＠サンタオルタ
+何、去年とやることに変わりは無い。[r]子供たちの心の結晶であるくつしたを集めるのだ。
+[k]
+
+＠サンタオルタ
+子守りをする手間は増えたが、貴様なら何とかなるだろう。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+な！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+それでは、まるで私が頼りにならないかの[r]ような言い草！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 1.0]
+訂正！　訂正を要求します！
+[k]
+
+？1：頼りにしてるよ
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+まったく仕方ないですね、大人なのに。
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+いいでしょう、[r]この私が立派にトナカイさんを導いてあげますから！
+[k]
+
+？2：がんばろう、サンタクロース
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+がんばる？[r]そんな奮闘する必要はありません。
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ふふふ、何故なら[line 3][r]私のプランは完璧ですので！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠サンタオルタ
+（嫌な予感がすると思うが、そこは堪えろトナカイ。[r]　あれを御せるのは[%1]だけだ）
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠ジャンヌ
+私からもお願いします、マスター。[r]どうか[#彼女:リリィ]を立派なサンタにしてあげてください……！
+[k]
+
+？1：引き受けた
+
+[charaFace E 1]
+＠ジャンヌ
+ありがとうございます……！
+[k]
+
+[charaFace E 0]
+
+＠ジャンヌ
+オルタは無論のこと、オルタリリィも、[r]私とは別の存在です。
+[k]
+
+＠ジャンヌ
+一人のサーヴァントとして、[r]向かい合ってあげてくださいね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[messageOff]
+
+？2：やってみよう
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+[charaFace G 1]
+＠サンタオルタ
+フッ、デキる[&男:女]の返事だな。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_7 1.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.4]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠サンタオルタ
+では早速だが、おまえたちの力を試してやろう。
+[k]
+
+＠サンタオルタ
+二代目サンタ、[%1]。[r]まずは軽いサンタ慣らしだ。
+[k]
+
+[charaFace G 1]
+
+＠サンタオルタ
+サンタに必要なものは鋼の克己心と悪魔の蛮勇だ。[r]臆することなく立ち向かえ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+戦闘シミュレータですね。
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+大丈夫です、私のサンタサーヴァントとしての[r]資質を見せてあげましょう。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠サンタオルタ
+良かろう。[r]ちなみに、相手は私だ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 7 0 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+い、いきなりですか！？[r]ちょっと待ってください、心の準備がまだ[line 3]。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠サンタオルタ
+問答無用、まずはそのトナカイを使役するに[r]相応しいサンタか、試してやろう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[charaFadeout G 0.1]
+
+[soundStopAll]
+[end]

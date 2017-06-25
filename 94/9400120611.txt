@@ -1,0 +1,321 @@
+＄94-00-12-06-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98027900 1 クリスマス礼装詰め合わせ]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 2002001 1 ギルガメッシュ]
+[charaSet F 5004001 1 ナーサリー・ライム]
+[charaSet G 6005001 1 ジャック]
+
+[scene 21802]
+[fadein black 2]
+[wait fade]
+
+[charaTalk off]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠ジャック／ナーサリー・ライム
+あ……負け……ちゃった……[r]やっぱり……わたしたちに、クリスマスは……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+…………
+[k]
+
+？1：………………。
+
+？！
+
+[charaFace D 2]
+＠サンタオルタ
+ぐわ[line 6]！[r]や[line 2]ら[line 2]れ[line 2]た[line 3]！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠ジャック／ナーサリー・ライム
+……え？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[fadeout white 1.0]
+[wait fade]
+[wt 0.5]
+[scene 21805]
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+見事だ、勇敢な少女たちよ！[r]約束通り、おまえたちにプレゼントをくれてやろう！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ナーサリー・ライム
+サンタのお姉さん……！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠ジャック
+あ……う、う……[r]プレゼント……こんなに、いっぱい……！
+[k]
+
+？1：サンタさん……！
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+いいところもあるんだね、という顔だな[%1]。[r]……当たり前だろう。私は子供の味方だぞ。
+[k]
+
+？2：オルタちゃん……！
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+オルタちゃん、などと言うな！[r]トナカイの分際で控えるがいい！
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+＠ナーサリー・ライム
+ありがとう……ありがとう、サンタさーん！[r]でもこんなにたくさん、いいんですか[line 3]！
+[k]
+
+[charaFace G 4]
+＠ジャック
+う、うん……他にも、プレゼントを待ってる子、[r]いっぱいいるんじゃないかな……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+フッ。その心配は無用だ。[r]私の仕事はあと一件だけだからな。
+[k]
+
+＠サンタオルタ
+それに、いま散らばったのはあくまで戦闘のご褒美だ。[r]おまえたち個人への贈り物には、どれ[line 3]
+[k]
+
+[se ad77]
+[wt 0.6]
+
+[charaFace D 2]
+＠サンタオルタ
+これを受け取るがいい！[r]私が厳選した、おまえたち用のプレゼントだ！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 3]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout A 0.4]
+[charaTalk on]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+＠ジャック
+おお……おおぉお[line 3]！[r]これは、これは……！
+[k]
+
+＠ナーサリー・ライム
+やった[line 3]！　トナカイさんだ[line 5]！[r]おっきなおっきなトナカイさんだ[line 3]！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+アステリオスを中心にくるくる走り回る少女二人……[r]ふ。聖夜はやはりこうでなくてはな。
+[k]
+
+？1：……トナカイ、いるじゃ[&ないか:ない]
+
+[charaFace D 5]
+＠サンタオルタ
+ばかもの。アレは観賞用だ。[r]アステリオスが走れば雷光が走ってしまうだろう？
+[k]
+
+＠サンタオルタ
+それではチビッ子たちも怖がるというもの。[r]あの王子は何もしないのが一番良いのだ。
+[k]
+
+[charaFace D 0]
+
+？2：エウリュアレを呼んできます？
+
+[charaFace D 0]
+＠サンタオルタ
+却下だ。あの性悪女神を連れてきてみろ。[r]純真無垢な少女がたちまち小悪魔に変貌しよう。
+[k]
+
+？！
+
+＠サンタオルタ
+……ともあれ、私たちの仕事はここまでだな。[r]一夜の夢とは言え、存分に楽しんでもらおう。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジャック
+あ……待って、サンタさん。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk G]
+[charaFace F 3]
+[charaFadein F 0.1 2]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+＠ジャック
+……ありがとう。[r]わたしはともかく、ありすの願いを叶えてくれて。
+[k]
+
+[charaFace F 1]
+＠ナーサリー・ライム
+うん、ありがとうサンタさん、ジャック。[r]それとパーティー、怖かったけど楽しかったよ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+[line 6]。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ナーサリー・ライム
+でも良かった。偽物のサンタさんの言う通り、[r]ちゃんとサンタさんを待っていて。
+[k]
+
+＠ナーサリー・ライム
+おかげで本物のサンタさんに出会えたんだもの。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+[line 3]待て。[r]それはどういうコトだ？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠ジャック
+……うん。実はお姉さんが来る前に、[r]もう一人、サンタがいたんだ。でも……
+[k]
+
+＠ジャック
+そいつ、わたしたちと話しているうちに、[r]“やれやれ、これはいけない”とか言い出して……
+[k]
+
+[charaFace F 5]
+＠ナーサリー・ライム
+“私は本物ではないから、キミたちの期待には[r]　応えられない。でも必ず本物のサンタがやってくる”
+[k]
+
+＠ナーサリー・ライム
+“どうか、それまでいい子で待っていたまえ。[r]　なに。それでダメなら、来年こそ私がなんとかしよう”
+[k]
+
+[charaFace F 1]
+＠ナーサリー・ライム
+そう言ってどっかいっちゃったの。[r]偽物だったけど、あのサンタさんもかっこう良かった！
+[k]
+
+＠ナーサリー・ライム
+じゃあね、サンタのお姉さん、トナカイさん！[r]わたしたちまでたどり着いてくれて、ありがとうー！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.7]
+[wt 2.0]
+[bgm BGM_EVENT_5 0.1]
+[scene 20322]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+……偽のサンタか。無視していたが、[r]どうやら決着をつけねばならないようだな。
+[k]
+
+＠サンタオルタ
+最後のプレゼントを届ける前に不埒者を成敗する。[r][%1]、次は決戦だ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

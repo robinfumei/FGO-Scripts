@@ -1,0 +1,57 @@
+
+＄01-00-05-18-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 98022000 1 兵士]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[scene 20721]
+[fadein black 2]
+[wait fade]
+
+[charaFace B 2]
+＠ラーマ
+ワイバーンだ！[r]対空装備、電磁ネットランチャー射出！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠兵士
+指揮官殿！　電磁ネットランチャーではなく、[r]エジソン式直流電磁ネットランチャーです！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ラーマ
+こういうところは拘るんだなあ！？[r]サーヴァントたちは網を回避した連中を仕留めてくれ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+了解です！[r]マスター、指示をお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

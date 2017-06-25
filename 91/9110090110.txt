@@ -1,0 +1,108 @@
+＄91-10-09-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10310]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 1009001 1 モードレッド]
+[charaSet D 98002000 1 フォウ]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+ふん、ふん、ふん……よぉ、マスター！[r]いま、暇か？
+[k]
+
+[charaFace C 2]
+＠モードレッド
+暇ならちょいと付き合ってくれ。[r]忙しかったら、その用事をキャンセルしてくれ！
+[k]
+
+？1：イエスかはいかの二択？
+
+？2：どうあっても付き合わせる気か
+
+？！
+
+[charaFace C 1]
+＠モードレッド
+その通り。[r]さ、ロンドンへゴーだ！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ちょ、モードレッドさん押さないで下さい……！
+[k]
+
+＠フォウ
+フォウ、モキュ、フォウ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_2 0.7]
+[wait effect bit_talk_06]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10903]
+[charaTalk C]
+[charaFace A 8]
+[charaFadein A 0 2]
+[charaFace C 1]
+[charaFadein C 0 0]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+はー、着いた着いた。
+[k]
+
+[charaFace A 12]
+＠マシュ
+強引ですね、もう……。[r]ところで、ロンドンに何か用事が？
+[k]
+
+[charaFace C 0]
+＠モードレッド
+おう。オレはこのロンドンで召喚されたせいか、[r]ここで異変があると、頭にピピッと来るんだよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+うお、モードレッドの言う通りだ。[r]そこの先に、奇妙な生体反応がある。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠モードレッド
+さて……鬼が出るか[#竜:ドラゴン]が出るか。[r]いっちょ、やってみるか！
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

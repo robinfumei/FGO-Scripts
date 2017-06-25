@@ -1,0 +1,785 @@
+＄94-00-27-01-1-0
+
+
+
+[soundStopAll]
+[charaSet A 98052000 1 ネロ]
+[charaSet B 5003001 1 玉藻の前]
+[charaSet C 7016002 1 タマモキャット]
+[charaSet D 3004000 1 カルナ]
+[charaSet E 4008000 1 黒髭]
+[charaSet F 7003000 1 呂布]
+[charaSet G 7010000 1 カリギュラ]
+[charaSet H 98054000 1 ダビデ]
+
+[wt 0.5]
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+
+[fowardEffect bit_animejapan2016]
+[wait fowardEffect bit_animejapan2016]
+
+[fadeout black 0.1]
+[wait fade]
+
+[wt 1.0]
+[bgm BGM_EVENT_4 0.1]
+[scene 20300]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+[wt 0.7]
+＠ネロ
+というワケでぇ～～～……祝・朗報！[r]新作発表＆TVアニメプロジェクトと！　あいなった！
+[k]
+
+[se ad6]
+[wt 1.5]
+[seStop ad6 2.0]
+
+＠ネロ
+[f large]ありがとう、ありがとう！[f -]
+[k]
+
+＠ネロ
+すべては余を応援してくれた、[r]愛すべきローマ市民たちのおかげだな！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠玉藻の前
+おめでとうございまーす！[r]これには[#私:わたくし]も祝辞を送らずにはいられません。
+[k]
+
+[charaFace B 0]
+＠玉藻の前
+だってほら、他人事ではないワケですし？[r]EXTRAの新展開となれば、ねえ？
+[k]
+
+＠玉藻の前
+[#私:わたくし]ものんびりしてはいられないと申しますか。[r]いつでもバッチコーイ！と申しますか♡
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 0]
+＠タマモキャット
+まさにネコ縁側だいばくはつ！[r]アタシも皇帝陛下を支持するゾ！
+[k]
+
+[charaFace A 1]
+＠ネロ
+おお、あやしげな猛獣まで余を祝ってくれるとは……[r]まさにこの世の春！　実際、もう暖かいしな！
+[k]
+
+[charaFace C 0]
+＠タマモキャット
+春眠あかつきを覚えずなのだな。[r]皇帝陛下はトコシエに眠っていてもいいのだぞ？
+[k]
+
+＠タマモキャット
+あとはキャットがすべて、ぶっかけ飯より美味く[r]やっておく故。普通にローマとか滅ぼしてみたい。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaSet A 98052010 1 ネロ]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 2]
+[wt 1.0]
+＠ネロ
+ははは、こやつめ。なかなか吼えるではないか。[r]ん？　裸締め、いっとくか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+＠玉藻の前
+あー、そのヘンな生き物はお気になさらず。[r]特に考えがあっての発言ではありませんので。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0]
+＠タマモキャット
+オリジナルは黙っていろ！　そこのバカ皇帝を[r]いい感じに操る美人秘書役はアタシのものだー！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+＠玉藻の前
+そういう本音は口にしない！[r]だからアナタはネコなのです！
+[k]
+
+＠玉藻の前
+しかも目的は[#私:わたくし]と同じとか、[r]ほんと我が尾ながら貪欲ですねぇ！？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaSet A 98052020 1 ネロ]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 2]
+[wt 1.0]
+＠ネロ
+うむ。清々しいほどの悪女っぷり、苦しゅうない。[r]後でまとめてコロシアム行き[line 3]む？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠カルナ
+皇帝ネロ。関係各所から祝いのメールが届いている。[r]受け取るがいい。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠ネロ
+おお！　さすがはどんなブラック環境でも[r]黙々と働くお兄さん英霊・カルナであるな！
+[k]
+
+[charaFace A 6]
+＠ネロ
+どれどれ。おもむろに、目に付いた祝辞に[r]手を伸ばす余なのであった。
+[k]
+
+＠ネロ
+カルナ、読むがよい。
+[k]
+
+[charaFace D 4]
+＠カルナ
+“続編決定、おめでとうございます。[r]　ところでＢＢちゃんの出番はどうでしょうか？”
+[k]
+
+[charaFace A 8]
+＠ネロ
+うむ、まずは劇場版「Fate/stay night　Heaven's Feel」[r]を勤めるがよい。次。
+[k]
+
+[charaFace D 5]
+＠カルナ
+“続編決定、それもまたローマである。[r]　そして[#私:ローマ]の出番もまたローマである”
+[k]
+
+[charaFace A 4]
+＠ネロ
+神祖どの……神祖どのはその、さすがに……[r]味が濃すぎるというか……よし、次。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[charaDepth H 1]
+[charaDepth D 2]
+
+[charaFace H 0]
+[charaFace D 2]
+[charaFadein H 0.4 -50,0]
+[wt 0.7]
+＠カルナ
+“続編おめでとう。ところでアーチャー枠に[r]　空きがあると思うのだけど、どうかな！”
+[k]
+
+[charaFadeout H 0.4]
+[wt 0.5]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠ネロ
+安定のダビデ王であるな！　すべてが自分にとって[r]都合のいい方向に動くだろう理論、ご苦労！
+[k]
+
+＠ネロ
+だが諦めよ、アーチャー枠はもういっぱいだ！[r]そしてダビデ王の叫び顔のマネ、上手いなカルナ！
+[k]
+
+[charaFace D 4]
+＠カルナ
+……そうか。嬉しくはないが世辞として受け取ろう。[r]しかし皇帝ネロ。オレが言うのもなんだが……
+[k]
+
+＠カルナ
+もう少し、こう、詳しい説明が必要ではないか？[r]続編決定では言葉が足りないと思うのだが……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaSet H 7011000 1 ダレイオス]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+＠玉藻の前
+おや。カルナさんにしては空気を読んだご意見。[r]はい、[#私:わたくし]も同意見でございます。
+[k]
+
+＠玉藻の前
+皇帝陛下？　ゲームの方は続編とおっしゃいますが、[r]具体的にはどのような？
+[k]
+
+[charaFace A 7]
+＠ネロ
+うむ！　そこは公式ホームページを見るがよい！[r]検索ワードは『Fate/EXTELLA』、だ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠タマモキャット
+ほほう、このやたら魅力的なハンドのアタシにスマホの[r]スワイプ操作を求めるとは……ほい、にく、きゅっ、と。
+[k]
+
+[se ad15]
+[wait se ad15]
+
+[charaFace C 2]
+＠タマモキャット
+おお、ちゃんと公式ホームページがあるゾ！[r]疑って悪かった！
+[k]
+
+＠タマモキャット
+なになに……ハイスピードバトル？　マーベラス？[r]しかも３Ｄモデルだとぅ！？
+[k]
+
+[charaShake C 0.05 2 2 0.4]
+＠タマモキャット
+これは……これはぁぁぁあ！
+[k]
+
+[effect bit_talk_41]
+＠タマモキャット
+なんていうか、具体的には何も分からぬッ！
+[k]
+
+[effectStop bit_talk_41]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠玉藻の前
+いやまあ、まだ第一報ですし？[r]そこはそれ、情報規制はお約束というヤツで。
+[k]
+
+[charaFace B 0]
+＠玉藻の前
+ですがゲームそのものはもうバリッバリ動いているので[r]ご安心のほどを。テストプレイとか先週しましたし。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet A 98052030 1 ネロ]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+[wt 1.0]
+＠ネロ
+うむ！　まさに爽快、痛快、[r]ネロ皇帝大勝利なゲーム内容だった！
+[k]
+
+[charaFace A 6]
+＠ネロ
+どうだ？　このスクリーンショットから飛びださんばかりの[r]余の躍動感＆新コスチュームは！
+[k]
+
+＠ネロ
+余の艶姿、もっと褒めるがよい！[r]今回もワダアルなんとかがギリギリまで攻めてくれた！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠タマモキャット
+そうか……残念なのだな……。[r]てっきりニンジンを食べ続けるゲームだとばかり……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ネロ
+む。まだ祝辞が残っているな。[r]カルナよ。これを読んでみるがよい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠カルナ
+……？　今はおまえが主役だ、[r]命令とあらば従おう……む？
+[k]
+
+[charaFace D 0]
+＠カルナ
+“続編決定、おめでとうございます。[r]　ところでカルナさんの出番はあるッスか？”
+[k]
+
+[charaFace D 3]
+＠カルナ
+…………とのコトだが。[r]どうだろう、皇帝ネロ。
+[k]
+
+[charaFace D 0]
+＠カルナ
+大軍を相手にする。千億幾億の敵をなぎ払う[line 3][r]これはオレの管轄だと、この電報にも書かれているが。
+[k]
+
+[charaFace A 0]
+＠ネロ
+いや、さすがに千億とか幾億とかはないぞ？[r]インドはなぜ無闇に数を盛るのだ。
+[k]
+
+＠ネロ
+加えて、喜ぶには早い。出番があると思いきや[r]ボス戦だけで敗北、退場する騎士もおった故な？
+[k]
+
+＠ネロ
+おごれる星５も久しからず。正式発表があるまでは[r]みな平等、合格発表前の受験生と知れ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+＠タマモキャット
+なるほど至言ですな……ところで陛下、[r]ゲームの方はやはり、アタシがキャスター枠で？
+[k]
+
+[charaFace A 4]
+＠ネロ
+う、うむ。完全肉弾兵器である貴様がキャスター枠を[r]公言する理屈はてんで分からぬが、うむ……
+[k]
+
+＠ネロ
+心して聞くが良い、善なるタマモよ。[r]新作、『Fate/EXTELLA』にはな[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_7 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠黒髭
+ヒュー！[r]EXTRAの新作と聞いて拙者ったら即・参上！
+[k]
+
+[charaFace E 3]
+＠黒髭
+ほらほら～☆　早く早くぅ～。[r]どうせいるんでしょ、BBAライダー？
+[k]
+
+[charaFace E 1]
+＠黒髭
+しからば拙者、ライバルとして鬼神の如く[r]暴れるにやぶさかでなしですぞー！
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_7 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ネロ
+うむ、アレは食っていいぞタマモキャット。[r]余の耳には美少年と美少女の嘆願しか届かぬ。
+[k]
+
+＠ネロ
+そもそもEXTRAのサーヴァントであれば[r]必ず枠があると誰が言った。
+[k]
+
+[charaFace A 2]
+＠ネロ
+よいか！　現状で当確と言えるのは二人だけ！[r]無論、余と！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠玉藻の前
+フッ……当然、[#私:わたくし]ですよねぇ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠タマモキャット
+なのだな？
+[k]
+
+＠ネロ
+たわけ、あの者をおいて他におるまい！[r]そういう訳で、どうぞ、大将軍！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠呂布
+[image berserker_language_1]！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠タマモキャット
+むは[line 4]！　なんという余裕の笑み！[r]あふれる野生がケタ違いなのだな……ッ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠玉藻の前
+ああ、我は当確と言わんばかりの貫禄……[r]その通りでございました。
+[k]
+
+＠玉藻の前
+一騎当千アクションあるところに飛将軍あり。[r]呂布大将軍おらずして何が国取り合戦でしょう！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠呂布
+[image berserker_language_1]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠玉藻の前
+分かります、分かりますとも！[r]アクションであればバーサーカーは映えましょう！
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace G 0]
+[charaFadein G 0.1 6]
+＠玉藻の前
+むしろEXTELLAこそバーサーカーが輝く真の舞台！[r]そうですね呂布……おや？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+
+
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠カリギュラ
+フッ……フッ、フッ、フッ……[se bac8][charaAttack G normal -10,0 0.05][wt 0.05][charaAttack G normal 0,0 0.1][wt 0.2][se bac9][charaAttack G normal -20,0 0.05][wt 0.05][charaAttack G normal 0,0 0.1]！[r]（さりげなくシャドーに勤しむ野生のバーサーカー）
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠玉藻の前
+ネロさん。あの方、お知り合いですか？[r]これ見よがしにフレームインしてくるのですけどぉ……
+[k]
+
+＠ネロ
+叔父上……[r]すまぬが叔父上に枠はないのだ……
+[k]
+
+＠ネロ
+それ以前に、その、なんだ。[r]実は余もラインナップは知らされていない故、
+[k]
+
+＠ネロ
+呂布大将軍もあっさり首キリの可能性・大である。[r]バーサーカー枠（ネタ枠）だけに。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠呂布
+（ネタ枠[line 3]！？）[image berserker_language_2]！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠ネロ
+あと叔父上が出ると母上の話にもなるであろう？[r]そうなると倫理的に厳しいというか……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠カリギュラ
+ウォォオオォオオ、セロォオオオオオ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠ダレイオス
+………………。[r]（淋しそうに様子を見ている）
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠タマモキャット
+皇帝陛下の言う通りだ。恥を知れゴリラども。
+[k]
+
+＠タマモキャット
+バーサーカー枠はおそらく、[r]この野生の化身タマモキャット。
+[k]
+
+＠タマモキャット
+アサシン枠はやはり、[r]あの男殺し極まるハレンチ可愛いタマモキャット。
+[k]
+
+＠タマモキャット
+そしてキャスター枠は招き猫を彷彿とさせる、[r]知性と教養の守護者タマモキャット。
+[k]
+
+＠タマモキャット
+席はもう埋まっている。[r]もはやネタ枠に振り分けるリソースはないのだな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠ネロ
+ん、貴様もだぞ？
+[k]
+
+＠タマモキャット
+why？
+[k]
+
+＠ネロ
+ここだけの話、FGOより先に、[r]EXTELLAの開発は始まっていたのでな。
+[k]
+
+＠ネロ
+ぶっちゃけ、FGOからEXTELLAへの逆輸入の[r]可能性はかぎりなく薄いのだ。
+[k]
+
+[charaFace C 0]
+＠タマモキャット
+ハハハ。何を仰るお嫁さん。[r]だっているではないか。ほら、あの徒歩のひと。
+[k]
+
+＠タマモキャット
+アルテラが出演するのなら、玉藻の前の２Ｐカラーである[r]アタシとて混入するコト[#山葵:わさび]の如しなのでは？
+[k]
+
+[charaFace A 0]
+＠ネロ
+それがだな。アルテラはFGOが初登場ではあるが、[r]設定自体はEXTELLAがメインなのだ。
+[k]
+
+＠ネロ
+みな、ちょっとおかしいと思っただろう？[r]“あの三色の剣、いくらなんでもＳＦすぎる！”と。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠カルナ
+（うんうん、と無言で頷いている）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠タマモキャット
+ん[line 3]？[r]（脳が理解を拒んでいる）
+[k]
+
+[charaFace C 4]
+＠タマモキャット
+む[line 4]？[r]（悲しい現実にちょっとだけ気づいてしまった）
+[k]
+
+[charaFace C 1]
+＠タマモキャット
+ほ[line 4]？[r]（ところで、ご主人の晩ご飯は麻婆豆腐がよいな！）
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet D 2006000 1 ダビデ]
+
+[charaFace C 2]
+＠タマモキャット
+よーし、最終決戦、だっっっっ！[r]集まれー、野生のケモノたち！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠カリギュラ
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ダレイオス
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠黒髭
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ダビデ
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠タマモキャット
+おとなしくしていたが、やはりネコに雌伏は似合わぬ！[r]出演枠がないのなら力尽くで奪うまで！
+[k]
+
+＠タマモキャット
+いくぞアニモーたち！　こちらが勝っても出番が[r]あるのはアタシだけだろうが、力を貸すがよい！
+[k]
+
+＠タマモキャット
+誰一人幸せになれないお祭りイベント[line 3][r]禁断のスクランブルコラボの時間、だっ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠ネロ
+うむ、相手にとって不足なし！[r]新作の前哨戦だ、華麗に舞うとしよう！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[wt 0.9]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

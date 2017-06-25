@@ -1,0 +1,375 @@
+＄94-00-39-08-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+
+[charaSet E 3004001 1 カルナ]
+[charaSet F 2015001 1 アルジュナ]
+
+[charaSet H 98073000 1 哪吒]
+
+
+[scene 20301]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠三蔵
+広～いもんよね～ガンダーラ～♪[r]天竺の彼方に～マンダーラ～♪　ふふふ～ん♪
+[k]
+
+
+？1：……天竺って、実際どこにあるの？
+？2：ていうかどんどん南下中？　西へ向かうんじゃ？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠沙悟浄
+「天竺」の地が何処かだと？[r]それはむろん「[#印度:いんど]」であろう。
+[k]
+
+＠猪八戒
+あれ、インド？[r]なんだこのままローマあたりまで行くのかと。
+[k]
+
+[charaFace C 4]
+＠沙悟浄
+三蔵法師が天竺の地へと辿り着いた時代には、もはや[r][#大乗:だいじょう]仏教は[#衰亡:すいぼう]し、あの[#祇園精舎:ぎおんしょうじゃ]すらも廃墟と化していた。
+[k]
+
+[charaFace C 0]
+＠沙悟浄
+限られた僧院と、経典の中にのみ、[r]貴重な教えが残されていた、と言うが……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠三蔵
+なに、ぶつぶつ言ってるの？[r][line 3]見て！
+[k]
+
+[charaFace A 0]
+＠三蔵
+川よ！　黄金の大河！　ついに着いたわ！[r]嗚呼、[#懐:なつ]かしきガンジス川！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout A 0]
+
+[scene 21101]
+
+[cameraMove 0.1 150,0 1.5]
+[wait camera]
+
+[charaScale F 0.75]
+[charaScale E 0.75]
+
+[charaTalk A]
+[charaFace E 5]
+[charaFace F 5]
+[charaFadein E 0.1 900,-170]
+[charaFadein F 0.1 500,-170]
+
+[charaDepth F 3]
+
+[wipein leftToRight 1.0 1]
+[wait wipe]
+[wt 1.0]
+
+[charaMove E 500,-170 5.0]
+[charaMove F 100,-170 5.0]
+[cameraMove 5.0 -150,0 1.5]
+[wait camera]
+[wait charaMove]
+
+[bgmStop BGM_EVENT_2 0.1]
+[se ad54]
+[wt 0.7]
+
+
+
+[cameraHome 0.2]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+
+＠三蔵
+[line 3]っ！？？
+[k]
+
+[wait camera]
+
+[charaScale F 1.0]
+[charaScale E 1.0]
+[wt 0.1]
+
+
+[bgm BGM_EVENT_5 0.1]
+
+
+[messageOff]
+[se ad60]
+[charaFace E 5]
+[charaFace F 5]
+[charaFadein E 0.4 2]
+[charaFadein F 0.4 0]
+[wt 0.5]
+[seStop ad60]
+
+？1：ナマステぇ！？　インド最強★５タッグ！？
+？2：すごいこっち[#睨:にら]んでます！
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[cameraHome 0.1]
+[wait camera]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+………………うっ……[r]どうしよう……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+……門番、かな？　あの二人はまずいねぇ。[r]もう仏教とかそんなの知るか、と言わんばかりの顔だ。
+[k]
+
+[charaFace B 0]
+＠猪八戒
+なにより冗談の通じない[#面子:めんつ]だ。[r]いや、カルナ君の方はある意味通じるけどね？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[se ba1]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.4 1]
+
+＠[image NPC_font001a][image NPC_font001b]
+彼らは　異界の　守護者
+[k]
+
+＠三蔵
+[line 3][image NPC_font001a][image NPC_font001b]。[r]やはり来たのね。
+[k]
+
+＠[image NPC_font001a][image NPC_font001b]
+もう解る　はず[line 3]玄奘？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+………………。
+[k]
+
+[charaFace A 4]
+＠三蔵
+…………ええ、わかるわ。[image NPC_font001a][image NPC_font001b]。
+[k]
+
+＠三蔵
+あれなる二人、大英雄にして半神は、[r]あたし自身の恐怖を具現している。
+[k]
+
+[charaFace A 5]
+＠三蔵
+外の世界を目指そうとするあたしの、[r][#拭:ぬぐ]いきれない不安を。
+[k]
+
+＠三蔵
+あたしは呼ばれた。[r]カルデアのサーヴァントとして。
+[k]
+
+[charaFace A 4]
+＠三蔵
+けれど、その召喚を[#成仏:じょうぶつ][#得脱:とくだつ]したはずのあたしは、[r][line 3][#拒:こば]んだ。
+[k]
+
+＠三蔵
+「仏」は人類の衰亡などには決して関与はしない。[r]それすらも大きなうねりの一つに過ぎない。
+[k]
+
+[charaFace A 5]
+＠三蔵
+あるとすれば、ただ「人」としてのあたしの、[r][#我欲:がよく]に過ぎない。
+[k]
+
+？1：（それで召喚実験が中途半端に……）
+？2：（でもたぶんダ・ヴィンチちゃんが悪い）
+？！
+
+[charaFace A 4]
+＠三蔵
+もう大事な弟子たちと離れるのはイヤ……[r]一人で寂しく死ぬのはいやよ……。
+[k]
+
+[charaFace A 5]
+＠三蔵
+……でも。たった一人でも、この旅を続けられるなら[r]あたしは、何度でも、旅に出る。
+[k]
+
+＠三蔵
+今ここに悟空はいないけれど、でも[line 3]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠[image NPC_font001a][image NPC_font001b]
+……玄奘　加勢する　ボクも
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠三蔵
+[image NPC_font001a][image NPC_font001b]、あなたが？[r]いいえ、それには及ばないわ！
+[k]
+
+[charaFace A 5]
+＠三蔵
+あなたは、この古びた途切れ途切れの巻物を[r]終わらせるために現れた、御仏の使者。
+[k]
+
+＠三蔵
+あるいは、この[#虚:うつ]ろな世界であたしが[r]御仏の姿を[#探:さぐ]るための、レンズのような存在だった。
+[k]
+
+[charaFace A 1]
+＠三蔵
+そうね、[image NPC_font001a][image NPC_font001b]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠[image NPC_font001a][image NPC_font001b]
+…………了解　離脱　する
+[k]
+
+[charaFace H 5]
+＠[image NPC_font001a][image NPC_font001b]
+[#問答:チャット]　[#終焉:おわり]。
+[k]
+
+
+[bgmStop BGM_EVENT_5 0.1]
+[messageOff]
+[charaFadeout H 0.4]
+[se ba1]
+[wt 2.0]
+
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠三蔵
+……行っちゃった。
+[k]
+
+[charaFace A 1]
+＠三蔵
+あの子も、サーヴァントとして[r]召喚されたりするのかしら……？
+[k]
+
+？1：もちろん。貴重なチャイナ枠として？
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+スリットの[#際:きわ]どさでは僕も負けていないのだがね！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+？2：それより結局、男の「子」なの！？ 「娘」なの！？
+
+[charaFace A 0]
+＠三蔵
+[line 3]はあ？　それはもう、[r]お釈迦様でも知らぬチャイナの[image NPC_font001a][image NPC_font001b]太子♪
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace A 0]
+＠三蔵
+よし、最後の[#煩悶:はんもん]もこれでおしまいっと！[r]相手が何であれ、止まらないのがあたしだもの！
+[k]
+
+[messageOff]
+[charaFace A 5]
+[bgm BGM_EVENT_4 0.1]
+[wt 1.5]
+
+＠三蔵
+みんな、悪いけど死ぬまで付き合って！[r]最後の試練、あの大河を越えましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.5]
+[wait fade]
+[soundStopAll]
+[end]

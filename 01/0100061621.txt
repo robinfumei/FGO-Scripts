@@ -1,0 +1,567 @@
+＄01-00-06-16-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 2013000 1 アーラシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 6003002 1 百貌のハサン]
+[charaSet G 5022001 1 三蔵]
+[charaSet H 1012001 1 ベディヴィエール]
+
+[scene 29200]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+ええい、子供か貴様は！[r]静謐の素直さを見習わんか！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠百貌のハサン
+山の翁の誇りを忘れていないだけだ！[r]そう簡単に異教徒を受け入れられるか！
+[k]
+
+[charaFace F 0]
+＠百貌のハサン
+……だが、それもここまでだな。[r]確かに大人げなかった。[#童:わらし]たちの手前もある。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠百貌のハサン
+[%1]。我らの目的は獅子王の打倒。[r]おまえたちの目的は獅子王との対面。
+[k]
+
+＠百貌のハサン
+それはほぼ同じものだろう。[r]獅子王は聖都から出てくる事はない。
+[k]
+
+＠百貌のハサン
+そして、聖都に入るには聖都の騎士たちを倒し、[r]あの正門を越えなければならない。
+[k]
+
+[charaFace F 0]
+＠百貌のハサン
+我らは近々、軍勢をもって聖都を攻略する。[r]聖地を奪われ、家族を奪われた者たちによる連合軍だ。
+[k]
+
+＠百貌のハサン
+その時、おまえたちの助力が欲しい。[r]どうか我々に、おまえたちの力を貸してほしい。
+[k]
+
+？1：こちらこそ助けてほしい
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠三蔵
+ま、そういう事よね。[r]聖都の門はひとりで越えられるものじゃないし。
+[k]
+
+[charaFadeout G 0.1]
+
+？2：ギブアンドテイクだね
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ベディヴィエール
+……そうですね。はじめから、私ひとりで[r]どうにかなる話ではなかったようです。
+[k]
+
+[charaFadeout H 0.1]
+
+？！
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……事態は聖都攻略の戦いになったか。
+[k]
+
+＠Dr.ロマン
+全面戦争はアメリカでも体験したけど、[r]あれほどの巨大な都市を攻略するのは初めてだ。
+[k]
+
+＠Dr.ロマン
+はたして上手くいくものかな。
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+＠Dr.ロマン
+聖都に攻め入る軍勢はどれほど用意できるんだい？[r]ただ攻めるだけなら返り討ちになるが？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠百貌のハサン
+……言ってくれるな。[r]確かに、我らの軍勢は心許ない。
+[k]
+
+＠百貌のハサン
+現在、攻勢に出ることに賛成している村は[r]半分というところだ。前線に出られる戦士は七千ほど。
+[k]
+
+＠百貌のハサン
+聖都の兵士の数も一万に満たないが、[r]我らとは質が違う。聖都の兵士はみな手強い。
+[k]
+
+＠百貌のハサン
+聖都の兵士ひとりに対して、[r]こちらは三人でかからねば勝ち目はない。
+[k]
+
+＠百貌のハサン
+加えて円卓の騎士が出てくれば[r]通常の戦士では歯が立つまい。
+[k]
+
+[charaFace F 5]
+＠百貌のハサン
+……それでも、これ以上は待てぬのだ。[r]我らは疲弊する一方なのだから。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaSet C 2014000 1 俵藤太]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……そうか。水を差してしまって申し訳ない。[r]兵力ではまだ劣っている、というのは分かったよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠俵藤太
+ふむ。しかしサーヴァントの数ならこちらが上だろう。[r]十字軍との戦いを生き延びた円卓の騎士は五騎。
+[k]
+
+＠俵藤太
+ランスロット。ガウェイン。トリスタン。[r]モードレッド。アグラヴェイン。
+[k]
+
+＠俵藤太
+対して、こちらは八人だ。
+[k]
+
+＠俵藤太
+マシュ、ベディヴィエール、アーラシュ、[r]ハサン、ハサン、ハサン、拙者、そして三蔵。
+[k]
+
+[charaFace C 4]
+＠俵藤太
+いや、戦場になると三蔵は役に立たぬ故、七人か。[r]それでも[charaFace C 2]一人一騎で数は合う。
+[k]
+
+＠俵藤太
+であれば、もう我々だけで聖都に[r]攻め入ってしまえばいいのでは？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+＠アーラシュ
+それは違う、トータ殿。[r]これは聖地を取り戻す戦いだ。
+[k]
+
+＠アーラシュ
+俺たちが戦って円卓を倒せばいい、という話じゃない。[r]そもそも、さっきの一人に対して三人、ってヤツな。
+[k]
+
+＠アーラシュ
+あれは俺たちにも当てはまる。[r]前にモードレッドの戦いぶりを見たが……
+[k]
+
+＠アーラシュ
+円卓の騎士は妙な力に守られている。[r]ありゃあ三人がかりで一騎倒せるかどうかだ。
+[k]
+
+[charaFace C 5]
+＠俵藤太
+……むう。アーラシュ殿にそこまで言わせるのか。[r]強敵や良し、と喜んでいる場合ではなさそうだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ベディヴィエール
+…………。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaSet A 8001001 1 マシュ]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠百貌のハサン
+……無論、兵力に関しては最後まで呼びかけを続ける。[r]円卓どもも各個撃破すればよい。
+[k]
+
+[charaFace F 5]
+＠百貌のハサン
+問題はガウェインだ。[r]ヤツが正門にいるかぎり我らに勝ち目はない。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+日中であれば無敵のガウェイン卿、ですね……。[r]普通に考えて、夜に戦いを挑むしかないのですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+ああ、彼にはもうその弱点はない。[r]獅子王のギフトで、彼が戦場にいるかぎり夜は訪れない。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ベディヴィエール
+……はい。先ほどの繰り返しになりますが、[r]日中のガウェイン卿は円卓において最強の騎士。
+[k]
+
+＠ベディヴィエール
+ランスロット卿の宝剣、アロンダイトのような[r]特性を持つ宝具でもなければ防戦も叶いません。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+アロンダイト……[r]“決して刃こぼれしない”という宝剣ですね。
+[k]
+
+＠マシュ
+剣で防御する、という意味では[r]わたしの盾に近い特性なのでしょうか……？
+[k]
+
+[charaFace H 0]
+＠ベディヴィエール
+いえ、レディ・マシュ。[r]貴女の持つ宝具は唯一無二の特性ですよ。
+[k]
+
+＠ベディヴィエール
+それと、ランスロット卿の宝剣は対人宝具です。
+[k]
+
+＠ベディヴィエール
+なんというか、ガウェイン卿と戦う、という点では[r]とにかく相性がいいのです、ランスロット卿は。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠三蔵
+あ、メイアン浮かんだわ！　ランスロットを味方にして、[r]ガウェインの相手をしてもらうのはどうかしら！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠俵藤太
+ばかもの、仲間同士でどう戦わせるのだ！[r]握り飯一つで懐柔できるのはお主だけだ！
+[k]
+
+[charaMove C 0,0 0.3]
+[wt 0.4]
+[se ad76]
+[charaShake G 0.05 5 5 0.25]
+[charaFace G 4]
+＠三蔵
+あいたぁ！？　……むう。[r]ランスロットなら話が通じそうな気がしたけどなぁ……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ふむ。悪いが、この状況だと聖都攻めは反対だ。[r]ガウェイン卿を攻略する手段がない。
+[k]
+
+＠Dr.ロマン
+くわえて、ボクたちの目的は獅子王との対面だが、[r]『敵』というのなら他にもいるんだ。
+[k]
+
+？1：敵……？
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+そうでした……この時代の聖杯を持っているのは[r]獅子王ではなく……
+[k]
+
+[charaFadeout A 0.1]
+
+？2：もう一人、王さまがいる……
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……そうでしたな。[r]あの男は我らにとっても恐るべき敵……。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そう、エジプト領のオジマンディアス。[r]彼が何を企んでいるのかまるで分からない。
+[k]
+
+＠Dr.ロマン
+まだ不安材料が多すぎる。カルデアの司令官として、[r][%1]君の参加は認められない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+待って下さい。[%1]様を繋ぎ止めるには、[r]もう一つ、大きな戦力があればいいのですね？
+[k]
+
+＠静謐のハサン
+それなら……我らにも秘中の秘があります。[r]私が捕らわれ、尋問されていた理由の一つでもあります。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠百貌のハサン
+静謐！　貴様、まさか[line 3]！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……お許しください、百貌さま。[r]ですが我々も禁忌を破る時ではないでしょうか……？
+[k]
+
+＠静謐のハサン
+私たちだけでは力が足りないのなら、[r]あのお方の力を借りるしか……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠百貌のハサン
+………………。
+[k]
+
+＠呪腕のハサン
+………………。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠三蔵
+え？　なに？[r]ガイコツの人たち、急に暗くなっちゃったけど……
+[k]
+
+？1：禁忌……？
+？2：あのお方……？
+
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ベディヴィエール
+……アズライールの[#廟:びょう]。
+[k]
+
+＠ベディヴィエール
+それはアサシン教団はじまりの寺院に眠るという、[r]初代“山の翁”の事ですね？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠百貌のハサン
+な……！？[r]知っているのか、円卓の騎士であるおまえが！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ベディヴィエール
+ここに来る前に、魔術師に言われたのです。
+[k]
+
+＠ベディヴィエール
+“アーサー王に対抗するのなら、山の翁を訪ねなさい”[r]“歴代のでなく、最初にして最後の翁を”……と。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……そうか。[r]知っていたのだな、ベディヴィエール殿。
+[k]
+
+＠呪腕のハサン
+…………確かに。[r]あのお方であればガウェインなど恐るるに足りぬ。
+[k]
+
+＠呪腕のハサン
+だが、あのお方を起こすという事は……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠百貌のハサン
+…………貴様には言っていなかったな、静謐。[r]呪腕めは、この時代に生きた暗殺者だ。
+[k]
+
+＠百貌のハサン
+その意味が分からぬ山の翁ではあるまい。
+[k]
+
+[charaTalk E]
+[charaFace E 5]
+[wt 1.0]
+[charaFace E 4]
+＠静謐のハサン
+そんな…………[r]…………ごめんなさい。私、知らなくて[line 3]
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+良い。お主が気に病む事ではない。[r]私も掟に囚われすぎていたわ。
+[k]
+
+＠呪腕のハサン
+[%1]殿。そしてロマン殿。[r]ガウェイン卿を打倒する手段があれば良いのですな？
+[k]
+
+＠呪腕のハサン
+では今一度、我が村に参られよ。[r]そこで、我らの秘密を明かしましょう。
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.2]
+[soundStopAll]
+[end]

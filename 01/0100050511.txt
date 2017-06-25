@@ -1,0 +1,222 @@
+
+＄01-00-05-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5016001 1 ジェロニモ]
+[charaSet D 98003000 1 Dr.ロマン]
+
+[scene 21402]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+……よし！　仕留めた！[r]だがカルナも気付いただろう。急ぐぞ、ついてこい！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[bgmStop BGM_EVENT_3 0.3]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 0.4]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+[scene 21410]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+お、思ったより広いですね……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+この時代、土地だけは有り余るほどあるからな。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ミスター・ジェロニモ。[r]少々よろしいかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+声を張り上げなくとも聞こえるよ、魔術師殿。[r]何か？
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+アメリカ東部と西部でケルトとエジソンが兵を挙げ、[r]戦争を起こしている。これは理解できました。
+[k]
+
+＠Dr.ロマン
+ですが、カウンターとして召喚されたと推測される[r]他のサーヴァントについては、ご存じでしょうか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+ああ、私と共に戦うサーヴァントは三……いや、[r]二騎存在する。脱出した後に紹介しよう。
+[k]
+
+＠ジェロニモ
+他にも、様々なサーヴァントがこのアメリカに[r]召喚されているようだ。
+[k]
+
+[charaFace C 5]
+＠ジェロニモ
+……だが、戦力不足で我々は迂闊に動くことが[r]できなくてな。
+[k]
+
+＠ジェロニモ
+ケルト軍たちに各個撃破されつつあるのが現状だ。
+[k]
+
+[charaFace C 0]
+＠ジェロニモ
+しかし君たちが加わってくれれば、[r]思い切った行動を取れるだろう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+待って下さい、一つ質問があります。
+[k]
+
+[charaFace C 1]
+＠ジェロニモ
+何かな、天使殿。[r]……いや失礼、[charaFace C 4]軽口が過ぎた。謝罪する。
+[k]
+
+[charaFace C 0]
+＠ジェロニモ
+どうぞ。
+[k]
+
+＠ナイチンゲール
+私の記憶が確かならば、ジェロニモ。[r]あなたはこの国とかつて戦った人間のはず。
+[k]
+
+＠ジェロニモ
+……そうだな。
+[k]
+
+＠ナイチンゲール
+この時代を修正すれば、やはりあなたは敗北した[r]戦士として扱われるでしょう。
+[k]
+
+＠ナイチンゲール
+それでも良いのですか？
+[k]
+
+[charaFace C 1]
+＠ジェロニモ
+構わないのだよ、私は。
+[k]
+
+[charaFace C 0]
+＠ジェロニモ
+……勝利も敗北も、所詮は[r]時代の流れに組み込まれた点に過ぎない。
+[k]
+
+＠ジェロニモ
+この時代を潰すということは、私の流した血が、[r]私の同胞が流した血が、無為になるということだ。
+[k]
+
+＠ジェロニモ
+何かを無かったことにするのは簡単だ。[r]ましてそれが自分の不利益になることならば尚更な。
+[k]
+
+＠ジェロニモ
+それでも、そこを堪えるのが戦士というもの。[r]「無かったことにする」だけでは小狡いコヨーテだ。
+[k]
+
+[charaFace C 1]
+＠ジェロニモ
+皮肉にも程があるがね。
+[k]
+
+＠ナイチンゲール
+……そうですか。[r]なら、今のところは味方と考えていいのですね。
+[k]
+
+[charaFace C 0]
+＠ジェロニモ
+太陽も[#射殺:いころ]しそうな君の目を誤魔化したくはないものだ。[r]よし、ここが出口だが[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……やっぱりね。[r]超強力なサーヴァント反応が一体だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+……出し抜くのは無理な話だったか。[r]だが行くしかあるまい。
+[k]
+
+？1：行こう！
+？2：脱出だ！
+？！
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

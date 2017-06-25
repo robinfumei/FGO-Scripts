@@ -1,0 +1,163 @@
+＄94-00-45-02-3-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 ？？？]
+[charaSet F 98075000 1 鬼]
+
+[scene 28100]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+くっ。数が……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠？？？
+っ……。
+[k]
+
+
+[charaTalk D]
+
+＠牛若丸
+主殿！[r]行き倒れの者が目覚められたようです！
+[k]
+
+[charaTalk E]
+[charaFace E 4]
+
+＠？？？
+う……君たち、は……。
+[k]
+
+？1：話はあと！
+？2：通りすがりの桃太郎ご一行です！
+
+？！
+
+＠？？？
+……？
+[k]
+
+＠？？？
+……よくわからない、けれど……[r]君たちが鬼と戦っているのは……わかる。
+[k]
+
+＠？？？
+僕を助けるため……。[r]……なら……。
+[k]
+
+＠？？？
+……疲労困憊、精神衰弱につき[r]僕はほんとう、ぜんぜん駄目なのですが……
+[k]
+
+[messageOff]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaFadein F 0.1 1]
+
+[effect bit_talk_37]
+
+
+
+[se bac12]
+
+[wt 0.5]
+
+[charaFadeout F 0.4]
+[seStop bac13 0.5]
+
+[wt 1.0]
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ひとりでに鬼が倒れました！[r]いまどうやって！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+小刀、いやクナイというヤツか……！[r]最小の動きで最速の一投……貴様、何者！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠？？？
+……すみません。[r]名乗るほどのものではないのですが……
+[k]
+
+
+＠風魔小太郎
+えーと……僕は風魔小太郎。[r]なんとなくですが、五代目小太郎……です。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+風魔小太郎だって！？[r]相州乱波、北条氏に仕えた風魔忍群の頭領か！？
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+……そういう話です。釜ゆでとか嫌いです。[r]でも、今は[line 3]
+[k]
+
+[charaFace E 4]
+
+＠風魔小太郎
+助けていただいた仁義を通します。[r]自信はありませんが、鬼退治、始めました。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+微妙に覇気のない[#男:お]の[#子:こ]ですが、そこはそれ！[r]助[charaFace D 0]太刀、お任せしましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

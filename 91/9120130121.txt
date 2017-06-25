@@ -1,0 +1,112 @@
+＄91-20-13-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 99502600 1 マシュ]
+[charaSet B 2013001 1 アーラシュ]
+[charaSet C 98003003 1 Dr.ロマン]
+[charaSet E 98006000 1 敵Ａ]
+
+[scene 20802]
+[fadein black 2.0]
+[wait fade]
+
+[charaPut E 0,0]
+[charaEffect E bit_talk_10]
+[wt 0.05]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+敵性存在の消滅を確認しました。[r]先輩たちの勝利です！
+[k]
+
+[charaFace A 1]
+＠マシュ
+まさか、この短時間で倒してしまうなんて……[r]すごいです、先輩。アーラシュさんも！
+[k]
+
+[charaFadeout A 0]
+[wt 0.05]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0,-150]
+＠Dr.ロマン
+あれえ、もしかしてデータの調整をミスったかなあ？[r]そんなことないはずなんだけどなぁ。
+[k]
+
+[charaFace C 1]
+＠Dr.ロマン
+何にせよ、お疲れさま！[r]解析はこれからだけど良いデータが取れたと思うよ！
+[k]
+
+[charaFadeout C 0]
+[charaPut E -1000,0]
+[charaEffectStop E bit_talk_10]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠アーラシュ
+ふう、無事に終わったようなら何よりだ。
+[k]
+
+？1：お疲れさま、アーラシュ
+
+[charaFace B 1]
+＠アーラシュ
+おう。そっちこそな。
+[k]
+
+？2：次は、レイシフト先で一緒に戦おう
+
+[charaFace B 1]
+＠アーラシュ
+おう、お望みとあらばな！
+[k]
+
+？！
+
+[charaFace B 0]
+＠アーラシュ
+……しかし、何だな。奇妙なもんだ。
+[k]
+
+[charaFace B 3]
+＠アーラシュ
+世界の命運をかけて戦うのは、多分、これで三度目だ。[r]いや、四度目だったかな。
+[k]
+
+[charaFace B 0]
+＠アーラシュ
+聖杯絡みってのも何度目かになるんだろうが、[r]まあ、あれだ。
+[k]
+
+＠アーラシュ
+俺には実感してることがある。[r]俺は、どうやらマスター運ってのが毎回良いらしい。
+[k]
+
+＠アーラシュ
+これからもよろしくな。[r]おまえが望むなら、俺はいつでも全力でやる。
+[k]
+
+[charaFace B 1]
+＠アーラシュ
+当然、生きてた頃以上に全力だ！
+[k]
+
+＠アーラシュ
+[line 3]世界、救ってやろうや！　マスター！
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 1.9]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

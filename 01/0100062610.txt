@@ -1,0 +1,569 @@
+
+＄01-00-06-26-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 4012000 1 オジマンディアス]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet D 1020000 1 ランスロット]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 5012001 1 ニトクリス]
+[charaSet H 98006100 1 ？？？]
+
+[scene 29310]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+オジマンディアス王に使いは送った。[r]まずは彼の反応を待とうじゃないか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+……ダ・ヴィンチちゃん。[r]念のため確認しますが、伝令にはなんと？
+[k]
+
+[charaFace C 2]
+＠ダ・ヴィンチ
+もちろん、
+[k]
+
+＠ダ・ヴィンチ
+“これから共同戦線の申し出に行くから、[r][f small]  [f -]首を洗って歓迎したまえ！”さ！
+[k]
+
+
+？1：それは宣戦布告なのでは！？
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+そうだとも！[r]へりくだったところで力を貸す男ではないのだろう？
+[k]
+
+＠俵藤太
+であれば、こちらの力を示して対等の場につかんとな！
+[k]
+
+[charaFadeout F 0.1]
+
+？2：いいね。とてもいい
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+ええ、話に聞くオジマンディアス王は[r]自信家に傲慢と尊大と自分大好きが合体した人よ。
+[k]
+
+＠三蔵
+そういう人には下手に出ても逆効果！
+[k]
+
+＠三蔵
+“あたしはそっちに相応しい相手なのよ”って、[r]こっちの力を見せつけないと！
+[k]
+
+[charaFadeout E 0.1]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.1]
+[se ad14]
+[shake 0.05 0 3 1.5]
+[wt 1.5]
+[seStop ad14 1.0]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+[line 3]動いた！[r]大神殿の扉が開くと共に、守護獣、多数放出！
+[k]
+
+
+＠ランスロット
+総員、戦闘準備！[r]予定通り、オジマンディアスの軍勢と正面から接触する！
+[k]
+
+[charaFace D 2]
+＠ランスロット
+我らの力を示す時だ！[r]騎士の力は百の兵に匹敵するとの証を立てよ！
+[k]
+
+[se ad16]
+[wt 1.0]
+[seStop ad16 1.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+では軍隊としての勝負はランスロット卿に任せよう。[r]準備はいいかい、[%1][&君:ちゃん]！
+[k]
+
+？1：任せて！
+？2：大神殿に突撃だ！
+
+？！
+
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい……！　あの守護獣たちをかいくぐって、[r]オジマンディアス王に謁見です！
+[k]
+
+
+[bgmStop BGM_EVENT_3 2.0]
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 29320]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0 1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaFace B 4]
+＠オジマンディアス
+フン[line 3]戻ってこい、とは言った。[r]いずれ余と戦う事になるとも、確かに言った。
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+だが、ここまで身の程知らずとはな。[r]怒りを通り越して笑えてきたわ。
+[k]
+
+＠オジマンディアス
+であろう、ニトクリスよ？[r]手を貸してやった甲斐があるのではないか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+私はそんなつもりでは……[r]申し訳ありません、ファラオ・オジマンディアス。
+[k]
+
+＠ニトクリス
+二度までも、私の行いが[r]御身の威光を汚す事になろうとは[line 3]
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+よい。愉快である事は確かだ。[r]失態とは数えぬ。
+[k]
+
+[charaFace B 5]
+＠オジマンディアス
+……しかし。[r]獅子王との対決の前に、余の星が[#陰:かげ]るとはな。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+なまじ聖杯など手に入れたが故に、[r]余の目も眩んでいたと見える。
+[k]
+
+＠オジマンディアス
+これまで、誰も彼もが聖杯を求めた。[r]世界と未来のすべてが焼却されると知らされても尚。
+[k]
+
+＠オジマンディアス
+いいや、知らされたが故か。[r]英霊、英雄とされながらも業深き者どもばかり。
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+此度はそうならぬよう、余の元で封じてきたが……[r]それが仇になったようだ。
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+封じたつもりで封じられていたわ。
+[k]
+
+＠オジマンディアス
+聖杯さえ手元に置いておけば、[r]獅子王も軽率に動かぬだろうなどと、笑わせる。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+いいえ。[r]その判断は正しいものです、ファラオ。
+[k]
+
+＠ニトクリス
+英霊とて欲深い者ですが、[r]貴方は、少なくとも貴方だけは違いましょう、
+[k]
+
+＠ニトクリス
+地上に在って誰よりも栄華を極めたファラオ。[r]貴方様だからこそ、聖杯を使う事はなかったのです。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+……ふん。[r]栄華を極めた所で欲は消えぬさ。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+そもそも、おまえもファラオには違いあるまい。[r]古き[#天空:ホルス]の女よ。
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+おまえであれば聖杯を譲ってもよい。[r]どうだ？　今からでも遅くはないぞ？
+[k]
+
+＠オジマンディアス
+こうして英霊となったのだ。[r]聖杯を戴き、真にホルスとなるのも一興だぞ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+……私はファラオとしてはあまりに未熟に過ぎる者。[r]故に、貴方の前ではそう名乗ることはありません。
+[k]
+
+＠ニトクリス
+聖杯は貴方のもの。[r]私は冥界の鏡番で十分でございます。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+律儀な女だ。女王に必要なものは権力ではなく、[r]友であったのかもな。
+[k]
+
+＠オジマンディアス
+まあよい。少なくとも、そなたと言葉を交わせた事は[r]幾らかは無聊の慰めであった。
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+では行くがいい、ファラオ・ニトクリス。[r]その[#有情:よわさ]、断ち切ってまいれ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+御意。
+[k]
+
+[messageOff]
+[charaFadeout G 1.0]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+……ファラオは神である。[r]よって、余の選択は絶対である。
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+だが[line 3][r]神々とて、地上が消え失せればどう言ったものか。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+獅子王が何をしようと結果は変わらぬ。[r]魔術王ソロモンの計画は、それほどに完璧だ。
+[k]
+
+＠オジマンディアス
+滅びを待つか、滅びから逃げるか。[r]獅子王は後者を選択した。まったく賢明だ。
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+[line 3]では余は？[r]太陽王たる余は、そのどちらを選ぶべきか？
+[k]
+
+[bgmStop BGM_EVENT_5 2.0]
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 21500]
+
+[charaFadeout B 0]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_24 2.0]
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+大神殿への突入、成功しました！[r]玉座への道は覚えています、案内はわたしが！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFace F 6]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠三蔵
+………………。
+[k]
+
+[charaFace F 2]
+＠俵藤太
+む？　どうした三蔵。陰気な顔をして。[r]お主ならば“ラクショ！”などとはしゃぐかと思ったが？
+[k]
+
+＠三蔵
+……その気は満ちあふれてたんだけど……[r]神殿に入った途端、気持ち悪くなっちゃって。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠三蔵
+……[%1][&:さん]。[r]せっかくの勢いを下げちゃうだろうけど、ごめん。
+[k]
+
+[charaFace E 5]
+＠三蔵
+聖都を知っているのはあたしだけだから[r]きっちり言うわね。
+[k]
+
+＠三蔵
+この大神殿、獅子王の聖都と同じ空気よ。[r][line 3]だからここも、シェルターになる。
+[k]
+
+＠三蔵
+……オジマンディアス王は[r]獅子王と同じ手段を持っている。
+[k]
+
+[charaFace E 4]
+＠三蔵
+彼はこの大神殿で、[r]聖都と同じ事ができるのかもしれないわ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+！　では、オジマンディアス王には獅子王と戦う[r]必要はなくて……むしろ戦いを避ける、と？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+
+[charaFilter G silhouette 00000000]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 1.0 1]
+[wt 1.0]
+
+＠G：？？？
+不敬です、マシュ。[r]ファラオ・オジマンディアスに逃走はありません。
+[k]
+
+＠G：？？？
+そもそも獅子王など、我々の敵ではない。[r]裁きの光などまさに笑止千万！
+[k]
+
+＠G：？？？
+あの程度の光の奔流、我が鏡の前には無力なり！
+[k]
+
+＠G：？？？
+獅子王が何度聖槍を放とうが、[r]私がこの神殿の盾となるのですから……！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+女王ニトクリス……！
+[k]
+
+[charaFilter G normal FFFFFF00]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+……ええ。砂漠で別れて以来ですね、[r]マシュ、[%1]。
+[k]
+
+＠ニトクリス
+よくぞこの大神殿に再び訪れました。[r]その約束を違えなかった事、まずは褒め称えましょう。
+[k]
+
+[charaFace G 9]
+＠ニトクリス
+ですが、それは試練と同義です。[r]貴方たちは力を示す必要がある。
+[k]
+
+＠ニトクリス
+ファラオ・オジマンディアスのお耳に、[r]力無き者の声を聞かせる訳にはいきません。
+[k]
+
+＠ニトクリス
+互いの理念、思想はナイルの猛りに流す時。[r]この先に進みたければ、我が[#屍:しかばね]を乗り越えるのみ！
+[k]
+
+？1：アトラスでも助けてくれたのに？
+
+[charaFace G 3]
+＠ニトクリス
+それは知りません！　まったく知りません！[r]あったとしてもきっと寝ぼけていたのです！
+[k]
+
+？2：……分かった。いくぞ、マシュ
+
+[charaFace G 6]
+＠ニトクリス
+……それでこそ。[r]勇者とはそうでなくてはいけません。
+[k]
+
+？！
+
+[charaFace G 2]
+＠ニトクリス
+冥界の鏡よ、忘れ去られる亡国の[#兵:つわもの]たちよ！[r]ニトクリスが命じる！　今一度現世に戻れ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+
+[se ad23]
+＠？？？
+[image berserker_language_1][line 3]
+[k]
+
+[charaFadeout H 0.1]
+
+
+
+
+
+
+
+
+
+
+
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+では試練を始めます！[r]王に拝謁するのであらば、我が召喚に応じた異形を屠れ！
+[k]
+
+＠ニトクリス
+我が名はファラオ・ニトクリス！[r]勝利の暁には、そなたらに栄光への道を指し示そう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.5]
+[wait fade]
+[soundStopAll]
+[end]

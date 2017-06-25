@@ -1,0 +1,528 @@
+＄94-00-09-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1027000 1 ？？？]
+[charaSet E 2024000 1 ？？？]
+[charaSet H 9940030 1 ？？？]
+[charaSet G 5009001 1 ダ・ヴィンチちゃん]
+
+[se ad9]
+[wt 0.3]
+[scene 10204]
+[fadein black 2]
+[wait fade]
+
+[charaFadein B 0.1 1]
+[charaFace B 2]
+＠Dr.ロマン
+カルデアに侵入者！？[r]またか！　いったいどこから！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 2]
+[charaFadein B 0.1 0]
+[charaFace G 2]
+＠ダ・ヴィンチちゃん
+どうやら別位相から直接侵入されたみたいだね。[r]でもこの反応は……？　[charaFace G 0]なんだろ、これ。
+[k]
+
+
+[se ad59]
+[wt 1]
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[seStop ad59]
+[seStop ad9 2]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+ドクター、緊急事態ですか！？[r]あ、先輩、おはようございます。
+[k]
+
+
+
+
+？1：今日も元気そうだね。
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+はい、もちろんです。健康なのは良い事です。[r]今朝も朝食を美味しくいただけました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein B 0.1 1]
+[charaFace B 2]
+＠Dr.ロマン
+落ち着きがありすぎるのもどうかと思うよ！？[r]挨拶は大事だけど、今は侵入者！
+[k]
+
+[charaFadeout B 0.1]
+
+？2：朝ごはんは何？
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+今日は目玉焼きと海苔、そしてお味噌汁。[r]そしてデザートには南瓜の煮付けです。
+[k]
+
+＠マシュ
+数少ない備蓄から捻出された、[r]質素ながら隙のない献立になっているかと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠Dr.ロマン
+カボチャかー。[r]たくさん収穫して有り余ってたからねぇ。
+[k]
+
+[charaFace B 2]
+＠Dr.ロマン
+じゃなく！！[r]侵入者、侵入者！！
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+なんと。では、すぐ迎撃に向かいます。[r]先輩、よろしくお願いします。
+[k]
+
+
+[wt 0.6]
+[wt 0.3]
+[messageOff]
+[wipeout leftToRight 1 3]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 10310]
+[wipein rightToLeft 1 3]
+[wait wipe]
+[wt 0.6]
+
+[charaSet A 8001000 2 マシュ]
+
+[se ad51]
+[wt 0.3]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+反応はこのあたりのようですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+＠Dr.ロマン
+マシュ、後ろだ！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+っ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein H 0.1 1]
+[charaFace H 0]
+＠H：？？？
+ノブノブー！！
+[k]
+
+
+[charaFadeout H 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+！？！？！？？？？
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+＠Dr.ロマン
+……な！？
+[k]
+
+？1：え？
+？2：は？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein H 0.1 1]
+＠H：？？？
+ノブノブー！！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+なんですかこれー！？
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationChara 5009003 1 5 0 2]
+＠ダ・ヴィンチちゃん
+気を付けるんだマシュ、形はいい加減だけど[r]この反応だと戦闘力はかなり高いよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein H 0.1 1]
+＠H：？？？
+ノッブー！！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 15]
+＠マシュ
+マスター！　あぶなっ……！！
+[k]
+
+＠D：？？？
+そこまでです！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein H 0.1 1]
+[charaFace H 1]
+＠H：？？？
+ノブッ！？
+[k]
+
+[messageOff]
+[se bac5]
+[wait se bac5]
+[capture]
+[specialEffect cutting]
+[charaFadeout H 0.1]
+[se ba5]
+[wait se ba5]
+[wait specialEffect]
+
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+あ、あなたは……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠D：？？？
+初めまして、私は新選……じゃない、えーと……[r]そうですね、桜セイバーとでも呼んでください。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+桜……、セイバー？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet D 1027000 1 桜セイバー]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠桜セイバー
+はい、実は私はあの謎の生き物を追って[r]こちらの世界に現界したのですが……。
+[k]
+
+＠E：？？？
+まてまて人斬り！！[r]わしを置いていくでないわ！！
+[k]
+
+[charaFadeout D 0.1]
+
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[scene 10310]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[charaFadein E 0.1 2]
+[charaFace E 2]
+＠E：？？？
+はぁはぁ……、ええい、いつものわしならこの程度[r]屁でもないのじゃが、さすがに堪えるのじゃ……。
+[k]
+
+
+＠マシュ
+あ、あの、お二人はいったい？
+[k]
+
+
+[charaFace E 0]
+＠E：？？？
+ん？　わしか、わしは第六天魔王ことノブ……[r]じゃない、魔人、そう魔人アーチャーじゃ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+魔人アーチャーに桜セイバーさん……ですか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet E 2024000 1 魔神アーチャー]
+
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+話の途中だけど、例の生物？　の発生源がわかったよ。[r]どうも別位相の空間とカルデアが接触してるみたいだ。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+なんとか元を絶たないと、このままじゃカルデアが[r]珍妙な生物でいっぱいになっちゃうぞ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[communicationChara 5009003 1 5 0 0]
+＠ダ・ヴィンチちゃん
+ＯＫ、いまレイシフトの座標を割り出したから[r]直接乗り込んでパパッと排除してきてくれるかな？
+[k]
+
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+了解しました！！　急ぎ先輩と向かいます！！[r]あの、ところでお二人は……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠桜セイバー
+そういう事ならこちらとしても望むところです。[r]私たちも同行させて頂きたい。
+[k]
+
+[charaFace D 5]
+＠桜セイバー
+いいですね？　アーチャー。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+わかったわかった、まあ、わしらの問題だし[r]追いかけまわすのも疲れておったしな……。
+[k]
+
+[charaFace E 1]
+＠魔人アーチャー
+よかろう！　この第六天魔王こと[r]魔人アーチャーが手を貸してやるのじゃ！
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_3 0.7]
+
+
+[messageOff]
+[fadeout black 2]
+[wait fade]
+[bgm BGM_EVENT_2 0.7]
+[scene 10204]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+[fadein black 2]
+[wait fade]
+
+＠Dr.ロマン
+とりあえず、マシュ達がレイシフトしたら[r]システムをロックしてと……。
+[k]
+
+＠Dr.ロマン
+よし、これでひとまずは安心できそうだ。
+[k]
+
+[charaFace B 4]
+＠Dr.ロマン
+ところであの２体のサーヴァントだけど[r]どうやってカルデアに直接現界したんだろう？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFadein B 0.1 0]
+[charaFadein G 0.1 2]
+[charaFace G 0]
+＠ダ・ヴィンチちゃん
+うーん、どうにも超天文学的な確率で[r]おかしな空間と繋がっちゃったみたいだね。
+[k]
+
+[charaFace G 4]
+＠ダ・ヴィンチちゃん
+ほら、レイシフト先の状況を見てみたまえ。[r]これは、なんだろう、別位相から事象汚染？
+[k]
+
+＠ダ・ヴィンチちゃん
+とにかくひどい事になっている。
+[k]
+
+
+[charaFace B 4]
+＠Dr.ロマン
+うわあ……、なんだこれ。妙な生物の集団に[r]シャドウサーヴァントとも違うなにか？
+[k]
+
+＠Dr.ロマン
+……でもまあ、[%1][&君:ちゃん]なら[r]何とかしてくれると信じて[line 3]
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+[line 3]全力で、寝なおそう。
+[k]
+
+＠Dr.ロマン
+なにしろ昨日は遅くまでマギ☆マリに[r]コメント送ってたから眠くて。ふわぁ～あ。
+[k]
+
+
+[charaFace G 4]
+＠ダ・ヴィンチちゃん
+ロマニがひたすら話しかけて、ひたすら[r]罵倒を返されてたのか……どこの罰ゲーム、それ？
+[k]
+
+
+[charaFace B 1]
+＠Dr.ロマン
+罰ゲームじゃないぞう、ご褒美だぞう！
+[k]
+
+[charaFace B 4]
+＠Dr.ロマン
+まあ、正直仮眠でもして頭をリセットしないと[r]立ち直れないんだけど……
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ！！
+[k]
+
+
+[charaFace B 0]
+＠Dr.ロマン
+あれ？　フォウじゃないか。置いてかれちゃった？[r]え？　嫌な予感がするから行きたくない？
+[k]
+
+
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+
+[messageOff]
+[wt 0.3]
+[bgmStop BGM_EVENT_2 0.7]
+[soundStopAll]
+[wait effect bit_talk_06]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[fadein black 1]
+[wait fade]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+レイシフト、終了ですが……。[r]ここは、どこでしょう？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠魔人アーチャー
+どうやら帝都聖杯の暴走で別位相に[r]異空間を形成してしまったようじゃな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+帝都[line 2]聖杯？[r]なんですか、それは……？
+[k]
+
+
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_2 0.7]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠桜セイバー
+話は後です、来ます！！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

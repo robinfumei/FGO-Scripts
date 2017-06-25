@@ -1,0 +1,358 @@
+
+
+＄94-00-56-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5003001 1 玉藻の前]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4009201 1 アン]
+[charaSet E 4009101 1 メアリー]
+[charaSet F 3013001 1 スカサハ]
+[charaSet G 4017001 1 マリー]
+[charaSet H 1001001 1 アルトリア]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠玉藻の前
+あうー。無人島と聞いて、より暑さが増してきた気が[r]しますよぅ。
+[k]
+
+＠玉藻の前
+やっぱり狐は基本的に雪とか寒い場所のほうが映える[r]と思いませんか、マスター？
+[k]
+
+＠玉藻の前
+[#私:わたくし]の自慢の尻尾も汗でシンナリでございます。[r]フォウさんにはこの気持ち、わかりますよねぇ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウッ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メアリー
+出発時に持っていた食料もわずかだ。
+[k]
+
+＠メアリー
+マスターの生命維持のためにのみ使うとしても、[r]どれだけもつか……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠アン
+寄港予定までずいぶんある航海中に、食料の頼りなさに[r]気付いてしまったときのぞっとする感じ……
+[k]
+
+＠アン
+思い出してしまいましたわ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……身一つで無人島に辿り着いたときの対処法を[r]学んでおくべきでした……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウー……。
+[k]
+
+？1：ど、どうしよう……？
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠スカサハ
+なに。[r]あまり深刻に考えずともよいだろう。
+[k]
+
+？2：きっとなんとかなるよ
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠スカサハ
+そうさな。[r]あまり深刻に考えずともよい、マシュ。
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+スカサハさん……何かお考えがあるのですか？
+[k]
+
+[charaFace F 4]
+＠スカサハ
+考えというほどのものはないが。[r]すべきことをするしかあるまい。
+[k]
+
+[charaFace F 0]
+＠スカサハ
+まず最優先は、カルデアとの連絡を試みることだ。[r]そして救助を要請する。
+[k]
+
+[charaFace A 0]
+＠マシュ
+そう……ですね。ですが、通信できないのが問題です。[r]通信システムが壊れているわけではないと思うのですが。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アルトリア
+この島を出て別の場所に行けば通信が回復する、[r]という可能性は？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウフォウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+それは……可能性としてはあります。
+[k]
+
+[charaFace A 7]
+＠マシュ
+この島に来て通信が繋がらなくなったのですから、[r]島を出れば事態が改善することは考えられます。
+[k]
+
+？1：でも、島を出られないんじゃ……
+？2：黒髭の尊い犠牲を忘れてはならない……
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠アン
+まず島を出てみる、というのを目標にするのは[r]いい考えかもしれませんわね。
+[k]
+
+[charaFace E 0]
+＠メアリー
+うん。黒髭は『そんじょそこらの船では出られない』[r]と言った。
+[k]
+
+＠メアリー
+それは逆に言えば、[r]きちんとした船があれば出られるかも、ってことだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠マリー
+でも……ここは無人島という話なのでしょう？[r]そんな船は手に入らないのではなくて？
+[k]
+
+[charaFadeout G 0.1]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠スカサハ
+造ればよい。
+[k]
+
+？1：……ぱーどぅん？
+
+＠スカサハ
+造ればよい、と言ったのだ。マスター。
+[k]
+
+？2：造れる……ものなの？
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠アン
+操船技術はともかく……造船技術のほうは、[r]私たちにもございませんよ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠スカサハ
+なに、このスカサハにはいささかの知識がある。
+[k]
+
+[charaFace F 1]
+＠スカサハ
+それに我がルーンを組み合わせれば[r]たいていのモノは作れよう。
+[k]
+
+＠スカサハ
+時間と素材は必要だろうがな。
+[k]
+
+？1：た、たのもしい……！
+？！
+
+[charaFace F 0]
+＠スカサハ
+ざっと見た限り、この島には一通りの資源が揃って[r]いそうだ。なかなかに豊かな島だ。
+[k]
+
+＠スカサハ
+ゆえに、資源的な問題はおそらくないだろうが[line 3]
+[k]
+
+[charaFace F 4]
+＠スカサハ
+…………島というのは、神にせよ人にせよ獣にせよ、[r]治めるモノが在るものだ。管理者がな。
+[k]
+
+[charaFace F 5]
+＠スカサハ
+だが、これほど魔物が我が物顔で[r][#跋扈:ばっこ]しているとはな。
+[k]
+
+[charaFace F 4]
+＠スカサハ
+管理者が役目を放棄したか、忘れ果てたか……[r]まったく嘆かわしい。
+[k]
+
+[charaFadeout F 0.1]
+
+[bgmStop BGM_EVENT_5 0.5]
+[charaSet D 1009001 1 モードレッド]
+[charaSet E 4019001 1 マルタ]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウッ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+今のは……フォウさんのさりげない[r]魔物接近注意報です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠モードレッド
+ああ、また来てるぞ！　喋ってないで手ぇ貸せ！[r][line 3]ああクソ、やっぱ暑っちぃなこの鎧！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アルトリア
+無駄に重装備にするからそうなるのです。[r]相手を威嚇するための装飾など、愚かな。
+[k]
+
+＠アルトリア
+これを機会に、自分の体格にあった装備を選ぶ事です。[r]まあ、もっとも[line 3]
+[k]
+
+＠アルトリア
+その程度の修正では、[r]騎士評価はまだまだマイナスのままですが。
+[k]
+
+[charaFace D 3]
+＠モードレッド
+ぐ、ぐぬぬ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マルタ
+何にしても、話の続きは彼らをブン殴……[r]コホン、追い払ってからにしましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

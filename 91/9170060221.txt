@@ -1,0 +1,466 @@
+
+
+＄91-70-06-02-2-1
+[charaSet A 99502600 1 マシュ]
+[charaSet B 7022001 1 茨木童子]
+[charaSet C 7006001 1 坂田金時]
+[charaSet D 6021001 1 酒呑童子]
+[charaSet E 6019001 1 風魔小太郎]
+[charaSet F 7023001 1 源頼光]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 28700]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 7]
+[charaEffect A bit_talk_10]
+[charaFadein A 0.1 1]
+
+＠マシュ
+敵性サーヴァント、撃破を確認！[r]先輩たちの勝利です！
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+[charaPut A 0,-10000]
+[charaEffectStop A bit_talk_10]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠茨木童子
+……なぜだ。なぜ、[#吾:われ]が消えねばならぬ……？
+[k]
+
+[bgm BGM_EVENT_11 0.1]
+＠茨木童子
+[#吾:われ]は、在るように在ったのだ……[r]人も、この山で喰ってはおらぬ……
+[k]
+
+＠茨木童子
+ウルクとやらでは生きられぬと逃げ込んだ[r]弱き人間どもを、仮初めの配下として、[#吾:われ]は……
+[k]
+
+＠茨木童子
+[#吾:われ]は、ただ、生きていた……だけだ……
+[k]
+
+＠茨木童子
+弱きものどもと……[r]見知らぬ異形の獣どもを、束ねて……それだけだ……
+[k]
+
+＠茨木童子
+………………ああ、だが。そうだな。
+[k]
+
+＠茨木童子
+[#吾:われ]はずっと、ずっと、物足りなかった。[r]弱き人間どもがいようと、獣どもが擦り寄ってこようと。
+[k]
+
+
+[charaFace B 5]
+＠茨木童子
+此処には誰もおらぬ。分かるか？[r][#吾:われ]を知り、[#吾:われ]と語らってくれる者がおらぬ。
+[k]
+
+[charaFace B 4]
+＠茨木童子
+人間たちはやがて此処を去った。[r]ウルクの様子を見に行くだの、何だのと理由を付けて、
+[k]
+
+＠茨木童子
+去って行った。[r]そのままとんと戻らぬ。きっと皆、死んだのだろう。
+[k]
+
+＠茨木童子
+異形の獣たちも、日々弱っていく。[r]殺されずとも明日には死に果てていたろうよ。
+[k]
+
+＠茨木童子
+……誰も彼も、怯えて震えていただけだ。[r][#吾:われ]は、いわば焚き火の如き扱いであったのだ。
+[k]
+
+＠茨木童子
+[#吾:われ]もまた……[r]奴らと変わらず、震えていたというのにな。
+[k]
+
+[bgmStop BGM_EVENT_11 1.0]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+…………。
+[k]
+[charaFadeout C 0.1]
+[bgm BGM_EVENT_6 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+[effect bit_talk_06]
+＠茨木童子
+酒呑……[r]金時……
+[k]
+
+＠茨木童子
+[#吾:われ]、は…………
+[k]
+
+？1：[line 6]
+？！
+
+＠酒呑童子
+うん？　言うてええよ、茨木。
+[k]
+
+[charaFace B 1]
+＠茨木童子
+酒呑……ああ、そこにいるのだな。酒呑童子……
+[k]
+
+＠茨木童子
+見知らぬ山で、ずっと……
+[k]
+
+＠茨木童子
+……ひとりきりというのは……寂しかった、ぞ……
+[k]
+
+[effectStop bit_talk_06]
+[messageOff]
+[charaSpecialEffect B flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect B]
+[wt 1.5]
+[charaTalk A]
+[charaFace A 4]
+[charaEffect A bit_talk_10]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+茨木童子、消滅を確認しました。[r]魔物たちも同様です。
+[k]
+
+[charaPut A 0,-10000]
+[charaEffectStop A bit_talk_10]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠風魔小太郎
+……金時殿。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+ああ。これで仕舞いだ。[r]身内の後始末に付き合わせちまって悪かったな。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+いいえ、そんな！[r]僕は何も……お気になさらないで下さい。
+[k]
+
+＠風魔小太郎
+金時殿もマスターも正しい決断をされました。[r]受肉した茨木童子は、歴史へ影響を与えうる存在かと。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+せやねぇ。仕方ないんちゃう？[r]ま、いざ本気で殺し合うて殺されたんならそこまでやし。
+[k]
+
+[charaFace D 1]
+＠酒呑童子
+それに、ねえ。ふふ。ふふふふふ。
+[k]
+
+＠酒呑童子
+小僧がまさかほんに、あないにねえ。ふふ。[r]あーおかし、昂ぶって、どうにかなってしまいそやわぁ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+……何だよ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+身内、なんて二度も言うてくれはって。[r]カルデアに戻ったら、[#あっちの茨木]にどう言うたろか。
+[k]
+
+？1：そういえば
+？2：言ってたね、うん
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 7 7 0.4]
+
+＠坂田金時
+！！！！
+[k]
+
+[charaFace C 4]
+＠坂田金時
+おい、それは……[r]それは駄目だろ、ゴールデンじゃなさすぎンだろ……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+しらへんよそんなん。[r]あー、おかし。さ、マシュ。はよそっち戻して？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaEffect A bit_talk_10]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あっ、はい。それでは皆さん、短期レイシフト終了です。[r]第七特異点からカルデアへの帰還処理を開始します！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_6 1.5]
+[wait fade]
+[charaPut A 0,-10000]
+[charaEffectStop A bit_talk_10]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[scene 10310]
+[wt 3.0]
+
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠茨木童子
+……何だ。[#吾:われ]は[#汝:なれ]などに用はないぞ、消えろ。
+[k]
+
+[charaFace B 5]
+＠茨木童子
+これからニトクリスと会わねばならんのだ。[r]そこを退け、もしくは死ね。死ぬがよい、坂田金時め。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 0]
+[charaFadein B 0.1 2]
+
+＠坂田金時
+うるせえ。[r]ソッチになくてもコッチには用があるンだよ。
+[k]
+
+[charaFace B 0]
+＠茨木童子
+ほう？？
+[k]
+
+[charaFace C 4]
+＠坂田金時
+だからな。えーとな……
+[k]
+
+[charaFace B 5]
+＠茨木童子
+なんだ。はっきりせぬか。もしや[#吾:われ]をからかって[r]遊んでいるのではなかろうな……？
+[k]
+
+[charaFace C 4]
+＠坂田金時
+あー、だからな。あれだ。悪かった。[r]ああだこうだ理屈を付けても、やっぱ寝覚めが悪ィんだ。
+[k]
+
+＠坂田金時
+アンタに言っても意味はねえってのも[r]分かってんだが、こうしなきゃオレの気がすまねえ。
+[k]
+
+[charaFace C 3]
+＠坂田金時
+だから、二重の意味ですまん。この通りだ。
+[k]
+
+[charaFace B 2]
+＠茨木童子
+たわけ！　訳が分からんわ！
+[k]
+
+[charaFace C 4]
+＠坂田金時
+……だよな。じゃあ、コイツだけでも受け取れ。[r]そら[se ad7][charaMoveReturn C -256,10 0.4]よ。
+[k]
+
+[charaFace B 0]
+＠茨木童子
+巾着？　なんだこれは。何が入っている……
+[k]
+
+[se ad77]
+＠茨木童子
+（がさごそ）
+[k]
+
+
+[charaShake B 0.05 10 0 0.7]
+[charaFace B 2]
+＠茨木童子
+[line 3]にゃんと！　これはもしや……！！
+[k]
+
+[charaFace C 4]
+＠坂田金時
+アンタ好きなんだろ、チョコレート。[r]他にも色々詰め合わせた。詫びの品ってのとは違うが……
+[k]
+
+[charaFace C 0]
+＠坂田金時
+とりあえずゴールデンな包装を選んでおいたから、[r]まあ、気に入ったなら食え。じゃあな。
+[k]
+
+[charaFadeout C 0.4]
+[se ad60]
+[wt 0.7]
+[seStop ad60 0.4]
+[charaFadeout B 0.4]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠茨木童子
+後から“やっぱり返せ”と言うても返さぬからな！[r]も[charaChange B 98105300 0 normal 0][wait charaChange B][charaMoveReturn B 0,-10 0.4]ごもご。[wait charaMove B][charaMoveReturn B 0,-10 0.4][wait charaMove B]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+言わねえよ！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1]
+[bgmStop BGM_EVENT_2 0.7]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 1.0]
+[scene 10310]
+[wipein rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+[bgm BGM_EVENT_7 0.1]
+
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[charaShake F 0.01 1 1 0.7]
+
+＠源頼光
+な、な、な、な……！[r]なんですあれは、金時が虫なぞに贈り物などと！
+[k]
+
+[charaFace F 2]
+＠源頼光
+驚天動地とはこの事、もはや一刻の猶予もありませぬ！[r]誅伐を執行する他に道はなし[line 3][se ad77][charaShake F 0.01 5 0 0.4][charaMove F 0,-50 0.4]ムググ！？
+[k]
+
+？1：まあまあお母さん
+？2：こっちも気持ちは分かるんで、こう
+
+？！
+
+[se ad7]
+[charaMove F 1 0.4]
+＠源頼光
+マスター、しかし……！[r]いけません。情が移ってからでは遅いといいますし！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠酒呑童子
+ふふ、なあに。うちらは犬猫と同じなん？[r]そうかもしれへんけど、まあ、野暮はしいひんとき。
+[k]
+
+＠酒呑童子
+でもまあ、せやねえ。[r]人の子だか、犬猫だかと同じ扱いをしてるうちは[line 3]
+[k]
+
+[charaFace D 1]
+＠酒呑童子
+[line 3]小僧もまだ、まっとうに[#人間:ヒト]なんやねぇ。
+[k]
+
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

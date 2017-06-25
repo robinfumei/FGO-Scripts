@@ -1,0 +1,509 @@
+
+
+＄94-00-91-03-1-1
+
+
+
+[charaSet A 99502600 1 マシュ]
+[charaSet B 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet C 6019001 1 風魔小太郎]
+[charaSet D 2014001 1 俵藤太]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 98003000 1 Dr.ロマン]
+[charaSet G 98105600 1 サンタアイランド仮面]
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[scene 27500]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 5]
+＠天草四郎
+……分かりました。[r]では、そのように。
+[k]
+
+[se ad59]
+
+[charaMove E 1024,0 0.4]
+[wait charaMove E]
+[charaFadeout E 0.1]
+[seStop ad59 0.3]
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠俵藤太
+こんな幼子に不覚を取るとは！[r]鈍っていたのは拙者の方であった！
+[k]
+
+[charaFace D 4]
+＠俵藤太
+これではどの顔で“遊びが正義”などと言えたものか……[r]やはり食べてばかりはいかんな、食べてばかりは……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+不覚……！
+[k]
+
+[charaFace C 0]
+＠風魔小太郎
+しかし、敗北は敗北。[r]謹んで和英辞典を受け取らせて頂きます。
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+[wt 1.0]
+
+
+
+[messageOff]
+
+[equipSet H 9400170 2]
+[wait equipSet H]
+[charaFace H 0]
+[charaDepth H 9]
+[charaFadein H 0.5 0,-70]
+
+[wt 2.0]
+
+[charaEffect H bit_talk_36 0,60]
+[se ad97]
+[wt 1.0]
+[charaFadeout H 0.4]
+
+[charaEffectStop H]
+
+[wt 0.2]
+
+[wt 1.0]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[charaMove B 0,20 0.2]
+[wait charaMove B]
+[charaMove B 0,0 0.1]
+[wait charaMove B]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい、これで宝具名も変えられますね！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+む？[r]宝具名は変える気はありませんが？
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_11 0.4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+え……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+……風魔の祖は異人、[r]即ち外から来た者の血を引いております。
+[k]
+
+＠風魔小太郎
+父も南蛮から流れ着いた紅毛碧眼の大男だったとか……。
+[k]
+
+[charaFace C 4]
+＠風魔小太郎
+祖である彼らからすれば、日々消え去る故郷の記憶は[r]耐え難いものであったでしょう。
+[k]
+
+[charaFace C 0]
+＠風魔小太郎
+それは、ここで生まれた子も同じ。[r]祖先の故郷にある言葉を、我らはもう話せませぬ。
+[k]
+
+＠風魔小太郎
+であれば、せめて幾つかの（格好良い）単語だけでも、[r]彼らの安らぎとして残しておこう……。
+[k]
+
+＠風魔小太郎
+その想いが、この宝具にはあるのです……。[r]ですから、変える訳にはいきません。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+そ、そんなことも知らないで私、和英辞典なんて……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+いえ、こちらはこちらでありがたく頂戴致します。[r]これもまた、何かの[#縁:えにし]。
+[k]
+
+＠風魔小太郎
+将来的には、宝具名に何か追加するかもしれません。[r]ありがたく受け取ります……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……はい。[r]それでは、トナカイさん。
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+次に行きましょう。
+[k]
+
+
+[se ad59]
+[charaFadeout B 0.7]
+[wt 0.4]
+[seStop ad59 0.3]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace C 0]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+
+＠俵藤太
+おっと。こちらが反省している間に行ってしまったか。
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠風魔小太郎
+あの子[line 3]
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠俵藤太
+うん？
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠風魔小太郎
+あの子は、プレゼントを贈ることに[r][#喜びを感じていない]のでしょうね。
+[k]
+
+[charaTalk D]
+[charaFace D 6]
+＠俵藤太
+そうであろうなぁ。[r]正しい事だが、悲しい事でもある。
+[k]
+
+＠俵藤太
+益の有る無しに拘るのは、[r]何を贈れば喜ぶのかが分からぬゆえ。
+[k]
+
+＠俵藤太
+しかし……それなら、[r]何故サンタなどになったのだろうな？
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠風魔小太郎
+……おや？
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠俵藤太
+どうした？
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠風魔小太郎
+いえ、先ほどから[r]少し気になっていたのですが[line 3]
+[k]
+
+＠風魔小太郎
+天草殿は、[#何処:いずこ]へ？
+[k]
+
+[charaFadeout D 0.7]
+[charaFadeout C 0.7]
+[wt 0.1]
+
+[fadeout black 2.0]
+[messageOff]
+[bgmStop BGM_EVENT_11 2.0]
+[wt 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_2 0.4]
+[scene 20322]
+
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……トナカイさん。
+[k]
+
+？1：どうしたの？
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい……。[r]私、間違ってますか？
+[k]
+
+？2：元気ないね
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+……風魔小太郎さんへのプレゼントは、[r]あの人にとって、有用なものではなかったのかも……。
+[k]
+
+？！
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+サンタ、難しいですね。[r]……最初はもうちょっと、簡単だと思ったのですが……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_2 0.4]
+
+＠？？？
+おや、まさかサンタを投げ出すのですか？
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……何者！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut F 1]
+[charaEffect F bit_talk_10]
+[wt 0.1]
+[se ad13]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+あれ？[r]サーヴァントの反応が、急に……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaPut F 1200,1200]
+[charaEffectStop F bit_talk_10]
+[wt 0.3]
+
+
+＠？？？
+ふふふ、誰かと問われて答える者は[r]おりますまい。
+[k]
+
+＠？？？
+しかし、敢えて答えましょう。
+[k]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.7 1]
+＠サンタアイランド仮面
+我が名はサンタアイランドに住む[r]謎のサーヴァント、サンタアイランド仮面！
+[k]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+サンタアイランド仮面……！[r]このラムレイ二号に勝手に乗り込むなんて……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut F 1]
+[charaEffect F bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+あの、すいません。[r]あなたはもしかしてあまく[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaPut F 1200,1200]
+[charaEffectStop F bit_talk_10]
+[wt 0.3]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠サンタアイランド仮面
+[messageShake 0.05 4 4 1.0]
+サンタアイランド仮面です！
+[k]
+
+[charaFace G 0]
+＠サンタアイランド仮面
+ちなみに赤いからといって、[r]エミヤとかシロウとかとは特に縁のない男ですゆえ。
+[k]
+
+？1：あ、そうなんだ
+
+＠サンタアイランド仮面
+ええ、関係ありません。[r]単に赤くて色黒なだけです。
+[k]
+
+？2：えぇ～、ほんとにござるかぁ？
+
+[charaFace G 1]
+＠サンタアイランド仮面
+ほんとでござるよぅ。[r]奇跡的な偶然の一致というやつです。
+[k]
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace G 0]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+何者かは分かりました。ですが、貴方は一体どうして[r]私に語りかけてくるのでしょう？
+[k]
+
+[charaTalk G]
+[charaFace G 0]
+＠サンタアイランド仮面
+コホン。[r]ジャンヌ……ジャンヌよ……。
+[k]
+
+＠サンタアイランド仮面
+プレゼントを拒まれた程度で、[r]臆してはなりません。
+[k]
+
+[charaFace G 1]
+＠サンタアイランド仮面
+いつだって立ち上がり、[r]いつだって笑顔を届けるのがサンタです。
+[k]
+
+[charaTalk B]
+[charaFace B 4]
+＠ジャンヌ・オルタ・サンタ・リリィ
+いつだって……笑顔を……。
+[k]
+
+[charaTalk G]
+[charaFace G 0]
+＠サンタアイランド仮面
+スタンド・アンド・プレゼント。[r]立って……そして贈るのです。
+[k]
+
+＠サンタアイランド仮面
+スクルージですら、間に合ったのです。[r]貴女が間に合わないはずないでしょう？
+[k]
+
+[charaFace G 1]
+＠サンタアイランド仮面
+貴女が困ったとき、途方に暮れたとき、[r]私は現れましょう。
+[k]
+
+[charaTalk B]
+[charaFace B 6]
+＠ジャンヌ・オルタ・サンタ・リリィ
+サンタアイランド仮面さん……！[r]つまり、貴方は私にとってのお師匠でしょうか！
+[k]
+
+[charaTalk G]
+[charaFace G 0]
+＠サンタアイランド仮面
+ええと……では、そういうことで……。
+[k]
+
+[charaTalk B]
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい！
+[k]
+
+[charaTalk G]
+[charaFace G 0]
+＠サンタアイランド仮面
+ふふ、それでは真のサンタクロースとなるため、[r]貴女を導きましょう。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+
+[soundStopAll]
+[end]

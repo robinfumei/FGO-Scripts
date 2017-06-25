@@ -1,0 +1,826 @@
+
+
+
+＄01-00-07-09-1-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+
+[charaSet B 98106200 1 マーリン]
+
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 3006001 1 弁慶]
+[charaSet E 4014001 1 牛若丸]
+[charaSet F 3009000 1 レオニダス]
+[charaSet G 98107500 1 ウルク兵士]
+[charaSet H 8001002 1 マシュ]
+
+
+[bgm BGM_EVENT_4 0.1]
+[scene 34500]
+[fadein black 1.5]
+[wait fade]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+
+
+＠レオニダス
+[line 3]時間です。[r]太陽は空の七分に到達しました。
+[k]
+
+＠レオニダス
+この時刻、大部分の魔獣たちは空腹を覚えます。[r]視界に獲物が入れば真っ先に襲いかかる。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠牛若丸
+私と弁慶が指揮する遊撃隊は、[r]魔獣たちにとって格好のエサという訳ですね。
+[k]
+
+＠牛若丸
+無論、エサになるつもりはありませんが。[r][#悉:ことごと]くを返り討ちにしてみせましょう。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠レオニダス
+よろしくお願いします。先行部隊が陽動だと気付く[r]個体が出ようと、群の総意は止められません。
+[k]
+
+＠レオニダス
+ニップル市周辺の魔獣たちは目算で二百頭あまり。[r]牛若丸殿、弁慶殿、そして北壁の精鋭二百人。
+[k]
+
+＠レオニダス
+……平野で戦うには、もう百人は欲しいところですが、[r]北壁の守りはこれ以上減らせません。
+[k]
+
+＠レオニダス
+ニップルの市民が北壁に到達するまで[line 3]
+[k]
+
+＠レオニダス
+いや、ニップル市周辺から離れるまで、[r]どうか魔獣たちを引きつけていただきたい。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+
+＠牛若丸
+お任せあれ。その程度、瞬く間に撃退して[r]ご覧にいれる……と言いたいところですが、
+[k]
+
+[charaFace E 5]
+＠牛若丸
+魔獣たちは人と違って損害を意に介しませぬ。[r]群の残りが半数をきろうとも撤退しない以上、
+[k]
+
+＠牛若丸
+戦闘は最後の一頭を殺すまで、長時間に及ぶでしょう。[r]……ギルガメッシュ王との約束もある。
+[k]
+
+[charaFace E 0]
+＠牛若丸
+ニップルで何があっても、我々は[r][%1]殿たちの助けには行けません。
+[k]
+
+[charaFace E 5]
+＠牛若丸
+ですので、どうかお気を付けて。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk C]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+
+＠Dr.ロマン
+ん？　牛若丸くん、王との約束というのは？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+
+＠牛若丸
+いえ、こちらの話です。[r]皆さんには関係のない話ゆえ、流してください。
+[k]
+
+[charaFace D 0]
+＠弁慶
+………………。
+[k]
+
+＠牛若丸
+では、我々は先行いたします。[r]太陽が頂点に達した頃には作戦は終わっているでしょう。
+[k]
+
+＠牛若丸
+昼食は是非、皆で。[r][line 3]行くぞ、弁慶！
+[k]
+
+＠弁慶
+はっ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、わたしたちも移動しましょう。[r]下で案内役の方が待っています。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.7 1]
+[wait wipe]
+[scene 32930]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[wipein leftToRight 0.7 1]
+[wait wipe]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠レオニダス
+では、昨夜の打ち合わせの繰り返しとなりますが、[r]作戦の確認を。
+[k]
+
+＠レオニダス
+ニップル市に残った市民は二百人あまり。
+[k]
+
+＠レオニダス
+ここまで避難できずにいた女性や老人、[r]負傷者たちが大部分を占めています。
+[k]
+
+＠レオニダス
+みな不安にかられ、安全を保証されなければ[r]ニップルから離れようとはしないでしょう。
+[k]
+
+＠レオニダス
+まずは案内役に元ニップルの市民を西門まで護衛し、[r]彼の説得で門を開けていただきます。
+[k]
+
+＠レオニダス
+その後、北壁の兵士たちが逃走経路を提示し、[r]市民たちを西回りで北壁まで誘導する。
+[k]
+
+＠レオニダス
+牛若丸殿たちがどれほど敵を引きつけようと、[r]魔獣たちの何頭かは市民たちをかぎつけます。
+[k]
+
+＠レオニダス
+皆さんにはその魔獣たちの排除をお願いしたい。[r]ここまではよろしいですね？
+[k]
+
+？1：もちろん……！
+？2：努力しますっ
+
+？！
+
+＠レオニダス
+………………。[r]申し訳ない、少々失礼をば。[charaFadeout F 0.4]よっと。
+[k]
+
+[se ad7]
+[wt 0.2]
+
+[charaSet F 3009002 1 レオニダス]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+
+＠レオニダス
+英霊であれ躊躇する、この魔獣戦線を前に[r]よい返答です、[%1]。
+[k]
+
+＠レオニダス
+ですが三度ほど深呼吸を。[r]恐怖は薄れませんが、筋肉は楽になりますので。
+[k]
+
+[charaFace F 0]
+＠レオニダス
+いいですか。ニップル市とは伝書で連絡を取り合って[r]いましたが、ここ数日、内部からの返信はありません。
+[k]
+
+＠レオニダス
+危険を感じたら……いえ、違いますね。[r]もう手遅れだと判明したのなら即座に撤退を。
+[k]
+
+＠レオニダス
+貴方にはこの先、[r]より大きな使命が与えられるのだと私は感じています。
+[k]
+
+＠レオニダス
+ですので、何よりもご自分の命を優先するように。[r]私からは以上です。
+[k]
+
+[wt 0.2]
+[messageOff]
+[charaFadeout F 0.2]
+[wt 0.2]
+[charaSet F 3009000 1 レオニダス]
+[wt 0.2]
+[se ad7]
+[charaFadein F 0.4 1]
+[wt 1.2]
+[charaFadeout F 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein F 0.1 0]
+[wt 0.2]
+[charaFadein B 0.4 2]
+
+＠マーリン
+おや。命が大事ならこの作戦そのものに[r]参加させるべきではないのでは？
+[k]
+
+＠レオニダス
+いえ、それはそれ、これはこれ。[r]経験なくして成長なし、超回復で筋肉増加！　です！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠レオニダス
+危ない目にはどんどんあってもらいましょう。[r]申し訳ありませんが、それがここまで生き残った者の運命。
+[k]
+
+＠レオニダス
+違いますか、カルデアのロマニ殿？
+[k]
+
+＠レオニダス
+始まりは非才なものだったとしても、マスターとして[r]時代を巡る事に、魔術の才能はそう重要ではありません。
+[k]
+
+＠レオニダス
+何故なら、どのような天才、どのような才人であれ、[r]この天変地異の前には等しく無力なのです。
+[k]
+
+＠レオニダス
+であれば、人理を守る為にもっとも必要なものは[r]困難から目を背けない性質だと、私などは思うのですが。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth A 1]
+[charaDepth H 0]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[charaFadein H 0.4 1]
+[wt 0.4]
+[charaChange A 8001002 13 fade 1.0]
+[wt 2.0]
+[charaFadeout A 0.4]
+[charaFadeout H 0.4]
+[charaTalk on]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 6]
+[wt 0.3]
+
+＠Dr.ロマン
+……ああ、その通りだともレオニダス王。
+[k]
+
+＠Dr.ロマン
+キミがこの時代に、[r]最大の守護者としてやってきてくれて、良かった。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠レオニダス
+ははは。最大の、とは照れくさいですね。[r]無論、その自負はありますがッ！
+[k]
+
+＠レオニダス
+では[%1]殿、お急ぎを。[r]マシュ殿も、最後まで気を緩めないように。
+[k]
+
+＠レオニダス
+盾の基本は十分に伝授しました。[r]後は貴方の心がけ次第です。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい！[r]ありがとうございます、レオニダスさん！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaSet H 98106000 1 エルキドゥ]
+[bgmStop BGM_EVENT_4 1.5]
+
+[wt 3.0]
+[scene 34600]
+
+[se ad16]
+[seVolume ad16 0 0.4]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_24 0.1]
+
+？1：もう戦闘が始まってる！？
+？2：[line 3]魔獣の数が想定より多い！？
+
+？！
+
+[seStop ad16 1.5]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.4 1]
+
+
+＠マーリン
+そのようだ！[r]しかし始まってしまったものは止められない！
+[k]
+
+＠マーリン
+こちらも全速力で行こう！[r]兵士諸君、案内を！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠ウルク兵士
+はっ！　市民たちの護衛は我らで十分ですが、[r]魔獣の相手は我らでは荷が重い！
+[k]
+
+＠ウルク兵士
+ギルガメッシュ王直属の精鋭[line 3][r]異邦の戦士である皆様に頼らせていただきます！
+[k]
+
+[messageOff]
+[se ad55]
+[fadeout black 0.7]
+[seStop ad55 1.2]
+[wait fade]
+[charaFadeout G 0.1]
+[wt 1.0]
+[fadein black 0.7]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+
+
+＠ウルク兵士
+ウシワカどの！　魔獣たちの数が増えていきます！[r]城壁の陰に隠れていたとしか[line 3][charaShake G 0.01 2 5 0.4]ギャアア！？
+[k]
+
+[messageOff]
+[se ad161]
+[charaEffect G bit_talk_35]
+[wt 0.4]
+[charaFadeout G 0.4]
+[wt 0.4]
+[charaSet G 98006000 1 ウガル]
+[wt 0.2]
+[se ad23]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wt 1.5]
+
+[charaEffect G bit_talk_ichimon01re]
+[se bac7]
+[wt 0.1]
+[flashin once 0.2 0.1 FF0000FF FF000000]
+[charaShake G 0.01 2 5 0.4]
+[wt 0.4]
+[se ad161]
+[charaSpecialEffect G enemyErasure 1 0.7]
+[wt 1.5]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+
+＠牛若丸
+そのようだな。個々の戦いはするな！[r]方陣を組み、守りを固めよ！
+[k]
+
+＠牛若丸
+やってくるのは全てウガルだ、[r]貴様らの手には負えん！　だが撤退は許さん！
+[k]
+
+＠牛若丸
+わずかでも生き延びて私の盾となれ！
+[k]
+
+＠牛若丸
+であれば、貴様らの命と引き替えにきゃつらの首、[r]一つ残らず斬り落としてくれる！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+
+＠弁慶
+牛若丸様、それはあまりにもご無体かと……！[r]ここは撤退して体勢を立て直すべきでは！？
+[k]
+
+[charaFace E 5]
+＠牛若丸
+たわけ、杉の森の様子を見よ！[r]第二陣が来る！
+[k]
+
+＠牛若丸
+兵士たちの足で壁まで逃げ切れるものか！[r]戦わずして奴らに食われるか、連れ去られるかだ！
+[k]
+
+＠牛若丸
+であれば、せめてここで死なせてやる……！[r]百人が殺されたのなら二百頭を殺すのみ！
+[k]
+
+[charaFace E 2]
+＠牛若丸
+それが我らの合戦であろうが！[r]腑抜けたか武蔵坊！　それでも私の[charaFace E 4]弁[line 3]
+[k]
+
+[charaFace D 4]
+＠弁慶
+[line 3]牛若丸様。[r]拙僧は……
+[k]
+
+[charaFace E 5]
+＠牛若丸
+すまぬ。失言だ。[r]詫びは後でする、今は手を動かせ！
+[k]
+
+＠牛若丸
+我らは完全に嵌められた！[r]この分ではニップル市はもぬけの殻であろう！
+[k]
+
+＠牛若丸
+一刻も早く獣どもを皆殺しにし、[r][%1]殿の元まで駆けつけねばならん！
+[k]
+
+[charaFace D 4]
+＠弁慶
+（ニップル市に駆けつける、と……！？[r]　なんという事か……私はどうすれば良いのだ……！？）
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_24 1.5]
+[wait fade]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[scene 32940]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[wt 1.0]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.4 1]
+
+
+＠エルキドゥ
+[line 3]ようこそニップルへ。[r]待っていたよ、忌々しい魔獣戦線のみなさん。
+[k]
+
+？1：この、有様は[line 3]
+
+[charaFace H 1]
+＠エルキドゥ
+ああ。廃都バビロンと同じだね。[r]旧人類はどうあれ、都市そのものに罪はない。
+[k]
+
+＠エルキドゥ
+ボクはできるだけ街は残したいと思っている。[r]これはそんなボクからの、せめてもの恩情だよ。
+[k]
+
+？2：エルキドゥ……！
+
+＠エルキドゥ
+……まったく、物わかりが悪い人間だ。[r]そろそろボクも真名を明かす時かな。
+[k]
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+……どういう事かな、自称エルキドゥ君。[r]ニップルにはまだ二百人もの市民がいた筈だ。
+[k]
+
+＠マーリン
+しかし、血の跡はあっても死体はない。[r]キミの槍の雨で殺したとは思えないのだが？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+
+＠エルキドゥ
+もちろん、昨夜のうちに処理しましたが、何か？[r]貴方たちが話していた通り、魔獣たちも生き物ですから。
+[k]
+
+＠エルキドゥ
+人間という栄養は貴重です。巣に持ち帰って、[r]子供たちにも食べさせなくてはいけないでしょう？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+っ……！[r]生きたまま……連れ去ったというんですか！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+しかもボクたちの話を聞いただって……！？[r]どこまで耳がいいんだ、あのエルキドゥは！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+
+＠エルキドゥ
+何を今さら。ああ、レオニダス殿は[r]そこまで説明していなかったのですね。
+[k]
+
+＠エルキドゥ
+この魔獣戦線において、[r]兵士の最大の死因は“未帰還”だと。
+[k]
+
+＠エルキドゥ
+これまで魔獣たちは人間たちを[r]極力殺さないよう加減していました。
+[k]
+
+＠エルキドゥ
+手足を折り、その首を掴み、森に連れ去っていく。[r]それが何を意味しているか、語るまでもないでしょう？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaSet G 98107500 1 ウルク兵士]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[charaShake G 0.01 1 1 0]
+
+＠ウルク兵士
+っ……や、やっぱり……そうだったのか……[r]オレたちもおかしいと思ったんだ……
+[k]
+
+＠ウルク兵士
+魔獣どもは北壁を越える事はあれ、[r]破壊しようとしなかった……あれは……単に……
+[k]
+
+[charaFadeout G 0.1]
+[charaShakeStop G]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠エルキドゥ
+そう。彼らにとって、北壁は人間という資源が[r]集まる場所としか認識していなかった。
+[k]
+
+＠エルキドゥ
+ボクらはまだ一度も“侵攻”なんて仕掛けていない。
+[k]
+
+＠エルキドゥ
+それはこの後、[r]第二世代の魔獣が生まれてからの話だからね。
+[k]
+
+＠エルキドゥ
+キミたちは彼らを創り出す為の素材、資源にすぎない。[r]でも光栄に思ってほしいな。
+[k]
+
+[charaFace H 7]
+＠エルキドゥ
+より強い生き物の糧になるんだ。キミたち時代遅れの[r]人間にしては、意義のある末路じゃないか？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠ウルク兵士
+っ……！　ふざけるな、貴様……！[r]作り物の人もどき、エルキドゥ風情がァ……！
+[k]
+
+[messageOff]
+[charaMove G -50,0 0.1]
+[wait charaMove]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+[se ad171]
+[charaMoveReturn H -200,0 0.4]
+[wt 0.1]
+[effect bit_talk_12_blue_L]
+[wait charaMove H]
+[wt 0.7]
+[charaFace H 7]
+[charaMoveReturn H 0,-50 0.2]
+[wait charaMove H]
+[charaPut H 2000,0]
+[se ad73]
+[charaFadeout H 0.1]
+[wt 0.1]
+[se ad195]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[se bac167]
+[charaPut A 0,50]
+[charaEffect A bit_talk_kushizashi01]
+[charaShake G 0.01 2 2 0.7]
+[wt 0.4]
+[charaPut A 0,-600]
+[charaEffect G bit_talk_35]
+[wt 0.3]
+[se ad161]
+[wt 0.4]
+
+＠ウルク兵士
+がっ……！
+[k]
+
+[messageOff]
+[charaShake G 0.01 2 2 0.4]
+[charaMove G 0,-100 0.7]
+[charaFadeout G 0.4]
+[wt 0.4]
+[se ad144]
+[seVolume ad144 0 0.7]
+[wt 1.0]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+
+＠エルキドゥ
+知っていたとも。[r]それがキミたち人間の本音だとね。
+[k]
+
+[charaFace H 0]
+＠エルキドゥ
+……さて。後は予想外の獲物である、[r]カルデアのマスターを始末するだけだけど……
+[k]
+
+＠エルキドゥ
+……ねぇ、ギルガメッシュは？[r]キミたちを派遣しただけなのか？
+[k]
+
+？1：王様に会いたいのか？
+？2：会いたければ自分で行け
+
+？！
+
+[charaFace H 6]
+＠エルキドゥ
+何を言っているんだか。[r]単に敵戦力の分析をしただけじゃないか。
+[k]
+
+[charaFace H 7]
+＠エルキドゥ
+まあいい、まだ母さんの目覚めまで時間はある。[r]戯れに遊ぶとしようか、[%1]。
+[k]
+
+＠エルキドゥ
+せっかく魔獣戦線に来たんだ。[r]コイツ相手にどこまで戦えるか、試してみるといい！
+[k]
+
+
+[bgmStop BGM_EVENT_5 0.3]
+[charaFadeout H 0.1]
+[wt 0.4]
+[charaSet G 98006000 1 ウガル]
+[bgm BGM_EVENT_3 0.1]
+
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wt 0.1]
+[se ad23]
+
+＠ウガル
+GAAAAAAAAAAAAAAAAAA！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠マーリン
+魔獣ウガル……！[r]ティアマトの子供たちの中でも最大級の怪物だ！
+[k]
+
+＠マーリン
+今までとはひと味違う、[r]出し惜しみなしでいくんだ、[%1]君！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

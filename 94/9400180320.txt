@@ -1,0 +1,190 @@
+
+＄94-00-18-03-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 5007001 1 シェイクスピア]
+[charaSet B 2001001 1 エミヤ]
+[charaSet C 3002001 1 ディルムッド]
+[charaSet D 1013001 1 カエサル]
+
+[scene 10720]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+[wt 0.7]
+＠カエサル
+私　だ　！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠エミヤ
+……最早天丼を通り越してマンネリ化しているの[r]ではないかな、赤セイバー……？
+[k]
+
+＠エミヤ
+例によってまた貴方の策謀とか、[r]このままでは都合の良いサーヴァントになりますが……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠カエサル
+仕方あるまい、もぐもぐ。
+[k]
+
+＠カエサル
+チョコはカロリーの宝庫、もぐ。[r]カロリーとくれば、即ち私だ、もぐ。
+[k]
+
+[charaFace D 0]
+＠カエサル
+いや、[#破壊女帝:アルテラ]が来る可能性もあったのだが、[r]彼女も「チョコは文明……いや……文明じゃない……？」
+[k]
+
+＠カエサル
+と悩みながら、[r]チョコを作っていたのでそっとしておいたのだ。
+[k]
+
+[charaFace D 1]
+＠カエサル
+こちらが長文でだまくら……弁明しようとすると問答無用で[r]ビームを放つからな、あの女は！
+[k]
+
+？1：やっぱり力が正義なんだ……
+
+[charaFace D 4]
+＠カエサル
+ノー・モア・バイオレンス！[r]カルデアではそれを標語として掲げるべきではないか。
+[k]
+
+？2：一番正しい対処法だ……
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+ペンは剣よりも強いですが、[r]剣はペンよりも迅い。
+[k]
+
+＠シェイクスピア
+それを見極めなければ、問答無用ですからな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+？！
+
+[charaFace D 1]
+＠カエサル
+まあ、今回は黒幕の手駒として動かされている感が[r]あるが、甘くて美味しいのでよしとしよう！
+[k]
+
+？1：黒幕！？
+？！
+
+[charaFace D 2]
+＠カエサル
+その通り、黒幕だ！
+[k]
+
+[charaFace D 0]
+＠カエサル
+そら。私のような偉人に頼らずとも、もう大体は[r]こいつのせいってことでいいんじゃないかな？
+[k]
+
+＠カエサル
+みたいなサーヴァントが最近になって現れただろう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+……あー、なるほど。あの方ですか。
+[k]
+
+＠シェイクスピア
+憂い顔で「良かれと思って……」と言っておけば[r]いいんじゃねえの、と思ってる感じの。
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+“[#微笑み、微笑み、微笑む大悪党:That one may smile, and smile, and be a villain.]”というあの方。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠カエサル
+さあ、分かったら彼を追いかけに向かうがいい！[r]私はもう少し、カカオを毒味しよう！
+[k]
+
+＠カエサル
+うむ、甘い。甘い毒だなこれは！
+[k]
+
+？1：チョコ禁止！
+？2：それ以上のカロリーはちょっと危険！
+？！
+
+[charaFace D 3]
+＠カエサル
+もぐもぐもぐもぐもぐ……。
+[k]
+
+＠カエサル
+分かっている、分かっているが[line 2]。[r]やめられないとまらないやめる気もない！
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 1]
+＠カエサル
+さあ、エミヤ！　ディルムッド！[r]行くぞ！　我ら三騎士の力を見せつけよう！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠エミヤ
+ちょっと待て。私も巻き込まれるのか……！？
+[k]
+
+[charaFace C 2]
+＠ディルムッド
+ですからチョコは危険なのです、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

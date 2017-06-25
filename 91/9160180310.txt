@@ -1,0 +1,196 @@
+
+＄91-60-18-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6018001 1 Ｘ]
+[charaSet D 1001001 1 アルトリア]
+[charaSet E 1009001 1 司会]
+[charaSet F 98003000 1 Dr.ロマン]
+
+[scene 20900]
+[fadein black 2]
+[wait fade]
+
+＠司会
+お待たせしました！　ついに迎えた決勝戦！！[r]セイバー・ＴＨＥ・セイバーを決める最後の戦いは
+[k]
+
+＠司会
+ここ、北欧の地ブリテン！[r]由緒正しき謎の古城で行いたいと思います！！
+[k]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+由緒正しいのに謎なんですね……
+[k]
+
+？1：というか会場移動したんだ。
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠Ｘ
+やはり決勝戦は由緒正しきセイバーの聖地[r]ブリテンでやるのは当然と言えるでしょう。
+[k]
+
+[charaFadeout C 0.1]
+
+？2：由緒正しいなら仕方ないね
+
+[charaFace A 12]
+＠マシュ
+ついに先輩もなんだか投げやりに……
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+＠司会
+それでは選手……入場ッッ！！[r]ついにここまでやってきた！！
+[k]
+
+＠司会
+所属詳細生年月日血液型一切不明の謎セイバー！[r]謎のヒロインＸこと～……
+[k]
+
+＠司会
+“謎のヒロインＸ”だああああああ！！！！
+[k]
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+[charaFace C 0]
+[se ad16]
+[wt 1.5]
+[seStop ad16 2.0]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+いやですから、紹介が被って……、もういいです。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+ついにマシュも投げやりになってますね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaFadeout B 0.1]
+
+＠司会
+そして、王者の証たる玉座に座するは[r]伝説のセイバーにして至高の青セイバー……
+[k]
+
+＠司会
+“絶対君主アルトリア”だああああッッ！！
+[k]
+
+[charaTalk D]
+[charaFadein D 0.4 1]
+[charaFace D 4]
+[se ad16]
+[wt 1.5]
+[seStop ad16 2.0]
+
+＠アルトリア
+あの、すみません……、よくわからないまま連れて[r]こられたのですが、これ、なんの催しです？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠Ｘ
+ついにこの日が来てしまいましたか……[r]私と彼女は表裏一体……、光と影……
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace C 2]
+＠Ｘ
+ですが、彼女を越えなければ[r]私は真のセイバーにはなれないのです！！
+[k]
+
+？1：いや、どっちも同じセイバーだし、あれ？
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+先輩……、深く考えるのはやめましょう……[r]私もさっきから頭がどうにかなりそうですが。
+[k]
+
+？2：行くぞ青セイ……じゃない、謎のヒロインＸ！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+先輩……、ま、まあこれで最後ということなら[r]なんとかがんばれそうな気もします……
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 0]
+[charaFadein D 0.1 2]
+[charaFace C 2]
+＠Ｘ
+我が名は最優、最強のセイバーにして[r]究極のセイバー……、謎のヒロインＸ！！
+[k]
+
+＠Ｘ
+なんだか並行世界とか因果律の関係で[r]時空崩壊とか怖いですが覚悟してもらいます！！
+[k]
+
+＠アルトリア
+くっ！？　なんでしょうこの己の暗黒面を[r]まざまざと見せつけられる感じ……
+[k]
+
+[charaFace D 2]
+＠アルトリア
+このセイバーは世に放ってはいけない……[r]理由は良くわかりませんが自分の為にも！！
+[k]
+
+＠Ｘ
+いざ、真のセイバーの座をかけて！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

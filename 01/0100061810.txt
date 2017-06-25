@@ -1,0 +1,64 @@
+＄01-00-06-18-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+
+[scene 28700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠静謐のハサン
+[line 3]あ。[r]見えました、[%1]様。
+[k]
+
+＠静謐のハサン
+あそこに見える寺院がアズライールの廟です。[r]ですが……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠呪腕のハサン
+むう。やはり初代様はお怒りか。[r]あのような門番まで用意されているとは……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+複数の魔力反応、これは死霊系だ！[r]しかも一体、でかいのがいる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+あれを倒さねば廟には入れまい。[r]行きますぞ、[%1]殿！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

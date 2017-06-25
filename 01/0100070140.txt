@@ -1,0 +1,126 @@
+
+
+
+＄01-00-07-01-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 3008001 1 エルキドゥ]
+
+[scene 32940]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠C：？？？
+見せ場を[#奪:うば]って申し訳ありません。[r]ですが破壊は最小限にとどめるべきです。
+[k]
+
+[charaFace C 1]
+＠C：？？？
+廃都とはいえ、ここはかつて人間が暮らした場所。[r]できるかぎり、カタチは残しておきたいでしょう？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+貴方は[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エルキドゥ
+お会いできて光栄です、カルデアのマスター。[r]僕の名はエルキドゥ。
+[k]
+
+＠エルキドゥ
+この神代にて、貴方たち人間の到来を待ち続けたもの。[r]地と、新しい人を繋ぎ止める役割を担ったものです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+エルキドゥ？　エルキドゥと名乗ったかい！？[r]だとしたら最高の助っ人だ！
+[k]
+
+＠Dr.ロマン
+あの王様に並ぶ、その時代最強の存在だからね！[r][%1]君、その人物は信用できる！
+[k]
+
+＠Dr.ロマン
+協力してこの窮地を抜け出すんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え……でもこの方は人……ではありません。[r]でもサーヴァントでも、なくて……
+[k]
+
+[charaFace A 12]
+＠マシュ
+どちらかというと機械のような、[r]それでいて魂のある人間のような……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠エルキドゥ
+ああ、そうなのですね。デミ・サーヴァントであるキミは[r]僕の本質を感じ取ってしまう。
+[k]
+
+＠エルキドゥ
+僕のように、“神に作られたもの”の異質さが[r]伝わってしまったのでしょう。
+[k]
+
+＠エルキドゥ
+……ごめんなさい、怖がらせてしまって。[r]もう少し時間をかけて出会うべきでした。
+[k]
+
+[charaFace C 5]
+＠エルキドゥ
+ですが、今は戦いの時。アナタたちをむざむざ、[r]魔獣の餌食にはさせられなかった。
+[k]
+
+＠エルキドゥ
+どうか無神経な行いを許してほしい。[r]共に肩を並べて戦う事を、許可してくれますか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……はい！[r]こちらこそ、失礼なコトを言ってしまいました！
+[k]
+
+＠マシュ
+マスター、指示を！[r]エルキドゥさんと一緒に、敵戦力を制圧します！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

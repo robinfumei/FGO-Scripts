@@ -1,0 +1,105 @@
+
+
+
+＄01-00-07-21-6-0
+
+[soundStopAll]
+[bgm BGM_EVENT_40 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106500 1 ギルガメッシュ]
+[charaSet C 98013200 1 ティアマト]
+
+[scene 35500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+？1：黄金の…………！
+？2：王様……！
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+無事だったのですね、ギルガメッシュ王！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ギルガメッシュ
+フッ。空気を読んだまでの事。[r]なにしろ、ここは冥界[#故:ゆえ]な。まだ[#些:いささ]かの余地がある。
+[k]
+
+[charaFace B 2]
+＠ギルガメッシュ
+そしてティアマト神よ。[r]死を知った事でようやく神の姿に立ち戻ったな。
+[k]
+
+＠ギルガメッシュ
+貴様に向ける憎しみはない。[r]ウルクの民も貴様への怒りはあれ、憎しみは持たぬ。
+[k]
+
+＠ギルガメッシュ
+ただ、分かり合えぬ[#摂理:せつり]があるだけだ。
+[k]
+
+[charaFace B 3]
+＠ギルガメッシュ
+貴様は産み、管理するもの。[r]我らは育ち、旅立つもの。
+[k]
+
+＠ギルガメッシュ
+子はどれほどの愛情を持たれようと、[r]母の手から離れなければならん。
+[k]
+
+[charaFace B 2]
+＠ギルガメッシュ
+それをここで示してやろう！[r]安心しろ、貴様の亡骸を[#辱:はずかし]めようなどと思わぬ。
+[k]
+
+＠ギルガメッシュ
+もはや我らに世界の土台は不要なり！[r]死の国にて、今度こそ眠るがよい！
+[k]
+
+[charaFadeout B 0.1]
+
+[messageOff]
+[effect bit_talk_voice01]
+[se ad205]
+[shake 0.05 0 6 0]
+＠ティアマト
+AaAAAAAAAAAA[line 3][r]LAAAAAAAAAAAAAAAAAAA[line 3]！
+[k]
+
+[shakeStop]
+[effectStop bit_talk_voice01]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ギルガメッシュ
+さて。時間がないのはこちらも同じ。[r]決着をつけるぞ、カルデアの[%1]！
+[k]
+
+＠ギルガメッシュ
+最後に[#我:オレ]と共に戦う栄誉、真に赦す！[r]神殺しの英雄譚、見事果たしてみせるがいい！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_40 0.4]
+[wait fade]
+[soundStopAll]
+[end]

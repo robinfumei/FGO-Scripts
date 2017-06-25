@@ -1,0 +1,176 @@
+
+＄01-00-05-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5016001 1 ジェロニモ]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 2010001 1 ビリー]
+[charaSet F 2003001 1 ロビンフッド]
+[charaSet G 98003000 1 Dr.ロマン]
+[charaSet H 98002000 1 フォウ]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+殲滅ですね。[r]衛生的にたいへんよろしい。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……あの、ナイチンゲールさん。
+[k]
+
+[charaFace A 4]
+＠マシュ
+包囲戦闘するつもりだったので、[r]単独で飛び出されると、ちょっと困るというか……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠ラーマ
+そして余を背負ったまま戦おうとするな……。[r]余は患者なのだろう……。
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+患者を治療することが私の最優先事項であり、[r]それ以下の事象に関しては全て管轄外です。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩先輩。[r]ナイチンゲールさん、話を聞いてくれません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+＠フォウ
+フォウ、フォフォーウ……
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ラーマ
+おい、[%1]。[r]何とかして欲しいのだが……。
+[k]
+
+？1：バーサーカーだし
+？2：ナイチンゲールだし
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……そうですね……信念が強すぎて妥協できない、[r]という狂化もあるのだと思い知りました……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+うむ。サーヴァントになったからこうなったのか、[r]生前からこうだったのか、考えると恐ろしいが……
+[k]
+
+[charaFace C 1]
+＠ジェロニモ
+幸い、その前に目的地に着きそうだ。
+[k]
+
+[charaFace C 0]
+＠ジェロニモ
+この先の街にアーチャーが二人いる。[r]先の斥候を考えると、襲撃を受けている確率が高い。
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+彼の言う通りだ、[%1][&君:ちゃん]。[r]敵性反応及びサーヴァント反応が複数確認された。
+[k]
+
+＠Dr.ロマン
+どうやら街を包囲しているらしい。[r]急いでくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+分かりました。[r]急ぎましょう、先輩！
+[k]
+
+？1：あれ、ナイチンゲールは？
+
+？！
+
+[charaFace A 6]
+＠マシュ
+え？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+……いないな。ついでに言うと、[r]背負われていたラーマも消えている。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+は、走ります！
+[k]
+
+[messageOff]
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]
+

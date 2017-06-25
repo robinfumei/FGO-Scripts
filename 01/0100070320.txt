@@ -1,0 +1,911 @@
+
+
+
+＄01-00-07-03-2-0
+
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+
+[charaSet B 98106200 1 マーリン]
+
+[charaSet C 5018001 1 ギルガメッシュ]
+
+[charaSet D 3027000 1 アナ]
+
+[charaSet E 98107600 1 祭祀長シドゥリ]
+
+[charaSet F 98107500 1 ウルク兵士]
+
+[charaSet G 98003000 1 Dr.ロマン]
+
+[charaSet H 2020001 1 イシュタル]
+
+
+
+[bgm BGM_EVENT_40 0.1]
+[scene 33100]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+戦闘、終了しました……！
+[k]
+
+＠マシュ
+突然の事だったので、[r]こちらもつい応戦してしまいましたが[line 3]
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.1]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+
+[wt 1.0]
+？1：王様、不機嫌そうだ……
+？2：お気に召さなかったみたいだね……
+
+？！
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠アナ
+……はい。戦闘も途中から、[r]あからさまに手を抜かれました……
+[k]
+
+＠アナ
+何様なのでしょう、と思います……
+[k]
+
+[charaFadeout D 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_40 0.4]
+[wt 0.4]
+[bgm BGM_EVENT_1 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+つまらん。天命を帯びた者とは[#如何程:いかほど]かと[r][#戯:たわむ]れてみたが、単なる雑種ではないか！
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]が手を貸す器でもなければ、[r][#我:オレ]に使われる価値もない！
+[k]
+
+＠ギルガメッシュ
+玉座を汚した罪を問う事すら[#煩:わずら]わしい！[r][#此度:こたび]は見逃す、出直して来るがいい！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠祭祀長シドゥリ
+王よ、どうかお鎮まりください……！[r]私には驚くべき力を持つ戦士に見えたのですが……
+[k]
+
+＠祭祀長シドゥリ
+あの者たちが、[r]王が話されていた異邦人なのですか？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+マーリンが連れてきたのだ、そうなのだろうよ。[r]しかし……早い。早すぎる。
+[k]
+
+[charaFace C 4]
+＠ギルガメッシュ
+あの[&小僧:小娘]の間抜け顔を見ろ。[r]あの分では、いまだ大地の声を聞いてはいまい。
+[k]
+
+＠ギルガメッシュ
+それでは話にならん。[r]マーリンめ……過保護が過ぎたようだな。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マーリン
+むーう。なんだか私のせいにされてしまったぞ。[r][%1]君、何かコメントはないかな？
+[k]
+
+＠マーリン
+このままだと本当に追い出されてしまうけど？
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[wt 0.4]
+
+？1：……よし（勇気を出して名前を告げる）
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+知らぬ。覚えるまでもない。[r]下がるがいい、下郎。
+[k]
+
+？2：……よし（マシュにお願いする）
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+たわけ、サーヴァントに任せてなんとする！[r]ここは[&男:女]の見せ所であろうが！
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[bgm BGM_EVENT_1 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk G]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+
+＠Dr.ロマン
+ま、まさかここまで話にならないなんて……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+どうなっているんだマーリン！　あの王様、[r]これっぽっちもカルデアに興味を持ってないぞ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マーリン
+うーん、そのようだねぇ。[r]おかしいな、私と彼の認識はほぼ同じだと思ったのに。
+[k]
+
+＠マーリン
+確かに、カルデアが何なのか、[r]サーヴァントとは何なのか、
+[k]
+
+＠マーリン
+人理焼却とは、魔術王とは、聖杯とは、特異点とは、[r]といった諸々の事は一切説明していないけど、
+[k]
+
+[charaFace B 0]
+＠マーリン
+それでもほら、なんとなく空気を読めば分かるものだろ？[r]王様なんだから。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、それでは何も伝えていないと同じ事です！
+[k]
+
+＠マシュ
+それに、ギルガメッシュ王は空気を読まないと[r]言ったのはマーリンさんでは！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マーリン
+あ。うん、そう言えばそうだ！[r]しまった、ちゃんと説明しておくべきだったな！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 1]
+
+＠Dr.ロマン
+よぅし！[r]さすがマーリン、話にならない！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+こうなったらキミたちだけが頼りだ、[r][%1][&君:ちゃん]！
+[k]
+
+＠Dr.ロマン
+もう一度ギルガメッシュ王に説明してみよう！[r]いくら彼でも、きちんと説明すれば理解してくれる筈だ！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_1 0.4]
+[wt 0.4]
+[bgm BGM_EVENT_40 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+
+＠ギルガメッシュ
+その必要はない。[r]聞こえているぞ、姿なき者。
+[k]
+
+＠ギルガメッシュ
+我はすべてを成し得るが故に、[r]我はすべてを知り得ると心得よ。
+[k]
+
+[charaFace C 0]
+＠ギルガメッシュ
+すなわち我が目に見通せぬものはない。[r]この通り、[#我:オレ]は己が天命を[#全:まっと]うする前ではあるが……
+[k]
+
+[charaFace C 1]
+＠ギルガメッシュ
+英霊を召喚し、使役する術式。[r]貴様らが行う“英霊召喚”の何たるかは心得ている。
+[k]
+
+[charaFace C 0]
+＠ギルガメッシュ
+[line 3]貴様らの霊基一覧とやらに、[r][#我:オレ]の名があるであろう事もな。
+[k]
+
+[charaFace C 1]
+＠ギルガメッシュ
+フッ。まあ、そこの三流マスターでは英霊である[r][#我:オレ]を呼ぶほどの力はあるまい。
+[k]
+
+＠ギルガメッシュ
+あくまで“呼ぶ可能性がある”というだけの[r]話であろうがな。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……！　あのギルガメッシュ王はこの時代の方です。[r]その上でマーリンさんに教えられる事なく、
+[k]
+
+＠マシュ
+カルデアの事も、自身が英霊として奉られる事も[r]承知しているのですね……
+[k]
+
+[charaFace A 7]
+＠マシュ
+ですが、それなら尚のこと、[r]こちらの話を聞いていただかないと……！
+[k]
+
+？1：そうだ、せめて聖杯の話だけでも！
+
+？！
+
+＠マシュ
+はい、その通りですマスター！[r]聞いてください、ギルガメッシュ王！
+[k]
+
+＠マシュ
+この時代のどこかにある聖杯を回収しなければ[r]特異点は消え去らず、人理が崩壊するのです。
+[k]
+
+＠マシュ
+ですので、一刻も早く聖杯を……[r]聖[charaFace A 6]杯、を……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[effect bit_talk_20]
+[se bas2]
+[wt 2.0]
+[effectStop bit_talk_20]
+[wt 1.0]
+
+＠ギルガメッシュ
+どうした？[r]聖杯とやらを探している、という話だったが？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 2]
+[wt 0.3]
+
+＠Dr.ロマン
+聖杯の反応だ！　もしかしてとは思ったけど、[r]聖杯はもうギルガメッシュ王が収集していたのか！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+当然だ。この世の財はすべて[#我:オレ]のもの。[r]望みを叶える願望機など、とうに手に入れている。
+[k]
+
+＠ギルガメッシュ
+おおかた『三女神同盟』とやらの目的もこの聖杯で[r]あろう。そうでなければウルクを攻める理由がない。
+[k]
+
+[charaFace C 5]
+＠ギルガメッシュ
+そして、だ。間違っても、[r]“その聖杯を譲渡してほしい”などとほざくなよ？
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]の宝を貴様たちにくれてやる道理はない。
+[k]
+
+＠ギルガメッシュ
+その上で欲しい、などと言ってみろ。[r]その首を差し出すだけでは済まぬと思え。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それは……確かに。[r]交渉するにしても、わたしたちには材料が……
+[k]
+
+？1：じゃあ、『三女神同盟』を倒すのと引き替えでは？
+
+？！
+
+[bgmStop BGM_EVENT_40 0.4]
+
+[charaFadeout A 0.1]
+[wt 1.0]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+[line 3]、フ。
+[k]
+
+[bgm BGM_EVENT_39 0.1]
+
+＠ギルガメッシュ
+ふはは、ははははは！[r]はははははははははははははははははははははは！
+[k]
+
+
+＠ギルガメッシュ
+倒す！　貴様たちがあの女神どもを倒すだと！？[r]シドゥリ、水差しを持て、これはまずい、命がまずい！
+[k]
+
+＠ギルガメッシュ
+あの阿呆どもは[#我:オレ]を笑い殺す気だ！[r]未来における最高峰の道化師を連れてくるとは！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[bgmStop BGM_EVENT_39 0.4]
+
+＠アナ
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[bgm BGM_EVENT_2 0.1]
+
+＠ギルガメッシュ
+[line 3]ふう。いや、今のは中々だった。[r]後で王宮誌につけておこう。王、腹筋大激痛、と。
+[k]
+
+[charaFace C 5]
+＠ギルガメッシュ
+だがな。[#我:オレ]はすべてを承知した上でこう言ったのだ。[r]“今の貴様らに用はない”と。
+[k]
+
+＠ギルガメッシュ
+貴様らはこの時代に現れた異物。[r]いや、余分な要素だ。不要とすら言えるほどのな。
+[k]
+
+[charaFace C 0]
+＠ギルガメッシュ
+ウルクは[#我:オレ]が護るべきもの。[r]貴様らカルデアの力を借りるまでもない。
+[k]
+
+＠ギルガメッシュ
+天が砕け地が裂けようとも、貴様らに[r][#我:オレ]が気を向けてやるのはこの[#拝謁:はいえつ]までよ。
+[k]
+
+＠ギルガメッシュ
+よいな。くれぐれも、その程度の手駒で[r]あの女神どもと戦う、などと思い上がらぬ事だ。
+[k]
+
+[messageOff]
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[se ad59]
+[wt 0.7]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[seStop ad59 0.4]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[bgm BGM_EVENT_3 0.1]
+
+＠ウルク兵士
+ご歓談中、失礼いたします、王！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+歓談などしておらぬわ！[r]どこに目を付けているか！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠ウルク兵士
+え？　あ、いえ、王の笑い声がジグラット中に[r]響いておりましたので、さぞ楽しいお話の最中かと……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠ギルガメッシュ
+たわけ、[#箸:はし]が転がるだけで面白い年頃もあろう！[r][line 3]いや、それはよい。ところで何事か！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠ウルク兵士
+は！　ティグリス河の観測所から伝令ッ！
+[k]
+
+＠ウルク兵士
+上空に[#天舟:てんせん]の移動跡を確認、[r]猛スピードでウルクに向かっているとの事！
+[k]
+
+＠ウルク兵士
+『三女神同盟』の一柱[line 3]女神イシュタルです！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 0.7]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 2]
+[wt 1.0]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+[wt 0.7]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+……はあ。[r]またあの愚か者か。懲りない阿呆なのか？
+[k]
+
+＠ギルガメッシュ
+それとも一日前の事すら記憶できない阿呆なのか？[r]いや、半日前の事すら忘れていそうな阿呆だったな！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠祭祀長シドゥリ
+……コホン。王よ、[r]どうかイシュタル女神への罵倒はお控えください。
+[k]
+
+＠祭祀長シドゥリ
+イシュタル様はこのウルクの都市神であらせられます。[r]王とて軽率に非難できる方ではありません。
+[k]
+
+＠祭祀長シドゥリ
+このような場でイシュタル様を酷評しますと、[r]巫女所も立場がないと言いましょうか……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+立場など初めからあるものか！[r]あの女がウルクを守った事が一度でもあったか！
+[k]
+
+＠ギルガメッシュ
+滅亡させなくともよいものを滅亡させ、[r]創造しなくてもよいものを創造させる！
+[k]
+
+＠ギルガメッシュ
+イナゴの群と砂嵐、そして子供のかんしゃく、[r]その全てが混ざったものがあの女だ！
+[k]
+
+＠ギルガメッシュ
+此度もうっかり自身の[#寝所:エアンナ]を滅ぼし、[r]最後には[#父神:アヌ]に泣きつくのが関の山よ！
+[k]
+
+[charaFace C 1]
+＠ギルガメッシュ
+フ。もっとも、そのアヌ神もとうに姿を消した。[r]父親にすら愛想を尽かされるとは、まさに自業自得。
+[k]
+
+＠ギルガメッシュ
+ただひとり取り残され、泣き疲れて無様に死ぬのが[r]あの女の結末に違いないわふははははは[line 6]！
+[k]
+
+[messageOff]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 0.1]
+[wipein upToDown 0.3 1]
+[wait wipe]
+[se ad74]
+[shake 0.05 10 10 0.7]
+[charaEffect H bit_talk_41]
+[charaTalk H]
+[charaFace H 2]
+[effect bit_talk_haboob_03]
+[charaFadein H 0.1 0,100]
+[charaMove H 0,0 0.2]
+[wait charaMove H]
+[charaMove H 0,50 0.2]
+[wait charaMove H]
+[charaShake H 0.2 0 3 0]
+
+＠イシュタル
+[f large][messageShake 0.05 5 5 0.7]なんですって[line 5][effectStop bit_talk_haboob_03]！
+[k]
+
+[messageOff]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[charaEffectStop H bit_talk_41]
+[wt 0.4]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wipein downToUp 0.3 1]
+[wait wipe]
+[wt 1.0]
+
+？1：玉座の間の天井が破壊された……！
+？2：王様、空から女の子が降ってきた！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠ウルク兵士
+あれはイシュタル様……！？[r]総員、退避、退避[line 3]！　酷い難癖をつけられるぞ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠祭祀長シドゥリ
+緊急事態です！　神官たち、特許祈願の準備を！[r]緊急につき都市神への鎮呪を許します！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+……本当に一直線で[#玉座:ここ]までやって来るとはな。[r]噂好きの町娘もかくや、と言ったところか。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（先輩、王様がシッシッ、って！[r]　心底イヤそうな顔で手を振って追い払っています！）
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 0,50]
+
+
+＠イシュタル
+オトナげないのはそっちの方よ！[r]黙って聞いていれば言いたい放題、もう頭にきたわ！
+[k]
+
+＠イシュタル
+一息で殺すとか生ぬるい、優雅に、少しずつ[r]苦しめてやる予定だったけど、それもここまで！
+[k]
+
+[charaFace H 2]
+＠イシュタル
+女神を笑い者にした不敬者、[r]積年の恨みを思い知りなさ[line 3]い！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[se ad39]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠ウルク兵士
+イシュタル様が天弓を構えられたぞ[line 2]！[r]王よ、どうかご武運を！　我々は退避します！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+なんだ、見ていかぬのか？　謙虚な者どもよ。[r]ついにあの性悪が自滅する神話的光景が見られるのだぞ？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠ウルク兵士
+いえ、それを理由に末代まで祟られては割が合いません故！[r]ではご無礼を！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[se ad59]
+[wt 1.0]
+[seStop ad59 0.5]
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 0,50]
+
+＠イシュタル
+ふん、笑えるわ、兵士にさえ見捨てられるなんて！[r]ざまあみなさい、日頃の行いが悪いのよ、日頃の行いが！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+そうか……貴様にそう言われると、[r]さすがの[#我:オレ]も考えてしまうな……。
+[k]
+
+＠ギルガメッシュ
+最悪の阿呆に最悪と言われたのだ。[r]少しばかり我が身を振り返ろうというもの。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 0,50]
+
+＠イシュタル
+首を百八十度回転させて振り返ってろ[line 3]！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[messageOff]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[se bac19]
+[effect bit_talk_37]
+[wt 0.1]
+[charaMoveReturn C 2 0.4]
+[wait charaMove C]
+[wt 0.1]
+[se bac19]
+[effect bit_talk_37]
+[wt 0.05]
+[charaMoveReturn C 0 0.4]
+[wait charaMove C]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+女神と王様とは思えない罵詈雑言の応酬です……[r]……あれ？　でも先輩、あの女性は[line 3]
+[k]
+
+？1：うん。あの時のおかしな女の子だ！
+？2：うん。あの時の胸が控えめな女の子だ！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 9]
+[charaFadein H 0.1 0,50]
+
+＠イシュタル
+誰よ、さらに[#巫山戯:ふざけ]たコトを叫んだのは！？[r]……って、そこの人間は……！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+ほう？　貴様、もしやあの女神と遭遇済みか？[r]ほうほう？　しかも中々のトラブルだったと見える。
+[k]
+
+＠ギルガメッシュ
+ふははははははははははははははははは！[r]それは愉快、イシュタルの武勇伝がまた一つ増えたな！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.2]
+
+？1：あの時はどうも
+？2：再審議の……時間だ……！
+
+？！
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 0,50]
+＠イシュタル
+あら。おともだち感覚で気軽に手を挙げて挨拶とか、[r]状況がまるで分かってないようね♡
+[k]
+
+[charaFace H 8]
+＠イシュタル
+おかげでこっちも後腐れなし、[r]最後の良心も吹っ飛んだわ。
+[k]
+
+＠イシュタル
+ヘンな噂をバラまかれても面倒だし？[r]その金ピカもろとも、ここで撃ち殺してあげる！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+はははははははははははははははははははははははははは[r]ぶはははははははははははははははははははははははは！
+[k]
+
+＠ギルガメッシュ
+よいぞ、興が乗った！[r]一時のみ、[#我:オレ]と共に戦う不敬を許す！
+[k]
+
+＠ギルガメッシュ
+いくぞカルデアの。女神退治だ！
+[k]
+
+＠ギルガメッシュ
+いまだ満足な職に就かぬ[#放蕩:ほうとう]女神に、[r]きつい灸を据えてやろうではないか！
+[k]
+
+
+
+
+[messageOff]
+[charaShakeStop H]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

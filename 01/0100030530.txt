@@ -1,0 +1,47 @@
+＄01-00-03-05-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21350 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 4008002 1 黒髭]
+[charaTalk F]
+[charaFace G 0]
+[charaFadein G 0 2]
+[charaFace F 5]
+[charaFadein F 0 0]
+[fadein black 1]
+[wait fade]
+＠エウリュアレ
+まだ来るわよ！
+[k]
+
+[charaFace G 5]
+＠アステリオス
+……ころ、す……！
+[k]
+
+[voice 700900_0_B010]
+[wait voice 700900_0_B010]
+[charaFace F 5]
+＠エウリュアレ
+アステリオス、その図体であまり前に出ないで！[r]怪我もしてるんだから！
+[k]
+
+[charaFace G 0]
+＠アステリオス
+……ぅぅ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

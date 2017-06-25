@@ -1,0 +1,138 @@
+＄94-00-09-04-1-1
+
+[bgm BGM_EVENT_2 0.1]
+[scene 21100]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 5001001 1 毛利メディナリ]
+[charaSet D 1027002 1 沖田総司]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaSet F 3001001 1 島津セタンタ]
+[charaSet G 2001001 1 長宗我部エミチカ]
+[charaSet H 9940030 1 ちびノブ]
+[fadein black 2]
+[wait fade]
+
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠毛利メディナリ
+ああっ……、昔の私が可憐すぎて辛い……。
+[k]
+
+[messageOff]
+[charaSpecialEffect C flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect C flashErasure]
+[wait time 0.3]
+
+[charaFadein F 0.1 1]
+[charaFace F 4]
+＠島津セタンタ
+すまねぇ師匠……、ところでそのスーツ……。
+[k]
+
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect F flashErasure]
+[wait time 0.3]
+
+[charaFadein G 0.1 1]
+[charaFace G 4]
+＠長宗我部エミチカ
+うむ、想像以上に斜め上だなこれは……。
+[k]
+
+[messageOff]
+[charaSpecialEffect G flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect G flashErasure]
+[wait time 0.3]
+
+[charaFadein D 0.1 1]
+[charaFace D 6]
+＠沖田総司
+はぁはぁはぁ……[r]や、やりましたよ、土方さん……（ガクッ）
+[k]
+
+[se ad39]
+
+[messageOff]
+[fadeout white 0.5]
+[wait fade]
+[charaSet D 1027000 1 沖田総司]
+[charaFadein D 0.1 1]
+[charaFace D 6]
+[scene 21100]
+[fadein white 0.5]
+[wait fade]
+
+[wt 0.5]
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+あの羽織を着た桜セイバーさん……[r]いえ、沖田さん……、鬼気迫る強さでしたね先輩。
+[k]
+
+
+？1：うん、さすが幕末の天才剣士
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+沖田さんが一番隊ということは新選組という所には[r]他にもこんな凄い剣士がいたのでしょうか？
+[k]
+
+？2：また倒れちゃったんだけど……
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+しっかりしてください、沖田さん！[r]最近手に入るようになった黄金の果実をどうぞ！
+[k]
+
+？！
+
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠魔人アーチャー
+ところで、わしの真名とか興味無い感じ？[r]極東ではすっごい有名なんだけどなー。
+[k]
+
+[charaFace E 3]
+＠魔人アーチャー
+つらいわー、大人気の英霊でつらいわー。[r]なんかいろいろなトコで引っ張りだこだわー。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+あ、そろそろお昼ごはんですね先輩[r]わたし、お弁当作ってきました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 6]
+＠魔人アーチャー
+興味ないっぽいネ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

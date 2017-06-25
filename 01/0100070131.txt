@@ -1,0 +1,125 @@
+
+
+
+＄01-00-07-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 3008001 1 ？？？]
+[charaSet C 98006000 1 魔獣]
+[charaSet D 98006000 1 魔獣]
+[charaSet E 98006000 1 魔獣]
+[charaSet F 98006000 1 魔獣]
+
+[scene 32940]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+[wt 0.3]
+[charaFadein D 0.4 0]
+[wt 0.3]
+[charaFadein E 0.4 2]
+[wt 0.3]
+[se ad19]
+[wt 0.2]
+[messageShake 0.05 4 4 0.7]
+＠C：魔獣
+fushaaaaaaaaaaaaaaaaaaaaa！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+くっ、敵の増援、止まりません！[r]対軍宝具でもないかぎり、この数は[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 1]
+＠？？？
+数がお望みですか？[r]良かった。それなら僕でも役に立てそうだ。
+[k]
+
+＠？？？
+デミ・サーヴァントのキミ。[r]そしてカルデアのマスター。
+[k]
+
+＠？？？
+少しだけ下がってくれるかな。[r]うん、それでいい。後は、こう、
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[wt 0.2]
+
+[se ad14]
+[shake 0.05 0 4 0]
+[wt 1.0]
+
+[seStop ad14 0.4]
+[se bac167]
+[shake 0.05 0 10 0.4]
+[charaPut F 0,50]
+[charaEffect F bit_talk_kushizashi01]
+[wt 0.2]
+[fowardEffect bit_talk_13]
+[flashin once 0.1 0.3 AB8B36AF AB8B3600]
+[charaMoveReturn C 0,5 0.1]
+[charaMoveReturn D -256,5 0.1]
+[charaMoveReturn E 256,5 0.1]
+[charaShake C 0.05 4 4 0.7]
+[charaShake D 0.05 4 4 0.7]
+[charaShake E 0.05 4 4 0.7]
+[charaPut A 512,-80]
+[wt 0.2]
+[charaPut F 0,-600]
+[wt 0.7]
+
+[se ad20]
+[wt 0.7]
+[charaSpecialEffect C enemyErasure 1 1.0]
+[charaSpecialEffect D enemyErasure 1 1.0]
+[charaSpecialEffect E enemyErasure 1 1.0]
+[wait charaSpecialEffect C]
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠？？？
+まとめて倒してしまえばいい。[r]百体程度であれば、街を破壊する必要もありません。
+[k]
+
+＠？？？
+カルデアのマスターであれば対軍宝具の備えも[r]あるでしょうが、そこは次の機会にしてください。
+[k]
+
+[charaFace B 1]
+＠？？？
+廃都とはいえ、ここはかつて人間が暮らした場所。[r]できるかぎり、カタチは残しておきたいでしょう？
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_3 1.4]
+[wait fade]
+[soundStopAll]
+[end]

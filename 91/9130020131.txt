@@ -1,0 +1,112 @@
+
+＄91-30-02-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 3011001 1 フィン]
+
+[scene 20803]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フィン
+[line 3]うむ。[r]うむ、うむ。これは知っている。
+[k]
+
+＠フィン
+知っているぞ、ディルムッド。[r]これは迷いなき二つ槍。麗しの槍の冴え。
+[k]
+
+＠フィン
+我らが誇りであった、[r]ディルムッド・オディナの武だ。
+[k]
+
+[charaFace E 1]
+＠フィン
+では、投げるべき言葉はもう一つだけだな。[r]…………恨みはないのか、我が騎士よ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+……あるのでしょう。[r]ですが、それは今ここで置いていきます。
+[k]
+
+[charaFace D 0]
+＠ディルムッド
+私はそれ以上の“何か”を王から得た。[r]かけがえのない何か[line 2]見失ってはならないものを。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠フィン
+合格だ。迷い道に入りやすいおまえにしては、[r]今回は早い正解ではないか。
+[k]
+
+[charaFace E 3]
+＠フィン
+……まあ、迷いやすい、という点においては[r]私もおまえの事は言えないのだがね。
+[k]
+
+[charaFace E 0]
+＠フィン
+……『[#破魔の紅薔薇:ゲイ・ジャルグ]』と『[#必滅の黄薔薇:ゲイ・ボウ]』は[r]正しくその力を解放した。
+[k]
+
+[charaFace E 1]
+＠フィン
+行くがいい、ディルムッド。その手に勝利を！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+感謝します、王。[r]感謝を……。
+[k]
+
+[wt 0.4]
+[bgmStop BGM_EVENT_5 0.1]
+[messageOff]
+[charaTalk E]
+[wt 0.2]
+[se ba5]
+[wait se ba5]
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk D]
+[charaFace D 0]
+＠ディルムッド
+主、我がマスターよ。[r]貴方のお陰で我が槍が再び手元に戻ってきました。
+[k]
+
+[charaFace D 1]
+＠ディルムッド
+もう迷いはありません。[r]この[#双槍:そうそう]で、あらゆる敵を打ち払いましょう。
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]

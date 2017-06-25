@@ -1,0 +1,151 @@
+
+＄01-00-05-19-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 1019001 1 ラーマ]
+[charaSet D 2015001 1 アルジュナ]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFace C 4]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+[scene 20721]
+[fadein black 2]
+[wait fade]
+
+＠ラーマ
+ど、どうだアルジュナ……！
+[k]
+
+＠ナイチンゲール
+気が済みましたか？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アルジュナ
+……ええ、とても。[r]わざわざ自己満足に付き合って戴き、感謝します。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+アルジュナさん。[r]その[line 2]良ければ、私たちに手を貸して戴けませんか？
+[k]
+
+[charaFace D 4]
+＠アルジュナ
+……残念ながら、そういう訳にはいきません。[r]そうしたいのは、山々なのですが。
+[k]
+
+[charaFace D 0]
+＠アルジュナ
+私のしたことへの償いは必ずします。[r]信じていただけますか？
+[k]
+
+？1：信じる
+？！
+
+[charaFace D 1]
+＠アルジュナ
+……あなたの言葉は、虚ろな心にもよく響きますね。[r]では、さようなら。
+[k]
+
+[messageOff]
+
+[charaFadeout D 0.4]
+[wt 0.8]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace B 6]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ラーマ
+……アルジュナ……あやつは一体……。
+[k]
+
+＠ナイチンゲール
+彼なりに気持ちの整理をつけたということです。
+[k]
+
+＠ナイチンゲール
+彼は他者が思うほど誠実ではなく、[r]己が思うほどに邪悪でもない。
+[k]
+
+[charaFace B 4]
+＠ナイチンゲール
+生前はさぞ息苦しい人生だったでしょう。
+[k]
+
+＠ナイチンゲール
+誰かに何かを決めつけられたまま[r]生きてきたのですから。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+……ああ、なるほど。[r]そうか、アルジュナはやり直したかったのだろうね。
+[k]
+
+＠Dr.ロマン
+あの日、あの瞬間、カルナに射ってしまった矢を。[r]彼は終生の後悔を抱いていたのか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+
+[charaFace B 6]
+＠ナイチンゲール
+彼の病も癒えました。[r]その代償は……あまりに大きかったのでしょうが。
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+ですが、それでも我々は前に進まなければならない。
+[k]
+
+[charaFace C 2]
+＠ラーマ
+ナイチンゲールの言う通りだ。[r]よし、前進だ！　ワシントンまで一気に駆け抜けるぞ！
+[k]
+
+[se ad16]
+[wt 1.0]
+[seStop ad16 1.5]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

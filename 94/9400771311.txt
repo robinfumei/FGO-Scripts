@@ -1,0 +1,48 @@
+
+
+
+＄94-00-77-13-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[se ad14]
+[seVolume ad14 0 0.5]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7022001 1 茨木童子]
+
+[scene 31900]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+
+＠マシュ
+……どうやら、あの三人はいないようですね。
+[k]
+
+？1：急ごう！
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+
+＠茨木童子
+う、うむ。騙されたと知ったあいつらがどう動くか、[r][#吾:われ]も分からんし知りたくもないしな！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[seStop ad14 1.0]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

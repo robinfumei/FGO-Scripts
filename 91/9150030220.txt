@@ -1,0 +1,341 @@
+＄91-50-03-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5003001 1 玉藻の前]
+[charaSet D 98002000 1 フォウ]
+[charaTalk D]
+[fadein black 2]
+[wait fade]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォウ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……おや、あれは玉藻さんですね。[r]こんなところで何をしているんでしょう？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+＠玉藻の前
+はあ……。
+[k]
+
+？1：どうしたの？
+
+？2：ため息なんかついて？
+
+？！
+
+[charaFace C 0]
+＠玉藻の前
+マスター……申し訳ありません。[r]恥ずかしいところをお見せいたしました。
+[k]
+
+[charaFace C 4]
+＠玉藻の前
+実は……いえ、マスターはもうお気づきなのでしょう？[r]私の体のことでございます。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠マシュ
+体の……！？[r]ど、どういうことですか！？　先輩！？
+[k]
+
+？1：お、落ち着け！？
+
+？2：深呼吸深呼吸……
+
+？！
+
+＠玉藻の前
+盾子ちゃんも気づいていらっしゃるかと。[r]私が最近、足手まといになっている事です。
+[k]
+
+[charaFace A 6]
+＠マシュ
+一体何をしたんですか、先輩！！[r]……って、足手まとい？　玉藻さんが？
+[k]
+
+＠玉藻の前
+左様でございます。……実は[#私:わたくし]、とある事情で[r]全力を出すことができないのです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+いや、全然そんな気はしませんが……。
+[k]
+
+＠玉藻の前
+いいえ、私の事です。[r]私が一番よくわかっていますとも……。
+[k]
+
+[charaFace C 0]
+＠玉藻の前
+私、実はその昔、モフモフ尻尾が九本ございまして、[r]それはもう、あらゆるところでしっちゃかめっちゃか
+[k]
+
+＠玉藻の前
+好き放題して暮らしておりました。[r]まあそのあたりは若気の至り[line 2]
+[k]
+
+＠玉藻の前
+という事で話を飛ばしますが、[r]そののち、海より深ーく反省いたしました。
+[k]
+
+[charaFace C 4]
+＠玉藻の前
+悪しき尻尾を八本ほど封印しまして……[r]今のか弱い、一尾の狐と相成ったのでございます。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+有名な九尾の狐の逸話だね。[r]そのあと一尾になったってのは初耳だけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace C 4]
+[charaFadein C 0 0]
+＠玉藻の前
+はい。そんな訳で、マスターのお役に立てるよう、[r]強くなりたいところなのですが……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+何か問題でもあるのですか？
+[k]
+
+[charaFace C 5]
+＠玉藻の前
+ええ、私が強くなる＝尻尾が増えていく、[r]という流れになるのですが、何と言いましょうか
+[k]
+
+＠玉藻の前
+尻尾が増えた私は、今の私とはもうそれは遠い存在と[r]なっておりまして……、
+[k]
+
+＠玉藻の前
+ええ、ぶっちゃけて言いますと、それこそ三千世界を[r]滅ぼす大妖怪と申しますかなんといいますか。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そ、そん……なに……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace A 6]
+[charaFadein A 0 2]
+[charaFace C 5]
+[charaFadein C 0 0]
+＠玉藻の前
+はい、こちら比喩でもなんでもなく、[r]まさに終末の大妖怪ともいうべき
+[k]
+
+＠玉藻の前
+一大化生に近づいていくのでございます。
+[k]
+
+？1：そうなんだ……
+
+？2：でもそれがなにか？
+
+？！
+
+[charaFace C 4]
+＠玉藻の前
+そんな私をマスターに見られたらと思いますと、[r]とても尻尾を増やす気にもなれませず……
+[k]
+
+＠玉藻の前
+だからといってマスターのお役に立てない私など[r]ただのしっぽモフモフ狐巫女ですし……
+[k]
+
+＠玉藻の前
+……この聖杯戦争の元凶はどうやら[r][#そのレベル]の災害のようですし……
+[k]
+
+＠玉藻の前
+どうしたものかと苦悩していたところでございます。
+[k]
+
+[charaFace A 4]
+＠マシュ
+過去の自分との葛藤ですか……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+っと、すまない、話の途中だけど、[r]またモンスターの反応だ……って、デカいぞ！？
+[k]
+
+＠Dr.ロマン
+さっきの悪魔エネミーよりさらにデカい！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+＠フォウ
+フォウ！！
+[k]
+
+[charaFace A 2]
+＠マシュ
+先輩、ここは私にまかせて玉藻さんを！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0 1]
+＠玉藻の前
+せめて一尾を取り戻せばあの程度の化生[r]ちょちょいのちょいですのに……、
+[k]
+
+＠玉藻の前
+ああっ、秘められすぎた[r]我が身の力が恨めしい……！！
+[k]
+
+？1：別に尻尾が増えても玉藻でしょ？
+
+？2：というか別に気にしないけど
+
+？！
+
+＠玉藻の前
+そうでしょう、そうでしょう……、[r]愛想が尽きたと[line 3]みこーん！？
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+ま、マスター！？[r]いま、今、何とおっしゃいましたか？
+[k]
+
+？1：気にしないよ別に
+
+？2：玉藻は玉藻だし
+
+？！
+
+[charaFace C 1]
+＠玉藻の前
+なんと！？　となるとマスターは[r]たとえ九尾を取戻し、自分でも、
+[k]
+
+＠玉藻の前
+「あー、これはないわー」って思ってる私でも[r]変わらず接して頂ける、と、おっしゃるんです！？
+[k]
+
+？1：うん
+
+？2：そうだね
+
+？！
+
+[charaFace C 3]
+＠玉藻の前
+何という事でしょう……！　流れ流れて来たこの世界、[r]袖すり合うも他生の縁と契約したマスターが、
+[k]
+
+＠玉藻の前
+まさかのイケメン魂の持ち主でしたとは……！[r]あ、いえ、私の運命の方には落ちるのですが。
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+よーし、気合い入ったーー！[r]タマモは更に本気度がアップ！です！
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+貴方様なら万が一の状況になろうとも、[r][#私:わたくし]の陰気を抑え、叱り、調伏してくださいましょう！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace C 2]
+[charaFadein C 0.1 0]
+＠マシュ
+……あ、あの、それで結局どうなって。
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+盾子ちゃん、ご心配をおかけしました！！[r]本日この場より、この玉藻の前―――
+[k]
+
+＠玉藻の前
+新生・玉藻の前！！　そう！！[r]ニュー・タマモッチとしてお仕え致します所存です！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠玉藻の前
+ささ、さささささ！！　マスター！！[r]可愛いキャス狐ちゃんの晴れの舞台をご覧あれ！！
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+[line 2]いざや、遠からん者は音に聞け、[r]近くばよって即・魅了！！
+[k]
+
+＠玉藻の前
+この身は黄帝陵墓の守護者にして、[r]崑侖よりの運気を導く陰の気脈！
+[k]
+
+＠玉藻の前
+金色の陽光弾く水面の鏡なり！[r]水天日光、いざ、参ります……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

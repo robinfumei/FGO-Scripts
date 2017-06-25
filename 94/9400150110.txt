@@ -1,0 +1,577 @@
+
+
+＄94-00-15-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1003001 1 ？？？]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6018000 1 ？？？]
+
+[scene 20300]
+[fadein black 2]
+[wait fade]
+
+[se ad32]
+＠B：？？？
+はあー！[r]とぅ！　てやーあ！
+[k]
+
+[charaTalk A]
+[charaFadein A 0.4 1]
+[charaFace A 1]
+
+＠マシュ
+いい天気ですね先輩。[r]あ、お茶のおかわりはいかがですか？
+[k]
+
+＠マシュ
+今日は特選のアップルティーが入っています。[r]どうぞ、気持ちが安らぎますよ。
+[k]
+
+＠マシュ
+お餅の食べ過ぎで寝込んでしまったドクターが、[r]せめて自分の代わりに楽しんできてほしい、と。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ……フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+フォウさんも今日はお休みのようですね。[r]こんなにいい天気で、こんなにいい風ですから当然です。
+[k]
+
+[se ad33]
+＠B：？？？
+はーあ！[r]巧く！　もう一度巧く！　最後は速く！
+[k]
+
+[charaFace A 1]
+＠マシュ
+ここは特異点なので確定した現実ではありませんが、[r]広がる自然と暖かさは本物です。
+[k]
+
+＠マシュ
+まさに絶好のピクニック日和、[r]ハロウィン以来の不思議な幸運です。
+[k]
+
+＠マシュ
+これというのも[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+[charaSet B 1003001 1 リリィ]
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+
+＠リリィ
+はぁ、やーっ！[r]宝具レベル１、カリバーン！
+[k]
+
+[wt 0.4]
+[se ad39]
+[fadeout white 0.15]
+[wait fade]
+[fadein white 0.25]
+[wait fade]
+[fadeout white 0.15]
+[wait fade]
+[fadein white 0.25]
+[wait fade]
+[seStop ad39 0.3]
+[fadeout white 0.3]
+[wait fade]
+[se ad34]
+[wt 0.4]
+[fadein white 0.5]
+[wait fade]
+
+
+？1：リリィの修行のおかげ、かな？
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+はい。リリィさんの“強くなりたい”という要請を、[r]先輩が快諾してくれたおかげです。
+[k]
+
+＠マシュ
+カルデア食堂の掲示板に[r]“悩みごとは[%1]に相談を！”と
+[k]
+
+[charaFace A 7]
+＠マシュ
+広告がうたれるのも時間の問題ではないかと。[r]その場合、マネージャーはわたしにお任せください。
+[k]
+
+＠マシュ
+先輩が英霊コミュの好感度マックスになるよう、[r]心を鬼にしてスケジュール管理させていただきます！
+[k]
+
+？2：真面目にやろう。今回はシリアスだ。
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ？[r]フォウフォフォ　フォウゥ～？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+もう。そんな、マルタさんがいる時の小次郎さんみたいな[r]反応をしてはいけません、フォウさん。
+[k]
+
+[charaFace A 12]
+＠マシュ
+リリィさんの悩みは深刻なものです。[r]わたしたちで何か、力になれればよいのですが……
+[k]
+
+？！
+
+
+
+[messageOff]
+[wt 0.1]
+[wipeout rollFlashRight 2.0 3]
+[wait wipe]
+[bgmStop BGM_EVENT_2 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+[bgm BGM_EVENT_6 0.1]
+[scene 10400]
+[charaSet A 98001000 1 マシュ]
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[wipein rollFlashRight 2.0 3]
+[wait wipe]
+[wt 0.1]
+
+＠マシュ
+驚きです。[r]リリィさんはひとりで修行しているのですか？
+[k]
+
+[charaFace B 4]
+＠リリィ
+はい。わたしは未熟なセイバーですので、[r]時間があれば剣の鍛錬をしていたのです。
+[k]
+
+＠リリィ
+ですが……どんなに鍛錬をつんでも[r]聖剣の威力は一向にあがりません。
+[k]
+
+＠リリィ
+わたし自身は少しずつ成長しているものの、[r]サーヴァントの華である宝具が未熟では……
+[k]
+
+＠リリィ
+ですので、これを機にお暇をいただこうかと。
+[k]
+
+＠リリィ
+将来性のないサーヴァントでは、[r]マスターに負担をかけますので……
+[k]
+
+[charaFace A 4]
+＠マシュ
+リリィさん……
+[k]
+
+？1：強い英霊、弱い英霊、そんなの人の～
+？2：たしかに宝具は強くなくっちゃね
+
+？！
+
+[charaFace A 7]
+[wt 0.1]
+＠マシュ
+[line 3]ストップ。[r]大切な話なので先輩は口にホッチキスを。
+[k]
+
+＠マシュ
+わたしも未熟なデミ・サーヴァントですから[r]リリィさんの気持ちは痛いほど分かります。
+[k]
+
+＠マシュ
+特に宝具レベルは深刻な問題です。今ここにわたしと[r]リリィさんは『宝具成長しない同盟』を結びました。
+[k]
+
+＠マシュ
+ですので、宝具についての話は細心の注意を払って[r]いただけるよう、お願いします。
+[k]
+
+？1：……了解です。
+？2：あの、その同盟は入っちゃダメな同盟では？
+
+？！
+
+[charaFace A 2]
+＠マシュ
+そして[line 3]こうなったら特訓あるのみです。[r]トレーニングはサーヴァントを裏切りません！
+[k]
+
+＠マシュ
+リリィさんは立派なセイバーです。[r]何かきっかけがあれば、必ず大成なさるかと！
+[k]
+
+＠マシュ
+ね。そうですよね、マスター！
+[k]
+
+？1：確かにＡランク入りすると思う
+
+[charaFace B 3]
+＠リリィ
+そ、そうでしょうか……[r]Ａランク入り、は大げさだと思うのですが……
+[k]
+
+[charaFace B 1]
+＠リリィ
+でも、お世辞でも嬉しいです。[r]マスターにそう言われると自信が湧いてきます！
+[k]
+
+？2：強い英霊、弱い英霊、そんなの～
+
+[charaFace A 1]
+＠マシュ
+フォウさん。ホッチキスを持ってきてください。[r]ドクターの机の上にありますから。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace B 3]
+＠リリィ
+い、いえ、いいのですマシュさん。[r][%1]さんの言葉は正しいかと！
+[k]
+
+[charaFace B 4]
+＠リリィ
+すべてはわたしの迷い、[r]わたしのいたらなさが悪いのですから……
+[k]
+
+？！
+
+[charaFace A 7]
+＠マシュ
+[line 3]では。会議の結果、[r]今回のレイシフトはリリィさんの特訓と決定しました。
+[k]
+
+[charaFace A 2]
+＠マシュ
+善は急げ。ドクターが腹痛から回復する前に、[r]勝手にレイシフトを実行します！
+[k]
+
+
+[wt 0.1]
+[messageOff]
+[wipeout rollFlashRight 2.0 3]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 1.0]
+[charaSet A 8001001 1 マシュ]
+[scene 20300]
+[wipein rollFlashRight 2.0 3]
+[wait wipe]
+
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+
+＠リリィ
+[line 3]ふう。[r]打ち込み千回終わりました、マスター！
+[k]
+
+[charaFace B 1]
+＠リリィ
+いつもと同じ鍛錬ですが、[%1]さんに[r]見てもらっていると身が引き締まって、楽しいです！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+おつかれさまです。[r]ここから見ていても抜群の切れ味でした。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……ですが、だからこそ疑問が湧きます。[r]リリィさんには何の問題もありません。
+[k]
+
+＠マシュ
+いったいどうして、[r]リリィさんの聖剣は威力向上しないのでしょう……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+＠リリィ
+それは……きっと、わたしの心の迷いが[r]聖剣の輝きを曇らせているのです。
+[k]
+
+＠リリィ
+わたしはある英霊の要素から[r]確立した幻想のようなもの。
+[k]
+
+＠リリィ
+わたしが選定の剣を抜いて、王になるまでの間にあった[r]“もしも”の姿が、わたしなのです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+＠マシュ
+“もしも”の姿、ですか？[r]それはオルタさんとは違う話なのでしょうか？
+[k]
+
+[charaFace B 5]
+＠リリィ
+はい。確かに“彼女”には修行時代が存在します。[r]でも、それはここまで華やかなものではなかった。
+[k]
+
+＠リリィ
+わたしはあくまで、[r]正史のわたしとはズレたイフなのです。
+[k]
+
+＠リリィ
+こうしてリリィとして確立している以上、[r][#瞞:まやかし]でも偽物でもないのですが[line 3]
+[k]
+
+[charaFace B 4]
+＠リリィ
+わたしは、わたしが本来いないものである事、[r]幻想の類いである事を、どうしても意識してしまう。
+[k]
+
+＠リリィ
+そんな迷いから修行にも身が入らず、[r]聖剣も力を発揮しない……
+[k]
+
+＠リリィ
+具体的にいうと宝具レベルが上がらない……[r]という事態に繋がっているのかと。
+[k]
+
+[charaFace A 12]
+＠マシュ
+リリィさん……
+[k]
+
+？1：具体的すぎる問題だね……
+？2：あれ？　いま、空に何か……？
+
+？！
+
+[soundStopAll]
+[se ad75]
+[wait se ad75]
+[charaFace A 6]
+＠マシュ
+え？
+[k]
+
+[charaFace B 3]
+＠リリィ
+おや？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+[scene 20303 2.0]
+[se bac37]
+[shake 0.05 4 4 1.5]
+[wait se bac37]
+
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.1]
+
+？1：な、なななななな―――
+
+？！
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+あわ、あわわわわわ……！
+[k]
+
+？1：なんじゃこりゃあーーーーー！？
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaFace B 0]
+＠リリィ
+あ、隕石のようですね。[r]おそらくソラから降ってきたのかと。
+[k]
+
+＠リリィ
+ご心配なく。放射線、殺人ウイルス、[r]その他もろもろ危険物質の反応はありません。
+[k]
+
+[charaFace B 1]
+＠リリィ
+もう、お二人とも大げさなんですから。[r]何の害もない、よくあるイベントではないですか。
+[k]
+
+[charaFace A 14]
+＠マシュ
+い、いえ、あれはその、隕石とかじゃなくて！[r]先輩、先輩からも鋭い指摘をお願いします！
+[k]
+
+？1：なにこれ、頻繁にあるのこういうコト！？
+
+？！
+
+[charaFace B 4]
+＠リリィ
+はあ、まあ。他のサーヴァントの皆さんはそうでも[r]ないらしいのですが、わたしひとりでいると、わりと。
+[k]
+
+？1：……なるほど。
+？2：リリィの世界観はふわふわなのだった。
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+＠？？？
+まったくだ！[r]中々にいいコト言うな、キミは！
+[k]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 15]
+＠マシュ
+ロケッ……いえ、落下した隕石から人影が……！[r]あれは[line 3]まさか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein D 0.4 1]
+[charaFace D 2]
+＠？？？
+説明は不要！　なぜなら、事情は不時着する時に[r]バッチリ見せてもらいました！
+[k]
+
+＠？？？
+ですがもう見ていられない！[r]それでもセイバークラスか、キミは！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 3]
+＠リリィ
+わ、わたしですか！？　……はい、未熟者ですが、[r]これでもセイバークラスの末席に身を置かせていただ……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠？？？
+ええい、見るに堪えないその弱腰！[r]惰弱、あまりにも惰弱！　可憐ですかそうですか！
+[k]
+
+＠？？？
+もはや戦うのみですね！[r]構えなさい、そこのセイバー！　あとそこのマスター！
+[k]
+
+＠？？？
+真のセイバーとは何なのか、このわたし[line 3][r]謎のヒロインＸが思い知らせてあげましょう！　とう！
+[k]
+
+[se ad51]
+[seStop ad51 1.0]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaFace A 2]
+＠マシュ
+謎のサーヴァントが戦闘をしかけてきました！[r]先輩、リリィさん、応戦を！
+[k]
+
+[charaFace B 3]
+＠リリィ
+は、はい、もちろんですとも……！[r]相手が何であれ、マスターを守るのが騎士の努めです！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

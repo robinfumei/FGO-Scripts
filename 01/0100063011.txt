@@ -1,0 +1,832 @@
+＄01-00-06-30-1-1
+
+[soundStopAll]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5012001 1 ニトクリス]
+[charaSet G 4012000 1 オジマンディアス]
+
+[scene 29803]
+
+[backEffect bit_talk_barrier]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0 1]
+
+[fadein black 0.5]
+[wait fade]
+
+[se bac95]
+[charaEffect E bit_talk_12_platinum_L]
+
+[charaShake E 0.05 3 3 0.5]
+[wt 0.5]
+[charaEffect E bit_talk_35]
+[se ad46]
+[wt 1.0]
+
+[charaShake E 0.05 3 3 0.5]
+[charaFace E 5]
+＠モードレッド
+ぐ、う……！[r]づ、ぐ[line 3]この、程度で[line 3]
+[k]
+
+[messageOff]
+[charaShake E 0.05 3 3 0.5]
+[se ad54]
+[wt 0.5]
+[bgm BGM_EVENT_5 0.1]
+
+＠モードレッド
+消える、ものか[line 3][r]オレを終わらせるのは、アーサー王、だけ[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+モードレッド卿、まだ立ち上がります……[r]でも、もう[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……もういい、モードレッド。[r]貴方の夢を汚して、済まなかった。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+なん……だと……！？
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……ですが、これはやはり夢だ。
+[k]
+
+＠ベディヴィエール
+貴方は叛逆の騎士。[r]アーサー王に心から仕える時は、永遠に訪れない。
+[k]
+
+[charaFace C 4]
+＠ベディヴィエール
+……そして、それは私も同じです。
+[k]
+
+[charaFace C 0]
+＠ベディヴィエール
+私が王の最期に立ち会えたのは、私が弱かったから。[r]……戦場において、王の助けにすらなれなかった。
+[k]
+
+＠ベディヴィエール
+そして貴方が王に最期を与えられなかったのは、[r]貴方の力が足りなかったからだ。
+[k]
+
+[charaFace C 4]
+＠ベディヴィエール
+我らは共に無用の騎士。[r]初めから王に会わせる顔などなかった。
+[k]
+
+[charaFace C 0]
+＠ベディヴィエール
+……それでも、貴方はこの無邪気な夢を見た。[r]王に憎まれたまま、王に仕えるという夢を。
+[k]
+
+＠ベディヴィエール
+その一点において貴方は私に勝っている。[r]私のような罪人より、よほど純真な生き方だ。
+[k]
+
+[charaFace C 5]
+＠ベディヴィエール
+それを罵倒した事を許されよ。[r]……貴方の贖罪は、我が剣が引き継ごう。
+[k]
+
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[se bac95]
+[charaEffect E bit_talk_12_yellow_R]
+[charaShake E 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaFace E 4]
+＠モードレッド
+チ……なんだよ、それ。
+[k]
+
+＠モードレッド
+……あーあ、くだらねぇ……[r]チキン野郎に、剣でも口でも負けちまった。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+こりゃあオレも、看板の下ろしどころか。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+叛逆の騎士が裏切り者に負けてちゃ、[r]さすがに立つ瀬がないってもんだ。
+[k]
+
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect E flashErasure 1 2.0]
+[wait charaSpecialEffect E]
+[wait se ad52]
+[charaFadeout E 0]
+[wt 1.0]
+
+
+[bgmStop BGM_EVENT_2 2.0]
+[maskout black 2.0]
+[wait mask]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+[wt 0.5]
+[bgm BGM_EVENT_5 0.1]
+[maskin black 2.0]
+[wait mask]
+
+＠マシュ
+……モードレッド卿の霊基消滅を確認しました。[r]敵円卓の騎士は、これであと三人です。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+彼……いや、モードレッドにも[r]獅子王に仕える理由があったんだな……
+[k]
+
+＠Dr.ロマン
+いや、今はしんみりしている余裕はない！[r]急いで周囲を探索してくれ！
+[k]
+
+＠Dr.ロマン
+一秒でも早くその壁を無くさないと、[r]何もかも終わってしまう！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+いや。これは王城にいる獅子王が作り上げているものだ。[r]外にはこれを止める装置なんかないよ。
+[k]
+
+＠ダ・ヴィンチ
+断言しよう。我々ではこの壁を破壊できない。[r]正真正銘、万策尽きたと言う訳だ。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+
+[backEffectStop bit_talk_barrier]
+
+[charaFadeout B 0.1]
+[wt 1.0]
+
+[scene 29320]
+
+[bgm BGM_EVENT_4 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+ファラオ。御身の予言が現実のものとなりました。[r]聖都にて、最果ての塔が現れたと。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+ははは、やはりな！[r]それなりに追い詰められたか獅子王！
+[k]
+
+＠オジマンディアス
+まあ、[%1]めが戦いに参加したのだ、[r]その程度の働きはするだろう！　せねばならぬ！
+[k]
+
+[charaFace G 2]
+＠オジマンディアス
+なにしろ、余を心底から笑わせた勇者なれば！[r]ふはははははは！
+[k]
+
+[messageOff]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+……と。[r]では、余も相応の褒美をくれてやらねばなるまい。
+[k]
+
+[charaFace G 2]
+＠オジマンディアス
+大神殿の目を開けよ！[r]デンデラ大電球、起動！
+[k]
+
+＠オジマンディアス
+対粛正防御にあてがっていた魔力は[r]大電球に回すがよい！
+[k]
+
+＠オジマンディアス
+これより我が大神殿の全貯蓄を用い、[r]聖都に[#超遠距離大神罰:ちょうえんきょりだいしんばつ]を与えるものとする！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+は……！[r]ピラミッド複合装甲、解除！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_4 0.1]
+[se ad68]
+[wait se ad68]
+[shake 0.05 0 4 0.5]
+[se ad74]
+[wt 0.5]
+[seStop ad74 0.5]
+
+＠ニトクリス
+大電球、魔力圧縮加速儀式、開始！[r]出力、アブホル級からメセケテット級まで安定させよ！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[shake 0.05 0 2 0]
+
+
+[messageOff]
+[charaFadeout F 0.1]
+[se ad145]
+[wt 4.0]
+[seStop ad145 1.0]
+[se ad62]
+[charaEffect D bit_talk_06]
+[charaPut D 0,-200]
+[wt 2.0]
+[seStop ad62 1.0]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+ふ、獅子王め、余を忘れたな？
+[k]
+
+[charaFace G 5]
+＠オジマンディアス
+確かに、超遠距離大神罰を行わずにいたのは[r]貴様の裁きの光を警戒してのこと。
+[k]
+
+＠オジマンディアス
+だが、今の貴様にそれはない。[r]最果ての塔を建てているうちは、裁きの光を放てまい。
+[k]
+
+[charaFace G 1]
+＠オジマンディアス
+そこを余が衝く！[r]その聖槍、余の神雷がへし折ってくれよう！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+いいえ、裁きの光であれば私が防ぎます！[r]ファラオはどうか、大電球の操縦に専念を！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+言われずともそのつもりよ。[r]おまえはそこで扇でも煽っておけ。
+[k]
+
+[charaFace G 9]
+＠オジマンディアス
+あらゆる裁きはファラオが下すもの！[r]神ならざる人の王ごときが……
+[k]
+
+＠オジマンディアス
+否、もはや貴様は女神にも等しいモノではあるが、[r]しかし！
+[k]
+
+＠オジマンディアス
+ファラオは余であり、余こそがファラオなれば！[r]神王を名乗る年季の違いを知るがいい！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaEffectStop D bit_talk_06]
+[charaPut D 1200,1200]
+
+[charaFadeout G 0.1]
+[scene 30020]
+
+[fadein black 1.0]
+[wait fade]
+
+＠オジマンディアス
+大電球アモン・ラー、開眼！[r]見るがいい[line 3][#アメンの愛よ:メェリィアメン]！！
+[k]
+
+[messageOff]
+[se ad146]
+[maskout white 0.5]
+[wait mask]
+
+
+[scene 30010 0.2]
+
+[maskin white 0.5]
+[wait mask]
+
+[wt 2.4]
+[scene 30011 0.2]
+[wt 1.0]
+[fadeout white 0.4]
+[wait fade]
+[shakeStop]
+
+[scene 30012 0.1]
+
+[fadein white 0.2]
+[wait fade]
+
+[wt 1.5]
+[scene 30013 0.1]
+
+[wt 1.0]
+[scene 30014 0.1]
+[shake 0.05 0 4 1.5]
+[se ad62]
+
+[wt 1.5]
+[scene 30015 0.1]
+
+[wt 1.0]
+[seStop ad62 1.0]
+
+[maskout white 2.0]
+[wait mask]
+
+[scene 29320]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0 1]
+
+[maskin white 0.5]
+[wait mask]
+
+＠ニトクリス
+大神罰、着弾！[r]ですが[line 3]届いていません！
+[k]
+
+＠ニトクリス
+聖都の外壁に魔力障壁！[r]塔に王の雷撃が届きません！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+よい、手応えで分かる！[r]小癪な、策を講じていたのは貴様もか、獅子王！
+[k]
+
+＠オジマンディアス
+では二撃、いや十撃くれてやる！[r]余の霊基の半分を魔力変換し、大神殿を加速させる！
+[k]
+
+＠オジマンディアス
+聖都の障壁など紙も同然！[r]ふはは、憐れなり最果ての塔！
+[k]
+
+
+[messageOff]
+[fadeout black 0.2]
+[wait fade]
+[charaFadeout G 0]
+[se ad147]
+[scene 30014]
+[fadein black 0.2]
+[wait fade]
+
+[shake 0.05 0 4 1.2]
+[wt 1.5]
+[seStop ad147 0.5]
+[shake 0.05 0 4 1.2]
+[se ad147]
+[wt 1.5]
+[seStop ad147 0.5]
+
+[messageOff]
+[fadeout black 0.2]
+[wait fade]
+
+[scene 29320]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0 1]
+
+[fadein black 0.2]
+[wait fade]
+
+＠ニトクリス
+聖都の魔術障壁、消滅しました！[r]王よ、あと一撃で決着[line 3]
+[k]
+
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+[charaFadeTime G 0 0.65]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+[charaFadeTime G 0 0.65]
+
+＠オジマンディアス
+振り返るな、ニトクリス！[r]余を気遣う事は許さぬ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+ご無礼を、ファラオ[line 3]
+[k]
+
+[charaFace F 9]
+＠ニトクリス
+っ、聖都に動きがあり！[r]最果ての塔がこちらを[line 3]裁きの光です！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+[charaFadeTime G 0 0.65]
+
+＠オジマンディアス
+……！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+お暇をいただきます！[r]失礼！
+[k]
+
+
+
+[messageOff]
+[se ba1]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+[charaFadeout F 0]
+[scene 30016]
+
+[shake 0.05 0 4 0]
+[se ad14]
+
+[wipein upToDown 0.3 1]
+[wait wipe]
+
+[voice NP_100900_3]
+
+＠ニトクリス
+っっっっ、き、づ…………！！！！！！
+[k]
+
+[wait voice NP_100900_3]
+[se ad148]
+[wt 0.8]
+[seStop ad148]
+
+[seStop ad14 2.0]
+[messageOff]
+[se ba1]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[shakeStop]
+
+[scene 29320]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0 1]
+[charaFadeTime G 0 0.65]
+
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+＠オジマンディアス
+[line 3]ニトクリス。冥界の鏡で、[r]上空から落ちたる裁きの光を防いでいるな。
+[k]
+
+＠オジマンディアス
+……。余にはまだ力が残っている。[r]ファラオ・ニトクリスよ。余の助けは必要か？
+[k]
+
+＠ニトクリス
+っぁ、あ……………！！！！！！[r]ああぁあああああ！！！！！！
+[k]
+
+[se ad148]
+[wt 1.6]
+
+[charaFace G 7]
+＠オジマンディアス
+……いや、問うまでもなかったな。[r]燃え尽きても助けは呼ばぬ。おまえはそういう女だ。
+[k]
+
+[wt 1.0]
+
+[charaFace G 1]
+＠オジマンディアス
+いいだろう。
+[k]
+
+＠オジマンディアス
+獅子王よ、宝具の打ち合いは貴様の勝ちだ。[r]だが、勝負そのものは痛み分けにしてやろう！
+[k]
+
+＠オジマンディアス
+この首を狙ったその一撃が貴様の隙よ！[r]余の宝具は未だ健在なり！
+[k]
+
+＠オジマンディアス
+大神罰など生ぬるい！[r]貴様には余の墓をくれてやる！
+[k]
+
+[charaFace G 2]
+＠オジマンディアス
+いかな聖槍とて、[r]この巨大質量の前には古舟の如し！
+[k]
+
+＠オジマンディアス
+太陽の碑石、[#巨:おお]いなる巨石、[r][#宇宙:ソラ]を司るピラミッドよ！
+[k]
+
+＠オジマンディアス
+我が無限の光輝、太陽は此処に降臨せり！[r]落ちよ[line 3][#光輝の大複合神殿:ラムセウム・テンティリス]！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout G 0.1]
+
+[scene 30017]
+
+[se ad14]
+[shake 0.05 0 4 0]
+
+[fadein black 0.5]
+[wait fade]
+
+[wt 1.5]
+
+[seStop ad14]
+[shakeStop]
+[scene 30018 0.3]
+[voice NP_201300_3]
+[wt 1.0]
+[maskout white 0.5]
+[wait mask]
+[wipein upToDown 0.1 1]
+
+[scene 30019]
+
+[wt 2.0]
+[shake 0.05 0 4 0]
+[maskin white 0.5]
+
+
+
+＠ニトクリス
+おお……あれこそはファラオの威光……[r][#光輝の大複合神殿:ラムセウム・テンティリス]……
+[k]
+
+＠ニトクリス
+見事、最果ての塔をうち倒したのですね、王よ。[r]であれば、私も……！
+[k]
+
+[charaFace F 2]
+＠ニトクリス
+この魂、冥府の神に捧げても王の居城はお守りします！[r]我が鏡、光なるもののすべてを払う暗黒なれば！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaScale G 1.5]
+[charaScale F 1.5]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[charaFadeTime G 0 0.3]
+＠オジマンディアス
+[line 3]要らぬ。
+[k]
+
+[shakeStop]
+[bgmStop BGM_EVENT_3 0.2]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+[charaFadeTime F 0 0.3]
+
+＠ニトクリス
+[line 3]ファラオ？
+[k]
+
+[se ad148]
+[wt 0.8]
+[seStop ad148]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_6 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[charaFadeTime G 0 0.3]
+
+＠オジマンディアス
+十分な働きだ。これ以上は要らぬ。
+[k]
+
+[charaFace G 3]
+＠オジマンディアス
+そして、おまえが冥府に連れ去られるのも面倒だ。[r]余は、あの暗い国はあまり好かぬからな。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+[charaFadeTime F 0 0.3]
+
+＠ニトクリス
+ですが……私の鏡はこの為に……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+[charaFadeTime G 0 0.3]
+
+＠オジマンディアス
+馬鹿め。もうひび割れているではないか。
+[k]
+
+＠オジマンディアス
+……余はここで休む。[r]おまえも休むがよい、ファラオ・ニトクリス。
+[k]
+
+＠オジマンディアス
+あまり無理をするな。[r]暗黒を統べるには、そなたは少々優しすぎよう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+[charaFadeTime F 0 0.3]
+
+＠ニトクリス
+……いえ。そのような事は。[r]私は、未熟なファラオなれば[line 3]
+[k]
+
+[se ad148]
+[wt 0.8]
+
+[messageOff]
+[bgmStop BGM_EVENT_6 4.0]
+[scene 10001 3.0]
+
+
+[messageOff]
+[fadeout white 4.0]
+[wait fade]
+
+[se ad149]
+[wait se ad149]
+[soundStopAll]
+[end]

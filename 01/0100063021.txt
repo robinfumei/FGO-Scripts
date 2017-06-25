@@ -1,0 +1,371 @@
+＄01-00-06-30-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 6002000 1 呪腕のハサン]
+[charaSet E 6003000 1 百貌のハサン]
+[charaSet F 6009001 1 静謐のハサン]
+[charaSet G 2008000 1 トリスタン]
+
+[scene 29802]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠トリスタン
+……なんと悲しい。[r]これほどの技量を持ちながら届かないとは。
+[k]
+
+＠トリスタン
+確かに、貴方がたは成長した。[r]一息で私が殺しきれない程に。
+[k]
+
+[charaFace G 5]
+＠トリスタン
+ですが、それはそちらも同じ。[r]貴方がたでは守りに徹した私を殺しきれない。
+[k]
+
+[charaFace G 0]
+＠トリスタン
+まさに膠着状態です。[r]嗚呼……だからこそ、私は悲しい……
+[k]
+
+[charaFace G 1]
+＠トリスタン
+今回、時間は私の味方です。[r]私はここで貴方がたと戯れていればいい。
+[k]
+
+[charaFace G 5]
+＠トリスタン
+それだけで獅子王の理想は達成される。[r]ああ……なんと退屈で、耐えがたい時間なのでしょう……
+[k]
+
+[charaFace G 4]
+＠トリスタン
+これほど無体な結末が用意されているとは……[r]まさに、悲劇と言う他ありません……
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+っ、トリスタン卿の言う通りです……！[r]彼は私たちを倒す気がありません……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+のらりくらりと攻撃を流されている。[r]これじゃあ互いに決定打は生まれない。
+[k]
+
+＠ダ・ヴィンチ
+……初めて見た時、直感したものさ。[r]あのアーチャーこそ今回、最悪の部類だと。
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチ
+その予感は当たっていたようだ。[r]今の我々にとって、もっとも質の悪い行動をとる！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+[se ad51]
+＠ベディヴィエール
+時間がありません。[r]こうなっては、もう[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+[messageOff]
+[charaFadeout C 0.1]
+
+＠D：？？？
+否！[r]貴様の悲劇なぞ我らにとっては喜劇のそれよ！
+[k]
+
+[messageOff]
+[se bac23]
+[wt 0.7]
+
+[se ad82]
+[charaShake G 0.05 3 3 0.5]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[wait se ad82]
+
+＠トリスタン
+[line 3]貴方がたは。
+[k]
+
+[charaFadeout G 0.1]
+
+[bgm BGM_EVENT_4 0.1]
+
+
+[messageOff]
+[se ad60]
+[charaTalk off]
+[charaFace F 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein F 0.4 380,0]
+[charaFadein E 0.4 -380,0]
+[charaFadein D 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+？1：ハサン！
+？2：来てくれたのか……！
+
+？！
+
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠呪腕のハサン
+お待たせしましたな、[%1]殿。[r]ここまでの激戦、積もる話もありましょうが[line 3]
+[k]
+
+＠呪腕のハサン
+今は一刻を争う時。[r]どうぞ先に進まれよ。
+[k]
+
+[charaFace D 5]
+＠呪腕のハサン
+この男は我らの獲物。[r]山の翁の誇りにかけ、何があろうと命を断つ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠トリスタン
+………………。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+？1：……ありがとう
+？2：……死なないで！
+
+？！
+
+[charaFace D 1]
+＠呪腕のハサン
+ははは。それはこちらの台詞ですなあ。
+[k]
+
+[charaFace D 5]
+＠呪腕のハサン
+では、これにておさらば。[r]この一戦をもって、これまでの大恩に酬いまする。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠百貌のハサン
+なんだその顔は、さっさと行け。[r]我らは山の翁だぞ？　勝ち目のない戦いはしない。
+[k]
+
+＠百貌のハサン
+トリスタンの素性は調査済みだ。[r]あっさり仕留めて獅子王の首を獲りに行く。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠静謐のハサン
+はい。我らの牙は必ずや悪逆のトリスタンに届きます。[r]ですので、皆さんも気をつけて。
+[k]
+
+
+？1：……分かった！
+？2：無理は禁物だぞ！
+
+？！
+
+
+
+
+[charaTalk off]
+[se ad7]
+[charaFace F 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein F 0.4 380,0]
+[charaFadein E 0.4 -380,0]
+[charaFadein D 0.4 1]
+＠ハサン
+……はっ。
+[k]
+
+[bgmStop BGM_EVENT_4 2.0]
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk on]
+[wt 0.5]
+
+[scene 29802]
+
+[bgm BGM_EVENT_3 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[se ad59]
+[wt 1.0]
+[seStop ad59 1.0]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+ハサン殿……！
+[k]
+
+＠ベディヴィエール
+これまでの度重なる心遣い、感謝いたします……！[r]どうか、ご武運を……！
+[k]
+
+[messageOff]
+[charaFadeout C 0.4]
+[se ad59]
+[wt 1.0]
+[seStop ad59 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠呪腕のハサン
+……それもこちらの台詞ですなあ。[r]我らなぞより、貴方が背負った責務の方がよほど大事だ。
+[k]
+
+＠呪腕のハサン
+ご武運を、ベディヴィエール卿。
+[k]
+
+＠呪腕のハサン
+かつて我らの英雄を騎士と呼び、[r]敵でありながら讃えた王がいましたが……
+[k]
+
+＠呪腕のハサン
+貴方はその人物によく似ている。[r]騎士道というのも捨てたものではないようだ。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[se ad152]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.4 1]
+[wt 0.5]
+
+＠トリスタン
+…………私は今、とても悲しい。
+[k]
+
+＠トリスタン
+円卓の騎士も落ちたものです。
+[k]
+
+＠トリスタン
+友との語らいを奪われたばかりか、[r]ここにきて[#虫]どもの始末とは。
+[k]
+
+[charaFace G 4]
+＠トリスタン
+この無粋の代償は高くつくでしょう。[r]貴方がたに払いきれるか、とてもとても心配です。
+[k]
+
+[charaFace G 1]
+＠トリスタン
+手足を切断し、[#内臓:はら]を腑分け、首を残す[line 3][r]どうかその途中で、絶命なさらぬようお願いします。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠百貌のハサン
+さて、それはどうかな？[r]命乞いを聞かぬのはこちらも同じだ、優男。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠トリスタン
+……。いま、なんと……？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠百貌のハサン
+[#貴様の弱点は知っている]、と言ったのさ。
+[k]
+
+[charaFace E 5]
+＠百貌のハサン
+我らを小兵と[#蔑:さげす]んだ傲慢が[r]貴様の敗因だと、この百貌が教えてやろう……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

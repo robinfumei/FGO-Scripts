@@ -1,0 +1,55 @@
+
+＄94-00-18-55-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[charaSet A 1005001 1 ネロ]
+
+[scene 20900]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 1]
+
+＠ネロ
+うむ、バレンタインであるな！
+[k]
+
+＠ネロ
+どこの祭りだかよくは知らぬが、[r]みなが楽しそうなのは何よりだ！
+[k]
+
+＠ネロ
+チョコレートに想いを込めて、[r]日頃の感謝、信頼、愛情を伝えるのであろう？
+[k]
+
+＠ネロ
+であれば余の得意分野でもある。
+[k]
+
+[charaFace A 3]
+＠ネロ
+……本当なら余がもらいたいところだが、それはそれ。[r]今日ぐらいは皇帝ではなく乙女として振る舞おう。
+[k]
+
+[charaFace A 1]
+＠ネロ
+我が契約者、麗しのマスターよ。
+[k]
+
+＠ネロ
+余の気持ちの一割も表現しきれぬものだが、[r]これを授ける！　謹んで受け取るがよい！
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

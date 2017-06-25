@@ -1,0 +1,156 @@
+＄94-00-45-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+
+[scene 10204]
+[fadein black 1.0]
+[wait fade]
+
+
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+
+
+＠マシュ
+ドクター、先輩をお連れしました。[r]それで、お話とは？
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+うん。いきなりで悪いけど、また事件だ。[r]特殊な特異点の発生を観測した。
+[k]
+
+？1：知ってた。場所は？
+？！
+
+＠Dr.ロマン
+それなんだけど[line 2][r]……日本だ。
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+
+＠マシュ
+また……ですか？
+[k]
+
+[charaTalk B]
+[charaFace B 4]
+
+＠Dr.ロマン
+そう。さらには時代も、この前京に跳んだときと[r]それほどズレてはいない。
+[k]
+
+＠Dr.ロマン
+本来なら、この時代の日本は[r]人理定礎には関係ないんだけど[line 2]
+[k]
+
+＠Dr.ロマン
+今観測しているものは、このまま放っておけばそうとも[r]言い切れなくなるほどの異質さを持っている。
+[k]
+
+[charaFace B 5]
+
+＠Dr.ロマン
+今まで様々な特例があったけど、[r]今回はその中でもトップランクだ。
+[k]
+
+＠Dr.ロマン
+レイシフト先にはどんな法則が待ち受けているか、[r]こちらでは予想もできない。
+[k]
+
+＠Dr.ロマン
+できるのは状況に応じた対応処置ぐらいだ。[r]それでも行ってくれるかな、[%1][&君:ちゃん]。
+[k]
+
+？1：もちろん
+？2：おまかせあれ！
+
+？！
+
+[charaFace B 0]
+
+＠Dr.ロマン
+いい返事だ。実に心強い。[r]もう新人マスター、なんて言ってられないな。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaFadein C 0.1 1]
+
+
+＠フォウ
+フォーウ……フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+
+＠マシュ
+今回はフォウさんもついてきてくださるんですね。[r]百人力です！
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+
+＠Dr.ロマン
+はは。[r]マシュ命名、カルデアのラッキーアニマルか。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]が来るまではマシュしか[r]知らなかったフォウも、今じゃ定番になったね。
+[k]
+
+[charaFace B 5]
+
+＠Dr.ロマン
+じゃ、今回も二人をよろしく、フォウ。[r]こっちも全力でサポートするよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[wt 0.3]
+
+
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_2 0.7]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+[wt 2.0]
+
+[scene 10001]
+[fadeout black 1.0]
+[wait fade]
+[soundStopAll]
+[end]

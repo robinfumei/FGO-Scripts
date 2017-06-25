@@ -1,0 +1,100 @@
+＄01-00-03-14-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21250 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98019000 1 イアソン]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaSet F 3016000 1 ヘクトール]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 2006000 1 ダビデ]
+[charaFace D 2]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠イアソン
+ヘクトール！
+[k]
+
+[charaFadeout D 0]
+[charaTalk F]
+[charaFadein D 0.1 2]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+＠ヘクトール
+へいへい、わかってますよ。[r]そんじゃ、ま、メディア。
+[k]
+
+[charaFace F 0]
+＠ヘクトール
+いざってときは、よろしく頼むわ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠メディア・リリィ
+ええ。マスターのお守りは私の役目ですもの。[r]最期までちゃんと、面倒をみてあげなくちゃ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0]
+[wt 0.5]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ヘクトール
+おーこわ……ナチュラルに狂ってるってのは[r]こういうコトか……ん？
+[k]
+
+[charaFadeout F 0]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ヘクトール
+や、未来の[&坊や:お嬢ちゃん]。[r]名前は[%1]だったっけ？
+[k]
+
+＠ヘクトール
+よくここまでやってきた。いやあ、ほんと凄いよ。[r]フランス、ローマときてこんどは[#此処]だ。
+[k]
+
+＠ヘクトール
+遠路はるばるご苦労さま。[r]オジサン、そういう根気は評価するなあ。
+[k]
+
+？1：こいつ……！
+
+？2：カルデアを知っているの……!?
+
+？！
+
+[charaFace F 0]
+＠ヘクトール
+なあに、ちょっとばかり読みが当たっただけさ。[r]所詮は仕えるマスターも選べなかった、戦争屋の人殺しさ。
+[k]
+
+[charaFace F 1]
+＠ヘクトール
+んじゃあまあ根気比べだ。[r]オジサンも防衛戦にはちょっとばかり自信があってね。
+[k]
+
+[charaFace F 5]
+＠ヘクトール
+なんで[line 3]総戦力でかかってきな、ガキ。[r]年期の違いを教えてやるよ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……トロイア戦争の英雄ヘクトール。[r]油断はできません。ここで仕留めます、マスター……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

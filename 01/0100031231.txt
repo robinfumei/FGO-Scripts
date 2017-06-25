@@ -1,0 +1,275 @@
+＄01-00-03-12-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ヘラクレスだけではなく、メディアやヘクトールも[r]恐ろしい力を持っています。
+[k]
+
+[charaFace A 12]
+＠マシュ
+三人で一斉に襲い掛かられれば、[r]こちらが耐え凌ぐことは不可能でしょう。
+[k]
+
+＠マシュ
+せめて、ヘラクレスただ一騎に引き離せれば[line 2]。
+[k]
+
+？1：……。
+
+？！
+
+[charaSet B 98003003 1 Dr.ロマン]
+＠Dr.ロマン
+……ここは一つ、『[#契約の箱:アーク]』を担いで[r]逃げて逃げてチャンスをうかがうというのは……。
+[k]
+
+[charaFace A 2]
+＠マシュ
+ドクターは賞味期限切れのゴマ饅頭でも[r]食べていて下さい。
+[k]
+
+？1：…………。
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠オリオン
+籠城戦とかどうよ。[r]この近くにそういうのある？
+[k]
+
+＠アタランテ
+無い。この島にあるのは[r]異教の狭い[#地下墓地:カタコンベ]くらいだ。
+[k]
+
+[charaFace E 4]
+＠アタランテ
+もっとも、砦があったとしても、ヘラクレスの攻撃に[r]耐え切れるものではあるまい。
+[k]
+
+＠オリオン
+そりゃそーだろーなー。
+[k]
+
+？1：………………。
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ？[r]フォウ、フォウ、フォウ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさん、どうしました？[r]え、マスターが……？
+[k]
+
+[charaFace A 0]
+＠マシュ
+マスター？
+[k]
+
+？1：思いついた
+
+？！
+
+[charaFace A 6]
+＠マシュ
+……はい？
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout C 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[scene 20803 0]
+[charaFace D 1]
+[charaFadein D 0.4 2]
+[charaFace F 0]
+[charaFadein F 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ドレイク
+ああ、いいね、いいね、いいじゃないか！[r]さっすがアタシが見込んだ[&男:女]だ！
+[k]
+
+[charaFace F 1]
+＠ダビデ
+うん、妥当な作戦じゃないか。サーヴァントだけじゃなく、[r][%1]も命を賭けることになるけど。
+[k]
+
+＠ダビデ
+まあ、人生はそういうものだし。[r]命を賭けるのならたいていは勝ち目が出てくる。
+[k]
+
+[charaFadeout D 0.1]
+[charaSet B 2012001 1 エウリュアレ]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠エウリュアレ
+壮大なギャンブルだけどね。[r]失敗すればご破算。後戻りなし、一回こっきり。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠アルテミス
+んー、となると問題は相手の行動パターンかしら。
+[k]
+
+[charaFace H 4]
+＠アルテミス
+ヘラクレスったら、エウリュアレちゃんを[r]まっすぐ狙ってくれるかしら？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠オリオン
+……ヘラクレスは恐らく数多の英霊の中で[r]トップクラスの存在だ。
+[k]
+
+＠オリオン
+いくらバーサーカーとはいえ、知性が完全に[r]欠けているとは思えないんだよな。
+[k]
+
+[charaFace G 5]
+＠オリオン
+実際、アステリオスと戦っていたときは[r]エウリュアレを完全に狙っていたし。
+[k]
+
+[charaFace G 0]
+＠オリオン
+……だからこそ、アステリオスがどうにか[r]拮抗できていたんだが。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ドレイク
+バーサーカーは釣りやすいだろ。[r]いまいち読めないのはイアソンだね。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+バーサーカーごと敵を串刺しにしたヤツだ。[r]どんな臆病風吹かすことか。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠アタランテ
+いや、イアソンなら大丈夫だ。[r]私が保証する。あの男は間違いなく、こう動く。
+[k]
+
+＠アタランテ
+……あの男はたしかに臆病だが、それ以上に[r]ヘラクレスへの絶対的信頼があるからな。
+[k]
+
+[charaFace E 1]
+＠アタランテ
+私はこの[%1]の案に乗ったぞ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+＠ダビデ
+僕も乗った。何、賭け金は全員平等だ。[r]誰かひとりでも生き延びて総取りしてくれればいい。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠オリオン
+……なーんか破滅的だなこの兄さん。[r]というか無責任なのか？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠アルテミス
+ダーリンは？
+[k]
+
+[charaFace G 0]
+＠オリオン
+お前、ぬいぐるみの俺に何か期待してるの？
+[k]
+
+＠オリオン
+だいたい、一番辛いのはマシュちゃんだろ。[r]前線で体張るんだし。
+[k]
+
+＠オリオン
+この作戦でいくかどうかは[r]マシュちゃんが決める事じゃない？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 0]
+＠マシュ
+……平気です。マスターの立てた作戦を、[r]必ず成功させてみせます。
+[k]
+
+[charaFace A 13]
+＠マシュ
+もちろん、ドクターの協力あってこそですが。
+[k]
+
+[charaFace A 14]
+＠マシュ
+ドクター？[r]先ほどから沈黙を守っていますが、聞いていますか？
+[k]
+
+[charaSet B 98003003 1 Dr.ロマン]
+＠Dr.ロマン
+もちろん話は聞いていたよ。[r]危険な作戦だが、今は時間もない。ボクも賛成だ。
+[k]
+
+＠Dr.ロマン
+ダビデ王がいつ敵に捕らわれるかもわからないしね。[r]最大限、バックアップするよ。
+[k]
+
+？1：やろう
+
+？2：勝とう
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

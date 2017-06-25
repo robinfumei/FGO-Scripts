@@ -1,0 +1,924 @@
+
+＄94-00-45-14-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 4014001 1 牛若丸]
+[charaSet D 6019000 1 風魔小太郎]
+[charaSet E 4023001 1 坂田金時]
+[charaSet F 98076000 1 弁慶]
+[charaSet H 98074000 1 丑御前]
+
+[scene 28000]
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+
+
+[se ad131]
+
+
+＠Dr.ロマン
+ついに辿り着いたぞ！[r]ここが鬼ヶ島の頂上だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+頂上だけあって見晴らしはいいのですが…………[r]何か、ひどく不吉な気配に満ちています。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠弁慶
+天候も悪くなってきましたな。[r]禍々しき黒雲です。南無……。
+[k]
+
+
+[charaTalk E]
+
+＠坂田金時
+鬼ヶ島らしくなってきたじゃねえか。[r]いよいよ総大将とやらとご対面かぁ？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+
+＠牛若丸
+まさしく。主殿の鬼退治もここが最高潮。[r]いよいよ大詰めといったところでしょう。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠風魔小太郎
+……！　皆さん、見てください。[r]あれを……！
+[k]
+
+[charaTalk A]
+
+＠マシュ
+広場の中心に、何か……。
+[k]
+
+[seStop ad131 0.1]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.6 1.0]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.3]
+
+[wipein rectangleStripLeftToRight 0.6 1.0]
+[wt 0.7]
+
+[charaPut B 0,1000]
+[charaEffect B bit_talk_20c]
+[wt 0.4]
+[charaPut B 0,0]
+
+[se bac35]
+
+[wt 3.5]
+
+[charaEffectStop B bit_talk_20c]
+[wt 0.8]
+
+
+[charaFadeout B 0.1]
+
+
+[charaTalk F]
+
+
+＠弁慶
+……なんと禍々しい杯か。[r]ん？　そして、あの前にいるのは[line 2]。
+[k]
+
+
+[messageOff]
+
+
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+[wait wipe]
+
+[wt 1.0]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.6 1.0]
+[wait wipe]
+
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[wipein rectangleStripRightToLeft 0.6 1.0]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+頼光殿ですね。酒呑童子を追っていたはずですが。[r]勝負はついたのでしょうか……？
+[k]
+
+＠牛若丸
+頼光殿、いったい……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+……待ちな。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+金時さん？
+[k]
+
+[charaTalk E]
+
+＠坂田金時
+不用意に近付くんじゃねえ。[r]アレは[#違ぇぞ]。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad60]
+
+[seStop ad60 2.0]
+
+[wt 1.2]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+
+＠源頼光
+……ふふ。金時。やっと来ましたか。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+[line 2]ち。そうかよ。[r]酒呑のヤロウが出張ってきたのはそういう事か。
+[k]
+
+＠坂田金時
+考えてみりゃあ、セツナ主義のヤロウが[r]鬼の縄張り争い程度で出てくる筈がなかった。
+[k]
+
+＠坂田金時
+ヤロウが無視できねえ相手なんざ、[r]鬼の中でも特上の鬼だけだ。
+[k]
+
+＠坂田金時
+アンタは[line 2]なんでだ？[r]なんで、[#戻ってやがる]？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠源頼光
+ふふ、ふふふ、うふふふふふふふ！[r]わかりますか、やはり、それは愛ですね！
+[k]
+
+[messageOff]
+
+
+
+[se ad61]
+
+
+
+
+
+[effect bit_talk_lightning_01t]
+
+
+[charaFace H 6]
+
+
+
+[wt 2.2]
+
+[seStop ad61 0.1]
+[effectStop bit_talk_lightning_01t]
+
+
+[charaTalk B]
+
+＠Dr.ロマン
+なっ……！？
+[k]
+
+[charaTalk A]
+
+＠マシュ
+こ、この邪悪な気配はっ……？
+[k]
+
+[charaTalk C]
+
+＠牛若丸
+頼光、殿……いったい……？
+[k]
+
+[seStop ad61 0.1]
+[effectStop bit_talk_lightning_01t]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+……あれは頼光の大将じゃねえ。[r]頼光様には違いねえが、在り方がネジ曲がってやがる。
+[k]
+
+＠坂田金時
+そうだろ、天魔の大将。[r]鈴[charaFace E 5]ヶ森の[#丑御前:うしごぜん]サンよォ。
+[k]
+
+[charaTalk H]
+
+＠丑御前
+ふふ。どちらも同じことですよ。[r]知っているでしょう？
+[k]
+
+[charaTalk E]
+[charaFace E 7]
+
+＠坂田金時
+違えな。アンタは負けて、封じられた。[r]アンタ自身の手で、な。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+丑御前……！？　き、聞いたことはあるけど。[r]確か、源頼光の兄弟で[line 2]
+[k]
+
+＠Dr.ロマン
+牛頭天王の申し子として生まれた[#鬼子]。[r]最終的には、頼光が退治したっていう説話が[line 2]
+[k]
+
+[charaTalk E]
+
+＠坂田金時
+ああ、そういう話だな。[r]頼光様の兄貴にあたるお方だぜ、丑御前は。
+[k]
+
+＠坂田金時
+だが御前ってのは女の敬称だ。[r]その時点でまあ、察してくれや。
+[k]
+
+＠坂田金時
+……頼光様は自分の出自を語らなかったからな。[r]オレも、そのあたりは察するしかなかった。
+[k]
+
+＠坂田金時
+事実だけを言ゃあ、天神様の子供として生まれた[r]子供が、その力から鬼子とされて寺に預けられた。
+[k]
+
+＠坂田金時
+それだけで終わっていれば良かったんだがよ。[r]その子供の親父はまあ、やっぱり惜しかったんだとよ。
+[k]
+
+＠坂田金時
+娘の才能ってヤツがよ。後は簡単だ。[r]新しく生まれた息子として、幽閉した娘を家に戻した。
+[k]
+
+＠坂田金時
+後はアンタらが知っている通りだ。[r]源頼光は父の期待通り、武士として京を守ったのさ。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+丑御前と頼光は兄弟ではなく、同一人物だったと！？[r]でも、逸話では頼光が丑御前を退治したと！
+[k]
+
+[charaTalk E]
+
+＠坂田金時
+おう。実際に、[#退治はした]。[r]オレもあの場にいたからな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+封じたはず……と、先程仰いましたね。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+ああ、源氏の棟梁になるにあたって、頼光の大将は[r]その異形の側面を切り離そうとしたのさ。
+[k]
+
+＠坂田金時
+ま、なんやかやあって結局は大将の奥深くに封じる形に[r]なったんだが[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+
+＠丑御前
+………………。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+……チ。話はここまでだ。[r]オレともあろうものがダセぇ真似しちまった。
+[k]
+
+＠坂田金時
+頼光の大将の事情は、頼光の大将が語るものだ。[r]オレが悠長に[#駄弁:だべ]っていいもんじゃねえ。
+[k]
+
+[charaFace E 7]
+
+＠坂田金時
+いまやるべき事はこっちの方だ。[r]なんで、封じたはずのアンタが出てきてやがる？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+
+＠丑御前
+母がここにいる理由ですか？　簡単です。[r][#ここにいる]というのが理由ですよ。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+……この鬼ヶ島を造ったのは、貴女なのですね。
+[k]
+
+[charaTalk D]
+
+＠風魔小太郎
+……！
+[k]
+
+[charaTalk H]
+
+＠丑御前
+はい。この杯を手に入れた私が造りました。[r]完全なる鬼達の王国を建設するために。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+国産み・島産みの権能レベルが必要って言ったけど……そうか。[r]牛頭天王の化身としての力があるなら……！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠弁慶
+鬼の国……ですと？　穏やかではありませぬな。[r]そのような魔国を建ててどうしようと仰るのか。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠丑御前
+……はて。理由、ですか。[r]それは……えっと……ああ、そうですね。
+[k]
+
+[charaFace H 7]
+
+＠丑御前
+私たち、まつろわぬ者どもの復権、[r]というのはどうでしょう？
+[k]
+
+＠丑御前
+この土地に古くから住まう者であるのに、[r]鬼やら蜘蛛やらは異形であるというだけで退治される。
+[k]
+
+[charaFace H 0]
+
+＠丑御前
+それはあまりにも無体だと、[r]頼光はなんとなく思ってました。
+[k]
+
+＠丑御前
+ですので、今回はそれを理由に魔国を造った……[r]というのは、筋が通っているのではないでしょうか？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+貴女とて、この島で鬼達を切り払っていました。[r]茨木童子と酒呑童子にも。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠丑御前
+ああ、それは、ほら。[r]頼光も私も、鬼とか嫌いですから。
+[k]
+
+[charaFace H 6]
+
+＠丑御前
+魔国を造るための労働力ですが、目に付けば処分します。[r]人間は食べ物なので保存する価値がありますが……
+[k]
+
+＠丑御前
+鬼は、ほら。醜いだけで何の価値もないでしょう？
+[k]
+
+[charaTalk D]
+
+＠風魔小太郎
+……自分の配下を、無価値だと言うのですか？[r]貴女を慕って働いているというのに？
+[k]
+
+[charaTalk H]
+[charaFace H 6]
+
+＠丑御前
+無価値です。だってこの島の鬼はぜんぶ、[r]私が作ったものですから。
+[k]
+
+＠丑御前
+たまたま上手く描けたものは鬼丸として名を[r]与えましたが、それ以外は汚らわしい落書きばかり。
+[k]
+
+[charaFace H 0]
+
+＠丑御前
+自らの至らなさを見るのは辛いもの。この島の工事が[r]終われば、まとめて処分する予定です。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+そうかよ……くそ、忘れてたぜ。
+[k]
+
+＠坂田金時
+どっかで見た覚えがあると思えば、あれか……[r]ガキの頃、頼光様が描いてくれた鬼の絵か……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+では、茨木童子と酒呑童子は？[r]彼女たちは貴女の鬼ではありませんが……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+
+＠丑御前
+ああ、酒呑童子……アレは、虫です。
+[k]
+
+[charaFace H 6]
+
+＠丑御前
+大切な息子に近寄る悪い虫。潰して、潰して、[r]踏みにじって殺すのが当然でしょう？
+[k]
+
+＠丑御前
+ちなみに茨木は先程首を[#刎:は]ねました。[r]酒呑は腹を[#割:さ]きました。すっきりです。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+ッ……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+
+＠丑御前
+どうです金時？[r]この島は中々のものでしょう？
+[k]
+
+＠丑御前
+私も貴方も人と神の気まぐれのようなもの。[r]人界で生きるには辛かったでしょう。
+[k]
+
+[charaFace H 0]
+
+＠丑御前
+でもこの島なら誰の目を気にする必要もありません。[r]本当はこんな面倒な事をしたくなかったのですが……
+[k]
+
+＠丑御前
+一思いに本州を魔界にしてしまうと、[r]さすがに金時に嫌われてしまうでしょう？
+[k]
+
+＠丑御前
+子供の遊び場はできるだけ大事にしてあげなくては。
+[k]
+
+[charaFace H 6]
+
+＠丑御前
+本州でしたことは、せいぜいが、悪い虫達に悪酔いする酒[r]を呑ませて同士討ちさせようとした事ぐらい。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+羅生門の事件も、やはり、貴女が……！
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+……特異点もどきを自分の欲望で作り出す英霊……[r]いや、丑御前である彼女は悪霊か。
+[k]
+
+＠Dr.ロマン
+これはもう魔神柱クラスの災害だ。[r]金時くん。キミには悪いが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+……いや。謝るのはこっちの方だぜドク。[r]前回といい今回といい、コイツぁオレの責任だ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠丑御前
+金時……？[r]なぜ母に敵意を向けるのです？
+[k]
+
+＠丑御前
+ここは貴方の為に造った島だと言ったでしょう？
+[k]
+
+[charaFace H 7]
+
+＠丑御前
+本当は天守閣が出来てから自慢したかったのだけど、[r]秘密にするのはここまでです。
+[k]
+
+[charaFace H 6]
+
+＠丑御前
+さあ、我が手足、我が具足、我が手駒たる四天王よ。[r]安心して、おまえたちの主の元に帰る時です。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+金時殿……[r]ご母堂は、その[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+おう。悪ぃな小太郎。テメェにまで気を遣わせた。[r]だがま、心配無用だぜ。やるコトは変わらねぇ。
+[k]
+
+＠坂田金時
+そうだろ大将？[r]鬼退治のクライマックスだぜ、これは。
+[k]
+
+[charaTalk H]
+
+＠丑御前
+金時[line 3]
+[k]
+
+[charaTalk E]
+[charaFace E 7]
+
+＠坂田金時
+丑御前サンよ。アンタが本質的には[r]頼光様と同じだってコトぁ、よく知ってる。
+[k]
+
+＠坂田金時
+源頼光の功績はアンタのおかげであり、[r]丑御前の悪行は源頼光の罪でもあるってな。
+[k]
+
+＠坂田金時
+……アンタにゃとても返せねぇ大きな借りがある。[r]恩人で、尊敬だってしてらぁ。
+[k]
+
+＠坂田金時
+だがよ。それでも言わせてもらうぜ[line 2][r]テ[charaFace E 5]メエ、やっぱ要らねぇわ。
+[k]
+
+[charaTalk H]
+
+＠丑御前
+[fontSize large]何……ですって……？[fontSize -]
+[k]
+
+[charaTalk E]
+[charaFace E 7]
+
+＠坂田金時
+テメェなんざ怖くもなんともねえって話だ！[r]頼光の大将のマジギレの方が数倍おっそろしい！
+[k]
+
+[charaFace E 5]
+
+＠坂田金時
+なーにがオレっちのための島、だ。[r]単に、行き場の無い自分のためじゃねえか。
+[k]
+
+＠坂田金時
+頼光サンならよぉ、たとえ角が生えようが牛神に[r]なろうがテメェの国から逃げるなんて事ぁしねえ！
+[k]
+
+＠坂田金時
+泣いていじけて駄々こねた後、[r]開き直って京ででーんと構えるのが源頼光だ！
+[k]
+
+＠坂田金時
+テメェは鬼落ちした負け牛にすぎねぇ！[r]さっさと頼光サンに戻るんだな！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+
+＠丑御前
+…………いいでしょう。[r]貴方の中の[#頼光:わたし]像は分かりました。
+[k]
+
+＠丑御前
+同じ半神として理解してもらえると思ったのですが。[r]伝わらないのなら、貴方も所詮、人間ということ。
+[k]
+
+[charaFace H 5]
+
+＠丑御前
+本来なら見逃してあげても構わないのですが……[r]貴方たちはそうはいかないのでしょう？
+[k]
+
+＠丑御前
+人の世を守る、という事は、[r]人以外の頂点を許さない、という事。
+[k]
+
+[charaFace H 6]
+
+＠丑御前
+まったく、どちらが鬼なのでしょう。
+[k]
+
+＠丑御前
+皆殺しにするしかない、という結論において、[r]私たちは同じなのにね？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+おう、言ってろ人でなし。[r]それとな、丑御前。
+[k]
+
+＠坂田金時
+オレは今からアンタをぶっ飛ばす。[r]だが勘違いするんじゃねぇぞ。
+[k]
+
+＠坂田金時
+それは、オレが鬼退治をする四天王の金太郎だからでも、[r]桃太郎の[line 2]この大将の仲間だからでもねぇ。
+[k]
+
+[charaFace E 5]
+
+＠坂田金時
+息子として、母親の馬鹿騒ぎを止めるってだけだ。[r]そこだけは間違えんな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+
+＠丑御前
+…………！
+[k]
+
+＠丑御前
+……あ、ああ……やだ、だめ、いけません、母親なのに、[r]ああ、身体の奥が、熱い、熱い！
+[k]
+
+＠丑御前
+嬉しい嬉しい、嬉しいです金時！[r]それは[line 2]愛ですね！
+[k]
+
+[charaFace H 7]
+
+＠丑御前
+それなら私も本気になれるというもの！[r]ここで貴方の想いの全てを受け止めて[line 2]
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.3]
+
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace H 6]
+
+
+＠丑御前
+貴方を[#愛:殺]してあげる事ができるのですから！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+……来るぜ。手加減して勝てる相手じゃねぇ。
+[k]
+
+＠坂田金時
+オレっちの雷光はゴールデンだが[line 3][r]大将の雷光は全てを塗り潰す黒縄地獄だ。
+[k]
+
+＠坂田金時
+黒焦げになる前に決着をつけねえとな。[r]頼むぜ、桃太郎の大将よ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

@@ -1,0 +1,107 @@
+＄94-00-62-31-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 4024000 1 モードレッド]
+[charaSet B 98100400 1 マシュ]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+お、ロンドン橋か？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+ロンドン橋！
+[k]
+
+＠G：うりぼう
+合体変形機能付き。[r]グレートブリテンマンに変身！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+マジでか！？[r]スゲえ！　完成したら早速やってみてくれ！！
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[se ad132]
+[wt 1.5]
+
+[charaTalk H]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+……冗談だったって、言おうと[r]思ったのでありますが……。
+[k]
+
+＠F：うりぼう
+どうしよう。
+[k]
+
+[bgmStop BGM_EVENT_28 1.5]
+
+＠G：うりぼう
+やるしかないな。
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+＠H：うりぼう
+男たちは、立ち上がったのだ。[r]（勇壮かつ感動的なＢＧＭ）
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_4 0.1]
+[se ad37]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠マシュ
+いえ、モードレッドさんにはわたしから[r]説明しますから。普通に作って下さい……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]

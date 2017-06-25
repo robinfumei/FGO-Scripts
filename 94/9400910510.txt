@@ -1,0 +1,466 @@
+
+
+＄94-00-91-05-1-0
+
+[charaSet A 99502600 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 6005001 1 ジャック]
+[charaSet D 5004001 1 ナーサリー・ライム]
+[charaSet E 3009001 1 レオニダス]
+[charaSet F 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[scene 20322]
+
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 1]
+[charaFadein C 0.4 2]
+[charaFadein D 0.4 0]
+
+[se ad187]
+[seStop ad187 1.6]
+
+＠ジャック
+空をとんでるねぇ。
+[k]
+
+[charaTalk D]
+＠ナーサリー・ライム
+まるでオズの魔法使いみたいだわ。
+[k]
+
+？1：オズが三人いる？
+
+[charaTalk C]
+[charaFace C 0]
+＠ジャック
+[FFFFFF]？[-][r]ジャックだよ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+私はジャンヌ・ダルク・オルタ・サンタ・リリィです！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ナーサリー・ライム
+そういうことじゃないと思うのだけど。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？2：誰がオズ？
+
+[charaTalk D]
+[charaFace D 1]
+＠ナーサリー・ライム
+はい、わたし、はい！
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠ジャック
+わたしたちはジャックだよ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ジャンヌ・ダルク・オルタ・サンタ・リリィでございます！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+？！
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.4]
+
+[messageOff]
+[se ad9]
+[wt 2.0]
+
+
+[charaShake F 0.1 4 4 1.0]
+
+[bgm BGM_EVENT_3 0.4]
+[wt 0.4]
+
+[charaShake F 0.1 4 4 1.0]
+[seStop ad9 2.0]
+
+[charaShake F 0.05 4 4 0]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaMove F 0,-32 1.0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+わっ！？[r]ラムレイ二号、どうしました！？
+[k]
+
+[wait charaMove F]
+[charaMove F 0,-80 1.0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+し、下に引っ張られて……。
+[k]
+
+[wait charaMove F]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[se ad13]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+下にサーヴァント反応！？[r]どうやら、何かの力で引っ張られているようです！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 2]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+[charaShake C 0.05 4 4 0]
+[charaShake D 0.05 4 4 0]
+
+[charaMove C 256,-64 0.7]
+[charaMove D -256,-64 0.7]
+＠ジャック
+えっと、こういうのはたしか……。[r]そう、『ついらく』だね！
+[k]
+
+[wait charaMove C]
+[wait charaMove D]
+
+[charaMove C 256,-128 0.7]
+[charaMove D -256,-128 0.7]
+[charaTalk D]
+＠ナーサリー・ライム
+浮き浮き嬉しそうに言うものじゃないと思うのだわ！
+[k]
+
+[wait charaMove C]
+[wait charaMove D]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 0,-70]
+＠ジャンヌ・オルタ・サンタ・リリィ
+皆さん、何かに掴まって下さい！[r]お……落ちます！
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[se ad75]
+[wipeout rectangleStripUpToDown 0.7 1.0]
+[wt 0.4]
+[messageOff]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaShakeStop F]
+[charaShakeStop C]
+[charaShakeStop D]
+
+[wt 0.7]
+
+[scene 21804]
+[wt 0.1]
+
+[wipein rectangleStripDownToUp 0.7 1.0]
+
+[seStop ad75 1.0]
+[wt 1.0]
+
+[shakeStop]
+[se bac37]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+[shake 0.05 10 10 1.0]
+[seStop ad37 1.0]
+[wt 1.5]
+
+
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.7 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+トナカイさん、大丈夫ですか……？
+[k]
+
+[wait charaMove F]
+
+？1：急に落下したから吐き気が……
+
+[charaFace F 2]
+[charaShake F 0.05 4 4 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+吐かないで下さいよ、絶対吐かないで下さいよ！？[r]今、トナカイさんの下敷きになっているの私ですから！
+[k]
+
+？2：うぷっ……
+
+[charaShake F 0.05 4 4 0.7]
+＠ジャンヌ・オルタ・サンタ・リリィ
+胃からこみ上げてきた何かを口元で[r]抑えてませんか！？
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+が、頑張って耐えて下さい！
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 4]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ジャック
+ふわー、おどろいたねー。
+[k]
+
+[charaTalk D]
+＠ナーサリー・ライム
+驚いたように見えないわよ、ジャック。
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+＠？？？
+ふはははは！　ここから先は一歩も通しません！[r]通しませんぞ[line 5]！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+な、何者……！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+そ、そんな……まさか！[r]まさか、あなたが……！
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.7 1]
+＠レオニダス
+[messageShake 0.1 4 4 1.0]
+我が名はレオニダァス！[r]サンタよ、海を見る願いを叶えさせる訳にはいかん！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+え、えー！？[r]何故、どうしてですか！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠レオニダス
+それは……えー……それはですね……。
+[k]
+
+？1：黒幕がいるな……！
+？2：陰謀だ！
+？！
+
+[charaFace E 0]
+＠レオニダス
+そう、そうなのです！[r]我々は、君たちに海を見せないよう命令されたのです！
+[k]
+
+[charaFace E 2]
+＠レオニダス
+黒幕とか、そんな感じの方によって！
+[k]
+
+[charaFace E 0]
+＠レオニダス
+という訳で通しませんぞー、です！[r]一歩たりとも通しませんぞー、なのですとも！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFace D 4]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ジャック
+ひどーい！[r]おじさん、きらーい！
+[k]
+
+[charaTalk D]
+＠ナーサリー・ライム
+そうよ！　子供を虐めるなんて、鬼だわ、悪魔だわ、[r]ハートの女王だわ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠レオニダス
+[font large]私も辛いのです！！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ぎゃ、逆ギレにも程がありませんか！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠レオニダス
+ええ、筋肉はいつにも増してキレキレですが何か？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFace D 2]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ジャック
+ごつい！[r]おかあさんじゃない！
+[k]
+
+[charaTalk D]
+＠ナーサリー・ライム
+サンタさーん！[r]やっつけちゃう？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……そうですね。
+[k]
+
+[charaFace F 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+そこを退きなさい、レオニダァス！[r]私はサンタとして、この二人を海に連れて行くのです！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+願いを叶えることが、サンタのお仕事。[r]邪魔する者は排除します！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠レオニダス
+いいでしょう、サンタよ！[r]ならば、レオニダァスの屍を越えていくがいい！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[soundStopAll]
+[end]

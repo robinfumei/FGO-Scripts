@@ -1,0 +1,77 @@
+＄94-00-62-26-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+
+[charaSet C 98100400 1 マシュ]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠マシュ
+ドネルケバブ。[r]確か……トルコの料理ですね。
+[k]
+
+[charaFace C 13]
+＠マシュ
+削いだ羊肉をパンに挟んで、[r]ソースをつけて食べるみたいです。
+[k]
+
+[charaFace C 6]
+＠マシュ
+……羊肉……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+ひつじがいっぴき、ひつじがにひき。
+[k]
+
+＠G：うりぼう
+うりぼうがいっぴき、うりぼうがにひき。
+[k]
+
+＠H：うりぼう
+もひとつ叩くと[r]うりぼうが……しんでる…………。
+[k]
+
+＠F：うりぼう
+で、ありますな……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠マシュ
+死なないで下さい……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,157 @@
+
+
+＄94-00-58-35-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 4024000 1 モードレッド]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 2025200 1 アン]
+[charaSet E 3025000 1 清姫]
+[charaSet F 2025100 1 メアリー]
+[charaSet G 9004000 1 マルタ]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[se ad85]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠マルタ
+せい！　はっ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[se ad51]
+＠スカサハ
+ほう、これが聖人に受け継がれるという格闘術か。[r]天使にすら通じると聞くが……実に興味深い。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠モードレッド
+クソッ、あいつら、楽しみやがって……[r]早くオレの順番回ってこねぇかな！
+[k]
+
+[charaFace B 2]
+＠モードレッド
+早く代われー！　やられろー！[r]もしくはやっちまえー！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+ああ……本当にコロッセウムを作ってしまいました。
+[k]
+
+＠フォウ
+フォウー。
+[k]
+
+？1：楽しんでるようだし……いいんじゃない？
+？2：やりすぎた感　ある
+？！
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 5]
+[charaFace D 5]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+[wt 0.5]
+[seStop ad60]
+
+＠メアリー
+マスターの第一のサーヴァントの座をかけた[r]トーナメントが開かれてると聞いて！
+[k]
+
+＠アン
+出遅れましたが只今登場、ですわ！[r]さあ参戦です！　いざ、ヨーソロー！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[se ad60]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.5]
+[seStop ad60]
+
+＠清姫
+いま……ますたぁの一番を……つまり正妻を決める、[r]と言いましたか……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+どんどん予想外の盛り上がりを見せています！[r]盛り上がってはいけない方向かもしれませんが！
+[k]
+
+
+？1：みんなが楽しんでるなら、それで……
+？2：みんな、怪我だけはしないようにね……
+？！
+
+
+[charaFace A 7]
+＠マシュ
+（何かを諦めきったかのような虚ろな目です！）
+[k]
+
+[charaFace A 4]
+＠マシュ
+……はい、先輩。[r]フォウさんをどうぞ。
+[k]
+
+[charaFace A 8]
+＠マシュ
+せめて、この柔らかい毛並みで癒されてください……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

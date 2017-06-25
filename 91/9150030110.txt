@@ -1,0 +1,309 @@
+＄91-50-03-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10310]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5003001 1 玉藻の前]
+[charaSet D 98002000 1 フォウ]
+[fadein black 1]
+[wait fade]
+＠玉藻の前
+マスター、どちらですかー？[r]貴方のキャスターがお探しですよー。
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+あれは……玉藻さんですね。[r]どうしたんでしょう？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠玉藻の前
+おや、マスター、こちらにいらっしゃいましたか。[r]ちょうどようございました。
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+それでは早速、出かけましょう、[r]ささ、こちらへ、ささささ！！
+[k]
+
+？1：どこにいくの？
+
+？2：いやその、くっつきすぎと申しますか
+
+？！
+
+[charaFace C 3]
+＠玉藻の前
+それはもちろん……貴方様と私のぉ、[r]　ハ　ネ　ム　ー　ン　でございます♡
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+何だそんなことですか……、[r]えっ！？
+[k]
+
+[messageOff]
+[fadeout white 1.0]
+[se ad39]
+[wait se]
+[charaFadeout A 0]
+[charaFadeout C 0]
+[wait fade]
+[wt 0.4]
+[charaSet A 8001000 1 マシュ]
+[scene 21100]
+[se ad37]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0 1]
+[fadein white 1.0]
+[wait fade]
+＠玉藻の前
+んー！！　青い空！　白い砂浜！！[r]どこまでも透き通った海！！
+[k]
+
+[charaFace C 3]
+＠玉藻の前
+最高のハネムーン日和でございますねぇ、[r]マスター？
+[k]
+
+[seStop ad37 2]
+[charaFace C 4]
+＠玉藻の前
+……とはいえ（チラっ）
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+…………（ムスー）
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFace C 0]
+＠玉藻の前
+まあ、お邪魔虫の一匹や二匹、[r]我慢すると致しましょうか。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠玉藻の前
+あ、お飲み物などいかがです？[r]あ　な　た　さ　ま　♪
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+＠Dr.ロマン
+あんまり聞きたくないけど、[r]どうしてこうなってるのかな？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+いや、ほんと聞きたくないけど？[r]あ、やっぱりいいです、いやほんとに。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠玉藻の前
+それがですね、聞いてくださいましよ。[r]先日、メル友の清姫ちゃんからメールが来ましてね、
+[k]
+
+[charaFace C 3]
+＠玉藻の前
+「わたくしー、今日は恋人でもあるマスターと[r]いっしょにお出かけ致しましたの」
+[k]
+
+＠玉藻の前
+「いわゆる、逢引というやつですわね、逢引」
+[k]
+
+＠玉藻の前
+「ところで、タマモさんはマスターとは如何……[r]あっ（察し）　それじゃまたメール致しますね♪」
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+とかなんとかいうメールがきやがりましてね！！[r]何ですか（察し）って、なにを察したってんですか！
+[k]
+
+[charaFace C 5]
+＠玉藻の前
+まったく最近の若いもんときたら……、[r]あの引きこもりの刑部姫ちゃんですら、
+[k]
+
+＠玉藻の前
+チャットデートしてるとか言うんですよ！！
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+ここまで言われたら[#私:わたくし]だって[r]黙っている訳にはまいりません！！
+[k]
+
+[charaFace C 3]
+＠玉藻の前
+ここは一つ、マスターとのラブラブなプリクラを送りつけ、[r]あの二人の度肝を抜いてやろうかと思いまして……
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace C 3]
+[charaFadein C 0.1 0]
+＠マシュ
+えっと……それはつまり、[r]相手は先輩でなくともいい？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そういう事だね。たんに[#契約者:マスター]と仲の良い[r]ところを見せて自慢したいだけと見た。
+[k]
+
+？1：……遊びだったのか、キャスター
+
+？2：……契約解除しよう、キャスター
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠玉藻の前
+あやや、違います、違いますぅー！[r]確かにこのタマモ、魂を誓った方は別におります。
+[k]
+
+＠玉藻の前
+どの時空で出会うのか、どのようなお方なのか、[r]それこそ雲を掴むようなお話なんですけどね。
+[k]
+
+[charaFace C 0]
+＠玉藻の前
+ですが、それはそれ、これはこれ！
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+私のような反英雄をイヤな顔せずに契約してくれた[r][%1]様も、立派な御仁と敬愛しているのです！
+[k]
+
+[charaFace C 3]
+＠玉藻の前
+おとしめた殿方は数知れず、犯した罪は数えきれず。[r]されども、これは、と感じた方には全霊で奉仕する[line 3]
+[k]
+
+＠玉藻の前
+それがこの私、キャスター・玉藻の前の真実です！
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+ですのでぇ、ハネムーンは言い過ぎでしたけどぉ、[r]ヴァカンス？ぐらいなのは本当？みたいな？　てへ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ、すまないが話の途中だけど、エネミーがね[r]うん、ここ、どうもラミアの生息地みたいだね。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+ああ、結構囲まれてるけど？[r]え？　話のほうが大事？　失礼しました。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠玉藻の前
+なんですか、もう、こんな時に！！[r]あーもう、ちょうどいいです。
+[k]
+
+＠玉藻の前
+久しぶりに会った友達がいつの間にか結婚して[r]子供までいた、みたいな何とも言えないもやもや感を
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+えーっと、何でしたっけ……ラミアさん？[r]とやらにぶつけて差し上げますとも！！
+[k]
+
+？1：よしわかった、観念して付き合ってやる！
+
+？2：うん、その気持ちはわかる。
+
+？！
+
+[charaFace C 1]
+＠玉藻の前
+それでこそ私のマスター！[r]タマモは本気度がさらにアップ！
+[k]
+
+[charaFace C 0]
+＠玉藻の前
+気持ちも通じ合った事ですし、[r]ではでは、恒例の前口上をば。コホン。
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+御用が無くても即参上！　あなたの頼れる[#巫女狐:みこぎつね][r]キャス狐ちゃん、本日、南の海に特別降臨、です！！
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

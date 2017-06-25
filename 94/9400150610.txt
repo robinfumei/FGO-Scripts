@@ -1,0 +1,459 @@
+
+＄94-00-15-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 2001001 1 エミヤ]
+[charaSet B 1003001 1 リリィ]
+[charaSet C 1005001 1 ネロ]
+[charaSet D 5003001 1 玉藻の前]
+[charaSet E 9940200 1 Ｚ]
+[charaSet F 9940200 1 Ｚ]
+[charaSet G 9940200 1 Ｚ]
+[charaSet H 8001001 1 マシュ]
+
+[scene 20303]
+[fadein black 2]
+[wait fade]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠Ｚ
+キミたち！[r]多勢に無勢とか、ちょっとズルいぞ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠ネロ
+闇討ちでＸを仕留めた貴様が言うことか！
+[k]
+
+＠ネロ
+そも、戦いを嫌うのであれば剣を置くがいい！[r]さいわい話の通じぬＸは気絶しているしな！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠Ｚ
+[fontSize large]結構、話し合いとか面倒ですから！[-]
+[k]
+
+
+[charaFace E 5]
+＠Ｚ
+しかし、なぜＸをかばうのですリリィ！[r]なんかそれ気になって剣が鈍ります！
+[k]
+
+＠Ｚ
+かばうのではなくトドメを刺せばいい！[r]Ｘにとってはキミも抹殺対象にすぎなかった。
+[k]
+
+＠Ｚ
+Ｘがキミを育てたのは脅威ではなかったから。[r]キミなら御しやすいと内心でほくそ笑んでいたから！
+[k]
+
+＠Ｚ
+なぜ分かるのですか？ですって？[r]そりゃそうです、だってわたしもそう思うもん！
+[k]
+
+＠Ｚ
+ほんと我ながら最低のセイバーだなわたしは！[r]でもこれで分かりましたね？
+[k]
+
+＠Ｚ
+Ｘにとってキミはただの道具！　宇宙船の修理を[r]手伝わせるための、ていのいい労働力だったのだと！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 5]
+＠リリィ
+[line 6]。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠Ｚ
+理解したようですね。[r]では、そこで寝ているＸをサクッと仕留めて[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 5]
+＠リリィ
+いいえ[line 3]いいえ！[r]それは違います！　Ｚさんは嘘付きです！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠Ｚ
+な、なんだとぅ……！？[r]何が違うというんだ、リリィ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 5]
+＠リリィ
+Ｘ師匠はそういう人かもしれませんが、[r]実際にはそうはいかなかった！　だって[line 3]
+[k]
+
+[charaFace B 2]
+＠リリィ
+自慢ではありませんが、[#アルトリア:わたし]に宇宙船の[r]修理なんて、難しいコトができるとでも！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠Ｚ
+[fontSize large]あ、確かに！[-]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 2]
+＠リリィ
+そう！　毎日徹夜で宇宙船を修理してくれたのは[r][%1][&殿:さん]とマシュさんです！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠玉藻の前
+んー、ミもフタもない話ですねぇ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 2]
+＠リリィ
+つまり、Ｘ師匠にとってわたしは使えないセイバー！[r]本来、見捨ててしかるべき騎士だったのです！
+[k]
+
+＠リリィ
+なのに師匠はわたしを鍛えてくださいました！[r]わたしの夢を笑わなかった！
+[k]
+
+＠リリィ
+Ｘ師匠の目的が何だろうと、[r]わたしは師匠の味方です！
+[k]
+
+＠リリィ
+そして[line 3][r]この[#聖剣:つるぎ]は愛する人々を守る為に輝くもの！
+[k]
+
+＠リリィ
+剣を構えろ、ヒロインＺ……ッ！[r]セイバー・リリィが貴様に引導を渡してやる！
+[k]
+
+？1：リリィ……！
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+[charaFace H 1]
+＠マシュ
+はい……！[r]リリィさん、もう本当に一人前です！
+[k]
+
+[charaFadeout H 0.1]
+
+？2：格好よくなりすぎじゃない……！？
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 3]
+＠エミヤ
+ああ、まったくだ。[r]いささか早すぎる成長だが、それも彼女らしい！
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠Ｚ
+フッ、敵ながらよく言いました！[r]そして数で負けているのなら手はありますとも！
+[k]
+
+＠Ｚ
+しからばお見せいたしましょう、[r]ヒロインＺ最強の奥義[line 3]これぞ！
+[k]
+
+[messageOff]
+[se ad29]
+[flashin once 0.1 1.2 FFFFFFEF 00000000]
+[charaFadeout E 0.1]
+[wait flash]
+[wt 0.3]
+
+
+[charaTalk D]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace C 5]
+[charaFace D 5]
+＠玉藻の前
+な[line 3]！？
+[k]
+
+＠ネロ
+な[line 3]！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+[charaFace H 6]
+＠マシュ
+な[line 3]！？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[wt 0.4]
+[charaTalk off]
+[charaFace E 2]
+[charaFace F 2]
+[charaFace G 2]
+
+[se ad35]
+[charaFadein E 0.4 1]
+[wt 0.4]
+[se ad35]
+[charaFadein G 0.4 0]
+[wt 0.4]
+[se ad35]
+[charaFadein F 0.4 2]
+[wt 0.4]
+＠Ｚ
+ばてれんばてれん　のうまく　かんだら、[r]きしゅあ　ぜるれち　しゅばいんおーぐ……
+[k]
+
+＠Ｚ
+見たか！[r]セイバー忍法、３wave分身の術！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaFadein H 0.1 1]
+[charaFace H 14]
+＠マシュ
+忍法！[r]先輩、いま忍法って！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaFadein B 0.1 1]
+[charaFace B 14]
+＠リリィ
+なんのっ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaFadein E 0.1 1]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+
+[messageOff]
+[charaEffect F bit_talk_12]
+[se bac6]
+[wait se bac6]
+[charaEffectStop F bit_talk_12]
+
+[charaSpecialEffect F flashErasure 0 0.5]
+[charaFadeout F 1.0]
+[se ad52]
+[wt 1.0]
+[charaSpecialEffectStop F flashErasure]
+
+[charaFadein F 0.4 2]
+
+[wt 0.8]
+＠リリィ
+そんな、数が減りません！？[r]どうなっているのでしょう、これ！？
+[k]
+
+[messageOff]
+[charaEffect G bit_talk_12]
+[se bac6]
+[wait se bac6]
+[charaEffectStop G bit_talk_12]
+[charaSpecialEffect G flashErasure 0 0.5]
+[charaFadeout G 1.0]
+[se ad52]
+[seStop ad52 1.0]
+[wt 1.0]
+[charaSpecialEffectStop G flashErasure]
+
+[charaFadein G 0.4 0]
+
+[wt 0.8]
+[charaFace E 1]
+[charaFace F 1]
+[charaFace G 1]
+＠Ｚ
+ふ。驚いていただけて何よりです。[r]またの名を忍法セイバー無限地獄。
+[k]
+
+＠Ｚ
+なんでも、東洋には切っても切っても同じ顔が出る[r]飴があるとか。それを元にした私のオリジナルです。
+[k]
+
+？1：そいつはゴールデンだ……！
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk on]
+[charaTalk H]
+[charaFadein H 0.1 1]
+[charaFace H 2]
+＠マシュ
+はい！[r]ある意味、金時さんがいなくて良かったです！
+[k]
+
+[charaFadeout H 0.1]
+
+？2：タマモさん、何かコメントを！
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk on]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠玉藻の前
+え？　別に何も不思議な事ではないと申しますか。[r]ぶっちゃけ、私も似たような事はできますし。
+[k]
+
+＠玉藻の前
+いえ、[#私:わたくし]の場合、影分身ではなく[r]それぞれ独立した個体なんですけどね？
+[k]
+
+＠玉藻の前
+高級品嗜好のタマモグッチ、[r]マイホーム至上主義のタマモデルモ、
+[k]
+
+＠玉藻の前
+野生の獣タマモキャット、[r]敏腕美人秘書タマモヴィッチ、
+[k]
+
+＠玉藻の前
+お姫様日和なタマモノヒメ、[r]不思議ちゃんタマモアリア、
+[k]
+
+＠玉藻の前
+あとはまあ、テキトーに？
+[k]
+
+＠玉藻の前
+ぶっちゃけ、その時の流行廃りで三人ぐらいは[r]能力とかルックスが変わるのです♡
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠エミヤ
+……なんといういい加減さ……[r]身も蓋もないとはまさにこの事だな！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠玉藻の前
+みこ？　それ、どういう意味です？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠エミヤ
+空っぽという意味だ！
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 5]
+＠ネロ
+遊んでいる場合ではないぞ！[r]頭の痛い戦法だが、脅威であるのは事実！
+[k]
+
+＠ネロ
+アーチャー、キャスター！[r][%1]とリリィの援護に徹するぞ！
+[k]
+
+＠ネロ
+この戦いはリリィのもの[line 3]我らは端役に回ろう！[r]いざ、行くがいい白百合の騎士よ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠リリィ
+はい、ありがとうございますネロさん！
+[k]
+
+＠リリィ
+マスター、わたしにもどうか指示を！[r]これが、最後の戦いです！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

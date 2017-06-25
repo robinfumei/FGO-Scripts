@@ -1,0 +1,286 @@
+
+＄94-00-58-36-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 9004000 1 マルタ]
+[charaSet F 5027000 1 マリー]
+[charaSet G 3004001 1 カルナ]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+なにこれ、すっごい楽しそう！[r]本当に嬉しいわ。ありがとう、マスター！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マリーさんの設計図通りに作ってみましたが……[r]いろいろできましたね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+シーソーに、ジャングルジムに、[#雲梯:うんてい]に、ブランコ。[r]ゾウさん型の滑り台に、その他もろもろ……。
+[k]
+
+[charaFace A 8]
+＠マシュ
+このタイルのモザイク模様は……[r]デフォルメされたマリーさん、でしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+わたしがデザインした、わたしがプロデュースする、[r]わたしが最高に楽しめる夢の公園！　それがマリーランドよ！
+[k]
+
+
+＠マリー
+さあマスター、マシュ。それにみんな[line 2][r]こけら落としよ、楽しみましょう？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+地面に埋まった古タイヤを跳び越えたりくぐったり、[r]フォウさんは既に大はしゃぎです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+わたしたちは[line 2]そうね、とりあえずブランコにでも乗って[r]みましょう？
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFadeout F 0.1]
+
+[wt 1.0]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+？1：マシュ、楽しんでる？
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、とても新鮮で楽しいです。[r]ただの振り子運動が、なぜこんなにも……不思議ですね。
+[k]
+
+
+？2：マリー、楽しんでる？
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+ええ、もちろん！[r]見て見て、どこまで高くこげるかしら？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+？！
+
+
+[charaFace A 4]
+＠マシュ
+ですが[line 2]文献によると、こういった公園は、近年では[r]ほとんど撤去される流れだったようですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace A 4]
+[charaFace F 5]
+[charaFadein A 0.1 2]
+[charaFadein F 0.1 0]
+
+＠マリー
+えー。楽しいのに。どうして？
+[k]
+
+[charaFace A 0]
+＠マシュ
+やはり子供の安全面かと。[r]事故が起こってからでは遅いという理屈はわかります。
+[k]
+
+[charaFace F 0]
+＠マリー
+まあでもここには子供はいないし、無人島だし。[r]気にするコトはないわよね。
+[k]
+
+[charaFace A 8]
+＠マシュ
+子供には見せたくない遊び方をしている人達も[r]いらっしゃいますが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+これは[line 2]三半規管の訓練によいな。[r]さらにこの状態で矢を浴びせかければ……ふむ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あのように、超高速回転中の回転遊具の上で仁王立ちの[r]スカサハさんや[line 2]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マルタ
+これ、何に使うのかしら……わかったわ！　こうね！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+馬飛び用に埋めてある半タイヤに、執拗なローキックを[r]繰り出しているマルタさん……。
+[k]
+
+[charaFace A 8]
+＠マシュ
+教育上よろしくない感じです……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+あ、でもちょっと珍しい人もいるわね？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠カルナ
+…………。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+カルナさんが、象の滑り台の上に佇んでいますね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠カルナ
+……なぜか、落ち着くな。ここは[line 2]。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+インドの方ですから、象に乗ったこともおありでしょう。[r]何か懐かしい部分があるのかもしれませんね……？
+[k]
+
+[charaFace A 3]
+＠マシュ
+似合っているかどうかは、その、ノーコメントです。
+[k]
+
+
+？1：みんなそれぞれの楽しみ方があっていい
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+うんうん、その通りよ、マスター。[r]だからいっぱい遊具を作ってもらったの！
+[k]
+
+＠マリー
+さ、次に行きましょう！[r]日が暮れるまでいっぱい遊ぶわよー！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

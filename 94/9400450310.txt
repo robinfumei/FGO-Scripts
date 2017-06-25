@@ -1,0 +1,456 @@
+＄94-00-45-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 4023001 1 坂田金時]
+
+[scene 27800]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ここまでくれば大丈夫でしょう。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[communicationChara 98003003 1 5 0 4]
+
+＠Dr.ロマン
+ふう……なんとか切り抜けられたね。
+[k]
+
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+改めてお礼を言わせてもらうよ、[r]小太郎くん、金時くん。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+……いえ。礼を言うのは……こちらです。[r]あんな状況に陥った原因は僕にありますので……。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+ふむ。いい機会だから聞かせてもらおうかな。[r]どうしてあんなところで敵に囲まれていたんだい？
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+僕も……この島に、少し前に召喚されました。[r]理由はわからないけれど……推測は、できます。
+[k]
+
+＠風魔小太郎
+[line 2]鬼です。[r]僕も……鬼に関わりのある、英霊ですから。
+[k]
+
+？1：どういうこと？
+？！
+
+[charaTalk E]
+[charaFace E 4]
+
+＠風魔小太郎
+風魔の秘術は……鬼に転じる、というもの。[r]だから、僕が鬼だという伝説も、あるのです。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+鬼に……なれるのですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+……今は、無理です。[r]宝具としては封じられています、から。
+[k]
+
+＠風魔小太郎
+しかし……眼前には本物の鬼がいました。
+[k]
+
+＠風魔小太郎
+より近くで観察し、研究し、その有り様を[r]我が物とすれば解放できるかも……と……
+[k]
+
+＠風魔小太郎
+近くで観察していたのが間違いでした。[r]鬼たちは別の群れを呼び、それが連鎖し[line 2]
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+あんな状況になってしまった、と。
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+まだこの島の全容も分かっていなかったのに……。
+[k]
+
+＠風魔小太郎
+初手の行動としては不用意すぎました……[r]こういう諜報は他の者がやってくれたので……
+[k]
+
+＠風魔小太郎
+自分でするのは慣れていなくて……[r]お恥ずかしいかぎりです……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+
+
+＠坂田金時
+なーに気にすんなボーイ！[r]旅の恥はかき捨てって言うじゃねえか！
+[k]
+
+＠坂田金時
+行き倒れぐらいなんだっつーの！[r]つーかオレも迷子だっつーの！
+[k]
+
+[charaFace F 0]
+
+＠坂田金時
+結果的にはホットな忍法も見られたしよ。[r]アンタ、見かけ通りファンタスティックじゃねえか。
+[k]
+
+[charaTalk E]
+[charaFace E 3]
+
+＠風魔小太郎
+は……その。金時殿にそう言っていただける、と……[r]光栄、です……。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+（なんだかやたらと恐縮してるな……？）
+[k]
+
+＠Dr.ロマン
+そう、金時くんもありがとう。[r]本当に助かったよ。
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+礼を言われる筋合いじゃねえよドク。[r]オレは気持ちよくカッ飛ばしてただけだからな。
+[k]
+
+＠坂田金時
+……しかしまあ、なんだ。[r]羅生門の時といい、こいつはちょいと話が深そうだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……はい。
+[k]
+
+＠マシュ
+ひとまず窮地は脱しましたが、[r]わたし達の状況は原点にリセットされただけです。
+[k]
+
+＠マシュ
+この鬼ヶ島は何なのか？　なぜ鬼だらけなのか？[r]謎は謎のままです。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+そうだね。金時くん、小太郎くん。[r]ボクたちはこの島の異変を解決するのが目的だ。
+[k]
+
+＠Dr.ロマン
+あらたまって聞くのもなんだけど、手伝ってくれるかい？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+はい。[r]恩を受けました。お手伝いします。
+[k]
+
+＠風魔小太郎
+……それに。その過程で鬼と戦うことは、[r]風魔の秘術の発展にも役立つと思いますし。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+右に同じだ。[r]ベッタベタだが、旅は道連れ、世は情けってな。
+[k]
+
+＠坂田金時
+もうアンタらはゼロヨン仲間でツーリング仲間だ。[r]一旦ケツに乗せた以上はゴールまで付き合うぜ。
+[k]
+
+＠坂田金時
+ま、さっき鬼公どもに言ったみてえに[line 2][r]振り落とされたらどうなるかは分かんねぇけどよ！
+[k]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 -500,0]
+
+
+＠牛若丸
+…………。
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+そもそも、悪さしてる鬼は見逃せねぇだろ。[r]ナショナルイメージってヤツ？
+[k]
+
+＠坂田金時
+金太郎たるもの、鬼を狩らないで何を狩るってな。[r]いや、バイクは駆るがよ？
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+…………。
+[k]
+
+[charaTalk F]
+[charaFace F 5]
+
+＠坂田金時
+…………何か視線を感じるな。なんだぁ？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+
+[charaFace F 5]
+[charaFadein F 0.1 2]
+
+
+[charaTalk D]
+[charaFace D 1]
+
+＠牛若丸
+はい、私です！　あい許されよ！[r]坂田金時どのが目の前にいると思うと、何やら感慨深く！
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+
+＠坂田金時
+あん？　オレのこと知ってんのか？
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+はいもう、ご先祖さま……源頼光どのの四天王が一人！[r]金時どのの活躍は勇名高くかぎりなく！
+[k]
+
+＠牛若丸
+なにしろ、後に足柄山の金太郎として[r]編纂されたほどの武勇ですので！
+[k]
+
+＠牛若丸
+私もカルデアで様々な金太郎譚を拝読しましたとも！
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+…………。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+（小太郎くんも無言で頷いているぞ）
+[k]
+
+[charaTalk D]
+[charaFace D 3]
+
+＠牛若丸
+（……いえ、外国かぶれの金の髪には驚きましたが……[r]　何かの乱心に違いありません）
+[k]
+
+＠牛若丸
+（きっとアレですね、アレ。[r]　思春期に見られる、母親への反抗期とか、そういう）
+[k]
+
+[charaTalk F]
+[charaFace F 3]
+
+＠坂田金時
+あー……いや、[r]オレは大将と一緒に暴れてただけなんだが……
+[k]
+
+＠坂田金時
+ンな目で見られんのはこそばゆいな。[r]大将がご先祖さまっつーことは、おまえも源か？
+[k]
+
+
+[charaTalk D]
+[charaFace D 1]
+
+＠牛若丸
+はい！　父は義朝、母は常磐、そしてもちろん[r]兄には頼朝！　牛若丸にございます[charaShake D 0.1 3 3 99][charaMove D 1 0.3]！
+[k]
+
+
+[charaTalk F]
+[charaFace F 0]
+
+＠坂田金時
+へへっ、そうかそうか……って待て、[charaFace F 5]オイ、[r]あまり近付くな。上下に飛び跳ねるな。
+[k]
+
+[charaMove D 0 0.2]
+[charaShakeStop D]
+
+[charaTalk D]
+[charaFace D 3]
+
+＠牛若丸
+はっ。申し訳ありません、興奮してつい！
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.3]
+
+[charaFadeout F 0.4]
+
+
+[messageOff]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.4 1]
+
+[wipeFilter circleIn 0.4 1.3]
+
+＠坂田金時
+（コイツの鎧、スパークしすぎジャン！？[r]　ライダーだからか！？　ライダーだからかァ！？）
+[k]
+
+＠坂田金時
+（後世の源氏はこれがデフォなのかよ！？　丸見えじゃ[r]ねえか！　腰のも……ありゃ下穿きだよなあ！？）
+[k]
+
+＠坂田金時
+（まったく攻め攻めだぜチクショウ……源氏の装備は[r]グレート＆デンジャラスにレヴォリューションだ……）
+[k]
+
+
+[charaFadeout F 0.4]
+[wt 0.4]
+[wipeOff]
+
+
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+
+＠マシュ
+金時さん、赤面して顔を背けてらっしゃいますね。
+[k]
+
+＠Dr.ロマン
+髪型は違うしバイクにも乗ってるけど、[r]いつもの金時くんとそれほど変わらないようだね。
+[k]
+
+＠Dr.ロマン
+何にしろ、頼りになる仲間なことに変わりはない。[r]さて、まずは情報収集から始めたいところだが[line 2]
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+
+
+＠風魔小太郎
+……む。気配！
+[k]
+
+[communicationCharaFace 2]
+
+＠Dr.ロマン
+うん。鬼達が接近中だ！　でも数は少数……[r]単なる見回りかな。仲間を呼ばれる前に倒してしまおう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

@@ -1,0 +1,47 @@
+＄91-70-04-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10915]
+[charaSet C 7004001 1 フラン]
+[charaSet D 7004001 1 フラン（？）]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠フラン（？）
+[line 2]ふん、そんなもの、でしょうね。[r]なら、いいわ。私が、相手を、する。
+[k]
+
+＠フラン（？）
+あなたたちは、いい、テストケース。[r]私は、まだ……完璧では、ない。
+[k]
+
+＠フラン（？）
+でも、きっと、姉さんを、倒せば。[r]きっと、絶対に、必ず、完璧に[line 2]なる。
+[k]
+
+[charaFace D 2]
+＠フラン（？）
+行くよ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠フラン
+シャ[line 6]ッ！！
+[k]
+
+[charaFadeout D 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

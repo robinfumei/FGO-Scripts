@@ -1,0 +1,348 @@
+＄91-20-11-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10902]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 2011001 1 ニコラ・テスラ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 98006100 1 ？？？]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠ニコラ・テスラ
+本来であれば[line 2]
+[k]
+
+[charaFace C 0]
+＠ニコラ・テスラ
+私は、目にしたかったのだよ。[r]数多の[#叡智:えいち]によって導かれし新たなる人類世界を。
+[k]
+
+[charaFace C 5]
+＠ニコラ・テスラ
+二十一世紀なる地平の新たな輝きを、[r][#私の望んだ]電気文明[#華:はな]やかなりし新世界の在り方を！
+[k]
+
+[charaFace C 1]
+＠ニコラ・テスラ
+召喚の折に多くの知識を私は与えられた。[r]そう、二十一世紀についても！
+[k]
+
+[charaFace C 2]
+＠ニコラ・テスラ
+ああそうとも、私は歓喜した！[r]新たな世界の輝きを目にできると！
+[k]
+
+＠ニコラ・テスラ
+だが、哀しいかな！[r]世界は焼却されていたのだ[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+あの……すみません、ミスター・テスラ、[r]それってまだ続きますかね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ニコラ・テスラ
+電気はどこだ！[r]私が人類に与えた新文明の原動力、ゼウスの雷霆！
+[k]
+
+[charaFace C 3]
+＠ニコラ・テスラ
+嗚呼、最も二十一世紀に近しい時代の中で[r]特異点として文明が保たれているのが、まさか、まさか！
+[k]
+
+[charaFace C 2]
+＠ニコラ・テスラ
+[line 2]勝手知ったる十九世紀ッ！！
+[k]
+
+＠ニコラ・テスラ
+更にはロンドン！！
+[k]
+
+[charaFace C 0]
+＠ニコラ・テスラ
+忌まわしき召喚により現界したこの私が破壊せんとした[r]この時代、この場所のみであるとは！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+続くようですね。[r]ええと、ミスター、あの……よろしいでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォーウ、フォウ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ニコラ・テスラ
+これは我が業であるのか！[r]神よ[line 2]
+[k]
+
+[charaFace C 2]
+＠ニコラ・テスラ
+いいや、果てにて輝く雷電よ！[r]私に斯様な試練を与えたもうというのか！
+[k]
+
+＠ニコラ・テスラ
+雷電よ！　雷鳴よ！　偉大なりし[r]雷電実験を果たしたベンジャミン・フランクリンよ！
+[k]
+
+？1：そろそろいいですか！
+
+[charaFace C 4]
+＠ニコラ
+ン[line 2]？
+[k]
+
+[charaFace C 1]
+？2：ミスター・サンダー！
+
+[charaFace C 0]
+＠ニコラ
+ノーだ。もしも私に二つ名を与えるならば、[r]そう、[#雷電博士:ドクター・ライトニング]と呼びたまえ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+ドクター・ライトニング……。[r]雷電博士……。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+か……かっこいい……！　な、何だろう、[r]胸ときめく響きですねドクターライトニング！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+Dr.ロマン！？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+？！
+
+＠ニコラ・テスラ
+ふうむ。[r]マスターたちには感謝しているとも。
+[k]
+
+＠ニコラ・テスラ
+世界を救うという使命の傍らで、[r]こうして私の[#散歩]に付き合ってくれているとは。
+[k]
+
+[charaFace C 1]
+＠ニコラ・テスラ
+実に、痛み入る。[r]ならば私も応えねばなるまい。
+[k]
+
+[charaFace C 0]
+＠ニコラ・テスラ
+一度は世界焼却の一旦を担いかけてしまった身だ、[r]その償いは果たすとも。任せておきたまえ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ん？　え？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+ミスター・ニコラ・テスラ。[r]修正されつつあるこの時代に来たことに、理由が？
+[k]
+
+＠マシュ
+（先刻は、その、最も現代に近い時代に[r]　来たかっただけのようなことを言ってたような……）
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠ニコラ・テスラ
+無論。
+[k]
+
+[charaFace C 0]
+＠ニコラ・テスラ
+この場所が何処か覚えているかな。[r]マスター。
+[k]
+
+？1：大英博物館の近くだね
+
+？2：どこだっけ
+
+？！
+
+[charaTalk A]
+[charaFace A 13]
+＠マシュ
+はい、先輩。わたしたちの現在地は[r]大英博物館[line 2]魔術協会への入口跡のごく近くです。
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠ニコラ・テスラ
+散歩ついでに、[r]私は世界を救うのだ。
+[k]
+
+＠ニコラ・テスラ
+私は、新たなる時代を[#拓:ひら]く星の英霊。[r]神々がかつて果たした事柄の幾つかは我が責務。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ず、随分と大きく出たな。[r]確かにニコラ・テスラは強力な英霊ではあるし、
+[k]
+
+＠Dr.ロマン
+星の属性を有する稀有な英雄の一体だ。[r]星の開拓者、なんていう規格外のスキルまで持っている。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でも、何？[r]世界を救うって何？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ニコラ・テスラ
+仕上げだ。[r]この時代の修正は果たされたが[line 2]
+[k]
+
+＠ニコラ・テスラ
+僅かに残るものがある。[r]放っておけば、いずれ災厄の芽ともなり兼ねん。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+この時代に、まだ何か[line 2]？
+[k]
+
+[charaTalk C]
+[charaFace C 4]
+＠ニコラ・テスラ
+見ろ。すぐに来る。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.5 1]
+[se ad21]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+＠？？？
+[line 6]。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+魔力反応！？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+本当だ！　って、ああっまたこっちの感知より早い！！[r]ええと、大英博物館跡から何かどんどん来てるよ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+これは、自律行動して暴走する魔術書か！[r]魔霧はおさまってきてるのに、なんで動くかなあ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ニコラ・テスラ
+修正されゆく時代の狭間に、[r]目覚めんとする悪が在る。それだけだ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+何それ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+話している時間はありません！[r]先輩、敵性体が来ます！
+[k]
+
+？1：戦闘態勢！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+了解、マスター！[r]速やかに敵性勢力を撃退します！
+[k]
+
+[charaFadeout A 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

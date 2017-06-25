@@ -1,0 +1,202 @@
+＄94-00-31-10-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98062000 1 アイリスフィール]
+[charaSet F 1001000 1 アルトリア]
+[charaSet G 6015001 1 アサシン？]
+
+[scene 25600]
+
+[charaTalk F]
+[charaFace E 5]
+[charaFace F 5]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+[fadein black 2.0]
+[wait fade]
+
+＠アイリスフィール
+厄介な……霊脈を味方につけているわね。[r]長引くほどにこちらが不利になる！
+[k]
+
+＠アルトリア
+アイリ、こちらはまだまだ行けます。[r]魔力の備蓄も充分です！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace A 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠エルメロイ
+ううむ、思った以上に粘り腰だな。[r]こいつは厄介な……。
+[k]
+
+[charaFace A 2]
+＠マシュ
+はッ？　危ない！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+
+[charaTalk A]
+[charaFace A 15]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[charaFadein A 0.1 900,0]
+
+[fowardEffect bit_talk_42]
+[charaMove A 1 0.3]
+[wait charaMove]
+[fowardEffectStop bit_talk_42]
+[wt 0.2]
+
+[se ad32]
+[charaShake A 0.05 3 3 0.5]
+[fowardEffect bit_talk_14]
+[wait fowardEffect bit_talk_14]
+[wait se ad32]
+
+[charaFadeout A 0.7]
+[wt 1.0]
+
+[charaFace E 3]
+＠アイリスフィール
+え？　何……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace A 7]
+[charaFace D 5]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠エルメロイ
+やはり伏兵か！　だが今の攻撃……。
+[k]
+
+＠マシュ
+はい、標的は先輩ではなくセイバーのマスターでした。
+[k]
+
+＠エルメロイ
+アインツベルンの手先ではない？[r]ではまったくの別口か！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アサシン？
+地勢操作魔術で隠身が効かないのか……[r]まったく、やりづらい。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+あれは……[r]キャスターのマスターを殺したサーヴァント！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace G 0]
+[charaFace E 5]
+[charaFadein G 0.1 2]
+[charaFadein E 0.1 0]
+
+＠アイリスフィール
+クラスはアサシンね。[r]漁夫の利が狙いってわけ？
+[k]
+
+＠アサシン？
+いや、獲物は一つで十分だ。[r]狙うはおまえ一人だけだ、聖杯の担い手。
+[k]
+
+[charaFace E 3]
+＠アイリスフィール
+……なんですって？
+[k]
+
+＠アサシン？
+おまえに何の咎があるわけでもないが。[r]その命は聖杯解体に至る最短手順の犠牲。悪く思うな。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アルトリア
+させるものか！
+[k]
+
+[charaFadeout F 0.1]
+
+[messageOff]
+[charaTalk off]
+[charaFace G 0]
+[charaFace F 2]
+[charaFadein G 0.1 900,0]
+[charaFadein F 0.1 -900,0]
+[charaMove G 2 0.2]
+[charaMove F 0 0.2]
+[wait charaMove]
+
+[se ad32]
+[shake 0.05 0 4 0.5]
+[fowardEffect bit_talk_14]
+[wait fowardEffect bit_talk_14]
+[seStop ad32]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+
+[se ad33]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 12]
+[charaFace D 5]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+セイバーとアサシンが交戦に入りました。[r]わたしたちはどうすれば……。
+[k]
+
+＠エルメロイ
+あのアサシンの狙いが何であれ、[r]今ここでセイバーを脱落させるわけにはいかん。
+[k]
+
+[charaFace D 2]
+＠エルメロイ
+[%1]、アインツベルンを援護するぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

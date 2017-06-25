@@ -1,0 +1,114 @@
+＄01-00-06-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 5012001 1 ニトクリス]
+
+[scene 28801]
+[backEffect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[bgmStop BGM_EVENT_3 0.7]
+[effect bit_talk_13]
+[wt 0.1]
+[se bac10]
+[shake 0.05 0 4 0.4]
+[wait effect bit_talk_13]
+[wt 0.2]
+[se ad24]
+[wait se ad24]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+っ、やりました、マスター！[r]スフィンクス、上空に離脱していきます！
+[k]
+
+？1：よくやった、マシュ！
+？2：がんばった[&な:ね]、マシュ！
+
+？！
+
+＠ニトクリス
+（……あんなに弱々しい体で、よくも……[r]　見れば手足はまだ震えているではないですか……）
+[k]
+
+[charaFace A 7]
+＠マシュ
+女王ニトクリス！[r]スフィンクスはわたしたちを見逃しました！
+[k]
+
+＠マシュ
+貴女の言う試練は、[r]これで終わりではありませんか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ニトクリス
+[line 3]ええ、見事なり！[r]汝らは太陽王に、その力を認められた！
+[k]
+
+＠ニトクリス
+であれば、これより私の案内は不要！[r]恐れずにこの嵐を抜けるがいい！
+[k]
+
+＠ニトクリス
+王の慈悲は光輝となって汝らを迎えるだろう！[r]さらばだ！
+[k]
+
+[charaFadeout E 0.4]
+[se ad60]
+[wt 0.4]
+[seStop ad60 1.6]
+[bgmStop BGM_EVENT_4 0.7]
+[wt 2.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……[r]ニトクリスさん、行ってしまいましたね……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+彼女なりのケジメをつけたって事だね。[r]これ以上一緒にいると情が移る、とも思ったのかも。
+[k]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+ともあれ、これで私たちは安全だ。[r]周りのスフィンクスは襲ってこない。
+[k]
+
+＠ダ・ヴィンチ
+彼女の言葉通り、この嵐を突っ切ろう。[r]この特異点で一体なにが起きているのか[line 3]
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+いよいよ、その真相と対面だ。
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[soundStopAll]
+[end]

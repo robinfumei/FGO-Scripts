@@ -1,0 +1,268 @@
+
+
+
+＄01-00-07-17-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 3028000 1 ジャガーマン]
+[charaSet E 98106100 1 キングゥ]
+[charaSet F 98107800 1 ラフム]
+[charaSet G 98107800 1 ラフムＢ]
+[charaSet H 98107800 1 ラフムＣ]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠キングゥ
+くっ……！
+[k]
+
+[messageOff]
+[se bac25]
+[charaFadeout E 0.1]
+[wt 0.7]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+[wt 0.1]
+[se bac17]
+[charaEffect F bit_talk_13]
+[charaShake F 0.05 0 2 0.4]
+[wt 1.0]
+＠ラフム
+効カナイ！　効カナイ！[r]聖杯モナイ、母カラノ　声モ　聞コエテイナイ！
+[k]
+
+＠ラフム
+モウ要ラナイ！　キングゥ、モウ要ラナイ！[r]キングゥ、カワイソウ、カワイソウ！
+[k]
+
+＠ラフム
+ギ[line 3]キキ、キキキキ、可哀ソウ面白イ！[r]可哀ソウ　ハ　面白イ！　滑稽デ　面白イ！
+[k]
+
+＠ラフム
+面白イ　キングゥ！[r]自分ダケ旧式ダト　今マデ　気付イテ　イナカッタ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠キングゥ
+な……んだと……！[r]量産品の分際、で……！
+[k]
+
+[messageOff]
+[se bac25]
+[charaFadeout E 0.1]
+[wt 0.7]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+[wt 0.1]
+[se bac17]
+[charaEffect F bit_talk_13]
+[charaShake F 0.05 0 2 0.4]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠キングゥ
+くっ……こんな、こんなはず……！[r]ボクはこの時代で、最強の兵器なのに……！
+[k]
+
+[messageOff]
+[se ad54]
+[se ad59]
+[seStop ad59 1.2]
+[charaMove E 128,0 0.4]
+[charaFadeout E 0.4]
+[wt 1.4]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠ラフム
+逃ゲタ、逃ゲタ！[r]ギャハハ、ギャハハハハハハハハハハハハハハハ！
+[k]
+
+＠ラフム
+狩リダ、狩リダ！[r]旧式ヲ、[#沢山:こまかく]、[#沢山:こまかく]、分解シヨウ！
+[k]
+
+[messageOff]
+[se ad202]
+[wt 1.0]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaSet E 98107900 1 ベル・ラフム]
+[scene 34310]
+[wt 1.0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ベル・ラフム
+楽しイ　楽シい！[r]オマエタチノ　嘆キは　楽シい！
+[k]
+
+[messageOff]
+[charaSpecialEffect E erasureReverse 1 0.4]
+[se bac112]
+[wait charaSpecialEffect E]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ラフム変化個体、上空に離脱……！[r]このままでは逃げられます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk depthOff]
+[charaDepth B 0]
+[charaDepth F 1]
+[charaDepth G 1]
+[charaDepth H 2]
+
+[charaTalk B]
+[charaFace B 17]
+[charaFadein B 0.1 1]
+＠イシュタル
+私と速さ勝負をしようって[#腹:はら]！？[r]上等よ、乗ってやるわ、わ、わァ！？
+[k]
+
+[charaMove B 0,50 0.2]
+[wt 0.2]
+[se ad7]
+[charaFace F 0]
+[charaFadein F 0.1 -120,50]
+[charaShake B 0.05 3 3 0.25]
+[wt 0.4]
+
+[charaMove B 0,15 0.2]
+[wt 0.2]
+[se ad7]
+[charaFace G 0]
+[charaFadein G 0.1 140,-30]
+[charaShake B 0.05 3 3 0.25]
+[wt 0.4]
+
+[charaMove B 0,-20 0.2]
+[wt 0.2]
+[se ad7]
+[charaFace H 0]
+[charaFadein H 0.1 -20,-120]
+[charaShake B 0.05 3 3 0.25]
+[wt 1.0]
+[charaFace B 9]
+[charaShake B 0.05 3 3 1.0]
+＠イシュタル
+この、離れろ、この[line 3]っ！[r]ごめん、コアトル、[%1]と行って！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+来なさい、ケツァルコアトルス！[r][%1]、乗って！　マシュも！
+[k]
+
+[seLoop ad158]
+[wt 0.7]
+[seStop ad158 2.0]
+＠ケツァル・コアトル
+いいわね、アイツを追い掛けます！
+[k]
+
+＠ケツァル・コアトル
+ジャガー！[r]市民の避難と保護、王への伝達はアナタの役目よ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャガーマン
+ラニャ、任された！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace C 7]
+[charaFadein C 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+待ってください、キングゥが残されています！[r]あの傷では、彼はラフムから逃げられません！
+[k]
+
+[charaFace C 5]
+＠ケツァル・コアトル
+無理よ。それは諦めて。[r]これが私たちの最大限。これ以上は手は伸ばせない。
+[k]
+
+＠ケツァル・コアトル
+キングゥの命は、[r]もう彼自身の運命に委ねるしかありません！
+[k]
+
+＠ケツァル・コアトル
+私たちはあのラフムを追います！　行き先はおそらく[r]海洋[line 3]アレを逃がせば全てが終わるのだから！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.7]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[fadeout black 0.1]
+[wait fade]
+[wipein leftToRight 0.1 1]
+[wait wipe]
+[wt 0.4]
+[soundStopAll]
+[end]

@@ -1,0 +1,369 @@
+＄94-00-31-17-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98061000 1 ウェイバー]
+[charaSet F 4002001 1 イスカンダル]
+[charaSet G 1001000 1 アルトリア]
+
+[scene 20200]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[wt 0.2]
+[se bac18]
+[charaEffect F bit_talk_13]
+[charaShake F 0.05 3 3 0.4]
+[wait charaEffect F bit_talk_13]
+[wt 0.2]
+[charaFadeout F 0.4]
+[wt 0.2]
+[se ad58]
+[seStop ad58 0.5]
+[wt 0.5]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠ウェイバー
+ライダー！？
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_6 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+＠イスカンダル
+ぐッ……見事だ……フフフ、石兵八陣とかいったか。[r]これはしてやられたわい。
+[k]
+
+＠エルメロイ
+……。
+[k]
+
+＠エルメロイ
+この力は、私が自ら身に修めたものではない。[r]ただの偶然で手に入れたものだ。
+[k]
+
+＠エルメロイ
+結局、私は自分の力では、あなたに及ぶことなど……。
+[k]
+
+[charaFace F 1]
+＠イスカンダル
+ハハ、ばかもん。
+[k]
+
+[se ad76]
+[wt 0.05]
+[charaShake D 0.05 3 3 0.25]
+
+[charaFace D 10]
+＠エルメロイ
+！？
+[k]
+
+？1：今の……デコピン？
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ウェイバー
+なんでそいつに……。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.3]
+
+[charaEffect F bit_talk_06]
+
+
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠イスカンダル
+覇道を拓くのに、揮う力が誰のものかなんぞ関係ないわ。[r]それをいかに御し、導くか……肝要なのはそっちだ。
+[k]
+
+[charaFace F 3]
+＠イスカンダル
+余の[#王の軍勢:アイオニオン・ヘタイロイ]を目の当たりにしたのなら、[r]その程度は悟れよな。この唐変木め。
+[k]
+
+[charaFace D 10]
+＠エルメロイ
+ライダー……。
+[k]
+
+[charaFace F 4]
+＠イスカンダル
+ん？　痛かったか？　済まんな。力加減が分からなかった。[r]ちょっともう、指先の感覚がおぼつかないもんでな……。
+[k]
+
+[charaFace F 3]
+＠イスカンダル
+まぁ、そこまで深い皺を刻んだ額なら、[r]今さらちょっとやそっとで傷はつくまい。なぁ？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaFadein F 0 1200,1200]
+
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……馬鹿な事を。[r]体より心に響く傷というものもある。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[charaFace F 0]
+＠イスカンダル
+ハハ、そう言うな。いやぁ、いい戦だった。[r]済まんな坊主、余は、ここまでのようだ……。
+[k]
+
+[messageOff]
+
+[charaEffectStop F bit_talk_06]
+
+
+[charaSpecialEffect F flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect F]
+[wt 1.0]
+
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠ウェイバー
+……なんでだよ？　ここで泣くのはボクの筈だろ。[r]なんであんたが泣いてんだよ？
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_6 1.0]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……ああ。無様なところを見せたな。[r]今生、会うコトはないと思っていたが……。
+[k]
+
+[messageOff]
+
+[charaEffect D bit_talk_12]
+[wt 0.1]
+[charaFace D 5]
+[se bac5]
+[charaShake D 0.05 3 3 0.4]
+[wt 0.2]
+＠エルメロイ
+ぐはッ！　……な……ッ！？[bgm BGM_EVENT_3 0.1]
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[wt 0.2]
+[se ad58]
+[seStop ad58 0.5]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ロード・エルメロイ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォッ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠アルトリア
+今の攻撃は！？　どこから！？
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+
+[wt 0.4]
+[charaSet A 98064000 1 臓硯]
+[charaSet C 7002001 1 バーサーカー]
+[charaSet D 3002000 1 ディルムッド]
+[charaSet E 6015001 1 アサシン？]
+[charaSet F 98062000 1 アイリスフィール]
+
+[se ad60]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+
+＠臓硯
+クカカカ、油断が過ぎるぞ策士どの。[r]愁嘆場で気が漫ろでは、自慢の方位魔術も形無しだのぅ。
+[k]
+
+[charaFadeout A 0.1]
+
+
+[charaTalk C]
+[charaFace A 2]
+[charaFace C 5]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠バーサーカー
+aaa……Aaaaa……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ディルムッド
+バーサーカー！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠アサシン？
+ぬかった……この期に及んでまだ伏兵とは！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+マキリの魔術師……ゾォルケンね？[r]いったいどういうつもり！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠臓硯
+それはこちらの台詞だアインツベルン。
+[k]
+
+[charaFace A 4]
+＠臓硯
+大聖杯の解体に荷担するなど……貴様らは我ら御三家の[r]悲願を忘れるまでに失墜したか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+見れば分かるでしょう！　この儀式はとっくの昔に失敗し[r]てる！　こんな聖杯で[#天の杯:ヘブンズフィール]は成就しない！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠臓硯
+それがどうした？　だから何だ？[r]何処に至り何を成すかなど、もうどうでも良いことだ。
+[k]
+
+[charaFace A 2]
+＠臓硯
+すべてを捧げ、費やした我らの五〇〇年……その結末の[r]カタチさえ目の当たりにできるなら、それで構わぬ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+ゾォルケン、正気なの！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠臓硯
+さてな。何をもって正気と狂気を分かつか。[r]もはや魂すら朽ちたこの身では判然とせぬ。
+[k]
+
+[charaFace A 2]
+＠臓硯
+だが、この大聖杯にだけは指一本触れさせぬぞ、小童ども。[r]これは我らが古き夢の結晶。断じて譲りはせぬ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠バーサーカー
+Aaaaaaッ！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

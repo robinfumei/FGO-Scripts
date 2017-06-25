@@ -1,0 +1,803 @@
+＄94-00-31-11-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 3002000 1 ディルムッド]
+[charaSet F 98059000 1 ケイネス]
+
+[scene 25700]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+敵サーヴァント消滅……[r]ですが、これもまた断片なんでしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+
+＠Dr.ロマン
+一人一人は強敵じゃないとはいえ、[r]数にかぎりがないっていうのは厄介だねぇ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ともかく新手の尾行がつかないうちに[r]ケイネス卿と合流しよう。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+
+[scene 25400]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_7 2.0]
+[fadein black 2.0]
+[wait fade]
+
+＠ケイネス
+君の提案の通り、昨夜のうちに間桐邸へ使い魔を送り[r]交渉を行った。バーサーカーは共闘に応じるそうだ。
+[k]
+
+[charaFace F 3]
+＠ケイネス
+遠坂家のサーヴァントと対決する機会を[r]こちらで[#設:しつら]える、という条件でな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+恐れ入ります。しかし残念ながら、その件については[r]お手間をとらせるだけの甲斐があったかどうか……。
+[k]
+
+[charaFace F 5]
+＠ケイネス
+なに？　どういうことかね？
+[k]
+
+＠エルメロイ
+こちらでも大きく進捗がありました。[r]いや、決定的な成果とも言えましょう。
+[k]
+
+＠エルメロイ
+いくつかの不確定要素について観測がつき、パラドックス[r]を回避しつつ開示できる情報が大幅に増えました。
+[k]
+
+＠エルメロイ
+結果……今こそ私は貴方にすべての真相を語ることが[r]できます。この冬木市における聖杯戦争の真意を。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+（フォ？）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 5]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠ケイネス
+な、なんだそれは？
+[k]
+
+＠エルメロイ
+そもそも奇妙だとは思いませんでしたか？
+[k]
+
+＠エルメロイ
+万能の願望機を競い合うなどという大仰な大儀式が、[r]時計塔を遠く離れたこのような僻地で開催されたこと。
+[k]
+
+＠エルメロイ
+七人を募った参加者のうち、魔術協会のために[r]用意されたのがたった一枠限りしかない点……。
+[k]
+
+[charaFace F 0]
+＠ケイネス
+うむ、まぁ、だからこそ然程のリスクもない、[r]評判倒れの遊興であろうと見越して参加した訳だが。
+[k]
+
+＠エルメロイ
+評判倒れどころか、その実体は有名無実。[r]ここ冬木での聖杯戦争とは、実は虚構でしかありません。
+[k]
+
+？1：（ちょ？）
+？2：（もしも～し！？）
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+（先輩、顔に出てます！　ポーカーフェイスです！）
+[k]
+
+[charaFadeout A 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+全ては我がアーチボルト家の政敵、[r]トランベリオ一派による陰謀なのです。
+[k]
+
+＠エルメロイ
+ある期間だけロード・エルメロイを時計塔から引き離し、
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+その留守の隙に乗じて一気に魔術協会内部の勢力を[r]拡大しようという企みなのです！
+[k]
+
+[charaFace F 6]
+＠ケイネス
+な、なんだとぉ！？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+我々は、御身がトランベリオ派の陰謀で罠に嵌められる、[r]という結果だけを知って過去干渉に踏み切りました。
+[k]
+
+＠エルメロイ
+ただし未然の出来事について警告はできない。[r]未来の知識を貴方と共有するためには……。
+[k]
+
+＠エルメロイ
+干渉先の過去時間で、確かに陰謀が存在するという[r]明確な証拠を観測する必要があったのです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFadein C 0.1 0]
+[communicationCharaLoop 98003003 2 5 0 4]
+
+＠Dr.ロマン
+（うわ～口から出任せでよくもここまで……）
+[k]
+
+＠フォウ
+（……フォウ）
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+昨夜ようやくその証拠を掴みました。聖杯戦争の開催者[r]たる御三家のひとつ、遠坂家から直々に証言を得ました。
+[k]
+
+[charaFace F 5]
+＠ケイネス
+ど、どうやってかね？
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+この街の霊脈を手当たり次第に破壊してやったのです。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+もちろん聖杯戦争という枠組みとは何の関係もない[r]破壊活動ですが、だからこそ遠坂は音を上げた。
+[k]
+
+＠エルメロイ
+狂言の聖杯戦争のために管理地の支配権を奪われたのでは、[r]たまったものではないでしょうしね。
+[k]
+
+＠エルメロイ
+遠坂はトランベリオ派と共謀し、四度目の聖杯戦争をでっち[r]上げてロード・エルメロイに誘いをかけたと白状しました。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+（嘘の中に事実も混ぜ込んでるのが、[r]本当にタチが悪いです、ロードさん……）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+研究者としてでなく実戦「武勲」を求めていたケイネス卿が、[r]まんまと誘いに釣られるような絶好の闘技場……。
+[k]
+
+＠エルメロイ
+それがこの冬木の儀式の正体です。招かれた他の参加者も、[r]監督役として引き入れられた聖堂教会も、
+[k]
+
+＠エルメロイ
+すべてこの狂言に真実味を持たせるための囮にすぎません。
+[k]
+
+[charaFace F 5]
+＠ケイネス
+なんと周到、なんと悪辣……だが民主主義に傾倒した愚者ども、[r]トランベリオ派なら、やる！　確かにやりかねない！
+[k]
+
+[charaFace F 4]
+＠ケイネス
+私は……いったい私は何のために、[r]貴重な時間を割いてまでこのような徒労を！
+[k]
+
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+（あー……釣られちゃいましたね本当に）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+まぁ、とはいえ。[r]キャスターを倒したお手並みは実に見事でしたし。
+[k]
+
+＠エルメロイ
+ソラウ嬢もあらためて貴方の頼もしさに[r]惚れ直したのではないかと。
+[k]
+
+[charaFace F 3]
+＠ケイネス
+そ、そうかね？　フム……。
+[k]
+
+＠エルメロイ
+間違いありません。私は女性のその手の感情の動きには[r]敏感なのです。あれは、そう[line 3]
+[k]
+
+＠エルメロイ
+“今までまったく興味がなかったけれど、今回の[r]頼れる一面がギャップになって嫌いが好きに反転した”
+[k]
+
+＠エルメロイ
+それぐらいの心の変化ではないでしょうか。
+[k]
+
+[charaFace F 6]
+＠ケイネス
+なんという……！　いや、その前提はなんという？[r]まあいい、[charaFace F 7]結果は素晴らしいものなのだからな！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+（あー……ちょっとボク、[r]この人に同情しちゃうなぁ……）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+ともあれ、事は一刻を争います。どうか急ぎロンドンへと[r]帰還しトランベリオ派の陰謀を阻んでくださいませ！
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+いかにアーチボルト家の基盤が盤石といえど、御身を欠い[r]ては民主派の卑劣なる企み事に翻弄されるばかりです。
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+貴族主義[line 3][r]我ら家門の存亡は、この一事にかかっているのです！
+[k]
+
+[charaFace F 5]
+＠ケイネス
+ええい、小癪なトランベリオめ、[r]バリュエレータめ！
+[k]
+
+[charaFace F 2]
+＠ケイネス
+目にもの見せてやるわ！　ソラウ、急ぎ身支度を！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+（フォー……）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ディルムッド
+新たなる戦場は海の彼方……マスター、[r]不肖このディルムッドもお供させていただきます！
+[k]
+
+＠ディルムッド
+もとより聖杯に託す願いなど持ち合わせぬ身。[r]主の臨む戦場こそ我が槍の見せ所です！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+おお、それは心強い。サーヴァントまで同伴するとなれば、[r][#きっとソラウ嬢もお喜びになることでしょう]。
+[k]
+
+[charaFace F 6]
+＠ケイネス
+……う、む……。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[se bas16]
+[fowardEffect bit_talk_06]
+[wt 0.1]
+[fowardEffectStop bit_talk_06]
+
+＠ケイネス
+ランサーよ、令呪をもって命ずる。[r]貴様はここに居残って聖杯戦争を継続せよ。
+[k]
+
+[wait fowardEffect bit_talk_06]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFace E 2]
+[charaFadein F 0.1 2]
+[charaFadein E 0.1 0]
+＠ディルムッド
+な、なんですと！？
+[k]
+
+＠ケイネス
+いかに狂言といえど一度は名乗りを上げた以上、[r]形だけでも勝利を掴まなければ私の面目が立たぬ。
+[k]
+
+[se ad95]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 900,0]
+[charaMove E -900,0 0.5]
+[charaMove D 2 0.5]
+[charaMove F 0 0.5]
+[wait charaMove]
+[charaFadeout E 0.1]
+[seStop ad95]
+
+＠エルメロイ
+さすがはロード・エルメロイ！　我らがアーチボルトの[r]誇りの在り方を心得ていらっしゃる！
+[k]
+
+[charaFace F 1]
+＠ケイネス
+諸君らには置き土産として我がサーヴァントを託す。[r]名代として当家の意地を示せ。
+[k]
+
+[charaFace F 5]
+＠ケイネス
+この馬鹿げた茶番に荷担した連中を一人残らず蹴散らして、[r]真の強者が誰なのかを知らしめるのだ！
+[k]
+
+＠エルメロイ
+お任せください！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ディルムッド
+……主がそう仰せなら、私には是非もありませぬ。[r]新たなるマスターと共に精一杯、務めを果たすのみです。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+（酷い！　口八丁だけでサーヴァントの再契約とか[r]初めて見た！）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠ケイネス
+……ああ、最後にひとつだけ。[r]君は私の書斎で恋文の下書きを見つけたと言っていたな。
+[k]
+
+＠エルメロイ
+……？　はい。それが何か？
+[k]
+
+[charaFace F 4]
+＠ケイネス
+この私がそんな迂闊なものを残したまま、[r]他人の手で部屋を漁らせるなど、断じてあり得ぬ話だ。
+[k]
+
+[bgmStop BGM_EVENT_7 1.0]
+
+[charaFace F 0]
+＠ケイネス
+思うに、未来の君が検めた私の書斎というのは……[r]主がついに戻らなかった部屋なのではないか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+……はい。仰せの通りです。
+[k]
+
+[charaFace F 8]
+＠ケイネス
+ふむ、その一点についてだけは、[r]礼を言っておくべきなのだろう。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+……勿体ないお言葉、恐縮です。[r]我が昔日の師。私が目指したロード。偉大なるエルメロイ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+御身の才能は時計塔の誇る至宝です。[r]どうかくれぐれもご自愛召されるよう。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 25700]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 2 5 0 5]
+
+[wt 1.0]
+
+[fadein black 2.0]
+[wait fade]
+
+＠Dr.ロマン
+ロード・エルメロイ……[r]ここは改まってⅡ世と呼ばせてもらうけれど。
+[k]
+
+＠エルメロイ
+何かね？
+[k]
+
+＠Dr.ロマン
+釈迦に説法だとは思うけれど、[r]君が先代に吹き込んだ虚偽は……。
+[k]
+
+＠Dr.ロマン
+そもそもの根幹においても全くの虚偽だということを、[r]君自身もきちんと理解しているんだよね？
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+どういう意味ですか？　ドクター。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 2 5 0 5]
+
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠Dr.ロマン
+カルデアスはタイムマシンなどではないし、[r]君たちもまたその時間における未来人という訳じゃない。
+[k]
+
+＠Dr.ロマン
+この特異点は焼却された歴史の中にたまたま浮かび[r]上がった泡のようなもの、ごく限られた領域でしかない。
+[k]
+
+＠Dr.ロマン
+出現の原因となった異変が解消されれば消えてしまう……[r]実際の歴史とはまったく無縁な夢のようなものだ。
+[k]
+
+＠エルメロイ
+……。
+[k]
+
+＠Dr.ロマン
+故に、君がどんなに骨を折ろうと、[r]実際の歴史が改編できる訳ではない。
+[k]
+
+＠Dr.ロマン
+たとえこの場で誰かを救済したとしても、[r]その救いはこの場かぎりのものだ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+もといた君の時間線においては、死者は死者のまま、[r]悲劇は悲劇として確定したままだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+レイシフトで過去に干渉することは、理論上不可能なんだ。[r]君の行いは……すべて無意味なんだぞ？
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 2 5 0 5]
+
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠エルメロイ
+それがどうしたというのだ？　ドクター。
+[k]
+
+＠Dr.ロマン
+これがまったくの徒労だということを君自身が[r]自覚しているのか、確かめておきたかったのさ。
+[k]
+
+＠Dr.ロマン
+どうにも君はこの局面を可能なかぎり穏便かつ円満に[r]解決しようとしているようだけど。
+[k]
+
+＠Dr.ロマン
+そこまで徹底しなくても、より単純で手間のかからない[r]方法は他にいくらでもあるんじゃないか？
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+徒労か……傍目にはそう見えるかもしれない。[r]だが[charaFace D 0]私にとっては大きな意味のあることだ。
+[k]
+
+＠エルメロイ
+実際には救えないとしても。[r]私は、今この場でできる最善をなし得たかった。
+[k]
+
+＠エルメロイ
+かつてできなかった事への償いではない。[r]同じ間違いを二度も看過する[line 3]
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+そんな弱さを、私の心が許さなかった。[r]それだけの話だ。
+[k]
+
+＠Dr.ロマン
+……。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+ただの自己満足と笑ってくれて構わんよ。
+[k]
+
+＠エルメロイ
+私は単に、自らの無力さを思い知らされるような展開を、[r]再び味わわぬよう避けて立ち回っているだけの事だ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+もちろん、悔恨の痛みは私だけのもの。[r]他の誰かにとっては痛痒でも何でもあるまい。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+その点、[%1]やマシュには[r]無駄な手間をかけさせて済まないとは思っているが……。
+[k]
+
+？1：構わないよ
+？2：無駄なんかじゃない
+
+？！
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。良くないことが起こるのを黙って見ている[r]のは、何か、人間として間違っていると思います。
+[k]
+
+＠マシュ
+結果がどうなるかなんて関係なく、[r]わたしはロードの方針に賛成です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 2 5 0 5]
+
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠エルメロイ
+ありがとう。そう言ってくれると助かる。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+……そうか。[r]人間らしい、という事だね。
+[k]
+
+＠Dr.ロマン
+ＯＫ、この件に関してボクはもう何も言わない。[r]で、次の計略はあるのかい？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+ああ。せっかくケイネス先生がバーサーカー陣営との[r]共闘をお膳立てしてくれたのだ。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+これを活かさない手はあるまい。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,125 @@
+＄01-00-03-05-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21250 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 4009101 1 メアリー]
+[charaSet G 4009201 1 アン]
+[charaSet H 4008002 1 黒髭]
+[charaFace D 2]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+大砲撃て、撃て、撃てェェェッ！
+[k]
+
+[se ad34]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21250 0]
+[charaFace E 0]
+[charaFadein E 0.4 2]
+[charaFace H 0]
+[charaFadein H 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠黒髭
+接舷ですぞ、皆様がた！　黒髭組、ふぁいと、おー！
+[k]
+
+[charaFace H 1]
+＠海賊
+ふぁいと、おー！
+[k]
+
+[charaFace H 5]
+＠黒髭
+ふぁいと、おー！（チラッ
+[k]
+
+＠海賊
+おー！
+[k]
+
+[charaFace H 1]
+＠黒髭
+……（チラッ
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠メアリー
+……僕たちもやれ、と？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠アン
+あはは、まさか。そんなのやるくらいなら、[r]自害せよと令呪で命令された方がマシですわ。
+[k]
+
+[charaFace G 4]
+＠アン
+……あ、もうこの際それでいいかもしれませんね。[r]ティーチ、自害しろって命令してくださらない？
+[k]
+
+[charaFace H 4]
+＠黒髭
+そんなに拙者の部下がイヤなの！？
+[k]
+
+[charaFadeout G 0.1]
+[charaSet D 4009001 1 メアリー＆アン]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠メアリー＆アン
+うん。
+[k]
+
+[charaFace H 4]
+＠黒髭
+そんなこと言わずにさぁ、手伝ってくだされよぉ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠アン
+うぅん、でも手伝う必要はなさそうですね。[r]船長が宝具を使っていれば、押し切れるでしょう。
+[k]
+
+[charaFadeout H 0.4]
+[charaFadeout G 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21250 0]
+[charaFadein E 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠海賊
+くそ、ダメです！[r]こちらの砲弾が弾かれちまいます！
+[k]
+
+＠海賊
+装甲の分厚さが段違いです！[r]やべ……乗り込んできました！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

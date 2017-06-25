@@ -1,0 +1,207 @@
+
+＄01-00-05-15-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3005002 1 エリザベート]
+[charaSet C 7014001 1 ナイチンゲール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 3004001 1 カルナ]
+[charaSet F 1019001 1 ラーマ]
+[charaSet G 5025001 1 エジソン]
+[charaSet H 5023001 1 ブラヴァツキー]
+
+[scene 20602]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+それでは[line 2]突入します！
+[k]
+
+？1：行くぞ！
+？！
+
+＠マシュ
+……はい！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[se ad45]
+[wt 1.0]
+[scene 20904]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.4 1]
+＠エジソン
+よくも来たな……！！[r]嘆かわしき裏切り者たちよ……！
+[k]
+
+[charaFace G 2]
+＠エジソン
+なぜ私の正しさを信じられないのだ！[r]さては陰謀説に浸かっているのか！？
+[k]
+
+＠エジソン
+エジソンは資本主義の権化だ、とか！[r]真の天才は商売などに傾倒しないのだ、とか！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+ミスター・エジソン。[r]陰謀論に振り回されているのはそちらではないかと。
+[k]
+
+＠ナイチンゲール
+私は貴方に知性の光を感じた事はありませんが、[r]貴方の発明が素晴らしいものである事は知っています。
+[k]
+
+＠ナイチンゲール
+ですので、そのような風評とは別の所で、[r]私は貴方を病んでいると診断しているのです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠エジソン
+ええい、言っている意味が分からん！[r]ナイチンゲールよ、統計学の才女よ！
+[k]
+
+[charaFace G 5]
+＠エジソン
+なぜバーサーカーなどで現界したのか……ッ！[r]私は、知性無き獣と話すつもりはないというのに！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠エリザベート
+……いや、アンタも獣じゃないかしら……？[r]らいおんだし……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+……はあ。やはり熱病に浮かされていますね。[r]せっかくの知性も台無しです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠エジソン
+う、むっ！？[r]ナイチンゲール女史、いま私をなんと！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+……失礼。口が滑りました。
+[k]
+
+＠ナイチンゲール
+マスター、オペの準備を。まずはベッドで安静状態に[r]してから、話を聞かせる他ありません。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠ブラヴァツキー
+強気ねフローレンス。[r]それはもしかして、戦って勝つということかしら。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+ええ、それ以外では話を聞いてくれそうにないので。[r]戦って、殴って、勝ちますが。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ブラヴァツキー
+分かりやすくて好きよ、そういうの。
+[k]
+
+＠ブラヴァツキー
+戦いは嫌いだし苦手だけど……。[r]ま、今回はそういうことを棚上げしますか。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+[bgm BGM_EVENT_3 0.1]
+＠ブラヴァツキー
+ミスタ・エジソン、準備はいい？
+[k]
+
+[charaFace G 0]
+＠エジソン
+う、うむ！？　ああ、できている。[r]現時点での最大電力で迎え撃ってやるのだとも！
+[k]
+
+[charaFace G 5]
+＠エジソン
+そして、真に知らしめよう。[r]この発明王の発明が、如何に偉大なのかを[line 2]！
+[k]
+
+[charaFace G 2]
+＠エジソン
+直流こそが、やはり王道なのだ！！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……やっぱりそこには拘るんですね……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

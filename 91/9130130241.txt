@@ -1,0 +1,486 @@
+
+＄91-30-13-02-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3013001 1 スカサハ]
+[charaSet C 3001001 1 クー・フーリン]
+[charaSet D 98006300 1 ？？？]
+[charaSet E 98015000 1 ？？？]
+[charaSet F 98015000 1 ？？？]
+
+[scene 20900]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+
+[se ad171]
+[wt 0.1]
+[se ad33]
+[wt 0.5]
+[se ad32]
+[wt 0.2]
+[se ad33]
+
+[wt 1.5]
+[fadein black 0.3]
+
+[wt 0.7]
+[se ad51]
+[charaFace C 2]
+[wt 0.1]
+[charaFace B 2]
+[wt 0.2]
+
+[fowardEffect bit_talk_41]
+[fowardEffect bit_talk_14]
+
+[fadeout white 0.2]
+[se ad32]
+[shake 0.05 4 4 0.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[fowardEffectStop bit_talk_41]
+[fowardEffectStop bit_talk_14]
+
+[wt 0.7]
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.5]
+[se ad7]
+[wt 1.0]
+[se ad95]
+[wt 0.2]
+[seStop ad95 0]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 1]
+
+＠スカサハ
+………………よく、戦うものだ。[r]此処まで至ったか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+終わりだ、スカサハ。[r]呆けているならとっとと醒めな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+まだ私は死んでいない。[r]お主たちも、生きていよう。
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[charaFace B 2]
+＠スカサハ
+なぜ止める。[r]殺し合いは、始まったばかり。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+何故も何もねえだろう、スカタン師匠。
+[k]
+
+＠クー・フーリン
+記憶の中で殺したところで、それは事実じゃねえ。[r]空想の死だ。んなもん、余計に死にきれなくなる。
+[k]
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaFace C 1]
+＠クー・フーリン
+死ぬなら現世で死にな。[r]さらに贅沢を言うんなら戦いに負けて、だろ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+……………………。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+そもそも何が、出来る限り遠慮はしねぇ、だ！[r]本気でも何でもねえ！
+[k]
+
+[charaFace C 0]
+＠クー・フーリン
+槍だけじゃねえだろう。[r]アンタが本気を出したなら、門のひとつも出すはずだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+門[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠クー・フーリン
+[#死溢るる魔境への門:ゲ　ー　ト　・　オ　ブ　・　ス　カ　イ]。見た事ねえか？[r]問答無用で、影の国の奥底へ相手を引きずり込む技だ。
+[k]
+
+＠クー・フーリン
+影の国の底の底、ソイツはもう殆どあの世だ。[r]生き物なんぞはたちまち死に果てる。
+[k]
+
+[charaFace C 2]
+＠クー・フーリン
+それをまったく使わない、ってのはよ！[r]手加減でなくて何だ、スカサハ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+…………む、むむ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+図星を指されたって顔だな。へえ、珍しいモン見たぜ。
+[k]
+
+[bgmStop BGM_EVENT_11 1.0]
+
+＠クー・フーリン
+……召喚されたせいかね。[r]アンタ、今、割と人間臭くなってるぜ。
+[k]
+
+＠クー・フーリン
+ま、それはマスターの性質もあるか。[r]コイツは何とも人間らしい人間だからな。
+[k]
+
+？1：どういう意味？
+？2：人間らしい人間って？
+
+？！
+
+[bgm BGM_EVENT_6 1.0]
+
+[charaFace C 0]
+＠クー・フーリン
+自分に出来る事を、出来る範囲で努力する。[r]出来ねえ事なら、出来る範囲に収めようとする。
+[k]
+
+＠クー・フーリン
+先達の助けを借りて、未来を夢見ている。[r]絶望的な状況下でも、人間として正しく抗い続ける。
+[k]
+
+＠クー・フーリン
+時折挫けそうになる[line 3]振り返りもする。[r]だが足を止めるのも振り返るのも一瞬だ。
+[k]
+
+[charaFace C 1]
+＠クー・フーリン
+な？[r]心当たりがあるだろう？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+…………参ったのう。意識してはいなかったが、[r]マスターに引っ張られていたのか、私は。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+さもなきゃこれほど弱々しくはならねえさ。
+[k]
+
+？1：え[line 3]
+？2：スカサハが、弱々しい？
+
+？！
+
+[charaFace C 0]
+＠クー・フーリン
+在り方ってのかね。[r]何を望むにしろ、スカサハが後ろ向きなのは[#らしく]ない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それは……[r]何だか、わたしにも分かる気がします。
+[k]
+
+[charaFace A 8]
+＠マシュ
+普段のスカサハさんと違うのは言動だけではなく、[r]戦い方とか、そういうモノも含めて……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+嬢ちゃんもケルトのやり方が分かってきたか？[r]ま、そういう事だ。
+[k]
+
+[charaFace C 0]
+＠クー・フーリン
+スカサハ。今、死を望むのは単なる逃避だ。[r]アンタはそんなタマじゃねえだろう。
+[k]
+
+[charaFace C 1]
+＠クー・フーリン
+アンタは、ほら。戦い抜いた最後の報酬としての、[r]稲妻のような死を夢見ていたじゃねえか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+[wt 0.5]
+[charaFace B 1]
+
+＠スカサハ
+[line 8]。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+好き放題言ってくれる。だが、その通りではあるな。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+よりにもよってこの現在、何もかも打ち棄てて[r]死へと至らんとするのは逃避以外の何物でもない。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+
+[charaFace B 0]
+[charaFadein B 0.1 0]
+
+＠クー・フーリン
+やれやれ、割に合わないったらありゃしねえ。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+すまんな。そして忘れろ。
+[k]
+
+＠スカサハ
+…………はぁ。[wt 0.5][charaFace B 3]なんとも…………
+[k]
+
+＠スカサハ
+貴様なんぞに気弱なところを見せてしまった。[r]師匠として手ひどい失態をした。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+うむ。この失態を帳消しにするためには、[r]貴様を三度死ぬまでしごかねばならん。
+[k]
+
+[charaFace C 2]
+＠クー・フーリン
+そりゃただの八つ当たりだ！
+[k]
+
+[charaFace B 1]
+＠スカサハ
+ばかもの、汚名挽回と言え。返上する相手がいないゆえ、[r]さらに酷い記憶で上書きするのだ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+[charaFace C 2]
+[wt 1.0]
+[charaFace C 4]
+[wt 0.5]
+
+
+＠クー・フーリン
+ひでえもんだ。ホントに何も変わってねぇ。[r]だがまあ[line 3]
+[k]
+
+[charaFace C 1]
+＠クー・フーリン
+マスターのおかげで人間らしい顔は見られた。[r]貴重な体験をしたと思っておくさ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+[line 3]ふん。[r]生意気な口を叩くようになったな、光の御子。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+これでもそれなりに修羅場を潜り抜けてきたんでね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+そうか。では、いつか私の前に立つのは[r]やはり貴様なのだろうな。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+さらばだクー・フーリン。[r][#その朱槍:ゲイ・ボルク]が私の稲妻になるのは、もう少し後か[line 3]
+[k]
+
+
+[bgmStop BGM_EVENT_6 1.0]
+
+[wt 0.6]
+[messageOff]
+[charaSpecialEffect B flashErasure 1 2.5]
+[se ad52]
+[wait charaSpecialEffect B]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein D 0.1 1]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+
+[wt 0.5]
+
+[se ad42]
+[charaSpecialEffect D enemyErasure 1 2.0]
+[wt 0.1]
+[charaSpecialEffect E enemyErasure 1 2.0]
+[wt 0.1]
+[charaSpecialEffect F enemyErasure 1 2.0]
+[wait charaSpecialEffect F]
+
+
+[wt 0.9]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……良かった。周囲の死霊も消えました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+まったく、無理難題を残しやがって。
+[k]
+
+＠クー・フーリン
+あの女の息の根を止めるなんざ、[r]それこそ神サマを切るだけの腕が必要だっての。
+[k]
+
+[charaFace C 1]
+＠クー・フーリン
+ま、何はともあれ夢から覚めようぜマスター？
+[k]
+
+＠クー・フーリン
+スカサハとオレの望みはともかく、[r]アンタにはアンタの正念場が待ってるんだからよ。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.5]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

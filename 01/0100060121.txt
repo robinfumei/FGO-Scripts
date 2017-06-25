@@ -1,0 +1,103 @@
+＄01-00-06-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet B 98006300 1 ？？？]
+
+[scene 28801]
+[backEffect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+巨大生物、撃破しました……！[r]しましたが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+残念ながら消滅してはいない。[r]そういう風に見えただけだ。
+[k]
+
+＠ダ・ヴィンチ
+なにしろあれは魔獣、幻獣の上に位置するもの。[r]時に竜種すら上回る最高位の生物だからね。
+[k]
+
+[charaFace A 15]
+＠マシュ
+やはり……今のはスフィンクスだったんですね。[r]エジプトに伝わる人面獅身の神獣……
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+ああ。今のダメージなんて神獣にしたら[r]欠伸みたいなものだ。目をこすったらすぐに復活する。
+[k]
+
+＠ダ・ヴィンチ
+その前にここを離れよう。[r]私たちだけではスフィンクスの相手は難しい。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ですが何処に？　ドクターから周囲のデータが[r]送られてくれば良いのですが……
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+あ、そこは大丈夫。周囲のスキャンぐらいなら[r]私でもちょちょいのちょい、ってね……
+[k]
+
+[wt 0.4]
+[se ad15]
+[wait se ad15]
+[wt 0.7]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+よし、西に水源を発見した。[r]あっちに水場があるようだ。というか、都市がある。
+[k]
+
+＠ダ・ヴィンチ
+まずはそこに移動しよう。[r][%1][&君:ちゃん]も休みたいだろう？
+[k]
+
+？1：いっぱいの水が飲みたいです……
+
+[charaFace A 13]
+＠マシュ
+はい。その意見に賛成です、先輩。[r]冷たい水を探しましょう！
+[k]
+
+？2：まだ平気、平気
+
+[charaFace A 12]
+＠マシュ
+ダメです、先輩。唇とかもうカサカサで、[r]顔色も真っ青なんですから。
+[k]
+
+[charaFace A 13]
+＠マシュ
+ここはダ・ヴィンチちゃんの言う通り、[r]水場に向かって移動しましょう。
+[k]
+
+？！
+
+[wt 0.5]
+[messageOff]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[soundStopAll]
+[end]

@@ -1,0 +1,148 @@
+
+
+
+＄01-00-07-15-3-0
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 3028000 1 ジャガーマン]
+
+[bgm BGM_EVENT_24 0.1]
+[scene 34600]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マーリン
+[line 3]時間だ。[r]北壁の内側では既に部隊編成も済んでいる。
+[k]
+
+＠マーリン
+我々がここを離れてから一時間後、[r]魔獣戦線は決戦に向けて部隊を展開する。
+[k]
+
+＠マーリン
+ゴルゴーンがその挑発に乗るかどうかは半々だ。[r]だが確実に魔獣たちは杉の森から出てくるだろう。
+[k]
+
+＠マーリン
+彼らの“人間への復讐心”はそれほど強力だ。
+[k]
+
+＠マーリン
+壁を背に人間たちが陣を組めば、[r]その衝動は抑えきれるものじゃない。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……わたしたちはそれを確認次第、廃都バビロン側から[r]杉の森に突入して鮮血神殿を目指す、ですね。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+そうだ。北壁の護りにはケツァル・コアトルと、
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0,-50]
+[charaMove E 0,0 0.2]
+[wait charaMove E]
+
+＠ジャガーマン
+無論、私だ！[r]う[#豹:ひょう]ぅ！　ギリギリ間に合ったー！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+突入隊は私と[%1]、マシュ、[r]アナとマーリンね。
+[k]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 5]
+
+＠Dr.ロマン
+了解だ。こちらもケツァル・コアトルにシバを[r]三枚ほど振り分けて、北壁の様子をモニターするよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+よし。では始めよう。[r][%1]君、号令を！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+？1：マルドゥーク電撃作戦、開始[&するぞ:します]！
+
+？！
+
+[se ad16]
+[wt 1.5]
+[messageOff]
+[bgmStop BGM_EVENT_24 1.0]
+[seStop ad16 1.5]
+[fadeout black 1.5]
+[wait fade]
+[scene 32940]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+そして早速、敵性反応だ！[r]廃都バビロンにたむろしているはぐれ魔獣と推測される！
+[k]
+
+＠Dr.ロマン
+杉の森に入る前の前哨戦だ！[r]頼んだぞ、[%1]君！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

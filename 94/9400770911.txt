@@ -1,0 +1,1151 @@
+
+
+＄94-00-77-09-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 1010001 1 エリザベート]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 7002002 1 謎の黒騎士]
+[charaSet E 5012001 1 ニトクリス]
+[charaSet F 98003003 1 Dr.ロマン]
+[charaSet G 98084000 1 女王騎士]
+[charaSet H 2008000 1 トリスタン]
+
+
+[scene 20502]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+
+[charaFace H 4]
+[charaFadein H 0.1 2]
+
+＠謎の黒騎士
+ＬＯＳＥＲＲＲＲＲＲＲＲＲＲＲＲＲ！！
+[k]
+
+
+
+＠トリスタン
+我々の敗北ですね……悲しい……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+
+＠女王騎士
+トリスタン卿とラン……もとい、[r]謎の黒騎士卿が敗北してしまった……！！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+ともかく！　この街はハロウィンを祝うのよ！[r]文句は言わせないわ！
+[k]
+
+
+
+＠エリザベート
+アンタたちもほら、これ被って祝いなさい！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠女王騎士
+パンプキンヘッド！？[r]あ、いや、せめて兜は外させて下さ[line 3]
+[k]
+
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+問答無用！
+[k]
+
+
+[messageOff]
+[fadeout black 0.7]
+[wait fade]
+
+
+[charaFadeout A 0.1]
+
+[wt 1.0]
+
+[se ad104]
+
+[wt 1.0]
+
+[seStop ad104 0.1]
+
+[wt 0.8]
+
+[se bas14]
+
+[wait se bas14]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.4 1]
+
+
+＠ニトクリス
+あの騎士たち、泣きながら逃げ帰りましたね……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+[charaFace E 7]
+[charaFadein E 0.1 0]
+
+
+＠ロビンフッド
+オタクがエジプト魔術とやらで[r]外れないよう呪いを掛けたからじゃねえかな……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+
+＠エリザベート
+ありがとう、ニトクリス！
+[k]
+
+
+[charaFace E 6]
+
+＠ニトクリス
+……まあ、折角のハロウィンですから。[r]それより、エリザベート。
+[k]
+
+＠ニトクリス
+これで街の人間も、女王を恐れることなく[r]ハロウィンの準備を整えられるでしょう。
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+
+＠エリザベート
+そうね！[r]さあ、皆！　騎士は追い出してやったわ！
+[k]
+
+＠エリザベート
+安心して、盛大にハロウィンを開催するわよ！
+[k]
+
+
+[se ad6]
+
+[wt 1.0]
+
+[seStop ad6 0.5]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+
+＠謎の黒騎士
+ＧＯＯＯＯＯＯＯＯＯＤ……。
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+[se ad151]
+
+＠トリスタン
+卿よ……負けたというのに、[r]やけに嬉しそうですね……。
+[k]
+
+[charaFace H 1]
+
+＠トリスタン
+私も嬉しいですが。
+[k]
+
+＠トリスタン
+少女の成長は早い……十年は掛かると[r]踏んでいたのですが……。
+[k]
+
+
+
+
+[charaFace D 2]
+
+＠謎の黒騎士
+ＱＵＥＥＥＥＥＥＥＥＥＥＥＮ！
+[k]
+
+[charaFace H 0]
+
+
+＠トリスタン
+そうですね。[r]これで、少女は女王と向き合う権利を得た。
+[k]
+
+＠トリスタン
+後は乗り越えることができるかどうか[line 3][r]我々もこの目で確かめなくては。
+[k]
+
+
+
+＠謎の黒騎士
+ＥＳＣＡＡＡＡＡＡＡＡＡＡＡＰＥ！
+[k]
+
+[charaTalk H]
+
+＠トリスタン
+その通り。[r]では、こそこそと逃げましょう。
+[k]
+
+[messageOff]
+
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.3]
+
+
+
+
+[se ad73]
+
+[charaMove D 1500,0 0.5]
+[charaMove H 2000,0 0.5]
+
+[wt 0.8]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠ロビンフッド
+おい、逃げたぞ！
+[k]
+
+[se bac23]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+何の！
+[k]
+
+[effect bit_talk_37]
+
+[se ad7]
+
+[charaMove H -1500,0 0.4]
+
+
+[wt 0.7]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠ニトクリス
+不敬な……！
+[k]
+
+＠ニトクリス
+敗者であるなら、大人しく[#頭:こうべ]を垂れて、[r]処罰を待つべきでしょう！
+[k]
+
+[charaFace E 9]
+
+＠ニトクリス
+という訳で纏わり付いてください、メジェド様！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+私は悲しい……騎士たるもの、[r]最後の最後まで諦めぬのは当然のこと……！
+[k]
+
+[charaFace H 5]
+
+＠トリスタン
+ホイッスルが鳴り響くまで、[r]ゲーム終了ではないのです……！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+
+＠謎の黒騎士
+ＷＩＮＮＥＲＲＲＲＲＲＲＲＲＲＲ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+さあ、脱出です！
+[k]
+
+[charaSet G 7022001 1 茨木童子]
+
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.4 1]
+
+＠茨木童子
+[line 3]貴様か。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠トリスタン
+そこの怪しげかつ明らかに種族が[r]違ってそうなお子様、退いて下さい。
+[k]
+
+＠トリスタン
+見ての通り、私は女性には手を上げない紳士の[r]理想と夢と現実、その全てが結晶化した騎士。
+[k]
+
+＠トリスタン
+たとえ人外の者であれ手は上げません。[r]むしろ十年後であれば一席設けたいと思うほど。
+[k]
+
+[charaFace H 5]
+
+＠トリスタン
+……ですがなにやら殺気に充ち満ちている様子。[r]念のため、回避スキルなどを一つ……
+[k]
+
+[se ad151]
+
+[wt 0.7]
+
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+[line 3]その風斬りの弦。[r]貴[charaFace G 2]様だな、ド外道が！
+[k]
+
+[se ad11]
+[effect bit_talk_gouka]
+
+
+＠茨木童子
+『[#羅生門:らしょうもん][#大怨起:だいえんぎ]』！
+[k]
+
+[messageOff]
+
+[seStop ad11 0.1]
+[effectStop bit_talk_gouka 0.1]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+[charaEffect H bit_talk_29]
+[se bac27]
+
+
+
+[wt 1.1]
+
+[se bac10]
+[charaEffect H bit_talk_13]
+
+[charaShake H 0.05 3 3 0.4]
+
+[wt 0.7]
+
+[se bas12]
+
+[wait se bas12]
+
+
+＠トリスタン
+なんと……！　強化解除の宝具など、[r]嫌らしいにも程がありましょう……！
+[k]
+
+
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+間髪いれずにもう一発！
+[k]
+
+[se ad11]
+[effect bit_talk_gouka]
+
+＠茨木童子
+走れ[#叢原火:そうげんび]！[r]チョコケーキの無念を晴らせ！
+[k]
+
+＠茨木童子
+『[#羅生門:らしょうもん][#大怨起:だいえんぎ]』[line 3]ィィィ！
+[k]
+
+[messageOff]
+
+[seStop ad11 0.1]
+[effectStop bit_talk_gouka 0.1]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 0,-100]
+
+[effect bit_talk_29]
+[se bac27]
+
+[se bac10]
+
+[charaMove H -1000,100 0.6]
+
+＠トリスタン
+二連発！[r]なんという……速[#弾:び]き……！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,-100]
+
+[se bac10]
+[charaMove D -1000,100 0.6]
+
+
+＠謎の黒騎士
+ＢＡＡＡＡＡＫＡＡＡＡＡＡＡＡ！！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_3 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_2 0.3]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+む、いかん。[r]逆方向に飛ばすべきだったか。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 0]
+
+[charaFace G 5]
+[charaFadein G 0.1 2]
+
+
+＠ニトクリス
+ピラミッドの方へと吹き飛んでいきましたね。[r]……あれではわざわざ逃がしたようなものです。
+[k]
+
+[charaTalk G]
+[charaFace G 3]
+
+＠茨木童子
+な、何だ、勝負のアヤというヤツだ、[r][#吾:われ][charaFace G 5]は悪くないぞー！
+[k]
+
+？1：そりゃ茨木が悪いわぁ
+
+[charaFace G 4]
+
+＠茨木童子
+ひいいいい酒呑！？[r]しゅて……[charaFace G 2][#汝:なれ]ぇぇぇぇっ！！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+凄いですね、マスター。[r]今の物真似、[&似てないのに妙な迫力が……:異常なほど似てました]。
+[k]
+
+？2：茨木のせいや、悲しいわぁ
+
+[charaFace G 4]
+
+＠茨木童子
+にゃふぅ！？[r]……え、酒呑？　違う？　酒呑いない？
+[k]
+
+[messageOff]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[wt 0.4]
+
+[charaScale G 1.3]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+……紛らわしい真似をぅぅぅぅ！！
+[k]
+
+[shake 0.05 2 4 0]
+[se ad181]
+
+[wait se ad181]
+
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[shakeStop]
+
+[charaScale G 1.0]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+茨木さん、どうどうどうどう。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+とにもかくにも。[r]この街は解放されたわ！
+[k]
+
+＠エリザベート
+もう、あの女王が止めろと言ったところで[r]止まらない！
+[k]
+
+[se ad5]
+
+
+[wt 1.0]
+
+[seStop ad5 0.5]
+
+[charaFace A 1]
+
+＠エリザベート
+ああ、世界がハロウィンの喜びに満ちている……！[r]思わず[#私:アタシ]も、一曲披露したくなってきたわ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+[charaFace A 1]
+[charaFadein A 0.1 0]
+
+＠ロビンフッド
+それは止めておけっての。[r]またスタート地点に戻る事になるからな？
+[k]
+
+
+[charaTalk A]
+[charaFace A 5]
+
+＠エリザベート
+何でよ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……あれ？[r]子供たちが……。
+[k]
+
+[charaTalk H]
+
+＠H：子供
+わーい、トリック・オア・トリート！
+[k]
+
+[charaTalk B]
+
+＠マシュ
+え、わ、わたしですか！？[r]すいません、お菓子は……。
+[k]
+
+[charaTalk H]
+
+＠H：子供
+いたずらだー！
+[k]
+
+？1：いたずらだ！
+？！
+
+[charaFace B 14]
+
+＠マシュ
+マスターまで！？
+[k]
+
+[charaSet H 98002000 1 フォウ]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+[se ad77]
+
+[seStop ad77 0.7]
+
+[charaShake H 0.05 2 2 0.3]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+フォウさんが、[r]ドクターの隠し持っていたゴマ饅頭を！
+[k]
+
+[charaTalk H]
+
+＠H：子供
+おかしだー！
+[k]
+
+[charaTalk B]
+[charaFace B 13]
+
+＠マシュ
+……ふぅ。助かりました、フォウさん。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+
+[charaTalk H]
+[charaFadein H 0.1 2]
+
+[se ad77]
+
+[seStop ad77 0.7]
+
+[charaShake H 0.05 2 2 0.3]
+
+[charaFace G 0]
+[charaFadein G 0.1 0]
+
+
+＠フォウ
+フォウフォウ。
+[k]
+
+
+[charaTalk G]
+[charaChange G 98105300 0 normal 0]
+[wait charaChange G]
+[charaMove G -256,-4 0.1]
+[wait charaMove G]
+
+[charaChange G 7022001 0 normal 0]
+[wait charaChange G]
+[charaMove G 0 0.1]
+[wait charaMove G]
+
+[charaChange G 98105300 0 normal 0]
+[wait charaMove G]
+
+＠茨木童子
+ふぉむふぉむ。[r]もにゅもにゅ。
+[k]
+
+
+[charaChange G 7022001 5 normal 0]
+
+＠茨木童子
+おい、足りんぞ。[r]あとこの味は食べ慣れている。
+[k]
+
+[charaFace G 0]
+
+＠茨木童子
+もう少々、スイーツ的な感じのものを[r][#吾:われ]は所望する！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+
+＠マシュ
+あ、すいません。[r]それなら、このマカロンを……。
+[k]
+
+[charaTalk G]
+[charaFace G 5]
+
+＠茨木童子
+なんだそれは！？[r]ま[charaFace G 1]ず見た目が良い！　鮮やかだ！
+[k]
+
+[charaTalk G]
+
+[charaChange G 98105300 0 normal 0]
+
+[charaMove G -256,-4 0.1]
+[wait charaMove G]
+
+[charaChange G 7022001 0 normal 0]
+[wait charaChange G]
+[charaMove G 0 0.1]
+[wait charaMove G]
+
+[charaChange G 98105300 0 normal 0]
+[wait charaChange G]
+
+＠茨木童子
+そしてこの食感……柔らかく、それでいて[r]割れるように硬く、中はしっとり……
+[k]
+
+
+[charaChange G 7022001 0 normal 0]
+[charaFace G 3]
+[wait charaChange G]
+
+＠茨木童子
+え、うそ。なにこれ、色ごとに味が違うのか！？[r]抹茶！　栗！　苺！　ぴすたちお！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+[effect bit_talk_41]
+[se ad139]
+
+＠茨木童子
+まさにお菓子の万華鏡ではないか[line 3]！
+[k]
+
+[effectStop bit_talk_41]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaTalk F]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+
+＠Dr.ロマン
+マカロンは子供に大人気だからね……[r]茨木童子には特効だねぇ……
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[scene 20503]
+
+[wt 1.0]
+
+[fadein black 1]
+[wait fade]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk H]
+
+＠H：子供
+ハロウィンたのしーねー！
+[k]
+
+＠H：母親
+そうだねえ、楽しいねえ。
+[k]
+
+＠H：父親
+そら、カボチャのお化けだぞー！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……。[r]……。
+[k]
+
+[charaFace B 13]
+
+＠マシュ
+何だか、やっとハロウィンらしくなってきましたね。[r]マスター。
+[k]
+
+？1：こうでなくちゃね
+
+＠マシュ
+はい！[r]こうでなくっちゃ、いけないです。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠ニトクリス
+祭りを正しく執り行うのもまた、[r]ファラオたる者の務め。
+[k]
+
+[charaFace E 7]
+
+＠ニトクリス
+あの子もそろそろ、[r]それを理解できるといいのですが。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+？2：楽しいよね、ハロウィン
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ロビンフッド
+ま、人間適度に息抜きしなきゃな。[r]森の人間としちゃ、騒がしいのは苦手なんですけどね。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+そんなこと言いつつ、[r]お主子供たちにこっそり菓子を与えておるな。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+
+
+[charaFace G 1]
+[charaFadein G 0.1 0]
+
+＠ロビンフッド
+！　視線は感じなかったぞ！？
+[k]
+
+[charaTalk G]
+
+＠茨木童子
+くはははは、[r]子供に化けて[#吾:われ]もこっそり貰ったのでなァ！
+[k]
+
+[charaTalk C]
+[charaFace C 4]
+
+＠ロビンフッド
+プライド無いのかオタクは……。
+[k]
+
+[charaTalk G]
+[charaFace G 5]
+
+＠茨木童子
+フン、頭がいい、と言え軟弱お菓子男め。[r]貴様らとは誇りの在り方が違うだけよ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+さあ、女王の下へ向かいましょう！[r]ライブ[line 3]ううん、違う。ライブも大切だけど。
+[k]
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace A 8]
+
+＠エリザベート
+何より、このハロウィンをみんなで楽しむために、[r]あの女王を打倒するのよ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+フォウさんの言いたいこと、[r]何となく分かります。
+[k]
+
+＠マシュ
+止まった時を生きる英霊でも、[r]何かを理解し、何かを育もうとする。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 0]
+
+[charaFace B 13]
+[charaFadein B 0.1 2]
+
+＠ニトクリス
+……そうですね。
+[k]
+
+＠ニトクリス
+たとえそれが一夜かぎりの夢だとしても、[r]夢を見たこと自体は、決して無駄ではないはず。
+[k]
+
+
+＠ニトクリス
+マシュ・キリエライト。
+[k]
+
+[charaTalk B]
+
+＠マシュ
+はい？
+[k]
+
+[messageOff]
+
+[charaTalk E]
+[charaFace E 9]
+[wt 0.7]
+
+＠ニトクリス
+…[charaFace E 6]…ごめんなさい、何でもありません。[r]貴女に掛ける言葉は、必要なさそうです。
+[k]
+
+[charaTalk B]
+[charaFace B 6]
+
+＠マシュ
+は、はあ……？
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+
+＠ニトクリス
+さあ、行きましょう。[r]そしてもう一度、あの門番と相対するのです。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+……ところで、立ち去る前に[r]やっぱり一曲くらいいいんじゃないかしら……？
+[k]
+
+[charaTalk H]
+
+＠H：全員
+[fontSize large][messageShake 0.05 5 5 0.7]ぜったいダメ！
+[k]
+
+[charaFace A 7]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_4 1.0]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

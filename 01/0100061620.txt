@@ -1,0 +1,111 @@
+＄01-00-06-16-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_25 0.1]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 6003002 1 百貌のハサン]
+
+[scene 29200]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠呪腕のハサン
+よい朝を迎えられたようだ。[r]昨夜はみな十分に英気を養えたと見える。
+[k]
+
+＠呪腕のハサン
+さて。早速だが、改めて[%1]殿に話がある。[r]ほれ、百貌の。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠百貌のハサン
+分かっている、そう念押しをするな。[r]……[%1]。マシュ。ベディヴィエール。
+[k]
+
+＠百貌のハサン
+おまえたちが獅子王の部下ではなく、[r]連中と戦う者である事を信じよう。
+[k]
+
+＠百貌のハサン
+また、静謐のハサンの救出はおまえたちの[r]助力なくして有り得なかった。
+[k]
+
+＠百貌のハサン
+その結果、我らの一斉[#蜂起:ほうき][line 3][r]聖都攻略の計画が露見しなかったのは大きい。
+[k]
+
+＠百貌のハサン
+おまえたちはこの地に住まう民、[r]すべてに貢献したと言えるだろう。よくやったな。
+[k]
+
+[charaFace F 5]
+＠百貌のハサン
+………………。
+[k]
+
+[bgmStop BGM_EVENT_25 1.5]
+
+＠百貌のハサン
+………………………………。
+[k]
+
+？1：……………………？
+
+？！
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace F 2]
+＠百貌のハサン
+くっ……駄目だ、言葉が浮かばぬ！[r]交渉担当の私がここまで頭が固いとは！
+[k]
+
+＠百貌のハサン
+こうなれば肉体で語り合うのみ！[r][%1]！　最後の勝負だ！
+[k]
+
+＠百貌のハサン
+私から言葉を引き出したくば、[r]正々堂々と戦い、勝利してみるのだな！
+[k]
+
+＠百貌のハサン
+貴様も付き合え、静謐！[r][%1]に腕前を見せる機会だぞ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠静謐のハサン
+ぁ……はい。[r]よく分かりませんが、そういう事なら……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+（むう……暗殺者が正々堂々と戦ってどうするのだ、[r]　百貌の……）
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

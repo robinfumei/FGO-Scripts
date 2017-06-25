@@ -1,0 +1,461 @@
+
+
+
+＄01-00-07-08-2-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 3027000 1 アナ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 3006001 1 弁慶]
+[charaSet F 4014001 1 牛若丸]
+[charaSet G 3009000 1 レオニダス]
+
+
+
+[bgm BGM_EVENT_4 0.1]
+[scene 32930]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+
+＠レオニダス
+いよぅし、私の出番はありませんでした！[r]みなさん、よくぞ北壁においでになられた！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+
+＠牛若丸
+私もお待ちしておりました。[r]こっそりお手伝いしてしまいましたが、そこはご容赦を。
+[k]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[messageOff]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein F 0.1 2]
+[se ad59]
+[wt 0.4]
+[seStop ad59 0.7]
+[charaFadein E 0.4 0]
+＠弁慶
+ふう、ようやく追いつき申した。[r]牛若丸様、塀より飛び降りるのは自重なさいませ。
+[k]
+
+＠弁慶
+単身で魔獣どものただ中に飛び込んでは、[r]貴方様と言えど万が一という事もありますれば。
+[k]
+
+？1：みんな、こんにちは
+[charaFace E 1]
+＠弁慶
+おお、[%1]殿。[r]無事到着なされたようで何より。
+[k]
+
+＠弁慶
+マシュ殿、マーリン殿、アナ殿も。[r]うむ、この顔ぶれであれば明日の作戦も安心ですな！
+[k]
+
+？2：全員集合ですね
+
+[charaFace F 1]
+＠牛若丸
+ええ、やっと。[r]この時を楽しみにしておりました。
+[k]
+
+＠牛若丸
+大使館で暮らす我ら時の異邦人たち、[r]初の共同作戦ですから。気合いも入るというものです。
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠レオニダス
+ははは。では一旦中へ。[r]積もる話もありますが、まずは状況を説明しましょう。
+[k]
+
+[messageOff]
+[fadeout black 0.7]
+[bgmStop BGM_EVENT_4 0.7]
+[wait fade]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[scene 34500]
+[wt 1.0]
+[fadein black 0.7]
+[wait fade]
+[bgm BGM_EVENT_1 0.1]
+
+[wt 0.4]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+
+＠レオニダス
+こちらが城壁の上、魔獣撃退の[#要:かなめ]となる[r][#神権印章:ディンギル]のある射撃台です。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ディンギルというと、ギルガメッシュ王が持っている[r]粘土板と同じ名称ですね。
+[k]
+
+＠マシュ
+もしや、これも王の財宝の一つなのですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+
+＠レオニダス
+はい。ギルガメッシュ王は[r]多くの“力ある武器”を所有していました。
+[k]
+
+＠レオニダス
+これはそれらを手動で撃ち出す大型の投石機です。[r]台座にラピス・ラズリが埋め込まれていますが、
+[k]
+
+＠レオニダス
+兵士がこれをハンマーで打ち砕くと蓄積した魔力が[r]解放され、財宝を標的めがけて撃ち出す仕組みです。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+
+
+＠Dr.ロマン
+ウルク風……いや、ギルガメッシュ王風の[r]バリスタみたいなものなんだろうね。
+[k]
+
+＠Dr.ロマン
+自分の財宝を兵士たちにも使い捨てにさせるとか、[r]通常の英雄王では絶対に有り得ない状況だ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠牛若丸
+そうですね。なにぶん貴重なものなので、[r]よほどの大軍が相手でなければ使いません。
+[k]
+
+＠牛若丸
+狙いもたいそう甘いため、結局は牽制用となります。[r]うまく当たればしめたもの、といったところでしょう。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+ディンギルとは“神格化”を示す言葉だ。[r]シュメルでは何であれ、その功績によって神格化される。
+[k]
+
+＠マーリン
+神が認めた神、ではなく、人々が認めた神。[r]つまり人間による、人間のための信仰だ。
+[k]
+
+＠マーリン
+王様がこれらの道具をディンギルと名付けているのは[r]人間の力だけでウルクを守る、という意思表示なんだろう。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠レオニダス
+ほう。それは知りませんでした。[r]……なるほど。人の手だけで勝利する、ですか。
+[k]
+
+＠レオニダス
+確かに、ピンチの時の神頼みはよくありません。[r]窮地において救いを与える神は死神のみでしょう。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+その通り。神々が荷担するのは勝ち組だけさ。[r]少しでも負けそうな側には近寄りもしない連中だ。
+[k]
+
+[charaFace B 1]
+＠マーリン
+それで、ニップル市の解放手順は？[r][%1]君は何をさせられるんだい？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠レオニダス
+……それが、やや言いづらいのですが……[r]少しばかり状況が変わりました。
+[k]
+
+＠レオニダス
+毎夜、夜闇に紛れてニップル市民を北壁まで[r]先導し、受け入れてきたのですが……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+
+＠牛若丸
+昨夜から魔獣群の動きが変化しました。[r]ニップル市の周囲を巡回しているのです。
+[k]
+
+＠牛若丸
+おそらく、ギルタブリルに代わる指揮官が[r]現れたのでしょう。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ギルタブリル……我々が来る前に倒されたという、[r]魔獣たちの指揮官ですね。
+[k]
+
+＠マシュ
+では、こちらの作戦は警戒されている、[r]という事でしょうか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠レオニダス
+そう考えるべきでしょう。
+[k]
+
+＠レオニダス
+こうなるとニップル市の門を開ける事自体が危険ですが、[r]ニップル市では既に餓死者が出ています。
+[k]
+
+＠レオニダス
+救援は先延ばしにはできません。[r]ですので、こちらは陽動作戦をとります。
+[k]
+
+＠レオニダス
+牛若丸殿、弁慶殿の指揮する部隊が[r]東からニップル市を目指します。
+[k]
+
+＠レオニダス
+当然、魔獣たちはこれの迎撃を始めるでしょう。
+[k]
+
+＠レオニダス
+その隙をついて、[%1]殿とマシュ嬢、[r]マーリン殿、アナ殿は西からニップル市に入場。
+[k]
+
+＠レオニダス
+門を開け、生き残った市民たちをこの北壁へ[r]誘導していただきたい。
+[k]
+
+？1：了解です
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マーリン
+別にこちらは少数精鋭というワケでもないのだけどね。[r]状況的には妥当なところか。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+？2：牛若丸たちが大変なんじゃ……
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠牛若丸
+心配には及びません。[r]平地での合戦であれば私と弁慶の独壇場。
+[k]
+
+[charaFace F 0]
+＠牛若丸
+そもそも、我々はニップル市には入れないのです。[r]ギルガメッシュ王より、
+[k]
+
+[charaFace F 5]
+＠牛若丸
+“貴様らにはニップル市への入場を禁じる。[r][f small]  [f -]何があろうと、だ。王命である、破るなよ？”
+[k]
+
+[charaFace F 0]
+＠牛若丸
+と、きつく言い含められていますので。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ニップル市に入るな、ですか？[r]市民の皆さんは牛若丸さんが苦手だとか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠牛若丸
+ええ、私も不思議です。[r]ニップル市には一度も訪れた事がないのですが……
+[k]
+
+[charaFace F 1]
+＠牛若丸
+あの王はたまに妙な事を言い出しますからね。[r]今回も、まあ、そんな悪ふざけの一つでしょう。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠弁慶
+……………………。
+[k]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+？！
+[bgmStop BGM_EVENT_1 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠レオニダス
+決行は明日、太陽が空の七分にまで昇った時です。[r]それまで自由にお過ごしください。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠アナ
+……あの。[r]ニップル市の地図は、ありますか。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠弁慶
+それでしたら拙僧が[#観進帳:かんじんちょう]代わりにこれこの通り、[r]懐で暖めておりますぞ。
+[k]
+
+＠弁慶
+ふはは、一緒に読まれますかなアナ殿？[r]拙僧、これでも教導には自信と実績がありま[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠アナ
+結構です。兵士から貰ってきます。
+[k]
+
+？1：さすがアナ。後で見せて
+
+[charaFace C 3]
+＠アナ
+……ご自分で都合してください。[r]……私のは、単なる暇つぶしですから。
+[k]
+
+？2：一緒に行こうか？
+
+[charaFace C 3]
+＠アナ
+…………結構です。[r][%1]は休んでいてください。
+[k]
+
+？！
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

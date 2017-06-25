@@ -1,0 +1,511 @@
+
+＄01-00-05-10-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5016001 1 ジェロニモ]
+[charaSet C 2010001 1 ビリー]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 1006001 1 ネロ・ブライド]
+[charaSet F 1019001 1 ラーマ]
+[charaSet G 3005002 1 エリザベート]
+[charaSet H 7014001 1 ナイチンゲール]
+
+[scene 20820]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 0]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+＠ジェロニモ
+では、我々は東部へと向かう。
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい。わたしたちは[r]アルカトラズ島へ向かいます。
+[k]
+
+＠ジェロニモ
+アルカトラズ島にもケルト側のサーヴァントが[r]配置されているだろう。気を付けてくれ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい。[r]ジェロニモさんもお気を付けて。
+[k]
+
+[charaFace B 1]
+＠ジェロニモ
+マスター。短い間だったが楽しかった。[r]君の方も首尾良くいくよう、祈っているぞ。
+[k]
+
+？1：死にに行くみたいだ
+？2：もう会えないみたいだ
+
+？！
+
+[charaFace B 4]
+＠ジェロニモ
+む。確かにこの言い回しではそうなるか。[r]……[charaFace B 1]心配するな。また会えるさ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ビリー
+やあ、マスター。[r]それじゃ、ちょっと活躍してくるよ。
+[k]
+
+[charaFace C 1]
+＠ビリー
+期待して待っていてくれ！[r]……なんてね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+んじゃ、お嬢さまの世話を頼むぜマスター。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠エリザベート
+ちょっと、それ逆。[r]アタシがこいつらの世話をするのよ。
+[k]
+
+＠ロビンフッド
+へいへい。[r]……ま、そんな訳だ。ちょいと一働きしてくるわ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ネロ・ブライド
+うむ、[%1]よ。[r]すまぬが、ランサーをよろしく頼むぞ。
+[k]
+
+[charaFace G 2]
+＠エリザベート
+ちょっと、セイバーまで！[r]失礼しちゃうわね。
+[k]
+
+[charaFace E 1]
+＠ネロ・ブライド
+ふはははは。許せ、ランサー。
+[k]
+
+[charaFace G 0]
+＠エリザベート
+いい、セイバー。約束だからね？[r]戻ってきたら、どちらが一番か[line 2]。
+[k]
+
+＠ネロ・ブライド
+分かっているとも。どちらが観客の喝采を浴びるか、[r]正々堂々と競争しようではないか！
+[k]
+
+＠ネロ・ブライド
+その暁には、余の本気を見せてやろう！[r][line 3]凄いぞ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+恐ろしい。[r]まだ本気じゃなかったのかよ……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠エリザベート
+ええ。セイバーもサクサク殺ってきなさいよ。[r]黄金劇場とチェイテ城のコラボ企画もあるんだからね。
+[k]
+
+＠ネロ・ブライド
+うむ、万事余に任せておけ！
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 3]
+[bgmStop BGM_EVENT_4 1.0]
+[wait wipe]
+[wt 1.0]
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[scene 20720]
+[bgm BGM_EVENT_2 0.1]
+[wipein rightToLeft 1.0 3]
+[wait wipe]
+
+[wt 0.3]
+
+＠ジェロニモ
+では、行くとするか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ネロ・ブライド
+うむ。短い別れであったが悔いはない。[r]あとは事をなすだけだな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+……死にに行く訳ではないぞ、ネロ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ネロ・ブライド
+承知している。[r]だが、暗殺という任務の危険性は余も知っている。
+[k]
+
+＠ネロ・ブライド
+まして敵陣深く潜り込むのだ。生き延びる事を[r]前提にしては、うまくいくものもいくまいよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+なあ、もしかしてアンタ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ネロ・ブライド
+言うな。それ以上は野暮だぞ緑アーチャー……[r]ではない、ロビンフッドよ。
+[k]
+
+[charaFace E 2]
+＠ネロ・ブライド
+余は生き残るとも。[r]図太さで他の後塵を拝した事はないのだからな！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+そりゃそうだな。オレも死ぬ気は更々ないし。[r]せいぜい、頑張りますか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[wt 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ビリー
+ねえ、ジェロニモ。
+[k]
+
+＠ジェロニモ
+何だ？
+[k]
+
+＠ビリー
+僕はさ、アメリカ人だからいいんだけど。[r]君は誇り高きアパッチ族だろう？
+[k]
+
+＠ビリー
+本当にいいのかい？　この国を救って。
+[k]
+
+＠ジェロニモ
+まだ言っているのか。[r]この国を救わなければ、我らも救われない。
+[k]
+
+[charaFace B 1]
+＠ジェロニモ
+……何、アメリカに借りを作らせるというのも愉快だ。
+[k]
+
+＠ジェロニモ
+それがたとえ、世界が修正されれば[r]忘れ去られるものであったとしてもな。
+[k]
+
+＠ジェロニモ
+故に、君も不当な罪悪感は抱え込まずともよい。
+[k]
+
+＠ビリー
+……そうか。[r]じゃ、そうするね。
+[k]
+
+[charaFace C 4]
+＠ビリー
+上手くいくといいんだけどね、暗殺。
+[k]
+
+[charaFace B 0]
+＠ジェロニモ
+そうだな……。
+[k]
+
+
+[messageOff]
+[wipeout leftToRight 1.0 3]
+[wait wipe]
+[wt 0.5]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFace H 6]
+[charaFadein F 0.1 0]
+[charaFadein H 0.1 2]
+[scene 20720]
+[wipein rightToLeft 1.0 3]
+[wait wipe]
+
+[wt 0.3]
+
+＠ラーマ
+くっ……。
+[k]
+
+＠ナイチンゲール
+……マスター。[r]いよいよ以て、限界が近付いてきています。
+[k]
+
+＠ナイチンゲール
+出来得るだけ、急ぐようお願いします。[r]さもなくば、やはり患者の腕か足を切……。
+[k]
+
+[charaFace F 1]
+＠ラーマ
+それは勘弁して欲しい。[r]ふふ、気力を出さねばな……。
+[k]
+
+＠ナイチンゲール
+この患者のタフネスぶりは賞賛すべきでしょうね。[r]常人ならば、とうに精神が参っています。
+[k]
+
+[charaFace F 4]
+＠ラーマ
+妻と会うまで、余は死ぬ訳にはいかん。[r]余はコサラの王として賢政に務めた。
+[k]
+
+＠ラーマ
+……少なくとも、そうしようとした。[r]だが、そのために彼女を犠牲にした。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+確か、「ラーマーヤナ」によれば君は妻の不貞を疑い、[r]二度、彼女を試したんだっけか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠エリザベート
+何よソレ。[r]それじゃ奥さんが怒るに決まってるじゃない。
+[k]
+
+[charaFace F 5]
+＠ラーマ
+……いや、余は妻の不貞を疑ったことは一度もない。[r]ただ、民が承知しなかった。
+[k]
+
+[charaFace F 4]
+＠ラーマ
+一度の儀式で疑いは晴れたはずなのに[line 2][r]民は疑念を持ち続けた。
+[k]
+
+[charaFace G 5]
+＠エリザベート
+……もちろん、アンタは信じたのよね？
+[k]
+
+＠ラーマ
+信じていたさ。[r]だが、余はシータを追放した。せざるを得なかった。
+[k]
+
+[charaFace G 2]
+＠エリザベート
+何それ！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 2]
+＠ナイチンゲール
+それは疑った、と同義になるのでは？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠エリザベート
+そうよ！[r]最低！　サイテー、サイテー、サイテー！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、あの。お二人とも落ち着いて……怪我人なんですし。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ラーマ
+……いや全くその通り。余は最低である。
+[k]
+
+＠ラーマ
+保身、困惑、恐怖……歳を取ると、様々なものが[r]絡み合い、身動きが取れなくなる。
+[k]
+
+＠ラーマ
+余が小僧の姿で召喚されるのも自明の理だな。[r]この頃は、ただシータだけが愛おしかった。
+[k]
+
+＠ラーマ
+ただ、それだけで良かった時代が余の全盛期[line 2][r]という訳だ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace H 7]
+[charaFadein H 0.1 2]
+＠ナイチンゲール
+……なら、その愛しい人間に会うまで辛抱なさい。[r]愛しているなら、愛していることを証明しなければ[line 2]
+[k]
+
+＠ナイチンゲール
+それは、愛していないのと同じこと。[r]言葉で伝えない限り、伝わらないこともあります。
+[k]
+
+[charaFace F 1]
+＠ラーマ
+分かっているさ。[r]さ、急ごう。余はまだ大丈夫だ。
+[k]
+
+[charaFace H 6]
+＠ナイチンゲール
+急ぎましょう、マスター。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠エリザベート
+そうね。何はなくとも、シータという女性は[r]一発この男に平手を打つべきだし。
+[k]
+
+[charaFace G 1]
+＠エリザベート
+何だったら、[r]その子に私の[#槍:マイク]を貸してあげてもいいわ！
+[k]
+
+[charaFace F 1]
+＠ラーマ
+はは、それは痛そうだ。[r]……[charaFace F 0]む。マスター、どうやら敵のようだ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+その通り。敵性反応を確認した。[r]ケルトの戦士たちだが、数は少ない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+了解。[r]ではマスター、行きます！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

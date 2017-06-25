@@ -1,0 +1,283 @@
+
+＄94-00-56-01-3-0
+
+[soundStopAll]
+[se ad37]
+[seStop ad37 6.0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 4009201 1 アン]
+[charaSet C 4009101 1 メアリー]
+[charaSet D 3001001 1 クー・フーリン]
+[charaSet E 4019001 1 マルタ]
+[charaSet F 3013001 1 スカサハ]
+[charaSet G 1009001 1 モードレッド]
+[charaSet H 6001002 1 小次郎]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[seStop ad37 3.0]
+[bgm BGM_EVENT_2 0.5]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠メアリー
+うーん。そろそろ黒髭も帰ってきていいころだと[r]思うんだけど……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠クー・フーリン
+どーも身体が疼くわりに暇だよなぁ。[r]何かすっかな……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠スカサハ
+ほう？　身体が疼くと言ったか？[r]相手ならばいつでもするが。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠マルタ
+……！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠クー・フーリン
+あのなぁ、[r]アンタとじゃ暇潰しじゃ済まなくなるっつーの！
+[k]
+
+[charaFace D 0]
+＠クー・フーリン
+お師匠さまを悪く言いたくねえんですけどねー。[r]空気読んでくださいねー。
+[k]
+
+＠クー・フーリン
+ここは暴力が支配する影の国じゃねえんで、[r]少しは文化的に生きてくださいねー。
+[k]
+
+[charaFace F 5]
+＠スカサハ
+ぐ、ぐぬぬ……なんと口の悪い弟子か……[r]しかし、言う通りでもある……ぐぬぬぬ……！
+[k]
+
+[charaFace D 1]
+＠クー・フーリン
+よし。師匠も黙らせたし釣りでもしてみっか。[r]ずいぶん久しぶりな気がするが、なんとかなるだろ。
+[k]
+
+[charaFadeout D 0.7]
+[se ad173]
+[wt 0.1]
+[seStop ad173 2.0]
+[wt 2.0]
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[charaSet C 5003001 1 玉藻の前]
+[charaSet F 3004001 1 カルナ]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠小次郎
+ふ……マルタ殿。無理に抑える事はない。[r][#拙:それがし]の目は誤魔化せぬよ。
+[k]
+
+[charaFace E 3]
+＠マルタ
+はぁ！？　な、なんのことよ！？
+[k]
+
+[charaFace H 0]
+＠小次郎
+この開放的な空気。そして海。あるいは夏。[r]即ち[line 3]昂ぶっているのだろう？
+[k]
+
+[charaFace H 1]
+＠小次郎
+ははは、我慢する事などありはせぬ。[r]どうかな？　今度こそ、拙と一戦交えるというのは？
+[k]
+
+[charaFace E 2]
+＠マルタ
+た、昂ぶ……？　交える……！？[r]あんたねえ、セクハラもいい加減にしなさいよ！
+[k]
+
+[charaFace H 0]
+＠小次郎
+いや、残念ながらそちらの話ではござらん。[r]拙者が望むのはマルタ殿とタラスク殿の合わせ技よ。
+[k]
+
+[charaFace H 1]
+＠小次郎
+他に聖人のサーヴァントもおらぬ。
+[k]
+
+＠小次郎
+今ならば誰に恥じる事なく禁断の技が見られるかと[r]思ったのだが。これは、見込み違いだったかな？
+[k]
+
+[charaFace E 4]
+＠マルタ
+ああ……またそういう……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠玉藻の前
+それにしても……ただ先遣偵察部隊（一人）の帰りを[r]待つだけというのも退屈ですねぇ。
+[k]
+
+[charaFace C 5]
+＠玉藻の前
+[#私:わたくし]も何か暇潰しを[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠カルナ
+[line 3]待て。おまえたちが望むものが来る。[r]あちらの浜辺からだ。
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace C 0]
+＠玉藻の前
+みこーん！？　ほんとですかっ？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい、玉藻さん。確かに来ています。[r]わたしにも見えます。
+[k]
+
+[charaFace A 7]
+＠マシュ
+[line 3][bgmStop BGM_EVENT_4 0.4]ぞろぞろとやってくる大蟹の群れですが。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠玉藻の前
+……いえ、望んでねーですけど……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠カルナ
+[FFFFFF]？　あの多脚で疾走する様は中々のものだ。[-][r]暇潰しには勿体ないほどだが？
+[k]
+
+[charaFace C 5]
+＠玉藻の前
+ああもう、カルナさんっぽいっちゃぽいですけど！[r]ですけどー！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+蟹の群れの進路、変わりません！[r]戦うしかないようです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠アン
+ああもう、暑苦しいったらありませんわね！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠モードレッド
+同感だ。敵の数はともかく[line 3]オレのほうがな。
+[k]
+
+[charaFace G 4]
+＠モードレッド
+ち。少なくとも砂浜用じゃなかったぜ、この鎧。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠マルタ
+まあいいわ。水辺に殻付きの怪物が現れる……[r]ふふふ、なんだか懐かしいじゃない！
+[k]
+
+[charaFace E 0]
+＠マルタ
+……あ。へっぽこサムライが[r]言ってたのって、そういう……？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

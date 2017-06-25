@@ -1,0 +1,219 @@
+＄94-00-21-14-1-0
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 0 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 2 メフィスト]
+[charaSet F 2024000 1 信長]
+
+[scene 10721]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+こ、これは……、もはや異常とか[r]そういう[charaFace A 8]次元じゃないです、先輩。
+[k]
+
+？1：うん、帰ろう。
+？2：あれ、いま何か出たような？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+そもそも部屋じゃない。[r]あれだろ、完全に別の世界の[#芸風:はなし]だろ？
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠信長
+よくぞ辿り着いた我が精鋭たちよ！[r]わし[charaFace F 1]こそが第六天魔王ことそう、わしじゃ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+信長さん！？　いや、それよりこの部屋……[r][line 3]というか部屋なんでしょうか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠信長
+気づいてしまったか……、マシ…[r]いや、おっぱいサーヴァント！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+マシュ・キリエライトです！[r]わざわざ言い直す必要なかったですよね！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠信長
+話すと二秒なんじゃが、つまるところわしの呪いで[r]このワンエルデーケー、駅近、家賃七万円の
+[k]
+
+＠信長
+小洒落た公家でも住んでそうなお部屋が[r]斯くも恐ろしい炎上何とか都市じみた異空間に
+[k]
+
+＠信長
+なってしまったんじゃが……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+信長さんの呪い……、やはり本能寺で夢半ばにして[r]倒れてしまったことが恨みとなって……
+[k]
+
+？1：是非もないよね……
+？2：全焼・炎上案件だよね……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠信長
+うむ、労災すら降りぬとは……[r]いや、そんな事はどうでもいいのじゃ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+どうでもいい、という結論には[r]わたしたちも同意なのですが……はい、どうぞ。
+[k]
+
+[charaSet F 2024000 1 ノッブ]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ノッブ
+わしが腹を立てておるのは！　沖田じゃ沖田！[r]あの人斬りじゃ！　わしの引き立て役の癖に
+[k]
+
+[charaFace F 1]
+＠ノッブ
+いやー、素敵で可愛い沖田さんは今日も[r]フレポたくさん稼いじゃいました。
+[k]
+
+[charaFace F 4]
+＠ノッブ
+ところでノッブはフレポ……、あっ（察し）
+[k]
+
+[charaFace F 2]
+＠ノッブ
+とかぬかして煽りよるんじゃ！[r]大体貴様らぐだぐだ本能寺の時は
+[k]
+
+＠ノッブ
+ノッブ可愛い！　ノッブ最高！　ノブゥウウウウ！[r]とかぬかしてちやほやしよったくせに
+[k]
+
+＠ノッブ
+イベント終わったらワシは用済みで、[r]沖田ばっかり大活躍なんじゃが[line 3]！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！　わたしも先輩もたいへんお世話になりました！[r]スカサハ師匠にはちょっと申し訳ありません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ノッブ
+貴様もかブルーマシュ[line 4]！[r]ええい、もはやワシの平蜘蛛も待ったなし！
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠ノッブ
+というわけでこのマンションはわしが異界化して[r]ノッブのノッブによるノッブのための新イベント
+[k]
+
+＠ノッブ
+劇場版「ノブの境界」の礎となってもらうのじゃ！[r]ふははははははは、覚悟するが良いのじゃ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+[line 3]で、誰なんだこいつは？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ノッブ
+おのれ初対面の人！[r]新人英霊のノッブです、よろしくネ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

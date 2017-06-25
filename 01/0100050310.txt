@@ -1,0 +1,1066 @@
+
+＄01-00-05-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 2010001 1 ？？？]
+[charaSet D 2003001 1 ？？？]
+[charaSet E 99360000 1 ケルト戦士]
+
+[scene 11213]
+[fadein black 2]
+[wait fade]
+
+[se bac21]
+[seStop bac21 1.5]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠C：？？？
+グリーン、弾切れ。[r]援護お願い。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠D：？？？
+あいよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠D：？？？
+ところでオタク。[r]グリーンはないんじゃないの、グリーンは。
+[k]
+
+[charaFace C 4]
+＠C：？？？
+だって僕も君もアーチャーじゃないか。[r]だとしたら、真名で呼び合うかコードネームでなきゃ。
+[k]
+
+[charaFace C 0]
+＠C：？？？
+でも、真名はお互いに嫌だろ？[r]何となく、アウトロー的にさ。
+[k]
+
+[charaFace D 0]
+＠D：？？？
+オレはアウトローじゃねえですよ。結果的にそうなった[r]だけで、基本はナマケモノみたいなモンなんだけどねぇ。
+[k]
+
+＠C：？？？
+あれ？　動物に例えるならゴリラじゃないの？[r]ドルイドって森の賢人なんでしょ？　ならゴリ
+[k]
+
+[charaFace D 4]
+＠D：？？？
+グリーンでいい、グリーンがいい。[r]で、オタクは何でサンダーなの？
+[k]
+
+[charaFace C 1]
+＠C：？？？
+え、だって格好いいじゃん。[r]サンダー。雷。それに僕の銃だし。
+[k]
+
+[charaFace D 0]
+＠D：？？？
+……というかね、この土地とアンタの格好とその銃。[r]真名、大体分かっちまうんだが……それはいいの？
+[k]
+
+[charaFace C 0]
+＠C：？？？
+やだなあ、それはお互い様だよ。[r]ゲリラ戦に特化した、顔なき森の支配者。
+[k]
+
+＠D：？？？
+顔がないのはいいコトじゃあねぇけどなあ。[r]さて、世間話も済んだところで[line 3]
+[k]
+
+[charaFace C 0]
+＠C：？？？
+そうだね、済んだところで[line 3][r]どうしよっか、コレ。
+[k]
+
+[wt 0.2]
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[se ad4]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 2.0]
+[seStop ad4 1.0]
+[charaFadeout E 0.4]
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠D：？？？
+前に作っておいた脱出口はどうよ？
+[k]
+
+＠C：？？？
+大丈夫、使えるよ。[r]ただ、やっぱり勿体ないよね。
+[k]
+
+＠C：？？？
+かき集めた武器弾薬とか、色々あるのに。[r]……うーん、やっぱり僕たちやりすぎたかな？
+[k]
+
+[charaFace D 4]
+＠D：？？？
+ま、あんだけ派手に破壊工作すれば多少はね。
+[k]
+
+＠D：？？？
+あちらさんにはサーヴァントこそいないようだが、[r]こっちは接近戦に持ち込まれるとお手上げだし？
+[k]
+
+[charaFace D 1]
+＠D：？？？
+……や、コイツはもう運任せ案件ですなあ。[r]旦那が応援に駆けつけてくることを祈るとしますか。
+[k]
+
+＠C：？？？
+なんだいそれ。[r]祈りが届いた試し、生前にあった？
+[k]
+
+＠D：？？？
+そりゃあありますよ。[r]ただし、いい子にしていればの話だがね。
+[k]
+
+＠D：？？？
+あいにく大人になってからとんと縁が無かったな。[r]そのあたり、お互いさまだろバッドボーイ？
+[k]
+
+[charaFace C 2]
+＠C：？？？
+む。僕を一緒にされると困るよ！[r]母さんの教えで、僕はちゃんと祈っていたもの。
+[k]
+
+[charaFace D 0]
+＠D：？？？
+へいへい、お前さんが心から祈っていれば[r]救われるだろうよ。
+[k]
+
+[charaFace C 4]
+＠C：？？？
+んー、片手間な祈りはやっぱりダメか。[r]いや、僕も[line 2]。
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.4]
+[wt 0.8]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+[wt 0.2]
+[se bac11]
+[wt 0.1]
+[charaShake E 0.05 3 3 0.15]
+[wt 0.2]
+[seStop bac11]
+[se bac11]
+[wt 0.1]
+[charaShake E 0.05 3 3 0.15]
+[wt 0.2]
+[seStop bac11]
+[se bac21]
+[wt 0.1]
+[charaShake E 0.05 3 3 0.25]
+[wt 0.2]
+[wt 0.3]
+
+[charaFadeout E 0.4]
+[wt 0.3]
+[se ad58]
+[wt 0.5]
+[seStop ad58]
+[wt 0.3]
+
+[wt 0.7]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[wt 0.4]
+[charaFace C 4]
+[charaFadein C 0.4 2]
+＠C：？？？
+そうは思っていたんだけどね。
+[k]
+
+[charaFace D 4]
+＠D：？？？
+銃をバンバンブッ放しながら祈ってもなあ。[r]銃声が邪魔して神様には届かねぇ、ときた。
+[k]
+
+[wt 0.1]
+[charaTalk E]
+[shake 0.05 2 2 0.4]
+[se ad10]
+[wait se ad10]
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 1]
+＠D：？？？
+おっと、引っ掛かった連中がいたか。[r]ちょっと火ぃつけてくらあ。
+[k]
+
+[charaFadeout D 0.4]
+[wt 0.7]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠C：？？？
+はいはい、頑張ってねー。
+[k]
+
+[charaFace C 4]
+＠C：？？？
+……しかしやれやれ。[r]いつまで保つかなあ、レジスタンス活動。
+[k]
+
+＠C：？？？
+遅かれ早かれ限界が訪れる。それまでに、ジェロニモが[r]“星”を見つければいいのだけど[line 2]。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.5]
+[se ad25]
+[seStop ad25 1.5]
+[wt 1.5]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠C：？？？
+おっと危ない。「レギュレーターズ」は本日閉店です。[r]またのご来店をお待ちしています、じゃねー。
+[k]
+
+[messageOff]
+[wt 0.2]
+
+[se bac21]
+[seStop bac21 1.5]
+[wt 0.3]
+
+[fadeout black 1.0]
+[wait fade]
+[bgmStop BGM_EVENT_3 1.0]
+[wt 1.5]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5023001 1 ブラヴァツキー]
+[charaSet D 98056000 1 ドクター]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 99363000 1 バベッジUSA]
+[charaSet G 99363000 1 バベッジUSA2]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 21004]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+ナイチンゲールさん？
+[k]
+
+＠ナイチンゲール
+少々お待ち下さい。
+[k]
+
+＠ナイチンゲール
+ドクター・ラッシュに患者に対する一通りの[r]対処法を伝えている最中ですので。
+[k]
+
+[charaFace B 0]
+＠ナイチンゲール
+まったく。私が生まれる遥か前とはいえ、[r]やはり衛生に対する危機管理がなさ過ぎます。
+[k]
+
+[charaFace A 12]
+＠マシュ
+は、はあ……。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[scene 21020]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+[wt 0.5]
+
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+
+[charaFace B 6]
+＠ナイチンゲール
+いいですか？[r]患部は清潔に、そしてベッドは敷き詰めない。
+[k]
+
+＠ナイチンゲール
+本来ならば、絶対に彼らを不潔な地面に[r]寝かせてはなりません。
+[k]
+
+＠ナイチンゲール
+嘔吐剤や瀉血で毒素を吐き出すとか、[r]塩化水銀を飲ませるとか、
+[k]
+
+＠ナイチンゲール
+そういう時代遅れの治療をやったら貴方に治療が[r]必要なほど殴り倒しますので、そのつもりで。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ドクター
+いや、しかし、それは最新の医療で……。
+[k]
+
+[charaTalk B]
+[se bac21]
+[charaShake D 0.05 3 3 0.25]
+[wait se bac21]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+この銃とその治療、どっちが最新ですか？[r]二度言わせないで下さい。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ドクター
+わ、分かった！　分かった！　分かりました！[r]ノー・モア・最新銃！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+それから老若男女、人種や身分の区別なく[r]治療するように。
+[k]
+
+＠ナイチンゲール
+区別するべきは、治療が必要な順位だけです。
+[k]
+
+＠ナイチンゲール
+それが守られない場合、この銃弾は[r]五千キロ離れていようが貴方の眉間を貫きます。
+[k]
+
+＠ナイチンゲール
+……いいですね、ベンジャミン・ラッシュ？[r]患者たちはよろしくお願いします。
+[k]
+
+＠ドクター
+わ、分かっている。[r]安心したまえ！
+[k]
+
+[wt 0.2]
+[charaFace B 8]
+[wt 0.7]
+[charaFadeout B 0.4]
+[wt 1.5]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ドクター
+行ったか。
+[k]
+
+＠ドクター
+……しかし、過激だったが立派な看護師だった。
+[k]
+
+＠ドクター
+この時代に人種の区別もなく、とはなかなか言える言葉ではない。
+[k]
+
+＠ドクター
+ヨーロッパから来たようだが、さぞ名の有る御方なのだろう。
+[k]
+
+＠ドクター
+……拳銃はどうかと思うのだが……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[scene 21004]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[wt 0.5]
+
+[fadein black 0.5]
+[wait fade]
+
+[charaFace B 0]
+[charaFadein B 0.4 0]
+[wt 0.7]
+[charaTalk A]
+＠マシュ
+あの……今、銃を撃ちませんでしたか？
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+気のせいです、行きましょう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+いえ、気のせいじゃないですよね。[r]今、思いっきり撃ってましたよね。
+[k]
+
+[charaFace B 0]
+＠ナイチンゲール
+峰撃ちです。
+[k]
+
+
+？1：銃に峰とかあったっけ……
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+おそらく……グリップの底で、こう、[r]優しく脳しんとうを起こすのではないでしょうか？
+[k]
+
+？2：知ってる。盾でも出来るよね、峰打ち
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+もちろんです。コツは優しく当てるように、[r]インパクトの瞬間に打撃点をズラしてですね……
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+＠ナイチンゲール
+失礼。治療現場での私語は控えるように。[r]行きましょう。
+[k]
+
+
+[se ad60]
+[seStop ad60 1.0]
+[charaFace A 6]
+[charaFadeout B 0.4]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 8]
+＠マシュ
+あ、はい！　申し訳ありませんっ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あの……先輩。[r]ちょっぴり不安なのは気のせいでしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ～。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 1.0]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+[wt 0.7]
+[charaFadein F 0.4 2]
+[charaFadein G 0.4 0]
+＠C：？？？
+お待ちなさいなフローレンス。[r]何処に行くつもりなの？
+[k]
+
+＠C：？？？
+軍隊において勝手な行動はそれだけで[r]銃殺ものって知っていて？
+[k]
+
+＠C：？？？
+今すぐ治療に戻りなさい。[r]さもないと[line 3]手荒い懲罰が待ってるかも、よ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[wt 0.1]
+
+[charaTalk B]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+……貴女こそ自分の職場に戻りなさい。
+[k]
+
+＠ナイチンゲール
+私の仕事はなにひとつ変わりません。
+[k]
+
+[charaFace B 0]
+＠ナイチンゲール
+この兵士たちの根幹治療の手段が見つかりそうなので、[r]それを探りに行くだけです。
+[k]
+
+[charaFace C 0]
+＠C：？？？
+そうなの。もっともな理由、ありがとう。[r]でも[line 3]
+[k]
+
+[charaFace C 5]
+＠C：？？？
+バーサーカーのあなたに行かせる訳にはいかないでしょ。[r]戦線が混乱したらどうするのよ。
+[k]
+
+＠C：？？？
+王様は認めないわよ、絶対に。
+[k]
+
+[charaFace B 7]
+＠ナイチンゲール
+……王様？[r]そんな人物に私を止める権利などありません。
+[k]
+
+＠ナイチンゲール
+より効果的な根幹治療の提示が[r]あるのなら別ですが。
+[k]
+
+[charaFace C 4]
+＠C：？？？
+うわお、やっぱりバーサーカーは話通じないわねえ。[r]どうしたものかしら。
+[k]
+
+＠C：？？？
+これまで何度も思想的に衝突してきたし、[r]いい機会だから片付けてしまおうかしら？
+[k]
+
+[charaFace B 5]
+＠ナイチンゲール
+……その発想はエレガントではありませんが、[r]同感です。この先の無駄話が省けます。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+あわわ……なんか火花が散ってるぞぅ……
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+なんで行動的な女性サーヴァントが揃うと、[r]こう修羅場っぽくなっちゃうんだ！？
+[k]
+
+？1：ドクター、落ち着いて
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+どちらの信念も正しく、[r]また強固だからではないかと……！
+[k]
+
+＠マシュ
+とにかく、このままではいけません……！[r]先輩、いいですね……？
+[k]
+
+？2：マシュ、仲介を頼む……！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+了解です。[r]自信はありませんが、頑張りますっ！
+[k]
+
+？！
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+お、お話中、失礼しますっ！[r]あなたもサーヴァント……なのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠C：？？？
+あなたも？　って……まあ！[r]サーヴァントがこんなに！　よくってよ！
+[k]
+
+[charaFace C 4]
+＠C：？？？
+ケルトの連中を撃退したと聞いて、まーた[r]フローレンスが一人で暴れたのかと思ったけど……
+[k]
+
+[charaFace C 0]
+＠C：？？？
+どうやらそうでもなかったようね。[r]これは王様にとってグッドニュースかしら？
+[k]
+
+[charaFace A 6]
+＠マシュ
+王……？
+[k]
+
+＠C：？？？
+あら、アメリカの現状を知らないの？[r]今この国は二つに分離して絶賛内戦中なの。
+[k]
+
+[charaFace C 5]
+＠C：？？？
+一つがただ滅ぼすしか能の無い野蛮人、[r]つまり向こう側ね。
+[k]
+
+[charaFace C 0]
+＠C：？？？
+そしてもう一つが[line 2]あたしたちの王様が率いる、[r]アメリカ西部合衆国。
+[k]
+
+＠C：？？？
+南北戦争ならぬ、東西戦争という訳よ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+なるほど……。
+[k]
+
+＠Dr.ロマン
+南北戦争で南部が勝利していれば、というどころではなく。[r]まったく未知の軍勢同士がぶつかり合っている訳か。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……あの、失礼ですがレディ。[r]あなたのお名前は、いったい……
+[k]
+
+[charaFace C 5]
+＠C：？？？
+あら。フローレンスは一目で分かって、[r]あたしは分からないの？
+[k]
+
+[charaFace A 8]
+＠マシュ
+す、すみません……っ！　ナイチンゲール女史は、[r]その、とにかく分かりやすかったので……！
+[k]
+
+[charaFace C 1]
+＠C：？？？
+うそうそ。イジワルよ、イジワル。[r]ごめんなさい、我ながら大人げなかったわ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠C：？？？
+自己紹介もせずにごめんなさい。[r]あたしはエレナ・ペトロヴナ・ブラヴァツキー。
+[k]
+
+＠ブラヴァツキー
+ま、世間的にはブラヴァツキー夫人が有名なのかしら。[r]嫌よね、結婚で姓が変わってしまうのって。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+エレナ・ブラヴァツキー！[r]十九世紀を代表する女性オカルティストだね！
+[k]
+
+＠Dr.ロマン
+魔術協会とはあまり関わらず、独自のスタンス、[r]独自の力だけで神秘学を編纂した才女だとか[line 2]
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+しかし、サーヴァントとしてここにいるという事は、[r]魔術協会側のエージェントだったりするのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+無いわよ。この世界には。[r]そもそもアメリカ以外の主要国家は全て滅んでいるし。
+[k]
+
+？1：王様とは？
+？2：誰に仕えてるって？
+？！
+
+[charaFace C 0]
+＠ブラヴァツキー
+あら、あなたが此度のマスターなのね。[r]でも残念。あたしたちは既にあるじを定めているの。
+[k]
+
+＠ブラヴァツキー
+それが王様。[r]彼が世界を制覇すれば、それはそれで問題ないわ。
+[k]
+
+＠ブラヴァツキー
+恐らく、どこの次元からも分離した[#失われた大陸:レムリア][r]となって、彷徨い続けるのでしょう。
+[k]
+
+＠ブラヴァツキー
+英霊の座みたいなものよ。[r]これはこれで、救いがある結末だと思わない？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+[line 2]そんなもの、治療とは認めません。[r]悪い部分を切断してそれで済まそうなど、言語道断です。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+……まあ、あなたはそう言うと思ったけど。[r]そちらはどうかしら？
+[k]
+
+？1：絶対にノー！
+
+[charaFace C 4]
+＠ブラヴァツキー
+あら、そう。
+[k]
+
+？2：ノー、マム！
+
+[charaFace C 5]
+＠ブラヴァツキー
+……ちょっとイラッと来たわ。[r]マムって何よ、マムって。
+[k]
+
+？！
+
+[charaFace C 0]
+＠ブラヴァツキー
+……コホン。じゃあ、あなたたちは[r]フローレンスを連れてどこへ行くの？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……この世界の崩壊を防ぐために、[r]その原因を取り除くつもりです。
+[k]
+
+[charaFace C 5]
+＠ブラヴァツキー
+そう。それじゃ、あなたたちは[r]あたしの敵ということになるかしら。
+[k]
+
+[charaFace A 12]
+＠マシュ
+違います、そうと決まった訳ではありません。[r]ですから、ここは引いて頂けないでしょうか……？
+[k]
+
+
+[charaFace A 7]
+＠マシュ
+ナイチンゲールさんは、[r]味方としてこの場を離れるだけなのです。
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+ふーん。[r]ちゃんとフローレンスの意図を汲める子なんだ。
+[k]
+
+[charaFace C 4]
+＠ブラヴァツキー
+そこはちょっと安心したけど、[r]そういう訳にもいかないのが困りものよねえ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+マシュの説得でもダメだったか……
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+というか、今回は味方側についてくれる[r]サーヴァントがいないってオチかな！？
+[k]
+
+？1：一人いる！
+？2：ここにいる！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+話は終わりましたね。[r]では出発しましょう、[%1]。
+[k]
+
+＠ナイチンゲール
+一刻も早く、一秒でも早く、[r]この戦争を治療するのです。
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+う、うん。ともかく彼女は仲間でかつギリギリで[r]コミュニケーションが取れている！
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]！[r]ナイチンゲールと一緒に、そこから脱出だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+あーあ、仕方ないか。[r]こちらも虎の子を呼び出さないといけないわ。
+[k]
+
+[charaFace C 2]
+＠ブラヴァツキー
+じゃ、まずは彼らからね。[r]機械化歩兵、前に出なさい！
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[charaTalk F]
+[charaFadein F 0.4 1]
+[wt 0.1]
+[se ad70]
+[bgm BGM_EVENT_3 0.1]
+[wt 1.3]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+先ほどの量産型バベッジさん……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+あら、ミスタ・バベッジに遭遇したの？[r]十九世紀の英国にでも行った？
+[k]
+
+[charaFace C 4]
+＠ブラヴァツキー
+……ああ、そっか。彼は敗れたのね。かわいそ。
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+でも、こちらは敗北などしないわ。[r]だって王様が[#張り切って滅茶苦茶にした]んだもーん！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+め、滅茶苦茶？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+バベッジは聖杯と宝具の力を借りて分身を生み出した。[r]こちらは[#科学の力]を借りて、大量生産に成功した。
+[k]
+
+＠ブラヴァツキー
+結果は同じでも、[#過程:アプローチ]が違う。[r]そして過程が違えば、結果もズレる。
+[k]
+
+＠ブラヴァツキー
+……まあ、王様の言葉を借りて言うと。
+[k]
+
+[charaFace C 5]
+＠ブラヴァツキー
+「蒸気より電気の方がいいに[r]　決まっているだろ、馬鹿者」ね！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+で、電動式……！？
+[k]
+
+？1：燃える！
+？2：滾る！
+？！
+
+[charaFace A 12]
+＠マシュ
+マスターの目がちょっと輝いているのが[r]気になりますが……と、ともかく行きます！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

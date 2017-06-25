@@ -1,0 +1,404 @@
+＄94-00-39-02-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+[charaSet D 7003000 1 白龍馬]
+
+
+[scene 20703]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠沙悟浄
+さて。我ら弟子はともかく、この先のきびしい[#遠路:えんろ]、[r]このまま師を歩かせるわけにはいかんな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 5]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+では僕の上に乗ってみるのは？[r]あいにくポニーテールじゃないけれどブヒ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠三蔵
+なんか全力で遠慮するわ。[r]でも、せめて荷物を運べる足があれば……あれ？
+[k]
+
+[charaTalk D]
+[messageOff]
+[se ad14]
+[wt 2.0]
+[seStop ad14 2.0]
+
+？1：向こうで何か爆走してるけど……
+？2：あの赤い巨体は……もしや馬……？
+
+？！
+
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠三蔵
+赤いですって……？　もしかして……！
+[k]
+
+[charaFace A 0]
+＠三蔵
+この[#韃靼:だったん]の国は、名馬を産する地だと有名なの！[r]どうにかして連れてこられない？
+[k]
+
+？1：お師さんの頼みとあらば！
+？！
+
+[messageOff]
+
+[bgmStop BGM_EVENT_2 1.0]
+[charaFadeout A 1.0]
+
+[scene 28300 1.0]
+[wait scene]
+
+[se ad115]
+[wt 0.1]
+[seStop ad115 2.3]
+[wt 3.0]
+
+
+
+[scene 20703 0.1]
+[cameraHome 0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+
+[wait camera]
+
+
+[se bac59]
+[cameraMove 0.2 0,0 1.6]
+[wait camera]
+[cameraMove 0.2 0,0 1.1]
+[wait camera]
+[cameraMove 0.2 0,0 1.4]
+[wait camera]
+[cameraMove 0.2 0,0 1.0]
+[wait camera]
+[cameraMove 0.2 0,0 1.2]
+[wait camera]
+[cameraHome 0.2]
+[wait camera]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace D 2]
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+…………帰りましょう。[r]ここには何もなかった。ノー・ウエストよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 1]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+これは[#呂布:りょふ]だね。うん、呂布だ。[r]なるほど四番目の道連れは、かの武人というわけだ。
+[k]
+
+＠沙悟浄
+[#赤兎馬:せきとば]ではなく乗り手が来てしまったか。[r]まあ、問題なかろう。かまわず乗られよ、師。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+いやーッ！　無理、無理ぃ……！！[r]なんかこの馬こわ[line 3]い！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+？1：どうどう！　
+？2：何か手に持ってる？　巻物……？
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+……ふむ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+顔に似合わず[#几帳面:きちょうめん]だな。[r]大事に持っているようじゃないか。
+[k]
+
+[charaFace B 0]
+＠猪八戒
+[%1]の[&兄貴:姉貴]？[r]その巻物を、お師匠さんにお見せしてみては？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+……こ、これは……失われた経典だわ！[r]こんな荒野で、一人で守っていてくれたの？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[charaFace A 0]
+＠三蔵
+ごめんなさい、悲鳴とかあげちゃって。[r]アナタは立派な従者、そしてお馬さんだわ！
+[k]
+
+＠三蔵
+怖いけどこれも修行だし！[r]立派な[#赤馬:せきば]よ、その肩を貸しなさい！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+肩車、だって……！？
+[k]
+
+[charaFace B 2]
+＠猪八戒
+待ちたまえ！　こちらの従者に乗馬する、という[r]選択肢もあった[#筈:ブヒ]！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[cameraMove 0 0,-70 1.2]
+[wait camera]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,80]
+
+[charaShake A 0.08 0 4 0.8]
+＠三蔵
+あ、乗り心地いいわ、これ。[r]アナタもしかして、肩に人を乗せるの慣れてる？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+[cameraHome 0]
+[wait camera]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+僕だって慣れてるのだけどね！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠三蔵
+え？　この経典、妖魔たちが持っていた？[r]他にも沢山あるはずだ、ですって？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[charaFace D 0]
+＠白龍馬
+[image berserker_language_1]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+……怪しいわ。とても怪しいわ。[r]そして猪八戒は[#五月蠅:うるさ]いわ。
+[k]
+
+＠三蔵
+……この経典を読んでいると頭のモヤが晴れていく……[r]経典ってそういうものだったかなまあいいや。
+[k]
+
+[charaFace A 2]
+＠三蔵
+悟空！　悟浄！　ダ八戒！[r]記念すべき、あたしからの最初の命令よ！
+[k]
+
+＠三蔵
+あたしたち三蔵一行はこれより！[r]天竺に向かいながら、この経典を集めます！
+[k]
+
+＠三蔵
+文句があるもの、異論があるものは[r]怒らないから前に出なさい！
+[k]
+
+＠三蔵
+頭に[#緊箍児:きんこじ]をして説法をした後、[r]考えを改めさせるわ！　逆らう事は許しません！
+[k]
+
+？1：拒否する、という選択肢はないんだ……
+？2：もしかして三蔵ちゃん……鬼？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+呵々々々！[r]うむ、それでこそ儂の知る三蔵法師よ！
+[k]
+
+[charaFace C 4]
+＠沙悟浄
+立ちはだかる外道は倒す、改心した外道も倒す、[r]悪逆非道の三匹すら頭を抱える[#天衣無縫:てんいむほう]！
+[k]
+
+[charaFace C 0]
+＠沙悟浄
+[%1]よ、観念せい。[r]これなるは真の三蔵法師だ。もはや[#逐電:ちくでん]は敵わぬ。
+[k]
+
+[charaFace C 1]
+＠沙悟浄
+おぬしも我らも法師の旅に付き合う他はない。[r]いやあ、面白くなってきたではないか！
+[k]
+
+
+？1：三蔵法師ってそういう人だったんだ！
+？2：経典を……集める！
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+僕は面白くないブヒね！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]

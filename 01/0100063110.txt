@@ -1,0 +1,60 @@
+＄01-00-06-31-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+
+[scene 29802]
+
+[fadein black 2.0]
+[wait fade]
+[se ad59]
+[wt 1.0]
+[seStop ad59 0.2]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+
+＠マシュ
+王城です！[r]ついに辿り着きました、先輩！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.5]
+
+＠Dr.ロマン
+こちらも映像で確認！[r]だがその前に敵性反応だ！
+[k]
+
+＠Dr.ロマン
+入り口付近に高濃度の魔力反応！[r]粛正騎士だ！
+[k]
+
+＠Dr.ロマン
+この周辺に同じ反応はない！[r]おそらく、これが最後の粛正騎士との戦闘だ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ロイヤルガードだ、[r]性能は今までとは段違いだろう！
+[k]
+
+＠Dr.ロマン
+気をつけて、[%1]君！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

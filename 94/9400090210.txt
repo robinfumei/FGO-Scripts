@@ -1,0 +1,273 @@
+＄94-00-09-02-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20302]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 2013001 1 松平アーラシュ]
+[charaSet D 1027000 1 桜セイバー]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaSet F 4014001 1 今川よしつね]
+[charaSet G 3006001 1 武蔵坊雪斎]
+[charaSet H 9940030 1 ちびノブ]
+[fadein black 2]
+[wait fade]
+
+
+[charaFadein F 0.1 1]
+[charaFace F 1]
+＠今川よしつね
+よし、今夜はここで夜営するとしましょう！[r]ベン…いえ、雪斎、宴の準備を。二秒で。
+[k]
+
+[charaFadeout F 0.1]
+
+
+[charaTalk G]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+[charaFace G 0]
+＠武蔵坊雪斎
+二秒ですか！？　あ、すみません、[r]すぐにしますので刀に手をかけぬよう願いまする。
+[k]
+
+＠武蔵坊雪斎
+しかし殿、このような場所で夜営は[r]危のうございますぞ。油断なさらぬよう。
+[k]
+
+
+[charaFace F 1]
+＠今川よしつね
+承知していますが別に。[r]私、天才ですから。危険とか気になりません。
+[k]
+
+＠今川よしつね
+襲われたらすぐに起きて襲い返せばいい。[r]だいいち、この大軍なら敵も簡単には近寄れません。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaFadein H 0.1 1]
+[charaFace H 0]
+＠ちびノブ
+ノブノブー！！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+[charaFace F 1]
+＠今川よしつね
+ほら、この謎の生き物もそういってますし。[r]ベン…、じゃない、雪斎は心配性ですね。
+[k]
+
+
+[charaFace G 4]
+＠武蔵坊雪斎
+はあ……、大事にならねば良いのですが……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+
+[fadeout black 0.5]
+[wait fade]
+[scene 20805]
+[fadein black 0.5]
+[wait fade]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+どうやら、サーヴァントが例の生命体？を[r]引き連れているようですが……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー
+ふーむ、どうやら聖杯が召喚したサーヴァントを[r]洗脳して使役しているようじゃな……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠桜セイバー
+確かに英霊のようですがどうも様子が変ですね。[r]召喚時に何か余計な因子でも混ざったのでしょうか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+それはともかく、あの大軍が相手ではさすがに[r]戦いようがないのですが、どうしましょう？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー
+うむ、ここはやはり[line 3]夜襲じゃな！！
+[k]
+
+
+？1：夜襲？
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠魔人アーチャー
+その通りじゃ！　少なきが多きを攻めるには[r]これが一番なのじゃ！！　ちなみにわしが若いころ……
+[k]
+
+？2：桶狭間だね！
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠魔人アーチャー
+良く勉強しておるな、感心なのじゃ！[r]そう、この戦いでわしは天下に名乗りを上げて……
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠桜セイバー
+では私が先に出て敵の注意をひきつけます。[r]みなさんは機を見て敵本陣を奇襲してください。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 6]
+＠魔人アーチャー
+聞けよ！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+＠マシュ
+桜セイバーさん、お一人で大丈夫ですか？
+[k]
+
+
+[charaFace D 0]
+＠桜セイバー
+こう見えても多勢を相手にするのは慣れてますし[r]あの程度の敵に後れを取るなどあり得ま……
+[k]
+
+[charaFace D 6]
+＠桜セイバー
+こふっ！？（吐血）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+ええええええええええ！？
+[k]
+
+？1：だ、大丈夫！？
+？2：医者ー！！？？
+
+？！
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 6]
+＠桜セイバー
+ご、ご安心を……[r]これは私のスキルのようなものですので……
+[k]
+
+＠桜セイバー
+たまに行動不能になったり、敵前で無防備に[r]なったりする程度の能力ですので……。
+[k]
+
+
+？1：何そのいらないスキル！？
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠桜セイバー
+うう……、どうせ私はいらない隊士ですよ。[r]こんな幕末に誰がした……！
+[k]
+
+？2：なるほど、致命的ですね！！
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠桜セイバー
+私だって好きでつけてるわけじゃありません！[r]外したくても外れないんですよ！
+[k]
+
+？！
+
+＠？？？
+ん！　そこで騒いでるのは何者だ！！
+[k]
+
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[charaFadeout D 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+ええい、貴様が騒ぐから[r]見つかってしまったではないか！！
+[k]
+
+[charaFadeout E 0.1]
+
+[se ad27]
+[wt 0.3]
+[se ad59]
+[wt 0.8]
+[seStop ad59]
+
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠松平アーラシュ
+さてはよしつね様を狙う不届きな輩か？[r]この大軍に向かってくるとはいい度胸だぜ。
+[k]
+
+＠松平アーラシュ
+よし、その度胸に免じて[r]先陣を務めるこの海道一の弓取り
+[k]
+
+[charaFace C 2]
+＠松平アーラシュ
+[line 3]いや、東洋一の弓取り！[r]松平アーラシュが成敗してやろうじゃあないか！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+もう何がなんだか！？
+[k]
+
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

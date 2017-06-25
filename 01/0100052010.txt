@@ -1,0 +1,618 @@
+＄01-00-05-20-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 1019001 1 ラーマ]
+[charaSet D 2015001 1 アルジュナ]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[scene 20302]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ラーマ
+進め！　既に北部戦線は主力部隊と激突している！[r]どれだけ保つかは分からんぞ！
+[k]
+
+[charaFace C 5]
+＠ラーマ
+速度だ！　速度が勝負を決める！[r]駆け抜けろ……！
+[k]
+
+[charaFace C 2]
+＠ラーマ
+マスター！[r]前方に敵軍だ！
+[k]
+
+？1：蹴散らせ！
+？2：ブッ飛ばせ！
+？！
+
+[charaFace C 2]
+＠ラーマ
+うむ！[r]ならば全軍、突撃せよ！
+[k]
+
+＠ラーマ
+一度も立ち止まってはならぬ！[r]このまま一気呵成に叩き込むぞ！
+[k]
+
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_4 0.5]
+[wt 0.5]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+？1：どうしたの？
+？！
+
+[charaFace A 8]
+＠マシュ
+……すみません。[r]スカサハさんの事を考えていました。
+[k]
+
+[charaFace A 12]
+＠マシュ
+スカサハさんはクー・フーリンには勝てない、と[r]言っていましたが、わたしはそうは思えなかった。
+[k]
+
+＠マシュ
+スカサハさんには誰も勝てないと感じていたんです。[r]だから[line 3]心のどこかで安心していた。
+[k]
+
+[charaFace A 8]
+＠マシュ
+ここでわたしたちが失敗してもスカサハさんが[r]なんとかしてくれるって。
+[k]
+
+[charaFace A 4]
+＠マシュ
+でも、そうはなりませんでした。[r]……スカサハさんは正しかった。
+[k]
+
+[charaFace A 12]
+＠マシュ
+でも、やっぱり分かりません。[r]スカサハさんは一体、どうして敗北したのかが……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+
+[wt 1.5]
+[charaSet A 7020000 1 クー・フーリン・オルタ]
+[charaSet B 3013001 1 スカサハ]
+[charaSet C 3017001 1 李書文]
+
+[scene 10000]
+[bgm BGM_EVENT_3 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[effect bit_talk_41]
+
+＠クー・フーリン・オルタ
+[line 2]『[#抉り穿つ鏖殺の槍:ゲイ・ボルク]』！
+[k]
+
+[se ad80]
+
+
+＠スカサハ
+『[#貫き穿つ死翔の槍:ゲイ・ボルク・オルタナティブ]』[line 2]！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[seStop ad80 0.2]
+[se ad81]
+[wt 1.5]
+
+[fowardEffect bit_talk_14]
+[flashin once 0.1 0.3 AD061380 AD061300]
+[wt 0.1]
+[effectStop bit_talk_41]
+[se bac54]
+[se bac14]
+[wait se bac54]
+[wt 0.2]
+
+[scene 20800 0.7]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFace A 4]
+[charaFadein B 0.7 2]
+[charaFadein A 0.7 0]
+
+[wait scene]
+
+＠クー・フーリン・オルタ
+……。
+[k]
+
+＠スカサハ
+くっ……！
+[k]
+
+[charaFace A 4]
+＠クー・フーリン・オルタ
+生前では有り得ぬゲイ・ボルク同士の激突。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+互いに必殺を謳いながら、[r]互いに致命傷を回避するか。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+異なる宝具であれば、相殺ではなく相討ちになろう。[r]しかし、我らの宝具は共に禁断の魔槍。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+全く同じ軌道を描き、放った[#死棘:しきょく]が衝突する。[r]興味深い現象よのう[line 2]恐らく、二度とはあるまい。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+……それにしても、その右腕。[r]ルーン魔術で修復しながら、槍を撃ち放っているのか。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+……まあな。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+今の私のように破壊が終わってから再生を[r]開始しているのではない。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+再生しながら、同時に破壊されているのだ。[r]生半可な激痛……いや、激痛と呼べる代物ですらあるまい。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+痛覚は操作できる。[r]覚悟は既に決めている。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+[line 2]フン、師匠こそ先ほどからよく保っている。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+そういう訳でもないがな。[r]……結果的に引き延ばしているだけだ。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+かつて[line 3][r]おまえに殺されることを、夢見たこともある。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+……。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+“ああなる前に死んでおけばよかった”[r]と。我が人生に悔いがあるとすれば、それに他ならぬ。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+[line 2]だが。今のおまえに殺される気は失せた。[r]私は以前のおまえの方が好みでな。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+アンタの背負ったものを、俺が肩代わりする義務はない。[r]オレの道はただ、真っ直ぐだ。
+[k]
+
+＠クー・フーリン・オルタ
+寄り道などしている余裕もなく、[r]誰かの荷物を担ぐ余裕もない。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+最短距離で王となり、最短距離で支配する。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+[line 2]誰のために？[r]メイヴのためか？
+[k]
+
+[charaFace B 5]
+＠スカサハ
+メイヴは聖杯に願い、おまえを王に仕立て上げた。[r]だが、それはお前の願いではなかろう。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+何故そう思う？[r]王を望んだことがないと、本当にそう思うか？
+[k]
+
+[charaFace B 0]
+＠スカサハ
+生前、そんな望みを口に出したことはあるまい。
+[k]
+
+[charaFace A 4]
+＠クー・フーリン・オルタ
+そうだな、確かに師匠の言う通り[line 2]オレは生前、[r]王になろうなどと考えたこともない。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+だが。生前存在しなかった望みが生まれるなど、[r]サーヴァントにはよくあることだろう？
+[k]
+
+[charaFace B 5]
+＠スカサハ
+……つまり、逆。[r]王になった結果、王になろうとしているのか。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+[line 2]愚かな矛盾だ。[r]王になったものの、王意を示すものがなかった。
+[k]
+
+＠スカサハ
+だからすべてを破壊するしかない。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+無人の荒野にただ独り立つ者があらば、それは確かに、[r]誰に異を唱えられる事もない王だろうよ。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+ああ、それでいい。その結論が気持ちいい。[r]元より英雄なんて矛盾だらけの存在だ。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+メイヴのためじゃねえ[r]オレは我欲で、この槍を振るうんだよ。
+[k]
+
+[charaFace A 2]
+＠クー・フーリン・オルタ
+……さて、時間稼ぎの策もそろそろ尽きただろう。[r]決着をつけようぜ、スカサハ。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+[line 3]阿呆が。[r]骨の髄から阿呆のクセに、難しく考えおって。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠スカサハ
+だがよかろう。問答もこれで尽きた。[r]門よ、開け。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+[line 2]ッ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+[messageOff]
+[charaEffect B bit_talk_36]
+[se ad39]
+
+＠スカサハ
+『[#死溢るる魔境への門:ゲート・オブ・スカイ]』。
+[k]
+
+[messageOff]
+[fadeout white 0.4]
+
+[charaEffectStop B]
+[wait charaEffect B]
+
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0 1]
+
+[fadein white 0.4]
+[wait fade]
+
+＠クー・フーリン・オルタ
+影の国への送還宝具か……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠スカサハ
+黄泉路に連れて行く。悪く思うな。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFace A 5]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠クー・フーリン・オルタ
+師匠……それでも、予感しているな。[r][#勝てない]と。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+その宝具を出してなお、勝てないと理解しているな？[r][line 2]正解だ。
+[k]
+
+＠クー・フーリン・オルタ
+殺すのではなく連れて行く宝具なんぞ[line 3][r]この後に及んで周りを気遣うアンタの負けだ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+宝具封印。[r]転身[line 2]！！
+[k]
+
+＠スカサハ
+…………な、に？
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[se ad23]
+[wait se ad23]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠スカサハ
+……ッ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 2]
+[charaFace A 2]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠クー・フーリン・オルタ
+[line 2]動きが止まったぞ、スカサハァッ！！
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[se bac13]
+
+[charaTalk B]
+[charaFace B 4]
+[charaShake B 0.05 3 3 0.5]
+＠スカサハ
+ガッ…………！！
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+『[#噛み砕く死牙の獣:クリード・コインヘン]』[line 2]。[r]これだけはアンタに習った技じゃない。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+この宝具こそが、アンタの土手っ腹に[r]風穴を穿つ、唯一無二の代物だ。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+……そこまで、至ったか。[r]それは、世界を滅ぼすに足る力だ。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+そうだろうな。このままであれば世界を滅ぼす。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+[line 2]クー・フーリン。私には、それが分からないよ。
+[k]
+
+＠スカサハ
+生きることと戦うこと、[r]それはおまえにとって最上の喜びだったはず。
+[k]
+
+＠スカサハ
+それが大前提だった。[r]だからこそ、おまえは美しく生きていた。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+なのに、何故そこまで醜くあろうとする？
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+……醜いとも。[r]それが、オレが見てきた王というものだからだ。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+……なんと……[r]……そこまで、律儀な阿呆だったか……。
+[k]
+
+[messageOff]
+[se ad52]
+[charaFadeout B 0.7]
+[wt 1.7]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+じゃあな、スカサハ。[r]もう二度と巡り合うこともないだろう。
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+
+[scene 10000]
+[fadein black 1.0]
+[wait fade]
+
+＠C：？？？
+やれやれ。同じ槍兵同士、[r]あやつとも殺り合ってみたかったが[line 2]。
+[k]
+
+＠C：？？？
+何しろ先約の方を優先せねば話になるまいて。[r]生きているか？
+[k]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+……なんとかな。門に自ら飛び込み、世界の外側まで[r][#肉体:からだ]を飛ばしたのが功を奏したか。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+もっとも外見は繕えたがそれだけだ。[r]人体に喩えるならば、内臓の九割が吹っ飛んでいる。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+＠C：？？？
+それは困るな。[r]戦えんではないか。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+我らが戦うとすればこの時代が終わりを告げる時だ。[r]それまでは書文、あやつらを手伝ってやってくれぬか。
+[k]
+
+[charaFace C 0]
+＠李書文
+どちらを？
+[k]
+
+[charaFace B 5]
+＠スカサハ
+……北軍。南軍は[%1]が居るが、[r]北軍にはおらぬ。この差は大きい。
+[k]
+
+[charaFace C 1]
+＠李書文
+分かった。では北軍に参ろう。[r]おぬしは時代が終わるまで、ここに留まっていろ。
+[k]
+
+[charaFace C 5]
+＠李書文
+必ず駆けつける。[r]時代が終わろうが、世界が終わろうが、必ず。
+[k]
+
+[charaFace C 4]
+＠李書文
+なにしろ人外の極意に達した神の槍だ。[r]合わさぬまま消えられては、儂の方こそ狂いそうだ。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+……こだわるのう。[r]ここまで熱心に口説かれては断れまい。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+よいぞ。気合いで待ち続けよう。[r]弟子に敗北した腑抜けの槍でよければな。
+[k]
+
+[charaFace C 1]
+＠李書文
+呵々。あれを敗北とは数えぬよ。[r]はじめから目的が違ったではないか。
+[k]
+
+[charaFace C 5]
+＠李書文
+槍の競い合いはここからが本命と知れ、女主人。[r]我が神槍、果たして真の神に通じるのか試す時よ。
+[k]
+
+[charaFace C 0]
+＠李書文
+……ま、その前にまずは世界を救ってからか。[r]いやはや、儂は強者と戦いたいだけだが、
+[k]
+
+[charaFace C 4]
+＠李書文
+世界というのは何とも世知辛いものだな。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+それが英霊の宿命というものさ。
+[k]
+
+[charaFace C 1]
+＠李書文
+ははははは[line 4]確かに。
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[soundStopAll]
+[end]

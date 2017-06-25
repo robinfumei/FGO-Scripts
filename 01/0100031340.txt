@@ -1,0 +1,149 @@
+＄01-00-03-13-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21410 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 7001001 1 ヘラクレス]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaFace B 2]
+[charaFadein B 0 1]
+[fadein black 1]
+[wait fade]
+＠エウリュアレ
+走って、走って！[r]急がないと……！
+[k]
+
+[charaFadeout B 0.1]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[voice 700100_0_B100]
+＠ヘラクレス
+[image berserker_language_2][line 4]！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠エウリュアレ
+来たわよ。もう逃げ道ないわね。[r]怖い？
+[k]
+
+？1：怖い
+
+[charaFace B 1]
+＠エウリュアレ
+そ。……私もよ。
+[k]
+
+？2：怖くない
+
+[charaFace B 1]
+＠エウリュアレ
+そう。……無理しちゃって。
+[k]
+
+？！
+
+[charaFace B 0]
+＠エウリュアレ
+止まったら追いつかれるわね。[r]しょうがないわ、“アレ”を跳び越えなさい！
+[k]
+
+？1：触ったら死ぬのに！？
+
+？2：自信がない！
+
+？！
+
+[charaFace B 5]
+＠エウリュアレ
+いいから跳びなさい！[r]私を信じて！
+[k]
+
+[charaFace B 2]
+＠エウリュアレ
+さあ[line 2]１、２の、３！！
+[k]
+
+[se bac1]
+[charaFadeout B 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21400 0]
+[charaFace B 3]
+[charaFadein B 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[shake 0.05 0 2 0.3]
+＠エウリュアレ
+や、やった……！[r]やればできるじゃない、マスター！
+[k]
+
+[se bac2]
+[charaFadeout B 0.1]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ヘラクレス
+……！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠エウリュアレ
+止まった……！[r]どうやら理解できたみたいね、ヘラクレス。
+[k]
+
+＠エウリュアレ
+私たちとあなたの間にある、その箱が何なのか……！
+[k]
+
+[charaFadeout B 0.1]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠アタランテ
+そこまでだ、ヘラクレス！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠マシュ
+ヘラクレス。あなたの目の前にあるのが、[r]イアソンが求めていた宝具です。
+[k]
+
+[charaFace C 0]
+＠ヘラクレス
+……！
+[k]
+
+[charaFace A 7]
+＠マシュ
+触れれば死をもたらす、『[#契約の箱:アーク]』。[r]今だ十の生命を持つあなたを倒すには、これ以外にない。
+[k]
+
+＠マシュ
+マスター、もう少しだけ辛抱して下さい。
+[k]
+
+[charaFace A 2]
+＠マシュ
+ヘラクレス、あなたを此処で仕留めます！[r][line 2]行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,303 @@
+
+＄94-00-58-34-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 4024000 1 モードレッド]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+これは立派な運動場ですね。[r]ありがとうごさいます、マスター。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+フォウさんもあんなに元気に走り回っています。[r]気に入ってもらえたようですね。
+[k]
+
+
+？1：じゃあ……野球でもしようか
+？2：じゃあ……サッカーでもしようか
+？！
+
+[charaFace A 12]
+＠マシュ
+さすがに人数が足りないと思います、先輩。
+[k]
+
+[charaFace A 0]
+＠マシュ
+とはいえ、ここにスカサハさんの作ってくれたボールが[r]ありますし。
+[k]
+
+[charaFace A 13]
+＠マシュ
+そうですね、このボールの大きさからいって、フットサル[r]的な球技にはちょうどいいのではないかと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+いいでしょう。ハンデです、私は一人、[r]そちらはマスターにマシュ、フォウ殿というチームで。
+[k]
+
+
+？1：３対１か……その油断が敗因だ！
+
+[charaFace B 0]
+＠アルトリア
+ふふふ、そうでしょうか？[r]やってみなければわかりませんよ。
+[k]
+
+
+？2：手加減してネ
+
+[charaFace B 5]
+＠アルトリア
+何を言うのです、スポーツはいつも真剣勝負。[r]お互いに死力を尽くして戦ってこそです！
+[k]
+
+？！
+
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[wt 1.0]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+＠アルトリア
+はっ！　ここっ！
+[k]
+
+[se bac148]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウッ！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+フォウさんのアニマルドリブルも通用しません！[r]ボールを奪われて……くっ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+なかなかいい動きですが……甘いですね、マシュ！[r]そして残るはマスター！
+[k]
+
+？1：くっ！　ガッツがたりない！
+？！
+
+＠アルトリア
+ふふ、鍛え方が足りませんね。[r]そして[line 2]シュート！[se bac148]　です。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace B 1]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+はぁはぁ……ボール捌きが上手ですね、アルトリアさん。[r]元からお好きだったのですか？
+[k]
+
+＠アルトリア
+いえ、これは[line 2]どこかで練習、したのでしょうね。ええ。[r]よく覚えてはいませんが。
+[k]
+
+＠マシュ
+そんなフワッとしたスキルであの動き……さすがです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの、ところで[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+…………。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+チラチラとこちらを見ながら、壁を相手に寂しく[r]一人キャッチボールしているモードレッドさんがあちらに……。
+[k]
+
+[charaFace B 6]
+＠アルトリア
+はて。あれはただの、どこにでもいる、[r]未来のメジャーリーガーを目指す野球小僧だと思います。
+[k]
+
+＠アルトリア
+ストイックな一人練習中なのでしょう。何も言わないと[r]いうことはそういうことです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+（クソ、なんて言えばいいんだ？　いーれーてー、か？[r]　まーぜーてー、が正しいのか？）
+[k]
+
+＠モードレッド
+（おら勝負だアーサー王、みたいなのがオレっぽいのかも[r]　……ううう？）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……先輩。
+[k]
+
+
+？1：助っ人呼んでもいいですか
+？2：４対１がちょうどいいと思う
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+はあ……マスターがそうおっしゃるなら、まあ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+というわけで、モードレッドさーん！[r]助っ人をお願いします！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+っ！？
+[k]
+
+[charaFace C 1]
+＠モードレッド
+し、しょーがねぇなー、オマエらは！[r]そこまで言うなら手伝ってやるよ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠アルトリア
+モードレッド卿。手加減は無用だぞ。
+[k]
+
+[charaFace C 2]
+＠モードレッド
+ったり前だ、父う[line 2]アーサー王め！[r]ブッ倒してやるぜ！　うおー！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+やっぱりスポーツは……いいものですね、先輩？
+[k]
+
+＠フォウ
+フォウッ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+
+

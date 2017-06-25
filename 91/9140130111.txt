@@ -1,0 +1,287 @@
+
+＄91-40-13-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 4013002 1 メイヴ]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 99360000 1 ケルト兵Ａ]
+[charaSet F 99360000 1 ケルト兵Ｂ]
+
+[scene 20720]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+女王メイヴ、撃破しました！[r]女王の兵士たちも種切れのようです！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+お見事[%1][&君:ちゃん]！[r]でもマシュ、そこは品切れと言っておこうね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠メイヴ
+っ……！[r]く[line 3]や[line 2]し[line 3]い[line 3]！
+[k]
+
+
+[charaMoveReturn A 0,5 0.2]
+[wt 0.1]
+[shake 0.05 0 2 0.1]
+[se ad54]
+[seVolume ad54 0 0.5]
+[wt 0.1]
+[charaMoveReturn A 0,5 0.2]
+[wt 0.1]
+[shake 0.05 0 2 0.1]
+[se ad54]
+[seVolume ad54 0 0.5]
+[wt 0.2]
+＠メイヴ
+ここまでお膳立てしたのに！[r]こんどは油断もしなかったのに！
+[k]
+
+[charaMoveReturn A 0,5 0.2]
+[wt 0.1]
+[shake 0.05 0 2 0.2]
+[se ad54]
+[seVolume ad54 0 0.5]
+[wt 0.1]
+[charaMoveReturn A 0,5 0.2]
+[wt 0.1]
+[shake 0.05 0 2 0.2]
+[se ad54]
+[seVolume ad54 0 0.5]
+[wt 0.1]
+[charaMoveReturn A 0,5 0.2]
+[wt 0.1]
+[shake 0.05 0 2 0.2]
+[se ad54]
+[seVolume ad54 0 0.5]
+[wt 0.2]
+＠メイヴ
+真っ正面から、この私が、[r]かんっぺきに負けちゃうなんて[line 5]！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……いいダメージをもらっただろうに、[r]悔しさで痛みを忘れてるな、アレは……
+[k]
+
+？1：ああ、いい地団駄だ
+？2：ああ、いい鞭振りだ
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+＠マシュ
+ともあれ、[r]これでメイヴさんのゲッシュは解けた筈です。
+[k]
+
+＠マシュ
+メイヴさんの『お誘い』は、[r]この通り先輩に全力で振られたワケですので。
+[k]
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠メイヴ
+なにその言い方！　癪に障るわ！[r]振られたんじゃなくて、私の力が足りなかったの！
+[k]
+
+＠メイヴ
+私が本調子なら男であれ女であれメロメロなんだから！
+[k]
+
+[charaFace A 7]
+＠メイヴ
+こんな結果になったのは[r]私をうまく使えないアナタが悪いんじゃない！
+[k]
+
+＠メイヴ
+私をもっと強くしておけば[r]アナタをこてんぱんにしてあげられたのに！
+[k]
+
+[charaFace A 5]
+＠メイヴ
+生ぬるい、生ぬるいのよカルデアのやり方って！[r]私に任せれば人理修復なんてあっという間！
+[k]
+
+＠メイヴ
+[%1]も前線に出るコトなく、[r]安全に戦いを進められるっていうのに！
+[k]
+
+[charaFace A 2]
+＠メイヴ
+もういいわ、私は先に帰っているからね！[r]次の戦いまで、せいぜい私を鍛えておきなさい！
+[k]
+
+＠メイヴ
+特に何を、とは言わないけど！[r]聖杯とか使って！　聖杯とか使って！
+[k]
+
+？1：ははは。それはできない相談だ。
+
+[charaFace A 5]
+＠メイヴ
+もうパーフェクトにむかつく[line 2]！[r]ばーか！　覚えてなさいよー！
+[k]
+
+？2：それがもう使ってるんですよ、メイヴさん……
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_6 0.1]
+
+[charaFace A 12]
+＠メイヴ
+え……ほんと？[r]使ってくれてるの、私に……？
+[k]
+
+[charaFace A 9]
+＠メイヴ
+あ、でも待って。それじゃあ私、最強状態で[r]なお負けたダメ女王ってコト[bgmStop BGM_EVENT_6 0.7]……だったりする？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠マシュ
+……はい、残念ながら。特にわたしは女性ですので、[r]メイヴさんの特攻も効きませんし……
+[k]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠メイヴ
+くっ……！　次はこうはいかないわ、[r]パーティーを男サーヴァントで固めておく事ね！
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_7 0.7]
+
+[charaMove A -256,0 0.7]
+[charaFadeout A 0.7]
+[se ad132]
+[wait se ad132]
+[wt 0.4]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マシュ
+女王メイヴ、退去しました。[r]おそらくカルデアに戻ったのではないかと……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、こちらでメイヴの反応を確認した。[r]ものすごい勢いで食堂に向かっている。
+[k]
+
+＠Dr.ロマン
+んー、あれはドカ食いの予感がするなあ。[r]カルデアの備蓄を気にしてほしいところだけど。
+[k]
+
+？1：悔しさをバネに成長する
+？2：カロリーを糧に体重増える
+
+？！
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+だね。一時はどうなる事かと思ったけど、[r]メイヴにはいい薬になっただろう！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+それに、今回の戦いでメイヴが隠していた能力も[r]判明した。今後はさらなる活躍が期待できる。
+[k]
+
+＠Dr.ロマン
+あれはきっとメイヴなりの歩み寄りなんだろうね。[r]本人は気付いていないようだけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+＠マシュ
+はい。メイヴさんはメイヴさんなりに、[r]マスターに信頼を向けてきたのだと思います。
+[k]
+
+＠マシュ
+だって[line 3]戦う理由が憎いからではなく、[r]悔しいから、というのは、ほら。
+[k]
+
+？1：うん。友人としての感情だよね。
+
+[charaFace B 13]
+＠マシュ
+はい！[r]次のメイヴさんとの戦いが楽しみです！
+[k]
+
+？2：そうかなあ……ただの天然じゃないかなあ……
+
+[charaFadeout B 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

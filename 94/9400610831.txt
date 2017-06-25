@@ -1,0 +1,178 @@
+＄94-00-61-08-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98101900 1 トゥルッフ・トゥルウィス]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 98100400 1 マシュ]
+[charaSet D 5025001 1 エジソン]
+[charaSet E 98002000 1 フォウ]
+
+[scene 30630]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠トゥルッフ・トゥルウィス
+……七頭の息子。[r]……我が栄光。我が国。我が民。
+[k]
+
+＠トゥルッフ・トゥルウィス
+何もかも、全て、喪失した。[r]我が肉体すらも。
+[k]
+
+＠トゥルッフ・トゥルウィス
+ここまで、来たのに。[r]ここまで、至ったのに。
+[k]
+
+＠トゥルッフ・トゥルウィス
+何故、どうして、私は[line 6]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+単純な理屈さ。[r]因果応報。
+[k]
+
+＠スカサハ
+暴れ、奪い、貪り、殺し、驕り、昂ぶり、[r]散々にやりたいことをやったのだろう。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+罰を受けて猪に変えられても、[r]それはまるで変わらない。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+ならば、汝がこの島で二千年不遇な暮らしを送ったのは[r]当然であり、ここで死に果てるのも当然だ。
+[k]
+
+＠スカサハ
+おまえは奪うと決めた瞬間から、[r]そうなる運命だったのだ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠トゥルッフ・トゥルウィス
+……。[r]……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+恨むなよ、トゥルッフ・トゥルウィス！[r]神獣に至ったくせに、それはさすがに惨めだぞ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠トゥルッフ・トゥルウィス
+……なるほど……。[r]……言われてみれば……省みれば……。
+[k]
+
+＠トゥルッフ・トゥルウィス
+……当然、か[line 9]
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.2]
+[messageOff]
+[charaSpecialEffect A enemyErasure 1 1.7]
+[se ad42]
+[wait charaSpecialEffect A]
+[wt 1.5]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠マシュ
+マスター、消滅確認しました。[r]わたしたちの勝利です。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+[effect bit_talk_20]
+[se bas2]
+[wt 2.0]
+[effectStop bit_talk_20]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マシュ
+そして、聖杯の顕現も確認。[r]回収します。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+この力を使って、ようやくこの島ともおさらばか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+うむ。後は私に任せるがいい。[r]こう、色々と上手いことやってみよう！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠フォウ
+フォウー？
+[k]
+
+[charaFace D 4]
+＠エジソン
+だ、大丈夫だフォウ君。[r]安心しなさい、大丈夫、ヘンな発明には使わない！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠マシュ
+……エジソンさんを見張っていた方がいい気がしますね。
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

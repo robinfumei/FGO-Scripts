@@ -1,0 +1,683 @@
+
+＄01-00-05-21-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 7020000 1 クー・フーリン・オルタ]
+[charaSet B 4013001 1 メイヴ]
+[charaSet C 8001001 1 マシュ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 1019001 1 ラーマ]
+
+[charaSet H 98003003 1 Dr.ロマン]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[scene 20903]
+[fadein black 2]
+[wait fade]
+
+＠ラーマ
+[line 2]そこだ！[r]『[#羅刹を穿つ不滅:ブラフマーストラ]』！！
+[k]
+
+[messageOff]
+[se ad39]
+[fowardEffect bit_talk_36]
+[wt 1.0]
+[bgmStop BGM_EVENT_3 0.1]
+[fadeout white 0.1]
+[fowardEffectStop bit_talk_36]
+[wait fade]
+[seStop ad39]
+[se bac36]
+[se bac45]
+[charaFadeout E 0.1]
+[fadein white 0.3]
+[shake 0.05 2 4 0.6]
+[wait fade]
+[wt 0.5]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠マシュ
+……やった……！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠メイヴ
+あ[line 2]く[line 2]。
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[wt 0.2]
+[se ad58]
+[wt 0.5]
+[seStop ad58]
+[wt 0.5]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+……チ。[r]酷い有様だな、メイヴ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+＠メイヴ
+ええ、クーちゃん。私、今にも死にそうよ。[r]でも、役割は果たしたの……。
+[k]
+
+＠メイヴ
+本当、本当よ。[r]……褒めて、くれる？
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+[line 5]そうだな。[r]おまえさんにしては、よくやった。
+[k]
+
+＠クー・フーリン・オルタ
+女王として自分の国を守る。[r]やればできる女だよ、おまえは。
+[k]
+
+[charaFace B 3]
+＠メイヴ
+……うれしい。[r]私、その一言が聞きたかったの。
+[k]
+
+＠メイヴ
+それだけ、それだけで救われたの。[r]私の願いは、叶った。
+[k]
+
+＠メイヴ
+やっと、貴方は、私のものに[line 2]なってくれた。
+[k]
+
+？1：役割とは何？
+？2：一体何をした？
+？！
+
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠メイヴ
+あはははは！[r]あはははは！　私の名前を知っていて？
+[k]
+
+＠メイヴ
+我が名はメイヴ！　女王メイヴ！[r]私の伝説に刻まれた最高傑作をご存じかしら？
+[k]
+
+[charaFace B 2]
+＠メイヴ
+その名は『[#二十八人の戦士:クラン・カラティン]』！[r]稀代の英雄クー・フーリンを倒す集合戦士！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ラーマ
+それがおまえの切り札か。[r]いいだろう、ならば召喚してみせろ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠メイヴ
+……あはは……違うの、ぜんっぜん違うの。[r]あなたたちが思っているものとは、何もかも！
+[k]
+
+[charaFace B 2]
+＠メイヴ
+何もかも、全く違うの！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+……待ちたまえ。[r]あり得るのか……！？　いや、本当に可能なのか！？
+[k]
+
+＠Dr.ロマン
+英霊がこんな恐ろしい構想を練れるものか！？[r]いや、術式として可能なのか！？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+女王メイヴ……！[r]これはソロモンですら試そうとしない試みだぞ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠マシュ
+ドクター！？[r]ドクター、一体何が起きました！？
+[k]
+
+＠マシュ
+こちらは何の異常も[line 4]。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+北部戦線……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そう！[r]そこについさっき、[#アレ]が召喚されたんだよ！
+[k]
+
+？1：アレってまさか……！
+？2：魔神柱？
+？！
+
+＠Dr.ロマン
+北部戦線に、[#二十八体の魔神柱が確認された]……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 0 5 0 5]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+＠マシュ
+…………え？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+『[#二十八人の戦士:クラン・カラティン]』という枠組に押し込むことで、[r]魔神柱を丸ごと召喚するなんて……！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+聖杯を所有している以上、理論的には可能だ。[r]可能だが……合計で二十八体！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout C 0.1]
+
+
+[charaTalk E]
+[charaFace E 2]
+[charaFace D 6]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+＠ラーマ
+有り得るのか、それは……！？
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+それだけ強いのでしょう。[r]彼女の願いは、これまでの誰にも負けぬほどに。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+[line 2]あの男のためならば。[r]如何なる犠牲をも許容し、自分自身をも[#擲:なげう]って。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠マシュ
+ドクター、北部戦線のサーヴァントたちは……！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[scene 12000]
+
+[charaFadeout C 0.1]
+
+[charaSet A 3005002 1 エリザベート]
+[charaSet B 2003001 1 ロビンフッド]
+[charaSet C 5023001 1 ブラヴァツキー]
+[charaSet D 5025001 1 エジソン]
+[charaSet E 7008001 1 ベオウルフ]
+[charaSet F 3017001 1 李書文]
+
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 2]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+＠エリザベート
+……何コレ……！？
+[k]
+
+[charaFace B 4]
+＠ロビンフッド
+何ってそりゃあ……大ボス、だろうな。
+[k]
+
+[charaFace A 4]
+＠エリザベート
+そんなのが、どうしてこっちに現れたの！？[r][&子イヌ:子ジカ]は無事なの！？
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+……通信が来た。どうやら向こうは無事っぽい。
+[k]
+
+[charaFace B 5]
+＠ロビンフッド
+つまりコイツは、オレたちを[r]すり潰すために送り込まれたってことだ！
+[k]
+
+[charaFace A 5]
+＠エリザベート
+……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+
+[charaFace E 4]
+[charaFace F 0]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+＠ベオウルフ
+……勝ち目はねえな。[r]こいつぁ、魔神柱の集合体だ。
+[k]
+
+＠ベオウルフ
+サーヴァント程度に手に負える連中じゃねえ。[r]かといって逃げるのも不可能だ。
+[k]
+
+[charaFace E 1]
+＠ベオウルフ
+ま、諦めろってことだ。[r]李書文、お前さんでも手に余るだろう。
+[k]
+
+[charaFace F 4]
+＠李書文
+……さすがに、な。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFace C 5]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+＠エジソン
+……終わりだ。
+[k]
+
+[charaFace C 5]
+＠ブラヴァツキー
+エジソン？
+[k]
+
+[charaFace D 2]
+＠エジソン
+こんなものに勝てるはずがない……！[r]見ろ、これを見ろ！
+[k]
+
+＠エジソン
+二十八体だぞ！？
+[k]
+
+[charaFace D 5]
+＠エジソン
+一体だけでもサーヴァント複数で[r]掛からねば決して倒せぬ相手に……！！
+[k]
+
+[charaFace C 2]
+＠ブラヴァツキー
+エジソン……！[r]落ち着きなさい！　あなたがパニックにならないで！
+[k]
+
+[charaFace D 4]
+＠エジソン
+正義は……敗れるのか……。
+[k]
+
+[charaFace C 4]
+＠ブラヴァツキー
+……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠エリザベート
+……。[r]……ちょっと、そこの獅子頭。
+[k]
+
+[charaFace D 4]
+＠エジソン
+……獅子頭？　獅子……獅子などどこに……[r]おっと[charaFace D 0]私の事か！　な、なにかな角の生えたレディ？
+[k]
+
+
+[charaFace A 2]
+＠エリザベート
+あのねぇ[line 3][r]泣き言いってんじゃないわよっ！！！
+[k]
+
+[charaShake D 0.05 3 3 0.25]
+[charaFace D 2]
+＠エジソン
+うお、耳が！？
+[k]
+
+＠エリザベート
+確かにピンチもピンチ、大ピンチよ！[r]でもねえ、あの[&子イヌ:子ジカ]は[#私:アタシ]たちに託したのよ！
+[k]
+
+[charaFace A 5]
+＠エリザベート
+ここを守り切れば[#私:アタシ]たちの勝ち！[r]ここで[#私:アタシ]たちが諦めたら戦線は崩壊でしょ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+＠ロビンフッド
+そりゃそうだが、コイツはケタが違いすぎる[r]っつーかオレたちの攻撃、効くのかアレ？
+[k]
+
+[charaFace A 2]
+＠エリザベート
+効果がなくても、生きていればそれでいいんでしょう！[r]誰が何と言おうが、[#私:アタシ]は負けない！
+[k]
+
+[charaFace A 5]
+＠エリザベート
+ううん、負けてなんかやるもんか！[r]アイツを[line 2][#私:アタシ]の[#宿敵:ともだち]、ネロを殺した奴らなんかに！
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+いや、それはいいんだが。
+[k]
+
+[charaFace A 4]
+＠エリザベート
+へ？
+[k]
+
+[charaFace B 5]
+＠ロビンフッド
+おまえさん、ちょっとそこを[line 2]どいてろ！
+[k]
+
+[charaFadein B 0.1 1]
+[wt 0.2]
+[se ad7]
+[charaFadeout A 0.2]
+[charaAttack A normal 450,0 0.4]
+[wt 0.4]
+[charaPut A 2]
+
+[charaEffect A bit_talk_lightning_03t]
+[shake 0.05 0 4 0.5]
+[se ad34]
+[wait se ad34]
+
+[charaFace A 2]
+＠エリザベート
+うっきゃあ！？
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+上、上。ちゃんと上を見ろってえの。[r]あと涙は拭いとけ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠エリザベート
+……わ、分かってるわよ！[r]気を取り直して、やるわよ緑色！
+[k]
+
+[charaFace B 4]
+＠ロビンフッド
+お前いい加減俺の名前を覚えろよ！[r]……で、[charaFace B 0]エジソンの旦那？
+[k]
+
+＠ロビンフッド
+アンタ、どうする？[r]逃げるんなら逃げてもいいぜ。
+[k]
+
+＠ロビンフッド
+今なら、まだ時間稼ぎができる。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エジソン
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠エリザベート
+さあ、掛かってきなさい。[r][#二十八人の戦士:クラン・カラティン]！
+[k]
+
+[charaFace A 2]
+＠エリザベート
+このエリザベート・バートリーが[line 2]。[r]極上のナンバーで、イカせてあげるわ！！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaSet A 7020000 1 クー・フーリン・オルタ]
+[charaSet B 4013001 1 メイヴ]
+[charaSet C 8001001 1 マシュ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 1019001 1 ラーマ]
+
+[charaTalk A]
+[charaFace B 4]
+[charaFace A 0]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+[scene 20903]
+
+[fadein black 1.0]
+[wait fade]
+
+＠クー・フーリン・オルタ
+……逝くか？
+[k]
+
+＠メイヴ
+ええ、逝くわ。[r]聖杯は、貴方に託します。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠メイヴ
+さようなら。クー・フーリン。[r]いつか、どこかで、また[line 2]。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect B flashErasure 0 1.7]
+[wait charaSpecialEffect B]
+[wt 1.0]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠マシュ
+……クー・フーリン。[r]貴方は[line 2]。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+[line 2]寄り道がすぎるのはオレの起源かね。[r]いい女には縁がない。早々に別れちまう。
+[k]
+
+[charaFace A 4]
+＠クー・フーリン・オルタ
+逆に悪い女ほど絡みついてきやがる。[r]とくにメイヴは[#茨:いばら]以上にしつこい女だったんだが……
+[k]
+
+＠クー・フーリン・オルタ
+……まったく。[r]いい女になった瞬間、満足げに消えちまった。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFace C 6]
+[charaFadein E 0.1 0]
+[charaFadein C 0.1 2]
+＠ラーマ
+少し、雰囲気が違う……？
+[k]
+
+＠マシュ
+……冬木で出会ったときのような……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+わずかだが、纏っていた魔力も弱まっている。
+[k]
+
+＠Dr.ロマン
+恐らく、クー・フーリンが王であることを願った者が[r]消滅したことで、時代の修正力が強まったんだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+０％の勝率が３％になった程度だが……[r]可能性は、出てきたぞ！
+[k]
+
+＠Dr.ロマン
+いいか、北部戦線が崩壊する前にクー・フーリンを[r]倒せ！　それが時代を修正する最後のチャンスだ！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.5]
+
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,827 @@
+
+＄94-00-77-05-1-0
+
+[soundStopAll]
+
+[se ad2]
+[seVolume ad2 0 0.5]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5012001 1 ニトクリス]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1010001 1 エリザベート]
+[charaSet E 98003003 1 Dr.ロマン]
+[charaSet F 7022001 1 茨木童子]
+[charaSet G 98002000 1 フォウ]
+
+[scene 21804]
+[fadein black 2.0]
+[wait fade]
+
+
+[seStop ad2 5.0]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠茨木童子
+いまさら名乗るまでもないがな！[r]そう、[#吾:われ]だ！
+[k]
+
+？1：隅っこにいたよね？
+
+[bgm BGM_EVENT_7 0.1 0.7]
+
+[charaFace F 2]
+＠茨木童子
+気付いていたのならさっさと呼ばぬか！[r]というか、苛めか！？
+[k]
+
+？2：気付かなかった
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.1 0.7]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+すいません、てっきりお菓子とかが欲しくて[r]くっついてきた子供かと！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠茨木童子
+[messageShake 0.05 2 2 0.4]
+ば、ばばばばばはば[line 3]
+[k]
+
+[charaFace F 3]
+＠茨木童子
+誰が菓子なんぞ目当てに遊びにくるか！[r]美味しかったがな！
+[k]
+
+？！
+
+[charaFace F 5]
+＠茨木童子
+ええい、どいつもこいつも腑抜けおって！[r][#吾:われ]を誰と心得る！
+[k]
+
+[charaFace F 2]
+＠茨木童子
+[#吾:われ]は鬼の首魁でありながら、[r]都でもっとも腕のいい名うての盗賊！
+[k]
+
+＠茨木童子
+大江山にて伊吹酒呑御殿を建てるほどの大盗賊、[r][#茨木童子:いばらきどうじ]であるぞ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[communicationCharaFace 0]
+[wt 0.3]
+＠Dr.ロマン
+盗賊……ああ、確かに盗賊と言えない事もないのか……。[r]よく貴族のお宝盗んでたらしいしね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠茨木童子
+くははは、その通りよ！
+[k]
+
+
+[charaFace F 1]
+＠茨木童子
+かぐや姫など笑わせる！　あの時代に[#吾:われ]がおれば、[r]あの程度の五つの宝、ことごとく手に入れたであろう！
+[k]
+
+
+[charaFace F 5]
+＠茨木童子
+さあ、もっと[#吾:われ]を恐れぬか！[r]崇めぬか！　讃えぬか！　菓子与えぬか！
+[k]
+
+[se ad2]
+[seVolume ad2 0 0.5]
+[seStop ad2 4.0]
+
+
+[charaFace F 0]
+＠茨木童子
+[#吾:われ]は災禍の[#怪物:けもの]、鬼なるぞ[charaFace F 4][charaShake F 0.05 5 5 0.3]へくちょん！
+[k]
+
+[charaFace F 4]
+[charaShake F 0.05 3 3 0.7]
+＠茨木童子
+ずず……冷える……冷えるのは辛い……。[r]母上には腹巻きをしろとよく言われたものだ……
+[k]
+
+
+[charaFace F 0]
+[wt 0.7]
+[charaFace F 4]
+[wt 0.7]
+
+[charaFace F 0]
+＠茨木童子
+……あ、いや。[r]えーと、どこまで話したのだ、[#吾:われ]？
+[k]
+
+？1：とりあえずもういいです
+？！
+
+[charaFace F 1]
+＠茨木童子
+もういいのか。そうかそうか。[r]物分かりがいいではないか。不快ではないぞ。
+[k]
+
+[charaFace F 0]
+＠茨木童子
+しかし[#魔酒:ましゅ]よ。[#吾:われ]もそうだが、[#汝:なれ]も寒そうだ。[r]辛くはないのか？　腹巻きとか持ってないか？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、わたしはなんとも……。[r]で[charaFace A 12]すが、確かにこのエリアの気温は低いです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+先輩はカルデアの制服であれば、[r]耐熱耐寒仕様のはずなので平気として……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+エリザベートさんは大丈夫ですか？[r]その、いつにも増して露出が激しいので……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad2]
+[seVolume ad2 0 0.5]
+[seStop ad2 4.0]
+
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.7 1]
+[charaShake D 0.05 2 2 0.4]
+＠エリザベート
+……。[r]…[charaShake D 0.05 3 3 0.7]…しゃむい……。
+[k]
+
+？1：そんな格好だから……
+？！
+
+[charaFace D 4]
+＠エリザベート
+ゆ、勇者だから問題ないの！[r]勇者は風邪引かないもんなのよ！
+[k]
+
+[charaShake D 0.05 2 2 0.5]
+[wt 0.2]
+[charaShake D 0.05 2 2 0.5]
+[wt 0.2]
+
+[charaFadeout D 0.7]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ダメそうです……。[r]ここはなるべく足早に突っ切りましょう。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 2 2 0.4]
+＠ニトクリス
+そ、そうですね……。
+[k]
+
+＠ニトクリス
+ここはさっさと駆け抜けた方がいいと、[r]ファラオ的にも思います。
+[k]
+
+[charaFace B 9]
+＠ニトクリス
+私も地味に生地が薄いので！
+[k]
+
+[charaShake B 0.05 2 2 0.5]
+[wt 0.2]
+
+[charaFadeout B 0.4]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+へいへい、それじゃちょいと[r]ひとっ走りするか！
+[k]
+
+
+[se ad132]
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[seStop ad132 1.5]
+[wt 1.0]
+
+[fadein black 2.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.7 1]
+[charaShake D 0.05 3 3 0.7]
+＠エリザベート
+うわーん、さーむーいー！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 3 3 0.7]
+＠ニトクリス
+ひんやりするかわいいかわいい死霊たちが、[r]今はちょっとだけ鬱陶しいですね！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 2 2 0.2]
+＠ロビンフッド
+この中じゃ、割とマシなオレでも[r]寒いもんな……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ところで！　茨木さんは！[r]どうして此処に！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaSet F 98105300 0 茨木童子]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaMove F 0,-4 0.1]
+[wait charaMove F]
+
+[charaChange F 7022001 0 normal 0]
+[wait charaChange F]
+[charaMove F 1 0.1]
+[wait charaMove F]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaChange F 98105300 0 normal 0]
+[wait charaMove F]
+＠茨木童子
+いや、特に用はない。なんとなくだ。[r]（口いっぱいに何かをほおばりながら）
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaSet F 7022001 1 茨木童子]
+
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……はあ。[r]何となく、ですか……。
+[k]
+
+
+[charaFace A 12]
+＠マシュ
+極めて個人的な物欲……によるもの[r]ではないのですね？
+[k]
+
+？1：トリック？
+？2：トリート？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠茨木童子
+知らぬ。そんな合言葉は知らぬ。[r]しかしタルトとやらが美味かった。
+[k]
+
+[charaFace F 1]
+＠茨木童子
+キャンディとやらも格別だ。[r]しかし甘すぎてな、牙がとろけぬか心配よ。
+[k]
+
+[charaFace F 4]
+＠茨木童子
+……まったく。かつて金平糖一粒で[r]一喜一憂していた[#吾:われ]は何だったのか……
+[k]
+
+[charaFace F 0]
+＠茨木童子
+母上にも食べさせてやりたい程だ……[r]あとはパウンドケーキとやらがとても気になる……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+完全にスイーツのトリコです……
+[k]
+
+[charaFace A 12]
+＠マシュ
+これは確かに、酒呑さんから子供扱いされるのも[r]仕方ないかと……。
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠茨木童子
+何を言う、[#吾:われ]の本意ではないわ！
+[k]
+
+＠茨木童子
+人間どもが、命ばかりは助けてほしい、と[r]菓子を差し出してきたのだ！
+[k]
+
+[charaFace F 0]
+＠茨木童子
+ハラが減っておれば菓子なんぞより肉だがな。[r]幸い、サーヴァント化してからハラは減らぬ。
+[k]
+
+＠茨木童子
+なので今回だけ、菓子なんぞという食い出のない[r]もので見逃してやったのだ。[charaFace F 1]うは、[#吾:われ]は溶けそうだ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 0]
+＠Dr.ロマン
+なるほど。[r]本意はともかく、本音はダダ漏れのようだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠茨木童子
+だが街を離れればなんだこの有様は！[r]と[messageShake 0.05 3 3 0.7]りーと！　とりーと！　とり[line 3]っと！
+[k]
+
+[charaFace F 5]
+＠茨木童子
+合言葉を叫んでも誰も現れん！[r]嗚[charaFace F 4]呼、駄目ぞ、洋菓子禁断症状が出る……！
+[k]
+
+[charaFace F 2]
+＠茨木童子
+何か硬くて甘いものを囓りたい！
+[k]
+
+[charaFace F 5]
+＠茨木童子
+なければ貴様の備蓄であるところの[r]凶骨でも囓ってくれようか！
+[k]
+
+？1：凶骨だけはマジ勘弁してください！！
+
+？！
+
+[charaFace F 0]
+＠茨木童子
+ではキャンディだ！[r]マシュマロでもいいぞ！
+[k]
+
+[charaFace F 2]
+＠茨木童子
+というか[#吾:われ]、走りっぱなしだわ寒いわで[r][#熱量:かろりー]が欲しい！
+[k]
+
+？1：マシュではダメですか！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+せ、先輩！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠茨木童子
+むぅ、柔らかそうだが甘くはなさそうだ！[r]却下！
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+
+？2：手元にはもうないです！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 0]
+＠Dr.ロマン
+ははは。[r]キャスターエリザベートにいっぱい使ったからね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_2 1.0]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠茨木童子
+なん……だと……！
+[k]
+
+？！
+
+[bgm BGM_EVENT_5 0.1]
+
+＠茨木童子
+[charaFace F 4]
+つまり……菓子は、ないのか？　もう？
+[k]
+
+[charaFace F 2]
+＠茨木童子
+[#吾:われ]、まだ本命のチョコレイトとやらを[r]食べていないのだがー！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+そういうことになります……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠茨木童子
+く、くは、くはははは！[r]……[charaFace F 4]帰る……。
+[k]
+
+[charaFace F 2]
+＠茨木童子
+[#吾:われ][messageShake 0.05 4 4 0.4]、もうお山にかーえーるー！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ま、待ってください茨木さん！[r]お菓子なら、カルデアに帰ってから差し上げます！
+[k]
+
+[charaFace A 12]
+＠マシュ
+こうして現地で合流したのも何かの縁、[r]どうかわたしたちを助けてくれませんか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠茨木童子
+くははは！
+[k]
+
+[charaFace F 5]
+＠茨木童子
+たわけ。人間が鬼に助けを求めるとは、[r]道理外れも甚だしい！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+それは、確かにそうですが……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 5]
+[se ad27]
+[seVolume ad27 0 0.3]
+[charaShake C 0.05 1 2 0.4]
+＠ロビンフッド
+……（がさごそ）。
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+[charaMove C 1024,0 0.4]
+[se ad28]
+
+[charaPut A -640,0]
+[charaEffect A bit_talk_37]
+[wait charaMove C]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠茨木童子
+大体、[#吾:われ]はあくまで遊びに来ただけ。[r]言うなれば[#稀人:まれびと]であって、[se ad28][seVolume ad28 0 0.4][wait se ad28][charaFace F 2][charaShake F 0.05 2 2 0.7][se ad182][seVolume ad182 0 0.4]力を貸すなどモガ！？
+[k]
+
+
+[charaChange F 98105300 0 normal 0]
+[wait charaMove F]
+[charaFace F 0]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaMove F 0,-4 0.3]
+[wait charaMove F]
+
+[charaChange F 7022001 0 normal 0]
+[wait charaChange F]
+[charaMove F 1 0.1]
+[wait charaMove F]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaChange F 98105300 0 normal 0]
+[wait charaMove F]
+[charaMove F 0,-4 0.3]
+[wait charaMove F]
+
+[charaChange F 7022001 0 normal 0]
+[wait charaChange F]
+[charaMove F 1 0.1]
+[wait charaMove F]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+モガ？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 2 2 0.4]
+＠茨木童子
+[messageShake 0.05 4 4 0.4]
+おお……[charaFace F 1][charaShake F 0.05 4 4 0.7]おおおおお！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.1 0.7]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+おっと、街のガキどもにくれてやる予定だった[r]チョコをうっかり投げちまった。
+[k]
+
+[charaFace C 1]
+＠ロビンフッド
+でもまあニホン的にはこれでいいんだよな？[r]鬼は外ー、って言って食い物を投げるんだろ？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 1 2 0.4]
+＠茨木童子
+[messageShake 0.05 4 4 0.4]
+これが……チョコ……チョコレイト……！[r]地[charaShake F 0.05 4 4 0.7][messageShake 0.05 4 4 0.4]獄のように甘く……そして地獄のように甘い！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 1]
+＠Dr.ロマン
+ははは。表現力ないねこの鬼。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 2 4 0.4]
+＠茨木童子
+だが効かぬわ、これっぽっちのチョコでは[r][#吾:われ][charaShake F 0.05 2 4 0.4]にはぜんぜん効かぬ！　[charaFace F 4][charaShake F 0.05 4 4 0.7]効かぬのだ……！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠ニトクリス
+ぽろぽろと泣きながら歯を食いしばっています……[r]こちらの胸まで詰まらせる慟哭ですね……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 1 2 0.4]
+＠茨木童子
+ええい、どうした緑色のいい人！[r]もっと[#吾:われ]に攻撃せぬか！　ほれ、ほれ！
+[k]
+
+[charaShake F 0.05 2 2 0.4]
+
+＠茨木童子
+羅生門の時のように！[r]羅生門の時のように！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+いやあ。[r]あげたいのは山々なんすけどねー。
+[k]
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.4]
+
+[charaTalk F]
+[se ad21]
+[wt 1.5]
+[seStop ad21 1.5]
+
+[bgm BGM_EVENT_3 0.4]
+
+[charaTalk C]
+[charaFace C 4]
+＠ロビンフッド
+あちゃー、何か来ちゃったなー。[r]危なくて、チョコとか投げてるヒマはないなー。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠茨木童子
+[messageShake 0.05 2 2 0.4]
+くはははまさに怒髪天！　雑魚どもが！[r]引[charaFace F 5]っ込んでおれ、ブッ[#解体:バラ]すぞ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+せ、戦闘態勢に移行しまーす！[r]マスター、よろしくお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[soundStopAll]
+[end]

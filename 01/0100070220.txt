@@ -1,0 +1,506 @@
+
+
+
+＄01-00-07-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 3008001 1 エルキドゥ]
+[charaSet E 98057000 1 ？？？]
+[charaSet F 3027000 1 アナ]
+
+[scene 34700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.4 1]
+＠エルキドゥ
+もうじき安全地帯です。[r]日が暮れる前に辿り着けそうですね。
+[k]
+
+[charaFadeout D 0.1]
+
+[messageOff]
+[se ad27]
+[wait se ad27]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+……これは杉の森、ですね。[r]伝説では魔獣フワワが守っていたという話ですが……
+[k]
+
+＠マシュ
+あれはウルクの東、ティグリス河の向こうにあたる[r]ザグロス山脈にあると解釈されていたような……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ、それは二種類あるんだよ。[r]シュメル版とアッカド版には食い違いがあってね。
+[k]
+
+＠Dr.ロマン
+古い文献では杉の森は西にもあったとされている。
+[k]
+
+[communicationCharaFace 10]
+＠Dr.ロマン
+だからこちら側に杉の森が[r]あってもおかしくはないんだけど……
+[k]
+
+？1：……妙に薄暗い森だ
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……ああ。ボクも同意見だ。[r]ギルガメッシュ叙事詩における杉の森は聖域でもある。
+[k]
+
+＠Dr.ロマン
+白い杉の森、と言われるぐらいでね。[r]でもここは[line 3]まるで、魔物の腹の中のようだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：……ウルクとは逆方向だ
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。[r]ウルクから遠ざかる一方です。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+どうかしましたか？[r]何か、気にかかる事でも？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+（どうしましょう、先輩……？[r]　ウルクから離れている事を指摘するべきでしょうか？）
+[k]
+
+？1：（…………）
+？2：（……ちょっと様子を見よう）
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+ああ、方角が気になるのですね。[r]この先の川に波止場があるんですよ。
+[k]
+
+＠エルキドゥ
+波止場にはまだ舟が残っていますから、[r]そこまで行けば、後は川を下るだけです。
+[k]
+
+＠エルキドゥ
+お疲れとは思いますが、頑張って。[r]この森を越えてしまえば、それで終わりです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+…………先輩、これは。
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+＠？？？
+なんと！　それはいい事を聞いてしまった！[r]この先に波止場があるとは知らなかった！
+[k]
+
+[charaFadeout A 0.1]
+
+
+[bgm BGM_EVENT_11 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 0]
+[charaFace F 0]
+[charaFadein F 0.4 2]
+＠？？？
+やあこんにちは、驚かせてすまない！[r]怪しい者ではないから、まずは話を聞くといい。
+[k]
+
+＠？？？
+我々は遭難者。[r]この通り、慣れない獣道で迷ってしまってね。
+[k]
+
+＠？？？
+これはもう魔獣たちのエサになるしかない、と[r]悲嘆していたが、やはり私はついている！
+[k]
+
+＠？？？
+ほら、そうだろうアナ？[r]私に付いてきて正解だったと思わないかい？
+[k]
+
+＠？？？
+今回は運悪く目的地に辿り着けなかったが、[r]こうして道を知る現地人に出会えたんだ。
+[k]
+
+＠？？？
+待てば海路の日和あり、一歩進んで二歩下がる。[r][#まさか魔獣の女神のお膝元]で、人間に会えるとはね！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]先輩。[r]森の奥から現れたあの方、どこかで[line 3]
+[k]
+
+？1：もしかして、あのお兄さん[line 3]！？
+？2：隣の女の子は誰だろう……？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+迷い人ですか。災難でしたね。
+[k]
+
+＠エルキドゥ
+僕たちはこれからウルクに向かいますが、[r]同行しますか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠？？？
+もちろん。断られてもまとわり付くとも。[r]もう三日も歩きづめで、足が棒になる寸前だった。
+[k]
+
+＠？？？
+でも、うーん。[r]名前も知らない人たちに同行するのは怖いなあ。
+[k]
+
+＠？？？
+そこの[&お兄さん:お嬢さん]、[r]良かったら名前を聞かせてくれないか？
+[k]
+
+＠？？？
+ああ、私は故あって名前は名乗れない。[r]この娘も同じだと思ってくれ。
+[k]
+
+？1：[%1]です
+
+[charaFace E 0]
+＠？？？
+ほうほう。この国では珍しい名前だね。[r]では、そちらのお嬢さんは？
+[k]
+
+？2：怪しいのがまた増えた！
+
+[charaFace E 1]
+＠？？？
+まあまあそう言わずに。[r]というかさっき聞こえてきたんだけどね。
+[k]
+
+＠？？？
+[%1]君、だろう？[r]で、そちらのお嬢さんは？
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+マシュ・キリエライトと言います。[r]こちらの方はエルキドゥさんです。
+[k]
+
+[charaFace D 9]
+[wt 0.7]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠？？？
+エルキドゥ？　エルキドゥと言ったのかい？[r]うーむ。それは困ったなあ。[#うん、とても困る]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+……何故？[r]僕におかしな所があるとでも？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠？？？
+いやあ。キミがエルキドゥだと、私の記憶がついに[r]おかしくなったかな？という疑問が出来てしまう。
+[k]
+
+＠？？？
+いまウルクで戦線を指示しているギルガメッシュ王は、[r]不老不死の霊草探索から戻ってきた後の王様だ。
+[k]
+
+＠？？？
+つまり[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_11 0.7]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 2]
+＠Dr.ロマン
+な[line 3]待った、[charaFace A 6]それはおかしい！
+[k]
+
+＠Dr.ロマン
+この時代がギルガメッシュ王の不老不死探索の[r]後だとしたら、辻褄が合わない！
+[k]
+
+＠Dr.ロマン
+友であるエルキドゥが死亡した事により[r]ギルガメッシュ王は不老不死の探索を始めるんだ。
+[k]
+
+＠Dr.ロマン
+それが終わった後というのなら、[r]エルキドゥはとっくの昔に死亡している！
+[k]
+
+＠Dr.ロマン
+サーヴァントとしてならともかく、[r]現地人として存在する筈がない！
+[k]
+
+
+？1：エルキドゥ、どういう事[&だ:なの]……！？
+？2：マシュ、そいつから離れ[&ろ:て]……！
+
+？！
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_3 0.1]
+[charaSet D 98106110 1 エルキドゥ]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+ふ[line 3]ふふ、ふふふふふふふふ！
+[k]
+
+＠エルキドゥ
+まぁそうだよね。あっさりバレなくちゃ嘘だよね、[r]こんな即興の芝居はさ！
+[k]
+
+[charaChange D 98106000 1 normal 1.0]
+[wait charaChange D]
+[charaFace D 7]
+＠エルキドゥ
+こんにちは[%1]。[r]こんにちはカルデアの無能たち。
+[k]
+
+＠エルキドゥ
+ああ[line 3]でもたいへん惜しかった！[r]あともう少しで面白い見世物が見られたのに！
+[k]
+
+＠エルキドゥ
+キミたちは旧人類最後の希望ってヤツだろう？
+[k]
+
+＠エルキドゥ
+人間はみんな失敗作だけど、[r]その中でも度を超した失敗作がキミたちだ。
+[k]
+
+＠エルキドゥ
+そんな希少品をこの先にいる女神に献上すれば、[r]きっとものすごい生き地獄が見られたのにね！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ここまで我々を誘導したのは罠だったのですね……！[r]アナタは本当にエルキドゥさんなのですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+もちろん。エルキドゥのように語り、エルキドゥと[r]同じ性能を持つ以上、ボクはエルキドゥ本人だ。
+[k]
+
+＠エルキドゥ
+というか、キミたちこそ、[r]どうして[#エルキドゥ:ボ　　ク]が人類の味方だなんて思い込むんだい？
+[k]
+
+＠エルキドゥ
+ボクは神々に作られた兵器だよ？[r]なら女神側に付くのは当然の事だと思うけどね？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+マシュ、対話はそこまでだ！[r]そのエルキドゥが放つ魔力は魔神柱のものに近い！
+[k]
+
+＠Dr.ロマン
+経緯は不明だが、キミたちの目前にいるモノは[r]人類の敵対者、ソロモンに類する何かだ！
+[k]
+
+＠Dr.ロマン
+ここまで誘導した以上、[%1]君を[r]生かして帰す気はないんだろう！
+[k]
+
+＠Dr.ロマン
+応戦するんだ！[r]それしか生き延びる道はない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+酷い言われようだなあ。[r]さっきまで仲間意識で和気藹々としていたのに。
+[k]
+
+＠エルキドゥ
+でもまあ、その通りなのが悲しいところだ。[r]この森に入った時点でキミたちは詰んでいる。
+[k]
+
+＠エルキドゥ
+生きたまま連れていけないのは残念だけど、[r]母上には首だけを持っていけばいいだろう。
+[k]
+
+＠エルキドゥ
+[line 3]よし。[r]てっとり早く、[#キミたち:カルデア]の旅を終わらせよう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+っ……！[r]敵個体、エルキドゥ戦闘態勢に入りました！
+[k]
+
+＠マシュ
+でも……わたしは彼の戦闘能力を知っています[line 3][r]わたしたちでは、とても……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+そう。小指の先ほどの勝ち目はない。[r]なぜキミたちと一緒に戦ってあげたか分かるかい？
+[k]
+
+[charaFace D 7]
+＠エルキドゥ
+もちろん、互いの性能差を知らしめる為さ！[r]あはは、ほーんと、人間はみっともない！
+[k]
+
+＠エルキドゥ
+だから死ねばいい。旧型は罵倒と共に死ねばいい。[r]完璧な兵器を[#羨:うらや]みながら、廃棄場に落ちる時だ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+っ[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+ふむ。偽エルキドゥ氏の言い分はてんで分からないが、[r]状況だけは理解した。
+[k]
+
+＠？？？
+[%1]君とマシュ嬢では分が悪いと見た。[r]アナ、手伝ってあげなさい。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アナ
+…………分かりました。[r]契約外ですが、あの人たちを守ります。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

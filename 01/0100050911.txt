@@ -1,0 +1,528 @@
+
+＄01-00-05-09-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2003001 1 ロビンフッド]
+[charaSet C 1006001 1 ネロ・ブライド]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 3005002 1 エリザベート]
+[charaSet F 7014001 1 ナイチンゲール]
+[charaSet G 1014001 1 フェルグス]
+[charaSet H 98003000 1 Dr.ロマン]
+
+[scene 11210]
+[fadein black 2]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠フェルグス
+くっ……！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ロビンフッド
+詰みだぜ、ぶっとい大将。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠フェルグス
+大将……ハッ、大将か。[r]残念なことに、俺は大将などではないよ。
+[k]
+
+[charaFace G 4]
+＠フェルグス
+俺は……女王の伝説に華を添える役回りでしかない。
+[k]
+
+＠フェルグス
+今生の世では、今度こそあの女王と[r]対等に付き合いたかったが……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ラーマ
+ま、待てフェルグス！[r]余の后、シータを知らぬか！？
+[k]
+
+＠ラーマ
+ラーマという男の、妻シータを知らぬか！
+[k]
+
+[charaFace G 0]
+＠フェルグス
+后……？　后かどうかは知らぬが、[r]おまえとそっくりの少女を見たことはある。
+[k]
+
+＠ラーマ
+何処でだ！？
+[k]
+
+＠フェルグス
+……ふむ、いいだろう。女王が立てた作戦の中でも、[r]あれは不快なものの一つだからな。
+[k]
+
+[charaFace G 0]
+＠フェルグス
+西へ戻れ、ラーマ。[r]アルカトラズ島。そこにおまえの后がいるかもしれん。
+[k]
+
+[charaFace D 4]
+＠ラーマ
+アルカトラズ島……だと……！？
+[k]
+
+＠Dr.ロマン
+ちょ、脱獄不可能と謳われたあの島か！？
+[k]
+
+
+＠フェルグス
+信じるも信じないも、おまえ次第だ。
+[k]
+
+[charaFace D 0]
+＠ラーマ
+いや……信じる。[r]余は、貴様を信じよう。フェルグス・マック・ロイよ。
+[k]
+
+＠ラーマ
+アルカトラズ島に、向かわせてもらう。
+[k]
+
+[charaFace G 4]
+＠フェルグス
+インドの英雄は……何とまあ、綺麗な瞳で[r]人を視るものか……。
+[k]
+
+＠フェルグス
+それにしても、まったく[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ネロ・ブライド
+む？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……？
+[k]
+
+＠エリザベート
+ほえ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠フェルグス
+ここには、女王以外にも[#美:よ]き女が多い。
+[k]
+
+[charaFace G 1]
+＠フェルグス
+こんなところで死ぬとは……勿体ない、ことを、したな[r]……クハハハハ！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[charaSpecialEffect G flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect G]
+
+[wt 1.0]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ネロ・ブライド
+……ケルトの戦士とて、美を愛でるか。[r]フェルグス[charaFace C 1]という男、見る目があるではないか！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠ロビンフッド
+いやあ、アレは単に見境がないだけのような……
+[k]
+
+[charaFace C 0]
+＠ネロ・ブライド
+ん？　何か言ったか？
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+いやなにも。それより皇帝陛下におかれましては、[r]この無人の街で何を？
+[k]
+
+[charaFace C 4]
+＠ネロ・ブライド
+貴様には分からぬか？[r]……まあ、無理もないか。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠エリザベート
+ふふふ、私には分かるわ。分かってしまったわ！[r]芸術と美を愛する女ならではの計画ね！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠エリザベート
+そしてここで会ったが三年目ねセイバー！[r]同じアメリカに召喚されたのも運命。
+[k]
+
+＠エリザベート
+ここで決着をつけろとヤーノシュ山も[#囁:ささや]いているわ。[r]どちらの[#才能:タレント]の方が上なのか……！
+[k]
+
+[charaFace C 1]
+＠ネロ・ブライド
+おお……余のクセッ毛に反応があると思えば、[r]やはり貴様か、魔性の歌姫エリザベートよ！
+[k]
+
+[charaFace C 1]
+＠ネロ・ブライド
+ふふふ。他ならぬ貴様にならば明かさねばなるまい。[r]というか聞くが良い。みなも聞くが良い。
+[k]
+
+＠ネロ・ブライド
+余の、深淵にして遠大な計画をな！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ロビンフッド
+……何となーく予想がついてるけどな。[r]ま、どうぞ。皇帝陛下。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ネロ・ブライド
+うむ、では答えよう！[r]余はここに究極の幻想都市[line 2]即ち
+[k]
+
+[charaFace C 2]
+＠ネロ・ブライド
+娯楽の殿堂、万客集う音高きハリウッドを！[r]築くつもり！　なのだっ！
+[k]
+
+？1：なんだってーーーー！？
+？2：なんだってーーーーー。
+
+？！
+
+[charaFace C 1]
+＠ネロ・ブライド
+うむ、気持ちのいいリアクション、感謝である！[r]貴様、一流のマスターと見たぞ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠エリザベート
+くっ……アメリカ二大拠点のうち一つをおさえている[r]なんて……あ、うち一つはアタシがゲットしたけど。
+[k]
+
+[charaFace E 0]
+＠エリザベート
+やっぱりセイバー……あなたと私は、[r]友という絆で結ばれているみたいね……！
+[k]
+
+[charaFace C 1]
+＠ネロ・ブライド
+ライバルというヤツだな！[r]ドル友である！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……予想通りでしたね、先輩。
+[k]
+
+[charaSet G 5016001 1 ジェロニモ]
+[charaSet H 2010001 1 ビリー]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 1]
+[charaFadein H 0.1 2]
+＠ビリー
+英雄って面白いねー、ジェロニモさん。
+[k]
+
+＠ジェロニモ
+ローマ帝国の衰退した理由が、[r]何となく理解できた気がするな、私は。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ナイチンゲール
+美的感覚の治療も、範囲外です。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ネロ・ブライド
+おまえたちも余の計画に協力するか？[r]マシュならサブヒロインに抜擢してもいいぞ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+ありがとうございます。[r]サブヒロインとは光栄の至りです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……ですが、ネロさん。もとい皇帝陛下。[r]あなたの計画には一つ問題があります。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ネロ・ブライド
+むむむ？　余の[#完璧:ぱーふぇくと]な計画の、[r]一体どこに[#瑕疵:かし]があると？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+この国は今、ケルト戦士たちによって[r]戦乱のまっただ中です。
+[k]
+
+[charaFace A 2]
+＠マシュ
+このままでは、カメラマンはおろか[line 2][r]観客すら、存在しません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ネロ・ブライド
+何と！？
+[k]
+
+＠エリザベート
+（うんうん。[r]　知ってる、知ってるわ。アタシはもう知ってるわ！）
+[k]
+
+[charaFace C 4]
+＠ネロ・ブライド
+ぬう……道理で余のリハーサルを聞いても[r]誰一人として集まらぬワケだ！
+[k]
+
+[charaFace C 0]
+＠ネロ・ブライド
+東洋の格言にもある。[r]衣食足りてこその娯楽だと。
+[k]
+
+＠ネロ・ブライド
+……ま、ちょっと違っていたかもしれぬが、[r]そこはどうでもよい。
+[k]
+
+[charaFace C 2]
+＠ネロ・ブライド
+よかろう！　ならば、余も立ち上がろう！[r]この大地に黄金の映画都市を築くためにな！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+＠ネロ・ブライド
+エリザベートよ、勝負はお預けだ。[r]ひとまずこの国からケルトの戦士たちを一掃する！
+[k]
+
+[charaFace E 1]
+＠エリザベート
+ええ、それでこそ我がライバルね！[r]負けないわよ！
+[k]
+
+[charaFace E 2]
+＠エリザベート
+チケ販なら任せなさい！[r]倒したはしから押しつけてやるわ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+美しい友情ですね。
+[k]
+
+＠ロビンフッド
+美しいよなー。[r]……オレたちが巻き込まれなければなー。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジェロニモ
+ともかく、これでセイバーも仲間に入った。[r]その上、フェルグスを仕留めるというおまけつきだ。
+[k]
+
+[charaFace G 1]
+＠ジェロニモ
+幸先がいい、そう思うことにしよう。
+[k]
+
+[charaFadeout G 0.1]
+
+[se ad13]
+[wait se ad13]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+失礼、ドクターから通信です。[r]ドクター？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+いろいろ盛り上がってるところすまない。[r]そこから少し西に向かうと霊脈の強いポイントがある。
+[k]
+
+＠Dr.ロマン
+いつものようにサークルを確立し、[r]召喚ポイントを作成して欲しい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+了解しました。皆さん、申し訳ありませんが[r]立ち寄って欲しい場所があります。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ナイチンゲール
+しかし患者が……。
+[k]
+
+[charaFadeout F 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、安心して欲しい。召喚ポイントを確立すれば、[r]こちらから治療用の術式を補給できる。
+[k]
+
+＠Dr.ロマン
+それを使用すればまだ保つはずだ。[r]ラーマのためにもキャンプの確保は必須だよ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]
+

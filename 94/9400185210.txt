@@ -1,0 +1,57 @@
+
+＄94-00-18-52-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 1003001 1 セイバー・リリィ]
+
+[scene 20300]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 1]
+
+＠セイバー・リリィ
+マスター、バレンタインです！[r]どうぞ、お受け取りください！
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[charaFace A 0]
+＠セイバー・リリィ
+チョコよりも食べがいのあるケーキの方がいいのではと[r]迷いましたが、ここは王道で攻めてみました。
+[k]
+
+[charaFace A 1]
+＠セイバー・リリィ
+そして、何度も失敗したので味は保証付きです。[r]きちんとチョコの味がするかと！
+[k]
+
+＠セイバー・リリィ
+[FFFFFF]？　もちろん手作りですが、何か？[-]
+[k]
+
+[charaFace A 3]
+＠セイバー・リリィ
+あ……わたしに料理ができるとは思わなかった、[r]ですか？　それは……
+[k]
+
+＠セイバー・リリィ
+メディア嬢がつきっきりで教えてくれたので……[r]さながら武者修行の続きのように……と申しますか……
+[k]
+
+[charaFace A 0]
+＠セイバー・リリィ
+でも、終わりよければ全て良し、ですから！[r]これからもよろしくお願いしますね、マスター！
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

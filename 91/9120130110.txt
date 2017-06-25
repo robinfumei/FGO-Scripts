@@ -1,0 +1,747 @@
+＄91-20-13-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 99502600 1 マシュ]
+[charaSet B 2013001 1 アーラシュ]
+[charaSet C 98003003 1 Dr.ロマン]
+[charaSet D 6009001 1 静謐のハサン]
+[charaSet E 98006000 1 敵Ａ]
+[charaSet F 98006000 1 敵Ｂ]
+[charaSet G 98006000 1 敵Ｃ]
+
+[scene 20803]
+[fadein black 2.0]
+[wait fade]
+
+[wt 1.0]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠アーラシュ
+[line 3]ろくな装備もないんだ。無理はするなよ？
+[k]
+
+＠アーラシュ
+ただの人間が森へ入るなら[r]下準備が必要なもんだ。いきなりはまずい。
+[k]
+
+＠アーラシュ
+だがまあ、あれだ。[r]これは本物の森って訳じゃあないんだろう。
+[k]
+
+[charaFadeout B 0.1]
+
+[se ad13]
+[charaTalk C]
+[charaPut F 0,0]
+[charaEffect F bit_talk_10]
+[wt 0.05]
+[charaFace C 0]
+[charaFadein C 0.1 0,-150]
+＠Dr.ロマン
+ああ。今回は戦闘シミュレーションだ。[r]森林地域での戦闘データが欲しくてね。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]の手本になる、[r]戦闘経験豊富な英霊に出張ってもらおうかと。
+[k]
+
+[charaFadeout C 0]
+[charaPut F -1000,0]
+[charaEffectStop F bit_talk_10]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠アーラシュ
+光栄ってもんだ。[r][%1]に無理をさせないための俺だろ？
+[k]
+
+＠アーラシュ
+優しく教えるってのは難しいが、[r]ま、それなりの経験は積ませてやれるさ。
+[k]
+
+？1：よろしく！
+
+[charaFace B 1]
+＠アーラシュ
+おう。任せろ。
+[k]
+
+
+？2：今回はアーラシュと一対一なんだね
+
+[charaFace B 1]
+＠アーラシュ
+そういうことだ。[r]よろしくな。
+[k]
+
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaPut E 0,0]
+[charaEffect E bit_talk_10]
+[wt 0.05]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……今回、わたしは管制室でお留守番なんですね。[r]すみません、先輩。
+[k]
+
+[charaFace A 1]
+＠マシュ
+でも、できる限りサポートします！[r]周囲の反応チェックに関しては任せてください！
+[k]
+
+[charaFadeout A 0]
+[charaPut E -1000,0]
+[charaEffectStop E bit_talk_10]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠アーラシュ
+ん？　怪物はそっちで出したり引っ込めたり[r]するんじゃなかったか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaPut F 0,0]
+[charaEffect F bit_talk_10]
+[wt 0.05]
+[charaFace C 0]
+[charaFadein C 0.1 0,-150]
+＠Dr.ロマン
+いやあ。毎回それじゃ芸がないだろ？　敵については[r]ランダムで発生するようにプログラムしてみた。
+[k]
+
+[charaFace C 4]
+＠Dr.ロマン
+だから、こっちから反応を伝えちゃうと[r]せっかくのプログラムの意味がないかな……
+[k]
+
+[charaFadeout C 0]
+[wt 0.05]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、ドクター。ここはひとつ、[r]管制室からのサポートの練習だと思ってください。
+[k]
+
+[charaFadeout A 0]
+[wt 0.05]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0,-150]
+＠Dr.ロマン
+でもそれをマシュがやったんじゃ意味が……
+[k]
+
+[charaFadeout C 0]
+[wt 0.05]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+あらゆる事態を想定してこその訓練、ですよね？[r]ドクター？
+[k]
+
+？1：頼りにしてるよ
+
+[charaFace A 1]
+＠マシュ
+ありがとうございます、ご期待には応えます！
+[k]
+
+[charaFadeout A 0]
+[wt 0.05]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0,-150]
+
+？2：次は、マシュも一緒に行こう
+
+[charaFace A 1]
+＠マシュ
+はい！　次はぜひ！
+[k]
+
+[charaFadeout A 0]
+[charaPut F -1000,0]
+[charaEffectStop F bit_talk_10]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠アーラシュ
+悪いな嬢ちゃん。[r]ちょっとの間だが、マスターをこっちで借りるぜ。
+[k]
+
+＠アーラシュ
+無事に帰す……って、待てよ？[r]戦闘[charaFace B 4]シミュレーターなら怪我はしないんだっけか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaPut E 0,0]
+[charaEffect E bit_talk_10]
+[wt 0.05]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。でも、手酷いダメージを負えば[r]わずかですが精神的ショックが発生しますから……
+[k]
+
+[charaFace A 0]
+＠マシュ
+これはサーヴァントも同様です。[r]アーラシュさんも、どうか気を付けてください。
+[k]
+
+[charaFadeout A 0]
+[charaPut E -1000,0]
+[charaEffectStop E bit_talk_10]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠アーラシュ
+俺はいい。[r]おまえの分までマスターを守ってやるさ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaPut F 0,0]
+[charaEffect F bit_talk_10]
+[wt 0.05]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0,-150]
+
+？！
+
+＠Dr.ロマン
+これは、マシュがいない状態での戦闘訓練でもある。[r]実際にレイシフトする時はマシュが必ずいるけど、
+[k]
+
+＠Dr.ロマン
+レイシフト先で二人がはぐれることは[r]充分にあり得るからね。
+[k]
+
+[charaFadeout C 0]
+[wt 0.05]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+わたしが先輩から離れるような事態は[r]想定しづらいのですが[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+でも、そうですね。[r]可能性としてはないとは言い切れません。
+[k]
+
+？1：……確かにそうだ
+
+[charaFace A 8]
+＠マシュ
+……はい。もしレイシフト先が宇宙空間だった場合、[r]さすがにランデブーまでに時間がかかります……
+[k]
+
+？2：マシュをひとりにはさせないよ
+
+[charaFace A 13]
+＠マシュ
+ありがとうございます、先輩。[r]わたしも、先輩を孤立させるようなことは極力……
+[k]
+
+？！
+
+[charaFadeout A 0]
+[charaPut F -1000,0]
+[charaEffectStop F bit_talk_10]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠アーラシュ
+ん～……何だっけかな、確か……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaPut E 250,0]
+[charaEffect E bit_talk_10]
+[wt 0.05]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+アーラシュさん？[r]どうかされましたか？
+[k]
+
+[charaTalk off]
+＠アーラシュ
+いや、極東の言葉に何かあったと思ったんだ。[r]おまえたちのその感じ。もうすぐ出てきそうなんだが。
+[k]
+
+＠アーラシュ
+[#以心伝心:イシンデンシン]？　[#拈華微笑:ネンゲミショウ]？[r]いや。いやいや。えーと確か、そうだな。
+[k]
+
+[charaFace B 0]
+＠アーラシュ
+[#相思相愛:ソウシソウアイ]、ってやつだったか？
+[k]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 3]
+＠マシュ
+ア、アーラシュさん……！
+[k]
+
+？1：もしかしたら……その通りかもしれない……？
+
+＠マシュ
+先輩まで！
+[k]
+
+？2：そ、それはさすがに照れる！
+
+＠マシュ
+は、はい。その……なんというか……
+[k]
+
+？！
+
+[charaTalk off]
+＠アーラシュ
+大事なことだろ？[r]マスターとサーヴァントってのは[line 3]
+[k]
+
+＠アーラシュ
+いいや、違うか。[r]人間かそうじゃないかなんざ、どうでもいい。
+[k]
+
+＠アーラシュ
+おまえたちは生死を共にする仲間同士だ。[r]そりゃあ、気持ちが通じ合ってるのが一番だろうさ。
+[k]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 11]
+＠マシュ
+は、はい。[r]でも待ってください。それは、わたしだけではなくて、
+[k]
+
+＠マシュ
+先輩と契約を交わしている、[r]他のサーヴァントの皆さんも同じだと思います。
+[k]
+
+[charaFace A 13]
+＠マシュ
+アーラシュさん、あなたもそうです。[r]生死を共にする仲間同士……ですよね？
+[k]
+
+[charaTalk off]
+＠アーラシュ
+うん？　ああ[line 3]そうだな。
+[k]
+
+[charaFace B 1]
+＠アーラシュ
+言われてみればそれもそうか。[r]はは、偉そうに先輩ヅラしようとして失敗したな！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0]
+[charaPut E 0,0]
+[charaEffectStop E bit_talk_10]
+[effect bit_sepia01]
+[wt 1.5]
+
+[charaTalk on]
+
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+
+[scene 10400]
+[wipein circleIn 1.5 1]
+[wait wipe]
+[bgm BGM_EVENT_11 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠静謐のハサン
+……アーラシュは、それは偉大な御方です。[r]多くの者がその名を知っている。
+[k]
+
+＠静謐のハサン
+その行為についても。[r]西アジアにて、彼は当世でも広く敬われています。
+[k]
+
+＠静謐のハサン
+彼の名と偉業は複数の伝説に刻まれました。[r]時には、歌としても唄われるとか。
+[k]
+
+[charaFace D 1]
+＠静謐のハサン
+ええ、歌です。[r]マスターはご存知ありませんか？
+[k]
+
+＠静謐のハサン
+当世にも伝わっている歌ですよ。[r]……少しだけ、唄ってみせましょうか。
+[k]
+
+[wt 0.7]
+
+[charaFace D 0]
+＠静謐のハサン
+“彼は[line 3]”
+[k]
+
+＠静謐のハサン
+“彼は、ダマーヴァンド山の頂上に立ち、[r][f small]  [f -]運命の矢を放つ準備をした”
+[k]
+
+＠静謐のハサン
+“彼の名はアーラシュ、昇る太陽が彼の友”
+[k]
+
+＠静謐のハサン
+“……太守が、彼の勝利の歌を歌っている”
+[k]
+
+＠静謐のハサン
+“彼の生涯すべてをもって[r][f small]  [f -]ただ一本の矢を放つ、強く純粋なるアーラシュ”
+[k]
+
+＠静謐のハサン
+“二つの国が戦乱に巻き込まれた。[r][f small]  [f -]彼は、その弓と矢をもって、戦乱から両国を解放した”
+[k]
+
+＠静謐のハサン
+“すべての目が彼の行動に驚き、[r][f small]  [f -]アーラシュの勇敢さは伝説となった”
+[k]
+
+＠静謐のハサン
+“彼の放った矢は、最も[#速:はや]き流星よりも[#迅:はや]かった”
+[k]
+
+＠静謐のハサン
+“その後[line 3][r][f small]  [f -]彼の姿を見た者はなく、彼の名だけが残った”
+[k]
+
+＠静謐のハサン
+“ジェイフン川のむこう側が、新たな境界となった。[r][f small]  [f -]両国は、この透きとおった川の周りに平和を築いた”
+[k]
+
+＠静謐のハサン
+“彼こそは強く純粋なるアーラシュ。[r][f small]  [f -][line 3]孤独な戦士。獅子の如く勇敢な、アーラシュ”
+[k]
+
+[wt 0.7]
+
+[charaFace D 1]
+＠静謐のハサン
+多少アレンジを加えてしまいましたが、[r]おおむね、このように……
+[k]
+
+？1：…………孤独な戦士？
+？！
+
+[charaFace D 0]
+＠静謐のハサン
+はい。そう伝えられています。
+[k]
+
+＠静謐のハサン
+西アジアに伝わる大英雄、アーラシュ。[r]遙かな古代に生き、戦った彼は、孤独であったのだと。
+[k]
+
+[charaFace D 4]
+＠静謐のハサン
+……実際のところは、わかりません。
+[k]
+
+[charaFace D 0]
+＠静謐のハサン
+伝説は伝説です。[r]必ずしも、起こった出来事を語るとは限らない。
+[k]
+
+＠静謐のハサン
+記録にしてもそうです。絶対、ではない。
+[k]
+
+[charaFace D 4]
+＠静謐のハサン
+私も断言できませんが……[r]でも……
+[k]
+
+[messageOff]
+[wipeout circleIn 1.5 1]
+[bgmStop BGM_EVENT_11 1.5]
+[wait wipe]
+
+[charaFadeout D 0.1]
+[effectStop bit_sepia01]
+[wt 1.5]
+[fadeout black 0.1]
+[wait fade]
+[wipein circleIn 0.1 1]
+[wait wipe]
+
+[scene 20803]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠アーラシュ
+どうしたマスター。[r]ぼうっとしながら森を歩くと、木にぶつかるぞ。
+[k]
+
+＠アーラシュ
+戦闘シミュレーションだからって気を抜くと、[r]痛い目みるぞ。ピリッと痺れるくらいはあるだろ？
+[k]
+
+＠アーラシュ
+ぶつかるのは木ばかりじゃないぜ。[r]獣もいれば、怪物もいる。
+[k]
+
+？1：怪物？
+？2：キメラとか、ああいう？
+
+？！
+
+＠アーラシュ
+ああ。森ってのは自然の領域だ。[r]だから当然、怪物連中だっているさ。
+[k]
+
+＠アーラシュ
+魔術師たちに言わせりゃ「神秘」だったな？[r]多少珍しいかもしれないが、怪物だって自然の一部だ。
+[k]
+
+[charaFace B 1]
+＠アーラシュ
+俺の頃にはよくいたもんだ。[r]なにせ、俺の仕えてた王は竜殺しの直系だしな。
+[k]
+
+？1：ドラゴン？
+
+[charaFace B 0]
+＠アーラシュ
+そいつだ。そりゃもう大層強かったそうだ。
+[k]
+
+？2：……ワイバーン、とか？
+
+[charaFace B 0]
+＠アーラシュ
+西の竜の亜種か？[r]いや、あれよりはかなり凶悪だったんじゃないか？
+[k]
+
+？！
+
+＠アーラシュ
+本物の竜種は滅多になかろうが、[r]それでもな。格落ち程度の奴がいても不思議はない。
+[k]
+
+＠アーラシュ
+当世にゃ殆ど残っちゃいないって話だが、[r]レイシフト先ってのは過去の時代なんだろう？
+[k]
+
+＠アーラシュ
+なら、森ではなるべく気を抜くな。マシュやドクター、[r]サーヴァントがおまえを守っていても、
+[k]
+
+＠アーラシュ
+戦いの[#要:かなめ]はおまえだ、[%1]。[r]英霊を召喚し、魔術や令呪を操るおまえこそ力の中心だ。
+[k]
+
+＠アーラシュ
+勝つも負けるも、おまえさんの[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+[charaFace B 5]
+＠アーラシュ
+指示次第だぞ、っと！！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[messageOff]
+[se bac20]
+[charaEffect E bit_shot_01]
+[wt 0.2]
+[se bac20]
+[charaPut F -250,0]
+[charaEffect F bit_shot_01]
+[wt 0.2]
+[se bac20]
+[charaPut G 250,0]
+[charaEffect G bit_shot_01]
+[wt 0.7]
+
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+[charaTalk off]
+[charaFadein E 0.4 1]
+[charaFadein F 0.4 0]
+[charaFadein G 0.4 2]
+
+[wt 0.4]
+
+[charaEffect E bit_shot_01]
+[wt 0.2]
+[se bac15]
+[charaShake E 0.05 3 3 0.25]
+[charaPut F -250,0]
+[charaEffect F bit_shot_01]
+[wt 0.2]
+[se bac15]
+[charaShake F 0.05 3 3 0.25]
+[charaPut G 250,0]
+[charaEffect G bit_shot_01]
+[wt 0.2]
+[se bac16]
+[charaShake G 0.05 3 3 0.25]
+[wt 1.0]
+[charaSpecialEffect E enemyErasure 1 1.4]
+[charaSpecialEffect F enemyErasure 1 1.4]
+[charaSpecialEffect G enemyErasure 1 1.4]
+[se ad24]
+[wait charaSpecialEffect G]
+[wt 0.7]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk on]
+[charaPut E 0,0]
+[charaEffect E bit_talk_10]
+[wt 0.05]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ランダム発生と思われる敵性反応を感知しました！[r]って、[charaFace A 6]もう既に数体倒されてます！？
+[k]
+
+[charaFadeout A 0]
+[wt 0.05]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0,-150]
+＠Dr.ロマン
+アーラシュの弓矢作成スキルか！
+[k]
+
+＠Dr.ロマン
+女神アールマティの加護を受けた彼は、[r]弓矢の伝説的な製作者でもある！
+[k]
+
+＠Dr.ロマン
+リアルタイムに、[r]魔力から矢を形成して放ったりできるんだっけか！
+[k]
+
+[charaFadeout C 0]
+[charaPut E -1000,0]
+[charaEffectStop E bit_talk_10]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠アーラシュ
+解説どうも。[r]来るぜ、マスター。さっそく出番だ！
+[k]
+
+[charaFace B 5]
+＠アーラシュ
+指示を頼む。まずは、こいつらを蹴散らそう。[r]それから……
+[k]
+
+＠アーラシュ
+撤退だ。全力で。
+[k]
+
+？1：撤退？
+？2：撃破すればいいだけでは？
+
+？！
+
+＠アーラシュ
+ランダムって話だし、[r]必要はないと言えばないんだろうが。
+[k]
+
+＠アーラシュ
+こいつらが「自然の産物」だと仮定すれば、[r]近くに群れの本体がいる可能性がある。
+[k]
+
+＠アーラシュ
+敵兵の斥候あたりでも同じだ。[r]本隊がいる可能性がある。
+[k]
+
+[charaFace B 0]
+＠アーラシュ
+訓練なんだろ？[r]なら、リスクを想定して動いた方が経験になる！
+[k]
+
+？1：そうかもしれない！
+
+[charaFace B 1]
+＠アーラシュ
+はは！　そうだろ！
+[k]
+
+？2：……無駄に疲れるだけではないでしょうか！
+
+[charaFace B 1]
+＠アーラシュ
+はははは！　まあ、そう言うな！
+[k]
+
+？！
+
+[charaFace B 5]
+＠アーラシュ
+まずは戦闘だ！[r]それから、全速力で離脱！　いくぜ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

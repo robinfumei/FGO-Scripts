@@ -1,0 +1,146 @@
+
+
+＄94-00-58-26-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet F 5027000 1 マリー]
+
+
+[scene 30500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+まあ、立派な水路ね。[r]ありがとう、マスター。
+[k]
+
+＠マリー
+特にあの、橋のようになっているところ。[r]うふふ、ポン・デュ・ガールのようね？
+[k]
+
+
+？1：？
+？2：わかっていただけましたか
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ポン・デュ・ガール……フランスはガルドン川にかかる、[r]有名な石造りの水路橋ですね。
+[k]
+
+＠マシュ
+確か世界遺産だったと記憶しています。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+そうそう。とても大きくて、綺麗なのよ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+むむ。それはやはりローマ建築のはず。
+[k]
+
+＠アルトリア
+他国の文化も尊重はしますが、マスター。マスターは[r]多数のサーヴァントを従える身なのですから。
+[k]
+
+＠アルトリア
+あまり特定の文化を依怙贔屓するのはいらぬ不和を[r]招きかねませんよ、と忠告しておきます。
+[k]
+
+[charaFace B 4]
+＠アルトリア
+最近、マスターはローマかぶれになってはいませんか？
+[k]
+
+
+？1：そんなにかぶれてるつもりはないけど……
+
+[charaFadeout B 0.1]
+
+？2：だってローマは最高ローマ
+
+[charaFace B 5]
+＠アルトリア
+くっ、これは……ロムルス王がマスターを洗脳でも[r]しているのか！？　由々しき事態！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+すみません、アルトリアさん。きっと今のはマスターの[r]ご冗談です……。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+うふふ、違うわよ、きっとマスターはフランスにかぶれ[r]てるのよ。ね？　だってこれはフランスのものだもの。
+[k]
+
+
+？1：そういうわけでも……
+？2：ヴィヴ・ラ・フラーンス！
+
+[charaFace F 1]
+＠マリー
+うんうん、ヴィヴ・ラ・フラーンス！
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+はぁ……まったく、マスターは……。
+[k]
+
+[charaFace B 3]
+＠アルトリア
+私も……この際、ガッツリとブリテンっぽいものを[r]造ってくれと主張したほうがいいのでしょうか……？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

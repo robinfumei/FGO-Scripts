@@ -1,0 +1,81 @@
+＄01-00-03-09-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2012001 1 エウリュアレ]
+[charaSet F 3016000 1 ヘクトール]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 98018100 1 海賊]
+[charaTalk F]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace F 5]
+[charaFadein F 0 0]
+[fadein black 1]
+[wait fade]
+＠ヘクトール
+ちっ、存外しぶとい……！[r]これだから盾持ちの英雄ってヤツは……！
+[k]
+
+[charaFace A 15]
+＠マシュ
+は、ぁ……！
+[k]
+
+[charaFace F 1]
+＠ヘクトール
+[line 2]ま、今回はオジサンの粘り勝ちってことで。[r]いやはや、疲れた疲れた。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFadein H 0.1 2]
+＠海賊
+姐御！　前方に船一隻！[r]み、見たことのない船です！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+見たことのない船、だってぇ！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠マシュ
+……！
+[k]
+
+[charaFace F 1]
+＠ヘクトール
+はい、その表情頂きましたっと！[r]あの船にいるのが、今の俺の“上司”ってやつでね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠アステリオス
+あ……ぅ……！！
+[k]
+
+[charaFace F 5]
+＠ヘクトール
+さあて、反撃開始だ。[r]オジサン、ちょっとばかり本気になるぜぇ？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

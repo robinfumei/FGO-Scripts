@@ -1,0 +1,348 @@
+＄94-00-12-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 2002001 1 ギルガメッシュ]
+[charaSet F 5004001 1 ナーサリー・ライム]
+[charaSet G 6005001 1 ジャック]
+
+[scene 21804]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+＠サンタオルタ
+ここが次の差出人の住居な訳だが[line 3]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20900]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ギルガメッシュ
+じき[#我:オレ]の[#文:ふみ]が届く頃か。[r]聖誕祭なぞ一顧だに値しないと見過ごしてきたが[line 3]
+[k]
+
+＠ギルガメッシュ
+セイバーめ、よもやあのような出で立ちになろうとは。[r]軽率……いや、ニーズに応えるにも程がある。
+[k]
+
+[charaFace E 3]
+＠ギルガメッシュ
+王として臣民の期待には応える、という気概は見事。[r][#我:オレ]も見習わねばならんか。いや見習わぬが。
+[k]
+
+[charaFace E 2]
+＠ギルガメッシュ
+いや、大事なのはそこではない、[r][#我:オレ]が注目すべきはクリスマスのシステムよ！
+[k]
+
+＠ギルガメッシュ
+どれほど奥ゆかしく慎ましい女であれ、クリスマスで[r]あればその本音を打ち明けるというではないか！
+[k]
+
+[charaFace E 1]
+＠ギルガメッシュ
+おお、告白される以外の未来が考えられん！[r]良い、[#稀:とく]に[#赦:ゆる]す！　良いサービスだありがとう！
+[k]
+
+＠ギルガメッシュ
+さあ来るがいい黒いサンタよ、[r]我が財をもって格の違いを知らしめてくれるわ！
+[k]
+
+＠ギルガメッシュ
+フハハハ、そして「プレゼントは貴様自身であろう？」[r]とか言っちゃうか我！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout E 0.1]
+[wt 0.5]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[scene 21804]
+[fadein black 1.0]
+[wait fade]
+
+＠サンタオルタ
+帰るぞ[%1]。[r]どうやら留守のようだ。
+[k]
+
+？1：そうですね
+？2：そうですね
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.7]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 0.5]
+[bgm BGM_EVENT_2 0.1]
+[scene 20322]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠サンタオルタ
+トナカイよ。[r]ギルガメッシュ君の粋な計らいで今夜はオフになった。
+[k]
+
+＠サンタオルタ
+せっかく都市部の上空にきたのだ。[r]今夜は歓楽街で楽しむというのはどうか。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+しょせんは古代ウルクのしけた飲食店にすぎないが、[r]簡単な郷土料理はあろう。
+[k]
+
+＠サンタオルタ
+私はあれがいいな。水で溶いた小麦粉に様々な具を入れ[r]鉄板で焼いた[#後:のち]、タレを塗りたくるアレだ。
+[k]
+
+
+＠サンタオルタ
+[charaFace D 5]
+あの程度なら貴様でも作れ[line 3][r]なんだ？
+[k]
+
+
+[shake 0.1 0.1 5.0 1.0]
+[charaFace D 2]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠サンタオルタ
+おかしな空間に捕まった……！[r]離れるな、[%1]！
+[k]
+
+[messageOff]
+[wipeout rollFlashRight 0.3 3]
+[wait wipe]
+[wt 0.5]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[scene 21802]
+
+[wipein circleIn 0.3 1]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+っ……どこだ、ここは。[r]通常の空間ではないようだが……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.4 1]
+＠ナーサリー・ライム
+……あの……こんばんは。[r]お姉さんは、サンタさん、ですか？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠ジャック
+サンタさん、だよね……？[r]だってプレゼント、いっぱい持ってるもの。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+ああ、私はサンタだ。[r]そういうおまえたちは何者だ。このあたりの亡霊か？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠ジャック
+ぼうれい……幽霊とかじゃ、ないと思う……[r]でも、人間でもないと思う……
+[k]
+
+＠ナーサリー・ライム
+うん……わたしもジャックも、[r]自分が何なのかよく分からないの……
+[k]
+
+＠ナーサリー・ライム
+わたしたちには名前もなくて……いつもぼんやりと[r]町を眺めているコトしかできなくて……
+[k]
+
+＠ナーサリー・ライム
+でも、今夜は、その……
+[k]
+
+[charaFace G 3]
+＠ジャック
+クリスマス……だから。[r]わたしたちも、あったかいものが、欲しいなって。
+[k]
+
+＠ナーサリー・ライム
+……うん。だから、しちゃいけないコトだって[r]分かってるけど、
+[k]
+
+＠ナーサリー・ライム
+むりやり、わたしたちの[#結界:なか]に呼び込んだの……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+……そうか。報われぬ少女たちの霊。[r]無垢なまま、愛を知らぬまま命を終えた想念か。
+[k]
+
+＠サンタオルタ
+聖誕祭の明かりで自意識を持ったのだな。[r]……ただ、“淋しい”という想いだけで。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+＠ジャック
+わたしたちはそこまでじゃないよ。[r]でもありすは、病院の記憶しかないから……
+[k]
+
+[charaFace F 5]
+＠ナーサリー・ライム
+なによ。ジャックだって暗い下水道ばっかりじゃない。[r]そんなのよくない。よくないと思うの、わたし。
+[k]
+
+[charaFace F 4]
+＠ナーサリー・ライム
+だから……今日一日ぐらいは、その……[r]わたしたちも、誰かに“選ばれ”たいなって……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+……そうか。名前を呼ばれた事も、[r]他人に選ばれた事さえないのか。
+[k]
+
+＠サンタオルタ
+[line 3]この特別な日に。[r]おまえたちだけは、特別ではないのだな。
+[k]
+
+？1：サンタオルタ、出番だよ
+？2：プレゼント、あげない？
+
+？！
+[charaFace D 4]
+[wt 0.4]
+[charaFace D 5]
+
+＠サンタオルタ
+それは出来ない。[r]手紙を送っていない者に、届けるプレゼントはない。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠ジャック／ナーサリー・ライム
+…………っ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+だが！　心の底からの願いであれば口にするがいい！[r]淋しいから欲しい、では話にならん！
+[k]
+
+＠サンタオルタ
+楽しそうだから欲しい、欲しいから欲しい、とな！[r]さあ、勇気を見せてみろ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+＠ジャック
+う[line 3]うん。[r]わ、わたしたちも、ほんとは、
+[k]
+
+[charaFace F 5]
+＠ナーサリー・ライム
+みんなみたいに遊びたい！[r]もっと楽しい夢が見たい！
+[k]
+
+[charaFace F 2]
+＠ナーサリー・ライム
+お願いです、サンタさん……！[r]わたしたちにも、プレゼントを、くださいっ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+よく言った、その挑戦に応じよう。[r]レターがないのなら力ずくで奪うがいい。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠サンタオルタ
+遅くなってすまなかったなチビッ子たち。[r]さあ、楽しいパーティーの始まりだ……！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

@@ -1,0 +1,354 @@
+
+＄94-00-64-03-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_34 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 5028001 1 イリヤ]
+[charaSet D 98006300 1 ？？？]
+[charaSet E 98006300 1 ？？？]
+[charaSet F 98006300 1 ？？？]
+[charaSet G 98006300 1 ？？？]
+[charaSet H 98006300 1 ？？？]
+
+[charaScale D 0.8]
+[charaScale E 0.8]
+[charaScale F 0.8]
+[charaScale G 0.8]
+[charaScale H 0.8]
+
+[scene 31000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFadein D 0.1 0,-200]
+[charaShake D 0.05 0 3 1.0]
+
+＠D：お菓子の国の住人
+……魔法……少女……？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 100,-200]
+[charaFadein D 0.1 -100,-200]
+[charaShake E 0.05 0 3 1.0]
+
+＠E：お菓子の国の住人
+魔法少女！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk off]
+[charaFadein H 0.1 200,-200]
+[charaFadein G 0.1 100,-200]
+[charaFadein E 0.1 0,-200]
+[charaFadein F 0.1 -100,-200]
+[charaFadein D 0.1 -200,-200]
+[charaShake D 0.05 0 3 0]
+[charaShake E 0.05 0 3 0]
+[charaShake F 0.05 0 3 0]
+[charaShake G 0.05 0 3 0]
+[charaShake H 0.05 0 3 0]
+
+＠お菓子の国の住人たち
+魔法少女だ[line 3]！！[r]魔法少女だ[line 3]！！
+[k]
+
+[charaMove D 1200,-200 0.5]
+[charaMove H 1200,-200 0.5]
+[charaMove G -1200,-200 0.5]
+[charaMove F -1200,-200 0.5]
+[charaMove E -150,-200 0.2]
+[wt 0.2]
+[charaMove E 150,-200 0.2]
+[wt 0.2]
+[charaMove E -1200,-200 0.5]
+[wait charaMove]
+
+[messageOff]
+[charaFadeout D 0]
+[charaFadeout E 0]
+[charaFadeout F 0]
+[charaFadeout G 0]
+[charaFadeout H 0]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+おやおやー？[r]抵抗はこれっぽっちですかー？
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+まだまだ大勢、控えていらっしゃるのに[r]みなさん一目散に逃げていきますねー？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+イリヤさんが変身した姿を見て[r]恐慌状態に……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+なんか傷つくぅー。
+[k]
+
+[charaFace C 4]
+＠イリヤ
+あっ[line 3]ねえ、そこの人？[r]お願いだから、わたしたちの話を聞いて！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 -200,-200]
+
+＠D：お菓子の国の住人
+きゃぁー[r]菓子こくも魔法少女さま！
+[k]
+
+＠D：お菓子の国の住人
+わたしはまだシケていません、[r]賞味期限もたっぷりと！
+[k]
+
+[charaFace C 3]
+＠イリヤ
+そ……そういえば……[r]よく見ると美味しそう……。
+[k]
+
+
+？1：全部教えないと魔法少女様がお怒りになる[&ぞ:からね]？
+？！
+
+[charaFace C 2]
+＠イリヤ
+えっ？　そ、そうだよ？[r]が、がおー！
+[k]
+
+＠D：お菓子の国の住人
+ひぃぃ～[r]魔法少女さまのご命令でしたら～。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_34 1.5]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+[charaChange C 98102500 5 fade 0]
+[wt 0.2]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+[wt 0.5]
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[bgm BGM_EVENT_32 1.5]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+＠マシュ
+ええと、さて[line 3]。[r]多少は情報を引き出せましたね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+この『お菓子の国』を治める女王ならば[r]何か知っているはず、ということでしたが……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+けれど、あのメイヴは『雪華とハチミツの国』を[r]統べる女王だと自分で名乗っていましたし……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+見当違いでしょうか？[r]このまま進めば『お菓子の城』には着くようですが。
+[k]
+
+
+？1：女王にして、しかも魔法少女、か……
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+また女王さまかあ。
+[k]
+
+＠イリヤ
+魔法少女が、お城に住んで国を治めてるって、[r]なんだかすごく違和感あるんですけどー。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+このルビーちゃんが[r][#潜入偵察:スネーク]してもいいんですけどねー。
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+さっと一周するにも、この固有結界は広すぎます！[r]イリヤさんから離れすぎては問題です！
+[k]
+
+
+？1：『お菓子の国』の城へ行ってみるしか[&ない:なさそうだね]
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠イリヤ
+う、うん……[&お兄さん:お姉さん]の言う通りだとは思う。[r]けど、ちょっと怖いなぁー。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+凛さんやルヴィアさんみたいな魔力×暴力×年齢＝破壊力[r]な魔法少女だったらどうしましょう！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あの、ところで……いつマスターに尋ねたものかと、[r]機会を窺っていたのですが……。
+[k]
+
+＠マシュ
+マスターの頭部の、その、[r]ふわふわしたアクセサリーはなんですか？
+[k]
+
+[charaFace A 13]
+＠マシュ
+どことなくフォウさんの耳に似ています。
+[k]
+
+
+？1：ダ・ヴィンチちゃんから[#支給:プレゼント]された礼装だよ
+
+[charaFace A 3]
+＠マシュ
+れ、礼装、なんですか……？
+[k]
+
+[charaFace A 6]
+＠マシュ
+この異世界に適応した機能があるのだと推測しますが、[r]なんというか、独特ですね。
+[k]
+
+
+？2：やっぱり、[&変かな:ヘン]？
+
+[charaFace A 14]
+＠マシュ
+いえ、いいえ！　とっても愛らし[line 3][r]似[charaFace A 3]合っていると思います！　ある意味、素敵です！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+ハッ……ご、ごめんなさい。[r]わたし、ぜんぜん違和感を感じてませんでした。
+[k]
+
+[charaFace C 4]
+＠イリヤ
+もはや、多少の奇抜なコスチュームじゃ[r]疑問を持たない自分がこわい……。
+[k]
+
+[charaFace C 7]
+＠イリヤ
+何者かの侵略でわたしのファッションセンスが[r]日々、破壊されてる……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace C 7]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+これからの魔法少女ファッション界を[r]背負って立つイリヤさんらしからぬ弱気！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+もっと！　もっと攻めなくてどうするのです！[r]ところでブラジルの水着に興味はおありですか？
+[k]
+
+[charaFace C 2]
+＠イリヤ
+ないから！　水着で戦う魔法少女とか、[r]もうただの入院案件だから！
+[k]
+
+[charaFace C 4]
+＠イリヤ
+……はあ。誰のせいだと思っているの？[r]ちょっとは責任を感じて[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+[line 3]あっ、お城が見えてきた！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_32 2.0]
+[wait fade]
+[soundStopAll]
+[end]

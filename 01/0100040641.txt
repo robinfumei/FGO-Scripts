@@ -1,0 +1,112 @@
+＄01-00-04-06-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10918]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5010001 1 パラケルスス]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+[fadein black 1]
+[wait fade]
+＠パラケルスス
+…………それでこそ。
+[k]
+
+[charaFace F 0]
+＠パラケルスス
+それでこそ、剣を持つ英雄です。[r]ならば、悪逆を成す者が打ち倒されるのは道理でしょう。
+[k]
+
+＠パラケルスス
+この世すべての悪を[#斃:たお]して。[r]この世すべての欲に[#抗:あらが]って。
+[k]
+
+＠パラケルスス
+この世すべての明日を拓いてみせる者たちよ。[r]貴方たちの行く手に……
+[k]
+
+[charaFace F 1]
+＠パラケルスス
+どうか……[r]真なる、光……を……
+[k]
+
+[messageOff]
+[wt 1]
+[se ba5]
+[charaSpecialEffect F flashErasure 1 2]
+[wait charaSpecialEffect F flashErasure]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……敵性サーヴァントの消滅を確認しました。[r]先輩、わたしたちの勝利です。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠モードレッド
+くそ、何の手掛かりも残さず消えやがった。[r]最後まで胸くそ悪い魔術師だったぜ。
+[k]
+
+[charaFace E 3]
+＠モードレッド
+何が、明日を拓いてみせる者だ。[r]オレはそんなんじゃねえぞ、ったく。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠シェイクスピア
+『[#人生は歩く影が如く、哀れな役者に過ぎぬ:Life's but a walking shadow, a poor player]』
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+あ？　何だって？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠シェイクスピア
+いいえ。ただ、思い浮かんだ言葉に過ぎません。[r]なかなか悪くないものを見せて戴けました。
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+吾輩が目にしたのは一端だけですが、[r]かの魔術師殿。なかなか良い[#結末:エンディング]に見えました。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+……バカ言ってんな。[r]気のせいだよ、それは。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

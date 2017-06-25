@@ -1,0 +1,389 @@
+＄94-00-21-10-1-0
+
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 7004001 1 フラン]
+[charaSet G 7003000 1 呂布]
+[charaSet H 2011000 1 ニコラ・テスラ]
+
+
+[fadeMove white 2.0 0.4]
+[scene 22130 2.0]
+[wt 2.0]
+
+[wt 0.7]
+
+
+？1：お邪魔しま～す……
+？2：おはようございま～す……
+
+？！
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+事件は解決しましたが、マンションに[r]囚われたサーヴァントさんはまだいるようなので、
+[k]
+
+＠マシュ
+捜査を続行した我々なのですが……[r]ですが……
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad61]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 1.0]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 1.0]
+[seStop ad61 3.0]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠フラン
+ウゥゥゥ…………ウゥゥゥゥ！！[r]ウー！！　ウー、ウー、ウーッ！！！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+眩しい！　眩しい中で猛っています！
+[k]
+
+＠マシュ
+何だか分かりませんが、[r]落ち着いて下さい、フランさん！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠呂布
+[image berserker_language_1]──ッ！！！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+わ、呂将軍まで……！？
+[k]
+
+？1：ドクター、翻訳！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+えぇぇえ！？[r]そ、そんな機能あったっけ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター、わたしがやってみます！
+[k]
+
+？2：マシュ、翻訳！
+
+[charaFace A 7]
+＠マシュ
+が、がんばります！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠フラン
+……ゥゥ……テ……スラ……。[r]ゥゥゥゥゥゥ！！
+[k]
+
+[charaFace A 6]
+＠マシュ
+え、テスラさん？[r]最近カルデアにいらっしゃった、あの？
+[k]
+
+[charaFace F 2]
+＠フラン
+ゥゥ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+ええと……。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.1]
+[wipeout rollFlashRight 0.5 1]
+[fadeMove white 0.4 0]
+[wait wipe]
+
+[wt 1.0]
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[scene 10310]
+
+[bgm BGM_EVENT_2 0.1]
+[wipein rollFlashRight 0.5 1]
+[wait wipe]
+
+[wt 0.4]
+
+[se ad61]
+[wt 2.0]
+[seStop ad61 2.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠フラン
+ゥゥ……？[r]ゥ……？
+[k]
+
+＠フラン
+……ゥー……。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[scene 10400]
+[se ad8]
+[wt 1.0]
+
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.4 1]
+＠ニコラ・テスラ
+爽快だな。実に爽快だ。そして快適だ！[r]輝く電気の下で読む本の、何と眩しいことか！
+[k]
+
+＠ニコラ・テスラ
+ただでさえ増していくインテリジェンスが[r][#鰻:うなぎ]登りと言わざるをえない！　電気だけに！
+[k]
+
+[charaFace H 4]
+＠ニコラ・テスラ
+……なに、分からない？　鰻といえばあれだよ、あれ。[r]発電器官を持つゴッドフィッシュだが……まあいい。
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+さて、では光量をもっと上げてみよう。[r]500Ｗですらこれなのだ。その倍にしたらどうなるか？
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+おそらく光によって私の知性は神域に達し、[r]もはや読書どころでなくなるのは明白だがね！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+ははははははは！[r]ではお見せしよう[line 3]
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+[f large][#人類神話:システム]・[#雷電降臨:ケラウノス]！[f -]
+[k]
+
+[messageOff]
+[fowardEffect bit_talk_lightning_02t]
+[se ad62]
+[wt 0.4]
+[fadeout white 0.4]
+[wait fade]
+[wt 1.0]
+[fowardEffectStop bit_talk_lightning_02t]
+[wait fowardEffect]
+[charaFadeout H 0.1]
+[scene 10000]
+[wt 1.0]
+[seStop ad62]
+[fadein white 0.1]
+[wait fade]
+
+＠ニコラ・テスラ
+む？　停電か？　それは困った。[r]しかし、なんたる天才か……
+[k]
+
+＠ニコラ・テスラ
+こんな事からですら、私はまた教訓を得てしまった！[r]つまり[line 3]電気は大切にね！
+[k]
+
+＠フラン
+ウゥゥゥゥゥ[line 6]！！？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 0.1]
+[wipeout rollFlashRight 0.5 1]
+[wait wipe]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[scene 22130]
+
+[bgm BGM_EVENT_3 0.1]
+[fadeMove white 0.5 0.7]
+[wipein rollFlashRight 0.5 1]
+[wait wipe]
+
+＠フラン
+ナアアアアアアアアアアアアアオオオオオオオオ[r]オオオオオオッ！！！！！
+[k]
+
+＠マシュ
+いい加減テスラさんが電気を無駄遣いするのに[r]腹が立って……。
+[k]
+
+＠マシュ
+自分も電気を無駄に消費することにした、[r]と。なるほど……。
+[k]
+
+[charaFace F 5]
+＠フラン
+ゥゥ[line 4]！！[r]ウゥッ！　ウゥアゥ！
+[k]
+
+？1：何か段々見えにくくなってきたんだけど
+？2：眩しい！？
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+＠呂布
+[image berserker_language_1][line 2]！
+[k]
+
+＠マシュ
+呂布さんは……。[r]ええと。
+[k]
+
+＠マシュ
+『彼女が自分の娘に似ているので手を貸した』[r]ですか。
+[k]
+
+[charaFace A 13]
+＠マシュ
+あ、怒ってる訳じゃないんですね。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaSet G 7003002 1 呂布]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+＠呂布
+[image berserker_language_2][line 4]！！！！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+ひゃっ！？
+[k]
+
+[charaFace A 12]
+＠マシュ
+『自分の娘が泣いているのに怒らない親はいない』[r]でしたか！　す、すいません！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+なるほど。“最近頻繁にブレーカーが落ちます、[r]なんとかしてください”ってクレームはこれか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+[FFFFFF]？　式さん、何を見ているんですか？[-][r]それは……メモ帳？
+[k]
+
+[bgmStop BGM_EVENT_7 0.1]
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠両儀式
+ともかく片付けるぞ。[r]話はその後だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠フラン
+ゥゥゥゥゥゥァァァァァ[line 4]！！
+[k]
+
+
+[charaFadeout F 0.1]
+
+[messageOff]
+[fadeMove white 0.5 0]
+[scene 10000 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[fadeout black 0.1]
+[wt 0.1]
+[soundStopAll]
+[end]
+

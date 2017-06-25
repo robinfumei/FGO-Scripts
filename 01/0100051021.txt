@@ -1,0 +1,693 @@
+
+＄01-00-05-10-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5016001 1 ジェロニモ]
+[charaSet C 2010001 1 ビリー]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 1006001 1 ネロ・ブライド]
+[charaSet F 1019001 1 ラーマ]
+[charaSet G 3005002 1 エリザベート]
+[charaSet H 7014001 1 ナイチンゲール]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[scene 20822]
+[fadein black 2]
+[wait fade]
+
+
+＠ジェロニモ
+我々は今、北アメリカ西部地域にいる。[r]ケルトの戦士たちは主に東部から流入しているようだ。
+[k]
+
+＠ジェロニモ
+アメリカ軍の軍事拠点や街は、次々と破壊されている。
+[k]
+
+＠ジェロニモ
+そのほとんどは老若男女皆殺しだが、[r]一部のサーヴァントは戦わない者を見逃しているらしい。
+[k]
+
+＠ジェロニモ
+誇り高きサーヴァントとして結構なことだが、[r]遅かれ早かれ死ぬのには変わりない。
+[k]
+
+＠ジェロニモ
+東部はほぼ完全に占拠されている。[r]そして[line 2]ここからが重要だが。
+[k]
+
+[charaFace B 5]
+＠ジェロニモ
+彼らが拠点としているのは、ワシントン。[r]即ち、本来の[#首都:キャピタル]だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+それは確かですか？
+[k]
+
+＠ジェロニモ
+ワシントンから逃げ延びた男の情報ではあるが、[r]確信はない。
+[k]
+
+[charaFace B 0]
+＠ジェロニモ
+……しかし、個人的な直感でいいならば。[r]私は此処が敵の本陣だと見なしている。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ネロ・ブライド
+それは何故だ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+国家という存在に最も屈辱を与えるならば、[r]首都を占拠するのが一番効果的だからさ。
+[k]
+
+＠ジェロニモ
+一方、エジソンが統率するアメリカ西部合衆国は、[r]積極的に東部の難民を受け入れている。
+[k]
+
+＠ジェロニモ
+機械化歩兵の生産工場で彼らを働かせ、[r]日々改良に勤しんでいるらしい。
+[k]
+
+＠ジェロニモ
+彼に付き従っているのは、生前から親交があると[r]言われていたエレナ・ブラヴァツキーと[line 2]
+[k]
+
+[charaFace B 5]
+＠ジェロニモ
+インド神話において、恐らく最強の一角である[r]マハーバーラタの“施しの英雄”カルナ。
+[k]
+
+＠ジェロニモ
+ブラヴァツキーはともかくとして、何故カルナが[r]彼らに与しているかは不明だが……。
+[k]
+
+[charaFace B 0]
+＠ジェロニモ
+ともかく、この三人とあの機械化歩兵たちによって[r]サーヴァントの不足を補っている状態だ。
+[k]
+
+＠ジェロニモ
+さて、ワシントンが敵の本拠地だと仮定して[line 2]。[r]問題はこれからどうするべきか、だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ビリー
+はーい。[r]共倒れを待つ訳にはいかない？
+[k]
+
+＠ジェロニモ
+難しいところだな。
+[k]
+
+＠ジェロニモ
+ケルトが聖杯を所有している以上、如何にエジソンの軍が[r]改良を繰り返しても、戦力差は覆しようがあるまい。
+[k]
+
+＠ジェロニモ
+むしろ現状のように混乱している状態だからこそ、[r]我々のような少数でも動けるのだと言える。
+[k]
+
+＠ビリー
+それもそっか。[r]今のなーし！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+此度、この戦場に馳せ参じたのはそのほとんどが[r]英雄であって英雄でなき者たち。
+[k]
+
+＠ジェロニモ
+アウトロー、はぐれ者、孤高の戦士。[r]……そういう類の者たちだ。
+[k]
+
+＠ジェロニモ
+機会があるならば、躊躇なくそこを突く。[r]我々の勝利条件はただ一つ。
+[k]
+
+[charaFace B 5]
+＠ジェロニモ
+特定のサーヴァントを探し当て、[r]それを打倒することだ。
+[k]
+
+＠ジェロニモ
+やはりここは暗殺しかない。ワシントンまで潜入[line 2][r]そして、サーヴァントの首を獲る。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠エリザベート
+んーと……でもそれ、大丈夫なの。[r]相手は一人じゃないでしょ？
+[k]
+
+[charaFace B 0]
+＠ジェロニモ
+竜の娘よ、確かに君の言う通りだ。
+[k]
+
+＠ジェロニモ
+首都は最も防備が固められた場所だ。[r]そこへ潜入して暗殺というのはアサシンでも難しい。
+[k]
+
+[charaFace B 1]
+＠ジェロニモ
+本来なら、な。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ロビンフッド
+と言うと？
+[k]
+
+[charaFace B 0]
+＠ジェロニモ
+……ケルトの戦士は極めて好戦的だ。
+[k]
+
+＠ジェロニモ
+そして、侵攻の出鱈目さからも、彼らはおのおのが[r]好き勝手に動いていることが理解できる。
+[k]
+
+＠ジェロニモ
+つまり[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……ケルトの戦士にとって、首都の防備は[r]重要視するものではない、と？
+[k]
+
+＠ジェロニモ
+そう睨んでいる。彼らにとって城は住み処であって[r]守るべき所ではないのだろう。
+[k]
+
+[charaFace B 5]
+＠ジェロニモ
+彼らが重く見るのは戦士としての力の在り方[line 3][r]全体より個を尊重する社会形態だ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ロビンフッド
+あー、納得。城の設備を盛るんじゃなくて、[r][#手前:てめえ]の力があればいいって考えか。
+[k]
+
+＠ロビンフッド
+均等な兵力、数を武力とするエジソンとは[r]真逆の考えだわな。そりゃあ城は手薄になりますわ。
+[k]
+
+＠ジェロニモ
+ああ。だが、これは賭けだ。
+[k]
+
+＠ジェロニモ
+西部を守り切る手段は我々にはない。[r]土台の兵力が圧倒的に違う以上、賭けに出なくては。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠ビリー
+うーん。[r]確かにドン詰まりだね。
+[k]
+
+＠ビリー
+あまり賛成できないけど、[r]これ以上に良案はないと思うし。
+[k]
+
+[charaFace C 0]
+＠ビリー
+僕は構わないよ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+勝算は低くとも、勝ち目があるだけめっけもんだ。[r]一点賭けとか、恐ろしくて足が竦むけどねぇ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠ネロ・ブライド
+余とランサーも、それで構わぬぞ。
+[k]
+
+＠エリザベート
+そうね。アタシたちは忙しい身なんだから。[r]手早く終わる分こしたコトはないわ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace H 6]
+[charaFadein H 0.1 2]
+＠ナイチンゲール
+治療は根元から行わなくては意味がない。[r]ワシントンが病巣なら、そこを切り取るべきです。
+[k]
+
+＠ナイチンゲール
+……ただし、[r]まずはこの患者の治療を優先したいのですが。
+[k]
+
+[charaFace F 4]
+＠ラーマ
+余は大丈夫[line 2]と言いたいところだが、[r]暗殺では、役に立たぬどころか足を引っ張るだけか。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+ああ、そこでだ。[r]私としては、部隊を二つに分けたい。
+[k]
+
+＠ジェロニモ
+一方はラーマを治療するため、ナイチンゲールと共に[r]彼と繋がりのあるサーヴァント[line 2]シータを探す。
+[k]
+
+＠ジェロニモ
+もう一方は、東部へと潜入。[r]暗殺を敢行する。
+[k]
+
+[charaFace B 5]
+＠ジェロニモ
+……暗殺任務は危険度が高く、失敗する確率も大きい。[r]纏めて向かって全滅だけは避けねばならない。
+[k]
+
+＠ジェロニモ
+私としては、マシュと[%1]に[r]ナイチンゲール、ラーマと共に向かって欲しいのだが。
+[k]
+
+＠ジェロニモ
+どうだろうか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+わたしたち……ですか？
+[k]
+
+[charaFace B 1]
+＠ジェロニモ
+ああ。英語で言うならば……[#最後の切り札:エース・イン・ザ・ホール]。[r]文字通り、君たちは最後の一手だ。
+[k]
+
+＠ジェロニモ
+我々が首尾良く、彼らを抹殺できればそれでよし。[r]できなければ、後を託す。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩。[r]わたしはマスターの指示に従います。
+[k]
+
+？1：了解
+？2：それでいこう
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+よし、頼むぞ。さて、バランスを考慮すれば……[r]あともう一騎、向こうに合流した方がいいな。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠ネロ・ブライド
+……ふむ。では、ランサー。いやエリザベートよ。[r]貴様がついて行くのが良い。
+[k]
+
+[charaFace G 5]
+＠エリザベート
+はぁ？　何でアタシが？[r]アナタと一緒じゃないの？
+[k]
+
+＠ネロ・ブライド
+うむ。貴様と歌で雌雄を決したいのは山々だが……。[r]暗殺任務であれば、大声で歌う訳にもいくまい。
+[k]
+
+＠ネロ・ブライド
+それではつまらぬ。
+[k]
+
+＠ネロ・ブライド
+故に再び合流した後で大舞台を作り、この者らを[r]審査員として、今度こそ決めようではないか。
+[k]
+
+[charaFace E 2]
+＠ネロ・ブライド
+どちらが[#真のアイドル]かを[line 2]！！
+[k]
+
+[charaFace G 5]
+＠エリザベート
+くっ……素敵！　一世一代の晴れ舞台ね！[r]さすが[#私:アタシ]のライバル、発想がBIGだわ！
+[k]
+
+？1：審査……？
+
+？！
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……聞かなかったことにしましょう、先輩。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠エリザベート
+でも、それならネロがこっちでもいいんじゃない？[r]アナタ、暗殺とかむつかしいコト、できるの？
+[k]
+
+[charaFace E 1]
+＠ネロ・ブライド
+ふふふ、残念だが暗殺に行くなら余の方が良い。[r]何故なら[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ネロ・ブライド
+このネロ・クラウディウス。[r]暗殺するもされるも経験アリの大ベテランだからな！
+[k]
+
+[charaFace E 4]
+＠ネロ・ブライド
+陰謀渦巻く皇帝生活、殺したり殺されたり毒を盛ったり[r]盛られたり。聞けばドン引き語ればドン引き。
+[k]
+
+[charaFace E 0]
+＠ネロ・ブライド
+……うむ。己で言っていて悲しくなってきたが、[r]まあ余ほど暗殺任務に相応しいサーヴァントはおらぬ！
+[k]
+
+[charaFace E 1]
+＠ネロ・ブライド
+えっへん。……はい、拍手だ拍手。
+[k]
+
+[se ad90]
+[wait se ad90]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠ロビンフッド
+皇帝陛下、それ自慢にならねえッス。
+[k]
+
+[charaFace E 4]
+＠ネロ・ブライド
+であろうな。余も自慢する気はない。
+[k]
+
+[charaFace E 0]
+＠ネロ・ブライド
+だが『皇帝特権』があれば、一時的に[r]アサシンの真似事をするのも可能であろう。
+[k]
+
+＠ネロ・ブライド
+更にもう一つ、重要な理由がある。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠ジェロニモ
+重要な……理由？
+[k]
+
+＠マシュ
+それは一体……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ネロ・ブライド
+うむ。ラーマの一人称が！[r]余と被っておるではないか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ラーマ
+それだけか！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ネロ・ブライド
+それだけ？[r]何を言う。キャラ被りを少なくするのは重要だぞ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠エリザベート
+……なら、仕方ないわね。[r]グループにとって致命的な問題だもの……
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ラーマ
+仕方ないのか！？[r]あっさり納得できるほどに！？
+[k]
+
+＠ラーマ
+なあ、[%1]。[r]余は先ほどから混乱しっぱなしだ！
+[k]
+
+？1：気に[&するな:しないで]
+
+[charaFace F 4]
+＠ラーマ
+そう言われてもだな……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace H 6]
+[charaFadein H 0.1 2]
+＠ナイチンゲール
+はい、少しお黙りなさい患者。
+[k]
+
+[charaFace F 2]
+＠ラーマ
+あいだだだ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+？2：メンバーのキャラ分けは大事だよ
+
+[charaFace F 4]
+＠ラーマ
+[%1]まで！？[r]キャラ被りは……それほどまでに重要なのか……。
+[k]
+
+[charaFadeout F 0.1]
+
+？！
+
+[charaTalk G]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠エリザベート
+ま、いいわ。それじゃ、ネロ。[r]暗殺、成功させなさいよ？
+[k]
+
+[charaFace E 1]
+＠ネロ・ブライド
+無論だ。任せておけ。[r]シークレットライブというヤツだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+では、これで決まったな。[r]私、ロビン、ビリー、そしてネロ。
+[k]
+
+
+＠ジェロニモ
+これが東部へ暗殺に向かう部隊。[r]そして[line 2]。
+[k]
+
+＠ジェロニモ
+ナイチンゲール、ラーマ、マシュ、エリザベート。[r]そしてマスターである[%1]。
+[k]
+
+＠ジェロニモ
+こちらが、シータを救出にアルカトラズ島へと向かう組。[r]問題はないな、マスター？
+[k]
+
+？1：問題は[&ないです:ありません]
+？2：気を付けて
+
+？！
+
+[charaFace B 1]
+＠ジェロニモ
+無論だ。[r]それでは、出発は明日の朝としよう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+通信機器をお渡しします。[r]再集合の際は、これで待ち合わせ場所を決めましょう。
+[k]
+
+＠ジェロニモ
+ああ。[r]では、充分に英気を養ってくれ。
+[k]
+
+＠ジェロニモ
+特にマスター、君はまた西部へ戻らなければならない。[r]補給物資で栄養を摂り、よく眠っておくことだ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+[soundStopAll]
+[end]

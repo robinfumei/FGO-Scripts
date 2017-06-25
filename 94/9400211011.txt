@@ -1,0 +1,232 @@
+＄94-00-21-10-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 7004000 1 フラン]
+[charaSet G 7003000 1 呂布]
+[charaSet H 1028001 1 両儀式（セイバー）]
+
+[scene 22130]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠フラン
+フゥゥゥ……ゥ[line 2]！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+フランさん、テスラさんには私たちの方から[r]よく言い聞かせますので……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠フラン
+ゥー……。
+[k]
+
+？1：節電デーをカルデアにもうけるよ。
+？2：博士には後で電撃棒をプレゼントだね。
+
+？！
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace F 1]
+＠フラン
+ゥ！[r]ゥ～♪
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+コロリと機嫌が良くなりました！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠呂布
+…………。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+
+[charaTalk off]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+[charaFace F 1]
+[charaFadein F 0.1 2]
+
+[wt 0.7]
+
+[charaSpecialEffect G flashErasure 1 1.7]
+[charaSpecialEffect F flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect F]
+
+[charaTalk on]
+[wt 1.0]
+
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+ふぅ……やっと暗くなりました。[r]目がチカチカします……。
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+と、唐突だけどいいかな！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 2]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、ドクター。[r]どうしました？
+[k]
+
+＠Dr.ロマン
+ちょ、待って……！[r]フランちゃんがね……！
+[k]
+
+＠Dr.ロマン
+『節電のためにここらへんの訳の分からない装置を[r]全部停止する』って言い出して……！
+[k]
+
+＠Dr.ロマン
+あー、だめだめ！[r]そのコンセントを抜いたらダメだってばあ！
+[k]
+
+＠Dr.ロマン
+せめてシャットダウンを…………あ。
+[k]
+
+[se ad1]
+[seStop ad1 0.4]
+[wt 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wait se ad1]
+
+[wt 2.0]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+…………イヤな事件でしたね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フ、ァーウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+ところで式さん。[r]先ほどのメモはいったい……？
+[k]
+
+[charaFace D 6]
+＠両儀式
+ああ、これ？　これは今回の依頼書。[r]今のは“停電の原因を何とかして”だから……
+[k]
+
+＠両儀式
+よし、これでこの案件は終わり。[r]次は“支払い拒否の悪質な住人”の排除だな。
+[k]
+
+[charaFace A 15]
+＠マシュ
+あの……わたしの見間違いであってほしいのですが……[r]今のは近隣住民からの苦情の束、ですか？
+[k]
+
+[charaFace D 0]
+＠両儀式
+あれ、言ってなかった？[r]オレの事情はオレの事情として、
+[k]
+
+＠両儀式
+マンションに不法滞在しているサーヴァントたちを[r]追い出してほしいって、苦情があってさ。
+[k]
+
+＠両儀式
+だからサーヴァントを追っ払ってるんだ。[r]ほら。このマンションの今の持ち主、[#両儀家:うち]だから。
+[k]
+
+[charaFace A 14]
+＠マシュ
+式さん、大家さんでいらっしゃったんですか！？[r]つまり、これは[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+＠H：両儀式
+ええ。大家による大家のための、[r]家賃の取り立て行為だったの。
+[k]
+
+＠H：両儀式
+そういう事だから、ここからは気持ちを切り替えてね、[r]マシュさん、[%1][&くん:さん]？
+[k]
+
+＠マシュ
+納得です！　言われて見れば、[r]大家さんっぽい格好ですね、式さん！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

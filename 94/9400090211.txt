@@ -1,0 +1,285 @@
+＄94-00-09-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20805]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 2013001 1 松平アーラシュ]
+[charaSet D 1027000 1 桜セイバー]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaSet F 4014001 1 今川よしつね]
+[charaSet G 3006001 1 武蔵坊雪斎]
+[charaSet H 9940030 1 ちびノブ]
+[fadein black 2]
+[wait fade]
+
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠松平アーラシュ
+なんてこった、この俺が……[r]だがまだだ、まだ、終わらねぇ……
+[k]
+
+[charaFace C 2]
+＠松平アーラシュ
+見せてやるぜ……[r]この俺の全身全霊を懸けた渾身の一撃！！
+[k]
+
+[se ad39]
+[wt 0.4]
+[charaFadeout C 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+うむ、嫌な予感しかせんのじゃが……。[r]あ、なんか凄いパワー溜めとる感じじゃぞ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+と、とにかく逃げましょう！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠桜セイバー
+なんだかぐだぐだですが仕方ありません[r]とにかくここを離れましょう！！
+[k]
+
+？1：逃げるってどこへ！？
+？2：いや、でもあれ……。
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠松平アーラシュ
+無駄だ、俺の弓からは逃れられない。[r]なぜなら、射程はズバリ２５００ｋｍ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+それホントに弓なのかと！！！
+[k]
+
+
+[charaFadeout E 0.1]
+
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[scene 20302]
+[fadein black 0.5]
+[bgm BGM_EVENT_2 0.1]
+[wait fade]
+
+[charaFadein F 0.1 1]
+[charaFace F 1]
+＠今川よしつね
+今宵はいい月ですね、弁慶……じゃない雪斎。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+[charaFace G 0]
+＠武蔵坊雪斎
+結局、拙僧の名前を全部言っちゃいましたぞ殿。[r]まあ、よい月なのは確かですが。
+[k]
+
+
+[charaFace F 0]
+＠今川よしつね
+ところで向こうからなにやら妙な連中が[r]迫ってるようですが、何か心当たりは？
+[k]
+
+[charaFace G 0]
+＠武蔵坊雪斎
+はて、先ほど斥候に出した松平のせがれですかな。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[se ad14]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+どけどけ！！　わしらの邪魔をするでない！！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.4]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+[wt 0.4]
+[charaFadeout D 0.1]
+
+[se ad59]
+[wt 0.3]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+あ、陣幕の前失礼しますね！！
+[k]
+
+[charaFadeout A 0.1]
+[seStop ad14 3]
+[seStop ad59]
+
+[charaTalk F]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+[charaFace F 0]
+＠今川よしつね
+……行ってしまいましたね。[r]なんでしょう、今の連中は……？
+[k]
+
+[fadein white 0.3]
+[wait fade]
+[fadeout white 0.4]
+[wait fade]
+[scene 20302]
+[fadein white 0.3]
+[wait fade]
+
+＠今川よしつね
+ところで弁慶……じゃない、雪斎[r]聞きたいことがもう一つあるのですが
+[k]
+
+＠今川よしつね
+宴の余興に花火でも上げましたか？
+[k]
+
+
+[charaFace G 0]
+＠武蔵坊雪斎
+いえ、そのような話は聞いておりませぬが……。
+[k]
+
+[charaFace F 0]
+＠今川よしつね
+ではあの流星のような光はいったい……
+[k]
+
+
+[fadeout white 0.3]
+[wait fade]
+[scene 20302]
+[fadein white 0.3]
+[wait fade]
+
+[charaFace G 0]
+＠武蔵坊雪斎
+んー、光ってますなぁ。[r]夜空にはじけ飛ぶ閃光のように光ってますなぁ。
+[k]
+
+
+＠松平アーラシュ
+ステラ[line 4]ッ！！！！！！！
+[k]
+
+
+[se ad38]
+[shake 0.05 5 4 1.0]
+[fadeout white 1]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[scene 20302]
+[se ad11]
+[fadein white 1.5]
+[wait fade]
+
+[wt 0.5]
+[seStop ad11]
+[wt 0.5]
+
+[bgm BGM_EVENT_2 0.1]
+[charaFadein F 0.1 1]
+[charaFace F 4]
+＠今川よしつね
+そ、そんな、馬鹿な、この大軍が一瞬で……。[r]申し訳ありません兄上、鎌倉幕府再興の夢が……。
+[k]
+
+＠今川よしつね
+ああっ、山の向こうからしゃもじで叩くのは[r]おやめくだ…さ……むにゃー。
+[k]
+
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 0.8]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect F flashErasure]
+[wait time 0.3]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠武蔵坊雪斎
+ですから油断めさるなとあれほど……。[r]とりあえず立ったまま失礼しますぞ……。
+[k]
+
+
+[messageOff]
+[charaSpecialEffect G flashErasure 1 0.8]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect G flashErasure]
+[wait time 0.3]
+
+
+[fadeout black 0.5]
+[wait fade]
+[scene 20302]
+[fadein black 0.5]
+[wait fade]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+敵サーヴァントの反応、全て消滅しました……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠桜セイバー
+いや、これはもう、なんというか……。
+[k]
+
+？1：ぐだぐだですね……。
+？2：さすがステラだ……。
+
+？！
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠魔人アーチャー
+是非もないネ！！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

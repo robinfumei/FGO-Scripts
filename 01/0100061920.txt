@@ -1,0 +1,159 @@
+＄01-00-06-19-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009001 1 静謐のハサン]
+[charaSet G 5022001 1 三蔵]
+[charaSet H 98084000 1 粛正騎士]
+
+[effect bit_talk_40]
+[se ad11]
+[scene 29121]
+[fadein black 2.0]
+[wait fade]
+
+[wt 2.5]
+[seStop ad11 2.0]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.4 1]
+＠マシュ
+…………！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ、フォ[line 3]ウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+あ、ああ……。[r]こんな……ひどい……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.4]
+
+[messageOff]
+[cameraMove 0.2 100,-30 1.25]
+[wait camera]
+＠呪腕のハサン
+おお、おおお何という……！[r]此処には兵と呼べる者などおらぬというのに……！
+[k]
+
+＠呪腕のハサン
+ここはただ逃げ延び、生きようと願う者たちが[r]寄り添っただけの村……！
+[k]
+
+＠呪腕のハサン
+それをこのように……！[r]獅子王の兵は女子供から殺すというのか……！
+[k]
+
+[messageOff]
+[cameraMove 0.5 -100,-30 1.25]
+[wait camera]
+＠三蔵
+誰か、誰か生きている人[line 2]！[r]いたら声を出して[line 3]！
+[k]
+
+＠三蔵
+もう、火の手と煙が……[r]激しすぎて、様子が……！
+[k]
+
+[messageOff]
+[cameraHome 0.25]
+[wait camera]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+だめだ、みんな散り散りになっている……！[r]こんなところを敵に狙われたら……！
+[k]
+
+？1：でも、村の人を助けないと……！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+そうです……！[r]まずは村人の救出を……！
+[k]
+
+？2：アーラシュは！？
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+そうだ[line 3]アーラシュさんは！？[r]村の守りをしてくれていた筈ですが……！？
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……待って！[r]倒れている村人はどれも男性ばかり[line 3]
+[k]
+
+＠静謐のハサン
+これは、もしかすると[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠粛正騎士
+叛乱分子、発見。[r]報告にあったサーヴァントと推測。
+[k]
+
+＠粛正騎士
+卿に報告を。マルクト５、[#本命:イゾルデ]を発見した。[r]我、[#本命:イゾルデ]を発見した。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+周囲の敵性反応が集まってくる！[r]三人とも、気をつけて！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[effectStop bit_talk_40]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]

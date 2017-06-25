@@ -1,0 +1,284 @@
+＄01-00-06-10-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 6002001 1 呪腕のハサン]
+[charaSet H 2013000 1 アーラシュ]
+
+[scene 29100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+＠呪腕のハサン
+[line 3]ほう。[r]つまり、我々と共闘したいと？
+[k]
+
+？1：はい
+？2：イエス
+
+？！
+
+[charaFace E 2]
+＠呪腕のハサン
+はっはっは。これは異な事を。[r]我々は日々生き延びる事で精一杯な難民ですぞ？
+[k]
+
+＠呪腕のハサン
+そんな我々が、獅子王の軍勢と戦うとでも[r]思っているのですかな？
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え[line 3]あれ？[r]言われて見ればその……その通りでした！
+[k]
+
+[charaFace A 14]
+＠マシュ
+ハサンさん、予想外の切り返しです先輩！
+[k]
+
+？1：えっと……叛逆してなかった……の？
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アーラシュ
+そんなのは見れば分かるだろ！[r]騙されやすいな、[%1]！
+[k]
+
+[charaFadeout H 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+？2：カルデアの目は誤魔化せない
+
+[charaFadeout A 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+その通りですハサン殿。貴方がたが秘密裏に[r]軍備を整えている事、既に気づいています。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+……失礼。悪ふざけが過ぎたようだ。[r]確かに、我々は獅子王への反撃の機を狙っている。
+[k]
+
+＠呪腕のハサン
+各地の隠れ村にはそれぞれの考えをもった[r]“山の翁”が赴任し、力を蓄えている。
+[k]
+
+＠呪腕のハサン
+よいか。我らは決して獅子王には屈せぬ。
+[k]
+
+[charaFace E 4]
+＠呪腕のハサン
+奴めは我らが神を軽んじる[line 3]聖都の法は[r]あらゆる神の威光を上回る、と奴めは言ってのけた。
+[k]
+
+＠呪腕のハサン
+それは決して許される事ではない。[r]加えて、奴は従わぬ者を問答無用で消し飛ばす。
+[k]
+
+[charaFace E 0]
+＠呪腕のハサン
+貴殿たちも目にしたはずだ。[r]無惨にも穿たれた大地を。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。[r]この目でしっかりと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+……さて、どうだかな。だがよい。[r]我らは戦わねばならない。抗わねばならない。
+[k]
+
+＠呪腕のハサン
+その為に戦力が欲しいのは事実。[r]だが[line 3]
+[k]
+
+＠呪腕のハサン
+貴殿たちを容易く迎え入れる訳にはいかぬ。[r]叛逆者といえど、円卓が二人もいるのなら尚更よ。
+[k]
+
+？1：マシュの事も気づいてたのか……！
+
+[charaFace E 3]
+＠呪腕のハサン
+フッ、当然よ。我らほどの歴戦のサーヴァントとなれば。[r]そうであろう、アーラシュ殿？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaTalk H]
+[charaFace E 3]
+[charaFadein E 0.1 0]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+＠アーラシュ
+え、マジでか！？[r]マシュも円卓の騎士だったのかよ[line 2]！？
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace E 5]
+＠呪腕のハサン
+ア[line 4]ラシュど[line 3]の[line 4]！
+[k]
+
+[charaFace H 1]
+＠アーラシュ
+あー……すまんすまん、ついな！[r]おう、知っていたとも、はじめっからな！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[bgmStop BGM_EVENT_7 0.3]
+
+？2：……もしかして、盗み聞いてた？
+
+[bgmStop BGM_EVENT_5 0.2]
+[wt 0.3]
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace E 2]
+＠呪腕のハサン
+[line 3]ところで今朝の食事はいかかでしたかな？[r]自慢のひよこ豆料理でしたが？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ[line 2]ウ！
+[k]
+
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_2 0.3]
+
+？！
+
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+ともかく！[r]どうあっても貴殿たちを仲間とは認められぬ！
+[k]
+
+＠呪腕のハサン
+これは信仰上の問題である！[r]貴殿たちの手は借りられぬ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+そんな、ハサンさん……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+だが！　我らの信条を上回るほどの悪鬼、[r]頼らざるを得ないほどの実力者であれば話は別なり！
+[k]
+
+＠呪腕のハサン
+鬼を倒すためには、[r]鬼を使うほどの覚悟が必要！
+[k]
+
+＠呪腕のハサン
+貴殿らが円卓の騎士に対抗できる力であれば、[r]この呪腕、喜んで貴殿らの犬となろう！
+[k]
+
+＠呪腕のハサン
+今、それを証明していただく！[r]いくぞアーラシュ殿！　手加減は抜きだ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠呪腕のハサン
+ただし貴殿の宝具は禁止ですぞ！[r]試すも何もありませんからな！
+[k]
+
+[charaFace H 1]
+＠アーラシュ
+おう、そういう事か！[r]アサシン教団のトップってのも辛いねぇ、呪腕殿！
+[k]
+
+＠アーラシュ
+いいぜ、その段取りに付き合った！[r][%1]、本気でかかってきな！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+ハサンさん、アーラシュさん……！
+[k]
+
+[charaFace A 2]
+＠マシュ
+マスター、戦闘準備を！[r]わたしたちの力を証明しましょう！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

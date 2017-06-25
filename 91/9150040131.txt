@@ -1,0 +1,106 @@
+＄91-50-04-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 11010]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5004000 1 ナーサリー・ライム]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 5004002 1 ナーサリー・ライム？]
+[charaSet F 5004002 1 ナーサリー・ライム]
+[wipeFilter circleIn 0.4 0.4]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……敵性体、撃破しました。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠ナーサリー・ライム？
+ふんだ。結末なんてわかっていたのよ、本当は。[r]ありすがいないなら[line 2]
+[k]
+
+＠ナーサリー・ライム？
+わたしが[#わたし:ありす]になればいい。[r]そんな馬鹿なことを想うのが、今のわたしなんだって。
+[k]
+
+[charaFace E 3]
+＠ナーサリー・ライム？
+いいこと、わたし？[r]あなたがありすの姿を選ぶなら……
+[k]
+
+[effect bit_talk_06]
+[charaFace E 1]
+＠ナーサリー・ライム？
+絶対、バッドエンドなんかに……。[r]しちゃ……。
+[k]
+
+＠ナーサリー・ライム？
+だめよ……。
+[k]
+
+[messageOff]
+[effectStop]
+[wait effect]
+[charaSpecialEffect E flashErasure 0 1]
+[wait charaSpecialEffect E]
+[charaSpecialEffect C flash 0 1]
+[wait charaSpecialEffect C]
+[charaFadeout C 0]
+[charaSet C 5004002 1 ナーサリー・ライム]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 2]
+[fadein white 1]
+[wait fade]
+＠ナーサリー・ライム
+[line 4]うん。
+[k]
+
+[charaFace C 1]
+＠ナーサリー・ライム
+ハッピーエンドにするわ。[r][#ありす:わたし]のために、わたしは頑張る。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+よし、一件落着かな！[r]その奇妙な空間も閉じつつあるみたいだし、うん！
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+今のうちにレイシフトの要領でカルデアへ[r]戻すよ！　せーの[line 2]っと！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+[bgmStop BGM_EVENT_6 0.7]
+[wait effect bit_talk_06]
+[effect bit_talk_07_02]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[wipeOff]
+[end]

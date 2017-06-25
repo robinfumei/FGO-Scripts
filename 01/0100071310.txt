@@ -1,0 +1,868 @@
+
+
+
+＄01-00-07-13-1-0
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet F 3028000 1 ジャガーマン]
+[charaSet G 3027000 1 アナ]
+[charaSet H 98006000 1 巨像たち]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 34000]
+[fadein black 1.5]
+[wait fade]
+
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+
+
+＠Dr.ロマン
+コホン。[r]さて、改めて状況を整理するとですね、
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+その必要はありまセーン！[r]女神ケツァル・コアトルが仲間になった！　以上デース！
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+もちろん、その他の細かい事はおいおい察していくから、[r]説明は不要よ、ロマニ君？
+[k]
+
+＠ケツァル・コアトル
+アナタ、ちゃんと栄養とってる？　睡眠時間はバッチリ？[r]今にも内側から崩れそうな気配だけど、大丈夫？
+[k]
+
+＠ケツァル・コアトル
+私でよければハグして[line 3]あ、それは無理なのね。[r]ごめんなさい、期待させてしまって。
+[k]
+
+＠ケツァル・コアトル
+この特異点の人理定礎が修復されないとレイシフトは[r]できないし、
+[k]
+
+＠ケツァル・コアトル
+修復されたとしても、この私はカルデアで召喚された[r]霊基ではないから、そちらには行けないのでしょう？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+
+＠Dr.ロマン
+はい。[#概:おおむ]ねその通りです、ケツァル・コアトル。[r]理解が早くて助かります。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+ま、そのアタリは仕方がないデース！
+[k]
+
+＠ケツァル・コアトル
+すっごく残念だけど、[%1][&君:さん]との[r]運命を信じてマース！
+[k]
+
+＠ケツァル・コアトル
+そ・し・て、
+[k]
+
+[messageOff]
+[charaFace F 1]
+[charaFadein F 0.1 -512,0]
+[charaMove F -400,0 0.2]
+[wait charaMove F]
+[charaMoveReturn F -400,50 0.2]
+[wait charaMove F]
+[charaMoveReturn F -400,50 0.2]
+[wait charaMove F]
+[wt 0.4]
+[charaMove F -512,0 0.2]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+
+＠ケツァル・コアトル
+さっき私の[#キック:パターダ]をガッシリとガードしたアナタ！[r]格好良かったデース！
+[k]
+
+＠ケツァル・コアトル
+私、格好いい女の子大好きデース！[r]名前教えてくだサーイ！
+[k]
+
+[messageOff]
+[wipeout rectangleLeftToRight 0.4 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[wt 0.1]
+[se ad73]
+[wipein rectangleRightToLeft 0.4 1]
+[wait wipe]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+[charaMove B 0,50 0.4]
+
+＠マシュ
+あわ、あわわ……！[r]両脇を掴んで持ち上げるのは、ちょっと……！
+[k]
+
+＠マシュ
+降ろしてくださいケツァル・コアトルさん、[r]マシュ・キリエライトです！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+素敵な名前ネー！　私はケツァル・コアトル、[r]長かったらコアトルさんでかまいまセーン！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+
+＠アナ
+……それは良くないかと。[r]コアトルだけだと蛇、という意味ですので……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+あら？[r]そちらのお嬢さんは、もしかして……
+[k]
+
+[messageOff]
+[charaFace F 1]
+[charaFadein F 0.1 6]
+[charaMove F 400,0 0.2]
+[wait charaMove F]
+[charaMoveReturn F 400,50 0.2]
+[wait charaMove F]
+[charaMoveReturn F 400,50 0.2]
+[wait charaMove F]
+[wt 0.4]
+[charaMove F 512,0 0.2]
+[charaFadeout F 0.1]
+[wt 0.4]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk depthOff]
+[charaDepth C 0]
+[charaDepth E 1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 0]
+[charaFadein E 0.1 2]
+
+＠イシュタル
+余計なコトは言わぬが花よ、ラテン系。[r]その子の事情が一番ヘビィだからね。
+[k]
+
+＠ケツァル・コアトル
+そのようね。では私も年長者らしく振る舞いましょう。[r]こんにちは、イシュタル。初めましてかしら？
+[k]
+
+[charaFace C 5]
+＠イシュタル
+[FFFFFF]？[-]　そうに決まってるでしょ。[r]まあ、さっき何度か撃ち合った敵同士だけどね。
+[k]
+
+[charaFace E 1]
+＠ケツァル・コアトル
+ヤ！　もう仲間よ、仲間よ！　冷たいネ、イシュタル。[r]もっと笑いなさいな。太陽みたいに明るく明るく！
+[k]
+
+[charaFace C 10]
+＠イシュタル
+余計なお世話よ。[r]無闇やたらに輝くとか上品じゃないでしょ。
+[k]
+
+＠イシュタル
+輝きは誰よりも眩しく、されど、[r]その恩恵を与えられるのは選ばれた人間のみ[line 3]
+[k]
+
+＠イシュタル
+それが美の女神の在り方というものよ。[r]アナタみたいに常時ピカピカしないの。
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+ふうん。性質に似合わず[#慎:つつ]ましいのね。[r]それが素？　それとも[#人間:うつわ]の影響？
+[k]
+
+＠ケツァル・コアトル
+どちらにせよ謙虚さを覚えるなんて、[r]アナタにとっては[#神生:じんせい]に一度あるかないか。
+[k]
+
+＠ケツァル・コアトル
+その幸運、祝福するわ。[r]いい出会いをしたようね、アナタも。
+[k]
+
+＠イシュタル
+その上から目線やめてくれる？[r]人間の文化に毒されたのはそっちの方でしょ。
+[k]
+
+＠イシュタル
+なによルチャリブレって。アナタのやってるコトは[r]スペースシャトルをカートにしているようなものだからね？
+[k]
+
+＠イシュタル
+真面目にレースやってる連中からすれば、[r]人理焼却以上にハタ迷惑な女神だって気付きなさい。
+[k]
+
+[charaFace E 3]
+＠ケツァル・コアトル
+えー、ソウデスカー！？[r]スペースシャトルとか、強そうな飛び技デ[line 2]ス！
+[k]
+
+[charaFace C 9]
+＠イシュタル
+褒めたんじゃないの、嫌味だっつの！[r]ダメだこの女神、脳までプロレスウイルスに冒されてる！
+[k]
+
+
+？1：姉妹みたいだ
+？2：仲が良いね
+
+？！
+
+[charaTalk depthOn]
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠イシュタル
+誰が！　誰とよ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+
+＠Dr.ロマン
+いや、あながち間違いでもないのでは？[r]二柱とも金星を司るという性質を持ってるんだから。
+[k]
+
+＠Dr.ロマン
+女神イシュタルは明星、つまり金星の女神だけど、
+[k]
+
+＠Dr.ロマン
+ケツァル・コアトルはアステカ神話の明けの明星の具現、[r]破壊神トラウィスカルパンテクートリと同一視される。
+[k]
+
+＠Dr.ロマン
+つまりどっちも金星に縁があるのさ。
+[k]
+
+＠Dr.ロマン
+今回ケツァル・コアトル神が女神なのは、[r]金星……美の要素が強く出ているからかもしれない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+……そのようね。太陽石を神殿に置いてたあたり、[r]自分で使う気はなさそうだし。
+[k]
+
+＠イシュタル
+このラテン女、本気で“自分の肉体”だけで[r]女神として輝く気満々よ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+ヤ！　太陽石は色々危険だし熱いから禁止デース！[r]リング外ではパイプ椅子しか使いまセーン！
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+あとは……
+[k]
+
+[messageOff]
+[charaFace F 1]
+[charaFadein F 0.1 -512,0]
+[charaMove F -400,0 0.2]
+[wait charaMove F]
+[charaMoveReturn F -400,50 0.2]
+[wait charaMove F]
+[charaMoveReturn F -400,50 0.2]
+[wait charaMove F]
+[wt 0.4]
+[charaMove F -512,0 0.2]
+[charaFadeout F 0.1]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+やっぱり、一番目立つそこの魔術師さんね！
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+こんにちは、夢の住人。[r]アナタが揺り籠を作ってくれたの？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+ああ。[#聡明:そうめい]なるケツァル・コアトル。[r]知識の神、文明を植えるもの、の名は伊達じゃないな。
+[k]
+
+＠マーリン
+というかキミ、肩書き持ちすぎじゃないかい？[r]黎明期はさぞ働きものだったに違いない。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+他にできる子がいなかっただけよ。[r]何代かしたら、私より適応した子が受け持ってくれたわ。
+[k]
+
+[charaFace E 7]
+＠ケツァル・コアトル
+と。これで皆さんへの挨拶はおしまいね。[r]では本題に入りましょう。
+[k]
+
+＠ケツァル・コアトル
+この神殿の後ろにあるマルドゥークの斧について、[r]なんだけど。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[charaFadeout E 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaShake F 0.01 2 2 0.7]
+
+＠ジャガーマン
+くぁ[line 4]！　そういう露骨なスルーとか、[r]女神としてどうかと思うニャ、私は！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+あらあら？　フェアリーの声が聞こえるヨ。[r]やっぱり古い時代は、そういうのもいっぱいいっぱいネ☆
+[k]
+
+＠ケツァル・コアトル
+声はすれど姿は見えず。これを[#人間:あなた]たちは[r]妖精の声と呼び[#慣:なら]わします。
+[k]
+
+＠ケツァル・コアトル
+はい。そういう事なのでスルーしましょう。[r]私にも、皆さんにも、何も見えませんね？　ね？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+[charaShake F 0.1 0 10 0.7]
+
+＠ジャガーマン
+悪魔か貴様は！　ここ！　私はここニャ！[r]誰もいません見えません、みたいなジェスチャアやめニャ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[charaShake E 0.5 3 0 0.7]
+
+＠ケツァル・コアトル
+アディオース。アディオース。[r]（誰もいません見えませんみたいなジェスチャア）
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠ジャガーマン
+ひどい！　ジャングルで出遭って以来、[r]身を粉にして働いてきた私にこの仕打ち！
+[k]
+
+＠ジャガーマン
+ククルんは何なの！？[r]私がさぼると殺しにかかってくるし、
+[k]
+
+＠ジャガーマン
+私がボイコットしてると殺しにかかってくるし、[r]私が遊んでいると殺しにかかってくるし！
+[k]
+
+＠ジャガーマン
+もしかして、私のこと嫌いなのかニャ[line 3]！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+ハァイ、大嫌いデース！[r]ジャガーとか滅びなサーイ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ケツァル・コアトルさんとは思えない、[r]真っ向からの全否定です……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+
+＠Dr.ロマン
+まあ、それは仕方ないと思うよ……
+[k]
+
+＠Dr.ロマン
+ジャガーマンはオルメカ、アステカ等の[r]中南米地域で奉じられた神霊だ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ジャガーは戦いと死を象徴する。[r]ジャガーマン、すなわち「ジャガー人間」は
+[k]
+
+＠Dr.ロマン
+しばしば中南米神話に登場する最高神の一柱、[r]テスカトリポカの一側面に関係深いとされる。
+[k]
+
+＠Dr.ロマン
+で、このテスカトリポカという神様はね、[r]ケツァル・コアトルのライバルなんだ。
+[k]
+
+＠Dr.ロマン
+善の頂点であるケツァル・コアトルと対をなす、[r]悪の頂点であるテスカトリポカ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+神話上、このテスカトリポカにケツァル・コアトルは[r]殺されてさえいる。
+[k]
+
+＠Dr.ロマン
+その結果、ケツァル・コアトルが大切に育てていた[r]文明は滅び去った。
+[k]
+
+
+？1：そんな事が……
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠ジャガーマン
+死と再生はワンセット！[r]ジャガーだからって悪というワケではニャいのだ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+[line 3]あ？　殺すわよ、本気で。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+
+＠ジャガーマン
+すみません止めてください、ククルんの本気睨みとか[r]夜中トイレ行けなくなりますマジで。
+[k]
+
+？2：ジャガーマンってホントにいたんだ……
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠ジャガーマン
+ホントだっつーの！　リアルだっつーの！[r]私の事をなんだと思ってたのかねチミたちは！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠アナ
+ジャングルが見せる幻覚的なものかと。[r]メキシコにはいいサボテンがあると聞きますし。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠ジャガーマン
+ペヨーテの精霊扱いだったのか[line 3]！
+[k]
+
+？！
+
+[charaFace F 4]
+＠ジャガーマン
+……とまあ、この通り私はククルんに虐待を受けてきた[r]憐れなジャガーの精霊だったのニャ……
+[k]
+
+＠ジャガーマン
+せっかく生贄をゲットしても[r]心臓、食べられないし……ククルん、マジ切れするし……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+当然です。私の前で生贄なんて許しません。[r][#拝領:はいりょう]はあくまで伝承保菌の際、一度きり、
+[k]
+
+＠ケツァル・コアトル
+それ以外の生贄の儀式は不要なもの。
+[k]
+
+＠ケツァル・コアトル
+生贄の儀式そのものを楽しみにしたテスカトリポカの[r]やり方は、私とは相容れないものです。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+
+＠ジャガーマン
+ほらね！　だから生贄になった戦士たちは[r]みーんな生きているのニャ。
+[k]
+
+[charaFace F 0]
+＠ジャガーマン
+今もほれ、エリドゥのいたるところで[r]ククルんが決めたトレーニングを行っています。
+[k]
+
+＠ジャガーマン
+“アナタたちにはまず受け身をマスターしてもらいます”[r]とか言って、もう身も凍るハードな訓練を強制されて……
+[k]
+
+[charaFace F 4]
+＠ジャガーマン
+うう……兵士たち可哀想だニャ……あれは死ぬより[r]きついと思う……ククルんドエスすぎるニャ……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+アナタも仲間に入る？　ルチャの？[r]まず手足をもいでから海溝に叩き込むわ？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠ジャガーマン
+笑顔でこれだからね！[r][%1]サンも騙されん[se ad76][charaEffect F bit_talk_13][wt 0.1][charaShake F 0.01 5 5 0.4][charaMove F -1000,0 0.2]タワバァ！？
+[k]
+
+
+[bgmStop BGM_EVENT_7 1.0]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+話を戻しますね♡
+[k]
+
+[bgm BGM_EVENT_1 0.1]
+＠ケツァル・コアトル
+アナタたちの目的は私の排除より、[r]マルドゥークの斧の回収だったのではなくて？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+ああ、その通りだ。[r]ゴルゴーンを倒すにはあの斧の破壊力が必要となる。
+[k]
+
+[charaFace A 4]
+＠マーリン
+その為にここまで来たのだけどね。[r]さて、どうしたものか。
+[k]
+
+＠マーリン
+斧があんな大きさだとは聞いていなかった。[r]我々の力ではこれは運べない。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+でしょうね。なにしろエリドゥ全体と同じ重さだし。[r]でも運ぶだけなら手段はあるわ。
+[k]
+
+＠ケツァル・コアトル
+密林の蔦でロープを作って、[r]私の翼竜たちにウルクまで運ばせましょう。
+[k]
+
+＠ケツァル・コアトル
+三百匹の[#編隊:チーム]を三つ。[r]それでローテーションを組ませます。
+[k]
+
+＠ケツァル・コアトル
+三日ほどかかるけど、それで間に合うかしら？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 1]
+
+＠Dr.ロマン
+もちろん！　それは助かる！[r]さすがケツァル・コアトル、色々スケールがでかい！
+[k]
+
+＠Dr.ロマン
+実行力もマーリンとは段違いだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マーリン
+私は頭脳労働担当だ、[r]戦いの神と比べられても困るなあ。
+[k]
+
+＠マーリン
+とはいえ、ケツァル・コアトルが頼りになるのは事実だ。[r]今後もどんどん頼るとしよう。
+[k]
+
+＠マーリン
+ご婦人にばかり働いてもらうのは少々心苦しいけどね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+ヤ、その気遣いは無用デース！
+[k]
+
+＠ケツァル・コアトル
+なぜなら、翼竜たちを集める前に[r]マーリンたちにはやってもらいたい事がありマース！
+[k]
+
+＠ケツァル・コアトル
+はい、斧のまわりにいるあちらの[r]管理人さんたちをご覧くだサ[line 2]イ！
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[bgmStop BGM_EVENT_1 0.4]
+[wait wipe]
+
+[charaSet F 98006000 1 巨像たち]
+[charaSet G 98006000 1 巨像たち]
+[charaScale H 1.25]
+[charaScale F 1.25]
+[charaScale G 1.25]
+[charaFadeout E 0.1]
+[wt 0.1]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 0,100]
+[wt 0.2]
+[se ad23]
+[charaFadein F 0.4 -256,80]
+[wt 0.2]
+[charaFadein G 0.4 256,80]
+
+＠H：巨像たち
+[image berserker_language_1][line 2]！！[bgm BGM_EVENT_3 0.1]！
+[k]
+
+？1：巨体レスラー軍団……！？
+？2：スプリガンの皆さんだ[line 3]！
+
+？！
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+ハイ♪[r]メソポタミアの神々が残した防衛機構なのデース！
+[k]
+
+＠ケツァル・コアトル
+神々が悪さしないよう、[r]ご丁寧に神性特攻で固めてありマース！
+[k]
+
+＠ケツァル・コアトル
+私やイシュタルではちょっと面倒なのですヨ。[r]なので、皆さんに排除をお願いしマース！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+おやおや。楽して帰るのはまだ少し早かったか。[r]仕方ない、やろうか[%1]君。
+[k]
+
+＠マーリン
+なに、ケツァル・コアトルに比べればどうという事はないさ。[r]単にパーティの選抜に気をつければいいだけの話だ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+そうですね。しっかり人員を考えてから[r]試合を始めましょう、マスター！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

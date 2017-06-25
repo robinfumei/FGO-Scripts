@@ -1,0 +1,602 @@
+＄94-00-31-08-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 6015001 1 アサシン？]
+[charaSet F 4002001 1 イスカンダル]
+[charaSet G 98061000 1 ウェイバー]
+
+[scene 25100]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠アサシン？
+ちッ、手強い……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+このサーヴァント、何かが変です。この聖杯戦争に参加し[r]ている他のサーヴァントとは、明らかに気配が違います。
+[k]
+
+＠エルメロイ
+ああ、それでいてどこか馴染みがある。[r]むしろ我々カルデアの側で。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォウ！
+[k]
+
+[charaFace A 12]
+＠マシュ
+そう、[r]どことなくアーチャーのエミヤ先輩のような……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠アサシン？
+ッ！？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+みんな、気をつけてくれ！　新たなサーヴァントの反応だ。[r]真っ直ぐそちらに向かっている！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace A 2]
+[charaFace D 5]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠エルメロイ
+何だと？　こんなタイミングでいったい誰が……。[r]あ、まさか！
+[k]
+
+＠マシュ
+ッ！　マスター、伏せて！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.2]
+
+[charaPut A 0]
+[charaPut B 1]
+[charaPut C 2]
+
+[se ad63]
+[charaEffect A bit_talk_lightning_03t]
+[charaEffect B bit_talk_lightning_03t]
+[charaEffect C bit_talk_lightning_03t]
+
+[wt 0.2]
+[shake 0.05 2 4 0.5]
+[wt 0.5]
+[se ad64]
+[wt 0.2]
+[shake 0.05 1 2 2.0]
+
+[fowardEffect bit_talk_lightning_06i]
+
+[charaEffectStop A bit_talk_lightning_03t]
+[charaEffectStop B bit_talk_lightning_03t]
+[charaEffectStop C bit_talk_lightning_03t]
+
+[wait fowardEffect bit_talk_lightning_06i]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アサシン？
+……。
+[k]
+
+[messageOff]
+[se bac1]
+[charaFadeout E 0.4]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+大丈夫ですか？　マスター。
+[k]
+
+？1：ああ、ありがとう
+
+[charaFace A 13]
+＠マシュ
+良かった……でも今の隙にアサシンを[r]逃がして[charaFace A 8]しまいました。申し訳ありません……。
+[k]
+
+？2：アサシンはどこへ？
+
+[charaFace A 8]
+＠マシュ
+……すみません。魔力反応を見失いました。[r]既に戦線を離脱したものかと。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+私の金鎖陣も今の雷撃でぶち壊しだ。おのれ……。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk F]
+[charaFace G 0]
+[charaFace F 1]
+[charaFadein G 0.4 2]
+[charaFadein F 0.4 0]
+＠イスカンダル
+おおう？　やはり既に戦いは始まっていた様子だな。[r]いささか我らは遅参のようだぞ。坊主。
+[k]
+
+[charaFace G 1]
+＠ウェイバー
+あれ？　おかしいな。[r]てっきり僕らが一番乗りだと思ってたのに。
+[k]
+
+＠マシュ
+あ、あれは！
+[k]
+
+＠フォウ
+フォ～ウ！
+[k]
+
+？1：ものすごく見覚えのある顔だ！
+？2：なんか状況がややこしい事に！
+
+？！
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ですよね。サーヴァントはおそらくライダーですが、[r]あのマスターは……。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_4 1.5]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エルメロイ
+何が一番乗りだこのたわけ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFace G 0]
+[charaFadein D 0.1 2]
+[charaFadein G 0.1 0]
+＠エルメロイ
+この場所を突き止めたのがいかに稚拙な方法だったか、[r]貴様自身がよく理解していたはずだろう！
+[k]
+
+＠エルメロイ
+あんなんで他の一流のマスターを出し抜けるものと、[r]まさか本気で思っていたのか？
+[k]
+
+[charaFace G 2]
+＠ウェイバー
+な、な、何だよオマエ！　いきなり何の話を……。
+[k]
+
+[charaFace D 2]
+＠エルメロイ
+今回に限らず後にも先にも、貴様はことごとく幸運に[r]恵まれ、状況を切り抜けてきたにすぎん！
+[k]
+
+＠エルメロイ
+なのにたまたま結果が伴ったというだけで[r]自らの実力を過信するその甘さ！
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+そんなザマだから貴様には進歩がないのだ！[r]自覚がないわけでもなかろう！　あん！？
+[k]
+
+[charaFace G 2]
+＠ウェイバー
+ちょっと待てよ！[r]なんで出会い頭にボクが説教されなきゃならないんだよ！
+[k]
+
+＠ウェイバー
+いったい誰だよオマエ！　子供を攫ったキャスターと[r]そのマスターって、おまえらじゃないのかよ！？
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+大馬鹿者！　まともな状況観察もできんのか！[r]それでよくもまぁのほほんと聖杯戦争に……。
+[k]
+
+[charaFace D 2]
+＠エルメロイ
+ああもうッ！　馬鹿！　馬鹿！　マジ大馬鹿！[r]鰻玉丼食べ過ぎて死ね！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+……なんでしょう……ロード・エルメロイさん、[r]困った方向にスイッチが入ってしまったようです……。
+[k]
+
+＠フォウ
+フォ～ウ……。
+[k]
+
+？1：誰しも自分の黒歴史は我慢ならないものだよね
+？2：面白いからしばらく見てよう
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace D 5]
+[charaFace G 7]
+[charaFadein D 0.1 2]
+[charaFadein G 0.1 0]
+＠ウェイバー
+こ、このッ！　いったい何様のつもりだよ！[r]大体オマエのステータス、どう見たってキャスターだろ？
+[k]
+
+＠ウェイバー
+オマエが聖杯戦争そっちのけで悪さをしてるのは[r]監督役が突き止めてるんだぞ！
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+ブルシット！　ステータスの透視が出来てるのなら私が[r]疑似サーヴァントだという事ぐらい気付けこのトンチキ！
+[k]
+
+[charaFace D 7]
+＠エルメロイ
+ああ情けない！　おまえなんぞの手に刻まれた令呪が[r]勿体なくて泣けてくる！
+[k]
+
+[charaFace G 3]
+＠ウェイバー
+な、な、な……何だよ疑似何とかって？
+[k]
+
+
+[charaFace G 2]
+＠ウェイバー
+だってキャスターのクラスが他に二人も三人も[r]いるなんて変だろ！　聞いてないぞ！
+[k]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 -900,0]
+[charaMove F 0 0.5]
+[charaMove G 2 0.5]
+[charaMove D 900,0 0.5]
+[wait charaMove]
+[charaFadeout D 0.1]
+[seStop ad60]
+
+＠イスカンダル
+まぁ待て坊主、そいつのクラスがキャスターであれ[r]何であれ、少なくともこの工房の主ではあるまいさ。
+[k]
+
+[charaFace G 1]
+＠ウェイバー
+え？　な、何で？
+[k]
+
+＠イスカンダル
+ここに残された痕跡を見るに、だな。どっちも地勢を[r]利用しとらんし周囲の被害を憚ってもいない。
+[k]
+
+＠イスカンダル
+こりゃ攻めた守ったの戦闘じゃない。[r]逃げようとした奴と、それを阻んだ奴の戦いの跡だ。
+[k]
+
+＠イスカンダル
+故に、我らと入れ違いに逃げたのも、今ここに居残ってる[r]連中も、我らが狙った相手とは違う。また別口だ。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+うむ、流石は征服王の戦略眼だ。[r]一を見て十を読み取るとは。
+[k]
+
+＠イスカンダル
+それはそうとしてそこの[#顰:しか]めっ面よ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+
+[charaFace D 0]
+＠エルメロイ
+な、何……かね？
+[k]
+
+＠イスカンダル
+さっきからやけにうちの坊主に[r]因縁をつけたがっとる様子だが。
+[k]
+
+[charaFace F 1]
+＠イスカンダル
+それはつまりこの征服王と[r]一戦交えようって覚悟なわけか？
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+な、何でそうなる？　貴方だってどちらの言い分が[r]間違っているかの判断はついているだろうに！
+[k]
+
+[charaFace F 0]
+＠イスカンダル
+それはそれとしてこの坊主は余のマスターなのでな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[wt 0.2]
+[charaScale F 1.2]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0,-50]
+＠イスカンダル
+喧嘩を売られたとあればサーヴァントとして[r]黙って見過ごすわけにもいかん。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.2]
+[charaScale F 1.0]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFace F 0]
+[charaFadein G 0.1 2]
+[charaFadein F 0.1 0]
+＠ウェイバー
+ライダー、おまえ……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace A 0]
+[charaFace D 5]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠エルメロイ
+くッ……それは……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+あの、ロード？[r]たしかライダーとは戦わない方針だったのでは……？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+……撤退しよう[%1]、[r]今ここでさらに事を荒立てるわけにはいかない。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace G 0]
+[charaFace F 4]
+[charaFadein G 0.1 2]
+[charaFadein F 0.1 0]
+＠イスカンダル
+なんだつまらん。[r]ちったぁ骨のある奴かと思ったのだがな。
+[k]
+
+＠エルメロイ
+……ッ！
+[k]
+
+[charaFace G 5]
+＠ウェイバー
+フン！　偉そうなこと言うだけ言って逃げんのかよ！[r]やーい腰抜け。
+[k]
+
+[charaFace F 5]
+＠イスカンダル
+こら調子に乗るな。
+[k]
+
+[charaMove F 1 0.2]
+[wait charaMove]
+
+[se ad76]
+[charaShake G 0.05 3 3 0.5]
+[charaFace G 4]
+
+[charaMove F 0 0.2]
+[wait charaMove]
+
+＠ウェイバー
+ギャワッ！！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[se bac2]
+[wait se bac2]
+[wt 0.5]
+
+？1：あの軟弱ボーイ、デコピン一発で……！
+？2：なんて儚い生き物……
+
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[wt 1.0]
+
+
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+＠エルメロイ
+あああ腹立たしい！　マスターの諍いにサーヴァントが[r]口を出すなどと！　モンペか！　モンペなのか！
+[k]
+
+？1：落ち着きましょう先生
+？2：いやそれ何も間違ってないんじゃ？
+
+？！
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+しかしせっかく第三の保護対象だった[r]ライダーのサーヴァントと接触できたのに……。
+[k]
+
+＠Dr.ロマン
+あんな形で決裂してしまって良かったのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 2 5 0 4]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠エルメロイ
+構うものか！[r]どうせ真面目に戦うつもりなどない連中だ。
+[k]
+
+[charaFace D 6]
+＠エルメロイ
+放っておけば隠れ家で煎餅かじってビデオ見て[r]遊んでるだけだ！
+[k]
+
+＠Dr.ロマン
+いいのかなぁ……。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+どうやらライダー絡みはロード・エルメロイさんに[r]とって地雷案件みたいですね、先輩。
+[k]
+
+？1：困ったもんだね
+？2：こちらで何とかするしかないね
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい、わたしもそう思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

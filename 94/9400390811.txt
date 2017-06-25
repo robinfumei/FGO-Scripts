@@ -1,0 +1,423 @@
+＄94-00-39-08-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+[charaSet D 7003000 1 白龍馬]
+[charaSet E 99502600 1 マシュ]
+[charaSet F 98003000 1 Dr.ロマン]
+
+[scene 21101]
+
+[fadein black 2.0]
+[wait fade]
+
+[se ad31]
+[charaEffect E bit_talk_10]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠マシュ
+先輩……先輩……っ……！
+[k]
+
+[seStop ad31 1.0]
+
+？1：[line 3]マシュ！
+？2：[&ここだ:ここ]、ここに[&いる:いるよ]！
+？！
+
+[charaFace E 2]
+＠マシュ
+返事をしてください、先輩……！[r]こちら側の受信も出来ないなんて……っ……。
+[k]
+
+＠マシュ
+先輩、レイシフトのアンカーが届きました！[r]こちらへ、カルデアへ帰還できますっ！
+[k]
+
+[charaFace E 15]
+＠マシュ
+でもあと数分間しか、魔力を供給できません！[r]だから……どうか……っ……。
+[k]
+
+[charaFace E 14]
+＠マシュ
+帰ってきてください！[r][line 3]マスター！
+[k]
+
+？1：……っ……！
+？！
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaPut E 1200,1200]
+[charaEffectStop E]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠三蔵
+これは……御仏のお導き……[r]ううん、あなた自身の幸運かな？
+[k]
+
+[charaFace A 4]
+＠三蔵
+それとも……。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaPut F 1]
+[charaEffect F bit_talk_06]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+[line 3]頃合いか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace A 1]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+[charaFace C 0]
+＠沙悟浄
+三蔵法師よ。お[#主:ぬし]はこの[#彼岸:ひがん]に残り、[r]そしてまた新地へ旅立つのだな。
+[k]
+
+[charaFace A 0]
+＠三蔵
+[line 3]ええ。あなたの的確な助言に感謝を。[r]沙悟浄[line 3]李書文。
+[k]
+
+[charaFace A 1]
+＠三蔵
+あたしの知ってる沙悟浄に勝るとも劣らない[r]槍さばきでした。
+[k]
+
+[charaFace A 0]
+＠三蔵
+この旅であたしが大泣きしなかったのは、[r]貴方の冷静さがあったからです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[wt 0.5]
+
+[charaEffectStop F bit_talk_06]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect C flashErasure 1 2.0]
+[wait charaSpecialEffect C]
+[wait se ad52]
+[charaFadeout C 0]
+[wt 1.0]
+
+
+[charaEffect F bit_talk_06]
+
+[charaTalk B]
+[charaFace A 1]
+[charaFace B 1]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+次は僕だね。実をいえば、お師匠さまと[r]僕が信じる神は異なっているけれど。
+[k]
+
+[charaFace B 0]
+＠猪八戒
+人は神から機会を貰い、[r]人は人から多くを学ぶ。
+[k]
+
+[charaFace B 3]
+＠猪八戒
+なので、信じる神は違えどこれは有意義な経験だった。[r]得がたい経験をありがとう。
+[k]
+
+[charaFace B 0]
+＠猪八戒
+ああ、僕が今回ためこんだ財宝はきちんと[r]お師匠さま名義で貯金してある。
+[k]
+
+[charaFace B 1]
+＠猪八戒
+再会がかなったら、その時は僕から[r]盛大なお祝いをさせてもらうよ、ブヒ。
+[k]
+
+[charaFace A 0]
+＠三蔵
+ええ、楽しみにしているわ。[r]猪八戒[line 3]恐るべきダビデ王。
+[k]
+
+[charaFace A 1]
+＠三蔵
+どんな[#窮地:きゅうち]、どんな状況にあろうとも、[r]慌てず、腐らず、軽快にこなしていく。
+[k]
+
+＠三蔵
+貴方の在り方は真似できないけど、[r]ピンチの時は貴方の顔を思い出させていただきます。
+[k]
+
+[charaFace A 0]
+＠三蔵
+どんな時もヘンなキャラ付けを崩さなかった、[r]欲望まみれの猪八戒。
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+[charaEffectStop F bit_talk_06]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect B flashErasure 1 2.0]
+[wait charaSpecialEffect B]
+[wait se ad52]
+[charaFadeout B 0]
+[wt 1.0]
+
+[charaEffect D bit_talk_06]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！☆
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠三蔵
+ええっと？　う、うん、そうね？[r]うんうん！（よくわからないが猛烈な握手）
+[k]
+
+[charaFace A 1]
+＠三蔵
+乗り心地は最高でした！[r]次は[#鞍:くら]を用意しておきますね！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1]…………。
+[k]
+
+[charaEffectStop D bit_talk_06]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 1 2.0]
+[wait charaSpecialEffect D]
+[wait se ad52]
+[charaFadeout D 0]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠三蔵
+それ、と……。
+[k]
+
+[charaFace A 1]
+＠三蔵
+もし未来に、御仏の導きを得て、[r]サーヴァントとして[#顕現:けんげん]することあらば……。
+[k]
+
+＠三蔵
+[%1]？[r]また[&きみ:あなた]を、あたしの弟子にしてあげるわ。
+[k]
+
+？1：その時はまた一番弟子に、お師さん！
+
+[charaFace A 0]
+＠三蔵
+ええ～～？[r]それは、ずうずうしくない？　あははっ。
+[k]
+
+[charaFace A 1]
+＠三蔵
+どうせ[&きみ:あなた]、大切な人が[r]カルデアに幾人もいるんでしょう？
+[k]
+
+＠三蔵
+人類存続を[#担:にな]う、素敵な未熟者としては[r]そのくらいの[#役得:やくとく]はありかもね。
+[k]
+
+
+？2：その時はマスターと呼んでほし[&い:いな？]
+
+[charaFace A 3]
+＠三蔵
+それはぁ……えーと、まあ、[r][&きみ:あなた]が日々積み重ねた[#功徳:くどく]、次第です。
+[k]
+
+？！
+
+[charaFace A 0]
+＠三蔵
+……だから、さようならは言わないわ。[r]代わりにありがたいお経を[#唱:とな]えてあげる。
+[k]
+
+＠三蔵
+[&きみ:あなた]が[#無病息災:むびょうそくさい]でありますように、ね？[r][line 3][charaFace A 1]オホン！
+[k]
+
+[charaFace A 2]
+＠三蔵
+[#觀自在菩薩:カンジザイボサツ]。[#行深般若波羅蜜多時:ギョージンハンニャハラミッタジ]。[#照見五蘊皆空:ショーケンゴウンカイクー]。[#度一切:ドイッサイ][r][#苦厄:クヤク]。[#舍利子:シャリシ]。[#色不異空:シキフイクー]。[#空不異色:クーフイシキ]。[#色即是空:シキソクゼクー]…………。
+[k]
+
+？1：[&また会おう:またね]、お師さん！
+？2：お経ＥＮＤはちょっと……
+
+？！
+
+[messageOff]
+[charaFace A 1]
+[wt 1.0]
+
+
+[bgmStop BGM_EVENT_6 2.0]
+[fadeout white 2.0]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 10000]
+[wt 0.1]
+[fadein white 0.1]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+
+
+[scene 10201]
+
+[wt 2.0]
+
+[charaSet E 98001000 1 マシュ]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFace F 0]
+[charaFadein E 0 2]
+[charaFadein F 0 0]
+
+[bgm BGM_EVENT_2 0.1]
+[fadein white 1.0]
+[wait fade]
+[wt 0.5]
+
+＠マシュ
+先輩……っ……！[r]よかった……！
+[k]
+
+
+[messageOff]
+[se bac109]
+[scene 10203 0.2]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠Dr.ロマン
+おおっと……[r]いやあ、間一髪。間一髪。
+[k]
+
+[charaFace F 4]
+＠Dr.ロマン
+もし失敗したら、マシュに[r]マッシュマシュにされるところだった。
+[k]
+
+[charaFace F 0]
+＠Dr.ロマン
+ダ・ヴィンチちゃんの[#工房:ラボ]の方にも、[r]一緒に巻き込まれた誰かが戻ってるかな？
+[k]
+
+[charaFace F 5]
+＠Dr.ロマン
+よーし今から一言、[r]画伯に文句を言いに行こう！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+
+＠マシュ
+はぁぁ……[r]それより、ちょっとお茶にしませんか……？
+[k]
+
+＠マシュ
+経典の巻物と一緒に、[r]貴重な中国茶が見つかったのだそうです。
+[k]
+
+[charaFace E 0]
+＠マシュ
+それがなんていうか……[r]『[%1]最西縁記』という名だそうで。
+[k]
+
+[charaFace E 1]
+＠マシュ
+いったいどんな冒険があったのか。[r]それをゆっくり話すには[#丁度:ちょうど]いい[#逸品:いっぴん]かと。
+[k]
+
+？1：[&ああ:うん]、任せて
+？2：喜んで
+
+？！
+
+[messageOff]
+[charaFace E 13]
+[wt 0.5]
+
+[messageOff]
+[fadeout black 4.0]
+[bgmStop BGM_EVENT_2 4.0]
+[wait fade]
+[soundStopAll]
+[end]

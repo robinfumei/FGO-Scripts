@@ -1,0 +1,218 @@
+
+＄94-00-58-29-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 4024000 1 モードレッド]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+うむ。ここをこうすると[line 2]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+跳ね橋が上がっていきます。[r]ちゃんと動作しますね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+これで防衛は完璧です。橋というのは要所ですから。[r]備えはきちんとしておくべきです。
+[k]
+
+？1：なんか痛い目を見た記憶でも……？
+？！
+
+[charaFace B 4]
+＠アルトリア
+それはもう、いくらでも。[r]私の時代にも敵は大勢いましたから。
+[k]
+
+[charaFace B 5]
+＠アルトリア
+襲い来るピクト人にサクソン人、混乱に乗じて暴れ出す[r]野盗、反乱軍……。
+[k]
+
+[charaFace B 4]
+＠アルトリア
+泣く泣く自分達で橋を落としたことも数知れず、です。[r]撃退したあとの修繕作業が虚しいことと言ったら……。
+[k]
+
+[charaFace B 0]
+＠アルトリア
+しかし跳ね橋ならばそんな心配もありませんね。
+[k]
+
+＠アルトリア
+できたてですから傷一つついていませんし。[r]美しい……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[bgmStop BGM_EVENT_28 1.5]
+
+＠マシュ
+……？　先輩、何か音が聞こえませんか？[r]この川の上流から……。
+[k]
+
+[se ad36]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[shake 0.2 0 4 0]
+[charaBackEffect C bit_talk_41_black_in]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+うおー、たまには川下りも楽しいな！
+[k]
+
+＠モードレッド
+って、なんだあの橋！　[r]やべえ、チクショウ、こうなったら[line 2]
+[k]
+
+[messageOff]
+[se ad85]
+[shakeStop]
+[charaFadeout C 0.1]
+[charaPut C 1200,1200]
+[charaBackEffectStop C]
+[wt 0.8]
+[se bac128]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……！
+[k]
+
+[bgmStop BGM_EVENT_3 1.5]
+[se ad36]
+[wt 0.5]
+
+＠マシュ
+ジャンプして、橋の上を滑って……そのまま[line 2][r]また川に着水です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+[bgm BGM_EVENT_7 0.1]
+
+＠モードレッド
+うっひょー！　[r]あ、マスターにマシュに……[charaFace C 2]父上ぇえ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+は、橋に、長ーい傷が……プリドゥエン負けして……！
+[k]
+
+[charaFace B 5]
+＠アルトリア
+モードレッド卿。たった今貴殿が削ったその橋は。[r]作ったばかりの新品だと、理解しているか[line 2]？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+ち、違ぇし、わざとじゃねぇし！
+[k]
+
+＠モードレッド
+……ば、バーカバーカ！
+[k]
+
+＠モードレッド
+知らねぇよそんなに大事ならガラスケースにでも入れて[r]ろバーカ…………[fontSize small]父上ごめんなさーい……。
+[k]
+[messageOff]
+[charaFadeout C 0.4]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+マスター。宝具の真名解放の許可を。
+[k]
+
+
+？1：親子喧嘩はほどほどにね……
+？！
+
+[charaFace B 5]
+＠アルトリア
+何の話ですか、マスター。親子喧嘩などしていません。
+[k]
+
+＠アルトリア
+私は、できたばかりの橋に傷をつけた流木的な何かに[r]オシオキをしようとしているだけです。
+[k]
+
+[charaFace B 6]
+＠アルトリア
+さあ許可を。今ならまだ射程内です。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+…………。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

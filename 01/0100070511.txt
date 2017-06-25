@@ -1,0 +1,140 @@
+
+
+
+＄01-00-07-05-1-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 4014000 1 牛若丸]
+[charaSet D 3006001 1 弁慶]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 32900]
+[fadein black 1.5]
+[wait fade]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 2]
+[charaFadein D 0.4 0]
+
+
+＠牛若丸
+お見事！　これほどの腕前であれば、[r]ウルに何が待ち受けていようと切り抜けられましょう。
+[k]
+
+[charaFace D 1]
+＠弁慶
+そうですな。[r]我らも安心して送り出せるというもの。
+[k]
+
+[charaFace D 0]
+＠弁慶
+ですが、くれぐれもご用心を。あの密林に向かって[r]帰らなかったのは兵士だけではありませぬ。
+[k]
+
+＠弁慶
+ギルガメッシュ王が召喚した他の英霊、[r]天草四郎、風魔小太郎の二名も帰らなかったのです。
+[k]
+
+[charaFace C 4]
+＠牛若丸
+天草殿と小太郎殿か……ツインアーム・ブリゲイドなら[r]あるいは、と思いましたが……
+[k]
+
+？1：王様、他にも召喚してたんだ！？
+？2：日本勢ばっかりなんだね
+
+？！
+
+[charaFace D 4]
+＠弁慶
+その通り。他に鬼[#茨木:いばらき]、巴御前もおられました。[r]茨木めは離反していずこかに消えましたが、
+[k]
+
+＠弁慶
+巴御前は魔獣たちを統括していた[#将軍:リーダー]、[r]ギルタブリルと相打ちになってしまい……
+[k]
+
+[charaFace C 5]
+＠牛若丸
+茨木めはこの土地でも盗賊団を組織する、などと[r]ほざいた故、ちょっと脅かしたら逃げ出したのです。
+[k]
+
+＠牛若丸
+見つけ次第、源に連なる者として、[r]責任持って私が首を斬り飛ばします。
+[k]
+
+[charaFace C 3]
+＠牛若丸
+……まあ、あの鬼の事ですから、[r]廃墟で息巻いているのが関の山でしょうが。
+[k]
+
+？1：色々あったんだね……
+？2：茨木童子……出会う事はないだろうな……
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マーリン
+挨拶は済んだかな？[r]そろそろ行くけど、構わないかい？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ、はい！　いまそちらに！
+[k]
+
+＠マシュ
+牛若丸さん。弁慶さん。ありがとうございました。[r]お二人の気遣い、確かに受け取りました。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+
+＠牛若丸
+こちらこそ山育ち故、無骨な祝いしかできず。[r]ですが良い、充実した戦いでございました。
+[k]
+
+＠牛若丸
+お帰り、お待ち申し上げます。[r]留守中、ウルクの護りはお任せあれ。
+[k]
+
+？1：ありがとう。それじゃあ、行ってきます！
+？！
+
+[messageOff]
+[charaTalk off]
+[wt 0.4]
+[charaFace C 1]
+[charaFace D 1]
+[charaMoveReturn C 256,-5 0.4]
+[charaMoveReturn D -256,-5 0.4]
+[wt 1.0]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.2]
+[soundStopAll]
+[end]
+

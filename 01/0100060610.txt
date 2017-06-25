@@ -1,0 +1,224 @@
+＄01-00-06-06-1-0
+
+[soundStopAll]
+[se ad14]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98015000 1 ？？？]
+
+[scene 28800]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+よし、砂丘を越えるぞ！[r]各自、ジャンプによる着地の衝撃に備えて！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+アクセル全開……！[r]飛びます、先輩！
+[k]
+
+[messageOff]
+[shake 0.05 0 4 0]
+[charaFadeout A 0.1]
+
+[effect bit_talk_41]
+[wt 1.0]
+[wt 0.2]
+[se ad7]
+[wipeout downToUp 0.2 0.5]
+[wait wipe]
+[seStop ad14]
+[se ad68]
+[shakeStop]
+[effectStop bit_talk_41]
+[scene 20320]
+[wt 0.3]
+[wipein upToDown 0.2 0.5]
+[wait wipe]
+[wt 1.5]
+[wipeout upToDown 0.15 0.5]
+[wait wipe]
+[scene 28400]
+[wipein downToUp 0.1 0.5]
+[wait wipe]
+[se ad74]
+[shake 0.05 0 6 0.4]
+[seStop ad74 1.0]
+[wt 1.5]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[wt 0.4]
+＠マシュ
+[line 3]これが、十三世紀の中東……？
+[k]
+
+[charaFadeout A 0.4]
+
+[messageOff]
+[wt 1.0]
+[cameraMove 1.0 -100,-0 1.25]
+[wait camera]
+[wt 1.0]
+[cameraMove 2.0 100,0 1.25]
+[wait camera]
+[wt 1.0]
+[cameraMove 1.0 0,0 1.0]
+[wait camera]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+気温48度、相対湿度０パーセント、[r]大気中の魔力密度0.3ミリグラム……
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+…………酷い有様だ。[r]とても人間の生きられる環境じゃない。
+[k]
+
+＠ダ・ヴィンチ
+砂漠の砂嵐も酷かったけど、こっちも同じぐらいに酷い。[r]……私の予想通りになってしまったな。
+[k]
+
+？1：予想通り……？
+？2：どういう事……？
+
+？！
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+これが魔術王の仕事、という事だよ。[r]魔術王は[#人理定礎:じんりていそ]を[#乱:みだ]す事で特異点を生み出した。
+[k]
+
+＠ダ・ヴィンチ
+その結果、人類史は不安定になり、魔術王は過去に[r]渡るまでの一切を燃やす、という偉業を行った。
+[k]
+
+＠ダ・ヴィンチ
+逆に言えば特異点にだけは人理焼却の波はこない、[r]という事だったんだが……
+[k]
+
+＠ダ・ヴィンチ
+ここまで人理定礎が乱れると、[r]特異点であれ例外はないんだろう。
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+結論から言うと、この大地はじき燃え尽きる。[r]オジマンディアス王が聖杯を使わない理由もそれだ。
+[k]
+
+＠ダ・ヴィンチ
+だってそうだろう？[r]聖杯を使うまでもなく、この大地は滅び去るんだから。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+そんな……いったい、この時代に何が……
+[k]
+
+[wt 0.2]
+[bgmStop BGM_EVENT_5 0.4]
+[charaTalk D]
+[se ad160]
+[seStop ad160 1.5]
+[wait se ad160]
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 15]
+＠マシュ
+……！[r]先輩、囲まれています！　あれは……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+食べ物……食べ物だ。
+[k]
+
+＠？？？
+水もあるぞ……うまそうな女もいるぞ……
+[k]
+
+＠？？？
+ヒヒ……太陽王の人食い獣どもから[r]逃げてきたんだろうなぁ……ヒヒ、ヒヒヒヒ！
+[k]
+
+＠？？？
+ありがてぇ……ありがてぇ……[r]オレのために生き延びてくれてありがてぇ……！
+[k]
+
+＠？？？
+殺せ、殺せ……！[r]肉だ、肉だ、肉だ[line 4]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+そんな……この人たち、人間です！[r]サーヴァントでも、幻像でもありません……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+……マシュ、[%1]。[r]峰打ちをしてもいいけど、それは可能な範囲でだ。
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+……彼らは半ば[#屍鬼:グール]化している。[r]ああなってしまったらヒトはもうダメだよ。
+[k]
+
+＠ダ・ヴィンチ
+[#憎:にく]み、[#妬:ねた]み、[#傷:きず]付ける事でしか生きられない。[r]生きてたってそう長くはない。
+[k]
+
+＠ダ・ヴィンチ
+ココはそういう時代になってしまっている。[r]そして私たちは、そういう時代を拒絶する為に来た。
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+であれば剣を取りなさい、マスター。[r]童貞は、ここで捨てる時だ。
+[k]
+
+
+
+[wt 0.2]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

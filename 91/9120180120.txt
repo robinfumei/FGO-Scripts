@@ -1,0 +1,680 @@
+＄91-20-18-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 2018001 1 子ギル]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98006000 1 エネミー]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠子ギル
+というわけで、ですね。
+[k]
+
+＠子ギル
+マシュお姉さんは素材は抜群ですが、[r]いささか勿体ない部分があります。
+[k]
+
+[charaFace C 1]
+＠子ギル
+そんなマシュお姉さんのために一肌脱がせてください。[r]ぜひ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+は……はあ……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+よくわからないんだけど、いきなりこんな海岸に[r]来たのはそれが理由なのかな。具体的には何を？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+そうですね。[r]やっぱり、まずはその格好だと思うんですよ。
+[k]
+
+＠子ギル
+いつも無骨な鎧姿というのはどうかと。せっかくの[r]可憐さを錆び付かせかねません。
+[k]
+
+＠子ギル
+たまにはもっと女性らしい格好をしてもいいはずです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+女性らしい、ですか？[r]カルデアの制服は女性用ですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+あれはダメです。ノーカウントです。[r]大量生産品はＮＧ。できればワンオフものがい[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 2]
+＠ダ・ヴィンチ
+グラッツェ！[r]グラッツェモ[line 4]ルト！
+[k]
+
+[communicationCharaClear]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ダ・ヴィンチちゃん！？[r]回線に割り込むのはやめてくれないかな！？
+[k]
+
+[communicationCharaClear]
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 5]
+＠ダ・ヴィンチ
+ロマンは黙ってて。[r]そしていま子ギルくんがいいコト言った！
+[k]
+
+＠ダ・ヴィンチ
+そう、実は私も前から思っていたんだ。[r]マシュは勿体ないことをしてるなあ、と！
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチ
+言うまでもないが、美の追究において[r]服装は切っても切れない構成要素だ。
+[k]
+
+＠ダ・ヴィンチ
+だって私がそうだし。この服も当然ワンオフ、[r]私が一からデザインしたものだ。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+いやまあ、私に性別はないっていうか、[r]性別・モナリザなワケだからそれは置いておいて。
+[k]
+
+＠ダ・ヴィンチ
+どのような環境であれ、文化圏において[r]服装を気にしない女性などいる筈がない。
+[k]
+
+＠ダ・ヴィンチ
+私にはわかるよ、マシュ。そんな興味がないふりをして[r]おいて、本当はずっと悩んでいたんだろう？
+[k]
+
+[communicationCharaFace 4]
+＠ダ・ヴィンチ
+辛かったね……だが大丈夫だ。[r]私は美を追究する者全ての味方だよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……あの、ですから、わたしは[line 2]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 2]
+＠ダ・ヴィンチ
+うん！　というワケでぇ、[r]私も子ギルくんの意見には全面的に賛同さ！
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+記録、分析、アレンジ、助言、履歴書を作成しての[r]芸能事務所オーディション応募[line 2]
+[k]
+
+[communicationCharaFace 2]
+＠ダ・ヴィンチ
+このレオナルド・ダ・ヴィンチが芸術家としての全力を[r]もってバックアップすると約束しよう！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠子ギル
+なんだか心強い味方ができたみたいですね。[r]ありがとうございます、綺麗なダ・ヴィンチお姉さん。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 1]
+＠ダ・ヴィンチ
+おお……さすが英雄王、確かな目をお持ちだ。[r]キミ、大人になるより子供の方がイケてるんじゃない？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠子ギル
+ははは。それは言わない約束でお願いします。
+[k]
+
+＠子ギル
+話を戻しましょう。[r]今回は最初ですし、丁度場所も場所なので[line 2]
+[k]
+
+
+[charaMove C -400,0 1.0]
+[wt 1.0]
+
+[charaMove E -650,0 0]
+[charaEffect E bit_talk_36]
+[wt 0.25]
+[se bac24]
+[wt 1.5]
+[charaEffectStop E bit_talk_36]
+
+[charaMove C 0,0 1.0]
+[wt 1.0]
+
+＠子ギル
+[#これ]をマシュお姉さんに着てもらおうかな、と。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 1]
+＠ダ・ヴィンチ
+ほう、水着！　確かに海の美といえば水着だね！
+[k]
+
+[communicationCharaClear]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+サラッとやったけど、なんだか今、目の前で凄い宝具の[r]無駄遣いが行われたような……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+気にしないでください、ボクは気にしませんから。[r]さあ、マシュお姉さん。これを。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+これを、と言われましても[line 2]！？
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの、その……先輩。[r]先輩は、どう思われますか……？
+[k]
+
+？1：正直、凄く見てみたい
+？2：きっと似合う絶対似合う海最高！
+
+？！
+
+[charaFace A 3]
+＠マシュ
+先輩……
+[k]
+
+[charaFace A 11]
+＠マシュ
+……はい。わかりました。[r]着替えてきますから、少し待っていてください。
+[k]
+
+＠Dr.ロマン
+おお！
+[k]
+
+[messageOff]
+[charaTalk A]
+[wt 0.1]
+[charaMove A 250,0 0.4]
+[charaFadeout A 0.4]
+
+[wt 1.0]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 5]
+＠ダ・ヴィンチ
+ロマニ。[r]先に言っておくけど、記録権は私に譲りなさい。
+[k]
+
+＠ダ・ヴィンチ
+男性のキミがマシュのあられもない水着姿を余すところ[r]なく記録するのは、いささか倫理的な問題がある。
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチ
+しかし、その点この私なら安心さ！[r]純粋な美の対象として観察保存できるのだから！
+[k]
+
+[communicationCharaClear]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+（うーん……ボクはマシュのお父さん的立場というか[r]　ドクターなワケで）
+[k]
+
+＠Dr.ロマン
+（マシュの肉体的成長には責任はあるけど、[r]　そこに関心はないんだけどなあ……）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+さて、マシュお姉さんが着替えに行っている間に、[r]少し真面目なお話をしましょうか。
+[k]
+
+＠子ギル
+彼女の危うさについてです。
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……危うさ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+ええ。さっきの戦いで観察していてわかりました。
+[k]
+
+＠子ギル
+彼女という花の可憐さは、容易く折れそうが故の可憐さ[r]なのかもしれません。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 5]
+＠ダ・ヴィンチ
+ふむ、どういうことかな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+彼女は[line 2]マスターを守ることを第一に考えている。[r][#第一に考えすぎている]。
+[k]
+
+[charaFace C 4]
+＠子ギル
+マスターが危機に陥ればその命を投げ出せるくらいに。[r]ですが……
+[k]
+
+[charaFace C 5]
+＠子ギル
+おそらく、[r]そこに戦士としての覚悟や経験がまったくない。
+[k]
+
+＠子ギル
+マシュには恐怖も戸惑いもある。[r]彼女はそれを克服せず、命を投げ出しています。
+[k]
+
+＠子ギル
+その在り方は、はたして正しいんでしょうか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 1]
+＠ダ・ヴィンチ
+[FFFFFF]？　別に問題ないじゃん。[-][r]というか、それって凄い美談じゃん。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+だって[%1][&君:ちゃん]への献身が[r]迷いや恐怖を上回っているってコトなんだし。
+[k]
+
+[communicationCharaFace 4]
+＠ダ・ヴィンチ
+イイナー。[r]私もそんな、頼れるボディガードに出会いたいナー。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠子ギル
+……はあ。やっぱり天才ってヤツはダメですね。[r]一般人の心情がまるでわかっていない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 5]
+＠ダ・ヴィンチ
+失礼な、わかってるとも。[r]マシュは我慢強く、誠実なサーヴァントだ。
+[k]
+
+＠ダ・ヴィンチ
+攻撃面では不安が残るけど、[%1][&君:ちゃん]に[r]とって最高の盾ってコトさ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠子ギル
+[line 3]。
+[k]
+
+[charaFace C 0]
+＠子ギル
+まあいいや。[r]それで、ドクターは？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うん？　ボクに何か？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+ドクターは、[r]マシュの在り方をどんな風にとらえているんですか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+えっと……さあ？[r]急に言われてもボクには分からないというか……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠子ギル
+ああ[line 3]やっぱり。[r]わかってやってるんですね、貴方は。
+[k]
+
+＠子ギル
+ならもうボクは指摘しません。[r]その怠惰の罪を貴方は最後にあがなうのでしょうし。
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace C 1]
+＠子ギル
+ま、いっか。とにかく、マシュお姉さんは[r]ちょっとサーヴァントによりすぎています。
+[k]
+
+[charaFace C 0]
+＠子ギル
+デミ・サーヴァントと言っても彼女は人間です。[r]その長所を眠らせておくのはもったいないと思うのです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 5]
+＠ダ・ヴィンチ
+ふむふむ。だからキミは彼女の女の子らしさを[r]引き出そうとしているのか。人間性の契機として。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+ええ。感情の発露は人間の強みですからね。[r]使わないのはもったいない。
+[k]
+
+＠子ギル
+まあ、単にボクが彼女の水着姿に興味があるだけですが。
+[k]
+
+[charaFace C 1]
+＠子ギル
+ふ……ボクの千里眼は誤魔化せません。[r]彼女はかなりの、そう、我が儘ボディと見ました！
+[k]
+
+[se ad27]
+[wait se ad27]
+[wt 0.4]
+
+＠子ギル
+おっと、そろそろマシュお姉さんが帰って[line 2]
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[wt 0.2]
+
+[bgmStop BGM_EVENT_2 0.4]
+[charaFilter E silhouette 00000000]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.4]
+[se ad21]
+[wt 1.2]
+[charaFadeout E 0.4]
+[wt 0.4]
+
+[wt 0.7]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+……あれ？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠マシュ
+大変、敵ですねっ！
+[k]
+
+[charaFadeout C 0.1]
+
+[messageOff]
+[se ad27]
+[wait se ad27]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 250,0]
+[charaMove A 0,0 0.4]
+
+[wt 1.0]
+[charaFadeout A 0.1]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠子ギル
+もう一回[line 2]あれれっ？[r]マシュお姉さん、水着は！？　ダイナマイトは！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 2]
+＠ダ・ヴィンチ
+そうだ、水着は！？　めくるめく美は！？[r]ダイナマイトは！？
+[k]
+
+＠ダ・ヴィンチ
+そしてそれに乗じて私も水着姿になって合法的に好感度[r]アップ、美の体現者としての存在感マシマシ！　ブラボー！
+[k]
+
+＠ダ・ヴィンチ
+という私の完璧な計画は！？
+[k]
+
+[communicationCharaClear]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そんなことを考えていたのか……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+あの水着……着替えようと思ってよく見たら、その、[r]とても着れるものではなくて、ですね[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠子ギル
+ああ……ボクの宝物庫に入ってるのは原典ですからね。[r]今風じゃなかったかな？
+[k]
+
+[charaFace C 4]
+＠子ギル
+それを見越して何種類か渡したんだけど。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+そ、そういう問題ではありません！
+[k]
+
+[charaFace A 11]
+＠マシュ
+どれも視覚的[#瑕疵:かし]があったというか……
+[k]
+
+＠マシュ
+全面的に紐だったりとか、半透明だったりとか、[r]上半身用がなかったりとか、
+[k]
+
+[charaFace A 2]
+＠マシュ
+あったとしても、か、貝殻だったりとか[line 2]！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠子ギル
+えー。いいじゃない、貝殻。[r]ボクは好きだなあ。特に、羞恥心で恥じらう姿とかが。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+天然なのか狙っているのか……と、とにかく今は[r]眼前の敵の排除が最優先だ！　みんな、頑張ってくれ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,588 @@
+
+＄01-00-05-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 7020000 1 クー・フーリン・オルタ]
+[charaSet B 4013001 1 メイヴ]
+[charaSet C 3011001 1 フィン]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 1014001 1 フェルグス]
+
+[scene 20903]
+[fadein black 2]
+[wait fade]
+
+[wt 0.2]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+＠メイヴ
+へーえ。それで逃げ帰ってきたの。[r]だらしないわねえ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フィン
+はっ。申し訳ありません。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠メイヴ
+ねえ、クーちゃん。[r]どうしようか、こいつら。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+……ん？[r]ああ、別に。どうでもいい。
+[k]
+
+＠クー・フーリン・オルタ
+ガキじゃねえんだ、二度の失敗は許す。[r]まだ一度目だ。次までは好きに動けばいい。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+だが、三度から先はねえ。[r]くだらねえ手間だけは取らせるなよ？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+了解しました。[r]ではディルムッド、行くとしよう。
+[k]
+
+＠ディルムッド
+はっ。
+[k]
+
+[se ad60]
+[seStop ad60 3.0]
+[charaFadeout D 0.7]
+[charaFadeout C 0.7]
+[wt 3.0]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠メイヴ
+あまーい。ああいうのは、厳しく躾けてしまわないと[r]いけないのよ、クーちゃん。
+[k]
+
+＠メイヴ
+もっとアニマルにならないと。アニマルに。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+たわけた事を。獣の流儀なら死ぬまで自由だろうがよ。[r]あいにくこちらは王様だ。
+[k]
+
+＠クー・フーリン・オルタ
+一度目の油断は許す、二度目の惜敗は讃える、[r]三度目の敗北は弱者に甘んじる覚悟だ。
+[k]
+
+＠クー・フーリン・オルタ
+それは、要らん。
+[k]
+
+[wt 0.4]
+
+[messageOff]
+[charaTalk E]
+
+[se ad45]
+[wait se ad45]
+
+
+[wt 0.4]
+＠E：？？？
+闇に堕ちてなお、らしい見解だな。[r]敵に対する苛烈さは、おぬしらしからぬものだが。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+……アンタか。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠E：？？？
+呼んだのはおぬしだろう？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠メイヴ
+いいえ、私かしら。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+おお、メイヴか。どうした、夜伽の相手にでも[r]困っているのか？　ならば喜んで引き受けよう。
+[k]
+
+＠メイヴ
+いいえ、全然困ってないから安心なさって。[r]実は、先ほどの報告で確認されたの。
+[k]
+
+＠メイヴ
+この世界を修正するサーヴァントが現れたみたいよ。[r]つまり、この国を元に戻そうとする敵かしら。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+ふむ、剛胆なり。フィン・マックールと[r]ディルムッド・オディナが遭ったのはそれか。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+暇ならアンタが行け。[r]それなりの敵だ、退屈はしないだろう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：？？？
+おう、一人でか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠メイヴ
+違いますわ。彼らは合流しようとしているみたい。[r]そこで、先回りしてサーヴァントたちを[line 2]
+[k]
+
+[charaFace E 5]
+＠E：？？？
+ははあ、なるほど。一つの集団となる前に、[r]各個撃破するという訳か。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+承った。[r]その程度なら楽にこなせる。
+[k]
+
+[charaFace B 1]
+＠メイヴ
+ありがと、フェルグス。[r]帰ってきたら一晩相手してあげようかしら？
+[k]
+
+[charaFace E 4]
+＠フェルグス
+[line 2]ふむ、いやいや。[r]それはやはり止めておこう。
+[k]
+
+＠フェルグス
+折角取り戻した第二の生、貪欲に過ごすのもいいが[line 2][r]たまには禁欲的なのもよかろう。
+[k]
+
+[charaFace E 5]
+＠フェルグス
+[#戦うことに全精力を傾ける]。[r]昂ぶる獣性の赴くままにな。
+[k]
+
+＠フェルグス
+おぬしはそう思わんのか？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+[line 2]くだらん。殺せば終わる戦いなんぞに[r]いちいち執心していられるか。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+オレの戦いはこの国を平らげる事だ。[r]雑兵との小競り合いは作業にすぎない。
+[k]
+
+＠クー・フーリン・オルタ
+オレはオレの役割を全うするだけだ。[r]死ぬまでに、この国を無人の荒野に変えてやる。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠フェルグス
+ふむ……そのわりにはおぬし……
+[k]
+
+[charaFace E 0]
+＠フェルグス
+いや、言うまい。親しき仲にも、というヤツよ。[r]では[#女王:クイーン]。これにて失礼！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠メイヴ
+頑張ってね。[r]愛しているわ、フェルグス♪
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠フェルグス
+フッ。おぬしは女として体以外ことごとく最悪だが、[r]男を見る目だけは最高だ！
+[k]
+
+[charaFadeout E 0.4]
+
+[se ad45]
+[seStop ad45 0.7]
+[wait se ad45]
+[se ad35]
+[wait se ad35]
+
+[wt 1.0]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠メイヴ
+さて。向こうはどう出るかなあ？[r]相手はラーマとジェロニモだっけ？
+[k]
+
+＠クー・フーリン・オルタ
+それに、例の連中だ。
+[k]
+
+＠クー・フーリン・オルタ
+執念か、使命感か、あるいはそれ以外に何も無いのか。[r]……いずれにせよ、つまらねぇことになりそうだ。
+[k]
+
+[charaFace B 4]
+＠メイヴ
+クーちゃん、すっかり変わっちゃったわね。[r]風格が出てきたかしら。
+[k]
+
+＠クー・フーリン・オルタ
+……オレはオレだ。[r]どんな人間にも、戦気を失う瞬間がある。
+[k]
+
+＠クー・フーリン・オルタ
+今は単に、そういう状態なんだろうよ。
+[k]
+
+＠メイヴ
+そうね。[r]充実した戦いと愛を求め焦がれる獣のような貴方。
+[k]
+
+＠メイヴ
+戦いに飽いて、[r]淡々と物事を処理する幽鬼のような貴方。
+[k]
+
+＠メイヴ
+サーヴァントとして召喚されたとき[r]どちらの面が現れるかは運次第。
+[k]
+
+[charaFace B 0]
+＠メイヴ
+もっとも、貴方は私が作ったようなものだけど。[r]こんなに相性がいいなんて、思いもしなかったわ。
+[k]
+
+[charaFace B 3]
+＠メイヴ
+もちろん、私はどちらのクーちゃんも愛しているのよ。[r]本当に、本当に[line 2]愛しているわ。
+[k]
+
+[charaFace A 4]
+＠クー・フーリン・オルタ
+うるせえ、面倒臭い。
+[k]
+
+＠メイヴ
+[line 2]意地が悪いのね、貴方。[r]ふふふ。
+[k]
+
+[charaFace B 0]
+＠メイヴ
+さてさて。[r]アメリカ東部は既に半ば陥落。
+[k]
+
+＠メイヴ
+ジョージ・ワシントンは討ち取ったし、[r]アメリカという国家を担うメンバーの大部分は抹殺したわ。
+[k]
+
+[charaFace B 4]
+＠メイヴ
+これで終わり……と思ったんだけど。[r]まさか西部を纏めてこちらに対抗するとはね。
+[k]
+
+＠メイヴ
+エジソンって言ったかしら。[r]人間のクセにここまでするなんて、正直予想外。
+[k]
+
+＠メイヴ
+ま、いちばん不味いのは向こうに[r]カルナがついちゃったコトだけど。
+[k]
+
+＠クー・フーリン・オルタ
+……間抜け。[r]そういうのは小さい内に刈り取れっつっただろ。
+[k]
+
+＠メイヴ
+だからって、高々「発明王」がここまでするとは[r]思わないわよ！
+[k]
+
+＠メイヴ
+どうもアイツ、何かしらの後押しを受けている気が[r]するのよね。聖杯以外の何か。
+[k]
+
+[charaFace B 4]
+＠メイヴ
+そうでなくちゃ、[r]ここまで対抗できることへの説明がつかない。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+……ふん。そりゃあきな臭いな。
+[k]
+
+＠クー・フーリン・オルタ
+いいだろう。そのうち仕留めに行く。[r]準備はしておけ。
+[k]
+
+[charaFace B 0]
+＠メイヴ
+ええ、もちろん。
+[k]
+
+[charaFace B 1]
+＠メイヴ
+さあ、クーちゃん。[r]夢を見ましょう、悪夢のように楽しい夢を。
+[k]
+
+＠メイヴ
+目覚めれば、きっとまた何かが起こっているわ。[r]それが慶事だといいコトね[line 2]ふふふ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5016001 1 ジェロニモ]
+[charaSet C 2010001 1 ビリー]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 7014001 1 ナイチンゲール]
+[charaSet F 1019001 1 ラーマ]
+
+[scene 20720]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+＠ロビンフッド
+……あー、憂鬱だわ。[r]マジダルい。
+[k]
+
+＠ロビンフッド
+何でアメリカくんだりまでやってきて、[r]アイツらに会わなきゃいけないのかねぇ……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+[FFFFFF]？　どうしてそこまで嫌がるんですか？[-][r]もしや、生前に出会った方だとか。
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+いやいや、生前にあんなインパクト（だけ）ある[r]ような連中に出会ったことはねえですよ？
+[k]
+
+＠ロビンフッド
+ま、何つーのかな、腐れ縁というか。[r]関係のありそうでやっぱりない世界の話っつーか。
+[k]
+
+？1：元カノ？
+？2：今カノ？
+
+？！
+
+[charaFace A 3]
+＠マシュ
+おお。なるほど、そういう理由でしたか。[r]ロビンさんもスミに置けないのです。
+[k]
+
+[charaFace D 4]
+＠ロビンフッド
+[%1]、お前……想像するだけで、[r]おっそろしいこと言うなよ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ビリー
+でも何か言い方がそれっぽかったよねー？[r]ね、みんな？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+知らん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace E 6]
+[charaFadein E 0.1 2]
+＠ラーマ
+……余はその辺に疎い。[r]妻のシータ一筋でな。
+[k]
+
+[charaFace E 6]
+＠ナイチンゲール
+は？　カノ……新しい抗生物質の名称ですね？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ビリー
+あ、ダメだ。[r]そんな話に乗れるような人たちいなかった！
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 3]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 1.0]
+[scene 11110]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wipein rightToLeft 1.0 3]
+[wait wipe]
+
+＠ロビンフッド
+確かここら辺に住み着いたはずだが……。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+おっと。[r]敵性反応だ、注意してくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+了解。[r]マスター、行きます！
+[k]
+
+[charaFace A 6]
+＠マシュ
+……って、あれ？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ビリー
+こいつらさー、何か弱ってない？[r]ま、こっちにしてみれば願ったり叶ったりか。
+[k]
+
+[charaFace C 2]
+＠ビリー
+よし、やろう！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

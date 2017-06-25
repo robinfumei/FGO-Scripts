@@ -1,0 +1,252 @@
+＄01-00-03-09-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 オリオン]
+[charaSet F 2009201 1 アルテミス]
+[charaSet G 3016000 1 ヘクトール]
+[charaSet H 2012001 1 エウリュアレ]
+[charaTalk G]
+[charaFace H 4]
+[charaFadein H 0 2]
+[charaFace G 0]
+[charaFadein G 0 0]
+[fadein black 1]
+[wait fade]
+＠ヘクトール
+さてさて、計算ならもうそろそろってとこなんだが。
+[k]
+
+[charaFace H 5]
+＠エウリュアレ
+……何故、私を？[r]あなたの主は、黒髭みたいな趣味なのかしら。
+[k]
+
+[charaFace G 1]
+＠ヘクトール
+いやいや、俺の上役は女好きの[#碌:ろく]でなしだが、[r]アンタのような女神に手を出すほど勇者じゃなくてね。
+[k]
+
+＠ヘクトール
+ま、アンタという存在そのものが重要なんだよ。
+[k]
+
+[charaFace G 0]
+＠ヘクトール
+たとえサーヴァントに落ちたといっても、神霊って[r]いう存在は、本来世界に出張ってくる存在じゃない。
+[k]
+
+[charaFace G 1]
+＠ヘクトール
+……で。出張ってきちまったんだから、[r]そりゃアンタ、利用しなきゃ嘘だろう？
+[k]
+
+[charaFace H 4]
+＠エウリュアレ
+私、神霊としては格落ちよ？
+[k]
+
+[charaFace G 0]
+＠ヘクトール
+アンタみてえな女神様に、[r]戦闘能力は期待してねえだろうさ。
+[k]
+
+＠ヘクトール
+[#神を生贄に捧げる]。[r]アンタに期待しているのは、そこ一点。
+[k]
+
+[charaFace H 0]
+＠エウリュアレ
+へぇ、誰に？
+[k]
+
+＠ヘクトール
+世界に、だよ。[r]いつまでも螺旋になるんじゃ堪らない。
+[k]
+
+＠ヘクトール
+多少の[#危険:リスク]を侵してでも、[r]世界は粉々に吹き飛ばさなくちゃな。
+[k]
+
+＠エウリュアレ
+……あなた、一体誰に仕えているのかしら？
+[k]
+
+[charaFace G 1]
+＠ヘクトール
+んー……さてさて良い質問だ。[r]オジサンは一体、誰に仕えているんだろうねぇ？
+[k]
+
+[charaFace H 4]
+＠エウリュアレ
+……まあ。テロリスト的な主義主張は、[r]結局のところ妨害されるのが常なのよね。
+[k]
+
+＠エウリュアレ
+来てくれるかどうか、[r]正直半々というところだったけど。
+[k]
+
+[charaFace H 1]
+＠エウリュアレ
+……ふん、まあ、アステリオスがいたからでしょう。
+[k]
+
+[charaFace G 5]
+＠ヘクトール
+なに……？[r]あれは『[#黄金の鹿号:ゴールデン・ハインド]』……！！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.5]
+[scene 21330 0]
+[charaSet G 98018100 1 海賊]
+[charaTalk D]
+[charaFadein G 0 2]
+[charaFace D 5]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait fade]
+＠ドレイク
+ようし、追いついた。[r]問答無用で、[#衝角:ラム]をぶち当てる！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+野郎ども、準備はいいか！？
+[k]
+
+＠海賊
+うす！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+はい！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+ようし、あのいけ好かない野郎に[r]一発キツいのを喰らわせてやるよ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスター、こちらも戦闘準備整いました。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaSet H 7009001 0 アステリオス]
+[charaTalk E]
+[charaFace H 2]
+[charaFadein H 0.1 0]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠オリオン
+おい、アステリオス！　抑えろ、抑えろー！[r]鎮まり給え－！
+[k]
+
+＠アステリオス
+えうりゅあれ……！！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠アルテミス
+あ、駄目だ。もう飛び出させちゃってもいい？
+[k]
+
+[charaFace E 0]
+＠オリオン
+いま飛び出させたら槍の的になりにいくようなもんだ。[r]はいし、どうどう。はいどうどう。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein H 0.1 0]
+[charaFace H 5]
+＠アステリオス
+うぅぅぅぅぅぅぅ……！
+[k]
+
+＠オリオン
+わかった！　もうわかった！[r]あと十秒待て、十、一、ゼロ！
+[k]
+
+[voice 700900_0_S010]
+[wait voice 700900_0_S010]
+[charaFadeout H 0.1]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+＠アルテミス
+手抜きした、ダーリン！
+[k]
+
+[charaFace E 4]
+＠オリオン
+冷静に考えると、ぬいぐるみ如きがバーサーカーを[r]抑えきれるはずなかった……。
+[k]
+
+[charaFace F 3]
+＠アルテミス
+そこは気付こうよ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+アステリオスさん！？[r]と、ともかくわたしも行ってきます！！
+[k]
+
+？1：エウリュアレを助けよう！
+
+？2：アステリオスを助けよう！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 0.5]
+[scene 21230 0]
+[charaSet G 3016000 1 ヘクトール]
+[charaFace G 4]
+[charaFadein G 0 1]
+[fadein black 0.5]
+[wait fade]
+＠ヘクトール
+ったく、面倒臭いねえ。[r]やれやれ[line 2]だけど、オジサンはねぇ……。
+[k]
+
+[charaFace G 2]
+＠ヘクトール
+守るのだけは、嫌になるほど得意なんだよなあ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

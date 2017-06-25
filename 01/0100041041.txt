@@ -1,0 +1,73 @@
+＄01-00-04-10-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10916 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5011001 1 バベッジ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……敵性集団、撃破しました。[r]恐らくですが、襲撃される頻度が増しているようです。
+[k]
+
+＠マシュ
+先輩、これは[line 3]
+[k]
+
+？1：フランかな
+
+[charaFace A 12]
+＠マシュ
+……はい。恐らく、ですが。
+[k]
+
+？2：魔力経路の性質が変化したとか？
+
+[charaFace A 12]
+＠マシュ
+わかりません。[r]いいえ、個人的な推論を述べる……ので、あれば……
+[k]
+
+？！
+
+[charaFace A 0]
+＠マシュ
+フランさんが原因……なのだと思います。[r]彼女は、方向指示という行為について躊躇っています。
+[k]
+
+＠マシュ
+そう……なんですよね。[r]フランさん。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠フラン
+…………ゥ…………。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein F 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠モードレッド
+…………[r]…………
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

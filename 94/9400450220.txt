@@ -1,0 +1,333 @@
+＄94-00-45-02-2-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 ？？？]
+[charaSet F 98075000 1 鬼Ａ]
+[charaSet G 98075000 1 鬼Ｂ]
+[charaSet H 98075000 1 鬼Ｃ]
+
+
+
+[scene 28100]
+[fadein black]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+特異点らしき反応は……やっぱり、この島の最奥部。[r]頂上付近にあるようだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+目測になりますが、この島は頂上部に行くほど[r]急峻な岩山になっているようです。
+[k]
+
+＠マシュ
+ここから見るだけでも、[r]簡単に辿り着けるとはとても思えません。
+[k]
+
+？1：千里の道も一歩から！
+
+[charaFace A 13]
+
+＠マシュ
+はい。そうですね、先輩。
+[k]
+
+[charaFace A 0]
+
+＠マシュ
+今までに進んできた旅路と同じく[line 2][r]一歩ずつ、確実に進んでいけばいいのだと思います。
+[k]
+
+？2：行けるところから行ってみようよ
+
+[charaFace A 13]
+
+＠マシュ
+ふふ……そうですね。なんでもない言葉で正しい道筋を[r]示してくれる、それが先輩です。
+[k]
+
+＠マシュ
+確かにそれが一番の近道なのかもしれません。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+
+＠フォウ
+フォウ、フォーウ♪
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.3]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ところで牛若くん。[r]キミ、昔話には詳しいのかい？
+[k]
+
+＠Dr.ロマン
+キミが生きた時代のものだけじゃなく、[r]キミの後に流行った昔話についてだけど。
+[k]
+
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+ええ。そこはご安心を。[r]この牛若、カルデアできっちり学んでおりますとも！
+[k]
+
+＠牛若丸
+鬼ヶ島の物語はもちろん、[#瘤:こぶ]取り[#翁:おきな]魔界行、[r]舌斬り雀の紅閻魔、猿蟹大戦争、盗賊ニンジャ自来也、
+[k]
+
+＠牛若丸
+等々、大好きでございます！[r]そして鬼ヶ島と言えばやはり桃太郎斬魔伝。
+[k]
+
+[charaFace D 0]
+
+＠牛若丸
+きびだんごと引き替えに、犬、猿、キジの三匹を[r]仲間にし、鬼ヶ島の鬼どもを退治する[line 3]
+[k]
+
+[charaFace D 1]
+
+＠牛若丸
+ふふ。主どのが桃太郎なのだとしたら、[r]さしずめ私は犬でしょうか。
+[k]
+
+＠牛若丸
+私は犬派なので更に良し、ですね。[r]猫は命令を聞きませんが、犬は主に忠実です。
+[k]
+
+[charaFace D 0]
+
+＠牛若丸
+ご命令とあらば鬼どもの素っ首、[r]この海岸線に並べるのもやぶさかではありません。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+……牛若くんが言うと冗談に聞こえないな……[r]なにしろ、こと戦に関しては天才な訳だし……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠フォウ
+フォウッ！　フォウフォウ！
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+むっ、フォウどのも犬枠を所望ですか！？[r]確かに……資格は充分……。
+[k]
+
+＠牛若丸
+しかし負けませんよ！　こうなれば、どちらがより[r]犬らしい働きができるかで勝負です！　いざ！
+[k]
+
+[charaTalk C]
+
+＠フォウ
+フォウッ！
+[k]
+
+
+[messageOff]
+
+
+[se ad132]
+
+[wt 0.3]
+
+
+[charaFadeout D 0.4]
+[charaFadeout C 0.4]
+
+[wait se ad132]
+
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ……[r]牛若丸さんとフォウさんが走り出してしまいました。
+[k]
+
+[charaFace A 13]
+
+＠マシュ
+仕方ありません、[r]先頭はお二人に任せることにしましょう。
+[k]
+
+[messageOff]
+
+
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFace A 0]
+
+
+
+
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+
+＠マシュ
+……？　牛若丸さんが何かを見つけたようですね。[r]慌てた様子で戻ってきましたが……なんでしょう。
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[se ad133]
+
+[wt 1.5]
+
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+
+
+＠牛若丸
+主殿！[r]報告です、あそこに何者かが倒れています！
+[k]
+
+[messageOff]
+
+
+
+
+
+[wipeout rectangleStripLeftToRight 0.6 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+[charaFadeout D 0.1]
+
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+
+
+[wipein rectangleStripLeftToRight 0.6 1.0]
+[wait wipe]
+
+
+
+
+＠？？？
+…………。
+[k]
+
+
+
+[charaTalk B]
+
+＠Dr.ロマン
+これは……サーヴァント反応だ。[r]彼はサーヴァントだぞ！[cameraHome 0.3]そして[line 2]
+[k]
+
+
+
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 0]
+[charaFadein H 0.1 2]
+
+[charaTalk A]
+
+
+[bgm BGM_EVENT_3 0.1]
+
+＠マシュ
+鬼です！[r]倒れているあの人を鬼が取り囲んでいます！
+[k]
+
+？1：助けよう、マシュ！
+？2：鬼退治だ！
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。マスター、指示をお願いします！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+主殿、この牛若にも存分にご命令を！[r]いざ[line 3]鬼ども、我が薄緑の露となれぃ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[wt 1.0]
+[soundStopAll]
+[end]

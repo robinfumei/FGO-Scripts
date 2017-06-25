@@ -1,0 +1,203 @@
+＄94-00-45-06-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 4023001 1 坂田金時]
+[charaSet G 98076000 1 弁慶]
+[charaSet H 7023001 1 ？？？]
+
+
+
+[scene 27900]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠弁慶
+鬼にも耳があるのならば、念仏も届こう。[r]南無……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+鬼を倒しても……やはり、ここの人々は[r]動こうとはしませんね。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+反抗する気力もないんだろう。[r]結局、元凶をどうにかするしかなさそうだ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+チィ……どいつもコイツも死んだ魚みてぇな目を[r]しやがって。よっぽどここのメシがマズいと見たぜ。
+[k]
+
+＠坂田金時
+余裕がありゃ一人一人にゴールデン気合い注入して[r]回るところなんだがよ……。
+[k]
+
+[charaFace F 7]
+
+＠坂田金時
+いや、その前に朝飯か。[r]気合いを燃やすにもまずガソリンがなくっちゃあな。
+[k]
+
+＠坂田金時
+俵の兄さんがいればなぁ……[r]握り飯ぐらいならオレっちでも作れるんだがよ……
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+……金時殿が握り飯、ですと！？[r]あの坂田金時が、料理などと！？
+[k]
+
+[charaTalk F]
+[charaFace F 3]
+
+＠坂田金時
+な、なんだよ、悪いかよ。そりゃ握り飯ぐらいは[r]作れるだろうがよ、男なんだから。
+[k]
+
+＠坂田金時
+つーかオレはアレだ。[r]これでも武家大将の家で育てられたからな。
+[k]
+
+＠坂田金時
+朝は何もしてねえと凄ぇ[#膳:ぜん]を出されるんだよ。[r]オレゃあ、アレがちょい苦手でな。
+[k]
+
+＠坂田金時
+行儀良く朝飯を食うとかナーバスすぎるぜ。[r]朝飯は握り飯で十分さ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠風魔小太郎
+ええ、わかります、わかります！
+[k]
+
+[charaFace E 5]
+
+＠風魔小太郎
+僕も朝は簡単なものでいいと言うのに、[r]手下たちがですね、妙に凝ったものばかり出して！
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+だよなあ！　一秒でも早く遊びに行きたいってのに、[r]悠長に飯食ってられねぇよな！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+うーん……[r]世の母親が聞いたら嘆き悲しむ男の子理論だなあ……
+[k]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+それはそれとして、小太郎くん、[r]金時くんと息が合うのは結構だけど、それでいいの？
+[k]
+
+＠Dr.ロマン
+キミ、風魔忍群の頭領だろ？[r]アウトローと意気投合しちゃうのはマズいのでは？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+ぁ……いえ、それは……まあ、はい……[r]でも金時殿といえば、その……
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+（良し良し……私は[#愚連隊:あうとろ]の枠組みには[r]　入っていないようだ。当然の話ですが）
+[k]
+
+
+[messageOff]
+[wipeout rightToLeft 0.6 1.0]
+[wait wipe]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 5]
+
+[wipein leftToRight 0.6 1.0]
+[wait wipe]
+
+
+＠？？？
+…………。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.6 1.0]
+[wait wipe]
+
+[charaFadeout H 0.1]
+
+[wipein rightToLeft 0.6 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+（また、視線……？）
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

@@ -1,0 +1,690 @@
+＄01-00-06-23-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet D 98086000 1 ホームズ]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 98002000 1 フォウ]
+
+[scene 29500]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ホームズ
+さて。真名伝達による宝具覚醒の如何は[r][&ミスター:ミス][%1]に任せるとして。
+[k]
+
+＠ホームズ
+どうもヘルメスの調子が良くない。[r]あと一度、情報検索をしたら電源が落ちそうだ。
+[k]
+
+[charaFace D 4]
+＠ホームズ
+……私も反省しなくてはね。
+[k]
+
+＠ホームズ
+魅力的な未解決事件が世界にはまだどれほどあるか、[r]こっそり検索したのが裏目に出てしまったようだ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFadein G 0.1 0]
+
+＠マシュ
+ミスター・ホームズ！？
+[k]
+
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+安心したまえ。あと一度はしっかり機能する。[r]私は真実を逃さない男だ。
+[k]
+
+＠ホームズ
+獅子王の持つ聖槍ロンゴミニアド。[r]これがなんであるのか、諸君らは知る必要がある。
+[k]
+
+＠ホームズ
+無論、私もその名は聞いてはいるものの、[r]どのようなものなのか、これが初見だ。
+[k]
+
+[se ad15]
+
+[charaFace D 5]
+＠ホームズ
+ヘルメスよ、その真価を我々に示したまえ……………[r]……………………………………………………なるほど。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 2]
+[charaFadein G 0.1 0]
+
+＠マシュ
+（先輩、検索が終わったようです。[r]　ヘルメス、便利ですね）
+[k]
+
+＠フォウ
+フォウ。フォー。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace B 0]
+[charaFace D 5]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ホームズ
+獅子王が持つ聖槍。これがなんであるかは……[r]ベディヴィエール卿。貴方はどこまで知っているのです？
+[k]
+
+[charaFace B 0]
+＠ベディヴィエール
+詳しくは知りません。[r]王は聖剣の他に幾つかの宝を持っていました。
+[k]
+
+[charaFace B 4]
+＠ベディヴィエール
+聖槍ロンゴミニアドもその一つ。[r]円卓の騎士でもその詳細は聞かされていないのです。
+[k]
+
+[charaFace B 0]
+＠ベディヴィエール
+ただ、マーリンはあれを“最果ての塔”と[r]言っていました。
+[k]
+
+＠ベディヴィエール
+ブリテン島より遙か西の海にそびえる光の柱。[r]水平線の彼方、世界の果てに立つ塔だと。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 0]
+
+＠三蔵
+塔？　でも槍なんでしょう？[r]そりゃあどっちも長細いけど……どっちなの？
+[k]
+
+[charaFace B 3]
+＠ベディヴィエール
+いえ、これが私にもよくは……[r]ホームズ殿？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+[#聖槍は二つある]のです、ミス・三蔵。
+[k]
+
+＠ホームズ
+一つはこの世界を貫いている巨大な塔。[r]これは聖槍の在り方がカタチになったもの。
+[k]
+
+＠ホームズ
+「聖槍は健在なり」と我々に示したものです。[r]実際に塔としてあるようですが、人間には辿り着けない。
+[k]
+
+＠ホームズ
+なにしろ『世界の果て』にあるものだ。[r]果てには永遠に辿り着けない。
+[k]
+
+＠ホームズ
+塔は世界の果てにそびえながら、[r]人界のすべてを見通し、見守っている。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+ふむ、霊験あらたかな見晴らしの塔という事か。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+そしてもう一つは獅子王が持つ槍。[r]これはその塔が地上に落とした影のようなもの。
+[k]
+
+＠ホームズ
+塔の能力、[#権能:けんのう]をそのまま使える[r]個人兵装、という事らしい。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+塔が本体で槍は子機、という事でしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+実にいい[#喩:たと]えだ、ミス・キリエライト。
+[k]
+
+＠ホームズ
+塔は世界の果てに在り続けるものであり、[r]槍は塔の管理者が持ち続ける武器である。
+[k]
+
+[charaFace D 5]
+＠ホームズ
+問題は『塔』がなぜ星に刺さっているか、という点だ。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+我々の世界……人間の世界はこの惑星の表層に[r]貼られた一枚の[#敷物:テクスチャー]にすぎない、という考えがある。
+[k]
+
+[charaFace D 4]
+＠ホームズ
+その惑星において覇権を握った知的生命体の認識……[r]あえて言うなら物理法則か。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+この物理法則によって成り立つ敷物が我々の世界だ。[r]これが剥がれないように惑星に縫い付けているもの。
+[k]
+
+＠ホームズ
+それが『最果ての塔』と呼ばれる現象らしい。[r]この『塔』は何もブリテンに限った話ではない。
+[k]
+
+＠ホームズ
+世界に点在し、何本もあるものだ。[r]そのうち一本が獅子王の持つ聖槍なのだろうね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace E 1]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ベディヴィエール
+……最果ての塔、とはそのような意味だったのですか。[r]そんな怖ろしいものを、王は何年も[line 3]
+[k]
+
+[charaFace E 0]
+＠三蔵
+信仰を受け止める仏塔のようなものね。[r]分かる分かる。
+[k]
+
+[charaFace E 4]
+＠三蔵
+でも、それがどうして聖都の状況に結びつくの？[r]獅子王はその塔をどうするつもりなのかしら。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+……おそらく。[r]獅子王は聖槍を塔として使用する気だ。
+[k]
+
+＠ホームズ
+獅子王は聖都に理想都市を作り、[r]選ばれた人間を集めた。
+[k]
+
+[charaFace D 5]
+＠ホームズ
+清く正しい人間を、ではない。[r]何が起ころうと正しい行いしかできない人間たちをだ。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+ヘルメスの計算によると、[r]聖槍には五百人の魂が収納できるらしい。
+[k]
+
+＠ホームズ
+あの聖都は聖地の上に一夜にして築かれた。[r]不可能な出来事のように思えたが、何のことはない。
+[k]
+
+＠ホームズ
+あの都市は「聖槍」そのもの。聖都に運ばれた人間は、[r]みな聖槍の中に仕舞われたようなもの。
+[k]
+
+[charaFace D 5]
+＠ホームズ
+獅子王は清らかな人間を保護したと言うがね。[r]真相は逃がさないように閉じ込めた、という事だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+馬鹿な！　あの都市はキャメロットです。[r]細部こそ異なりますが、円卓の城キャメロットだ。
+[k]
+
+[charaFace B 5]
+＠ベディヴィエール
+それが、そのような邪悪なものである筈が……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFace B 5]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+……いえ。ミスター・ホームズの推察は正しいです。[r]あれはキャメロットではありません。
+[k]
+
+[charaFace A 0]
+＠マシュ
+確かにキャメロットは妖精によって作られた城。[r]一夜にして現れる事もあるでしょう。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……でも、あれは違います。[r]初めて見た時から怖ろしいものを感じていましたが……
+[k]
+
+＠マシュ
+あれは聖槍ロンゴミニアドの外殻です。[r]決して、人間を助けるものではありません……
+[k]
+
+[charaFace B 7]
+＠ベディヴィエール
+では……聖都の中にいる人々は、どうなるのです？[r]王に守られながらも自由のない生活を送るのですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+生きるか死ぬか、などという話ではないよ。[r]聖都にあるものはみな、聖槍に取り込まれる。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+聖槍はこのアトラス院と同じようなものだ。[r]シェルターだよ、ベディヴィエール卿。
+[k]
+
+＠ホームズ
+ただしそこには生命として活動する余地はない。[r]みな“善良な人間の要素”として管理される。
+[k]
+
+[charaFace D 4]
+＠ホームズ
+いずれ聖都は収束し、一つの塔になるだろう。[r]その塔の中には圧縮された地獄があるだけだ。
+[k]
+
+[charaFace D 5]
+＠ホームズ
+人々は理想都市で生きる為に集められたのではない。[r]理想の[#人間:サンプル]として集められたのだよ。
+[k]
+
+＠ホームズ
+獅子王の元で永久に保管される為に。[r]ショーウィンドウの中で、人間の価値を証明するように。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+馬鹿な……！！！　そんなおぞましい所業、[r]もはや人間のものではない……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFace F 6]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠三蔵
+………………。
+[k]
+
+＠俵藤太
+……獅子王の行いの善し悪しは拙者は論じぬ。[r]己の民を守護する。その一点において間違いはない。
+[k]
+
+[charaFace E 2]
+＠三蔵
+あるわよ、間違い！[r]なに言ってるのトータ！
+[k]
+
+＠俵藤太
+最後まで聞けい！[r]よいか。聖都とやらを塔にして仕舞ったとする。
+[k]
+
+＠俵藤太
+となれば、後はどうなるか？[r]決まっている。聖都は消え、獅子王の軍勢も消える。
+[k]
+
+＠俵藤太
+少なくとも、山の民たちと獅子王が争う事はなくなる。[r]獅子王は完全に、理想と共に引きこもるのだから。
+[k]
+
+[charaFace E 3]
+＠三蔵
+あ……そっか。[r]確かに争いはそれで終わるのよね。一応。
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+＠三蔵
+“自分の国の民だけを守る”[r]獅子王もそこは徹底しているんだ……
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_1 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+そうであれば良かった。[r]私もミスター・俵と同意見だったよ。
+[k]
+
+＠ホームズ
+[line 3]ヘルメスの解析を知るまではね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……違うのですね。[r]獅子王の聖抜には、更に深い意味があると。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+そうだ。獅子王は聖都を最果ての塔にする。[r]それがどういう意味合いか、諸君はもう知っている筈だ。
+[k]
+
+＠ホームズ
+『塔』が出来るという事は、[r]その一帯はすべて『世界の果て』になるという事。
+[k]
+
+＠ホームズ
+『塔』という完全な世界を作る代わりに、[r]『塔』の外の世界は消滅する。
+[k]
+
+[charaFace D 5]
+＠ホームズ
+獅子王は自分の国の民だけを守るのではない。[r][#自分の国以外の民を、みな切り捨てる心算]だ。
+[k]
+
+＠ホームズ
+そして、その崩壊はもう始まっている。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+この特異点が異例中の異例なのは、[r]既に“世界のどこでもない”場所だったからだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+＠三蔵
+……そっか。砂漠の向こうに何もなかったのは、[r]もうこの時代が人類史から切り離されているから……
+[k]
+
+[charaFace D 5]
+＠ホームズ
+イエスだ、ミス・三蔵。
+[k]
+
+[charaFace D 4]
+＠ホームズ
+この特異点を作り、滅ぼそうとしている者は[r]とっくの昔に魔術王ではなくなっている。
+[k]
+
+[charaFace D 5]
+＠ホームズ
+人理定礎の一つを犠牲にしてまで理想の都市を[r]その手に収めようとする、神の如き獅子王だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+………………。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_1 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0 1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+
+＠ベディヴィエール
+……地上に戻りましょう、皆さん。[r]もはや一刻の猶予もありません。
+[k]
+
+＠ベディヴィエール
+聖槍が完成する前に聖都に押し入り、[r]獅子王の真意を確かめねば。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+ベディヴィエールさんに賛成。ガイコツの偉い人が[r]ここに行けって言った理由も分かったし。
+[k]
+
+[charaFace E 1]
+＠三蔵
+急いでガイコツのひとたちと合流しましょう。[r]この事を伝えなくちゃね。
+[k]
+
+[charaFace E 4]
+＠三蔵
+……あれ？　でもどうして偉い人はみんなに教えて[r]あげなかったのかしら。その方が早かったのに……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+[%1]がここに来る必要があったのだろう。[r]あるいは、この学院ではなく砂漠そのものにか。
+[k]
+
+＠俵藤太
+なにしろ人の縁ばかりは力ではどうしようもない。[r]初代山の翁と言えど、できる事は限られている。
+[k]
+
+[charaFace F 0]
+＠俵藤太
+[%1]にはこの地でやるべき事がある[line 3][r]彼の御仁の本意はそういう事かもだぞ？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 6]
+[charaFace D 1]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠俵藤太
+む？　なぜ笑う、探偵殿？
+[k]
+
+[charaFace D 0]
+＠ホームズ
+失礼、笑っていたかね？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+だとしたら、貴方の言葉はよほど[#含蓄:がんちく]のあるもの[r]だったのだよ。私の冷淡が崩れてしまうほどの、ね。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[wt 1.0]
+
+[scene 21410]
+
+[bgm BGM_EVENT_3 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[flashin loop 0.7 1 FF000080 00000000]
+[se ad9]
+[wt 1.0]
+[seStop ad9 2.0]
+
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠三蔵
+って、帰り道にもこれあるの[line 3]！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+勿論だとも。[r]そして今回は今までとは比較にならない相手だろう。
+[k]
+
+＠ホームズ
+アトラス院は出ようとする者に容赦はしない[line 3][r]そう教えただろう？
+[k]
+
+[charaFace D 1]
+＠ホームズ
+これが[#地下世界:ロストワールド]での最後の戦闘だ。[r]存分に暴れたまえ！
+[k]
+
+
+[messageOff]
+[flashout 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

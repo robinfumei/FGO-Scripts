@@ -1,0 +1,478 @@
+
+＄94-00-56-08-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 98101700 1 ？？？]
+[charaSet C 3024000 1 玉藻の前]
+[charaSet D 2026000 1 アルトリア]
+[charaSet E 9004000 1 マルタ]
+[charaSet F 6024000 1 スカサハ]
+[charaSet G 4024000 1 モードレッド]
+[charaSet H 3025000 1 清姫]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[se ad54]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+くっ……強い……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠？？？
+ＧＲ、ＧＲＲＲＦＦＦ……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠玉藻の前
+やれやれ。[r]呆れたしぶとさでございますねぇ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠アルトリア
+く[line 3]予想はしていたことです、が。[r]ここまでの体力があるとは……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠マルタ
+怪物退治には慣れているつもりだったんだけど。[r]おかしいわね、腕がなまったのかしら？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠スカサハ
+ふむ。なかなか歯ごたえのある奴。[r]このような奴がいるとは、やはり[line 3]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+
+＠？？？
+ＧＲＲ……Ｇ……？
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あの視線[line 3]先にあるのは[line 3][r]っ！？　わたしたちの、脱出船です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[effect bit_talk_41]
+
+[shake 0.05 0 4 0]
+
+＠？？？
+ＧＲ、ＧＲＲＲＦＦＦＦッ！
+[k]
+
+[shakeStop]
+[effectStop]
+[wt 0.2]
+[se ad14]
+
+[charaFadeout B 0.1]
+
+[charaSet D 98100800 1 うりぼう]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠モードレッド
+クソ、まずいぞ！　あの突進……！
+[k]
+
+
+？1：速い……！
+？2：間に合わない……！
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あんな突進が当たったら。[r]船が[line 3]壊されてしまいます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠清姫
+ダメです、今からでは間に合わ[line 3]
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+[charaShake D 0.05 3 3 1.0]
+
+＠うりぼう
+っ[line 3]ぴ、ぎぃぃぃぃ[line 2]！
+[k]
+
+[charaSet H 5027000 1 マリー]
+[charaSet F 2025100 1 メアリー]
+[charaSet G 2025200 1 アン]
+
+
+[messageOff]
+[charaFadeout D 0]
+[scene 10000 0.1]
+[wait scene]
+
+[bgmStop BGM_EVENT_3 0.1]
+[seStop ad14]
+[se ad57]
+[effect bit_talk_14]
+[wt 1.0]
+[seStop ad57]
+
+[scene 21100 0.5]
+[wait scene]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠？？？
+ッ！？
+[k]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_6 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+うりぼうさんたちが[line 3]壁のようになって！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFace G 0]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+
+＠メアリー
+崩れて、弾き飛ばされたけど。[r]ヤツの進路は、ちょっとだけズレた！
+[k]
+
+＠アン
+船は無事ですわ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠？？？
+ＧＲ[line 3]ＦＦＦ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+[charaShake D 0.05 3 3 1.0]
+
+＠うりぼう
+ぴ、ぎぃぃぃっ！
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+また積み重なって、壁に！
+[k]
+
+[messageOff]
+[charaFadeout A 0]
+[scene 10000 0.1]
+[wait scene]
+
+[se ad57]
+[effect bit_talk_14]
+[wt 1.0]
+[seStop ad57]
+
+[se ad57]
+[effect bit_talk_14]
+[wt 1.0]
+[seStop ad57]
+
+
+[scene 21100 0.5]
+[wait scene]
+
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠マルタ
+ああ、あんなに、何度も[line 3]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠玉藻の前
+動かなくなるうりぼうも、随分増えておりますね……。[r]ですが[line 3]おかげで、間に合いましたとも！
+[k]
+
+
+？1：船を守れる位置に入った！　もう充分だ！
+？！
+
+[charaFadeout C 0.1]
+
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+[charaShake D 0.05 3 3 0.5]
+
+＠うりぼう
+ぴ……ぎ……。
+[k]
+
+[charaFadeout D 0.1]
+
+
+[charaTalk H]
+[charaFace H 4]
+[charaFace D 3]
+[charaFadein H 0.1 2]
+[charaFadein D 0.1 0]
+
+＠マリー
+……どれだけみんなの力を合わせても。[r]あんな大きな魔猪には絶対に勝てないって、
+[k]
+
+＠マリー
+わかってたはずなのに。それでも[line 3][r]わたしたちの船を、守ってくれた、のね。
+[k]
+
+＠マリー
+…………。
+[k]
+
+[charaFace H 0]
+＠マリー
+バカな子たちね。船が壊れちゃったら、もう少し、[r]一緒にいることもできたのに。
+[k]
+
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠マリー
+大きな猪さん。ごめんなさい[line 3][r]ここに、きっとあなたの居場所はないわ。
+[k]
+
+＠マリー
+ここはこの子達の島よ。
+[k]
+
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+
+＠？？？
+ＧＲＲＲＦＦ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠マリー
+ええ……わかっているわ。[r]あなたは大きな猪で、この子達は小さな猪。
+[k]
+
+＠マリー
+何かを食べて生き、そして死んでいく。[r]同じ生き物よ。
+[k]
+
+＠マリー
+何の理由があってこの子たちに島を与えるのか、[r]不公平じゃないか、って思ってるでしょう。
+[k]
+
+＠マリー
+気持ちはわかるわ。[r]でも理由ははっきりと言えるの。
+[k]
+
+＠マリー
+[line 3]弱いから。儚いから。力にはきっと抗えない。
+[k]
+
+[charaFace H 5]
+＠マリー
+そして、わたしたちには彼らを守る力がある。[r]だから守る。守るべき民を。
+[k]
+
+[charaFadeout H 0.1]
+
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠？？？
+……！？
+[k]
+
+[charaFadeout B 0.1]
+
+
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠マリー
+ええ。一言で言えば、それは。[r][#わたしのワガママ]、なのでしょうね。
+[k]
+
+＠マリー
+弱きモノは滅びて、力あるモノが土地を支配するのは[r]どこでだって同じこと。
+[k]
+
+[bgmStop BGM_EVENT_6 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_4 0.1]
+
+
+[charaFace H 5]
+＠マリー
+[line 3]でも、いいでしょう？[r]わたしはマリー・アントワネット。
+[k]
+
+
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaScale H 1.5]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+[effect bit_talk_41]
+
+＠マリー
+世界で一番、ワガママだって思われてる女の子よ！
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.2]
+[charaFadeout H 0.1]
+
+[se ad109]
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 3 3 0.5]
+
+＠？？？
+ＧＲ……ＧＲＲＲ……。[r][line 3]ＧＲＲＲＦＦＦＦッッッ！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[se ad60]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[wt 0.5]
+[seStop ad60]
+
+＠マシュ
+これで最後です、マスター。[r]あいつに[line 3]とどめを！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.4]
+[wait fade]
+[soundStopAll]
+[end]

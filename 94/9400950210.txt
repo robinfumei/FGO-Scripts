@@ -1,0 +1,1013 @@
+
+＄94-00-95-02-1-0
+
+
+
+[charaSet A 1017001 1 武蔵]
+[charaSet B 98075000 1 助六]
+[charaSet C 6008002 1 クレオパトラ]
+[charaSet D 5012001 1 ニトクリス]
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[scene 27910]
+
+[fadein black 1.0]
+[wait fade]
+
+[cameraMove 1.4 -72,0 1.2]
+[wait camera]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaScale A 0.83]
+[charaFadein A 0.4 72,-48]
+＠武蔵
+ふむふむ。[r]カルデアにサーヴァント、レイシフト……
+[k]
+
+＠武蔵
+聞いた事のない名前ばっかりだけど、[r]君の素性はだいたい分かったわ。
+[k]
+
+＠武蔵
+それで、私もその、サーヴァント？　という[r]ヤツだと言いたいのよね？
+[k]
+
+？1：間違いなく。二刀流だし
+？2：宮本武蔵は有名な英雄で剣豪だ
+
+？！
+
+[charaFace A 4]
+＠武蔵
+……それがしっくり来ないのよね……[r]私、英雄[#扱:あつか]いはおろか、剣豪扱いもされた覚えがないし……
+[k]
+
+[charaFace A 0]
+＠武蔵
+ううん、記憶が曖昧だからって事じゃなくてね？
+[k]
+
+＠武蔵
+こう、鼻がムズムズするというか、[r]それは違う、と肌で感じ取っているようなの。
+[k]
+
+＠武蔵
+私は[%1][&君:]が知っているような[r]剣士じゃないと思う。それは確実。まあ、でも[line 3]
+[k]
+
+[charaFace A 1]
+＠武蔵
+そのあたりの細かい事情は後にしましょう！[r]まずはお腹をいっぱいにしないとね！
+[k]
+
+[charaMove A 72,-28 0.1]
+[wait charaMove A]
+[charaMove A 72,-48 0.1]
+[wait charaMove A]
+＠武蔵
+お姉さーん、お団子お代わり[line 2]！[r]素うどんでいいから、うどんもあったら追加してー！
+[k]
+
+？1：記憶がないのに怖くないんですか？
+
+[charaFace A 3]
+＠武蔵
+てへへ。自分の名前が判明しているだけで、[r]いつもよりマシだったりするの。
+[k]
+
+[charaFace A 0]
+＠武蔵
+それに、分からない事を[r]怖がってもしょうがないでしょ？
+[k]
+
+？2：お金、持ってるんですか？
+
+[charaFace A 5]
+＠武蔵
+！　……もしかして、[r][%1][&君:]、[#文:もん]無し？
+[k]
+
+[charaFace A 1]
+＠武蔵
+ま、それならお店の人に何か買い取ってもらいましょう！[r]この刀の[#鍔:つば]、いい細工でしょ？
+[k]
+
+＠武蔵
+売れば当面の[#路銀:ろぎん]になるから安心して。[r][%1][&君:]にも分けてあげる。
+[k]
+
+＠武蔵
+[#合口:あいくち]になっちゃうけどそれはそれ。[r]幸い、他にも刀は持ってるしね。
+[k]
+
+？！
+
+[charaFace A 0]
+＠武蔵
+とにかく、君は目が覚めたらこの島にいて、[r]この島には以前来た覚えがある……そうなのよね？
+[k]
+
+＠武蔵
+前はどうやって元の世界に帰ったの？[r]あの妙な穴、この島のどこにあるのかしら？
+[k]
+
+？1：元の世界に帰る[line 3]
+？2：もしかして、武蔵ちゃんも……？
+
+？！
+
+[charaFace A 0]
+＠武蔵
+ええ。こういうのは慣れっこ、というか日常ね。[r]私、よくおかしな世界に迷い込むのよ。
+[k]
+
+[charaFace A 1]
+＠武蔵
+前は[#亜米利加:アメリカ]の西部ってところに出ちゃって、[r]ピストル相手に立ち回ったし。
+[k]
+
+[charaFace A 0]
+＠武蔵
+その時にお世話になった巫女さんが言っていたわ。[r]貴方はストレンジャーだって。
+[k]
+
+＠武蔵
+どうも、自分から“神隠し”に[#遭:あ]う体質なんだって。[r]それでいろんな場所に飛び出ちゃうの。
+[k]
+
+＠武蔵
+たいていは元の世界に戻る穴が近くにあるから、[r]それさえ見つければ『前の世界』に帰れるんだけどね。
+[k]
+
+？1：知らずにレイシフトをしてしまう剣士……
+？2：それって大変なんじゃ……
+
+？！
+
+[charaFace A 3]
+＠武蔵
+まあまあ、そこはそれ、ただの体質だから！[r]別に死ぬようなものじゃなし！
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_7 1.0]
+[charaFadeout A 0.7]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaScale B 0.83]
+[charaFadein B 0.1 72,-68]
+＠B：？？？
+なるほど。[r]逸話通りの[#明朗快活:めいろうかいかつ]ぶり。
+[k]
+
+＠B：？？？
+常人ならば死んでいる[#窮地:きゅうち]に遭いながら、[r]“そこはそれ”とは恐れ入る。
+[k]
+
+？1：さっきの鬼[line 3]！
+
+？！
+
+[messageOff]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 1.0]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaMove B 72,-48 0.1]
+[wait charaMove B]
+[charaMove B 72,-68 0.1]
+[wait charaMove B]
+＠B：？？？
+いや待たれい。カルデアのマスターよ。
+[k]
+
+＠助六
+我は助六。この島の田畑を管理していた、[r][#来田:らいでん]の助六という鬼なり。
+[k]
+
+＠助六
+主を失い、後は消え去るのみとなった鬼ヶ島で[r]ほそぼそと生きていた鬼よ。
+[k]
+
+＠助六
+どうしてもそこの自称・武蔵の様子が気になってな。[r]こうして後を付けてきたのだが……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 72,-48]
+＠武蔵
+あ、はい、どうぞ。[r]立ちっぱなしもなんだし、[#隣:とな]り、座る？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 72,-68]
+＠助六
+いや、自称と言えど宮本武蔵と相席など、[r]いつ首が飛ぶか怖ろしくて叶わぬ。[charaShake B 0.05 4 0 0.7]
+[k]
+
+＠助六
+我はここでよい。[r]……そして、貴様らによい話を持ってきた。
+[k]
+
+＠助六
+この鬼ヶ島はさるお方が作り上げ、廃棄した島。[r]もはや現世には存在しない。
+[k]
+
+＠助六
+ここは[#夢幻:ゆめまぼろし]の境界なのだ。
+[k]
+
+＠助六
+訪れる者といえば、我らのように[r]行き場の無い鬼どもだけだったが……
+[k]
+
+＠助六
+どうやら今日はよほど特別な一日なのだろう。[r]多くの旅人が夢の中に迷い込んでいる。
+[k]
+
+＠助六
+我らが大門を占拠した悪鬼、三騎。[r]浜辺に打ち上げられたカルデアのマスター。
+[k]
+
+＠助六
+そして、何の因果もないまま“転がり出て”きおった、[r]宮本武蔵を名乗る女剣士。
+[k]
+
+＠助六
+それぞれ素性は知らぬが、異邦人だという事は同じ。[r]であれば、元の世界に帰りたいであろう？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 72,-48]
+＠武蔵
+ええ。だってここのお団子、美味しくないし！
+[k]
+
+？1：自分もカルデアに戻らないと……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 72,-68]
+＠助六
+であれば話は簡単だ。[r]この鬼ヶ島の[#頂:いただき]を目指すがいい。
+[k]
+
+＠助六
+頂はあのお方がいらっしゃった[#社:やしろ]。[r]神気[#未:いま]だ渦巻く聖域だ。
+[k]
+
+＠助六
+神はこの世界に不要なものを[#糾:ただ]す。
+[k]
+
+＠助六
+であれば貴様たち異邦人、[r]頂に[#登:のぼ]らばたちどころに“元の世界”に弾かれよう。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 72,-48]
+＠武蔵
+それは[#重畳:ちょうじょう]。[r]助言、かたじけないわ、来田の助六殿。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 72,-68]
+＠助六
+う、うむ。[r]命を見逃された借りもある。礼には及ば、
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 72,-48]
+＠武蔵
+それじゃ私と[%1][&君:]、[r]助六殿の三人で頂を目指しましょうか！
+[k]
+
+＠武蔵
+あの遠くに見える門を越えればいいのでしょう？[r]案内と荷物持ち、あとご飯の仕度、お任せします！
+[k]
+
+[charaFace A 5]
+＠武蔵
+無論、これはお願いではなく脅迫です！
+[k]
+
+＠武蔵
+逆らえば痛い目にあわせるから、[r]大人しく従う事をお勧めするわ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 72,-68]
+＠助六
+[messageShake 0.05 4 4 0.7]
+なんとー！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+？1：（丁寧さ×横暴さ＝武蔵力……！）
+？2：（……またおかしなセイバーが現れたな……）
+
+？！
+
+
+[wipeout leftToRight 2.0 1.0]
+[wait wipe]
+
+[cameraHome 0.1]
+[charaScale A 1.0]
+[charaScale B 1.0]
+
+[scene 27800]
+[wt 1.0]
+
+[wipein rightToLeft 2.0 1.0]
+[wait wipe]
+
+[se ad60]
+[seStop ad60 3.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+[wt 1.0]
+＠助六
+そもそも宮本武蔵とは、日本史上最強の剣豪として[r]名高い、江戸時代初期の剣術家と言われている。
+[k]
+
+＠助六
+武蔵の創始した流派“二天一流”、[r]大刀と小刀を用いる“二刀流”はその代名詞であろう。
+[k]
+
+＠助六
+特に二十代の十年間には数々の武芸者と戦いをくり広げ、[r]その名勝負は娯楽・創作として語られる程だ。
+[k]
+
+＠助六
+我ら鬼たちの中でも二刀流と言えば宮本[#某:なにがし]と、[r]恐れられつつも愛される存在のようでな。
+[k]
+
+＠助六
+子鬼の頃、棒を二本もって暴れなかった鬼は[r]いない程だろうさ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠武蔵
+二天一流……五輪の書……[#空:くう]の座……[r]あー、だんだん思い出してきた……
+[k]
+
+＠武蔵
+私、まだ五本目の刀に至っていなかったんだ。
+[k]
+
+＠武蔵
+武者修行のつもりで[#相模:さがみ]あたりまで出向いた時、[r]雨宿りに使った[#四阿:あずまや]で妙な爺さまを見かけて[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace A 0]
+[charaDepth B 1]
+[charaDepth A 2]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+＠助六
+……ふむ。[r]武蔵は作州、大原の生まれと言われている。
+[k]
+
+＠助六
+父は[#新免無二斎:しんめんむにさい]。竹山城主新免家に仕えた兵法指南役で、[r]主家から新免の名を与えられた武芸者だ。
+[k]
+
+＠助六
+無二斎は十手術の道場を吉野郷宮本村に構え、武蔵は[r]この地を故郷とした為、後に宮本姓を名乗ったのだが……。
+[k]
+
+[charaFace A 5]
+[charaScale A 1.1]
+[charaPut A 240,16]
+
+＠助六
+宮本武蔵の逸話も有名だが、[r]この新免無二斎も恐るべき達人という話でな。
+[k]
+
+＠助六
+なにしろ自らにつけた名が“無二”だ。[r]これはよほどの達人でなければ名乗ろうとも思わぬ！
+[k]
+
+＠助六
+無二とは究極の一の事。即ち、[r]その後に続くものはない、という強烈な自我の現れだ。
+[k]
+
+＠助六
+その息子である武蔵が自らの流派に“二天”と名付けたのは、[r]間違いなく偉大な父への憧れが[line 3]
+[k]
+
+[charaFace A 5]
+[charaShake A 0.05 2 0 1.0]
+[charaScale A 1.2]
+[charaPut A 224,32]
+
+＠助六
+むう？　なぜか寒気がするな。[r]鬼でも風邪を引くのだろうか？
+[k]
+
+？1：武蔵ちゃんがメッチャ睨んでるから！
+？2：事情は分からないけど、お父さんの話は禁止！
+
+？！
+
+＠助六
+う、む？　そうか、本人の前で武蔵の生まれを[r]語るなど、[#釈迦:しゃか]に説法だったな。
+[k]
+
+
+＠助六
+相済まぬ、つい口が滑った。[r]いや、鬼どもはみなこの手の話に興味がなくてなぁ。
+[k]
+
+＠助六
+我……いや、オレはどうしても剣に惹かれる。[r]それ故、今まで独りで文献を[#漁:あさ]っていたのだ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠武蔵
+まあ、剣術に詳しい鬼なんて聞いた事がないしね。[r]剣の果てに鬼になった輩は多いけど。
+[k]
+
+[charaFace A 0]
+＠武蔵
+まあいいわ。貴方たちの世界だと[r]そういう事になっているって分かったから。
+[k]
+
+？1：と、いうと？
+
+？！
+
+[charaFace A 0]
+＠武蔵
+私の世界じゃ新免無二斎は山嵐みたいな乱暴者で、
+[k]
+
+＠武蔵
+その子供は『女だから』という理由で[r]捨てられたってだけの話よ。
+[k]
+
+[charaFace A 5]
+＠武蔵
+どっこい、捨てられてもめげずにクソ親父の家の前に[r]小屋を建てて暮らしてやったけどね。
+[k]
+
+[charaFace A 0]
+＠武蔵
+助六殿や[%1][&君:]の世界じゃ[r]宮本武蔵がどんな剣士だったのかは知らないけど、
+[k]
+
+＠武蔵
+[#私の世界]じゃ『宮本武蔵』は今もって無名の、[r]日々気ままに生きる剣士に過ぎないわ。
+[k]
+
+＠武蔵
+……まあ。主流から[#外:はず]れに外れた世界、[#剪定:せんてい]事象の[r]武蔵だから他とは違うと、いつか誰かに言われたけど。
+[k]
+
+[charaFace A 7]
+＠武蔵
+でも、貴方たちの世界の武蔵は大人物になったのね。[r]それはとても嬉しい。
+[k]
+
+＠武蔵
+宮本武蔵なんて結局はただの[#粗忽:そこつ]者だろうけど。[r]その最期に、[#空:くう]の座に指ぐらいはかけられたのね。
+[k]
+
+？1：剪定事象……？
+？2：空の座……？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠助六
+[#剪定:せんてい]事象……？[r]聞いた事のない言葉だが、どのような意味なのだ？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+さて。[#朝露:あさつゆ]の如き運命、という意味かしらね。[r]私もよくは知らないけど。
+[k]
+
+[messageOff]
+
+[wipeout leftToRight 2.0 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[scene 28220]
+
+[wipein rightToLeft 2.0 1.0]
+[wait wipe]
+
+
+[se ad60]
+[seStop ad60 3.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+[wt 1.0]
+＠助六
+ここが一つの目の大門だ。[r]かつては[#風越丸:かざこえまる]が守っていた門だが……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.7]
+
+[bgm BGM_EVENT_1 0.4]
+
+＠C：？？？
+ほ[line 5]ほっほっほ！[r]よく来たわね貧相な[#禿鬼:ハゲおに]＆[#振:ふ]り[#袖:そで]の一つもない田舎娘！
+[k]
+
+＠C：？？？
+時はまさに新年！　初日の出！[r]お年玉にはしゃぐ[#巷:ちまた]とファラオの太陽！
+[k]
+
+＠C：？？？
+これほど目出度い日はまたとない、と聞きました！[r]つまり[line 3]そうつまり、[#妾:わらわ]の出番というコトよ！
+[k]
+
+＠C：？？？
+ト[line 3]ゥ！
+[k]
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_1 0.4]
+[charaPut D 140,40]
+[charaScale D 0.3]
+[se bac231]
+[seVolume bac231 0 0.5]
+[cameraMove 0.2 -64,-96 1.4]
+[charaEffect D bit_talk_hikari01]
+[wt 0.7]
+[charaEffectStop D bit_talk_hikari01]
+[se bac1]
+[seVolume bac1 0 0.3]
+[wt 0.4]
+[wait camera]
+[charaPut D -1024,-1024]
+[charaScale D 1.0]
+[cameraHome 0.7]
+[wt 1.0]
+[effect bit_talk_43h]
+[wt 0.4]
+[effectStop bit_talk_43h]
+
+
+＠クレオパトラ
+ト[line 3]ゥ！[charaTalk C][charaFace C 0][charaFadein C 0.1 1][charaMove C 0,-40 0.1][wait charaMove C][se bac123][seVolume bac123 0 0.5][se bac216][seVolume bac216 0 0.5][charaMove C 1 0.1][wait charaMove C][seStop bac216 1.0]
+[k]
+
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace A 1]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+＠助六
+…………。
+[k]
+
+＠武蔵
+…………。
+[k]
+
+？1：…………
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠クレオパトラ
+え……何なのでしょう……この、全てのシャッターが[r]閉まった商店街のような静けさは……
+[k]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaFace C 3]
+＠クレオパトラ
+……失敗したわ。新年だからと[#控:ひか]えめに、[r][#上品:エレガント]に登場したのが良くなかったのですね……
+[k]
+
+[charaFace C 5]
+＠クレオパトラ
+そう！　ファラオたるもの、いつ如何なる時でも[r]輝ける太陽のように暑かましくなければ！
+[k]
+
+＠クレオパトラ
+あのオジマンディアス様のように！[r]そしてニトクリス様のように！
+[k]
+
+＠ニトクリス
+あのですねー。[r]私はそうではありませんよー。
+[k]
+
+[charaFace C 1]
+＠クレオパトラ
+はい！　心の応援、[r]感謝いたしますファラオ・ニトクリス！
+[k]
+
+＠ニトクリス
+違いますからね[line 2]、ね[line 2]、ね[line 3]…………
+[k]
+
+[charaFace C 2]
+＠クレオパトラ
+いよぅし！[r]応援ももらえた事ですし、登場からやり直します！
+[k]
+
+＠クレオパトラ
+ト[line 3]ゥ！
+[k]
+
+
+[bgmStop BGM_EVENT_7 0.4]
+
+[messageOff]
+
+[charaTalk off]
+
+
+[messageOff]
+[charaMove C 0,-20 0.1]
+[wt 0.1]
+[charaSpecialEffect C erasureReverse 0,-20 0.1]
+[charaMove C 0,96 0.1]
+[se bac1]
+[seVolume bac1 0 0.5]
+[wait charaSpecialEffect C]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+
+[wt 2.0]
+[messageOff]
+[charaPut D 140,40]
+[charaScale D 0.3]
+[se bac231]
+[seVolume bac231 0 0.5]
+[cameraMove 0.2 -64,-96 1.4]
+[charaEffect D bit_talk_hikari01]
+[wt 0.7]
+[charaEffectStop D bit_talk_hikari01]
+[se bac1]
+[seVolume bac1 0 0.3]
+[wt 0.4]
+[wait camera]
+[charaPut D -1024,-1024]
+[charaScale D 1.0]
+[cameraHome 0.7]
+[wt 1.0]
+[effect bit_talk_43h]
+[wt 0.4]
+[effectStop bit_talk_43h]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaMove C 0,-40 0.1]
+[wait charaMove C]
+[se bac123]
+[seVolume bac123 0 0.5]
+[se bac216]
+[seVolume bac216 0 0.5]
+[charaMove C 1 0.1]
+[wait charaMove C]
+[bgm BGM_EVENT_1 0.4]
+[seStop bac216 1.0]
+
+
+[charaTalk on]
+
+[charaTalk C]
+[charaFace C 1]
+＠クレオパトラ
+ほ[line 2]ほっほっほ！　よくここまで来たわね、[r]肉付きの悪い[#醜鬼:しこおに]＆バスター三枚娘！
+[k]
+
+＠クレオパトラ
+ですが、その快進撃もここまでです！[r]これ以上の狼藉は許しません！
+[k]
+
+＠クレオパトラ
+なぜなら[line 3]そう、なぜならば！[r]この島は妾の第二の居城になると決まったのですから！
+[k]
+
+[charaDepth C 2]
+[charaDepth D 1]
+[charaPut D 1]
+[charaEffect D bit_talk_41]
+[charaBackEffect D bit_talk_36_back]
+
+[se bac213]
+[wt 2.0]
+
+[charaBackEffectStop D bit_talk_36_back]
+[charaEffectStop D bit_talk_41]
+[wt 0.7]
+
+？1：第二の居住……！？
+？2：チェイテ城の悪夢を繰り返す気か……！
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+＠クレオパトラ
+そう！　ファラオ・オジマンディアスから[r]ピラミッドこそ借りられませんでしたが、
+[k]
+
+[charaFace C 0]
+＠クレオパトラ
+妾には卓越した財テクがあります！[r]三日もあればこの門を高級スパに改築してみせましょう！
+[k]
+
+＠クレオパトラ
+その暁には貴方たちも肩まで休んでいきなさい！[r]せっかくの三が日、ゆっくり癒されるがいいわ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠武蔵
+え、本当？[r]お金ないけど宿に泊まらせてくれるの？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠クレオパトラ
+フッ、当然よ侍ガール、その[#帯:おび]はたいへん結構です！[r]控えめに言って、妾は常に女友達を募集中なのだから！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠武蔵
+だってさ。なにを言ってるか分からないけど、[r]あの[#娘:こ]、気前がいいじゃない？
+[k]
+
+[charaFace A 0]
+＠武蔵
+お正月なんでしょ？[r]頂に行くの止めて、ここで休んでいくのもアリかな？
+[k]
+
+？1：どうせ重労働させられるよ
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠クレオパトラ
+フッ[line 3]そこに気がつくとは、[r]さすが人理修復を成し遂げたマスターですね。
+[k]
+
+＠クレオパトラ
+一日六時間の労働を、六時間の休憩を挟んで二回。
+[k]
+
+＠クレオパトラ
+この、一日を二日分にする魔法の労働法で[r]たちどころに妾の住居が建つのです！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：建築に三日かかったら三が日終わっちゃうよ
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠クレオパトラ
+[line 3]！
+[k]
+
+[charaFace C 2]
+＠クレオパトラ
+い、いえ、三が日に[#拘:こだわ]る事はありません。[r]だって、冬休みは七日ぐらいまで続くのでしょう！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠助六
+どうだかなあ。[r]最近は五日程度で終わりだって話だぞ？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？！
+
+[messageOff]
+
+[bgmStop BGM_EVENT_1 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+[line 3]よし、どうやら悪徳商法の類のようね！
+[k]
+
+＠武蔵
+美味しい話はうどんだけで十分、[r]さっさと倒して先に進みましょう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠クレオパトラ
+なんて頭が高い……！　妾の提案に乗らないばかりか、[r]悪徳商法とまで断じられては戦うしかありません！
+[k]
+
+
+
+＠クレオパトラ
+妾こそファラオ闘法最後の継承者にして、[r]美の化身、クレオパトラ七世・フィロパトル！
+[k]
+
+＠クレオパトラ
+どこの英霊かは知りませんが、[r]ただ最高に美しいだけの女ではなくてよ！
+[k]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-20]
+
+[charaMove B 0,-10 0.1]
+[wait charaMove B]
+[charaMove B 0,-20 0.1]
+[wait charaMove B]
+＠助六
+なに、ファラオ闘法だと……！？
+[k]
+
+？1：知っているのか来田！？
+
+？！
+
+[charaTalk B]
+[charaMove B 0,-30 0.1]
+[wait charaMove B]
+[charaMove B 0,-20 0.1]
+[wait charaMove B]
+＠助六
+うむ……はるか西の地において“偉そうにすれば[r]するほど敵に衝撃を与える”魔技が開発されたという……
+[k]
+
+＠助六
+『口』『鼻』『頭』の位があり、その部位が高い者ほど[r]強力な王と聞くが、あやつがその継承者だったとは……
+[k]
+
+＠助六
+ちなみに『鼻が高い』『頭が高い』とは[r]このファラオ闘法が由来である事は言うまでも、
+[k]
+
+[charaFadeout B 0.1]
+
+[messageOff]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠武蔵
+はい、助六殿は下がってて！[r]あの娘の[#得物:えもの]、[#梅軒:ばいけん]なみの鎖鎌と見た！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

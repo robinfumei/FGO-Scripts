@@ -1,0 +1,619 @@
+
+＄91-70-06-02-1-0
+[charaSet A 98001000 1 マシュ]
+[charaSet C 7006001 1 坂田金時]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 6019001 1 風魔小太郎]
+[charaSet F 98002000 1 フォウ]
+[charaSet G 6021001 1 酒呑童子]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 10204]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+
+＠マシュ
+ええと、後始末…………ですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+おう。ちょっとばかり野暮用があってな、[r]大将にも付き合ってもらいてえんだ。どうだい。
+[k]
+
+
+＠坂田金時
+そんなに時間は取らせねえよ。[r]パッと行ってパッと済ませてくればいい話だ。
+[k]
+
+？1：構わないよ。行こう！
+
+[charaFace C 1]
+＠坂田金時
+ようし！[r]さすがオイラの大将、話が早くて助かるぜ！
+[k]
+
+？2：別にいいけど、どこで何をするのかな
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+訓練用シミュレーターの使用ではなくて、[r]レイシフトを行うんですよね。どんな目的なんでしょう？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+そいつは行ってからのお楽しみってなァ。[r]マシュ、いっちょクールにゴールデンシフトを頼む！
+[k]
+
+？！
+
+＠坂田金時
+具体的な行き先はな、ここだ。ここ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ、はい。メモに記してくださったんですね[line 3]
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[charaFace A 6]
+＠マシュ
+[f large]！？
+[k]
+
+＠マシュ
+こ、これは……確かに、聖杯探索のそれとは異なる[r]短期のレイシフトであれば可能……かもしれませんが……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ダ・ヴィンチ
+それでも、万全の態勢は整えておく事にしたよ。[r]時代が時代だからねえ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ダ・ヴィンチさん！[r]あ、もうそちらにはお話が届いていたんですね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ダ・ヴィンチ
+ゆうべ話があると彼から切り出されてね。[r]彼、柄にもなくあれこれ考えてくれてるみたいだよ？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+そんなに考えちゃいねーよ、[r]半日、知恵熱出しただけだっつーの！
+[k]
+
+[charaFace C 0]
+＠坂田金時
+前置きが長いのは嫌われんだろぉ？[r]なんでスパッと切り出してみたが、悪かったか？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いえ。でもひとつだけ、[r]理由については教えてもらえますか？
+[k]
+
+？1：そんなに深刻なのか……
+？2：行き先、具体的にはどこなの？
+
+？！
+
+[charaFace A 7]
+＠マシュ
+…………はい、先輩。[r]紀元前へのレイシフトです。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+そういうこった！[r]理由はまあ、言ったろ。後始末だ。身内のあれこれだ。
+[k]
+
+[charaFace C 0]
+＠坂田金時
+おう、風魔の！　いるンなら出てきて手伝え！[r]サーヴァントは一騎でも多い方がいい！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad73]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 0,50]
+[charaMove E 0,0 0.2]
+
+
+＠風魔小太郎
+[line 3]流石は金時殿。[r]僕の気配を感じ取るとは……
+[k]
+
+
+[charaFace E 1]
+＠風魔小太郎
+アサシンの身でありながら面目ない。[r]やはり、多くの伝説を為した金時殿には敵いません。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+（いや、いるんなら助かるぜってだけだったんだが……[r]　言ってみるもんだなオイ）
+[k]
+
+[charaFace C 0]
+＠坂田金時
+まあいいか、まさにゴールデンラッキーってヤツだ。[r]頼もしい味方が増えたんだからよ。
+[k]
+
+＠坂田金時
+よろしくな風魔の！[r]おうマシュ、ヘビーなシフトをひとつキメてくれや！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+先輩[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 0.7]
+？1：構わないよ、行こう！
+？2：金時の身内ならカルデアの身内も同じ！
+
+？！
+
+
+[bgm BGM_EVENT_4 0.1]
+[charaFace A 7]
+＠マシュ
+はい、先輩。分かりました。[r]紀元前、魔獣戦線終了期へのレイシフトを開始します！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ダ・ヴィンチ
+悪いけどマシュもこっちを手伝ってね。前も言ったけど[r]私は存在証明に全力を投じなきゃいけないから。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+は、はい。[r]マシュ・キリエライト、全力でお手伝いします[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+先輩、どうか無事のお戻りを！[r]マフラーも忘れずに！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.4]
+[charaTalk F]
+[charaFadein F 0.4 50,-30]
+[charaMove F -50,0 0.4]
+
+＠フォウ
+フォ[line 3]ウ！
+[k]
+
+[charaFadeout F 0.4]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あっ、フォウさん！？[r]姿が見えないと思ったらサークルに……[charaFace A 6]あっ……！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_4 0.7]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+[charaSet A 99502600 1 マシュ]
+[wt 1.0]
+[scene 10001]
+[scene 28700]
+[fadein white 2.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+[wt 0.7]
+[charaTalk F]
+[charaFadein F 0.4 1]
+
+＠フォウ
+フォウフォウ、フォーウ！
+[k]
+
+？1：お、フォウだ
+
+＠フォウ
+キャ[line 2]ウ！
+[k]
+
+？2：次からギリギリで飛び込むの禁止ね
+
+＠フォウ
+フォウゥ…………
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+ここは……[r]山、ですね。それもかなり険しい山と見ましたが。
+[k]
+
+＠風魔小太郎
+それでも道があるのは有り難い。[r]下るにせよ、登るにせよ、道の有無は重要ですから。
+[k]
+
+？1：見覚えがある
+？2：神々さえ恐れた霊峰ってやつじゃないかな
+
+？！
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaTalk A]
+[charaFace A 0]
+[charaEffect A bit_talk_10]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、先輩。そこは以前にも一度訪れた場所ですね。[r]女神イシュタルに縁深い霊峰、エビフ山です。
+[k]
+
+[charaFace A 4]
+＠マシュ
+前回は、その……美的センスが壊滅的な……[r]い、いえ、とても強力な魔像との戦闘がありました。
+[k]
+
+[charaPut A 0,-10000]
+[charaEffectStop A bit_talk_10]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠坂田金時
+今回は出て来ねぇみたいだな？[r]まあ、来たら来たで大歓迎ってなもンなんだが。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+お気を付けください、金時殿。[r]こと魔像の類といえばあの強力きわまる蹴り込み……
+[k]
+
+＠風魔小太郎
+[#生半:なまなか]なサーヴァントの宝具よりも鋭い一撃です。[r]あれは本当に危険です。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+まあ、なあ。とはいえいざ出てきたなら[r]避けて通る訳にもいかねえし[line 3]
+[k]
+
+＠坂田金時
+ん。ちょっと待て、[#此処:ここ]にいたのはその魔像か？
+[k]
+
+？1：スプリガン系じゃなかったような
+？2：もっと残念なコホン面白い魔像だったような
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaEffect A bit_talk_10]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……美を司る女神であるはずなのに、どうして[r]あんなにも切ない事になってしまったんでしょうね……
+[k]
+
+＠マシュ
+あるいは、神代の中でも古い時期になると[r]美的センスが一風変わったものになってしまう、とか……
+[k]
+
+[charaPut A 0,-10000]
+[charaEffectStop A bit_talk_10]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠フォウ
+フォウ、フォゥゥ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+ん[line 3]
+[k]
+
+＠坂田金時
+見目ってのはンなに大切なもンか？[r]オレは実のところ、あんまり気にならねえんだよな。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+魔像のような[#物:もの]の[#怪:け]の見目が、ですか？[r]それとも……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+魔像だろうが人間だろうが土蜘蛛の類だろうが、[r]まあ、何だろうがさ。傍からの見目がどれだけ良かろうが
+[k]
+
+＠坂田金時
+良い奴もいる。[r]悪い奴もいる。
+[k]
+
+＠坂田金時
+強い奴は強いし、弱い奴は弱い。[r]適当な奴もいりゃあ、真面目な奴もいるだろうさ。
+[k]
+
+＠坂田金時
+…………見惚れる程に美しいが、恐ろしい奴もいる。
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+
+＠G：？？？
+あら、あら。[r]そないに悪ぅ言うんでもないんやのうて？
+[k]
+
+＠G：？？？
+こないに愛らしいのに、ねぇ。ふふ。[r]“しゅめる”の女神様いうんは趣味のよろしい事で。
+[k]
+
+[charaFace C 2]
+＠坂田金時
+……この声！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaEffect A bit_talk_10]
+[charaFadein A 0.1 1]
+
+
+
+＠マシュ
+す、すみません、口止めされていたもので！[r]そちらにもう一騎サーヴァントがレイシフトしています！
+[k]
+
+[charaFace A 15]
+＠マシュ
+でもまさかこんな……[r]いえ、敵性反応数体を引き連れて接近中！？
+[k]
+
+[charaFace A 14]
+＠マシュ
+酒呑童子さん！[r]先輩をお手伝いしたいから、と言っていたのに！
+[k]
+
+[messageOff]
+[charaPut A 0,-10000]
+[charaEffectStop A bit_talk_10]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad57]
+[shake 0.1 0 7 0]
+
+
+＠酒呑童子
+ふふ。マシュ、そないに言わんと堪忍え？[r]うちもな、別に悪気があってこうした訳やないんよ。
+[k]
+
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+巨大な魔像が三体、近付いてきます！[r]そして一体の肩の上に……あれは、酒呑童子……！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.7 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[shakeStop]
+[wt 1.0]
+[seStop ad57 0.7]
+[wipein rightToLeft 0.7 1]
+[wait wipe]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠酒呑童子
+そこに可愛げのあるもんが転がっとったんを見たさかい、[r]ちょっぴりうちの酒を分けてあげたんよ。
+[k]
+
+＠酒呑童子
+うちはなーんも悪さしてへんの。[r]真名解放ん時みたく毒にせえへんと、そのまま酒、
+[k]
+
+＠酒呑童子
+分けたんやけど[line 3]
+[k]
+
+[charaFace G 1]
+＠酒呑童子
+ふふ、こないに元気になって。見てぇな？[r]腕も、脚も、体ぜんぶ、どこもかしこもぱんぱんやわぁ。
+[k]
+
+＠酒呑童子
+神さんに縁あるんやったら……[r]そら、息吹き返したり、力増したりも道理やねぇ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+そうか神便鬼毒酒！[r]すなわちは神の方便、鬼の毒と云う[#意:こころ]！
+[k]
+
+＠風魔小太郎
+い、いやしかし伝承ではあくまで人間の強化！[r]神性関係の強化なんて話は……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+[line 3]御託はそのあたりでいいぜボーイ。[r]要はぶっ倒せって話だろ、こりゃ。
+[k]
+
+＠坂田金時
+美顔だか美肌だか知らねェが、[r]こちとら、山道の先にちいとばかし用があるンでな！
+[k]
+
+[charaFace C 2]
+＠坂田金時
+肩慣らしに付き合ってもらうぜ！[r]おう大将、レイシフト直後のゴールデン・バトルだ！
+[k]
+
+？1：戦闘開始！
+？2：ゴールデン・バトル・スタートォ！！
+？！
+
+＠坂田金時
+[f large]いくぜッ！！！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

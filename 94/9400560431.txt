@@ -1,0 +1,633 @@
+
+＄94-00-56-04-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 2026000 1 アルトリア]
+[charaSet B 98101600 1 魔猪]
+[charaSet C 98100400 1 マシュ]
+[charaSet D 5027000 1 マリー]
+[charaSet E 3025000 1 清姫]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 4024000 1 モードレッド]
+[charaSet H 6024000 1 スカサハ]
+
+[scene 30420]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠アルトリア
+なかなかの手練れ、しかし……。
+[k]
+
+＠アルトリア
+はっ！
+[k]
+
+[se bac69]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[wt 0.5]
+[se bac60]
+[charaEffect B bit_talk_13]
+[wt 0.1]
+[seStop bac60 1.0]
+[charaShake B 0.05 3 3 0.25]
+[bgmStop BGM_EVENT_3 1.0]
+
+＠魔猪
+グ……アー……サー……。
+[k]
+
+[se ad24]
+[wt 1.0]
+[charaFadeout B 0.7]
+[wt 1.0]
+[se ad144]
+[shake 0.05 0 3 0.4]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠アルトリア
+…………？　今、何か……。[r]聞き間違いでしょうか……？
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+？1：お疲れ様、みんな
+？2：猪退治、完了だ！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠マシュ
+……ふふ。
+[k]
+
+？1：どうしたの？
+？！
+
+[charaFace C 13]
+＠マシュ
+あ、いえ。なんだかドクターが言いそうな台詞だな、と[r]思ってしまいまして。
+[k]
+
+＠マシュ
+懐かしい、というか……ずいぶん聞いてないな、[r]というか。
+[k]
+
+[charaFace C 1]
+＠マシュ
+あ、いえ、しんみりしているわけではないんです。[r]この島からの脱出には少しずつ近付いているのですし。
+[k]
+
+＠マシュ
+本当に、ただ思い出したというだけで[line 3][r]こうして畑も守れましたし、何も問題はありません。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マリー
+そうね、結構強かったけど、勝ててよかったわ。[r]まさかこんな猪さんが島にいるなんて。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠アルトリア
+はい……すみません、マリー。[r]今回はあなたが正しかった。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠清姫
+ええ。あのうりぼうたちを[#軽々:けいけい]に犯人扱いして[r]しまいました。
+[k]
+
+＠清姫
+勘違いを勘違いだと気付いたのに認めないのは、嘘です。[r]嘘は絶対にいけません。
+[k]
+
+[charaFace D 0]
+＠マリー
+うふふ、気にしてないわ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マリー
+それに謝るなら、さんざん追いかけ回した[r]この子たちのほうに[line 3]あら？
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[se ad174]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 0]
+[bgm BGM_EVENT_27 0.1]
+＠うりぼう
+ぴぎ、ぴぎゅーう。
+[k]
+
+[charaFace D 1]
+＠マリー
+あらあら、ふふふ？
+[k]
+
+[charaFace D 0]
+＠マリー
+あ、そうだ……ねえあなたたち、さっき、わたしたちの[r]畑をあの魔猪から守ってくれてたでしょう？
+[k]
+
+＠マリー
+勝てないのはわかっていたのに、精一杯の力で助けて[r]くれたのね。[line 3]どうして？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠モードレッド
+昨日、オマエが食い物やったからじゃねぇか。
+[k]
+
+＠モードレッド
+どうせ、あの魔猪のせいで何もエサが獲れなくて[r]腹ぺこだったんだろ。
+[k]
+
+[charaFace G 1]
+＠モードレッド
+だからそれを恩義に感じて、とか……[r]はっ、まるで騎士みてえだな。
+[k]
+
+[se ad174]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 0]
+[wt 1.5]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠マリー
+あなたにも懐いてるみたいだけど？
+[k]
+
+[charaFace G 3]
+＠モードレッド
+し、知らねーよ！　心当たりねぇな！[r]ほらあっち行け、しっしっ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠スカサハ
+ふぅむ……とはいえ、うりぼうはうりぼうだ。[r]害獣であることには変わりないのだが。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠うりぼう
+ひぎぴぎっ！？
+[k]
+
+[charaFace H 4]
+＠スカサハ
+しかし、これだ。[r]微妙に人語を解しているかのようなこの反応……
+[k]
+
+[charaFace H 0]
+＠スカサハ
+ただの駆除以外にも利用価値はあるように思えるな。[r]どれ、試してみるか……。
+[k]
+
+[charaFadeout H 0.7]
+[wt 0.6]
+[charaFadeout F 0.1]
+[wt 0.2]
+[wt 0.7]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠マシュ
+うりぼうの前にしゃがみ込んで……[r]何をなさっているのでしょう？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠スカサハ
+……話はついた。契約を交わしたぞ。
+[k]
+
+？1：は、話せるんですか！？
+
+[charaFace H 0]
+＠スカサハ
+動物会話の真似事だ。[r]おおよその雰囲気を掴むぐらいだがな。
+[k]
+
+[charaFace H 1]
+＠スカサハ
+おまえたちがその白いケモノとやっているようなことだ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaSet B 98002000 1 フォウ]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠マシュ
+まあ、なんとなく、フォウさんの言っていることが[r]わかるような気がすることは、ありますが……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+？2：契約って何ですか？
+？！
+
+＠スカサハ
+この者たちは畑にはけっして手を出さぬ。[r]そして私たちがおらぬ間、この畑を見張る[line 3]
+[k]
+
+＠スカサハ
+先程の魔猪のような脅威が現れれば、すぐに私たちに[r]知らせること、とした。まあ警報係だな。
+[k]
+
+＠スカサハ
+見返りは私たちが与える食料だ。[r]どうだ、マスター？　今なら取り消せるが。
+[k]
+
+？1：いいと思います
+？2：この島の新しい仲間だ
+？！
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠マリー
+まあ！　それって、とってもいいことだと思うわ！[r]これで堂々とこの子たちと触れ合えるというわけね？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠清姫
+わたくしも異存はありません。
+[k]
+
+＠清姫
+畑を荒らす大猪はともかく、小さなうりぼうを[r]どうこうする気はございませんよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠モードレッド
+オレか？　オレは……別に、どーでもいいな。[r]マスターが決めたんだろ。オレに聞くんじゃねえ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠うりぼう
+ぴぎ、ぴぎー♪
+[k]
+
+[charaFadeout F 0.1]
+[charaSet B 2025200 1 アン]
+[charaSet E 2025100 1 メアリー]
+[charaSet G 9004000 1 マルタ]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠アン
+畑を守る人手の代わりに猪手、というわけですか。[r]構いませんわよ。
+[k]
+
+＠アン
+漕ぎ手がいない船は走らない、というものです。
+[k]
+
+[charaFace E 0]
+＠メアリー
+アンとマスターがいいならそれで。
+[k]
+
+[charaFace E 3]
+＠メアリー
+（……いつでも獲れる位置にタンパク質が[r]　あるというのは……安心感が違う……）
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠マルタ
+ええ、とても可愛い仲間ができましたね。
+[k]
+
+＠マルタ
+（あの人は、食べ物に禁忌はないと言っていたし。[r]　もしものときは……仕方ないわよね……？）
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠うりぼう
+……ぴぎ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaSet G 3024000 1 玉藻の前]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠玉藻の前
+タマモちゃんは勿論、マスターのご判断に[r]オール同意のフル賛成なのですがっ。
+[k]
+
+[charaFace G 4]
+＠玉藻の前
+すみません、一つだけ注意してほしいことが……。
+[k]
+
+[charaFace G 5]
+＠玉藻の前
+[line 3]うりぼうの天敵は狐です。
+[k]
+
+＠玉藻の前
+さすがに時と場合によっては[line 3]たとえばこう、空腹で[r]倒れそうなときに足下を無防備にチョロチョロされたりしたら、
+[k]
+
+＠玉藻の前
+あれっ気付いたら口の中が肉汁でいっぱい[r]幸せいっぱい、これはマスターにもお裾分けを……ハッ。
+[k]
+
+[charaFace G 0]
+＠玉藻の前
+みたいな猟奇的展開になりかねないので、[r]そこだけ気をつけてくださいね？
+[k]
+
+[charaFace G 1]
+＠玉藻の前
+なにせ夏の[#私:わたくし]、いつもよりセレブで[r]いつもよりビーストですから！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+[se bac2]
+[charaMove F -32,0 0.5]
+
+
+＠うりぼう
+ぴ、ぴぎぃ……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠アルトリア
+[line 3]そうですね。謝るならばこちらに、でした。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠アルトリア
+うりぼうよ。あなたたちを無実の罪で[r]追い回したこと、謝罪します。
+[k]
+
+＠アルトリア
+小さな身体であの魔猪に立ち向かった、あなたたちの[r]勇気は本物だ。讃えられるべきものでしょう。
+[k]
+
+[charaFace F 0]
+＠うりぼう
+ぴぎ？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠マシュ
+アルトリアさん……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠アルトリア
+ぜひとも、これからはよき隣人でいさせてください。
+[k]
+
+＠アルトリア
+魔猪に虐げられていたからといって卑屈になることは[r]ありません。あなた達は立派です。
+[k]
+
+＠アルトリア
+そう、身体は小さくとも勇気を持ち、素早く動き、[r]素晴らしい毛並みで、そして……そして……。
+[k]
+
+[charaFace F 0]
+＠うりぼう
+…………。
+[k]
+
+[bgmStop BGM_EVENT_27 0.4]
+
+[charaFace A 6]
+＠アルトリア
+[line 3]不思議なことに、[r]見ているとなんだかお腹が減ります。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace F 2]
+＠うりぼう
+[line 3]ぴぎぃぃぃぃぃ！？
+[k]
+
+[charaMove F -768,0 0.25]
+[se ad14]
+[wt 0.1]
+[seStop ad14 1.0]
+[bgmStop BGM_EVENT_3 0.7]
+[wt 0.7]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠マリー
+あ、もう！　また逃げちゃった……。[r]ダメよ、怖がらせたら。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠アルトリア
+すみません。彼らを見ての正直な感想を探していたら、[r]つい……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠スカサハ
+何にせよ、これで畑についてはひとまず安心だろう。[r]作業に戻るぞ。
+[k]
+
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_2 2.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠アルトリア
+…………。
+[k]
+
+？1：何か気にかかる？
+？2：帰ったらごはんにしよう
+
+[charaFace A 3]
+＠アルトリア
+ち、違いますマスター。私はいつも食事のことばかり[r]考えているわけではありません。
+[k]
+
+？！
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace A 6]
+＠アルトリア
+この島は広大です。あの魔猪が一匹とは限らない、[r]と考えていました。
+[k]
+
+＠アルトリア
+ひょっとしたら、これで終わりではないのかも[r]しれません。
+[k]
+
+＠アルトリア
+私の気にしすぎであればよいですが。[r]できれば、心に留めておいてください[line 3]
+[k]
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

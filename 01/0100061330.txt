@@ -1,0 +1,219 @@
+＄01-00-06-13-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet G 6003001 1 百貌のハサン]
+[charaSet E 5022001 1 ？？？]
+[charaSet H 98013100 1 ？？？？]
+
+[backEffect bit_talk_haboob_02]
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……ふう。敵性集団、完全に撃破しました。[r]ですがサーヴァントの姿はありませんでした。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+でもサーヴァント反応はしっかりあるんだなあ。[r]この事実が意味するところは[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.7 1]
+＠？？？
+うう、ひっく……。[r]こわかった……こわかったよう……。
+[k]
+
+＠？？？
+なんで……人が弱っている時にかぎって、[r]こうぐわ[line 2]っと襲って来るのよぅ……？
+[k]
+
+＠？？？
+あたし、何も、してないのに……。[r]あ、うそです、ちょっと水場を独り占めしてたけど……
+[k]
+
+＠？？？
+それだって荒野の動物たちの分ぐらいは[r]残していたのに……うう……ふぇぇ……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+……正体不明の女性が泣いています……[r]どうしましょう、先輩？
+[k]
+
+？1：こんにちは
+？2：大丈夫だった？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠？？？
+ひっく……。[r]やだもう……あたし、こんなのばっかり……。
+[k]
+
+＠？？？
+ひとりぼっちで現界しちゃうし、[r]菩薩さまのお声も聞こえないし……ぐす……。
+[k]
+
+＠？？？
+霊体化はなんか気持ち悪いから[r]あんまりしたくないし……うう……。
+[k]
+
+[charaFace E 5]
+＠？？？
+うう……これというのも……[r]悟空たちに暇なんか出さなければ！
+[k]
+
+＠？？？
+でも仕方ないじゃない、あのバカ弟子たち、[r]あんまりにもだらしないのだもの！
+[k]
+
+＠？？？
+悟浄はあの歳で独り身だし！[r]いいから天界に戻ってお嫁さん探してきなさい！
+[k]
+
+＠？？？
+悟能なんて、ああ見えて実はバツイチ！
+[k]
+
+＠？？？
+奥さんも子供もいたなんて、[r]豚は[charaFace E 0]見た目によらないものね！　ナイス！
+[k]
+
+[charaFace E 5]
+＠？？？
+でも奥さんをほったらかしにしていたのは許しません。[r]よって、奥さんに謝るまで破門とします！
+[k]
+
+＠？？？
+最後に悟空！　花果山に帰れば選り取り見取りのクセに、[r]なーんであたしとくつろいでいるんですかっ！
+[k]
+
+＠？？？
+早くお山に戻ってみんなを安心させてやりなさーい！[r]あたし？　あたしは独り身でいいのです！
+[k]
+
+[charaFace E 2]
+＠？？？
+だって仏様になるんだから！[r]恋とか愛とか、その後ですればいいんですーってば！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……あの。先輩、この方……もしかして……
+[k]
+
+？1：うん、サーヴァントだ
+？2：以前、彼女の心の迷宮に迷い込んだような……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 2]
+＠Dr.ロマン
+え？　サーヴァントって、もしかしてその子！？
+[k]
+
+[charaFace A 0]
+＠マシュ
+……はい。感じられる気配や魔力からも間違いなく、[r]この少女はサーヴァントです。
+[k]
+
+＠Dr.ロマン
+バカな[line 3]その子、トップレベルの霊基をしてるのに、[r]動物に襲われて悲鳴をあげてたっていうのか[line 2]い！？
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.4]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+[wt 0.3]
+[se ad17]
+
+＠H：？？？
+[image berserker_language_1][shake 0.05 0 4 0.8][bgm BGM_EVENT_3 0.1][line 3]！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠百貌のハサン
+なななにごと、なんだあの巨大な怪物は！？[r]この土地にあのような怪物はいない筈だぞ！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠？？？
+そんな！[r]あの竜は、まさか……！
+[k]
+
+[charaFace E 2]
+＠？？？
+食べ物がないから白龍さまに助けてもらおうかなって、[r]そんな気持ちで召喚しようとして失敗して、
+[k]
+
+＠？？？
+『悪いけど帰せないから諦めて』って言ったら[r]逆上して襲いかかってきた、
+[k]
+
+＠？？？
+たぶんフランスあたりで人を苦しめていた魔竜なの！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、わたしにも分かります！[r]この方は、面白いサーヴァントです！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,646 @@
+
+＄01-00-05-11-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 3005002 1 エリザベート]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 7008001 1 ベオウルフ]
+[charaSet F 98058000 1 ？？？]
+
+[scene 20400]
+[fadein black 2]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+[line 3]チッ。半病人相手にこの始末か……[r]こりゃあ、誰が見ても俺の負けだな。
+[k]
+
+[charaFace E 0]
+＠ベオウルフ
+分かったよ、降参、降参だ。好きにしろ。[r]人の恋路を邪魔するほど野暮じゃねえ。
+[k]
+
+[charaFace E 4]
+＠ベオウルフ
+ったく、戦場に色恋沙汰なんざ持ち込みやがって……[r]そういうのに弱いんだよ、俺は。
+[k]
+
+＠ベオウルフ
+本当の話、気持ちよくテメエらを全滅させるか、[r]気持ちよく全滅させられたかったんだがなぁ……
+[k]
+
+[charaFace E 0]
+＠ベオウルフ
+ああ、言っておくが囚人には指一本触れちゃいねえ。[r]華奢すぎて、触っただけで折れそうだったんでな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+では戦闘を放棄する……そういう事ですか？
+[k]
+
+＠ベオウルフ
+そういう事だ。話し合いは余所でするさ。[r]さっさと行けよ優男。華奢な奥方が待ってるぜ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ラーマ
+ああ……そうさせて、貰う……！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[charaFadeout B 0.4]
+[wait fade]
+[bgmStop BGM_EVENT_5 0.1]
+[wt 1.0]
+[bgm BGM_EVENT_1 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[scene 11800]
+[fadein black 1.0]
+[wait fade]
+
+[charaFace F 2]
+＠F：？？？
+……。[r]……ラーマ様！？
+[k]
+
+[se ad91]
+[wait se ad91]
+
+[charaSet F 98058000 1 シータ]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ラーマ
+シータか？[r]迎えに来たぞ。迎えに……きたんだ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠F：？？？
+ラーマ様！！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ラーマさん、その体で走ったら……！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ラーマ
+……ああ、くそ。[r]目が霞む。何も見えん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠シータ
+シータはここにおります、ラーマ様。
+[k]
+
+＠ラーマ
+どこだ……シータ……どこにいる……？
+[k]
+
+＠ラーマ
+……会いたかった、会いたかった。[r]本当に、本当に会いたかったんだ。
+[k]
+
+＠ラーマ
+僕は、君がいれば、それだけで良かった……！！
+[k]
+
+[charaFadeout B 0.4]
+[wt 0.2]
+[se ad58]
+[seStop ad58 0.5]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ラーマさん！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+[line 2]早速ですが、治療を開始します。
+[k]
+
+＠ナイチンゲール
+申し訳ありません、本来ならばこんな不衛生な場所で[r]治療を行うべきではないのですが、
+[k]
+
+[charaTalk D]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+サーヴァントですので特例です。[r]貴女は遠慮なく、手を握り締めてください。
+[k]
+
+＠シータ
+……ラーマ様は、一体……？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+わたしが説明します。[r]実は[line 2]。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[wt 0.5]
+
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠シータ
+まあ、そうだったのですか。[r]私のような者が、ラーマ様のお役に立てるなんて。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……あの。それにしても、あなたは……。
+[k]
+
+＠シータ
+[#私はラーマです]。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……！？[r]どういうことですか？
+[k]
+
+＠シータ
+ラーマ様にかけられた呪いはご存じでしょうか？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+確か……バーリという猿を殺した際、背中から騙し討ち[r]したことによる、猿の妻からかけられた呪いだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠シータ
+はい。その呪いは英霊の身となってなお、[r]私たちを引き裂いています。
+[k]
+
+＠シータ
+[#私たちは出会えない]。
+[k]
+
+＠シータ
+サーヴァントとして聖杯戦争に参加する場合、[r]私か、あるいは彼がラーマとして召喚されます。
+[k]
+
+＠シータ
+同時に召喚されることは決してなく。[r]私たちは聖杯戦争ですら、巡り会えない定めです。
+[k]
+
+＠シータ
+……この、特異な状況でも同じです。[r]彼が目覚めれば、きっと私は何処かに消えるでしょう。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そんな……。
+[k]
+
+[charaFace F 0]
+＠シータ
+[line 2]でも、いいのです。それで、いいのです。[r]ラーマ様は私を見ることが叶いませんでしたが、
+[k]
+
+[charaFace F 1]
+＠シータ
+私は、手を握ることさえできた。[r]それだけで……ただ、それだけで幸福です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠エリザベート
+[line 2]それだけでいいの？[r]心からの謝罪は？　全霊をこめた愛の誓いは？
+[k]
+
+＠エリザベート
+そういうものが欲しいとは思わないの？[r]この人、あなたを一度裏切ったのでしょう？
+[k]
+
+＠シータ
+この人は、私を求めて十四年間戦い続けました。
+[k]
+
+＠シータ
+[#魔王:ラーヴァナ]を相手取り、たった一年ほどしか[r]暮らしていなかった私を。
+[k]
+
+[charaFace F 4]
+＠シータ
+私のことを忘れて、新しい妻を娶ることも[r]できたでしょうに[line 2]死ぬまでそうしなかった。
+[k]
+
+[charaFace F 1]
+＠シータ
+それでいい、私はあの恋と、あの愛を知っている。[r]だから、この先もずっと[line 2]互いに互いを求め続ける。
+[k]
+
+＠シータ
+それが叶わぬ願いだとしても、[r]いつか[line 2]叶うと信じて。
+[k]
+
+[charaFace C 1]
+＠エリザベート
+…………そう。[r]短い間だけど、幸福な出会いをしたのね、貴方たちは。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+修復は大分終わりましたが、[r]巣食った“何か”が厄介です。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+恐らく、ゲイ・ボルクの呪いでしょうね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+元気になったとしても、戦力としては見込みが[r]ないかもしれません。……残念ですが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠シータ
+ならば、私がこの身を捧げましょう。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+……！？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠シータ
+私の身を以て、この呪いを解きます。[r]私がこの呪いを背負い、消滅すればいい。
+[k]
+
+＠シータ
+幸い、私とラーマ様は[#同じもの]。[r]呪いを肩代わりするのも容易なはずです。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+ま、待って下さい！[r]それでは本末転倒です！
+[k]
+
+＠マシュ
+ラーマさんは、あなたを[line 2][r]あなたを求めてここまで来たのに！
+[k]
+
+＠シータ
+……はい。[r]ですから。その気持ちだけで……私は満たされました。
+[k]
+
+＠シータ
+それに、伺った様子では今、必要なものは[r]何より強き戦士なのでしょう？
+[k]
+
+＠シータ
+それなら、私の夫[line 2]ラーマ様は、[r]世界で一番強い御方です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+では、[#病巣:のろい]を貴女に転写します。[r]よろしいですね？
+[k]
+
+＠シータ
+ええ、お願いします。
+[k]
+
+[charaFace D 8]
+＠ナイチンゲール
+[line 2]私は生涯独身でしたが。[r]それでも、誰かのために尽くす想いは理解しています。
+[k]
+
+＠ナイチンゲール
+短い間でしたが、貴女と語らえて光栄でした。[r]さようなら、ミセス・シータ。
+[k]
+
+[charaFace F 0]
+＠シータ
+はい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠シータ
+ラーマ様……ラーマ。[r]あなたが背負ったものを、私が少し肩代わりできる。
+[k]
+
+[charaFace F 1]
+＠シータ
+……少しだけ、あなたの戦いに役立てるね。[r]私、それだけで幸せなの。
+[k]
+
+＠シータ
+大好きよ。……本当に、本当に、大好きなの。
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 0 1.7]
+[se ad52]
+[wt 1.0]
+[wait charaSpecialEffect F]
+[wt 1.0]
+
+[wt 0.4]
+
+
+[fadeout black 2]
+[bgmStop BGM_EVENT_1 2.0]
+[wait fade]
+[wt 2.5]
+[bgm BGM_EVENT_11 0.1]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+[line 2]ミスター・ラーマ。ミスター・ラーマ！[r]声が聞こえますか？　耳元で銃を撃ちますか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+それは止めてあげてください……。
+[k]
+
+[charaFadeout A 0.1]
+
+＠ラーマ
+……。[r]……。
+[k]
+
+＠ラーマ
+……。[r]……ああ、行ったのか。
+[k]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+[line 2]ええ、貴方を治すために。
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad7]
+[wait se ad7]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+＠ラーマ
+そうか……。[r]こんな異常な聖杯戦争であれば、もしやとも思ったが。
+[k]
+
+＠ラーマ
+これもまた、運命という訳か。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+彼女は貴方の手を握り、貴方に接吻し、[r]貴方に涙と愛を注ぎました。
+[k]
+
+＠ナイチンゲール
+だからこそ、貴方は今ここに立っている。
+[k]
+
+[charaFace B 1]
+＠ラーマ
+[line 2]ありがとう、ナイチンゲール。[r]その言葉だけで、余は救われた。
+[k]
+
+[charaFace D 0]
+＠ナイチンゲール
+礼など不要です。[r]これこそが私の生きる意味ですから。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_11 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ラーマ
+ナイチンゲール、マシュ、エリザベート、ドクター・ロマン。[r]そして、マスター。
+[k]
+
+＠ラーマ
+心より感謝する。[r]クラス・セイバー。コサラの王、ラーマ。
+[k]
+
+[charaFace B 5]
+＠ラーマ
+ここに、改めて誓いを立てる。[r][%1]、余はあなたのサーヴァントだ。
+[k]
+
+？1：戦える？
+
+？！
+
+[charaFace B 0]
+＠ラーマ
+……体に澱みはない。[r]余は万全に戦える。
+[k]
+
+＠ラーマ
+そして[line 2]今度こそ、[#あの男:クー・フーリン]に勝利する。[r]約束する。余は、もう敗北しない。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……これで、わたしたちの側の任務は完了です。[r]早速ですが、東部に向かいましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+ようやく、本来の治療行為が開始できます。[r]腕が鳴りますね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エリザベート
+ねえ、治療って具体的には？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+ケルトの戦士を粛清します。[r]徹底的に。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠エリザベート
+素敵。最高にそそる治療行為だわ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_4 1.0]
+[wait fade]
+[soundStopAll]
+[end]

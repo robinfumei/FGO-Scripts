@@ -1,0 +1,233 @@
+
+＄94-00-95-03-1-0
+
+
+
+[charaSet A 1017001 1 武蔵]
+[charaSet B 98075000 1 助六]
+[charaSet C 7016000 1 タマモキャット１]
+[charaSet D 7016001 1 タマモキャット２]
+[charaSet E 7016002 1 タマモキャット３]
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[scene 28210]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠タマモキャット１
+ククク、良く来たなご主人＆お正月！[r]我こそは第二の門を守るドリームキャット、
+[k]
+
+[charaFace C 1]
+＠タマモキャット１
+その名もタマモキャットワン！[r]もはや[#炬燵:こたつ]に[#蜜柑:みかん]はないものと思うがいい！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+今度は化け狐？[r][%1][&君:]、交友関係広いのね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠タマモキャット１
+うむ、無論なのだな。ご主人は野性のキャットが相手でも[r][#辛抱:しんぼう]強く話を聞く、忍耐Ａのマスター故な。
+[k]
+
+＠タマモキャット１
+しかし。しかしだ。[messageShake 0.05 4 4 0.7][r]キャットは怒っているのだった！
+[k]
+
+＠タマモキャット１
+年末からこっち、元旦に味わってもらおうと[r]おせちの準備をコツコツ進めた[#大晦日:おおみそか]……
+[k]
+
+＠タマモキャット１
+その為なら最終決戦に出られなくてもいい。[r]オールスターとか正直めんどい。
+[k]
+
+＠タマモキャット１
+そんな覚悟でエビを剥いていたというのに……
+[k]
+
+[charaFace C 4]
+＠タマモキャット１
+肝心のご主人は……ご主人は……！[r]おせちをコンビニで注文していたのだワン！
+[k]
+
+＠タマモキャット１
+しかもアタシの分まで一緒に！[r]その気遣いは嬉しい。でも今回は逆効果ときた！
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[charaTalk B]
+[charaMove B 0,-10 0.1]
+[wait charaMove B]
+[charaMove B 0,0 0.1]
+[wait charaMove B]
+＠助六
+ああ……それはいけねえな……おせちが何で[r]あんなに凝っているか、知らないのかい[&坊主:嬢ちゃん]。
+[k]
+
+＠助六
+あれは三が日、奥方が厨房に立たなくていいよう、[r]日持ちするもので作られた料理だがよ……
+[k]
+
+＠助六
+それをできるだけ豪勢に、旦那の好物で固めるために[r]知恵を絞って作られる、一年の最後の感謝の塊なんだよ……
+[k]
+
+？1：え？
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[messageOff]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠武蔵
+そうね……一年の計は元旦にありっていうけど、[r]奥さんにとってはおせち料理を喜んでもらう事が
+[k]
+
+＠武蔵
+その一年、旦那様に尽くそうと気力、愛情、[r]喜びを充電する行為なんだもの……
+[k]
+
+＠武蔵
+それを余所から買ってきたもので済まそうなんて……[r]うちのクソ親父でさえ、おせちの前だと大人しいのに……
+[k]
+
+？1：ええー？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_7 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaDepth C 5]
+[charaFadein C 0.1 1]
+＠タマモキャット１
+その通りダッ！[r]キャットの胸は悲しみで張り裂けそうだ！
+[k]
+
+＠タマモキャット１
+というか弾けた。[r]それがこのアタシ、即ち[line 3]
+[k]
+
+[charaTalk depthOff]
+
+[charaTalk D]
+[charaFace D 0]
+[charaDepth D 1]
+[charaFadein D 0.1 1024,128]
+[charaMove D 2 0.2]
+[se bac1]
+＠タマモキャット２
+ハッピーニューイヤーご主人！[r]我こそは鷹のタマモキャット２！
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+[charaDepth E 9]
+[charaFadein E 0.1 -1024,128]
+[charaMove E 0 0.2]
+[se bac1]
+＠タマモキャット３
+ヤキナスは妻に食わすななんとやら。[r]我こそはギリギリタマモキャット３！
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠タマモキャット１
+このように、悲しみの心で三体に分かれたネコ、[r]それが荒ぶるネコ科、タマモキャット。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠タマモキャット２
+ふふふ。ただでさえ有能なキャッツがさらに二人。[r]ニンジンが何本あっても足りないときた。
+[k]
+
+＠タマモキャット２
+これはもうメイド喫茶ばかりかネコカフェすら[r]開けるのでは？　だが肝心のネコはどうする。
+[k]
+
+[charaTalk E]
+[charaFace E 3]
+＠タマモキャット３
+喫茶店経営とはさすがメイド、モダンだワン！[r]となれば、マスターはやはりご主人では？
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠タマモキャット１
+その通りだキャッツたち！[r]そうと決まればご主人の確保だワン！
+[k]
+
+＠タマモキャット１
+オーブン・キャ[line 3]ッツ！[r]イーグル、ジャガー、ベアー、スクランブル！
+[k]
+
+＠タマモキャット１
+行くぞご主人、[r]とりあえず普段の三倍かまっていただこう！
+[k]
+
+[charaTalk off]
+
+[charaMove C 0,-20 0.1]
+[charaMove D 256,-20 0.1]
+[charaMove E -256,-20 0.1]
+[wt 0.1]
+
+[charaMove C 0,96 0.1]
+[charaMove D 288,64 0.1]
+[charaMove E -288,64 0.1]
+[se bac1]
+[seVolume bac1 0 0.5]
+
+[wipeFilter rectangleStripDownToUp 0.3 1.0]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

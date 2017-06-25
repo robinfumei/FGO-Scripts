@@ -1,0 +1,218 @@
+＄01-00-06-21-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 98002000 1 フォウ]
+
+[scene 28801]
+
+[backEffect bit_talk_haboob_02]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+……ふう。戦闘、無事終了しました。[r]三蔵さんは無事です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein G 0.1 2]
+[charaFadein B 0.1 0]
+
+＠ベディヴィエール
+なによりです。[r]ですが、肝心の三蔵殿はどこに？
+[k]
+
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1]
+[bgmStop BGM_EVENT_2 1.0]
+[wait wipe]
+
+[charaFadeout G 0]
+[charaFadeout B 0]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0 1]
+
+[bgm BGM_EVENT_7 1.0]
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+＠三蔵
+まったくもう。[r]トータ、いいこと、お師匠から離れちゃだめよ？
+[k]
+
+＠三蔵
+いつだってお師匠に注意しておいて、[r]見失わないようにするのがいいお弟子ってものよ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 5]
+[charaFace F 4]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠俵藤太
+うむ。いいかげん反論するのも馬鹿らしくなってきた。[r]むしろ拙者が阿呆だったな。
+[k]
+
+[charaFace F 1]
+＠俵藤太
+確かにお主は良い師匠だ。[r]これほど弟子を躍起にさせる坊主など見た事がない！
+[k]
+
+[charaFace E 4]
+＠三蔵
+ん？　褒めてる？　褒めてるのよね、それ。
+[k]
+
+[charaFace E 0]
+＠三蔵
+うん、[#真如:しんにょ]真如。[r]トータもいよいよ[#声聞:しょうもん]入りね！
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1]
+[bgmStop BGM_EVENT_7 1.0]
+[wait wipe]
+
+[charaFadeout E 0]
+[charaFadeout F 0]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 10]
+[charaFadein A 0 2]
+[charaFadein B 0 0]
+
+[bgm BGM_EVENT_2 1.0]
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+＠ベディヴィエール
+何を言っているか分かりませんが、[r]頼もしいかぎりです。
+[k]
+
+＠ベディヴィエール
+無我夢中だったようですが、[r]お一人でスフィンクスを撃退してしまった様子。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……スフィンクス、ですか？[r]あの、それって[line 3]
+[k]
+
+？1：三蔵ちゃん、スフィンクスはどこに！？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+すふぃんくす？　あのヘンな動物？[r]アレならあっちの方に沢山いたけど[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それです！　目的の遺跡の周辺には[r]太陽王の神獣がたむろしているそうですから[line 3]
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace E 1]
+[charaFace F 4]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠俵藤太
+逆にそれが目印になる、という訳だな。[r]……怖ろしい。これが御仏の加護か……
+[k]
+
+[charaFace F 0]
+＠俵藤太
+三蔵、お主の思うままに進んでみるのだ。[r]護衛は拙者たちに任せておけ。
+[k]
+
+[charaFace E 0]
+＠三蔵
+[FFFFFF]？　なに、あたしに道案内してほしいの？
+[k]
+
+[charaFace E 1]
+＠三蔵
+もー、そういうコトなら早く言いなさい！[r]全力で案内してあげる！
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace E 5]
+＠三蔵
+あ、でもなんか気をつけて。[r]首の後ろがビリビリするっていうか……
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace E 4]
+＠三蔵
+後ろからイヤな気配がばびゅーんって[r]近づいてる気がするの。
+[k]
+
+[charaFace E 5]
+＠三蔵
+たぶん荒ぶる大岩か何かだから、[r]転がってきたら受け止めなさいね？
+[k]
+
+[charaFace F 4]
+＠俵藤太
+イヤな気配か……お主の勘をもう笑えぬからなあ……[r]これは急いだ方が良さそうだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+[backEffectStop]
+[soundStopAll]
+[end]
+

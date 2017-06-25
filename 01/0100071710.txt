@@ -1,0 +1,318 @@
+
+
+
+＄01-00-07-17-1-0
+
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 4018001 1 ケツァル・コアトル]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 3028000 1 ジャガーマン]
+[charaSet E 98003000 1 Dr.ロマン]
+[charaSet F 98107800 1 ラフム]
+[charaSet G 98107800 1 ラフムＢ]
+[charaSet H 98107800 1 ラフムＣ]
+
+[scene 32801]
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_41 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……門には誰もいません。[r]市の明かりも消えてしまって……
+[k]
+
+＠マシュ
+あんなに賑やかだったウルクは、もう……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠ケツァル・コアトル
+……そうね。たった一日で多くのものが失われたわ。[r]でもあっちの道を見なさい、マシュ。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.4]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+＠ケツァル・コアトル
+夜を照らす火が連なって、川のようでしょう？[r]生き残った人たちが旅団を組んで北壁に向かっているのよ。
+[k]
+
+＠ケツァル・コアトル
+ウルクの城壁では、兵隊さんが今も[#忙:せわ]しなく[r]あの砲台を運んでいる。王の指示通りにね。
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[wt 0.4]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+
+＠ケツァル・コアトル
+ウルクはまだ終わっていないわ。[r]みんなそのために、自分に出来る事をしているのよ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 0]
+＠イシュタル
+そ。哀悼してくれるのは嬉しいけど、[r]今はまだその時じゃないわ。
+[k]
+
+＠イシュタル
+大丈夫、ウルクは今回も生き延びるわ。
+[k]
+
+＠イシュタル
+大洪水があろうと大飢饉で苦しもうと、[r]ケロッと立ち直るぐらいだしね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジャガーマン
+ニャハハ、七年もウルクを飢饉に陥れた大女神が[r]言うと説得力がありますニャー！
+[k]
+
+＠ジャガーマン
+“ウルクを滅ぼしていいのは私だけなんだからね！”[r]みたいな？　こういうのなんて言ったかニャ－。
+[k]
+
+＠ジャガーマン
+私、知ってる気がするんだけどニャー！[r]二十一世紀の日本で言語化されてる気がするんだけどニャー！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk depthOff]
+[charaDepth C 0]
+[charaDepth D 1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠イシュタル
+うっさいわね、虎は黙ってなさい、虎は！[r]間違ってもその四文字だけは口にしないように！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaTalk depthOn]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 1.2]
+[charaFace A 13]
+[wt 0.7]
+
+[bgmStop BGM_EVENT_41 2.0]
+[fadeout black 2.0]
+[wait fade]
+[charaFadeout A 0.1]
+[charaSet D 3028002 1 ジャガーマン]
+[scene 32702]
+[wt 3.0]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+ウル市に到着しました、マスター。[r]人の姿はありませんが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠ケツァル・コアトル
+（サーヴァントの気配……？　残り香かしら。[r]　姿がないという事は、立ち去ったか、殺された……？）
+[k]
+
+＠ケツァル・コアトル
+（いえ、それよりこの惨状……[r]　[%1][&君:さん]にはとても……）
+[k]
+
+？1：ケツァル・コアトル……？
+？2：どうかしましたか？
+
+？！
+
+[charaFace B 0]
+＠ケツァル・コアトル
+いえ、少し気が迷ったの。[r]ごめんなさい、マスター、マシュ。
+[k]
+
+＠ケツァル・コアトル
+家の中を見ないように、と言いかけてしまって。[r]アナタたちのこれまでの旅を[#軽:かろ]んじる行為でした。
+[k]
+
+＠ケツァル・コアトル
+ウルの市民たちに生き残りはいません。[r]みな、家の中で殺されています。
+[k]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_5 0.1 0.5]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャガーマン
+……獣の殺し方じゃないわね、これ。[r]ここまでバラしておいて何も欠けていない。
+[k]
+
+＠ジャガーマン
+ウルの人間は理由もなく殺されたのよ。
+[k]
+
+＠ジャガーマン
+飢餓からでもなく、怒りからでもなく、[r]縄張り意識からでもない。
+[k]
+
+[charaFace D 5]
+＠ジャガーマン
+ただ“殺してみたかったから”で殺された。[r]これは自然界では絶対に起きない出来事[line 3]
+[k]
+
+＠ジャガーマン
+人間社会でいう、快楽殺人事件そのものね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+どう……して？[r]どうしてそんな事が？
+[k]
+
+＠マシュ
+だって、ウルの人たちは無抵抗である事を[r]選んだ人たちです。殺される理由が[line 3]
+[k]
+
+[charaFace A 15]
+＠マシュ
+そんな風にされる理由が、一つもありません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 10]
+＠Dr.ロマン
+……そうだ。ラフムたちにはそもそも消化器官がない。[r]彼らには他の動物を襲う理由がない。
+[k]
+
+＠Dr.ロマン
+生存のための活動は、すべて自身で完結している。[r]なのに他の動物を襲う、という事は[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠イシュタル
+……話は後よ。[r]そのラフムたちが集まってきたわ。
+[k]
+
+[charaFadeout C 0.1]
+
+[se ad200]
+[seVolume ad200 0 0.4]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠ラフム
+[line 6]。[r][line 9]。
+[k]
+
+[messageOff]
+[seStop ad200 2.0]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[wt 1.0]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+[wt 1.0]
+
+？1：……あの、ひきずっているもの、は[line 3]
+
+？！
+
+[se ad202]
+[wt 0.4]
+＠ラフム
+[line 3]キ。キキ、キ[line 3][r]ギキキキキキキキキキキキキキキキ！[bgm BGM_EVENT_3 0.1]
+[k]
+
+？1：マシュ……！
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+了解です、マスター！[r]敵個体ラフム、ここで撃退します……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

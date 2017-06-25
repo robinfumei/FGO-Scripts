@@ -1,0 +1,240 @@
+
+＄91-30-02-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 3011001 1 フィン]
+
+[scene 20803]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+もしも王がいるとすれば、この森だろうな……。
+[k]
+
+？1：嫌な場所？
+？2：浮かない顔だ
+？！
+
+＠ディルムッド
+ええ……何しろここは私が死を迎えた場所なので。
+[k]
+
+[charaFace D 5]
+＠ディルムッド
+王、フィン・マックールと共に猪狩りに出掛け、[r]そして私はその猪[line 2]魔獣に殺されました。
+[k]
+
+[charaFace D 4]
+＠ディルムッド
+その後のことは、語るまでもないでしょう。[r]王の癒しは、私には与えられなかった。
+[k]
+
+[wt 0.2]
+[se ad27]
+[wait se ad27]
+[wt 0.3]
+
+＠E：？？？
+いかにも！[r]その通り、その通りだよディルムッド！
+[k]
+
+
+[charaTalk D]
+[charaFace D 5]
+＠ディルムッド
+王……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠フィン
+そう、おまえの王、完璧すぎるマックールだ。[r]しかし……なんだ、その代わり映えのない態度は。
+[k]
+
+[charaFace E 0]
+＠フィン
+まったく奇妙な男だよ、おまえは。[r]この私が憎くはないのかな？
+[k]
+
+＠フィン
+そう。この森で、この場で、私は倒れたおまえに[r]水を分け与えることを拒んだ。
+[k]
+
+[charaFace E 5]
+＠フィン
+本来救われることもできたおまえを、[r]私は私の意志で見捨てたのだぞ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+それは、私が[line 2]。[r]私が、悪かったのです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠フィン
+ははははは、さすがだな忠義の騎士。[r]しかし、それは嘘だな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+なっ……！？[r]いえ、そのような事は……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フィン
+親指の爪をかむかむするまでもない。[r]おまえの新しい主から、そこは察しているだろう。
+[k]
+
+[charaFace E 5]
+＠フィン
+何故なら[line 3]おまえは後悔をしていない。
+[k]
+
+＠フィン
+仮にどこかの聖杯戦争に召喚されたとしても、[r]おまえはこの不遇の死を覆そうとは望むまい。
+[k]
+
+＠フィン
+その不遇は突き詰めれば、[r]我が妃グラニアに起因するもの。
+[k]
+
+[charaFace E 0]
+＠フィン
+おまえはグラニアを愛し、私とも和解した。
+[k]
+
+＠フィン
+それ故にこの結末も受け入れるべきである[line 2][r]そんなことを考えているのだろう？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ディルムッド
+む、無論です。[r]我が王よ、私は[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠フィン
+だが！　悪くないと考えながらも、[r]真実のおまえは悔やみ、恨んでいる！
+[k]
+
+＠フィン
+どうしてあのとき、水を注いでくれなかったのか！[r]どうしてあのとき、怪我を癒してくれなかったのか！
+[k]
+
+＠フィン
+いったい、自分はあの時[r]どうすれば良かったのか、とな！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ディルムッド
+っ……黙れ！[r]貴様、王ではないな！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠フィン
+ふはは、いかにも！　私はおまえの恨みの具現。[r]おまえが恥と感じ封じていたもの[line 2]。
+[k]
+
+＠フィン
+忠実な騎士ヅラをするために、おまえが[r]怯えて逃げ出した“何か”だ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+……っ！[r]こんな……ものが、俺の本心……だと……！？
+[k]
+
+？1：一緒に戦おう！
+？2：そういうこともあるよ
+
+？！
+
+[charaFace D 0]
+＠ディルムッド
+主……！
+[k]
+
+[charaFace D 5]
+＠ディルムッド
+そうだ、過去の己がどうあれ今の俺はサーヴァント。[r]新たな主に仕え、敵を排除するが務め。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[charaFace D 2]
+[bgm BGM_EVENT_3 0.1]
+＠ディルムッド
+我が心が生み出した悪しきフィン・マックールよ。[r]騎士として、責任をもって仕留めさせていただく！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠フィン
+フハハほざきおるわ優男が！
+[k]
+
+[charaFace E 5]
+＠フィン
+罪悪感に食い潰されずに持ち堪えられるかどうか[line 2][r]その痩せた心を試させてもらおうではないか！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

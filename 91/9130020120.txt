@@ -1,0 +1,180 @@
+
+＄91-30-02-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 3011001 1 フィン]
+[charaSet F 98006200 1 ？？？]
+[charaSet G 98006200 1 エネミー]
+[charaSet H 98006200 1 エネミー]
+
+[scene 20900]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠ディルムッド
+ここは……いえ、調度品などは記憶と異なりますが、[r]かつて自分が仕えていた王の城を思い出させます。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+王、というともしかしてフィン・マックールかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ディルムッド
+……はい、あのお方です。かつてはここで、[r]仲間や王と共に酒を酌み交わしたものです。
+[k]
+
+[wt 0.4]
+[charaFace D 4]
+＠ディルムッド
+……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.4]
+[charaTalk F]
+[charaFadein F 0.7 1]
+[wt 0.7]
+[charaFadein G 0.7 -350,0]
+[charaFadein H 0.7 350,0]
+[wt 0.7]
+＠？？？
+ディルムッド……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ディルムッド
+その声。[r]おまえたちはフィオナ騎士団の……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 -350,0]
+[charaFadein H 0.1 350,0]
+＠？？？
+王はここにはいらっしゃらない。[r]フィン・マックールはここにはいない。
+[k]
+
+＠？？？
+王が呼んでいる。[r]フィン・マックールに会わなければ、輝きは戻らない。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ディルムッド
+王が、この世界に……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 -350,0]
+[charaFadein H 0.1 350,0]
+＠？？？
+そして同時に、我らはおまえの行方を阻む。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ディルムッド
+……穏やかではないな。[r]一体どういうことか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 -350,0]
+[charaFadein H 0.1 350,0]
+＠？？？
+我らは真実の仲間ではない。[r]この精神内部において門番を担うだけの存在。
+[k]
+
+＠？？？
+とはいえ、実力はおまえが記憶しているものの通り。[r]腕を見せろディルムッド。
+[k]
+
+[bgmStop BGM_EVENT_1 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠？？？
+かつての、あるいはこれからの、[r]フィオナ騎士団に相応しい武の冴えをな！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+どうやら戦うしかないな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ディルムッド
+……了解しました。[r]マスター、どうかご命令を！
+[k]
+
+？1：勝つぞ！
+？2：戦おう！
+
+？！
+
+[charaFace D 2]
+＠ディルムッド
+はっ！　お望みのままに。[r]ディルムッド・オディナ[line 2]参る！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

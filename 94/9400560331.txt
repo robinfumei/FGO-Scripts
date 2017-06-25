@@ -1,0 +1,291 @@
+
+＄94-00-56-03-3-1
+
+[soundStopAll]
+[se ad37]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 3024000 1 玉藻の前]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 3001001 1 クー・フーリン]
+[charaSet E 3025000 1 清姫]
+[charaSet F 6001002 1 小次郎]
+[charaSet G 3004001 1 カルナ]
+[charaSet H 98006000 1 立て看板]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+＠立て看板
+～第一回・サーヴァントと[%1]マスターの[r]懇親ＢＢＱ大会会場～
+[k]
+
+[seStop ad37 5.0]
+[wt 1.0]
+[bgm BGM_EVENT_28 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 1]
+＠マシュ
+ゲットできた肉が多すぎたのでみんなでバーベキューでも、[r]というのに異論はないのですが。
+[k]
+
+＠マシュ
+立て看板はいらないのでは……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠玉藻の前
+ノンノン！[r]こういうのは気分が大事なのです、気分が！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠スカサハ
+ふむ。やはりルーン火で焼いた肉はひと味違う。[r]もぐもぐ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠クー・フーリン
+どこ行ってたかと思やあ、一人で狩りしてたとはな……[r]オレらが奔走した甲斐がねぇじゃねぇか。
+[k]
+
+？1：倍くらいある鹿、一人で担いで帰ってきたしね
+？2：おかげで食べきれないくらいの肉が……
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+食料の残り少なさに気付いておられたとは。[r]さすがです……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet B 9004000 1 マルタ]
+[charaSet C 2026000 1 アルトリア]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠清姫
+ああ、ますたぁ……。ますたぁの空腹に[r]気付けなかったとは、わたくし、一生の不覚。
+[k]
+
+[charaFace E 1]
+＠清姫
+もしまた空腹に耐えきれないようなことがあれば、[r]次は遠慮なく言ってくださいね？
+[k]
+
+＠清姫
+わたくし、この身をいつでも捧げる覚悟はできております[r]……尻尾あたりがオススメです。
+[k]
+
+？1：ほ、他のお肉が今はいっぱいあるから！
+？！
+
+[charaFace E 0]
+＠清姫
+確かにその通り。では、どうぞ、ますたぁ。[r][#わたくし火]でじっくり焼いた鹿肉ですよ。
+[k]
+
+[charaFace E 3]
+＠清姫
+はい、あーん……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+さっきから、ルーン火とかわたくし火とか、聞き慣れない[r]単語が頻出しているのですが……。
+[k]
+
+＠マシュ
+この方達にとっては、普通の火を用意するよりよほど[r]簡単なことなのでしょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠小次郎
+芸達者な御仁ばかりでござるからなあ。
+[k]
+
+[charaFace F 5]
+＠小次郎
+しかし実際、火の種類で味に違いは出るものか。
+[k]
+
+[charaFace F 4]
+＠小次郎
+食べ比べはしたものの、[r]拙者の貧乏舌には難問でござった。
+[k]
+
+？1：同感でござる……
+？2：き、気分の問題では……？
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠小次郎
+さて。ではこういうのはどうかな。[r]カルナ殿。かくかくしかじか。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠カルナ
+……わかった。[r]マスターが望むなら……力になろう。
+[k]
+
+[se bac72]
+[flashin once 0.25 0.5 FFFFFFAF FFFFFF00]
+[charaFace G 2]
+＠カルナ
+[line 3]！！
+[k]
+
+？1：目からビーム！？
+？2：真の英雄は……眼で肉を焼く！
+？！
+
+[messageOff]
+[charaFadeout G 0.1]
+[se bac36]
+[se ad11]
+[effect bit_talk_29]
+[wt 0.1]
+[seStop ad11 2.0]
+[wait effect bit_talk_29]
+[wt 1.0]
+
+[charaTalk F]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+[charaFace F 1]
+[charaFadein F 0.1 2]
+＠小次郎
+はっはっは。[r]炭火肉ならぬ炭化肉にござるな、これは。
+[k]
+
+＠小次郎
+火の種類を増やそうと思ったが、これはしたり。[r]過ぎたるは及ばざるが如し、という事よなぁ。
+[k]
+
+[charaFace G 4]
+＠カルナ
+……力加減を失敗した。[r]謝罪する、マスター。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠マルタ
+こらー！　食べ物を粗末にしてはいけません！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠小次郎
+おお、マルタ殿がついに拳を構えたか！[r]あの握りは柔術ではないな、やはり喧嘩殺法か！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠マルタ
+なんでちょっと嬉しそうなのよ！[r]別に肉焦がしたくらいで殴りはしないっての！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠小次郎
+ええー？[r]ほんとにござるかぁ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠カルナ
+……謝罪する。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アルトリア
+[line 3]むぐむぐ。[r]どの肉も、美味しいのは美味しいのですが。
+[k]
+
+[charaFace C 4]
+＠アルトリア
+やはりＢＢＱは、[r]料理として少し雑なのは否めませんね……？
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_28 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

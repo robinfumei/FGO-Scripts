@@ -1,0 +1,227 @@
+
+
+
+＄01-00-07-20-5-0
+
+[soundStopAll]
+[se ad2]
+[seVolume ad2 0 0.2]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[charaSet E 98107400 1 牛若丸]
+
+[scene 20733]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+やりました！　ティアマト神、ついに捕捉！[r]作戦可能域です、マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠イシュタル
+ヒュウ、やったわね[%1]！
+[k]
+
+＠イシュタル
+ケイオスなんたらの汚染も強くなる一方だったし、[r]これ以上近づかなくていいのは助かるわ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+（ビーストⅡから十分に距離を取ってこの霊基汚染……[r]　もし直接戦闘する状況になったら……）
+[k]
+
+＠Dr.ロマン
+いや、そんな最悪の状況にはならないとも！[r]ケツァル・コアトル、準備はいいかい！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+ええ、任せて。いつでも行けるわ。[r][%1][&君:さん]からの魔力提供も十分。
+[k]
+
+＠ケツァル・コアトル
+ここまで来れば[line 3][wt 0.4][charaFace D 2][s 150]伏せなさい、マシュ！
+[k]
+
+[charaFadeout D 0.1]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 0.4]
+[charaMove A 0,-512 0.2]
+[charaFadeout A 0.2]
+[effect bit_talk_37]
+
+[se bac93]
+[effect bit_talk_03]
+[wt 2.5]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠牛若丸
+残念。[#目障:めざわ]りな[#護:まも]り役から始末したかったのだが。[r]また功を焦ったな、私は。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+牛若丸……！　そうか、ケイオスタイドの範囲内では[r]とてもじゃないが反応を分けて観測できない……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+牛若丸さん……！　また我々の妨害をするのですか！？[r]身も心もティアマト神の従属になってしまったと……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠牛若丸
+そう宣言した筈だが？[r]母上の支配は心地よい。何を考えずとも良くなる。
+[k]
+
+＠牛若丸
+憎しみを晴らす事だけに専心できる。[r]貴様らを殺す事だけが舌を濡らす愉しみとなる。
+[k]
+
+＠牛若丸
+この地に残った人間はもはや数えるほど。[r]私もずいぶんと斬り殺した。肉の感触はもう十分だ。
+[k]
+
+＠牛若丸
+後は母上によるウルク殺しを共に味わうのみ。[r]国を、大地を殺すなど、これ以上の法悦は他に無し。
+[k]
+
+＠牛若丸
+邪魔立てはさせぬぞ？[r]母上の泥に飲まれぬのなら、貴様らはここで死ぬがいい。
+[k]
+
+[charaFace E 0]
+＠牛若丸
+[line 3]それとも、母上ではなく私の眷属となるか？[r]それはそれで愉しい。
+[k]
+
+＠牛若丸
+あと数日も経てば、私も母上と同じになる。[r]知った仲だ、魔神柱程度の使い魔にはしてやるぞ？
+[k]
+
+[charaFace E 1]
+＠牛若丸
+虫のようにいたぶり、虫のように扱ってやろう。[r]かつて私をそのように殺した、兄上と同じようになぁ？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]っ。[r]駄目です、マスター……牛若丸さんは、もう[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠イシュタル
+……ええ。知り合いらしいけど、コイツはもう手遅れよ。[r]中身、ぐちゃぐちゃだもの。
+[k]
+
+＠イシュタル
+自己増殖からの個体融合。何百という自分と融け合って、[r]今にも内側から破裂しそう。
+[k]
+
+＠イシュタル
+……そうなったら中からどんな化け物が出てくるのか、[r]想像したくもないわ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠牛若丸
+決まっていよう。我が[#臓物:ハラ]からあふれ出るは[r]人間への恨みのみ。我が百万の屍で出来た肉の塔。
+[k]
+
+＠牛若丸
+ゴルゴーンなど足下にも及ばぬ血狂い武者となって、[r]貴様らを殺し尽くしてくれよう！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+ゴルゴーンなど、とはよく言った……！[r]倒される側の自覚はあるようね、復讐者！
+[k]
+
+＠ケツァル・コアトル
+[%1]、やるわよ！[r]どの道、彼女がいては宝具使用もままなりません！
+[k]
+
+＠ケツァル・コアトル
+あの黒いサーヴァントを、ここで根こそぎ殲滅します！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠牛若丸
+ハッ、出来るものならやってみよ！[r]貴様らの目論見、この私がいるかぎり通らぬと思え！
+[k]
+
+
+[messageOff]
+[seStop ad2 0.4]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

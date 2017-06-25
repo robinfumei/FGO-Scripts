@@ -1,0 +1,413 @@
+＄01-00-06-24-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 1020000 1 ランスロット]
+
+[scene 28800]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0 1]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[se bac95]
+[charaEffect H bit_talk_12]
+[charaShake H 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaFace H 2]
+＠ランスロット
+くぅ……！[r]この、肉体より骨格に響く重撃は、まさに……！
+[k]
+
+
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_3 1.5]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+目は覚めましたか、ランスロット卿！[r]これで分からないのなら、次はお城をぶつけます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠ベディヴィエール
+そこまで！？
+[k]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+………………いや。[r]君の言う通りだ、マシュ。
+[k]
+
+＠ランスロット
+円卓の騎士と戦い、破れたのだ。[r]もはや私は王の騎士を名乗れまい。
+[k]
+
+[charaFace H 4]
+＠ランスロット
+私の愚かさが晴れた訳ではないが[line 3][r]君たちと戦う理由は、私にはなくなった。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+ようやく素直になったのね。[r]ランスロット、どう見ても嫌々戦ってるんだもの。
+[k]
+
+[charaFace E 1]
+＠三蔵
+……でも、あれだけ頑固な人が今回はあっさり[r]負けを認めたわね。どうしてかしら？
+[k]
+
+
+？1：三蔵ちゃん、ギャラハッドはね……
+？2：三蔵ちゃん、ランスロットはね……
+
+？！
+
+
+[charaFace E 2]
+＠三蔵
+うそ！？　親子なの、あの二人！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フゥ～～、フォ[line 3]ウ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いえ、ノーです三蔵さん。
+[k]
+
+＠マシュ
+父に見えたのは子供の頃だけ。[r]そうギャラハッド氏の霊基は証言したがっています。
+[k]
+
+[charaFace A 4]
+＠マシュ
+実際、ランスロット卿とギャラハッド卿の仲は[r]そう良くなかったはず。
+[k]
+
+[charaFace A 2]
+＠マシュ
+そうですよね、お父さん！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace A 2]
+[charaFace H 3]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠ランスロット
+いや、私は上手くやっていきたかったのだが……[r]すまない、その呼び方は心臓に悪い。
+[k]
+
+＠ランスロット
+心の準備ができていないとショック死しかねない……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+（複雑な家庭環境でしたからね……[r]　まさか英霊になって念願の呼び方をされるとは……）
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+ふむ。綺麗さっぱり敵意も殺気も消え失せた。[r]ランスロット殿はもはや敵にあらず、だな。
+[k]
+
+[charaFace F 0]
+＠俵藤太
+それで、どうする[%1]？
+[k]
+
+＠俵藤太
+ランスロット殿を捕らえて聖都に入る、[r]あるいは山の民に預ける、という手もあるが？
+[k]
+
+
+？1：味方になってもらうのは……？
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+それは……ふふ。そうですね、その通りです。[r]私では言いづらい事をあっさりと言ってくれました。
+[k]
+
+＠ベディヴィエール
+ランスロット卿が味方になってくれるのなら、[r]これほど頼もしい事はありません。
+[k]
+
+[charaFadeout B 0.1]
+
+
+？2：ダ・ヴィンチちゃんの仇……
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+……敗北した以上、私の命は君たちに預ける。[r]だがその前に、君たちをある場所に案内させてほしい。
+[k]
+
+＠ランスロット
+私が消えればその場所を知る者はいなくなる。[r]それはなんとしても避けたいのだ。
+[k]
+
+＠ランスロット
+私の部隊が君たちを乗せて走る。[r]ここからなら移動には半日もかからない。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+……訳ありのようね。[r]どうする、[%1][&:さん]？
+[k]
+
+
+？1：……行ってみよう
+？2：どのみち、荒野に戻るしね
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+了解しました。[r]でも、一体どんな場所なんでしょう……？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[wt 1.0]
+
+[scene 30300]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+
+＠マシュ
+こ[line 3]こんな場所に野営地が！？[r]それに、それに[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠三蔵
+人がいっぱいいるわ！[r]山の民、砂漠の民、それに聖地の人たちまで……！
+[k]
+
+[charaFace F 2]
+＠俵藤太
+それも昨日今日できたものではない！[r]もうこれは難民たちの村と言えよう！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFace H 0]
+[charaFadein B 0.1 2]
+[charaFadein H 0.1 0]
+
+＠ベディヴィエール
+ランスロット卿、貴方は[line 3][r]難民たちをここに避難させて、匿っていたのですか！？
+[k]
+
+＠ランスロット
+……聖抜に選ばれてしまった者は[r]聖都に輸送する他なかったがな。
+[k]
+
+＠ランスロット
+選ばれなかった人々をどうするかは私の自由だ。[r]王は処罰しろ、とは命じなかった。
+[k]
+
+[charaFace H 4]
+＠ランスロット
+それに、王命に背いて放浪する騎士たちも少なくは[r]なかった。彼らにも居場所は必要だ。
+[k]
+
+[charaFace H 0]
+＠ランスロット
+なので[#騎士達:かれら]には難民たちの警備をしてもらっていた。[r]ようは私の私設軍隊だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠三蔵
+もう、すっごい詭弁ね！[r]これ、立派な反逆罪よランスロット！
+[k]
+
+[charaFace E 1]
+＠三蔵
+でも素敵だわ！[r]ほらマシュ、ヘビィーな感想、言ってあげて！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+
+＠マシュ
+[#穀潰:ごくつぶ]し！[r]顔に似合わずやりますね、お父さん！
+[k]
+
+[charaFace H 3]
+＠ランスロット
+だから、その呼び方は止めなさいと……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+＠C：？？？
+おやおや。騒がしいと思えばやっと到着かい？[r]いやはや、ずいぶんと待たされた！
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFadein G 0.1 0]
+
+＠マシュ
+[line 6]。
+[k]
+
+＠フォウ
+フォ[line 3]
+[k]
+
+？1：ダ[line 3]！
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+
+＠ダ・ヴィンチ
+ハァイ、ナイスリアクション！[r]万能天才ダ・ヴィンチちゃん、何日かぶりに登場さ☆
+[k]
+
+[charaFace C 1]
+＠ダ・ヴィンチ
+元気にしてたかい、[%1][&君:ちゃん]！[r]まずは再会を祝して乾杯、いっとく？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

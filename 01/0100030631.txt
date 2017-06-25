@@ -1,0 +1,326 @@
+＄01-00-03-06-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 ？？？]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 2009201 1 ？？？]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+これで最後です。[r]先ほど、人の声がしましたが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0 1]
+[charaFace D 1]
+＠ドレイク
+別に食い散らかしがある訳でもないから、[r]逃げ切れたのかね？
+[k]
+
+＠Dr.ロマン
+ん？　さっき言ってた微弱な魔力反応だけど、[r]君たちの周囲に存在するみたいだ。
+[k]
+
+＠Dr.ロマン
+どう？　見つからないかい？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0 1]
+[charaFace A 7]
+＠マシュ
+ええ、特には……。
+[k]
+
+[se ad54]
+＠E：？？？
+ぽびゅ！？
+[k]
+
+？1：何か踏んだよ？
+
+？2：ヘンな声がした
+
+？！
+
+[charaFace A 6]
+＠マシュ
+え？　わたし、なにか踏ん付けちゃいました？[r]ええと……これ、でしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.5]
+[charaFadeout E 0]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠ドレイク
+なんだこれ、ぬいぐるみ、かぁ？[r]……不細工だな。アタシが縫った方がまだマシなほど。
+[k]
+
+＠Dr.ロマン
+あ、それだ。[r]その物体から微弱な魔力が検出されている。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+これが使い魔、ですか？[r]……うーん、ぬいぐるみにしか見えませんが。
+[k]
+
+[charaFace E 3]
+＠E：？？？
+きゅんきゅん♪
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠エウリュアレ
+……。[r]なにかイヤーな視線を感じるわね。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+わたしもです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ドレイク
+あれ、アンタたちも？[r]アタシもなんだけど。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+じー。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠エウリュアレ
+じー。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ドレイク
+じー。
+[k]
+
+＠E：？？？
+……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠アステリオス
+……わっ！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace E 2]
+＠E：？？？
+ひょぉ！？[r]いきなり何すんだテメェッ！
+[k]
+
+[charaFace E 3]
+＠E：？？？
+……あ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩、先輩。[r]仮称・物体Ｘが喋ってます。
+[k]
+
+？1：喋るぬいぐるみはレアだ
+
+[charaFace A 1]
+＠マシュ
+……なるほど、確かに希少価値はありそうです。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+いや、ぬいぐるみじゃないからね？[r]ぬいぐるみっぽいけど。それは認めるけど。
+[k]
+
+？2：解剖してみよう
+
+[charaFace A 1]
+＠マシュ
+解剖……ですか。[r]そうですね、いいかもしれません。
+[k]
+
+[charaFace E 5]
+＠E：？？？
+よくないよ！？
+[k]
+
+？！
+
+[charaFace A 0]
+＠マシュ
+……やはり喋りましたね。[r]敵ですか？　味方ですか？
+[k]
+
+[charaFace E 1]
+＠E：？？？
+[line 2]フッ。それはこっちの台詞だな。
+[k]
+
+[wt 1]
+[charaFace E 4]
+＠E：？？？
+……すいません、味方だと思います。[r]危害を加える気は毛頭ありません。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠H：？？？
+あ[line 8]！！
+[k]
+
+[charaFadeout H 0]
+[charaTalk A]
+[charaFadein H 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+……サーヴァント！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[se bac8]
+＠E：？？？
+待て、こいつらは敵じゃない……ぷぎゅる？！
+[k]
+
+[charaTalk H]
+[charaFace H 5]
+＠H：？？？
+また浮気したの、ダーリン！？[r]私と！　言うものが！　ありながら！
+[k]
+
+＠H：？？？
+もう我慢のげんかいです！[r]さあ、お仕置きの時間よ！
+[k]
+
+[charaFace E 0]
+＠E：？？？
+え、この状況で真っ先に殴られるの俺なの！？[r]ちょ、待って、待って、誤解、誤解よ！
+[k]
+
+[charaFace E 4]
+＠E：？？？
+胸とか足とかガン見してたのは確かだけど！[r]ごめんなさ……ぶぎゅる！
+[k]
+
+[se bac9]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……あ、あの。
+[k]
+
+[charaFadeout A 0]
+[charaTalk H]
+[charaFadein A 0.1 2]
+[charaFace H 2]
+[charaFadein H 0.1 0]
+＠H：？？？
+なに！？　男女の問題に口を挟まないで！[r]民事の事案よ、民事の！
+[k]
+
+[charaFace A 11]
+＠マシュ
+マスター、どうしましょう……？[r]わたし、こんなに途方に暮れるのはじめてです。
+[k]
+
+[charaFace A 7]
+＠マシュ
+あ、いえ。さっきの黒何とかと会ったときも[r]途方に暮れました。暮れっぱなしです。
+[k]
+
+＠マシュ
+今回の時代は、[r]全体的にネジがゆるんでいるといま気付きました！
+[k]
+
+？1：……真名は？
+
+？2：この島で何してるの？
+
+？！
+
+[charaFace H 0]
+＠H：？？？
+ん？　……あれ、[&貴方:貴女]、人間？[r]マスターなの？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠E：？？？
+[%1]……ね。[r]よし、やっと真っ当なサーヴァントに会えたな。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+さて、と。今回の召喚は聖杯戦争なんだよな。[r]俺たちは敵か味方か？　胸のおっきな娘さんは独身？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠H：？？？
+さりげなく質問を混ぜちゃダメ！
+[k]
+
+？1：時代を修正する
+
+？2：世界を修復する
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

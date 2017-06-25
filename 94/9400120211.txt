@@ -1,0 +1,250 @@
+＄94-00-12-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98027000 1 竜脈×２]
+[charaSet B 98027100 1 天使の詩]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 7003001 1 呂布]
+[charaSet F 6013000 1 ファントム]
+[charaSet G 7011002 1 ダレイオス三世]
+
+[scene 21802]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+思い知ったか不埒者ども。[r]サンタクロースとはわりと気に入った仮の姿。
+[k]
+
+＠サンタオルタ
+その正体はブリテンの赤き竜、[r]騎士の中の騎士、アルトリアと覚えるがいい。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠呂布
+[image berserker_language_2]……[r]………………（しょぼんとしている）
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ダレイオス三世
+オオ……サンタ……クロォォウス…………[r]サンタ……クロォォォォウス…………
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ファントム
+さめざめ……さめざめ……さめざめ……[r]私たちが何をしたと……さめざめ……
+[k]
+
+？1：……何か様子、おかしくない？
+？2：……王よ、こちらが悪者みたいですぞ？
+
+？！
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+……確かに、少しだけそのような気がしてきた。[r]私も初仕事だったのでな、つい頭に血が上ったようだ。
+[k]
+
+＠サンタオルタ
+そこの男。貴様は他の二人の言葉が分かるのだな？[r]もしや、そこのツリーがダレイオス君Ⅲ歳なのか？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ファントム
+その通り……彼の王こそは地獄に燃える緑の灯火、[r]サイリウムの君……そして貴女は一体……？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+サンタクロースだと言っただろう。[r]プレゼントを受け取るがいい。
+[k]
+
+
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠呂布
+[image berserker_language_1]！
+[k]
+
+[charaFace G 1]
+＠ダレイオス三世
+オオオオ……！[r]プレゼント、くれぃぃぃいい！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+よしよし。[r]貴様たちにはこれだ。
+[k]
+
+[se ad77]
+[wt 0.6]
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 3]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout A 0.4]
+[charaTalk on]
+
+＠サンタオルタ
+貴様たちは宝具を使う前に死ぬからな。[r]これで少しはやる気、あるいは愛を溜めるがいい。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+＠呂布
+[image berserker_language_1]！
+[k]
+
+[charaFace G 2]
+＠ダレイオス三世
+ためぇぇえええい！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+そして黒マントの男よ。[r]貴様には……よし、これだな。
+[k]
+
+[se ad77]
+[wt 0.6]
+
+[messageOff]
+[charaTalk off]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaFadein D 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[wt 0.1]
+[wt 0.3]
+
+[charaDepth B 3]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout B 0.4]
+[wt 0.4]
+[wt 0.3]
+[charaTalk on]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ファントム
+おお……！　それこそは失われた我が愛、我が光！[r]クリスティーヌ、取り返してくれたのですね！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+だから私のトナカイに近寄るな。[r]私たちは忙しい。仕事は山積みなのだからな。
+[k]
+
+＠サンタオルタ
+行くぞ[%1]。[r]サンタとは一陣の風。長居は無用。
+[k]
+
+＠サンタオルタ
+どれほど食べたりないとしても、[r]パーティー会場には残れないのが辛いところだ。
+[k]
+
+＠サンタオルタ
+では[line 3]さらばだチビっ子たち！[r]来年もまた会おう！　メリークリスマス！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[charaFadeout D 0.1]
+[wait fade]
+[wt 0.5]
+[scene 20322]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+よし。準備運動にはちょうど良い相手だった。[r]今のがトナカイとしての貴様の仕事だ。
+[k]
+
+＠サンタオルタ
+これよりクリスマスが終わるまで、[r]多くの戦いがあるだろう。
+[k]
+
+＠サンタオルタ
+その都度にくつしたを集め、私に渡すがいい。[r]くつしたはプレゼントを求める子供達の心の結晶……
+[k]
+
+＠サンタオルタ
+その魔力をもってサンタクロースは世界中を駆け巡る。[r]つまり、我々の燃料という事だ。
+[k]
+
+＠サンタオルタ
+集めれば集めるほど貴様には相応の景品を与えよう。[r]忘れずに励む事だ。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+次の「お願いサンタさん」は17日だ。[r]それまでにパーティを鍛えておくがいい！
+[k]
+
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

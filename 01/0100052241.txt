@@ -1,0 +1,963 @@
+
+＄01-00-05-22-4-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+
+[charaSet H 98003003 1 Dr.ロマン]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 7]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+
+[scene 20903]
+[fadein black 2]
+[wait fade]
+
+＠マシュ
+聖杯回収……任務、完了です！[r]でも……[charaFace A 4]あまりに犠牲が大きかったですね……。
+[k]
+
+[charaFace B 0]
+＠ラーマ
+何を言っておる。我らはサーヴァント、戦うために[r]召喚され、救うために戦うが定めだ。
+[k]
+
+[charaFace B 5]
+＠ラーマ
+まして今回は時代規模の戦いだ。
+[k]
+
+[charaFace B 0]
+＠ラーマ
+皆、途中で倒れる無念こそあっても戦いそのものを[r]忌避するような輩はおらぬ。
+[k]
+
+[charaFace B 1]
+＠ラーマ
+笑って見送ってやれ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[scene 20720]
+
+[charaSet A 3005002 1 エリザベート]
+[charaSet B 2003001 1 ロビンフッド]
+[charaSet C 5023001 1 ブラヴァツキー]
+[charaSet D 5025001 1 エジソン]
+[charaSet E 2011001 1 ニコラ・テスラ]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 0]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+
+[fadein black 1.0]
+[wait fade]
+
+＠エリザベート
+はー、疲れた！[r]フランス、ローマ、そしてアメリカ！
+[k]
+
+[charaFace A 1]
+＠エリザベート
+まったくもう、アンコールも大概にして欲しいわ。
+[k]
+
+[charaFace B 5]
+＠ロビンフッド
+おまえさん、もう三回も召喚されてるのかよ！？[r]何でだ。局地的におぼこ娘ブームでも来てんのか？
+[k]
+
+[charaFace A 2]
+＠エリザベート
+だだだ誰がおぼこよ！[r]今度言ったらマイクで殴るわよ、このハレンチ男！
+[k]
+
+＠ロビンフッド
+ヘイヘイ。[r]しかしまあ、[charaFace B 0]我らがマスターもようやるわ。
+[k]
+
+[charaFace B 1]
+＠ロビンフッド
+ここで五つ目だろ？[r]どんだけ修羅場潜ってんだ。
+[k]
+
+[charaFace A 0]
+＠エリザベート
+ええ、私の理想のマスターにはまだまだ遠いけど[line 2]。
+[k]
+
+[charaFace A 1]
+＠エリザベート
+それでも、星に手を伸ばし続けるような[r]あの一生懸命さ、嫌いじゃないわ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠エリザベート
+それじゃ、ロビン。[r]お先に失礼するわね。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect A flashErasure 1 1.7]
+[wait charaSpecialEffect A]
+[wt 1.0]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ロビンフッド
+へいへい、お疲れさん。[r]はー、俺もまた呼ばれるか。
+[k]
+
+＠ロビンフッド
+……時代と場所に応じた効果的なトラップでも、[r]勉強しておくかねぇ。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect B flashErasure 1 1.7]
+[wait charaSpecialEffect B]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ブラヴァツキー
+ミスタ・エジソン。[r]良かったわね、世界は救われたわ。
+[k]
+
+[charaFace D 1]
+＠エジソン
+うむ……。[r]そうだな、これで良かったのだ。
+[k]
+
+[charaFace D 0]
+＠エジソン
+我々は[#多から成立した国家:イ・プルーリバス・ウナム]。[r]アメリカだけでは成立しない存在である。
+[k]
+
+[charaFace D 4]
+＠エジソン
+絶望に屈して、この国だけでも[line 2][r]そう考えたのが、最初の躓きだった。
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+……いいんじゃないかしら？
+[k]
+
+＠ブラヴァツキー
+結果的に、そうやって抵抗したからこそ[r]彼らが駆けつけてくるまで、この国は保たれた。
+[k]
+
+[charaFace C 1]
+＠ブラヴァツキー
+過程を間違えるのはいつものこと。[r]それでも正解を拾い上げるのが、エジソンでしょう？
+[k]
+
+[charaFace D 1]
+＠エジソン
+……そうだな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠ニコラ・テスラ
+[line 2]ハッ。これだから実戦派の凡骨は。
+[k]
+
+[charaFace E 0]
+＠ニコラ・テスラ
+理論も分からぬまま、[r]闇雲に挑むから無駄な苦労を重ねるしかないのだ。
+[k]
+
+[charaFace D 0]
+＠エジソン
+……机上の空論、と言うのだったかな。[r]誰かさんのようなタイプは。
+[k]
+
+[charaFace E 5]
+＠ニコラ・テスラ
+あん？
+[k]
+
+[charaFace D 5]
+＠エジソン
+何だ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+あなたたち、還るときくらい[r]仲良くなさいな……。
+[k]
+
+[charaFace C 4]
+＠ブラヴァツキー
+……そろそろ時間のようね。[r]ミスタ[charaFace C 0]・エジソン、戦えて嬉しかったわ。
+[k]
+
+＠ブラヴァツキー
+ミスタ・テスラ、天才なのは認めるけど[r]ちょっとは場に合わせることを覚えなさい。
+[k]
+
+[charaFace C 4]
+＠ブラヴァツキー
+……と言ったところで、場に合わせることを[r]覚えなかったからの天才でもあるのだから……。
+[k]
+
+[charaFace C 1]
+＠ブラヴァツキー
+ま、難しいものよね。[r]天才は。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect C flashErasure 1 1.7]
+[wait charaSpecialEffect C]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+＠エジソン
+[line 2]やれやれ。よりによって貴様と手を組んで、[r]この国を救うことになるとは。
+[k]
+
+[charaFace E 1]
+＠ニコラ・テスラ
+生前では有り得ぬことがある。[r]それがサーヴァントというものだ、凡骨よ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エジソン
+[line 2]フン。私はまた召喚され、今度こそ[line 2][r][&彼:彼女]のために戦うつもりさ。
+[k]
+
+[charaFace D 1]
+＠エジソン
+カルナ君やブラヴァツキーと共に……。[r]真っ当なサーヴァントとしてな。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 1 1.7]
+[wait charaSpecialEffect D]
+[wt 1.0]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ニコラ・テスラ
+……フン。癪に障ること静電気の如しだな。[r]私ともあろうものが、凡骨と同レベルの結論とは。
+[k]
+
+＠ニコラ・テスラ
+うむ[line 3]だが真理だ。[r]機会あらばこの雷神も人理の為に戦おう。まあ……
+[k]
+
+[charaFace E 4]
+＠ニコラ・テスラ
+私が先に召喚されれば問題ないのだが、[r]こればかりは運というものだからなぁ……！
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect E flashErasure 1 1.7]
+[wait charaSpecialEffect E]
+[wt 1.0]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[scene 20903]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7014001 1 ナイチンゲール]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+[fadein black 1.0]
+[wait fade]
+
+＠マシュ
+ナイチンゲールさん！
+[k]
+
+＠ナイチンゲール
+はい。
+[k]
+
+[charaFace A 13]
+＠マシュ
+もう少しで膝を突きそうになったとき、[r]あなたの声が、私を立ち上がらせてくれました。
+[k]
+
+[charaFace A 1]
+＠マシュ
+……ありがとうございます！
+[k]
+
+[charaFace D 0]
+＠ナイチンゲール
+感謝は無用です。[r]元より、そういう契約で始まったものですから。
+[k]
+
+[charaFace D 0]
+＠ナイチンゲール
+[line 2]どうやら、治療は終わったようですね。[r]独りのではなく。この国全体の、大きな傷が。
+[k]
+
+？1：ああ、君のお陰だ
+？2：ありがとう
+
+？！
+
+[charaFace D 8]
+＠ナイチンゲール
+感謝は無用ですが、謹んで受け取ります。[r]その代わりと言ってはなんですが……
+[k]
+
+[charaFace D 8]
+＠ナイチンゲール
+どうか握手を、[&ミスター:レディ][%1]。
+[k]
+
+＠ナイチンゲール
+連れ添った患者が退院する時、こうやって手を[r]握りあうのが、私の密かな楽しみだったのです。
+[k]
+
+？1：もちろん、よろこんで
+
+＠ナイチンゲール
+ご安心を。力加減は調整しますから。[r]では、いつまでも壮健で、私のマスター。
+[k]
+
+？2：わりと可愛いところがあるん[&だね:ですね]
+
+[charaFace D 9]
+＠ナイチンゲール
+……可愛い、という表現は正しくありません。[r]これぐらいの喜びは看護師としての嗜みです。
+[k]
+
+＠ナイチンゲール
+……まったく。そんな悪質な冗談を言うほど元気が[r]あるとは、貴方を侮っていました、マスター。
+[k]
+
+？！
+
+[charaFace A 6]
+[charaFace D 0]
+
+[messageOff]
+[se ad14]
+[shake 0.05 0 3 0]
+[wt 2.0]
+[seStop ad14 1.5]
+[shakeStop]
+
+[wt 0.3]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+いいところですまない。[r]聖杯回収により、そろそろ時代の修正が始まるぞ！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+レイシフトの準備も完了した。[r]いよいよお別れの時間だ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+今回は……その、ここまで来るのに死に別れた[r]サーヴァントたちがあまりに多い。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+別れは寂しいものになってしまったけど、[r]それでもキミたちは勝利した。
+[k]
+
+＠Dr.ロマン
+胸を張って帰還してくれ。[r]それが彼らに向けての最大限の誠意になる。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……。それではナイチンゲールさん、[r]わたしたちはこれで[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace A 0]
+[charaFace D 1]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠ナイチンゲール
+ミス・マシュ。[r]その前に一つ、よろしいでしょうか。
+[k]
+
+＠ナイチンゲール
+私の願いは、世界中から病院を無くすこと。
+[k]
+
+＠ナイチンゲール
+即ち、各家庭で充分な医療が受けられることでした。
+[k]
+
+[charaFace D 4]
+＠ナイチンゲール
+百年経ってもそれが果たされていないとは[r]思いませんでしたが……。
+[k]
+
+[charaFace D 0]
+＠ナイチンゲール
+それでも、私は確信していることが一つある。[r]いつか、病気は根絶されるでしょう。
+[k]
+
+＠ナイチンゲール
+絶望、怨嗟の内に亡くなる患者は存在しなくなる。
+[k]
+
+＠ナイチンゲール
+自分の靴に接吻した兵士が、苦悶の内に死ぬのを[r]看取ることもなくなるでしょう。
+[k]
+
+＠ナイチンゲール
+わたしはそのために戦ったのです。[r]今までも、これからも。
+[k]
+
+＠ナイチンゲール
+だから貴女が後ろめたく思う事はありません。[r]私は私の目的のために。
+[k]
+
+[charaFace D 1]
+＠ナイチンゲール
+貴女は貴女の目的のために、[r][#これから]の時間を生き続けなさい。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……はい。[r]ありがとうございます、婦長。
+[k]
+
+[charaFace D 8]
+＠ナイチンゲール
+ミス・マシュ。[r]夢と願いは違います。
+[k]
+
+[charaFace D 8]
+＠ナイチンゲール
+私の願いは夢ではありません、夢という単語にした瞬間、[r]人はそれを遠くにあるものと勘違いしがちです。
+[k]
+
+＠ナイチンゲール
+限りなく現実を睨み、数字を理解し、徹底的に戦ってこそ[r]願ったものへの道は拓かれる。
+[k]
+
+[charaFace D 8]
+＠ナイチンゲール
+嗚咽を踏みにじり、諦めを叩き潰す。[r][line 2]それが、人間に許された唯一の歩き方です。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+マスター。私は貴方に同志シドニー・ハーバートと[r]等しい信を置いています。
+[k]
+
+[charaFace D 1]
+＠ナイチンゲール
+どうか、ミス・マシュへの助力を。[r]貴方たちの進む道に、どうか光がありますように。
+[k]
+
+＠ナイチンゲール
+では、さようなら。[r]またお目にかかる日を、待ち望んでいます。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 1 1.7]
+[wait charaSpecialEffect D]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……願ったものへの道は……戦ってこそ拓かれる。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ラーマ
+コホン、最後は余だな。[r]マシュ、そしてマスター。
+[k]
+
+[charaFace B 4]
+＠ラーマ
+余の願い、未だ叶わず[line 2]それでも。[r]余は今回の戦いで誇れることが幾つもある。
+[k]
+
+[charaFace B 1]
+＠ラーマ
+シータを救出することができた。[r]しかも、今回は最短記録だ。
+[k]
+
+＠ラーマ
+そして何より、お主たちと出会うことができた。[r]この縁はシータや弟ラクシュマナと同じくらい尊いもの。
+[k]
+
+＠ラーマ
+再びお主のサーヴァントとなることができたら、[r]それは最上の喜びだろう。
+[k]
+
+[charaFace B 2]
+＠ラーマ
+故に、余はこう言う。[r][line 2]また会おう！
+[k]
+
+[charaFace A 1]
+＠マシュ
+はい。また……！
+[k]
+
+[charaTalk B]
+[messageOff]
+[se ad52]
+[charaSpecialEffect B flashErasure 0 1.7]
+[wait charaSpecialEffect B]
+[wt 1.0]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[scene 20820]
+
+[charaSet A 3013001 1 スカサハ]
+[charaSet B 3017001 1 李書文]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠李書文
+……駄目だったか。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad42]
+
+[charaTalk A]
+[charaSpecialEffect A appearance 0 1.0]
+
+[wait se ad42]
+
+[charaFace A 0]
+＠スカサハ
+……いや、そうでもない。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace A 0]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+[charaFace B 0]
+＠李書文
+……何とまあ、驚きだ。
+[k]
+
+[charaFace A 1]
+＠スカサハ
+致命傷を喰らってなお生き残るがサーヴァントであり、[r]私という存在さ。
+[k]
+
+＠スカサハ
+これまでの長い人生で得たスキルの幾つかが、[r]役立ったという訳だ。
+[k]
+
+[charaFace A 5]
+＠スカサハ
+しかし、[#我が弟子:クー・フーリン]は全く最強だった。[r]それを[line 2]タイミングが良かったとはいえ、滅ぼすとはな。
+[k]
+
+[charaFace B 1]
+＠李書文
+さすが、と言うべきか。
+[k]
+
+[charaFace A 0]
+＠スカサハ
+さて、これで残す約束はあと一つだが[line 2]。
+[k]
+
+＠スカサハ
+まあよい。それでは約定を果たすとするか。とはいえ、[r]この世界も聖杯の力が消えた今、既に修正中だ。
+[k]
+
+＠スカサハ
+せいぜい、一合交えるだけだが[line 2]。
+[k]
+
+＠李書文
+何、構わぬよ。どの道ベオウルフと戦ったせいで、[r]残り一撃が儂の限界でな。
+[k]
+
+＠李書文
+お主の提案は儂にとっても都合が良い。
+[k]
+
+[charaFace A 4]
+＠スカサハ
+……そうだったか。[r]いっそ消えた方が楽な苦痛だろうに。
+[k]
+
+[charaFace B 0]
+＠李書文
+かの名高き影の国の女王と打ち合う。[r]これを逃せば、一生叶えられぬだろうからな。
+[k]
+
+[charaFace B 1]
+＠李書文
+それに、ただ一合で問題ないさ。[r]スカサハよ、儂の異名を知っているか？
+[k]
+
+[charaFace A 1]
+＠スカサハ
+……そうだったな。お主の異名こそは、[r]戦士の誰もが憧れて止まぬ一撃必殺の意。
+[k]
+
+[charaFace A 5]
+＠スカサハ
+“二の打ち要らず”[line 2]ならば、私もこの一合に[r]全てを賭けよう。
+[k]
+
+[charaFace B 5]
+＠李書文
+[line 2]ク。それでこそ。
+[k]
+
+[charaFace A 2]
+＠スカサハ
+[line 2][#然:しか]らば。
+[k]
+
+[charaTalk off]
+
+[charaFace B 2]
+＠二人
+尋常に[line 2]
+[k]
+
+＠二人
+勝負！
+[k]
+
+[messageOff]
+[fowardEffect bit_talk_41]
+[fowardEffect bit_talk_14]
+
+[fadeout white 0.2]
+[wait fade]
+
+[se ad32]
+[shake 0.05 4 4 0.5]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[fowardEffectStop bit_talk_41]
+[fowardEffectStop bit_talk_14]
+[wt 2.0]
+
+[bgmStop BGM_EVENT_6 0.1]
+
+[effect bit_talk_07]
+[se ad12]
+[wt 0.25]
+[fadein white 0.1]
+[wait fade]
+[wt 3.65]
+[fadeout white 1]
+[wait fade]
+[scene 10201]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet H 98003000 1 Dr.ロマン]
+
+[fadein white 1]
+[wait fade]
+
+[charaTalk on]
+
+[wt 0.5]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠Dr.ロマン
+[line 2]やあ、今回も何とか成功だったね。
+[k]
+
+＠Dr.ロマン
+これでアメリカ合衆国という、[r]歴史に必要不可欠であろう国家が成立した訳だ。
+[k]
+
+[charaFace H 1]
+＠Dr.ロマン
+何はともあれ、お疲れさま。[r]回収した聖杯の保管はこちらで行うよ。
+[k]
+
+[charaFace H 0]
+＠Dr.ロマン
+ふたりとも、まずは部屋に戻って一息つくといい。[r]今後の方針はまた改めて伝えるからさ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+分かりましたドクター。[r]それでは先輩、部屋に向かいましょう。
+[k]
+
+
+[messageOff]
+[wipeout leftToRight 1.0 1]
+[wt 0.5]
+[se ad8]
+[wait wipe]
+[scene 10310]
+
+[wt 1.0]
+
+[charaFace A 0]
+
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+[wt 0.5]
+
+＠マシュ
+先輩、一ついいですか？[r]今回の旅も、悲しい出来事が沢山ありました。
+[k]
+
+[charaFace A 4]
+＠マシュ
+なのに、こんなことを言うのは[line 2]その、[r]不謹慎かもしれないですけど。
+[k]
+
+[charaFace A 1]
+＠マシュ
+楽しいです、わたし。
+[k]
+
+＠マシュ
+マスターと共に世界と時代を駆け巡り、[r]様々な人間、そして英雄と出会う。
+[k]
+
+＠マシュ
+今回はアメリカに行き、その土地の英雄である[r]ジェロニモさんやビリーさんと出会いましたし……。
+[k]
+
+＠マシュ
+ナイチンゲールさんの凄まじい信念も[r]見ることができました。
+[k]
+
+[charaFace A 13]
+＠マシュ
+敵であった方々も皆[line 2]良い悪いは別として、[r]鮮烈な人たちばかり。
+[k]
+
+＠マシュ
+……凄いですよね。きっと、どんな魔術師でも[r]体験できなかった旅です。
+[k]
+
+＠マシュ
+わたしたちがした旅は、決して歴史に残らない[r]わたしたちだけの記憶に刻まれる旅。
+[k]
+
+[charaFace A 1]
+＠マシュ
+この思い出を、ずっと、ずっと大切にしたい。[r]……そう思います。
+[k]
+
+？1：自分もそう思う
+？2：大切にしよう
+
+？！
+
+[charaFace A 13]
+＠マシュ
+それでは、わたしはここで。
+[k]
+
+[charaFace A 1]
+＠マシュ
+あ、疲れているからといってすぐに[r]横になるのはダメですよ？
+[k]
+
+＠マシュ
+まずはシャワーを浴びて、体をほぐしてから[r]睡眠をとってくださいね。
+[k]
+
+？1：ああ。お休み、また明日
+？2：マシュもお疲れさま
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。[r]次も是非よろしくお願いしますね、先輩。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.0]
+
+[charaFace A 12]
+[wt 1.0]
+[charaFace A 9]
+＠マシュ
+あ、れ……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠マシュ
+せん、ぱ……[r]おかしい、な……わたし、立って[line 3]
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.4]
+[wt 0.2]
+[se ad58]
+[seStop ad58 0.5]
+[wt 1.0]
+
+？1：……マシュ？
+？！
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！　フォウ、フォ[line 3]ウ！
+[k]
+
+
+[messageOff]
+[charaFadeout C 0.4]
+
+
+
+
+
+[wait fade]
+[fadeout black 1]
+
+[scene 10000 1]
+
+[fadein black 1]
+[wait fade]
+
+
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[soundStopAll]
+
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[end]

@@ -1,0 +1,853 @@
+
+＄94-00-77-03-2-0
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1010001 1 エリザベート]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 98105000 1 エリザベート]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 20805]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠マシュ
+戦闘終了しました。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+お疲れさま。[r]大丈夫、周囲に敵影は存在しない。
+[k]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+あるのは一つだけ、[r]目の前で目を回しているデミドラさんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、ドクター。[r]それでは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 4]
+[wt 0.2]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[charaFadein F 0.1 1]
+
+
+＠F：エリザベート
+……。[r]…………。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaShakeStop C]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 8]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[charaFadein A 0.1 1]
+
+＠マシュ
+暴れて頭に血が昇り、気絶してしまっている彼女を[r]下ろしてあげましょう……。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 1.0]
+[wt 1.0]
+[charaFadeout A 0.1]
+[bgm BGM_EVENT_7 0.5]
+[wt 0.1]
+[scene 20805]
+[charaTalk C]
+[charaFace C 7]
+[fadein black 1.5]
+[wait fade]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+酷くない！？[r]ねえ、放置って酷くない！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+すいません、[#優先順位:トリアージ]的には……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+それより、仲間なんていないじゃないの！[r]嘘つきは舌串刺しの刑よ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+
+＠Dr.ロマン
+おかしいな……。[r]どうあっても出てこないらしい。
+[k]
+
+[communicationCharaFace 2]
+
+＠Dr.ロマン
+何かこう、まるで『こんな地雷ヒロインに引っかかるか！　[r]俺は部屋に閉じ籠もっている！』とでも主張しているようだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+どうにかして、出てきてもらう訳には……。
+[k]
+
+？1：あー……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+マスターが急に世界の終わりを見たかのような[r]表情に！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+精神の動揺も激しいぞ！[r]大丈夫か、[%1][&君:ちゃん]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+
+＠エリザベート
+ど、どうしたの[&子イヌ:子ジカ]？[r]元気なさそうね？
+[k]
+
+＠エリザベート
+歌とか聴きたい？[r][#私:アタシ]の歌とか、聴くと元気にならない？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+エリザベートさん、それは[line 3]
+[k]
+
+？1：なるかも、しれない
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk off]
+[communicationCharaLoop 98003003 0 5 0 2]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+
+
+＠二人
+[f x-large]な。
+[k]
+
+＠二人
+[f x-large][messageShake 0.05 5 5 0.5]なんだって～！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaFace C 1]
+[charaTalk B]
+[communicationCharaLoop 98003003 0 5 0 2]
+[charaFadein C 0.1 2]
+[charaTalk on]
+
+＠Dr.ロマン
+[#あ]……[#ありえない]！[r][%1][&君:ちゃん]、ボクが悪かった！
+[k]
+
+＠Dr.ロマン
+キミはきっと、[r]精神面で多大な不調を抱えている！
+[k]
+
+＠Dr.ロマン
+一旦すぐにレイシフトで呼び戻し、[r]この特異点は再度挑戦しよう……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 0]
+
+＠マシュ
+マスター、しっかりしてください！[r]その、ええと……がんばれ、がんばれです！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFadein E 0.1 0]
+
+
+＠フォウ
+フォウ、フォウ、フォウ！
+[k]
+
+
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+[&子イヌ:子ジカ]……とうとう[#私:アタシ]の歌の[r][#虜囚:TORIKO]になったのね……！
+[k]
+
+[bgm BGM_EVENT_3 0.3]
+
+[charaFace C 1]
+
+＠エリザベート
+いいわ、毎日欠かさないボイストレーニングも兼ねて、[r]全力で歌ってあげる！
+[k]
+
+＠エリザベート
+幸運に思いなさい。
+[k]
+
+＠エリザベート
+勇者になった[#私:アタシ]の歌を初めて[r]聴くのが、アンタたちってことに。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+くっ、こうなったら[#急:Ｑ]にワイバーンの群れが[r]襲ってこないだろうか！
+[k]
+
+＠Dr.ロマン
+ダメならローマ兵とかでもいいから……ダメか……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+もう……間に合いません……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_3 0.3]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠D：？？？
+[messageShake 0.05 5 5 0.7]
+ちょっと待ったああああああああ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+？1：良かった……！
+？！
+
+[bgm BGM_EVENT_2 0.3]
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+
+＠エリザベート
+あれ？[r]ええと……緑のほら……ええと……。
+[k]
+
+
+[charaFace A 1]
+
+＠マシュ
+ロビンフッドさん！
+[k]
+
+[charaFace C 5]
+
+＠エリザベート
+そう、それ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ロビンフッド
+く、くそ……思わず、思わず[r]顔のない王を解除しちまった……！
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+[%1]……オタク、蛮勇にも程があるぜ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+え？　え？　何それ、どゆこと？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……！
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスターは我が身を犠牲にして、[r]隠れているサーヴァントを……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+……よく分かんないけど、[r][#私:アタシ]の歌のお陰なのね。
+[k]
+
+[charaFace C 1]
+＠エリザベート
+[&子イヌ:子ジカ]の役に立てて良かったわ！
+[k]
+
+？1：そうだね……
+？！
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠ロビンフッド
+良心が咎めるくらいなら[r]最初からやるなっつーの……はぁ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+
+＠エリザベート
+……あ！
+[k]
+
+[charaFace A 6]
+
+＠マシュ
+エリザベートさん？
+[k]
+
+[charaFace C 5]
+＠エリザベート
+それで分かったわ！[r]さっき、[#私:アタシ]が引っかかったトラップ！
+[k]
+
+＠エリザベート
+アンタの仕業よね！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠ロビンフッド
+面倒くせぇ、変なところで勘が鋭いなコイツ！[r]はいはい、悪ぅございましたね。
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+ここんとこ、街の周りも物騒だからな。[r]害虫やら獣人みたいな連中までうろついてやがる。
+[k]
+
+＠ロビンフッド
+ハロウィンが近いせいですかねぇ。[r]怪物どもも浮かれてるってワケさ。
+[k]
+
+＠ロビンフッド
+なーんで、ここをねぐらにしている身分としちゃあ、[r]罠でも仕掛けておかないと不安で眠れやしないワケ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+ふーん、獣人がいるから不安で眠れないんじゃなくて[r]罠を仕掛けてないと不安なんじゃないの？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠ロビンフッド
+もちろん。無料の安全地帯とか気味が悪いでしょ。[r]安全ってのは本来、金か努力で維持するモンだよ。
+[k]
+
+？1：慎重派なんだね
+
+[charaFace D 4]
+＠ロビンフッド
+そうそう、慎重派ですよー。[r]森じゃあ謙虚な者だけが生き残るってな。
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+基本的に臆病なの、オレ。[r]相手の顔とか、怖くて正面から見ないぐらい。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+だから物陰から敵を仕留めるってコト？[r]ホントはアサシンなんじゃないの、アナタ？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：獣人が……
+
+＠ロビンフッド
+ああ。獣ってのは本来、人間のテリトリーには[r]近づかない。なにしろ慎重だからな。
+[k]
+
+＠ロビンフッド
+それがこんな近くにやってきてやがる。[r]ちょいと[#剣呑:けんのん]な事態だね、こりゃあ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+
+＠マシュ
+それにしても物騒ですね。[r]やはり、あのピラミッドが原因でしょうか？
+[k]
+
+[charaFace C 5]
+＠エリザベート
+そうよ、うん、マシュ！[r]いいこと言ったわアンタ！
+[k]
+
+[charaFace C 5]
+＠エリザベート
+全てはあのピラミッドが原因よ！[r]あれを踏破すれば、きっと色々何とかなるわ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ロビンフッド
+ホントかねぇ？
+[k]
+
+[charaFace D 4]
+＠ロビンフッド
+いや、っていうか元々獣人がやってきたのは、[r]ピラミッドより[line 3]
+[k]
+
+[charaTalk A]
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.3]
+[se ad19]
+[wt 1.7]
+[bgm BGM_EVENT_3 0.3]
+
+[charaTalk D]
+[charaFace D 0]
+＠ロビンフッド
+おっと、どうやらオタクと一緒で[r]トラップに引っかかってくれた連中がいるらしい。
+[k]
+
+＠ロビンフッド
+ピラミッドに挑むなら、手を貸してやってもいいぜ。[r]確かにあの女王様とやらの無遠慮さは目に余る。
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+一度手痛いお仕置きをされても仕方ないだろーなー、[r]と思っていたところでさ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+
+＠マシュ
+ありがとうございます！[r]エリザベートさん、[#斥候:スカウト]が仲間になりましたよ！
+[k]
+
+[charaFace C 0]
+＠エリザベート
+すかうと？[r]それって、まだ見ぬアイドルを捜し求めるやつ！？
+[k]
+
+[charaFace C 6]
+＠エリザベート
+……でも。[r][#私:アタシ]、まだ事務所とかに所属する気は……。
+[k]
+
+＠エリザベート
+どうしようかしら……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠ロビンフッド
+そーゆー夢見がちなところは、[r]執政者としてさっさと直した方がいいと思うよ、オタク？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+う、うるさいわね。[r]それより獣人退治するわよ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+[charaFace C 5]
+＠エリザベート
+さ、[&子イヌ:子ジカ]もマシュもロビンも[r]ついてきなさい！
+[k]
+
+＠エリザベート
+不潔な獣人たちに[#私:アタシ]の街を襲わせる訳には[r]いかないものね！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 0.4]
+＠ロビンフッド
+……[charaFace D 1]。
+[k]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ロビンさん、どうしました？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ロビンフッド
+いいや、何でもねえよ。[r]三つ子の魂百まで、だっけ？　ま、そういう話さ。
+[k]
+
+＠ロビンフッド
+あのドラゴン娘、張り切って突撃するプランしか[r]なさそうですし？　こっちでフォローしますかねぇ。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[se ad59]
+[seStop ad59 1.0]
+[wt 0.4]
+[charaSet G 98105500 1 NPC]
+[charaShake G 0.05 1 1 0]
+
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[charaFadein G 0.1 1]
+[wt 1.5]
+
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaShakeStop G]
+[charaFadeout G 0.1]
+[charaTalk C]
+[charaFace C 1]
+[wt 0.4]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+居たわね！[r]あっはっは、本当にトラップに引っかかってる！
+[k]
+
+＠エリザベート
+逆さづりとか、なんて間抜けなのかしら！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+エリザベートさん！[r]それは先ほどの自分を顧みるべきかと！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+過去のことは心の棚においておいて、[r]前向きに生きることにしてるの、[#私:アタシ]は！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ロビンフッド
+おう。その棚のトロフィー、[r]たまには手にとって見直せよ？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+ええ、忘れたくても忘れられないし！
+[k]
+
+[charaFace C 2]
+＠エリザベート
+それより緑！[r]アイツらを退治したら仲間だからね！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+ほいほい。コイツらを一掃すれば、[r]オレも森に居すわる理由はねぇ。
+[k]
+
+[charaFace D 2]
+＠ロビンフッド
+心底面倒だが腐れ縁だ。[r]オタクのデスツアーに付き合ってやろうじゃねえか！
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+デスじゃないわよ！[r]キュアでシャイニーなライブツアーなんだってば！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.3]
+[wait fade]
+[charaShakeStop C]
+[charaFadeout C 0.1]
+[soundStopAll]
+[end]
+

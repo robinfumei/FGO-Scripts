@@ -1,0 +1,125 @@
+＄01-00-04-13-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10909 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5003001 1 玉藻の前]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0 1]
+[se ad63]
+[wt 0.4]
+[se ad62]
+[wt 0.4]
+[seStop ad62 4.0]
+[fadein black 1]
+[wait fade]
+＠ニコラ・テスラ
+[line 3]成る程、雷神の子と言うだけはある！
+[k]
+
+＠ニコラ・テスラ
+活性魔霧の中でよくやる！[r]通常のサーヴァントであれば霊核を呑まれていよう！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+流石は我が雷電の魔霧に招かれし人の英霊、[r]人の希望を背負って立つか！　だが、はは、ははは！
+[k]
+
+＠ニコラ・テスラ
+その霊核[line 3][r]既に、些か亀裂が走っているようだな！
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+最早長くは保つまい！[r]これよりは、我が雷電に灼かれて砕け散るのみ！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFace F 0]
+[charaFadein D 0.1 0]
+[charaFadein F 0.1 2]
+＠坂田金時
+ハッ。そいつはゴールデンじゃねえか[line 3][r]アンタ、あの霧もうちょっと大人しくさせとけ！
+[k]
+
+[charaFace F 5]
+＠玉藻の前
+あっ、私に命令するのやめてくださいます！？[r]そういう風に強く言っていいのはご主人様だけです！
+[k]
+
+[charaFace F 3]
+＠玉藻の前
+それに、さっきから援護はしていると言いますか。[r]あの霧、呪術が効きにくいんですっ。
+[k]
+
+[charaFace D 4]
+＠坂田金時
+顔近ェって！　……ッたくよ！[r]フォックス、大いに頼りにしてッから頑張れ！
+[k]
+
+[charaFace D 2]
+＠坂田金時
+今はアンタが頼みの綱だ！[r]南無八幡ッ！！
+[k]
+
+[charaFace F 0]
+＠玉藻の前
+ん。それ信仰？　信仰ですか？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+んん。実に美しい……。[r]その笑顔、まるで太陽のような輝きで私の心を灼く！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+フォクシィ・レディ！[r]貴女ならば我が神話に寄り添えるかも知れない！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk F]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 0]
+[charaFadein F 0.1 2]
+＠玉藻の前
+みこっ！？[r]こっちも信仰ですか！？
+[k]
+
+[charaFace F 1]
+＠玉藻の前
+やだちょっと、私モテモテじゃないですか[line 3][r]い、いえいえ、だめだめご主人様じゃなければ駄目っ。
+[k]
+
+[charaFace D 3]
+＠坂田金時
+お、おう、引き続きサポート頼む！[r]そろそろ頃合いだ。
+[k]
+
+[charaFace D 2]
+＠坂田金時
+ヤロウの高級スーツを台無しにしてやるよ。[r]さあ[line 3]とっておきの大技、ぶち込むぜ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,301 @@
+＄01-00-06-09-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet E 1012001 1 ベディヴィエール]
+[charaSet F 98083000 1 ルシュド]
+[charaSet G 98081000 1 難民の男性]
+
+[scene 28500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+円卓、アーサー王語録、その八！[r]“栄養は　ゲテモノ肉でも　変わりません！”
+[k]
+
+＠ベディヴィエール
+マシュさん！　復唱をお願いします！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……栄養は、ゲテモノ肉でも　変わりません……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠難民の男性
+[FFFFFF]？　いい肉じゃないか。[-][r]ちょっと黒くてゲル状の脂身が出るが。
+[k]
+
+＠ルシュド
+美味しい！[r]マシュお姉ちゃん、これ美味しいよ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……マシュ・キリエライト、食べます……[r]生きるって、時に残酷なんですね……
+[k]
+
+＠マシュ
+でも、ダ・ヴィンチちゃんの為にも食べないと……[r]先輩のお役に立てません……
+[k]
+
+[se ad46]
+[seStop ad46 0.3]
+
+＠マシュ
+かたい……やわらかい……もちゃっとして……[r]鼻にツンとくる香料が……脳に染み渡るようで……
+[k]
+
+＠マシュ
+ありがとうございます、ベディヴィエールさん……[r]気を遣ってミントを使ってくれたんですね……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+（ふふ。香料とか使ってないですけど、[r]　そういう事にしておきましょう）
+[k]
+
+？1：ちょっと元気でてきたね
+？2：……いつまでも沈んでいられないね
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。[r]何をするにしても、まずは前向きに、ですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠ベディヴィエール
+それは良かった。もう一皿いきますか？[r]一つしか取れなかった貴重な部位がありますよ？
+[k]
+
+＠ベディヴィエール
+ほら。このおっきな目玉。
+[k]
+
+[charaFace A 2]
+＠マシュ
+全力でお断りさせていただきます！
+[k]
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ところで先輩。[r]あの[#窪:くぼ]み、気になりませんか？
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[charaFadeout A 0.4]
+[wt 1.0]
+[cameraMove 1.5 100,-50 1.25]
+[wait camera]
+[wt 1.0]
+[cameraMove 2.0 -100,-50 1.25]
+[wait camera]
+[wt 1.25]
+[cameraMove 1.5 0,0 1.0]
+[wait camera]
+[wt 1.0]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+山に登ってみて分かったのですが、[r]荒野には不自然な窪みが点在しています。
+[k]
+
+＠マシュ
+あれは一体なんなのでしょう……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ルシュド
+[FFFFFF]？　お姉ちゃんたち、獅子王の裁きを知らないの？[-]
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+なんでしょうルシュド。[r]獅子王の裁き、とは？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ルシュド
+うん。たまに聖都がぱっと光るんだ。[r]そうしたらあんな感じになるんだよ。
+[k]
+
+＠ルシュド
+騎士たちが「獅子王の裁き」って言ってるから、[r]ボクらもそう呼んでるんだけどね。
+[k]
+
+[charaFadeout F 0.1]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]まさか。[r]それって、あのクレーターは[line 3]
+[k]
+
+？1：人工的に作られたもの？
+？2：宝具で破壊された跡……？
+
+？！
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+……ああ。元になったこの時代の大地に、[r]あんなクレーターは存在しない。
+[k]
+
+＠Dr.ロマン
+獅子王を名乗るアーサー王の宝具だろう。[r]アーサー王は無差別に、超級の宝具を振るっている。
+[k]
+
+＠Dr.ロマン
+それこそ空にあるソロモンの光帯のようにね。[r]大気中の魔力濃度が高い理由もそれで説明がつく。
+[k]
+
+＠Dr.ロマン
+……とんでもないな。この大地は文字通り、[r]獅子王に滅ぼされようとしているんだ。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠難民の男性
+……アンタら、獅子王の裁きを知らなかったのか？[r]だから獅子王に逆らえたのか……。
+[k]
+
+＠難民の男性
+いや、すまない。知っていてもアンタらは我々を[r]助けてくれただろう。それは分かるよ。
+[k]
+
+＠難民の男性
+でも知っておいてくれ。[r]オレたちにはもう、行き場がないんだってな。
+[k]
+
+＠難民の男性
+荒野にいてはいつ裁きが落ちてくるか分からない。[r]砂漠に逃げても太陽王の魔獣に喰われる。
+[k]
+
+＠難民の男性
+山岳地帯は比較的安全だが、[r]ここにはもう食べるものがない。
+[k]
+
+＠難民の男性
+……オレたちが生き延びるには聖都に[r]行くしかなかったんだ。それも、もう終わったがな。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+……そうだったのですか。[r]話には聞いていましたが、これほどとは……
+[k]
+
+＠ベディヴィエール
+円卓は既に堕ち、[r]王はヴォーティガーンを上回る魔王と化した。
+[k]
+
+＠ベディヴィエール
+聖都にいる獅子王は許されざる存在……[r]この地に生きる人々にとって、倒すべき悪なのですね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……………………。
+[k]
+
+[wt 0.7]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[wt 0.25]
+[soundStopAll]
+[end]
+

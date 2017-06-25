@@ -1,0 +1,212 @@
+＄01-00-06-26-4-0
+
+[soundStopAll]
+[bgm BGM_BATTLE_12 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 4012000 1 オジマンディアス]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 98078000 1 魔神柱アモン・ラー]
+[charaSet G 5012001 1 ニトクリス]
+[charaSet H 98002000 1 フォウ]
+
+[scene 29320]
+
+
+[charaTalk F]
+[charaFadein F 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠魔神柱アモン・ラー
+オオ……オオォォオオオオオオ……！
+[k]
+
+[messageOff]
+[fadeout white 0.2]
+[se bac82]
+[wait fade]
+[wt 0.1]
+[fadein white 0.2]
+[wait fade]
+[wt 0.8]
+[fadeout white 0.2]
+[se bac82]
+[wait fade]
+[wt 0.1]
+[fadein white 0.2]
+[wait fade]
+
+[se ad14]
+[charaShake F 0.05 3 3 2.0]
+
+[se ba6]
+[messageOff]
+[charaSpecialEffect F enemyErasure 0 2.0]
+[wait charaSpecialEffect F]
+[seStop ad14 0.5]
+[wt 0.5]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+魔神柱、消滅を確認しました……！[r]ですが、これって[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠三蔵
+しまった、やりすぎちゃった[line 3]！？[r]あわわ、オジマンディアス王[line 3]！？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[bgmStop BGM_BATTLE_12 0.5]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.4 1]
+
+＠オジマンディアス
+ふむ、呼んだか？
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace B 2]
+＠オジマンディアス
+しかし、[r]あまりいいものではないな魔神柱化というものは！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォ[line 2]ウ！
+[k]
+
+？1：あっさり戻れるんだ……！
+
+？！
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+当然である！[r]余は太陽王、神々の王なれば！
+[k]
+
+＠オジマンディアス
+だがよくぞ戦った！　その力、神を気取る[r]獅子王を相手にするに相応しい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+ファラオ……！　ご無事ですか、[r]何かよくないものが見えた気がしますが！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFace G 5]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠オジマンディアス
+ニトクリスか、よいところに来た！[r]おまえも供をするが良い！
+[k]
+
+[charaFace G 9]
+＠ニトクリス
+供……？　いえ、お言葉とあらば喜んで！[r]ですが、何の供をすればよろしいので！？
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+フッ、決まっていよう。[r]こやつらは獅子王と相対する資格を示した。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+であれば、残る資格は一つ！[r]余が共に肩を並べるだけの勇者か[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace B 2]
+＠オジマンディアス
+我が国の全て、[r]余の兵団を貸し与えるに足る、[#器:うつわ]か否か！
+[k]
+
+[bgm BGM_EVENT_24 0.1]
+
+？1：オジマンディアス……！
+？2：なんという強がり……！
+
+？！
+
+[charaFace B 2]
+＠オジマンディアス
+[#讃:たた]えるな、慣れている！[r]だが、余をその気にさせた事を後悔せぬ事だ！
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+滅びの火を前にしながらも諦めず、[r]真に世界を救わんとする者よ！
+[k]
+
+[charaFace B 2]
+＠オジマンディアス
+我が名は[#王の中の王:オジマンディアス]！[r]全能の神よ、我が業を見よ、そして絶望せよ！
+[k]
+
+＠オジマンディアス
+魔神柱など前座にすぎぬ！[r]先代より伝わるファラオの闘法を味わうがいい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠ニトクリス
+つまり最終決戦なのですねファラオ！[r]このニトクリス、全力でお照らしいたします！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,51 @@
+＄94-00-77-12-1-0
+
+[se ad2]
+[seVolume ad14 0 0.5]
+
+[charaSet A 1010001 1 エリザベート]
+[charaSet B 7022001 1 茨木童子]
+
+[bgm BGM_EVENT_3 0.1]
+
+[scene 21804]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠エリザベート
+寒いから一気に突っ走りましょう！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+＠茨木童子
+うむ、冷たいチョコが口の中で溶けるのは[r]快感なのだが、冷たすぎて歯が欠けそうだ[charaFace B 2]！
+[k]
+
+[seStop ad2 0.5]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[wt 0.3]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+
+[wt 0.2]
+[se ad132]
+[wt 0.6]
+
+
+[wait fade]
+[wt 0.1]
+[soundStopAll]

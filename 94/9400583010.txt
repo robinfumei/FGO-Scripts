@@ -1,0 +1,169 @@
+
+
+＄94-00-58-30-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 2025200 1 アン]
+[charaSet F 2025100 1 メアリー]
+[charaSet G 9004000 1 マルタ]
+
+
+[scene 30600]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+うおー、ベストタイム！[r]コースレコードだ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+コツはなんなのかな。[r]やっぱり上りより下り重視か。
+[k]
+
+＠アン
+次は下りのときにわたくしが前に体重をかけることに[r]しましょう！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ああ……なんということでしょう……。[r]前にも似たようなことがあったかもしれませんが。
+[k]
+
+＠マシュ
+わたしたちは気付くべきでした。[r]ロープウェイの持つ、最も注意すべき要素に。
+[k]
+
+[charaFace A 14]
+＠マシュ
+そう、ロープウェイは[line 2]
+[k]
+
+？1：乗ると楽しい、ということに……！
+？！
+
+[charaFace A 8]
+＠マシュ
+はい、先輩。おかげでライダー適性のある方達が[r]大暴れです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+今回はタイムアタック対決のようですね。
+[k]
+
+[charaFace A 4]
+＠マシュ
+タイムアタックのできるロープウェイというのも[r]ちょっと意味がわかりませんが、
+[k]
+
+[charaFace A 7]
+＠マシュ
+できているのですから仕方ありません。
+[k]
+
+[charaFace A 12]
+＠マシュ
+具体的にどういう仕組みで動いているのかは、スカサハさんに[r]聞いていただくしか……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠マルタ
+フフ[line 2]遅いわねシャバ僧ども！[r]見なさい、この圧倒的な推進力！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+あ、ちょ、タラスクに引っ張らせるのは[r]いくらなんでもズリィだろ！　反則だ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠マルタ
+だったらアンさんの胸部体積を重りに使うのは[r]どうなんですか！　不公平です！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+こっちは二人で上って二人で下りてるんだから[r]一緒だよ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+タラスクがありならオレは魔力放出でカゴごと[r]吹っ飛ぶか！　そうするか！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……どうしましょう？　先輩。
+[k]
+
+
+？1：飽きたら帰ってくるよ
+？2：お腹が減ったら帰ってくるよ
+？！
+
+[charaFace A 8]
+＠マシュ
+はい……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_3 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

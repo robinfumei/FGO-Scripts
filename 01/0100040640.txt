@@ -1,0 +1,272 @@
+＄01-00-04-06-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10918]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5010001 1 「Ｐ」]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[fadein black 1]
+[wait fade]
+＠シェイクスピア
+さあ[line 3]吾輩を召喚せしめたのはどなたか！[r]キャスター・シェイクスピア、霧の都へ馳せ参じました。
+[k]
+
+[charaFace D 4]
+＠シェイクスピア
+と、言いたいところなのですが。[r]どうやらこれは聖杯戦争による召喚ではない模様。
+[k]
+
+＠シェイクスピア
+さあ、これは困ってしまいましたね。[r]神よ、吾輩が傍観すべき物語は何処にありや？
+[k]
+
+＠シェイクスピア
+答えはない。答えはない。ああ、神は私を見放したか。[r]血湧き肉躍り、心震い魂揺らす物語は何処にありや！
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+ならば吾輩はこう言うしかないでしょう。[r]ああ、『[#恋は目ではなく心にて見やるもの:Love looks not with the eyes but with the mind]』！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+…………ハズレだ。次。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠シェイクスピア
+おお、これは。異様の霧の中にて、[r]今度こそ貴方とこうしてお目に掛かれようとは。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFace E 4]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+＠マシュ
+お知り合いですか？[r]その、彼……キャスター・シェイクスピアと？
+[k]
+
+[charaFace E 5]
+＠モードレッド
+知らん。こいつはハズレだ。
+[k]
+
+＠モードレッド
+だが、本当に確認できたな。[r]たった今、こいつは魔霧の中から現界していた。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠シェイクスピア
+マスターが存在しないことは不幸ではありますが、[r]こうして貴方にお会いできました。これも運命でしょう。
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+今は貴方の物語を紡ぐとしましょう。[r]噂に違わぬ物語を期待していますよ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠モードレッド
+あー…………
+[k]
+
+＠モードレッド
+敵[line 3]ってワケでもなさそうだし。[r]しかし、いよいよそうなると奇妙ではあるよな。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+道化師やジャックみたいな奴らとの違いは何だ？[r]ジャックはともかく、他の奴らは自分の意思で動いてた。
+[k]
+
+＠モードレッド
+それに[line 3]
+[k]
+
+[charaFace E 5]
+＠モードレッド
+……いや。待て。[r]何だよ、夜の見回りは大当たりだったか？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+はい？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 0]
+＠モードレッド
+来たぜ、お待ちかねの奴だ。[r]なあ、おい！　一度逃げ帰った割には度胸があるな！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠「Ｐ」
+……遅かったようですね。
+[k]
+
+？1：「Ｐ」か！
+
+？2：いつの間に……！
+
+？！
+
+[charaFace F 4]
+＠「Ｐ」
+新たに現界したサーヴァントは[r]そちらに確保されてしまったようですね。残念です。
+[k]
+
+＠「Ｐ」
+現界したのはキャスターのようですね。[r]確保できれば、私たちの良い仲間になったでしょうに。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace A 0]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+＠モードレッド
+ははあ、掴めたぜ。[r]種を明かせば至極単純って訳だ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……はい。たった今、わたしも理解しました。
+[k]
+
+＠Dr.ロマン
+魔霧から現界したサーヴァントを確保・回収し、[r]自分たちの仲間にしていた、といったところか。
+[k]
+
+＠Dr.ロマン
+なるほど。理屈は簡単だ。[r]だが、言うほど容易いことではないはずだよ。
+[k]
+
+＠Dr.ロマン
+英霊を自分たちの思うがままに動かすなんて、[r]それは、[#聖杯でもなければ]不可能だ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠「Ｐ」
+[line 3]正解、とまずはお返ししましょう。[r]その通りです。
+[k]
+
+[charaFace F 0]
+＠「Ｐ」
+我々は、我々にとって必要な者が[r]このロンドンへと現れるのを待ち続けているのです。
+[k]
+
+＠「Ｐ」
+ですから、魔霧から現界した英霊を順次確保し、[r]魔霧の拡大のため働くように「調整」しています。
+[k]
+
+[charaFace F 4]
+＠「Ｐ」
+貴方たちを確保できなかった事、[r]本当に、本当に、この私には残念でなりません。
+[k]
+
+[charaFace F 1]
+＠「Ｐ」
+きっと、良い友人になれたでしょう。[r]私たちは。お互いに。
+[k]
+
+？1：そんなはずはない
+
+？2：冗談だろ
+
+？！
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい、先輩。[r]わたしもまったく同じ感想を抱きました。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+は！　まったくだ！[r]そんなのはこっちから願い下げだぜ！
+[k]
+
+[se ad51]
+[wait se ad51]
+[charaFace E 2]
+＠モードレッド
+今度は逃がさん！[r]切り捨てられる前に名乗ってみろ、魔術師！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠「Ｐ」
+[line 3]いいでしょう。今回は移送すべき触媒もない。[r]ここで私が貴方たちを確保します。
+[k]
+
+＠「Ｐ」
+私は、ヴァン・ホーエンハイム・パラケルスス。[r]四大の精霊を操る者にして、真なるエーテルを求む者。
+[k]
+
+[charaSet F 5010001 1 パラケルスス]
+[charaFace F 5]
+[charaFadein F 0]
+＠パラケルスス
+もっとも、今は……[r]望むものは異なりましょうがね。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、対サーヴァント戦闘です！[r]指示を[line 3]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

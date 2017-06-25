@@ -1,0 +1,183 @@
+
+＄94-00-15-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1003001 1 リリィ]
+[charaSet C 7006000 1 坂田金時]
+[charaSet D 2011000 1 ニコラ・テスラ]
+[charaSet E 6018000 1 Ｘ]
+[charaSet F 5011000 1 バベッジ]
+
+[scene 20303]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 3]
+＠リリィ
+あわわ、申し訳ありませんサングラスの方！[r]また手が滑ってしまって、あのご無事ですか！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠坂田金時
+フッ[line 3]ゴールデン……だった……ぜ……
+[k]
+
+[messageOff]
+[charaSpecialEffect C flashErasure 0 1.8]
+[charaFadeout C 1.0]
+[se ad52]
+[wait se ad52]
+[wait charaSpecialEffect C]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ニコラ・テスラ
+むう。ユニヴァース的なるものに[r]破れるのであれば本望だが……
+[k]
+
+＠ニコラ・テスラ
+一つだけ質問がある。レディ・Ｘ。[r]そちらでの私の名はドクター・ライトニングではなく？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠Ｘ
+一向にキャプテン☆ニコラですが何か？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠ニコラ・テスラ
+キャプテンかぁ……
+[k]
+
+[messageOff]
+[charaSpecialEffect D flashErasure 0 1.8]
+[charaFadeout D 1.0]
+[se ad52]
+[wait se ad52]
+[wait charaSpecialEffect D]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠バベッジ
+可動部損傷80パーセントオーバー。[r]これ以上の活動は不可能と判断、自壊する。
+[k]
+
+＠バベッジ
+……しかし。夢を見るサーヴァント、か……[r]それはいい響きだ。実に……懐かしい。
+[k]
+
+＠バベッジ
+ささやかな幸福だろうと、誇大妄想だろうと、[r]夢を見るのは人の特権だと、あの都市で私は知った。
+[k]
+
+＠バベッジ
+しかし……白百合の騎士よ。[r]そして、そのマスターよ。
+[k]
+
+＠バベッジ
+その夢を阻むものはすぐ近くにいる。[r]私はこれまでのデータから彼女の目的を解明している。
+[k]
+
+＠バベッジ
+判断を誤るな……たとえどのような善意から生じた[r]行動であれ、未来から来たものに正義はないのだ。
+[k]
+
+＠バベッジ
+その宇宙船は[line 3][r]夢を運ぶものでは[line 3]ないのだと[line 3]
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 0 1.8]
+[charaFadeout F 1.0]
+[se ad52]
+[wait se ad52]
+[wait charaSpecialEffect F]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+金時さん、ニコラさん、そしてバベッジさん、[r]共にこの特異点から退去されました。
+[k]
+
+＠マシュ
+彼らが入手していた宇宙船のパーツも[r]無事回収できましたが……
+[k]
+
+＠マシュ
+今のバベッジさんの発言はやはり……
+[k]
+
+？1：ああ、Ｘのコトだよね……
+？2：うん、まあバレバレだったから……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+＠リリィ
+…………Ｘ師匠…………
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠Ｘ
+バベジン……こちらの世界でも賢人なのですね、貴方は。[r]どう見てもヤカンなのに。
+[k]
+
+[charaFace E 0]
+＠Ｘ
+ま、仕方ありません。[r]こうなってはわたしの目的、その真相をお話しましょう。
+[k]
+
+[charaFace E 1]
+＠Ｘ
+なぜヒロインＸはセイバークラスを襲うのか？[r]詳細はもちろん、次のエピソードで！
+[k]
+
+[charaFace E 5]
+＠Ｘ
+次回、リリィ・ウォーズ最終回！[r]『流れよ我が涙、とセイバーは言った。』
+[k]
+
+＠Ｘ
+にご期待ください！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+[line 3]あ。[r]つまり、今回は引き延ばし回だったんですね！？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

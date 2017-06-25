@@ -1,0 +1,127 @@
+
+
+＄94-00-58-31-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet C 6024000 1 スカサハ]
+[charaSet E 3025000 1 清姫]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+普通だな。
+[k]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+普通ですね。
+[k]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+ああ、このどこにでもあるようなお庭！　ごく普通の[r]家の裏にあるような庭！　実にいいです！
+[k]
+
+
+？1：ど、どうしてでしょう……？
+？！
+
+[charaFace E 1]
+＠清姫
+妄想[line 2]もとい、わたくしとますたぁの未来予想が[r]捗るからに決まっているではありませんか。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+（やっぱり……）
+[k]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠清姫
+一生懸命仕事を頑張り、ごく普通の庭のあるごく普通の家[r]を建てたますたぁ！　
+[k]
+
+[charaFace E 3]
+＠清姫
+お金はなくなったし仕事はきついけれど、それでも幸せ。[r]だって家に帰れば、そこには愛する[#妻:わたくし]が！
+[k]
+
+＠清姫
+[speed 100]う、ふふ、うふふふ……ああいけませんよますたぁ、そん[r][speed 100]なに庭を眺めていらしたら。わたくし嫉妬の炎が出そうと
+[k]
+
+[speed 100]
+いうか毎週の休みに手入れで雑草を抜く際にますたぁの手[r][speed 100]でぽんぽんされる庭の地面が羨ましくて二度と雑草生えな
+[k]
+
+[speed 100]
+いように焦土にしておきましたから安心して今後はわたく[r][speed 100]しの頭だけをぽんぽんとまあ優しいうふふ二人目の子供の
+[k]
+
+[speed 100]
+名前はどういたしましょうわたくしはやはり女の子が[line 2]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+大変です先輩。いつにもまして清姫さんがわたしたちを[r]置いてけぼりに……！　
+[k]
+
+
+？1：恐るべし……普通の庭……
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

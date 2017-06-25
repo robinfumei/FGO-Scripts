@@ -1,0 +1,1185 @@
+
+
+
+＄01-00-07-21-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 99371100 1 エレシュキガル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 98013200 1 ティアマト]
+[charaSet E 98107300 1 ジャガーマン]
+[charaSet F 98106200 1 マーリン]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 98107700 1 ジウスドゥラ]
+
+
+[effect bit_talk_41]
+[scene 10000]
+[fadein black 2.0]
+[wait fade]
+
+[se ad75]
+[wt 0.7]
+
+？1：落[line 3]ち[line 3]る[line 3]！
+
+？！
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 0 4 0]
+
+＠マシュ
+はい、落ちています……！[r]下は[line 3]よく見えません！
+[k]
+
+＠マシュ
+このままだと、[r]ティアマト神より先に我々が転落死です！
+[k]
+
+[messageOff]
+
+[effectStop bit_talk_41]
+[se bac198]
+[charaEffect A bit_talk_36]
+[charaShake A 0.15 0 2 0]
+[wt 1.0]
+[charaEffectStop A bit_talk_36]
+
+[charaFace A 6]
+
+[bgmStop BGM_EVENT_24 3.4]
+
+＠エレシュキガル
+そんな事にはさせないわよ。[r]はい、アナタたちに冥界での浮遊権を許可します。
+[k]
+
+＠エレシュキガル
+魔力を足先に集めて、地面をイメージしなさい。[r]それで少しは飛べる筈よ。
+[k]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+その声はエレシュキガルさん！[r]はい、やってみます！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 10000]
+[wt 0.1]
+[fadein black 0.1]
+[wait fade]
+
+[wt 0.7]
+[effectStop bit_talk_41]
+
+[wipeout circleIn 0.1 0.5]
+[wait wipe]
+[charaShakeStop A]
+[scene 35401]
+[wt 0.1]
+[wipein rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+
+[se ad242]
+[wt 2.5]
+[seStop ad242 0.4]
+[se ad237]
+[seVolume ad237 0 0.7]
+[se ad74]
+[seVolume ad74 0 0.7]
+[charaEffect H bit_talk_haboob_02]
+[shake 0.05 0 10 3.0]
+[wt 1.0]
+[seStop ad237 2.0]
+[wt 2.0]
+
+[wipeout leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[charaEffectStop H bit_talk_haboob_02]
+[charaSet H 98107700 1 ジウスドゥラ]
+[scene 33800]
+[wt 1.0]
+[fadeout black 0.1]
+[wait fade]
+[wipein circleIn 0.1 0.5]
+[wait wipe]
+
+[se ad78]
+[shake 0.05 0 2 0.4]
+
+[fadein black 1.0]
+[wait fade]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 1]
+
+＠エレシュキガル
+良く来たわね二人とも。[r]でも挨拶は後。あれを見なさい！
+[k]
+
+[messageOff]
+[wipeout rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 35400]
+[wt 0.1]
+[wipein leftDownToRightUp 0.4 0.5]
+[wait wipe]
+
+[se ad61]
+[se ad64]
+[wt 1.0]
+[se ad206]
+[seStop ad61 2.0]
+[wt 2.0]
+
+[messageOff]
+[wipeout leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[scene 33800]
+[wt 0.1]
+[wipein rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[bgm BGM_EVENT_24 0.1]
+
+＠マシュ
+あれは……ティアマト神ですか！？[r]冥界への誘導に成功したのですね！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠エレシュキガル
+ええ、上を見なさい。ウルクが見えるでしょ。
+[k]
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 35500]
+[wt 0.1]
+[wipein rectangleStripUpToDown 0.4 1]
+[wait wipe]
+
+＠エレシュキガル
+イシュタルのヤツ、[r]ウルクの足場ごと壊して[#冥界:ここ]に落としたのよ。
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 33800]
+[wt 0.1]
+[wipein rectangleStripDownToUp 0.4 1]
+[wait wipe]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[#地上:ウルク]まで、距離にして2000メートル以上……[r]さすが神代の冥界、深いと言うべきか近いと言うべきか……
+[k]
+
+＠Dr.ロマン
+いや、それより！[r]なんだいアレは！？
+[k]
+
+＠Dr.ロマン
+先ほどのイシュタルの宝具級の熱量が、[r]絶え間なくティアマトを焼いているけど！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠エレシュキガル
+冥界の防衛機構よ。[r]私の許しなく入ってきた生者はああなるの。
+[k]
+
+＠エレシュキガル
+これは世界そのものが定めたルール。[r]ティアマト神と言えど、ああなってはもうお終いよ。
+[k]
+
+[messageOff]
+[wipeout rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 35400]
+[wt 0.1]
+[wipein leftDownToRightUp 0.4 0.5]
+[wait wipe]
+
+[se ad61]
+[se ad64]
+[wt 1.0]
+[se ad206]
+[seStop ad61 2.0]
+[wt 2.0]
+
+[wipeout leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[scene 33800]
+[wt 0.1]
+[wipein rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+
+＠エレシュキガル
+それで、ギルガメッシュ王は？[r]最後のトドメ、始めちゃっていいの？
+[k]
+
+＠エレシュキガル
+アイツ、全員が到着するまで待てって言ってたけど、[r]その必要はあるかしら。
+[k]
+
+＠エレシュキガル
+たたみかけるのは今しかないと思うのだけど？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それは……そうだと思います。[r]でもエレシュキガルさん、ギルガメッシュ王は、もう……
+[k]
+
+？1：……でも、戦わないと
+？2：………………
+
+？！
+
+[messageOff]
+
+[wt 0.7]
+[charaFace A 8]
+＠マシュ
+……はい。[r]そうですよね。わたしたちだけでもやらないと。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠エレシュキガル
+いいのね？　なら始めるわ！[r]任せて、ギルガメッシュ王もイシュタルも必要ないから！
+[k]
+
+[bgmStop BGM_EVENT_24 1.0]
+
+[charaEffect B bit_talk_36]
+[se ad39]
+
+＠エレシュキガル
+この私だけで決めてあげます……！[r]冥界のガルラ霊よ、立ち並ぶ腐敗の槍よ！
+[k]
+
+＠エレシュキガル
+あれなる侵入者に我らが冥界の鉄槌を！[r]総員、最大攻撃[line 4]！
+[k]
+
+[messageOff]
+[wipeout rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[charaEffectStop B bit_talk_36]
+[charaFadeout B 0.1]
+[scene 10000]
+[wt 0.2]
+[wipein leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[effect bit_talk_ereshki01]
+[se ad246]
+[wt 1.0]
+[se ad247]
+[wt 0.1]
+[wt 1.0]
+[se ad248]
+[wt 5.0]
+[seStop ad246 0.7]
+[seStop ad247 1.5]
+[seStop ad248 2.0]
+[wt 1.0]
+[wipeout leftDownToRightUp 0.4 0.5]
+[wait wipe]
+
+[scene 33800]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[effectStop bit_talk_ereshki01]
+[wt 0.2]
+[wipein rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+
+
+＠エレシュキガル
+どう？　ざっとこんなものよ。[r]ティアマト神といえど、冥界ではただの神。
+[k]
+
+＠エレシュキガル
+私とガルラ霊たちの総攻撃の前には[r]ひとたまりも[line 3]たまり、も[line 3]
+[k]
+
+[messageOff]
+[se ad14]
+[wt 0.4]
+[se ad176]
+[seVolume ad176 0 0.2]
+[wt 0.4]
+[wipeout rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 35401]
+[wt 0.1]
+[wipein leftDownToRightUp 0.4 0.5]
+[wait wipe]
+
+[wt 0.5]
+[scene 35402 1.5]
+[wt 3.0]
+
+[bgm BGM_EVENT_24 0.1]
+
+[seStop ad14 1.0]
+[seStop ad176 1.0]
+[wipeout leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+[scene 33800]
+[wt 0.1]
+[wipein rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+
+＠エレシュキガル
+な[line 3]な[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ケイオスタイド、冥界に侵食！[r]まずいぞ！　このままだと冥界を乗っ取られる！
+[k]
+
+＠Dr.ロマン
+それだけじゃない……なんだこの反応は！？[r]ビーストⅡの霊基反応、さらに膨張！
+[k]
+
+＠Dr.ロマン
+霊基の神代回帰、ジュラ紀まで進行！[r]これはもう神性じゃない、紛れもない神の体だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠エレシュキガル
+え、え、え[line 3]！？[r]ななな、なに、何が起きるのだわ！？
+[k]
+
+＠エレシュキガル
+私が何かしてしまったのかしら[line 4]！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[#霊基膨張工程:インフレーション]停止、魔力炉心、連続再起動を確認……！[r]冥界に落ちた際の損傷も復元していく！
+[k]
+
+＠Dr.ロマン
+[line 3]出るぞ……！　あれが[line 3]
+[k]
+[bgmStop BGM_EVENT_24 0.7]
+
+＠Dr.ロマン
+あれが、本当のビーストⅡの姿だ！
+[k]
+
+
+[messageOff]
+[wipeout rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[cameraMove 0.1 0,0 1.01]
+[imageSet D cut006_snd01 1]
+[imageSet E cut006_snd02 1]
+[imageSet F cut007_tmt01 1]
+[imageSet G cut007_tmt02 1]
+[charaDepth D 3]
+[charaDepth E 2]
+[charaDepth F 1]
+[charaDepth G 0]
+[charaFadein D 0.1 0,-210]
+[charaFadein E 0.1 0,162]
+[charaFadein F 0.1 0,-210]
+[charaFadein G 0.1 0,162]
+
+[communicationCharaClear]
+[wait communicationChara]
+[bgm BGM_MAP_19 0.1]
+[scene 35403]
+[wt 0.1]
+[shake 0.05 2 3 7.0]
+[se ad14]
+[wipein leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[wt 1.0]
+[charaMove F 0,-582 5.0]
+[charaMove G 0,-210 5.0]
+[charaMove D 0,-582 5.0]
+[charaMove E 0,-210 5.0]
+[scene 35404]
+[wait charaMove F]
+[charaFadeout D 0.1]
+[charaFadeout E 2.0]
+[seStop ad14 1.0]
+[wt 4.0]
+[charaMove F 0,-250 5.0]
+[charaMove G 0,122 5.0]
+[wait charaMove F]
+[wt 2.0]
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+[se ad205]
+
+＠ティアマト
+Aaaaaaa、AAAAAAAAAA[line 3][r]LaAAAAAAAAAAAAAAAAAAAAAAA[line 3]
+[k]
+
+[messageOff]
+[se ad249]
+[scene 35405 1.5]
+[wait scene]
+[wt 2.0]
+
+[seStop ad249 1.0]
+
+[wipeout leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[cameraMove 0.1 0,0 1.0]
+[charaSet D 98107900 1 ベル・ラフム]
+[charaSet E 98107300 1 ジャガーマン]
+[charaSet F 98106200 1 マーリン]
+[charaSet G 98002000 1 フォウ]
+[scene 33800]
+[wt 0.1]
+[wipein rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+ティアマト神、体内からラフムを排出！[r]冥界中にラフムが広がっていきます！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠エレシュキガル
+ムリね！　どう見てもムリ！[r]あれを私たちだけで倒すのとかムリ！
+[k]
+
+＠エレシュキガル
+っていうか、波が来るのだわ！[r]冥界が乗っ取られちゃう[line 4]！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+[se bac112]
+[charaTalk D]
+[charaFadein D 0.4 1]
+[wt 1.0]
+
+＠E：？？？
+泣きゴト言うなスカポンタ[line 3]ン！[r]それでも死の国の神さまニャのか[line 3]！
+[k]
+
+[messageOff]
+[charaEffect D bit_talk_12_platinum_L]
+[wt 0.1]
+[se bac139]
+[charaShake D 0.01 5 5 0.4]
+[wt 0.4]
+[charaFadeout D 0.4]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+アナタは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠ジャガーマン
+そう！　鳥だ、バルーンだ、いや目の錯覚だ！[r]私こそ冥界を駆ける虎、人呼んでジャガーマンッッッ！
+[k]
+
+？1：ちょっと焦げてる！？
+
+＠ジャガーマン
+そこはいろいろ事情があるのでまた後で！[r]とにかくここまでよくやったわ、[%1]サン！
+[k]
+
+？2：駆けつけてくれたんだ！
+
+＠ジャガーマン
+ええ、そうね。ウルクに戻る時に声をかけて[r]もらえなかったのは気にしていませんので気になさらず。
+[k]
+
+＠ジャガーマン
+とにかく、ここまでよくやったわね[%1]サン！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein E 0.1 0]
+[charaFadein B 0.1 2]
+＠エレシュキガル
+虎！　虎が冥界に来たわ！[r]うそ、他の土地だとそういうのアリなの！？
+[k]
+
+＠ジャガーマン
+ありだとも小娘！[r]つべこべ言わず、さっきの凄い攻撃を続けなさい！
+[k]
+
+[charaFace B 6]
+＠エレシュキガル
+で、でも、ぜんぜん効かなくて……！[r]それに冥界全体の出力も落ちてきてるし！
+[k]
+
+＠ジャガーマン
+効かなくてもやるしかないの！[r]いい、あれでもティアマト神は[#今が一番弱い]状態なの！
+[k]
+
+＠ジャガーマン
+ここで！　私たちが！　なんとかしないと人類終了どころか[r]地球終了のお知らせよ！
+[k]
+
+＠ジャガーマン
+あの状態で地上に出してごらんなさい！[r]一日もせず地球上がぜんぶ黒泥に覆われるから！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+そんな……ドクター、今の話は、
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+事実だ！[r]現に冥界はほぼケイオスタイドに覆われた！
+[k]
+
+＠Dr.ロマン
+あれを地上に出しちゃいけない！[r]ここで、なんとしても消滅させるんだ！
+[k]
+
+＠Dr.ロマン
+幸いケイオスタイドもラフムもティアマトそのものだ、[r]“他の命”にカウントされない！
+[k]
+
+＠Dr.ロマン
+冥界にいる今なら、ティアマトを殺せさえすれば[r]逆説的復元はしない筈だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠エレシュキガル
+でも、もう泥がいっぱいなんですけど！？[r]こんな状態で、どうやってマトモに戦[line 3]
+[k]
+
+[messageShake 0.05 5 5 0.5]
+[charaFace B 7]
+＠エレシュキガル
+なんだありゃあ[line 5]！？
+[k]
+
+[bgmStop BGM_MAP_19 0.4]
+
+[se ad249]
+[seStop ad249 2.0]
+[messageOff]
+[wipeout rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[charaSet E 5009001 1 ダ・ヴィンチ]
+[charaFadeout B 0.1]
+[scene 35405]
+[wt 0.1]
+[wipein leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[wt 0.7]
+[scene 35406 2.5]
+[se bac50]
+[wt 4.0]
+
+？1：花が咲いていく……
+？2：この花、まさか……！
+
+？！
+
+＠Dr.ロマン
+ケイオスタイドの権能が[#軒並:のきな]み停止した！？[r]いや、もう機能を使い切って、ただの泥になった！？
+[k]
+
+＠Dr.ロマン
+信じられないが[line 3][r]その花が、ティアマト神の力を枯渇させている！
+[k]
+
+
+
+[bgm BGM_EVENT_4 0.1]
+
+＠F：？？？
+いよぅし、間に合った[line 3]！[r]そして発想が貧困だなアーキマン！
+[k]
+
+[charaFace F 1]
+＠F：？？？
+命を産む海なら、その命を無害でささやかなものに[r]使わせてしまえばいい！
+[k]
+
+＠F：？？？
+そういう事なら私の出番だ！[r]花の魔術師、その二つ名の面目躍如というワケさ！
+[k]
+
+[messageOff]
+[wipeout leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[scene 33800]
+[wt 0.1]
+[wipein rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[wt 0.4]
+
+[se ad7]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+げぇぇぇ、マ[line 3]リン！？[r]なんでキミが！？　まさか再召喚！？　いやいやいや！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠マーリン
+ははは、そんなワケないだろう。[r]再召喚とか有り得ない。これはもっと単純な話だ。
+[k]
+
+＠マーリン
+私は本物、正真正銘のマーリンだ。[r]あわててアヴァロンから走ってきたのさ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+＠フォウ
+フォ[line 3]ウ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+？1：この男、徒歩で来やがった！
+？2：走って来られるものなんだ！
+
+？！
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠マーリン
+ああ、人理焼却によって白紙状態の地球なら、[r]妖精郷を使ってこっそりとね！
+[k]
+
+[charaFace F 4]
+＠マーリン
+ボクは悲しい別れとか大嫌いだ。[r]意地でも死に別れなんかするものか。
+[k]
+
+[charaFace F 1]
+＠マーリン
+だからちょっと信条を曲げて、幽閉塔から飛び出してきた。[r]無論、キミたちに会うためにね。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！　お待ちしていました、マーリンさん！[r]再会できて、わたしたちも嬉しいです！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_4 0.4]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+[wt 1.0]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad205]
+[effect bit_talk_voice01]
+[shake 0.05 3 3 1.0]
+[wt 2.0]
+[effectStop bit_talk_voice01]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ビーストⅡ、背部の[#角翼:かくよく]を展開！[r]ほら見ろ、マーリンが[#煽:あお]るから本気になった！
+[k]
+
+＠Dr.ロマン
+冥界への侵食は止められてもビーストⅡ本体は止められない！[r]ウルクに[line 3]地上目指して飛ぼうとしている！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+
+？1：翼が復元したのか……！
+？2：マーリン、何か[&ないのか:ないの]！？
+
+？！
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[bgm BGM_BATTLE_5 0.1]
+＠マーリン
+……ふむ。二柱の女神による真体の足止め、[r]ウルクを[#餌:えさ]にした冥界の落とし穴、
+[k]
+
+＠マーリン
+“天の鎖”による[#拘束:こうそく]、冥界の刑罰、[r]そして私の綺麗なだけの花。
+[k]
+
+＠マーリン
+[%1]君。そして英霊たちよ。[r]ここに至るまで、実に多くの手を尽くしてきた。
+[k]
+
+＠マーリン
+[#だが、まだ足りない]。
+[k]
+
+＠マーリン
+あれはまだ恐怖を知らない。天敵を知らない。[r][#彼]という[#死を知らない]。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+彼……？[r]他にまだ、助っ人さんがいるのですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠マーリン
+ああ、いるとも。[r]とっておきの凄いのがね。
+[k]
+
+＠マーリン
+では、[#彼]はいったい誰に呼ばれたか？[r]ギルガメッシュ王でもない。魔術王の聖杯にでもない。
+[k]
+
+[charaFace F 0]
+＠マーリン
+……言うまでもない。[r]キミだ、[%1]君。
+[k]
+
+[charaFace F 1]
+＠マーリン
+彼はキミに礼を返すためにその冠位を捨てると言った。[r]そして敵は人類悪、ビースト。
+[k]
+
+＠マーリン
+初めから、彼がこの地に現れる条件は整っていたんだよ。[r]キミたちの戦いは、全てに意味があったのさ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[line 3]まさか。
+[k]
+
+＠Dr.ロマン
+以前、この冥界で[%1]君の[r]生命反応が消えていたのは、もしかして……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠マーリン
+その通り。
+[k]
+
+[bgmStop BGM_BATTLE_5 3.4]
+＠マーリン
+さあ、天を見上げるがいい原初の海よ！[r]そこに、貴様の死神が立っているぞ！
+[k]
+
+[bgm BGM_BATTLE_4 0.1]
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.7 1]
+[wait wipe]
+[charaSet D 98013200 1 ティアマト]
+[charaFadeout F 0.1]
+[scene 35501]
+[wt 0.7]
+[se ad207]
+[wipein rectangleStripUpToDown 0.7 1]
+[wait wipe]
+[wt 1.5]
+
+＠ジウスドゥラ
+……死なくして命はなく、死あってこそ生きるに[#能:あた]う。[r]そなたの言う永劫とは、歩みではなく眠りそのもの。
+[k]
+
+＠ジウスドゥラ
+災害の獣、人類より生じた悪よ。[r]回帰を望んだその慈愛こそ、汝を排斥した根底なり。
+[k]
+
+
+＠ティアマト
+Aaaaaaaa[line 3][r]AaAa、AA[shake 0.05 5 5 1.0]AAAAAAAAAAAAAAAAAAAAAAAA[line 3]！
+[k]
+
+
+＠ジウスドゥラ
+[#冠位:かんい]など我には不要なれど、[r]今この一刀に最強の証を宿さん。
+[k]
+
+[messageOff]
+[charaSet H 98079000 1 山の翁]
+
+[se ad229]
+[seVolume ad229 0 0.7]
+[seStop ad229 2.0]
+[scene 35502 2.0]
+[wait scene]
+[wt 1.0]
+[seStop ad207]
+
+＠H：山の翁
+獣に堕ちた神と言えど、[r]原初の母であれば名乗らねばなるまい。
+[k]
+
+＠H：山の翁
+[line 3]幽谷の[#淵:ふち]より、暗き死を[#馳走:ちそう]しに参った。[r]山の翁、ハサン・サッバーハである。
+[k]
+
+[messageOff]
+[se ad73]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[scene 10000]
+[wt 0.1]
+[wipein upToDown 0.3 1]
+[wait wipe]
+
+[se ad2]
+[seVolume ad2 0 0.7]
+[effect bit_talk_43h]
+[wt 2.0]
+
+
+＠H：山の翁
+晩鐘は汝の名を指し示した。[r]その翼、天命のもとに[#剥奪:はくだつ]せん[line 3]！
+[k]
+
+
+[seStop ad2 0.4]
+[messageOff]
+[wipeout upToDown 0.3 1]
+[effectStop bit_talk_43h]
+[wt 0.1]
+[wait wipe]
+[wt 0.1]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+[se ad51]
+[wt 1.0]
+[se bac139]
+[effect bit_bolg_01]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.4]
+[se ad251]
+[wt 3.0]
+
+[scene 33800]
+[fadein black 1.5]
+[wait fade]
+
+[se ad206]
+[shake 0.01 5 5 1.0]
+[wt 2.0]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[line 3]ビーストⅡの霊基パターンが変化した……
+[k]
+
+＠Dr.ロマン
+なんて事だ……ティアマト神の角翼が[r]切断されたばかりか、“死の概念”まで付加されたぞ！
+[k]
+
+＠Dr.ロマン
+ティアマト神の規模は変わらず膨大だが、[r]これは通常の、サーヴァントの霊基パターンだ！
+[k]
+
+＠Dr.ロマン
+倒せる！[r]今ならビーストⅡを完全に消滅させられる！
+[k]
+
+[charaPut C 0,0]
+[charaEffect C bit_talk_10]
+[communicationCharaClear]
+[wait communicationChara]
+[se ad13]
+
+＠ダ・ヴィンチ
+ロマニ！　霊基核の特定、できたぞ！
+[k]
+
+＠ダ・ヴィンチ
+定番だが頭部だね！　心臓ではなく頭部が[r]ティアマト神の[#霊基核:じゃくてん]だ！
+[k]
+
+[charaPut C 0,-1000]
+[charaEffectStop C bit_talk_10]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ナイス、レオナルド！[r][line 3][%1]君、話は聞いたね！？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ビーストⅡの頭部を叩け！[r]これが本当の、最後の総力戦になる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[wipeout rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+[scene 35406]
+[wt 0.1]
+[wipein leftDownToRightUp 0.4 0.5]
+[wait wipe]
+
+[wt 0.4]
+[se ad205]
+[shake 0.05 3 3 1.0]
+[wt 2.0]
+
+[wipeout leftDownToRightUp 0.4 0.5]
+[wait wipe]
+[scene 33800]
+[wt 0.1]
+[wipein rightUpToLeftDown 0.4 0.5]
+[wait wipe]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠マーリン
+ああ。そしてさすがビーストⅡ、[r]命を実感した瞬間に全力の抵抗を見せ始めたぞ！
+[k]
+
+＠マーリン
+ラフムを最大生産しつつ、[r]本体は冥界の壁に向かっている！
+[k]
+
+＠マーリン
+[#壁を這い上がって地上に逃げる気だ]！
+[k]
+
+？1：逃が[&さない:しません]！
+？2：その前に、今度こそ……！
+
+？！
+
+[charaFace F 1]
+＠マーリン
+ああ、そうだとも！[r]これが正真正銘のラストチャンスだ！
+[k]
+
+＠マーリン
+マシュ、[%1]君、再会の挨拶はまた後で！[r]嵐に向かうぞ！　立ち向かう準備はいいかい？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]はい！[r]もちろんです、花の魔術師マーリン！
+[k]
+
+＠マシュ
+そして先輩、[r]これは第七特異点、最後の局面だと判断します！
+[k]
+
+＠マシュ
+どうか、[r]弱気になっていたわたしに指示を、マスター！
+[k]
+
+[charaFace A 7]
+＠マシュ
+今までわたしたちを[r]信じてくれた人たちに応えるために[line 3]
+[k]
+
+[charaFace A 2]
+＠マシュ
+何としても、あの災害を打ち破ります！
+[k]
+
+？1：ああ、やるぞ、マシュ！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠エレシュキガル
+すごい……！　私の冥界にこんなにいっぱいの花が！
+[k]
+
+[charaFace B 5]
+＠エレシュキガル
+[line 3]いいえ、違うわ、そうじゃないわ。[r]冥界の支配権が私に戻ってきたわ、今！
+[k]
+
+[charaFace B 2]
+＠エレシュキガル
+いいでしょう。今回は特別です。[r]皆さんに冥界での行動権利、及び全強化を与えます！
+[k]
+
+＠エレシュキガル
+冥界の女主人、エレシュキガルが願い請う！[r]地上の勇者よ、あの魔竜に鉄槌を！
+[k]
+
+＠エレシュキガル
+遥か未来まで続いた貴方たち人間の手で、[r]天と地に[#楔:くさび]を[#穿:うが]つのです！
+[k]
+
+[messageOff]
+[se ad136]
+[seStop ad136 1.4]
+[wt 1.2]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.1]
+[bgmStop BGM_BATTLE_4 0.4]
+[wait fade]
+[soundStopAll]
+[end]

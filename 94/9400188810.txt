@@ -1,0 +1,62 @@
+＄94-00-18-88-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 2024000 1 織田信長]
+
+[scene 10204]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 0]
+＠織田信長
+今日は月に一度の評定の日じゃのう[%1][r]え？　聞いてない？　今月から始まったのじゃ！！
+[k]
+
+[charaFace A 3]
+＠織田信長
+ところでそなたも最近頑張っておるようじゃし特別に[r]わしが褒美を遣わす。ありがたく受け取るがよいぞ！
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[charaFace A 1]
+＠織田信長
+わし特注の髑髏チョコじゃ！　どうじゃ！[r]かっこいいじゃろ！　嬉しいか！　嬉しいじゃろ？
+[k]
+
+[charaFace A 5]
+＠織田信長
+ん？　わしの用意したチョコが気に入らんのか？[r]……ほう、貴様も随分偉くなったものじゃな。
+[k]
+
+[charaFace A 3]
+＠織田信長
+[line 3]なに？[r]嬉し過ぎて固まってた、じゃと？
+[k]
+
+[charaFace A 1]
+＠織田信長
+うはははは、それならそうと早く言えうつけめ！[r]まったくもって愛い奴よのう。
+[k]
+
+[charaFace A 0]
+＠織田信長
+ほれ、遠慮せずにちこう寄るが良い、もそっと！[r]わしが直々に切り分けてやるでな。
+[k]
+
+[charaFace A 1]
+＠織田信長
+うむ！　そなたと食べるチョコはまた格別じゃ！[r]今後もより一層の働きを期待しておるぞ！
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

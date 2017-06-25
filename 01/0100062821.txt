@@ -1,0 +1,495 @@
+＄01-00-06-28-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98081000 1 連合軍兵士]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+
+
+[imageSet G talk_img_black_gradation 1]
+[wait imageSet G]
+[charaScale G 1.1]
+[charaCutin G upToDown 0.1 0]
+[charaEffect D bit_talk_haboob_02]
+
+
+[scene 29000]
+[fadein black 2.0]
+[wait fade]
+
+[se ad33]
+[wait se ad33]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠俵藤太
+ええい、キリがない！　こやつら既に目が死んでいる！[r]自分の命を勘定にいれていないぞ！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+＠連合軍兵士たち
+いてぇ……いてぇええええ！
+[k]
+
+＠連合軍兵士たち
+助けて……死にたくない……見逃してくれ……！
+[k]
+
+＠連合軍兵士たち
+次のハシゴをかけろ！　諦めるな、急げ！[r]ここまで何人やられた！　今さら逃げられるかよー！
+[k]
+
+[se ad33]
+＠連合軍兵士たち
+殺せ、殺せ！　櫓を死守しろ！[r]正門には行くな、どうせ開かない！　無駄死にするぞ！
+[k]
+
+＠連合軍兵士たち
+ひぃいいい、あちい、あちぃぃいいいいい！[r]やつら溶かした鉛を、ひぃぃいい！
+[k]
+
+＠連合軍兵士たち
+逃げるな、もうどこにも逃げ場はない！[r]ここで死ぬか、荒野で死ぬかだ！
+[k]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠三蔵
+…………………………………………。
+[k]
+
+[charaFace E 5]
+＠三蔵
+……………………うん。[r]やっぱり、そうするしかないわよね。
+[k]
+
+[charaFace E 2]
+＠三蔵
+トータ、逆方向に走って！[r]正門の前を通り過ぎて、あっちの城壁に向かいなさい！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+むう？　どこだろうと敵だらけだぞ！？[r]いや、だからこそ暴れる分には構わんか！
+[k]
+
+
+＠俵藤太
+はいや[line 3]！[r]どけどけーい、俵藤太、まかり通る！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[se ad83]
+[wt 0.5]
+[se ba1]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+
+[seLoop ad84]
+[shake 0.05 0 4 0]
+[scene 29000]
+
+[charaPut D 1200,1200]
+[charaEffect A bit_talk_haboob_03]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[effect bit_talk_41]
+[wt 2.0]
+[effectStop bit_talk_41]
+[charaPut D 1]
+[charaPut A 1200,1200]
+[charaEffectStop A bit_talk_haboob_03]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+オッケー、そのまま！[r]まっすぐ、止まらないでね！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+何か策があるのか！？[r]それとも[%1]と合流するか！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+ん、それはいいアイデアね。[r]でも却下。覚悟が鈍っちゃうわ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+なに？　おいお主、何をするつもりだ？[r]ええい、人の後ろで何をしている！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠三蔵
+なにって、ファイナル如来掌の準備よ？[r]あの正門がなくなればいいんでしょ？
+[k]
+
+[charaFace E 4]
+＠三蔵
+このままだとみんな苦しい思いばっかりで[r]死んでいっちゃうじゃない。
+[k]
+
+[charaFace E 5]
+＠三蔵
+それはよろしくないわ、仏門として。
+[k]
+
+[charaFace E 1]
+＠三蔵
+極楽往生、死んでも修行は続くんだから。[r]恨みは極力残さないようにしないとね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+いや、それはそうだが！　壊せるのか三蔵！？[r]そしてファイナル如来掌とは何か！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+まあまあ、そこはそれ、企業……いえ、仏門機密よ。[r]トータも八幡大菩薩様に教わりなさい。
+[k]
+
+＠三蔵
+まあ、すぐに“もうやるなよ、やりすぎだから”って[r]怒られるけど。死んじゃうから。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+[line 3]！　待て馬鹿者が！
+[k]
+
+[charaFace F 2]
+＠俵藤太
+ええい、この馬め、止まらん！[r]正門を横切れとは、計ったなお主！
+[k]
+
+[messageOff]
+[se ba1]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[shakeStop]
+[seStop ad84 1.0]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0 1]
+
+[scene 28900]
+
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[se ad60]
+[wt 0.5]
+[seStop ad60]
+
+＠三蔵
+えへへ、気づいた時にはあたしの術中よ。[r]正門、ばっちり捉えたわ！
+[k]
+
+[charaFace E 5]
+＠三蔵
+[#羯諦:ギャテイ]、[#羯諦:ギャテイ]　[#波羅羯諦:ハラギャテイ]。[r][#波羅僧羯諦:ハラソウギャテイ]、[#菩提薩婆訶:ボジソワカ][line 3]
+[k]
+
+[charaFace E 1]
+＠三蔵
+っていうか、なんとなく思い出したんだけど。[r]あたし、[%1]には借りがあったの。
+[k]
+
+＠三蔵
+[&カレ:カノジョ]は覚えてないかもしれないけど、[r]とっても楽しい旅の思い出がね。
+[k]
+
+[charaFace E 0]
+＠三蔵
+……だからしっかり返しておかないと。[r]ほら。あたし、高僧少女だから。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+三蔵！
+[k]
+
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+[se ad39]
+[fowardEffect bit_talk_36]
+[wt 2.0]
+[fowardEffectStop bit_talk_36]
+
+[charaFace E 2]
+＠三蔵
+よーし！　高速読経フル回転！[r]天竺帰りの[#本当]のあたしの力、見せてあげる！
+[k]
+
+＠三蔵
+善なるものしか通さぬのなら、[r]慈悲の[#拳:こころ]で推し通る[line 3]
+[k]
+
+[se ad14]
+[charaScale E 1.5]
+[shake 0.05 0 4 0]
+[effect bit_talk_41]
+＠三蔵
+破山一拝、釈迦如来掌！[r]木っ端微塵に反省なさ[line 3]い！
+[k]
+
+[messageOff]
+[fadeout white 2.0]
+[wait fade]
+[shakeStop]
+[charaFadeout E 0.1]
+[charaScale E 1.0]
+
+[effectStop bit_talk_41]
+[bgmStop BGM_EVENT_3 0.1]
+[seStop ad14]
+[se bac59]
+[wt 2.0]
+[charaEffectStop D bit_talk_haboob_02]
+
+[scene 28902]
+
+[wipeFilter cinema 0.5 0]
+[fadein white 2.0]
+[wait fade]
+
+
+[bgm BGM_EVENT_4 0.1]
+[se ad16]
+
+＠連合軍兵士
+正門が[line 3]正門が吹き飛んだぞ[line 3]！
+[k]
+
+＠連合軍兵士
+天の助けだ……！　みんな、走れ！[r]余裕があるなら負傷者を担いでやれ！
+[k]
+
+[seStop ad16 2.0]
+
+＠連合軍兵士
+しかし、何が起きたんだ！？[r]手のカタチをした大砲でもあったのか！？
+[k]
+
+[wipeOff]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩、見てください……！[r]正門に大穴が開いています！
+[k]
+
+＠マシュ
+あれは三蔵さんの宝具です！[r]三蔵さんがやってくれました！
+[k]
+
+
+？1：すごいな！
+？2：さっすが三蔵ちゃん！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+ほ、本当にキャメロット正門を破壊するとは……！[r]三蔵殿は比類無き大司祭だったのですね！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+……そうだね。倒すためではなく救うための行い。[r]まさしく、彼女にしか出来ない説法だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+みなさん、続々と聖都内に侵攻していきます！[r]わたしたちも続きましょう、マスター！
+[k]
+
+
+[bgmStop BGM_EVENT_4 2.0]
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[effect bit_talk_haboob_01]
+
+[charaFadeout A 0.1]
+[wt 1.0]
+
+
+[scene 29000]
+
+[bgm BGM_EVENT_6 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[se ad56]
+[wt 2.0]
+[seStop ad56 2.0]
+＠俵藤太
+そら、三蔵。[r]注文通り、西側の壁に辿り着いたぞ。
+[k]
+
+＠俵藤太
+次はどうする？[r]また何か、ふざけた案はあるのか？
+[k]
+
+＠三蔵
+……次？[r]ああ、次……そうよね、次、よね……
+[k]
+
+＠三蔵
+……ごめん、ちょっと待って……[r]頭、真っ白で……うまく、考えられなくて……
+[k]
+
+＠俵藤太
+そうか。ではしばし休め。[r]弟子として、師のかわりに働いてやる。
+[k]
+
+＠三蔵
+えへへ……トータは、ほんと働きものよね……[r]口うるさいのがたまに瑕だけど……
+[k]
+
+＠三蔵
+でも……そっか。……次かあ……[r]天竺は、もう行ったんだっけ。
+[k]
+
+＠三蔵
+なら……次は、どこかの雪山のてっぺんにある[r]天文台とかに、行ってみたいな……
+[k]
+
+＠三蔵
+そこで、新しいお弟子をとって……[r]またお経を集めたりして……
+[k]
+
+＠三蔵
+あたし、生きてた頃は、修行ばっかりで、[r]そういうの、してこなかったから……
+[k]
+
+＠三蔵
+それぐらいの夢を見ても……
+[k]
+
+＠三蔵
+仏様は、バチとか、当てないよね……？
+[k]
+
+[messageOff]
+[se ad144]
+[wt 1.0]
+[se ad52]
+[wait se ad52]
+[wt 0.5]
+
+＠俵藤太
+当然だとも。御仏の慈悲深さは[r]たったいまお主が証明したではないか。
+[k]
+
+＠俵藤太
+よくやった、玄奘三蔵。[r]弟子として[#吾:オレ]も鼻が高い。
+[k]
+
+＠俵藤太
+こちらはもう少しばかり、[r]聖都の者どもに美味い飯を振る舞ってくる。
+[k]
+
+＠俵藤太
+お主はゆるりと、極楽で[#胡座:あぐら]でもかいておれ。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_6 2.0]
+[wait fade]
+[effectStop]
+[soundStopAll]
+[end]

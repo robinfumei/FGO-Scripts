@@ -1,0 +1,194 @@
+＄91-70-04-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20702]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 7004001 1 フラン]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠フラン
+……ゥ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠マシュ
+フランさん、大丈夫ですか？
+[k]
+
+＠フラン
+ゥ、ゥ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+なら、いいのですけれど。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドクター、確かにあの[line 2]もう一人のフランさんの[r]反応が、ここから計測されたのですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+ああ。あれから常にバックグラウンドで[r]モニターしていたからね。
+[k]
+
+＠Dr.ロマン
+これまで全く反応がなかったのに、[r]ここに来て、急に反応があった。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+あの妹さん、だと思う。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フラン
+……ゥ。
+[k]
+
+？1：あれは妹じゃない？
+
+？2：あれは敵？
+
+？！
+
+[charaFace C 0]
+＠フラン
+ゥ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+……それもそうか。[r]ならＥ・フランと名付けよう。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+エネミーの「Ｅ」。[r]どうだい、これなら問題ないだろう！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+＠フラン
+ゥゥゥ……ゥ。
+[k]
+
+＠マシュ
+物凄く不承不承ですが、承知して頂けたようです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そ、そうかい。[r]じゃあ、まずはあの街に向かって欲しい。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ただ、覚悟しておいてくれ。[r]街からは何の生体反応も感知できない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠マシュ
+それって……。
+[k]
+
+＠Dr.ロマン
+ああ。確実に滅ぼされている。
+[k]
+
+＠フラン
+……ゥ……。
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[bgm BGM_EVENT_5 0.1]
+[scene 10915]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+確かに……この前と同じですね。[r]人の気配は皆無です。
+[k]
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+魔力感知。[r]……恐らく、例のホムンクルスだ。
+[k]
+
+＠Dr.ロマン
+複数来るぞ、気を付けろ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 2]
+[charaFadein C 0.1 0]
+＠フラン
+ゥゥゥゥゥ[line 4]ナァァァヲォォォ！！
+[k]
+
+[charaFace A 7]
+＠マシュ
+大丈夫です、マスター。[r]この程度なら、鎧袖一触です……！
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

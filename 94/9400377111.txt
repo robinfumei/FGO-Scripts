@@ -1,0 +1,285 @@
+
+＄94-00-37-71-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7006000 1 坂田金時]
+[charaSet C 98071000 1 茨木童子]
+[charaSet D 98003003 1 Dr.ロマン]
+
+
+
+[scene 27600]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠茨木童子
+くは、くははははっ！[r]愉快、愉快！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+愉快、じゃねえ！[r]ちっとも目が笑ってねえぞ、テメェ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠茨木童子
+[line 3]む。[r]侮辱するな、笑い慣れておらぬだけよ。
+[k]
+
+
+
+＠茨木童子
+心の底から笑う、か……[r]酒呑のようにはいかぬものだ。
+[k]
+
+[messageOff]
+[se ad73]
+[charaSpecialEffect C erasureReverse 1 0.3]
+[wait charaSpecialEffect C]
+[charaFadeout C 0.1]
+
+[wt 0.6]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+また、逃げられてしまいました……。
+[k]
+
+＠マシュ
+ですが手応えは感じます。[r]確実に向こうの体力は削っているはずです。
+[k]
+
+＠マシュ
+このまま焦らず、慎重に戦っていきましょう。
+[k]
+
+？1：マシュはいつも冷静で助かるよ
+
+[charaFace A 3]
+
+＠マシュ
+そ、そうでしょうか？[r]そうあってくれればいいのですが。
+[k]
+
+？2：こっちもくたびれてるけどね……
+
+[charaFace A 13]
+
+＠マシュ
+はい。こちらもしっかり体力を[r]回復させなくてはいけませんね。
+[k]
+
+？！
+
+＠マシュ
+それでは、少し後退してキャンプしましょう。[r]そこならばドクターとの通信も回復するはずです。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1.2]
+
+
+[bgmStop BGM_EVENT_3 2.0]
+
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+
+[scene 27000]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+
+[wipein leftToRight 1.0 1.2]
+
+[wait wipe]
+
+[wt 0.3]
+
+[seLoop ad31]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+ふむふむ……わかった、報告ありがとう。[r]そのまま油断せずに戦っていってほしい。
+[k]
+
+＠Dr.ロマン
+すまないね、門の付近はどうにも[r]ノイズが多すぎて通信も分析もできない。
+[k]
+
+＠Dr.ロマン
+ところで……[%1][&君:ちゃん]。
+[k]
+
+[communicationCharaFace 4]
+
+
+
+＠Dr.ロマン
+マシュの様子はどうだい？[r]その、酔い加減というか……（ひそひそ）。
+[k]
+
+？1：戦闘中とかは別に普通です
+
+＠Dr.ロマン
+そうなのか？　でも……。
+[k]
+
+？2：（無言で横を指さす）
+
+？！
+
+[seStop ad31 0.3]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+食事の用意ができました、先輩！[r]ゴールデンさんの要望で作った黄金のおむすびです。
+[k]
+
+
+＠マシュ
+戦場ですので、みんな大好きカレー味です！[r]ただ、[charaFace A 0]少し手がベタベタするのが難点で……。
+[k]
+
+
+[charaFace A 16]
+
+＠マシュ
+対処法は一つしかありませんね。[r]はい、先輩。あーん。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[seLoop ad31]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+う、うーん……相変わらずだな。
+[k]
+
+[communicationCharaFace 3]
+
+＠Dr.ロマン
+あの門の近くにいるときや戦闘中は[r]普通ということを考えると。
+[k]
+
+
+
+＠Dr.ロマン
+危険に近い場所では気を張ってるから、ギリギリ表面[r]には出ない感じになってる、ってことかな……。
+[k]
+
+？1：戦闘中はむしろ普段より力強い感じ
+
+？！
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+ふむ。金時くんの湧き上がるパワーのこともある。[r]それと同じ理屈だろうか……？
+[k]
+
+[seStop ad31 0.3]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+
+＠マシュ
+せんぱい……食べてくれないんですか？[r]あーん、してくれないんですか……？
+[k]
+
+？1：す、するするー！
+？2：ごめん、感激で止まってた！
+？！
+
+[charaFace A 16]
+
+＠マシュ
+よかったです。はい、あーん。
+[k]
+
+＠マシュ
+美味しいですか？　おかわりもありますよ？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[seLoop ad31]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+ま、まあ、戦闘に支障がないのは幸いだな。
+[k]
+
+＠Dr.ロマン
+どういう理屈かはわからないけど、[r]その地域に不審な酒気が満ちているのは確かだ。
+[k]
+
+＠Dr.ロマン
+元凶をどうにかしないかぎり、[r]この酒気が晴れることはないんだろう。
+[k]
+
+＠Dr.ロマン
+なんとか今の状況のまま頑張ってもらうしかない。
+[k]
+
+
+
+＠Dr.ロマン
+……あ、そうそう、それで一つ提案というか、余裕が[r]できたら試してもらいたいことがあるんだけど……。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+
+[seStop ad31 0.3]
+
+[bgmStop BGM_EVENT_2 0.5]
+[wait fade]
+[wt 1.0]
+[soundStopAll]
+[end]

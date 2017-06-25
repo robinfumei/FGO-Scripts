@@ -1,0 +1,1195 @@
+
+
+＄94-00-77-00-1-0
+[soundStopAll]
+[charaSet A 3005002 1 エリザベート]
+[charaSet B 5026001 1 エリザベート]
+[charaSet C 6008001 1 ？？？]
+[charaSet D 2008000 1 トリスタン]
+[charaSet E 1020001 1 ランスロット]
+
+
+[bgm BGM_EVENT_1 0.1]
+[scene 20602]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 2]
+[charaFace B 5]
+[charaFadein A 0.4 2]
+[charaFadein B 0.4 0]
+
+
+＠A：[ff69b4]エリザベート
+[ff69b4][line 3]遂にここまで来たわよ、[#私:アタシ]。[-][r][ff69b4]覚悟はできているかしら？[-]
+[k]
+
+[charaFace A 4]
+＠A：[ff69b4]エリザベート
+[ff69b4]あと、化粧のノリとか大丈夫かしら。[-]
+[k]
+
+
+[charaFace B 2]
+＠B：[e5bc7c]エリザベート
+[e5bc7c][line 3]勿論よ、[#私:アタシ]。[-][r][e5bc7c]魔女を倒して、このチェイテ城を取り戻すのよ！[-]
+[k]
+
+[charaFace B 1]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]あと化粧のノリは大丈夫よ、だって[#私:アタシ]だもの。[-]
+[k]
+
+
+[charaFace A 1]
+＠A：[ff69b4]エリザベート
+[ff69b4]そう！[-][r][ff69b4]ところで……何で[#私:アタシ]たちが二人いるのかしら。[-]
+[k]
+
+[charaFace A 0]
+[charaFace B 0]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]……まあ、そこらへんは些細な問題よね！[-]
+[k]
+
+[charaFace B 1]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]むしろ二人になったことで、[#私:アタシ]たちの[-][r][e5bc7c]アイドル係数は何千倍にも高まったと思うの。[-]
+[k]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]宿命のライバル兼ドル友だって、[-][r][e5bc7c]ちゃっかり[#花嫁衣装:ブライド]で召喚されているんだし。[-]
+[k]
+
+[charaFace B 2]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]そうよ、向こうが二人ならこちらも二人！[-]
+[k]
+
+[charaFace B 0]
+[charaFace A 1]
+＠A：[ff69b4]エリザベート
+[ff69b4]ええ、その通り！　さすが[#私:アタシ]！[-][r][ff69b4]そして今、一番重要なことは他でもない[line 3][-]
+[k]
+
+[bgmStop BGM_EVENT_1 1.0]
+
+[charaFace A 0]
+＠A：[ff69b4]エリザベート
+[ff69b4][#私:アタシ]たち二人で織り成す、[-]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaFadein A 0.1 1]
+[charaPut C 0,60]
+[charaScale C 1.3]
+[charaEffect C bit_talk_41]
+[charaFace A 2]
+[se ad139]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]“ザキザキ★チェイテ城天獄デュアルライブ～スイート[-][r][f small][ff69b4]  [f -]ブラッドハロウィンスペシャル・ヤダ……何これめちゃ甘！～”[-]
+[k]
+
+
+[charaEffectStop C bit_talk_41]
+[wt 0.4]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]の開催よ！[-]
+[k]
+
+[bgm BGM_EVENT_7 0.5]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace A 0]
+＠A：[ff69b4]エリザベート
+[ff69b4]既にチケットは完売予定。[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]カルデアにも送っておいたし、[-][r][ff69b4]スケジュールを乱す訳にはいかないわね。[-]
+[k]
+
+[charaFace B 0]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]その為にもこの城を取り戻さないと、[#私:アタシ]！[-]
+[k]
+
+[bgmStop BGM_EVENT_7 1.0]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]……よし、行くわよ！[-][r][ff69b4]せ、[charaFace B 2][charaFace A 2][wt 0.4]え、[wt 0.4]の！[-]
+[k]
+
+
+
+[charaEffect C bit_talk_41]
+[charaFace B 2]
+
+＠[de5052]二人
+[f x-large][de5052][messageShake 0.05 5 5 0.7]たのも[line 6]！！[-]
+[k]
+
+[charaEffectStop C bit_talk_41]
+[wt 0.4]
+
+[messageOff]
+[se ad91]
+[charaScale C 1.0]
+[wt 0.1]
+[fadeout black 1.5]
+[wait fade]
+[wt 1.0]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[scene 20901]
+[charaTalk C]
+[charaFace C 2]
+
+[bgm BGM_EVENT_1 0.1]
+[fadein black 1.5]
+[wait fade]
+[charaFadein C 0.4 1]
+
+＠？？？
+誰ぞ、騒々しい！　夜も更けてきたというのに、[r]なぜ大人しくできぬのか！
+[k]
+
+[charaFace C 5]
+
+＠？？？
+[line 3]む。[r]と思えば、現れたるは見苦しい小娘二匹。
+[k]
+
+[charaFace C 1]
+
+＠？？？
+おお、[#非モデル体型:ち　ん　ち　く　り　ん]……[r][#非モデル体型:ち　ん　ち　く　り　ん]は罪……！
+[k]
+
+[charaFace C 4]
+＠？？？
+そして呆れたわ。心底呆れたわ。[r]懲りずにまだ過去の栄光にすがりつこうなどと……
+[k]
+
+[charaFace C 2]
+＠？？？
+[#視野狭窄:しやきょうさく]も極まったか！
+[k]
+
+＠？？？
+でも[#妾:わらわ]の威光に目が潰れたのなら[r]それはとても仕方のない事！　ごめんなさいね！
+[k]
+
+[bgmStop BGM_EVENT_1 0.7]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]え？[-][r][ff69b4]あ、はい。ご丁寧に、どうも。[-]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_7 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠？？？
+ふん、勘違いはしない事よ！[r]別に貴女を気遣ったワケではないのだから！
+[k]
+
+[charaFace C 1]
+＠？？？
+さあ、大人しく暗くじめっとした[#洞窟:すみか]に[r]帰るがいいトカゲ＆ヤモリ娘！
+[k]
+
+＠？？？
+何故なら、そう、言うまでも無く[line 3][r]夜更かしは、美容の大敵なのですから！
+[k]
+
+[bgmStop BGM_EVENT_7 0.5]
+
+[charaFadeout C 0.1]
+[wt 0.7]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 5 5 0.4]
+＠A：[ff69b4]エリザベート
+[ff69b4]くっ……ただ佇んでいるだけで、この威容……！[-][r][ff69b4]相変わらず、相当なアイドル係数の持ち主ね！[-]
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]もう！　強敵出現に打ち震える[#私:アタシ]の気持ちは[-][r][e5bc7c]分かるんだけど、今は集中しなさいってば！[-]
+[k]
+
+[charaFace B 5]
+[charaFace A 2]
+＠A：[ff69b4]エリザベート
+[ff69b4]わ、分かってるわよ！[-][r][ff69b4]さあ、覚悟なさい魔女！[-]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠？？？
+笑わせる、覚悟などした[#例:ためし]はありません！[r]何故なら[line 3]
+[k]
+
+[charaFace C 2]
+＠？？？
+何故なら、[#妾:わらわ]の心は羽のように自由ゆえ！[r]悩みとか一切持っていないゆえ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠A：[ff69b4]エリザベート
+[ff69b4]く、これ見よがしな自信と強がり……！[-][r][ff69b4]なんて見覚えのある女なのかしら……！[-]
+[k]
+
+[charaFace A 2]
+＠A：[ff69b4]エリザベート
+[ff69b4]そう、例えるなら毎朝必ず見るような女……[-][r][ff69b4]身だしなみのチェックをする時に見るような……！[-]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠？？？
+そして。[r]言うまでもなく、魔女という呼称も正しくはないわ。
+[k]
+
+[charaFace C 2]
+＠？？？
+この地域における魔女とは美の化身である[#妾:わらわ]ではなく、[r]その[#隣の女:ハロウィン]を言うのではなくて？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]これはあくまで、魔女コンセプトのステージ衣装！[-][r][e5bc7c][#私:アタシ]はこの城の城主なんだから！[-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠？？？
+ホッホッホ！[r]ホ[line 5]ホッホッホ！
+[k]
+
+
+＠？？？
+姿はともかく笑い話のセンスは最高のようね！[r]陳腐かつ低俗、そして滑稽にすぎるのですから！
+[k]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFace B 2]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠[de5052]二人
+[f x-large][de5052][messageShake 0.05 5 5 0.7]あんですってぇ！？[-]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠？？？
+ほほほ。そんな服装で愛らしさを振りまくのが[r]城主の仕事だと語られては、さすがの[#妾:わらわ]も[#呵々大笑:かかたいしょう]。
+[k]
+
+[charaFace C 5]
+＠？？？
+というか、笑い疲れて眠くなってきました。[r]もう寝ます。
+[k]
+
+[charaFace C 1]
+＠？？？
+この城の主は今や[#妾:わらわ]なり。[r]当然、領地も管轄下に置いてあげるわ。
+[k]
+
+[charaFace C 2]
+＠？？？
+トカゲ＆ヤモリ娘には執政は難しすぎるというもの。[r]大人しく庶民らしく生きていく事ね！
+[k]
+
+[charaFace C 1]
+＠？？？
+ホホホホ！　とはいえ無駄飯食らいの貴族さまが、[r]はたして庶民の生活に耐えきれるかしら！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaTalk on]
+[charaTalk A]
+
+[charaFace A 2]
+[charaFace B 2]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]なっ……！[-]
+[k]
+
+[charaFace A 2]
+[charaFace B 2]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]何ですってぇ！[-]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠？？？
+同じ顔で叫ばないで。[r]サラウンドになります。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]ふざけないで！[-][r][ff69b4]勝手に[#私:アタシ]たちのチェイテ城を！[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]そもそもアンタ、[-][r][ff69b4]芸風違うじゃない、文化が違うじゃない！[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]チェイテ城にまったく合ってないじゃない！[-]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[bgmStop BGM_EVENT_5 1.0]
+
+＠？？？
+[FFFFFF]？　もしや興奮のあまり、[-][-][r]外の様子を見ていらっしゃらない？
+[k]
+
+
+[charaFace C 1]
+＠？？？
+ホホホ、時既に遅し。[r]終焉を告げる蛇の姿をご覧なさい！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠[de5052]二人
+[de5052]へ？[-]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[se ad59]
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[scene 20602]
+
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[seStop ad59 2.0]
+[wt 0.4]
+
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaTalk off]
+
+[scene 32200]
+[wt 0.4]
+[cameraMove 0 -80,80 1.25]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[wt 1.0]
+[cameraMove 2.5 -80,-80 1.25]
+[wait camera]
+[wt 0.4]
+
+[wt 1.0]
+[cameraHome 0.75]
+[wait camera]
+[wt 0.4]
+
+
+
+[charaFace A 2]
+[charaFace B 2]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+[charaPut C 0,60]
+[charaScale C 1.3]
+[charaEffect C bit_talk_41]
+[se ad119]
+
+[shake 0.05 10 10 0.7]
+＠[de5052]二人
+[f large][de5052]変なの突き刺さってる～！？[-]
+[k]
+
+[charaEffectStop C bit_talk_41]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 1.0]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[scene 20901]
+[charaTalk C]
+[charaFace C 2]
+[charaScale C 1.0]
+[bgm BGM_EVENT_7 0.1]
+[fadein black 1.5]
+[wait fade]
+[charaFadein C 0.4 1]
+
+
+＠？？？
+また来たのですかこんばんは！[r][#妾:わらわ]、これでも忙しいのですけど！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk A]
+[charaFace B 5]
+[charaFace A 2]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]何よアレ[line 3]！？[-][r][ff69b4]何で[#私:アタシ]のお城がピラミッドになってんの！？[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]いや、そもそもピラミッドが何で逆さなの！？[-]
+[k]
+
+[charaFace A 5]
+[charaFace B 2]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]潰れてたわ！　思いっきり上から突き刺しただけの[-][r][e5bc7c]手抜き工事よねアレ！？[-]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠？？？
+ホホホ、痛いところを突くわねトカゲ＆ヤモリ！[r]ですがあえて言いましょう！
+[k]
+
+[charaFace C 2]
+＠？？？
+[f large]これは！　リフォームです！
+[k]
+
+[charaFace C 1]
+＠？？？
+悪趣味極まる監獄城よ、さようなら。[r]いま、時代はシンプルさこそが最先端。
+[k]
+
+[charaFace C 2]
+＠？？？
+黄金の比率こそが、この世の美の基本。[r]そう、この[#妾:わらわ]のように！　[#妾:わらわ]のように！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]いや、めちゃめちゃ浮いているんだけど。[-][r][e5bc7c]ここヨーロッパだし……パッと見ただの魔改造だし……[-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠？？？
+前衛芸術！[r]ハコネ！　ゲイジュツノモリ！　ビジュツカン！
+[k]
+
+[charaFace C 0]
+＠？？？
+ともかく、この城は[#妾:わらわ]の管理下です。[r]されど[#妾:わらわ]も美を理解するもの。鬼ではありません。
+[k]
+
+[charaFace C 5]
+＠？？？
+どうしてもコンサートを開きたいのなら、[r]旧城主に敬意を表して場所を提供しましょう。
+[k]
+
+[charaFace C 1]
+＠？？？
+そうね……ええ、ひらめいたわ！[r]あの馬小屋とか、どうかしら？
+[k]
+
+＠？？？
+由緒正しき聖人の生誕地なのでしょう？[r]ロックだわ。聖人の土地でロックとかロックだわ！
+[k]
+
+[charaFace C 2]
+＠？？？
+ホホホ、よくてよよくてよ、礼の言葉など無用の長物！[r]ただ伏して[#妾:わらわ]に感謝する時です！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFace A 2]
+[charaFace B 2]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+[shake 0.05 10 10 0.7]
+＠[de5052]二人
+[f large][de5052]ふざけんな[line 6]！！[-]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠？？？
+む。交渉は決裂ですか。[r]……むつかしいわね。
+[k]
+
+[charaFace C 2]
+＠？？？
+ならば仕方なし。[r][#妾:わらわ]の力、とくと見るがいい！
+[k]
+
+[charaFace C 5]
+＠？？？
+……と言いたいところですが、[#妾:わらわ]的に直接戦うとか、[r]優雅ではありません。美容にも悪いですし。
+[k]
+
+[bgmStop BGM_EVENT_7 1.0]
+
+＠？？？
+なので代理で済ますとしましょう。[r]醜くも豪傑な[#鉄:くろがね]の騎士よ、出ませい！
+[k]
+
+
+[messageOff]
+[se bac172]
+[wt 0.5]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 0.1]
+[scene 20901]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+
+
+[charaTalk off]
+[charaFadein D 0.7 2]
+[charaFadein E 0.7 0]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.4]
+[wt 1.0]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+[wt 0.1]
+
+[se ad150]
+＠トリスタン
+嘆きのトリスタン、此処に推参致しました。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]何ですって……！[-]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+[wt 0.1]
+[se ad51]
+＠ランスロット
+憂いのランスロット、ここに。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]そんな……！[-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠？？？
+さて。[#妾:わらわ]は読みかけの書物を片付けます。[r]読み終わるまでに始末をつける事ね、ダメ男ども！
+[k]
+
+[charaFace C 1]
+＠？？？
+言うまでもなく、できなければ放逐です。[r][#妾:わらわ]の配下に美しいだけの男は要りません。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFace E 6]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+[se ad151]
+[wt 0.1]
+
+＠トリスタン
+悲しい……貴女は私たちの実力を[r]過小評価しているのですね……。
+[k]
+
+＠ランスロット
+トリスタン卿に同感です。[r]貴女が一行読む間に終わらせると誓いましょう。
+[k]
+
+[charaFace E 0]
+＠ランスロット
+さて、それではお二人には粛々とご退出願おうか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]ちょ、ちょっとタンマ！[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4][#私:アタシ]たちが勝負したいのは、[-][r][ff69b4]そこのいけ好かない女であって[line 3]！[-]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠？？？
+有能な部下を持つのも城主の器量よ。[r]フッ……[#妾:わらわ]ったら完璧だわ。
+[k]
+
+＠？？？
+ああ、最後に一つぐらい、[r]いい事を教えてあげましょう。
+[k]
+
+＠？？？
+せめてもの慰めに、[r][#妾:わらわ]の顔を記憶に焼き付けなさい。
+[k]
+
+＠？？？
+ほら。[r]美しいものを見ていると美しくなると言うでしょう？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]くっ、この……！[-][r][e5bc7c]やるわよ、[#私:アタシ]！[-]
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_3 0.5]
+
+[scene 10000]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[effect bit_talk_38]
+[se ad151]
+[voice NP_200800_6]
+[wt 2.0]
+[effectStop bit_talk_38]
+[effect bit_talk_13]
+[se ad170]
+[wt 0.7]
+[effect bit_talk_kengekiall01]
+[se ad33]
+[wt 1.2]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+
+
+
+
+[scene 32200]
+[wt 1.0]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+
+[se ad75]
+[seStop ad75 2.0]
+[wt 1.0]
+
+[wt 0.7]
+[bgm BGM_EVENT_2 0.5]
+[charaTalk A]
+[charaFace A 4]
+[charaFace B 4]
+[charaFadein A 0.1 6]
+[charaMove A 256,-100 0.4]
+[wait charaMove A]
+[se ad76]
+[seVolume ad76 0 0.5]
+[shake 0.05 7 10 0.7]
+[charaMove A 2 0.2]
+[wait charaMove A]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]わぷ！？[-]
+[k]
+
+[se ad75]
+[seStop ad75 2.0]
+[wt 1.7]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaMove B -256,-100 0.4]
+[wait charaMove B]
+[se ad76]
+[seVolume ad76 0 0.5]
+[shake 0.05 7 10 0.7]
+[charaMove B 0 0.2]
+[wait charaMove B]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]ふにゃ！？[-]
+[k]
+
+
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠トリスタン
+さあ、もう行きなさい。[r]命を獲れとまでは言われていません。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ランスロット
+貴女たち二人では、[r]我々はおろか彼女に勝てるはずもない。
+[k]
+
+[charaFace E 1]
+＠ランスロット
+せめて、あと十ほど歳を重ねてからにするのですね。[r]可愛らしいお嬢さんたち。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace A 2]
+[charaFace B 2]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]うわーん、ヒトヅマニアどもに負けたー！！[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]お、覚えてなさいよ！[-][r][ff69b4]この年増好き！[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]速攻でリベンジしてやるんだからね！[-]
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[se ad59]
+[seStop ad59 2.0]
+[wt 1.0]
+[scene 32200]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ランスロット
+ははは、それは楽しみだ。[r]さあ、戻ろうかトリスタン卿。
+[k]
+
+[charaFace D 4]
+＠トリスタン
+……ヒトヅマニア……。
+[k]
+
+[se ad151]
+[wt 1.0]
+
+[charaFace E 2]
+＠ランスロット
+（地味にショック受けてる……！？）
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 1.0]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[scene 20805]
+
+
+[bgm BGM_EVENT_2 0.5]
+[fadein black 1.5]
+[wait fade]
+[charaFace A 5]
+
+[charaFadein A 0.4 2]
+[charaFadein B 0.4 0]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]はあ、はあ、はあ……。[-][r][e5bc7c]な、何とか助かったけど……。[-]
+[k]
+
+[charaFace B 5]
+[charaFace A 2]
+＠A：[ff69b4]エリザベート
+[ff69b4]どうしよう、[#私:アタシ]！[-][r][ff69b4]このままじゃライブが開けないわ……。[-]
+[k]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]……悔しいけど、[#私:アタシ]たちだけじゃ、[-][r][e5bc7c]どうにもならないわね。[-]
+[k]
+
+[charaFace A 4]
+＠A：[ff69b4]エリザベート
+[ff69b4]うう、ヴラドおじ様は公務で出張中だし、[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4][#タマキャ:タマモキャット]は『未知なる肉球を求めて旅に出るワン』[-][r][ff69b4]って依願退職したし……。[-]
+[k]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]ところで退職理由って、もしかして嘘かしら。[-][r][ff69b4][#私:アタシ]たち、騙されてない？[-]
+[k]
+
+[charaFace B 5]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]それはどうでもいいのよ。[-][r][e5bc7c]いえ、良くないんだけど。[-]
+[k]
+
+[charaFace A 2]
+＠A：[ff69b4]エリザベート
+[ff69b4]うー、こんな時に[&子イヌ:子ジカ]がいればー！[-]
+[k]
+
+[charaFace B 5]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]無い者ねだりしても仕方ないでしょ。[-]
+[k]
+
+[charaFace B 4]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]情けないわね、[#私:アタシ]ともあろう者が[-][r][e5bc7c]誰かを頼りにするなんて。[-]
+[k]
+
+[charaFace A 5]
+＠A：[ff69b4]エリザベート
+[ff69b4]む。な、何よ[#私:アタシ]！[-][r][ff69b4]じゃあ、名案があるっての！？[-]
+[k]
+
+[charaFace B 5]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]そ、それは無いけど！[-]
+[k]
+
+[charaFace A 2]
+＠A：[ff69b4]エリザベート
+[ff69b4]だったらとやかく言わないでよ！[-]
+[k]
+
+[charaFace B 2]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]な、何よ！[-][r][e5bc7c][#私:アタシ]だって別に名案ある訳じゃないんでしょ！？[-]
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]頭悪いんだから、引っ込んでてよ！[-]
+[k]
+
+
+[bgm BGM_EVENT_7 0.5]
+
+[charaFace A 5]
+＠A：[ff69b4]エリザベート
+[ff69b4]カッチーン！[-][r][ff69b4]頭悪いのは、[#私:アタシ]なんだから一緒でしょ！？[-]
+[k]
+
+[charaFace B 5]
+＠B：[e5bc7c]エリザベート
+[e5bc7c][#私:アタシ]はキャスターな分、[-][r][e5bc7c]知力は[#私:アタシ]より１ランク上よ！[-]
+[k]
+
+[charaFace A 2]
+＠A：[ff69b4]エリザベート
+[ff69b4]そんなステータス無いわよ！[-]
+[k]
+
+[charaFace A 5]
+＠A：[ff69b4]エリザベート
+[ff69b4]っていうか、地味に魔力が１ランクダウンしてるのは、[-][r][ff69b4]どうかと思うのよ、キャスターの[#私:アタシ]。[-]
+[k]
+
+
+[charaFace B 2]
+＠B：[e5bc7c]エリザベート
+[e5bc7c]ひ、[charaShake B 0.05 1 1 0.4]人が気にしてることを[line 3]！！[-]
+[k]
+
+[charaMoveReturn B -128,0 0.4]
+[wt 0.2]
+[se ad76]
+[charaShake A 0.05 5 5 0.3]
+[wait charaMove B]
+
+[charaFace A 2]
+＠A：[ff69b4]エリザベート
+[ff69b4]やったわね、こんにゃろ[line 5]！[-]
+[k]
+[charaMoveReturn A 128,0 0.4]
+[wt 0.2]
+[se ad76]
+[charaShake B 0.05 5 5 0.3]
+[wait charaMove A]
+
+[wt 0.2]
+
+[charaTalk B]
+[charaMoveReturn B -128,0 0.4]
+[wt 0.1]
+[se ad76]
+[charaShake A 0.05 5 5 0.3]
+[wt 0.1]
+[se ad76]
+[wt 0.1]
+[se ad76]
+
+[charaFace B 2]
+
+＠B：[e5bc7c]エリザベート
+[f large][e5bc7c][speed 300][messageShake 0.05 5 5 0.7]＆＄＃〓％＆∧§’（＆（％＆））！！！[s -][-]
+[k]
+
+[charaTalk A]
+[charaMoveReturn A 128,0 0.4]
+[wt 0.1]
+[se ad76]
+[charaShake B 0.05 3 3 0.5]
+[wt 0.1]
+[se ad76]
+[wt 0.1]
+[se ad76]
+[charaFace A 2]
+
+＠A：[ff69b4]エリザベート
+[f large][ff69b4][speed 300][messageShake 0.05 5 5 0.7]”）※＄〓〓＊｀％”～’＄’％＃！！！[s -][-]
+[k]
+
+[bgmStop BGM_EVENT_7 0.5]
+[wt 0.4]
+[se ad29]
+[fowardEffect bit_talk_36]
+[wt 0.1]
+
+[charaFace A 4]
+[charaFace B 4]
+＠A：[ff69b4]エリザベート
+[ff69b4]え？[-]
+[k]
+
+＠B：[e5bc7c]エリザベート
+[e5bc7c]あれ？[-][r][e5bc7c]何これ、[#私:アタシ]たちの間に光が……？[-]
+[k]
+
+
+[se ad39]
+[messageOff]
+[fadeout white 1.5]
+[wait fade]
+[fowardEffectStop bit_talk_36]
+[wt 1.0]
+[scene 10001]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[fadein white 1.5]
+[wait fade]
+
+＠A：[ff69b4]エリザベート
+[ff69b4]え、え、え……？[-]
+[k]
+
+[se su6]
+[messageOff]
+[fadeout white 1.5]
+[wait fade]
+[wt 1.0]
+[scene 28302]
+[fadein white 1.5]
+[wait fade]
+
+
+＠[de5052]二人
+[de5052]（（ちょっと！　何があったのよ！？））[-]
+[k]
+
+＠[de5052]二人
+[de5052]……。[-][r][de5052]……。[-]
+[k]
+
+＠[de5052]二人
+[f x-large][de5052][messageShake 0.05 5 5 0.7]ナニコレ[line 3]！！？[-]
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[soundStopAll]
+[end]

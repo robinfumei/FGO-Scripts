@@ -1,0 +1,399 @@
+
+＄01-00-05-07-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5016001 1 ジェロニモ]
+[charaSet D 2010001 1 ビリー]
+[charaSet E 2003001 1 ロビンフッド]
+
+[scene 11213]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……仕留めました！　でも何故でしょうか。[r]いつも[charaFace A 8]よりどっと疲れたような……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace B 6]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ナイチンゲールさん、大丈夫ですか？[r]傷の手当てを[line 2]。
+[k]
+
+＠ナイチンゲール
+自分の体は看護師である自分がよく理解しています。[r]まだ動けますし、自然治癒で収まる範囲です。
+[k]
+
+？1：血が流れている
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+それが何か？[r]戦場において私の流す血と、彼らの血は等価です。
+[k]
+
+＠ナイチンゲール
+私が血を流すことで彼らが血を流さないのであれば、[r]私は喜んで[#己:おの]が血を捧げましょう。
+[k]
+
+＠ナイチンゲール
+それが従軍する私にとって可能な、[r]唯一の任務なのですから。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……。[r]どうしましょう、先輩。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.4]
+
+[charaFace E 0]
+[charaFadein E 0.4 0]
+[charaFace D 0]
+[charaFadein D 0.4 2]
+[wt 0.7]
+
+[charaTalk E]
+＠E：？？？
+よ。オタクらがジェロニモの言っていた援軍かい？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい。[r]貴方がたが、ジェロニモさんの言っていた[line 2]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠E：？？？
+そ、孤軍奮闘の二人ですよ。[r]オレ[charaFace E 0]の[#真名:な]は……面倒臭いから言っちまうか。
+[k]
+
+＠E：？？？
+オレはロビンフッド。クラスはアーチャー。[r]それで隣のコイツが[line 2]。
+[k]
+
+[charaFace D 4]
+＠D：？？？
+何だ、あっさり明かしちゃうんだ。ズルいなあ、[r]それじゃあ僕も明かさない訳にはいかないか。
+[k]
+
+[charaFace D 0]
+＠D：？？？
+僕はウィリアム・ヘンリー・マッカーティ・ジュニア。[r]人呼んで[line 2]ビリー・ザ・キッド！
+[k]
+
+＠ビリー
+この国を守るために、この国のサーヴァントである[r]僕が選ばれたみたいだね。
+[k]
+
+[charaFace D 1]
+＠ビリー
+クラスはもちろんアーチャー。[r]よろしく！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+二人とも生きていてくれて何よりだ。
+[k]
+
+＠ジェロニモ
+こちらはデミ・サーヴァントのマシュ・キリエライト。[r]そして彼女のマスターである[%1]だ。
+[k]
+
+？1：よろしく
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ロビンフッド
+はい、よろしくさん。[r]これでひとまず孤立無援の状態からは脱出か。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+？2：二人だけ？
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ビリー
+避難できなかった街の住人が残っているよ。[r]怪我をしていてね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+それで、ナイチンゲールさんが[r]飛び出していったんですか……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+血の臭いを嗅ぎ付けたコヨーテの如くだ。[r]……喩え方が少しイメージ悪いな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+かなりの衰弱が見られましたが、命に別状はありません。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ビリー
+そりゃ良かった！
+[k]
+
+[charaFace D 0]
+
+？！
+
+＠ビリー
+さて、ええと[line 2][%1]？[r]これから、僕たちはどうすればいい？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、それでは現状をお伝えします。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaFace D 0]
+[charaFadein E 0.1 0]
+[charaFace E 0]
+[charaFadein D 0.1 2]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.1]
+
+＠ビリー
+……なるほどねえ。このラーマって子を治療する。[r]戦力を拡充する。そして[line 3]
+[k]
+
+＠ロビンフッド
+敵さんの親玉を暗殺する、と。[r]いいんじゃない？　妥当な手段でしょ、それ。
+[k]
+
+＠ビリー
+さすが顔のない王として戦ってきただけに、[r]躊躇いがないねえ。
+[k]
+
+＠ロビンフッド
+汚れ仕事専門はお互いさまだろ、[r]少年悪漢王さんよ。
+[k]
+
+[charaFace D 1]
+＠ビリー
+あっはっは、当たり前じゃないか。[r]無限沸きする連中なんて、相手してられないよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+クラスの偏りを考慮すると、こちらの仲間に[r]セイバーかランサーが欲しいところだ。
+[k]
+
+＠ジェロニモ
+前線に立つ人間がマシュ一人ではさすがに心許ない。[r]……ナイチンゲールは勝手に飛び出すしな。
+[k]
+
+＠ジェロニモ
+この時代に召喚されたサーヴァントで、[r]かつケルトと[#所縁:ゆかり]のない者が望ましいが……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ビリー
+僕の知り合いは召喚されてないみたい。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+この世界に足りないのは看護師です。[r]その次に足りないものは医者です。
+[k]
+
+[charaFadeout B 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+[line 2]おっと。[r]現在、周囲にサーヴァントの反応はないようだ。
+[k]
+
+＠Dr.ロマン
+もう少し待てば、範囲を拡大できるけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+サーヴァントの反応があるまで、[r]辛抱強く周囲を索敵するしかないでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ロビンフッド
+……。[r]……。
+[k]
+
+？1：どうした？
+？2：何か？
+
+？！
+
+[charaFace E 0]
+＠ロビンフッド
+ああ、その……何つーか、[r][#ビリー:コイツ]と合流する前にさ、会ったんだわ。
+[k]
+
+[charaFace E 4]
+＠ロビンフッド
+セイバーとランサーに。[r]うん、まあ……セイバーとランサーだけどね？
+[k]
+
+＠ロビンフッド
+こう、ウルトラな問題児なんだけどね？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……？[r]狂化している、あるいは反英雄ですか？
+[k]
+
+[charaFace E 0]
+＠ロビンフッド
+一人は確かに反英雄だが、[r]両方とも言葉は通じるぜ。
+[k]
+
+[charaFace E 4]
+＠ロビンフッド
+だが、ありゃあなんつーか……[r]とりあえず会ってみれば分かる。
+[k]
+
+＠ロビンフッド
+会ってからオレを責めないでくれよ？
+[k]
+
+[charaFace A 7]
+＠マシュ
+現状を考えると、どんな問題サーヴァントでも[r]戦力として欲しいところです。
+[k]
+
+[charaFace A 1]
+＠マシュ
+いざとなれば先輩がまとめてくれます。[r]そうですよね、マスター？
+[k]
+
+？1：まあ、なんとかなるさ
+？2：うん、いざとならないように頑張ろうね
+
+？！
+
+[charaFace E 1]
+＠ロビンフッド
+そりゃ頼もしい。[r]よっぽど困った連中と戦ってきたんだな、アンタ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[soundStopAll]
+[end]

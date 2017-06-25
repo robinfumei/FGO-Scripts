@@ -1,0 +1,298 @@
+＄01-00-06-11-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 98084000 1 粛正騎士]
+
+[scene 28600]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠粛正騎士
+馬鹿な……貴様ら、いったい何処、から[line 3]
+[k]
+
+[charaEffect F bit_talk_06]
+[wt 1.0]
+[messageOff]
+[charaSpecialEffect F erasure 1 1.2]
+[se ad52]
+[wt 1.5]
+[charaEffectStop F bit_talk_06]
+[wait charaSpecialEffect F]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+信じられませんが空からです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+強力な魔力反応がやってくるぞ！[r]間違いない、円卓の騎士だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_3 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_5 0.1]
+
+[se ad60]
+[seStop ad60 1.5]
+[wt 0.2]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.7 1]
+＠モードレッド
+よう、よく来たなクズ共、歓迎するぜ！[r][#手前:テメエ]から来るとは見所あるじゃねえか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、やっぱりモードレッドさんです……！[r]ロンドンの時の、あのモードレッドさんです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+[FFFFFF]？　人の名前を何度も叫んでんじゃねえ。[-][r]誰だおまえ。オレのファンか？
+[k]
+
+＠モードレッド
+そりゃあ、あんだけ異教徒を殺してきたんだ。[r]オレは有名人だろうけどな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+わたしたちを知らない[line 3]ロンドンに召喚された[r]モードレッドさんとは別人なんですね……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠モードレッド
+なんだよ、急にしおらしくなりやがって。[r]オレはおまえたちなんか知らな[line 3]
+[k]
+
+[charaFace E 0]
+＠モードレッド
+いや。知ってるな。[r]姿は違うが、おまえの魔力には覚えがある。
+[k]
+
+＠モードレッド
+……父上の招集に応えないと思ったら、テメエ、[r]そんなところで何してやがる。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+まさか叛逆者ってのはテメエだったのか……？[r]…………そうか。テメエなら、まあ、アリだな。
+[k]
+
+＠モードレッド
+今のアーサー王に正面から文句言えるのはテメエ[r]ぐらいだろう。ちょいと、来るのが遅すぎたがな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+モードレッドさん……？[r]あの……話し合いに応じてくれるのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+バーカ、話し合いなんざするか！[r]誰であれオレの邪魔をする奴は敵だ！
+[k]
+
+[charaFace E 0]
+＠モードレッド
+そこの魔術師が例のマスターだな？[r]アグラヴェインの頼みだ、念入りに殺してやるよ！
+[k]
+
+？1：[&おまえ:あなた]とは戦いたくない！
+
+[charaFace E 0]
+＠モードレッド
+なんだあ？　テメエもオレと知り合いかぁ？[r]……チ。面倒くせえな、サーヴァントってのは。
+[k]
+
+＠モードレッド
+だが諦めな。テメエが知っているオレがどんな[r]阿呆だったかは知らないし、聞く気もない。
+[k]
+
+＠モードレッド
+今のオレは獅子王の騎士、不名誉な猟犬を命じられた[r]遊撃騎士モードレッド様だ。
+[k]
+
+＠モードレッド
+分かるか？　首輪を外されたかわりに、[r]好きに暴れていいってお墨付きをもらったのさ。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+は、まさしくオレに相応しい、最高の扱いだぜ！[r]誰であれ、王に刃向かう奴らは皆殺しってな！
+[k]
+
+？2：なぜこんな事をする……！
+
+[charaFace E 1]
+＠モードレッド
+決まってんだろ！[r]最ッッッ高に楽しいからだ！
+[k]
+
+[charaFace E 0]
+＠モードレッド
+いいぜぇ、異教徒狩りはよぉ？[r]弱っちいクセに必死に逆らって、抗って[line 3]
+[k]
+
+[charaFace E 2]
+＠モードレッド
+次から次へと虫みてぇに潰れていくんだからな！[r]十字軍の連中の気持ちも分かるってもんだ！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+[%1][&君:ちゃん]。[r]彼女はロンドンのモードレッドじゃない。
+[k]
+
+＠Dr.ロマン
+情けをかけていたらキミが殺される。[r][line 3]全力で、ひとりの敵として戦うんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+戦いになればいいけどな？[r]オレに与えられた[#祝福:ギフト]は“暴走”だ。
+[k]
+
+＠モードレッド
+オレの魂が燃え尽きるまで聖剣をぶっ放し続ける。[r]何百、何千の軍勢がオレの敵だ。
+[k]
+
+＠モードレッド
+おまえたちはひい、ふう、みぃ……[r]なんだよ、[charaFace E 2]たった三騎だけかよ！
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+＠モードレッド
+たかだか一人のマスターと三騎のサーヴァントじゃあ[r]相手にもならねえ。遊びにしてもつまら[line 3][charaFace E 5]待て。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+[line 3]おい。[r]どういう事だ。どういう事だよ、これは。
+[k]
+
+＠モードレッド
+なんでテメエがそこにいる？[r][#いるハズがねえだろ、テメエだけは]。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 2]
+＠モードレッド
+なあ、そうだろ三流騎士！？[r]テメエが叛逆者に混ざってるなんざ、最悪の冗談だ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……貴方に語りかける言葉はありません。[r]恨み言があるのは私も同じです。
+[k]
+
+＠ベディヴィエール
+獅子王に辿り着く事が私の目的でしたが、[r]今だけはそれを忘れます。
+[k]
+
+＠ベディヴィエール
+叛逆の騎士モードレッド。[r]アーサー王の理想を踏みにじった不忠者。
+[k]
+
+＠ベディヴィエール
+貴方のその汚れた聖剣こそ、[r]見るに堪えぬ最悪の現実だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ[line 2]ウ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+ハ[line 3]！[r]でかい口を叩くようになったじゃねえか、チキン野郎！
+[k]
+
+＠モードレッド
+面白ぇ！　なに一つオレに勝てなかった悲惨な現実を[r]たっぷり思い出させてやるよ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+来るぞ……！　円卓の騎士との二戦目だ！[r]彼らの特殊技能に気をつけて……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]

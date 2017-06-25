@@ -1,0 +1,658 @@
+
+
+＄94-00-37-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 7006000 1 坂田金時]
+
+
+[scene 27000]
+
+[fadein black 2]
+[wait fade]
+
+[seLoop ad31]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+おつかれさま。[r]こっちはやっと現在位置の特定ができたよ。
+[k]
+
+＠Dr.ロマン
+そこはおよそ北緯３５度、東経１３５度４５分。[r]この時代の日本における文化的・政治的中心地。
+[k]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+つまり、その山を下りた先は[line  3]
+[k]
+
+
+[seStop ad31 0.3]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 5]
+
+＠坂田金時
+舞い散る桜に錦の空と言えば一つしかねえ。[r]京の手前だぜ、ここは。
+[k]
+
+
+[wt 0.1]
+
+
+[charaTalk B]
+[communicationCharaFace 2]
+
+＠Dr.ロマン
+京[line 2]ってイイ台詞盗られたー！[r]緯度経度とかでタメなきゃよかったー！
+[k]
+
+[charaFadeout C 0.1]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+
+＠マシュ
+大丈夫です、ドクター。
+[k]
+
+＠マシュ
+いつか世界の命運を賭けて地理のテストを受けなければ[r]ならない場面が出てくるかもしれません。
+[k]
+
+＠マシュ
+その時には今の情報もきっと役立つかと。[r]どうもありがとうございました。
+[k]
+
+[charaTalk B]
+
+[communicationCharaFace 4]
+
+＠Dr.ロマン
+心なしかマシュのフォローも厳しいなあ……[r]じゃあもう一つ、新情報を。
+[k]
+
+＠Dr.ロマン
+さっき、匂いの話をしていただろう？[r]気になったから解析してみたんだけど……。
+[k]
+
+＠Dr.ロマン
+大気中に混じっているのはエタノール。[r]酵母を使って果実や作物を発酵させたもの、
+[k]
+
+＠Dr.ロマン
+つまりアルコール。お酒の匂いだ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.3]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+
+＠坂田金時
+酒の匂い、だとぅ？
+[k]
+
+[charaTalk B]
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+おや金時くん。お酒には強そうな顔だけど、[r]何かイヤな思い出でも？
+[k]
+
+[charaTalk C]
+[charaFace C 3]
+
+＠坂田金時
+酒にまつわる話で[r]いい話なんて聞いたコトがねえけどな。
+[k]
+
+[communicationCharaFace 1]
+
+＠Dr.ロマン
+確かに。たいていは酔っ払って失態を晒した、[r]なんてトラウマ話ばっかりだしね！
+[k]
+
+＠坂田金時
+……そんなところだ。[r]ったく、ゴールデンに嫌な予感がしやがるぜ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.3]
+
+[charaTalk A]
+
+[charaFace A 16]
+[charaFadein A 0.1 2]
+
+
+＠マシュ
+……………………。
+[k]
+
+[charaTalk B]
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+ではお酒の話は置いておこう。[r]異常反応の位置も特定できたよ。
+[k]
+
+＠Dr.ロマン
+わからないことは今は置いといて、[r]予定通りそちらの調査に向かってほしい。
+[k]
+
+＠Dr.ロマン
+金時くんもその為に来たんだろ？[r]でもいつの間にレイシフトを使ったんだい？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠坂田金時
+あん？[r]オレを呼んだのはそっちの大将だろ？
+[k]
+
+＠坂田金時
+オレっち、気がついたらここにいたんだぜ？[r]暇だったんで熊と稽古して、寝て、朝だ。
+[k]
+
+[charaTalk B]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+……ふうん？[r]強制的に喚ばれたのか、キミ。
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+
+＠坂田金時
+おう。何か裏が有りそうだが、細かいコトはいい。[r]大将、人手が足りねえんだろ？
+[k]
+
+＠坂田金時
+ならオレに任せておきな！[r]見ての通り、力だけは有り余ってるからな！
+[k]
+
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+ありがとう、助かるよ。[r]気をつけて進んでくれ。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1.2]
+[bgmStop BGM_EVENT_2 2.0]
+[wait wipe]
+[charaFadeout C 0.1]
+
+[scene 27010]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[wipein leftToRight 1.0 1.2]
+
+[wt 0.8]
+
+
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+バッドミストだぜ、こりゃあ。[r]スモークオンザなんとかってヤツか？
+[k]
+
+
+
+[charaTalk B]
+
+＠Dr.ロマン
+元凶まではまだ少し距離があるけど。[r]周囲はどんな状況だい？
+[k]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。京の近辺にある、人が居住している地域に[r]入ったようですが……なんだかおかしな様子で……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad5]
+
+＠京人
+あははは。あははははは！[r]飯や、飯や！　じゃんじゃん持ってこーい！
+[k]
+
+＠京人
+こおの腐れ外道がぁ！　幼なじみの嫁さんとか[r]前から気にくわんかったんや！　祝ってやる！
+[k]
+
+＠京人
+好き。むっちゃ好き。抱いて！　今すぐ抱いて！[r]桃源郷につれていって！　え、嫁がおる？　死ねやー！
+[k]
+
+？1：なんかもうカオスです
+？2：どこの奇祭ですかな？
+
+？！
+
+[seStop ad5 0.5]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マシュ
+正直、何が起こっているのかもよくわからない感じで。[r]方向性が滅茶苦茶な騒ぎが。
+[k]
+
+＠マシュ
+一人一人が別方向に盛り上がってる、ような……[r]なんなんでしょう、これは。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFace A 3]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+
+＠坂田金時
+言ってるこたぁ物騒だが、まだ理性はある方だ。[r]刃物を持ち出さないうちはかわいいモンだがよ……。
+[k]
+
+＠坂田金時
+……気付いてるか？[r][#どんどん濃くなって]きてやがる。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+何が起こるかわからない状況です。先輩、ここからは[r]今まで以上に注意して進むことにしましょう。
+[k]
+
+[messageOff]
+
+[se ad112]
+
+[backEffect bit_talk_sakura01]
+
+[wt 0.5]
+
+＠マシュ
+相変わらず桜は綺麗ですが[line 2]
+[k]
+
+[charaFace A 16]
+
+＠マシュ
+……。[r]…………。
+[k]
+
+[charaTalk A]
+[charaFace A 2]
+
+
+＠マシュ
+っ！？　先輩、危ないっ！[charaFadeout C 0.1][wt 0.1][charaMove A 1 0.3][se ad111]（むぎゅっ）
+[k]
+
+[backEffectStop bit_talk_sakura01 0.3]
+
+
+[wt 0.5]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 2]
+
+＠Dr.ロマン
+どうした、何があった！？[r]敵襲かい！？
+[k]
+
+？1：マシュがいきなり抱きついて……きて……
+？2：この感触……ビーストですよコイツは……
+
+？！
+
+
+
+
+[charaTalk A]
+[charaFace A 16]
+
+＠マシュ
+ふう、危ないところでした。[r]先輩の頭の上に桜の花びらが落ちてきたので。
+[k]
+
+
+[charaTalk B]
+
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+………………うん？
+[k]
+
+
+[charaTalk A]
+
+[charaFace A 3]
+
+＠マシュ
+先輩は大役を担っておられる身。その先輩を邪魔し、危害[r]を加えようとするものを見過ごすわけにはいきません。
+[k]
+
+＠マシュ
+マシュ・キリエライトは先輩の力になりたいのです。[r]もっと、もっと、もっともっと。
+[k]
+
+
+[charaFace A 2]
+
+
+＠マシュ
+ですから[line 2]ハッ？　異臭を放つ謎のトラップ！[r]敵の宝具かもしれません、下がって！（むぎゅむぎゅ）[se ad111][wt 0.3][se ad111]
+[k]
+
+
+[communicationCharaClear]
+[charaFadeout A 0.1]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+いや、そりゃあただの肥溜めだ。[r]落ちたら目も当てられない惨状だがな？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……おや？　大変です先輩、少し顔が赤いです。[r]ひょっとして熱でも[line 2]いえ、風邪ではありませんか？
+[k]
+
+＠マシュ
+大丈夫ですか？　お辛くないですか？[r]なでなでしますか？
+[k]
+
+＠マシュ
+そう言えば、今朝は少しお腹を出して[r]寝ておられました。
+[k]
+
+
+＠マシュ
+不覚。ですが、わたしがいればもう大丈夫です。[r]今日は添い寝をしましょう。
+[k]
+
+＠マシュ
+こちらの宝具を使えばしつこい風邪のウィルスも[r]杉の花粉も完全ガード。
+[k]
+
+＠マシュ
+あらゆる外敵、悪い虫をシャットアウトなのです！
+[k]
+
+？1：さっきからマシュの様子が変なんですけど！？
+？2：[#衛生兵:ドクター]……[#衛生兵:ドクター]！
+
+？！
+
+
+[charaTalk B]
+
+
+＠Dr.ロマン
+うーん？　待てよ、これは……ひょっとして。[r]なるほど、やっぱりそうなのか……？
+[k]
+
+＠Dr.ロマン
+ちなみに金時くんはどうだい？[r]何か異常を感じていたりはしないかい？
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+
+[charaFace A 16]
+[charaFadein A 0.1 2]
+
+＠坂田金時
+ああ、心配には及ばねえ。[r]オレはいつでもゴールデンだ。
+[k]
+
+＠坂田金時
+むしろ力が増してやがる。[r]やる気が満ちあふれて仕方がねえ！
+[k]
+
+
+[charaTalk A]
+[charaFace A 3]
+[charaFace C 1]
+
+＠マシュ
+聞きましたか先輩。Mr.ゴールデンはやる気が[r]有り余ってるそうですよ。怖いですね。
+[k]
+
+＠マシュ
+ですが大丈夫です。それがもし先輩に[r]向けられるような[&ボーイズ案件:セクシャル案件]になっても、
+[k]
+
+＠マシュ
+わたしの、この盾が、もうすごい勢いで展開して[r]先輩を確保しますので。もうマシュっと。
+[k]
+
+
+
+[charaFace C 0]
+＠坂田金時
+いや、そこまで見境ねえ男じゃねぇんだけどな……。
+[k]
+
+＠坂田金時
+おい、大将？[r]お嬢ちゃん、いつもこうなのか？
+[k]
+
+？1：言われてみれば、わりと
+？2：いや、今回はとくに
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[seLoop ad31]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+
+
+＠Dr.ロマン
+いやあ……その、なんだ。[r]たいへん言いづらい事なんだが……。
+[k]
+
+＠Dr.ロマン
+モニタしているバイタルに微妙な変化が見られる。[r]彼女は[#酔っている]。
+[k]
+
+
+[charaTalk C]
+
+＠坂田金時
+酔っている？　この匂い程度でかぁ！？
+[k]
+
+
+[charaTalk B]
+
+＠Dr.ロマン
+うん。[r]どうやら金時くんには効いていないようだけどね。
+[k]
+
+＠Dr.ロマン
+その空間に満ちているという酒気のせいだ。[r]周囲の人間達がおかしいのもそのせいだろう。
+[k]
+
+＠Dr.ロマン
+その酒気を吸ったことで酔っ払ってしまっているんだ。[r]だから各々が好き勝手なことをやっている。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]はどうだい？[r]何か身体に異変は？
+[k]
+
+？1：特には何も。シラフです
+？2：飲んだことないのでわかりません
+
+？！
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+ふむ。本来マシュが持つべき守護の力が[r]マスターに譲渡されているのかもだな。
+[k]
+
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+でも、今はそれが正しい。どんなに酔っていても[r]マシュは[%1][&君:ちゃん]の指示に従うし。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]まで正気を失ったら、[r]それこそゴールデンやばい事態だ。
+[k]
+
+[seStop ad31 0.3]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩、先輩。ドクターとばかりお話していないで[r]先に進みましょう。目的地はまだ先です。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠坂田金時
+こりゃあ進むしかねぇな。[r]嫌な予感がますます強くなってきやがった……お？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠京人
+[bgm BGM_EVENT_3 0.1]
+ヒャッハー！　新鮮な田舎者やぁー！
+[k]
+
+＠京人
+[#金子:きんす]おいてけー！
+[k]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+置いていきません！[r]先輩はわたしと行くのですから！
+[k]
+
+＠マシュ
+先輩、障害を排除しますね！[r]ふたりの共同作業です！
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[seLoop ad31]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+ぐでんぐでんで支離滅裂というわけでもなくて、[r]一見普通に見えるのが不思議なんだよなぁ。
+[k]
+
+＠Dr.ロマン
+この[#酔い方]には……[r]何か理由でもあるんだろうか……？
+[k]
+
+
+
+
+
+[seStop ad31 0.4]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

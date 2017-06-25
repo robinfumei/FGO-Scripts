@@ -1,0 +1,707 @@
+＄91-40-13-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 4013000 1 メイヴ]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 99360000 1 ケルト兵Ａ]
+[charaSet F 99360000 1 ケルト兵Ｂ]
+
+[scene 20720]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.7]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+[wt 0.4]
+＠メイヴ
+うーん！[r]広くて気持ちがいいわね、ここ！
+[k]
+
+[charaFace A 0]
+＠メイヴ
+“二人きりになれる所に連れていって……♡”[r]なーんて。ふふ。
+[k]
+
+＠メイヴ
+まさか、こーんなストレートな私の誘惑に[r]乗ってくれるなんて、ちょっと見直しちゃった。
+[k]
+
+＠メイヴ
+ありがとう[%1]。[r]私のワガママを聞いてくれて。でも……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 0]
+[wt 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaFace A 7]
+＠メイヴ
+お邪魔虫がいるのは減点よ。[r]なに、そこのチンチクリンなの。アナタの護衛？
+[k]
+
+＠メイヴ
+そういえばいつも[%1]の側にいたけど。[r]どうでもいいから名前とか覚えてないけど。
+[k]
+
+[charaFace B 3]
+＠マシュ
+はあ……すみません。先輩の頼れるデミ・サーヴァント、[r]マシュ・キリエライトです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[se ad13]
+[charaTalk C]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+＠Dr.ロマン
+コホン。[r]そしてもちろんボクもいるからね。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+[%1][&君:ちゃん]の監督役として、[r]青春の暴走とか、万が一にも見過ごせません！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠メイヴ
+あっ、そう。ま、いいわ、どうでも。[r]別にアナタたちに興味はないし。
+[k]
+
+[charaFace A 14]
+＠メイヴ
+重要なのは[%1]が私の要望を聞いて、[r]それにきちんと応えてくれたってコト。
+[k]
+
+[charaFace A 13]
+＠メイヴ
+しかも自分からこの場所を選ぶなんて、[r]危機感がないのを通り越して大物なのかしら。
+[k]
+
+＠メイヴ
+ここまで簡単だと私も張り合いがないって言うか、[r]そんなに信用されてるの？って不安になるって言うか。
+[k]
+
+[charaFace A 8]
+[wt 0.2]
+＠メイヴ
+……そうね。時間もあるし、[r]始める前に聞いておきましょう。
+[k]
+
+＠メイヴ
+アナタ、私の事をどう思っているの？[r]英雄らしからぬ反英雄？　それとも扱いづらい女王？
+[k]
+
+？1：そりゃあ、友達候補or恋人候補？
+
+[charaFace A 12]
+[wt 1.0]
+[charaFace A 13]
+＠メイヴ
+そう。はっきり断言するあたり悪くないけど、[r]それは無理な話ね。だってアナタ、戦士じゃないもの。
+[k]
+
+＠メイヴ
+私が必要なのは戦士よ。[r]ただの人間なんて、どう扱っていいのか分からないわ。
+[k]
+
+？2：えーと……素直じゃないけど根は善人？
+
+[charaFace A 14]
+＠メイヴ
+へぇ。女王メイヴも舐められたものね。[r]でも残念。私、絶対にデレないわよ？
+[k]
+
+？！
+
+[charaFace A 0]
+＠メイヴ
+私は支配するために、他人から奪うために呼ばれた女。[r]必要なのは優れた兵士と、美味しそうなお隣の領土だけ。
+[k]
+
+[charaFace A 14]
+＠メイヴ
+カルデアの召喚に応じたのは品定めみたいなものよ。
+[k]
+
+＠メイヴ
+見てなさい？　水面下でしっかり準備して、[r]何度だって侵略戦争を起こしてあげる。
+[k]
+
+＠メイヴ
+ドクター・ロマンだっけ？　聖杯の保管場所は[r]もっと分かりづらい所の方がいいわよ？
+[k]
+
+＠メイヴ
+アナタ、色仕掛けに弱そうだし。私クラスの性悪が[r]三人増えればあっさり横取りされるんじゃない？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+はっはっは。そこは大丈夫。[r]保管庫のロックはダ・ヴィンチちゃん製だからね。
+[k]
+
+
+＠Dr.ロマン
+なにしろボクにも開け方が分からない！[r]どんなに[communicationCharaFace 4]頼んでも教えてくれなかったんだチクショウ！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+なので、ボクには色仕掛けは効かない。[r]というか効いても意味がない。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+そう、知らない事こそ最強のセキュリティ[line 3][r]どんなハニトラも怖くないって寸法さ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+？1：さすがダ・ヴィンチちゃん……
+？2：ドクターの扱いがプロ並だ……
+
+？！
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.5]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠メイヴ
+ダ・ヴィンチ……あの目障りな女ね。[r]『黄金律（体）』を持つのは私だけで十分だって言うの。
+[k]
+
+＠メイヴ
+近いうちに闇討ちしてやろうかしら……[r]キャスターなんて鴨なんだし。
+[k]
+
+＠メイヴ
+でもアイツ、なーんか妙なのよね……[r]いざとなったらアサシンにでも変わりそうっていうか……
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.5]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk B]
+[charaFace A 7]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠マシュ
+あの、メイヴさん。[r]わたしからも一つ、よろしいでしょうか？
+[k]
+
+[charaFace A 0]
+＠メイヴ
+ん、なに？[r]面白い質問なら答えるわ。でも手短にね？
+[k]
+
+[charaFace B 3]
+＠マシュ
+は、はい。努力します。いまご自分で仰られた通り、[r]メイヴさんはライダー……ですよね？
+[k]
+
+[charaFace A 0]
+＠メイヴ
+そうよ、私のクラスは[#騎乗兵:ライダー]。[r]毎日だって毎晩だって乗りまくりだわ。それが？
+[k]
+
+＠マシュ
+いえ、その……普段は杖……のようなもので[r]戦っているので、メイヴさんもキャスターなのでは、と。
+[k]
+
+＠マシュ
+宝具で戦車を呼ぶところは見ているのですが、[r]あれも何が起きているのかよく分からなくて。
+[k]
+
+＠マシュ
+相手を弾き飛ばしている訳でもなし、[r]いったいどのような攻撃なのか、疑問だったのです。
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace A 8]
+＠メイヴ
+え？　そう？　見たいの？　見る？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ばっ[line 3]今さらその問題に踏み込むのかいマシュ！？[r]ランスロットさんにボクが叱られるかもだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォウフォウ、フォ[line 3]ウ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.4]
+
+？1：マシュ、それ以上いけない
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+いえ。共に戦うサーヴァントの戦法を[r]把握しておく事は生存率の上昇に繋がります。
+[k]
+
+＠マシュ
+先輩のためにも、ここで明らかにしなければ！
+[k]
+
+[bgmStop BGM_EVENT_7 0.4]
+[charaFadeout B 0.1]
+[wt 0.5]
+
+？2：実は[&自分:わたし]も興味が……
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ノ[line 4]！[r]ケルトの英雄事情はキミたちにはまだ早すぎる！
+[k]
+
+[bgmStop BGM_EVENT_7 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.5]
+
+？！
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠メイヴ
+戦車の中で何が起きているかなんて、[r]言うまでもないでしょ。
+[k]
+
+＠メイヴ
+私は女王メイヴ。兵士たちの母。[r]クラスがライダーなのは戦車に乗るからじゃないわ。
+[k]
+
+[charaFace A 0]
+＠メイヴ
+乗っているのは男よ、男。[r]ライダーだもの、当然でしょ？
+[k]
+
+[charaFace B 3]
+＠マシュ
+[line 3]え、あの。[r]それは、あの。あの……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠メイヴ
+とっても面白くて気持ちイイわよね、アレに乗るのって。[r]支配してるって感じが最高！
+[k]
+
+＠メイヴ
+乗られるのも嫌いじゃないけど、やっぱり主導権は[r]自分が握りたいじゃない？
+[k]
+
+[charaFace A 3]
+＠メイヴ
+それが[#逞:たくま]しい[#戦士:おとこ]なら言う事なし、[r]もう首輪をつけたくなるぐらい興奮するわ！
+[k]
+
+＠メイヴ
+だってアレよ？　強い[#戦士:おとこ]であればあるほど[r]私の肢体も乱れるのよ？
+[k]
+
+＠メイヴ
+細胞から煮えたぎって、頭の中も[r]いろんなものが分泌してぐらんぐらんになって[line 3]
+[k]
+
+＠メイヴ
+もう、その度に自分が生まれ変わる気分なの！[r]一度知ったらやめられない蜂蜜のようなものよ！
+[k]
+
+[charaFace A 6]
+＠メイヴ
+そう、ほんっと、男の喜びなんてちっちゃいわ。[r]可哀想に思えるぐらい。
+[k]
+
+＠メイヴ
+[#戦士:おとこ]は敵を殺すだけ。[r]そんな快楽なんて、産む快楽に比べれば些細なものよ？
+[k]
+
+[charaFace A 0]
+＠メイヴ
+だから私は逞しい[#戦士:おとこ]が好き。[r]いい[#戦士:おとこ]に出会える戦場が大好き！
+[k]
+
+＠メイヴ
+これだけは私が何者になろうと変わらない真実よ。[r]私は戦車に乗って、男に乗って、そして戦場に乗る女。
+[k]
+
+＠メイヴ
+それが侵略者である女王メイヴの在り方だもの。[r]どう？　納得したかしら？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 3]
+[charaFadein B 0.1 2]
+＠マシュ
+は、はい……よく分かりませんが、[r]メイヴさんの発言は記録できました。
+[k]
+
+＠マシュ
+ですが、その……産む、という事は……[r]メイヴさんにはお子様がいらっしゃるのでしょうか？
+[k]
+
+[charaFace A 0]
+＠メイヴ
+ええ。もう数え切れないぐらい産んだわ。[r]なんたって国の礎だもの。守るために絶対必要。
+[k]
+
+？1：子供好き……なんですね……？
+
+？！
+
+[charaFace A 8]
+＠メイヴ
+[FFFFFF]？　別に好きじゃないけど？[-]
+[k]
+
+＠メイヴ
+育てるのとか超めんどいし。[r]そういうのは別の人に任せればいいの。
+[k]
+
+[charaFace A 0]
+＠メイヴ
+いま言ってるのは、女はガンガン男に乗って[r]ガンガン産むべきってこと。気持ちいいし必要だから！
+[k]
+
+[charaFace A 12]
+＠メイヴ
+あ、でも、そっか。[r]ごめんなさい、説明が一つ抜けてたかも。
+[k]
+
+＠メイヴ
+私の“[#兵産:うむ]”と一般的な“産む”は[r]別のものだって話、してないわよね？
+[k]
+
+[charaFace B 3]
+＠マシュ
+はい、してません。[r]そのあたり、詳しく。
+[k]
+
+[charaFace A 0]
+＠メイヴ
+私、見ての通りコノートの女王でしょ？[r]だから兵士を産むのと跡継ぎを産むのは別なのよ。
+[k]
+
+＠メイヴ
+兵士なら元になる[#戦士:おとこ]の体液があれば複製できる。
+[k]
+
+＠メイヴ
+相手を戦車に連れ込んで、肌を交わして、[r]その後に人差し指を切って、血を大地に垂らす。
+[k]
+
+＠メイヴ
+蜂蜜酒に血を混ぜるみたいに、ね。
+[k]
+
+[charaFace A 14]
+＠メイヴ
+そうすれば私の可愛い兵士のできあがり。[r]即席のホムンクルスみたいなものね。
+[k]
+
+＠メイヴ
+私に逆らわない、私だけの兵士の完成ってワケ。
+[k]
+
+[charaFace A 0]
+＠メイヴ
+ま、元になった[#戦士:おとこ]ほど強くはないのが[r]欠点だけど、そこは量で補うのがメイヴ流よ。
+[k]
+
+＠メイヴ
+分かった？　これが私の戦い方。[r]だから、その……
+[k]
+
+[wt 0.2]
+[charaFace A 4]
+＠メイヴ
+跡継ぎの話は別よ。[r]こっちは、ほら。なんていうか……
+[k]
+
+[charaFace A 11]
+＠メイヴ
+私が心身ともにぞっこんになる相手じゃないと、[r]恵まれないものでしょう？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+（予想外の乙女発言だ……！）
+[k]
+
+＠Dr.ロマン
+（この倫理観でこの乙女力、[r]　これは確かに面倒くさい……！）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠メイヴ
+まあいいわ、ともかく！[r]話を戻して[line 3]さ、脱ぎましょうか！
+[k]
+
+[charaChange A 4013001 14 fade 0.7]
+[wt 0.35]
+[se ad7]
+[wt 1.5]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+通過した覚えのないところに戻った！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+＠マシュ
+な、なぜですか？[r]もしや先輩と、その……！
+[k]
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_7 1.0]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠メイヴ
+ええ。アナタのマスターをいただくのよ。[r][line 3]首だけにして、私の戦車の飾りとしてね。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠メイヴ
+私は屈辱を忘れない女よ。[r]やられたらやり返さないと気が済まない。
+[k]
+
+＠メイヴ
+[%1]。アナタがこの特異点で、[r]私の王国を打ち倒した事は知っているわ。
+[k]
+
+＠メイヴ
+だからこそ、私はこうしないと存在できない。[r]報復なくして何が女王かって言う話よ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+何を馬鹿な！　契約した以上、サーヴァントは[r]マスターに危害を加えられない！
+[k]
+
+＠Dr.ロマン
+いかに自由奔放な女王メイヴと言えどそこは共通だ！[r]いざとなれば令呪で退去させられるんだからね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠メイヴ
+ふふ。それは不可能よ。[r]少なくとも、今回は私の[#強制力:わがまま]の方が上だから。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠メイヴ
+言ったでしょう？[r]私が誘って、アナタが受けた。
+[k]
+
+＠メイヴ
+それで[#誓い:ゲッシュ]は成立したの。[r]私が満足するまで解けないわ。
+[k]
+
+＠メイヴ
+分かる、生意気な[&牡羊:牝羊]ちゃん？[r]アナタはもう逃げられないってコト。
+[k]
+
+？1：なんて邪悪なスマイル……！
+？2：なんて邪悪なハニトラ……！
+
+？！
+
+[charaFace A 6]
+＠メイヴ
+ふん、いい反応するじゃない！[r]それでこそ一度は私を倒したマスターだわ！
+[k]
+
+＠メイヴ
+さあ、私のために戦う時よ、私の兵士たち！[r]ケルトの戦士の力、思い知らせてあげなさい！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaTalk off]
+[charaPut E 0]
+[charaPut F 2]
+[charaSpecialEffect E appearance 1 0.25]
+[charaSpecialEffect F appearance 1 0.25]
+[se ad73]
+[wait charaSpecialEffect F]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+地面から一瞬で兵士たちが現れた……！[r]構えて、彼女は本気だ[%1]君！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠メイヴ
+当然よ。やる時はいつも本気だもの、私。[r]マスターであれ機会を作って[#蹂躙:じゅうりん]するわ。
+[k]
+
+[charaFace A 7]
+＠メイヴ
+アナタのサーヴァントが力尽きるのが先か、[r]私の兵士たちが尽きるのが先か[line 3]
+[k]
+
+[charaFace A 6]
+＠メイヴ
+もう一度、ここで試してみようじゃない！[r]いくわよ、[%1]、マシュ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠マシュ
+っ……！[r]サーヴァント、女王メイヴ、来ます！
+[k]
+
+＠マシュ
+こちらも全力で応じましょう、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

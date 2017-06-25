@@ -1,0 +1,1216 @@
+
+＄94-00-77-02-1-0
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1010001 1 エリザベート]
+[charaSet D 6014001 1 マタ・ハリ]
+
+[charaSet E 98012000 1 僧侶]
+
+[charaSet F 98002000 1 フォウ]
+
+[charaSet G 98014000 1 騎士]
+
+[charaSet H 99360000 1 戦士]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 20502]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+
+＠マシュ
+……おかしいですね、[r]街ではハロウィンの気配が微塵もしません。
+[k]
+
+
+[charaFace A 0]
+＠マシュ
+と言っても、[r]街が荒らされているような雰囲気はないです。
+[k]
+
+
+＠マシュ
+外を出歩く街の人たちの姿は見えませんが、[r]家の灯りは[#点:とも]っていますし……。
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+？1：それよりマシュ……
+
+[charaFace A 6]
+＠マシュ
+……何ですか？[r]え、空？　上ですか？
+[k]
+
+
+＠マシュ
+えっと[charaFace A 14]…………なぁ！？
+[k]
+
+？2：しろ[line 2]！
+
+[charaFace A 14]
+＠マシュ
+え、マスターどうしました？[r]しろ……城ですか？
+[k]
+
+＠マシュ
+えっと……。
+[k]
+
+？！
+
+[messageOff]
+[wipeout downToUp 0.7 1]
+[wait wipe]
+[bgm BGM_EVENT_5 1.0]
+[charaFadeout A 0.1]
+[charaTalk off]
+[scene 32200]
+[wipein upToDown 0.7 1]
+[wait wipe]
+
+
+[charaFace A 6]
+＠マシュ
+あ、あのチェイテ城が……こんなに[r]ぐしゃぐしゃに……。
+[k]
+
+[charaFace A 2]
+＠マシュ
+しかも上に乗っているのは、[r]明らかにピラミッド……しかも逆さま！！
+[k]
+
+＠マシュ
+どーんって乗ってます、先輩！[r]どーんって！　どーんって！
+[k]
+
+[messageOff]
+[wipeout upToDown 0.7 1]
+[wait wipe]
+[scene 20502]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[wipein downToUp 0.7 1]
+[wait wipe]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォウ……！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+確認したよ。[r]うん、あのピラミッドはチェイテ城とは時代が違うね。
+[k]
+
+＠Dr.ロマン
+当然ながら、ピラミッドの方が桁外れに古い。[r]それがまるで城を潰すように存在しているということは……。
+[k]
+
+？1：あの子ではない？
+
+＠Dr.ロマン
+そうだね。あの子がピラミッドと[r]関わりあるなんて話、聞いたことがない。
+[k]
+
+？2：ライブ中止カナ！？
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+[%1][&君:ちゃん]、声が弾みすぎてる……。[r]まあともかく、あのピラミッドが特異点の正体だろう。
+[k]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+どうしましょう、マスター。[r]あのピラミッドへ向かいますか？
+[k]
+
+？1：まずは情報収集だ
+
+[charaFace A 12]
+＠マシュ
+はい。[r]ですが、街の人に情報を聞くのは難しそうですね……。
+[k]
+
+
+[charaFace A 0]
+＠マシュ
+はい、マスター？[r]酒場ですか……なるほど。
+[k]
+
+＠マシュ
+わたしもマスターもお酒はダメですが、[r]ともかく行ってみましょう。
+[k]
+
+？2：こういう時は酒場だ
+
+[charaFace A 0]
+＠マシュ
+なるほど……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+お酒があるところは警戒心も薄くなりますし、[r]見知らぬ他人に対しても口が滑りやすくなりますしね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それでは早速、酒場へ向かいましょう！
+[k]
+
+？！
+
+
+[messageOff]
+[bgmStop BGM_EVENT_5 1.0]
+[fadeout black 1.5]
+[wait fade]
+[wt 1.0]
+[charaFadeout A 0.1]
+[wt 0.1]
+[scene 32000]
+[charaTalk D]
+[charaFace D 0]
+
+[bgm BGM_EVENT_7 0.1]
+[fadein black 1.5]
+[wait fade]
+[se ad93]
+[wt 0.7]
+[se ad94]
+
+[charaFadein D 0.4 1]
+
+＠マタ・ハリ
+いらっしゃ～い♪
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……あの。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マタ・ハリ
+あらあら、若いわね。[r]マタ・ハリの酒場へようこそ。
+[k]
+
+＠マタ・ハリ
+ここは甘酸っぱい出会いと別れを司る、[r]そんな酒場よ。
+[k]
+
+＠マタ・ハリ
+仲間が欲しいのかしら？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+え、仲間ですか？[r]いえ、大丈夫です。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+
+＠マタ・ハリ
+あら、そうなの～。
+[k]
+
+[charaFace D 0]
+＠マタ・ハリ
+それじゃ、そこの可愛い[&僕ちゃん:お嬢ちゃん]は素敵な出会いを[r]求めてきたのかしら……？
+[k]
+
+[charaFace D 3]
+＠マタ・ハリ
+うふふ、私でよければお相手しますけど[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+いいえ、結構です！[r]ね、先輩！　ね！？
+[k]
+
+？1：は、はい
+？！
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠マタ・ハリ
+残念ねぇ。
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それより、あのピラミッドについて[r]お伺いしたいのですが……。
+[k]
+
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠マタ・ハリ
+そうそう、ピラミッド。[r]ある日突然、本当に唐突に落っこちてきたの。
+[k]
+
+
+＠マタ・ハリ
+ピラミッドには女王様と、[r]それに仕える騎士たちがいてね……。
+[k]
+
+[charaFace D 4]
+＠マタ・ハリ
+ハロウィンを禁止しちゃったのよ。[r]困るわよねー。
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ハロウィンを……禁止ですか！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[charaFace D 0]
+＠マタ・ハリ
+それで、女王様からお触れがあってね。
+[k]
+
+[charaFace D 5]
+＠マタ・ハリ
+『[#妾:わらわ]の治政に不服がある者、あるいは一攫千金を夢見る[r]　無謀かつ野蛮な者よ、このピラミッドに挑むが良い』
+[k]
+
+＠マタ・ハリ
+……っていうお触れが出たの。
+[k]
+
+[charaFace D 0]
+＠マタ・ハリ
+なので、この街はあのチェイテピラミッドに[r]挑もうとする勇者を募集中なのよ。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.3]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout D 0]
+[charaTalk H]
+[charaFadein H 0 1]
+[wt 0.4]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[bgm BGM_EVENT_4 0.1]
+
+＠戦士
+おー、やったるぞー！[r]ピラミッドの財宝で一攫千金じゃー！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout H 0]
+[charaTalk G]
+[charaFadein G 0 1]
+[wt 0.2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+＠騎士
+防備は私に任せたまえ、君たち！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout G 0]
+[charaTalk E]
+[charaFadein E 0 1]
+[wt 0.2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+＠僧侶
+魔術師募集中！[r]僧侶ゆえ、物理で癒やしますぞー！
+[k]
+
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaSet H 98018100 1 盗賊]
+[charaFadeout E 0]
+[charaTalk H]
+[charaFadein H 0 1]
+[wt 0.2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+＠盗賊
+へへ、扉や宝箱は俺に任せな！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaSet H 98018100 1 盗賊]
+[charaFadeout H 0]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[wt 0.4]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+＠マシュ
+なるほど……道理で活気がある訳です。[r]色んな国から色んな人が集まっているのですね[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[bgm BGM_EVENT_4 0.5]
+[messageOff]
+[cameraMove 2.0 -80,0 1.2]
+[wait camera]
+
+
+[charaSet H 98104900 1 ？？？]
+[bgmStop BGM_EVENT_4 0.5]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 450,0]
+
+＠？？？
+……。[r]……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[cameraHome 0.4]
+[wait camera]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……。[r]……。
+[k]
+
+＠マシュ
+……マスター？
+[k]
+
+？1：気付かない……フリをするんだ……
+？2：静かに、ゆっくりと出るんだ
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠？？？
+（パァァァッ……）
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、ダメです。[r]気付かれてます、物凄くキラキラしてます！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+
+＠？？？
+[&子イヌ:子ジカ]！！[r]ねえ、[&子イヌ:子ジカ]ってば！！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+は、走りましょう、マスター！
+[k]
+
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[scene 20502]
+[se ad59]
+[seStop ad59 2.0]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+
+
+[charaSet G 7022001 1 茨木童子]
+[charaFilter G silhouette 00000080]
+[charaTalk G]
+[charaFadein G 0.1 1]
+[wt 0.4]
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠？？？
+待ってよ！！[r]ねえ、待ってってば[line 3]！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+お、追いかけてきました！[r]あと、[charaFace A 14]今どなたか知り合いがいたような……！
+[k]
+
+
+[charaFace A 2]
+＠マシュ
+気のせいでしょうか！[r]それどころじゃないですね！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 4]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[charaPut E 0,60]
+[charaScale E 1.3]
+[charaEffect E bit_talk_41]
+[charaShake C 0.1 5 5 0]
+[charaFadein C 0.1 1]
+[se ad59]
+
+＠？？？
+待っでええええええええええええ！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[charaEffectStop E bit_talk_41]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaShakeStop C]
+[charaTalk A]
+[seStop ad59 0.5]
+[charaFace A 2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、マスター！
+[k]
+
+＠マシュ
+じょ、条件反射的に逃げてしまいましたが、[r]せめて事情は聞いてみてもいいのでは……！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+そ、そうだよー！[r]間違いなく特異点の一因なんだろうから！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+
+？1：すまない、体が勝手に……！
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+去年のハロウィンの事が[r]余程トラウマなんですね、マスター……。
+[k]
+
+？2：マシュの言う通りなんだけど！
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ああ、足が勝手に動いてしまうんですね……。[r]気持ちは分かります……！
+[k]
+
+？！
+[messageOff]
+
+[se ad144]
+[wt 0.4]
+
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 4]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[charaFadein C 0.1 1,-50]
+
+＠？？？
+転んじゃったじゃないの痛いじゃないの！[r]置いていかないでよおおおおおお！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 4]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+マスター……その……後ろから[r]べそをかく声が……。
+[k]
+
+
+？1：さよなら鼓膜……
+
+？2：こんにちはハロウィン……
+？！
+
+[charaFace A 8]
+＠マシュ
+はい……戻りましょう。
+[k]
+
+[messageOff]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 1.0]
+
+[bgm BGM_EVENT_2 1.0]
+[fadein black 1.5]
+[wait fade]
+[charaTalk F]
+[charaFadein F 0.4 1]
+
+＠フォウ
+フォウ！　フォウ、フォウ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠？？？
+ちょっと何よこっちは傷心中なのよ……って[r][&子イヌ:子ジカ][line 4]！
+[k]
+
+＠？？？
+も、もう、何よ！[r]やっぱり聞こえていたんじゃない！
+[k]
+
+＠？？？
+嬉しくないわよ！
+[k]
+
+＠？？？
+むしろこれだけ不安にさせたので、[r]罰を与えるべきよね！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……エリザベートさん……ですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠？？？
+忘れちゃったの！？
+[k]
+
+＠？？？
+この[#私:アタシ]こそ、珠玉の[#歌姫:ディーヴァ]、[r]千年に一人の逸材と謳われた[#才能:タレント]の塊[line 3]
+[k]
+
+[charaPut E 0,60]
+[charaScale E 1.3]
+[charaEffect E bit_talk_41]
+[se ad139]
+[charaFace C 1]
+＠エリザベート
+[f large]勇者エリザベート・バートリーよ！
+[k]
+
+[charaPut E 0,1500]
+[charaEffectStop E bit_talk_41]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォバー！？
+[k]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+？1：ランエリちゃんと、キャスエリちゃんは？
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+何その略称！？
+[k]
+
+[charaFace C 0]
+＠エリザベート
+……あの二人なら、もういないわ。[r]今は、[#私:アタシ]の心の中で生きているの。
+[k]
+
+＠エリザベート
+具体的に言うと、合体したわ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+フォウさんがサーヴァント離れしてる、と[r]驚愕の面持ちです。
+[k]
+
+
+
+？2：その季節外れの水着は？
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そうです。[r]水着イベントは、既に終わりましたよエリザベートさん。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+え、[#私:アタシ]呼ばれてないんですけど！[r]待って、[#私:アタシ]抜きで水着イベントしたの！？
+[k]
+
+＠エリザベート
+ズルくない！？[r]それ、ちょっとズルくない！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[messageOff]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+[wt 0.7]
+
+＠マシュ
+……[charaFace A 0]それはひとまず置いておきまして。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+置かないで！
+[k]
+
+＠エリザベート
+ねえ、[#私:アタシ]が呼ばれなかったこと、[r]もうちょっと綿密に問い質したいんだけど！
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaFadeout A 0.1]
+[wt 1.0]
+
+[bgm BGM_EVENT_7 0.1]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠マシュ
+なるほど。要するにエリザベートさん×二人は[r]女王という方のせいでチェイテ城を追い出された訳ですか。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+そう、その通り。[r]これでもう分かるわよね？
+[k]
+
+[charaFace C 5]
+＠エリザベート
+道半ばにして挫折した[#二人:ランキャス]のために、[r][#私:アタシ]はやらなければならないことがあるの。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+つまり、もう一度[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+その通り！
+[k]
+
+[charaFace C 5]
+＠エリザベート
+[#私:アタシ]のライブ会場をブッ潰した、[r]あの忌々しいピラミッド！
+[k]
+
+＠エリザベート
+あれを打倒して、中の女王を倒すのよ！[r]それがこの勇者エリザベートの使命なの！
+[k]
+
+？1：今回はそういう方向性できたか……
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。[r]なるほど、酒場に冒険者がたむろする訳です。
+[k]
+
+？2：勇者……
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+フォウさんが何やら言いたそうですが、[r]翻訳しない方が良さそうです。
+[k]
+
+？！
+[messageOff]
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.4]
+[charaSet G 98084000 1 女王騎士]
+[se ad166]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1024,0]
+[charaMove G 1 0.7]
+[wait charaMove G]
+[wt 0.4]
+[seStop ad166 0.4]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+＠？？？
+居たぞ！[r]取り囲め！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+おっと、何だ何だ！？[r]これは……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace C 8]
+[charaFace A 0]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+
+＠マシュ
+エリザベートさん、こちらの方々は？
+[k]
+
+＠エリザベート
+く、女王の手下どもね……！[r]気をつけなさい、全員それなりに強いから！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠女王騎士
+我らは女王に仕える騎士。[r]ハロウィンを粛清するために戦う者。
+[k]
+
+＠女王騎士
+ハロウィンを口に出したり、やりたがった者は、[r]例外なく街からの追放または労働刑を命ずるものとする！
+[k]
+
+[charaSet H 7022001 1 茨木童子]
+[charaFace H 0]
+[charaFadein H 0.1 -1024,0]
+[charaMove H -448,0 0.7]
+[wait charaMove H]
+[wt 0.2]
+
+[charaMove H -1024,0 0.2]
+[wait charaMove H]
+[charaFadeout H 0.1]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そんな、ひどい……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠女王騎士
+そしてこちらの娘は……その……[r]公序良俗に不適切な格好をしていると通報が……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォー。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+
+＠エリザベート
+違うわよ！？[r]どこからどう見ても、勇者じゃない！　勇者でしょ！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠女王騎士
+コホン。
+[k]
+
+＠女王騎士
+さあ、ともかく追放か労働か。[r]どちらかを選んでもらうぞ！！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠エリザベート
+もうアンタたちを恐れる気はないわ！[r]さ、[&子イヌ:子ジカ]！　戦うわよ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+待って下さい。
+[k]
+
+＠マシュ
+せめて何故ハロウィンを禁止するのか、[r]教えて頂けませんか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+
+＠女王騎士
+それは……その……女王の命令であるからだ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+では、女王に理由を[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+
+＠女王騎士
+あの世界最高の麗しさを誇る女王に、[r]お伺いなど立てられるか！
+[k]
+
+＠女王騎士
+申し訳ないが、拘束させて頂こう！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+
+＠エリザベート
+上等よ！
+[k]
+
+＠エリザベート
+この[#私:アタシ]のライブを邪魔するなら[line 3]
+[k]
+
+＠エリザベート
+相手が誰でも、粉砕してやるわ！[r]掛かってきなさい！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+仕方ありません。[r]ひとまず、行きますマスター！
+[k]
+
+[charaFace A 12]
+＠マシュ
+ところで……さっきからチラチラと、[r]どなたか、いらっしゃいませんかね？
+[k]
+
+[charaFace H 0]
+[charaFadein H 0.1 -1024,0]
+[charaMove H -480,0 1.0]
+[wait charaMove H]
+
+[wt 0.2]
+[charaFace H 1]
+[wt 0.4]
+
+[charaMove H -1024,0 0.2]
+[wait charaMove H]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[charaFadeout A 0.4]
+
+[soundStopAll]
+[end]

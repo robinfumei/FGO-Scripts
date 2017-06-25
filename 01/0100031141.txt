@@ -1,0 +1,280 @@
+＄01-00-03-11-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 ？？？]
+[charaSet F 2006000 1 ？？？]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘完了。[r]進みましょうマスター。
+[k]
+
+＠E：？？？
+待て！
+[k]
+
+[charaFace A 6]
+＠マシュ
+……！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ドレイク
+矢文を寄越したのは、アンタかい！？
+[k]
+
+＠E：？？？
+その通りだ！
+[k]
+
+＠E：？？？
+……汝らはアルゴノーツを敵とする者か！？[r]それとも既にあきらめ、屈した者か！？
+[k]
+
+？1：敵だ
+
+？2：諦めてはいない
+
+？！
+
+＠E：？？？
+……いいだろう！　今、我が姿を見せる！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠E：？？？
+……試すような問い掛けをして済まなかったな。[r]わかってはいたのだが、念のためだ。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+何しろ、我々はこの海における最後の希望だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+アタランテ[line 2]でよろしかったですか？
+[k]
+
+[charaSet E 2005001 1 アタランテ]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠アタランテ
+ああ、我が[#真名:な]はアタランテ。[r]女神アルテミス様に仕える狩人である。
+[k]
+
+[charaFace E 1]
+＠アタランテ
+……ああ。そう言えばフランスでちらりと[r]顔を合わせていたな。
+[k]
+
+[charaFace E 0]
+＠アタランテ
+あのときは、狂化されていたが……[r]今回は通常のアーチャーとして召喚されている。
+[k]
+
+＠アタランテ
+一応、汝たちの味方側という認識だ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ありがとうございます。[r]わたしの名はマシュ・キリエライト。
+[k]
+
+＠マシュ
+それから、こちらがわたしのマスターである[r][%1]。
+[k]
+
+＠マシュ
+そして、船のキャプテンである[r]フランシス・ドレイクさんとエウリュアレさん。
+[k]
+
+[charaFace E 1]
+＠アタランテ
+うむ、よろしく頼む。
+[k]
+
+[charaFace A 13]
+＠マシュ
+それから、こちらの一見人畜有害そうなぬいぐるみが[r]オリオンで、こちらの動物がフォウです
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠オリオン
+よろしゅうな。……ところでマシュちゃん。[r]何で俺とフォウを一緒に紹介したの。同じカテゴリ？
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+それから、こちらがアルテミスさんです。
+[k]
+
+[charaFace E 4]
+＠アタランテ
+フランシス・ドレイク、それにエウリュアレ。[r]更にぬいぐるみのオリオンに、アルテミスか。
+[k]
+
+[charaFace E 0]
+＠アタランテ
+……アルテミス？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 5]
+[charaFadein H 0.1 2]
+＠アルテミス
+はぁい♪
+[k]
+
+[charaFace E 4]
+＠アタランテ
+……。[r]……。
+[k]
+
+[charaFace E 5]
+＠アタランテ
+マシュ、とか言ったか。[r]冗談はやめてもらおう。
+[k]
+
+＠アタランテ
+アルテミス様は狩猟と純潔の女神であり、間違っても[r]サーヴァントとして召喚されることはないはずだ。
+[k]
+
+[charaFace H 4]
+＠アルテミス
+ねえ、ダーリン？[r]アタランテが信じてくれないの。
+[k]
+
+[charaFace H 5]
+＠アルテミス
+別にいいじゃない。純潔の女神が愛に生きたって。[r]ねえ？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠オリオン
+はっはっは。ノーコメント、ノーコメントです！
+[k]
+
+[charaFace E 0]
+＠アタランテ
+……え、本当？
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アルテミス
+本当よ、アタランテ。[r]愛に生きる狩猟の女神、それがこの私[line 2]。
+[k]
+
+[charaFace H 1]
+＠アルテミス
+アルテミス、よ。[r]うふっ。
+[k]
+
+[charaFace E 4]
+＠アタランテ
+……（くらっ）
+[k]
+
+[charaFadeout H 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+だ、大丈夫ですか！？
+[k]
+
+[charaFace E 3]
+＠アタランテ
+だ、大丈夫だ。大海の聖杯戦争で、[r]私の精神も少しは鍛えられた……。
+[k]
+
+＠アタランテ
+い、今さら自分が信仰していた女神が[#恋愛脳:スイーツ]系[r]だからって頽れたりしない……！
+[k]
+
+？1：傷は深いぞ、がっかりしろ
+
+？2：がんばれ、乙女
+
+？！
+
+[charaFace E 5]
+＠アタランテ
+心が籠もってないぞ、汝……！[r]……ともかく、紹介したいサーヴァントがもう一人いる。
+[k]
+
+[charaFace E 0]
+＠アタランテ
+『[#契約の箱:アーク]』を持つサーヴァント。[r]要するに、アルゴノーツが求める男だ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+『[#契約の箱:アーク]』は宝具だったのですか！？
+[k]
+
+[charaFace E 2]
+＠アタランテ
+そうだ。この海域において、[r]最初に召喚されたサーヴァント。その[#真名:な]を[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠F：？？？
+やあ。待ちくたびれたよ、君たち。
+[k]
+
+＠アタランテ
+ダビデ、という。
+[k]
+
+＠フォウ
+フォウ………
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[charaFadeout F 0.1]
+[wait fade]
+[soundStopAll]
+[end]

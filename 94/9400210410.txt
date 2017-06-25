@@ -1,0 +1,572 @@
+
+
+＄94-00-21-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 6007002 1 ジキル]
+
+[scene 22110]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+しかし改めて見るとおかしなマンションだな……[r]廊下は外観のそれより長く、
+[k]
+
+＠Dr.ロマン
+エレベーターは“永遠に封鎖中”と注意書きが[r]あるだけで中は空っぽ。
+[k]
+
+＠Dr.ロマン
+上に上がる階段への案内はあるものの、[r]一向に辿り着かない。
+[k]
+
+＠Dr.ロマン
+両儀くん、ここは前からこういう建物だったのかい？[r]それとも今回だけ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+ああ。前から気味の悪いマンションだったけど、[r]今回は輪をかけておかしい。
+[k]
+
+＠両儀式
+廊下の広さとか部屋の数とか、[r]そういうのは増えても減っても害はないけど。
+[k]
+
+[charaFace D 5]
+＠両儀式
+この気温……寒気の方はいただけない。[r]これじゃ本当に幽霊マンションだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+死を集めた場所、と聞きましたが、[r]ゴーストを集めるような場所ではなかったと？
+[k]
+
+＠両儀式
+そうだよ。どっちかっていうと封じ込めてる方。[r]こんな風に際限なく集めてなかった。
+[k]
+
+＠両儀式
+これじゃまるで海の渦巻きだ。[r]無関係なヤツまで引き寄せて、悪いものに変えている。
+[k]
+
+？1：……悪いもの？
+？2：……無害な亡霊が怨霊になってる？
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メフィスト
+大渦！　つまり穴、欠落、ブラックホール！[r]なるほどなるほど、その方が分かりやすい！
+[k]
+
+＠メフィスト
+[#私:わたくし]、ここは磁場のようなもの、[r]怨念を招く避雷針と感じていましたが[line 3]
+[k]
+
+＠メフィスト
+大樹の[#虚:うろ]、というのがもっともらしい！[r]のぞき込んだが運の尽き、足を滑らせ奈落の底へ……
+[k]
+
+＠メフィスト
+うふふ……現実にぽっかり開いた落とし穴？[r]ですかね？　背中を押してはいけませんよぉ？
+[k]
+
+[se bac3]
+[shake 0.05 1 4 0.7]
+[wt 1.0]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+メフィストさん、そう言いながら[r]先輩の背中を押さないでくださーい！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠両儀式
+……仲いいな、おまえたち。[r]カルデアって所にいるそいつ、割といいヤツだったのか？
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[charaTalk off]
+[communicationCharaLoop 98003003 0 5 0 2]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ・Dr.ロマン
+一寸の違いもなく同じサーヴァント性です！[r]一寸の違いもなく同じサーヴァント性だよ！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠メフィスト
+そうなのですかぁ！[r]そちらの[#私:わたくし]も困ったものですねぇ！
+[k]
+
+[charaFace E 4]
+＠メフィスト
+あー、それはそれとしてミス両儀？[r][#私:わたくし]、アナタ様のそれ、気になりますよぅ？
+[k]
+
+＠メフィスト
+直死の魔眼、でしたっけ？[r]対象物の強度に関係なくズンバラリンしていますけどぉ。
+[k]
+
+＠メフィスト
+生命活動そのものを断つ。[r]即死とは言うものの、脳死とも心停止とも違うなにか。
+[k]
+
+＠メフィスト
+それは分かります。分かりますとも。[r]でも、それって[#生きていてのもの]ですよね？
+[k]
+
+＠メフィスト
+既に死んでいる[line 3]命のないゾンビの皆さんまで[r]ザクザク斬り殺しているのは何故なのです？
+[k]
+
+[charaFace E 2]
+＠メフィスト
+というかですねぇ！[r]死人を殺すとか文章的におかしいですよねぇ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+知るか。人間には同じように見えるだけで、[r]生命活動の停止と、死は別のものだろ。
+[k]
+
+＠両儀式
+死人であれ幽霊であれ、動いている……[r]活動しているものなら、それは“生きた”ものだ。
+[k]
+
+＠両儀式
+生きているのなら、どんなものであれ死は訪れる。[r]忘却であれ、崩壊であれ。
+[k]
+
+＠両儀式
+オレの眼はそういうのを一緒くたに[#視:み]てるんだよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠メフィスト
+それはまあ[line 3]ずいぶんと生きづらい！[r]生き辛い方なのですねぇ、ミス両儀は！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠両儀式
+別に。悪魔にならないと[r][#活:い]きていけないヤツよりはマシじゃない？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠メフィスト
+[line 3]ほ。[r]それはそれは。
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+[line 3]ストップだ[%1][&君:ちゃん]！[r]背中より前に注意して！
+[k]
+
+＠Dr.ロマン
+サーヴァント反応がある！[r]部屋の中じゃない、廊下の先[line 3]
+[k]
+
+＠Dr.ロマン
+行き止まりに、誰かがいる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.7 1]
+[wt 1.0]
+＠ジキル
+やあ、こんばんはメフィスト。[r]そちらは新しい入居者かい？
+[k]
+
+＠ジキル
+ようこそ怨念の庭へ。[r]歓迎するよ、どこかで見た覚えのある君。
+[k]
+
+＠ジキル
+僕は四号室のジキル。[r]この廊下の管理人でもある。
+[k]
+
+＠ジキル
+君たちはまだここに来たばかりで変質してないね？[r]なら上の階はまだ早いよ。
+[k]
+
+＠ジキル
+しばらくは一階でゆっくりしているといい。[r]なに。ちょっと寒いけどすぐに慣れる。
+[k]
+
+＠ジキル
+それとも僕の部屋で休んでいくかい？[r]いまちょっと散らかってるけどね。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……マスター……あのジキルさん……[r]恐ろしいというか……どこか、とても[line 3]
+[k]
+
+？1：……うん、目が笑ってない。
+？2：そもそもシャツが血まみれだ。
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メフィスト
+えー。メフィストはイヤですー。[r]散らかってる部屋とかちょっと。
+[k]
+
+＠メフィスト
+汚部屋？　汚部屋ってヤツですかぁ？[r]いけません。アレはいけませんよぉ！
+[k]
+
+＠メフィスト
+[#私:わたくし]、人のフェチズムを[#曝:あば]くのは好きですが、[r]見せつけられるのは興醒めなのですよねぇ？
+[k]
+
+[charaFace E 2]
+＠メフィスト
+なのでマスター、ジキル氏の誘いは断りなさい。[r]だいたいなんです、サーヴァントの風上にも置けない。
+[k]
+
+＠メフィスト
+散らかっていると分かっているなら片付けなさい！[r]それともアレですかな？
+[k]
+
+＠メフィスト
+几帳面だったジキル氏はお眠りでぇ？[r]アナタ、片付けられない人だとかぁ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ジキル
+え……まいったな。うん、実はそうなんだ。[r]整理整頓は苦手だし、なにより、ほら。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[charaFadeout E 0.1]
+[charaSet F 6007003 1 ハイド]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ハイド
+すぐ真っ赤に汚れるからさぁ！[r]いちいち片付けとかしてられませんよねぇ！？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[se ad7]
+[wait se ad7]
+[wt 0.4]
+
+[se bac4]
+[effect bit_talk_37]
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[wt 0.1]
+
+[fowardEffect bit_talk_14]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[shake 0.05 0 5 0.4]
+[wt 0.1]
+[se ad82]
+[wt 0.7]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+式さん……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ハイド
+はっ、ノリがいいのが一人いるじゃねえか！
+[k]
+
+＠ハイド
+でも今のオレ、完ッッ璧な奇襲でしたよねぇ！？[r]なに防いでくれてんだっつーの！
+[k]
+
+＠ハイド
+さてはアレだ、オレ様ちゃんと同じだろご同輩！
+[k]
+
+＠ハイド
+マトモな振りをして、人様の首を[r]切りたくてたまらない殺人鬼ってワケだ！
+[k]
+
+[charaFadeout F 0.1]
+
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠両儀式
+……ちぇ。なにそれ、失望。[r]すごい楽しみにしてた。本当、待望の出会いだったのに。
+[k]
+
+＠両儀式
+気がついたらオガワハイムにいて、[r]サーヴァントなんかになっていて、
+[k]
+
+＠両儀式
+恨み言しか口にしない幽霊ばかり相手にして、[r]ヘンなマスターと遭遇して。
+[k]
+
+[charaFace D 0]
+＠両儀式
+あ、うん、[%1]とマシュはいいや。[r]まだ悪い事じゃないし。
+[k]
+
+[charaFace D 5]
+＠両儀式
+でも、とにかく不満いっぱいだった。[r]そこは分かって。
+[k]
+
+＠両儀式
+それでもやる気を出してたのは、[r]本物に会えるかもって予感があったからだ。
+[k]
+
+＠両儀式
+オレの大先輩。[r]世界でいちばん有名な二重人格の殺人鬼！
+[k]
+
+＠両儀式
+なのに何それ、ふざけてる。なんで変わるの？[r]やっと楽しめると思ったのに。ショックで寝込みそう。
+[k]
+
+[charaFace D 0]
+＠両儀式
+ねえ、さっきの優男に戻ってよ先輩。[r]そっちの方が強いだろうし、好みだから。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ハイド
+はあ？　オレよりあのボンクラの方が、なんだって？[r]オタク、分かってる？　オレの本性ってこっちよ？
+[k]
+
+＠ハイド
+貧弱なジキル君から[#逞:たくま]しいハイド君へ。[r]ナイフ遊びが得意なのは断然オレの方ですがぁ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠両儀式
+……はあ。もういい、説明してやれハサミ男。[r]おまえなら分かるだろ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ハイド
+……あ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィスト
+はいはい、それでは僭越ながら[#私:わたくし]が！[r]分かります、分かりますともお嬢さん！
+[k]
+
+＠メフィスト
+ハイド氏、彼女はこう言っているのです。[r]切り札はすぐに出さない、底を見せたらそれまでよ！と！
+[k]
+
+＠メフィスト
+善良な人間が、己が獣性を[#抑:おさ]えながら戦う方が[r]“まだ何が起こるか”分からなくて面白い！
+[k]
+
+＠メフィスト
+崩壊のカタルシス？　と申しますか？
+[k]
+
+＠メフィスト
+[#私:わたくし]めがマスターに仕えるのも[r]その一瞬の爆発力が見たいがため！
+[k]
+
+＠メフィスト
+はじめから凶暴な生き物と遊びたかったら[r]サバンナに行けばよろしい！
+[k]
+
+＠メフィスト
+このお嬢さんが見たいのはアレですよ！[r]殺人鬼のハイド氏が行う殺人ではなく、
+[k]
+
+＠メフィスト
+[#善良なジキル博士が涙しながら行う不道徳]にこそ[r]この上ない絶頂を感じるの！デス！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠両儀式
+……おまえに代弁させたオレが[#莫迦:ばか]だった。[r]ぜんぜん違う。引っ込んでろ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィスト
+メッフィー、ショック！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+でもまあ、三下より坊ちゃんの方が好みなのは確かだ。[r]愉しむ為の戦いと、生きる為の戦いの違いっていうか。
+[k]
+
+＠両儀式
+[#どうせ殺し合うならさ]。[r][#こう、死にものぐるいの方が胸に迫るだろう]？
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 7]
+＠両儀式
+要はおまえじゃ萎えるってコトだ。[r]逢魔が時に出直して来い……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ハイド
+は[line 3]！　そうかいそうかい、[r]真剣じゃねえと燃えないってワケか！
+[k]
+
+＠ハイド
+そっちも[#大概:たいがい]イカれてるなぁクソ女！[r]んじゃあまあ、楽しくダンスと行きますかねぇ！
+[k]
+
+[messageOff]
+[se ad7]
+[charaFadeout F 0.1]
+[wt 0.4]
+
+
+
+
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

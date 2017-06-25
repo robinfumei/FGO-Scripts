@@ -1,0 +1,1604 @@
+＄94-00-61-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2025100 1 メアリー]
+[charaSet C 2025200 1 アン]
+[charaSet D 6024000 1 スカサハ]
+[charaSet E 98101200 1 うりぼう]
+[charaSet F 5027000 1 マリー]
+[charaSet G 4024000 1 モードレッド]
+[charaSet H 2026000 1 アルトリア]
+
+
+
+[scene 30700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ここは[line 3]かつて、街だったようですね。[r]あちこちのビルが崩壊しています。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+
+[charaFace C 0]
+[charaFadein C 0.1 0]
+
+
+＠メアリー
+つまり、人間が住んでいたってことかな？
+[k]
+
+[charaTalk C]
+
+＠アン
+そうなりますわよね。
+[k]
+
+＠アン
+しかも、私たちが生きていた時代より[r]文明度は上回ってますわ。
+[k]
+
+＠アン
+知識でしか分からないのですけど、[r]これならマスターの時代くらいじゃないかしら。
+[k]
+
+？1：確かに
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+私たちの時代ではいずれも該当せんな。
+[k]
+
+＠スカサハ
+アンの言う通り、マシュと[%1]が[r]生きている時代くらいか……。
+[k]
+
+[charaTalk E]
+
+＠うりぼう
+こっちでありまーす！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+はーい！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター。[r]ひとまず、うりぼうさんについていきましょう。
+[k]
+
+
+＠マシュ
+喋る猪というのは初めてですが、[r]喋る魔物とは何度も遭遇しましたし。
+[k]
+
+＠マシュ
+すぐに慣れると思います。
+[k]
+
+？1：あの眼鏡模様はどうしたんだろう
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+[charaFace A 0]
+[charaFadein A 0.1 2]
+
+＠スカサハ
+お主、眼鏡に拘るな……。[r]好きなのか、眼鏡。
+[k]
+
+[charaTalk A]
+[charaFace A 17]
+
+＠マシュ
+♪
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+？2：人がいるといいね
+
+[charaFace A 13]
+＠マシュ
+はい。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠モードレッド
+いや……そりゃどうかな。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠アルトリア
+……ですね。
+[k]
+
+？！
+
+
+
+＠アルトリア
+マスター、気付きましたか。
+[k]
+
+＠アルトリア
+うりぼうたちは、明らかに人間とは[r]初めて出会ったような口振りでした。
+[k]
+
+[charaFace H 4]
+
+＠アルトリア
+加えてこのビル群の崩壊度合い……。[r]我々は、既に手遅れだったのかもしれません。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+ともかくあの猪を信じて、[r]進むしかあるまい。
+[k]
+
+＠スカサハ
+……行くぞ！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[bgmStop BGM_EVENT_5 1.0]
+[wait wipe]
+[charaFadeout D 0.1]
+[wt 0.7]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+[bgm BGM_EVENT_2 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠うりぼう
+[#長:おさ][line 3]！[r]長、長、長[line 3]！
+[k]
+
+[charaSet B 98101400 1 うりぼう長]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠うりぼう長
+騒々しいぞ、我が孫よ。[r]何があった？　傷だらけではないか。
+[k]
+
+＠うりぼう長
+……まさか、また街の外に出たのか！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠うりぼう
+空腹であったため、[r]緊急事態と判断したのであります！
+[k]
+
+[charaFace E 1]
+＠うりぼう
+古びたスナック菓子、[r]美味しゅうございました。
+[k]
+
+[charaTalk B]
+
+＠うりぼう長
+仕方ない訳あるかタワケ。[r]それで。何がどうした？
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+
+＠うりぼう
+女神様を！
+[k]
+
+[charaTalk B]
+
+＠うりぼう長
+女神様？
+[k]
+
+[charaTalk E]
+
+＠うりぼう
+連れてきた！[r]のであります！
+[k]
+
+[charaTalk B]
+
+＠うりぼう長
+……連れてきた……？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+こんにちは。[r]ええと、長さん？　かしら？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠うりぼう長
+……。[r]……。
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+＠うりぼう長
+うーん。
+[k]
+
+[charaFadeout B 0.4]
+[wt 0.2]
+
+
+[se ad76]
+
+
+[wt 0.1]
+[shake 0.05 0 4 0.4]
+[wait se ad76]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠うりぼう
+おお、長が戦死した！？[r]動脈硬化！　もしくは心不全でありますか！？
+[k]
+
+[charaSet C 9004000 1 マルタ]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠マルタ
+驚いて失神しただけみたいね。[r]背中を……よいしょっと！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-200]
+[wt 0.4]
+
+[se bac10]
+[effect bit_talk_13]
+[charaShake B 0.05 3 3 0.4]
+
+[wt 0.7]
+
+[se ad7]
+[charaMove B 1 0.4]
+
+[charaTalk B]
+[charaFace B 2]
+
+＠うりぼう長
+くはっ！？[wt 0.2][r]……[charaFace B 1]ふぅ、何じゃ夢か。
+[k]
+
+[charaTalk G]
+
+＠モードレッド
+お、起きたな。
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+
+＠うりぼう長
+……夢じゃなかった……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠うりぼう
+長、大丈夫でありますかー？
+[k]
+
+[charaTalk B]
+
+＠うりぼう長
+あまり大丈夫じゃないな……。[r]それで、一体何があったんじゃ？
+[k]
+
+
+[bgmStop BGM_EVENT_7 1.0]
+
+[messageOff]
+[wipeout rollRight 1.0 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[wt 1.0]
+
+[wipein rollLeft 1.0 0.5]
+[wait wipe]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠うりぼう長
+なるほど。他所の島から……。
+[k]
+
+＠うりぼう長
+そんな島が近くにあったとは、[r]我々もとんと気付きませんでした。
+[k]
+
+＠うりぼう長
+ともあれ、孫を救って下さって[r]ありがとうございます。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+
+
+[charaFace B 0]
+[charaFadein B 0.1 0]
+
+＠マシュ
+この島には、人間はいないのですか？
+[k]
+
+[charaTalk B]
+
+＠うりぼう長
+ここ五十年。[r]生きている人間は見たことがありません。
+[k]
+
+＠うりぼう長
+……人間ではない人間なら、見たことあるのですが。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠アルトリア
+シャドウサーヴァントたちのことでしょうか。
+[k]
+
+[charaSet B 2025100 1 メアリー]
+
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠メアリー
+あれ？[r]それじゃ、この崩壊したビルは誰が作ったんだい？
+[k]
+
+[charaSet C 98101400 1 うりぼう長]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[charaSet B 2025100 1 全員]
+
+＠うりぼう長
+それは我々ですが。
+[k]
+
+[charaTalk B]
+
+＠全員
+[fontSize large]……え？[fontSize -]
+[k]
+
+[charaSet B 2025100 1 メアリー]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+
+＠マシュ
+あの、すいません。[r]……この街はうりぼうさんたちが作ったのですか？
+[k]
+
+[charaTalk C]
+
+＠うりぼう長
+かれこれ五十年ほど前ですが。[r]我々うりぼう族は繁栄を極めておりました。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠モードレッド
+（うりぼう族なんだ……）
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+立ち並ぶ摩天楼、宇宙への進出準備、[r]手足となって動くロボット……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠マリー
+まあ……（あまりよく分かってない）。
+[k]
+
+[charaTalk D]
+
+＠スカサハ
+宇宙と来たか……。
+[k]
+
+[charaSet G 98100800 1 うりぼう2]
+[charaSet H 98101000 1 うりぼう3]
+
+？1：えすえふ？
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩、まだ話は続きます。[r]ツッコミはもう少しお待ちを。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+？2：少し不思議？
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+
+＠E：うりぼう
+不思議であります！
+[k]
+
+[charaTalk G]
+[charaFace E 0]
+[charaFace G 1]
+＠G：うりぼう
+宇宙はロマンでありますなー！
+[k]
+
+[charaTalk H]
+[charaFace G 0]
+[charaFace H 1]
+＠H：うりぼう
+幼年期が終わり、[r]新たなる世代へゴーであります！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+？！
+
+[bgmStop BGM_EVENT_2 0.3]
+[charaSet G 4024000 1 モードレッド]
+[charaSet H 2026000 1 アルトリア]
+[wt 0.3]
+[bgm BGM_EVENT_5 0.3]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+ですが、五十年前……。[r]突如、滅びたはずの魔猪が現れたのです。
+[k]
+
+＠うりぼう長
+更に、真っ黒い人間型の霊的生物まで。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+……シャドウサーヴァントか。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+彼らはたちまち軍団となって、[r]この島に築き上げられた文明を全て破壊しました。
+[k]
+
+＠うりぼう長
+今やうりぼう族も、風前の灯火……。[r]滅び行くのを待つばかりという訳です。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+まあ、そんなコトが……。
+[k]
+
+[charaSet B 3024000 1 玉藻の前]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+文明破壊なんて、[r]まるでどこぞのアルテラさんのようですねー。
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_2 0.3]
+
+[charaFace B 0]
+
+＠玉藻の前
+ところで、女神様というのはどういうことです？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+うりぼう族に伝わる伝説[line 3][#九人の女神:ナイン・シスターズ]のことです。
+[k]
+
+＠うりぼう長
+彼女たちは本能に生きる獣でしかなかった[r]我々に文明と愛と勇気を与えてくれたと。
+[k]
+
+＠うりぼう長
+そして人間の姿を取っていた、ともありましたから、[r]恐らくコイツはそう思ったのでしょう。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaMoveReturn E 0,5 0.1]
+
+＠うりぼう
+ハッ！
+[k]
+
+＠うりぼう
+あの魔猪をフルメタルボコった感じ、[r]まさしく女神様であると確信しました！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+[charaFace E 0]
+[charaFadein E 0.1 0]
+
+＠マリー
+まあ、ふふふ。わたしは女神様と呼ばれるほど、[r]素敵なものではないかしら。
+[k]
+
+[charaTalk E]
+
+＠うりぼう
+ぶーぶー。
+[k]
+
+[charaTalk F]
+[charaMove F 0,0 0.7]
+[wt 0.7]
+
+＠マリー
+ぐりぐり[se ad110][charaShake E 0.05 5 0 0.4]ー。[r]もふもふー。
+[k]
+
+[charaTalk E]
+[charaFace E 1]
+
+＠うりぼう
+あふん。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+本当に何もない場所で恐縮ですが……。
+[k]
+
+＠うりぼう長
+雨露をしのぐ程度なら、近くの完全に崩れてないビルで[r]大丈夫でしょう……たぶん。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+
+[charaFace C 0]
+[charaFadein C 0.1 0]
+
+＠マシュ
+ありがとうございます。[r]あ、すいません。最後に一つお伺いしたいことが。
+[k]
+
+[charaTalk C]
+
+＠うりぼう長
+何でしょうか？
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+
+＠マシュ
+カルデア、という単語に[r]聞き覚えなどないでしょうか？
+[k]
+
+＠マシュ
+もしくは次元や世界、[r]時間の跳躍に関する技術について心当たりは……。
+[k]
+
+[charaTalk C]
+
+＠うりぼう長
+カルデア……カルデアですか……。[r]うーむ。……聞いたことはありません。
+[k]
+
+＠うりぼう長
+しかし、時間や世界の跳躍については五十年前、[r]少し研究が進んでいたはずです。
+[k]
+
+[charaTalk A]
+[charaFace A 4]
+
+＠マシュ
+そうですか……。
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rollRight 1.0 0.5]
+[wait wipe]
+
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+
+[wipein rollLeft 1.0 0.5]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、今後の方針を決めましょう。
+[k]
+
+＠マシュ
+つまり、この島から出るか。[r]前の島と同じようにここで暮らしていくべきか。
+[k]
+
+[charaSet E 2025100 1 メアリー]
+[charaSet F 5027000 1 マリー]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+[charaFace B 0]
+[charaFadein B 0.1 0]
+
+＠メアリー
+この島には手掛かりがないみたいだし、[r]船でさっさと脱出するって手もあるよね。
+[k]
+
+[charaTalk B]
+
+＠玉藻の前
+この島、最早廃墟ですから。[r]別の島を探す方が、タマモ的には楽かなーと。
+[k]
+
+[charaFace B 4]
+＠玉藻の前
+んー、しかしちょっと惜しいですよね。[r]ぶ[charaFace B 0]っちゃけこの島、興味あります！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+
+＠マリー
+ええ！　わたしは残った方がいいと思うの！[r]うりぼうさんたちを助けてあげましょう！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠アルトリア
+マリーはそう言うと思いました。
+[k]
+
+[charaSet E 2025200 1 アン]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠アン
+次の島に行けば、カルデアに戻る手掛かりが[r]見つかるかもしれない。
+[k]
+
+＠アン
+あるいは、通信が復活するかもしれませんわね。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaSet E 9004000 1 マルタ]
+
+[charaTalk E]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+
+＠マルタ
+だけど、しないかもしれない。[r]そもそも、他に島が見つかる可能性すらあやふやよねー。
+[k]
+
+[charaTalk G]
+[charaFace G 5]
+
+＠モードレッド
+オレは……残ってもいいかなって思ってる。[r]うりぼうの奴、このままだと絶滅するぜ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaSet D 3025000 1 清姫]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠清姫
+わたくしはますたぁの仰る通りに！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター。[r]どうしましょう？
+[k]
+
+？1：うりぼうたちを助けたい
+
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+やっぱり[%1]さんは[r]世界一のマスターです！
+[k]
+
+[charaFace F 0]
+
+＠マリー
+ご褒美のベーゼ、差し上げますね！
+[k]
+
+[messageOff]
+[se ad30]
+[charaEffect F bit_talk_28]
+[wt 2.0]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩。[r]デレデレになるのもいいですが、ご用心を。
+[k]
+
+＠マシュ
+清姫さんが丸呑みしそうな瞳で[r]見つめてますから……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠清姫
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+？2：この島で一から出直しだ！
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠モードレッド
+かーっ！　一から出直しかー！[r]しょうがねえなあ！　しょーがねーなー！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+
+＠アルトリア
+楽しそうですね、あなたは……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaSet G 2025100 1 メアリー]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠メアリー
+ま、一から出直しなんて良くあることさ。[r]マスターも挫けないで……挫けてないね。
+[k]
+
+＠メアリー
+前向きだなあ、マスターは。[r]ボクたちの元船長と大違いだ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+？！
+
+[charaSet D 6024000 1 スカサハ]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+
+＠マシュ
+……スカサハさん？[r]先ほどからどうしました？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠スカサハ
+あ、いや。[r]……結局、この島に残るのだな？
+[k]
+
+＠スカサハ
+反対という訳ではない。[r]むしろ賛成だ。
+[k]
+
+＠スカサハ
+この島を開拓し、魔猪を退治する。[r]一つだけ懸念しているとすれば[line 3]
+[k]
+
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+[#開拓の結果何が見つかるか]だな。
+[k]
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+私たちを……救って下さると……？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+そうではない。むしろ契約に近いな。
+[k]
+
+＠スカサハ
+お主らはこの島の開拓を手伝い、[r]技術を発掘する。
+[k]
+
+＠スカサハ
+魔猪が襲い掛かれば、我々が撃退する。[r]あと、食事にする。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠アルトリア
+等価交換ですね。[r]商取引の基本です。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaSet H 98100800 1 うりぼうｓ]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+ありがとう……ありがとうございます！
+[k]
+
+[charaSet A 98101000 1 うりぼうｓ2]
+
+＠うりぼう長
+おお、やはり貴女たちは[#女神:ミューズ]の生まれ変わり、[r][#九人の女神:ナイン・シスターズ]の再来……！
+[k]
+
+[charaSet G 98101200 1 うりぼうｓ3]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+
+＠うりぼうｓ
+めがみさまー！[r]きゅーせーしゅさまー！
+[k]
+
+＠うりぼうｓ
+めがみさまー！[r]こっちむいてー！
+[k]
+
+＠うりぼうｓ
+すてきー！[r]かっこいー！
+[k]
+
+＠うりぼうｓ
+ままー！[r]やしなってー！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠スカサハ
+……最後何かおかしいのが混じってなかったか？[r]まあ、かまわんが。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet D 98100400 1 マシュ]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+いやでもちょっと待って下さい。[r]九人の女神って、私たち十人（＋マスター）いるんですけど？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+あ、それならわたしでしょうか？[r]皆さん[charaFace D 12]に比べて地味ですし……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet C 98002000 1 フォウ]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 12]
+[charaFadein D 0.1 2]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+[wt 0.4]
+
+？1：そんなことないよ
+？！
+
+[charaFace D 3]
+[wt 0.4]
+＠マシュ
+……ありがとうございます。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet C 98101400 1 うりぼう長]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+ええと、伝説によると……。
+[k]
+
+＠うりぼう長
+本来の伝承は十人の女神なんですが、[r]一人やたらと恐ろしいと伝わる女神がおりまして。
+[k]
+
+＠うりぼう長
+いつしか我々の間で『こいつ外してもいいんじゃね？』[r]みたいなノリで。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+あー、良くあることですねー。
+[k]
+
+[charaFace B 5]
+
+[charaSet E 3025000 1 清姫]
+
+＠玉藻の前
+[#一般人:パンピー]を警告ついでに脅かす感じの神様って、[r]どうしてもその内魔王とかに変わっちゃうんですよね。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠清姫
+玉藻さんが言うと、実に含蓄がございますねえ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠うりぼう長
+はい。[r]何でもその元女神現魔王は……。
+[k]
+
+＠うりぼう長
+爛々と輝く獣の瞳を持ち[line 3][r]桃色の髪を持ち[line 3]
+[k]
+
+＠うりぼう長
+ふっさふさの尻尾を持ち[line 3][r]傘を武器として[line 3]
+[k]
+
+＠うりぼう長
+うりぼうたちを主食とする、[r]それはそれは恐ろしい魔王だったそうで。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠玉藻の前
+……はや？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠清姫
+……ほう？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+いやいやいや。[r]偶然ですよ偶然。
+[k]
+
+[charaFace B 2]
+
+＠玉藻の前
+[fontSize large]ぐーうーぜーんー！[fontSize -]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaSet F 2026000 1 アルトリア]
+
+[charaTalk F]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+[charaFace F 6]
+[charaFadein F 0.1 2]
+
+＠アルトリア
+大丈夫です、タマモ。
+[k]
+
+＠アルトリア
+貴女は改心したからこそ、[r]サーヴァントとして召喚されたのです。
+[k]
+
+＠アルトリア
+生前、この島のうりぼうをバクバク[r]喰らい尽くしていたとしても[line 3]
+[k]
+
+[charaFace F 1]
+
+＠アルトリア
+そんな羨ま、失礼、[charaFace F 6]美味しそうな悪事を働いていたとしても、[r]私たちは仲間です！！
+[k]
+
+[charaFace B 2]
+
+＠玉藻の前
+冤罪！[r]それ、冤罪ですからね！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaSet C 4024000 1 モードレッド]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+おーい、おまえたちー。
+[k]
+
+＠モードレッド
+いいかー、絶対にあの白いパツキンの王様と[r]二人きりになっちゃダメだかんなー！
+[k]
+
+＠モードレッド
+マルカジられるぞー！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+
+＠うりぼうｓ
+恐いでありまーす！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+……先輩、これは……。
+[k]
+
+？1：偶然……かな？
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+偶然ですよー！
+[k]
+
+[charaFace B 5]
+
+＠玉藻の前
+マスターにまで疑われたら、[#私:わたくし]身の置き所が[r]無くなるんですけど！
+[k]
+
+？2：最終的に魔王になる……？
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+そんな設定は（グッドルートなら）ございません！
+[k]
+
+＠玉藻の前
+[#私:わたくし]はちょっぴり顔が良く、[r]気立て良く、器量良く、戦闘能力に欠けていて
+[k]
+
+＠玉藻の前
+守ってやりたいサーヴァントナンバー１の誉れも高き、[r]一介のキャ……ランサーでございますから！
+[k]
+
+[charaFace B 5]
+
+？！
+
+
+＠玉藻の前
+コホン、コホン、コホン！[r]ともかく！
+[k]
+
+[charaFace B 1]
+
+＠玉藻の前
+まずはこの島を探索しますよ！[r]さあ、冒険のお時間です！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

@@ -1,0 +1,262 @@
+＄94-00-31-09-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98062000 1 アイリスフィール]
+[charaSet F 1001000 1 アルトリア]
+
+[scene 25600]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+[wt 0.5]
+
+[messageOff]
+[wt 0.5]
+[se bas1]
+[fowardEffect bit_talk_15]
+[wt 1.5]
+[fowardEffectStop]
+[seStop bas1 0.5]
+
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout A 0]
+
+[wt 0.4]
+[scene 10500 0]
+[fadein black 0.5]
+[wait fade]
+[se ad29]
+[flashin once 0.7 0.5 FFFFFFBF 00000000]
+[wait flash]
+[wait se ad29]
+
+[fadeout black 0.5]
+[wait fade]
+
+[scene 25600]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0 1]
+
+[fadein black 0.5]
+[wait fade]
+
+
+[charaFace A 13]
+＠マシュ
+サークル設営完了。やっとですね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+お疲れさま。これでようやくこちらからも[r]本格的なサポートができる。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 2 5 0 0]
+[charaFadein C 0.1 0]
+
+＠フォウ
+フォウ、フォウ！
+[k]
+
+＠Dr.ロマン
+しかし、他の魔術師の管理地に介入するってのは[r]本当に厄介なんだねえ。
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+まあおかげで遠坂が代々維持してきた霊脈は[r]ズッタズタに寸断されてしまったがな。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+再度整備するには余程の才覚と手腕が必要になるだろう。[r]はっはっは。いい実習課題だ。
+[k]
+
+？1：エルメロイ教室ってスパルタなんですね
+？2：ちょっとひどすぎません？
+
+？！
+
+＠エルメロイ
+そんなことはない。私はあくまで弟子の能力と[r]根性に合わせた指導を行っているだけだ。
+[k]
+
+＠エルメロイ
+つまりは遠坂の娘を非常に高く評価しているというだけで[r]……[charaFace D 0]まあ、ここで語っても詮無い話だが。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+あー、休憩ムードのところ申し訳ないが。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+さっそくお客さんだ。接近するサーヴァントが一体。[r]この反応はセイバーみたいだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォッ！？
+[k]
+
+＠マシュ
+セイバー……[r]波止場で戦ったアルトリア・ペンドラゴンでしょうか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠エルメロイ
+おそらくな。[r]ううむ、こちらも堂々と姿を晒しすぎたか。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+あれだけ明確に敵対行動を取った以上、[r]お礼参りは当然の成り行きか。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠アルトリア
+サーヴァント、セイバー。改めて貴君らに挑ませてもらう。[r]いざ尋常に勝負されたし。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+尋常に、ときたか。[r]フン、こちらは一切お見通しだぞ。
+[k]
+
+＠エルメロイ
+今回のアインツベルンはサーヴァントを陽動に、裏で[r]殺し屋を暗躍させて奇襲を仕掛ける二面作戦だろうに。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠アイリスフィール
+何のこと？[r]妙な言いがかりはやめてほしいわ。
+[k]
+
+[charaFace E 2]
+＠アイリスフィール
+そちらこそ一体何を企んでいるの。私には分かります。[r]貴方は正式に招かれたサーヴァントじゃないでしょう？
+[k]
+
+
+[charaFadeout E 0.1]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+[charaFace A 7]
+＠マシュ
+……どうします？　ロード・エルメロイ。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+余計な衝突は避けて撤退したい……のは山々だが、ここに[r]設置したばかりの召喚サークルを破棄するのも業腹だ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+地の利はこちらにある。[%1]、[r]持久戦でお引き取り願う手だと献策しよう。
+[k]
+
+？1：わかった！
+？2：その策でいく
+
+？！
+
+＠エルメロイ
+それとマシュ、この戦いはとりわけ[r]マスター狙いの不意打ちを警戒しろ。
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+奇門遁甲で援護する。周囲に何か妙な気配があったら[r]即座に対応するんだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[se ad51]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+了解しました！[r]マシュ・キリエライト、戦闘、開始します！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

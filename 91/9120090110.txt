@@ -1,0 +1,293 @@
+＄91-20-09-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaSet A 98001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2009201 2 アルテミス]
+[charaSet E 2009102 2 オリオン]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+[se ad55]
+[wt 1]
+[seStop ad55]
+[se ad8]
+[wt 1]
+[fadein black 1]
+[wait fade]
+＠アルテミス
+こんにちはー、マスターさんいるー！？
+[k]
+
+？1：帰ってください
+
+？2：留守です
+
+？！
+
+[charaFace D 2]
+＠アルテミス
+ひどい！？[r]ダーリン、このマスター職務怠慢だわ。
+[k]
+
+[wt 0.7]
+[charaFace D 1]
+＠アルテミス
+……ダーリン？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+[wt 1]
+[charaFadeout E 0.1]
+[wt 0.3]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠マシュ
+あの、凝視されると困ります。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フカーッ……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+＠オリオン
+いいではないかいいではないか、減るもんではなし。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 5]
+＠アルテミス
+……フン！
+[k]
+
+[se ad46]
+[charaFadeout E 0.1]
+[wt 0.7]
+＠マシュ
+困りましたよね？（オリオンさんが）
+[k]
+
+＠オリオン
+そうですね、困りました。[r]物理的に。
+[k]
+
+？1：帰ってください
+
+？2：急用を思い出しました
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠アルテミス
+ダーリン。[r]やっぱりこの人、何か冷たーい。
+[k]
+
+＠アルテミス
+マシュちゃんがいるからってー！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+……？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[charaFace E 0]
+＠オリオン
+……いいから用件を早く言いなさい。
+[k]
+
+[charaFace D 0]
+＠アルテミス
+はーい。[r]えっとね、私たちフランスに行きたいの！
+[k]
+
+？1：何で？
+
+？2：どうして？
+
+？！
+
+[charaFace D 1]
+＠アルテミス
+ハネムーン！
+[k]
+
+？1：帰ってください！
+
+？！
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[soundStopAll]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[charaSet A 8001001 2 マシュ]
+[wait fade]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+[bgm BGM_EVENT_4 0.1]
+[fadein black 1]
+[scene 20300]
+＠マシュ
+到着しました……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 1]
+[charaFadein E 0.1 2]
+[charaFace E 0]
+＠アルテミス
+わあ、ここがフランスなのね！[r]素敵！　ギリシャとは空気が全然違うわ！
+[k]
+
+＠オリオン
+ごめんね、うちのが我が侭で……。
+[k]
+
+[charaFace D 0]
+＠アルテミス
+さ、行くわよハネムーン！[r]ええっと、まずは凱旋門！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠マシュ
+有名な凱旋門の着工は１８０６年らしいので、[r]その、まだ存在しませんが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠アルテミス
+エッフェル塔は？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠マシュ
+１８８７年です。[r]あと四百五十年ほど待って戴ければ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 2]
+[charaFadein E 0.1 2]
+＠アルテミス
+うー、そんなー！
+[k]
+
+＠オリオン
+はいはい、気が済んだだろ。[r]適当に回って見て帰ろうぜ。
+[k]
+
+＠マシュ
+気軽な観光ノリで付き合わされても困るのですが……。
+[k]
+
+[charaFace D 4]
+＠アルテミス
+はあ、じゃあ軽く街とか見て回るしかないか。
+[k]
+
+＠アルテミス
+でも、凱旋門もエッフェル塔もないならさして代わり[r]映えしないかなあ……。期待しないで、レッツゴー。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wipeout leftToRight 1 1]
+[wait wipe]
+[bgmStop BGM_EVENT_★ 0.4]
+[wt 1]
+[bgm BGM_EVENT_★ 0.1]
+[scene 20500]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+[wipein rightToLeft 1 1]
+[wait wipe]
+＠アルテミス
+あー、うーん、やっぱり代わり映えしないわねえ。[r]服と建物がちょっと違うくらい。
+[k]
+
+＠アルテミス
+人間がいて、[r]犬がいて、
+[k]
+
+＠アルテミス
+それにモンスターがいて……。
+[k]
+
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_4 0.1]
+[wt 0.3]
+[charaSet F 98006000 1]
+[charaFadein F 0.1 1]
+[se ad25]
+[wt 0.5]
+[charaFadeout F 0.1]
+[bgm BGM_EVENT_3 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 5]
+＠マシュ
+……何でこんなところに？[r]あ、いえ。ともかく、戦います！　手伝って下さい！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 2]
+[charaFadein E 0.1 2]
+[charaFace E 2]
+＠アルテミス
+えー、そんなー！
+[k]
+
+＠オリオン
+いいから、やりなさい！
+[k]
+
+[charaFace D 1]
+＠アルテミス
+はぁーい。[r]しょうがないか、サクサク殺っちゃうぞー！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

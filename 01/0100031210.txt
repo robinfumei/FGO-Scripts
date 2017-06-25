@@ -1,0 +1,74 @@
+＄01-00-03-12-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaTalk F]
+[charaFace B 0]
+[charaFadein B 0 2]
+[charaFace F 0]
+[charaFadein F 0 0]
+[fadein black 1]
+[wait fade]
+＠ダビデ
+本来なら酒や食事で饗宴を開きたいところだけど、[r]その前に『[#契約の箱:アーク]』について説明しよう。
+[k]
+
+[charaFace B 1]
+＠エウリュアレ
+いいじゃない。話が直截的な男は好きよ。
+[k]
+
+[charaFace F 1]
+＠ダビデ
+それはどうも、女神様。[r]この『契約の箱』は僕、イスラエルの王ダビデの宝具だ。
+[k]
+
+？1：……イスラエルの王……？
+
+？2：イスラエルって、あの……
+
+？！
+
+[charaFace F 0]
+＠ダビデ
+ああ、古代イスラエルの王、ダビデさんだよ？[r]僕の顔に何かついているかい？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+いえ、なんでもありません。[r]お気になさらず。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……先輩の質問はもっともです。[r]ですが、今は黙って彼の話を聞きましょう。（ぼそぼそ）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ。
+[k]
+
+[charaFace F 1]
+＠ダビデ
+……さて、話を再開する前にちょっと邪魔者がいるね。[r]折角だから、食べられそうなお肉があったら回収しよう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

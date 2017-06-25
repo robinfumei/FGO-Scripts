@@ -1,0 +1,248 @@
+
+＄01-00-05-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5016001 1 ジェロニモ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 99360000 1 ケルト戦士]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠ジェロニモ
+歩きながらで済まないが、[r]改めて現状を説明しておく。
+[k]
+
+＠ジェロニモ
+私が確認したサーヴァントは二人。[r]クラスは共にアーチャー。真名は直接聞いてくれ。
+[k]
+
+＠ジェロニモ
+……共に名うてのサーヴァントだが、[r]何より彼らはゲリラ戦に特化している。
+[k]
+
+＠ジェロニモ
+余程の強敵と運悪く巡り会わないかぎり、[r]敗北することはまず有り得まい。
+[k]
+
+[charaFace C 5]
+＠ジェロニモ
+だが、いかんせん数という面で圧倒的に不利だ。
+[k]
+
+＠ジェロニモ
+アーチャーたちがゲリラ戦に特化しているとはいえ、[r]それは被害を抑制する程度の効果しかない。
+[k]
+
+＠ジェロニモ
+ケルトの戦士たちは縦横無尽にこの大陸を荒らしている。[r]分かりやすいほど蛮族的にな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+縦横無尽、蛮族的……[r]一つの組織にまとまっている訳ではないのですか？
+[k]
+
+[charaFace C 0]
+＠ジェロニモ
+客観的に見ればな。[r]だが、目的がこの大地の掌握であることは明らかだ。
+[k]
+
+＠ジェロニモ
+おそらく、目的は一つだが、[r]やり方は各自に任せているのかもしれん。
+[k]
+
+＠ジェロニモ
+文献を紐解いても、[r]ケルトの戦士たちのやり口は極めて荒々しく猛々しい。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ラーマ
+……確かにな。
+[k]
+
+＠ラーマ
+余が見たとき、クー・フーリンは敵対した[r]兵士たちを皆殺しにしていた。
+[k]
+
+[charaFace D 1]
+＠ラーマ
+あれが光の御子とは笑わせる。[r]まさしく闇に堕ちた槍兵よ……ぐっ！
+[k]
+
+？1：ところで、ラーマはどうなってるの？
+？2：なんでラーマは背負われているの？
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠ラーマ
+余とて反対したのだ！[r]だがこの鉄のように堅い看護師がだな、うぐっ！
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+[%1]。[r]患者をあまり興奮させないように。
+[k]
+
+＠ナイチンゲール
+そしてこれは私が急遽考案した要救護者運搬装置。[r]ボディバッグならぬ、ラーマバッグです。
+[k]
+
+[charaFace D 4]
+＠ラーマ
+ぐ、ぐぅ……[r]まさか女に担がれるとは……屈辱である。
+[k]
+
+＠ナイチンゲール
+患者に男も女も老人も赤子もありません。[r]貴方は重傷で歩けないということを忘れぬように。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+[line 3]さて。
+[k]
+
+＠ジェロニモ
+一方、アメリカ西部軍は民間人を強制的に工場へ移住させ、[r]例の機械化歩兵の大量生産のために働かせているらしい。
+[k]
+
+＠Dr.ロマン
+うわお、独裁者エジソンか。
+[k]
+
+＠ジェロニモ
+ケルトに殺されるよりはマシ、ということで[r]ひとまず避難した者も多いらしい。
+[k]
+
+＠ジェロニモ
+西部と東部の戦線が膠着状態になっている[r]民間人のことを考慮せずとも良いのは助かるが……。
+[k]
+
+[wt 0.2]
+[bgmStop BGM_EVENT_2 0.1]
+[charaFace C 5]
+＠ジェロニモ
+……待て、隠れろ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein E 0.4 1]
+[wt 1.4]
+
+[charaFadeout E 0.4]
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+どうやら斥候らしいな。[r]一人でも逃すと増援を呼ばれるぞ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……了解です。[r]いそいで退路を塞いで……あれ？
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの、マスター。[r]ナイチンゲールさんは？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うん。彼女なら張り切って[r]斥候に襲い掛かってるね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+病の根源たる存在、ここで粛清します……！[r]診察の時間です、さあ胸を[#切開:あけ]なさい！
+[k]
+
+[charaFace D 2]
+＠ラーマ
+ま、待て！？[r]余を背負ったまま戦う気か貴様！？
+[k]
+
+＠ラーマ
+おい、ちょ、傷口が……あいだだだ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+い、行ってきますマスター！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

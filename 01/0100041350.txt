@@ -1,0 +1,432 @@
+＄01-00-04-13-5-0
+
+[soundStopAll]
+[bgm BGM_BATTLE_4 0.1]
+[scene 20201 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 9935300 1 ？？？]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5003001 1 玉藻の前]
+[charaSet G 5007001 1 シェイクスピア]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk C]
+[charaFace C 0]
+[charaFilter C silhouette 00000080]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠C：？？？
+[#魔元帥:まげんすい]ジル・ド・レェ。帝国真祖ロムルス。[r]英雄[#間者:かんじゃ]イアソン。そして[#神域碩学:しんいきせきがく]ニコラ・テスラ。
+[k]
+
+＠C：？？？
+多少は使えるかと思ったが[line 3][r]小間使いすらできぬとは興醒めだ。
+[k]
+
+＠C：？？？
+下らない。実に下らない。[r]やはり人間は、[#時代:トキ]を重ねるごとに劣化する。
+[k]
+
+＠Dr.ロマン
+ああクソ、シバが安定しない、音声しか拾えない！[r]どうした、何が起きたんだマシュ!?
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ　
+わ、わかりません。[r]ヒトのような影がゆっくりと歩いてきて[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠坂田金時
+……下がってなレディ。ありゃあヤクいぜ。[r]まっとうな娘っ子が直視していいモンじゃねえ。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠玉藻の前
+そのようでございますねぇ。私も退散退散。[r]一尾の身では見るだけで[#穢:けが]されそうです。
+[k]
+
+[charaFace D 3]
+＠坂田金時
+（いや、おまえはいいだろ？[r]　むしろ前に出るべきじゃん？）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+[line 3]オイ、なんだこのふざけた魔力は。[r]竜種どころの話じゃねえぞ。これは、まるで[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠シェイクスピア
+伝え聞く悪魔、天使の領域か。[r]いや、それですら足りますまい。
+[k]
+
+[charaFace G 5]
+＠シェイクスピア
+このシェイクスピア、生粋の魔術師ではありませんが[r]キャスターの端くれとして理解しました。
+[k]
+
+＠シェイクスピア
+無尽蔵とも言える魔力量。[r]存在するだけで領域を圧し潰す支配力[line 3]
+[k]
+
+[charaFace G 2]
+＠シェイクスピア
+まさに、まさに神に等しい創造物！[r]というか神そのもののような気さえします！
+[k]
+
+[charaFace G 3]
+＠シェイクスピア
+そうですな、我が友アンデルセン！[r]我々、そろそろお[#暇:いとま]した方がよろしいかと！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk H]
+[charaFadein G 0.1 0]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+＠アンデルセン
+貴様はどうしてそう大げさなんだ。だいたい神といっても[r]種類があるだろうに。俺が怖いのは編集の神だけだ。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+……まあ、逃げの一手には賛成だが。[r]まさか本命がこの段階でやって来るとはな。
+[k]
+
+＠Dr.ロマン
+本命!?　本命ってどういう事だ!?[r][%1][&君:ちゃん]、状況を報告してくれ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠C：？？？
+ほう。私と同じく声だけは届くのか。
+[k]
+
+＠C：？？？
+カルデアは時間軸から外れたが故、[r]誰にも見つける事のできない拠点となった。
+[k]
+
+＠C：？？？
+あらゆる未来[line 3]すべてを見通す[r]我が眼ですら、カルデアを観る事は難しい。
+[k]
+
+＠C：？？？
+だからこそ生き延びている。[r][#無様:ぶざま]にも。[#無惨:むざん]にも。[#無益:むえき]にも。
+[k]
+
+＠C：？？？
+決定した滅びの歴史を受け入れず、[r]いまだ無の大海にただよう哀れな船だ。
+[k]
+
+＠C：？？？
+それがおまえたちカルデアであり、[r][%1]という個体。
+[k]
+
+＠C：？？？
+燃え尽きた人類史に残った染み。[r][#私]の事業に唯一残った、私に逆らう愚者の名前か。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]ドクター。[r]いま、私たちの前に現れようとしている、のは[line 3]
+[k]
+
+？1：おまえは誰だ！
+
+？2：おまえが、レフの言っていた「王」か！
+
+？！
+
+[charaFadeout A 0.1]
+[charaFilter C normal 00000000]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.7 1]
+[wt 0.5]
+＠C：？？？
+ん？　なんだ、既に知り得ている筈だが？[r]そんな事も教わらねば分からぬ猿か？
+[k]
+
+[charaFace C 1]
+＠C：？？？
+だがよかろう、その無様さが気に入った。[r]聞きたいのならば応えてやろう。
+[k]
+
+＠C：？？？
+我は貴様らが目指す到達点。[r]七十二柱の魔神を従え、玉座より人類を滅ぼすもの。
+[k]
+
+＠C：？？？
+名をソロモン。数多無象の英霊ども、[r]その頂点に立つ七つの冠位の一角と知れ。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout C 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[wt 1]
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+[wt 1]
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+[wt 1]
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk on]
+＠Dr.ロマン
+ソ[line 3]ソロモンだって!?[r]確かにそう名乗ったのか、マシュ!?
+[k]
+
+[charaSet C 9935300 1 ソロモン]
+[charaSet D 9935310 1 ソロモン]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。間違いありません。
+[k]
+
+＠マシュ
+確かにソロモンと……紀元前10世紀に存在した[r]古代イスラエルの王と同じ名を名乗りました。
+[k]
+
+＠Dr.ロマン
+そんな……本当にソロモン……[r]こんな、こんなバカな事が[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+ハッ、そいつはまたビッグネームじゃねえか。[r]するってーと何だ。テメエもサーヴァントな訳か？
+[k]
+
+[charaFace E 5]
+＠モードレッド
+英霊として召喚され、[r]二度目の生とやらで人類滅亡を始めたってオチか？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+それは違うなロンディニウムの騎士よ。[r]確かに私は英霊だが、人間に召喚される事はない。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+なに？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 1]
+＠ソロモン
+貴様ら無能どもと同じ位と考えるな。[r][#私は死後]、[#自らの力で蘇り]、英霊に昇華した。
+[k]
+
+＠Dr.ロマン
+み……自らの力で、蘇っただって……!?
+[k]
+
+＠ソロモン
+英霊でありながら生者である。それが私だ。[r]故に、私の上に立つマスターなどいない。
+[k]
+
+＠ソロモン
+私は私のまま、私の意思でこの事業を開始した。[r]愚かな歴史を続ける[#塵芥:ちりあくた][line 3]
+[k]
+
+＠ソロモン
+この宇宙で唯一にして最大の無駄である、[r]おまえたち人類を一掃する為に。
+[k]
+
+？1：そんな事ができるとでも……！？
+
+？2：世界を滅ぼせるものか……！
+
+？！
+
+＠ソロモン
+できるとも。私にはその手段があり、[r]その意思があり、その事実がある。
+[k]
+
+[charaFace C 0]
+＠ソロモン
+既におまえたちの時代は滅び去った。[r]時間を越える我が七十二柱の魔神によって。
+[k]
+
+＠Dr.ロマン
+時間を越える……じゃああの魔神たちは[r]本当にレメゲトンにある魔神だったのか……？
+[k]
+
+＠Dr.ロマン
+いや、でも伝承とあまりにも違う！　ソロモン王の[r]使い魔があんな醜悪な肉の化け物のはずがない！
+[k]
+
+＠ソロモン
+哀れだな。時代の先端に居ながら、[r]貴様らの解釈はあまりに古い。
+[k]
+
+＠ソロモン
+七十二柱の魔神は受肉し、新生した。[r]だからこそあらゆる時代に[#投錨:とうびょう]する。
+[k]
+
+＠ソロモン
+魔神どもはこの星の自転を止める[#楔:くさび]である。[r]天に渦巻く[#光帯:こうたい]こそ、我が宝具の姿である。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+天に渦巻く光帯[line 3][r]まさか……あらゆる時代にあった光の輪、は[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+そうだ。あれこそは我が第三宝具、[r]『[#誕生の時きたれり、其は全てを修めるもの:アルス・アルマデル・サロモニス]』。
+[k]
+
+＠ソロモン
+あの光帯の一条一条が聖剣程の熱線だ。[r]貴様らが先ほど遊んだサーヴァント[line 3]
+[k]
+
+＠ソロモン
+アーサー王の持つ聖剣を幾億も重ねた規模の光。[r]即ち[line 3][#対人理:たいじんり]宝具である。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+ち……父上の聖剣の何億倍の熱線[line 3][r]それで時代を焼き払うってのか、テメエ!?
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ソロモン
+[line 6]さて。[r]その光景を見る事のない貴様に答える気はないな。
+[k]
+
+[charaFace C 0]
+＠ソロモン
+そちらの質問には答えた。[r]次はこちらの番だ、カルデアの生き残りよ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+野郎、やる気だ……！[r]構えろマシュ、[%1]！
+[k]
+
+[charaFace E 5]
+＠モードレッド
+どうあれアレが黒幕なんだろう!?[r]なら、ここでぶった斬るしか道はねえ……！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+で……で、も[line 3][r]あのサーヴァントには、決して[line 3]
+[k]
+
+＠Dr.ロマン
+マシュ、しっかりするんだ！[r]心を保って、しっかり敵を見る！
+[k]
+
+＠Dr.ロマン
+どんな相手であれ、敵はサーヴァントなんだろう!?[r]なら勝機はある！
+[k]
+
+＠Dr.ロマン
+君の中の英霊は聖杯に選ばれた英霊だ！[r]英霊の格は決してソロモンに引けを取らない！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠D：ソロモン
+ハ[line 3]英霊の格、だと？[r]そんなものが基準になると本気で思っているのか。
+[k]
+
+＠D：ソロモン
+無知とは罪だな。それなりの知恵者かと思えば、[r]貴様らの司令官は取るに足らぬ魔術師らしい。
+[k]
+
+＠D：ソロモン
+もはや私が気に留めるのは娘、[r]その盾を持つ貴様のみだ。
+[k]
+
+＠D：ソロモン
+さあ、楽しい会話を始めよう。
+[k]
+
+＠D：ソロモン
+なに、今回は特別だ。その健気さに免じて、[r]使うのは[#四本程度]に留めてやるよ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

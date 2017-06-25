@@ -1,0 +1,386 @@
+＄01-00-06-08-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 1012001 1 ベディヴィエール]
+[charaSet F 98083000 1 ルシュド]
+[charaSet H 98081000 1 難民たち]
+
+[se ad14]
+[wipeFilter cinema 0.5 0]
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+[wt 1.0]
+[se ad85]
+[shake 0.05 2 4 0.4]
+[se ad54]
+[seStop ad54 0.5]
+[wait se ad85]
+[seStop ad14 4.0]
+[wt 0.7]
+
+[wt 1.0]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,-50]
+＠ダ・ヴィンチ
+どうだ、このドリフトは！　ドリフトしない方が[r]早いけど、見事なコーナリングだろう！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 -250,-50]
+[charaFace D 2]
+[charaFadein D 0.1 250,-50]
+＠ルシュド
+すご[line 2]い！　おもしろ[line 3]い！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wipeOff]
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[wt 1.0]
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+ダ・ヴィンチ殿は何をしていらっしゃるのでしょう？[r]あのハコのようなものは一体……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+あれはああいう乗り物なんです。[r]ルシュド君を元気づけようと遊んでくれているんです。
+[k]
+
+？1：ルシュドって？
+
+？！
+
+[charaFace A 13]
+＠マシュ
+聖都で預かった子供です。[r]さきほど目を覚ましてくれました。
+[k]
+
+[charaFace A 4]
+＠マシュ
+でも……母親がいない事に、すぐに気づいて。
+[k]
+
+＠マシュ
+まわりの人たちが“母親は別のグループにいる”と[r]言ってくれたので誤魔化せているのですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠Dr.ロマン
+そうか、それで……。[r]ダ・ヴィンチちゃんにも人の心があったんだねぇ。
+[k]
+
+＠ルシュド
+マシュお姉ちゃ[line 3]ん！[r]お姉ちゃんも乗ろうよ、おもしろいよ[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！　先輩、ちょっと行ってきますね。
+[k]
+
+[charaFadeout A 0.4]
+[se ad59]
+[seStop ad59 1.2]
+[bgmStop BGM_EVENT_7 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+……あの少年もですが、マシュさんも強い子ですね。[r]まる一日歩きづめなのに疲れた様子もなく。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠Dr.ロマン
+これまで激戦をくぐり抜けてきたからね。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]とマシュの旅も[r]これで六度目だし。
+[k]
+
+＠Dr.ロマン
+思えば、今まで色々な世界を巡ってきた。[r]そうだろ、[%1][&君:ちゃん]？
+[k]
+
+？1：陸、海、は征服した
+？2：アメリカ大陸横断はブラック過ぎたよ……
+
+？！
+
+[charaFace E 3]
+＠ベディヴィエール
+なんと、それほどとは……！[r]私も旅には自信がありましたが、海はちょっと……
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+円卓の騎士の舞台はブリテン島だからね。[r]海に出る事はまずないだろう。
+[k]
+
+＠Dr.ロマン
+というか、アーサー王の時代は内戦やら異民族との[r]戦いやらで旅どころの話じゃないしね。
+[k]
+
+＠Dr.ロマン
+……と。そうだ、ベディヴィエール卿。
+[k]
+
+＠Dr.ロマン
+キミのその腕の事だけど……[r]それって、本当にアガートラムなのかい？
+[k]
+
+[charaFace E 1]
+＠ベディヴィエール
+本当の、というのは語弊がありますね。[r]これはマーリンから授けられた義手です。
+[k]
+
+＠ベディヴィエール
+私は隻腕の騎士でした。ですが片腕では円卓の相手は[r]厳しいだろう、とマーリンが一計を案じたのです。
+[k]
+
+＠ベディヴィエール
+これは彼が作った人工宝具。[r]ケルトの戦神、ヌァザが持つ銀の腕を模したもの。
+[k]
+
+＠ベディヴィエール
+私の体では長時間は扱えませんが、[r]一瞬であれば、あのように。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ふむ……凄い技術だ。神霊の腕を再現するなんて、[r]どんな素材を使ったんだろう。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+というか、ダ・ヴィンチちゃんも内心では[r]プライド刺激されているだろうねぇ。
+[k]
+
+＠Dr.ロマン
+“私のガントレットのがすごいんだぞー！”って[r]暴れかねない！　まあ口だけだけどね！
+[k]
+
+？1：確かに
+？2：似たような事は言っていたな……
+
+？！
+
+[charaFadeout E 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+＠ダ・ヴィンチ
+もちろん私だって負けてないとも！[r]地獄耳のダ・ヴィンチちゃんさ！
+[k]
+
+＠ダ・ヴィンチ
+あとロマニは帰ったら覚悟するように。[r]口だけでない事を証明するから。実験体として。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+はっはっは。いやあ、さすがにアガートラム超えは[r]無理でしょ。相手はマーリンだよ？　あのマーリン。
+[k]
+
+＠Dr.ロマン
+勝負に勝つためなら何でもやる[r][#魔術師:クズ]の中の[#魔術師:クズ]だよ？
+[k]
+
+＠Dr.ロマン
+けっきょく美しさに拘っちゃうダ・ヴィンチちゃんじゃあ、[r]“勝つ”事はできないんじゃないかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+勝ちますー。そこは美しく勝ちますぅー。[r]っていうか、勝たないと円卓の騎士を破れませーん！
+[k]
+
+？1：？？？
+？2：それ、どういうこと？
+
+？！
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+ん？　あー……[r]しまった、ロマニのせいで口を滑らせた。
+[k]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+不安にさせたくはなかったけど、仕方ない。[r]ちょっと説明しておきましょう！
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+＠ダ・ヴィンチ
+ほら、ガウェイン卿が口にしていただろ。[r]王に授かったギフトがある、って。
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+あれは聖杯の祝福だ。[r]それも私たちが集めている[#聖杯:アートグラフ]じゃない。
+[k]
+
+＠ダ・ヴィンチ
+アーサー王伝説に現れる救世主の[#聖杯:ホーリーグレイル]。[r]神の祝福を円卓の騎士たちは受けている。
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+ああ、ベディヴィエールは例外だ。[r]正しくは、獅子王の配下の円卓の騎士たちは、だね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+……そのようですね。獅子王配下の円卓たちは、[r]もはや通常のサーヴァントではありません。
+[k]
+
+＠ベディヴィエール
+神秘の格で言えば私のアガートラムでようやく対等……
+[k]
+
+[charaFace D 0]
+＠ベディヴィエール
+“聖杯を断つ”能力がなければ、[r]あのギフトは破れないでしょう。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+！　じゃあ今後、円卓の騎士たちが出てきたら……！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ベディヴィエールだけが頼りだろうね。[r]でも、それだとすぐに限界がくる。
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+そうだろ、ベディヴィエール卿？[r]キミ、あと何回戦えるんだい？　一回？　それとも二回？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ベディヴィエール
+なにを……言われるのです。[r]私は何度でも戦えます。多少、辛くはありますが……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ふーん。そう。[r]ま、そういう事にしておこう！
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+でも私は万能の天才、そして[%1][&君:ちゃん]の[r]頼れるお姉さんだからね！
+[k]
+
+＠ダ・ヴィンチ
+万が一に備えて円卓対策をしておかないと。[r]その為に、一刻も早く落ち着ける場所に行きたいのさ。
+[k]
+
+＠ダ・ヴィンチ
+工房があればギフトの解析もできるしね。[r]でも、もしその前に[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+
+[se ad162]
+[seStop ad162 3.5]
+
+＠難民たち
+うわあ[line 4]！？[r]怪物だ、怪物だ[line 3]！　荷物を守れ[line 3]！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+その前に、護衛としての役割をはたそうか！[r]行くぞ、[%1][&君:ちゃん]！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

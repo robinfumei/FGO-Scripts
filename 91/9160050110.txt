@@ -1,0 +1,222 @@
+＄91-60-05-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10913]
+[charaSet A 8001000 1 マシュ]
+[charaSet C 6005001 1 ジャック]
+[charaSet D 98002000 1 フォウ]
+[charaSet B 98006100 1 ホムンクルス]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0 1]
+[wipeout circleIn 0 2]
+[wait wipe]
+[fadein black 0]
+[wait fade]
+＠ジャック
+ねえ。ねえ。ねえ。[r][#おかあさん:マスター]。
+[k]
+
+[charaFace C 1]
+[messageOff]
+[wipein circleIn 2 1]
+[wait wipe]
+＠ジャック
+……おきた？[r]うん。おきたね。
+[k]
+
+[charaFace C 0]
+＠ジャック
+わたしたち、迷子になったみたい。[r]そこに、[#おかあさん:マスター]のサーヴァントもいるよ。
+[k]
+
+＠ジャック
+それからフォウも。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠フォウ
+フォウ……。
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[se ad7]
+＠ジャック
+えへへー、ふかふかー。
+[k]
+
+＠フォウ
+ミキュッ！？[r]フォウ、フォウ、フォウッ！？
+[k]
+
+[charaFace A 14]
+＠マシュ
+ジャ、ジャックさん！[r]フォウさんを締め付けすぎです！
+[k]
+
+[charaFace C 4]
+＠ジャック
+はあい。
+[k]
+
+[charaFadeout C 0.4]
+＠フォウ
+フォウ……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+マスター、ご無事ですか？[r]はい。わたしもいま起きたところです。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ここは[line 2]見た感じ、ロンドンのようです。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠ジャック
+そう。わたしたちの……んー、ふるさと？
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクターとの連絡は先ほど取りました……が。[r]通信は絶たれているようです。
+[k]
+
+＠ジャック
+じゃあ、[#おかあさん:マスター]いこうよ。[r]一緒に。おかあさんを探しにいこう。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ジャックさん……？
+[k]
+
+[charaFace C 1]
+＠ジャック
+いいから、いいから。
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[wipeout leftToRight 1 1]
+[wait wipe]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 1]
+[bgm BGM_EVENT_5 0.1]
+[scene 10913]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0 1]
+[wipein leftToRight 1 1]
+[wait wipe]
+＠ジャック
+いい空気、いいにおい、きれいな空。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+？1：大丈夫か？
+
+？2：気分が悪い？
+
+？！
+
+[charaFace A 12]
+＠マシュ
+あ、はい。[r]その……空気が濁ってて。
+[k]
+
+＠マシュ
+マスターは大丈夫……みたいですね。[r]不思議です。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠ジャック
+[#おかあさん:マスター]、[#おかあさん:マスター]。[r]うん。おかあさん、見つけたよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 1.0]
+[charaFadeout B 0.1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠マシュ
+あれが……ジャックさんの……？[r]いえ、あれは……違います！　エネミーです！
+[k]
+
+[charaFace C 0]
+＠ジャック
+……そうなの？　でも、わたしたちのおかあさんは[r]いたいことをしてくるよ？
+[k]
+
+＠ジャック
+わたしたちを押し潰したり、引き千切ったりしてくるよ？[r]だから、あれはおかあさんだよ。
+[k]
+
+？1：違う
+
+？2：母じゃない
+
+？！
+
+[charaFace C 1]
+＠ジャック
+そっか。[#おかあさん:マスター]がそう言うなら、[r]そうなんだろうね。
+[k]
+
+[charaFace C 5]
+＠ジャック
+だったら、わたしたちにいたいことするだけの人。[r]おいしゃさんみたいなものだね。
+[k]
+
+＠ジャック
+……うん。[#おかあさん:マスター]、やっつけていい？[r]いいよね。
+[k]
+
+[charaFace C 2]
+＠ジャック
+うん、うん……！！
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,512 @@
+＄94-00-61-00-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4024000 1 モードレッド]
+[charaSet E 3025000 1 清姫]
+[charaSet F 2026000 1 アルトリア]
+[charaSet G 2025100 1 メアリー]
+[charaSet H 2025200 1 アン]
+
+[scene 30700]
+[fadein black 2.0]
+[wait fade]
+
+
+＠　
+[line 3]思うに、[#『文明』:シヴィライゼーション]とは、[r]知的生物の歩みそのものだ。
+[k]
+
+＠　
+ビル一つ、食べ物一つ取っても[r]そこには先達の知恵が山のように詰まっている。
+[k]
+
+＠　
+となれば、この崩壊した風景は停止だ。
+[k]
+
+＠　
+かつて栄華を誇った建物も、娯楽も、[r]技術の粋を凝らした数々の素晴らしい発明も。
+[k]
+
+＠　
+ここにはもう、何もない。[r]二千年の妄執が、全てを押し潰した。
+[k]
+
+＠　
+我々に希望はない。
+[k]
+
+＠　
+勇者も英雄も存在せず、戦うという発想そのものが[r]なかった我々に、[#彼ら]を倒す手段などない。
+[k]
+
+＠　
+だから祈るしかない。
+[k]
+
+＠　
+我らに文明と誠実さをもたらした[#九人の女神:ナイン・シスターズ]が、[r]いつかこの世界に訪れんことを[line 3]
+[k]
+
+
+[bgmStop BGM_EVENT_1 2.0]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 20320]
+[wt 2.0]
+
+
+[wipeout circleIn 0.1 1]
+[wait wipe]
+
+[fadein black 0.1]
+[wait fade]
+
+[fadeMove black 0.1 0.5]
+[wait fade]
+
+[wipein circleIn 1.5 0.5]
+[wait wipe]
+
+＠マシュ
+先輩……。[r]先輩…………せんぱーい。
+[k]
+
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 0,-1000]
+
+[wt 0.1]
+[seStop ad37 5.0]
+
+[se ad7]
+[charaMove A 1 0.3]
+
+＠マシュ
+先輩、起きてくださーい！
+[k]
+
+[bgm BGM_EVENT_2 0.3]
+
+[messageOff]
+[wipeout circleIn 0.25 1.0]
+[wait wipe]
+[scene 21230]
+[fadeMove black 0 0]
+[wait fade]
+[wipein circleIn 0.75 1]
+[wait wipe]
+
+
+？1：わぷっ！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaMoveReturn C 0,5 0.15]
+[wt 0.15]
+[shake 0.05 0 4 0.25]
+[wt 0.25]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+おはようございます、先輩。[r]どうやら、陸地が見えたようですよ。
+[k]
+
+？2：フォウ！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォッウ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+
+＠マシュ
+先輩、フォウさんのまねっこですか？[r]ちょっと可愛かったですよ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それより先輩、陸地が見えたようです。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠メアリー
+あ、起きたんだマスター。[r]やっほー。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+
+[charaFace G 0]
+[charaFadein G 0.1 2]
+
+＠アン
+長い船旅でしたわね。[r]二週間くらいだったかしら。
+[k]
+
+[charaTalk G]
+
+＠メアリー
+三日くらいじゃない？[r]どうも記憶が曖昧だよね。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠清姫
+不思議ですわね。[r]長旅の割には、お腹もあんまり空いてませんし。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そうですね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+とても長い時間を船で過ごしたような、[r]まったく短かったような。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠スカサハ
+ふぅむ……。[r]確かにおかしいが、この感覚……。
+[k]
+
+＠スカサハ
+[line 3]いや、まさかな。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+おーい、みんなー。[r]紫バアさんが意味深なコト言ってるぞー。
+[k]
+
+
+[effect bit_bolg_01]
+[se bac64]
+
+[wt 0.1]
+[charaShake D 0.05 3 3 0.2]
+[charaFace D 4]
+[wt 0.2]
+
+[effect bit_bolg_02]
+
+[wt 0.1]
+[charaShake D 0.05 5 5 0.5]
+[wt 0.9]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace B 1]
+[charaFadein B 0.4 2]
+
+＠スカサハ
+はて、最近耳が遠くなってな。[r]『若くて麗しいスカサハ様』だったか？
+[k]
+
+[charaTalk D]
+[charaFace D 2]
+
+＠モードレッド
+若くて麗しいスカサハ様！
+[k]
+
+[charaTalk B]
+[charaFace B 1]
+
+＠スカサハ
+うむ（まんぞく）。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 0]
+
+＠アルトリア
+ゲイ・ボルクの出血大サービスですね……。[r]うちの下の方の門下生が失礼をしました。
+[k]
+
+＠アルトリア
+それはそれとしてスカサハ。[r]何か気になることでも？
+[k]
+
+[charaTalk B]
+[charaFace B 4]
+
+＠スカサハ
+いや……すまん、やはり気のせいということに[r]しておこう。あまり面白い話でもないからな。
+[k]
+
+[charaFace B 0]
+
+＠スカサハ
+次の島を調べれば、何か分かるかもしれん。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……ところで。
+[k]
+
+[charaFace A 12]
+＠マシュ
+先の荒波で海に投げ出されたクー・フーリンさんたちの[r]捜索はどうしましょう？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet C 9004000 1 マルタ]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠マルタ
+あのへっぽこサムライなら大丈夫でしょ。
+[k]
+
+＠マルタ
+仮にも島国の人間よ、遠泳の一つや二つ[r]できないじゃ、済まされないでしょうし。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+んー、カルナも大丈夫だろ。[r]アイツ、太陽の化身だったっけ？
+[k]
+
+[charaFace D 1]
+
+＠モードレッド
+そんな感じの奴だし、[r]沈んでもその内、西から昇ってくるって！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+
+＠マシュ
+東です、モードレッドさん……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+なあに、クー・フーリンも大丈夫だ。[r]元々海も陸も得意な戦士だ。
+[k]
+
+＠スカサハ
+待っていればその内、追いついてくるだろう。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+
+＠アルトリア
+信頼されているのですね、ランサーは……。
+[k]
+
+[charaTalk B]
+
+＠スカサハ
+うむ、信頼している。
+[k]
+
+[charaSet E 3024000 1 玉藻の前]
+[charaFace B 0]
+
+＠スカサハ
+……というか、あれだけ死ななかった奴が[r]どうやったら死ぬのか、さっぱり分からん。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（皆さん信頼されているのか、放置されているのか、[r]　微妙に分かりません……）
+[k]
+
+？1：大丈夫だと思うよ
+
+[charaFace A 13]
+
+＠マシュ
+はい、先輩の直感を信じます。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？2：彼らが死ぬはずない
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+その通り、彼らは仮にもサーヴァントだ。[r]海に落ちたくらいで死ぬなら、英雄の資格はない。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠玉藻の前
+それでは島に上陸しましょう！[r]船長さーん、ストップ！　ストッププリィズ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+
+[charaFace H 0]
+[charaFadein H 0.1 0]
+
+
+＠メアリー
+はいはい了解、よーそろー。
+[k]
+
+[charaTalk H]
+
+＠アン
+島に上陸しますわよー！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,44 @@
+
+＄01-00-05-08-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 2003001 1 ロビンフッド]
+[charaSet B 3005002 1 エリザベート]
+
+[scene 20820]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠エリザベート
+いい汗かいたわ。[r][&子イヌ:子ジカ]、何か汗を拭うものをよこしなさい。
+[k]
+
+？1：それじゃあコレを……
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ロビンフッド
+コラコラ！[r]人の宝具をタオルに使うなってーの！
+[k]
+
+[charaFace A 4]
+＠ロビンフッド
+マスターもノリノリで引ったくろうとする[r]んじゃありません！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[soundStopAll]
+[end]

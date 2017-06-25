@@ -1,0 +1,377 @@
+＄01-00-06-07-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 1007002 1 ガウェイン]
+[charaSet F 1012001 1 ルキウス]
+
+[scene 28901]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+駄目です、マスター……！[r]日中の彼には攻撃が通用しません……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+加えて手を抜かれているときた。[r]宝具を使う気はないようだね、どーにも。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ガウェイン
+おや。そちらにも余裕のある方がいるようだ。[r]無論、聖剣は使いません。
+[k]
+
+＠ガウェイン
+貴方たちは値する強敵ではありませんから。[r]このまま、一介の賊として処理しましょう。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+（気づいているかい、[%1][&君:ちゃん]。[r]　マシュがさっきから調子が悪いのを）
+[k]
+
+＠ダ・ヴィンチ
+（手足が縮こまっているだけじゃない。[r]　マシュは根本的にガウェインを敵視できていない）
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+（このままだとホントにやばい。[r]　なんとか時間を稼いで。ほんの少しでいい）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.7]
+
+？1：ガウェイン！　なんでこんなコトをする！
+？2：ガウェイン！　聖抜とは何だ！？
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+ふむ。[r]本来なら語るまでもない事ですが……
+[k]
+
+＠ガウェイン
+女性を[#庇:かば]い、自らを危険にさらしての問いであれば[r]答えない訳にはいきませんね。
+[k]
+
+＠ガウェイン
+異邦から来たマスター。[r]貴方の名は？
+[k]
+
+？1：[%1][&だ:です]
+
+？！
+
+[charaFace E 0]
+＠ガウェイン
+ありがとうございます。[r]改めて私も名乗りましょう、[%1]。
+[k]
+
+＠ガウェイン
+私はガウェイン。[r]人理を守らんと、この聖都を築き上げたお方[line 3]
+[k]
+
+＠ガウェイン
+騎士の王にして純白の獅子王。[r]アーサー王に仕える騎士です。
+[k]
+
+＠ガウェイン
+我々が求めるものは、[r]何者にも冒されない理想郷の完成。
+[k]
+
+＠ガウェイン
+獅子王の法を順守し、[r]純白の千年王国を成す事だけが人の生きる道。
+[k]
+
+＠ガウェイン
+その為により善い人間を選び、[r]選ばれない人々は排除する。
+[k]
+
+＠ガウェイン
+これはそれだけの話です。[r]私たちは私たちの正義に基づいて行動しています。
+[k]
+
+[charaFace E 5]
+＠ガウェイン
+そして、貴方たちはそれを拒んだ。[r]一時の感情であろうと、獅子王の聖抜を否定した。
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+＠ガウェイン
+王は一度の過ちも許しません。[r]……ですので、お覚悟を。
+[k]
+
+＠ガウェイン
+貴方たちは[bgm BGM_EVENT_24 0.1]いま、[r]獅子王と、その円卓の騎士を敵に回したのです。
+[k]
+
+＠ガウェイン
+ここで私に討たれるか、私以外の円卓の騎士に[r]討たれるか[line 3]どうあれ運命は決まりました。
+[k]
+
+＠ガウェイン
+苦しませるのは本意ではありません。[r]どうか、速やかに運命を受け入れますように。
+[k]
+
+？1：勝手なことを……！
+？2：おまえたちには負けない……！
+
+？！
+
+＠マシュ
+無謀です……！[r]いけません、マスター！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[messageOff]
+[effect bit_talk_12]
+[wt 0.05]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[wt 0.1]
+[se ad32]
+[charaFace A 15]
+[charaShake A 0.05 3 3 0.25]
+[wt 0.7]
+＠マシュ
+っ……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ガウェイン
+無謀なのは貴女も同じ事。いえ、その心持ちでは[r][%1]も嘆くというもの。
+[k]
+
+[charaFace E 5]
+＠ガウェイン
+貴女はまだ私を敵視していない。[r]そのような心持ちで、なぜ戦場に来たのですか。
+[k]
+
+＠ガウェイン
+貴女はその幼子を守ると言った。[r]母親を殺した粛正騎士を憎しみから打倒した。
+[k]
+
+＠ガウェイン
+だというのに、その敵意を私に向けていない。[r]いいですか。[#その幼子の母親を殺したのは私です]。
+[k]
+
+＠ガウェイン
+これは私が命じた聖罰。[r]私が許した殺戮です。
+[k]
+
+＠ガウェイン
+粛正騎士は命令を守っただけの事。[r]貴女がこの場で憎むべき敵は、司令官である私です。
+[k]
+
+[charaFace E 2]
+＠ガウェイン
+その道理を[#弁:わきま]えない者が戦場に出るなど、[r]我々への侮辱と知りなさい！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[wt 0.2]
+
+[charaEffect A bit_talk_12]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad32]
+[charaFace A 15]
+[charaShake A 0.05 3 3 0.25]
+
+
+＠マシュ
+っ[charaAttack A normal 50,0 0.25]……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+終わりです！[r]その盾、貴女には荷が勝ちすぎる！
+[k]
+
+？1：マシュ……！
+
+？！
+
+[wt 0.2]
+[messageOff]
+[bgmStop BGM_EVENT_24 1.8]
+[charaFadeout E 0.1]
+[wt 0.2]
+
+[effect bit_talk_14]
+[flashin once 0.1 0.3 C0C0C0AF C0C0C000]
+[wt 0.1]
+[shake 0.05 3 3 0.4]
+[se ad32]
+[wt 1.0]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.4 1]
+＠ルキウス
+[#驕:おご]っているのはそちらだ、サー・ガウェイン。[r]個人の信条と、戦場での働きは別のもの[line 3]
+[k]
+
+＠ルキウス
+彼女の信条を糾弾する資格など、貴公にはない。[r]外道に落ちたのなら尚更だ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+な[line 3]に？[r]貴方[line 3]貴方、は[line 3]
+[k]
+
+？1：ルキウスさん！
+？2：銀の腕の人！
+
+？！
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_24 1.8]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ルキウス
+挨拶は後ほど！[r]今は目の前の敵に専念する時！
+[k]
+
+＠ルキウス
+円卓の騎士のギフトは私が破ります。[r]サー・ガウェイン、なにするものぞ。
+[k]
+
+[charaFace F 8]
+＠ルキウス
+だって貴方たちは負けてはいない。[r]実力の話ではありません。在り方の話です。
+[k]
+
+＠ルキウス
+……私もどうかしていました。
+[k]
+
+＠ルキウス
+強きをくじき、弱きを助ける。[r]その決断は常に、何より正しいという事を。
+[k]
+
+[charaFace F 2]
+＠ルキウス
+であれば、この輝きは[%1]の為に。[r][line 3][#剣を摂れ、銀色の腕:スイッチオン・アガートラム]！
+[k]
+
+[messageOff]
+[se ad39]
+[flashin once 0.7 0.4 C0C0C0AF C0C0C000]
+[wt 1.3]
+[se bac66]
+[wt 0.7]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ガウェイン
+馬鹿な[line 3]馬鹿な！[r]なぜ貴方がここに！？　いえ、それ以前に[line 3]
+[k]
+
+＠ガウェイン
+サー・ベディヴィエール！　円卓の騎士である貴方が、[r]王に叛逆するというのですか！？
+[k]
+
+？1：な[line 3]
+？2：なんだって[line 6]！？
+
+？！
+
+[wt 0.4]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]

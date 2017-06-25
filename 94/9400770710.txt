@@ -1,0 +1,431 @@
+
+
+＄94-00-77-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5012001 1 ニトクリス]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1010001 1 エリザベート]
+[charaSet E 7022001 1 茨木童子]
+[charaSet F 98003003 1 Dr.ロマン]
+[charaSet G 3003001 1 ヴラド三世]
+
+[scene 32200]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠エリザベート
+とうとう、ここまで来たわね……。
+[k]
+
+[charaFace D 2]
+＠エリザベート
+さあ皆！[r]ピラミッドに巣食う、あの魔女を倒すのよ！
+[k]
+
+？1：おー！
+
+[charaFace D 1]
+＠エリザベート
+いい返答ね、[&子イヌ:子ジカ]！
+[k]
+
+？2：努力します
+
+[charaFace D 8]
+＠エリザベート
+貴族が物事を有耶無耶にしたいときに[r]言う言葉ね！
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[communicationCharaFace 0]
+[wt 0.3]
+＠Dr.ロマン
+もちろん、サーヴァントらしき存在が[r]立ちはだかっているから、気をつけてね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エリザベート
+誰が相手でも、恐れはしないわ！
+[k]
+
+[charaFace D 0]
+＠エリザベート
+[#勇者:アイドル]エリちゃんの冒険は、[r]女王を倒すまで決して終わらないのよ！
+[k]
+
+[charaFace D 2]
+＠エリザベート
+さあ、全員突撃よ！
+[k]
+
+[charaFadeout D 0.7]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_4 0.7]
+[wt 1.0]
+[bgm BGM_EVENT_7 0.4]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+＠茨木童子
+士気だけは高い奴よな……[#吾:われ]はもう疲れた。[r]酒呑ではあるまいし、一日中全力を出せるものか。
+[k]
+
+[charaFace E 0]
+＠茨木童子
+緑の人よ、[#熱量:かろりー]をくれ。[r]チョコレイト、もう一つ追加だ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+あいあい。[r]ほい、鬼はちょろー、鬼はちょろー、と。
+[k]
+
+[se ad27]
+[seVolume ad27 0 0.3]
+[charaShake C 0.05 2 2 0.4]
+[wt 0.4]
+
+[se ad28]
+[seVolume ad28 0 0.4]
+[wait se ad28]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠茨木童子
+ふはは効かぬ。まるで効かぬ！[r][#吾:われ]のこの無敵ぶりはどうだ！　[charaChange E 98105300 0 normal 0][wait charaMove E][charaFace E 0][charaShake E 0.05 2 2 0.4][se ad182][seVolume ad182 0 0.4]（ぼりぼり）
+[k]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaMove E 0,-4 0.2]
+[wait charaMove E]
+
+[charaChange E 7022001 0 normal 0]
+[wait charaChange E]
+[charaMove E 1 0.1]
+[wait charaMove E]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaChange E 98105300 0 normal 0]
+[wait charaMove E]
+[charaMove E 0,-4 0.2]
+[wait charaMove E]
+
+[charaChange E 7022001 0 normal 0]
+[wait charaChange E]
+[charaMove E 1 0.1]
+[wait charaMove E]
+
+[charaFace E 1]
+[wt 0.4]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.4 1]
+＠ニトクリス
+それにしても、上へ下への大騒ぎで[r]汚れてしまいましたね……
+[k]
+
+[charaFace B 0]
+＠ニトクリス
+[%1]。[&貴方:貴女]、マスターなのですから[r]浴室の一つや二つ、魔術で取り出せないのですか？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+さすがにそれは無理かと……。[r]あ、タオルならありますけど。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ニトクリス
+では、それで。[r]…[charaFace B 8]…ちょっとごわごわしていますね。
+[k]
+
+[charaFace B 0]
+＠ニトクリス
+エジプト絹のタオルに換えて下さい。[r]え、[charaFace B 4]無い？
+[k]
+
+[charaFace B 0]
+＠ニトクリス
+仕方ありませんね。[r]この戦いが終わり次第、城内に用意するように。
+[k]
+
+[charaFace B 1]
+＠ニトクリス
+ああ、もちろん浴室もですよ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はあ……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShake E 0.05 2 2 0.4]
+＠エリザベート
+[messageShake 0.05 2 2 0.4]
+緊張感が欠片もな[line 3]い！
+[k]
+
+[charaFace D 8]
+＠エリザベート
+ねえ、何かこう、盛り上がる気持ちとかないの！？
+[k]
+
+[charaFace D 0]
+＠エリザベート
+勇者の[#私:アタシ]の声に合わせて、[r]歓声とか上げましょうよ！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+へいへい、勝った後で思う存分な。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShake E 0.05 2 2 0.4]
+＠エリザベート
+[messageShake 0.05 2 2 0.4]
+むき[line 3]！[r]いいわよ、もう！
+[k]
+
+[charaFace D 5]
+＠エリザベート
+そら、次の相手は誰！？[r]円卓の騎士でも何でも掛かってこいっての！
+[k]
+
+[charaFadeout D 0.7]
+[wt 0.4]
+
+[bgmStop BGM_EVENT_7 0.7]
+[wt 1.0]
+
+＠？？？
+……ほう。
+[k]
+
+[wt 0.4]
+
+[messageOff]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.7 1]
+[wt 0.4]
+
+[bgm BGM_EVENT_5 0.1]
+[wt 2.5]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 4 4 0.7]
+＠エリザベート
+って、おじ様[line 9]！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え、おじ様……ヴラド三世ですか！？
+[k]
+
+[charaFace A 12]
+＠マシュ
+あれ、でもわたしが知っているあの方とは、[r]ちょっと全体的な雰囲気が違うような……？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ヴラド三世
+当然であろう。
+[k]
+
+＠ヴラド三世
+サーヴァントとは、一人の英雄の一つの側面を[r]抽出して召喚するもの。
+[k]
+
+＠ヴラド三世
+王としてのヴラド三世ではない。[r]この場にいるのは、あらゆる悪を[#糺:ただ]す武人である。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠エリザベート
+あ、あのおじ様？[r]……[#私:アタシ]を睨み付けて……何かあった？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠ヴラド三世
+エリザベート・バートリー！[r][#吾:オレ]はその[#方:ほう]の罪を裁きに来た！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 4 4 0.4]
+＠エリザベート
+え、ええぇ！[r]おじ様が！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ヴラド三世
+問答は無用。
+[k]
+
+[charaFace G 2]
+＠ヴラド三世
+汝は罪ありき存在[line 3]これより、[r]あらゆる不徳と不義を罰してくれようぞ！
+[k]
+
+[charaFadeout G 0.4]
+[wt 0.4]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 2]
+＠Dr.ロマン
+あ、あの吸血鬼呼ばわり以外には鷹揚な[r]ヴラド公がここまで怒ってるなんて！？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ああいや、違う側面だから怒りのハードルも[r]また違うのか！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+と、ともかく戦闘準備だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+エリザベートさん！[r]今は戦いましょう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠エリザベート
+あ、うん……。[r]そ、そうよね。戦わなくちゃ……！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[charaFadeout D 0.4]
+
+[soundStopAll]
+[end]

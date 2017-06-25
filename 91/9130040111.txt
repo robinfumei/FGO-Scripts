@@ -1,0 +1,246 @@
+
+＄91-30-04-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3004001 1 カルナ]
+[charaSet E 5009001 1 ダ・ヴィンチ]
+[charaSet F 98021000 1 村人]
+[charaSet G 98016000 1 盗賊]
+
+[scene 21000]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+＠カルナ
+これ以上はやめておけ。一時の欲望で、[r]残りすべての時間を差し出す気か？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠盗賊
+な……、何だこいつら、つ、強すぎる！？[r]に、逃げろー！！！！
+[k]
+
+[se ad55]
+[seStop ad55 1.0]
+[charaFadeout G 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_2 1.0]
+[wt 1.0]
+
+[se ad13]
+[wait se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.1]
+＠Dr.ロマン
+執拗に急所を突いて、的確に戦意を削いで、[r]最速で降伏させる……
+[k]
+
+＠Dr.ロマン
+芸術的なまでのワンサイドゲームでした。[r]勉強になります。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠村人
+あ、ありがとうございます、旅のお方。[r]一体なんとお礼を言ってよいか……。
+[k]
+
+[charaFace D 1]
+＠カルナ
+礼には及ばない。[r]こちらもこの村がなくなっては困るだけだ。
+[k]
+
+[charaFace D 0]
+＠カルナ
+ところで、小麦を分けてくれないか。[r]代金なら相場通り支払わせてもらおう。
+[k]
+
+＠村人
+こ、小麦でいいんですか？[r]それはもういくらでも！！
+[k]
+
+[charaFace D 4]
+＠カルナ
+……いや、この袋に入るだけで構わない。[r]支払いはこの銀貨でいいと聞いた。
+[k]
+
+[se ad7]
+[wait se ad7]
+
+＠村人
+は、はあ……、ではこれをどうぞ。[r]本当にそれだけでよろしいので？
+[k]
+
+[charaFace D 1]
+＠カルナ
+ああ、感謝する。[r]騒ぎを起こしてすまなかったな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+カルナさん……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[fadeout black 1.2]
+[wait fade]
+[wt 1.0]
+[charaSet A 98001000 2 マシュ]
+[scene 10600]
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ダ・ヴィンチ
+よーし！！　ダ・ヴィンチちゃん特製！[r]画期的に美味しい創作パン二号ができたよ！！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠カルナ
+……見事な腕前だ。いや職人技と言うべきか。[r]たちのぼる湯気に神気すら感じる。
+[k]
+
+＠カルナ
+以前はピザとやらを焼いていたが……[r]さすがは万能の天才、万能の竈だ。感服する他ない。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wipeout leftToRight 1 1]
+[wait wipe]
+[scene 10310]
+[wt 0.4]
+[wipein rightToLeft 1 1]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠カルナ
+またせたなドクター。[r]空腹には耐えきれたか？　頼まれたパンだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+あ、ありがとう……。[r]ごめんね手間をかけさせちゃって。
+[k]
+
+＠カルナ
+いや、いい経験になった。[r]では失礼する。
+[k]
+
+[charaFadeout D 0.7]
+[se ad60]
+[seStop ad60 1.0]
+[wt 1.7]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+＠マシュ
+カルナさんって……、[r]なんというか、変わっていますね。
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+施しの英雄か……、彼は自らの血肉だった鎧すら[r]乞われれば差し出したという逸話の持ち主だ。
+[k]
+
+？1：血肉？
+？2：鎧？
+
+？！
+
+[charaFace B 5]
+＠Dr.ロマン
+ああ、その黄金の鎧を身に着けているかぎり[r]誰も彼を傷つけることはできない。
+[k]
+
+＠Dr.ロマン
+それほどの鎧を、[r]彼は乞われただけで手放した英雄だ。
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+貧者の一灯というか……本当に必要なものを[r]本当に必要な分だけ必要とする、そんな男だよ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+気高く孤高でありながら、余人と同じ視線で[r]接する[line 3]まさに英雄の鑑ですね。
+[k]
+
+[charaFace A 8]
+＠マシュ
+そして、そんな素晴らしい方にどうでもいい用件を、[r]どうでもよくお願いしたのがこちらのドクターです。
+[k]
+
+[charaFace B 4]
+＠Dr.ロマン
+ちょっと手を離せない作業だったから、つい……[r]反省しています。
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+まあ、次はアルジュナに頼むよ。[r]ほら、カルナと同じインド出身だし！
+[k]
+
+[charaFace A 2]
+＠マシュ
+そ、それこそ事件案件です！[r]雑務でしたら、わたしたちで対応しますから！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！！
+[k]
+
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[fadeout black 1.2]
+[bgmStop BGM_EVENT_2 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

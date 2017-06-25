@@ -1,0 +1,445 @@
+＄01-00-08-18-1-0
+
+
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet D 98108700 1 マシュ]
+[charaSet H 98017000 1 通信エフェクト用キャラ]
+
+[soundStopAll]
+[bgm BGM_BATTLE_32 0.1]
+
+[scene 36000]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+＠マシュ
+神殿内の全魔神柱、活動規模を縮小！[r]玉座へのルート、開けました！
+[k]
+
+＠マシュ
+千載一遇のチャンスです、マスター！
+[k]
+
+？1：[&ああ:ええ]、行く[&ぞ:よ]マシュ！
+
+[charaFace A 13]
+＠マシュ
+はい！[r]皆さんの尽力に応えましょう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？2：ドクター、いいですね！？
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+無論だとも。止める要因は何もない。[r]我々人類の未来をキミに託す！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+？！
+
+[charaPut A 1]
+
+[messageOff]
+[cameraMove 5.0 0,0 1.5]
+[wt 1.0]
+
+[scene 36900 1.0]
+[shake 0.05 2 2 0]
+[se ad271]
+[wt 0.3]
+[charaEffect A bit_talk_41]
+[wait scene]
+[wt 1.0]
+[fadeout black 1.5]
+[seStop ad271 1.5]
+[wt 1.0]
+[charaPut A -2000,-2000]
+[charaEffectStop A bit_talk_41]
+[wait fade]
+[wipeout sideBlind 0.1 1.0]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[shakeStop]
+[wt 0.7]
+[cameraHome 0.1]
+[wt 0.3]
+
+[scene 10202]
+
+[wipein sideBlind 0.7 1.0]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ダ・ヴィンチ
+よし、玉座まで魔神柱の反応はなし、[r]あとはひたすら走り抜けるだけだ！
+[k]
+
+＠ダ・ヴィンチ
+距離にして一キロほど先に空間断層がある！[r]その先が魔術王の玉座に違いない！
+[k]
+
+[charaFace C 5]
+＠ダ・ヴィンチ
+[line 3]とまあ、それはそれとして、ロマニ！[r]最後の戦いは目の前だが、あえて確認しておこう！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 5]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+＠ダ・ヴィンチ
+人理焼却を完遂させた者。[r]この神殿に座する魔術王ソロモンは、何者なのかな！
+[k]
+
+＠ダ・ヴィンチ
+本物なのか、偽物なのか。[r]英霊なのか、それとも違う何かなのか。
+[k]
+
+＠ダ・ヴィンチ
+それが正解であれ間違いであれ、[r]司令官であるキミは結論を得ている筈だ。
+[k]
+
+＠ダ・ヴィンチ
+情報として、[%1][&君:ちゃん]に[r]提示しなくていいのかい？
+[k]
+
+[charaTalk B]
+[charaFace B 10]
+＠Dr.ロマン
+えっと……いや、それは……
+[k]
+
+？1：聞きたいです、ドクター
+？2：……聞かせてください
+
+？！
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[se ad13]
+[charaPut H 2]
+[charaEffect H bit_talk_10_LowLevel]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[wt 0.3]
+＠D：マシュ
+はい。わたしも先輩と同意見です。[r]ドクター・ロマン。貴方の考えを教えてください。
+[k]
+
+[charaTalk B]
+[charaFace B 7]
+[wt 0.7]
+[charaFace B 0]
+＠Dr.ロマン
+仕方ない。ボクの憶測でよければ言うよ。
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+あと少しで答えそのものと戦うって時だから、[r]恥ずかしいけどね。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+あのソロモンは偽者じゃない。この時間神殿に[r]接触した時、それは否定できない事実になった。
+[k]
+
+
+[charaFace B 5]
+＠Dr.ロマン
+なぜなら、この神殿を構成するものは[r]ソロモンの魔術回路だからだ。
+[k]
+
+＠Dr.ロマン
+ソロモン以外にソロモン王の魔術回路は扱えない。
+[k]
+
+＠Dr.ロマン
+よって、第三者がソロモンを[#騙:かた]っている、という[r]可能性は消えた。
+[k]
+
+＠Dr.ロマン
+けど、だからといって『本物』だと決めつけるのは[r]早すぎる。
+[k]
+
+＠Dr.ロマン
+ソロモンが何者かに操られている可能性。[r]あるいは[line 3]
+[k]
+
+[charaTalk D]
+[charaFace D 7]
+＠D：マシュ
+生前とは違う人格になったソロモン王……
+[k]
+
+[charaFace D 0]
+＠D：マシュ
+ジャンヌ・ダルクさんやクー・フーリンさんのように、[r]別のクラスとして成立した場合、ですね？
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+＠Dr.ロマン
+ああ。まあでも、ソロモンがオルタ化しても[r]さして変化はないと思うよ。
+[k]
+
+＠Dr.ロマン
+善の反対は悪、悪の反対が善だとしたら、[r]ソロモンは無だ。彼はどうあろうとブレない。
+[k]
+
+[charaTalk D]
+[charaFace D 6]
+＠D：マシュ
+……無？[r]それを言うなら『中立』ではないのですか？
+[k]
+
+[charaTalk B]
+[charaFace B 8]
+＠Dr.ロマン
+いいや、無だよ。だって何も望まなかった。[r]ソロモン王に自我は許されなかった。
+[k]
+
+＠Dr.ロマン
+彼は生まれた時から王として定められた生き物だ。[r]羊飼いから王になったダビデ王とは違う。
+[k]
+
+＠Dr.ロマン
+優れた王であるダビデ王が、[r]さらに優れた王として神に捧げた子供だ。
+[k]
+
+[charaFace B 10]
+＠Dr.ロマン
+ソロモンには人間としての生活も思考もない。[r]そんな自由[line 3]人権は、彼にはなかった。
+[k]
+
+[charaFace B 7]
+＠Dr.ロマン
+神権、王権は腐るほど持っていたけどね。[r]ソロモン王には、人間としての感性がほぼ無かったんだよ。
+[k]
+
+[messageOff]
+
+[charaFadeout D 0.1]
+[charaPut H 1200,1200]
+[charaEffectStop H bit_talk_10_LowLevel]
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ダ・ヴィンチ
+……だからオルタ化しても悪人にはならない、と。[r]でもあの魔術王はどう見ても悪人だけど？
+[k]
+
+[charaTalk B]
+[charaFace B 3]
+＠Dr.ロマン
+うん、そこなんだよねぇ。[r]ボクも、
+[k]
+
+[charaFace B 8]
+＠Dr.ロマン
+“そうは言ってもソロモンにだって人間らしい善悪があって、[r][f small]  [f -]別クラスになった事でようやく悪意を獲得したのでは”
+[k]
+
+
+＠Dr.ロマン
+と考えたけど……
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+あれは違うね。ここに来てやっと確信できた。[r]あれはソロモン王だが、その中身は別のものだ。
+[k]
+
+＠Dr.ロマン
+キングゥと同じさ。[r]要は、アレはソロモン王の遺体なんだ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 2]
+[charaEffect H bit_talk_10_LowLevel]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠D：マシュ
+遺体……！[r]では、自分で蘇った、というのは……！？
+[k]
+
+[charaTalk B]
+[charaFace B 10]
+＠Dr.ロマン
+ああ。文字通り、体だけなら[r]死から蘇ったんだろう、あのソロモン王は。
+[k]
+
+＠Dr.ロマン
+その後、人理焼却の為の伏線として、[r]自分の手足となる魔神柱たちの種を撒き、
+[k]
+
+＠Dr.ロマン
+この特異点を作り上げ、2016年まで生き続けた。[r]ここでは時間の概念はあってないようなものだけどね。
+[k]
+
+？1：その、“体の中身”は……？
+？2：やっぱり……
+
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaPut H 1200,1200]
+[charaEffectStop H bit_talk_10_LowLevel]
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+ああ。その正体をボクたちは[r]イヤというほど味わっている。
+[k]
+
+＠Dr.ロマン
+分からないのはその理由だ。[r]どうして彼……いや、[#彼ら]はそんな目的を思いついたのか。
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+それがボクには、どうしても分からなかった。[r]だからここまで黙っていたけど、もう悩む必要もない。
+[k]
+
+＠Dr.ロマン
+だって、その答えは本人に直接訊けばいい。[r]さあ、もうじき時空断層だ。
+[k]
+
+＠Dr.ロマン
+そこを抜ければこの神殿の中心[line 3][r]至高の王と言われた男の玉座がある。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+カルデアからの通信……いや、[r]会話もこれが最後になる。
+[k]
+
+＠Dr.ロマン
+……だから、[r]今まで口に出来なかった質問をするよ。
+[k]
+
+＠Dr.ロマン
+マシュ。キミに悔いはなかったかい？[r]本当に、この結末で良かった？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaPut H 1]
+[charaEffect H bit_talk_10_LowLevel]
+[wt 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace D 6]
+[wt 0.7]
+
+[charaTalk D]
+[charaFace D 13]
+＠D：マシュ
+もちろんです、ドクター。[r]わたしは最後の一秒まで、自らの選択を良しとします。
+[k]
+
+？1：…………
+？2：…………マシュ
+
+？！
+
+[charaFadeout D 0.1]
+[charaPut H 1200,1200]
+[charaEffectStop H bit_talk_10_LowLevel]
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+……そうか。[r]では、その強さをソロモンに見せてやりたまえ。
+[k]
+
+[charaFace B 5]
+
+＠Dr.ロマン
+健闘を祈る、マスター・[%1]。
+[k]
+
+＠Dr.ロマン
+敵は魔術王ソロモン[line 3][r]これまで[#培:つちか]った全ての力で、この特異点を撃破しろ！
+[k]
+
+[messageOff]
+
+[wipeout sideBlind 0.7 1.0]
+[wait wipe]
+[cameraMove 0.1 0,0 1.3]
+[wait camera]
+[charaFadeout B 0.1]
+
+[scene 36900]
+[shake 0.05 4 4 0]
+[wipein sideBlind 0.7 1.5]
+[cameraMove 3.5 0,0 2.5]
+[se ad271]
+[effect bit_talk_41]
+[wait wipe]
+[wt 0.7]
+
+
+[fadeout white 2.0]
+[seStop ad271 2.0]
+[bgmStop BGM_BATTLE_32 2.0]
+[wait fade]
+[effectStop bit_talk_41]
+[shakeStop]
+[wait camera]
+[shakeStop]
+[soundStopAll]
+[end]

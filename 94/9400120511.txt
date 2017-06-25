@@ -1,0 +1,401 @@
+＄94-00-12-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98027800 1 黒鍵詰め合わせ]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 2001000 1 エミヤ]
+[charaSet F 2003001 1 ロビン]
+[charaSet G 2006001 1 ダビデ]
+[charaSet H 3005001 1 エリザベート]
+
+[scene 21232]
+[fadein black 2]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ロビン
+ごは[line 4]！？　なんてこった……[r]よく見たらライダーじゃないの、オタク……
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+杖で殴りかかってくるアーチャーがいるのだ。[r]プレゼント袋で戦うライダーがいてもよかろう。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ダビデ
+ははは。それを言われると反論できないな。[r]まあ、僕の宝具はそれなりにアーチャーだけどね？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠エミヤ
+……コホン。落ち着いたところでいいかな。[r]そのサンタライダーが、なぜ我々のところに？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+馬鹿者。ここに来たのは私用ではない。[r]「お願いサンタさん」レターを受け取ったからだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠エミヤ
+……なるほど。差出人はだいたい分かった。[r]大方、妻を喜ばせる宝石がほしい、といったところか。
+[k]
+
+＠エミヤ
+大人になってもサンタクロースに手紙を送るとは……[r]困った男だな、まったく。
+[k]
+
+[charaFace G 3]
+＠ダビデ
+ああ。まったく困った男だ。[r]夢見がちにも程がある。
+[k]
+
+＠エミヤ
+なに？　ダビデ王……その。[r]失礼だが、貴方ではない？
+[k]
+
+[charaFace G 0]
+＠ダビデ
+もちろん。[r]僕が頼りにするのは天の主だけだからね。
+[k]
+
+＠ダビデ
+そもそもサンタクロースとか怖いだろう？[r]見返りのない贈り物なんて、面倒くさいに決まっている。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+[wt 0.1]
+[wt 0.4]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠エミヤ
+私でもない、ダビデ王でもない。[r]となると[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ロビン
+はいはいオレですよ、オレでしたーっと！[r]ちょっとした気の迷いだったんですよ[line 2]！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+照れるな。サンタクロースは誰に対しても平等だ。[r]特にそこの緑はよく働いた。
+[k]
+
+＠サンタオルタ
+マスターを甘やかさず、陰から手助けして伸ばす方針は[r]称賛に値する。多少、あざといが。
+[k]
+
+[charaFace D 5]
+＠サンタオルタ
+一方、赤いのはマスターを甘やかししすぎだ。[r]試験日を迎えた学生の母親か、貴様は。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠エミヤ
+いや、そこは反論したい。[r]私は別に過保護という訳ではなく……
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+そんな貴様らへのプレゼントはこれだ。[r]ありがたく受け取るがいい。
+[k]
+
+[se ad77]
+[wt 0.6]
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 3]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout A 0.4]
+[charaTalk on]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ロビン
+って黒鍵詰め合わせかよ！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ダビデ
+うわあ、カッコイイ剣ですね！[r]（心のこもっていない歓び）
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+そう喜ぶな。本当のプレゼントは別に用意してある。[r]先ほど連絡しておいた故、じき届くだろう。
+[k]
+
+＠サンタオルタ
+ではさらばだ。[r]クリスマスなのだ、ケンカは程ほどにしておけ！
+[k]
+
+[se ad7]
+[charaFadeout D 0.1]
+[wait se ad7]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠エミヤ
+暴れるだけ暴れて帰ってくれたか。[r]気がつけば嵐も過ぎ去った。
+[k]
+
+＠エミヤ
+やれやれ。カルネアデスの板の逸話をなぞる必要も、[r]これでなくなったという事だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ダビデ
+え？　誰だい、カルネアデスの喩えなんて口にしたのは。[r]酷いヤツだ。そんな男は死罪にしよう。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk off]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠エミヤ／ロビン
+アンタだよ！[r]ウリヤの件から何も反省していないな！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ダビデ
+またまたー。いくら切迫した状況だったにしても、[r]そこまで空気を読めない男じゃないよ僕は。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠ロビン
+……やっぱコイツだけやっとくか？[r]その方がマスターのためになるぜ？
+[k]
+
+＠エミヤ
+……同感だな。教育上よろしくない。[r]ダビデ王はオケアノスに帰った事にしておこう。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ダビデ
+すまない、どうやら本当のようだね。[r]反省したので許してくれ。天の主もそう言っている。
+[k]
+
+[charaFace G 1]
+＠ダビデ
+それより、さっきの戦いを振り返ってみないかい？[r]負けはしたが僕らは中々の組み合わせだ。
+[k]
+
+[charaFace G 0]
+＠ダビデ
+全体攻撃宝具の無銘くん。[r]単体特化宝具の無名くん。
+[k]
+
+＠ダビデ
+そして自分が痛い目に合わないよう、ひたすら回避し[r]相手の得意技を積極的に封じる僕。
+[k]
+
+[charaFace G 1]
+＠ダビデ
+控えめにいってもボクたちは無敵じゃないかな？[r]今後とも仲良くするべきでは？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ロビン
+あー、そりゃあ確かに。[r]死角はねえんだよな、この組み合わせ。
+[k]
+
+＠エミヤ
+確かに。我々は最強ではないが最優のアーチャーだ。[r]それが三人揃っていれば、向かうところ敵な[line 3]
+[k]
+
+[se bac30]
+[wait se bac30]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[se ad7]
+[wt 0.3]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+
+＠エリザベート
+はあい、ご用と聞いて参上したわ！[r]ここがクリスマス特別ライブの会場ね！
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠エミヤ
+げぇ、ランサー！？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠エリザベート
+クライアントから、海の上だから思うぞんぶんに[r]歌っていいってお墨付きも貰ってるし……
+[k]
+
+＠エリザベート
+今夜は誰も逃がさないわよ！[r]オープニングナンバー、恋はドラクル、カッ飛ばすわ！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ロビン
+あ、これ終わりましたわ。[r]オレたち全員、全体宝具であの世いきですわー。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.7]
+[wipeout downToUp 0.5 3]
+[wait wipe]
+[charaFadeout F 0.1]
+[wt 0.5]
+[bgm BGM_EVENT_2 0.1]
+[scene 20322]
+[wipein upToDown 0.5 3]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+＠サンタオルタ
+地獄のデリバリーライブが始まったようだな。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+フッ。アーチャーどもめ、[r]カトンボのように落ちていくわ。
+[k]
+
+？1：お帰りなさい、サンタさん
+
+[charaFace D 3]
+＠サンタオルタ
+た、ただいま。仕事を終えたサンタを労うとは、[r]トナカイの何たるかが分かってきたようだな。
+[k]
+
+[charaFace D 0]
+
+？2：下で何かあった[&のか？:んですか？]
+
+[charaFace D 0]
+＠サンタオルタ
+なに、クリスマスに相応しいイベントを[r]送りつけてやっただけだ。
+[k]
+
+＠サンタオルタ
+サーヴァント界一のコメディアンが誰か、[r]などと知りたがっていたからな。
+[k]
+
+？！
+
+＠サンタオルタ
+ともあれ、これは寄り道だ。[r]次の「お願いサンタさん」の差出人は[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace D 5]
+＠サンタオルタ
+ウルク在住、ギルガメッシュ君、だと？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

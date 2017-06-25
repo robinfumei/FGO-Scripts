@@ -1,0 +1,467 @@
+＄01-00-06-22-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 1020000 1 ランスロット]
+
+
+[scene 28801]
+
+[backEffect bit_talk_haboob_02]
+
+[cameraMove 0 -150,0 1.5]
+[wait camera]
+
+[fadein black 2.0]
+[se ad134]
+[wait fade]
+
+[cameraMove 5.0 150,0 1.5]
+[wt 2.0]
+[seLoop ad135]
+[seStop ad134 0.2]
+[wait camera]
+
+[seStop ad135 2.0]
+[cameraHome 0.5]
+[wait camera]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……マスター。あのひときわ高い砂丘の向こうに、[r]複数のスフィンクスの影が見えます。
+[k]
+
+＠マシュ
+あの一帯を監視するように周回していますので、[r]目的の遺跡は目の前なのですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 7]
+[charaFace B 5]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠ベディヴィエール
+問題はスフィンクスですね。一頭ならともかく、[r]あれだけの数を相手にするのは無謀です。
+[k]
+
+＠ベディヴィエール
+他の侵入経路を探すしかありません。[r]この砂嵐の中ではそれも難しい話ですが……
+[k]
+
+[charaFace A 4]
+＠マシュ
+こういう時、ドクターのバックアップがあれば……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+じゃあこういうのはどう？[r]トータのお米で、一頭ずつ餌付けしていくの！
+[k]
+
+？1：なんという発想！　三蔵ちゃんは天才か？
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ベディヴィエール
+残念ながら、スフィンクスが栄養とするものは[r]霊的なものなので……
+[k]
+
+＠ベディヴィエール
+人間を襲っているのは栄養のためではなく、[r]彼らに定められた法に従っての事ではないかと……
+[k]
+
+[charaFace E 3]
+＠三蔵
+そうなんだ……ああ見えて菜食主義、いえ[r]霊食主義だったのね……太らなくていいわね……
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ。フォフォーウ。
+[k]
+
+
+？2：なんという発想……三蔵ちゃんはステイ
+
+[charaFace E 2]
+＠三蔵
+なんでよー！　[#隻手の声:むりなんだい]って訳でもないでしょー！？[r]あたしのサクセン、イケてると思うんですけどー！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ……フォウ……
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+美味い飯に国境はなし、拙者は中々の名案と[r]感じ入ったが……今回は諦めよ、三蔵。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace F 2]
+＠俵藤太
+馬の足音だ、武装した一団がこちらにやってくる！[r]この重圧、円卓の騎士と見た！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+前門の虎、後門の狼ってヤツね……[r][%1][&:さん]、どうする……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+……戦うしかありません。[r]ここは私が切り開きます！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace B 5]
+[charaFace F 5]
+[charaFadein B 0.1 2]
+[charaFadein F 0.1 0]
+
+＠俵藤太
+それは頼もしいが、良いのか！？[r]アーラシュの言葉を忘れた訳ではあるまい！
+[k]
+
+[charaFace B 2]
+＠ベディヴィエール
+……無論。ですがあれはアーラシュ殿、[r]ただ一つの見込み違いと断じましょう。
+[k]
+
+[charaFace B 0]
+＠ベディヴィエール
+この[#精神:いのち]あるかぎり、私は決して倒れない。[r]輝ける[#銀腕:アガートラム]あるかぎり！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……ベディヴィエールさん……[r]先輩、ベディヴィエール卿を円卓と戦わせるのは……
+[k]
+
+？1：……もちろん、その組み合わせは避ける
+？2：止めて、聞いてくれればいいけどね……
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+
+＠H：？？？
+追いついたか。[r]諸君らと事を構えるのはこれが三度目だ。
+[k]
+
+＠H：？？？
+一度目は聖都からの追撃。[r]二度目は山の民の村。
+[k]
+
+＠H：？？？
+いずれも叛逆者のリーダーと対面する事は叶わなかった。[r]だが、最後でようやく対面の機会を得た。
+[k]
+
+
+[se ad60]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠ランスロット
+円卓、遊撃騎士ランスロット。[r]王の命によりその身柄を拘束する。
+[k]
+
+＠ランスロット
+抵抗するのなら容赦はしない。[r]降伏か抗戦か[line 3]諸君らの信念に合わせよう。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 4]マスター。[r]わたし……あの人を、よく知っているような気が……
+[k]
+
+？1：……ああ、だろうね
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ、フォーウ……
+[k]
+
+？2：……え、そうなの？
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+降伏するつもりはありません。[r]ですが、戦いの前に問いただしたい事がある。
+[k]
+
+＠ベディヴィエール
+サー・ランスロット。[r]卿はいかなる理由で、今の王に仕えているのかと。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+[line 3]これは幻か、幻術か？[r]ベディヴィエール……ベディヴィエール卿なのか！？
+[k]
+
+[charaFace H 5]
+＠ランスロット
+馬鹿な、あり得ない！[r]貴方がこの場にいるなど、ある筈がない……！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+（……ねえ[%1][&:さん]。[r]　円卓の連中、みんなああだったの？）
+[k]
+
+[charaFace E 4]
+＠三蔵
+（ベディヴィエールが円卓から離反したからって、[r]　反応が過剰すぎない？）
+[k]
+
+？1：言われてみれば……
+？2：もしかして、他に理由がある……？
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+仮に私が幻であったとしても、[r]我が問いの真実は変わらない。
+[k]
+
+[charaFace B 5]
+＠ベディヴィエール
+答えよ、サー・ランスロット。[r]卿ほどの騎士が今の獅子王に仕える理由を。
+[k]
+
+＠ベディヴィエール
+ガウェイン卿は何であれ王を信じると言った。[r]モードレッド卿は王に逆らう事自体が不敬だと言った。
+[k]
+
+＠ベディヴィエール
+トリスタンは[line 3][r]王の采配を、慈悲ある行いだと断言した。
+[k]
+
+[charaFace B 2]
+＠ベディヴィエール
+貴方はどうだ。あの光を、人々の村を焼き滅ぼす愚行を、[r]アーサー王の所業だと語れるのか！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+[line 9]。
+[k]
+
+[charaFace H 7]
+＠ランスロット
+[line 3]総員、戦闘準備。[r]これより叛逆者たちを拘束する。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+ランスロット！　答えを聞かせなさい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+[line 3]断じて、あれが王の所業などと語れるものか！[r]私が剣を預けた者は騎士王だ、獅子王ではない！
+[k]
+
+[charaFace H 5]
+＠ランスロット
+だが、それと諸君らを捕らえる任務に関係はない！[r]申し開きは王の御前でするがいい！
+[k]
+
+[charaFace H 0]
+＠ランスロット
+もっとも、アグラヴェインが卿の参列を[r]許せば、の話だがな！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+……そこまで分かっていながら戦うのですね。
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[wt 0.6]
+[charaScale B 1.2]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad60]
+[charaFadein B 0.4 1]
+[wt 0.5]
+[seStop ad60]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace B 2]
+＠ベディヴィエール
+いいでしょう！[r]私も、貴方には言いたい事が山ほどあります！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaScale B 1.0]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+サー・ランスロット、抜剣！[r]すごい分からず屋です、なぜか分かります！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠三蔵
+ええ、王様が間違ってるって認めているのに[r]戦うとか、これはもう説法ものね！
+[k]
+
+[charaFace E 5]
+＠三蔵
+[%1][&:さん]、ベディのフォローをするわよ！[r]この流れなら勝てる気がしてきたわ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[backEffectStop]
+[soundStopAll]
+[end]

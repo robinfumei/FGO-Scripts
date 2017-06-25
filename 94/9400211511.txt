@@ -1,0 +1,146 @@
+＄94-00-21-15-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 0 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 2 メフィスト]
+[charaSet F 6018000 1 ヒロインＸ]
+[charaSet G 1028001 1 両儀式（セイバー）]
+
+[scene 22130]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ヒロインＸ
+不覚……よく見たらこのオリエンタルセイバーにも、[r]アルトリウムが発生していました……
+[k]
+
+[charaFace F 2]
+＠ヒロインＸ
+でもわたしは負けていませんから！[r]金髪のセイバー以外なら負けてもノーカンです！
+[k]
+
+＠ヒロインＸ
+ではまた、次に会うときは友人として！[r]おせちとかご馳走してくださいね！
+[k]
+
+[messageOff]
+[se ad55]
+[seStop ad55 1.5]
+[charaAttack F normal -250,0 0.4]
+[charaFadeout F 0.4]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+ヒロインＸさん、無事撤退されました。
+[k]
+
+＠マシュ
+宇宙船ごとマンションに[r]不時着されなくて良かったですね、先輩。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠G：両儀式
+私は残念。せっかくの、星を斬るチャンスだったのに。[r]次に会ったら、まずあのクセッ毛を斬り落とすわ。
+[k]
+
+？1：それはＸに死ねと言っているようなものだよ
+
+[charaFace G 1]
+＠G：両儀式
+ええ。だから、そういう意味よ？
+[k]
+
+？2：式にも生えているのね？
+
+[charaFace G 3]
+＠G：両儀式
+そうなの？　それなら、まあ……[r]斬ってしまうのはよくないコトね？
+[k]
+
+？！
+
+[charaFadeout G 0.1]
+
+[wt 0.4]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+あれ、なに？[r]ちょっとトイレ休憩してたんだけど、何かあった？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 1]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+以前話したヒロインＸさんが[r]いらしていたんですよ、ドクター。
+[k]
+
+＠マシュ
+式さんもまた違う式さんになられて……おや？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.4 1]
+＠両儀式
+あいたたた……タンスの角につま先を……
+[k]
+
+[charaFace D 0]
+＠両儀式
+ん？　なんだ、最後の部屋は無人か。[r]これであらかた調べ尽くしたな、[%1]。
+[k]
+
+[charaFace D 6]
+＠両儀式
+おつかれさん、おかげでオレのバイトも終わりだ。
+[k]
+
+＠両儀式
+苦情にあったサーヴァントは全員撤去させたし、[r]後は自由にマンションを探索していいぜ？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+だそうです。サーヴァント撤去、[r]おつかれさまでした先輩。
+[k]
+
+まだ時間はありますので、もう少し、[r]このマンションを探索してみるのはいかがでしょう？
+[k]
+
+[wt 0.2]
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

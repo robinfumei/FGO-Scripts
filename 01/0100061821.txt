@@ -1,0 +1,539 @@
+＄01-00-06-18-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98079000 1 ？？？]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 1012001 1 ベディヴィエール]
+[charaSet G 5022001 1 三蔵]
+[charaSet H 98002000 1 フォウ]
+
+[scene 29300]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.2]
+[effect bit_talk_14]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se bac10]
+[shake 0.05 2 4 0.3]
+[wait effect bit_talk_14]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+サーヴァント、無力化に成功しました！[r]霊基破壊、ギリギリで至っていません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+[line 3]ぁ[line 3][r]みなさん……ごめん、なさい[line 3]
+[k]
+
+[bgmStop BGM_EVENT_24 1.4]
+[charaFadeout E 0.7]
+[wt 0.5]
+[se ad58]
+[seStop ad58 0.5]
+[shake 0.05 2 2 0.2]
+[wt 1.2]
+
+＠？？？
+……生をもぎ取れ、とは言ったが。[r]どちらも取るとは、気の多い[&男:娘]よ。
+[k]
+
+＠？？？
+だが結果だけを見ると言ったのはこちらだ。[r]過程の善し悪しは問わぬ。[line 3]解なりや。
+[k]
+
+[charaSet C 98079000 1 “山の翁”]
+
+[messageOff]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 2.0 1]
+[wt 3.0]
+[bgm BGM_EVENT_1 0.1]
+＠“山の翁”
+よくぞ我が廟に参った。[r]山の翁、ハサン・サッバーハである。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+剣士……？[r]山の翁の初代が剣士、なんて……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いや、驚くのはそこじゃないマシュ[line 3][r]そのアサシンは[line 3]まさか、グラ[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+無粋な発言は控えよ、魔術師。[r]汝らの召喚者、その蛮勇の[#値:ね]を損なおう。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+[wt 0.2]
+[se ad28]
+[charaPut B -120,0]
+[charaEffect B bit_talk_37]
+[wait charaEffect B bit_talk_37]
+[se ad31]
+[seStop ad31 2.0]
+[communicationCharaClear]
+[wait communicationChara]
+
+
+＠Dr.ロマン
+あわわ、ごめんなさ[line 3]い！[r]あれ？　どうなってるんだ、映像がこないぞ！？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……初代様。[r]恥を承知でこの廟を訪れた事、お許しいただきたい。
+[k]
+
+＠呪腕のハサン
+この者たちは獅子王と戦う者。[r]されど王に届く牙があと一つ、足りませぬ。
+[k]
+
+＠呪腕のハサン
+どうか[line 3]どうかお力をお貸しいただきたい。[r]すべては我らが山の民の未来の為に。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠“山の翁”
+……二つ、間違えているな。[r]以前と変わらぬ浅慮さだ、呪腕。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……と、申しますと？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+魔術の徒に問う。[r]獅子王と戦う者[line 3]これは[#真:まこと]か？
+[k]
+
+＠“山の翁”
+汝らは神に堕ちた獅子王の首を求めている。[r]その言に間違いはないか？
+[k]
+
+？1：それは……
+？2：……正直、分からない
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+[%1]殿！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠三蔵
+うんうん。嘘いっても仕方ないものね。
+[k]
+
+＠三蔵
+だって顔も知らない相手は殺せないわ。[r]せいぜい文句を言うぐらいでしょ？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+[line 3]牙が一つ足りぬ、とも申したな。[r]果たして、あと一つで良いのか？
+[k]
+
+？1：それも……
+？2：……正直、ハサンたちじゃぜんぜん足りない
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+[%1]殿……！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠“山の翁”
+……魔術の徒よ。[r]汝らは、知らねばならぬ。
+[k]
+
+＠“山の翁”
+獅子王の真意。太陽王めの戯言。[r]人理の[#綻:ほころ]び。そして[line 3]すべての始まりを。
+[k]
+
+[charaFace C 0]
+＠“山の翁”
+それが叶った時、我が剣は[#戦:いくさ]の先陣を切ろう。[r]太陽の騎士、ガウェインと言ったか。
+[k]
+
+＠“山の翁”
+我が剣は[#猛禽:もうきん]となってあの者の目玉を[#啄:ついば]もう。[r]我が黒衣は夜となって聖都を呑み込もう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠三蔵
+ごめんなさい、ガイコツの偉い人！[r]言っている意味がぜんぜん分かりません！
+[k]
+
+＠三蔵
+もっと分かりやすく言って、分かりやすく！
+[k]
+
+？1：三蔵ちゃ[line 3]ん！？
+？2：せめてキングハサンとか！
+
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+マ、マスター、キングハサンというのも[r]どうかと思います……！
+[k]
+
+＠マシュ
+ほんと、これ以上失礼なことをしたら、[r]さしものキングハサンさんもご機嫌を損ねるかと……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+[line 3]良い。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+好きに呼ぶがよい。[r]我が名はもとより無名。[#拘:こだわ]りも、取り決めもない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+えっと……はい。そう言っていただけると、[r]わたしたちも助かるというか……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠三蔵
+呼びやすくて助かるわ！
+[k]
+
+[charaFace G 1]
+＠三蔵
+それで、えっと……何かを調べないと[r]力を貸してくれないって事よね？
+[k]
+
+＠三蔵
+あたしたちは何を調べればいいの？[r]何か手がかりぐらいあるのよね？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+[line 3]砂漠のただ中に異界あり。[r]汝らが求めるもの、すべてはその中に。
+[k]
+
+＠“山の翁”
+砂漠においてさえ太陽王めの手の届かぬ領域。[r]砂に埋もれし知識の[#蔵:くら][line 3]
+[k]
+
+＠“山の翁”
+その名を、アトラス院と言う。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+っ……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+魔術の徒よ。[r]人理焼却の因果を知る時だ。
+[k]
+
+＠“山の翁”
+それが叶った時、我は戦場に現れる。[r][line 3]天命を告げる剣として。
+[k]
+
+[charaFace C 2]
+[charaChange C 98079100 0 fade 0]
+＠“山の翁”
+では呪腕の翁よ。首を出せい。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFadein C 0.1 0]
+[wt 0.1]
+[charaFace D 0]
+[charaFadein D 0.4 2]
+＠呪腕のハサン
+……は。[r]呪腕のハサン、我が[#咎:とが]を受け入れまする。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+！？　お待ちください、なぜハサン殿の首を、[r]貴方が断ち切ろうというのです！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaSet C 98079000 1 “山の翁”]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+我が面は[#翁:おきな]の死。[r]我が剣は翁の裁き。
+[k]
+
+＠“山の翁”
+異邦の騎士。銀の腕の旅人よ。[r]我は山の翁にとっての山の翁。
+[k]
+
+＠“山の翁”
+[line 3]即ち。ハサンを殺すハサンなり。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+……！　では、貴方は[line 3]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+山の翁が膿み、堕落し、道を違えた時、[r]我はその前に現れる。
+[k]
+
+＠“山の翁”
+分かるか。[r]歴代の山の翁はみな、最期に我が面を見た。
+[k]
+
+＠“山の翁”
+ただの一人も、我が剣を[#免:まぬが]れた者はいない。[r]故に、我が面を見た者こそ真の翁であり[line 3]
+[k]
+
+＠“山の翁”
+その時代のハサンが我に救いを求めるという事は、[r]“己に翁の資格なし”と宣言するに等しい。
+[k]
+
+＠“山の翁”
+[line 3]翁の面を、剥奪されるのだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+では……それを承知で、貴方は我々を[r]ここに招き入れたのですか、ハサン殿！？
+[k]
+
+？1：そんな事だったら来なかった……！
+？2：それなら助けなんかいらない……！
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……………………。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠“山の翁”
+呪腕よ。[r]一時の同胞とは言え、己が運命を明かさなかったのか。
+[k]
+
+[charaFace C 2]
+[charaChange C 98079100 0 fade 0]
+＠“山の翁”
+やはり貴様は何も変わってはおらぬ。[r][#諦観:ていかん]も早すぎる。
+[k]
+
+＠“山の翁”
+……[#面:おもて]を上げよ、呪腕。[r]既に恥を晒した貴様に、上積みは赦されぬ。
+[k]
+
+＠“山の翁”
+この者たちと共に責務を果たせ。[r]それが成った時、貴様の首を断ち切ってやろう。
+[k]
+
+[charaFace D 0]
+＠呪腕のハサン
+……ありがたきお言葉。[r]山の翁の名にかけて、必ず。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaSet C 98079000 1 “山の翁”]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠“山の翁”
+アトラス院に急ぐがよい。[r]残された時間は少ない。
+[k]
+
+＠“山の翁”
+獅子王の槍が[#真の姿]に戻る前に聖地を[line 3][r]聖なるものを、返還するのだ。
+[k]
+
+[charaFadeout C 2.0]
+[wt 3.0]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+……………………。
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_1 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

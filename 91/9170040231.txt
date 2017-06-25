@@ -1,0 +1,145 @@
+＄91-70-04-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10915]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 7004001 1 フラン]
+[charaSet D 7004001 1 ヴィクター]
+[charaSet E 7004001 1 Ｅ・フラン]
+[charaSet F 98002000 1 フォウ]
+[charaTalk D]
+[charaShadow D true]
+[charaFace D 4]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠ヴィクター
+そんな……嘘だ。莫迦な、何かの間違いだ。[r]奇跡により私は命を授けられた。
+[k]
+
+＠ヴィクター
+ならば、私は奇跡を起こすべく再臨したのだろう？[r]そうだろう、そうだろう、そのはずだ……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaShadow D false]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠フラン
+……ちがう。[r]あなたは、ただ、たまたま、そこにいただけ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaShadow D true]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ヴィクター
+バカなことを言うな！[r]……よくも、そんな出鱈目を……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaShadow D false]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠フラン
+ただ、いきればよかったのに。[r]あいしたひとと、いっしょに。
+[k]
+
+＠フラン
+そうすれば、また、あうことも、なかったのに。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaShadow D true]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ヴィクター
+違う、嘘だ、嘘つきだ、私は選ばれた、
+[k]
+
+＠ヴィクター
+私はこの時代に選ばれた、大いなる特異点であり、[r]歴史を変革する存在として[line 2]
+[k]
+
+[charaFace D 4]
+＠ヴィクター
+……違う、の、か……？[r]……。
+[k]
+
+[messageOff]
+[se ba5]
+[charaSpecialEffect D darkEnemyErasure 0 1.5]
+[wait charaSpecialEffect D]
+[charaShadow D false]
+[wt 0.3]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.5]
+[scene 20701]
+[bgm BGM_EVENT_6 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+よし、お墓はこれで問題ありません。[r]では、彼らへの祈りを捧げましょう。
+[k]
+
+[charaFace A 8]
+＠マシュ
+……ジャンヌさんたちがいらっしゃれば、[r]もっときちんとしたお祈りをしていただけるのですが。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フラン
+……ゥ。
+[k]
+
+[charaFace C 0]
+＠フラン
+ます、たぁ。[r]さあ、いこう。
+[k]
+
+＠フラン
+じだいを、せかいを、すくいに。[r]……がんばる。
+[k]
+
+？1：ありがとう、フラン
+
+？2：期待してる、フラン
+
+？！
+
+[charaFace C 1]
+＠フラン
+……うん！
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,298 @@
+＄94-00-66-06-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103400 1 クロエ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4008001 1 黒髭]
+
+[scene 21501]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0,-50]
+
+＠黒髭
+おおっと、マジでここまで来やがったんですかー。[r]や[charaFace D 1]るじゃん、[%1]殿。
+[k]
+
+
+＠黒髭
+この黒髭をぶっ倒して四天王になりかわるってのも[r]アリかもだぜぇ？　ティウンティウンティウン……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+黒髭さん。あらためて確認ですが[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+あなたはこの件の首謀者の一人で[r]間違いはない、そうですね？
+[k]
+
+＠マシュ
+事態の収拾をつけるためにも、[r]ここで真相を明かしていただきます。
+[k]
+
+[charaFace A 5]
+＠マシュ
+罪無き少女を泣かせるような[#謀:はかりごと]であれば、[r]わたしも弁護側には立てませんから、そのつもりで！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1]
+
+＠黒髭
+優しい……[r]この期に及んで拙者を信じようとしてくれるとか……
+[k]
+
+[charaFace D 3]
+＠黒髭
+いいよねマシュ氏……なんかもう眩しくて……[r]拙者、そういうの興奮しちゃう……
+[k]
+
+
+＠黒髭
+拙者のようなクズの弁護とか……[charaFace D 1]もしかして[r]ダメ男にしか萌えないタイプだったり……するのかい？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………っ……！[r]ふざけないでください！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 5]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠クロエ
+待って、マシュ。
+[k]
+
+[charaFace B 4]
+＠クロエ
+もしかしたら、あれはあれで[r]真面目モードなんじゃない？
+[k]
+
+[charaFace A 6]
+＠マシュ
+えっ、そうなのですか。[r]す[charaFace A 8]、すみません……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1]
+
+＠黒髭
+おほっ、やはりクロ殿は女神だわー。[r]そんでもってマシュ氏は癒やしー。
+[k]
+
+[charaFace D 0]
+＠黒髭
+でまぁ、あんたらも女だ。ここでオジさんの独り言を[r]素直に聞いとくのも一聴の価値アリかもデスよ？
+[k]
+
+[charaFace D 1]
+＠黒髭
+なにね、男ってのは手に入っちまったお宝には[r]めっきり欲が失せるもんなのよ。
+[k]
+
+[charaFace D 5]
+＠黒髭
+でもなぁ、オレはとにかく面倒事は嫌ぇだからよ！[r]あんまり[#高嶺:たかね]の花すぎてもゲンナリするワケ！
+[k]
+
+[charaFace D 1]
+＠黒髭
+できる限り近くにあって、手が届きそうで届かない。[r]そういうお宝がいいんだわ……。
+[k]
+
+？1：それが黒髭の理想の魔法少女……？
+？！
+
+[charaFace D 5]
+＠黒髭
+……って思うじゃん！？[r]ヴァーカそれじゃ一生手に入らないっしょ！
+[k]
+
+[charaFace D 2]
+＠黒髭
+陵辱がナッシングでしょ！　なんかいいカンジに[r]関係を築いたところでガーッといきたいの海賊的に！
+[k]
+
+＠黒髭
+それでこそ最高のエンタメってもんでしょ！？[r]石橋を渡ってもつまんないンですよ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+あー、うん、なんか解る。[r]解りたくないけど。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+か、確認しますがマスター、[r]このやり取りは時間のシュレッダーですね？
+[k]
+
+？1：そうだよ
+
+[charaFace A 7]
+＠マシュ
+勉強になりました！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout C 0.1]
+
+
+？2：あれは変態紳士という名のただの海賊だよ
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠クロエ
+[#規範:ルール]の重んじられるマニア界隈でも、ここぞという場所で[r][#逸脱:いつだつ]し、[#簒奪:さんだつ]するのが海賊の性分ね。
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1]
+
+＠黒髭
+イエス！　愛しい魔法少女のハートに輝きを！[r]こちとらはいつも心に陵辱をってな！
+[k]
+
+？1：よし、深海に沈めよう
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、鉛の砲弾もくくり付けて！
+[k]
+
+[charaFace A 7]
+＠マシュ
+しっかり海底で反省したら[r]カルデアに戻ってきてください！
+[k]
+
+
+？2：よし、[#鱶:フカ]の餌にしよう
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+[#鱶:フカ]って、サメでしょ？[r]サメにだって食料選択の権利があると思うけど。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1]
+
+＠黒髭
+[#鮫:シャーク]の話とかしようぜ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+とにかく黒髭さんは[r]カルデアに連れて帰ります！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1]
+
+＠黒髭
+だ[line 2]め[line 2]で[line 2]す[line 2]、[r]拙者帰りませ[line 3]ん！
+[k]
+
+[charaFace D 3]
+＠黒髭
+だって黒髭は永遠のティーンエイジャー、[r]ネバーランドを征くキャプテンなのだからっ！
+[k]
+
+[charaFace D 1]
+＠黒髭
+そんな訳でほら、[r]諸君も楽しんで楽しんで！
+[k]
+
+[charaFace D 2]
+＠黒髭
+あともうちょびっとで最高の魔法少女が[#錨:いかり]を[r]上げて出航する、とか言ってみる[line 2]！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

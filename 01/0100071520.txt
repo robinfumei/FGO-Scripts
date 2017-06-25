@@ -1,0 +1,297 @@
+
+
+
+＄01-00-07-15-2-0
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet F 3027001 1 アナ]
+[charaSet G 98107500 1 ウルク門番]
+[charaSet H 3028000 1 ジャガーマン]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 32800]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk off]
+[charaFadein F 0.4 2]
+[charaFadein A 0.4 0]
+[wt 1.0]
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaFadein E 0.4 0]
+[charaFadein C 0.4 2]
+[wt 1.0]
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ウルク門番
+これはカルデアの皆さん。[r]もう北壁に出発なされるのですね。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はい。お祝いを開いてくれた皆さんとの名残はつきませんが、[r]今夜までに北壁に到着しないといけないので。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ウルク門番
+今夜まで！　それは確かに余裕がありませんね。[r]お引き留めして申し訳ありませんでした。
+[k]
+
+＠ウルク門番
+どうかお気を付けて。[r]イシュタル女神の加護あらんことを。
+[k]
+
+？1：門番さんもお元気で
+？2：（……その女神さま、となりにいるんですよ……）
+
+？！
+
+[charaFadeout G 0.4]
+[wt 0.1]
+
+[messageOff]
+[wipeout rightToLeft 0.7 1]
+[wait wipe]
+[wt 0.7]
+[charaTalk on]
+[messageOff]
+[wipein rightToLeft 0.7 1]
+[wait fade]
+
+[charaTalk F]
+[charaFadein F 0.4 1]
+[wt 1.0]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFadein F 0.1 2]
+
+＠ウルク門番
+っと、アナさんもお気を付けて。[r]ようやくお顔を見る事ができました。
+[k]
+
+＠ウルク門番
+たいへん愛らしいと思います。[r]改めて、私の記憶力は役得だと思いました。（ニッコリ）
+[k]
+
+[charaFace F 3]
+
+
+＠アナ
+……門番さんはもう少し緊張感をお持ちください。[r]そんな事では有事の際に不覚をとります。
+[k]
+
+[charaFace F 1]
+＠アナ
+もっとも、私たちが北壁に行く以上、[r]ここに魔獣が来る事はないのですが。
+[k]
+
+
+＠ウルク門番
+そうでしょうとも。[r]いつも通り、お帰りをお待ちしております。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[scene 20730]
+[wt 2.0]
+[seLoop ad84]
+[shake 0.01 0 2 0]
+[fadein black 1.5]
+[wait fade]
+
+[seStop ad84 3.0]
+[wt 2.0]
+[shakeStop]
+[wt 1.0]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠マシュ
+というか馬車です！　馬車に乗っています！[r]ここにきて、掟破りの馬車の登場です！
+[k]
+
+＠マシュ
+マーリンさん、これは！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+そりゃあ魔術で召喚したのさ！[r]北壁まで徒歩で半日、はちょっと厳しいからね！
+[k]
+
+？1：もっと早くに呼んでほしかった！
+
+？！
+
+＠マーリン
+そこはそれ、その時代にそぐわないものを[r]おいそれと使う訳にはいかないだろう！？
+[k]
+
+＠マーリン
+さあ飛ばすぞ、荷台に掴まっていたまえ！
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.1]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+
+[bgmStop BGM_EVENT_4 1.5]
+＠H：？？？
+はははははははははははは！[r]それはちょっとタイム、前方不注意だ諸君！
+[k]
+
+＠H：？？？
+こんにちは、前を見なさい！　おもに３キロ先！[r]地元の愚連隊の皆さんがオマエたちを狙っている！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠H：？？？
+なんで数キロメートル先の事が分かるのかって？[r]それは私が上空から皆さんを見ているからだニャー！
+[k]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+マスター！[r]どこからともなく響くこの声は……！
+[k]
+
+？1：鳥だ！
+？2：飛鳥船だ！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+いいえ、腐ったジャガーの魂デース！[r]あのコンコンチキ、いま私たちに追い越されましター！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+＠ジャガーマン
+ククルんの翼竜たちが遅いんだっつーの！[r]あ、[messageShake 0.01 5 5 0.4]いた、いたた、クチバシやめてクチバシ、
+[k]
+
+＠ジャガーマン
+分かってるニャ、キミたちも頑張っている。[r]ここまでまる四日間、マジで休みニャしとか辛いよね。
+[k]
+
+＠ジャガーマン
+でももう少し頑張って！　明日までに納品しないと、[r]王さまからの報酬が半減セールなんだなこれが！
+[k]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+おーおー、運んでる運んでる！[r]翼竜三百頭による空中輸送とか、ちょっとした見物ね！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+同感だが目の前の危機にも注目してほしいな！[r]この通り、急造の馬車だから襲われてはひとたまりもない！
+[k]
+
+＠マーリン
+空を飛べるキミの出番だイシュタル！[r]ササッと障害を排除してくれないか！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 1]
+[wt 0.3]
+
+
+＠Dr.ロマン
+ははは。となりのダ・ヴィンチちゃんが
+[k]
+
+＠Dr.ロマン
+“しょせんマーリンは義手だけの男。私のバステニャン三号[r][f small]  [f -]ならロケット砲でイチコロなのにな～”
+[k]
+
+＠Dr.ロマン
+と口をとがらせて拗ねているけど、[r]まあどうでもいい事だよね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+オッケー、任せて！　盗賊相手なら容赦はなし、[r]情け無用の絨毯爆撃をお見舞いしてあげましょう！
+[k]
+
+
+[messageOff]
+[seStop ad84 0.1]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

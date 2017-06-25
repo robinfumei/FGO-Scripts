@@ -1,0 +1,251 @@
+
+＄94-00-58-15-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 4024000 1 モードレッド]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+
+
+
+？1：こうなることは予想できていた……
+？2：スイカとくれば……
+？！
+
+＠マシュ
+はい、先輩。[r]予想してしかるべきでしたね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+右だ！　いや左だ！　というか斜め前かも[r]しれないし上かもしれない！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+フッ。そのようなものに惑わされる私と思ったか。[r][line 2]ここだ。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[effect bit_talk_12]
+[shake 0.05 0 4 0.5]
+[se bac95]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+くそっ、百発百中……！　さすがは武芸を極めた[r]影の国の女王。スイカ割りもお手の物ってわけか！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+そのスイカ割りというものの噂は聞いていたのでな。[r]一度試してみたいと思っていたのだが[line 2]こんなものか。
+[k]
+
+[charaFace C 0]
+＠スカサハ
+あまり鍛錬には役立たんかもな……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠アルトリア
+待っていただこうスカサハ殿。[r]ここからは私も本気を出します。
+[k]
+
+＠アルトリア
+今までの勝負で勝ったとは思わないでいただきたい。
+[k]
+
+[charaFace C 1]
+＠スカサハ
+ほう？　よかろう、お手並み拝見といこう。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+（父上……スゲェ気合いだ！　木刀を持って、すり足で[r]　近付いて[line 2]）
+[k]
+
+＠モードレッド
+あ。も、もうちょっと左……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+黙りなさい。シャラップ。気が散ります。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+うぐ。ふ、ふん！　せっかく教えて、いや適当なこと[r]言って惑わせてやろうと思ったのによ！　余裕ねぇな！
+[k]
+
+[charaFadeout D 0.1]
+
+？1：（確かにズレてるんだけどいいのかな……）
+？2：（左！　もっと左ー！）
+？！
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+見えた！　ここです！　はぁっ[line 2]
+[k]
+
+＠アルトリア
+[fontSize x-large]魔　力　放　出！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[se bac37]
+[shake 0.05 0 4 1.5]
+[wait se bac37]
+[wt 0.5]
+
+
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+す、凄まじい魔力放出スキルの余波で[line 2][r]周りが適当に吹き飛びましたっ！
+[k]
+
+
+
+＠マシュ
+勿論スイカは割れています、が……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+……（溜め息）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+……（にやり）
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+う、うおお……見てるかマスター、[r]あの『してやったり』な顔！　
+[k]
+
+＠モードレッド
+すげー！　大人げねぇー！　負けず嫌いにも程があるー！[r]や、やっぱり父上はスゲェな！
+[k]
+
+[charaFace D 1]
+＠モードレッド
+ハッ。そうだ、こうしちゃいられねぇ！
+[k]
+
+＠モードレッド
+待った待った、オレももう一回やるー！[r]魔力放出するー！　
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad132]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……せんぱい。どうぞ、たった今飛んできた[r]新鮮なスイカの破片です。
+[k]
+
+
+？1：……美味しいね……
+？！
+
+[charaFace A 12]
+
+＠マシュ
+はい、とっても。食べ物を粗末にしてはいけませんので、[r]今晩の夕食はスイカだけになりそうですね……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

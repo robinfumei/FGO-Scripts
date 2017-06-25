@@ -1,0 +1,421 @@
+＄01-00-06-25-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet D 1020000 1 ランスロット]
+[charaSet E 98080000 1 セルハン]
+
+[charaSet G 98002000 1 フォウ]
+[charaSet H 98003000 1 Dr.ロマン]
+
+[scene 30300]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ダ・ヴィンチ
+おや、再会のハグはなし？　なしかな？[r]むぅー、残念。期待してたんだけどナー。
+[k]
+
+[charaFace C 2]
+＠ダ・ヴィンチ
+まあそこはそれ、[r]人前なので恥ずかしがっていると思いましょう！
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+なにしろ君の喜び様は一目で分かるからね。[r]でも、そんなに口を開けているとアゴが外れてしまうよ？
+[k]
+
+
+？1：開いた口が塞がらないだけです！
+？2：この口調、本物のダ・ヴィンチちゃんだ……！
+
+？！
+
+[messageOff]
+[charaFadeout C 0.1]
+
+
+[charaTalk H]
+[se ad13]
+[communicationChara 98003003 1 5 0 1]
+[wt 0.5]
+
+＠Dr.ロマン
+あ。良かった、ようやく繋がった。[r]砂漠地帯から戻ってきたようだね。
+[k]
+
+＠Dr.ロマン
+無事で何よりだ。ダ・ヴィンチちゃんの姿も見えるし。[r]うん、世はすべて事もなし[line 3]
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+ってなぁにぃぃいいいいいいい！？[r]ダ・ヴィンチちゃんだとぉぅぅぅうううう！？
+[k]
+
+＠Dr.ロマン
+あんなに綺麗に爆散しておいて[r]生きていたというのかぁぁぁああああああ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[communicationCharaLoop 98003003 0 5 0 2]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+
+＠ダ・ヴィンチ
+やあロマニ、見苦しいリアクションありがとう！
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+帰ったら私の新技、[r]アストロノーツホームランを試させてくれたまえ！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+……なんてね。まあ、それぐらいは許容範囲。[r]ボクは別にどうってコトなかったけどね。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+[%1][&君:ちゃん]とマシュが[r]悲しむから、空気を読んで付き合っていただけさ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+別にレオナルドがいなくなったって、[r]ボクがものすごく困るだけだし。別にね。
+[k]
+
+[charaFace C 1]
+＠ダ・ヴィンチ
+やだこの人キモい。男の強がりは可愛くないぞ？[r]三十過ぎの独身男のは特に。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+強がってないですぅー！[r]人手が戻ってきて嬉しいだけですぅー！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+それより、どうやって生き延びたんだい？[r]その杖が爆発したんだろ？
+[k]
+
+＠Dr.ロマン
+どう考えても助かるとは思えなかったけど。
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+ああ、そこは私も予想外の展開だった。
+[k]
+
+＠ダ・ヴィンチ
+私だって杖を頭上に放り投げて、[r]せめて即死はさけようとしたんだが……
+[k]
+
+[charaFace C 4]
+＠ダ・ヴィンチ
+まさか、敵の先頭を走っていた騎士が突進してきて、[r]あろう事か私を[#庇:かば]ったなんて話、信じるかい？
+[k]
+
+[charaFadeout C 0.1]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+………………。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠マシュ
+ランスロット卿が[r]ダ・ヴィンチちゃんを助けてくれたんですか！？
+[k]
+
+＠ランスロット
+いやぁ……。[r]遠目に見ても美女だったので、とっさに。
+[k]
+
+[charaFace A 7]
+＠マシュ
+[line 3]なにを言っているんですか？
+[k]
+
+[charaFace A 5]
+＠マシュ
+もう一度言いますよ、なにを言っているんですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠フォウ
+フォウ……
+[k]
+
+[charaFace B 10]
+＠ベディヴィエール
+ははは、それはランスロットらしい。[r]美女であれば見境なしですものね、貴方は。
+[k]
+
+
+？1：これが……円卓ギャグ……！
+？2：うん……ギャラハッドの気持ちも分かる……
+
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[wt 0.1]
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+そうだね………ギャラハッドの気持ちも……
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+って[%1][&君:ちゃん]、マシュと融合した[r]英霊の真名が分かったのかい！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[communicationCharaLoop 98003003 0 5 0 2]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+
+＠マシュ
+はい。アトラス院でホー……[r]ホームラン級の当たりを引きまして。
+[k]
+
+＠マシュ
+私に力を委ねてくれた英霊の真名も、[r]獅子王の聖槍の正体も判明しました。
+[k]
+
+[charaFace A 0]
+＠マシュ
+聖槍についての情報は今からお送りします。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+そっか、それは良かった。[r]ではレポートを頼むよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（……先輩。ミスター・ホームズの頼みでしたから、[r]　ドクターにはカルデアを調べた事は黙っておきますね）
+[k]
+
+[messageOff]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0 -900,0]
+
+[se ad60]
+[charaMove A 2 0.5]
+[charaMove C 0 0.5]
+[wait charaMove]
+[seStop ad60]
+
+＠ダ・ヴィンチ
+ほう、聖槍の正体！[r]それは面白そうだ！
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+というか、これまでの経緯を知りたいな。[r]私はここから動けなかったのでね。
+[k]
+
+＠ダ・ヴィンチ
+実のところ、こうして立ち上がれるようになったのは[r]つい先日だ。それまでは寝たきりだったのさ。
+[k]
+
+[charaFace C 1]
+＠ダ・ヴィンチ
+まあ、君たちがどんな活躍をしてきたかは[r]そこの彼から聞いていたけどね。
+[k]
+
+[charaFace A 6]
+＠マシュ
+そこの彼……？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠セルハン
+オレだよ、姉ちゃん。[r]前に一度会ってるだろう？
+[k]
+
+？1：正門にいた盗賊団……！
+
+[charaFace E 1]
+＠セルハン
+そういうこった。[r]あの時は世話になったな、[&兄さん:娘さん]。
+[k]
+
+？2：心をなくした人々……！
+
+[charaFace E 2]
+＠セルハン
+なくしてねーよ！[r]あるだろ、目に理性が！　＄マークの！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace E 0]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ダ・ヴィンチ
+セルハン氏は私たちとは別方向に逃げた難民たちを[r]指揮して逃走させた、一流の盗賊だ。
+[k]
+
+＠ダ・ヴィンチ
+その後、これ以上は面倒みきれない、と難民たちを[r]ここに押しつけにきてねぇ。
+[k]
+
+[charaFace C 1]
+＠ダ・ヴィンチ
+それ以来、荒野の情勢を探ってもらっていたんだよ。[r][#二束三文:にそくさんもん]の重労働というヤツさ。
+[k]
+
+[charaFace E 4]
+＠セルハン
+まったく、こっちはいい迷惑だったがね。
+[k]
+
+[charaFace E 0]
+＠セルハン
+だがまあ、ダ・ヴィンチ女史の知恵には代えられない。[r]荒野において女史の技術は最高級の商品だ。
+[k]
+
+[charaFace E 5]
+＠セルハン
+水源を見つけて井戸を掘るまで一日とか、[r]救いの女神かってんだよ、まったく。
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+この通り、寝たきりでも出来る事はあった訳さ。[r]でも、そんな安楽椅子探偵業も今日までだ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+まずは軽いウォーミングアップ、[r]そして気軽なトレーニングといこう！
+[k]
+
+＠ダ・ヴィンチ
+キミたちがどれほど逞しくなったか、[r]そして私がどれほど回復したか、
+[k]
+
+[charaFace C 1]
+＠ダ・ヴィンチ
+ちょこ～っと、バトルで試してみよう！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+なぜそこでバトル！？[r]先輩、ダ・ヴィンチちゃんがおかしいです！
+[k]
+
+？1：うん、まあ元から……
+？2：いいだろう、かかってこい！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+はっはっは！[r]それでこそだ[%1][&君:ちゃん]！
+[k]
+
+[charaFace C 5]
+＠ダ・ヴィンチ
+では、戦いながら聖槍の話を聞かせてもらおう！[r]獅子王が何を目指しているか、私に聞かせてくれたまえ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

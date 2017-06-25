@@ -1,0 +1,224 @@
+
+＄94-00-45-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+
+
+[scene 28100]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+
+＠牛若丸
+なんだ、あっけない。[r]鬼とはいえ、首を斬れば首は落ちるものなのですね。
+[k]
+
+
+
+[charaTalk C]
+
+＠フォウ
+フォ[line 2]ウ……
+[k]
+
+
+[charaTalk D]
+[charaFace D 0]
+
+＠牛若丸
+とはいえ、尋常ならざる相手であったのは事実。
+[k]
+
+＠牛若丸
+鬼とは人より遙かに強い力を持ち、人より遙かに[r]強い欲にて動く、あさましき悪の化生。
+[k]
+
+＠牛若丸
+数が少ないのが幸いしましたね。[r]しかし、問題は[line 2]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……はい。いよいよもって、[r]この島の異常さが明らかになりました。
+[k]
+
+＠マシュ
+お[#伽噺:とぎばなし]からそのまま抜け出てきたような島の形。[r]そして、そこに実際の脅威として存在する鬼。
+[k]
+
+＠マシュ
+これらの情報から判断するに、ここは[line 2]
+[k]
+
+？1：ひょっとして……鬼ヶ島？
+？2：やっぱり……鬼ヶ島？
+
+？！
+
+＠マシュ
+はい。そう考えるのが妥当かと。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.2]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+
+＠Dr.ロマン
+どうりで今までの特異点とデータが一致しない筈だ。[r]信じられないけど、本当におとぎ話の世界らしい。
+[k]
+
+＠Dr.ロマン
+サーヴァントとしての鬼種ならともかく、こんなふうに、[r][#ただの鬼]が生息しているのがその証拠だ。
+[k]
+
+＠Dr.ロマン
+言うまでもないけれど、[r]こんな島が日本近海にあったなんて記録はない。
+[k]
+
+＠Dr.ロマン
+時代座標もその島だけあやふやだしね。[r]いや、それは前の平安京も似たようなものだったけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウフォウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+はい。私もこんな島の存在は知りません。[r]兄上の時代には無いものでしょう。
+[k]
+
+＠牛若丸
+……勿体ない……こんな面白い形の島があったら、[r]今度こそ兄上に喜んでもらえるでしょうに……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.2]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+うん。存在しない筈のものがある。[r]あってはならない空想が具現化している。
+[k]
+
+＠Dr.ロマン
+この島も異変の一部だ。[r]つまり、[#造られた可能性がある]。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[communicationCharaLoop 98003003 0 5 0 5]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+＠マシュ
+こんな規模の島を、ですか……？
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+意外なことでもないさ。[r]神話的に、日本はもともと神に造られた島な訳だし。
+[k]
+
+＠Dr.ロマン
+天沼矛の逸話は知っているかい？[r]国産み、島産みの権能ってヤツさ。
+[k]
+
+＠Dr.ロマン
+まあ、そのあたりの話はまた今度。
+[k]
+
+＠Dr.ロマン
+そこは人類史には語られていても、[r]『歴史にはなかった島』だ。
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+
+＠マシュ
+お[#伽噺:とぎばなし]を、空想を、現実に作り上げた……[r]というコトですか？
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+そう。この島を造り上げた何者かは、[r]それほどの力を持っているという事さ。
+[k]
+
+[communicationCharaClear]
+[charaFadeout A 0.1]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+本来は在りえざる島を造る……[r]確かに、人の所業ではありません。
+[k]
+
+＠牛若丸
+兄上でも難しいでしょう。政治的に。[r]となると……やはり、此度の敵は。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+鬼に鬼ヶ島ときたら、[r]もう答えは見えているようなものだけどね。
+[k]
+
+＠Dr.ロマン
+でも結論を出すにはまだ早い。[r]これから充分に気をつけて調査を進めてくれ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。[r]油断せずにいきましょう、マスター。
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

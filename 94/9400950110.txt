@@ -1,0 +1,600 @@
+
+＄94-00-95-01-1-0
+
+
+
+[charaSet A 1017001 1 武蔵]
+[charaSet B 98110000 1 ？？？]
+[charaSet C 98075000 1 鬼壱]
+[charaSet D 98075000 1 鬼弐]
+
+[soundStopAll]
+
+
+[scene 10000]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad12]
+[effect bit_talk_07]
+[wait effect]
+
+[bgm BGM_EVENT_5 0.1]
+[effect bit_talk_kengekiall01]
+[wt 0.2]
+[se bac136]
+[wt 0.3]
+[se ad170]
+[wt 1.2]
+
+[scene 37300 2.0]
+[wait scene]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 4 0 1.0]
+＠A：？？？
+なんとぉ[line 4]！
+[k]
+
+[messageOff]
+
+[charaTalk off]
+
+[charaFace A 5]
+[effect bit_talk_12_yellow_R -96,0]
+[charaMove A 96,0 0.1]
+[se bac23]
+
+[charaMove A 224,20 0.1]
+[se bac1]
+[wait charaMove A]
+[charaMove A 2 0.1]
+[wait charaMove A]
+[wt 0.4]
+
+[effectStop bit_talk_12_yellow_R]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 0]
+[se ad173]
+[seVolume ad173 0 0.1]
+[charaFadein B 2.0 0]
+[seVolume ad173 2.0 0.9]
+[wt 2.4]
+[seStop ad173 0.1]
+＠？？？
+…………。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠A：？？？
+待った、ちょっと待った！[r]今の卑怯じゃない！？　いつ抜刀したか分からなすぎ！
+[k]
+
+[charaFace A 2]
+＠A：？？？
+[#止:や]めてよね、見えているのに見えない抜き打ちとか！[r]刀を[#箸:はし]か何かだと思っているの！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+[#身体:しんたい]に力の起こりなし。[r]我が剣生において無二の、[#自然無想:じねんむそう]による一の太刀。
+[k]
+
+[charaFace B 0]
+＠？？？
+それを[#既:すんで]の所で流された。[r][#天下一の剣豪]など、作り話と意に介していなかったが[line 3]
+[k]
+
+＠？？？
+……これは斬らねばならぬ。[r]何としても、斬らねばならぬ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠A：？？？
+待て、待て待て、待って[line 3]！[r]イヤだってば！　私、勝てない試合とかしないから！
+[k]
+
+[charaFace A 5]
+＠A：？？？
+そもそも詐欺よ、[#悪辣:あくらつ]よ、[#狡猾:こうかつ]よ！[r]何が『名前だけ、お[#飾:かざ]りの[#江戸柳生:えどやぎゅう]』よ！
+[k]
+
+[charaFace A 2]
+＠A：？？？
+貴方、とっくに剣神に達しているじゃない！[r]お遊戯のオトメ流、なんて風評に[#騙:だま]されたわ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+……無論。我が術は天下人にのみ伝えるもの。[r]故に、下々の者の目に触れさせぬ[#御留:おとめ]流。
+[k]
+
+[charaFace B 0]
+＠？？？
+その私に、このような辻斬りまがいを誘った[r]貴様の剣気を呪うがよい。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠A：？？？
+っ……そりゃあ、私も[#鯉口:こいくち]で誘っちゃった手前、[r]文句は言えないけど！　いいえ、言うけど！
+[k]
+
+[charaFace A 2]
+＠A：？？？
+ここまで実力差があるんだから、私みたいな風来坊の[r]挑発なんて余裕で流すのが士官様でしょう！？
+[k]
+
+＠A：？？？
+なのにいきなり斬りかかってきたばかりか、[r]打ち込める気配が微塵もないじゃない！
+[k]
+
+＠A：？？？
+ずるい！　弱い者いじめ、駄目！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+…………。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠A：？？？
+（……って、何を言っても無駄ね、あれ。[r]　この爺さま、今までの相手とは格が違う）
+[k]
+
+[charaFace A 0]
+＠A：？？？
+（見えないし、勝てない。[r]　これは私もいよいよ年貢の納め時……ん？）
+[k]
+
+[se ad12]
+[seStop ad12 1.4]
+[seLoop ad14]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+……む。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠A：？？？
+やった！　いつものアレだ！[r]ありがとう、観音さま！
+[k]
+
+[charaFace A 0]
+＠A：？？？
+天運あらば逃げるが上策！[r]悪いけど勝負はここまでよ、柳生の誰か！
+[k]
+
+[charaFace A 0]
+＠A：？？？
+二度とちょっかい出さないから、[r]私の事は忘れるよーに！　とう！
+[k]
+
+[charaMove A 1024,128 0.1]
+[se bac1]
+[wait charaMove A]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+[line 6]
+[k]
+
+[bgmStop BGM_EVENT_5 2.0]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[wt 0.1]
+[charaMove A 6 0.4]
+
+[se bac136]
+[wt 0.3]
+[effect bit_talk_14 256,32]
+[se ad170]
+[charaMove A 1024,128 0.1]
+[wait charaMove A]
+[charaFadeout A 0.1]
+[wt 1.2]
+
+＠A：？？？
+くあぁ、効いたぁ～～～～ッ！[r]頭が[#眩々:くらくら]するぅ～～～～！
+[k]
+
+[seStop ad14 0 2.0]
+
+[messageOff]
+
+[wt 2.0]
+
+[effectStop bit_talk_14]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+[se ad173]
+[seStop ad173 1.0]
+[wt 1.0]
+[se ad115]
+[seVolume ad115 0 0.3]
+＠？？？
+……消えたか。[r]剣術だけではなく妖術にまで精通しているとは。
+[k]
+
+[charaFace B 0]
+＠？？？
+手応えはあったが、[#頭蓋:ずがい]を割るには至らなんだ。[r]……我が秘伝を受け、二度までも生き延びる[line 3]
+[k]
+
+[charaFace B 0]
+＠？？？
+[#新免武蔵守藤原玄信:しんめんむさしのかみふじわらのはるのぶ]。[r]その名、決して忘れぬぞ。
+[k]
+
+[messageOff]
+
+[charaFadeout B 0.7]
+[wt 1.0]
+
+[scene 10000 2.0]
+[wait scene]
+
+[effect bit_talk_07]
+[se ad12]
+[wait effect]
+
+[se ad37]
+[seVolume ad37 0 0.2]
+
+[fadeout white 1.0]
+[wait fade]
+
+[scene 28100]
+
+[fadein white 4.0]
+[wait fade]
+
+[seVolume ad37 0 0.2]
+[wt 2.0]
+
+？1：……あれ……
+？2：……ここは……
+
+？！
+
+[wt 0.1]
+
+[seVolume ad37 0 0.5]
+[wt 2.0]
+
+？1：……どこか、見覚えが……？
+？2：……あるような、ないような……？
+
+？！
+
+[seVolume ad37 0 0.9]
+[wt 2.0]
+
+＠A：？？？
+……うーん……う[line 4]ん…………[r]ううぅう[line 5]ん……頭がいた[line 3]い……
+[k]
+
+？1：誰か倒れている！
+？2：しっかり！
+
+？！
+
+[seStop ad37 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠A：？？？
+[line 3]！[r]何の、まだまだ……！
+[k]
+
+[messageOff]
+
+
+[charaMove A 0,-20 0.1]
+[se bac23]
+[wt 0.5]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[se ad37]
+[seVolume ad37 0 0.5]
+
+[charaFace A 5]
+＠A：？？？
+[line 3]って、あれ？[charaMove A 1 0.2][r]君、だれ？　あの[#怖:おっそ]ろしい爺さまは？
+[k]
+
+？1：……あと少しで斬られるところだった……
+
+[charaFace A 5]
+＠A：？？？
+そこはごめんなさい。事情を説明してくれたら[r]いくらでも謝るわ。うどんだって[#奢:おご]ります。
+[k]
+
+[charaFace A 5]
+＠A：？？？
+でも、その前に[line 3]
+[k]
+
+？2：……そっちこそ、誰です？
+
+[charaFace A 5]
+＠A：？？？
+質問をしたのは私が先よ。[r]おかしな格好して、んー、見たところ異国の人？
+[k]
+
+[charaFace A 5]
+＠A：？？？
+とにかく[line 3]
+[k]
+
+？！
+
+[charaFace A 5]
+＠A：？？？
+見知らぬ異邦人のキミ！[r]名前を名乗る前に、答えてもらわねばなりません！
+[k]
+
+[charaFace A 5]
+＠A：？？？
+私がいったい誰なのか！[r]そしてここは何処なのか、を！
+[k]
+
+？1：…………もしかして、記憶喪失？
+
+？！
+
+[seStop ad37 4.0]
+[bgm BGM_EVENT_7 2.0]
+
+[charaFace A 0]
+＠A：？？？
+ええ、どうやらそうみたいね。[r]たぶん頭を強く打って、ころっと素性を忘れたんでしょう。
+[k]
+
+[charaFace A 0]
+＠A：？？？
+なので私の名前を教えてくれると助かるわ。[r]あ、でも知らなかったらそれはそれで結構よ。
+[k]
+
+[charaFace A 0]
+＠A：？？？
+近場の茶屋にでも案内してもらえれば、[r]後は自分で何とかするから。
+[k]
+
+[charaFace A 0]
+＠A：？？？
+で、どう？　私の名前、知ってる？[r]それと、このあたりの事情に詳しい？
+[k]
+
+？1：……すみません……
+？2：どちらも知りません……
+
+？！
+
+[charaFace A 4]
+＠A：？？？
+そっかぁ……うん、なら仕方がない。[r]そういう事もあるでしょう。
+[k]
+
+[charaFace A 0]
+＠A：？？？
+無理を言ってごめんなさい。[r]それじゃ、改めて自己紹介、どうぞ。
+[k]
+
+[charaFace A 0]
+＠A：？？？
+君の名前は？　私の[#記憶:コト]はどうでもいいけど、[r]知り合った人を“おまえ”とか呼べないでしょ？
+[k]
+
+？1：[%1]です
+
+？！
+
+[charaFace A 0]
+＠A：？？？
+[%1][&君:]ね。[r]さっきは斬りかかってしまってごめんなさい。
+[k]
+
+[charaFace A 0]
+＠A：？？？
+気絶していた私を起こしてくれたんでしょう？[r]見たところ何も盗られてはいないようだし……
+[k]
+
+[charaFace A 7]
+＠A：？？？
+私、今回も天運に恵まれているわ。[r]君みたいな可愛い[line 3]いえ、
+[k]
+
+[charaFace A 1]
+＠A：？？？
+性根の清い、優しい人に起こされるなんて。
+[k]
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.7]
+
+[bgm BGM_EVENT_3 0.4]
+
+
+＠鬼弐
+げえっげえっげえっ！[r]新年早々コイツはついてるぜぇ！
+[k]
+
+＠鬼弐
+おう相棒、こっちに人間が流れてきたぞー！[r]しかも二人もいるぜぇ！
+[k]
+
+[charaFace A 5]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠鬼弐
+旨そうな肉に上等な着物だ！[r]おまけに[#鞘:さや]付きの刀も持ってやがる！
+[k]
+
+＠鬼弐
+そっちの[&男:女]は……なんだ、シケてやがんな。[r]着物も刀も持ってねえ！
+[k]
+
+＠鬼弐
+だが労働力には持ってこいだ！[r]捕まえて飯炊き[&男:女]にするかぁ！
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠鬼壱
+……悪くはない。[r]我らもそろそろ上を目指していい頃合いだ。
+[k]
+
+＠鬼壱
+人間を奴隷にしてこそ一丁前の鬼というもの。[r]門に居すわったおかしな連中への牽制にもなる。
+[k]
+
+＠鬼壱
+おい、そこの人間二匹。[r]死にたくなければ大人しく従え。
+[k]
+
+＠鬼壱
+逆らうというのなら、仕方あるまい。[r]一人には痛い目を見てもらう事になる。
+[k]
+
+？1：……っ、先に逃げて[&くれ:ください]！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠A：？？？
+もちろん。逃げて済む事ならいつだって逃げますとも。[r]でも、今回はそうはいかない荒事と見た。
+[k]
+
+？2：戦え[&るか:ますか]？
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠A：？？？
+んー……自分の名前も記憶も曖昧だけど、[r]逃げてどうにかなる状況じゃなさそうだし……
+[k]
+
+？！
+
+[charaFace A 4]
+＠A：？？？
+まったく。あれって本物の鬼よね？[r][#また]、とんでもない場所に来てしまったようね。
+[k]
+
+[bgmStop BGM_EVENT_3 0.7]
+[wt 1.0]
+
+[bgm BGM_BATTLE_20 0.1]
+
+[charaFace A 5]
+＠A：？？？
+いいわ、戦いましょう！[r][%1][&君:]、背中は任せた！
+[k]
+
+[charaFace A 2]
+＠A：？？？
+どこの阿呆か知らないけど、見知らぬ海辺で[r]途方にくれる、ふたりぼっちの旅人相手によく吹いた！
+[k]
+
+＠A：？？？
+盗み、[#不埒:ふらち]、非道に外道、鬼も[#百足:むかで]も[#刑部:おさかべ]姫にも[r]文句はないが、悪党悪逆は目に[#余:あま]る！
+[k]
+
+＠A：？？？
+いざ尋常に勝負、どう見ても鬼のような悪漢ども！[r][#都:みやこ]遊びはここでお[#終:しま]い、故郷の地獄に送ってやろう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_20 0.4]
+[wait fade]
+[soundStopAll]
+[end]

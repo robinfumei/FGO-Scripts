@@ -1,0 +1,262 @@
+
+
+＄94-00-56-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3011000 1 フィン]
+[charaSet E 3002001 1 ディルムッド]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ♪
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+フォウさんも機嫌がよさそうです。畑の収穫に[r]向かっている事がわかってらっしゃるのでしょうか。
+[k]
+
+？1：収穫は……いい文明……
+
+[charaFace A 13]
+＠マシュ
+ふふ、アルテラさんの真似ですか、先輩？[r]確かにそう言ってくれそうですね。
+[k]
+
+？2：テンション上がるよね
+
+[charaFace A 13]
+＠マシュ
+はい。いい響きです、収穫。
+[k]
+
+？！
+
+[charaFace A 13]
+＠マシュ
+作るまではそれなりに苦労しましたが、[r]畑ができたことで、作物の生産は桁違いに安定しました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+ああ。だが欲を言えばまだまだだ。[r]そもそも畑作に大事なのは土壌の窒素であってだな[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+（スカサハさんは……結構凝り性なところがあったんです[r]　よね……）
+[k]
+
+＠フォウ
+（フォウ……）
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠フィン
+はっはっは。[r]言葉が我が耳から滑りますな、影の国の女王。
+[k]
+
+＠フィン
+我らのような騎士に、祖母が語るが如き農業の秘伝など[r]教えられても、というところですよ。
+[k]
+
+＠フィン
+敵は倒せても[#鍬:くわ]の一つも振るえないのが騎士というもの。[r]我らにできるのは収穫の力仕事を手伝うことぐらいです。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+むう。まるで私が、話が長くて口うるさい婆だと[r]言われたような気がするが……。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+なあエリンの守護者よ。[r]私の気のせいであれば良いが、如何か？
+[k]
+
+[charaFace D 0]
+＠フィン
+そのような意図はけっして。されど、[r]そう聞こえたならそれは私の不徳の致すところ。
+[k]
+
+＠フィン
+私は空気が読めないとはよく言われるのです[line 3][r]なあ、[charaFace D 1]ディルムッド？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ディルムッド
+はっ……いえ、その……は、っ……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+（否定も肯定もできない感じで苦しそうです！）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠スカサハ
+しかしフィン・マックール。貴様もケルトの勇士、[r]ひとかどの智慧を持つ者と聞いておるぞ？
+[k]
+
+[charaFace D 0]
+＠フィン
+さっきも申しました通り、農業はさすがに専門外です。
+[k]
+
+＠フィン
+頭を巡らせれば畑の維持方法の答えも出てきましょうが、[r]そのために親指を噛むという発想がなかったもので。
+[k]
+
+＠フィン
+何か特別な事態が生じ、私の智慧が求められれば勿論、[r]親指を噛むのもやぶさかではありませんがね？
+[k]
+
+[charaFace B 0]
+＠スカサハ
+ふむ。まあ、そのときは期待しておこう。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+なんにしても、畑は貴重な財産になりました。[r]大事にしていきたいものです。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_28 0.4]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.3]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウッ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+これは……畑が滅茶苦茶に荒らされています！
+[k]
+
+？1：わ……わるいぶんめい案件！？
+
+[charaFace A 7]
+＠マシュ
+落ち着いてくださいマスター、[r]この島にアルテラさんはいません！
+[k]
+
+？2：これが人間のやることかよォ！
+
+[charaFace A 7]
+＠マシュ
+落ち着いてください先輩、[r]この島に人間は先輩しかいないはずです！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠スカサハ
+全滅[line 3]とまではいかんな。[r]半分ほどか。何があった……？
+[k]
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠ディルムッド
+近くに魔物がいます！　奴らでは！？
+[k]
+
+[charaFace B 0]
+＠スカサハ
+ふむ……？　ただの獣には手出しできぬよう、[r]ルーンの守りも張っておったのだが。[#解:げ]せんな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠フィン
+ともあれ、目の前の敵は排除せねばならない。[r]奴らを倒してから、ゆっくり畑を調べるとしよう！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

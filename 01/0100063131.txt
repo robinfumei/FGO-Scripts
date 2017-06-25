@@ -1,0 +1,268 @@
+＄01-00-06-31-3-1
+
+[soundStopAll]
+[bgm BGM_BATTLE_5 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet F 98094000 1 獅子王]
+
+[scene 29700]
+
+[shake 0.05 0 6 0]
+[se ad14]
+[fadein black 1.0]
+[wait fade]
+
+
+[wt 1.5]
+[seStop ad14 1.0]
+[shakeStop]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+く、シバが数枚ぶっとんだ[line 3]！？[r]こっちにまで魔力が届くのか！？
+[k]
+
+＠Dr.ロマン
+くそ、映像がまったく届かない！
+[k]
+
+＠Dr.ロマン
+みんなどうなっている！？[r]ロンゴミニアドは倒せたのか……！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+あー……これは、ちょっと話にならない、な……[r]火力が違いすぎる……万能を上回る神域の力……
+[k]
+
+＠ダ・ヴィンチ
+まさに、[#権能:けんのう]、だ……[r]並のサーヴァントで、どうにかできる相手じゃない。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+っ……！[r]足が……前に出ない……！
+[k]
+
+＠ベディヴィエール
+あの方は間違っている、[r]あの方のためにも戦わねばならないのに……！
+[k]
+
+＠ベディヴィエール
+体が、言う事を、聞かない……！
+[k]
+
+
+？1：……これ、ダメだ……
+？2：………………[&ちくしょう:くやしい]
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠獅子王
+終わりだ。[r]おまえたちの消滅を以て、最果てを解き放つ。
+[k]
+
+＠獅子王
+私は嵐の王。常世から大地を飲む荒波。[r]世界の果て、そのものである。
+[k]
+
+[charaFace F 0]
+＠獅子王
+……だが嘆くな。[r]それが、[#人間:おまえたち]の幸福である。
+[k]
+
+[charaFace F 0]
+＠獅子王
+限りある命に永遠を。
+[k]
+
+＠獅子王
+燃え尽きる命を凍りつかせ保管する。[r]その価値が[#変動:おちぬ]ように停止させる。
+[k]
+
+[charaFace F 0]
+＠獅子王
+それが命を護るという事。[r]人間を護る、究極の結論だ。
+[k]
+
+？1：…………それは、
+
+？！
+
+
+＠A：？？？
+それは違う！[r]違う、ことです！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+レディ[line 3]！？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+？1：マシュ[line 3]！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+あなたは間違っている。[r]あなたのいう幸福を、わたしは認めません！
+[k]
+
+＠マシュ
+なぜなら、わたしは！[r]この時代で、多くの命を見てきたから！
+[k]
+
+＠マシュ
+子供を助けるために命を落とした人がいました！[r]その事を嘆く人がいました！
+[k]
+
+[charaFace A 7]
+＠マシュ
+そして[line 3]それでも、生き続けると。
+[k]
+
+[charaFace A 2]
+＠マシュ
+自分が生きているかぎり、[r]お母さんの人生は続くと顔をあげた人がいました！
+[k]
+
+＠マシュ
+終わりは無意味ではないのです。[r]命は先に続くもの、その場かぎりのものではなく！
+[k]
+
+＠マシュ
+いつまでもいつまでも、多くのものが失われても、[r]広く広く繋がっていくものなのです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+[line 6]。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+[line 6]。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ロンゴミニアド！[r]あなたが荒波……世界の果てだというのなら！
+[k]
+
+＠マシュ
+私は、全力でこれと戦います！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠獅子王
+いいだろう。では見せてやろう！
+[k]
+
+＠獅子王
+我が聖槍の呼ぶ嵐。[r]世界の皮を[#剥:は]がした下にある真実を！
+[k]
+
+＠獅子王
+聖槍、[#抜錨:ばつびょう]。[r]其は空を[#裂:さ]き地を[#繋:つな]ぐ嵐の[#錨:いかり][line 3]
+[k]
+
+[charaFace F 0]
+＠獅子王
+最果てより光を放て……！[r]ロンゴ、ミニアド[line 3]！
+[k]
+
+[se ad14]
+[messageOff]
+[scene 10001 3.0]
+[wait scene]
+[fadeout white 3.0]
+[wait fade]
+[seStop ad14 2.0]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+[backEffect bit_talk_41_black_in]
+[shake 0.05 0 6 0]
+
+[fadein white 0.5]
+[wait fade]
+
+＠マシュ
+いきます……！[r]マスター・[%1]、わたしに力を……！
+[k]
+
+[charaFace A 2]
+＠マシュ
+見ていてください所長[line 3][r]今こそ、人理の礎を証明します……！！！！
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_5 2.0]
+[wait fade]
+[shakeStop]
+[soundStopAll]
+[end]

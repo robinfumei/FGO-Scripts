@@ -1,0 +1,398 @@
+＄94-00-14-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2015001 1 ？？？]
+[charaSet C 98002000 1 フォウ]
+
+
+
+[scene 20301]
+[fadein black 2.5]
+[wait fade]
+
+
+[wt 1]
+＠？？？
+[line 2]私はその瞬間を、繰り返している。
+[k]
+
+[wt 0.1]
+＠？？？
+連綿と続く人の歴史、私の生涯の中であれは、[r]事実だけを紐解けば取るに足りぬものであったとしても。
+[k]
+
+[wt 0.1]
+＠？？？
+たとえ、ただ敵を討ち果たしただけなのだとしても。
+[k]
+
+[wt 0.1]
+＠？？？
+私はあの瞬間に抱いた喩えようもない悲しみと、怒りと、喜びと、[r]何より安堵を[line 2]今も覚えている。
+[k]
+
+[wt 0.1]
+＠？？？
+……安堵。[r]そう。あれは安堵以外の何物でもない。
+[k]
+
+[wt 0.1]
+＠？？？
+[#瘡蓋:かさぶた]を引き剥がすような、奇妙な快感。[r]背筋が震えるような恐怖はもう、どこかに消え失せている。
+[k]
+
+[wt 0.1]
+＠？？？
+でも、私は己が突き立てた矢に触れることができなかった。[r]首を獲ることもできず。
+[k]
+
+[wt 0.1]
+＠？？？
+ただ、茫然と[line 2]その華やいだ勝利を受け入れた。
+[k]
+
+[charaFadeout B 1.2]
+
+
+[wt 0.4]
+
+
+[messageOff]
+[wt 0.3]
+[bgmStop BGM_EVENT_1 0.7]
+[soundStopAll]
+[wait effect bit_talk_06]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout black 1]
+[wait fade]
+[scene 10000]
+[fadein black 1]
+[wait fade]
+
+[wt 1.2]
+
+[se ad2]
+[seStop ad2 5.0]
+
+＠？？？
+…………。[r]……。
+[k]
+
+
+[wt 0.3]
+＠？？？
+……きなさい。
+[k]
+
+[wt 0.5]
+＠？？？
+起きなさい、そこの[&貴方:貴女]。
+[k]
+
+？1：……？
+？！
+
+[messageOff]
+
+
+[wipeout circleIn 1 2]
+[wait wipe]
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21300]
+
+[wipein circleIn 0.5 2]
+[wait wipe]
+
+[wipeout circleIn 1 2]
+[wait wipe]
+
+[wipein circleIn 0.5 2]
+[wait wipe]
+
+[wt 1]
+
+[charaFadein B 0.8 1]
+[charaFace B 0]
+
+[wt 0.5]
+＠？？？
+大丈夫ですか？
+[k]
+
+＠？？？
+この嵐の中でのんびり昼寝とは、[r]豪胆さもここに極まった感じですね。
+[k]
+
+？1：ここは一体？
+
+[charaFace B 4]
+＠？？？
+さて。[r]……実のところ私もわかりません。
+[k]
+
+＠？？？
+気付けばこの船に乗せられ、[r]この嵐を彷徨っているというものでして。
+[k]
+
+＠？？？
+操船の心得はありますが、[r]この嵐ではただ堪え忍び待つしかない。
+[k]
+
+[charaFace B 1]
+＠？？？
+という訳で、ここでのんびり昼寝をしていた[&貴方:貴女]に[r]接触しようと思った次第です。暇ですしね。
+[k]
+
+？2：あなたは誰？
+
+[charaFace B 4]
+＠？？？
+……それが困ったことに。[r]どうやら私もそれを、理解していないようです。
+[k]
+
+＠？？？
+ええ、名無しの男です。唯一覚えているのは、[r]私が[#弓使い:アーチャー]のサーヴァントである事だけ。
+[k]
+
+？！
+
+[charaFace B 0]
+＠？？？
+……さて、この船がどこに辿り着くかも分からず。[r]私というサーヴァントが誰なのかすらも分かりませんが。
+[k]
+
+＠？？？
+どうやら[&貴方:貴女]はマスターのようだ。[r]よろしければ、しばらく行動を共にしませんか？
+[k]
+
+？1：そうする
+
+[charaFace B 1]
+＠？？？
+ありがとう。我が名は[line 2]未だ不明ですが、[r]ともあれアーチャーのサーヴァント。
+[k]
+
+＠？？？
+よろしくお願いします、マスター。
+[k]
+
+？2：マシュは……
+
+[charaFace B 0]
+＠？？？
+マシュ、ですか？[r]さて……もしかしたら船の内部に誰かいるかもしれません。
+[k]
+
+？！
+
+[wt 0.5]
+＠マシュ
+マスター！？[r]いらっしゃいますか、マスター！？
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 3]
+[wait wipe]
+[scene 21200]
+[charaFadeout B 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+[wipein rightToLeft 0.5 3]
+[wait wipe]
+
+[wt 0.4]
+＠マシュ
+センパ[line 3]イ！！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 3]
+[wait wipe]
+[scene 21300]
+[charaFadeout A 0.1]
+[charaFadein B 0.1 1]
+[wipein rightToLeft 0.5 3]
+[wait wipe]
+
+[wt 0.3]
+＠？？？
+あの方は？
+[k]
+
+？1：頼もしいサーヴァント
+
+[se ad59]
+[wt 1.5]
+[seStop ad59]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+マスター、良かった。[r]ご無事で何よりです。
+[k]
+
+[wt 0.3]
+＠マシュ
+はい、私が[%1]先輩のサーヴァント。[r]マシュ・キリエライトです！
+[k]
+
+？2：愛らしい後輩だ
+
+[se ad59]
+[wt 1.5]
+[seStop ad59]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 11]
+＠マシュ
+あ、愛らしい後輩……。[r]いえ、私などまだまだで……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+い、いえ、これでもわたしはサーヴァントですから！[r]頼もしい、と言われないといけません！
+[k]
+
+[charaFace A 3]
+＠マシュ
+でも……その……。[r]ありがとうございます……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+状況を報告します、マスター。
+[k]
+
+＠マシュ
+どうやらレイシフト中に奇妙な[r]特異点に吹き飛ばされてしまったようです。
+[k]
+
+＠マシュ
+残念ながらドクターとは連絡が通じません。
+[k]
+
+[wt 0.2]
+
+＠マシュ
+ところでそちらの御方は……。[r]とても名の有るサーヴァントだと思うのですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace B 0]
+＠B：？？？
+いえ。[r]残念ながら名前を置き去りにしてしまったようです。
+[k]
+
+＠B：？？？
+ですが自分がアーチャーであることは分かります。[r]この通り、得物も弓ですし。恐らくはそうでしょう。
+[k]
+
+[charaTalk A]
+[charaFace A 12]
+＠A：マシュ
+あの、その……すみません。[r]お言葉ですが、武器でクラス特定はあまりしない方が。
+[k]
+
+＠A：マシュ
+世の中には双剣を使うアーチャー、[r]棍棒で殴りつけるアーチャー、
+[k]
+
+＠A：マシュ
+果ては財宝を手当たり次第投げつけるアーチャーも[r]いらっしゃいますので……
+[k]
+
+＠A：マシュ
+弓を持っていたからといって、[r]アーチャーだと考えるのは早計かもしれません。
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+＠B：アーチャー
+……。[r]世界には色々な英雄がいるのですね……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[wt 0.5]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+ところで先輩はこちらで何を……[r]なんと、お昼寝ですか？
+[k]
+
+[charaFace A 1]
+＠マシュ
+さすが先輩、カルデアの廊下で[r]堂々の安眠スタイルだっただけはありますね！
+[k]
+
+[charaFace A 4]
+＠マシュ
+わたしはまったく休めないというか、[r]気持ちが悪いというか……
+[k]
+
+＠マシュ
+これで何度目かの経験ですが、[r]嵐の甲板は慣れません……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠アーチャー
+船体はなかなか頑丈なようですが、[r]こう嵐が続くとさすがに不安ですね……。
+[k]
+
+[wt 0.5]
+[soundStopAll]
+[se ad21]
+[wait se ad42]
+
+[wt 0.8]
+[bgm BGM_EVENT_3 0.1]
+＠アーチャー
+今のは……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+ゴーストタイプのエネミーです。[r]申し訳ありません、手伝って戴きます……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,526 @@
+
+
+
+＄01-00-07-14-5-0
+[soundStopAll]
+[voice NP_100100_1]
+[voiceStop NP_100100_1 0]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98108200 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5018001 1 ギルガメッシュ]
+
+[scene 33900]
+[fadein black 1.5]
+[wait fade]
+[se ad13]
+[charaTalk C]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+
+＠Dr.ロマン
+ごめん、今さらだけどそろそろいいかな！[r]これ、ただのどっちの女神ショウだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 2]
+
+＠マシュ
+[FFFFFF]？　ドクター、それに何か問題が？[-]
+[k]
+
+
+[charaFace A 1]
+＠マシュ
+イシュタルさんの仰る通り、たいへん重要な質問ばかりです。[r]わたしも勉強させてもらっています。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+なん……だって……！？
+[k]
+
+＠Dr.ロマン
+ダメだ、マシュが悪い子になってしまう……[r]女神イシュタルの生活は情操教育に良くない……
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+[charaScale B 1.00]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0,-50]
+
+＠イシュタル
+どういう意味よそれ。おかしな質問をしてくるのは[r]エレシュキガルの方じゃない。私のせいじゃないわ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+そうかな？[r]エレシュキガルの問題は貴様の問題であろう。
+[k]
+
+＠ギルガメッシュ
+仮に立場が逆であったのなら、[r]全く同じ設問を用意したと思うがな？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 0,-50]
+
+＠イシュタル
+そ、そんな事ないわよ。もっと頭のいい、[r]婉曲な言い回しで二択を迫るもの、私なら。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（問う内容自体は変わらないのですね！[r]　さすがイシュタルさんです！）
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+[scene 33800]
+[charaFadeout A 0.1]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+
+[flashin once 0.7 0.7 FFFFFFAF FFFFFF00]
+[se ad65]
+[wt 2.0]
+
+
+[bgm BGM_EVENT_5 0.1]
+[charaScale B 0.88]
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 0,-60]
+＠イシュタル
+っ……またピリッときた……[r]段々なれてきた自分が怖ろしいわ……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+……むう。[r]始めは面白かったが、看過できなくなってきたな。
+[k]
+
+＠ギルガメッシュ
+戦力の低下は否めん。イシュタルがこれでは[r]エレシュキガルとの戦いは厳しくなるか……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+女神エレシュキガルはどれほどの神性なんだい？[r]やはりイシュタルと同ランクなのかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+いや、イシュタルほどではない。
+[k]
+
+[charaFace D 0]
+＠ギルガメッシュ
+イシュタル同様、古い女神ではあるが、[r]アレは慎ましやかだったからな。
+[k]
+
+＠ギルガメッシュ
+イシュタルは天の娘として、[r]欲しいものは全て手に入れてきた女神だ。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+神々どももイシュタルには甘く、[r]ねだられれば何でも与えたものだ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_7 0.1]
+[charaFace D 0]
+＠ギルガメッシュ
+深淵のエンキ神など、イシュタルの酌で酔わされ、[r]家財一切すべてをだまし取られた事もある。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+アレは酷かった。メソポタミア世界における最大の詐欺、[r]神々最大の笑い話と言えよう。
+[k]
+
+＠ギルガメッシュ
+気分よく酔っ払い、全ての神性をイシュタルに[r]譲ってしまったエンキ神。目が覚めれば[#素寒貧:すかんぴん]。
+[k]
+
+＠ギルガメッシュ
+イシュタルはとっくにマアンナに財を乗せて[r]地上へと帰還中だ。
+[k]
+
+＠ギルガメッシュ
+エンキ神はあわてて[#下僕:しもべ]たちにイシュタルを[r]追わせるも、こやつめ、凄まじいスピードで逃げる逃げる。
+[k]
+
+＠ギルガメッシュ
+エンキ神も涙目でな。
+[k]
+
+＠ギルガメッシュ
+このままでは天地の支配者があのバカ娘になってしまう！[r]誰か助けて！　と頭を抱えていた。
+[k]
+
+＠ギルガメッシュ
+様子を見ているしかなかった神々も人間も、[r]思わずこう叫んでいた。
+[k]
+
+[charaFace D 2]
+＠ギルガメッシュ
+“なんだあのドラテクは！[r][f small]  [f -]天舟とはあそこまで速く軽快にコーナーを曲がれるのか！”
+[k]
+
+＠ギルガメッシュ
+“これはとても追いつけない。神話に残るコース[#記録:レコード]だ！[r][f small]  [f -]いま、ウルク最速が決定した！”
+[k]
+
+＠ギルガメッシュ
+ええい、業腹だが[#我:オレ]すらそう思ってしまった程だ！[r]イシュタルめ、この時のために牙を隠し持っていたのか、と！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0,-60]
+
+＠イシュタル
+あ～ら、何の事かしら？
+[k]
+
+[charaFace B 0]
+＠イシュタル
+あの日はたまたまオートが壊れていたから、[r]運転をマニュアルに切り替えただけなんですけど？
+[k]
+
+＠イシュタル
+でも、いつチャンスがきてもいいように、[r]舟にニトロは積んでいたわ。いつも。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+どうだ[%1]よ。[r]これがウルクの都市神だ。[#我:オレ]の苦労も分かろう？
+[k]
+
+？1：なんか呪いは天罰の気がしてきました
+？2：イシュタルさまは自由ですね
+
+？！
+
+[charaFace D 1]
+＠ギルガメッシュ
+まあ、最後にエンジントラブルで天舟はウルクの港直前で[r]停止。あわや惨事は免れたがな。
+[k]
+
+[bgmStop BGM_EVENT_7 1.0]
+＠ギルガメッシュ
+このようにイシュタルは多くを望み、成長した女神だ。[r]一方、[charaFace D 0]エレシュキガルは何も望まなかった。
+[k]
+
+[bgm BGM_EVENT_11 0.1]
+＠ギルガメッシュ
+……アレは冥界が出来た時、[r]その定礎として冥界に捧げられたもの。
+[k]
+
+＠ギルガメッシュ
+冥界にはどれか一柱が赴任しなくてはならなかった。[r]その責任を押しつけられたのがエレシュキガルだ。
+[k]
+
+＠ギルガメッシュ
+生まれたばかりのエレシュキガルは冥界に押し込まれ、[r]そのまま地の底の女主人となった。
+[k]
+
+＠ギルガメッシュ
+千年、万年、亡霊たちの管理をする神として。[r]ただの一瞬も、地上と天上で過ごすことなく。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それは…………悲しい、です。[r]以前のわたしではそう感じませんでしたが、
+[k]
+
+＠マシュ
+今のわたしはそう感じます。[r]……外に出られない事が悲しいのではありません。
+[k]
+
+＠マシュ
+新しい世界、新しい出会いがない事が、[r]とても悲しいです……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 0,-60]
+
+＠イシュタル
+………………。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+その代償として、[r]エレシュキガルは冥界では無敵となった。
+[k]
+
+＠ギルガメッシュ
+神々ですら冥界ではアレの定めた法律には逆らえん。[r]そこの小小小小小小娘のようにな。
+[k]
+
+＠ギルガメッシュ
+だが冥界でなければその特権もない。[r]神性、権能的には中級といったところだ。
+[k]
+
+＠ギルガメッシュ
+そして[line 3]相手が生者であれば、[r]まず“殺さねば”冥界の法律に縛れない。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+いま冥界で唯一エレシュキガルが冥界の法を振るえぬのは[r][%1]とマシュだけ、という事だ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+
+＠Dr.ロマン
+なるほど。キミが[%1][&君:ちゃん]を[r]待っていたのはそういう理由だったのか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+フン。生者であってようやく戦いが成立する、[r]という話だがな。
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]の懸念は冥界に落ちた瞬間、[%1]が[r]ガルラ霊どもに殺されぬかという一点だった。
+[k]
+
+＠ギルガメッシュ
+だが、それはイシュタルめが防いだようだ。[r]共に冥界に落ち、もっとも無防備な時を守る[line 3]
+[k]
+
+＠ギルガメッシュ
+やはり貴様、やや知性が上がったのでは？[r]その器、[#放蕩娘:マイナス]と[#守銭奴:マイナス]でプラスになったのか？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0,-60]
+
+＠イシュタル
+誰が放蕩娘よ、誰が！[r]こっちの事情も知らないクセに、好き放題言わないでよね！
+[k]
+
+[charaFace B 14]
+＠イシュタル
+それと[#この器:わたし]が守銭奴なのは、[r]客観的な事実にすぎないから！
+[k]
+
+＠イシュタル
+私は私なりに、宝石を集める理由があるの。[r]金ピカの言葉を鵜呑みにしないでよ、[%1]！
+[k]
+
+[wt 0.2]
+[se ad60]
+[seVolume ad60 0 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_11 0.4]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 1.0]
+[scene 33900]
+[seStop ad60 0.4]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[bgm BGM_EVENT_1 0.1]
+
+＠第五の門
+答えよ[line 3][r]答えよ[line 3]
+[k]
+
+＠第五の門
+生存とは無駄を[#省:はぶ]く習慣、[r]生活とは無駄を[#培:つちか]う習慣。
+[k]
+
+＠第五の門
+食事に[#贅:ぜい]をこらし、工夫を重ね、歓びを見いだすのは[r]知性ある者として当然の義務である。
+[k]
+
+＠第五の門
+だが心せよ。際限の無い栄養摂取は贅肉を招く。[r]そなたが命を[#托:たく]すとしたら、それは[line 3]
+[k]
+
+[input selectBranch]
+[scene 33900]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98108200 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5018001 1 ギルガメッシュ]
+[charaScale B 0.88]
+[messageOff]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+？1：油（脂）とお肉とイシュタルと
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-60]
+
+＠イシュタル
+それは偏見よ[%1]君！[r]中華料理が体に悪い、というのはお店によるの！
+[k]
+
+＠イシュタル
+油をとったら即運動！[r]お肉を食べても即運動！
+[k]
+
+＠イシュタル
+これでだいたいのバランスは[#計:はか]れるわ！[r]お[#腹:なか]の贅肉はともかく、心の贅肉は回避できるの！
+[k]
+
+[charaFadeout B 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.4]
+[se ad233]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+
+
+
+＠第五の門
+Ｄ[line 4]Ｅ[line 4]Ｂ[line 4]Ｕ[line 4][r]Ｄ[line 4]Ｅ[line 4]Ｂ[line 4]Ｕ[line 4]！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+？2：肝臓に優しいエレシュキガル
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。肝臓に優しい料理こそ良い家庭料理、[r]長寿と快眠の秘訣です。
+[k]
+
+＠マシュ
+ご飯は白米と麦飯を１：６の割合で、[r]お肉も問題ありませんが、鳥のササミなどを日常に。
+[k]
+
+＠マシュ
+また、特定のお野菜には老化防止成分も多く含まれます。[r]バランスのとれた栄養摂取を心がけましょう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 0,-60]
+
+
+＠イシュタル
+ホント！？[r]これから狂ったようにパプリカ食べるわ、私！
+[k]
+
+[charaFadeout B 0.1]
+[bgmStop BGM_EVENT_1 0.3]
+[messageOff]
+[wt 0.4]
+[se ad232]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+
+＠第五の門
+Ｇ[line 3]Ｏ[line 3]Ｏ[line 4]Ｄ[line 3][r]まさにＧ[line 3]Ｏ[line 3]Ｄ[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+？！
+

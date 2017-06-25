@@ -1,0 +1,743 @@
+
+＄01-00-05-20-2-0
+
+[charaSet A 3005002 1 エリザベート]
+[charaSet B 2003001 1 ロビンフッド]
+[charaSet C 3017001 1 李書文]
+[charaSet D 5025001 1 エジソン]
+[charaSet E 5023001 1 ブラヴァツキー]
+[charaSet F 7008001 1 ベオウルフ]
+[charaSet G 99363000 1 機械化歩兵]
+
+[scene 20721]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+[fadein black 1.0]
+[wait fade]
+
+＠ロビンフッド
+ほいほい、また来ましたよ、と。
+[k]
+
+[charaFace A 2]
+＠エリザベート
+……ちょっと、何よこの数！？[r]切りがないじゃない！
+[k]
+
+[charaFace A 5]
+＠エリザベート
+アンタ本当に六割削ったの？
+[k]
+
+[charaFace B 4]
+＠ロビンフッド
+そりゃあもちろん。仕事はきっちりこなすのが[r]オレの数少ない美点だし？
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+食料に毒、水に毒、火攻め水攻め岩落とし、[r]ついでに身内の裏切り工作。
+[k]
+
+[charaFace B 4]
+＠ロビンフッド
+あらゆる手を尽くして六割減らしましたとも。[r]それでもあの数だってんだから呆れるだろ？
+[k]
+
+＠ロビンフッド
+……いや、ホント何だろうねあいつら。
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+フツー六割削ったら、[r]士気は下がって撤退するってのが常道なんだよ。
+[k]
+
+＠ロビンフッド
+ま、例外があるとしたら、アレだ。
+[k]
+
+[charaFace B 1]
+＠ロビンフッド
+デタラメに強いトップが、[r]デタラメに横暴だった場合かねぇ。
+[k]
+
+[charaFace A 5]
+＠エリザベート
+歌っても歌ってもめげずにアンコールなんて、[r]アイドル冥利には尽きるけど、嬉しくないわよコレ！
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+それが今回の[#サーヴァント:オレたち]の仕事ってなもんよ。
+[k]
+
+[charaFace A 0]
+＠エリザベート
+向こうはどうなってるの？
+[k]
+
+[charaFace B 4]
+＠ロビンフッド
+……カルナが戦死した。
+[k]
+
+[charaFace A 4]
+＠エリザベート
+……そう。[r]アイツ、馬鹿みたいに強かったのにね。
+[k]
+
+
+[charaFace B 0]
+＠ロビンフッド
+エジソンのオッサンには言うなよ？[r]ガックリ落ち込むぞ、多分。
+[k]
+
+[charaFace A 5]
+＠エリザベート
+わかってるわよ、そのくらい。[r][&子イヌ:子ジカ]は大丈夫なの？
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+ああ、倒したクー・フーリンは撤退。[r]ラーマたちと一緒に、ワシントンに進軍中。
+[k]
+
+[charaFace A 0]
+＠エリザベート
+[#私:アタシ]たちの役割は変わりなし？
+[k]
+
+[charaFace B 5]
+＠ロビンフッド
+そこんとこ、どうなのよ。[r]おーい、エジソンのおっさん！
+[k]
+
+[charaFace B 2]
+＠ロビンフッド
+このままでオレたち大丈夫かー!?
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+ははははは！[r]無論、それで良し！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace A 4]
+[charaFace B 4]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠ロビンフッド
+だそーだ。
+[k]
+
+＠エリザベート
+しょうがないわね。[r]疲れるけど、もうひとがんばりしましょうか。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エジソン
+直流は最強である！　そうだろう皆の衆！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠機械化歩兵
+もちろんであります！大統王閣下！[r]直流万歳！　ブリリアントドミネーション！
+[k]
+
+[se ad16]
+[wt 1.5]
+[seStop ad16 1.5]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ブラヴァツキー
+はいはい、直流は最強ね最強。[r]さて、と。
+[k]
+
+[wt 0.3]
+
+[charaFace E 4]
+＠ブラヴァツキー
+[line 3]我が手にドジアンの書。[r]光よ、此処に。天にハイアラキ、海にレムリア。
+[k]
+
+[charaFace E 2]
+＠ブラヴァツキー
+そして、地にはこのあたし！[r]古きこと新しきこと、すべてをつまびらかに！
+[k]
+
+[se bac24]
+[fowardEffect bit_talk_15]
+[wt 2.0]
+[fowardEffectStop bit_talk_15]
+[seStop bac24 1.5]
+
+[wt 0.5]
+
+[charaFace E 4]
+＠ブラヴァツキー
+順調のようだけど……[r]そう上手くはいかないのが人生ってものよね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace A 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 0]
+＠エジソン
+……うむ。間違いなくそろそろ来るな。
+[k]
+
+[charaFace A 0]
+＠エリザベート
+え、来るって何が……って。[r]う[charaFace A 2]ぁぁ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠ベオウルフ
+[line 2]そう上手くいかねえのが人生ってもんだな。
+[k]
+
+[charaFace F 4]
+＠ベオウルフ
+……って何だ、小狡いアーチャーと[r]痩せっぽっちのランサーだけかよ。
+[k]
+
+[charaFace F 5]
+＠ベオウルフ
+俺をブッ倒した連中は、どこいった？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace B 1]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠エリザベート
+留守よ。[r]それから、痩せっぽっちじゃなくてスレンダー！
+[k]
+
+＠ロビンフッド
+何だ、オレ褒められてやんの。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ベオウルフ
+おう、褒めてるぜ。罠だけで六割減らすとはな。[r]……だが、四割残っているならこっちの勝ちだ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠エリザベート
+……あー、やだやだ。
+[k]
+
+[charaFace A 5]
+＠エリザベート
+がさつで無神経で破廉恥で。[r]おまけに筋肉に刺青に無精髭！
+[k]
+
+[charaFace A 2]
+＠エリザベート
+下品極まりないわ！[r]という訳で、アンタ相手しなさいよ。
+[k]
+
+[charaFace B 0]
+＠ロビンフッド
+へいへい、と言いたいところだが[line 2]。[r]悪いが[charaFace B 4]手伝ってくれないとオレ死んじゃいそう。
+[k]
+
+[charaFace A 4]
+＠エリザベート
+だらしないわねえ。
+[k]
+
+[charaFace B 1]
+＠ロビンフッド
+遠距離戦と毒殺と破壊工作しか[r]能が無いからねぇ、オレ。
+[k]
+
+[charaFace A 0]
+＠エリザベート
+じゃ、後ろでちまちま矢を射ってなさいな。
+[k]
+
+[charaFace A 2]
+＠エリザベート
+行くわよ半裸男。[r]竜殺しなんて、一人いれば間に合ってるの！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ベオウルフ
+せめて[#真名:ベオウルフ]で呼んでくれると[r]ありがたいんだがね、痩せ……スレンダーなランサーさんよ！
+[k]
+
+[charaFadeout F 0.1]
+
+[messageOff]
+[effect bit_talk_12]
+[shake 0.05 2 4 0.5]
+[se bac14]
+[wait se bac14]
+[wt 0.5]
+
+[charaTalk D]
+[charaFace E 2]
+[charaFace D 2]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+＠エジソン
+エリザベートとロビンフッドの援護は可能か！？
+[k]
+
+＠ブラヴァツキー
+無理、ケルト人を押し留めるので精一杯よこっちは！[r]このっ……！
+[k]
+
+[charaFace D 4]
+＠エジソン
+……やはりここ一番の粘り強さではケルトの兵士には[r]及ばないか……無念である。
+[k]
+
+[charaFace D 2]
+＠エジソン
+これが大量生産の限界……いや、そうではないっ！[r]私のやり方が正解ではなかっただけだ！
+[k]
+
+＠エジソン
+いずれ成功の栄光を掴む為にも負けられん！[r]ここは責任者である私が奮闘しなければ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[messageOff]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+[charaEffect A bit_talk_13]
+[se bac7]
+[wt 0.1]
+[charaShake A 0.05 3 3 0.25]
+[wt 0.4]
+[wait se bac7]
+
+＠エリザベート
+く、ぅ……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ベオウルフ
+フン！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ロビンフッド
+野郎……！
+[k]
+
+[se bac20]
+[wait se bac20]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ベオウルフ
+[line 2]ハッ！
+[k]
+
+[effect bit_talk_41]
+[shake 0.05 2 4 0.3]
+[se ad32]
+[wt 1.0]
+[seStop ad32 1.0]
+[effectStop bit_talk_41]
+
+[charaFace F 1]
+＠ベオウルフ
+悪いな、俺はバーサーカーにしては比較的頭が[r]トんでなくてね。
+[k]
+
+＠ベオウルフ
+精々、ちょっと凶暴になった程度のもんだ。[r]培った技は、そうそう萎えることがねえのさ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ロビンフッド
+畜生、こういうタイプは苦手なんだって……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ブラヴァツキー
+エリエリとロビン、押されてるわね。[r]マズいわ……！
+[k]
+
+＠李書文
+[line 2]では、儂が行くとしよう。
+[k]
+
+[charaFace E 5]
+＠ブラヴァツキー
+え……！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFace C 5]
+[charaFadein F 0.1 0]
+[charaFadein C 0.1 2]
+
+[wt 0.2]
+[charaEffect F bit_talk_14]
+[charaShake F 0.05 3 3 0.4]
+[se bac7]
+[wait se bac7]
+[wt 0.2]
+
+[charaFace F 0]
+＠ベオウルフ
+おっと。……おいおい、何者だ？
+[k]
+
+[charaFace C 0]
+＠李書文
+通りすがりの、神槍である。[r][#真名:な]を李書文。
+[k]
+
+[charaFace C 1]
+＠李書文
+……フム。これはこれで役得よな。[r]名高きベオウルフと打ち合えるとは、光栄の至りよ。
+[k]
+
+[charaFace F 1]
+＠ベオウルフ
+ほう？　“神槍”とは大きく出たな。[r]李書文……ああ、良く知ってるぜ。
+[k]
+
+[charaFace C 0]
+＠李書文
+何、そう呼ばれていたこともあるだけよ。[r]で、どうする。
+[k]
+
+[charaFace C 1]
+＠李書文
+ベオウルフといえば、怪物グレンデルを素手で殴り殺したと[r]謳われる闘士でもある。であれば[line 3]
+[k]
+
+[charaFace F 5]
+＠ベオウルフ
+ケッ、うまく煽るじゃねえか。[r]そういうおまえさんは何だったか？
+[k]
+
+[charaFace F 2]
+＠ベオウルフ
+あー、そうそう。“二の打ち要らず”だ。[r]二の打ち要らず！　大層なハッタリだな、オイ！
+[k]
+
+＠李書文
+うむ。ただの誇張か通り名か、[r]試してみてはどうかな？
+[k]
+
+[charaFace C 0]
+＠李書文
+偶然にも、こんな場所で無手で戦える[r]サーヴァントが二人、出会ってしまったのだ。
+[k]
+
+[charaFace C 1]
+＠李書文
+運命とは真に数奇なものよ。
+[k]
+
+[se ad86]
+[wait se ad86]
+
+[charaFace F 0]
+＠ベオウルフ
+確かに数奇だなぁ。[r]ってことは、やっぱりあれかい。
+[k]
+
+[charaFace F 1]
+＠ベオウルフ
+いわゆる[#素手喧嘩:ステゴロ]か？
+[k]
+
+[charaFace C 5]
+＠李書文
+我が拳が果たして届くかどうか。[r]試させて貰うとしよう。
+[k]
+
+[charaFace C 2]
+＠李書文
+この八極[line 2]受けてみせい！
+[k]
+
+[charaFace F 1]
+＠ベオウルフ
+いいだろう、いいだろう。[r]英霊に奉り上げられて幾星霜。
+[k]
+
+[charaFace F 0]
+＠ベオウルフ
+それでもアイツを殴り殺したときの感覚は、[r]そうそう忘れられるもんじゃねぇ。
+[k]
+
+[charaFace F 5]
+＠ベオウルフ
+そして今、あのグレンデルより手強そうな奴が[r]俺の目の前に居る。
+[k]
+
+[charaFace F 2]
+＠ベオウルフ
+だったら[line 2]やらない手はないよなぁ！！
+[k]
+
+[charaFace C 2]
+＠李書文
+応とも！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ベオウルフ
+一。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠李書文
+二の……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk off]
+[charaFace C 2]
+[charaFace F 2]
+[charaFadein C 0.1 2]
+[charaFadein F 0.1 0]
+＠二人
+三ッ！！
+[k]
+
+[messageOff]
+[shake 0.05 2 4 0.5]
+[se bac11]
+[wt 0.5]
+[seStop bac11 1.0]
+
+[shake 0.05 2 4 0.5]
+[se bac10]
+[wt 0.5]
+[seStop bac10 1.0]
+
+[charaTalk on]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠エリザベート
+きゃああああ！？[r]な、殴り合い！　殴り合いなの！？
+[k]
+
+[charaFace A 5]
+＠エリザベート
+こういうの怖い、止めなさいよ緑ぃ！
+[k]
+
+[charaFace B 2]
+＠ロビンフッド
+お断りですぅー！[r]こんなん神様でも止められねえぞ！？
+[k]
+
+[charaFace B 4]
+＠ロビンフッド
+うわー、すげー。[r]同じ人類とは思えねー。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+＠ブラヴァツキー
+何あれ。[r]男の考えることって、たまに訳分かんないわ。
+[k]
+
+[charaFace D 1]
+＠エジソン
+なあに、女子でもボクシングはするだろう。[r]殴り合いに酔い痴れるのは、戦士の本能というやつだ。
+[k]
+
+[charaFace D 4]
+＠エジソン
+……私は発明家だから、[r]あまりその辺は詳しくないがね。
+[k]
+
+[charaFace E 0]
+＠ブラヴァツキー
+あ、そっ。
+[k]
+
+[charaFace D 0]
+＠エジソン
+どの道、ベオウルフと殴り合って戦えるような[r]サーヴァントは彼しかおらん。
+[k]
+
+[charaFace D 5]
+＠エジソン
+ベオウルフは李書文に任せよう。[r]我々は、我々の為すべきことを為すだけだ。
+[k]
+
+[charaFace E 4]
+＠ブラヴァツキー
+そうね。[r]でもエジソン、あたしね……ちょっと嫌な予感がする。
+[k]
+
+[charaFace D 4]
+＠エジソン
+……君の嫌な予感は百パーセント的中するからな。[r]何が来るにせよ、覚悟は決めておこう。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[scene 20302]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+
+[charaSet A 1019001 1 ラーマ]
+[charaSet B 98025100 1 シャドウサーヴァント]
+
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠ラーマ
+よし！[r]大方片付い[line 2][charaFace A 2]何！？
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[se ad21]
+[wait se ad21]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ラーマ
+メイヴの精鋭兵……シャドウサーヴァントか！[r]マスター、これは我々が相手する！　指示を！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

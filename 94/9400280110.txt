@@ -1,0 +1,1341 @@
+＄94-00-28-01-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+
+[charaSet A 98001000 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 1013001 1 カエサル]
+[charaSet E 5010001 1 パラケルスス]
+[charaSet F 98002000 1 フォウ]
+[charaSet G 98003000 1 Dr.ロマン]
+
+
+
+[scene 10600]
+[fadein black 1.0]
+[wait fade]
+
+＠ダ・ヴィンチちゃん
+[line 2]何て、コト。
+[k]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+有り得ない。有り得ないけど、[r]これは紛れもなく『私』じゃないか。
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+……いや、違う。[r]これは『私』であって『私』じゃない。
+[k]
+
+＠ダ・ヴィンチちゃん
+技術は[#拙:つたな]いが、熱意がある。[r]熱意が強引に『私』を『私』らしくさせている……！
+[k]
+
+[charaFace B 4]
+＠ダ・ヴィンチちゃん
+というか、この熱意ちょっと引くなー。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+真夏にコート重ね着して、部屋の暖房マックスにして、[r]煮込みうどん食べながらキャンパスに向かってる感じ。
+[k]
+
+＠ダ・ヴィンチちゃん
+なぜ分かるかって？[r]それは[charaFace B 1]私がいつも変態、もとい、偏執的だからさ！
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+いやまあ、それはいいとして。
+[k]
+
+[charaFace B 2]
+＠ダ・ヴィンチちゃん
+おのれー！[r]一体誰がこんな、神をも恐れぬ所業を！
+[k]
+
+[charaFace B 4]
+＠ダ・ヴィンチちゃん
+こうしちゃいられない。このままだとロマニなんかに[r]小言を言われる事態、いや！
+[k]
+
+[bgmStop BGM_EVENT_1 1.0]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+これはきっと人理崩壊、[r]新たな特異点が誕生するほどの問題と考えよう！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace B 2]
+＠ダ・ヴィンチちゃん
+よーし、エマージェンシーコール！！[r]全員、集合だー！
+[k]
+
+[messageOff]
+[se ad9]
+[wt 1.0]
+
+[fadeout black 2.0]
+
+[bgmStop BGM_EVENT_3 2.0]
+[seStop ad9 1.0]
+
+[wait fade]
+
+
+
+[wt 0.8]
+[fowardEffect bit_talk_davinci01]
+[wt 0.1]
+[wait fowardEffect bit_talk_davinci01]
+[wt 0.9]
+
+[scene 10400]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[fadein black 2.0]
+[wait fade]
+
+
+＠エミヤ
+……[#投影:トレース][#開始:オン]。
+[k]
+
+[se bas1]
+[fowardEffect bit_talk_30]
+[wt 2.0]
+[fowardEffectStop bit_talk_30]
+[wait fowardEffect bit_talk_30]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+なるほど……エミヤさんの双剣は、[r]そうして作っていたんですね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+道理で、砕けても砕けても何時の間にか[r]手元に戻っていると思いました。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 0]
+＠フォウ
+フォウ、フォウ～。[r]フォフォ、フォーウ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠エミヤ
+ああ。本物に勝るとも劣らないものを一時的に[r]存在させている、というのが正しいがね。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+どれほど真に迫っても強度だけは真作に劣る。[r]実在に耐えられない虚構の軽さ、というのかな。
+[k]
+
+＠エミヤ
+私の投影魔術は真に迫らなければ成立しないが、[r]真になったところで水面に映った影にすぎない。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+本来存在するものとは異なる、[r]贋作に過ぎないよ。
+[k]
+
+？1：贋作と真作で異なる？
+？！
+
+[charaFace C 1]
+＠エミヤ
+そのあたりの説明は長くなるからここでは割愛しよう。
+[k]
+
+＠エミヤ
+だが、性能面[line 3]純粋な数値において、[r]贋作は真作には敵わない、という道理はない。
+[k]
+
+＠エミヤ
+どちらも同じだけのパフォーマンスを発揮した場合、[r]その優劣を極めるのは『物』ではなく『観客』だ。
+[k]
+
+＠エミヤ
+まあ、[#大本:オリジナル]を作った者からすれば[r]心穏やかな話ではないだろうがね。
+[k]
+
+＠エミヤ
+だが人類とは未来に突き進む種。[r]先に進むには改善という概念が必要不可欠だ。
+[k]
+
+＠エミヤ
+ゼロから生み出された真作は価値あるものだが、[r]その後に続く模倣[line 3]派生作品にも価値がある。
+[k]
+
+＠エミヤ
+私の投影は文字通りコピーにすぎないが、[r]世の中の模倣作は真作から発展していったものだ。
+[k]
+
+＠エミヤ
+一から始まったものが無数に広がる[line 3][r]未来を形作るというのはそういう事だよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFace C 1]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+なるほど。含蓄深いです。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+それでは部屋の掃除に戻ろうか。[r]マスター、そちらの部屋は片付いているか？
+[k]
+
+？1：整理整頓、基本だよ
+
+[charaFace C 1]
+＠エミヤ
+それはいい。[r]部屋は人の心象が映し出される鏡だ。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+きちんとしているという状態そのものに[r]君の性格が表れている。
+[k]
+
+？2：たまに散らかっている
+
+[charaFace C 4]
+＠エミヤ
+ああ、ハロウィンやクリスマスの時か。[r]部屋は人の心象が映し出される。
+[k]
+
+[charaFace C 5]
+＠エミヤ
+つまり[&おまえ:君]はイベントになると、[r]はしゃぐタイプという訳だな。
+[k]
+
+？！
+
+[charaFace A 13]
+＠マシュ
+ふふふ、当たってますね。[r]先輩。
+[k]
+
+
+[messageOff]
+[charaTalk F]
+[bgmStop BGM_EVENT_2 0.1]
+[se ad9]
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+＠エミヤ
+む？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+非常ベル……！[r]何かあったようです、先輩！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[seStop ad9 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 10204]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad59]
+[wt 1.0]
+[seStop ad59]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター、何か異常事態が！？
+[k]
+
+
+[charaTalk G]
+[se ad59]
+[wt 1.0]
+[seStop ad59]
+
+[charaFadeout A 0.1]
+
+[charaFace A 2]
+[charaFace G 2]
+[charaFadein A 0.1 2]
+[charaFadein G 0.1 0]
+
+＠Dr.ロマン
+すまない、遅れた！[r]今度は何のエマージェンシーコールだ！？
+[k]
+
+[charaFace A 6]
+＠マシュ
+ドクターもたった今……？[r]あの、ドクターが鳴らしたのでは？
+[k]
+
+[charaFace G 4]
+＠Dr.ロマン
+それなら気が楽なんだが、ボクじゃない。[r]この時間はカルデアの炉の調整があるからね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+では、この非常ベルはいったい[line 3]
+[k]
+
+[charaTalk F]
+
+＠ダ・ヴィンチちゃん
+あー、テステスまやこん、テステスまやこん。[r]緊急事態につき館内通信は私が乗っ取りました。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[charaSet B 5009003 1 ダ・ヴィンチちゃん]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 5009003 1 5 0 0]
+[wt 0.3]
+
+＠ダ・ヴィンチちゃん
+マスター・[%1]と[&彼:彼女]の[r]無茶ぶりを笑って流せる全サーヴァントに告げます。
+[k]
+
+＠ダ・ヴィンチちゃん
+頭を空っぽにして、[r]速やかに工房に集合してください
+[k]
+
+[communicationCharaFace 5]
+＠ダ・ヴィンチちゃん
+もちろん、各自自慢の武器を持参のこと。[r]ただしロマニはうるさいからダメ。
+[k]
+
+[communicationCharaFace 2]
+＠ダ・ヴィンチちゃん
+制限時間は一分！[r]さあ、始め！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace G 4]
+[charaFace C 5]
+[charaFadein G 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+おいおい、何があった？
+[k]
+
+＠Dr.ロマン
+……どうやら人に言えないトラブルのようだね。[r]ともかく行ってみようか。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_3 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_1 2.0]
+
+[scene 10600]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+
+[charaFadeout G 0]
+[charaFadeout C 0]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ダ・ヴィンチちゃん
+あ、来た来た！[r]それでこそ[%1][&君:ちゃん]だ！
+[k]
+
+＠ダ・ヴィンチちゃん
+マシュちゃんも来てくれると信じていたとも！[r]お供のサーヴァントは……[charaFace B 4]あれ、エミヤ君だけ？
+[k]
+
+＠ダ・ヴィンチちゃん
+もっとたくさん、それこそ七人ぐらい[r]物好きなサーヴァントが集まると思ったのに……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 4]
+[charaFace C 4]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+ダ・ヴィンチ工房からのエマージェンシーと知れば、[r]やってくる英霊は一人もいなかったと思うがね。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+私はたまたま[%1]と打ち合わせを[r]していたので、その付き添いとして寄っただけだ。
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+ええー？[r]私、そんなに人望ないのかなー？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+＠Dr.ロマン
+そりゃないとも。普段の態度を改めるんだね。[r]ニコラ博士の方がまだ人の気持ちが分かると評判だよ。
+[k]
+
+[charaFace B 2]
+＠ダ・ヴィンチちゃん
+うげ。ロマニ。[r]なんで来たの？　来るなって言ったじゃん！
+[k]
+
+[charaFace G 5]
+＠Dr.ロマン
+そう言われたら誰だって気になるからだよ！
+[k]
+
+＠Dr.ロマン
+君ね、今度は何をしたワケ？[r]チキンなボクもたまには怒るぞ？
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+いや、それは誤解だ。今回は個人的な問題じゃない。[r]カルデア全体の問題なのさ。
+[k]
+
+？1：今回は？
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+失敬、今回も、だ。[r]私はこれでも技術部顧問だからね？
+[k]
+
+？2：それは穏やかじゃないな……
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+その通りだ。あまりの穏やかじゃないぶりに、[r]私の理性はアストルフォってぐらいなんだから。
+[k]
+
+？！
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+よし。時間が惜しい。はっきりと言おう。
+[k]
+
+[charaFace B 2]
+＠ダ・ヴィンチちゃん
+私は世界の真実に辿り着いた。[r]遂に、この世界の欺瞞が明らかになった、と！
+[k]
+
+[charaFace G 3]
+＠Dr.ロマン
+あ、もしもし治療班？　ベッド、一つあまってる？[r]ひとり、精神に異常をきたした変質者が出てね。
+[k]
+
+＠ダ・ヴィンチちゃん
+真面目に聞く気のない人は帰ってくださーい！
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠エミヤ
+ドクター、気持ちは分かるが今は話を聞こう。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+性格はどうあれ、彼……いや彼女は万能の天才、[r]レオナルド・ダ・ヴィンチその人だ。
+[k]
+
+＠エミヤ
+その発言には必ず、どこかに真実があるのでは？
+[k]
+
+[charaFace G 4]
+＠Dr.ロマン
+いやまあ、それはそうなんだけどね……[r]だから余計に厄介だというか……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+うんうん、流石は錬鉄の英霊、[r]ナイスフォローだエミヤ君！
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+物作りに精通した人間はリスペクトを忘れないんだねぇ。[r]ロマニはもっと私を尊重するように。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 12]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+＠マシュ
+それはそれで困りますが……ダ・ヴィンチちゃん。[r]世界の欺瞞、とは何なのでしょう？
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+ああ。[r]まずはこれを見て欲しい。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[se bas2]
+[equipSet H 9400780 2]
+[wait equipSet H]
+[charaFace H 0]
+[charaFadein H 0.5 0,-70]
+[wt 3.0]
+[charaFadeout H 0.1]
+[seStop bas2]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 6]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+＠マシュ
+これは[line 2]。
+[k]
+
+？1：悪名高いモナ・リザ！
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+ははは。それは否定しないとも。なぜって、[r]この絵を巡って多くの血とお金が流れたんだし？
+[k]
+
+[charaFace A 14]
+＠マシュ
+なぜか得意顔です、先輩！
+[k]
+
+？2：まさに欺瞞の中心！
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+至高の一枚を前にしてなんという事を言うのか……[r]まあ、[charaFace B 4]たしかにコピペで荒稼ぎしたのだけども。
+[k]
+
+[charaFace A 14]
+＠マシュ
+なぜか開き直ってます、先輩！
+[k]
+
+？！
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+ははは。まあ、それはともかくだ。[r]この一枚、確かにモナ・リザ礼装なんだけど……
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+実はこれ、私の[#工房:ところ]で作ったものじゃないんだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+……やはり。よく似ているが、これは贋作だ。[r]神経質に真似られているが、筆先に怒りを感じる。
+[k]
+
+[charaFace C 5]
+＠エミヤ
+貴重な魔力資源であるマナプリズム、その数1000以上に[r]相当するダ・ヴィンチ嬢の礼装には一歩及ばない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+言葉に棘を感じるものの、その通りだ！[r]これは贋作なんだ！
+[k]
+
+＠ダ・ヴィンチちゃん
+この私のモナ・リザを！　誰かが！　事もあろうに！
+[k]
+
+＠ダ・ヴィンチちゃん
+コピーペーストではなく、一枚一枚丁寧に、[r]ゼロから描き上げているんだよ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+凄いですね、[r]わたしには本物とさっぱり見分けがつきません。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+粗悪な贋作なら、技術を見れば理解できる。
+[k]
+
+＠エミヤ
+優れた贋作であれば、その作品に籠められたオーラ[r]のようなものを感じ取れば、自然と判別がつく。
+[k]
+
+＠エミヤ
+剣もそうだが、こと芸術品とは作者の理念、感情、好悪、[r]それらを籠めない訳にはいかない。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+死にものぐるいで[line 3]いや、命を賭して真作者と[r]同じ心情に至ったのなら、区別するのは困難だろう。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+このモナ・リザは……熱意は超がつく一級品だ。[r]残念ながら、足りないのは技術の方だな。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+技術を熱意が補うという、珍しい贋作だ。[r]普通は逆なのだがね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠ダ・ヴィンチちゃん
+まさしく。[r]ところで、君のクラスは[#芸術家:アーティスト]？
+[k]
+
+[charaFace C 0]
+＠エミヤ
+アーチャーだよ。[r]それで、この贋作が何か？
+[k]
+
+[charaFace C 1]
+＠エミヤ
+いいじゃないか、熱心なフォロワーができて。[r]真作者冥利に尽きるのでは？
+[k]
+
+[charaFace B 4]
+＠ダ・ヴィンチちゃん
+実はね……ここ最近、モナ・リザが[r]売れなくなっていたんだ。
+[k]
+
+？1：それは元からじゃ……
+？2：え、売れてたんですかアレ
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+売ーれーてーまーすー！[r]ダ・ヴィンチ工房始まって以来のヒット作ですぅー！
+[k]
+
+＠ダ・ヴィンチちゃん
+でもその客筋がぱったり途絶えたんですぅー！[r]おかしいと思って調査したら、この贋作が出てきたワケ！
+[k]
+
+＠ダ・ヴィンチちゃん
+なんと、パッと見は同じで効果もちょっと同じで、[r]お値段、真作の十分の一ときました！
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+さあ、ここまで言えば私の言いたい事が[r]分かるよね！？
+[k]
+
+？1：ダ・ヴィンチちゃんのモナ・リザは買わない？
+
+[charaFace B 4]
+＠ダ・ヴィンチちゃん
+聞きたくなかった現実……！[r]でも正解！
+[k]
+
+？2：ダ・ヴィンチちゃんは用済み？
+
+[charaFace B 4]
+＠ダ・ヴィンチちゃん
+残酷すぎる現実……！[r]でもこのままだと確かな未来だね！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace B 4]
+[charaFace G 3]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+＠Dr.ロマン
+はいはい。つまり、ダ・ヴィンチ工房より安価で[r]よい礼装を売る闇ブローカーが出てきたと。
+[k]
+
+[charaFace G 0]
+＠Dr.ロマン
+いいんじゃない？　もともと君にはシバの調整と[r]サモンプログラムの管理があるんだし。
+[k]
+
+＠Dr.ロマン
+人気のない工房はこの際、その偽物に任せて[line 3]
+[k]
+
+[charaFace B 2]
+＠ダ・ヴィンチちゃん
+本気でぶっ殺すわよロマニ？
+[k]
+
+[charaFace G 2]
+＠Dr.ロマン
+あ、はい、すみません！
+[k]
+
+＠ダ・ヴィンチちゃん
+コホン。いけないいけない、素が出ちゃった☆[r]では気を取り直して[line 3]
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+いいかい、この贋作を作っている何者かには、[r]間違いなく悪意がある！！
+[k]
+
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+（……どうだろう。この贋作は歪んで捻くれては[r]　いるものの、純粋な熱意があるのだが……）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+という訳で、[%1][&君:ちゃん]は[r]この贋作を作っている者たちを突き止め、
+[k]
+
+＠ダ・ヴィンチちゃん
+そのまま問答無用で退治してもらいたい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+闇ブローカーの調査と逮捕、ですか……？[r]それはもう先輩の管轄ではないような……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+いや、[%1][&君:ちゃん]の管轄だとも。[r]だってこんなに邪悪な事件を企む連中なんだよ？
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+そりゃあもう、[r]世界を滅ぼす悪意に満ちた悪魔に違いない。
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+おそらく過去最強の敵だろうけど、そこは安心して！[r]だって[line 3]今回は私も同行するからね！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace B 1]
+[charaFace G 2]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+＠Dr.ロマン
+ごはっ！？[r]いやいやなに言ってんだレオナルド！？
+[k]
+
+＠Dr.ロマン
+君はカルデアの屋台骨だぞ！？[r]万が一、君が倒れたらカルデアの効率は半減する！
+[k]
+
+＠Dr.ロマン
+責任者として許可できない！[r]こんな、どうでもいいコトで君が出張るなんて、
+[k]
+
+[charaFace B 2]
+＠ダ・ヴィンチちゃん
+あん？[r]どうでもいい、だあ？
+[k]
+
+[charaFace G 3]
+＠Dr.ロマン
+[line 3]だよね。芸術活動は君の魂だもんね。[r]レイシフトの準備をしてきますね。
+[k]
+
+？1：弱い……
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+ダ・ヴィンチちゃんですから……。
+[k]
+
+[charaFadeout A 0.1]
+
+？2：ドクター……
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠Dr.ロマン
+……まあ、ここまで本気で怒っているレオナルドを[r]止める方便は思いつかないし……
+[k]
+
+[charaFace G 5]
+＠Dr.ロマン
+実際の話、この贋作がどこから湧き出ているのかは[r]無視できない問題でもある。
+[k]
+
+[charaFadeout G 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠エミヤ
+おっと。そういえば部屋で圧力鍋を使っていた。[r]そろそろシチュー用の牛肉がいい感じになっている頃だ。
+[k]
+
+[charaFadeout C 0.4]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+そこ、エミヤ[#某:なにがし]！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 5]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+クッ、一歩遅かったか……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠マシュ
+あっ！　エミヤ先輩、逃げようとしましたね！？
+[k]
+
+[charaFace C 4]
+＠エミヤ
+いや……そうではない。いやそうでもあるが。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+だが私も暇ではないんだ。[r]武装の調整、部屋の掃除、オペレーター嬢との世間話。
+[k]
+
+＠エミヤ
+このように、[r]サーヴァントには色々とやるべき事があってね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+もっともですが、部屋の掃除は既に終わりました。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+む、むう……しかしだな。[r]私は、この手のイベントはどうも……。
+[k]
+
+[charaFace A 1]
+＠マシュ
+それでは行きましょう、マスター、エミヤ先輩！[r]一緒に贋作を探す旅へ！
+[k]
+
+[charaFace A 0]
+＠マシュ
+旅は道連れ、世は情け。今は頼れるサーヴァントが[r]一人でも多くほしいのです。
+[k]
+
+[charaFace A 7]
+＠マシュ
+だって、宇宙ロケット以来の嫌な予感がしますので！[r]先輩のためにも、是非！
+[k]
+
+[charaFace C 4]
+＠エミヤ
+自分の保身ではなく、マスターの為ときたか……[r]そう言われては……[charaFace C 0]ぐぬぬ……
+[k]
+
+＠Dr.ロマン
+マシュもどんどん逞しくなっていくなあ……。
+[k]
+
+？1：ありがとうマシュ。本気で頼もしい。
+？2：よくやったマシュ。死なばもろともだ。
+
+？！
+
+[charaFace A 7]
+＠マシュ
+もちろんです。今のところ、マスターの安全確保だけが[r]わたしに出来る精一杯ですから！
+[k]
+
+[charaFace C 4]
+＠エミヤ
+……ふう。仕方ない、私も観念したよ。[r]調査に付き合おう。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+それで？　まずは何処に？[r]アテはあるのだろうなダ・ヴィンチ嬢。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチちゃん
+もちろん。そこはまーかせて！[r]じゃあロマン、[charaFace B 0]レイシフトをちょっと借りるよ。
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+なあに、[%1][&君:ちゃん]がいれば[r]事件はすぐに解決さ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 10200]
+
+[fadein black 1.0]
+[wait fade]
+
+
+＠ダ・ヴィンチちゃん
+それじゃあレイシフト、レッツゴー！[r]んー、初めての生シフトは緊張するね！
+[k]
+
+[charaFadeout B 0.1]
+[messageOff]
+
+[bgmStop BGM_EVENT_1 0.1]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 20300]
+
+[bgm BGM_EVENT_2 2.5]
+[charaSet A 8001001 1 マシュ]
+[wt 1.5]
+[fadein white 1.0]
+[wait fade]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠ダ・ヴィンチちゃん
+さて。贋作に残っていた霊子情報を観測、追跡した結果、[r]この時代のこの座標周辺だと結論されたワケだが。
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+いやあ、久しぶりにカルデア以外の大地を踏んだ。[r]土の感触、風の触れる感覚……。
+[k]
+
+＠ダ・ヴィンチちゃん
+生きているという事は素晴らしいねえ、[r][%1][&君:ちゃん]。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+さあ、早速贋作野郎を探しに行こうじゃないか！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+ダ・ヴィンチちゃんが凄く張り切ってます……！
+[k]
+
+[charaFace C 4]
+＠エミヤ
+今までずっと工房の[#主:ぬし]だったからな。[r]インドア派、かつアウトドア派なんだろう。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+ひとまず街に向かうとしよう。[r]調査というならまずは情報収集からだ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[scene 20500]
+
+[fadein black 2.0]
+[wait fade]
+
+[se ad5]
+[wt 1.0]
+[seStop ad5 2.0]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+街の雰囲気は、特に問題ないようです。[r]たいへん穏やかで、微笑ましいです。
+[k]
+
+＠エミヤ
+そうだな。まずは基本的な確認だ。[r]道行く者に贋作を見せて尋ねてみよう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+はい、分かりました。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.5]
+
+？1：すいませーん
+？！
+
+
+[charaTalk off]
+[charaFace E 0]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+[bgmStop BGM_EVENT_2 2.0]
+
+＠二人
+何か？
+[k]
+
+[charaTalk on]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……。[r]……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+……。[r]……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+……。[r]……。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+確保[line 4]！！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+了解しました！！
+[k]
+
+＠エミヤ
+今回は展開が速いな！[r]さっさと終わらせて、サクサクと帰還しよう！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFace D 4]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+＠カエサル
+おおう、突然の捕り物とは何事か！？
+[k]
+
+[charaFace D 5]
+＠カエサル
+いかなる戦いにも理由はあるもの、[r]仮に我らが賊であれ子細明らかにするべきでは！？
+[k]
+
+[charaFace D 2]
+＠カエサル
+対話の末に見えてくる真実もあるという！[r]とにかく話をしようではないか！　私はそれで勝つ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エミヤ
+その会話というヤツが、貴様に許してはいけない[r]最大の罠だと知っているのだよ！
+[k]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFace D 4]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+＠カエサル
+なんと……！[r]貴公、さては一度、私と取引をしたコトがあるな！？
+[k]
+
+[charaFace E 4]
+＠パラケルスス
+そのようですね……。[r]私は悲しい……信頼とは、かくも儚いものとは……。
+[k]
+
+？1：これ以上ないほど信頼してるからね！
+？！
+
+＠マシュ
+はい、その通りですマスター！
+[k]
+
+[charaFace E 5]
+＠カエサル
+むう。会話が成立しないのであれば仕方がない。[r]政治家らしく、後は荒事で解決か。
+[k]
+
+[charaFace E 1]
+＠カエサル
+いい加減、『何かあったら[#黒幕:カエサル]』の汚名は[r]払拭していきたいのでね！
+[k]
+
+[charaFace E 0]
+＠パラケルスス
+気が合いますね、カエサル殿。[r]そのむずがゆい気持ち、このＰ察します。
+[k]
+
+[charaFace E 5]
+＠パラケルスス
+暴力は反対ですが、私も迎撃させて頂きましょう。[r]なに、[charaFace E 1]戦いの最中でも[#説得:せんのう]は可能です。
+[k]
+
+[charaFace E 2]
+＠パラケルスス
+今こそ声を大にして言いたい！[r]我々は！　[#無罪:イノセント]なのだと[line 2]！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+ちょっ、笑いから入るとか卑怯！[r]杖を落としそうになったじゃないか！
+[k]
+
+[charaFace B 2]
+＠ダ・ヴィンチちゃん
+自分は無罪なんて、どの口で言うのかな君たちは！
+[k]
+
+？1：ダ・ヴィンチちゃんも気をつけてね！
+？2：物凄い棚上げ合戦だ……ッ！
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

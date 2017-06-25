@@ -1,0 +1,195 @@
+
+＄94-00-65-01-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102500 1 イリヤ]
+[charaSet D 7016001 1 偽タマモキャット]
+[charaSet E 7016001 1 偽タマモキャットd]
+[charaSet F 98103700 1 偽タマモキャットm]
+[charaPut E 0,-250]
+
+[scene 31000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽タマモキャット
+ぐぬヌ……[r]結構なお手前でキャット灰だらケ……
+[k]
+
+＠偽タマモキャット
+ニャンつーかアレダー……そもそもアタシ、[r]魔法少女の概念とかよく分からヌ……
+[k]
+
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[messageOff]
+[charaTalk off]
+[se ad42]
+[charaEffect D bit_talk_06b2]
+[wt 0.4]
+[charaEffectStop D bit_talk_06b2]
+[charaFadeout D 1.0]
+[charaFadeout E 0.1]
+[wt 0.7]
+[charaShadow E false]
+[charaFilter F silhouette 00000080]
+[charaFadein F 0.4 1]
+[wt 1.4]
+
+[se ad148]
+[charaFadeout F 0.7]
+[wt 0.8]
+[seStop ad148]
+[wt 0.7]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+……！？[r][#魔法の杖:ステッキ]になって壊れちゃった！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+どうやらあの[#魔法の杖:ステッキ]がいろいろと[r][#真似っこ:エミュレート]してたようです？
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+人格に引きずられてか、だいぶ壊れ気味でしたが、[r]それでも人間形態を模倣するとはやりますねー。
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_34 0.1]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+ルビーちゃんもあの機能、欲しいです！☆
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+＠イリヤ
+ぜったいにロクなことにならないって断言できる！
+[k]
+
+？1：偽サーヴァントというより偽魔法少女だった[&のか……:？]
+？！
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+この奇妙な空間内でしたらありえますね！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+とりあえずは実際のサーヴァントでは[r]なかったと解って一安心ですが……
+[k]
+
+[charaFace A 12]
+＠マシュ
+敵意をもって挑みかかってくる相手、という点以外は[r]結局判明しませんでしたね？
+[k]
+
+？1：出会った相手が悪かった[&気もする:かな？]
+
+[charaFace A 4]
+＠マシュ
+できれば、お話の通じるエネミーさんを……[r]というのも妙な望みでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+
+？2：確かにどことなく魔法少女っぽかったような
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠イリヤ
+うん。[r]希望はともかく夢は詰まっていた気がします。
+[k]
+
+[charaFace C 5]
+＠イリヤ
+……それに、なんとなく聞き覚えの[r]ある声だった気もする……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+おっと、フラグに見せかけたメタ発言！[r]ここにクロさんがいたらもっとカオスでしたのにー。
+[k]
+
+？！
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+とにかくあれが最後の偽サーヴァント[r]とは思えませんね……！
+[k]
+
+[charaFace C 4]
+＠イリヤ
+また遭遇しちゃうのかな……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠イリヤ
+あれっ……？　でも、この寄り道って[r][%1][&お兄さん:お姉さん]次第？
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_34 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

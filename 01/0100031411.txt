@@ -1,0 +1,57 @@
+＄01-00-03-14-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21250 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+よし、乗りこむよ！[r]……といっても[#弓兵:アーチャー]ばっかりか。
+[k]
+
+[charaFadeout D 0]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アタランテ
+私は行くぞ。アーチャーだからといって、[r]接近戦ができない訳でもないしな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ダビデ
+それじゃ、僕もちょっと行ってくるか。[r]死んだら死んだで後はよろしく～。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+マシュ・キリエライト、行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

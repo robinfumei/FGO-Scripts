@@ -1,0 +1,379 @@
+＄01-00-03-13-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21340 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98019000 1 イアソン]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaSet F 3016000 1 ヘクトール]
+[charaFace D 0]
+[charaTalk E]
+[charaFadein D 0 0]
+[charaFace E 0]
+[charaFadein E 0 2]
+[fadein black 1]
+[wait fade]
+＠メディア・リリィ
+あの島です。
+[k]
+
+＠イアソン
+そうか、そうかあ。[r]エウリュアレは殺されていないね？
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+ええ、生きておりますわ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ヘクトール
+……狙われているのがわかっていながら、ねぇ……[r]どんな判断なんだか。
+[k]
+
+[charaFace F 1]
+＠ヘクトール
+……ま、いいでしょ、あっちの選択だ。[r]こっちの判断はこっちの船長にお任せしますよ。
+[k]
+
+[charaFace D 1]
+＠イアソン
+よし、いいぞ！　天運はやはり我々にある！[r]ヘラクレス、メディア、ヘクトール！
+[k]
+
+[charaFace D 0]
+＠イアソン
+あの島に上陸し、[r]『[#契約の箱:アーク]』とエウリュアレを奪え！
+[k]
+
+[charaFace D 4]
+＠イアソン
+私は[line 2]。
+[k]
+
+[charaFace F 2]
+＠ヘクトール
+おっと！
+[k]
+
+[se ad32]
+[wait se ad32]
+[charaFace D 4]
+＠イアソン
+何だ、矢か？　……馬鹿な奴らだ。[r]この程度の矢が、ヘラクレスに効くとでも[line 2]。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠メディア・リリィ
+……っ！
+[k]
+
+[se ad39]
+[charaFace E 2]
+＠メディア・リリィ
+違います。[r]これは[line 2]イアソンさまを狙っています！
+[k]
+
+[charaFace D 0]
+＠イアソン
+……え？
+[k]
+
+[charaFadeout E 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_4 0.1]
+[wait wipe]
+＠アタランテ
+さて、遠慮なく宝具の大盤振る舞いをさせて貰おうか。
+[k]
+
+[messageOff]
+[charaEffect E bit_talk_36]
+[se ad39]
+[flashin once 0.4 1.2 FFFFFF80 00000000]
+[wt 0.5]
+[charaFace E 2]
+＠アタランテ
+[#太陽神:アポロン]と[#月女神:アルテミス]に捧ぐ[line 2]。[r]『[#訴状の矢文:ポイボス・カタストロフェ]』！！
+[k]
+
+[charaEffectStop E]
+[wait charaEffect E]
+[charaFadeout E 0.1]
+[wt 0.3]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 3]
+[charaFadein H 0.1 0]
+＠アルテミス
+あらやだ。[r]捧げられちゃった♪
+[k]
+
+[charaFace H 0]
+＠アルテミス
+……どしたの、ダーリン？[r]頭抱えてぷるぷる震えて。
+[k]
+
+[charaFace G 4]
+＠オリオン
+いや……アポロンの名を聞くと条件反射で……。
+[k]
+
+[charaFace H 1]
+＠アルテミス
+ふふ。それじゃ、私も行っくよ～！[r]宝具展開！　愛を唄うわ！[r]『[#月女神の愛矢恋矢:トライスター・アモーレ・ミオ]』！！
+[k]
+
+[messageOff]
+[charaEffect H bit_talk_36]
+[se ad39]
+[flashin once 0.4 1.2 FFFF80FF 00000000]
+[wt 0.5]
+[charaEffectStop H]
+[wait charaEffect H]
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[wt 0.3]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠エウリュアレ
+あんな最低男に私の宝具をやるのは[r]勿体ないかもだけど。[r]ま、いいわ。遠慮なく、贈ってあげる。[r]宝具[line 2]『[#女神の視線:アイ・オブ・ザ・エウリュアレ]』！
+[k]
+
+[messageOff]
+[charaEffect B bit_talk_36]
+[se ad39]
+[flashin once 0.4 1.2 ff00ff80 00000000]
+[wt 0.5]
+[charaEffectStop B]
+[wait charaEffect B]
+[charaFadeout B 0.1]
+[wt 0.3]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ダビデ
+いやあ、モテモテで羨ましいなイアソン君。[r]これはそんな僕からのお裾分け。[r]宝具[line 2]『[#五つの石:ハメシュ・アヴァニム]』！
+[k]
+
+[messageOff]
+[charaEffect F bit_talk_36]
+[se ad39]
+[flashin once 0.4 1.2 00800080 00000000]
+[wt 0.5]
+[charaEffectStop F]
+[wait charaEffect]
+[charaFadeout F 0.4]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21340 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98019000 1 イアソン]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaSet F 3016000 1 ヘクトール]
+[charaSet G 7001001 1 ヘラクレス]
+[charaFace F 2]
+[charaFadein F 0.4 1]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_4 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait wipe]
+＠ヘクトール
+うわお、宝具の集中攻撃だ。[r]ったく、わずらわしい、なっと……！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein E 0.4 1]
+[charaFace E 2]
+＠メディア・リリィ
+Ａランクの攻撃も混じっています……！[r]隙ができません……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠イアソン
+な、なんだよ！　なんでオレばっかり[line 2][r]この、卑怯者め！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠メディア・リリィ
+どうか冷静に、マスター。[r]あなたは私が護ります……！
+[k]
+
+[charaFace D 4]
+＠イアソン
+あ、ああ、ありがとうメディア。[r]……けど未熟なおまえだけじゃ……
+[k]
+
+[charaFace D 2]
+＠イアソン
+よし、ヘクトール！　ヘクトールも残れ！[r]サーヴァントらしく私を護れ！
+[k]
+
+＠イアソン
+ヘラクレス！　どうせアーチャークラスだ。[r]おまえの一撃で挽き潰せ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace G 2]
+[charaFadein G 0.4 1]
+[voice 700100_0_B030]
+＠ヘラクレス
+[image berserker_language_1][line 6]！！
+[k]
+
+[se ad36]
+[charaFadeout G 0.1]
+[wt 0.5]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メディア・リリィ
+……はあ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ヘクトール
+……ここまでは敵さんの思惑通りか。
+[k]
+
+[charaFace F 5]
+＠ヘクトール
+けど、ヘラクレスを相手にどうする気だ？[r]牛頭ならともかく、あの盾女じゃ力不足だ。
+[k]
+
+[charaFace F 0]
+＠ヘクトール
+ヘラクレスを倒す方法なんざＡランクの宝具持ちを[r]十二人集めるか、あるいは……
+[k]
+
+[charaFace F 1]
+＠ヘクトール
+いやいや、まさかな。[r]そこまで命を張る理由はないだろ、未来の魔術師さん？
+[k]
+
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaFace B 5]
+[charaFadein B 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠エウリュアレ
+来たわよ、[%1]。[r]……いいえ、マスター。
+[k]
+
+[charaFace B 1]
+＠エウリュアレ
+しっかりと私の身を守りなさい！
+[k]
+
+？1：わかった
+
+？2：逃げるぞ
+
+？！
+
+[charaSet C 98003003 1 Dr.ロマン]
+＠Dr.ロマン
+経路は僕が指し示す！[r][%1][&君:ちゃん]はとにかく走ればいい！
+[k]
+
+[charaFace B 2]
+＠エウリュアレ
+ええ、行くわよ！
+[k]
+
+[charaFadeout B 0]
+[charaTalk G]
+[charaFadein B 0.1 2]
+[charaSet G 7001001 1 ヘラクレス]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+[voice 700100_0_B030]
+＠ヘラクレス
+[image berserker_language_2][line 6]！！！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+予想通り、エウリュアレさんを狙ってきました！[r]まず、ここで抑えます！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+よし、とことんまで援護するよ！[r]マシュ、この作戦はアンタに懸かってる！
+[k]
+
+＠ドレイク
+踏ん張りどころだ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠アタランテ
+マシュは私が連れて行く。
+[k]
+
+[charaFace A 2]
+＠マシュ
+はい！[r]……マシュ・キリエライト、行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

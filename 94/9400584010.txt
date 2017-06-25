@@ -1,0 +1,265 @@
+
+＄94-00-58-40-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet E 3025000 1 清姫]
+[charaSet F 3001001 1 クー・フーリン]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+まあまあ、なんと立派なお武家様のお屋敷でしょう！
+[k]
+
+[charaFace E 3]
+＠清姫
+わたくしのためにこのような……[r]感謝いたします、ますたぁ？　愛ですね？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+確かに、これは素敵な居住空間になりそうですね。[r]とりあえずみんなで中を見てみましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠清姫
+ええ、まずは庭から！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォーウ！
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFadeout H 0.1]
+
+[wt 1.0]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+ふむ……何やら懐かしい感じがします。[r]落ち着く、といいますか……。
+[k]
+
+[charaFace B 6]
+＠アルトリア
+ここは蔵ですか？　なるほど……。
+[k]
+
+[charaFace B 0]
+＠アルトリア
+もっと壊れたガラクタをたくさん置いて物置に[r]すれば、さらに落ち着く感じがありますね。ええ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠清姫
+では中へ。広いお台所と居間でございますね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠クー・フーリン
+内装も凝ってやがるな。……ん？　何か、ここで槍を[r]構えるのがしっくりくるような気が……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠清姫
+構えまでなら許しますが、実際暴れて障子を破ろうものなら、[r]問答無用で焼き殺しますよ？
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFace E 0]
+
+[wt 1.0]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+＠清姫
+だいたい見て回りましたでしょうか……。[r]それでは最後に、ささ、ますたぁはこちらへ。
+[k]
+
+＠清姫
+ぷらいべーとな場所なので、皆様はまた別の場所を[r]見て回るのがよろしいかと。
+[k]
+
+[charaFace E 1]
+＠清姫
+準備がありますので、わたくしは先にこのお部屋に[r]入らせていただきますが。
+[k]
+
+[charaFace E 3]
+＠清姫
+ますたぁは五分ほど経ってから来てくださいね？[r]それでは[line 2]
+[k]
+
+[messageOff]
+
+[charaFadeout E 0.5]
+[scene 20320 1.0]
+[wait scene]
+[se ad37]
+[wt 3.0]
+
+[seStop ad37 1.5]
+[scene 21100 1.0]
+[wait scene]
+
+？1：もういいかな。入るよー？
+？2：五分経ったけど……
+？！
+
+＠清姫
+…………。
+[k]
+
+[messageOff]
+[se ad103]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+[seStop ad103 0.1]
+
+[scene 10000]
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウフォウ。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+
+？1：ここは……寝室？　そして、真ん中に[line 2]
+？！
+
+
+[se ad77]
+＠布団
+……（もぞもぞっ）
+[k]
+
+＠布団
+ここはますたぁの寝室です。とても大事な場所ですので、[r]試し寝、が必要かと思います。
+[k]
+
+＠布団
+布団を敷いておきましたので、どうかご存分に[r]寝心地を確かめてくださいませ。ささ。
+[k]
+
+＠布団
+え、わたくし？　わたくしがどこにいるかは……ふふ、[r]どうぞお構いなく……？
+[k]
+
+？1：…………
+？！
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ？
+[k]
+
+
+？1：フォウくんに一番寝を譲ろう……
+？！
+
+＠フォウ
+[FFFFFF]？
+[k]
+
+？1：フォウくんを布団の中に入れる
+？2：フォウくんを生贄に捧げる
+？！
+
+[charaFadeout H 0.1]
+
+[se ad77]
+＠布団
+きゃー、ますたぁ、きゃー！　ついにわたくしの[r]愛を受け入れてくださるときが！　ぎゅーっ！
+[k]
+
+[seLoop ad111]
+＠フォウ
+フォーウ！？
+[k]
+
+[seStop ad111 0.2]
+
+＠布団
+ああん、ますたぁ、意外と毛深、うふふそんなところも[r]ワイルドで素敵ー！　
+[k]
+
+
+？1：ごゆるりと……
+？！
+
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+[charaShake H 0.05 3 3 0]
+
+＠フォウ
+フォウ、フォーウー！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

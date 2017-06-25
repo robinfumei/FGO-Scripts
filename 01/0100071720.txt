@@ -1,0 +1,115 @@
+
+
+
+＄01-00-07-17-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1 0.7]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 2020001 1 イシュタル]
+
+[se ad55]
+[seVolume ad55 0 0.3]
+
+[scene 32700]
+[fadein black 2.0]
+[wt 1.0]
+[se ad162]
+[seVolume ad162 0 0.2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+エリドゥに到着しました！[r]人の気配は[line 3]なんでしょう、この騒ぎは！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+生体反応、多いぞ！[r]五百、いや六百人分はいる！　連れ去られた人たちだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+全員広場に集められているのね！？[r]ラフムの反応は！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+もちろんある！　魔力反応は二百超、全体に比べれば[r]少ないが我々にとっては絶望的な戦力差だ！
+[k]
+
+＠Dr.ロマン
+みんな、気持ちは分かるが慎重に行動してくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+そうは言っても、一刻の猶予もありません！[r]集められているという事は、最悪の事態が予想されます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠イシュタル
+落ち着いて、戦わないとは言っていないわマシュ。[r][#迅速:じんそく]に行動して、[#速攻:そっこう]で状況を把握して、
+[k]
+
+＠イシュタル
+最適の位置取りをしてから仕掛けるのよ。[r]一度に相手にできて四匹が関の山だものね。
+[k]
+
+＠イシュタル
+アイツらと正面から戦うのは、[r]せめて弱点なり欠点なりが分かってからよ……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+！　前方にラフム、一体発見！[r]こちらに気付きました！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+単体か、なら戦闘をしかけてもいい！[r]仲間を呼ばれる前に無力化するんだ！
+[k]
+
+
+[messageOff]
+[seStop ad55 0.4]
+[seStop ad162 0.4]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[shakeStop]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]

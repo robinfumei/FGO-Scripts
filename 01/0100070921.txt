@@ -1,0 +1,520 @@
+
+
+
+＄01-00-07-09-2-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 98106900 1 ティアマト]
+[charaSet F 4014001 1 NPC]
+[charaSet G 4014001 1 NPC]
+
+
+[bgm BGM_EVENT_24 0.1]
+[scene 32940]
+[fadein black 1.5]
+[wait fade]
+[charaScale E 1.01]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+
+
+＠ティアマト
+不可解だ。[r]不思議な話、というものを初めて実感したぞ。
+[k]
+
+＠ティアマト
+そのような脆弱さ、そのような生命力で、[r]まだ五体があろうとは。道理が合わぬとはこの事よ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ティアマト神、損傷が見当たりません……！[r]なんとか傷をつけても瞬く間に再生します……！
+[k]
+
+＠マシュ
+あれがメソポタミアの創世神話における、[r]魔獣の母の権能なのでしょうか……！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マーリン
+いや。あれは女神としての権能じゃない。[r]聖杯の魔力提供による回復だ。
+[k]
+
+＠マーリン
+いま確認したとも。[r]魔術王の聖杯は、あのサーヴァントが持っている……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠ティアマト
+ほう。目利きが効く者もいるようだ。[r]確かに魔術王めの聖杯は私が預かっている。
+[k]
+
+＠ティアマト
+だが侮るな。私は聖杯の魔力なぞ使っておらぬ。[r]この身は魔獣の女神として現界したもの……
+[k]
+
+＠ティアマト
+人間どもの[#殲滅:せんめつ]に余所の力など借りるものか。
+[k]
+
+[messageOff]
+[cameraMove 0.4 0,-50 1.1]
+[wait camera]
+[charaPut B 0,170]
+[charaEffect B bit_talk_41]
+[se bas1]
+[wt 0.2]
+[charaFace E 3]
+＠ティアマト
+我が力、我が憎しみ、我が怒りだけで、[r]貴様らを三度滅ぼすに余りあるわ！
+[k]
+
+[wt 0.4]
+[messageOff]
+
+[se ad14]
+[shake 0.05 3 3 3.0]
+[cameraHome 1.5]
+[wait camera]
+
+[wt 1.5]
+[charaEffectStop B bit_talk_41]
+[wt 0.3]
+[charaFadeout E 0.1]
+[seStop ad14 1.0]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+っ、女神の権能だけでも歯が立たないのに、[r]切り札の聖杯まで所有しているのか……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ティアマト
+さて……不思議の筋は十分に堪能した。[r]泣きながら死ぬがいい。戯れはここまでだ……！
+[k]
+
+
+？1：逃げるぞ、みんな……！
+
+？！
+
+[messageOff]
+[se ad59]
+[charaFadeout E 0.4]
+[wt 0.4]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[cameraMove 0.1 40,-50 1.1]
+[shake 0.05 0 2 0]
+[wt 0.1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 -100,0]
+＠マシュ
+ニップルの門まであと100メートル……！[r]でも……だめ、大きさが違いすぎる……！
+[k]
+
+＠マシュ
+手を伸ばすだけで追いつかれる……！[r]せめて、先輩だけでも……！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.2 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[seStop ad59]
+[cameraMove 0.1 -40,-50 1.1]
+[shakeStop]
+[wt 0.1]
+[wipein rectangleStripRightToLeft 0.2 1]
+[wait wipe]
+[se ad73]
+[wt 0.4]
+[effect bit_talk_42]
+＠牛若丸
+いえ、よくぞ持ちこたえた！[r]後はお任せを、マシュ殿！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.2 1]
+[wait wipe]
+[seStop ad55 0.4]
+[effectStop bit_talk_42]
+[cameraMove 0.1 0,-50 1.1]
+[wt 0.1]
+[charaShakeStop A]
+[wipein rectangleStripRightToLeft 0.2 1]
+[wait wipe]
+
+[se ad59]
+[shake 0.05 0 2 0]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+う、牛若丸さん！？
+[k]
+
+？1：牛若丸！？
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.2 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[effect bit_talk_42]
+[se ad59]
+[wt 0.1]
+[wipein rectangleStripLeftToRight 0.2 1]
+[wait wipe]
+[se ad73]
+
+＠牛若丸
+振り返らず、門まで走り抜けくださいませ！[r]あの怪物の足止めは私が！
+[k]
+
+？2：弁慶は！？
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.2 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[effect bit_talk_42]
+[wt 0.1]
+[wipein rectangleStripLeftToRight 0.2 1]
+[wait wipe]
+[effect bit_talk_42]
+
+＠牛若丸
+あやつは私の脚には追いつけませぬ！[r][line 3]後で気にするな、と伝えてくだされば結構！
+[k]
+
+？！
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.2 1]
+[wait wipe]
+[effectStop bit_talk_42]
+[seStop ad59 1.0]
+[cameraHome 0.1]
+[wait camera]
+[shakeStop]
+[wt 2.0]
+[fadeout black 0.1]
+[wait fade]
+[wipein rectangleStripRightToLeft 0.1 1]
+[wait wipe]
+[fadein black 1.5]
+[se ad55]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+
+[seStop ad55 1.5]
+＠牛若丸
+それで良し、です[%1]殿。[r]どうか晴れやかに。笑顔なき者に大義は訪れません。
+[k]
+
+[charaFace D 5]
+＠牛若丸
+生前の私[line 3][#源義経:みなもとのよしつね]にそれはなかった。[r]故に、戦に勝とうと最後まで負け続けた。
+[k]
+
+[charaFace D 1]
+＠牛若丸
+貴殿には、そのような結末は似合いませんとも。
+[k]
+
+[messageOff]
+[seStop ad55 0.4]
+[se ad51]
+[wt 0.4]
+[charaMove D 0,-50 0.2]
+[wait charaMove D]
+[se ad73]
+[charaMove D 0,50 0.1]
+[wait charaMove D]
+[charaFadeout D 0.1]
+[wt 0.1]
+[messageOff]
+[wipeout downToUp 0.2 1]
+[wait wipe]
+[se ad171]
+[wipein upToDown 0.2 1]
+[wait wipe]
+[charaTalk depthOff]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[charaDepth B 1]
+[charaPut B 300,-200]
+[charaEffect B bit_talk_ichimon01re]
+[se bac95]
+[charaShake E 0.1 3 3 0.7]
+[wt 1.0]
+
+＠ティアマト
+[line 3]小虫が一匹増えたか。[r]目障りだ、潰れるがいい！
+[k]
+
+
+[messageOff]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[wt 0.1]
+[wipein downToUp 0.2 1]
+[effect bit_talk_goltail01]
+[wait wipe]
+
+[se bac78]
+[wt 2.5]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,50]
+[se ad73]
+[effectStop bit_talk_goltail01]
+[charaMove D 1 0.1]
+[wait charaMove D]
+＠牛若丸
+笑止！[r]宮本某ではあるまいに、その[#図体:ずうたい]で虫が掴めるか！
+[k]
+
+[effect bit_talk_42]
+[se ad73]
+[wt 0.4]
+[se ad73]
+[charaMove D -1000,0 0.2]
+[messageOff]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[wait charaMove D]
+[charaFadeout D 0.1]
+[effectStop bit_talk_42]
+[voice NP_401400_1]
+[scene 10000]
+[fadeMove black 0.1 0.4]
+[wt 0.1]
+[wipein downToUp 0.2 1]
+[wait wipe]
+
+[charaPut F -400,-200]
+[charaEffect F bit_talk_14]
+[wt 0.5]
+[charaPut G 350,-160]
+[charaEffect G bit_talk_14]
+[wt 0.5]
+[charaPut F -300,-120]
+[charaEffect F bit_talk_14]
+[wt 0.4]
+[charaPut G 250,-80]
+[charaEffect G bit_talk_14]
+[wt 0.3]
+[charaPut F -200,-40]
+[charaEffect F bit_talk_14]
+[wt 0.3]
+[charaPut G 150,0]
+[charaEffect G bit_talk_14]
+[wt 0.2]
+[charaPut F -100,40]
+[charaEffect F bit_talk_14]
+[wt 0.2]
+[charaPut G 50,80]
+[charaEffect G bit_talk_14]
+[wt 0.6]
+[fadein black 0.1]
+[wt 0.1]
+[charaPut F 0,0]
+[charaEffect F bit_talk_21]
+[wt 0.5]
+[charaClear F]
+[charaClear G]
+[wt 0.7]
+
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[scene 32940]
+[wt 0.1]
+[wipein downToUp 0.2 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ティアマト
+！　貴様、我が尾の上を……！
+[k]
+
+
+[messageOff]
+[wipeout downToUp 0.2 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[wt 0.1]
+[wipein upToDown 0.2 1]
+[wait wipe]
+
+[charaTalk D]
+[se ad73]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+その[#蛇身:じゃしん]が仇になったな！
+[k]
+
+＠牛若丸
+遮那王流離譚が二景、薄緑・天刃縮歩[seStop ad59 0.4]！[r][line 3]御[#眉間:みけん]、貰った！
+[k]
+
+
+[messageOff]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[se ad73]
+[cameraMove 0.1 0,-60 1.2]
+[wait camera]
+[wipein downToUp 0.2 1]
+[wait wipe]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[charaDepth B 1]
+[charaPut B 0,65]
+[charaEffect B bit_talk_ichimon01re]
+[voice NP_401400_2]
+[charaShake E 0.05 3 3 0.4]
+[wt 1.0]
+
+
+[cameraHome 0.4]
+[wait camera]
+
+＠ティアマト
+ぐっ、我が顔に[#刀傷:かたなきず]など……！[r]許さぬ、消えよ！
+[k]
+
+
+[messageOff]
+[se ad75]
+[wipeout rightDownToLeftUp 0.2 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[scene 20320]
+[wt 0.1]
+[wipein leftUpToRightDown 0.2 1]
+[effect bit_talk_goltail01]
+[wait wipe]
+
+[se ad85]
+[wt 1.0]
+[effectStop bit_talk_goltail01]
+
+[fadeout white 0.4]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[charaFadeout D 0.1]
+[scene 20320]
+[wt 2.0]
+[effect bit_sepia01]
+[fadein white 1.5]
+[wait fade]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+[bgm BGM_EVENT_11 0.1]
+
+＠牛若丸
+（これは……どうしようもないな。[r]　舟がなければ空も駆けられない）
+[k]
+
+＠牛若丸
+（箸で掴むのは達人技だが、[r]　はたき落としであれば熊でも政子様でも出来るというもの）
+[k]
+
+＠牛若丸
+（しかし、最期が蛇の尾の一撃とは。[r]　私の武運も、ほとほと格好がつきませんね[line 3]）
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_11 3.0]
+[fadeout white 3.0]
+[wait fade]
+[scene 10001]
+[charaFadeout D 0.1]
+[effectStop bit_sepia01]
+[wt 1.0]
+[fadein white 0.1]
+[wait fade]
+[effect bit_talk_12]
+[wt 0.1]
+[se bac151]
+[se bac70]
+[wt 1.0]
+[fadeout white 0.1]
+[wait fade]
+[scene 32940]
+[fadein white 2.0]
+[se ad34]
+[shake 0.05 0 5 0.7]
+[wt 0.7]
+[se bac78]
+[effect bit_talk_goltail01]
+[wait fade]
+[effect bit_talk_35]
+[charaShake D 0.01 2 2 0.7]
+[charaFace D 4]
+[shake 0.05 0 5 0.4]
+[flashin once 0.2 0.1 FF0000FF FF000000]
+[wt 0.3]
+[flashin once 0.2 0.1 FF0000FF FF000000]
+[se ad161]
+
+
+[wt 2.0]
+
+[messageOff]
+[fadeout black 3.0]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+
+

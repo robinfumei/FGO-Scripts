@@ -1,0 +1,506 @@
+
+＄01-00-05-09-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5016001 1 ジェロニモ]
+[charaSet C 2010001 1 ビリー]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 1014001 1 フェルグス]
+[charaSet F 98022000 1 密偵]
+[charaSet G 1006001 1 ネロ・ブライド]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+森を抜けました。[r]ロビンさん、あそこに見える街ですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ロビンフッド
+そうそう、そこよ。[r]……ん？　誰か来てるぜ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+ああ、あれは味方だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[wt 0.1]
+[charaFace F 0]
+[charaFadein F 0.4 0]
+＠密偵
+ジェロニモ。[r]報告だ。
+[k]
+
+＠ジェロニモ
+うむ。[r]……なるほど。済まない、引き続き調査を頼む。
+[k]
+
+[charaFadeout F 0.4]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠ビリー
+今の人たち、誰？
+[k]
+
+＠ジェロニモ
+ケルトの戦士たちの追跡調査を行ってもらっている。[r]特に彼らが「何処から」来ているのかを中心にな。
+[k]
+
+＠ジェロニモ
+……セイバーを仲間に引き入れることができたら、[r]改めて検討しよう。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+あー、気が進まねぇなあ……。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+
+[scene 11210]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+＠G：？？？
+♪ふん、ふん、ふふ～ん、ふぅぅぅん[r]……よし、これで土台はできたな。
+[k]
+
+[charaFace G 4]
+＠G：？？？
+現状の町並みでは残念なことに、[r]ウェスタンしか撮影できないが[line 2]。
+[k]
+
+[charaFace G 1]
+＠G：？？？
+なに、余の類い希なる名演技を以てすれば、[r]西部劇とてアカデミックな賞ゲットであろう！
+[k]
+
+[charaFace G 0]
+＠G：？？？
+ぷろでゅーさーと、でぃれくたーと、脚本と、音楽と、[r]主演は余が兼任するとして……。
+[k]
+
+[charaFace G 2]
+＠G：？？？
+いかん！[r]カメラマンがいないではないか[line 2]っ！
+[k]
+
+[charaFace G 0]
+＠G：？？？
+むぅ、どうするべきか……いや、ついに余も[r]召喚術にチャレンジする時が来た……と見るか。
+[k]
+
+＠G：？？？
+しかし余は天才すぎて大物を喚んでしまうかもしれん……[r]イーストウッドとスコット、この二択か……
+[k]
+
+＠E：？？？
+ほほう。ハリウッド、か。[r]面白いことを考えるサーヴァントもいたものよ。
+[k]
+
+[charaFace G 2]
+＠G：？？？
+む、何やつ！？[r]余は忙しい。カメラマンでなければ退がっておれ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.4 0]
+[wt 0.4]
+＠フェルグス
+おお、失礼した。我が名はフェルグス。[r]かつて赤枝騎士団で禄を食んでいた者よ。
+[k]
+
+＠フェルグス
+本来ならばカメラマンを自称し、おまえを口説くのも[r][#吝:やぶさ]かではないのだが[line 2]込み入った事情があってな。
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+[charaFace G 0]
+＠G：？？？
+ほう？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace E 5]
+＠フェルグス
+問答無用で、おまえを殺す。[r]恨むなら、俺だけを恨むがいい。
+[k]
+
+＠フェルグス
+何しろ我欲だ。[r]おまえを殺すのは、我欲に他ならないのだからな。
+[k]
+
+＠G：？？？
+ふむ。何やら事情があるようだが、聞くまい。[r]余を殺すとは大きく出たな。
+[k]
+
+[charaFace G 1]
+＠G：？？？
+自慢ではないが、このネロ・クラウディウス[line 2][r]易々と殺されるほど生半可なサーヴァントではないぞ？
+[k]
+
+[charaFace E 4]
+＠フェルグス
+……あのローマ帝国の暴君ネロか……！[r]これはまた希有なサーヴァントと遭遇した。
+[k]
+
+[charaFace E 1]
+＠フェルグス
+他の凡庸な連中とは輝きが違うはずだ。[r]これはたぎる。たぎること瀑布の如しよ。
+[k]
+
+[charaFace G 0]
+＠ネロ・ブライド
+凡庸な……連中？
+[k]
+
+＠フェルグス
+然様。ここに至るまでに[r]三騎ほどサーヴァントを屠っていてな。
+[k]
+
+[charaFace E 5]
+＠フェルグス
+お前で四騎目、という訳だ。
+[k]
+
+[charaFace G 1]
+＠ネロ・ブライド
+ふむ、それはそれは。
+[k]
+
+＠ネロ・ブライド
+だが残念ながら外れだ、偉大なる騎士の一人、[r]フェルグス・マック・ロイよ。
+[k]
+
+[charaFace G 0]
+＠ネロ・ブライド
+[#貴様が四騎目だ]。
+[k]
+
+[charaFace E 1]
+＠フェルグス
+[line 2]なるほど。皇帝陛下は玉座で指図するだけが能、[r]という訳でもないらしい。
+[k]
+
+＠フェルグス
+これは愉快だ。[r]なら、連れてくる必要もなかったか……。
+[k]
+
+[charaFace E 0]
+＠フェルグス
+いいだろう。セイバー、フェルグス。[r]女王の騎士として、お相手しよう。
+[k]
+
+＠ネロ・ブライド
+だが、何より見誤っているのは貴様の運命よな。[r]貴様は本当に運が悪い。
+[k]
+
+[charaFace E 5]
+＠フェルグス
+……何？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ネロ・ブライド
+[line 2]来ているのだろう？[r]顔の無い王よ！！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+
+[wt 0.4]
+[se bac20]
+[wait se bac20]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[wt 0.1]
+[se ad32]
+[fowardEffect bit_talk_14]
+[charaShake E 0.05 3 3 0.4]
+[wait fowardEffect bit_talk_14]
+＠フェルグス
+……ッ！！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[se bac7]
+[fowardEffect bit_talk_12]
+[wt 1.0]
+[wait fowardEffect bit_talk_12]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フェルグス
+……何者かな？
+[k]
+
+＠ロビンフッド
+へいへい、いま出てきますよっと。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[wt 0.1]
+[se ad7]
+[charaPut D 0]
+[charaSpecialEffect D appearance 0 1.0]
+[wt 1.0]
+＠ロビンフッド
+よ、ちんまい皇帝陛下。[r]っつーかよく気付いたな、アンタ。
+[k]
+
+＠ネロ・ブライド
+第六感というヤツだ。[r]余は観客の気配には敏感ゆえな。
+[k]
+
+＠ロビンフッド
+ほいほい。さすがは愛されたがりの暴君だ。[r]ま、駆けつけたのはオレだけじゃないけどね。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se ad59]
+[seStop ad59 1.5]
+[wt 0.4]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+ネロさん！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ネロ・ブライド
+ん、その声は……。[r]……どこかで聞いたような、聞いてないような……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、そうでした……ローマの時は生身でした。
+[k]
+
+[charaFace A 7]
+＠マシュ
+コホン。ネロ・クラウディウス陛下。[r]わたしはマシュ・キリエライトと申します。
+[k]
+
+＠マシュ
+微力ながら、わたしたちも協力させてください。
+[k]
+
+？1：ああ、ローマでの恩を返す！
+？2：改めて、共に戦う栄誉を！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ネロ・ブライド
+む？　やはり一度どこかで会ったか？[r]であれば信用に足る。
+[k]
+
+[charaFace G 1]
+＠ネロ・ブライド
+というか、貴様らは共に好みだ！[r]よい顔をしている！
+[k]
+
+＠ネロ・ブライド
+余と肩を並べる栄誉を許す！[r]よろしく頼むぞ、懐かしい異邦人よ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+……ふふ、マスター。[r]やっぱり、ネロさんはネロさんですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠フェルグス
+ふむ。さすがにこの数で戦うは無謀か。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+降伏してくれるんなら、[r]それに越したことはないけどねえ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠フェルグス
+[line 2]は、まさか。
+[k]
+
+[charaFace E 2]
+＠フェルグス
+ならば、こちらも遠慮なく女王の力を借りるとするか！[r]出てこい、誇り高き戦士たちよ！
+[k]
+
+[charaSet F 99360000 1 ケルト兵１]
+[charaSet H 99360000 1 ケルト兵２]
+
+[se bac1]
+
+[wt 0.4]
+[charaFadein F 0.4 0]
+[charaFadein H 0.4 2]
+
+[wait se bac1]
+
+[wt 0.7]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠ネロ・ブライド
+……！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+チッ、潜んでやがったか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠フェルグス
+七対一ではさすがに勝てぬが、[r]百対七ならばそれなりに拮抗するだろう。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+あっちゃあ……こりゃサボる暇もなさそうだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠ネロ・ブライド
+ネズミ、怠慢は許さぬぞ。[r]余の下で働くのなら死力を尽くすがよい。
+[k]
+
+[charaFace D 5]
+＠ロビンフッド
+あいよ。それじゃあ、ちょいとばかり[line 2][r]正義の味方、やらせてもらいますかねえ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

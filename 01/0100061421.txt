@@ -1,0 +1,364 @@
+＄01-00-06-14-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet F 5022001 1 三蔵]
+[charaSet G 2014000 1 俵藤太]
+
+[scene 11800]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.2]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+＠G：トータ
+うむ、お見事！[r]実に見応えのある仕合だった！
+[k]
+
+＠G：トータ
+拙者も思わず握り拳、空腹も相まって自分の手を[r]食べるところであった！　うむ、よっと。
+[k]
+
+[charaFadeout G 0.7]
+[se ad91]
+[wt 3.0]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+いま普通に牢屋から出てきましたか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠G：トータ
+そりゃあ、いつでも出られたからな。[r]だが寝太郎にも飽いた。そろそろ働き時とみた。
+[k]
+
+＠G：トータ
+で、お主らはこの砦を襲いに来た者たちだな？[r]ははは、言うな言うな、皆まで言うな！
+[k]
+
+＠G：トータ
+なにしろ三蔵を仲間にするほどのお人好し！[r]誰も彼もとびっきりの善人だろう！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+トータ！　みんなにいきなり失礼でしょう！[r]まずは挨拶なさい！　猿ですかアナタは！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠G：トータ
+む？　確かに互いに名前も知らんな。[r]拙者も舞い上がっていた。すまぬ。
+[k]
+
+＠G：トータ
+サーヴァント、アーチャー。真名を[#俵藤太:たわらとうた]と申す。[r]縁あってそこの坊主のお守りをしていた者だ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace G 6]
+[charaFadein G 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠三蔵
+お守りじゃなくて護衛！[r]もう、何度も言ったでしょー！？
+[k]
+
+＠三蔵
+アナタはあたしの弟子なんだからねって。
+[k]
+
+＠三蔵
+いいこと？　弟子っていうのはね、[r]お師匠のことを何がなんでも守らなきゃいけないの。
+[k]
+
+＠三蔵
+お師匠の言葉も守らなきゃいけないし、[r]お師匠の安全も守らなきゃいけないのっ。
+[k]
+
+[charaFace F 4]
+＠三蔵
+だ・か・ら！[r]……あんまり、心配させないでよね。
+[k]
+
+＠三蔵
+約束しなさいね。[r]破ったら、仏さまの掌底でドーンだからね。
+[k]
+
+[charaFace G 4]
+＠俵藤太
+お、おう。すまん。[r]まさかお主がそこまでしおらしくなるとは……
+[k]
+
+[charaFace G 5]
+＠俵藤太
+……む。いや、待て待て。[r]お主だ。お主だろう。
+[k]
+
+＠俵藤太
+“あの砦は絶対に面白い！”などと抜かして[r]騎士どもにケンカを売るからこの始末だ！
+[k]
+
+[charaFace G 4]
+＠俵藤太
+気がつけばひとりでいなくなりおって……[r]お主を探している間に腹が減ってな。
+[k]
+
+＠俵藤太
+弱っていたところで紫の鎧の騎士に遭遇し、[r]打ち負かされてこの始末よ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+紫の鎧の騎士……それは円卓の騎士、でしたか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠俵藤太
+うむ。ランスロットと名乗っていた。[r]怖ろしく遊びのない、質実剛健な剣の使い手でなぁ。
+[k]
+
+＠俵藤太
+これはいかん、と早々に降伏して捕まった。[r]何はともあれ、まずは眠りたかったのだ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うわあ……戦いの最中に眠くなったから、[r]いったん負けて寝床にありついたのか……
+[k]
+
+＠Dr.ロマン
+これはまた豪快な英霊が出てきたな……[r]うん？　俵……俵……待てよ、[communicationCharaFace 2]このお侍さんは……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠俵藤太
+ともあれ、助けられたのは事実だ。[r]お主が三蔵を連れてきてくれたのか？
+[k]
+
+＠俵藤太
+では礼を言わせてくれ。[r]よく間に合ってくれた。無論、三蔵の事だが。
+[k]
+
+？1：はい。よろしくお願いします
+
+[charaFace G 3]
+＠俵藤太
+いや、礼節もできているとは。[r]拙者こそ、しばし世話になるぞ[%1]！
+[k]
+
+？2：その俵、なんですか？
+
+[charaFace G 3]
+＠俵藤太
+これか？　ふっふっふ……それは後のお楽しみだ。[r]太陽の恵みがあればどーん、どーん、とな！
+[k]
+
+？！
+
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+それよりトータ。[r]あたしたち、囚人をもう一人探しているの。
+[k]
+
+＠三蔵
+アナタ、知らない？[r]そこのガイコツの人と同じらしいんだけど。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠俵藤太
+ぬわっ！？　サレコウベとはまた奇っ怪な！[r]痛くないのか、それ！？
+[k]
+
+[charaFace D 0]
+＠呪腕のハサン
+無論、多少はな。私の面は他の翁たちのものより、[r]強固に張り付いている故。
+[k]
+
+[charaFace G 6]
+＠俵藤太
+……ふむ、事情があるようだ。[r]無粋な問いをしたな、許されよ。
+[k]
+
+＠俵藤太
+……うむ、お主と同じ顔かは分からぬが、ここより[r]左手奥に行ったところにもうひとり囚人がいる筈だ。
+[k]
+
+[charaFace D 5]
+＠呪腕のハサン
+[line 3]有りがたい。[r]急ぎましょう、[%1]殿。
+[k]
+
+＠呪腕のハサン
+なにやらきな臭い匂いがしてきました故。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠三蔵
+ええ、急ぎましょう！　そしてトータ！[r]歩くの疲れたから、ちょっと背中に乗っけなさい！
+[k]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠俵藤太
+またそれか……。[r]お主、あまり怠けると太るぞ？
+[k]
+
+[charaFace F 5]
+＠三蔵
+ふーとーりーまーせーんー！[r]そして何度も言わせないのっ
+[k]
+
+＠三蔵
+あたしはアナタのお師匠なのよ？[r]お師匠は偉いのよ？　絶対服従なのよ？
+[k]
+
+[charaFace G 5]
+＠俵藤太
+それだ。いいか玄奘、玄奘三蔵、拙者はな、[r]お主に拝師した記憶などこれっぽっちもだな、
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠三蔵
+はいはい。[r]いいから、はい、屈んで。
+[k]
+
+[charaFace G 4]
+＠俵藤太
+……まったく。お主と言う奴は……。
+[k]
+
+[charaMove G -250,-50 0.7]
+[charaFadeout G 0.4]
+[wt 0.7]
+[charaFadeout F 0.4]
+[wt 0.4]
+[se ad7]
+[seStop ad7 0.4]
+[wt 0.7]
+
+？1：ますます三蔵ちゃんが自由に……
+？2：なんか緊張感が……
+
+？！
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+まあまあ。俵藤太と言えば極東の[#竜殺し:ドラゴンスレイヤー]にして、[r]不思議な逸話を持つ武士だ。
+[k]
+
+＠Dr.ロマン
+早くハサンを助けて村に戻ろう。[r]彼の宝具はきっと、マシュにとっても新しい発見になる。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠マシュ
+ドクター？[r]それはどういう……？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+それは実際に見て確かめてほしい。
+[k]
+
+＠Dr.ロマン
+いやはや何というか。[r]確かに、あの少女は救いの神かも知れないな。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.4]
+[wait fade]
+[wt 0.2]
+[soundStopAll]
+[end]
+

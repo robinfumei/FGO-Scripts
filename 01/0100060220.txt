@@ -1,0 +1,406 @@
+＄01-00-06-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet B 6003002 1 百貌のハサン]
+[charaSet E 5012001 1 ニトクリス]
+[charaSet F 98006300 1 ？？？]
+
+[scene 28801]
+[backEffect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.5]
+[charaEffect F bit_talk_13]
+[wt 0.1]
+[se bac11]
+[charaShake F 0.05 3 3 0.6]
+[wt 0.2]
+[charaFadeout F 0.4]
+[wt 0.7]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠B：？？？
+つぁ！？[r]私の[bgm BGM_EVENT_5 0.1]仮面が……！
+[k]
+
+？1：サーヴァント……！？
+
+[charaFace B 0]
+＠B：？？？
+……なに？[r]貴様、もしやマスターか……！？
+[k]
+
+？2：ハサンじゃん！
+
+[charaFace B 2]
+＠B：？？？
+なんだその反応は！[r]気安く私たちの名を呼ぶな、バカモノ！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFadein B 0.1 2]
+＠？？？
+く、申し訳ありませぬ、[#百貌:ひゃくぼう]様！[r]こやつらまっとうな兵士ではありませぬ！
+[k]
+
+＠？？？
+あの娘の鎧の紋様、おそらくは聖都の[line 3]
+[k]
+
+[charaFace B 5]
+＠百貌のハサン
+貴様たちは下がっていろ！[r]敵はサーヴァントだ、貴様らでは容易く殺され……
+[k]
+
+[charaFace B 1]
+＠百貌のハサン
+……殺されて、いないな。[r]峰打ち、というヤツか。
+[k]
+
+[charaFace B 5]
+＠百貌のハサン
+余裕のつもりか？　[#嘲:あざけ]りか？[r]我ら山の民など殺すに値しないと？
+[k]
+
+＠百貌のハサン
+……まあいい。[r]どうあれ命があるのなら我らの勝ちよ。
+[k]
+
+[charaFace B 1]
+＠百貌のハサン
+今回の目的は女王の奪取だ。[r]この女さえ手に入ればスフィンクス共なぞ[line 3]
+[k]
+
+＠？？？
+それが……百貌様。[r]戦いの隙に、あの手品師に……その……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+はぁい♪　手品師じゃない、天才だってば。[r]それも抜け目のない、ね。
+[k]
+
+＠ダ・ヴィンチ
+[%1][&君:ちゃん]が戦っているスキに、[r]縛られている女性は私が頂いたよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠百貌のハサン
+……！[r]貴様ら、何者だ！　オジマンディアスの手の者か！？
+[k]
+
+？1：[%1]だ！　綺麗な貴女は！？
+
+[charaFace B 3]
+＠百貌のハサン
+っ……わ、私は百貌のハサン！[r]西の頭目、山の翁の一人だ！
+[k]
+
+？2：オジマン誰です？
+
+[charaFace B 4]
+＠百貌のハサン
+誰です、と言われてもな……[r]貴様、ただの阿呆なのか……？
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[charaTalk F]
+[se ad19]
+[wait se ad19]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFadein B 0.1 2]
+＠？？？
+百貌様！　スフィンクス共が戻ってきます！[r]あと、布を被ったよく分からない生き物も！
+[k]
+
+[charaFace B 2]
+＠百貌のハサン
+バカモン、それはメジェドだ！[r]目を合わせるな、[#祝:のろ]われるぞ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaSet B 6003001 1 百貌のハサン]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠百貌のハサン
+ええい、今回も失敗だ！[r]撤退せよ！　奪取した食料は落とすなよ！
+[k]
+
+[charaFace B 5]
+＠百貌のハサン
+そして盾の娘、杖の女……あれ、女？[r]ええい、とにかく杖のサーヴァント！
+[k]
+
+＠百貌のハサン
+そして[&子狼のような:牝鹿のような]人間よ！[r]覚えていろ！　この恨みは忘れぬぞ！
+[k]
+
+？1：待って、話を……！
+？2：正当防衛だったし！
+
+？！
+
+[charaFace B 1]
+＠百貌のハサン
+ははは、待てと言われて待つハサンがいるか！[r]さらばだ、ノロマども！
+[k]
+
+＠百貌のハサン
+砂嵐など我らにとっては日常茶飯事、[r]風除けの魔除けの加護ぞある！
+[k]
+
+[se ad73]
+[charaFadeout B 0.4]
+[bgmStop BGM_EVENT_3 1.0]
+[wt 2.0]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……敵影、遠ざかっていきます……[r]追跡は不可能ですね……
+[k]
+
+＠マシュ
+せっかく、話の出来る人たちに出会えたのですが……
+[k]
+
+？1：……話、成立したかなあ……
+
+[charaFace A 11]
+＠マシュ
+それは……はい。[r]なんていうか、何を言っても逆効果な雰囲気でした……
+[k]
+
+？2：そんなコトよりダ・ヴィンチちゃん！
+
+[charaFace A 7]
+＠マシュ
+そうでした、攫われていた女性ですね！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+はいはい、任せて。[r]いま縄と猿ぐつわを解いているから。
+[k]
+
+[se ad110]
+[wait se ad110]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+んー、眠らされているのかな？[r]お[se bac8][seStop bac8 0.2]ーい。ぺしぺし。おーい。[wt 0.1][se bac8][seStop bac8 0.2]
+[k]
+
+
+＠ダ・ヴィンチ
+キミ、起きたまえよー？[r]希代の天才が目の前にいるのだよー？
+[k]
+
+[charaFadeout D 0.1]
+
+[se bac8]
+[seStop bac8 0.2]
+[wt 0.2]
+[se bac8]
+[seStop bac8 0.2]
+[wt 0.2]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠E：？？？
+……ん……いけませんファラオ、[r]そのように、私の髪を引っ張られては……
+[k]
+
+＠E：？？？
+それは耳のように見えるかも知れませんが、[r]ホルスを表した魔術触媒……決して寝癖では……
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaShake E 0.05 3 3 0.25]
+[charaFace E 4]
+＠E：？？？
+[line 3]は！？
+[k]
+
+？1：あ、起きた
+？2：こんばんは
+
+？！
+
+[charaFace E 4]
+＠E：？？？
+[line 9]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+（あ。まずいかな、これは）
+[k]
+
+＠マシュ
+（はい。固まっていらっしゃいますね）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠E：？？？
+[line 3]おのれ無礼者たち、何者です！[r]私をファラオ、ニトクリスと知っての狼藉ですか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+（ニトクリス[line 2]！[r]　彼女は古代エジプトの魔術女王です、マスター！）
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+（ああ、威厳とか台無しになってしまったが、[r]　紀元前二千年以前の神秘を備えた強力な英霊だ！）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ニトクリス
+……こそこそと小声で話して……！[r]貴方たち、私を笑いものにするのですかッ！
+[k]
+
+[charaFace E 2]
+＠ニトクリス
+いえ、笑いものにしたのですね！[r]私を薬で眠らせ、神殿の外にまで連れ出すなど！
+[k]
+
+＠ニトクリス
+その蛮行、もはや温情はかけられません！[r]本来であれば太陽王への帰順を問うところですが[line 3]
+[k]
+
+＠ニトクリス
+貴方たちはまず、蛮勇を以てこの私、[r]女王ニトクリスの情けを得なければなりません！
+[k]
+
+＠ニトクリス
+冥界の鏡よ、いでませぇい！[r]この者どもに我が恥辱を千倍増しで返してください！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad39]
+[flashin once 0.5 0.5 FFFFFFAF FFFFFF00]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ニトクリスの鏡……！[r]マスター、彼女は戦闘態勢です！
+[k]
+
+＠マシュ
+彼女を[#攫:さら]った犯人と勘違いされています！[r]話し合いをしたいところですが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+いやー、失敗失敗。[r]杖でいろいろこづいたのがまずかった！
+[k]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+でも仕方ないよね、どうせ身の潔白は証明できないんだし、[r]あの女王は人の話聞かなさそうだし！
+[k]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+まずは戦うしかないようだ！[r]行くぞ、[%1][&君:ちゃん]！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[soundStopAll]
+[end]
+

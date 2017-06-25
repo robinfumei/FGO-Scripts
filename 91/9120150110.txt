@@ -1,0 +1,116 @@
+
+＄91-20-15-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 2 マシュ]
+[charaSet D 2015001 1 アルジュナ]
+[charaSet F 98006000 1 ？？？]
+
+[scene 20803]
+[fadein black 2]
+[wait fade]
+
+[se bac15]
+[wait se bac15]
+
+[se bac36]
+[shake 0.1 0 5.0 1.0]
+[flashin once 0.1 0.3 FFFFFFDF 00000000]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+わ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠アルジュナ
+……さて。[r]これで威力は本来の一割というところです。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+い、一割ですか。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アルジュナ
+[%1]、[&貴方:貴女]を我がマスターと認めていますが、[r]同時に忠誠を誓った訳ではありませんでした。
+[k]
+
+＠アルジュナ
+この世で何にも勝る大事なものは信頼です。[r]共に戦うことで、[&貴方:貴女]を知ることができました。
+[k]
+
+[charaFace D 5]
+＠アルジュナ
+しかし、まだ足りません。[r]そこで、マスターを試させて頂きます。
+[k]
+
+[charaFace D 0]
+＠アルジュナ
+簡単です。私と共に三度の戦いを潜り抜けて下さい。[r]その際、私は全てマスターの指示に従います。
+[k]
+
+＠アルジュナ
+逆に言うと、指示以外のことは一切しません。[r]私という“武器”をどうやって扱うのか……。
+[k]
+
+＠アルジュナ
+それを見せて下さい。[r]いいですね？
+[k]
+
+[charaFace D 1]
+＠アルジュナ
+……ああ、もちろん他のサーヴァントに[r]手伝わせるのも問題ありません。
+[k]
+
+[charaFace D 0]
+＠アルジュナ
+それでは、よろしくお願いします。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[se ad19]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.4]
+[wt 2.0]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アルジュナ
+早速ですが、敵襲です。[r]普段ならば、造作もなく仕留められる程度の敵だ。
+[k]
+
+＠アルジュナ
+マスターにも、優雅で迅速な作戦行動をお願いします。[r]それでは[line 2]。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

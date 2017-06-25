@@ -1,0 +1,508 @@
+
+
+＄94-00-15-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 4008002 1 ティーチ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6018000 1 Ｘ]
+[charaSet E 1022001 1 ジル]
+[charaSet F 1003001 1 リリィ]
+[charaSet G 4008002 1 仮配置]
+
+[scene 20303]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠ティーチ
+……なるほど。[r]そういう事だったでござるか。
+[k]
+
+＠ティーチ
+海と空。縄張りは違えど拙者も船に運命を預ける者。[r]Ｘ氏の気持ちは痛いほど分かりますぞ。
+[k]
+
+[se bac12]
+[wt 0.3]
+[se bac12]
+[wt 0.3]
+[se ad11]
+[charaFace B 4]
+＠ティーチ
+というか、物理的に痛いですぞ？[r]あつ。あつつ！　いたい、あつい、いたーい！
+[k]
+
+[seStop ad11 0.7]
+
+＠ティーチ
+その光る剣を背中に押しつけないでいただきたい！[r]でもカッチョイイ剣ですな！　かなりのお宝と見た！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠リリィ
+それはわたしも同意見です。[r]Ｘさんの剣はたいへん素晴らしいと思います！
+[k]
+
+＠リリィ
+古典、かつ王道的なデザインを維持したまま、[r]まさかの多機能を秘めた隠し武器……
+[k]
+
+[charaFace F 1]
+＠リリィ
+発想の自由さを感じます！[r]コスモグッドです！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+あの、リリィさんも止めないと。このままでは[r]黒髭氏がロースト海賊になってしまいます……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠ティーチ
+よいのでござるよマシュ氏。[r]愛船が故障していてはＸ氏の気も荒ぶるというもの。
+[k]
+
+＠ティーチ
+拙者が拾ったパーツはお返ししましょう。[r]元帥殿も、さあ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+＠ジル
+……………………。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠Ｘ
+これはご丁寧に、ありがとうございます。[r]そして先ほどは失礼しました。
+[k]
+
+＠Ｘ
+セイバークラスを見るとつい体が反応して。[r]それよりジル殿、でしたか？
+[k]
+
+[charaFace D 0]
+＠Ｘ
+アナタには品格と理性、そして生真面目さを感じます。[r]なぜこんなフリーダムナードのパーティーに？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+＠ジル
+………………。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+（徹底して黙秘権を行使する気ですね……）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠ティーチ
+もー。[r]そんな根暗クンの話より拙者の妹の話をしようよー！
+[k]
+
+＠ティーチ
+ズバリ、リリィ氏は宝具の修行中だとか。
+[k]
+
+＠ティーチ
+どうですかな？[r]お詫びにこの黒髭めが稽古をつけるというのは。
+[k]
+
+[charaFace B 3]
+＠ティーチ
+いや、訓練中のトラブルを期待しているワケですよ？[r]拙者、こう見えて恥を知らぬ身ですからな。
+[k]
+
+[charaFace B 1]
+＠ティーチ
+敗北をチャンスに変える。[r]味方のフリをしてラッキーを掴む。
+[k]
+
+＠ティーチ
+これはトップシークレットですが、拙者が銃を使わない[r]のも相手とくんずほぐれずの距離に密着するため。
+[k]
+
+＠ティーチ
+ひとたび拙者に宝具を放ってごらんなさい。
+[k]
+
+[charaFace B 3]
+＠ティーチ
+蝶のように[#華麗:ぐんにゃり]に[#舞い:スルー]、[r]蜂のように[#華麗:ダッシュ]に[#舞う:キャッチ]。
+[k]
+
+＠ティーチ
+そんな、めくるめく素敵な特訓体験を[r]ご提供できますが、いかがですかな？
+[k]
+
+？1：いかがもなにも
+？2：本音がダダ漏れですよ船長
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 5]
+＠リリィ
+サーヴァントを相手に宝具の試し打ち[line 3][r]ティーチ殿、あなたという人は……
+[k]
+
+[charaFace F 0]
+＠リリィ
+こんな機会またとありません！[r]是非お願いします！　あ、いま拘束具を切りますね！
+[k]
+
+[messageOff]
+[se bac5]
+[wait se bac5]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+リリィさん！？[r]先輩、いいんですか！？　黒髭氏の狙いは……！
+[k]
+
+？1：大丈夫、オチは見えたよマシュ。
+？2：離れていよう。とばっちりを食らう。
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 5]
+＠リリィ
+それでは行きます！[r]ティーチ殿、ご用意を！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠ティーチ
+デュフ、拙者の口車にまんまと乗り申したなー！[r]ヴァカめ、縄さえなくなればこっちのモンよ！
+[k]
+
+＠ティーチ
+レベル１の宝具なんぞ屁でもありません！[r]がっしり耐えてからリュパンダイブで逆転ＫＯ[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠リリィ
+そこです！[r]邪悪を断て、カリバーン！
+[k]
+
+[messageOff]
+[se ad39]
+
+[wt 0.3]
+[fadeout white 0.2]
+[wait fade]
+[fadein white 0.4]
+[wait fade]
+[wt 0.4]
+
+[charaFadeout F 0.1]
+
+[wt 0.3]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 2]
+
+＠ティーチ
+股間ですとォォォォォ！？
+[k]
+
+
+[messageOff]
+[charaMove G 30,-120 0]
+
+[stretchout full 0.5 2.0]
+[charaMove B 0,170 0.5]
+[wait stretch]
+
+[charaTalk off]
+[se ad39]
+[charaEffect G bit_talk_36]
+[wt 0.7]
+[fadeout white 0.4]
+[wait fade]
+[charaEffectStop G bit_talk_36]
+[wt 0.4]
+
+[se ad34]
+[charaEffect G bit_talk_32]
+[fadein white 0.7]
+[shake 0.05 4 4 0.5]
+[wait fade]
+[charaEffectStop G bit_talk_32]
+[wt 0.4]
+[charaFadeout B 0.4]
+[wt 0.4]
+
+[stretchin full 0.5 2.0]
+[wait stretch]
+
+[wt 0.7]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+[charaTalk on]
+＠ジル
+………………フ。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.2]
+[charaTalk B]
+[charaFadein B 0.1 0]
+[charaFadein F 0.1 2]
+[charaFace B 2]
+[charaFace F 3]
+＠ティーチ
+死ぬわよ！　こんなん誰でも死んじゃうわよ！[r]オリオンよりひどい男性特攻だわよコレ！？
+[k]
+
+＠リリィ
+あわわ、ごめんなさい、ごめんなさい……！[r]手が滑ってしまいましたっ！
+[k]
+
+＠リリィ
+も、もう一度やり直しますので！
+[k]
+
+[charaFace B 4]
+＠ティーチ
+……え、もう一度？
+[k]
+
+＠ティーチ
+二万ものダメージをあるポイントに一点集中する[r]ゴア表現を、もう一度と仰る？
+[k]
+
+[charaFace F 4]
+＠リリィ
+お、お願いしますっ！[r]精一杯がんばりますので……っ！
+[k]
+
+[charaFace B 3]
+＠ティーチ
+上目遣いで懇願してくる少女騎士……いい……[r]これはガード不能案件！
+[k]
+
+[charaFace B 1]
+＠ティーチ
+仕方ないですなあ。ほんと、頼むでござるよ？
+[k]
+
+＠ティーチ
+ちゃんと胸のあたりとか狙ってくださいね？[r]拙者、そのあたりならガードできますからな？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠リリィ
+はい、お任せを！[r]では行きますね！
+[k]
+
+＠リリィ
+邪悪を断て、カリバー、あ！？
+[k]
+
+[charaFace F 4]
+[messageOff]
+[se ad39]
+
+[wt 0.3]
+[fadeout white 0.2]
+[wait fade]
+[fadein white 0.4]
+[wait fade]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+
+[wt 0.3]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+＠ティーチ
+ふふふ。[r]いま「あ」って言った、「あ」って。
+[k]
+
+[messageOff]
+
+[stretchout full 0.5 2.0]
+[charaMove B 0,170 0.5]
+[wait stretch]
+[charaTalk off]
+[se ad39]
+[charaEffect G bit_talk_36]
+
+[fadeout white 0.7]
+[wt 0.2]
+[wait fade]
+[charaEffectStop G bit_talk_36]
+[wt 0.3]
+
+[charaFace B 3]
+＠ティーチ
+ギモ゛ヂイ゛イ゛！！！？
+[k]
+
+[messageOff]
+[fadein white 0.5]
+
+[se ad34]
+[charaFadeout B 0.1]
+[wt 0.1]
+[fadein white 0.7]
+[shake 0.05 4 4 0.5]
+[wait fade]
+[wt 0.4]
+
+[stretchin full 0.5 2.0]
+[wait stretch]
+
+[wt 0.4]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 4]
+[charaTalk on]
+＠リリィ
+申し訳ありません……！[r]つ、次はきちんと胸のあたりを狙いますので……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+＠ティーチ
+ふふ……いいんでござるよ……[r]リリィちゃんの宝具はそのままでいいのでござる……
+[k]
+
+＠ティーチ
+でも拙者、もう限界だから帰らせていただきますね……[r]元帥殿、連れていってくださいますかな？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠ジル
+もちろんですとも。[r]しかし酷い目に遭いましたね。
+[k]
+
+＠ジル
+さしずめ[line 3][r]海賊も陸にあがっては[#玉なし]、という事ですか。
+[k]
+
+？1：ジル元帥……？
+？2：あの……今の……
+
+？！
+
+[charaFace E 3]
+＠ジル
+………………。
+[k]
+
+
+[charaFadeout E 0.4]
+[wt 0.4]
+[wt 0.4]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+ジルさん、ひとりで帰ってしまいましたね。[r]ちょっと恥ずかしかったみたいです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠Ｘ
+ジョークさえ控えめとはストイックな人物なのですね。[r]セイバーとはかくあるべし、です。
+[k]
+
+＠Ｘ
+ところでこの汚物は目障りですので、[r]このまま焼き潰して構いませんか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 2]
+＠ティーチ
+やだ、この人こわい！[r]残虐行為を笑顔で行える御仁ですぞー！
+[k]
+
+＠ティーチ
+誰かタスケテー！[r]もうセイバー顔は懲り懲りでござるー！
+[k]
+
+[messageOff]
+[fadeout black 0.8]
+[wait fade]
+[soundStopAll]
+[end]

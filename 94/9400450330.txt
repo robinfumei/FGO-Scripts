@@ -1,0 +1,426 @@
+
+＄94-00-45-03-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+
+
+[charaSet F 98075000 1 鬼Ａ]
+[charaSet G 98075000 1 鬼Ｂ]
+[charaSet H 98075000 1 鬼Ｃ]
+
+
+
+[scene 27800]
+[fadein black 1.0]
+[wait fade]
+
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+そろそろ約束の時間なんだけど。[r]遅いな、金時くん。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+何か、あったのでしょうか……[r]金時殿の役目も、僕が担うべきだったのでは。
+[k]
+
+＠風魔小太郎
+ほら……あの乗り物、すごく……音が……
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+（うんうん、と頷いている）
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+いや、それは不遜な考えですね……いくら何でも[r]乗りっぱなし、という事はないでしょうし……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 0 5 0 1]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+
+＠Dr.ロマン
+ははは。[r]いやあ、小太郎くんは常識人でホッとするなあ！
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+……？
+[k]
+
+[charaTalk B]
+
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+マイナスばかりじゃなくプラスも考えよう。[r]あのベアー号の機動力は評価しないとね。
+[k]
+
+＠Dr.ロマン
+アクセル全開で島の下層を回っているのかもしれない。[r]もう少し待ってみよう。
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+そうですね。[r]僕があの人の心配など、[#烏滸:おこ]がまし………。
+[k]
+
+[charaFace E 6]
+
+＠風魔小太郎
+しっ。静かに。[r]ロマンさん、そちらに反応はありますか……？
+[k]
+
+[charaTalk B]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+ジャストだ小太郎くん。何かが近付いている。[r]金時くんじゃないのは確実だ。
+[k]
+
+[communicationCharaClear]
+[charaFadeout E 0.1]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+わかりました。[r]ひとまず隠れて様子を窺いましょう。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1.2]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[wipein leftToRight 1.0 1.2]
+[wait wipe]
+
+
+
+[wt 1.0]
+
+[se ad60]
+[seStop ad60 1.5]
+[wt 0.9]
+[charaTalk F]
+[charaFadein F 0.4]
+[wt 1.2]
+
+
+＠鬼壱
+ふうー……やれやれジャイ。[r]疲れた……きつい……ここは地獄なんかのぅ……
+[k]
+
+
+[charaTalk A]
+
+
+＠マシュ
+……労働所のほうからやってきましたね。
+[k]
+
+＠マシュ
+どうやら会話ができる、[r]雑兵よりも少しだけ上級なようですが……
+[k]
+
+＠マシュ
+……中間管理職、といった感じでしょうか。[r]よくはわからないのですけど。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk G]
+
+[charaFadein G 0.1 0]
+
+
+[charaFadein H 0.1 2]
+
+
+＠鬼弐
+ふう……人間を働かせるのは楽じゃないよなぁ。[r]見てなきゃすぐサボろうとしやがるし……。
+[k]
+
+[charaTalk H]
+
+＠鬼参
+かと言って少しムチ打ったりすりゃあの世行きだ。[r]オレらの頑丈さを見習ってほしいぜ。
+[k]
+
+＠鬼参
+普段なに食ってるんだよ……岩食えよ岩……[r]胆力マジ鍛えられるからよぅ……
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠鬼壱
+まったくだ。正直な話、自分で働きたいぜ……[r]だってその方が早ぇだろ、城の完成？
+[k]
+
+＠鬼壱
+頭領もオレたちに任せてくれればいいのによぅ……[r]そうすりゃ二日で済ませてみせるぜ。
+[k]
+
+＠鬼壱
+その後は色町に出かけて豪遊してよぅ、[r]太夫と仲良くやりたいモンだぜ……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 0]
+[charaFadein H 0.1 2]
+
+＠鬼弐
+ギャハハ、テメェのツラじゃお声もかかんねぇよ！[r]よし腹減った。持ってきてた肝でも喰うか。
+[k]
+
+[charaTalk H]
+
+＠鬼参
+マジかよ、弁当持参かよ！[r]いつもソツがねえなテメェ！　獄卒だけに！
+[k]
+
+[charaTalk G]
+
+＠鬼弐
+持参じゃねえよ。そこいらにいた使えねぇ爺さんの[r]首をもいだンだよ。しけた肝だぜ、まったく。
+[k]
+
+
+[messageOff]
+
+[wipeout leftToRight 0.6 1.0]
+[wait wipe]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[wipein rightToLeft 0.6 1.0]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……鬼たちです。[r]話はできそうですが、鬼と人間ではやはり……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+落ち着いてマシュ殿。鬼と言えど暮らしがあり、[r]愚痴がある、という事でしょう。
+[k]
+
+＠牛若丸
+まあ、それはそれ。主殿。ご命令くだされば、[r]今すぐ奴らの首を持ってきますが、いかが？
+[k]
+
+？1：……鬼はここにもいたか……
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ま、待ってください牛若丸さん！[r]もう少し状況を確かめて[line 2]
+[k]
+
+？2：……いや、もう少し様子を見よう
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+そうです。まだ伏兵がいるかもしれません。[r]もう少し状況を確かめてから[line 2]
+[k]
+
+？！
+
+[charaTalk B]
+
+＠Dr.ロマン
+……ん？　この反応……サーヴァント、か？[r]でも金時くんが帰ってきた訳じゃない。これは……？
+[k]
+
+
+[charaSet F 7023001 1 ？？？]
+[charaSet G 98075000 1 鬼]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+[line 2]ッ。[r][%1][&君:さん]、あれを！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.6 1.0]
+[wait wipe]
+
+[charaFadeout E 0.1]
+
+[wipein leftToRight 0.6 1.0]
+[wait wipe]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+
+
+＠？？？
+何をしているのです、アナタたちは。
+[k]
+
+＠？？？
+……罪のない老人を、何の理由もなく殺める……[r]やはり、[#心底:しんてい]から外道なのですね。
+[k]
+
+[charaTalk B]
+
+＠鬼壱
+ゲェッ！？[r]テ、テメェは……！？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+
+＠？？？
+一刀曇りなし。されど天雷が如く奔り、雪華が如く[#耀:かがや]き、[r]白雨が如く仁慈を与えん。
+[k]
+
+＠？？？
+[line 2]誅伐執行。[r]激痛を孕みながら死になさい。
+[k]
+
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+[wt 0.3]
+
+[se bac13]
+[effect bit_talk_12]
+
+＠鬼壱
+ギャワーッ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+せ、先輩！[r]黒髪の美人が、鬼を斬り殺していきます……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+（なんという太刀筋……！[r]　鬼の堅い肉が、それこそ豆腐のように……！）
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウフォウ！
+[k]
+
+？1：加勢するしかない！
+？2：一人で戦わせるなんてできない！
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+は、はい！[r]マスター、行きます！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

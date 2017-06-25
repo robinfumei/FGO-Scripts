@@ -1,0 +1,147 @@
+
+
+
+＄01-00-07-18-6-0
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet G 98107500 1 ウルク兵士]
+[charaSet H 5018001 1 ギルガメッシュ]
+
+
+[scene 33100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠ウルク兵士
+第三観測所より反響合図、確認！
+[k]
+
+＠ウルク兵士
+黒泥、ギルス市を飲み込み、[r]ウンマ市・ウルク市方面に向かって流出！
+[k]
+
+＠ウルク兵士
+波とは思えない、燃え上がる炎のようです！
+[k]
+
+＠ウルク兵士
+ウンマ市の城壁では到底耐えられません！[r]到着まであと[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠ギルガメッシュ
+構わぬ、[#錨:いかり]を上げよ！[r]ナピュシテムの牙、展開だ！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ウルク兵士
+ハッ！　反響光で合図を送れ！[r]牙を打ち上げよ！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout G 0.1]
+[scene 20730]
+[shake 0.05 0 5 0]
+[wt 0.1]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[se ad14]
+[wt 1.5]
+[scene 35100 1.0]
+[wait scene]
+[wt 1.5]
+[seStop ad14]
+[se ad226]
+[seVolume ad226 0 0.4]
+[shake 0.05 0 7 1.5]
+[scene 35101 1.5]
+[wait scene]
+[wt 1.5]
+[scene 35102 1.0]
+[wait scene]
+[wt 2.0]
+
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[scene 33100]
+[wt 0.1]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+＠ウルク兵士
+ナピュシテムの牙、起動成功！[r]海からの黒泥をなんとか分かちました！
+[k]
+
+＠ウルク兵士
+ですが、いたるところに崩壊が見られます！[r]次の波はもう防げないかと……！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠ギルガメッシュ
+だろうよ、だが頼らざるを得ん！[r]急ぎ補修工事を始めよ！
+[k]
+
+＠ギルガメッシュ
+万全に直せとは言わん、[r]骨組みだけでも維持させるのだ！　多少の足止めにはなる！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ウルク兵士
+はっ！
+[k]
+
+[se ad55]
+[seStop ad55 1.0]
+[charaMove G 128,0 0.4]
+[charaFadeout G 0.4]
+[wt 0.7]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ギルガメッシュ
+[line 3]さて。ようやくここに至ったか。[r]この半年、[#鉛:なまり]を飲む思いで待たされたぞ。
+[k]
+
+＠ギルガメッシュ
+原初の母、百獣母胎ティアマトよ。[r]この先は[#我:オレ]にも視えなかった神話の戦い。
+[k]
+
+＠ギルガメッシュ
+貴様が世界を飲むか、それとも、[r]人類はこの世界を[#拓:ひろ]げるに足るものなのか[line 3]
+[k]
+
+[charaFace H 5]
+＠ギルガメッシュ
+答えを出す時が来た。[r][#神代:しんだい]世界、最後の戦いを始めようではないか！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_24 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

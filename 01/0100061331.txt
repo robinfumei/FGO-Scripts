@@ -1,0 +1,459 @@
+＄01-00-06-13-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet F 6002001 1 呪腕のハサン]
+[charaSet G 6003001 1 百貌のハサン]
+[charaSet E 5022001 1 三蔵]
+
+[backEffect bit_talk_haboob_02]
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠三蔵
+そうよ、あたしは[#玄奘:げんじょう]三蔵！
+[k]
+
+＠三蔵
+御仏の導きによってこの地に現界したサーヴァント、[r]もちろんクラスはキャスターよ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠百貌のハサン
+………………。
+[k]
+
+＠呪腕のハサン
+………………。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠三蔵
+[FFFFFF]？　反応よくないわね？[-][r]でもいいわ、続けるから。
+[k]
+
+＠三蔵
+あたしは半年前にどこかに召喚されて、導きのままに[r][#絹の道:シルクロード]を渡ってここまでやってきたの。
+[k]
+
+[charaFace E 1]
+＠三蔵
+聖地の異常という未曾有のピンチを止めるためにね。
+[k]
+
+＠三蔵
+正直、英霊としてのあたしは天竺から帰る途中の[r]あたしだから、面倒だなって思ったけど[line 3]
+[k]
+
+[charaFace E 0]
+＠三蔵
+でも、御仏の導きだもの。[r]それならあたしは行かなきゃいけない。
+[k]
+
+＠三蔵
+だから来たの！[r]この末世の地、砂嵐吹きすさぶシャンバラにね！
+[k]
+
+？1：ここは荒野です
+
+[charaFace E 2]
+＠三蔵
+はい、それは見れば分かります！[r]あたしは迷子だってコトね！
+[k]
+
+？2：シャンバラは違いますよ
+
+[charaFace E 3]
+＠三蔵
+え……ほんと？[r]あれ……なんか話が違うような……？
+[k]
+
+？！
+
+[charaFace E 1]
+＠三蔵
+ま、そのあたりの細かいことはドウデモいいのです。
+[k]
+
+＠三蔵
+気持ちは常におおらかに、ガンジス川のように雄大に。[r]それが大悟への道と知りなさい。ね？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+玄奘三蔵……三蔵法師、ですね。[r]聖都側のサーヴァントではないようですが……
+[k]
+
+[charaFace A 12]
+＠マシュ
+テンションの高低差が激しい方のようです、ね。[r]あの……三蔵法師？
+[k]
+
+[charaFace A 0]
+＠マシュ
+貴方はこの時代の状況を把握しているのでしょうか？[r]獅子王の聖都をご存じですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠三蔵
+ええ。もちろん知ってるわ。[r]だって賓客扱いで二ヶ月ぐらいあそこにいたし。
+[k]
+
+[charaFace A 6]
+＠マシュ
+せ、聖都に滞在していたんですか！？
+[k]
+
+[charaFace E 1]
+＠三蔵
+ええ。とんでもなくカイテキな都だったわ。[r]みんな伸び伸びしてて、笑顔で、悪人が一人もいなくて。
+[k]
+
+[charaFace E 0]
+＠三蔵
+でも、あたしの居場所じゃなさそうだから出てきたの。[r]他にも見てみたいところはあったしね。
+[k]
+
+[charaFace E 5]
+＠三蔵
+ええっと……貴方。[r][%1]って名前の、貴方。
+[k]
+
+[charaFace E 1]
+＠三蔵
+助けてくれてありがとう。[r]心の底から感謝するわ。
+[k]
+
+[charaFace E 0]
+＠三蔵
+ええっと、貴女はマシュって言ったっけ？
+[k]
+
+[charaFace A 0]
+＠マシュ
+は、はい。
+[k]
+
+[charaFace E 1]
+＠三蔵
+さっきは危ないところをありがとね。[r]ガイコツの人たちもありがとう。
+[k]
+
+＠三蔵
+それと、後は“声だけ”の魔術師さんと兎さんね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……まあ、顔がないと名前覚えにくいよね。[r]それはそうと、[communicationCharaFace 0]キミは仲間になってくれるのかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠三蔵
+もっちろん！[r]この三蔵、受けた恩はなるべく返すわ！
+[k]
+
+＠三蔵
+それに[line 3]きっと、あたしはその為に来た。
+[k]
+
+[charaFace E 1]
+＠三蔵
+三蔵法師は旅の高僧。[r]なら、旅するあなたの仲間になるのは当然でしょ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+は、はい。[r]ありがとうございます、三蔵さん。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+もういきなりすぎてついて行けないけど、[r]戦力が増えるのは素直に頼もしいな！
+[k]
+
+＠Dr.ロマン
+ありがとう、三蔵法師！[r]サーヴァントの加勢とは願ってもない幸運だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠三蔵
+幸運じゃないわよ。[r]御仏のご加護。
+[k]
+
+＠三蔵
+あなたたちには御仏のご加護があるわ。[r]具体的には、このあたし！
+[k]
+
+[charaFace E 1]
+＠三蔵
+悟空も悟能も悟浄も白龍もいないし、[r]菩薩さまのお声も聞こえてこないけど、そこはそれ！
+[k]
+
+[charaFace E 0]
+＠三蔵
+私は高僧少女、[r]いずれ仏様にまで成り上がる玄奘三蔵！
+[k]
+
+＠三蔵
+見ていなさい！　お釈迦様の掌みたいに、[r]ドーンとみんなを救ってあげるわ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠百貌のハサン
+……よ、よし。[r]私には分からない状況だが、戦力が増えたのはいい事だ！
+[k]
+
+[charaFace F 4]
+＠呪腕のハサン
+[%1]殿と共にいると退屈はしませんなぁ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+（うんうん。さっき、ひとりで泣いてたけど、[r]　そこは見なかった事にしよう）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 1]
+＠マシュ
+ドクター！　声に出ています！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠三蔵
+……！
+[k]
+
+＠三蔵
+し、しょうがないじゃない！[r]ひとりは……駄目なんだから、あたし……。
+[k]
+
+＠三蔵
+ひとりっきりは寂しくて駄目……。[r]寂しいし、怖いし、どうにもならなくなっちゃう。
+[k]
+
+＠三蔵
+トータも来てくれないし……。[r]呼んでも呼んでも、全然来てくれないし……。
+[k]
+
+＠三蔵
+…………ぐす。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+三蔵さん、問題ありません。[r]既に、あなたは一人きりではありません。
+[k]
+
+？1：なんかもう仲間だ
+？2：なんかもう一緒に行こう
+
+？！
+
+[charaFace E 1]
+＠三蔵
+……そうね。確かにアナタの言う通り。[r]あたしはもうひとりじゃない！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠呪腕のハサン
+ふむ。落ち着いたところで質問、よろしいかな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠三蔵
+いいわよ。[r]なあに、ガイコツの人？
+[k]
+
+＠呪腕のハサン
+貴女はここまで一人で来たのですかな？[r]見たところ、砂漠方面から来たようですが。
+[k]
+
+[charaFace E 4]
+＠三蔵
+……それなのよね。[r]実はひとり、弟子がいたのよ。
+[k]
+
+＠三蔵
+随分前に知り合ったサーヴァント。[r]頼りないからあたしのお弟子にしてあげたの。
+[k]
+
+＠三蔵
+なのに……聖都軍の砦の前で、[r]ドジだから捕まっちゃって。
+[k]
+
+＠三蔵
+あたしはお師匠さまだから助けに戻ろうとしたら、[r]ちょっと方角が分からなくなって……ぎゃてぇ……
+[k]
+
+？1：うん、なんかもうそれも任せて
+？2：よし、なんかもうぜんぶ任せて
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。ここまで目的が一致していると、[r]もうなんか運命な気がしてきました！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠三蔵
+ほえ？[r]……もしかして、砦まで付き合ってくれるの？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+もちろんです。[r]何を隠そう、先輩の行き先もその砦なのですから！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[wt 1.0]
+[charaFace E 4]
+＠三蔵
+あ[line 5]ん！　ありがとう、[%1]！[r]もう大好き！　お弟子決定！
+[k]
+
+＠三蔵
+うん、ホントはえこひいきしちゃダメだけど、[r]あたし、全力でキミの力になっちゃう[line 4]！
+[k]
+
+？1：それは頼もしい！
+？2：あ、でもお弟子はなんか懲り懲りです
+
+？！
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.3]
+[soundStopAll]
+[end]

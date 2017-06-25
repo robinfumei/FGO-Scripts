@@ -1,0 +1,67 @@
+＄01-00-04-11-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21410 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98026000 1 ？？？]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaTalk E]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace E 5]
+[charaFadein E 0 0]
+[fadein black 1]
+[se ad60]
+[wt 2]
+[wait fade]
+[seStop ad60 0.3]
+＠モードレッド
+……やけに深くまで潜るんだな。[r]ここ、二層目だろ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+移動する距離も長いですね。[r]現在位置は、恐らくハイドパークの地下あたりです。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+やれやれ。随分歩いたな～……
+[k]
+
+＠Dr.ロマン
+一応、こちらでマッピングはしてるからね。[r]同じ道をぐるぐる回ることはないはずだけど、うん。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]の体力を鑑みて、適宜[r]休憩を入れた方がいいかも知れないな。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+そんな暇はなさそうだぜ。[r]そら、また来た。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+おおっと、敵性反応だ。また量が多いな！[r]連戦になるぞ、気を付けたまえよ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+了解しました。[r]マスター、戦闘指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

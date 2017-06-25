@@ -1,0 +1,604 @@
+
+
+
+＄01-00-07-15-5-0
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet F 3027001 1 アナ]
+[charaSet G 98106900 1 ゴルゴーン]
+
+
+[bgm BGM_EVENT_5 0.1]
+[scene 32610]
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.7]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[scene 32500]
+[wt 0.1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[wt 0.7]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠マシュ
+これが女神ゴルゴーンの神殿……[r]壁一面に[#繭:まゆ]のようなものがありますが……
+[k]
+
+＠マシュ
+中に……何かの影が……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+
+＠アナ
+…………。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マーリン
+見ない方がいい。[r]あまり気持ちの良いものではないからね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+
+＠マシュ
+待って[line 3]待ってください！[r]これは、この、影は[line 3]！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+……ゴルゴーンを殺すわよ。[r]私も他の女神の事は言えないけど[line 3]
+[k]
+
+＠イシュタル
+これはやり過ぎよ。人間に復讐するために、[r]人間以上の生産性を求めたなんて、本末転倒だわ。
+[k]
+
+？1：……行こう、マシュ
+？2：……ゴルゴーンを探そう
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 18]
+[charaFadein B 0.1 1]
+
+＠マシュ
+でも、でも……！
+[k]
+
+＠マシュ
+生きています！　変わってしまっていても、[r]まだ、みなさん生きて……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+
+＠Dr.ロマン
+……マシュ、[%1]君、急いでくれ。
+[k]
+
+＠Dr.ロマン
+キングゥが戦線を離れて、[r]猛スピードでそちらに向かっている。
+[k]
+
+＠Dr.ロマン
+このままだとゴルゴーンとキングゥ、その両方を[r]相手にする事になる。それでは勝ち目はなくなるだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠アナ
+[line 3]私が案内します。[r]ゴルゴーンの寝所は分かるので。
+[k]
+
+＠アナ
+……ごめんなさい、マシュ。[r]それでも私は貴方に願います。
+[k]
+
+＠アナ
+今は戦う時です。ゴルゴーンを倒すために、[r]あなたの力を、私に貸してください。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout F 0.1]
+[scene 32400]
+[wt 4.0]
+[fadein black 1.5]
+[wait fade]
+
+[wt 1.5]
+
+？1：ここが……鮮血神殿の最奥……
+？2：まるで生き物の腹の中だ……
+
+？！
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マーリン
+いるね。[r]この洞窟の壁にぐるりと、あの長い尾が巻かれている。
+[k]
+
+[charaFace A 2]
+＠マーリン
+魔獣たちの母、ティアマト神。[r]いや、複合神性ゴルゴーン！
+[k]
+
+＠マーリン
+キミの神性はもはや地に落ちた！[r]諦めて顔を見せる時だ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+
+[se ad14]
+[shake 0.05 2 4 2.0]
+[wt 1.0]
+[charaScale G 1.01]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.7 0,-50]
+[charaMove G 0,0 0.4]
+[seStop ad14 1.0]
+
+＠ゴルゴーン
+……何かと思えば。[r]いつぞや見逃してやった虫どもではないか。
+[k]
+
+＠ゴルゴーン
+騒々しいな、人間ども。[r]ここをティアマトの寝所と知っての[#狼藉:ろうぜき]か？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+……っ！[r]アナタが[line 3]貴方が、あんな事を……！
+[k]
+
+[charaFace B 18]
+＠マシュ
+なぜです、女神ゴルゴーン！[r]アナタは人間に復讐すると言った！
+[k]
+
+＠マシュ
+土地を奪われた獣たちの女神になると！[r]でも、それがあの行為に結びつくのですか！？
+[k]
+
+[charaFace B 7]
+＠マシュ
+人間と戦い、土地を征服し、王国を作るというのなら、[r]わたしたちにそれを否定する権利はない。
+[k]
+
+[charaFace B 19]
+＠マシュ
+でも、あんな混ざりかた[line 3][r]あれではどちらも、どちらも救われません！
+[k]
+
+[charaFace B 18]
+＠マシュ
+アナタは一体、何に復讐したいのです！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠ゴルゴーン
+何を言い出すかと思えば。[r]復讐に手段も結果もないと分からぬとはなぁ？
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[wt 1.0]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ゴルゴーン
+救いを与えるだの、代償を得るだの……[r]それはまだ“立ち上がれる”者が考えることだ。
+[k]
+
+＠ゴルゴーン
+全てを奪われた者が求めるものは、[r]より凄惨な[#贖:あがな]いのみ。
+[k]
+
+＠ゴルゴーン
+富が戻ろうが、土地が戻ろうが、それが何になる。[r]我々にはもう“何もない”のだ。
+[k]
+
+[charaFace G 2]
+＠ゴルゴーン
+愛したものは全てこの手から滑り落ちた。[r]護り続けたものは全て地上から消え去った。
+[k]
+
+＠ゴルゴーン
+私自身さえ、この世から燃え尽きたのだ。
+[k]
+
+＠ゴルゴーン
+もはや欲しいものなど何もない。[r]あるのは貴様らへの復讐心だけ。
+[k]
+
+＠ゴルゴーン
+すべてを殺し、すべてを踏みにじり、[r]この世界を殺し尽くし、自らも殺し尽くす。
+[k]
+
+[charaFace G 0]
+＠ゴルゴーン
+それが復讐者だ。[r]それが私の求めるものだ。
+[k]
+
+[charaFace G 2]
+＠ゴルゴーン
+ウルクを滅ぼす。人間どもを滅ぼす。[r][#それほどの憎しみを、私はおまえたちに与えられた]。
+[k]
+
+＠ゴルゴーン
+その小娘は人の世の醜さを知らぬようだ。[r]さぞ幸福な毎日を送ったのだろう。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+
+[charaFace B 8]
+＠マシュ
+それは……確かに、わたしは……[r]とても恵まれた環境で、育って……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ゴルゴーン
+そのような娘では話にならぬ。だが[%1]よ。[r]貴様ならば分かるであろう？
+[k]
+
+＠ゴルゴーン
+我が創造主。復讐者を作り上げた人間の一員よ。[r]私の言葉に理を感じたのなら[#頷:うなず]くがいい。
+[k]
+
+＠ゴルゴーン
+我が意に沿うのなら、[r]貴様をマスターとして飼ってやろう。
+[k]
+
+＠ゴルゴーン
+悪い話ではなかろう？[r]この時代が消えれば人の世は終わる。
+[k]
+
+＠ゴルゴーン
+いや、もう終わっていたか？
+[k]
+
+＠ゴルゴーン
+貴様はとっくに最後の人間[line 3][r]この時代の人間どものために戦う理由はなかろう。
+[k]
+
+＠ゴルゴーン
+ははは、まさに女神の気まぐれというヤツだ！
+[k]
+
+＠ゴルゴーン
+すべてを滅ぼした後、[r]人間一匹、無人の荒野に放してやろうではないか！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マシュ
+先輩……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠アナ
+…………。
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+？1：おまえの憎しみに理なんてない
+？2：なに言ってるんだかぜんぜん分からない
+
+？！
+
+[charaFace G 2]
+
+＠ゴルゴーン
+[line 6]なに？
+[k]
+
+[charaFadeout G 0.1]
+[bgm BGM_EVENT_24 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はい、その通りですマスター！[r]女神ゴルゴーンの考えには、何一つ同調できません！
+[k]
+
+[charaFace B 7]
+＠マシュ
+アナタは人間が生み出したものであり、[r]その復讐に、正統な権利があったとしても[line 3]
+[k]
+
+＠マシュ
+わたしはアナタを認めません！[r]その姿は、アナタの心そのものです！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠ゴルゴーン
+[line 6]。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[messageOff]
+[se ad14]
+[shake 0.05 2 4 1.5]
+[wt 1.5]
+[seStop ad14 1.0]
+
+[charaTalk C]
+[charaFace C 17]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+ハ！　皮肉の一つも返せないなんて、[r]完全に言い負かされたわねゴルゴーン！
+[k]
+
+＠イシュタル
+所詮アナタは聖杯の力で女神になった偽者[line 3][r]ティアマト神を名乗るのは千年早いっての！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠ゴルゴーン
+……人間の器がなければ現界できぬ小娘が。[r]私を、ティアマト神の偽者だと騙るのか……？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+あったりまえよ。百獣母胎を獲得していても、[r]アナタはティアマト神には及ばない。
+[k]
+
+＠イシュタル
+そもそも、母さんは魔獣を産むのに他の生き物を[r]必要としない。あの人は自分だけで世界を作れる。
+[k]
+
+＠イシュタル
+復讐のために、復讐する相手を利用するなんて、[r]そんな半端な事をする神じゃないわ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+
+＠アナ
+……イシュタルの言う通り。
+[k]
+
+＠アナ
+ゴルゴーン。アナタはティアマト神などではありません。[r]自分の姿さえ見えなくなった、ただの怪物です。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠ゴルゴーン
+[line 6]貴様。[r]貴様は[line 3]なんだ、この寒気は[line 3]
+[k]
+
+＠ゴルゴーン
+全身が震えだす。複合神性が保てぬ。[r][#理性:き]が、[#理性:き]が[#戻:くる]いそうだ……！
+[k]
+
+＠ゴルゴーン
+どういう事だ、キングゥ！[r]キングゥ、どこにいっている……！
+[k]
+
+＠ゴルゴーン
+あのサーヴァントは何だ！[r]あんな醜いサーヴァントは見た事がない！
+[k]
+
+＠ゴルゴーン
+連れ出せ、あのようなモノを私の視界に入れるな！
+[k]
+
+＠ゴルゴーン
+誰でもよい、殺せ！[r]あの怪物を、この神殿から排除しろ……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠アナ
+……やはり。[r]アナタには私が見えないのですね、ゴルゴーン。
+[k]
+
+＠アナ
+……もし、まだ少しでも見ようとしてくれたのなら。[r]ほんの少しの救いぐらい、あったかもしれないのに。
+[k]
+
+？1：……アナ
+？2：……いいんだね、メドゥーサ
+
+？！
+
+[charaFace F 0]
+＠アナ
+……はい。[r]私は今まで、ずっと自分に言い聞かせてきました。
+[k]
+
+＠アナ
+私は生きていてはいけない。[r]ここに居てはいけない。笑ってはいけないと。
+[k]
+
+＠アナ
+……でも、それはみんな反対です。
+[k]
+
+＠アナ
+私は生きていたかったし、[r]ここに居たかったし、笑いたかった。
+[k]
+
+＠アナ
+その結果が彼女であり、私なんです。
+[k]
+
+＠アナ
+……それに気付かせてくれてありがとうございました、[r][%1]。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マーリン
+そうか。それではもういいかい、アナ？[r]今まで抑えてきたキミの神性を解放するが？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠アナ
+はい、許可しますマーリン！[r]アナタの口車に乗った私に、その答えを！
+[k]
+
+＠アナ
+[%1]、マシュ！　私に力を！[r]彼女の魔眼は、私の魔眼で相殺します！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠ゴルゴーン
+知らぬ……知らぬ、知らぬ、知らぬ！[r]貴様など私は知らない！
+[k]
+
+＠ゴルゴーン
+死ね、死ぬがいい怪物め！[r]その浅ましい姿を、私の前に現すな……！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_24 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

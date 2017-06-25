@@ -1,0 +1,554 @@
+
+＄94-00-64-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_35 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102500 1 イリヤ]
+[charaSet D 5004001 1 ナーサリー・ライム]
+[charaSet F 98003000 1 Dr.ロマン]
+[charaSet G 98144000 1 ？？？]
+
+[charaDepth C 1]
+[charaDepth G 3]
+
+[charaTalk depthOff]
+
+
+
+[scene 20901]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ナーサリー・ライム
+あー楽しかった！
+[k]
+
+[charaFace D 0]
+＠ナーサリー・ライム
+えー？　なあに、人さがし？[r]そんなかんたんなこと、さいしょに言ってね？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+言ったよー！！
+[k]
+
+[charaFace C 5]
+＠イリヤ
+髪は黒で、ちょっとだけわたしより背が高くて[line 3][r]それで、わたしと同じ魔法少女で……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+お待ちください！[r]美遊さんの外見でしたらば[line 3]！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+イリヤさんの秘蔵コレクションから[r]厳選された写真・動画の数々を上映いたします！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+待って、そんなの知らない！[r]なんだかイヤな予感がするからやめてー！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ナーサリー・ライム
+魔法少女……？[r]あなたのおともだち、魔法少女なの？
+[k]
+
+[charaFace D 4]
+＠ナーサリー・ライム
+………………そう。
+[k]
+
+[charaFace D 0]
+＠ナーサリー・ライム
+だったら、わたし、しらない。
+[k]
+
+＠ナーサリー・ライム
+もう、あきらめたほうが[r]いいとおもうわ？　ざんねん。
+[k]
+
+
+？1：……[&それは:それって]、どういう意味[&なんだ:なの]？
+？！
+
+＠ナーサリー・ライム
+……このせかいはね？　魔法少女たちのあつまる[r]ゆかいでようきなパーティーホールなの。
+[k]
+
+＠ナーサリー・ライム
+遊びつかれちゃったひとから、[r]ひとり、ひとり、じゅんばんにきえていくの。
+[k]
+
+[charaFace D 4]
+＠ナーサリー・ライム
+そういう[#きまり]なの。しかたがないの。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 3]やはり、女王メイヴ以外にも、[r]他の魔法少女たちが存在しているんですね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ナーサリー・ライム
+そのはずだわ？
+[k]
+
+＠ナーサリー・ライム
+そうしてがんばった魔法少女は[r]じぶんの遊び場をつくるの。
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+わたしの『お菓子の国』もそうよ。[r]ほかにはねえ……。
+[k]
+
+[charaFace D 0]
+＠ナーサリー・ライム
+『[#大海原:おおうなばら]と竜の国』でしょ、[r]『死せる[#書架:しょか]の国』でしょ、
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+それからええっと、[r]『[#雪華:ゆきはな]とハチミツの国』！
+[k]
+
+[charaFace D 0]
+＠ナーサリー・ライム
+そんななまえの国々をきいたコトがあるわ？[r]でも、どんな魔法少女がいるのか、わたしはしらない。
+[k]
+
+＠ナーサリー・ライム
+それとね……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+…………それと？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ナーサリー・ライム
+……ううん、なんでもないの。[r]でも、これを、あげる。
+[k]
+
+[charaFace D 0]
+＠ナーサリー・ライム
+わたしと黒ひつじさんと[r]いっしょに遊んでくれた、お礼。たのしかった。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk off]
+
+[se ad39]
+
+[charaFadein G 0.4 1]
+[charaEffect G bit_talk_blight_02]
+
+[wt 3]
+
+[charaFadeout G 0.4]
+[wt 0.4]
+[charaPut G 1200,1200]
+[charaEffectStop G bit_talk_blight_02]
+
+
+[charaTalk on]
+
+
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+……ほ、宝石！？　こんなに綺麗で、大きな、[r]だ、だだだ、ダイヤモンド！？
+[k]
+
+[charaFadeout C 0.1]
+
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+重要アイテムゲットですー！[r]ルビーちゃん的にもなんだか親近感！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+う、受け取れないよ！[r]こんな高価そうな……！
+[k]
+
+[charaFace C 4]
+＠イリヤ
+リンさんだったら喜ぶだろうけど、[r]わたしがもらっても……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ナーサリー・ライム
+いいの[line 3]わたし、魔法少女なのよ？[r]だからね、わたしの大切なきらきら星[line 3]
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+その星の宝石が、あなたのお友だちをさがす[r]たすけになるかもしれないわ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+……[%1][&お兄さん:お姉さん]、[r]どうしよう？
+[k]
+
+
+？1：真心は感謝して受け取るものだよ
+
+[charaFace C 5]
+＠イリヤ
+……そ、そっか。[r]かえって失礼なのかな……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ナーサリー・ライム
+そうよ、しつれいよ？
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+わたし、女王さまなんだから。[r]ちっとも惜しくはないわ。えへん。
+[k]
+
+
+？2：あとで返せばいいんじゃないかな？
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+わたしもマスターに同意します。
+[k]
+
+[charaFace A 13]
+＠マシュ
+美遊さんを捜索する手がかりになるのでしたら、[r]ここは甘んじてお借りするべきかと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+う、うん……じゃあここは、そうします。[r]き[charaFace C 0]っと返すからね？　ナーサリーちゃん？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ナーサリー・ライム
+…………。
+[k]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_35 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[scene 31000]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_32 0.1]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+やりましたね、イリヤさん！[r]この調子でどんどん宝石を集めましょう！
+[k]
+
+[charaFace C 5]
+＠イリヤ
+ちょっとルビー……目的見失ってない？
+[k]
+
+＠イリヤ
+まだ、[#宝石:これ]がどう役に立つのかも[r]分かってないんだからね？
+[k]
+
+
+？1：ところでマシュ、気がついた？
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 3]はい。[r]さきほどの戦闘中のことですね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ナーサリー・ライムを対象としたわたしの攻撃が、[r]効果を発揮していました。完全とは言い難いですが。
+[k]
+
+[charaFace A 12]
+＠マシュ
+女王メイヴと、ナーサリー・ライムでは、[r]魔法少女としての特性の違いがあるのでしょうか？
+[k]
+
+[charaFace A 6]
+＠マシュ
+それとも、わたし自身に変化が……？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+こちらからは、特にマシュの状態には[r]変化は見受けられないが……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 0]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+そんなコトはありませんよー？[r]マシュさんの[#魔法少女力:ＭＳりょく]はウナギ登りです！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+[#魔法少女力:ＭＳりょく]？[r]平行世界の魔法体系は独創的だね……
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+[#喋:しゃべ]る魔術礼装だけでも珍しいのに、
+[k]
+
+＠Dr.ロマン
+その性格がユニークすぎてレアを通り越して[r]ジャンク気味の価値になっているし……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+
+＠イリヤ
+すみません。ご迷惑を。[r]ルビーのセリフは九割くらい無視してください。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+……あっ。宝石が……！[r]まぶしい……！
+[k]
+
+[se ad39]
+[fowardEffect bit_talk_20]
+[wt 1.5]
+
+[fowardEffectStop bit_talk_20]
+[wt 0.5]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ナーサリー・ライムさんの宝石が、[r]はっきりと一定の方向を指してる……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ふむ。その方角は……。
+[k]
+
+＠Dr.ロマン
+固有結界内部で現在判明している地理でいうと、[r]群島の密集する海洋部だね。
+[k]
+
+＠Dr.ロマン
+ナーサリーの言葉を借りれば、[r]『大海原と竜の国』ということに、なるかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+『大海原と竜の国』……。
+[k]
+
+
+？1：よし、その国へ行ってみよう！
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あえて女王メイヴの居る『雪華とハチミツの国』は[r]目指さない……と？
+[k]
+
+[charaFace A 7]
+＠マシュ
+『魔法の国では、魔法にしたがえ』……ですか。[r]……なるほど。そういうものかもしれません。
+[k]
+
+[charaFace A 13]
+＠マシュ
+マスターの直感に従います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+……うんっ、わたしもそれがいいと思う。[r]わたしたち、この世界のことを知らなすぎるもの。
+[k]
+
+[charaFace C 5]
+＠イリヤ
+このままじゃどこかで堂々巡りになるか、[r]とんでもない[#罠:トラップ]にかかったりするかも……！
+[k]
+
+[charaFace C 1]
+＠イリヤ
+そうと決まったら、ダッシュだよ？　マシュさん！[r][%1][&お兄さん:お姉さん]！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_32 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+
+

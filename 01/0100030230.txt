@@ -1,0 +1,536 @@
+＄01-00-03-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21001 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 8001001 1 マシュ]
+[charaSet G 98018000 1 海賊]
+[charaTalk D]
+[charaFadein E 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+それじゃあ野郎ども！[r]新たに仲間になった二人、[%1]とマシュに[line 2]。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+あれ？　逆だ。[r]新たに仲間になったアタシたちに[line 2]
+[k]
+
+[charaFace D 2]
+＠ドレイク
+乾杯だ！！
+[k]
+
+＠海賊
+かんぱーい！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+ああ、こんなことをしている暇はないのに……。
+[k]
+
+？1：仕方ない
+
+？2：どうしようもない
+
+？！
+
+[charaFace A 14]
+＠マシュ
+あっさり順応しないでください……！[r]一刻も早く船を出して、海域の様子を探らないと……。
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ドレイク
+なあに湿気たツラしてんだい！[r]そんなんじゃあ、財宝が逃げちまうよ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+そういうコトではなく。[r]協力していただけるなら、こちらの事情を[line 2]
+[k]
+
+[charaFace D 0]
+＠ドレイク
+ん？　ああ、大体わかるよ。[r]この海域は異常なんだろ。
+[k]
+
+＠ドレイク
+少なくとも、砲弾の直撃を受けてピンピンしてる超人が[r]ウヨウヨいるんだからね！
+[k]
+
+[charaFace A 6]
+＠マシュ
+サーヴァント……！
+[k]
+
+＠ドレイク
+アタシもまあ、海賊やってそれなりに[r]修羅場ってやつを潜ってるからね。
+[k]
+
+＠ドレイク
+どうしようもない厄ネタってのは[r]大体分かるもんなのさ。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+この海域は異常だよ。ジャングルがあったかと思えば、[r]地中海の温暖な海に出たり[line 2]。
+[k]
+
+＠ドレイク
+海流も風もしっちゃかめっちゃかだ。[r]とてもじゃないが、真っ当に海に出るのも難しい。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+……そもそも、この海域には「大陸」が見当たらない。[r]ついでにイングランドもね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+そこまで把握していたのですか……。
+[k]
+
+＠ドレイク
+で、アタシたちは明日にでも[r]新たな船旅に出ようとしてたとこさ。
+[k]
+
+＠ドレイク
+海賊が陸に揚がったままじゃあ、締まりがない。[r]街の一つでも見つけて、そこを拠点にしなきゃね。
+[k]
+
+＠ドレイク
+で、今日はその前夜祭……だったんだがねぇ。[r]アンタたちが乱入してきたワケ。
+[k]
+
+[charaFace A 8]
+＠マシュ
+そうだったのですか……。
+[k]
+
+？1：悪いことをした
+
+？2：すまない
+
+？！
+
+[charaFace D 1]
+＠ドレイク
+なあに、アンタたちはそれこそ吉兆さ！
+[k]
+
+＠ドレイク
+見たところ、[r]アンタも砲弾の一発や二発何とかなるんだろ？
+[k]
+
+[charaFace A 0]
+＠マシュ
+試した事はありませんが、おそらく。[r]……あの、それを承知でなぜ襲ってきたのですか？
+[k]
+
+＠ドレイク
+あっはっは！[r]そりゃあアンタ、面白そうだからに決まってるだろ！
+[k]
+
+[charaFace A 4]
+＠マシュ
+そんな理由で……。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+で、[%1]だっけ？[r]アンタは[line 2][#船長:キャプテン]か何かかい？
+[k]
+
+[charaFace A 0]
+＠マシュ
+似たようなもの、でしょうか。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[wt 0.3]
+＠ドレイク
+ふんふんふん、なるほどそれなら[line 2]。[r]そら、呑みな！
+[k]
+
+[effect bit_talk_20 1]
+[se bac35]
+[wt 0.5]
+＠ドレイク
+キャプテン同士、仲良くしようじゃないか！
+[k]
+
+[effectStop]
+[wait effect]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！？　フォフォウ！？[r]フォーーーーーーーーウ！！
+[k]
+
+[charaFace A 6]
+＠マシュ
+……………………え？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[effect bit_talk_20 1]
+[se bac35]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ドレイク
+おお、なかなかいい飲みっぷりだねえ。
+[k]
+
+[effectStop]
+[wait effect]
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、あの……先輩？
+[k]
+
+？1：どうした、マシュ？
+
+？！
+
+＠マシュ
+せ、聖杯が……。
+[k]
+
+[charaFadeout A 0]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+？1：分かっている
+
+？！
+
+[charaFace A 2]
+＠マシュ
+先輩、聖杯が[line 2]！
+[k]
+
+？1：必ず手に入れよう
+
+？！
+
+[charaFace A 15]
+＠マシュ
+いえ、そうではなくて。[r]聖杯がですね、
+[k]
+
+？1：これまで戦ってくれた皆のためにも！
+
+？！
+
+[charaFace A 5]
+＠マシュ
+あ、はい。[r]……そうじゃないです、先輩！
+[k]
+
+？1：がんばろう、マシュ！
+
+？！
+
+[charaFadeout C 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace F 12]
+[charaFadein F 0.1 0]
+＠マシュ　
+先輩、指は何本に見えますか？
+[k]
+
+？1：マシュが二人いるから……
+
+？！
+
+[charaFace A 7]
+[charaFace F 7]
+＠マシュ　
+しっかりしてください！　先輩の！　目の前に！[r]聖杯が！　あるんです！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[effect bit_talk_20 1]
+[se bac35]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ドレイク
+何だい、急にアタシの顔を見て。[r]似たような知り合いでも思い出したかい？
+[k]
+
+[effectStop]
+[wait effect]
+[charaFadeout D 0]
+[charaTalk A]
+[effect bit_talk_20 0]
+[se bac35]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+いえ、そうではなくて、それです！[r]船長が持っている杯！
+[k]
+
+[charaFace D 1]
+＠ドレイク
+おっと、コイツに目を付けるとはお目が高い。[r]金で出来たジョッキなんて悪趣味だが、コイツは別さ。
+[k]
+
+＠ドレイク
+汲めども汲めどもつきない[#酒:なかみ]だけじゃない。
+[k]
+
+＠ドレイク
+テーブルに置けばあら不思議、[r]肉と魚がドカドカ盛られていきやがる。
+[k]
+
+＠ドレイク
+たまたま拾ったもんだけど、[r]こんなご機嫌なお宝は他にないんじゃないかねぇ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 2]
+＠海賊
+なに言ってんですか姐さん、たまたまじゃねえ、[r]とんでもない大冒険だったっスよ！
+[k]
+
+＠海賊
+いつまでも明けない七つの夜、[r]海という海に現れた破滅の大渦！
+[k]
+
+＠海賊
+そしてメイルシュトルムの中から現れた、[r]幻の沈没都市アトランティス！
+[k]
+
+＠海賊
+“時はきた。オリンポス十二神の名のもとに、[r]　今一度大洪水を起こし文明を一掃する也……！”
+[k]
+
+＠海賊
+とか騒いでたデカブツを相手に大立ち回りして、[r]そのお宝を奪いとった姐さんはなんつーか、こう……
+[k]
+
+＠海賊
+なんかの間違いにちげえねえんですけど、[r]サクっと世界を救った英雄だったんじゃないですかね！
+[k]
+
+[charaFace D 4]
+＠ドレイク
+あぁあ～？　そんな大そうな話だったかぁ、アレ？[r]つーかむかついたから邪魔しただけさね。
+[k]
+
+[charaFace D 2]
+＠ドレイク
+あのデカブツ、[#海神:ポセイドン]を名乗りやがって。[r]船乗りとして許せないじゃないか。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+だから邪魔した。お宝もこうして奪ってやった。[r]最後に都市ごと渦に沈めてやった！　最っっ高！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein G 0.1 2]
+＠G：海賊
+ドワッハッハッハッ！[r]さすが姐さん、幸運と悪運にしか縁の無い女！
+[k]
+
+＠G：海賊
+こりゃあもう死ぬまで独身ッス！[r]つーか姐さん、ホントは男じゃないんスかね！？
+[k]
+
+＠ドレイク
+いやあ愉快だね～！　新しい仲間も出来て酒がうまい！[r]だがボンベは後でタルにつめて潜水な！
+[k]
+
+＠ドレイク
+さあ歌うよアホウども！[r]ゴールデンハインド号、搭乗員船歌斉唱～！
+[k]
+
+＠ドレイク＆海賊
+エモノをかっさらえ～♪[r]エールをかっくらえ～♪
+[k]
+
+[effectStop]
+[wait effect]
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaTalk C]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……フォーーーーウ！
+[k]
+
+＠マシュ
+あわわ……あわわわわ……[r]信じられません……この人たち、嘘を言っていません！
+[k]
+
+[charaFace A 14]
+＠マシュ
+先輩、この時代はわたしたちが来る前に[r]人理定礎が崩壊しかけていたんです！
+[k]
+
+＠マシュ
+それを、その……何も知らないドレイク船長が[r][#気分:ノリ]で解決してしまった。
+[k]
+
+[charaFace A 4]
+＠マシュ
+その結果が、その[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 1]
+[effect bit_talk_20 1]
+[se bac35]
+[charaFadein D 0.1 1]
+[wt 0.5]
+[effectStop]
+[wait effect]
+[charaFace D 0]
+＠ドレイク
+おっと、勝手に体に潜っちまった。[r]これだけは慣れないねぇ、ホント。
+[k]
+
+＠ドレイク
+このお宝があると、あの無敵の連中にも[r]傷を負わせられるのはいいんだけどさあ。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+なんでかアタシの体ん中に出たり入ったりすんのさ。[r]胸がきつくて仕方がないよ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+あの聖杯です！！[r]ドレイク船長はこの時代の聖杯の持ち主[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+いえ、この時代を救ったコトで聖杯に選ばれた、[r]本当の意味での聖杯の所有者です……！
+[k]
+
+[charaFace A 2]
+＠マシュ
+ドクター！　ドクター！
+[k]
+
+＠Dr.ロマン
+あ、ああハイハイ何だい？[r]すまないが後にしてくれないか。
+[k]
+
+＠Dr.ロマン
+ちょっと探査プログラムの調子が悪いんだ。[r]何故か君たちの目の前に聖杯があることになってる。
+[k]
+
+＠マシュ
+合ってます！[r]あります聖杯！　目の前に！
+[k]
+
+＠Dr.ロマン
+何だとぅ！？
+[k]
+
+[charaFadeout A 0]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+？1：事件解決やったバンザーイ！
+
+？！
+
+＠Dr.ロマン
+そして[%1][&君:ちゃん]は[r]異常なほどにハイテンションだな！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaSet E 98018100 1 海賊Ａ]
+[charaSet H 98018100 1 海賊Ｂ]
+[charaTalk E]
+[charaFadein H 0.1 2]
+[charaFadein E 0.1 0]
+[se bac8]
+[wait se bac8]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠海賊Ａ
+あいでっ！[r]おい手前、何しやがんじゃコラ。
+[k]
+
+＠海賊Ｂ
+あぁん？[r]やかましい、いちいちうるせぇぞコラ。
+[k]
+
+＠海賊Ａ
+あん？
+[k]
+
+＠海賊Ｂ
+ああん？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ドレイク
+あー、喧嘩が始まっちまった。[r]しゃあねえ、止めるとするか！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+滅茶苦茶です……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,321 @@
+＄01-00-06-30-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 1009001 1 モードレッド]
+
+[scene 29803]
+
+[backEffect bit_talk_barrier]
+
+[fadein black 2.0]
+[wait fade]
+
+[se ad33]
+[wait se ad33]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+まずいぞ……連合軍もその壁の前で立ち往生だ。[r]それを好機とばかりに聖都軍が挟撃している！
+[k]
+
+＠Dr.ロマン
+このままじゃ全滅だ！[r]なんかとしてその壁を消さないと！
+[k]
+
+＠Dr.ロマン
+突然現れたものだ、[r]消すことだってできるに違いない！
+[k]
+
+＠Dr.ロマン
+みんな、急いで周囲を探索するんだ！[r]どこかに進入路、あるいは発生源はないかな！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+＠E：？？？
+ハ、ねえよそんなもんは……！
+[k]
+
+
+
+[messageOff]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+[se bac12]
+[charaEffect C bit_talk_12_red_L]
+
+[charaShake C 0.05 3 3 0.5]
+[wt 1.0]
+
+
+＠ベディヴィエール
+モードレッド……ッ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+気安く名前を呼ぶんじゃねえ、チキン野郎！[r]約束通り、正々堂々と奇襲ぶちかましてやったぜ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+モードレッドさん……！[r]聖都の外で戦っていた筈では！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+あ？　んなモン、[r]ガウェインひとりいれば何とかなるだろ。
+[k]
+
+＠モードレッド
+オレはテメエらの首を獲りに来ただけだ。[r][#そういう約束だった]だろうが、オレたちは。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それは……そう、ですが。[r]わたしは、貴方とは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+……チ。調子が狂うな盾公は。[r]それより、アイツはどうした。
+[k]
+
+
+？1：アイツ？
+？2：ドイツ？
+
+？！
+
+[charaFace E 5]
+＠モードレッド
+アイツだよ、あの浅黒い顔したアーチャー！[r]また後ろで狙撃手やってんのか！？　姿を見せな！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 0.8]
+
+
+[charaFace A 7]
+＠マシュ
+アーラシュ・カマンガーは消滅しました。[r]村を守るために、裁きの光をうち倒して。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+！
+[k]
+
+[charaFace E 4]
+＠モードレッド
+……そうか。あの野郎、先におっ[#死:ち]んだのか。[r]くそ、勝ち逃げしやがって。
+[k]
+
+
+？1：アーラシュとモードレッドは戦ってない
+？2：勝ち逃げとは言わないんじゃ……
+
+？！
+
+[charaFace E 5]
+＠モードレッド
+勝ち逃げだろうが。[r]父上の聖槍を破ったんだぞ？
+[k]
+
+＠モードレッド
+……オレには最期までできなかった事だ。それを、[r]どこの誰とも知らねぇマイナー野郎にやられちまった。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+いいさ、楽しみが一つ減っただけだ！[r]どのみち全員、父上の槍で焼け死ぬんだからな！
+[k]
+
+＠モードレッド
+オラ、構えなザコども！　せめてもの名誉に、[r]モードレッド様の手にかかって死にやがれ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……いや。[r]死にたいのなら一人で死になさい、モードレッド。
+[k]
+
+＠ベディヴィエール
+私たちには、[r]貴方の破滅願望に付き合っている暇はありません。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+[line 3]あ？
+[k]
+
+＠モードレッド
+いまなんて言った？[r]チキン野郎の分際でオレにケンカ売りやがったのか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+売ったとも！[r]それでもアーサー王の嫡子ですか、貴方は！
+[k]
+
+[charaFace C 4]
+＠ベディヴィエール
+どれほど非道であろうと、[r]かつての貴方は将帥としての責務を果たしていた。
+[k]
+
+[charaFace C 5]
+＠ベディヴィエール
+それが今では見る影もない！[r]たったひとりで戦い、部下の指揮をとりもしない！
+[k]
+
+[charaFace C 2]
+＠ベディヴィエール
+そも、この状況を見て何も思わないのですか！[r]王は自らの兵ごと世界を焼こうとしているというのに！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+……何を言い出すかと思えば。[r]テメエの方こそ頭うだってんな？
+[k]
+
+[charaFace E 2]
+＠モードレッド
+父上が自分の兵を見殺しにしようとしている、だあ？[r]そんなの[line 3]あったり前じゃねえか！
+[k]
+
+＠モードレッド
+いいか！　獅子王にとっちゃあ、[r]軍隊なんざ最も不要なものだ！
+[k]
+
+＠モードレッド
+獅子王が目指すのは争いの無い理想都市だからな。[r]そこに軍隊がいたらおかしいだろうが！
+[k]
+
+[charaFace E 5]
+＠モードレッド
+オレたちは聖都を守り、ここで死ぬ！[r]獅子王の作る人理の[#礎:いしずえ]となる！
+[k]
+
+＠モードレッド
+それが獅子王の円卓だ！
+[k]
+
+[charaFace E 2]
+＠モードレッド
+それがテメエだけにあって、[r]オレたちには与えられなかった騎士の誉れだ！
+[k]
+
+＠モードレッド
+アーサー王の最期を看取ったテメエに、[r]オレたちの何が分かる[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+モードレッド[line 3]貴方は[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+うるせえ、今さらしゃしゃり出てきやがって……！[r]心底から頭に来るぜ、ベディヴィエール！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+モードレッド卿、来ます……！
+[k]
+
+＠マシュ
+円卓の騎士のギフトは健在です！[r]全力で戦います、マスター！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[effectStop]
+[soundStopAll]
+[end]

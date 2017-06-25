@@ -1,0 +1,261 @@
+
+＄94-00-56-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 9004000 1 マルタ]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6024000 1 スカサハ]
+[charaSet E 5027000 1 マリー]
+[charaSet F 98100800 1 うりぼう]
+
+
+[charaPut F 0,-312]
+[charaEffect F bit_talk_19]
+
+[scene 30600]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マルタ
+なるほど、私が連れてこられた理由はわかりました。[r]この不浄なる地の浄化ですね。
+[k]
+
+＠マルタ
+できるかどうかはわかりませんが、[r]やってみましょう。聖水を振りかけて、と[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[messageOff]
+[charaFadeout A 0.4]
+[wt 0.4]
+[se ad78]
+[wt 0.5]
+[se ad42]
+[seStop ad42 2.0]
+[wt 0.2]
+[effect bit_talk_06]
+[wt 0.7]
+[se ad79]
+[wt 0.3]
+[fadeout white 0.5]
+[wait fade]
+[effectStop bit_talk_06]
+[wt 1.0]
+[charaPut F 0,-700]
+[charaEffectStop F bit_talk_19]
+[fadein white 1.0]
+[wait fade]
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マルタ
+……ふう。こんなものかしら。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠マシュ
+さすがです！　毒々しい水たまりが消えて……[r]嫌な空気も出なくなりましたね！
+[k]
+
+？1：ナイス浄化！
+
+[charaFadeout B 0.1]
+
+？2：マルタさんの聖水……おいくらですか？
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マルタ
+欲しければいくらでも与えられますが、[r]大事なのは祈る心です。
+[k]
+
+＠マルタ
+形だけ同じものを持っていても意味はありません。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウッ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マルタ
+さすがに枯れた植物までは戻せませんでしたね。[r]痛ましいことですけど……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠スカサハ
+だがこれからは、この場所でも再び何かが根を張り、[r]花を咲かせるだろう。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+あの毒地は、この島の土そのものを腐らせるもの[r]だったからな。早めに中和できて幸いだ。
+[k]
+
+＠スカサハ
+放置しておけば、最終的にはこの島が草木一本生えぬ[r]死の土地へと変じてしまう恐れすらあった。
+[k]
+
+＠スカサハ
+少なくとも、この島は自然だけは豊かだ。[r]みすみすそれを台無しにはできぬ。
+[k]
+
+[charaFace D 4]
+＠スカサハ
+……まったく。魔物の[#跋扈:ばっこ]だけでなく、[r]環境の保全も人任せか。
+[k]
+
+＠スカサハ
+忘れているのか捨てたのかは知らぬが、[r]島の管理者に言いたい文句がまた一つ増えたな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 -128,0]
+[charaFace E 0]
+[charaFadein E 0.1 128,0]
+[wt 0.4]
+＠マリー
+あら？　[charaMove F -256,0 0.5][charaFadeout F 0.4]どこに行くの、うりぼうさん？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.4]
+
+[bgmStop BGM_EVENT_2 0.4]
+[charaTalk F]
+[charaFadein F 0.4 128,0]
+[charaMove F 0,0 0.5]
+[wt 0.5]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[wt 0.1]
+[se ad51]
+[charaFace F 2]
+[charaShake F 0.05 3 3 0.25]
+
+＠うりぼう
+ひぎ、ぴぎー！　……ぴっ！？
+[k]
+
+[charaFace D 5]
+＠スカサハ
+勝手な行動は死を招く。何が狙いだ？[r]語れ。さあ語れ。早く語れ。儂の目を見てな。
+[k]
+
+？1：あの、槍を突きつける必要はないのでは……
+？2：見たら殺される感のある目ですけど！
+？！
+
+[bgmStop BGM_EVENT_3 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace D 0]
+＠スカサハ
+む？　いかんな、まだ猪は害獣というのが頭から[r]離れぬ。いや[line 3]実際そうなのだが。
+[k]
+
+[charaFace F 2]
+＠うりぼう
+ぴっ……ぴー！
+[k]
+
+[charaAttack F normal -768,0 0.5]
+[charaFadeout F 0.4]
+[se ad14]
+[seStop ad14 1.5]
+[wt 0.4]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウッ。フォウ、フォーウ！
+[k]
+
+[charaAttack C normal -768,0 0.75]
+[charaFadeout C 0.4]
+[wt 0.5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マシュ
+あっ、フォウさんも。[r]追いかけていきますね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マシュ
+……？　ああ、なるほど。
+[k]
+
+[charaFace B 13]
+＠マシュ
+フォウさんの行動から間接的に判断しますと[line 3][r]どうやら、うりぼうさんは逃げたのではないようですね。
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFace B 7]
+＠マシュ
+他にも連れていきたい場所があったようです。[r]つまり[line 3]また別の、毒の地が。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

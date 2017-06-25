@@ -1,0 +1,493 @@
+
+
+＄91-50-12-01-1-1
+[soundStopAll]
+[charaSet A 5012001 1 ニトクリス]
+[charaSet B 98001000 1 マシュ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4002001 1 イスカンダル]
+[charaSet E 6008001 1 クレオパトラ]
+[charaSet F 4012000 1 オジマンディアス]
+[charaSet G 4012000 1 オジマンディアス2]
+[charaSet H 5012001 1 ニトクリス2]
+
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 10200]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+
+
+＠ニトクリス
+はぁ……はぁ……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+す、すごい気迫でした……！
+[k]
+
+[charaTalk C]
+
+＠Dr.ロマン
+か、勝ったのか、キミたちは。[r]各時代の象徴みたいなファラオ三騎相手に……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠イスカンダル
+ふふ……はっはっは！　負けた負けた！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠オジマンディアス
+加減するつもりは微塵もなかったのだがな。[r]安酒と、慢心の毒が回ったか。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠クレオパトラ
+…………。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+……どうして。皆様は……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+（そういえばクレオパトラさんもいますね、[r]　いつの間に戦闘に参加していたんでしょうか！）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠イスカンダル
+おいおい、勝者がなんという顔をしておる。
+[k]
+
+＠イスカンダル
+余は手加減などしておらん。[r]ただ貴様の気迫が我らを上回ったというだけだ。
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+そう、貴様は[line 3]まぁ余も一応含めて言うが[line 3][r][#複数のファラオと戦って勝った]のだぞ？
+[k]
+
+＠イスカンダル
+古き世を生きた鏡の女王よ。[r]貴様は貴様で、充分にファラオであろうよ。
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+これは余が余の名誉をかけて告げる言葉だ。[r]褒美として有り難く受け取るがよい。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+っ……！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠クレオパトラ
+そうです[line 3]ニトクリス様。[#妾:わらわ]は確かに見ましたわ。[r]貴女が仰ったとおりのものを。
+[k]
+
+＠クレオパトラ
+貴女がファラオであるという、誇りを。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠ニトクリス
+クレオパトラ……
+[k]
+
+
+[charaFace A 9]
+＠ニトクリス
+（あれ……あなた、いつの間にいたのです……？）
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠イスカンダル
+ふむ、それは少なくとも余にはないものだなあ。
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+この時点で貴様、余よりもファラオとして[r]優れているではないか。なーにを恥じる事があろうか。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠オジマンディアス
+ファラオとしての優劣？　くだらん！[r]ファラオはファラオであるだけで充分なのだ！
+[k]
+
+[charaFace F 2]
+＠オジマンディアス
+それ以上を欲するなど不遜！
+[k]
+
+＠オジマンディアス
+なぜなら最も尊く、最も優れたファラオが余であると[r]決まりきっている。それ以外は全て有象無象よ！
+[k]
+
+[charaFace F 0]
+＠オジマンディアス
+暗黒と復讐のみを為したファラオも、[r]征服のファラオも、最後のファラオであろうと……
+[k]
+
+＠オジマンディアス
+死すまでの数日のみを単独で在位した[r]幼きファラオであろうと……
+[k]
+
+[charaFace F 1]
+＠オジマンディアス
+余にとってさしたる差異はない！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadein G 0 1]
+[charaDepth G 0]
+[charaDepth F 1]
+[wt 0.7]
+[charaChange F 4012000 0 fade 1.0]
+[wt 2.0]
+[charaChange F 4012000 8 fade 0.4]
+
+＠オジマンディアス
+しかし、ならばこそ、余に対する憧れはあろうな。[r]不遜ではあるが理解はしよう。
+[k]
+
+[charaTalk on]
+[charaFace F 0]
+＠オジマンディアス
+人は掴めぬと[#弁:わきま]えながらも太陽に手を伸ばすもの。[r]神に触れようとするもの。
+[k]
+
+＠オジマンディアス
+余に届かぬからといって[#項垂:うなだ]れるほど無意味な[r]愚行はあるまい。それこそ、真の不遜だ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFadein F 0.1 2]
+
+＠イスカンダル
+ほう、貴様。いま余をファラオとして数えたか？[r]お墨付きを得た感じだのう。
+[k]
+
+[charaFace F 2]
+
+＠オジマンディアス
+…………はは、なんという安酒！[r]頭ばかりでなく舌までなまったと見える！
+[k]
+
+[charaFace F 1]
+＠オジマンディアス
+場所を変えて飲み直すぞ、騎兵。[r]次はせめて余の言葉を誤らせぬ程度の酒を持て！
+[k]
+
+[charaFace D 4]
+＠イスカンダル
+貴様も[#騎兵:ライダー]であろうに。しかし飲み直すのは[r]いいが、ここの酒は種類が少なくてなあ……
+[k]
+
+[charaFace D 1]
+＠イスカンダル
+ああ、そう言えば態度のデカさでは誰にも負けぬ王を[r]知っておるのだが。奴の酒はなかなかのものだった。
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+奴がまた蔵から酒を出してくれればいいんだがのう。[r]どこかにおらんかな？
+[k]
+
+[seLoop ad95]
+[messageOff]
+[charaTalk off]
+[charaMove F 6 1.0]
+[wait charaMove F]
+[charaFadeout F 0.1]
+[charaMove D 6 2.0]
+[charaFadein E 0.1 0]
+[wait charaMove D]
+[charaMove E 6 1.5]
+[charaFadeout D 0.1]
+[wait charaMove E]
+[charaFadeout E 0.1]
+[seStop ad95 0.1]
+[se ad8]
+[wt 0.1]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+出て行ってしまいましたね……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+
+＠ニトクリス
+……ファラオたちはもしや、もしや……
+[k]
+
+＠ニトクリス
+最初から、私に伝える、ために……？
+[k]
+
+[wt 1.0]
+
+[charaFace A 9]
+＠ニトクリス
+……[%1]。
+[k]
+
+＠ニトクリス
+愚かなる私は永遠の国へ至らず、[r]こうして、座へと導かれて英霊となった。
+[k]
+
+[charaFace A 8]
+＠ニトクリス
+てっきり私、神々による罰と思っていましたが[line 3]
+[k]
+
+[charaFace A 7]
+＠ニトクリス
+私はオジマンディアス様や他のファラオと出会えた。[r]そして、貴方という無二の同盟相手とも。
+[k]
+
+＠ニトクリス
+ならばこれは罰ではなく、きっと……
+[k]
+
+[messageOff]
+
+[messageOff]
+[charaTalk off]
+[charaFadein H 0 1]
+[charaDepth H 0]
+[charaDepth A 1]
+[charaChange A 5012001 8 fade 1.0]
+[wt 2.0]
+[charaChange A 5012001 6 fade 0.4]
+[wt 0.4]
+
+
+＠ニトクリス
+…………いいえ、何でもありません。
+[k]
+
+[charaTalk on]
+[charaFace A 6]
+＠ニトクリス
+妙な事を口走ってしまいました。[r]気の迷いです。[charaFace A 9]疾く、忘れ去るように。忘れなさい！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk C]
+
+＠Dr.ロマン
+すまない、空気を読んでないのは重々承知なんだけど、[r]言わせてくれ。
+[k]
+
+[charaFace A 4]
+＠Dr.ロマン
+キミたちが全力バトルしたせいでシミュレーターが[r]大変な事に！　後片付け……わりと大変なんだよ……？
+[k]
+
+
+？1：自分たちにお任せあれ
+？2：二人でやっておきます
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+はい、先輩。そうですね。
+[k]
+
+＠マシュ
+わたしたちがやっておきますから[r]ニトクリスさんはどうぞ、行きたいところへ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+
+＠ニトクリス
+……よいのですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+勿論です。
+[k]
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠ニトクリス
+……[charaMoveReturn A 0,-5 0.4]…………（ぺこり）
+[k]
+
+[seLoop ad95]
+[messageOff]
+[charaMove A 6 1.0]
+[wait charaMove A]
+[charaFadeout A 0.1]
+[seStop ad95]
+[se ad8]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+……ファラオ。エジプトを統べた人たち。[r]きっと、長い長い時を通して続いてきたものだからこそ、
+[k]
+
+[charaFace B 13]
+＠マシュ
+その名を冠した彼らの間には、[r]特別な繋がりがあるのかもしれませんね。
+[k]
+
+[charaFace B 7]
+＠マシュ
+……さて、先輩。片付けを頑張りましょうか。
+[k]
+
+＠マシュ
+しかしさすがに二人きりでは手が足りないと思うので、[r]最初の一手として助っ人を呼ぶ事を提案します。
+[k]
+
+＠マシュ
+ドクター？　聞いていますよね？
+[k]
+
+[charaTalk C]
+
+
+＠Dr.ロマン
+……ハイ。やっぱり、ボクがいるのは当然としての、[r]二人で片付ける、って言葉だったんだね……。
+[k]
+
+＠Dr.ロマン
+シミュレーターのシステムに影響を及ぼすとか、[r]ファラオたちはいちいち派手で困るよ……とほほ……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.0]
+
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,366 @@
+
+＄94-00-65-08-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102400 1 イリヤ]
+[charaSet D 7022001 1 偽茨木童子]
+[charaSet E 7022001 1 偽茨木童子d]
+[charaSet F 7022001 1 偽茨木童子m]
+[charaDepth D 2]
+[charaDepth F 0]
+[charaPut E 0,-300]
+
+[scene 21360]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽茨木童子
+くく……くくク……！[r]ようやっと来おったな、[#吾:われ]のもとヘ！
+[k]
+
+[charaFace D 5]
+＠偽茨木童子
+待ちに待ちかねタ！　[#無聊:ぶりょう]のあまり腰掛けは[#捻:ねじ]れ、[r][#虎皮:とらがわ]の[#褌:たふさぎ]は[#擦:す]り切れるところヨ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]あっ。[r]彼女までが……偽サーヴァントに！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠イリヤ
+な、なんてボスっぽいオーラ……！[r]……何者なの！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽茨木童子
+（むふっ）
+[k]
+
+[charaFace D 2]
+＠偽茨木童子
+くはッ！　しからば聞き置けィ！
+[k]
+
+[charaFace D 5]
+＠偽茨木童子
+鬼と倒れる[#宿運:さだめ]のもとに[r]鬼と生きたる身上なれバ[line 3]
+[k]
+
+＠偽茨木童子
+その[#畢命:ひつみょう]は血塗れずには渡れぬ[r][#逆棘:さかとげ]の道ヨ！
+[k]
+
+＠偽茨木童子
+三流術者の鬼道陰陽なにするものゾ。[r]飲み干し喰ろうて、この右腕の種火とせン。
+[k]
+
+[charaFace D 2]
+＠偽茨木童子
+酔狂と[#野茨:のいばら]ぞ咲き[#撓:おお]らせ、[r][#紅蓮:ぐれん]の狂花で、京の都を染めつくそうゾ！
+[k]
+
+[bgm BGM_EVENT_5 0.3 0.4]
+[cameraMove 0.4 0,-70 1.25]
+[wt 0.7]
+[charaPut F 0,100]
+[charaFace D 1]
+＠偽茨木童子
+魔法の[se bac61][charaEffect F bit_talk_41][shake 0.05 4 4 0.4]童女Ｉ☆ＢＡＲＡ☆ＫＩ推参！[r]く[bgm BGM_EVENT_5 1.5]はははははははははハハッ！
+[k]
+
+
+[wt 0.4]
+[charaEffectStop F bit_talk_41]
+[wt 0.2]
+[cameraHome 0.3]
+[wt 0.3]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+Ｉ☆ＢＡＲＡ☆ＫＩ……（ごくり）[r]なんて迫力なの……高架下の落書きみたい……
+[k]
+
+[charaFace C 3]
+
+＠イリヤ
+もしかして、もうラスボス戦？[r]どうしよう[&お兄さん:お姉さん]、心の準備が！？
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+？1：はっちゃけてる[&なぁ:ね]。さすが[#狂戦士:バーサーカー]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽茨木童子
+この漢字ばっかりの痛々しい[#見得切:みえき]りが[r]正気で出来ようカッ！　[#畏:おそ]れ入ったか人間！（泣）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠イリヤ
+完全にやけっぱち！？
+[k]
+
+[charaFadeout C 0.1]
+
+？2：ちょっと待って、虎皮の[#褌:ふんどし]って言った？
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽茨木童子
+[#其処:そこ]カ！　引っかかるの其処なのカ！
+[k]
+
+＠偽茨木童子
+虎皮だろうと豹皮だろうと、鬼の[#首魁:しゅかい]たるこの吾が[r]股に何を締めようと構わぬであろうガ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ど、どうしましょうかマスター、迫真です！[r]本当に偽サーヴァントなのか怪しくなってきました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+ですけどー、一応は語尾でニセモノ感[r]主張してますよネ？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽茨木童子
+わ、吾だって好んでやっておるのではなク……。[r]しゅ……じょ、[#酒呑:じょうし]に申しつけられてナ……
+[k]
+
+[charaFace D 4]
+＠偽茨木童子
+[#汝:なれ]は脇も[#褌:ふんどし]も締めが甘いかラ、[r]ちゃんと魔法少女らしい設定を練って備えろっテ……
+[k]
+
+[charaFace D 5]
+＠偽茨木童子
+[#其故:それゆえ]、昨晩寝ずに[#勘案:かんあん]したのダ！[r][#口上:こうじょう]リハで何度舌を噛んだことカ……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠イリヤ
+そ、そうなんだ……大変だったね……。[r]わかるよ。お互い[#師匠:じょうし]には苦労するよね。
+[k]
+
+[charaFace C 5]
+＠イリヤ
+わたしの赤っぽい鬼の師匠、ううん悪魔師匠も、[r]だいたいすごーい横暴なんだもの。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+その上司が一番すったるんで脇道に逸れてたりするのも[r]ありがちな展開ですよねー。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+わ、わたしのマスターは[r]そんなことは……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽茨木童子
+…………（イライライラ）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠イリヤ
+ま、まあ、わたしの場合も必ずってわけじゃ……[r]ちょっと言い過ぎちゃったかな。
+[k]
+
+[charaFace C 1]
+＠イリヤ
+二十分の一くらいの確率で[r]優しい時もあるし……えへへ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽茨木童子
+…………（イライライライラ）
+[k]
+
+[bgmStop BGM_EVENT_32 1.5]
+
+[charaFace D 5]
+＠偽茨木童子
+き……貴様ラ……、[r]さっきから吾をひそかに愚弄しておるだろウ！
+[k]
+
+[charaFace D 2]
+＠偽茨木童子
+[messageShake 0.05 3 3 0.7]
+うーっ、真面目にやらぬなら帰レッ！[r]もう吾、帰ル！　[#大江山:おうち]帰ル！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+マ、マスター？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+[wt 0.7]
+
+？1：ぜひ戦わせてください！
+？2：なんという冷酷で恐ろしいロリ鬼なんだ！
+？！
+
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 1]
+＠偽茨木童子
+くははははハ！　そう来なくてハ！
+[k]
+
+[charaFace D 2]
+＠偽茨木童子
+さあ参レ！[r]骨も残さず喰ろうてやル！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

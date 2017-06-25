@@ -1,0 +1,85 @@
+＄01-00-06-06-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98006200 1 ？？？]
+
+[scene 28420]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[effect bit_talk_14]
+[wt 0.1]
+[shake 0.05 2 2 0.4]
+[se bac10]
+[wait se bac10]
+
+[wt 0.7]
+
+[bgm BGM_EVENT_11 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……霊基核、破壊しました。[r]これで、もう……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+おお…………おおぉおお……[r]最期まで、このような無様を[#晒:さら]すとは……
+[k]
+
+＠？？？
+…………[#介錯:かいしゃく]、かたじけない。[r]名も知れぬ、サーヴァントよ。
+[k]
+
+＠？？？
+……まだ、貴殿らに温情があるのなら……[r]どうか、同胞たちの供養を……
+[k]
+
+＠？？？
+……やはり、戦うしかなかったのだな……[r]我が未熟さを笑え、呪腕の[line 3]
+[k]
+
+[bgm BGM_EVENT_11 0.4 0.3]
+[messageOff]
+[charaSpecialEffect B enemyErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect B]
+[wt 0.5]
+[bgm BGM_EVENT_11 1.0]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+状況、終了です。[r]……マスター、あの。
+[k]
+
+？1：……ああ。少し寄り道していこう
+？2：……この国の弔い方を教え[&てくれ:て]
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……はい。わたしたちでは上手くできませんが、[r]それでも、意味はあると思います。
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_11 1.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

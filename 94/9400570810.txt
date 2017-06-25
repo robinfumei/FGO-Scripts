@@ -1,0 +1,132 @@
+
+
+＄94-00-57-18-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 3024000 1 玉藻の前]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+インフラ整備？　というものをすべきだと思うのです。
+[k]
+
+＠アルトリア
+資材調達にもかなり慣れてきました。
+[k]
+
+[charaFace B 6]
+＠アルトリア
+だからこそ、それを運ぶ道筋をきちんと固めれば、[r]さらに効率が上がるのではないかと。
+[k]
+
+
+？1：まるで王様みたいだ……
+
+[charaFace B 3]
+＠アルトリア
+わ、私は基本的にはいつも王ですよ！
+[k]
+
+[charaFace B 8]
+＠アルトリア
+まあ今回は水着姿なので、なかなかそうは見えない[r]かもしれませんが……
+[k]
+
+
+？2：いい案だね、乗った！
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+ではどうします？　普通に木材で作りますかね？[r]なんというか、牧場の小道風に……。　
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+それではあまり変わらないのではありませんか？[r]少し手間かもしれませんが、石畳の道を提案します。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+
+＠モードレッド
+手間ついでに、もう一段階手間をかけてみちゃどうだ？
+[k]
+
+[charaFace B 5]
+＠アルトリア
+……どういう意味でしょう、モードレッド卿。
+[k]
+
+＠モードレッド
+へへっ……便利になるために道を作るんだろ？[r]だったらもっと便利な道にすりゃいいじゃねーか。
+[k]
+
+[charaFace C 1]
+＠モードレッド
+つまり[line 2]トロッコだよ！[r]うおー！　これは燃えるぜー！
+[k]
+
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+さてマスター、決断は任せます。[r]よろしくお願いしますね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+
+＠モードレッド
+あ、あれっ？
+[k]
+
+[charaFace C 4]
+
+＠モードレッド
+ちくしょう、何だよ、ただの道より絶対いいって。[r]速いし……きっと面白ぇし……。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

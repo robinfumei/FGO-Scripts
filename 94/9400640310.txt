@@ -1,0 +1,292 @@
+＄94-00-64-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_34 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102400 1 イリヤ]
+[charaSet D 98006300 1 ？？？]
+[charaSet E 98006300 1 ？？？]
+[charaSet F 98006300 1 ？？？]
+[charaSet G 98006300 1 ？？？]
+[charaSet H 98006300 1 ？？？]
+
+
+[charaScale D 0.8]
+[charaScale E 0.8]
+[charaScale F 0.8]
+[charaScale G 0.8]
+[charaScale H 0.8]
+
+[charaDepth C 0]
+[charaDepth A 0]
+[charaDepth D 3]
+[charaDepth E 3]
+[charaDepth F 3]
+[charaDepth G 3]
+[charaDepth H 3]
+
+[charaTalk depthOff]
+
+
+[scene 31000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFadein D 0.1 0,-200]
+[charaShake D 0.05 0 3 1.0]
+
+＠D：お菓子の国の住人
+いつまでもこの国にいてくださいー。[r]賞味期限果てるまでー。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 100,-200]
+[charaFadein D 0.1 -100,-200]
+[charaShake D 0.05 0 3 1.0]
+[charaShake E 0.05 0 3 1.0]
+
+＠E：お菓子の国の住人
+わたしたちと甘くしっとり香ばしく[r]暮らしましょうー。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk off]
+[charaFadein H 0.1 200,-200]
+[charaFadein G 0.1 100,-200]
+[charaFadein E 0.1 0,-200]
+[charaFadein F 0.1 -100,-200]
+[charaFadein D 0.1 -200,-200]
+[charaShake D 0.05 0 3 0]
+[charaShake E 0.05 0 3 0]
+[charaShake F 0.05 0 3 0]
+[charaShake G 0.05 0 3 0]
+[charaShake H 0.05 0 3 0]
+
+＠お菓子の国の住人たち
+お菓子の国でたのしく、おかしく！
+[k]
+
+＠お菓子の国の住人たち
+きのうはなつ菓子、いまはむ菓子、[r]人生はみじ菓子、肩す菓子！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+[charaFadein H 0.1 200,-200]
+[charaFadein G 0.1 -200,-200]
+
+＠マシュ
+いえ、あのっ、[r]そういうわけには……！
+[k]
+
+[charaTalk C]
+[charaFace A 14]
+[charaFace C 4]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠イリヤ
+ねえ、誰か、ミユを……！[r]黒髪の女の子を知りませんかー！？
+[k]
+
+[charaFace C 5]
+＠イリヤ
+ねえ、こっちの話も聞いてったらー！？
+[k]
+
+？1：マシュ！　イリヤ！　無事[&か:かい]！？
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+[charaMove H 150,-200 0.2]
+[charaMove G -150,-200 0.2]
+
+＠イリヤ
+[&お兄さん:お姉さん]！[r]な、なんとか大丈夫！　[charaShake C 0.05 3 3 0.5][se bac3][charaFace C 7]ムギュッ……！
+[k]
+
+[wait se bac3]
+[wait charaMove]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+[charaFadein H 0.1 1200,-200]
+[charaFadein G 0.1 1200,-200]
+[charaFadein F 0.1 -1200,-200]
+[charaFadein E 0.1 -1200,-200]
+
+
+＠マシュ
+先輩……！[r]すみませんっ！
+[k]
+
+[charaFace A 12]
+＠マシュ
+通りがかったこの方々に、[r]周辺情報の聞き込みをしていたのですが[line 3]
+[k]
+
+[charaFace A 8]
+＠マシュ
+あれよあれよという間に、[r]ここまで運ばれてきてしまって！
+[k]
+
+[messageOff]
+
+[charaMove H 50,-200 0.5]
+[charaMove G 200,-200 0.5]
+[charaMove F -50,-200 0.5]
+[charaMove E -200,-200 0.5]
+[wait charaMove]
+[se bac3]
+[charaShake A 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaFace A 14]
+[seLoop ad104]
+[charaMove A 0,200 0.3]
+[wait charaMove]
+[charaMove A 0,0 0.2]
+[wait charaMove]
+[charaFadeout A 0.1]
+
+＠マシュ
+あっ、メ、メガネは返してください！
+[k]
+
+[seStop ad104]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+ある意味、絶景ですねー！【ＲＥＣ】
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+美少女二人が、メルヒェンなクリーチャーに[r]もみくちゃにされるこの[#絵面:えづら]は（ゴクリ）【ＲＥＣ】
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+ルビー！[r]ニンマリ見てないで、なんとかしてー！
+[k]
+
+？1：なんとか彼らを鎮め[&よう:ようか]、マシュ？
+
+？！
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_34 1.5]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 3]了解です！
+[k]
+
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk off]
+[messageOff]
+[se bac65]
+[fowardEffect bit_talk_tornado01]
+
+[wt 0.8]
+[charaChange A 8001001 0 fade 0.5]
+[wait charaChange A]
+
+[wt 1.5]
+
+[charaFace A 7]
+＠マシュ
+火力最小で、充分に配慮します！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaPut C 1200,1200]
+[charaChange C 5028000 5 fade 0]
+[wt 0.1]
+[charaFadeout C 0]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+[line 3]わたしだって！
+[k]
+
+
+[charaPut B 1]
+[messageOff]
+[se ad150]
+[charaBackEffect B bit_talk_magicalchange_back]
+[wt 0.5]
+[charaChange C 5028001 5 fade 1.0]
+[wait charaChange C]
+[charaBackEffectStop B bit_talk_magicalchange_back]
+[wt 1.0]
+[charaPut B 1200,1200]
+
+[charaTalk on]
+
+[charaFace C 2]
+＠イリヤ
+こんなところで、[r]立ち止まっていられないもの！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,314 @@
+
+
+＄94-00-37-76-1-1
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7006000 1 坂田金時]
+[charaSet C 98071000 1 茨木童子]
+
+[scene 27600]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠坂田金時
+吹き飛べ、必殺ッ[line 2]
+[k]
+
+[se ad61]
+[seStop ad61 3.0]
+[backEffect bit_talk_lightning_02g]
+[wt 1]
+[charaEffect B bit_talk_36]
+[se ad62]
+[seStop ad62 3.0]
+
+＠坂田金時
+[fontSize large][messageShake 0.05 5 8 3.5][#黄金衝撃:ゴールデンスパーク]！[fontSize -]
+[k]
+
+[messageOff]
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[seStop ad62 0]
+[se ad63]
+[wait flash]
+[fadeout white 0.5]
+[charaEffectStop B bit_talk_36]
+[backEffectStop bit_talk_lightning_02g]
+[wait effect]
+[wait fade]
+
+
+
+
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+
+[fadein white 1.0]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+
+[wt 0.3]
+
+
+
+＠茨木童子
+[shake 0.05 5 8 1.5]
+[wt 0.1]
+[se bac10]
+ぐっ、お、オオオオオオオオオオオオッ！
+[k]
+
+[shakeStop]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+
+＠マシュ
+やっ……やりました！
+[k]
+
+＠マシュ
+無限かとも思えるほどの体力でしたが……ついに！[r]あれは致命傷です！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+
+＠茨木童子
+なぜだ……なぜここまで追いすがる！？
+[k]
+
+[charaFace C 5]
+
+＠茨木童子
+今の[#吾:われ]は鬼の王、英霊とはいえ、[r]人ごときに破れる筈が……！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.4 1]
+
+＠坂田金時
+バカ言ってんな茨木。[r]テメェは鬼の王なんかじゃねえ。
+[k]
+
+＠坂田金時
+王になり損ねた、ただの童だ。[r]最後まで根性が足りなかった、な。
+[k]
+
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+
+
+[charaFace C 5]
+[charaFadein C 0.4 1]
+
+＠茨木童子
+なんだと！？[r][#吾:われ]の何処が根性無しだと！？
+[k]
+
+
+[charaTalk B]
+
+＠坂田金時
+言われなきゃ分かんねえのか？[r]仕方ねえ。おう大将、いっちょ言ってやんな。
+[k]
+
+？1：だって酒呑、食べてないじゃん
+
+？！
+
+
+
+[charaTalk C]
+[charaFace C 2]
+
+
+＠茨木童子
+ガ[line 3]！？[r]き、きさま、人間……ッ！
+[k]
+
+
+＠茨木童子
+怖ろしいまでに残酷な事を口に……！[r]酒呑を食べる、とはあくまで例え話にすぎぬ！
+[k]
+
+
+
+＠茨木童子
+それを、事も容易げに……[r][#吾:われ]が、酒呑を食べられるものか[line 2]！
+[k]
+
+[charaFace C 4]
+
+＠茨木童子
+尊敬する酒呑には傷一つ付けておらぬわ、たわけ！[r]そもそも後が怖い！　殺されるに決まっておる！
+[k]
+
+[bgmStop BGM_EVENT_3 1.5]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+
+＠坂田金時
+な？[r]茨木はこういうヤツだって言っただろう？
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+？1：うん、すごく……
+？2：チキン……です……
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+
+＠茨木童子
+お、おのれ、よく分からぬが酷い侮辱を受けている[r]のだけは感じ取れるぞ、人間……っ！
+[k]
+
+＠茨木童子
+[#吾:われ]のどこが軟弱だというのだ！[r]貴様、名を名乗れっ！
+[k]
+
+
+？1：[%1]です
+
+？！
+
+[charaFace C 2]
+
+＠茨木童子
+ようし、覚えた。覚えたぞ人間！[r]末代まで祟ってやるわ！　存分に怖がるがいい！
+[k]
+
+
+[charaTalk A]
+
+
+
+＠マシュ
+……こんな事を言うのは不謹慎ですが……[r]今まで怖かった分、くるっと反転しましたね、先輩。
+[k]
+
+
+[charaTalk C]
+[charaFace C 5]
+
+＠茨木童子
+あの黒いのまで……！？[r]何故！　何故、[#吾:われ]を怖れぬのだ！？
+[k]
+
+
+[charaTalk B]
+
+
+＠坂田金時
+いや、じっさい面白いしオマエ。[r]妙に口調も古くさいしよ。
+[k]
+
+
+[charaTalk C]
+[charaFace C 3]
+
+＠茨木童子
+し、仕方なかろう！[r]これが鬼のしきたりというヤツなのだ！
+[k]
+
+＠茨木童子
+鬼が威張らずして誰が威張るというのかっ！[r][#吾:われ]は母上にそう教わったぞっ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+
+＠坂田金時
+おう、それだよ。[r]律儀に鬼のしきたりってヤツを守ってやがる。
+[k]
+
+＠坂田金時
+それがテメェの長所、見所だったじゃねえか。[r]それがなんだ、今のザマは？
+[k]
+
+＠坂田金時
+鬼のクセに鬼を捕まえて、[r]人間には酒を振る舞って自滅させる？
+[k]
+
+＠坂田金時
+まったくらしくねえ。背伸びして酒なんざ飲むからだ。[r]顔を洗って出直してくるんだな。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+
+
+＠茨木童子
+う、く[line 3]！
+[k]
+
+[charaFace C 2]
+
+＠茨木童子
+いいだろう、今回は[#吾:われ]の負けだ！[r]貴様らの根性とやらを認めよう！
+[k]
+
+＠茨木童子
+だが[#吾:われ]の角はまだ折れていない！[r]次こそ、[#吾:われ]への侮辱を後悔させてやる！
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+[soundStopAll]
+[end]

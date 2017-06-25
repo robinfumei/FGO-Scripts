@@ -1,0 +1,229 @@
+＄94-00-28-06-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 5002001 1 ジル]
+[charaSet G 98003003 1 Dr.ロマン]
+
+[scene 20602]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+
+＠Dr.ロマン
+……贋作英霊が一体来るぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+む……この邪悪な気配は……！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠ジル
+[line 2]おや、どこかで見た顔ですね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 0]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠マシュ
+ジル・ド・レェ……！
+[k]
+
+＠ダ・ヴィンチちゃん
+ああ、やっぱりなあ……。[r]彼女がいる以上、彼もいるよねえ。
+[k]
+
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジル
+ほほほ何のことやら！[r]我が名はジル・ド・レェ！
+[k]
+
+[charaFace D 0]
+＠ジル
+『子供の頃は大好きだったけど中高生からの反抗期で[r]　なんかうざがられるようになった悲しみの父親』！
+[k]
+
+[charaFace D 0]
+＠ジル
+“お父さん、マジ加齢臭きついんだけど”と手で[r]払われるようになったジル・ド・レェでございます！
+[k]
+
+？1：なんて悲しい……！
+？2：あー……でも分かる、うん。
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+具体的な設定、ありがとうございます！[r]心中お察ししますね！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジル
+ありがとう、優しいお嬢さん……！[r]ああ、[charaFace D 0]うちの娘にも貴女ほどの優しさがあれば！
+[k]
+
+[charaFace D 0]
+＠ジル
+ですが仕方ありません。これも運命……あの子の[r]考えた設定ならば、甘んじて受け入れましょう！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+……彼女はそれを他人に聞かせるつもりは[r]なかったんじゃないか、と思うが……。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+まあいい。[r]ジル・ド・レェ。おまえに尋ねるべき事は最早ない。
+[k]
+
+[charaFace C 5]
+＠エミヤ
+立ち塞がるというのであれば、[r]斬り伏せるまでだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジル
+然様ですか。[r]だがしかぁぁぁぁぁし！
+[k]
+
+[charaFace D 0]
+＠ジル
+最後のマスターに問う。[r]汝は何故、我らの邪魔をするのか！
+[k]
+
+[charaFace D 0]
+＠ジル
+レオナルド・ダ・ヴィンチの贋作が問題であれば、[r]我らがあの子を説得し、別の贋作を作らせましょう。
+[k]
+
+[charaFace D 5]
+＠ジル
+伏してお願い申し上げます！[r]どうか我らに手を出さないで頂きたい！
+[k]
+
+？1：その子に会わなきゃいけない
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+そうだね。[r]ジル元帥。
+[k]
+
+＠ダ・ヴィンチちゃん
+その子の正体はもう分かっているんだ。[r]私たちは単純に動機が知りたい。
+[k]
+
+[charaFace B 4]
+＠ダ・ヴィンチちゃん
+もしかしたら、それも大方分かっているのかも[r]しれないけど……。
+[k]
+
+＠ダ・ヴィンチちゃん
+勝手に他者の動機を想像し、憤懣したり落胆したり[r]軽蔑したりするのは、うん。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+あんまりよろしくないからなあ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+そうだな。[r]どちらにせよ、戦う事は避けられまい。
+[k]
+
+＠エミヤ
+目的がどうあれ、[r]彼女の振るまいはこちらと敵対するものだ。
+[k]
+
+[charaFace C 5]
+＠エミヤ
+その願いにどれほどの哀切があろうと、[r]まずは打倒しなければ話にならない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジル
+……なるほど。ならば、我らは立ち向かいましょう。[r]あの子の夢、あの子の願い。
+[k]
+
+＠ジル
+我ら七騎のサーヴァントは、[r]それを叶えるために創造されたもの。
+[k]
+
+[charaFace D 5]
+＠ジル
+真作を超える贋作であれ！[r]真実を超える欺瞞であれ！
+[k]
+
+[charaFace D 2]
+＠ジル
+偽書、偽典、偽物と糺されようと！[r]我らは確かに、此処に存在するのだから！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

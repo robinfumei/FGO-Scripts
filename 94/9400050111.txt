@@ -1,0 +1,142 @@
+＄94-00-05-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[backEffect bit_talk_helloween01 1]
+[scene 20805]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 ？？？]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+敵性反応、消失しました。[r]単なる野良エネミーだったようです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+入り口ではこの程度のクオリティなのでしょう。[r]これは一刻も早く本命[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+あの、見るからに怪しいお城に向かうべきでは[r]ないでしょうか、マスター。
+[k]
+
+？1：あの城……血の魔城……う、頭が……！
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+気持ちは分かるよ。[r]精神安定剤、いるかい？
+[k]
+
+[communicationCharaFace 4]
+？2：はりきってるね、マシュ
+
+[charaFace A 6]
+＠マシュ
+はい、もちろん！[r]あ、いえ……もちろん、お仕事として、です。
+[k]
+
+[charaFace A 3]
+＠マシュ
+テーマパーク的なリクリエーションを期待している[r]ワケでは、はい、決して！
+[k]
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 4]
+？！
+
+[wt 0.3]
+＠Dr.ロマン
+ん？　……むむう。[r]おかしいな、計器の故障かな……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+ドクター？[r]何か、今のゴーストにプロ視線からの批評でも？
+[k]
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+いや、ちょっとね。[r]たぶんボクの気のせいだ。忘れてくれ。
+[k]
+
+＠Dr.ロマン
+（特異点に近い揺らぎがある……なんて[r]　信じられないし、よし、見ないフリをしよう）
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+キミたちはそのまま楽しんでくれたまえ。[r]招待状通り、まずはお城に向かわないとね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+もちろんです！[r]この森を抜けて、カボチャの街へ向かいましょう！
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[wipeout leftToRight 0.4 3]
+[wait wipe]
+[backEffect bit_talk_helloween01 1]
+[scene 20805]
+[wipein rightToLeft 0.4 3]
+[wait wipe]
+[charaFilter D silhouette 20202000]
+[charaFadein D 0.1 5]
+[charaFace D 0]
+＠？？？
+うふふ、うふふふふ。[r]うふふふふふふふふふふふ…………。
+[k]
+
+＠？？？
+み[r]い
+[k]
+
+＠？？？
+つ[r]け
+[k]
+
+＠？？？
+た[r]☆
+[k]
+
+[charaFadeout D 0.1]
+[messageOff]
+[wipeout rightToLeft 0.4 3]
+[wait wipe]
+[backEffect bit_talk_helloween01 1]
+[scene 20805]
+[wipein leftToRight 0.4 3]
+[wait wipe]
+[charaFadein C 0.1 1]
+＠フォウ
+……フォウ？[r]（突然の寒気に振り返る）
+[k]
+
+[charaFadeout C 0.1]
+[messageOff]
+[fadeout black 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

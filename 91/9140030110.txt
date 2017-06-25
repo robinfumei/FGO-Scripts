@@ -1,0 +1,189 @@
+＄91-40-03-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4003001 2 ドレイク]
+[charaSet E 98006000 1 魔物]
+[charaFadein D 0.1 1]
+[se ad37]
+[wt 0.3]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+おう、来たねキャプテン[line 3][r]じゃなかった、[%1]。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+いつも顔を合わせているけどさ、[r]改まって話すと不思議と懐かしい気分になるよ。
+[k]
+
+[seStop ad37 0.5]
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+＠マシュ
+わたしもです、船長。[r]きっと先輩も同じだと思います。
+[k]
+
+＠Dr.ロマン
+そうだね。あのドレイク船長との航海は[r]無かった事になったけど、ボクらはちゃんと覚えている。
+[k]
+
+[charaFace D 0]
+[charaFace A 4]
+＠ドレイク
+アタシはぜーんぜん。マシュに“また会えて嬉しい”[r]なんて言われても、なんのことだか分かりゃしない。
+[k]
+
+＠ドレイク
+でもまあ、それでも“そんな事もあったねぇ”と[r]しんみりしちまうんだから、嘘じゃないんだろうさ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ドレイク
+ああヤメヤメ、湿っぽい話をして悪かった。[r]今日はもっと楽しい話をしにきたってのにさ！
+[k]
+
+？1：楽しい話……？
+
+？2：もうけ話……？
+
+？！
+
+[charaFace D 1]
+＠ドレイク
+おうさ！　海賊稼業から足を洗っても、[r]まだ感覚は残ってるだろキャプテン？
+[k]
+
+[charaFace D 0]
+＠ドレイク
+ちょいと面白い話を小耳にはさんでねぇ。[r]お宝の眠る孤島の話さ。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+どうだい、ちょっと遊びに行ってみないかい？[r]コレは多いにこした事はないだろ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+これ？　先輩、ドレイク船長はなぜ親指と人差し指で[r]マルを作っているのでしょう？
+[k]
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 1]
+＠Dr.ロマン
+あはは。マシュは知らなくていいよ。[r]でもお宝の眠る島、という響きはいい！　浪漫だ！
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、[r]ぜひドレイク船長の提案にのろう。
+[k]
+
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+ところで船長。[r]財宝の眠る島って、具体的に言うとどの海域？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ドレイク
+ん？　えーと、たしか……[r]ばみゅーだ？　とらいあんぐる？　みたいな？
+[k]
+
+＠Dr.ロマン
+[line 3]なんですと？
+[k]
+
+[charaFadeout D 0.1]
+[messageOff]
+[wt 0.2]
+[fadeout black 1]
+[fadein black 1]
+[se ad2]
+[se ad37]
+[scene 21210]
+[wt 3]
+[fadeout black 1]
+[seStop ad2]
+[seStop ad37]
+[fadein black 1]
+[scene 20800]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+[wt 0.6]
+＠マシュ
+と……とんでもない目に遭いました……[r]あんな嵐ははじめてです……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+＠ドレイク
+そう？　あれぐらいなら可愛いもんだけどねぇ……[r]船も二回しか跳ばなかっただろ？
+[k]
+
+＠Dr.ロマン
+船は一度も跳ばないものですよ船長……。[r]画面越しでも船酔いするって、どんだけ……
+[k]
+
+[charaFace D 1]
+＠ドレイク
+いいじゃないか。無事、こうして島についたんだ。[r]しかもアタシたちが一番乗りだね、こりゃ。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+けどまあ……[r]その前に、手荒い歓迎がおでましだけど。
+[k]
+
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[se ad27]
+[se ad25]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaFadein E 0.1 1]
+＠魔物
+FUoooooooOOOOOOo！！！！！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+っ……！　島に棲息している魔獣のようです！[r]マスター、指示を！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠ドレイク
+おうおう、冒険ってのはこうでなくっちゃ！[r]アンタらに恨みはないが、邪魔をするなら相手になるよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

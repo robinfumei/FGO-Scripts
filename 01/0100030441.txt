@@ -1,0 +1,83 @@
+＄01-00-03-04-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21510 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 2012001 1 ？？？]
+[charaSet G 7009000 1 アステリオス]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 1]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+いやあ、さっきの骸骨といい、人間以外と[r]戦うことになるなんて、いい土産話ができた。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+にしても、この手の連中でも鉛玉で撃てば死ぬんだね。[r]いい勉強になるよ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+いえ、普通は通じないです。[r]ドレイクさんは聖杯の所有者ですから……。
+[k]
+
+＠マシュ
+“なんであれ銃撃は通じる”という願望を[r]叶え続けているんだと思います。
+[k]
+
+[charaFace D 4]
+＠ドレイク
+何だ、そういうことかい。[r]やっぱり[#嵐の夜:ワイルドハント]には出歩くなってコトか。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 21500 0]
+[charaFace F 4]
+[charaFadein F 0 2]
+[charaFace G 4]
+[charaFilter G silhouette 00000080]
+[charaFadein G 0 0]
+[fadein black 0.5]
+[wait fade]
+＠F：？？？
+ねえ、また来たみたいよ。[r]全滅したと思ったのに……。
+[k]
+
+[charaFace F 5]
+＠F：？？？
+まったく、しつこいったらないわね。[r]どうする？
+[k]
+
+[voice 700900_0_B010]
+[wait voice 700900_0_B010]
+[charaFace F 0]
+[wt 1]
+＠F：？？？
+……そ。暴れたいのなら好きにすれば？
+[k]
+
+＠F：？？？
+言っておくけど、私は汗をかくのはイヤだから。[r]手伝ってあげたりしないからね。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

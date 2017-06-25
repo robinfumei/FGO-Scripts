@@ -1,0 +1,843 @@
+＄94-00-28-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 11003001 1 ジャンヌ・オルタ]
+[charaSet E 3012001 1 ブリュンヒルデ]
+[charaSet G 98003003 1 Dr.ロマン]
+[charaSet H 98002000 1 フォウ]
+
+[scene 20602]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠エミヤ
+……静かに。[r]声がする。
+[k]
+
+＠エミヤ
+どうやら我々は気付かれていないようだ。[r]贋作だから[charaFace C 4]サーヴァントの気配に鈍いのか？
+[k]
+
+[charaFace C 0]
+＠エミヤ
+……奇襲のチャンスかもしれない。[r]ゆっくり行くぞ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はいっ。
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[wt 0.5]
+[se ad95]
+[wait se ad95]
+
+＠D：？？？
+ああもうウザい！　どうしてよ！[r]どうしてアンタこんな事になってんの！？
+[k]
+
+＠E：？？？
+ああ、私幸せです……。[r]こんなにも、こんなにも干渉してくれるなんて！
+[k]
+
+＠D：？？？
+やだもー！[r]ひっ、つく、なっ！
+[k]
+
+[messageOff]
+[se ad102]
+[wait se ad102]
+[wt 0.5]
+
+[charaTalk C]
+[charaFace A 7]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+（３、２、１で行くぞ）
+[k]
+
+＠マシュ
+（分かりました）
+[k]
+
+＠エミヤ
+（３、２[line 2]）
+[k]
+
+＠マシュ
+（１！）
+[k]
+
+[messageOff]
+[se ba1]
+[wipeout rightToLeft 0.5 1]
+[wait wipe]
+
+[charaFadeout A 0]
+[charaFadeout C 0]
+
+[scene 20901]
+
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+＠エミヤ
+そこまでだ！
+[k]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFace E 2]
+[charaFadein E 0.4 -100,-50]
+[charaFadein D 0.4 1]
+
+＠ジャンヌ・オルタ
+ああもう離れ、ろ……！？
+[k]
+
+＠ブリュンヒルデ
+ああ、ああ……[#愛しい人:シグルド]！　[#ご主人様:シグルド]！[r]どうかもっと[#詰:なじ]って下さい！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+……。[r]……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+……。[r]……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……。[r]……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+＠フォウ
+……。[r]……。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+
+？1：見なかった事にする？
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+そうしてくれると！[r]ありがたいわね！
+[k]
+
+
+？2：最後の決戦だ！
+
+[bgmStop BGM_EVENT_5 0.5]
+[wt 0.5]
+[bgm BGM_BATTLE_4 0.1]
+[wt 2.0]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エミヤ
+待てマスター！　さすがにこの空気から、[r]一気に決戦に切り替えるのは不可能だ！
+[k]
+
+[bgmStop BGM_BATTLE_4 1.5]
+[wt 1.5]
+
+[charaFace C 1]
+＠エミヤ
+そうだ、そうしよう。[r]まずは語り合う事から始めよう。
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_5 2.0]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ジャンヌ・オルタ
+フン、良くここまで来たわね。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+贋作の乏しい痕跡を拾いに拾って辿り着いた、[r]という訳かしら。
+[k]
+
+＠ブリュンヒルデ
+ハァ……ハァ……。
+[k]
+
+？1：あの、その足下の……
+？！
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+[#おだまり:Ta gueule.]！！[r]……せやっ！
+[k]
+
+[charaShake D 0.05 3 3 0.5]
+[se ad102]
+[wt 0.5]
+[se ad75]
+[wt 1.0]
+[seStop ad75 1.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+遥か彼方へすっ飛んでいったな……。
+[k]
+
+＠Dr.ロマン
+腰の入ったシュートだった。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+そ、それでは改めて。[r]……あれ、[charaFace A 6]すいません。何ですかこの音？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad103]
+[wait se ad103]
+
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+…………まさか。
+[k]
+
+[charaFadeout D 0.1]
+
+
+[seLoop ad104]
+
+＠ブリュンヒルデ
+……………………！！！！！
+[k]
+
+[charaFadeout E 0.1]
+
+[messageOff]
+
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+テケテケみたいな速度で、[r]ブリュンヒルデが這いずり回ってるぞ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+きゃぁぁぁ！？
+[k]
+
+[charaFadeout D 0.1]
+
+
+[seStop ad104]
+[se ad7]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFace E 0]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+＠エミヤ
+おい、落ち着きたまえブリュンヒルデ！
+[k]
+
+＠エミヤ
+君はアレだ、陰鬱に美声で囁きながら[r]サクサク突いてくるタイプだろう！
+[k]
+
+[charaFace C 4]
+＠エミヤ
+今の君を、愛する人が見たらどう思うかっ。
+[k]
+
+[charaFace E 0]
+＠ブリュンヒルデ
+[line 2]何を、言っているのです？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+ヒッ。
+[k]
+
+[charaFace B 4]
+＠ダ・ヴィンチちゃん
+……いかん、思わず変な声が出た。[r]やはり生だと迫力が違うねえ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ブリュンヒルデ
+私の愛する方は、お姉様だけ……。[r]お姉様の愛を全身で受け止める。
+[k]
+
+[charaFace E 0]
+＠ブリュンヒルデ
+それのどこがいけないのでしょうか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+……だ、そうだが。[r]君の蹴りは愛情表現か？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+違うわよぜんっぜん違うわよ！！[r]ああもうどうしてこうなるの！？
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+『私の配下の七人に、一人くらいは女がいてもいい[r]でしょう』って願っただけなのに！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+どこをどう拗くれたら、私の事をマスターと呼ばず、[r]お姉様とか呼ぶテケテケ女になるというのよ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 2]
+[charaFace E 2]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+＠ブリュンヒルデ
+愛……愛です……全ては愛……ハァァ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[seLoop bac8]
+＠ジャンヌ・オルタ
+そういう！　愛は！　求めて！　ない！[r]っつーの！
+[k]
+
+[seStop bac8]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ブリュンヒルデ
+ああ、この痛み……衝撃……！　ビリビリします……！[r]愛は……痛いものなのですね……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+まあ、一片の真理ではあるのだろうが……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 2]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+＠ジャンヌ・オルタ
+[line 2]ふう、ふう……。[r]いいわ。ひとまず、コレは無視して頂戴。
+[k]
+
+＠ブリュンヒルデ
+ハァ……ハァ……ハァ……！
+[k]
+
+？1：そうします……
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+ふん。[r]いずれ嗅ぎ付けられるとは思っていたけど。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+意外に早かったわね。相変わらず、犬みたいに[r]鼻だけは利くというコト、[%1]？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+オルレアン以来ですね。[r]ジャンヌ・オルタ。
+[k]
+
+＠エミヤ
+……君は消滅したはずだが。
+[k]
+
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+[line 2]ハッ。
+[k]
+
+＠ジャンヌ・オルタ
+どう屈折した手段で創造されようとも、私という概念が[r]生まれた以上、それを無かった事にするなんて不可能よ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+……そうだな。この世界に産み落とされたものが、[r]壊れて消えたとしても……。
+[k]
+
+＠エミヤ
+産み落とされた事実そのものは消す事はできない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+さすがね、[#贋作者:フェイカー]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+だが、それでは足りないはずだ。
+[k]
+
+＠エミヤ
+おまえの存在を願った者はジル・ド・レェであり、[r]それを叶えたのは聖杯だ。
+[k]
+
+＠エミヤ
+聖杯は回収され、あのジル・ド・レェは倒された。[r]おまえが再召喚される可能性はゼロに等しい。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+アハハハハ！　そう、そうね、その通りよ！[r]私が再召喚される可能性は極小でしかない。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+だって誰も私を望まなかった！[r]私を望んだ唯一の英雄は死に絶えて！
+[k]
+
+＠ジャンヌ・オルタ
+彼以外は力づくで支配していたから、[r]誰一人として復活を望む者はいなかった！
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+[line 2]だから、発想を逆転させた。
+[k]
+
+＠ジャンヌ・オルタ
+この世で絶対に私を望まない相手、[r]私が憎み、私を憎むべきくそったれの合わせ鏡。
+[k]
+
+＠ジャンヌ・オルタ
+あの弛んだ馬鹿女の願望を引き摺り出して、[r]どうにか再生を果たした訳。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+強引だな……。[r]フィクションの悪役が実体化するようなものだぞ。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+ジャンヌ・ダルクという英霊が極めて強力な知名度を[r]有しているからこそ可能な反則技だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+……そうね、それは認める。私は紛う事なき贋作。[r]あの女の極小の可能性という、慈悲に縋って生きている。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+でもこの世は嘘だらけ、虚飾を良しとする世界。[r][#贋作が真作を凌駕してはいけない]なんて、誰も言ってない！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+オルタちゃんは贋作になっただけでは飽き足らず、[r]真作を上回るつもりなのかい？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+そう。[r]オルレアンの失敗は繰り返さない。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+あの時の私は、ただアイツを否定するための[r]機械に過ぎなかった。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+私は贋作[line 2]それがどうしたというの。[r]陰に潜め？　ハ、引っ込んでいるつもりはないわ。
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+私が贋作であろうと、この世界に名を刻んでは[r]いけないなんて、誰にも決められていない！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+私はジャンヌ・ダルク。
+[k]
+
+＠ジャンヌ・オルタ
+多くの人間が“あんな最期を迎えた女なら[r]復讐の権利がある”と夢想して堕ちた魔女[line 3]
+[k]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+紛れもない、ジャンヌ・ダルクの一面！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+漆黒の殺意と暗黒の憎悪を羊水として産み落とされた[r]反英雄[line 2]アヴェンジャーのサーヴァントだ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace A 6]
+[charaFace C 5]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+……アヴェンジャーだと？
+[k]
+
+＠マシュ
+確かに七つのクラス、どれにも該当しません……！[r]そしてジャンヌさんのクラス、ルーラーとも異なります！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+……ほら、さっさと起きなさいこのド変態！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[se bac8]
+[charaShake E 0.05 3 3 0.5]
+＠ブリュンヒルデ
+はぅ！[r]ハァ、[charaFace E 3]ハァ、ハァ……堪能しました……！
+[k]
+
+[charaFace E 0]
+＠ブリュンヒルデ
+それでは殺させて頂きますね。[r]どうか、お覚悟を。
+[k]
+
+＠ブリュンヒルデ
+この槍、お姉様の敵を見逃すほど甘くはありません……。[r]お姉様のツボを突くのも得意ですけれど……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+アンタのマッサージなんて二度と受けないわよ！[r]なんだって[charaFace D 4]こんなのが出来たのかしら！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+それは……うむ。[r]黙っているつもりだったが、この際だ、指摘しよう。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+いいかな、復讐の聖処女よ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+な、なによ。[r]いやらしい口ぶりで[line 3]アナタ、さては女たらしね？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠エミヤ
+ははは。よし、遠慮なく切り込むぞ。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+君は七人の贋作サーヴァントを召喚した。[r]いや、生み出したといったな。
+[k]
+
+＠エミヤ
+オルレアンでのリベンジだろう。[r]だが今回は君の願望が混ざってしまった。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+なぜ贋作英霊の大半は美男子なのか？[r]なぜジル元帥に頼らなくなったのか？
+[k]
+
+[charaFace C 5]
+＠エミヤ
+答えは明白だ。君は自分でも気づいていないだけで、[r]その深層意識には主人公願望があったのだ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+バカを言わないで！[r]なら、この変態セクハラ女はどうだっていうのよ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 5]
+[charaFace E 3]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+＠ブリュンヒルデ
+そんな……変態だなんて……情熱的すぎます……ポッ。
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+脱水症状で死ね！
+[k]
+
+[se bac13]
+[charaShake E 0.05 3 3 0.5]
+
+[charaFace E 2]
+＠ブリュンヒルデ
+ああ！　愛が痛くて熱い！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+あの……それはわたしでも分かります。
+[k]
+
+＠マシュ
+貴女はきっと、『ひとりぐらい、同性でフランクな友達』[r]がほしかったのでは……？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+[line 6]！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+……忌々しい。[r]本気で忌々しいわ、アナタたち。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+私はただひとりの復讐者。贋作どもはただの駒よ。[r]気に入らなければ握り潰すだけのね。
+[k]
+
+＠ジャンヌ・オルタ
+さあ。行くわよ[#真作:ホンモノ]ども。[r]贋作が真作を超えた事を、此処に証明する……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エミヤ
+来るぞ。指示を下せ、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

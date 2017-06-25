@@ -1,0 +1,174 @@
+＄94-00-05-05-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20900]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 7007001 1 ヴラド三世]
+[fadein black 1]
+[wait fade]
+[wt 0.3]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠ヴラド三世
+[line 2]ふむ、ここまで辿り着いたか。
+[k]
+
+＠ヴラド三世
+カーミラめ、手を抜いた……[r]という訳ではなさそうだな。
+[k]
+
+[charaFace E 1]
+＠ヴラド三世
+ならば良し。[r]この“[#悪魔公:ドラクル]”ヴラド・ツェペシュと戦う名誉を与える。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠清姫
+あらあら、いつになく[#真っ当:しりあす]な戦士ですわね。[r]クラス的にはわたくしと同類ですのに。
+[k]
+
+[charaFace D 1]
+＠清姫
+あ、もちろんわたくしは淑やかさでは右に出る者ない[r]バーサーカーでございますが。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠ヴラド三世
+笑わせるな人食い。[r]罪深さで胃の腑から焼けただれるぞ？
+[k]
+
+＠ヴラド三世
+余も貴様も破綻しているという点では共通よ。[r]いまさら正道になぞ戻れると思わぬ事だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+……今、ちょっと苛立ちました。[r]こう、喉仏のあたりにある鱗に触れてしまったような。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠ヴラド三世
+当然である。[r]余興とは言えこれは宴。であれば[line 3]
+[k]
+
+[charaFace E 0]
+＠ヴラド三世
+道化であれ、[#本気で掛からねば: ・ 　・　 ・ 　・　 ・　 ・　 ・　 ・][r]面白くも何ともあるまい。
+[k]
+
+＠ヴラド三世
+国を護る者ならば祭りの重要性は理解している。[r]娯楽なくして人の世は治まらぬもの。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+すごい……先輩、あのヴラドさんは正気です！[r]この状況でひとりだけ空気読めていません！
+[k]
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+ある意味バーサーカーというワケだね……[r]おかしな世界では逆に正しくなる、みたいな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠ヴラド三世
+[line 3]いささか心外である。[r]余とてユーモアを解する紳士なのだがね。
+[k]
+
+＠ヴラド三世
+歓楽の歌を舞ったマタ・ハリ[r]苦悶の歌を見舞ったカーミラ。
+[k]
+
+＠ヴラド三世
+きゃつらに合わせて余も[r]鮮血の[#叫:うた]をあげたいところだが……
+[k]
+
+[charaFace E 1]
+＠ヴラド三世
+そこは許すがよい。残念ながら余の得意は[r]刺繍であって、歌ではなくてな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+……刺繍？[r]ヴラドさんは刺繍が得意なのですか？
+[k]
+
+[charaFace A 6]
+＠マシュ
+もしやその豪奢なお召し物はご自分で？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠ヴラド三世
+ははは。嬉しい事を言ってくれるなレディ。[r]だがこれは専門の服飾が仕立てたもの。
+[k]
+
+＠ヴラド三世
+余も一度ぐらいは仕上げてみたかったのだが、[r]立場というものがある。
+[k]
+
+[charaFace E 0]
+＠ヴラド三世
+うむ。少女よ、望むのなら後ほど手ほどきをしよう。
+[k]
+
+[charaFace E 1]
+＠ヴラド三世
+主を想う祈りのアップリケは、[r]さぞマスターの服に合うだろう。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 3]
+＠マシュ
+ヴラドさん……！
+[k]
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠ヴラド三世
+だがその前に[#荒事:あらごと]だ。[r]“盛り上げてくれ”と頼み事をされているのでな。
+[k]
+
+＠ヴラド三世
+この宴を面白可笑しく騒ぎ立てるために[line 2]。[r]貴様らには、それ相応の悲鳴を上げて貰おう。
+[k]
+
+[charaFace E 2]
+＠ヴラド三世
+それでは前菜だ。[r]痛みに骨を軋ませながら喰らうがいい。
+[k]
+
+[charaFadeout E 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

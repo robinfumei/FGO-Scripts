@@ -1,0 +1,125 @@
+＄94-00-31-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+
+[scene 25600]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+敵サーヴァント消滅。戦闘完了です。
+[k]
+
+？1：楽勝だったね
+？2：サーヴァントにしては弱かったような……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace A 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠エルメロイ
+今のアサシンは群体の一部だ。そういう風に[r]自分を分割して顕現できる能力の持ち主でね。
+[k]
+
+＠エルメロイ
+だからまだ奴の息の根を止めたわけではない。[r]次の再戦に備えておくことだ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+単体の英霊が、集団として実体化していた、[r]ということですか？
+[k]
+
+＠エルメロイ
+諜報に徹すれば恐ろしい能力だし、対軍宝具のない[r]相手なら人海戦術で圧倒することも可能だが……。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+フン、奇門遁甲陣を極めている今の私に[r]とってはいいカモだ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+連中は目下のところ冬木全域を監視する必要があり、[r]さりとて我々を無視する訳にもいかない。
+[k]
+
+＠エルメロイ
+アサシンは割ける人員を続々とこちらに[r]差し向けてくるだろう。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+結果、兵法の禁則である戦力の逐次投入を[r]余儀なくされる。哀れな事にね。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+これからも何度か戦う羽目になるだろうが、[r]さしたる脅威にはならない相手だ。
+[k]
+
+＠エルメロイ
+今後は目についた端から片付けていけばいい。[r]さて、ぐずぐずしている暇はない。次行くぞ次！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 0]
+＠フォウ
+フォ？
+[k]
+
+[charaFace A 6]
+＠マシュ
+え？　だって……。
+[k]
+
+？1：説明してくれるんじゃ？
+？2：いったい何がどうなってるんです？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+すまんがまだお預けだ。[r]勿体ぶるわけじゃない。今は時間との勝負でね。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+まあそんな顔をするな。移動する道すがら、[r]いちばん優先的な事項から順に教えよう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

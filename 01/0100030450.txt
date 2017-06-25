@@ -1,0 +1,129 @@
+＄01-00-03-04-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21510 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 2012001 1 ？？？]
+[charaSet H 7009000 1 ？？？]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 5]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+うーん……彷徨っている訳ではないんだけど、[r]どうもイヤな予感だけはビシビシ刺激されるねえ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+イヤな予感……ですか。[r]マスターはどうでしょうか？
+[k]
+
+？1：イヤな予感がする
+
+[charaFace A 7]
+＠マシュ
+なるほど。船長とマスターがこう言うのであれば、[r]用心した方が良さそうですね。
+[k]
+
+？2：出会いの予感がする！
+
+[charaFace A 6]
+＠マシュ
+……出会い？
+[k]
+
+[charaFace A 11]
+＠マシュ
+む、む、む。この[#地下迷宮:ダンジョン]で一体何と[r]出会うと言うのでしょう、マスター。
+[k]
+
+[charaFace A 14]
+＠マシュ
+まさか[&可愛い女の子:格好いい男の子]との出会いを期待している、[r]とか……。
+[k]
+
+？！
+
+[charaFace D 2]
+＠ドレイク
+……ッ！[r]止まりな！
+[k]
+
+[charaFace A 15]
+＠マシュ
+……ッ！
+[k]
+
+[voice 700900_0_S010]
+[wait voice 700900_0_S010]
+[charaFace D 5]
+＠ドレイク
+予感的中ってとこだね。[r]何か来るよ……！
+[k]
+
+[charaFace A 7]
+＠マシュ
+これは……サーヴァントです！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace H 5]
+[charaFadein H 0.4 1]
+＠H：？？？
+……しね。
+[k]
+
+＠ドレイク
+で、でかっ……！？[r]何だいコイツ……！
+[k]
+
+[charaSet H 7009000 1 アステリオス]
+[charaFadein H 0.1 1]
+[charaFace H 2]
+＠アステリオス
+この、あすてりおすが、[r]みな、ごろしに、する……！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+エイリーク[#血斧王:けっふおう]と同じくバーサーカー……！[r]問答無用ですか……！
+[k]
+
+[charaFace A 15]
+＠マシュ
+マスター、気を付けて下さい。[r]アステリオスとは、隠された本来の名前であり[line 2]。
+[k]
+
+[charaFace A 2]
+＠マシュ
+一般的に知られている彼の名は“ミノタウロス”。[r]ギリシャ神話に伝わる怪物の一人です！
+[k]
+
+[charaFace A 15]
+＠マシュ
+この[#迷宮:ラビリンス]は彼の領域。[r]撤退は不可能です。
+[k]
+
+＠マシュ
+……行きます、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

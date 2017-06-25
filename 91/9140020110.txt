@@ -1,0 +1,221 @@
+＄91-40-02-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4002001 1 イスカンダル]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+＠イスカンダル
+ふぅむ……何だこの[#荒:すさ]みきった土地は？
+[k]
+
+[charaFace D 4]
+＠イスカンダル
+新たな戦の始まりと聞いて、喜び勇んで[#馳:は]せ参じた[r]というのに、寒々しくて素っ気ない場所だのう。
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+そうかなあ？　ペルシアの砂漠を蹂躙した征服王には[r]慣れ親しんだ地形と思うんだけど？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠イスカンダル
+馬鹿者。我が懐かしき栄光の戦場はな、昼は黄金の灼熱、[r]夜は月光の静寂……神秘に[#胸沸:むねわ]き立つ[#悠久:ゆうきゅう]の砂の海ぞ。
+[k]
+
+[charaFace D 4]
+＠イスカンダル
+こんな辛気くさい空っ風の廃墟とはな、[r]雄大さが違うのだ。雄大さが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+むしろ荒廃しているぶん、余計な巻き添えもなく、[r]戦いには好都合……と判断していただけませんか？
+[k]
+
+[charaFace D 5]
+＠イスカンダル
+何が好都合なものか。もっとこう、心沸き立つ芳醇な大地で[r]なければ、何のための戦か分からんわい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+何のため、ときましたか。[r]では失礼ながら、あなたの戦う理由は？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠イスカンダル
+無論！　征服のためである。[r]まだ見ぬ大地を新たに余の手中に収めるために。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……なるほど。流石は先輩です。[r]またたいへん英霊を引き当てました。
+[k]
+
+？1：うん、困ったね
+
+[charaFace A 4]
+＠マシュ
+……今回は困ったレベルが大きすぎるような……[r]この方、もしや悪の首魁[#級:クラス]なのでは……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠Dr.ロマン
+まぁまぁ。[r]いたずらに悲観的になっても仕方ないからね。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+サーヴァントとの相互理解には、[r]何より前向きな姿勢と思考が肝心だよ、マシュ。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：いや、これでいい
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+どんなに破天荒な英霊であろうとサーヴァントの[r]制御に問題はない、と？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+ポジティブシンキングで通すって事かな？[r]……でも正直、心配なような、不安なような……
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+いやいや、この絶望的な状況にあっては、[r]根拠のない自信と楽観が最大の武器だ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+あらためて[%1]君の、[r]マスターとしての適性の高さを実感したよ、ボクは。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ？？？（疑わしげに）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+征服王。どうやら今回召喚された世界に不満が[r]ある様子だけど、こう考えてもらえないかい？
+[k]
+
+＠Dr.ロマン
+我々がいま直面している破滅の危機は、地球上の[r]あらゆる場所を、このような荒野にしてしまう。
+[k]
+
+＠Dr.ロマン
+すると結局、あなたが征服するに足るだけの[r]魅力的な土地は、すべて消えてしまうことになる。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠イスカンダル
+おおう？　それは由々しいな。もはや戦ではない。[r]ただの災厄ではないか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+その認識は間違いではありません。[r]実際、我々も敵の正体を掴めていないのが現状です。
+[k]
+
+[charaFace D 4]
+＠イスカンダル
+正体がどうであれ、叩ッ斬って血を流す実体が[r]ある相手なら、戦を仕掛けるのに不自由はない。
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaFace D 5]
+＠イスカンダル
+まぁ要するに、あの物騒な鬼気を放ちながら[r]にじり寄ってくる連中を、蹴散らせば良いのだな？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠Dr.ロマン
+……なんとぉッ！？[r]しまった、包囲されてる！　いつの間に！？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

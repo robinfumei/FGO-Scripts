@@ -1,0 +1,987 @@
+＄01-00-08-01-1-1
+
+
+[charaSet A 98017000 1 魔神柱]
+[charaSet B 98017000 1 魔神柱シルエット]
+[charaSet C 8001002 1 マシュ]
+[charaSet D 98003003 1 Dr.ロマン]
+[charaSet E 5009003 1 ダ・ヴィンチ]
+[charaSet F 9001001 1 ジャンヌ・ダルク]
+[charaSet G 5009000 1 通信ノイズ]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_24 0.1]
+
+[scene 36001]
+
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[charaTalk off]
+
+[fadein black 1.0]
+[wait fade]
+
+[se bac10]
+[charaShake A 0.06 3 3 1.0]
+[effect bit_talk_13]
+
+[wt 0.3]
+
+[se bac10]
+[charaShake A 0.06 3 3 1.0]
+[effect bit_talk_13 200,100]
+
+[wt 0.3]
+
+[se bac10]
+[charaShake A 0.06 3 3 1.0]
+[effect bit_talk_13 -100,150]
+
+[wt 0.3]
+
+
+[shake 0.05 7 7 0]
+[charaSpecialEffect A enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[se ba6]
+[flashOff]
+[wait charaSpecialEffect A]
+[charaFadeout A 0.1]
+[shakeStop]
+[wt 0.8]
+
+[wt 0.4]
+[seLoop ad14]
+[se ad63]
+[charaSpecialEffect A appearance]
+[wt 0.3]
+[flashin loop 0.2 0.2 FFFFFFFF FFFFFF00]
+[wt 1.3]
+[flashOff]
+[wait charaSpecialEffect A]
+
+
+[seStop ad14 1.0]
+[charaTalk on]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+
+[charaTalk A]
+＠A：魔神フラウロス
+無駄だ。何もかも無駄だ！[r]ハハハ。ハハハハ。ハハハハハハハハハハハハ！
+[k]
+
+
+[charaFadeout A 0.1]
+[seStop ad14 0.2]
+[wt 0.3]
+
+[charaTalk C]
+[charaFace C 15]
+[charaDepth C 2]
+[charaFadein C 0.1 1]
+＠マシュ
+そんな……！　魔神柱、再度出現！[r]復元でも回復でもありません！
+[k]
+
+＠マシュ
+いま、新しいフラウロスが誕生しました……！
+[k]
+
+
+？1：キリがないのか……！？
+？2：もしかして、この地面が全て[line 3]
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut G 1]
+[charaEffect G bit_talk_10]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 0,-151]
+
+[se bac36]
+[charaShake D 0.05 4 4 1.0]
+[charaShake G 0.05 4 4 1.0]
+＠Dr.ロマン
+っああ、何があった！？[r]今の衝撃はなんだ！？
+[k]
+[wt 0.4]
+
+[charaFadeout D 0.1]
+[wt 0.2]
+[charaFadein D 0.1 0,-151]
+[wt 0.2]
+[charaFadeout D 0.1]
+[wt 0.2]
+[charaFadein D 0.1 0,-151]
+＠スタッフＡ
+外部からの衝撃です！[r]第二攻性理論、損傷率60パーセントを超えています！
+[k]
+
+[seLoop ad14]
+
+[se bac59]
+[charaShake D 0.05 7 7 2.0]
+[charaShake G 0.05 7 7 2.0]
+＠スタッフＢ
+北部観測室、ロストしました！[charaFadeout D 0][r]天文台ドームに過度の圧力を確認！
+[k]
+
+[wt 0.1]
+
+[charaShake D 0.05 2 2 0]
+[charaShake G 0.05 2 2 0]
+[charaShake E 0.05 2 2 0]
+＠スタッフＢ
+崩壊まであと五分……！[r]ドームが破壊されれば管制室の不在証明が保てません！
+[k]
+
+[charaFadein D 0 0,-151]
+＠スタッフＢ
+カルデアは泡沫状態に入り、[charaFadeout D 0][r]時間神殿に取り込まれます！[charaFadein D 0 0,-151]
+[k]
+
+＠スタッフＣ
+疑似霊子演算精度、クオリア域を脱落！[charaFadeout D 0][r]攻性理論の強度、低下していきます！[charaFadein D 0 0,-151]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.2]
+[charaFadein D 0.1 0,-151]
+[wt 0.2]
+[charaFace D 5]
+＠Dr.ロマン
+館内の電気供給を中央以外カットしろ！[r]炉心からの電力はすべて攻性理論とカルデアスに使え！
+[k]
+
+＠Dr.ロマン
+管制室はなんとしても持たせる！[r]レオナルド、キミの工房に溜め込んだ[#資源:リソース]は！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 0,-90]
+＠ダ・ヴィンチ
+いま霊子演算用のスパコンに回してる、[r]そっちは私のヘソクリでなんとかなる！
+[k]
+
+[charaFace E 2]
+＠ダ・ヴィンチ
+だが焼け石に水だぞロマニ！[charaFadeout E 0.1][r]カルデアを襲っているのは魔神柱だ！[charaFadein E 0.1 0,-90]
+[k]
+
+[charaFadein E 0.1 0,-90]
+＠ダ・ヴィンチ
+六、七、八[line 3]外部に八柱もの魔神柱が[r]カルデアに巻き付いている！
+[k]
+
+[charaFace E 5]
+＠ダ・ヴィンチ
+私が出てもいいが、[charaFadeout E 0.1][r]相打ちで一柱消せるか消せないかだ！[charaFadein E 0.1 0,-90]
+[k]
+
+[charaFace E 2]
+＠ダ・ヴィンチ
+根本的な解決にならない！[r]カルデアが潰される前に、特異点を消すしかない！
+[k]
+
+[messageOff]
+
+[seStop ad14 0.2]
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaPut G 1200,1200]
+[charaEffectStop G bit_talk_10]
+[wt 0.3]
+
+[charaShakeStop D]
+[charaShakeStop G]
+[charaShakeStop E]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠A：魔神フラウロス
+[messageShake 0.05 2 2 1.0]
+ハハハハハハハハハハハハハハハハ！[r]それは不可能、不可能なのだよ諸君！
+[k]
+
+＠A：魔神フラウロス
+私は不死身だ。我々は無尽蔵だ。[r]この空間すべてが我々なのだから！
+[k]
+
+＠A：魔神フラウロス
+[#顕:あらわ]れよ、顕れよ[line 3][r]同胞たちよ、その姿を見せるがいい！
+[k]
+
+[seStop ad14 0.2]
+[wt 0.3]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[seLoop ad14]
+[shake 0.05 2 2 1.0]
+[scene 12000 2.0]
+
+[se ad63]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wt 0.4]
+
+[wt 2.0]
+
+＠マシュ
+まだ魔神柱が[line 3][r]いえ、これは[line 3]
+[k]
+
+
+[messageOff]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.7 1]
+
+[scene 36001 1.0]
+[shakeStop]
+[seStop ad14 0.1]
+[wt 0.4]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+
+[charaTalk A]
+＠A：魔神フラウロス
+そうだ、七十二柱の魔神、それらが我々である！
+[k]
+
+＠A：魔神フラウロス
+私を殺したな？　だがそれが何だという。[r]我らは常に七十二柱の魔神なり。
+[k]
+
+＠A：魔神フラウロス
+この大地が、玉座があるかぎり、[r]我らは決して減りはしない！
+[k]
+
+＠A：魔神フラウロス
+私を殺したければ七十二の同胞、[r]すべてを殺し尽くす事だ！
+[k]
+
+＠A：魔神フラウロス
+だがそんな火力が、そんな軍勢がどこにある？[r]もはや地上の何処にも、そんなものは存在しない！
+[k]
+
+＠A：魔神フラウロス
+貴様たちは我々に追いついたのではない。[r]自ら、死ぬしかない墓場に飛び込んだのさ！
+[k]
+
+＠A：魔神フラウロス
+ハハハ、飛んで火に入るなんとやらだ！[r]意気揚々と乗り込んで来てご苦労さま！
+[k]
+
+[charaFadeout A 0.1]
+[seStop ad14 0.2]
+[wt 0.3]
+
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠マシュ
+カルデアからの連絡が届きません……！[r]マスター、どうすれば……！
+[k]
+
+？1：…………いや
+？2：…………いいや！
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠A：魔神フラウロス
+お見それした！[r]まだ[#敵:わたし]を[#睨:にら]むだけの強がりが出来るとは！
+[k]
+
+＠A：魔神フラウロス
+だがもういい、諦めが悪いのは十分に理解した！[r]それが通用するのは昨日までだ！
+[k]
+
+＠A：魔神フラウロス
+最後のマスター、[r]最後の人類、[%1]よ。
+[k]
+
+＠A：魔神フラウロス
+私たちは心底から君に感謝を示す！[r]なにしろ最高に面白かった！
+[k]
+
+＠A：魔神フラウロス
+第一特異点での反抗を笑い飛ばそう。[r]第二特異点での情熱を笑い飛ばそう。
+[k]
+
+＠A：魔神フラウロス
+第三特異点での冒険を笑い飛ばそう。[r]第四特異点での探求を笑い飛ばそう！
+[k]
+
+＠A：魔神フラウロス
+第五特異点での進軍を笑い飛ばそう！[r]第六特異点での生存を笑い飛ばそう！
+[k]
+
+＠A：魔神フラウロス
+そして第七特異点での[line 3][r]ああ、これはあまり愉快ではなかったな。
+[k]
+
+＠A：魔神フラウロス
+笑えもしない三流の見世物だった。[r]第七の事は忘れてしまおう。
+[k]
+
+＠A：魔神フラウロス
+ともかく、おまえの戦いは実に愉快だった！[r]なにより無意味なのがいい！
+[k]
+
+＠A：魔神フラウロス
+ここまで戦ってきた徒労を！[r]あそこまで戦って、なお無為に終わる[#惨:みじ]めさを！
+[k]
+
+＠A：魔神フラウロス
+私たちは素晴らしいと評価したとも！[r]ありがとう、そしてさようなら！
+[k]
+
+＠A：魔神フラウロス
+カルデアもろとも、その旅もここで終わりでッす！[r]ハハ、ハハハ、
+[k]
+
+＠A：魔神フラウロス
+[messageShake 0.05 3 3 1.0]
+[fontSize large]ハハハハハハハハハハハハハハ！
+[k]
+
+[seStop ad14 0.2]
+[wt 0.3]
+
+[charaFadeout A 0.7]
+[seStop ad14 2.0]
+
+[se bac78]
+[flashin loop 0.1 0.1 D72727FF FFFFFF00]
+[charaFilter B silhouette 00000080]
+[wt 0.5]
+[flashOff]
+
+[flashin once 0.5 20000 D72727FF FF000000]
+[wt 0.5]
+
+＠マシュ
+先輩……！
+[k]
+
+
+？1：マシュ……！
+？2：っっっ……！
+
+？！
+
+[messageOff]
+
+[bgmStop BGM_EVENT_24 3.0]
+[fadeout black 3.0]
+[wait fade]
+
+[flashOff]
+
+[charaSet H 98017000 1 魔神柱]
+[charaSet B 98017000 1 魔神柱]
+
+[wt 3.0]
+
+[scene 10000]
+
+[fadein black 0.1]
+[wait fade]
+
+
+？1：…………
+
+？！
+
+？1：…………………………
+
+？！
+
+？1：…………やっぱり…………
+
+？！
+
+？1：…………ダメ、だったのかな…………
+
+？！
+
+＠？？？
+いえ。無意味だなんて、それこそ笑い話です。[r]貴方にしては諦めるのが早いのでは？
+[k]
+
+[messageOff]
+
+[voice NP_900100_4]
+
+[scene 10001 4.0]
+[wait voice NP_900100_4]
+
+[bgm BGM_EVENT_42 2.0]
+
+＠？？？
+貴方の戦いは人類史を[#遡:さかのぼ]る長い旅路でした。[r]ですが悲観した事は一度もなかったはず。
+[k]
+
+＠？？？
+だって、貴方には無数の出会いが待っていた。
+[k]
+
+＠？？？
+この[#惑星:ほし]のすべてが、[r]聖杯戦争という戦場になっていても。
+[k]
+
+＠？？？
+この地上のすべてが、[r]とうに失われた廃墟になっていても。
+[k]
+
+＠？？？
+その行く末に、無数の強敵が立ちはだかっても。
+[k]
+
+＠？？？
+貴方は決して諦める事はしなかった。[r]結末はまだ誰の手にも渡っていない、と空を睨んだ。
+[k]
+
+＠？？？
+今もそれは変わらない。[r]さあ[line 3]戦いを始めましょう、マスター。
+[k]
+
+＠？？？
+これは、貴方と私たちによる、[r]未来を取り戻す物語だったでしょう？
+[k]
+
+[messageOff]
+
+[scene 36001 2.0]
+
+
+[wt 2.0]
+
+[charaTalk off]
+
+
+[charaFace A 0]
+[charaFace H 0]
+[charaFace B 0]
+
+[charaDepth A 1]
+[charaDepth H 2]
+[charaDepth B 3]
+
+[charaFadein H 0.7 4]
+[wt 1.0]
+
+[shake 0.05 7 7 0]
+[se ba6]
+[charaSpecialEffect H enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+
+[wait charaSpecialEffect H]
+[charaFadeout H 0.1]
+[shakeStop]
+[wt 0.8]
+
+[charaFadein B 0.4 6]
+[wt 0.3]
+
+[shake 0.05 7 7 0]
+[se ba6]
+[charaSpecialEffect B enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+
+[wait charaSpecialEffect B]
+[charaFadeout B 0.1]
+[shakeStop]
+[wt 0.8]
+[charaTalk on]
+
+[charaFadein A 0.4 1]
+[wt 0.3]
+
+[charaTalk A]
+＠A：魔神フラウロス
+[messageShake 0.05 2 2 1.0]
+ぐああああ[line 3]！？[r]なんだ、今のはなんだ！？
+[k]
+
+＠A：魔神フラウロス
+なぜ[%1]が消えていない！？[r]なぜカルデアがまだ残っている！？
+[k]
+
+＠A：魔神フラウロス
+なぜ[line 3][r]なぜ、我々の体が崩れているのだ[line 3]！？
+[k]
+
+[messageOff]
+
+[shake 0.05 7 7 0]
+[se ba6]
+[charaSpecialEffect A enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect A]
+[charaFadeout A 0.1]
+[shakeStop]
+[wt 0.8]
+
+
+[charaPut G 1]
+[charaEffect G bit_talk_10]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 0,-151]
+＠Dr.ロマン
+魔神柱、八柱ともすべて消滅！[r]やった、さすがダ・ヴィンチちゃんだ！　凄い！
+[k]
+
+＠Dr.ロマン
+でもどんな奥の手を使ったんだい！
+[k]
+
+[charaFace D 1]
+＠Dr.ロマン
+こんな物騒な秘密兵器があるなら、[r]報告ぐらいしておいてほしかったな！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 0,-90]
+＠ダ・ヴィンチ
+いや。今のは私じゃない。[r]今のは[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaPut G 1200,1200]
+[charaEffectStop G bit_talk_10]
+
+[messageOff]
+
+[wt 0.3]
+
+？1：うん、今のは[line 3]！
+
+？！
+
+
+[wipeout rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+[scene 36301]
+[wipein rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+
+＠？？？
+霊長の世が定まり、栄えて数千年。
+[k]
+
+＠？？？
+神代は終わり、[r]西暦を経て人類は地上でもっとも栄えた種となった。
+[k]
+
+＠？？？
+我らは星の行く末を定め、星に[#碑文:ひぶん]を刻むもの。
+[k]
+
+＠？？？
+そのために多くの知識を育て、[r]多くの資源を作り、多くの生命を流転させた。
+[k]
+
+＠？？？
+人類をより[#永:なが]く、より確かに、より強く繁栄させる[#理:ことわり][r][line 3]人類の航海図。
+[k]
+
+＠？？？
+これを、魔術世界では[#人理:じんり]と呼び。[r]彼らカルデアは、これを尊命として護り続けた。
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+[scene 36001]
+[wipein rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+
+[charaPut G 1]
+[charaEffect G bit_talk_10]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0 0,-151]
+＠Dr.ロマン
+……これは夢か？　計器の故障か？[r]特異点各地に次々と召喚術式が起動している！
+[k]
+
+＠Dr.ロマン
+触媒も召喚者もなしで自発的に！[r]ただ一度、縁を結んだという細い糸をたぐって！
+[k]
+
+＠Dr.ロマン
+霊基反応、十、二十、三十[line 3]まだ増える！[r][%1]君、これは！
+[k]
+
+
+？1：ああ、あの旗は！
+？2：来てくれたんだ、みんな……！
+
+？！
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.7 1]
+[wait wipe]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaPut G 1200,1200]
+[charaEffectStop G bit_talk_10]
+[wt 0.7]
+
+[scene 36300]
+
+[charaSet A 9938300 1 魔神ガープ]
+[charaSet B 9938600 1 魔神バアル]
+[charaSet H 9938800 1 魔神オセ]
+
+[wipein rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+
+
+
+[charaTalk off]
+
+[charaFace B 0]
+[charaDepth B 1]
+[charaFadein B 0.7 6]
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神バアル
+東部末端神経、炎焼。[r]敵サーヴァント、なお増大中。
+[k]
+
+[messageOff]
+
+[charaFadeout B 0.7]
+[seStop ad14 0.2]
+[wt 1.0]
+
+[charaFace A 0]
+[charaDepth A 2]
+[charaFadein A 0.7 4]
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神ガープ
+西部自律神経、損壊。[r]敵サーヴァント、二十四騎を確認。
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.7]
+[seStop ad14 0.2]
+[wt 1.0]
+
+[charaFace H 0]
+[charaDepth H 3]
+[charaFadein H 0.7 1]
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神オセ
+[line 3]取るに足りぬ。[r]何騎集まろうと所詮は人の延長。
+[k]
+
+＠魔神オセ
+我らのように群体ではない。[r]個別に生き、個別に戦うしかないモノたちだ。
+[k]
+
+＠魔神オセ
+殲滅せよ。掃討せよ。排除せよ。[r]サーヴァントなぞ敵ではない。
+[k]
+
+＠魔神オセ
+我ら七十二柱の魔神が敗北する要因は[line 3]
+[k]
+
+[messageOff]
+
+[charaFadeout H 0.7]
+[seStop ad14 0.2]
+[wt 1.0]
+
+[charaFace B 0]
+[charaDepth B 1]
+[charaFadein B 0.7 6]
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神バアル
+[line 3]東部末端神経、消滅。[r]第一から第八柱、正常値を維持できない。
+[k]
+
+[shake 0.05 7 7 0]
+[charaSpecialEffect B enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect B]
+[charaFadeout B 0.1]
+[shakeStop]
+[wt 0.8]
+
+[charaSet B 98020000 1 魔神ラウム]
+
+[charaFace A 0]
+[charaDepth A 2]
+[charaFadein A 0.7 4]
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神ガープ
+西部自律神経、消滅。[r]第二十六から三十三柱、正常値を維持できず。
+[k]
+
+[shake 0.05 7 7 0]
+[charaSpecialEffect A enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect A]
+[charaFadeout A 0.1]
+[shakeStop]
+[wt 0.8]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神ラウム
+……左右基底骨郭、損壊。[r]我、この宙域からの離脱を提唱する。
+[k]
+
+[shake 0.05 7 7 0]
+[charaSpecialEffect B enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect B]
+[charaFadeout B 0.1]
+[shakeStop]
+[wt 0.3]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.7 1]
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神オセ
+どういう事か。[r]なぜ我らが圧し負ける？
+[k]
+
+＠魔神オセ
+なぜ相互理解を拒んだ人間どもが、[r]互いに協力し合っているのか[line 3]！
+[k]
+
+[messageOff]
+
+[seStop ad14 0.2]
+
+[wipeout rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+
+[charaFadeout H 0.1]
+[seStop ad14 0.2]
+[wt 0.7]
+
+[scene 36301]
+
+[wipein rectangleStripLeftToRight 0.7 1]
+[wait wipe]
+
+＠？？？
+……ええ。[r]確かに私たちは我欲に囚われた生命です。
+[k]
+
+＠？？？
+それは英霊であろうと変わらない。[r]いえ、英霊だからこそ己が信念を曲げられない。
+[k]
+
+＠？？？
+ですが[line 3][r]そんな私たちを信じた人間がいるのです。
+[k]
+
+＠？？？
+多くの英霊、多くの争いを垣間見て、[r]なお、私たちを[#英雄]と信じた者が。
+[k]
+
+＠？？？
+その信に、その声に応えずして何が英霊でしょう。
+[k]
+
+＠？？？
+主よ。今一度、この旗を救国の[line 3][r]いえ、救世のために振るいます。
+[k]
+
+[messageOff]
+
+
+[se ad60]
+[wt 0.7]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.7 1]
+[seStop ad60 0.5]
+[wt 1.0]
+＠ジャンヌ・ダルク
+聞け、この領域に集いし一騎当千、[r][#万夫不倒:ばんぷふとう]の英霊たちよ！
+[k]
+
+＠ジャンヌ・ダルク
+本来相容れぬ敵同士、本来交わらぬ時代の者であっても、[r]今は互いに背中を[#預:あず]けよ！
+[k]
+
+＠ジャンヌ・ダルク
+人理焼却を防ぐためではなく、[r]我らが契約者の道を開くため！
+[k]
+
+＠ジャンヌ・ダルク
+我が真名はジャンヌ・ダルク！[r]主の御名のもとに、貴公らの盾となろう！
+[k]
+
+[messageOff]
+
+[se ad16]
+[wt 2.0]
+[seStop ad16 1.0]
+
+
+[wt 1.0]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaFadeout F 0.1]
+
+[wt 0.4]
+
+[scene 36001]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠マシュ
+あれは……[r][#宙:ソラ]を駆けていく、何条もの流星は[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut G 1]
+[charaEffect G bit_talk_10]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0 0,-151]
+＠Dr.ロマン
+ああ、サーヴァントだ！[r]凄いぞ、次から次へとやってくる！
+[k]
+
+＠Dr.ロマン
+そして理由はボクにも説明できない！
+[k]
+
+＠Dr.ロマン
+この特異点が時間の外にある、というのが[r]抜け道になったのか？　いや、どうでもいいなそんな事！
+[k]
+
+[charaFace D 0]
+＠Dr.ロマン
+かつてキミたちが知り合った[#英霊:もの]、[r]かつてキミたちと戦った英霊[line 3]
+[k]
+
+＠Dr.ロマン
+その中で“少しは力を貸してやってもいい”なんて[r]思った連中がいたんだろう！
+[k]
+
+＠Dr.ロマン
+それが[%1][&君:ちゃん]のピンチに[r]駆けつけてくれたんだ！
+[k]
+
+[charaFace D 5]
+＠Dr.ロマン
+とにかく、これは千載一遇の好機だ。
+[k]
+
+＠Dr.ロマン
+現在、サーヴァントたちによる攻撃で[r]魔神たちは身動きが取れない！
+[k]
+
+＠Dr.ロマン
+“七十二柱の魔神”はそのすべてが戦闘中だ。[r]今ならコイツらを駆除できる！
+[k]
+
+＠Dr.ロマン
+中央への道を開くんだ、[%1]君！[r]残された時間はあと僅かしかないぞ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_42 2.0]
+[wait fade]
+[soundStopAll]
+[end]

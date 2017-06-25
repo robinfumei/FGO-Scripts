@@ -1,0 +1,376 @@
+＄94-00-64-30-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5028001 1 イリヤ]
+[charaSet C 98103600 1 ルビー]
+[charaSet D 98103600 1 ？？？]
+[charaSet E 98103600 1 ？？？]
+[charaSet F 98103600 1 ？？？]
+[charaSet G 98103600 1 ？？？]
+[charaSet H 98103600 1 ？？？]
+
+
+[charaFilter D silhouette 00000080]
+[charaFilter E silhouette 00000080]
+[charaFilter F silhouette 00000080]
+[charaFilter G silhouette 00000080]
+[charaFilter H silhouette 00000080]
+
+[scene 31600]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+[charaBackEffect B bit_talk_41_black_out]
+
+[fadein black 1.0]
+[wait fade]
+
+[effect bit_talk_magic]
+
+[se bac25]
+＠イリヤ
+[fontSize x-large][#斬撃:シュナイデン][line 6]！！！
+[k]
+
+[wait effect bit_talk_magic]
+
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaPut B 1200,1200]
+[charaBackEffectStop B]
+
+[charaTalk off]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 3]
+[charaFadein H 0.1 5]
+
+[se bac17]
+[charaEffect D bit_talk_12_green_R]
+[charaShake D 0.05 3 3 0.5]
+[charaEffect E bit_talk_12_green_R]
+[charaShake E 0.05 3 3 0.5]
+[charaEffect F bit_talk_12_green_R]
+[charaShake F 0.05 3 3 0.5]
+[charaEffect G bit_talk_12_green_R]
+[charaShake G 0.05 3 3 0.5]
+[charaEffect H bit_talk_12_green_R]
+[charaShake H 0.05 3 3 0.5]
+[wt 1.0]
+
+[se ad42]
+[charaFadeout D 1.0]
+[charaFadeout E 1.0]
+[charaFadeout F 1.0]
+[charaFadeout G 1.0]
+[charaFadeout H 1.0]
+[wt 1.5]
+
+
+[charaFadein D 0.1 200,-900]
+[charaFadein E 0.1 -200,-900]
+[charaFadein F 0.1 0,-900]
+[charaFadein G 0.1 -400,-900]
+[charaFadein H 0.1 400,-900]
+
+[se bac1]
+[charaMove D 200,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove E -200,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove F 0,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove G -400,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove H 400,0 0.2]
+[wt 0.5]
+
+[wait charaMove]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+戦っているあいだにも、[r]さらに敵援軍に囲まれて……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaBackEffect B bit_talk_41_black_out]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+[effect bit_talk_magic]
+
+＠イリヤ
+[#散弾:ショット]、[#散弾:ショット]、[#散弾:ショット][line 3]！[r]（こんなところで……っ……）
+[k]
+
+[wait effect bit_talk_magic]
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaPut B 1200,1200]
+[charaBackEffectStop B]
+
+[charaTalk off]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 3]
+[charaFadein H 0.1 5]
+
+[se bac10]
+[charaEffect D bit_talk_13]
+[charaShake D 0.05 3 3 0.5]
+[charaEffect E bit_talk_13]
+[charaShake E 0.05 3 3 0.5]
+[charaEffect F bit_talk_13]
+[charaShake F 0.05 3 3 0.5]
+[charaEffect G bit_talk_13]
+[charaShake G 0.05 3 3 0.5]
+[charaEffect H bit_talk_13]
+[charaShake H 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk on]
+
+[charaBackEffect B bit_talk_41_black_out]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+[#砲射:フォイア][line 3]！！[r]（こんな途中で……っ）
+[k]
+
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaPut B 1200,1200]
+[charaBackEffectStop B]
+
+[charaTalk off]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 3]
+[charaFadein H 0.1 5]
+
+[se bac33]
+[charaShake D 0.05 3 3 0.5]
+[charaShake E 0.05 3 3 0.5]
+[charaEffect F bit_talk_29]
+[charaShake F 0.05 3 3 0.5]
+[charaEffect G bit_talk_29]
+[charaShake G 0.05 3 3 0.5]
+[charaEffect H bit_talk_29]
+[charaShake H 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+立ち止まるわけに、いかないんだから！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+[wt 1.2]
+
+[charaFadeout A 0.1]
+
+[charaPut B 1200,1200]
+[charaChange B 98102500 5 fade 0]
+[wt 0.1]
+[charaFadeout B 0]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+前方[line 3]道を作ります！[r]ルビー！！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+オッケー、イリヤさん☆[r]物理防御ぜ～んぶ火力にまわしますよ～！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaPut B 1200,1200]
+[charaChange B 5028001 2 fade 0]
+[wt 0.1]
+[charaFadeout B 0]
+
+[charaBackEffect B bit_talk_41_black_out]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+[effect bit_talk_magic]
+
+＠イリヤ
+[fontSize x-large][#全力砲射:フォイア]！！！
+[k]
+
+[wait effect bit_talk_magic]
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaPut B 1200,1200]
+[charaBackEffectStop B]
+
+[charaTalk off]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 3]
+[charaFadein H 0.1 5]
+
+[se bac159]
+[charaEffect F bit_talk_29]
+[charaEffect G bit_talk_29]
+[charaEffect H bit_talk_29]
+[charaEffect D bit_talk_13]
+[charaShake D 0.05 3 3 0.5]
+[charaEffect E bit_talk_13]
+[charaShake E 0.05 3 3 0.5]
+[charaEffect F bit_talk_13]
+[charaShake F 0.05 3 3 0.5]
+[charaEffect G bit_talk_13]
+[charaShake G 0.05 3 3 0.5]
+[charaEffect H bit_talk_13]
+[charaShake H 0.05 3 3 0.5]
+[wt 1.0]
+
+[se ad42]
+[charaFadeout D 1.0]
+[charaFadeout E 1.0]
+[charaFadeout F 1.0]
+[charaFadeout G 1.0]
+[charaFadeout H 1.0]
+[wt 1.5]
+
+[charaTalk on]
+
+[charaSet D 98103200 1 サファイア]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShake D 0.07 0 16 1.0]
+＠サファイア
+私のあとに続いてください！[r]ご案内いたします。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+後衛はおまかせを！[r]この先はドクターの探査には頼れません！
+[k]
+
+？1：そっか、もう通信は出来ないんだっけ
+？！
+
+[charaFace A 7]
+＠マシュ
+[line 3]はい。ドクターとダ・ヴィンチちゃんは[r]そうおっしゃっていました。
+[k]
+
+[charaFace A 8]
+＠マシュ
+通信やレイシフトを行うたびに[r]こちらの世界とのレイラインが確立されてしまう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+よって、通常の通信は遮断。わたしたちの[r]帰還要請信号のみ受け入れる[line 3]とのことでした。
+[k]
+
+[charaFace A 12]
+＠マシュ
+しかしそれでも依然クラッキングの恐れはあります。
+[k]
+
+[charaFace A 7]
+＠マシュ
+[#カルデア:あちら]で他のサーヴァントの方々も[r]防備を固めてくださる筈ですが……、
+[k]
+
+[charaFace A 5]
+＠マシュ
+カルデア管制室はデリケートな施設です。[r]これ以上の襲撃は、絶対に[#避:さ]けなければ[line 3]！
+[k]
+
+？1：[&ああ:うん]！
+？！
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_24 2.0]
+[wait fade]
+[soundStopAll]
+[end]

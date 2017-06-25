@@ -1,0 +1,198 @@
+＄94-00-28-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet E 2015001 1 アルジュナ]
+[charaSet F 2013001 1 アーラシュ]
+[charaSet G 98003003 1 Dr.ロマン]
+[charaSet H 98002000 1 フォウ]
+
+[charaTalk F]
+[charaFace E 4]
+[charaFace F 4]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+[scene 21102]
+
+[fadein black 2.0]
+[wait fade]
+
+＠アーラシュ
+ああ、くそ。参ったな……。[r]手を抜いたつもりはなかったんだが。
+[k]
+
+＠アルジュナ
+全力を尽くしてもなお、真作には敵わなかったか……。[r]いや……贋作も真作も問題ではない。
+[k]
+
+[charaFace E 0]
+＠アルジュナ
+ただ我々が、あなた方に敗北した。[r]それだけだったか……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチちゃん
+さて、世界を飛び回るのもそろそろ終わりだ。[r]彼女は美術館に居るんだろう？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠アーラシュ
+やあ、それを言う訳にはいかないなあ！
+[k]
+
+＠アルジュナ
+その通り。[r]あなたが確認するべきでしょう。
+[k]
+
+＠アルジュナ
+レオナルド・ダ・ヴィンチ。[r]世界中に知られる真作を作り上げた、当代最高の芸術家。
+[k]
+
+[charaFace E 4]
+＠アルジュナ
+……そうですね。会わせたくはありませんが、[r]もし彼女と出会ったならば。
+[k]
+
+[charaFace E 0]
+＠アルジュナ
+あなたの目で、見極めて欲しいのです。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect E flashErasure 0 0 1]
+[charaSpecialEffect F flashErasure 0 0 1]
+[wait charaSpecialEffect E]
+[wait charaSpecialEffect F]
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+ここまで来たら、後はボスのところに[r]乗り込むだけなんだけど[line 2]。
+[k]
+
+＠ダ・ヴィンチちゃん
+ついてくるかい？
+[k]
+
+？1：もちろん！
+？！
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+そっか。[r]ああ、それからうん。
+[k]
+
+[charaFace B 3]
+＠ダ・ヴィンチちゃん
+……さっきは……ありがとう。[r]はは、真っ当に礼を言うのは何だか気恥ずかしいね。
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+僕は信じられない光景を見ている……！[r]ダ・ヴィンチちゃんが……照れてる……だと……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+＠マシュ
+ドクター、良いところなので引っ込んでて下さい。
+[k]
+
+＠フォウ
+フォウフォウ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+ともかく、もちろんと言ったからには最後まで[r]付き合って貰うよ？
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+……彼女の真贋を見極めるのが、[r]今回の私の役割みたいだからね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+ところでダ・ヴィンチ。[r]先の美術館とは、一体どこの美術館かね？
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+もー。私のモナ・リザが本来どこに在るべきものか、[r]知らないとは言わせないよ？
+[k]
+
+＠エミヤ
+ルーヴル美術館か……！
+[k]
+
+＠ダ・ヴィンチちゃん
+そこに居なかったら……うん、[r]素直に諦めよう！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+＠マシュ
+粘り強く探しましょう……。
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

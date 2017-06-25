@@ -1,0 +1,573 @@
+
+
+＄94-00-56-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 9004000 1 マルタ]
+[charaSet C 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+＠マシュ
+小屋を作り、水場を作り。[r]それなりに前進してきたつもりでしたが[line 3]
+[k]
+
+＠マシュ
+マシュ・キリエライト、一生の不覚です。[r]こんなことに気付かなかったとは。
+[k]
+
+[charaFace A 7]
+＠マシュ
+[line 3]食料が尽きかけています。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マルタ
+サーヴァントの食事は必須ではなく、どちらかと言えば[r]精神安定剤のような意味合いだけれど。
+[k]
+
+＠マルタ
+マスターにとってはそうではない。[#大事:おおごと]ね。[r]今まではどうしていたのかしら？
+[k]
+
+[charaFace A 0]
+＠マシュ
+カルデア出発時に持っていた携帯食料セットで[r]だましだまし、です。それが底を尽きつつあります。
+[k]
+
+？1：節約してたんだけど……
+？2：さすがにもたなかったか……
+？！
+
+[charaFace B 4]
+＠マルタ
+ならば、手は[line 3]現地調達、しかありませんね。
+[k]
+
+＠マルタ
+食糧問題は見過ごせません。マスターだけではなく、[r]我々の士気にも関わります。
+[k]
+
+[charaFace A 0]
+＠マシュ
+頼りになりそうなスカサハさん達の姿が[r]さっきから見当たらないので……
+[k]
+
+[charaFace A 7]
+＠マシュ
+とりあえず動いてみるしかないでしょう。[r]何か食べられそうなものを探してきます！
+[k]
+
+
+[charaFace B 4]
+＠マルタ
+うーん、ベタニアのあたりとは全然植物が違いますから、[r]食べられるかどうか見分けられるか不安ですけど[line 3]
+[k]
+
+[charaFace B 0]
+＠マルタ
+ええ、こういう時こそ冷静に、ね。[r]カンでなんとかしましょう！
+[k]
+
+？1：（不安だ……）
+
+[charaFace B 5]
+＠マルタ
+む。マスター。何よその『不安だ』みたいな顔は。
+[k]
+
+？2：（嫌な予感しかしない）
+
+[charaFace B 5]
+＠マルタ
+む。マスター。何よその『嫌な予感しかしない』[r]みたいな顔は。
+[k]
+
+？！
+
+[charaFace B 0]
+＠マルタ
+大丈夫よ。よくわからないものを弟たちに[r]食べさせたこともあったけど、けっこう平気だったし。
+[k]
+
+＠マルタ
+むしろそういう時の方が食後の祈りは熱心だったわ。[r]目に涙まで浮かべて、難しい顔をしていたから。
+[k]
+
+＠マルタ
+あのやんちゃ坊主どもが、人々の苦悩と罪を背負って[r]祈る“あの人”っぽい面持ちを見せたぐらい。
+[k]
+
+[charaFace B 1]
+＠マルタ
+だから安心して。あと逆らわないで。[r]こういう時の私のカンはけっこう当たるのよ？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+（涙の真意はわかりませんが、とりあえずそのとき[r]　マルタさん自身は食べていなかった事がわかります！）
+[k]
+
+＠マシュ
+と、とりあえず[line 3]行ってきます！[r]待っていてくださいね、マスター！
+[k]
+
+[messageOff]
+[se ad132]
+[charaFadeout A 0.4]
+[wt 0.5]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.5]
+[wait fade]
+
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……すみません、マスター。やはりもう少し[r]サバイバル知識を学習しておくべきでした。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+わたしの成果はほとんどゼロです……たまたまそのへんを[r]散歩していたフォウさんを抱いてきた程度で……。
+[k]
+
+＠フォウ
+……。……。……？[r]フォ、[charaShake C 0.05 3 3 0]フォウ[line 3]！？
+[k]
+
+？1：何かを悟ったように急に暴れ始めた！？
+？！
+
+[charaFace A 6]
+＠マシュ
+あ、ち、違いますよフォウさん！　フォウさんを[r]連れてきたのは手慰みというか、賑やかしというか！
+[k]
+
+[charaFace A 5]
+＠マシュ
+けっして、その、カロリー的な意味を求めてではなく！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マルタ
+私のほうも、特に成果が多いとは言えませんけど……[r]とりあえず、果実を三種類ほど拾ってきました。
+[k]
+
+[charaShakeStop C]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+おお……さすがです！　ちなみにどれも見たことのない[r]色と形の果実ですが、どういったもので？
+[k]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+[charaFace B 1]
+＠マルタ
+…………（にこり）
+[k]
+
+？1：カンのパターンじゃないですかヤダー！
+？！
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace B 5]
+＠マルタ
+私のカンに文句があるとでも！？[r]外したことないから大丈夫だってば！
+[k]
+
+[charaFace A 15]
+＠マシュ
+どれもヤシの実ベースに見えますが……よく見れば、[r]やたらトゲトゲしていたり、蛍光ピンク色だったり、
+[k]
+
+＠マシュ
+刺激臭がしたり……と。[r]なんだか不安が掻き立てられますね……。
+[k]
+
+[charaFace B 0]
+＠マルタ
+少なくとも口に入れた瞬間即死したりはしないわよ。[r]でも舌先が痺れたらすぐに吐き出すこと。いいわね？
+[k]
+
+[charaFace B 5]
+＠マルタ
+呑み込んだ後、腹部に強烈な違和感があったら[r]この場合も吐き出すこと。
+[k]
+
+[charaFace B 1]
+＠マルタ
+自分で吐き出せないようなら私に言って。[r]特別な方法で、こう、鋭角にえずかせて見せるわ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マルタ
+オホン。ともかく、それが死をもたらす不吉なものか[r]どうかくらいはわかります。
+[k]
+
+＠マルタ
+聖女としてそこだけは断言しましょう。[r]信じてください。
+[k]
+
+[charaFace B 1]
+＠マルタ
+……はい。異論はなさそうなので、じゃあ早速試食を。[r]よろしくお願いします、マスター。
+[k]
+
+？1：（やはり自分で食う気はないのか……）
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+も、もちろんわたしも試食にお付き合いします、先輩。[r]一蓮托生です。
+[k]
+
+[charaFace A 7]
+＠マシュ
+あ、でも、待ってください。[r]ヤシの実ベースなので、外側が硬いですね。
+[k]
+
+[charaFace A 13]
+＠マシュ
+割れるものを何か取ってきま[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.4]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠マルタ
+せいやァ！
+[k]
+
+[charaFadeout B 0.1]
+[se bac93]
+[charaPut C -200,0]
+[charaEffect C bit_talk_37]
+[wt 2.0]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+手刀で[line 3]上の部分が[line 3]綺麗に吹っ飛びました！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠マルタ
+はい、これで飲めますね。[r]……？　これぐらい、お礼はいりませんよ？
+[k]
+
+？1：……では……いただきます……ゴフッ！？
+？！
+
+[se bac95]
+[flashin once 0.1 0.3 FF0000AF FF000000]
+[shake 0.05 2 4 0.4]
+[wt 0.4]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+こ、これはっ……トゲトゲした外観にふさわしく[line 2][r]辛いッ！　ハバネロ以上の辛さです！
+[k]
+
+＠マシュ
+一瞬で汗が全身に！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠マルタ
+あら、惜しいですね。調味料にはなりそうですが[line 3][r]では次。このピンクのやつを。
+[k]
+
+[charaFace B 5]
+＠マルタ
+マッタイ！
+[k]
+
+[charaFadeout B 0.1]
+[se bac93]
+[charaPut C -200,0]
+[charaEffect C bit_talk_37]
+[wt 2.0]
+
+？1：い、いただきま……うっ！？
+？！
+
+[charaFadeout B 0.1]
+
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]無味。完全なる無味です！[r]そして食感はモソモソとしていて……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+たとえるなら、まるで。[r]消しゴムを食べているかのような。
+[k]
+
+[charaFace A 4]
+＠マシュ
+栄養があれば問題はないのかもしれませんが[line 3][r]好んで食べたいかと言われると、とても……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠マルタ
+……あれ？　おかしいわね、いつもなら一つくらい[r]普通に食べられるものが混ざるんだけど……
+[k]
+
+＠マルタ
+カンが鈍ったのかしら……まあいいわ、最後のね。
+[k]
+
+[charaFace B 5]
+＠マルタ
+もー、せいっ、と！
+[k]
+
+[charaFadeout B 0.1]
+[se bac93]
+[charaPut C -200,0]
+[charaEffect C bit_talk_37]
+[wt 2.0]
+
+？1：い、いただき……ま……むぐ……
+？！
+
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+………………。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マルタ
+何なの、その無言は！？
+[k]
+
+＠マルタ
+開けただけで生臭い匂いが届いてきていることに[r]気付かないふりはしていますが！
+[k]
+
+[charaFace A 8]
+＠マシュ
+これは……食べられると言えば、食べられ、ます。
+[k]
+
+[charaFace B 1]
+＠マルタ
+なあんだ？　だったらいいじゃない。[r]なんでそんな顔してるのよ。
+[k]
+
+[charaFace A 8]
+＠マシュ
+これは……一言で言ってしまえば……
+[k]
+
+？1：イカの塩辛味です
+？2：納豆味です
+？！
+
+
+[charaFace A 8]
+＠マシュ
+果実を食べながら感じる味覚としては……違和感が[r]もの凄く……
+[k]
+
+＠マシュ
+無理すれば食べれなくもない、というのが[r]逆に言いようもない気持ち悪さを醸し出しています。
+[k]
+
+[charaFace B 0]
+＠マルタ
+でも、食べられはするんでしょう？[r]非常食の選択肢として増えて良かったわ。
+[k]
+
+[charaFace B 5]
+＠マルタ
+だいたいですね、[%1][&君:さん]もマシュも[r]食べ物に贅沢すぎるのです。
+[k]
+
+＠マルタ
+昔はもっとまっずいものばっかりだったんだから。[r]味があるだけで主からの恵みに感謝というものです。
+[k]
+
+？1：（何かを強引にまとめられた気がする）
+？！
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マルタ
+でも正直に告白するとね。今回はカンだけじゃないのよ。[r]ちゃんとこれは食べても大丈夫かなって理由もあったの。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それは？
+[k]
+
+[charaFace B 0]
+＠マルタ
+落ちてたその実をカニが食べてたから。[r]もし毒があれば食べないでしょう？
+[k]
+
+[charaFace A 12]
+＠マシュ
+それは……逆に考えれば。[r]この実はカニの好物ということでは？
+[k]
+
+[charaFace B 4]
+＠マルタ
+……そう言えばそうね？
+[k]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+[charaFace A 8]
+＠マシュ
+そしてわたしたちはこの匂いを周囲に[r]散布してしまっています。つまり[line 3]
+[k]
+
+[charaTalk C]
+[se ad21]
+[wait se ad21]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+＠マシュ
+やっぱり出ました！
+[k]
+
+[charaFace B 0]
+＠マルタ
+あら。あっちも、お腹を空かせた迷える子羊ね。[r]立場は同じかもしれないけれど[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+わたしたちが食料にされる前に撃破しましょう、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

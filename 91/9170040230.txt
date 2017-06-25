@@ -1,0 +1,283 @@
+＄91-70-04-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10915]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 7004001 1 フラン]
+[charaSet D 98015000 1 ヴィクター]
+[charaSet E 7004001 1 Ｅ・フラン]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠フラン
+ハァ[line 2]ハァ[line 2]ハァッ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠Ｅ・フラン
+く……何でっ！　どうして！[r]こんな、はずは、ない！　おまえが！　姉さんが！
+[k]
+
+[charaFace E 5]
+＠Ｅ・フラン
+こんな、強い、はずが……！！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠フラン
+ナアアアアヲオオオオオオオオオオオオッ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠Ｅ・フラン
+ひっ……！
+[k]
+
+[se bac11]
+[charaEffect E bit_talk_14]
+[shake 0.1 0.1 3.0 0.5]
+[wt 0.5]
+[charaEffectStop E]
+[wait charaEffect E]
+[shakeStop]
+＠Ｅ・フラン
+ガ、ァァァッ……！？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ヴィクター
+……やれやれ。
+[k]
+
+＠Ｅ・フラン
+お、とうさま、おとう、さま、おとう、さま。[r]だめ、だめ、だめ、つよい、強い、強い……！
+[k]
+
+＠ヴィクター
+安心おし、“イヴ”。[r]元々、おまえなどに期待はしていない。
+[k]
+
+[charaFace E 0]
+＠Ｅ・フラン
+[line 2]え？
+[k]
+
+＠ヴィクター
+つまるところ。[r]欠陥の理由は鋳造した魂にある。
+[k]
+
+＠ヴィクター
+ホムンクルスのように[r]魔術回路から造り出すものではないせいだろう。
+[k]
+
+＠ヴィクター
+劣化した魂は人間に劣るものであり、[r]それが英霊に打ち勝てるはずがない。
+[k]
+
+＠ヴィクター
+だから、お前が鋳造された理由はただ一つだ。
+[k]
+
+[charaFace E 4]
+＠Ｅ・フラン
+おとう、さま？
+[k]
+
+[se bac13]
+[charaEffect E bit_talk_13]
+[wt 0.5]
+[charaEffectStop E]
+[wait charaEffect E]
+[charaFadeout E 0.4]
+[charaFadeout D 0.4]
+[wt 0.4]
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk C]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠フラン
+……ッ！？
+[k]
+
+＠マシュ
+な[line 2]！？
+[k]
+
+＠Dr.ロマン
+何だ何だ、どうした一体！？
+[k]
+
+[charaFace A 15]
+＠マシュ
+ヴィクター・フランケンシュタインが……[r]Ｅ・フランを殺害しました……！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠Ｅ・フラン
+どうし、て。[r]わたし、おとうさまの、ために、すべて、
+[k]
+
+＠ヴィクター
+それは勿論知っているとも。[r]しかし[line 2]おまえは所詮、欠陥品だ。
+[k]
+
+＠ヴィクター
+そして私という人間も欠陥品。[r]ならば、おまえの体を私が譲り受ける。
+[k]
+
+＠ヴィクター
+私の魂、私の知識、私の心理。[r]おまえの肉体、おまえの能力。
+[k]
+
+＠ヴィクター
+それが合致して、初めて“イヴ”に到達できるのだ。[r]性別が異なるのは些か厄介だが[line 2]何、気にはすまい。
+[k]
+
+[charaFace E 2]
+＠Ｅ・フラン
+やだ、そんなの、どうして、やだ、やだ、やだ、[r]わたし、おとうさまに、なりたく、ない……！！
+[k]
+
+[charaFace E 4]
+＠Ｅ・フラン
+おとうさまに、ほめて、ほしかった、だけなのに……！！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaSpecialEffect D wipe 0 3.0]
+[wt 0.4]
+[se ad39]
+[wait charaSpecialEffect D]
+[seStop ad39]
+[se ad42]
+[charaEffect E bit_talk_21]
+[wt 0.5]
+[charaEffectStop E]
+[charaShadow E true]
+[wait charaEffect E]
+[wt 1.0]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[charaTalk on]
+[charaSet D 7004001 1 ヴィクター]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠フラン
+……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaShadow D true]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヴィクター
+……さあ。続けよう。[r]此度の“[#イヴ:わたし]”は一味違うぞ。
+[k]
+
+[charaFace D 5]
+＠ヴィクター
+出でよ、影ども。
+[k]
+
+[se ad23]
+[wait se ad23]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaShadow D false]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+シャドウサーヴァント……！？[r]そんなものまで、召喚できるのですか……！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaShadow D true]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヴィクター
+当たり前だ。私の世界、私の時代、私の場所。[r]迷い込んできたのは、貴様たちだ。
+[k]
+
+[charaFace D 5]
+＠ヴィクター
+さあ、“イヴ”のリミッターも解除した。[r]比類無き力を、試させて貰おうか……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaShadow D false]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……歴史の小さなひび割れに過ぎないかもしれません。[r]ですが、彼を放置してはならない。
+[k]
+
+？1：同感だ
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠フラン
+……ゥゥゥ！
+[k]
+
+？1：フラン、アイツを倒せ
+
+？2：フラン、妹の仇を取れ
+
+？！
+
+[charaFace C 5]
+＠フラン
+しょうち、した。
+[k]
+
+[charaFace C 2]
+＠フラン
+[line 2]ナアアアアアアアアオオオオオオオオオッ！！
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,680 @@
+＄01-00-05-21-3-0
+
+
+[soundStopAll]
+
+[charaSet A 7020000 1 クー・フーリン・オルタ]
+[charaSet B 4013001 1 メイヴ]
+[charaSet C 8001001 1 マシュ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 1019001 1 ラーマ]
+[charaSet F 7008001 1 ベオウルフ]
+[charaSet G 3017001 1 李書文]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0 1]
+
+[scene 20721]
+[fadein black 0.5]
+[wait fade]
+
+[charaShake F 0.05 3 3 0.2]
+[se bac9]
+[wt 0.3]
+[seStop bac9]
+
+[charaShake F 0.05 3 3 0.2]
+[se bac8]
+[wt 0.3]
+[seStop bac8]
+
+[messageOff]
+[fowardEffect bit_talk_13]
+
+[charaShake F 0.05 3 3 0.5]
+[se bac10]
+[wt 0.5]
+[seStop bac10 1.0]
+
+[wait fowardEffect bit_talk_13]
+
+＠ベオウルフ
+……くっ……！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFace F 5]
+[charaFadein G 0.1 2]
+[charaFadein F 0.1 0]
+＠李書文
+[line 2]八極拳絶紹『[#猛虎硬爬山:もうここうはざん]』。[r]数千年の間、練り上げられた功夫だ。
+[k]
+
+＠李書文
+ただの殴り合いが拳闘に昇華されたように。[r]我らは殺し合いを技に昇華した。
+[k]
+
+[charaFace G 5]
+＠李書文
+……この国もそれと同じよ。[r]おまえたちが手を伸ばして良いものではない。
+[k]
+
+[charaFace F 4]
+＠ベオウルフ
+ヘッ……まったくだ……。[r]くそ。図体デカいグレンデルの方がまだ殴りやすかったぜ。
+[k]
+
+[charaFace G 1]
+＠李書文
+来る攻撃を捌くのも技術の一種。次に召喚されるまでに、[r]せめて拳闘の技術でも学んでおくがよかろうよ。
+[k]
+
+[charaFace F 0]
+＠ベオウルフ
+……ハ……悪いが願い下げだ。
+[k]
+
+[charaFace F 1]
+＠ベオウルフ
+殴り合いの最中にものを考えるなんざ、[r][#手前:テメエ]で夢から覚めるようなもんだろう……？
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_3 0.4]
+[charaFadeout F 0.4]
+[wt 0.2]
+[se ad58]
+[seStop ad58 0.5]
+
+[wt 0.8]
+[charaFadeout G 0.1]
+
+[charaSet A 3005002 1 エリザベート]
+[charaSet B 2003001 1 ロビンフッド]
+[charaSet C 5023001 1 ブラヴァツキー]
+[charaSet D 5025001 1 エジソン]
+[wt 0.5]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFace C 0]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+＠エジソン
+よし！[r]これなら……！
+[k]
+
+[charaFace C 5]
+＠ブラヴァツキー
+ミスタ・エジソン。[r]……兵士たちを急いで退がらせて。
+[k]
+
+[charaFace D 0]
+＠エジソン
+ぬ？
+[k]
+
+[charaFace C 2]
+＠ブラヴァツキー
+いいから後退させて！[r]早く！！
+[k]
+
+[bgmStop BGM_EVENT_4 0.1]
+
+[se ad87]
+[seStop ad87 2.0]
+[wait se ad87]
+[wt 0.4]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFace A 0]
+[charaFadein B 0.1 0]
+[charaFadein A 0.1 2]
+＠ロビンフッド
+何だ、後退か？
+[k]
+
+[charaFace A 5]
+＠エリザベート
+ちょっと、せっかく勝ってるのに。[r]いきなり何よ。
+[k]
+
+＠ロビンフッド
+さあな、エジソンのおっさんにでも[r]聞いてみないことには[line 2]
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[se ad14]
+[shake 0.05 0 3 0]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace B 2]
+＠ロビンフッド
+な、何だ！？
+[k]
+
+[messageOff]
+
+[se ad38]
+[wait se ad38]
+
+[charaFace A 2]
+＠エリザベート
+きゃあああああああああ！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFace C 5]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+＠エジソン
+お、落ち着け！[r]ただの地震だ、落ち着け……！
+[k]
+
+[charaFace C 2]
+＠ブラヴァツキー
+いいえ、コレはただの地震じゃない！[r]きゃあっ……！！
+[k]
+
+＠エジソン
+ブラヴァツキー……！？
+[k]
+
+[messageOff]
+[fadeout white 0.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[seStop ad14 1.0]
+[scene 10001]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[shakeStop]
+[wt 1.0]
+
+[fadeout black 1.0]
+[wait fade]
+[wt 1.5]
+
+
+[charaSet A 7020000 1 クー・フーリン・オルタ]
+[charaSet B 4013001 1 メイヴ]
+[charaSet C 8001001 1 マシュ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[scene 21713]
+
+[bgm BGM_EVENT_5 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.4 1]
+＠マシュ
+マスター。[r]ホワイトハウスが……異界化しています……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+な、何だコレ！？　まさか、[r]ホワイトハウスって言い張る気なのかい！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ラーマ
+……むぅ。悪趣味極まりないな。[r]本来のホワイトハウスの方が美しかろう。
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 20903]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+＠クー・フーリン・オルタ
+[line 2]よう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFace C 7]
+[charaFadein E 0.1 0]
+[charaFadein C 0.1 2]
+
+[charaFace E 2]
+＠ラーマ
+……クー・フーリン……！
+[k]
+
+＠マシュ
+女王メイヴ……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 2]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+＠メイヴ
+ちょっと、そこのデミ・サーヴァント。[r]人の名前を気安く呼ぶものでなくてよ？
+[k]
+
+[charaFace B 4]
+＠メイヴ
+気分が悪いから、殺しても構わないかしら？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠マシュ
+……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+退きなさい。[r]あなたの邪悪は病ではなく、生まれついてのもの。
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+健康優良児そのものです。[r]邪悪ではありますが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 2]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+＠メイヴ
+は？
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+退け、メイヴ。[r]そいつはオレに用があるらしい。
+[k]
+
+
+[charaFace B 5]
+＠メイヴ
+クーちゃんをどうする気？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+どうするもこうするも。[r]私は看護師です。看護師としての役割を全うするだけ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠メイヴ
+は？[r]クーちゃんに？　看護師として？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+治療する、ということです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠クー・フーリン・オルタ
+……単純な理屈だな。[r]だから、オレもおまえを敵として殺害する。
+[k]
+
+＠クー・フーリン・オルタ
+看護師であろうが、誰であろうが敵は敵。[r]そら、単純だ。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+どうぞご自由に。[r]私は貴方を治療し、貴方は私を殺害する。
+[k]
+
+＠ナイチンゲール
+矛盾ですが、我々の在り方としては妥当です。[r]では、戦う前に一言。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+何だ。
+[k]
+
+＠ナイチンゲール
+[#あなたは病気です]。[r]自刃するか、敗北することをお勧めします。
+[k]
+
+[charaFace A 4]
+＠クー・フーリン・オルタ
+……。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+オレも大概だが、おまえも静かに狂っているな？[r]言ってることが滅茶苦茶だな？
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+[line 2]愉悦を抱けない。
+[k]
+
+[charaFace A 4]
+＠クー・フーリン・オルタ
+……あ？
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+いえ、違いますか。愉悦を抱けないのではなく、[r][#愉悦を抱かない]。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+王になったことで愉悦を感じられなくなった訳ではなく。[r]王になったことで、愉悦を封じたのですか。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠メイヴ
+……黙りなさい、看護師。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+自らを檻に閉じ込め、代わりに“王”という[r][#機構:システム]に、体を譲り渡す。
+[k]
+
+＠ナイチンゲール
+愉悦を感じないが故に自動的、機械的に戦える。[r]そうしなければ、王であり続けられない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠メイヴ
+黙れ、って言ってるでしょ！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠クー・フーリン・オルタ
+見てきたような口ぶりだな。[r]なんだ。おまえ、前世で因縁とかあったか？
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+いいえ、見てきた訳ではありません。[r]何故なら、生前の私自身がそういう在り方でしたから。
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+己の人間らしさを全て投げ棄て、[r]私はただ目的のために邁進した。
+[k]
+
+＠ナイチンゲール
+その為に代償も必要としたけれど、[r]そんなものは私には必要ない。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+私はただ、純粋な治療機械であればよかった。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+無論、それは歪んだ生き方であることも否めません。[r]生前、寝床で執念を燃やし続けたあの頃と何も。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+それでも私は構わない。[r]私は鉄の体で、鉄の意志で、世界に広めたかっただけ。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+……。
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+治療されるという希望。快癒する歓喜。[r]それが、あのときの世界には必要だった。
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+その目的のために私は全てを擲って、[r]後悔はしていない！
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+[line 2]問いましょう、蛮族の王。[r]この支配に必要性はあるのですか？
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+未来への展望は？[r]行き着く果てを、どこに見定めているのです？
+[k]
+
+[charaFace A 4]
+＠クー・フーリン・オルタ
+さてな。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+無いでしょう。それは重度の火傷に等しい所業。[r]だから[line 2]貴方は私と違う。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+私の血は夢のために熱く滾る。[r]貴方の血は野望のために冷えて濁る。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+それは病です。[r]私に治療させなさい、クー・フーリン。
+[k]
+
+＠ナイチンゲール
+私は、死んでも、貴方を治療しなければならない。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+……話はそれで終わりか？　あんまりにも突拍子のない[r]言葉なんで、つい聞き入っちまった。
+[k]
+
+[charaFace A 4]
+＠クー・フーリン・オルタ
+病。病。病気か。なるほど。なるほど、言い得て妙だ。[r]オレは呪いや傷には慣れていたが[line 3]
+[k]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+病気ってヤツに罹った事はてんでなかった。[r]眼から鱗とはこの事だ、鉄の女。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+となると、このどうしようもない倦怠感は[r]病気ってヤツなんだろうな。
+[k]
+
+＠クー・フーリン・オルタ
+この体を癒し、この血を清らかにすれば[r]正気とやらに戻るのかもしれん。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+[line 2]だが、それはあり得ない。[r]アンタはよーくご存じだと思うがね。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+そら。世の中には決して治らない、[r]不治の病ってもんがあるんだろう？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+[line 2]ッ!!
+[k]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFace B 0]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+＠クー・フーリン・オルタ
+クー・フーリン。推して参るぜ。
+[k]
+
+[charaFace B 1]
+＠メイヴ
+……行くわよ、クーちゃん！
+[k]
+
+[charaFace B 5]
+＠メイヴ
+我こそはコノートの女王メイヴ。[r]貴方たちなんかに、遅れは取らない……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ラーマ
+余はコサラの王ラーマ。これは、志半ばにして[r]倒れた者たちから手渡された使命である。
+[k]
+
+[charaFace E 5]
+＠ラーマ
+おまえたちが世界を滅ぼす者である限り[line 2][r]余の戦意、余の闘志に揺らぎはない。
+[k]
+
+[charaFace E 4]
+＠ラーマ
+我が妻シータの名に懸けて。[r]信奉する神の名に誓って。
+[k]
+
+[charaFace E 2]
+＠ラーマ
+汝に鉄鎚を下す。[r]覚悟するがいい、女王メイヴ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

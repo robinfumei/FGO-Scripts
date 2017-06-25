@@ -1,0 +1,116 @@
+
+＄01-00-05-08-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5016001 1 ジェロニモ]
+[charaSet C 2010001 1 ビリー]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 7014001 1 ナイチンゲール]
+[charaSet F 3005001 1 エリザベート]
+
+[scene 11110]
+[fadein black 2]
+[wait fade]
+
+[se bac11]
+[wait se bac11]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ビリー
+うん、弱かった！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+でも、今まで戦ってきたケルト戦士と同じですよね？[r]まるで別の何かと戦ってきたような[line 2]。
+[k]
+
+[wt 0.2]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+……むぐ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ビリー
+ジェロニモ、どうかした？
+[k]
+
+
+＠ジェロニモ
+いや、何かきっかいな音が[line 2]。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace C 4]
+＠ビリー
+あ、ホントだ。[r]何というか、この……何？
+[k]
+
+＠ビリー
+一つ一つの音は綺麗なのに、[r]全体として[#汚泥:おでい]のように濁っているような……。
+[k]
+
+＠ビリー
+絵の具の赤と青と黄と緑とピンクを使ったら、[r]キャンバスが真っ黒になったみたいな……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+待って下さい、マスター。[r]わたしたち、この歌を知っているような気がします。
+[k]
+
+？1：気のせいじゃないかなななな
+？2：幻覚だだだだ
+
+？！
+
+[charaFace A 14]
+＠マシュ
+マスター、語尾が面白いことになってます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+うぇ。[r]まだ歌ってんのかアイツ……？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,152 @@
+
+＄94-00-18-10-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7013001 1 清姫]
+
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠清姫
+[line 2]ふぅ、敗れました。[r]チョコレートは無事ですか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠清姫
+それではお行きなさい。[r]あの人が、待っていますから。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+ありがとうございます、清姫さん！
+[k]
+
+[messageOff]
+[se ad59]
+[charaFadeout A 0.7]
+[wt 1.0]
+[seStop ad59 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 1.5]
+
+[wipeout leftToRight 0.1 3]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[scene 10400]
+
+＠マシュ
+……先輩、先輩、先輩！
+[k]
+
+[messageOff]
+[se ad8]
+[fadeout white 0.1]
+[wait fade]
+[wipeOff]
+[fadein white 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 1]
+＠マシュ
+[line 2]っ。
+[k]
+
+[charaFace A 3]
+＠マシュ
+……すー、はー、すー。[r]……こほん、こほん。
+[k]
+
+
+
+[charaFace A 2]
+＠マシュ
+おはようございます！[r]バレンタインです、先輩！
+[k]
+
+[charaFace A 11]
+＠マシュ
+あ、いえ……すみません、大声を出してしまって。[r]自分でもよくテンションが分からなくて……
+[k]
+
+[charaFace A 13]
+＠マシュ
+と、とにかく今日は日頃の感謝の気持ちを[r]チョコレートに変換してお渡しできる日と聞きました。
+[k]
+
+＠マシュ
+ですので、どうぞこちらを。[r]些細なものですが、栄養摂取の助けとなれば幸いです。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え？　なぜ武装しているか、ですか？
+[k]
+
+[charaFace A 3]
+＠マシュ
+それは……事前にダ・ヴィンチちゃんから[r]色々と教えられたので、その……
+[k]
+
+＠マシュ
+き、気合いを入れるために、サーヴァント化して[r]自分を奮い立たせたというか……
+[k]
+
+＠マシュ
+と、とにかくバレンタイン、ありがとうございます！
+[k]
+
+＠マシュ
+日頃の感謝をありったけ籠めましたので……[r]これからも[charaFace A 1]よろしくお願いします、マスター！
+[k]
+
+
+[wt 0.5]
+[messageOff]
+[wt 0.5]
+[fadeout white 1.5]
+[wait fade]
+[wipeout leftToRight 0.1 3]
+[wait wipe]
+[wt 0.1]
+
+[wt 0.4]
+[fadein white 1.0]
+[wt 0.8]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+
+[fadeout black 0.1]
+[wait fade]
+[wipeOff]
+[soundStopAll]
+[end]
+
+
