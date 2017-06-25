@@ -2,7 +2,7 @@
 
 A compilation of FGO scripts, sorted and edited for easier navigation.
 
-## Navigation
+# Navigation
 ## Raw
 
 `01` contains scripts for story chapters.  
@@ -10,8 +10,7 @@ A compilation of FGO scripts, sorted and edited for easier navigation.
 `94` contains scripts for events.
 ### Story
 
-Each file name consists of 10 digits, in sets of 6. These sets are 2 / 2 / 2 / 2 / 1 / 1 digits long, respectively.
-
+Each file name consists of 10 digits, in sets of 6. These sets are 2 / 2 / 2 / 2 / 1 / 1 digits long, respectively.  
 Each set represents the following:
 
 | Digit Set | Meaning |
@@ -23,8 +22,7 @@ Each set represents the following:
 | x | Subchapter / Node Arrow |
 | x | Pre / post battle scene |
 
-**Example:**
-
+**Example:**  
 Given the file name `0100011531`, it would represent the following:
 
 | Digit Set | Meaning |
