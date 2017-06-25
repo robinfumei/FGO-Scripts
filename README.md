@@ -10,7 +10,9 @@ Each file name consists of 10 digits, in sets of 6. These sets are 2 / 2 / 2 / 2
 Each set represents the following:
 
 xx  |  Story arc  
+
 --  
+
 xx  |  
 --  
 xx  |  Order / Singularity  
