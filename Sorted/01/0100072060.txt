@@ -1,0 +1,85 @@
+
+
+
+＄01-00-07-20-6-0
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98013200 1 ティアマト]
+
+[scene 20733]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+ケツァル……コアトルさん……[r]ああ……炎も消えて、黒い海、に[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ビーストⅡ、わずかに後退……[r]だが、本体には何の損傷もない……
+[k]
+
+＠Dr.ロマン
+ケツァル・コアトルの最後の宝具は、[r]ティアマト神の角を折るには至らなかった……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad205]
+[effect bit_talk_voice01]
+＠ティアマト
+Aaaaaa[line 3][r]AaaaaaaaaaaaaaAAAAAAAAAAAA[line 3]！
+[k]
+
+[messageOff]
+[shake 0.05 0 10 1.0]
+[wt 1.0]
+[effectStop bit_talk_voice01]
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ケイオスタイド、更に流出！[r]ビーストⅡの反撃だ……！
+[k]
+
+＠Dr.ロマン
+まずいぞ、前にはナピュシテムの牙が……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[se ad211]
+[shake 0.05 0 4 2.0]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ケイオスタイド、こちらにも来ます！[r]ラフムも多数接近！
+[k]
+
+＠マシュ
+先輩、指示を……！[r]このまま逃げるなんて、[charaFace A 2]わたしにはできません！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]

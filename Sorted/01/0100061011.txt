@@ -1,0 +1,358 @@
+＄01-00-06-10-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 6002001 1 呪腕のハサン]
+[charaSet F 98083000 1 ルシュド]
+[charaSet H 2013000 1 アーラシュ]
+
+[scene 28610]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.3]
+[bgmStop BGM_EVENT_3 2.0]
+[charaEffect E bit_talk_13]
+[wt 0.1]
+[se bac10]
+[charaShake E 0.05 4 4 0.4]
+[wt 0.4]
+＠E：？？？
+ぬぅは！[r]まさか、私が先に仕留められるとは[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+アサシン、無力化しました！[r]いいのが入ったのでしばらく運動は困難かと！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠E：？？？
+ガフッ、[charaShake E 0.05 0 3 0.25]ゴフッ……！[r]確かに腹部を丸太で殴りつけられたかのような衝撃！
+[k]
+
+＠E：？？？
+この呪腕のハサンをここまで追い詰めるとは……！[r]敵ながら見事、さぞや上位の円卓の騎士と見た……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+いえ、ですから円卓の騎士ではないと……[r]それと上位でもないのです……けど……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠フォウ
+フォウ、フォ[line 2]ウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+だが、たとえ全身の骨が折れようと寝込んではいられぬ！[r]円卓の騎士、なにするものぞ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ルシュド
+…………。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠H：？？？
+おいおい。普通、全身の骨が折れたら立てないぜ？[r]そこまでの献身をアンタらの神は望んじゃいまい。
+[k]
+
+＠H：？？？
+勝負ついたんだ。おまえさんの心情も分かるが、[r]ここはもう認めるべきじゃないかい、[#呪腕:じゅわん]殿？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠呪腕のハサン
+これは……アーラシュ殿。[r]う、む……むぅ……しかしですな……
+[k]
+
+[charaFace H 5]
+＠アーラシュ
+難民たちを助けてもらったのは事実だろ？
+[k]
+
+＠アーラシュ
+おまえさんだって、[r]昨日は我が事のように喜んでいたじゃないか。
+[k]
+
+[charaFace H 1]
+＠アーラシュ
+“素晴らしい、素晴らしい！　感謝の言葉が見当たらぬ！[r][f small]  [f -]これほどの快事が他にあろうか！”ってな。
+[k]
+
+[charaFace E 4]
+＠呪腕のハサン
+それは、この者どもの素性が分からなかった故！[r]円卓に連なる者と知っていれば感謝など致しません！
+[k]
+
+[charaFace H 0]
+＠アーラシュ
+ああ。いいじゃないか。[r]この兄さんたち、円卓じゃないようだぜ？
+[k]
+
+＠アーラシュ
+なら、“感謝の抱擁をしなくてはいけませんな！”を[r]守ってもいいんじゃないか？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace A 3]
+[charaFadein A 0.1 2]
+＠マシュ
+え……あの、抱擁というと……ハグ、ですか？[r]えっと……はい。とても光栄です、アサシンさん。
+[k]
+
+＠ベディヴィエール
+え、ちょっと……私は心の準備が……
+[k]
+
+？1：ばっちこい！
+？2：……あの髑髏さん、良い人すぎない？
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+ぬぅぅぅぅぅ、この呪腕のハサンともあろうものが、[r]まさに半年に一度の失言！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ははは。わりと頻繁だよね、半年に一度なら。[r]凡ミス多いんじゃないかな、あのアサシン。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaPut F 0,200]
+[cameraMove 0.25 0,-100 1.4]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[charaEffect F bit_talk_41]
+＠呪腕のハサン
+だぁぁぁ[se ad63][seStop ad63 1.8][shake 0.05 2 4 0.4]まらっしゃい！[r]半年先など、生きているかどうかも分からぬでしょうが！
+[k]
+
+[charaEffectStop F bit_talk_41]
+[cameraHome 0.4]
+[wt 0.4]
+
+[charaFace E 4]
+＠呪腕のハサン
+……いや。私ともあろう者が熱くなってしまった。[r]名前を聞こう、そこのマスター。
+[k]
+
+？1：[%1]です
+
+？！
+
+[charaFace E 0]
+＠呪腕のハサン
+偽りなく真名のようだな。[r]そして、そのような名の若者は円卓には存在しない。
+[k]
+
+＠呪腕のハサン
+……いいだろう。[r]円卓の騎士ではない、という言葉は信じる。
+[k]
+
+＠呪腕のハサン
+だが村に入れるかどうかは[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ルシュド
+[%1][&兄ちゃん:姉ちゃん]は[r]ボクたちを助けてくれたんだよ、ドクロのおじちゃん。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+＠ルシュド
+だからもうケンカしないで。[r]そんなおじちゃん、見たくないよ。
+[k]
+
+[charaFace E 1]
+＠呪腕のハサン
+なんと、ルシュドではないか！[r]母親は？　サリアは一緒ではないのか？
+[k]
+
+＠ルシュド
+うん、はぐれちゃった。[r]お母さんはこっちにはいないんだって。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[charaFace E 5]
+＠呪腕のハサン
+っ[line 3]おまえたち、それは
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+………………。
+[k]
+
+＠ベディヴィエール
+………………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+…………そうか。[r]それは、世話をかけたな。
+[k]
+
+＠呪腕のハサン
+……サリアはもともとこの村の出身であった。[r]父親に反対されながら、聖地の家に嫁いだのだ。
+[k]
+
+＠呪腕のハサン
+……皮肉なものだ。捨て去った過去であり、[r]英霊となってからは関わりのない話であったというのに。
+[k]
+
+＠呪腕のハサン
+よもや、自分が生きていた時代に召喚されるとはな。[r]……これはきつい。未熟者にはきつすぎるわ……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アーラシュ
+…………。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+……よかろう。恩には礼で返す。村に入る事は許そう。[r]アーラシュ殿、案内をお頼み申す。
+[k]
+
+＠呪腕のハサン
+私は新しい同胞たちの宿を手配しなければならん。[r]五十人もの大所帯だ、村人一丸でかからねばな……
+[k]
+
+[bgmStop BGM_EVENT_5 2.0]
+
+[charaFadeout E 0.4]
+[se ad60]
+[seStop ad60 1.4]
+[wt 1.5]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アーラシュ
+……そうか。やけに状況に詳しいと思えば、あの兄さん、[r]自分の土地に呼ばれちまったってワケか……
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace H 0]
+＠アーラシュ
+ま、そこを嘆いていてもしょうがない。[r]待たせたな、[&兄さん:嬢ちゃん]がた！
+[k]
+
+＠アーラシュ
+俺はアーラシュ。[r]見ての通りアーチャーのサーヴァントだ。
+[k]
+
+＠アーラシュ
+長旅でヘトヘトだろう？　村に案内するぜ。[r]貧しい暮らしなんで、まずは祝杯、とはいかないがね。
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

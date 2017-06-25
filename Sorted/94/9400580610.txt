@@ -1,0 +1,206 @@
+
+＄94-00-58-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet D 2025200 1 アン]
+[charaSet F 2025100 1 メアリー]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFace D 1]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+宴だ！
+[k]
+
+＠アン
+宴ですわ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あんなに喜んでくれて……[r]作った甲斐がありましたね、先輩。
+[k]
+
+
+？1：喜んでくれて嬉しいよ
+？2：そんなにハッスルするもの？
+？！
+
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠メアリー
+蛇口を捻ると水が出る……マスターにとっては[r]当たり前かもしれないけど。
+[k]
+
+＠アン
+水不足で苦しんだことのあるわたくし達にとっては、[r]これは希望のしるし……といいますか。
+[k]
+
+＠アン
+『人間は水に不便しなくなった』という概念の象徴のよう[r]な気がいたしますから。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……焼却前の世界でも、おそらく水不足の地域はまだ[r]水不足だったのでしょうし。
+[k]
+
+＠マシュ
+やはり航海中の水不足は、[r]蛇口の有無とはあまり関係ないような気がしますが[line 2]
+[k]
+
+[charaFace A 12]
+＠マシュ
+……そうですね。これは現在の人間文明の、水を管理する[r]というシステムの象徴物なのかもしれません。
+[k]
+
+＠マシュ
+実際、捻れば水が出るというのは、よく考えてみれば[r]すごい仕組みですしね？
+[k]
+
+
+[se ad60]
+[charaMove A 800,0 0.5]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 -800,0]
+[charaMove B 1 0.5]
+[wait charaMove]
+[seStop ad60]
+[charaFadeout A 0.1]
+
+＠アルトリア
+待った！　先程の話……[r]確かめさせていただきましょう！
+[k]
+
+＠アルトリア
+蛇口を捻って出るのは水だけでないと。[r]オレンジジュース。そして[line 2]
+[k]
+
+[charaFace B 7]
+＠アルトリア
+ＵＤＯＮのＤＡＳＨＩ……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+大変です、アルトリアさんが興奮のあまりカタコトに！[r]確かに出汁は英語でＤＡＳＨＩらしいですが！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+私は知っています。シンプルでありながら奥深い、[r]あのＵＤＯＮという料理の素晴らしさを。
+[k]
+
+＠アルトリア
+もちもちでコシのある麺、手間暇をかけて作られたツユ[r]……単純に見えて繊細な料理の代表格と言えましょう！
+[k]
+
+
+？1：ざるうどんもいいよね
+
+[charaFace B 1]
+＠アルトリア
+ツユに浸かっていない食べ方ですね。あれもいいです、[r]実にいい。麺の喉越しがより際立つ。
+[k]
+
+
+？2：焼きうどんもいいよね
+
+[charaFace B 1]
+＠アルトリア
+うどんを炒めて食するものですね。あれもいいです、[r]実にいい。香ばしさがたまらない。
+[k]
+
+
+？！
+
+[charaFace B 5]
+＠アルトリア
+……それはそれとして！[r]今は蛇口から出るというＤＡＳＨＩの話です！
+[k]
+
+＠アルトリア
+さあ、確かめさせてください！　さあ！
+[k]
+
+
+？1：ＵＤＯＮ県に行かなきゃ……無理だよ……
+？！
+
+[charaFace B 4]
+＠アルトリア
+な……！[r]だ、騙しましたね！？　マスター！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠アン
+王様はぜいたくですわねぇ。蛇口をひねれば、[r]保管している新鮮な水が出る。それでいいではありませんか？
+[k]
+
+＠メアリー
+まったくだ。[r]ひねって、出して……ごくごく……。
+[k]
+
+[charaFace F 1]
+＠メアリー
+うん、美味しい！　これで、真水を集めてくる[r]モチベーションがさらに上がるってものだよ。
+[k]
+
+＠メアリー
+ありがとう、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

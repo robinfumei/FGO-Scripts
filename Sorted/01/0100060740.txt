@@ -1,0 +1,151 @@
+＄01-00-06-07-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet E 1007002 1 ガウェイン]
+
+[scene 28901]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+円卓の騎士、ガウェイン。[r]この聖罰を任された者として、貴方がたを処断します。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+サー・ガウェイン！[r]太陽の騎士と称される、第二の聖剣の所有者！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+これはもう疑いようがない……！
+[k]
+
+＠Dr.ロマン
+十字軍を壊滅させ、聖地に聖都を築き上げたのは[r]円卓の騎士[line 3]アーサー王の騎士たちだ！
+[k]
+
+？1：特異点Ｆで出会った、あの！？
+？2：ロンドンで出会った、あの！？
+
+？！
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+いや、アーサー王であるコトは間違いないが、[r]そのどちらの側面とも違う……！
+[k]
+
+＠Dr.ロマン
+さっき観測したサーヴァントの霊基出力は[r]資料にあるアーサー王のものより遙かに上だった！
+[k]
+
+＠Dr.ロマン
+あれはもうサーヴァントの枠に収まるものじゃない！[r]でも、アーサー王がなぜそんな怪物に……！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+遠見の魔術を使っている魔術師がいるようですね。[r]……では、貴方たちが人理の守り手ですか。
+[k]
+
+＠ガウェイン
+“異邦の星輝く時、白亜の結託はひび割れ、[r][f small]  [f -]王の威光は陰り、神託の塔は崩れ落ちる[line 3]”
+[k]
+
+＠ガウェイン
+……残念です。このような出会いでなければ、[r]あるいは、共存の道もあったでしょうに。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+魔力反応、数倍に増大……！[r]ガウェインはやる気だ……！
+[k]
+
+＠Dr.ロマン
+ガウェインと言えばエクスカリバーの姉妹剣を持つ、[r]アーサー王に次ぐ宝具の持ち主……！
+[k]
+
+＠Dr.ロマン
+加えて今は昼間なんだろう！？[r]だとしたら勝ち目はない！　撤退するんだ！
+[k]
+
+？1：昼間だと何が！？
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+サー・ガウェインは聖者の数字に祝福された騎士……[r]彼は日中において通常の三倍の力を発揮する[line 3]
+[k]
+
+＠マシュ
+伝説において、太陽の下で彼を倒した者はいません！[r]昼間は無敵なんです、サー・ガウェインは！
+[k]
+
+[charaFadeout A 0.1]
+
+？2：日中三倍の逸話か……！
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そうだ、聖者の数字による身体強化……！[r]日中においてサー・ガウェインは無敵なんだよ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？！
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+[line 3]できませんよ。[r]貴方たちだけでは、撤退は既に不可能です。
+[k]
+
+＠ガウェイン
+難民たちを逃がすために血路を開き、[r]今また、幼子を助けんがため敵陣に踏み込んできた。
+[k]
+
+＠ガウェイン
+その代償がこの結果です。[r]覚悟の上の行為と思いましたが？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+駄目です、離脱不能！[r]戦闘に突入します、マスター！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,300 @@
+＄94-00-05-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20602]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 6017001 1 カーミラ]
+[fadein black 1]
+[wait fade]
+[wt 0.3]
+[charaFadein E 0 1]
+[charaFace E 0]
+＠E：？？？
+はあ、まったく……。[r]面倒ったらないわ。
+[k]
+
+＠E：？？？
+なぜこの私が自分の城の掃除を[r]やらなくてはいけないのかしら……
+[k]
+
+[charaFace E 2]
+＠E：？？？
+こういうのは……貴族の仕事ではない……というのに！[r]ああ、このしつこい汚れ！　忌々しい！
+[k]
+
+＠E：？？？
+ブラシでこすってもこすっても、[r]鞭で叩いてもしばいても嬌声をあげないブタのよう！
+[k]
+
+[charaFadeout E 0.1]
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[wt 0.4]
+[scene 20602]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+……いました……いましたよ、先輩……！[r]あれはおとぎ話に出てくる悪い魔女そのものです……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ……！
+[k]
+
+？1：シッ……！　静かに、マシュ！
+
+？2：嬉しそうだね、マシュ
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+ぁ……すみません、つい。[r]こっそり進むんですね、マスター。
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[wt 0.4]
+[scene 20602]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠E：？？？
+ああもう汚れ風情が！　もう我慢の限界よ、[r]喰らいなさいファントム・メイデン！
+[k]
+
+[fadeout white 0.5]
+[wait fade]
+[fadeout white 0.3]
+[wait fade]
+[fadein white 0.5]
+[wait fade]
+[se ad38]
+[wt 0.3]
+[charaFace E 1]
+＠E：？？？
+[line 3]フ。綺麗さっぱり木っ端みじんよ。[r]これでいい。これでいいのよ私。
+[k]
+
+＠E：？？？
+私はこの星でもっとも有名な女吸血鬼……[r]恐ろしく、無慈悲で、美しくあらなければ……
+[k]
+
+[charaFace E 5]
+＠E：？？？
+……それにしてもうるさいわね、外。[r]花火を何発あげれば気が済むのかしら……
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠清姫
+まあ、なんて酷い！[r]まるでバーサーカーですわね、あの方！
+[k]
+
+＠清姫
+ほら見て下さい旦那様、あの腰の入ってない姿を！[r]わたくしは勿論、掃除スキルはＡ＋＋＋でございます。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠E：？？？
+ひゃぁ！？[r]あ、アナタたち、いつからそこに！？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace D 2]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠マシュ
+あの、清姫さん……そんなスキルありましたっけ。
+[k]
+
+＠清姫
+ありますよ。ほら、こう、可燃性でもそうでなくとも[r]大抵のゴミは燃やせます。口から。
+[k]
+
+？1：それは掃除じゃない
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠E：？？？
+[line 2]見たわね。[r]このカーミラの、あまりにも陰惨な血の宴を……！
+[k]
+
+＠Dr.ロマン
+血の宴の要素、どこにあったかなあ……
+[k]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠カーミラ
+あったのよ！　見えないところに！[r]私の担当はトマト料理だったのだし！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+ああ……だから爪が真っ赤なんですね。[r]てっきり本物の[line 3]いえ失礼しました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ここは夢のテーマパーク。[r]メルヘンなもの以外は許されないと断言します。
+[k]
+
+＠マシュ
+それよりカーミラさん。[r]どうして清掃作業に熱を入れていたのですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠カーミラ
+……フン。[r]あのバカ娘に命令されたのよ。
+[k]
+
+[charaFace E 2]
+＠カーミラ
+ああもう、どうして聖杯なんて存在するのかしら！[r]どうしてサーヴァントになんてなっちゃったのかしら！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+！？　聖杯とは、あの聖杯ですか！？
+[k]
+
+？1：あるの、この城に！？
+
+？2：いいの、こんな城に！？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠カーミラ
+ええ。信じられないでしょうけどあるのよ、それが。[r]その力で私もこんな目に遭っているのですからね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠清姫
+まあ……それは災難な。[r]でも[line 3]いい事を聞きました。
+[k]
+
+[charaFace D 1]
+＠清姫
+聖杯がサーヴァントの望みすら叶えるというのなら、[r]うふふ……わたくしが手に入れてしまえば……
+[k]
+
+[charaFace D 3]
+＠清姫
+うふふふふふふ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ[line 6]ウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠カーミラ
+…………私が言う事ではないけれど。[r]そちら、外の花火級に危険な凶蛇を飼っていなくて？
+[k]
+
+[charaFadeout E 0.1]
+[communicationChara 98003003 1 5 0 1]
+＠Dr.ロマン
+ははは。どちらかというと地雷級だけどね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠清姫
+お黙りなさい。
+[k]
+
+[wt 0.4]
+[charaFace D 5]
+＠清姫
+わたくし、ここまでは観光気分でしたが[r]目的が変わりました。
+[k]
+
+＠清姫
+この城の城主を倒し、聖杯を手に入れる。[r]それでよろしいですね、旦那さま？
+[k]
+
+？1：首を……に振る。
+
+？2：首を……に振る。
+
+？！
+
+[charaFace D 3]
+＠清姫
+まあ。うれしさのあまり、[r]縦にも横にも首を振ってくれるなんて……♡
+[k]
+
+[charaFace D 5]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3]
+＠清姫
+そうと決まれば話はここまでにございます。
+[k]
+
+＠清姫
+そこの名も知れぬサーヴァントさま。[r]おとなしく城主の元に案内をしていただけますか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠カーミラ
+すると思う？[r]この吸血鬼カーミラが？
+[k]
+
+[charaFace E 2]
+＠カーミラ
+私の役割は訪れたゲストを愉しませること。[r]さあ[line 3]身も凍る恐怖を味わっていきなさい！
+[k]
+
+[charaFadeout E 0.5]
+[wt 0.3]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

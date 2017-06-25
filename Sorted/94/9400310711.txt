@@ -1,0 +1,108 @@
+＄94-00-31-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 3002000 1 ディルムッド]
+[charaSet F 98059000 1 ケイネス]
+[charaSet G 5002001 1 ジル]
+
+[scene 25200]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ジル
+おおお、この凡庸なる結末もまた[r]神の趣向だというのか……。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect G flashErasure 0 0 1]
+[wait charaSpecialEffect G]
+[charaFadeout G 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+サーヴァント、キャスター消滅。[r]我々の勝利です。
+[k]
+
+？1：キャスターのマスターはどこに？
+？2：まだこれで終わりじゃない！
+
+？！
+
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+単独では脅威になるような魔術師ではないが……。
+[k]
+
+＠エルメロイ
+放っておけばキャスター抜きでもこういう[r]凶行を続ける殺人鬼だ。見逃すわけにはいかないな。
+[k]
+
+[charaFace F 1]
+＠ケイネス
+しかし肝心のキャスターは倒したのだ。[r]これで監督役に課された所定は果たした事になろう？
+[k]
+
+＠エルメロイ
+確かに。ケイネス卿はさっそく冬木教会へ赴き追加令呪の[r]要求を。我々はこの場で事後処理に当たります。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠ケイネス
+ふむ、そうだな。確かに諸君らを引き連れて監督役の前に[r]出る訳にもいくまい。では、また後ほど。
+[k]
+
+[messageOff]
+[charaFadeout F 0.4]
+[wt 0.5]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ディルムッド
+心強い助勢、感謝する。[r]次もまた頼むぞ、未来の勇者たちよ。
+[k]
+
+[messageOff]
+[charaFadeout E 0.4]
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+さて、気の滅入る捜索だが、[r]連続殺人鬼の追跡にとりかかろう。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+[soundStopAll]
+[end]

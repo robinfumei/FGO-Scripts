@@ -1,0 +1,778 @@
+＄01-00-05-13-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3005002 1 エリザベート]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 4013001 1 メイヴ]
+[charaSet F 7020000 1 クー・フーリン・オルタ]
+[charaSet G 2015001 1 アルジュナ]
+
+[scene 21000]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠エリザベート
+ね、ねえ！[r]一体何があったって言うの！？
+[k]
+
+[charaFace C 4]
+＠ロビンフッド
+……そうだな。[r]要点だけ報告するよ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.8]
+[wait fade]
+[fadein black 1.0]
+[wait fade]
+
+＠ロビンフッド
+……って訳だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+ジェロニモさん、ビリーさん、ネロさんまで……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠エリザベート
+……あのバカ……せっかく、とんでもない確率で[r]同じ時代に召喚されたっていうのに……
+[k]
+
+＠エリザベート
+……ごめん、ちょっと向こう行ってる。
+[k]
+
+[charaFadeout B 0.4]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ラーマ
+うむ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+しかし、その状況でよく逃げられたものだ。[r]なにか秘策があったのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+オレ一人なら、まあどうにもならなかったけどな。[r]手ぇ貸してくれたサーヴァントがいたんだよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+手……？
+[k]
+
+[messageOff]
+[wipeout circleOut 1.0 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+
+[charaSet D 3013001 1 スカサハ]
+
+
+[scene 20720]
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+[wipein circleOut 1.0 1.0]
+[wait wipe]
+
+[se ad59]
+[wt 0.3]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.4 1]
+[wt 0.7]
+[seStop ad59 1.5]
+
+＠ロビンフッド
+チッ……しつけえ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠アルジュナ
+それはお互いさまでしょう。[r]残念ですが、獲らせていただきます。
+[k]
+
+＠アルジュナ
+貴方の弓には品位が足りません。[r]同じアーチャーとして教育してさしあげましょう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+くっ……！
+[k]
+
+[charaFadeout C 0.1]
+
+[se bac20]
+[wait se bac20]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad32]
+[wt 1.0]
+[seStop ad32]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠アルジュナ
+む……！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠D：？？？
+[line 2]ぬるいぬるい。
+[k]
+
+＠D：？？？
+よく鍛えてはいるが心気がこもっておらぬ。[r]これでは小僧の棒投げよな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠アルジュナ
+……何者か。[r]今の一撃、渾身のものと自負していますが。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠D：？？？
+答える義務はなかろう。[r]通りすがりの神殺しとだけ覚えておけ。
+[k]
+
+＠D：？？？
+その小僧は生かして返す。私がそう決めたのだ。[r]退くがいい、たかだか神に愛されただけの若造よ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠アルジュナ
+……そう言われて、退く気にはなりませんね。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠クー・フーリン・オルタ
+[line 2]いや。下がってなアルジュナ。[r]テメエでもその女は手に余る。
+[k]
+
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アルジュナ
+……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠クー・フーリン・オルタ
+邪魔だって言ってんだよ。[r]テメエがいたら巻き込むじゃねえか。
+[k]
+
+[charaFace F 5]
+＠クー・フーリン・オルタ
+それとも何か？　オレの足を引っ張るのか？[r]テメエも裏切り者ってコトか？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠アルジュナ
+……了解しました。
+[k]
+
+
+[charaFadeout G 0.4]
+[wt 0.7]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠D：？？？
+よしよし。聞き分けがよいのはいい。[r]貴様と違って良い子よなあ、セタンタよ？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠クー・フーリン・オルタ
+……いちいち幼名で呼ぶんじゃねえよ。[r]頭が痛いぜ。まさかアンタまで召喚されていたとはな。
+[k]
+
+＠D：？？？
+[charaFace D 5]
+それはこちらの文句じゃ、たわけ。[r]師に対する口の利き方がなっちゃおらん。
+[k]
+
+[charaFace F 0]
+＠クー・フーリン・オルタ
+元からこんなものだろ、オレは。[r]……それで。アンタはオレの敵か。
+[k]
+
+[charaFace D 1]
+＠D：？？？
+おうとも。そら、あれだ。
+[k]
+
+＠D：？？？
+お気に入りの花園にトチ狂った野犬がおれば、[r]悠長に読書などしてはおられまい？
+[k]
+
+＠D：？？？
+変わり果てた阿呆を見るのは忍びなくてな。[r]阿呆でも弟子は弟子。介錯してやるが情けだろう。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+さて、答えよクー・フーリン。[r]貴様、何に憑かれた？
+[k]
+
+＠クー・フーリン・オルタ
+……。[r]……。
+[k]
+
+[charaFace D 4]
+＠D：？？？
+答える必要はない、と。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+となれば、ここで殺し合うしかない訳だが[line 3][r]少しばかり地が悪いな。
+[k]
+
+＠D：？？？
+私はそこの青……緑瓢箪を逃がさねばならん。[r]貴様は背後にメイヴというお荷物がいる。
+[k]
+
+＠D：？？？
+戦えばどちらも無事では済むまい。[r]さて、どうする王妃を得た王？
+[k]
+
+＠D：？？？
+ここで何もかも無くし、早々に身軽になるか？
+[k]
+
+[charaFace F 4]
+＠クー・フーリン・オルタ
+よく言うぜ。おっぱじめたら真っ先に[r]メイヴをやるだろうが、アンタは。
+[k]
+
+[charaFace D 1]
+＠D：？？？
+当然だ。なにしろ気に食わぬ女ゆえ、[r]生涯最高の一刺しが炸裂するぞ？
+[k]
+
+[charaFace F 0]
+＠クー・フーリン・オルタ
+ここではやらねえ。[r]そのアーチャーは見逃してやる。
+[k]
+
+＠クー・フーリン・オルタ
+アンタもさっさと消えやがれ。[r]やる時は邪魔のいない、誰も彼も死に絶えた最後に来い。
+[k]
+
+＠D：？？？
+うむ。それが私の役割だろう。[r]貴様が死ねなくなった時、笑いながら殺すとしよう。
+[k]
+
+[messageOff]
+[charaEffect D bit_talk_15]
+[se ad39]
+[wt 1.5]
+
+[charaFadeout D 0.4]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠クー・フーリン・オルタ
+……戦場からの逃走を有利とする盾のルーンか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠メイヴ
+追わないの？
+[k]
+
+[charaFace F 4]
+＠クー・フーリン・オルタ
+追ってどうにかなる相手か。[r]千殺の槍を投げたところで捌ききる女だぞ、アレは。
+[k]
+
+＠クー・フーリン・オルタ
+燃え尽きる気でやらねえと勝ち目はねえ。[r]やる時はもう、他に殺す相手がいなくなった時だ。
+[k]
+
+
+[messageOff]
+[wipeout circleOut 1.0 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait wipe]
+
+[scene 21000]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[wt 1.0]
+[charaSet E 7014001 1 ナイチンゲール]
+[charaSet F 98003000 1 Dr.ロマン]
+
+[bgm BGM_EVENT_5 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+
+[wipein circleOut 1.0 1.0]
+[wait wipe]
+
+＠Dr.ロマン
+ロビン君、君を助けたという女性は……。[r]クー・フーリンの師匠ということは、まさか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠？？？
+ここにおるぞ。遠見の魔術か、[r]趣味がいいとは言えんな。性根もなっとらん。
+[k]
+
+＠Dr.ロマン
+こ、これはどうも……。
+[k]
+
+＠？？？
+自己紹介だ。我が名はスカサハ。[r]ま、やりとりで理解していた者もいるだろうが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+スカサハ……！[r]影の国の門番、クー・フーリンさんの師匠ですね！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠スカサハ
+[line 2]うむ。ああ、言うまでもないが私は[r]他のケルトのサーヴァントとは違う。
+[k]
+
+＠スカサハ
+……人ならざる身になったせいか、[r]あの聖杯による支配は効果がなかったようだ。
+[k]
+
+＠スカサハ
+英霊として現界した理由も特殊でな。[r]人類史がすべて燃え尽き、私の国も燃え尽きた。
+[k]
+
+[charaFace D 4]
+＠スカサハ
+その結果、こうして“死んだもの”として召喚された。[r]まっとうな歴史であれば私は生者と話す事すらできん。
+[k]
+
+＠スカサハ
+その点でいえば今回の事変はありがたいとも言えるが……[r]いや、ありがたい筈もなし。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+ただでさえ阿呆な弟子の、[r]輪をかけて阿呆な無様を見るはめになったからのぅ。
+[k]
+
+＠スカサハ
+師として首輪をかけて連れ戻しに来たのだが、[r]どうもアレにも何か思うところがある様子。
+[k]
+
+＠スカサハ
+この時代ごと[#一刺絶断:いっしぜつだん]しようとも考えたが、[r]その時、目に入ったのがおぬしらじゃ。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+この戦いは英霊の手で解決していいものではない。[r]人間の手で解決しなくてはならないもの。
+[k]
+
+＠スカサハ
+その一端であるそこのアーチャーが窮地に陥ってな。[r]たまらず力を貸したという次第よ。
+[k]
+
+？1：そうだったのか……
+？2：ありがとうございました
+
+？！
+
+[charaFace D 1]
+＠スカサハ
+うむ。平凡な[#相:そう]をしているが……強い目をしておる。[r]いいマスターよな、マシュ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。ありがとうございます。[r]わたしの、自慢のマスターですから。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それでスカサハさん。[r]我々と共に戦って頂けるのでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠スカサハ
+それが難しいところでな。手は貸すが共闘はできぬ。
+[k]
+
+＠スカサハ
+先ほども言ったが、私のやり方ではこの時代の[r]修復はかなわぬ。殺す事しかできぬからな。
+[k]
+
+[charaFace D 4]
+＠スカサハ
+加えて[line 3]うむ。[r]恐らく、[#あの]クー・フーリンには勝てまい。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+な、何だって……！？　貴女はクー・フーリンの師匠。[r]その貴女が勝てないとは……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠スカサハ
+私も驚きじゃ。腹の立つことこの上ない。
+[k]
+
+＠スカサハ
+アレは私が知るクー・フーリンであって[r]クー・フーリンではない。
+[k]
+
+[charaFace D 4]
+＠スカサハ
+メイヴめが聖杯に願ったのだろうよ。[r]あの阿呆を己と並び立つほどの邪悪な王にしろ、と。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+その結果誕生したのが、王になるために不要なものを[r]削ぎ落とした呪いの戦士。
+[k]
+
+＠スカサハ
+死の棘に全身を委ねた[#牙神:きばがみ]、あるいは狂王。[r]それが今のクー・フーリンだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ナイチンゲール
+哀れな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠スカサハ
+哀れも哀れ。なにしろアレは痛い。棘の一本ですら手に[r]余っていた阿呆めが千本なぞ、正気の沙汰ではない。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+だが、その代償としてアレは私を超えている。[r]迷いのない馬鹿は強いというだろう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠ナイチンゲール
+それは強いのではありません。[r]ただ、人生を檻に封じ込めただけです。
+[k]
+
+＠ナイチンゲール
+何という破綻。[r]外に開かれない夢は、ただの妄執に過ぎない。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠スカサハ
+もっともじゃ。いずれにせよクー・フーリン一騎を[r]倒せばいいという話でもない。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+全体の被害を考慮するなら優先されるは女王メイヴだ。[r]あの女から聖杯を取り上げねばな。
+[k]
+
+＠スカサハ
+ああ、私には期待するなよ。私の場合、メイヴごと[r]聖杯を切り捨てる。それでは元の木阿弥だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そうですね……聖杯を壊されては[r]人理定礎の修復そのものが困難になる。
+[k]
+
+＠Dr.ロマン
+今の状況では大きなタイムロスだ。[r]できれば聖杯は破壊せず回収してほしい。
+[k]
+
+＠Dr.ロマン
+スカサハ殿はあくまで最後の手段と考えて、[r]キミたちだけでメイヴを攻略してほしい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+メイヴ……ケルトにおける、伝説的な女王ですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠スカサハ
+うむ。己が欲望に正直な女だ。[r]今は国盗りに夢中になっている、ということだろう。
+[k]
+
+＠スカサハ
+あの女とクー・フーリン。[r]それだけいれば、ただ二騎で国が盗れる。
+[k]
+
+＠スカサハ
+加えてアルジュナ。[r]それに[line 2]ベオウルフもまだ生きているのか。
+[k]
+
+[charaFace D 4]
+＠スカサハ
+あやつは気紛れ故に、どう出るか分からぬ。[r]とはいえ、敵に回ることは確実か。
+[k]
+
+[wt 0.4]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad4]
+[seStop ad4 2.5]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……？[r]何か、周囲が騒がしくありませんか？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠エリザベート
+……ちょっと！[r]連中が攻めてきたわよ。どうする？
+[k]
+
+？1：迎撃する
+？2：踏み留まる
+
+？！
+
+[charaFace B 5]
+＠エリザベート
+そうね。私、いま滅茶苦茶ムカついてるの。[r]ちょっと、全員くびり殺してくるわ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+わ、わたしたちも行きましょう。[r]西部の最前線であるこの陣地は保持しないと……！
+[k]
+
+[charaFadeout A 0.1]
+[se ad59]
+[seStop ad59 0.6]
+
+[messageOff]
+[wipeout leftToRight 0.7 1.0]
+[wait wipe]
+
+[scene 20720]
+[wt 1.0]
+
+[wipein rightToLeft 0.7 1.0]
+[wait wipe]
+
+[se ad19]
+[wait se ad19]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠スカサハ
+ワイバーンか……。[r]これは機械仕掛けの連中には重荷じゃろうな。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+[%1]、来るがよい。[r]ひとつ、貴様の資質を見てやろう。
+[k]
+
+＠スカサハ
+サーヴァントはいないようだ。[r]まずはこれを乗り越えてみせよ。
+[k]
+
+？1：やってみる
+？2：分かった
+
+？！
+
+[charaFace D 1]
+＠スカサハ
+うむ。良い返答じゃ。[r]さあ、行くがいい！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

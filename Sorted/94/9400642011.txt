@@ -1,0 +1,191 @@
+＄94-00-64-20-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_32 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98102500 1 イリヤ]
+[charaSet D 5023000 1 エレナ]
+[charaSet E 98103600 1 ルビー]
+
+[scene 31300]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠エレナ
+……………………（ムスッ）
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠イリヤ
+エレナさんたら、[r]すっかりふてくされちゃった……。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠ルビー
+さきほどまでのクールな雰囲気も[r]台無しですねー？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+イリヤさんの姿勢もやや乱暴でしたが……[r]気持ちは伝わったと思いたいですね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ですが、どうしたものでしょうか。
+[k]
+
+[charaFace A 8]
+＠マシュ
+言われた通りに宝石を譲り受けて、エレナさんを[r]危険に[#晒:さら]すのはイリヤさんが納得しないでしょうし。
+[k]
+
+[charaFace A 4]
+＠マシュ
+わたし自身もやはり抵抗が。[r]……[charaFace A 6]なにか言いたげなお顔ですね、マスター。
+[k]
+
+
+？1：提案だけど、エレナも一緒に行[&けばいい:こうよ]
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+それ！　そうしよう！　それがいいです！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+[line 3]はあ？
+[k]
+
+？1：一緒に来[&るように:なさい]
+
+[charaFace D 4]
+＠エレナ
+……わ、わかったわよ！[r]先に剣を向けたのはあたしよ。
+[k]
+
+[charaFace D 5]
+＠エレナ
+おとなしく従えばいいのでしょう！　ええ！
+[k]
+
+
+？2：令呪を[#以:もっ]て魔法少女エレナに命ず。イリヤを手助けせよ
+
+[charaFace D 5]
+＠エレナ
+急に偉そうに……[charaFace D 4]ああ、ハイハイ！
+[k]
+
+＠エレナ
+先に刀を抜いたのはあたしだもの。こうなったら従うわ？[r]だいたい令呪なんて関係ないじゃない……。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+では、同行してくださるんですね？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaDepth D 3]
+[charaDepth B 0]
+
+[charaTalk depthOff]
+
+[charaTalk off]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+[charaFace B 1]
+[charaFadein B 0.1 -900,0]
+
+[charaMove B -100,0 0.5]
+[wait charaMove]
+[se ad111]
+[charaShake D 0.05 3 3 0.5]
+[wt 0.5]
+
+[charaTalk on]
+
+＠イリヤ
+……よかったぁエレナさん！
+[k]
+
+[charaFace D 2]
+[charaShake D 0.05 3 3 0.5]
+＠エレナ
+なっ、抱きつかないで！　離しなさい！
+[k]
+
+[charaTalk off]
+
+[charaFace B 0]
+[charaMove B 2 0.5]
+[charaMove D 0 0.5]
+[wait charaMove]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[charaFace D 5]
+＠エレナ
+あたしは、未熟な魔法少女のバッドエンドを[r]確認しに行くだけなのだから。それだけよ？
+[k]
+
+＠エレナ
+[line 3]よくって？
+[k]
+
+
+＠イリヤ
+うんっ。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_32 2.0]
+[wait fade]
+[soundStopAll]
+[end]

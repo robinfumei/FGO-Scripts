@@ -1,0 +1,67 @@
+
+＄01-00-05-11-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 1019001 1 ラーマ]
+[charaSet B 3005002 1 エリザベート]
+
+[scene 20803]
+[fadein black 2]
+[wait fade]
+
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠エリザベート
+ふぅ、楽勝楽勝！[r]アナタ、まだ大丈夫？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠ラーマ
+……何とか、な。今、不安なのはシータと[r]巡り会えるかどうか、だけだ。
+[k]
+
+[charaFace B 0]
+＠エリザベート
+あら。こっちが必死に戦ってるときに、[r]自分の奥さんのこと考えてたワケ？
+[k]
+
+[charaFace A 3]
+＠ラーマ
+た、戦えないから仕方なかろう！[r]余だって、戦いたいのだ！
+[k]
+
+[charaFace B 1]
+＠エリザベート
+いえ、逆よ逆。いいわ。すごくいい。[r]ナンパな王子かと思ったけど、素敵な王子様だったのね。
+[k]
+
+＠エリザベート
+よーし、気合い入ったわ！　あんな雑魚は任せて。[r]必ず、アナタを奥さんに会わせてあげる！
+[k]
+
+[charaFace B 0]
+＠エリザベート
+でも、その代わりに会ったらまず謝るのよ？[r]女の子はみんな、自分を必要だと思われたいんだから。
+[k]
+
+[charaFace A 4]
+＠ラーマ
+う、うむ……。[r]そうだな。謝ることができれば……いいな。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

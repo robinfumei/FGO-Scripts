@@ -1,0 +1,273 @@
+＄01-00-04-08-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21410 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 6007003 1 ハイド]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+一通りは倒したか[line 3][r]いや、待て、まだ来るか……！
+[k]
+
+[se ad14]
+[wt 1.5]
+＠Dr.ロマン
+まだまだ来るとも！[r]どうにも地形的に分が悪すぎる戦闘だねこれは！
+[k]
+
+＠Dr.ロマン
+敵は際限なくやってくる！[r]対して、こちらは一カ所を守り続けなきゃいけない！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+現状はともかく、長引けば危険です。[r]マスター！
+[k]
+
+？1：まだ退けない！
+
+？2：もう少しだけ踏ん張って！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+……了解しました、マスター。[r]戦闘継続します！
+[k]
+
+[seStop ad14 0.4]
+[wt 0.5]
+＠アンデルセン
+もう少しだけ頼むぞ、[%1]！[r]今、一番いいところだ。ここで退いては意味がない。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace 2 0]
+[charaFadein D 0.1 1]
+＠シェイクスピア
+多勢に無勢！　まさに正義の戦いには相応しい[r][#状況:シチュエーション]ではありますが、しかし[line 3]
+[k]
+
+[charaFace 2 4]
+＠シェイクスピア
+流石に数が多いと言わざるを得ませんね。[r]吾輩、そろそろ魔力が尽きます。実は尽きています。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠モードレッド
+な[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠ジキル
+……ああもう、仕方ない。[r]これはできれば避けておきたかったんだけどな。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+[line 3]は？[r]おい、ジキルおまえ、何を通路に出てんだよ！
+[k]
+
+[charaFace E 2]
+＠モードレッド
+魔術師崩れがどうにかなるかよ、[r]さっさと書庫に戻ってろ！
+[k]
+
+[charaFace G 0]
+＠ジキル
+言っただろ。[r]奥の手があるって。
+[k]
+
+[se ad51]
+[wait se ad51]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ？？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ジキルさん、それは[line 3]
+[k]
+
+[charaFace G 1]
+＠ジキル
+霊薬だよ。僕の[#特製]のね。[r]これを、こうして……こういう風に……打ち込むと……
+[k]
+
+[se ad46]
+[wait se ad46]
+[se ad53]
+[wait se ad53]
+＠Dr.ロマン
+な、何だ！？[r]そこに奇妙な魔力反応が突然発生してるよ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ[line 2]ウ！！[r]キャウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk G]
+[charaSet G 6007003 1 ジキル]
+[charaFace G 0]
+[charaFadein G 2 1]
+＠ジキル
+ははッ[line 3]
+[k]
+
+[charaFace G 1]
+＠ジキル
+ひひひ、ははははははははははははははッ！[r]ひっさしぶりに表に出たぜェ！　俺様ちゃん参上ォ！！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+はァ！？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……！[r]……！？
+[k]
+
+？1：誰？
+
+？2：ジキル……さん？
+
+？！
+
+[charaFace A 15]
+＠マシュ
+はい、ジキルさん……ヘンリー・ジキル氏です！[r]ですが、これではまるで[#小説に在る通り]の変貌を……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ハイド
+俺は[#ハイド]だ！！[r]気に入らねえ奴は殺す、邪魔な奴は殺す、殺す殺す殺す！
+[k]
+
+[charaFace F 1]
+＠ハイド
+ひゃッはははははははははははははははははァ！[r]殺してやるぞォォ！　ヘルタースケルターよォ[line 2]！！
+[k]
+
+[messageOff]
+[se bac1]
+[charaFadeout F 0.1]
+[wait se bac1]
+[wt 1]
+[se bac5]
+[flashin once 0.1 0 FFFFFF80 00000000]
+[shake 0.05 0 5 0.1]
+[wait se bac5]
+[se bac5]
+[flashin once 0.1 0 FFFFFF80 00000000]
+[shake 0.05 0 5 0.1]
+[wait se bac5]
+[se bac4]
+[flashin once 0.2 0.2 FFFFFF80 00000000]
+[shake 0.05 0 5 0.3]
+[wait se bac4]
+[wt 0.5]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+……一目散に敵へ襲い掛かっていきやがった。[r]まるでバーサーカーだな、やるじゃねーか！
+[k]
+
+＠Dr.ロマン
+霊薬による変貌か。なるほど、まさしくジキルとハイド！[r]しかし物理的変容をもたらすなら、負荷も凄い筈だ！
+[k]
+
+＠Dr.ロマン
+あんまり長時間は保たないと思うから、[r]やっぱりアンデルセンは早く資料を読み切ってくれ！
+[k]
+
+＠アンデルセン
+十二分にわかっている。[r]そう急かすな。
+[k]
+
+＠アンデルセン
+読書というものはだな、自分のペースで行うべきだ。[r]そう、ひとり、こうして静かな部屋でゆっくりと[line 3]
+[k]
+
+＠アンデルセン
+ん。静かではないな。[r]外の騒がしさがやけに聞こえてくる。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+わかってねーじゃねーかっ！[r]いいから急げ！
+[k]
+
+[charaFace E 5]
+＠モードレッド
+……くそっ。盾ヤロウ、ジキルに続くぞ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+はいっ。[r][line 3]先輩！
+[k]
+
+？1：連携を取りつつ、深追い禁物！
+
+？2：ハイドさんに深追いさせないように！
+
+？！
+
+＠マシュ
+了解、マスター！　戦闘を継続します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

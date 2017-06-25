@@ -1,0 +1,41 @@
+＄94-00-18-80-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 6017001 1 カーミラ]
+
+[scene 20901]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 3]
+＠カーミラ
+……はい、どーぞ。
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[charaFace A 5]
+＠カーミラ
+はあ？[r]「八連双晶ありがとう」ですって……？
+[k]
+
+[charaFace A 2]
+＠カーミラ
+違うわよ！　チョコよ！[r]どうしてかこうなったけどチョコよ！
+[k]
+
+＠カーミラ
+いいから食べなさい！[r]さもなくば男女関係なくファントムメイデン行きよ！
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

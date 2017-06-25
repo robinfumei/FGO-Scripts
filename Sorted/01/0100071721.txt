@@ -1,0 +1,105 @@
+
+
+
+＄01-00-07-17-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1 0.7]
+[charaSet A 98107800 1 ラフム]
+[charaSet B 3028000 1 ジャガーマン]
+[charaSet C 8001002 1 マシュ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 2020001 1 イシュタル]
+
+[se ad162]
+[seVolume ad162 0 0.2]
+[scene 32700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.2]
+[charaMoveReturn A 0,10 0.4]
+＠ラフム
+[line 3]。[r][line 3]、[line 3]…………！
+[k]
+
+[messageOff]
+[se ad110]
+[charaMove A -64,0 0.4]
+[charaFadeout A 0.4]
+[wt 1.4]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ジャガーマン
+おかしなラフムね？[r]結局、何もしないまま逃げちゃったわ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+＠マシュ
+はい。今までのラフムとは違いました……。[r]ラフムにも性格に個体差があるのでしょうか……
+[k]
+
+？1：両手をあげて威嚇をしたぐらい、だよね……
+？2：…………いや、そんな筈は…………
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+しかし、無抵抗でもラフムはラフムだ。彼らは群体、[r]超感覚でそれぞれの情報を共有している節がある。
+[k]
+
+＠Dr.ロマン
+この先、隠密行動ができなくなっては[r]キミたちの身が危ない。追い掛けてトドメを、
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠イシュタル
+…………やめて。[r]あのラフムはいいわ。広場に急ぎましょう。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace C 12]
+[charaFadein C 0.1 2]
+＠マシュ
+イシュタルさん？[r]あの……何か？
+[k]
+
+[charaFace E 8]
+＠イシュタル
+いいから！　一刻の猶予もないんでしょう！？[r]ダブスタで悪いけど、もう様子を見ている状況じゃないわ！
+[k]
+
+＠イシュタル
+広場に突入するわよ！[r]何もかも、手遅れになる前に……！
+[k]
+
+
+[messageOff]
+[seStop ad162 1.4]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 0.9]
+[wait fade]
+[soundStopAll]
+[end]

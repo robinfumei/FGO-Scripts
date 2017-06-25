@@ -1,0 +1,126 @@
+＄01-00-06-23-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet D 98086000 1 ホームズ]
+
+[scene 21410]
+
+[fadein black 2.0]
+[wait fade]
+[se ad118]
+[wt 2.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠ベディヴィエール
+しかし、複雑な構造をしていますね。[r]学院というより迷宮です。
+[k]
+
+＠ベディヴィエール
+しかも、降りていく分には道は二つほどにしか[r]分かれていませんが、振り返ると三叉路になっている。
+[k]
+
+[charaFace B 5]
+＠ベディヴィエール
+だまし絵のような作りです。[r]これでは、まるで[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+そう、[#外に出る者を迷わせる]構造だ。[r]入るのは容易いが出る事は許さない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠マシュ
+盗難防止……にしては発想が逆ですね。[r]なぜそのような構造をしているのでしょう。
+[k]
+
+[charaFace D 3]
+＠ホームズ
+外から来る者より中から出るものを恐れていたのさ。
+[k]
+
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ホームズ
+アトラス院は天才たちの集団だ。[r]彼らはそれぞれ独立した工房で各々の研究に没頭した。
+[k]
+
+＠ホームズ
+ここでは何のタブーもない。[r]どれほど非人道的な兵器を作っても咎めはない。
+[k]
+
+[charaFace D 5]
+＠ホームズ
+ただし一つだけ条件がある。[r][#ここで作られたものを、決して外に持ち出さない]。
+[k]
+
+[charaFace D 0]
+＠ホームズ
+それがアトラス院の大原則だ。[r]彼らは二千年以上、そのルールを頑なに守ってきた。
+[k]
+
+＠ホームズ
+例外があるとしたら、それはアトラス院創立時に[r]作られたという七枚の契約書だ。
+[k]
+
+＠ホームズ
+この契約書を持つ者に対してのみ、[r]アトラス院は特例の協力を約束するという。
+[k]
+
+＠ホームズ
+歴代の院長にとっては頭の痛い話だったろう。[r]なにしろご先祖様が勝手にした契約だ。
+[k]
+
+＠ホームズ
+西暦2000年までに四枚まで契約書を回収したというが、[r]あとの三枚の行方はようとして知れない。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[messageOff]
+[flashin loop 0.7 1 FF000080 00000000]
+[se ad9]
+[wt 1.0]
+[seStop ad9 2.0]
+
+[bgm BGM_EVENT_3 0.1]
+[wt 2.0]
+
+[charaFace D 1]
+＠ホームズ
+おっと、話の途中だが防衛装置のお出ましだ諸君！[r]迅速な対処を期待するよ。
+[k]
+
+
+
+[messageOff]
+[flashout 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

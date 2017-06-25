@@ -1,0 +1,508 @@
+＄94-00-12-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 98007000 1 ジャンヌオルタ]
+[charaSet A 98012000 1 ピエールＤ]
+
+[scene 20322]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+ついにこの時が来たな、[%1]。[r]今夜が最後の、そして最高の仕事になる。
+[k]
+
+[charaFace D 5]
+＠サンタオルタ
+「お願いサンタさん」、[r]最後のお手紙は住所不定のオルタちゃん。
+[k]
+
+＠サンタオルタ
+呪いの淵に這いずる悪のサーヴァント……[r]つまり、私の同類だ。
+[k]
+
+[charaFace D 0]
+＠サンタオルタ
+プレゼント希望は[r]『みんなで仲良く遊べるボードゲーム』。
+[k]
+
+＠サンタオルタ
+ニホンにある双六のようにダイスを振って自分の[#分身:コマ]を[r]進ませ、ひたすらボード上の土地を買い占めるゲームだ。
+[k]
+
+＠サンタオルタ
+プレイヤーは土地を買い、やれ通行料だ使用料だと[r]他プレイヤーから資産をむしり取り、億万長者を目指す。
+[k]
+
+＠サンタオルタ
+ゲームのクリア条件は多々あるが、基本的には目標金額に[r]到達するか、他プレイヤーを全て破産させること。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+そんなゲームを求めるサーヴァントがこの下にいる。[r]楽しくなってきただろう？
+[k]
+
+[charaFace D 0]
+＠サンタオルタ
+では行くぞ。[r]笑顔を忘れず、祈りを忘れず、嗜虐を忘れず。
+[k]
+
+＠サンタオルタ
+悪のサンタクロースとして、[r]最後の大仕事をやり遂げるのだ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad2]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[wt 0.5]
+[seStop ad2 0.5]
+[scene 21805]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+[se ad54]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+待たせたな[r]華々しいジングルと共にサンタクロースの登場だ！
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_CHRISMAS_1 0.1]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠ジャンヌオルタ
+[line 3]最悪。[r]ほんと最悪。私にとって最低最悪の女が来るなんて。
+[k]
+
+？1：ジャンヌ・ダルクのオルタさん……！？
+
+[charaFace E 3]
+＠ジャンヌオルタ
+まあ。下卑たサーヴァントだけかと思えば、[r]貴方もいたのね[%1]。
+[k]
+
+[charaFace E 1]
+＠ジャンヌオルタ
+心の綺麗なマスターちゃんが、[r]堕ちた女に何のようがあると言うのかしら？
+[k]
+
+？2：す、素敵なクリスマスの飾り付けですね！
+
+[charaFace E 2]
+＠ジャンヌオルタ
+どこが？[r]この程度の飾り付けのどこが豪華だって言うの！？
+[k]
+
+[charaFace E 4]
+＠ジャンヌオルタ
+これは亡霊たちが勝手にやったものよ。[r]私の趣味じゃないわ。私なら火炙り模様にしているもの。
+[k]
+
+[charaFace E 3]
+＠ジャンヌオルタ
+それともなに、アナタが私の藁人形になってくれるの[r][%1][&クン:チャン]？
+[k]
+
+＠ジャンヌオルタ
+張り付けにされて、ぼうぼうに燃える藁人形。[r]いいわね。そそるわ。
+[k]
+
+＠ジャンヌオルタ
+いつぞやの借りもそれで帳消しにしてあげる。[r]だって死んじゃうんだから、貸し借りも何もないものね！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+私のマスターにかみつくな狂犬。[r]手紙を送ったのは貴様自身だろうに。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+フッ[line 3]差出人の名前を見た時は驚いたぞ。[r]正なるものへの憎しみだけで固まった女が願い事とは。
+[k]
+
+＠サンタオルタ
+それはそれとして、字体はたいへん読みやすかった。[r]貴様、物書きはできないのではなかったか？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+勉強したのよ。悪い？　だってみっともないでしょ、[r]あんなミミズがのたくったような字。吐き気がするわ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+ほう。気にくわないものは全て排斥する貴様らしい。
+[k]
+
+＠サンタオルタ
+ところで、なぜみっともないのだ。[r]別にいいだろう、誰に見せる訳でもなし。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+フッ、考えが足りないのね。私は完璧主義です。[r]ほら、契約する時に汚い字だったら[line 3]
+[k]
+
+[charaFace E 4]
+＠ジャンヌオルタ
+……この話はここまでよ。
+[k]
+
+[charaFace E 0]
+＠ジャンヌオルタ
+で。なんでアンタが[#聖人:サンタ]名乗ってるのよ。[r]本物連れてきなさいよ、本物。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+貴様の目は節穴か、それともドブ川か？[r]私はこれまで幾多のプレゼントを配ってきた者。
+[k]
+
+＠サンタオルタ
+聖人にあらずとも、もはや一人前のサンタクロースだ。[r][%1]の信頼がその証拠。
+[k]
+
+＠サンタオルタ
+もともとは貴様にプレゼントを叩きつけるために[r]始めた事だが、今では私の本職の一つだ。
+[k]
+
+[charaFace D 0]
+＠サンタオルタ
+聖人にはなれないが、かといって偽物ではない。[r]そうだな、我がトナカイよ。
+[k]
+
+？1：サンタオルタは立派なサンタさんだよ
+
+[charaFace D 1]
+＠サンタオルタ
+まさしく。私はともかく、[%1]の[r]言ならば否定はしまい、黒いジャンヌよ？
+[k]
+
+？2：サンタオルタは歴戦のサンタさんだよ
+
+[charaFace D 3]
+＠サンタオルタ
+そこは立派なサンタさん、と言うのだバカもの。[r]いや、間違いではないが。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+ハ[line 3][r]そう。それは手の込んだ嫌がらせね、ご苦労さま！
+[k]
+
+[charaFace E 3]
+＠ジャンヌオルタ
+おおかた、私がひとり淋しく過ごしているとでも[r]思ったのでしょう？
+[k]
+
+＠ジャンヌオルタ
+でもざぁーんねん。私は毎日楽しいわ。
+[k]
+
+＠ジャンヌオルタ
+愉快なお友達ならこの通り、[r]両手にあまるほど捕まえているのだから！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaSet A 98012000 1 ピエールＡ]
+[charaSet B 98012000 1 ピエールＢ]
+[charaSet C 98012000 1 ピエールＣ]
+[charaSet D 98012000 1 ピエールＤ]
+[charaSet E 98012000 1 ピエールＥ]
+[charaSet F 98012000 1 ピエールＦ]
+[charaSet G 98012000 1 ピエールＧ]
+[charaDepth A 1]
+[charaDepth B 2]
+[charaDepth C 1]
+[charaDepth D 3]
+[charaDepth E 1]
+[charaDepth F 2]
+[charaDepth G 1]
+
+[charaFace B 1]
+[charaFace D 1]
+[charaFace F 1]
+[charaFace C 1]
+[charaFace E 1]
+[charaTalk off]
+[charaFadein B 0.4 0]
+[charaFadein D 0.4 1]
+[charaFadein F 0.4 2]
+[wt 0.4]
+[charaFadein C 0.4 3]
+[charaFadein E 0.4 5]
+[wt 0.4]
+＠ピエールＡ～Ｇ
+「たすけてー」「たすけてー」「たすけてー」[r]「たすけてー」「たすけてー」「たすけてー」
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 98007000 1 ジャンヌオルタ]
+[charaSet A 98012000 1 ピエールＤ]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+亡霊の群だと……！？[r]貴様、まさかそれで[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+そう、楽しくボードゲームをしているのです！[r]ゲームはいいわ。とくにこのゲームは最高！
+[k]
+
+[charaFace E 3]
+＠ジャンヌオルタ
+弱者はひたすら弱者の道を進み、[r]強者はひたすら弱者から搾取する[line 3]
+[k]
+
+＠ジャンヌオルタ
+泣きわめく他プレイヤー達から血も肉も[r]奪い取っていく感覚はたまらないものがあります。
+[k]
+
+[charaFace E 1]
+＠ジャンヌオルタ
+そう[line 3]私はいま、圧倒的に資産第一位！[r][#独占:モノポリー]が楽しいのよ、[#独占:モノポリー]が！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+む？　言うほどの差ではないようだが……[r]一位と二位の差は一万ドル程度の[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ピエールＤ
+「たすけてー」
+[k]
+
+[se ad7]
+[wait se ad7]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+！
+[k]
+
+？1：いま逆転されましたよ
+？2：……ジャンヌはピエールに百万ドル払う……
+
+？！
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+[wt 0.1]
+[se ad44]
+[wait se ad44]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+あらごめんなさい。手が滑ったわ。[r]やり直しよ、残念だったわね！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ピエールＤ
+「たすけてー！」
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+……なんと邪悪な。[r]貴様、何も反省していないな？
+[k]
+
+＠サンタオルタ
+このままだと最後までトモダチができないぞ？[r]サーヴァント化も夢のまた夢だろうに。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+はん。サーヴァント化なんてこっちから願い下げよ。
+[k]
+
+＠ジャンヌオルタ
+マスターなんていらないわ。[r]っていうか、今さらどの面さげてそっちに付くのよ。
+[k]
+
+[charaFace E 0]
+＠ジャンヌオルタ
+……私はひとりでいい。ひとりでいいのです。[r]私の贖罪は私ひとりで行うべきもの。
+[k]
+
+＠ジャンヌオルタ
+誰かの手など[line 3]ましてや私をうち倒した忌々しい[r][%1]の手なんて、誰が借りるものですか。
+[k]
+
+？1：……ジャンヌ・オルタちゃん……
+
+[charaFace E 3]
+＠ジャンヌオルタ
+あら、同情？　それとも軽蔑かしら？[r]どっちでもいいわ。とにかく目障りよ、アナタ。
+[k]
+
+？2：でもゲームはちゃんとやらないと……
+
+[charaFace E 4]
+＠ジャンヌオルタ
+失礼ね、私は公正なプレイヤーよ！[r]っていうかこの状況で太いわねアナタ！？
+[k]
+
+＠ジャンヌオルタ
+今のはジャンヌルールその３、ジャンヌは三回まで[r]色々やっていい、の権利を行使しただけよ！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+何を言っても無駄か……やはり、[r]一度戦うしかないようだな。
+[k]
+
+[bgmStop BGM_CHRISMAS_1 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+望むところよ。ピエールズ、準備をなさい。[r]たまには鬱憤を晴らしたいでしょう？
+[k]
+
+＠ジャンヌオルタ
+アイツらを好きになぶりなさい。生前、私に試練を[r]与えたあの時のように、丁寧に、執拗に！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+ふん……ところで、先ほどから気になっているのだが。[r]いつもの聖女口調を忘れていないか、貴様？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ジャンヌオルタ
+あら、忘れていませんよ？　これは今だけのものです。[r]だって、高尚な言葉だと貴女が困るでしょう？
+[k]
+
+＠ジャンヌオルタ
+分からない？　可哀想だから合わせてあげているのよ。[r]無骨で粗暴な貴女にちゃーんと通じるようにね！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+それは辛かろう。心労、察してやろう。[r]その苛立ちは私にも分かる。
+[k]
+
+＠サンタオルタ
+なぜなら、私も貴様のレベルに合わせていたからな。[r]先ほどから口元がつり上がって仕方がない。
+[k]
+
+？1：つまり仲良しってコトですね……！
+？2：二人はオルタちゃん……！
+
+？！
+
+[charaFadeout E 0.1]
+[charaTalk off]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠サンタオルタ／ジャンヌオルタ
+相変わらず一言多いな、貴様は！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[charaTalk on]
+[soundStopAll]
+[end]

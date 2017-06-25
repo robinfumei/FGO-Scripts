@@ -1,0 +1,111 @@
+
+＄94-00-18-03-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 5007001 1 シェイクスピア]
+[charaSet B 2001001 1 エミヤ]
+[charaSet C 3002001 1 ディルムッド]
+[charaSet D 1013001 1 カエサル]
+
+[scene 10720]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠エミヤ
+くっ、ここまでか……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+＠シェイクスピア
+思想は高潔でしたが、多少の邪念は入り混じってましたな。[r]そこが敗北の一因かと。
+[k]
+
+＠エミヤ
+意識した覚えはないのだが[line 2]。
+[k]
+
+？1：どーゆーこと？
+？！
+
+＠シェイクスピア
+エミヤ殿はその気になれば、[r]チョコを作ることなど簡単なのです。
+[k]
+
+＠シェイクスピア
+マスターが誰からもチョコを貰えない、[r]というのもそれはそれでマスターの体裁が悪いので、
+[k]
+
+＠シェイクスピア
+イベントが終わる直前にでも、『保護者からでは[r]些か不服だろうが』などと言ってチョコを渡す、と。
+[k]
+
+[charaFace A 3]
+＠シェイクスピア
+そういう綺麗なオチで締めるつもりだったのですよ。
+[k]
+
+＠エミヤ
+もらえない人間の悲哀は、オレ……私もそれなりによく[r]理解しているのでね……
+[k]
+
+＠エミヤ
+あまった材料で作ったチョコだが、[r]それでもないよりはマシだろうと……
+[k]
+
+？1：おかんチョコ……
+
+[charaFace A 0]
+＠シェイクスピア
+バレンタインにおける、最終保険の類ですな。[r]まあマスターの場合はＫさんとかいるのですが！
+[k]
+
+？2：やったーチョコだ！
+
+[charaFace B 3]
+＠エミヤ
+そうか、喜んでもらえるのなら嬉しいが……[r]それこそ余計な世話、だったか……フッ。
+[k]
+
+？！
+
+[charaFace A 4]
+＠シェイクスピア
+……ところでエミヤ殿。[r]あそこにいる赤いセイバーはお知り合いですか？
+[k]
+
+[charaFace B 4]
+＠エミヤ
+赤セイバー？[r]別に呼んだ覚えはないのだが[line 2]。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk D]
+[charaFilter D silhouette 00000000]
+[charaFadein D 0.4 1]
+[wt 0.7]
+＠？？？
+私　だ　！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

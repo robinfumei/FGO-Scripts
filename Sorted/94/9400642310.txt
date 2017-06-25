@@ -1,0 +1,352 @@
+＄94-00-64-23-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_32 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 5028001 1 イリヤ]
+[charaSet D 5023000 1 エレナ]
+[charaSet F 98104000 1 クーちゃん]
+
+
+[backEffect bit_talk_diremond_dust]
+
+[scene 20304]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+呆れてましたね、ロマニ先生。
+[k]
+
+＠イリヤ
+わたしとルビーのせいで……[r]ごめんなさい……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いえ、イリヤさんが気に病む事はありません。[r]ロマニ・アーキマンはカルデアの司令代理です。
+[k]
+
+＠マシュ
+本当に危険だと判断していれば、[r]強制移動を実行しているでしょう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それをしなかったという事は、ドクターも[r]この事変の重要性を認めている、という事です。
+[k]
+
+？1：そうそう
+？2：どちらかというと、あれは[#拗:す]ねてた
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。今回はいつにも増して[#蚊帳:かや]の外ですから。[r]帰還の際、改めてお礼を言いましょう。
+[k]
+
+[charaFace B 6]
+
+＠イリヤ
+（……と語りつつ、マシュさん自身も[r]　ちょっぴり拗ねているような……）
+[k]
+
+[charaFace A 0]
+＠マシュ
+とにかく定時連絡の時間まで、[r]カルデアとの連絡手段は無くなってしまいました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+イリヤさんに同行する選択をした以上、[r]一層、気を引き締めていかないと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+いつまで落ち込んでるの、二人とも。[r]もうすぐ国境付近よ。
+[k]
+
+[charaFace B 3]
+
+＠イリヤ
+（ちょ、直球だ～！！）
+[k]
+
+＠エレナ
+[%1]、あなたも[r]マスターならしっかり。
+[k]
+
+[charaFace D 0]
+＠エレナ
+疑似的に、魔法少女の関係を再現してるとしても、[r]心まで[#守護獣:おとも]になった訳じゃないんでしょう。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_32 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[scene 21810]
+
+[wt 1.0]
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+[se ad78]
+[wt 0.5]
+
+？1：着いた……！
+？！
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ここが……メイヴさんの王国……？
+[k]
+
+＠イリヤ
+見た目ほど寒くはないのが、[r]たしかに魔法の国っぽい……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+これが別の機会でしたら、[r]とても美しい景色なのですが[line 3]
+[k]
+
+[charaFace A 14]
+＠マシュ
+[line 3]いえ、違います！？　わたしたちは[r]『お菓子の国』へ向かっていたはずです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+そ、そうでしたっ！[r]あ[charaFace B 4]れっ、なんで？？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+ちったぁ頭でモノ考えろ。[r]単に此処が『[#雪華とハチミツの国]』[#になった]だけじゃねえか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace B 2]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+……ッ……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+領土の移譲。[#魔力供給源:リソース]の再分割だ。珍しかぁねえよ。[r]ふざけた国名にはうんざりだがな。
+[k]
+
+
+？1：メイヴの[#守護獣:おとも]……！
+？！
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+おかげでオレが見張る城門前の空き地も[r]ずいぶんと広くなった。
+[k]
+
+[charaFace F 1]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+あいにくメイヴは留守だ。[r]噛み殺すのは[#番犬:オレ]だけだ。感謝しな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+あの[#守護獣:おとも]の強さは破格よ……っ。[r]使い魔のくせに魔法生物まで召喚する。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+おう。辛気くせぇと思えば、アンタかよエレナ。[r]書庫の[#紙魚:しみ]を数えるのも飽きたってか？
+[k]
+
+[charaFace F 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+なら、ますます[#励:はげ]まねえとだ。[r]メイヴいわく、軍団創成の第一歩だとよ。
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+始まっちまったもんは仕方ねえ。[r]後腐れ無くだ。
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+いまさらメイヴに[r]手心を加えさせるわけにいくか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+……メイヴが、そんな[#躊躇:ためら]いを覚えるような女かしら。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+？1：カルデアへ兵を送り込んだのは、[&きみたちか:あなたたち]？
+？！
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+ほう……。[r]メイヴめ、ついに届いたんだな。
+[k]
+
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+……そうか。
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+なら、ファースト・レディの力を奪うまでもねえ。[r]メイヴのやり方で、やれるとこまでだ。
+[k]
+
+
+？1：すでに敵地の中にいる……ってことは？
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、先輩[line 3][r]戦闘中に女王メイヴが言っていました。
+[k]
+
+＠マシュ
+わたしの攻撃がまた届かない可能性が……っ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+そうだな。[r]あんたの力は半減だ。悪く思うなよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+くっ……[r]それでも、出来ることはあります！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.1]
+
+[se bac65]
+[fowardEffect bit_talk_tornado01]
+
+[wt 0.8]
+[charaChange A 8001001 7 fade 0.5]
+[wait charaChange A]
+
+[wt 1.0]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……っ……マシュさん……[r]わたしが、頑張らないと……！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[backEffectStop bit_talk_diremond_dust]
+[soundStopAll]
+[end]
+

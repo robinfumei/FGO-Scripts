@@ -1,0 +1,1185 @@
+
+
+
+＄01-00-07-09-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3009001 1 レオニダス]
+[charaSet E 3009001 1 レオニダス2]
+[charaSet F 98106900 1 ティアマト]
+[charaSet G 98106000 1 エルキドゥ]
+[charaDepth D 1]
+[charaDepth E 0]
+
+[scene 34600]
+[fadein black 2.0]
+[wait fade]
+[charaScale F 1.01]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ティアマト
+……必死だな。[r]不思議と軽んじたのは、私の過ちだったようだ。
+[k]
+
+＠ティアマト
+六つの特異点を越えるだけの[#膂力:りょりょく]はある。[r]一息で崩す事に、いささかの躊躇いを覚える程には。
+[k]
+
+[charaFace F 3]
+＠ティアマト
+[line 3]だが貴様らは殺されねばならぬ。[r]我らの手で、子の一人にいたるまで殺されねばならぬ。
+[k]
+
+＠ティアマト
+血肉をまき散らし、冥府にて獣どもに[#啄:ついば]まれよ！[r]貴様らに殺された全ての命が、そうしろと叫んでいる！
+[k]
+
+[bgm BGM_EVENT_24 0.4 0.5]
+[se bac72]
+[effect bit_talk_41]
+[messageOff]
+[fadeout white 0.25]
+[wait fade]
+[charaFadeout F 0.1]
+[effectStop bit_talk_41]
+[se ad197]
+[seVolume ad197 0 0.25]
+
+[charaTalk D]
+[charaFace D 2]
+[seStop ad197]
+[charaFadein D 0.1 1]
+＠レオニダス
+ぬかせぃ化け物！[r]力を以て事を成すなどペルシア王だけで十分！
+[k]
+
+＠レオニダス
+苦情、主張があるのならまず話し合い！[r]その為ならば我ら三百兵、一丸となって機を刻もう！
+[k]
+
+[charaEffect D bit_talk_21]
+＠レオニダス
+行くぞ[se ad153][seVolume ad153 0 0.25]友よ、[#魂:いのち]を此処に[line 3]！[r][#炎門のぉ、守護者:テルモピュライィ・エノモタイア]ァァァア！
+[k]
+
+[messageOff]
+[se ad81]
+[seStop ad153 0.5]
+[wt 2.0]
+
+[charaFace D 5]
+[fadein white 1.5]
+[wt 1.0]
+[charaEffectStop D bit_talk_21]
+[wait fade]
+
+[bgm BGM_EVENT_24 0.4]
+
+[wt 0.4]
+[charaFace D 0]
+＠レオニダス
+フゥゥゥゥゥゥウ[line 6]
+[k]
+
+＠レオニダス
+……よろしい。[r]何とか、間に合ったよう、ですな[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+レオニダス王……！[r]城門から駆けつけてくれたのですね！
+[k]
+
+[bgmStop BGM_EVENT_24 0.4]
+
+[charaFace A 6]
+＠マシュ
+[line 3]嘘。そんな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+
+[bgm BGM_EVENT_5 0.1]
+
+[se ad198]
+[charaFadein D 0.1 1]
+[charaFadein E 0.1 1]
+[wt 0.4]
+[charaChange D 98106800 0 fade 0.7]
+[wt 0.1]
+[se ad148]
+[wt 0.4]
+＠レオニダス
+……致し方ありません。[r]我らが盾は、ただ頑丈なだけの盾。
+[k]
+
+＠レオニダス
+綺羅星の如き英雄たちが持つものとは違います。[r]当然、防げるのは物理だけです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[messageOff]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+＠レオニダス
+ですが、物理的な熱線であれば返せるというもの。[r][line 3]骨身に染みましたかな、ギリシャの古き女神。
+[k]
+
+＠レオニダス
+かつて女神アテナによってその身を怪物に変えられ、[r]人々に迫害され、多くの英雄を殺したもの。
+[k]
+
+＠レオニダス
+形のない島の三姉妹のなれの果て[line 3]いえ。[r]複合神性、大魔獣ゴルゴーンよ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet F 98107000 1 ティアマト]
+[charaScale F 1.01]
+[messageOff]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[se ad137]
+[wt 1.0]
+＠ティアマト
+……レオニダス王か。[r]我が熱視を返し、忌まわしい名を口にしたな。
+[k]
+
+＠ティアマト
+だが、御身であればこれ以上の罪は問わん。[r]棄てられながら、何一つ捨てなかった炎の王よ。
+[k]
+
+＠ティアマト
+せめて勇者として砕け散れ。[r]人の世の終わりを見ぬまま、な。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaSet E 98106800 1 レオニダス2]
+
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFadein E 0.1 1]
+＠レオニダス
+[line 3]ふ。それは有り得ない。[r]我が魂同様、人の世は不滅なれば。
+[k]
+
+[wt 0.2]
+[messageOff]
+[charaChange D 98106810 0 fade 1.5]
+[se ad148]
+[wt 1.2]
+[charaFadeout E 0.1]
+[wt 0.7]
+[charaSpecialEffect D erasure 1 1.7]
+[se ad149]
+[wait charaSpecialEffect D]
+[wt 2.0]
+
+[charaSet F 98106900 1 ティアマト]
+[charaScale F 1.01]
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ティアマト
+それこそ有り得ぬ。[r]もはや人間の世界は終わる。
+[k]
+
+[charaFace F 3]
+＠ティアマト
+最強の守りである貴様が、[r]こうして無駄死にしたのだから！
+[k]
+
+＠ティアマト
+声をあげよ、魔獣たちよ！[r]もはや刻限を待つまでもない！
+[k]
+
+＠ティアマト
+私自らがウルクに攻め入り、王を殺す！[r]憎しみのまま、逃げ延びた人間どもを蹂躙するがいい！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[charaFadeout F 0.1]
+
+[messageOff]
+[se ad21]
+[se ad23]
+[wt 0.5]
+[bgm BGM_EVENT_24 0.1]
+[wt 1.5]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+な、あのティアマト、いや女神ゴルゴーンか！？[r]ああもうややこしい！
+[k]
+
+＠Dr.ロマン
+あれほど[%1][&君:ちゃん]を[r]狙っていたのにもう見向きもしないぞ！？
+[k]
+
+＠Dr.ロマン
+このまま、魔獣たちと一緒に進軍する気だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠マーリン
+……残念だがそのようだね。[r]レオニダス王の言葉で冷静になってしまったか……
+[k]
+
+＠マーリン
+人間だって足下の蟻に気はとめないものだ。[r]あの女神はこのままウルクを目指すだろう。
+[k]
+
+＠マーリン
+それを止める術は、今の私たちにはない。[r]このまま、気まぐれで踏み潰されないよう祈るぐらいだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+そんな……そんな事は……！
+[k]
+
+＠マシュ
+牛若丸さん、レオニダス王に助けられたのに、[r]わたしたちには何もできないなんて……！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_24 0.7]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠エルキドゥ
+お待ちください。[r]それは短気にすぎませんか、母上。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ティアマト
+なに？
+[k]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠エルキドゥ
+ボクらにとってウルク攻めなぞ途中経過にすぎない。[r]真の問題は人間ではなく他の女神でしょう？
+[k]
+
+＠エルキドゥ
+ウルクを落とせば同盟は破却される。[r]第二世代は、その後に来る戦いの備えです。
+[k]
+
+＠エルキドゥ
+鮮血神殿で誕生を待つ十万の子供たち。[r]彼らの誕生まで、女神同盟は続けなくては。
+[k]
+
+[charaFace G 7]
+＠エルキドゥ
+それに、このような結末では[#溜飲:りゅういん]が下がりません。[r]……人間はゆっくり苦しめるべきです。
+[k]
+
+＠エルキドゥ
+彼らは獣たちから土地を奪い、子を奪い、[r]母上を迫害し、何もかもを忘れ去った[line 3]
+[k]
+
+＠エルキドゥ
+憎しみの炎とは、相手がいなければ燃えぬもの。[r]貴女の憎悪を、こんな簡単に棄てていい筈がない。
+[k]
+
+[charaFace G 5]
+＠エルキドゥ
+……母上はもはやギリシャの女神ではない。[r]このメソポタミア世界の神、ティアマト神の化身なのです。
+[k]
+
+＠エルキドゥ
+ですので、どうかお考えを。[r]御身の鮮血神殿に戻られよ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ティアマト
+…………。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[shake 0.05 0 5 0.7]
+[se ad34]
+[se ad57]
+[wt 0.7]
+[seStop ad57]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ティアマト
+……我が息子の[#寛容:かんよう]に感謝するのだな、人間ども。[r]だが滅びの運命は変わらぬ。
+[k]
+
+＠ティアマト
+これより十の夜明けの後、我らはウルクを滅ぼす。[r]命が惜しくば地の果てまで逃げるがいい。
+[k]
+
+[charaFace F 0]
+＠ティアマト
+逃げられれば、の話だが。[r]神殿に息づく我が魔獣の数は十万を超える。
+[k]
+
+＠ティアマト
+人類はただ殺すだけでは飽き足らぬ。[r]せいぜい自分だけは、と[#励:はげ]むがいい。
+[k]
+
+[charaFace F 3]
+＠ティアマト
+恐怖に溺れ、同胞を蹴落とし、疑心に狂い[line 3][r]人獣に身を落とした後、惨たらしく殺してやろう……！
+[k]
+
+[charaMove F 0,-100 0.4]
+[se ad10]
+[charaFadeout F 0.4]
+[shake 0.05 0 6 0.4]
+[wt 0.4]
+
+[messageOff]
+[shake 0.05 0 4 0]
+[se ad14]
+[wt 2.5]
+[seStop ad14 1.5]
+[shake 0.05 0 2 0.5]
+[wt 1.5]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.4 1]
+＠エルキドゥ
+……ふう。なんとか帰ってくれたか。[r]聞き分けのない親を持つと苦労する。
+[k]
+
+＠エルキドゥ
+これは人間もボクらも変わらない。子は親を選べない[r]からね。そう思わないかい、[%1]？
+[k]
+
+？1：どういうつもり[&だ:]……？
+
+？！
+
+[charaFace G 7]
+＠エルキドゥ
+どういうつもりも何も、キミたちを助けてあげたのさ。[r]流石に、これで終わりは呆気ないだろう？
+[k]
+
+＠エルキドゥ
+母上にとってキミたちは駆除すべき害虫であり、[r]注意を払うのは他の女神だ。
+[k]
+
+＠エルキドゥ
+そして他の二柱の女神は、[r]どうも人間を有効利用しようとしている節がある。
+[k]
+
+＠エルキドゥ
+だから人間を皆殺しにしてしまうと、[r]二柱の女神たちが本気になってしまう可能性が高い。
+[k]
+
+＠エルキドゥ
+ボクはティアマト神に仕えるもの。[r]だから万全を期して、もう少し人間を生かしておくのさ。
+[k]
+
+？1：[&おまえ:アナタ]は何者な[&んだ:の]？
+
+？！
+
+[charaFace G 7]
+＠エルキドゥ
+ああ、それももう隠す必要がないね。[r]ボクも魔獣同様、母に作られた存在だ。
+[k]
+
+＠エルキドゥ
+母を棄てたキミたち旧人類を滅ぼし、[r]キミたちにかわって世界を統べるヒトのプロトタイプ。
+[k]
+
+＠エルキドゥ
+原初の女神、偉大なるティアマトに作られた新人類。[r]その真名を、[#キングゥ]と言う。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+キングゥ……！
+[k]
+
+＠Dr.ロマン
+創世神話において、[r]ティアマト十一の子供たちを率いた神の名か……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 1]
+＠G：キングゥ
+そう。でも生まれ変わりとか、[r]そんな馬鹿げた話じゃない。
+[k]
+
+[charaFace G 5]
+＠G：キングゥ
+キングゥ神はマルドゥーク神を恐れ、[r]逃げ出した失敗作だ。再利用する必要性がまるでない。
+[k]
+
+[charaFace G 7]
+＠G：キングゥ
+けどボクは違う。神々の最高傑作であるエルキドゥを[r]モデルにして作られた完全な存在[line 3]
+[k]
+
+＠G：キングゥ
+完璧な、[#次の人間]としてデザインされた。
+[k]
+
+[charaFace G 1]
+＠G：キングゥ
+なのでここに保証しよう。[r]人類は滅びない。人理はここから再開される。
+[k]
+
+＠G：キングゥ
+キミたち人間が衰退した後、ボクが次のヒトとなる。[r]キミたちの歴史はボクたちが受け継ごう。
+[k]
+
+[charaFace G 8]
+＠G：キングゥ
+だから安心して滅びるがいい。[r]無に還る歓びが、キミたちに与えられた最期の救いだ。
+[k]
+
+[messageOff]
+[wt 0.4]
+[charaSpecialEffect G erasureReverse 1 0.1]
+[charaEffect G bit_talk_21]
+[se ad73]
+[wt 0.1]
+[charaEffectStop G bit_talk_21]
+[wt 0.7]
+[se ad136]
+[wt 0.7]
+[seStop ad136 0.8]
+[wt 2.0]
+
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+[charaSet D 3006001 1 弁慶]
+[charaSet E 4014001 1 牛若丸]
+[charaSet F 98106000 1 キングゥ]
+[charaSet G 98107500 1 ウルク兵士]
+[charaSet H 98016000 1 ウルク兵士]
+[wt 2.5]
+[scene 32930]
+[bgm BGM_EVENT_11 0.1]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠G：ウルク兵士
+レオニダス様が……この北壁を守り続けた指揮官が、[r]亡くなられてしまった……
+[k]
+
+＠G：ウルク兵士
+魔獣たちは増える一方……[r]そして敵はティアマト神……
+[k]
+
+＠G：ウルク兵士
+ついに終わりだ……[r]あと十日で、メソポタミアは崩壊する……
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠弁慶
+…………ここにおられましたか。[r]レオニダス殿は……やはり、逝かれましたか。
+[k]
+
+＠弁慶
+…………拙僧も[#暇:いとま]をいただきます。[r]ギルガメッシュ王には期待に添えず済まない、と。
+[k]
+
+？1：弁慶、どうして！？
+
+[charaFace D 4]
+＠弁慶
+……拙僧は……いや、私はまた、同じ事を繰り返した。
+[k]
+
+？2：……牛若丸の事……
+
+[charaFace D 4]
+＠弁慶
+……如何にも。
+[k]
+
+？！
+
+[charaFace D 4]
+＠弁慶
+あの魔獣の女神が現れた時、[r]義経様は脇目もふらず貴方がたを救わんと駆けだした。
+[k]
+
+＠弁慶
+しかし、私には出来なかった。[r]……義経様に追いつけなかったのではない。
+[k]
+
+＠弁慶
+踏み出す足が一瞬、止まったのです。
+[k]
+
+＠弁慶
+あの女神には敵わない。[r]勝てる相手ではないと自らを守ってしまった。
+[k]
+
+＠弁慶
+その結果、私はまたも義経様を一人で送り出してしまった。[r]最期の戦いに向かう主君から逃げ出したのです。
+[k]
+
+＠弁慶
+……やはり私は武蔵坊に及ばぬ臆病者。[r]もはや、戦う意義を見いだせませぬ。
+[k]
+
+[se ad173]
+[charaFadeout D 0.7]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+[seStop ad173 0.7]
+＠マシュ
+そ、そんな事はありません！[r]わたしたちには弁慶さんの力が必要です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 0]
+[charaDepth A 1]
+[charaTalk D]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.4 0]
+＠弁慶
+………それは買いかぶりというもの。
+[k]
+
+＠弁慶
+私のような愚か者は荒野で魔獣どもと戦い、[r]野垂れ死ぬのが相応しい末路でござろう……
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad173]
+[seStop ad173 2.5]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+…………弁慶さん、行ってしまいました…………。[r]牛若丸さんが戦われた、ニップル市の跡に……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マーリン
+そのようだね。彼の脱落は戦力的に痛いが、[r]本人にやる気がないのではしょうがない。
+[k]
+
+＠マーリン
+魂の抜けた死人に戦え、と言う方が愚かだ。[r]今は戦えない戦士より、戦える戦士を探さないとね。
+[k]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 14]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 1]
+＠マーリン
+そう怖い顔しない。[r]私だって弁慶殿の心情は理解できる。
+[k]
+
+＠マーリン
+でも、あそこを見てごらん。
+[k]
+
+[bgmStop BGM_EVENT_11 0.7]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[scene 34500]
+[wt 0.4]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：ウルク兵士
+ばかもの、何を塞ぎ込んでいるっ！[r]ティアマト神は去ったが魔獣どもはまだ残っている！
+[k]
+
+＠H：ウルク兵士
+であればやる事は一つ！[r]生存者を確認し、負傷者を救護し、隊を再編する！
+[k]
+
+＠H：ウルク兵士
+城壁を防ぎ、武器を整え、筋肉を鍛える！[r]それが、レオニダス殿が我らに叩き込んだ日常である！
+[k]
+
+[charaMove H 0,-10 0.5]
+＠H：ウルク兵士
+う、ぐっ……！[charaMove H 0,0 0.4][wt 0.4][r]あの方は、如何なる時も弱音を吐かなかった！
+[k]
+
+＠H：ウルク兵士
+どのような死地、どのような劣勢でも[r]“自分に出来る事”を放棄しなかった！
+[k]
+
+＠H：ウルク兵士
+“何も空を飛べ、などと言っているのではありません。[r][f small]  [f -]煉瓦を手に取り、ここに並べる”
+[k]
+
+＠H：ウルク兵士
+“それは誰にでもできて、最も重要な事なのです”[r]あの方は！　それを最期までやり通した！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠G：ウルク兵士
+それは……それは……[r]……そうだ。そうだな。それがここの誇りだった。
+[k]
+
+＠G：ウルク兵士
+レオニダス殿だけの誇りじゃない。[r]オレたち全員の誇りだった……！
+[k]
+
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_3 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：ウルク兵士
+そうだとも！[r]では、今すぐ部隊を再編する！
+[k]
+
+＠H：ウルク兵士
+あの怪物に溶かされたのは城壁の一部だ。[r]内側の工作班を引っ張り出して修復工事！
+[k]
+
+＠H：ウルク兵士
+技術者には今回の顛末を包み隠さず打ち明けろ！[r]再度の襲来に備え、対策を立てなければならん！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[scene 32930]
+[wt 0.4]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+
+＠マシュ
+[line 3]皆さん。[r]あんなに塞ぎ込んでいたのに、もう……！
+[k]
+
+[charaFace C 1]
+＠マーリン
+ああ。彼らだって恐怖を飲み込んで立ち上がっている。[r]私たちだって塞ぎ込む訳にはいかない。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+……そうだね。[r]あんなものを見せられて挫けない人たちがいるんだ。
+[k]
+
+＠Dr.ロマン
+あの武蔵坊弁慶が、[r]そんな彼らを見て立ち上がらない筈がない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+ああ。今は時間が必要なだけで必ず復帰するだろう。
+[k]
+
+＠マーリン
+それまでこちらはこちらで対策を進めなくてはね。[r]まずはキャスパリーグが転移させたアナと合流する。
+[k]
+
+＠マーリン
+その後はウルクに戻ってギルガメッシュ王に報告だ。[r]今回失ったものも大きいが、得たものも大きい。
+[k]
+
+[charaFace C 0]
+＠マーリン
+魔獣の女神の真名と、その正体。[r]その息子を名乗るキングゥ。そして魔術王の聖杯の在りか。
+[k]
+
+＠マーリン
+これだけの情報があれば次の手も考えられる。[r][line 3]状況はようやく折り返しだ。
+[k]
+
+[charaFace C 1]
+＠マーリン
+ここまでやられてばかりだったが、[r]そろそろ反撃の[#狼煙:のろし]をあげよう。
+[k]
+
+＠マーリン
+そうだろう、カルデアの[%1]？[r]後半に盛り返すのがキミ流の戦いだと見てきたが？
+[k]
+
+？1：[line 3]もちろん、ここからです……！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！　お供します、マスター！
+[k]
+
+？2：出来れば序盤から勝ちたいです……！
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ははは。それはこっちも気が楽になるけど、[r]その為にはもうちょっと、
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]には[r]成長してもらわないとね！
+[k]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_4 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 2.0]
+
+[scene 32500]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.7]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+＠牛若丸
+……ここは……私は、まだ消えていないのか……[r]体は無事だ。しかし手足は……
+[k]
+
+[se ad199]
+[charaShake E 0.05 3 3 0.25]
+[wt 0.7]
+[se ad199]
+[charaShake E 0.05 3 3 0.25]
+[seStop ad199 0.7]
+[wt 1.0]
+
+[charaFace E 4]
+＠牛若丸
+……壁と一体化しているのか。[r]これでは逃げる事も、死ぬ事もできないが……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+＠G：？？？
+[FFFFFF]？　この先？　この先に行けばいいの？[-][r]そうすれば外に出られるの？
+[k]
+
+＠F：？？？
+そうだ。神殿を出た先には湖がある。[r]黒い杉じゃなく、普通の杉を目印に行けばいい。
+[k]
+
+＠F：？？？
+その後は知らない。[r]けど、十日ぐらいなら湖に残っていれば生き残れる。
+[k]
+
+＠F：？？？
+魔獣に見つからないよう街を目指すか、[r]湖で最後を迎えるかは、キミたちの自由だ。
+[k]
+
+＠G：？？？
+……うん。ありがとう、お兄ちゃん。[r]もし良かったら会いに来てね。
+[k]
+
+[se ad59]
+[seVolume ad59 0 0.5]
+[seStop ad59 1.5]
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠牛若丸
+今のは……
+[k]
+
+[se ad60]
+[seVolume ad60 0 0.5]
+[seVolume ad60 0.7 0.9]
+[wt 0.7]
+[seStop ad60 0.4]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠キングゥ
+おや。もう目が覚めたのかい？[r]さすがはサーヴァント、頑丈さは魔獣並だ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠牛若丸
+緑の髪、美しい顔立ち……貴様がエルキドゥか。[r]こうして顔を見るのは初めてだ。
+[k]
+
+＠牛若丸
+しかし醜悪な風景だ。ここが貴様らの本拠地だと[r]いうのなら、私を捕虜にしたのは[#その為]か？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠キングゥ
+理解が早くて助かるよ。[r]見ての通り、ここは『工場』だ。
+[k]
+
+＠キングゥ
+ティアマトの魔獣はみな一つの母体から生まれる。[r]でも、それだと限界があるだろう？
+[k]
+
+[charaFace F 3]
+＠キングゥ
+より多くの数、より多くの種類を望むのなら、[r]それだけ大きな『母胎』が必要になるものだ。
+[k]
+
+＠キングゥ
+この神殿はそうやって出来あがった。
+[k]
+
+[charaFace F 7]
+＠キングゥ
+肉ひとつで出来る魔獣はウリディンムが三体ほど。[r]一方、ウガルを作りたければ肉が三つ必要になる。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠牛若丸
+……なるほど。[r]ティアマトの子供たちと言っておきながら、酷いものだ。
+[k]
+
+＠牛若丸
+何しろ兵隊ですらなかった。[r]貴様にとっては、使い捨ての道具でしかなかった訳だ。
+[k]
+
+[messageOff]
+[se bac6]
+[charaPut D 0,-60]
+[charaEffect D bit_talk_12]
+[wt 0.2]
+[charaShake E 0.05 3 3 0.7]
+[wt 0.2]
+[se ad46]
+[wt 0.1]
+[charaEffect E bit_talk_35]
+[wt 0.7]
+
+[charaFace E 5]
+＠牛若丸
+ぐっ……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠キングゥ
+ああゴメン、手が勝手に動いてしまった。[r]内臓をこぼしてしまったけど大丈夫かな？
+[k]
+
+＠キングゥ
+うんうん。お互い不注意が過ぎてしまったね。
+[k]
+
+＠キングゥ
+ボクは簡単に動くこの腕を。[r]キミは生意気なその口の利き方に気をつけよう。
+[k]
+
+[charaFace F 0]
+＠キングゥ
+もっとも、もうじきキミも『彼ら』と同じになる。
+[k]
+
+＠キングゥ
+そのお腹に卵を植え付ければ、[r]手足から少しずつ変わっていく。
+[k]
+
+＠キングゥ
+脳だけは最後まで変わらないのがせめてもの救いだ。[r]最後の瞬間まで自分を認識できるんだから。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠牛若丸
+ほう。貴様も、その母上とやらも頭が悪いと見える。[r]自我を最後まで残すなど、下策も下策。
+[k]
+
+＠牛若丸
+魔獣に成りはてた手足を用い、[r]最後の一秒まで造反する者が後を絶たなかったろうに。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠キングゥ
+ああ、その通りさ。[r]でも心配には及ばない。
+[k]
+
+＠キングゥ
+素材になったモノは、末端から溶けていくからね。[r]最終的にはウジのような手足になる。
+[k]
+
+＠キングゥ
+そうしてドロドロの液体になった後、[r]キミたちは各魔獣の調整槽に投入される。
+[k]
+
+＠キングゥ
+造反はいくらでもしていい。[r]脳内で精一杯の妄想として。それぐらいの夢は与えるよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠牛若丸
+[line 4]そうか。[r]その割りには甘いようだが。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠キングゥ
+なに？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠牛若丸
+子供だけなぜ逃がした。[r]与えるのは夢だけではなかったか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠キングゥ
+価値観の違いさ。[r]ボクには母上のような怨念はない。
+[k]
+
+＠キングゥ
+ボクが殺すものは脅威だけだ。人間の兵士を殺すのは[r]彼らがボクにとって脅威になり得るからだ。
+[k]
+
+＠キングゥ
+けど幼い個体……子供はまだ脅威にはなりえない。[r]だから、[#ここで殺す理由がない]。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠牛若丸
+しかし、[#生かす理由もなかろう]。
+[k]
+
+＠牛若丸
+意識はしておらずとも、貴様はあの幼子の救いを[r]求める声を聞き、これに応えた。
+[k]
+
+[charaFace E 1]
+＠牛若丸
+人類の敵が呆れたものだ。[r]外道を気取っておきながら非道になりきれない。
+[k]
+
+＠牛若丸
+そのような者をなんと言うか知っているか？[r]愚かな道化と、戦場で笑われるのだ。
+[k]
+
+[charaFadeout E 0.1]
+
+[messageOff]
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+[wt 1.5]
+
+[charaFace F 5]
+＠キングゥ
+……そうか。[r]どうやらキミには特別、重い処置が必要なようだ。
+[k]
+
+＠キングゥ
+卵を植え付けるのは止めにするよ。[r]その代わり、キミには母さんの所に行ってもらおう。
+[k]
+
+＠キングゥ
+ティアマト神の真なる権能は“生命の海”。[r]その海に落ちたものは“元のまま”ティアマトの子供になる。
+[k]
+
+＠キングゥ
+サーヴァントであれ例外はない。[r]言ってしまえば霊基を汚染する黒い泥さ。
+[k]
+
+＠キングゥ
+原初の生命。混沌の海。[r]魔術世界においては聖杯の泥と呼ばれるもの。
+[k]
+
+＠キングゥ
+これを、魔術王はケイオスタイドと名付けていた。
+[k]
+
+[charaFace F 7]
+＠キングゥ
+楽しみになってきたよ牛若丸。[r]キミは一体、どんな怪物にされるのだろうね？
+[k]
+
+[wt 0.2]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

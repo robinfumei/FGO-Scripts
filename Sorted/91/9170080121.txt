@@ -1,0 +1,44 @@
+＄91-70-08-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7008001 1 ベオウルフ]
+[charaSet D 98006000 1 グレンデル]
+[charaSet E 9001001 1 ジャンヌ]
+[charaSet F 1005001 1 ネロ]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 98016000 1 兵士Ａ]
+
+[scene 20602]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+また逃げたか。いいか、嬢ちゃん。[r]この城内で今度出会った者は何であれ信用するな。
+[k]
+
+＠ベオウルフ
+同時に、誰と出くわそうとも驚くな。[r]あれは記憶を読み取る力がある。
+[k]
+
+＠ベオウルフ
+次に来るときは、俺たちの知っている人間を[r]装うはずだ。
+[k]
+
+[charaFace C 0]
+＠ベオウルフ
+覚悟しろよ、色々と辛いからな。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_5 0.1]
+[wait fade]
+[soundStopAll]
+[end]

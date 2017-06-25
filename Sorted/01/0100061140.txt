@@ -1,0 +1,204 @@
+＄01-00-06-11-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 1009001 1 モードレッド]
+
+[scene 10000]
+[fadein black 0.4]
+[wait fade]
+
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[se ad32]
+[wait se ad32]
+
+[fadeout black 0.1]
+[wait fade]
+
+[charaPut A 0,100]
+[cameraMove 0 0,-25 1.15]
+
+[charaEffect A bit_talk_41]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+[scene 28600]
+[fadein black 2.0]
+[wait fade]
+
+＠モードレッド
+[line 3]！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.2 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0 1]
+[wipein rightToLeft 0.2 1]
+[wait wipe]
+
+＠ベディヴィエール
+くぅ[line 3]！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.4]
+[wipeout circleOut 0.1 1]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[charaEffectStop A bit_talk_41]
+[wt 0.1]
+[wipein circleIn 0.1 1]
+[shake 0.05 3 6 0.3]
+[se ad32]
+[wt 0.7]
+[cameraMove 0.25 0,0 1.0]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+敵円卓の騎士、強力です……！[r]少しでも油断すると宝具を展開されます……！
+[k]
+
+＠マシュ
+今は、ベディヴィエールさんが妨害していますが、[r]このままではいずれ……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+たいそうな義手じゃねえか！[r]大口叩いた自信はそいつかよ！
+[k]
+
+＠モードレッド
+チキン野郎、そんなもん何処で手に入れやがった！？[r][#円卓:オレたち]の記憶にねえぞ、んなモン！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……記憶にない、か。……それはどうかな。[r]貴方の鳥頭では思い出せないだけかも、ですよ？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+[line 3]オレの頭がボンクラだって言いたいのか？[r]いや、言ってたよな。前からテメエはそう言ってた。
+[k]
+
+＠モードレッド
+思い上がるなよベディヴィエール。[r]テメエはただ、余った席に座っただけの軟弱騎士だ。
+[k]
+
+＠モードレッド
+アグラヴェインが早死にしなけりゃあ、[r]テメエが王のお付きになるなんて事もなかった。
+[k]
+
+＠モードレッド
+テメエは！　ただアーサー王の覚えが良かっただけの！[r]オレ以下の騎士じゃねえか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……ええ、その通りです。[r]私は他の騎士たちに遠く及ばない。
+[k]
+
+＠ベディヴィエール
+精霊の加護もなく、太陽の加護もなく、[r]天賦の才も持ち合わせず……。
+[k]
+
+＠ベディヴィエール
+並み居る一介の騎士に過ぎなかった。[r]そんな私を、王は最期まで頼ってくれた。
+[k]
+
+＠ベディヴィエール
+その恩に報いる為に、私はこの腕を得たのです。[r]大魔術師マーリンより賜った、この[#ヌァザの腕]を。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+最期まで[line 3]最期まで、だと？
+[k]
+
+＠モードレッド
+いいぜ、テメエはここでブチ殺す！[r]肉の一片たりとも残さねえ！
+[k]
+
+＠モードレッド
+王にはテメエがいた事すら伝えるものか！[r]アーサー王の最期を、テメエなんぞにくれてやるか！！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+[line 3]我が魂を燃やして走れ、銀の光。
+[k]
+
+＠ベディヴィエール
+……私の忠義も、貴方の忠義も共に同じ。
+[k]
+
+＠ベディヴィエール
+かつては正しくあったものの、[r]今はその根底が歪んでいる。
+[k]
+
+[charaFace D 2]
+＠ベディヴィエール
+モードレッド。我らが仇敵にして我が同胞。[r]その苦しみを、今の私は理解できる。
+[k]
+
+＠ベディヴィエール
+だからこそ全力で斬り伏せよう！[r][#剣を摂れ、銀色の腕:スイッチオン・アガートラム]！
+[k]
+
+[messageOff]
+[se ad39]
+[flashin once 0.7 0.4 C0C0C0AF C0C0C000]
+[wt 1.3]
+[se bac66]
+[wt 0.7]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+うるせぇ！[r]テメエに！　オレの何が！　分かるものか[line 3]ッ！！
+[k]
+
+
+[messageOff]
+
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

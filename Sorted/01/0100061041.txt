@@ -1,0 +1,346 @@
+＄01-00-06-10-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_25 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 6002001 1 呪腕のハサン]
+[charaSet G 98081000 1 難民の男性]
+[charaSet H 2013000 1 アーラシュ]
+
+[scene 29100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+ふー……いやあ、これは参った。[r]参ったな、実に。
+[k]
+
+＠呪腕のハサン
+これほどの戦力、見逃してはそれこそ初代様に首を[r]落とされよう。“節穴の目であれば髑髏もいるまい”と。
+[k]
+
+[charaFace E 0]
+＠呪腕のハサン
+[%1]殿。マシュ殿。[r]そしてベディヴィエール卿。
+[k]
+
+＠呪腕のハサン
+こちらからお願いしたい。[r]どうか我々と共に戦ってはもらえぬか。
+[k]
+
+＠呪腕のハサン
+報酬は何も約束できぬが[line 3]“山の翁”の名にかけて、[r]必ずや貴殿たちを獅子王の元に送り届けよう。
+[k]
+
+？1：こちらこそ、お願いします
+？2：それは最高の報酬だ！
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アーラシュ
+話は決まったな。俺はてっきり、[%1]が[r]村に来た時点で仲間だと思っちまったが……
+[k]
+
+＠アーラシュ
+互いに立場ってもんがある。[r]とくに“山の翁”であるハサンの兄さんはな。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+改めて名乗らせていただこう。[r]私はハサン・サッバーハ。
+[k]
+
+＠呪腕のハサン
+この地で生まれた教団の頭目なれど、[r]今は暗殺を生業として生きる者。
+[k]
+
+＠呪腕のハサン
+我らの教団の頭はみな、“[#山の翁:ハサン]”を襲名する。[r]偉大なりし初代の名を預かるのだ。
+[k]
+
+＠呪腕のハサン
+一時代にひとりしかおらぬハサンだが、今はこのような[r]状態。私以外にも“山の翁”は召喚された。
+[k]
+
+＠呪腕のハサン
+みな暗殺者の矜持を捨てこのように姿を現し、[r]指導者としてそれぞれの村を守っている。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+ご丁寧にありがとうございます。
+[k]
+
+＠マシュ
+改めて、マシュ・キリエライトです。[r]どうかよろしくお願いします。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+円卓の騎士、ベディヴィエールです。
+[k]
+
+＠ベディヴィエール
+[line 3]感謝します、ハサン殿。[r]私のようなものを信用していただいて。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠呪腕のハサン
+……良いのです。[r]いや、むしろ私こそ意固地でした。
+[k]
+
+＠呪腕のハサン
+ベディヴィエール卿は聖都正門にて、[r]我らの民のために立ち上がってくれた。
+[k]
+
+＠呪腕のハサン
+獅子王に肉薄する、という己の目的を捨ててまで。[r]その徳を信じずして、何を信じましょう。
+[k]
+
+[charaTalk D]
+[charaFace D 3]
+[wt 1.0]
+
+[charaFace D 1]
+＠ベディヴィエール
+ありがとう、ハサン・サッバーハ。[r]義に厚い山の翁よ。私には、あまりに勿体ない言葉です。
+[k]
+
+[charaFace E 2]
+＠呪腕のハサン
+はっはっは。いや、礼には及びませんとも。[r]なにしろ卿を信じるのは私だけ。
+[k]
+
+＠呪腕のハサン
+他のハサンたちがどう考えるかまでは[r]保証できませんからなぁ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+（このハサン、メチャクチャ話の分かる人だぞ！？）
+[k]
+
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+それでは我々の作戦本部に案内いたしましょう。
+[k]
+
+＠呪腕のハサン
+なに、今はもぬけのカラですが、あと数日すれば[r]各地に散った同士たちが集まってきます故。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アーラシュ
+ああ。少数だが精鋭と呼べる戦力だ。[r]聖都奪回にはまだまだ数が足りないがねぇ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠ベディヴィエール
+……元軍属の方たちですが。[r]それでも彼らは人間だ。
+[k]
+
+＠ベディヴィエール
+獅子王の加護を受けた粛正騎士、[r]ましてや円卓の騎士たちとは[line 3]
+[k]
+
+[charaFace H 4]
+＠アーラシュ
+ああ、とても戦えないだろう。[r]そのあたりは俺たちがどうにかするしかない。
+[k]
+
+＠アーラシュ
+サーヴァントにはサーヴァントだ。[r]そうだろ、呪腕の兄さん？
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+然り。その為にこの呪腕、できるかぎりの“山の翁”に[r]招集をかけていたのだが……
+[k]
+
+＠呪腕のハサン
+震管のハサンはランスロットに敗れ、[r]影剥のハサンはガウェインに敗れた。
+[k]
+
+＠呪腕のハサン
+我らの中でも秀でた暗殺術を誇る煙酔のハサンが[r]呼びかけに応じてくれればよいのだが……
+[k]
+
+？1：本当にいっぱいいるんですね
+
+[charaFace E 1]
+＠呪腕のハサン
+無論、我ら山の翁、初代様から始まり、[r]十八代まで続いた教団ですからな！
+[k]
+
+？2：……煙酔って、もしかして……
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……ハサンさん。[r]その、ここに来るまでの話なのですが……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[scene 29100]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+＠呪腕のハサン
+…………そうでしたか。[r]あの煙酔のハサンが、そのように。
+[k]
+
+＠呪腕のハサン
+……戦いは消耗戦になる。[r]獅子王と事を構えるべきではない、と……
+[k]
+
+＠呪腕のハサン
+そう言って私とは道を[#違:たが]えた男でしたが……[r]最期に、私の名をあげるとは。
+[k]
+
+＠呪腕のハサン
+……感謝しますぞ、[%1]殿。[r]あやつの無念、確かに受け取り申した。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_25 0.7]
+＠G：難民の男性
+頭目！　頭目[line 2]！
+[k]
+
+[charaFace E 4]
+＠呪腕のハサン
+おや？　あの声は山頂部の見張り役ですな。[r]……何かあったと見えますが……
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠難民の男性
+呪腕の頭目、たいへんだ！[r]西の村から[#狼煙:のろし]があがっている！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+なにぃ……！？[r]色は！？　色はなんと出ているのだ！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠アーラシュ
+……チ、敵襲だぜありゃあ！[r]西の村が敵に見つかっちまったらしい！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+＠呪腕のハサン
+っっっっっ！[r]敵の旗は！？　敵の旗は見えぬかアーラシュ殿！
+[k]
+
+＠アーラシュ
+[line 3]赤い竜と、その首を断ち斬る赤い稲妻[line 3][r]この紋章に見覚えはあるか、呪腕殿。
+[k]
+
+＠呪腕のハサン
+おお[line 3]おおおぉお！[r]まずい、皆殺しにされるぞ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+王の首を狙うと公言する旗はただひとつ[line 3][r]円卓の騎士、遊撃騎士モードレッド……ッ！
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 0.9]
+[wait fade]
+[wt 0.3]
+[soundStopAll]
+[end]

@@ -1,0 +1,74 @@
+
+＄94-00-18-59-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 5001001 1 メディア]
+
+[scene 20501]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 5]
+
+＠メディア
+あらマスター。物欲しそうな顔をしてどうしたの？[r]お腹でも空かせているのかしら？
+[k]
+
+＠メディア
+私のマスターともあろう者が、くだらないイベントに[r]浮かれてうろうろ彷徨っている……なんてないわよね？
+[k]
+
+＠メディア
+………………………………。
+[k]
+
+[wt 1.0]
+
+[bgmStop BGM_EVENT_5 0.1]
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace A 0]
+＠メディア
+なーんて、ウソよ、ウソ♡
+[k]
+
+＠メディア
+バレンタインデーでしょう、分かってるわ。[r]アナタが可愛いから、ちょっと意地悪してみたの。
+[k]
+
+[charaFace A 1]
+＠メディア
+はいどうぞ、つまらないものですが。
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+＠メディア
+チョコレートの錬成なんて初めてだったけど、[r]栄養素と幸運上昇だけは保証するわ。
+[k]
+
+[charaFace A 4]
+＠メディア
+え……？　バレンタインのチョコはそういうマジック[r]アイテムじゃなくて、愛情がとにかく大事なもの……？
+[k]
+
+[charaFace A 3]
+＠メディア
+そ、それは当然でしょ。[r]できるだけ感謝をこめて作ったのだもの。
+[k]
+
+＠メディア
+言うまでもない事ですけど、[r]アナタは私の、大切な[&弟:妹]分なんだから。
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

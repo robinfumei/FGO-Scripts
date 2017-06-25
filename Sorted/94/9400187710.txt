@@ -1,0 +1,53 @@
+＄94-00-18-77-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 5017001 1 メディア・リリィ]
+
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 0]
+＠メディア・リリィ
+マスター、こちらチョコレートです。
+[k]
+
+＠メディア・リリィ
+ささやかではありますが、[r]日頃の感謝の気持ちと受け取ってくださいますか？
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[charaFace A 3]
+＠メディア・リリィ
+え？　手作りにしては凝っている、ですか？[r]まるで市販の高級チョコのようだ……？
+[k]
+
+＠メディア・リリィ
+…………。[r]あの…………照れてしまいます…………
+[k]
+
+＠メディア・リリィ
+…………でも、嬉しいです。[r]わたしの魔術でも、よろこんで貰えるんですね……
+[k]
+
+[charaFace A 2]
+＠メディア・リリィ
+はい！　メディア、気合いが入りました！[r]来年を覚悟、いえお待ちくださいマスター！
+[k]
+
+＠メディア・リリィ
+仲良しの魔女の名にかけて、もっとも[line 3]っと、[r]高級なチョコを錬成してみせますねっ！
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

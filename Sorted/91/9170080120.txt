@@ -1,0 +1,184 @@
+＄91-70-08-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7008001 1 ベオウルフ]
+[charaSet D 98006000 1 グレンデル]
+[charaSet E 9001001 1 ジャンヌ]
+[charaSet F 1005001 1 ネロ]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 98016000 1 兵士Ａ]
+
+[scene 20522]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+ちっ……仕留め損なったか！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+い、今のはキメラでは……！？
+[k]
+
+[charaFace C 4]
+＠ベオウルフ
+グレンデルはその状況に応じて姿を変形させる[r][#不定形の魔獣]だ。
+[k]
+
+[charaFace C 0]
+＠ベオウルフ
+だからこそ、敵を追尾するこの『[#赤原猟犬:フルンディング]』が[r]必要だったのさ。
+[k]
+
+[charaFace C 2]
+＠ベオウルフ
+追うぞ、ついてこい！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 20602]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[wt 0.2]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠ベオウルフ
+さて、ここは……。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠兵士Ａ
+た、助けて……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あれは……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠兵士Ａ
+助けてくれ……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+待って下さい、今……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+止まれ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+！？
+[k]
+
+[wt 0.2]
+[charaFace A 14]
+＠マシュ
+な、何故です[line 2]！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+……下らねぇ三文芝居は止めろ、グレンデル。[r]『[#赤原猟犬:フルンディング]』が噛みつきたくてうずうずしてんだよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠？？？
+……。[r]……。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[charaShake H 0.05 5 5 0.4]
+[se ad19]
+[wait se ad19]
+
+[wt 0.7]
+
+[charaFadeout H 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+な、偽者[line 2]！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+そういうこった！[r]行くぞ、マスター。あれは人間じゃねえ、遠慮は無用だ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

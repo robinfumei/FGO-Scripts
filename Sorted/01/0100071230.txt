@@ -1,0 +1,367 @@
+
+
+
+＄01-00-07-12-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 3028000 1 ジャガーマン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 3027000 1 アナ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 98106200 1 マーリン]
+[charaSet F 2020001 1 イシュタル]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠ジャガーマン
+さあ、着いたニャ！[r]この密林のヴェールの向こうがエリドゥ！
+[k]
+
+＠ジャガーマン
+たった二十メートル突き抜けた先に、[r]ククルんの[#神気:デス気]をギュンギュンに感じるわ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マシュ
+……太陽が空の頂点から落ち始めて、もう二時間。[r]現代時間でいうところの午後三時に相当します。
+[k]
+
+＠マシュ
+女神ケツァル・コアトルはウルクを襲撃し、[r]もう戻ってきてしまったようですね……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アナ
+……厄介です。こちらの作戦はケツァル・コアトルと[r]戦闘に入る前に、彼女の神殿の機能を止める事。
+[k]
+
+＠アナ
+ケツァル・コアトルが帰還している以上、[r]この順番は逆になります。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ケツァル・コアトルを弱体化させる為には、[r]まず彼女を撃破しないといけない、という矛盾だね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マーリン
+ふむ。密林の移動は私たち素人には困難なものだ。[r]移動にほぼ半日使ってしまったのは仕方がない。
+[k]
+
+＠マーリン
+後は作戦決行のタイミングだ、[%1]君。
+[k]
+
+＠マーリン
+ここでもう一夜明かし、ケツァル・コアトルが[r]ウルクに向かうのを待つか、
+[k]
+
+＠マーリン
+今から彼女の隙をうかがって神殿に侵入するか。[r]キミの判断は？
+[k]
+
+？1：……時間は残り少ない
+？2：……ウルクにこれ以上の犠牲は出せない
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アナ
+……ゴルゴーン襲来まで今日をいれてあと五日。[r]明日になれば四日です。
+[k]
+
+＠アナ
+……確かに、[r]時間を短縮するに越した事はありませんが……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+わたしはマスターの意見に賛成です。[r]敵本陣への侵入はどうあれ危険を伴います。
+[k]
+
+＠マシュ
+万全を期したところで、女神ケツァル・コアトルからの[r]妨害はあるものと考えていましたから……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 0]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+＠イシュタル
+どうせ邪魔されるなら自分で仕掛けたいってコトね。[r]おとなしそうな顔でガッツあるわね、マシュ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マーリン
+だそうだ。ドクター・ロマン、そちらの首尾は？[r]エリドゥの構造は把握できるかな？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、それは任せて。[r]エリドゥの作りはウルクに近い。
+[k]
+
+＠Dr.ロマン
+住民たちの建物の奥に巨大な建築物があるのが分かる。[r]ジグラットほど複雑じゃないが、これが神殿だろう。
+[k]
+
+＠Dr.ロマン
+マシュが[%1][&君:ちゃん]を抱えて、[r]住宅地を全速で抜ければ神殿までは十分もかからない。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+しかし、神殿前には強力な魔力反応がある。[r]間違いなくケツァル・コアトルだ。
+[k]
+
+＠Dr.ロマン
+いま、この時間に神殿に奇襲をかけるなら、[r]彼女との戦闘は避けられないだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジャガーマン
+ん？　何か問題、それ？
+[k]
+
+＠ジャガーマン
+マシュちゃん、幼女、とっぽい兄ちゃんにイシュタルさん、[r]そして偉大なるジャガーマン。
+[k]
+
+＠ジャガーマン
+これだけのメンバーならククルんを[r]押し止める事ぐらいはできるんだから、
+[k]
+
+＠ジャガーマン
+その隙に[%1]サンには神殿を[r]駆け上ってもらって、太陽石を壊して貰えばいいジャン？
+[k]
+
+[se ad7]
+＠ジャガーマン
+ほいこれ、私の唯一無二の武器[line 3][r]“恐るべき棍棒”、デスクローのスペア。
+[k]
+
+＠ジャガーマン
+こんな事もあろうかと、昨夜のうちにジャングルの樹を[r]みつくろって作っておきました！
+[k]
+
+＠ジャガーマン
+これでぶん殴れば太陽石だろうと粉々です。[r]即ち、ククルんの神性もガクッと落ちる寸法です！
+[k]
+
+？1：唯一……無二……（ゴクリ）
+
+[charaFace A 1]
+＠ジャガーマン
+そうよ！　唯一無二！[r]この世に二つとない、恐るべき棍棒の二つ目よ！
+[k]
+
+？2：なんて出来る美女なんだ……！
+
+[charaFace A 3]
+＠ジャガーマン
+でしょう～？　ことケツァル・コアトルへの[r]嫌がらせなら右に出る者はいないからね、私！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マーリン
+方針は決まったようだね。[r]では最後の確認だ。
+[k]
+
+＠マーリン
+我々はこの密林を抜け、エリドゥに突入。[r]ドクターの誘導に従って、脇目もふらず神殿を目指す。
+[k]
+
+＠マーリン
+神殿ではどう隠れようとケツァル・コアトルに[r]感知されるだろう。なので正面から全力でぶつかる。
+[k]
+
+＠マーリン
+サーヴァント部隊はなんとしてもケツァル・コアトルを[r]足止めする。できて二分ないし三分だろう。
+[k]
+
+＠マーリン
+その数分間のうち、[%1]君は単身で[r]神殿に入り、祭壇に該当するシンボルを破壊する。
+[k]
+
+＠マーリン
+いいかな？[r]サーヴァントもマスターも死にものぐるいの作戦だが？
+[k]
+
+？1：……いけます
+？2：……このチームなら大丈夫
+
+？！
+
+[charaFace E 1]
+＠マーリン
+だそうだ、ロマニ・アーキマン。[r]異論はあるかい？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+安全策ではないけど、妥当性がないワケでもない。[r]そもそも、何をやっても成功率は低いんだし。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+となりでさっきからヒィーヒィー言って観測している[r]ダ・ヴィンチちゃんからもＯＫサインが出た。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+作戦を許可する。[r]バックアップは任せてくれ、[%1]君。
+[k]
+
+？1：よし、行こう……！
+
+？！
+
+[bgmStop BGM_EVENT_5 0.3]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.2]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠マシュ
+はい！[r]マシュ・キリエライト、全力でサポートします！
+[k]
+
+[messageOff]
+[wt 0.2]
+[bgmStop BGM_EVENT_4 1.0]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 32700]
+[wt 1.0]
+[se ad55]
+[seVolume ad55 0 0.5]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[bgm BGM_EVENT_3 0.]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+前方に巨大な建物、あれが神殿だ！[r]いや……しかし、あのカタチはウルクの神殿ではなく[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アナ
+女神であれば、自らの神殿は自らの法則に[r]再構築しているものです！
+[k]
+
+＠アナ
+あの高い階段のようなものがケツァル・コアトルの[r]神殿なのでしょう！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠マーリン
+好都合だ、あれなら中で迷う必要がない！[r]間違いなくシンボルがあるのはあの頂上だ！
+[k]
+
+＠マーリン
+あのほとんど壁のような段差の階段を登って[r]いくのは堪えるだろうが、そこは気合いと体力で！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠イシュタル
+天に近づくための道か……。発想はジグラットと[r]同じだけど、より自然と一体になったアプローチなのね。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+[line 3]エリドゥ各地から敵性反応多数！　密林からもだ！[r]第三波、第四波と翼竜たちが集まってきている！
+[k]
+
+＠Dr.ロマン
+まともに相手をしていたら夜が明ける数だ！[r]一点突破で神殿まで駆け抜けてくれ！
+[k]
+
+
+[messageOff]
+[seStop ad55 0.4]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[shakeStop]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]

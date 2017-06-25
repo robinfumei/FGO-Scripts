@@ -1,0 +1,660 @@
+＄01-00-08-19-2-0
+
+
+[charaSet A 99355100 1 ゲーティア]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98100000 1 Dr.ロマン]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 5009001 1 ダ・ヴィンチ]
+[charaSet F 99355300 1 ソロモン]
+[charaSet G 98003000 1 Dr.ロマン]
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+
+[scene 36201]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠ゲーティア
+無駄な事だ。まったく無駄な事だ。
+[k]
+
+＠ゲーティア
+我々は不滅だ。時間神殿ソロモンあるかぎり、[r]我ら七十二柱の魔神が死滅する事はない。
+[k]
+
+＠ゲーティア
+貴様の、この一時の生存も、[r]英霊どもの抗戦も、すべて無意味だ。
+[k]
+
+＠ゲーティア
+第三宝具、再装填。[r][line 3][#諸共:もろとも]に死ぬがいい。
+[k]
+
+＠ゲーティア
+ああ、最後に殴りかかるぐらいは許そう。[r]貴様の気持ちは理解できる。
+[k]
+
+＠ゲーティア
+マシュ・キリエライトの[#弔:とむら]いだ。[r]その貧弱な人の拳で、我が体に触れて死ね。
+[k]
+
+？1：上等だ[line 3]！
+？2：望むところだ……！
+
+？！
+
+[messageOff]
+
+[charaFadeout A 0.7]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_24 2.0]
+[wt 2.0]
+
+＠？？？
+いやいやいや。[r]そこはちょっと落ち着こうよ、[%1]君。
+[k]
+
+[se ad95]
+[wt 1.0]
+[seStop ad95 2.0]
+[wt 2.0]
+[messageOff]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.7 1]
+[wt 0.7]
+＠Dr.ロマン
+玉砕はキミらしくない。[r]ここはもう少し、力を溜めておいてくれ。
+[k]
+
+？1：[line 3]え？
+？2：ドクター……？
+
+？！
+
+[wt 0.4]
+[messageOff]
+
+[wipeout rollFlashRight 3.0 1.0]
+[wait wipe]
+
+[charaFadeout C 0.1]
+
+[scene 10205]
+[shake 0.05 2 2 0]
+[wt 0.7]
+[se ad14]
+[wt 0.3]
+
+[wipein rollFlashRight 1.4 1.0]
+[wait wipe]
+[bgm BGM_EVENT_3 0.1]
+
+[flashin loop 0.8 0.8 D72727FF 00000000]
+[se ad9]
+[wt 0.4]
+[wt 0.4]
+[wt 0.4]
+[wt 0.4]
+[seStop ad9 2.0]
+[wt 0.4]
+[wt 0.4]
+[wt 0.4]
+[flashOff]
+
+[se ad74]
+[wt 0.4]
+
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+
+
+[se ad38]
+[shake 0.05 7 7 1.0]
+[wt 1.4]
+
+
+＠スタッフ
+論理防壁、最終壁消滅！[r]カルデア内部に魔神柱が侵入して来ます！
+[k]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠ダ・ヴィンチ
+全隔壁閉鎖だ！　とっくにしている？　あっそう！[r]じゃあ通路にエーテル塊を注入する！
+[k]
+
+＠ダ・ヴィンチ
+これで少しは保つ筈だ！　具体的に言うと五分ほど！[r]それまでに私の工房に避難して！
+[k]
+
+
+＠ダ・ヴィンチ
+あそこならまだ少しは保つ！[r]管制室は諦めて[bgmStop BGM_EVENT_3 0.7][line 3]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_4 0.1]
+
+＠スタッフ
+それは出来ません！[r]管制室の放棄はコフィンの停止に繋がります！
+[k]
+
+＠スタッフ
+マシュの[line 3]マシュ・キリエライトが、[r]最後まで[%1]の盾となったのです！
+[k]
+
+
+＠スタッフ
+マスター・[%1]の帰還を、[r]私たちのレイシフトを、諦める事はできません……！
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ダ・ヴィンチ
+[line 3]ああ。それは確かに。[r]となると、後は私が何とかするしかないな。
+[k]
+
+＠ダ・ヴィンチ
+なまじ映像だけ拾えたのが仇になったのか、[r]それとも救いだったのか。
+[k]
+
+＠ダ・ヴィンチ
+こうなったらトコトンまで悪あがきを[line 3][r]ロマニ？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 10]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.7 0]
+[wt 1.0]
+＠D：Dr.ロマン
+……未来の価値か。
+[k]
+
+＠D：Dr.ロマン
+マシュ。[r]キミがそう言うのなら、ボクも覚悟を決めないとね。
+[k]
+
+[charaFace E 5]
+＠ダ・ヴィンチ
+[line 3]なんだ。[r]やっぱり、そうなるのかい？
+[k]
+
+[charaFace D 0]
+＠D：Dr.ロマン
+ああ。状況的にも今が最適だ。[r]ゲーティアの限界は今ので見えた。
+[k]
+
+＠D：Dr.ロマン
+ボクは昔から、勝てる戦いにのみ出陣する男だ。
+[k]
+
+＠D：Dr.ロマン
+そういうワケで、[r]管制室の防御はキミの仕事だ、レオナルド。
+[k]
+
+＠D：Dr.ロマン
+[%1]君が戻るまで絶対厳守だ。[r]できるだろ、天才なんだから。
+[k]
+
+[charaFace E 4]
+＠ダ・ヴィンチ
+……もちろん。[r]では行ってきたまえ。お土産は期待しないでおくよ。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth D 1]
+[charaDepth G 0]
+[charaFace D 0]
+[charaFace G 0]
+[charaFadein D 0.1 1]
+[charaFadein G 0.1 1]
+[wt 0.7]
+[charaChange D 98003000 9 fade 0.7]
+[wt 0.7]
+[charaFadeout G 0.1]
+[wt 1.5]
+[charaFadeout D 0.4]
+
+[seStop ad14 2.0]
+[wt 0.7]
+
+[bgmStop BGM_EVENT_4 4.0]
+[fadeout black 4.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[shakeStop]
+
+[scene 36201]
+[wt 1.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠Dr.ロマン
+やあ。[r]ここまでよく戦ったね、[%1][&君:ちゃん]。
+[k]
+
+＠Dr.ロマン
+最後に美味しいところを持っていくようで悪いけど、[r]ここからは少しだけボクの出番だ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+…………。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ゲーティア
+ロマニ・アーキマンだと……？[r]ただの人間がこの玉座にどうやって現れた……？
+[k]
+
+＠ゲーティア
+いや[line 3]待て。[r]貴様、その霊基は[line 3]！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠Dr.ロマン
+ああ。もう、聖杯に向けた願いは捨て去った。[r]ここからは元の[#私]としての言動だ。
+[k]
+
+＠Dr.ロマン
+その前に手袋を外さないとね。[r]その方が、色々と分かりやすいだろう？
+[k]
+
+
+[se ad77]
+[seVolume ad77 0 0.8]
+[wt 1.0]
+[seStop ad77 0.1]
+
+
+？1：……ドクター、その左手の指輪……
+？2：……………………うそ
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ゲーティア
+それは[line 3]失われた私の、[r]いやソロモン王の十個目の指輪[line 3]
+[k]
+
+[charaFace A 0]
+＠ゲーティア
+貴様、まさか……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠Dr.ロマン
+ああ。たった11年前の話だ。
+[k]
+
+＠Dr.ロマン
+カルデア所長、マリスビリー・アニムスフィア。[r]彼は聖杯戦争に参加する際、最高の聖遺物を用意した。
+[k]
+
+＠Dr.ロマン
+それがこの指輪だ。[r]ソロモン王が亡くなる際、遙かな未来に贈ったもの。
+[k]
+
+[charaFace C 3]
+＠Dr.ロマン
+あの時はどうしてそんな事をしたのか分からなかった。[r]いつも通りの、神様の気まぐれだろうと思ったものさ。
+[k]
+
+[charaFace C 0]
+＠Dr.ロマン
+だがその指輪をマリスビリーは発掘し、[r]聖杯戦争に勝利する為の英霊を召喚した。
+[k]
+
+[charaFace C 8]
+＠Dr.ロマン
+それがソロモン。カルデアの召喚英霊第一号。[r]マリスビリーと共に聖杯を手に入れ、願いを叶えた英霊だ。
+[k]
+
+[charaFace C 0]
+＠Dr.ロマン
+“人間になりたい”。[r]口にしたコトは、そんな、よくある願いだったけどね。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ゲーティア
+貴様[line 3]貴様[line 3]！[r]馬鹿な、有り得ん！　節穴かフラウロス！
+[k]
+
+[charaFace A 0]
+＠ゲーティア
+いや、いいや、何もかもが違う、何もかもが！[r]貴様があの男の筈がない！
+[k]
+
+＠ゲーティア
+しかも[line 3]願いを叶えた、だと！？[r]あの男に願いなどあるものか！
+[k]
+
+
+＠ゲーティア
+外道！　冷酷！　残忍！　無情！[r]この私のアーキタイプとなった男が、人並の願いなど！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠Dr.ロマン
+……おまえにそこまで言われるのは流石に傷つくなぁ。[r]ボクのこと嫌いすぎだろ、おまえ。
+[k]
+
+[charaFace C 0]
+＠Dr.ロマン
+まあいいか。そのあたりはどうでも。[r]とにかく、ソロモンは願いを叶えた。
+[k]
+
+[charaFace C 3]
+＠Dr.ロマン
+けど、ここで問題が生じてしまった。[r]ソロモンは全知全能と言っていい千里眼の持ち主だったが、
+[k]
+
+＠Dr.ロマン
+人間になった瞬間、そのすべての能力を失った。[r]それだけなら良かったんだけど[line 3]
+[k]
+
+＠Dr.ロマン
+その“無くなる”刹那に、視てしまったんだよ。[r]人類の終焉を。
+[k]
+
+＠Dr.ロマン
+“どういう事だ”と慌てたけど、[r]その時にはもう、ソロモンはただの人間になっていた。
+[k]
+
+＠Dr.ロマン
+誰が。どうやって。何の目的で。[r]そして、どうすればこれを防げるのか。
+[k]
+
+
+[charaFace C 5]
+＠Dr.ロマン
+それらを知る術を彼は失った。もう普通の人だったからね。[r]でも、そのまま無視する事もできなかった。
+[k]
+
+＠Dr.ロマン
+だって、どうやらこの事件は自分に関わる事らしい。[r]それぐらいは気付く事ができたからね。
+[k]
+
+[charaFace C 0]
+＠Dr.ロマン
+そこからボクの旅は始まった。[r]文字通り一から、人間として学び直す行程だ。
+[k]
+
+＠Dr.ロマン
+敵が誰かも分からない。何がトリガーかも分からない。[r]ボクに出来る事は耐える事だけ。その時に備える事だけ。
+[k]
+
+[charaFace C 6]
+＠Dr.ロマン
+もちろん、多くの偶然にも助けられた。[r]その最たるものがキミだ、[%1]。
+[k]
+
+
+[charaFace C 0]
+
+＠Dr.ロマン
+……もちろん、初めて出逢った日の事だけじゃない。
+[k]
+
+＠Dr.ロマン
+このグランドオーダー中、[r]キミに助けられなかった時はなかった。
+[k]
+
+＠Dr.ロマン
+その[#事実:こと]に、心からの感謝を送る。[r]キミとマシュのおかげで、ボクはこの瞬間に立ち会えた。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+………………ゥ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.7 1]
+[wt 0.7]
+
+[charaEffect C bit_talk_06]
+[wt 0.7]
+[se bac216]
+[charaFadeTime C 1.0 0.5]
+[wt 1.2]
+[charaFadeTime C 0.7 1.0]
+[wt 1.0]
+
+？1：ドクター……
+？2：ロマン、体が……
+
+？！
+
+[charaFace C 5]
+＠Dr.ロマン
+[line 3]ゲーティア。
+[k]
+
+＠Dr.ロマン
+魔術王の名はいらない、と言ったな。[r]では、改めて名乗らせてもらおうか。
+[k]
+
+[bgmStop BGM_EVENT_1 2.0]
+
+[charaFadeTime C 1.0 0.5]
+
+[se ad29]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+
+[messageOff]
+
+[fadeout white 1.0]
+[charaEffectStop C bit_talk_06]
+
+[wait fade]
+
+[flashOff]
+
+[charaFadeout C 0.1]
+
+[se bac213]
+
+[wt 2.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.1]
+
+[fadein white 2.0]
+[wait fade]
+
+＠ソロモン
+我が名は魔術王ソロモン。[r]ゲーティア。おまえに引導を渡す者だ。
+[k]
+
+[wt 1.0]
+
+[messageOff]
+
+[fadeout black 3.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+[wt 2.0]
+
+[fadein black 3.0]
+
+[bgm BGM_EVENT_24 0.4]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 1]
+[wt 0.7]
+＠ソロモン
+……命とは終わるもの。[r]生命とは苦しみを積みあげる巡礼だ。
+[k]
+
+＠ソロモン
+だがそれは、決して死と[#断絶:だんぜつ]の物語ではない。[r]ゲーティア。我が積年の[#慚愧:ざんき]。我が亡骸から生まれた獣よ。
+[k]
+
+＠ソロモン
+今こそ、ボクのこの手で、おまえの悪を裁く時だ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ゲーティア
+[line 6]、ハ。
+[k]
+
+＠ゲーティア
+は、はははははははははははははははははははは！[r]あまりの事に愕然としたが、なるほど確かに貴様らしい！
+[k]
+
+＠ゲーティア
+何もかもが手遅れになった今！[r]人類最高の愚者、無能の王が今さらお出ましとはな！
+[k]
+
+＠ゲーティア
+恥の上塗りに来るとはまさしくソロモン！[r]英霊としての貴様なぞ[#我々:オレたち]の敵ではない！
+[k]
+
+＠ゲーティア
+私を止められるものは生前の貴様のみ！[r]ソロモン王の偉業のみが私を止める！
+[k]
+
+＠ゲーティア
+死後の貴様などに何の権限があろう！[r]その甘い頭ごと無に帰すがいい！
+[k]
+
+
+[messageOff]
+[se bac1]
+[charaFadeout A 0.4]
+[charaEffect A bit_talk_41]
+[wt 0.1]
+[charaEffectStop A bit_talk_41]
+[charaScale gta 1.0]
+
+[wt 1.0]
+
+？1：ドクター……！
+？2：ゲーティアが来る……！
+
+？！
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ソロモン
+ああ。[r]じゃあ、ちょっと行ってくるね。
+[k]
+
+＠ソロモン
+なに、用件はすぐに終わる。[r]その後はキミにバトンタッチだよ。
+[k]
+
+
+
+
+
+
+
+
+
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_24 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[soundStopAll]
+[end]

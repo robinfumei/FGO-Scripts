@@ -1,0 +1,195 @@
+
+＄91-50-17-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5017001 1 メディア・リリィ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet E 99348500 1 魔神柱ハーゲンティ]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+[charaFace B 1]
+＠メディア・リリィ
+やりました！　魔神柱を構成する霊核を破壊、[r]あとはこの膨大な魔力を変換するだけです！
+[k]
+
+[charaFadeout B 0.1]
+
+[messageOff]
+[wt 0.3]
+[se ad14]
+[shake 0.05 0 3 0]
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠魔神柱ハーゲンティ
+オオ[line 3]オオオォォォオオオ……！[r]コンナ[line 3]コンナ[#悪夢:バカ]ナァァアアア！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠メディア・リリィ
+小さくなぁーれ、小さくなぁーれ……[r]ボウルで跳ねる小麦粉みたいに小さくなぁーれ……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔神柱ハーゲンティ
+ガアァアアアアア[line 3]！[r]ガアアァアアア[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠メディア・リリィ
+ぺったん、ぺったん、メイプルぺったん……[r]スプーンひとさじ、苺みたいに小さくなぁーれ……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+[wt 0.4]
+
+[messageOff]
+[charaEffect E bit_talk_15]
+[se ad29]
+[wait charaEffect E]
+[seStop ad29 2.0]
+[seStop ad14 1.0]
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.5]
+[wait fade]
+[shakeStop]
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[wt 1.5]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 21100]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠メディア・リリィ
+やりました、調理完了です！[r]これで夢のパンケーキが作れます、マスター！
+[k]
+
+？1：これが夢の……？
+？2：いまの魔神柱が材料……なんだよね？
+
+？！
+
+＠メディア・リリィ
+[FFFFFF]？　はい、そうですが？[-]
+[k]
+
+[charaFace B 0]
+＠メディア・リリィ
+極限まで[#攪拌:かくはん]して、[#濾過:ろか]して、[r]練り直した魔素ですから、もう別のものですが。
+[k]
+
+[charaFace B 4]
+＠メディア・リリィ
+あ。それとも魔神柱味のケーキを食べたかったとか……？[r]ご、ごめんなさい、気がつかないで……！
+[k]
+
+[charaFace B 5]
+＠メディア・リリィ
+い、急いでもう一柱召喚しますね！[r]あわわ、因果が消えかけてる、まだ間に合うかしら……！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+い、いえ、もう魔神柱は結構です！[r]リリィさんのパンケーキ、早く食べたいです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠メディア・リリィ
+まあ。それなら良かった、[r]あとはもういつも通りに調理するだけですよ。
+[k]
+
+＠メディア・リリィ
+それでは、しばしお時間を。[r]期待して待っていてください、[%1]さん。
+[k]
+
+＠メディア・リリィ
+日頃の感謝の気持ちとして、[r]極上のケーキをお届けしますね♡
+[k]
+
+[messageOff]
+[se ad138]
+[seStop ad158 0.5]
+[charaEffect E bit_talk_21]
+[charaFadeout B 0.4]
+[wt 0.2]
+[charaEffectStop E bit_talk_21]
+[wt 1.0]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……ぽん、と煙のように消えちゃったな。[r]この時代のどこかに専用の台所を持ってるんだろう……
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+ボクは今になってイアソンの評価があがったよ……
+[k]
+
+＠Dr.ロマン
+あんなふわふわした女の子を、よくもまあ[r]あそこまで現実的な女性に変えられたもんだ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+メディア・リリィさんはどこまでも純真なんですね……[r]好きなことを、好きな人たちに伝えていく……
+[k]
+
+＠マシュ
+彼女の気持ちは、無条件の愛情なのだとわかりました。[r]可能であれば、あの無垢さは守り続けていたい。
+[k]
+
+＠マシュ
+マスター。リリィさんの愛情に応えられるよう、[r]わたしたちも頑張りましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

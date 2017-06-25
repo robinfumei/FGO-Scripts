@@ -1,0 +1,523 @@
+＄01-00-06-25-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet D 1020000 1 ランスロット]
+[charaSet E 5022001 1 三蔵]
+
+[charaSet G 98002000 1 フォウ]
+[charaSet H 98003000 1 Dr.ロマン]
+
+[scene 30300]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+……以上が聖槍の真実です。[r]おわかりですか、ダ・ヴィンチちゃん。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+ああ。ようはこういう事だろう？
+[k]
+
+＠ダ・ヴィンチ
+聖抜とは人間の選択。[r]何をしても、どんな悪に触れても善からブレない精神……
+[k]
+
+＠ダ・ヴィンチ
+属性でいうところの秩序・善の人間を聖都キャメロット[r]に集めて、キャメロットごとロンゴミニアドに吸収、
+[k]
+
+[charaFace C 5]
+＠ダ・ヴィンチ
+どのような隔絶空間にあっても存在し続けられる[r]宇宙コロニーのようなものにする。
+[k]
+
+[charaFace C 4]
+＠ダ・ヴィンチ
+それなら魔術王による人理焼却にも耐えられる。[r]それが獅子王の目的だったんだね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+…………そうだ。その理念自体は正しいものであると、[r]我々は思っていた。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace E 1]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ベディヴィエール
+……………………。
+[k]
+
+[charaFace E 5]
+＠三蔵
+ベディヴィエールさん、そこは言っていいのよ。[r]ランスロットさんは間違っていたって。
+[k]
+
+[charaFace B 3]
+＠ベディヴィエール
+え？　い、いえ……私はそこまで[r]追い打ちをかけられないというか……
+[k]
+
+[charaFace E 0]
+＠三蔵
+そ。優しいのね。そういう人大好き。[r]じゃあ、代わりにあたしが続けるわ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+獅子王の理念は間違っている。[r]人々から選択の余地を奪うのは良くない事よ。
+[k]
+
+[charaFace E 4]
+＠三蔵
+でも円卓の人たちはみんなそれを受け入れている。[r]いえ、受け入れるために己を殺している。
+[k]
+
+[charaFace E 5]
+＠三蔵
+それは昔のアーサー王を信じているからよ。[r]でも今のアーサー王はもう違う。別人よ。
+[k]
+
+[charaFace E 4]
+＠三蔵
+ねえ。[r]どうしてアーサー王は獅子王なんかになっちゃったの？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+……それが分からないのだ。[r]我々が召喚された時、王は既にあの姿だった。
+[k]
+
+＠ランスロット
+君たちの言う魔術王とやらに侵された気配もない。
+[k]
+
+[charaFace D 4]
+＠ランスロット
+乱心したと背く騎士もいたが、そもそも、[r]王が乱心する理由がどこにもなかった。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ダ・ヴィンチ
+[line 3]乱心じゃないさ。正気がないどころか[r]理性すら、今のアーサー王にはないだろうからね。
+[k]
+
+＠ランスロット
+理性すらない……では[#傀儡:かいらい]だと言いたいのか？[r]アグラヴェインの言葉に従うだけの人形だと！
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+アグラヴェイン？　ああ、アーサー王の補佐官か。[r]セルハンも言っていたね。
+[k]
+
+＠ダ・ヴィンチ
+“補佐官である事を隠れ蓑にして、商人ギルドを[r][f small]  [f -]奪い、私腹を肥やしている”と。
+[k]
+
+[charaFace C 1]
+＠ダ・ヴィンチ
+ふむ。アグラヴェインが何を考えているかはともかく、[r]アーサー王がなぜ獅子王になったのかは説明できる。
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+彼女はもう[#英霊:にんげん]じゃあない。[r]聖槍を長く持ちすぎた結果、属性が変化している。
+[k]
+
+[charaFace D 0]
+＠ランスロット
+属性が……変化、している？
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+そう。もともと地に生きる伝説だった彼女は、[r]聖槍によって天に座する伝説になってしまった。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+人の理性であればどんな理想都市を目指そうと、[r]そこには生活を向上させる理念が含まれるだろう。
+[k]
+
+＠ダ・ヴィンチ
+でも彼女はそれを選ばなかった。[r]考えもしなかった。
+[k]
+
+[charaFace C 5]
+＠ダ・ヴィンチ
+『永遠に残る人間世界』を維持する為に、[r]人間の幸福をすべて否定した。
+[k]
+
+＠ダ・ヴィンチ
+それは冷徹を通り越した、超越者的視点だ。[r]彼女は本気でこう考えている。
+[k]
+
+＠ダ・ヴィンチ
+『人間は価値あるものだ。[r]　だが、人命に価値はない』と。
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+その結果が聖都キャメロット。まさに神の視点だ。[r]理性がない、とはそういう事さ。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[charaTalk H]
+[communicationCharaLoop 98003003 2 5 0 5]
+
+[charaFace D 5]
+[charaFadein D 0.1 0]
+
+＠Dr.ロマン
+……属性変化か。あり得る話だ。つまり、[r]その特異点に現れたアーサー王は英霊ではなく……
+[k]
+
+＠ランスロット
+神霊……神の[#類:たぐい]だと言うのか……！
+[k]
+
+
+？1：獅子王は、神霊……
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ……フォウ……
+[k]
+
+[charaFadeout G 0.1]
+
+？2：つまり女神さま？
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+……あたしたちでいう神様じゃないけどね。[r]御仏は慈悲深くなくちゃなれないもの。
+[k]
+
+[charaFadeout E 0.1]
+
+？！
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+だが何故だ！[r]なぜそんな事になった！
+[k]
+
+[charaFace D 4]
+＠ランスロット
+アーサー王が目指したものはブリテン島の平和、[r]人々の穏やかな営みだった！
+[k]
+
+[charaFace D 5]
+＠ランスロット
+その騎士王が、なぜそんな姿になったという……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+………………。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+アーサー王変質の話は後だ！[r]その状況はやばすぎる！
+[k]
+
+＠Dr.ロマン
+その時代はとっくに崩壊しているばかりか、[r]人理に含まれない人間世界を作る、だって！？
+[k]
+
+＠Dr.ロマン
+そんな事になれば、ソロモンを倒して人理焼却を[r]無かった事にしても、人類史はメチャクチャになる！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+獅子王の聖槍[line 3][r]聖都キャメロットは人理修復後の[#癌:がん]だ。
+[k]
+
+＠Dr.ロマン
+何としても獅子王を止めないと……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+……私が王に謁見し、逆賊になる。[r]それで聖槍は停止するのではないか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ダ・ヴィンチ
+それは無理。ランスロット卿、[r]獅子王からギフトを受けてるだろう？
+[k]
+
+[charaFace C 5]
+＠ダ・ヴィンチ
+なら獅子王に剣を向けた時点でキミは燃え尽きる。[r]……こんな事を言いたくはないんだけどね。
+[k]
+
+[charaFace C 4]
+＠ダ・ヴィンチ
+ギフトを受けた時点で、円卓の騎士たちは[r]獅子王には逆らえなかったのさ。
+[k]
+
+[charaFace D 5]
+＠ランスロット
+………………っ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……ハサンさんたちと合流して、[r]正面から聖都を攻めるしかないんですね。でも……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+ガイコツの偉い人が来てくれるって言ってたけど、[r]それだけじゃ獅子王の軍勢には勝てないわ。
+[k]
+
+＠三蔵
+兵力の差が圧倒的だもの。[r]おまけに、獅子王には裁きの光がある。
+[k]
+
+＠三蔵
+……今のままで戦うのは自爆行為よ。[r]自爆、ダメ、絶対。
+[k]
+
+[charaFace E 4]
+＠三蔵
+あたしはともかく、あたしの前で[r]そういうコトされると泣いちゃうから。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+聖都を攻めるには兵力が足りない……[r]ですが、もうそんな余力はどこにもなく……
+[k]
+
+？1：…………そうかな？
+
+？！
+
+[charaFace B 9]
+＠ベディヴィエール
+[%1]？
+[k]
+
+
+？1：[&いるじゃないか:いるじゃないですか]
+？2：ひとり、兵力を持てあましている[&奴:人]が
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+オジマンディアス王……！[r]先輩はあの太陽王に協力を要請すると！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+ありえません！[r]あの傲岸不遜王が我々に手を貸すなど！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+んー、さすがの私も反対かもだ。
+[k]
+
+＠ダ・ヴィンチ
+むしろ獅子王を倒した後、[r]彼とどう戦うかを考えるべきでは？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+……いや。[r]盲点だったが、有り得ない話ではない。
+[k]
+
+＠ランスロット
+獅子王を放っておけばエジプト領も消える。[r]それが分からぬ男ではない。
+[k]
+
+[charaFace D 5]
+＠ランスロット
+条件さえ示せばオジマンディアスは我々に協力する。[r]エジプトの王は、益のある交渉を無下にはしない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+＠ダ・ヴィンチ
+……ふむ。では、その条件とは？
+[k]
+
+＠ダ・ヴィンチ
+[%1][&君:ちゃん]の身柄を寄こせ、[r]とかになったら話にならないが？
+[k]
+
+[charaFace D 1]
+＠ランスロット
+その心配はない。[r]奴はああ見えて単純だ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォ？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+奴は勝算のある方につく。
+[k]
+
+[charaFace D 1]
+＠ランスロット
+我々には共に戦うに値する[#戦力:かち]があると、[r]直接示してやればいい。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

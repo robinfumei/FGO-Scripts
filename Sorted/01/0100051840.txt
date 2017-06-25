@@ -1,0 +1,274 @@
+
+＄01-00-05-18-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 1019001 1 ラーマ]
+[charaSet B 2015001 1 アルジュナ]
+[charaSet C 3004001 1 カルナ]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[scene 20721]
+[fadein black 2]
+[wait fade]
+
+＠アルジュナ
+[line 2]来たか、カルナ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFace C 5]
+[charaFadein B 0.1 0]
+[charaFadein C 0.1 2]
+＠カルナ
+いついかなる時代とて。[r]お前の相手はオレしかいるまい。
+[k]
+
+[charaTalk B]
+＠アルジュナ
+聖杯戦争にサーヴァントとして召喚される度、[r]私は貴様の姿を探し続けたのだろう。
+[k]
+
+[charaFace B 4]
+＠アルジュナ
+正しき英雄であろうとしながら。[r]貴様の姿を探し求めては落胆したはずだ。
+[k]
+
+[charaFace B 1]
+＠アルジュナ
+……こんな機会は恐らく、[r]二度と巡り会うことはあるまい。
+[k]
+
+[charaFace C 0]
+＠カルナ
+………………。
+[k]
+
+[charaFace B 0]
+＠アルジュナ
+おまえがそこに立った時点で、[r]他の全てのものが優先事項から滑り落ちた。
+[k]
+
+[charaFace B 5]
+＠アルジュナ
+[line 2]ではカルナ。[r]続きを始めるとしようか。
+[k]
+
+[charaFace C 5]
+＠カルナ
+……そうだな、アルジュナ。
+[k]
+
+[charaFace C 1]
+＠カルナ
+オレもお前も、癒えることのない[#宿痾:しゅくあ]に[r]囚われているようだ。
+[k]
+
+[charaFace B 5]
+＠アルジュナ
+……だが。
+[k]
+
+[charaFace C 5]
+＠カルナ
+ああ。
+[k]
+
+[charaTalk off]
+[charaFace B 1]
+[charaFace C 1]
+＠二人
+[line 2]だからこそ、それは歓喜。
+[k]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 0]
+＠カルナ
+この世界に神はなく、呪いもなく、[r]宿命すらもない。
+[k]
+
+[charaFace B 0]
+＠アルジュナ
+無いからこそ、私は貴様と決着をつけることだけを[r][#願望器:せいはい]への望みとした。
+[k]
+
+[charaFace B 4]
+＠アルジュナ
+……それが今、叶った。[r]世界を救うことに興味はない。
+[k]
+
+[charaFace B 0]
+＠アルジュナ
+滅ぶならば、滅ぶのだろう。[r]しかし、貴様は救おうとする[line 2]この世界を。
+[k]
+
+[charaFace C 0]
+＠カルナ
+無論だ。正しく生きようと願うものがいるかぎり、[r]オレは彼らを庇護し続ける。
+[k]
+
+[charaFace C 5]
+＠カルナ
+この力はそのために与えられたもの。[r]我が父、我が命があるかぎり、日輪は不滅と知れ。
+[k]
+
+[charaFace B 5]
+＠アルジュナ
+[#だから私は滅ぼす側だ]。[r]貴様が善につくのなら私は悪につく。
+[k]
+
+[charaFace B 2]
+＠アルジュナ
+それでこそ対等だ。今度こそ[line 3]今度こそ対等の[r]ものとして、貴様の息の根を止めねばならん！
+[k]
+
+[charaFace C 0]
+＠カルナ
+……さて。アルジュナ。[r]人を呪わば穴二つ、というコトワザを知っているか？
+[k]
+
+[charaFace B 0]
+＠アルジュナ
+[FFFFFF]？
+[k]
+
+[charaFace C 1]
+＠カルナ
+いや、何でもない。そういうものをオレに教えた者が[r]いたな、と貴様を見て思い返しただけだ。
+[k]
+
+[charaFace C 0]
+＠カルナ
+腐れ縁だが、付き合いは誰よりも長いのがオレたちだ。[r]その縁に免じて、一つだけ約束しろ。
+[k]
+
+[charaFace C 5]
+＠カルナ
+オレを討った時は本来の英霊としての責務を果たせ。[r]その『[#炎神の咆哮:アグニ・ガーンディーヴァ]』で世界を救え。
+[k]
+
+[charaFace C 4]
+＠カルナ
+……言いたくはないのだがな。[r]その手の仕事は、貴様の方が遙かに上手い。
+[k]
+
+[charaFace B 1]
+＠アルジュナ
+……いいだろう。[r]だが決した後、それを敗北の理由にしない事だ。
+[k]
+
+[charaFace C 1]
+＠カルナ
+まさか。敗北のために戦う事はない。
+[k]
+[charaFace C 0]
+この槍に誓って、この[#肉体:よろい]に誓って。
+[k]
+
+[charaFace C 5]
+＠カルナ
+父と母に誓って[line 2]勝利を奪う。
+[k]
+
+[charaFace B 5]
+＠アルジュナ
+私も父と母[line 2]そして、兄弟に勝利を誓おう。
+[k]
+
+[charaFace B 2]
+＠アルジュナ
+幾千と幾万の月日を乗り越え、[r]ようやくこの偶然を掴んだ！
+[k]
+
+＠アルジュナ
+たとえ如何なる天魔といえども、[r]邪魔立てはさせぬ……！！
+[k]
+
+[charaTalk off]
+[charaFace B 2]
+[charaFace C 2]
+＠二人
+[line 2]行くぞ！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.05]
+[charaFadein B 0.1 4]
+[charaFadein C 0.1 6]
+[charaEffect B bit_talk_36]
+[charaEffect C bit_talk_36]
+[wt 0.4]
+[charaEffectStop B bit_talk_36]
+[charaEffectStop C bit_talk_36]
+[fadeout white 0.7]
+[wt 0.1]
+
+[charaMove B -100,0 0.1]
+[charaMove C 100,0 0.1]
+
+
+[flashin once 0.1 0.1 FFFFFFD0 FFFFFF00]
+
+[wt 0.1]
+[fowardEffect bit_talk_14]
+[shake 0.05 2 4 0.5]
+[se ad32]
+[wt 1.0]
+[seStop ad32 0.5]
+
+[se ad33]
+[wait se ad33]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[scene 10001]
+[wt 0.1]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[scene 20721]
+[wt 0.5]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaTalk on]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad17]
+[wait se ad17]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ラーマ
+……おいおい、あの女王。[r]まさか巨竜まで呼び寄せたのか！
+[k]
+
+[charaFace A 2]
+＠ラーマ
+だがこれを倒せば、もう一押しで[r]向こうの戦線は崩壊する！　やるぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

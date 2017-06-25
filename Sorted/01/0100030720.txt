@@ -1,0 +1,228 @@
+＄01-00-03-07-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21330 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 3016000 1 ？？？]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 4008002 0 黒髭]
+[charaSet G 4009101 1 メアリー]
+[charaSet H 4009201 1 アン]
+[charaFace F 3]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠黒髭
+ウッヒッヘッヘッヒッヘッヒ……。[r]フッヒュッヒュッフッヒョッ……。
+[k]
+
+[charaFace F 1]
+＠黒髭
+はっ！[r]おお、夢から覚めてしまえばハーレムは遥か彼方。
+[k]
+
+＠黒髭
+此処に居るのは我らが先生と、二人の世界を[r]築き上げてる[#百合:ゆり]っぷるだけでござる。
+[k]
+
+[charaFace F 3]
+＠黒髭
+……いやまあ、拙者百合もイケる口ですが。[r]いかんせん、独り寝は寂しいですなあ（ﾁﾗｯ
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFadein F 0 0]
+[charaFadein G 0 2]
+[charaFace G 0]
+＠メアリー
+[line 2]凄い。アン。[r]この船長、[#同衾:どうきん]を求めてるよ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アン
+好感度がゼロというよりはマイナスに等しい分際で、[r]素晴らしい発想だと思いますわ。
+[k]
+
+[charaFace H 5]
+＠アン
+というか、夢に私たち出てませんよね？[r]出てたらあなたが夢を忘れるまで銃床で殴り続けますが。
+[k]
+
+＠黒髭
+マフー。[r]出てきたヒロインが多すぎて覚えてないですなあ。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠メアリー
+[line 2]凄い。アン。[r]この船長、僕たちを十把一絡げのモブヒロインにしたよ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 1]
+[charaFadein H 0.1 2]
+＠アン
+うん♪　やっぱり殺しましょう♪
+[k]
+
+[charaFadeout H 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠C：？？？
+……ん？　おい船長さん、敵がおいでなすったようですよ。[r]例のフランシス・ドレイク。
+[k]
+
+[charaFace F 0]
+＠黒髭
+エウリュアレちゃん、来たの！？[r]聖杯も！？
+[k]
+
+[charaFace C 1]
+＠C：？？？
+多分そうじゃないですかねえ。[r]いやはや、思ったより早いリベンジだ。
+[k]
+
+[charaFace F 1]
+＠黒髭
+ヒャッホー！　出迎え準備ですぞ、皆の者！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠メアリー
+やれやれ。しょうがない、お仕事するか。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+＠アン
+しょうがないわねえ。それにしても、船底へ確実に[r]穴を開けてやったんだけど……どうしたのかしら。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠C：？？？
+[line 2]いやいや。一番注目すべきのは、あれだけ[r]打ちのめされて、それでも海を進んできた理由でねぇ。
+[k]
+
+[charaFace C 1]
+＠C：？？？
+……こりゃあ、何か策があるな。[r]ま、俺の知ったこっちゃないがね。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout C 0.1]
+[wt 0.5]
+[scene 21230 0]
+[charaFace F 5]
+[charaFadein F 0 1]
+[fadein black 0.5]
+[wait fade]
+＠黒髭
+んんんぅぅ？　[r]無策に真っ直ぐ突っ込んでくるつもりですかな？
+[k]
+
+＠黒髭
+できるＢＢＡらしからぬ所業ですな。[r]破れかぶれの特攻とは！
+[k]
+
+[charaFadeout F 0]
+[charaTalk G]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠メアリー
+そうでもなさそうだよ、船長。[r]船首にいるの、君がご執心のサーヴァントじゃないか？
+[k]
+
+[charaFace F 1]
+＠黒髭
+エウリュアレちゃん！？　ボキのエウリュアレちゃんが[r]どうしたの！？　船首！　船首にいるの！？
+[k]
+
+[charaFace F 3]
+＠黒髭
+わあい！　エウリュアレちゃーん！[r]拙者と一緒に、船首で両腕を広げて[line 4]。
+[k]
+
+[se bac15]
+[wait se bac15]
+[charaFace F 4]
+＠黒髭
+あれ？
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.5]
+[scene 21350 0]
+[charaSet C 2012001 1 エウリュアレ]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait fade]
+＠エウリュアレ
+ちっ、外れたか。[r]いえ、むしろ外してしまったような気さえするわ。
+[k]
+
+[charaFace C 4]
+＠エウリュアレ
+なんかこう、矢が汚れる的な……。
+[k]
+
+[charaFadeout C 0]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠マシュ
+すみません、真剣に仕留めていただけますか。[r]使い捨ての矢ですから、そこは我慢して。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ここで仕留めないと、白兵戦であのサーヴァントと[r]戦うのはわたしとドレイク船長なのです。
+[k]
+
+[charaFace C 2]
+＠エウリュアレ
+わかってるわよ。[r]ま、黒髭本人に当てるより[line 2]。
+[k]
+
+＠エウリュアレ
+別の誰かにぶつけた方が、いいのよ。[r]私の[#“矢”:ほうぐ]って。
+[k]
+
+[charaFace C 1]
+＠エウリュアレ
+ほらほら、乗り移ってきた連中がちょこちょこ[r]出てきたわよ。
+[k]
+
+＠エウリュアレ
+数も少ないし、さっさと片付けましょう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,1265 @@
+
+
+
+＄01-00-07-20-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet E 98107400 1 牛若丸]
+[charaSet G 98006200 1 エネミーＡ]
+[charaSet H 98006200 1 エネミーＢ]
+
+[charaSet D 98006200 1 エネミーＣ]
+[charaSet F 98006200 1 エネミーＤ]
+
+[scene 20733]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.7]
+[charaEffect E bit_talk_13]
+[wt 0.1]
+[charaFace E 4]
+[se bac11]
+[charaShake E 0.05 5 5 0.7]
+[wt 1.5]
+
+[se ad161]
+[charaSpecialEffect E enemyErasure 1 1.8]
+[wt 0.4]
+[se ad42]
+[wt 0.5]
+[effect bit_talk_tokeru01]
+[wait effect bit_talk_tokeru01]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠牛若丸
+ひとりふたりの私を殺したところで無駄な事だと、[r]何も学んでいないようだな？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+牛若丸、ケイオスタイドから再度出現！[r]……くそ、どうやったら倒せるんだコイツは！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠マシュ
+牛若丸さんの霊基はもう別人です……[r]でも、それより、どうして[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wt 0.7]
+
+[flag MALE false]
+[flag FEMALE false]
+[selectionUse masterMale]
+？1：なんで人間を殺そうとする……！？
+
+[flag MALE true]
+
+？2：なんでティアマトの言いなりになる！？
+
+[flag MALE true]
+
+？！
+
+[selectionUse masterFemale]
+？1：なんで人間を殺そうとする……！？
+
+[flag FEMALE true]
+
+？2：なんでティアマトの言いなりになる！？
+
+[flag FEMALE true]
+
+？！
+
+[charaFace E 4]
+＠牛若丸
+どうして、だと……？
+[k]
+
+[charaFace E 5]
+＠牛若丸
+貴様らこそ！[r]なぜそこまでして、人間などを守っている！
+[k]
+
+＠牛若丸
+貴様らはラフムをおぞましいと言ったな？[r]この怪物たちは醜いと。
+[k]
+
+＠牛若丸
+だが変わらぬ。人間もラフムも変わらぬ。[r]何[charaFace E 2]ひとつ変わるものかッ！
+[k]
+
+[charaFace E 5]
+＠牛若丸
+多くの悲劇の中、一つの偉業があったとしよう。[r]多くの犠牲の中、一つの奇蹟があったとしよう。
+[k]
+
+＠牛若丸
+誰もが損益で動く中、ただひとり無償で、[r]傷ついた者たちのために奔走した者がいたとしよう。
+[k]
+
+[charaFace E 2]
+＠牛若丸
+だがその偉業は、そのようにあろうとしなかった者たちの手で[r]食い物にされ、辱められる！
+[k]
+
+＠牛若丸
+[#人間:おまえ]たちはいつもそうだ！[r]たったひとつの奇蹟に群がり、これを陵辱して笑い合う！
+[k]
+
+＠牛若丸
+このような生き物のために、なぜ私が戦わねばならん！[r]なぜ我々が殺されねばならなかった！
+[k]
+
+[charaFace E 2]
+＠牛若丸
+もはや私はおまえたちを正そうとは思わぬ。[r]ただ死ね。諸共に死ね。
+[k]
+
+＠牛若丸
+死んで、[#原初:いち]からやり直す他、[r]貴様たちに救いはない！
+[k]
+
+[messageOff]
+[se ad42]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[wt 0.2]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+[wt 0.2]
+[charaFace D 0]
+[charaFadein D 0.4 -512,0]
+[wt 0.2]
+[charaFace F 0]
+[charaFadein F 0.4 512,0]
+[wt 0.2]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[wt 0.1]
+
+[charaSet D 3006001 1 弁慶]
+[charaSet F 4014002 1 牛若丸Ｂ]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠イシュタル
+まだまだ増えるの……！？[r]こいつ、もう魂さえ分割されて怪物になってるんじゃ……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠牛若丸
+ははははははは！[r]貴様らには最後の抵抗すら許さぬ！
+[k]
+
+＠牛若丸
+私がいるかぎり母上には手出しはさせぬ！
+[k]
+
+＠牛若丸
+このまま、有象無象の私に、[r]有象無象の屑のように殺されるがいい！
+[k]
+
+[bgmStop BGM_EVENT_24 0.4]
+＠D：？？？
+それは不可能でございましょう。[r]有象無象の群衆に、ただ一つの希望は消せませぬ。
+[k]
+
+＠D：？？？
+確かに衆生の浅ましきもの。[r]ですが[line 3]
+[k]
+
+＠D：？？？
+そのたった一つの偉業を、貴方が否定してどうするのです。
+[k]
+
+[charaFace E 2]
+＠牛若丸
+！　何やつ！？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[wt 0.1]
+
+[se ad73]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.2 1]
+＠弁慶
+[%1]殿！[r]遅ればせながら、御免！
+[k]
+
+？1：弁慶さん……！
+？2：傷だらけじゃないですか……！？
+
+？！
+
+[charaFace D 1]
+＠弁慶
+なんの、まだまだ手足は健在[line 3][r]否、いまこそまさに絶好調ですとも！
+[k]
+
+＠弁慶
+臆病の虫、まことに[#面目:めんぼく]なし！[r]されど、我が[#主:あるじ]の不始末、どうか拙僧に任されよ！
+[k]
+
+[messageOff]
+[charaMove D -256,0 0.2]
+[charaFadeout D 0.2]
+[se ad73]
+[wt 0.4]
+
+[charaTalk depthOff]
+[charaTalk D]
+[charaDepth E 0]
+[charaDepth F 2]
+[charaDepth D 1]
+
+[charaFace D 5]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.4]
+[charaFadein D 0.2 384,0]
+[charaMove D 128,0 0.2]
+[wt 0.2]
+
+[charaEffect E bit_talk_14]
+[wt 0.1]
+[se bac11]
+[charaShake E 0.05 5 5 0.7]
+[charaMove E -128,0 0.4]
+[wt 0.7]
+
+[charaFace E 2]
+＠牛若丸
+貴様、まだ残っていたのか……！[r]情けなどかけず焼いておけば良かったわ！
+[k]
+
+[charaShake E 0.05 4 4 0.4]
+＠牛若丸
+ええい、離せ、離さぬか！[r]三文役者め！　今さら貴様に出る幕などない！
+[k]
+
+[charaFace D 2]
+＠弁慶
+いいえ、離しませぬ！[r]この武蔵坊、此度こそは決して、[#死んでも離れませぬ]！
+[k]
+
+＠F：牛若丸
+[line 6]。[r]そうか。では、私と共に死ぬがよい。
+[k]
+
+[bgmStop BGM_EVENT_3 0.5]
+[messageOff]
+
+[charaEffect D bit_talk_14]
+[wt 0.1]
+[se bac95]
+[charaFace D 5]
+[charaShake E 0.05 3 3 0.4]
+[charaShake D 0.05 3 3 0.4]
+[wt 0.1]
+[se ad46]
+[charaEffect D bit_talk_35]
+[wt 3.0]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+＠マシュ
+まわりの牛若丸さんが、[r]牛若丸さんごと弁慶さんを串刺しに[line 3]！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 -128,0]
+[charaFace D 5]
+[charaFadein D 0.1 128,0]
+＠牛若丸
+ふん。私ひとりを道連れにしてなんとする。
+[k]
+
+＠牛若丸
+もはやこの私は、貴様ではどうしようもない。[r]そう教えてやっただろうに。
+[k]
+
+＠牛若丸
+……せっかく助かった命であれば、[r]最後の時まで震えておればよいものを。
+[k]
+
+＠牛若丸
+臆病者の貴様らしからぬ蛮勇だったな、常陸坊。
+[k]
+
+[bgm BGM_EVENT_6 2.1]
+[charaFace D 4]
+＠弁慶
+……いやあ、確かに。[r]これは、怖ろしい。
+[k]
+
+＠弁慶
+……覚悟など幾つしても足りませなんだ。[r]死への単騎駆けとは、これほど怖ろしかったのですなぁ……
+[k]
+
+[charaFace E 5]
+＠牛若丸
+貴様、まだ……！
+[k]
+
+[charaFace D 5]
+＠弁慶
+ですが、拙僧を押したものは覚悟ではありませなんだ。[r]怒り。まさに怒りが、拙僧を押し出した。
+[k]
+
+＠弁慶
+……牛若丸様。[r]その憎しみは、ティアマト神に与えられたものではない。
+[k]
+
+＠弁慶
+貴方さまの中に有り続けた、[r]人間すべてに向けられたものだった。
+[k]
+
+[charaFace D 4]
+＠弁慶
+……それが私には耐えられなかった。
+[k]
+
+＠弁慶
+どれほど周囲から奇異の目で見られようと、[r]貴方さまの在り方は自由な風だった。
+[k]
+
+＠弁慶
+……まこと、天才とは悲しいもの。[r]最期までずっとお一人だったとは。
+[k]
+
+＠弁慶
+心は救えずとも、弁慶殿は貴方さまを[r]独りにしたくなかったのでしょうなぁ。
+[k]
+
+[charaFace D 5]
+＠弁慶
+そんなお方が、怒りに囚われ、凝り固まるなど[line 3][r]拙僧には、とても耐えられなかったのです。
+[k]
+
+[charaFace E 5]
+[charaShake E 0.05 3 3 0.4]
+＠牛若丸
+黙れ……！　ええい、何をしている牛若丸！[r]私ごと手足を[#削:そ]げ！　首を[#刎:は]ねよ！
+[k]
+
+＠牛若丸
+坊主の説教など、今さら何の意味がある！
+[k]
+
+[charaFace D 1]
+＠弁慶
+ははは。説教を馬鹿にしてはなりませぬぞ。[r]なにしろ、極めればこのような事が出来ますれば。
+[k]
+
+[messageOff]
+[se ad39]
+[effect bit_talk_06]
+[wt 2.0]
+
+[charaFace E 5]
+＠牛若丸
+馬鹿な、これは[line 3][r]ティアマトの権能が剥がれる[line 3]
+[k]
+
+＠牛若丸
+いや、私の方が離れているのか……！[r]弁慶、貴様なにを……！
+[k]
+
+[charaFace D 2]
+＠弁慶
+[line 3]何もなにも、弁慶として当然の事をするまで！[r]此度こそ最期までお供いたす！
+[k]
+
+＠弁慶
+原初の海が相手であれば、[r]我が名も[#些:いささ]かの役に立ちましょう！
+[k]
+
+＠弁慶
+いざ、西方浄土にて我らが業を焼き尽くす！[voice NP_300600_1][r][#五百羅漢補陀落渡海:ごひゃくらかんふだらくとかい][line 3]義経様。
+[k]
+
+＠弁慶
+長き不在、どうかお許しくださいませ[line 3]
+[k]
+
+[charaFace E 5]
+＠牛若丸
+[line 6]…………馬鹿者が。[r]いつまでも、下らぬ事を気に病みおって。
+[k]
+
+[charaFace E 4]
+＠牛若丸
+臆病者の命など、貰っても嬉しくも何ともない。
+[k]
+
+＠牛若丸
+仙人にまでなったというのに、まったく……[r]阿呆は、どこまでいっても阿呆よな……
+[k]
+
+[bgmStop BGM_EVENT_6 2.4]
+[voice NP_300600_2]
+[messageOff]
+[fadeout white 2.0]
+[wait fade]
+[effectStop bit_talk_06]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[scene 10001]
+[wt 2.0]
+[fadein white 0.1]
+[wait fade]
+[fadeout black 1.5]
+[wait fade]
+
+[charaTalk depthOn]
+
+[branch play01 MALE]
+[branch play02 FEMALE]
+
+[label play01]
+[charaSet D 98108000 1 プレイヤー]
+[branch play03]
+
+[label play02]
+[charaSet D 98108100 1 プレイヤー]
+[branch play03]
+
+[label play03]
+[charaSet E 4018001 1 ケツァル・コアトルＢ]
+[charaSet F 4018001 1 ケツァル・コアトル]
+[charaSet G 98013200 1 ティアマト]
+[charaSet H 98107900 1 ベル・ラフム]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+[scene 20733]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_24 0.1]
+
+＠マシュ
+……牛若丸さん、弁慶さん、共に霊基消滅を確認。[r]ティアマト神を守る[#近衛:ガード]は消え去りました……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……ああ。悲しんでいる余裕はない。[r]ケツァル・コアトル、準備はいいか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+[line 3]勿論。[r]私も覚悟が決まったわ。
+[k]
+
+＠ケツァル・コアトル
+みんな、私が飛んだ後はティアマト神から離脱して。[r]近くにいると巻き添えで燃えてしまうから。
+[k]
+
+？1：ケツァル・コアトル……
+？2：……大丈夫ですよね……？
+
+？！
+
+[charaFace F 1]
+＠ケツァル・コアトル
+ヤ、そんな顔はしないものデース！[r]お姉さんに任せてくだサーイ！
+[k]
+
+＠ケツァル・コアトル
+それじゃちょこっと、地上を灼き払ってきマース！
+[k]
+
+[messageOff]
+[se ad85]
+[charaEffect F bit_talk_21]
+[charaFadeout F 0.1]
+[wt 0.4]
+[charaEffectStop F bit_talk_21]
+[wt 1.2]
+
+
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[scene 35010]
+[wt 0.1]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+＠ティアマト
+[line 6]
+[k]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.4 1]
+＠ケツァル・コアトル
+…………ティアマト神。[r]私たち[#人間]の基底を編んだ原初の海。
+[k]
+
+＠ケツァル・コアトル
+そのアナタが人間を否定し、[r]世界をやり直そうとする事に、私は悲しみを覚えます。
+[k]
+
+[charaFace F 2]
+＠ケツァル・コアトル
+ですが[line 3]ここはもう人間の世界！[r]理性もなく、意思もなく、心もなく！
+[k]
+
+＠ケツァル・コアトル
+ただ“憎しみ”だけで我が子を食いつぶそうとする[r]アナタを、私は認める事はできません！
+[k]
+
+＠ケツァル・コアトル
+南米の神は森と獣と共に生きる！[r]太陽の恵みは滅びではなく生存の為！
+[k]
+
+[messageOff]
+[flashin once 0.1 0.3 FF0000AF FF000000]
+[se bac133]
+[se ad167]
+[seVolume ad167 0 0.3]
+[charaPut E 0,600]
+[charaEffect E bit_talk_32]
+
+＠ケツァル・コアトル
+過去は此処に[line 3]！
+[k]
+
+＠ケツァル・コアトル
+現在もまた等しく。未来もまた此処にあり。[r]風よ来たれ、雷よ来たれ！
+[k]
+
+＠ケツァル・コアトル
+明けの明星輝く時も！[r]太陽もまた、彼方にて輝くと知るがいい！
+[k]
+
+＠ケツァル・コアトル
+[line 2]『[#太陽の石:ピエドラ・デル・ソル]』[line 2]！
+[k]
+
+[messageOff]
+[seStop ad167 0.7]
+[se bac176]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[se bac187]
+[fadeout white 2.0]
+[wait fade]
+
+[charaEffectStop E bit_talk_32]
+[charaFadeout F 0.1]
+[wt 1.0]
+
+[fadein white 0.5]
+[wait fade]
+
+[se ad205]
+＠ティアマト
+[f large][messageShake 0.05 3 3 0.7]Aaaaaa、aaaaa[line 6]
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[scene 20733]
+[wt 0.1]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+[wt 0.5]
+[se ad68]
+[seVolume ad68 0 0.5]
+[scene 20730 2.5]
+[wait scene]
+[wt 2.0]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠マシュ
+ティアマト神の頭上、上空100メートルに[r]ケツァル・コアトルさんを確認！
+[k]
+
+＠マシュ
+その上空に、さらに強大な熱源を確認！[r]太陽風です！　ケイオスタイドが蒸発していきます！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 0]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠イシュタル
+あつ、あつつ……！　マシュ、防御お願い！[r]ほら、[%1]もマシュの後ろに！
+[k]
+
+[charaTalk depthOff]
+[charaDepth C 0]
+[charaDepth B 1]
+
+[se ad7]
+[charaMove C -128,0 0.4]
+[charaFadeout C 0.4]
+[wt 0.5]
+[charaShake B 0.05 3 3 0.25]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠イシュタル
+でも、さっすが南米の主神！[r]とんでもない奥の手を持っていたものだわ。
+[k]
+
+＠イシュタル
+これをウルクに落とされていたら、[r]一瞬でウルクは灰燼に[line 3]
+[k]
+
+[charaFace C 2]
+＠イシュタル
+ケツァル[messageShake 0.05 5 5 0.5]・コアトル！
+[k]
+
+[messageOff]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[scene 35010]
+[wt 0.1]
+[wipein upToDown 0.3 1]
+[wait wipe]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+[wt 0.7]
+
+[se ad203]
+[effect bit_talk_41]
+[wt 0.4]
+[cameraMove 0.5 0,0 2.0]
+[wipeout circleIn 0.5 1]
+[wait wipe]
+[effectStop bit_talk_41]
+[charaFadeout H 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[charaPut E 0,600]
+[charaEffect E bit_talk_32]
+[se ad203]
+[cameraMove 0.1 0,0 1.0]
+[wt 0.4]
+[wipein circleIn 0.5 1]
+[wait wipe]
+
+[wt 0.2]
+[se bac11]
+[charaEffect F bit_talk_14]
+[charaShake F 0.05 3 3 0.25]
+＠ケツァル・コアトル
+っ……！　飛行型のラフム……！[r]そうよね、むざむざやらせないわよね、こんなの！
+[k]
+
+[charaFace F 1]
+＠ケツァル・コアトル
+でもアクションが遅いデース！
+[k]
+
+＠ケツァル・コアトル
+もうやる事はやりましたヨー！[r]トットとマスターのところに戻り[line 3]
+[k]
+
+[wt 0.4]
+[messageOff]
+[charaFace F 7]
+[wt 1.0]
+
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[charaEffectStop E bit_talk_32]
+[seStop ad167 0.4]
+[charaFadeout F 0.1]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[scene 20733]
+[wt 0.1]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+[wt 0.2]
+[charaFace B 6]
+＠マシュ
+！　ケイオスタイド、復元！[r]いえ、これは[line 3]
+[k]
+
+＠マシュ
+ティアマト神です！[r]ティアマト神の足下からケイオスタイドが流出しています！
+[k]
+
+[messageOff]
+[se bac176]
+[seVolume bac176 0 0.2]
+[flashin once 0.1 0.3 FF0000AF FF000000]
+[wt 0.4]
+[flashin once 0.1 0.3 FF0000AF FF000000]
+[wt 0.2]
+
+[charaFace B 15]
+＠マシュ
+ケツァル・コアトル宝具、再度発現！[r]コアトルさん、宝具を展開中です……ッ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠イシュタル
+ケツァル・コアトル……！[r]アナタ、燃え尽きる気……！？
+[k]
+
+[messageOff]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[se ad167]
+[seVolume ad167 0 0.3]
+[charaPut E 0,600]
+[charaEffect E bit_talk_32]
+[scene 35010]
+[wt 0.1]
+[wipein upToDown 0.3 1]
+[wait wipe]
+
+[charaEffect F bit_talk_13]
+[wt 0.1]
+[se bac11]
+[se ad161]
+[charaShake F 0.05 3 3 0.7]
+[wt 0.4]
+[charaEffect F bit_talk_35]
+[wt 0.4]
+
+＠ケツァル・コアトル
+ぐ、っ……！
+[k]
+
+＠ケツァル・コアトル
+[#錐:キリ]状に変形して飛び技……！[r]ミサイルですか、アナタたち！
+[k]
+
+＠ケツァル・コアトル
+肩とかお腹とか太ももとか、[r]平気で貫通してくれちゃって……！
+[k]
+
+[messageOff]
+[charaEffect F bit_talk_13]
+[wt 0.1]
+[se bac11]
+[se ad161]
+[charaShake F 0.05 3 3 0.4]
+[charaFace F 7]
+[wt 0.4]
+[charaEffect F bit_talk_35]
+[wt 2.0]
+
+
+[charaTalk F]
+[charaFace F 1]
+＠ケツァル・コアトル
+いっつぅ……テンカウントが聞こえてきそうデース……
+[k]
+
+＠ケツァル・コアトル
+タフネスに定評のある私でも、[r]さすがに時間の問題[line 3]
+[k]
+
+[bgm BGM_EVENT_24 0.4 0.1]
+[charaMove F -3,0 0.1]
+[wt 0.1]
+[charaMove F 3,0 0.2]
+[wt 0.2]
+[charaMove F 0,0 0.1]
+[messageOff]
+[fadeout white 0.4]
+[wait fade]
+[charaFadeout F 0.1]
+[charaEffectStop E bit_talk_32]
+[scene 10001]
+[fadein white 0.1]
+[wait fade]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 1.5]
+[fadeout white 0.1]
+[wait fade]
+[charaPut E 0,600]
+[charaEffect E bit_talk_32]
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[scene 35010]
+[wt 0.1]
+[bgm BGM_EVENT_24 0.1]
+[fadein white 0.1]
+[wait fade]
+
+＠ケツァル・コアトル
+なんの、持ちこたえてみせますとも！[r]意地でもデル・ソルは止めないわ！
+[k]
+
+＠ケツァル・コアトル
+私が八つ裂きになるのが先か、[r]エレシュキガルの準備ができるのが先か！
+[k]
+
+[charaFace F 2]
+＠ケツァル・コアトル
+文字通り泥試合デース！[r]まる一日、勝負を長引かせ[line 3][wt 0.4][charaFace F 5]なんですって？
+[k]
+
+[messageOff]
+[charaEffectStop E bit_talk_32]
+
+[se ad204]
+＠ティアマト
+[line 3]A[line 3][r][line 3]Aaaa[line 3]Aaaaaaa[line 3]
+[k]
+
+[charaFace F 7]
+＠ケツァル・コアトル
+（大角が持ち上がっている……？）
+[k]
+
+＠ケツァル・コアトル
+（泥上で[#体積:おもさ]を緩和している魔力の素子が角に[r]　集まって、あれじゃまるで翼[line 3]）
+[k]
+
+[charaFace F 2]
+＠ケツァル・コアトル
+（[line 3]まずい。[r]　こいつ、[#飛ぶ気だ]……！）
+[k]
+
+[messageOff]
+[seStop ad167 0.4]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[charaFadeout F 0.1]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+[scene 20733]
+[wt 0.1]
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+＠マシュ
+太陽風、停止！[r]ケツァル・コアトルさん、戻ってきます！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad7]
+[shake 0.05 0 4 0.25]
+[wt 0.25]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠ケツァル・コアトル
+ハァイ、参りましたー！　ティアマト神……いいえ、[r]もうあんなのアイツでいいデース！
+[k]
+
+＠ケツァル・コアトル
+アイツ、とてもタフかつルール違反の[#悪役:ルーダ]デス！[r]マトモにやってはバカを見マース！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠イシュタル
+ええ、作戦はここまでね。
+[k]
+
+＠イシュタル
+海からの泥は蒸発させたけど、[r]ティアマト神からあの黒泥が発生する以上、話は別よ。
+[k]
+
+＠イシュタル
+至急、ウルクに戻りましょう。[r]対策を練り直さないと。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk depthOff]
+[charaDepth C 0]
+[charaDepth F 1]
+[charaTalk F]
+[charaFace C 8]
+[charaFadein C 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ケツァル・コアトル
+だめよ、イシュタル。[r]そんな投げやりになっては。
+[k]
+
+＠ケツァル・コアトル
+アナタも分かっているでしょうに。[r]ここで戻っても意味はない。
+[k]
+
+＠ケツァル・コアトル
+私たちがティアマトを止めないと、[r]今もウルクで進められている、最後の努力が無駄になるわ。
+[k]
+
+[charaFace C 2]
+＠イシュタル
+じゃあどうしろって言うのよ！？　アナタが死ぬまで[r]太陽だしてるところを見届けろって言うの！？
+[k]
+
+＠イシュタル
+そんな玉砕させるぐらいなら、[r]私もここで奥の手をだすわ！
+[k]
+
+[charaFace F 0]
+＠ケツァル・コアトル
+それもよくないの、イシュタル。[r]……アイツ、飛べるわよ。
+[k]
+
+[charaFace C 9]
+＠イシュタル
+[line 3]！
+[k]
+
+？1：飛べる……？　あの巨体で？
+？2：待った。それだと、全ての前提が……
+
+？！
+
+[charaFace F 0]
+＠ケツァル・コアトル
+ええ。足下の泥を蒸発させればいいだけじゃないわ。[r]飛べるという事は、落ちない、という事だもの。
+[k]
+
+[charaFace C 2]
+＠イシュタル
+嘘よ！　ティアマト神は[#地:キ]の女神、[r]決して[#天:アン]には近づかない！
+[k]
+
+＠イシュタル
+空を飛ぶなんて、そんな[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+ええ。だから、[%1]？[r]最後にちょっと、ごめんなさいね？
+[k]
+
+[bgm BGM_EVENT_24 0.4 0.4]
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale F 1.25]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,50]
+[wt 0.2]
+
+[se ad7]
+[fadeout black 0.25]
+[wait fade]
+[charaFadeout F 0]
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+[se ad30]
+[effect bit_talk_28]
+[wt 2.0]
+[fadeout black 0.1]
+[wait fade]
+[scene 20733]
+[fadein black 0.25]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 16]
+[charaFadein C 0.1 1]
+＠イシュタル
+ちょっ、なにしてんのアンタ！？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+[wt 1.0]
+[charaFadeout B 0.1]
+[wt 0.4]
+
+？1：～～～～～～！
+？2：これが……ムーチョ……ムーチョ……
+
+？！
+
+[bgm BGM_EVENT_24 0.7]
+
+[charaScale F 1.0]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+よーし、元気もらったデース！[r]もう一回、バシッと決めてきマース！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠マシュ
+え……ケツァル・コアトルさん、そんな体で何を！？[r]もうまともに戦える体ではありません！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+いいえ。まだ手足がついているわ。[r]私は火の鳥よ？　翼さえあれば何度でも羽ばたける。
+[k]
+
+＠ケツァル・コアトル
+イシュタル。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠イシュタル
+…………なによ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+先に行くわ。後はよろしくね。
+[k]
+
+[charaFadeout F 0.1]
+[messageOff]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+[charaFace C 6]
+＠イシュタル
+いってらっしゃい。ルチャの大技、期待してるわ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+モチロン！[r]マスターも見ていてくだサーイ！
+[k]
+
+＠ケツァル・コアトル
+とっておきの空中技でノックアウトしてきマース！
+[k]
+
+[messageOff]
+[se ad85]
+[charaEffect F bit_talk_21]
+[charaFadeout F 0.1]
+[wt 0.4]
+[charaEffectStop F bit_talk_21]
+[wt 1.2]
+
+[wipeout downToUp 0.3 1]
+[wait wipe]
+[scene 35010]
+[wt 0.1]
+[wipein upToDown 0.3 1]
+[wait wipe]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+……メソポタミア世界の武器では[r]傷一つ付けられない……そう言ったのは私でしたね。
+[k]
+
+[charaFace F 2]
+＠ケツァル・コアトル
+だが！　我が身はこの[#大地:せかい]の武器にあらず、[r]遠い魔境の神性なれば！
+[k]
+
+[charaTalk depthOff]
+[charaDepth F 0]
+[charaDepth E 1]
+
+[se ad136]
+[seStop ad136 1.0]
+[charaEffect F bit_talk_36]
+[charaFace F 2]
+
+[charaPut E 0,0]
+[charaFilter E silhouette FF000080]
+[charaFadeTime E 0.7 0.5]
+[wt 0.5]
+[se ad169]
+[seVolume ad169 0 0.5]
+＠ケツァル・コアトル
+メソポタミアの神、何するものぞ！
+[k]
+
+＠ケツァル・コアトル
+我ら南米の[#地下冥界:シバルバー]、[r]多くの生命を絶滅させた大衝突の力を見せてくれる！
+[k]
+
+＠ケツァル・コアトル
+我が身を燃える岩と成し、[r]彗星となって大地を殺す！
+[k]
+
+＠ケツァル・コアトル
+いくわよ[line 3]ウルティモ・トペ・パターダ！[r]燃えろ闘魂、[#炎、神をも灼き尽くせ:シウ・コアトル][line 4]！
+[k]
+
+[bgmStop BGM_EVENT_24 1.5]
+[messageOff]
+[seStop ad169 0.4]
+[charaEffectStop F bit_talk_36]
+[charaEffect F bit_talk_32]
+[wt 1.0]
+[se bac51]
+[charaSpecialEffect F erasureReverse 1 0.25]
+[charaSpecialEffect E erasureReverse 1 0.25]
+[charaEffectStop F bit_talk_32]
+[fadeout black 0.25]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[scene 10000]
+[wt 0.4]
+[fadein black 0.1]
+[wait fade]
+[effect bit_talk_rarrow01be]
+[wt 0.5]
+[se bac194]
+[wt 1.0]
+[wt 0.1]
+[wt 0.5]
+[flashin once 0.5 1.5 FFFFFFFF FFFFFF00]
+[wt 0.1]
+[se bac54]
+[wt 0.25]
+
+[wt 2.2]
+[se ad210]
+[wt 1.2]
+
+[se ad75]
+[seVolume ad75 0 0.5]
+[wt 1.5]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 1.0]
+[soundStopAll]
+[end]

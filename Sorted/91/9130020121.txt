@@ -1,0 +1,48 @@
+＄91-30-02-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 3011001 1 フィン]
+
+[scene 20900]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[wt 0.7]
+[se ad39]
+[flashin once 0.7 0.7 FFFFFFAF FFFFFF00]
+[wt 0.7]
+[fowardEffect bit_talk_30]
+[fowardEffectStop bit_talk_30]
+[wait fowardEffect bit_talk_30]
+[wt 1.0]
+
+[charaFace D 5]
+＠ディルムッド
+また槍が輝きを取り戻したぞ……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+あともう一歩のようです。[r]頑張りましょう！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_1 0.5]
+[wait fade]
+[soundStopAll]
+[end]

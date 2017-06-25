@@ -1,0 +1,342 @@
+
+＄91-50-17-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5017001 1 メディア・リリィ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98006100 1 デーモン]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+＠メディア・リリィ
+えーと、このあたりのはずなのですが……
+[k]
+
+[charaFace B 1]
+＠メディア・リリィ
+あ、ちょっと待ってくださいねマスター！[r]いますぐ索敵しますから！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+……はあ。本当に来てしまいましたね、先輩。[r]もう後戻りはできませんよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[se ad13]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+ああ、これからどんなサバトが始まるのか……[r][%1][&君:ちゃん]の勇気が試されるね……
+[k]
+
+？1：ははは、大げさだなあ、二人とも
+？2：まだ反対なの、二人とも？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+反対というか、頭が痛いというか……[r]一時間前の事を思い返してください、先輩。
+[k]
+
+[wt 0.3]
+[messageOff]
+[wipeout circleIn 1.0 1]
+[bgmStop BGM_EVENT_2 1.0]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 1.0]
+[scene 10204]
+[wipein circleIn 1.0 1]
+[wait wipe]
+[bgm BGM_EVENT_7 0.1]
+
+[wt 0.4]
+
+[charaTalk B]
+[charaFadein B 0.4 1]
+[charaFace B 1]
+[wt 0.4]
+＠メディア・リリィ
+～♪[r]～～♪♪
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFadein B 0.1 0]
+[charaFadein D 0.1 2]
+[charaFace D 0]
+＠ダ・ヴィンチ
+おや、今日もご機嫌だねメディアちゃん。[r]聞いたよ、英雄王と征服王のケンカを収めたって。
+[k]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+いやあ、あの二人の本気のケンカを止めるなんて、[r]並の英霊にできる事じゃない。
+[k]
+
+＠ダ・ヴィンチ
+仲直りの秘密は何なんだい？[r]呪いとか効かないだろ、あの二人には。
+[k]
+
+[charaFace B 0]
+＠メディア・リリィ
+いえ、あのお二人は相手が[r]憎くて争っているのではありませんから。
+[k]
+
+＠メディア・リリィ
+単に意見を言い合いたいだけなのです。[r]ですので、きちんとした落としどころを見つけて、
+[k]
+
+[charaFace B 1]
+＠メディア・リリィ
+最後にパンケーキを献上させていただきました。[r]困ったらパンケーキ。何がなくてもパンケーキです♡
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+そ、そうなんだ。[r]しかしキミの時代にケーキなんてあったかな？
+[k]
+
+＠メディア・リリィ
+[#現代:こちら]に召喚されてから勉強したんですよ。
+[k]
+
+＠メディア・リリィ
+魔術以外にも夢中になれるものがあって、それを美味しく[r]食べていただけるなんて、メディアは幸せです♡
+[k]
+
+＠ダ・ヴィンチ
+（……なるほど、これは勝てない。こんな幸せいっぱい[r]　オーラをあてられたら、竜だってケンカを止めるな……）
+[k]
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace B 4]
+＠メディア・リリィ
+ああ、でも……最近は困っています。[r]カルデアの食料備蓄が、その……
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+あ。そうか、一年分の食料はあるけど、[r]お菓子に回せる余裕はなかったっけ。
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+メディアちゃん、魔術でなんとかならないかい？
+[k]
+
+＠メディア・リリィ
+はい。レイシフトで跳んだ先なら[r]いくらでも材料を錬成できるのですが……
+[k]
+
+＠メディア・リリィ
+カルデアに戻ってくる時には[r]手持ちの材料しか持ち運べなくて。
+[k]
+
+＠メディア・リリィ
+時空のゲートも[%1]さん、[r]マシュちゃんの分だけでギリギリですから、
+[k]
+
+＠メディア・リリィ
+こちらに持ち込めるものといったら、[r]パンケーキ一つ分の材料ぐらい[line 3]あ[bgmStop BGM_EVENT_5 0.4][charaFace B 0]。
+[k]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+どうかしたかい？　何かひらめいた？
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+[charaFace B 1]
+＠メディア・リリィ
+はい！　私、ガラにもなくひらめきました！[r]きっと天才であるダ・ヴィンチさんのおかげです！
+[k]
+
+＠メディア・リリィ
+一つしかパンケーキが運べないのなら、その一つを[r]無限に食べられるケーキにすればいいんですっ！
+[k]
+
+＠メディア・リリィ
+そう、どんなに滅ぼしても再生する材料[line 3][r]あの魔神柱の魔力因子なんてどうでしょう！
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+[line 3]はい？
+[k]
+
+＠メディア・リリィ
+ああ、急いで[%1]さんにお願いしないと！[r]みんなで魔神柱を狩りに行きましょうって！
+[k]
+
+[wt 0.3]
+[messageOff]
+[wipeout circleIn 1.0 1]
+[bgmStop BGM_EVENT_4 1.0]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 1.0]
+[scene 21100]
+[wipein circleIn 1.0 1]
+[wait wipe]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+そして一生懸命に“魔神柱を狩りに行きましょう”と[r]懇願するリリィさんに負けてしまった、と……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……メディアって、もとは天然だったんだね……
+[k]
+
+＠Dr.ロマン
+イアソンに酷い目に遭わされて[r]ようやく現実を知ったというか……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠メディア・リリィ
+みなさん、見つけました！[r]魔神柱の残留魔力です！
+[k]
+
+[charaFace B 0]
+＠メディア・リリィ
+では、これを触媒にして他の魔神柱を釣り上げますね。[r]七十二柱もいるのですもの、一柱ぐらいいいですよね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+……そんな、魔神柱を今日の夕飯みたいに……
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+[se ad39]
+[charaPut D 0,-200]
+[charaEffect D bit_talk_06]
+＠メディア・リリィ
+それでは召喚陣を作ります。[r]メイプルハニ～、バニラクリーム～
+[k]
+
+[charaFadeout B 0.1]
+
+[charaPut D 0,-800]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+もう呪文詠唱さえ甘々だな、あの魔女さんは！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaPut D 0,-200]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠メディア・リリィ
+カスタードベルホイップ～！
+[k]
+
+＠メディア・リリィ
+レッツクッキ……じゃなくて、レッツサモン！[r]魔の痕跡から出でよ、深淵の同属よ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaEffectStop D bit_talk_06]
+[wt 0.3]
+
+[messageOff]
+[charaEffect E bit_talk_15]
+[se ad29]
+[wait charaEffect E]
+[seStop ad29 2.0]
+
+[charaTalk E]
+[charaFadein E 0.4 1]
+[charaFace E 0]
+[se ad24]
+[seStop ad24 2.0]
+＠デーモン
+ＣＨＯ[line 3]ＣＨＯＣＯＬＡＴＥＯＯＯＯＯＯ[bgm BGM_EVENT_3 0.1]！！！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+＠メディア・リリィ
+ご、ごめんなさいマスター！[r]しっぱいです、普通の悪魔が出てきました！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+＠マシュ
+間違えたからです。呪文を間違えたからです。[r]レッツクッキングとか言ったからです。
+[k]
+
+＠メディア・リリィ
+言わないでマシュちゃん、反省してるから！[r]とりあえずこの人たちを追い返しましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

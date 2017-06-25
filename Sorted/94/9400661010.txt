@@ -1,0 +1,377 @@
+＄94-00-66-10-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103400 1 クロエ]
+[charaSet C 98002000 1 フォウ]
+[charaSet E 5002001 1 ジル]
+
+[scene 11010]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ジル
+おお……ジャンヌ！！
+[k]
+
+？1：ジャンヌ？　誰が！？
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ジル・ド・レェさん……？[r]あなたまで四天王に加わっていたなんて……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ファンシーなグッズに囲まれて[r]強烈なビジュアルの人が現れたわね。
+[k]
+
+[charaFace B 5]
+＠クロエ
+でも、んー？　ジル・ド・レェって、[r]ジャンヌ・ダルクと一緒に戦った元帥さんでしょ？
+[k]
+
+＠クロエ
+どうして魔法少女？[r]どっちかっていうと聖女とか魔女絡みじゃないの？
+[k]
+
+
+？1：なるほど。それもそう[&だ:だね]
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ジル
+魔法ばかりが[#奇跡]ではありません。[r]神の[#奇蹟]を体現する少女もまた、魔法少女の[#範疇:カテゴリー]です。
+[k]
+
+[charaFace E 1]
+＠ジル
+充分に発達した科学技術を[r]魔法のように振るう魔法少女[line 3]
+[k]
+
+＠ジル
+種も仕掛けもある奇術を[r][#研鑽:けんさん]により魔法の域にまで高めた魔法少女[line 3]
+[k]
+
+[charaFace E 2]
+＠ジル
+そんな魅惑の乙女たちが存在して[r]何の問題がありましょうぞ！　いや、いるべきです！
+[k]
+
+[charaFace E 0]
+＠ジル
+神の声を聞き、兵たちの力へと変える初々しいジャンヌは[r]私にとってまさに神風を呼ぶ魔法少女だったのです……！
+[k]
+
+[charaFace E 3]
+＠ジル
+嗚呼……左右もおぼつかず、[r]あどけなかった頃のジャンヌよ再び……。
+[k]
+
+
+？1：ガッテンした。ジャンル分け大事
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+今の説明で納得されたのですか？
+[k]
+
+
+？2：いろんなライダーがいるみたいなもの[&か:だね]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+そうね。黒髭みたいな船乗りもライダークラスって聞いて、[r]ちょっと面食らったけど。
+[k]
+
+[charaFace B 0]
+＠クロエ
+だったら電車乗りとか、ロケット乗りとかの[r]ライダークラスがいてもいいわけよね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+？！
+
+[charaFace A 4]
+＠マシュ
+そう言われるジルさんご自身は[r]キャスタークラスに所属されているわけですが……
+[k]
+
+
+？1：杖の使い魔を使役してたのは、もしかしてジル？
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ジル
+滅相もございません！
+[k]
+
+[charaFace E 4]
+＠ジル
+私の薄汚れた手で、あの御方の[#魔杖:ステッキ]を操るなど[r]ありえましょうか！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+また、あの御方が出たわね。
+[k]
+
+
+？2：黒髭と青髭でヒゲがダブってしまったぞ
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠クロエ
+あと白髭、赤髭、茶髭で[r]ヒゲオリンピックよね。一切観ないけど。
+[k]
+
+
+？！
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_3 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ジル
+おお、[#其方:そなた]は？　お、おおぅ……[r]褐色のジャンヌ！！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+[line 3]は？　わたし？[r]誰がジャンヌですって？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ジル
+その眼差しと目元、気品のある鼻筋、[#毅然:きぜん]とした仕草、[r]すべてが瓜二つ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+は、はぁ[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ジル
+おお、魔法少女よ[line 3]魔法の幼き聖女よ！
+[k]
+
+[charaFace E 3]
+＠ジル
+[#疾:と]く[#疾:と]く降臨し[#給:たま]え[line 3][r][#御旗:みはた]を振るいて我らを善く[#導:みちび]き[#給:たま]え！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あの、それよりもジルさん、[r]この儀式めいた祭壇や大量の[#供え物:アイテム]はいったい[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ジル
+……ややっ、これは！？
+[k]
+
+[charaFace E 5]
+＠ジル
+ジャァァンヌ！！[r]眼鏡が似合うであろう、なすびカラーのジャンヌ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、それはもしや……？[r]今度はわたしなんですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠ジル
+その[#御髪:おぐし]のキューティクル、慈愛を[#湛:たた]えた唇、[r]救国の夢の詰まりし、たわわな乳房がなによりの[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+デミ・サーヴァントです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ちょ、なんでもいいわけ？[r]いったい何人ジャンヌがいるのよ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ジル
+おおぅ……！　これはなんと、なんという[#僥倖:ぎょうこう]！[r]今日は三人ものジャンヌが！
+[k]
+
+
+？1：え……っ、まさか自分[&まで:も]？
+？！
+
+
+[charaFace E 3]
+
+＠ジル
+おおぅ……ジャンヌ！[r]毛むくじゃらのジャンヌ！
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_32 0.5]
+
+[charaTalk C]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+[charaFadein C 0.1 0]
+
+[charaShake C 0.05 3 3 0.5]
+＠フォウ
+フォウッ！？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace E 1]
+＠ジル
+愛らしい耳！　尻尾を[#彷彿:ほうふつ]とさせるふさふさと豊かな髪！[r]まさにジャンヌに生き写しです！
+[k]
+
+[charaShake C 0.05 3 3 0.5]
+＠フォウ
+キュゥ～、フォフォーウ！！
+[k]
+
+
+？1：……うん……[#戦闘:や]ろうか。フォウ
+？2：なぜか[&残念がっている自分がいる……:屈辱感を拭えない……]
+
+？！
+
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[wt 0.1]
+[charaShake C 0.05 0 16 0.8]
+＠フォウ
+フォウ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

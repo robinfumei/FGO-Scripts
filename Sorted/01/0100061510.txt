@@ -1,0 +1,148 @@
+＄01-00-06-15-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98014000 1 砦の兵士]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 6003001 1 百貌のハサン]
+
+[scene 20402]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.4 1]
+＠百貌のハサン
+遅いわ、たわけ共！[r]私だけで半刻戦い続けるとか、死ぬかと思ったぞ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+あわわ、申し訳ありません……！[r]お疲れ様でした、百貌さん！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠静謐のハサン
+……貴方は……西の村の？[r]貴方まで来てくれたのですか……？
+[k]
+
+[charaFace F 0]
+＠百貌のハサン
+む。首尾良くいったようだな。
+[k]
+
+＠百貌のハサン
+……ふん。先ほどアグラヴェインが早馬で[r]聖都方面に逃げていったからな。まあ、予感はしていた。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠百貌のハサン
+よくやったものだ、[%1]。[r]私の激闘も徒労ではなかったようだ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+
+[se ad166]
+[wt 1.0]
+[seStop ad166 2.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace F 4]
+＠百貌のハサン
+……まだ生き残りがいたか。[r]連中の相手はおまえたちに任せる。
+[k]
+
+＠百貌のハサン
+私は馬を奪ってくる。もう頭が働かぬ。[r]ああ、甘い果物が食べたい……
+[k]
+
+？1：肉体労働なのに頭脳労働なんだね
+
+[charaFace F 3]
+＠百貌のハサン
+そうだとも。私は自分の人格を刃にして[r]戦っているようなものだ。
+[k]
+
+＠百貌のハサン
+長時間戦えば、それだけ思考が鈍っていく。[r]今は馬を盗んでくるぐらいしかできん。
+[k]
+
+？2：お饅頭、もってくれば良かった
+
+[charaFace F 4]
+＠百貌のハサン
+オマンジュウ……？　ロクムのようなものか？[r]なんであれ差し入れなら大歓迎だ。
+[k]
+
+＠百貌のハサン
+我々の村は慢性的な食料不足だからな。[r]子供たちに甘いものぐらい食べさせてやりたい。
+[k]
+
+？！
+
+[charaFace F 0]
+＠百貌のハサン
+……まあいい。静謐の翁よ。[r]その腕、[%1]に見せる時だ。
+[k]
+
+＠百貌のハサン
+これからはその[&男:娘]が我らの旗頭となる。[r]何ができるかをアピールしておけ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+それは、はい！[r]お任せください、[%1]様！
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠砦の兵士
+いたぞ、こっちだ！[r]ゴーレムをありったけ連れてこい！
+[k]
+
+[se ad57]
+
+＠砦の兵士
+ひとりも逃がすな、皆殺しにしろ！
+[k]
+
+
+
+
+[messageOff]
+[seStop ad57 0.5]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

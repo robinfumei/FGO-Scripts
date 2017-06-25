@@ -1,0 +1,236 @@
+
+＄94-00-77-05-1-1
+
+[soundStopAll]
+
+[se ad2]
+[seVolume ad2 0 0.5]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1010001 1 エリザベート]
+[charaSet E 98003003 1 Dr.ロマン]
+[charaSet F 7022001 1 茨木童子]
+
+[scene 21804]
+[fadein black 2.0]
+[wait fade]
+
+[seStop ad2 5.0]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠茨木童子
+緑の人よ！[r]緑の吉報、緑の行者、緑の仙人、森の賢人よ！
+[k]
+
+＠茨木童子
+これこの通り、もはや邪魔者はおらぬ！[r]さあ来い！　[#吾:われ]に節分をするがよい！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠ロビンフッド
+はいはいお疲れさんと。けど森の賢人は今後ＮＧな。[r]言ったら二度とチョコやらねえからな。
+[k]
+
+[wt 0.2]
+
+[se ad27]
+[seVolume ad27 0 0.3]
+[charaShake C 0.05 2 2 0.4]
+[wt 0.7]
+
+[charaMoveReturn C -10,0 0.3]
+[se ad28]
+[seVolume ad28 0 0.4]
+[wait se ad28]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠茨木童子
+うむ、しかと覚えた。[#吾:われ]はそのあたり賢いぞ。[r]しかし……[se ad182][seVolume ad182 0 0.4][charaShake F 0.05 4 4 0.4]うむ。[charaChange F 98105300 0 normal 0][wait charaMove F][charaFace F 0]うむうむうむ。
+[k]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaMove F 0,-4 0.3]
+[wait charaMove F]
+
+[charaChange F 7022001 0 normal 0]
+[wait charaChange F]
+[charaMove F 1 0.1]
+[wait charaMove F]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaChange F 98105300 0 normal 0]
+[wait charaMove F]
+[charaMove F 0,-4 0.3]
+[wait charaMove F]
+
+[charaChange F 7022001 0 normal 0]
+[wait charaChange F]
+[charaMove F 1 0.1]
+[wait charaMove F]
+
+[wt 0.4]
+
+[charaFace F 1]
+＠茨木童子
+しかし、チョコレイトは溶けるが、[r]歯応えのない敵だったな！
+[k]
+
+[charaFace F 0]
+＠茨木童子
+これでは報酬のチョコレイトも少ないというもの。[r]もはやこの国に見所はない！　と断言しよう！
+[k]
+
+＠茨木童子
+さらば！　さらばだ！
+[k]
+
+[se ad132]
+[charaMove F 1024,0 1.5]
+[wait charaMove F]
+[seStop ad132 1.0]
+[charaFadeout F 0.1]
+[messageOff]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+そうなの？　ピラミッドの女王様を倒せば、[r]山ほどお菓子が食えるんだけどなー。[charaFace C 1]いや残念。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1024,0]
+[charaEffect F bit_talk_42]
+[charaMove F 1 0.2]
+[se bac122]
+[wait charaMove F]
+[charaEffectStop F bit_talk_42]
+＠茨木童子
+やはりピラミッドか。[r]いつ出立する？
+[k]
+
+？1：イバラギン……
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaTalk E]
+[communicationCharaLoop 98003003 0 5 0 0]
+[communicationCharaFace 0]
+＠Dr.ロマン
+ふむ。予定外の仲間だけど、[r]茨木童子の戦闘力は本物だ。それに……
+[k]
+
+＠マシュ
+それに、なんでしょうドクター？
+[k]
+
+＠Dr.ロマン
+彼女が人間の文化に興味を示すのは[r]いい事だと思ってね。
+[k]
+
+＠Dr.ロマン
+根底にある人間への攻撃性は変えられないにしても、[r]お互い、共通の“好物”を持つのはいい事だよ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+それは確かに。[r]それが相互理解に繋がると思います。
+[k]
+
+＠Dr.ロマン
+うん、そういうワケで[%1][&君:ちゃん]。[r]大変だろうけど、茨木童子を頼んだよ。
+[k]
+
+？1：はい、がんばります！
+？2：もう完全にチョロいん
+
+？！
+
+[bgmStop BGM_EVENT_2 1.5]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠茨木童子
+さて、それで次はどこに向かう？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エリザベート
+次は……溶岩地帯ね！[r]……[bgm BGM_EVENT_5 0.1][charaFace D 7]溶岩ってどういうことなの……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+と、ともかく行ってみましょう。[r]現場を見てみないことには……！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[scene 31900]
+[seLoop ad14]
+[fadein black 2.0]
+[wait fade]
+
+＠全員
+[messageShake 0.05 4 4 0.7]
+[f large]熱！！
+[k]
+
+[seStop ad14 2.0]
+[wt 0.4]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[soundStopAll]
+[end]

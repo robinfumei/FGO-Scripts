@@ -1,0 +1,218 @@
+
+＄94-00-57-05-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 2025200 1 アン]
+[charaSet E 3025000 1 清姫]
+[charaSet F 2025100 1 メアリー]
+[charaSet G 4024000 1 モードレッド]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+そろそろ、安定した食料の供給を目指すべきであろうな。
+[k]
+
+＠スカサハ
+つまりは畑だ。[r]野菜畑を作るぞ。
+[k]
+
+
+？1：まず野菜からですか？
+？！
+
+
+＠スカサハ
+うむ。穀物より、総じて野菜のほうが栽培はしやすい。[r]最初は野菜からがよかろう。
+[k]
+
+＠スカサハ
+作付けするものの種類はマスターが決めるがいい。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+お野菜……ですか。いろいろ種類はありますね。[r]どうしましょう、先輩？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+それでは、普通に大根などいかがでしょう？
+[k]
+
+＠清姫
+煮物にお鍋にお味噌汁に……大根はいろいろと[r]レシピも豊富ですよ？
+[k]
+
+[charaFace E 1]
+＠清姫
+わたくしの愛の手料理が……つまりわたくし成分が[r]ますたぁのお口に入り、喉を通り抜け、胃袋に染み渡り、
+[k]
+
+＠清姫
+細胞の一つ一つと同化し、わたくしとますたぁが[r]一つの存在となっていく[line 2]
+[k]
+
+[charaFace E 3]
+＠清姫
+ああ、それはもしや、わたくしとますたぁの交合と[r]言っても過言ではないのでは！？　きゃーっ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+なるほど大根。[r]そうですね、私はブリ大根などが好きです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠アン
+わたくしはキャベツがいいと思いますわ。
+[k]
+
+＠メアリー
+確かに。用途の多さでは大根にも負けていないと思う。
+[k]
+
+＠アン
+それに、船乗りにとってキャベツは救世主のようなもの[r]らしいですから。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+なるほどキャベツ。[r]私はロールキャベツなどが好きです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠モードレッド
+オイオイちょっと待った。[r]オマエら、大事なことを忘れてるぜ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……それは？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠モードレッド
+それはな[line 2]今が夏で、ここが島だってことだ！
+[k]
+
+[charaFace G 2]
+＠モードレッド
+つまり、作るべきモノは一つだろ？[r][line 2]スイカだ。
+[k]
+
+
+？1：意味はわからんがとにかくすごい自信だ！
+？2：そう言えばスイカも野菜かぁ……
+？！
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+……ほう？　なるほど。そう言えばそんなものも……[r]ふむ、一つ乗ってみるのも面白いかもしれんな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+なるほどスイカ。[r]私はスプーンは使わない派です。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+こ、このままだと収拾がつかなくなりそうですね……[r]先輩、ズバッと決断をお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

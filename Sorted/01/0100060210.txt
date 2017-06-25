@@ -1,0 +1,228 @@
+＄01-00-06-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_11 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet B 98006300 1 ？？？]
+
+[scene 28801]
+[backEffect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+移動距離、じき十キロメートルになります。[r]……マスター、もうしばらくの辛抱を。
+[k]
+
+[charaFace A 3]
+＠マシュ
+そ、それともわたしがお運びしましょうか？[r]盾に乗っていただいて、縄で引っ張るとかすれば……
+[k]
+
+？1：……いや、それより……
+？2：……なんだか、息苦しくて……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 3]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+……やっぱりね。魔力の濃度が濃すぎるんだ。[r][%1][&君:ちゃん]、はいこれ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+それは……酸素ボンベ、ですか？[r]いつの間にそんなものを……
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+うん。急ごしらえで作った魔力遮断マスクだよ。[r]ここの大気は人間にはちょっときつい。
+[k]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+なに、その為の私だからね。でも、ありがとうの[r]言葉は嬉しいのでジャンジャン言ってくれたまえ！
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+さあ、あと少しで水源だ。[r]砂嵐の向こうに大きな建物が見えないかい？
+[k]
+
+＠ダ・ヴィンチ
+きっとあれは神殿だ。[r]あそこまで行けば[bgmStop BGM_EVENT_11 0.7]とりあえず落ち着[line 3]
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+ごめん。ここまで来てなんだけど、[r]こっちはダメだ。引き返そう。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace A 14]
+＠マシュ
+なぜですか！？[r]あともう少しなのに！
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+うん。ここから建物までの間の砂漠に[r]無数の影が見える。二人も見てごらん。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[messageOff]
+[cameraMove 1.0 150,0 1.5]
+[wait camera]
+[cameraMove 2.0 -150,0 1.5]
+[wait camera]
+[cameraHome 1.0]
+[wait camera]
+[wt 0.4]
+
+？1：……ひー、ふー、みー……
+？2：二十から数えるのをやめた
+
+？！
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+確かに何かが徘徊していますが……[r]あれはなんでしょう？
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+うん。全部、さっきのスフィンクスだ。[r]あの神殿を中心にスフィンクスが放し飼いにされている。
+[k]
+
+[charaFace A 6]
+＠マシュ
+！
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+ここを進むのは自殺行為だ。[r]別の避難所を見つけよう。
+[k]
+
+＠ダ・ヴィンチ
+ついでに言うと、[r]あの神殿の主は誰なのか[#大凡:おおよそ]の見当もついた。
+[k]
+
+＠ダ・ヴィンチ
+私たちだけでは神殿には入れない。[r]だから違うルートを探そう。
+[k]
+
+＠ダ・ヴィンチ
+なに、いざとなったら秘蔵の万能コテージを[r]提供するから安心して。[bgmStop BGM_EVENT_5 1.0]三回までなら快適な[line 3]む？
+[k]
+
+[charaFace A 14]
+＠マシュ
+……いま、[bgm BGM_EVENT_3 0.1]神殿方向からこちらに向かってくる[r]影が見えたような……スフィンクスですか！？
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+よし、今すぐ逃げよう！　なんとなく[#髑髏:どくろ]の面が[r]見えた気もするけど、それはそれだ！
+[k]
+
+[messageOff]
+[se ad132]
+[seStop ad132]
+[charaFadeout D 0.4]
+[charaFadeout A 0.4]
+[wt 1.0]
+
+？1：髑髏の……面？
+？2：ちょっと待って！
+
+？！
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+マスター！？[r]何か気になる事でも……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+うわ、早いぞこの反応！？[r][%1][&君:ちゃん]がモタモタしてるから[line 3]
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+……うん？　スフィンクスにしては魔力量が少ないし、[r]この数は……もしかして、人間？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[se ad78]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠？？？
+[line 3]チ、先回りされたか！[r]兵士を差し向けているとは、さすがは太陽王よ。
+[k]
+
+＠？？？
+女王を捕まえておれば怪物どもは手出しはせぬが、[r]相手が人間であれば魔除けも効かぬ。
+[k]
+
+＠？？？
+時間がない、片付けよ！[r]ただし一人は生かせ！　貴重な情報源になる！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+っ……！　目測ですが敵影、その数10！[r]みな人間です！
+[k]
+
+＠マシュ
+うち一人は手足を縛られた女性を抱えています！[r]先輩、指示を……！
+[k]
+
+？1：迎撃だ、マシュ！　でも優しく！
+？2：こっちはみんな、峰打ちでね！
+
+？！
+
+[charaFace A 1]
+＠マシュ
+……はい！[r]お任せください、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[soundStopAll]
+[end]

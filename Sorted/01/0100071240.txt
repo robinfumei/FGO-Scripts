@@ -1,0 +1,472 @@
+
+
+
+＄01-00-07-12-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 8001002 1 マシュ]
+[charaSet E 3028000 1 ジャガーマン]
+[charaSet F 2020001 1 イシュタル]
+[charaSet G 98107700 1 ジウスドゥラ]
+[voice NP_502300_1]
+[voiceStop NP_502300_1]
+
+[se ad55]
+[seVolume ad55 0 0.5]
+
+[scene 34000]
+[fadein black 2.0]
+[wt 1.0]
+[seStop ad55 1.5]
+[wait fade]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+敵陣を突破、神殿に到達した！[r]って、なんか凄いのが後ろにあるぞ[line 3]！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠マーリン
+あれが“マルドゥークの斧”だ！[r]私もちょっと驚いている、話より数倍大きい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+＠ケツァル・コアトル
+ハーイ！　ようこそ私の太陽神殿へ！
+[k]
+
+＠ケツァル・コアトル
+脇目も振らずに一直線、とっても素敵デース！[r]もちろん今日の事だけじゃありまセーン！
+[k]
+
+＠ケツァル・コアトル
+私の襲撃からここまで、シークタイムなしの超特急！[r]予想通りでウキウキしてきました！
+[k]
+
+＠ケツァル・コアトル
+[%1][&君:さん]ならそうだろうと[r]信じて待ってた甲斐がありマース！
+[k]
+
+＠ケツァル・コアトル
+ほんっとうに、なんていうか[line 3]
+[k]
+
+[charaFace C 6]
+＠ケツァル・コアトル
+エリドゥの外で時間潰しとかされなくて良かったわ。
+[k]
+
+＠ケツァル・コアトル
+そんな腑抜けたマネをしていたら、[r]主義に反して[#鏖:みなごろし]にしていたからネ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 15]
+[charaFadein D 0.1 1]
+＠マシュ
+……！[r]敵サーヴァント、物凄い圧力です……！
+[k]
+
+[charaFace D 7]
+＠マシュ
+でも、わたしたちで彼女を止めなければ、[r]マスターが祭壇に向かえない……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+おっと、いけないいけない。[r]私ったら大人げない。
+[k]
+
+＠ケツァル・コアトル
+そっちにいてはいけないお馬鹿さんの顔が見えたから、[r]ちょっと野性に帰ってしまったわ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャガーマン
+あ。やば。戦闘になったら私、真っ先に殺されるわ。[r]そんな未来を予知したわ。確実に。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+イエ～ス☆[r]アナタには常に手加減抜きデ～ス。三枚に下ろしマ～ス！
+[k]
+
+[charaFace C 0]
+＠ケツァル・コアトル
+よし。それじゃあ戦いましょう！[r]方法はどうあれ、私を倒しに来たのでしょう？
+[k]
+
+＠ケツァル・コアトル
+その勇気と行動力に敬意を表します。[r]いかなる闘争、いかなる挑戦からも退きません。
+[k]
+
+[charaFace C 1]
+＠ケツァル・コアトル
+だって、私はそれが楽しいから！[r]人間は[#隅々:すみずみ]までいじり甲斐のある生き物です！
+[k]
+
+＠ケツァル・コアトル
+殺してよし。生かしてよし。[r]脅してよし。庇護してよし。
+[k]
+
+＠ケツァル・コアトル
+私にはもう[#第一世代:はくあき]の記憶はありませんが、[r]代を積み重ねた情報種子がこう言うのです！
+[k]
+
+[charaFace C 2]
+＠ケツァル・コアトル
+[#人間:アナタ]たちを愛している。[r][#人間:アナタ]たちと共存したい。
+[k]
+
+＠ケツァル・コアトル
+[#この生命種こそ、私たちの生き甲斐だと]！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠マシュ
+人間が、生き甲斐[line 3]
+[k]
+
+？1：その主張は破綻している……！
+
+？！
+
+[charaFace D 7]
+＠マシュ
+はい！　生き甲斐である人間を、アナタは[r]滅ぼそうとしているのではありませんか！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+え、えへへ……。正面から叱られるの、[r]くすぐったいデスネ！　癖になりそうです！
+[k]
+
+[charaFace C 0]
+＠ケツァル・コアトル
+[line 3]でも、破綻はしていないわよ？[r]人間社会でも普通の事でしょう、これって？
+[k]
+
+＠ケツァル・コアトル
+生き甲斐というのは“趣味”ではないの。[r]そうしないと生きていけない方向性を指すのよ。
+[k]
+
+＠ケツァル・コアトル
+私は人間をいじらないと生存できない神性なの。[r]宿主となった人間の内部構造だけじゃない。
+[k]
+
+＠ケツァル・コアトル
+人間という種をより長く存続させる為に、[r]一部を伸ばし、一部を削り、環境に適応させる。
+[k]
+
+＠ケツァル・コアトル
+このサイクルを行う事が私の生命活動。[r]命としての意義なのです。
+[k]
+
+＠ケツァル・コアトル
+分かりましたか？　私は人間でもっと遊びたいから[r]『三女神同盟』の一柱としてこの試練に参加しました。
+[k]
+
+＠ケツァル・コアトル
+私がいるかぎり、とりあえず人間たちに滅びはありません。[r]ですが当然、安全も安心も存在しません。
+[k]
+
+[charaFace C 1]
+＠ケツァル・コアトル
+でも笑って！　自由だけは保障するから！[r]自由に、私という脅威から逃げ回ってくだサーイ！
+[k]
+
+＠ケツァル・コアトル
+私は心の底からその姿を楽しみマース！[r]指先で蟻を潰す、いたいけな少女のように！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+＠イシュタル
+[line 3][%1]。[r]これ以上の会話は無駄よ。
+[k]
+
+＠イシュタル
+この土地にも色々な神がいるけど、コイツは別格！[r]ここまで愛情の出力方法がズレてる神性は他にいないわ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+ヤー！　照れるねー！[r]なぜ私が[%1]にラブラブだと分かったネー！
+[k]
+
+？1：バカな、いつの間に！？
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠マーリン
+交通事故のようなものだね……
+[k]
+
+＠マーリン
+ボクも美人なら中身は気にしない派だが、[r]これはさすがに同情してしまうな……
+[k]
+
+[charaFadeout B 0.1]
+
+？2：デ・ナーダ。ムーチョムーチョ！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠マシュ
+シリアスな場面ですので！[r]先輩は、覚えたてのスペイン語は控えてください！
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+さて。アナタたちの狙いは太陽石でしょう？
+[k]
+
+＠ケツァル・コアトル
+私を止められれば止められた時間だけ、[r]マスターにチャンスが与えられる。
+[k]
+
+＠ケツァル・コアトル
+いいわ。その試合形式で行きましょう。[r]でも、その前に一つだけお願いがあるの。
+[k]
+
+[charaFace C 1]
+＠ケツァル・コアトル
+[%1][&君:さん]。[r]どんな戦いであれ、喜びを忘れないでネ？
+[k]
+
+＠ケツァル・コアトル
+私は楽しいから戦うのです！[r]人間だって楽しいから戦うのです！
+[k]
+
+＠ケツァル・コアトル
+憎しみを持たなければ相手を殺すまではいかないわ！[r]それがルチャリブレの醍醐味、美点だわ！
+[k]
+
+＠ケツァル・コアトル
+だからアナタもこのピンチを楽しんでね？[r]そうすれば、もっと分かり合える筈なのデース！
+[k]
+
+[messageOff]
+[se ad39]
+[seVolume ad39 0 0.2]
+[bgmStop BGM_EVENT_3 0.25]
+[fadeout white 0.25]
+[wait fade]
+[charaFadeout C 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[seLoop ad112]
+[charaEffect F bit_sepia01]
+[scene 32900]
+[wt 0.1]
+[seStop ad39 0.6]
+[fadein white 0.25]
+[wait fade]
+
+＠ジウスドゥラ
+[line 3]ゆめ忘れるな[line 3][r][line 3]楽しみを持つ者に[line 3]
+[k]
+
+[messageOff]
+[seStop ad112 0.4]
+[fadeout white 0.25]
+[wait fade]
+[charaClear F]
+[charaFadeout G 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[scene 34000]
+[wt 0.1]
+[fadein white 0.25]
+[wait fade]
+
+
+[input selectBranch]
+[seStop ad55 0.4]
+[seStop ad39 0.4]
+[seStop ad112 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[scene 34000]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 8001002 1 マシュ]
+[charaSet E 3028000 1 ジャガーマン]
+[charaSet F 2020001 1 イシュタル]
+[charaSet G 98107700 1 ジウスドゥラ]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[messageOff]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+[flag SEL01 false]
+[flag SEL02 false]
+？1：ケツァル・コアトルとわかり合う
+
+[flag SEL01 true]
+
+？2：ケツァル・コアトルとはわかり合えない
+
+[flag SEL02 true]
+
+？！
+
+[branch sel01 SEL01]
+[branch sel02 SEL02]
+
+[label sel01]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace C 1]
+＠ケツァル・コアトル
+それでこそデース！[r]私も最高にノッて来たわ！
+[k]
+
+＠ケツァル・コアトル
+戦いこそ私たちの喜び！　生存という生命原理！[r]神と人を融け合わせるコミュニケーション！
+[k]
+
+＠ケツァル・コアトル
+さあ、全力で、どこまでも戦いましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+[label sel02]
+
+[wt 1.0]
+[charaFace C 1]
+＠ケツァル・コアトル
+[line 9]。[r][line 9]ハッ！？
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace C 4]
+＠ケツァル・コアトル
+あまりの悲しさに固まってしまいました……[r]戦いを楽しめないとか、それ、私の全否定デース……
+[k]
+
+[charaFace C 5]
+＠ケツァル・コアトル
+いいわ、それじゃあ逆に訊いちゃうから！
+[k]
+
+＠ケツァル・コアトル
+[%1][&君:さん]にとって、[r]戦いは何なのかしら！？
+[k]
+
+？1：その後の『楽』のために、全力で乗り越えるものです
+？！
+
+
+[charaFadeout C 0.1]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 1.5]
+[charaTalk off]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[wt 1.5]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+[line 3]そう。そういう人間でしたか。
+[k]
+
+＠ケツァル・コアトル
+素敵な答えね。[r]ひねり潰してあげたくなっちゃうぐらい、素敵。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace C 1]
+＠ケツァル・コアトル
+いいわ！　なら見事、私を乗り越えていきなさい！[r]ああ、楽しみね、楽しいわ！
+[k]
+
+＠ケツァル・コアトル
+アナタの世代まで育ってくれれば、[r]私たちが夢見た人類が生まれるなんて！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

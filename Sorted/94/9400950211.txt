@@ -1,0 +1,140 @@
+
+＄94-00-95-02-1-1
+
+[charaSet A 1017001 1 武蔵]
+[charaSet B 98075000 1 助六]
+[charaSet C 6008002 1 クレオパトラ]
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[scene 28220]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+[wt 0.4]
+[effect bit_talk_Slash_red_01]
+[se bac136]
+[wt 0.2]
+[effect bit_talk_13]
+[charaShake C 0.05 4 0 0.7]
+＠クレオパトラ
+きゃあぁああ[line 6]！
+[k]
+
+[effectStop bit_talk_Slash_red_01]
+[messageOff]
+
+[charaFadeout C 0.7]
+[wt 0.7]
+[se ad144]
+[wt 1.0]
+
+[effectStop bit_talk_13]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-20]
+
+[charaMove B 0,-10 0.1]
+[wait charaMove B]
+[charaMove B 0,-20 0.1]
+[wait charaMove B]
+[charaMove B 0,-10 0.1]
+[wait charaMove B]
+[charaMove B 0,-20 0.1]
+[wait charaMove B]
+＠助六
+見事、勝負あり！
+[k]
+
+？1：勝者、新免武蔵守～！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠武蔵
+あ。なんか今の勝ち名乗り、ぐっときた。[r]ありがとう、[%1][&君:]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.7 0,-128]
+[charaMove C 1 0.7]
+[charaShake C 0.05 4 0 1.0]
+[wt 0.7]
+＠クレオパトラ
+くっ……！[r]なんて[#商機:セール]を読めない方たちなのでしょう！
+[k]
+
+＠クレオパトラ
+ここは妾を褒め称える所だというのに！[r]美しさというお年玉を受け取る[#機会:チャンス]だというのに！
+[k]
+
+[charaFace C 5]
+＠クレオパトラ
+でも妾は決して諦めません！[r]夢のブートアイランド[line 3]
+[k]
+
+[charaEffect C bit_talk_06]
+＠クレオパトラ
+カエサル様の為にも、クレオパトラフィットネス島を[r]完成させてみせるのだからっっっっ！
+[k]
+
+[messageOff]
+[charaSpecialEffect C flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect C]
+[charaEffectStop C bit_talk_06]
+[wt 0.7]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+あれ？　私、そこまで深く斬り込んでないけど、[r]消えちゃったわね、あの娘。
+[k]
+
+？1：カルデアに帰ったんだよ
+
+？！
+
+[charaFace A 1]
+＠武蔵
+そ。命のやりとりにならなかったのなら上等ね。[r]気を取り直して先に進みましょう。
+[k]
+
+＠武蔵
+この分じゃ、その、サーヴァントっていうの？[r]残りの門にも陣取っているだろうし。
+[k]
+
+＠武蔵
+話し合いで済むなら話し合いで、[r]今みたいに力ずくならそれはそれで！
+[k]
+
+＠武蔵
+剣を振えば記憶も戻るだろうし。手合わせに申し分ない[r]実力者なら、なんであろうと歓迎よ！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

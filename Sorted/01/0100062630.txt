@@ -1,0 +1,122 @@
+＄01-00-06-26-3-0
+
+[soundStopAll]
+[bgm BGM_BATTLE_12 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98078000 1 魔神柱アモン・ラー]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+
+[charaTalk B]
+[charaFadein B 0 1]
+
+[scene 29320]
+
+[fadein black 2.0]
+[wait fade]
+
+＠魔神柱アモン・ラー
+メェエエリィイアメン……[r]ウセルマアトラー……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+敵魔神柱、消滅しません……！[r]破損した個所が瞬く間に修復されていきます……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+大複合神殿だ！[r]大複合神殿がアモン・ラーに魔力を供給し続けている！
+[k]
+
+＠ダ・ヴィンチ
+おそらく、これが獅子王との決戦に備えた[r]オジマンディアス王の切り札だ……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+大神殿にいるかぎり崩れ去る事はない……[r]本当に、民を守る事に特化した戦闘形態……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+感心するのはいいが、これではキリがない！[r]とうてい倒しきれるものではないぞ、こいつは！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠三蔵
+……ごめんなさい。謝ります、オジマンディアス王。[r]さっきの、あたしが悪かったです……
+[k]
+
+
+？1：三蔵ちゃんが謝った……！？
+？2：三蔵ちゃんが反省した……！？
+
+？！
+
+[charaFace E 5]
+＠三蔵
+[line 3]だからこそ、本気で行きます。
+[k]
+
+[charaFace E 4]
+＠三蔵
+天竺では如来様に“もうやんなよ、やりすぎだから”と[r]怒られて封印した[#業:わざ]ですが[line 3]
+[k]
+
+[charaFace E 5]
+＠三蔵
+こんなに醜いカタチになってまで、あたしたちを[r]見定めようとする、その気持ちに応えます。
+[k]
+
+＠三蔵
+これあれば、かれあり。[r]これ生じれば、かれ生ず。
+[k]
+
+＠三蔵
+これなければ、かれなし。[r]これ滅すれば、かれ滅す。
+[k]
+
+[charaFace E 2]
+＠三蔵
+試し打つは五行山、鍛えに鍛えた我が[#法輪:ほうりん]、[r]一念[#回向:えこう]に[#縁起:えんぎ][#善:よ]し！
+[k]
+
+＠三蔵
+いざ振るわん、如来の掌……！[r]まずはあたしが、まるっと世界を救ってあげる！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_12 0.5]
+[wait fade]
+[soundStopAll]
+[end]

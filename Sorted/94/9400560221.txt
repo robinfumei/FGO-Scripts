@@ -1,0 +1,278 @@
+
+＄94-00-56-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 3025000 1 清姫]
+[charaSet C 2025200 1 アン]
+[charaSet D 2025100 1 メアリー]
+[charaSet E 9004000 1 マルタ]
+[charaSet F 3011000 1 フィン]
+[charaSet G 3002001 1 ディルムッド]
+[charaSet H 3001001 1 クー・フーリン]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+すみません、正直なところ半信半疑でしたが……[r]さすがですね、皆さん！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠清姫
+私たちの未来に捧ぐ、薙刀演武……[r]見ていてくださいましたか、ますたぁ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠メアリー
+普段と役割が違うのは新鮮かな。
+[k]
+
+＠アン
+私もそう思いますわ、メアリー。[r]たまにはこういうのも悪くないかも、です。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠マルタ
+よし、我ながらエグいのがボディーに決まったわ！
+[k]
+
+＠マルタ
+やっぱり水辺はテンション上がるわね！[r]杖がないのは[se ad163]ちょっと不安だけど！（シュッシュッ）
+[k]
+
+[seStop ad163 0.2]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+（そう言いつつマルタさん、[r]　切れ味鋭いシャドーボクシングを……）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 98002000 1 フォウ]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠フィン
+……フ。私はどこまで運命に愛されているのだろう。
+[k]
+
+＠フィン
+この、すべてが私にとって都合のいい方に回っていく[r]感じ……まさしく私だ。
+[k]
+
+[charaFace F 0]
+＠フィン
+そうは思わないかディルムッド。[r]ところで、おまえはどのタイプが好みかな？
+[k]
+
+＠フィン
+私と被っていなければ良いのだが。[r]グラニアの時のように。グラニアの時のように。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠ディルムッド
+はっ、その……その問いは、少し難しく……[r]一言では答えられぬものかと……。
+[k]
+
+＠ディルムッド
+あと二回言うのはどうかと……
+[k]
+
+[charaFace F 1]
+＠フィン
+はっはっは！　なに、紙一重の冗談というヤツさ！
+[k]
+
+＠フィン
+グラニアの時はほら、周りが勝手に仕組んだ[r]縁談だったからね。実のところ、私も驚きだったのさ。
+[k]
+
+＠フィン
+だが今回はともに同じ条件。体一つの競い合いだ。[r]ヨーイどん、というヤツかな？
+[k]
+
+[charaFace F 0]
+＠フィン
+ああいや、それは違ったな。フェアではなかった。[r]なにしろそちらには愛の黒子があるではないか！
+[k]
+
+[charaFace F 1]
+＠フィン
+その黒子をこれみよがしに見せて[r]ウインクしまくるのだろう？
+[k]
+
+[cameraMove 0.5 150,-120 1.5]
+[wait camera]
+[wt 0.25]
+[charaFace F 5]
+[charaPut A -244,180]
+[charaEffect A bit_talk_41]
+＠フィン
+バチコーン！[se bac105][wt 0.7]　バチコーン！[se bac105][wt 0.2]
+[k]
+
+[charaEffectStop A bit_talk_41]
+[wt 0.3]
+[cameraMove 0.5 0,0 1.0]
+[wait camera]
+[wt 0.2]
+
+[charaFace G 2]
+＠ディルムッド
+そんな勢いよくウインクなどいたしません！[r]王こそ親指かむかむは控えていただきたい！
+[k]
+
+？1：そう言えば男性陣もいたね……
+？2：あの、水着は……？
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠フィン
+なに、気にすることはないさ。[r]ディルムッドは元々水着のようなものだし、
+[k]
+
+＠フィン
+女性陣の姿が変わったとて我々の立場は変わるまい。[r]きみが注目すべきはあくまでも彼女達のほうさ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠クー・フーリン
+ああ、そうだな。同感だ。[r]オレたち男衆は目立たないようにしとくぜ。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[wt 0.3]
+[wipein rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+
+[wt 1.0]
+
+[wipeout rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+[wt 0.3]
+[wipein rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+＠クー・フーリン
+……ったく。[r]冷静ぶってるが本人がいちばんノリ気じゃねえか。
+[k]
+
+＠クー・フーリン
+師匠まで着替える事はねえだろうに。[r]もともと防水加工だったじゃねえか、あの戦衣装。
+[k]
+
+[charaFace H 0]
+＠クー・フーリン
+決めた。オレは今回、師匠にゃ極力近付かねぇ。[r]ゼッテェ近付かねぇ。浜辺とか知らねぇ。
+[k]
+
+[charaFace H 1]
+＠クー・フーリン
+んなことよりやっぱ山だよな。[r]畑とか作ってみっかなー……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォウフォウ。
+[k]
+
+？1：これから何が起こるんだろう……
+？2：いろんな意味でドキドキしてきたぞう……
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。ですが、これからの基本的な方針は[r]スカサハさんの言う通りだと思います。
+[k]
+
+＠マシュ
+すべきは、脱出船の素材を集めること。[r]そしてその間の生活を耐え抜くこと[line 3]
+[k]
+
+＠マシュ
+おそらく、そのために何か新しい設備を作る[r]必要が出てくることもあるでしょう。
+[k]
+
+[charaFace A 13]
+＠マシュ
+特に最初のうちは、いろいろ大変なことばかりだと[r]思いますが[line 3]わたしも全力でサポートしますので。
+[k]
+
+＠マシュ
+脱出船造りのために。[r]そして、よりよい生活のために。
+[k]
+
+[charaFace A 1]
+＠マシュ
+この島を探険し、素材や物資を集めていきましょう！
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

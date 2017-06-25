@@ -1,0 +1,89 @@
+
+＄94-00-18-10-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6005001 1 ジャック]
+
+[scene 20400]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジャック
+うわーん、マシュのいじわる！[r]お菓子欲しいだけなのにー！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+[charaFace A 8]
+＠マシュ
+後でお菓子を差し上げますので、[r]今は勘弁してください、ジャックさん……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠ジャック
+ホント？　それならいいよ、試練ごーかく！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+……良かった。[r]お菓子ですが、ゴマ饅頭でいいですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジャック
+え……おじさんみたいなのが食べるお菓子、[r]きらい……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠マシュ
+……どこか遠い場所で、ドクターが吐血した[r]ような気がしますが、気のせいでしょう。
+[k]
+
+＠フォウ
+フォウフォウ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

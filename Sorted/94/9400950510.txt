@@ -1,0 +1,371 @@
+
+＄94-00-95-05-1-0
+
+
+
+[charaSet A 1017001 1 武蔵]
+[charaSet B 98075000 1 助六]
+[charaSet C 3006000 1 ？？？]
+
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[scene 27800]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠武蔵
+うわあ、人理焼却ってそういう事だったんだ……[r]すっごい戦いをしてきたのね、君は！
+[k]
+
+＠武蔵
+私たちの歴史を、未来を取り戻したって事でしょう？[r]それは凄い。きっと誰もが褒め讃えたと思うけど、
+[k]
+
+＠武蔵
+私も、ほんのおまけ扱いでいいから讃えさせて。[r]長い一年、お疲れ様でした[%1][&君:]。
+[k]
+
+[charaFace A 7]
+＠武蔵
+そして新年、あけましておめでとう、[r]カルデアのマスター殿！
+[k]
+
+＠武蔵
+貴方のおかげで、[r]私は今もこうして旅を続けていられるのです！
+[k]
+
+？1：みんなに助けられただけだよ
+
+[charaFace A 3]
+＠武蔵
+またまた～！[r]確かに仲間の[#縁:えん]は頼もしいけど、決定打にはならないもの、
+[k]
+
+＠武蔵
+最後は[%1][&君:]の[r]底力あってのものだって！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠助六
+……。我はおぬしの事も気になるな、新免武蔵。[r]おぬしは何のために、このような漂流を続けていた？
+[k]
+
+？2：武蔵ちゃんの旅の目的って？
+
+[charaFace A 0]
+＠武蔵
+私の旅の目的？[r]えーと、それは……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠助六
+そうだ。我もそれを聞いておきたい。[r]新免武蔵。おぬし、何を求めて旅をしていたのだ？
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠武蔵
+……うーん。本当に私の旅は武者修行だけだから、[r]これといって目的はないのよねぇ……
+[k]
+
+[charaFace A 0]
+＠武蔵
+しいて言うなら元の世界に戻ること。[r]それと、[#己:おのれ]の剣を極めること。
+[k]
+
+＠武蔵
+父さん……無二斎の剣は“[#一:いち]”だった。[r]完成された一。これ以上はない高みに到達した一。
+[k]
+
+＠武蔵
+でも私、あのクソ親父が大っっっっ嫌いだから。[r]なんとしても無二斎を超えたいのよ。
+[k]
+
+＠武蔵
+だから私は一を超えた剣を目指す。[r]この命が尽きるまでに[#空:くう]の座[line 3][#零:ゼロ]を掴みたいの。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠助六
+…………。
+[k]
+
+[messageOff]
+
+[wipeout leftToRight 2.0 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[scene 28000]
+
+[wipein rightToLeft 2.0 1.0]
+[wait wipe]
+
+
+[se ad12]
+[seStop ad12 1.4]
+[seLoop ad14]
+[seStop ad14 4.0]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠武蔵
+あったあった！　この感覚、間違いないわ！[r][%1][&君:]、あそこに穴がある！
+[k]
+
+？1：見えないけど、分かります
+？2：あっさり着いちゃったな……
+
+？！
+
+[charaFace A 0]
+＠武蔵
+……ま、そうね。[r]せっかく知り合ったけど、残念。
+[k]
+
+＠武蔵
+私には自分の世界があるし、[r]君にも自分の[#世界:カルデア]がある。
+[k]
+
+＠武蔵
+名残惜しいけど、ここでお別れね。[r]でもまた、縁があればどこかでばったり出逢う事も[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.7]
+
+[bgm BGM_EVENT_5 0.4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+[wt 1.0]
+＠助六
+いや、それはない。[r]おぬしはここで死ぬのだ、新免武蔵。
+[k]
+
+[charaEffect B bit_talk_06b2]
+＠助六
+[#元の世界に戻る]、と言ったな。[r]そもそも、その行為自体が叶わぬ絵空事である。
+[k]
+
+[messageOff]
+
+[wt 1.4]
+
+[charaTalk off]
+
+[charaShadow C true]
+[charaFadein C 4.0 1]
+[charaFadeout B 2.0]
+[wt 2.0]
+[charaEffectStop B bit_talk_06b2]
+
+[charaTalk on]
+
+[wt 1.4]
+
+？1：！？
+？2：鬼の体から……サーヴァントに！？
+
+？！
+
+[charaPut C 1024,1024]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaShadow C false]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+……なんだ。[r]助六殿、もしかして顔見知りだった？
+[k]
+
+＠武蔵
+私が気になって付いてきたのは、[r]やっぱり[#恨:うら]み[#辛:つら]みの話？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaShadow C true]
+[charaFadein C 0.1 1]
+＠？？？
+……そうだ。[r]長く、長く失っていた。オレが鬼になった経緯を。
+[k]
+
+＠？？？
+オレはあの日、貴様と立ち合った。
+[k]
+
+＠？？？
+宮本村で[#野猿:のざる]の如き小僧を打ち殺したあと、[r]あの山道で、通りかかっただけの貴様に。
+[k]
+
+＠？？？
+美しい姿だった。[r]夕暮れ時にすれ違った魔そのものだった。
+[k]
+
+＠？？？
+オレは一目で確信した。[r]貴様に勝負を挑まねば気が済まなかった。
+[k]
+
+＠？？？
+それほど貴様の振る舞いは美しかった。[r]ひとたび見逃せば、正気を保てない程に。
+[k]
+
+＠？？？
+……そしてオレは貴様に[#斃:たお]された。[r]あの時の貴様の言葉を、いま、ようやく思い出した。
+[k]
+
+＠？？？
+“名誉や金の為なら自分は逃げる。[r][f small]  [f -]恨みや義によるものでも自分は逃げる”
+[k]
+
+＠？？？
+“だが[line 3]御身の[#精神:こころ]が、私を殺さなければ[r][f small]  [f -]生きていられないというのであれば立ち合おう”
+[k]
+
+＠？？？
+“互いの命を奪わねば立ち行かぬ人生ならば、[r][f small]  [f -]観念して修羅にならん”
+[k]
+
+[messageOff]
+
+[charaPut C 1024,1024]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaShadow C false]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+ああ、それなら間違いない。[r]その理由なら相手を殺すもの、私。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaShadow C true]
+[charaFadein C 0.1 1]
+＠？？？
+そうだ。そうしてオレは貴様に敗れ、[r]怨念として世を彷徨い、気がつけば全てを忘れ鬼になった。
+[k]
+
+＠？？？
+だが[line 3]貴様に出会った事で、その妄念を思い出した。[r]あの時の言葉を繰り返そう。
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.7]
+
+[bgm BGM_EVENT_3 0.1]
+＠？？？
+“オレと立ち合え、[#天元:てんげん]の花。[r][f small]  [f -]オレはおまえを殺さねば、とても生きてはやっておれぬ”
+[k]
+
+[messageOff]
+
+[charaPut C 1024,1024]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaShadow C false]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+…………はあ。
+[k]
+
+＠武蔵
+[%1][&君:]、[r]悪いけど手を貸してくれる？
+[k]
+
+＠武蔵
+この人、たぶん私じゃ殺しきれない。でも君となら[r]成仏させられる。迷惑だろうけど[line 3]
+[k]
+
+？1：はい。武蔵ちゃんの為ではなく
+
+？！
+
+[charaFace A 0]
+＠武蔵
+……ええ。さっすが世界を救った若者。[r]その歳で大したものだわ。
+[k]
+
+[charaFace A 5]
+＠武蔵
+いいだろう、妄執の鬼よ。[r]貴殿が何者なのか、私は知らない。
+[k]
+
+＠武蔵
+いや、そもそも名前を覚えてさえいない。[r]貴殿は私が斬り捨てた兵法者のひとりであろう。
+[k]
+
+＠武蔵
+此度もそのように戦い、そのように記憶する。[r]いざ参られよ。
+[k]
+
+＠武蔵
+二天一流、[#新免武蔵守藤原玄信:しんめんむさしのかみふじわらのはるのぶ]。[r]我が第五勢を以て、その我執、十文字に斬り捨てる！
+[k]
+
+[se ad57]
+[seStop ad57 0.7]
+[charaMove A 0,-20 0.1]
+[charaScale A 1.2]
+[wt 0.2]
+[charaMove A 1 0.1]
+[wt 0.4]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

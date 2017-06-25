@@ -1,0 +1,181 @@
+＄91-30-19-01-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 3019001 1 アルトリア]
+[charaSet D 3019000 1 アルトリア？]
+
+[se ad16]
+[scene 20700]
+[fadein black 2]
+[wait fade]
+
+[wt 0.4]
+[seStop ad16 3.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ここは[line 2]
+[k]
+
+[charaFace A 12]
+＠マシュ
+戦場？[r]ですが、どの時代の……？
+[k]
+
+[charaFadeout A 0.1]
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 5]
+＠Dr.ロマン
+あれ？　おや？[r]え、キミたちどこにいるの？？
+[k]
+
+？1：ここにいるよ
+？2：どこかの戦場っぽいけど？
+
+？！
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ちゃんと五体無事だよね？[r]うん。二人ともバイタルの数値は正常、と……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+わたしも事態が把握できていません。[r]ドクターは、どうです？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ええと、こちらの観測によるとだね。[r]現在のキミたち、レイシフトの目的地に到達してないぞ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+実は、レイシフト実行中に何かが介入してきたような[r]変な感じがあったんだよねぇ。うーん？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+介入っていうか、[r]正しく表現するなら[line 2]
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+[%1][&君:ちゃん]が自分から、[r]にゅっと引き寄せられて行った、っていう感じでね？
+[k]
+
+？1：え、そうなの？
+？2：身に覚えはないけど
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+待ってください、先輩。[r]あそこに誰かいます。十二時の方向。
+[k]
+
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout A 0]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 1]
+[wt 0.3]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠アルトリア
+……マスターか。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+セイバー……アルトリアさん、ですね。[r]先輩、召喚なさっていたんですか？
+[k]
+
+＠アルトリア
+無駄話の暇はない。[r]来るぞ。
+[k]
+
+[se ad16]
+[wt 1.4]
+[seStop ad16 3.0]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あっ、生体反応の一部がキミたちに接近中！[r]勢いからしてキミたちを敵と認識してるよ、多分！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩！
+[k]
+
+？1：仕方ない、戦闘態勢！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい、マスター！[r]魔力反応のない人間の兵士ですので[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace A 2]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠アルトリア
+遠慮は要らん。[r]おまえも存分に薙ぎ払ってみせろ。
+[k]
+
+[charaFace A 14]
+＠マシュ
+い、いえ、相手は[line 2]
+[k]
+
+[charaFace C 5]
+＠アルトリア
+……来るぞ。構えろ。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

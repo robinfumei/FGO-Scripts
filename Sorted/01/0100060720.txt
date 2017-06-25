@@ -1,0 +1,533 @@
+＄01-00-06-07-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98097000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet C 98084000 1 粛正騎士]
+[charaSet E 1007002 1 ガウェイン]
+[charaSet F 1007002 1 ガウェイン]
+[charaSet G 98081000 1 難民たち]
+[charaSet H 98082000 1 難民たち]
+[charaDepth F 1]
+
+[scene 28920]
+[fadein black 2.0]
+[wait fade]
+
+[wt 1.5]
+
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[scene 29020]
+[wt 0.4]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+……うまく潜り込めました。[r]ここは難民群の端、正門から一番遠いですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+……気づいていると思うけど、報告しておくよ。[r]君達の周囲には高濃度の魔力反応がある。
+[k]
+
+＠Dr.ロマン
+難民たちの周りをずらりと囲んでいる。[r]視認できるかい、マシュ？
+[k]
+
+[charaFace A 0]
+＠マシュ
+……はい。あれは……
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 1.4]
+[charaFadeout C 0.4]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+聖都から出てきた騎士のようです。[r]みんな、無言で難民たちを守っていますが……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.2]
+[bgmStop BGM_EVENT_5 0.5]
+
+[scene 29000 0.5]
+[wt 1.0]
+
+？1：いきなり昼になった！？
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、目の錯覚ではありません！[r]これは一体[line 3]
+[k]
+
+？2：ごめん、寝てた！？
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、そうでなくて……！[r]突然、太陽が昇ったんです！
+[k]
+
+？！
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 28901]
+[wt 0.4]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+＠難民たち
+……どうなっているの……？[r]……いつの間に日が昇ったんだ……？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.4]
+
+[bgm BGM_EVENT_1 0.1]
+[charaFilter F silhouette 00000080]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.4 1]
+＠？？？
+落ち着きなさい。[r]これは獅子王がもたらす奇蹟[line 3]
+[k]
+
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[charaFadeout F 0.7]
+[wt 0.7]
+＠？？？
+“常に太陽の祝福あれ”と。[r]我が王が、私に与えたもうた[#祝福:ギフト]なのです。
+[k]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFilter F normal 00000080]
+＠マシュ
+マスター、正門に騎士が現れました。[r]あれは[line 3]あの、方は[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+＠難民たち
+ガウェイン卿！　円卓の騎士、ガウェイン卿だ！[r]聖抜が始まるぞ！　聖都に入れるぞ[line 2]！
+[k]
+
+[se ad6]
+[wt 2.0]
+
+[messageOff]
+[seStop ad6 1.0]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[scene 29000]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[charaTalk on]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+難民受け入れが始まったのかい！？[r]ものすごいサーヴァント反応が感知されたが！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+…………最悪だ。[r]有り得ない、こんな事が起こりえるのか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……レオナルド？　どうした、キミらしくないぞ！？[r]何が起きているんだ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+[%1]、マシュ。[r]すぐにここから離れるんだ。
+[k]
+
+＠ダ・ヴィンチ
+今ならまだ間に合う。[r]何が聖抜だ。文字が違うじゃないか。奴らは[line 3]
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[charaSet B 98083000 1 難民たち]
+[charaSet F 98095000 1 ？？？]
+[scene 28901]
+[wt 0.2]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+＠ガウェイン
+皆さん。自ら聖都に集まっていただいた事、[r]感謝します。
+[k]
+
+＠ガウェイン
+人間の時代は滅び、また、[r]この小さな世界も滅びようとしています。
+[k]
+
+＠ガウェイン
+主の審判は下りました。もはや地上の[r]いかなる土地にも、人の住まう余地はありません。
+[k]
+
+＠ガウェイン
+そう。[r]この聖都キャメロットを除いて、どこにも。
+[k]
+
+＠ガウェイン
+我らが聖都は完全、完璧なる純白の千年王国。[r]この正門を抜けた先には理想の世界が待っています。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠難民たち
+おお……！　噂は本当だったんだな！
+[k]
+
+＠難民たち
+円卓の騎士……なんと神々しい……[r]異郷の騎士だとしても、あの輝きは本物だ……
+[k]
+
+[se ad6]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ガウェイン
+ありがとうございます。[r]ここに至るまで長く、辛い旅路があったのでしょう。
+[k]
+
+＠ガウェイン
+我が王はあらゆる民を受け入れます。[r]異民族であっても異教徒であっても例外なく。
+[k]
+
+＠ガウェイン
+[line 3]ただ、その前に。[r]我が王から赦しが与えられれば、の話ですが。
+[k]
+
+[seStop ad6 0.5]
+[wt 0.5]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠難民たち
+正門の上に誰かいるぞ！？[r]おお、あれは[line 3]！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.4]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 1]
+＠？？？
+[line 3]最果てに導かれる者は限られている。
+[k]
+
+＠？？？
+人の根は腐り落ちるもの。
+[k]
+
+＠？？？
+故に、私は選び取る。[r]決して[#穢:けが]れない魂。あらゆる悪にも乱れぬ魂。
+[k]
+
+＠？？？
+[line 3]生まれながらにして不変の、[r]永劫無垢なる人間を。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad39]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[wt 0.2]
+[fadeMove white 0.7 0.75]
+[wt 1.5]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+[charaEffect G bit_talk_17]
+[charaEffect H bit_talk_17]
+＠難民たち
+[line 3]なんだ、なんの光だ！？[line 3][r][line 3]こんな強い光なのに眩しくない！？[line 3]
+[k]
+
+[charaEffectStop G bit_talk_17]
+[wt 0.6]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaEffect H bit_talk_17]
+＠難民たち
+[line 3]おい。おまえ、光ってないか？[line 3][r][line 3]お母さん、ピカピカだよ？[line 3]
+[k]
+
+[charaEffectStop H bit_talk_17]
+[wt 0.6]
+[charaFadeout H 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[fadeMove white 0.4 0.0]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+聖抜はなされた。その三名のみを招き入れる。[r]回収するがいい、ガウェイン卿。
+[k]
+
+[charaFadeout F 0.7]
+[wt 1.2]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ガウェイン
+……御意。
+[k]
+
+＠ガウェイン
+皆さん。まことに残念です。[r]ですがこれも人の世を後に繋げるため。
+[k]
+
+＠ガウェイン
+王は貴方がたの粛正を望まれました。[r]では[line 3]これより、[#聖罰]を始めます。
+[k]
+
+[bgmStop BGM_EVENT_1 0.5]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[se ad51]
+[wait se ad51]
+[wt 0.4]
+
+＠粛正騎士
+[line 6]。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：難民たち
+え……うそ……でしょう？[r]待って、なんで剣なんか構えてるの……？
+[k]
+
+＠H：難民たち
+やめて……やめて、やめて、やめて！[r]お願い、殺さないで、殺さないで……！
+[k]
+
+[messageOff]
+[charaEffect H bit_talk_12]
+[wt 0.1]
+[charaShake H 0.05 3 3 0.25]
+[se bac7]
+[wt 0.25]
+[charaFadeout H 0.7]
+[charaEffect H bit_talk_35]
+[wt 0.7]
+[shake 0.05 2 2 0.2]
+[se ad58]
+[seStop ad58 0.7]
+[wt 1.5]
+[se ad162]
+[wt 0.5]
+
+[wipeout leftToRight 0.3 1]
+[seStop ad162 5.0]
+[wait wipe]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[scene 29000]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+パニック状態です！[r]騎士たちが、難民の皆さんを……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+でも彼らは逃げられない。完全に囲まれている。[r]初めからそのつもりだったんだ、聖都の騎士は。
+[k]
+
+＠ダ・ヴィンチ
+でも私たちだけならなんとか逃げられる。[r][%1][&君:ちゃん]。分かっているね？
+[k]
+
+？1：ああ、みんなの突破口を開く！
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！　どこでもいい、[r]騎士たちの円陣の一部を崩します！
+[k]
+
+＠マシュ
+マスター、魔力を回してください！[r]わたし、絶対に負けません……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+……やれやれ。[r]となると、この先の展開は決まっちゃったな。
+[k]
+
+＠ダ・ヴィンチ
+ま、仕方ないか。[r]考えてみれば、私はちょっと万能すぎるからね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+レオナルド……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+なに、ただの独り言さ！[r]私も[%1][&君:ちゃん]に賛成だ！
+[k]
+
+＠ダ・ヴィンチ
+千人は無理でも百人は助けられる！[r]あの騎士たちの囲みを打ち崩すぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

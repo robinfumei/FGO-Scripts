@@ -1,0 +1,190 @@
+＄91-20-09-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 11210]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2009201 2 アルテミス]
+[charaSet E 2009102 2 オリオン]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ケルトの戦士たちは……いませんね。[r]彼らの仕業、という訳でもないようです。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFace E 0]
+＠アルテミス
+不思議だねえ。
+[k]
+
+＠オリオン
+……。
+[k]
+
+？1：どうした？
+
+？2：何か気になることでも？
+
+？！
+
+＠オリオン
+いや、悪い。[r]別に何もないよ。
+[k]
+
+[charaFace E 5]
+＠オリオン
+ただ……そう、ただ、マシュちゃんの胸と足、[r]どちらが魅力的なのか考えていただけで。
+[k]
+
+[charaFace D 5]
+＠アルテミス
+[line 2]ダーリン？
+[k]
+
+[charaFace E 4]
+＠オリオン
+や、ちょ、その、まっ[line 4]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.2]
+[se ad35]
+[shake 0.05 4 4 0.5]
+[wt 0.5]
+[wt 0.2]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+もう。[r]しょうがない人です、オリオンさんは。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……人、かな……？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠オリオン
+人間だからね！？[r]この姿はあくまで仮の姿だからね！？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.0]
+[fadeout black 1]
+[wait fade]
+[scene 20720]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 4]
+[charaFadein E 0.1 2]
+[charaFace E 0]
+[wt 1.0]
+[bgm BGM_EVENT_5 0.1]
+[fadein black 1]
+[wait fade]
+＠アルテミス
+はぁ。[r]ねえ、オリオーン。
+[k]
+
+＠オリオン
+あぁん、何だよ？
+[k]
+
+[charaFace D 5]
+＠アルテミス
+荒野ばっかりでつまんない！[r]せっかくアメリカまで来たのに！
+[k]
+
+[charaFace E 5]
+＠オリオン
+はぁ、しょうがねえなあ。
+[k]
+
+＠オリオン
+それじゃあ、俺がいやらしい姿をした人妻と[r]出くわしたときの笑い話を[line 2]
+[k]
+
+[charaFace D 2]
+＠アルテミス
+……それ、笑い話じゃないよね？
+[k]
+
+[charaFace E 1]
+＠オリオン
+ですよねぷぎゅる！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.2]
+[se ad35]
+[seStop ad35 0.5]
+[shake 0.05 4 4 0.5]
+[wt 0.7]
+[charaFace D 5]
+＠アルテミス
+まったくもう！　ぷんすか！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+いま、ぷんすかって言いました！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 6]
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout C 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.2]
+[se ad23]
+[wait se ad23]
+[wt 0.2]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+[bgm BGM_EVENT_3 0.1]
+＠アルテミス
+……ん？　もう、またなの！[r]さっきはワイバーンで今度は何！？
+[k]
+
+＠アルテミス
+ゴーレム！　ゴーレムね！[r]はいはいわかったわ、大丈夫よ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠オリオン
+あー……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

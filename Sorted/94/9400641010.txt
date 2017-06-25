@@ -1,0 +1,1236 @@
+
+＄94-00-64-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102400 1 イリヤ]
+[charaSet E 5017002 1 メディア・リリィ]
+[charaSet F 98104200 1 イアソンくん]
+[charaSet G 98104200 1 ？？？]
+
+
+[charaFilter G silhouette 00000000]
+
+[charaDepth F 1]
+[charaDepth G 3]
+
+[charaTalk depthOff]
+
+[scene 20400]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+ここがわたしとイアソンさまの城です。[r]どうぞみなさん、城内へ[line 3]。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout E 0.1]
+
+[scene 21510]
+
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace A 0]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠イリヤ
+（ひそひそ）イアソンさまって……？[r]やっぱり、あのお人形のことかな……。
+[k]
+
+＠マシュ
+（ひそひそ）そのようですね……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+？1：ところで、メディアさん
+？2：一つ、質問をしてよいですか？
+
+？！
+
+＠メディア・リリィ
+なんなりと。私が覚えている範囲でなら。[r]ああ、でも言わずとも分かります。
+[k]
+
+＠メディア・リリィ
+アナタは、私がコルキスの王女メディアの英霊……[r]サーヴァントではないのかと[#訝:いぶか]しんでいるのですね？
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+ふふ。それは違うのです。[r]確かに、私は王女メディアから生まれたものですが……
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+アナタがたの言うサーヴァントではありませんし、[r]もしそちらに私がいても、それは別の存在でしょう。
+[k]
+
+＠メディア・リリィ
+私は王女メディアをモデルにして生まれた少女の幻想。
+[k]
+
+＠メディア・リリィ
+メディアのように振る舞い、笑い、悲しみ、そして、[r]与えられた小さな世界を幸福にする為に生きたもの。
+[k]
+
+＠メディア・リリィ
+サーヴァントシステムは能動的な召喚システムですが、[r]私たちは受動的、かつ無意識から生まれたもの。
+[k]
+
+＠メディア・リリィ
+はじめから目的が違うのです。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+目的が違う……？[r]召喚者に呼ばれたから出てきた、ではなく？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+はい。そのようにあれと望まれたものです。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+そしてその目的には、[r]ゴールというものがありません。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+あるのは唐突な[#終わり:エンド]だけ。[r]たとえ世界を救ったとしても、私たちは終われなかった。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+だって求められているうちは、[r]すぐに“次”の物語が始まるのですから。
+[k]
+
+＠メディア・リリィ
+でも、そんな事は過去の話です。[r]私はもう、ここに流れついてしまったのですから。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 21501]
+
+[wt 1.0]
+[fadein black 2.0]
+[wait fade]
+
+＠メディア・リリィ
+……なるほど。皆さんの事情は分かりました。
+[k]
+
+＠メディア・リリィ
+イリヤさんはともかく、[%1]さんは[r]違う世界からの迷い人だったのですね。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+違う土地に流れ着き、途方に暮れる……[r]その心細さは私にも分かります。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+ですので、問答無用でブタに変えるのは止めますね。[r]実はその準備が出来ていたので城に招いたのですが。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+あー、やっぱりですかー。[r]ここのお城、灰くさいと思ったのですよねー。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+たぶん、壁のいたるところから“ブタになれ”石灰を[r]まき散らせて、
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+みなさんを子ブタさんにするつもりだったのでしょう。
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+さすが神代の巫女姫さま、[r]我々とは魔術のレベルが違いますねー。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+ひぃやあ！？[r]ルビー、そういうコトは早く言ってよねー！？
+[k]
+
+[charaFace C 0]
+＠イリヤ
+あ、でもでも、[%1][&お兄さん:お姉さん]が[r]見逃されたんなら、わたしも[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk off]
+[charaFace E 5]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 -250,-100]
+[charaFadein G 0.1 -250,-100]
+[charaFadeTime G 0.1 0.8]
+
+＠メディア・リリィ
+あなたはダメです。魔法少女ですから。[r]私、魔法少女には冷酷です。
+[k]
+
+＠イアソンくん
+………………。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+え[line 3]でも、もう裏切られるのは……[r]その女の子は裏切らない？　オレの眼を信用しろ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……またイアソンくんと話していますね……[r]わたしたちには聞こえませんが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+……仕方ありません。[r]イアソンさまはこう言っています。
+[k]
+
+＠メディア・リリィ
+“そこの魔法少女には嘘をつくだけの知性がない。[r]　その胸のようにまっすぐな、公正な性格だ”と。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+ちょっとそのイアソンくんにチョップしていいですか！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+え……イアソンさまをメチャクチャにしていいのは[r]私だけなので、それは遠慮してください。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+ともかく。イアソンさまは珍しく紳士的です。
+[k]
+
+＠メディア・リリィ
+騙し打ちの計画は中止。[r]そのかわり、あなたと話をしてみろ、だなんて。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+あ、はあ……はじめからそのつもりでしたので、[r]いくらでもお話できますけど……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+いいえ。あなたの事情を私は知ろうとは思いません。[r]他の魔法少女の経緯に興味はありませんから。
+[k]
+
+＠メディア・リリィ
+私があなたに切り出すのは、[r]あくまで平和的な取引です。
+[k]
+
+＠メディア・リリィ
+私は、このコリントスの[#風土:かぜつち]を思わせる[#島城:しまじろ]で[r]平和でおだやかな暮らしを続けたいだけです。
+[k]
+
+＠メディア・リリィ
+あなたがたが、この国の外で何をされようと[r]干渉はしないと誓いましょう。
+[k]
+
+？1：そのことに異存は[&無い:無いよ][line 3]みんなも[&そうだね:だよね]？
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+うん、もちろん！　あんなふうに[r]突然襲われなければ、わたしたちだって[line 3]
+[k]
+
+＠イリヤ
+ねっ、マシュさん！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+……ですが宝石の導きはどうなるのですか？[r]取り引き、とは？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+同様に、私への干渉を避けてくださることが[r]取り引きの条件です。
+[k]
+
+＠メディア・リリィ
+いくら求められようと、これだけはお渡しできません。[r]この宝石をわたしは『トモイの石』と名付けました。
+[k]
+
+＠メディア・リリィ
+この石が、この海原の国を支え、[r]そして私自身に力を授けてくれているのです[line 3]
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+この広大ながらも堅く閉ざされた幻想の世界には、[r]以前にはもっと数多くの魔法少女がいました。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+彼女たちはみな、自分だけの国を欲しがり、[r]戦い、奪いあいました。
+[k]
+
+＠メディア・リリィ
+私もそのうちの一人です。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+私は回復系、メディカルな魔法少女です。[r]攻撃手段はあまりありません。
+[k]
+
+＠メディア・リリィ
+あっても精神治療の一環としての精神攻撃、[r]神罰系の変豚術、箱庭世界への幽閉など、その程度。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+戦いはとても過酷なものとなりました。[r]私はこの通り、比較的無力な魔法少女でしたから。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+う、ぐ……すっごく泳ぎの才能ある人から、[r]“でも空は飛べないんです”って言われてる気分だよ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein F 0.1 0,-100]
+[charaFadein G 0.1 0,-100]
+[charaFadeTime G 0.1 0.8]
+
+
+＠イアソンくん
+………………。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+心なしか、イアソンくんも全力で“おまえほどおっかない[r]ヤツはいないよ！”と指摘しているように見えます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+お黙りくださいませ、壊す事に特化した野蛮な方々！[r]ところで、私もバスター宝具とかやってみたいです！
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+あ。いえ、失敬。話を戻しますね？
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+魔法少女たちは自分たちの安寧のルールを求め、[r]互いに争いました。価値観、世界観の激突です。
+[k]
+
+＠メディア・リリィ
+激しい戦いから逃れようとしても、[r]それはかないませんでした。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+私は、やってくる敵をひたすらに[r][#倒:さ]して、[#倒:さ]して、[#倒:さ]して、[#倒:さ]して……。
+[k]
+
+
+？1：メディア……
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+そんな……メディアさん……。
+[k]
+
+[charaFadeout C 0.1]
+
+？2：……刺してって、何を……？
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、そこはスルーした方が身のためかと。[r]いつルールブレイカーが飛んでくるか分かりません。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+やがて私の手中に具現化したこの石は、[r]戦うたびに、その重さと輝きを増していきました。
+[k]
+
+＠メディア・リリィ
+私にはわかります。[r]この石は、幻想を支える媒介なのです。
+[k]
+
+
+？1：王国の支配が及ばない地域もあるようだけど？
+
+？！
+
+[charaFace E 0]
+＠メディア・リリィ
+魔法少女の影響がおよばない地のことを[r]おっしゃっているのですね？
+[k]
+
+＠メディア・リリィ
+それが中立地帯です。戦いの結果として、[r]力の均衡が生じ、緩衝地帯となっている場所です。
+[k]
+
+＠メディア・リリィ
+その場所では、力の恩恵も受けられません。
+[k]
+
+[charaFace E 5]
+＠メディア・リリィ
+……分かっていただけましたか。[r]この宝石は今の私に残されたかすかな希望。
+[k]
+
+＠メディア・リリィ
+これを奪われる、という事は、[r]私にとっては死に等しいことなのです。
+[k]
+
+＠メディア・リリィ
+ですので、私からの譲渡は互いの不干渉のみ。[r]イリヤさん。貴女の宝石を狙う事を、私はしません。
+[k]
+
+＠メディア・リリィ
+ですので貴女もこのままお帰りなさい。[r]その宝石があれば貴女の望む国が造れるでしょう。
+[k]
+
+[charaFace E 1]
+＠メディア・リリィ
+欲しいものがあるのなら、それで代用すればいいのです。[r]友達がほしいのなら友達の国をお造りなさい。
+[k]
+
+＠メディア・リリィ
+きっと、貴女の国に訪れた者はすべて[r]貴女の友達にされてしまう、素敵な国が出来る筈です。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+[line 3]そんなの、違います。
+[k]
+
+[charaFace C 4]
+＠イリヤ
+わたしは友達が欲しいんじゃなくて、[r]友達といたいんです。
+[k]
+
+[charaFace C 0]
+＠イリヤ
+一緒に学校にいって、一緒に笑って、
+[k]
+
+[charaFace C 4]
+＠イリヤ
+時にはケンカして離ればなれになって、[r]でもすぐに会いたくて仕方がなくなる[line 3]
+[k]
+
+[charaFace C 0]
+＠イリヤ
+そんな、自分と同じぐらい大切な誰かと、[r]わたしは出会う事ができたんです。
+[k]
+
+＠イリヤ
+だから[line 3]今は、それ以外のものなんて要りません。
+[k]
+
+[charaFace C 4]
+＠イリヤ
+……ただ静かに暮らしたい、と願うあなたに比べたら、[r]すごく貪欲で、我が儘な目的だけど[line 3]
+[k]
+
+[charaFace C 5]
+＠イリヤ
+ごめんなさい、お願いします！[r]わたしは、わたしの友達を助けるために来ました！
+[k]
+
+＠イリヤ
+決して宝石を奪うことが目的じゃありません。[r]っていうかこの宝石、よく分からないし！
+[k]
+
+[charaFace C 3]
+＠イリヤ
+メディアさんがこの世界に詳しいのなら、[r]なにか手がかりでも教えてもらえれば[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+方法[line 3]ですか。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+……残酷なようですが、イリヤさん。[r]あなたはもうこの世界から逃れることはできません。
+[k]
+
+[charaFace E 5]
+＠メディア・リリィ
+友達を助けるどころか、あなたにも出口はない。[r]あなたが魔法少女であるかぎり[line 3]
+[k]
+
+＠メディア・リリィ
+……いえ、あなた自身が逃れる意志すら持てない。[r]そういう絶望の場所なのです。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+あなたは結局、そんなふうに、[r][#友達のためにしか奇跡を起こせなかった][line 3]
+[k]
+
+[charaFace E 5]
+＠メディア・リリィ
+永遠に未熟な魔法使い[line 3]魔法少女なのです。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+だから最後には、絶対にその宝石に頼るでしょう。
+[k]
+
+＠メディア・リリィ
+わずかな希望にすがってお互いを燃やし尽くした、[r]これまでの[#彼女:わたしたち]のように。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+[line 3]最後に、この宝石に頼る……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+その、美遊さんという方のことはあきらめて。[r][#お人形:おともだち]の造り方ならば、喜んで教えましょう？
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+それが私なりの、ナーサリー・ライムへの[#手向:たむ]けです。[r]あなたに宝石を譲り、消えてしまった彼女への。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+[line 3]え？[r]待って、それはどういう[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+宝石は私たちの願いの寄る辺であり、[r]私たちをまだ生かしておく最後の明かり……
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+それを手放したナーサリー・ライムは[r]存在を拡散し、すみやかに消滅するでしょう。
+[k]
+
+[charaFace E 0]
+＠メディア・リリィ
+むろん、あなたがたが悔やむことはありません。[r]それが彼女自身の選択なのですから。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+それに消滅を待たずとも[line 3]
+[k]
+
+[charaFace E 5]
+＠メディア・リリィ
+あの支配欲に取り憑かれた女王。『雪華とハチミツの国』[r]のメイヴが、放っておくはずがありません。
+[k]
+
+＠メディア・リリィ
+『お菓子の国』の国土はもう、早晩のうちに[r]メイヴの手勢によって[#蹂躙:じゅうりん]されているでしょう。
+[k]
+
+[charaFace E 4]
+＠メディア・リリィ
+ひょっとするとナーサリーは、メイヴの手から[r]あなたたちを逃がしたのかもしれませんね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+……っ……そんな……。
+[k]
+
+＠イリヤ
+そんな……[r]ごめんなさい……っ……。
+[k]
+
+＠イリヤ
+わたし、知らなくて……[r]ごめんなさい……ナーサリーちゃんっ……。
+[k]
+
+[charaFace C 5]
+＠イリヤ
+でも……わたし！　どうしても……[r]ミユを助けなきゃいけないの……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+……困ったものですね。あなたのそんな強情さに[r]ナーサリーはほだされたのでしょうか。
+[k]
+
+＠メディア・リリィ
+……それとも、彼女自身、[r]もう諦めて消えかけていたのかもしれません。
+[k]
+
+＠メディア・リリィ
+自分は無理でも、まだ輝ける誰かに希望を[#托:たく]す[line 3][r]ああ、[charaFace E 5]まったく[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad14]
+[shake 0.05 0 4 0]
+
+[charaFace E 2]
+＠メディア・リリィ
+本当に馬鹿げています！[r]これだから童話出身の魔法少女は砂糖菓子なのです！
+[k]
+
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+メディアさん……！？[r]こ、この見るからに危険なオーラは……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+中途半端な希望とか！[r]何度！　裏切られれば気が済むのでしょう！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk off]
+[charaFace E 2]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 -250,-100]
+[charaFadein G 0.1 -250,-100]
+[charaFadeTime G 0.1 0.8]
+
+
+＠メディア・リリィ
+ウェイクアップ、イアソンさま！[r]いつもの、イラッとくるお小言をブチ撒けてください！
+[k]
+
+[messageOff]
+[seStop ad14 1.5]
+[shakeStop]
+
+[se ad42]
+[charaFadeTime G 1.0 0]
+[wt 1.0]
+[se ad111]
+[charaFadeout G 0.1]
+[charaMove F -250,200 0.25]
+[wait charaMove]
+[charaMove F -250,0 0.2]
+[wait charaMove]
+
+？1：おや……？　イアソンくんの様子が？
+？2：ついに本性を現した[&か:ね]！
+
+？！
+
+[bgm BGM_EVENT_34 0.1]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk on]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+ハッハー！　こいつは最高だ、メディアが[r]一番見たくないタイプがやってきたとはな！
+[k]
+
+[charaShake F 0.07 0 8 1.0]
+＠イアソンくん
+先が見えなくても走る。[r]あてがなくても頑張る。
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+自分がボロボロになっても何とかする！[r]そのクセ、ご褒美に何が欲しいかすら考えない！
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 8 1.0]
+＠イアソンくん
+まるでおまえだメディア、[r]神殿にいた頃のおまえだメディア、
+[k]
+
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+オレに付いてくる前のおまえさメディア！[r]そりゃあ本性もさらけ出す！
+[k]
+
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+おまえの怒りは憎しみじゃあない。[r]嘆きからくる義憤の炎だ！
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+まさか今さら、わたしももう少し頑張っていれば[r]良かったのに、なんて[#憐憫:れんびん]にひたった訳でもあるまいに！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠メディア・リリィ
+[line 3]い、いえ！[r]そんな事は、決して！
+[k]
+
+[charaFace E 2]
+＠メディア・リリィ
+私はこの『大海原と竜の国』の女王！[r]どうやっても国王になれなかったアナタ[line 3]
+[k]
+
+＠メディア・リリィ
+イアソンくんのために国を造って落ち着いた、[r]女神ヘカテの姫巫女ですもの！
+[k]
+
+[charaShake F 0.07 0 8 1.0]
+＠イアソンくん
+ああ、そうさ、それがいい、それでいい。[r]自分すら殺せなかったおまえにはそれでいい。
+[k]
+
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+となれば、後は自らの[#業:ごう]に従う時だ！
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 8 1.0]
+＠イアソンくん
+やるか、すごくやるか、ものすごくやるか[line 3][r]魔法少女は徹頭徹尾、実行あるのみだ。だろ？
+[k]
+
+[charaFace E 5]
+＠メディア・リリィ
+あ、えっと、それは……は、はいっ！[r]やります！　メディアはやりますよ！
+[k]
+
+[charaFace F 1]
+[charaShake F 0.07 0 8 1.0]
+＠イアソンくん
+いーい返事だ！[r]そう[line 3]まずは、だ……。
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+[#竜牙兵軍団:スパルトイ・ファミリー]の、ぼうけんセイレーン島ジオラマが[r]まだ中途半端もいいとこじゃないか！？
+[k]
+
+[charaFace E 2]
+＠メディア・リリィ
+はい！　イアソンさま！
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+１／４８アルゴー号キットだって[r]超絶可動ＤＸタロスだって積んだままだ！
+[k]
+
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+あの大作を完成させずに、君はギリシャ代表ビルダーを[r]名乗るつもりじゃなかろうね！　恥ずかしくないの！？
+[k]
+
+[charaFace E 3]
+＠メディア・リリィ
+すみませんっ、イアソンさま！[r]でもタロスはエウロペちゃんにあげちゃって……
+[k]
+
+
+？1：何の話をしてるんだろう……
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+……あれっ、ちょっとついていけない？
+[k]
+
+[charaFadeout C 0.1]
+
+？2：ガチのスケールモデラーだった頃の設定[&らしいぞ:かな？]
+
+[charaFace F 3]
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+ヘパイストスが鍛えてくれたゴッドニッパーが泣くよ？
+[k]
+
+[charaFace E 2]
+＠メディア・リリィ
+イエス、アルティメット！！[r]イアソンさまのおっしゃる通りです！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+？！
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+よーしよし、ようやく火が入ったな！[r]面倒な話し合いをさせた甲斐があった！
+[k]
+
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+不可侵の条約なんぞもう何の役にも立たん！[r]メイヴが来る前に宝石が転がり込むとはまさに[#僥倖:ぎょうこう]！
+[k]
+
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+これは戦う意思を無くしたおまえにやってきた、[r]正真正銘、最後の選択だ！
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 16 1.0]
+＠イアソンくん
+回復しか取り柄がない？　馬鹿を言うなよ愚民ども。[r]私は高く評価するとも！
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠イアソンくん
+そうだろう、可愛いメディア？
+[k]
+
+[charaFace F 1]
+[charaShake F 0.07 0 8 1.0]
+＠イアソンくん
+戦闘において“死なない”事がどれだけ暴力的か、[r]また私に見せてくれ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+は、はいっ！　ありがとうございます！[r]やります！　メディアはやりますよ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+……えーと。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+どーやら、癒やし系魔法少女としての[#呵責:かしゃく]に堪えかね[r][#使い魔:おとも]側に戦意を押しつけてしまったようです？
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+思春期の魔法少女には、ありがちな依存ですねー。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+そんな生々しい話は聞きたくなかった！[r]しかも、超やる気になってるよメディアさん！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_34 0.5]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.5]
+
+
+[se bac65]
+[fowardEffect bit_talk_tornado01]
+
+[wt 0.8]
+[charaChange A 8001001 0 fade 0.5]
+[wait charaChange A]
+
+[wt 1.0]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+あっ、マシュさん……変身を！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+敵にまわったメディアさんは[r]決して易しい相手ではありません……！
+[k]
+
+＠マシュ
+もしいざとなったら、マスターだけでも[r]レイシフトで避難を[charaFace A 6][line 3]ドクター？
+[k]
+
+[charaFace A 14]
+＠マシュ
+……ドクター？　ドクター！？
+[k]
+
+？1：カルデアとの通信が切断されてる！？
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠メディア・リリィ
+当然です。モデラーを舐めないでください。[r]エアブラシを使う時はきっちりマスキングしますから。
+[k]
+
+＠メディア・リリィ
+あなたがたがこの城を訪れた時から、[r]外世界とのリンクは解除させていただきました。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[charaTalk off]
+
+[charaSet F 98006100 1 ？？？]
+[charaSet G 98006100 0 ？？？]
+[charaSet H 98006100 2 ？？？]
+
+[charaDepth F 3]
+[charaDepth G 0]
+[charaDepth H 0]
+
+[charaTalk depthOff]
+
+[se bac35]
+[charaSpecialEffect F appearanceReverse 1 0.5]
+[wt 0.2]
+[seStop bac35]
+[se bac35]
+[charaSpecialEffect G appearanceReverse 0 0.5]
+[wt 0.2]
+[seStop bac35]
+[se bac35]
+[charaSpecialEffect H appearanceReverse 2 0.5]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 6]くっ！[r]お気づきと思いますが、マスター！
+[k]
+
+[charaFace A 5]
+＠マシュ
+人型ばかりでなく、[r]大型の敵性体までもが城付近を取り囲んでいます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+またこんな展開になっちゃった[line 3]！？
+[k]
+
+＠イリヤ
+魔法少女って話し合いで[r]仲良くなるものじゃなかったのー！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+あっはっは。それはご自分の胸に手を当てて[r]よくお考えくださいねー☆
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+？1：仕方ない、応戦しよう！
+？2：気持ちは分かるけど、我慢して！
+
+？！
+
+
+[charaFace C 5]
+＠イリヤ
+[%1][&お兄さん:お姉さん][line 3][r]（そうだ、これ以上、迷惑をかけられない！）
+[k]
+
+＠イリヤ
+うん……！[r]とにかく、できるとこまでやってみる……！
+[k]
+
+
+[charaPut B 1]
+[messageOff]
+[charaBackEffect B bit_talk_magicalchange_back]
+[wt 0.5]
+[charaChange C 5028001 5 fade 1.0]
+[wait charaChange C]
+[charaBackEffectStop B bit_talk_magicalchange_back]
+[wt 1.0]
+[charaPut B 1200,1200]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,125 @@
+＄91-40-03-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20110]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4003001 2 ドレイク]
+[charaSet E 4008001 2 ティーチ]
+[charaFadein D 0.1 1]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+門番はこれで打ち止めかい？[r]じゃあ念願のお宝をおがませて[line 3]
+[k]
+
+[se ad45]
+[wt 0.4]
+[se ad42]
+[charaFadeout D 0.1]
+[wt 0.3]
+[messageOff]
+[effect bit_talk_40]
+[wait time 3]
+[effectStop]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+＠ティーチ
+おお、まさかのBBA発見伝！[r]あいかわらず無意味に[#巨乳:デカップ]ですな、デュフフ！
+[k]
+
+[charaFadeout E 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk off]
+[charaFadein D 0.1 0]
+[charaFace D 5]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠二人
+[line 3]げ[r][line 3]げ
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaTalk on]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠ティーチ
+おお、しかし隣のカワイコちゃんはストライクですぞ！[r]このような場所で運命のキミに出会えるなんて[line 3]
+[k]
+
+[charaFace E 1]
+＠ティーチ
+やっぱり拙者、女神に愛され系ボーイなんですなぁ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 0]
+[charaFace D 5]
+[charaFadein A 0.1 2]
+[charaFace A 15]
+＠マシュ
+先輩。いえ、マスター・[%1]。[r]すぐに命令を。あの敵性単細胞を焼き尽くす許可を。
+[k]
+
+＠ドレイク
+なんだいアレ。ねえなんだいアレ!?[r]あんな気色の悪い生き物、アタシ見たコトないよ!?
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+＠ティーチ
+デュフドゥフフフ。[r]まーたBBAは照れちゃって、このー！
+[k]
+
+[charaFace E 1]
+＠ティーチ
+しかしキミたちが驚くのも無理はない。[r]なにしろこの私はただのティーチではないのです。
+[k]
+
+＠ティーチ
+この海域特有の時空スクランブルによって呼びだされた[r]愛の狩人の幻影、そのコピー
+[k]
+
+＠ティーチ
+いつもの二倍の力と二倍の力、そして二倍の力を[r]与えられた、スーパーサーヴァントなのですからな！
+[k]
+
+＠Dr.ロマン
+つまり二倍の力しかないってコトだね。
+[k]
+
+[charaFace E 3]
+＠ティーチ
+ムホホ、辛辣な言葉が痛い！　キモヂイ゛イ゛！
+[k]
+
+＠ティーチ
+さあ行きますぞBBA！[r]今度こそそのカップ、いただかせていただきます！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 0]
+[charaFace D 2]
+[charaFadein A 0.1 2]
+[charaFace A 2]
+＠ドレイク
+カップ!?　アタシ杯なんて持ってないんですけど!?
+[k]
+
+＠マシュ
+船長、アレの言葉に耳を傾けてはいけません！[r]喰らわせるのは攻撃だけで十分です！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

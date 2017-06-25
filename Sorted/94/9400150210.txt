@@ -1,0 +1,502 @@
+
+＄94-00-15-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 4008002 1 ティーチ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6018000 1 Ｘ]
+[charaSet E 1022001 1 ジル]
+[charaSet F 98018100 1 海賊達]
+
+[scene 20303]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+先輩。そろそろ誰しもが思う疑問を解決したいと[r]思うのですが、いかがでしょうか？
+[k]
+
+？1：ああ、宇宙船のパーツのコトだね
+
+[charaFace A 1]
+＠マシュ
+その通りです。このまま指摘せず[r]流したかったのですが、先は長そうですので。
+[k]
+
+？2：ああ、Ｘさんの正体だね
+
+[charaFace A 7]
+＠マシュ
+それはまだ触れない方がよい案件かと。[r]事態がさらにややこしくなりそうです。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+＠Ｘ
+おや、わたしに質問ですか？[r]リリィの訓練も一息つきましたから、どうぞご自由に。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それでは一つ目の質問を。[r]アルトリウムを集めるのはいいのですが、
+[k]
+
+＠マシュ
+なぜアルトリウムを集めるとリリィさんが[r]パワーアップするのでしょう？
+[k]
+
+[charaFace D 1]
+＠Ｘ
+ああ、その仕組みを説明していませんでしたね。
+[k]
+
+＠Ｘ
+いまや全銀河周知の常識ですが、アルトリウムは[r]新たに発見された万能エネルギー粒子です。
+[k]
+
+＠Ｘ
+わたしの宇宙船もアルトリウムで動きます。[r]そして宇宙船の中には霊基強化装置[line 3]
+[k]
+
+＠Ｘ
+通称『アダム・カドモン』と[r]呼ばれるカプセルがあるのです。
+[k]
+
+＠Ｘ
+これに必要量のアルトリウムを注入すると、[r]リリィさんが物理的に強くなります。
+[k]
+
+？1：霊基強化装置……だと？
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+“なにそれ欲しい！”というお気持ちはわかりますが、[r]フォウさん、落ち着いて！
+[k]
+
+？2：カドモンって……
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠マシュ
+ヘブライ語で人形、人間……[r]とてもよくないニュアンスを感じます……
+[k]
+
+＠マシュ
+道徳的によくないと言いますか……[r]パラケルススさん的な匂いがすると言いますか……
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠Ｘ
+アダム・カドモンは霊基情報を元に、[r]まったく同じ霊基を作り上げる装置です。
+[k]
+
+？1：つまり同じ英霊をぽこじゃか増やせる！？
+？2：宝具レベルあげ放題だ、フー！
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォフォ[line 4]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+そ、そんな都合のいい装置があるんですか！？[r]では、ぜひわたしもお願いします！
+[k]
+
+＠マシュ
+宝具の性能向上のチャンスです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠Ｘ
+あ、それは無理です。欠点がありますから。[r]アダムくんはアルトリア系しか増やせないのです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+な[line 3]！
+[k]
+
+[charaFace A 8]
+＠マシュ
+短い……あまりに短い夢でした……いつまでも不甲斐ない[r]サーヴァントで申し訳ありません、マスター……
+[k]
+
+？1：だいじょうぶ、マシュはきっと強くなる
+？2：なに、この先で挽回すればいいさ
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+＠Ｘ
+嘘のない、まっすぐな言葉です。[r]いいマスターを持ちましたね、盾子。
+[k]
+
+[charaFace A 3]
+＠マシュ
+[line 3]は、はい。[r]マスターのご期待に応えられるよう、頑張ります。
+[k]
+
+[charaFace A 13]
+＠マシュ
+そ、それでは次の質問です。[r]宇宙船のパーツを集めるのはいいのですが……
+[k]
+
+＠マシュ
+なぜ、やってくる魔物がパーツを持っているのですか？[r]あれはどう見てもガラクタ[line 3]
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[wt 0.5]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[se ad59]
+[seStop ad59 1.5]
+[wt 1.4]
+[charaFilter B silhouette 00000000]
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠B：？？？
+うっひょー！[r]ありました、ありましたぞ元帥どの！
+[k]
+
+＠B：？？？
+あれこそは夢のドリームランド！[r]一攫千金のお宝の山に相違ありませぬ！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 0.5]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 15]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+＠マシュ
+こ、この全身に沸き立つ鳥肌は[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[wt 0.4]
+
+[charaFilter B normal FFFFFF00]
+[charaTalk B]
+[charaFadein B 0.7 1]
+[charaFace B 1]
+＠ティーチ
+あ。なにあれ。幻？　こんな特盛りでいいの？[r]拙者、オトナなのにお子様ランチとか頼んじゃった？
+[k]
+
+[charaFace B 3]
+＠ティーチ
+我が左手にはマシュマロなあまーいマシュ嬢。[r]我が右手にはちっぱくても愛らしいパツキン姫騎士……
+[k]
+
+＠ティーチ
+ヤダもう最高、これ以上食べられない！[r]今度こそ夢にみたスイートワイフ・ゲットチャンス！
+[k]
+
+＠ティーチ
+拙者、ため込んだお宝目当ての愛人軍団とか[r]もう懲り懲りでござるから。いやホントホント。
+[k]
+
+＠ティーチ
+これからは白い一軒家にエロい新妻。庭にはプール、[r]そして休日はネット漁り……Oh……ドリーマー……
+[k]
+
+＠ティーチ
+これはもう二人とも食っちまうのもいいですなぁ！[r]だって海賊って自由の別名だからネ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+やはりティーチ船長！[r]それにとなりにいるのは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein E 0.1 0]
+[charaFadein B 0.1 2]
+[charaFace B 5]
+＠ティーチ
+よーし、略奪の時間だヤロウども！　ここは陸地だ、[r]後頭部を鋭角にブン殴ってくるBBAもいねえ！
+[k]
+
+＠ティーチ
+奇っ怪な鉄くずはお宝の匂いがするんでキッチリ回収！[r]あ、元帥殿も[charaFace B 1]ひとつ、よろしくネ☆
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+＠E：ジル
+…………。
+[k]
+
+[charaFace B 0]
+＠ティーチ
+なになに……
+[k]
+
+＠ティーチ
+“よろしいでしょう。私、こう見えて芸術肌ですので。[r]骨董品には興味があります”
+[k]
+
+＠ティーチ
+“しかし女性に興味はありません。フランチェスカで[r]懲りてますので、好きに腑分けなさい”
+[k]
+
+[charaFace B 1]
+＠ティーチ
+と仰る！　元帥殿は[#謝意:シャイ]ですなぁ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠海賊達
+ひょ[line 3]う！　さすが音に聞こえた青髭のダンナだ、[r]残虐すぎるぅー！　うちの船長と阿吽の呼吸だぜぇ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+[charaFace B 1]
+＠ティーチ
+ははははは。でもキミたち、元帥殿が紳士だからって[r]調子に乗ってはいけませんぞ？
+[k]
+
+＠ティーチ
+マシュちゃんと姫騎士は拙者がアタックするから[r]手を出すと後で樽詰めなのでよろしく。
+[k]
+
+[charaFace B 4]
+＠ティーチ
+あ、でもとなりにいるイモい青ジャージは[r]拙者のストライクゾーン外れてますなあ。
+[k]
+
+＠ティーチ
+美少年好きは誰だったかな。ラカム君だったかな。[r]メアリーには騙されたって嘆いてたもんなぁ。
+[k]
+
+[charaFace E 5]
+＠ジル
+…………！
+[k]
+
+[charaFace B 1]
+＠ティーチ
+おお？　元帥殿、めっちゃスイッチ入ってない？[r]もしかしてあの青いイモジャージ、ツボだったとか？
+[k]
+
+＠ティーチ
+芸術家だけにいい壺、なんちゃって！[r]デュフフ、こうなった元帥殿はマジ怖いですぞぉー！
+[k]
+
+＠ティーチ
+そこのイモジャージ、悪い事は言わないんで[r]速攻逃げた方が身のため、おほう！？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[wt 0.1]
+
+[se bac6]
+[charaEffect E bit_talk_12]
+[wait charaEffect E]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠Ｘ
+失礼。条件反射で殺ってしまいました。[r]でもいいですよね。この方、セイバークラスですし。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠ジル
+…………（ニコリ）
+[k]
+
+[charaFadeout E 0.7]
+[wt 0.3]
+[se ad58]
+[seStop ad58 0.5]
+[wt 0.4]
+[wt 0.4]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+＠ティーチ
+元帥殿……ほんとはセイバーオルタちゃんに声を[r]かけたかったけど、あの方なんか怖いので
+[k]
+
+＠ティーチ
+仕方なく代わりに誘った元帥殿……[r]まさか抜刀する前にやられちゃうとか……
+[k]
+
+＠ティーチ
+いえ、はじめからビタイチ期待してなかったけど[r]盾ぐらいにはなるかなって……拙者も優しいから……
+[k]
+
+＠ティーチ
+でもこんなのってない……[r]クーリングオフもできないし……黒髭大損じゃんか……
+[k]
+
+[charaFace B 5]
+＠ティーチ
+おのれ、同じ紳士として許せませんなぁ！[r]このイモジャージ、オレたち以上の悪党と見たー！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠Ｘ
+[%1][&君:さん]。あの喋るフナムシ、[r]知り合いのようですが始末していいのですか？
+[k]
+
+？1：いいよ
+？2：いいよ　すごくいいよ
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+油断は禁物です、Ｘさん！[r]黒髭氏はああ見えてユニークスキルの持ち主[line 3]
+[k]
+
+＠マシュ
+味方にいる時はそうでもないクセに、[r]敵に回るとホンットに厄介なサーヴァントですので！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 4]
+＠ティーチ
+マシュ嬢の評価が適切すぎて全拙者が死んだー！
+[k]
+
+[charaFace B 3]
+＠ティーチ
+でもそこまで拙者を理解してもらえているとは……[r]ちょっと照れちゃうよね、ベッドの下見られた感じで。
+[k]
+
+＠ティーチ
+となれば[line 3][r]むほ、アツアツの新婚カップルまであと一歩ですな！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+先輩、盾のサーヴァントである事に初めて無念を[r]覚えました！　わたしも聖剣が欲しいです、聖剣！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

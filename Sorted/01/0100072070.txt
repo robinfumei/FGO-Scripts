@@ -1,0 +1,221 @@
+
+
+
+＄01-00-07-20-7-0
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 8001002 1 マシュ]
+[charaSet D 98013200 1 ティアマト]
+[charaSet E 98107800 1 ラフム]
+[charaSet F 11004002 1 ゴルゴーン]
+
+[scene 20733]
+[fadein black 2.0]
+[wait fade]
+
+[se ad211]
+[shake 0.05 0 4 2.0]
+[wt 2.5]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ナピュシテムの牙、崩落！[r]ケイオスタイド、ウルクに向かって流出！
+[k]
+
+＠Dr.ロマン
+くそ、ビーストⅡの背中に魔力反応を確認！[r]背部巨大骨格展開[line 3]飛ぶぞ！
+[k]
+
+＠Dr.ロマン
+イシュタル、何か手はないのか！？[r]メソポタミアの空はキミの領域だろう！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠イシュタル
+あったらとっくにやってるわ……！[r]でも、私の弓じゃ原初の神性には通用しない……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠マシュ
+ティアマト神、飛びます……！[r]このままウルクに[line 3]いえ、様子が変です！
+[k]
+
+[se ad14]
+[shake 0.05 0 4 0]
+
+＠マシュ
+ケイオスタイドから、何か[line 3][r]あれは……！
+[k]
+
+[messageOff]
+[seStop ad14 1.0]
+[wt 1.0]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[shakeStop]
+[charaFadeout C 0.1]
+[se ad212]
+[wt 1.0]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[wt 0.2]
+[se ad206]
+＠ティアマト
+Aaaaa[line 3][r]AAAAAAAAAAAAAAAA[line 6]！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[scene 20733]
+[wt 0.1]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[wt 0.2]
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠マシュ
+黒い蛇……？[r]巨大な蛇が多数出現、ティアマトに絡みつきました！
+[k]
+
+＠マシュ
+地上に落とします！[r]あれは[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+＠イシュタル
+すご……母さんを力で負かしている……！？[r]どうなってるのよアレ、どこにあんなのがいたの！？
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ラフム
+離セ[line 3]離セ、離セ、離セ！[r]汚ラワシイ、偽者ガ……！
+[k]
+
+[se ad203]
+[wt 1.5]
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠マシュ
+っ、マスター！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[effect bit_talk_41]
+[wt 0.4]
+[charaEffect E bit_talk_13]
+[wt 0.1]
+[effectStop bit_talk_41]
+[se bac10]
+[charaShake E 0.05 3 3 0.4]
+[charaFadeout E 0.4]
+[wt 1.0]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ゴルゴーン
+……ふん。汚らわしいのは貴様らだろうに。[r]自我のない泥風情が、人間のように笑いおって。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFace B 16]
+[charaFadein B 0.1 0]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+[wt 1.2]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ゴルゴーン！　信じられない、[r]この霊基反応は女神ゴルゴーンのものだ！
+[k]
+
+＠Dr.ロマン
+[%1]君、気をつけて！[r]その近くにゴルゴーンと思わしき反応がだね！？
+[k]
+
+？1：ドクター、黙ってて
+？2：ドクター、うるさい
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ゴルゴーン
+………………………………。
+[k]
+
+？1：ありがとう、ゴルゴーン
+？2：頼む、手伝ってくれ……！
+
+？！
+
+[charaFace F 6]
+＠ゴルゴーン
+…………知らぬ。[r]私は私の理由でティアマトに報復するのみ。
+[k]
+
+＠ゴルゴーン
+せめて邪魔はするな、[%1]。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[se ad203]
+[shake 0.05 2 4 0.4]
+[effect bit_talk_41]
+＠ラフム
+[image berserker_language_1][line 2]！！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[effectStop bit_talk_41]
+[soundStopAll]
+[end]

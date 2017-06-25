@@ -1,0 +1,498 @@
+
+
+＄94-00-21-03-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+
+[scene 22110]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メフィスト
+おお……なんというコトでしょう……人の話を[r]聞かないとはまさに悪手、敗着、[#駄目:だめ]の極み……！
+[k]
+
+[charaFace E 1]
+＠メフィスト
+真相を知る唯一の[#犯人:わたくし]を殺してしまうとは！[r]これで事件は迷宮入り、死人に口なし後の祭り！
+[k]
+
+＠メフィスト
+まあ、でもアレですよね？[r]犯人が冒頭で死んでいるミステリも多いですし？
+[k]
+
+＠メフィスト
+皆さんもどうか頭をひねって、[r]この異常事態にお付き合いいただければと！
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+[messageOff]
+[charaSpecialEffect E flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect E]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……敵サーヴァント、消滅しました。[r]これで良かったのでしょうか……
+[k]
+
+？1：手がかりがなくなったね……
+
+＠マシュ
+はい……メフィストさんの言う事ですから信憑性は[r]薄いですが、彼がこの異変の原因だとしたら、
+[k]
+
+＠マシュ
+わたしたちは唯一の手がかりを壊してしまった事に[r]なります……ダメ探偵です……
+[k]
+
+[charaFadeout A 0.1]
+
+？2：次のサーヴァント宅を訪問しよう
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+へえ。おまえ、切り替えが早いんだな。[r]うん。そういうところ、いいんじゃない？
+[k]
+
+＠両儀式
+がっかりするコトないぜマシュ。[r]犯人の一人や二人、排除したって問題ないし。
+[k]
+
+＠両儀式
+捜査は足からだって言っただろ。[r]次の現場が待ってるぜ、探偵さん。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うーん。探偵ものか。探偵ものだったのか、この話。[r]いや、それはさておき。
+[k]
+
+＠Dr.ロマン
+自称とはいえ犯人を倒してしまったのは痛いなぁ……
+[k]
+
+＠Dr.ロマン
+せめて捕まえておけば、尋問なりしてマンションの[r]構造とか、死霊の集まる理由を聞き出せたんだが……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+そうですねぇ！　実に残念です！[r][#私:わたくし]も皆さんのお力になりたくてハサミを
+[k]
+
+＠メフィスト
+シャキシャキさせていたのですが、今回も活躍の場は[r]ナッシング！　まさに空振りに終わった様子！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、これまでメフィストさんが役に立った事例は[r]パッと思いつかないというか、基本的に役に立たず……
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace A 6]
+＠マシュ
+って、ええー！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠両儀式
+ハ、ハサミ男！？
+[k]
+
+？1：なんで部屋からひょっこり出てきてるの！？
+？2：今度こそマシュの生き別れのお兄さん……！？
+
+？！
+
+[charaFace D 5]
+＠両儀式
+もう一人いたのか……！[r]いいぜ、何度でも相手をしてや、
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メフィスト
+おおっと、それには及びません。[r]いま皆さんが処理したのは悪い[#悪魔:メフィスト]。
+[k]
+
+＠メフィスト
+そして今ここにいる[#私:わたくし]は善い[#悪魔:メフィスト]。[r]あー、つまりはアレです。
+[k]
+
+＠メフィスト
+この状況を嘆く[#私:わたくし]と、愉しむ[#私:わたくし]がおりまして。[r]でも良心の呵責とかそういうの時間の無駄なので。
+[k]
+
+＠メフィスト
+えいや、と[#悪心:あくしん]と[#善心:ぜんしん]とをキレイに[r]分けてしまったら、まあこのように！
+[k]
+
+＠メフィスト
+[#私:わたくし]、分身してしまったのでございます！[r]んんん～～、アンビリーバボォー！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk off]
+[charaFace D 8]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaTalk on]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.4]
+
+？1：そういえば、さっき味方にいたね
+
+？！
+
+[bgm BGM_EVENT_2 0.1]
+
+＠メフィスト
+もちろんですとも。[r]えー、[%1]さん、でしたっけ？
+[k]
+
+＠メフィスト
+[#私:わたくし]、これからはその[%1]さんの忠実な[r]サーヴァントですので！……けひ、忠実（笑）とか！
+[k]
+
+＠メフィスト
+その証拠に、先ほどは悪い[#私:わたくし]と[#袂:たもと]を分かち、[r]皆さんに協力した次第です。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+はあ……それは喜ばしいのですが……[r]どう思います、マスター？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.7]
+
+？1：真相を二行以内で語れ。
+？2：知ってる事を二行以内で語れ。
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+いい判断だ。やっぱり筋がいいな、おまえ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メフィスト
+なんと二行以内とかそんなの無理！ですがやりますよぉ、[r][#私:わたくし]はハーメルンの笛吹き、無実の客寄せ[#道化:クラウン]なのです！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+二行です！
+[k]
+
+＠両儀式
+やればできるじゃないか、コイツ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ふむ。無実を主張するって事は、[r]この特異点もどきの発生には関わっていないんだね？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+はい、これっぽっちも舌先ぽっちも！　いやいやまことに[r]残念至極、[#私:わたくし]に一枚噛ませていただければ死霊集めなど程
+[k]
+
+ほどに、死人半分、生者半分、殺し殺されと真に迫った[r]ホラーショウを演出したに違いなく、
+[k]
+
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠両儀式
+二行で！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠メフィスト
+[#私:わたくし]、カルデアの召喚とは別口で、[r]この怨嗟の塔に召喚されました。
+[k]
+
+＠メフィスト
+えーと、ほら。あの方ですよ、あの方。[r]グランドなんとかって方。[#私:わたくし]のクラスの上のアレ。
+[k]
+
+＠マシュ
+！
+[k]
+
+＠メフィスト
+『おまえはこちらよりだろう』とか言われまして。[r]まあ、そんな気もしないでもないので、はあ、と。
+[k]
+
+＠メフィスト
+その後、[#私:わたくし]は華麗に分裂。
+[k]
+
+＠メフィスト
+悪い心の[#私:わたくし]は正義のサーヴァントに変装して、[r]カルデアに侵入したのです。
+[k]
+
+＠メフィスト
+おそらくそちらに[#私:わたくし]がいるからでしょう。
+[k]
+
+＠メフィスト
+カルデアにたどり着けるサーヴァントは、マスターに[r]召喚されるサーヴァントだけですからねぇ。
+[k]
+
+＠メフィスト
+まあ、そんな巧みな抜け道を使って、[r]悪の[#私:わたくし]は勧誘を開始したのです。
+[k]
+
+[charaFace E 1]
+＠メフィスト
+新しい住み処がある。サーヴァントらしい部屋がある。[r][#敷金:しききん][#礼金:れいきん]いまなら無料、お引っ越しはお早めに、と！
+[k]
+
+＠メフィスト
+ああ、なんという巧みな口車！[r][#私:わたくし]は[#私:わたくし]が憎い！
+[k]
+
+[charaFace E 4]
+＠メフィスト
+でも仕方ないのですよ？[r]だってカルデアのサーヴァント部屋、狭いって話ですし？
+[k]
+
+＠メフィスト
+壁に貼り物は禁止。ペット持ち込み不許可。[r]いえ、馬を連れている方は例外で。
+[k]
+
+＠メフィスト
+なので皆さん、あっさりこちらに。[r]それで[#私:わたくし]、あっさり[#暇:いとま]に。
+[k]
+
+＠メフィスト
+グランドなんとかさんの契約から逃れ、[r]こうして楽しく皆さんを待っていた訳でございます！
+[k]
+
+＠メフィスト
+ああ、[#私:わたくし]は信じておりました！
+[k]
+
+＠メフィスト
+[%1]さんなら[#私:わたくし]の悪心を[#諫:いさ]め、[r][#私:わたくし]の善心を信じて、ププッ、信じてくださると！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠両儀式
+だってさ。[r]信頼されてるじゃんか、おまえ。
+[k]
+
+？1：まさかメッフィー、ついてくるの！？
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+ついていきますとも！[r][#私:わたくし]　を外すなんて　とんでもない！
+[k]
+
+？2：いま笑ってなかった？
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+笑いましたとも！[r]良い事があれば笑うのがニンゲンですからねぇ！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+フォウさん……
+[k]
+
+[charaFace A 7]
+＠マシュ
+……マスター。フォウさんも先を促していますし、[r]ここは諦めてメフィストさんを連れて行きましょう。
+[k]
+
+＠マシュ
+道すがら、知っている事を話せてもらえたらラッキー、[r]ぐらいの考えで。
+[k]
+
+？1：そうだね。
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+ウヒヒ、お話はお纏まりで？
+[k]
+
+[charaFace E 3]
+
+？2：メフィスト、裏切らないよね？
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+？！
+
+＠メフィスト
+ご安心を。[r][#私:わたくし]、勝者には絶対服従でございます。
+[k]
+
+＠メフィスト
+そもそも物騒さで言えば、[r]そこのアサシン嬢と同類ですし？
+[k]
+
+＠メフィスト
+どうか背中と首まわりに気をつけつつ、[r]捜査の末席に加えていただければと！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 3]
+[charaFadein A 0.1 2]
+＠マシュ
+……だそうですが。[r]あの、同類なんですか、式さん？
+[k]
+
+[charaFace D 2]
+＠両儀式
+そんなのと一緒にするな！[r]ハサミよりナイフの方が斬れるに決まってるだろう！
+[k]
+
+？1：怒るの、そっちなんだ！
+
+？！
+
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,233 @@
+
+＄01-00-05-11-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 3005002 1 エリザベート]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 7008001 1 ベオウルフ]
+
+[scene 20400]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+……サーヴァント……！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠E：？？？
+おう。アルカトラズ刑務所にようこそ。[r]入監か？　襲撃か？　脱獄の手伝いか？
+[k]
+
+＠E：？？？
+とりあえず希望を言っておきな。[r]殺した後で、どうするか考えてやるからよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+こちらの患者の奥方が此処に監禁されているようで。[r]治療に必要なのでお渡し願います。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠E：？？？
+なんだよ面会かよ。[r]おいおい、戦いに来たんじゃないのかい？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+まさか。看護師が戦いに来てどうするのです。[r]看護師が戦うのは、病気と負傷だけと決まっています。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：？？？
+そりゃいちいちごもっとも。[r]確かに命を奪う看護師なんてのは正気じゃねえ。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+ん？　となるとアンタ、実は狂ってないのか？[r]しごくまっとうなサーヴァントじゃねえか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ラーマ
+敵ながらまったく同感だ。
+[k]
+
+＠ラーマ
+狂っていないのに狂っている、というまことに[r]矛盾した女性が、この婦長殿だからな。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：？？？
+なんだ。荷物かと思えば喋るじゃないか。[r]読めたぞ。テメエが奥方のダンナってワケか。
+[k]
+
+＠E：？？？
+しかし残念だが、[r]俺はその奥方を解放するつもりはない。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+[line 2]では、怪我人の治療の邪魔ということですね。[r]障害は排除させていただきます。
+[k]
+
+＠ナイチンゲール
+こちらは血を流すことを望んでいます。[r]否、渇望すらしている。
+[k]
+
+＠ナイチンゲール
+患者の救済のためならば、[r]障害となるべき存在は根こそぎ排除します！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠E：？？？
+クッ……ははははは！[r]面白ぇ！　バーサーカーってのも色々居るもんだ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エリザベート
+ぐっ……何つーか、イヤな気分になるタイプの[r]サーヴァントね……ツノ的に！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠E：？？？
+そりゃそうだろうな、そこの嬢ちゃん！[r]俺の[#真名:な]は“竜殺し”[line 2]ベオウルフ。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+英文学最古の叙事詩と謳われる物語の主人公、[r]ベオウルフか……！！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+強敵だぞ、遠慮は無用だ。[r]全員で掛かかってくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+ほう、まずは団体戦か！[r]派手好きなヤツらだ、だが乗った！
+[k]
+
+[se ad88]
+[wait se ad88]
+[bgmStop BGM_EVENT_5 0.1]
+[se ad17]
+[wait se ad17]
+[wt 0.2]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+な……竜種……！！[r]ワイバーンだけじゃなかったんですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ベオウルフ
+コイツは選りすぐりだ。[r]前哨戦にはちと勿体ないが、試すには十分だ。
+[k]
+
+[charaFace E 0]
+＠ベオウルフ
+俺たちが敵同士なのは明白だがな、[r]それでも交わすべき仁義ってもんがある。
+[k]
+
+[charaFace E 1]
+＠ベオウルフ
+敵であれ強い者には敬服する。[r]死は恐れずとも奢りを恐れ、敬いを忘れない。
+[k]
+
+＠ベオウルフ
+それが俺たちの世界のルールだ。[r]なあに。要は、まず戦って証を立てろって事さ。
+[k]
+
+[charaFace E 0]
+＠ベオウルフ
+この世界は戦いに満ち溢れ、[r]この国は戦いの泥に呑み込まれようとしている。
+[k]
+
+＠ベオウルフ
+そいつに文句があるのならかかってきな。[r]おまえたちの生きる価値を、戦士である事を証明しろ。
+[k]
+
+[charaFace E 1]
+＠ベオウルフ
+そうすりゃあ、そうだな。[r]名前ぐらいは覚えてやるよ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,195 @@
+
+
+＄94-00-77-04-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 5012001 1 ニトクリス]
+[charaSet B 1010001 1 エリザベート]
+
+[scene 20115]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.4 1]
+＠エリザベート
+突破！[r]さあ、どんどん行くわよ！
+[k]
+
+[charaFace B 0]
+＠エリザベート
+[#私:アタシ]の喉もノッてきたわ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadeTime A 0.4 0.5]
+[wt 0.4]
+＠ニトクリス
+く、ここからでも伝わってくる[r]エビル音波……！！
+[k]
+
+[charaFace A 1]
+＠ニトクリス
+まるで地獄の亡者の呻き声のようで、[r]正直好みのジャンルです！
+[k]
+
+[charaFace A 0]
+＠ニトクリス
+アイドルポップ……馬鹿にできないですね！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠エリザベート
+地獄の亡者の呻き声って何よ！？
+[k]
+
+[charaFace B 5]
+＠エリザベート
+アイドルポップはキュート・キューティ・キューティストが[r]モットーなんですけど！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadeTime A 0.1 0.5]
+[wt 0.1]
+＠ニトクリス
+ですが、まだまだ！[r]出ませい、スフィンクス！
+[k]
+
+[charaFadeout A 0.7]
+[wt 0.1]
+
+[messageOff]
+
+[se ad158]
+[shake 0.1 3 3 1.0]
+[wt 1.2]
+[seStop ad158 0.4]
+[wt 0.4]
+[se ad19]
+[wt 1.5]
+
+？1：何ですとぉ！？
+？！
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadeTime A 0.1 0.5]
+[wt 0.1]
+＠ニトクリス
+ふふふ。レンタル料は高かったですが、[r]このスフィンクスこそが、我が洞窟の真・番人！
+[k]
+
+＠ニトクリス
+ファラオ・オジマンディアス王はああ見えて[r]きっちりビジネスをするお方[line 3]
+[k]
+
+[charaFace A 9]
+＠ニトクリス
+“ほう、余の神獣兵団を借り受けたいと？[r][f small]  [f -]では一週間のレンタル料は３スカラベ”
+[k]
+
+＠ニトクリス
+“マリカにする場合は鎖を１０追加。[r][f small]  [f -]ああ、返す時は胃袋を満タンにしておくように”
+[k]
+
+[charaFace A 1]
+＠ニトクリス
+と、たいへんリーズナブルな条件でお借りしたのです！[r]さあ、やっちゃってくださーい！
+[k]
+[charaFadeout A 0.4]
+[wt 0.1]
+
+[messageOff]
+
+[se ad158]
+[shake 0.1 3 3 2.0]
+[wt 2.0]
+[seStop ad158 1.0]
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠エリザベート
+くっ、[#私:アタシ]でも分かる。[r]これは……超強いわね……！
+[k]
+
+[charaFace B 1]
+＠エリザベート
+でも大丈夫、安心なさい[&子イヌ:子ジカ]。[r][#私:アタシ]は勝つわ、何故か分かる？
+[k]
+
+？1：わからないですが……？
+
+[charaFace B 0]
+＠エリザベート
+ふふふ、さすがの[&子イヌ:子ジカ]でも分からないか。[r]なら、教えてあげる。
+[k]
+
+？2：強いから？
+
+[charaFace B 0]
+＠エリザベート
+惜しいわね。[r]でも、強いことが正しいとは限らないわ。
+[k]
+
+？！
+
+[charaFace B 1]
+＠エリザベート
+そう……[#私:アタシ]は勇者。[r]つまり、正義は必ず勝つのよ！
+[k]
+
+[charaFace B 2]
+＠エリザベート
+分かったかしら[&子イヌ:子ジカ]！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadeTime A 0.1 0.5]
+[wt 0.1]
+＠ニトクリス
+……おかしいですね。ファラオビジョンでは[r]元々、混沌・悪属性だったように見えるのですが……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠エリザベート
+うううううるさいわね！[r]行くわよコンニャロ[line 4]！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[charaFadeout B 0.4]
+
+[soundStopAll]
+[end]

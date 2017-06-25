@@ -1,0 +1,244 @@
+＄91-70-04-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10915]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 7004001 1 フラン]
+[charaSet D 98015000 1 ？？？]
+[charaSet E 7004001 1 Ｅ・フラン]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+終了です。[r]……やはり、彼らも死体から鋳造されたものですね。
+[k]
+
+＠？？？
+……その通り。[r]とはいえ、彼らは大いに役立ってくれたとも。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フラン
+ァ……！？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFadein D 0.4 1]
+＠？？？
+久しぶりだね。
+[k]
+
+＠？？？
+まさかおまえが英霊に祀り上げられるとは思わなかった。[r]名前も無い、私の名を盗んだだけのおまえが。
+[k]
+
+＠Dr.ロマン
+やはり、彼か……！
+[k]
+
+[charaFadeout D 0.5]
+[charaTalk A]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+[line 2]ヴィクター・フランケンシュタイン。
+[k]
+
+＠フラン
+ゥ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaSet D 98015000 1 ヴィクター]
+[charaTalk D]
+[charaFadein D 0.1 1]
+＠ヴィクター
+そうだ。
+[k]
+
+＠ヴィクター
+貴様はサーヴァントとなり、[r]私は亡霊となった。
+[k]
+
+＠ヴィクター
+だが、どうやら世界の激変が……私にとっては[r]素晴らしい環境を生み出してくれたらしい。
+[k]
+
+＠ヴィクター
+私は過去の残留物、怨念。[r]ただそれだけの存在だが、それでも[line 2]。
+[k]
+
+＠ヴィクター
+念ずれば、また繰り返すことができる。[r]またやり直すことができる。
+[k]
+
+＠ヴィクター
+あの奇跡を！　あの神が与えた千載一遇の瞬間を！[r]再びこの手に掴んだのだ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+特異点のせいか……比較的安定している時代すらも、[r]揺らぎ始めているようだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+つまり……ヴィクター・フランケンシュタインが[r]生きていたら、という仮定が実行されてしまったんですね。
+[k]
+
+[charaFace A 4]
+＠マシュ
+世界を改変するほどではなくとも、[r]こうして街一つを死に追いやるほどの。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein E 0.4 1]
+[charaFace E 4]
+＠Ｅ・フラン
+お父様。[r]もう、いい、よね？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+＠ヴィクター
+ああ、いいとも“イヴ”。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠フラン
+……！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace E 4]
+[charaFadein D 0.1 2]
+＠ヴィクター
+殺してあげなさい。
+[k]
+
+＠ヴィクター
+そうすれば、おまえは彼女に成り代わり[line 2][r]新たな伝説を築くだろう。
+[k]
+
+＠ヴィクター
+“イヴ”。原初の女、アダムの[#番:つがい]。[r]その完全体と呼べる女に。
+[k]
+
+[charaFace E 1]
+＠Ｅ・フラン
+うん、うん、うん……！[r]なるよ！　なるよ！　姉さんを殺して、私が、私が！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フラン
+……ゥ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+＠ヴィクター
+口を開くこともできないのか。[r]何たる欠陥品。おまえは[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠フラン
+だま、れ。
+[k]
+
+＠ヴィクター
+……！？
+[k]
+
+[charaFace C 4]
+＠フラン
+しゃべるのは、すごくつかれるから。[r]でも……これだけは、いっておく。
+[k]
+
+[charaFace C 0]
+＠フラン
+ちちうえ、いもうと。[r]あなたたちは、とうのむかしに、おわっている。
+[k]
+
+＠フラン
+わたしの、はんりょは、わたしが、みつける。[r]わたしの、なまえは、わたしが、つける。
+[k]
+
+[charaFace C 5]
+＠フラン
+だから。[r]わたしと、いっしょに、こい……！
+[k]
+
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace E 2]
+[charaFadein D 0.1 2]
+＠ヴィクター
+貴様[line 2]！！
+[k]
+
+＠Ｅ・フラン
+黙れ……！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+……フランさん！[r]わたしたちも一緒に戦います！
+[k]
+
+[charaFace C 0]
+＠フラン
+……うん。[r]いっしょに！
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

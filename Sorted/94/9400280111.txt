@@ -1,0 +1,244 @@
+＄94-00-28-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 1013001 1 カエサル]
+[charaSet E 5010001 1 パラケルスス]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+[scene 20500]
+[fadein black 1.0]
+[wait fade]
+
+
+＠二人
+無実を主張する（します）！
+[k]
+
+？1：カエサル、本当かー？
+
+[charaTalk on]
+[charaFace D 1]
+＠カエサル
+本当だとも！
+[k]
+
+[charaFace D 4]
+＠カエサル
+そもそも贋作をただ同然で流通させては、[r]儲かる物も儲からない。
+[k]
+
+[charaFace D 0]
+＠カエサル
+先に「モナ・リザの本物を提供する」と顧客に称して、[r]その上でダ・ヴィンチ殿の[#礼装:ほんもの]を買い占める。
+[k]
+
+[charaFace D 5]
+＠カエサル
+なぜか？　当然だ。私が本物を手元に置くかぎり、[r]顧客が「これは贋作ではないか？」という
+[k]
+
+＠カエサル
+不安に怯える事なく、安心して対価を払えるからだ。[r]だというのに贋作をただバラ撒くだの[line 3]
+[k]
+
+[charaFace D 1]
+＠カエサル
+断言しよう。私は己が魂にかけて、[r]そんなモッタイナイ事はできない！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 14]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+＠マシュ
+カエサルさんは本当に本物ですね！
+[k]
+
+＠ダ・ヴィンチちゃん
+まさしく。“顧客が安心できる商売”こそ[r]最強って知ってるんだなあ……。
+[k]
+
+
+？2：Ｐはいつも通り、良かれと思って？
+
+[charaTalk on]
+[charaFace E 4]
+＠パラケルスス
+モナ・リザの偽礼装を作ったとしても……。[r]あまり世界に良い影響を与えるとは思いません。
+[k]
+
+[charaFace E 0]
+＠パラケルスス
+『モナ・リザ』こそは至高の芸術。[r]世界において、これほど認知された絵画もないでしょう。
+[k]
+
+[charaFace E 5]
+＠パラケルスス
+それを贋作という存在で劣化させるのは、[r]魔術的に考えてもよろしい事ではない。
+[k]
+
+[charaFace E 0]
+＠パラケルスス
+……真作を犠牲にして何かを生み出すならば、[r]まあ問題ないですが……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFace A 0]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+＠ダ・ヴィンチちゃん
+大いにあるとも！[r]特に私の心に大ダメージだからね！？
+[k]
+
+？！
+
+[charaFace A 12]
+＠マシュ
+しかし……お二人とも、[r]本当に黒幕ではなかったのですね。
+[k]
+
+[charaFace A 8]
+＠マシュ
+すいません……いつもの調子でつい。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+＠カエサル
+ふむ。そこは嘆く事はないぞ？[r]私とは別ベクトルで張りのあるお嬢さん。
+[k]
+
+＠カエサル
+なにしろ、我々も贋作の噂を嗅ぎ付けて[r]こっそりレイシフトしたのだから。
+[k]
+
+[charaFace D 4]
+＠カエサル
+パラケルススは囮に使えると思って連れてきたのだが……[r]ははは、[charaFace D 1]別れる前に捕まったのは計算外だった！
+[k]
+
+[charaFace E 4]
+＠パラケルスス
+恥ずかしながら、私もほぼ同じ方針でした。
+[k]
+
+[charaFace E 0]
+＠パラケルスス
+カエサル殿の後ろから、こう、ソードＰで[r]もろともに片付けてしまえれば、と……
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+何が恥ずかしい事なのか、[r]そこの魔術師は一度反省させるとして、だ。
+[k]
+
+＠エミヤ
+とにかく今はこちらの質問タイムだ。[r]贋作についての心当たりを述べて貰おうか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠カエサル
+この街のどこかに贋作集団が居る事は間違いあるまい。[r]私の[#金目:きんもく]センサーがそう言っている。
+[k]
+
+[charaFace D 5]
+＠カエサル
+だが一つ、問題がある。[r]その贋作工房はサーヴァントが指揮をしていると聞く。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 6]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠マシュ
+……え！？
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+サ、サーヴァント……！[r]……そうか。それなら納得だ。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+けど、一体誰だろう……ミケランジェロ？　ラファエロ？[r]あるいは……ドナテロとか？
+[k]
+
+＠ダ・ヴィンチちゃん
+心当たりが多いな……。[r]アイツか？　[charaFace B 2]コイツか？　どいつだ？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+レオナルド・ダ・ヴィンチの生前の人間関係が[r]懸念されるな……。
+[k]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠カエサル
+正体までは私は把握していない。[r]彼らの工房はここだ、行ってみるがいい。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+ようし、ありがとう！[r]さあ、諸君。贋作工房に出発だ！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

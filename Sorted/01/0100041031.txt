@@ -1,0 +1,56 @@
+＄01-00-04-10-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10916 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5011001 1 バベッジ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……敵性集団、撃破しました。[r]恐らくですが、襲撃される頻度が増しているようです。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFace F 0]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+＠モードレッド
+やっぱり敵が出てくるなあ……[r]フラン、どうした。もしかして調子悪いのか？
+[k]
+
+[charaFace F 4]
+＠フラン
+……ゥ……。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+次は東か……。[r]さっきより、色んな方向を示してるような。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+調子が悪いなら言っていいんだぞ。[r]前にも言ったが、言いたいことははっきり言えよ？
+[k]
+
+＠フラン
+…………。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

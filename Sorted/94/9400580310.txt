@@ -1,0 +1,113 @@
+
+＄94-00-58-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet C 4024000 1 モードレッド]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+ぬおー！　マジかよ、オレの言う通りのが[r]できてるじゃねーか！　ありがとな、マスター！
+[k]
+
+＠モードレッド
+こいつはスゲェ。なんて装甲だ。[r]硬くて、マジ頑丈だな！
+[k]
+
+？1：……中に入ってみる？
+？！
+
+[charaFace C 1]
+＠モードレッド
+おう！
+[k]
+
+
+[messageOff]
+[charaFadeout C 0.4]
+[se ad132]
+[wt 1.0]
+[seStop ad132 0.5]
+
+[wt 1.0]
+[se ad133]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+[seStop ad133 0.5]
+
+＠モードレッド
+あはは、あはははは！　なんだこれ！[r]クソあちぃー！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+鉄の家ですからね。太陽の熱が……。
+[k]
+
+＠フォウ
+フォウ……。
+[k]
+
+
+？1：居住性の計算は……？
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+居住性？　なんだそれ？　[r]オレが気にしてたのは防御力だけだぞ。
+[k]
+
+＠モードレッド
+とにかく硬いのができたからオレは満足だ。[r]笑えるくらい熱いけどな。
+[k]
+
+[charaFace C 1]
+＠モードレッド
+よーし、あっちーからオレはまた海に入ってこよっと！
+[k]
+
+＠モードレッド
+マスター、せっかく作ったんだから、あの家使えよ！
+[k]
+
+[charaFace C 0]
+＠モードレッド
+どんだけ火矢が飛んできても、あの中にいれば[r]とりあえず安全だ。オレが保証する。
+[k]
+
+[charaFace C 1]
+＠モードレッド
+……ま、ずっといすぎたら、火矢が飛んでくるより[r]先に蒸し焼きになるかもしんねーけどな。あはは！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

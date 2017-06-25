@@ -1,0 +1,154 @@
+＄01-00-03-10-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 2009102 1 オリオン]
+[charaSet E 2009201 1 アルテミス]
+[charaSet F 98019000 1 イアソン]
+[charaSet G 3016000 1 ヘクトール]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk E]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace E 0]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠アルテミス
+ふぅん。[r]あれって、もしかしてアルゴー号？
+[k]
+
+[charaFace A 6]
+＠マシュ
+アルゴー号……？[r]まさか……！
+[k]
+
+[charaFace A 7]
+＠マシュ
+オリオンさん、[r]アルゴー号って[#あの]アルゴー号ですか！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠オリオン
+はい、ご名答だコン畜生！[r]ありゃ、正真正銘『アルゴノーツ』だ！
+[k]
+
+＠オリオン
+金羊の毛皮を求めて旅立った、冒険者たちの船。[r]人類最古最強の海賊団と言っても過言じゃねえ。
+[k]
+
+[charaFace D 0]
+＠オリオン
+まあ、こっちの胸デカ気っ風良い姐御系胸デカ船長[r]と違って、ケジラミの方がマシって感じの人格だがな。
+[k]
+
+[charaFace A 15]
+＠マシュ
+アルゴノーツのリーダー……つまり、イアソン。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠アステリオス
+い……あそ……ん……！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout H 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21330 0]
+[charaFace F 3]
+[charaFadein F 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠イアソン
+不敬だな、ミノタウロス。[r]私の名前は、畏怖と崇拝と共に呼称されるべきだ。
+[k]
+
+[charaFace F 4]
+＠イアソン
+だが、退治される醜い獣である君には特別に[r]許してあげよう。
+[k]
+
+＠イアソン
+さあ、かかってきなさい！
+[k]
+
+[charaFadeout F 0]
+[charaTalk G]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠ヘクトール
+どうするんです、キャプテン。[r]このまま、押し潰しますか？
+[k]
+
+[charaFace F 0]
+＠イアソン
+もちろん、正義の味方らしく。[r]真っ向から戦って、押し潰す！
+[k]
+
+[charaFace F 4]
+＠イアソン
+まったくもって気分がいいな、正義とは！
+[k]
+
+[charaFadeout G 0.4]
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠Dr.ロマン
+……撤退を推奨する。あれは、無理だ。[r]エウリュアレを確保したのなら、引き上げた方がいい。
+[k]
+
+[charaFace A 14]
+＠マシュ
+でも、ドクター！
+[k]
+
+＠Dr.ロマン
+アルゴノーツとして、数多の英雄豪傑が集ったが……。[r]英雄として破格の存在がいるのは知らないかい？
+[k]
+
+[charaFace A 15]
+＠マシュ
+……わかっています。[r]あのバーサーカー……恐らくは。
+[k]
+
+＠Dr.ロマン
+そう。十二の試練を潜り抜けたギリシャ神話最大の英雄。[r][line 2]ヘラクレスだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaSet E 7001001 1 ヘラクレス]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[voice 700100_0_B100]
+[wait voice 700100_0_B100]
+＠ヘラクレス
+[image berserker_language_1][line 4]！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

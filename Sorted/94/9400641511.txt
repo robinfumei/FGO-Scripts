@@ -1,0 +1,357 @@
+＄94-00-64-15-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5028001 1 イリヤ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5023000 1 エレナ]
+
+[scene 31400]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠イリヤ
+つ、強い……！[r]なんて手強いモンスターたちなの！？
+[k]
+
+[charaFace B 7]
+＠イリヤ
+またおかわりが、ふよふよ来てるしぃー！
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+待ってください。あれは[line 3][r]無人だったはずの建物から、誰かが……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_32 0.1]
+
+[se ad60]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠D：？？？
+……ずいぶん騒がしいのね。
+[k]
+
+＠D：？？？
+こんな魔力の涸れた荒地をおとずれる魔法少女が、[r]まだ居たなんて……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+この国の魔法少女さん、ですか！？[r]『死せる書架の国』の？
+[k]
+
+
+？1：（彼女が来たらゴーストが自然と去っていった……？）
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠D：？？？
+ええ……その一人よ。
+[k]
+
+[charaFace D 4]
+＠D：？？？
+あら、なるほど……ごめんなさい。[r][#他の子たち]が、手荒く出迎えてしまったようね。
+[k]
+
+[charaFace D 0]
+＠D：？？？
+[line 3]お怪我は？　治癒の術はご入り用？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いえ、とても強敵でしたが、[r]さいわい負傷は軽微で…………？
+[k]
+
+[charaFace A 6]
+＠マシュ
+……いま、他の子たち、と言われましたか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠D：？？？
+ええ。新顔さん。
+[k]
+
+[charaFace D 4]
+＠D：？？？
+ここは魔法少女たちの墓場。[r]この廃墟の亡霊は、みな、魔法少女のなれの果て。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+あたしはただの[#墓守人:はかもりびと]。そして司書。[r]女王でもないし、魔法少女だったのも昔の話よ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 3 3 0.5]
+
+＠イリヤ
+魔法少女の……ぼ、亡霊……！？[r]あわわわ……っ……。
+[k]
+
+
+？1：[&きみ:あなた]の名前を教えて[&ほしい:くれる？]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠D：？？？
+亡霊に名前など、不要ではないこと？[r]でも[charaFace D 4]名無しのまま話すのも面倒かしら。では……。
+[k]
+
+
+[charaFace D 0]
+＠エレナ
+[line 3]エレナ。[r]そう呼んでくださって、よくってよ。
+[k]
+
+
+？2：もし[&かして:や]、ブラヴァツキー夫人？
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あなたは、ミセス……いえ、[r]レディ・ブラヴァツキーさんですね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠D：？？？
+あら、お詳しいこと。[r]そう呼ばれても否定はしないわ。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+どちらかといえば、メンタルは[r][#娘時代:フォン・ハーン]寄りと自認しているけれど。
+[k]
+
+[charaFace D 0]
+＠エレナ
+そうね[line 3][r]単にエレナ、と呼んでくださってよくってよ。
+[k]
+
+？！
+
+
+[charaFace D 5]
+＠エレナ
+ただし、特に親しみを深めたいわけではないわ。[r]それは取り違えないで。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+じゃあ魔法少女エレナさん、ですね。[r]……ロ、ロマニ先生？　あの人って？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 1]
+
+＠Dr.ロマン
+安心して、イリヤちゃん。[r]あとボクの名前と役職を覚えててくれて嬉しい。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+うん、彼女はお化けじゃなさそうだ。
+[k]
+
+＠Dr.ロマン
+これまでの魔法少女たちと同じく、[r]サーヴァントに似た霊基反応がある。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+もちろん生きている。[r]生体反応を[#隠蔽:カモフラ]していたのか……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+……？　この魔力波は……。
+[k]
+
+＠エレナ
+その映像の男性は……まさか……[r]……平行世界と直通のレイラインなの？
+[k]
+
+[charaFace D 4]
+＠エレナ
+そういうことなの……。[r]外の世界への足がかりを掴んだのね[line 3][#彼女]は。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+って、どういうことだい……？[r]勝手に納得されてる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+彼女って……[r]メイヴさんのことを言ってるんですか！？
+[k]
+
+[charaFace B 4]
+＠イリヤ
+何か知りませんか、エレナさん！？[r]彼女が連れ去ったわたしの友達の[line 3]。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エレナ
+待って。この場所ではなんだから、[r]あたしの[#書斎:ライブラリー]へ来るといいわ。
+[k]
+
+[charaFace D 5]
+＠エレナ
+あなたたち二人は、変身を解いて。[r]そのほうがいい。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ、あの……イリヤさんは別として、[r]わたしは魔法少女とは違うのですが……。
+[k]
+
+[charaFace A 8]
+＠マシュ
+とにかく、先程の戦闘も不幸な事故だったとあれば、[r]もちろん敵意はありません。武装も一時解除します。
+[k]
+
+[charaFace A 7]
+＠マシュ
+よろしいですよね？　マスター。
+[k]
+
+
+？1：了解[&だ:だよ]
+
+[charaFace A 13]
+＠マシュ
+[line 3]はい。[r]じゃあイリヤさん、お呼ばれに応じましょうか。
+[k]
+
+
+？2：マシュちゃん変身解除だフォウ！
+
+[charaFace A 14]
+
+＠マシュ
+マ、マスタぁ～……？[r]そ[charaFace A 8]ろそろそれは……。
+[k]
+
+[charaFace A 11]
+＠マシュ
+もうっ……行きますよ！
+[k]
+
+？！
+
+
+[messageOff]
+[bgmStop BGM_EVENT_32 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout A 0]
+[scene 10000]
+
+[fadein black 0.1]
+[wait fade]
+[fowardEffect bit_talk_eyecatch_05]
+[wait fowardEffect bit_talk_eyecatch_05]
+
+[fadeout black 1.0]
+[wait fade]
+[soundStopAll]
+[end]
+

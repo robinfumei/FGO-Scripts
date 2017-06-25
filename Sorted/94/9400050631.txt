@@ -1,0 +1,31 @@
+＄94-00-05-06-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20902]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 7016001 1 タマモキャット]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+[fadein black 1]
+[wait fade]
+＠タマモキャット
+ヌッハッハ！[r]一つと言ったなあれは嘘だ！
+[k]
+
+[charaFace E 1]
+＠タマモキャット
+実際は失敗作も踏まえて、もうちょっと残ってる。[r]次こそは食べて欲しいワン！
+[k]
+
+[charaFadeout E 0.5]
+[wt 0.4]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

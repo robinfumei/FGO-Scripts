@@ -1,0 +1,1069 @@
+
+
+
+＄01-00-07-16-1-1
+[soundStopAll]
+[flashin once 0.1 0.1 000000FF 000000AF]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 5018001 1 ギルガメッシュ]
+[charaSet D 98107800 1 ラフム]
+[charaSet E 98107800 1 ラフム]
+[charaSet F 98107800 1 ラフム]
+[charaSet G 98107800 1 ラフム]
+[charaSet H 98107500 1 ウルク兵士たち]
+
+[bgm BGM_EVENT_24 0.1]
+[scene 32910]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk off]
+[charaDepth D 2]
+[charaDepth E 1]
+[charaDepth F 0]
+[charaDepth G 0]
+[charaFadein D 0.4 -128,0]
+[wt 0.4]
+[charaFadein E 0.4 128,0]
+[wt 0.4]
+[charaFadein F 0.4 -384,0]
+[wt 0.4]
+[charaFadein G 0.4 384,0]
+[wt 1.0]
+[messageOff]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaSet D 4018001 1 ケツァル・コアトル]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+敵個体、さらに増加！[r]一体でも強力なのに、これでは[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ケツァル・コアトル
+相手をするにも限度があるわね！[r]これじゃ数に押されて……あら？
+[k]
+
+[messageOff]
+[charaSet D 98107800 1 ラフム]
+[charaDepth D 2]
+[bgmStop BGM_EVENT_24 1.0]
+[charaFadein D 0.4 -128,0]
+[charaFadein E 0.4 128,0]
+[charaFadein F 0.4 -384,0]
+[charaFadein G 0.4 384,0]
+[wt 0.7]
+
+＠？？？
+…………。[r]ｔｚｓ＠４ｄ（４ｌ）４．
+[k]
+
+[messageOff]
+[se bac112]
+[charaFadeout D 0.4]
+[wt 0.4]
+[charaFadeout E 0.4]
+[wt 0.4]
+[charaFadeout F 0.4]
+[wt 0.4]
+[charaFadeout G 0.4]
+[wt 0.4]
+[charaSet G 5009001 1 ダ・ヴィンチ]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[se ad207]
+[seVolume ad207 0 0.4]
+
+＠マシュ
+敵個体、波が引くように撤退していきます……[r]もしや、活動限界なのでしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk G]
+[communicationChara 5009003 1 5 0 5]
+[wt 0.3]
+
+＠ダ・ヴィンチ
+そのようには見えなかったけどね。[r]かといって、指揮系統があるようにも見えなかった。
+[k]
+
+＠ダ・ヴィンチ
+たまたま他の一体が[#飽:あ]きて撤退したのを見て、[r]全員がマネたような唐突さだ。
+[k]
+
+＠ダ・ヴィンチ
+知性も主体性もない、軍隊アリのように見えたが……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+なんにせよ、これで少しは余裕が出来たわ。[r]ジグラットに行きましょう。
+[k]
+
+＠イシュタル
+ギルガメッシュが状況を纏めている筈よ。[r]まずはアイツの話を聞きましょう。
+[k]
+
+[messageOff]
+[seStop ad207 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+
+[wt 2.0]
+[scene 33100]
+[charaSet E 98107500 1 ウルク兵士たち]
+[charaSet F 98107500 1 ウルク兵士たち]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_40 0.1]
+
+＠ギルガメッシュ
+生き残った市民は北壁の向こう側に避難させる！[r]ニップル市を当面の居住区として再利用する！
+[k]
+
+＠ギルガメッシュ
+また、避難民より兵士を募る必要はない。[r]戦士として生まれた者だけがウルクに残れ。
+[k]
+
+＠ギルガメッシュ
+ついに滅びの日は来た。[r]猶予はあと二日というところだろう。
+[k]
+
+＠ギルガメッシュ
+マーリンめが早めたこの一日。[r]そして[#我:オレ]が視たウルク崩壊の日。
+[k]
+
+＠ギルガメッシュ
+だが、ウルクの崩壊にまで付き合う事はない。[r]ニップルまで逃げ延びれば違った運命もあろう。
+[k]
+
+＠ギルガメッシュ
+生存を望むものは北壁へ向かえ。[r]戦いを望むものはウルクの[#礎:いしずえ]となれ。
+[k]
+
+＠ギルガメッシュ
+よいな、刻限は夕刻までだ。[r]家族、友と別れを済ませておくがいい。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFadein H 0.1 1]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+
+＠ウルク兵士たち
+……ギルガメッシュ王……。
+[k]
+
+[wt 0.2]
+[messageOff]
+[charaFadeout H 0.4]
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[wt 0.7]
+
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaSet F 3028000 1 ジャガーマン]
+[se ad60]
+[seVolume ad60 0 0.4]
+[charaTalk on]
+[wt 0.1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[seStop ad60 1.0]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+
+＠ギルガメッシュ
+戻ったか、カルデアの。[r]ゴルゴーン討伐、見事果たしたようだな。
+[k]
+
+＠ギルガメッシュ
+ん？　顔色が優れぬではないか。[r]疲れか、それとも良くないものを見過ぎたか。
+[k]
+
+＠ギルガメッシュ
+……しばし休むか？[r]誰も異論は挟まぬだろう。
+[k]
+
+？1：いいえ
+？2：ギルガメッシュ王、話の続きを
+
+？！
+
+[charaFace C 3]
+＠ギルガメッシュ
+そうか。ならばよい。
+[k]
+
+[charaFace C 1]
+＠ギルガメッシュ
+イシュタル、ケツァル・コアトル、[r]そして噂のジャガーマン！　ふはは、貴様がジャガーマンか！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 2]
+[charaFadein C 0.1 0]
+
+＠ジャガーマン
+反応に困る大人気っぷりですニャあ。[r]こんな複雑な厚遇は初めてですよ？
+[k]
+
+
+[charaFace C 0]
+＠ギルガメッシュ
+そう言うな、許すがよい。[r][#我:オレ]も窮していたのでな、笑いどころが欲しかったのだ。
+[k]
+
+
+[charaFace F 2]
+＠ジャガーマン
+ますます意味が分からないんですけど！[r]傷ついていいところでしょーか！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+では事の報告だ、[%1]よ。[r]魔獣戦線で起きた全てを[#我:オレ]に聞かせよ。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_40 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[charaSet H 98003000 1 Dr.ロマン]
+[charaFadeout C 0.1]
+[wt 2.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+
+＠ギルガメッシュ
+そうか。マーリンは先に逝ったか。
+[k]
+
+＠ギルガメッシュ
+現実では負け知らずのまま、夢の中で潰されるとはな。[r]実にヤツらしい結末だ。
+[k]
+
+[charaFace C 5]
+＠ギルガメッシュ
+して、人類悪[line 3]マーリンは確かにそう言ったのだな？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。魔術王がこの地に呼び覚ましたのは[r]七つの人類悪、その一つだと。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……あの、ギルガメッシュ王。[r]人類悪とは何なのですか？　それが七つとは？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+なんだ、知らんのか？[r]貴様らはこの探索の中で、既に答えを得ていたと思ったが。
+[k]
+
+[charaFace C 0]
+＠ギルガメッシュ
+人類悪とは、文字通り人類の汚点、[r]人類を滅ぼす様々な災害を指している。
+[k]
+
+＠ギルガメッシュ
+これは人類が発展すればするほど強くなり、[r]その社会を内側から食い破る[#癌:がん]のようなもの。
+[k]
+
+＠ギルガメッシュ
+言ってしまえば人類史に溜まる[#淀:よど]みだ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 0]
+
+＠ダ・ヴィンチ
+ゴルゴーンのような復讐者、という事かい？[r]敵意によって人類を滅ぼすもの、といった？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+逆だ、美しいものよ。[r]人類悪とは人類を滅ぼす悪、ではない。
+[k]
+
+＠ギルガメッシュ
+[#人類が滅ぼす悪]、だ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+人類が……滅ぼす悪？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+そうだ。……ふん。[r]そのあたりの解説はいずれ、しかるべき者にさせるがいい。
+[k]
+
+＠ギルガメッシュ
+今は人類史を脅かす災害、と覚えておけ。[r][#英霊召喚の元になった]、[#人類の自滅機構と安全装置]とな。
+[k]
+
+＠ギルガメッシュ
+七つの人類悪。これも霊基として存在し、[#顕現:けんげん]する。[r]人間の[#獣性:じゅうせい]によって生み出された七つの災害[line 3]
+[k]
+
+＠ギルガメッシュ
+即ち、クラス・ビースト。[r]魔術王が呼び覚ましたのは、この獣であろう。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+待って。原初の海と言ったら母さんでしょ。
+[k]
+
+＠イシュタル
+この異常は私たち神々の母……[r]ティアマト神が起こしているものじゃないの？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+阿呆。そのティアマト神がビーストだと言っている。[r]我らが挑む相手は正真正銘、原始世界の神体だ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+クラス・ビースト……七つの人類悪……[r]それが、わたしたちの敵の名前なのですね？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+そうだ。災害の獣どもの総称だとも。
+[k]
+
+＠ギルガメッシュ
+この地に現れたビーストは完全に目覚めてはいないようだ。[r]なにしろ反応がない。そうだな、カルデアの？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 0]
+
+
+＠ダ・ヴィンチ
+ああ、ギルガメッシュ王の言う通りだ。[r]現在、そんな凶悪な霊基反応はどこにも発見できない。
+[k]
+
+＠ダ・ヴィンチ
+あるとすれば、ねえ？[r]もう言うまでもないと思うけど、やっぱりねぇ？
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ケツァル・コアトル
+黒く染まっていたペルシア湾の中でしょうね。[r]ウルクに向かう途中、空から様子が見えたわ。
+[k]
+
+＠ケツァル・コアトル
+あの黒い海から大量の生き物がわき出てくるのもね。[r]あれは何なのかしら、ギルガメッシュ？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+うむ、分からぬ！[r]捕らえようとしたが、捕らえた[#個体:もの]はみな溶けて消えた！
+[k]
+
+＠ギルガメッシュ
+よって貴様らに期待する！[r]どうだ、カルデアのロマニ・アーキマン！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+
+＠Dr.ロマン
+ふう……やれやれ。たったいま解析を終えたよ。[r]こちらからできる範囲でだけど、ね。
+[k]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+時間がない、結論を言おう。[r]アレはメソポタミア世界の基本とも言える素材[line 3]
+[k]
+
+＠Dr.ロマン
+神代の砂と土……神の泥で構成された、[r]これまでの生命の系統樹には存在しない個体だ。
+[k]
+
+＠Dr.ロマン
+雄雌の個体差はない事から、有性生殖ではなく[r]無性生殖で繁殖するものと思われる。
+[k]
+
+＠Dr.ロマン
+その内部構造から、現在の形状はまだ『幼体』だとも[r]推測される。……あの連中は、ここから更に変化する。
+[k]
+
+＠Dr.ロマン
+魔力反応が高いのは内部の魔力回路が神代の生命体の[r]ものだからだ。エルキドゥの量産型と思ってくれ。
+[k]
+
+＠Dr.ロマン
+この事から、ボクはあの個体を「ラフム」と名付けた。[r]ティアマト神最初の子供にして、泥の意味を持つものだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+（……あれ。この男、もしかして有能？[r]　ラフムの名前まで言い当てちゃったんですけど……！？）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+ほう、ラフムときたな。[r]実は[#我:オレ]もそう思っていた。気が合うな、ドクター。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+[messageShake 0.05 4 4 0.5]
+
+＠イシュタル
+（そして、それに堂々と乗っかるバカがいた[line 2]！）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+これより、海より現れた生命体をラフムと称する！[r]シドゥ……いや、そこな兵士長よ。
+[k]
+
+＠ギルガメッシュ
+ラフムの名を各部門に伝えよ。[r]今後の伝達が楽になるからな。
+[k]
+
+？1：……あの、シドゥリさんは？
+
+？！
+
+[charaFace C 3]
+＠ギルガメッシュ
+シドゥリの事は忘れよ。[r]今はラフムの対策が先だ。
+[k]
+
+＠ギルガメッシュ
+奴らはメソポタミア全土に広がり、多くの市を襲った。[r]殺戮だけではない。拉致も行った。
+[k]
+
+＠ギルガメッシュ
+ラフムによってさらわれた者は、[r]エリドゥに連れて行かれたと報告が入っている。
+[k]
+
+＠ギルガメッシュ
+ラフムどもはケツァル・コアトルが不在の隙をついて、[r]密林に巣を作ったようだ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ケツァル・コアトル
+……そう。それは個人的に抗議をしないといけないわね。[r]ウルもラフムに制圧されたのかしら？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+そのようだな。理由は分からぬが、[r]奴らはウルクを襲った後、エリドゥに飛び去った。
+[k]
+
+＠ギルガメッシュ
+魔獣どもは夜に眠る習性があったが、[r]奴らも同様なのかもしれん。
+[k]
+
+＠ギルガメッシュ
+何にせよ、そこが奴らの巣だ。だが今回は無視してよい。[r]我らが向かうべきは変色した黒海だ。
+[k]
+
+[charaFace C 0]
+＠ギルガメッシュ
+ティアマトが目覚めれば全ては終わりだ。[r]……いや、もう終わってはいるか。
+[k]
+
+＠ギルガメッシュ
+そこはよい。[r]みな、この終焉を受け入れたのだからな。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+[FFFFFF]？[-]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+カルデアのマスターよ。[r]このウルクが滅びれば人理定礎は完全に瓦解する。
+[k]
+
+＠ギルガメッシュ
+特異点すら燃え尽き、[r]貴様らカルデアも炎の渦に消え行くだろう。
+[k]
+
+＠ギルガメッシュ
+それが嫌だと言うのなら最後まで[#足掻:あが]いてみせよ。[r]貴様には海辺の観測所に[#赴:おもむ]き、その調査を[line 3]
+[k]
+
+？1：待ってください
+？2：シドゥリさんは何処にいったんですか？
+
+？！
+
+[charaFace C 3]
+＠ギルガメッシュ
+………………。
+[k]
+
+[charaFace C 4]
+＠ギルガメッシュ
+シドゥリであれば、[r]市民を[#庇:かば]い、ラフムどもに連れ去られた。以上だ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[messageOff]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+[wt 1.0]
+[charaFace A 14]
+＠マシュ
+そんな大事な事を、どうして黙っていたんですか！？
+[k]
+
+＠マシュ
+ギルガメッシュ王の立場も分かりますが、[r]シドゥリさんが連れ去られたなら、早く……！
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+[messageOff]
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+？1：止められてもシドゥリさんを助けに行く！
+？2：ギルガメッシュ王のばーかばーか！
+
+？！
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace C 2]
+＠ギルガメッシュ
+よく言ったわ、たわけども！[r]ではエリドゥへの調査を命じてくれる！
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]はここから動けぬ故、[r]連絡はそこなジャガーマンに任せよ！
+[k]
+
+＠ギルガメッシュ
+期限は一日だ！[r]一日で事を済ませ、この玉座に戻るがいい！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+え……あ、あれ？　ギルガメッシュ王……！？[r]いいんですか、助けに行って！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+[#驕:おご]るな、異邦の客人風情が！[r]言ったであろう、貴様らは始めから余分なものだと！
+[k]
+
+＠ギルガメッシュ
+もとよりウルクの戦力とは考えておらぬ！[r]使えなければそれはそれでよい！
+[k]
+
+＠ギルガメッシュ
+エリドゥには元より調査隊を送るつもりだったが、[r]これで手間も[#省:はぶ]けたわ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 5009003 1 5 0 0]
+
+＠ダ・ヴィンチ
+おや。戦力として当てにしていない割りには、[r]今までやたらめったら命令していた気がするけど？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+ふん。それとこれとは話は別だ。[r]王が民に[#命:めい]を下すのは当然の事であろう？
+[k]
+
+[charaFace C 2]
+＠ギルガメッシュ
+[line 3]いいな、急げよ！[r]さらわれた者たちの処遇は貴様らに一任する！
+[k]
+
+＠ギルガメッシュ
+エリドゥに赴き、ラフムどもの真意を見極めよ！[r]ティアマト退治の何らかの一因にはなろう！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_4 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout C 0.1]
+[charaSet B 98024100 1 女性]
+[charaSet C 98106000 1 キングゥ]
+[charaSet D 98107800 1 ラフムＡ]
+[charaSet E 98107800 1 ラフムＢ]
+[charaSet F 98107800 1 ラフムＣ]
+[scene 32711]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_1 0.1]
+
+
+[seLoop ad202]
+[seVolume ad202 0 0.2]
+[wt 1.5]
+[seStop ad202 1.0]
+[wt 1.0]
+[wipeout downToUp 0.4 1]
+[wait wipe]
+[scene 20322]
+[wt 0.1]
+[wipein upToDown 0.4 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 5]
+[charaPut H 1]
+[charaFadein C 0.4 1]
+
+＠キングゥ
+……どういう事かなソロモン。[r]母さんは目覚めた。なのに、なぜ地上に現れない？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaEffect H bit_talk_shadow01]
+＠H：ソロモン
+封印だ。封印があるのだよ、キングゥ。[r]彼女は縛られている。あの大いなる海によって。
+[k]
+
+＠H：ソロモン
+さまよえるゴルゴーンを女神にまで持ち上げ、[r]その連鎖召喚によって現れたケツァル・コアトル、
+[k]
+
+＠H：ソロモン
+ウルクの巫女によって呼び出されたエレシュキガル、[r]これらの女神を同盟によって拮抗させ、
+[k]
+
+＠H：ソロモン
+同時にウルク王の行動を牽制した。[r]実に。実に見事な手腕だ。全く称賛に値する。
+[k]
+
+＠H：ソロモン
+だがそれでは足りない。[r]君の仕事はまだ終わっていないよ、キングゥ。
+[k]
+
+＠H：ソロモン
+人類は滅びたものの、いまだ人類史は残っている。
+[k]
+
+＠H：ソロモン
+彼女の封印を解き、ウルクという生命体を滅ぼせ。[r]それさえなれば特異点などという揺らぎすら消え去る。
+[k]
+
+＠H：ソロモン
+私の仕事を待たずとも、[r]人類史はその年代で終わるだろう。
+[k]
+
+＠H：ソロモン
+ようやく全ての時間、全ての時空の光帯を回収した。[r]後は君が人類に鉄槌を下すのみだ。
+[k]
+
+[charaPut H 0,-1000]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠キングゥ
+ああ。約束通り、この時代はボクらが貰う。
+[k]
+
+＠キングゥ
+滅びるのは人間だけだ。母さんが新しい世界を作り、[r]新人類としてボクが後を継ぐ。
+[k]
+
+＠キングゥ
+それが人間に棄てられたティアマト神の、[r]ただひとつの願いだからだ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut H 0,0]
+
+＠H：ソロモン
+……素晴らしい。君の言葉には確固たる信念と、[r]それを叶えるに十分な力が備わっている。
+[k]
+
+＠H：ソロモン
+私は君を支持するとも。[r]ただし[line 3]
+[k]
+
+＠H：ソロモン
+ただし彼女が、本当にそんな事を望むのならば、ね。
+[k]
+
+[se ad42]
+[messageOff]
+[charaEffectStop H bit_talk_shadow01]
+[wt 2.5]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠キングゥ
+……本当に望むのなら、だって……？[r]馬鹿な事を。そうであるに決まっているじゃないか。
+[k]
+
+＠キングゥ
+その為にティアマトはボクを生み出した。[r]ボクを信じ、聖杯を預けてくれたのだから。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_1 0.4]
+[wipeout upToDown 0.4 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[charaShake B 0.01 1 1 0]
+[scene 32711]
+[wt 0.1]
+[wipein downToUp 0.4 1]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+
+
+＠女性
+やめて……やめて、お願い、やめて[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+
+＠ラフムＡ
+ｚｇ＠ｋｉｙ：＠ｙｑ、ｑｋｄ］！[r]０ｏ４　０ｏ４　０ｏ４
+[k]
+
+
+＠ラフムＢ
+３ｄｔｏｆｄ＠／９４、ｒｄ＠～ｃｂ＠４。[r]ｆｄ；．ｔ、ｎｗｎｑｅ。
+[k]
+
+
+[se ad202]
+＠ラフムＣ
+Ｋｉ[line 3]き、キキ、き[line 3][r]キキキキキキキキキキキキキキキキキキキキ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠女性
+いたい、いたい、いたいぃぃぃいいいい！[r]無理なの、人間はそんなふうに動けないのよぉぉおお！
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[wt 0.2]
+[bgmStop BGM_EVENT_5 0.4]
+[flashin once 0.1 0.3 FF0000AF FF000000]
+[se ad191]
+[wt 1.0]
+
+[wipeout downToUp 0.4 1]
+[wait wipe]
+[scene 20322]
+[wt 0.1]
+[wipein upToDown 0.4 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[bgm BGM_EVENT_1 0.1]
+
+＠キングゥ
+……また殺してしまったのか。[r]あれは、人間を観察しているつもりなんだろうが……
+[k]
+
+＠キングゥ
+加減がまるで分かってない。魔獣以下の虫ども。[r]いじって、壊して、歯を合わせて喜んでいる……
+[k]
+
+＠キングゥ
+まるで人間の笑い声だ。下品にも程がある。[r]母さんはどうしてこんなヤツらを生み出したんだろう……
+[k]
+
+
+[messageOff]
+[bgm BGM_EVENT_1 1.0 0.4]
+[wipeout upToDown 0.4 1]
+[wait wipe]
+[scene 32711]
+[charaFadeout C 0.1]
+[charaTalk off]
+[charaFadein D 0.1 1]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+[wt 0.1]
+[wipein downToUp 0.4 1]
+[wait wipe]
+
+[se ad202]
+＠ラフム
+[line 4]、[line 3]、[line 5][r][line 3]キ[line 3]キキ、キ[line 3]！
+[k]
+
+[wt 0.2]
+[messageOff]
+[bgm BGM_EVENT_1 1.0]
+[wipeout downToUp 0.4 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk on]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[scene 20322]
+[wt 0.1]
+[wipein upToDown 0.4 1]
+[wait wipe]
+
+
+＠キングゥ
+……まあいいさ。所詮は兵隊だ。[r]世界にはボクだけがいればいい。
+[k]
+
+＠キングゥ
+仲間も家族も必要ない。[r]……友も、ボクには必要ない。
+[k]
+
+＠キングゥ
+ボクはただひとりの、完成された新しいヒトなのだから。[r]でも[line 3]
+[k]
+
+[messageOff]
+[wipeout sideBlind 0.2 1]
+[wait wipe]
+[wt 0.1]
+[wipein sideBlind 0.2 1]
+[wait wipe]
+[wt 0.2]
+[wipeout sideBlind 0.1 1]
+[wait wipe]
+[wt 0.1]
+[wipein sideBlind 0.1 1]
+[wait wipe]
+[wt 0.7]
+
+[charaFace C 4]
+＠キングゥ
+……ダメだ。[r]母さんの声が聞こえない。
+[k]
+
+＠キングゥ
+前は目を閉じればすすり泣きが聞こえていたのに、[r]海が黒くなってからは何も聞こえないなんて……
+[k]
+
+＠キングゥ
+ソロモンの言う通り、[r]封印とやらを解かないといけないのか。
+[k]
+
+＠キングゥ
+……だが、本当に？[r]一体何処の誰が、原初の母を縛れるというんだ……？
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_1 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

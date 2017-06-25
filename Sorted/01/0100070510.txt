@@ -1,0 +1,643 @@
+
+
+
+＄01-00-07-05-1-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 5018001 1 ギルガメッシュ]
+
+[charaSet D 98107600 1 祭祀長シドゥリ]
+[charaSet E 4014000 1 牛若丸]
+[charaSet F 3006001 1 弁慶]
+[charaSet G 3006001 1 ？？？]
+[charaSet H 9935300 1 ？？？]
+
+
+
+[scene 35000]
+[fadein black 1.5]
+[wait fade]
+
+[se ad218]
+
+＠G：？？？
+[line 3]かないで[line 3]
+[k]
+
+＠G：？？？
+[line 3]いかないで[line 3]
+[k]
+
+＠G：？？？
+[line 3]れないで[line 3]
+[k]
+
+＠G：？？？
+[line 3]はなれないで[line 3]
+[k]
+
+＠G：？？？
+[line 3]わたしから、また[line 3]
+[k]
+
+＠G：？？？
+[line 3]また、わたしをおいていかないで[line 3]
+[k]
+
+？1：これは……
+
+？！
+
+＠G：？？？
+かえってきて[line 3]かえって[line 3][r]もういちど、わたしのもとに[line 3]
+[k]
+
+＠G：？？？
+もういちど[line 3]もういちど[line 3]
+[k]
+
+＠G：？？？
+いえ[line 3]いいえ[line 3]
+[k]
+
+＠G：？？？
+もうにどと[line 3]もうにどと[line 3]
+[k]
+
+＠G：？？？
+わたし　を　あいさない　で
+[k]
+[messageOff]
+[seStop ad218 0.5]
+[wt 0.4]
+[se ad48]
+[wipeout uzumakiBig 3.0 1]
+[wait wipe]
+[wt 0.4]
+
+？1：なんだろう……？
+
+？！
+[bgm BGM_EVENT_11 0.1]
+[scene 34900]
+[wipein upToDown 2.0 1]
+[wait wipe]
+
+＠H：？？？
+……原罪だよ。[r]これが人間の原罪だ。
+[k]
+
+＠H：？？？
+罪には幾つかの種類がある。[r][#他人:ひと]を[#欺:あざむ]く。他人を[#陥:おとしい]れる。他人を[#羨:うらや]む。命を奪う。
+[k]
+
+＠H：？？？
+それらは全て人類だけが抱える悪。[r]それらは全て人類だけに及ぼす毒。
+[k]
+
+＠H：？？？
+だが[line 3]これは、その中でも最も古い悪。[r]原罪のⅡ。■から離れ、楽園を去った[#悪:つみ]。
+[k]
+
+？1：ああ、でも[line 3]
+
+？！
+
+＠H：？？？
+生命は海から生まれた。[r]原初の海ナンム。始まりの女神ナンム。
+[k]
+
+＠H：？？？
+人類にとって、女神とは海そのもの。[r][#潮騒:しおさい]は呼び声となっておまえたちの罪を克明にする。
+[k]
+
+＠H：？？？
+思い出せ。[r]忘れるな。
+[k]
+
+＠H：？？？
+この声こそおまえたちの原罪。[r]この名こそおまえたちの救済。
+[k]
+
+＠H：？？？
+その名は[line 3]
+[k]
+
+＠G：？？？
+Aa、Aa[line 3][r]Aaaaaaaaaa[line 4]
+[k]
+
+？1：なんて、悲しい[line 3]
+
+？！
+
+[messageOff]
+[seStop ad37 1.0]
+[bgmStop BGM_EVENT_11 3.0]
+[fadeout black 3.0]
+[wait fade]
+[se ad219]
+[wt 3.0]
+
+[scene 10000]
+[soundStopAll]
+[fadein black 0.1]
+[wait fade]
+[effect bit_queststart01]
+[wait effect]
+[fadeout black 0.5]
+[wait fade]
+[wt 1.0]
+
+
+[bgm BGM_EVENT_39 0.1]
+[scene 33100]
+[fadein black 1.5]
+[wait fade]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠マシュ
+以上が今回の報告です。羊の毛刈りは行えず、[r]周辺の魔獣を討伐するお仕事になってしまいました。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+
+＠ギルガメッシュ
+そうか。つまらんな。[r]どうした祭祀長。報告を止めるな。気にせず続けよ。
+[k]
+
+＠ギルガメッシュ
+エアンナの祭壇に召喚術の痕跡があった？[r]やはりな。当時の下働きに聞き込みをしてみろ。
+[k]
+
+[charaFace C 0]
+＠ギルガメッシュ
+それだけの儀式だ、事前に人避けがあった筈。[r]突然の休みを与えられた者が必ずいる。そこから切り崩せ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+[wipeout rollRight 0.7 0.5]
+[wait wipe]
+[wt 0.7]
+[wipein rollLeft 0.7 0.5]
+[wait wipe]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠マシュ
+以上が今回の報告です。お菓子作りの手伝いが、[r]なぜかウルクお菓子王決定戦になってしまい……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+
+＠ギルガメッシュ
+……なぜそうなる。文脈が読めんではないか。[r]む。次の兵士はどうした？　時間を無駄にするな！
+[k]
+
+[charaFace C 5]
+＠ギルガメッシュ
+チッ……ついにウガルまで出てきたか……[r]これでは真にティアマト神の子供たちではないか。
+[k]
+
+＠ギルガメッシュ
+北壁への[#薪:まき]を二百に増やせ。いずれ[#毒竜:バシュム]まで出てくるぞ。[r]湯を沸かし、消毒を徹底させるがいい。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[messageOff]
+[wipeout rollRight 0.7 0.5]
+[wait wipe]
+[wt 0.7]
+[wipein rollLeft 0.7 0.5]
+[wait wipe]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+
+＠マシュ
+以上が本日の報告です。[r]浮気の素行調査の筈が、謎の地下空洞に辿り着いて……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠ギルガメッシュ
+………………（ゴクリ）。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠祭祀長シドゥリ
+ギルガメッシュ王。[r]報告の途中ですが、こちらに集中してくださいますか？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+
+＠ギルガメッシュ
+む？　ええい、報告なら聞いているわシドゥリ！[r]決算であろう！　いい所で水を差しおって！
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]の宝物庫からニサバの帯をくれてやれ！[r]エレシュ市の巫女長であればそれで釣りがくるわ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[messageOff]
+[wipeout rollRight 0.7 0.5]
+[wait wipe]
+[wt 0.7]
+[wipein rollLeft 0.7 0.5]
+[wait wipe]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.4 1]
+
+＠マシュ
+以上が本日の報告です。高騰した羊肉と乳を巡る争いは、[r]先輩の“それなら豆を食べればいいじゃない”
+[k]
+
+＠マシュ
+発言によって一応の決着を[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+いや待て、それで決着がつくというのか！？[r]豆がどうやって羊肉に勝るというのだ！？
+[k]
+
+＠ギルガメッシュ
+ハ[line 3]もしや貴様ら、麦酒のおつまみとして[r]売り出したのではあるまいな！？
+[k]
+
+＠ギルガメッシュ
+いかん、それはいかん！　ウルクにはまだ早すぎる！[r]人は豆を目当てに働く、生きた亡者になりかねん！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠祭祀長シドゥリ
+……ギルガメッシュ王。[r]報告が溜まっていますので、そろそろ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+……そうか。そうだったな。[r]構わぬ、続けよ。[#貴様:カルデア]らは下がるがよい。
+[k]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_39 1.5]
+[wait fade]
+[scene 33000]
+[wt 1.2]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.4 1]
+
+＠マシュ
+という訳で、本日の業務報告ですね。
+[k]
+
+＠マシュ
+ギルガメッシュ王も忙しい方ですから、[r]手早く済ませましょう。
+[k]
+
+？1：あいかわらず怖いけどね
+？2：なんだか楽しくなってきたけどね
+
+？！
+
+[wt 0.4]
+[messageOff]
+[wipeout rightToLeft 0.7 1]
+[bgmStop BGM_EVENT_2 0.4]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 33100]
+[wt 1.0]
+[wipein leftToRight 0.7 1]
+[wait wipe]
+[bgm BGM_EVENT_1 0.1]
+
+
+？1：……という訳で、報告は以上です
+
+？！
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それでは失礼します、ギルガメッシュ王。[r]お時間を取らせて申し訳ありませんでした。
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[wt 0.5]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+…………いや。[r]待つがいい、[%1]。
+[k]
+
+？1：[line 3]いま[line 3]
+？2：[line 3]名前を[line 3]？
+
+？！
+
+[charaFace C 4]
+＠ギルガメッシュ
+呼んだが何だ？[r]口にする価値があるのなら口にする。当然の事だ。
+[k]
+
+[charaFace C 0]
+＠ギルガメッシュ
+中々の業績だな？　ウルク市民から貴様たちの[r]働きに関する声も、それなりに届いている。
+[k]
+
+[charaFace C 4]
+＠ギルガメッシュ
+[#我:オレ]から見ればまったく面白味のない[r]働きだったが、世間の評価というものもある。
+[k]
+
+＠ギルガメッシュ
+カルデアの[%1]。[r]いいかげん、細かな雑務は飽きたであろう。
+[k]
+
+[charaFace C 1]
+＠ギルガメッシュ
+ウルクの外に出る許可証をくれてやる故、[r]もそっと派手に活躍するがよい。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+？1：それって、つまり……
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+そうだ。[#我:オレ]からの王命というヤツよ。[r]光栄に思えよ、雑種？
+[k]
+
+？2：王様、もっと具体的に
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+王様ではない、我様だ！
+[k]
+
+＠ギルガメッシュ
+あ、いや、同じ事であったか。[r]小癪な、思わず乗せられてしまったわ！
+[k]
+
+？！
+
+[charaFace C 0]
+＠ギルガメッシュ
+仕事の詳細はマーリンに聞くがいい。[r]良い[line 3]いや、愉快な報告を期待しているぞ？
+[k]
+
+[wt 0.1]
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_1 0.7]
+[wait fade]
+[scene 33000]
+[charaFadeout C 0.1]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+[se ad59]
+[wt 1.0]
+[seStop ad59 0.5]
+[charaTalk A]
+[charaFace A 1]
+[charaSet H 98002000 1 フォウ]
+[charaFadein A 0.4 1]
+
+＠マシュ
+先輩、マーリンさん、やりました！[r]ギルガメッシュ王から直々のお仕事です！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マーリン
+ああ、おめでとう二人とも。[r]あの王様が自分から折れるとは、私も予想外だ。
+[k]
+
+＠マーリン
+行き先は南のウル市。[r]帰らずの森と化した、あの密林地帯の調査となる。
+[k]
+
+[charaFace B 3]
+＠マーリン
+私としてはもう少しのんびりしていたかったが、[r]こうなっては仕方がない。
+[k]
+
+＠マーリン
+そろそろ一つ、駒を進める時なのかもだ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[messageOff]
+[se ad59]
+[wt 1.0]
+[seStop ad59 0.5]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+
+＠牛若丸
+[%1]どの[line 2]！
+[k]
+
+＠牛若丸
+シドゥリ殿から聞きました！　なんと目出度い！[r]後白河法皇から官位を戴いた時と同じ気持ちです！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+
+＠弁慶
+うむ、まさしく！[r]しかし牛若丸さま、その例えはよろしくありませんぞ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+お二人とも、ありがとうございます。
+[k]
+
+＠マシュ
+レオニダスさんにご報告できないのが残念ですが、[r]帰ってきた後に改めてお伝えしたいと思います！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠牛若丸
+しかもウルの調査という話。[r]むう……私もあと一日早ければ同行できたのですが……
+[k]
+
+[charaFace F 4]
+＠弁慶
+魔獣戦線に動きあり、至急駆けつけられたし、と[r]レオニダス殿から文がありましてな……無念でござる。
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[se ad51]
+[charaFace E 2]
+＠牛若丸
+……よし！　弁慶、あれをやるぞ！[r][%1]殿昇進祝いと無事を願って！
+[k]
+
+[se ad166]
+[seStop ad166 1.0]
+[charaFace F 1]
+＠弁慶
+おお、あれですな！[r]では[%1]殿、マシュ殿[bgm BGM_EVENT_3 0.1]！　外に出られよ！
+[k]
+
+？1：牛若、なんで抜刀してるの！？
+？2：弁慶、なんで槍をガシャガシャさせてるの！？
+
+？！
+
+＠弁慶
+ふはははは！[r]我ら二人、一丸となって皆様の旅の成就を願わん！
+[k]
+
+[charaFace E 1]
+＠牛若丸
+なに、景気づけの模擬戦というヤツです！
+[k]
+
+＠牛若丸
+あわよくばお二人を倒し仕事を交換、我々がウルに[r]向かうなど、企んではおりませんのでご安心を！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+すごい理由で戦闘開始です、マスター！[r]胸を借りる気持ちで戦いましょう！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

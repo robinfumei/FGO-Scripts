@@ -1,0 +1,48 @@
+
+＄91-20-15-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet D 2015001 1 アルジュナ]
+
+[scene 20803]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アルジュナ
+ふむ。なかなかですね。[r]思考をカットして、ただ操縦されるのも悪くはない。
+[k]
+
+[charaFace D 0]
+＠アルジュナ
+もっとも、今しがたの雑魚程度で自惚れられては困ります。[r]次はやや強敵です。
+[k]
+
+[charaFace D 5]
+＠アルジュナ
+本来苦戦する相手を苦戦せずに倒す。[r]それくらいでなければ、指揮官は務まりません。
+[k]
+
+[charaFace D 0]
+＠アルジュナ
+……安心なさい。[r]最低でも命を奪われる心配はない。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.4]
+
+＠アルジュナ
+私、アルジュナが保証します。[r]さあ、戦いましょう。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

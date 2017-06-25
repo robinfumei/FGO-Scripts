@@ -1,0 +1,361 @@
+
+＄01-00-05-13-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 3013001 1 スカサハ]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 3017001 1 李書文]
+[charaSet D 3005002 1 エリザベート]
+[charaSet E 1019001 1 ラーマ]
+[charaSet F 7014001 1 ナイチンゲール]
+[charaSet G 2003001 1 ロビンフッド]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠マシュ
+つ……強いです……この人……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠李書文
+いや、それはこちらの台詞よ。[r]儂にここまで食い下がるとはな。
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+[charaFace C 4]
+＠李書文
+本気で殺し合えば天秤が傾くのはどちらかすら、[r]分からぬか……。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace C 1]
+＠李書文
+スカサハよ、先の話は棚上げにして貰おう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+ほう、よいのか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠李書文
+お主らならば、あるいはケルトたちに[r]牙を届かせるかもしれぬ。
+[k]
+
+＠李書文
+儂も世間から外れた無頼だが、[r]好きこのんで世界が滅びる様など見たくはない。
+[k]
+
+[charaFace C 1]
+＠李書文
+その大盾で世界を守護するがいい。[r]人でなき者よ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+……はい。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠李書文
+さて、スカサハよ。一つ願いがある。[r]この世界が救われる、救われないに関係なく[line 2]。
+[k]
+
+＠李書文
+最後で構わぬから、刃を交えてくれぬか？
+[k]
+
+[charaFace A 1]
+＠スカサハ
+……よかろう。[r]そのときまで、私が生きていればな。
+[k]
+
+＠李書文
+おまえが死ぬような存在には見えぬがな。[r]……そうそう、ついでに一つ教えておこう。
+[k]
+
+[charaFace C 0]
+＠李書文
+あくまで儂の見立てだが。[r]あの発明王、何かに憑依されているな。
+[k]
+
+[charaFace C 1]
+＠李書文
+いっそのこと、一発ブン殴ってやれば[r]醒めない夢から醒めるやもしれんぞ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠マシュ
+あの……李書文さん。[r]わたしたちと一緒に戦っていただく訳には[line 3]
+[k]
+
+[charaFace C 4]
+＠李書文
+すまぬな。このままお主らと一緒にいると、[r]襲い掛からぬ自信がないのだ。
+[k]
+
+[charaFace C 0]
+＠李書文
+老体であれば、少しは枯れて大人しくなったのだが。[r]全盛期の身で召喚されれば、仕方あるまい。
+[k]
+
+[charaFace C 1]
+＠李書文
+何、縁があれば共闘することもできよう。[r]さらばだ。
+[k]
+
+[se ad60]
+[seStop ad60 1.5]
+[charaFadeout C 0.4]
+[wt 1.5]
+
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マシュ
+行ってしまいました。
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+さすが全盛期の李書文。[r]触れれば切れるナイフのような荒々しさだ……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ナイチンゲール
+……マスター。よろしいですか？[r]私、患者に会わねばならないと思います。
+[k]
+
+？1：患者って？
+？2：誰のこと？
+
+？！
+
+＠ナイチンゲール
+[line 2]発明王エジソン。
+[k]
+
+＠ナイチンゲール
+先ほどのサーヴァントの申すところによれば、[r]何かに憑依されているとのこと。
+[k]
+
+＠ナイチンゲール
+……私もその意見に賛成です。
+[k]
+
+＠ナイチンゲール
+サーヴァントとしての知識を紐解いてみても、[r]あれは発明王エジソンと言うには、あまりに異質すぎる。
+[k]
+
+＠ナイチンゲール
+であれば、病です。[r]もう一度、彼に会いましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+[wt 1.0]
+
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+今回もまた無茶な話になってきたなあ……[r]一度捕まった相手に、もう一度会いに行くなんて。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ラーマ
+余もそう思う。[r]思うのだが[line 2]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ナイチンゲール
+何を言うのです。患部は複数。[r]こういう状況では[#優先順位:トリアージ]が重要です。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マシュ
+マスター、どうしますか？
+[k]
+
+？1：エジソンに会いに行こう
+？！
+
+[charaFace B 7]
+＠マシュ
+……そうですね。[r]確かに、私もそれが正しいと感じます。
+[k]
+
+＠マシュ
+サーヴァントとしての直感というか……。[r]あの人は見捨てておけないと、そう思いました。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠ナイチンゲール
+では行きましょう。[r]すぐ行きましょう。真っ直ぐ、向かいましょう。
+[k]
+
+＠ナイチンゲール
+最短距離で突撃です。
+[k]
+
+＠ナイチンゲール
+あの分からず屋に打撃にも似た麻酔を与え、[r]目を覚まさせる必要があります。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+ふむ……。[r]ロビン、エリザベート、ラーマ。
+[k]
+
+＠スカサハ
+マスターの意見はこのようだが、[r]お主たちはどうだ？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エリザベート
+……そうね。正直、私も頭痛が酷くて[r]麻酔をかけてほしいぐらいだけど……
+[k]
+
+[charaFace D 0]
+＠エリザベート
+[%1]の判断に任せるわ。[r]これまで正しかったし、今度も多分、大丈夫でしょ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ロビンフッド
+うーん……オレは単独で動いてナンボのサーヴァント[r]だし、そもそも大統王？　とかいうの？
+[k]
+
+[charaFace G 0]
+＠ロビンフッド
+話を聞くだけで絶対に気が合わないって分かる相手に[r]わざわざ会いに行くのもねえ……？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠エリザベート
+じゃあちょっと軽いノリで[r]クー・フーリンを暗殺できる？
+[k]
+
+＠ロビンフッド
+そういう無茶はしねえって決めてんの。[r]他に手がない状況ならともかくな。
+[k]
+
+[charaFace D 0]
+＠エリザベート
+できないならできないって言えばいいのに。[r]素直じゃないわね、アンタ。
+[k]
+
+[charaFace G 4]
+＠ロビンフッド
+……よりによっておまえさんに言われるとはね。[r]コイツは大人しくしておいた方がよさそうだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ラーマ
+余はマスターを信頼する。我々が総出で掛かれば、[r]カルナも抑え込むことができるだろう。
+[k]
+
+[charaFace E 2]
+＠ラーマ
+さあ、マスター。[r]エジソンとやらの夢を、醒ましに行くぞ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[soundStopAll]
+[end]

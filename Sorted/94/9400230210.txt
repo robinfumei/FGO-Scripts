@@ -1,0 +1,525 @@
+
+＄94-00-23-02-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4004001 1 アストルフォ]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 2018001 1 子ギル]
+
+[scene 20110]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠F：？？？
+うーん、千日手ですよねえ。[r]ボクもあなたも思想的には完全に対立してますし。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠E：？？？
+[line 2]そうかと言って、お互いに戦闘では[r]勝負がつかない。
+[k]
+
+＠E：？？？
+英霊としての格は当然、あなたの方が上ですが[line 2]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠F：？？？
+あなたがルーラークラスとして召喚されたせいで、[r]クラスとしてはボクの方が不利なんですよねえ。
+[k]
+
+[charaFace F 4]
+＠F：？？？
+いや困った。[r]このままでは、膠着状態なんですが。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+あのライダーが味方に回ってくれればなあ。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+残念なことに、あのライダーは我々[r]両方とも嫌っておりますので。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+あ、いえ。
+[k]
+
+＠E：？？？
+あなたの方は嫌われてませんが、[r]将来性を見越したのではないでしょうか？
+[k]
+
+[charaFace F 4]
+＠F：？？？
+う。それを突かれると痛いなあ。[r]ボクとしては、このまま真っ直ぐ成長したいんですが。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+[line 2]まあ、ライダーが敵に回ったならそれはそれで。[r]仕方ないと割り切りましょう。
+[k]
+
+＠E：？？？
+さすがは音に聞こえし英雄王。[r]……まさかこれほど幼いとは思いませんでしたが。
+[k]
+
+＠子ギル
+いやあ、まさかボクもこの状態で召喚されるとは[r]思いませんでしたよ。
+[k]
+
+[charaFace F 4]
+＠子ギル
+全盛期なら、一応それなりの姿で召喚されるはず[r]なんですが[line 2]。
+[k]
+
+[charaFace F 0]
+＠子ギル
+やっぱりこの聖杯、バグっていると見ました。[r]という訳で、黙ってお引き渡し願いたいですね。
+[k]
+
+＠子ギル
+これは極東の聖人もどきに扱える代物じゃないですよ？[r]天草四郎時貞さん。
+[k]
+
+[charaFace E 1]
+＠天草四郎
+あっはっは、その評価を否定はしませんがね。[r]さりとて、こちらにも抱いている夢がある。
+[k]
+
+[charaFace E 0]
+＠天草四郎
+“君の足下に私の夢を広げましょう”[r]“だからそっと踏み締めてください”
+[k]
+
+＠天草四郎
+[line 2]という訳にはいかないのですよ。
+[k]
+
+[charaFace F 5]
+＠子ギル
+じゃあ、しょうがない。[r]いつ決着がつくかも分からない戦いに[line 2]。
+[k]
+
+[charaFace E 5]
+＠天草四郎
+ええ。[r]……没頭するしかないようですね。
+[k]
+
+[messageOff]
+[charaTalk off]
+[bgmStop BGM_EVENT_5 0.1]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.4]
+
+
+[effect bit_talk_14]
+[wt 0.1]
+[flashin once 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ad32]
+[wt 0.1]
+[shake 0.05 1 3 0.4]
+[wt 1.5]
+
+[charaTalk on]
+＠アストルフォ
+あ、いたいた！[r]マスター連れてきたよー！
+[k]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠二人
+……え？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.1]
+[wt 1.0]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk on]
+[bgm BGM_EVENT_2 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠天草四郎
+なるほど。それぞれが聖杯が必要な理由を[r]マスターに告げ、最終的に判断させる、と。
+[k]
+
+＠天草四郎
+悪くない案のように思えますが。[r]……英雄王、貴方はどうです？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠子ギル
+んー、ボクは別に構いませんが。[r]でも恨みっこなしでいけますかねー。
+[k]
+
+＠天草四郎
+それを言ったら始まりませんよ。[r]アストルフォ、貴方はどうします？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アストルフォ
+あ、ボクは聖杯とか必要ないや！
+[k]
+
+＠アストルフォ
+召喚された以上、マスターに尽くすのがサーヴァントって[r]やつだからね！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠子ギル
+うわー、耳が痛い。
+[k]
+
+[charaFace F 0]
+＠子ギル
+でもマスターがきちんとしたマスターなら[r]確かにそれが正しいですよね。
+[k]
+
+＠天草四郎
+おや、まるで正しくないマスターに[r]仕えたことがあるような口振りですね。
+[k]
+
+[charaFace F 4]
+＠子ギル
+長いことサーヴァントやっていると、[r]色々とありましてね。
+[k]
+
+[charaFace F 0]
+＠子ギル
+さて、ともかくアストルフォが参加しない以上、[r]ボクと彼の一騎討ちという訳ですか。
+[k]
+
+＠子ギル
+では、最初はボクから行かせて貰いましょう。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠子ギル
+ボクが聖杯を求めるのは当然ですね。[r]何しろ財を求めるのは王の性質というもの。
+[k]
+
+＠子ギル
+まして、この聖杯は万能の願望機……とまでは[r]いかないにせよ、極めて危険な存在。
+[k]
+
+[charaFace F 1]
+＠子ギル
+だとしたら、管理運営するべきは王の定めでしょう。[r]実のところボクにも大して願い事はありませんしね。
+[k]
+
+＠子ギル
+ノーリターンですがノーリスク。
+[k]
+
+[charaFace F 0]
+＠子ギル
+マスターさん。現状を考えると、ボクに聖杯を預けるのが[r]最適じゃないですかね？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠天草四郎
+さて……それはどうでしょうか。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠天草四郎
+確かにギルガメッシュの言う通り、聖杯とは危険な存在。[r]しかし、無色の力であるなら大いに活用するべきでしょう。
+[k]
+
+[charaFace E 4]
+＠天草四郎
+……私の願望には届かぬ、疑似的な聖杯でありますが。
+[k]
+
+？1：願望とは？
+
+[charaFace E 0]
+＠天草四郎
+私の願望は、恒久的な世界平和。[r]現状では届くも届かないもないですが。
+[k]
+
+？2：届かない？
+
+[charaFace E 0]
+＠天草四郎
+世界の平和を願いたいのですが、[r]生憎と世界そのものが焼却されようとしている。
+[k]
+
+＠天草四郎
+そもそも、焼却されていなかったとしても。[r]この聖杯では完全な世界平和にはほど遠い。
+[k]
+
+？！
+
+[charaFace E 4]
+＠天草四郎
+……しかし。この聖杯はただ保管するだけでは[r]あまりに勿体ない。
+[k]
+
+[charaFace E 0]
+＠天草四郎
+幸い、聖杯の動かし方については知識があります。[r]ここは一つ、私にお任せ頂けるとありがたい。
+[k]
+
+＠天草四郎
+いかがでしょう、マスター殿。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ど、どうしますマスター？[r]どちらも正しいようで、どちらも間違っているような。
+[k]
+
+[charaFace A 14]
+＠マシュ
+わたしには判断がつきません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うーん……参ったなあ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+疑似聖杯のデータを取得したけど、[r]周辺の魔力を食い漁って成長しつつある。
+[k]
+
+＠Dr.ロマン
+このままだと、疑似が疑似じゃなくなる。[r]それを契約もしていないサーヴァントに引き渡すのは……。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ちょっと危険な気がする。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アストルフォ
+あ、危険なんだやっぱり。[r]だよねえ、あの二人割とマスターぞんざいに扱うからねえ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠子ギル
+人聞きが悪いぞ、アストルフォ。[r]ボクはちゃんとマスターに合わせます。
+[k]
+
+[charaFace F 0]
+＠子ギル
+どんな横暴なマスターでも、[r]地味目で面倒そうな労働を宛がわれても、
+[k]
+
+＠子ギル
+マスター殺しとかそんな無道はしませんよ。[r]ねえ、天草四郎さん。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠天草四郎
+ふふふ、それではまるで私がマスター殺しを[r]したかのような疑念を持たれそうですね。
+[k]
+
+[charaFace E 0]
+＠天草四郎
+生憎と殺したことはありませんよ。
+[k]
+
+[charaFace E 4]
+＠天草四郎
+結果的に死なせてしまったことはありますが、[r]不慮の事故というものです。
+[k]
+
+[charaFace E 0]
+＠天草四郎
+反省はしていますとも。[r]二度とはしません。
+[k]
+
+[charaTalk off]
+＠二人
+……。[r]……。
+[k]
+
+[charaTalk on]
+＠天草四郎
+コホン。[r]……さて、それではこの世界最後のマスターよ。
+[k]
+
+＠天草四郎
+聖杯を得るに相応しいのは[line 2]。
+[k]
+
+＠子ギル
+ボクとこの人、どちらですかね？
+[k]
+
+[charaTalk off]
+[wt 1.0]
+
+？1：こちらが引き取る。
+
+[charaTalk on]
+[charaFace F 4]
+＠子ギル
+あー……やっぱりそういう結論になっちゃいますか。
+[k]
+
+[charaFace F 0]
+＠子ギル
+アストルフォさんがマスター連れてきたあたりで、[r]そーなるかなーとは思ったんですが。
+[k]
+
+？2：どちらもＮＯ
+
+[charaTalk on]
+[charaFace E 4]
+＠天草四郎
+では仕方ないですね。[r]これもまた、聖杯戦争です。
+[k]
+
+？！
+
+＠子ギル
+うーん、やっぱりそう来ますよねー。[r]なら、そうですね。
+[k]
+
+[charaFace E 0]
+＠天草四郎
+ええ、我々二人で協力してマスターを[r]撃退させていただきましょう。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+えぇぇ！？[r]そ、そうなるんですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アストルフォ
+なるよ！[r]だってこれ、聖杯戦争だもん！
+[k]
+
+[charaFace D 1]
+＠アストルフォ
+よーし、それならボクはマスターにつくよー！[r]支配する者か、仕える者か、叛逆する者か。
+[k]
+
+＠アストルフォ
+誰が勝つのか、やってみよー！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]

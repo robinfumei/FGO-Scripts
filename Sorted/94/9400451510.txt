@@ -1,0 +1,277 @@
+
+
+＄94-00-45-15-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 4014001 1 牛若丸]
+[charaSet D 6019000 1 風魔小太郎]
+[charaSet E 4023001 1 坂田金時]
+[charaSet F 98076000 1 弁慶]
+[charaSet G 6021001 1 ？？？]
+[charaSet H 98074000 1 丑御前]
+
+[scene 28000]
+[fadein black 1.0]
+[wait fade]
+
+
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 0]
+
+[charaFace C 5]
+[charaFadein C 0.1 2]
+
+
+＠風魔小太郎
+ッ……強いッ……！
+[k]
+
+[charaTalk C]
+
+＠牛若丸
+源氏の棟梁です。[r]強くなくては務まりませぬ……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+
+
+＠弁慶
+しかし、これほどまでとは！[r]まさに天魔、悪鬼羅刹の如し！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 2]
+
+＠坂田金時
+（突破する隙を作れねぇ……！[r]　ここまで溜め込んでたのか、あの人はよぉ！）
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、このままではっ……！
+[k]
+
+？1：何か……あるはずだ、何か！
+？2：せめて、少しでも隙が見えれば！
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠丑御前
+中々に持ち堪えましたが……[r]お仕舞いですね。
+[k]
+
+＠丑御前
+蘇民将来を唱えても構いませんよ。[r]念仏代わりにしかなりませんが。
+[k]
+
+[charaFace H 6]
+
+＠丑御前
+さあ、とどめです。[r]誅伐[line 2]
+[k]
+
+
+[charaTalk G]
+
+＠？？？
+ふふ、ふふふ、[r]酒に酔って忘れてしもうたんかなぁ、[charaFace H 5]頼光よ？
+[k]
+
+＠？？？
+うちらは確かに、しぶとい虫よ。[r]生き汚く屍肉を啜る虫[line 2]その極致が、鬼や。
+[k]
+
+＠？？？
+その鬼らしさに関しては、[r]あんたはんにも負けるわけにはいかんなぁ！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.3 1.0]
+[wait wipe]
+
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[wipein rectangleStripLeftToRight 0.3 1.0]
+
+[charaSet G 6021001 1 酒呑童子]
+
+[wt 0.7]
+
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠酒呑童子
+そうら！
+[k]
+
+[messageOff]
+
+
+[wipeout rectangleStripLeftToRight 0.3 1.0]
+[wait wipe]
+
+
+[charaFadeout G 0.1]
+[wt 0.3]
+
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+[wipein rectangleStripRightToLeft 0.3 1.0]
+[wait wipe]
+
+[se ad28]
+[effect bit_talk_37]
+[wait se ad28]
+[wait effect bit_talk_37]
+
+[effect bit_talk_13]
+[se bac13]
+
+[charaFace H 2]
+
+[wait effect bit_talk_13]
+
+＠丑御前
+っ！
+[k]
+
+[charaTalk E]
+
+＠坂田金時
+[fontSize large]酒呑！[fontSize -]
+[k]
+
+[charaTalk A]
+
+＠マシュ
+酒呑童子です！　隠れて機を窺っていたのでしょうか。[r]しかし、あんな深手を負った状態では[line 2]！
+[k]
+
+[charaTalk H]
+
+＠丑御前
+っ……どこまでも[line 2]目障りな！
+[k]
+
+
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+
+[fowardEffect bit_talk_12]
+[se bac13]
+
+[wt 0.6]
+
+[charaEffect G bit_talk_35]
+
+
+[wt 0.5]
+
+＠酒呑童子
+ああ……これはさすがに……無理やなあ。[r]鬼は死なんけども、や。消えてまうわ。
+[k]
+
+[charaFace G 0]
+
+＠酒呑童子
+……ふふ。また、な。小僧。[r]今度はやかましい母親のおらんとこで[line 2]
+[k]
+
+[charaFace G 6]
+
+[se ad52]
+[charaSpecialEffect G flashErasure 0 0 1]
+[wait charaSpecialEffect G]
+[charaFadeout G 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.2]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+
+
+＠坂田金時
+クソが、クソッタレがっ……。[r]テメェは鬼だ、敵だ、間違いねぇ。
+[k]
+
+
+
+
+[charaFace E 7]
+
+＠坂田金時
+だがよ。テメェがその鬼っぷりで作ったこの隙、[r]見過ごしたら男が廃るってなもんよ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.3]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 1]
+
+＠坂田金時
+いいぜ[line 3]地獄で見てな、ドランクオーガ。[r]とびっきりのフィニッシュを決めてやる！
+[k]
+
+＠坂田金時
+よぉーし！　ファイナルラップだ、行くぜ大将！[r]コイツが最後の、[#黄金疾走:ゴールデンドライブ]だ！
+[k]
+
+[se ad128]
+
+[wait se ad128]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

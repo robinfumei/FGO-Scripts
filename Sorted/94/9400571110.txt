@@ -1,0 +1,135 @@
+
+
+＄94-00-57-11-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 3025000 1 清姫]
+[charaSet F 5027000 1 マリー]
+
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+だいぶ生活にも余裕が出てきましたので……[r]庭でも作ってみようかという話が出ています。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+心の潤いというものは大事ですからねぇ。[r]よろしいのではないでしょうか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠清姫
+ますたぁ、わたくしはごく普通のお庭がいいです。[r]本当に、何の変哲もない、どこにでもあるような。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+あら珍しい。なんというか……もっとこう清姫ちゃん[r]らしい案があるのかと思ってました。
+[k]
+
+[charaFace D 1]
+＠玉藻の前
+庭に石で『ますたぁＬＯＶＥ』って書いてあるとか。[r]マスターの顔が縦に並ぶトーテムポール建てろとか。
+[k]
+
+
+？1：それはちょっと勘弁……
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+む、庭に石、で思い出した。お前達の国には『枯山水』[r]という庭があったそうだな。
+[k]
+
+＠スカサハ
+知識としては知っているが、実物はさすがに見たことが[r]ないので興味がある。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+スカサハさんが希望を仰るのは珍しいですね。[r]枯山水……ですか｡確かにわたしも興味があります。
+[k]
+
+[charaFace A 3]
+＠マシュ
+あ、いえ、これは別にわたしの主張ではなく、[r]ただの感想ですが……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+待って、迷路の庭も楽しいわよ？[r]木を植えて、枝を綺麗にカットして。
+[k]
+
+[charaFace F 1]
+＠マリー
+あっちを向いてもこっちを向いても同じような景色。[r]とっても不思議な気分が味わえるの。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マシュ
+なるほど。それも興味深いですね。[r]あ、いえ、これもまた、主張ではなく[line 2]
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+どうあれ決断は任せるぞ、マスター。[r]皆の憩いとなるようなよい庭を頼む。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

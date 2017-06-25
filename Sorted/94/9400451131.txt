@@ -1,0 +1,328 @@
+
+＄94-00-45-11-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 7023001 1 源頼光]
+[charaSet D 6019000 1 風魔小太郎]
+[charaSet E 4023001 1 坂田金時]
+[charaSet F 6021001 1 酒呑童子]
+[charaSet G 7022001 1 茨木童子]
+[charaSet H 4014001 1 牛若丸]
+
+
+[scene 27910]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠酒呑童子
+あかん、さすがにこらきっついわぁ……。[r]最初に遊びすぎたわ。
+[k]
+
+＠酒呑童子
+茨木、逃げんでー。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+
+[charaFace F 4]
+[charaFadein F 0.1 0]
+
+＠茨木童子
+グオッ……軽く言ってくれるな、酒呑……！
+[k]
+
+[charaTalk F]
+
+＠酒呑童子
+無理なんかあ？　じゃ、諦めるか。[r]茨木ならなんとかしてくれるやろ、思うてただけやし……。
+[k]
+
+[charaFace G 2]
+
+＠茨木童子
+む、むむむ、無理だとは言っていない！[r][#吾:われ]が酒呑を失望させる[#因業:わけ]がなかろう！
+[k]
+
+＠茨木童子
+この[#吾:われ]の手にかかれば、いかなる窮地からも[r]鼻歌交じりで脱出よ！　掴まれ酒呑！
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+
+[charaMove F 1 0.2]
+
+＠酒呑童子
+ああ、おおきに～。[r]さすが茨木やなぁ。
+[k]
+
+[charaTalk G]
+[charaFace G 1]
+
+＠茨木童子
+褒めても何も出んぞ。[r]いや褒めるのを止めろという話ではないぞ。
+[k]
+
+[bgmStop BGM_EVENT_3 0.5]
+
+[messageOff]
+[se ad73]
+[charaSpecialEffect G erasureReverse 1 0.3]
+[charaSpecialEffect F erasureReverse 1 0.3]
+[wait charaSpecialEffect G]
+[wait charaSpecialEffect F]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.5]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+
+＠マシュ
+なんという大跳躍……！[r]一瞬で戦闘域を離脱していきました！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠源頼光
+虫は一匹でも残すと際限なく湧いてくるもの。[r]私はあれらを潰しに行きます。
+[k]
+
+＠源頼光
+[&貴方:貴女]がたは……。
+[k]
+
+？1：ちょっと追いつけそうにないので……
+？2：すみません、他にやるべきことが
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+こっちの大将の言う通りだぜ。[r]頼光の大将[line 3]って、よくねえな。
+[k]
+
+＠坂田金時
+大将呼びが二人ってのも締まらねえ。[r]ちょいと昔の呼び名だが、頼光サマでいいかい、大将？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠源頼光
+……寂しいですが、仕方ありません。[r]母上、と呼んでもらえるのが一番なのですが……
+[k]
+
+[charaTalk E]
+[charaFace E 5]
+
+＠坂田金時
+その話は後な！[r]今はヤツらより優先する事があるっつーの！
+[k]
+
+[charaTalk C]
+[charaFace C 3]
+
+＠源頼光
+……仕方ありませんね。それでは金時、一人であれらを[r]追うこの母を応援してくれますか？
+[k]
+
+[charaTalk E]
+
+＠坂田金時
+応援……？　そりゃまぁ……って、オイ！
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+
+＠源頼光
+それでは応援を[line 2]活力となるものをいただきます。[r]ぎゅっ、と。
+[k]
+
+[charaMove C 1 0.2]
+[se ad111]
+
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 3]
+
+＠坂田金時
+だ、だだ抱きついてくんじゃねぇよ大将コイツらが見てる[r]っつーか頭まで撫でたりすんのはよォ！？
+[k]
+
+[charaTalk C]
+
+＠源頼光
+暴れてはいけません。反抗期ですか？[r]……ああ、なるほど。そちらの大将の目が気になると。
+[k]
+
+[charaTalk E]
+[charaFace E 4]
+
+＠坂田金時
+こんなん誰だって恥ずかしいジャン！[r]保護者参観かっつーの！
+[k]
+
+＠坂田金時
+つーか頼光サマ、いいのかよぅ！[r]ヤツらはどんどん逃げてってるぜ！
+[k]
+
+[charaTalk E]
+
+＠源頼光
+そうでしたね。[r]それでは、名残惜しいですが私はこれで。
+[k]
+
+＠源頼光
+[line 2]また会いましょう、皆様。[r]うちの金時をよろしくお願いしますね。
+[k]
+
+[wt 0.4]
+[messageOff]
+
+
+[se ad73]
+[charaFadeout C 0.1]
+[wt 1.2]
+
+[charaFadeout E 0.4]
+
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.4 1]
+
+
+＠坂田金時
+……っはぁー。マジかよ。[r]頼光の大将まで出張ってきてるとはな……。
+[k]
+
+＠坂田金時
+いや、オレが英霊になってんだから、[r]頼光様が英霊になってねえ理由はねえんだけど……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠牛若丸
+あのような方……だったのですね。[r]あ[charaFace H 1]、いえ、悪い意味ではなく！
+[k]
+
+＠牛若丸
+ただ想像と少し違っていて、驚いたと言いますか……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+ああ、アレが頼光の大将なのは間違いねぇぜ。[r]ああいう性格で、ああいう人だ。
+[k]
+
+[charaFace E 7]
+
+＠坂田金時
+……つーか、大将がさっきオレにした事は忘れろ。[r]何も見なかった。いいな？
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+さっきって？[r]ああ、ハグされていいこいいこ……。
+[k]
+
+[charaTalk E]
+[charaFace E 5]
+
+＠坂田金時
+ああン？
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+ボクは何も見ませんでしたハイ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+僕も……勿論、何も見ていません。[r]見たのは、勇猛な金時殿の戦いっぷりだけです。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+酒呑童子に、茨木童子[line 2]彼女達がこの鬼ヶ島に[r]いる事を忘れるわけにはいきませんが。
+[k]
+
+＠マシュ
+わたしたちにはこの島を発生させた元凶を[r]調べるという使命があります。
+[k]
+
+＠マシュ
+彼女たちのことは頭の片隅に置きつつ、引き続き[r]すべきことを進めていきましょう、マスター。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

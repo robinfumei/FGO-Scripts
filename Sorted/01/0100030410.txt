@@ -1,0 +1,182 @@
+＄01-00-03-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21510 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2012001 1 ？？？]
+[charaSet F 7009000 1 アステリオス]
+[charaSet G 98018100 1 海賊]
+[charaFace E 3]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠E：？？？
+はぁ、はぁ、はぁ……。
+[k]
+
+＠E：？？？
+ああ、ダメ。[r]疲れた、動けない、走れないわ、私。
+[k]
+
+[charaFace E 5]
+＠E：？？？
+こんなに走ったのは生まれてはじめて。[r]そもそも何でサーヴァントにされてるのよ！
+[k]
+
+[charaFace E 4]
+＠E：？？？
+[#私:ステンノ]もいないし[line 2]。[r][#駄妹:メドゥーサ]も……。
+[k]
+
+＠E：？？？
+……いえ、別にあの子がいなくたって大丈夫。[r]ほんとう、いろいろ大丈夫なんだけど……
+[k]
+
+[charaFace E 3]
+＠E：？？？
+はぁ……。[r]誰に言っているのかしら、私。
+[k]
+
+[charaFace E 5]
+＠E：？？？
+だいたい、この迷路って[#あの][#迷宮:ラヴィリンス]よね。[r]脱出なんか……できる訳ないし……糸もないし。
+[k]
+
+＠E：？？？
+……というか、いるわよねコレ。[r]この迷宮が存在する以上、絶対アレがいるわよね。
+[k]
+
+[se ad19]
+[wt 0.3]
+[charaFace E 2]
+＠E：？？？
+……っ！[r]やっぱり……。
+[k]
+
+[wt 0.4]
+[charaFace E 5]
+＠E：？？？
+後ろからも何かがやって来てる……[r]ああもう、どうしろって言うのよ！
+[k]
+
+[charaFadeout E 0]
+[charaFace F 0]
+[charaFilter F silhouette 00000080]
+[charaFadein F 0.1 1]
+[wt 0.7]
+[charaFadeout F 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 3]
+[seStop ad60]
+＠E：？？？
+きゃああああああああああああああああっ！！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.5]
+[scene 21330 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 5]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait fade]
+＠ドレイク
+んー……？
+[k]
+
+[charaFace A 6]
+＠マシュ
+どうしました？
+[k]
+
+[charaFace D 0]
+＠ドレイク
+ああ、空気の味が変わったみたいでね。
+[k]
+
+[charaFace A 13]
+＠マシュ
+空気の……味ですか？
+[k]
+
+[charaFace D 1]
+＠ドレイク
+違う国、違う陸地へ行くと空気の味が違うんだよ。
+[k]
+
+＠ドレイク
+イングランドとフランス程度の距離ならともかく、[r]違う大陸へ行くと、空気の味が変わるのは本当さね。
+[k]
+
+＠Dr.ロマン
+ふーむ。ミス・ドレイクは寒暖の差や海流の変化による[r]風の差違を感知しているのかな？
+[k]
+
+[charaFace D 3]
+＠ドレイク
+何だい、ミス・ドレイクって。[r]気色悪い言い方だね、学者の兄さんは！
+[k]
+
+＠Dr.ロマン
+す、すいません。[r]では失礼して、ドレイクと。
+[k]
+
+[charaFace D 0]
+＠Dr.ロマン
+という訳で、マシュ、[%1][&君:ちゃん]。[r]ドレイクの言葉は正しいかもしれない。
+[k]
+
+＠Dr.ロマン
+現在、君たちがいる場所は明らかに先ほどの島と[r]気温や海流が異なっている。
+[k]
+
+＠Dr.ロマン
+もうしばらくすれば、[r]具体的な場所も判明するはずだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein G 0.1 2]
+＠海賊
+姐御！　北西に船一隻でさぁ！
+[k]
+
+＠ドレイク
+ようし、旗は？
+[k]
+
+＠海賊
+見おぼえのねえ海賊旗です！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 5]
+＠ドレイク
+要するに敵か！[r]マシュ、[%1]、準備しな！　仕事の時間だ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+わかりました、キャプテン・ドレイク。[r]ではマスター、行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

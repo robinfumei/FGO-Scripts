@@ -1,0 +1,869 @@
+＄01-00-06-32-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_20 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet F 98094000 1 獅子王]
+
+[scene 30100]
+
+
+[fadein black 2.0]
+[wait fade]
+
+
+＠マーリン
+……という訳さ。あの特異点に現れたアルトリアは、[r]それはもう大変な事になっている。
+[k]
+
+＠マーリン
+伝承にあるワイルドハント。嵐の王。[r]死者たちを率いて現れる、亡霊の王様だね。
+[k]
+
+＠マーリン
+無論、それは後から彼女につけられた逸話の一つだ。[r]ワイルドハントの該当者は他にもいる。
+[k]
+
+＠マーリン
+でも、あのアルトリアは別物だ。[r]本当のワイルドハントになってしまった。
+[k]
+
+＠マーリン
+正確に言うと本物のアーサー王じゃない、けどね。
+[k]
+
+＠マーリン
+あれは、ある食い違いが元で[r]変質してしまったアーサー王だ。
+[k]
+
+＠マーリン
+本来なら現れるはずのない偽物だろうさ。[r]それが特異点の影響で現れてしまった。
+[k]
+
+＠マーリン
+……それとも、あのアーサー王の方が本物で、[r]ボクたちが知っているアーサー王が偽物なのかな？
+[k]
+
+＠マーリン
+亡霊の王として地上に残ったアーサー王。[r]未来の王としてアヴァロンに運ばれたアーサー王。
+[k]
+
+＠マーリン
+私が知っているのは無論、アヴァロンのアーサー王だ。[r]でもキミが知っているのは[line 3]
+[k]
+
+＠ルキウス
+……地上に残ったアーサー王です。[r]ですが、私には見つけられなかった。
+[k]
+
+＠ルキウス
+ずっと探し続けたものの、出逢う事はなく[r]私はここに流れ着き、生きた屍になっていた。
+[k]
+
+＠マーリン
+ああ、その通りだ。[r]キミは運がいい。いや、悪いのかな？
+[k]
+
+＠マーリン
+妖精たちはずっと噂していた。[r]アヴァロンの端に人型の岩がある。
+[k]
+
+＠マーリン
+いつの間にかあったもので、誰もこれの由来を知らない。[r]どうやら人間らしいんだけど、怖ろしい事に生きている。
+[k]
+
+＠マーリン
+生きているけど動けない。[r]肉体はボロボロ、魂は燃え滓。まさに生きる屍だ。
+[k]
+
+＠マーリン
+でも、驚くべき事に精神は尽きてはいなかった。
+[k]
+
+＠マーリン
+その岩は物凄い執念で、まだ、[r]自分が死ぬ事を許さなかった。
+[k]
+
+＠マーリン
+……分かるねルキウス？[r]それがキミだ。
+[k]
+
+＠マーリン
+特異点によってアヴァロンに現れた、[r]どこか別の末端世界の、有り得たかもしれない可能性。
+[k]
+
+＠マーリン
+ルキウス[line 3]いや、懐かしのベディヴィエール卿。[r]おはよう。そしてこんにちは。
+[k]
+
+＠マーリン
+起き抜けで悪いんだけど、こっちも時間がなくてね。[r]私はいつも通り、とても残酷な事をキミに言うよ。
+[k]
+
+＠マーリン
+キミはまだ戦えるか？[r]自分の使命を、まだ実行できるかい？
+[k]
+
+＠ルキウス
+[line 3]無論です。[r]そのために、私はここまでやってきたのですから。
+[k]
+
+＠マーリン
+そうか。……そうか。[r]それじゃあ私から[#餞別:せんべつ]だ。
+[k]
+
+＠マーリン
+まず、キミには誤魔化しの魔術をかけよう。[r]誰が見てもキミの正体に気づかないように。
+[k]
+
+＠マーリン
+どんな英霊であっても、[r]キミの真実に気がつかないように。
+[k]
+
+＠マーリン
+なぜって？　キミの正体が分かったら、[r]彼らは全力でキミを阻むからさ。
+[k]
+
+＠マーリン
+彼らだって馬鹿じゃない。モードレッドは馬鹿だけど。[r]キミの真実を知れば、獅子王の真実にも気づく。
+[k]
+
+＠マーリン
+彼らは絶対にキミを獅子王には近づけないだろう。[r]そして獅子王はキミをもう覚えてはいないだろう。
+[k]
+
+＠マーリン
+キミはひとりきりで獅子王に謁見し、[r]否定される前に事を成さなければならない。
+[k]
+
+＠マーリン
+とても、とても孤独な旅だ。[r]でも、そういうのには慣れているんだろう？
+[k]
+
+＠マーリン
+気の遠くなるような年月、旅を続けてきたんだから。
+[k]
+
+＠マーリン
+でもいちおう確認はするよ？[r]戦いの結果はどうあれ、キミはこれで死に絶える。
+[k]
+
+＠マーリン
+魂を使い果たし、輪廻の枠から外れ、[r]キミという存在は虚無に落ちるだろう。
+[k]
+
+＠マーリン
+それでも[line 3][r]まだ、旅の終わりを目指すのかい？
+[k]
+
+＠ルキウス
+[line 3]はい。[r]私の[#精神:こころ]は、今も彼の王の光のために。
+[k]
+
+＠マーリン
+……そうか。じゃあこれはオマケの餞別だ。[r]キミが戦えるように加工しておいた。
+[k]
+
+＠マーリン
+改名してアガートラム。[r]使う度に魂が全焼するが、そこは耐えてくれ。
+[k]
+
+＠マーリン
+キミの目指す場所は一つのイフ。[r]騎士道の究極がカタチになろうとする、末世の地だ。
+[k]
+
+＠マーリン
+かつての友と戦う事になろうとも、[r]かつての罪と対面する事になろうとも、
+[k]
+
+＠マーリン
+その手の輝きは決して損なわれない。
+[k]
+
+＠マーリン
+なぜならそれこそが[line 3][r]キミの侵した、最大の罪なのだからね。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_20 3.0]
+[maskout white 3.0]
+[wait mask]
+
+[charaBackEffect D bit_talk_41_black_in]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 1]
+
+[wt 1.0]
+
+[scene 29700]
+
+
+[maskin white 2.0]
+[wt 1.0]
+[se ad14]
+[wait mask]
+
+＠マシュ
+それは全ての[#疵:きず]、[r]全ての怨恨を癒やす我らが故郷[line 3]
+[k]
+
+[scene 10001 1.5]
+
+[charaFace A 2]
+＠マシュ
+顕現せよ、[r]ロード、キャメロット[line 3]！！！！
+[k]
+
+[wait scene]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[charaPut D 1200,1200]
+[scene 29700 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+[wt 0.2]
+
+＠ベディヴィエール
+[line 6]
+[k]
+
+
+[messageOff]
+
+[charaEffect D bit_talk_lightning_01t]
+
+[messageOff]
+[charaFadeout C 0.1]
+[scene 10001 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[charaPut D 1]
+
+
+[se ad62]
+[charaShake A 0.05 3 3 0]
+[wt 2.0]
+
+[messageOff]
+
+[seStop ad62 2.0]
+[charaShakeStop A]
+
+
+[charaFadeout A 0.1]
+[charaPut D 1200,1200]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaBackEffect F bit_talk_41_black_out]
+[scene 29700 0.1]
+[wait scene]
+
+
+＠獅子王
+面白い[line 3][r]その細腕で、白亜の城をどこまで支えられる！
+[k]
+
+
+[messageOff]
+
+
+
+[charaFadeout F 0.1]
+[charaPut F 1200,1200]
+[scene 10001 0.1]
+
+[se ad62]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 3 3 0]
+[charaPut D 1]
+[charaDepth D 0]
+[wait scene]
+
+
+＠マシュ
+くっ……つ、うぅうう……！
+[k]
+
+[seStop ad62 2.0]
+
+
+？1：がんばれ、マシュ……！
+？2：一緒に支える……！
+
+？！
+
+[messageOff]
+
+
+
+[charaShakeStop A]
+[charaFadeout A 0.1]
+[charaPut D 1200,1200]
+[charaPut A 1200,1200]
+
+[scene 29700 0.1]
+[shake 0.05 0 3 0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+
+[bgm BGM_EVENT_6 0.1]
+＠ベディヴィエール
+いえ、いけません[%1]。
+[k]
+
+＠ベディヴィエール
+人の身ではとても耐えられない。[r]お気持ちは分かりますが、どうかここで待機を。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+ベディヴィエール卿……？[r]そんなゆっくりと、マシュに向かって歩いて……
+[k]
+
+[charaFace B 6]
+＠ダ・ヴィンチ
+……待って。待った。待ちなさい。[r]キミの、その体は[line 3]
+[k]
+
+
+[messageOff]
+
+[charaFadeout B 0.1]
+[shakeStop]
+
+[charaTalk C]
+[charaFace A 15]
+[charaFace C 1]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+[charaShake A 0.05 3 3 0]
+[charaPut D 1]
+[charaDepth D 0]
+[scene 10001 0.1]
+[wait scene]
+
+
+＠ベディヴィエール
+力まないで、サー・キリエライト。[r]その盾は決して崩れない。貴女の心が乱れぬかぎり。
+[k]
+
+[charaShake A 0.05 3 3 0.5]
+
+[charaFace A 6]
+＠マシュ
+ベディヴィエールさん……？[r]あ……はい。こ、こうですか？
+[k]
+
+[charaFace C 10]
+＠ベディヴィエール
+そうです。たいへん筋がよろしい。[r]いいですか。忘れないでください。
+[k]
+
+[charaFace C 0]
+＠ベディヴィエール
+白亜の城は持ち主の心によって変化する。[r]曇り、汚れがあれば綻びを生み、荒波に壊される。
+[k]
+
+＠ベディヴィエール
+けれどその心に一点の迷いもなければ、[r]正門は決して崩れない。
+[k]
+
+[charaFace C 1]
+＠ベディヴィエール
+貴女は敵を倒す騎士ではないのです。[r]その善き心を示すために、円卓に選ばれたのですから。
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaPut D 1200,1200]
+[charaPut A 1200,1200]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[scene 29700 0.1]
+[wait scene]
+
+
+＠獅子王
+……何者だ。[r]見たところ、貴様も騎士のようだが[line 3]
+[k]
+
+[messageOff]
+
+
+[charaFadeout F 0.1]
+[charaPut F 1200,1200]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+[charaPut D 1]
+[charaDepth D 0]
+[scene 10001 0.1]
+[wait scene]
+
+
+＠マシュ
+っ、知らない筈がありません！[r]この方はベディヴィエール卿！　円卓の騎士です！
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaPut D 1200,1200]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[scene 29700 0.1]
+[wait scene]
+
+
+＠獅子王
+何を、言っている……？[r]そのような名前の騎士を、私は知らな[line 3]
+[k]
+
+[messageOff]
+
+
+[charaFadeout F 0.1]
+[charaPut F 1200,1200]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaPut D 1]
+[charaDepth D 0]
+[scene 10001 0.1]
+[wait scene]
+
+
+
+＠ベディヴィエール
+……そうでしょうとも。[r]ですが、これを見ればその記憶も晴れましょう。
+[k]
+
+[charaFace C 2]
+＠ベディヴィエール
+[#剣を摂れ、銀色の腕:スイッチオン・アガートラム]。[r]今こそ、裁きの光を切り裂きたまえ……！
+[k]
+
+
+[messageOff]
+[seStop ad14]
+[se bas1]
+[charaEffect C bit_talk_30]
+[charaPut D 1200,1200]
+
+[scene 29700 0.5]
+[wait scene]
+[charaBackEffectStop D]
+[charaBackEffectStop F]
+
+[se ad61]
+[wt 1.5]
+[seStop ad61 0.5]
+
+[se ad137]
+[wt 1.0]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠獅子王
+[line 3]今の、輝きは[line 3][r]知っている……それを、私は知っている[line 3]
+[k]
+
+＠獅子王
+貴様、何者だ。[r]私は、何故[charaFace F 2][line 3]ぐっ……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……[%1]。[r]ここまで来られたのは貴方のおかげです。
+[k]
+
+[charaFace C 1]
+＠ベディヴィエール
+貴方の、これまでの全ての厚意に感謝します。[r]……そして、一つお詫びを。
+[k]
+
+[charaFace C 4]
+＠ベディヴィエール
+私は貴方に隠しごとをしていた。[r]私は獅子王の変質の理由を知っていた。
+[k]
+
+＠ベディヴィエール
+知っていて、今まで黙っていたのです。[r]……その事を、どうかお許しください。
+[k]
+
+
+？1：ベディヴィエール……？
+？2：……待って……体が……崩れて……？
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+……嘘だろ。どうなってるんだ、[r]どうして今までこんな誤作動をしていたんだ……！？
+[k]
+
+＠Dr.ロマン
+[%1]君、[r]そこにいるベディヴィエール卿は本物かい！？
+[k]
+
+＠Dr.ロマン
+観測結果が異常だ！[r]霊基反応がまったくない！　魔術回路も人間なみ……
+[k]
+
+＠Dr.ロマン
+っていうか、これは[line 3][r]これは、ただの人間だ！
+[k]
+
+＠Dr.ロマン
+そこにいる人物はサーヴァントじゃない！[r]キミと同じ、普通の人間だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 6]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+[line 6]っ。
+[k]
+
+[bgmStop BGM_EVENT_6 3.0]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+？1：うそ………？
+？2：だって、どうして……？
+
+？！
+
+[bgm BGM_EVENT_21 0.1]
+
+[charaFace C 1]
+＠ベディヴィエール
+いえ。ドクターの解析は正しい。[r]私はサーヴァントではありませんから。
+[k]
+
+＠ベディヴィエール
+マーリンの魔術で皆さんを騙していたのです。[r]このアガートラムも同じ。これは……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+……エクスカリバー。[r]その腕は、聖剣エクスカリバーだ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+
+＠獅子王
+[line 3]エクスカリバ[FFFFFF]ー[-][line 3]
+[k]
+
+＠獅子王
+……ベディヴィエール。[r]その名前は、確か[line 3]
+[k]
+
+＠獅子王
+まさか[line 3]貴卿、は
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……そう。私は罪を犯しました。[r]王を失いたくないという思いで、あまりにも愚かな罪を。
+[k]
+
+＠ベディヴィエール
+あの森で私は貴方の[#命:めい]に[#躊躇:ためら]った。[r]聖剣を湖に返しては、貴方は本当に死んでしまう。
+[k]
+
+[charaFace C 4]
+＠ベディヴィエール
+それが怖くて[line 3][r][#三度目]ですら、聖剣の返還が出来なかった。
+[k]
+
+[charaFace C 0]
+＠ベディヴィエール
+そうして森に戻った時、王の姿は消えていた。[r]……その後に知ったのです。
+[k]
+
+＠ベディヴィエール
+聖剣を返還しなかった事で、[r]王は死ぬ事さえできなくなった。
+[k]
+
+[charaFace C 5]
+＠ベディヴィエール
+王は手元に残った聖槍を携え、[r]さまよえる亡霊の王になってしまったと。
+[k]
+
+[charaFace C 4]
+＠ベディヴィエール
+……その罪を償うために、私は貴方を探し続けた。[r]ずっと。居もしない影を、探すように。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 0 5 0 2]
+
+＠Dr.ロマン
+馬鹿な、それが本当だとしたら1500年間だぞ！？[r]1500年近く、アーサー王を探し続けたというのか！？
+[k]
+
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+人間がそんなに生き続けられる筈がない！[r]エクスカリバーは所有者の成長を止める！
+[k]
+
+＠Dr.ロマン
+だが、それは肉体の話だ！[r]精神は不老にはならない！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そんな長い間[line 3]ひとりで？[r]贖罪の旅を続けてきたのか、キミは！？
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+そんな[#惨:むご]い話があってたまるか！[r]残酷にも程がある！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+ありがとう、ドクター・ロマン。[r]ですが、それほど辛いものではありませんでしたよ。
+[k]
+
+＠ベディヴィエール
+それに、こうして最後の機会を与えられました。[r][%1]のおかげです。
+[k]
+
+＠ベディヴィエール
+あの聖抜の夜、貴方がいなければ私は[r]ここまで辿り着けなかった。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠獅子王
+……思い出せない。[r]ベディヴィエールという名前は分かる。
+[k]
+
+＠獅子王
+だが、貴卿との記憶が、何一つ。[r][line 3]貴卿は本当にベディヴィエール卿なのか？
+[k]
+
+＠獅子王
+……いいだろう。ならば私の元に戻れ。[r]その剣を捨てよ。それは、私には不要のものだ。
+[k]
+
+＠獅子王
+我が騎士だと言うのなら、我が声に従え！[r]我が円卓に戻れ、ベディヴィエール！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+いいえ、それは叶いません。[r]獅子王。聖槍の化身よ。
+[k]
+
+＠ベディヴィエール
+貴方にとって、私は討つべき敵です。[r]貴方は私に、復讐しなくてはいけないのですから。
+[k]
+
+[bgmStop BGM_EVENT_21 3.5]
+
+[charaFace C 5]
+＠ベディヴィエール
+そして[line 3]
+[k]
+
+
+[bgm BGM_BATTLE_5 0.1]
+
+[charaFace C 2]
+＠ベディヴィエール
+そして、私には貴方を止める義務がある！[r]騎士王の円卓、その一員として貴方に告げる！
+[k]
+
+＠ベディヴィエール
+私は円卓の騎士、ベディヴィエール！[r]善なる者として、悪である貴方を討つ者だ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠獅子王
+[line 3]違う。[r]何を言うベディヴィエール。
+[k]
+
+＠獅子王
+貴卿は、私の[line 3][r]私、だったものの[line 3]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+さあ[%1]、最後の指示を。[r]どうか私に、四度目の機会をお与えください。
+[k]
+
+[charaFace C 0]
+＠ベディヴィエール
+聖剣は善き心を持つ者の手で、[r]あるべき者の手に渡るもの。
+[k]
+
+[charaFace C 4]
+＠ベディヴィエール
+[line 3]私では、もうその資格がないのです。
+[k]
+
+
+？1：……行くぞ、ベディヴィエール！
+？2：……貴方が、それを望むなら
+
+？！
+
+[charaFace C 10]
+＠ベディヴィエール
+良かった。[r]ではマシュ殿、お供をお願いします。
+[k]
+
+＠ベディヴィエール
+どうか、いたらぬ私を支えていただければ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……はい！[r]サー・ベディヴィエールの要請に全力で応えます！
+[k]
+
+[charaFace A 2]
+＠マシュ
+敵は獅子王、女神ロンゴミニアド……！[r]この聖都、最後の戦いを開始します、マスター！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_5 0.5]
+[wait fade]
+[soundStopAll]
+[end]

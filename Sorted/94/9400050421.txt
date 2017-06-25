@@ -1,0 +1,46 @@
+＄94-00-05-04-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20602]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 6017001 1 カーミラ]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+[fadein black 1]
+[wait fade]
+＠カーミラ
+小手調べは終了ね。[r]活きが良くて何よりよ、ブタども。
+[k]
+
+＠カーミラ
+アナタたちを[#跪:ひざま]づかせた後は[r]首輪をつけて飼ってあげる。
+[k]
+
+[charaFace E 1]
+＠カーミラ
+もちろん、[r]私の代わりに掃除をする奴隷としてね！
+[k]
+
+[charaFace E 2]
+＠カーミラ
+さあ覚悟はいい？　その皮膚の下の[#血液:なかみ]を、[r][#幻想の鉄処女:ファントム・メイデン]でブチ撒けてあげる！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+あ、いえ。それだとますます掃除が[r]大変になるのではないでしょうか……！？
+[k]
+
+[charaFadeout A 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

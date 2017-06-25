@@ -1,0 +1,192 @@
+
+＄94-00-95-04-1-1
+
+[charaSet A 1017001 1 武蔵]
+[charaSet B 98075000 1 助六]
+[charaSet C 6018001 1 Ｘ]
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[scene 20303]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+[wt 0.4]
+[effect bit_talk_Slash_red_01]
+[se bac136]
+[wt 0.2]
+[effect bit_talk_13]
+[charaShake C 0.05 2 0 1.0]
+＠Ｘ
+っ……！[r]このセイバー、やりづらい……！
+[k]
+
+[effectStop bit_talk_Slash_red_01]
+
+＠Ｘ
+私と同じ、勝つためなら何をしても良し、[r]むしろ勝つために全てを[#修:おさ]めている、そんな感じです！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[effectStop bit_talk_13]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠武蔵
+冗談！　そりゃあ勝つためなら何でも有りだけど、[r]基本的には一芸を極める方針なの、私！
+[k]
+
+[charaFace A 2]
+＠武蔵
+二天一流は絶対の一に挑むもの、[r]絶対の一を超えるもの！
+[k]
+
+＠武蔵
+我が[#眼:まなこ]は貴殿の欠点を確かに[#捉:とら]えた！[r]いざ、[#天元:てんげん]の如く断ち斬らん！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠Ｘ
+[FFFFFF]！[-]　私の左手が狙われている[line 3][r]そうと分かっているのに、防げる気がまるでしない……！
+[k]
+
+[charaFace C 2]
+＠Ｘ
+くっ[line 3]！
+[k]
+
+[messageOff]
+
+[se bac7]
+[wipeout cutAcross 0.2 1.0]
+[wait wipe]
+
+[wt 1.0]
+
+[charaFadeout C 0.1]
+[scene 28200]
+
+[se ad149]
+[wipein clash 1.7 1.0]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 2 0 1.0]
+＠Ｘ
+あいたたたた、あいたたたた！[r]手首の固有[#結界発生:Ｗ・Ｆ・Ｄブレスレット]装置を破壊するとは！
+[k]
+
+＠Ｘ
+これは私のチーム、新円卓の騎士に新しく加わった技術者、[r]ライオンヘッド特製のものだというのに……ッ！
+[k]
+
+[charaFace C 0]
+＠Ｘ
+いいでしょう、勝負は預けました！[r]というか怖いから逃げますネ！
+[k]
+
+[charaFace C 5]
+＠Ｘ
+ですが、これで勝ったと思わない事です！[r]いつか必ず第二、第三の私が現れますので！　きっと！
+[k]
+
+[charaEffect C bit_talk_06]
+[charaFace C 1]
+＠Ｘ
+それでは[%1][&君:さん]、また今度！[r]スペースなウォーズで遭いましょう！
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+[messageOff]
+[charaSpecialEffect C flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect C]
+[charaEffectStop C bit_talk_06]
+[wt 0.7]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+……彼女も消えちゃったかぁ。[r]不思議な相手だったわね。
+[k]
+
+＠武蔵
+[%1][&君:]、[r]サーヴァントってみんなああなの？
+[k]
+
+？1：Ｘは特別
+？2：今のは忘れてください
+
+？！
+
+[charaFace A 1]
+＠武蔵
+そうなんだ。特例の中の特例みたいなものなのね。[r]どうりで波長が合うと思った。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠助六
+……むう。それはどういう意味なのだ？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+私も彼女も基本的な世界から外れているなって。[r]ある意味、似た者同士だったのでしょう。
+[k]
+
+＠武蔵
+ほら。私、何かの拍子で違う世界に迷い込む女だから。[r]どこにいっても仲間外れって気持ちは、少し分かるの。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠助六
+…………やはりか。
+[k]
+
+＠助六
+ともあれ、これが最後の門だ。[r]頂まであと少し。邪魔が入る前に急ぐとしよう。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 0.4]
+[wait fade]
+[soundStopAll]
+[end]

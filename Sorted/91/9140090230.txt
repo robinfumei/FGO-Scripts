@@ -1,0 +1,164 @@
+＄91-40-09-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21410]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4009200 2 アン]
+[charaSet E 4009100 2 メアリー]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[fadein black 1]
+[wait fade]
+
+＠メアリー
+ふぅ。今度はホムンクルスにゾンビか。[r]このゾンビは、殺された人間かな？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+だとすると、長い間そこをうろついていた訳だ。[r]魂が安らぐことを祈るとしよう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠メアリー
+そろそろ一番奥だ。[r]ここに財宝がある、はず……！
+[k]
+
+[se ad14]
+
+[wt 0.4]
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[bgmStop BGM_EVENT_5 1.0]
+[wait wipe]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaEffect C bit_talk_06]
+[scene 20112]
+[wt 1.5]
+[seStop ad14 1.0]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+[cameraMove 1.0 150,100 1.5]
+[wait camera]
+[cameraMove 1.5 -150,100 1.5]
+[wait camera]
+[cameraMove 1.0 0,0 1.0]
+[wait camera]
+[charaEffectStop C bit_talk_06]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace E 1]
+[charaFadein E 0.4 0]
+[charaFace D 1]
+[charaFadein D 0.4 2]
+＠アン
+わ……。
+[k]
+
+＠メアリー
+あ……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[bgm BGM_EVENT_4 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+これは……！
+[k]
+
+？1：財宝だ！
+
+？2：宝の山だ！
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メアリー
+やったね、マスター！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ちょ、ちょっと待った待った！[r]そ、その洞窟に[line 2]すっかり馴染み深くなった生体反応が！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_4 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[effect bit_talk_41]
+[se ad17]
+[shake 0.05 0 4 0]
+[wt 2.15]
+[effectStop bit_talk_41]
+[wt 0.5]
+[shakeStop]
+
+[bgm BGM_EVENT_3 0.1]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……テンプル騎士団。[r]黒魔術を使うとか、使わないとか。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠メアリー
+……胡散臭い儀式をしているとか、していないとか。[r]色々話はあるんだろうけれど。
+[k]
+
+＠アン
+……普通、ここまでするのかしらねえ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ドラゴン！？[r]ええと……つまり、何だ……ファ、ファイト！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]

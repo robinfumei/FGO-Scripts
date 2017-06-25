@@ -1,0 +1,429 @@
+
+＄01-00-05-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5023001 1 ブラヴァツキー]
+[charaSet C 3004001 1 カルナ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 98003000 1 Dr.ロマン]
+[charaSet F 99363000 1 バベッジUSA]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+
+
+[scene 20115]
+[fadein black 2]
+[wait fade]
+
+＠マシュ
+先輩、先輩……！[r]良かった、[charaFace A 1]起きました！
+[k]
+
+？1：一体何が……？
+？2：頭が痛い……。
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+宝具の一撃をあなたのサーヴァントが防ぎました。[r]が、その余波だけで全員が見事に失神。
+[k]
+
+＠ナイチンゲール
+私たちは殺されることもなく、[r]彼らに引き回されているようです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+あら、起きたのね～。[r]今、あなたたちは輸送中。
+[k]
+
+＠ブラヴァツキー
+逃げたいなら逃げてもいいけど……。[r]生憎、この子たちは積極的にマスターを狙うわよ。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 1.0]
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+カルナはマスターだけは殺さないって拘りが[r]あるから動かないと思うけど……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠カルナ
+……それは誤解がある。[r]オレとて、状況次第でマスターを優先する。
+[k]
+
+＠カルナ
+もっとも、その場合はマスター殺しを良しとする[r]道理と信念、そして覚悟を示す必要があるが。
+[k]
+
+[charaFace C 4]
+＠カルナ
+例えば、そうだな。[r]命令する者が自らの命と引き替えにする……
+[k]
+
+＠カルナ
+というのであれば、考慮する用意がある。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+ほらねー。そういうの、[r]戦場的には有り得ないってコトと同じなのよね～。
+[k]
+
+[charaFace B 0]
+＠ブラヴァツキー
+ま、カルナはこの通りだけど、[r]あなたたちの状況は変わらないわよ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠ブラヴァツキー
+これだけ至近距離だと、機械化歩兵たちの[r]目をかいくぐるのもさすがに難しいでしょ？
+[k]
+
+[charaFace A 8]
+＠マシュ
+っ……。
+[k]
+
+[charaFace B 1]
+＠ブラヴァツキー
+はい、いい子いい子。
+[k]
+
+？1：一体どこへ？
+？2：何が目的だ？
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+まず、こちらの王様に会ってもらうわ。[r]その上で、どちらの味方になるか決めなさい。
+[k]
+
+＠ブラヴァツキー
+ま、そこのサーヴァント二人は味方にならないわね。[r]はいはい、それくらいのこと分かってるわよー。
+[k]
+
+＠ブラヴァツキー
+でも、マスターである[&彼:彼女]を説得できれば[r]話は別かしら。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……あの、レディ・ブラヴァツキー。
+[k]
+
+＠マシュ
+どうして、そこまで[r]“王様”という方に肩入れするのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠ブラヴァツキー
+レディ！　いいわね。あなた、とてもいい。[r]礼節ってものをわかってる！
+[k]
+
+[charaFace B 0]
+＠ブラヴァツキー
+マシュちゃんって言ったっけ。[r]あなたに免じて答えてあげる。
+[k]
+
+＠ブラヴァツキー
+王様に肩入れするいちばんの理由は、[r]生前、彼と因縁があったから。
+[k]
+
+[charaFace B 5]
+＠ブラヴァツキー
+あ、一応言っておくけど浮気相手とかじゃないから。[r]世話になったし、交流もあったし……。
+[k]
+
+＠ブラヴァツキー
+そもそも東部を支配しているケルトは[r]ケルト人以外を認めないからね。
+[k]
+
+[charaFace B 4]
+＠ブラヴァツキー
+あたしがケルト側に降伏しても殺されるだけ。[r]あるいは戦いの生贄にでもされるのかしら。
+[k]
+
+[charaFace A 6]
+＠マシュ
+……ケルト……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+先ほどのサーヴァントはフィン・マックールと[r]ディルムッド・オディナだったね。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……ああ、ということは今回はケルトの[r]サーヴァントたちが大集合という訳か……。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+伝説を紐解くかぎり、どいつもこいつも頭のネジが[r]吹っ飛んだような天然バーサーカー連中だぞ……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+[FFFFFF]？　なにいまの魔力波？[-][r]もしかしてもうひとりいる？
+[k]
+
+＠ブラヴァツキー
+なに、ポケットの中にこびとでも飼ってるの？[r]あれ、いない？　じゃあ今の声はどこから……
+[k]
+
+[charaFace B 5]
+＠ブラヴァツキー
+あ。もしかしてグラハム・ベルでもいるの？
+[k]
+
+[charaFace B 4]
+＠ブラヴァツキー
+でもあんなのいたら、王様、[r]今度こそ本気でキレちゃうしなぁ……
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+おあいにくさま。遠距離通信は遠距離通信でも、[r]こっちは数段上の通信だ。
+[k]
+
+＠Dr.ロマン
+挨拶が遅れたねブラヴァツキー女史。[r]ボクは彼らのナビゲーターだ。
+[k]
+
+＠Dr.ロマン
+Dr.ロマンと覚えておきたまえ。[r]いずれ縁が出来るかもしれないし。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+うわあ……聞くだけで軽率な男と分かる声ね。[r]ろくなコトしてないでしょ、あなた。
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なんでみんなファーストコンタクトで[r]ボクをディスるんだい！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+まあいいわ。[r][%1][&君:ちゃん]にも参謀がいるってコトね。
+[k]
+
+＠ブラヴァツキー
+じゃあ改めて。[r]あなたたちも分かっているわよね？
+[k]
+
+[charaFace B 5]
+＠ブラヴァツキー
+この戦いはどちらかに与しなければ勝てない。[r]両方に戦いを挑めば、双方に滅ぼされるは道理でしょう。
+[k]
+
+＠ブラヴァツキー
+この世界は東西が戦い続けていることで、[r]かろうじて成立している。
+[k]
+
+＠ブラヴァツキー
+あたしたちが戦っていなければ、今頃この国は完全に[r]滅んで手出ししようがなくなっていたのよ？
+[k]
+
+？1：どちらも戦いが好きなだけでは？
+
+[charaFace B 4]
+＠ブラヴァツキー
+聞く耳もたないって感じね、あなた。[r]頑固だって言われたことあるかしら？
+[k]
+
+[charaFace B 0]
+＠ブラヴァツキー
+まあでも、あなたも一度は王様に会ってみるべきよ。[r]……面白いから。
+[k]
+
+
+？2：私たちって、結局、なに？
+
+[charaFace B 0]
+＠ブラヴァツキー
+あ。そっか、それをまだ説明してなかったっけ。[r]でも……ふふふ。
+[k]
+
+[charaFace B 1]
+＠ブラヴァツキー
+ここまできたら最後まで黙っておきましょう。[r]だって、その方が面白いものね！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+面白い……ですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+この究極の民主主義国家で「王」を名乗る以上、[r]面白いのは当然でしょう。
+[k]
+
+＠ナイチンゲール
+……ああ、自称でいいのでしたら、[r]皇帝は居たこともあるらしいですが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+スノッブにお詳しいこと。[r][#皇帝:かれ]が英霊だったらさぞ現状を嘆いたでしょうね。
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+[messageOff]
+[charaTalk F]
+[se ad25]
+[wait se ad25]
+[wt 0.2]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+＠ブラヴァツキー
+っと、その前に露払いね。[r]丁度いいわ、手伝って下さらない？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+お・ね・が・い♪
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター？
+[k]
+
+？1：ともかく戦おう
+？2：ともかく守ろう
+？！
+
+[charaFace A 7]
+＠マシュ
+了解しました。[r]いずれにせよ、立ち向かわなければならない敵です。
+[k]
+
+[charaFace A 2]
+＠マシュ
+では、行きます！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

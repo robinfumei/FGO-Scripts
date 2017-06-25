@@ -1,0 +1,297 @@
+
+
+
+＄01-00-07-20-3-0
+
+[soundStopAll]
+[se ad2]
+[seVolume ad2 0 0.2]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 3028000 1 ジャガーマン]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet F 98107800 1 ラフム]
+[charaSet G 98107800 1 ラフムＢ]
+[charaSet H 98107800 1 ラフムＣ]
+
+[scene 20733]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ラフム、ラフム変化体、増大！[r]ケイオスタイドの濃度も増しています！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠イシュタル
+ティアマト神に近づくほど泥の汚染は強くなるようね！
+[k]
+
+＠イシュタル
+この距離でこの汚染なら、[r]足下はもっと酷いと覚悟しておきなさい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ジャガーマン
+それ以前にラフム！　ラフムが強くなってニャい！？[r]これどう見ても私より強、ぐほぁ！？[charaEffect C bit_talk_14][wt 0.1][se bac11][charaShake C 0.05 3 3 0.4]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+形態進化だけでなく内部の魔術回路も強化されている……[r]一夜明けて、さらに進化したのか……！
+[k]
+
+＠Dr.ロマン
+[%1]君、ティアマト神の様子は！？[r]こちらに気付いたか！？
+[k]
+
+？1：まだ大丈夫……！
+？2：それ以前に追いつけないっ！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[se bac112]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.4]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[wt 0.2]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+[wt 0.4]
+
+＠ラフム
+人間[line 3]
+[k]
+
+[effect bit_talk_41]
+[shake 0.05 3 3 0]
+＠ラフム
+人間人間人間人間人間人間人間人間人間人間人間人間人間[r]人間人間人間人間人間人間人間人間人間人間人間人間人間！
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.3]
+[shakeStop]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠イシュタル
+数が多くて[#捌:さば]けないっ！？[r][%1]、逃げて[line 3]！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+[wt 0.4]
+[se bac112]
+[effect bit_talk_41]
+[cameraMove 0.75 0,0 2.5]
+[wt 0.3]
+[effect bit_talk_arrow01br]
+[wipeout leftUpToRightDown 0.25 0.5]
+[wt 0.2]
+[effectStop bit_talk_41]
+[wt 0.25]
+[scene 10000]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[wipein rightDownToLeftUp 0.1 1]
+[wait wipe]
+[cameraMove 0.1 0,0 1.0]
+[wt 0.2]
+[se bac37]
+[wt 1.0]
+[wipeout rightDownToLeftUp 0.1 1]
+[wait wipe]
+[scene 20733]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 0]
+[charaFadein H 0.1 2]
+[cameraMove 0.1 0,0 3.0]
+[wt 0.1]
+[wipein leftUpToRightDown 0.5 0.5]
+[cameraMove 0.5 0,0 1.0]
+[charaEffect F bit_talk_13]
+[se ad34]
+[shake 0.05 4 6 0.5]
+[charaShake F 0.05 3 3 0.25]
+[charaShake G 0.05 3 3 0.25]
+[charaShake H 0.05 3 3 0.25]
+[wait wipe]
+[wt 1.0]
+
+[se bac112]
+[charaAttack F normal 80,-60 0.4]
+[charaFadeout F 0.4]
+[wt 0.2]
+[charaAttack G normal -176,-60 0.4]
+[charaFadeout G 0.4]
+[wt 0.2]
+[charaAttack H normal 336,-60 0.4]
+[charaFadeout H 0.4]
+[wt 0.4]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+！？　今のは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+ギルス市の投擲部隊！[r]まだ生き残っていたのね！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+で、でも、三十人もいらっしゃいません！[r]あんな数でラフムに手を出したら[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ラフム
+アッチ！　アッチ！[r]面白イ、面白イ！　弱イ生キ物ハ、面白イ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠イシュタル
+っ、だめ、私たちも戻る余裕は[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+ジャガー！　[#攪乱:かくらん]、お願い！[r]他にも最後の抗戦に出ている人間がいるようです！
+[k]
+
+＠ケツァル・コアトル
+アナタの脚を私に見せなさい！[r]できるかぎり、あの方たちを救うのです！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ジャガーマン
+オッケー、任された[line 3]！[r]ククルんの頼みなら万里を駆ける、荒野の美獣ジャガーマン！
+[k]
+
+＠ジャガーマン
+めちゃくちゃ痛いけど、思いっきり暴れて[r]ラフムたちを引きつけるわ！
+[k]
+
+＠ジャガーマン
+[%1]サン、ククルんをお願いねー！[r]その女、いざとなったらめっちゃキレて怖いからー！
+[k]
+
+[messageOff]
+[charaMove C 256,0 0.1]
+[charaFadeout C 0.1]
+[se ad73]
+[wt 1.0]
+
+？1：ありがとう、荒野のジャガーマン！
+？2：それ知ってるから安心してー！
+
+？！
+
+＠ジャガーマン
+ニャハハ、いいって事よー！[r]おーし、虎道とは死ぬ事とみつけたりゃ[line 4]！
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ジャガーマンさん、本隊離脱します……！[r]後は[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 17]
+[charaFadein B 0.1 1]
+＠イシュタル
+私たちで突き進むしかないってワケね！[r]いいわ、燃えてきた！
+[k]
+
+＠イシュタル
+来なさいラフム、つるべ撃ちよ！　何匹こようと[r][%1]には指一本触れさせないわ！
+[k]
+
+
+[messageOff]
+[seStop ad2 0.4]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]

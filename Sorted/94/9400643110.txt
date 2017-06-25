@@ -1,0 +1,449 @@
+＄94-00-64-31-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98102500 1 イリヤ]
+[charaSet C 98103600 1 ルビー]
+[charaSet D 98103200 1 サファイア]
+[charaSet E 5023000 1 エレナ]
+
+[scene 31100]
+
+[cameraMove 0 -150,-100 1.5]
+[wait camera]
+
+[fadein black 2.0]
+[wait fade]
+
+[cameraMove 5.0 150,-100 1.5]
+[wait camera]
+
+[cameraHome 0.5]
+[wait camera]
+
+[se ad60]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠イリヤ
+ハァッ……ハァッ……[r]ここがファースト・レディの領域……！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+[charaShake C 0.07 0 8 1.0]
+＠ルビー
+キラッキラのビカッビカで、なんだか実家に[r]帰ってきたような安心感がありますねー？
+[k]
+
+＠イリヤ
+実家ってなに？[r]ツルツルして走りにくいよー！
+[k]
+
+[charaFace B 6]
+＠イリヤ
+かといって空を飛べば、[r]すぐ使い魔たちに十字砲火されるしぃ！
+[k]
+
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+そうですね～☆[r]地面にチラチラと反射して、[#ＧＪ:ぐっじょぶ]ですよー！？
+[k]
+
+[charaFace B 3]
+＠イリヤ
+ちょ、み、みないでー！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShake D 0.07 0 16 1.0]
+＠サファイア
+イリヤ様、姉さん[line 3]それどころでは。[r]美遊様がお待ちになっているのです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+そ、そうだった！（汗）[r]あれがレディのお城だね！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠エレナ
+城へ近づくにつれ、ステッキたちが[#形態変化:フォームシフト]して……[r]使い魔たちが強化されていく……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ファースト・レディは、我々を近づけさせないように[r]過敏に反応していますね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaShake C 0.07 0 8 1.0]
+＠ルビー
+黒い壁の内側でずーっと隠れんぼしてただけあって[r]恥ずかしがり屋さんなんでしょーか？
+[k]
+
+
+？1：レディは何かを急いで[&いるのでは:いる]……？
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠エレナ
+ええ。我々が宝石を集めきったことと関係がある。[r]そう考えるのが妥当ね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace E 5]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+
+＠マシュ
+四つの宝石の力が黒壁を切り崩したのではなく、[r]レディ自身が壁を解放した……と？
+[k]
+
+[charaFace A 7]
+＠マシュ
+とすれば……レディは隔離した外の空間で、[r]魔法少女を故意に戦わせていたのでしょうか……？
+[k]
+
+[charaFace E 5]
+
+＠エレナ
+[line 3]矛盾だわ。[r]まるで二つの意思がせめぎあっているかのよう。
+[k]
+
+
+[charaFace E 4]
+
+＠エレナ
+……どちらにせよ真意は、[r]レディ本人に問いただしてみるしかないわ。
+[k]
+
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+
+？2：もしやレディは、イリヤと戦いたくないの[&か:かな]……？
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+メッセージの最後にミユも言ってたね。[r]わたしは来ちゃだめだって……。
+[k]
+
+[charaFace B 5]
+＠イリヤ
+すごくイヤな予感がする……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+なーんてイリヤさんたら、[r]もうお解りなんでしょう？　[charaMove C 100,0 0.2][wait charaMove][charaShake C 0.08 0 4 0.4]うりうりー☆
+[k]
+
+[charaFace B 3]
+＠イリヤ
+やめてったら！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_1 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_24 0.1]
+[charaShake D 0.07 0 16 1.0]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠サファイア
+[%1]様！[r]イリヤ様！　敵の待ち伏せです！
+[k]
+
+[charaTalk off]
+
+[messageOff]
+[charaSet D 98103600 1 ？？？]
+[charaSet E 98103600 1 ？？？]
+[charaSet F 98103600 1 ？？？]
+[charaSet G 98103600 1 ？？？]
+[charaSet H 98103600 1 ？？？]
+
+
+[charaFilter D silhouette 00000080]
+[charaFilter E silhouette 00000080]
+[charaFilter F silhouette 00000080]
+[charaFilter G silhouette 00000080]
+[charaFilter H silhouette 00000080]
+
+[charaFadein D 0.1 200,-900]
+[charaFadein E 0.1 -200,-900]
+[charaFadein F 0.1 0,-900]
+[charaFadein G 0.1 -400,-900]
+[charaFadein H 0.1 400,-900]
+
+[se bac1]
+[charaMove D 200,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove E -200,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove F 0,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove G -400,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove H 400,0 0.2]
+[wt 1.0]
+
+[messageOff]
+[se ba1]
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+
+[charaFadeout D 0]
+[charaFadeout E 0]
+[charaFadeout F 0]
+[charaFadeout G 0]
+[charaFadeout H 0]
+
+[charaSet D 98006100 1 ？？？]
+[charaSet E 98006100 1 ？？？]
+[charaSet F 98006100 1 ？？？]
+[charaSet G 98006100 1 ？？？]
+[charaSet H 98006100 1 ？？？]
+
+[charaFadein D 0 5]
+[charaFadein E 0 2]
+[charaFadein F 0 1]
+[charaFadein G 0 0]
+[charaFadein H 0 3]
+
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+[se ad21]
+[wt 1.5]
+
+[messageOff]
+[se ba1]
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+
+[charaFadeout D 0]
+[charaFadeout E 0]
+[charaFadeout F 0]
+[charaFadeout G 0]
+[charaFadeout H 0]
+
+[charaSet G 98103200 1 サファイア]
+[charaSet H 5023000 1 エレナ]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0 1]
+
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+＠イリヤ
+……うっ……こんなにたくさん……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[charaShake G 0.07 0 16 1.0]
+＠サファイア
+申し訳ありません……！[r]軽率に案内した私の不覚です……っ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+くっ……！　ここでの長期戦はまずいです！[r]追っ手に挟み撃ちにされると致命的です！
+[k]
+
+
+？1：っ……先に[&行け:行って][line 3]イリヤ！
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+ややー？　名案です！[r]イリヤさんだけなら、このままパパーっと？
+[k]
+
+[charaFace B 2]
+＠イリヤ
+そんなこと……っ、[r]出来るわけないでしょーっ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ルビー！　サファイアも！[r]わたしに力をちょうだい！
+[k]
+
+[charaFace B 5]
+＠イリヤ
+今はクラスカードが使えないから……っ、[r]相手の弱点を突く戦法が取れない……！
+[k]
+
+[charaFace B 2]
+＠イリヤ
+だから、わたしがここで砲台になって、[r]みんなを先に行かせる！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[charaShake G 0.07 0 16 1.0]
+＠サファイア
+いけませんイリヤ様……！[r]それでは美遊様のもとへ、ご自身がたどり着けません！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター……！？　どうすれば……？
+[k]
+
+
+？1：ここで持久戦[&か！？:？]　でもやるしかない……！
+
+[charaFace A 2]
+＠マシュ
+はい！　細心の注意を払います！
+[k]
+
+
+？2：エレナ、[&きみ:あなた]も戦えるんじゃ……？
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠エレナ
+ただの魔術師で装甲オブラートのあなたの為に[r]防壁を張ってるあたしにそれを言う？
+[k]
+
+
+[charaFace H 4]
+＠エレナ
+でも……さっきの中立地帯での嘘を見抜かれたわね。[r]そ[charaFace H 5]うよ。今は自分の石があるから、ある程度はやれる。
+[k]
+
+[charaFace H 4]
+＠エレナ
+けれど、あたしはあなたのサーヴァントではないの。[r]あくまでも魔法少女の一人としてここにいる。
+[k]
+
+[charaFace H 5]
+＠エレナ
+だから[line 3]見極めさせて貰うわ。
+[k]
+
+？！
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.5]
+[wait fade]
+[soundStopAll]
+[end]

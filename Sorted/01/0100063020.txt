@@ -1,0 +1,1084 @@
+＄01-00-06-30-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 1007002 1 ガウェイン]
+[charaSet B 98081000 1 連合軍兵士]
+[charaSet C 98014000 1 聖都軍兵士]
+[charaSet D 98079000 1 “山の翁”]
+[charaSet H 98014000 1 ？？？]
+
+[imageSet G talk_img_black_gradation 1]
+[wait imageSet G]
+[charaScale G 1.1]
+[charaCutin G upToDown 0.1 0]
+[charaEffect H bit_talk_haboob_02]
+
+[scene 29000]
+
+[se ad14]
+[shake 0.05 0 2 4.0]
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+[seStop ad14 1.0]
+
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠連合軍兵士
+今のを見たか！？[r]聖都に立った光の柱をピラミッドがうち倒した！
+[k]
+
+＠連合軍兵士
+獅子王なんざもう怖くねえぞ！[r]オレたちだってやれば[line 3]ぐわぁ！？
+[k]
+
+[messageOff]
+[se bac95]
+[charaEffect B bit_talk_12]
+[charaShake B 0.05 3 3 0.5]
+[wt 0.5]
+[charaFadeout B 0.4]
+[wt 0.5]
+[se ad144]
+[wt 0.5]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠聖都軍兵士
+思い上がるな賊軍風情が……ッ！[r]王城は健在なり、円卓は健在なり！
+[k]
+
+＠聖都軍兵士
+聖都にはトリスタン卿がおられる！[r]今頃、聖都に入った賊軍どもは処断されていよう！
+[k]
+
+＠聖都軍兵士
+この砂嵐さえ過ぎ去れば我らが優勢となる！[r]後は正門のガウェイン卿さえ持ち直されれば……！
+[k]
+
+[se bas1]
+[messageOff]
+[maskout black 0.5]
+[wait mask]
+
+[charaFadeout C 0]
+
+[scene 28902]
+
+[maskin black 0.5]
+[wait mask]
+
+[se ad33]
+[wait se ad33]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+ふ、はぁ[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+[line 6]
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[charaDepth G 0]
+[charaDepth A 2]
+[charaDepth D 3]
+
+[se ad85]
+[charaEffect B bit_talk_42]
+[wt 0.2]
+[charaMove D 900,0 0.3]
+[wait charaMove]
+
+[charaFadein A 0 -900,0]
+[charaMove D 200,0 0.3]
+[charaMove A -200,0 0.3]
+[wait charaMove]
+[charaEffectStop B bit_talk_42]
+[charaPut B 1200,1200]
+
+[shake 0.05 0 4 1.3]
+[se ad33]
+[fowardEffect bit_talk_14]
+[wt 0.4]
+[fowardEffect bit_talk_14]
+[wt 0.4]
+[fowardEffect bit_talk_14]
+[wt 0.5]
+
+[se ad85]
+[charaMove A 900,0 0.3]
+[charaMove D -900,0 0.3]
+[wait charaMove]
+
+[charaFadeout D 0]
+[charaFadeout A 0]
+[wt 0.5]
+[charaTalk on]
+
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+（打ち合いをはじめて既に一時間[line 3][r]　一向に衰えを見せないとは……！）
+[k]
+
+＠ガウェイン
+（だが剣筋には慣れてきました。[r]　この剣士とて不死身ではない。必ず隙がある……！）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+[line 3]ここまでだ。[r]晩鐘は過ぎ去った。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[se ad2]
+[wt 0.5]
+[seStop ad2 1.0]
+[charaFadeout G 1.0]
+[charaEffectStop H bit_talk_haboob_02]
+[charaMove H 0,-300 2.0]
+[wt 1.0]
+
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+嵐が……止んだ？[r]いや、止めたのか……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+もはや砂塵は不要。[r]中天を我が衣で覆う必要なし。
+[k]
+
+＠“山の翁”
+この白日は獅子王の罪を照らすもの。[r]晩鐘は聖都へと移り行くであろう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+おごったな……！[r]太陽の光が戻れば、我が聖剣に敵は無い……！
+[k]
+
+
+[messageOff]
+
+
+[charaPut C 0,1100]
+[charaScale C 5.0]
+
+
+[voice NP_100100_4]
+[wt 0.3]
+[cameraMove 0.1 0,0 1.2]
+[charaEffect C bit_talk_12]
+[charaEffect C bit_talk_13]
+[wt 0.1]
+[shake 0.05 0 4 0.4]
+[wt 0.4]
+[voiceStop NP_100100_4 0.2]
+[wait camera]
+
+[charaFadeout A 0.1]
+[cameraHome 0.2]
+[wt 0.2]
+[wait camera]
+
+[bgmStop BGM_EVENT_3 0.1]
+[se ad32]
+[fowardEffect bit_talk_14]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 1.5]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠“山の翁”
+無論、驕るであろうよ。[r]目覚ましにもならぬ光であれば。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+なんとぉ……！？
+[k]
+
+[charaFace A 5]
+＠ガウェイン
+ガラティーンを[line 3]砂塵から解放され、[r]中天にある私のガラティーンすら流すのか、貴公は！？
+[k]
+
+＠ガウェイン
+（……目が曇っていたのは私の方だ。[r]　この剣士の力は、獅子王に匹敵する……！）
+[k]
+
+[charaFace A 5]
+＠ガウェイン
+……何故です。[r]何故、砂嵐を止めたのです。
+[k]
+
+＠ガウェイン
+いえ、これだけの力を持ちながら、[r]何故いままで沈黙していたのです……！
+[k]
+
+＠ガウェイン
+貴公ならば獅子王を倒す事も不可能ではない。[r]貴公が山の翁であれば、半年前[line 3]
+[k]
+
+＠ガウェイン
+我々が聖都を築いた時に、[r]その行いを止められたでしょうに……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+否。[r]我が剣は天命を[#誤:あやま]つ者のみに向けられる。
+[k]
+
+＠“山の翁”
+獅子王の天命は我にあらず、あの者たちである。[r]なれば我が剣、不要なり。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+天命を……[#誤:あやま]つ者……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+太陽の騎士よ。汝はその剣で自らの潔白を証明した。[r]晩鐘が遠く過ぎ去ったのがその証。
+[k]
+
+＠“山の翁”
+[line 3]汝の天命はあの城に移った。[r]騎士たらんとするのならば急ぐがよい。
+[k]
+
+＠“山の翁”
+汝の最後にして唯一の[#澱:よど]み。[r]告解の機会が、聖槍に呑まれる前に。
+[k]
+
+[messageOff]
+[se ad42]
+[charaSpecialEffect D erasure 1 1.5]
+[wt 2.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+待て、待ちなさい……！[r]勝負はまだ……！
+[k]
+
+[charaFace A 5]
+＠ガウェイン
+……消えた。見逃されたのか……[r]いや、あの御仁にそのような情けはない。
+[k]
+
+＠ガウェイン
+私たちにはより残酷な結末がある、と……[r]あの黒洞は語っていた……
+[k]
+
+[charaScale C 1.0]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad60]
+[charaTalk C]
+[charaFadein C 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠聖都軍兵士
+ガウェイン卿、ご無事で……！[r]敵の首魁との一騎打ち、お見事でございました！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+敵の首魁……？[r]そうか。諸君らにはそう見えたか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠聖都軍兵士
+違うのですか？[r]見ているだけで寒気のする、凄まじい騎士でしたが……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+ああ、その通りだ。[r]あれほどの騎士と[#鎬:しのぎ]を削る日が来ようとは。
+[k]
+
+＠ガウェイン
+私はついているよ。[r]他の円卓たちに、少々悪いと思うほどだ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠聖都軍兵士
+はは。しかし、それほどの騎士ですら[r]ガウェイン卿は追い返しました。
+[k]
+
+＠聖都軍兵士
+貴方こそ我らの誇り。[r]どうか、この正門の変わらぬ守護者であってください。
+[k]
+
+＠聖都軍兵士
+聖都に侵攻した賊軍の押さえは我々が。[r]ガウェイン卿はここでしばし休息を。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠ガウェイン
+……いや。悪いが、それは反対だ。[r]私は王城に戻る。正門は諸君らに任せた。
+[k]
+
+＠ガウェイン
+戦いの趨勢はあと半刻ほどで決まるだろう。[r]もし王城に火の手があがったのなら[line 3]
+[k]
+
+＠ガウェイン
+諸君らは兵をまとめ、北を目指せ。[r]辿り着く事は困難だろうが[line 3]
+[k]
+
+[charaFace A 0]
+＠ガウェイン
+どうか、一人でも多く故郷に帰らん事を。
+[k]
+
+＠ガウェイン
+この遠征は、はじめから勝利無きものだった。[r]それに今までよく付き合ってくれた。
+[k]
+
+＠聖都軍兵士
+ガウェイン卿……
+[k]
+
+[charaFace A 2]
+＠ガウェイン
+無論、私もこのまま敗北する気はない。[r]王城ではまだ円卓の同胞が戦っている。
+[k]
+
+＠ガウェイン
+では[line 3]円卓の騎士ガウェイン、参る！[r]その最期まで、我らが王の剣となる為に！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 1020000 1 ランスロット]
+[charaSet F 2008000 1 トリスタン]
+[scene 29802]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+
+？1：光の壁が……
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……はい、確かに砕け散りました……[r]私もいよいよおかしくなったのでしょうか……
+[k]
+
+[charaFace C 4]
+＠ベディヴィエール
+空から、ピラミッドが降ってきたように[r]見えたのですが……
+[k]
+
+[charaFadeout C 0.1]
+
+？2：空からピラミッドが……
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+降ってきました……[r]しかも黄金に輝きながら……
+[k]
+
+＠マシュ
+今のもオジマンディアス王の支援、[r]だったのでしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+ああ、とんでもない力技だ！[r]万策尽きたと言ったね、あれは忘れてくれ！
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチ
+何にせよ最果ての塔は砕け散った。[r]今のは聖都軍にとっても致命傷だ。
+[k]
+
+＠ダ・ヴィンチ
+精神的支柱を叩き折られたようなものだからね。[r]今なら降伏勧告を聞く兵士もいるだろう！
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+[line 3]いや。兵隊はそうかもしれないが、[r]本丸はそうでもないよ。
+[k]
+
+＠Dr.ロマン
+時代を狭めようとする重力変動は止まっていない。[r]獅子王の聖槍はいまだ健在だ。
+[k]
+
+＠Dr.ロマン
+今のは聖槍の[#鞘:がわ]のようなものだろう。[r]獅子王がいるかぎり、人理崩壊は止まらない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+急ぎましょう、先輩！[r]この城下町エリアを抜ければ王城です！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[seLoop ad84]
+[wt 2.0]
+
+[seStop ad84]
+[se ad83]
+[wt 1.0]
+
+[se ad60]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠ランスロット
+[%1]殿！　ベディヴィエール卿！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+サー・ランスロット！[r]今さらノコノコお疲れ様です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+[se bac95]
+[charaShake E 0.05 3 3 0.5]
+
+＠ランスロット
+とぅわ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マシュ
+すみません、間違えました！[r]わざわざここまでお疲れ様、です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace A 3]
+[charaFace C 3]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠ベディヴィエール
+（レディ、あまり変わってません、[r]　言葉の強さが変わっていません！）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+まあまあ。ランスロット卿がこちらに来た、[r]という事は聖都前の戦いはほぼ決まったのかい？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace B 0]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ランスロット
+無論。連合軍の優勢はもう覆せない。[r]城壁の弓兵たちも多くが降伏している。
+[k]
+
+＠ランスロット
+彼らは直接、先ほどの光景を見たからな。[r]戦意を失ったのだろう。
+[k]
+
+＠ランスロット
+……もっとも大きいのはガウェイン卿の不在だが。[r]卿は王城に戻ったようだ。
+[k]
+
+＠ダ・ヴィンチ
+そうか。ではガウェイン卿が戻る前に、[r]獅子王と対面をしなくてはね。
+[k]
+
+＠ダ・ヴィンチ
+ランスロット卿は？[r]我々に同行するかい？
+[k]
+
+[charaFace E 5]
+＠ランスロット
+……いや。私はアグラヴェインを探す。[r]ヤツを野放しにしておくのは危険だ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……アグラヴェイン卿を、ですか。
+[k]
+
+＠ベディヴィエール
+獅子王の円卓となっても、[r]彼は相変わらずそういった人なのですね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ランスロット
+……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+オーケー、それじゃあまた別行動だ。[r]私たちは正面から王城まで一直線。
+[k]
+
+＠ダ・ヴィンチ
+ランスロット卿は裏手から回るんだろう？[r]悪代官がこっそり逃げ出すような道からさ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠ランスロット
+ええ、こちらには馬がありますので。
+[k]
+
+＠ランスロット
+我々は先行してアグラヴェインを捕らえます。[r]獅子王の玉座で合流といきましょう！
+[k]
+
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.2]
+[se ad83]
+[wt 1.0]
+[seLoop ad84]
+[wt 2.0]
+[seStop ad84 1.0]
+
+[bgmStop BGM_EVENT_2 2.0]
+[maskout black 2.0]
+[wait mask]
+
+
+[scene 29802]
+
+[shake 0.05 0 4 3.0]
+[charaEffect D bit_talk_41]
+
+[bgm BGM_EVENT_5 2.0]
+[maskin black 1.0]
+[cameraMove 3.0 0,0 1.2]
+[wt 0.5]
+[se ad59]
+[wait mask]
+
+[wt 1.5]
+[seStop ad59]
+[wait camera]
+[charaPut D 1200,1200]
+[charaEffectStop D bit_talk_41]
+
+[cameraHome 0.1]
+[wait camera]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あちこちで火の手が上がっています……！[r]聖都陥落は目前のようです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+ああ、建物に火を放つのはどうかと思うけど、[r]こればかりは戦の常道というヤツだ！
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチ
+ところでベディヴィエール卿。[r]先ほどアグラヴェイン卿におかしな評価をしていたね？
+[k]
+
+＠ダ・ヴィンチ
+あれは何かな？[r]ダ・ヴィンチちゃん的にとても気になるのだが！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……いえ。アグラヴェイン卿は以前の円卓でも、[r]騎士たちに嫌悪と恐怖を抱かせていました。
+[k]
+
+＠ベディヴィエール
+今回もそうなのだな、と。[r]そう確認しただけです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+ふーん。その心は？　アグラヴェインは[r]みんなに嫌われるほどの悪党、でいいのかい？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+まさか。補佐官殿が悪党であったのなら、[r]キャメロットは立ち行かなかったでしょう。
+[k]
+
+[charaFace C 0]
+＠ベディヴィエール
+……アグラヴェイン卿はなぜか、[r]人に好かれようとしないのです。
+[k]
+
+＠ベディヴィエール
+その結果、周囲から冷血な人間と見られたのです。
+[k]
+
+＠ベディヴィエール
+卿とは血縁にあったガウェイン卿、ガヘレス卿、[r]ガレスちゃんですら、補佐官殿を誤解していた程に。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+え、ちょっと待って。ちょっと待って。[r]いま何か、さらっと凄いフレーズ混じってなかった！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+はーい独身男は黙っててねー。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチ
+……でも、キミはアグラヴェイン卿をそう見なかった。[r]それは、どうして？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……いえ、私も補佐官殿を嫌悪していたのです。[r]ですが後になって気がつきました。
+[k]
+
+＠ベディヴィエール
+円卓の崩壊、キャメロットの没落は[r]アグラヴェイン卿が亡くなってから始まった。
+[k]
+
+[charaFace C 0]
+＠ベディヴィエール
+彼は王に必要な人物だったのです。[r]ともすれば、宮廷魔術師マーリンよりも。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………あの。実は、ですね。[r]わたしもベディヴィエールさんと同意見です。
+[k]
+
+＠マシュ
+砦でアグラヴェイン卿と対峙した時、[r]わたしはホッとしていました。
+[k]
+
+＠マシュ
+“この人がいるなら王は大丈夫だ”と。[r]まるで、この[#霊基:からだ]が覚えているように。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+ギャラハッドは円卓一のてんね、いえ、人格者。[r]人を見る目にかけては随一です。
+[k]
+
+＠ベディヴィエール
+その彼がアグラヴェイン卿を信頼していたのなら、[r]やはり彼にも[#一角:ひとかど]の正義が[charaFace C 2][line 3]危ない！
+[k]
+
+[messageOff]
+[se ad152]
+[bgmStop BGM_EVENT_5 0.1]
+
+
+[charaPut H -400,-200]
+[charaEffect H bit_talk_arrow01bl]
+[wt 1.5]
+
+
+[se ad32]
+[fowardEffect bit_talk_14]
+[charaShake C 0.05 3 3 0.5]
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠ベディヴィエール
+この音断ちの矢はトリスタン卿……！[r]どこです、姿を見せなさい！
+[k]
+
+
+[messageOff]
+[se ad32]
+[fowardEffect bit_talk_14]
+[charaShake C 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+前方、右側の建物の屋根だ！[r]煙突の陰に魔力反応がある……！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+＠トリスタン
+……なんと悲しい。[r]あと十歩で全員を輪切りにする間合いだったのですが。
+[k]
+
+＠トリスタン
+ベディヴィエール卿のあまりの暴言につい気が立ち、[r]一息早く指が走ってしまうとは。
+[k]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠トリスタン
+……いやはや。失言すら幸運に繋がるとは、[r]さすがはベディヴィエール卿。
+[k]
+
+＠トリスタン
+その徳の高さ、私も授かりたいものです。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[scene 29802]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0 1]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+
+＠トリスタン
+……私が思うに。[r]運命とは死に神のようなもの。
+[k]
+
+＠トリスタン
+これを追い抜く者には幾ばくかの猶予が与えられ、[r]これに追いつかれた者は、志半ばに命を終える。
+[k]
+
+＠トリスタン
+貴方がたはその運命を一度は追い抜いた。[r]あのみすぼらしい村で。
+[k]
+
+[charaFace F 1]
+＠トリスタン
+それをもう一度見せてもらいましょう。[r]この私を相手に。貴方がたの、最後のあがきを。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……トリスタン。[r]貴方に語りかける言葉はもうない。
+[k]
+
+＠ベディヴィエール
+あの村で私の知るトリスタン卿は消えた。[r]いかに未熟であれ、私は騎士王の騎士。
+[k]
+
+[charaFace C 2]
+＠ベディヴィエール
+獅子王の騎士である貴方に、[r]遅れを取る訳にはいかない！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠トリスタン
+……そうでしょうとも。[r]ようやく、その心境に至りましたか。
+[k]
+
+＠トリスタン
+始めから貴方の知る円卓などこの地にはいなかった。[r]私たちは獅子、獣の心を持つ悪鬼。
+[k]
+
+＠トリスタン
+貴方がたを惨殺し、この時代を踏み台にし、[r]自分たちのみが生き残る事をいとわない。
+[k]
+
+＠トリスタン
+申し訳ありませんが、今の私にはそれだけなのです。[r]ですので、そろそろ幕引きといきましょう。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.1]
+[se ad152]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+来ます！[r][%1]、レディ、構えて！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい！　敵は円卓の騎士、トリスタン！[r]多くの命を奪ったその妖弦、今こそ断ちます！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

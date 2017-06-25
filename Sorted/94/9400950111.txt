@@ -1,0 +1,332 @@
+
+＄94-00-95-01-1-1
+
+[charaSet A 1017001 1 武蔵]
+[charaSet C 98075000 1 鬼壱]
+[charaSet D 98075000 1 鬼弐]
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[scene 28100]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.1 256,-20]
+[charaFadein D 0.1 -256,-20]
+
+[wt 0.1]
+[effect bit_talk_Slash_red_01]
+[se bac136]
+[wt 0.2]
+[effect bit_talk_13]
+[charaShake C 0.05 0 4 0.7]
+[charaShake D 0.05 0 4 0.7]
+[wt 1.0]
+
+[effectStop bit_talk_Slash_red_01]
+
+[charaMove D -256,0 0.1]
+[wait charaMove D]
+[charaMove D -256,-20 0.1]
+[wait charaMove D]
+＠鬼弐
+[messageShake 0.05 2 2 0.7]
+ひぃいいいい[line 3]！[r]なんだこの人間、超つぇえええええ！
+[k]
+
+[effectStop bit_talk_13]
+
+[charaTalk C]
+[charaMove C 224,-20 0.7]
+＠鬼壱
+むう、荒々しいようで型を崩さない二刀の姿勢[line 3][r]地水火風、あらゆる状況に対応する柔軟な生存能力[line 3]
+[k]
+
+[charaMove C 224,0 0.1]
+[wait charaMove C]
+[charaMove C 224,-20 0.1]
+[wait charaMove C]
+＠鬼壱
+この女……もしや[line 3][r]吉岡[#門弟:もんてい]、[#鏖:みなごろし]と名高い宮本武蔵！
+[k]
+
+[charaShake D 0.05 0 4 0.7]
+＠鬼弐
+[messageShake 0.05 4 4 0.7]
+なにぃぃい！？[r]知っているのか相棒！？
+[k]
+
+[charaTalk C]
+[charaMove C 224,-30 0.1]
+[wait charaMove C]
+[charaMove C 224,-20 0.1]
+[wait charaMove C]
+＠鬼壱
+然り。オレもかつては剣に生きた鬼、[r]有名どころの剣豪はすべて押さえている。
+[k]
+
+＠鬼壱
+この女、間違いない。宮本武蔵だ！[wt 0.3][charaShake D 0.05 4 4 0.7][r]いや、しかし……女……女、だと……？
+[k]
+
+？1：宮本武蔵……！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠武蔵
+……んー、そうみたいね。[r]確かにしっくりくる呼び名だわ。
+[k]
+
+[charaFace A 0]
+＠武蔵
+ところで[%1][&君:]、私の事知ってるの？[r]宮本武蔵って名前、有名だったりする？
+[k]
+
+？2：武蔵さん、というらしいですね？
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠武蔵
+ええ、私もそう呼ばれて違和感はないし、[r]私は宮本武蔵なのでしょう。
+[k]
+
+[charaFace A 1]
+＠武蔵
+その武蔵とやらがどんな人物か思い出せないけど……[r]まあ、私ならろくでもないヤツに違いないわね！
+[k]
+
+？！
+
+[charaFace A 5]
+＠武蔵
+ともあれ勝負の途中だったわ。[r]そこな鬼。名前を教えてくれた事は感謝します。
+[k]
+
+[messageOff]
+
+
+[se ad57]
+[seStop ad57 0.4]
+[charaMoveReturn A 0,-20 0.5]
+[charaScale A 1.2]
+[wt 1.2]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaScale C 0.9]
+[charaScale D 0.9]
+[charaDepth D 1]
+[charaDepth C 2]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein C 0.1 128,-64]
+[charaFadein D 0.1 -128,-64]
+
+
+＠鬼弐
+[messageShake 0.05 4 4 1.0]
+ひぃいい！　アレが武蔵なら勝てっこねぇ！[r]悪いな[#助六:すけろく]、オレのために死ねぇ！
+[k]
+
+[charaTalk off]
+
+
+[charaMove D 0,-64 0.1]
+[wait charaMove D]
+[se bac8]
+[charaShake C 0.05 4 0 1.0]
+[charaScale C 1.0]
+[charaMove C 128,0 0.1]
+[wait charaMove C]
+[charaMove D -1024,-64 0.2]
+[charaFadeout D 0.7]
+[se ad55]
+[wait charaMove D]
+[wt 0.1]
+
+
+[seStop ad55 2.0]
+[charaTalk on]
+
+＠鬼壱
+[messageShake 0.05 7 7 0.7]
+うわあ、押すな、突き出すなぁ！[r]鬼か貴様！　いや鬼だった！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk A]
+[charaFace A 5]
+[charaScale A 1.5]
+[charaFadein A 0.7 1]
+[wt 1.0]
+[se bac206]
+[wait se bac206]
+[wt 0.4]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 4 0 1.0]
+＠鬼壱
+ぬぅうううううう[line 4]！[r]オレもここまでか[line 6]！
+[k]
+
+[charaTalk off]
+
+[bgmStop BGM_EVENT_3 2.0]
+
+[effect bit_talk_Slash_red_02]
+[se bac23]
+[wt 0.5]
+
+[charaTalk on]
+
+[charaTalk C]
+[charaFace C 0]
+[charaShake C 0.05 4 0 1.0]
+[messageOff]
+[wt 2.0]
+＠鬼壱
+……む？[r]死んではおらぬ？　生きている……？
+[k]
+
+[effectStop bit_talk_Slash_red_02]
+
+[charaShake C 0.05 2 0 1.0]
+＠鬼壱
+立ち合ったもの全てを斬殺したという[r]武蔵が、オレを見逃したというのか……？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk A]
+[charaFace A 0]
+[charaScale A 1.0]
+[charaFadein A 0.7 1]
+[wt 1.0]
+
+[se bac206]
+[seVolume bac206 0 0.5]
+
+[charaFace A 0]
+＠武蔵
+どこの話よ、それ。
+[k]
+
+[bgm BGM_EVENT_7 0.4]
+
+＠武蔵
+そりゃあ今の私はちょっと記憶があやふやだけど、[r]戦意のない相手を斬りつけたりしないわ。
+[k]
+
+＠武蔵
+[#戦:いくさ]じゃあるまいし、[r]立ち合いで命を取り合うなんて野蛮でしょう？
+[k]
+
+[charaFace A 1]
+＠武蔵
+脅して相手が逃げてくれるのなら[r]これ以上はない勝利よ。
+[k]
+
+＠武蔵
+私が欲しいのはお金と名声であって、[r]相手の命なんて貰っても、恨みが[#募:つの]るだけだもの。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.7 0]
+[charaShake C 0.05 4 0 1.4]
+[wt 1.0]
+＠鬼壱
+そ、そうなのか……？[r]しかし、そのわりには太刀筋はすべて必殺だったが……
+[k]
+
+[charaFace A 5]
+＠武蔵
+そこは当然です。[r]加減をする為に剣を[#練:ね]っている訳ではありませんから。
+[k]
+
+[charaFace A 0]
+＠武蔵
+でも、だからといって[#屍山血河:しざんけつが]の道行きにはならないわ。[r]振り下ろした刀を止める事ができて一人前。
+[k]
+
+＠武蔵
+私は無益な戦いはしない主義です。[r]だから、そうね。
+[k]
+
+＠武蔵
+貴方の首に懸賞金がかけられているなら、その益を[r]得る為に首を貰います。でもそうじゃないんでしょ？
+[k]
+
+＠武蔵
+お金を持っているようにも、[r]お金をかけられているようにも見えないもの、貴方。
+[k]
+
+[charaFace A 3]
+＠武蔵
+なら、罪を憎んで鬼を憎まず！[r]運が良かったと思って、私の事は忘れるよーに！
+[k]
+
+＠鬼壱
+[line 6]。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+さて。名前も分かったし、改めてご挨拶っと。[r]私はどうやら宮本武蔵！　みたいね！
+[k]
+
+＠武蔵
+よろしく、[%1][&君:]！[r]とりあえず、あの峠に見える茶屋に行きましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 0.4]
+[wait fade]
+[soundStopAll]
+[end]

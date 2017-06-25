@@ -1,0 +1,809 @@
+＄94-00-45-15-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 4014001 1 牛若丸]
+[charaSet D 6019000 1 風魔小太郎]
+[charaSet E 4023001 1 坂田金時]
+[charaSet F 98076000 1 弁慶]
+[charaSet G 7023001 1 源頼光]
+[charaSet H 98002000 1 フォウ]
+
+[scene 28000]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+
+[se ad61]
+[seStop ad61 3.0]
+[backEffect bit_talk_lightning_02g]
+[wt 1]
+[charaEffect E bit_talk_36]
+[se ad62]
+[wt 1.6]
+
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[wait flash]
+[seStop ad62 0.1]
+
+[charaFadeout E 0.1]
+
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+[wt 0.5]
+
+[fadeout white 0.5]
+[se ad63]
+[charaEffectStop E bit_talk_36]
+[backEffectStop bit_talk_lightning_02g]
+[wait effect]
+[wait fade]
+
+
+
+[bgmStop BGM_EVENT_3 2.0]
+[wt 2.0]
+
+[charaTalk G]
+[charaFace G 4]
+
+[fadein white 1.0]
+
+[bgm BGM_EVENT_1 0.7]
+
+[wait fade]
+
+
+
+＠丑御前
+きん、とき。どう……して……？
+[k]
+
+[messageOff]
+
+
+[charaSpecialEffect G erasure 1 0.7]
+[wt 0.3]
+[se ad58]
+[seStop ad58 0.7]
+
+[wait charaSpecialEffect G erasure]
+
+
+
+[charaFadeout G 0.1]
+
+[wt 0.8]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+や……やり、ました。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+鬼気が……消えていきます。
+[k]
+
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.3]
+
+[bgm BGM_EVENT_6 0.1]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+[charaFace F 0]
+[charaFadein F 0.1 0]
+
+＠牛若丸
+勝った、の、ですか。
+[k]
+
+[charaTalk F]
+
+＠弁慶
+南無……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+…………。
+[k]
+
+？1：……よかったの？
+？2：辛いことをさせちゃったかな……
+？！
+
+[charaFace E 1]
+
+＠坂田金時
+……もちろんさ。[r]ヘヘッ、いい大将だなアンタ！
+[k]
+
+[charaFace E 7]
+
+＠坂田金時
+んでもって気遣いは無用だぜ。[r]なにしろコイツは、オレが[#前にもやった]ことだ。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+……金時さん。[r]それではやはり、丑御前の退治というのは……
+[k]
+
+[charaTalk E]
+
+＠坂田金時
+ああ。ようは意識をブッ飛ばせばいい。
+[k]
+
+＠坂田金時
+丑御前も大将も同じ人間だ。[r]切り離す、なんざ初めから無理なんだよ。
+[k]
+
+＠坂田金時
+だからオレは、昔[line 2]
+[k]
+
+＠坂田金時
+大将と、大将が切り離そうとした[r]丑御前の戦いに割り込んだ。
+[k]
+
+＠坂田金時
+……自分を殺そうとする頼光サンを打ちのめしてな。[r]んなバカな事だけは止めてくれ、ってよ。
+[k]
+
+＠坂田金時
+みっともなく泣きながら、土下座して頼んだ。[r]あの時の状況は今回より酷かったが[line 3]
+[k]
+
+＠坂田金時
+丑御前の方が折れてくれてよ。[r]自分からオレっちの雷撃を受けて、気絶しやがった。
+[k]
+
+[charaFace E 0]
+
+＠坂田金時
+文字通り[#失神]ってヤツさ。[r]それ以来、丑御前は出てこなかった。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+……では今回は？[r]目を覚ました頼光が丑御前でない保証はないんだね？
+[k]
+
+[charaTalk E]
+[charaFace E 7]
+
+＠坂田金時
+おう。後は結果を見るだけだ。だがまあ、[r]こんなのは運試しでもなけりゃあ賭けでもねえ。
+[k]
+
+＠坂田金時
+丑御前ってのは、アレだ。[r]源頼光の神気が溜まりすぎて出てきちまうモンだ。
+[k]
+
+＠坂田金時
+さっき、派手に発散しただろ？　あれだけ暴れりゃあ[r]さすがの牛頭天王も精根尽き果てるってなもん[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠源頼光
+ううん……私、は。[r]いったい……。
+[k]
+
+[charaTalk E]
+
+＠坂田金時
+ほら見ろ。鬼の影も形もねえ。[r]よぅ、起きたかよ大将。
+[k]
+
+[charaTalk G]
+[charaFace G 1]
+
+＠源頼光
+まあ、金時ではないですか！[r]久しぶりですが、元気そうですね。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+久しぶり……？　[r]金時くん、彼女はもしや……
+[k]
+
+[charaTalk E]
+
+
+
+＠坂田金時
+（そりゃあ丑御前の時の事なんざ覚えてねえよ！[r]　言うなよな！　本人、すっげえ落ち込むんだから！）
+[k]
+
+[charaTalk G]
+[charaFace G 3]
+
+＠源頼光
+……いいえ。[r]どうやらご迷惑をおかけしたようですね……
+[k]
+
+＠源頼光
+金時、そしてお集まりの皆様がた。[r]記憶はありませんが、この状況を見れば事は明白。
+[k]
+
+＠源頼光
+……私のいたらぬ弱さ、はしたない本性が、[r]皆様に害をなしたものと存じます。
+[k]
+
+＠源頼光
+謝って許される事ではありませんが、この通り。[r]どうか、お許しくださいませ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+
+＠牛若丸
+ななな……顔をお上げくだされ、頼光殿！
+[k]
+
+＠牛若丸
+貴方にそのような事をされては我ら日の本の武士、[r]畏れ多すぎて息ができませぬ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+
+[charaFace C 4]
+[charaFadein C 0.1 2]
+
+＠源頼光
+まあ、可愛らしい出で立ちですのね。[r]貴方は……もしや、源の？
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+
+＠牛若丸
+はい。故あって幼名で通していますが、[r]頼光様にゆかりのものでございます。
+[k]
+
+[charaTalk G]
+[charaFace G 0]
+
+＠源頼光
+それは……なんと恵まれた縁なのでしょう。[r]私の乱心を、源氏の武士が治めてくださるとは。
+[k]
+
+[charaFace G 5]
+
+
+
+
+＠源頼光
+……私、恥じ入るばかりです……[r]先達として、立派なところを見せなくてはいけないのに……
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+
+[charaFace D 3]
+[charaFadein D 0.1 2]
+
+＠弁慶
+いえ、何を仰る。たとえ乱心なされていたとしても、[r]頼光殿の武勇、我ら心より感服いたした。
+[k]
+
+[charaTalk D]
+
+＠風魔小太郎
+ど、同感です……その凛とした立ち振る舞い、[r]後光を放つかの如き正座……
+[k]
+
+＠風魔小太郎
+先ほどの頼光様とは別人である事は、[r]僕らにも分かりますので……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+
+＠源頼光
+皆さん……私のようなものに、こんなに優しく……[r]金時は良いお友達に恵まれているのですね。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+なんだこの溢れる母性は……モニター越しでも[r]つい姿勢を正してしまうというか……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい……わたしは知りませんが、[r]その、母親の空気とはこういうものなのですね……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+おう。包容力ってーの？[r]頼光サンの和み力はハンパねぇんだよ。
+[k]
+
+[charaFace E 0]
+
+＠坂田金時
+どんな荒くれ者もつい正座して話を聞いちまうって[r]いうか……ま、菩薩サマってヤツだな。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+なるほど、これが源頼光の本当の顔なのか。[r]四天王を束ねるは武の力にあらず、和の力だった訳だ！
+[k]
+
+[charaTalk E]
+[charaFace E 7]
+
+＠坂田金時
+（いや、そこは武の力なんだけどな？）
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠源頼光
+本当に……この母が至らないばかりに。[r]金時、すみませんでしたね。
+[k]
+
+[charaTalk E]
+
+＠坂田金時
+オレっちに謝んなよ。オレはただの猿役だっつーの。[r]今回の主役はこっちの大将だ。
+[k]
+
+[charaTalk G]
+[charaFace G 1]
+
+＠源頼光
+まあ、つまり桃太郎ですね！[r]お名前は……[%1]さんと仰るのですか。
+[k]
+
+＠源頼光
+人の身でよくこのような冒険を……[r]この度は本当に、申し訳ない事をいたしました。
+[k]
+
+？1：お気になさらず。誰にでもあります
+
+[charaFace G 3]
+
+＠源頼光
+まあ……誰にでもある、なんて……。[r]あの日の金時と同じことを[line 3]
+[k]
+
+[charaFace G 0]
+
+＠源頼光
+お優しく、そして強いのですね。[r][%1]さん……ふふ。お名前、確かに。
+[k]
+
+？2：ハグしてくれたら許します
+
+[charaFace G 0]
+
+＠源頼光
+はぐ……抱擁、でしょうか。[r]勿論、構いませんが。
+[k]
+
+
+[charaTalk A]
+
+
+＠マシュ
+マスター？　冗談ですよね？　そうですよね？
+[k]
+
+
+[charaSet H 98002000 1 フォウ]
+
+
+[charaTalk H]
+
+＠フォウ
+フォウ。
+[k]
+
+？！
+
+[charaTalk A]
+
+＠マシュ
+あ……。
+[k]
+
+[effect bit_talk_06]
+
+[charaTalk G]
+[charaFace G 0]
+
+
+＠源頼光
+ああ。どうやら、ここでの私の役目は終わりのようです。[r]ですが、私は決して忘れません。
+[k]
+
+＠源頼光
+この源頼光、源氏の棟梁として、一人の武士として、[r][&貴方:貴女]に受けた恩は必ず返すと約束しましょう。
+[k]
+
+＠源頼光
+次に[#見:まみ]えた時、私は[&貴方:貴女]の刃です。
+[k]
+
+[charaFace G 3]
+
+＠源頼光
+どうぞ、私を一サーヴァントとして自由にお使いください。[r]いかなるご用命にも従いましょう。
+[k]
+
+？1：じゃあハグを……
+？！
+
+[charaTalk A]
+
+＠マシュ
+マスター！？
+[k]
+
+[charaTalk G]
+[charaFace G 1]
+
+＠源頼光
+ふふ。勿論、構いませんとも。[r]求めるのならば、母のように。
+[k]
+
+＠源頼光
+[&貴方:貴女]を抱擁すると約束いたしますよ。
+[k]
+
+
+[messageOff]
+
+[effectStop bit_talk_06]
+
+[se ad52]
+[charaSpecialEffect G flashErasure 0 0 1]
+[wait charaSpecialEffect G]
+[charaFadeout G 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.7]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+行ってしまわれましたね。[r]同じ源として、話したい事は山ほどあったのですが。
+[k]
+
+[charaFace C 3]
+
+＠牛若丸
+……もっとも、私のような田舎者の相手を[r]してくださるとは限りませんが……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+ん？　そこは心配いらないジャン？[r]頼光サンはむしろ、田舎者に甘い方だぜ？
+[k]
+
+＠坂田金時
+あと源氏だし、ちびっこいしよ。[r]次に会ったらいくらでも相手してくれるさ。
+[k]
+
+[charaTalk C]
+
+＠牛若丸
+そうなのですか？　であれば嬉しいです！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠弁慶
+（……金時殿に近付く悪い虫と判断したなら、それが誰で[r]あれ笑顔で刀を抜いてきそうな気配があるのですが……）
+[k]
+
+＠弁慶
+（拙僧の気のせいであらんことを。南無……）
+[k]
+
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut B 0,0]
+
+[charaEffect B bit_talk_06]
+
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[charaTalk B]
+
+＠Dr.ロマン
+そうかあ、ハグかあ、いいなぁ……[r]って、小太郎くんもだ！？
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠風魔小太郎
+鬼ヶ島が引き寄せた、鬼の因子を持つ英霊……[r]僕もその類でしょうから。
+[k]
+
+＠風魔小太郎
+自らに潜む鬼とどのように対峙するか。[r]その答えの一端は見えたと思います。
+[k]
+
+＠風魔小太郎
+……大してお力になれませんでしたが……[r]ありがとうございました、[%1][&君:さん]。
+[k]
+
+[charaFace D 0]
+
+＠風魔小太郎
+僕も、喚んでいただければ力になりたいと思います。
+[k]
+
+＠風魔小太郎
+武士の世で忍として働くよりは、貴方の下で[r]キジ役をしていた方がよほど楽しかった。
+[k]
+
+[charaFace D 1]
+
+＠風魔小太郎
+ほら、鳥は自由ですし。[r]あいにく、くちばしから光線は出せませんでしたけど。
+[k]
+
+[charaPut B 1000,1000]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠坂田金時
+おっと、バックホームはまだ早いぜニンジャボーイ。[r]最後に聞きたい事があるんだっつーの。
+[k]
+
+＠坂田金時
+テメェ、やたらオレっちに[#畏:かしこ]まってたジャン？[r]ありゃあなんでだ？　覚えがまったくねえが。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut B 0,0]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠風魔小太郎
+やはり、ご存じなかったのですね。
+[k]
+
+＠風魔小太郎
+風魔の里は、足柄山にあります。[r]昔から、貴方のことは聞かされて育ってきたのですよ。
+[k]
+
+[charaFace D 0]
+
+＠風魔小太郎
+足柄山の金太郎。[r]それはもはや僕たちにとっては伝説に等しい。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+地元で昔に大活躍して大出世した伝説のヤンキー、[r]みたいな感じなのかな……。
+[k]
+
+[charaFadeout D 0.1]
+[charaPut B 1000,1000]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+バッ、そういう事は早く言えよ！？[r][#同山:オナヤマ]の後輩だったのかよ！
+[k]
+
+＠坂田金時
+……失敗したぜ……後輩と知ってたら、[r]もちっと格好つけたってのに……
+[k]
+
+[charaFace E 1]
+
+＠坂田金時
+ま、後輩が元気に育ってなによりだ！[r]宝具名も最高にイカしてたしな！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut B 0,0]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠風魔小太郎
+はい。此度は貴方と肩を並べて戦えて光栄でした。[r]いずれ、また。
+[k]
+
+[messageOff]
+[charaPut B 1000,1000]
+
+[charaEffectStop B bit_talk_06]
+
+
+[se ad52]
+[charaSpecialEffect D flashErasure 0 0 1]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+
+[wt 0.7]
+
+[charaTalk H]
+[charaFadein H 0.4 1]
+
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+さて、これで異変は解決した。[r]この鬼ヶ島もじき消滅するだろう。
+[k]
+
+＠Dr.ロマン
+お疲れ様、みんな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、先輩。カルデアに帰りましょう。[r]鬼退治はこれにて終了、です。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+そうか。じゃあ、最後にこう言っておいたほうが[r]いいのかもしれないね。
+[k]
+
+＠Dr.ロマン
+お約束だよ。[r]鬼退治の物語は、やっぱりこれで終わらなくちゃ。
+[k]
+
+
+[communicationCharaFace 1]
+
+＠Dr.ロマン
+[line 2]めでたしめでたし、と！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_6 2.0]
+[wait fade]
+[maskout white 1.6]
+[wait mask]
+[wt 0.8]
+[soundStopAll]
+[end]

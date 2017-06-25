@@ -1,0 +1,247 @@
+＄94-00-31-13-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98063000 1 間桐雁夜]
+[charaSet F 2002001 1 ギルガメッシュ]
+[charaSet G 7002001 1 バーサーカー]
+
+[scene 25300]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ギルガメッシュ
+おのれッ！　なんたる茶番か……ッ！
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect F flashErasure 0 0 1]
+[wait charaSpecialEffect F]
+[charaFadeout F 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+やったぞ……第四次聖杯戦争最大の難敵、[r]英雄王がこれで脱落だ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠間桐雁夜
+ハァ……ハァ……見たか……！[r]これで、俺は、時臣に、一矢を……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ッ！？　バーサーカーのマスターの容体が……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+
+＠Dr.ロマン
+まずいぞ。こっちでモニターしているバイタルだと[r]もう危篤状態同然だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エルメロイ
+しまった！　魔力を消耗させすぎたか……おい、気絶する[r]ならせめてバーサーカーを令呪で縛ってからにしろ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠間桐雁夜
+……ッ。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[se bac2]
+[wait se bac2]
+[wt 0.5]
+
+？1：倒れた！？
+？2：しっかりしろ！
+
+？！
+
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォウ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+大丈夫、気絶しているだけです。まだ息はあります。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.3]
+
+[charaSet B 1001000 1 アルトリア]
+[charaSet C 3002000 1 ディルムッド]
+[charaSet E 98061000 1 ウェイバー]
+[charaSet F 4002001 1 イスカンダル]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エルメロイ
+いかん！　こいつのバーサーカーは制御を失うと[r]セイバーを……。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+[fowardEffect bit_talk_41]
+[shake 0.05 0 4 1.0]
+＠バーサーカー
+[fontSize x-large]Aaaaa、uaaaaaッ！！
+[k]
+
+[fowardEffectStop bit_talk_41]
+[wait fowardEffect bit_talk_41]
+
+[messageOff]
+[charaFace G 5]
+[se ba2]
+[wipeout leftToRight 0.5 1]
+[charaMove G 900,0 0.2]
+[wait wipe]
+[wait charaMove]
+[charaFadeout G 0]
+
+[charaTalk off]
+
+[charaFace B 5]
+[charaFadein B 0 2]
+
+[charaFace G 5]
+[charaFadein G 0 -900,0]
+
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[charaMove G 0 0.2]
+[wait charaMove]
+
+[se ad32]
+[fowardEffect bit_talk_13]
+[shake 0.05 0 4 0.8]
+[wt 0.8]
+
+[charaTalk on]
+[charaFace B 2]
+＠アルトリア
+なッ？　なぜ私に攻撃を！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+やむを得ん。[%1]、[r]バーサーカーは諦めよう。ここで排除する！
+[k]
+
+？1：えええッ！？
+？2：味方のはずでは？
+
+？！
+
+＠エルメロイ
+ここでセイバーを危険に晒すわけにはいかんのだ！
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+どのみちアーチャーの打倒が叶った以上、既に[r]バーサーカーとの共闘が必須な局面は終わっている。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFace C 0]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+＠ディルムッド
+あまり快い戦いにはなるまいが……[r]狂戦士が相手では是非もない、と？
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+ランサー、おまえの宝具は奴と相性がいい。[r]四の五の言わず手伝ってくれ！
+[k]
+
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠ウェイバー
+ど、どうなっちゃうんだよこの状況……。
+[k]
+
+＠イスカンダル
+……。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

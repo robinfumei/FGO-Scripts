@@ -1,0 +1,429 @@
+
+＄01-00-05-05-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5023001 1 ブラヴァツキー]
+[charaSet C 7014001 1 ナイチンゲール]
+[charaSet D 5016001 1 ジェロニモ]
+[charaSet E 98002000 1 フォウ]
+
+[scene 21402]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……あの数は反則過ぎます。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+でも、その割りには装備品も何もかも[r]そのまんまだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+？1：フォウも見逃された
+？！
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、ドクター。[r]解析してもらえばお分かりですが……
+[k]
+
+＠マシュ
+マスターからの魔力供給がほぼ断たれています。[r]牢から脱出する力さえありません……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+そうよ。[#十九世紀:きんだい]の[#魔術師:キャスター]も、[r]なかなか捨てたもんじゃないでしょう？
+[k]
+
+＠ブラヴァツキー
+ま、あたしはこの新大陸に過去在住していたせいで[r]相性が割合良いこともあるんだけど。
+[k]
+
+＠ブラヴァツキー
+恭順を申し出るなら、見張り番に伝えてちょうだい。[r]すぐに出してあげるから。
+[k]
+
+[charaFace B 5]
+＠ブラヴァツキー
+……ねえ、[%1]？[r]どうしてあなた、協力を拒否したの？
+[k]
+
+＠ブラヴァツキー
+カルデアの優男が言うように、[r]途中で裏切る手だってあったでしょうに。
+[k]
+
+＠ブラヴァツキー
+少なくともこういう展開は予測されていたはず。[r]なのにあなたは愚かな道を選んだ。
+[k]
+
+＠ブラヴァツキー
+どうして？
+[k]
+
+？1：エジソンのため
+
+[charaFace B 4]
+＠ブラヴァツキー
+……そう。[r]確かに彼は、裏切られれば傷つくでしょう。
+[k]
+
+＠ブラヴァツキー
+生前は告訴ばっかで辟易としていたし。[r]ああ見えてナイーヴなのよ、彼。
+[k]
+
+＠ブラヴァツキー
+そして誰より国を愛し、それが自然だと思っている。[r]いえ、思い込んでいる。独善極まる愛国心だけどね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+それが分かっていて、なぜ力を貸すのですエレナ。[r]あなたの忠告なら彼は聞くのではありませんか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+ダーメ。[r]あたしの発想じゃこの国は救えないもの。
+[k]
+
+＠ブラヴァツキー
+善きにしろ悪しきにしろ、[r]ミスタ・エジソンだけがケルトの軍勢を止められる。
+[k]
+
+＠ブラヴァツキー
+だから、今は彼についていく。[r]生前からの恩義もあるしね。
+[k]
+
+[charaFace B 1]
+＠ブラヴァツキー
+……ただ、[%1][&君:ちゃん]。[r]あなたがそう言ってくれたのは嬉しいわ。
+[k]
+
+[charaFace B 0]
+＠ブラヴァツキー
+あまり嫌わないであげてね。発明王としての彼は、[r]本当に子供みたいに面白い存在なのよ。
+[k]
+
+？2：ナイチンゲールのため
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+私のため、ですか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+……そうね。[r]あの場でフローレンスが承服するはずもない。
+[k]
+
+[charaFace B 4]
+＠ブラヴァツキー
+一度仲間になった者は決して見捨てない、か。
+[k]
+
+[charaFace B 0]
+＠ブラヴァツキー
+それはマスターとして[r]人間として素晴らしい振る舞いね。
+[k]
+
+＠ブラヴァツキー
+愚かだと、他の誰かは思うかもしれないけど。
+[k]
+
+＠ブラヴァツキー
+あなたの振る舞いは、誰に[r]卑下するでもない高潔なものよ。
+[k]
+
+？！
+
+＠ブラヴァツキー
+[line 3]安心なさい。[r]すぐに救いの手は来る。
+[k]
+
+＠ブラヴァツキー
+それまで待っていてちょうだいな。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[wt 1.0]
+
+[se bac21]
+[wt 0.2]
+[se ad82]
+[wait se ad82]
+[wt 0.2]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+何とかして脱出しなくてはなりません。[r]ご協力ください。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+わ、分かっていますが！[r]やはり銃で牢を破壊するのは無理ではないかと！
+[k]
+
+[charaFace C 7]
+＠ナイチンゲール
+いえ、少しだけ削れたような気がします。[r]さあ、張り切って削りましょう！
+[k]
+
+[se bac21]
+[wt 0.2]
+[se ad82]
+[wait se ad82]
+[wt 0.2]
+
+[charaFace A 14]
+＠マシュ
+ああ、跳弾が牢屋の中で飛び魚のように！[r]ナイチンゲールさん、無茶です[line 2]ぅ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[wt 0.7]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 0]
+＠D：？？？
+……まあ、無茶ではあるな。
+[k]
+
+[charaFace D 1]
+＠D：？？？
+だが、銃声が良く響いたおかげで[r]迅速に見つけることができた。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+サーヴァント……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+待て待て待て、サーヴァントだって！？[r]反応は全く無かったぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠D：？？？
+サーヴァントの反応があると、あのインドの[r]大英雄に嗅ぎ付けられる恐れがあるのでな。
+[k]
+
+＠D：？？？
+ある男から借り受けた宝具のおかげだ。[r]……少し待て、その牢から出してやる。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+一体、あなたは[line 2]？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠D：？？？
+……そうだな。[r]名を明かさねば、信用もされまい。
+[k]
+
+＠D：？？？
+とはいえ、私の真名はおいそれと明かすものではない。[r]そもそも、その名を伝えたところで知る者もいない。
+[k]
+
+[charaFace D 1]
+＠D：？？？
+故にこう呼んでくれた方がいいだろう。[r]“ジェロニモ”[line 2]我が名はジェロニモだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ジェロニモ……！
+[k]
+
+[charaFace A 13]
+＠マシュ
+アパッチ族の[#精霊使い:シャーマン][line 3][r]キャスターとして召喚されたのですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ジェロニモ
+厳密には精霊使いなどとは程遠い存在だがね。[r]私はただの戦士でしかない。
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+アパッチ族の英雄か！[r]……なるほど、彼がエジソンに従うはずはないな。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+同じ大地に住まうものだとしても……[r]いや、同じだからこそ相容れない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジェロニモ
+本来であれば敵同士だが、[r]今回はそれどころではないのでな。
+[k]
+
+[wt 0.2]
+[se ad91]
+[wait se ad91]
+
+[charaFace D 1]
+＠ジェロニモ
+そら、牢を解放した。[r]これで魔力供給も復活するだろう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+ありがとうございます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジェロニモ
+脱出……と行きたいところだが、[r]その前に見張りの機械化歩兵を倒す。
+[k]
+
+＠ジェロニモ
+その時点でカルナには気付かれるだろう。[r]全力で離脱しなければならない。
+[k]
+
+[charaFace D 5]
+＠ジェロニモ
+……覚悟はできているか？
+[k]
+
+[wt 0.4]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.4]
+
+？1：やるぞ、マシュ！
+？！
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 2]
+＠マシュ
+はい[line 3][r]銃弾にはまだ慣れませんが、頑張ります！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

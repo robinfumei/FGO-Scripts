@@ -1,0 +1,154 @@
+＄94-00-61-60-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 98002000 1 フォウ]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+[se ad60]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠スカサハ
+いよし、会心の出来だ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFace C 1]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+そ、それは良かったです……。
+[k]
+
+[charaFace C 8]
+＠スカサハ
+おお、マシュ。どうしたそのくたびれ加減は。
+[k]
+
+[charaFace A 12]
+＠マシュ
+見張っている間中、引っ切りなしにエネミーが[r]押し寄せてきまして……。
+[k]
+
+？1：ねむい
+
+[charaFace C 0]
+＠スカサハ
+[%1]は半目になっておるな。[r]先ほどから、ゆ～らゆ～らと頭が動く様は玩具の人形が如しだ。
+[k]
+
+
+？2：だるい
+
+[charaFace A 12]
+＠マシュ
+先輩、先輩、もう終わりましたから。[r]さ、帰りましょう。
+[k]
+
+？！
+
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、手を繋いで。[r]歩けますか？　背負います？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace A 1]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+＠フォウ
+フォウ！
+[k]
+
+＠スカサハ
+……さすがに一昼夜戦いっぱなしは辛かろう。[r]大目に見てやれ、フォウ。
+[k]
+
+＠フォウ
+フォウ～……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠スカサハ
+それでは本拠地で休憩後、[r]次のトネリコへと向かうぞ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+え、まだあるんですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+うむ、残り三本。[r]例によって一昼夜かかるから、あと三回。
+[k]
+
+[charaFace C 1]
+＠スカサハ
+よろしく頼むぞ！
+[k]
+
+？1：Ｚｚｚ……
+？！
+
+[charaFadeout C 0.1]
+[charaScale A 1.5]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+[shake 0.05 0 4 1.5]
+＠マシュ
+マスター、起きてくださーい！[r]マスター、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

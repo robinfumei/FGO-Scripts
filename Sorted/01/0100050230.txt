@@ -1,0 +1,185 @@
+
+＄01-00-05-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 3011001 1 フィン]
+[charaSet D 3002001 1 ディルムッド]
+
+[scene 20721]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+膠着しました。彼らにとって、[r]対サーヴァント戦闘は初めてなのかもしれません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+テントに届くことはなさそうですが[line 2][r]む。むむ、む。
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[line 2]敵性サーヴァントの反応がある。二騎！
+[k]
+
+[bgmStop BGM_EVENT_5 0.2]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[bgm BGM_EVENT_3 0.1]
+＠D：？？？
+王よ。[r]見つけましたぞ。
+[k]
+
+＠D：？？？
+どうやら彼らがサーヴァントのようです。[r]戦線が停滞するのも無理はない。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+名を残せなかった戦士たちではここが限界でしょう。[r]今こそ我らの出番です。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+＠C：？？？
+さすが我が配下ディルムッド・オディナ。[r]君の目はアレだな。そう、例えるのなら[#隼:はやぶさ]のようだ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠ディルムッド
+……滅相もありません。[r]貴方、フィン・マックールの知恵に比べれば私[#如:ごと]きは。
+[k]
+
+＠フィン
+ハハハ。[#謙遜:けんそん]はよしこさん。君の審美眼は確かだ。[r]グラニアを選んだのもそれを証明している。
+[k]
+
+[charaFace D 4]
+＠ディルムッド
+……い、いや。[r]それは……その……ええと……。
+[k]
+
+[charaFace C 1]
+＠フィン
+すまない、冗談だよ冗談！　少し[#性質:たち]が悪かった！[r]さて、それでは戦おう。
+[k]
+
+[charaFace C 0]
+＠フィン
+我らフィオナ騎士団の力、存分に彼らに見せつけよう。[r]そして[line 2]この豊穣たる大地に、永遠の帝国を！
+[k]
+
+[charaFace D 0]
+＠ディルムッド
+御意！[r]では、ご婦人方。お覚悟を。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ディルムッド
+我はフィオナ騎士団の一番槍、[r]ディルムッド・オディナ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ディルムッド……“輝く貌”のディルムッド・オディナ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+そして背後に控えているのは、その主である[r]フィン・マックール……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+つまり、貴方がたが病原の一つということですね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+病原……？[r]いや、我らはただの戦士だ。それ以上でもそれ以下でも。
+[k]
+
+[wt 0.1]
+[se bac21]
+[wt 0.1]
+[charaShake D 0.05 3 3 0.4]
+[charaFace D 2]
+[wt 0.4]
+
+＠ディルムッド
+うお！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+[line 3]その死を以て、病を根絶させます！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+くっ……人の話を聞かないタイプか……！[r]苦手だ、そういう女性は本当に苦手だ……！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

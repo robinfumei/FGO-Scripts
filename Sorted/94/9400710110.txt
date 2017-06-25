@@ -1,0 +1,2730 @@
+＄94-00-71-01-1-0
+
+[soundStopAll]
+[se ad6]
+[charaSet A 1005001 1 ネロ]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+[scene 10800]
+[fadein black 2.0]
+[wait fade]
+
+[wt 1.0]
+[seStop ad6 1.0]
+[wt 1.0]
+[bgm BGM_EVENT_1 1.0]
+[wt 0.5]
+
+[charaFace A 0]
+＠ネロ
+祭り、とは[line 3]
+[k]
+
+[charaFace A 5]
+＠ネロ
+時代と場所の区別なく、[r]あまねく人々を楽しませるであろう[#催:もよお]しを指し示す！
+[k]
+
+＠ネロ
+これより始まる我が祭典も同じく、[r]もはやローマおよびカルデア名物と言って構うまい！
+[k]
+
+＠ネロ
+祭りとは本来……などと面倒に掘り下げるのは、[r]うむ、文系サーヴァントどもに任せておくとしよう。
+[k]
+
+＠ネロ
+[#絢爛:けんらん]たる我が『ネロ祭』。[r]ローマとカルデアが共に手を携えし祭典！
+[k]
+
+[wt 0.4]
+[charaFace A 1]
+[wt 1.5]
+
+[charaFace A 0]
+＠ネロ
+今まさに、祭りは始まろう！
+[k]
+
+＠ネロ
+[#闘技場:コロッセウム]を舞台として繰り広げられる[r]武闘大会だけに、これを楽しむ英霊も数多くあろう。
+[k]
+
+[charaFace A 1]
+＠ネロ
+ふふふ、魔力だ何だには詳しくないが[r]少なくとも余は感じる！　大気に満ちる喜びを！
+[k]
+
+＠ネロ
+かつての大祭、オリンピアのそれを模した力の祭！[r]勇気ある闘士たちを民は讃える！
+[k]
+
+＠ネロ
+鍛え抜かれた肉体と技の競い合い、[r]そのなんと美しく、尊く、まばゆいコトか。
+[k]
+
+＠ネロ
+咲き誇る薔薇を愛でるがごとく、[r]ヒトの持ちうる可能性を、ヒトは慈しむのだ。
+[k]
+
+[charaFace A 2]
+＠ネロ
+[line 3]それこそ我がローマ、オリンピアの祭典である！
+[k]
+
+？1：ローマ！
+
+[se ad6]
+[wt 1.5]
+[seStop ad6 1.0]
+
+[charaFace A 1]
+＠ネロ
+ローマ！　である！
+[k]
+
+？2：皇帝陛下ばんざい！
+
+[se ad6]
+[wt 1.5]
+[seStop ad6 1.0]
+
+[charaFace A 1]
+＠ネロ
+ふふふ、喝采など、照れるではないかっ。
+[k]
+
+？！
+
+＠ネロ
+余が許す！[r]華やかなる祭典、存分に！　楽しむがよいぞーっ！
+[k]
+
+[bgmStop BGM_EVENT_1 1.0]
+[se ad6]
+[wt 1.5]
+[messageOff]
+[wt 0.5]
+[seStop ad6 2.5]
+[wt 1.0]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaSet A 5021001 1 クー・フーリン]
+[charaSet B 3001001 1 クー・フーリン]
+[charaSet C 3007001 1 クー・フーリン]
+[charaSet D 7020001 1 クー・フーリン]
+[wt 2.0]
+
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠A：クー・フーリン
+お、何だ。どうしたマスター？
+[k]
+
+[charaFace A 1]
+＠A：クー・フーリン
+アンタもこの祭りとやらに参加するんだろ？[r]息抜きには丁度いい。せいぜい、楽しむとしようや。
+[k]
+
+[charaFace A 0]
+＠A：クー・フーリン
+お互い敵になるか味方になるか、[r]そいつは流石に知ったこっちゃないが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠B：クー・フーリン
+敵でも味方でもせいぜい楽しく[#殺:や]ろうや！[r]なあ、槍持ってねぇ方のオレ！
+[k]
+
+[charaFace A 4]
+＠A：クー・フーリン
+まあな。ってか何だ、槍持ってるオレに言われると[r]気のせいか、そこはかとなく腹が立つな……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠C：クー・フーリン
+はは。不安なら一本貸そうか、年食ったオレさんよ。[r]なにせコイツは急造の槍なもんで、替えが利くんだわ。
+[k]
+
+＠A：クー・フーリン
+あー、前のマスターだか何だかのお手製だったか？[r]そいつはどうにも受け取れねえな。
+[k]
+
+[wt 0.7]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[bgmStop BGM_EVENT_2 1.0]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+＠D：クー・フーリン
+……ハ。どいつもこいつもくだらねえ。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+＠D：クー・フーリン
+本当にテメエらはオレか？[r]槍なんざ、あってもなくても変わらんだろうがよ。
+[k]
+
+[charaFace D 0]
+＠D：クー・フーリン
+喰い合ったなら強ぇ奴が勝って弱ぇ奴が死ぬ。[r]他には何もありゃしねぇ。グダグダ言ってんじゃねぇぞ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk off]
+[charaDepth C 0]
+[charaDepth B 1]
+[charaDepth A 0]
+[charaFace C 4]
+[charaFace B 4]
+[charaFace A 4]
+[charaFadein C 0.1 -352,0]
+[charaFadein B 0.1 1]
+[charaFadein A 0.1 352,0]
+＠三人
+あー…………。[r]（あーこいつガチで対戦相手殺す気だなー）
+[k]
+
+[wt 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_5 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaTalk on]
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaSet A 4019001 1 マルタ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5020001 1 アイリ]
+[wt 1.5]
+
+[scene 10204]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠マルタ
+お任せください。医療体制については万全です。[r]たとえ、何かを勘違いしたヒトが荒れ狂おうと[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 1]
+[charaFadein A 0.1 0]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+すべての患者を私は救います。[r]決して死者は出しません。救います。ええ。
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+[charaFace B 1]
+＠ナイチンゲール
+たとえ[#死傷者を出そうとも]死者だけは出しません。[r]安心、ですね。
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+[charaFace A 2]
+[messageShake 0.05 3 3 0.4]
+＠マルタ
+待って待って、言ってる言ってる！[r]死傷者って今言っちゃってますからねあなた！
+[k]
+
+[charaFace B 0]
+＠ナイチンゲール
+ええ、臨時救護室の衛生状態にはよくよく注意します。[r]殺菌と消毒は特に留意する必要がありますね。
+[k]
+
+[charaFace B 1]
+＠ナイチンゲール
+大丈夫。私がいます。[r]殺菌と消毒については少々[#うるさく]します。
+[k]
+
+[messageShake 0.05 3 3 0.4]
+＠マルタ
+話聞いて！　私の話、聞いて！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+＠アイリ
+本当に、マルタさんもナイチンゲールさんも[r]仲が良いのね。ふふ。冗談もぴったり息が合ってて。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠マルタ
+あ。アイリさん、貴女の癒やしの力には期待してます……[r]って、[charaFace A 5]あっちのアレは冗談じゃないんじゃないかしら！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+癒やしの力？[r]あなたはもしかして……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠マルタ
+ああ、治癒系の魔術のことですよ。[r]私の力や、あなたの技術とは異なるものでしょうけど。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+……外科手術の経験がある[#医師:ドクター]なのね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アイリ
+はい？　ドクター？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+これは心強い。では、ええ、[r]負傷者の四肢の切断効率は倍以上に跳ね上がりますね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 0]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+[messageShake 0.05 5 5 0.6]
+＠マルタ
+待って待って待って待って待って！
+[k]
+
+[wt 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaSet A 2001000 1 エミヤ]
+[charaSet B 4011001 1 ブーディカ]
+[charaSet C 1002001 1 セイバーオルタ]
+[wt 1.5]
+
+[scene 10310]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠エミヤ
+サーヴァントとして現界した英霊は本来、[r]肉体を維持するための食事を必要とはしないが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ブーディカ
+それでも、動けばお腹は減るもんね。[r]気分の問題にすぎなくたって、気分は誰にも大切さ。
+[k]
+
+[charaFace B 0]
+＠ブーディカ
+元気なのもしょんぼりなのも、[r]全部とは言わなくても半分くらいは気分だし？
+[k]
+
+[charaFace B 1]
+＠ブーディカ
+体動かすお祭りの開催中は特に、[r]腹ぺこ気分のサーヴァントが増えるんじゃないかな？
+[k]
+
+[charaFace A 3]
+＠エミヤ
+ああ。という訳で、マスター。[r]厨房と食堂の稼動については私たちに任せておけ。
+[k]
+
+＠エミヤ
+二十四時間体制で食堂が使えるようにしておく。
+[k]
+
+＠ブーディカ
+心おきなく、お腹を空かしておいで！
+[k]
+
+＠ブーディカ
+[#あいつ]のお祭りを手伝うってのは癪だけど、[r]キミのためなら特別さね。ふふ。なんか、変な感じ。
+[k]
+
+[charaFace A 0]
+＠エミヤ
+そこで相談だ。マスター。[r]手すきのサーヴァントには給仕役を頼みたい。
+[k]
+
+＠エミヤ
+君から事前に言っていてもらえると助かる。
+[k]
+
+[charaFace A 4]
+＠エミヤ
+それと[line 3]
+[k]
+
+＠エミヤ
+そこでさっきから待機している一騎を[r]食堂から引き離しておいて欲しいんだが……
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+[messageOff]
+[wipeout rectangleStripRightToLeft 1.0 1.0]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.5]
+[wipein rectangleStripLeftToRight 1.0 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_7 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠セイバーオルタ
+…………何だ。なぜ私を見る、アーチャー？
+[k]
+
+＠セイバーオルタ
+私はただジャンクなフードを口にしたいと[r]思いながらおまえたちの後を付いてきただけだが？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠エミヤ
+だけだが？　ではないぞ。[r]やれやれ……。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2014001 1 俵藤太]
+[wt 1.5]
+[scene 28800]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠三蔵
+いいところに来てくれたわ、[%1]！[r]シミュレーターってどうやって終わらせればいいの？
+[k]
+
+[charaFace A 5]
+＠三蔵
+あのね、実はね、あたし……
+[k]
+
+[bgmStop BGM_EVENT_11 1.5]
+[wt 0.7]
+[charaFace A 4]
+[wt 1.0]
+
+＠三蔵
+迷っちゃって……[r]ここどこ、なんであたしまた砂漠を歩いてるの！？
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+＠三蔵
+うう……ひっく、えぐっ……ぎゃてぇ……[r]これじゃあお祭り開催に全然間に合わないよー！
+[k]
+
+[messageShake 0.05 4 4 0.7]
+＠三蔵
+うわぁ[line 6]ん！[r]あたしも遊びたい遊びたい、遊んだり遊んだりしたい！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk depthOff]
+[charaDepth B 0]
+[charaDepth A 1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠俵藤太
+ええい、落ち着け落ち着け。わざわざ早朝に拙者を[r]叩き起こして砂漠に飛びたいと言ったのはお主だろうが。
+[k]
+
+＠俵藤太
+シミュレーターとやらを起動したのはお主だ。[r]であれば、終了時間なども起動の折に設定したろう？
+[k]
+
+＠三蔵
+ぎゃてぇ……[r]しゅうりょう……じかん……？
+[k]
+
+[charaFace B 4]
+＠俵藤太
+あーこれはいかん、駄目な場合の顔と声だな。[r]マスター。悪いがシミュレーターを終了させてくれい！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaTalk depthOn]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaSet A 4017001 1 マリー]
+[charaSet B 1026001 1 デオン]
+[charaSet C 5015001 1 アマデウス]
+[charaSet D 6012001 1 サンソン]
+[wt 1.5]
+
+[scene 20500]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マリー
+お祭りなんでしょう？[r]それなら、わたしも参加したいわ。良いのよね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠デオン
+王妃、それは……[r]貴女がご想像されているものとは異なる可能性が。
+[k]
+
+[charaFace B 5]
+＠デオン
+これより催されるのは神話の激突、[r]闘技場に於ける超常の刃のぶつかり合いです。
+[k]
+
+＠デオン
+医療系サーヴァントが体制を整えてはいますが、[r]それでもやはり危険は存在します。
+[k]
+
+＠デオン
+ですので、王妃。やんごとなき御方は[r]観戦に留めておくのが宜しいかと思われます。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk depthOff]
+[charaDepth B 1]
+[charaDepth C 0]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠アマデウス
+何だっていいじゃないかデオン！[r]マリアのやりたいようにやらせてあげよう！
+[k]
+
+[charaFace C 3]
+＠アマデウス
+彼女なら何処でだって美しく踊れるよ。[r]僕もふさわしい曲を編み上げてみせようじゃないか！
+[k]
+
+[charaFace B 5]
+＠デオン
+いや、しかし[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マリー
+まあ素敵。曲、書き下ろしてくれるの？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠サンソン
+……では、王妃の安全については僕が身命を賭そう。[r]彼女を傷付けんとするすべてを排除する。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth C 0]
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠アマデウス
+うんうんナルホドよくできた冗談だ。君って確か[r]ロベスピエールどもの飼い犬じゃあなかったっけ？
+[k]
+
+[charaFace D 5]
+＠サンソン
+違う、僕は[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マリー
+もう、けんかは駄目よ。[r]お祭りですもの、楽しくしなくちゃ。そうでしょう？
+[k]
+
+[charaFace A 0]
+＠マリー
+わたしが、わたしの人生ですれ違ったあなたたち……
+[k]
+
+＠マリー
+出会いの時期もばらばらだったあなたたちと、[r]こうして一度に会えている。それはね、とても特別だし、
+[k]
+
+[charaFace A 1]
+＠マリー
+素敵なことだと思うの。[r]まるで、百年に一度のお祭りのよう！
+[k]
+
+[wt 1.0]
+[charaFace A 0]
+[wt 0.7]
+
+＠マリー
+だから、ね。[r]けんかなんて[#勿体:もったい]ないわ。楽しくしましょう？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠デオン
+……はい。王妃。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マリー
+さあ、皆一緒に。[r]せーの、ヴィヴ・ラ・フランス！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace D 1]
+[charaFadein D 0.1 -320,0]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[charaFace C 1]
+[charaFadein C 0.1 320,0]
+＠三人
+ヴィヴ・ラ・フランス！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マリー
+ウィ。よくできました！
+[k]
+
+[wt 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaSet A 9001001 1 ジャンヌ]
+[charaSet B 11003001 1 ジャンヌ・オルタ]
+[charaSet C 9002001 1 天草四郎]
+[charaSet D 11002002 1 エドモン・ダンテス]
+[charaSet E 5002001 1 ジル]
+[wt 1.5]
+
+[scene 20602]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠ジャンヌ
+オリンピアの祭典。今回のお祭りの元になったのは、[r]近代オリンピックのモデルと同じものだそうです。
+[k]
+
+[charaFace A 4]
+＠ジャンヌ
+どちらも、私の時代にはなかったものですが……
+[k]
+
+[charaFace A 0]
+＠ジャンヌ
+今、こうして参加できるのは[r]正直に言って楽しみな気持ちです。
+[k]
+
+[charaFace A 1]
+＠ジャンヌ
+お互い[line 3]精一杯、頑張りましょうね！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ
+[f large]イ・ヤ・よ！[f -]
+[k]
+
+[charaFace B 5]
+＠ジャンヌ・オルタ
+……誰が！　だーれが！[r]アンタなんかと並んで祭りに興じるもんですかッ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠天草四郎
+まあ、そう言わずに。[r]彼女は貴女の事を心から案じているのですよ。
+[k]
+
+＠天草四郎
+それは主の御意志でもあるのでしょうが、[r]同時に、彼女にとっては親心のようなものでもある。
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_5 0.7]
+[charaTalk depthOff]
+[charaDepth A 0]
+[charaDepth B 1]
+[charaTalk A]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠ジャンヌ
+！！
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+[charaFace B 5]
+＠ジャンヌ・オルタ
+ちょ、ま、誰が親よ誰が！[r]アンタなんかに産み落とされた覚えはないわよバカー！
+[k]
+
+[charaFace A 3]
+＠ジャンヌ
+わ、私だって産み落としたような記憶はないですが！[r]それでもあなたは、ジャンヌ・ダルクなのでしょう？
+[k]
+
+[charaFace A 4]
+＠ジャンヌ
+それならやはり、あなたもまた[r]同じ私を元にして[#霊基:カタチ]を成したモノであって……
+[k]
+
+[charaFace B 2]
+[messageShake 0.05 3 3 0.5]
+＠ジャンヌ・オルタ
+わー！　わー！　言うなァー！！[r]焼き殺すわよ本気で！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠天草四郎
+ははは。まあまあ、落ち着いて[line 3]
+[k]
+
+[wt 0.2]
+[messageOff]
+[wt 0.4]
+[bgmStop BGM_EVENT_7 2.0]
+[fadeout black 2.0]
+[wait fade]
+[charaTalk depthOn]
+[charaFadeout C 0.1]
+[wipeout rightToLeft 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[scene 20602]
+[wipein leftToRight 1.5 1]
+[wait wipe]
+[bgm BGM_EVENT_11 0.1]
+
+[wt 0.4]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+＠エドモン・ダンテス
+……[charaFace D 4]フン。
+[k]
+
+[charaFace D 0]
+＠エドモン・ダンテス
+恩讐の炎がカタチとなった如き[#復讐者:アヴェンジャー]である身で、[r]見事にじゃれ合ってみせる。ある意味大したものだ。
+[k]
+
+＠エドモン・ダンテス
+マスター。おまえは知っているのか？[r]あのジャンヌ・ダルクならざるジャンヌ・ダルクが[line 3]
+[k]
+
+＠エドモン・ダンテス
+真ならざる贋作として如何にして在るか。[r]その無念、怨嗟、最早指先までもが炎と化しているのだ。
+[k]
+
+[charaFace D 5]
+＠エドモン・ダンテス
+それが、ああして……
+[k]
+
+[wt 0.4]
+[charaFace D 4]
+[wt 1.0]
+
+＠エドモン・ダンテス
+………………。
+[k]
+
+[charaFace D 0]
+＠エドモン・ダンテス
+いいや。おまえは分かっているのだろうな。
+[k]
+
+＠エドモン・ダンテス
+好きにしろ。おまえが真に望むのであれば、[r]如何な茶番であろうと力を振るうにやぶさかでない。
+[k]
+
+＠エドモン・ダンテス
+[#巌窟王:オ　レ]はおまえに従おう。
+[k]
+
+[bgmStop BGM_EVENT_11 1.5]
+[charaFace D 5]
+＠エドモン・ダンテス
+たとえば、だ。[r][#其処:そこ]で[#蠢:うごめ]くキャスターを即座に排除しても構わん。
+[k]
+
+[wt 0.4]
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.3 1.0]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[wt 0.4]
+[wipein rectangleStripLeftToRight 0.3 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_7 0.1]
+＠ジル
+おお、おお……！　なんという事！[r]我が想いより生み出されたにも等しい二人目の聖女が！
+[k]
+
+＠ジル
+ああして唯一無二のジャンヌの傍らに在って、[r]ああして楽しげに言の葉を交わしている、等とは！
+[k]
+
+＠ジル
+予想だにしなかった出来事ですぞ！[r]おお、おお、なんたるCOOLでありましょうや！
+[k]
+
+＠ジル
+そこの御仁！　そこの、私と同じように彼女の心身を[r]案じて下さっている御仁よ、どうか私と一緒に[line 3]
+[k]
+
+[charaFace E 1]
+＠ジル
+聖女たちを見守ろうではありませぬか！[r]さあ。さあ！
+[k]
+
+[wt 0.4]
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.3 1.0]
+[wait wipe]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[wt 0.4]
+[wipein rectangleStripRightToLeft 0.3 1.0]
+[wait wipe]
+
+[wt 0.2]
+[charaFace D 5]
+＠エドモン・ダンテス
+……ん。下らん戯れ言のあまり一服していたぞ。
+[k]
+
+[charaFace D 0]
+＠エドモン・ダンテス
+フゥ[line 3][r]まったく、正気を失った英霊どもには困ったものだ。
+[k]
+
+[wt 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaSet A 1013001 1 カエサル]
+[charaSet B 7010001 1 カリギュラ]
+[charaSet C 3010002 1 ロムルス]
+[wt 1.5]
+
+[scene 20300]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+＠カエサル
+……冗談ではない。まったくもって論外だ。
+[k]
+
+＠カエサル
+私は確かに将軍ではあったしローマの兵でもあったが[r]しかしな、昔の話だ。昔の。今はただのセイバーだ。
+[k]
+
+＠カエサル
+そうだ。ああそうだともセイバーだ。[r]忌まわしくも私はサーヴァントなぞとして現界した。
+[k]
+
+[charaFace A 4]
+＠カエサル
+主人の代わりにあれこれと働く、[r]まさしく[#奴隷:servus]のようなもの。
+[k]
+
+＠カエサル
+ギリシャのそれや後世のそれに比ぶれば、[r]我がローマの奴隷制は文化的であると思っていたが……
+[k]
+
+[charaFace A 5]
+＠カエサル
+何の事はない。[r]嫌なものは、嫌なものだ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠カリギュラ
+戦えと……言う、のか……月の女神……よ……[r]ディアーナ……私は……
+[k]
+
+＠カリギュラ
+ネロ、我が愛しき妹の子……[r]おまえの名を冠した、祭典にて、余は……
+[k]
+
+[bgm BGM_EVENT_11 0.4 0.5]
+[wt 0.2]
+[charaFace B 2]
+[wt 0.1]
+[effect bit_talk_41]
+[shake 0.05 0 4 1.0]
+＠カリギュラ
+[f large]ウオオオオ、メダルゥゥゥウウウ！！[f -]
+[k]
+
+[shake 0.05 0 4 1.0]
+＠カリギュラ
+[f large]アツメルゥウウウウウ！！[f -]
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.3]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_11 0.4]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠カエサル
+猛るな猛るな。やれやれ、[r]ネロのメダルを最も欲する英霊だな、おまえは。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ロムルス
+[line 5]いや。許すがよい、カエサル。
+[k]
+
+[charaFace C 1]
+＠ロムルス
+思うさま集めてみせろ、カリギュラ。[r]それは、おまえが求める心のカタチであるのだろう。
+[k]
+
+＠ロムルス
+想うならば、そのように在れ。[r]欲する事が戦う事ならば、戦うしかあるまい。
+[k]
+
+[charaFace C 0]
+＠ロムルス
+おまえもそうだ。[%1]。[r]足りぬ再臨素材を欲するならば、足掻き、求めよ。
+[k]
+
+＠ロムルス
+[#私:ローマ]はおまえたちの戦いを認めよう。[r]許す。存分に欲し、求め、愛し、戦ってみせるがよい。
+[k]
+
+[charaFace C 1]
+＠ロムルス
+それもまた尊き振る舞いであり、[#浪漫:ローマ]であろう。
+[k]
+
+[charaFace C 0]
+＠ロムルス
+[line 6]ただし。暴食の域には至らぬよう、心せよ。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_11 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaSet A 1007001 1 ガウェイン]
+[charaSet B 1020001 1 ランスロット]
+[wt 1.5]
+
+[scene 20803]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠ガウェイン
+私は厨房に回っても構いませんが[line 3]
+[k]
+
+＠ガウェイン
+ええ。こと根菜の扱いに限って言えば、[r]円卓に於いてパーシヴァルの次に長じていた私です。
+[k]
+
+＠ガウェイン
+マスターからの一言さえいただければ[r]存分に、我が手腕を振るってご覧にいれましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠ランスロット
+落ち着くのだ、ガウェイン卿。
+[k]
+
+＠ランスロット
+我らはマスターのために力を尽くすだけだ。[r]たとえ、己が得意分野への配置ではなかろうと……
+[k]
+
+[charaFace B 6]
+＠ランスロット
+そしてたとえ、敵味方に別れようとも。
+[k]
+
+[charaFace A 5]
+＠ガウェイン
+確かに。それこそ騎士の本懐かもしれませんね。
+[k]
+
+[charaFace B 1]
+＠ランスロット
+そうだ。根菜の事は忘れておくといい。[r]分かってくれたな？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ランスロット
+さてマスター、ところで世間話なのだが、[r]マシュは[line 3]私について何か話さなかっただろうか？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaSet A 2008001 1 トリスタン]
+[charaSet B 6012001 1 サンソン]
+[charaSet C 6002001 1 呪腕のハサン]
+[charaSet D 5022001 1 三蔵]
+[charaSet E 2014001 1 俵藤太]
+[wt 1.5]
+
+[scene 10310]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+＠トリスタン
+私は……いいえ、私こそ……[r]ここにいる中で最も罪深き者であるでしょう……
+[k]
+
+＠トリスタン
+この私とは異なる私が行ってしまった罪の数々。[r]明確に霊基へ刻まれている訳ではないにせよ、それでも、
+[k]
+
+＠トリスタン
+罪が消える訳ではない。[r]私は、きっと罪深いままなのです。
+[k]
+
+[charaFace A 5]
+＠トリスタン
+闘技大会……[r]そこでもきっと私は多くの血を流してしまう。
+[k]
+
+[se bac130]
+
+[charaFace A 4]
+＠トリスタン
+私は、悲しい……（ポロロン）
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠サンソン
+いいえ。僕こそ大罪者と呼ばれるに相応しい。
+[k]
+
+[wt 0.4]
+[charaFace B 4]
+[wt 1.0]
+
+＠サンソン
+決して自ら望んだ訳ではないが、結果的に[r]僕は大量の死と悲哀を世界に撒き散らしてしまった。
+[k]
+
+＠サンソン
+そして、遂には……彼女を……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+＠呪腕のハサン
+教義、教理のためとして数多の命を手に掛けたが[line 3]
+[k]
+
+＠呪腕のハサン
+私は何を求め、何を捨て、何を得たのか。[r]もはや遠い日の記憶であれど……
+[k]
+
+[wt 0.4]
+[charaFace C 4]
+[wt 1.0]
+
+＠呪腕のハサン
+…………否。ここにいる私が語る話ではない、か。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 0]
+[charaFace D 4]
+[charaFadein D 0.4 2]
+＠俵藤太
+おいおい。やっとシミュレーターから脱出してみれば、[r]どうにも、懺悔大会に紛れ込んでしまったか。
+[k]
+
+＠俵藤太
+いやはや業深いもんだ。[r]拙者の言えた事ではないがなぁ。
+[k]
+
+＠三蔵
+ぎゃてぇ……あたしも悲しくなってきたわ……。[r]うん。どうにかしなきゃダメよね、やっぱり。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[wt 0.1]
+[bgm BGM_EVENT_4 0.1]
+＠三蔵
+善は善を生み、善は楽を生む。[r]悪は悪を生み、悪は苦を生む。
+[k]
+
+＠三蔵
+[#善因:ぜんいん][#善果:ぜんか]、[#善因:ぜんいん][#楽果:らっか]、[r][#悪因:あくいん][#悪果:あっか]、[#悪因:あくいん][#苦果:くか]！
+[k]
+
+＠三蔵
+これぞまさしく[#因果:いんが][#応報:おうほう]！
+[k]
+
+[se bac118]
+[shake 0.05 0 2 0.15]
+[charaFace D 0]
+＠三蔵
+あなたたちの因果のむこう！[r]あなたたちの悪、あたしがまるっと聞いてあげる！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_4 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaSet A 6007001 1 ジキル]
+[charaSet B 1009002 1 モードレッド]
+[charaSet C 7004001 1 フラン]
+[wt 1.5]
+
+[scene 10800]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠ジキル
+ああ、いたいた。マスター。[r]ミスター・ホームズと会ったというのは本当かい？
+[k]
+
+＠ジキル
+実は僕も、生前に[line 3]
+[k]
+
+[charaFace A 0]
+＠ジキル
+……っと。もっとあれこれ話したいんだけども、[r]救護室のヒトたちから呼ばれているんだ。
+[k]
+
+[charaFace A 1]
+＠ジキル
+これでも医学や薬学を修めているからね。[r]君やサーヴァントたちの力になれれば幸いだよ。
+[k]
+
+＠ジキル
+それじゃあ、また！
+[k]
+
+[charaFadeout A 0.4]
+[se ad60]
+[wt 0.7]
+[seStop ad60 1.5]
+[wt 1.0]
+[messageOff]
+[wt 1.0]
+
+[se ad5]
+[wt 1.5]
+[seStop ad5 2.0]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠モードレッド
+おう、マスターも祭りに来たのか。[r]ところで今、そこにモヤシっぽいのいなかったか？
+[k]
+
+＠モードレッド
+まあいいや。フラン、行こうぜ。
+[k]
+
+[wt 0.4]
+[charaFace B 4]
+＠モードレッド
+……おーいフラン？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+[wt 0.1]
+[charaFace C 0]
+[charaFadein C 0.4 0]
+＠フラン
+……。[r]……ゥ。
+[k]
+
+[charaFace B 0]
+＠モードレッド
+充電は済んでるよな？[r]肝心なところで電池切れになったりすんなよ？
+[k]
+
+＠モードレッド
+電気系サーヴァント最強が誰か、そろそろ[r]ハッキリさせなきゃな。祭りってのはいい機会だ。
+[k]
+
+[charaFace B 3]
+＠モードレッド
+さっきはまあ、オレの方が早かったけど[line 3]
+[k]
+
+＠フラン
+ゥゥ。
+[k]
+
+[messageOff]
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaSet A 4008001 1 黒髭]
+[charaSet B 4009202 1 アン]
+[charaSet C 4009102 1 メアリー]
+[charaSet D 4008001 1 黒髭2]
+[charaSet E 4008001 1 黒髭3]
+[charaDepth D 1]
+[charaFilter D silhouette 00000080]
+[wt 1.0]
+
+[scene 10800]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+[bgmStop BGM_EVENT_2 0.7]
+[wt 0.4]
+[charaTalk depthOff]
+[charaFadeTime D 0.1 0.8]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+[charaPut E 0,-224]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠黒髭
+……何も、ありませんでしたぞ？
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+[charaFace A 5]
+＠黒髭
+ん～？　拙者が黒こげになっている、でござるか？
+[k]
+
+[charaFace A 3]
+＠黒髭
+いやはや何の話かとんと分かりませんなあ。[r]そんな事よりもマスター！　サーヴァント大会ですぞ！
+[k]
+
+[charaFace A 1]
+＠黒髭
+戦いに勝った主人公にヒロインキャラは堕ちるが必定、[r]これぞまさしくハーレム建設の絶好の機会！
+[k]
+
+＠黒髭
+拙者と共にシャワールームで女性サーヴァントと[r]うっかり出会ったりしつつ、大会を勝ち抜くのですぞ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠アン
+元気なのはいつも通りだけど、[r]やっぱり真っ黒焦げになってるわよね～このヒト。
+[k]
+
+[charaFace C 5]
+＠メアリー
+……さっき、小さな女の子にしつこく話し掛けてたよ。[r]ツノの生えた、前髪で目元の隠れてる子に。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk depthOff]
+[charaFadeTime D 0.1 0.8]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+[charaPut E 0,-224]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠黒髭
+何の話ですかなー！　拙者存ぜぬですぞー！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaTalk depthOn]
+[charaShadow E false]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaSet A 5025001 1 エジソン]
+[charaSet B 2011001 1 ニコラ・テスラ]
+[charaSet C 5023001 1 エレナ]
+[wt 1.5]
+
+[scene 10310]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+＠エジソン
+おお痛ましい、なんとも痛ましい感電事件！[r]こうなれば直流探偵こと[#私:エジソン]が出るしかあるまい！
+[k]
+
+[charaFace A 1]
+＠エジソン
+邪悪な交流の気配がたっぷり漂うこの事件、[r]すぐさま私が解決してくれよう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 1]
+＠ニコラ・テスラ
+は。笑いすぎてパンプアップした腹筋でスーツが破けそうだ。[r]交流こそ闇を照らす真の光。
+[k]
+
+[charaFace B 0]
+＠ニコラ・テスラ
+ならば事態を解き明かすのは他の誰でもない、[r]交流探偵ニコラ・テスラだ！
+[k]
+
+[charaFace B 1]
+＠ニコラ・テスラ
+海賊を焼き尽くした愚かなりし雷電の正体、[r]私が突き止めてやろう。何、すべては電気が知っている！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[wt 0.1]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+＠ニコラ・テスラ
+おっと、動くなよ[#犯人:エジソン]。[r]貴様は感電事件の容疑者であり、私による捜索の対象だ。
+[k]
+
+＠ニコラ・テスラ
+すぐに[line 3]電撃的に、証拠を見つけてくれよう！
+[k]
+
+[charaFace A 5]
+＠エジソン
+ぬァーにが電撃的だうまいこと言いおって！[r]……むむン、本当にうまいこと表現してみせたな天才め！
+[k]
+
+[charaFace A 1]
+＠エジソン
+だが真に電撃的な超高速行動を果たすのは私、[r]ひれ伏せ[#犯人:テスラ]！　特許を取った発明品も私の方が多い！
+[k]
+
+[charaFace B 4]
+＠ニコラ・テスラ
+……！
+[k]
+
+[charaFace B 3]
+＠ニコラ・テスラ
+まだ数の多寡なぞを口にするとはな。[r]だが残念。いや当然の話だがな、ライオン丸君。
+[k]
+
+[charaFace B 0]
+＠ニコラ・テスラ
+現代ではより正しい評価がなされている事を、[r]まだご存じなかったようだ。
+[k]
+
+[charaFace B 1]
+＠ニコラ・テスラ
+はははは！　このニコラ・テスラこそ、[r]エジソンを超える真の天才として知れ渡りつつあると！
+[k]
+
+＠ニコラ・テスラ
+映画の題材として扱われるのも、[r]ここ数年は貴様よりこのテスラが多いのだよ！
+[k]
+
+[charaFace A 4]
+[charaShake A 0.05 3 3 0.25]
+＠エジソン
+ショック！　もしや貴様、フィクションの中で[r]電送複製装置とか作っちゃったりしてたワケか[line 3]！
+[k]
+
+＠エジソン
+いいなー！
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+[wt 0.7]
+[charaFace A 0]
+[wt 0.7]
+[charaMoveReturn A 250,0 0.2]
+[charaEffect B bit_talk_13]
+[wt 0.1]
+[se bac9]
+[charaFace B 4]
+[charaShake B 0.05 3 3 0.4]
+[wt 0.7]
+
+[charaFace A 1]
+＠エジソン
+失礼。そこに交流の虫がいたもので。
+[k]
+
+[charaTalk B]
+[charaFace B 5]
+[wt 0.1]
+[se ad62]
+[charaEffect A bit_talk_lightning_02t]
+[charaShake A 0.05 3 3 0.4]
+[charaFace A 4]
+[wt 1.4]
+[seStop ad62 0.7]
+[charaEffectStop A bit_talk_lightning_02t]
+[wt 1.0]
+
+[charaFace B 1]
+＠ニコラ・テスラ
+失敬。そこに直流の猫がいたもので。
+[k]
+
+[charaFace A 0]
+[charaFace B 0]
+＠エジソン
+…………
+[k]
+
+＠ニコラ・テスラ
+…………。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 5]
+＠エジソン
+よし。戦争か？
+[k]
+
+[charaFace B 5]
+＠ニコラ・テスラ
+無論。戦争だ。
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[charaFadeout A 0.4]
+[wt 0.7]
+
+[shake 0.05 0 5 1.5]
+[se ad63]
+[seVolume ad63 0 0.5]
+[wt 1.5]
+
+[bgmStop BGM_EVENT_3 0.4]
+＠エレナ
+こらー！　さっきから延々と何やってるの！
+[k]
+
+＠エレナ
+もう、いい歳でしょうに！[r]ふたりともいい加減になさいな！
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk off]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠紳士と獅子
+げえっ！！　キミは！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+＠エレナ
+バーベキューの時といい、[r]どーしてあなたたち[#天才児]は懲りないのかしら。
+[k]
+
+＠エレナ
+いくつになっても子供のままね。[r]そういうの、あたしも嫌いではないけれど[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠エジソン
+う、うむ。
+[k]
+
+＠ニコラ・テスラ
+……うむ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エレナ
+人前でこんなに大暴れしちゃうなんて、[r]どういう事なのかしら。
+[k]
+
+＠エレナ
+喧嘩するくらい力が有り余ってるなら[r]お祭りに行ってきたら、とは言った覚えがあるわ。
+[k]
+
+[charaFace C 4]
+＠エレナ
+……もしかして、あたしのせい？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaShake B 0.05 3 3 0.25]
+[charaShake A 0.05 3 3 0.25]
+＠エジソン
+い、いやそれはない！　それはないぞ！
+[k]
+
+＠ニコラ・テスラ
+うむ！　ついつい口火を切ってしまっただけだ！
+[k]
+
+[charaFace A 4]
+＠エジソン
+そうだな……[r]ここはカルデア内。闘技場ではないというのに。
+[k]
+
+[charaFace B 4]
+＠ニコラ・テスラ
+事件を口実として好き放題やりかけてしまった。[r]そしてカルデア職員たちにも迷惑をかけた。
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+[charaTalk off]
+＠紳士と獅子
+……心から、すまない。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk on]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エレナ
+分かってるなら、よくってよ。[r]あと、ちゃんと皆にあやまっておきなさい。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk off]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠紳士と獅子
+はい……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaTalk on]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaSet A 7009001 1 アステリオス]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 6010001 1 ステンノ]
+[charaSet D 4001001 1 メドゥーサ]
+[cameraMove 0.1 0,0 1.1]
+[charaScale A 0.91]
+[charaScale B 0.91]
+[wt 1.5]
+
+[scene 21100]
+[fadein black 1.5]
+[se ad37]
+[wait fade]
+
+[wt 0.5]
+[seStop ad37 2.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠アステリオス
+ぼく、さんかしたい。[r]ちからくらべなら、ぼくも、じしんある……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠エウリュアレ
+ううん、そうなの？[r]せっかく涼しくて穏やかな島にいるのだから、
+[k]
+
+＠エウリュアレ
+べつに、戦ったりしなくてもいいのに。[r]それとも、あなたには[#此処:ここ]は退屈すぎるかしら。
+[k]
+
+[charaFace B 0]
+＠エウリュアレ
+シミュレーターというのでしたっけ。[r]ロマンとダ・ヴィンチに作ってもらった、仮初めの島。
+[k]
+
+[charaFace A 3]
+＠アステリオス
+そんなこと、ない。[r]ここは、たのしいよ……
+[k]
+
+[charaFace A 0]
+＠アステリオス
+でも、ぼく、ちからくらべもしてみたい！
+[k]
+
+[charaFace B 4]
+＠エウリュアレ
+もう。一度決めたら聞かないんだもの、[r]あなたも男の子よね。
+[k]
+
+＠エウリュアレ
+いいわ。お祭り、あなたも参加してみなさいな。[r]でも……
+[k]
+
+[charaFace B 0]
+＠エウリュアレ
+いい？　あなたはそれは力持ちだろうけど、[r]あまり無理をしては駄目よ？
+[k]
+
+[charaFace A 3]
+＠アステリオス
+わかった。ありがとう、えうりゅあれ。
+[k]
+
+[wt 0.4]
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaScale A 1.0]
+[charaScale B 1.0]
+[cameraMove 0.1 0,0 1.0]
+[wt 0.2]
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠ステンノ
+……ふうん。
+[k]
+
+＠ステンノ
+どういうのかしらね、ああいうの。
+[k]
+
+[charaFace C 1]
+＠ステンノ
+[#私:エウリュアレ]ったら、自分がどういう顔をしてるか[r]気付いてるのかしら？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠メドゥーサ
+（上姉様も、今とても素敵な顔をなさってます！）
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_2 2.0]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ステンノ
+メドゥーサ。ちょっとこっちに来なさいなー？
+[k]
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaSet A 5005001 1 アンデルセン]
+[charaSet B 5007001 1 シェイクスピア]
+[charaSet C 1013001 1 カエサル]
+[wt 1.5]
+
+[scene 11010]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠アンデルセン
+誰かと思えばマスターか。[r]帰れ。
+[k]
+
+[charaFace A 5]
+＠アンデルセン
+オリンピアの祭典の再現だの何だの、[r]コロッセウムだのと。完全に体育会系のイベントだ。
+[k]
+
+＠アンデルセン
+俺たちの出番はないだろう。[r]アサシン相手？　[charaFace A 2]知るか、バーサーカーでも出せ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠シェイクスピア
+至極残念ではありますがマスター、[r]吾輩も今回ばかりは断固拒否いたしますぞ。
+[k]
+
+[charaFace B 4]
+＠シェイクスピア
+何か、着想の元となりそうな[r]面白い出来事でもあれば別ではありますが……
+[k]
+
+[charaFace B 5]
+＠シェイクスピア
+しかし今回はともかく肉体、肉体、肉体！[r]まさしく肉体の祭典たるオリンピアの再来なれば！
+[k]
+
+[charaFace B 0]
+＠シェイクスピア
+我らはやはり籠もって執筆にいそしむべきかと。[r]はい。どうかお分かりいただきたい。
+[k]
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_2 0.7]
+[se ad73]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 512,0]
+[charaAttack C normal 0,0 0.7]
+＠カエサル
+余も来たぞ。混ぜてくれ作家ども！[r]来た、見た、寝たーッ！
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_7 0.1]
+[se ad73]
+[charaAttack C normal -512,0 0.7]
+[charaFadeout C 0.7]
+[wt 1.0]
+[se ad7]
+[shake 0.05 0 4 0.4]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠シェイクスピア
+ソファを軋ませながらの見事なリラックス姿勢とは、[r]なかなかに見事な自堕落ぶりですな！
+[k]
+
+＠シェイクスピア
+まるで〆切前の文筆家さながら！[r][line 3]ああ、[charaFace B 1]そういう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠アンデルセン
+そいつも正真正銘の文筆家ではあるだろうよ。[r]何せ、かのガリア戦記の作者と来る。
+[k]
+
+[charaFace B 0]
+＠シェイクスピア
+おお、戦記物というのも良いですな。[r]如何です、国ごとに執筆者を変えるというのは？
+[k]
+
+[charaFace A 1]
+＠アンデルセン
+シェアードワールド式の作劇か。悪くない。[r]表で祭りをやっている最中、俺たちも遊んでみるか。
+[k]
+
+＠シェイクスピア
+そうと決まれば早速[line 3]
+[k]
+
+＠カエサル
+ＺＺｚｚｚ……！！
+[k]
+
+[charaFace B 2]
+[messageShake 0.05 6 6 0.6]
+＠シェイクスピア
+もう就寝なさっておられる[line 2]！？[r]しかも、この堂々たる寝息の勇ましさたるや！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaSet A 3004001 1 カルナ]
+[charaSet B 2015001 1 アルジュナ]
+[wt 1.5]
+
+[scene 20803]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠カルナ
+オレも、皇帝ネロの宣言を聞いた。[r]趣旨のすべてを理解できたかは自信がないが[line 3]
+[k]
+
+＠カルナ
+マスター。[#此処:ここ]に、オレは誓いたい。
+[k]
+
+[charaFace A 1]
+＠カルナ
+勝利にも敗北にも[#拘:こだわ]ることなく、[r]祭典というモノに相応しい戦いぶりを見せる、と。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠アルジュナ
+……[#斯様:かよう]な機会が巡って来ようとは、[r]思いもよらなかった。この幸運とマスターに感謝を。
+[k]
+
+[charaFace B 0]
+＠アルジュナ
+この祭典、この戦いに[r]貴様が全力を傾けると言うならば、私もまた戦おう。
+[k]
+
+[charaFace B 5]
+＠アルジュナ
+貴様の敵として！[r]貴様の息の根を、三度、止める機会を私は[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFace A 0]
+[charaFadein B 0.1 -268,0]
+[charaFadein A 0.1 268,0]
+＠カルナ
+オレも詳しくはないのだが、祭典での戦いは[r]シミュレーターを利用したものだそうだ。
+[k]
+
+[charaFace B 0]
+＠アルジュナ
+何、そうなのか。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+＠カルナ
+命の奪い合いをせずに力比べが叶う、という事らしい。[r]現代の技術にはいつも驚かされてばかりだ。
+[k]
+
+[charaFace A 1]
+＠カルナ
+思えばジナコが興じているゲームにしてもそうだ。[r]電子の働きを利用する事で疑似的な知能を発生させて、
+[k]
+
+＠カルナ
+音を鳴らし、[#画:え]を動かすという。[r]脳裏に浮かぶ伝説の様子さえ、虚像として浮かばせる。
+[k]
+
+[charaFace B 4]
+＠アルジュナ
+ゲーム……？
+[k]
+
+[charaMove B -272,0 0.05]
+[wt 0.05]
+[charaMove B -264,0 0.1]
+[wt 0.1]
+[charaMove B -268,0 0.05]
+[wt 0.05]
+[charaFace B 5]
+＠アルジュナ
+いや。違う。何か違う。話を逸らすなカルナ！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaSet A 2002001 1 ギルガメッシュ]
+[charaSet B 4012000 1 オジマンディアス]
+[charaSet C 5012001 1 ニトクリス]
+[wt 1.5]
+
+[scene 29320]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+＠ギルガメッシュ
+下らぬ[line 6]
+[k]
+
+＠ギルガメッシュ
+下らぬ……実に、下らぬ事もあったもの……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠オジマンディアス
+まったくだ……[r]話にならぬ。何故なのかを口にするのさえ、下らぬ……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+＠ギルガメッシュ
+気が合うな。太陽の。
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+当然である。黄金の。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠ニトクリス
+そうです、そうです。その通りなのです。[r]今さら古代ローマの祭典の真似事、などと片腹痛い！
+[k]
+
+＠ニトクリス
+畏れ多くもファラオが[#顕:あらわ]れたのです、[r]ならば古きものの復活は[#此方:こちら]に任せるべき！
+[k]
+
+[charaFace C 8]
+＠ニトクリス
+あ、或いは、ええ。[r]より古く尊き王たる御方が在るのであれば……
+[k]
+
+＠ニトクリス
+いえこの場合どうなるのでしょう、ええと、[r]幾ら古き王とはいえどファラオでなき以上は……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠ギルガメッシュ
+話は、至極単純だ。[r]誰が最強などと、とうに明らかであろうが。
+[k]
+
+[charaFace B 8]
+＠オジマンディアス
+貴様の言う通りであるな。[r]その通り。最強の英霊が誰かなどと[line 3]
+[k]
+
+＠オジマンディアス
+太陽が中天に輝くのと同じように、自明の理である。[r][#殊更:ことさら]に競うなどというのは愚かの極みであろう。
+[k]
+
+[charaFace A 1]
+＠ギルガメッシュ
+フッ……言葉を飾り過ぎだ。[r]流石の[#我:オレ]でもいささか気恥ずかしいではないか。
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+何。構うものか。照れるのは余の方だ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+[charaMove C -6,0 0.1]
+[wt 0.1]
+[charaMove C 6,0 0.2]
+[wt 0.2]
+[charaMove C -6,0 0.2]
+[wt 0.2]
+[charaMove C 6,0 0.2]
+[wt 0.2]
+[charaMove C 0,0 0.1]
+[wt 0.1]
+＠ニトクリス
+（はらはら）
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_1 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaSet A 4013001 1 メイヴ]
+[charaSet B 3011001 1 フィン・マックール]
+[charaSet C 1014001 1 フェルグス]
+[charaSet D 3013001 1 スカサハ]
+[wt 1.5]
+
+[scene 20160801]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+＠メイヴ
+…………なーにがネロ祭、よ！
+[k]
+
+＠メイヴ
+せっかくの夏、せっかくの水着の時は出番ナシだし。[r]クーちゃんがいたのに私全然出番ナシよ！？
+[k]
+
+[charaFace A 4]
+＠メイヴ
+魔法少女？　とかの時には出番あったらしいけど、[r]何も覚えていないしクーちゃんは縮んでたらしいし！
+[k]
+
+＠メイヴ
+やっと出番があったと思ったら[r]またクーちゃんいないし、何なの、もう……
+[k]
+
+[charaFace A 5]
+＠メイヴ
+寄ってくるのは好みじゃない男ばっかり！[r]まわりが楽しそうだと二倍で苛つくわ！　泣きそう！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠フィン・マックール
+そう機嫌を悪くしてばかりではいけない。[r]笑顔にこそ、幸運と幸福は引き寄せられるものだ。
+[k]
+
+＠フィン・マックール
+それに、そう不運ばかりではないだろう？[r]こうしてキミは私に会えた。
+[k]
+
+＠フィン・マックール
+自慢ではないが、私は強い。[r]もしも味方にしたならば祭典の制覇も夢では[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠メイヴ
+ああ……どこかにいい[#戦士:おとこ]、いないかしら……[r]この際、マスターでもいいんだけどなぁ……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 3 3 0.25]
+＠フィン・マックール
+うむ、完全に視界にすら入っていないときた！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.4]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 0.3]
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フェルグス
+おお、怒る怒る。怒っておる。[r]……いやいや、[charaFace C 1]怒る女王メイヴもまた良いものだなぁ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth C 0]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠スカサハ
+何を、知った風な口を。[r]貴様はどうせ体しか見ておらんのだろうが。
+[k]
+
+[charaFace C 5]
+＠フェルグス
+いや、いや。そんな事はない。なくもないが、[r]常にそういう視点でしか愛さぬ訳ではない。
+[k]
+
+＠フェルグス
+権謀術数と支配の女王としての顔ならともかくな、[r]ああしてただの女のように振る舞うあれは悪くないぞ。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+ふむ、そういうものか。
+[k]
+
+[charaFace C 1]
+＠フェルグス
+そうだとも。あれは時には恐ろしい女だが、[r]時には[#佳:い]い女だ。
+[k]
+
+[charaFace D 1]
+＠スカサハ
+そうか。[r]おぬしは大らかさも時には短所よな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_2 1.0]
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠スカサハ
+まあ、メイヴめの[#放蕩:ほうとう]はいつもの事として。[r]今回の祭典は、いささか胸が躍るな。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace D 1]
+＠スカサハ
+これだけの英傑が揃っているのだ。[r]私を上回る者も何人かいよう。……ふふ。ふふふふ……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フェルグス
+ゴクリ……[r]（全力でやる気だな姐さん……）
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaSet A 4023001 1 坂田金時]
+[charaSet B 7023001 1 源頼光]
+[charaSet C 4014001 1 牛若丸]
+[charaSet D 3006001 1 弁慶]
+[wt 1.5]
+
+[scene 10800]
+[fadein black 1.5]
+[wt 0.5]
+[se ad5]
+[wait fade]
+
+[wt 1.0]
+[seStop ad5 2.0]
+[wt 1.0]
+[bgm BGM_EVENT_2 1.0]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠坂田金時
+おお、あれがコロッセウムって奴だな！[r]なかなかゴールデン、ゴージャスな場所じゃねえか！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠源頼光
+なるほど。あそこが。[r]ではいよいよ、源氏の本領を発揮せねばなりませんね。
+[k]
+
+[charaFace B 5]
+＠源頼光
+よろしいですね金時。あなたがかつて、[r]土蜘蛛による黒き異界へと赴いた時のこと……
+[k]
+
+＠源頼光
+または、空に届くほどの[#神虫:しんちゅう]が如き大土蜘蛛との争い。[r]ああした真の窮地を思い出すのです。
+[k]
+
+＠源頼光
+もはや遠慮は要りません。[r]存分に、その力をマスターと私へ見せるのですよ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠坂田金時
+ハハ！　なーに言ってんだ頼光の大将、[r]そいつは[#いくさ]の心意気だ！
+[k]
+
+＠坂田金時
+祭りってんだから、せいぜい祭りのケンカ程度で……
+[k]
+
+[bgmStop BGM_EVENT_2 0.7]
+＠源頼光
+いいえなりません。なりませんよ金時。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠牛若丸
+御意にございますご先祖様！[r]敵めの首、ことごとく取ってご覧に入れまする！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+＠弁慶
+牛若様がそう申されるのであれば拙僧めも！[r]次から次へと敵兵の首根っこを引っこ抜きますぞ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_3 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠坂田金時
+おう、オマエら完全にノリが違ぇじゃん！[r]殺しとか首とかナシだからな！
+[k]
+
+[charaFace A 2]
+＠坂田金時
+ノー・キル！　ノー・デス！　イエス・オリンピアだ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠源頼光
+いいえなりません！[r]やるからには、徹底的にやらねば負けますよ金時！
+[k]
+
+[charaFace A 5]
+＠坂田金時
+なるっつーの！　なんで猛ってンだよ頼光の大将！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaSet A 6021001 1 酒呑童子]
+[charaSet B 7022001 1 茨木童子]
+[wt 1.5]
+
+[scene 20602]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠酒呑童子
+[line 3]ふふ、揃いも揃ったみたいやねぇ。[r]なんや、どんだけ暇人がいたもんかと思うたけど？
+[k]
+
+＠酒呑童子
+ずいぶん豪勢なお祭りみたいやさかい、[r]せやねぇ。せいぜい、引っ掻きまわしたろか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠茨木童子
+任せておけ酒呑！[r]如何に人間の英傑どもが集まろうと物の数ではない！
+[k]
+
+＠茨木童子
+むしろ、数が多ければ多いほどに[r][#吾:われ]の炎は燃え盛る。おりんぴあの祭典、何のその。
+[k]
+
+[charaFace B 2]
+＠茨木童子
+かの祭典には火が用いられると聞く。[r]ならばその火、我が[#叢原火:そうげんび]に取り込んでくれん！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠酒呑童子
+ああ、聖火やったっけ？[r]そういうんは、[#此処:ここ]にはないんとちゃう？
+[k]
+
+[charaFace A 0]
+＠酒呑童子
+あと茨木の。悪だくみしたいんやったら、[r]マスターはんの前で言いはったら、あかんのとちゃうの？
+[k]
+
+[charaFace B 4]
+＠茨木童子
+む。そうか。それならどうしたものかな……。[r]うーん……。
+[k]
+
+[charaFace B 0]
+＠茨木童子
+悪だくみは中止する！[r]だが、とりあえず[#吾:われ]は酒呑と一緒にいるぞ！
+[k]
+
+＠酒呑童子
+好きにしはったらよろしゅおす。[r]それより、うちら[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠酒呑童子
+そうそう、うちらはマスターはんの敵どしたっけ？[r]味方なんどしたっけ？
+[k]
+
+[charaFace A 1]
+＠酒呑童子
+…………敵やったら堪忍な。ふふ。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaSet A 98001000 1 マシュ]
+[wt 1.5]
+
+[scene 10400]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+みなさんそれぞれ、やる気充分！　でしたね！
+[k]
+
+＠マシュ
+今回のお祭りも賑やかになりそうです、先輩。[r]わたしも楽しみです[line 3]
+[k]
+
+？1：メダル集めとか、がんばろう！
+？2：楽しいお祭りにしようね
+
+？！
+
+＠マシュ
+はい、先輩！[r]精一杯、楽しんじゃいますね！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,210 @@
+
+＄94-00-56-01-1-0
+
+[soundStopAll]
+[se ad37]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 1001001 1 アルトリア]
+[charaSet D 98006000 1 ？？？]
+[charaSet E 3013001 1 スカサハ]
+
+[scene 10000]
+[fadein black 1.0]
+[wait fade]
+[wipeout circleIn 1.0 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……ぱい。[r]せんぱい。
+[k]
+
+[messageOff]
+[scene 21100]
+
+[fadeMove black 0.1 0.7]
+[wipein circleIn 0.7 1]
+[wait wipe]
+[wipeout circleIn 0.7 1]
+[wait wipe]
+[fadeMove black 0.1 0.4]
+[wt 0.1]
+[wipein circleIn 0.7 1]
+[wait wipe]
+[wipeout circleIn 0.7 1]
+[wait wipe]
+[fadeMove black 0.1 0.0]
+[wt 0.2]
+
+[wipein circleIn 2.0 1]
+[wait wipe]
+
+[bgm BGM_EVENT_5 0.1]
+[seStop ad37 5.0]
+
+[charaFace A 13]
+＠マシュ
+目が覚めましたか、先輩。[r]よかった……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウフォウッ！
+[k]
+
+？1：ここは？
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……わかりません。[r]どうやらレイシフトが正常に働かなかったようです。
+[k]
+
+＠マシュ
+少なくとも、[r]ここが当初の目的地でない事だけは確かだと思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウー。
+[k]
+
+[charaFace A 0]
+＠マシュ
+いつものようについてきてしまったフォウさんをはじめ、[r]人的被害は幸いにしてゼロに等しいようですが[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[se ad15]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター？　……ドクター？
+[k]
+
+[se ad31]
+[wt 1.5]
+[seStop ad31 3.5]
+
+[charaFace A 0]
+＠マシュ
+……このように、カルデアとの通信は[r]完全に途絶してしまっています。
+[k]
+
+＠マシュ
+なので、ここがどこなのかもわからない状況です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アルトリア
+この南国風の植物からして、少なくともブリテンでは[r]なさそうですが[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+ふむ。少なくともいま問題なのは、だ。[r]ここが何処か、ではなく、何が居るか、のようだな。
+[k]
+
+[bgmStop BGM_EVENT_5 3.0]
+＠スカサハ
+マスター、後ろだ。
+[k]
+
+？1：……へ？
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、危ない！
+[k]
+
+？2：やだ……私の背後、がら空きすぎ？
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+冗談を言っている場合ではありません……！[r]危ない！
+[k]
+
+？！
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.3 0.5]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.2]
+[wipein rectangleStripLeftToRight 0.3 0.5]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠？？？
+…………！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+くっ……見たこともない敵性生物です！[r]乱暴ですが、まずは迎撃しましょう、マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠スカサハ
+ふふ。見知らぬ土地に、見知らぬ敵か。[r]これはいい具合に事態が乱れてきたと見た！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

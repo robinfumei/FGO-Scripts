@@ -1,0 +1,1621 @@
+
+
+＄94-00-77-15-1-1
+
+[soundStopAll]
+[charaSet A 1010001 1 エリザベート]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 6008001 1 クレオパトラ]
+[charaSet D 2008000 1 トリスタン]
+[charaSet E 7002002 1 ランスロット]
+[charaSet F 5012001 1 ニトクリス]
+[charaSet G 4012000 1 オジマンディアス]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[bgm BGM_EVENT_1 0.1]
+[scene 20901]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 2]
+[charaFadein E 0.4 0]
+
+＠トリスタン
+……お見事。[r]これは先ほどとは違う、完璧なる敗北……
+[k]
+
+＠トリスタン
+フッ……実によろしい。[r]胸のすく、晴れやかな敗北でした。
+[k]
+
+
+[charaFace E 2]
+＠謎の黒騎士
+（そうだろうか……[r]　私はどうも殴られ損な気がするのだが……！）
+[k]
+
+
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 5 5 0.7]
+
+＠クレオパトラ
+……まさか、[#私:わたくし]が敗北するなんて……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+勝負ありよ！[r]チェイテ城は返してもらうわ！
+[k]
+
+＠エリザベート
+あと、ピラミッド何とかして！[r]というか、こんなモノ持ち込まないでよね！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFadein A 0.1 2]
+
+＠クレオパトラ
+……それは……むつかしいですね……。
+[k]
+
+[charaFace A 8]
+＠エリザベート
+はい？
+[k]
+
+＠クレオパトラ
+……その、このピラミッドは[#妾:わらわ]が[r]持ち込んだものではないので。
+[k]
+
+[charaFace A 5]
+＠エリザベート
+じゃ、誰がこんなはた迷惑な代物を、[r][#私:アタシ]の城に落としたワケ！？
+[k]
+
+＠クレオパトラ
+それは[line 3]
+[k]
+
+[bgmStop BGM_EVENT_1 0.3]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.4]
+
+＠G：？？？
+[f large]それは余だ！
+[k]
+
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠エリザベート
+だ、誰！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+こ、このお声は！？
+[k]
+
+＠ニトクリス
+まさか！？[r]まさか、まさかの、まさか！？
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 2]
+[scene 20901]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[bgm BGM_EVENT_7 0.1]
+
+[charaFadein G 0.4 1]
+
+＠オジマンディアス
+誰かと問われれば答えよう。[r]我が名は太陽を統べる王、オジマンディアス！！
+[k]
+
+[charaFace G 1]
+＠オジマンディアス
+フハハハハ！　クレオパトラ！[r]いや、なめし革の如く、完膚なきまでのされたな！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+お、お恥ずかしいところを！[r]ファラオの名を冠しながら、この体たらく……！
+[k]
+
+＠クレオパトラ
+これ以上の羞恥は耐えられませぬ。[r]この素っ首、切り落としてもよろしいでしょうか！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+え、ちょっとここでそういう血生臭いのは止めてね！？[r]今からハロウィンの飾り付けをするんだし！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+良い、そこの痩せ細った娘の言うとおり。[r]この城は今から飾り付けなければならぬ。
+[k]
+
+[charaFace G 8]
+＠オジマンディアス
+その血は、祭りを穢すもの。[r]そこで耐えるが何よりの罰と知れ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+……ははぁ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+オジマンディアス……つまり、ラムセス二世！[r]そんな大物がこんなおかしな特異点に現れるのか……！
+[k]
+
+＠Dr.ロマン
+子供の[#喧嘩:イベント]に大人が出てくるようなもの[r]じゃないかなぁ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠オジマンディアス
+大人とて遊ぶときは遊ぶ。[r]大きなお友達とはそういう意味だと聞いたが？
+[k]
+
+[charaFace G 0]
+＠オジマンディアス
+しかし、だからこそ安心するがいい。[r]余が戦うことはない。
+[k]
+
+＠オジマンディアス
+このピラミッドではクレオパトラが女王として君臨し、[r]そしておまえたちに敗れたのだ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+まさか、貴方様が……。[r]せめて報せを頂ければ……私もこちら側には……。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+フッ。そう言うなニトクリス。[r]クレオパトラに黙っていろ、と言ったのは余である。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+い、いえ、不満などあろう筈がありません！[r]私こそ失言でございました……！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+……あの。話に全然ついていけないんだけど。[r]エジプトの人たち、結局どーゆーことなの？
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFace C 2]
+[charaFace F 2]
+[charaFadein C 0.1 -350,0]
+[charaFadein F 0.1 350,0]
+
+＠二人
+[f large][messageShake 0.05 5 5 0.7]不敬者！！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+ひゃうん！
+[k]
+
+[charaFace A 5]
+＠エリザベート
+しょうがないでしょ！[r]不敬って言ったって、こっちは全然知らないんだし！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaSet E 2003001 1 ロビンフッド]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠ロビンフッド
+そうそう、結局オタクらは[r]この縁もゆかりもない土地で、何をしたかって話だよ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+フッ、森に住む無貌の王か。
+[k]
+
+[charaFace G 1]
+＠オジマンディアス
+……良かろう、おまえたちも首を捻るだけでは[r]面白くもあるまい。
+[k]
+
+[charaFace G 8]
+＠オジマンディアス
+では問おう。[r]この女、クレオパトラの最期を知っている者はいるか？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 0.3]
+[wipeout leftToRight 0.3 3]
+[wait wipe]
+[charaFadeout G 0.1]
+[scene 20901]
+[bgm BGM_EVENT_1 0.3]
+[charaTalk C]
+[charaFace C 4]
+[wipein rightToLeft 0.3 3]
+[wait wipe]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+……。[r]……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠マシュ
+は、はい。
+[k]
+
+[charaFace B 7]
+＠マシュ
+ローマの将軍であった夫、アントニウスと対立していた[r]アウグストゥスとの間で起きたアクティウムの海戦[line 3]
+[k]
+
+[charaFace B 12]
+＠マシュ
+それに敗れたアントニウスが死んだ後、[r]彼を追うようにして自殺したとされていますが……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+そうだ。[r]プトレマイオス朝はすぐに滅び、国は消え去った。
+[k]
+
+＠オジマンディアス
+こやつは最後のファラオとして名を遺したのだ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+……。[r]……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+故に、この女は願いを持つことを忌避し、[r]今の今までサーヴァントとしての召喚を拒み続けた。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+……どういうことですか？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+こやつは、個人的な願望を抱いている。
+[k]
+
+[charaFace G 1]
+＠オジマンディアス
+サーヴァントとして聖杯戦争に参加しなければ[r]叶えられぬ願いがな。
+[k]
+
+＠オジマンディアス
+だがな、それは[#ファラオたるものの願いではない]。[r]市井にすらありふれている、他愛もない願いよ。
+[k]
+
+[charaFace G 8]
+＠オジマンディアス
+国を滅ぼしたという責任感に囚われ、[r]こやつはその願いを押し込めていた。
+[k]
+
+[charaFace G 2]
+＠オジマンディアス
+自分のように国を滅ぼしたファラオが、[r]願いを持ってはならないとな！
+[k]
+
+[charaFace G 4]
+＠オジマンディアス
+だが。いい加減千年二千年と苦しみ続けるほどの[r]ものでもあるまいと、余が機会を与えたのだ。
+[k]
+
+[charaFace G 0]
+＠オジマンディアス
+これより、ハロウィンが終わるまでの間……。
+[k]
+
+＠オジマンディアス
+この逆さまとなったピラミッドにて、[r]滞りなく女王クレオパトラとして執政せよ。
+[k]
+
+＠オジマンディアス
+さすれば与えた聖杯で、[r]汝の望みを叶えることを許すとな。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+聖杯を……！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+そしておまえは敗北した。[r]異存あるまいな、クレオパトラ？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+……はい。
+[k]
+
+＠クレオパトラ
+やはり、[#私:わたくし]のような者が[r]望みを持つのは間違いだったと思い知りました。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+ふむ、するとおまえはその願望を押し殺したまま、[r]永遠に目を背け続けるという訳か！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+それが国を滅ぼした[#私:わたくし]の、[r]せめてもの贖いです。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+……。[r]……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……。[r]……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+……。[r]……。
+[k]
+
+[charaFadeout F 0.1]
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.4]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+……フ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+フハハハハ！　フハハハハハハ！！[r]それがおまえの答えか！？
+[k]
+
+＠オジマンディアス
+笑止千万！　アヌビスも腹を抱えて笑い出すだろう！[r]聞いたか、そこな細い小娘！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+だから、ちゃんとエリザベートかもしくは[r]親しみを込めてエリちゃんと呼びなさいよ！
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+む。そうか、では改めて、エリチャンとやら！[r]何か言いたいことがあれば、言ってやるがいい！
+[k]
+
+[charaFace G 1]
+＠オジマンディアス
+その突拍子もない傲慢さを、[r]余は買っているのでな！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠マシュ
+普通にエリちゃんって言いました！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_6 0.3]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+じゃあ、言うわよ。
+[k]
+
+＠エリザベート
+えーっと……あのね、クレオパトラ。[r]アンタ、
+[k]
+
+[charaFace A 2]
+＠エリザベート
+[f large]バカ
+[k]
+
+＠エリザベート
+じゃないの？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+なっ……！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+[#私:アタシ]が言ったでしょ！[r]アイドルと執政、どちらも取るって！
+[k]
+
+＠エリザベート
+アンタだって、ふぁ、ふぁらお？　の立場と、[r]個人的な願望、両方持ってていいじゃない！
+[k]
+
+＠エリザベート
+バンバン聖杯戦争に召喚されて、[r]願いを叶えるために努力すればいいじゃない！
+[k]
+
+＠エリザベート
+[#私:アタシ]がやれることを、[r]どうしてアンタがやれないの？
+[k]
+
+＠エリザベート
+やれるでしょ？[r]アンタなら、華麗に踊りながらでもこなせるでしょ？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+それは……！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+その、言いたくないけど。
+[k]
+
+＠エリザベート
+アイドルに浮かれてハロウィンを疎かにしていた[#私:アタシ]より、[r]アンタの方が執政者としては、ちょっぴり上……かもだし。
+[k]
+
+[charaFace A 5]
+＠エリザベート
+個人の願望を持ったって、大丈夫よ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+……いいのかしら……[r][#私:わたくし]が、そんな[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+だーいーじょーぶー！[r]ね、[&子イヌ:子ジカ]もそう思うでしょ？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+人類最後のマスター、[%1]よ！[r]貴様も何か言いたそうだな。
+[k]
+
+＠オジマンディアス
+よいぞ、トドメをくれてやれ！[r]遠慮なしにこの小娘に告げるがいい！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+
+
+？1：あなたは[#我が侭:わがまま]になっていい
+
+＠クレオパトラ
+[#我が侭:わがまま]……。
+[k]
+
+＠クレオパトラ
+……そう、そうですね。[r][#私:わたくし]はずっと、そうありたいと思っていた。
+[k]
+
+？2：クレオパトラらしくすればいい
+
+＠クレオパトラ
+クレオパトラ……らしく。[r]……そう、ですね。
+[k]
+
+＠クレオパトラ
+ずっとそうあろうと思っていたのに[line 3]
+[k]
+
+＠クレオパトラ
+いつしか[#私:わたくし]は、ファラオとしての側面しか[r]見せられないようになっていた……。
+[k]
+
+？！
+
+[charaFace C 4]
+＠クレオパトラ
+太陽王、オジマンディアス様。[r]ホルスの化身、ニトクリス様。
+[k]
+
+＠クレオパトラ
+お許し下さい、[#私:わたくし]は今日よりファラオとして[r]だけでなく、クレオパトラとしての自分を受け入れます。
+[k]
+
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace G 1]
+[charaFace F 1]
+[charaFadein G 0.1 0]
+[charaFadein F 0.1 2]
+
+
+＠ニトクリス
+許します。歴史に刻まれたその名を以て、[r]後ろで歩む者たちの力となりなさい。
+[k]
+
+＠オジマンディアス
+許す。どこまでも高慢に、傲慢に、[r]クレオパトラという名を輝かせるがいい！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+……[%1]。
+[k]
+
+[charaFace C 1]
+＠クレオパトラ
+我が名はクレオパトラ七世。[r]かつてファラオであった者。
+[k]
+
+＠クレオパトラ
+これより、[#私:わたくし]は人の歴史を紡ぎ続けるための[r]護り手として、英霊召喚に応じます。
+[k]
+
+＠クレオパトラ
+その暁には、アサシンのサーヴァントとして[r]この体、この声、この美貌を存分に振るいましょう。
+[k]
+
+[charaFace C 2]
+＠クレオパトラ
+つまり[line 3]アナタには勿体ない栄光を、[r]諦めて甘受しなさいというコトよ！
+[k]
+
+？1：いつでも歓迎します！
+？！
+
+[charaFace C 3]
+＠クレオパトラ
+[line 3]っ。
+[k]
+
+＠クレオパトラ
+よ、よき返答です[%1]！[r]ここまで見事だったわ、まずは疲れた体を癒やすコトね！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+よし、これで万事解決ね！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaFace B 0]
+[charaFadein B 0.1 2]
+
+[charaSet D 98105300 0 茨木童子]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaMove D -256,-4 0.1]
+[wait charaMove D]
+
+[charaChange D 7022001 0 normal 0]
+[wait charaChange D]
+[charaMove D 0 0.1]
+[wait charaMove D]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaChange D 98105300 0 normal 0]
+[charaMove D -256,-4 0.1]
+[wait charaMove D]
+
+
+＠茨木童子
+む。話は終わったか。[r]（ばりばり）
+[k]
+
+[charaFace B 6]
+＠マシュ
+茨木童子さん……もう少し、落ち着いて食べましょう。[r]ハロウィンが始まれば、お菓子はいくらでもありますから。
+[k]
+
+[charaSet D 98105300 0 茨木童子]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaMove D -256,-4 0.1]
+[wait charaMove D]
+
+[charaChange D 7022001 0 normal 0]
+[wait charaChange D]
+[charaMove D 0 0.1]
+[wait charaMove D]
+
+[se ad182]
+[seVolume ad182 0 0.2]
+[charaChange D 98105300 0 normal 0]
+[charaMove D -256,-4 0.1]
+[wait charaMove D]
+
+[charaChange D 7022001 0 normal 0]
+[wait charaChange D]
+[charaMove D 0 0.1]
+[wait charaMove D]
+
+[charaFace D 5]
+＠茨木童子
+食べておらぬ。[r][#吾:われ]は菓子など食べておらぬ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+……そういえば、他愛もない願いってどんなの？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+そ、それは……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+
+＠ニトクリス
+聞いたことありませんね……。[r]差し支えなければ、教えなさい。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+はい、ニトクリス様がそう仰るのであれば。[r]望みは……幾つかあるのですが。
+[k]
+
+[charaFace C 4]
+＠クレオパトラ
+やはり、かつて愛を育んだ者との再会でしょうか。[r]別にやり直したいという訳ではないのですが……。
+[k]
+
+[charaFace C 0]
+＠クレオパトラ
+今でも思い出します。
+[k]
+
+[charaFace C 3]
+＠クレオパトラ
+ほっそりとしていながら力強い腕で抱き締められ、[r]愛を囁かれたあの日のことを……。
+[k]
+
+＠クレオパトラ
+眉目秀麗、痩けた頬骨すら妖美で……。[r]誠実さの塊のような、あの方……。
+[k]
+
+＠クレオパトラ
+そう……。[r]カエサル様に[line 3]！
+[k]
+
+[bgmStop BGM_EVENT_6 1.0]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……。[r]……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet D 98002000 1 フォウ]
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠フォウ
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠ロビンフッド
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠ニトクリス
+……。[r]……。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠オジマンディアス
+……。[r]……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+……。[r]……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaSet E 7002002 1 ランスロット]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠謎の黒騎士
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaSet D 2008000 1 トリスタン]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠トリスタン
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaSet D 7022001 1 茨木童子]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠茨木童子
+[FFFFFF]？[r]どうした？　真の敵、登場か？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[messageOff]
+
+？1：集合、全員集合
+？！
+
+[bgm BGM_EVENT_7 0.7]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+マスター……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+ねえ、これヤバくない？[r]カエサルって、あのカエサルよね？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はい、カルデアでもっとも信用してはならない[r]三大サーヴァント、大体黒幕の誉れも高きカエサルさんです。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+[charaSet E 98105100 1 カエサル]
+
+＠Dr.ロマン
+……ちなみにカルデアにいる[r]カエサルはこんな感じだよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+
+
+
+[charaTalk E]
+[charaFace E 1]
+[charaEffect E bit_talk_10]
+[wt 0.05]
+[charaFadein E 0.1 1]
+[wt 1.5]
+[charaPut E 1,-1000]
+[charaEffectStop E bit_talk_10]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 0]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+
+＠オジマンディアス
+[line 3]っ！
+[k]
+
+[charaTalk F]
+
+＠ニトクリス
+ごは！？
+[k]
+
+[charaFadeout G 0.4]
+[charaFadeout F 0.4]
+[se ad144]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+……お二人が悶絶して倒れてしまいました。
+[k]
+
+[charaFace B 4]
+＠マシュ
+あ、いえ、オジマンディアス王はお腹を抱えて[r]笑うのを堪えているようです……
+[k]
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet E 2003001 1 ロビンフッド]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠ロビンフッド
+そりゃあ、初めて見たときのインパクト[r]凄いからな、コイツ……。
+[k]
+
+？1：真実を伝えるべきだろうか？
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 12]
+[charaFace A 7]
+[charaFadein A 0.1 0]
+[charaFadein B 0.1 2]
+
+
+＠マシュ
+……それは止めた方が……。[r]夢を壊すようなものですし……。
+[k]
+
+＠エリザベート
+でも……いつか露呈することよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet D 2008000 1 トリスタン]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠トリスタン
+悲しい……人は変わりゆくもの……。[se ad150][r]老いは醜いものではないというのに……。
+[k]
+
+[charaFadeout D 0.1]
+[messageOff]
+
+
+[charaSet E 98105100 1 カエサル]
+[charaTalk E]
+[charaFace E 1]
+[charaEffect E bit_talk_10]
+[charaFadein E 0.1 1]
+[charaEffectStop E bit_talk_10]
+[wt 1.5]
+[charaPut E 1,-1000]
+[charaEffectStop E bit_talk_10]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 8]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠トリスタン
+……老いどころではないですね……。[r]今の歌は忘れて下さい……。
+[k]
+
+[charaFace D 4]
+＠トリスタン
+この方はどう見てもストレスによる過食……[r]ああ、哀しい……
+[k]
+
+＠トリスタン
+これほどの変貌を遂げるストレスなど、[r]アグラヴェインと同格でしょうに[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaSet D 98002000 1 フォウ]
+[charaTalk D]
+[charaFadein D 0.1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+そこ、何を楽しそうにやっているのかしら！？[r][#妾:わらわ]も混ぜてほしいのだけど！
+[k]
+
+＠クレオパトラ
+そもそも、何故偉大なるファラオたちが[r]突如腹痛を起こしたが如く悶絶をしているのです！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ちょ、ちょっと待って下さいね！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+え、どうしたキミ？[r]私を喚ぶ声がした？　その声に応じる？
+[k]
+
+＠Dr.ロマン
+お、おい待ってくれ。[r]勝手にレイシフトしないで[line 3]！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ドクター？[r]ドクター……！？
+[k]
+
+[se ad12]
+
+[charaFace B 6]
+＠マシュ
+ほ、本当にレイシフトしてきました……！
+[k]
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+ピンチ！[r]それってつまり……！
+[k]
+
+[charaFadeout A 0.1]
+[seStop ad12 0.4]
+[wt 0.1]
+
+＠？？？
+[f large][messageShake 0.05 5 5 0.7]私は来た！
+[k]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+
+＠クレオパトラ
+……！[r]このお声は……！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ああ……来てしまいました……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+＠？？？
+私は見た！
+[k]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+カエサル様……！？[r]そんな、もう再会だなんて！
+[k]
+
+＠クレオパトラ
+か、鏡。[r]誰か鏡を持ってきて下さらない！？
+[k]
+
+＠クレオパトラ
+戦いの後で化粧とか流れてないかしら！[r]大丈夫、大丈夫よね！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+＠？？？
+ならば次は、姿を現すだけのこと！
+[k]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+カエサ[line 6]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+[se ad120]
+[charaSet E 1013001 1 カエサル]
+[charaTalk E]
+[charaFace E 1]
+[charaEffect E bit_talk_41]
+[charaFadein E 0.1 1]
+[wt 0.1]
+[cameraMove 0.2 0,0 1.6]
+[wait camera]
+[cameraMove 0.2 0,0 1.1]
+[wait camera]
+[cameraMove 0.2 0,0 1.4]
+[wait camera]
+[cameraMove 0.2 0,0 1.0]
+[wait camera]
+[cameraMove 0.2 0,0 1.2]
+[wait camera]
+[cameraHome 0.2]
+[wait camera]
+[wt 0.5]
+
+
+
+＠カエサル
+[f x-large]私だ！
+[k]
+
+[charaEffectStop E bit_talk_41]
+[wt 0.4]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+[se ad 119]
+
+＠クレオパトラ
+[f x-large]え゛
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+
+＠カエサル
+はっはっは、久しいなクレオパトラ。[r]うむ？　そう言えばこの姿で会うのは初めてか。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+……。[r]……。
+[k]
+
+[charaShake C 0.05 1 1 0]
+[charaFace C 4]
+＠クレオパトラ
+……。[r]……。
+[k]
+
+＠クレオパトラ
+……きゅぅ。
+[k]
+
+
+[charaMove C 1,-200 1.0]
+[wait charaMove C]
+[charaFadeout C 0.4]
+[se ad144]
+
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+ああ、やっぱり……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet D 7022001 1 茨木童子]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠茨木童子
+現実を受け入れられずに、[r]気絶することで逃避したか……。
+[k]
+
+＠茨木童子
+人間とは[#柔:よわ]い生き物よのぅ。[r]食い出があると、前向きに考えれば良かろうに。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[messageOff]
+[effect bit_talk_20]
+[se bas2]
+[wt 2.0]
+[effectStop bit_talk_20]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マシュ
+あ、聖杯の欠片が出ました。[r]一応、回収します。
+[k]
+
+
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クレオパトラ
+……うう……丸い……丸い何かが……。[r]ころころころころ……うう……。
+[k]
+
+
+[charaFadeout C 0.1]
+[charaShakeStop C]
+
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠エリザベート
+……今すぐピラミッドと一緒に出て行けとは[r]言えないわね……。
+[k]
+
+＠エリザベート
+心の傷が癒えるまで、[r]ここでゆっくり休んでもらいましょう。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+ハロウィンが始まれば、[r]少しは心も和むかもしれません。
+[k]
+
+[charaFace B 1]
+＠マシュ
+そうですね、クレオパトラさんのためにも、[r]わたしたちで精一杯、ハロウィンを盛り上げましょう！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠カエサル
+良かろう！　それで私は誰を騙[line 3]いや、[r]説得すればいいのかな？
+[k]
+
+[charaFace E 1]
+＠カエサル
+しばらく出番がなかったからな！　溜めに溜めた[r]私の[#舌鋒:ぜっぽう]は、いまやランサーの如しだぞ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マシュ
+クレオパトラさんの心の傷が癒えるまで、[r]身を隠してあげて下さい……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet D 98002000 1 フォウ]
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_7 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.4]
+[charaFadeout D 0.1]
+[soundStopAll]
+[end]

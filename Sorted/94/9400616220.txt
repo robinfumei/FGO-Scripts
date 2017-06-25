@@ -1,0 +1,377 @@
+
+＄94-00-61-62-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 9004000 1 マルタ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 7008001 1 ベオウルフ]
+[charaSet F 98101200 1 うりぼう]
+[charaSet G 6001002 1 小次郎]
+[charaSet H 3004001 1 カルナ]
+
+[scene 20523]
+
+[charaBackEffect D bit_talk_41_black_out]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠マルタ
+ずっりゃあああああああ！！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaPut D 1200,1200]
+[charaBackEffectStop D bit_talk_41_black_out]
+
+[bgmStop BGM_EVENT_3 0.1]
+[se bac171]
+[shake 0.05 0 4 1.0]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+行動停止！　これで戦闘勝利と見なして[r]よろしいでしょうか、お二人とも！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠小次郎
+[line 3]いや、見事見事。[r]やはりお主こそは救世主。
+[k]
+
+[charaFace G 1]
+＠小次郎
+その拳であらゆる苦難を打ち払う、[r]転輪聖王といったところであろう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+いや、私は王様じゃないんだけど。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠カルナ
+ともかく、おまえは道を切り開いた。[r]それでは、我々の王に会って貰おうか。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、マルタさん。[r]いよいよベオウルフさんです。
+[k]
+
+＠マシュ
+油断せず、気を引き締めて、[r]がっつり[line 2]。
+[k]
+
+
+？1：ぶちかましてやりましょう、姐さん！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+だーかーらー！
+[k]
+
+＠マルタ
+そーゆーあらぬ疑いが掛かりそうな[r]三下口調は禁止だってーの！
+[k]
+
+
+？2：聖女様、お願いします
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マルタ
+え、あ、あら。
+[k]
+
+＠マルタ
+……コホン、私は聖女と尊ばれるほどの[r]者ではありませんが[line 3]。
+[k]
+
+＠マルタ
+ここは一つ、制さ……説教……そう、説教！[r]有り難い説教をしてあげましょう！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠フォウ
+……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFace D 0]
+[charaFadein G 0.1 2]
+[charaFadein D 0.1 0]
+
+＠小次郎
+物理でな、と言いたそうでござるなあ。[r]フォウ殿。
+[k]
+
+＠フォウ
+フォウ！？
+[k]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_7 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+
+[charaSet H 98101600 1 ？？？]
+
+[wt 0.5]
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……居ました、ベオウルフさんです！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad60]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠ベオウルフ
+ウェルカム！[r]よく来たな、てめーら！
+[k]
+
+＠ベオウルフ
+いいね、熱い風が吹いてきやがる。[r]この闘気……生半可な[#格闘士:グラップラー]じゃねえな！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マルタ
+……いえ、私はただ主を信じる女。
+[k]
+
+[charaFace B 5]
+＠マルタ
+[#格闘士:グラップラー]ではなく[#拳闘士:ボクサー]でもなく[#投闘士:レスラー]でもありません。[r]……ないってば。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+またまたご冗談を！[r]これだけの闘気を纏うなら、男も女も関係ねえ！
+[k]
+
+＠ベオウルフ
+さぞかし名の有るファイターなんだろ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マルタ
+私の名はマルタ、ただのマルタです。[r]……聖女と呼ぶ者もいますが。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+なるほど……[#凄女:せいじょ]か……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マルタ
+そうです、そう！[r]さあ、ベオウルフ。
+[k]
+
+＠マルタ
+弱者を守り、導くというサーヴァントの本分に[r]お戻りなさい……。
+[k]
+
+＠マルタ
+こう、キラキラした光も出しますし、[r]何だったら賛美歌とか流しますよ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ベオウルフ
+さぞかし[#窮極:アルテマ]な技を使うんだろうな……。[r]何しろ凄女だからな……。
+[k]
+
+[charaFace E 4]
+＠ベオウルフ
+え？　今、何か言ったか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace A 6]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFace A 14]
+＠マシュ
+フォウさん、しーっ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+＠ベオウルフ
+まあ、とりあえずは魔猪ども！[r]てめえらで歓迎してやれ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[se ad109]
+[charaTalk H]
+[charaFadein H 0.1 1]
+[wt 2.0]
+
+[charaFadeout H 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+ああ、何ということでしょう。[r]本来、獣に罪などないというのに[line 2]。
+[k]
+
+[messageOff]
+[charaShake B 0.05 3 3 0.5]
+[fowardEffect bit_talk_13]
+[se bac11]
+[wt 1.0]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+直撃しました！[r]マルタさん、大丈夫ですか……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+……。[r]……。
+[k]
+
+[charaFace B 5]
+＠マルタ
+[line 3]ええ、うん、いいわ。[r]いいでしょう、[se bac180]お望み通り拳闘しましょう。
+[k]
+
+＠マルタ
+掛かってこ……きなさい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

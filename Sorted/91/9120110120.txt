@@ -1,0 +1,158 @@
+＄91-20-11-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10902]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 2011001 1 ニコラ・テスラ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 98006100 1 ？？？]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+敵性勢力、撃破しました。[r]戦闘終了です[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[se ad21]
+[wt 0.3]
+＠？？？
+[line 6]。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+……っ！？[r]まだ、残って……！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ニコラ・テスラ
+雷電一閃ッ！！
+[k]
+
+[messageOff]
+[se ad61]
+[seStop ad61 4.0]
+[backEffect bit_talk_lightning_01t]
+[wt 1.0]
+[charaFadeout C 0.1]
+[wt 0.2]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.2]
+[effect bit_talk_lightning_03t]
+[backEffectStop bit_talk_lightning_01t]
+[se ad63]
+[flashin once 0.1 0.3 FFFFFFAF 00000000]
+[flashin once 0.1 1.2 FFFFFFAF 00000000]
+[wt 0.8]
+[charaSpecialEffect E enemyErasure 1 3]
+[wt 1.0]
+[se ba5]
+[wait charaSpecialEffect E]
+[bgmStop BGM_EVENT_3 0.4]
+[wt 0.5]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk C]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠ニコラ・テスラ
+油断は命取りになる。[r]注意したまえ。
+[k]
+
+＠ニコラ・テスラ
+あれは、気配遮断スキルに相当する[r]大魔術なりを内包した魔術書の類だろう。
+[k]
+
+[charaTalk A]
+[charaFace A 8]
+＠マシュ
+ありがとうございます、ミスター。[r]……今後、注意します。
+[k]
+
+[charaTalk C]
+[charaFace C 4]
+＠ニコラ・テスラ
+呼吸を整えておきたまえ。[r]さあ、大物が来る。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あっまたボクより早く[line 2][r]彼の言う通り、巨大な魔力反応がそこにあるぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……わたしも感じます。[r]竜種にも近い、ここまで巨大な魔力の凝集は！
+[k]
+
+[charaTalk E]
+[bgmStop BGM_EVENT_2 0.4]
+[se ad23]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+＠？？？
+[fontSize large]ＧＡＡＡＡＡＡＡＡＡ！！[fontSize -]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そ、その反応！！[r]もしかして本物の悪魔か何かじゃないか[line 2]！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ニコラ・テスラ
+はははははははは！！[r]問題ない！
+[k]
+
+＠ニコラ・テスラ
+旧き世界の神秘なるもの！[r]ははは！　如何に巨大・強大・甚大であろうとも！
+[k]
+
+[charaFace C 2]
+＠ニコラ・テスラ
+私がいる！[r]新たな世界を拓くもの、人類神話を導く叡智！
+[k]
+
+＠ニコラ・テスラ
+すなわち！[r]人類神話・雷電降臨[line 2]である！！
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

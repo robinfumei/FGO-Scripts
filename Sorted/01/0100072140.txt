@@ -1,0 +1,152 @@
+
+
+
+＄01-00-07-21-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 3028000 1 ジャガーマン]
+[charaSet E 98079000 1 山の翁]
+
+[scene 35500]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+防衛していたラフム変異体、撃退！[r]これよりティアマト神[line 3]
+[k]
+
+＠マシュ
+いえ、ビーストⅡの頭部を目指します！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マーリン
+女神エレシュキガルの加護で空中歩行もできるのか！[r]……いや。待て。[charaFace B 5]マシュと[%1]君もか？
+[k]
+
+[charaFace B 4]
+＠マーリン
+……そうか。なんとも悲しい話だ。[r]けど、それが彼女の選択なら仕方あるまい。
+[k]
+
+
+[charaFace A 6]
+＠マシュ
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ベル・ラフム、そちらに接近！[r]速いぞ！？　飛行形態に特化した新タイプだ！
+[k]
+
+＠Dr.ロマン
+しかも[line 3]この魔力量、魔神柱を上回る！[r]コイツらはビーストⅡ、直属の使い魔と思ってくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャガーマン
+フッ、今さらその程度で怖じ気づく私たちじゃニャいぜ、[r]かかってき[line 3]
+[k]
+
+[charaEffect D bit_talk_14]
+[wt 0.1]
+[se bac11]
+[charaShake D 0.05 3 3 0.4]
+[charaMove D 0,-128 0.4]
+[charaFadeout D 0.4]
+[wt 0.4]
+[se ad75]
+[seVolume ad75 0 0.4]
+[wt 0.2]
+
+＠ジャガーマン
+ぬかった[line 4]！[r]そいつらマジ強いニャ[line 4]！
+[k]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ジャガーマン脱落！　違った、墜落！[r]まだまだ来るぞ、合計十一体！
+[k]
+
+＠Dr.ロマン
+これがビーストⅡの、本当の子供たちという事か！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠山の翁
+[line 3]それは斬り甲斐がある。[r]角一本を砕いただけでは、この剣も錆びるというもの。
+[k]
+
+＠山の翁
+カルデアの魔術師よ。[r]暗殺者の助けは必要か？
+[k]
+
+？1：キングハサンさん！
+？2：是非お願いします！
+
+？！
+
+[charaFace E 0]
+＠山の翁
+承諾した。[r]これより我が名、我が剣は汝との[#縁:えにし]を[#繋:つな]ごう。
+[k]
+
+＠山の翁
+冠位の[#銘:な]は原初の海への手向けとしたが、[r]我が暗殺術に[#些:いささ]かの衰えもなし。
+[k]
+
+[charaFace E 5]
+＠山の翁
+契約者よ。告死の剣、存分に使うがよい。[r][line 3]願わくば、[#末:すえ]永くな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……！[r]こんなに頼もしい援軍はありません！
+[k]
+
+＠マシュ
+戦闘、開始します！[r]敵はラフム変異体、彼らを突破してビーストⅡの頂点へ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]

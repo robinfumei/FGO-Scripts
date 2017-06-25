@@ -1,0 +1,333 @@
+
+＄91-90-02-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[seLoop ad14]
+[shake 0.05 1.5 1.5 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 9002001 1 天草四郎]
+[charaSet D 11001001 1 アンリマユ]
+
+[se ad33]
+[wait se ad33]
+[se ad32]
+[wt 0.5]
+[se ad33]
+
+[scene 20230]
+[fadein black 1.0]
+[wt 1.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+[wt 0.4]
+[charaEffect C bit_talk_14]
+[charaFace C 5]
+[wt 0.1]
+[charaMove C -50,0 0.1]
+[se bac10]
+[wait se bac10]
+
+[wt 1.5]
+[charaFace C 4]
+[wt 0.5]
+
+＠天草四郎
+……私の、[wt 0.7]敗北ですね。
+[k]
+
+[wait charaMove C]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+でも、聖杯が……！
+[k]
+
+[charaFadeout A 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+
+＠Dr.ロマン
+不味いぞ。[r]キミたちを急いでそこから離脱させる！
+[k]
+
+＠Dr.ロマン
+破壊手段がない以上、[r]ひとまず避難するしか……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+いえ、[wt 0.5][charaFace C 0]コレは私が破壊しましょう。[r]敗北した以上、それがケジメというものです。
+[k]
+
+[charaFace C 1]
+
+＠天草四郎
+……貴方との会話は有意義でした、アンリマユ。[r]さようなら。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠アンリマユ
+そうかい？　ガス抜き程度にはなったんなら、[r]ま、危ない目にあった甲斐もある。
+[k]
+
+[charaFace D 1]
+
+＠アンリマユ
+後始末は任せたぜ。オレ、基本的にさぼり魔だから。[r]あんまり起こしてくれるなよー？
+[k]
+
+
+[messageOff]
+[charaSpecialEffect D flashErasure 1 3]
+[wt 1]
+[se ad52]
+[wait charaSpecialEffect D]
+[wt 0.5]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[wt 1.5]
+[charaFace C 5]
+[wt 0.7]
+
+[charaFace C 2]
+
+[se ad39]
+[charaEffect C bit_talk_36]
+
+＠天草四郎
+宝具起動。[wt 1.0][r]『[#双腕・零次集束:ツインアーム・ビッグクランチ]』……！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 1.0]
+[se ad39]
+[wait se ad39]
+[charaEffectStop C bit_talk_36]
+[flashin once 0.5 0.1 FFFFFFFF FFFFFF40]
+[shake 0.05 10 10 2.0]
+[voice NP_900200_3]
+[voiceStop NP_900200_3 2.0]
+
+[fadeout white 2.0]
+[voice NP_900200_4]
+[voiceStop NP_900200_4 6.0]
+
+[seStop ad14]
+
+[wait fade]
+[wt 5.0]
+
+[charaEffectStop C bit_talk_37]
+
+[charaFadeout C 0.1]
+[wt 1.0]
+
+
+[bgm BGM_EVENT_2 0.5]
+
+[scene 10204]
+[fadein white 2.0]
+[wt 1.5]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.7 1]
+
+＠Dr.ロマン
+……冷や汗ものだったよ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+いや全く。[r]しかし困ったことに、私は反省しておりません。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠Dr.ロマン
+さて……[%1][&君:ちゃん]。[r]彼のマスターはキミだ。
+[k]
+
+＠Dr.ロマン
+マスターへ叛逆した以上、[r]処分をどうするかはキミに一任しよう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+……。[r]……。
+[k]
+
+？1：保留で
+？2：反省してくれればいい
+？！
+
+[charaFace C 4]
+
+＠天草四郎
+それだけですか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠Dr.ロマン
+はあ……何となく、そうなる気がしてたけど。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+マスター。私にとって、聖杯は……[r]いえ、聖杯のもたらす力は悲願そのもの。
+[k]
+
+＠天草四郎
+恐らく、同じ事態が起きた場合、[r]私は間違いなく、聖杯を手に入れようとするでしょう。
+[k]
+
+？1：それは仕方のないことだ
+？！
+
+＠天草四郎
+仕方が、ない……？
+[k]
+
+＠天草四郎
+……その、次にそうなったとしたら、[r]マスターはどうするのです？
+[k]
+
+[charaFace C 5]
+
+＠天草四郎
+[&貴方:貴女]は私を、また止めるのですか？
+[k]
+
+？1：止める
+？！
+
+[charaFace C 4]
+
+＠天草四郎
+……なるほど。この件に関して、[r]マスターとは絶対に分かり合えないでしょう。
+[k]
+
+？1：それでいい
+？！
+
+[charaFace C 5]
+
+＠天草四郎
+……何ですって？
+[k]
+
+？1：何度でも止める
+？！
+
+＠天草四郎
+マスターである限り、[&貴方:貴女]は私を止める……と。[r]何度でも……ですか。
+[k]
+
+[charaFace C 4]
+
+＠天草四郎
+参りましたね。サーヴァントである以上、[r]マスターを裏切ることはできない。
+[k]
+
+[wt 1.2]
+[charaFace C 0]
+[wt 0.5]
+[charaFace C 1]
+
+＠天草四郎
+……分かりました。[&貴方:貴女]が私のマスターである限り、[r]私は己の夢を封じましょう。
+[k]
+
+＠天草四郎
+分かり合えずとも、共に戦うことはできる。[r]いつか離れるとしても、手を握ることはできる。
+[k]
+
+＠天草四郎
+[&貴方:貴女]がそうやって、私を信じてくれるのならば[line 3][r]私もまた、自身の願いを封じ続けると誓いましょう。
+[k]
+
+[wt 0.5]
+
+[charaFace C 3]
+
+＠天草四郎
+……それはそれとして、[r]せめて罰として何かお願いします。
+[k]
+
+＠天草四郎
+そうでなくては、いくら何でも私の気が収まりません。
+[k]
+
+？1：……部屋の掃除……とか……？
+？！
+
+[charaFace C 0]
+
+＠天草四郎
+ありがとうございます、マスター。
+[k]
+
+[charaFace C 1]
+
+＠天草四郎
+では、天草四郎時貞。[r]張り切って部屋の掃除をやらせていただきましょう！
+[k]
+
+[messageOff]
+[fadeout black 3.0]
+[bgmStop BGM_EVENT_2 3.0]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+
+

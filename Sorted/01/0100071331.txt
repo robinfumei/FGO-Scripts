@@ -1,0 +1,1141 @@
+
+
+
+
+
+
+
+
+＄01-00-07-13-3-1
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet F 3027000 1 アナ]
+[charaSet G 98107600 1 祭祀長シドゥリ]
+[charaSet H 5018001 1 ギルガメッシュ]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 32800]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+
+＠ケツァル・コアトル
+ワーオ、メチャクチャに壊した筈の壁が[r]しっかり直ってマース！　ウルクの人たち凄いデース！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+当然よ。ウルク市民はみんな働きものなんだから。[r]永久素行問題児は金ピカだけってね。
+[k]
+
+[charaFace C 1]
+＠イシュタル
+ま、その金ピカ王も今回はさすがに頭を下げるでしょう！
+[k]
+
+＠イシュタル
+“よもやケツァル・コアトルまで仲間に引き入れようとは！[r][f small]  [f -]やはり勝利の女神だったかイシュタルッッッ！”ってね。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+ああ、それは私も同意見だ。
+[k]
+
+＠マーリン
+ギルガメッシュ王はケツァル・コアトルの撃破のみを[r]イメージしていたからね。
+[k]
+
+＠マーリン
+[%1]君のあの行動ばかりは[r]読めていなかったと思うよ？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠アナ
+………………。
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+？1：……どうかした、アナ？
+
+？！
+
+＠アナ
+……門番の方がいません。[r]血の匂いはしませんが、何か嫌な予感がします……
+[k]
+
+＠アナ
+……[%1]。[r]気になる事があるので、別行動させてください。
+[k]
+
+＠アナ
+……無事を確かめたら、[r]すぐにカルデア大使館に向かいますので。
+[k]
+
+[messageOff]
+[se ad59]
+[charaFadeout F 0.4]
+[seStop ad59 1.5]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……確かにウルク全体から活気が消えています。[r]あれほど響いていた工事の音も聞こえません。
+[k]
+
+[charaFace B 7]
+＠マシュ
+市内に急ぎましょう、マスター。[r]何かあったと見るべきです。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 32900]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+
+＠マーリン
+通りに誰も出歩いていないな。[r]交換所も閉鎖しているとは……一体なにが？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaSet F 98107500 1 ウルク兵士]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein A 0.1 2]
+[charaFadein F 0.1 0]
+
+＠ウルク兵士
+マーリン殿、お帰りになられたのですね！[r]ああ、しかし……あまりにも遅すぎた……
+[k]
+
+[charaFace A 2]
+＠マーリン
+ああキミ、ちょうど良かった。[r]いったい何があったんだ？　それに遅すぎた、とは？
+[k]
+
+＠ウルク兵士
+はい……マーリン殿、[r]そしてカルデアの[%1]殿。
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+＠ウルク兵士
+どうか落ち着いてお聞きください。[r]……………………………………………………………………
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaFadein F 0.4 1]
+[wt 0.4]
+
+
+＠ウルク兵士
+…………ギルガメッシュ王が、死去されました。[r]現在、ジグラットで葬儀が執り行われております。
+[k]
+
+[charaFadeout F 0.1]
+[messageOff]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[wt 1.0]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+[wt 1.0]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+？1：な、なんだって[line 6]！？
+
+？！
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wipeout rightToLeft 0.1 1]
+[wait wipe]
+[scene 33100]
+[fadein black 0.1]
+[wait fade]
+[wt 1.0]
+[se ad55]
+[seVolume ad55 0 0.4]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+[seStop ad55 0.7]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+ホントに葬儀が行われてる[line 3]！？[r]シドゥリ、どういう事なのよ、これは[line 3]！
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠祭祀長シドゥリ
+ああ……皆さん……[r]お帰りに……なられたのですね……
+[k]
+
+＠祭祀長シドゥリ
+ですが……残念です。[r]ギルガメッシュ王は、もう……
+[k]
+
+？1：一体なにがあったんですか！？
+？2：どうやったらあの王さまを殺せるんですか！
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マーリン
+そうだ、ギルガメッシュ王が殺される筈がない！
+[k]
+
+＠マーリン
+彼は未来を見据えて自ら魔術師になった男だ！[r]暗殺への対策はしっかり取っていた筈だ！
+[k]
+
+＠マーリン
+戦場での死を避けるため玉座からの指示に徹すると、[r]この僕と約束したんだぞ！？
+[k]
+
+＠マーリン
+そのギルガメッシュを、誰が、[r]どのように殺せるというんだ！
+[k]
+
+？1：マーリン、メチャクチャ怒ってる……
+？2：それは自分も気になる
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠祭祀長シドゥリ
+……王の死因です、か[r]それは[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 1.5]
+[fadeout black 1.5]
+[wait fade]
+[effect bit_sepia01]
+[charaFadeout G 0.1]
+[charaSet A 98107500 1 ウルク兵士B]
+[charaSet B 98107500 1 ウルク兵士C]
+[charaSet C 98107500 1 ウルク兵士D]
+[charaSet D 98107500 1 ウルク兵士E]
+[flashin once 0.1 0.1 000000FF 00000000]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.4 1]
+[charaShake H 0.01 1 1 0.4]
+[bgm BGM_EVENT_40 0.1]
+
+＠ギルガメッシュ
+なんという……おお……なんという恐ろしさか……[r]よもや、これほどの切れ味を見せようとは……！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFadein H 0.1 0]
+
+＠祭祀長シドゥリ
+ギルガメッシュ王！？[r]とつぜん震えだして、お体の具合が悪いのですか！？
+[k]
+
+[charaFace H 2]
+＠ギルガメッシュ
+違うわ、たわけ！[r]ついにナピュシテムの牙の設計図が完成したのだ！
+[k]
+
+[charaFace H 1]
+＠ギルガメッシュ
+見るがいい。そして目を剥くがいい！[r]会心の出来だ。これを兵器舎に届けよ。
+[k]
+
+＠ギルガメッシュ
+時間がない。ウルクで建設するのではなく[r]現地にて直接建造し、二日以内に完成させろ、とな。
+[k]
+
+＠祭祀長シドゥリ
+（ほっ……）いつもの感極まる王気の発露でしたか。[r]ほほう……これは……！
+[k]
+
+＠祭祀長シドゥリ
+外部からの圧力で自動的に段組が組み合わさり、[r]わずか十秒でこれほどの変形を遂げる（予定）とは……！
+[k]
+
+＠祭祀長シドゥリ
+まさに天才の所業です……！[r]王よ、建築家としての道も模索するべきでは！？
+[k]
+
+[charaFace H 1]
+＠ギルガメッシュ
+褒めるな、真剣に迷うであろう。[r]王とは建築学も修めるもの。それでようやく一人前だ。
+[k]
+
+＠ギルガメッシュ
+ところで、そこの[#地獄組:じごくぐみ]は油の圧力で[r]組み上がり、波が押すように上にせり上がる。
+[k]
+
+＠ギルガメッシュ
+麦酒をぐぐっと[#大杯:ジョッキ]で飲み干す仕草に似ている故、[r]我はジョッキアップ式と名付けた。どうか？
+[k]
+
+＠祭祀長シドゥリ
+完璧にございます。[r]特許も取っておきましょう。
+[k]
+
+＠祭祀長シドゥリ
+これこそ、きたるべきゴルゴーン討伐の秘密兵器。[r]先だってニップルに資材を送っておきましょう。
+[k]
+
+[charaFace H 5]
+＠ギルガメッシュ
+たわけ、逆だ。[r]これは此処から此処に、このように配置する。
+[k]
+
+＠祭祀長シドゥリ
+え……なぜそのような場所に？[r]ゴルゴーン討伐はどうするのです？
+[k]
+
+[charaFace H 4]
+＠ギルガメッシュ
+あの女神との対決は[%1]の役割だ。[r][#我:オレ]が茶々をいれてどうする。……む。
+[k]
+
+[messageOff]
+[flashin once 0.2 0.4 000000AF 00000000]
+[wt 0.7]
+
+＠祭祀長シドゥリ
+王……？　やはりお体がよろしくないのでは……？
+[k]
+
+[charaFace H 3]
+＠ギルガメッシュ
+……そうだな。[r]軽い眩暈だが、ここ数日は[#根:こん]を詰めすぎたか。
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]の魔力が落ちれば結界の護りも薄くなる。[r]魔獣どもの襲撃がないとも限らん。
+[k]
+
+＠ギルガメッシュ
+……明日にはマーリンも戻ってこよう。[r]どれ、それまで[line 3]
+[k]
+
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaDepth F 2]
+[charaDepth A 1]
+[charaDepth B 1]
+[charaDepth C 0]
+[charaDepth D 0]
+
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[se ad55]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[seStop ad55 1.5]
+
+＠F：ウルク兵士
+失礼します！[r]ギルガメッシュ王、北壁からの伝令です！
+[k]
+
+[se ad55]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 0]
+[seStop ad55 1.5]
+
+＠A：ウルク兵士
+失礼します！[r]ギルガメッシュ王、東市場からの嘆願書です！
+[k]
+
+[se ad55]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 2]
+[seStop ad55 1.5]
+
+＠B：ウルク兵士
+失礼します！[r]ギルガメッシュ王、娼館からの苦情報告です！
+[k]
+
+[se ad55]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 -512,0]
+[seStop ad55 1.5]
+
+＠C：ウルク兵士
+失礼します！[r]ギルガメッシュ王、祭祀学舎からの要請です！
+[k]
+
+[se ad55]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 512,0]
+[seStop ad55 1.5]
+
+＠D：ウルク兵士
+失礼します！[r]ギルガメッシュ王、巫女所から本日の冠婚葬祭の、
+[k]
+
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+[charaShake H 0.01 0 5 0.4]
+
+＠ギルガメッシュ
+ええい一列に並べ、順を追って片付ける！[r]祭祀長シドゥリ、貴様は兵器舎に走れ！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_40 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout H 0.1]
+[wt 2.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠ギルガメッシュ
+一段落ついたな。[r]ようやく小休止というところか。
+[k]
+
+[charaMoveReturn H 0,-30 0.4]
+[wt 0.1]
+[se ad129]
+[seVolume ad129 0 0.25]
+[wait charaMove H]
+[charaFace H 2]
+＠ギルガメッシュ
+しかし、なんだこの忙しさは！[r]女神どもとの対決の前に、[#我:オレ]を過労死させる気か！
+[k]
+[scene 10000 0.7]
+
+[charaFace H 3]
+＠ギルガメッシュ
+ふう……玉座とは意を示すもの、体を休めるものではないが、[r]今は仕方あるまいよ……
+[k]
+
+＠ギルガメッシュ
+祭祀長シドゥリが戻るまで五分というところか……[r]それまで……しばし……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 2.0]
+[wipeout openEye 2.0 2]
+[wait wipe]
+
+[charaFadeout H 0.1]
+[wt 3.0]
+
+[se ad229]
+[seVolume ad229 0 0.05]
+[seVolume ad229 1.5 0.4]
+[wipein openEye 1.5 1]
+[wait wipe]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.4 1]
+
+＠ギルガメッシュ
+む……眠ってしまったか……[r]今はわずかな時間でも惜しいというのにな……
+[k]
+
+＠ギルガメッシュ
+シドゥリ、[#我:オレ]はどれほど眠っていた？[r]一分か？　五分か？
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[scene 33400 0.7]
+[wt 1.5]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠ギルガメッシュ
+……………………うむ。[r]王が居眠りから覚めると、そこは冥府の底であった、か。
+[k]
+
+[charaFace H 5]
+[messageShake 0.05 5 5 0.7]
+＠ギルガメッシュ
+[line 3]などと言っている場合か[line 3]！[r]本当に死んでいるではないか、我[line 3]！
+[k]
+
+[messageOff]
+[seStop ad229 2.0]
+[bgmStop BGM_EVENT_5 1.5]
+[fadeout black 1.5]
+[wait fade]
+[scene 33100]
+[charaFadeout H 0.1]
+[effectStop bit_sepia01]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[wt 2.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠祭祀長シドゥリ
+……という訳なのです。[r]私が戻ってきた時、王は玉座にて永遠の眠りに……
+[k]
+
+？1：過労死……だと……！？
+？2：だから死体が綺麗なのか……
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+
+＠Dr.ロマン
+いやいや、いくらなんでもそれはない！[r]働きすぎると死んじゃうとか、ボクも他人事じゃないし！
+[k]
+
+＠Dr.ロマン
+あのギルガメッシュ王だよ！？[r]その程度で死ぬようなら、今まで何回死んでるか分からない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マーリン
+そ、それはそうだな。[r]私もあまりの事に冷静さを欠いてしまった。
+[k]
+
+＠マーリン
+思い返してみればウルクの様子もおかしかった。
+[k]
+
+＠マーリン
+シドゥリ殿、我々がウルに向かってから[r]ウルクに異変はあったかな？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠祭祀長シドゥリ
+……そうですね。魔獣たちの侵攻は鎮静化した反面、[r]ウルク市内の衰弱死が多く報告されていました。
+[k]
+
+＠祭祀長シドゥリ
+私も王の葬儀で頭が回りませんでしたが、[r]確かに異常です。これは、まさか[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+不自然にすぎる、という事ね。[r]ギルガメッシュ王は過労死ではなく他殺である……
+[k]
+
+＠ケツァル・コアトル
+となると、これはもう『三女神同盟』の仕業ではなくて？[r]王を殺すなんて、彼女たちにしかできないと思うけれど。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マシュ
+それはそうなのですが……女神ゴルゴーンに[r]このような間接的な殺害が可能でしょうか？
+[k]
+
+？1：ケツァル・コアトルは肉弾だし
+？2：イシュタルは射撃と高笑いだし
+
+？！
+
+＠マシュ
+……はい。『三女神同盟』にも、[r]このような暗殺を行える女神はいないはずです……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk depthOff]
+[charaDepth C 0]
+[charaDepth E 1]
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 0]
+[charaFadein E 0.1 2]
+
+＠イシュタル
+は？　なに言ってるの、アナタたち。
+[k]
+
+[charaFace E 7]
+＠ケツァル・コアトル
+ちょっと、マシュちゃん、[r][%1][&君:さん]？
+[k]
+
+＠ケツァル・コアトル
+イシュタルは『三女神同盟』に入ってないわよ？[r]この子、私たちの邪魔ばっかりしてたでしょ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+あ[line 3]あああ！[r]そういえばそうなります！
+[k]
+
+＠マシュ
+ゴルゴーンの魔獣たちを倒していたのですから、[r]それは女神同盟に反する行いです！
+[k]
+
+＠マシュ
+で、でも、そうなると三柱目の女神は誰なのですか！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+誰って、エレシュキガルよ？[r]今まで知らなかったの？
+[k]
+
+＠ケツァル・コアトル
+このメソポタミアの土着神。[r]冥界の女主人、死と亡霊たちの支配者。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+[messageShake 0.05 5 5 0.4]
+＠イシュタル
+な、なんですって[line 6]！？[r]エレシュキガルのヤツ、いるの！？　なんで！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠マシュ
+イシュタルさんも三柱目の女神の真名を[r]知らなかったのですね……
+[k]
+
+＠マシュ
+でも、どうして……？　この時代に残った[r]シュメルの神性はイシュタルさんだけの筈……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+冥界は健在なり……ああ、なるほど。[r]そうか、そういうカラクリか。
+[k]
+
+＠マーリン
+エレシュキガルが蘇っているのも、[r]イシュタルが気付かなかったのも、当然の摂理だった。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 -256,0 5 0 2]
+
+＠Dr.ロマン
+こら、キミだけ分かった顔をするなマーリン！[r]知っているならちゃんと説明してくれないかな！
+[k]
+
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マーリン
+ああ。シュメル神話において、
+[k]
+
+＠マーリン
+『天の女主人』であるイシュタルと、[r]『冥府の女主人』であるエレシュキガルは犬猿の仲だ。
+[k]
+
+＠マーリン
+実際、イシュタル女神は何の理由もなく冥界に向かい、[r]冥界の七つの門によってその神性を剥がされ、
+[k]
+
+＠マーリン
+エレシュキガルに殺される事さえあったという。[r]そうだね、女神イシュタル？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+……そうよ、悪い？[r]対エレシュキガル用に揃えた[#権能:メ]も、
+[k]
+
+＠イシュタル
+あの忌々しい七門によって剥がされて、[r]最後は裸のままアイツの前に引きずりだされて、
+[k]
+
+＠イシュタル
+容赦なく槍で滅多刺しにされたわよ。[r]それ以来、大の苦手なのよね、アイツ。
+[k]
+
+[charaFace C 10]
+＠イシュタル
+でも、なんでエレシュキガルが[#蘇:よみがえ]っているのよ。[r]しかも『三女神同盟』になんか入って！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マーリン
+そこは本人にしか分からない事情があるんだろう。[r]でもエレシュキガルが蘇った理由は分かる。
+[k]
+
+＠マーリン
+キミだ、イシュタル。[r]キミが召喚された時、エレシュキガルも召喚されたのさ。
+[k]
+
+[charaFace A 0]
+＠マーリン
+だいたいおかしいと思ったんだ。[r]なぜ召喚に成功した巫女長は死亡していたのか？
+[k]
+
+＠マーリン
+それはおそらく、[r]エレシュキガルによって殺されたんだろう。
+[k]
+
+[charaFace A 1]
+＠マーリン
+召喚は一柱でなく二柱だった。[r]キミの依り代になった少女は愉快な性格をしていたのだろう。
+[k]
+
+＠マーリン
+彼女の善性と悪性は綺麗に分かれるものであり、その[r]どちらかがキミになり、もう一方がエレシュキガルになった。
+[k]
+
+？1：つまり……善のイシュタルと、悪のエレシュキガル！
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+そ、そうきたか～～！[r]善の女神だものね、私！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠祭祀長シドゥリ
+ははは。そうですね。ははは。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+？2：まさか……悪のイシュタルと、善のエレシュキガル！
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+分かる分かる、私が善とかちょっと盛りすぎだし？[r]ちょい[#悪:ワル]の方が貢ぎ物をたくさんゲットできるし？
+[k]
+
+
+[charaFace C 1]
+＠イシュタル
+ところで、後で私のエアンナにいらっしゃい、[r][%1]？
+[k]
+
+＠イシュタル
+[#冥界:キガル]より怖ろしい目に遭わせてあげる♡
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+そうか……豊穣の女神であるイシュタルは、[r]人間の生を表すグレートアースマザーと言える。
+[k]
+
+＠Dr.ロマン
+対して、人間の死を表すエレシュキガルは[r]テリブルアースマザーだ。
+[k]
+
+＠Dr.ロマン
+この二柱は表裏一体、[r]同一の神性から生まれたものなのかもだ。
+[k]
+
+＠Dr.ロマン
+生を育んだ女神は、その後、死を象徴する女神になる。[r]日本神話のイザナミもこの例に漏れない。
+[k]
+
+＠Dr.ロマン
+だから[line 3]イシュタルが召喚されたのなら、[r]それに連鎖してエレシュキガルも召喚される。
+[k]
+
+＠Dr.ロマン
+しかもどちらも同じ神性だから、カウント的には[r]『シュメルの神は一柱のみ』となっていたんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+うっわぁ……じゃあなに、アイツ今までこっそり[r]私のこの[#器:からだ]を使ってたかもしれないの！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マーリン
+その可能性はあるだろう。[r]エレシュキガルは冥府から出られない。
+[k]
+
+＠マーリン
+地上で行動する時はキミの肉体を使っていただろう。[r]キミが眠っている時とか、こっそりとね。
+[k]
+
+？1：………………なるほど
+？2：[line 6]なるほど
+
+？！
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_11 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+ウルクに満ちているのはエレシュキガルの死の香気ね。
+[k]
+
+＠ケツァル・コアトル
+エレシュキガルのガルラ霊たちは、[r]体力がなくなったものから魂を抜き取っていく。
+[k]
+
+＠ケツァル・コアトル
+ギルガメッシュ王の魂もガルラ霊によって[r]冥界に連れ去られたのでしょう。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠祭祀長シドゥリ
+！　それでしたらまだ間に合います！[r]王のご遺体はまだ埋葬しておりません！
+[k]
+
+＠祭祀長シドゥリ
+魂さえ冥界の檻から解放すれば、[r]王は再び目を覚ますかと！
+[k]
+
+[charaFadeout G 0.1]
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_4 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+その通りだシドゥリ殿。[r]実際、いまギルガメッシュ王に退場されては困る。
+[k]
+
+＠マーリン
+ゴルゴーン討伐には王様の指揮が必要不可欠だ。[r]となれば[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+冥界に向かい、ギルガメッシュ王の魂を取り戻す……！[r]ですね、先輩！？
+[k]
+
+？1：その通りだ、マシュ！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+げ。ちょっと二人とも、そう簡単に冥界に向かうとか、[r]いくらなんでも勇気ありすぎない？
+[k]
+
+＠イシュタル
+冥界よ、冥界？[r]どんな英霊だろうが神性だろうが無力化する世界よ？
+[k]
+
+＠イシュタル
+あそこじゃエレシュキガルが絶対の法律。[r]何をしても捕まって串刺し刑にされちゃうのよ？
+[k]
+
+？1：ギルガメッシュ王を！
+？2：助け出す！
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ああ、こんなチャンス滅多にないからね！[r]ギルガメッシュ王にめいっぱい貸しを作ってやろう！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk depthOff]
+[charaTalk C]
+[charaFace C 9]
+[charaShake C 0.5 0 3 0]
+[charaFadein C 0.1 1]
+[charaMove C -1000,0 10]
+
+＠イシュタル
+（やば、これやばい流れだわ。[r]　いまのうちに逃げないと[line 3]）
+[k]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+[charaMoveReturn E 0 0.4]
+[se ad7]
+[charaShakeStop C]
+[wt 0.4]
+[charaShake C 0.01 0 10 0.7]
+[charaMove C -128,0 0.4]
+
+＠ケツァル・コアトル
+ハーイ、そうはいきまセーン！[r]イシュタル、冥界への行き方、知ってるわよね？
+[k]
+
+＠ケツァル・コアトル
+ならトットと案内するデース！[r]大丈夫、[%1]なら三柱目も落としマース！
+[k]
+
+[charaFace C 2]
+[charaShake C 0.01 0 1 0.7]
+＠イシュタル
+ちょっ、この[#馬鹿力:バカぢから]ラテン系～～っ！[r]放せ、は[line 2]な[line 2]し[line 2]て[line 2]！
+[k]
+
+＠イシュタル
+もう[#牧羊神:ドゥムジ]もいないのよ！？　死んだら蘇れないのに、[r]なんで冥界なんかに行きたがるのよ[line 3]！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_4 1.4]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[effect bit_talk_telop05]
+[wt 6.0]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.4]
+[soundStopAll]
+[end]
+

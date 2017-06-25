@@ -1,0 +1,261 @@
+
+
+＄94-00-56-06-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+[charaSet A 3004001 1 カルナ]
+[charaSet B 3001001 1 クー・フーリン]
+[charaSet C 6001002 1 小次郎]
+[charaSet D 98100400 1 マシュ]
+[charaSet E 3024000 1 玉藻の前]
+[charaSet F 9004000 1 マルタ]
+[charaSet G 3025000 1 清姫]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠カルナ
+…………。
+[k]
+
+＠クー・フーリン
+ああん？　おい何だよ用心棒。[r]案内してきてんじゃねぇよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+
+＠小次郎
+すまんなぁ。楽しく羽目を外し、[r]そして楽しく負けてしまった故。
+[k]
+
+[charaFace B 0]
+＠クー・フーリン
+ちっ。[r]まあ時間の問題な気はしてたけどよ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFace E 5]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+＠マシュ
+こ、これは……！
+[k]
+
+＠玉藻の前
+ここは……！？
+[k]
+
+？1：建物がある……？
+？2：畑がある……？
+？！
+
+[charaFace D 7]
+＠マシュ
+はい、マスター。規模は小さいですが……[r]わたしたちの拠点とは別の、村、のようですね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠クー・フーリン
+バレちまっちゃあしょうがねぇ。ここはオレたち[r]男衆だけが集まってこっそり作ってた村さ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マルタ
+建物も畑も、[r]わたしたちのものとは方向性が違いますけれど……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠玉藻の前
+む、むぅぅ。意外にしっかりしてるというか、[r]モノによってはこっちのほうが上、のような……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠清姫
+少しだけ、負けた気分、がいたしますね……？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+でも、どうして隠れてこんな場所を？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠クー・フーリン
+隠れてなきゃ意味ねぇさ。[r]男は隠れ家が欲しくなるもんだろうがよ。
+[k]
+
+＠クー・フーリン
+そっちはどんどんモノが作られて便利になっちまう[r]しな……。
+[k]
+
+＠クー・フーリン
+修行がてら、オレたちはオレたちの力で村でも作るか、[r]ってディルムッドたちとも話してたんだよ。
+[k]
+
+＠クー・フーリン
+で、あいつらがいなくなってからもコッソリ隙を見て[r]この村を作り続けてたってワケだ。
+[k]
+
+[charaFace B 3]
+＠クー・フーリン
+なんつーか、な。[r]フィンの野郎も言ってたかもしれねぇが……
+[k]
+
+[charaFace B 0]
+＠クー・フーリン
+右を見ても左を見ても水着の女がいる、ってのは[r]それはそれでこっちにも気苦労があるもんなんだよ。
+[k]
+
+＠クー・フーリン
+フェルグスの叔父貴ならンなこと気にせず好きに[r]やりまくるんだろうがな。
+[k]
+
+
+？1：なるほど……村の名前とかあるの？
+？！
+
+[charaFace B 1]
+＠クー・フーリン
+ん？　そうだなあ……。
+[k]
+
+[charaFace B 0]
+＠クー・フーリン
+オレらに遺志を託したフィンもディルムッドも、[r]オレたちも……ランサーだ。
+[k]
+
+[charaFace B 1]
+＠クー・フーリン
+槍の男たちの村……[r]『ＹＡＲＩＯ村』ってところか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠小次郎
+ふふ。拙者はまぁ、クワを持った百姓の子、[r]というサポートメンバーでござる。
+[k]
+
+？1：…………バンドとか組みそうですね
+？！
+
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠クー・フーリン
+ははっ、なんだそりゃ？[r]面白い冗談だな。
+[k]
+
+＠クー・フーリン
+ま、いつも冷静なカルナが土台のビートを刻んだり[r]するんなら、ウワモノはやりやすいと思うけどよ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠カルナ
+マスターの命さえあるのなら、俺は敵に恐怖を刻む。[r]同じように[line 3]ビートとやらも刻んでみせよう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠クー・フーリン
+冗談だっつってんだろ。まあ広い世界にゃ[r]バンドをやるオレもいるのかもしんねーが、
+[k]
+
+＠クー・フーリン
+それは別のオレで、別のＹＡＲＩＯだ。
+[k]
+
+＠クー・フーリン
+ここにいるオレたちは、夏のＹＡＲＩＯ。[r]一夏だけのスペシャルユニットさ……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+
+＠マシュ
+このクー・フーリンさんもなんだかおかしな台詞を[r]口走っているような気がしますが……。
+[k]
+
+[charaFace D 0]
+＠マシュ
+男性サーヴァントの皆さんも意外と羽目を外して[r]楽しんでいる、というのだけは理解できました。
+[k]
+
+[charaFace D 13]
+＠マシュ
+ここはどうやら彼らの楽園のようです。[r]そっとしておきましょう、ＹＡＲＩＯ村は……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]

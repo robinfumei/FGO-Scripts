@@ -1,0 +1,97 @@
+
+
+
+＄01-00-07-17-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98107800 1 ラフム]
+[charaSet B 3028002 1 ジャガーマン]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 2020001 1 イシュタル]
+
+[scene 32702]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[wt 0.2]
+[charaEffect A bit_talk_12_blue_L]
+[wt 0.1]
+[se bac139]
+[charaShake A 0.05 4 4 0.4]
+[wt 0.7]
+＠ラフム
+ギャシャ[line 3][r]ギャ、[charaShake A 0.05 3 3 0.7]キキキキキキキキキキキキキ！
+[k]
+
+[bgmStop BGM_EVENT_3 0.7]
+[messageOff]
+[charaSpecialEffect A enemyErasure 1 1.7]
+[se ad42]
+[wait charaSpecialEffect A]
+[seStop ad201]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ジャガーマン
+……つい本気を出してしまったわ。[r]しかしノー[#後悔:ザンゲ]、ノー[#冥福:サンゲ]。餓鬼にかける情けなし、よ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+やれば出来るじゃないジャガー。[r]ついに本性を出したってところ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠ジャガーマン
+フッ、まあニャ。[r]この状況、いつまでも虎ではいられな、
+[k]
+
+[messageOff]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad236]
+[charaChange B 3028000 3 fade 0.1]
+[wt 0.7]
+
+[charaFace B 4]
+＠ジャガーマン
+はい、元に戻りました！　でもそんな場合じゃなし、[r]私の事はスルーしてくださって結構です！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠イシュタル
+当然、ノンストップでエリドゥに向かうわよ。
+[k]
+
+＠イシュタル
+コイツら、物凄い速さで変化している。[r]一刻も早く、さらわれた人間たちを助けないと！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[soundStopAll]
+[end]

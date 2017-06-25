@@ -1,0 +1,126 @@
+＄01-00-05-21-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet B 4013001 1 メイヴ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 1019001 1 ラーマ]
+
+[scene 11210]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ナイチンゲール
+無限とは言い難いですね。
+[k]
+
+＠ナイチンゲール
+時間をかければ無限というだけで、[r]ここまでくれば、減数の速さが勝る。
+[k]
+
+＠ナイチンゲール
+魔術においても、科学においても。[r]彼女は追い詰められていると言っていいでしょう。
+[k]
+
+＠ナイチンゲール
+ただ[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠メイヴ
+[line 2]ハ、ハハ。[r]ハハハハハ！
+[k]
+
+[charaFace B 5]
+＠メイヴ
+……追い詰められている？[r]私が？　逆よ、逆。
+[k]
+
+[charaFace B 0]
+＠メイヴ
+追い詰めているのが、私なの。[r]ホワイトハウスにいらっしゃいな。
+[k]
+
+[messageOff]
+
+[charaFadeout B 0.4]
+[wt 0.8]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ラーマ
+チッ……間合いに入らなんだ。[r]『[#羅刹を穿つ不滅:ブラフマーストラ]』は投擲武器ということ、知っていたか。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+行きましょう、皆さん。[r]……間に合わないかもしれませんが。
+[k]
+
+？1：間に合わない？
+？2：何が？
+？！
+
+＠ナイチンゲール
+……分かりません。[r]ただ、彼らは秘密の刃を隠し持っています。
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+[#彼女:メイヴ]の笑みは余裕から出たものではなく、[r]こちらを嘲弄したものでもありません。
+[k]
+
+＠ナイチンゲール
+あの笑みは略奪の笑み。
+[k]
+
+＠ナイチンゲール
+こちらが大事にしていたものを破壊するときの、[r]たまらない嗜虐の笑みです。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+我々ではない。[r]我々なら、すぐにその切り札を出している。
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+ならば[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ラーマ
+うむ、ナイチンゲールの言いたいことは分かるが、[r]ともかく追おう。
+[k]
+
+[charaFace E 2]
+＠ラーマ
+さあ、ホワイトハウスへ向かうぞ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+[soundStopAll]
+[end]
+

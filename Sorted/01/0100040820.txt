@@ -1,0 +1,237 @@
+＄01-00-04-08-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 10960 0]
+[wipeFilter circleIn 0.4 1.0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 6007002 1 ハイド]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠シェイクスピア
+大英帝国の象徴のひとつたる大英博物館！[r]その、跡地[line 3]
+[k]
+
+[charaFace D 4]
+＠シェイクスピア
+嗚呼、なんと痛ましい光景なのでしょうか、[r]人類史の至宝の数々を納めたはずの大博物館のこの姿！
+[k]
+
+＠シェイクスピア
+吾輩は嘆息を禁じ得ません。[r]此処に納められていたのは世界と人類の歩みそのもの。
+[k]
+
+[charaFace D 5]
+＠シェイクスピア
+このような所行が許されるものでしょうか！　嗚呼！[r]それは、かのアレクサンドリア図書館の焼却にも似て！
+[k]
+
+[charaFace D 4]
+＠シェイクスピア
+実に、痛ましい[line 3]
+[k]
+
+＠シェイクスピア
+しかし、しかし。[r]これもまた人の所行なのでしょう。
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+愚かしさも痛ましさも、紛うことなき人の在りよう。[r][#神は、我々を人とするために欠点を与えるもの:You gods, will give us. Some faults to make us men.]。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+……前に来た時と様子は変わらないな。[r]瓦礫。廃墟。それだけだ。
+[k]
+
+＠モードレッド
+ここを破壊したヤツは個人的な恨みもあったんだろうさ。[r]生存者は皆無だな。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+ここが、大英博物館……その跡地。[r]画像データでのみ、偉容を目にしていましたが……
+[k]
+
+＠マシュ
+建造物への破壊が行われていないロンドンで、[r]ここだけが、こんな風に……
+[k]
+
+？1：痛ましいね
+
+？2：廃墟は好きになれないな
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい、先輩……[r]はい……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+では肉体労働組。[r]あー、特にセイバーとマシュ・キリエライト。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFace E 5]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+＠マシュ
+はい。
+[k]
+
+＠モードレッド
+あ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+このあたりを掘り返してみてくれ。ジキル氏の話に[r]よると、時計塔は地下にも広がっていたらしい。
+[k]
+
+＠アンデルセン
+いかに破壊が徹底的でも、地面はこの通り無事だ。[r]であれば、我らが目指すべきは地下空間だ。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+しかしあいにくと階段は瓦礫で埋まっている。[r]であれば[line 3]なあ？
+[k]
+
+[charaFace H 2]
+＠アンデルセン
+サーヴァントの馬鹿力、その面目躍如というワケだ！[r]さあ、ブルドーザーのように暴れまくるがいい！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk D]
+[charaFadein H 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠シェイクスピア
+確かにその通り……！　哀しいかな、吾輩がペンより[r]重い物を持てば凄まじい魔力消費となりましょう！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ…………。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+…………。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFadein E 0.1 0]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+＠ジキル
+ぼ、僕は手伝うよ。うん。[r]物の役にも立たないだろうけど。
+[k]
+
+＠Dr.ロマン
+やった！　ボクのほうが今回は早い！[r]君たちのすぐ近くに魔力反応、それもかなりの数だよ！
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFace E 5]
+＠モードレッド
+ん……確かに、何かいるな。[r]何だこりゃ？
+[k]
+
+＠Dr.ロマン
+視界では周囲に何も見えないんだね？[r]でも確かにいる。それに、ぐんぐん動いているから、
+[k]
+
+＠Dr.ロマン
+廃墟の中に散らばった魔術礼装と言う訳でもない。[r]となれば回答はひとつだ！
+[k]
+
+[charaFace G 2]
+＠ジキル
+地下からか！？[r]セイバー、すまないが警戒を[line 3]
+[k]
+
+[charaFace E 2]
+＠モードレッド
+マスター[#面:ヅラ]すんな！[r]わかってる、出てくるならやるまでだ！
+[k]
+
+[se ad10]
+[wait se ad10]
+[se ad10]
+[wait se ad10]
+[se ad10]
+[wait se ad10]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、敵性存在が複数出現です！[r]魔力反応、高まっていきます[line 3]攻撃態勢と推測！
+[k]
+
+？1：戦闘だ！
+
+？2：気を付けて！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター。[r]戦闘開始します！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠シェイクスピア
+此度は吾輩もお手伝いいたしましょう。[r]瓦礫の中に舞う盾の乙女[line 3]実に、想像力を刺激する！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

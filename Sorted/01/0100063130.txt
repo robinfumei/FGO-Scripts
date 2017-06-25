@@ -1,0 +1,475 @@
+＄01-00-06-31-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet F 98093000 1 獅子王]
+
+[scene 29400]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+[fadein black 2.0]
+[wait fade]
+
+＠Dr.ロマン
+……いよいよだね。[r]物凄い魔力反応だ。
+[k]
+
+＠Dr.ロマン
+この先が聖都でもっとも高い位置。[r]玉座なのは間違いない。
+[k]
+
+＠Dr.ロマン
+……獅子王とは何なのか。[r]なぜ第六特異点はこんな事になってしまったのか。
+[k]
+
+＠Dr.ロマン
+その全ての答えが、この扉の向こうにある。[r]……準備はいいかい、[%1]君。
+[k]
+
+
+？1：……行こう。獅子王の座に！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……はい！[r]第六グランドオーダー、最終工程[line 3]開始します！
+[k]
+
+
+[bgmStop BGM_EVENT_5 0.3]
+[messageOff]
+[charaFadeout A 0.2]
+[scene 10000 0.3]
+[wait scene]
+[se ad91]
+[wt 0.5]
+
+[fadeout white 3.0]
+[wait fade]
+
+[scene 29600]
+
+[fadein white 3.0]
+[wait fade]
+
+[bgm BGM_EVENT_23 0.1]
+
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+……ここが王城の最上階。[r]円卓の騎士が集っていた誓いの場。
+[k]
+
+＠ダ・ヴィンチ
+そしてあの玉座に座っているのが、[r]獅子王[line 3]アルトリア・ペンドラゴン！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.5]
+
+＠獅子王
+[line 3]答えよ。
+[k]
+
+＠獅子王
+[line 3]答えよ。[r]おまえたちは何者か。
+[k]
+
+＠獅子王
+何をもって我が城に。[r]何をもって我が前にその身を晒す者か。
+[k]
+
+＠獅子王
+我は獅子王。嵐の王にして最果ての主。[r]聖槍ロンゴミニアドを司る、英霊の残滓である。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……声だけで体が縮み上がっています……[r]こんなの、まるでギアスです……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+（あれが獅子王[line 3][r]　聖槍を持ち続けたアーサー王……）
+[k]
+
+＠ベディヴィエール
+（……覚悟していたというのに、[r]　これほど怖ろしいとは……ですが）
+[k]
+
+＠ベディヴィエール
+（それでも[line 3]私は、あの方を正視しないと……！）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠獅子王
+[line 3]答えよ。
+[k]
+
+＠獅子王
+おまえたちは私を呼ぶ者か。[r]おまえたちは私を拒む者か。
+[k]
+
+＠獅子王
+[%1]。[r]遙かなカルデアより訪れた最後のマスターよ。
+[k]
+
+＠獅子王
+おまえは、何の為にこの果てに訪れた？
+[k]
+
+
+？1：人理を正すために来た！
+？2：おまえを倒すために来た！
+
+？！
+
+[charaFace F 0]
+＠獅子王
+それは同じ事だ。[r]人理を正す事と、我が命を断つ事は等しい。
+[k]
+
+[charaFace F 0]
+＠獅子王
+おまえは私を殺しに来たのだな。[r]残念だ。おまえは、聖槍には選ばれない。
+[k]
+
+＠獅子王
+その魂は善を知りながら悪を成す。[r]善にありながら悪を許す。
+[k]
+
+＠獅子王
+それは悪と同義だ。[r]我が足下まで辿り着いた、最新の人間に期待したが[line 3]
+[k]
+
+＠獅子王
+死ぬがよい。[r]私の作る理想都市に、おまえの魂は不要である。
+[k]
+
+
+[charaScale D 1.5]
+
+[bgmStop BGM_EVENT_23 0.1]
+[messageOff]
+[se bas1]
+[charaEffect D bit_talk_tornado01]
+[wt 0.8]
+[charaChange F 98094000 5 fade 0.5]
+[wait charaChange F]
+[bgm BGM_BATTLE_5 0.1]
+[wt 1.5]
+
+＠獅子王
+[line 3]では円卓を解放する。
+[k]
+
+＠獅子王
+見るがいい。これが最果ての波。[r]世界の表面を剥いだ、この[#惑星:ほし]の真の姿だ。
+[k]
+
+[se ad29]
+[messageOff]
+[charaFadeout F 0.7]
+[scene 10001 1.5]
+[wait scene]
+
+[seLoop ad153]
+
+[scene 29700 1.5]
+[wait scene]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+玉座の向こうに見える荒波は…………！[r]獅子王は始めから世界の果てで待っていたのか……！
+[k]
+
+
+[seStop ad153 2.0]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+獅子王、玉座から起立……！[r]戦闘態勢に入りました……！
+[k]
+
+＠マシュ
+マスター……！[r]わたしたちはどうすれば……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+？1：分からない、なんで世界を閉ざす！
+？2：うるさい、何が理想都市だ！
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+ひゅう、なんてクソ度胸だ！[r]サーヴァントではあの神格には萎縮するというのに！
+[k]
+
+[charaFace B 2]
+＠ダ・ヴィンチ
+でも言ってやれ言ってやれ！[r]それは人間であるキミにしかできない事だ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠獅子王
+……理由か。[r]どんな時代であれ、[#人間:おまえたち]はそれを聞きたがる。
+[k]
+
+＠獅子王
+私が世界を閉じるのは、[#人間:おまえたち]を残す為だ。
+[k]
+
+[charaFace F 0]
+＠獅子王
+ある者の大偉業によって、[r]この[#惑星:ほし]の歴史は終了する。
+[k]
+
+[charaFace F 0]
+＠獅子王
+人理は焼却され、人類史は無に帰される。[r]だが、それは私の存在意義に反する。
+[k]
+
+＠獅子王
+我らは[#人間:おまえたち]によって生み出されたもの。[r]神は人間なくして存在できない。
+[k]
+
+[charaFace F 0]
+＠獅子王
+故におまえたちを残す。[r]何を犠牲にしても護る。
+[k]
+
+＠獅子王
+[line 3]これは私の意思だ。[r]魔術王が[#自由:すき]にするのなら、私も[#自由:すき]にすると決めた。
+[k]
+
+＠獅子王
+……そうだ。告白しよう。[r]私は、ずっとそうしたかった。
+[k]
+
+[charaFace F 0]
+＠獅子王
+おまえたちを愛している。[r]おまえたちが大切だ。
+[k]
+
+[charaFace F 0]
+＠獅子王
+だから、おまえたちを失う事に耐えられない。
+[k]
+
+[charaFace F 0]
+＠獅子王
+私は[#人間:おまえたち]に永遠を与えると決めた。[r]後世に残すに相応しい魂たち[line 3]
+[k]
+
+＠獅子王
+悪を成さず、悪に触れても悪を知らず、[r]善に飽きる事なく、また善の自覚なきものたち。
+[k]
+
+＠獅子王
+この清き魂を集め、固定し、資料とする。
+[k]
+
+＠獅子王
+この先、どれほどの時間が積まれようと、[r]永遠に価値の変わらぬものとして、我が槍に収める。
+[k]
+
+[charaFace F 0]
+＠獅子王
+それの[line 3]何が間違っている？[r]私の偉業は、すべて[#人間:おまえたち]の為なのに。
+[k]
+
+
+？1：そんなの、ただの標本だ！
+
+？！
+
+[charaFace F 0]
+＠獅子王
+[line 3]そう思うか？
+[k]
+
+＠獅子王
+おまえはそう思うのか、盾の騎士よ。
+[k]
+
+＠獅子王
+人間は定命だが、[r]その中でも更に定められた命を持つ者……
+[k]
+
+＠獅子王
+マシュ・キリエライト。[r]おまえであれば、私の理想が分かるのではないか？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それは……
+[k]
+
+＠マシュ
+…………それは。
+[k]
+
+？1：マシュ……？
+？2：もしかして……知ってる……？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+[%1]君、会話はもういい！[r]獅子王の精神構造は完全に神霊化している！
+[k]
+
+＠Dr.ロマン
+彼女には人間としての価値観が失われている！[r]話し合いではもう解決できない！
+[k]
+
+＠Dr.ロマン
+戦闘で、あの聖槍を破壊するんだ！[r]それでこの時代は元に戻る！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠獅子王
+[line 3]短慮だな、ロマニ・アーキマン。[r]実に貴方らしい。だが結論は私も同じだ。
+[k]
+
+＠獅子王
+質問には答えた。[r]私を否定するのなら、私もおまえたちを否定するまで。
+[k]
+
+＠獅子王
+いずれ死ぬもの。もう死ぬもの。[r]命の限りを嘆くものたちよ。
+[k]
+
+＠獅子王
+その限界を知り、我が庇護を受け入れよ。
+[k]
+
+[charaFace F 0]
+＠獅子王
+盾の騎士よ。[r]命を守るというのなら[line 3]私には刃向かわない事だ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+来るぞ……！[r]マスター、戦闘準備を！
+[k]
+
+＠ダ・ヴィンチ
+敵は獅子王アルトリア[line 3][r]いや、あれはもう英霊じゃない！
+[k]
+
+＠ダ・ヴィンチ
+名付けるのなら、そう……！[r]聖槍の化身、女神ロンゴミニアドだ……！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

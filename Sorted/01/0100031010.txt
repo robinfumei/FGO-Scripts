@@ -1,0 +1,232 @@
+＄01-00-03-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 5017000 1 ？？？]
+[charaSet F 98019000 1 ？？？]
+[charaSet G 98018100 1 海賊]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk G]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFadein G 0 2]
+[fadein black 1]
+[wait fade]
+＠海賊
+姐御！　接近してきます！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+大砲用意！　[#撃:て]ぇぇぇっ！
+[k]
+
+[se ad34]
+[wait se ad34]
+＠海賊
+駄目です、効果ありゃーあせん！[r]砲弾はのきなみ弾かれやした！
+[k]
+
+[charaFace D 5]
+＠ドレイク
+くっ、ドイツもコイツも……やっぱりアレかい、
+[k]
+
+＠ドレイク
+でかい船を燃やすにゃあ、船ごと燃やして[r]ぶつけるぐらいの気概がいるってコトかい？
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[wt 0.5]
+[scene 21330 0]
+[charaFace F 5]
+[charaFadein F 0 1]
+[fadein black 0.5]
+[wait fade]
+＠F：？？？
+[line 2]よし、見つけたぞ。[r]それじゃヘラクレス。
+[k]
+
+[charaFace F 4]
+＠F：？？？
+あそこに集っている有象無象のガラクタ共に、[r]一つ挨拶をしてあげようじゃないか。
+[k]
+
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[voice 700100_0_B030]
+[wait voice 700100_0_B030]
+[scene 21230 0]
+[charaFace A 6]
+[charaFadein A 0.4 2]
+[charaFace H 5]
+[charaFadein H 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+な、岩を投げた……！？
+[k]
+
+＠アステリオス
+ど、け……！
+[k]
+
+[charaFace H 5]
+[voice 700900_0_S010]
+[wait voice 700900_0_S010]
+＠アステリオス
+ぬ、おおおおお！！
+[k]
+
+[charaFadeout A 0.1]
+[charaSet G 2012001 1 エウリュアレ]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠エウリュアレ
+アステリオス……！
+[k]
+
+[charaFadeout H 0.4]
+[charaFadeout G 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21330 0]
+[charaFace E 0]
+[charaFadein E 0.4 2]
+[charaFace F 1]
+[charaFadein F 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠F：？？？
+あっはっは！　ギリギリで受け止めたか！[r]あそこにいる蛮人は……。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+何だ、アレ。獣人か？
+[k]
+
+＠E：？？？
+まあ。あの方、恐らくアステリオスさまですわ。[r]またの名をミノタウロスと申します。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+神牛と人の、狭間に生まれた悲劇の子です。
+[k]
+
+[charaFace F 4]
+＠F：？？？
+何だ、人間の出来損ないか！[r]英雄に倒される宿命を背負った、滑稽な生物！
+[k]
+
+[charaSet G 3016000 1 ヘクトール]
+[charaFace F 1]
+＠F：？？？
+向こうの人材不足も深刻だなあ！[r]あっはっはっはっはっは！
+[k]
+
+[charaFace F 0]
+＠F：？？？
+さて。ヘクトール！[r]ピンチのようだが、助けは要るかい？
+[k]
+
+＠ヘクトール
+……ええ、キャプテン。申し訳ないですが。[r]一つ、助けてくれませんかねえ？
+[k]
+
+[charaFace F 1]
+＠F：？？？
+構わないとも、ヘクトール！[r]女神はそこにいるね？　聖杯も手に入れたな？
+[k]
+
+＠F：？？？
+ならば、よし。
+[k]
+
+[charaFace F 4]
+＠F：？？？
+折角だ。[r]ここで一切合切決着をつけようじゃないか！
+[k]
+
+＠F：？？？
+君たち、世界を修正しようとする邪悪な軍団と[line 2]。[r]我々、世界を正しくあろうとさせる英雄たち。
+[k]
+
+[charaFace F 2]
+＠F：？？？
+聖杯戦争に相応しい幕引きだ！
+[k]
+
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaSet G 3016000 1 ヘクトール]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ヘクトール
+それじゃ、オジサンはこの隙に[line 2]っと。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+[se bac1]
+[charaFadeout G 0.1]
+[wt 0.5]
+[charaSet E 2009102 1 オリオン]
+[charaSet F 2009201 1 アルテミス]
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+＠アルテミス
+あ、ジャンプして逃げちゃった。
+[k]
+
+[charaFace E 5]
+＠オリオン
+放っておけ、そんなオッサン。[r]それより、こっちが大問題だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaSet G 98018100 1 海賊]
+[charaFadein G 0.1 0]
+＠海賊
+行かせるか！
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスター、まずは残存敵を倒しましょう。[r]急がないと……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

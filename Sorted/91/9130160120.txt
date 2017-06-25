@@ -1,0 +1,52 @@
+＄91-30-16-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3016001 2 ヘクトール]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+[fadein black 1]
+[wait fade]
+＠ヘクトール
+そこそこ調子が出てきたな。[r]一段階、上げていくとするか。
+[k]
+
+[charaFace D 1]
+＠ヘクトール
+マスター、あと五十人ほど追加だ！[r]レベルももうちょい上げてくれ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+わ、わかりました。[r]では、次はゴーストタイプのエネミーを召喚します。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.3]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ヘクトール
+よしよし、霧は突いても斬れども斃すことはできず。[r]ならば[line 2]。
+[k]
+
+[charaFace D 2]
+＠ヘクトール
+吹き荒ぶ嵐の如く。[r]撒き散らしてやるとするか！
+[k]
+
+＠ヘクトール
+指示をくれ、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

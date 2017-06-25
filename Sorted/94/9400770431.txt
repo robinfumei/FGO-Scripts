@@ -1,0 +1,679 @@
+
+
+＄94-00-77-04-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5012001 1 ニトクリス]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1010001 1 エリザベート]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 6008001 1 クレオパトラ]
+[charaSet G 2008000 1 トリスタン]
+[charaSet H 1020001 1 ランスロット]
+
+[scene 20115]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠ニトクリス
+ふふ……中々やりますね……。[r]私の働きものな死霊たちも品切れです……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠エリザベート
+アンタの方こそ、素晴らしい動きだったわ……。[r]あと、[charaFace D 1]死霊ちゃん可愛いわね。
+[k]
+
+＠エリザベート
+特にあの、シーツかぶってるの。[r]くるくる廻るの、可愛いわ。
+[k]
+
+[charaFace D 0]
+＠エリザベート
+こう、ライブのヒントになりそうな気がする……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ニトクリス
+メジェド神に目を付けるとは……[r]アナタはやはり、ただの害獣ではないのですね……
+[k]
+
+[charaFace B 1]
+＠ニトクリス
+貴女の歌は確かに素晴らしいものでした……[r]死霊たちも拍手喝采でしたし……。
+[k]
+
+[charaFace B 0]
+＠ニトクリス
+私も……あまりの心地よさに[r]霊的インスピレーションが得られましたし……
+[k]
+
+？1：え？
+？2：え？
+
+？！
+
+[charaFace B 7]
+＠ニトクリス
+確かに、かのピラミッドは私も気にしているのです。[r]ファラオであれば、一度挨拶に出向かなければ[line 3]
+[k]
+
+＠ニトクリス
+そう思いつつ、一人で立ち向かうのも何ですから、と[r]引き籠もっていた訳ですが。
+[k]
+
+[charaFace B 0]
+＠ニトクリス
+……いいでしょう、勇者エリザベート。[r]貴女のライブ、手伝って差し上げましょう。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エリザベート
+ありがとう、アナタとはいい友人になれそうね。
+[k]
+
+[charaFadeout D 0.4]
+[wt 0.1]
+
+[messageOff]
+[wt 0.7]
+
+[se ad59]
+[wt 1.0]
+[seStop ad59 1.5]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.7 1]
+＠マシュ
+はあ、はあ、はあ……。[r]や、やっと追いつきました[line 3]って。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+はあ、握手？[r]力比べじゃなくて？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あの……マスター。[r]一体何が起きたんですか？
+[k]
+
+？1：きっと仲良くなると思っていたんだ
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ロビンフッド
+……しかし、仲良くなったらなったで……。[r]問題児の問題度が上がっただけのような……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace B 2]
+[charaFace D 2]
+[charaFadein B 0.1 0]
+[charaFadein D 0.1 2]
+＠二人
+[f large][messageShake 0.05 5 5 0.7]何ですって！
+[k]
+
+[charaFadeout B 0.4]
+[charaFadeout D 0.4]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaSet E 7022001 1 茨木童子]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エリザベート
+ともかく、進みましょう！[r]目指せ、チェイテピラミッドよ！
+[k]
+
+[charaFace D 1]
+＠エリザベート
+次は難関、[r]氷河地帯を潜り抜けるわ！！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+氷河！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠エリザベート
+……確かに考えてみたら、城までの道のりに[r]氷河地帯があるとか、おかしいわよね！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 1]
+＠Dr.ロマン
+そこはほら、お約束的なノリなんじゃないかな……。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+……ん？[r]サーヴァント反応が……１、２、３、４……５？
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+一つ多いぞ、キミたち！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠茨木童子
+……むぅ。おかしい……お菓子がない……。[r]いや、洒落でなく。
+[k]
+
+[charaFace E 2]
+＠茨木童子
+どういうことだ、[%1]！[r][#吾:われ]に嘘を吐いたのではなかろうな！？
+[k]
+
+＠茨木童子
+はろうぃんとは、こう、菓子食べ放題の[r]夢のお祭りではなかったのか！？
+[k]
+
+？1：何でいるの！？
+
+[charaFace E 1]
+＠茨木童子
+阿呆め、さっきからずっと居たわ！[r][#吾:われ]の[#穏行:おんぎょう]に気付かぬうぬが不覚よ！
+[k]
+
+？2：いつから此処に！？
+
+[charaFace E 1]
+＠茨木童子
+ふははは、[#汝:なれ]と一緒に[#霊死埠頭:れ　い　し　ふ　と]してきたのよ！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+やっぱり幻覚じゃなかったんですね……！[r]良かったです！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エリザベート
+え、誰なの！？[r]遊び人とか、パーティに加えたくないんだけど！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠茨木童子
+だ[messageShake 0.05 3 3 0.5]ーれーがー遊び人か[line 4]！[r]酔った京人どもと一緒にするでない！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+混乱したまま、次回に続きますね……！
+[k]
+
+[wt 0.4]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[wt 1.5]
+
+[charaFadeout A 0.4]
+[wt 1.0]
+
+[bgm BGM_EVENT_1 0.5]
+
+[scene 20901]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 1]
+＠F：？？？
+……。[r]……ふ。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+オホホホホ！　つまらない本だこと！[r]時間潰しにはなりましたが……。
+[k]
+
+[se ad150]
+[wt 0.7]
+
+[charaFace F 0]
+＠F：？？？
+そこの居眠り豚。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠トリスタン
+ははっ、居眠り豚トリスタン。[r]御前に。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：？？？
+その音楽は気に入りません。[r]違うものを。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠トリスタン
+では、こちらを。
+[k]
+
+[bgmStop BGM_EVENT_1 0.5]
+[wt 0.7]
+
+[bgm BGM_EVENT_12 0.1]
+
+[wt 3.0]
+
+[messageOff]
+[charaFadeout G 0.4]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 3 3 0.5]
+＠F：？？？
+止めなさい気が狂いそうです！[r]落ち着いて本を読めないでしょう！
+[k]
+
+[wt 1.0]
+[bgmStop BGM_EVENT_12 0.1]
+
+
+[se ad151]
+[wt 0.4]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_1 0.5]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠トリスタン
+愉快な曲の方が良いかと思ったのですが。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠F：？？？
+限度というものがあるでしょう、[r]限度というものが。
+[k]
+
+[charaFace F 5]
+＠F：？？？
+まして今は夜、[r]騒がしい音は無粋というもの。
+[k]
+
+[charaFace F 4]
+＠F：？？？
+というか、今の音はどうやって[r]琴で弾いたのですか……？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ランスロット
+失礼、女王。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：？？？
+何用か、[#妾:わらわ]はもう寝ます。[r]報告なら、明日[line 3]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ランスロット
+かのファラオが、[r]カルデアのパーティに参入したようです。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠F：？？？
+[f large]な。
+[k]
+
+[charaFace F 2]
+＠F：？？？
+[messageShake 0.05 5 5 0.7]
+何ですと[line 3]！？[r]あの御方が！？
+[k]
+
+＠F：？？？
+そんな、あんな間が抜けていて愚鈍で[r]知性の欠片もなさそうな者に！？
+[k]
+
+[se ad151]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠トリスタン
+ああ悲しや。[r]我らが女王の[#貌:かお]が悲痛に歪む……。
+[k]
+
+＠トリスタン
+しかしその貌もまた、[r]輝かんばかりに美しい[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠F：？？？
+あの御方がいるなら、氷河地帯はおろか[r]溶岩地帯も危険ですね……。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ランスロット
+如何致しましょうか、女王。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠F：？？？
+莫迦は時として、こちらの予測を上回る……か。
+[k]
+
+＠F：？？？
+むつかしいわね……。[r]むぅ……。
+[k]
+
+[se ad151]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠トリスタン
+憂い悩む女王の貌もまた、[r]美しく[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠F：？？？
+考えごとの邪魔。[r]窓から飛び降りなさい、貴方は。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠トリスタン
+おお……[#我は空高く飛ぶ:I can fly]……。
+[k]
+
+[se bac1]
+[charaMove G 1024,0 0.2]
+[wait charaMove G]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+[wt 0.4]
+[charaMove H 5 0.2]
+[wait charaMove H]
+＠ランスロット
+本当に飛び降りただと[line 3]！？
+[k]
+
+
+[se ad151]
+[wt 0.5]
+
+[se ad151]
+[seVolume ad151 0 0.7]
+[wt 0.5]
+
+[se ad150]
+[seVolume ad150 0 0.4]
+[wt 0.7]
+
+[wt 0.4]
+
+[charaFace H 0]
+[charaMove H 1 1.0]
+＠ランスロット
+音の衝撃で空を飛ぶとは……。
+[k]
+
+[wait charaMove H]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：？？？
+それは飛ぶでしょう、トリなのですから！[r]それはそれとして、ヒトヅマンスロット。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ランスロット
+はっ！[r]…[charaFace H 2][messageShake 0.05 5 5 0.7]……………はっ！？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠F：？？？
+溶岩地帯に彼女たちを派遣するのよ。[r]何としてでも押し留めるのです。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠ランスロット
+な、何ですと……！？[r]しかし、彼女たちはあまりに危険です。
+[k]
+
+[charaFace H 2]
+＠ランスロット
+暴走する可能性がなきにしもあらず、[r]いや絶対暴走する！　と断言してもいいほどに！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠F：？？？
+ホホホホホ！[r]大丈夫でしょう、何故なら[#妾:わらわ]なのですから！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ランスロット
+（不安だ……！）
+[k]
+
+[wt 0.4]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_1 2.0]
+[wait fade]
+
+[charaFadeout H 0.4]
+
+[soundStopAll]
+[end]
+

@@ -1,0 +1,303 @@
+＄94-00-28-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 4015001 1 アレキサンダー]
+[charaSet G 98003003 1 Dr.ロマン]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+
+[scene 10600]
+
+[fadein black 1.0]
+[wait fade]
+
+＠Dr.ロマン
+続いてサーヴァントの出現を確認した！[r]近くにいるぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[communicationCharaLoop 98003003 0 5 0 2]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、ドクター！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……うん？[r]いや、なんだろう、これ。
+[k]
+
+＠Dr.ロマン
+サーヴァント……なんだけど。[r]少し雑だな。一部、つぎはぎっぽい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠エミヤ
+雑、というと？
+[k]
+
+＠Dr.ロマン
+シャドウサーヴァントは文字通り、[r]英霊の霊基を模した偽物[line 3]影のようなものだが、
+[k]
+
+＠Dr.ロマン
+これは純粋に“良く似た何か”だ。[r]細部にいたるまで良く出来た霊基だが[line 3]
+[k]
+
+＠エミヤ
+贋作、と呼ぶべきかな？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ああ。ズバリその呼び方が正しい。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+……納得がいった。道理で違和感があった筈だ。
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+つまりおまえは、[r]純粋なサーヴァントとは言い難いという訳か。
+[k]
+
+[bgmStop BGM_EVENT_3 2.0]
+[charaFace C 5]
+＠エミヤ
+アレキサンダー大王……！
+[k]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+
+＠アレキサンダー
+うん、その通りなんだ！
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+僕らは贋作英霊。サーヴァントであるけれど[r]純粋なサーヴァント、純粋な英雄じゃない。
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+手加減してね、[&おにーさん:おねーさん]♡
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+ま、満面の笑顔ですね……！
+[k]
+
+[charaFace C 4]
+＠エミヤ
+魔性の美少年の面目躍如だな。[r]芸術家としての意見はあるかね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 2]
+＠ダ・ヴィンチちゃん
+[line 2]壺った。[r]裸身を[charaFace B 1]描きたい。いやむしろ裸になって描く！
+[k]
+
+[charaFace C 5]
+＠エミヤ
+……なるほど。[r]邪魔にならないように、次元の狭間で創作してくれ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+さて、アレキサンダー。[r]君の背後関係と目的について聞かせてもらえないか。
+[k]
+
+[charaFace C 1]
+＠エミヤ
+なに、悪くはしない。[r]こう見えても贋作には理解のある男だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠アレキサンダー
+あー、おにーさんってば大嘘つきだ！[r]悪くするでしょう？
+[k]
+
+[charaFace D 4]
+＠アレキサンダー
+というか、情報を得るだけ得たらサクサク[r]殺されちゃう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エミヤ
+どこまで野蛮なんだオレは。[r]捕縛はするが、その後の選択は相手次第だぞ。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+そもそも、君のその[#霊基:からだ]は……[r]いや、そこは言うまい。そちらの方が百も承知だろう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アレキサンダー
+そうそう、それこそ野暮な話だ。[r]その手の悩みとか、僕は一切しないのだから。
+[k]
+
+＠アレキサンダー
+今の僕に求められているのは、無邪気と無垢。[r]あの子にとっては、それが心落ち着くんだろうね。
+[k]
+
+＠アレキサンダー
+でも、それは一方で余計なしがらみを捨てて、[r]ただ純粋に能力を求められたって事でもある。
+[k]
+
+＠アレキサンダー
+これはこれで楽しいよね！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あの子？[r]すいません、それは一体……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アレキサンダー
+残念ながらそれはヒミツ！
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+だって今の僕は[line 2][r]『同居中のお姉ちゃん大好きな優秀な義弟』だからね！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……。[r]……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+……。[r]……。
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え？[r]あの、今、何と？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アレキサンダー
+ふふふ、すっごくロマンスだよね！
+[k]
+
+[bgmStop BGM_EVENT_2 2.0]
+[charaFace D 3]
+＠アレキサンダー
+正直なところ、僕もこの設定には首をかしげたけど、[r]そこはそれ、女の子らしい願望ってコトで！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 1]
+＠アレキサンダー
+さあ、[&おにーさん:おねーさん]♡[r]戦争の[charaFace D 2]時間だ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+その気迫。その言葉。[r]どれほど贋作でも、やはり君は征服王に成る者だよ。
+[k]
+
+[charaFace C 2]
+＠エミヤ
+いいだろう。[r]迎え撃つぞ、マスター！
+[k]
+
+？1：了解！
+？！
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

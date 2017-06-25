@@ -1,0 +1,88 @@
+
+＄94-00-23-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4004001 1 アストルフォ]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 2018001 1 子ギル]
+
+[scene 20210]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠天草四郎
+これでシャドウサーヴァントも含めて一通り[r]片付きましたが[line 2]。
+[k]
+
+[charaFace E 4]
+＠天草四郎
+問題はこの聖杯をどうやって破壊するか、ですね。[r]ギル君、何か持っていますか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠子ギル
+うーん、この程度なら宝物庫から一振り何か[r]持ってくれば片が付くかな。
+[k]
+
+[charaFace F 5]
+＠子ギル
+[line 2]問題は、この疑似聖杯が何かを産み落とそう[r]としているところなんだけど。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい？[r]産み落とす……ですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+わ、わ、わ……膨大な魔力がその聖杯から[r]溢れ出したぞ！　何かが出てくる！
+[k]
+
+＠Dr.ロマン
+え、何かって何だって？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+魔神柱ではないと思うけど……それに類する何か、[r]じゃないかな……？
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+……大変じゃないか！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]

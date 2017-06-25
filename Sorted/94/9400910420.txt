@@ -1,0 +1,378 @@
+
+
+＄94-00-91-04-2-0
+
+[charaSet A 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet B 6005001 1 ジャック]
+[charaSet C 5004001 1 ナーサリー・ライム]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 21501]
+
+[fadein black 2.0]
+[wait fade]
+
+
+＠？？？
+サンタさーん！[r]サンタさーん！
+[k]
+
+＠？？？
+どーこーにーいーまーすーかー！
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……今の声は！[wt 0.3][r]サ[charaFace A 6]ンタを求める子供たちの声です！
+[k]
+
+[charaFace A 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+さ、呼び掛けましょうトナカイさん！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+ここでーす！[r]どこですかー！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 1024,0]
+[charaFadein C 0.1 -1024,0]
+[charaMove C 0 0.4]
+＠ナーサリー・ライム
+ああ良かった、やっと見つけたわ！
+[k]
+
+[wait charaMove C]
+
+[charaMove B 2 0.4]
+＠ジャック
+だいじょうぶ？[r]絹をさくような悲鳴がきこえたけど。
+[k]
+
+[wait charaMove B]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+だ、大丈夫です。全然大丈夫です。[r]それより、リクエストをした方々ですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ジャック
+そうだよー！[r]……ってあれ？　あなたがサンタさん？
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠ナーサリー・ライム
+去年のサンタさんは、いないの？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……はい。
+[k]
+
+[charaFace A 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+今年はこの私、[r]ジャンヌ・ダルク・オルタ・サンタ・リリィがサンタです！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+[charaMove B 256,20 0.2]
+[wait charaMove B]
+[charaMove B 256,0 0.1]
+[wait charaMove B]
+＠ジャック
+なっがーい！
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+[charaMove C -256,20 0.2]
+[wait charaMove C]
+[charaMove C -256,0 0.1]
+[wait charaMove C]
+＠ナーサリー・ライム
+まるでスパムみたいに楽しいお名前ね！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 0.7]
+スパム！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ナーサリー・ライム
+でも残念！[r]去年のサンタさんに、お礼を言いたかったのに！
+[k]
+
+[charaFace B 4]
+
+＠ジャック
+そうだね。[r]あんなにたくさん、プレゼントをもらえたんだし。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+アルトリアサンタさんは、[r]そんなに沢山プレゼントをくれたんですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace B 1]
+[charaFace C 1]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ナーサリー・ライム
+うん、わたしとジャックにとっては、[r]初めてのクリスマスだから、いっぱいくれたの！
+[k]
+
+
+
+[charaFace B 0]
+
+＠ジャック
+トナカイさんとも、おともだちになれたからね！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+先代サンタさんが……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.7]
+[wt 0.7]
+
+[bgm BGM_EVENT_3 0.4]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ナーサリー・ライム
+さ、準備はいいかしら？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+え、準備？[r]準備って何のですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャック
+またまたとぼけちゃってー。[r]わたしたち、しってるよ！
+[k]
+
+＠ジャック
+サンタさんはね、プレゼントをあげるときにね、[r]たたかわなきゃいけないの！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+た、戦う……ですか？
+[k]
+
+[charaFace A 4]
+＠ジャンヌ・オルタ・サンタ・リリィ
+いや、これまでやや不本意ながら、[r]戦いを繰り広げてきたのは確かです。
+[k]
+
+[charaFace A 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+しかし、サンタとは戦いを振りまく者ではなく、[r]愛を振りまくもの……。
+[k]
+
+[charaFace A 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+成長した私が、振りまかなくなったものです。[r]……………………おのれ、成長した私！！
+[k]
+
+？1：自分で自分にキレてる……
+
+[charaFace A 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+す、すいません。[r]自分の未来を考えると、つい。
+[k]
+
+？2：落ち着けオルタちゃん
+
+[charaFace A 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ちゃん付けは止めていただけますか！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ナーサリー・ライム
+マスターとイチャイチャしてる、[r]はしたないのだわ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 0.7]
+イチャイチャしてる訳ではありません！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 5]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ナーサリー・ライム
+クリスマスは、わたしたち子供の時間よ！[r]カップルなんかに奪わせないわ！
+[k]
+
+[charaTalk B]
+[charaFace B 1]
+＠ジャック
+いっぱいプレゼントもらおうね、ナーサリー！
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠ナーサリー・ライム
+貰いましょうね、ジャック！
+[k]
+
+[charaFace C 0]
+＠ナーサリー・ライム
+さあ、くるくる回れば童話の時間よ！[r]聖夜にはしゃげば、クランプスだって出てくるわ！
+[k]
+
+＠ナーサリー・ライム
+雪原の彼方からやってきたサンタクロースに、[r]精一杯のおもてなしよ！
+[k]
+
+
+
+[messageOff]
+
+[wt 0.4]
+
+[charaTalk off]
+
+[charaFace C 1]
+[charaFace B 1]
+
+[charaMove C -256,20 0.2]
+[wait charaMove C]
+[charaMove C -256,0 0.1]
+[wait charaMove C]
+
+[charaMove B 256,20 0.2]
+[wait charaMove B]
+[charaMove B 256,0 0.1]
+[wait charaMove B]
+
+[wt 0.4]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[charaTalk on]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[soundStopAll]
+[end]

@@ -1,0 +1,501 @@
+
+＄01-00-05-16-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3005002 1 エリザベート]
+[charaSet C 7014001 1 ナイチンゲール]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 3013001 1 スカサハ]
+[charaSet F 3004001 1 カルナ]
+[charaSet G 5025001 1 エジソン]
+[charaSet H 5023001 1 ブラヴァツキー]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+[scene 21900]
+[fadein black 2]
+[wait fade]
+
+＠ナイチンゲール
+[line 2]では、病める英雄を治療に向かいましょう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace C 6]
+[charaFace E 1]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+＠スカサハ
+やれやれ。あやつも、おぬしの前では[r]ただの患者に過ぎぬか。
+[k]
+
+[charaTalk C]
+＠ナイチンゲール
+師匠である貴女が気付いていなかったとは[r]思いませんでした。
+[k]
+
+[charaFace E 4]
+＠スカサハ
+病気に関しては不得手でな。[r]何しろここまで神霊に近付くと病から縁遠くなる。
+[k]
+
+[charaFace E 1]
+＠スカサハ
+まっとうな意味での死など、[r]とうの昔に乗り越えてしまったよ。
+[k]
+
+＠ナイチンゲール
+……不可解です。[r]死を踏破した割りには、浮かぬ表情ではありませんか？
+[k]
+
+[charaFace E 0]
+＠スカサハ
+それはそうさ。私は死を踏破したのではなく、[r]たんに乗り越えただけだ。
+[k]
+
+[charaFace E 4]
+＠スカサハ
+死を超越したんじゃない。[r]ただ、生に置いていかれた亡霊と変わらん。
+[k]
+
+[charaFace E 0]
+＠スカサハ
+そういうおぬしはどうだ？[r]亡霊、怨念という意味では私に近いと思うが？
+[k]
+
+[charaTalk C]
+[charaFace C 7]
+＠ナイチンゲール
+私はただ、全盛期の姿で現世に戻っただけです。[r]ならば、全力を尽くして治療するのみ。
+[k]
+
+＠ナイチンゲール
+何故なら、私が召喚されたという事実そのものが、[r]この世界に『看護』が必要だということなのですから。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[scene 20423]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠スカサハ
+ふむふむ……。
+[k]
+
+[charaFace E 0]
+＠スカサハ
+まず北軍、エリザベートとロビン。[r]それにエジソン、ブラヴァツキー。
+[k]
+
+＠スカサハ
+そして南軍、カルナ、ラーマ、ナイチンゲール。[r][%1]とマシュ、私か。
+[k]
+
+[charaFace E 1]
+＠スカサハ
+北軍はギリギリ拮抗できるかどうかだな。[r]逆に南軍はこれなら戦力差次第で突破可能だ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠エジソン
+なるほど……。
+[k]
+
+＠エジソン
+南軍の機械化歩兵は、君たちサーヴァントに[r]追随可能なよう、[#増幅装置:ブースター]を組み込んでおこう。
+[k]
+
+[charaFace G 5]
+＠エジソン
+北を最小限の人数で持ち堪え、[r]南軍でワシントンＤＣまで一気に攻め入る。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠エリザベート
+ちょっと、[&子イヌ:子ジカ]！[r][#私:アタシ]もアイツを……！
+[k]
+
+？1：頼む
+？2：君しかいない
+
+？！
+
+＠エリザベート
+……。[r]……。
+[k]
+
+[charaFace B 4]
+＠エリザベート
+……。[r]……分かったわよ。
+[k]
+
+[charaFace B 0]
+＠エリザベート
+その代わり、セイバーを倒したクー・フーリン。[r]仕留めなさい、必ず。
+[k]
+
+？1：分かった
+？2：約束する
+
+？！
+
+[charaFace B 1]
+＠エリザベート
+ならいいわ。[r]ここで、あのコマドリと一緒に戦ってあげる。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace B 0]
+[charaFace D 5]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+＠ロビンフッド
+誰が駒鳥だ、誰が。[r]ま、[charaFace D 1]こっちは任せておきな。
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+軍勢相手の戦いならオレの下準備が役に立つ。[r]徹底的に嫌がらせをさせてもらうさ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠スカサハ
+ああ、目標は六割削減だ。[r]それぐらいできるだろう、おぬしなら。
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+サーヴァントが率いるケルト戦士にかい？[r]そりゃあいつもの倍働かないと難しいねぇ。
+[k]
+
+[charaFace E 1]
+＠スカサハ
+なんだ。倍働くだけでできるのか。[r]すごいな森の隠者。おぬしは私の予想を上回ったぞ？
+[k]
+
+[charaFace D 4]
+＠ロビンフッド
+げ。言葉尻とらえてこれだよ。[r]フツーなら二倍でも無理なんだけどねぇ……
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+まあ、死ぬ気で働けば何とかなるかもだ。[r]出来る範囲で努力させていただきますよ。
+[k]
+
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFace G 0]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+＠ブラヴァツキー
+任されたわね。
+[k]
+[charaFace H 4]
+キャスター二騎でどこまで抗し得るかは分からないけど。
+[k]
+
+[charaFace H 5]
+＠ブラヴァツキー
+努力はするわ。どんな仕事であれ手を[r]抜かないのがあたしの主義よ。
+[k]
+
+[charaFace G 0]
+＠エジソン
+……うむ。間違った道に進んでいたとはいえ、[r]私の機械化歩兵が役立ちそうで何よりだ。
+[k]
+
+[charaFace G 5]
+＠エジソン
+北軍は責任を持って預からせてもらおう。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+他の者も、これで問題はないな？[r]ではすぐに軍を進めるぞ。
+[k]
+
+[charaFace E 4]
+＠スカサハ
+この規模で動くのだ。[r]こちらの動きも向こうに察知されていよう。
+[k]
+
+[charaFace E 0]
+＠スカサハ
+見立てでは、全軍激突はほぼ同時刻。[r]三日後の夕暮れ時だ。
+[k]
+
+[charaFace E 5]
+＠スカサハ
+北軍担当のサーヴァントは早々に出発するべし。[r]不測の事態が起きないともかぎらん。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace H 0]
+[charaFace G 0]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+＠エジソン
+そうだな。[r]ではブラヴァツキー夫人、どうかよろしく。
+[k]
+
+[charaFace H 0]
+＠ブラヴァツキー
+ええ。[r]ミスタ・エジソン、あなたも気をつけなさいな。
+[k]
+
+[charaFadeout H 0.1]
+
+[wt 0.2]
+
+＠エジソン
+カルナ君！
+[k]
+
+[bgmStop BGM_EVENT_4 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 2]
+＠カルナ
+どうした、エジソン？
+[k]
+
+[charaFace G 1]
+＠エジソン
+いや、何。[r]言おう言おうと思って機会を逸していたのだ！
+[k]
+
+＠エジソン
+私のような者の懇願に応じてくれて感謝する！[r]君がいたから、ここまでやってこれた！
+[k]
+
+[charaFace F 1]
+＠カルナ
+何。気にするな、エジソン。[r]武運を祈るぞ。
+[k]
+
+＠エジソン
+ありがとう、カルナ君。[r]それではマスターよ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠エジソン
+……君たちとの再会は叶わないだろう。[r]わずかな間だったが、君は本当に私に良くしてくれた。
+[k]
+
+？1：あなたは子供の憧れだ
+？2：エジソンだから仕方ない
+？！
+
+
+[charaFace G 1]
+＠エジソン
+ハハ、伝記本でも読んだのかな？[r]子供向けであれば、私はさぞかし格好良かったのだろう。
+[k]
+
+[charaFace G 5]
+＠エジソン
+……その伝記に真実の姿が負けぬよう、[r]精々この任務を全うすると誓おう。
+[k]
+
+[charaFace G 2]
+＠エジソン
+では、さらばだ諸君！
+[k]
+
+[messageOff]
+[se ad83]
+[wait se ad83]
+[seLoop ad84]
+[charaFadeout G 0.4]
+[wt 1.0]
+[seStop ad84 0.8]
+[wt 0.8]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+よし、それじゃオレたちも行くわ。[r]これで今生の別れだな。
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+ゲリラ活動なんてそんなもんだ。[r]お互い、生きていればいつか会える。
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+顔を合わせるって意味じゃなくてな。[r]たとえば、一方が残した歌とか手紙とか、
+[k]
+
+＠ロビンフッド
+そういうのに、生きていれば出会えるって話でね。[r]人間ってのは顔を合わせるだけが再会じゃないのさ。
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+じゃあな。[r]短い間だったが楽しかったぜ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠エリザベート
+……別に、気にならないわよ。[r]アンタたちとは妙に縁があるみたいだし。
+[k]
+
+[charaFace B 0]
+＠エリザベート
+どうせまた、違う時代で召喚されるかもだし。[r]そもそもサーヴァントとして契約してるかもだし。
+[k]
+
+[charaFace B 1]
+＠エリザベート
+[#私:アタシ]が死ぬはずないし。[r][#私:アタシ]、無敵だもの。
+[k]
+
+[charaFace B 4]
+＠エリザベート
+だから、ま。[r][#セイバー:ネロ]の仇を討ってくれれば、それでいいわ。
+[k]
+
+[charaFace B 0]
+＠エリザベート
+大丈夫。[r]アンタ、ちょっとは見込みがあるマスターだから。
+[k]
+
+[charaFace B 1]
+＠エリザベート
+そうだ！[r]折角だし、アンタのために応援歌を[line 2]
+[k]
+
+？1：持病の癪が！！！！
+？！
+
+[charaFace B 2]
+＠エリザベート
+歌って上げようかって元気一杯に病欠したわね！？
+[k]
+
+[charaFace B 0]
+＠エリザベート
+ま、まあいいわ。[r]行軍中に兵士を慰問してあげるつもりだし！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+＠ロビンフッド
+今から先が思いやられるな……。
+[k]
+
+
+
+[messageOff]
+[se ad83]
+[wait se ad83]
+[seLoop ad84]
+[charaFadeout D 0.4]
+[charaFadeout B 0.4]
+[wt 1.0]
+[seStop ad84 0.8]
+[wt 0.8]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+よし。それでは我々も最前線に向かうぞ。[r]決戦だ、まかり間違っても気を抜くでない。
+[k]
+
+[charaFace E 1]
+＠スカサハ
+……よし！　本当に気が抜けてないか、[r]ちょいと試してやろう。
+[k]
+
+[messageOff]
+[soundStopAll]
+[charaFace E 2]
+
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad32]
+[shake 0.05 0 4 0.5]
+[wait se ad32]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein E 0.1 0]
+[charaFadein A 0.1 2]
+＠マシュ
+い、いきなりですか[line 2]！？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

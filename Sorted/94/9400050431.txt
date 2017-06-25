@@ -1,0 +1,141 @@
+＄94-00-05-04-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 20602]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 6017001 1 カーミラ]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+[fadein black 1]
+[wait fade]
+＠カーミラ
+くっ……。まったくあのドラ娘は……歌だの踊りだの……[r]貴族にあるまじき大道芸を……チャラチャラと……。
+[k]
+
+[charaFace E 1]
+＠カーミラ
+ふふ、でもこれでいいのかもね……。[r]ああ、私も今……。
+[k]
+
+[charaSpecialEffect E flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wt 0.5]
+[charaSpecialEffectStop E flashErasure]
+[wt 0.4]
+[se bac9]
+[wt 0.3]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠カーミラ
+ぎゃん！
+[k]
+
+[charaFadeout E 0.1]
+[bgmStop BGM_EVENT_6 0.4]
+[wt 0.3]
+[bgm BGM_EVENT_2 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠清姫
+死んだ振りで掃除をサボろうとしてもダメです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠カーミラ
+しくしく……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+それにしてもドラ娘が聖杯を持っているとは……[r]彼女は一体何を願ったのでしょう。
+[k]
+
+[charaFace D 4]
+＠清姫
+いやまあ、大体想像はつくのですけど。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[messageOff]
+[fadeout black 1]
+[wait fade]
+[scene 20902]
+[fadein black 1]
+[wait fade]
+[bgm BGM_EVENT_5]
+[charaSet E 5026001 1 ？？？]
+[charaSet F 7016001 1 ？？？]
+[charaFilter E silhouette 00000000]
+[charaFilter F silhouette 00000000]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+そう。マタ・ハリもカーミラも敗れたのね。[r][&子イヌ:子ジカ]は苦しんでる？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠F：？？？
+無論。生とはこれ即ち苦しみ。[r]たいていの人間はいっつも苦しい。
+[k]
+
+＠F：？？？
+でもまあ、同じようにたいていの苦しみは[r]肉球、あるいは尻尾の柔らかさ程度で和らぐもの。
+[k]
+
+＠F：？？？
+つまりそんなに苦しくないワケなのだな。[r]ところでキャロットケーキが足りないのでは？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+[line 2]そう、じゃあもっと苦しめなさい。[r]残酷なほどに、絶望的なほどに！
+[k]
+
+＠E：？？？
+それこそが、このハロウィン・パーティーの[r]何より重要な部分なんだから！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠F：？？？
+初耳だがあいつかまつった！[r]ネコ、宴にまっしぐらときた！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+さあ、いらっしゃい[&子イヌ:子ジカ]！[r][#私:アタシ]の下へ！
+[k]
+
+＠E：？？？
+この世に生まれてきたことを後悔するぐらい、[r]キレッキレの出迎えをしてあげるわ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

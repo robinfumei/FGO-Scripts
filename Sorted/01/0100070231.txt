@@ -1,0 +1,117 @@
+
+
+
+＄01-00-07-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_11 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 3027000 1 アナ]
+
+[scene 34700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マーリン
+あらかた片付いたかな。[r]それでは諸君、今度こそウルクに向かおう。
+[k]
+
+＠マーリン
+[%1]君には、[r]カルデアの使命をウルクの王様に伝える役目がある。
+[k]
+
+＠マーリン
+王様に会えばやるべき事は見えてくる。[r]それに、ウルクは活動拠点には最適だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……マーリンさんはこう言っていますが……[r]どうされますか、マスター？
+[k]
+
+？1：早く王様に会いたい
+？2：早くサークル設置がしたい
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠マーリン
+決まりだ。そういう訳でいったんウルクに戻るけど、[r]アナはどうする？　付いてくるかい？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 3]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠アナ
+……話が違います。[r]一刻も早く女神を倒す、と言った筈です。
+[k]
+
+[charaFace B 0]
+＠マーリン
+そう怒らないで。神殿まで案内するとは言ったけど、[r]今の状況も分かるだろう？
+[k]
+
+＠マーリン
+私たちだけではあの神殿には入れない。[r]今は急がば回れ、というヤツさ。
+[k]
+
+[charaFace C 4]
+＠アナ
+…………でも。[r]人間の集落に行く、のは……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[wt 0.7]
+
+？1：よろしく、アナ
+？2：一緒に行こう
+
+？！
+
+[charaFace C 4]
+＠アナ
+…………握手は結構です。さん、も不要です。[r]私には近づかないでください。
+[k]
+
+＠アナ
+……仕方ありません。いったん森から離脱します。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+（アナさん……気難しい方とは思えないのですが……）
+[k]
+
+[wt 0.2]
+[messageOff]
+[wt 0.2]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_11 1.4]
+[wait fade]
+[soundStopAll]
+[end]

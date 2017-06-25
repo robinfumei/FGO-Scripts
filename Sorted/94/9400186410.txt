@@ -1,0 +1,60 @@
+
+＄94-00-18-64-1-0
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 5004001 1 ナーサリー・ライム]
+
+[scene 11010]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 2]
+＠ナーサリー・ライム
+こんにちはー！　あの、マスターさん！[r]お願いだから、チョコレートを受け取ってくださーい！
+[k]
+
+[wt 0.4]
+[charaFace A 0]
+＠ナーサリー・ライム
+え？　そんなにしなくていい？[r][#ありす:わたし]からの贈り物なら、よろこんで……？
+[k]
+
+[charaFace A 1]
+＠ナーサリー・ライム
+[line 3]すごい。すごいわ、[#ありす:わたし]！[r]ほんとうに夢みたい！
+[k]
+
+＠ナーサリー・ライム
+なんて幸せなコトなのかしら。
+[k]
+
+＠ナーサリー・ライム
+想われるだけの[#物語:わたし]の気持ちを、[r]優しい笑顔で受け取ってくれる人がいるなんて！
+[k]
+
+[charaFace A 3]
+＠ナーサリー・ライム
+恥ずかしいわ、古びた頁も踊り出しそう！
+[k]
+
+＠ナーサリー・ライム
+素敵な貴方に感謝をこめて、[r]きらきら輝くシュガーをどうぞ！
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[charaFace A 1]
+＠ナーサリー・ライム
+ふふ。今日という日が美味しい思い出になりますように。[r]これからもよろしくね、マスター☆
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

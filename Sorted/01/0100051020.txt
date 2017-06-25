@@ -1,0 +1,501 @@
+
+＄01-00-05-10-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+
+[scene 20820]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+では、召喚サークルを確立させます。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[se ad13]
+[communicationChara 5009003 1 5 0 1]
+[wt 0.3]
+＠ダ・ヴィンチ
+はい、今回もご苦労さま。[r]無事拠点を築けたようで何よりだ。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+さて。今回の小話は、やっぱり[r]アメリカ合衆国について、かな？
+[k]
+
+＠ダ・ヴィンチ
+といってもなあ……[r]そこ、私にとっては縁遠い国なんだよなあ……。
+[k]
+
+[communicationCharaFace 4]
+＠ダ・ヴィンチ
+というか。どこの世界に自画像に暗号を仕掛ける[r]阿呆がいると思う？
+[k]
+
+＠ダ・ヴィンチ
+そしてそれを自分に押しつけられた気持ちが[r]キミたちに分かる？　ねえ分かる？
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+まあ、それはともかくとして。
+[k]
+
+＠ダ・ヴィンチ
+そも、イ・プルーリバス・ウナムとは何か。[r]それは「多数から成る一つ」という国家の標語だ。
+[k]
+
+[communicationCharaFace 5]
+＠ダ・ヴィンチ
+しかしこれこそが矛盾だ。
+[k]
+
+＠ダ・ヴィンチ
+多数を一つに纏めるためには、[r]多数を多数でなくす以外に方法はない。
+[k]
+
+＠ダ・ヴィンチ
+合理主義の権化でありながら、[r]正義の味方を標榜する。
+[k]
+
+＠ダ・ヴィンチ
+最強の国であろうと足掻きながらも、[r]神を信じようとする。
+[k]
+
+＠ダ・ヴィンチ
+アメリカという国家は、[r]まさに人間が持つ矛盾性を体現したような存在だ。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+[line 2]それ故に。[r]彼らの国は怪物とも魔術とも、まったく縁が無い。
+[k]
+
+＠ダ・ヴィンチ
+届かぬ星に手を伸ばす行動は一緒でも、[r]そのアプローチが致命的に異なるからさ。
+[k]
+
+[communicationCharaFace 5]
+＠ダ・ヴィンチ
+だが、縁が無いからといって[r][#知らない]とは限らない。
+[k]
+
+＠ダ・ヴィンチ
+この国でも、聖杯戦争は行われているかもしれないな。[r]それは遠い世界、違う世界の話だろうが[line 2]。
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチ
+……というところで本日の授業は終わりかな。[r]召喚サークルが確立されたからね。
+[k]
+
+＠ダ・ヴィンチ
+ではでは、みなさんチャオー♪[r]今回もはりきってやっていこう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.4]
+[scene 10500 0]
+[fadein black 0.5]
+[wait fade]
+[se ad29]
+[flashin once 0.7 0.5 FFFFFFBF 00000000]
+[wait flash]
+[wt 1.5]
+[fadeout black 0.5]
+[wait fade]
+
+[wt 1.5]
+
+[charaSet A 5016001 1 ジェロニモ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 3005002 1 エリザベート]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 2010001 1 ビリー]
+[charaSet F 2003001 1 ロビンフッド]
+[charaSet G 1006001 1 ネロ・ブライド]
+
+[scene 20821]
+[fadein black 1]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジェロニモ
+……ふむ。ここからの夜は早い。[r]そろそろ休憩しておくべきだろう。
+[k]
+
+＠ジェロニモ
+サーヴァントだけならともかく、[r]こちらには負傷者とマスターもいることだしな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ラーマ
+余は平気だぞ！[r]あいた[charaFace B 4]たた……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+貴方の肉体は私が把握しています。[r]無闇な強がりは止めなさい。
+[k]
+
+[charaFace B 2]
+＠ラーマ
+こ、こらこら。傷口を抉ろうとするな！？[r]分かった、分かった。休みたい、休みたいです！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠エリザベート
+ふん、ま、いいわ。[r]ちょっと緑、その敷物貸しなさい。
+[k]
+
+[charaFace F 2]
+＠ロビンフッド
+だからコレ敷物じゃなくてオレの宝具だからな！？[r]間違ってもケツに敷くものじゃねえよ！
+[k]
+
+[charaFace C 4]
+＠エリザベート
+はあ。まったくケチ臭いわね。[r]育ちが分かるというものよ？
+[k]
+
+＠ロビンフッド
+搾取専門のお貴族さまに言われたくはないですねぇ!?
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ビリー
+声にならない笑いってあるよね！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠ロビンフッド
+おまえさんいつでも笑ってるじゃねえか。[r]まったく……。
+[k]
+
+[charaFace E 0]
+＠ビリー
+夜は冷えるし、今の内に薪を集めておくよ。[r]問題ないかい？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジェロニモ
+ああ、まだ彼らの勢力範囲でもない。[r][%1]が冷える方が問題だろう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ビリー
+オッケー。ロビンも手伝ってよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エリザベート
+私はちょっと歌ってくるわ。[r]いついかなるときも、練習を欠かさない。
+[k]
+
+＠エリザベート
+それが[#偶像:アイドル]の宿命にして義務。[r]そしてライフ。あとホープ。みたいな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠ネロ・ブライド
+ほほう、言うではないか。[r]余も負けてはいられないな！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+心臓の壊死速度が一層激しくなっていますね。[r]あと数日なら、このままでも保たせられますが[line 2]。
+[k]
+
+＠ナイチンゲール
+それを過ぎると、保証はできません。
+[k]
+
+＠ラーマ
+分かっている。[r]今はひとまず、休ませてくれ。
+[k]
+
+＠ナイチンゲール
+鎮痛剤を二倍射っておきます。[r]痛みは引くでしょう。
+[k]
+
+＠ラーマ
+いや、痛みがないと意識が保てない。[r]いざというときに、動けるようでなければ……。
+[k]
+
+＠ナイチンゲール
+では、通常量で。[r]ただし、痛むのは覚悟してください。
+[k]
+
+＠ラーマ
+分かっている。[r]だが、それは甘んじて受けなければならない罰だ。
+[k]
+
+＠ナイチンゲール
+……罰？
+[k]
+
+＠ラーマ
+余はあのクー・フーリンに無様な敗北を喫した。[r]それだけでなく、余を救うために[line 2]。
+[k]
+
+＠ラーマ
+沢山の人間が、犠牲になったのだ。[r]故に、これは罰だ。
+[k]
+
+＠ナイチンゲール
+……インドの王様というのは、[r]馬鹿でもなれるものですか？
+[k]
+
+[charaFace B 2]
+＠ラーマ
+なっ……！？
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+何処の世界に、命を懸けて救おうとした人間が[r]傷ついて喜ぶ者がいるのです。
+[k]
+
+＠ナイチンゲール
+あなたを救った人間は、あなたの無事を、[r]あなたが健康であることを祈ったに決まっています。
+[k]
+
+[charaFace B 4]
+＠ラーマ
+う……。
+[k]
+
+[charaFace D 6]
+＠ナイチンゲール
+あまりに愚かです。傷を癒し、あなたを救った者たちに[r]恥じぬよう、戦いなさい。
+[k]
+
+＠ナイチンゲール
+それがあなたにできる全てであり、最上の行為です。
+[k]
+
+[charaFace B 0]
+＠ラーマ
+……忠告、痛み入る。
+[k]
+
+[charaFace D 0]
+＠ナイチンゲール
+看護師ですので。
+[k]
+
+[messageOff]
+[fadeout black 1]
+[wait fade]
+
+[scene 20722]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+
+[fadein black 1]
+[wait fade]
+
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.4 1]
+＠マシュ
+……ああ、マスター。[r]綺麗な星ですね。
+[k]
+
+
+？1：そうだね
+？2：何もないなあ
+
+？！
+
+＠マシュ
+ええ。原初の風景、人が生きるには難しく、[r]獣だけが生きることを許される光景です。
+[k]
+
+＠マシュ
+どれほどの年月、何かに尽くせば[r]ここに一つの国家が誕生するのか[line 2]想像もつきません。
+[k]
+
+[charaFace A 13]
+＠マシュ
+無数の人、無数の資源、無数の血と汗。[r]善悪を超越して邁進する、人類の業。
+[k]
+
+＠マシュ
+……カルデアの中では、幾ら考えても理解できなかった[r]ものが、何となく……分かるようになってきました。
+[k]
+
+[charaFace A 1]
+＠マシュ
+全部、先輩のお陰です。[r]ありがとうございます。
+[k]
+
+？1：どういたしまして。
+？2：[&ああ:うん]、なんでもないコトだけどね
+
+？！
+
+[wt 0.4]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさん、どうしました？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ネロ・ブライド
+逃げるな、フォウよ！[r]大人しく余のブラッシングを受けるがよい！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ、フォウフォウ！
+[k]
+
+[charaFace A 12]
+＠マシュ
+威嚇してます、ネロさん。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ネロ・ブライド
+むぅ、残念。[r]それはそうと、[charaFace G 0]ジェロニモが呼んでいたぞ。
+[k]
+
+＠ネロ・ブライド
+今後の方針を話し合いたいそうだが……。[r]む。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaTalk A]
+[se ad20]
+[wait se ad20]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+夜は彼らの時間ですか。[r]皆を呼びましょう。迎撃します！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

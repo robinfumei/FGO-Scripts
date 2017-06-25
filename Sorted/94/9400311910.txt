@@ -1,0 +1,162 @@
+＄94-00-31-19-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 11001000 1 アヴェンジャー]
+
+[scene 20210]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩？　まだここに用事があるんですか？[r]もう事件は解決したと思いますが……。
+[k]
+
+？1：あれが最後の聖杯とは思えなくて……
+？2：いや。ほら。あるでしょ、恒例のアレ
+
+？！
+
+[charaFace A 3]
+＠マシュ
+はあ……先輩の第六感、というヤツでしょうか……[r]そういう事なら、はい。
+[k]
+
+[charaFace A 0]
+＠マシュ
+マシュ・キリエライト、先輩のサーヴァントとして[r]周囲の探索を開始します！
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[messageOff]
+[charaFadeout A 0.4]
+
+[se ad60]
+[seStop ad60 1.0]
+[wt 1.0]
+
+＠マシュ
+きゃ[line 6][bgm BGM_EVENT_3 0.1]！？
+[k]
+
+？1：マシュ！？
+？2：早いな！？
+
+？！
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+
+[bgmStop BGM_EVENT_3 1.0]
+＠マシュ
+マスター、たいへんです！[r]崖の陰に、こんな、こんな[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad103]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.4 1]
+[wt 1.0]
+[seStop ad103]
+
+[bgm BGM_EVENT_7 0.1]
+
+＠アヴェンジャー
+痛い痛い痛い、強く引っ張るなっつーの！[r]引っ張るともげちゃうでしょ、オレ脆いんだから！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+こんな、見るからに怪しい人影が倒れていました！
+[k]
+
+？1：影そのものだ[line 3]！？
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。どんなに光を当てても正体が掴めません。[r]でもシャドウサーヴァントとは違いますし……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+どうしましょう、マスター。[r]この人、悪い人ではなさそうな雰囲気ですが……。
+[k]
+
+[se bac1]
+[charaMove C 1 0.2]
+[wait charaMove]
+
+[charaFace C 3]
+＠アヴェンジャー
+おっと、目の前にいい弾力。[r]ん～～、いい曲線だ……さすりさすり。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ひゃっ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠アヴェンジャー
+てひひ。いやあ役得役得、ついでに回復っと！[r]瀕死でも獣の本性は抑えられないんだなこれが！
+[k]
+
+＠アヴェンジャー
+いやあ、オタク、いいサーヴァント連れてるじゃんか！[r]前のオレのマスターといい勝負だぜ！
+[k]
+
+＠アヴェンジャー
+あ、もちろん肉体面だけの話ね。[r]中身はどっちもまだお子様だね、悲しいが。
+[k]
+
+[bgmStop BGM_EVENT_7 1.0]
+
+？1：これは……セクハラサーヴァント……！
+？2：マシュ。やって[&いいぞ:いいよ]
+
+？！
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい！　マシュ・キリエライト、[r]新モーションで容赦なく退治します！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,54 @@
+＄94-00-62-21-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+
+[charaSet B 2025100 1 メアリー]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+らっさーせー！
+[k]
+
+＠G：うりぼう
+ありあとあーしたー！
+[k]
+
+＠H：うりぼう
+接客の練習中であります！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠メアリー
+最初から崩す必要はないと思うんだけど……。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

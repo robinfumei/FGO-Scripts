@@ -1,0 +1,152 @@
+
+＄01-00-05-22-2-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 7020001 1 クー・フーリン・オルタ]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 3005002 1 エリザベート]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 7020000 1 クー・フーリンオルタ]
+
+[charaSet H 98003003 1 Dr.ロマン]
+
+[scene 20903]
+[fadein black 2]
+[wait fade]
+
+
+[charaTalk off]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.4]
+
+[se ad42]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.7 1]
+[wt 0.7]
+[charaTalk on]
+[charaFadeout E 0.1]
+＠クー・フーリン・オルタ
+……。
+[k]
+
+[charaFadeout A 0]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠マシュ
+姿が……変わった……！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+聖杯の願望が未だ彼を突き動かしているらしい。[r]「より優れた王」[line 2]彼の場合は即ち「より強く」だ。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+先ほど以上の強さで襲い掛かってくるぞ！[r]気をつけろ！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.5]
+[wait fade]
+
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFace D 5]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+[scene 12000]
+
+
+[fadein black 1.5]
+[wait fade]
+
+＠エリザベート
+……ハァ、ハァ、ハァ……！
+[k]
+
+[charaFace D 2]
+＠ロビンフッド
+[line 2]弔いの樹よ、牙を研げ！[r][#祈りの木:イー・バウ]！！
+[k]
+
+[se ad14]
+[effect bit_talk_21]
+[wt 1.0]
+[fowardEffect bit_talk_17]
+[flashin once 0.1 0.3 9ACD32AF 9ACD3200]
+[seStop ad14 0.4]
+[se ad34]
+[shake 0.05 0 5 1.0]
+[wt 1.0]
+[effectStop bit_talk_21]
+[fowardEffectStop bit_talk_17]
+[wt 0.5]
+[flashin once 1.0 1.0 9400D3DF 9400D300]
+[wt 0.5]
+[se bac34]
+[seStop bac34 1.5]
+[wt 2.5]
+
+[charaFace D 4]
+＠ロビンフッド
+あっちゃあ、ダメだこれ。[r]効果ねえや！
+[k]
+
+[charaFace C 2]
+＠エリザベート
+マネージャー、水ちょうだい！[r]喉嗄れそう！
+[k]
+
+[charaFace D 2]
+＠ロビンフッド
+……マネージャーってオレかよ！？[r]いやまあ、持ってますけどねぇ！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+負けないんだから……！
+[k]
+
+[charaFadeout C 0.4]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+
+[se bac14]
+[wait se bac14]
+[wt 0.4]
+
+
+[soundStopAll]
+[end]

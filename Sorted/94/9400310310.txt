@@ -1,0 +1,210 @@
+＄94-00-31-03-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+
+[scene 25600]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+＠Dr.ロマン
+どうだいマシュ？[r]サークルの設営は上手くいきそうかな？
+[k]
+
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+それがどうにも……。
+[k]
+
+？1：駄目なの？
+
+？！
+
+[charaFace A 12]
+＠マシュ
+霊脈もあるにはあるのですが、何か別の術式によって[r]保護されていて、こちらの介入を受け付けません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ふむ、やはり真っ当な魔術師が管理地として[r]確保している土地では厳しいか……。
+[k]
+
+？1：どういうこと?
+
+？！
+
+＠エルメロイ
+この辺り一帯の霊脈はすべて[r]とある魔術師一族の独占下にある。
+[k]
+
+＠エルメロイ
+少しはつけ入る隙もあるかと思っていたが、[r]見込みが甘かったようだ。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+……まったく。良い腕だよ、彼女の父親は。[r]今の私だからこそ分かる、質実剛健な術式だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+どうしましょう？　このままではカルデアから[r]補給を受けることもままなりません……。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+仕方あるまい。魔術師が配置している要石を破壊し、[r]霊脈の主導権をこちらが奪う。
+[k]
+
+＠エルメロイ
+それなりの防備も敷かれてはいるだろうが、[r]そこは手荒にいくしかない。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+余分な戦闘は避けたいところだが、[r]腹が減っては戦が出来ぬが故の戦だ。是非もない。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 2 5 0 2]
+＠Dr.ロマン
+壊すって、結界の要石を！？　そんなことをしたら[r][#管理人:セカンドオーナー]の魔術師は怒るのでは！？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+当然な。だがこの土地を仕切る遠坂家は[r]アーチャーを召喚した魔術師でもある。
+[k]
+
+＠エルメロイ
+つまりハナから敵対が確定している相手だ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……そうか。[r]でも霊脈の要石は慎重に秘匿されてる筈だよね？
+[k]
+
+＠エルメロイ
+問題ない。位置は予め知っている。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ええっ？　どうやって調べたんですか？
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+次の代で遠坂を継ぐのは私の教え子でね。[charaFace D 0]最終的には[r]彼女の協力を得てここの大聖杯を解体する訳だが……。
+[k]
+
+＠エルメロイ
+そのとき自ずと土地の霊脈の構造も[r]把握する事になったのだ。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 2 5 0 4]
+＠Dr.ロマン
+ちょっと待った。貴方は未来の教え子の地所を[r]滅茶苦茶にしようっていうんですか？
+[k]
+
+＠エルメロイ
+あくまで違う時間線における未来だ。[r]今この時点における遠坂に私は何の義理も負い目もない。
+[k]
+
+＠エルメロイ
+そもそも遠坂家は冬木の聖杯戦争の発端について[r]責任の一端を担う家門だ。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+霊脈を失って素寒貧になろうとも、まぁ自業自得という[r]ものさ。きっと未来の遠坂も理解してくれるだろう。
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+？1：ものすごい事後承諾だ！
+？2：……いつかとんでもないしっぺ返しが……
+
+？！
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 0]
+＠エルメロイ
+さて、では手近なポイントから攻略を始めよう。
+[k]
+
+＠エルメロイ
+いくつか要石を破壊した後で、[r]あらためてサークルの設営だ。
+[k]
+
+＠Dr.ロマン
+いいのかなぁ……[r]こういうのって後々祟るんだよなあ……。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

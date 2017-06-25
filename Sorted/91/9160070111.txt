@@ -1,0 +1,164 @@
+＄91-60-07-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 10902]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 6007002 1 ジキル]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 6007001 1 過去のジキル]
+[charaSet F 6007003 1 ハイド]
+[fadein black 1]
+[wait fade]
+[effect bit_talk_06]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.3 1]
+＠過去のジキル
+……ふう。[r]やっぱり、君たちの戦闘力は大したものだね。流石だ。
+[k]
+
+[charaFace E 0]
+＠過去のジキル
+それじゃあ僕はもう行くよ。[r]そいつも、少しは身の程を知っただろうしね。
+[k]
+
+[charaFace E 5]
+＠過去のジキル
+「ハイド」に飲まれたって、何も良いことはない。[r]その初心を忘れてはいけないぞ、僕。
+[k]
+
+＠過去のジキル
+タツミに顔向けできないような生き方をするのか？[r]少し考えれば、君もわかりそうなものだろうに。
+[k]
+
+[charaFace E 1]
+＠過去のジキル
+マシュ、[%1]。[r]セイバーやフランたちに会ったらよろしくね。
+[k]
+
+＠過去のジキル
+さよなら[line 3]
+[k]
+
+[messageOff]
+[effectStop]
+[wait effect]
+[charaSpecialEffect E flashErasure 0 1]
+[wt 1.0]
+[se ba5]
+[wait charaSpecialEffect E]
+[bgmStop BGM_EVENT_6 0.4]
+[wt 0.3]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……サーヴァント・ジキル、消滅しました。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+観測結果が出たよ。[r]彼は、存在そのものが不安定だったようだ。
+[k]
+
+＠Dr.ロマン
+ロンドンに残った魔霧も完全なものじゃないから、[r]きちんとした召喚、現界の類ではなかったんだろうね。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+遠からず彼はひとりでに消滅していたはずだよ。[r]だから、その[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ハイド
+………ケッ。
+[k]
+
+[charaFadeout F 0.7]
+[charaFace C 0]
+[charaFadein C 0.5 1]
+＠ジキル
+しらけてしまったよ。[r]もう、このあたりで僕もやめておくとしよう。
+[k]
+
+[charaFace C 4]
+＠ジキル
+いい顔して消えていったな、あの僕は。[r]ああ。何が、身の程を知っただろうしね、だか……
+[k]
+
+＠ジキル
+…………まったく。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+（あ[line 3]）
+[k]
+
+[charaFace A 13]
+＠マシュ
+（せんぱい。心なしか、彼の様子が以前よりも……）
+[k]
+
+？1：大人しくなったかな
+
+？2：落ち着いた？
+
+？！
+
+＠マシュ
+（…………はい）
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ジキル
+カルデアに戻ろう。[r]迷惑をかけたね、マスター。
+[k]
+
+[charaFace C 0]
+＠ジキル
+確かに自分が「ハイド」であることを認めたとしても、[r]思考までもが短絡的になっては意味がない。
+[k]
+
+[charaFace C 4]
+＠ジキル
+……それでは、ああ、何も成し得ないからね。
+[k]
+
+[charaFace C 0]
+＠ジキル
+また、僕は僕で「ハイド」を抑える戦いを再開するよ。[r]本当にすまなかった。マスター、マシュ。
+[k]
+
+＠ジキル
+これ以上の寄り道をするのはやめて、[r]世界を修正するとしよう。
+[k]
+
+[charaFace C 5]
+＠ジキル
+……僕が僕に再戦を申し込むのは、その後だ。
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

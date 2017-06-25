@@ -1,0 +1,128 @@
+＄94-00-39-04-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet E 1009002 1 紅孩児]
+
+[scene 20301]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaFace E 2]
+＠紅孩児
+ちっくしょう、負けた負けたぁー！[r]ほら経典だ！　とっとと持っていきやがれ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace E 2]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+
+＠三蔵
+ちょっと待って紅孩児、[r]いえ、モー孩児！
+[k]
+
+[charaFace E 3]
+＠紅孩児
+モー孩児！？
+[k]
+
+[charaFace A 4]
+＠三蔵
+どこへ行く気なの……？[r]そっちは火雲洞でも[#魔雲洞:まうんどう]でもないじゃない。
+[k]
+
+[charaFace E 4]
+＠紅孩児
+オレがどこへ行こうと勝手じゃねーか。
+[k]
+
+[charaFace E 0]
+＠紅孩児
+悪逆非道で有名な三蔵一味に負けたとあっちゃ、[r]ほとぼりが冷めるまで、そこらに身を隠すしかねえ。
+[k]
+
+[charaFace A 5]
+＠三蔵
+……そんなに父上を求め欲するなら、[r]なぜあなたは、自分の家へ帰らないの？
+[k]
+
+＠三蔵
+あんなにお父さんを[#慕:した]っていたのに！
+[k]
+
+[charaFace E 3]
+＠紅孩児
+バッ、慕ってなんかねーよ、[r]父上なんて大っっっっっ嫌いだ！
+[k]
+
+[charaFace E 4]
+＠紅孩児
+けどよ……[r]あんな、すさんだ家には帰れないんだぜ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+
+＠猪八戒
+おや、家出かい？　そうか、僕たちを倒して、[r]その手柄を理由に家に帰りたかったんだね。
+[k]
+
+＠猪八戒
+でも、そんな面倒くさ[line 2]失礼、心優しい君を[r]育てたお父さんなら、[#土産:みやげ]なんて必要ないブヒさ。
+[k]
+
+＠猪八戒
+きっと、温かくキミを迎えるブヒよ。[r]さあ、さっさと帰って僕らを財宝の場所に案内ブヒ。
+[k]
+
+[charaFace E 5]
+＠紅孩児
+なんかいいコト言ってるけどムカつくなテメェ！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠紅孩児
+それに……父上は超カッコよくても、[r]母ちゃんがよぉ……。
+[k]
+
+＠紅孩児
+控えめに言ってもブレーキの壊れたダンプカーって[r]言うか……。
+[k]
+
+＠紅孩児
+とにかく異常におっかねえんだぜ……[r]母ちゃんには、[#流石:さすが]の父上も尻に敷かれ気味っつーか……。
+[k]
+
+[charaFace E 5]
+＠紅孩児
+この先に進むのなら気を付けろよ三蔵！[r]あの女とは関わり合いにはならぬが身のためだぜ！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

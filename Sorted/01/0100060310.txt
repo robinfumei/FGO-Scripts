@@ -1,0 +1,428 @@
+＄01-00-06-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 5012001 1 ニトクリス]
+[charaSet F 1012001 1 ルキウス]
+[charaSet B 98006300 1 ？？？]
+
+[scene 28801]
+[backEffect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ニトクリス
+風よ、しばしその任を解くがいい。[r]ニトクリスの名において、天空の見晴らしをここに！
+[k]
+
+[bgmStop BGM_EVENT_1 1.5]
+[se ad39]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[wt 0.5]
+[messageOff]
+[fadeout white 2.0]
+[wt 1.0]
+[effect bit_talk_haboob_03]
+[se ad2]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[effectStop bit_talk_haboob_03]
+
+[wt 0.3]
+[charaFadeout E 0.1]
+
+[wt 2.0]
+[seStop ad2 3.0]
+[wt 1.0]
+
+[scene 28800]
+[fadein white 1.5]
+[wait fade]
+
+
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠マシュ
+嵐が止みました、先輩！[r]空が[line 3]澄み渡るような、一面の青色です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠ニトクリス
+[#佳:よ]い笑顔です。[r]私も見栄を張った甲斐があります。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+でも、この時代の空にもあの[#光帯:こうたい]はあるんだね。
+[k]
+
+[charaFadeout D 0.1]
+
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠ニトクリス
+ええ、忌々しい事に。[r]中天に輝くものは太陽だけで十分だと言うのに。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ニトクリス
+後はこのまま西に進みなさい。[r]二時間ほどで大神殿に辿り着くでしょう。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+＠ルキウス
+それは良かった。では、私はこれで。[r]皆さんの旅に[#善:よ]き[#巡:めぐ]り合わせがありますよう。
+[k]
+
+？1：ここで別れるんですか？
+？2：一緒には行かない……？
+
+？！
+
+[charaFace F 4]
+＠ルキウス
+私は大神殿に用事はありません。[r]また、皆さんが行かれるというのなら止める理由も。
+[k]
+
+＠ルキウス
+……今回は本当に、[r]偶然が私たちを巡り合わせただけの事。
+[k]
+
+＠ルキウス
+私はもとより放浪の身。[r]人々と交わる資格のない者です。
+[k]
+
+[se ad60]
+[seStop ad60 2.5]
+[charaFadeout F 0.7]
+[wt 2.5]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+行ってしまいました……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+……。マシュ。あのルキウスというサーヴァントに[r]何か感じるところはなかったかい？
+[k]
+
+＠ダ・ヴィンチ
+懐かしいー、とか。[r]なんとなく知り合いかもー、とか。
+[k]
+
+[charaFace A 6]
+＠マシュ
+[FFFFFF]？　別に何も感じませんでしたが……[-]
+[k]
+
+[charaFace A 4]
+＠マシュ
+……いえ。確かに、妙な感覚はありました。[r]同じサーヴァントなのに何か違う、というか……
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+そうか。んー、じゃあルキウスって真名は[r]本当なのかもねー。でもどうなのかなー、それ。
+[k]
+
+？1：ルキウスって真名はヘン[&なのか:なの]？
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+ヘンっていうより、その名前を語る事自体が[r][#諧謔:かいぎゃく]的っていうか。
+[k]
+
+＠ダ・ヴィンチ
+ルキウスというのは『ブリタニア列王史』に出てくる[r]ローマ皇帝の名前でね。
+[k]
+
+＠ダ・ヴィンチ
+これといって特に功績のない人物なんだけど……
+[k]
+
+？2：そうだよ[&な:ね]……皇帝に見えないし……
+
+[charaFace A 6]
+＠マシュ
+マスター、知っているんですか！？
+[k]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+ワオ、妙なところで博識だな[%1][&君:ちゃん]！[r]そう、ルキウスはローマ皇帝の一人だよ。
+[k]
+
+＠ダ・ヴィンチ
+『ブリタニア列王史』にちょこっと出てくる、[r]たいへんマイナーな皇帝なんだが……
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+……まあ、問題なのは真名じゃない。[r]おかしいのは彼の右腕にあった宝具の方だ。
+[k]
+
+＠ダ・ヴィンチ
+あれはヌァザの右腕。[r][#輝ける腕:アガートラム]そのものだ。
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+いや、彼自身はヌァザではないのだから、[r]間違いなくレプリカなんだろうけど……
+[k]
+
+＠ダ・ヴィンチ
+それにしたってあの威力は尋常じゃない。
+[k]
+
+＠ダ・ヴィンチ
+現象生命に近いスフィンクスを倒しきれるとか、[r]どんなカラクリで動いているんだろう……
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+気になる……気になるぞぅ……[r]っていうか、同じ義手使いとして妬ましいっ！
+[k]
+
+＠ダ・ヴィンチ
+私もアレほし[line 3]い！[r]スフィンクスとか一人で倒してみた[line 3]い！
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ニトクリス
+無駄話はそこまでです！[r]大神殿に行くのですか、行かないのですか！？
+[k]
+
+＠ニトクリス
+私も時間がないのです！
+[k]
+
+＠ニトクリス
+ファラオとの夕べの前に戻らなければ、[r][#攫:さら]われたという失態が露見してしまいます！
+[k]
+
+？1：あ、はい
+？2：……それはもうバレているのでは……
+
+？！
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+すみません、女王ニトクリス。[r]つい、貴女の存在を忘れていました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ニトクリス
+丁寧なようで[#辛辣:しんらつ]な娘ですね、貴女は！[r]名前は！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、そちらもたいへん失礼しました。[r]わたしはマシュ・キリエライトと申します。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+こちらはダ・ヴィンチちゃん。[r]そしてこちらはわたしたちのマスターである、
+[k]
+
+？1：マスターの[%1]です
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ニトクリス
+ふむ。よろしい。遅きにすぎましたが、許します。[r]みな罪人名簿にない名前です。安心しました。
+[k]
+
+＠ニトクリス
+それでは改めて、私の護衛の任を与えます。[r]大神殿まで私を守るように。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+[FFFFFF]？　女王を守る、のですか？　今までの情報から[-][r]この砂漠は貴女の領地のようですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠ニトクリス
+私の領地ではありません。太陽王の領地です。[r]そして、領地といってもここは終末の地。
+[k]
+
+＠ニトクリス
+このように砂嵐を止めてしまえば、[r]我らの管轄外の魔獣どもがやってくるでしょう。
+[k]
+
+＠ニトクリス
+なので、貴方たちは万が一に備えて私を護衛し、[r]大神殿に送り届ける義務があるのです。
+[k]
+
+[charaFace B 0]
+[charaFadein B 0.7 -80,20]
+[wt 1.5]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+なるほど。[r]管轄外の魔獣、ですか。
+[k]
+
+？1：なるほど。すごい説得力だ
+？2：なるほど。マシュ、言ってあげなさい
+
+？！
+
+[charaFace A 0]
+＠マシュ
+了解ですマスター。[r]オーダー、実行します。
+[k]
+
+＠マシュ
+女王ニトクリス。貴女の背後に忍び寄っているのは、[r]この砂漠の生物でしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[charaFace B 0]
+[charaFadein B 0.1 -80,20]
+＠ニトクリス
+！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace E 3]
+[charaFadein E 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 250,20]
+[wt 0.1]
+＠？？？
+Gu[se ad21]Ruuuuuuu[line 3][r]Zbuaaaaaaaaaaaaaaa！！！！
+[k]
+
+[charaFace E 5]
+＠ニトクリス
+こんな魔獣に覚えはありません！[r]倒しなさい、[%1]！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,248 @@
+
+
+＄91-10-14-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1014001 1 フェルグス]
+[charaSet E 7014001 1 ナイチンゲール]
+
+[scene 21000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+＠フェルグス
+うーむ、上手くいかんものだなあ。[r]今度こそ相性の良いサーヴァントが現れるといいのだが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、賭けませんか。
+[k]
+
+？1：むだむだむだ
+？2：ダメだと思う
+
+？！
+
+[charaFace A 8]
+＠マシュ
+はい、わたしもそう思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フェルグス
+はっはっは！　マスターも辛口だな。[r]しかし安心しろ。テントすなわち野生。
+[k]
+
+＠フェルグス
+ここに居るということは、[r]恐らくは猛々しい女戦士であろう。
+[k]
+
+[charaFace D 5]
+＠フェルグス
+そういう相手への口説き方は知っておる。[r]では、ドクターよ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+揺るがない鉄の心……[r]それでこそ勇者フェルグスだ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+まあ、正直ボクもそろそろ無駄だと気づいたので[r]仕事に戻りたいところだけど、今回こそ期待したい！
+[k]
+
+＠Dr.ロマン
+続いてのサーヴァントは[line 2]彼女だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[wt 0.4]
+[charaTalk E]
+[se ad42]
+[charaFace E 5]
+[charaSpecialEffect E appearance 1 1.0]
+[wait charaSpecialEffect E]
+[wt 1.0]
+＠ナイチンゲール
+……は？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、逃げませんか。
+[k]
+
+？1：地の果てまで
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠フェルグス
+おお、これはアメリカで世話になった[r]看護師ではないか。
+[k]
+
+[charaFace E 5]
+＠ナイチンゲール
+怪我人以外に用はありません、[r]お引き取り下さい。
+[k]
+
+[charaFace D 4]
+＠フェルグス
+そうつれないことを言うな。[r]実は……俺は重い病を抱えていてな。
+[k]
+
+[charaFace E 0]
+＠ナイチンゲール
+……伺いましょう。どうなさいました？
+[k]
+
+＠フェルグス
+こう、胸にぽっかりと穴が空いたような……。
+[k]
+
+＠ナイチンゲール
+気胸でしょうか。[r]あるいは心臓の破損ですか？
+[k]
+
+＠フェルグス
+そういうのではなく、精神的な面でな。[r]独り寝が寂しく、満たされない。
+[k]
+
+[charaFace E 5]
+＠ナイチンゲール
+……と言うと。
+[k]
+
+＠フェルグス
+そう、これはまさに恋の病……。[r]拙者の[charaFace D 2]心は何とも言えぬ寒々しさ！
+[k]
+
+＠フェルグス
+だが、たおやかな胸と[r]まろやかな尻を持つ美女よ！
+[k]
+
+＠フェルグス
+おぬしなら、この心の隙間を埋めてくれると[r]思うのだが、どうか！
+[k]
+
+[charaFace E 4]
+＠ナイチンゲール
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+ナイチンゲールさん、あの、スパッと[r]断っていただいて結構ですので……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ナイチンゲール
+いえ。戦場において、戦士が自分の生きた証を[r]求めるのは、ままならぬ本能というもの。
+[k]
+
+＠ナイチンゲール
+か弱い看護師を襲うというのならともかく、[r]私が指名されたとなれば、話は別です。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え[line 2]！？[r]そ、それはつまり！
+[k]
+
+＠マシュ
+ＯＫ、ということに……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 0.5]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ナイチンゲール
+はい。[r]謹んで迎撃させていただきます。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠ナイチンゲール
+何しろ戦闘能力を持つ看護師ですからね、[r]今の私は。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、そういうコトでしたか！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フェルグス
+はっはっはっは！[r]逆に言えば、戦いに勝てば口説けるという訳だ！
+[k]
+
+[charaFace D 2]
+＠フェルグス
+いいぞ、乗ってきた！[r]マスター、決戦だ……行くぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

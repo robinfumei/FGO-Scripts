@@ -1,0 +1,637 @@
+＄01-00-06-14-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6003001 1 百貌のハサン]
+[charaSet F 5022001 1 三蔵]
+[charaSet G 98014000 1 砦の兵士Ａ]
+[charaSet H 98014000 1 砦の兵士Ｂ]
+[scene 20402]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠百貌のハサン
+……着いたぞ。あれが騎士どもの砦だ。
+[k]
+
+＠百貌のハサン
+守備こそ固いが、なに、[r]見張りは夜目も利かぬカカシども。恐れるに足りぬ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……哨戒の兵士は外壁にそれぞれ十人、[r]城壁の上に十人、といったところでしょうか。
+[k]
+
+＠マシュ
+ドクター、中の様子はスキャンできますか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+……ずいぶんと広い構造物だね。
+[k]
+
+＠Dr.ロマン
+大きな建物が二つ、[r]小さな建物が一つ……これは馬小屋かな。
+[k]
+
+＠Dr.ロマン
+それと、地下にも空間があるようだ。[r]地下牢と見て間違いない。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+地下牢か。さぞ惨い真似をしてきたのだろう。[r]魔術師殿。サーヴァント反応は？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+地下に二騎だ。[r]すまない、それ以上はなんとも。
+[k]
+
+＠Dr.ロマン
+地下は古い遺跡を利用しているようだ。[r]通常のエコロケでは詳しくは分からないな……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+どうしましょう、先輩。
+[k]
+
+＠マシュ
+わたしたちなら城門に跳び乗れますから、[r]うまく見張りの兵士の目を盗めれば……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠三蔵
+……ううん。なんかおかしい。ピリピリするわ。[r]前に来た時より、陰の[#気:ケ]が増している。
+[k]
+
+＠三蔵
+この砦のみんな、緊張してる。[r]まるであたしたちの襲撃を知ってるみたいに。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠百貌のハサン
+警戒されているというのか？[r]……いや、円卓のひとりを迎撃したのだ。
+[k]
+
+＠百貌のハサン
+聖都の者どもも我らの動きに敏感になっている……[r]という事か。……フ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠呪腕のハサン
+そこで喜んでどうするのだ百貌の。[r]……これは機を改めるべきだろう。
+[k]
+
+＠呪腕のハサン
+[%1]殿。[r]ここで一日、様子を見ましょう。
+[k]
+
+＠呪腕のハサン
+奴らの緊張が長続きするとは思えませぬ。[r]果報は寝て待て。危険を冒すよりは……む？
+[k]
+
+[charaTalk B]
+[se ad60]
+[seStop ad60 3.0]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+みんな、隠れて！　近くに兵士の反応だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.7]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.7 0]
+[charaFace H 0]
+[charaFadein H 0.7 2]
+＠砦の兵士Ａ
+まったく勘弁してほしいよな。[r]こんな夜更けに全員で出張るなんてよ。
+[k]
+
+＠砦の兵士Ｂ
+仕方なかろう。円卓の騎士さまがお忍びで[r]いらっしゃるのだ。失礼があっては我らの首が飛ぶ。
+[k]
+
+＠砦の兵士Ａ
+それだよ。事前の連絡もなし、いきなりの来訪だろ？[r]しかもただの円卓さまじゃねえ。
+[k]
+
+＠砦の兵士Ａ
+やってくるのは獅子王陛下の補佐官、[r]鉄のアグラヴェインときた！
+[k]
+
+＠砦の兵士Ａ
+聖都から決して離れない円卓のナンバー２が、[r]こんなしけた砦に何用だってんだよ？
+[k]
+
+＠砦の兵士Ｂ
+……あれかもな。[r]先日、ランスロット卿に馬をお譲りしただろう？
+[k]
+
+＠砦の兵士Ｂ
+砦の物資はアグラヴェイン様の許可なしに運用しては[r]ならない。その事でお咎めにきたのかもしれん。
+[k]
+
+＠砦の兵士Ａ
+マジかよ。うちの団長、処断されるのか……？
+[k]
+
+＠砦の兵士Ａ
+いやまあ、難民たちにひでぇ仕打ちをするクズだ。[r]クビになってくれりゃあ俺たちも助かるが……
+[k]
+
+＠砦の兵士Ｂ
+……あるいは……[r]先日捕らえた怪しげな弓兵かもしれん。
+[k]
+
+＠砦の兵士Ｂ
+粛正騎士が束になってようやく捕まえた男だ。[r]アグラヴェイン様は自らの手で処断しにきたのかもだ。
+[k]
+
+＠砦の兵士Ａ
+マジかよ。あの兄さん、殺されるのか？[r]なに言ってるか分からないが、いいヤツなんだぜ？
+[k]
+
+＠砦の兵士Ａ
+それにアイツが来てからうちの昼飯、グレード[r]あがったじゃねえか。仲間になってほしいけどなあ……
+[k]
+
+＠砦の兵士Ｂ
+……いやいや、あるいは……[r]地下牢に収容されているという山の翁目当てかも。
+[k]
+
+＠砦の兵士Ｂ
+たいそう美しい娘と聞く。しかし口が堅い。[r]拷問官たちも音を上げていたが……
+[k]
+
+＠砦の兵士Ｂ
+アグラヴェイン様は円卓随一の尋問官……拷問技術の[r]巧みさは[#河馬:カバ]ですら人語で助けを請うという……
+[k]
+
+＠砦の兵士Ａ
+マジかよ、河馬がタスケテって鳴くのかよ[r]どれだけ残酷なんだよアグラヴェイン様。
+[k]
+
+＠砦の兵士Ａ
+そしてどんだけ厄ネタ溜め込んでるんだようちの砦！[r]俺も聖都に住みてぇなあ！
+[k]
+
+＠砦の兵士Ｂ
+いやいや、あるいは……
+[k]
+
+＠砦の兵士Ａ
+マジかよ、マジなのかよ……
+[k]
+
+[charaFadeout G 0.7]
+[charaFadeout H 0.7]
+
+[se ad60]
+[seStop ad60 3.0]
+[wt 2.5]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+……生命反応、遠ざかっていくね……[r]もういいよ、みんな。
+[k]
+
+？1：大変な事になったな……
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。今の話が事実なら、砦の緊張も頷けます。
+[k]
+
+[charaFadeout A 0.1]
+
+？2：たいへんな砦だったね……
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠百貌のハサン
+……そうだな。私も頭が痛くなってきた。[r]おまえたち、実は疫病神ではないのか？
+[k]
+
+[charaFadeout E 0.1]
+
+？！
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+事情が変わってしまったようね。[r]アグラヴェインがやってくるなら急がないと。
+[k]
+
+＠三蔵
+あいつは円卓の騎士以外のサーヴァントを認めないわ。[r]一晩も待っていられない。トータがやられちゃう！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。捕らわれているハサンさんも危険です。[r]幸いアグラヴェイン卿は砦に到着していません。
+[k]
+
+＠マシュ
+彼が来る前に二人を救出しましょう！
+[k]
+
+？1：もちろんだ！
+？2：三人目の山の翁を助けに行こう！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……待たれよ[%1]殿。[r]私からもよろしいですかな？
+[k]
+
+＠呪腕のハサン
+我が耳は千里先に落ちた針の音も聞き取れます。[r]……この砦に近づく馬の一団はすぐそこまで。
+[k]
+
+＠呪腕のハサン
+おそらく牢から出た時に鉢合わせになりましょう。[r]それでは脱出は困難となる。
+[k]
+
+＠呪腕のハサン
+ここは二手に別れて行動しましょう。[r]一方は侵入し、サーヴァントの救出を。
+[k]
+
+＠呪腕のハサン
+もう一方はここに残り、アグラヴェインの一団が[r]現れた後、頃合いを見て砦を奇襲、陽動を行う。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+なるほど。でも奇襲といったって、[r]一人や二人では砦の兵士は動かないぞ？
+[k]
+
+＠Dr.ロマン
+せめて二十人はいないと[r]陽動にはならないんじゃないかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠百貌のハサン
+………………。
+[k]
+
+[charaFace E 5]
+[se ad7]
+[seStop ad7 0.25]
+[charaChange E 6003002 5 fade 0.5]
+[charaSet F 6003001 2 百貌のハサンＣ]
+[charaSet G 6003001 1 百貌のハサンＡ]
+[charaSet H 6003001 0 百貌のハサンＢ]
+[charaPut G 0,0]
+[charaPut H -300,0]
+[charaPut F 300,0]
+＠百貌のハサン
+……それは私に任せるがいい。[r]おまえたちは地下牢へ侵入しろ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+百貌さん？　ですが、あなた一人では……
+[k]
+
+[charaFace E 0]
+＠百貌のハサン
+陽動、奇襲であれば私の仕事だ。[r]おまえたちばかりに頼っていられないからな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠百貌のハサン
+私は百の貌を持つ山の翁。[r]その気になれば[line 3]
+[k]
+
+[wt 0.2]
+[charaFadeout E 0.1]
+[messageOff]
+[wt 0.4]
+
+[charaTalk off]
+[charaSpecialEffect G appearance 1 0.3]
+[wt 0.2]
+[se ad73]
+[charaSpecialEffect H appearance 0 0.3]
+[wt 0.2]
+[se ad73]
+[charaSpecialEffect F appearance 2 0.3]
+[wt 0.2]
+[se ad73]
+[wt 1.5]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+[wt 0.4]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠百貌のハサン
+な？　数による暗殺なら私の[#独壇場:どくだんじょう]だ。
+[k]
+
+＠百貌のハサン
+円卓の騎士のようなサーヴァントには及ばないが、[r]兵士相手なら私ほど“使える”サーヴァントはいない。
+[k]
+
+＠百貌のハサン
+せいぜい砦の兵士どもを驚かせてやるさ。[r]ついでに人数分の馬も確保しておく。
+[k]
+
+＠百貌のハサン
+おまえたちは[#静謐:せいひつ]とトータとやらを助け出してこい。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+百貌さん……。
+[k]
+
+？1：任せろ！
+？2：凄いな、百貌の！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ[line 2]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠百貌のハサン
+御託はいい。さっさとしろ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaSet F 5022001 1 三蔵]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+ではそのように。[r]行きますぞ、[%1]殿！
+[k]
+
+＠呪腕のハサン
+まずは城壁を飛び越え、[r]地下牢の入り口を探し出しましょう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠三蔵
+え？　この壁を飛び越えるの？　音もなしで？[r]そんなの、あたし無理なんだけど……
+[k]
+
+[charaFace D 1]
+＠呪腕のハサン
+三蔵殿は私が抱きかかえましょう。[r][%1]殿はマシュ殿にお願いいたします。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.7]
+
+？1：よろしく、マシュ。静かにね
+？2：ちょっとドキドキするね
+
+？！
+
+[charaFace A 3]
+＠マシュ
+は、はい。[r]見つからないよう、頑張ります！
+[k]
+
+[wt 0.3]
+[charaFadeout A 0.1]
+[messageOff]
+[wt 0.5]
+
+[se ad73]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[scene 28302]
+[wt 0.2]
+[wipein downToUp 0.2 1]
+[wait wipe]
+[wt 0.6]
+
+[se ad73]
+[wipeout downToUp 0.2 1]
+[wait wipe]
+[scene 10000]
+[wt 0.2]
+[wipein upToDown 0.2 1]
+[wait wipe]
+
+[fadeout black 0.5]
+[wait fade]
+
+[scene 11800]
+[fadein black 1.5]
+[wait fade]
+[wt 0.4]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 0]
+[charaFace D 0]
+[charaFadein D 0.4 2]
+＠三蔵
+すごいわガイコツの人、[r]こんなにあっさり地下牢に入れるなんて！
+[k]
+
+＠三蔵
+もしかして怪盗のサーヴァントだったの！？[r]リュパン？　リュパンだったのね！
+[k]
+
+[charaFace D 3]
+＠呪腕のハサン
+いやいや、砦の作りなぞどこも似たようなもの。[r]この程度、ハサンたるもの初歩の初歩。
+[k]
+
+＠呪腕のハサン
+まして地下牢への入り口など、[r]人間の心理を辿ればたやすく見つけられまする。
+[k]
+
+＠呪腕のハサン
+外部に漏れず、また、内部の仲間たちにも[r]見とがめられない最下層、最奥に隠しておく……
+[k]
+
+＠呪腕のハサン
+こればかりは西洋東洋問わず変わらぬこと。[r]……[charaFace D 0]しかし注意されよ。
+[k]
+
+＠呪腕のハサン
+この地下牢、古くからあったものをそのまま[r]使っていた様子。……よくないものが棲みついている。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ハサン君の言う通りだ！[r]死霊系の敵性反応、多数確認！
+[k]
+
+＠Dr.ロマン
+来るぞ！　できるだけ静かに、[r]砦の兵士たちにバレないよう応戦してくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠三蔵
+なに、怨霊？　ならあたしの出番ね！[r]まっかせて、[%1]！
+[k]
+
+＠三蔵
+[#觀自在菩薩:カンジザイボサツ]、[#行深般若波羅蜜多時:ギョージンハンニャハラミッタジ]。[r][#照見五蘊皆空:ショーケンゴウンカイクー]、[#度一切:ドイッサイ][line 3]
+[k]
+
+[se bac118]
+[wt 0.05]
+[shake 0.05 0 3 0.2]
+＠三蔵
+さあ、みんなあたしに叩きつけなさい！[r]どんな未練を残そうとも、まとめて成仏させてあげる！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

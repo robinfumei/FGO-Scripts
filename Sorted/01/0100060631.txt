@@ -1,0 +1,293 @@
+＄01-00-06-06-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_11 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98082000 1 難民の女性]
+
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠難民の女性
+ああ、ありがとうございます。[r]おかげで助かりました。
+[k]
+
+＠難民の女性
+強盗たちを追い払ってくれたばかりか、[r]護衛までしてくださって……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+いえ、礼には及びません。[r]こちらこそ、道を教えていただいて助かりました。
+[k]
+
+＠マシュ
+皆さんはこの土地に住む方々ですよね。[r]こんな大所帯で、どこへ？
+[k]
+
+＠難民の女性
+どこへって、聖都ですが……？[r]あそこだけは今も安全なんですから。
+[k]
+
+＠難民の女性
+侵略者たちがやってきて、土地が燃えて、[r]聖地も奪われて……
+[k]
+
+＠難民の女性
+でも、獅子王様が非道な十字軍を蹴散らして、[r]聖地を我々にも開いてくれたのです。
+[k]
+
+＠難民の女性
+どこから来たか分からない騎士様ですけど、十字軍を[r]皆殺しにしてくれただけでありがたいじゃないですか。
+[k]
+
+＠難民の女性
+そりゃあ、聖地に恥知らずな都を建てられた、と[r]嘆く人たちもいますけど……
+[k]
+
+＠難民の女性
+神の教えは不変のもの。都がどんなカタチだろうと[r]私たちの祈りは変わりませんから。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+（……十字軍は獅子王に壊滅させられた、と。[r]　これは、ますますリチャード一世じゃないな……）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ダ・ヴィンチ
+では、貴女がたは聖都への難民、という事かな？[r]聖都は異民族でも入れるのかい？
+[k]
+
+＠難民の女性
+ええ、もちろんです。[r]獅子王様は誰も拒まないと聞いています。
+[k]
+
+＠難民の女性
+聖都では一月に一度、[#聖抜:せいばつ]の儀という[r]難民を受け入れてくれる日があるんです。
+[k]
+
+＠難民の女性
+その日までに聖都に辿り着けば、[r]後はもう何の心配もいらないのだとか。
+[k]
+
+＠難民の女性
+わたしたちも迷っていたのですが、[r]村が焼けてしまったので……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+そうでしたか……それはお気の毒に。[r]では村の皆さん全員で？
+[k]
+
+＠難民の女性
+いえ、半数ですよ。……村には、聖都に滞在する[r]騎士様たちを悪く思う者もいましたので……
+[k]
+
+＠難民の女性
+聖都を拒む者は山岳地帯に向かいました。[r]あちらには山の民の村がありますから。
+[k]
+
+＠難民の女性
+でも……山岳地帯はとっくに不毛の地です。
+[k]
+
+＠難民の女性
+この地で生きたいと願うなら、[r]聖都にしか居場所はないのですけどね……
+[k]
+
+[charaFadeout E 0.7]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_11 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 28400]
+[wt 1.5]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+情報収集、ご苦労様。[r]難民の人たちは先に向かったみたいだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ああ。[r]一緒にいるとちょっと目立つからね、私たちは。
+[k]
+
+＠ダ・ヴィンチ
+まだ状況が掴めないし、[r]しばらくはこっそり行動した方がいいのさ。
+[k]
+
+？1：バギーも三人乗りが限界だしね
+？2：サーヴァントと出会ったらこじれるしね
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……そうですね。[r]まだ何が敵で何が味方なのか、判別つかない状況です。
+[k]
+
+＠マシュ
+エジプト領のオジマンディアス王。[r]聖都と呼ばれる都市と、そこに居るという獅子王。
+[k]
+
+＠マシュ
+あとは二度ほど遭遇した髑髏面のサーヴァントですね。[r]彼らはみなアサシンのようでしたが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠Dr.ロマン
+この時代、この土地で髑髏面の暗殺者といったら、[r]それはもう“山の翁”、アサシン教団だろう。
+[k]
+
+＠Dr.ロマン
+ここは彼らのお膝元だ。なにしろ、[#暗殺者:アサシン]という[r]単語は彼らから生まれたものなんだから。
+[k]
+
+[charaFace A 7]
+＠マシュ
+太陽王、獅子王、そしてアサシン教団……[r]三すくみになっている、という事でしょうか？
+[k]
+
+？1：太陽は獅子に弱く、獅子はアサシンに弱く……
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+そしてアサシンは太陽に弱い、かい？[r]んー、今回はそうじゃないと思うよ？
+[k]
+
+？2：いや、それは違うと思う
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+そのとーり！　ニトクリスとルキウス君が[r]妙な事を言っていたからね！
+[k]
+
+？！
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+これは憶測だけど、まず間違いない。[r]太陽王と獅子王は不可侵条約を結んでいる。
+[k]
+
+＠ダ・ヴィンチ
+“聖都の騎士がニトクリスを[#攫:さら]う理由がない”[r]ルキウス君はそう言っていたじゃないか。
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+おそらく、この地を治めているのは獅子王だ。[r]エジプト領は独立した領域だからね。
+[k]
+
+＠ダ・ヴィンチ
+以上の事から、獅子王と太陽王は[r]不可侵条約を結んでいると見ていい。
+[k]
+
+＠ダ・ヴィンチ
+敵対しているものの戦いはしない……[r]冷戦状態ってヤツだろう。
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+それを看過できずにレジスタンス活動をしているのが[r]山の民、アサシン教団なんじゃないかな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……なるほど。[r]状況はおおむね把握できた。
+[k]
+
+＠Dr.ロマン
+まずは難民たち同様、聖都を目指そう。[r]十字軍を壊滅させた騎士たちは何者なのか。
+[k]
+
+＠Dr.ロマン
+聖都は今どうなっているのか。[r]そこを確かめない事にはね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。オジマンディアス王は[r]聖都が特異点の原因だと言っていました。
+[k]
+
+＠マシュ
+その真偽を確かめに行きましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

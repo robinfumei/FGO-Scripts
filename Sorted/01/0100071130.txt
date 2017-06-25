@@ -1,0 +1,412 @@
+
+
+
+＄01-00-07-11-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet F 3028001 1 ジャガーマン]
+[charaSet G 98006000 1 ジャガーの戦士たち]
+[charaSet H 98006000 1 ジャガーの戦士たち]
+
+[scene 32900]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+やはり攻撃が通りません……！[r]彼女も独自の、特殊な法則を持つようです……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+あら？　貴方たち、サーヴァント？
+[k]
+
+＠ケツァル・コアトル
+じゃあ、もしかしてそちらの[&可愛い男の子:勇ましい女の子]が、[r]余所から来たマスターさん？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マーリン
+その通り。[&彼:彼女]がカルデアからやってきた[r]人類最後のマスター、[%1]。
+[k]
+
+＠マーリン
+今さらだが確認をしていいかな。キミが『三女神同盟』の[#一柱:ひとり]、[r]ケツァル・コアトルで間違いはないね？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+ハイ、間違いありまセーン！
+[k]
+
+＠ケツァル・コアトル
+遥か南米から、[r]ちょっとウルクを滅ぼしに来たお姉さんデース！！
+[k]
+
+？1：ちょっと滅ぼしにって……
+？2：なんでそんな事をするんです！？
+
+？！
+
+[bgmStop BGM_EVENT_3 0.7]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+[line 6]。[r][line 9]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……なぜそこで黙るんだ？[r]難しい質問じゃないよね、今の……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+[line 3]あはは。いやぁ、マスターさん、[r]私の好みだからちょっと驚いちゃいましたヨー！
+[k]
+
+＠ケツァル・コアトル
+秩序で正義で一生懸命とか、[r]お姉さんのツボすぎて反則デース！
+[k]
+
+＠ケツァル・コアトル
+[%1][&君:さん]が私と[#婚姻:こんいん]するなら、[r]私そっち側についてもいいネー！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+婚[line 3]姻んんんん！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+いまなんと仰いましたか[line 3]！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+（ははは、今度の女神も予想以上の色物か！[r]　話がこんがらがってきたぞぅ！）
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_7 0.7]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+でも残念。さすがにそれは大人げないわよね。[r]女神げはあるけれど。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace E 7]
+＠ケツァル・コアトル
+さて。なんでウルクを滅ぼすのか？[r]その質問には答えましょう。
+[k]
+
+＠ケツァル・コアトル
+それは私たちが、[r]人間を殺すために母さんに呼ばれたから。
+[k]
+
+＠ケツァル・コアトル
+こればかりは変えられない前提なの。[r]だから私も、他の二柱もそれは[#全:まっと]うするわ。
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+でも、その方法は私の自由デショ？[r]太陽を落として丸焦げとかつまらないでしょ？
+[k]
+
+＠ケツァル・コアトル
+そう。私は楽しみたいのデス。[r]憎しみで戦いたくはないのデス。なので[line 3]
+[k]
+
+[charaFace E 1]
+＠ケツァル・コアトル
+私はどんな相手であれ、ひとりひとり丁寧に殺していって、[r]その結果、人類を絶滅させると決めたのデース！
+[k]
+
+？1：ひとりひとりステゴロで！？
+？2：ひとりひとりプロレスで！？
+
+？！
+
+[charaFace E 1]
+＠ケツァル・コアトル
+イエース！　だから女神としての権能は使いまセーン！[r]うん、だってアレ疲れるしネ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ダウト！　ダウトです女神ケツァル・コアトル！[r]先ほどの戦い、権能は使っていたと指摘します！
+[k]
+
+？1：そうだ、ズルいぞ！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+ズ、ズルいですか、えへへ……[r]年下のマスターに叱られるとか、初体験で照れちゃいますね！
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+でも、これぐらいの試練がないとね。[r]甘やかしてばかりじゃ成長にならないもの。
+[k]
+
+＠ケツァル・コアトル
+そこは知恵と勇気で補うところヨ？[r]ニンゲンってそういうモノでしょ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+戦闘中に弱点を発見しろって事か……！[r]しかし、あの神性はどうやっても[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ケツァル・コアトル
+あ、そこは安心してくだサーイ！[r]なぜなら、私そろそろ帰りマース！
+[k]
+
+＠ケツァル・コアトル
+試合は一日百人まで！[r]それ以上になると相手のコト忘れちゃうから！
+[k]
+
+＠ケツァル・コアトル
+戦いを作業にしてはいけまセーン！[r]常にクオリティの高いデス・マッチが最高デース！
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+それではみなさん、アディオ～～ス！[r]また明日、太陽が昇ったら百人ブチ倒しにきマース！
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+[messageOff]
+[charaTalk A]
+[se ad158]
+[seVolume ad158 0 0.4]
+[seVolume ad158 1.2 0.9]
+[wt 1.2]
+[seStop ad158]
+[wt 0.1]
+[se ad7]
+[charaSpecialEffect E erasureReverse 1 0.4]
+[wt 0.7]
+[se ad158]
+[seStop ad158 2.4]
+[wt 1.2]
+[wt 0.4]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+女神ケツァル・コアトル、やってきた翼竜に乗って、[r]密林に消えていきます……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+助かった……のか？[r]いや、でもすぐ近くにもう一体サーヴァント反応があるぞ！？
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+これは[line 3]この落ち着かない計測数値は[line 3]！
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 50,0]
+[wt 0.7]
+＠ジャガーマン
+ほい、[charaMoveReturn F 50,10 0.2][se ad78][wt 0.5]ほい、[charaMove F 0,0 0.2][wt 0.2][charaMoveReturn F 0,10 0.2][se ad78][wt 0.5]ほいっと。[charaMove F -50,0 0.2][wt 0.2][charaMoveReturn F -50,10 0.2][se ad78][wt 0.5][r]もうー、ククルんったら豹使い荒いんだからー。
+[k]
+
+＠ジャガーマン
+ノックアウトさせた戦士の運搬とか、[r]なにゆえ無二のトモダチにやらせるかニャー。
+[k]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠アナ
+あのふざけたフード姿は……！
+[k]
+
+？1：怪サーヴァント、ジャガーマンッッッッッ！
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ジャガーマン
+いよう諸君！　ひさしぶり！[r]でもちょっと待ってね、いまお仕事中だから！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+な……ジャガーマン、倒れた兵士の皆さんを[r]次から次に荷台に積んでいます！
+[k]
+
+＠マシュ
+あのまま連れ去る気です！[r]マスター、止めないと……！
+[k]
+
+？1：ああ、そこまでだジャガーマン！
+？2：どうりで背景でヒョコヒョコ動いていると思った！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ジャガーマン
+おおっと。荷物は降ろさないし、そうは問屋も卸さない。[r]現実はいつも過酷だからニャー。
+[k]
+
+＠ジャガーマン
+私を殴るコトに関しては一切手加減なしの[r]ククルん……あの冷酷なケツァル・コアトルが、
+[k]
+
+＠ジャガーマン
+こんな重大任務に護衛をつけないとでも？[r]ん－、つけてくれなかったんだなコレが。
+[k]
+
+＠ジャガーマン
+なので私が厳選した森の仲間たちが私を守る！[r]来たれ、大いなるジャガーの戦士たちよ！
+[k]
+
+[se ad88]
+[wt 0.7]
+[charaFadeout F 0.1]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+[wt 0.3]
+[se ad23]
+＠ジャガーの戦士たち
+ウォオオオオオ[line 5]！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ジャガーマン
+ヒュー！　見ろよこの[#逞:たくま]しい豹マンたちを！[r]ボーイズアンド、ガールズ……今夜は寝かさない……ぜ？
+[k]
+
+＠ジャガーマン
+ま、私は帰ってワニ食べながらテキーラサンセット[r]決め込みますけどぉ！　じゃ、後は任せたニャー！
+[k]
+
+[messageOff]
+[se ad132]
+[seStop ad132 1.5]
+[charaFadeout F 0.4]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+豹頭の戦士たち、襲いかかってきます！[r]マスター、指示を！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

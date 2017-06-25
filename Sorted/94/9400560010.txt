@@ -1,0 +1,299 @@
+
+＄94-00-56-00-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 3013001 1 スカサハ]
+[charaSet C 1001001 1 アルトリア]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 5009001 1 ダ・ヴィンチちゃん]
+
+[scene 10204]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠Dr.ロマン
+[line 3]という訳で、今回もよろしく頼むよ、[r][%1][&くん:ちゃん]、マシュ。
+[k]
+
+＠Dr.ロマン
+レイシフトの準備をするから少し待っててね。
+[k]
+
+[charaFadeout D 0.4]
+[wt 0.7]
+
+[se ad172]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+………………。
+[k]
+
+？1：どうした[&んだ:の]、マシュ？
+？2：体調でも悪い？
+
+？！
+
+＠マシュ
+あ、[charaFace A 6]いえ、先輩。[r]なん[charaFace A 12]でもないのです。ないのですが[line 3]
+[k]
+
+[charaFace A 8]
+＠マシュ
+なんでしょう……[r]かつてない胸騒ぎがするといいますか。
+[k]
+
+[charaFace A 12]
+＠マシュ
+思い返すと、[r]今まで多くの予想外なレイシフトがありました。
+[k]
+
+＠マシュ
+……でも、これから起きるのはかつてない、[r]まさにワンダーかつアメイジングな体験……
+[k]
+
+＠マシュ
+もうシフトというよりドリフトでは？[r]というぐらいの、そんな予感が……。
+[k]
+
+[wt 0.4]
+[charaFace A 13]
+＠マシュ
+……いえ、すみません。[r]論理的ではありませんね。
+[k]
+
+＠マシュ
+気にしないでください、先輩。
+[k]
+
+？1：マシュ、疲れてる？　おでこの熱はどう？
+
+[charaFace A 3]
+＠マシュ
+……あ、おでこに……。[r]だ、大丈夫です。体温は平温です！
+[k]
+
+＠マシュ
+わたしはいつも通りに、いえ、[r]いつも以上に元気です！
+[k]
+
+？2：とはいえ気になるな……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 1]
+＠スカサハ
+[line 3]嫌な予感か。[r]なに、気にすることもあるまい、マスター。
+[k]
+
+＠スカサハ
+今回は私も同行するのだ。[r]むしろ想定外の危機の一つや二つ起こってもらわねば。
+[k]
+
+＠スカサハ
+肉は筋が多い方が鍛えられる。[r]歯ごたえがなさすぎるのもつまらぬだろう？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[wt 0.1]
+[charaFace C 0]
+[charaFadein C 0.4 2]
+＠アルトリア
+むう。[r]危機を心待ちにするのはどうかと思いますが[line 3]
+[k]
+
+[charaFace C 1]
+＠アルトリア
+気にする事はない、というのは同感です。[r]何が起ころうとも我々が傍にいるのですから。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+アルトリアさん……。[r]……そうですね。そうでした。
+[k]
+
+[se ad172]
+＠Dr.ロマン
+ああ。ボクらだって管制室から全力でバックアップして[r]いるんだ。多少の誤差はすぐに修正するさ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい、そうでした。[r]カルデアのスタッフはみな優秀な方たちでした。
+[k]
+
+＠マシュ
+すみません、みなさん。おかしなことを言ってしまって。[r]今回も[charaFace A 1]頑張りましょう、マスター！
+[k]
+
+？1：応ッ！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠スカサハ
+うむ、よい返事だ。[r][%1]もケルト流に染まってきたのぅ！
+[k]
+
+[charaFadeout B 0.1]
+
+？2：王ッ！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アルトリア
+はい、何でしょう？
+[k]
+
+[charaFace C 3]
+＠アルトリア
+あ……すみません、今のはただのかけ声ですね。[r]……聞き間違えてしまいました……
+[k]
+
+[charaFadeout C 0.1]
+
+？！
+
+[se ad1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠Dr.ロマン
+よし、準備完了。[r]システムオールグリーン、だ。
+[k]
+
+＠Dr.ロマン
+じゃあ行こうか。いつも通りに、よろしく頼むよ！[r]レイシフト[line 3]開始！
+[k]
+
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.7]
+[wt 0.7]
+
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[wt 1.0]
+[flashin blink 0.5 0.5 0050FFAF 0050FF00]
+[wt 0.5]
+[fowardEffect bit_talk_lightning_02t]
+[scene 10201]
+[se ad31]
+[seStop ad31 5.0]
+[seStop ad12 1.0]
+[fadeout white 1.0]
+[wait fade]
+[flashin blink 0.5 0.5 0050FFAF 0050FF00]
+[fowardEffectStop bit_talk_lightning_02t]
+[wt 2.0]
+[effectStop bit_talk_07]
+[seStop ad12 1.0]
+[charaSet E 5009001 1 ダ・ヴィンチちゃん]
+[fadein white 1.0]
+[wait fade]
+[wt 2.0]
+
+
+＠Dr.ロマン
+……。[r]…………。
+[k]
+
+＠Dr.ロマン
+[line 3]あれっ！？　な、なんだこれ！？
+[k]
+
+[se ad31]
+[seStop ad31 5.0]
+＠ダ・ヴィンチちゃん
+……こっちでもモニター……異常……
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+くっ、やはりいつも通りトラブルか！[r]それはそれとしてまずいぞ、一体[line 3]
+[k]
+
+＠ダ・ヴィンチちゃん
+……を、急いで、[line 3]に……！
+[k]
+
+＠Dr.ロマン
+やっているさ、やっているが[line 3][r]これはただの数値揺れじゃない、落とし穴だ！
+[k]
+
+[se ad8]
+＠Dr.ロマン
+通常のレイシフト地点の手前に大きな穴がある！[r]単純な軌道修正では戻らない！
+[k]
+
+＠ダ・ヴィンチちゃん
+そうか！　ではジャンプだ！[r]ジャンプするんだロマニ！
+[k]
+
+[se ad73]
+[wt 0.2]
+＠Dr.ロマン
+こうかい！？　[se bac9]よっ、はっ！　あいたぁ！？[wt 0.2][se ad144][shake 0.05 0 4 0.4]
+[k]
+
+
+＠ダ・ヴィンチちゃん
+ドクターは不適切な発言をしたので退場してもらった！[r]オペ子ちゃん、アンカーを飛ばして、早く！
+[k]
+
+＠ダ・ヴィンチちゃん
+せめて移動先の座標ぐらいは掴んでおかないと！[r]なに、もう飛ばしている？　ナイス！
+[k]
+
+＠ダ・ヴィンチちゃん
+ああ、でもダメか……！[r]これは[line 3][#漂流するぞ][line 3]！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 2.0]
+[effect bit_talk_07]
+[se ad12]
+[wt 1.5]
+[fowardEffect bit_talk_lightning_02t]
+[wt 2.5]
+[fadeout white 1.0]
+[wait fade]
+[wt 2.0]
+
+[flashOff]
+[fowardEffectStop bit_talk_lightning_02t]
+[soundStopAll]
+[end]
+

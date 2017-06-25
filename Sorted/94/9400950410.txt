@@ -1,0 +1,285 @@
+
+＄94-00-95-04-1-0
+
+
+
+[charaSet A 1017001 1 武蔵]
+[charaSet B 98075000 1 助六]
+[charaSet C 6018001 1 Ｘ]
+[charaSet D 6018001 1 エフェクト用ダミー]
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[scene 20303]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 0,-20]
+[wt 0.7]
+
+[charaMove B -32,-20 0.1]
+[wait charaMove B]
+[charaMove B 32,-20 0.1]
+[wait charaMove B]
+[charaMove B -32,-20 0.1]
+[wait charaMove B]
+[charaMove B 32,-20 0.1]
+[wait charaMove B]
+＠助六
+なんだぁ？[r]ここには最後の門があった筈なんだが……
+[k]
+
+[charaMove B 32,0 0.1]
+[wait charaMove B]
+[charaMove B 32,-20 0.1]
+[wait charaMove B]
+＠助六
+ヘンな野原になっちまってるぞ？[r]それになんだ、あの妙チクリンな鉄の塔は……
+[k]
+
+？1：あのロケットは……！
+？2：気をつけて！　不意打ちされる！
+
+？！
+
+[messageOff]
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.7]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaDepth A 1]
+[charaFadein A 0.1 1]
+＠武蔵
+[FFFFFF]！[-]　妖気！
+[k]
+
+[se bac1]
+[charaDepth D 9]
+[charaPut D 1]
+[charaEffect D bit_talk_38l]
+[se bac23]
+[wt 0.2]
+
+[charaMove A -64,0 0.1]
+[se ad82]
+[seStop ad82 1.0]
+[wait charaMove A]
+[charaMove A 64,0 0.1]
+[se ad82]
+[seStop ad82 1.0]
+[wait charaMove A]
+
+[wt 0.1]
+[charaPut D 1024,1024]
+[charaEffectStop D bit_talk_38l]
+[charaFadeout D 0.1]
+
+[wt 0.7]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 -1024,128]
+[se bac1]
+[charaMove C 1 0.2]
+[wait charaMove C]
+＠Ｘ
+ふっ、やりますね新セイバー！[r]雨後の竹の子、[#無闇矢鱈:むやみやたら]とまた増えて！
+[k]
+
+＠Ｘ
+しかも何ですか、さっきからこっそり監視していれば[r]チャカチャカチャカチャカ、格好いいモーションで！
+[k]
+
+＠Ｘ
+真のセイバーたるもの、手にする愛剣はただ一本！[r]二刀流など邪道の極み、恥を知りなさい！
+[k]
+
+？1：そうだよね。二刀流はセイバーらしくないよね
+
+[charaFace C 1]
+＠Ｘ
+そうですとも。やはり[%1][&君:さん]は[r]違いの分かるマスターです、こんにちは！
+[k]
+
+[charaFace C 1]
+＠Ｘ
+どうぞ、こちら新年のお土産です。[r]惑星グンタマの駅前で配っているおはぎですが。
+[k]
+
+[charaFace C 5]
+＠Ｘ
+それはそうと、聞いたかそこの新入り！[r]二刀流とかもう、私の最後の砦にまで踏み込む行為！
+[k]
+
+[charaFace C 5]
+＠Ｘ
+プラズマチェーンで出来た[r]私の堪忍袋の緒もキレッキレです！
+[k]
+
+？2：武蔵ちゃん、あれはニンジャだよ
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠武蔵
+え？　まっさかあ、[r]あんな目立つ[#乱波:らっぱ]がいる訳ないじゃない。
+[k]
+
+[charaFace A 0]
+＠武蔵
+それに剣の筋も本物のようだし。[r]見た事のない流派のようだし。極上の剣士と見た。
+[k]
+
+[charaFace A 1]
+[charaMove A 0,20 0.1]
+[wait charaMove A]
+[charaMove A 0,0 0.1]
+[wait charaMove A]
+＠武蔵
+うん。あの娘、ものすっごく面白そう。なんていうか、[r]あんなに“斬ってみたい！”と思う相手は初めてかも！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠Ｘ
+え……あの、笑顔でそんな発言をするとか、[r]告白のようで照れるのですが……
+[k]
+
+[charaFace C 0]
+＠Ｘ
+……まずいですね……このセイバーから[r]あの着物の辻斬りと同じ気配が感じ取れます！
+[k]
+
+？！
+
+[charaFace C 2]
+＠Ｘ
+まあ、どうあれ今回も必勝の気持ちで襲いかかります！[r]私は宇宙のセイバー、ヒロインＸ！
+[k]
+
+＠Ｘ
+増え続けるセイバーを抑制する、[r]サーヴァント界のバランサー！
+[k]
+
+＠Ｘ
+我がセイバー忍法の技の冴え、[r]今回こそ見せてやりますとも！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-20]
+
+[charaMove B 0,-10 0.1]
+[wait charaMove B]
+[charaMove B 0,-20 0.1]
+[wait charaMove B]
+＠助六
+なに[line 3]セイバー忍法だと！？
+[k]
+
+？1：ああ、やっぱり知ってるのか来田！
+
+？！
+
+[charaTalk B]
+[charaMove B 0,-30 0.1]
+[wait charaMove B]
+[charaMove B 0,-20 0.1]
+[wait charaMove B]
+＠助六
+うむ。何かの間違いで海を渡った騎士の王が葛城山に[r]迷い込み、とある行者から教わったという魔技……
+[k]
+
+＠助六
+そのことごとくが破格の性能を持つものの、[r]味方になると使えなくなるという呪われた技……
+[k]
+
+＠助六
+まさか実装していたとは……[r]いや違う、実在していたとは……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠Ｘ
+フッ、今回はネームレス・レッドもバベジンもいませんが、[r]一人であればこそ使える外道技もあるのです！
+[k]
+
+＠Ｘ
+覚悟しろ二刀流！　そして注意するように、[r][%1][&君:さん]！
+[k]
+
+＠Ｘ
+お正月だからと[#侮:あなど]らないでほしい！[r]今回の私はちょっと、マジ本気で強いので！
+[k]
+
+
+[input selectBranch]
+
+
+[scene 20303]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 1017001 1 武蔵]
+[charaSet B 98075000 1 助六]
+[charaSet C 6018001 1 Ｘ]
+[charaSet D 6018001 1 エフェクト用ダミー]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[messageOff]
+[maskin black 1]
+[wait mask]
+
+
+[label selectBranch]
+
+？1：いいだろう、強い方でこい！
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+？2：すみません、お正月なんで弱い方で一つ
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+？！
+

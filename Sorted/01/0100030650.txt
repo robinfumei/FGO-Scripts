@@ -1,0 +1,166 @@
+＄01-00-03-06-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 オリオン]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 2009201 1 アルテミス]
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+やっと半分に届きました。
+[k]
+
+＠ドレイク
+熱い、疲れた、くたびれた、酒が欲しい……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 2]
+＠エウリュアレ
+だらしないわね、船長は。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+アンタさっきから何もかもアステリオスに[r]任せきりじゃん……。
+[k]
+
+[charaFace F 5]
+＠エウリュアレ
+いいのよ、それで。[r]私が指示をして、彼が動くんだから。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠アルテミス
+ねーねー、ダーリン。
+[k]
+
+＠オリオン
+何でぇ。
+[k]
+
+＠アルテミス
+ワイバーンって雄雌あるの？
+[k]
+
+＠オリオン
+親はいるけど、雄雌は聞いたことねえな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+親？
+[k]
+
+[charaFadeout A 0]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠オリオン
+ああ、ワイバーンのような亜竜種じゃない、[r]ワイバーンを産み出すのは、その上位にあたる竜種だ。
+[k]
+
+＠オリオン
+親ってよりは、手下みたいなモンかな。
+[k]
+
+[se ad17]
+[wait se ad17]
+[charaFadeout E 0]
+[charaFadein A 0 1]
+[charaFace A 15]
+＠マシュ
+……それは……例えば……ワイバーンより、ずっと[r]巨大な……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0 1]
+[charaFace E 1]
+＠オリオン
+……うん。ソーダネー……。
+[k]
+
+[se ad17]
+[wait se ad17]
+[charaFadeout E 0]
+[charaFadein A 0 1]
+＠マシュ
+そしてやっぱり、手下であるワイバーンを倒していると[r]興奮、あるいは逆上したりしますか……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+＠オリオン
+……まあ、許してくれないヨネー……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout E 0]
+[charaFadein A 0 1]
+[charaFace A 7]
+＠マシュ
+マスター……。
+[k]
+
+？1：ボスバトルはお約束
+
+[charaFace A 5]
+＠マシュ
+わたしの知らない約束です、それ！
+[k]
+
+？2：謝ろう
+
+[charaFace A 8]
+＠マシュ
+謝ったら許してくれるでしょうか……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エウリュアレ
+そもそも、竜種的には縄張りに入った時点で敵対宣言[r]しているも同然だし。
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+無駄よ。[r]さ、戦いなさい。勇者らしく、がんばりなさい♪
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein A 0.1 1]
+？！
+
+[charaFace A 7]
+＠マシュ
+……わかりました。[r]マシュ・キリエライト[line 2]行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

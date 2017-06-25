@@ -1,0 +1,664 @@
+＄01-00-06-11-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 6002001 1 呪腕のハサン]
+[charaSet F 2013000 1 アーラシュ]
+[charaSet G 98006000 1 ？？？]
+
+[scene 29100]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+西の村が遊撃騎士に発見されるとは……！[r]アーラシュ殿、村と敵軍の距離はどれほどか！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠アーラシュ
+峠ひとつ向こうだ！[r][#狼煙:のろし]の色は黒、接触間近って事だな！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+西の村……他の村が襲われているんですか！？[r]ならすぐに助けに行かないと……！
+[k]
+
+？1：マシュ、落ち着いて
+
+[bgmStop BGM_EVENT_3 0.7]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+[%1]の言う通りだ。[r]今できる事は限られている。落ち着け、マシュ。
+[k]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……すみません。[r]でも、円卓の騎士と聞いて……
+[k]
+
+[charaFadeout A 0.1]
+
+？2：遊撃騎士ってなに？
+
+[bgmStop BGM_EVENT_3 0.3]
+[wt 0.2]
+[charaFadeout A 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アーラシュ
+ああ。円卓の騎士の中でも都詰めじゃなく、[r]外の砦に領地を与えられた連中だ。
+[k]
+
+＠アーラシュ
+円卓の騎士としちゃあ聖都から[r]追い出されるのは罰以外の何物でもない。
+[k]
+
+＠アーラシュ
+ま、何らかの理由で獅子王に嫌われたんだろ。
+[k]
+
+＠アーラシュ
+不動の門番ガウェインとは正反対の、[r]あちこち走り回っては敵対勢力を潰す猟犬さ。
+[k]
+
+[charaFadeout F 0.1]
+
+？！
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+しかし放ってもおけない。[r]キミたちの仲間という事は貴重な戦力じゃないのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+……無論。しかし、ここから西の村までは[r]どう急ごうと二日はかかる……
+[k]
+
+＠呪腕のハサン
+今から駆けつけたところで……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アーラシュ
+百貌の姉さんは長引かせるのは上手いけどな……[r]それでも、もって半日だろう。
+[k]
+
+？1：村を捨ててこっちに逃げてもらうのは？
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+……そうですな。[r]それがいま出来る限界でしょう。
+[k]
+
+＠呪腕のハサン
+……何人逃げ延びられるかは[r]祈るしかありませぬが……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 11]
+[charaFadein D 0.1 2]
+＠ベディヴィエール
+いえ、それでは行き詰まりです。[r]この村には備蓄がない。
+[k]
+
+[charaFace D 8]
+＠ベディヴィエール
+これ以上人を増やしては共倒れになるでしょう。[r]西の村は守りきるしかないのでは。
+[k]
+
+[charaFace E 4]
+＠呪腕のハサン
+それは……まさしく。[r]貴殿の推察通りだ、ベディヴィエール卿。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+？2：……ダ・ヴィンチちゃんがいれば……
+
+[charaFadeout F 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+こんな時、ダ・ヴィンチちゃんがいれば……[r]“じゃあ空を飛ぼうか”なんて、
+[k]
+
+＠マシュ
+気楽に言いだしたかもしれませんが……
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アーラシュ
+お！　そうか、その手があったな。[r]それなら間に合うかもしれん。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+＠ベディヴィエール
+は？
+[k]
+
+＠呪腕のハサン
+なんと？
+[k]
+
+？1：アーラシュさん？
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アーラシュ
+いやあ、一度だけ、かつ片道でいいのなら、[r]空を飛んで一気に移動する事はできるぞ！
+[k]
+
+[charaFace F 0]
+＠アーラシュ
+ただしそれなりのリスクはある。[r]一気に西の村までは届かないが、それでもいいか？
+[k]
+
+？1：かまわない、今すぐ行こう！
+？2：西の村を助けよう！
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+……[%1]殿……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+よし。なら強襲するメンバーを決めろ。[r]俺は当然として、[%1]とマシュ。
+[k]
+
+＠アーラシュ
+騎士の兄さんはどうする？[r]相手は円卓だぞ？　いけるか？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+お気遣い、感謝します。ですが無用です。[r]私は獅子王の騎士ではありません。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アーラシュ
+よく言った。移動するぞ、ついてこい！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout F 0.1]
+[scene 28600]
+[wt 0.4]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[wt 0.2]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.4 1]
+＠アーラシュ
+そこに潰れた家の屋根を粘土で補強した土台がある。[r]よく見てみろ。取っ手が付いているな？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……付いていますね。[r]よく見るとカカトまで入る穴もあります。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+この取っ手を掴んで、穴に足を入れる……[r]四つん這いに近い体勢になってしまいますが……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+無駄口は後だ、しっかり掴んでろ！[r][%1]はマシュの隣だ。
+[k]
+
+＠アーラシュ
+マシュ、しっかりマスターを掴んでろよ。[r]時速３００キロ以上はでるからな。
+[k]
+
+[charaFadeout F 0.1]
+[se bac3]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+え……あの、アーラシュ・カマンガー。[r]何を……しているのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アーラシュ
+何って、土台に縄を張って固定、[r]そのまま特大の矢に繋いでいる。
+[k]
+
+＠アーラシュ
+よし、準備はできた。角度はこんなところか。[r]今日は追い風だ。西の村の手前までは飛ばせるぞ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+まさか……そんな……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+ええ、そうですよね。笑い話ではありませんし。[r]そんな、まさか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+阿呆、笑い話で済まされるか！[r]命懸けの、酒盛りの時の定番ネタだぞ！
+[k]
+
+＠アーラシュ
+土台と矢を繋ぐ。おもいっきり矢を放つ。[r]矢、２０キロ先まで飛ぶ。一緒に土台も飛ぶ。
+[k]
+
+＠アーラシュ
+な？　簡単だろ？
+[k]
+
+？1：馬鹿だこの人[line 4]！
+
+？！
+
+[bgmStop BGM_EVENT_4 1.0]
+
+[charaFace F 5]
+＠アーラシュ
+馬鹿はそっちだ！[r]舌を噛むぞ、真面目にやれ！
+[k]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+な[line 3]アーラシュさん、射撃体勢に入っています！[r]本気です、この方！
+[k]
+
+＠マシュ
+そもそもそんな方法で飛行するなんて、[r]できるハズがありません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 3]
+＠Dr.ロマン
+いやぁ、これができるんだなぁ。[r]サーヴァントの宝具に物理法則は通用しないし。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+だいたい、たかだか１０や２０キロの距離、[r]彼にとっては準備運動みたいなもんだよ。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アーラシュ
+お、言ってくれるねぇ兄さん！[r]任せな、いい着地地点も見えたからな！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+それは着地ではなく落下地点と[line 3][r]マスター、しっかり掴まってください！
+[k]
+
+[wt 0.4]
+[messageOff]
+[se ad34]
+[wt 0.05]
+[bgm BGM_EVENT_3 0.3 0.4]
+[shake 0.05 4 6 0.3]
+[wipeout circleOut 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[effect bit_talk_41]
+[scene 20320]
+[shake 0.05 0 4 0]
+[wt 0.3]
+[wipein circleIn 0.3 1]
+[wait wipe]
+[se ad2]
+
+＠マシュ
+あ[line 19][r]あああああ[line 15]！
+[k]
+
+？1：ホントに飛んでる[line 2]！？
+？2：これが宝具・人間大砲……！
+
+？！
+
+＠マシュ
+あああああああああ[line 11]！[r]きゃあああ[line 15]！
+[k]
+
+＠ベディヴィエール
+だだだだだだだだだいじょうぶですかレレレレレレレレ[r]レディ、みなさささささささささささん！
+[k]
+
+＠Dr.ロマン
+あはは。見てごらん[%1][&君:ちゃん]。[r]ベディヴィエールのほっぺたが気流でぶるぶるしてるぞ！
+[k]
+
+＠マシュ
+ド[line 3]ク[line 3]タ[line 4]！[r]ベベベベベディ卿にしつれれれれれれれれれれい！
+[k]
+
+＠アーラシュ
+そろそろか。[r]総員、着地の衝撃に備えろ！
+[k]
+
+＠アーラシュ
+激突した瞬間、土台は木っ端微塵だからな！[r]各々いい感じで受け身をとれ！
+[k]
+
+＠アーラシュ
+マシュ、[%1]は俺が面倒を見る！[r]おまえさんは自分の面倒を見るだけでいい！
+[k]
+
+＠マシュ
+は、はい！　マスターをお願いします、[r]アーラシュさん……！
+[k]
+
+＠ベディヴィエール
+ぶ[line 2]つ[line 2]か[line 2]り[line 2]ま[line 2]す[line 2]！[r]に、いち、ぜろ[line 5]！
+[k]
+
+[messageOff]
+[seStop ad2 0.5]
+[wipeout rightToLeft 0.2 1]
+[bgmStop BGM_EVENT_3 0.2]
+[effectStop bit_talk_41]
+[wait wipe]
+[shakeStop]
+[scene 28600]
+[wt 0.2]
+[wipein leftToRight 0.2 1]
+[wait wipe]
+[wt 0.4]
+[se ad38]
+[se ad10]
+[shake 0.05 0 10 1.0]
+[wt 2.5]
+
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠アーラシュ
+よし、今回は成功したな。[r]地面に降ろすぞ[%1]。
+[k]
+
+？1：あわ、あわわわわ…………
+
+？！
+
+[charaFace F 4]
+＠アーラシュ
+高所でのみ有効な大陸間弾道移動……。[r]我ながら正確な射撃だった。
+[k]
+
+＠アーラシュ
+ところで、[r]なんでこれが一度きりかと言うとだな。
+[k]
+
+＠アーラシュ
+たいていの奴はこれをやると、[r]“二度とゴメンだ”と嫌がるからなんだ。
+[k]
+
+？1：二度とやらないで[&くれ:ください]！
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.4 1]
+＠マシュ
+あいたたたた……先輩、無事ですか[line 2]っ！？[r]どこに落ちたんですか[line 3]！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アーラシュ
+おう、こっちだマシュ！[r]ベディヴィエール卿はいるかー！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+＠ベディヴィエール
+無事ですとも！　頬はまだぶるぶるしていますが！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アーラシュ
+むう。二人ともまだ興奮しているようだな……[r]これから戦いだっていうのに、まったく。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 0]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠呪腕のハサン
+それは仕方ありますまいよ。[r]私ですら今のは肝を冷やしましたからな。
+[k]
+
+？1：ハサンさん……！？
+？2：いつの間に……！？
+
+？！
+
+[charaFace E 0]
+＠呪腕のハサン
+貴殿たちだけでは西の村への獣道は見つけられぬ故。[r]……しかし、その前に。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠？？？
+Fuuuuu[se ad19][line 3][r]GuRu[bgm BGM_EVENT_3 0.1]AAAAAAAAAAAAAAAAAA[line 3]！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、取り囲まれています！[r]戦闘、避けられません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+チ。いい窪地に見えたが獣の巣だったか。
+[k]
+
+＠アーラシュ
+おまえさんたちにとっちゃ災難だったろうが、こっちも[r]急いでいるんでな[line 3]邪魔をするなら射殺すまでだ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+（ふふふ。[r]　災難だったのは私たちもですよ、カマンガー殿）
+[k]
+
+
+
+[wt 0.2]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,85 @@
+
+
+
+＄01-00-07-20-4-0
+
+[soundStopAll]
+[se ad2]
+[seVolume ad2 0 0.2]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 4018001 1 ケツァル・コアトル]
+
+[scene 20733]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ティアマトの速度、なお上昇！[r]まずいぞ、もうじきナピュシテムの牙に到達する！
+[k]
+
+＠Dr.ロマン
+あれが壊されたらウルクにまで海洋が侵食する！
+[k]
+
+＠Dr.ロマン
+そうなったら、ティアマトが到達する前に[r]ウルク市は二度と使いものにならなくなる……！
+[k]
+
+？1：わかってる、あと少し……！
+？2：翼竜、もっと早く……！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+マスター！[r]ティアマト神の足下まで、あと七百メートル！
+[k]
+
+＠マシュ
+こちらの移動速度なら、あと二分で追いつきます！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ケツァル・コアトル
+マシュ、慎重に！　はやってはダメ！
+[k]
+
+＠ケツァル・コアトル
+泥の濃度だけじゃないわ、ティアマト神は[r]その歩みだけで衝撃を巻き起こしています！
+[k]
+
+＠ケツァル・コアトル
+気を抜けば吹き飛ばされるわ！[r]しっかり腰を据えて付いてくるのよ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠マシュ
+はい……！　マスター、後衛にもどうか注意を！[r]ここからは何が起こるか分かりません！
+[k]
+
+
+
+[messageOff]
+[seStop ad2 0.4]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]

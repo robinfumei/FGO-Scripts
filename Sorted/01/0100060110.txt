@@ -1,0 +1,536 @@
+
+＄01-00-06-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet B 5022001 1 三蔵]
+[charaSet E 1007002 1 ガウェイン]
+[charaSet F 2008000 1 トリスタン]
+[charaSet G 1009001 1 モードレッド]
+[charaSet H 98098000 1 アグラヴェイン]
+
+[scene 29600]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.5]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠三蔵
+ま、そういうワケだから。[r]今までお世話になったわね、円卓の皆さん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠E：？？？
+………………。
+[k]
+
+＠F：？？？
+………………。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠G：？？？
+………………。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠三蔵
+あれ？　なんか一気に空気が重くなってない？[r]あたし、ヘンなコト言ったかしら？
+[k]
+
+＠三蔵
+“いいかげん、この都にも飽きたからお[#暇:いとま]するわ”[r]って言っただけよね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：？？？
+……無論だ。つまり、[#玄奘三蔵:げんじょうさんぞう]。[r]貴殿は今、我らと[#袂:たもと]を分かつ、と宣言したが？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠三蔵
+なんでそうなるのよ。[r]別にあなたたちと敵対する気なんかないわ。
+[k]
+
+＠三蔵
+もともとここには立ち寄っただけ。[r]あたし、天竺からの帰りだし。故郷に戻らないと。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：？？？
+それが信用できない、と言うのですよ玄奘三蔵。
+[k]
+
+＠H：？？？
+貴殿は既にサーヴァント。[r]であれば、生前の行いを繰り返す必要はない。
+[k]
+
+＠H：？？？
+貴方には故郷を目指す理由も、その責任もない。[r]何よりこの世界には貴殿の故郷は存在しない。
+[k]
+
+＠H：？？？
+一体どこに帰るというのです？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠三蔵
+もー。[r]そういう即物的な話じゃないの。心の在り方よ。
+[k]
+
+＠三蔵
+あたしは故郷を目指すものなの。[r]旅をしてナンボの高僧なの。お弟子がいないと寂しいの。
+[k]
+
+[charaFace B 1]
+＠三蔵
+ええ、この都は凄いと思う。[r]平穏で、裕福で、綺麗で、食べ物もいっぱいあって……
+[k]
+
+＠三蔵
+きっと理想郷って、[r]こういう場所を言うんでしょうね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：？？？
+ありがとうございます。[r]そう言っていただけて、我々も誇らしい。
+[k]
+
+＠E：？？？
+だからこそ、レディ・三蔵。[r]この城に留まる、という選択はないのでしょうか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠三蔵
+ありがと、ガウェインさん。[r]あなたのそういう、女性に丁寧なところって好きよ。
+[k]
+
+[charaFace B 1]
+＠三蔵
+でも[#諦:あきら]めて。これはもう性分だから。
+[k]
+
+＠三蔵
+とりあえず砂漠にでも行ってみるわ。[r]あ、トータも連れて行くからそこはよろしく。
+[k]
+
+[charaFace B 0]
+＠三蔵
+それじゃあ、今までお世話になりました！[r]バイバーイ！　チャオ、[#再見:ツァイチェン]～！
+[k]
+
+[se ad95]
+[seStop ad95 3.0]
+[charaFadeout B 0.7]
+[wt 2.5]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ガウェイン
+……行ってしまわれましたね。[r]実に残念です。
+[k]
+
+＠ガウェイン
+その場にいるだけで場が活気づく、[r]まさに太陽のような女性だったのですが。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠G：？？？
+そうかよ。オレは清々するぜ。[r]前から気にくわなかったしな。
+[k]
+
+＠G：？？？
+で、どうするんだよアグラヴェイン。[r]父上の[#赦:ゆる]しなくして城を去る事はできない[line 3]
+[k]
+
+＠G：？？？
+それがこの円卓の決まりじゃなかったか？[r]というより、あの女、邪魔だろう？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠アグラヴェイン
+その意見には私も同感だ、モードレッド。[r]だが王からの赦しは既に降りている。
+[k]
+
+＠アグラヴェイン
+玄奘三蔵が城を出るというのであれば、[r]これを止める理由はない、と。
+[k]
+
+[charaFace G 5]
+＠モードレッド
+マジかよ。チッ、せっかく後ろから[r]ブッ刺すチャンスだったのになぁ。
+[k]
+
+[charaFace G 0]
+＠モードレッド
+まあいいさ。[r]女ひとりであの砂漠をどうにかできるもんか。
+[k]
+
+[charaFace G 2]
+＠モードレッド
+なあ、そう思うだろトリ野郎！[r]生きてんのかテメェ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaShake F 0.05 2 2 0.15]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠トリスタン
+……！
+[k]
+
+[charaFace F 1]
+＠トリスタン
+…………失礼。寝ていませんでした。[r]私に構わず話を続けてもらうよう、お願いします……
+[k]
+
+＠トリスタン
+……また、女性の話でしたら、[r]私ではなくランスロットに……
+[k]
+
+＠トリスタン
+ええ……実に悲しい事ですが……[r]彼の方が恋愛経験は多いのですから……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠ガウェイン
+……サー・アグラヴェイン。[r]王と直接話せるのは副官である[#卿:けい]だけです。
+[k]
+
+＠ガウェイン
+王は他に、なんと？[r]この聖都の[#護:まも]りに関して、何かお言葉はありましたか？
+[k]
+
+＠アグラヴェイン
+思い上がるな。王から卿らへの言葉などない。[r]卿らはただ騎士として王に忠誠を示せばよい。
+[k]
+
+＠アグラヴェイン
+玄奘三蔵は異邦人ではあるが、星読みが予見した[r]“叛逆者”ではなかった、というだけだ。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠トリスタン
+異邦の星輝く時、白亜の[#結託:けったく]はひび割れ、[r]王の威光は[#陰:かげ]り、神託の塔は崩れ落ちる[line 3]
+[k]
+
+＠トリスタン
+……美しくも悲しい詩です。[r]……ええ。必要とあらば、今からでも、私が。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+王は赦すと言ったのだ。[r]玄奘三蔵は放置してよい。
+[k]
+
+＠アグラヴェイン
+卿らが気を配るべきはこの後に来る異邦人だ。[r]人理を守る大役[line 3]さぞ重い事だろう。
+[k]
+
+＠アグラヴェイン
+じき、この世界で最後のマスターがやってくる。[r]失礼がないよう努めろと王は仰せだ。
+[k]
+
+[charaFace H 5]
+＠アグラヴェイン
+だが王は世界を担う重責の身。[r]下らぬ些事はすべて、[#我々で]片付けておかねばならん。
+[k]
+
+＠アグラヴェイン
+よいな、円卓の騎士たちよ。[r]卿らの真の忠誠に期待する。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠ガウェイン
+………………。
+[k]
+
+＠トリスタン
+………………。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠モードレッド
+……………………。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_1 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[scene 10001]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+
+[se ad2]
+＠マシュ
+マスター、こちらへ……！[r]そこに立っていると飛ばされます……！
+[k]
+
+＠フォウ
+フォウ、フ[line 2]ウ[line 4]フォ[line 3]！
+[k]
+
+？1：目が、目が……！
+？2：ここが……エルサレム……！？
+
+？！
+
+[messageOff]
+[backEffect bit_talk_haboob_02]
+[fadeout white 0.1]
+[wait fade]
+[scene 28801]
+[cameraMove 0 0,-100 1.5]
+[se ad134]
+[fadein white 0.25]
+[wt 0.75]
+[wait fade]
+
+
+[wt 1.0]
+[seStop ad2 2.0]
+[wt 1.0]
+[cameraMove 2.0 0,-0 1.0]
+[wait camera]
+[seStop ad134 0.2]
+[se ad135]
+[wt 2.0]
+[seStop ad134 1.0]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+＠ダ・ヴィンチ
+これがエルサレムであるものか[line 3]！[r]一面の砂嵐だ[line 4]！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+マスター、ダ・ヴィンチちゃん、とにかく岩陰へ！[r]また突風がきます！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[se ad2]
+[shake 0.05 0 2 1.5]
+[wt 2.0]
+[seStop ad2 5.0]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+オッケー、そこのよく分からない動物の骨の下だね！[r]ワオ、こいつは大きい、竜種なみだ！
+[k]
+
+＠ダ・ヴィンチ
+それでロマンと連絡は！？[r]カルデアから、この不始末の[#弁明:つうしん]はないのかい！？
+[k]
+
+[charaFadeout D 0.1]
+
+[seStop ad135 3.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+……カルデアとの通信、安定しません。[r]ドクターも対応してくださっているようですが……！
+[k]
+
+？1：……いつもの事だ、仕方ない……！
+？2：……なにしろEXだからね……！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+その通りですマスター。[r]わたしたちはわたしたちだけで現状を確認しましょう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+レイシフトは無事完了。[r]我々は十三世紀の中東に到着する予定でした。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ですが……現状は、この通り砂嵐のまっただ中です！[r]これがこの時代のエルサレムだと言うのでしょうか！？
+[k]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+だとしたらここは紀元前だね！[r]帰ったらロマニにスペシャルなお仕置きを……うん？
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+時代が違う……時代が違う、か。[r]ちょっと待って。いま計測器を[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.1]
+[se ad21]
+
+＠フォウ
+フォウ！[r]ファウ、フ[line 3]ッ！
+[k]
+
+？1：フォウ君もアラブっている……！
+？2：今の音は……！
+
+？！
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、敵性生物です！[r]砂嵐と共に何かやってきます！
+[k]
+
+＠マシュ
+視界は最悪ですが、戦闘準備を！[r]今はとにかく安全を確保しましょう！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+オーケー、任せたまえ！[r]我が万能、我が叡智をついにお見せしよう！
+[k]
+
+＠ダ・ヴィンチ
+初陣にしてはひっどいロケーションだけど、[r]ま、そこは逆に考えるさ！
+[k]
+
+＠ダ・ヴィンチ
+砂嵐の中でも至高の美は損なわれない[line 3]
+[k]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+万能属性美人秘書サーヴァント、[r]ダ・ヴィンチちゃんの秘密兵器に見惚れなさいな！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,219 @@
+＄94-00-05-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20503]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[fadein black 1]
+[wait fade]
+[wt 0.3]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+思ったより距離がありましたね。[r]でも、街の様子は期待以上の仕上がりです。
+[k]
+
+＠マシュ
+どうでしょう、マスター。[r]よければここで少し休むというのも。
+[k]
+
+？1：そうだね
+
+[charaFace A 1]
+＠マシュ
+了解です。[r]ドクター、しばらく休憩に入ります。
+[k]
+
+？2：パンプキンパイとか食べたいよね
+
+[charaFace A 6]
+＠マシュ
+……！[r]さすがです先輩。
+[k]
+
+＠マシュ
+ハロウィンが選ぶ『この秋ナンバーワンマスター』の[r]称号は、もらったも同然かと。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+オーケー、周囲にエネミーの反応はない。[r]しばらくゆっくりできそうだよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+はい。ではお弁当の出番ですね。[r]スーパーランチタイム、出撃します。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠清姫
+まあ勇ましい。[r]では、敷物を敷いておきますね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+あ。そうですね、お願いします。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠清姫
+はい、ますたぁ。どうぞお座りになってください。[r]さ、お手製の焼きおにぎりです。
+[k]
+
+？1：ありがとう
+
+？！
+
+＠清姫
+こちらお茶です。
+[k]
+
+？1：美味しい
+
+？！
+
+[charaFace D 3]
+＠清姫
+まあ、そんな……。
+[k]
+
+？1：ところで
+
+？！
+
+[charaFace D 0]
+＠清姫
+はい、何でしょうか？
+[k]
+
+？1：何でいるの？
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+[charaFadein C 0.1 0]
+＠マシュ
+そういえば！？[r]清姫さん、何故ここに！？
+[k]
+
+＠フォウ
+フォフォーーーウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠清姫
+あら、[#連れ合い:サーヴァント]なら[r]当然のことだと思いますが。
+[k]
+
+[charaFace D 3]
+＠清姫
+ちゃんとリボンもつけた贈呈用の箱に入っていたのに、[r][#旦那様:マスター]ったらつれないんですもの。
+[k]
+
+＠清姫
+おまけに、あーんな胡散臭い招待状に引っ掛かるなんて。[r][#“あなたの妻”:サーヴァント]としては見過ごせません。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFace A 12]
+[charaFadein C 0.1 0]
+＠マシュ
+おかしいですね。何かこう、耳で聞いている言葉と[r]実際の文字で致命的に何かが狂っている感があります。
+[k]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠清姫
+という訳でついていきますね。[r]大丈夫ですよ、わたくしがきちんとお守り致します。
+[k]
+
+＠清姫
+ええ、二十四時間、隅から隅まで、[r]東西南北前後左右天地まで、ずいずいっと。
+[k]
+
+[charaFace D 1]
+＠清姫
+ほらほら、ファンファーレを鳴らして下さいまし。[r]「清姫が[#奥さん:なかま]になった！」ですよ。
+[k]
+
+？1：今後とも健全によろしく
+
+？！
+
+[charaFace D 3]
+＠清姫
+ああん、つれない御方ですこと。[r]そんなところも魅力なのですけど、うふふふふ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationChara 98003003 0 5 0 4]
+[charaFadein A 0.1 2]
+[charaFace A 12]
+＠Dr.ロマン
+先行きがたまらなく不安なのだけど、[r]マシュはどう思う？
+[k]
+
+＠マシュ
+珍しく同意見です、ドクター……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[wt 0.3]
+[bgmStop BGM_EVENT_2 0.1]
+[se ad21]
+[wt 0.5]
+[bgm BGM_EVENT_3]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠清姫
+あら、何かいらっしゃったようですね。[r]それではマスター、手に手を取り合って[#怪物退治:ハネムーン]です。
+[k]
+
+？1：さすがに今のは強引すぎる
+
+？！
+
+[charaFace D 1]
+＠清姫
+てへ☆
+[k]
+
+[charaFadeout D 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

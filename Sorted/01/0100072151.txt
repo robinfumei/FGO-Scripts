@@ -1,0 +1,179 @@
+
+
+
+＄01-00-07-21-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 98013200 1 ティアマト]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 8001002 1 マシュ]
+[charaSet F 98106500 1 ギルガメッシュ]
+
+[scene 35500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ビーストⅡ、いまだ健在！[r]くそ、さすがに霊基の硬さがケタ違いだ！
+[k]
+
+＠Dr.ロマン
+でも攻撃は通じている！[r]あと少し、あと少しで[line 3]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[effect bit_talk_voice01]
+[se ad205]
+[shake 0.05 0 6 0]
+
+＠ティアマト
+Aaaaaaaaaaaaaa[r]LAAAAAAAAAAAAAAAAAAAAAAAAAAA[line 3]！
+[k]
+
+[shakeStop]
+[effectStop bit_talk_voice01]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠マーリン
+ぐっ、私を直接丸呑みにくるかっ！[r]マルドゥーク神でもあるまいに、助かる筈もない！
+[k]
+
+＠マーリン
+キャスパリーグ、頼む！[r]強制転移をしておくれでないかい！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォ～、フォウ？[r]（特別意訳：なーにいってんだオマエ？）
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[wt 0.2]
+[charaEffect C bit_talk_13]
+[wt 0.1]
+[se bac10]
+[charaShake C 0.05 4 4 0.4]
+[wt 0.7]
+
+＠マーリン
+ぐわああああああああああ！[r]おのれ、キャスパリ[line 6]グッ！
+[k]
+
+[se ad75]
+[seVolume ad75 0 0.4]
+[wt 0.2]
+[charaMove C 0,-92 0.2]
+[charaFadeout C 0.2]
+[wt 1.0]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+な、マーリンが墜落！？[r]アイツがいないとケイオスタイドを緩和できないぞ！？
+[k]
+
+＠Dr.ロマン
+解毒役を優先的に潰しにかかったのか、クソゥ！[r]これじゃ長期の戦闘は困難だ！
+[k]
+
+＠Dr.ロマン
+距離をとってくれ、二人とも！[r]キミたちがケイオスタイドに侵食されたら元も子もない！
+[k]
+
+？1：でも、ここで引き下がる訳には……！
+？2：こうなったら、侵食されても構わない……！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠マシュ
+……でしたら、わたしがマスターの盾となります！
+[k]
+
+＠マシュ
+生身であの泥に飲まれたら違う生き物になってしまう……[r]それは先輩ではありません！
+[k]
+
+＠マシュ
+でもデミ・サーヴァントであるわたしなら、[r]少しは耐えられる筈です！
+[k]
+
+＠マシュ
+ドクター！[r]マスターが残るというのなら、わたしも残ります！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 7]
+[charaFadein E 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+マシュ……！[r]しかし、キミの体では、もう[line 3]
+[k]
+
+[bgmStop BGM_EVENT_24 2.4]
+
+＠F：？？？
+何を言っているか。[r]長期戦が不可能であれば、一息で決着をつけるのみ。
+[k]
+
+[bgm BGM_EVENT_40 3.1]
+
+＠F：？？？
+それとも火力に不安があるのか？[r]であれば、仕方あるまい。この[#我:オレ]が手を貸そう。
+[k]
+
+[charaFace E 6]
+＠マシュ
+あな、たは[line 3]
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 1]
+＠ギルガメッシュ
+サーヴァント、アーチャー。[r]英雄王ギルガメッシュ、[#喧:やかま]しいので来てやったわ。
+[k]
+
+[charaFace F 1]
+＠ギルガメッシュ
+なぁに、ここまで来たのだ。[r]この程度の[#常識:ルール]破り、許容範囲というものだろう？
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_40 1.4]
+[wait fade]
+[soundStopAll]
+[end]

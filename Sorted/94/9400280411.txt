@@ -1,0 +1,151 @@
+＄94-00-28-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 1008001 1 ジークフリート]
+
+[scene 21102]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠ジークフリート
+ぐっ、すま……！
+[k]
+
+＠エミヤ
+獲った！
+[k]
+
+[charaShake D 0.05 3 3 0.5]
+[charaFace D 4]
+＠ジークフリート
+ない、不覚……！
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad54]
+[wait se ad54]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+随分と粘られましたけど、[r]こちらの勝利です、マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジークフリート
+……いや、勝利したのはこちらだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エミヤ
+何だと？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジークフリート
+騙してしまったが、俺は謝らない！
+[k]
+
+[charaFace D 0]
+＠ジークフリート
+何故なら、敵に策を講じるのは戦士として[r]当然の行為だからな。
+[k]
+
+[charaFace D 1]
+＠ジークフリート
+恥ずべきものでは断じてない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、胸を張ってます。[r]どうだ、という表情です！
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace A 6]
+[charaFace C 2]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+[line 4]ッ！[r]いかん、マシュ！　宝具を起動しろ！
+[k]
+
+[charaFace A 2]
+＠マシュ
+え……！？
+[k]
+
+[messageOff]
+[charaTalk D]
+
+[se bac19]
+[wt 0.3]
+[se bac19]
+[wt 0.3]
+[se bac19]
+[wait se bac19]
+
+[fadeout black 0.1]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.5]
+[scene 10000]
+[fadein black 0.1]
+
+＠エミヤ
+[line 4][#I am the bone of my sword:体は剣で出来ている].
+[k]
+
+[messageOff]
+[se ad39]
+[wt 1.0]
+
+[seStop ad39]
+[fowardEffect bit_talk_14]
+
+[bgmStop BGM_EVENT_3 0.1]
+[se ad32]
+[wait se ad32]
+
+[wait fowardEffect bit_talk_14]
+
+
+[fadeout black 1.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,269 @@
+＄94-00-31-14-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet F 1001000 1 アルトリア]
+[charaSet G 98062000 1 アイリスフィール]
+[charaSet H 6015001 1 アサシン？]
+
+[scene 25300]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ。
+[k]
+
+？1：ずいぶん予定が狂ったのでは？
+？2：なかなか思い通りに行かないね
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+あのライダーの性格が破天荒なのは分かっていた[r]つもりだったが……まさかここまで出鱈目だとは！
+[k]
+
+[charaFace D 7]
+＠エルメロイ
+訳が分からないから敵だと？　いったい何を言ってるんだ[r]アイツは！　ああもう、頭にくる！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+やはりライダーが絡むとロードは[r]感情的になってしまいますね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠エルメロイ
+私は冷静だ！[r]ただストレスに防衛的反応を示しているだけだ！
+[k]
+
+？1：そうですね
+？2：ロードはクール。いいね？
+
+？！
+
+[charaFace A 8]
+＠マシュ
+はい……。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+ん？　ちょっと待った。そっちに接近する魔力反応。[r]この規模はサーヴァントだな。
+[k]
+
+＠Dr.ロマン
+アサシンの残った断片とも、[r]さっき撤退したライダー、バーサーカーとも違う。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+それって……計算が合いませんよね？
+[k]
+
+＠エルメロイ
+ああ。冬木の聖杯が招き寄せる英霊は七体のみ。[r]つまりは我々と同じイレギュラー。あいつだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アルトリア
+またしてもアイリスフィールを狙って？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.4 1]
+[se bac1]
+
+＠アサシン？
+少し目を離した隙にまた仲間を増やしたか。[r]まったく厄介な連中だ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+二度も八門金鎖に引っかかった以上、[r]気配遮断は無意味だと悟ったか。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+それにしても堂々と正面から来るとは、[r]舐められたものだな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アサシン？
+このまま好機を窺うだけでは埒があかない。
+[k]
+
+[charaFace H 5]
+＠アサシン？
+聖杯戦争も大詰めだ。決着がつくより先に、[r]どうあってもそこのホムンクルスは抹殺させてもらう。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+やはり狙いは聖杯の器か。目的としては近しいようだが、[r]手段においては相容れぬようだな。
+[k]
+
+？1：聖杯の、器？
+
+？！
+
+[charaFace D 0]
+＠エルメロイ
+ああ。彼女はセイバーのマスターを装っているが……。
+[k]
+
+＠エルメロイ
+実際の役目は他にある。脱落した英霊の魂を回収し、[r]大聖杯を開く「鍵」としての役目を果たす小聖杯。
+[k]
+
+＠エルメロイ
+いわば儀式の祭具に自律的人格を与えた存在だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠アイリスフィール
+よくご存じね。でも「マスターを装う」なんて言われよう[r]は不愉快ね。私がマスターとして不足だとでも？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+この期に及んで[#韜晦:とうかい]は不要だ、ホムンクルス。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+アインツベルンがおまえを囮に仕立て、[r]本物のマスターを影に潜ませているのは知っている。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠アルトリア
+いったい何の話ですか？　アイリスフィールは紛れもなく[r]我がマスター。他に契約者など存在しませんが……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エルメロイ
+なに？
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[se ad39]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠アイリスフィール
+コレを見てもまだ疑わしい？
+[k]
+
+[charaFadeout G 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エルメロイ
+令呪だと！？[r]ではお前は本当にセイバーと契約を！？
+[k]
+
+[charaFadeout D 0.1]
+
+
+[charaTalk A]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+ロード・エルメロイ、驚いている場合ではありません！[r]敵対サーヴァント、仕掛けてきます！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

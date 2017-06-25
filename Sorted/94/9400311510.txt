@@ -1,0 +1,722 @@
+＄94-00-31-15-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 4002001 1 イスカンダル]
+[charaSet B 98061000 1 ウェイバー]
+[charaSet C 98063000 1 間桐雁夜]
+[charaSet D 98064000 1 臓硯]
+[charaSet E 7002001 1 バーサーカー]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[scene 26000]
+[fadein black 2.0]
+[wait fade]
+
+＠間桐雁夜
+……と、まぁ、俺がバーサーカーのマスターになった[r]経緯は、こんなところだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠イスカンダル
+ふむ成る程。……なぁ坊主、この聖杯戦争の[r]参加者ってのは、こんな悲惨な連中ばっかりなのか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠ウェイバー
+フン、少しは自分の脳天気ぶりが[r]恥ずかしくなってきたか？
+[k]
+
+[charaFace A 0]
+＠イスカンダル
+え？　なんで？
+[k]
+
+[charaFace B 6]
+＠ウェイバー
+……いや、訊いてみた僕が馬鹿だった。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ウェイバー
+で、雁夜さんだっけ？　とりあえずアーチャーは[r]倒したわけだけど、次はどうするつもりなの？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠間桐雁夜
+もちろん、遠坂時臣にとどめを刺す！　サーヴァントさえ[r]いなければもうあいつは無力だ。だから今度こそ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠イスカンダル
+ふんッ。
+[k]
+
+[charaMove A -200,0 0.1]
+[wait charaMove]
+[se bac9]
+[charaEffect C bit_talk_13]
+[charaShake C 0.05 3 3 0.25]
+[charaFace C 3]
+[charaMove A 0 0.1]
+[wait charaMove]
+[wt 0.1]
+
+[charaFadeout C 0.1]
+[wt 0.2]
+[se bac2]
+
+＠間桐雁夜
+ひぎゃッ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ウェイバー
+うわグーで！？　グーでいった！？[r]つーか死んじゃわないかそれ！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠イスカンダル
+おい間桐雁夜。貴様がまず守りたいと願ったものは何だ？[r]真っ先に救うべき相手は？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+[wt 0.1]
+[charaFace C 1]
+[charaFadein C 0.4 2]
+＠間桐雁夜
+それは……桜ちゃんを……。
+[k]
+
+＠イスカンダル
+じゃあ時臣ってのを仕留めれば[r]即座にその娘の境遇は変わるのか？
+[k]
+
+＠間桐雁夜
+う、ぐ……だが聖杯がないと、臓硯は……。
+[k]
+
+＠イスカンダル
+じゃあ時臣ってのを仕留めるのが[r]聖杯に至る一番の近道か？
+[k]
+
+＠間桐雁夜
+……。
+[k]
+
+[charaFace A 4]
+＠イスカンダル
+ったく……やりたい事とやるべき事と出来る事が[r]何一つ噛み合っておらん大馬鹿者め。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠イスカンダル
+そんなザマでは余と共に覇道を語るなど到底足りぬ！[r]さあ行くぞ、坊主。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠ウェイバー
+え？　行くってどこへ？
+[k]
+
+[charaFace A 2]
+＠イスカンダル
+無論、蹂躙と略奪だ！
+[k]
+
+[messageOff]
+[maskout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait mask]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+
+[fowardEffect bit_talk_33]
+[wt 0.5]
+[fowardEffect bit_talk_40]
+
+[se ad16]
+[se ad14]
+[bgm BGM_EVENT_3 0.1]
+[shake 0.05 0 2 0]
+[maskin black 2.0]
+[wait mask]
+
+[wt 1.0]
+
+[seStop ad16 2.0]
+[seStop ad14 2.0]
+[wt 1.0]
+[fowardEffectStop bit_talk_33]
+[shakeStop]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠間桐雁夜
+……え？　あの……ちょっと？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠イスカンダル
+フン、あいにく首魁の魔術師は留守だったようだな。
+[k]
+
+＠イスカンダル
+まぁ地下の蟲どもは一切合切焼き払ってやったから[r]良しとしよう。ついでにこの娘も攫ってきた。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠間桐雁夜
+さ、桜ちゃん！？[r]あんた……助けてくれたのか？
+[k]
+
+[charaFace A 4]
+＠イスカンダル
+馬鹿を言え。余は救済者ではなく征服王。[r]よってこの娘は略奪の成果。すなわち奴隷だ。
+[k]
+
+[charaFace C 3]
+＠間桐雁夜
+なッ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ウェイバー
+お、おい？　なに言い出すんだよオマエ！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠イスカンダル
+無論、奴隷であるからには条件次第で売り買いもする。
+[k]
+
+＠イスカンダル
+身請けしたいか？　間桐雁夜、[r]貴様ならば相応の額で応じてやるぞ。
+[k]
+
+＠間桐雁夜
+か、金で解決を？
+[k]
+
+＠イスカンダル
+いいや。対価はその右手だ。令呪ごと寄越せ。
+[k]
+
+[charaFace C 3]
+＠間桐雁夜
+ッ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠ウェイバー
+えええ？　でもそれって……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠イスカンダル
+まぁ今の貴様の体力では下手すると死にかねんがな。[r]たったひとつの命の使い所は自分で決めろ。
+[k]
+
+[charaFace A 5]
+＠イスカンダル
+この娘だけを救って逃げ延びるチャンスに賭すか、あるい[r]はバーサーカーと最後まで戦い続けるか。好きに選べ。
+[k]
+
+＠間桐雁夜
+くッ……桜ちゃん……。
+[k]
+
+[charaFace C 2]
+＠間桐雁夜
+……分かった。この右手を持っていけ。
+[k]
+
+[charaFace A 0]
+＠イスカンダル
+相分かった。さあ歯ァ食いしばって耐えろよ！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+
+[charaTalk C]
+[charaFace C 3]
+[charaEffect C bit_talk_12]
+[wt 0.2]
+[se bac6]
+[wt 0.5]
+＠間桐雁夜
+ぐッ……くふッ……[charaFadeout C 0.7][wt 0.5][se ad58][seStop ad58 0.5]。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[seLoop ad106]
+[wt 1.0]
+[seStop ad106 1.0]
+[wait se ad106]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠イスカンダル
+良し、刻印虫どもも手の方について行ったか。まぁ奴らに[r]とっては宿主の命より令呪の方が本命だろうしな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+[charaFace B 3]
+[charaFadein B 0.1 2]
+＠ウェイバー
+こ、こいつ……助かるのか？
+[k]
+
+[charaFace A 0]
+＠イスカンダル
+まぁ後は運任せだな。ちと分の悪い賭けにはなろうが。[r]坊主、出来る範囲で手当しておいてやれ。
+[k]
+
+[charaFace B 2]
+＠ウェイバー
+ぼ、ボクの治癒魔術なんて高が知れてるぞ！
+[k]
+
+[charaFace A 4]
+＠イスカンダル
+ふむ……お～い、ミトリネス。
+[k]
+
+[charaFace A 0]
+＠イスカンダル
+この死にかけの男と小娘をだな、冬木の外まで連れ出して、[r]それから赤い十字を掲げてる建物を捜して放り込んでこい。
+[k]
+
+[charaFace B 3]
+＠ウェイバー
+……それって英霊にやらせる仕事としてはどうなのさ？
+[k]
+
+＠イスカンダル
+余に川の水汲みなんぞやらせた奴が何を言うか。
+[k]
+
+[charaFace A 4]
+＠イスカンダル
+まぁ仕方あるまい。[r]我らは急ぎ次の戦いに赴かなくてはならんのだからな。
+[k]
+
+[charaFace B 2]
+＠ウェイバー
+次、って……あいつら全員と戦うのか？[r]バーサーカー抜きで？
+[k]
+
+[charaFace A 0]
+＠イスカンダル
+心細いか？　坊主。
+[k]
+
+[charaFace B 3]
+＠ウェイバー
+フン、なに言ってんだよ。[r]どうせおまえなら誰よりも強いんだろ。
+[k]
+
+[charaFace B 6]
+＠ウェイバー
+残りのサーヴァントが全員束になってかかってきても、[r]負ける気がしないね！
+[k]
+
+[charaFace A 1]
+＠イスカンダル
+ハハハハッ！　よくぞ言った。[r]さあ、[charaFace A 2]決戦の地に馳せるとしようぞ！
+[k]
+
+[messageOff]
+[maskout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait mask]
+
+[fowardEffectStop bit_talk_40]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[scene 26010]
+[wt 1.0]
+
+[se ad11]
+
+[bgm BGM_EVENT_3 0.1]
+
+[maskin black 2.0]
+[wait mask]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.4 1]
+＠臓硯
+わ、儂の屋敷が燃えておる！？[r]可愛い蟲たちが死んでおる！？
+[k]
+
+[seStop ad11 2.0]
+
+[charaFace D 4]
+＠臓硯
+雁夜め、いったい何をしおった！？[r]むう、桜はどこか！？　うむ、もぬけのカラよ！
+[k]
+
+[charaFace D 4]
+＠臓硯
+ギギ……グギギギキヒィ！！[r]度し難い小童どもめがぁぁぁぁッ！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠バーサーカー
+uaaaaa……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+＠臓硯
+……む？　バーサーカーだと……？[r]魔力が枯渇し消えかかっておる……。
+[k]
+
+[charaFace D 4]
+＠臓硯
+……これはッ！　雁夜の令呪か？[r]奴め、聖杯戦争に背を向けて逐電しおったか！
+[k]
+
+[charaFace D 1]
+＠臓硯
+だがまさか手首ごと切り落として捨てていくとは、[r]あの腰抜けらしからぬ思い切りよな……。
+[k]
+
+＠バーサーカー
+uaaaaa……。
+[k]
+
+[charaFace D 0]
+＠臓硯
+ああ、良し良し。おまえも裏切られて口惜しいか。[r]この爺とて同じよ。このままでは腹の虫が収まらぬ。
+[k]
+
+[charaFace D 2]
+＠臓硯
+かくなる上は……間桐に仇成した狼藉者に、[r]目にもの見せるしかあるまいなぁ？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_3 2.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98062000 1 アイリスフィール]
+[charaSet F 6015001 1 アサシン？]
+[charaSet G 6003001 1 アサシン]
+
+[wt 1.0]
+
+[scene 20110]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠アイリスフィール
+まさか、そんな……大聖杯が反英雄に[r]汚染されてるですって！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 3]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+＠エルメロイ
+百聞は一見に如かず、だ。[r]何よりもまず実物を見てもらうのが一番早い。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+＠アサシン？
+大聖杯の解体……そこまで根本的な解決方を予め[r]知っていたのなら、なぜ最初から実行しなかった？
+[k]
+
+＠エルメロイ
+こいつは喩えるなら大樽一杯に貯まった[r]ニトログリセリンを抜き取る作業みたいなものでな。
+[k]
+
+＠エルメロイ
+雑に扱えば樽が壊れて大惨事になりかねん。[r]安全に処理するには事前に入念な下準備が必要だ。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+一晩二晩ではどうにもならん。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+なのに今こうして下準備もなしに[r]乗り込んでいくというのは……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+発想の転換だ。
+[k]
+
+＠エルメロイ
+樽の中身の爆発力をさらに封じ込めるだけの火力があれば、[r]いっそ樽ごと吹き飛ばすという荒療治もアリだ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+ざっと見積もった戦力として、我々カルデアの面々に[r]加えてさらにサーヴァント三人が揃えば……。
+[k]
+
+＠エルメロイ
+そういう目処も立つには立つ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+あ、でも三つの陣営と和解できるなら……。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+そう、脱落サーヴァントを四人までに留めるという[r]当初の所定が達成されて、より穏便な解決がつく。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+うまくライダー陣営を懐柔できていたなら、[r]こうして大聖杯に手を出す必要もなかったわけだ。
+[k]
+
+＠エルメロイ
+だから今回は大聖杯の解体は[r]選択肢から除外していたのだがな……。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+まさか抑止力の介入なんて想像もしていなかったよ。[r]味方につけられるとなればこれほど心強い助っ人はいない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace D 1]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+
+＠アサシン？
+僕たちはいつ、何処の戦場に呼ばれようとも、[r]常に人智を超えた理由と目的で血を流す。
+[k]
+
+＠アサシン？
+誰に理解されることもなく、[r]関わる人間すべてを敵に廻すことさえ珍しくない。
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaFace F 1]
+＠アサシン？
+……だから、奇妙な気分だよ。[r]誰かと協力関係を結ぶなんて体験は、久しく……[charaFace F 4]ん？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 1]
+＠エルメロイ
+ああ。こちらの結界にも引っかかった。流石だな。[r]気配遮断もさらに上手のアサシンには無効か。
+[k]
+
+[charaFace F 0]
+＠アサシン？
+闇に潜むのが得手なのはこちらも同じ。[r]手の内はお互い見え透いているからな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+……アサシンのサーヴァント！？　二人とも凄いな。[r]こっちじゃ全然察知できないのに！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[se bac1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.4 1]
+＠アサシン
+おのれ……先手を防いだぐらいでいい気になるな！[r]今度こそ貴様らに引導を渡してくれる！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+気をつけろ。これまでの断片の連中とはひと味違う。[r]「残り全部」を総動員する気だ。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

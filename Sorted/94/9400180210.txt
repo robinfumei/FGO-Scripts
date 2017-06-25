@@ -1,0 +1,320 @@
+
+＄94-00-18-02-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 5007001 1 シェイクスピア]
+[charaSet B 4008001 1 黒髭]
+[charaSet C 98018100 1 部下]
+[charaSet D 5014001 1 メフィストフェレス]
+[charaSet E 7005001 1 スパルタクス]
+
+[scene 21240]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.4 1]
+＠黒髭
+[fontSize x-large]リア充爆発しろ！！[fontSize -]
+[k]
+
+[messageOff]
+[se bac37]
+[effect bit_talk_29]
+[wt 0.4]
+[charaFace B 2]
+[charaShake B 0.05 3 3 0]
+[wait effect bit_talk_29]
+[charaShakeStop B]
+
+＠黒髭
+ごはあ！？
+[k]
+
+[charaFadeout B 0.4]
+[wt 0.2]
+[se ad7]
+[seStop ad35 0.4]
+[wt 0.7]
+
+？1：出オチ！？
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+さすが稀代のコメディアン。[r]オケアノスで猛威を振るっただけのことはありますな。
+[k]
+
+？2：く、黒髭ー！？
+
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+ははは、ご心配されるなマスター。
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+あれは典型的な「最初は強敵だったけど、今は新しい敵が登場[r]するたび技の実験台にされる噛ませ犬」的爆発です。
+[k]
+
+？！
+
+＠シェイクスピア
+いずれにせよ、生命に支障はありません。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad7]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠黒髭
+あるよ！？　滅茶苦茶あるでござるよ！？[r]というか、何なのでござるマスターは！
+[k]
+
+＠黒髭
+拙者危うく、キレイなＢＧＭを伴って黄金の粒子となって、[r]消えてしまいそうになりました！
+[k]
+
+[charaFace B 4]
+＠黒髭
+全米震撼、全米号泣ですぞ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠シェイクスピア
+ご安心めされよ、黒髭殿。
+[k]
+
+＠シェイクスピア
+あなたのポジションは戦争映画でほんわかしてた時に[r]唐突に死んで気を引き締めさせる役割です。
+[k]
+
+＠シェイクスピア
+今にも消えそうな束の間の灯火という感じのあなたに、[r]そんなＢＧＭ鳴らす暇ありません。
+[k]
+
+[charaFace B 2]
+＠黒髭
+ひどい！？
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+[bgm BGM_EVENT_2 0.1]
+＠黒髭
+というか、いきなり問答無用で爆破とか！[r]海賊の風上にも置ける奴でござる。
+[k]
+
+[charaFace B 1]
+＠黒髭
+うん、海賊なら奇襲とか当たり前だからネ![r]でも自分がやられるとむかつく！
+[k]
+
+[charaFace B 0]
+＠黒髭
+む[r]か
+[k]
+
+[charaFace B 2]
+＠黒髭
+つ[r]く
+[k]
+
+＠黒髭
+！
+[k]
+
+[charaFace B 5]
+＠黒髭
+わざわざ嫌がらせに縦にしたあたりで、[r]拙者の怒りを思い知って頂きたい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+＠シェイクスピア
+何を仰っているのですか、黒髭殿。[r]爆発は吾輩でもマスターでもないですぞ。
+[k]
+
+[charaFace B 2]
+＠黒髭
+それじゃあ、一体誰がこの黒髭を[r]爆発させたのですかー！
+[k]
+
+[charaFace B 5]
+＠黒髭
+まさかテメエらかロクデナシども、[r]頭ァ奪って黒髭になりかわろうってハラかぁ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠部下
+オレたちじゃねぇですよ船長！[r]あと黒髭の後釜とかマジで無理ッス。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠メフィストフェレス
+そうでございますぞ、黒髭殿！[r]証拠もないのに人を疑うなど！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠黒髭
+う、そ、そうだね。[r]ごめんだね、みんな。そしてメフィスト氏……。
+[k]
+
+[charaFace B 2]
+＠黒髭
+……いや、ちょっとお待ちになって。[r]何であなたミーの船にライドしてるの！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠メフィストフェレス
+はあ。「爆発しろ！」って言われましたら[r]爆発系サーヴァントとしては爆発させぬ訳には？
+[k]
+
+[charaFace D 1]
+＠メフィストフェレス
+大体、「するなよ、絶対するなよ」と言われたが末期、[r]ついつい殺っちゃうのは道化の嗜みからして？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠黒髭
+うわあい、犯人だったチクショウ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠シェイクスピア
+時に黒髭殿。[r]チョコレートを隠しておりませんか？
+[k]
+
+＠シェイクスピア
+何やらカカオっぽい匂いが漂ってくるのですが。
+[k]
+
+[charaFace B 3]
+＠黒髭
+チョコレート……でござる？　ぎ[r]隠してなどおりませんぞぅ！　く
+[k]
+
+＠黒髭
+拙者は無実を主張しますぞ！　り
+[k]
+
+？1：よし、犯人だ。黙秘権はない。
+？2：よし、逮捕だ。弁護士は呼ばない。
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠黒髭
+チクショウ、拙者には何の権利もないでござるかー！[r]それでも黒髭はやってない[line 2]！！
+[k]
+
+[charaFace B 5]
+＠黒髭
+こうなれば実力で無実を証明するのみ！[r]暴力＝自由！　それが嵐の航海者の生き様よ！
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠メフィストフェレス
+おやおや？　戦闘？　でございますな？[r]それでは私も参列させていただければと。
+[k]
+
+[charaFace D 2]
+＠メフィストフェレス
+え？　するな？[r]するな、と言われれば余計に熱が入るというもの！
+[k]
+
+[charaFace D 1]
+＠メフィストフェレス
+イェッヒヒヒヒヒ！[r]いやあ、マスターと敵対するのは超心苦しいですが！
+[k]
+
+＠メフィストフェレス
+何しろバレンタインデーとはリア充を爆殺する日！[r]爆殺応報都市ハラジュクとも申しますし？
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 2]
+＠メフィストフェレス
+このメフィスト、張り切って年中行事に[r]参加させて頂きます。ああ楽しい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

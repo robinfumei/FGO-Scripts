@@ -1,0 +1,301 @@
+
+＄01-00-05-16-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 3013001 1 スカサハ]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 3004001 1 カルナ]
+
+[charaTalk D]
+[charaFace A 8]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+[scene 20423]
+[fadein black 2]
+[wait fade]
+
+＠スカサハ
+ふむ、肩慣らしとしてはこんなところか。
+[k]
+
+[charaFace A 14]
+＠マシュ
+ウォーミングアップで殺され掛けるとは[r]思いませんでした……。
+[k]
+
+[charaFace C 1]
+＠スカサハ
+まあ、そう言うな。[r]それでは[charaFace C 0]ラーマ、お主が軍の指揮を執れ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ラーマ
+む、それは構わないが……お主ではないのか？
+[k]
+
+[charaFace C 0]
+＠スカサハ
+私はここで離脱する。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え！？[r]ま、待って下さい、一体……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFace D 0]
+[charaFadein C 0.1 0]
+[charaFadein D 0.1 2]
+＠スカサハ
+軍とは別行動を取り、女王メイヴとクー・フーリンの[r]動向を監視、状況によっては戦って抑え込む。
+[k]
+
+[charaFace D 2]
+＠ラーマ
+それは死にに行くようなものだろう！？
+[k]
+
+[charaFace C 0]
+＠スカサハ
+他のサーヴァントであればな。[r]だがお主、[#私:ワシ]を誰だと思っておる。
+[k]
+
+[charaFace C 1]
+＠スカサハ
+この体がやすやすと食い殺されるタマかよ。[r]やられたとしても、そんなものは数日の話だ。
+[k]
+
+[charaFace D 4]
+＠ラーマ
+……それでも、[r]破れる事を前提にしているではないか…
+[k]
+
+[charaFace C 4]
+＠スカサハ
+うむ。それは仕方あるまい。多少は痛い目も見よう。[r]なにしろ、誰かがやらねばならん事だからなあ。
+[k]
+
+[charaFace C 0]
+＠スカサハ
+よいか。あの二人が前線へ押し出てくれば[r]間違いなくこちらが敗北する。
+[k]
+
+＠スカサハ
+私はそれを押さえ込むだけの[#堰:せき]のようなもの。[r]戦いを勝利に導くのはお主らの役割だ。
+[k]
+
+[charaFace C 1]
+＠スカサハ
+頼むぞ、ラーマ。お主はいろいろと未熟だが、[r]本領を発揮できれば我が馬鹿弟子にも劣らぬ剣士。
+[k]
+
+＠スカサハ
+軍を率いた経験もあるしな。[r]まさに我が軍の大黒柱というヤツよ。
+[k]
+
+[charaFace D 5]
+＠ラーマ
+……そこまで言われては止められないな。[r]生前の軍は猿が中心だったのだが……まあ、何とかなるか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠スカサハ
+[%1]……マスター。[r]そう不安そうな顔をするな。
+[k]
+
+[charaFace C 0]
+＠スカサハ
+今のおまえにはあらゆるサーヴァントがいる。[r]私一人くらい居なくとも、恐れることはない。
+[k]
+
+[charaFace C 4]
+＠スカサハ
+欲を言えば、もう少し普通のサーヴァントというヤツを[r]満喫したかったが、贅沢を言えば切りはあるまい。
+[k]
+
+[charaFace C 2]
+＠スカサハ
+さらば！
+[k]
+
+[messageOff]
+[se ad83]
+[wait se ad83]
+[seLoop ad84]
+[charaFadeout C 0.4]
+[wt 1.0]
+[seStop ad84 0.8]
+[wt 0.8]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠カルナ
+マスター、少しいいか？
+[k]
+
+[charaTalk A]
+＠マシュ
+カルナさん。どうしました？
+[k]
+
+[charaFace E 5]
+＠カルナ
+可能なかぎり目立つ形で先陣を[r]オレに切らせてほしいのだが……頼めるか？
+[k]
+
+？1：どうして？
+？2：別にいいけど……
+？！
+
+＠カルナ
+[line 2]アルジュナが向こう側にいる。
+[k]
+
+[charaFace E 4]
+＠カルナ
+本来、あの男は向こう側に居てはならない男だ。
+[k]
+
+[charaFace E 0]
+＠カルナ
+授かりし英雄、[#輝く王冠:キリーティ]……アルジュナこそは、[r]正義を体現したに等しい英霊。
+[k]
+
+[charaFace E 5]
+＠カルナ
+そして同時に、オレには縁のある相手でもある。[r]……善きにしろ、悪きにしろな。
+[k]
+
+[charaFace E 0]
+＠カルナ
+この戦い、いかにして敵陣のサーヴァントを[r]抑え込むかが鍵だろう。
+[k]
+
+[charaFace E 0]
+＠カルナ
+であれば、オレは全力を投じてアルジュナを封じる。[r]……構わないだろうか？
+[k]
+
+？1：お願いカルナ
+
+[charaFace E 5]
+＠カルナ
+心得た。アルジュナは必ず抑えてみせる。
+[k]
+
+？2：頑張ってくれ
+
+[charaFace E 5]
+＠カルナ
+ああ、頑張るとも。[r]ヤツにかける手心はないからな。
+[k]
+
+？！
+
+[charaFace E 0]
+＠カルナ
+それでは先陣の兵を借りる。[r]行くぞ[charaFace E 2]！
+[k]
+
+[messageOff]
+[se ad66]
+[charaFadeout E 0.4]
+[wt 1.0]
+[seStop ad66 0.5]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+カルナさんが先陣。ラーマさんも[r]ナイチンゲールさんも居てくれます。
+[k]
+
+[charaFace A 12]
+＠マシュ
+なのに……私はまだ不安です。[r]今までに比べて、こんなに心強いというのに[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ラーマ
+その予感は合っているぞ、マシュ[r]何しろ向こうについたのはクー・フーリン。
+[k]
+
+＠ラーマ
+メイヴの軍勢相手にただ一人で戦い抜いた[r]最強の戦士。
+[k]
+
+[charaFace D 5]
+＠ラーマ
+あれが敵に回っている以上、[r]我々に「確実な勝利」というものはない。
+[k]
+
+＠ラーマ
+北軍を指揮するエジソンたちは言うに及ばず、[r]我々もまた、戦場で潰えることもあろう。
+[k]
+
+[charaFace D 1]
+＠ラーマ
+それでも……勝利を得るために。[r]我らは全力を費やすのだ。
+[k]
+
+[bgmStop BGM_EVENT_2 2.0]
+
+[charaFace D 0]
+＠ラーマ
+マスター。[r]さあ、命令を。
+[k]
+
+？1：目標はホワイトハウス！
+？2：進軍開始！
+
+？！
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace D 2]
+＠ラーマ
+応とも！[r]全軍出撃！　これが最後の戦いだ！
+[k]
+
+＠ラーマ
+アメリカ合衆国をお前たちの手に取り戻せ！[r]そのために我らも力を貸そう！
+[k]
+
+[se ad16]
+[wt 2.0]
+[seStop ad16 1.0]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_4 1.0]
+[wait fade]
+[soundStopAll]
+[end]

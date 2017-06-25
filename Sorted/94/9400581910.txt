@@ -1,0 +1,201 @@
+
+＄94-00-58-19-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 4024000 1 モードレッド]
+
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+よっしゃー！　肉パーティーだー！[r]波乗り後の肉は最高だぜ。
+[k]
+
+[charaFace D 0]
+＠モードレッド
+最初の鹿肉も悪くはなかったけど、やっぱＢＢＱは[r]牛だよな！
+[k]
+
+[charaFace D 1]
+＠モードレッド
+……へへ、おっと、こいつはもう焼けてるか……？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+待て。それは私が栽培している肉だ。
+[k]
+
+[charaFace C 5]
+＠スカサハ
+ジャストな焼き加減まであと１２秒であるため置いて[r]いる。手出しは無用だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+へー。そうなのかよ。そいつは悪かった、な[line 2]
+[k]
+
+＠モードレッド
+（と言いながら！　向こうを向いている隙に、[r]　いただきだぜーっ！）
+[k]
+
+＠スカサハ
+ゲイ[line 2]ボルク！
+[k]
+
+
+[messageOff]
+[charaFadeout D 0.1]
+[scene 10000 0.1]
+[wait scene]
+
+[se ad80]
+[effect bit_bolg_02]
+[wt 0.5]
+[seStop ad80]
+[se bac95]
+[wt 0.8]
+
+[scene 30400 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[wait scene]
+
+＠モードレッド
+…………！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+手出しは無用と……言わなかったか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFace C 5]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+
+＠モードレッド
+ち、ちげーし！[r]その隣のピーマン取ろうとしただけだっつーのに！　
+[k]
+
+[charaFace C 0]
+＠スカサハ
+そうか。それは失敬した。ピーマンは存分に食え。
+[k]
+
+[messageOff]
+[charaFadeout C 0.4]
+[wt 0.5]
+
+[charaTalk D]
+[charaMove D 1 0.3]
+[wait charaMove]
+
+＠モードレッド
+く、くそぅ……むぐむぐ。
+[k]
+
+[charaFace D 2]
+＠モードレッド
+う、にが……ちくしょう、なんだよ足ボルクって。[r]焼肉しながら投げられるように開発したのか……？
+[k]
+
+[charaFace D 1]
+＠モードレッド
+……お、またいい感じの肉発見！[r]今度こそ[line 2]
+[k]
+
+＠アルトリア
+[line 2]カリバー！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[scene 10000 0.1]
+[wait scene]
+
+[voice NP_100100_2]
+[wt 0.5]
+[effect bit_talk_14]
+[wt 0.5]
+[voiceStop NP_100100_2]
+
+[se bac94]
+[wt 0.8]
+
+[scene 30400 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[wait scene]
+
+＠モードレッド
+…………！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+
+＠アルトリア
+それは私が育てていた肉です。
+[k]
+
+[charaFace B 4]
+＠アルトリア
+やはり……[#簒奪者:さんだつしゃ]の性根か……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠モードレッド
+う……うわーん！　父上なんか嫌いだー！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,209 @@
+
+＄94-00-65-07-1-0
+
+
+[soundStopAll]
+[se ad37]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102400 1 イリヤ]
+[charaSet D 6021001 1 偽酒呑童子]
+[charaSet E 6021001 1 偽酒呑童子d]
+[charaPut E 0,-300]
+
+[scene 21260]
+[fadein black 2.0]
+[wait fade]
+
+[seStop ad37 5.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽酒呑童子
+あら、こんな[#辺鄙:へんぴ]なとこにお客さんやわァ。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace D 4]
+＠偽酒呑童子
+まだこの[#瓢箪:ひょうたん]さん、なごりおしげに[r]ちゃぷちゃぷ鳴いてはるけど……お仕事せなあかんねェ。
+[k]
+
+[charaFace D 1]
+＠偽酒呑童子
+……それとも、うちと一緒に[r][#瓢箪:これ]、あけてくれはル？
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.3]
+
+[bgm BGM_EVENT_34 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+真打ち登場じゃないですかヤダー！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 3]
+[charaFadein C 0.1 2]
+＠イリヤ
+またルビーの謎の興奮が始まった！？
+[k]
+
+？1：そうだね。ちょっと休憩していこう
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.2]
+[se ad77]
+[shake 0.08 0 2 0.25]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター？　ごく[#自然:ナチュラル]に[r]マイ[#盃:さかずき]を取り出さないでください。
+[k]
+
+
+＠マシュ
+それではまさに偽酒呑さんの術中です。[r][#戦:や]るなら[#呑:の]むなです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+
+＠偽酒呑童子
+あら、お[#舟遊:ふなあそ]びしていかれはるン？[r]……[charaFace D 4]けど、盃だけやのうて物騒なモンも隠してますなァ？
+[k]
+
+
+？2：まさかこの[#魔法少女:どうじ]がきてくれるとはッッ！！
+
+[wt 0.2]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+サイコーですね！[r]物理法則を超越した概念こそ宇宙最強の代名詞だ！
+[k]
+
+[charaFace C 5]
+＠イリヤ
+そ、それ以上いけない！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+
+＠偽酒呑童子
+いややわァ……。[r]よそはよそ、うちはうちヤ。
+[k]
+
+
+？！
+
+
+[bgmStop BGM_EVENT_34 1.5]
+
+＠偽酒呑童子
+分別つけず、なんでも[#懐:ふところ]に持ち込むんは[r]感心しぃひんよ……[charaFace D 1]ちびぃっと、やいとすえようカ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+[#魔法少女力:ＭＳりょく]が爆発的に跳ね上がった？[r][#模倣:まねっこ]とはいえやりますね……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠イリヤ
+それ以前に、すごくわかりやすく[r]殺気を感じるんだけど！
+[k]
+
+[charaFace C 4]
+＠イリヤ
+あと、お酒の匂いでクラクラしてきた……！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+お酒は飲めませんけど、[r]お酌くらいで勘弁していただけませんか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽酒呑童子
+ふふふ……つれへんこと言わんと、[r]あんじょう遊んでおくれやス……
+[k]
+
+[charaFace D 1]
+＠偽酒呑童子
+酒に酔うて、名を呼び合うて、[r]気がつけば[#瓢箪:ごくらく]の中よっテ。
+[k]
+
+＠偽酒呑童子
+骨の髄まで溶けていってナ？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

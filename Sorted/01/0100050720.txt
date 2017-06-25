@@ -1,0 +1,261 @@
+＄01-00-05-07-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5016001 1 ジェロニモ]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 2010001 1 ビリー]
+[charaSet F 2003001 1 ロビンフッド]
+[charaSet G 98003000 1 Dr.ロマン]
+[charaSet H 98002000 1 フォウ]
+
+[scene 11213]
+[fadein black 2.0]
+[wait fade]
+
+
+[se bac21]
+[wait se bac21]
+[se bac21]
+[wait se bac21]
+[se ad38]
+[wait se ad38]
+
+[wt 0.7]
+
+[charaFace F 0]
+[charaFadein F 0.4 0]
+[charaFace E 0]
+[charaFadein E 0.4 2]
+[wt 0.7]
+＠F：？？？
+ん？　今、何か聞こえなかったか？
+[k]
+
+＠E：？？？
+あー……何か、戦ってるみたいだね。[r]援軍が到着したかな？
+[k]
+
+[charaFace F 1]
+＠F：？？？
+風向きが変わったな！[r]ジェロニモのオッサン、やってくれるじゃねえか！
+[k]
+
+[charaFace E 4]
+＠E：？？？
+……ねえねえ、グリーン。
+[k]
+
+＠E：？？？
+ジェロニモってさ、背中に子供を担いで、[r]医療バッグと拳銃を振り回す女性だったっけ？
+[k]
+
+[charaFace F 5]
+＠F：？？？
+……は？　なんだその夜に遭遇したら失神確実なの。[r]うちの[#泣き女:バンシィ]でもそこまでじゃねえぞ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠ラーマ
+おまえ！　さっき皆が言っていたことを[r]まるっきり聞いていなかったな！
+[k]
+
+[charaFace B 7]
+＠ナイチンゲール
+聞いていましたとも！　衛生管理は治療の基本だと！[r]全力で、まとめて消毒するのです！
+[k]
+
+＠ラーマ
+おまえは！　もー！　おまえは！[r]マシュ！　[%1]！　早く助けてくれ……！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 11110]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[wipeout leftToRight 0 1]
+[wait wipe]
+
+[fadein black 0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+＠マシュ
+……と、とにかくこうなってしまえば[r]やるべきことは一つです。
+[k]
+
+＠マシュ
+ナイチンゲールさんを守り抜きましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+援護はこちらに任せろ。[r]いけ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！[r]マシュ・キリエライト[line 2]突撃します！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[scene 11213]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+[line 2]治療行為の、邪魔をしない！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[se bac21]
+[wait se bac21]
+
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ラーマ
+何というか、無茶苦茶だ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[wt 0.1]
+[charaFace E 0]
+[charaFadein E 0.4 2]
+＠E：？？？
+ねーねー、君君。[r]味方だよね、多分。
+[k]
+
+[charaFace D 0]
+＠ラーマ
+お主がジェロニモの言っていたアーチャーか？
+[k]
+
+[charaFace E 1]
+＠E：？？？
+あ、良かった。[r]やっぱり味方だ。グリーン！　味方だったよー！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[wt 0.1]
+
+[charaTalk F]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+[wt 0.7]
+[se ad7]
+[charaPut F 0]
+[charaFace F 4]
+[charaSpecialEffect F appearance 0 1.0]
+＠F：？？？
+そいつは良かった。実に良かった。
+[k]
+
+＠F：？？？
+敵さんはあらかた消えたが、次はそっちのおっかねえ[r]ご婦人とやり合わなきゃならないのか、恐々だったぜ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ラーマ
+ほう。お主、いつからそこにいた？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：？？？
+特技ですよ、気にしなさんな。オレからすりゃあ、[r]おまえさんが背負われている方が気になるんですが？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ラーマ
+[line 2]頼むから訊くな。[r]めったやたらに込み入った事情があるのだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠E：？？？
+ねえねえ、向こうから駆けてくる人たちも[r]味方だよね？
+[k]
+
+[charaFace D 1]
+＠ラーマ
+うむ。頼もしい味方だぞ。[r]……少なくとも、今の余よりはな！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+
+
+
+

@@ -1,0 +1,650 @@
+＄91-60-07-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10902]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 6007002 1 ジキル]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 6007001 1 過去のジキル]
+[charaSet F 6007003 1 ハイド]
+[fadein black 1]
+[wait fade]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.5 1]
+＠ジキル
+…………実に、気分がいいな。
+[k]
+
+＠ジキル
+ようやく僕は「ハイド」を一通り制することができた。[r]これも、すべて君たちのお陰かな。
+[k]
+
+[charaFace C 1]
+＠ジキル
+心から、ありがとう。本当に。 [r]やっと僕は自分の[#業:カルマ]から解放されそうだよ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+……そ、そうかな。[r]解放されそうな姿じゃないように見えるんだけども。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+？1：うん……
+
+？2：あの血痕が気になる……
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい……[r]そうですね……先輩……解放されそう、とは……
+[k]
+
+＠マシュ
+暴力に対する肯定的な解放という意味に……[r]取れそうな気も……しないでも、ない、です……？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ジキル
+けれど、悪いね。こうして[r]第四特異点であるロンドンにまで連れてきてもらって。
+[k]
+
+＠ジキル
+君たちには感謝している。[r]霊基再臨だったか、いや、実に凄いものだね。
+[k]
+
+[charaFace C 0]
+＠ジキル
+本来、魔術師崩れでしかなかった僕を、[r]こんなにも強力なサーヴァントにしてしまえるだなんて。
+[k]
+
+[charaFace C 1]
+＠ジキル
+それに、こうして……[r]まだ魔霧は残っているけれど[#ここ:ロンドン]にも来られた。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+聖杯が取り除かれましたから、[r]既に、元の時代に修正されつつあるロンドンですが[line 3]
+[k]
+
+[charaTalk A]
+[charaFace A 12]
+＠マシュ
+なぜ、あなたはここに？[r]故郷を目にしたかった、ということでしょうか……？
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠ジキル
+ん？[r]ああ、そんなところだよ。
+[k]
+
+[charaFace C 1]
+＠ジキル
+マシュ、君はなかなか鋭いね。[r]そう、僕は僕の[#故郷]をこの目で見たかったのさ。
+[k]
+
+＠ジキル
+わかってくれて嬉しいよ。[r][#愛らしい]マシュ・キリエライト。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え、告白！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ。違うと思います、彼は[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠ジキル
+ああ、愛してるよ、ロンドン！[r]愛してるとも、空！　ガス灯！　愛しているさ！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+このように、彼の愛は広範に渡っているようです。[r]事前予測の通りではありますが……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ええと、テンション上がってるとこ悪いけど、[r]魔霧もちょっと残ってるし[line 3]
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+時代の修正という現象に対してキミたちが[r]いると邪魔かもだし、うん、何があったものか。ねえ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+そろそろ戻らない？[r]レイシフトの準備してもいい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジキル
+……すまない、ほんの少し待ってくれないか。[r]僕には行きたい場所があるんだ。
+[k]
+
+[charaFace C 0]
+＠ジキル
+君たちは以前、[#僕]に会ったろう？[r]第四の聖杯を求めて、この時代、この霧の都市で。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+生前のジキルさん、ですね。[r]はい。多くの力を貸していただきました。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あなたは覚えていますか？[r]わたしたちと、ロンドンを救った時のこと[line 3]
+[k]
+
+[charaTalk C]
+[charaFace C 4]
+＠ジキル
+それなりには、ね。[r]だからまあ、その……
+[k]
+
+[charaFace C 0]
+＠ジキル
+……この目で見ておきたいんだ。[r]僕が住んでいたという、そのアパルトメントをね。
+[k]
+
+＠ジキル
+できれば、話もしてみたい。[r]生前の僕とも。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+うーん、なるほど。でもねえ、[r]ミスター・ジキルはもういないかも知れないんだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+この時代は正しく修正されつつある。[r]彼も、本来生きるべき時代に戻ってる可能性がある。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ジキル
+それでも……[r]行ってみたいんだ。駄目かな？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+＠マシュ
+彼と会って……[r]何か、あなたに、なすべきことがあるのですか？
+[k]
+
+？1：だから、この時代に来たかった？
+
+？2：自分自身と会う、か
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+＠ジキル
+ああ、伝えたいことがあるんだ。[r]この先何が起きても、絶対に乗り越えられる、ってね。
+[k]
+
+＠ジキル
+少なくとも僕は、自決によって「ハイド」に勝った。[r]だから、僕は、かつての僕に……
+[k]
+
+[charaFace C 5]
+＠ジキル
+……勇気を持って立ち向かえ、という一言だけでいい。[r]ただ、少しばかりの助言をあげたいんだ。
+[k]
+
+＠ジキル
+勿論、自己満足に過ぎない。[r]告げた言葉も時代の修正で消えてしまうのだろうね。
+[k]
+
+[charaFace C 4]
+＠ジキル
+それでも……。[r]僕は、告げておきたい……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+まあ、そういうことなら[line 3][r]うーん、いいのかなあ。いいかなぁ。こういうのって。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+そりゃタイムパラドックスの類は起きないだろうけど、[r]うーん、うーん。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォーウ！！
+[k]
+
+[messageOff]
+[charaFadeout D 0.5]
+[fadeout black 1]
+[wait fade]
+[bgmStop BGM_EVENT_5 0.4]
+[wt 1]
+[bgm BGM_EVENT_1 0.1]
+[scene 11000]
+[fadein black 1]
+[wait fade]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.5 1]
+＠過去のジキル
+……それで、僕のところへ？
+[k]
+
+[charaFace E 1]
+＠過去のジキル
+事情は概ね把握した。[r]まずはともあれ、こうして君たちと再会叶って嬉しいよ。
+[k]
+
+？1：こちらこそ
+
+[charaFace E 0]
+＠過去のジキル
+セイバーや作家の英霊たちは……[r]もうどこにもいないんだね。いや、承知しているとも。
+[k]
+
+？2：あれ、何か雰囲気違う？
+
+[charaFace E 0]
+＠過去のジキル
+そう[line 3]かい？
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠マシュ
+こちらこそ、再会できて嬉しいです。[r]ミスター・ヘンリー・ジキル。
+[k]
+
+[charaTalk E]
+[charaFace E 1]
+＠過去のジキル
+元気そうで何よりだ。[r]で、ええと、そちらにいるのが僕の[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ジキル
+[#未来の僕]だ。[r]今は、そうとだけ思ってくれればいい。
+[k]
+
+[charaTalk E]
+[charaFace E 1]
+＠過去のジキル
+[#やはりそうか]。[r]一目見て、大体のところは理解できたんじゃないかな。
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+＠ジキル
+なら、僕が何をしたいかもわかるね？[r]ミスター・ヘンリー・ジキル？
+[k]
+
+[charaTalk E]
+[charaFace E 1]
+＠過去のジキル
+勿論。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ジキル
+ははっ[line 3]じゃあ、死んでくれるかな！
+[k]
+
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[effect bit_talk_12 1]
+[shake 0.05 0 10 0.5]
+[se ad32]
+[wt 0.5]
+[se bac1]
+[wt 1.0]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+！？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え、な、何！？　何してるのそっちで！！[r]もしかして彼、ミスター・ジキルに襲い掛かった！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+そうです、ドクター。[r]彼は……生前の彼を殺害しようとしました！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジキル
+はは……[r]そうさ、僕は……
+[k]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0 1]
+[charaFadeout C 0]
+＠ハイド
+[line 3]いいや、俺はよ！
+[k]
+
+[charaFace F 5]
+＠ハイド
+殺してやりてえのさ、俺を、いや「ジキル」を……[r]生まれてこの方、品行方正に生きてきやがってよォ！！
+[k]
+
+[charaFace F 2]
+＠ハイド
+誠実、信頼、善意！！[r]いらねえいらねえそういうのは！！
+[k]
+
+＠ハイド
+俺は！　な！[r]てめえの存在が我慢ならねえんだよォォ！！
+[k]
+
+＠ハイド
+お前を殺して！[r]俺は！　完全な「ハイド」になるんだよッ！！！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ぜったい反英雄だよこの人！[r]あれ、そうなんだっけ？　と、ともかく止めるんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠過去のジキル
+いや、構わないよ。[r]僕も、彼とは一度本気でやり合いたいと思ってたんだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ジキルさん！？
+[k]
+
+？1：英霊と戦うなんて無茶だ！
+
+？2：自殺する気か！？
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠過去のジキル
+僕は正気だよ。[r]あと、僕は無力な人間の魔術師崩れじゃない。
+[k]
+
+[charaFace E 0]
+＠過去のジキル
+僕は[#英霊]なんだ。[r]魔霧の残骸から現界したはぐれサーヴァントの一騎さ。
+[k]
+
+＠過去のジキル
+君たちがカルデアへ帰還し、生前のジキルが[r]元の時代へ戻った後、僕が召喚された[line 3]と言う訳だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ハイド
+な……！？
+[k]
+
+[charaTalk E]
+[charaFace E 5]
+＠過去のジキル
+何となく、ね。[r]こういうこともあるんじゃないかと感じて[line 3]
+[k]
+
+＠過去のジキル
+待っていたんだ。[r]生前の僕が元の時代へ戻った後の、この部屋で。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+同じ英霊が同じ場所にふたり！？[r]そういう、ことって……あるのかな……？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+いや、待てよ。そうか、[r]彼の精神が[#完全な二重人格]だから、とか？？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ハイド
+くそっ、くそっ、くそッ！！！[r]なんだよ、くたびれもうけの骨折り損じゃねえか！！
+[k]
+
+＠ハイド
+せっかく！[r]せっかく「ジキル」を殺せると思ったのによ！
+[k]
+
+[charaTalk E]
+＠過去のジキル
+君、ウェルズを読んだほうがいいよ。[r]僕らの死後の作品だけれど。
+[k]
+
+＠過去のジキル
+英霊の座のシステムはそれさえ超越するモノなのかも[r]知れないけれど、まあ、いい[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠過去のジキル
+[%1]、マシュ。[r]そいつと一緒に僕と戦ってくれるかい？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+それは、どういう[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠過去のジキル
+そいつがそんな風じゃあ、今後、[r]君たちの仲間としてやっていくのに危ないだろ？
+[k]
+
+[charaFace E 5]
+＠過去のジキル
+だから、ここで痛い目を見せておきたいんだ。[r]後々のためにね。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+なるほど！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ハイド
+いいぜえ、いいぜえ畜生！！[r]てめえの思惑に乗ってやるよ、俺は一人でもやる！
+[k]
+
+＠ハイド
+くそったれ[line 3][r]俺の溜めに溜めた怒り、てめえにぶつける！！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+せ、先輩！[r]これはどうしたら……！
+[k]
+
+？1：ええいままよ！
+
+？2：やるだけやってみよう！
+
+？！
+
+[charaFace A 5]
+＠マシュ
+は、はい、マスター！[r]サーヴァント戦闘[line 3]開始します！
+[k]
+
+[charaFadeout A 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

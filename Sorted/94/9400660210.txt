@@ -1,0 +1,261 @@
+＄94-00-66-02-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103400 1 クロエ]
+[charaSet C 98002000 1 フォウ]
+[charaSet E 6013001 1 ファントム]
+
+[scene 20901]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0,-50]
+＠ファントム
+ここまで追いつかれるとは……。[r]差し詰め[#其方:そなた]らは死、そして[#運命:さだめ][line 3]
+[k]
+
+[charaFace E 5]
+＠ファントム
+されど私は逃げ切ろう、[r][#衣擦:きぬず]れ一つ残しはせぬ。
+[k]
+
+[charaFace E 0]
+＠ファントム
+楽屋と舞台、世界の[#表裏:ひょうり]、[r]虚実の狭間を縫って駆け抜けよう。
+[k]
+
+[charaFace E 2]
+＠ファントム
+すべてはきみ、きみのために[line 3]歌姫よ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ヒゲ男に輪をかけて分からない人が出てきちゃった。[r]いきなり歌姫って言われても[#？:ハテナ]なんだけど？
+[k]
+
+
+？1：もしや魔法少女のこ[&とか:と][line 3]！？
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠フォウ
+フォウフォウフォウ！
+[k]
+
+[charaFace A 4]
+＠マシュ
+もしかしなくてもそうだと、[r]おっしゃっているような。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+
+？2：歌う魔法少女……とてもいい
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1]
+
+＠ファントム
+[#然様:さよう][line 3][#囁:ささや]きこそ原初たる呪文。[r]胸震わせる[#頻伽:びんが]の声こそ魅了の詠唱。
+[k]
+
+[charaFace E 1]
+＠ファントム
+歌こそは魔法。歌こそは魔法。[r]麗しき歌声こそは少女の魔法を最大限に高揚させる。
+[k]
+
+[charaFadeout E 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……実は、マスター。
+[k]
+
+[charaFace A 8]
+＠マシュ
+わたしには、ファントムさんを止める理由は[r]無いように思えてしまって。
+[k]
+
+[charaFace A 14]
+＠マシュ
+彼は真剣に魔法少女を考えているように見えます。[r]……違うのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+[line 3]そうかなぁ？　当人が真剣ならＯＫ、[r]ってことなら犯罪者だって大概そうだけど。
+[k]
+
+
+？1：じゃあファントムを問いただしてみよう
+？！
+
+[bgmStop BGM_EVENT_3 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace B 0]
+＠クロエ
+ちょっとお尋ねするけど、[r]鳴かなくなった[#小鳥:ツグミ]はどうするの？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1]
+
+＠ファントム
+鳴くまで待ち、鳴く[#手立:てだ]てを[#囁:ささや]きかけ、[r]最終的には殺します。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[#殺:ころ]……[r]生[charaFace A 14]まれつき[#濁声:だみごえ]なハミングバード……とかでしたら？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1]
+
+＠ファントム
+自分で舌を切り落としたのち、暖炉に飛び込み、[r]焼き鳥にでもなるがよいでしょう。爆殺もやむなし。
+[k]
+
+
+？1：……天下に二つとない美声のヒタキなら？
+？！
+
+[charaFace E 1]
+＠ファントム
+おお、それはまさにクリスティーヌ！[r]ぜひとも我がもとに留めねば……！
+[k]
+
+[charaFace E 3]
+＠ファントム
+陽の光など思い出さぬほど深く、[r]堅く閉ざされた、石と鎖と革の部屋に！
+[k]
+
+[charaFace E 2]
+＠ファントム
+命果て、彼女の愛が憎しみと殺意の炎に満たされる、[r][line 3]その瞬間まで！
+[k]
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ……それは……相手の意思も問わず幽閉する、[r]ということでは？
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+なにそれ、まったくもって身勝手ね！
+[k]
+
+[charaFace B 5]
+＠クロエ
+やっぱり少しはこちらの[r][#歌声:いいぶん]にも耳を傾けてもらったほうがいいんじゃない！？
+[k]
+
+
+？1：自分は誰かと一緒に歌うほうが好きだな
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠フォウ
+フォフォーウ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+わ、わたしもそれを望みます！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+
+？2：ニワトリの真似なら得意なんだけど
+
+[charaFace B 1]
+＠クロエ
+[line 3]あははっ、そうよね。[r]飛べない鳥にだって、歌う権利はあるわよね。
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1]
+
+＠ファントム
+笑止、しかし、面白い。
+[k]
+
+＠ファントム
+期待を抱かせるではありませんか。[r]私の審美の耳に、見事かないましょうか[line 3]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

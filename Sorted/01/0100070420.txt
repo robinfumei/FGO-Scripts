@@ -1,0 +1,214 @@
+
+
+
+＄01-00-07-04-2-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 3027000 1 アナ]
+[charaSet D 98107600 1 祭祀長シドゥリ]
+[charaSet E 98003000 1 Dr.ロマン]
+
+
+[bgm BGM_EVENT_2 0.1]
+[scene 33200]
+[fadein black 1.5]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠マシュ
+おはようございます先輩。[r]昨夜はぐっすりお眠りでしたね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 128,0]
+[se ad60]
+[seVolume ad60 0 0.4]
+[seStop ad60 1.5]
+[charaMove C 1 1.0]
+[charaShake C 0.1 0 3 1.0]
+[wait charaMove C]
+
+＠アナ
+……おはよう……ございます……[r]お二人とも、早起きなのですね……凄いです。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk E]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+＠Dr.ロマン
+こっちもちょうどスタッフ入れ替えだ。[r]おはよう、[%1][&君:ちゃん]。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+？1：みんな、おはよう
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠祭祀長シドゥリ
+皆さん揃いましたね。[r]ではさっそく[%1]に仕事をお任せします。
+[k]
+
+＠祭祀長シドゥリ
+本日の依頼は農場のリマト氏から。[r]羊の毛刈りの手伝いをしてほしい、との事です。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+は？　羊の毛刈り……羊の毛刈りって、[r]なんでそんな雑用を！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠祭祀長シドゥリ
+雑用ではありません。羊の毛は値千金、[r]交易において重要な品物となります。
+[k]
+
+＠祭祀長シドゥリ
+羊の毛刈りは年に二～三度ほど行われますが、[r]サイクルが短ければ短いほど次の利益に繋がるもの。
+[k]
+
+＠祭祀長シドゥリ
+リマト氏の財産である羊は百八十匹。羊一頭の毛刈りに[r]四時間とすると、一日に四頭が限度でしょう。
+[k]
+
+＠祭祀長シドゥリ
+つまりすべての毛刈りを終えるまで[r]リマト氏だけでは一ヶ月以上かかってしまいます。
+[k]
+
+＠祭祀長シドゥリ
+一ヶ月分。もしこれが十日に短縮できたとしたら、[r]どれほどの利益差を生むか分かりますね？
+[k]
+
+？1：商品の入荷が一月遅れるようなものか……
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 8]
+[wt 0.3]
+
+＠Dr.ロマン
+喩えは逆だけど、言いたい事は分かるとも……[r]生き馬ならぬ、生き羊の毛を抜くご時世だからね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：働かなければ生き残れない？
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠アナ
+そのようですね……[r]でも羊に触れるのは……ちょっと嬉しいです。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+わかりました、任せてください！[r]是非やりましょう、マスター！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠祭祀長シドゥリ
+よい返事です。ではこちらが紹介状となります。[r]羊はいいですよ、マシュ。この季節はもこもこです。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+やはりモコモコですか……（ごくり）[r]これはたいへんなミッションになりそうですね……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaShake B 0.01 1 1 0]
+
+＠フォウ
+フォウゥゥゥ……
+[k]
+
+
+
+？1：また新しいライバル登場か……
+？2：諦めろ、フォウ君
+
+？！
+[charaFadeout B 0.1]
+[charaShakeStop B]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠祭祀長シドゥリ
+ああ、そうそう。[r]言い忘れていましたが、牧場はウルクの郊外です。
+[k]
+
+＠祭祀長シドゥリ
+周囲には見た事もない魔獣が出るとの報告もあります。[r]くれぐれもお気をつけて。
+[k]
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

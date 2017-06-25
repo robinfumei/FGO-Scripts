@@ -1,0 +1,197 @@
+＄94-00-31-01-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 6003001 1 アサシン]
+
+[scene 25600]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 2]
+[charaFadein C 0.4 0]
+＠マシュ
+これが……[r]まだ燃えてしまう前の冬木の街？
+[k]
+
+＠フォウ
+フォウ、フォウ！
+[k]
+
+？1：平和そうだね
+
+[charaFace A 13]
+＠マシュ
+はい。人の営みのある雰囲気というのは……[r]何だか、とてもホッとします。
+[k]
+
+？2：珍しい？
+
+[charaFace A 3]
+＠マシュ
+あ、いえ。この時代の日本の景色は、オガワハイムの[r]一件の時にも見ましたし。あまり違いはありません。
+[k]
+
+？！
+
+[charaFace A 12]
+＠マシュ
+でも、こんな静かな街並みが、10年後には[r]あんな悲惨な景色になってしまうと思うと……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠エルメロイ
+それは良くない感傷だ。この街ひとつではなく、全ての[r]人類史が燃え尽きた後の世界に我々はいるのだから。
+[k]
+
+[charaFace A 4]
+＠マシュ
+それは……そうですが……。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+失礼。言い方が悪かったな。[r]日常を得がたく思うのはいいが、囚われるなという事だ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+戦いによって引き起こる惨劇。[r]回避できない悲劇を恐れては歩みを遅める。
+[k]
+
+＠エルメロイ
+我々は人類の過去と未来すべての破滅と[r]向き合った上で戦っている。
+[k]
+
+＠エルメロイ
+常にそれを踏まえた上で、[r]常に臨戦態勢でいるべきだと言ったんだよ。
+[k]
+
+＠エルメロイ
+たとえば今この状況だ。平和な住宅街、誰もが寝静まった[r]深夜。ひとまず差し迫った脅威はない。そう思うかね？
+[k]
+
+[charaFace A 12]
+＠マシュ
+はい。正直なところ、ここが聖杯戦争の現場だなんて、[r]そう言われてもちょっと……。
+[k]
+
+＠エルメロイ
+その認識がまず甘い。魔術師同士の闘争においては[r]目に映るものすべてを疑ってかかれ。例えばだな……。
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エルメロイ
+奇門遁甲、八門金鎖の陣！
+[k]
+
+[messageOff]
+[se bas1]
+[fowardEffect bit_talk_30]
+[wt 1.0]
+[fowardEffectStop bit_talk_30]
+[wait fowardEffect bit_talk_30]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[se bac46]
+[charaShake E 0.05 3 3 0.5]
+＠アサシン
+ぐわぁ！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+っ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+ボッフォ～ゥ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+アサシンのサーヴァント！？　気配遮断か！？[r]それにしても存在感薄すぎだろう！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠アサシン
+き、貴様！　どうして我々を！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エルメロイ
+どうやって気配遮断スキルを見破ったのかって？[r]残念。まったく分からなかったよ。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+だが第四次のアサシンが分裂能力を備え、冬木市を[r]くまなく見張っていたことは調査済みだったんでね。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+レイシフトなんて派手な手段で踏み込めば貴様らの監視網[r]に引っかかるのは必定。すぐ偵察に来るのは予測できた。
+[k]
+
+＠エルメロイ
+ひとたび我が石兵八陣に嵌まったが最後、[r]お得意の気配遮断も意味はない。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+さて[%1]、さっそくだが一暴れ頼む。[r]説明は後回しであしからず。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

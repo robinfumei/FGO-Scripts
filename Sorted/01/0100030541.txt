@@ -1,0 +1,346 @@
+＄01-00-03-05-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21250 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 7015001 1 エイリーク]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 4008002 0 黒髭]
+[charaSet G 4009101 1 メアリー]
+[charaSet H 4009201 1 アン]
+[charaFace C 5]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠エイリーク
+……コロ、ス……コロス……チクショウ……。[r]セイハイ……テニイレ……。
+[k]
+
+[messageOff]
+[charaSpecialEffect C flashErasure 1 1.3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect C]
+[wt 0.5]
+＠Dr.ロマン
+よし！　今度こそ完全消滅だ！[r]エイリーク[#血斧王:けっふおう]は倒した！
+[k]
+
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠黒髭
+フォフォフォフォフォフォ！[r]喜ぶのはまだ早いですぞｗｗｗ
+[k]
+
+＠黒髭
+エイリーク[#血斧王:けっふおう]など我ら黒髭海賊団の中では[r]もっとも格下！
+[k]
+
+[charaFace F 4]
+＠黒髭
+あと全身血なまぐさいし脇もむわっと臭うし[r]足は脂足だし、いいとこ何もなしだったですぞー！
+[k]
+
+[charaFadeout F 0]
+[charaTalk G]
+[charaFadein F 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠メアリー
+それは船長だよ。全部。
+[k]
+
+[messageOff]
+[charaFadeout G 0.4]
+[charaFadeout F 0.4]
+[charaFace A 15]
+[charaFadein A 0.5 1]
+[wt 0.3]
+[flashin once 1 0.4 FF000080 00000000]
+[se ba13]
+[wt 0.5]
+[flashout 0.7]
+[wait flash]
+＠マシュ
+……っ！
+[k]
+
+？1：どうした？
+
+？2：いま何か……
+
+？！
+
+[charaFace A 5]
+＠マシュ
+……さっきから、しつこいんです！[r]あの、男……！
+[k]
+
+[charaFadeout A 0]
+[charaSet C 3016000 1 ？？？]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 1]
+[charaFadein C 0.4 0]
+＠C：？？？
+隙がないねぇ。いい子、いい子。
+[k]
+
+[charaFace C 4]
+＠C：？？？
+手っ取り早くマスターを始末すれば、[r]どうにでもなると思ったんだけどねェ……。
+[k]
+
+[charaFace C 1]
+＠C：？？？
+[line 2]いやはや、傑物だ。[r]一体全体、どんなサーヴァントなのやら。
+[k]
+
+＠C：？？？
+ま、この程度で潰れるようじゃ[r][#生かしておく]価値もない。
+[k]
+
+＠C：？？？
+精々頑張りな、お嬢さん。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ドレイク
+こうなったら……！
+[k]
+
+[se bac21]
+[fadeout black 0.3]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 0.3]
+[scene 21330 0]
+[charaFace D 2]
+[charaFadein D 0 0]
+[charaFadein E 0 2]
+[fadein black 0.3]
+[wait fade]
+＠ドレイク
+これでよし！　帆を開け！[r]面舵一杯！　こいつらから離れるぞ！
+[k]
+
+[charaFace D 0]
+＠ドレイク
+あの図体じゃ、速度はこっちの方が上だ！
+[k]
+
+＠海賊
+わ、わかりやした！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.5]
+[scene 21230 0]
+[charaFace G 5]
+[charaFadein G 0 0]
+[charaFace H 0]
+[charaFadein H 0 2]
+[fadein black 0.5]
+[wait fade]
+＠メアリー
+あ、船同士を繋いでいた綱が全部撃たれた。[r]撤退するつもりらしいね。
+[k]
+
+＠アン
+ふぅん。銃の腕前は私と互角みたい。
+[k]
+
+＠アン
+さすがフランシス・ドレイク。[r]生きて世界一周を成し遂げた最初の人物だけあるかしら。
+[k]
+
+[charaFace H 1]
+＠アン
+[line 2]さて、ぼうっとしているのもさすがに悪いし。[r]少しは手伝いますか。
+[k]
+
+[charaFace G 0]
+＠メアリー
+真面目だね、アンは。
+[k]
+
+＠アン
+うふふ。所詮ただの余興ですのよ、メアリー。
+[k]
+
+[charaFace H 0]
+＠アン
+我が銃弾。我が誇り。我らの名は[#自由:フリーダム]。[r]隼のように獲物を捕らえよ…………なんてね。
+[k]
+
+[se bac37]
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.5]
+[scene 21330 0]
+[charaFace D 5]
+[charaFadein D 0 0]
+[charaFadein E 0 2]
+[fadein black 0.5]
+[wait fade]
+[se ad38]
+[shake 0.05 0 5 0]
+[flashin once 1 0.4 FF000080 00000000]
+[wt 0.5]
+＠ドレイク
+く……！[r]何が起こった！？
+[k]
+
+＠海賊
+船底で爆発が起きたようです！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+何だとぉ……！？
+[k]
+
+[charaFadeout E 0.1]
+[shakeStop]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+そんな……！
+[k]
+
+＠ドレイク
+駄目だ、追いつかれる。[r]いや、このままだとそれより先に沈むか……！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+船底の穴を塞ぎに行く！[r]アタシが行くから、アンタたちは船体のバランスを取れ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 2]
+＠海賊
+無茶言わないでください姐御！[r]おい全員、姐御を止めろ！
+[k]
+
+[charaFace D 5]
+＠ドレイク
+ええい、離せバカ！[r]アタシが行かなきゃ誰が[line 2]。
+[k]
+
+[se ad36]
+[wait se ad36]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaSet C 2012001 1 エウリュアレ]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠エウリュアレ
+アステリオス！？
+[k]
+
+[voice 700900_0_S010]
+[wait voice 700900_0_S010]
+[shake 0.05 0 2 0]
+[wt 0.5]
+[charaFadeout C 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠マシュ
+船が……持ち上がった！？
+[k]
+
+[shakeStop]
+[wt 0.3]
+[charaFace D 0]
+＠ドレイク
+持ち直した……！[r]よし！　後方へ樽爆弾をありったけだ！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+落とせ落とせ落とせ[line 4]！！
+[k]
+
+[se bac36]
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 21230 0]
+[charaFace F 5]
+[charaFadein F 0 0]
+[charaFace G 0]
+[charaFadein G 0 2]
+[fadein black 0.5]
+[wait fade]
+＠黒髭
+フォオオオオオ！？　待つでおじゃる！　ＢＢＡはいいけど[r]エウリュアレ氏と聖杯は置いていってくだちゃい！
+[k]
+
+[charaFace F 4]
+＠黒髭
+ＢＢＡの肉体なんか欲しくもないから、[r]せめてエウリュアレ氏だけでもぉぉぉぉ！
+[k]
+
+[charaFace G 5]
+＠メアリー
+僕たちの目的は聖杯だよ、船長。[r]エウリュアレはあくまでおまけ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 1]
+[charaFadein H 0.1 2]
+＠アン
+うふふ、全然聞いてないわねこの船長。
+[k]
+
+[se bac36]
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[wt 0.5]
+[scene 21330 0]
+[charaFace D 2]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+＠ドレイク
+黒髭とか言ったなテメェ！[r]いつか！　必ず！　何があろうと！　何が何でも！！
+[k]
+
+＠ドレイク
+首刎ねて船首にくくりつけてやるからな！[r]覚えてろバカ！　タコ！　この……！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+ええい、咄嗟で悪口が思いつかない！[r]とにかく、絶対にリベンジするからなあああああああ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

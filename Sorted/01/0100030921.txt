@@ -1,0 +1,55 @@
+＄01-00-03-09-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21300 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 オリオン]
+[charaSet F 2009201 1 アルテミス]
+[charaSet G 98018100 1 海賊]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 4]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+うう……良かった、倒せて……。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ドレイクさん、幽霊とか駄目なんですか？
+[k]
+
+[charaFace D 5]
+＠ドレイク
+海賊が縁起を担いで悪いかい！？
+[k]
+
+[charaFace A 8]
+＠マシュ
+い、いえ。悪くないです。[r]すいません。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+さあ、嵐も収まりつつある。[r]もう少しの辛抱だ。
+[k]
+
+[charaFace D 2]
+＠ドレイク
+行くよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

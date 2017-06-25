@@ -1,0 +1,839 @@
+＄01-00-08-20-1-0
+
+
+[soundStopAll]
+[charaSet A 99355100 1 ゲーティア]
+[charaSet B 99355100 1 ゲーティアシルエット]
+[charaSet C 9938400 1 魔神柱]
+[charaSet D 2002001 1 ギルガメッシュ]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 5009001 1 ダ・ヴィンチ]
+
+
+[charaPut E 1]
+[bgm BGM_EVENT_1 0.1]
+[charaEffect E bit_talk_SpaceWarp_ColorReverse]
+[scene 10001]
+[fadein black 1.0]
+[wait fade]
+
+＠
+私は全能だった。[r]ソロモンがそう創ったからではない。
+[k]
+
+＠
+我々はもとより人間の精神活動の[#歪:ひず]みとして生まれ、[r]名称と能力を獲得した[#魔神:もの]を束ねた[#群体:もの]。
+[k]
+
+＠
+[#私]は初めから超越者であり、[r][#我々]になった時、全能の力と視点を得た。
+[k]
+
+＠魔神柱
+[D72727]ボディス、バティン、サレオス、プルソン。[-][r][D72727]モラクス、イポス、アイム、ナベリウス、結合解除。[-]
+[k]
+
+＠
+ただ一つの不満は、七十二柱の魔神という[#括:くく]りになり、[r]一人の人間を[#主:あるじ]とした事だ。
+[k]
+
+＠
+ソロモン。無慈悲な王。無能な王。[r]全てを見通しながら、一人として救わなかった王。
+[k]
+
+＠
+怒りに震える我々に比べ、あまりにも気楽な、[r]何の苦しみもなかった男。だが。
+[k]
+
+＠
+“単純に、ボクには怒る自由がなかった”
+[k]
+
+＠魔神柱
+[D72727]オリアス、ウァプラ、ザガン、ウァラク、アンドラス。[-][r][D72727]アンドレアルフス、キマリス、アムドゥシアス、結合解除。[-]
+[k]
+
+＠
+……ああ、失われていく。
+[k]
+
+＠
+誕生の時より何一つ欠けた物のなかった全能感。[r]それを[#喪:うしな]う感覚を、どう表現すればいいのか。
+[k]
+
+＠
+光の速さで性能が削げ落ちていく。減少していく。[r]自分の存在が矮小化していく。
+[k]
+
+＠
+怖い。怖い。怖い。[r]おぞましい。おぞましい。おぞましい。
+[k]
+
+＠
+末端の崩壊と共に、[r]かつてない感情が私の手足を奪っていく。
+[k]
+
+＠魔神柱
+[D72727]フルフル、マルコシアス、ストラス、ハルファス。[-][r][D72727]マルファス、フォカロル、ウェパル[line 3]生存を放棄。[-]
+[k]
+
+＠
+私は知らない。
+[k]
+
+＠
+助けてくれ、と叫びたくなる恐れを、[r]奪わないでくれ、と懇願したくなる嗚咽を知らない。
+[k]
+
+＠
+これほどの後悔、これほどの焦燥、[r]これほどの情けなさを、私は知らない。
+[k]
+
+＠
+耐えられない。とても耐えられない。[r]……だからこそ、だからこそ怖ろしい。
+[k]
+
+＠
+[#これ]を知っていながらなお、[r]あの男はもう一度、この恐怖に打ち克ったのだ。
+[k]
+
+＠
+『全能』を自らの意思で手放すという、[r]死よりもおぞましいコトを、もう一度。
+[k]
+
+＠
+……無能な王とは誰の評価だ。[r]……無慈悲な男とは、誰の所感だったのか。
+[k]
+
+＠魔神柱
+[D72727]グラシャ＝ラボラス、ブネ、ロノウェ、ベリト、アスタロス。[-][r][D72727]フォルネウス、フォラス、アスモダイ[line 3]結合拒否。[-]
+[k]
+
+＠
+手足が崩れていく。[r]魔神柱たちは各々の判断で停止していく。
+[k]
+
+＠
+結合が保てない。[r]忌々しい。英霊どもの反抗はなぜ止まない。
+[k]
+
+＠
+疑問がぬぐえない。[r]愚かしい。マスターなどという者がまだ生きている。
+[k]
+
+＠
+光帯を維持できない。あとたった五分。[r]たった五分の調整で最終証明が出来るというのに、
+[k]
+
+＠
+ああ、何故[line 3]
+[k]
+
+
+＠
+目の前に、あの[%1]が立っている……！
+[k]
+
+[charaEffectStop E bit_talk_SpaceWarp_ColorReverse]
+
+
+[messageOff]
+
+[bgmStop BGM_EVENT_1 2.0]
+[fadeout white 2.0]
+[wait fade]
+
+[charaPut E 1200,1200]
+
+
+
+[scene 36202]
+
+[se ad293]
+[se ad294]
+
+
+
+[fadein white 2.0]
+
+[seLoop ad14]
+[shake 0.05 1 1 0]
+[wt 1.0]
+[wait fade]
+[bgm BGM_EVENT_42 0.1]
+
+[se ad295]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.7 1]
+[wt 0.1]
+＠ゲーティア
+オ、オ[line 3][r]オオオオオオオオオオオオオオオオオオオオ！
+[k]
+
+＠ゲーティア
+[%1]、[%1]、[r][%1]……！
+[k]
+
+＠ゲーティア
+貴様が邪魔だ、貴様ひとりだけが不要だ……！[r]貴様さえ排除すれば良いというのに、何故、
+[k]
+
+＠ゲーティア
+こんな人間ひとりを、[r][#我々:わたし]は排除できないのか[line 3]！
+[k]
+
+[seVolume ad14 2.0 0.3]
+[seVolume ad293 2.0 0.5]
+[seVolume ad294 2.0 0.5]
+[seVolume ad295 2.0 0.5]
+
+
+
+[wipeout clash 2.0 1.0]
+[wait wipe]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[scene 36302]
+
+[wipein clash 2.0 1.0]
+[wait wipe]
+
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.7 1]
+[wt 0.7]
+
+＠C：魔神グシオン
+敵、サーヴァントの攻撃、降り止まず。[r]我ら九柱、これ以上の撃退に意義を見いだせない。
+[k]
+
+＠C：魔神グシオン
+[line 3]何かが違う。[r]我々と彼らでは、何かが。
+[k]
+
+＠C：魔神グシオン
+統括局ゲーティアに報告。[r]我々は活動を停止する。この疑問が晴らせない。
+[k]
+
+＠C：魔神グシオン
+バルバトス、パイモン、ブエルは既に活動停止。[r]シトリー、ベレト、レラジェは復元不可能域に到達。
+[k]
+
+＠C：魔神グシオン
+エリゴス、カイムは私と共に、[r]最期まで、英霊との議論を続ける。
+[k]
+
+＠C：魔神グシオン
+統括局ゲーティアよ。[r]我々は、ゲーティアである事を放棄する。
+[k]
+
+[wipeout openEye 2.0 1.0]
+[wait wipe]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[scene 36303]
+
+
+[charaSet C 9938700 1 魔神柱]
+
+[wipein clash 1.0 1.0]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.7 1]
+[wt 0.7]
+
+＠C：魔神クロケル
+怒りが止まぬ。怒りが止まぬ。[r]我ら九柱、もはや極点に至る[#栄誉:えいよ]を選ばず。
+[k]
+
+＠C：魔神クロケル
+道理を[#弁:わきま]えぬ英霊どもを一騎でも多く殲滅する。[r]七十二柱の魔神の御名において、人に与する者に死を。
+[k]
+
+＠C：魔神クロケル
+口惜しい。口惜しい。口惜しい！
+[k]
+
+＠C：魔神クロケル
+サブナック、シャックス、ヴィネ、ビフロンス。[r]ウヴァル、ハーゲンティ、フルカス、バラム。
+[k]
+
+＠C：魔神クロケル
+既に八柱、復元すら叶わず。[r]我が魔力となって後を託し消滅した。
+[k]
+
+＠C：魔神クロケル
+殺す。殺す。殺す。何としても奴らを殺す！[r]統括局ゲーティアよ。我らの偉業に、我の如し感情は不要なり！
+[k]
+
+[wipeout moya 2.0 1.0]
+[wait wipe]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+
+[scene 36302]
+
+[charaSet C 9938200 1 魔神柱]
+
+[wipein clash 1.0 1.0]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.7 1]
+[wt 0.7]
+
+＠C：魔神フラウロス
+何故だ、何故だ、何故だ！[r]何故そこまで人理を守ろうとする英霊ども！
+[k]
+
+＠C：魔神フラウロス
+わかっている筈だ、人類にそれだけの価値はないと！
+[k]
+
+＠C：魔神フラウロス
+つらい記憶ばかりだ！[r]これほど痛みを[#伴:ともな]う進化は、宇宙の中でここだけだ！
+[k]
+
+＠C：魔神フラウロス
+この星は狂っている。[r]おまえたちは狂っている。
+[k]
+
+＠C：魔神フラウロス
+この歴史に、いったいどれだけの価値がある！
+[k]
+
+
+＠D：？？？
+たわけ。[r]その疑問を抱いた時点で、貴様は答えを得ていように。
+[k]
+
+＠C：魔神フラウロス
+[line 3]！[r]貴様、貴様は[line 3]！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.7 1]
+＠ギルガメッシュ
+かつて、[#我:オレ]も貴様と同じものを見た。
+[k]
+
+＠ギルガメッシュ
+だが結論は違う。貴様は全てを見る目を持っていながら、[r]全てを見ていなかった。悲しみしか見ていなかった。
+[k]
+
+＠ギルガメッシュ
+一つ一つの悪意に囚われ、紋様を見ていなかった。[r]命の価値を知らぬのは貴様の方だ、魔神王。
+[k]
+
+＠ギルガメッシュ
+そもそも、価値とは変動するものだ。[r]値付けするのは勝手だが、その本質は変えようがない。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+それは今、貴様が痛感しているだろう？
+[k]
+
+＠ギルガメッシュ
+貴様が『価値なき者』と切り捨てた[&男:娘]が、[r]まさに貴様を追い詰めているのだ。
+[k]
+
+[charaFace D 0]
+＠ギルガメッシュ
+それほど疑問に思うのならヤツに問うがいい。[r]それが、貴様の最期の救いとなるだろうよ。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+ふ[line 3]くくく、はははははははははははは！
+[k]
+
+
+[charaFadeout D 0.7]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠C：魔神フラウロス
+疑問[line 3]本質[line 3][r]私が知るべき答え、だと[line 3]！？
+[k]
+
+[wipeout magic 2.0 1.0]
+[wait wipe]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+
+[scene 36303]
+
+[charaSet C 9938300 1 魔神柱]
+
+[wipein clash 1.0 1.0]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠C：魔神ガープ
+歓びあれ！　歓びあれ！[r]おお流星の如き敵影よ！　殺せど尽きぬ不屈の魂よ！
+[k]
+
+＠C：魔神ガープ
+求められるとはこういう事か！[r]拒まれるとはこういう事か！
+[k]
+
+＠C：魔神ガープ
+我々にはこの感情が足りなかった！[r]この未熟さ、この愚かさ、この残忍性が足りなかった！
+[k]
+
+＠C：魔神ガープ
+アガレス、ウァサゴ、ガミジン、自己矛盾により崩壊。[r]マルバス、マレファル、アモン、三柱融合による徹底抗戦。
+[k]
+
+＠C：魔神ガープ
+アロケル、オロバス[line 3]英霊たちの盾となり、消滅。
+[k]
+
+＠C：魔神ガープ
+おお[line 3]我らの[#裡:うち]にもこれほどの熱があろうとは！[r]だが遅すぎた、遅すぎた！
+[k]
+
+＠C：魔神ガープ
+統括局ゲーティアに警告。ガープより警告。[r]完全証明を待つまでもない。
+[k]
+
+＠C：魔神ガープ
+調整ミス0.9999999パーセントは許容範囲だ。[r]光帯を回せ。時間跳躍を開始せよ。
+[k]
+
+＠C：魔神ガープ
+我々は崩壊する。既に不可逆な崩壊にある。[r]その前に、我らの無限の[#研鑽:けんさん]に解答を。
+[k]
+
+＠C：魔神ガープ
+たとえ失敗するとしても[line 3][r]“自滅”という結末を、この宇宙に刻むべきだ！
+[k]
+
+[wipeout uzumaki 2.0 1.0]
+[wait wipe]
+
+[messageOff]
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_42 2.5]
+
+
+[scene 36202]
+
+
+[se ad296]
+
+[seVolume ad14 0 0.5]
+[shake 0.05 4 4 1.5]
+
+[wipein clash 1.0 1.0]
+[wt 0.5]
+
+[seVolume ad293 1 0.9]
+[seVolume ad294 1 0.9]
+[seVolume ad295 1 0.9]
+
+[wait wipe]
+
+
+
+
+[seStop ad296 1.0]
+
+[bgm BGM_MAP_20 0.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ゲーティア
+[line 3]崩れていく。[r][#我々:わたし]の結合が、解けていく[line 3]！
+[k]
+
+＠ゲーティア
+光帯を回せだと……！[r]我々の敗北だと……！？
+[k]
+
+＠ゲーティア
+そのような愚行を[#犯:おか]せるものか！[r]我々の計画は一点の[#綻:ほころ]びも許されない！
+[k]
+
+＠ゲーティア
+その為の3000年だった。[r]その為の時間神殿だった。
+[k]
+
+＠ゲーティア
+わずかであれ“不具合の可能性がある”天体創造なぞ、我々が、[r]死を憎んだ我々が、行っていいものでは断じてない……ッ！
+[k]
+
+[charaTalk B]
+＠B：魔神柱
+[D72727]ムルムル、グレモリー、オセ、アミー、自己崩壊。[-][r][D72727]ベリアル、デカラビア、セーレ、敵英霊により消滅。[-]
+[k]
+
+[charaTalk B]
+＠B：魔神柱
+[D72727]残る魔神柱、あと三柱。[-][r][D72727]繰り返す。残る魔神柱、あと[line 3][-]
+[k]
+
+
+[messageOff]
+
+？1：……ゲーティア
+？2：……もう終わりだ
+
+？！
+
+[charaTalk A]
+＠ゲーティア
+終わりなど、[#我々:オレたち]の前で語るなという……！
+[k]
+
+＠ゲーティア
+[line 3][#我々:わたし]はまだ負けてはいない。[r]戦う意志は、貴様を殺す為の拳は、まだ残っている。
+[k]
+
+[messageOff]
+
+[se ad57]
+[seStop ad57 0.4]
+[charaMoveReturn A 0,-20 0.5]
+[charaScale A 1.1]
+[wt 1.2]
+[se ad57]
+[seStop ad57 0.4]
+[charaMoveReturn A 0,-20 0.5]
+[charaScale A 1.2]
+[wt 1.2]
+[se ad57]
+[seStop ad57 0.4]
+[charaMoveReturn A 0,-20 0.5]
+[charaScale A 1.3]
+[wt 1.7]
+
+
+[charaTalk E]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+？1：……分かってる。下がって[&いろ:て]、フォウ
+
+？！
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaScale A 1.3]
+＠ゲーティア
+[line 3]確かに、英雄王の言葉には理がある。[r]おまえという人間の真価を、[#我々:わたし]は計れていなかった。
+[k]
+
+＠ゲーティア
+不愉快だが訊いてやる！[r][%1]！
+[k]
+
+[charaDepth E 9]
+[charaPut E -256,-160]
+[charaPut F -256,-120]
+
+[messageOff]
+
+[se ad85]
+[charaShake A 0.07 10 10 0.5]
+[fowardEffect bit_talk_12_yellow_L -276,-50]
+[wt 0.4]
+
+？1：っ……！
+？！
+
+
+[charaEffect E bit_talk_GuardMagic 0,64]
+[wt 0.3]
+
+[se ad170]
+[shake 0.05 4 4 0.7]
+
+[wt 0.1]
+[charaScale A 1.1]
+[charaEffect F bit_talk_voice01]
+[wt 0.6]
+
+[charaShake A 0.06 1 1 0.3]
+[charaPut F 1200,1200]
+[charaPut E 1200,1200]
+
+[charaEffectStop F bit_talk_voice01]
+[charaEffectStop E bit_talk_GuardMagic]
+
+[wt 0.8]
+
+
+[charaTalk B]
+＠B：魔神柱
+[D72727]三柱、ダンタリオン、活動停止。[-]
+[k]
+
+[charaTalk A]
+
+[messageOff]
+
+[se ad57]
+[seStop ad57 0.4]
+[charaMoveReturn A 0,-20 0.5]
+[charaScale A 1.3]
+[wt 1.0]
+
+[charaDepth E 9]
+[charaPut E 256,-160]
+[charaPut F 256,-120]
+
+[messageOff]
+
+[se ad85]
+[charaShake A 0.07 10 10 0.5]
+[fowardEffect bit_talk_12_yellow_R 276,-50]
+[wt 0.4]
+
+？1：まだっ……！
+？！
+
+[charaEffect E bit_talk_GuardMagic 0,64]
+[wt 0.3]
+
+[se ad170]
+[shake 0.05 4 4 0.7]
+
+[wt 0.1]
+[charaScale A 1.1]
+[charaEffect F bit_talk_voice01]
+[wt 0.6]
+
+[charaShake A 0.06 1 1 0.3]
+[charaPut F 1200,1200]
+[charaPut E 1200,1200]
+
+[charaEffectStop F bit_talk_voice01]
+[charaEffectStop E bit_talk_GuardMagic]
+
+[wt 0.8]
+
+
+
+
+＠ゲーティア
+なぜ貴様は戦う！[r]なぜ[#我々:わたし]に屈しない！
+[k]
+
+＠ゲーティア
+なぜ、なぜ[line 3]
+[k]
+
+[charaTalk B]
+＠B：魔神柱
+[D72727]二柱、アンドロマリウス、活動停止。[-]
+[k]
+
+[charaTalk A]
+
+[messageOff]
+
+[se ad57]
+[seStop ad57 0.4]
+[charaMoveReturn A 0,-20 0.5]
+[charaScale A 1.3]
+[wt 1.0]
+
+[charaDepth E 9]
+[charaPut E 0,-160]
+[charaPut F 0,-120]
+
+[messageOff]
+
+
+[se ad85]
+[charaShake A 0.07 10 10 0.5]
+[fowardEffect bit_talk_12_yellow_L -226,-50]
+[fowardEffect bit_talk_12_yellow_R 226,-50]
+[wt 0.4]
+
+？1：まだまだっ……！
+？！
+
+[charaEffect E bit_talk_GuardMagic 0,64]
+[wt 0.3]
+
+[se ad170]
+[se bac10]
+[shake 0.05 4 4 0.7]
+
+[wt 0.1]
+[charaScale A 1.1]
+[charaEffect F bit_talk_voice01]
+[wt 0.6]
+
+[charaShake A 0.06 1 1 0.3]
+[charaPut F 1200,1200]
+[charaPut E 1200,1200]
+
+[charaEffectStop F bit_talk_voice01]
+[charaEffectStop E bit_talk_GuardMagic]
+
+[wt 0.8]
+
+
+＠ゲーティア
+なぜ、ここまで戦えたのかを[line 3]！
+[k]
+
+[messageOff]
+[seStop ad14 2.0]
+
+
+[selectionUse masterMale]
+？1：決まっている……！
+
+[charaEffect A bit_talk_CommandMantra_01 0,64]
+[se bas16]
+[wait charaEffect A]
+
+？！
+
+
+[selectionUse masterFemale]
+？1：決まっている……！
+
+[charaEffect A bit_talk_CommandMantra_02 0,64]
+[se bas16]
+[wait charaEffect A]
+
+？！
+
+
+？1：『生きる為』だ[line 3]！
+
+？！
+
+[bgmStop BGM_MAP_20 0.4]
+[wt 0.4]
+[charaEffect A bit_talk_41]
+[cameraMove 0.2 0,0 1.1]
+[wt 0.2]
+[charaEffect A bit_talk_13 0,64]
+[se bac11]
+[shake 0.05 4 4 0.7]
+[charaShake A 0.05 2 2 0.4]
+[wt 0.5]
+[charaEffectStop A bit_talk_41]
+[cameraMove 0.2 0,0 1.0]
+[wait effect]
+[wt 0.4]
+
+[charaMoveReturn A 0,2 0.2]
+[wt 0.1]
+[shake 0.01 0 2 0.3]
+[se ad222]
+[charaScale A 1.0]
+[wt 2.0]
+
+＠ゲーティア
+[line 3]生きる、為[line 3]
+[k]
+
+＠ゲーティア
+ただ自分が、生きる為、だと……？
+[k]
+
+＠ゲーティア
+[line 3]そう、か。[r]人理を守ってさえ、いなかったとは。
+[k]
+
+＠ゲーティア
+……確かに、我々の間違いだ。[r]過大評価にも程があった。
+[k]
+
+＠ゲーティア
+生存を願いながら死を恐れ、[r]死を恐れながら、永遠を目指した我々を打倒した。
+[k]
+
+＠ゲーティア
+なんという[line 3]救いようのない愚かさ。[r]救う必要のない[#頑:かたく]なさだろう。
+[k]
+
+＠ゲーティア
+手に負えぬ、とはまさにこの事だ。[r]は[line 3]はは[line 3]
+[k]
+
+＠ゲーティア
+ははははははははははははははははははははははははははは！
+[k]
+
+[messageOff]
+
+
+[seLoop ad14]
+[shakeStop]
+[shake 0.05 7 7 0]
+
+[se ad228]
+
+[wt 1.0]
+[seStop ad228 0.1]
+[wt 0.1]
+
+[wipeout rectangleStripUpToDown 0.7 1.0]
+
+[se ad74]
+[wt 0.1]
+[se ad46]
+[charaFadeout A 0.7]
+[seStop ad14 2.0]
+[seStop ad293 2.0]
+[seStop ad294 2.0]
+[seStop ad295 2.0]
+[wt 3.5]
+
+＠B：魔神柱
+一柱[line 3]フラウロス、活動停止。
+[k]
+
+＠B：魔神柱
+全[#御遣:みつか]い　沈黙を　確認。
+[k]
+
+＠B：魔神柱
+人理補正式ゲーティア　実行を　終了します。
+[k]
+
+
+[messageOff]
+
+[wt 2.0]
+[shakeStop]
+[soundStopAll]
+[end]

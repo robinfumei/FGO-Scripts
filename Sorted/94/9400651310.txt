@@ -1,0 +1,264 @@
+
+＄94-00-65-13-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102500 1 イリヤ]
+[charaSet D 1027001 1 偽沖田]
+[charaSet E 1027001 1 偽沖田d]
+[charaPut E 0,-250]
+
+[scene 31300]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.2]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽沖田
+[line 3][charaFace D 6][charaShake D 0.05 0 4 0.25][charaEffect D bit_talk_35]こふッ！！（血）
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.3]
+
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+[#出吐血:でとけつ]！？
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+ちょっと誰ですかこの吐血チョイスしたの！[r]かぶってますよー！　酒呑さんとかぶってますー！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 3]
+[charaFadein C 0.1 2]
+＠イリヤ
+だから何の話！？
+[k]
+
+？1：ってことは、偽沖田も魔法少女[&なのかい:なの]？
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽沖田
+なるほド。[r]ＹＯＵは何しに魔法少女界へ？　……ですカ。
+[k]
+
+[charaFace D 0]
+＠偽沖田
+ええそれはもう、やたらめったらと斬れそウ[line 3][r]いエ[bgmStop BGM_EVENT_32 0.7][charaFace D 4][line 3]
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace D 5]
+＠偽沖田
+こんな末期症状的な魔法少女界でも[r]誰かが立ち上がり、救わねばなりませン。
+[k]
+
+＠偽沖田
+そんな感じで、大いなる声に応えたのでス。[r]世界よこれがＭＩＢＵＲＯダ。
+[k]
+
+＠偽沖田
+つまり私こそが、魔法少女の波動に目覚めた[r]魔法新選組の一番隊長なのでス。
+[k]
+
+[bgmStop BGM_EVENT_4 0.3]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.3]
+
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+なにぃ……新選組の魔法少女……だと！？[r]二周半くらい廻って新しいかもですね！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+立体物が増えそうな[#商機:マネー]の匂いもして[r]ルビーちゃんわくわくしてきました！
+[k]
+
+[charaFace C 6]
+＠イリヤ
+そうかなあ。ブシドームサシの番外編とかで[r]あった気がするよ？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+ああなんだか……
+[k]
+
+＠マシュ
+こうして偽沖田さんとルビーさんが[r]面と向かわれていますと……
+[k]
+
+[charaFace A 7]
+＠マシュ
+すごく経験値が上昇しそうな[r]空間です……（ごくり）
+[k]
+
+[bgmStop BGM_EVENT_32 1.0]
+
+[charaFace A 6]
+＠マシュ
+と、おや……[r]偽沖田さんが肩をふるわせて……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽沖田
+そう……そのはずだったのニ……[r]何ですか[bgm BGM_EVENT_3 0.1][charaFace D 2][messageShake 0.05 3 3 0.4]これハ！？　偽サーヴァントっテ？
+[k]
+
+＠偽沖田
+結局シャドウサーヴァント略してシャドヴァもどき[r]じゃないですか、聞いてないでス！
+[k]
+
+＠偽沖田
+いい感じのＣＧ衣装差分とカ！　追加収録音声とカ！[r]どこへ行っちゃったのですカ！（チャッ）[se ad51][seStop ad51 0.2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+偽沖田さんが、刀の[#鯉口:こいぐち]を切りました……！[r]真剣と書いてマジです！
+[k]
+
+？1：お主、勝負を決すつもり[&かい:かえ？]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽沖田
+元よりその覚悟で参られたのでしょウ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+どうしていつもこうなっちゃうかなあ！
+[k]
+
+？2：魔法少女同士が戦う……なんて悲しい世界な[&んだ:の]……
+
+[charaFace A 8]
+＠マシュ
+あの、マスター、そんなに目を輝かせて[r]おっしゃられても説得力が……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽沖田
+……構いませン。[r]そちらの英気も充分とお見受けしましタ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠イリヤ
+魔法少女同士って……[r]あ[charaMoveReturn C 0,8 0.1]れっ、わたしの意思は！？
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽沖田
+この乱世[line 3]敵味方に[#別:わか]たるるも時の運。[r]コラボイベならではの運命の[#悪戯:いたずら]でス……
+[k]
+
+[charaFace D 2]
+＠偽沖田
+新選組一番隊隊長[line 3]とはあんまり関係ない[r]偽沖田総司！　推して参ル！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

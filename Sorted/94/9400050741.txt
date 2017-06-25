@@ -1,0 +1,399 @@
+＄94-00-05-07-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20151001]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 7016001 1 タマモキャット]
+[charaSet F 5026001 1 エリザベート]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+[fadein black 1]
+[wait fade]
+＠エリザベート
+ああ……歌いきったわ……[#私:アタシ]……。[r]ま・ん・ぞ・く……。
+[k]
+
+[charaFadeout F 0.1]
+[effect bit_talk_20 1]
+[se bas2]
+[wt 1]
+[effectStop bit_talk_20]
+[wt 0.5]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+聖杯確認、回収します……！
+[k]
+
+[charaFadeout A 0.5]
+[wt 0.6]
+[charaFadein F 0 1]
+[charaFace F 1]
+＠エリザベート
+気持ちよかったー！
+[k]
+
+＠エリザベート
+やっぱり歌は至高の芸術、[r]アイドルは星が創り出した幻想ね！
+[k]
+
+？1：…………
+
+？2：…………
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠清姫
+喉もガラガラですが、何より耳が痛いですね……。
+[k]
+
+＠清姫
+一番ピンピンしてるのがこのドラバカ娘って、[r]世界は理不尽でできています。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠タマモキャット
+毒蛇が自分の尾に噛みついても[r]死なないようなもんだナ！
+[k]
+
+？1：……………………
+
+？2：……………………
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+……マスター。期待していたものとは違いましたが、[r]ともあれ聖杯の欠片を回収しました。
+[k]
+
+＠マシュ
+これをカルデアに持ち帰れば貴重な魔力資源として[r]再利用できるはずです。
+[k]
+
+＠マシュ
+ですので、後は帰還するだけです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あ、いいえ。ここは先輩の部屋ですから、[r]別に帰還しなくてもいいのでしょうか……？
+[k]
+
+[charaFace A 15]
+＠マシュ
+ああ、頭がクラクラして考えが纏まりません……。
+[k]
+
+？1：――――――――
+
+？2：――――――――
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠タマモキャット
+ところでナー、皆の衆。
+[k]
+
+[charaFace E 1]
+＠タマモキャット
+さっきから、ご主人（仮）がちょっと不味い感じの[r]痙攣しているんだが、大丈夫カ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+え？[r]あ。マ、マスターーーーーーーーーーーーー！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠清姫
+きゃっ、きゃああああああああああああ！[r]旦那様！　旦那様旦那様しっかりなさって下さいませ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein F 0.1 1]
+[charaFace F 1]
+＠エリザベート
+ライブの熱に当てられたのね……分かるわ。[r]我ながら電撃的すぎたと思うし。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠タマモキャット
+それは違うと思うのだが、[r]心に留めておくアタシであった。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.5]
+[wt 0.3]
+[messageOff]
+[wipeout leftToRight 0.8 4]
+[wait wipe]
+[scene 20151001]
+[wipein rightToLeft 0.5 4]
+[wait wipe]
+[wt 0.3]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠清姫
+大丈夫ですか、旦那様？
+[k]
+
+？1：だいじょうぶかな？
+
+？2：だいじょうぶかも？
+
+？！
+
+＠清姫
+ああ、疑問形なので嘘はついておられませんね……。[r]まだ予断は許さない状況です。
+[k]
+
+＠清姫
+どうかじっと心と頭と耳をお休みになってください。
+[k]
+
+？1：耳……そういえば……
+
+？2：何かあったような……
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+エリザベートさんのライブを間近で堪能したせい……[r]でしょうね。
+[k]
+
+＠マシュ
+ちょっとした拷問器具を体感したのだと、[r]気楽に考えて下さい。
+[k]
+
+？1：無茶苦茶だ！
+
+？2：そうする
+
+？！
+
+[charaFace A 8]
+＠マシュ
+はい。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠エリザベート
+どう、[&子イヌ:子ジカ]。[r][#私:アタシ]のライブ、見事だったでしょう！
+[k]
+
+？1：おなかいっぱいです
+
+？！
+
+[charaFace F 1]
+＠エリザベート
+そう、そうよね。
+[k]
+
+＠エリザベート
+こんなワンマンライブなんて、[r]この先一度もないでしょうからね。
+[k]
+
+＠エリザベート
+一生に一度限りの、貴重な体験をしたのよ。[r]お腹いっぱいなのも当然よね！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace E 5]
+[charaFadein A 0.1 2]
+[charaFace A 14]
+＠マシュ
+あの……あれは「お願いだからもう勘弁してください」[r]という意味だと思うのですが……。
+[k]
+
+＠タマモキャット
+しっ、黙っていれば「イイハナシダナー」で終わるワン。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠エリザベート
+大丈夫よ[&子イヌ:子ジカ]！[r]お腹いっぱいだけど、甘いケーキは別腹よね！？
+[k]
+
+？1：あの……何のことでしょう？
+
+？2：は、はい
+
+？！
+
+＠エリザベート
+そう、だから[line 2]
+[k]
+
+[charaFace F 1]
+＠エリザベート
+アンコール、行くわよ！　一曲目は（ある意味）伝説の[r]デビューシングル「恋はドラクル」[line 4]！
+[k]
+
+？1：…………
+
+？！
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace D 2]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠マシュ
+……マ、マスター！[r]しっかりしてくださいマスター！
+[k]
+
+＠清姫
+ああもー！[r]歌っているときは天下無敵ですわね、このドラバカ……！
+[k]
+
+[messageOff]
+[fadeout black 3]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 2]
+[se bac8]
+[wt 0.2]
+[se bac8]
+[wt 0.2]
+＠エリザベート
+[&子イヌ:子ジカ]、起きなさいってば。[r][&子・イ・ヌ:子・ジ・カ]！
+[k]
+
+[scene 10400]
+[fadein black 1]
+[wait fade]
+[bgm BGM_EVENT_2]
+[wipeout circleIn 0.3 2]
+[wait wipe]
+[wt 1]
+[wipein circleIn 0.3 2]
+[wait wipe]
+[wipeout circleIn 0.5 2]
+[wait wipe]
+[wt 1]
+[wipein circleIn 0.8 2]
+[wait wipe]
+[wt 0.4]
+[charaFadein F 0.1 1]
+[charaFace F 1]
+＠エリザベート
+よしよし。おはよう[&子イヌ:子ジカ]！
+[k]
+
+[charaFace F 4]
+＠エリザベート
+ん？　何よ。ギョーカイではいつでも[r]「おはようございます」なのよ。
+[k]
+
+[charaFace F 1]
+＠エリザベート
+アンタも楽しんだわよね、ハロウィン。[r][#私:アタシ]は楽しかったわ！
+[k]
+
+[wt 0.3]
+[charaFace F 4]
+＠エリザベート
+……。[r]……ええと。
+[k]
+
+＠エリザベート
+それでね。あの、その、何というか。[r]あの聖杯の力なのかどうか分からないけど。
+[k]
+
+＠エリザベート
+……戻り方、忘れちゃった。[r]だから、[&子イヌ:子ジカ]のところにいさせてくれない？
+[k]
+
+＠エリザベート
+ほら、雨の日に捨てられた子竜とか、[r]放っておけないタチでしょアナタ？
+[k]
+
+？1：仕方ないなあ……
+
+[charaFace F 1]
+＠エリザベート
+ホント！？　やったぁ、言ってみるものね！[r]ちょろいわ、この新米マスター！
+[k]
+
+[charaFace F 5]
+＠エリザベート
+え？　キミにだけは言われたくない？[r]何よ。[#私:アタシ]、ちょろくないわよ？
+[k]
+
+？2：ダンボールに入って恥ずかしくないんですか？
+
+[charaFace F 2]
+＠エリザベート
+入ってないわよ、ダンボールになんか！[r]アナタの為に監獄城だって捨ててきたのに！
+[k]
+
+[charaFace F 4]
+＠エリザベート
+え……それなら許可する？[r]もう悪さはしないか、ですって……？
+[k]
+
+[charaFace F 0]
+＠エリザベート
+もっちろん、しないったらしないわ！[r]……っていうか、悪さとかしてたの、[#私:アタシ]……？
+[k]
+
+？！
+
+[charaFace F 1]
+＠エリザベート
+ともあれ、これで契約は成立ね！
+[k]
+
+[charaFace F 3]
+＠エリザベート
+その、カルデアの召喚式で呼ばれた正規のサーヴァント[r]じゃないけれど……
+[k]
+
+[charaFace F 1]
+＠エリザベート
+これから精一杯尽くすから、[r]アナタも精一杯育ててね、マスター！
+[k]
+
+[charaFadeout F 0.6]
+[messageOff]
+[fadeout black 3]
+[wait fade]
+[wt 0.3]
+[bgmStop BGM_EVENT_2 0.4]
+[soundStopAll]
+[end]

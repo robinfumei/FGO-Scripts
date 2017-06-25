@@ -1,0 +1,64 @@
+＄01-00-03-06-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 オリオン]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 2009202 1 アルテミス]
+[charaTalk A]
+[charaFace E 4]
+[charaFadein E 0 0]
+[charaFace A 15]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……はじめてではありませんが……[r]やはりドラゴンと戦うのは厳しい……です。
+[k]
+
+＠オリオン
+何で俺まで巻き込まれるの……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠アステリオス
+う。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+＠エウリュアレ
+まあいいじゃない。これで鱗は集まったでしょう？[r]なかなか面白かったわ。
+[k]
+
+＠エウリュアレ
+見送って結果だけを知るのも楽といえば楽だけど、[r]こうしてリアルに人が足掻くのを見るのも楽しいわね。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ドレイク
+神さまらしい意見どーも。[r]アンタもとんでもないのに見こまれたね、デカブツ？
+[k]
+
+[charaFace G 4]
+＠アステリオス
+うぅ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

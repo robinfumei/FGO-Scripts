@@ -1,0 +1,183 @@
+
+
+＄94-00-58-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 3025000 1 清姫]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+…………。
+[k]
+
+[charaFace D 2]
+＠玉藻の前
+…………（カッ）。
+[k]
+
+＠玉藻の前
+[line 2]それで蒸らしてできあがり、とォ！[r]今です！　[#剛毅果断:ごうきかだん]、開け釜！
+[k]
+
+[se bac132]
+[wt 0.5]
+
+[charaFace D 1]
+＠玉藻の前
+……決まった、ジャストタイミングです！[r]完璧なふっくらごはんの完成ですよ！
+[k]
+
+
+？1：おいしそう……
+？2：お米のいい匂いが……
+？！
+
+[charaFace D 1]
+＠玉藻の前
+ふっふっふ、ウズメちゃんのお料理教室に足繁く[r]通っていた甲斐がありました！
+[k]
+
+[charaFace D 0]
+＠玉藻の前
+しかし今はおかずの用意がありませんので……[r]そうですね、とりあえずおむすびでも握りましょうか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠清姫
+勿論、わたくしもお手伝いいたしますよ？
+[k]
+
+＠清姫
+わたくしは火生の身、どれだけ炊きたての米であろうとも[r]怯まず握り飯が作れる特技があるのです！
+[k]
+
+[charaFace E 3]
+＠清姫
+ますたぁの嫁となるものにはぴったりのスキルですね？
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFace D 1]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+[wt 1.0]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+＠玉藻の前
+というわけで、できました！　一粒を笑うものは一粒に[r]泣く！　ささ、味わってお食べください！
+[k]
+
+
+？1：いただきます！
+？！
+
+[charaFace E 5]
+＠清姫
+……（じー）
+[k]
+
+[charaFace D 5]
+＠玉藻の前
+……（じー）
+[k]
+
+？1：なんという……米と塩気のハーモニー……！
+？2：はふはふもぐ美味はふもぐもぐ！
+？！
+
+[charaFace E 1]
+＠清姫
+……！
+[k]
+
+[charaFace D 1]
+＠玉藻の前
+ヨーシヨシヨシ！　そうこなくっちゃいけませんよねぇ！[r]さ、たくさんありますから、よろしければ他の方も[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFace A 3]
+＠マシュ
+そうですね、いただきましょうか。[r]とってもいいお米の匂いです。
+[k]
+
+
+[se ad60]
+[charaMove A 1600,0 0.5]
+[charaMove H 800,0 0.5]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 -800,0]
+[charaMove B 1 0.5]
+[wait charaMove]
+[seStop ad60]
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+＠アルトリア
+はい、私は貴女がたが選ばれると信じていましたよ。[r]それでこそ、応援していた甲斐があったというものです。
+[k]
+
+[charaFace B 1]
+＠アルトリア
+勿論みんなで分けるものですが、せっかくですので[r]この最初の相伴に与らせていただきましょう。
+[k]
+
+[charaFace B 9]
+＠アルトリア
+お米最高。
+[k]
+
+
+？1：…………
+？！
+
+[charaFace B 1]
+＠アルトリア
+何か？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

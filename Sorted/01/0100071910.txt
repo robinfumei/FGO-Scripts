@@ -1,0 +1,1081 @@
+
+
+
+＄01-00-07-19-1-0
+
+[soundStopAll]
+[charaSet A 5018001 1 ギルガメッシュ]
+[charaSet B 98107500 1 ウルク兵士]
+[charaSet C 8001002 1 マシュ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 3028000 1 ジャガーマン]
+[charaSet F 4018001 1 ケツァル・コアトル]
+[charaSet G 2020001 1 イシュタル]
+[charaSet H 99371100 1 エレシュキガル]
+
+
+
+[scene 33100]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.4 1]
+＠ギルガメッシュ
+戻ったな[%1]。[r]では現状を纏める。まずは兵士の報告だ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ウルク兵士
+ハッ！
+[k]
+
+＠ウルク兵士
+現在、ウルク市に残った市民は三百六名。[r]うち軍属が二百十二名、残りは一般市民となります。
+[k]
+
+＠ウルク兵士
+市民たちは避難を拒否したものの、王のお言葉もあり、[r]先ほど北壁への避難を同意いたしました。
+[k]
+
+＠ウルク兵士
+北壁に逃れた市民のうち、生存者は百五十七名。[r]昼間のラフム襲撃の後、北壁で生き残った兵士は三十八名。
+[k]
+
+＠ウルク兵士
+合わせ、五百名の人間が、[r]現在シュメルに残された人命となります。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠マシュ
+[line 3]え？[r]五百……たった、の……？
+[k]
+
+＠マシュ
+すみません、今の報告は間違いです、よね……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+＠ギルガメッシュ
+事実だ。ラフムの二度の襲撃と海洋の侵食により、[r]ウルク第一王朝は崩壊した。
+[k]
+
+＠ギルガメッシュ
+たとえこの窮地を乗り越えようと、この人口では[r]王国は維持できぬ。衰退するのみであろう。
+[k]
+
+[charaFace C 6]
+＠マシュ
+な[line 3]
+[k]
+
+[charaFace A 3]
+＠ギルガメッシュ
+案ずるな。我らが滅亡しようと[r]シュメルの文化が生き残れば、後に続くものが現れよう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+次にラフムだが、奴らの行動は二つに分かれた。[r]日没と共にその場で球体となって停止するもの。
+[k]
+
+＠ギルガメッシュ
+母なるティアマトの下に飛翔し、[r]この周囲を守護するものとにだ。
+[k]
+
+＠ギルガメッシュ
+ではロマニ・アーキマン。半日近くあったのだ。[r]ティアマト神の解析は終わっているな？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+もちろん。あのティアマトのスペック、[r]能力は提出した資料の通りだ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+[%1][&君:ちゃん]も[r]後で目を通しておいてくれ。
+[k]
+
+＠Dr.ロマン
+そちらの端末のマテリアルデータを[r]更新してある。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-10]
+＠ギルガメッシュ
+なるほど、よく出来ている。[r]ほうほう。ほうほうほう。
+[k]
+
+[se ad7]
+[charaFace A 2]
+[charaMove A 0,0 0.2]
+＠ギルガメッシュ
+ええい、貴様ティアマトの太鼓持ちか！[r]弱点らしきものが一切書かれていないではないか！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ボクだって攻略法の一つぐらい書きたかったよ！[r]でもこれが現実なんだってば！
+[k]
+
+＠Dr.ロマン
+あれは物理的にも神話的にも欠点のない完全な存在だ！[r]ボクらでは太刀打ちしようがない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+むう。涙目で言われては[#我:オレ]も引き下がらざるをえんか。[r]ご苦労だった。持ち場に戻っていいぞ。
+[k]
+
+[charaFace A 5]
+＠ギルガメッシュ
+だが我らは[#癇癪:かんしゃく]を起こす訳にはいかん。[r]ジャガーマン、どうだ？　貴様の眼から見たティアマトは。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace A 4]
+[charaFadein A 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠ジャガーマン
+でっかいわ。とっても。[r]そしてとてもカッコイイと思うわ。
+[k]
+
+[charaFace A 5]
+[messageShake 0.05 4 4 0.4]
+＠ギルガメッシュ
+たわけ、貴様に人としての理性など求めてはおらぬ！[r]野生の勘を語れ、野生の勘を！
+[k]
+
+[charaFace E 2]
+＠ジャガーマン
+あ、そっちの話ね！
+[k]
+
+[charaFace E 5]
+＠ジャガーマン
+あのスピードだと岸にあがるまで半日、[r]岸からウルクに到達するまで一日と見たわ！
+[k]
+
+[charaFace A 5]
+＠ギルガメッシュ
+……チッ、流石に早いな。[r]もはや迎撃以外に策の打ちようがない。
+[k]
+
+？1：ティアマトはまっすぐウルクに？
+？2：どうしてウルクが狙われているんですか？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+それはこの[#市:まち]とギルガメッシュが、[r]シュメルという文明の象徴だからよ。
+[k]
+
+＠ケツァル・コアトル
+ティアマト神は私たちとは違う視点を持っている。[r]彼女からしてみれば、人間も土地も一つの命なの。
+[k]
+
+＠ケツァル・コアトル
+ティアマト神は生命体としての本能で、[r]この大地の心臓であるウルクを目指しているのよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+＠イシュタル
+……私の神殿を無視しているのはそういう訳か。[r]エビフ山がなくなったところで文明は続くものね。
+[k]
+
+＠イシュタル
+でもウルクとギルガメッシュのバカがここで消えて[r]しまえば、メソポタミアの文明そのものが消えてしまう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+そういう事だ。人類史を守りたければ、[r]貴様らは何としてもティアマトを止めねばならん。
+[k]
+
+＠ギルガメッシュ
+……しかし、だ。[r]ティアマトにはあらゆる攻撃が通用しない。
+[k]
+
+＠ギルガメッシュ
+牙を作ってはみたものの、[r]まさかあれほど巨大とは思わなかった。
+[k]
+
+＠ギルガメッシュ
+あれでは足止めにこそなれ、撃退はできん。[r]そもそもなぜティアマトは無敵なのだ？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ、その点についてはボクの私見なんだが……
+[k]
+
+＠Dr.ロマン
+ティアマト……いや、ビーストの特性には[r]それぞれ個体差があると思われる。
+[k]
+
+＠Dr.ロマン
+その中でも、生まれつき『死』がないのがティアマトだ。[r]彼女には何をやっても生命としての死が訪れない。
+[k]
+
+＠Dr.ロマン
+それは海上で一度、ティアマトの頭脳体を撃破した[r][%1]君が証明している。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+死した後に再生した、というヤツか。[r]それは単なる蘇りではないのか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+いや、違う。あれは再生というより逆行だった。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+……乱暴な仮説ではあるんだが、[r]ティアマトは[communicationCharaFace 5]現存するすべての生命の母だ。
+[k]
+
+＠Dr.ロマン
+ボクたちが生きている、という事自体が彼女の存在を[r]証明してしまう。だから滅びる事がない。
+[k]
+
+＠Dr.ロマン
+逆説的にではあるが、地上に“まだ生きている”生命が[r]いるかぎり、[#ビーストⅡ:ティアマト]に死は訪れない。
+[k]
+
+＠Dr.ロマン
+彼女は始まりにして終わりの女。
+[k]
+
+＠Dr.ロマン
+“この地上で最後に死ぬ”事で、ようやく通常の[r]物理法則を受け入れるんじゃないだろうか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+＠マシュ
+そ、それでは本当に倒せません！[r]いえ、意味がありません！
+[k]
+
+＠マシュ
+ティアマト神を倒すには、まず人類が……[r]地球上の全生命が死に絶えなければならないなんて！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 7]
+＠Dr.ロマン
+……その通りだ。[r]だからこそ、彼女は無敵だと報告せざるを得なかった。
+[k]
+
+？1：まだ生きている命があるかぎり……
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャガーマン
+やめて。とんち問題はやめて。[r]私、そういうの苦手だから。誰か何とかして。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+？2：……じゃあ、その逆は？
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+……その通りだ。[r][#我:オレ]と同じひらめきとは、小癪なヤツよ。
+[k]
+
+[charaFace A 2]
+
+？！
+
+＠ギルガメッシュ
+エレシュキガル！　エレシュキガル！[r]エレシュキガルはいるか！
+[k]
+
+[charaFadeout A 0.1]
+
+[messageOff]
+
+[se ad52]
+[charaTalk H]
+[charaFace H 14]
+[charaFadeTime H 0.7 0.7]
+[wt 0.7]
+＠エレシュキガル
+うるさいわね、[r]軽々しく女神の名を呼ぶものでなくてよ！？
+[k]
+
+＠エレシュキガル
+こっちは昨日から魂のケアに忙しいの！[r]ワニの尾も借りたいっていうの！
+[k]
+
+＠エレシュキガル
+そもそも、アナタの話し相手になるために冥界の鏡を[r]貸し与えたのではないわ、あくまで今までの謝罪として、
+[k]
+
+？1：やあ
+？2：こんにちは
+
+？！
+
+[bgmStop BGM_EVENT_5 0.4]
+[charaFace H 11]
+＠エレシュキガル
+[line 6]。[r]ちょっと待ってて。
+[k]
+
+[charaFadeout H 0.4]
+[wt 0.4]
+[messageOff]
+[se ad168]
+[seVolume ad168 0 0.4]
+[wt 0.46]
+[seStop ad168]
+[wt 0.7]
+
+[bgm BGM_EVENT_1 0.1]
+[charaFace H 0]
+[charaFadeTime H 0.7 0.7]
+[wt 0.7]
+＠エレシュキガル
+……こほん。
+[k]
+
+[charaFace H 1]
+＠エレシュキガル
+冥界の女神エレシュキガル、華麗に参上したわ。[r]私に何か用かしら、ウルクの王。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠マシュ
+エレシュキガルさん、[r]もの凄く優雅に登場しなおしました！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+おお、天の女主人に比べてあまりにも可憐な姿よ。[r]冥界での反省を経て、女ぶりがやや上がったと見える。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace A 1]
+[charaFadein A 0.1 0]
+[charaFace G 10]
+[charaFadein G 0.1 2]
+＠イシュタル
+なんでこっちを見るのよ金ピカ。[r]あとアイツを見てニヤけるの止めて、[%1]。
+[k]
+
+＠イシュタル
+我が事ながら、二倍で恥ずかしいわ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+貴様を呼んだのは他でもない。[r]実は一つ、頼み事があってな。
+[k]
+
+＠ギルガメッシュ
+現在、ティアマト神がウルクに向かっている。[r]到着まで丸二日というところだ。
+[k]
+
+＠ギルガメッシュ
+これを倒さねばメソポタミアは滅びる。[r]しかしティアマト神は地上に命があるかぎり死なぬ。
+[k]
+
+＠ギルガメッシュ
+そこでだ、冥界の女主人よ。[r]ティアマト神の[#接待:せったい]を貴様に譲ってやろうと思ってな。
+[k]
+
+＠ギルガメッシュ
+生命ある世界では死を知らぬというのなら、[r]生命なき世界に落とすまで。
+[k]
+
+＠ギルガメッシュ
+冥界であれば、[r]アレは“最後の命”になるのではないか？
+[k]
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_1 0.4]
+[charaTalk off]
+[communicationCharaLoop 98003003 0 5 0 5]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠Dr.ロマン＆ケツァル・コアトル
+！
+[k]
+
+[charaFadeout F 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_4 0.1]
+[charaTalk on]
+[charaTalk H]
+[charaFace H 9]
+[charaFadeTime H 0.1 0.7]
+[wt 0.1]
+＠エレシュキガル
+は？　突然なに言ってるのだわ、アナタ？[r]母さんを[#冥界:うち]に呼ぶ？
+[k]
+
+[charaFace H 7]
+＠エレシュキガル
+っていうか落とす？　落とすって言った、今！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+無論！　冥府の女神、エレシュキガルよ！[r]王の名の下に貴様に命じる！
+[k]
+
+＠ギルガメッシュ
+このウルク全土に冥界の門を開け、[r]ティアマト神を[#騙:かた]る災害の獣を地の底に繋ぎ止めよ！
+[k]
+
+＠ギルガメッシュ
+それが三女神として[#狼藉:ろうぜき]を働いた貴様の役割、[r]唯一の罪滅ぼしである！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadeTime H 0.1 0.7]
+[wt 0.1]
+＠エレシュキガル
+む[line 3]無理も無理、ぜったい無理！[r]ウルクの下に冥界を持ってこいって言うの！？
+[k]
+
+＠エレシュキガル
+そんな無茶が出来るワケないでしょう！？[r]まあ、やるしかないけど！
+[k]
+
+？1：やるんだ！？
+
+？！
+
+[charaFace H 11]
+＠エレシュキガル
+え……ま、まあね。[r]だって、そうしないとメソポタミアが滅びるじゃない。
+[k]
+
+＠エレシュキガル
+今まで話はちゃんと聞いていたから。[r]アナタたちが地上に戻ってから。わりと。ずっと。
+[k]
+
+＠エレシュキガル
+だから、ギルガメッシュ王の話は分かるわ。[r]正直、そうきたか、とさえ思ったわ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+であろう、であろう。[r]やはり冥界の方はいい。天の方は反省せよ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadeTime H 0.1 0.7]
+[wt 0.1]
+＠エレシュキガル
+でも！　納得がいっているのと、[r]やるかやらないかは別の話よギルガメッシュ！
+[k]
+
+＠エレシュキガル
+ウルク全土を覆う死の穴なんて、[r]そんな簡単に準備できると思うのかしら！？
+[k]
+
+＠エレシュキガル
+私の管轄であるクタ市だけでもタイヘンだったのよ。[r]こんな広い市、本来なら十年かけてもギリギリね。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+ぬっ、十年かッ……！[r]……それは、さすがに不可能だな……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadeTime H 0.1 0.7]
+[wt 0.1]
+＠エレシュキガル
+まあ、実はウルク憎しでずっと前から[#企:たくら]んでいたから、[r]三日もあれば準備できるけど！
+[k]
+
+？1：ナイス、エレシュキガル！
+
+[charaFace H 8]
+＠エレシュキガル
+そ、そう？[r]地道に毎晩、呪ってきた甲斐があったわ！
+[k]
+
+[charaFadeout H 0.1]
+
+？2：イシュタルと……同じタイプ……！
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 11]
+[charaFadein G 0.1 1]
+＠イシュタル
+やめて……三倍恥ずかしくなってきたから……
+[k]
+
+[charaFadeout G 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+ふははは、見事だエレシュキガル！[r]だが貴様には後で話がある！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+冥界落としができるのなら[r]ティアマト神撃退も不可能ではなくなるわね。
+[k]
+
+＠ケツァル・コアトル
+でも時間の問題はどうしたものかしら。
+[k]
+
+＠ケツァル・コアトル
+ティアマト神がウルクに到達するまであと二日。[r]エレシュキガルの冥界門の準備ができるまで三日。
+[k]
+
+＠ケツァル・コアトル
+ウルクが滅びた後にティアマト神を倒しても[r]人理定礎の崩壊は修復できないわよ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadeTime H 0.1 0.7]
+[wt 0.1]
+＠エレシュキガル
+そこはアナタたちが何とかしなさいよ。[r]私は門の準備で手一杯だから。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……二日……いや、せめて一日、ティアマト神を[r]押しとどめなくてはいけないのか……
+[k]
+
+＠Dr.ロマン
+しかしどうやって……？[r]マルドゥークの斧はもう壊れてしまったし……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+案ずるな。もはや勝ち筋は見えた。[r]こちらにはイシュタルがいるのだからな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠イシュタル
+[FFFFFF]？　なんで私？[-]
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ああ……！　そうか、女神イシュタルなら、確かに！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+オーウ、そうでしター！[r]イシュタルなら楽勝デース！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャガーマン
+そうだったのね！　さすがだわイシュタルさん！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠マシュ
+はい！　マーリンさんの言っていた通りです！
+[k]
+
+？1：さすがイシュタルさん！
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadeTime H 0.1 0.7]
+[wt 0.1]
+＠エレシュキガル
+……ふん。[r]別にイシュタルが凄いわけじゃないでしょ。
+[k]
+
+[charaFace H 3]
+＠エレシュキガル
+あんなのアヌ神の甘やかしじゃない。[r]冥界の門を設置できる、私の方が凄いんだから。
+[k]
+
+[charaFadeout H 0.1]
+
+？2：…………どうして？
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+＠イシュタル
+そ、そうよね。なんで[%1]以外、[r]みんな盛り上がってるの！？
+[k]
+
+[charaFadeout G 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+ははは、こやつめ、勿体ぶりおるわ。[r]切り札の見せ方を心得ているとは、にくいにくい。
+[k]
+
+[charaFace A 0]
+＠ギルガメッシュ
+だがニクイのはもうよい。さあ。[r]グガランナを呼ぶがよい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+＠イシュタル
+げ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠マシュ
+はい。女神イシュタルが従える、天の牡牛グガランナ！[r]その姿は山の如し、シュメル最大の神獣と聞きます！
+[k]
+
+＠マシュ
+そのグガランナであれば、[r]ティアマト神を足止めも可能かと！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+＠イシュタル
+あ、うん。そうね。私のグガランナなら、うん。[r]全盛期のグガランナならティグリスも干上がらせるし。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ケツァル・コアトル
+私もウルの人たちから聞きましター！[r]イシュタル女神のしもべ、グガランナは恐るべき神獣だと！
+[k]
+
+＠ケツァル・コアトル
+そして女神イシュタルの素晴らしさを！
+[k]
+
+＠ケツァル・コアトル
+神々ですら手なずけられない神獣を、アナタは時に厳しく、[r]時にもっと厳しく扱い、自在に操ったといいマース！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 15]
+[charaFadein G 0.1 1]
+＠イシュタル
+え、ええ、そうね。[r]グガランナとか、私の[#乗り物:あ　　し]みたいなものだし？
+[k]
+
+＠イシュタル
+でもみんな、ちょっと持ち上げすぎじゃないかしら。[r]グガランナはそんな大したヤツじゃないから、
+[k]
+
+＠イシュタル
+ティアマト神の前じゃ何の役にも立たないっていうか……
+[k]
+
+？1：グガランナ！　グガランナ！
+？2：イシュタル！　イシュタル！
+
+？！
+
+[charaFace G 9]
+＠イシュタル
+う、ぐっ……！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+……どうした？　様子がおかしいではないか。
+[k]
+
+＠ギルガメッシュ
+いつもの貴様なら甲高い笑い声と共に、自分の力でもない[r]グガランナを自慢しきっていた筈だが……
+[k]
+
+[bgmStop BGM_EVENT_4 0.7]
+
+＠ギルガメッシュ
+おい。[r]貴様。まさか[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 11]
+[charaFadein G 0.1 1]
+＠イシュタル
+……はい。ありません、グガランナ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠マシュ
+[line 3]いま、なんと？
+[k]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+＠イシュタル
+ないの、落としたの！[r]どっかで無くしちゃったのよ[line 2]！
+[k]
+
+＠イシュタル
+たぶん北部で落としたんだけど、[r]もうどこにも見当たらなくて！
+[k]
+
+＠イシュタル
+バビロンも探し回ったのに、[r]グガランナのヤツ、影も形もないんだもの[line 3]！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+[line 6]（絶句）
+[k]
+
+[charaFace A 2]
+[messageShake 0.05 4 4 0.4]
+＠ギルガメッシュ
+こ、このバカ女神が！[r]何のために貴様をスカウトしたと思っている[line 3]！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 3.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.4 1]
+＠イシュタル
+………………。[r]（私は駄目な女神です、と粘土板を手に立たされている）
+[k]
+
+[charaFadeout G 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+……予想外の展開になった。[r]あと一歩というところで作戦がまとまったというのにな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+万策尽きてしまったね……
+[k]
+
+＠Dr.ロマン
+ウルクに誘いこんで冥界に落とす、という[r]作戦はボクらカルデアも賛同したい。
+[k]
+
+＠Dr.ロマン
+でも時間がどうしても足りない。
+[k]
+
+[communicationCharaFace 7]
+＠Dr.ロマン
+……玉砕覚悟でティアマトに挑んだところで、[r]足を止めるどころかあの泥に飲まれてお[#終:しま]いだろう……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+[charaPut H 0]
+[charaFadeTime H 0.1 0.7]
+[wt 0.1]
+＠エレシュキガル
+………………。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ケツァル・コアトル
+……………………。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 11]
+[charaFadein G 0.1 1]
+＠イシュタル
+………………。[r]（私は駄目な女神です、と粘土板を手に立たされている）
+[k]
+
+[charaFadeout G 0.1]
+[bgmStop BGM_EVENT_5 0.7]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+[line 3]よい。解散だ。[r]作戦会議は一旦休憩とする。
+[k]
+
+[bgm BGM_EVENT_11 0.1]
+[charaFace A 0]
+＠ギルガメッシュ
+嘆いていても始まらぬ。[r]対抗策はないが、焦るのも愚の骨頂。
+[k]
+
+＠ギルガメッシュ
+[%1]の疲労も限界に達している。[r]このあたりで骨休み、というヤツよ。
+[k]
+
+？1：ギルガメッシュ王？
+？2：……まさかのオフですか？
+
+？！
+
+[charaFace A 1]
+＠ギルガメッシュ
+夜明けまでの短い時間だがな。
+[k]
+
+＠ギルガメッシュ
+これがウルクでの最後の休暇となろう。[r]各々、十分に英気を養っておけ。
+[k]
+
+＠ギルガメッシュ
+だが考える事は止めるなよ？[r]我らは諦めて眠るのではない。
+[k]
+
+＠ギルガメッシュ
+明日、生き延びるために、この夜を過ごすのだ。
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_11 1.4]
+[wait fade]
+[soundStopAll]
+[end]

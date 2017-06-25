@@ -1,0 +1,421 @@
+
+
+＄94-00-47-1-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 4014001 1 牛若丸]
+[charaSet D 6019000 1 風魔小太郎]
+[charaSet E 4023001 1 坂田金時]
+[charaSet F 98076000 1 弁慶]
+[charaSet G 7023001 1 源頼光]
+[charaSet H 98002000 1 フォウ]
+
+[scene 28000]
+[fadein black 1.0]
+[wait fade]
+
+
+
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠源頼光
+えーと。めでたしめでたしのところ[r]申し訳ありませんが、もう少し良いでしょうか？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+[charaFace G 1]
+[charaFadein G 0.1 0]
+
+＠マシュ
+頼光さん！？[r]あの、先ほど退去されたのでは！？
+[k]
+
+[charaTalk G]
+[charaFace G 3]
+
+＠源頼光
+それは……私ったら、一つ忘れ物をしてしまって。[r]恥ずかしながら戻ってきた次第です。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+いや、戻ってきたって、英霊の座から！？[r]そんなの、もう自己召喚ならぬ自己顕現だぞ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+
+＠源頼光
+そこはそれ、まだ戻りきっていなかったので、[r]あとは気合いで。えいやー、と♡
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+気合いで召喚退去に踏みとどまるとか……[r]金時くん、キミの母上はどうなってるんだい？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+オレに振るんじゃねえよドク。[r]説明とかできねーからな。
+[k]
+
+＠坂田金時
+頼光サンはそういう、カチッとした決まり事は[r]ふわっとすり抜けちまうんだよ。
+[k]
+
+[charaFace E 0]
+
+＠坂田金時
+ああ見えて気合いはオレの十倍だかんな？[r]押し通るつったら相手が何であれ押し通る人なんだよ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+自分ルール、というヤツですね！[r]相手の事情はともかく、己が事情だけを絶対とする……
+[k]
+
+＠牛若丸
+まさに一念、鬼神に通じる！[r]私もその血を継いでいるかと思うと、頼もしいです！
+[k]
+
+？1：ウン、ソウダネ
+
+＠牛若丸
+はい！　牛若も主殿に召喚されずとも、[r]窮地とあらば即参上できるよう精進いたします！
+[k]
+
+[charaTalk F]
+
+＠弁慶
+う、うむ……そういう意味で、[r]確かに似ていらっしゃるな、義経さまと頼光さまは。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+
+
+？2：体の方は……別に……
+
+[charaFace C 3]
+
+＠牛若丸
+………………。[r]そっか……主殿、オトナの私は知らないのですね……
+[k]
+
+[charaFace C 1]
+
+＠牛若丸
+サーヴァントは成長できませんので歳は取れませんが、[r]いずれ、成長した私になれる時がないとも限りません。
+[k]
+
+＠牛若丸
+ふ。[r]その時をどうか楽しみにしていてください、主殿。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠弁慶
+……？　いや、義経様は成長なされても[r]とても頼光様の[#胸威:おおきさ]には[charaFace F 2]うおおおお！？
+[k]
+
+
+[effect bit_talk_12]
+[se bac13]
+
+[wt 0.7]
+
+[se ad58]
+[charaFadeout F 0.4]
+[seStop ad58 0.5]
+
+
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+
+＠牛若丸
+もはや寺の裏とは言わぬ。[r]そこの岩陰で事を済ますぞ、弁慶。
+[k]
+
+[se ad59]
+
+[charaMove C -1000,0 0.5]
+
+[wt 0.5]
+
+[seStop ad59 1.5]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+
+＠弁慶
+つあぁ[line 3]！？
+[k]
+
+
+[communicationCharaLoop 98003003 1 5 0 3]
+
+
+＠Dr.ロマン
+……雉も啼かずば撃たれまいに……
+[k]
+
+[communicationCharaFace 5]
+
+？！
+
+
+
+＠Dr.ロマン
+それより頼光殿。[r]やり残し、とは何のことでしょう？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠源頼光
+それが……[r]この島に残した三匹の大鬼の事なのです。
+[k]
+
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+
+[charaFace G 3]
+[charaFadein G 0.1 0]
+
+＠マシュ
+門を守っていた大鬼ですね。[r]あれは先輩が退治しましたが……？
+[k]
+
+[charaTalk G]
+
+＠源頼光
+いえ、あれはこの島と連動した怪異。[r]島があるかぎり消え去る事はありません。
+[k]
+
+[charaFace G 5]
+
+＠源頼光
+問題は……あの大鬼たちは倒されれば[r]倒されるほど強くなってしまうのです。
+[k]
+
+＠源頼光
+今頃、皆様の調伏から蘇っている頃でしょう。[r]そして島から出ようとするかもしれません。
+[k]
+
+＠源頼光
+あれらは目に付くもの、[r]全てを破壊するよう設定した悪鬼。
+[k]
+
+＠源頼光
+鬼ヶ島が無くなれば消え去るものの、[r]放っておいては害を為すかもしれません。
+[k]
+
+[charaTalk A]
+[charaFace A 14]
+
+＠マシュ
+な、なんでそんな力を与えてしまったんですか！？
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.3]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+
+＠源頼光
+それが……。[r]金時に喜んでもらいたくて……
+[k]
+
+＠源頼光
+ほら、獲物は強ければ強いほど良いでしょう？[r]私ったら調子に乗って、少し盛ってしまって……
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+オーウ……ホーリーシット……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠源頼光
+でもでも、ここには金時だけではなく[r][%1]さんもいらっしゃいます！
+[k]
+
+＠源頼光
+聞けば人理復元という大仕事を任されているとか。[r]であれば、ここで腕試しなどいかがでしょう？
+[k]
+
+＠源頼光
+ええ、ええ、それがいいと思います！[r]あ、私の作ったものだからといって遠慮なさらず。
+[k]
+
+[charaFace G 0]
+
+＠源頼光
+鬼の千匹や万匹、椀に盛られた[#粟:あわ]のようなもの。
+[k]
+
+＠源頼光
+鬼ヶ島が消えるまでの間、[r]どうぞ大鬼たちの調伏をお楽しみくださいませ♡
+[k]
+
+？1：もしさぼったら？
+？2：早く帰りたいって言ったら？
+
+？！
+
+[charaFace G 1]
+
+＠源頼光
+はい。私が鬼になります（にっこり）
+[k]
+
+[charaFace G 0]
+
+＠源頼光
+若いうちからさぼり癖をつけてはいけませんもの。[r]ですので、だらしのない子には罰を。
+[k]
+
+[charaFace G 3]
+
+＠源頼光
+母も辛いのですが……[r]悪い子にはお仕置きをしなくてはいけませんから。
+[k]
+
+？1：甘いのにスパルタだ……！
+？2：金時のお母さんどうなってるの！？
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠坂田金時
+あー、悪いな大将。[r]繰り返すが、頼光サンはこういう人なんだよ。
+[k]
+
+＠坂田金時
+んで、これを断ると泣きやがる。[r]人前だろうと何だろうとビービー泣く。
+[k]
+
+＠坂田金時
+側に居るオレたちの方が恥ずかしくってよぅ。[r]言うこと聞くしかなくなるンだよ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠源頼光
+そんな……金時ったら、またそんな酷い言い分を……[r]母は、ただ貴方たちのコトを想って……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+ほらな？[r]……ったく、悪意がない分始末におえねえ。
+[k]
+
+[charaFace E 1]
+
+＠坂田金時
+ま、観念してやるしかねぇか！[r]ここで頼光サンに貸しを作っておくのも一興だしよ！
+[k]
+
+＠坂田金時
+やろうぜ[#大将:マスター]！　どこまであの鬼どもを[r]ボコれるか、[#競争:チキンレース]と行こうジャン！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_7 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

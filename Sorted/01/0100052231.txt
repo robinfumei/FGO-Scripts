@@ -1,0 +1,1040 @@
+
+＄01-00-05-22-3-1
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 3005002 1 エリザベート]
+[charaSet B 2003001 1 ロビンフッド]
+[charaSet C 5023001 1 ブラヴァツキー]
+[charaSet D 5025001 1 エジソン]
+[charaSet E 2015001 1 アルジュナ]
+[charaSet F 7008001 1 ベオウルフ]
+[charaSet G 3017001 1 李書文]
+[charaSet H 2011001 1 ニコラ・テスラ]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[scene 12000]
+[fadein black 2]
+[wait fade]
+
+[se ad85]
+[wt 0.5]
+[charaEffect B bit_talk_13]
+[wt 0.2]
+
+[se bac11]
+[charaFace B 2]
+[charaShake B 0.05 3 3 0.2]
+[wt 0.05]
+[charaAttack B normal -200,0 0.2]
+＠ロビンフッド
+ガッ……！？[charaFadeout B 0.4]
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+回復を…………[se ad85][wt 0.5][charaEffect C bit_talk_13][wt 0.2]きゃっ！[se bac10][charaFace C 4][charaShake C 0.05 3 3 0.2][wt 0.05][charaAttack C normal 200,0 0.2][charaFadeout C 0.4]
+[k]
+
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace G 5]
+[charaFace D 2]
+[charaFadein G 0.1 2]
+[charaFadein D 0.1 0]
+＠エジソン
+ロビンフッド！　ブラヴァツキー！
+[k]
+
+＠李書文
+ぐっ……さすがにこれほどの巨躯では、[r]気を叩き込むのも難しいな……。
+[k]
+
+[charaFace D 4]
+＠エジソン
+皆、ここまでか……。[r]せめて私以外は撤退を[line 2]。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠エリザベート
+してどーすんのよ馬鹿！[r]ま、まだ……やれる……！
+[k]
+
+[charaFace A 4]
+＠エリザベート
+ぐっ……！
+[k]
+
+[charaFace D 5]
+＠エジソン
+いかん、動くな……！[r]……君ももうこれ以上は……！
+[k]
+
+[charaFace A 2]
+＠エリザベート
+脱走とか……叛逆とか……口答えとか！[r]ソレ、[#私:アタシ]の一番嫌いなモノ……だから！
+[k]
+
+[charaFace A 5]
+＠エリザベート
+まだ……やれる……！
+[k]
+
+[charaFace D 4]
+＠エジソン
+……仕方あるまい……！
+[k]
+
+[charaFace D 2]
+＠エジソン
+ブラヴァツキー！[r]彼らを頼む！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+[charaEffect D bit_talk_36]
+[se ad39]
+
+＠エジソン
+宝具暴走[line 2]『[#Ｗ・Ｆ・Ｄ:ワールド・フェイス・ドミネーション]』！！
+[k]
+
+
+＠ブラヴァツキー
+ちょ……自爆する気！？
+[k]
+
+＠エジソン
+止めるな！[r]今の私には、もうこのくらいしか思いつかないのだ。
+[k]
+
+
+＠ロビンフッド
+おい、よせエジソンのオッサン……！
+[k]
+
+＠李書文
+その勇気は買うが、[r]せいぜい一分保つかどうか分からんぞ……！
+[k]
+
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エジソン
+それでも構わん！
+[k]
+
+[charaFace D 5]
+＠エジソン
+私には彼らを[line 2]おまえたちを、[r]ほんの少しでも長く守る責務がある！
+[k]
+
+＠エジソン
+アメリカ大統王としてではない！　発明王だからでもない！[r]トーマス・アルバ・エジソンだからでもない！
+[k]
+
+[charaFace D 2]
+＠エジソン
+私は人間だからだ！
+[k]
+
+＠エジソン
+遠い未来、この土地を収奪し、この国に住まうよう[r]になった人間として[line 2]その責務がある！！
+[k]
+
+
+＠ブラヴァツキー
+エジソン……駄目……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エジソン
+さらば、我が友よ。[r]何、[%1]を信じるがいい。
+[k]
+
+[charaFace D 0]
+＠エジソン
+[&彼:彼女]ならば、必ずや勝利を[line 2]。
+[k]
+
+[se ad39]
+[wt 0.5]
+[seStop ad39 2.0]
+[scene 10001 2.0]
+
+＠ブラヴァツキー
+エジソン！！
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[messageOff]
+[se ad42]
+[seStop ad39 1.0]
+
+
+[charaTalk D]
+[charaEffectStop D]
+[scene 12000 1.0]
+[wait charaEffect D]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace B 2]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠エリザベート
+……。
+[k]
+
+＠ロビンフッド
+……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace C 2]
+[charaFace G 5]
+[charaFadein C 0.1 2]
+[charaFadein G 0.1 0]
+＠李書文
+……。
+[k]
+
+＠ブラヴァツキー
+……え……？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エジソン
+……何だ……？
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+＠H：？？？
+[line 2]ハハハハハ！！[r]無様なり、無様なりエジソン！
+[k]
+
+[charaFadeout D 0.1]
+
+＠H：？？？
+所詮は凡骨、この私の前に立ちはだかる資格などない！[r]疾く、項垂れ消え失せるがいい！
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エジソン
+……この……この忌まわしい声と……[r]無駄な高笑いは……。
+[k]
+
+[charaFace D 5]
+＠エジソン
+ま、まさか……おまえは……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFilter H silhouette 00000000]
+[charaFadein H 0.1 1]
+＠H：？？？
+そのまさか、だ！[r]この真の天才、星を拓く使命を帯びたる我が名は[line 3]
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エジソン
+すっとんきょう！[r]ミスター・すっとんきょうかぁ[line 5]！！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFilter H normal FFFFFF00]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+ニコラ・テスラ！　である！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+嘘、ニコラ・テスラ……！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace H 0]
+[charaFace D 0]
+[charaFadein H 0.1 2]
+[charaFadein D 0.1 0]
+＠エジソン
+ぐ、ぬ、ぬぅううううう！[r]このタイミングでこの出現、いつもながら、なんと……
+[k]
+
+[charaFace D 2]
+＠エジソン
+なんと美味しい男なのだ貴様はァァアアア！[r]しかも貴様が、貴様がこの私を助けるだとぅ……！？
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+戯れ言を！[r]百度千度召喚されようと、貴様など助けるものか！
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+私が救うのはこの時代であり[line 2][r]そして、借りを作った彼らだ。
+[k]
+
+[charaFace H 4]
+＠ニコラ・テスラ
+何しろ英国ではそれなりに迷惑を掛けたからな。
+[k]
+
+[charaFace H 5]
+＠ニコラ・テスラ
+そこの旧き神代の遺物は、[r]この“私”が拓いた雷電の力により消えゆく定め。
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+エジソン。[r]貴様はただ、この大雷電の美しさに臥せるがいい……！
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+ははははははははははははははははははははははははは[r]ははははははははははははははははははははははははは！
+[k]
+
+[charaFace D 5]
+＠エジソン
+ぬう、この日のために発声練習をしてきたとしか[r]思えぬ高笑い！　その周到さ、さすが天才である！
+[k]
+
+[charaFace D 2]
+＠エジソン
+だがふざけるなテスラ！[r]貴様など、所詮は突出しただけの異常者に過ぎん！
+[k]
+
+[charaFace D 5]
+＠エジソン
+真の天才とは、それを普遍化したものだ！！[r]結婚もできなかった生涯独身が何をホザくか！！
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+[line 2]愚かな。私についていける女が居なかっただけのこと。[r]天才は生涯孤独。やはり貴様は凡骨だ。
+[k]
+
+[charaFace D 5]
+＠エジソン
+凡骨ではない！　社長である！[r]私は天才など見飽きている！　ベル君とかな！
+[k]
+
+[charaFace D 2]
+＠エジソン
+天才たちをうまく使ってこその社長！[r]それが分からないとは、ばーかばーか！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace C 4]
+[charaFadein B 0.1 0]
+[charaFadein C 0.1 2]
+＠ロビンフッド
+……なあ。エジソンのダンナ、[r]ものすごく童心に返ってませんかねぇ！？
+[k]
+
+[charaFace C 2]
+＠ブラヴァツキー
+[line 2]はいはい。天才のあなたたち。[r]そろそろ、現実に対処してくれないかしら。
+[k]
+
+＠ブラヴァツキー
+幾ら電気の力でも、この怪物を倒せはしないでしょ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+……フン。私が[#あの妙な男]に召喚されたのは[r]アレを倒すためではない。
+[k]
+
+＠ニコラ・テスラ
+戦っているのは、あのマスターなのだろう。[r]ならば私は怪物を封じ続けるのみだ。
+[k]
+
+＠エジソン
+……電気檻か。
+[k]
+
+[charaFace D 1]
+＠ニコラ・テスラ
+フッ。さすがにここまでヒントを出せば、[r]凡骨でも理解できるか。
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+さあ、邪魔だ……！[r][line 3]『[#人類神話・雷電降臨:システム・ケラウノス]』！！
+[k]
+
+[se ad61]
+[fowardEffect bit_talk_lightning_02t]
+[wt 2.0]
+[seStop ad61 2.5]
+
+＠ニコラ・テスラ
+新たなる神話の雷霆雷霆、その身で味わうがいい！
+[k]
+
+[messageOff]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[fowardEffectStop]
+[fowardEffect bit_talk_lightning_03t]
+[se ad63]
+[wt 1.5]
+[seStop ad63]
+[fowardEffectStop]
+
+[se ad18]
+[wt 1.0]
+[seStop ad18 2.5]
+
+[wt 0.8]
+
+[charaFace H 5]
+[charaFadein H 0.1]
+＠ニコラ・テスラ
+何……！？[r]加減が過ぎたか……！
+[k]
+
+[se ad85]
+[wait se ad85]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠エジソン
+[line 2]フン！
+[k]
+
+[messageOff]
+
+[fowardEffect bit_talk_lightning_02g]
+[se ad62]
+[wt 2.0]
+[se bac36]
+[seStop ad62 0.5]
+[wt 1.0]
+[seStop bac36]
+[fowardEffectStop]
+
+[wt 0.5]
+
+[charaFace D 5]
+＠エジソン
+あと一歩のところで詰めが足りん。[r]そんなだから、貴様はロクに伝記も書いて貰えんのだ。
+[k]
+
+[charaFace D 1]
+＠エジソン
+ちなみに私の伝記は全世界レベルで流通しているぞ。
+[k]
+
+＠ニコラ・テスラ
+貴様……！
+[k]
+
+[charaFace D 2]
+＠エジソン
+これが真の電気、真の雷霆である！！
+[k]
+
+[messageOff]
+[se ad62]
+[fowardEffect bit_talk_lightning_02g]
+[wt 1.5]
+[fowardEffectStop]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[seStop ad62 1.0]
+[se ad63]
+[seStop ad63 2.5]
+[fowardEffect bit_talk_lightning_03g]
+[wt 1.0]
+[fowardEffectStop]
+[se ad64]
+[fowardEffect bit_talk_lightning_05g]
+[wt 1.0]
+[fowardEffectStop]
+[wt 1.0]
+
+
+[charaTalk H]
+[charaFace H 4]
+[charaFace D 4]
+[charaFadein H 0.1 2]
+[charaFadein D 0.1 0]
+＠ニコラ・テスラ
+……チッ。
+[k]
+
+＠エジソン
+……チッ。
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+仕方あるまい、協力だ。[r]無論こちらの方が高威力だ、同調させろ。
+[k]
+
+[charaFace D 0]
+＠エジソン
+そこは認めてやろう。では、多少過負荷を[r]与えて間断なく、あの薄気味悪い怪物を[line 2]。
+[k]
+
+＠ニコラ・テスラ
+ああ。不死の怪物であろうと尽未来際に渡って[r]殺し続けられるほどの雷をくれてやる。
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+……行くぞ！
+[k]
+
+[charaFace D 2]
+＠エジソン
+[line 2]応。[r]宝具[line 2]起動！！
+[k]
+
+＠ニコラ・テスラ
+雷電よ、降臨せよ！
+[k]
+
+＠エジソン
+闇に閉ざされた世界に、光を与えよう！
+[k]
+
+[fowardEffect bit_talk_lightning_02t]
+[fowardEffect bit_talk_lightning_02g]
+[se ad62]
+[wt 2.0]
+[seStop ad62 2.0]
+
+[charaTalk off]
+＠二人
+[line 2]『[#Ｗ・Ｆ・Ｄ:ワールド・フェイス・ドミネーション]』！！[r][line 2]『[#人類神話・雷電降臨:システム・ケラウノス]』！！
+[k]
+
+[messageOff]
+[se ad39]
+[fadeout white 1.0]
+[wait fade]
+[wt 0.5]
+[fowardEffectStop]
+[se ad63]
+[wt 1.0]
+[se ad19]
+[wt 1.0]
+[seStop ad19 1.0]
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[wt 1.5]
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 0]
+[charaFace H 0]
+[charaFadein H 0.4 2]
+[wt 0.4]
+＠エジソン
+それで、これからどうする？
+[k]
+
+[charaFace H 5]
+＠ニコラ・テスラ
+先も言っただろう！[r]我らの役割はあれを封じ込めることのみ！
+[k]
+
+＠ニコラ・テスラ
+忌々しいが、いずれ消え去るべき旧き遺物の中にも[r]それなりに使える[#武器:モノ]はあるようだからな。
+[k]
+
+[charaFace D 5]
+＠エジソン
+……それは……！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+……！[r]莫大な[#魔力:エーテル]を観測確認！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エジソン
+何ィ！？[r]一体、何が[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+＠E：？？？
+[line 2]神性領域拡大。空間固定。神罰執行期限設定。[r][line 2]魔力集束及び加速に必要な時間を推定。
+[k]
+
+＠E：？？？
+[line 2][#消費開始:カウントダウン]。
+[k]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ロビンフッド
+アルジュナの奴か……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アルジュナ
+よろしければ、今の内に避難をお願いします。[r]範囲は最小に押し留めるつもりですが[line 2]。
+[k]
+
+[charaFace E 5]
+＠アルジュナ
+何しろこの身を犠牲にしての一撃。[r]手加減はできませんので。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+……神代の……神造兵装！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ロビンフッド
+は、離れろ！[r]オレたちまで巻き添え喰らうぞ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠アルジュナ
+シヴァの怒りを以て、汝の命をここで絶つ。[r]『[#破壊神の手翳:パーシュパタ]』[line 2]喰らえ！！
+[k]
+
+[bgmStop BGM_EVENT_4 0.1]
+
+[messageOff]
+[se bac33]
+[seStop bac33 1.5]
+[charaSpecialEffect E flash 0 1]
+[wt 2.0]
+[se ad39]
+[fadeout white 1.5]
+[wait fade]
+[wt 1.0]
+[se bac27]
+[seStop bac27 1.5]
+[charaSpecialEffectStop E]
+[wt 3.0]
+
+[scene 20722]
+
+[charaFadeout E 0.1]
+[fadein white 1.5]
+[wait fade]
+
+[wt 0.5]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+……嘘……。[r]やっちゃった……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アルジュナ
+これが[line 2]せめてもの償いになるといいのですが。
+[k]
+
+[charaFace E 4]
+＠アルジュナ
+カルナ……おまえの気持ちが、[r]今になって……やっと……。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect E flashErasure 0 1.7]
+[wait charaSpecialEffect E]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace H 0]
+[charaFadein D 0.1 0]
+[charaFadein H 0.1 2]
+＠エジソン
+勝った……。
+[k]
+
+＠ニコラ・テスラ
+そのよう、だな……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFace B 4]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠エリザベート
+やったわよ、ロビン！
+[k]
+
+[charaFace B 4]
+＠ロビンフッド
+……同じ[#弓兵:アーチャー]としては複雑な気分ですけどね。[r]あー、世界広ぇなー。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠李書文
+……さて。こちらの役割も果たしたことだし、[r]急いで片付けなければならぬ用事があるのでな。
+[k]
+
+[charaFace G 0]
+＠李書文
+では失礼。
+[k]
+
+[messageOff]
+
+[se ad59]
+[seStop ad59 1.0]
+[charaFadeout G 0.4]
+[wt 0.8]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFace H 0]
+[charaFadein D 0.1 0]
+[charaFadein H 0.1 2]
+＠エジソン
+はっはっは！
+[k]
+
+[charaFace D 0]
+＠エジソン
+トドメを刺したのは彼の宝具だが、[r]あの巨体を封じ込めたのは私の電気技術によるものだな！
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+妄言も大概にするものだエジソン。[r]貴様はあくまでバックアップ、補助に過ぎん。
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+あの怪物を封じたのはニコラ・テスラの雷電だ。[r]いや、或いは全力であれば大陸ごと消し飛ばせたぞ？
+[k]
+
+[charaFace D 0]
+＠エジソン
+……ふうむ。反論しようと思えばできるが……。[r]今の私は非常に気分が良い。
+[k]
+
+[charaFace D 1]
+＠エジソン
+[#そういうことにしておいてやろう]。
+[k]
+
+[charaFace H 5]
+＠ニコラ・テスラ
+あん？
+[k]
+
+[charaFace D 5]
+＠エジソン
+……何だ。貴様。[r]やるのか。
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+[line 2]やる訳なかろう。[r]凡骨如きの戯れ言に、私が耳を貸すはず[line 2]。
+[k]
+
+[charaFace H 5]
+[charaShake H 0.05 3 3 0.5]
+
+[se bac9]
+[wt 1.0]
+[seStop bac9]
+
+[charaFace D 1]
+[charaFace H 4]
+＠エジソン
+おっと、手が滑った。
+[k]
+
+[messageOff]
+
+[charaFace H 5]
+[charaFace D 2]
+[charaShake D 0.05 3 3 0.5]
+
+[se ad62]
+[wt 1.0]
+[seStop ad62]
+
+[charaFace D 4]
+[charaFace H 1]
+＠ニコラ・テスラ
+おっと、電気が滑った。
+[k]
+
+[charaFace D 5]
+＠エジソン
+……。
+[k]
+
+[charaFace H 5]
+＠ニコラ・テスラ
+……。
+[k]
+
+[charaShake H 0.05 3 3 0]
+[charaShake D 0.05 3 3 0]
+
+[seLoop bac8]
+[wt 0.1]
+[seLoop bac9]
+[wt 1.5]
+[seStop bac9 2.0]
+[seStop bac8 2.0]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[charaShakeStop H]
+[charaShakeStop D]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace B 1]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠エリザベート
+あ、殴り合いが始まった。
+[k]
+
+＠ロビンフッド
+ほっとけほっとけ。戦争は終わった。[r]その後、互いに傷つけ合うのは自由ってもんだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ブラヴァツキー
+……ウィリアム・ハーストの記事でも、[r]こんな冗談みたいな光景はなかったでしょうね。
+[k]
+
+＠ブラヴァツキー
+[line 2]フン、あの二人はどちらも正しい方向を向いて[r]同じ道を歩いているというのに。
+[k]
+
+[charaFace C 1]
+＠ブラヴァツキー
+道が狭いもんだから、[r]どうしても二人で争っちゃうのよね。
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+誰もが幸福であろうとする光景を望む者は、[r]かつて剣を取らなければならなかった。
+[k]
+
+＠ブラヴァツキー
+その暴力で政をしなければ、[r]誰もが幸福になるはずもなかった。
+[k]
+
+＠ブラヴァツキー
+……でも、あの二人はそうではない。[r]あの二人は剣ではなく、ただ知恵を絞った。
+[k]
+
+＠ブラヴァツキー
+それはつまり。[r]人が少しずつ歩んできた[line 2]歴史の成果物そのもの。
+[k]
+
+[charaFace C 5]
+＠ブラヴァツキー
+分かる、ベオウルフ？[r]最初から勝ち目はなかったのよ、あなたたち。
+[k]
+
+[charaFace C 1]
+＠ブラヴァツキー
+あなたたちより、彼らの方が……[r]幸福にした人間の数が遥かに多いんだもの。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace C 1]
+[charaFace F 4]
+[charaFadein C 0.1 2]
+[charaFadein F 0.1 0]
+＠ベオウルフ
+……力の時代じゃない、ってことか。[r]悲しいねぇ。
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+かもしれないわね。[r]前に進むということは、何かを失うということ。
+[k]
+
+＠ブラヴァツキー
+華やかな英雄譚は消え去り、[r]残ったのは地味で面白くもない[line 2]
+[k]
+
+＠ブラヴァツキー
+共通するのは「名も知らぬ誰かを幸福にしよう」という[r]情熱だけでひた走る賢人、変人たちなんだから。
+[k]
+
+[charaFace F 0]
+＠ベオウルフ
+……そうかい。[r]だがまあ、今んとこは俺のような力でも必要だろう？
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+そうね。[r]さよならベオウルフ。
+[k]
+
+[charaFace C 0]
+＠ブラヴァツキー
+今度は[%1]に召喚されることね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ベオウルフ
+ははははは！！[r]いいねえ、そっちの方が今回よりは楽しめそうだ！
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect F flashErasure 0 1.7]
+[wait charaSpecialEffect F]
+[wt 1.0]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[soundStopAll]
+[end]

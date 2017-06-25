@@ -1,0 +1,120 @@
+
+＄94-00-56-63-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 4008001 1 黒髭]
+[charaSet B 2025100 1 メアリー]
+[charaSet C 2025200 1 アン]
+[charaSet D 98100400 1 マシュ]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[charaFadeTime A 0 0.65]
+
+[scene 20110]
+[fadein black 2.0]
+[wait fade]
+
+＠黒髭
+む、無念……！
+[k]
+
+[charaFace A 5]
+＠黒髭
+しかしおまえたちがＫＫＵＡＭの無人島生活を[r]改めないかぎり、第二第三の黒髭が[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠メアリー
+現れてたまるか。[se bac95]（ザクリ）
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[charaFadeTime A 0 0.65]
+
+＠黒髭
+あふゥン。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect A flashErasure 1 2.0]
+[wait charaSpecialEffect A]
+[wait se ad52]
+[charaFadeout A 0]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+消滅確認、です。[r]地震も収まったようですね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠メアリー
+黒髭の奴、なんでまた最後に笑ったんだ。[r]ええい、不気味な。
+[k]
+
+＠アン
+でも……たとえばわたくしが、メアリーやマスターのこと[r]が好きすぎて、それによる嫉妬とかの怨念があって、
+[k]
+
+＠アン
+死んでも死にきれなかったとして……そこに、[r]マスターやメアリー本人にとどめを刺してもらえたなら。
+[k]
+
+[charaFace C 1]
+＠アン
+やっぱり笑うかもしれませんよ？
+[k]
+
+[charaFace B 5]
+＠メアリー
+……おかしなことを言わないでよ。[r]いろんな意味で。
+[k]
+
+＠アン
+うふふ、ごめんなさい。
+[k]
+
+＠アン
+[line 3]さ、帰りましょうか。
+[k]
+
+[charaFace B 0]
+＠メアリー
+うん。お宝はなかったけど、マスターと一緒の[r]探険は楽しかったよ。
+[k]
+
+[charaFace B 1]
+＠メアリー
+だから、戦利品はそれで充分さ！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

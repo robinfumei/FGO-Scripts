@@ -1,0 +1,146 @@
+＄94-00-05-05-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20900]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 7007001 1 ヴラド三世]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+[fadein black 1]
+[wait fade]
+＠ヴラド三世
+……ふむ。ここまでか。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+……ピンピンしてますね……！？
+[k]
+
+？1：死ぬかと思った
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠ヴラド三世
+当然だろう？　余ひとりだけ、[r]大人げなく本気を出しているのだから。
+[k]
+
+？1：こちらも本気だって！
+
+？！
+
+[charaFace E 0]
+＠ヴラド三世
+良い良い。これで余の役割は終わりだ。
+[k]
+
+＠ヴラド三世
+さて……。[r]懲りずに最後まで付き合ってやるがいい。
+[k]
+
+＠ヴラド三世
+アレで貴様が来てくれるかどうか、[r]不安でたまらなかったようだからな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠清姫
+おや、お顔に似合わずお優しい。[r]もしや本当にご縁がおありで？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠ヴラド三世
+……なに、同類相哀れむ、というヤツだ。[r]吸血鬼とそしられるのは存外に堪えるものでな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠清姫
+ふう、疲れました……。[r]喉がガラガラです、うう。
+[k]
+
+＠清姫
+旦那様、のどあめなどお持ちではないでしょうか？
+[k]
+
+？1：はい、どうぞ
+
+？！
+
+[charaFace D 1]
+＠清姫
+ありがとうございます！
+[k]
+
+[charaFace D 3]
+＠清姫
+のどあめを譲り合う仲……これはもう、[r]結婚したと考えて良いのでは！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+違います。[r]そののど飴の提供は私ですので。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠清姫
+そうですか……残念。
+[k]
+
+[charaFace D 0]
+＠清姫
+ともあれ、ここまで現れた邪魔者は[r]マタ・ハリ、カーミラ、そしてヴラド三世。
+[k]
+
+[charaFace D 4]
+＠清姫
+もう十分な数ですが、このお馬鹿な騒ぎに便乗する[r]サーヴァントがまだいるかもしれません……
+[k]
+
+？1：一つだけ確実なことがある
+
+？！
+
+[charaFadein A 0.1 2]
+[charaFace A 6]
+[charaFadein D 0.1 0]
+[charaFace D 4]
+＠二人
+[line 2]？
+[k]
+
+？1：嫌な予感しかしない
+
+？！
+
+[charaFace A 12]
+＠マシュ
+ですよね……。
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[wt 0.4]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

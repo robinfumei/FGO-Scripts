@@ -1,0 +1,390 @@
+＄01-00-06-31-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 1012001 1 ベディヴィエール]
+[charaSet B 1007002 1 ガウェイン]
+[charaSet C 1020000 1 ランスロット]
+[charaSet D 98099000 1 アグラヴェイン]
+[charaSet E 98084000 1 粛正騎士]
+
+[scene 21510]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0 1]
+
+[charaEffect B bit_talk_06]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ガウェイン
+ここまで、ですか……[r]……天命とはよく言ったもの……
+[k]
+
+＠ガウェイン
+最後まで、王の戦いに間に合わない……[r]それが、不忠の騎士である、私の宿命らしい……
+[k]
+
+[charaFadeout B 0.1]
+[charaPut B 1200,1200]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠ベディヴィエール
+……何を。[r]サー・ガウェインほどの忠節の騎士はいない。
+[k]
+
+＠ベディヴィエール
+貴方は私同様、王の名誉より[r]王の在り方に感じ入っていた。
+[k]
+
+＠ベディヴィエール
+そんな貴方が、不忠の騎士などと[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ガウェイン
+………………。
+[k]
+
+＠ガウェイン
+…………ベディヴィエール。[r]なぜ、今になって現れたのです。
+[k]
+
+＠ガウェイン
+……聖都が築かれた時ではなく……[r]すべてが終わろうとしているこの時に、なぜ……
+[k]
+
+＠ガウェイン
+……貴方であれば、王も[line 3][r]お心を、取り戻したかも、しれないのに[line 3]
+[k]
+
+＠ガウェイン
+私は、貴方が[line 3]心底から、うらめしい[line 3]
+[k]
+
+[charaEffectStop B bit_talk_06]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect B flashErasure 1 2.0]
+[wait charaSpecialEffect B]
+[wait se ad52]
+[charaFadeout B 0]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠ベディヴィエール
+……その通りです、ガウェイン卿。[r]私こそ貴方が憎むべき不忠の騎士……
+[k]
+
+＠ベディヴィエール
+もっとも罪深い、愚かな騎士なのです……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 29400]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_24 2.0]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+[se bac95]
+[charaEffect E bit_talk_12]
+[charaShake E 0.05 3 3 0.5]
+[wt 0.5]
+
+[charaFadeout E 0.4]
+[wt 0.5]
+[se ad144]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠アグラヴェイン
+っ[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+ここまでだ。[r]貴様の企みもこれで終わりだ、アグラヴェイン。
+[k]
+
+[charaFace C 4]
+＠ランスロット
+……殺しはしない。我らは共に裏切り者だ。[r]円卓の同胞を切り倒した時からな。
+[k]
+
+[charaFace C 5]
+＠ランスロット
+だが貴様の奸計は捨て置けん。[r]王の補佐として行った数々の非道、償ってもらうぞ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠アグラヴェイン
+……裏切り者、だと？[r]私が？　おまえと同じ？
+[k]
+
+[charaFace D 3]
+＠アグラヴェイン
+はは、ははははは。[r]ははははははははははははははははははははははは。
+[k]
+
+＠ランスロット
+……アグラヴェイン？
+[k]
+
+[charaFace D 2]
+＠アグラヴェイン
+[#笑いが止まらぬとは、この事だ]。
+[k]
+
+
+[messageOff]
+[charaFadeout D 0.3]
+[wt 0.3]
+
+[charaScale D 1.2]
+
+[se bac93]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[shake 0.05 0 3 0.5]
+[wt 0.5]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaScale D 1.0]
+[charaScale C 1.2]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0,60]
+[charaShake C 0.05 3 3 0.5]
+
+[se ad32]
+[effect bit_talk_14]
+[wt 0.2]
+[charaFadeout C 0.3]
+[wt 0.4]
+[charaScale C 1.0]
+
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[se ad60]
+[wt 0.5]
+[seStop ad60]
+
+[charaFace C 5]
+＠ランスロット
+っ、この威力は……！？[r]粛正騎士にほどこした狂化を自身に使ったのか……！？
+[k]
+
+[charaFace C 2]
+＠ランスロット
+アグラヴェイン貴様[line 3]、っ……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠アグラヴェイン
+……私の母親は、狂っていた。
+[k]
+
+＠アグラヴェイン
+いつかブリテンを統べる王になる、などと。[r]私は枕言葉に、その怨念を聞かされて育った。
+[k]
+
+＠アグラヴェイン
+私は[#母親:モルガン]の企みで、おまえたちの席に座った。[r]円卓などなりたくもなかったが、それが最短距離だった。
+[k]
+
+＠アグラヴェイン
+私は、アーサー王から王位を奪い、[r]母親に渡すためだけの、道具だった。
+[k]
+
+＠アグラヴェイン
+私はそれに同意した。[r]ブリテンには強い王が必要だと理解していたからだ。
+[k]
+
+＠アグラヴェイン
+私の目的は、ブリテンの存続だけだ。[r]その為にアーサー王を利用した。
+[k]
+
+＠アグラヴェイン
+[line 3]利用、したのだ。
+[k]
+
+
+[messageOff]
+[charaFadeout D 0.3]
+[wt 0.3]
+
+[charaScale D 1.2]
+
+[se bac93]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[shake 0.05 0 3 0.5]
+[wt 0.5]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaScale D 1.0]
+[charaScale C 1.2]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0,60]
+[charaShake C 0.05 3 3 0.5]
+
+[se ad32]
+[effect bit_talk_14]
+[wt 0.2]
+[charaFadeout C 0.3]
+[wt 0.4]
+[charaScale C 1.0]
+
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[se ad60]
+[wt 0.5]
+[seStop ad60]
+
+＠ランスロット
+っ……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠アグラヴェイン
+私が求めたのは、うまく働く王だ。[r]ブリテンをわずかでも長らえさせるための王だ。
+[k]
+
+＠アグラヴェイン
+私の計画に見合う者がいればいい。[r]誰を王にするかなど、私にとってはどうでもいい。
+[k]
+
+[charaFace D 3]
+＠アグラヴェイン
+ただ、結果として、アーサー王が最適だっただけだ。[r]モルガンよりアーサー王の方が使いやすかっただけだ。
+[k]
+
+[charaFace D 4]
+＠アグラヴェイン
+私は女は嫌いだ。
+[k]
+
+＠アグラヴェイン
+モルガンは醜く[#淫蕩:いんとう]だった。[r]清らかさを[#謳:うた]ったギネヴィアは貴様との愛に落ちた。
+[k]
+
+＠アグラヴェイン
+私は生涯、女というものを嫌悪し続ける。
+[k]
+
+＠アグラヴェイン
+人間というものを軽蔑し続ける。
+[k]
+
+＠アグラヴェイン
+愛などという感情を憎み続ける。
+[k]
+
+＠アグラヴェイン
+その、私が[line 3]。
+[k]
+
+[charaFace D 2]
+＠アグラヴェイン
+はじめて。嫌われる事を恐れた者が、[r]男性であった時の安堵が、おまえに分かるか。
+[k]
+
+＠アグラヴェイン
+……それが。貴様とギネヴィアのふざけた末路で。[r]王の苦悩を知った時の、私の空白が、おまえに分かるか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+アグラヴェイン……卿は……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠アグラヴェイン
+私には、まだやるべき事が残っている。
+[k]
+
+＠アグラヴェイン
+[line 3]酬いを受けろ。[r]貴様はまた、我が王を裏切った。
+[k]
+
+
+[messageOff]
+[fadeout black 0.1]
+[bgmStop BGM_EVENT_24 0.1]
+[wait fade]
+
+[se bac95]
+[wt 1.0]
+[se ad46]
+[wait se ad46]
+[wt 0.5]
+
+[soundStopAll]
+[end]

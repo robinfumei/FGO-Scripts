@@ -1,0 +1,166 @@
+
+＄94-00-58-14-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet D 2025200 1 アン]
+[charaSet F 2025100 1 メアリー]
+[charaSet H 98002000 1 フォウ]
+
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ、フォーウ！　バリバリ……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠アン
+まあ、いい食べっぷりですわね、フォウさん。
+[k]
+
+＠メアリー
+生で食べても料理しても美味しい。[r]やっぱりキャベツはいいね。
+[k]
+
+
+？1：ところで……キャベツが救世主って？
+？！
+
+＠アン
+ああ……そのままの意味ですわ。[r]キャベツは船乗り達をある病気から救ったのです。
+[k]
+
+＠アン
+[line 2]壊血病、という怖ろしい病気から。
+[k]
+
+＠メアリー
+ボク達の時代でも、航海中に壊血病で多くの仲間が死んだ。[r]もっと早くに解明されていればね……。
+[k]
+
+
+？1：壊血病？
+？2：聞いたことはあるような……
+？！
+
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+壊血病とは、ビタミンＣの欠乏によって起こる病気です。[r]長い航海をする船乗りを長く襲い続けたのですが[line 2]
+[k]
+
+＠マシュ
+ザワークラウト、つまりキャベツの漬け物がビタミンＣを[r]含む保存食として知られるようになり、
+[k]
+
+＠マシュ
+ようやく壊血病が予防できるようになったのだとか。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace F 0]
+[charaFace D 1]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠アン
+そのとおりです。ですから海賊にとっても縁起のいいものかな、[r]と思いまして。
+[k]
+
+[charaFace F 4]
+＠メアリー
+海賊はね、意外と縁起を担ぐよ。
+[k]
+
+[charaFace F 0]
+＠メアリー
+航海では[line 2]周りにあるのは、人間の力ではどうにも[r]ならないことばかりだから。
+[k]
+
+＠メアリー
+それとずっと付き合っていかなきゃいけなかったんだ。[r]全員の命をかけてね。
+[k]
+
+＠メアリー
+縁起の一つで何か幸運が訪れるなら[#縋:すが]りたい、って[r]思うものさ。
+[k]
+
+[charaFace D 4]
+＠アン
+……本当に、長い航海の最中にはいろいろ[r]ありました。
+[k]
+
+＠アン
+たまたま選んだ食べ物一つで、みんなの運命が[r]変わることだってありますわ……
+[k]
+
+
+？1：このキャベツはきっといい運命を呼ぶよ
+？！
+
+[charaFace D 1]
+＠アン
+はい、そうですわね、マスター。
+[k]
+
+＠メアリー
+さて。生で[#囓:かじ]るのも飽きたし、今度は別のキャベツ料理[r]でも作ってみようか。
+[k]
+
+[charaFace F 0]
+＠メアリー
+みんなも呼んでキャベツパーティーといこうよ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+キャベツパーティー。いい響きですね。[r]ところでロールキャベツなど作る予定は？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（い、いつの間に……！？）
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

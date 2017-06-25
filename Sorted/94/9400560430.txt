@@ -1,0 +1,661 @@
+
+＄94-00-56-04-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 3024000 1 玉藻の前]
+[charaSet B 2025100 1 メアリー]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 2025200 1 アン]
+[charaSet E 9004000 1 マルタ]
+[charaSet F 5027000 1 マリー]
+[charaSet G 4024000 1 モードレッド]
+[charaSet H 2026000 1 アルトリア]
+
+[scene 30420]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠玉藻の前
+なるほどなるほど……[r][#私:わたくし]が浜辺でパラソっていた間にそんな事が。
+[k]
+
+＠玉藻の前
+そういう事でしたら、一丸となって畑の見張り番を[r]するのもやむなし、でございますねぇ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠メアリー
+陸のことはよくわからないから言うけど、[r]残った作物、さっさと収穫しちゃえば？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠スカサハ
+今はそれでいいかもしれんが、[r]次の作物も食われては目も当てられん。
+[k]
+
+[charaFace C 5]
+＠スカサハ
+ここで原因を根絶しておく[line 3][r]あるいは、対策を確固たるものとしておく必要がある。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠アン
+未来を見据えて、ということですか。[r]それならば仕方ありませんわね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠マルタ
+確かに放置はできません。あの二人が猪に[line 3]とか、[r]にわかには信じられない話ですけど。
+[k]
+
+[charaFace F 5]
+＠マリー
+そうよそうよ。わたしはまだ、あの子達は犯人じゃないと[r]思ってるわ。それを確かめるためにここにいるの。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠モードレッド
+…………。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+＠アルトリア
+繰り返しになりますが、猪を侮ってはいけません。[r]ブリテンの地にも怖ろしい猪がいた記憶があります。
+[k]
+
+[charaSet C 98100400 1 マシュ]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マシュ
+思い出しました。[r]ディルムッドさんの生前の死因も……確か……。
+[k]
+
+？1：ということは、二回も……猪に……？
+？2：死因が猪、の英雄で有名だよね……
+
+？！
+
+[charaFace C 8]
+＠マシュ
+……いえ、ディルムッドさんの名誉のために、[r]憶測でものを言うのはやめておきましょう。
+[k]
+
+[charaFace C 7]
+＠マシュ
+今回も、本当に猪にやられたのかどうか、[r]はっきりと確定したわけではないのですし。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠アン
+うーん。残りの男性陣……特にクー・フーリンさんが[r]『オレは拠点の防衛に残る。畑は任せた』とか
+[k]
+
+＠アン
+言ってたときの顔、見ました？
+[k]
+
+[charaFace B 4]
+＠メアリー
+うん。『同じケルト男のオレがその猪倒しちまったら……[r]さすがにあいつらも立つ瀬がねぇだろうな……』
+[k]
+
+＠メアリー
+……っていう心の声がビンビンに届くような[r]感じの哀しげな眼差しだったよ、アレ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マルタ
+乱暴そうに見えて気遣いのできる人なのね……[r]それに比べてあのひょうろくサムライときたら！
+[k]
+
+[charaFace E 4]
+＠マルタ
+“猪ぃ？　別に分身したり時間逆行したり空間を裂く[r]ような獣ではないでござろう？”
+[k]
+
+＠マルタ
+“とんと興味の湧かぬ相手でござるなあ”
+[k]
+
+[charaFace E 5]
+＠マルタ
+とか、友情の欠片も感じないのよね！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaSet G 3025000 1 清姫]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠清姫
+[line 3]っ。皆様、お喋りはそこまで。[r]何かが近付いてきているようです。
+[k]
+
+＠清姫
+……わたくしとますたぁの愛の結晶を壊そうとする[r]不届き者以外にありえませんが。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠玉藻の前
+ふむふむ、来ましたか来ましたか。
+[k]
+
+＠玉藻の前
+ハイソなセレブだって、[r]さすがに夜は少しばかりケモノになっちゃうゾ？
+[k]
+
+[charaFace A 2]
+＠玉藻の前
+つまり[line 3]狩リノ・時間ダ。[r]害獣退治、はりきって行っちゃいましょーう！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaSet G 98002000 1 フォウ]
+[charaSet D 98100800 1 うりぼう]
+[charaFadeout A 0.1]
+[wt 0.3]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+＠マシュ
+あれは……！
+[k]
+
+
+[charaFace D 0]
+[charaFadein D 0.7 1]
+[wt 1.5]
+
+？1：やっぱりいたっ！
+？2：信じてたのに……！
+
+？！
+
+[wt 0.5]
+[messageOff]
+[fadeout black 0.25]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 0.1]
+[wipeFilter cinema 0.5 0]
+[fadein black 0.25]
+[wait fade]
+
+[wt 0.2]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠フォウ
+フォウフォウッ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マシュ
+どうしたんですか、フォウさん。[r]同じ小動物の気配に興奮するのはわかりますが[line 3]
+[k]
+
+[charaFace C 6]
+＠マシュ
+って、え？
+[k]
+
+[messageOff]
+[fadeout black 0.25]
+[wait fade]
+[charaTalk off]
+[charaFadeout C 0.1]
+
+[charaSet E 98100800 1 うりぼう２]
+[charaSet F 98100800 1 うりぼう３]
+
+
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[charaFace E 0]
+[charaFadein E 0.1 0]
+
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+
+[wipeOff]
+[wt 0.1]
+[fadein black 0.25]
+[wait fade]
+
+
+[fadeout black 0.25]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[wipeFilter cinema 0.5 0]
+[wt 0.1]
+[fadein black 0.25]
+[wait fade]
+
+[charaSet E 9004000 1 マルタ]
+[charaSet F 5027000 1 マリー]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠マルタ
+複数いますけど！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠マリー
+まあ！　たくさんいるとより可愛いわね！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠玉藻の前
+よーし、入れ食いじゃーい！[r]……ん？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet G 4024000 1 モードレッド]
+[charaSet A 2025200 1 アン]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠アン
+待ってください、何か様子が変ですわよ？
+[k]
+
+[charaFace B 0]
+＠メアリー
+並んで、積み重なって……まるで。[r]後ろにあるボクたちの畑を、守ってるみたい……だね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠モードレッド
+待て、また別の何かがいやがるぞ！
+[k]
+
+[messageOff]
+[fadeout black 0.25]
+[wait fade]
+[charaFadeout G 0.1]
+[charaSet A 6024000 1 スカサハ]
+[charaSet B 98101600 1 魔猪]
+[wipeOff]
+[wt 0.1]
+[fadein black 0.25]
+[wait fade]
+
+
+[charaSet E 98100800 1 うりぼう２]
+[charaSet F 98100800 1 うりぼう３]
+
+
+[charaTalk off]
+[charaDepth D 0]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+
+
+[wt 0.7]
+
+[charaFilter B silhouette 00000080]
+[charaDepth B 1]
+[charaFadein B 0.1 768,0]
+[effect bit_talk_42]
+[charaAttack B normal -768,0 0.4]
+[wt 0.2]
+[charaEffect D bit_talk_13]
+[wt 0.1]
+[effectStop bit_talk_42]
+[se bac13]
+
+
+
+[charaShake D 0.05 5 5 1.0]
+[charaShake E 0.05 5 5 1.0]
+[charaShake F 0.05 5 5 1.0]
+
+[charaFadeout D 0.7]
+[charaFadeout E 0.7]
+[charaFadeout F 0.7]
+
+
+[wt 0.1]
+[se ad175]
+[wt 1.4]
+
+[charaFadeout B 0.1]
+
+[charaTalk on]
+＠マシュ
+何かが飛び出してきて[line 3][r]うりぼうの壁を弾き飛ばしました！
+[k]
+
+＠マシュ
+あれは[line 3]？
+[k]
+
+[charaFilter B normal 00000080]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+＠魔猪
+グルッフッフ……！
+[k]
+
+[wt 0.2]
+[messageOff]
+[fadeout black 0.25]
+[wait fade]
+[charaFadeout B 0.1]
+[wipeFilter cinema 0.5 0]
+[wt 0.1]
+[fadein black 0.25]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠スカサハ
+ほう[line 3]あれは、その身に魔を宿した猪。[r]すなわち[#魔猪:まちょ]、だな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+＠アルトリア
+……魔猪……ですか。
+[k]
+
+？1：あれがディルムッドたちを……？
+
+[charaFace H 6]
+＠アルトリア
+可能性は高いでしょう、マスター。
+[k]
+
+＠アルトリア
+あの気配[line 3]サーヴァントとも渡り合えるほどの[r]力を持っていると感じます。
+[k]
+
+[charaFace H 4]
+＠アルトリア
+不意を打たれたなら、あのフィオナ騎士団の二人が[r]敗北しても不思議はない。
+[k]
+
+？2：食われる感ハンパない……！
+
+[charaFace H 6]
+＠アルトリア
+猪を侮ってはならない、と私が言っていた[r]意味がわかりましたか、マスター。
+[k]
+
+？！
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠マシュ
+魔猪[line 3]竜ほどではありませんが、英雄譚にも[r]よく登場してくる生き物だとは記憶しています。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠スカサハ
+うむ。勇者の前に試練として立ち塞がり、[r]そして力の足りぬ勇者を容赦なく殺す。それが魔猪だ。
+[k]
+
+＠スカサハ
+かくいう私も、よく弟子たちに[r]修行相手としてけしかけたものだ。
+[k]
+
+[charaFace A 1]
+＠スカサハ
+戦ってよし、倒して食ってよし、の実にエコロジーな[r]相手だからな。
+[k]
+
+[charaFace A 5]
+＠スカサハ
+今目の前におる[#あれ]は[line 3]修行相手としては、[r]いささか脂が乗りすぎておるようだが。
+[k]
+
+[messageOff]
+[fadeout black 0.25]
+[wait fade]
+[charaFadeout A 0.1]
+
+
+[charaTalk D]
+[charaFace D 3]
+
+[charaTalk E]
+[charaFace E 3]
+
+[charaTalk F]
+[charaFace F 3]
+
+[charaTalk off]
+
+
+[charaFadein D 0.1 1]
+
+[charaFadein E 0.1 0]
+
+[charaFadein F 0.1 2]
+
+[wipeOff]
+[wt 0.1]
+[fadein black 0.25]
+[wait fade]
+
+[wt 0.4]
+[effect bit_talk_13]
+[wt 0.1]
+[se bac13]
+
+
+[charaShake D 0.05 5 5 1.0]
+[charaShake E 0.05 5 5 1.0]
+[charaShake F 0.05 5 5 1.0]
+
+[charaFadeout D 0.7]
+[charaFadeout E 0.7]
+[charaFadeout F 0.7]
+
+[charaTalk on]
+
+[wt 0.1]
+＠うりぼう
+ぴぎー！
+[k]
+
+[charaSet E 9004000 1 マルタ]
+[charaSet F 5027000 1 マリー]
+
+[messageOff]
+[fadeout black 0.25]
+[bgmStop BGM_EVENT_5 0.3]
+[wait fade]
+[wt 0.1]
+[fadein black 0.25]
+[wait fade]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠マリー
+あっ……もう！　虐めるのはやめなさーい！
+[k]
+
+[se ad132]
+[charaFadeout F 0.7]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠マシュ
+マリーさんが出ていってしまいました！[r]わたしたちも行くしかありません！
+[k]
+
+[se ad132]
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 0.2]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠魔猪
+グルゥ……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠モードレッド
+見ろよあの口元の食べカス。[r]ありゃオレ達の畑のモンだろ。
+[k]
+
+[charaFace G 5]
+＠モードレッド
+どうやら、畑荒らしの真犯人が[r]自白しやがったようだな。
+[k]
+
+[charaFace G 2]
+＠モードレッド
+そしてついでに[line 3][r]オレ達も喰いたがってるみてぇだ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マルタ
+上等、襲ってくるなら丁度いいわね。[r][line 3]もとい。
+[k]
+
+[charaFace E 4]
+＠マルタ
+残念だけれど暴力には抗わせていただくわ。[r]罪の報酬は死である。[line 3]聞いたことはなくて？
+[k]
+
+[se bac153]
+[wt 0.2]
+[charaFace E 5]
+＠マルタ
+立ち去ればよし！[r]立ち去らぬならば、鉄の教えで迎え撃ちます！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

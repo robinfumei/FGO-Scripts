@@ -1,0 +1,410 @@
+
+
+
+＄01-00-07-05-3-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 3027000 1 アナ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 5009001 1 ダ・ヴィンチ]
+[charaSet F 3028001 1 ジャガーマン]
+
+
+
+[se ad220]
+[seVolume ad220 0 0.05]
+[scene 30400]
+[fadein black 1.5]
+[seVolume ad220 2.0 0.3]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 1]
+
+
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マーリン
+…………。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+
+＠アナ
+…………。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+
+＠Dr.ロマン
+[FFFFFF]？　森に入るなり無口になって、[-][r]みんなどうしたんだい？
+[k]
+
+＠Dr.ロマン
+そりゃあ見渡すかぎり樹海で[r]迷いそうなのは分かるけど……
+[k]
+
+
+？1：ものすっごく暑いんですよ[line 6]！
+
+？！
+
+[seStop ad220 1.5]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[bgm BGM_EVENT_5 0.1]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+
+＠アナ
+……同感です。たいへんな熱気なのです……[r]森というものは、もっと……涼しくて……静かで……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+アナさんのお気持ちも分かります……[r]わたしも甘く見ていました……
+[k]
+
+＠マシュ
+地面から舞い上がる熱気、濃厚な土の匂い、[r]意識が持っていかれるほどの動物たちの声……
+[k]
+
+＠マシュ
+これが……[#密林:ジャングル]と呼ばれる自然環境……
+[k]
+
+＠マシュ
+六千五百万年前、小惑星が落ちる前の地球とは[r]こういったものだったのでしょうか……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ははは、それって大絶滅の事かい？　ユカタン半島に[r]落ちた小惑星で恐竜が絶滅したっていうアレ。
+[k]
+
+＠Dr.ロマン
+映像越しにしか分からないけど、[r]それはさすがに大げさなんじゃないかな～？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マーリン
+大げさなものか、これは酷い！[r]蒸し暑い、蠅は多い、歩きにくい！
+[k]
+
+＠マーリン
+しかも物凄いエーテルだぞこれは！[r]ブリテン島なんか可愛いものだ！
+[k]
+
+＠マーリン
+ロマニ、魔力濃度は計測しているか！？[r]これはもう固有結界なみの異世界だぞ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+
+＠Dr.ロマン
+あー……それはその、[r]恥ずかしながら計器が安定しなくて……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[communicationCharaLoop 5009003 1 5 0 0]
+
+
+＠ダ・ヴィンチ
+エジプト領の時と同じだね。[r]その領域はもう完全に世界が、いや神話体系が違う。
+[k]
+
+＠ダ・ヴィンチ
+ウルクに角度を合わせたシバでは観測に限度がある。[r]熱源はともかく、周囲の細かな判別はできない。
+[k]
+
+＠ダ・ヴィンチ
+そこでは君たちの五感だけが頼りだ。[r]目と鼻を総動員して危機感知するしかない。
+[k]
+
+？1：……レーダーが使えない状況[&か:ですね]……
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+申し訳ない……原因はその繁殖しまくった樹海だから、[r]樹が少なくなればサポートできるんだけど……
+[k]
+
+？2：……目はともかく、鼻……？
+[communicationCharaFace 1]
+
+＠ダ・ヴィンチ
+ああ。密林においては、嗅覚は重要な情報源になる。[r]下手な反響波測定より過去を探れる。
+[k]
+
+＠ダ・ヴィンチ
+動物の体臭は場に残るからね。匂いを数値として視覚化すれば、[r]何が、いつ、どこへ立ち去ったか簡単に辿れる。
+[k]
+
+＠ダ・ヴィンチ
+嗅覚を頼りに狩りをするのは動物の特権じゃない。
+[k]
+
+＠ダ・ヴィンチ
+人間だって脳の使い方をちょっと工夫すれば、[r]似たような事はできるのさ。
+[k]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+地図上では南に一キロほどでウル市となります。[r]この暑さもあと二十分ほどの辛抱です、マスター。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マーリン
+ああ、それで済む事を心から願おう！[r]そして次からはガイドかラクダを雇う事にしよう！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+＠F：？？？
+ふ[line 3]それは殊勝な心がけだ！[r]貴様ら平野のヘナチョコども、ガイドなくして[#明日:あした]なし！
+[k]
+
+＠F：？？？
+これに懲りたら密林に入る前は現地人にマネーを渡し、[r]頭を地面にこすりつけてこう言うがいい！
+[k]
+
+＠F：？？？
+“ブエノス・ノーチェス！　セニョリータ！[r][f small]  [f -]セニョールセニョール、ペヨーテたべるか？”と！
+[k]
+
+[messageOff]
+[se ad221]
+[seVolume ad221 0 0.05]
+[seVolume ad221 0.5 0.5]
+[wt 1.5]
+[seStop ad221 1.5]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター！　姿は見えませんが、何かがいます！[r]木々の上を高速で動いているようです！
+[k]
+
+[messageOff]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.1]
+[se ad221]
+[seVolume ad221 0 0.05]
+[seVolume ad221 0.5 0.3]
+[effect bit_talk_42]
+[wipein upToDown 0.3 1]
+[wait wipe]
+
+＠F：？？？
+ははははは！[r]はははははははははははははははははは！
+[k]
+
+＠F：？？？
+ニャははははははははははははははははははは！[r]何かが、ではない！　私は[line 3]私は……[effectStop bit_talk_42][seStop ad221 0.7]んー、何だろう？
+[k]
+
+＠F：？？？
+ちょっと待って、具体的に聞かれると困るニャ……[r]美女である事に間違いはないのですけどね……
+[k]
+
+[se ad221]
+[seStop ad221 0.4]
+
+＠F：？？？
+ハッ！？　しまった、考えているうちに[r]バービートラップ（意訳：面白い罠）の場所忘れた！
+[k]
+
+＠F：？？？
+く、おのれ……！　見ず知らずの相手に頭脳戦を[r]しかけてくるとは、恥を知れこの理系！
+[k]
+
+
+＠マーリン
+よし分かった！　バカだ！
+[k]
+
+[messageOff]
+[se ad221]
+[seStop ad221 0.4]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 5 5 0.4]
+
+＠F：？？？
+カバじゃねぇー！[r]なんでみんな私をカバに喩えるのか分からねぇー！
+[k]
+
+[messageOff]
+[charaMoveReturn F 0,20 0.3]
+[wait charaMove F]
+[charaMove F 0,-256 0.1]
+[wait charaMove F]
+[charaFadeout F 0.1]
+[wt 0.1]
+[wipeout upToDown 0.1 1]
+[wait wipe]
+[wt 0.1]
+[wipein downToUp 0.1 1]
+[wait wipe]
+
+[se ad223]
+[wt 0.4]
+
+？1：上から落ちてきた！？
+？2：ぼはっ！？
+
+？！
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+なんだこの怪生物は[line 3]！？[r]ＵＭＡ！？　ＵＭＡなのか！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+
+＠F：？？？
+ノー！　私は誰でもない！[r]あえて言うのなら密林の化身、大いなる戦士たちの具現！
+[k]
+
+[charaEffect F bit_talk_41]
+[se ad139]
+
+＠F：？？？
+その名はジャガーマン！[r]サーヴァント・ジャガーマンここに見参！
+[k]
+
+[charaEffectStop F bit_talk_41]
+[wt 0.4]
+
+
+[charaFace F 5]
+＠ジャガーマン
+はい注目、ここでキャッチコピー出すわよ～[r]一年間あっためたネタぶりするわよ～
+[k]
+
+＠ジャガーマン
+『最強の虎、ここに健在！[r]　もう誰も、私をタイガーとは呼ばせない！』
+[k]
+
+[charaFace F 0]
+＠ジャガーマン
+フ[line 3]！[r]（どやぁ、と得意満々の顔）
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠アナ
+[%1]、早く指示をください。[r]ウル市の冷たい水が私たちを待っています。
+[k]
+
+？1：よし、現地動物を撃退しながら突進！
+[charaFace C 2]
+
+＠アナ
+了解しました。[r]タイガー、死すべし！
+[k]
+
+
+？2：もしかして……あれが南のめが……
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+マスター、そこに気付いてはいけません！[r]今は何もなかった事にして戦いましょう！
+[k]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+

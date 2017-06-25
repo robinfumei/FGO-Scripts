@@ -1,0 +1,220 @@
+＄91-20-09-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2009201 2 アルテミス]
+[charaSet E 2009102 2 オリオン]
+[charaFadein A 0.1 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ふぅ。まさかモンスターが出現するとは……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠アルテミス
+どうしてかしら。[r]この世界は、もう修正が終わったはずでしょう？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+＠マシュ
+何か異常があるのかもしれません。[r]調べなくては。
+[k]
+
+？1：そうしよう
+
+？2：賛成だ
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 2]
+[charaFadein E 0.1 2]
+＠アルテミス
+えー、ハネムーンは……。
+[k]
+
+＠オリオン
+はいはい、ハネムーンは延期延期。
+[k]
+
+[charaFace D 4]
+＠アルテミス
+そんなあ……。
+[k]
+
+＠オリオン
+……。
+[k]
+
+＠アルテミス
+……。
+[k]
+
+＠オリオン
+ったく。しょうがねえなあ！[r]いいか、アルテミス。
+[k]
+
+＠オリオン
+[#これはハネムーンだ]。[r]ハネムーンがてら怪物退治をしているって寸法よ。
+[k]
+
+＠オリオン
+観光ついでに悪者やっつけて、[r]気分スッキリって感じだ。
+[k]
+
+[charaFace D 3]
+＠アルテミス
+オリオン……。
+[k]
+
+＠オリオン
+いいだろ？　面白いだろ？[r]っつーか俺はチョー面白いね！
+[k]
+
+[charaFace D 1]
+＠アルテミス
+……うん、そうだよね！[r]ダーリン、愛してる！
+[k]
+
+＠オリオン
+あ、そういう重たい愛は間に合ってます。
+[k]
+
+[charaFace D 2]
+＠アルテミス
+ひどーい！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+＠マシュ
+……マスター。あの二人って、仲が良いのでしょうか、[r]それとも悪いのでしょうか？
+[k]
+
+？1：どっちに見える？
+
+[charaFace A 4]
+＠マシュ
+……わからないです。
+[k]
+
+？2：ラブラブだ
+
+[charaFace A 3]
+＠マシュ
+そ、そうなんですか。
+[k]
+
+？！
+
+＠マシュ
+愛とは……奥が深いですね。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wipeout leftToRight 1 1]
+[wait wipe]
+[scene 21000]
+[wipein rightToLeft 1 1]
+[wait wipe]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠アルテミス
+ここはどこかなー？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+引き払われた軍の野営地のようです。[r]特に面白いものはないと思います。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+＠オリオン
+そうだなあ、精々面白そうなのって言うと……。[r]ほら、その片隅に袋がたくさんあるだろ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+はあ。ありますが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+＠オリオン
+死体袋だよね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+＠オリオン
+……何か動き出してるんだけど。
+[k]
+
+[charaFadeout E 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[charaSet F 98006300 1]
+[charaFadein F 0.1 1]
+[se ad25]
+[wt 0.5]
+[charaFadeout F 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaTalk D]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 2]
+＠アルテミス
+キャ、怖い！[r]オリオン、私を守って！
+[k]
+
+＠オリオン
+逆だ、バカ！[r]おまえが俺を守ってくれないと困るんだからね！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+今度はリビングデッドですか……！[r]アルテミスさん、戦いましょう！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠アルテミス
+うん、オリオンに頼られて私、パワーアップ！[r]いっくよー！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

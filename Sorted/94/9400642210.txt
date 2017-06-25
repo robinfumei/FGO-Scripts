@@ -1,0 +1,310 @@
+＄94-00-64-22-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_32 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 5028000 1 イリヤ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5023000 1 エレナ]
+
+[scene 20304]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+一旦『お菓子の国』へ戻り、[r]ナーサリー・ライムの様子を見に行く。
+[k]
+
+＠マシュ
+それで良いのですか？　イリヤさん。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+うん。[r]やっぱり、どうしても気になって。
+[k]
+
+＠イリヤ
+宝石たちは『雪華とハチミツの国』を[r]次の目的地として示しているけど……。
+[k]
+
+[charaFace B 4]
+＠イリヤ
+わたしの勝手で振り回してしまって、ごめんなさい。[r][%1][&お兄さん:お姉さん]、マシュさん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFace B 4]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+……いえ。わたしは、そんなイリヤさんの気持ちは[r]好ましいと思います。
+[k]
+
+
+？1：[&ああ:うん]、大丈夫[&だ:だよ]。でも急ごう
+？！
+
+
+[charaFace B 0]
+＠イリヤ
+ありがとう、[&お兄さん:お姉さん]。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠エレナ
+………………。
+[k]
+
+？1：エレナ？　コナハト☆メイヴってどんな魔法少女？
+？！
+
+
+[charaFace D 5]
+＠エレナ
+……強烈な女。[r]燃え盛る氷のような魔法少女。
+[k]
+
+[charaFace D 4]
+＠エレナ
+激しくて冷酷。支配欲の塊。[r]強固な本性が城のように、彼女を形作っている。
+[k]
+
+[charaFace D 5]
+＠エレナ
+ありとあらゆる矛盾の[#手綱:たづな]を抱え込み、[r]それでいて[#尚:なお]ばらけない、ぎっちりと固い結び目がある。
+[k]
+
+＠エレナ
+魔法少女の力の根源が、自分を信じる強さにあるなら、[r]彼女はまさに最強でしょう。
+[k]
+
+
+？1：[&それは:それって]……狂気に近い、って[&こと:ことかな]？
+？！
+
+[charaFace D 0]
+＠エレナ
+……メイヴが？　まさか。[r]彼女はいたって正常よ。正気そのものだわ。
+[k]
+
+[charaFace D 4]
+＠エレナ
+そうね……[r]彼女だけがまともだったのかもしれない。
+[k]
+
+[charaFace D 0]
+＠エレナ
+歪んだこの世界で、最後まで自分を保っていられたのは[r]たぶん彼女だけだった。
+[k]
+
+＠エレナ
+彼女はあたしよりも先に、この世界にいた先輩。[r]一時は行動を共にしたこともあったけれど……。
+[k]
+
+[charaFace D 4]
+＠エレナ
+支配欲に取り憑かれた彼女から[r]あたしは距離を置いた。
+[k]
+
+[charaFace D 5]
+＠エレナ
+その後、一層、彼女の暴走が勢いづいた……[r]なんて感じているのは、あたしの思い上がり。
+[k]
+
+＠エレナ
+きっと彼女は変わっていなかった。[r]なにも。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+…………エレナさん……。
+[k]
+
+[charaFace B 5]
+＠イリヤ
+メイヴはわたしを[r]無敵の軍団に迎え入れてもいい[line 3]って。
+[k]
+
+[charaFace B 4]
+＠イリヤ
+だから……よけいにミユをさらわれたのかと[r]勘違いしていました。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エレナ
+レディからの支配に反逆する、[r][#魔法少女の軍団:リトルウィッチ・コーズ]は彼女の着想だわ。
+[k]
+
+[charaFace D 4]
+＠エレナ
+彼女はその野望を、いまだ捨ててはいないのね。
+[k]
+
+[bgmStop BGM_EVENT_32 1.5]
+
+[charaFace D 5]
+＠エレナ
+……？[r]どうかした、[%1]。
+[k]
+
+
+？1：待ってみんな……あれ[&は:って]……メイヴの手勢[&では:じゃない]！？
+？！
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ！　そうです！[r]雪原に特化した敵性体！
+[k]
+
+[charaFace A 15]
+＠マシュ
+また中立地帯に出現を……？　油断していました！[r]ドクターも、ちゃんと警戒をお願いします！
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+
+＠Dr.ロマン
+いやそんな筈は。こっちの警戒は解いてないぞ[line 3]？[r]周囲の環境に変化が生じているのか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+まっすぐこっちへ来てる！[r]ちょっと話し合いは通じなさそう……（ごくり）
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠エレナ
+……悪いけれど、あたしは戦わない。
+[k]
+
+[charaFace D 5]
+＠エレナ
+あなたたちに同行はしても、[r]メイヴに直接敵対する気までは無い。
+[k]
+
+＠エレナ
+彼女もまた、魔法少女の一人なのだから。
+[k]
+
+[charaFace D 4]
+＠エレナ
+どのみちこの中立地帯では、[r]あたしには、たいした力は出せないし。
+[k]
+
+
+？1：[&構わない:オッケー]。安全な場所へ[line 3]マシュ！　イリヤ！
+？！
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[messageOff]
+[se bac65]
+[fowardEffect bit_talk_tornado01]
+
+[wt 0.8]
+[charaChange A 8001001 0 fade 0.5]
+[wait charaChange A]
+
+[wt 1.0]
+
+[charaFace A 5]
+＠マシュ
+了解です、マスター！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[charaPut D 1]
+[messageOff]
+[se ad150]
+[charaBackEffect D bit_talk_magicalchange_back]
+[wt 0.5]
+[charaChange B 5028001 5 fade 1.0]
+[wait charaChange B]
+[charaBackEffectStop D bit_talk_magicalchange_back]
+[wt 1.0]
+[charaPut D 1200,1200]
+
+[charaFace B 2]
+
+
+＠イリヤ
+うん、応戦するね！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

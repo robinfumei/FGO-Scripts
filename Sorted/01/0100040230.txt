@@ -1,0 +1,44 @@
+＄01-00-04-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10916 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009003 1 ダ・ヴィンチ]
+[charaSet E 1009001 1 ？？？]
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 0 5 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠Dr.ロマン
+[line 3]よし。カンが掴めてきたぞ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクター？[r]動体反応を感知しましたか？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+うん。特に[#機械的]だからってのもあるだろうけど、[r]断言してみよう。敵性反応だ。多数が接近中！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 7]
+＠マシュ
+了解。[r]マスター、戦闘になります。指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

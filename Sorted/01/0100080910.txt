@@ -1,0 +1,207 @@
+＄01-00-08-09-1-0
+
+
+[soundStopAll]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 1019001 1 ラーマ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 98020000 1 ハルファス]
+[charaSet D 7014001 1 ナイチンゲール]
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+
+[scene 36100]
+
+[fadein black 2]
+[wait fade]
+
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+
+＠魔神ハルファス
+起動せよ。起動せよ。[r]兵装舎を司る九柱。即ち、
+[k]
+
+＠魔神ハルファス
+フルフル。マルコシアス。ストラス。フェニクス。[r]マルファス。ラウム。フォカロル。ウェパル。
+[k]
+
+[se ad63]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wt 0.4]
+
+＠魔神ハルファス
+我ら九柱、戦火を悲しむもの。[r]我ら九柱、損害を尊ぶもの。
+[k]
+
+＠魔神ハルファス
+“七十二柱の魔神”の名にかけて、[r]我ら、この真実を[#瞑:つむ]る事許さず……！
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+
+[charaFadeout C 0.4]
+[seStop ad14 0.2]
+[wt 0.3]
+[messageOff]
+
+
+[bgm BGM_MAP_3 0.1]
+
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 1]
+
+＠ナイチンゲール
+[line 3]では答えましょう。
+[k]
+
+＠ナイチンゲール
+戦火を悲しみ、損害を尊ぶのは人として当然の情動。[r]ですが、[#人間:われら]はその先へ進まねばなりません。
+[k]
+
+＠ナイチンゲール
+ええ、そう。[r]ただ立ちて待つのみを良しとせず、煙る戦火を消すために。
+[k]
+
+[wt 0.3]
+
+[charaFace B 7]
+
+＠ナイチンゲール
+家族を、友を、愛する者を失った者が、[r]それ以上失うことのないように……！
+[k]
+
+＠ナイチンゲール
+我らは此処に立ち、あなたがたと対峙するのです！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+
+＠ラーマ
+いかにもその通り！[r]おまえたちは悲しみ、尊び、[#しかしそれだけだ]。
+[k]
+
+[charaFace A 5]
+
+＠ラーマ
+散らばった玩具を纏めて片付けるように、[r]世界を屑籠に叩き込もうとしている。
+[k]
+
+＠ラーマ
+それは自己の欠点を、他者の短所を受け入れられない、[r]小心者の戯言だ！
+[k]
+
+＠ラーマ
+我が名はコサラの王、ラーマ！[r]これより全霊を以て、[%1]の盾となろう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+
+
+＠ナイチンゲール
+おや、ラーマ。[r]傷は治りましたか？
+[k]
+
+[charaFace A 1]
+
+＠ラーマ
+当たり前だ。[r]今の余なら、ラーヴァナを片手で倒せる！
+[k]
+
+[charaFace B 5]
+
+＠ナイチンゲール
+過信は事故の元です。[r]そも、この魔神柱は病原菌のようなもの。
+[k]
+
+＠ナイチンゲール
+殲滅するには、この世界ごと破壊せねばならない。[r]されど、私たちにはその力はない。
+[k]
+
+[charaFace B 0]
+
+＠ナイチンゲール
+故に、今回は対症療法で良しとしましょう。[r]治療するのは我々ではなく[line 3]
+[k]
+
+[charaFace A 0]
+
+＠ラーマ
+……分かっておる。
+[k]
+
+[charaFace A 1]
+
+＠ラーマ
+うむ、[%1]！[r]余と縁を紡いだマスターよ！
+[k]
+
+[charaFace A 2]
+
+＠ラーマ
+さあ、戦うぞ！[r]どれほどの傷も恐れる必要はない。
+[k]
+
+＠ラーマ
+我らには天使がついている！
+[k]
+
+[charaFace A 1]
+
+＠ラーマ
+死にかけても地獄へ落ちようとも、[r]襟を掴んで引っ張り上げてくれる類のな！
+[k]
+
+[charaDepth B 1]
+[charaDepth D 0]
+
+
+[charaTalk B]
+[charaFace B 6]
+
+＠ナイチンゲール
+今だけは、その名前に耐えましょう。[r]それで皆様が励まされるのであれば！
+[k]
+
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0 1]
+
+＠ナイチンゲール
+……コホン。まあ、正直に告白いたしますと、[r][#私:わたくし]、たいへん恥ずかしいのですが……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_MAP_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

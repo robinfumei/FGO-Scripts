@@ -1,0 +1,67 @@
+
+＄94-00-18-63-1-0
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 4003000 1 ドレイク]
+
+[scene 10803]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 1]
+＠ドレイク
+よっ！　いいところで会ったねマスター！[r]そーら、日頃のご愛顧のお礼だ、受け取りな！
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[charaFace A 5]
+＠ドレイク
+む。なんだか意外そうな顔してるねぇ？
+[k]
+
+＠ドレイク
+なに、アタシからもらえるとは思わなかった？[r]どんな風の吹き回しだ、かい？
+[k]
+
+[charaFace A 1]
+＠ドレイク
+はは、そりゃあまったくその通りだ！
+[k]
+
+＠ドレイク
+雇い主とはいえバレンタインのチョコを[r]贈るなんざ、ペリカン号にも笑われるさね！
+[k]
+
+[charaFace A 0]
+＠ドレイク
+ま、そいつは宵越しのゼニってヤツさ。
+[k]
+
+＠ドレイク
+浮かれてる男連中をちょーいとトランプで[r]締め上げたら大もうけしちまったんでね。
+[k]
+
+[charaFace A 1]
+＠ドレイク
+もとはと言えばアンタのおかげさ[%1]！[r]いやいや、お互い得しておおいに結構！
+[k]
+
+＠ドレイク
+こんな海賊から菓子なんざもらっても迷惑だろうが、[r]そこはそれ、
+[k]
+
+＠ドレイク
+観念してアタシからの[r]熱ーいチョコを受け取っておくれ！
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

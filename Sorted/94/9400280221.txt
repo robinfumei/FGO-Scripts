@@ -1,0 +1,236 @@
+＄94-00-28-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 4015001 1 アレキサンダー]
+
+[scene 10600]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠アレキサンダー
+うーん……ここまでか。[r]あはははは、[charaFace D 1]やっぱり勝つまでは難しかったか。
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+あと一歩足りない、あと一手届かない、というのが[r]贋作の悲しいところ、というヤツかな？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+それはない。サーヴァント同士がぶつかり合い、[r]君が敗北した。これはそれだけの事だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アレキサンダー
+[line 3]さすが。[r]本物の英霊はいちいちニクいね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+[line 6]。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFace A 0]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+＠ダ・ヴィンチちゃん
+おお……堪能……堪能した……成長期途中の少年の、[r]限界まで鍛えられた瑞々しい二の腕……いい……
+[k]
+
+[charaFace A 8]
+＠マシュ
+ダ・ヴィンチちゃんがすっかり駄目な人に……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+ほら見ろ。本物と言えどあの通りさ。[r]出自を気にするのはいいが、比べるのは馬鹿らしいぞ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アレキサンダー
+ご高説、痛み入る。[r]じゃあ、そのお礼にちょっとだけ教えてあげるよ。
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+と言っても、僕に教えられるのは次の行き先ぐらいだ。
+[k]
+
+＠アレキサンダー
+贋作工房はあらゆる場所に点在して、[r]少しずつダ・ヴィンチの贋作を流通させているのさ。
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+でも、あの子が一体何を目的としているのかとか、[r]そこらへんはぜんぜん分からない！
+[k]
+
+＠アレキサンダー
+なぜって、僕は無垢の担当だからね！[r]コトの裏事情はまったく知らされていないのさ！
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+いやまあ、ちょっと考えたらすぐに分かったけど、[r]そこはそれ、黙っているのが人の道ってコトで。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+了解した。[r]何があっても口を割る気はない、という事だな。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+我々は先を急ぐが……介錯は必要か？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠アレキサンダー
+んー、要らないかな。[r]同情とか、そういうの嫌いなんだ。
+[k]
+
+＠アレキサンダー
+僕も……それから、あの子もね。[r]贋作は贋作らしく、賞味期限切れで自壊するよ。
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 0 0 1]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……マスター、その……。
+[k]
+
+？1：思ったより重くない？
+
+[charaFace A 7]
+＠マシュ
+あ、はい！[r]そうです、凄く戸惑ってます！
+[k]
+
+[charaFadeout A 0.1]
+
+？2：これシリアス？
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エミヤ
+それなりにはね。[r]いつか、どこかの王が口にしていたな。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+物に心を与えるな、と。[r]あれは、あの男なりの優しさだったか。
+[k]
+
+[charaFadeout C 0.1]
+
+？！
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+よし、完成！[r]うんうん、やはり美少年は最高だなあ！
+[k]
+
+[charaFace B 3]
+＠ダ・ヴィンチちゃん
+内面ではなく、ただ純粋な外面を以て[r]この世界を優雅に飛び回る妖精。
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+ああ、せめてあの美しさの半分も[r]伝えられるといいのだけど！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+そして肝心のダ・ヴィンチちゃんが、[r]微妙に役立ちそうにありません、マスター！
+[k]
+
+？1：エミヤんだけが頼りだ！
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠エミヤ
+任せておきたまえ。[r]大成功こそないが、確実に事を遂げるのが私の特性だ。
+[k]
+
+[charaFace C 5]
+＠エミヤ
+それはともかく……エミヤんはどうかと思うのだが！
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,49 @@
+＄01-00-03-13-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 7001001 1 ヘラクレス]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0 0]
+[charaFace A 15]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+はぁ、はぁ、はぁ……！
+[k]
+
+[voice 700100_0_B100]
+＠ヘラクレス
+[image berserker_language_1][line 2]！！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.3]
+[charaFace A 2]
+＠マシュ
+……やはり、エウリュアレさんの方へと向かいました！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠エウリュアレ
+わかってるわ！[r]さあ、次よ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

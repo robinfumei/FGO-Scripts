@@ -1,0 +1,85 @@
+＄01-00-04-02-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10916 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009003 1 ダ・ヴィンチ]
+[charaSet E 1009001 1 ？？？]
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 0]
+[charaFace A 7]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+敵性体、全滅しました。[r]わたしに視認できるかぎりでは存在していません。
+[k]
+
+＠Dr.ロマン
+こちらからも観測範囲には何もいないね。[r]よし、先に進んで……いや、待った。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaFace 2]
+＠Dr.ロマン
+更に、大型の一体を観測したぞ。[r]わかりやすいな。人間には有り得ないサイズだ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+大型の車輌ってこともないだろう。[r]マシュ、何か感じるかい。
+[k]
+
+[se ad14]
+[wt 2]
+[charaFace A 15]
+＠マシュ
+…………機械作動音。大型です！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+英国の特務機関なりが用意した特殊車両なり、[r]当時の魔術協会による機械式ゴーレム、なりが[line 3]
+[k]
+
+＠Dr.ロマン
+ロンドン市民を救うために現れた、[r]って話だったら、とてもロマンチックなんだけどね。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+そういう訳でもないだろうなあ、これは！[r]敵性反応と判断。前方に来るよ！
+[k]
+
+[charaFace A 2]
+＠マシュ
+マスター、警戒を。[r]新手の敵性存在の可能性、大です。
+[k]
+
+？1：慎重に戦おう
+
+？2：出たとこ勝負だ、マシュ！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……はい！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+来たぞ、接敵する！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[seStop ad14 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

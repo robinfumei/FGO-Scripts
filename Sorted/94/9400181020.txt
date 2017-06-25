@@ -1,0 +1,109 @@
+
+＄94-00-18-10-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6005001 1 ジャック]
+
+[scene 20400]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.4]
+＠ジャック
+あ、マシュだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ジャ、ジャックさん！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ジャック
+試練だよー、チョコちょうだい！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+え、でもこれはですね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ジャック
+ちょうだいちょうだいちょうだいちょうだいちょうだい[r]ちょうだいちょうだいちょうだいちょうだいちょうだい！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォ！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+怒濤のおねだりにフォウさんが怯えています……！[r]正直、わたしも怖いです！
+[k]
+
+[charaFace A 2]
+＠マシュ
+ですが、このチョコだけは渡す訳にはいきません！[r]どうしてもというのならドクターの所に、ジャックさん！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ジャック
+えー、いじわるだー。[r]そ・れ・な・ら[line 4]トリックオアデッド！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+それは三ヶ月以上前のイベントです！[r]今年はもう始まっていると理解してください！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

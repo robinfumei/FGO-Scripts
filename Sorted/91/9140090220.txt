@@ -1,0 +1,146 @@
+＄91-40-09-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21410]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet D 4009200 2 アン]
+[charaSet E 4009100 2 メアリー]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+[fadein black 1]
+[wait fade]
+＠Dr.ロマン
+ゴーレムたちは完全沈黙した。[r]この先にも、幾つかエネミーと思しき反応がある。
+[k]
+
+＠Dr.ロマン
+気を付けて進んでほしい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠メアリー
+了解だよ、ドクター。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ですが、これでお爺さんの話の信憑性が高まりました。[r]進みましょう！
+[k]
+
+[wt 0.1]
+[messageOff]
+[wipeout rightToLeft 0.5 1]
+[bgmStop BGM_EVENT_5 0.5]
+[wait wipe]
+[scene 21410]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 0.7]
+[wipein leftToRight 0.5 1]
+[bgm BGM_EVENT_3 0.1]
+[wait wipe]
+
+[wt 0.2]
+[se bac21]
+[shake 0.05 0 4 0.25]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.7]
+[se bac6]
+[effect bit_talk_12]
+[wt 0.1]
+[shake 0.05 2 2 0.25]
+[wait se bac6]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[se ad20]
+[wait se ad20]
+[wt 0.4]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠メアリー
+ふぅ。こちらも片付いた。
+[k]
+
+[charaFace D 1]
+＠アン
+厳重ですわね。ますます期待が高まりますわ。
+[k]
+
+＠メアリー
+聖杯はないだろうけどね。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+もしかすると、あるかもしれません。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……いえ、我々が追跡している聖杯ではなく。[r]真の聖杯、という意味合いですが。
+[k]
+
+[charaFace E 0]
+＠メアリー
+それはそれでロマンだね。[r]マスター、聖杯が欲しい？
+[k]
+
+？1：未来が欲しい
+
+？2：平和が欲しい
+
+？！
+
+[charaFace E 1]
+＠メアリー
+そっか。マスターは欲が無いね。[r]ううん、逆かな。
+[k]
+
+＠メアリー
+未来とか平和とか、それを望むのは凄い欲張りで、[r]小さな願い事なんか考えている余裕がないのかもね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+いやあ、給料を支払う身としては助かるなあ。[r]それは[communicationCharaFace 5]それとして、生体反応があった。注意してくれ！
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター、適切な給与は有能な人材を囲むための[r]必須条件ですよ。[charaFace A 2]いきます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

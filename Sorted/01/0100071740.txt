@@ -1,0 +1,774 @@
+
+
+
+＄01-00-07-17-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1 0.7]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98024000 1 ウルク市民]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[charaSet E 98107800 1 ラフム]
+[charaSet F 98107800 1 ラフムＢ]
+[charaSet G 98107800 1 ラフムＣ]
+[charaSet H 98107800 1 ラフムＤ]
+
+[scene 34310]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+みなさん、今のうちに密林に逃げてください！[r]この怪物はわたしたちが引きつけます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ウルク市民
+あ、ああ……！[r]ありがとう、[charaFace B 1]ありが、ぎゃあ！？
+[k]
+
+[messageOff]
+[effect bit_talk_12_red_R]
+[charaTalk off]
+[charaEffect C bit_talk_12_red_R]
+[wt 0.1]
+[se bac137]
+[charaShake B 0.05 4 4 0.4]
+[charaEffect B bit_talk_35]
+[wt 0.3]
+[charaFadeout B 0.4]
+[wt 0.7]
+
+[se bac135]
+[wt 0.4]
+[se bac136]
+[wt 0.4]
+[se bac135]
+[wt 1.5]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+＠マシュ
+な、んで[line 3]いまアナタたちを殺したのは、[r]わたしじゃないですかっ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[messageOff]
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.4 128,0]
+[wt 0.4]
+[charaFace F 0]
+[charaFadein F 0.4 -128,0]
+[wt 0.2]
+[charaFace G 0]
+[charaFadein G 0.4 384,0]
+[wt 0.3]
+[charaFace H 0]
+[charaFadein H 0.4 -384,0]
+[wt 0.7]
+[se ad202]
+＠ラフム
+[line 3]ギ。[r]ギキ、キハハハハハハハハハハハハハハハハ！
+[k]
+
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.2]
+
+[charaTalk on]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+どうなってるんだ、ラフムは自分たちの命より[r]捕虜たちの殺害を優先しているのか！？
+[k]
+
+＠Dr.ロマン
+意味がない、あまりにも矛盾している！[r]ラフムは生命として完成した個体だ！
+[k]
+
+＠Dr.ロマン
+生存のための戦い、他の生命を攻撃する理由が、[r]彼らには微塵もない筈なんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+コイツら[line 3]！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 1.5]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaEffect D bit_talk_38l]
+[charaFadeout D 0.1]
+[scene 10000]
+[wipein leftToRight 0.1 1]
+[wait wipe]
+
+[charaSet B 98106000 1 キングゥ]
+[se bac42]
+[wt 0.2]
+[se bac44]
+[wt 0.4]
+[se bac42]
+[wt 0.1]
+[se bac44]
+[wt 0.2]
+[se bac42]
+[wt 0.1]
+[se bac44]
+[wt 0.2]
+[se bac45]
+[charaEffectStop D bit_talk_38]
+[fadeout white 1.0]
+[wt 1.0]
+
+[wait fade]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[scene 34310]
+[wt 0.5]
+[fadein white 1.0]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.4 1]
+＠キングゥ
+[line 3]何をしている。[r]旧人類を集めて、何をしているんだ、オマエたちは！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 128,0]
+[charaFace F 0]
+[charaFadein F 0.1 -128,0]
+[charaFace G 0]
+[charaFadein G 0.1 384,0]
+[charaFace H 0]
+[charaFadein H 0.1 -384,0]
+＠ラフム
+[line 3]。[r][line 6]、[line 3]。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.7]
+
+？1：いまだ、みんなを誘導してくれマシュ！
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……！　みなさん、こちらに！[r]女神イシュタルが上空から援護してくれます！
+[k]
+
+[charaFadeout A 0.1]
+
+？2：……キングゥが、ラフムたちを攻撃した……？
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+……そのようね。[r]私たちは助かったけれど……
+[k]
+
+＠ケツァル・コアトル
+ラフムたちの様子はあからさまに悪くなったわ。[r]……これは一波乱あるわよ、[%1][&君:さん]。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠キングゥ
+答えろ、なぜこんな意味の無い事をする！[r]それでも原初の母、ティアマト神の[#仔:こ]か！
+[k]
+
+[charaFace B 5]
+＠キングゥ
+ウルクを襲うまではいい。敵を殺すのもいい。[r]だが、なぜ殺す意味のない者までつれて来た？
+[k]
+
+＠キングゥ
+その人間たちは脅威にはなり得ない。[r]いずれティアマト神の手で淘汰されるだけのものだ。
+[k]
+
+[charaFace B 2]
+＠キングゥ
+新しいヒトには無駄な行為は許されない！[r]オマエたちの行動はあまりにも愚かしい！
+[k]
+
+[charaFace B 5]
+＠キングゥ
+……認めたくはないが。[r]母さんは、眠りから覚めたばかりで手を[#誤:あやま]った。
+[k]
+
+＠キングゥ
+オマエたちは欠陥品だ。[r]ゴルゴーンの魔獣にも劣る……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 128,0]
+[charaFace F 0]
+[charaFadein F 0.1 -128,0]
+[charaFace G 0]
+[charaFadein G 0.1 384,0]
+[charaFace H 0]
+[charaFadein H 0.1 -384,0]
+＠ラフム
+[line 6]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠キングゥ
+……まあいい。分かったのなら下がれ。[r]オマエたちでは、ケツァル・コアトルに及ばないからね。
+[k]
+
+＠キングゥ
+[#屑:クズ]のように居るとはいえ、同じ母から生まれた兄弟だ。[r]むざむざ殺させる訳にはいかない。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……同じ兄弟……？[r]アナタとラフムがですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠キングゥ
+……そうだとも。認めたくはないけどね。[r]彼らはボクをベースに、より単純化して量産された兵隊だ。
+[k]
+
+＠キングゥ
+そしてボクは、唯一の仔としてティアマト神に[r]作られた指揮官だ。出来が違うのも当然だろう？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……マスター。[r]あの人は、その……
+[k]
+
+？1：……ああ。致命的に間違えている
+？2：……キングゥ、キミは[line 3]
+
+？！
+
+[charaFace A 7]
+＠マシュ
+キングゥ。アナタはティアマト神の仔ではありません。
+[k]
+
+＠マシュ
+ティアマト神の手で作られたのかもしれませんが、[r]ティアマト神から生まれたものではないのです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+その体はエルキドゥさんを参考にして作られたもの、[r]とアナタは言いました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……でも、それは違います。[r]アナタの体はエルキドゥさんの遺体そのもの。
+[k]
+
+＠マシュ
+アナタは、おそらく……エルキドゥさんの遺体を[r]利用して作られた、合成魔獣なのだと思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠キングゥ
+[line 3]なんだって？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+アナタは『新しいヒト』ではなくて……[r]おそらく、ティアマト神を目覚めさせる[#為:ため]に作られた……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠キングゥ
+[line 3]くだらない。[r]仮にそうだとしても、何か問題が？
+[k]
+
+＠キングゥ
+母さんから生まれたモノでないにしても、[r]ボクは母さんに命を与えられた、母さんの息子だ。
+[k]
+
+＠キングゥ
+この体……エルキドゥの事も知らない。[r]他の事も、かつての事も記録していない。
+[k]
+
+＠キングゥ
+けど、それのどこが間違いだと言うんだい？[r]ボクにはその存在理由だけでいい。
+[k]
+
+＠キングゥ
+他の目的、他の意味不明な感傷など余分だ。[r]ただティアマト神のために動く人形。
+[k]
+
+＠キングゥ
+それがボクだ。[r]キングゥは、そのように作られた人形だ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 128,0]
+[charaFace F 0]
+[charaFadein F 0.1 -128,0]
+[charaFace G 0]
+[charaFadein G 0.1 384,0]
+[charaFace H 0]
+[charaFadein H 0.1 -384,0]
+＠ラフム
+[line 6]シ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠キングゥ
+[FFFFFF]？　なんだオマエたち。何が[line 3][-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaFace E 0]
+[charaFadein E 0.1 128,0]
+[charaFace F 0]
+[charaFadein F 0.1 -128,0]
+[charaFace G 0]
+[charaFadein G 0.1 384,0]
+[charaFace H 0]
+[charaFadein H 0.1 -384,0]
+＠ラフム
+[line 6]、キ、シ。
+[k]
+
+＠ラフム
+シシ、シ[line 3]
+[k]
+
+＠ラフム
+シャハハハハハハハハハハハハハハハハハハハハ！
+[k]
+
+[messageOff]
+[se ad202]
+[wt 0.2]
+[charaMoveReturn E 128,10 0.4]
+[wt 0.3]
+[charaMoveReturn F -128,5 0.2]
+[wt 0.2]
+[charaMoveReturn G 384,7 0.3]
+[wt 0.2]
+[charaMoveReturn H -384,4 0.2]
+[wait se ad202]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.2]
+
+[bgm BGM_EVENT_3 1.0]
+
+[se bac135]
+[wt 0.4]
+[se bac136]
+[wt 0.4]
+[se bac135]
+[effect bit_talk_35]
+[wt 1.5]
+
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠キングゥ
+止めろと言っただろう！[r]オマエたち、何がおかしい……！
+[k]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 128,0]
+[charaFace F 0]
+[charaFadein F 0.1 -128,0]
+[charaFace G 0]
+[charaFadein G 0.1 384,0]
+[charaFace H 0]
+[charaFadein H 0.1 -384,0]
+＠E：ラフム
+[line 3]決マッテイル。
+[k]
+
+＠E：ラフム
+オマエ　ノ　姿ガ　楽シイ　カラダ。[r]コウシテイルノガ　楽シイ　カラダ。
+[k]
+
+＠E：ラフム
+楽シイ。楽シイ。楽シイ。楽シイ。[r]ニンゲンヲ　殺スノハ　トテモ　楽シイ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠キングゥ
+オマエたち、言葉を……！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 128,0]
+[charaFace F 0]
+[charaFadein F 0.1 -128,0]
+[charaFace G 0]
+[charaFadein G 0.1 384,0]
+[charaFace H 0]
+[charaFadein H 0.1 -384,0]
+＠F：ラフム
+母ハ　我々ニ　命ジタ。[r]新シイ　ヒト　トシテ学習シロ、ト。
+[k]
+
+＠F：ラフム
+ヒト　トシテノ　在リ方。[r]ヒト　トシテノ　定義。
+[k]
+
+＠F：ラフム
+ヨリ　人間ラシイ　モノ。[r]ソレガ　コノ　結論　ダ。
+[k]
+
+＠E：ラフム
+人間ノヨウニ活動スルノハ　素晴ラシイ！[r]楽シイ。楽シイ。楽シイ。楽シイ！
+[k]
+
+＠E：ラフム
+ニンゲンヲ　殺スノハ　トテモ　楽シイ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠キングゥ
+オマエたちは[line 3]！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ラフム
+ソシテ。
+[k]
+
+＠ラフム
+オマエハ　トテモ、ツマラナイ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.2]
+
+[bgm BGM_EVENT_3 1.0 0.4]
+
+[messageOff]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+[wt 0.7]
+
+[charaFace H 0]
+[charaFadein H 0.7 -96,0]
+[wt 1.2]
+
+[se bac143]
+[wt 0.1]
+[charaFace B 10]
+[se ad161]
+[charaShake B 0.05 5 5 0.7]
+[charaEffect B bit_talk_35]
+[wt 1.0]
+
+[charaFace B 9]
+＠キングゥ
+ぐっ、う[line 3][r]オマエ、たち……何、を……
+[k]
+
+＠キングゥ
+ボクは、同じ、母さんの、仔[line 3]
+[k]
+
+[charaEffect B bit_talk_20]
+[se bas2]
+[wt 2.5]
+
+[messageOff]
+[charaEffectStop B bit_talk_20]
+[charaFadeout B 0.1]
+[charaFadeout H 0.1]
+[wt 1.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+聖杯……！[r]キングゥの内部から、聖杯の反応が現れました！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+やはり聖杯を収納していたのはキングゥだったか！[r]ゴルゴーンは彼経由で聖杯の恩恵を受けていたんだ！
+[k]
+
+＠Dr.ロマン
+しかし、なぜそれをラフムが奪う！？[r]キングゥを[#騙:だま]し討ちしてまで！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaSet B 3028000 1 ジャガーマン]
+
+[charaTalk D]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ケツァル・コアトル
+ジャガー！
+[k]
+
+
+[charaSet C 2020001 1 イシュタル]
+
+[charaFace B 5]
+＠ジャガーマン
+お任せ！
+[k]
+
+[se ad73]
+[charaSpecialEffect D erasureReverse 1 0.3]
+[charaSpecialEffect B erasureReverse 1 0.3]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠イシュタル
+逃がすか[line 3]！
+[k]
+
+[messageOff]
+[se bac71]
+[charaFadeout C 0.1]
+[wt 0.2]
+
+[charaDepth E 1]
+[charaDepth F 1]
+[charaDepth G 1]
+[charaDepth H 0]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[charaEffect H bit_talk_20]
+[effect bit_talk_41]
+[wt 0.5]
+
+[charaEffectStop H bit_talk_20]
+[wt 0.4]
+
+[se ad7]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaFace F 0]
+[charaFadein F 0.1 -312,0]
+[charaFace G 0]
+[charaFadein G 0.1 312,0]
+
+[effectStop bit_talk_41]
+[charaMove H -64,0 0.4]
+[charaFadeout H 0.4]
+[wt 0.2]
+
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[charaEffect E bit_talk_14]
+[se bac10]
+[charaShake E 0.05 5 5 0.7]
+[charaShake F 0.05 5 5 0.7]
+[charaShake G 0.05 5 5 0.7]
+[wt 1.4]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[charaEffect H bit_talk_20]
+＠H：ラフム
+オマエ　ハ　モウ　要ラナイ。[r]コレハ　我々ガ　回収スル。
+[k]
+
+[messageOff]
+[charaEffectStop H bit_talk_20]
+[se ad46]
+[wait se ad46]
+[wt 0.2]
+
+[se ad53]
+[charaChange H 98107900 0 blink 1.5]
+[wt 2.5]
+＠H：ベル・ラフム
+母を起こスのは　我々ノ仕事ダ。[r]時代遅れの[#オマエ:キングゥ]は、ここで死ね。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ラフム、聖杯を飲み込んで変形しました！[r]あれは翼[line 3]ダメです、先輩！
+[k]
+
+＠マシュ
+あの個体は飛行専門です！[r]このままだと逃げられます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠イシュタル
+逃がすかっていうの！[r]雑魚は任せたわコアトル、私たちはアイツを落とす！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+気をつけなさい！　その個体、体内に魔力炉がある！[r]今までとは段違いの魔力量よ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

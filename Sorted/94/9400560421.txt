@@ -1,0 +1,205 @@
+
+＄94-00-56-04-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 4024000 1 モードレッド]
+[charaSet B 98100800 1 うりぼう]
+
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+＠モードレッド
+……手分けして探せったってなぁ。
+[k]
+
+[charaFace A 4]
+＠モードレッド
+この広い島だ。戦ってる間に見失ったんなら、[r]もうどっか遠くに行っちまってるに決まってるだろ。
+[k]
+
+[charaFace A 5]
+＠モードレッド
+やっぱ父上……おほん、アーサー王は人使いが荒いな。[r]人の気持ちがわからねぇな。うんうん。
+[k]
+
+＠モードレッド
+…………。
+[k]
+
+[charaFace A 1]
+＠モードレッド
+ああ、やめたやめた！　真面目に探してどうすんだよ、[r]別に褒美が出るわけでもなし！
+[k]
+
+＠モードレッド
+探したけど見つかんなかったっつって帰ろーっと[line 3][r]……ん？
+[k]
+
+[bgmStop BGM_EVENT_28 2.0]
+
+[se ad27]
+[wt 0.4]
+[se ad27]
+
+[charaFace A 0]
+＠モードレッド
+なんだ？　この茂みから音が……。
+[k]
+
+[charaFadeout A 0.1]
+
+[se ad27]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.4 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠うりぼう
+ぴぐッ……！？
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace A 4]
+＠モードレッド
+……見つけちまったじゃねぇか。
+[k]
+
+
+[charaShake B 0.05 3 3 0.0]
+
+＠うりぼう
+……（ぷるぷる）……。
+[k]
+
+[charaFace A 3]
+＠モードレッド
+…………。
+[k]
+
+[charaShake B 0.05 5 6 0.0]
+
+＠うりぼう
+……（ぷるぷるぷるぷる）……。
+[k]
+
+[charaFace A 6]
+＠モードレッド
+………………（ちらっ）。
+[k]
+
+[charaFace A 0]
+＠モードレッド
+あー、なんだ。[r]オマエ、オレのこと知ってるか？
+[k]
+
+[charaShakeStop B]
+
+[charaFace B 0]
+＠うりぼう
+……？
+[k]
+
+[charaFace A 0]
+＠モードレッド
+はっ。知らねえんなら覚えときな。[r]オレは叛逆の騎士モードレッドだ。
+[k]
+
+[charaFace A 1]
+＠モードレッド
+いけすかない王の命令なんかにゃ……[r]叛逆して当然、なんだぜ？
+[k]
+
+[bgmStop BGM_EVENT_5 2.0]
+
+[charaMove A 0,0 1.0]
+[wt 1.5]
+[charaMove A -35,-130 1.0]
+[cameraMove 1.0 172,30 1.5]
+[wt 1.5]
+[se ad110]
+[wt 0.4]
+[se ad110]
+[charaShake B 0.05 3 0 0.25]
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+[charaFace B 2]
+＠うりぼう
+ぴぃ……キュッ……。
+[k]
+
+[charaFace A 3]
+＠モードレッド
+お……意外とモフモフしてんだな、オマエ……。
+[k]
+
+＠モードレッド
+…………。
+[k]
+
+[charaFace A 0]
+[charaMove A 0,0 1.0]
+[cameraMove 1.0 0,0 1.0]
+[wt 1.5]
+[charaMove A 256,0 0.5]
+[wt 1.2]
+
+[charaFace A 1]
+＠モードレッド
+さってと！　王の命令を無視して気分は最高だぜ！[r]海に戻って波にでも乗るとすっか！
+[k]
+
+[charaFace A 0]
+＠モードレッド
+そういや、ターゲット[#誘:おび]き出し用にマリーのやつから[r]木の実貰ってたけど、全然いらねーな。
+[k]
+
+＠モードレッド
+このへんに捨てていっちまおうっと。
+[k]
+
+[se ad78]
+[charaFace B 0]
+＠うりぼう
+ぴぐー……フンフン……。
+[k]
+
+[charaFace A 0]
+＠モードレッド
+どこの何が拾い食いするかも知らねぇが、ま、食ったら[r]ちっとは腹も膨れるだろ。
+[k]
+
+＠モードレッド
+もうあの畑には近付くなよ、ってな独り言だ。[r]じゃあな。
+[k]
+
+[charaFadeout A 0.7]
+
+[se ad60]
+[wt 0.1]
+[seStop ad60 2.0]
+[wt 0.7]
+
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠うりぼう
+…………。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

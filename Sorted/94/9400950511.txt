@@ -1,0 +1,453 @@
+
+＄94-00-95-05-1-1
+[charaSet A 1017001 1 武蔵]
+[charaSet B 3006000 1 鬼]
+[charaSet C 98001000 1 マシュ]
+[charaSet D 98002000 1 フォウ]
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[scene 28000]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[effectStop bit_talk_13]
+[charaTalk B]
+[charaFace B 0]
+[charaShadow B true]
+[charaFadein B 0.1 1]
+[fowardEffect bit_talk_Slash_red_01 64,0]
+[se bac136]
+[wt 0.2]
+[effectStop bit_talk_Slash_red_01]
+[fowardEffect bit_talk_14 64,0]
+[se ad170]
+[charaShake B 0.05 7 0 0.4]
+[seStop ad170 0.7]
+[wt 0.7]
+[effectStop bit_talk_14]
+[fowardEffect bit_talk_12_blue_L -64,0]
+[se bac135]
+[wt 0.2]
+[effectStop bit_talk_12_blue_L]
+[fowardEffect bit_talk_14 -64,0]
+[se ad170]
+[charaShake B 0.05 7 0 0.4]
+[seStop ad170 0.7]
+[wt 0.7]
+[effectStop bit_talk_14]
+[effect bit_talk_Slash_red_01]
+[se bac136]
+[wt 0.2]
+[fowardEffect bit_talk_13]
+[charaShake B 0.05 7 0 1.0]
+[wt 1.4]
+[effectStop bit_talk_Slash_red_01]
+[wt 1.0]
+[charaPut B 1024,1024]
+[charaFadeout B 0.1]
+[charaShadow B false]
+[wt 0.7]
+[effectStop bit_talk_13]
+
+
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠武蔵
+有馬某、確かに討ち取った……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaShadow B true]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 4 0 0.7]
+＠鬼
+ぐ、お……！[r]おお、お……！
+[k]
+
+＠鬼
+この、逃れようのない死の宣告[line 3][r]まさしく、まさしくこれぞ、あの日に出逢った剣の花……！
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_3 1.0]
+[wt 1.7]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠鬼
+は、は[line 3]だが、空しいな。
+[k]
+
+＠鬼
+悲しきかな武蔵。哀れなるかな武蔵。[r]元の世界に帰るなど、と[line 3]
+[k]
+
+＠鬼
+おぬしはどこにも帰れない。[r]おぬしは既に、英霊どもと同じなれば。
+[k]
+
+＠鬼
+気付いているだろうに。[r]おぬしの世界など、とうの昔に消え去った。
+[k]
+
+＠鬼
+おぬしは消える世界から弾き出され、[r]ただ、他人の世界に流される[#櫂:かい]にすぎぬ。
+[k]
+
+＠鬼
+永遠に。永遠に、仲間外れなのだ。
+[k]
+
+＠鬼
+おぬしが許容される世界など、[r]もうこの地上の、どこに行こうとあるまいよ。
+[k]
+
+[messageOff]
+
+[charaPut B 1024,1024]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaShadow B false]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠武蔵
+…………。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaShadow B true]
+[charaFadein B 0.1 1]
+＠鬼
+おぬしはどこにも帰れず、その旅は永劫に続く。[r]生涯最高の敵と相対する、その時まで。
+[k]
+
+＠鬼
+故に、それが悲しい。[r]そのような名手など、この地上には存在せぬが故。
+[k]
+
+[charaPut B 1024,1024]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaShadow B false]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[charaShake B 0.05 4 0 0.4]
+＠武蔵
+……待った。死者の遺言にケチをつけたくないから[r]黙っていたけど、なに言っているのよ。
+[k]
+
+[charaFace A 2]
+＠武蔵
+生涯最高の敵なんて、いくらでも出会えるわ。[r]そもそも今回だって怖ろしい爺さまに追い詰められて、
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaShadow B true]
+[charaFadein B 0.1 1]
+＠鬼
+[line 3]否。[r]そうではない。そうではないのだ、武蔵。
+[k]
+
+＠鬼
+おぬしより優れた剣士、[r]おぬしより優れた達人は確かにいよう。
+[k]
+
+＠鬼
+だが最高の敵とは、そのようなものではない。
+[k]
+
+＠鬼
+おぬしが目指す道。おぬしの『起源』と真逆の道を[r]極めた者こそが、剣者にとっての最高の敵である。
+[k]
+
+＠鬼
+されど[line 3]されど、それは叶わぬ。[r]いるはずが無いのだ。
+[k]
+
+＠鬼
+天眼の剣士。一を超える零を目指した剣士。[r]これと相克する道とは、即ち無限。
+[k]
+
+＠鬼
+無限に辿り着いた剣士などいる筈がない。[r]その道は、決して人に辿り着けるものではない。
+[k]
+
+＠鬼
+故に[line 3]貴様の旅は、決して終わらない。[r]ただ流れゆく舟の如く[line 3]
+[k]
+
+＠鬼
+ああ[line 3]悲しきかな、武蔵。[r]哀れなるかな、武蔵。
+[k]
+
+＠鬼
+それほどの剣才を持ちながら報われる事なく[line 3][r]それほどの鍛錬を積みながら機会に出会えず[line 3]
+[k]
+
+[charaFilter B silhouette 00000080]
+[charaEffect B bit_talk_06b2]
+[charaShadow B false]
+＠鬼
+あの夕暮れに咲く花のように、[r]ただ無為に散るのみなぞ[line 3]
+[k]
+
+[messageOff]
+[charaShadow B true]
+[charaSpecialEffect B darkEnemyErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect B]
+[charaEffectStop B bit_talk_06b2]
+[charaFadeout B 0.1]
+[charaShadow B false]
+[wt 0.7]
+
+[wt 1.4]
+
+[bgmStop BGM_EVENT_5 2.0]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠武蔵
+成仏されよ。いずれ、私もそちらに参ります。
+[k]
+
+？1：…………
+？2：…………武蔵ちゃん
+
+？！
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaFace A 0]
+＠武蔵
+さて。邪魔者はいなくなったし、[r]今度こそ本当にお別れね。
+[k]
+
+＠武蔵
+あの鬼は“元の世界には帰れない”なんて言ってたけど、[r]それは気にしないで。
+[k]
+
+[charaFace A 1]
+＠武蔵
+少なくとも、[#ここに来る前]の世界には帰れるから。[r]目が覚めたらカルデアに戻っている君のように。
+[k]
+
+＠武蔵
+あ、無事に戻れたら私の事を日記か何かに[r]残しておいてよね。
+[k]
+
+＠武蔵
+ほんの少しの出会いだったけど、[r]私たち、確かに一緒にいたんだから。
+[k]
+
+？1：武蔵ちゃんも覚えていてほしい
+
+？！
+
+[charaFace A 3]
+＠武蔵
+[line 3]ええ、もちろん！[r]それじゃ、さよならマスター[&君:さん]！
+[k]
+
+[charaEffect A bit_talk_06]
+
+[charaFace A 7]
+＠武蔵
+……と、そっか！[r]阿呆ね私、今さらこんな事に気付くなんて！
+[k]
+
+＠武蔵
+とっても目出度い、一年に一度だけの良い[#報:しら]せ[line 3][r]楽しいのも当然だった！
+[k]
+
+＠武蔵
+つまり、これって初夢だったのね！
+[k]
+
+[messageOff]
+[charaSpecialEffect A flash 1 1.7]
+[se ad52]
+
+[fadeout white 3.0]
+[wait fade]
+
+[scene 10001]
+
+[charaPut A 1024,1024]
+[charaSpecialEffectStop A flash]
+[charaEffectStop A bit_talk_06]
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_1 2.0]
+
+[fadein white 1.0]
+[wait fade]
+
+？1：ああ[line 3]またね、武蔵ちゃん！
+
+？！
+
+[wt 0.7]
+
+[se ad12]
+[effect bit_talk_07_02]
+[wait effect]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 10000]
+
+[fadein black 1.0]
+[wait fade]
+[wipeout openEye 1.0 1.0]
+[wait wipe]
+
+[scene 20161201]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[wipein openEye 1.0 1.0]
+[wait wipe]
+[wipeout openEye 0.4 1.0]
+[wait wipe]
+
+[wipein openEye 2.0 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_2 1.0]
+
+＠フォウ
+フォウ、フォーウ？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[se ad8]
+[wt 1.0]
+
+[se ad95]
+[wt 0.4]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.7 1]
+[seStop ad95 3.0]
+[wt 1.0]
+＠マシュ
+おはようございます、先輩。[r]新年、明けましておめでとうございます。
+[k]
+
+＠マシュ
+昨夜の伝言通り、[r]朝七時のモーニングコールにやってきました！
+[k]
+
+＠マシュ
+ダ・ヴィンチちゃん主催の餅つき大会、[r]その準備をお手伝いするんですよね？
+[k]
+
+＠マシュ
+なのでわたしも張り切って[line 3]マスター？
+[k]
+
+[charaFace C 3]
+＠マシュ
+……あの、どうかなされましたか？[r]目の下に、涙の跡のようなものがありますが……
+[k]
+
+？1：……分からない
+？2：……不思議な夢を、見たような……
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace C 3]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォ～～ウ？
+[k]
+
+[charaFace C 13]
+＠マシュ
+そうですか。[r]でも、悪いものではなかったのではないですか？
+[k]
+
+[charaFace C 1]
+＠マシュ
+なんで分かる、ですか？[r]はい、分かります。だって先輩、とても嬉しそうです。
+[k]
+
+[charaFace C 13]
+＠マシュ
+悲しいけれど、それと同じぐらい、いい事があった……[r]先輩がいつもする、そんな顔をしています。
+[k]
+
+＠フォウ
+フォウ。フォウ！
+[k]
+
+？1：……そっか。あけましておめでとう、マシュ
+？2：ダ・ヴィンチちゃんのところに行こうか！
+
+？！
+
+＠マシュ
+[charaFace C 1]
+はい！　2017年最初のミッション、[r]お供しますねマスター！
+[k]
+
+[charaTalk D]
+[charaMove D -256,20 0.1]
+[wait charaMove D]
+[charaMove D -256,0 0.1]
+[wait charaMove D]
+[charaTalk D]
+[charaMove D -256,20 0.1]
+[wait charaMove D]
+[charaMove D -256,0 0.1]
+[wait charaMove D]
+＠フォウ
+フォウ、フォ[line 3]ウ！
+[k]
+
+
+
+
+[messageOff]
+[fadeout white 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

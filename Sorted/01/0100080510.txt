@@ -1,0 +1,923 @@
+＄01-00-08-05-1-0
+
+
+
+
+[charaSet A 9938300 1 魔神フォルネウス]
+[charaSet B 4003001 1 ドレイク]
+[charaSet C 98018100 1 海賊]
+[charaSet D 98018000 1 ボンベ]
+[charaSet E 4008002 1 黒髭]
+[charaSet F 4009101 1 メアリー]
+[charaSet G 4009201 1 アン]
+[charaSet H 7015001 1 エイリーク]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_3 0.1]
+
+[scene 36100]
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神フォルネウス
+起動せよ。起動せよ。[r]観測所を司る九柱。即ち、
+[k]
+
+＠魔神フォルネウス
+グラシャ＝ラボラス。ブネ。ロノウェ。ベリト。[r]アスタロス。フォラス。アスモダイ。ガープ。
+[k]
+
+[se ad63]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wt 0.4]
+
+＠魔神フォルネウス
+我ら九柱、時間を嗅ぐもの。[r]我ら九柱、事象を追うもの。
+[k]
+
+＠魔神フォルネウス
+“七十二柱の魔神”の名にかけて、[r]我ら、この集成を止む事認めず……！
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+
+[seStop ad14 0.2]
+[wt 0.3]
+
+[messageOff]
+
+[se bac177]
+[charaEffect A bit_shot_01]
+[charaShake A 0.05 7 7 1.0]
+[se bac21]
+[wt 0.4]
+[se bac22]
+[wt 1.0]
+
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[wait wipe]
+
+[wt 0.7]
+
+[charaFadeout A 0.1]
+[scene 36320]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+[bgm BGM_MAP_5 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 0.3]
+
+＠ドレイク
+おっと待ちな。ここから[#未来:あっち]、[r][#現在:いま]から[#過去:そっち]まで、洗いざらいアタシたちのモノでね。
+[k]
+
+＠ドレイク
+要するに、アタシたちの縄張りって事。[r]命も含めて一切合切置いてってもらわないとねぇ？
+[k]
+
+[charaFace B 1]
+＠ドレイク
+なあに、やってきたばかりで図々しいのは百も承知さ。[r]でも仕方ないだろ？　アタシら海賊なんだから！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[se ad16]
+[shake 0.05 4 4 1.0]
+[seStop ad16 2.0]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 0 7 0.7]
+＠海賊
+ヒュー！[r]姐さんマジかっこぃ[line 3]！！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ドレイク
+ああ、いつも通り陽気に行くよヤロウども！
+[k]
+
+[charaFace B 2]
+＠ドレイク
+相手が誰であろうが何であろうが、[r]アタシたちのやることに変わりは無い！
+[k]
+
+[charaFace B 1]
+＠ドレイク
+奪って呑んで騒ぐだけさ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠海賊
+しかし姐御！
+[k]
+
+＠海賊
+姐御は何つーか、幽霊だか何だかになっても納得できるん[r]ですが、俺たちゃどーして復活したんですかねぇ！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ドレイク
+小難しいことはくたばってから考えな！[r]あと幽霊じゃないから！
+[k]
+
+[charaFace B 5]
+＠ドレイク
+こんな肉身のある幽霊がいるものかってぇの！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace D 0]
+[charaFace C 0]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+
+[charaMove D -64,0 0.2]
+[wt 0.2]
+[se ad102]
+[charaShake C 0.05 3 0 0.2]
+[charaMove D 2 0.1]
+[wt 0.4]
+
+[charaTalk on]
+
+[charaTalk D]
+＠ボンベ
+この考えなしの無法野郎！[r]姐さんが幽霊に滅法苦手だってのを知ってて言ってんのか！
+[k]
+
+[charaShake D 0.05 2 2 0.7]
+＠ボンベ
+だが間違ってもそれで脅かせると思わない事だ！[r]姐さん、幽霊相手に迷わず銃で撃つからな！
+[k]
+
+＠ボンベ
+ちなみにこの眼帯は、その時の銃撃が元だ！
+[k]
+
+[charaShake C 0.05 0 2 0.7]
+＠海賊
+うわー、死んだ後で初めて知ったこのどうでもいい事実！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ドレイク
+よーし砲手！　ボンベを大砲に詰めて、あの肉柱に向かって[r]撃っちまいな。アタシが許可する！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 4 2 0.7]
+＠ボンベ
+ひい、それはご勘弁を！[r]ちゃんと仕事しますから[line 3]！
+[k]
+
+＠ボンベ
+オラ、テメエらもサボってねえで手足を動かせ！[r]何だか知らねぇが、俺たちまで引っ張られたんだ！
+[k]
+
+＠ボンベ
+こうなりゃ、死ぬまでどころか死んでも[r]供回りするしかねえぞ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[se ad16]
+[shake 0.05 4 4 2.0]
+＠海賊’ｓ
+おうよ大将！[r]俺たちゃ『黄金鹿』の船乗りだ！
+[k]
+
+＠海賊’ｓ
+どこまでも姐さんについていくぜ！！[r]イヤッホー！！
+[k]
+
+[seStop ad16 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ドレイク
+ん？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[shake 0.05 4 4 1.0]
+[se ad34]
+[seStop ad34 1.0]
+[wt 1.2]
+[shake 0.05 7 7 1.0]
+[se ad34]
+[seStop ad34 1.0]
+[wt 1.2]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠海賊
+姐さん！[r]左舷から新しい船が出現！
+[k]
+
+＠海賊
+ありゃあ……『[#女王アンの復讐号:クイーン・アンズ・リベンジ]』です！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ドレイク
+へぇ、そうかいそうかい。アイツも来たのかい。[r]うざったいが頼もしいねぇ。
+[k]
+
+[charaFace B 2]
+＠ドレイク
+おーい、黒髭！　聞こえるかー！[r]アンタはどっちだーい！？
+[k]
+
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[scene 36310]
+
+[charaFadeout B 0.1]
+[wt 0.4]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk E]
+[charaDepth E 2]
+[charaFace E 0]
+[charaFadein E 0.7 1]
+＠黒髭
+フッ。[r]おまえを倒すのは、この拙者……。
+[k]
+
+[charaFace E 5]
+＠黒髭
+その役割、他の者に果たさせる訳にはいか[line 3]
+[k]
+
+
+[charaMove E 0,20 0.1]
+[wt 0.1]
+[charaMove E 0,0 0.1]
+[wt 0.2]
+
+[se ad85]
+[charaMove E 1024,0 0.2]
+[fowardEffect bit_bolg_02]
+
+[messageOff]
+
+
+[wt 0.7]
+
+[fowardEffectStop bit_bolg_02]
+
+[fadeout black 0.4]
+[wait fade]
+
+[wt 0.3]
+[scene 36100]
+
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[fadein black 0.4]
+[wait fade]
+
+
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+
+＠魔神フォルネウス
+貴様は特に不認なり。
+[k]
+
+[messageOff]
+
+[fadeout black 0.4]
+[wait fade]
+
+
+[wt 0.3]
+
+[charaFadeout A 0.1]
+[seStop ad14 0.2]
+[scene 36310]
+
+
+[fadein black 0.4]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaMove E 1 0.2]
+[wt 0.2]
+
+[charaMove E 0,20 0.1]
+[wt 0.1]
+[charaMove E 0,0 0.1]
+[wt 0.2]
+
+[charaMove E 0,20 0.1]
+[wt 0.1]
+[charaMove E 0,0 0.1]
+[wt 0.2]
+
+[charaFace E 0]
+＠黒髭
+うひゃるっほぅい！？[r]ちょっとアナタ！
+[k]
+
+[charaFace E 2]
+＠黒髭
+人がチョーカッコイイ口上中に無造作に攻撃するとか、[charaMove E 0,20 0.1][wt 0.1][charaMove E 0,0 0.2][wt 0.2][charaMove E 0,20 0.1][wt 0.1][charaMove E 0,0 0.2][wt 0.2][r]人としてどうかと思いますわよ！？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadein F 0.1 0]
+[charaFadein G 0.1 2]
+＠メアリー
+凄い、アン。[r]この船長、魔神柱相手に人としてどうかを説いてるよ。
+[k]
+
+[charaTalk G]
+＠アン
+ある意味、平等主義と解釈すべきなのかしら……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+[charaMove E 64,0 0.2]
+[wt 0.2]
+[charaMove E -64,0 0.2]
+[wt 0.2]
+[charaMove E 64,0 0.2]
+[wt 0.2]
+[charaMove E -64,0 0.2]
+[wt 0.2]
+[charaMove E 1 0.1]
+[wt 0.2]
+＠黒髭
+いやー、しかしまさかチミたちまで応じてくれるとは！[charaMove E 0,20 0.1][wt 0.1][charaMove E 0,0 0.2][wt 0.2][charaMove E 0,20 0.1][wt 0.1][charaMove E 0,0 0.2][wt 0.2][r]もしかしてフラグ立ってた？　知らない内に？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFace G 4]
+[charaFadein F 0.1 0]
+[charaFadein G 0.1 2]
+＠メアリー
+死亡フラグはこれ以上ないほど立ってるけどね。[r]……ま、実のところ今までで一番悪くない海賊団だったし。
+[k]
+
+＠アン
+ドレイク船長のところに配属されれば、[r]良かったんですけどねぇ。
+[k]
+
+[charaFace G 0]
+＠アン
+ま、仕方ありませんわ。[r]わたしたちは、アナタで我慢することにしましょう。
+[k]
+
+[charaFace F 0]
+＠メアリー
+そうそう、我慢我慢妥協妥協。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+[charaMove E 64,0 0.2]
+[wt 0.2]
+[charaMove E -64,0 0.2]
+[wt 0.2]
+[charaMove E 64,0 0.2]
+[wt 0.2]
+[charaMove E -64,0 0.2]
+[wt 0.2]
+[charaMove E 1 0.1]
+＠黒髭
+わあい、都合の良い[#船長:おとこ]扱い！[r]まあでも、所詮現実の女なんてそんなモンさ！
+[k]
+
+[messageOff]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.7 1]
+＠エイリーク
+……女性に夢を押しつけすぎであろう。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[charaMove E 0,20 0.1]
+[wt 0.1]
+[charaMove E 0,0 0.1]
+[wt 0.2]
+
+＠黒髭
+[font large]え。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace F 2]
+[charaFace G 2]
+[charaFadein F 0.1 0]
+[charaFadein G 0.1 2]
+＠二人
+喋った！？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠エイリーク
+そら、船長。[r]ヘクトールは不在だ。
+[k]
+
+[charaFace H 0]
+＠エイリーク
+この船は我らとお前の部下だけ。[r]ならば、向こうの船と共闘すべきだろう。
+[k]
+
+＠エイリーク
+ドレイクからも呼び掛けが来てるではないか。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+[charaMove E 0,20 0.1]
+[wt 0.1]
+[charaMove E 0,0 0.1]
+[wt 0.2]
+
+[charaShake E 0.05 4 0 0.7]
+＠黒髭
+わ、分かってらぁ！[r]今、返事をするとこだよ！
+[k]
+
+[charaFace E 2]
+＠黒髭
+トラ・トラ・トラ！[r]要するに了解したって伝えてやりな！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠海賊
+了解、船長！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.4 1]
+
+＠黒髭
+共闘……フランシス・ドレイクと共闘か……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadein F 0.1 0]
+[charaFadein G 0.1 2]
+＠メアリー
+嬉しさが隠しきれてないねえ、船長。
+[k]
+
+＠アン
+しょうがない[#船長:おばかさん]ですこと。[r]いつまでも子供なんですから。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[charaShake E 0.05 4 0 0.7]
+＠黒髭
+うるせーやーい！
+[k]
+
+[charaFace E 1]
+＠黒髭
+ようし、野郎ども！[r]ＢＢ……ドレイクの船に動きを合わせるぞ！
+[k]
+
+[charaFace E 5]
+＠黒髭
+海賊のお宝盗むたぁ、ふてえ連中だ！[r]魔神だか悪魔だか知らねぇが[line 3]
+[k]
+
+[charaFace E 2]
+＠黒髭
+この超海賊黒髭のお宝に手を出したこと、[r]地獄で後悔していきな！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaFadeout E 0.1]
+[scene 36320]
+
+[charaFadeout B 0.1]
+[wt 0.4]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ドレイク
+よしよし、[#黒髭:あのバカ]もやる気じゃないか！[r]ヤロウども、間違っても負けるんじゃないよ！
+[k]
+
+[charaFace B 5]
+＠ドレイク
+あっちより先に大破したら、[r]地獄で一生便所掃除だ！
+[k]
+
+[charaTalk E]
+
+＠E：海賊’ｓ
+アイ・アイ・姉御！
+[k]
+
+[charaFace B 2]
+＠ドレイク
+『[#黄金の鹿号:ゴールデンハインド]』、大砲用意！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+[scene 36310]
+
+[charaFadeout B 0.1]
+
+[wipein rectangleStripRightToLeft 0.3 1.0]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠黒髭
+『[#女王アンの復讐号:クイーン・アンズ・リベンジ]』、大砲用意！
+[k]
+
+
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+[scene 36100]
+
+[charaFadeout E 0.1]
+[wipein cutAcross 0.7 1.0]
+[wait wipe]
+
+
+[fowardEffect bit_talk_41]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace E 5]
+[charaDepth E 1]
+[charaFadein E 0.1 2]
+[charaScale E 1.1]
+[charaFadeout E 0.4]
+
+[charaFace B 5]
+[charaDepth B 2]
+[charaFadein B 0.1 0]
+[charaScale B 1.1]
+[charaFadeout B 0.4]
+
+[charaFace E 5]
+[charaFadein E 0.1 224,0]
+[charaScale E 1.2]
+[charaFadeout E 0.4]
+
+[charaFace B 5]
+[charaFadein B 0.1 -224,0]
+[charaScale B 1.2]
+[charaFadeout B 0.4]
+
+[charaFace E 3]
+[charaFadein E 0.1 192,0]
+[charaScale E 1.3]
+
+[charaFace B 2]
+[charaFadein B 0.1 -192,0]
+[charaScale B 1.3]
+[charaFace E 2]
+＠二人
+[#撃:て]ぇぇぇぇぇぇ[line 3]！！！
+[k]
+
+[shake 0.05 4 4 0]
+[voice NP_400300_5]
+[wt 0.4]
+[shake 0.05 7 7 0]
+[voice NP_400800_1]
+[wt 0.8]
+[fowardEffectStop bit_talk_41]
+[wt 0.4]
+
+[messageOff]
+
+[wipeout circleOut 0.7 1.0]
+[wait wipe]
+
+
+[charaSet C 2009102 1 オリオン]
+[charaSet D 2009201 1 アルテミス]
+[charaSet H 2009001 1 オリオン＆アルテミス]
+
+[voiceStop voice NP_400800_1 2.5]
+[wt 1.5]
+
+
+[charaTalk on]
+[shakeStop]
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+
+[scene 36300]
+
+[wipein heartOutBig 1.0 1.0]
+[wait wipe]
+
+[wt 0.2]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.7 1]
+＠オリオン
+あ[line 5]来ちゃった♡
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+[charaFace C 3]
+[charaFadein C 0.1 0]
+
+＠アルテミス
+はいそこ。
+[k]
+
+[charaFace D 0]
+＠アルテミス
+一人暮らしの大学生に、故郷の幼馴染みが[r]突然会いに来た的なノリで挨拶しないの。
+[k]
+
+[charaFace C 0]
+＠オリオン
+くっそう、来ちゃった……来ちゃったよ……。[r]っていうかさぁ！
+[k]
+
+[charaFace C 2]
+＠オリオン
+そろそろ本来の俺に戻してくんないですか[r]アルテミスちゃん様！？
+[k]
+
+＠オリオン
+さすがにこの姿で、この神殿に来るとか[r]半端なく空気読んでねぇ感が伝わってくるんですけど！
+[k]
+
+[charaFace C 4]
+＠オリオン
+あそこのイカゲソ君たちも『なにあれ？』って感じの[r]眼球で見つめてない？　見つめてるよね？
+[k]
+
+＠オリオン
+違うんです、誤解なんです！[r]大体、ここのふんわりあっぱらぱ女神の責任です！
+[k]
+
+[charaFace D 3]
+＠アルテミス
+心配なのにぃ。
+[k]
+
+[charaFace D 1]
+＠アルテミス
+それにほら、一度関わった以上地獄の果てまで[r]絡んでいくのがギリシャ女神の心意気だし？
+[k]
+
+＠アルテミス
+[#あの子:マスター]も頑張ってるんだから、[r]たまにはスペシャルサービスよ！
+[k]
+
+[charaFace C 0]
+＠オリオン
+ま、女神様たるおまえさんが何かに関心を持つのは[r]いいこと……と、信じたいもんだ！
+[k]
+
+[charaFace C 1]
+＠オリオン
+いやまあ、ギリシャ神話的に神様に関心持たれるなんて、[r]ろくでもない死に方をするって決定したようなもんだけどネ！
+[k]
+
+[charaFace D 0]
+＠アルテミス
+もー、細かいことはいいっこなし！
+[k]
+
+[charaFace D 1]
+＠アルテミス
+さ、ダーリン♪[r]頭の上に載って載って！
+[k]
+
+[charaFace C 0]
+＠オリオン
+あーもー、分かったよ！
+[k]
+
+[charaMove D 1 0.7]
+[charaMove C 1 0.7]
+[charaFadeout D 0.7]
+[charaFadeout C 0.7]
+[wt 0.7]
+
+[charaSet C 2009101 1 オリオン]
+
+[charaTalk off]
+
+[charaFace C 0]
+[charaFace H 1]
+[charaDepth C 2]
+[charaDepth H 1]
+[charaFadein C 0.1 -49,217]
+[charaFadein H 0.1 1]
+＠オリオン
+一応言っておくけど、指示は俺がするからな！[r]おまえはなーんにも考えずに、弓を射つことだけを考えろ！
+[k]
+
+[charaFace H 1]
+＠アルテミス
+はーい♪[r]さあ、ダーリン……世界の果てまで付き合ってね？
+[k]
+
+[charaFace C 4]
+＠オリオン
+[font small]……………………はい。
+[k]
+
+[charaFace H 2]
+＠アルテミス
+返事が小さ[line 3]い！！
+[k]
+
+[charaFace C 2]
+＠オリオン
+は[line 7]い！[r]よっしゃ、行くぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_MAP_5 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,654 @@
+＄94-00-64-22-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5028001 1 イリヤ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5023000 1 エレナ]
+[charaSet E 98103600 1 ルビー]
+
+[scene 20304]
+
+[fadein black 2.0]
+[wait fade]
+[wt 0.5]
+
+[se ad13]
+
+？1：戦闘終了[line 3]ドクター、ドクター！？
+？！
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ドクターからの返事が……無い？[r]また、カルデアとの通信に異常が……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace A 0]
+[charaFace D 5]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠エレナ
+にらまないで、マシュ。[r]わざと危険な領域に連れてきたとでも？
+[k]
+
+[charaFace D 4]
+＠エレナ
+あたしは何もしてないわ。[r]まあ、予想できた事態ではあったけれど。
+[k]
+
+[charaFace A 6]
+＠マシュ
+それはどういう……？[r]とにかくこのままでは[line 3]
+[k]
+
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ええっ……[&お兄さん:お姉さん]たち、[r]カルデアに帰れなくなっちゃったんですか！？
+[k]
+
+
+？1：どうやらそういう事に……あれっ？
+？！
+
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.5]
+
+
+[se ad31]
+＠Dr.ロマン
+[%1][&君:ちゃん]、[r]みんな、無事かい！？
+[k]
+
+[seStop ad31 1.0]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+
+＠マシュ
+ドクター！[r]よかった、ハラハラしました。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+すまないが、まだ安心は出来ない。[r]カルデアが襲撃された。
+[k]
+
+[charaFace A 14]
+＠マシュ
+[line 3]！？[r]……まさか！？　そんなっ……。
+[k]
+
+＠Dr.ロマン
+そのまさかだ。そちらとのレイラインをたどって、[r][#敵性体:エネミー]を数体、送り込まれた！
+[k]
+
+
+？1：カルデアへ……直接、敵性体を！？
+？！
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+そうだ。[r]なんらかのクラッキングを受けたらしい。
+[k]
+
+＠Dr.ロマン
+今さっきの通信遮断は、[r]こちらから意図的に操作したものだ。
+[k]
+
+＠Dr.ロマン
+襲撃してきた敵は、待機中のサーヴァントの協力で[r]なんとか処理したが、これが続くようなら致命的だ。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、[r]それとマシュ。二人はただちに帰還してほしい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………っ……それは……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+……と言っても、マシュと[r][%1][&君:ちゃん]のことだ。
+[k]
+
+＠Dr.ロマン
+あっさり、はい[line 3]とは[#肯:うなず]いてくれないね。[r]わかってるよ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でも、事態が急を要することは理解してほしい。
+[k]
+
+＠Dr.ロマン
+ひとまず、また通信を停止して、[r]そちらからの影響を遮断する。
+[k]
+
+＠Dr.ロマン
+５分後に、もう一度こちらから通信する。[r]それまでに結論を出してくれ。
+[k]
+
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………先輩……。
+[k]
+
+[backEffect bit_talk_diremond_dust]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+………………あっ……。
+[k]
+
+[charaFace B 4]
+＠イリヤ
+雪が……[r]……雪が降ってきた……。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[backEffectStop bit_talk_diremond_dust]
+[wt 0.5]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+[fowardEffect bit_talk_eyecatch_06]
+[wait fowardEffect bit_talk_eyecatch_06]
+[fadeout black 0.5]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0 1]
+
+[scene 20304]
+
+[backEffect bit_talk_diremond_dust]
+[bgm BGM_EVENT_32 2.0]
+[fadein black 2.0]
+[wait fade]
+
+＠エレナ
+戦闘中に、メイヴの使い魔や、[r]周囲の様子を窺ってみたけれど[line 3]
+[k]
+
+＠エレナ
+メイヴはかなりの兵力を駆り出して、[r]周囲の国へ、大がかりな侵攻を始めたようね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……カルデアが危機に晒されるなんて、[r]なんて言ったらいいのか……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace A 4]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+[charaShake E 0.07 0 8 1.0]
+＠ルビー
+お悩み中のマシュさーん？[r]変身状態は解除したほうがよいですよー？
+[k]
+
+[charaFace A 6]
+＠マシュ
+えっ、なぜです、ルビーさん？[r]まだ戦闘の直後ですし……危険では？
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠ルビー
+マシュさんがデミ・サーヴァントでいるための魔力は、[r]いま完全に、そちらのマスター頼りですからネ。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠ルビー
+今後どうなるかわかりませんし、[r]なるべく節約モードでいったほうがよろしいかと。
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠ルビー
+とっさの事態には、[r]わたしとイリヤさんで対応できますしー？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+うんっ。そうだねルビー、[r]たまにはいいこと言うじゃない。
+[k]
+
+＠イリヤ
+まかせてマシュさん！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そう、でした……そうなるのですね……[r]カルデアとの繋がりを遮断されるというのは……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……了解しました。
+[k]
+
+[messageOff]
+[se bac65]
+[fowardEffect bit_talk_tornado01]
+
+[wt 0.8]
+[charaChange A 98001000 0 fade 0.5]
+[wait charaChange A]
+
+[wt 0.5]
+
+[charaFace A 12]
+＠マシュ
+けれど……わたしたちは、[r]どうすべきでしょうか、先輩？
+[k]
+
+
+？1：ちゃんと原因を突き止めるべき、だと思う
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エレナ
+……一応、この世界の古参として言わせてもらえば、[r]あたしも[%1]の意見に賛成。
+[k]
+
+＠エレナ
+このまま、あなたたちの平行世界へ[r]逃げ帰ったところで、根本的な解決にはならない。
+[k]
+
+[charaFace D 4]
+＠エレナ
+脅威が遠ざかるわけではない。[r]イレギュラーな警戒態勢はそのまま続くでしょう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……カルデアを危険に[#晒:さら]した状態のまま……。[r]それは確かに解消しなくては……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+でも本当によろしい……のですか、先輩？[r]このままイリヤさんに同行する、ということですよね。
+[k]
+
+[charaFace A 14]
+＠マシュ
+いえっそんなっ、不服なはずが！[r]わ[charaFace A 13]たしもイリヤさんたちに協力できて嬉しいんです。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_32 1.5]
+
+[charaTalk B]
+[charaFace A 13]
+[charaFace B 3]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠イリヤ
+あ……あ、あ……[r][&お兄さん:お姉さん]、マシュさん……。
+[k]
+
+[charaTalk off]
+
+[bgm BGM_EVENT_34 0.1]
+
+[messageOff]
+[charaFace B 4]
+[charaMove B 100,0 0.2]
+[wait charaMove]
+[se ad111]
+[charaFace A 4]
+[charaShake A 0.05 3 3 0.5]
+[wt 0.5]
+
+[charaTalk on]
+
+＠イリヤ
+ありがとうございますぅ～～[r]なんとお礼を言ったらいいかぁ～～[charaFadeout B 0.3][se ad7]（がばっ）
+[k]
+
+
+[charaFace A 14]
+＠マシュ
+な、泣かないでください、イリヤさん！？[r]土下座はやめてください！　土下寝も！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaShake E 0.07 0 16 1.0]
+＠ルビー
+（キュピーン☆）そうとわかったら！？[r]魔力供給ですねー！！　レッツチャージ！！☆
+[k]
+
+[charaFadeout E 0.1]
+
+[charaPut B 1200,1200]
+[charaChange B 98102500 3 fade 0]
+[wt 0.1]
+[charaFadeout B 0]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠イリヤ
+えっ[line 3]はあっ！？[r]ちょっ、なに言ってるのルビー！？
+[k]
+
+[charaShake E 0.07 0 16 1.0]
+＠ルビー
+大切なことじゃないですかー？[r]肝心な場面で魔力が切れてはお困りでしょう！？
+[k]
+
+[charaShake E 0.07 0 16 1.0]
+＠ルビー
+こうみえてイリヤさんは、[r]効率のよい魔力供給テクニックにお詳しいんですよー？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そうなのですか？　さすがは魔法少女ですね！
+[k]
+
+[charaFace A 7]
+＠マシュ
+ご教示願います、イリヤさんっ。[r]戦力増強に繋がる事でしたら、是非……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaDepth A 3]
+[charaDepth B 1]
+
+[charaTalk depthOff]
+
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 3]
+[charaFadein A 0.1 100,0]
+[charaFadein B 0.1 -100,0]
+
+＠イリヤ
+……っ……[r]あ、あの……（ごにょごにょごにょ）
+[k]
+
+＠マシュ
+………………はい……は…い……。
+[k]
+
+[charaFace A 3]
+＠マシュ
+…………えっ…………キ…………[r]……[#舌:した]…………[#唾:だ]…………ですか……？？
+[k]
+
+＠イリヤ
+…………（こ、こくり）……。
+[k]
+
+＠マシュ
+そ……それは…………[r]なんといいますか…………。
+[k]
+
+[charaFace A 8]
+＠マシュ
+うぁぁ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaShake E 0.07 0 16 1.0]
+＠ルビー
+さぁさぁマシュさん、あとは[#イリヤさん:ベテラン]に任せて！[r]力を抜いて口を半開きにして！
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠ルビー
+大丈夫です、これは一種の医療行為ですから！[r]全年齢対象でいけますから！
+[k]
+
+
+[charaChange E 98103700 0 fade 0]
+[charaFadein E 0 1]
+[charaShake E 0.07 0 16 1.0]
+＠ルビー
+あそーれ、ちゅーう！　ちゅーう！[r]ハイハイハイハイ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaPut E 1200,1200]
+[charaChange E 98103600 0 fade 0]
+[wt 0.1]
+[charaFadeout E 0]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+なにこれ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ちょ、ルビー！[r]雰囲気ってものが……！
+[k]
+
+？1：雰囲気次第ではするの？
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+
+＠マシュ
+せ、先輩……あの……[r]これは……不可抗力です……からっ……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.2]
+[charaScale A 1.4]
+
+[charaFace A 3]
+[charaFadein A 0.4 0,50]
+
+＠マシュ
+わたしは大丈夫です……ので……。
+[k]
+
+？1：魔力供給する
+？2：魔力供給しない
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[se ad13]
+[wt 1.0]
+
+[charaScale A 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エレナ
+あ、通信だわ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+さあ、二人とも結論を聞かせてもら[line 3]
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+……どうしたのかな、この空気は。[r]マシュ、顔が赤いね。あれっ怒ってるかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+さあてね？[r]原始的な魔力供給について、[#一悶着:ひともんちゃく]あって。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ん？　契約者からの魔力供給手段だって？
+[k]
+
+＠Dr.ロマン
+マシュと[%1][&君:ちゃん]の契約は、[r]イレギュラーなケースだけど……。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+これまで同様、特別な儀式は不要なはずだ。[r]よほど魔力を消耗した際には、令呪を[line 3]。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+いやいやそれより今は、もっと重要な用件があるだろ！？[r]カルデアの存続に関わる話だよ！？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_34 2.0]
+[wait fade]
+[backEffectStop bit_talk_diremond_dust]
+[soundStopAll]
+[end]

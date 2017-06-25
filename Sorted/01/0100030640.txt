@@ -1,0 +1,304 @@
+＄01-00-03-06-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 オリオン]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 2009201 1 ？？？]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠オリオン
+……なるほどねえ。[r]おおまかな事情はわかったよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFadein A 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠H：？？？
+ふーん、じゃあこの世界って永遠？[r]えたーなる？
+[k]
+
+＠マシュ
+……仮にこの時代はそうであってもいえ、[r]外枠がなくなれば消滅すると思われます。
+[k]
+
+[charaFace A 12]
+＠マシュ
+そうなってしまえば、我々の敗北であり、[r]人類史の終焉です。
+[k]
+
+[charaFace H 4]
+＠H：？？？
+……ちぇー。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠オリオン
+お前、この世界で永遠に暮らしたいとかそういうことを[r]考えていただろう。
+[k]
+
+[charaFace H 3]
+＠H：？？？
+やだ、私の思っていることを言い当てるなんて、[r]相思相愛っぽい……素敵……。
+[k]
+
+[charaFace E 5]
+＠オリオン
+永遠の世界で生きるくらいなら、[r]地獄で死んだ方が何ぼかマシだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、先輩。
+[k]
+
+[charaFace A 8]
+＠マシュ
+わたし、この二人……一人と一頭？　の関係が[r]微妙に釈然としないのですが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠H：？？？
+何よ。私とダーリンはどこをどう見ても[r]サーヴァント界一のカップルじゃない。
+[k]
+
+[charaFace E 0]
+＠オリオン
+うーん、第三者の目からはぬいぐるみに語りかける[r]痛い女にしか見えないんだろうなァ……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+なるほど、人の好みはそれぞれなのですね。[r]それはともかくとして、協力していただけますか？
+[k]
+
+[charaFace H 0]
+＠H：？？？
+ん～む。ねえ、どうするダーリン？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠オリオン
+どうするも何もなぁ、人類史が滅ぶ時点で[r]協力する以外の選択肢があるか、バカ！
+[k]
+
+[charaFace H 5]
+＠H：？？？
+バカじゃないもん！　女神様だもん！
+[k]
+
+[charaFace E 0]
+＠オリオン
+ええい、駄女神めが……！[r]ぺちぺちぺちぺちぺちぺちっ！
+[k]
+
+[charaFace H 0]
+＠H：？？？
+あう、ＤＶだっ！[r]ＤＶ事案って言うんだよね、これ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠エウリュアレ
+物凄い勢いで、話が進まないわね……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ドレイク
+……ところで、女神様。[r]アンタ名前は？
+[k]
+
+[charaSet H 2009201 1 アルテミス]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠アルテミス
+え？　アルテミスだけど。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+はぁ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！？
+[k]
+
+＠Dr.ロマン
+何ぃ！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace F 3]
+[charaFadein F 0.1 2]
+＠エウリュアレ
+……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠アステリオス
+う……？
+[k]
+
+[charaFadeout G 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠ドレイク
+とんでもない大物が出てきたね……。[r]カタリでもなさそうだし、どうしたもんか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+で、では、そちらのぬいぐるみさんは……？
+[k]
+
+[charaFace H 3]
+＠アルテミス
+こっちは私の恋人、オリオンよ。
+[k]
+
+[charaFace H 0]
+＠アルテミス
+……召喚されるって聞いて、不安になったから[r]私が代わってあげることにしたの！
+[k]
+
+＠Dr.ロマン
+な、なるほど。[r]神霊のランクダウンによる代理英霊召喚か……。
+[k]
+
+＠Dr.ロマン
+そういう例はないでもないらしいが……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠オリオン
+オリオンです。[r]聖杯戦争に召喚されたら、ヘンな生き物になってました。
+[k]
+
+[charaFace E 4]
+＠オリオン
+……ヘンな生き物に……。[r]ヘンな……。
+[k]
+
+？1：泣ける
+
+？2：生きろ
+
+？！
+
+[charaFace E 1]
+＠オリオン
+あ、ちなみに俺はかぎりなく役立たずなので。[r]彼女に超依存しなければ生きていけないので。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFadein E 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+＠アルテミス
+うふふ。[r]もっと依存してくれていいのよ、ダーリン。
+[k]
+
+[charaFace E 3]
+＠オリオン
+自立したいなァ……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 2]
+[charaFace A 11]
+＠マシュ
+コホン。
+[k]
+
+[charaFace A 13]
+＠マシュ
+では、共に戦いましょう。[r]アルテミスさん、オリオンさん。
+[k]
+
+[charaFace A 1]
+＠マシュ
+早速ですが、船の補修材料として竜の鱗が必要です。[r]全員の力を合わせて、掻き集めましょう！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[wt 0.5]
+[scene 20700 0]
+[charaTalk E]
+[charaFace H 0]
+[charaFadein H 0 0]
+[charaFace E 1]
+[charaFadein E 0 2]
+[fadein black 0.5]
+[wait fade]
+＠オリオン
+おう、こっちこっち。竜の巣ってのは、大体こういう[r]荒涼とした場所にあることが多いんだ。
+[k]
+
+[charaFace H 1]
+＠アルテミス
+ダーリン、博識♪
+[k]
+
+＠Dr.ロマン
+オリオン君の言う通りだ。[r]竜の反応が多数ある。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+それではサーヴァントの皆さん。[r]レッツハンティング、です。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

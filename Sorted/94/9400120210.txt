@@ -1,0 +1,356 @@
+＄94-00-12-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 7003001 1 呂布]
+[charaSet F 6013000 1 ファントム]
+[charaSet G 7011002 1 ダレイオス三世]
+
+[scene 20322]
+
+[se ad2]
+[fadein black 2]
+[wait fade]
+
+[seStop ad2 2.0]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+＠サンタオルタ
+はしれ騎兵ー、闇を裂いてー、[r]吹雪の中ー、迷うまようー！
+[k]
+
+？1：このソリ、ホントに空飛ぶんだ！
+
+[charaFace D 1]
+＠サンタオルタ
+当然だ。サンタたるもの、空を飛べなくてどうする。[r]世界中の子供たちにプレゼントを届けられん。
+[k]
+
+＠サンタオルタ
+このソリはラムレイ二号と名付けてある。[r]安心して身を任せるがいい。
+[k]
+
+？2：なんで怒鳴っているんですかー！？
+
+＠サンタオルタ
+無礼者！[r]怒鳴っているのではない、歌っているのだ！
+[k]
+
+＠サンタオルタ
+こうして存在をアピールしていれば飛行機に[r]ぶつかるコトもない！　サンタの常識だ！
+[k]
+
+？！
+
+[charaFace D 0]
+＠サンタオルタ
+よし。そろそろ目的地に到着する。[r]覚悟を決めるがいい[%1]。
+[k]
+
+＠サンタオルタ
+今回の「お願いサンタさん」レターはペルシャ在住、[r]ダレイオス君Ⅲ歳からのリクエストだ。
+[k]
+
+＠サンタオルタ
+……む。文字が黒塗りでまったく読めないが、[r]まあ、顔を見ればなにが欲しいかは分かるだろう。
+[k]
+
+＠サンタオルタ
+行くぞ！　華麗にエントツから侵入する！
+[k]
+
+[messageOff]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[wt 1.0]
+[fadeout black 0]
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.7]
+[scene 20900]
+[bgm BGM_EVENT_1 0.1]
+[wipein upToDown 0.0 1]
+[wait wipe]
+[fadein black 1]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+＠呂布
+[image berserker_language_1]！[r][image berserker_language_1]！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.4 1]
+＠ファントム
+おお……人の声帯を超克した鋼の慟哭……[r][#洞:ほら]より届く恩讐の[#叫:こえ]、死を[#呪:うた]う乙女の未練か……
+[k]
+
+[charaFace F 0]
+＠ファントム
+具体的に言うと空腹に耐えかねて暴れる娘の呻き、と[r]言うべきか。嗚呼、見苦しい、愛おしい[line 3]
+[k]
+
+＠ファントム
+私のセンスとは大きくかけ離れますが、[r]その気持ちは痛いほど伝わります。
+[k]
+
+＠ファントム
+天を衝く怒号。憎しみをはき出す貴方は[r]喩えるのならそう、滝を登る鯉に似て。
+[k]
+
+＠ファントム
+というか鯉のぼりに似て。[r]めでたい。嗚呼、なんとめでたい……そして憎らしい！
+[k]
+
+[charaFace F 2]
+＠ファントム
+クリスティーヌ！　クリスティーヌが遠ざかっていく！[r]何故だ！　運命はまたしても私と彼女を切り裂くのか！
+[k]
+
+＠ファントム
+カップル！　クリスマス！　サンタクロース！[r]恋人たちの夜なぞ聞くもおぞましい！
+[k]
+
+＠ファントム
+そうであろう、鯉のぼりの君よ！　何故に私たちは[r]こんな夜に、男性だけでつるんでいるというのです！？
+[k]
+
+[messageOff]
+[wipeout downToUp 0.5 1]
+[wait wipe]
+[charaFadeout F 0.1]
+[wt 1.0]
+[scene 10000]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[wipein upToDown 0.5 1]
+[wait wipe]
+
+＠サンタオルタ
+……なんという魂の叫びか。感動的すぎる。[r]あのサーヴァント、さぞ名のある役者なのだろう。
+[k]
+
+？1：ああ、まごう事なきエレジーだ。
+？2：まあ、まごう事なき逆恨みだ。
+
+？！
+＠サンタオルタ
+真に迫る名演というヤツだな。トリスタンめに[r]爪の垢でも飲ませたいところだが……
+[k]
+
+＠サンタオルタ
+……あの二人がダレイオス君とは思えないな。[r]あと他にあるものといったら……
+[k]
+
+[messageOff]
+[wipeout upToDown 0.5 3]
+[wait wipe]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20900]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0 1]
+[wipein upToDown 0.5 3]
+[wait wipe]
+[wt 1.0]
+
+[wipeout upToDown 0.5 3]
+[wait wipe]
+[charaFadeout G 0.1]
+[wt 0.5]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0 1]
+[scene 10000]
+[wipein upToDown 0.5 3]
+[wait wipe]
+
+＠サンタオルタ
+部屋の中心にあるキャンドルツリーぐらいだ。[r]ダレイオス君は不在だというのか？
+[k]
+
+＠サンタオルタ
+まあいい。このまま帰ってもいいが、[r]それではあの二人があまりに哀れ。
+[k]
+
+＠サンタオルタ
+マーリン曰く、オトコヤモメは死に勝る苦痛とか。[r]サンタとして見過ごす訳にはいかない。
+[k]
+
+＠サンタオルタ
+行くぞ[%1]！[r][#ぼっち:スクルージ]を救うキャロルのように！
+[k]
+
+[charaFadeout D 0.3]
+[messageOff]
+[wipeout upToDown 0.5 1]
+[wait wipe]
+[scene 20900]
+[wipein downToUp 0.5 1]
+[wait wipe]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[se ad7]
+[wt 0.3]
+
+[charaFace D 2]
+＠サンタオルタ
+平伏し観念する時だ、チビっ子よ！[r]我がプレゼントを食らうがいい！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFace F 0]
+[charaFadein E 0 2]
+[charaFadein F 0 0]
+＠呂布
+[image berserker_language_2]……？
+[k]
+
+[charaFace F 3]
+＠ファントム
+おお、クリスティーヌ！[r]戻ってきてくれたのですね、クリスティーヌ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+＠サンタオルタ
+む。待て、止まれ黒マント。[r]私のトナカイに近寄るな。
+[k]
+
+＠サンタオルタ
+客に手を出すなど三流のすること。[r]貴様は一流の役者ではなかったか？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0 1]
+＠ファントム
+なんと……私を一流の……演者と……？[r]この、醜くも浅ましい地下の亡霊である私を？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+＠サンタオルタ
+私は世辞は言わない。狂気であろうと貴様の叫びは[r]真実だ。不覚にも涙ぐんだ程にな。
+[k]
+
+＠サンタオルタ
+それより城主はどこにいる？[r]サンタに手紙を送った者がいる筈だが。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_1 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFace F 0]
+[charaFadein E 0 2]
+[charaFadein F 0 0]
+＠呂布
+[image berserker_language_1]！
+[k]
+
+[charaFace F 3]
+＠ファントム
+サンタ……ああ美しい人よ、なんという悲劇！[r]よく見ればアナタこそサンタクロース……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0 1]
+[charaShake G 0.1 5 5 3]
+＠ダレイオス三世
+オオ……オオオオオオオ！[r]サンタ……サンタァァァァアアア！
+[k]
+
+[shakeStop]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0 1]
+＠サンタオルタ
+！？　動くのか、このキャンドルツリーは！？[r]そして貴様ら、何のつもりだ！？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFace F 3]
+[charaFadein E 0 2]
+[charaFadein F 0 0]
+＠呂布
+[image berserker_language_1]！
+[k]
+
+[charaFace F 5]
+＠ファントム
+死になさい。悔い改めなさい。その袋をよこしなさい！[r]サンタクロースこそ、この世から排斥されるべきもの！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0 1]
+＠ダレイオス三世
+オオオオオオオオ！[r]プレゼント、くれぃぃいいいい！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0 1]
+＠サンタオルタ
+ええい、力ずくとはチビっ子にあるまじき……！[r]仕方あるまい、戦うぞ[%1]！
+[k]
+
+＠サンタオルタ
+夢見がちな子供に現実を突きつけるのも[r]サンタクロースの役割だからな！
+[k]
+
+？1：ああ、チビっ子とか一人もいないけどね！
+？2：サンタクロースって思ったより物騒なんだね！
+
+？！
+
+[charaFace D 0]
+＠サンタオルタ
+些細な食い違いだ、気にするな。[r]要はプレゼントさえ渡せればサンタだろう。
+[k]
+
+＠サンタオルタ
+だがピクト人でもあるまいし、室内で暴れるのは[r]いかにも行儀が悪い。クリスマスらしく外で勝負だ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,69 @@
+
+＄94-00-58-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 3025000 1 清姫]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+みこーん！　ありがとうございます、マスター！
+[k]
+
+[charaFace D 0]
+＠玉藻の前
+うーん、この新築の木の匂い！[r]すーはーすーはー。き、効くぅ……。
+[k]
+
+[charaFace D 3]
+＠玉藻の前
+目を閉じるだけで懐かしい森の光景が……[r]赤い鳥居が見渡す限りコーンなに、と。
+[k]
+
+[charaFace D 1]
+＠玉藻の前
+尻尾の根元にビンビンきちゃいますねぇ！[r]あ、いやらしい意味は特にないですよ？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠清姫
+まあ……わたくしのために、このような……。
+[k]
+
+＠清姫
+これは、やはり……愛ですね。[r]というかこれが愛の巣ですね！
+[k]
+
+[charaFace E 1]
+＠清姫
+ふふ、うふふふふふ……。改めて言う必要も[r]ありませんが、ええ、言わせてくださいませ。
+[k]
+
+＠清姫
+お慕い申し上げております、ますたぁ。
+[k]
+
+＠清姫
+さ、始めましょう……？[r]この愛の巣から、全てを……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

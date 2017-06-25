@@ -1,0 +1,118 @@
+
+＄91-70-08-01-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7008001 1 ベオウルフ]
+[charaSet D 98006200 1 グレンデル]
+[charaSet E 9001001 1 ジャンヌ]
+[charaSet F 1005001 1 ネロ]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 98016000 1 兵士Ａ]
+
+[scene 20110]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+終わりだ、グレンデル。[r]おまえは召喚されるはずのない怪物。
+[k]
+
+[charaFace C 4]
+＠ベオウルフ
+二度と会う事はないだろう。[r]……ったく。人生で一番会いたくない奴に会うなんてな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠グレンデル
+な、ぜ……。[r]おまえを、殺した、ものを……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+俺はおまえがこの世で一番恐ろしい。[r]あの火竜は、ただ俺にトドメを刺しただけだ。
+[k]
+
+＠ベオウルフ
+強くはあったが、怖くはない。[r]そしてあの時とは段違いに頼もしい戦力が揃っている。
+[k]
+
+[charaFace C 1]
+＠ベオウルフ
+それを見抜けなかったおまえが間抜けだ。
+[k]
+
+[charaFace C 0]
+＠ベオウルフ
+あばよ、なりすまし屋。おまえはもっと、[r]自分自身ってヤツを信じれば良かったんだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠グレンデル
+お、のれ……！
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[shake 0.05 0 5 0]
+[messageOff]
+[charaSpecialEffect D enemyErasure 1 1.7]
+[se ad20]
+[wait charaSpecialEffect D]
+[wt 0.4]
+[shakeStop]
+
+[wt 0.7]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+今度こそ倒せたようです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+らしいな。お陰で宝具が解放できた。
+[k]
+
+＠ベオウルフ
+これからも[#素手喧嘩:ステゴロ]上等の連中が出張ってくるだろう。[r]そういう奴が出張ってきたときは、俺を加えるんだな。
+[k]
+
+[charaFace C 1]
+＠ベオウルフ
+さて、と。じゃあ帰るか、マスター！[r]凱旋だ、凱旋を歌うぞ！　ハッハー！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

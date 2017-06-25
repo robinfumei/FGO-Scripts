@@ -1,0 +1,229 @@
+＄01-00-04-04-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 11010]
+[wipeFilter circleIn 0.5 1.0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5004002 1 ナーサリー・ライム]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+＠アンデルセン
+……口ほどにもない。[r]不思議の国の再現ぐらいは期待していたんだがな。
+[k]
+
+＠アンデルセン
+まあ、それも高望みというヤツか。[r]我々が強すぎたのも良くなかったな。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFadein H 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠モードレッド
+……おい。[r]何が我々が強すぎた、だクソガキ。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+おまえは何もしないばかりか、さんざんオレたちを[r]バカにしていただけの気がするんだけど、よ！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+や、やめましょうモードレッドさん。
+[k]
+
+[charaFace A 11]
+＠マシュ
+たしかに口の悪い人ですが、彼のおかげで[r]魔本[line 3]ナーサリー・ライムを倒せたわけですからっ！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFace E 5]
+＠モードレッド
+チッ……そうだな、わかってるよ。[r]この手の人種には手を出した方が負けだしな。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アンデルセン
+なんだ、顔に似合わず……いや似合って……いや[r]やはり似合わないな、貴様の魂はモーニングハンマーだ。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+トゲトゲしいって意味か！[r]チクショウ、悔しいがわかりやすいなテメエ！
+[k]
+
+＠アンデルセン
+……反応もいい……鍛えればいいカモ……失礼、[r]いい読み手になりそうなのに、勿体ない。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+しかし、アンチからの攻撃を愛読者に庇われるとは。[r]いつの時代も人間は変わらないな。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+オレもマシュもサーヴァントだぞ。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+はい。わたしは、元は人間ですが……
+[k]
+
+＠Dr.ロマン
+というか、[r]大部分のサーヴァントはもともとは人間だけどね。
+[k]
+
+＠モードレッド
+………チッ。まあいいさ。[r]さっきの奴は、元が人間って訳でもなさそうだが。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein C 0.1 2]
+＠フォウ
+……フォウ……
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アンデルセン
+ああ。人間から英霊になるのが基本だが、[r]中にはナーサリー・ライムのような例もある。
+[k]
+
+＠アンデルセン
+人間に作られた創造物が意思を持ち、あるいは人々から[r]の幻想を集め“概念英霊”となる場合だな。
+[k]
+
+[charaFace H 4]
+＠Dr.ロマン
+滅多にいないケースだけどね。[r]そのうち本だけでなく、機械の英霊も出てきそうだ。
+[k]
+
+＠Dr.ロマン
+ともかくお疲れさま、諸君。[r]いったんジキル氏のアパルトメントに戻ってくれ。
+[k]
+
+＠Dr.ロマン
+アンデルセン、君も来てくれるかな。[r]サーヴァントの仲間が増えるのは何よりも心強い。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+あぁ!?[r]このクソガキを連れて行くのかぁ!?
+[k]
+
+＠モードレッド
+めちゃくちゃ弱くて使えないぞ、絶対！[r]しかもつまらない！　ろくな本を書かないに決まってる！
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+[line 3]そうか。よし、是非同行しよう。
+[k]
+
+＠アンデルセン
+協力する気なんぞまったくなかったが、[r]今の発言で気が変わった。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+よろしくなセイバー。いや、モードレッド卿。[r]ところで主役になるのならジャンルは何が好みだ？
+[k]
+
+＠アンデルセン
+悲劇か？　喜劇か？　それともコメディか？[r]いいぞ、ともあれ最高の駄作に仕上げてやろう。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+そうかよ。せいぜい売れない本書いて[r]泣きべそかいてろ、童話作家。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+（あ、あの、失礼ですよ、聞こえてますよっ）
+[k]
+
+[charaFace E 1]
+＠モードレッド
+聞こえるように言ったんだ。[r]陰口は、臆病者のすることだからな。
+[k]
+
+[charaFace A 8]
+＠マシュ
+…………。[r]…………。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+さて、移動するか。[r]古書店主人が目覚める前に出るぞ。
+[k]
+
+＠アンデルセン
+なにしろ盗人なのは俺も同じでな。[r]実はこっそり裏口から忍び込んだんだ。
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+目を覚まして警官を呼びつけられても厄介だ。[r]助けてやったのに捕まるなんぞ、駄作にも程がある！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFadein H 0.1 2]
+[charaFace E 3]
+[charaFadein E 0.1 0]
+＠モードレッド
+はあ！？
+[k]
+
+[charaFace E 5]
+＠モードレッド
+無許可で上がりこんどいて、[r]あんだけ堂々としてやがったのかよ、おまえ！？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

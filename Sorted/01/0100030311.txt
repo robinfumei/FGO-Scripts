@@ -1,0 +1,106 @@
+＄01-00-03-03-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21330 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 8001001 1 マシュ]
+[charaSet G 98018000 1 海賊]
+[charaFace A 11]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ふぅ……。[r]海水でベタベタします。
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ドレイク
+なーなー、[%1]にマシュ。[r]ちょっといいかい？
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい、何でしょうか？
+[k]
+
+[charaFace D 0]
+＠ドレイク
+倒した連中が消えちまったんだが、[r]これはアンタから見てアリなのかい？
+[k]
+
+[charaFace A 0]
+＠マシュ
+……確かに消えましたね。[r]ドクター？
+[k]
+
+＠Dr.ロマン
+あー、やっぱりか。[r]この海域にいるのは海賊の概念のようなものだろう。
+[k]
+
+[charaFace A 12]
+＠マシュ
+概念……ですか？
+[k]
+
+＠Dr.ロマン
+「大航海時代」という舞台の記憶に刻まれた一種の霊体だ。[r]役割を果たすためだけに動いている。
+[k]
+
+＠Dr.ロマン
+自我はあると思うが、恐らく均一だろうね。[r]「平均的な海賊」の無限コピーとでも言おうか。
+[k]
+
+＠Dr.ロマン
+害は小さいが、恐らくその世界を修正しない限り、[r]無限に生まれ続ける[#障害:バグ]だろう。
+[k]
+
+＠ドレイク
+……どういうことだい？
+[k]
+
+[charaFace A 0]
+＠マシュ
+一言で説明すると、[r]あの海賊たちは幽霊のようなものです。
+[k]
+
+[charaFace D 4]
+＠ドレイク
+……。いや、だが銃弾は効いたよ？[r]アタシだけじゃない、アホウどもの銃弾もだ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+失礼、言い直します。[r]実体のある幽霊と考えてください。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+あ、あるんだ実体。ならオッケー！[r]なんの問題もないね！
+[k]
+
+[charaFace A 13]
+＠マシュ
+ええ、その通りです。[r]さあ、前進しましょう！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

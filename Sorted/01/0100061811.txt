@@ -1,0 +1,276 @@
+＄01-00-06-18-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98079000 1 ？？？]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 1012001 1 ベディヴィエール]
+[charaSet G 5022001 1 三蔵]
+[charaSet H 2014000 1 俵藤太]
+
+[scene 29300]
+[fadein black 2.0]
+[wait fade]
+
+[wt 1.0]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ここがアズライールの廟か……[r]特に変わった反応はないが……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、ドクター……[r]これは現地にいないと分からない重圧です……
+[k]
+
+＠マシュ
+魔力反応も、サーヴァント反応も、[r]物音も生命の気配も皆無です。なのに……
+[k]
+
+＠マシュ
+なのに、全身の震えが止まりません。
+[k]
+
+＠マシュ
+精神ではなく魂が、[r]この寺院に留まる事を全力で拒んでいます……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……進みますぞ、[%1]殿。[r]この先は我らも与り知らぬ、初代様の領域。
+[k]
+
+＠呪腕のハサン
+何が起こるか分かりません。[r]警戒は最大限に[line 3]
+[k]
+
+[bgmStop BGM_EVENT_1 0.3]
+[charaFadeout D 0.1]
+[wt 0.1]
+[se ad28]
+[charaPut E -120,0]
+[charaEffect E bit_talk_37]
+[wait charaEffect E bit_talk_37]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター！
+[k]
+
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad32]
+[charaFace A 15]
+[charaShake A 0.05 3 3 0.25]
+＠マシュ
+っ、ぐっ……！[r]敵影、発見できません！
+[k]
+
+＠マシュ
+ドクター、サーヴァント反応は！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+何もない！[r]そこにキミたち以外の動体反応はない！
+[k]
+
+＠Dr.ロマン
+いや、そもそも[line 3]いま一瞬、[r][%1]君の反応が消失したぞ！？
+[k]
+
+＠Dr.ロマン
+マシュは攻撃を防いだというのに[r]どういうコトだ……！？
+[k]
+
+＠Dr.ロマン
+こちらの観測では、[r][%1]君はもう死んでいる！
+[k]
+
+？1：……え？
+？2：なにそれ怖い！？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_3 0.7]
+[wt 0.4]
+＠？？？
+[line 3]魔術の徒よ。
+[k]
+
+[charaTalk off]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+[wt 0.2]
+[bgm BGM_EVENT_1 0.1]
+[charaMove D -250,-50 0.5]
+[charaMove E 250,-50 0.5]
+[charaFadeout D 0.4]
+[charaFadeout E 0.4]
+[wt 0.2]
+[se ad54]
+[seStop ad54 0.5]
+＠呪腕のハサン
+はあ[line 3]！
+[k]
+
+[charaTalk on]
+＠静謐のハサン
+……！
+[k]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠三蔵
+ちょっ、どうしたの！？[r]二人ともいきなりひれ伏しちゃって！？
+[k]
+
+＠三蔵
+まだ何も出てきてないわよ！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+[charaFace F 8]
+[charaFadein F 0.1 2]
+＠ベディヴィエール
+……いえ。静かに、三蔵殿。[r]……既に、我らの目の前に何者かがいるようです。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 2]
+＠俵藤太
+……うむ。黙っていろ三蔵。できれば息も吸うな。[r]この御仁に襲われてはひとたまりもない……
+[k]
+
+＠俵藤太
+[#今:こ]の拙者があと三十、いや四十、歳をとってようやく[r]一射届くか、という武の極みだぞ、これは……
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+＠？？？
+[line 3]魔術の徒よ。[r]そして、人ならざるモノたちよ。
+[k]
+
+＠？？？
+汝らの声は届いている。[r]時代を救わんとする意義を、我が剣は認めている。
+[k]
+
+＠？？？
+だが[line 3][r]我が廟に踏み入る者は、[#悉:ことごと]く死なねばならない。
+[k]
+
+＠？？？
+死者として戦い、生をもぎ取るべし。[r]その儀を以て、我が姿を晒す魔を赦す。
+[k]
+
+＠？？？
+静謐の翁よ、これに。[r]汝に祭祀を委ねる。[line 3]見事、果たして見せよ。
+[k]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.1]
+
+[se ad42]
+[charaEffect E bit_talk_06b]
+＠静謐のハサン
+ぁ[line 3]ああ、ああああ！？[r]ひぃ、[charaShake E 0.05 3 3 0.4]やあ…………！？
+[k]
+
+[charaFadeout E 0.1]
+[charaEffectStop E bit_talk_06b]
+[wt 0.4]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+静謐殿……！[r]この気配、意識を乗っ取られましたか……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+初代様！　お使いになられるのでしたら私を……！[r]静謐には荷が重すぎまする！
+[k]
+
+＠？？？
+たわけ。貴様の首を落とすのは我が剣。[r]儀式に使えるものではない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[charaBackEffect E bit_talk_11]
+＠？？？
+静謐の翁の首、この者たちの供物とせん。[r]天秤は一方のみを召し上げよう。
+[k]
+
+？1：静謐のハサンを殺せと……！？
+？2：そんなコトはできない……！
+
+？！
+
+＠？？？
+過程は問わぬ。結果のみを見定める。[r]死の舞踏を始めよ、静謐の翁。
+[k]
+
+[bgmStop BGM_EVENT_1 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_24 0.1]
+
+[charaFace E 5]
+＠？？？
+どちらの首が[#晩鐘:ばんしょう]に選ばれるか[line 3][r]それは、汝らが決める事だ。
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_24 0.9]
+[wait fade]
+[charaBackEffectStop E bit_talk_11]
+[wait charaBackEffect E bit_talk_11]
+[soundStopAll]
+[end]

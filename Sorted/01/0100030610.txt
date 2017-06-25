@@ -1,0 +1,151 @@
+＄01-00-03-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 98006100 1 雑魚エネミー瘴気付き]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠エウリュアレ
+アステリオス！　アステリオスはどこよ！[r][%1]！　マシュ！　あなたたちも探しなさい！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！　フォウフォウ！[r]きゅぅぅぅぅ！
+[k]
+
+[charaFadeout C 0]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさんが見つけてくれました！[r]連れてきます！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ドレイク
+手伝うよ！　ぐぁ、重い……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠アステリオス
+……ぅ……。
+[k]
+
+[charaFadeout G 0]
+[charaTalk A]
+[charaFadein G 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+大丈夫、生きてます。[r]でも、わたしたちと戦ったときの傷口が開いている。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠エウリュアレ
+回復もロクにしないまま、無茶をやるからよ。
+[k]
+
+＠エウリュアレ
+どこの世界にガレオン船を持ち上げて泳ぎ続ける[r]バカがいるの、このバカ！
+[k]
+
+[charaFace G 1]
+＠アステリオス
+……ここ、に、いる。
+[k]
+
+[charaFace F 3]
+＠エウリュアレ
+威張ることじゃないでしょ！
+[k]
+
+[charaFace F 5]
+＠エウリュアレ
+あなた、私を肩に載せる役割があるのを忘れたの？[r]そら、汚れた体を拭きなさい！
+[k]
+
+[charaFace G 0]
+＠アステリオス
+むぅ……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ドレイクさん、船の方は[line 2]。
+[k]
+
+[charaFace D 4]
+＠ドレイク
+駄目だね。[r]とてもじゃないけど動けやしない。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+……アステリオスが船を海岸まで運んだおかげで、[r]修繕作業自体は何とかなると思う。
+[k]
+
+＠ドレイク
+だが材料が足りない。この島には森があるようだし、[r]幾つか木を切って材木にするしかないか……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エウリュアレ
+その前に、森の魔物を片付けた方がいいんじゃない？[r]ほら、あれ。
+[k]
+
+[charaFadeout F 0.1]
+[se ad19]
+[charaFadein H 0.4 1]
+[wt 1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+そうですね、ひとまず状況を立て直したいです。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+やれやれ、片付いたらあの大ボケ海賊に一発[r]かますためにどうするべきか、一つ相談するよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

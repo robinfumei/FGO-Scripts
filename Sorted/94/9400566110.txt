@@ -1,0 +1,432 @@
+
+＄94-00-56-61-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 4024000 1 モードレッド]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98101600 1 魔猪]
+
+[scene 30500]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+[line 3]よし。ここでいいだろ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+先輩、先輩。こんな人気のない川につれてこられました[r]けど……モードレッドさんに何かしたんですか？
+[k]
+
+
+？1：ヤキでも入れられるのかな……
+？2：死体を川に流せば完全犯罪だ
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+ば、馬鹿言うんじゃねぇよ！
+[k]
+
+[charaFace A 0]
+＠モードレッド
+……まあいい。何も説明してなかったからな。[r]ホラよ、マスター。昨日適当に削っといたこれを使え。
+[k]
+
+
+？1：木製サーフボード？
+？2：この武器はどう使うのかな？
+
+[charaFace A 0]
+＠モードレッド
+はぁ？　面白くもねえ冗談だな。[r]ボードだよ、ボード。
+[k]
+
+？！
+
+[charaFace A 0]
+＠モードレッド
+マスター、オレが波乗りしてるとこを物欲しげに[r]見てたじゃねーか。だからくれてやるよ！
+[k]
+
+
+？1：（物欲しげに見てたかな……？）
+？！
+
+[charaFace A 1]
+＠モードレッド
+で、ついでだから乗り方も教えてやるぜ。[r]どうせ初めてなんだろ？
+[k]
+
+＠モードレッド
+最近は気分を変えて、オレは川でやるリバーサーフィン[r]にも手を出してたんでな。
+[k]
+
+＠モードレッド
+初心者にはこっちのほうがいいのかもって思って[r]オマエらも連れてきたわけだ。
+[k]
+
+[charaFace A 0]
+＠モードレッド
+ああ、マシュのぶんのボードもあるぜ。ホラ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+は、はぁ。ありがとうございます。[r]でも、わたしもやるのですか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+このプリドゥエンは貸さねーぞ。
+[k]
+
+＠モードレッド
+それともオマエ、自分の盾で波に乗る気か？[r]ま、いけなくもなさそうだが。
+[k]
+
+[charaFace A 0]
+＠モードレッド
+なんとなく冒涜的で背徳的な感じがしてイイな。[r]なかなかロックじゃねぇか、オマエ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠マシュ
+そ、そんなことしません！[r]じゃあ、これ、お借りします……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+おう！　じゃあさっそく特訓だー！
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFadeout A 0.1]
+
+[wt 0.5]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+
+[se ad36]
+[wt 1.0]
+
+？1：波だ……波と一体化するのだ……
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+オイオイ、筋がいいじゃねぇかマスター！
+[k]
+
+[charaFace A 0]
+＠モードレッド
+オレが波乗り特攻部隊とかを編成したなら、[r]その二番槍ぐらいは任せてやってもいいなっ。
+[k]
+
+[charaFace A 1]
+＠モードレッド
+一番槍は勿論オレだ。[r]そして攻める相手は勿論アーサー王だ。
+[k]
+
+＠モードレッド
+王の軍の完璧な布陣……しかし背後の海から突然現れる[r]オレたち波乗り特攻部隊……フッ。勝ったな。
+[k]
+
+
+？2：ごぼがぼぐぼぼぼ………
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+先輩、先輩！　[r]はやくこれに掴まってください！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+こりゃ……先は長そうだな……。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠マシュ
+ふう……。[r]やってみると、意外に、楽しいものですね……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+なかなか飲み込みが早えな。[r]オレも負けてらんねぇ！
+[k]
+
+
+[messageOff]
+[se ad36]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[charaMove A 2 0.5]
+[wait charaMove]
+
+[charaMove A 0 0.5]
+[wait charaMove]
+
+[charaMove A 1 0.5]
+[wait charaMove]
+
+？1：さすが……！
+？2：華麗だ……！
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+＠マシュ
+モードレッドさんは波乗りが本当にお好きなんですね。
+[k]
+
+＠マシュ
+わたしも実際にやってみて、楽しいのはとてもよく[r]わかりましたが……何か他の理由はあるのですか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+他の理由……？　……へっ、[r]そりゃまぁ、オレがオレだからだろ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+[line 3]ニブイ奴だな。[r]オレが乗ってるのは何なんだよ。波だろ。
+[k]
+
+＠モードレッド
+[#大きな波の流れに逆らい続ける][line 3][r][#それはつまり叛逆だ]。
+[k]
+
+[charaFace A 4]
+＠モードレッド
+性分に合ってんだろうな。どうしても何かに逆らっちまう。[r]逆らい続けないと、立っていられねぇ[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+モードレッドさん……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+ああ、いや、オマエの言う通りだ。あとはただ純粋に[r]楽しいからだぜ！　暴れ馬を乗りこなすのと一緒だ。
+[k]
+
+＠モードレッド
+騎士たるもの、馬に、波に、女[line 3]難しければ難しいほど、[r]乗りこなすのが武勇の誉れ、ってな！
+[k]
+
+
+？1：最後のはどうなんすか……？
+？！
+
+[bgmStop BGM_EVENT_28 1.5]
+
+[charaFace A 0]
+＠モードレッド
+そろそろ交代すっか。次は[line 3]
+[k]
+
+[charaFace A 5]
+＠モードレッド
+ッ！
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠モードレッド
+待て、川に入るな！[r]オレも上がる！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……！
+[k]
+
+[charaFace B 14]
+＠マシュ
+この臭い……上流から、何かが。[r]水が濁って、魚の死体が浮かんで……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+上流に移動するぞ。嫌な予感がする。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+
+[charaFadeout A 0.1]
+[effect bit_talk_gagemist_Purple]
+[wt 0.5]
+
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+こいつが、アレか。[r]猪どもが泥浴びするっつう……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はい。そしてその結果として生まれる、毒の沼地です。[r]川に近いために……水が汚染されてしまったようですね。
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠魔猪
+ＧＲＲ……。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+つまり[line 3]テメェのせいで、絶好のリバーサーフィン[r]スポットが潰れたってわけだな。ブッ殺す！
+[k]
+
+[charaFace A 2]
+＠モードレッド
+毒沼だと？　上等だぜ[line 3]落ちたら死ぬ程度だろ。[r]そのぐらいの波でビビるとでも思ってんのか！？
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

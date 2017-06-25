@@ -1,0 +1,805 @@
+
+
+
+＄01-00-07-14-1-0
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet H 99363000 1 ？？？]
+
+
+[bgm BGM_EVENT_11 0.1]
+[scene 32942]
+[fadein black 1.5]
+[wait fade]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+＠Dr.ロマン
+さて。[r]という訳で、超特急でクタ市に到着だ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+嫌がるイシュタルを無理矢理引きずってきた為、[r]丸一日かかってしまったがね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+うう……ケツァル・コアトルさえいなければ、[r]力ずくで逃げられたのに……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+諦めなさいイシュタル。アナタも[r][%1][&君:さん]と約束したのでしょう？
+[k]
+
+＠ケツァル・コアトル
+味方をする、と言ったからには相手が裏切る、[r]もしくは堕落するまで味方をする。
+[k]
+
+＠ケツァル・コアトル
+それが[#森羅万象:しんらばんしょう]万国共通の、[r]女神の矜持ではなくて？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+はいはい、もう観念したってば。[r]冥界[#下:くだ]り、付き合ってあげるわよ。
+[k]
+
+[charaFace C 10]
+＠イシュタル
+でも冥界に落ちるのは[%1]とマシュ、[r]それに私だけよ。
+[k]
+
+＠イシュタル
+ケツァル・コアトルとマーリンはここに残って。[r]特にケツァル・コアトルは冥界に行ったらいいカモだから。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+[FFFFFF]？　[#どうして:ユカタン]？[-]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+冥界だと神性がマイナスに働くのよ。[r]弱いものはそのままだけど、強いものは弱くなる。
+[k]
+
+
+＠イシュタル
+冥界では死と、主人であるエレシュキガルが最高権力者なの。[r]そこに、死んで落ちてきた神がいたら、どうなると思う？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+なるほど。“私は死など認めん”と暴れて、[r]すぐに地上に戻ってしまう。それでは生も死もない。
+[k]
+
+＠マーリン
+神であれ、死したのなら冥界に留まらなければね。
+[k]
+
+＠マーリン
+だから冥界では神々を無力化するシステムが[r]構築されているのか。これは興味深い。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+でも、そんな冥界なのにイシュタルさんは[r]果敢に挑んだんですね。凄いです。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+マシュ……嫌味で言ってるんじゃなくて天然なのね……[r]怒るに怒れないわ……
+[k]
+
+[charaFace C 8]
+＠イシュタル
+私が冥界下りをしたのは[#傲慢:ごうまん]だったから。
+[k]
+
+＠イシュタル
+神話上での[#私:イシュタル]は、甘やかされて、[r]もてはやされて、怖い者知らずだった。
+[k]
+
+＠イシュタル
+だから冥界の怖さも鼻で笑って、[r]七つの権能を持って冥界に挑戦した。
+[k]
+
+＠イシュタル
+エビフ山を攻略した私に出来ない事は何も無い、って。[r]でも結果は無残な敗北。ボロ負けよ、ボロ負け。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+それはそれで見てみたかったデース！
+[k]
+
+＠ケツァル・コアトル
+今回は最悪、[%1][&君:さん]と[r]マシュちゃんだけでも帰還させてくだサーイ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+……あのね。そんな半端な最悪とかないから。
+[k]
+
+＠イシュタル
+エレシュキガルを倒して全員で生還するか、[r]倒せずに全員が囚われるか。そのどちらかしかないわ。
+[k]
+
+[charaFace C 5]
+＠イシュタル
+だからアナタたち二人には残ってもらうの。[r]万が一の事があったら、その時はアナタたちの出番よ。
+[k]
+
+＠イシュタル
+なんとかエレシュキガルと交渉して、[r][%1]とマシュを地上に帰してもらって。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+よろしい、引き受けた。[r]なんだかんだとキミも[#変わっているね]イシュタル。
+[k]
+
+＠マーリン
+負けると思っている戦いに挑むとは。[r]父親離れをすると、女神というものは成長するのかな？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+言ってなさい。[r]それよりアナは？　連れて来なかったの？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+はい……カルデア大使館に戻っていなくて。[r]今回は時間がありませんので、わたしたちで先行しました。
+[k]
+
+[charaFace C 0]
+＠イシュタル
+そ。まあ、あの子も冥界だと役に立たなくなるから、[r]それはそれで都合がいいわね。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+[line 3]じゃあ始めるけど。[r]本当にいいのね、[%1]？
+[k]
+
+？1：行こう、冥界へ！
+
+[charaFace C 7]
+＠イシュタル
+迷っている暇はなし、か。[r]いいわ、私もその勢いに乗りましょう！
+[k]
+
+？2：ところで、どうやって冥界へ？
+
+[charaFace C 6]
+＠イシュタル
+どうやってか、ですって？[r]ふふふ……決まってるでしょ、こうやるのよ！
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_11 0.4]
+[charaFace C 17]
+＠イシュタル
+マシュ、[%1]をお願いね！[r]マーリン、ケツァル・コアトル、下がってなさい！
+[k]
+
+[charaMove C 0,-20 0.4]
+[wait charaMove C]
+[bgm BGM_EVENT_3 0.1]
+[se ad73]
+[charaMove C 0,50 0.1]
+[wait charaMove C]
+[messageOff]
+[wipeout rectangleStripDownToUp 0.4 1]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[scene 20322]
+[wipein rectangleStripUpToDown 0.4 1]
+[wait wipe]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+マアンナ船首砲門に潮汐収束弾、装填！[r]出力ラピス・ラズリの三分の一の二等辺！
+[k]
+
+[charaEffect C bit_talk_36]
+[se ad39]
+[charaFace C 2]
+＠イシュタル
+[#砕:くだ]け冥界の[#蓋:もん]、空無き[#地:キ]に[#天:アン]の光を！[r]要するにぃ……地面をフッ飛ばして、風穴を開けるのよ！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.4]
+
+[wipeout leftUpToRightDown 0.2 1]
+[wait wipe]
+[charaEffectStop C bit_talk_36]
+[charaFadeout C 0.1]
+[scene 10000]
+[charaSet C 2020001 1 イシュタル]
+[wt 0.1]
+[wipein rightDownToLeftUp 0.1 1]
+[wait wipe]
+[effect bit_talk_rarrow01be]
+[wt 0.1]
+[se ad147]
+[wt 1.4]
+[wipeout leftUpToRightDown 0.1 1]
+[wait wipe]
+[scene 32942]
+[wt 0.1]
+[wipein rightDownToLeftUp 0.4 1]
+[wait wipe]
+[wt 0.4]
+[shake 0.01 3 3 0]
+[voice NP_100100_1]
+[fadeout white 1.0]
+[wt 0.1]
+[effect bit_talk_haboob_01]
+[wait fade]
+[effectStop bit_talk_haboob_01]
+[wt 1.5]
+[scene 33400]
+[fadein white 3.0]
+[se bac78]
+[shake 0.01 3 3 3.0]
+[wt 1.0]
+[wait fade]
+[wt 0.4]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.4 1]
+
+
+＠イシュタル
+よし、成功！[r]ここが冥界よ、[%1]！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+あ、つつつつ……無事ですか、マスター？[r]なんとか盾でガードできましたが……
+[k]
+
+？1：イシュタルはなんでそう[&なんだ:なの]？
+？2：イシュタルはキラキラした魔術とか使え[&ないのか:ないの]？
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+わ、私だって転移ぐらいできるわよ。[r]でも冥界に転移とかしたら後が怖いでしょ？
+[k]
+
+＠イシュタル
+冥界にシフトした瞬間、[r]力が封じられちゃったら落下して死んじゃうんだし。
+[k]
+
+＠イシュタル
+転移を使わないで済むならそれでいいじゃない。[r]冥界は地面を掘れば行けるんだから。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+は……？[r]いま、なんと？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+
+＠Dr.ロマン
+良かった、繋がった！　冥界に行くと言うから[r]観測できるか心配だったけど、まったくの杞憂だったよ！
+[k]
+
+＠Dr.ロマン
+なにしろそこ、クタの地下なだけだから！[r]凄いなガチの神代は！　冥界は現世と地続きなんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+や、やっぱりそうだったんですか！？[r]なにかこう、別の次元の領域とかではなく！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+そりゃそうよ。神代だと天上も地上も冥界も同じ[r][#織物:スクロール]の上にあるの。
+[k]
+
+＠イシュタル
+死後の世界やソラの世界が[#形而上:けいじじょう]のものになるのは、[r]アナタたち人間の世界になってからの話よ。
+[k]
+
+？1：じゃあ本当に、ここが冥界だったのか……
+
+？！
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はい、驚きです……確かに、[r]我々の地質学からは考えられない地下空洞ですが……
+[k]
+
+＠マシュ
+おや？　先輩、あれはなんでしょう？[r]所々に細長い、鳥かごのようなものがあるのですが……
+[k]
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+[cameraMove 2.5 0,-80 1.25]
+[wait camera]
+[wt 0.7]
+
+＠？？？
+……ォ…………[r]……ゥ……ォ……ォォォ…………
+[k]
+
+
+＠マシュ
+光のようなものが籠の中で無数に浮遊していますが……
+[k]
+
+[messageOff]
+[cameraHome 1.0]
+[wait camera]
+[wt 0.2]
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+……近づかない方がいいわよ。[r]それ、地上で死んだ人間の魂だから。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+……！
+[k]
+
+？1：もしかして……あの籠は……
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠イシュタル
+そ。エレシュキガルの[#槍檻:そうかん]。[r]あの中に囚われた魂は決して地上には帰れない。
+[k]
+
+＠イシュタル
+肉体が死滅した場合、魂は次第に薄れ、消滅する。[r]けどエレシュキガルはそれを許さない。
+[k]
+
+[charaFace C 10]
+＠イシュタル
+アイツはね[line 3]気に入った人間の魂を籠に入れて、[r]何万年も手元に置いて楽しんでいるのよ。
+[k]
+
+＠イシュタル
+もちろん、囚われた魂に自由はないわ。[r]人間は肉体がないと寒いの。とても寒い。
+[k]
+
+[charaFace C 8]
+＠イシュタル
+だから魂だけの状態でいると手足から凍りついて、[r]最後には生きる氷になる。消えた方がマシな痛みね。
+[k]
+
+＠イシュタル
+でもその籠に囚われた魂は消える事もできない。
+[k]
+
+[charaFace C 10]
+＠イシュタル
+エレシュキガルが飽きるまで、[r]ずっとそうして苦しみ続けるのよ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+………それでは、[r]地上で衰弱死した方たちの魂もここに？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+そうでしょうね。槍檻の数が以前より多いもの。[r]『三女神同盟』を組んでから増えたんでしょう。
+[k]
+
+＠イシュタル
+……アイツ、死者の王国でも作る気なのかしら。[r]前はここまで残酷な女神じゃなかったけど。
+[k]
+
+？1：エレシュキガルはどこに？
+
+？！
+
+[charaFace C 0]
+＠イシュタル
+あっちよ。細い崖の道の向こう。[r]七つの門を越えた先にあるエレシュキガルの宮殿。
+[k]
+
+＠イシュタル
+そこにエレシュキガルはいるわ。[r]アイツ、あの場所から一歩も外に出られない女神だから。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+つまり、閉じ込められている……のですか？[r]女神エレシュキガルも？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+さあ？　神々の決まりだそうだけど、[r]私の知った事じゃないわ。
+[k]
+
+＠イシュタル
+とにかく、ここからはアナタたちの出番よ、[r][%1]、マシュ。
+[k]
+
+＠イシュタル
+まずはそこ、第一の門をくぐり抜けましょう。[r]そうすれば冥界のルールが分かるから。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+だそうです、先輩……[r]まずは近づいてみましょう……
+[k]
+
+[se ad60]
+[seVolume ad60 0 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_5 0.4]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 33900]
+[wt 1.0]
+[seStop ad60 0.4]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[bgm BGM_EVENT_1 0.1]
+
+＠第一の門
+答えよ[line 3][r]答えよ[line 3]
+[k]
+
+＠第一の門
+冥界に落ちた生者よ[line 3][r]その魂の在り方を答えよ[line 3]
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+……[#二択:にたく]の質問が来るわよ、[%1]。[r]冥界の門は魂の善悪を問う、公正にして理性の門。
+[k]
+
+＠イシュタル
+善も悪も等価値ではある。ただそれを選ぶ人間の価値が[r]変わるだけ……だから、どちらかが正解という事はないわ。
+[k]
+
+＠イシュタル
+どっちを選んでも嫌がらせの試練が始まるから。[r]“こっちにしていた方が楽そうだ”と思った方を選びなさい。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+＠第一の門
+では罪深きもの、[%1]に問う[line 3]
+[k]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠イシュタル
+（はあ？　名指しだぁ……？）
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+＠第一の門
+美の基準は千差万別のようで絶対なり。[r]黒は白に勝り、地は天に勝る。であれば[line 3]
+[k]
+
+[bgmStop BGM_EVENT_1 1.5]
+
+＠第一の門
+エレシュキガルとイシュタル。[r]美しいのはどちらなりや？
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[charaShake C 0.01 5 5 0.7]
+＠イシュタル
+ちょっと待った、前と違うわよそれ[line 3]！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 1]
+
+
+＠Dr.ロマン
+よし、理性の欠片もない質問だ！[r]どっちかな、[%1][&君:ちゃん]！
+[k]
+
+[input selectBranch]
+[scene 33900]
+[bgm BGM_EVENT_7 0.1]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet H 99363000 1 ？？？]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 1]
+[messageOff]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+？1：イシュタル
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+フッ、当然よね！　絶対に大丈夫。そんな確信は[r]していたけど、ありがと[%1]！
+[k]
+
+[charaFace C 1]
+＠イシュタル
+っていうか、[r]かたや植物と腐敗の女神、かたや美と豊穣の女神。
+[k]
+
+＠イシュタル
+美しさの勝負なら、[r]百人中千人が私を選ぶに決まってるわよね、こんなの！
+[k]
+
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_7 0.3]
+[messageOff]
+[wt 0.4]
+[se ad233]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+
+＠第一の門
+Ｂ[line 3]Ａ[line 3]Ｋ[line 3]Ａ[line 3]Ｇ[line 3]Ａ[line 4][r]死ぬが[line 4]、よ[line 5]い[line 5]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.4]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+
+？2：エレシュキガル
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[charaShake C 0.01 5 5 0.7]
+
+＠イシュタル
+第一門から裏切られた[line 3]！？[r]あ、そうか。違うわよね、頭脳戦よねコレ！
+[k]
+
+[charaFace C 14]
+＠イシュタル
+そ、そうよね？　エレシュキガルを持ち上げておけば[r]敵は弱くなるんだもの。そういう事よね！？
+[k]
+
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_7 0.3]
+[messageOff]
+[wt 0.4]
+[se ad232]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+＠第一の門
+Ｂ[line 3]Ｕ[line 3]Ｚ[line 3]Ａ[line 3]Ｍ[line 3]Ａ[line 4][r]よ[line 5]ろ[line 5]し[line 4]い[line 4]！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.4]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+？！

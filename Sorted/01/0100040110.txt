@@ -1,0 +1,469 @@
+＄01-00-04-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10906 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009003 1 ダ・ヴィンチ]
+[charaSet E 1009001 1 ？？？]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+レイシフト、成功しました。[r]……これは。視界が……阻害されるほどの状態です。
+[k]
+
+[charaFace A 6]
+＠マシュ
+霧……？[r]いえ、もしくは煙でしょうか。凄い濃度です……
+[k]
+
+[charaFace A 7]
+＠マシュ
+空には……[r]やはり、これまでと同じ「光の輪」を確認。ですが……
+[k]
+
+[charaFace A 12]
+＠マシュ
+それさえ、この霧または排煙のせいで[r]はっきりとは[line 3]
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+空を埋め尽くすほどの霧、煙。[r]それ自体は産業革命の頃には珍しくはないけど……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+いいや、ただの霧や煙ではないようだ。[r]こちらでは異常な魔力反応として検出されている。
+[k]
+
+＠Dr.ロマン
+凄い濃度だ。とても濃い。濃いな。[r]いや、これはちょっと濃すぎるんじゃないか……！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+まるで、大気に魔力が充満しているようだ。[r]大気の組成そのものに魔力が結び付いたクラスだよ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+生体に対して有害なほどのモノだよ、これは……[r]マシュ、[%1][&君:ちゃん]、体の調子は？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 5]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+わたしは問題ありません。[r]デミ・サーヴァントであるからでしょうか。
+[k]
+
+[charaFace A 0]
+＠マシュ
+先輩はどうですか？[r]様子は……普段と、そう変わらなく見えますね。
+[k]
+
+？1：普通だよ
+
+？！
+
+[charaFace A 13]
+＠マシュ
+良かった。[r]ですが、できれば濃い霧には入らないで下さい。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+[%1][&君:ちゃん]も異常なし、か。[r]確かにバイタルの測定にもさしたる変動はないかな。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+ちょっと驚いたな。[r]その霧の観測結果が出て来たんだけどね……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+断言しよう、生体には有害だ。[r]通常の人間であれば、深く吸いこめば命に関わる。
+[k]
+
+＠Dr.ロマン
+何らかの由来で魔術的な耐性を有しているとか、[r]魔術師や怪物、サーヴァントや幻想種であれば別だよ？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+なのでマシュは大丈夫だ。[r]でも[%1][&君:ちゃん]が無事なのは……
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ううん……なんだろうねえ。[r]もしかして、毒耐性スキルでも付いてるのかな？
+[k]
+
+[charaFace A 6]
+＠マシュ
+そうなんですか？
+[k]
+
+＠Dr.ロマン
+もしかしてマシュ……いや、マシュと融合した[r]英霊の恩恵なのかもしれない。
+[k]
+
+＠Dr.ロマン
+マシュと融合したサーヴァントには[r]強い毒耐性とか、強い祝福のスキルがあって、
+[k]
+
+＠Dr.ロマン
+その加護がマスターにも与えられているのかもだ。[r]無事なのは、その恩恵かな。
+[k]
+
+[charaFace A 14]
+＠マシュ
+……わたしが先輩のお役に立てるのは嬉しいのですが、[r]スキルで呼ぶのはなんだか妙です、ドクター。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+まあ、[%1][&君:ちゃん]は人間だしね。[r]じゃあ、毒耐性スキル（仮）で。
+[k]
+
+[charaFace A 11]
+＠マシュ
+は、はい……（仮）……ですか……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ともかく、だ。霧の都ロンドンは、[r]魔力の霧に包まれた危険な死の都市と化している。
+[k]
+
+＠Dr.ロマン
+周囲の様子はどうだい。[r]犠牲者は、見掛けられるかい？
+[k]
+
+[charaFace A 0]
+＠マシュ
+いいえ、ドクター。[r]往来はまったくの無人です。
+[k]
+
+＠マシュ
+現在時刻は午後二時。[r]ですが、馬車はおろか歩行者さえありません。
+[k]
+
+[charaFace A 7]
+＠マシュ
+犠牲者の姿も見えません。[r]誰もいないんです。
+[k]
+
+[charaFace A 4]
+＠マシュ
+まるで廃墟のよう、です……
+[k]
+
+[charaFace A 0]
+＠マシュ
+後は……街路沿いに確認できる限りでは、[r]建物のすべての戸や窓が閉められています。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+きっと、魔力の霧で犠牲者が発生した後、[r]生存者が屋内へ避難したんだろう。そういうことか……
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+こちらでも、確かに[r]周辺の建物に生体反応を相当数確認している。
+[k]
+
+＠Dr.ロマン
+生き残ったロンドン市民だろうね。[r]皆、屋内から出られずに困っているんだろう。
+[k]
+
+？1：一刻も早く解決するべきだ
+
+？2：やれることをやろう
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……はい。[r]そうですね、先輩。
+[k]
+
+＠マシュ
+わたしたちが聖杯を入手・破壊すれば[r]この異常なロンドンの存在そのものが修正されます。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ですから、きっと……[r]この霧で命を落としたはずの市民たちも。
+[k]
+
+＠マシュ
+屋内で霧から逃れている市民たちの存在も。[r]どちらも、すべて。
+[k]
+
+[charaFace A 7]
+＠マシュ
+先輩とわたしが事態を収拾すれば、[r]魔力の霧に関わる事象は完全に消えるでしょう。
+[k]
+
+[charaFace A 8]
+＠マシュ
+被害さえ存在しないことになります。[r]ですから……その……ですね、ええ、と……
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+マシュはこう言ってるのさ。[r]先輩は優しいひとですね、って。違う？
+[k]
+
+[charaFace A 11]
+＠マシュ
+…………。[r]…………。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+え。あれ、まずかった？[r]待って、いやいや、ボクまずいこと言った？
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+[line 3]いや。待った。生体反応だ。
+[k]
+
+[wt 1]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠E：？？？
+…………なんだ、おまえら？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+え……と、はい、わ、わたしたちは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠E：？？？
+[#霧の濃い場所:こんなトコ]で息吸ってくたばらずに平然としてんだ、[r]どうせまともな人間じゃないんだろ。
+[k]
+
+[charaFace E 2]
+＠E：？？？
+じゃあ、どっちだ。[r]敵か、味方か。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+（同じ言葉を返したい気持ちです……。[r]　ドクター、彼女は人間でしょうか、それとも）
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+（そちらもそうか。ボクのほうでもそうだ！[r]　周囲に魔力が多いせいで反応が見極められない）
+[k]
+
+＠Dr.ロマン
+（しかし、あの鎧姿だ。[r]　普通のロンドン市民という訳ではなさそうだが）
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+（いやあ、参った！[r]　都市に限定されているから楽かと思ったのに）
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+（こいつは厄介なことになってきたぞ！[r]　彼女が、一体どういう人物なのかわからないっ）
+[k]
+
+＠Dr.ロマン
+（たまたま魔術的耐性を有した一般人か、[r]　魔術師か、それとも、サーヴァントなのか[line 3]）
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+（[#識別できない]！[r]　ああっ、こ、困ったぞ、勝手が違うっ）
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+（こんな霧、はじめてだし……[r]　ああ、助けてマギ☆マリ！
+[k]
+
+＠Dr.ロマン
+“霧のロンドンは噂以上です、[r]　どうすればいいでしょうか”、と……）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+（落ち着いてくださいドクターっ。[r]　電脳アイドルに相談しても事態は好転しません！）
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠E：？？？
+なーにをコソコソしてんだか。[r]襲って来ないなら、まあ、どうでもいいや。
+[k]
+
+＠E：？？？
+こっちも別に用はない。[r]邪魔したな。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+ここらは霧が濃い。[r]さっさと移動したほうが身のためだぞ。
+[k]
+
+？1：忠告、ありがとう
+
+？2：そうするよ
+
+？！
+
+[charaFace E 0]
+＠E：？？？
+ん？[r]ああ。じゃあな。
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.3]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あっ[line 3]
+[k]
+
+＠マシュ
+行ってしまいました……[r]北方向の路地……特に濃い霧の中へ、ひとりで堂々と。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 4]
+＠Dr.ロマン
+え、ボクらが相談している間にかい。[r]なんてせっかちな子なんだ、ロンドンっ子かなあ。
+[k]
+
+[charaFace A 11]
+＠マシュ
+今のが、相談……？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+何か事情を知っているような口ぶりだったね。[r]ロンドンの現状について、ボクらよりは詳しいだろう。
+[k]
+
+？1：追い掛けよう
+
+？2：情報収集は重要だ
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、先輩。[r]彼女の後を追いましょう。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+ボクもそう言おうと思っていたんだ。[r]それが、途中で彼女がどこかへ消えてしまうからさあ。
+[k]
+
+[charaFace A 8]
+＠マシュ
+ドクター。……Dr.ロマン。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+はい。すみません。[r]よし、では移動開始だね。ちゃんと観測するよ！！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wt 1]
+[se ad57]
+[wt 2]
+[scene 10916 0]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+……なん、でしょうか。音が聞こえます。
+[k]
+
+＠Dr.ロマン
+こちらでは生体反応なし。動体反応複数だ！[r]魔力反応は、駄目だ、相変わらず霧に紛れて感知不能！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 2]
+＠マシュ
+音、接近して来ます。近距離。[r]マスター……！
+[k]
+
+＠Dr.ロマン
+動体反応複数、凄い速度で殺到してきたぞ。[r]敵性反応と判断しよう。囲まれる前に突破するんだ！
+[k]
+
+＠Dr.ロマン
+これまで以上に判断と指揮が重要になる[line 3][r][%1][&君:ちゃん]、くれぐれも頼んだよ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+戦闘態勢に入ります。[r]マスター、指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,613 @@
+＄94-00-39-05-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+[charaSet D 7003000 1 白龍馬]
+[charaSet E 99502600 1 マシュ]
+[charaSet F 98003003 1 Dr.ロマン]
+[charaSet G 5023001 1 ブラヴァツキー]
+
+[charaSet H 98073000 1 ？？？]
+
+[scene 27700]
+
+[charaEffect E bit_talk_10]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+
+？1：……だいたいわかったよ、マシュ！
+
+[charaFace E 13]
+＠マシュ
+はいっ、先輩。
+[k]
+
+
+？2：とりあえずメモった。ドクターは何て？
+
+[charaFace E 7]
+＠マシュ
+ドクターはこちらに来られましたが、[r]今、操作で手が離せません……！
+[k]
+
+＠マシュ
+ひとまず、わたしからお伝えしています！
+[k]
+
+？！
+
+[charaFace E 7]
+＠マシュ
+……以上が、今回の召喚試験で期待された結果、[r]そして予想を超えて起きた事態の分析です。
+[k]
+
+＠マシュ
+まだ事態は進行中であり、予断を許しません。
+[k]
+
+[charaFace E 12]
+＠マシュ
+しかし、驚きました。[r]それほどの、[#彼我:ひが]の時間差が生じていたとは……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein E 0.1 2]
+[charaFadein C 0.1 0]
+
+＠沙悟浄
+我らが最初に出立した韃靼国をあとにして、[r]はや、一月ほどは過ぎておるだろう。
+[k]
+
+[charaFace E 12]
+＠マシュ
+こちらでは事故当日から[r]四日しか経過していません[charaFace E 6][line 3]あっ。
+[k]
+
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[charaPut E 1200,1200]
+[charaEffectStop E bit_talk_10]
+
+[se ad13]
+[charaTalk F]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.5]
+＠Dr.ロマン
+火焔山の一帯に、サーヴァント反応が残存している。[r]濃厚な[#魔力:エーテル]が放出された形跡もだ。
+[k]
+
+＠Dr.ロマン
+何かとんでもない魔術的実験をしていたと推測される。[r]高位の[#魔術師:キャスター]には[#相違:そうい]ない。
+[k]
+
+？1：それってたぶん……
+？2：火焔山上空を飛べるような魔術師が……？
+
+？！
+
+[messageOff]
+[wipeout rollFlashRight 1.0 1]
+[bgmStop BGM_EVENT_2 1.0]
+[wait wipe]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0 1]
+
+[wt 0.5]
+
+[scene 20230]
+
+[charaPut F 1]
+[charaEffect F bit_talk_gouka]
+
+[bgm BGM_EVENT_3 1.0]
+[wipein rollFlashRight 1.0 1]
+[wait wipe]
+[se ad11]
+
+＠ブラヴァツキー
+[#Ха:アッ]-[#ха:ハ]-[#ха:ハ]-[#ха:ハ]-[#ха:ハ]-[#ха:ハ]-[#ха:ハ]-[#ха:ハ]！！！
+[k]
+
+[seStop ad11 2.0]
+
+[charaFace G 2]
+＠ブラヴァツキー
+よくってよ！　永遠なるサナト・クマラの炎！[r]ダグザの大釜だって、ジャムみたいに煮詰めてあげる！
+[k]
+
+[messageOff]
+[flashin loop 0.7 0.7 FFFFFFFF 00000000]
+[voice NP_502300_1]
+[wt 3.0]
+[voiceStop NP_502300_1 1.0]
+
+？1：ＵＦＯ……！？
+？2：から、火口にビーム！？
+
+？！
+
+
+[flashout 0.7]
+[bgmStop BGM_EVENT_3 0.1]
+[scene 10001 4.0]
+[voice NP_502300_3]
+[wt 4.0]
+[voiceStop NP_502300_3]
+[se bac74]
+
+[maskout white 2.0]
+[wait mask]
+
+[charaEffectStop F bit_talk_gouka]
+
+[charaFadeout G 0]
+
+[charaTalk B]
+[charaFace A 5]
+[charaFace B 0]
+[charaFadein A 0 2]
+[charaFadein B 0 0]
+
+[scene 27700]
+
+[seStop bac74 1.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_7 2.0]
+[maskin white 2.0]
+[wait mask]
+
+＠猪八戒
+[line 3]うーん、誰が召喚されたか知らないけど、[r]それは迷惑なサーヴァントもいたものだブヒね。
+[k]
+
+[charaFace A 5]
+＠三蔵
+そうね。ちょっと目が点になったわ。[r]でも、それもまた御仏の揺るぎない御意志だと思う。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaEffect E bit_talk_10]
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0 0]
+
+＠マシュ
+玄奘……三蔵さん？　あなたが……[r]女性の方だったのですね……！
+[k]
+
+[se ad31]
+[charaFace E 14]
+＠マシュ
+ああっ……！？　また通信状態…が……[r]もう時差を補正……ない……。
+[k]
+
+[seStop ad31 1.0]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaPut E 1200,1200]
+
+[charaFadeout E 0.1]
+[charaPut E 1200,1200]
+[wt 0.1]
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]！[r]先ほどの話を玄奘三蔵に伝え……！
+[k]
+
+＠Dr.ロマン
+キミ自身が……[#鍵:かぎ]……と！
+[k]
+
+
+[se bac109]
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+切れてしまったね。[r]お次はいつ何処で通信出来るやら。
+[k]
+
+[charaFace B 4]
+＠猪八戒
+どうも、[#カルデア:あちら]側から、[r]僕たちを引き戻すことは困難なようだ。
+[k]
+
+[charaFace B 0]
+＠猪八戒
+普段なら召喚サークルを設置してくれる[r]マシュ嬢がいないからね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+……今さら出発点に戻るわけにもいかぬ。
+[k]
+
+[charaFace C 4]
+＠沙悟浄
+このまま天竺へ向かい、御仏の[#業:わざ]にすがる、[r]というのも、あながち[#荒唐無稽:こうとうむけい]ではなくなってきたか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFace C 4]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠三蔵
+えっ……じゃあ、これまで半信半疑のまま[r]旅についてきたってこと？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+んー……書文クンは強敵の臭いをかぎとって、[r]それで充分だったんだろうけどね。
+[k]
+
+[charaFace B 1]
+＠猪八戒
+僕も似たようなものかな？　けど、[r][%1]の[&兄貴:姉貴]は、どうかな？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+……どう……なの？　[%1]？
+[k]
+
+？1：物語の出口はハッピーエンドにあるに決まってる！
+
+[charaFace A 1]
+＠三蔵
+[line 3]もっちろん！[r]一度や二度の人生じゃ[#諦:あきら]めない！
+[k]
+
+[charaFace A 0]
+＠三蔵
+それがあたしの物語だもの！[r]ありがとう、[%1]！
+[k]
+
+
+？2：集める経典に解決の鍵があるはず！
+
+[charaFace A 4]
+＠三蔵
+カルデアのなよっとした人も口にしてたわね。[r]ではまさに、自分は、御仏の[#掌:てのひら]の上にいる……のだわ。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+[line 3]待て、[#諸兄:しょけい]ら。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+
+[se ba1]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.4 1]
+
+＠H：？？？
+火焔山　これ[#即:すなわ]ち　試練[#也:なり]
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠三蔵
+……っ！？
+[k]
+
+＠猪八戒
+おや、初めて見る顔だね？[r]少なくともカルデアにはまだいないタイプだ。
+[k]
+
+？1：あれが噂の尾行者か！？
+？2：ツインテチャイナ爆誕？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+……うっ……あなたは……[r]嗚呼……思い出せそうなのに……。
+[k]
+
+＠三蔵
+なんでなの……？　もどかしい！[r]猛烈な[#既視感:きしかん]だけが……胸に詰まって……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠H：？？？
+不可能　思い出せない
+[k]
+
+＠H：？？？
+その記憶　この経典に　ある
+[k]
+
+＠三蔵
+……っ……！？
+[k]
+
+[charaFace H 0]
+＠H：？？？
+[line 3]玄奘三蔵　[#嘆:なげ]かわし[r]かつて[#清士:せいし]の[#聖:ひじり]が　あたら[#賤:いや]しき[#凡俗女:ぼんぞくおんな]
+[k]
+
+＠H：？？？
+[#不惜身命:ふしゃくしんみょう]の覚悟なく　[#仁恕:じんじょ][#開豁:かいかつ]の[#器:うつわ]もなく[r]天竺に至る近道など　無い　と知れ
+[k]
+
+[charaFace H 5]
+＠H：？？？
+[line 3]分かりやすく言うと。[r]もはや　[#斉天大聖:せいてんたいせい]の師に　ふさわしく　ない
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠三蔵
+……っ……！！（ガーン）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠H：？？？
+…………[#問答:チャット]　[#終焉:おわり]。
+[k]
+
+
+[se ba1]
+[messageOff]
+[charaFadeout H 0.4]
+[wt 1.0]
+
+
+？1：ツインテチャイナに怒られた……
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+それは違うよ[&兄貴:姉貴]。肩に届かない[#髪形:かみがた]なら、[r]正確にはピッグテールというブヒよ。
+[k]
+
+
+？2：車輪に乗って飛んでいくとは……いいなあ
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠沙悟浄
+あの者、冷静ぶりながらもその[#実:じつ]、抑えきれず、[r]監視の役目を離れて干渉、という[#体:てい]だったが……。
+[k]
+
+＠猪八戒
+ああ。いかにもお師匠さまの知り合いのよう[r]だったけど、さて？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+それが……[r]うまく頭がまとまらなくって……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠沙悟浄
+なるほど、師の記憶には[#盖:ふた]をされておるわけか。[r]……しかし儂は予測がついた。あの者の正体に。
+[k]
+
+＠沙悟浄
+火焔を帯びし槍は、[#火尖槍:かせんそう][line 3][r]対の腕輪とおぼしきは、[#乾坤圏:けんこんけん][line 3]。
+[k]
+
+[charaFace C 4]
+＠沙悟浄
+そして、[#童子:どうじ]の[#如:ごと]きうら若き容姿。[r][#語:かた]り[#口:ぐち]はいささか変わっておったが……。
+[k]
+
+[charaFace C 0]
+＠沙悟浄
+おそらくは、[#中壇元帥:ちゅうだんげんすい]　[image NPC_font001a:な][image NPC_font001b:た][#太子:たいし][line 3][r]斉天大聖　孫悟空と並び称される[#花形:はながた]。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+な……た……[image NPC_font001a:な][image NPC_font001b:た]……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+[#若武者:わかむしゃ]と[#侮:あなど]るなかれ、[r]全身これ[#宝貝:パオペエ]製の人形よ。
+[k]
+
+[charaFace C 1]
+＠沙悟浄
+カルデア流に[#称:しょう]さば、宝具人間というところであろう。[r]是非とも、手合わせ願いたい……。
+[k]
+
+
+？1：また先生の悪い病気が……
+
+[charaFadeout C 0.1]
+
+？2：なんだか呂布をチラチラ気にしてたような？
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]？
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+お師匠さんの記憶をおさめた経典、とやらも[r][image NPC_font001a][image NPC_font001b]ちゃんが持って行ってしまった。
+[k]
+
+[charaFace B 4]
+＠猪八戒
+ということは今回は収穫無しか。[r]やっぱりズルは出来そうもない。
+[k]
+
+[charaFace B 0]
+＠猪八戒
+どこの国だろうと、神様はお見通しという事だねぇ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+
+＠三蔵
+…………[#芭蕉:ばしょう]……[#扇:せん]……。
+[k]
+
+[charaFace A 2]
+＠三蔵
+思い出した！[r]そう、[#芭蕉扇:ばしょうせん]よ、芭蕉扇！
+[k]
+
+[charaFace A 5]
+＠三蔵
+みんな聞いて、手順が違ってたの！[r]火焔山攻略には宝具が……アイテムが必要だった！
+[k]
+
+＠三蔵
+それが芭蕉扇！[r][#羅刹女:らせつにょ]の持つ宝具、芭蕉扇よ！
+[k]
+
+？1：芭蕉扇……？
+？2：羅刹女……？
+
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+[soundStopAll]
+[end]

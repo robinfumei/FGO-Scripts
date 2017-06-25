@@ -1,0 +1,372 @@
+
+
+＄94-00-56-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 5027000 1 マリー]
+[charaSet E 2025200 1 アン]
+[charaSet F 9004000 1 マルタ]
+[charaSet G 3024000 1 玉藻の前]
+[charaSet H 3025000 1 清姫]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+素材もだいぶ集まってきました。この調子なら、[r]ほどなくシンボル作成にも取りかかれそうですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+うーむ。正直、そのようなシンボルの建築は、私には[r]まだ無駄なことのように思えているのですが……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+しかし……話し合いで決まってしまったからのう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠マリー
+これからいよいよ、脱出の船造りのための[r]ラストスパートに入っていくのよ。
+[k]
+
+＠マリー
+士気高揚のために、そういうシンボルを[r]作るのはとても大切だと思うわ？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠アン
+航海の無事を祈る、[#船首像:フィギュアヘッド]の[r]ようなものでしょうか……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マルタ
+そうですね。やはり具体的な形があったほうが、[r]みんなの気持ちは集めやすいものです。
+[k]
+
+＠マルタ
+そのうえで一番大事なのは祈りですけれど。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠玉藻の前
+フフ、やはり信仰と言えばこの[#私:わたくし]！[r]であれば建てるものは……もう決まっていますよねぇ？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠清姫
+まぁ、最終的な選択はますたぁの判断にお任せする、と[r]いうことになっておりますし。
+[k]
+
+[charaFace H 3]
+＠清姫
+わたくしの像は恥ずかしいので遠慮いたしますよ。
+[k]
+
+＠清姫
+それより、ますたぁが懐に木彫りのわたくしをそっと[r]忍ばせているとかのほうが……ふふ、興奮いたします……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaSet E 4024000 1 モードレッド]
+[charaSet H 2025100 1 メアリー]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+軍神の像とかと一緒だろ。だったらこの中で一番強え奴の[r]ほうがいいよなっ？　えと、誰とは言わねえけどよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……大変ですね。きっとこれは、[r]島の外見にも大きな変化が起こりそうです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+よく考えて決めてくださいね、マスター。[r]さて、それではいろいろ準備を[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaFace A 6]
+[messageOff]
+[shake 0.05 0 4 1.5]
+[se ad109]
+[wt 1.5]
+
+[charaFace A 7]
+＠マシュ
+……ッ！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+これは……！
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+[line 3]ほう。大物の気配だな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠メアリー
+何か、とんでもなく大きなのが[line 3]来る！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaSet H 98101700 1 ？？？]
+[charaSet B 98100800 1 うりぼう]
+
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+[effect bit_talk_41]
+
+[shake 0.05 0 4 0]
+＠H：？？？
+ＧＲＲＲＲＲＲＲＦ！！！
+[k]
+
+[shakeStop]
+[effectStop]
+[wt 0.2]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠うりぼう
+ぴ……ぴぎ[line 4]っ！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠マリー
+うりぼうさんたちがパニックに！[r]あの圧ではしょうがないけど……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+チッ、なんてデカブツだよ……。
+[k]
+
+？1：今までの魔猪達の……親か！？
+？2：何者だ、名を名乗れ！
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠H：？？？
+グルッファッファ……
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+笑った……人語を解している……？[r]いえ、たまたまそう見えただけ、でしょうか……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet B 3004001 1 カルナ]
+[charaSet E 3001001 1 クー・フーリン]
+[charaSet H 6001002 1 小次郎]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠カルナ
+この巨躯。[#ヴァラーハ:ヴィシュヌの化身]の如き威容ではあるが[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace H 0]
+[charaFace E 1]
+[charaFadein H 0.1 2]
+[charaFadein E 0.1 0]
+
+＠クー・フーリン
+一目でわかるぜ。こいつは邪悪だ。[r]ただの邪悪な生き[#物:モン]だ。
+[k]
+
+＠小次郎
+意思疎通を図るまでもなく、[r]倒すべき敵でござろうなぁ。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+まったく。これほどまでの魔猪の存在を許すとはな。
+[k]
+
+[charaFace C 5]
+＠スカサハ
+何の加護も持たぬ島なら、[r]こいつが在るだけで沈んでいるぞ？
+[k]
+
+＠スカサハ
+立派な土台を作っておきながら、今や棄島。[r]この島の管理者に嘆かわしさを伝えたいところだ。
+[k]
+
+[charaFace C 0]
+＠スカサハ
+これほどの魔の屹立を許す土地など、[r]それこそ我が国でも[line 3]む……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠玉藻の前
+ちょっとちょっと、これから歴史に残る一大シンボルの[r]建設に入ろうかってところだったんですけどー？
+[k]
+
+＠玉藻の前
+そんなデカい図体、せっかくタマモちゃん像ができても[r]存在感が霞むことになって超邪魔なんですけどー！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠マルタ
+あら、私は好きよ[line 3][r]デカすぎて殴り甲斐がありそうだわ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠マリー
+結局、貴方がこのうりぼうさんたちを[r]虐めている王様なのね？
+[k]
+
+[charaFace D 2]
+＠マリー
+そんなに大きくて強そうなのに、こんな小さな子達を……[r]許せないわ。恥を知りなさい！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+戦う以外の選択肢はありません。[r]いきましょう、マスター！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

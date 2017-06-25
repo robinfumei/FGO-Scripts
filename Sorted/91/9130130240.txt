@@ -1,0 +1,259 @@
+
+＄91-30-13-02-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[se ad59]
+[seVolume ad59 0 0.8]
+[shake 0.05 0 0.7 0]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3013001 1 スカサハ]
+[charaSet C 3001001 1 クー・フーリン]
+[charaSet D 98006300 1 ？？？]
+[charaSet E 98015000 1 ？？？]
+[charaSet F 98015000 1 ？？？]
+
+[scene 20602]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+………………[wt 0.7][charaFace A 15]！
+[k]
+
+＠マシュ
+強い魔力反応を感知しました。[r]そして、この感覚……これは……[wt 1.0]殺気……ですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+いや、違うな。[r]少なくともアイツの殺気じゃねえ。
+[k]
+
+＠クー・フーリン
+一体何が[line 3]
+[k]
+
+[messageOff]
+[seStop ad59 0.1]
+[wipeout rectangleStripLeftToRight 0.2 1]
+[bgmStop BGM_EVENT_3 0.4]
+[wait wipe]
+[charaFadeout C 0.1]
+
+[scene 20900]
+[wt 0.2]
+
+[shakeStop]
+[se ad171]
+[wt 0.4]
+[se ad38]
+[seStop ad38 0.5]
+[wt 0.2]
+[wipein rectangleStripRightToLeft 0.2 1]
+[wait wipe]
+
+[wt 0.5]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.7 1]
+＠スカサハ
+…………[wt 0.7][charaFace B 0][wt 0.3]お主たちか。
+[k]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+[messageOff]
+[wt 0.5]
+
+[se ad42]
+[charaTalk off]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein D 0.4 1]
+[wt 0.2]
+[charaFadein E 0.4 0]
+[charaFadein F 0.7 2]
+[wt 1.2]
+
+＠クー・フーリン
+おいおいおい。[r]何だこりゃ。死霊たちを掻き集めて、軍団でも作る気か？
+[k]
+
+＠スカサハ
+いいかもしれんな。[r]それならば、無闇と孤高を気取らずに済みそうだ。
+[k]
+
+＠スカサハ
+下がれ。亡者よ。
+[k]
+
+
+[se ad42]
+[charaFadeout F 0.7]
+[wt 0.2]
+[charaFadeout E 0.7]
+[wt 0.2]
+[charaFadeout D 0.7]
+
+[wt 2.5]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+……なんだそりゃ。オレの軽口に付き合うなんざ、[r]らしくないぜスカサハ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+どうかな。この魔境で門を護りながら、幾星霜。[r]あらゆる生とあらゆる死を見てきた。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+いっそのこと、腐ればいい[line 3]と思ったよ。
+[k]
+
+＠スカサハ
+だがこの身は腐ることがなく、[r]魂は相変わらず、凍り付いたまま変わらない。
+[k]
+
+＠スカサハ
+さりとて、邪悪の奥底へ堕落しきってしまうには[r]私の在り方は真っ当に過ぎたらしい。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+欲が薄れ、五感が伝えるのは静寂と永遠のみ。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+…………そんな折だ。
+[k]
+
+＠スカサハ
+呆気なく人理が焼け落ちた。[r]そうして私は、無限の退屈を慰める邂逅を得て……
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+
+[charaFace B 1]
+＠スカサハ
+正真正銘の死を得る、千載一遇の機会を得た。
+[k]
+
+＠スカサハ
+まあ。死して、この魂が何処へ至るのか。[r]その実分かったものではないがな？
+[k]
+
+[charaFace B 0]
+＠スカサハ
+英霊の座とやらか。焼失した影の国か。それとも[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_5 0.5]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+…………。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+ともあれ。私は、望んでしまうのだ。[r]エーテルのそれではあれ、肉があり骨がある。心臓も。
+[k]
+
+＠スカサハ
+仮初めとはいえ、サーヴァントとしての命もだ。[r]ならば試してみたいと思ってしまう。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+…………抑えても、抑えても、それは留まらぬ。
+[k]
+
+＠スカサハ
+結果、このようにしてマスターと馬鹿弟子たちを[r]巻き込んでしまったよ。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+すまぬ。[r]謝罪で済むとは思わぬが、な。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠クー・フーリン
+回りくどいやり方しやがって。[r][line 3][bgmStop BGM_EVENT_5 0.5][wt 0.7][charaFace C 5]しょうがねえ。引導を渡してやるさ。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace C 2]
+＠クー・フーリン
+嬢ちゃん、マスター。[r]覚悟はいいな？　あれはスカサハの本気だ。
+[k]
+
+[charaFace C 2]
+＠クー・フーリン
+滅多に見れるモノじゃねえ！　ハラくくれ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+では、殺されよう。[wt 0.5][r]あるいは、殺そう。
+[k]
+
+[charaFace B 2]
+＠スカサハ
+ゆくぞ[line 6][#出来うる限り遠慮はせぬ]ぞ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

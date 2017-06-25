@@ -1,0 +1,1459 @@
+
+
+＄01-00-08-10-1-0
+
+
+[soundStopAll]
+
+[bgm BGM_EVENT_42 0.1]
+
+[charaSet A 1019001 1 ラーマ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 3017001 1 李書文]
+[charaSet D 3013001 1 スカサハ]
+[charaSet E 4013001 1 メイヴ]
+[charaSet F 7020000 1 クー・フーリン・オルタ]
+[charaSet G 7008001 1 ベオウルフ]
+[charaSet H 3011001 1 フィン]
+
+[scene 36301]
+[fadein black 2]
+[wait fade]
+
+
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠ナイチンゲール
+道が[#拓:ひら]けました。[r]マスター、痛みを恐れないで下さい。
+[k]
+
+＠ナイチンゲール
+けれど、傷つくことは恐れなさい。[r]不死が、不老が眩く見えるのは死を恐れる以上、当然のこと。
+[k]
+
+[charaFace B 7]
+
+＠ナイチンゲール
+[#それでも前に進まなければならないのです]。
+[k]
+
+＠ナイチンゲール
+死を恐れ、死に怯える精神、[r]それは決して卑賤なものではありません！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠ラーマ
+そうだ、失うことを恐れるからこそ[r]我らは誰かを愛し、慈しみ、大切にしようと思うのだ！
+[k]
+
+＠ラーマ
+余は恐れた！[r]シータを失うことを、心から恐れた！
+[k]
+
+＠ラーマ
+だからこそ十四年戦い続け、[r]だからこそ此処にいる！！
+[k]
+
+[charaFace A 2]
+
+＠ラーマ
+いいか、マスター！[r]彼らの言うことは正しく見えるだけの代物。
+[k]
+
+＠ラーマ
+あれはただの取り繕い、[r]ただの諦めに過ぎぬのだ！
+[k]
+
+[charaFace A 1]
+
+＠ラーマ
+さあ、切り開かれた道を進め。[r][#最新:ただひとり]の人間、最高のマスターよ！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[wt 0.4]
+
+[scene 36300]
+
+[charaFadeout A 0.1]
+
+
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+
+＠メイヴ
+[#そっちの]クーちゃんが[#此処:ここ]に来るなんて、[r]正直予想外！
+[k]
+
+[charaFace E 0]
+＠メイヴ
+メイヴ的に超嬉しいけど、[r]どして？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+
+＠クー・フーリン・オルタ
+敗北した以上、敗者が勝者に従うは当然の理だ。
+[k]
+
+＠クー・フーリン・オルタ
+[#手前:テメェ]だけ押し通して余所にはさせねぇ、[r]なんてのは筋が通らん。
+[k]
+
+＠クー・フーリン・オルタ
+殺し合いであれ、憎しみ合いであれ、[r]一度繋がれた縁は途切れぬ以上、最低限の義理は果たす。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+
+＠メイヴ
+そう。[r]……最低限の義理、という割りには傷つきすぎじゃない？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠クー・フーリン・オルタ
+そういう戦い方しかできないからな。[r]おまえも何を考えていやがる、メイヴ。
+[k]
+
+＠クー・フーリン・オルタ
+女王の座を引き摺り下ろされて、[r]後悔しながらくたばっただろうが。
+[k]
+
+＠クー・フーリン・オルタ
+屈辱をからりと忘れて、[r]手助けに来るような性格ではあるまいに。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠メイヴ
+あーもう、クーちゃんってば相変わらず[r]乙女心が分かってないわ！
+[k]
+
+[charaFace E 5]
+＠メイヴ
+後悔したし、口惜しいに決まってるじゃない！[wt 0.4][r]で[charaFace E 0]も、心底から憎たらしい訳じゃないわ。
+[k]
+
+
+[charaFace E 13]
+＠メイヴ
+[#あの子:マスター]は[#あの子:マスター]なりに奮闘した。[r]生意気だけど、そこは無視できなかった。
+[k]
+
+[charaFace E 14]
+＠メイヴ
+だから、ちょっとくらいは手伝ってあげないとね。[r]あの時、追い詰められてカッとなった私の為にも。
+[k]
+
+[charaFace E 7]
+＠メイヴ
+だってあの口惜しさまで消してしまったら、[r]あの戦いが作り物になってしまう。
+[k]
+
+[charaFace E 6]
+
+＠メイヴ
+まあ、クーちゃんと過ごした蜂蜜の日々を[r]台無しにされたのは永遠に許さないんだけど！
+[k]
+
+＠メイヴ
+ほら、そんな訳で[%1]！[r]私に悪いと思っているなら必死に働きなさい！
+[k]
+
+＠メイヴ
+こんなところでチーズを売っていないで、[r]大将首を獲ってくるの！　鞭でしばくわよ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠クー・フーリン・オルタ
+……なるほど、道理だ。[r]メイヴの言うことに納得する日が来るとはな。
+[k]
+
+[charaFace F 0]
+
+＠クー・フーリン・オルタ
+行け、[%1]。[r]最短距離で走るがいい。
+[k]
+
+＠クー・フーリン・オルタ
+短命こそが俺たちの欠点であり、唯一無二の長所だ。
+[k]
+
+＠クー・フーリン・オルタ
+その命の短さ故に、俺たちはかつて存在した者として[r]おまえを助力する。
+[k]
+
+＠クー・フーリン・オルタ
+おまえもすぐに、誰かに託さなきゃならなくなる。[r]だが、それで良しとしろ。
+[k]
+
+[charaFace F 1]
+
+＠クー・フーリン・オルタ
+さっさと行け[&小僧:小娘]。[r]抉り殺されたくはないだろう？
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[scene 36301]
+
+[charaFadeout F 0.1]
+[wt 0.4]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+
+＠スカサハ
+小僧が[&小僧:[%1]]に説教するとはな。[r]長生きはしてみるものよ。
+[k]
+
+＠スカサハ
+老いても代わりがいて、[r]置かれても代わりがいる。
+[k]
+
+＠スカサハ
+個体としての死は恐れるが、[r]総体としての死は恐れない。
+[k]
+
+[charaFace D 0]
+
+＠スカサハ
+ふむ、考えてみればまさしくこやつらは[r]人類と真逆であろうな。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+
+＠李書文
+そういう事か。道理でそりが合わぬ筈よ。
+[k]
+
+＠李書文
+総体の強さを誇るなど、[r]儂のような無頼者からすれば、恥[#晒:さら]しに等しい。
+[k]
+
+[charaFace C 5]
+
+＠李書文
+集団でいきがる愚連隊どもと、[r]規模は違えど本質は同じか！
+[k]
+
+[charaFace C 1]
+
+＠李書文
+[#呵々:カカ]！[r]ならば幾ら強くとも恐れる道理は微塵もないな！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+
+＠スカサハ
+微塵もない、とはよく言った。
+[k]
+
+＠スカサハ
+ぜひ背中を任せたいところだが[line 3]ふむ。[r]お主の場合、守る気がなさそうだしなぁ。
+[k]
+
+[charaFace C 1]
+
+＠李書文
+応とも。
+[k]
+
+＠李書文
+好き勝手に動き、殺して回る方が[r]お互いやりやすかろう。
+[k]
+
+＠李書文
+第一背中など見てしまえば、[r]狙ってしまいそうではないか。
+[k]
+
+[charaFace D 1]
+
+＠スカサハ
+ふむ、それはお互い様というべきか。[r]よし、まだまだ続くぞ。
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[wt 0.3]
+[se ad171]
+[wt 0.5]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[effect bit_talk_14]
+[wt 0.1]
+[se ad170]
+[wt 1.0]
+
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+
+＠李書文
+チッ。上手く使っているつもりだったが、[r]槍の方が保たんか……仕方あるまい。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠スカサハ
+なんだ、捨てるのか？[r]私のであれば貸しても構わんぞ？
+[k]
+
+[charaFace C 1]
+
+＠李書文
+気遣い、まことに痛み入る。だが要らぬよ。[r]槍がなくとも、儂には拳がある。
+[k]
+
+[charaFace D 5]
+
+＠スカサハ
+なんと！　……む、むむ。[r]さすがに拳では一歩譲るか。
+[k]
+
+＠李書文
+あらゆる武と理に通じるお主でも、[r]拳は苦手か。
+[k]
+
+[charaFace D 4]
+
+＠スカサハ
+この優雅さでは、拳は身につかなくてな。[r]かよわい女と笑ってくれ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.2]
+
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠李書文
+[line 6]。
+[k]
+
+[charaFace C 0]
+
+＠李書文
+[line 3]いや、失敬。虚を突かれた。[r]芝居であっても咄嗟に笑えなんだ。
+[k]
+
+[charaFace C 1]
+
+＠李書文
+だが一周回って、これほどの洒落もない！[r]おかげで気が乗ってきたわ！
+[k]
+
+＠李書文
+[#全身経絡:ぜんしんけいろ]、陽気を[#巡:めぐ]らす。[r]相手が魔神柱だろうと、今であれば勁を通す自信はあるぞ？
+[k]
+
+＠李書文
+そっちはどうだ、ベオウルフ！[r]楽しんでいるか！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[messageOff]
+[wt 0.5]
+[se bac10]
+[effect bit_talk_13]
+
+
+[wt 1.0]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.4 1]
+
+＠ベオウルフ
+絶好調に決まってンだろうがよ！
+[k]
+
+[charaFace G 1]
+
+＠ベオウルフ
+ああ、やっぱ何だかんだでこっち側が楽しいわな。[r]おまけに今日は後腐れもねえ。
+[k]
+
+＠ベオウルフ
+悪いな、[%1]！[r]おまえさんのことは特に考えねえ、全力で殴るだけだ！
+[k]
+
+＠ベオウルフ
+なあに、俺が構わなくても山盛り守ってくれる連中がいる。
+[k]
+
+＠ベオウルフ
+そっちの方を気にかけておけ！[r]こっちはテメエの意地を張るので精一杯なんでな！
+[k]
+
+[charaFace G 2]
+
+＠ベオウルフ
+よっしゃ、まだまだイケるぜこっちは！[r]かかってきやがれ、イカゲソども！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.2]
+[wait wipe]
+
+[wt 0.4]
+
+[scene 36300]
+
+[charaFadeout G 0.1]
+
+
+[charaSet E 1014001 1 フェルグス]
+[charaSet F 3002001 1 ディルムッド]
+[charaSet G 3011001 1 フィン2]
+
+[wipein rectangleStripRightToLeft 0.4 1.2]
+[wait wipe]
+
+
+[charaFace E 1]
+[charaFadein E 0.4 1]
+
+＠フェルグス
+おうおう、猛るも猛る。[r]さすが音に聞こえしベオウルフ。大した勇壮ぶりよ。
+[k]
+
+＠フェルグス
+ふむ、その内[#殺:や]り合いたいものよ。[r]さぞかし、殺し甲斐がありそうだ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+
+＠フィン
+優雅さに欠ける点を長所と見ておくべきか、[r]はたまた短所と見るべきか[line 3]
+[k]
+
+＠フィン
+いや、長所なのだろうな。[r]野蛮さと優雅さの調和は難しい。
+[k]
+
+[charaFace H 1]
+
+＠フィン
+であれば！　野蛮に特化した方が、[r]より優れた雄であるのは間違いないか！
+[k]
+
+[charaDepth H 1]
+[charaDepth G 0]
+
+[charaFace H 0]
+
+＠フィン
+いやいや。私にはいささか難しい選択だがね。[r]どうしても輝いてしまうのだよ。美しさに。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadein G 0 1]
+[charaChange H 3011001 1 fade 0.6]
+[wt 0.6]
+
+＠フィン
+……おっと、そう言えばここに野蛮と優雅を[r]併せ持った男がいたじゃあないか！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk on]
+
+[charaSet G 3005002 1 エリザベート]
+
+[backEffect bit_talk_41 18,168]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠ディルムッド
+[fontSize large][se ad186]我が君！　今回だけは自重されよ！
+[k]
+
+[backEffectStop bit_talk_41 0.1]
+[wt 0.7]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+
+＠フィン
+お、おう！？
+[k]
+
+[charaFace F 5]
+
+＠ディルムッド
+たまには真面目に戦いますよう。[r]これは世界の命運を懸けた戦いですので……！
+[k]
+
+
+[charaFace H 3]
+
+＠フィン
+そ、そうだな。[r]いや失敬！
+[k]
+
+[charaFace H 4]
+
+＠フィン
+絶望的な戦力差なのでね、[r]つい、日頃の癖でからかってしまった。
+[k]
+
+＠フィン
+軽口ひとつで戦況が変わる数でもなし、[r]ここは私も野蛮に寄るしかないかな？
+[k]
+
+[charaFace F 4]
+
+＠ディルムッド
+……は。無論、それが貴方の長所であることは[r]このディルムッド、よく理解しておりますが……。
+[k]
+
+＠ディルムッド
+今、この場は数多の英傑たちが集っています。
+[k]
+
+[charaFace F 5]
+
+＠ディルムッド
+我が君を侮られるのは、このディルムッド[r]耐えられませぬ……！
+[k]
+
+[charaFace H 1]
+
+＠フィン
+ははははは！　ならばディルムッドよ！[r]フィオナ騎士団の一番槍を任せるとしよう！
+[k]
+
+[charaFace F 1]
+
+＠ディルムッド
+無論ですとも。[r]この双槍、世界と我が君の為に振るわせて戴きます！
+[k]
+
+[messageOff]
+
+[se ad55]
+[seVolume ad55 0 0.7]
+
+[charaFadeout H 0.4]
+[charaFadeout F 0.4]
+[wt 0.3]
+[seStop ad55 0.3]
+[wt 0.3]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠フェルグス
+うーむ、主従で勝手に盛り上がるだけ[r]盛り上がって行ってしまったな……。
+[k]
+
+＠フェルグス
+ならば俺もちょいとばかり踏ん張るとするか。
+[k]
+
+＠フェルグス
+我欲を笑い、蔑み、糺弾するは最早聖人にあらず。[r]ただの[#ひとでなし]、人でなくなった愚か者よ。
+[k]
+
+[backEffect bit_talk_41 5,184]
+
+[charaFace E 2]
+[se ad186]
+
+＠フェルグス
+この俺は！[r]今、この場に集った美女全てにお相手してもらいたい！
+[k]
+
+[backEffectStop bit_talk_41 0.1]
+[wt 0.7]
+[charaFace E 5]
+
+＠フェルグス
+その為であれば、この命を懸けるのも[r]惜しくはあるまい！
+[k]
+
+[charaFace E 1]
+
+＠フェルグス
+ふはははははは！[r]唸りをあげよ、我が[#虹霓:こうげい]……！！
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.2]
+[wait wipe]
+
+[wt 0.4]
+
+[scene 36301]
+
+[charaFadeout E 0.1]
+
+
+[charaSet E 5016001 1 ジェロニモ]
+[charaSet F 2010001 1 ビリー]
+[charaSet H 2003001 1 ロビンフッド]
+
+[wipein rectangleStripLeftToRight 0.4 1.2]
+[wait wipe]
+
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+
+＠エリザベート
+あはははは！　滅茶苦茶に楽しいわ！[wt 0.5][r]っていうか、[charaShake G 0.05 4 4 0.4][charaFace G 2][#私:アタシ]これでコイツと戦うの二度目なんですけど！？
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.3]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.4 1]
+
+＠ロビンフッド
+そりゃすげえ。[r]おまけに着替え済みと来たもんだ。
+[k]
+
+[charaFace H 0]
+
+＠ロビンフッド
+とりあえず、ローテーションを組んで[r]のんびりやろうとか思わないか？
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+
+＠ビリー
+いやあ、それは無理だな。[r]僕は若い英霊だからね、いつだって全力で走らないと。
+[k]
+
+[charaSet B 98020000 1 ハルファス]
+
+
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaFadein B 0.1 1]
+
+[wt 0.3]
+
+[charaShake B 0.05 3 3 0]
+
+[se bac22]
+[wt 0.1]
+[se bac22]
+[wt 0.1]
+[se bac22]
+
+[effect bit_shot_01]
+[wt 0.1]
+
+[effectStop bit_shot_01 0.2]
+
+[wt 0.6]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaShakeStop B]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ビリー
+うん。[r]銃が当たるなら倒せる、殺せる！
+[k]
+
+＠ビリー
+僕たちアメリカ人は、大体そういう認識なのさ♪
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠ジェロニモ
+突き抜けた合理主義だな。[r]つくづくお前たちは恐れを知らぬ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠ビリー
+それじゃ、ジェロニモは恐れて逃げた方が[r]いいってのかい？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠ジェロニモ
+は、まさか。
+[k]
+
+[charaFace E 0]
+
+＠ジェロニモ
+この場に集った者で、[r]勇気を振り絞ってない者は一人もおらぬ。
+[k]
+
+＠ジェロニモ
+誰もが皆、あのマスターの後押しをするために、[r]再び死の苦しみを味わいに来たのだ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+
+＠エリザベート
+そうね、さすがにこれ死ぬわよね。[r][#私:アタシ]たち。
+[k]
+
+＠ロビンフッド
+怖くないか？
+[k]
+
+[charaFace G 1]
+
+＠エリザベート
+それが不思議と怖くないのよね、[#私:アタシ]！[r]死ぬことも、痛いのも、全然ね！
+[k]
+
+[charaFace G 0]
+
+＠エリザベート
+フツーの聖杯戦争で、サーヴァント同士で争うのは[r]ちょっとくらい怖いこともあるのに。
+[k]
+
+[charaFace H 1]
+
+＠ロビンフッド
+ま、お嬢も日々成長してるってコトですかねぇ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+
+＠ジェロニモ
+今回に限っては、死は負けではないからだろうさ。
+[k]
+
+＠ジェロニモ
+さて、ロビンフッド。[r]ゲリラ戦は得意かね？
+[k]
+
+[charaFace H 1]
+
+＠ロビンフッド
+こそこそネズミみたいに走り回ることなら、[r]ぶっちゃけ得意分野ですわ。
+[k]
+
+[charaFace H 0]
+
+＠ロビンフッド
+相手が嫌がることを嫌ってほどやればいい。[r]騎士道には程遠いが、ま、今回ばかりはしゃあないでしょ。
+[k]
+
+＠ジェロニモ
+鼠、大いに結構だ。[r]では諸君、大いに走り回るとしよう。
+[k]
+
+[charaFace E 5]
+
+＠ジェロニモ
+宝具を廻せ、間断なく撃ち続けろ。[r]死ななければ勝ち、死しても負けではない。
+[k]
+
+[charaFace E 2]
+
+＠ジェロニモ
+[%1]のために、道を拓け！
+[k]
+
+
+[bgmStop BGM_EVENT_42 0.7]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1.2]
+[wait wipe]
+
+[wt 0.7]
+
+[scene 36300]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+
+
+[charaSet A 5025001 1 エジソン]
+[charaSet E 5025001 1 エジソン]
+[charaSet F 5023001 1 ブラヴァツキー]
+[charaSet G 3004001 1 カルナ]
+[charaSet H 2015001 1 アルジュナ]
+
+[charaDepth A 1]
+[charaDepth E 0]
+
+[wipein rectangleStripRightToLeft 0.7 1.2]
+[wait wipe]
+
+[bgm BGM_EVENT_12 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠エジソン
+うむ！[r]今日も今日とて直流は絶好調！
+[k]
+
+[charaFace A 2]
+
+＠エジソン
+唸れフィラメント！[r]吼え立てろバルブ！
+[k]
+
+[se ad62]
+[effect bit_talk_lightning_04g]
+
+[wt 0.5]
+[seStop ad62 0.3]
+
+[se ad39]
+[se ad64]
+[fadeout white 0.5]
+[wait fade]
+
+＠エジソン
+闇照らす光となり、人の歴史を作り替えよ！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[fadein white 2]
+[wait fade]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+
+＠ブラヴァツキー
+まあ、そのお陰で人は夜も働けるようになったのだけど。[r]ハードワーカーになったわよね、お陰さまで。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠エジソン
+それは！[r]ごめんね！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠ブラヴァツキー
+……良いところもあるけど悪いところもある。
+[k]
+
+＠ブラヴァツキー
+忌々しいけど、総体としての完璧さでいえば[r]確かに魔神柱の方が格上ね。
+[k]
+
+[charaFace F 0]
+
+＠ブラヴァツキー
+でもね、悪いところがある方が当たり前でしょう？[r]人は悪に苦しみ、悪に耐え、悪を憎み[line 3]
+[k]
+
+＠ブラヴァツキー
+時に、悪に愛おしさすら抱きながら生きてきた。[r]紡ぎ紡いだ数千年の積み重ね、捨てたものじゃなくてよ？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠エジソン
+ふははははまったくもってその通り！
+[k]
+
+＠エジソン
+世の中は普遍化という概念で出来ている！[r]一つの偉大なるものが世を転がす時代はとうに終わった！
+[k]
+
+＠エジソン
+なるほど、おまえたちは偉大なのだろう。[r]強大なのだろう。交流なのだろう！
+[k]
+
+[se ad65]
+[charaBackEffect A bit_talk_lightning_01g]
+[charaFace A 2]
+
+＠エジソン
+[fontSize x-large]だが、それがどうした！
+[k]
+
+[charaBackEffectStop A bit_talk_lightning_01g]
+
+[charaFace A 5]
+
+＠エジソン
+おまえたちは一つの強靱な生命体として完璧だが、[r]普遍性がない！
+[k]
+
+＠エジソン
+一人で生きて、一人で死ぬしかない。[r]なんとつまらぬ孤高！
+[k]
+
+＠エジソン
+そう、おまえたちは[#つまらない]！[r]何から何まで交流のようにつまらない！
+[k]
+
+[charaFace A 2]
+
+＠エジソン
+見るがいい、懸命に走るあの[%1]を！[r]我らと縁を繋いだ、あのマスターを！
+[k]
+
+＠エジソン
+走りは完璧ではない！[r]息も切らせている！
+[k]
+
+
+
+
+＠エジソン
+だが、その懸命さこそが我らの心を打った！[r]だからこそ、こうして此処に我らは集った！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadein E 0 1]
+[charaChange A 5025001 0 fade 1.2]
+[wt 1.2]
+
+＠エジソン
+問いを返そう、軍魔ハルファス！[r]おまえたちは、[&彼:彼女]を美しいと思うか？
+[k]
+
+[charaFace A 1]
+
+＠エジソン
+そこを理解せねば、おまえたちは永遠に負け続けるだろう！[r]交流のように！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk on]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠ブラヴァツキー
+ああもうちょくちょく、交流の悪口を[r]差し挟むのは止めなさい！
+[k]
+
+＠ブラヴァツキー
+また喧嘩するの、また私を困らせるの！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad181]
+[charaShake A 0.1 3 3 2.0]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠エジソン
+あいだだだすいませんゴメンナサイ！
+[k]
+
+[bgmStop BGM_EVENT_12 0.7]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.7 1.2]
+[wait wipe]
+
+[wt 0.4]
+
+[scene 36301]
+
+[charaFadeout A 0.1]
+
+[wipein rectangleStripLeftToRight 0.7 1.2]
+[wait wipe]
+
+[bgm BGM_EVENT_42 0.3]
+
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+
+＠アルジュナ
+……おまえは、いつかこういう日が訪れると思ったか？
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+
+＠カルナ
+いつかは来る。[r]だが、いつかは分からないと。
+[k]
+
+[charaFace G 4]
+
+＠カルナ
+千年、二千年、月日がオレたちの想いを[r]更地にするまでは、と思っていたが……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠アルジュナ
+そうだな、まさかこれほどまでに短いとは！
+[k]
+
+[charaFace H 0]
+
+＠アルジュナ
+[line 3]だが、いい。
+[k]
+
+＠アルジュナ
+おまえへのこの憎悪とも闘志ともつかぬ、[r]混沌たる想いは水底へ沈めよう。
+[k]
+
+＠アルジュナ
+今は……。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠カルナ
+ほう、そうなのか。[r]オレはむしろ、対抗する気で来たのだが。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠アルジュナ
+[line 3]な、に？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠カルナ
+アルジュナ、話は最後まで聞くものだ。[r]どうやらオレは、一言少ないらしいのでな。
+[k]
+
+[charaFace G 4]
+
+＠カルナ
+元より多弁ではないが、[r]この状況でおまえに誤解をさせるべきではない。
+[k]
+
+[charaFace G 5]
+
+＠カルナ
+……つまり、これは競争だ。
+[k]
+
+＠カルナ
+直接戦うのではなく、彼らをどれだけ打ち負かしたかで[r]競い合う、言うなれば狩りの競争だ。
+[k]
+
+＠カルナ
+[#戦士:クシャトリヤ]なら誰しも覚えがあるものだろう？[r]それは決して糺されることのない、健全な争いだ。
+[k]
+
+＠カルナ
+……そう。[r]おまえはオレを憎いと思っている[line 3]それでいい。
+[k]
+
+[charaFace G 0]
+
+＠カルナ
+オレとて聖人などではない。[r]憎まれれば憤りを感じることもある。
+[k]
+
+＠カルナ
+だが、それは正しい憎しみ、正しい憤りだ。[r]決して特別なものではない。
+[k]
+
+＠カルナ
+そして、[#特別ではない事とは、悪ではない]。
+[k]
+
+＠カルナ
+己を誤魔化すな、アルジュナ。[r]そうせずとも、オレたちは横に並ぶことはできる。
+[k]
+
+＠カルナ
+かつて彼女が望んだ[#光景:モノ]とは異なるだろうが……。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠アルジュナ
+[line 3]なるほど。
+[k]
+
+[charaFace H 1]
+
+＠アルジュナ
+そうだ、そうだな。
+[k]
+
+＠アルジュナ
+カルナ……。
+[k]
+
+[charaFace H 4]
+
+＠アルジュナ
+私はおまえが憎い、そして妬ましいよ。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠カルナ
+……そうか。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠アルジュナ
+だが、それでいいのだろうな。[r]この憎悪は、醜い感情は消えることはない。
+[k]
+
+＠アルジュナ
+けれど向き合うことはできる。[r]この醜さを醜いと笑いながら、耐えることはできるのか。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠カルナ
+ああ、あのマスターがここまで戦い続けたように。
+[k]
+
+＠カルナ
+振り払うことはできずとも、[r]受け入れることはできるのだろう。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アルジュナ
+……フッ。
+[k]
+
+＠アルジュナ
+まさか、英霊になった後で己が世界を揺るがされる[r]ことになるとはな。
+[k]
+
+＠アルジュナ
+この憎悪と嫉みは、[r]おまえの戦果を上回ることで晴らすとしよう。
+[k]
+
+[charaFace H 5]
+
+＠アルジュナ
+さあ、槍を構えるがいい、カルナ！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+
+＠カルナ
+無論だ。[r]そちらも矢を番えるがいい、アルジュナ。
+[k]
+
+＠カルナ
+それから……うむ。稀にではあるが、[r]英霊になった後で意識が変革する事は絶無ではない。
+[k]
+
+＠カルナ
+今までのオレであれば、おまえに対抗するとだけ告げて[r]殺し合いに至ったかもしれん。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠アルジュナ
+なるほど。[r]それは……やはり、[%1]との縁ゆえか？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠カルナ
+それもあるが、全てではない。
+[k]
+
+＠カルナ
+こうして自慢するのは恥ずかしいが、[r]オレは絶え間の無い幸運に恵まれている。
+[k]
+
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠アルジュナ
+え。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠カルナ
+恵まれている。[r]特にマスター運など最たるものだ。
+[k]
+
+＠カルナ
+遠い記憶となっても、[r]心に響いた[#言葉:もの]が残り続けているのだから。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠アルジュナ
+いつか[line 3]巡り会いたいものだ。[r]そういう、存在に。
+[k]
+
+[charaFace H 5]
+
+＠アルジュナ
+最後のマスター、[%1]殿！[r]道は拓いています。先に進むがよろしかろう！
+[k]
+
+[charaFace H 2]
+
+＠アルジュナ
+さあ、走りなさい！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_42 2.0]
+[wait fade]
+[soundStopAll]
+[end]

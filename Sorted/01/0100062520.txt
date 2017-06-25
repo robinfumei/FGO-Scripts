@@ -1,0 +1,477 @@
+＄01-00-06-25-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98080000 1 セルハン]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet D 1020000 1 ランスロット]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 98084000 1 粛正騎士]
+[charaSet H 98003000 1 Dr.ロマン]
+
+
+[scene 30300]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+よし、砂漠越えの準備は整った。[r]そろそろ行こうか[%1][&君:ちゃん]。
+[k]
+
+＠ダ・ヴィンチ
+メンバーは[%1][&君:ちゃん]、マシュ、[r]三蔵殿、藤太殿、ランスロット卿とその配下の精鋭だ。
+[k]
+
+[charaFace C 1]
+＠ダ・ヴィンチ
+オジマンディアス王の軍勢と戦う可能性もある。[r]ランスロット卿たちには張り切ってもらわないとね。
+[k]
+
+？1：あれ、ベディヴィエールは？
+
+？！
+
+[charaFace C 5]
+＠ダ・ヴィンチ
+彼には山の民への連絡を頼んだよ。[r]一足先に東の村に行ってもらった。
+[k]
+
+＠ダ・ヴィンチ
+呪腕のハサンと面識もあるし、適任だろう？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace C 0]
+[charaFace F 0]
+[charaFadein C 0.1 2]
+[charaFadein F 0.1 0]
+
+＠俵藤太
+それはいい。ベディヴィエールにはいい休息になる。[r]ダ・ヴィンチちゃんとやら、中々の鑑識眼だ。
+[k]
+
+[charaFace C 1]
+＠ダ・ヴィンチ
+ふ、[#当然:てんさい]の事を[#天才:とうぜん]のように褒めないでくれたまえ！[r]キミも中々のサーヴァントと見た！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ベディヴィエールさんからハサンさんたちに、[r]太陽王と協力する方針を伝えてもらうのですが……
+[k]
+
+[charaFace A 12]
+＠マシュ
+ハサンさんは太陽王とも敵対していましたから、[r]納得してもらえるか、ちょっと心配です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠セルハン
+そこは納得してもらうしかなかろうよ。[r]んじゃ、オレも行ってくるぜダ・ヴィンチ女史。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠ダ・ヴィンチ
+ああ、よろしく頼んだよセルハン殿。[r]こればかりはキミの草の根ネットワークが頼りだ。
+[k]
+
+[charaFace B 0]
+＠セルハン
+はいはい、厄介な演説になりそうだがね。[r]そこの[&兄さん:娘さん]をダシにしていいなら半々だ。
+[k]
+
+
+？1：？
+？2：[&オレですか？:わたしですか？]
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠セルハン
+ああ、アンタだ。なんとか口八丁手八丁で[r]オジマンディアスの軍勢を借り受けて来てくれよ？
+[k]
+
+
+[bgmStop BGM_EVENT_2 0.8]
+
+[messageOff]
+[charaFadeout B 0.4]
+[wt 0.8]
+
+[se ad60]
+[charaTalk G]
+[charaFadein G 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+[bgm BGM_EVENT_4 0.1]
+
+＠粛正騎士
+ランスロット卿。[r]遊撃騎士隊40騎、出撃準備整いました。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ランスロット
+よし。他の騎士たちはこの場に残り、[r]ベディヴィエール卿からの報せを待て。
+[k]
+
+[charaFace D 5]
+＠ランスロット
+山の民たちとの合流許可が下り次第、[r]ここの軍勢を聖都付近の隠し谷まで移動、待機だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠粛正騎士
+ハッ！　卿もご武運を！
+[k]
+
+
+[messageOff]
+[charaFadeout G 0.4]
+[wt 0.8]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+？1：……いいんですか、本当に？
+？2：……獅子王と戦うんですね？
+
+？！
+
+＠ランスロット
+……ええ。あまりに遅くなりましたが。
+[k]
+
+＠ランスロット
+私は王に忠誠を誓った身。[r]この剣は王のために振るうと決めていた。
+[k]
+
+[charaFace D 5]
+＠ランスロット
+だが、王が人ならざる者になったのであれば、[r]これを糾すのが臣下の役目。
+[k]
+
+＠ランスロット
+たとえ獣身と蔑まれようと、[r]今こそ、最後の忠節を果たす時です。
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 0 5 0 0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠ダ・ヴィンチ
+はいそこ、湿っぽくならない～。[r]まずは太陽王へのアピールが先だからね。
+[k]
+
+＠Dr.ロマン
+そうそう、思いっきり強がって、[r]“こっちに負ける要素はないぞ”と売りこむんだ。
+[k]
+
+＠Dr.ロマン
+例によって砂漠では通信できなくなるけど、[r]気を付けて、[%1][&君:ちゃん]、マシュ。
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+さあ、新しいオーニソプターに乗り込みたまえ、[r][%1][&君:ちゃん]！
+[k]
+
+[charaFace C 5]
+＠ダ・ヴィンチ
+これが大改良のすえ四人乗りに生まれ変わった[r]陸海空万能移動ツール[line 3]
+[k]
+
+[bgmStop BGM_EVENT_4 0.1]
+
+[se ad139]
+[charaPut H 1]
+[charaEffect H bit_talk_41]
+[charaScale C 1.5]
+
+[charaFace C 2]
+＠ダ・ヴィンチ
+[#猫耳:スラスター][#尾翼:カナード]付きバギー、[r]オーニソプター・バステニャンだ！
+[k]
+
+[charaEffectStop H bit_talk_41]
+
+？1：万能型[line 3]バステニャン……！
+？2：……もしかしてエジプト好きなの？
+
+？！
+
+[messageOff]
+[maskout black 2.0]
+[wait mask]
+
+[charaScale C 1.0]
+[charaFadeout C 0.1]
+
+[charaSet B 98006200 1 ？？？]
+[charaSet G 98006200 1 ？？？]
+[charaSet H 98006200 1 ？？？]
+
+[scene 28801]
+
+[charaBackEffect B bit_talk_haboob_03]
+
+[wt 1.0]
+
+[shake 0.05 0 4 0]
+[seLoop ad140]
+
+[bgm BGM_EVENT_3 0.1]
+[maskin black 2.0]
+[wait mask]
+
+
+[wt 3.0]
+[seStop ad140 2.0]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+キャ[line 4]☆　カイテキすぎる～～～！[r]バステにゃ～～ん！　はらそーぎゃーてー！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+うんうん。[r]三蔵ちゃんはオーディエンスとしても一流だ！
+[k]
+
+[charaFace C 5]
+＠ダ・ヴィンチ
+でも注意してほしい。
+[k]
+
+＠ダ・ヴィンチ
+湖ぐらいなら渡りきり、ジャンプ台さえあれば[r]二百メートルほど滑空できるバステニャンだが、
+[k]
+
+[charaFace C 2]
+＠ダ・ヴィンチ
+その代わり衝撃にはとても弱い！[r]小さめのゴーレムだろうとぶつかれば分解する！
+[k]
+
+[charaFace C 0]
+＠ダ・ヴィンチ
+つまりスピードの出しすぎという事だよ、[r][%1][&君:ちゃん]
+[k]
+
+
+？1：だって、踏めば踏むほどスピードが！
+？2：ピリオドの向こう側へ
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+気持ちは分かりますが落ち着いてください、マスター！[r]ランスロットさんたちが離れていきます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠三蔵
+トータも離れていくわ！[r]そして何か叫んでるけど聞こえないわ！
+[k]
+
+[charaFace E 0]
+＠三蔵
+でも馬の扱いはランスロットさんにも負けてない！[r]さっすがあたしのお弟子、なにやらせても一流ね！
+[k]
+
+[se ba1]
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaPut B 1200,1200]
+[charaBackEffectStop B bit_talk_haboob_03]
+
+[charaFadeout E 0]
+
+[charaTalk F]
+[charaFace D 5]
+[charaFace F 5]
+[charaFadein D 0 2]
+[charaFadein F 0 0]
+
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[seLoop ad84]
+
+＠俵藤太
+ば[line 2]か[line 3]も[line 2]の[line 3][r]ま[line 2]え[line 2]を[line 3]み[line 3]ろ[line 3]
+[k]
+
+[charaFace D 2]
+＠ランスロット
+む[line 2]ら[line 2]さ[line 2]き[line 2]の[line 3][r]か[line 3]べ[line 4]が[line 4]
+[k]
+
+[seStop ad84]
+[se ba1]
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+
+[charaFadeout D 0]
+[charaFadeout F 0]
+
+[charaPut F 1]
+[charaBackEffect F bit_talk_haboob_03]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0 1]
+
+[wt 0.4]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[seLoop ad140]
+
+＠マシュ
+前を見ろ……？[r]紫の壁？
+[k]
+
+[charaFace A 2]
+
+＠マシュ
+まさか！？　先輩、急ブレーキです！[r]失礼します！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[shakeStop]
+[shake 0.02 0 4 1.5]
+
+[seStop ad140]
+[se ad141]
+
+＠三蔵
+きゃ[line 5]☆[r]砂漠を滑る滑る[line 4]☆
+[k]
+
+[charaPut F 1200,1200]
+[shakeStop]
+[charaTalk off]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 1]
+[charaFadein H 0.1 0]
+[charaEffect G bit_talk_41]
+
+＠？？？
+HollyyyyyyyyWoooooooood[line 3]！！！！！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaPut G 1200,1200]
+[charaEffectStop G bit_talk_41]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あれは……いつぞやの怪生物……！[r]ものすごい数です、まさに壁です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+以前の生き残りが繁殖したようだね。[r]まさに驚異の生命力だ！
+[k]
+
+＠ダ・ヴィンチ
+だが我々にリベンジしようと現れたのは失敗だ。[r]今度こそ怪生物は消毒だ[line 3]！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[charaBackEffectStop B]
+[soundStopAll]
+[end]

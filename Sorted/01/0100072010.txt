@@ -1,0 +1,605 @@
+
+
+
+＄01-00-07-20-1-0
+
+[soundStopAll]
+[charaSet A 5018001 1 ギルガメッシュ]
+[charaSet B 4018001 1 ケツァル・コアトル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 98107500 1 ウルク兵士]
+[charaSet E 3028000 1 ジャガーマン]
+[charaSet F 2020001 1 イシュタル]
+[charaSet G 8001002 1 マシュ]
+[imageSet H cut005_data 1]
+
+[scene 33100]
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_40 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠ギルガメッシュ
+夜明けだ！　みな十分な休息はとったな？[r]では早速、昨夜の調査結果を知らせる！　これを見よ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[messageOff]
+[se ad1]
+[charaPut H 0,-200]
+[charaFadeTime H 1.0 0.8]
+[wt 3.5]
+
+＠ケツァル・コアトル
+まあ。ティアマト神の真体の全身図ね？[r]良く出来てるわ、どうやったのかしらこれ？
+[k]
+
+
+＠Dr.ロマン
+ふふ、ボクとウルクの神官たちの共同制作さ！[r]そちらからの情報を元に、こちらで完成させてみた！
+[k]
+
+
+＠ギルガメッシュ
+うむ、その件はご苦労。[r]だが今はヤツの脚に注目しろ。
+[k]
+
+＠ギルガメッシュ
+昨夜から未明にかけ、[r]海岸線にて生き残った学舎から何度か報告があった。
+[k]
+
+＠ギルガメッシュ
+“ティアマト神は海水の上を歩いている”[r]“自らの重さを制御できているように見えない”
+[k]
+
+＠ギルガメッシュ
+“仮説だが、あの脚は巨体を支えるには細すぎる。[r][f small]  [f -]ティアマト神は海水の上でしか歩行できないと見るべきだ”
+[k]
+
+[charaFadeout H 0.4]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+それが最後の報告だ。[r]この仮説、[#我:オレ]もカルデアも当たりだと見ている。
+[k]
+
+＠ギルガメッシュ
+そうでなければ、大地をあのように侵食させる理由が薄い。
+[k]
+
+＠ギルガメッシュ
+あれは大地を飲むためでもあるが、[r]同時にティアマト神にとっての通路[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そう、列車でいうところのレール、[r]移動用の滑走路ではないかと推測される。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+地上においてティアマト神を殺せずとも、[r]あの海洋を除去すればヤツの移動は止まる。
+[k]
+
+＠ギルガメッシュ
+よって、我らの攻撃目標はティアマト神から[r]あの黒泥に変更。物理的に除去をする！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+カルデアはあの黒泥を[#侵食:しんしょく]海洋ケイオスタイドと呼称。[r]現在、急ピッチで元の海水に戻す手段を解析している。
+[k]
+
+＠Dr.ロマン
+それが間に合えばティアマト神のウルク到達を[r]遅らせられるんだが……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_40 0.7]
+[se ad55]
+[seStop ad55 0.7]
+[wt 0.4]
+[se ad54]
+[seVolume ad54 0 0.7]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 64,0]
+[charaMove D 0,0 0.4]
+＠ウルク兵士
+ギルガメッシュ王！　南部観測所より報告！[r]ティアマト神[bgm BGM_EVENT_3 0.1]、進行を再開しました！
+[k]
+
+＠ウルク兵士
+ギルス市[#跡:あと]到達まであと三時間！[r]ウルク市到達まで、あと八時間と推測されます！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+予想より半日も早いじゃないか！？[r]そんなの、仮に解析が間に合っても[#分解薬:モノ]が作れない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+ぬう、[#図体:ずうたい]のわりに寝起きのいいヤツよ。[r]であれば、不可能でもあの脚を破壊する他ない！
+[k]
+
+[charaFace A 2]
+＠ギルガメッシュ
+戦士長、城壁より五十、精鋭を集めよ！[r]打って出るぞ！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_3 0.7]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ケツァル・コアトル
+いえ、その必要はないわギルガメッシュ。
+[k]
+
+＠ケツァル・コアトル
+戦士たちには城壁で[r]ティアマト神を撃つ役目があるでしょう？
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+＠ケツァル・コアトル
+あの黒泥……[r]ケイオスタイドの除去であれば私が行います。
+[k]
+
+＠ケツァル・コアトル
+海洋すべては不可能ですが、上陸したティアマト神の[r]周囲であれば、私の宝具で十分可能です。
+[k]
+
+＠ケツァル・コアトル
+我が太陽遍歴ピエドラ・デル・ソルで、[r]ティアマト神の足下の泥を蒸発させましょう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャガーマン
+おお、あれが在ったか！[r]ついに灼熱の女、ケツァル・コアトルの本気がでるニャ！
+[k]
+
+？1：ピエドラ・デル・ソル……？
+？2：それってまさか……
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ケツァル・コアトル
+イエース！　エリドゥの祭壇にあった私の宝具デース！
+[k]
+
+＠ケツァル・コアトル
+[%1][&君:さん]があの時、あの太陽石を[r]砕いていたら使えませんでしたヨー！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠イシュタル
+そうね。ほんっと、すごい悪運。[r][%1]の場合、何が幸いするか分からないわ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace F 7]
+[charaFadein F 0.1 0]
+[charaFace G 13]
+[charaFadein G 0.1 2]
+＠マシュ
+はい！　あの時の“破壊よりプランチャーにする”[r]作戦の成果が、こんなかたちで返ってきました！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+[line 3]いけるのか、ケツァル・コアトルよ。[r]任せていいのだな？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ケツァル・コアトル
+ええ。でも危険な事は変わらないわ。[r]太陽遍歴はとても体力を使います。
+[k]
+
+＠ケツァル・コアトル
+だから、[%1][&君:さん]には[r]私をティアマト神の足下まで連れて行ってもらって、
+[k]
+
+＠ケツァル・コアトル
+その後、宝具使用時も[r]魔力提供をしてもらわないといけません。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠イシュタル
+まわりに飛んでいるラフムたちを[r]何とかしつつ、母さんの足下まで接近……
+[k]
+
+＠イシュタル
+その後、ケツァル・コアトルが宝具を発動させている[r]最中、ずっとその場に留まっていろってコト？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ケツァル・コアトル
+具体的に言うとそうなりマース！[r]メチャクチャ危険デース！
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+
+？1：よし、やろう！
+？2：行こう、ケツァル・コアトル！
+
+？！
+
+[messageOff]
+[charaFace B 3]
+[wt 1.0]
+
+[bgm BGM_EVENT_4 0.1]
+[charaFadeout B 0.1]
+[charaSet H 98002000 1 フォウ]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+よかろう。今の[%1]の返答をもって、[r]ティアマト迎撃作戦、開始の号砲とする！
+[k]
+
+＠ギルガメッシュ
+全兵士、持ち場につけ！
+[k]
+
+＠ギルガメッシュ
+これよりジグラットに残る者は王のみである！[r]何があろうと城壁から離れる事は許さぬ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ウルク兵士
+ハッ！　ご武運を、ギルガメッシュ王！
+[k]
+
+＠ウルク兵士
+これまでの貴方の威光と功績に、[r]我ら一同、最大の感謝と敬意を！[se ad7][charaShake D 0.05 0 3 0.25]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+貴様らもな。最後まで[#我:オレ]のために働くがいい。
+[k]
+
+[charaFace A 0]
+＠ギルガメッシュ
+では行け、カルデアのマスター。
+[k]
+
+＠ギルガメッシュ
+事を成し終えた時、[r]もう一度[#我:オレ]の元に戻るがいい。
+[k]
+
+＠ギルガメッシュ
+暇つぶしに勝利の報告でも聞いてやるわ。[r]あ[charaFace A 1]まり[#我:オレ]を待たせるなよ？
+[k]
+
+？1：[&行ってくる:行ってきます]、ギルガメッシュ王！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_4 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout H 0.1]
+[scene 33000]
+[wt 2.0]
+[se ad59]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+[wt 0.4]
+
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[scene 32900]
+[wt 0.4]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+[wt 0.4]
+
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[scene 32800]
+[wt 0.4]
+[seStop ad59 1.5]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.4 1]
+＠マシュ
+ウルクから出ました！
+[k]
+
+＠マシュ
+ドクター、これからわたしたちはティアマト神の[r]元までケツァル・コアトルさんを護衛します。
+[k]
+
+＠マシュ
+それでいいのですね！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ。いま、ティアマト神の移動速度と、[r]その索敵範囲を大急ぎで計算中だ。
+[k]
+
+＠Dr.ロマン
+ティアマト神の正面に位置どるのは危険だ。[r]目がある以上、目に付いた外敵に何をするか分からない。
+[k]
+
+＠Dr.ロマン
+ティアマト神の周囲にはラフムも大量に旋回している。[r]こちらとの戦闘も避けられないだろう。
+[k]
+
+＠Dr.ロマン
+ティアマト神の視界に入らず、[r]ラフムの層が薄いルートをいま検証中だ。
+[k]
+
+＠Dr.ロマン
+あと二分ほど待って[line 3]なんだ？
+[k]
+
+[bgmStop BGM_EVENT_3 0.7]
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[wipeout rightToLeft 0.5 1]
+[wait wipe]
+[scene 33000]
+[wt 0.1]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+[wt 0.1]
+[cameraMove 3.0 20,-70 1.3]
+[wt 2.5]
+[wipeout circleIn 0.5 0.5]
+[wait wipe]
+[cameraHome 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[scene 35310]
+[wt 0.4]
+[wipein circleIn 0.5 0.5]
+[wait wipe]
+[wt 1.0]
+[charaFadeout A 0.4]
+[wt 0.4]
+[wt 1.0]
+[bgm BGM_EVENT_40 0.1 0.7]
+
+＠ギルガメッシュ
+[line 3]ウルクに残る全ての民に告げる。
+[k]
+
+＠ギルガメッシュ
+よくぞ今日まで生き残った。[r]まず、その事に[#我:オレ]は喜びを感じている。
+[k]
+
+＠ギルガメッシュ
+半年より前、魔獣戦線が作られた時だ。[r][#我:オレ]はおまえたちに言った。
+[k]
+
+＠ギルガメッシュ
+どうあがいてもウルクは滅びる。[r]その終焉をどう迎えるか、[#我:オレ]は強制せぬ。
+[k]
+
+＠ギルガメッシュ
+逃げるのもよい。[#享楽:きょうらく]に[#浸:ひた]るもよい。[r]嘆きから冥界に身を投げてもよい。
+[k]
+
+＠ギルガメッシュ
+だが、おまえたちは戦うと口にした。[r]この結末を知った上で、なお[#抗:あらが]うと。
+[k]
+
+＠ギルガメッシュ
+まさに[line 3]ウルクは幸福な都市であった。[r]その歴史も、生活も、民も[line 3]この[#我:オレ]も含めてな。
+[k]
+
+＠マシュ
+ギルガメッシュ王……
+[k]
+
+＠ギルガメッシュ
+もはや人の世に神々の庇護など必要なし。[r]その証として[#我:オレ]は城塞を築き、おまえたちはこれに応えた。
+[k]
+
+＠ギルガメッシュ
+それが間違いとは思わぬ。[r]そして、その最後の試練がこの上ない姿で現れた。
+[k]
+
+＠ギルガメッシュ
+今こそ原初の神を否定し、我らは人の時代を始める！[r]心せよ、我が精鋭たちよ！
+[k]
+
+＠ギルガメッシュ
+これは神との真なる決別の戦い！[r]その命、[#王:われ]に捧げよ！
+[k]
+
+＠ギルガメッシュ
+最後の一命まで、[r]後の世に、我らウルクの栄光を伝えるために！
+[k]
+
+[se ad6]
+[wt 0.5]
+[messageOff]
+[wt 2.5]
+[seStop ad6 2.0]
+
+[messageOff]
+[bgmStop BGM_EVENT_40 0.5]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[scene 32800]
+[wt 1.0]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠イシュタル
+……まいったわ。[r]あそこまで用意周到だったなんて。
+[k]
+
+＠イシュタル
+ジグラットの頂に見晴らし台を作ってると思ったら、[r]このための演説用だったなんて。バカみたい。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 13]
+[charaFadein G 0.1 1]
+＠マシュ
+はい。英雄王、ここにご帰還ですね。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ。ボクも認めざるをえない。[r]あの困った王様は、間違いなく偉大な先達の一人だって。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そして検証、終了だ！[r]ティアマト神までの最適ルートを出した！
+[k]
+
+＠Dr.ロマン
+[%1]君、マシュ[line 3]
+[k]
+
+＠Dr.ロマン
+女神イシュタル、女神ケツァル・コアトル、[r]そしてジャガーマン！
+[k]
+
+＠Dr.ロマン
+ここから先はもう後戻りできない戦いだ。[r]過酷な連続戦闘が予想されるが、準備はいいね？
+[k]
+
+？1：もちろん！
+？2：最後のオーダー、開始します！
+
+？！
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+よろしい。[r]ではカルデアの司令官として作戦を提示する。
+[k]
+
+＠Dr.ロマン
+目標、ティアマト神[line 3]ビーストⅡへの接近と、[r]宝具によるこれの進行阻止！
+[k]
+
+＠Dr.ロマン
+ケイオスタイドの焼却を以て作戦は終了とする！[r]各自、全力でことに当たってくれ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_4 1.4]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]

@@ -1,0 +1,438 @@
+＄01-00-05-16-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_12 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3005002 1 エリザベート]
+[charaSet C 7014001 1 ナイチンゲール]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 3013001 1 スカサハ]
+[charaSet F 1019001 1 ラーマ]
+[charaSet G 5025001 1 エジソン]
+[charaSet H 5023001 1 ブラヴァツキー]
+
+[scene 20904]
+[fadein black 2]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠エジソン
+体を動かして頭も解れたが、[r]やはり突き詰めると方法は二つしかないか。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+一つはやはり暗殺……でしょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+少数精鋭でワシントンＤＣまで赴き、[r]女王メイヴを暗殺する。
+[k]
+
+[charaFace E 1]
+＠スカサハ
+さすればケルトの戦士たちはこれ以上増えることはない。[r]サーヴァント同士の勝負に持ち込めよう。
+[k]
+
+[charaFace E 5]
+＠スカサハ
+だがメイヴめは用心深い。
+[k]
+
+＠スカサハ
+サーヴァントの気配を察知すれば、[r]立ち所にサーヴァントを引き戻すだろう。
+[k]
+
+[charaFace E 0]
+＠スカサハ
+実際の話、暗殺を行おうとして失敗しているからな。[r]一層用心深くなっている事だろうさ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+耳が痛い話ですねぇ、ったく。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFadein G 0.1 0]
+＠エジソン
+であるなあ。[r]どうかなナイチンゲール婦長。なかなかの難問だろう？
+[k]
+
+[charaFace C 6]
+＠ナイチンゲール
+……そういう軍に纏わる難問はお任せします。[r]私は看護師ですので。
+[k]
+
+？1：まあそう言わずに
+？！
+
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+役立たずだと言っているでしょうに。[r]まったく……。
+[k]
+
+[charaFace C 6]
+＠ナイチンゲール
+奇襲が不可能なら、正面から迎え撃つ。[r]私にはそのくらいしか思い浮かびません。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+うむ。実のところ、ナイチンゲールの意見が[r]一番現実に即している。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠エジソン
+と言うと？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ラーマ
+南北それぞれに機械化歩兵とサーヴァントを[r]割り当てる。
+[k]
+
+[charaFace F 5]
+＠ラーマ
+二軍の内、一軍は拮抗状態を維持するだけで構わない。[r]本命の軍で一気に首都への突破を計る。
+[k]
+
+[charaFace F 0]
+＠ラーマ
+……そんなところだろうか、スカサハ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+そうだ。[r]今、ここにはサーヴァントが複数存在する。
+[k]
+
+[charaFace E 0]
+＠スカサハ
+私を含めて相手に拮抗し得る強力なサーヴァントもな。[r]しかし、「二軍が拮抗」では圧し負ける。
+[k]
+
+[charaFace E 5]
+＠スカサハ
+かと言って一軍に戦力を集中すれば、[r]残り一軍が崩壊し、アメリカが占領される。
+[k]
+
+＠スカサハ
+あらゆるバランスを考慮して、[r]南北両軍の編成を決めなければならない。
+[k]
+
+[charaFace E 0]
+＠スカサハ
+さて、どうするか……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+＠エリザベート
+何だ、それなら話は簡単じゃない！
+[k]
+
+[charaTalk E]
+＠スカサハ
+む？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠エリザベート
+ほら、そこの[&子イヌ:子ジカ]！[r]ボケっとしてないで、アンタが組み合わせを決めなさい。
+[k]
+
+？1：自分が？
+？2：いいの？
+？！
+
+[charaFace B 0]
+＠エリザベート
+当然よ。フランスでも、ローマでも、他にも[r]色んな場所でサーヴァントと共に戦ったんでしょ？
+[k]
+
+＠エリザベート
+アンタはいま世界で一番[r]サーヴァントを知っているマスター。
+[k]
+
+[charaFace B 1]
+＠エリザベート
+アンタが選ぶんなら、[r][#私:アタシ]はそれを信用できるもの！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace B 0]
+[charaFace H 1]
+[charaFadein B 0.1 2]
+[charaFadein H 0.1 0]
+＠ブラヴァツキー
+あら、エリエリにしては一理あるわね。
+[k]
+
+[charaTalk B]
+[charaFace B 2]
+＠エリザベート
+アンタそのエリエリ言うの止めなさいよ！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ラーマ
+ふうむ、エリザベートの言う通りだ。[r]余もマスターが編成するならば、それで良いと思える。
+[k]
+
+？1：時間をくれ
+？2：少し待って
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+構わんとも。[r]明日までにサーヴァントたちの編成を考えておけ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFace G 0]
+[charaFadein E 0.1 2]
+[charaFadein G 0.1 0]
+＠スカサハ
+その間に、エジソンたちは最終決戦に向けて[r]軍備を整えるのだ。
+[k]
+
+[charaTalk G]
+＠エジソン
+そうしよう。[r]通信起動！[charaFace G 2]　直ちに全軍へ告知せよ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩。[r]責任重大ですが、よろしくお願いします。
+[k]
+
+[charaFace A 1]
+＠マシュ
+一日ゆっくりと考えてみてくださいね。[r]大丈夫、マスターならやりとげられますとも！
+[k]
+
+[messageOff]
+
+[wipeout rollLeft 1.5 1]
+[bgmStop BGM_EVENT_12 1.0]
+[wait wipe]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_11 0.1]
+[charaFadeout A 0.1]
+[scene 20602]
+
+[wipein rollLeft 1.5 1]
+[wait wipe]
+
+
+[wt 0.5]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠ナイチンゲール
+[line 2]こんな夜中に散歩ですか？
+[k]
+
+？1：気分転換です。
+
+？！
+
+[charaFace C 8]
+＠ナイチンゲール
+……これも何かの縁です。[r]お付き合いしましょう。
+[k]
+
+[messageOff]
+
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[scene 11212]
+
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[wt 0.5]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+
+[charaFace C 0]
+＠ナイチンゲール
+……エジソンの病は癒されました。[r]アメリカの[#大統領:おう]という重責を軽減できた。
+[k]
+
+＠ナイチンゲール
+あるいは歴代大統領の妄執が憑依されていた[r]のかもしれません。
+[k]
+
+[charaFace C 5]
+＠ナイチンゲール
+予後不良の恐れがあるので、[r]引き続き観察していかなければ……。
+[k]
+
+[charaFace C 4]
+＠ナイチンゲール
+残る病は一つ。[r]それで世界が癒されるといいのですが。
+[k]
+
+？1：頑張る
+？2：ああ、何とか[&なるさ:しないと]
+？！
+
+[charaFace C 6]
+＠ナイチンゲール
+[&貴方:貴女]に重圧を掛けている訳ではありません。[r]そこは勘違いされないようお願いします。
+[k]
+
+＠ナイチンゲール
+世界の崩壊を止める責務をただ一人に負わせるなど、[r]本来は正気の沙汰ではないのです。
+[k]
+
+[charaFace C 5]
+＠ナイチンゲール
+それはまさしく、絶望的な所業に他ならず。[r]狂っていなければ耐えられない。
+[k]
+
+[charaFace C 4]
+＠ナイチンゲール
+かつての私のように。[r]……[&貴方:貴女]はそうではない。
+[k]
+
+[charaFace C 0]
+＠ナイチンゲール
+[&貴方:貴女]は鉄血の理性を保って、[r]私たちを選ばなければならない。
+[k]
+
+[charaFace C 1]
+＠ナイチンゲール
+私は[&貴方:貴女]を信用しています。かつて、[r]分からず屋の陸軍を相手に戦った同胞たちのように。
+[k]
+
+[charaFace C 0]
+＠ナイチンゲール
+努力する必要はあります。[r]しかし重荷を背負う必要はありません。
+[k]
+
+＠ナイチンゲール
+[&貴方:貴女]の選択が間違いでなくとも、[r]託された側である我々が失敗することもある。
+[k]
+
+[charaFace C 4]
+＠ナイチンゲール
+盤石の体制を整えても、[r]兵士は死に、病人は発生する。
+[k]
+
+[charaFace C 1]
+＠ナイチンゲール
+だから、気楽に決めてもいいのです。
+[k]
+
+＠ナイチンゲール
+気楽に、そして誠実に[line 2][r]であれば、私たちはきっと大丈夫。
+[k]
+
+[charaFace C 8]
+＠ナイチンゲール
+夜風が冷たくありませんか？[r]そろそろ戻りましょう。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_11 0.1]
+[se ad25]
+[wt 1.0]
+
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace C 6]
+＠ナイチンゲール
+死亡した兵士が動き出していますね。[r]放置しておけば、際限なく増殖するでしょう。
+[k]
+
+＠ナイチンゲール
+死体こそ病原体の山。[r]丁重に弔い、彼らを還してあげなくては……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

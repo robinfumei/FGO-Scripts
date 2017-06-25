@@ -1,0 +1,271 @@
+＄94-00-09-01-1-1
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20302]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 1027000 1 桜セイバー]
+[charaSet D 2024000 1 魔神アーチャー]
+[charaSet E 5009001 1 ダ・ヴィンチちゃん]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+[fadein black 1]
+[wait fade]
+
+＠マシュ
+聖杯の[line 3]暴走ですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace A 0]
+[charaFadein C 0.1 0]
+[charaFace C 4]
+＠桜セイバー
+ええ、私たちの世界での聖杯戦争なのですが[r]本来願望機である聖杯をおかしな技術で
+[k]
+
+＠桜セイバー
+いじくり回した結果、[r]聖杯の力が暴走してしまいまして……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠魔人アーチャー
+運悪く巻き込まれたわしの潜在意識を形どって[r]現実世界を侵食し始めた[line 3]という事なのじゃ。
+[k]
+
+[charaFace D 4]
+＠魔人アーチャー
+ついでに力のほとんども持って行かれてしもうて[r]本来ラスボスクラスのわしが☆0.5状態なのじゃ……。
+[k]
+
+＠魔人アーチャー
+具体的に言うとレベル１くらいに弱体化しておる。
+[k]
+
+
+？1：☆？
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠魔人アーチャー
+わしレベルなら、☆５は固いはずなのに[r]どうしてこうなったのじゃ……。
+[k]
+
+[charaFadeout D 0.1]
+
+？2：ああ、そういう……
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠桜セイバー
+うちのアーチャーのせいでご迷惑をおかけして[r]申し訳ありません。
+[k]
+
+[charaFadeout C 0.1]
+
+？！
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+ということは、あの何とも言えない生き物は[r]アーチャーさんの潜在意識と力の具現化なのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠魔人アーチャー
+う、うむ、わしも納得しとらんのじゃが[r]アレはどうもそういう事のようじゃな。
+[k]
+
+
+？1：そんな無責任な……。
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠桜セイバー
+関係ないあなた達を巻き込んでしまって[r]申し訳ありません。
+[k]
+
+[charaFace C 5]
+＠桜セイバー
+だいたいこのアーチャーのせいですので[r]存分に文句を言ってくださいね。
+[k]
+
+[charaFadeout C 0.1]
+
+？2：片目しかないんじゃが……。
+[charaFadein D 0.1 1]
+[charaFace D 6]
+＠魔人アーチャー
+か、髪の毛で隠れてるだけじゃし！？[r]ほれ、そこなマシュとやらと一緒じゃ、な！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+一緒にしないでください！！
+[k]
+
+？！
+
+
+[wt 0.3]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+ところでさっきの戦闘で見つけたこれですけど[r]……お碗？　でしょうか？　それに鉄のお釜？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠魔人アーチャー
+どうやら聖杯から漏れた魔力がわしの意識にあった[r]『価値あるもの』を複製しておる様じゃな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+価値あるものですか？　黒いお釜に古ぼけたお碗……[r]あまり価値があるようには見えませんが……。
+[k]
+
+[charaFadeout A 0.1]
+
+
+[charaTalk E]
+[charaFadein A 0.1 2]
+[communicationChara 5009003 0 5 0 1]
+
+＠ダ・ヴィンチちゃん
+マシュちゃん、それちょっと見せてごらん[r]ふむふむ……。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチちゃん
+なにこれ？　極東ではこんな地味な器が[r]価値あるものなのかい？
+[k]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠魔人アーチャー
+失礼な南蛮人め！　この侘び寂びがわからんとは[r]利休にぶんなぐられるぞ！！
+[k]
+
+[charaFadeout D 0.1]
+
+
+[charaTalk E]
+[charaFadein A 0.1 2]
+[communicationChara 5009003 0 5 0 1]
+＠ダ・ヴィンチちゃん
+いやいや、これが価値あるものなんてねぇ……[r]いや……、しかし、そういわれてみると……
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチちゃん
+[line 3]うん！　なんだか興味が出てきた！！[r]この茶器らしきもの？　工房で引き取ろう！！
+[k]
+
+[charaFace A 6]
+＠マシュ
+気に入ったんですか！？
+[k]
+
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチちゃん
+言われてみればこの黒くてやぼったい茶釜？[r]鉄そのものともいうべき、のぺぇっとした造り
+[k]
+
+＠ダ・ヴィンチちゃん
+とーっても地味なこの色と形。得も言われぬ魅力が[r]あるような気がしてきたようなそうでもないような？
+[k]
+
+
+？1：侘び寂びの世界だね！
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠魔人アーチャー
+ほう、貴様、なかなか良くわかっておるではないか。[r]あとでわし自ら茶でも点ててやろう。
+[k]
+
+＠魔人アーチャー
+そうじゃな、どこぞの寺でも貸し切って……。
+[k]
+
+[charaFadeout D 0.1]
+
+？2：爆発しない？
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 5]
+＠桜セイバー
+いやいや、茶釜が爆発するわけないじゃないですか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠魔人アーチャー
+せやろか。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+と、とにかく、このまま特異点の中心地に[r]向かいましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠桜セイバー
+なんだかなし崩し気味に助力を仰ぐ事に[r]なってしまいましたが、よろしくお願いしますね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠魔人アーチャー
+うむ！　それでは行くぞ皆の者！！[r]いざ天下布武の旅へ！！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

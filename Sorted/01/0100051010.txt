@@ -1,0 +1,32 @@
+
+＄01-00-05-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2003001 1 ロビンフッド]
+[charaSet C 1006001 1 ネロ・ブライド]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 3005001 1 エリザベート]
+[charaSet F 7014001 1 ナイチンゲール]
+[charaSet G 1014001 1 フェルグス]
+
+[scene 20820]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+例によって、霊脈にエネミーが群がり始めてますね。[r]蹴散らします。
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

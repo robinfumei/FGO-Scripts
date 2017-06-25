@@ -1,0 +1,44 @@
+＄91-50-03-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5003001 1 玉藻の前]
+[charaSet D 98002000 1 フォウ]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace C 5]
+[charaFadein C 0 0]
+[fadein black 2]
+[wait fade]
+＠マシュ
+ふぅ……、手ごわかったですね。
+[k]
+
+＠玉藻の前
+…………。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……どうしました？　玉藻さん。
+[k]
+
+[charaFace C 0]
+＠玉藻の前
+あっ、いえ、何でもありません！！[r]ささ、残りの敵を片付けちゃいましょうとも！！
+[k]
+
+？1：……？
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

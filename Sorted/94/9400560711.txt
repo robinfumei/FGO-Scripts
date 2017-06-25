@@ -1,0 +1,133 @@
+
+＄94-00-56-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98101700 1 ？？？]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 3025000 1 清姫]
+[charaSet D 2026000 1 アルトリア]
+[charaSet E 6024000 1 スカサハ]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+＠？？？
+ガアアアアッ！
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[wt 0.5]
+[se ad36]
+[wt 0.5]
+
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+一目散に、海に入って[line 3][r]逃げていきました！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠清姫
+図体どおりに、たいそうしぶとい獣なのですねぇ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠アルトリア
+……しかし、あれだけの痛手を与えたのです。[r]しばらくは手出ししてこないでしょう。
+[k]
+
+
+？1：これからはちょっと建設を急ごう
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+？2：ずっと来なければいいナ……
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠マシュ
+同感です。これからは急いで建設を進める必要が[r]あるかもしれませんね。
+[k]
+
+？！
+
+
+[charaFace B 0]
+＠マシュ
+幸い、脱出船ができるまではもう少しのようですし……[r]そうですよね、スカサハさん？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠スカサハ
+…………。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFace E 4]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠マシュ
+スカサハさん？
+[k]
+
+[charaFace E 0]
+＠スカサハ
+ん？　あ、ああ。そうだな。[r]もうすぐだ。さあ、仕事に戻ることにしよう[line 3]
+[k]
+
+[messageOff]
+[charaFadeout E 0.4]
+[wt 1.0]
+
+
+[charaTalk B]
+[charaMove B 1 0.5]
+[wait charaMove]
+
+＠マシュ
+…………？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

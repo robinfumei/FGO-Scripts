@@ -1,0 +1,346 @@
+
+＄01-00-05-14-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3005001 1 エリザベート]
+[charaSet C 7014001 1 ナイチンゲール]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 3013001 1 スカサハ]
+[charaSet F 99363000 1 機械化歩兵]
+[charaSet G 98003000 1 Dr.ロマン]
+
+[scene 11110]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+……ふう。戦闘、無事に終了です。[r]撤退する敵兵をなんとか捕縛しました。
+[k]
+
+＠マシュ
+ロビンさん、これからどうすればいいんですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠ロビンフッド
+よし、こいつらを縛って……と。
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+ここからはオレの仕事だ、みなさん、[r]余所でメシでも食べててくれ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[scene 11210]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+[fadein black 1.0]
+[wait fade]
+
+＠機械化歩兵
+そこで止まりなさい。[r]何者ですか？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+インダストリ＆ドミネーション！
+[k]
+
+？1：ロビンさん！？
+？2：なにそれ！？
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠機械化歩兵
+インダストリ＆ドミネーション！[r]エジソン大統王は良い社長！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+良い社長！　ところで、第二十六遊撃隊の[r]アンダーソン・コマドリ少尉であります！
+[k]
+
+＠ロビンフッド
+グッドテイストなニュースです！[r]敵兵の捕縛に成功し、本拠地まで移送中であります！
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠機械化歩兵
+[line 2]了解、照会しました。[r]確かにケルト兵のデータと一致します。
+[k]
+
+
+＠機械化歩兵
+素晴らしい労働、ご苦労さまです。[r]では、お通り下さい。
+[k]
+
+＠機械化歩兵
+インダストリ、アンド、
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+ドミネーション！[r]では職務を全うしますとも！
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+アイヨー。[r]それじゃ、全員ついてこーい。
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……あの、ロビンくん。[r]いまの挨拶、なんだい？　ああいうの、好きなの？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+オレだってやりたくねぇーッスよ！[r]あれが機械化兵たちの挨拶だから仕方なくだっつーの！
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ドミネーション……支配……エジソン氏はその、[r]もしかして悪い人なのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うーん。問題人物ではあっただろうけど、たぶん、[r]支配という言葉のとらえ方が違うのかもだ。
+[k]
+
+＠Dr.ロマン
+国民が一丸になって困難に打ち勝つこと。[r]それを“支配”と考えているのかも。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace A 0]
+[charaFadein E 0.1 1]
+＠スカサハ
+己が顕示欲による支配ではなく、[r]国を想っての奮起だったワケか。
+[k]
+
+＠スカサハ
+なるほど。発明家と聞いていたが、[r]政治家としての素養もあったのだな。
+[k]
+
+[charaFace E 2]
+＠スカサハ
+しかし、あの兵士はいただけない。[r]練度がまるでない。ボンクラすぎるではないか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……うん。思考能力を単純化することで、[r]反射神経を向上させているようですよ、あれ。
+[k]
+
+＠Dr.ロマン
+個々の直感・センスを廃して、大人数で一つの仕事を[r]達成するオートメーションの具現……みたいな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ナイチンゲール
+……薬剤投与による恐怖心や疑心の抹消も考えられますね。[r]良くあることですが、後遺症が心配です。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+エジソンたちには兵士を、[r]いや戦士を育成する時間がないんだ。
+[k]
+
+＠Dr.ロマン
+だからああやって、[r]誰もが簡単に兵士になれる仕組みを作った。
+[k]
+
+＠Dr.ロマン
+大量生産と思想統一による[#戦闘教義:ドクトリン]……[r]まさしくケルトとは真逆だね。
+[k]
+
+＠Dr.ロマン
+とは言っても、相手は神話の英霊たちだ。[r]これが近代戦ならエジソンの勝利なんだろうけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠スカサハ
+ふむ。……ケルトの側も搦め手など[#最初:ハナ]から[r]度外視しておるしな。
+[k]
+
+＠スカサハ
+……というか、ケルトの戦士もそれほど[r]知能を使っている訳ではないな……。
+[k]
+
+[charaFace E 5]
+＠スカサハ
+大体において脳筋だ。脳筋ＶＳ機械。[r]……うむ、性質においては見事に互角じゃの。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+恐怖を薬で押し殺す、か……[r]いやあ、こっちもロクなもんじゃねえですわ。
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+オレもえり好みしてる場合じゃなかった。[r]こっから先はノンストップだ。
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+一刻も早く、自称王様を仕留めに行きますか！
+[k]
+
+[se bac21]
+[charaShake D 0.05 3 3 0.4]
+[charaFace D 2]
+[wt 0.4]
+
+＠ロビンフッド
+はわぁああ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+＠ナイチンゲール
+勘違いしないように。[r]我々は倒しに行くのではなく、治療するのです。
+[k]
+
+＠ナイチンゲール
+治療行為に多少なりとも暴力的、[r]あるいは苦痛が混じるのは否めませんが[line 2]。
+[k]
+
+＠ナイチンゲール
+それでも、最終的には治療です。
+[k]
+
+＠ロビンフッド
+分かったから、いきなり耳元で銃をブッ放すのだけは[r]勘弁してくれ！
+[k]
+
+＠ナイチンゲール
+前向きに善処します。[r]ではエジソンの城塞に参りますが[line 2]その前に。
+[k]
+
+[charaTalk A]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad19]
+[wait se ad19]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+＠ナイチンゲール
+徐々にですが、エジソン側が圧されているようですね。[r]ケルトの戦士たちを一通り治療してから、進みましょう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+あのエネミーは、恐らくバイコーン。[r]邪悪な馬の怪物だ。
+[k]
+
+＠Dr.ロマン
+ブッ飛んだ連中まで召喚するなあ、[r]女王様とやらは！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

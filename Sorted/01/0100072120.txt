@@ -1,0 +1,1213 @@
+
+
+
+＄01-00-07-21-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_41 0.1]
+[charaSet A 5018001 1 ギルガメッシュ]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 98106000 1 キングゥ]
+[charaSet F 98107900 1 ベル・ラフム]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 5018001 1 ギルガメッシュ]
+
+[se ad207]
+[seVolume ad207 0 0.7]
+[scene 35311]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.4 1]
+＠ギルガメッシュ
+戻ったか。時間にして半日ぶりか？[r]つい先ほどの事のように思えるが、さて。
+[k]
+
+＠ギルガメッシュ
+見るがいい、ウルクの全容を。[r]これがあと一歩で地上から消え去る、一つの世界の終焉だ。
+[k]
+
+[seStop ad207 1.0]
+[messageOff]
+[charaFadeout A 0.4]
+[wt 0.4]
+[cameraMove 1.5 100,70 1.25]
+[wait camera]
+[wt 0.7]
+[cameraMove 2.5 -100,70 1.25]
+[wait camera]
+[wt 0.7]
+[cameraHome 1.2]
+[wait camera]
+[wt 0.4]
+
+＠マシュ
+ケイオスタイドが……[#市:まち]中に……[r]わたしたちの、大使館も……
+[k]
+
+＠イシュタル
+…………酷い。[r]私も、ウルクには色々な八つ当たりをしてきたけど……
+[k]
+
+＠イシュタル
+ここまでする事はないじゃない……[r]ティアマト神は、そこまで人間が憎かったの……？
+[k]
+
+＠ギルガメッシュ
+分からぬ。あの獣の声は我らには届かぬからな。[r]そもそも、アレに意思はないのではないか？
+[k]
+
+＠ギルガメッシュ
+あれは、ただ在るだけで世界を滅ぼす機構。
+[k]
+
+＠ギルガメッシュ
+人類悪の一つになった時点で、おまえが父神から[r]聞いていたティアマト神ではなくなっていたのだろうよ。
+[k]
+
+＠イシュタル
+……っ。じゃあどうすれば母さんは止まるの？[r]憎しみを晴らす相手もないのなら、止めようがない。
+[k]
+
+＠ギルガメッシュ
+そうだな。ティアマト神が生み出した多くのもの[line 3][r][#旧:ふる]きメソポタミアがなくなれば、その悪も終わるだろう。
+[k]
+
+＠イシュタル
+……ギルガメッシュ？
+[k]
+
+[bgmStop BGM_EVENT_41 1.5]
+＠ギルガメッシュ
+無駄話はここまでだ。[r][line 3]来たぞ。我らが母のお出ましだ。
+[k]
+
+[messageOff]
+[se ad14]
+[scene 35301 1.5]
+[shake 0.05 0 2 0]
+[wait scene]
+[seStop ad14 1.0]
+[wt 2.0]
+
+
+[se ad205]
+[shake 0.05 0 4 2.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_24 0.1]
+[wt 0.6]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+イシュタル、貴様は上空に逃れよ！[r]せっかく飛べるのだ、天の丘に留まる理由はない！
+[k]
+
+＠ギルガメッシュ
+天の[#頂:いただき]、この暗雲を抜けた太陽の真下にて待機せよ！[r]おって指示を出す！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠イシュタル
+……分かったわ。[r][%1]、コイツをお願いね。
+[k]
+
+＠イシュタル
+人間のクセに自信の塊だから。[r]無茶な事しないか、見張っていて
+[k]
+
+？1：まかせて
+？2：もちろん
+
+？！
+
+[charaFace C 7]
+＠イシュタル
+ありがと。アナタが付いているなら安心だわ。[r]それじゃ、また後でね！
+[k]
+
+[messageOff]
+[se ad28]
+[charaEffect C bit_talk_21]
+[charaFadeout C 0.1]
+[wt 0.4]
+[charaEffectStop C bit_talk_21]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+阿呆め[%1]が[#我:オレ]に付いているのではない！[r][#我:オレ]が[%1]に付いているのだ！
+[k]
+
+[charaFace A 4]
+＠ギルガメッシュ
+ん？　いや違ったか。ええい、細かい事は後だ！
+[k]
+
+[charaFace A 1]
+＠ギルガメッシュ
+そこで慢心せず、[r]注意しつつ見ているがいい[%1]！
+[k]
+
+[bgmStop BGM_EVENT_24 1.5]
+＠ギルガメッシュ
+これがウルクの、ティアマトめに見せる最後の意地よ！
+[k]
+
+[bgm BGM_EVENT_40 0.1]
+
+[messageOff]
+[voice NP_501800_3]
+[wt 1.0]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 35302]
+[wt 1.5]
+[fadeout white 0.2]
+[wait fade]
+[wt 0.1]
+[fadein white 0.4]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+
+[wt 2.5]
+
+＠Dr.ロマン
+城壁に設置したディンギルからの一斉掃射！[r]でもどうやって！？　兵士たちは、もう[line 3]
+[k]
+
+＠ギルガメッシュ
+フハハ、[#我:オレ]の魔力を舐めるな、白衣！
+[k]
+
+＠ギルガメッシュ
+城門に設置したディンギル三百六十機、[r]すべて我が作り、魔力を込め、統括するもの！
+[k]
+
+＠ギルガメッシュ
+死ぬ気でこの体を酷使すれば、[r]このように一斉に操れるわ！
+[k]
+
+＠マシュ
+でも、起爆剤に相当するラピス・ラズリは！？
+[k]
+
+＠マシュ
+あれをハンマーで叩いて砕かないと、[r]ディンギルは光弾を発射できません！
+[k]
+
+＠ギルガメッシュ
+ラピス・ラズリはあくまで魔力の代用品だ！[r][#起爆剤:そんなもの]は[#我:オレ]ひとりで[#賄:まかな]えるわ！
+[k]
+
+？1：凄い……！
+？2：これが古代王の力……！
+
+？！
+
+＠ギルガメッシュ
+フハハ、[#我:オレ]を誰と心得る！[r]忌まわしくも神の血と人の血を持って降臨した至高の王だ！
+[k]
+
+＠ギルガメッシュ
+ティアマト神の足止め、[r]ここで見事に果たして見せよう！
+[k]
+
+[messageOff]
+[seStop ad213 0.7]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[scene 35301]
+[scene 35303 1.5]
+[wt 0.1]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[bgm BGM_EVENT_40 1.5 0.2]
+
+[se bac35]
+[wt 2.0]
+
+？1：……え？
+？2：あの光……？
+
+？！
+
+
+[wt 0.1]
+[se ad28]
+[flashin once 0.1 0.1 FF0000AF FF000000]
+[wt 0.2]
+
+＠フォウ
+フォ[line 2]ウ！
+[k]
+
+？1：あ……
+？2：……死んだ、[&俺:わたし]……
+
+？！
+
+[messageOff]
+[flashin once 0.5 0.5 FF0000AF FF000000]
+[wt 0.5]
+[scene 35301 1.5]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.2 56,0]
+[charaMove A 0,0 0.2]
+[wt 0.2]
+[se ad7]
+[seVolume ad7 0 0.5]
+[shake 0.05 3 0 0.4]
+[wt 0.5]
+
+[se bac13]
+[se bac98]
+[seStop bac98 0.7]
+[charaShake A 0.05 5 5 0.4]
+[charaFadeout A 0.4]
+[wt 0.4]
+
+[wt 1.0]
+
+[charaSet A 98106400 1 ギルガメッシュ]
+
+[bgm BGM_EVENT_40 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+狙撃とは小癪な！[r]だが狙いはいい、やるではないかティアマトめ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠マシュ
+ギ[line 3]
+[k]
+
+？1：ギルガメッシュ王[line 3]！？
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+ハ！　気にするな、致命傷だ！
+[k]
+
+＠ギルガメッシュ
+それより貴様だ、ばかもの！[r]無事か！　無事だな！　ならば良し！
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[se ad57]
+[shake 0.05 0 4 1.2]
+[wt 0.5]
+[voice NP_501800_3]
+[wt 1.0]
+[seStop ad57]
+[wt 0.7]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[fadeout white 0.2]
+[wait fade]
+[wt 0.1]
+[fadein white 0.4]
+[wait fade]
+[wt 1.0]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+＠マシュ
+そ、その体でまだディンギルを撃つんですか！？[r]止めてください、いくらなんでも、もう……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+無理と言うか？　我は限界だと？[r]もはやウルクは戦えぬと！
+[k]
+
+＠ギルガメッシュ
+貴様はそう言うのか、[%1]！
+[k]
+
+？1：[line 3]いいえ。いいえ[line 3]！
+？2：っ……ウルクはここに健在です！
+
+？！
+
+[charaFace A 1]
+＠ギルガメッシュ
+よくぞ言った！[r]では[#我:オレ]もいよいよ本気を出すとしよう！
+[k]
+
+＠ギルガメッシュ
+なに、初めから全力だったが、見栄というものがある！[r]貴様の生意気な言葉で目が覚めたわ！
+[k]
+
+[messageOff]
+[seStop ad213 2.0]
+[se ad57]
+[shake 0.05 0 4 1.2]
+[wt 1.5]
+[seStop ad57]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+っ、ティアマト、ウルク市内に到達！[r]ジグラットまであと[line 3]あと、三分！
+[k]
+
+＠Dr.ロマン
+加えて、ラフムの大量排出を確認！[r]ティアマトの前にラフムの大群が来るぞ……！
+[k]
+
+＠Dr.ロマン
+その数、八千匹以上！[r]ジグラットの中に逃げるんだ！　もうどうしようもない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+……！
+[k]
+
+[messageOff]
+[se bac35]
+[charaFadeout A 0.1]
+[shake 0.05 0 4 2.0]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[se bac60]
+[fadeout white 1.5]
+[wait fade]
+[wt 0.7]
+
+＠マシュ
+マスター…………！
+[k]
+
+＠Dr.ロマン
+くっ、ジグラットに直撃か！[r]っ、二人とも意識が落ちている！
+[k]
+
+＠Dr.ロマン
+マシュ、[%1]君！[r]目を覚ますんだ、そのままだと……！
+[k]
+
+[messageOff]
+[scene 10001]
+[fadein white 0.1]
+[wait fade]
+
+[bgmStop BGM_EVENT_40 1.5]
+[wipeout circleIn 1.5 1]
+[wait wipe]
+[scene 35010]
+[wt 2.0]
+[wipein upToDown 0.5 1]
+[wait wipe]
+
+[bgm BGM_EVENT_24 0.1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠イシュタル
+ラフムが一丸になって体当たりとか、[r]そんなのアリ！？
+[k]
+
+＠イシュタル
+あんなのグガランナの[#蹄:ひづめ]と同じじゃない！[r]ジグラットの屋上は[line 3]
+[k]
+
+＠イシュタル
+ギルガメッシュは仁王立ちね、なら良し！[r]二人は……まずい、気絶してる！
+[k]
+
+＠イシュタル
+待ってて、ラフムの壁を蹴散らして[r]すぐに[line 3]え？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[se ad225]
+[wt 1.0]
+[effect bit_talk_38]
+[se bac42]
+[wt 0.2]
+[shake 0.05 0 4 0]
+[se bac44]
+[wt 0.4]
+[se bac42]
+[wt 0.1]
+[se bac44]
+[wt 0.2]
+[se bac42]
+[wt 0.1]
+[se bac44]
+[wt 0.2]
+[se bac45]
+[wt 0.5]
+[shakeStop]
+[wt 1.5]
+[effectStop bit_talk_38]
+
+[seStop ad225 2.0]
+
+[charaTalk C]
+[charaFace C 16]
+[charaFadein C 0.1 1]
+＠イシュタル
+あの飛行機雲[line 3][r]ジグラットに向かって一直線に飛んでくるのは[line 3]
+[k]
+
+＠イシュタル
+キングゥ！？
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[scene 35010]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+＠キングゥ
+ラフム、残り二千。[r]取るに足りない。
+[k]
+
+[messageOff]
+[se bac111]
+[wt 1.0]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[se bac146]
+[wt 0.2]
+[se bac147]
+[wt 0.7]
+
+[charaFace E 7]
+＠キングゥ
+[line 3]フン。見た事か。[r]心臓さえあれば、おまえたちなんて話にならない。
+[k]
+
+＠キングゥ
+こんな量産型に手こずるなんて、[r]旧人類は本当に使えない。それでよく、
+[k]
+
+[charaFace E 12]
+＠キングゥ
+……よく、ボク相手に大口を叩いたものだ。[r]カルデアのマスターも、アイツも。
+[k]
+
+＠キングゥ
+ひとりじゃ何もできないクセに、[r]偉そうに胸を張って。それで、最後まで生き延びた。
+[k]
+
+＠キングゥ
+…………ふふ。自分ひとりで何でもできる、か。[r]その時点で、ボクは完全じゃなかったな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ベル・ラフム
+キングゥ……！？　キングゥ、ダト！？[r]何故生きテいる！？　何故稼働していル！？
+[k]
+
+＠ベル・ラフム
+イヤ、前提とシテ、何故[line 3][r]人間ノ、味方をスル……！？
+[k]
+
+[messageOff]
+[se bac112]
+[effect bit_talk_41]
+[wt 0.7]
+[effectStop bit_talk_41]
+[charaEffect F bit_talk_13]
+[wt 0.1]
+[se bac145]
+[charaShake F 0.05 4 4 0.4]
+[wt 0.2]
+[charaFadeout F 0.4]
+[charaMove F 0,-16 0.4]
+[wait se bac145]
+[wt 0.7]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠キングゥ
+[line 3]人間の味方なんてするものか。[r]ボクは新しいヒト。ただひとりの新人類、キングゥだ。
+[k]
+
+[bgmStop BGM_EVENT_24 2.0]
+
+＠キングゥ
+だけど[line 3]
+[k]
+
+[messageOff]
+[se ad39]
+[seVolume ad39 0 0.2]
+[bgm BGM_EVENT_6 0.25 0.25]
+[fadeout white 0.25]
+[wait fade]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+[seLoop ad112]
+[charaEffect D bit_sepia01]
+[scene 35314]
+[wt 0.1]
+[seStop ad39 0.6]
+[fadein white 0.25]
+[wait fade]
+
+[wt 2.0]
+
+[seStop ad112 0.4]
+[fadeout white 0.25]
+[wait fade]
+[charaSet E 98106110 1 キングゥ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[scene 35010]
+[wt 0.1]
+[bgm BGM_EVENT_6 0.25]
+[fadein white 0.25]
+[wait fade]
+
+＠キングゥ
+……母親も生まれも関係なく。[r]……本当に、やりたいと思った事を、か。
+[k]
+
+＠キングゥ
+……ボクにはそんなものはない。[r]なかったんだ。なかったんだよ、ギル。
+[k]
+
+＠キングゥ
+でも[line 3]思えば、一つだけあったんだ。
+[k]
+
+＠キングゥ
+キミに会いたかった。[r]キミと話したかった。
+[k]
+
+＠キングゥ
+この胸に残る多くの思い出の話を、その感想を、[r]友としてキミに伝えたかった。
+[k]
+
+[charaChange E 98106000 0 fade 1.0]
+[charaFace E 13]
+＠キングゥ
+でも、それは叶わない。[r]それはボクではなく、エルキドゥという機体の望みだ。
+[k]
+
+＠キングゥ
+……そして。[r]ボクの望みは、今も昔も変わらない。
+[k]
+
+＠キングゥ
+新人類も旧人類も関係ない。[r]ボクは、ヒトの世を維持するべく生を受けた。
+[k]
+
+＠F：ティアマト
+[line 5]Aa、a[line 6][r][line 3]Kin[line 3]gu[line 3]
+[k]
+
+[charaFace E 12]
+＠キングゥ
+さようなら、母さん。[r]アナタは選ぶ[#機体:コドモ]を間違えた。
+[k]
+
+＠キングゥ
+……うん。[r]アイツの言った事は、よく分からない。でも[line 3]
+[k]
+
+[messageOff]
+[se ad39]
+[seVolume ad39 0 0.2]
+[fadeout white 0.25]
+[wait fade]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+[seLoop ad112]
+[charaEffect D bit_sepia01]
+[scene 35314]
+[wt 0.1]
+[seStop ad39 0.6]
+[fadein white 0.25]
+[wait fade]
+
+[wt 2.0]
+
+[seStop ad112 0.4]
+[fadeout white 0.25]
+[wait fade]
+[charaClear D]
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+[scene 35010]
+[wt 0.1]
+[fadein white 0.25]
+[wait fade]
+
+＠キングゥ
+[line 3]この体が。[r]やるべき事を、覚えている。
+[k]
+
+[charaFace E 2]
+＠キングゥ
+ウルクの大杯よ、力を貸しておくれ。
+[k]
+
+＠キングゥ
+ティアマト神の息子、[r]キングゥがここに天の鎖の[#筺:な]を[#示:しめ]す！
+[k]
+
+[se ad39]
+[charaEffect E bit_talk_36]
+＠キングゥ
+母の怒りは過去のもの。[r]いま呼び覚ますは星の[#息吹:いぶき][line 3]
+[k]
+
+＠キングゥ
+[#人よ、:エヌマ　　][r][#神を繋ぎ止めよう:エリシュ][line 3]！！！！！
+[k]
+
+[charaEffectStop E bit_talk_36]
+[wt 0.4]
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_6 2.0]
+
+[messageOff]
+[voice NP_200200_2]
+[wt 2.0]
+[shake 0.05 0 4 2.0]
+[fadeout white 2.0]
+[wait fade]
+[wt 3.0]
+[se ad226]
+[seVolume ad226 0 0.7]
+[wt 4.0]
+
+[scene 10000]
+[fadein white 1.5]
+[wait fade]
+
+[wipeout circleIn 0.1 1]
+[wait wipe]
+[scene 35311]
+[wipein circleIn 1.5 1]
+[wait wipe]
+
+[wt 1.0]
+
+？1：あいたた……
+？2：っ、無事[&か:]、マシュ！？
+
+？！
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.4 1]
+＠マシュ
+……はい。衝撃で意識を失っていたようです。[r][line 3]っ、ティアマト神とラフムは！？
+[k]
+
+？1：……ああ。見てごらん
+
+？！
+
+
+[wt 1.0]
+[messageOff]
+[wipeout rightToLeft 0.7 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[scene 35304]
+[wt 0.2]
+[wipein leftToRight 0.7 1]
+[wait wipe]
+
+[wt 0.4]
+[se ad250]
+[shake 0.05 0 2 0.7]
+[wt 2.5]
+
+＠マシュ
+[line 3]これは。[r]鎖……鎖状のものが、ティアマト神を拘束しています……
+[k]
+
+＠マシュ
+一体なにが……？[r]それに、どのくらいの時間が経ったのでしょうか……？
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.7 1]
+[wait wipe]
+[scene 35300]
+[wt 0.1]
+[wipein rightToLeft 0.7 1]
+[wait wipe]
+
+＠ギルガメッシュ
+目を覚ましたようだな。
+[k]
+
+＠ギルガメッシュ
+少しは休めたか？　それは重畳。[r]では、この後を任せられるというものだ。
+[k]
+
+
+＠ギルガメッシュ
+見ての通り、ティアマト神は我らが目前。
+[k]
+
+＠ギルガメッシュ
+あと数歩こちらに踏み込めば、[r]このジグラットは[#灰燼:かいじん]に帰す。
+[k]
+
+＠ギルガメッシュ
+[line 3]ハ。[r]だが悔しかろう、その一歩があまりに重い。
+[k]
+
+＠ギルガメッシュ
+……わずか一刻の束縛だったがな。[r]まさに、気の遠くなるような永劫であった。
+[k]
+
+[messageOff]
+[se ad250]
+[wt 2.0]
+
+＠ギルガメッシュ
+[line 3]さらばだ、天の[#遺児:いじ]よ。[r]以前の貴様に勝るとも劣らぬ仕事[line 3]
+[k]
+
+＠ギルガメッシュ
+天の鎖は、ついに、[r]創世の神の[#膂力:りょりょく]すら抑えきった。
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[scene 35304 2.0]
+[wt 1.0]
+[se ad250]
+[shake 0.05 0 2 0.7]
+[wt 2.5]
+[scene 35300 1.0]
+[wt 1.0]
+[se ad250]
+[wt 2.5]
+[scene 35304 1.0]
+[wt 0.5]
+[se ad252]
+[shake 0.05 0 2 0.7]
+
+[scene 35305 2.0]
+[wt 0.5]
+[se ad250]
+[seVolume ad250 0 0.1]
+[seVolume ad250 1.0 0.9]
+[seStop ad252 1.4]
+[shake 0.05 0 2 1.5]
+[wt 1.0]
+[wt 0.5]
+[flashin once 0.1 0.5 FFFFFFFF FFFFFF00]
+[wt 0.1]
+[shake 0.05 2 4 1.5]
+[scene 35306]
+[se ad251]
+[wait se ad251]
+
+[se ad253]
+[scene 35307 1.0]
+[wt 2.0]
+[seStop ad253 3.0]
+[wt 2.0]
+
+
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[imageSet E cut008_tmtlow 1]
+[imageSet F cut008_tmthigh 1]
+[cameraMove 0.1 0,0 1.4]
+[scene 35309]
+[charaDepth E 3]
+[charaDepth F 2]
+[charaFadein F 0.1 0,-210]
+[wt 0.1]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+[cameraMove 1.1 0,-30 1.8]
+[wt 0.7]
+[wipeout circleIn 0.5 0.5]
+[wait wipe]
+[cameraMove 0.1 0,0 1.0]
+[charaFadeout F 0.1]
+[wt 0.1]
+[wipein circleIn 0.5 0.5]
+[wait wipe]
+[wt 2.0]
+
+[se ad205]
+
+＠F：ティアマト
+Aaaaaa[shake 0.05 0 5 0.7][line 3][r]AAAAAAAAAAAAAAAAAAAAAA[line 3][bgm BGM_EVENT_24 1.0]！
+[k]
+
+[messageOff]
+[scene 35300 1.0]
+[wt 1.5]
+
+＠G：エレシュキガル
+ギルガメッシュ王、聞こえる！？[r]こちら、冥界のエレシュキガルだけど！
+[k]
+
+＠G：エレシュキガル
+ウルクの地下と冥界との相転移、完了したわ！[r]あとは穴を掘るだけよ！
+[k]
+
+＠ギルガメッシュ
+だ、そうだ。聞いていたな、イシュタル？
+[k]
+
+＠イシュタル
+もちろん。準備はとっくに出来ているわ。[r]この一時間、アンタらしくない顔を見ながらね。
+[k]
+
+＠イシュタル
+……でも、アナタはそれでいいの？[r]悔いとかないの？
+[k]
+
+＠ギルガメッシュ
+[line 3]無論だ。何を悲しむ事があろう。
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]は二度、友を見送った。
+[k]
+
+＠ギルガメッシュ
+一度目は悲嘆の中。だが[#此度:こたび]は違う。[r]その誇りある勇姿を、永遠にこの目に焼き付けたのだ。
+[k]
+
+＠イシュタル
+……もう。[r]そっちの話じゃないわよ、ばか。
+[k]
+
+[wt 0.2]
+[se ad28]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout C 0.1]
+[scene 35010]
+[wt 0.5]
+[fadein black 0.5]
+[wait fade]
+
+＠イシュタル
+……あーあ。[r]結局、最後まで眼中になし、か。
+[k]
+
+＠イシュタル
+ま、今の私にはどうでもいいコトだったけど。[r]ちょっとだけ悔しいわね、[#私:イシュタル]。
+[k]
+
+＠イシュタル
+[line 3]さて！[r]アンニュイなのはこれで終わり！
+[k]
+
+[charaTalk C]
+[charaFace C 17]
+[charaFadein C 0.1 1]
+＠イシュタル
+後は野となれ花となれ[line 3][r]未練もろともフッ飛ばしてあげようじゃない！
+[k]
+
+＠イシュタル
+いくわよ、金ピカ、[%1]！[r]注文通り、その足下、容赦なくブチ抜いてあげる[line 3]！
+[k]
+[bgmStop BGM_EVENT_24 2.0]
+
+[charaEffect C bit_talk_36]
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaEffectStop C bit_talk_36]
+[charaFadeout C 0.1]
+[scene 35311]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[seLoop ad214]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[bgm BGM_EVENT_6 0.1]
+＠ギルガメッシュ
+……ふん。[r]しかし、真なる神との決別、ときたか。
+[k]
+
+＠ギルガメッシュ
+我ながら[#勢:いきお]いで、たわけた事を口にした。[r]であれば、[#我:オレ]が残る訳にはいくまいよ。
+[k]
+
+[charaFace A 0]
+＠ギルガメッシュ
+カルデアのマスターよ。[r]以前、人理の辻褄合わせの話はしたな？
+[k]
+
+＠ギルガメッシュ
+確かに、このウルクは滅びるだろう。
+[k]
+
+＠ギルガメッシュ
+だがティアマト神と、この特異点の基点となる[r][#我が消え去れば]、その結末は違う解釈になる。
+[k]
+
+＠ギルガメッシュ
+滅びるのはあくまでウルク第五王の治世のみ。[r]この後に続く、ウルクの第六王の時代は健在だろう。
+[k]
+
+＠ギルガメッシュ
+倒されねばならぬのはティアマト神だけではない。[r]この[#我:オレ]も、この先には不要だった。
+[k]
+
+[charaFace A 1]
+＠ギルガメッシュ
+唯一の懸念は[#我:オレ]の死に方だった。[r]自決など、王として話にならぬからな。
+[k]
+
+＠ギルガメッシュ
+どうしたものかと難儀していたところだが、[r]都合よく傷を負ったわ。礼を言うぞ、[%1]。
+[k]
+
+？1：ギルガメッシュ王……
+？2：……そんな事で……礼なんて……
+
+？！
+
+[charaFace A 0]
+＠ギルガメッシュ
+……仕方のない[&男:女]だ。礼は先ほどの事だけではない。[r]言わせるな、バカ者が。
+[k]
+
+＠ギルガメッシュ
+異邦からの旅人よ。[r]心に刻みつけておけ。
+[k]
+
+＠ギルガメッシュ
+この時代にあった全てのものを動員しても、[r]おそらくは[#ここ]止まりだっただろう。
+[k]
+
+＠ギルガメッシュ
+貴様は異邦人であり、この時代の異物であり、[r]余分なものだった。だが[line 3]
+[k]
+
+[charaFace A 1]
+＠ギルガメッシュ
+その余分なものこそが、我らだけでは覆しようのない[r]滅びに対して、最後の行動を起こせるのだ。
+[k]
+
+[charaFace A 0]
+＠ギルガメッシュ
+……時は満ちた。[r]すべての決着は、貴様の手に[#委:ゆだ]ねるものとする。
+[k]
+
+[messageOff]
+[se ad57]
+[shake 0.05 0 8 0.7]
+[wt 1.5]
+[seStop ad57]
+
+[charaFadeout A 0.1]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠マシュ
+ビーストⅡ、直前！[r]こちらに踏み込んできます！
+[k]
+
+＠マシュ
+ギルガメッシュ王、退避を[line 3]！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ギルガメッシュ
+なに。最後の囮はこの[#我:オレ]だ。[r]寸分違わず踏み込め、ティアマト神。
+[k]
+
+＠ギルガメッシュ
+ここが貴様の墓場[line 3][r]いや、墓場に通じる奈落なのだからな！
+[k]
+[bgmStop BGM_EVENT_6 2.0]
+
+[messageOff]
+[charaFadeout A 0.1]
+[se ad241]
+[seStop ad214 0.7]
+
+
+[wt 1.0]
+
+？1：[line 3]マシュ！
+？2：手を……！
+
+？！
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[wt 1.0]
+[charaFace B 2]
+＠マシュ
+は、はい！[r]よく分かりませんが、緊急事態ですね先輩！？
+[k]
+
+[se ad242]
+[seStop ad241 0.7]
+
+[charaFace B 6]
+＠マシュ
+これは、まさか……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そのまさかだ！[r]屈んで、床にしっかりワイヤーで体を固定！
+[k]
+
+＠Dr.ロマン
+女神イシュタルの宝具がジグラットの根元に直撃する！[r][line 3]総員、衝撃に備えろ[line 4]！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+？1：ギルガメッシュ王……！
+？2：こっちに……！
+
+？！
+
+[wt 0.4]
+[charaFace A 1]
+[wt 0.4]
+[fadeout white 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.1]
+[fadein white 0.4]
+[wait fade]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.4]
+[seStop ad242 2.0]
+[se ad237]
+[seVolume ad237 0 0.05]
+[bgmStop BGM_EVENT_24 2.0]
+[se bac160]
+[fadeout white 1.5]
+[wt 0.7]
+[seVolume ad237 0 0.7]
+[wt 0.3]
+[wt 0.5]
+[se ad74]
+[seStop bac160]
+[wt 0.1]
+[wait fade]
+[scene 10000]
+[wt 2.0]
+[fadein white 1.5]
+[wait fade]
+[messageOff]
+[fadeout black 0.1]
+[wait fade]
+[wt 1.5]
+[soundStopAll]
+[end]

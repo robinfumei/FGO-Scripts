@@ -1,0 +1,565 @@
+
+＄94-00-56-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3013001 1 スカサハ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+さて、話を戻すが。
+[k]
+
+＠スカサハ
+船を造るにしても時間はかかる。[r]一朝一夕に、という訳にはいくまい。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+我々がすべき事は[line 3]
+[k]
+
+[charaFace B 5]
+＠スカサハ
+船の完成までこの島で暮らしつつ、[r]必要な素材を集めていく、という事になるな。
+[k]
+
+？1：生活……ですか
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、わたしもそこが少し不安です。
+[k]
+
+？2：素材……ですか
+
+[charaFace B 0]
+＠スカサハ
+木に石に鉄……その他もろもろだ。[r]なに、加工はこちらでどうにかなるだろう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+わたしは生活のほうが気にかかります。
+[k]
+
+？！
+
+[charaFace A 12]
+＠マシュ
+ここはカルデアとは全く違う気候、地形で、[r]どんな自然現象が起こるかもわかりません。
+[k]
+
+＠マシュ
+環境面の懸念は数知れず。水や食糧の問題も[r]あります……大丈夫なのでしょうか。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+案ずるな。船以外もたいていのものは作れる。
+[k]
+
+＠スカサハ
+私が修めた智慧の中にはサバイバル術、たとえば無人島の[r]ような場所で生き延びる術も含まれておるからな。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+何か困ったことがあれば頼ってくれてよい。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+最初は不便かもしれぬが、必要なものを作っていくにつけ、[r]少しずつ快適になっていくであろうよ。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+ふ。これも修行と励むことだ。
+[k]
+
+＠スカサハ
+……さて。[r]そしてここで一つ、皆に提案があるのだが[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 1.0]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4024000 1 モードレッド]
+[charaSet E 2026000 1 アルトリア]
+[charaSet F 3024000 1 玉藻の前]
+[charaSet G 3025000 1 清姫]
+[charaSet H 9004000 1 マルタ]
+[wt 1.2]
+
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+[bgm BGM_EVENT_28 0.1]
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.7 1]
+＠スカサハ
+ふむ。悪くない。
+[k]
+
+？1：悪くないどころか最高です
+？2：悪くないどころか最高です
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウッ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.4 1]
+＠マシュ
+あっ、あっ、あの！　スカサハさん！
+[k]
+
+[charaFace A 16]
+＠マシュ
+ど、どうして……水着なんでしょう……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 16]
+[charaFadein A 0.1 2]
+＠スカサハ
+理由か？　第一に、この島は暑い。[r]モードレッドのように鎧を着ていなくともだ。
+[k]
+
+＠スカサハ
+過度な暑さはサーヴァントと言えど動きを鈍らせるし、[r]戦闘にも影響を及ぼす。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+一流の戦士たるもの、[r]場と状況に合った姿になるべきだろう。
+[k]
+
+[charaFace B 1]
+＠スカサハ
+相応しく在るよう霊基をざっくり調整してみたのだが、[r]そう悪くはあるまい？
+[k]
+
+[messageOff]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+
+
+[wait camera]
+
+[charaTalk D]
+[charaFace D 0]
+
+
+[charaFadein D 0.4 1]
+
+
+
+＠モードレッド
+ああ、その通りだな。[r]涼しくて動きやすくなったぜ。へへっ。
+[k]
+
+＠モードレッド
+これならいつも以上に剣をブチかませるってもんだ。[r]鎧を脱いだぶん、アーサー王より強いかもなぁ？
+[k]
+
+[charaFadeout D 0.1]
+
+[messageOff]
+
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.4 1]
+
+＠アルトリア
+ふむ。この装備に相応しい武器を[r]新調しなくてはいけませんね。
+[k]
+
+＠アルトリア
+たしか、ざぶーんの時に拾ったものがあった筈。[r]騎士たるもの、武器の備えは万全でなければ。
+[k]
+
+[messageOff]
+
+[charaFadeout E 0.1]
+
+
+
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 0]
+
+[charaFace E 6]
+[charaFadein E 0.1 2]
+
+
+＠モードレッド
+（なんだあれ！？　しれっと、さも当然のように[r]　ヘンな銃を持ち出してやがる……！）
+[k]
+
+＠モードレッド
+（しかもメチャクチャ夏っぽいじゃねえか！？[r]　ズルいぞ、あの人……！）
+[k]
+
+[charaFace D 2]
+＠モードレッド
+そ、そうそう、武器も変えないとな！[r]オレもとっておきを出すとするぜ！
+[k]
+
+[charaFace D 4]
+＠モードレッド
+（やっぱコレしかねぇな。アーサー王の持ち物にあった、[r]　船になる盾……ちょろまかしといてよかったぜ！）
+[k]
+
+
+
+？1：あの二人、会話してないのに会話してる……
+？2：仲は……取り持てないっス……
+
+？！
+
+[messageOff]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、マスター。このお二人の関係性は複雑怪奇にて、[r]下手に手を出せばどうなるか。
+[k]
+
+＠マシュ
+流れに身を任せて見守るしかないでしょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet D 5027000 1 マリー]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠玉藻の前
+さてさて。[#私:わたくし]もこのように。
+[k]
+
+＠玉藻の前
+暑さに耐えられないなら暑さを楽しむ。[r]陽射しが強いのならその陽射しを利用する……
+[k]
+
+＠玉藻の前
+それが、できる女の余裕というもの。[r]どうですか、マスター？
+[k]
+
+＠玉藻の前
+日除けのパラソルを槍に変え、おとなの女、[r]ランサータマモちゃんここにサマーイン！です♡
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠清姫
+うふふ。南の島で！　ますたぁと！　水着で！
+[k]
+
+＠清姫
+これはきっと、あれですね。遭難ではありません。[r]無人島生活でもありません。
+[k]
+
+[charaFace G 3]
+＠清姫
+わたくしとますたぁにとっては、きっと。[r]婚前旅行とかいう、そういう類の……。
+[k]
+
+[charaFace G 1]
+＠清姫
+うふ、うふふ、うふふふふ……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaSet F 2025100 1 メアリー]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠マルタ
+肌を見せるのは少し恥ずかしいのですが……[r]仕方ないですね。
+[k]
+
+＠マルタ
+状況が状況ですから。今は聖女という役職を忘れ、[r]一人のマルタとして困難に立ち向かいます。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaSet G 2025200 1 アン]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.4 1]
+＠マリー
+こういうのって、始めてだから。[r]少しだけ、どきどきするわね……？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaSet H 98006000 1 ？？？]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.4 1]
+＠メアリー
+水の上にはよくいるけど。[r]泳ぐための格好をするのは久しぶりだなー。
+[k]
+
+＠メアリー
+マスター、これおかしくないかな……？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+＠アン
+とっても似合っていて可愛いですわよ、メアリー♪
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.4]
+
+？1：みんな……自由です……
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウフォウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。水着というからてっきり競泳水着とばかり。[r]みなさん、花があってとてもいいと思います！
+[k]
+
+？2：（赤面して目を逸らす）
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠スカサハ
+これ、マスター。[r]水着とは余人に見られても構わんものだろうが。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+見られていかんのならばそれは裸と変わらぬ。
+[k]
+
+＠スカサハ
+目を逸らすのは、たとえば人の目を見て話さぬのと[r]変わらん。逆に礼を失するぞ。
+[k]
+
+[charaFace B 5]
+＠スカサハ
+よって言う。見ろ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+（なんだか凄い台詞のような……）
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaSet C 4024000 1 モードレッド]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 1.0]
+
+[charaSet C 3024000 1 玉藻の前]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+[charaSet G 3025000 1 清姫]
+
+[charaFadeout C 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+[charaSet C 9004000 1 マルタ]
+
+[charaFadeout G 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+[charaSet G 2025200 1 アン]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 1.6]
+
+
+？！
+
+[charaFace A 13]
+＠マシュ
+水着のほうが環境に適しているのは[r]その通りだと思います。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ですが、一つ気がかりなのは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_28 0.4]
+
+[se ad23]
+[wt 1.0]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠？？？
+…………[bgm BGM_EVENT_3 0.1]！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠アルトリア
+わかっています。[r]この格好で戦えるのか、ということでしょう？
+[k]
+
+＠アルトリア
+心配は無用です。南国仕様になろうとも、[r]我々は皆、一騎当千のサーヴァント。
+[k]
+
+＠アルトリア
+たとえ慣れない水着姿のあまり、クラスが[r]変わっていようと問題はありません。
+[k]
+
+[charaFace E 2]
+＠アルトリア
+さあマスター、指示を！[r]夏の力を見せつけてあげましょう！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

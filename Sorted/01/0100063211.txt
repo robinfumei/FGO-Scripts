@@ -1,0 +1,1646 @@
+＄01-00-06-32-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_20 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 98094000 1 獅子王]
+[charaSet F 98081000 1 連合軍兵士]
+[charaSet G 98080000 1 セルハン]
+
+[charaSet H 1001001 1 ？？？]
+
+[scene 30100]
+[fadein black 2.0]
+[wait fade]
+
+＠マーリン
+王は聖剣を返されぬまま彷徨い、[r]死ぬ事なく天に属する英霊となった。
+[k]
+
+＠マーリン
+故に、彼女は[line 3]“聖槍を使い続けたアルトリア”は[r]このアヴァロンにはやって来ない。
+[k]
+
+＠マーリン
+聖剣を返すために[r]ここまで辿り着いたキミとは違ってね。
+[k]
+
+＠マーリン
+彼女を解放する方法はただ一つ。[r]今度こそ聖剣を返す事だ。
+[k]
+
+＠マーリン
+でも[line 3]分かっているね？
+[k]
+
+＠マーリン
+キミが今まで旅を続けられたのは[r]その聖剣があったからだ。
+[k]
+
+＠マーリン
+聖剣を返すという事は、何もかも終わるということ。
+[k]
+
+＠マーリン
+キミの長かった旅も、キミのこれまでの苦労も、[r]報われる事なく終わる。
+[k]
+
+＠マーリン
+肉体に依存する人間にとって、[r]死の恐怖は生き続けた分だけ増大する。
+[k]
+
+＠マーリン
+実に1500年。キミが迎える“死”への恐ろしさの[r]重みは、私でさえ想像できないだろう。
+[k]
+
+＠マーリン
+永遠の生の苦しみなんて、実のところ“きつい”だけさ。[r]誰だって我慢すれば耐えられる。
+[k]
+
+＠マーリン
+でもキミが踏みだそうとしている重みは、[r]誰であれ正視できない恐れだとボクは断言する。
+[k]
+
+＠マーリン
+それでも[line 3]キミは行くのかい？
+[k]
+
+＠マーリン
+遠い日の過ちを正すためだけに。[r]ただ、王の存命を願っただけの話なのに。
+[k]
+
+＠マーリン
+サー・ベディヴィエール。[r]本当はキミには何の、過ちもなかったというのに？
+[k]
+
+[messageOff]
+
+[scene 21900 0.3]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.3 1]
+[wt 1.5]
+
+[charaFadeout H 0.3]
+[scene 30100 0.3]
+
+＠ベディヴィエール
+[line 3]はい。[r]それが私のできる、唯一度の、王へのご奉公なれば。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_20 2.0]
+[maskout white 2.0]
+[wait mask]
+
+
+[scene 29700]
+
+[charaSet H 2014000 1 俵藤太]
+
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[bgm BGM_EVENT_21 2.0]
+[se ad14]
+[shake 0.05 0 3 0]
+[maskin white 2.0]
+[wait mask]
+
+＠獅子王
+私が[line 3]英霊ごときに、押されている……[r]いや、貴卿は英霊ですらない。
+[k]
+
+＠獅子王
+ただの人間が……私に迫るのか？[r][#土塊:つちくれ]となって崩れていく手足で、なお。
+[k]
+
+＠獅子王
+……貴卿は……何者だ？[r]なぜ……そこまで……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+それは、あの日の貴方の笑顔を、[r]いまも覚えているからです、アーサー王。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠獅子王
+……待て。それを使うな。[r]使えば、貴卿は[line 3]
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……円卓の騎士を代表して、貴方にお礼を。
+[k]
+
+＠ベディヴィエール
+あの暗い時代を、貴方ひとりに背負わせた。[r]あの華やかな円卓を、貴方ひとり知らなかった。
+[k]
+
+＠ベディヴィエール
+……勇ましき騎士の王。ブリテンを救ったお方。[r]貴方こそ、我らにとって輝ける星。
+[k]
+
+＠ベディヴィエール
+我が王、我が主よ。今こそ[line 3]いえ。[r]今度こそ、この剣をお返しします。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[shakeStop]
+[seStop ad14]
+[se ad98]
+[charaShake E 0.05 3 3 0.5]
+[wt 1.5]
+
+
+[bgm BGM_EVENT_21 0.1]
+[messageOff]
+[fadeout white 3.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+[scene 10001]
+
+[fadein white 0.5]
+[wait fade]
+
+＠獅子王
+[line 3]そうか。ようやく思い出した。
+[k]
+
+＠獅子王
+……あの森を。あの丘を。[r]最後まで私を気遣う、泣き腫れた騎士の顔を。
+[k]
+
+＠獅子王
+その悔いをはらすため、[r]そなたは幾星霜、さまよい続けたのか。
+[k]
+
+＠獅子王
+……見事だ。[r]我が最後にして最高の、忠節の騎士よ。
+[k]
+
+＠獅子王
+聖剣は確かに還された。[r]誇るがいい、ベディヴィエール。
+[k]
+
+＠獅子王
+貴卿は、確かに[line 3][r]そなたの王の[#命:めい]を、果たしたのだ。
+[k]
+
+[messageOff]
+[fadein white 0.5]
+[wait fade]
+
+[scene 29700]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0 1]
+
+[fadein white 3.0]
+[wait fade]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect C flashErasure 1 2.0]
+[wait charaSpecialEffect C]
+[wait se ad52]
+[charaFadeout C 0]
+[wt 1.0]
+
+[bgmStop BGM_EVENT_21 2.0]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[charaPut D -200,-250]
+[charaDepth D 3]
+[charaDepth E 0]
+[charaEffect D bit_talk_36]
+[wt 1.0]
+
+[charaPut D 1200,1200]
+[charaEffectStop D bit_talk_36]
+
+[fadeout white 0.2]
+[wait fade]
+[se ad114]
+[charaChange E 98093000 0 fade 0.1]
+[wait se ad114]
+[charaFadeout E 0.1]
+
+[fadein white 1.0]
+[wait fade]
+
+[charaPut D 1]
+
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+
+[bgm BGM_EVENT_6 0.1]
+
+＠マシュ
+……ベディヴィエール卿、消滅。[r]聖剣返還を、確認しました。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+……こちらも特異点の崩壊を確認した。[r]時代を呑み込もうとしていた重力変動は消滅。
+[k]
+
+＠Dr.ロマン
+聖槍の消失によって聖都も消えようとしている。[r]……その時代の乱れは、これで完全に無くなった。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠獅子王
+[line 6]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+おっと、まだやる気かい？[r]聖剣を還されたキミにはもう聖槍の呪縛はない。
+[k]
+
+＠ダ・ヴィンチ
+いくらまだ力があるからって、[r]私たちと戦う理由はないのでは？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠獅子王
+王に刃向かう者を生かして帰す道理はない。[r]こちらには聖剣がある。
+[k]
+
+＠獅子王
+いまだこれを振るっていないというのに、[r]私を倒したと吹聴されるのは心外だ。
+[k]
+
+
+？1：まだ戦うのか、獅子王！
+？2：負けず嫌いにも程がある……！
+
+？！
+
+＠獅子王
+そうだ。おまえたちが人理の復元者であれ、[r]私に挑戦したのなら全力で応える。
+[k]
+
+[charaFace E 0]
+＠獅子王
+それが私の、王としての矜持だが[line 3][r]どうやら、そうはいかないようだな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[charaEffect D bit_talk_06]
+
+＠ダ・ヴィンチ
+！　ちょっとロマニ、私消えかけてる！[r]どうなっているんだ、これ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+わたしもです……！[r]先輩も……！
+[k]
+
+
+[charaFadeout A 0.1]
+[charaPut D 1200,1200]
+
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+そうか、聖杯だ……もう[%1]君は[r]聖杯を回収している！
+[k]
+
+＠Dr.ロマン
+人理定礎を乱していた聖槍が消えた事で、[r]修復が急速に始まったんだ！
+[k]
+
+＠Dr.ロマン
+聖都そのものがその時代には有り得ないものだから、[r]時代の修復力も今までの何倍も早いんだよ！
+[k]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+本来、この時代にないものは[r]強制的に“元いた場所”に戻る！
+[k]
+
+＠Dr.ロマン
+でもそれは消える訳じゃない。
+[k]
+
+＠Dr.ロマン
+ダ・ヴィンチちゃん、マシュ、[%1]君は[r]カルデアに強制退去するだけだ、安心して！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaPut D 1200,1200]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠獅子王
+……三度目の戦いはなくなったな。[r]残念だ。これが勝ち逃げをされる、という気分か。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaPut D 1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+獅子王……いえ、アーサー王が玉座に戻って……[r]彼女は退去しないのですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+……彼女は英霊じゃない。[r]この特異点に召喚されたものじゃないんだ。
+[k]
+
+＠ダ・ヴィンチ
+彼女はここまで自力でやってきた神霊だ。[r]だから、聖槍がなくなればそれで終わり。
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチ
+あの獅子王は“ここで終わる”んだ。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチ
+この先、仮に聖槍を持つアーサー王と出会えたとしても、[r]それはあの彼女じゃない。
+[k]
+
+[charaFace B 4]
+＠ダ・ヴィンチ
+聖槍の獅子王は、この聖都と共に滅びるんだよ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………そんな。[r]それでは、ベディヴィエールさんの行為は……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaPut D 1200,1200]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠獅子王
+無駄ではない。[r]卿の思惑通り、私はこうして解放された。
+[k]
+
+[charaFace E 0]
+＠獅子王
+そして私という過ちも、また無駄ではなかった。
+[k]
+
+[charaFace E 0]
+＠獅子王
+嵐の王に成り果てた私にのみ、[r]知り得る真実があったのだから。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaPut D 1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+獅子王にだけ知り得た真実……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaPut D 1200,1200]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠獅子王
+……そうだ。私は魔術王と同様の視界を得た。[r]彼の思惑、その最終目的も理解した。
+[k]
+
+＠獅子王
+魔術王ソロモン。[r]その居城となる神殿は、正しい時間には存在しない。
+[k]
+
+＠獅子王
+魔術王の座標を示すものは第七の聖杯のみ。[r]あの聖杯のみ、魔術王が自ら過去に送ったものだ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+……！　つまり、ソロモン王より過去の時代に[r]七つ目の特異点があるという、という事か！
+[k]
+
+＠Dr.ロマン
+ボクはてっきり、ソロモンは死ぬ前にあらかじめ[r]人理定礎が大きくなる時代を見透かして、
+[k]
+
+＠Dr.ロマン
+その時代に聖杯が現れるように[r]遺産として残していたものと予想していたけど[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠獅子王
+……その予想は正しい。[r]六つの聖杯。魔神の名を語る使者たち。
+[k]
+
+＠獅子王
+あるいは、魔術王の子孫として世に放たれ、[r]覚醒の時まで生き続けた魔術師たち。
+[k]
+
+＠獅子王
+彼らは魔術王の時代から後に続き、[r]2016年までの人類史に生きたもの。
+[k]
+
+[charaFace E 0]
+＠獅子王
+だが七つ目の聖杯のみ、[r]魔術王の手で過去に送られている。
+[k]
+
+[charaFace E 0]
+＠獅子王
+そして、それこそが人理焼却を成した第一手。[r]人類史の土台、そのものを破壊するもの。
+[k]
+
+[charaFace E 0]
+＠獅子王
+魔術王はこう語らなかったか？[r]七つ目の聖杯に至ったのなら脅威として認める、と。
+[k]
+
+＠獅子王
+それは七つの聖杯を手に入れれば、という[r]意味ではない。
+[k]
+
+＠獅子王
+七つ目の聖杯こそ魔術王の絶対の自信。[r]それが復元されないかぎり、人理焼却は行われるのだ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+[line 3]洗い出しが出来る。[r]そこまで分かっていれば七つ目の特異点は観測できる！
+[k]
+
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+ありがとう獅子王！[r]今度会えたら感謝のキスをさせてくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠獅子王
+フッ。次があったら、な。
+[k]
+
+？1：あ……
+？2：……笑った……？
+
+？！
+
+＠獅子王
+私とて、愉快なことがあれば笑う。[r]昔はともかく、今はこの通り、成長しているのだから。
+[k]
+
+[charaFace E 0]
+＠獅子王
+……カルデアのマスターよ。[r]この度の戦い、私から謝罪はない。
+[k]
+
+＠獅子王
+私は私の行いを今でも正しいと考える。[r]人を護る手段、正義は個人によって異なるからだ。
+[k]
+
+＠獅子王
+だから[line 3]そなたは、[r]そなたが善いと感じた道を行くがいい。
+[k]
+
+＠獅子王
+そなたらは魔術王の神殿、[r]その姿を見る位置にまで到達した。
+[k]
+
+[charaFace E 0]
+＠獅子王
+[line 3]残る聖杯、最後の特異点には[r]そなたらの想像を絶する“悪”がいるだろう。
+[k]
+
+＠獅子王
+ともすれば、それは魔術王をも上回る大魔。[r]我ら人類の原初の罪である。
+[k]
+
+[charaFace E 0]
+＠獅子王
+……星を集めるがいい。[r]人間の悪性、どのような闇にも負けぬ輝く星を。
+[k]
+
+＠獅子王
+そなたが信じるに値する英霊。[r]そなたとの繋がりを極めた仲間たちを。
+[k]
+
+
+[scene 10001 10.0]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+強制退去が始まる！[r]みんな、自分のカタチに意識を集中して！
+[k]
+
+＠Dr.ロマン
+カルデアに戻る、その事を最優先に考えるんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠獅子王
+……さらばだ。[r]私は私の理想とともに滅びる。
+[k]
+
+[charaFace E 0]
+＠獅子王
+だが……救われたものはあった。[r]ベディヴィエール卿……貴方の過ちは、意味があった。
+[k]
+
+[charaFace E 1]
+＠獅子王
+この[#獅子王:わたし]には意味があったのだ。[r]私には[line 3]それが[line 3]
+[k]
+
+[bgmStop BGM_EVENT_6 3.0]
+[messageOff]
+[fadeout white 3.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[charaEffectStop D bit_talk_06]
+
+
+[wt 1.0]
+[charaSet B 98025000 1 ？？？]
+[charaSet C 6002001 1 呪腕のハサン]
+[charaSet D 98079000 1 “山の翁”]
+
+[scene 29000]
+
+[bgm BGM_EVENT_2 2.0]
+[fadein white 2.0]
+[wait fade]
+[wt 1.0]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠連合軍兵士
+粛正騎士たちが消えていく……[r]これは一体……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠セルハン
+聖都の兵士たちものきなみ大人しくなってるな！？
+[k]
+
+＠セルハン
+さっきまで誰も彼も城に引き寄せられて[r]おっそろしかったが、それもなくなった！
+[k]
+
+＠セルハン
+こりゃあ……あんまり都合の良いことは[r]考えたくないが、あいつらが獅子王をやったのか！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[charaFadeTime H 0 0.6]
+
+＠俵藤太
+うむ、どうやらそうらしい。[r]お主たちはこの地の歪みを正せたと見て良いな。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace H 0]
+[charaFace G 2]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+[charaFadeTime H 0 0.6]
+
+＠セルハン
+タワラ！？[r]ちょっと待て、アンタもなんかやべえぞ！？
+[k]
+
+＠セルハン
+足下が透けてるじゃねえか！？
+[k]
+
+[charaFace H 1]
+＠俵藤太
+透けているなあ。[r]仕方あるまい。拙者はマスターのいないはぐれ[#英霊:もの]。
+[k]
+
+[charaFace H 0]
+＠俵藤太
+聖杯がなくなり、[r]人理が復元されればこの時代には居られぬものだ。
+[k]
+
+[charaFace H 4]
+＠俵藤太
+この旅の中で相応しい主に出会えていれば、[r]そのマスターに合わせて消えるのだろうが……
+[k]
+
+[charaFace H 1]
+＠俵藤太
+いや残念、今回、拙者には師匠がいたからな！[r]主に出会うのはまたいつかの奇蹟を待たねばならん！
+[k]
+
+[charaFadeTime H 0.5 0.4]
+
+[charaFace H 2]
+＠俵藤太
+ではさらばだ、聖地よ、三蔵よ、[%1]よ！[r]此度の合戦、貴殿らの勝利である！
+[k]
+
+＠セルハン
+あ、待て！　待て待て待て！[r]置いてけ！　せめてそのコメ置いてけ[line 2]！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+[charaFadeTime H 0 0.4]
+
+＠俵藤太
+はっはっは！[r]それは聞けぬ相談だのう！
+[k]
+
+[charaFace H 1]
+＠俵藤太
+拙者から米俵を取ったら何が残る！[r]名前しか残らんぞ、名前しか！
+[k]
+
+[messageOff]
+[charaFadeout H 1.0]
+[wt 1.5]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠セルハン
+そうかよケチ野郎、あばよ！
+[k]
+
+[charaFace G 1]
+＠セルハン
+色々と手助けしてもらったがよ[line 3][r]アンタの振る舞った飯が、オレは一番嬉しかったぜー！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout G 0]
+[wt 1.0]
+
+[scene 29802]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+[seLoop ad46]
+[wt 1.0]
+[seStop ad46 0.3]
+
+[charaTalk B]
+[charaFadein B 0.4 1]
+
+＠？？？
+[image berserker_language_1][line 3]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[seLoop ad46]
+[wt 1.0]
+[seStop ad46 0.3]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+…………、…………っ。[r]生きているのか……私は……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠？？？
+[image berserker_language_1][line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+はは……だが、それも数分か。[r]手も足も……動かぬ……
+[k]
+
+＠呪腕のハサン
+あれは……受肉した[#魔神:シャイタン]、であろう……[r]ただ食べるだけの、取るに足りぬ獣のようだが……
+[k]
+
+＠呪腕のハサン
+この有様では、どうにもならぬ……[r]すまぬ、サリア……ルシュドを残して、私も……
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[se ad46]
+[charaTalk B]
+[charaFadein B 0.4 1]
+[wait se ad46]
+[wt 0.5]
+
+[se bac95]
+[charaEffect B bit_talk_12]
+[charaShake B 0.05 3 3 0.5]
+[wt 0.5]
+
+
+[se ad42]
+[charaSpecialEffect B enemyErasure 1 1.0]
+[wait charaSpecialEffect B]
+[charaFadeout B 0]
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+
+＠“山の翁”
+[line 6]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+おお……初代、さま[line 3]
+[k]
+
+[charaFace C 4]
+＠呪腕のハサン
+……そうでしたな……この首は、[r]事を成し終わった後に、と約束いたした……
+[k]
+
+[se ad54]
+[charaShake C 0.05 3 3 0.5]
+[charaFace C 5]
+＠呪腕のハサン
+ぐ、ぬっ……！[r]はは、面目ない。全霊をつくして、[#跪:ひざまず]くのがやっととは。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+[line 6]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+……ですが、今はこれでご容赦を。[r]どうぞ、我が首をお受け取りください。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+[line 6]。
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad60]
+[wt 1.0]
+[seStop ad60 1.0]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+！？
+[k]
+
+＠呪腕のハサン
+お、お待ちください……！[r][#何故:なにゆえ]、何故我が命を……！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+おかしな事を言う。[r]呪腕のハサンめの首、たった今落としたところだ。
+[k]
+
+＠“山の翁”
+これなる骸の腕は呪腕のもの。[r]であれば、それは呪腕の翁であろう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+＠呪腕のハサン
+な[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠“山の翁”
+貴様はすでに山の翁ではない。[r]よって、我が剣にかかる道理もない。
+[k]
+
+＠“山の翁”
+……死を以て[#免責:めんせき]するが我らの常。[r]それを……
+[k]
+
+＠“山の翁”
+生きたまま任を終えるものがいようとはな。
+[k]
+
+＠“山の翁”
+誇るがよい。いたらぬ暗殺者なれど、貴様は我ら十九人の[r]中でただひとり、翁の[#軛:くびき]から逃れたのだ。
+[k]
+
+
+[messageOff]
+[se ad42]
+[charaSpecialEffect D erasureReverse 1 1.0]
+[wait charaSpecialEffect D]
+[charaFadeout D 0]
+[wt 0.5]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠呪腕のハサン
+なんと……なんと、いう事だ[line 3]
+[k]
+
+[charaFace C 4]
+＠呪腕のハサン
+貴方はこう言われるのか。[r]この時代に留まり、山の民の復興に尽くせ、と。
+[k]
+
+[charaFace C 1]
+＠呪腕のハサン
+はは……ははは。[r]私も、多くの仕事をこなしてきましたが[line 3]
+[k]
+
+＠呪腕のハサン
+これ以上やりがいのある仕事を、他に知りませぬ。[r]このハナム、一命に換えてもやり遂げましょう……
+[k]
+
+[charaFace C 0]
+＠呪腕のハサン
+そして……それが成った暁には……[r]改めて、恩を返さねばなりますまい。
+[k]
+
+＠呪腕のハサン
+カルデアの[%1][line 3][r]さて、うまく縁が結ばれれば良いのですが……
+[k]
+
+[charaFace C 1]
+＠呪腕のハサン
+私、この通り未熟者ですからなぁ。[r]うまくお役に立てるか、今から心配ですぞ？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 2.0]
+[maskout black 2.0]
+[wait mask]
+
+[charaFadeout C 0.1]
+
+[wipeout circleIn 0 1]
+[wait wipe]
+
+[charaSet E 5009001 1 ダ・ヴィンチ]
+[charaSet F 98003000 1 Dr.ロマン]
+[charaChange A 98001000 0 fade 0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+[wt 1.0]
+
+[scene 10204]
+
+
+[maskin black 0]
+[wait mask]
+
+[bgm BGM_EVENT_6 4.0]
+[wipein circleIn 7.0 1]
+[wait wipe]
+
+[charaFace A 1]
+＠マシュ
+！　先輩も目を覚ましました！[r]全員、無事帰還です！
+[k]
+
+
+？1：ここは……コフィンの外……？
+？2：帰ってこれたのか……
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい、この通り大事なく。[r]さきほど、人理定礎の修復も確認されました。
+[k]
+
+＠マシュ
+第六グランドオーダー、ここに完了です。[r]お疲れさまでした、マスター。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ダ・ヴィンチ
+ああ。本当にお疲れさま。[r]今回は特にハードだった。
+[k]
+
+[charaFace E 4]
+＠ダ・ヴィンチ
+そしてすまないね、[r]この功績に対して、我々は満足な礼も出来ない。
+[k]
+
+＠ダ・ヴィンチ
+いつもの事だけど、特異点で起きた事は[r]その解決と共に無かった事になる。
+[k]
+
+＠ダ・ヴィンチ
+人々の記憶にも、人類史にも残らない。
+[k]
+
+＠ダ・ヴィンチ
+残るのは名誉だけ[line 2]という事にもならないんだ。[r]これは辛い。私も今回、当事者になって実感したよ。
+[k]
+
+
+？1：気にしてないよ
+？2：ダ・ヴィンチちゃんもごめんね
+
+？！
+
+[charaFace E 3]
+＠ダ・ヴィンチ
+……むう。まさか私の方が労われるとは。[r]これは一本とられたかな？
+[k]
+
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。[r]だって先輩もわたしも、もう分かっていますから。
+[k]
+
+＠マシュ
+たとえ消えてしまう世界だとしても、[r]誰も覚えてない歪んだ時代だとしても。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そこで誰かが泣いたり、傷付いたりして……。[r]でも、それでも……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+笑ったり、喜んだり、[r]お腹いっぱい美味しい食事をとった事は……
+[k]
+
+＠マシュ
+わたしたちにとっての真実で、皆さんから頂いた[r]歓びは決してなくならないと思うのです。
+[k]
+
+
+？1：そうそう
+？2：うんうん
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠ダ・ヴィンチ
+ああ、その通りだ。観測ばっかりやっていると、[r]つい記録に[#拘:こだわ]ってしまっていけない。
+[k]
+
+[charaFace E 0]
+＠ダ・ヴィンチ
+たとえ記録にならずとも発生したものはある。[r]それが[#形而上:けいじじょう]のものであったとしても[line 3]
+[k]
+
+＠ダ・ヴィンチ
+無駄ではない。無駄ではないだろう。[r]そういうものを含めて、この宇宙は作られているのだから。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠Dr.ロマン
+ああ。記録に残せないものを作り上げる。[r]それが人間という知性体の、最大の異能なんだよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace F 0]
+[charaFadein A 0.1 2]
+[charaFadein F 0.1 0]
+
+＠マシュ
+ドクター。聖杯の保管はもういいのですか？
+[k]
+
+＠Dr.ロマン
+ああ、たったいま厳重にロックしてきた。[r]これで第六特異点は安全になったよ。
+[k]
+
+＠Dr.ロマン
+今回もご苦労さま、[%1][&君:ちゃん]。[r]これで特異点は残すところあと一つだ。
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace F 5]
+＠Dr.ロマン
+……そして。獅子王からの情報によって、[r]第七特異点の割り出しは完了している。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……！[r]それは一体どこなのですか、ドクター。
+[k]
+
+＠マシュ
+獅子王は魔術王より過去の時代と言いました。[r]つまり、紀元前1011年より過去となりますが……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠Dr.ロマン
+[line 3]紀元前2600年。[r]古代メソポタミアに特異点はある、と観測された。
+[k]
+
+
+？1：ついに古代ウルクに……！
+？2：なら、今すぐにでも！
+
+？！
+
+
+＠Dr.ロマン
+うん。そうしたいのは山々なんだけど、[r]西暦より過去へのレイシフトはあまりにも成功率が低い。
+[k]
+
+＠Dr.ロマン
+今から管制室のスタッフ全員が一丸になっても、[r]紀元前へのレイシフト証明は膨大な時間がかかるだろう。
+[k]
+
+[charaFace F 0]
+＠Dr.ロマン
+急いては事をし損じる、と言うしね。[r]しばらくは第二次臨戦態勢で待機していてほしい。
+[k]
+
+＠Dr.ロマン
+なに、休息も訓練と思えばいいさ。[r]今回は特にハードだったんだ。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]にも、[r]もちろん[#マシュにも]休息は必要だろう？
+[k]
+
+
+？1：それは……そうですね
+？2：……（ロマンに念押しされてしまった……）
+
+？！
+
+
+[charaFace F 0]
+＠Dr.ロマン
+うんうん。そうと決まれば自室に戻って[r]旅の垢を落とした落とした！
+[k]
+
+[charaFace F 5]
+＠Dr.ロマン
+……でも、気は緩めないでくれ。
+[k]
+
+＠Dr.ロマン
+紀元前2600年。[r]それは[#神代:しんだい]と呼ばれる世界のまっただ中だ。
+[k]
+
+＠Dr.ロマン
+第七特異点に待つものはこれまでの比じゃあない。
+[k]
+
+＠Dr.ロマン
+神さまや悪魔、[r]死の国が当然のように実在する世界だからね。
+[k]
+
+＠Dr.ロマン
+そして[line 3]そこはソロモン王ですら[r]見通せなかった“何か”がある。
+[k]
+
+＠Dr.ロマン
+第七特異点には凄まじい怪物、[r]凄まじいまでの人間否定が渦巻いているだろう。
+[k]
+
+＠Dr.ロマン
+それに打ち克つのがキミと、我々の仕事だ。[r]カルデア最後のミッション[line 3]
+[k]
+
+[charaFace F 0]
+＠Dr.ロマン
+どうか、それまで十分に英気を養ってくれ。
+[k]
+
+
+？1：一難去ってまた一難、だね
+？2：たまには良いニュースはないの？
+
+？！
+
+[charaFace F 0]
+＠Dr.ロマン
+ああ。それなら一つ、グッドニュースが。[r]先ほど、召喚可能の霊基一覧に新しい枠が生まれた。
+[k]
+
+＠Dr.ロマン
+もともと英霊としての功績がなかった彼だけど、[r]今回の功績が人理に認められたのか、
+[k]
+
+＠Dr.ロマン
+それとも獅子王の粋な計らいなのか。[r]とにかく、すぐに出逢う事になるだろう。
+[k]
+
+＠Dr.ロマン
+聞いて驚くなよ？[r]その名前は[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_4 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[wt 1.0]
+
+[scene 10310]
+
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+たったった～♪[r]たったった～！
+[k]
+
+
+？1：嬉しそうだね、マシュ
+？2：ご機嫌だね、マシュ
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい、それはもちろん！[r]信頼できる先輩が増えたのですから！
+[k]
+
+[charaFace A 13]
+＠マシュ
+おそらく聖都での事は覚えていない……いえ、[r]経験していらっしゃらないと思います。
+[k]
+
+＠マシュ
+それでも嬉しいのです。[r]あの人が“正しかった”と認められた事が。
+[k]
+
+＠マシュ
+あの人の旅が、[r]無意味なものではなかったと認められた事が。
+[k]
+
+
+？1：……これまでの旅、か……
+？2：……マシュは、これでいい[&のか:の]？
+
+？！
+
+[charaFace A 6]
+＠マシュ
+[FFFFFF]？　先輩との旅について、ですか？[-][r]このまま続けても辛くはないのか、と……？
+[k]
+
+[charaFace A 13]
+＠マシュ
+……はい。もちろん、いつも過酷な旅です。[r]戦いは今でも怖いですし、悲しい事も沢山あります。
+[k]
+
+＠マシュ
+でも、わたしはこうしたいのです。[r]先輩との旅が最大の楽しみなんです。
+[k]
+
+＠マシュ
+以前ドレイクさんに言われた事……[r]三蔵さんが、あの夜に話してくれた事……
+[k]
+
+＠マシュ
+他にもたくさん、色々な出会いがあって、[r]経験があって、自分を認められるわたしになりました。
+[k]
+
+[charaFace A 3]
+＠マシュ
+わたしはデミ・サーヴァントで、[r]まだギャラハッドさんには及ばないと思いますが……
+[k]
+
+[charaFace A 13]
+＠マシュ
+それでも、この旅は楽しいのです。
+[k]
+
+＠マシュ
+これはわたしが望んだこと、[r]わたしのやりたいことですから。
+[k]
+
+
+？1：マシュのやりたいこと……？
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。[r]それは初めから変わっていないみたいです。
+[k]
+
+[charaFace A 1]
+＠マシュ
+わたしは先輩のお役に立ちたくて、[r]デミ・サーヴァントになったのですから！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 4.0]
+[fadeout white 4.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[wt 3.0]
+
+[scene 29600]
+[charaSet F 98099000 1 アグラヴェイン]
+[charaSet G 98094000 1 獅子王]
+
+[bgm BGM_EVENT_22 2.0]
+[fadein white 2.0]
+[wait fade]
+
+＠アグラヴェイン
+はあ……はあ……はあ……
+[k]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠アグラヴェイン
+……獅子王。ご健在、でしょうか。[r]賊軍が[line 3]じき、やってきます。
+[k]
+
+＠アグラヴェイン
+御身にかぎって敗北は有り得ませんが、[r]どうか、細心のご注意を。
+[k]
+
+＠アグラヴェイン
+貴方は……相手の理念を、[r]尊重してしまう癖がありますので。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠獅子王
+アグラヴェイン卿。[r]気遣いは卿にこそ必要ではないのか？
+[k]
+
+＠獅子王
+手足は砕け、胴は裂かれ、片目も失っている。[r]よほどの強敵、いや仇敵と戦ったのか。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠アグラヴェイン
+はは……確かに。[r]最後まで、ふざけた力量の男、でしたが[line 3]
+[k]
+
+＠アグラヴェイン
+今回ばかりは、私の執念に勝たせて戴きました。[r]ああ、[#御印:みしるし]を献上しない事には、ご容赦を。
+[k]
+
+＠アグラヴェイン
+……骸といえど、あの男の首を、[r]貴方に見せる訳にはいきませぬ故。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠獅子王
+そうか。アグラヴェイン卿、こちらへ。[r]玉座に近づく事を許す。
+[k]
+
+＠獅子王
+その傷では気休めにもならないだろうが、手を。[r]いくばくかの痛み止めにはなるぞ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠アグラヴェイン
+……いえ、畏れ多い。[r]それに、私には仕事がまだ、五つばかり残っています。
+[k]
+
+＠アグラヴェイン
+賊軍の排除。侵入者の排除。破壊された聖都の修復。[r]聖抜をうけた市民たちの誘導。
+[k]
+
+＠アグラヴェイン
+そして[line 3]最後にただひとり残される貴方が住まう、[r][#絢爛:けんらん]たる離宮の仕上げ。
+[k]
+
+＠アグラヴェイン
+まだ……やる事が、ありすぎる。[r]ありすぎる、というのに[line 3]
+[k]
+
+[charaShake F 0.05 3 3 0.5]
+[charaEffect F bit_talk_35]
+[se ad46]
+[wt 2.0]
+
+＠アグラヴェイン
+……現実は、ここまでのようだ。
+[k]
+
+＠アグラヴェイン
+今度こそ、貴方に、[r]理想の国を献上する予定、でしたが[line 3]
+[k]
+
+＠アグラヴェイン
+まことに、お恥ずかしい[line 3][r]私の計画は、今回もうまくいかなかった。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠獅子王
+……そうだな。だが罪には問わぬ。
+[k]
+
+＠獅子王
+もう休むがよいアグラヴェイン[r]働き過ぎなのが、貴公の唯一の欠点だった。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaScale F 1.4]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠アグラヴェイン
+まさか[line 3]貴方に比べれば、私など。
+[k]
+
+[messageOff]
+[cameraMove 5.0 0,-50 1.2]
+[wt 2.0]
+
+[fadeout white 5.0]
+[bgmStop BGM_EVENT_22 5.0]
+[wait fade]
+[cameraHome 0]
+[wait camera]
+
+
+[soundStopAll]
+[end]

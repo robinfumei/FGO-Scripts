@@ -1,0 +1,361 @@
+＄94-00-31-12-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98063000 1 間桐雁夜]
+
+[scene 20805]
+
+[fadein black 2.0]
+[wait fade]
+
+[se ad60]
+[wt 1.0]
+[seStop ad60]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠間桐雁夜
+……あんたが、ランサーのマスター？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+その名代として聖杯戦争を請け負った者だ。[r]そちらは間桐雁夜、バーサーカーのマスターだな？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠間桐雁夜
+ああ。[r]約束の条件、本当に守ってくれるんだろうな？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+＠エルメロイ
+無論だ。[r]アーチャーは我々にとっても由々しい難敵。
+[k]
+
+＠エルメロイ
+だが宝具の相性において君のサーヴァントはその仇敵たり[r]うる。対処してくれるというなら願ってもない話だ。
+[k]
+
+[charaFace E 4]
+＠間桐雁夜
+他の邪魔が入らない環境で、[r]遠坂のサーヴァントと一対一……。
+[k]
+
+[charaFace E 0]
+＠間桐雁夜
+そんな条件を[#誂:あつら]えてくれるっていうのか？[r]この森で？
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+正しくはこの森の奧にある洋館で、ね。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+今そこにはアーチャーの他にセイバーとライダーが[r]集合して睨み合っている。
+[k]
+
+[se ad60]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 900,0]
+[charaMove E -900,0 0.5]
+[charaMove A 2 0.5]
+[charaMove D 0 0.5]
+[wait charaMove]
+[charaFadeout E 0.1]
+[seStop ad60]
+
+＠マシュ
+あの、ロード。[r]それでは邪魔どころか乱戦になるのでは？
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+いいや、そうはならない。
+[k]
+
+＠エルメロイ
+この三人は揃いも揃って戦略よりも優先せざるを得ない[r]拘り所があるのでね。王様としての意地、ってやつだ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……はあ。ところでこの森は何なのですか？[r]冬木の市街からだいぶ離れてしまいましたが。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+ここはアインツベルン家が聖杯戦争のために確保した[r]所領だ。当然ながら極めつけの結界でもある。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 2 5 0 2]
+
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠Dr.ロマン
+おいおい、そんな険呑な地所に[r]無断で乗り込んでいこうってのかい？　正面から？
+[k]
+
+＠エルメロイ
+問題ない。警報や防御用のトラップはライダーが根こそぎ[r]破壊した後だ。我々はただ堂々と進むだけでいい。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+穏やかじゃないなぁ。[r]いったい中では何が起こってるんだい？
+[k]
+
+＠エルメロイ
+ああ、聞いて驚くな。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+ただの飲み会なんだよ、これが。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+
+[scene 25300]
+
+[charaFadeout D 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_7 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.4 1]
+＠マシュ
+本当にお酒を飲んでいます、先輩……！
+[k]
+
+＠マシュ
+いえ、それ以前にライダーのあの格好はいったい……[r]あれは、樽？　でしょうか。
+[k]
+
+＠マシュ
+あの長い柄のついたコップみたいなのは一体……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 2 5 0 3]
+
+[charaFadein C 0.1 0]
+
+＠フォウ
+……フォウ。
+[k]
+
+＠Dr.ロマン
+うん、音声だけだと全く状況が掴めないが。[r]ともかく何か惨憺たる有様だってことだけは分かる。
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaSet A 4002001 1 イスカンダル]
+[charaSet B 1001000 1 アルトリア]
+[charaSet C 98062000 1 アイリスフィール]
+[charaSet D 98061000 1 ウェイバー]
+[charaSet E 7002001 1 バーサーカー]
+[charaSet F 2002001 1 ギルガメッシュ]
+[charaSet G 98063000 1 間桐雁夜]
+[charaSet H 98065000 1 エルメロイ]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+＠イスカンダル
+ほう？　こりゃまた珍妙な取り合わせだな。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace C 3]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+＠アルトリア
+あ、あなたたちは……。
+[k]
+
+＠アイリスフィール
+バーサーカーと手を組んだの？　いったいどうして？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ウェイバー
+こ、ここで僕らを襲う気なのか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFace E 0]
+[charaFadein G 0.1 2]
+[charaFadein E 0.1 0]
+
+＠間桐雁夜
+あれが、遠坂時臣のサーヴァント……アーチャーか！
+[k]
+
+＠バーサーカー
+aaaa……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+誰の許しを得て我を見るか、狂犬めが。[r]その不敬、万死に値するぞ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 2]
+[charaFace A 0]
+[charaFadein F 0.1 2]
+[charaFadein A 0.1 0]
+＠イスカンダル
+この宴をぶち壊しに来た、ってことなら、[r]あれは我々全員の敵ではないのか？
+[k]
+
+[charaFace F 5]
+＠ギルガメッシュ
+ならぬ。我が法を犯した賊は我が怒りによって裁定する。[r]英雄王たる我が王威。何者であれ立ち入ることは許さぬぞ。
+[k]
+
+[charaFace A 1]
+＠イスカンダル
+なるほど、貴様が王として敷く法か。[r]それは口を差し挟める筋合いではないな。
+[k]
+
+[charaFace A 0]
+＠イスカンダル
+セイバーとそのマスターに異論はないか？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠アイリスフィール
+余所でやって、と言いたくもなるけれど……こちらに[r]矛先が向かないかぎりは手出しする理由はないわね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠エルメロイ
+良し、これで交戦協定成立だ！[r]バーサーカーの敵対者はアーチャーのみ。
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace H 2]
+＠エルメロイ
+我々は積極的に介入し一気にアーチャーを排除する！[r][%1]、心置きなく采配を！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFace E 2]
+[charaFadein G 0.1 2]
+[charaFadein E 0.1 0]
+＠間桐雁夜
+殺し潰せ！　バーサーカー！
+[k]
+
+＠バーサーカー
+A……uaaaッ！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

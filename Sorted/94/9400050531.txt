@@ -1,0 +1,124 @@
+＄94-00-05-05-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20900]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 7007001 1 ヴラド三世]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+[fadein black 1]
+[wait fade]
+＠ヴラド三世
+うむ、宴は楽しい。[r]あの小娘に付き合った甲斐があったというもの。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+……やはり、あの小娘ですか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠ヴラド三世
+当然だ。全サーヴァントの中で、これほど甘い妄想を[r]臆面なく広げられる者など、そうはおるまい。
+[k]
+
+？1：いえ、けっこういそうですよ？
+
+？2：まあ、けっこういますよね？
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠清姫
+まあ……イヤですわ、マスター。[r]そんなに熱い視線を向けて……照れてしまいます。
+[k]
+
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+いや、ことはそんな甘いもんじゃないぞ。
+[k]
+
+＠Dr.ロマン
+聖杯の力とはいえ、サーヴァントがサーヴァントを[r]召喚するなんて……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠ヴラド三世
+そう強張った顔をするな、異邦の魔術師よ。[r]これは、そう[line 3]我らの方から応えてやったまで。
+[k]
+
+＠ヴラド三世
+アレが手に入れたのは聖杯の小さな切片、[r]時代を焼却可能なほどの力は持ち合わせていない。
+[k]
+
+＠ヴラド三世
+大方、オルレアンの戦いで偶然拾ったものだろう。
+[k]
+
+[charaFace E 0]
+＠ヴラド三世
+あの中ではもっとも無害なサーヴァントに託すなど、[r]やはり神の恩寵であろうが。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+……わたくしにはあの方が[r]無害とは思えませんが[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠ヴラド三世
+あれの発想は幼子よ。
+[k]
+
+＠ヴラド三世
+幼子の他愛もない発想を本気で実行する、[r]実に大人げないサーヴァントだ。
+[k]
+
+＠ヴラド三世
+善悪ではなく、夢や欲望ですらもない。[r]ただ、己が楽しさに耽溺する。
+[k]
+
+[charaFace E 1]
+＠ヴラド三世
+……だが、それこそが良いのだろう。[r]それは我らのようなしがらみのない、純粋な愉悦だ。
+[k]
+
+[charaFace E 0]
+＠ヴラド三世
+余にも経験はある。護国の鬼将と呼ばれる前は[r]ひとりの父だったからな。遠い、昔の話だが。
+[k]
+
+[charaFace E 2]
+＠ヴラド三世
+さあ、悪いが本気で戦わせて貰うぞ。
+[k]
+
+＠ヴラド三世
+歴史に名を刻みし余の串刺し刑。[r]そう温くはないと知れ……！
+[k]
+
+[charaFadeout E 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

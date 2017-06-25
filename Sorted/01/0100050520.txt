@@ -1,0 +1,85 @@
+
+＄01-00-05-05-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 3004001 1 カルナ]
+[charaSet B 5016001 1 ジェロニモ]
+
+[scene 20301]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+＠カルナ
+やはりジェロニモ、おまえか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 5]
+[charaFadein A 0.1 0]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+＠ジェロニモ
+マハーバーラタの大英雄とこんな形で[r]会いたくはなかったが。
+[k]
+
+[charaFace A 4]
+＠カルナ
+オレも、国家に敢然と立ち向かった英傑と[r]こういった形で出会いたくはなかった。
+[k]
+
+[charaFace A 0]
+＠カルナ
+しかし、攻め込まれた以上はこちらも矛を持つ。[r]機械化歩兵に邪魔させはしない。
+[k]
+
+[charaFace A 5]
+＠カルナ
+オレとおまえたちだけで勝負だ。[r][line 2]さあ、戦う準備をしろ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+……聞け、[%1]。[r]どうやら彼は本気で殺し合う訳ではなさそうだ。
+[k]
+
+＠ジェロニモ
+普通なら勝ち目はないが、本気を出さない内に[r]思いっきり吹っ飛ばせば、勝機を見出せるかもしれん。
+[k]
+
+[charaFace B 5]
+＠ジェロニモ
+ヤツはランサーだ。彼に有利なサーヴァントを揃えて、[r]宝具を先にぶちかますぞ。いいな？
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠カルナ
+準備はできたらしいな。[r]では、[charaFace A 2]行くぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,95 @@
+＄91-30-16-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3016001 2 ヘクトール]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+[fadein black 1]
+[wait fade]
+＠ヘクトール
+ふぅ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+＠マシュ
+ゴースト、全滅確認しました。[r]次が最後になります。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 1]
+＠ヘクトール
+おう。最後なんだったら、とびっきり強い奴を[r]用意してくれ。
+[k]
+
+[charaFace D 0]
+＠ヘクトール
+何だったらドラゴンでも構わねぇぜ。
+[k]
+
+＠マシュ
+はあ、でしたら[line 2]エネミータイプ、[r]ドラゴンを召喚します。
+[k]
+
+？1：本気！？
+
+？2：冗談だよね！？
+
+？！
+
+[charaFace A 6]
+＠マシュ
+え、冗談だったんですか？[r]あの、もう召喚開始してしまいました！
+[k]
+
+[se ad14]
+[wt 0.3]
+[se ad7]
+[se ad17]
+[wt 0.2]
+[se ad7]
+[wt 0.2]
+[se ad7]
+[charaFace D 1]
+＠ヘクトール
+あー、いいっていいって。[r]今の俺はマスターを守る責務がある。
+[k]
+
+[seStop ad14 2]
+[charaFace A 12]
+＠ヘクトール
+オジサンはね、[r]籠城戦とか守備戦とか防衛戦とか[line 2]。
+[k]
+
+[charaFace D 0]
+＠ヘクトール
+要するに守ることが必要な戦いじゃ、[r]負けた試しがないんでね。
+[k]
+
+[charaFace D 3]
+＠ヘクトール
+ま、あのアキレウスは別として、だけどな！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠ヘクトール
+さあ、マスター指示を！[r]アンタの盾として、城塞として[line 2]戦ってみせるぜ？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_1 0.4]
+[wait fade]
+[soundStopAll]
+[end]

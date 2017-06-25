@@ -1,0 +1,209 @@
+
+
+＄01-00-08-16-1-0
+
+
+
+
+
+
+[charaSet A 9938800 1 魔神アンドロマリウス]
+[charaSet B 11002001 1 巌窟王]
+[charaSet C 8001002 1 マシュ]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_42 0.1]
+
+[scene 36301]
+
+[fadein black 1.0]
+[wait fade]
+
+[effect bit_talk_kengekiall01]
+[wt 0.2]
+[se bac11]
+[wt 0.2]
+[se bac6]
+[wt 0.2]
+[se bac10]
+[wt 0.7]
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神アンドロマリウス
+滅び去れ。滅び去れ。[r][#欠落:けつらく]を持つものたちよ、[#誘蛾:ゆうが]のように滅び去れ。
+[k]
+
+[charaFadeout A 0.1]
+[seStop ad14 0.2]
+[wt 0.3]
+
+[charaTalk B]
+[charaFace B 2]
+[charaDepth B 2]
+[charaFadein B 0.1 1]
+＠巌窟王
+それは俺の言い分だ魔術王。[r]人に死の[#碑:いしぶみ]を作れと言ってこの顛末か？
+[k]
+
+＠巌窟王
+この余分は何だ。この欠落は何だ。[r]この巨大な救済を何とする！
+[k]
+
+＠巌窟王
+歓びも悲しみも、生も死もここに棄ててしまえばいいと？[r]なるほど確かにそれは救いだ。なんという安らぎだ。
+[k]
+
+＠巌窟王
+無論、俺は願い下げだがな！[r]俺の怒りを侮辱した貴様らを、引き裂きたくてしょうがない！
+[k]
+
+[messageOff]
+
+[voice NP_1100200_2]
+
+[charaFadeout B 0.1]
+[wt 0.7]
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[shake 0.05 7 7 0]
+[flashin loop 0.2 0.1 FFFFFFFF FFFFFF00]
+[wt 0.4]
+[voice NP_1100200_5]
+[wt 1.2]
+[flashOff]
+
+
+[charaTalk A]
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神アンドロマリウス
+オオォォオオオオ…………！[r]これは計画にない[line 3]計画に、ない[line 3]
+[k]
+
+＠魔神アンドロマリウス
+統括局め、浅ましい復讐者を利用するとは……！
+[k]
+
+＠魔神アンドロマリウス
+貴様のただ一度の気まぐれが、[r]このような英霊を我が領域に招いたのだ……！
+[k]
+
+[seStop ad14 0.2]
+[wt 0.3]
+
+[messageOff]
+
+[charaSpecialEffect A enemyErasure]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ba6]
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect A]
+[charaFadeout A 0.1]
+[shakeStop]
+[wt 0.8]
+
+？1：巌窟王……
+？2：協力ありがとう、復讐鬼
+
+？！
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠巌窟王
+……ふん。礼には及ばん。[r]及ばんが、そうだな……
+[k]
+
+＠巌窟王
+見ての通り、戦い尽くめで手が塞がっている。[r]煙草に火を付けてくれ。
+[k]
+
+[messageOff]
+
+[wt 0.4]
+[se ad265]
+[wt 1.0]
+[seStop ad265 0.3]
+[wt 0.3]
+
+
+[charaFace B 0]
+＠巌窟王
+[line 3]上出来だ。[r]少しは大人になったな、[%1]。
+[k]
+
+＠巌窟王
+……さて。そろそろ王手をかけに行け。[r]魔神柱どもは何をしようと尽きる事はない。
+[k]
+
+＠巌窟王
+俺たちがみな死に絶えるまでは[r]なんとか抑え込んでやる。
+[k]
+
+[charaFace B 5]
+＠巌窟王
+馬鹿め、そんな顔をするな。[r]ここにいるのはみな、気ままに戦うはぐれ者ばかりだ。
+[k]
+
+[charaFace B 0]
+＠巌窟王
+好きに戦い、好きに散るさ。[r]おまえが足を止める理由にはならない。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+＠マシュ
+……だ、そうですが……[r]どうしますか、マスター？
+[k]
+
+？1：後は任せた
+？2：巌窟王の分も魔術王にかましてくるよ
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠巌窟王
+ク[line 3]くはははは、それでいいマスター！[r]では行くがいい、胸かきむしる報復の戦いへ！
+[k]
+
+＠巌窟王
+おまえが事を成すのが先か、[r]俺たちが消えるのが先か、楽しみになってきた！
+[k]
+
+＠巌窟王
+無論、俺はおまえに賭けるがな！[r]なにしろあの七日間を生き残った[&男:女]だ！
+[k]
+
+＠巌窟王
+必ずや魔術王に決着をつけるだろう！[r]は、ははは、ははははははははははははははははは！
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_42 2.0]
+[wait fade]
+[soundStopAll]
+[end]

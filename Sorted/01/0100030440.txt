@@ -1,0 +1,47 @@
+＄01-00-03-04-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21510 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 5]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+血はここで途切れてるね。[r]追跡は諦めるしかないか……？
+[k]
+
+[charaFace A 7]
+＠マシュ
+そうでもなさそうです。[r]マスター、退がってください。
+[k]
+
+[se ad60]
+[wt 2]
+[seStop ad60]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 1]
+＠ドレイク
+こいつぁ良かった。ダンジョン巡りもそろそろ[r]退屈していたところだし。
+[k]
+
+[charaFace D 2]
+＠ドレイク
+一休みがてら、銃に火を点けるとするか！[r]さあ、掛かってきな！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

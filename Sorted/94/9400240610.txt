@@ -1,0 +1,673 @@
+＄94-00-24-06-1-0
+
+
+[charaSet B 11002002 1 エドモン・ダンテス]
+[charaSet D 9002001 1 天草四郎]
+[charaSet E 9001001 1 ジャンヌ・ダルク]
+[charaSet H 11002002 1 ダンテス影]
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[scene 22000]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[wt 1.0]
+
+
+[se ad60]
+[wt 2.5]
+[seStop ad60]
+
+＠B：アヴェンジャー
+第六の裁き、第六の支配者[line 3]
+[k]
+
+
+[messageOff]
+[se ad60]
+[wt 1.0]
+[seStop ad60]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+おまえは見るだろう。[r]およそ人間の欲するところに限りなどない、と。
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+彼以上に強欲な生き物をオレは見た事がない。[r]事実、驚嘆に値する。
+[k]
+
+＠B：アヴェンジャー
+富を、金を、私財を腹へ溜め込むためならば[r]実の娘を捧げようとした男さえ、彼には遠く及ぶまい。
+[k]
+
+＠B：アヴェンジャー
+彼の欲は、文字通りに世界へも及ぶのだ。
+[k]
+
+？1：楽しそうに話すね
+
+[charaFace B 5]
+＠B：アヴェンジャー
+……楽しい？　だと？
+[k]
+
+[charaFace B 4]
+＠B：アヴェンジャー
+フン。そう見えるのか、おまえには。[r]ならばオレは余程の悪趣味な精神の持ち主になるな。
+[k]
+
+[charaFace B 0]
+＠B：アヴェンジャー
+はじめに嘆きと涙、つぎに苦悶と苦悩ありき。[r]やがて彼は強欲と称されるべき大願へと辿り着いた。
+[k]
+
+＠B：アヴェンジャー
+成し遂げられる事はなかったが、[r]しかし、それは世界で最も高潔な復讐劇ではあったろう。
+[k]
+
+＠B：アヴェンジャー
+それを指して[line 3]楽しげ[line 3]とはな。
+[k]
+[charaFace B 4]
+だが否定はすまい。オレはおよそ善性のすべてを捨てた。
+[k]
+
+[charaFace B 0]
+＠B：アヴェンジャー
+ならば悪魔の如きものにもなるだろう。[r]ヒトの、尊き願いを嘲る事もあろうというもの。
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+フフ。ははは。面白い！[r]確かにな。おまえの言う通りかもしれん！
+[k]
+
+？2：その彼（？）のこと、気に入ってる？
+
+[charaFace B 5]
+＠B：アヴェンジャー
+フン。そうだな。[r]考えた事もないが、或いはそうかもしれん。
+[k]
+
+[charaFace B 0]
+＠B：アヴェンジャー
+彼は回答を求めた。[r]正しきものが真にこの世にはないのなら、と。
+[k]
+
+＠B：アヴェンジャー
+尊きものを、ヒトの善と幸福とを信じたが故に、[r]悪の[#蔓延:はびこ]る世界を否定したとも言えるか？
+[k]
+
+＠B：アヴェンジャー
+おまえには分かるまい。[r]いいや、それともおまえであれば真に理解が及ぶか。
+[k]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+そう、彼は、この世全てに善を成さんとした男だ。
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+おまえとよく似ているぞ。[r]彼は[#世界を救おうとした]のだから。
+[k]
+
+？！
+
+[charaFace B 0]
+＠B：アヴェンジャー
+何であれ[line 3][r]ある種の敬意さえ抱いているのだ、オレは。
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+その無謀、高潔、強欲！　喝采には相応しかろう！
+[k]
+
+＠B：アヴェンジャー
+故に。故に。[r]この上ない敬意と共に。
+[k]
+
+＠B：アヴェンジャー
+我が黒炎は[#悉:ことごと]く破壊しよう。[r]正しき想い、尊き願いにこそ、オレの炎は燃え上がる。
+[k]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+覚悟せよ、マスター。おまえは……
+[k]
+
+＠B：アヴェンジャー
+世界を呑まんとする強欲をも砕かねばならない。[r]殺せなければ、死ぬだけだ。
+[k]
+
+[charaFace B 4]
+＠B：アヴェンジャー
+有り体に言えば、そう[line 3]
+[k]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+難敵だ。気を抜けば、たちまち死ぬぞ。
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+
+
+[se ad60]
+[wt 1.0]
+[seStop ad60 1.5]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[wt 2.0]
+
+[charaFadeout B 0]
+
+[scene 23000]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad45]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+
+
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ジャンヌ・ダルク
+……来ましたね。アヴェンジャー。
+[k]
+
+＠ジャンヌ・ダルク
+前回は後れを取りましたが、[r]私も決断しました。貴方を倒し、貴方を止める。
+[k]
+
+＠ジャンヌ・ダルク
+それこそが貴方への導きになるのだと[r]信じています、今は。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+違う、違う違う！！
+[k]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+確かにおまえは逃がさぬ、おまえはいずれ殺す！[r]だが今ではない。なんという間の悪さだ、旗の聖女よ！
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+その間の悪さ！[r]カドルッスにも匹敵しようか！
+[k]
+
+？1：なぜそんなにも彼女に怒る[&んだ:の]
+？2：……ジャンヌは苦手？
+
+？！
+
+[charaFace B 5]
+＠B：アヴェンジャー
+オレが！　オレであるからだ！
+[k]
+
+＠B：アヴェンジャー
+憤怒の存在を認めぬのであれば、[r]それはこのオレを否定するにも等しき事！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ジャンヌ・ダルク
+猛り続ける者。アヴェンジャー。[r]憤怒はそう、時にはあなたの言う通り[line 3]
+[k]
+
+[charaFace E 4]
+＠ジャンヌ・ダルク
+容易く消えはしないのでしょうね。[r]私にも理解できます。幾度も目にしました。
+[k]
+
+＠ジャンヌ・ダルク
+怒りは、藁に灯った火が如くして、[r]きっと煌々と燃え盛ってしまう。
+[k]
+
+＠ジャンヌ・ダルク
+怒れる者と、その周囲にある多くのモノが[r]燃え尽きてしまうまで。
+[k]
+
+[charaFace E 5]
+＠ジャンヌ・ダルク
+けれど……憤怒を胸に秘めたとしても……[r]同時に、赦しと救いを想う事だって叶うはずです。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+小癪！　オレに、赦しと救いを説くか！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ジャンヌ・ダルク
+なぜなら[line 3]。[r]あなたも、一度はそれを経験したはずでしょう？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+はは……は……！　ははははははははは！[r]ククッ、ハッ、ははははははははははははははは！！
+[k]
+
+＠B：アヴェンジャー
+[#オレは違う]！
+[k]
+
+
+[se ad42]
+[messageOff]
+[fowardEffect bit_talk_11 1]
+
+[charaFilter H silhouette 00000000]
+[charaTalk H]
+[charaFadein H 1.0 1]
+[wt 1.1]
+[charaFadeout B 0]
+
+[charaFilter B silhouette 00000000]
+[charaTalk B]
+[charaFadein B 0 1]
+[wt 0.1]
+[charaFadeout H 0]
+
+＠B：アヴェンジャー
+[fontSize x-large]我が恩讐を語るな、女！
+[k]
+
+＠B：アヴェンジャー
+我が黒炎は、請われようと救いを求めず！[r]我が怨念は、地上の誰にも赦しを与えず！
+[k]
+
+＠B：アヴェンジャー
+“虎よ、煌々と燃え盛れ。[r]　汝が赴くは恩讐の彼方なれば”
+[k]
+
+＠B：アヴェンジャー
+オレは[#巌窟王:モンテ・クリスト]！[r]人類史に刻まれた悪鬼の陰影、永久の復讐者である！
+[k]
+
+[fowardEffectStop bit_talk_11]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_3 0.1]
+[se ba1]
+
+[charaFadeout B 0.2]
+[scene 10420 0.2]
+
+[wait scene]
+[bgm BGM_EVENT_2 0.1]
+
+
+[wt 2.0]
+
+＠ジャンヌ・ダルク
+彼こそはシャトー・ディフの復讐鬼。[r]パリへと舞い降り、数々の復讐を為した人物……
+[k]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ジャンヌ・ダルク
+真名を、エドモン・ダンテス。
+[k]
+
+＠ジャンヌ・ダルク
+血の復讐に[#耽:ふけ]りながら、彼は自らをこう名乗りました。[r]モンテ・クリスト[line 3]
+[k]
+
+＠ジャンヌ・ダルク
+自らに希望を与えた神父より授かった[#救世主の山:モンテ・クリスト]、[r]財宝の城と、ソレは同じ名ではあるのでしょう。
+[k]
+
+[charaFace E 4]
+＠ジャンヌ・ダルク
+けれど……[r]彼の行いは絶望を[#撒:ま]き散らすものだった。
+[k]
+
+[charaFace E 5]
+＠ジャンヌ・ダルク
+恩讐の彼方に在って怨念は消えず、煌々と燃え盛る。
+[k]
+
+＠ジャンヌ・ダルク
+モンテ・クリスト。[r]それは、復讐のためだけに生み出された、悪魔の名。
+[k]
+
+[wt 1.0]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 0.1]
+[se ba1]
+
+[charaFadeout E 0.2]
+[scene 23000 0.2]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.2 1]
+[fowardEffect bit_talk_11 1]
+[wait scene]
+[bgm BGM_EVENT_3 0.1]
+
+
+
+＠B：アヴェンジャー
+理解した。承知した。旗の聖女！[r]おまえの性質は、どうあってもオレとは相容れぬ！
+[k]
+
+＠B：アヴェンジャー
+ならば此処で殺してくれる！[r]望むがままに与えよう、我が怨念の何たるか！
+[k]
+
+[fowardEffectStop bit_talk_11]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠ジャンヌ・ダルク
+…………！
+[k]
+
+＠D：？？？
+言葉だけでは届かぬ想いもある。[r]聖女よ。あなたも、よく知っている筈ですが。
+[k]
+
+[charaFace E 4]
+＠ジャンヌ・ダルク
+……分かっています、分かっているのです。[r]けれど、私はどうしても諦めきれない。
+[k]
+
+＠D：？？？
+[line 3]だからこそ、[r]主は今もあなたを愛し続けるのでしょうね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[fowardEffect bit_talk_11 1]
+
+＠B：アヴェンジャー
+[line 3]おお。待ちかねたぞ、もう一人の[#裁定者:ルーラー]。[r]強欲の具現たるモノ。
+[k]
+
+
+[messageOff]
+[charaFilter H silhouette 00000000]
+[charaTalk H]
+[charaFadein H 0 1]
+[wt 0.1]
+[charaFadeout B 0]
+
+[se ad42]
+[fowardEffectStop bit_talk_11]
+[charaFilter B normal FFFFFF00]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 1.0 1]
+[wt 1.1]
+[charaFadeout H 0]
+
+＠B：アヴェンジャー
+なるほど、見事な考えではあるだろう。[r][#例外:エクストラ]には[#例外:エクストラ]を以てあたるか。
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+復讐者一匹に対して二人の裁定者が相手とは。[r]面白い。嗚呼、実に、面白い。
+[k]
+
+＠B：アヴェンジャー
+サーヴァント・ルーラー！[r][#天草四郎時貞:アマクサシロウトキサダ]！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠天草四郎
+[line 3]はじめまして、アヴェンジャー。
+[k]
+
+＠天草四郎
+斯様な場所でなければ、[r]違うカタチで出会う可能性もあったでしょうが。
+[k]
+
+＠天草四郎
+復讐のクリストを名乗る貴方には、[r]最早、祈りも言葉も届かないのでしょう。
+[k]
+
+＠天草四郎
+だが、一方で私は貴方を信じてもいます。[r]これ以上ないほどに。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+ンン……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠天草四郎
+この世の地獄を知る者ならば、[r]真に尊きモノが何であるかも同時に知った筈。
+[k]
+
+＠天草四郎
+魔術王の策謀にも貴方は乗らなかった。ならば……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+[line 3]黙れ。
+[k]
+
+[charaFace B 4]
+＠B：アヴェンジャー
+アレは怨念を持たぬ者だ。[r]恩讐の外に在る存在と馴れ合う道理はない。
+[k]
+
+[charaFace B 5]
+＠B：アヴェンジャー
+勘違いされては困るな、天草四郎。[r]オレは[#世界を救う]手伝いなぞをした覚えはないぞ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠天草四郎
+……確かに、そうでしょう。
+[k]
+
+＠天草四郎
+やれやれ。[r]荒事は苦手ですが、これも導きと信じる他ない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFace E 0]
+[charaFace D 1]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+＠天草四郎
+ジャンヌ・ダルク。力をお借りします。[r]イフ城に配置された者ではなく、同じルーラーとして。
+[k]
+
+[charaFace E 1]
+＠ジャンヌ・ダルク
+[line 3]ええ。天草四郎時貞。
+[k]
+
+[charaFace D 0]
+＠天草四郎
+ありがとう。
+[k]
+[charaFace D 4]
+……些か複雑な気持ちだったりは、しますか？
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・ダルク
+遠い彼方の記録は、今は置いておきましょう。[r]私は彼を救いたい、貴方も彼を救いたい。
+[k]
+
+[charaFace E 1]
+＠ジャンヌ・ダルク
+ならば共に戦うべきでしょうし、[r]共闘するなら、貴方ほど心強い相手もそうはいません。
+[k]
+
+？1：ダブルルーラーが相手！？
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+あちらは二つ、こちらは一つか！[r]そう捉えるならば確かに幾らか劣勢ではあるか！
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+いいや。いいや違うぞマスター！[r]オレにはおまえと、おまえの[#僕:しもべ]が在る！
+[k]
+
+＠B：アヴェンジャー
+此処はシャトー・ディフ！[r]主の威光届かぬ奥底なれば[#依怙贔屓:えこひいき]もなかろうよ！ 
+[k]
+
+？2：……まるで、こっちが悪いみたい[&だ:だよ]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+はははははははははははは！！[r]面白い冗談だ、これ以上の皮肉はないなマスター！
+[k]
+
+？！
+
+[charaFace B 2]
+＠B：アヴェンジャー
+過去、主の救いなどないと知ったオレが！[r]現在、主の救いを体現せんとするおまえたちを殺す！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace E 5]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+＠天草四郎
+さて。それはどうでしょうね[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠B：アヴェンジャー
+さあ、征くぞマスター。[r]おまえとオレは最早、一心同体だ。
+[k]
+
+＠B：アヴェンジャー
+あらゆる救いを断たれたシャトー・ディフに於いて、[r]しかして希望し、生還を真に望むモノは！
+[k]
+
+[charaFace B 1]
+＠B：アヴェンジャー
+[#導かれねばならない]のだよ！
+[k]
+
+＠B：アヴェンジャー
+おまえを！　導けるのは、このオレだけだ！
+[k]
+
+？1：……必ずカルデアへ戻る！
+？2：何を、今さら！
+
+？！
+
+[charaFace B 2]
+＠B：アヴェンジャー
+はははははははははははは！[r]そうだ、そうだ、おまえもまた虎の如く吼えるのだ！
+[k]
+
+＠B：アヴェンジャー
+[line 3]殺し、奪い、己がすべてを取り戻せ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

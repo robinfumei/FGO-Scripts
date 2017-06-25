@@ -1,0 +1,776 @@
+＄94-00-64-24-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5028001 1 イリヤ]
+[charaSet C 98103600 1 ルビー]
+[charaSet E 98103200 1 サファイア]
+[charaSet F 98104000 1 クーちゃん]
+[charaSet G 5023000 1 エレナ]
+[charaSet H 4013001 1 メイヴ]
+
+[backEffect bit_talk_diremond_dust]
+[scene 20432]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠エレナ
+……あたしはここに残るわ。
+[k]
+
+[charaFace G 5]
+＠エレナ
+こちらの襲来を予期している以上、[r][#彼女:メイヴ]は万全の態勢で待ち構えているでしょう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+………………エレナさん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠エレナ
+メイヴを相手にして[r]和解や妥協はあり得ないわ。
+[k]
+
+＠エレナ
+メイヴかあなたたち、[r]どちらかが倒れるでしょう。
+[k]
+
+[charaFace G 4]
+＠エレナ
+あたしはもう……本当は……[r]魔法少女が倒れるところを見たくはないの。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……わかりました！
+[k]
+
+[charaFace B 0]
+＠イリヤ
+[%1][&お兄さん:お姉さん]も、[r]それでいいですよね？
+[k]
+
+
+？1：ああ[line 3]案内ありがとう、エレナ
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace B 0]
+[charaFace G 5]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠エレナ
+待って、イリヤ。[r]あたしの宝石を持って行きなさい。
+[k]
+
+[charaFace G 0]
+＠エレナ
+本来の所有者はもう、あなたなのだから。[r]必要なければ、また持ち帰りなさい。
+[k]
+
+[charaFace G 4]
+＠エレナ
+水先案内人の真似事はしたけれど、[r]これでも……ね、
+[k]
+
+[charaFace G 0]
+＠エレナ
+あたしはこれでも、友達想いなの。
+[k]
+
+[charaFace B 1]
+＠イリヤ
+うん。知ってますよ？
+[k]
+
+[charaFace G 3]
+
+＠エレナ
+…………っ……。
+[k]
+
+
+[backEffectStop bit_talk_diremond_dust]
+[wt 0.5]
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[wipeout rightToLeft 1.5 1]
+[wait wipe]
+
+[charaFadeout B 0]
+[charaFadeout G 0]
+
+[scene 20901]
+[wt 1.0]
+[bgm BGM_EVENT_5 1.5]
+[wipein leftToRight 1.5 1]
+[wait wipe]
+
+[se ad95]
+[charaTalk H]
+[charaFace H 14]
+[charaFace F 0]
+[charaFadein H 0.4 2]
+[charaFadein F 0.4 0]
+[wt 0.5]
+[seStop ad95]
+
+＠メイヴ
+ふふふふ、待っていたわ、イリヤ[line 3]。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+それにカルデアのマスターとサーヴァント。[r]そうよね？
+[k]
+
+＠クーちゃん
+………………。
+[k]
+
+[charaFace H 7]
+＠メイヴ
+ほんの一瞬だけど、貴方たちの世界を[r][#覗:のぞ]かせてもらったわ。送り込んだ使い魔を通してね。
+[k]
+
+[charaFace H 6]
+＠メイヴ
+つうまらない、つうまらない、[r]本当にくうだらなーい世界ね？
+[k]
+
+[charaFace H 13]
+＠メイヴ
+そんな世界は、さっさと[#見限:みかぎ]って[r]この私につきなさい？
+[k]
+
+[charaFace H 6]
+＠メイヴ
+それとも貴方たちまで救いようのない愚か者なの？[r]自分に酔いながら死にたいわけ？
+[k]
+
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………っ……！
+[k]
+
+？1：[line 3]マシュ、抑えて
+
+[charaFace A 14]
+＠マシュ
+ですが……っ……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 13]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+うふふ、あいかわらずの発情仔犬っぷりね。[r]カルデアのデミ・サーヴァントさん。
+[k]
+
+
+？2：自分はともかく、カルデアの[&仲間:仲間たち]は違[&う:うよ]！
+
+
+[charaFace A 5]
+＠マシュ
+……っ……そうです！
+[k]
+
+[charaFace A 7]
+＠マシュ
+確かにマスター・[%1]は時にうっかり[r]命を落としかねないほどのポジティブさですが！
+[k]
+
+[charaFace A 14]
+＠マシュ
+あ、えっと、そこではなく！
+[k]
+
+[charaFace A 2]
+＠マシュ
+わたしたちの[#使命:オーダー]は[r]自己陶酔の道具などではありません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+それこそ貴方たちの思い上がり。[r]自分だけが世界を救えるという独占欲。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+せめてもの抵抗をしたという言い訳が欲しいだけ。[r]自分の運命を支配することもなく[line 3]
+[k]
+
+？！
+
+[charaFace H 14]
+＠メイヴ
+いいわ。貴方たちは所詮、偽物の魔法少女。[r]私の軍団にはふさわしくない。
+[k]
+
+[charaFace H 6]
+＠メイヴ
+心の底から欲しいのは[line 3]イリヤ、貴女よ！[r]この私の軍門にくだる決心はついた？
+[k]
+
+[charaFace H 9]
+＠メイヴ
+その連中はきっと[r]貴女の世界も[#狡猾:こうかつ]に狙っているわよ？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+メイヴさん…………ううん。[r]あ[charaFace B 2]なたと一緒にしないで！　メイヴ！
+[k]
+
+＠イリヤ
+[%1][&お兄さん:お姉さん]も、[r]そんな事は絶対しないんだから！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 9]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+それはどうかしら？
+[k]
+
+[charaFace H 14]
+＠メイヴ
+彼らはずっと貴女の利用価値を[r]値踏みしていたのだと思うけれど。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+…………うう～っ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 14]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+……ふふっ……。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+貴女は友達を救いたいんでしょう？[r]名前は美遊といったわね。
+[k]
+
+[charaFace H 14]
+＠メイヴ
+いいわ、それなら私も協力してあげる。
+[k]
+
+[charaFace H 6]
+＠メイヴ
+ただしイリヤ[line 3]貴女も、美遊も、私の軍団に[r]加わってもらう。カルデアの連中は奴隷にするわ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace H 6]
+[charaFace F 3]
+[charaFadein H 0.1 2]
+[charaFadein F 0.1 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+……寄り道で欲張るのはいいけどな。[r]肝心の本命で欲張るな、メイヴ。
+[k]
+
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+連中は殺しておけ。あれは奴隷にはならねぇ。[r]ああ見えて、中身はスパルタクスとどっこいだ。
+[k]
+
+[charaFace H 11]
+＠メイヴ
+ああん、クーちゃんたら。[r]ミニサイズになってもクールに残虐なのね……♡
+[k]
+
+[charaFace H 14]
+＠メイヴ
+でも、その忠告は聞けないわ。[r]私は女王だもの。生かすも殺すも私次第よ？
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……メイヴ、そういうあなたは[r]ファースト・レディに従っているの？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……イリヤさん……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 12]
+[charaFadein H 0.1 1]
+
+
+＠メイヴ
+……へーえ。どうしてそう考えたのか興味があるわね。[r]ますます欲しくなったわ。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+ええ、その通り。そのつもりだった。[r][line 3]でも、もう違うわ。
+[k]
+
+[charaFace H 14]
+＠メイヴ
+[#彼女:レディ]の夢は、私の望み。[r]彼女の痛みは、私の苦しみ。
+[k]
+
+＠メイヴ
+[line 3]ファースト・レディ。[r]この世界に墜ちた最初の一人。最初の呪い。
+[k]
+
+[charaFace H 11]
+＠メイヴ
+混沌の世界に光を示し、みちびいてくれた黒き女王。[r]けれど自分の城から動けない。世界の外にも出られない。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+ずっと一人ぼっちで。[r]かわいそうな黒の女王。
+[k]
+
+[charaFace H 6]
+＠メイヴ
+でも、もうそんな敬意も[#憐:あわ]れみも無い！[r]私は反抗の角笛を吹き鳴らしたのよ！
+[k]
+
+
+？1：レディの望みを見抜きながら……それを奪った？
+？！
+
+[charaFace H 12]
+
+＠メイヴ
+そうよ！　私は彼女の願いを早めただけ。
+[k]
+
+[charaFace H 13]
+＠メイヴ
+その結果をご覧なさい？　もうこの世界に、[r]魔法少女は数えるほどしか残っていない。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+そんなことが……ファースト・レディの望みなの？[r]絶対おかしいよ！
+[k]
+
+[charaFace B 2]
+＠イリヤ
+それに賛同してやりかたを真似るメイヴ、あなたも！[r]そんなの狂ってる！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+…………ふふふ。
+[k]
+
+[charaFace H 14]
+＠メイヴ
+抵抗するのね。それもいいわ、とてもいい。[r]力で屈服させるほうが早いもの！
+[k]
+
+[charaFace H 6]
+＠メイヴ
+ファースト・レディに取られる前に、[r]私が貴女を奪うんだから！
+[k]
+
+
+？1：メイヴ、[&きみ:あなた]は狂ってなんかいない
+？！
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……っ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 12]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+………………。
+[k]
+
+
+？1：エレナの言った[&通りだ:通り]。必死に絶望と戦って[&いる:る]
+？！
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………では、狂ってしまったのは世界のほうだと？[r]そうおっしゃるんですか、マスター？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+
+＠メイヴ
+ハッ、[r]そんなの独り善がりの戯れ言ね！
+[k]
+
+[charaFace H 13]
+＠メイヴ
+それとも、ここに来て[r]みっともない命乞いなの？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……[&お兄さん:お姉さん]は……こんな勝手で迷惑な人を、[r]許してあげようとしている？
+[k]
+
+[charaFace B 5]
+＠イリヤ
+ミユをさらったのは、メイヴじゃなかった[line 3]でも、[r]その[charaFace B 2]きっかけを作って、襲ってきたのはこの人だよ？
+[k]
+
+＠イリヤ
+[&お兄さん:お姉さん]たちの、カルデアにだって[r]この人は侵略しようとしてるのに？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠メイヴ
+…………ふふ、ふふふ、[r]う[charaFace H 2]るさい。耳障りよ、だまりなさい！
+[k]
+
+
+？1：メイヴは悪くない。悪いのはファースト・レディ[&だ:だよ]
+？！
+
+[charaFace H 2]
+＠メイヴ
+喋るな。私を見るな。触れるな！[r]息もしないで！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター……[r]…[charaFace A 6]………ハッ！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[voice NP_702000_1]
+[charaEffect F bit_talk_06b2]
+[wt 1.5]
+[voiceStop NP_702000_1 1.0]
+[se bas1]
+[charaEffectStop F bit_talk_06b2]
+[wt 1.0]
+[charaFadeout F 0.1]
+[charaPut F 1200,1200]
+
+
+[charaTalk off]
+[charaFace A 2]
+[charaFadein A 0.1 1200,0]
+
+[charaFace B 2]
+[charaFadein B 0.1 -1200,0]
+
+[charaMove A 2 0.2]
+[charaMove B 0 0.2]
+[wait charaMove]
+
+[se ad32]
+[effect bit_talk_14]
+[charaShake A 0.05 3 3 0.5]
+[charaShake B 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk on]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+……ふぅ。[r]女の化粧をはがすなんざぁ、趣味が悪いぜ、おたくら。
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+メイヴもカッカすんな。ここは雪華の国だろ？[r]その女王が熱くなってちゃ笑い話にもならねえ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 11]
+[charaFace F 0]
+[charaFadein H 0.1 2]
+[charaFadein F 0.1 0]
+
+＠メイヴ
+クーちゃん……なんて的確な煽り説教なの……！
+[k]
+
+[charaFace H 10]
+＠メイヴ
+でもね、それはそれ、これはこれ！[r]クーちゃんたら、勝手に魔法を使ったわね！
+[k]
+
+＠メイヴ
+私のお城が壊れるじゃない！[r]あとクーちゃんが疲れちゃうじゃない！
+[k]
+
+[charaFace F 3]
+[charaShake F 0.07 0 16 1.0]
+＠クーちゃん
+うるせえ、チーカマぶつけんぞ。
+[k]
+
+[charaFace H 3]
+＠メイヴ
+ああん、殺してクーちゃん！[r]愛してるぅ！
+[k]
+
+[charaFace F 0]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+おうおう、この厄介事が終わったらな。[r]それまでご褒美はお預けだ。
+[k]
+
+[charaFace H 1]
+＠メイヴ
+やった[line 3]！　よし、あいつを殺すわ！[r]最初に殺すわ！　まさに愛の前菜ね！
+[k]
+
+[charaFace F 2]
+[charaShake F 0.07 0 8 1.0]
+＠クーちゃん
+前菜だあ……？　まあいいか。[r]マナーはどうでもいい。さっさと済ませろ。
+[k]
+
+？1：[&ごめん:ごめんね]イリヤ。結局、挑発してしまった
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ぜんぜん、反省してる顔じゃないし！[r][line 3][charaFace B 2]でも、やるしか無い！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+
+？2：あの二人っていいパートナーだよね
+
+
+[charaPut B 1200,1200]
+[charaChange B 98102500 5 fade 0]
+[wt 0.1]
+[charaFadeout B 0]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+まるでわたしとイリヤさんの[r]運命的タッグのようですね～！☆
+[k]
+
+[charaFace B 3]
+＠イリヤ
+どっちかっていうと[r]漫才コンビが近いんですけどー。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+
+＠マシュ
+わたしとマスターだって全然負けては……[r]……[charaFace A 6]わっ……！
+[k]
+
+？！
+
+[charaFace A 5]
+＠マシュ
+[line 3]攻撃、来ます！[r]力添えをお願いします、サファイアさん！
+[k]
+
+[charaTalk E]
+[charaFace A 5]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+[charaShake E 0.07 0 16 1.0]
+＠サファイア
+[#畏:かしこ]まりました。[r]美遊様のぶんまで！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+ルビーちゃんだって負けませんよー？
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,96 @@
+
+
+
+＄01-00-07-05-3-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 3027000 1 アナ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 3028001 1 ジャガーマン]
+
+
+[scene 30400]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+
+
+＠ジャガーマン
+よし、だいたい分かった！[r]オマエたちウマソウダナ！
+[k]
+
+[messageOff]
+[se ad73]
+[charaMoveReturn E 0,-20 0.1]
+[wait charaMove E]
+[charaMove E 0,50 0.05]
+[wait charaMove E]
+[charaFadeout E 0.1]
+[wt 0.1]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+[bgmStop BGM_EVENT_3 0.3]
+[se ad221]
+[seStop ad221 0.7]
+[wt 0.4]
+[wipein upToDown 0.3 1]
+[wait wipe]
+[wt 0.4]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+[bgm BGM_EVENT_5 0.1]
+
+
+＠マシュ
+なんてスピード……！[r]一瞬で樹海の上まで跳躍して、撤退しました！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠アナ
+……追いかけるのは難しいです。[r]能力的にも、精神的にも。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+同感だ。ふざけた格好をしていたけど、[r]あれはあれでとんでもないサーヴァントだった。
+[k]
+
+＠マーリン
+また襲われたらちょっと勝ち目が見えない。[r]その前にウル市まで移動して対策を練ろう。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_5 1.4]
+[fadeout black 1.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

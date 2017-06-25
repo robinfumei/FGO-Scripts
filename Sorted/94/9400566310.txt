@@ -1,0 +1,737 @@
+
+＄94-00-56-63-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98002000 1 フォウ]
+[charaSet B 2025200 1 アン]
+[charaSet C 2025100 1 メアリー]
+[charaSet D 98100400 1 マシュ]
+[charaSet E 4008001 1 黒髭]
+
+[se ad14]
+[shake 0.05 0 4 0]
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+
+＠フォウ
+フォウー！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+
+＠マシュ
+これは……大きいです！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFace B 5]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠メアリー
+…………！
+[k]
+
+＠アン
+まあ、これは……まあまあ！　どうしましょう？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[wt 0.5]
+[charaFadein B 0.1 -1200,0]
+[charaMove B 1 0.5]
+[wait charaMove]
+[se ad111]
+[charaMove B 1200,0 0.5]
+[charaMove A 1200,0 0.5]
+
+＠フォウ
+フォッ、ムギュー？
+[k]
+
+[wait charaMove]
+
+[bgmStop BGM_EVENT_3 0.5]
+[shakeStop]
+[seStop ad14 0.5]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_28 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠マシュ
+や、やっと収まりましたね。[r]今のはかなり大きかったです。かつてないほど……。
+[k]
+
+？1：アン、大丈夫？
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠アン
+……ぜ、全然平気ですけど？
+[k]
+
+
+？2：メアリー、大丈夫？
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠メアリー
+……問題ない。まったく。完璧に。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+でも……メアリーさんは、[r]カトラスを木に突き立ててしがみついて。
+[k]
+
+[charaFace D 8]
+＠マシュ
+アンさんは、フォウさんが窒息死しそうなほど[r]そのお胸にぎゅっと抱きしめていらっしゃいますが……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFace B 3]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠メアリー
+て、転覆するかと思って。つい。
+[k]
+
+＠アン
+船の上の揺れなら、いくらでも慣れておりますけども。[r]陸で揺れるとは、なんというか、理不尽で……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+大半を海で過ごした大海賊だからこそ、陸の地震には[r]不慣れということでしょうか。なるほど……。
+[k]
+
+[bgmStop BGM_EVENT_28 0.1]
+[se ad14]
+[shake 0.05 0 4 0]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 14]
+＠マシュ
+っと、またです！　大きな余震！
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFace B 5]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠メアリー
+総員、何かに掴まれー！
+[k]
+
+[charaFace B 1]
+＠アン
+……（ぴーん）
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠アン
+キャー！　地震コワイです、マスター！　キャー！
+[k]
+
+[se ad111]
+
+？1：ムギュッ！
+？2：息が……できぬ……
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+
+＠マシュ
+…………！
+[k]
+
+[bgmStop BGM_EVENT_3 0.5]
+
+[shakeStop]
+[seStop ad14 0.5]
+
+[bgm BGM_EVENT_28 0.1]
+
+[charaFace D 11]
+＠マシュ
+今度はフォウさんではなく、マスターの頭を……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アン
+あらあらすみませんマスター。[r]地震が怖くて、どうにも……。
+[k]
+
+？1：今、ぴーん、って顔しませんでした？
+？！
+
+[charaFace B 1]
+＠アン
+なんのことでしょう、うふふ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠マシュ
+メアリーさんは……[r]今度はフォウさんの脚を掴んで地面に伏せ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠メアリー
+……ボクは平気だけど？　これはフォウがパニック[r]になって逃げ出すのを防いだだけさ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+メアリーさんはともかく、アンさんは本当に地震が苦手[r]なのか怪しくなってきた頃合いですが[line 3]
+[k]
+
+[charaFace D 7]
+＠マシュ
+何にしても、今の地震は大きいものでした。[r]何か被害や変化がないか調べてみましょう、マスター。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout D 0.1]
+
+[scene 30400]
+
+[wt 0.5]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠メアリー
+さっきの地震で、地割れができたんだって？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+はい、ここです。大きく斜めに割れています。[r]しかも[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠アン
+地面の奥深くまで続いていますわね？
+[k]
+
+＠アン
+どうやらこの先で別の空洞……[r]洞窟に繋がっているようですわ。
+[k]
+
+？1：新しい洞窟か……ワクワクするね
+？2：探索開始だ！
+？！
+
+＠メアリー
+うん、洞窟と言えばお宝だ。
+[k]
+
+[charaFace B 1]
+＠アン
+見逃す手はありませんわね！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠マシュ
+え、あの、今すぐ行くんですか？[r]もう少し準備してからのほうが[line 3]
+[k]
+
+[charaFace D 14]
+＠マシュ
+って、もう入っていってしまいました！
+[k]
+
+[charaFace D 8]
+＠マシュ
+さすが海賊、決断が早いです……仕方ありません、[r]わたしたちも行きましょう、マスター。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_28 1.0]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout D 0.1]
+
+[scene 20110]
+
+
+[wt 0.5]
+[bgm BGM_EVENT_5 1.0]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+[se ad118]
+[wt 1.5]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFadein A 0.1 0]
+
+＠メアリー
+うん、いい感じだ。洞窟は長ければ長いほどいい。[r]お宝の気配が高まる。
+[k]
+
+＠フォウ
+フォウー？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠マシュ
+ほとんど一本道なので、迷う心配もなさそうですしね。[r]問題は[line 3]
+[k]
+
+[se ad14]
+[shake 0.05 0 4 0]
+
+[charaFace D 7]
+＠マシュ
+っと、まだ軽い地震が続いていることですね。[r]この洞窟が崩れることはないと思いますが[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アン
+きゃー。こわーい。（ぎゅっ）
+[k]
+
+[se ad111]
+[shakeStop]
+[seStop ad14 0.5]
+
+？1：ふがふが……
+？2：ホントに怖がってる……？
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠メアリー
+アンが味を占めた……[r]合法的にマスターの頭を抱きしめられることに……。
+[k]
+
+[charaFace C 0]
+＠メアリー
+いつになく積極的だなあ、アン……。
+[k]
+
+＠メアリー
+ボクもマスターの隣にいようかな。ボクは逆に、[r]マスターがよろめいたときに抱きつかれるのを狙って……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[wt 1.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠マシュ
+かなり奥まで進んできました。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠アン
+地震の頻度も、なんだかまた多くなってきましたわねぇ。
+[k]
+
+＠メアリー
+うんうん。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+
+＠マシュ
+（もう離れるのが面倒臭いとばかりに、ずっとマスターに[r]　ひっつきっぱなしなのですが……二人とも……）
+[k]
+
+[se ad14]
+[shake 0.05 0 4 0]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[shakeStop]
+[seStop ad14 0.5]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠メアリー
+見てよマスター、広い空間がありそうだ！
+[k]
+
+＠アン
+ついにゴールでしょうか？[r]うふふ、いったいどんなお宝が[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaFadeTime E 0 0.65]
+
+＠黒髭
+いらっしゃいませーイ！（怒）
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠マシュ
+く……黒髭さん！？[r]消滅したはずでは！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠メアリー
+本物じゃない。意地汚くしがみついた[#怨念:ゴースト]、だね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaFadeTime E 0 0.65]
+
+＠黒髭
+なんなの……キミたち、バカなの死ぬの？[r]バカなの、死んじゃうのー！？
+[k]
+
+[bgmStop BGM_EVENT_7 0.1]
+[se ad14]
+[shake 0.05 0 4 0]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠マシュ
+これは。この地震は、まさか、この黒髭さんが[line 3]？
+[k]
+
+[charaFadeout D 0.1]
+
+[seStop ad14 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[charaFadeTime E 0 0.65]
+
+＠黒髭
+まーったく、ふざけるんじゃねーですぞゴルァ！[r]拙者、怒り心頭にござる！
+[k]
+
+？1：出番が……
+？2：すぐ退場させられて……
+？！
+
+
+[charaFace E 5]
+＠黒髭
+違う！　違う違う、チガーウ！[r]まあ間接的にはそれも関係大アリでござるが！
+[k]
+
+[charaFace E 4]
+＠黒髭
+ああもうホントに、ウラメシイ……[r]というか、ネタマシイ……！
+[k]
+
+[charaFace E 2]
+＠黒髭
+拙者も、この無人島で……[r]キャッキャウフフアモーレミーオしたかった……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+
+＠マシュ
+やっぱり……そういう……。
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アン
+まあ断末魔もそうでしたし。[r]コイツの無念なんてその程度ですわ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[charaFadeTime E 0 0.65]
+
+＠黒髭
+その程度だぁ！？　特にこの洞窟に入ってからァ！[r]見ていたのでござるぞ、見ていたのでござるぞ！
+[k]
+
+＠黒髭
+何ですかあの典型的ラッキースケベ展開は！[r]ちょっと揺れた程度でパフパフと！　
+[k]
+
+[charaFace E 0]
+＠黒髭
+あ、これ、別に意味かけてないでござるぞ！？[r]揺れない子もいらっしゃったからネ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠メアリー
+殺そう。早く。ナウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[charaFadeTime E 0 0.65]
+
+＠黒髭
+だがそれがいいという拙者の愛も届かナーイ！[r]哀しい、黒髭、ホント哀しい……。
+[k]
+
+[charaFace E 2]
+＠黒髭
+だから殺すしかないネ！　怨念だから許される。
+[k]
+
+＠黒髭
+おまえたちはここで永久に、[r]拙者と[#ＫＫＵＡＭ:キャッキャッウフフアモーレミオ]するのだ！
+[k]
+
+[charaFace E 0]
+＠黒髭
+あと[line 3]やっぱりよく考えたら、[r]あの１タッチ契約はまだ未履行でござる！
+[k]
+
+[charaFace E 3]
+＠黒髭
+デュフフフ……メアリーたん、首を洗って、否、[r]脇とかヘソとか洗って待っててくだちい！
+[k]
+
+[charaFace E 5]
+＠黒髭
+あ。違うな。そりゃあ違うぜ黒髭。[r]オレ様ともあろうものが幽霊になって[#耄碌:もうろく]したかあ？
+[k]
+
+[charaFace E 1]
+＠黒髭
+前言撤回。別に洗わなくても良いですぞ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠メアリー
+もうやだコイツ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠マシュ
+やはり[line 3]この島の平和のためには、[r]この怨念を倒すしかないようです！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,1413 @@
+＄94-00-61-61-1-0
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 98100800 1 うりぼう]
+[charaSet D 98101000 1 うりぼう]
+[charaSet E 98101200 1 うりぼう]
+[charaSet F 98002000 1 フォウ]
+
+[scene 30700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+マスター、うりぼうたちが近くで洞窟を[r]見かけたそうです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠C：うりぼう
+発見、採掘、ぼ・く・の島♪[r]でありますな。
+[k]
+
+＠D：うりぼう
+皆、ジョーンズ教授大好き世代でありますから。
+[k]
+
+＠E：うりぼう
+洞窟は３Ｄだと暗くて狭くて視点が揺れて[r]酔ってしまうであります。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+相変わらず、何だかスレスレのところを[r]走っている感のある子たちですね……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+洞窟ですか……。[r]マスター、どうしましょう。
+[k]
+
+[charaFace A 12]
+＠マシュ
+うりぼうさん達は探検に向かいたい[r]みたいですが……。
+[k]
+
+
+？1：ダンジョンだ！
+
+[charaFace A 13]
+＠マシュ
+言うまでもない、という感じですね。[r]それでは出発しましょう！
+[k]
+
+
+？2：冒険だ！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+冒険に胸がときめく歳ですね、マスターは。
+[k]
+
+＠アルトリア
+私も王になる前は、[r][#義兄:ケイ]やマーリンと共に幾つもの冒険を繰り広げました。
+[k]
+
+[charaFace B 1]
+＠アルトリア
+言うなれば先輩ですので、[r]どうぞお任せ下さい。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_2 2.0]
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[scene 20110]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+[fadein black 2.0]
+[wait fade]
+[se ad118]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠C：うりぼう
+洞窟ですなー。
+[k]
+
+＠D：うりぼう
+真っ暗ですなー。
+[k]
+
+＠E：うりぼう
+時に、我らうりぼうは夜行性でしたか。[r]それとも昼行性？
+[k]
+
+＠C：うりぼう
+我々はいつでもガラスの世代であります。
+[k]
+
+＠D：うりぼう
+ティーンエイジ・ミュータント・うりぼうｓでありますな。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+うりぼうさん、落ち着いて下さい。[r]色々な意味で。どうか一つ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+おや……。[r]マスター、この洞窟もしかすると。
+[k]
+
+[charaFace B 5]
+＠アルトリア
+二千年前に訪れたあの洞窟ではないでしょうか？
+[k]
+
+
+？1：そう言えば……？
+
+[charaFace B 6]
+＠アルトリア
+はい、私とあの海賊コンビ、それにマシュと[r]共に訪れた洞窟です。
+[k]
+
+＠アルトリア
+あれは確か[line 2]。
+[k]
+
+
+？2：そんなのあったっけ？
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、覚えていませんか？
+[k]
+
+[charaFace A 0]
+＠マシュ
+わたしとフォウさん、それにアンさんとメアリーさんの[r]海賊コンビも一緒だった、あの洞窟ですよ。
+[k]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaSet F 5027000 1 マリー]
+[charaSet G 2025200 1 アン]
+[charaSet H 2025100 1 メアリー]
+[charaSet E 98002000 1 フォウ]
+
+
+[effect bit_sepia01]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+
+[wt 0.5]
+
+[bgm BGM_EVENT_7 2.0]
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+……静かですね。そして少し冷えてきました。
+[k]
+
+＠フォウ
+フォウー……フォックション！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+うりぼうさん達に連れられてこんな洞窟にまで来て[r]しまったけれど。
+[k]
+
+＠マリー
+本当に、こんなところに悪い猪さんがいるのかしら？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+
+＠C：うりぼう
+ぴぎー。
+[k]
+
+＠D：うりぼう
+ぴぎ、ぴぎ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠メアリー
+その小動物と一番触れ合っているのはキミだ。[r]ボクらに聞かれても。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+同感です。意思疎通は貴女に任せていますよ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+あ、ええ。別に疑っているわけではないのだけれど。
+[k]
+
+＠マリー
+うりぼうさん達が二匹もついてきてくれるのは初めて[r]だから……何かヘンだなって。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace H 0]
+[charaFace G 1]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アン
+大丈夫ですよ、何が出てきても、わたくし達がいるのです。[r]わたくしに、メアリーに、マスター……
+[k]
+
+＠アン
+このコンビネーションは、もう何十年も一緒の船で海賊[r]稼業をやっていたような感じですよ。うふふっ！
+[k]
+
+
+[charaFace H 2]
+[charaMove G 1 0.3]
+[cameraMove 0.3 -100,0 1.25]
+[wt 0.2]
+[se bac3]
+[shake 0.05 0 4 1.5]
+[wt 0.4]
+
+？1：柔らか……ダブルヘッドロック……！
+？2：い、息が……！？
+？！
+
+[wait charaMove]
+
+[charaFace H 3]
+＠メアリー
+アン。くるしい……嫌じゃ、ないけど。
+[k]
+
+[charaMove G 0 0.5]
+[cameraMove 0.5 0,0 1.0]
+
+[charaFace G 0]
+＠アン
+あらごめんなさい。やっぱり洞窟はテンションが上がって[r]しまって……。
+[k]
+
+[wait charaMove]
+[wt 0.2]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+海賊稼業の強みはよくわかりませんが、今回は私もいるのです。[r]不安がらずとも大丈夫ですよ、マリー。
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace H 5]
+[charaFace G 5]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アン
+むー。今、海賊如きが、ってバカにされた気がするわー。[r]そんなことより王様だ、王様に安心しろ、って感じ？
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+そんな意図はありませんでしたが[line 2][r]しかし正直、頼るならば海賊より王でしょう？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFace G 4]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠メアリー
+むぅー。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、そんなことより、だいぶ進みましたけど！[r]まだ着かないのですかね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+どうなのかしら……あら、うりぼうさん達が[r]腕から降りたわ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+＠D：うりぼう
+ぴぎー。
+[k]
+
+＠C：うりぼう
+ぴぎぴぎー。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+洞窟はこの先で二手に別れているようですね。[r]そしてうりぼうさん達がそれぞれの前に……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+正解はどちらなのです？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+うーん……？　わからないわ。
+[k]
+
+＠マリー
+うりぼうさんはどっちも『こっちについて来て！』と[r]言っているみたいだし。
+[k]
+
+＠マリー
+ちょっと先を覗いてみようかしら……。
+[k]
+
+[messageOff]
+[charaFadeout F 0.4]
+[se ad59]
+[seStop ad59 2.0]
+
+[charaTalk off]
+[charaFace B 2]
+[charaFace G 2]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アルトリア＆アン
+マリー、危ない！
+[k]
+
+[messageOff]
+[charaTalk on]
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[se bac22]
+[wt 0.5]
+[se ad82]
+[wt 1.0]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+まあ。天井から、氷柱が落ちてきて……。[r]刺さるところだったわ。ありがとう、二人とも。
+[k]
+
+
+？1：天然の罠か……
+？2：ナイスシュート
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+突然降ってきたので、わたしの盾も間に合いませんでした。[r]さすがアーチャーですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk off]
+[charaFace B 1]
+[charaFace G 1]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アルトリア＆アン
+いえいえそれほどでも……。
+[k]
+
+[charaTalk on]
+
+[charaFace B 8]
+＠アルトリア
+む……。
+[k]
+
+[charaFace G 6]
+＠アン
+む……。
+[k]
+
+＠アルトリア
+私の水流のほうが早かった気がしたのですが。
+[k]
+
+＠アン
+わたくしの弾丸でしょう？
+[k]
+
+
+？1：（二人とも……意外と負けず嫌いだ……）
+？！
+
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ど、どちらの道の先も、様子はあまり変わりませんね。[r]天井には氷柱がびっしり。
+[k]
+
+＠マシュ
+どちらを行くにしても、先程のような危険は待っていそうです。[r]どうしましょう？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace B 8]
+[charaFace G 6]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アン
+では仕方ありませんわね。[r]二手に分かれて進むことにいたしませんか？
+[k]
+
+＠アン
+アーチャーの目を持ってすれば、落ちてくる氷柱を[r]撃ち抜くことなんて造作もないですし。
+[k]
+
+＠アルトリア
+ほう。[r]それは……私と貴女達が分かれるということで。
+[k]
+
+＠アルトリア
+つまり、どちらが先に目的地に辿り着くかの勝負だ、[r]ということですね？
+[k]
+
+
+？1：なんだかおかしな流れに！
+？2：な、仲良くいきましょう！
+？！
+
+[charaFace B 6]
+＠アルトリア
+ご心配なく。これはただの[line 2]腕試しで、模擬戦のような[r]ものです。本気で対立しているわけではありません。
+[k]
+
+[charaFace G 0]
+＠アン
+そうですわよ、マスター。ほんのお遊びです。
+[k]
+
+＠アン
+これで海賊と王、どちらのアーチャーが頼りになるのか[r]決まったりはしませんからね？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠メアリー
+組み分けは……ボクはアンとは離れないし、マシュはマス[r]ターとは離れないよね。
+[k]
+
+＠メアリー
+人数的に、そちらに騎士王、こっちにマリーでいいかな。[r]……フォウもそっち側でいいよ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠フォウ
+フォウー！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アン
+それでは行きますわよ！　先手必勝！[r]さあマリーはこっち！
+[k]
+
+[charaMove F 1 1.0]
+[charaFace F 2]
+＠マリー
+あ～れ～……。
+[k]
+
+[wait charaMove]
+[charaFadeout G 0.1]
+
+[charaFace F 1]
+＠マリー
+うふふ、清姫さんと玉藻さんに教えてもらったの[r]だけれど、攫われるお姫様はこう言うそうね？
+[k]
+
+＠マリー
+一度言ってみたかったの！
+[k]
+
+[messageOff]
+[charaFadeout F 0.4]
+[se ad60]
+[wt 1.0]
+[seStop ad60 1.0]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ああ、行ってしまいました……。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+さ、我々も行きましょう！[r]騎士の誇りにかけて、負けるわけにはいきません！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[wt 0.5]
+
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+また氷柱が！　ふっ！
+[k]
+
+[se ad114]
+[wt 1.0]
+[charaFadeout B 0.1]
+
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+破片は盾でガードしまして、と……[r]お怪我はないですか、マスター？
+[k]
+
+
+？1：全然平気
+？2：ノー問題
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+この私に撃ち漏らしはありません。[r]どうぞ安心して[line 2]む。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+＠アン
+そこ、そこ、ついでにそこっ！
+[k]
+
+＠メアリー
+連鎖して落ちてきた、そっちに弾くよ！
+[k]
+
+＠アン
+予想済みですわ！　いつでも！
+[k]
+
+[se bac22]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+洞窟ですから、音が反響して届いているようですね。[r]聞くだけでわかる、コンビネーションです……。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+…………。
+[k]
+
+
+？1：どうかした？
+？2：アルトリアさんの腕もイイよ！
+？！
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace B 6]
+＠アルトリア
+いえ。この場にいないからこそ言えますが[line 2][r]彼女達のコンビネーションはさすがだな、と。
+[k]
+
+＠アルトリア
+私も認めているのです。[r]あの二人は、二人で一つの生き物のようです。
+[k]
+
+＠アルトリア
+心の底から信じ合い、背中と命を預け合う[line 2]そしてそれ[r]が二人分以上の力を生む。
+[k]
+
+[charaFace B 0]
+＠アルトリア
+あれが、真の相棒、というものなのでしょうね。
+[k]
+
+
+？1：アルトリアにも仲間はいたでしょう？
+？2：円卓の騎士は？
+？！
+
+[charaFace B 4]
+＠アルトリア
+円卓は……信頼する仲間ではありましたが、やはり、[r]王と臣下の関係でしたから。
+[k]
+
+[charaFace B 6]
+＠アルトリア
+相棒というのは少し違うかもしれませんね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………。
+[k]
+
+？1：相棒に憧れが……？
+？！
+
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+いえ。ただ、自分にはないものを見つめているだけです。[r]王は相棒になど憧れません。
+[k]
+
+[charaFace B 8]
+＠アルトリア
+ここではないどこか、ありえたかもしれない他の世界では、
+[k]
+
+＠アルトリア
+私も相棒と言えるような者と肩を並べて戦うこともあった[r]のかもしれませんが……。
+[k]
+
+
+？1：今も、相棒候補はここにいますよ
+？！
+
+[charaFace B 3]
+＠アルトリア
+……！
+[k]
+
+[charaFace B 0]
+＠アルトリア
+…………。
+[k]
+
+＠アルトリア
+そうですね。そうでした。今の私は、王ですが、[r]ただの一サーヴァントでもある。
+[k]
+
+＠アルトリア
+マスター。[&貴方:貴女]と、心を通じ合わせた相棒になる[r]ことができれば[line 2]それは素晴らしいことでしょうね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠マシュ
+わ、わたしもいますから！　別に三人で相棒関係に[r]なってしまってもアリだと思います！
+[k]
+
+[charaFace A 11]
+＠マシュ
+その、わたしはデミ・サーヴァントですし。[r]厳密には、その[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+[line 2]そうですね。貴女もいました、マシュ。
+[k]
+
+[charaFace B 6]
+＠アルトリア
+さあ[line 2]では、あちらに負けないように。[r]相棒らしく、我々も息を合わせて前進するとしましょう！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.0]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[wt 0.5]
+[scene 20112]
+
+[bgm BGM_EVENT_7 0.1]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+広い空間に出ました！　ここが……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadein F 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アン
+あら……。
+[k]
+
+＠マリー
+なーんだ、同じ場所に繋がっていたのね。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+
+＠メアリー
+辿り着いたタイミングは[line 2]。
+[k]
+
+＠アン
+わたくし達のほうが先だったような？
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+待ちなさい。私のこの銃の先端のほうが[r]先にこの空間に入りました。勝敗は歴然としています。
+[k]
+
+
+？1：（やっぱり負けず嫌いだ……）
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace B 6]
+[charaFace G 0]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アン
+やはり判定は肉体が入った瞬間ではないかしら。[r]わたくしのほうが前に飛び出ていますから、絶対に[line 2]
+[k]
+
+[charaFace B 5]
+＠アルトリア
+くっ[line 2]！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+
+＠マシュ
+そ、そんなことよりも。[r]あれを見てください！
+[k]
+
+＠フォウ
+フォウッ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠うりぼう
+ぴぎー！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaSet D 98101600 1 ？？？]
+[charaSet E 98101600 1 ？？？]
+
+[se ad58]
+[charaTalk D]
+[charaFadein D 0.4 1]
+[wt 1.0]
+[seStop ad58]
+
+？1：洞窟の奥に、毒の沼地が！
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。そして[line 2]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad109]
+[charaTalk off]
+[charaFadein D 0.1 2]
+[charaFadein E 0.4 0]
+[wt 1.0]
+
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk on]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠メアリー
+二匹いる……！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠マリー
+ああ……うりぼうさん達は、それぞれの臭いを[r]記憶していたのでしょうね。だからこうなったんだわ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace H 5]
+[charaFace G 5]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アン
+来ますわ……二匹同時ですが、[r]わたくし達の手にかかれば！
+[k]
+
+＠メアリー
+問題はない。いけるよ。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+無論、私もいきます！
+[k]
+
+
+？1：『[&俺:私]達の』コンビネーションを見せてやろう！
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace H 0]
+[charaFace G 0]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アン
+……！
+[k]
+
+＠メアリー
+……！
+[k]
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+うふふ。そうね？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……はい。マスターと、その相棒達の力を[line 2][r]知らしめてやりましょう！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaSet D 98002000 1 フォウ]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+[scene 20110]
+[effectStop bit_sepia01]
+
+[wt 0.5]
+
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+
+＠アルトリア
+思い出してくれたみたいですね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠マシュ
+そうです。[r]確か魔猪は戦闘途中で、逃げ出してしまったんですよね。
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+はい、決着こそつけられませんでしたが、[r]洞窟をねぐらにすることはなくなり、平和になったはずです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+しかし、となるとこの洞窟には[r]何もないのでは……？
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaTalk D]
+[messageOff]
+[se ad24]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+いいえ、どうやら[line 2]。[r]二千年前の戦いの再開のようです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+魔猪……？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaPut C 1]
+[charaEffect C bit_talk_06b2]
+
+[se ad60]
+[charaTalk G]
+[charaFace H 5]
+[charaFace G 6]
+[charaFadein H 0.4 2]
+[charaFadein G 0.4 0]
+[wt 0.5]
+[seStop ad60]
+
+＠G：アン？
+……。[r]……。
+[k]
+
+＠H：メアリー？
+……。[r]……。
+[k]
+
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaPut C 1200,1200]
+[charaEffectStop C bit_talk_06b2]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠マシュ
+お二人……？
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+フォウさん、分かっています。[r]この二人は、彼女たちではありませんね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+アン・ボニー。[r]メアリー・リード。
+[k]
+
+[charaFace B 5]
+＠アルトリア
+……その二人に化けた、ということですか。
+[k]
+
+＠アルトリア
+敗北した記憶をずっと保持していて、[r]とうとう再現するまでに至ったのでしょう。
+[k]
+
+[charaFace B 6]
+＠アルトリア
+しかし……。
+[k]
+
+？1：アルトリアの真似じゃないんだね
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace A 6]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠フォウ
+フォウ！？
+[k]
+
+[charaFace A 14]
+＠マシュ
+マスター……それ、ダメですっ！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+[line 2]そうです、その通りです。[r]何故私ではないのか。
+[k]
+
+[charaFace B 6]
+＠アルトリア
+彼女たちは二人で一人のサーヴァント。[r]まさか、その数だけを以て選択した？
+[k]
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+アルトリアさんはこう見えてサーヴァント界[r]トップクラスの[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+魔猪よ、思い知るがいい。[r]その選択が致命的な過ちであったと……！！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+負けず嫌いなんですから[line 2]！！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

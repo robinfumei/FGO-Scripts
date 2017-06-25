@@ -1,0 +1,478 @@
+＄94-00-31-06-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 3002000 1 ディルムッド]
+[charaSet F 98059000 1 ケイネス]
+[charaSet G 98006000 1 ？？？]
+
+[scene 25400]
+
+
+[charaTalk F]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ケイネス
+なるほど、地球環境モデルを投影し過去を観測、[r]英霊召喚システムを応用したレイシフト……。
+[k]
+
+＠ケイネス
+それらすべてを、霊子演算機の導入によって[r]可能にしたわけか。
+[k]
+
+[charaFace F 5]
+＠ケイネス
+霊子演算機……アトラス院ではそのような[r]試みが成されている、と風の噂で聞いてはいたが……。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+はい。それらすべての魔術的偉業が、[r]アーチボルト門閥によって達成されることになります。
+[k]
+
+？1：（えーッ）
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+（そこッ、顔に出すな！）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+（先輩ここはポーカーフェイスです！）
+[k]
+
+＠フォウ
+（フォウフォウフォウ……）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠ケイネス
+未来のアーチボルトが、[r]そこまで大それた成果を上げた、と？
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+もちろんケイネス卿の卓越した采配と統括あっての[r]成果です。今後の時計塔におけるあなたの躍進が……。
+[k]
+
+＠エルメロイ
+様々な学派の成果を吸収しこの一大プロジェクト[r]「カルデア」の実現に至ったのです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[wt 0.1]
+
+[charaTalk B]
+[charaFace A 11]
+[charaFadein A 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 4]
+＠Dr.ロマン
+（草葉の陰のオルガマリー所長が聞いたら、いったい[r]どんな顔をするのやら……）
+[k]
+
+＠マシュ
+（はい、想像したくありません……）
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ケイネス
+フン。私にアトラス院との繋がりはない。[r]むしろあの偏屈たちを毛嫌いしている。
+[k]
+
+[bgmStop BGM_EVENT_1 1.0]
+[charaFace F 3]
+＠ケイネス
+あの悲観主義者たちと手を取り合う事はない。[r]ないと思っていたが……ふ、ふふふ。
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace F 7]
+＠ケイネス
+そうかー、うん、まああり得ぬ話ではないな！
+[k]
+
+？1：（えーッ）
+
+？！
+
+[charaFadeout F 0.1]
+
+[wt 0.1]
+
+[charaTalk B]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 2]
+
+＠Dr.ロマン
+（えーッ）
+[k]
+
+[charaFace A 8]
+＠マシュ
+（時計塔のロードって……）
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ケイネス
+いやぁ、そろそろ降霊科と鉱石科だけでは派閥争いの[r]切り札には足りないかな、とは思っていたのだよ。
+[k]
+
+[charaFace F 3]
+＠ケイネス
+何か別口の研究にも手を付ける頃合いかとね。うむ、[r]しかしまさかそんな方向にも才能あったとはなぁ私。
+[k]
+
+[charaFace F 7]
+＠ケイネス
+そうかー。[r]歳食ってからも大人げなく本気出しちゃうかー。
+[k]
+
+＠Dr.ロマン
+（あっるぇ[line 3]！？[r]　なんかイメージ違う、彼イメージ違くない！？）
+[k]
+
+[se ad95]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 -900,0]
+[charaMove E 0 0.5]
+[charaMove F 2 0.5]
+[wait charaMove]
+[seStop ad95]
+
+＠ディルムッド
+流石です！　ええ、[r]このディルムッドめは信じておりました。
+[k]
+
+＠ディルムッド
+マスターは今でこそ色々危なっかしいものの、[r]将来は必ずや大事を成し遂げられる御方だと！
+[k]
+
+[se ad95]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 900,0]
+[charaMove E -900,0 0.5]
+[charaMove D 2 0.5]
+[charaMove F 0 0.5]
+[wait charaMove]
+[charaFadeout E 0.1]
+[seStop ad95]
+
+＠エルメロイ
+無論、技術的成果だけでなく、[r]ソフィアリ家の経済的援助によるところも大です。
+[k]
+
+＠エルメロイ
+カルデアの施設構築に至る莫大な経費が賄えたのも、貴方[r]と未来の奥方様との仲睦まじい私生活あってのことで。
+[k]
+
+[charaFace F 3]
+＠ケイネス
+いやあ、フハハ。魔術の求道にばかり専念してきた私が、[r]はたして家庭人として成功できるかどうか……。
+[k]
+
+＠ケイネス
+一抹の不安はあったのだがね。[r]そっかー。[charaFace F 7]フハハハハ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+
+[wt 0.1]
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 4]
+
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+＠マシュ
+（ああ、ロードがまずランサー陣営を味方につけようと[r]したのって……）
+[k]
+
+＠Dr.ロマン
+（いちばん騙すのが簡単だから、かもね）
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+（……フォ、ウ）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFace F 1]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+というわけで、我々は御身にアーチボルトの栄光の[#階:きざはし]を[r]確実に築いていただくべく馳せ参じた次第です。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+とはいえ、時間渡航による過去干渉には[r]様々な禁則が伴います。
+[k]
+
+＠エルメロイ
+あまり大袈裟な援助までは叶いませんが、[r]こと情報面においては……。
+[k]
+
+＠ケイネス
+うむ、君らの介入さえあれば戦況のあらゆる段階で[r]敵に先手を打てるわけだな。
+[k]
+
+＠エルメロイ
+ひとまずはキャスターの排除です。[r]まだ他のマスターたちは標的の潜伏場所を知りません。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+先んじて襲撃をかければ、[r]監督役が確約した追加令呪は御身のものに。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠ケイネス
+素晴らしい！　まだ一画の消費もないうちから、新たに[r]四画目の令呪がこの手に刻まれるというわけか。
+[k]
+
+[charaFace F 3]
+＠ケイネス
+ククク、この戦い、もはや勝ったも同然ではないか！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+
+[scene 25100]
+
+[charaFadeout F 0.1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_5 2.0]
+[seLoop ad107]
+[fadein black 2.0]
+[wait fade]
+
+[wt 1.0]
+[seStop ad107 2.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠ケイネス
+しかし、半ば遊びも同然のつもりで参加したこの戦いだが。[r]わざわざ未来の末裔が干渉してくるとは……。
+[k]
+
+＠ケイネス
+この私が考えていた以上に大きな意味がある、[r]という事かね？
+[k]
+
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+そうなり得る可能性が無視できない、[r]という程度にお考えください。
+[k]
+
+＠エルメロイ
+我々は過去に干渉するにあたって、[r]既に確定した事象についてしか言及できません。
+[k]
+
+＠エルメロイ
+まだこの時間軸において誰にも観測されていない出来事に[r]ついては口を噤まざるを得ない。
+[k]
+
+＠エルメロイ
+さもないと歴史改編の余波があまりに大きくなりすぎて、[r]抑止力を発動させかねません。
+[k]
+
+＠ケイネス
+ふむ……。
+[k]
+
+＠エルメロイ
+そもそも我々がこうして介入した時点で、[r]未来は改編されて確度を失っています。
+[k]
+
+＠エルメロイ
+ここから先は、[r]私にとっても未知の領域、ということです。
+[k]
+
+＠ケイネス
+魔法の域に至る秘術なればこそ、運用はそう簡単な[r]ものではないか。要は使い方次第、というわけだ。
+[k]
+
+＠エルメロイ
+さて、そろそろキャスターの魔術工房の領域です。[r]この先に進めば穏便には済みません。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ディルムッド
+いや、既に境界を跨いでいるようだ。何か来るぞ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[cameraMove 0.5 -150,-70 1.5]
+[wait camera]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[charaTalk G]
+[charaScale G 0.75]
+[charaFadein G 0.1 150,-50]
+[se ad21]
+＠？？？
+キシャァァァ！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[messageOff]
+[charaFadeout G 0.1]
+[cameraHome 0.3]
+[wait camera]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+キャスターの飼い慣らす使い魔どもですね。
+[k]
+
+＠エルメロイ
+宝具が強力なばかりで魔術師としての手管は拙い英霊です[r]が、こういう頭数頼みの力押しはそれなりに厄介ですよ。
+[k]
+
+[charaFace F 5]
+＠ケイネス
+フン、魔術の秘匿すら弁えぬ下賤に、[r]ここまで度を超した力を与えるとは……。
+[k]
+
+＠ケイネス
+やはり冬木の聖杯とやらは私が手ずから[r]確保し管理する必要がありそうだ。
+[k]
+
+[charaFace F 2]
+＠ケイネス
+行けランサー！[r]我が道を阻む有象無象を排除せよ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ディルムッド
+御意！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、なんだかわたしたち蚊帳の外ですけど、[r]黙って見ている訳にもいきません！
+[k]
+
+？1：支援しよう
+？2：戦闘開始だ！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

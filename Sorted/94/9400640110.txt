@@ -1,0 +1,313 @@
+
+＄94-00-64-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_32 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 4013001 1 メイヴ]
+[charaSet D 98006100 1 ？？？]
+[charaSet E 98006100 1 ？？？]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+
+[scene 31500]
+[fadein black 2.0]
+[wait fade]
+
+＠C：？？？
+へえー、また新しいお客様なの？　でも……[r][#主人:マスター]も、[#使い魔:おとも]も、なんだか冴えないカンジ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+わたしたちのこと……でしょうか？[r][line 3][#使い魔:おとも]、とは？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+
+？1：[&きみ:あなた]はサーヴァント[&なのか:なの]？
+
+＠メイヴ
+……サーヴァントぉ？　この私がぁ？[r]ふふふふふ、何を言っているのかしら！？
+[k]
+
+[charaFace C 13]
+＠メイヴ
+滑稽、かつ無様ね。とても可愛いわ。[r]なぶり甲斐がありそうで♡
+[k]
+
+＠メイヴ
+あなたたちも迷い込んだ哀れなウサギ[line 3][r]何も知らないで[#ここ]へ来たってワケね？
+[k]
+
+[charaFace C 6]
+
+？2：もしかして……女王メイヴ？
+
+[charaFace C 13]
+＠メイヴ
+あら、私の顔をご存じなの？[r]ちょっと嬉しいな。でもね、それは少しちがうの。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+たしかに……微妙に雰囲気が異なるようですが。[r]頭部のティアラが普段よりキラキラしているような……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+？！
+
+
+＠メイヴ
+しかたないわね、教えてあげるわ！[r]今日からあなたたちを支配する、女王の名前を。
+[k]
+
+[charaFace C 14]
+＠メイヴ
+一度だけよ、よーく聞きなさい。[r]二度目は私の番犬の[#餌食:おやつ]だから♡
+[k]
+
+[charaFace C 6]
+＠メイヴ
+[#奉仕:ゆめ]と[#隷属:きぼう]が私の[#力の源:エナジー]！[r]魔法少女のなかの魔法少女！
+[k]
+
+[bgmStop BGM_EVENT_32 0.1]
+[se bac65]
+[charaEffect A bit_talk_sakura02]
+
+＠メイヴ
+人呼んで[#蜂蜜禁誓系:ハニーゲッシュ][#魔法少女:クイーン]、[r]コナハト☆メイヴ！　ちゃん付けでも構わなくてよ！
+[k]
+
+[charaEffectStop A bit_talk_sakura02]
+
+？1：魔法少女メイヴちゃん……！
+
+[bgm BGM_EVENT_35 0.1]
+
+[charaFace C 3]
+＠メイヴ
+そう、メイヴちゃんよ……！[r]いい……初めてちゃん付けで呼ばれたわ……
+[k]
+
+＠メイヴ
+悪くない……この、本当は恥ずかしくて死にそうな感じ、[r]たまらないわ……悪くないわ！
+[k]
+
+
+？2：魔法大学生メイヴちゃん……！？
+
+[bgm BGM_EVENT_35 0.1]
+
+[charaFace C 5]
+＠メイヴ
+少女よ、少女！[r]なんなの、その具体的な指摘は！
+[k]
+
+[charaFace C 10]
+＠メイヴ
+自分でもギリギリだと思ってるんだから、[r]そこは合わせなさいよね！？
+[k]
+
+？！
+
+[charaFace C 6]
+＠メイヴ
+と・も・か・く。いつも通り颯爽と、[r][#愛しい私の重戦車:チ　ャ　リ　オ　ッ　ト]でやってきたの。
+[k]
+
+＠メイヴ
+今では『[#雪華:ゆきはな]とハチミツの国』を統べる女王[line 3][r]それが、私なの。おわかり？
+[k]
+
+[bgmStop BGM_EVENT_35 1.5]
+
+[charaFace C 14]
+＠メイヴ
+それじゃ、そこのルビーとかいう[r][#魔法の杖:ステッキ]を、こっちによこしなさい？
+[k]
+
+[charaPut D 2]
+[charaPut E 0]
+
+[messageOff]
+[se ad39]
+[charaEffect C bit_talk_06p]
+[wt 2.0]
+
+[se ad21]
+[charaSpecialEffect D appearanceReverse 0 0.5]
+[charaSpecialEffect E appearanceReverse 2 0.5]
+
+[wt 0.8]
+
+[bgm BGM_EVENT_3 0.1]
+
+[wt 1.0]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaPut C 1200,1200]
+[wt 0.1]
+[charaEffectStop C]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+てやややー！　このルビーちゃんが[r][#精霊心:ハート]に誓ったマスターは一人だけです！
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+あなたの所有物なんかにはなりませんよー！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ……！[r]召喚された敵性体がこちらへ！　マスター！？
+[k]
+
+
+？1：ルビーちゃん？　あいつは悪い魔法少女？
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+ん～～ルビーちゃんには[r]そういう判断は難しいのですが～。
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+自分の国なら問答無用、[r]何をしてもフリーダムというのは腹が立ちますネ！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+わたしのマスターだったら絶対に許しません！[r]ドッギャァァァンとおしおきの必要アリです！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+？2：きみのマスターってどんな人？　ルビーちゃん？
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+ワーオ、いきなり告白タイムですかー？
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+ルビーちゃんのマスターは[r]とってもフツーの女の子なんですよー？
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+でも、ときどきすごーく強いんです！[r]友達思いのがんばり屋さんなのです！
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+まあ、欲望スイッチがバチコーンすると、[r]思わず流されちゃうのも女の子らしいのですが。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+でもちょっと怖いですよね、あれ。優等生な女の子が[r]暴走するとなんかもうモンスターって感じ、しません？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………先輩？[r]なぜじっとこちらを？　アイコンタクトでしょうか？
+[k]
+
+[charaFace A 7]
+＠マシュ
+でしたら防衛戦の準備を！[r]今は目の前の[#怪物:モンスター]を！
+[k]
+
+？！
+
+
+？1：了解。ルビーとそのマスターに力を貸そう！
+？！
+
+＠マシュ
+[line 3]はい！　マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠メイヴ
+あら、ブタのクセにやる気？[r]いいわ、いい声で鳴いてもらおうじゃない。
+[k]
+
+[charaFace C 6]
+
+＠メイヴ
+行きなさい、トナカイマン！　スノーマン！[r]雪華とハチミツの国の力を見せる時よ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

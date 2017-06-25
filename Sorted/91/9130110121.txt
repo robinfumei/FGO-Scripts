@@ -1,0 +1,249 @@
+
+＄91-30-11-01-2-1
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3011001 1 フィン]
+[charaSet E 3002001 1 ディルムッド]
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 20800]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+……ふむ。こんなところかな。
+[k]
+
+[charaFace D 1]
+＠フィン
+無事、戦闘終了という訳だ。[r]これで私が感じていたざわつきも収まったよ。
+[k]
+
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace D 0]
+[charaFace A 0]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+＠マシュ
+巨大な手……[r]あれが、あなたが感じた危機なのですか？
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠フィン
+ああ、うん。[r]まあそういうことになるのかな。
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+＠マシュ
+あれはこれまで幾度も遭遇した不明の敵性存在です。[r]正確なデータは、なくて[line 2]
+[k]
+
+[charaFace A 7]
+＠マシュ
+ですがあなたは、何か知っている口振りでした。[r]もしかして……心当たりが？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 2 0 0 0]
+＠Dr.ロマン
+ボクも聞きたいな。[r]そうそう、いかにも何か知ってる口振りだったよ！
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠フィン
+……。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+えっ、無視？　ボクの言葉無視？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+お願いします、フィンさん。[r]もしも知っていることがあるのなら、隠さずに……。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠フィン
+……麗しきご婦人にそうも熱く見つめられては、[r]私も口を閉ざし続ける訳にもいかないか。
+[k]
+
+[charaTalk B]
+＠Dr.ロマン
+あっそういう……ことですか……。[r]ほんとにボクは無視……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+とは言え、これはただの勘なんだ。[r]はっきり口にしてしまうには根拠がなさすぎる。
+[k]
+
+[charaFace D 5]
+＠フィン
+栄光なりしフィオナ騎士団の団長としては、[r]ご婦人を前にしてそんな無様を晒すのも[#憚:はばか]られる。
+[k]
+
+[charaFace D 1]
+＠フィン
+だから少し時間をくれないか。[r]確信を得られた時には、必ずきみに伝えてみせよう。
+[k]
+
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩。
+[k]
+
+？1：仕方ない
+？2：待つしかなさそうだ
+
+？！
+
+[charaFace A 1]
+＠マシュ
+……そうですね。[r]わかりました、フィンさん。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+まあ、我が智慧の宝具、[r]『[#親指かむかむ智慧もりもり:フィンタン・フィネガス]』の力があれば[line 2]
+[k]
+
+[charaFace D 1]
+＠フィン
+どんな謎もたちまち分かってしまうんだが、[r]それじゃあつまらんだろ？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[communicationCharaLoop 98003003 2 0 0 2]
+＠Dr.ロマン
+つまらんって、ええ！？[r]全部分かるなら使ってよ……！？
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+魔術王の思惑とか、ほら、[r]色々あれこれ知りたいことはあるんだしさ！　ね！？
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠フィン
+はっはっは。どうせ、そのあたりは見通せないよう[r]仕組まれているさ。巨大な手にしてもね。
+[k]
+
+[charaTalk B]
+[communicationCharaFace 2]
+＠Dr.ロマン
+ぐっ……あ、あとその変な名前絶対嘘だろう！[r]絶対違うよね！？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠フィン
+そんなことよりも、マシュ。[r]いいかい？
+[k]
+
+[charaTalk A]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、何でしょう？
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠フィン
+待たせると言ったが、[r]待たなくても話せる話も幾らかあるんだ。うん。
+[k]
+
+[charaFace D 3]
+＠フィン
+だから詳しい話をゆっくりと、マイルームで[r]行うとしよう。きみも私に興味津々だろう？
+[k]
+
+？1：私に、って言ったよね？
+？2：その部屋、あなたの部屋じゃないですよね
+
+？！
+
+[charaTalk D]
+[charaFace D 5]
+＠フィン
+……そうだな。[r]よし、[%1]も一緒か。それもいいだろう！
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+＠マシュ
+あ、あの！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 0 0 4]
+＠Dr.ロマン
+やれやれ。元気なひとだなあ。[r]でもそのバイタリティ、見習いたいぞ……！
+[k]
+
+[charaTalk C]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ～～～。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

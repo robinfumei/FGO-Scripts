@@ -1,0 +1,118 @@
+
+＄91-50-17-01-2-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5017001 1 メディア・リリィ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4004001 1 アストルフォ]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+
+[scene 20800]
+[fadein black 2]
+[wait fade]
+
+＠ジャンヌ
+そんな……私の親衛隊が、あっさり……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠アストルフォ
+フッ、当然だよ。旗の力でむりやり[r]従わせたファンなんてその程度さ！
+[k]
+
+＠アストルフォ
+今度はこっちの番だ！[r]みんな、出番だよー！
+[k]
+
+[se ad58]
+[wt 1.5]
+[wt 1.5]
+[seStop ad58]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠ジャンヌ
+にゃはぁ！？（驚きで吹きだしている）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+今度は馬の軍団だ[line 3]！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠アストルフォ
+見たか、これが角笛の力で洗脳した仲間たちさ！
+[k]
+
+[charaFace E 2]
+＠アストルフォ
+さあ、覚悟しろインチキ聖女！[r]ボクをさしおいてＪＫデビューとか、もう殺すしかない！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+ああ、このままではまた戦いに……！[r]マスター、ケンカを止めてください！
+[k]
+
+？1：ケンカはやめたまえ！
+？2：そのミニスカートはどうかと思う！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠アストルフォ
+そういえば、さっきからうるさいキミたちは誰さ！？[r]よし、よく分かんないから一緒にやっつけるぞ！
+[k]
+
+＠アストルフォ
+だってボクは理性が蒸発しているからね！[r]面倒なことは勝ってから考えるよ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+こっちも大概だな！[r]気をつけるんだ[%1][&君:ちゃん]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

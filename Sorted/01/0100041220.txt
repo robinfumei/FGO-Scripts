@@ -1,0 +1,40 @@
+＄01-00-04-12-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20201 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98026000 1 マキリ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+来るぞ、またでかいホムンクルスだ！[r]ったく無駄にでかいな！
+[k]
+
+＠Dr.ロマン
+濃い魔霧を吸い過ぎて成長してる、とかかな。[r]いや、それはないか。聖杯の影響なのかも知れない？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+それより戦闘です！[r]マスター、指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

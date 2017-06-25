@@ -1,0 +1,771 @@
+＄01-00-06-06-2-0
+
+[soundStopAll]
+[se ad14]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 6003000 1 煙酔のハサン]
+[charaSet F 2008000 1 ？？？]
+[charaSet G 98081000 1 難民たちＡ]
+[charaSet H 98082000 1 難民たちＢ]
+[charaSet C 98006200 1 魔物]
+
+[scene 28410]
+[fadein black 2.0]
+[wait fade]
+
+[seStop ad14 5.0]
+[wt 1.5]
+
+[se ad31]
+[wt 1.0]
+[se ad31]
+[seStop ad31 0.5]
+[wt 0.3]
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+[bgm BGM_EVENT_2 0.1]
+＠Dr.ロマン
+良かった、やっと繋がった！
+[k]
+
+＠Dr.ロマン
+大丈夫かみんな！？　今回も何か、[r]予想外のアクシデントがあったのかい！？
+[k]
+
+？1：あー、安心[&するわー:するなー]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。[r]これでこそDr.ロマン、という芸風です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+？2：こちらはなんとか
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+なんと……[r]すごい落ち着きようだね、[%1][&君:ちゃん]……
+[k]
+
+＠Dr.ロマン
+ちょっとやそっとのアクシデントじゃ、[r]もうキミを驚かす事はできないかもだ。
+[k]
+
+[communicationCharaFace 5]
+
+？！
+
+＠Dr.ロマン
+って、のんびり話している場合じゃないな。[r]とにかく無事で良かった。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]の反応は随時確認できたんだけど、[r]こちらからの通信はまったく届かなくて。
+[k]
+
+＠Dr.ロマン
+まる二日も支援ができなくてすまない。[r]そちらはどういった状況だったんだい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠マシュ
+はい。それではこれまでの経緯を報告します。[r]レイシフト後、わたしたちは[line 3]
+[k]
+
+[messageOff]
+[wipeout rollLeft 1.0 0.5]
+[wait wipe]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+[scene 28420]
+[wt 1.5]
+[wipein rollLeft 1.0 0.5]
+[wait wipe]
+
+＠Dr.ロマン
+……そうだったのか。[r]十三世紀の中東に、紀元前のエジプト領が。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+道理で通信がうまくいかない訳だ。[r]再調整する時間もないし、今後エジプトは鬼門だね。
+[k]
+
+＠Dr.ロマン
+しっかし、オジマンディアス王かぁ……[r]また面倒くさいのが現れたもんだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でも、今回はこちらには頼りになる味方がいる筈だ。[r]オジマンディアスは獅子王って言ったんだろう？
+[k]
+
+＠Dr.ロマン
+なら間違いなくそれはリチャード一世だ。[r]獅子心王さえいれば太陽王も何とかなる。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+キミたちは十字軍と合流して、[r]うまくリチャード一世に[line 3]なんだい、その顔。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+なんで笑いを[#堪:こら]えてるんですかー、[r][%1][&君:ちゃん]ー？
+[k]
+
+＠Dr.ロマン
+ボク、おかしなコト言ってるかーい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ははは。[r]ではここからはダ・ヴィンチちゃんが。
+[k]
+
+＠ダ・ヴィンチ
+ロマン、予想外のアクシデントを聞きたがっていたね。[r]ならば喜びたまえ。十字軍はとっくに敗退している！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なんだって[line 5]！？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+よし、もう一度言うぞ。[r]な[communicationCharaFace 2][messageShake 0.05 5 5 0.4]んだって[line 5]！？
+[k]
+
+？1：そんなに驚くこと？
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+そりゃ驚くよ！？[r]だって[line 3]
+[k]
+
+？2：リチャード一世って？
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+英国王リチャード一世。[r]第三回十字軍で勇名を馳せた獅子心王です。
+[k]
+
+[charaFace A 12]
+＠マシュ
+その勇猛さから[#獅子心王:ライオンハーテッド]と呼ばれ、[r]敵将からも“最高の騎士”と讃えられた方ですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+？！
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+ああもう、[r]とにかくカルデアからのデータを送るからね！
+[k]
+
+＠Dr.ロマン
+百聞は一見にしかず、だ！[r]この特異点の地図を見れば分かる！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+いいかい？　その特異点には大きな都がある！[r]間違いなく十字軍が占拠した都だ！
+[k]
+
+＠Dr.ロマン
+それがある以上、[r]聖地は騎士たちの手で陥落している筈なんだ！
+[k]
+
+＠Dr.ロマン
+正しい歴史ではないけれど、[r]今はそういうコトになっている！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+なのに十字軍は壊滅したっていうのかい！？[r]じゃあ、そこには一体誰が[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+[line 3]待った、その前に生体反応だ！[r]五百メートル先に強力なサーヴァント反応！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad159]
+[seStop ad159 1.0]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……！　了解、スピンクス号、停止します。[r]いかがします、マスター？
+[k]
+
+？1：……隠れて様子を見てみよう
+？2：……スニーキング……スニーキング……
+
+？！
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[bgmStop BGM_EVENT_3 1.0]
+[wait wipe]
+[fadeout black 0.1]
+[wait fade]
+[wipein leftToRight 0.1 1]
+[wait wipe]
+[charaFadeout A 0.1]
+
+
+[scene 28420]
+[wt 0.8]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+[wt 0.2]
+[charaFadein G 0.4 0]
+[charaFadein H 0.4 2]
+＠煙酔のハサン
+……ここまでか。[r]これだけの同胞を連れて逃げのびる事は不可能……。
+[k]
+
+[charaFace E 4]
+＠煙酔のハサン
+……不覚、そして無念なり。[r]万事、ここに休した。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.4 1]
+＠？？？
+……悲しい。[r]私は悲しい、山の翁よ。
+[k]
+
+＠？？？
+貴方ひとりであれば窮地を脱するは[#容易:たやす]い。[r]……しかし、貴方は運命を受け入れた。
+[k]
+
+＠？？？
+貴方の背後に[#怯:おび]える聖地の人々。[r]彼ら難民を守るために、貴方は残り続けるのですね……
+[k]
+
+＠？？？
+価値なきものを守らんと、価値あるものが失われる……[r]……私には、それが悲しい……
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.2]
+[charaFadeout F 0]
+[charaFace A 7]
+[charaTalk A]
+[charaFadein A 0 0,-50]
+[wipeFilter cinema 0.5 0]
+[wt 0.3]
+[fadein black 1.0]
+[wait fade]
+
+＠マシュ
+あれは……アサシンのサーヴァントと、[r]アーチャーのサーヴァント、でしょうか……？
+[k]
+
+＠マシュ
+両者は敵対しているようです。[r]アサシンの後ろには一般人が40人ほど。
+[k]
+
+＠マシュ
+対して、アーチャーは単騎です。[r]……。その、マスター。
+[k]
+
+[charaFace A 15]
+＠マシュ
+わたし、あのアーチャーを見ていると[r]震えが止まらなくて……胸が、とても痛くて[line 3]
+[k]
+
+？1：よし、いったん下がろう
+？2：アサシンを助けにいこう
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 0,-50]
+＠ダ・ヴィンチ
+[line 6]駄目だ。[r]一歩も動いてはいけない。気づかれる。
+[k]
+
+＠ダ・ヴィンチ
+気づかれたら、それで終わりだ。[r]私たちではあのアーチャーに殺される。
+[k]
+
+＠ダ・ヴィンチ
+……あれは、[#ギフト]だ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0 1]
+[wipeOff]
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+＠煙酔のハサン
+……価値がある。[r]彼らより、私の方が価値がある、と言ったな？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠？？？
+はい。[r]私の弓を以てしても、貴方を[#捉:とら]えるのは骨でしょう。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠煙酔のハサン
+………………取引だ。[r]貴様の騎士道とやらが[#誠:まこと]のものであるのなら[line 3]
+[k]
+
+＠煙酔のハサン
+我が命を、ここで差し出す。[r]その代償として民たちを逃がしてほしい。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠？？？
+なんと高潔な方か。[r]……しかし、逃がすと言っても具体的には？
+[k]
+
+＠？？？
+私は撤退を許されてはいません。[r]……申し訳ありませんが……
+[k]
+
+＠？？？
+貴方たちを捕らえるまで、[r]この場から立ち去る事はできないのです……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠煙酔のハサン
+……では、右腕と足だ。[r]我が首の代わりに、その右腕と足を[#貰:もら]う。
+[k]
+
+＠煙酔のハサン
+これより一日、その足を動かさず、[r]また右腕を封じられよ。
+[k]
+
+＠煙酔のハサン
+情けない我が首だが、[r]その代償としてなら釣り合おう。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠？？？
+な……なんという。[r]いけません、それでは、貴方は……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠煙酔のハサン
+承諾と受け取った。[r][line 3]しからば、ご免！
+[k]
+
+[flashin once 0.1 0.3 FF0000AF FF000000]
+[se ad46]
+[wt 0.1]
+[charaShake E 0.05 2 2 0.15]
+[wt 0.2]
+[charaEffect E bit_talk_35]
+[wt 1.5]
+
+[charaFace E 2]
+＠煙酔のハサン
+走れ、同胞たちよ……！[r]東の[#呪腕:じゅわん]であれば、そなたらを受け入れよう！
+[k]
+
+[wt 0.2]
+[charaFadeout E 0.4]
+[wt 0.3]
+[se ad58]
+[seStop ad58 0.5]
+[shake 0.05 0 4 0.2]
+[wt 0.7]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠難民たち
+ああ……！[r]ありがとうございます、ありがとうございます！
+[k]
+
+[se ad59]
+[charaMove H 400,0 0.4]
+[charaFadeout H 0.4]
+[wt 0.2]
+[charaMove G 0,0 0.4]
+[charaFadeout G 0.4]
+[wt 0.4]
+[seStop ad59 1.5]
+[wt 2.0]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠？？？
+……自ら首を斬るとは……[r]これでは、私も[#約定:やくじょう]を守るしかありません。
+[k]
+
+＠？？？
+お見事。お見事です。[r][line 3]ですが。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.4]
+[se ad152]
+[seStop ad152 0.7]
+[wt 0.7]
+[shake 0.05 2 2 0.2]
+[flashin once 0.1 0.1 FF0000AF FF000000]
+[se ad161]
+[wt 1.0]
+
+[se ad58]
+[seStop ad58 0.4]
+[wt 0.2]
+[shake 0.05 0 4 0.2]
+[wt 0.4]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠H：難民たち
+え……？[r]なんでわたし、倒れてる、の？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠H：難民たち
+うそ……ひとりでに、首、が[line 3][r]いやあ、いやあ[line 6]！？
+[k]
+
+[messageOff]
+
+[wt 0.7]
+[se ad152]
+[seStop ad152 0.7]
+[wt 0.7]
+[shake 0.05 2 2 0.2]
+[flashin once 0.1 0.1 FF0000AF FF000000]
+[se ad161]
+[wt 0.4]
+[capture]
+[specialEffect cutting]
+[charaFadeout H 0.1]
+[wait specialEffect]
+[wt 1.0]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠？？？
+ああ、私は悲しい……[r]それではいけない、と言ったのに。
+[k]
+
+＠？？？
+そこから一歩も動くな、などと、[r]なんという慢心なのでしょう。
+[k]
+
+＠？？？
+我が妖弦フェイルノートに矢は合いません。[r]これはつま[#弾:び]く事で敵を切断する音の刃。
+[k]
+
+＠？？？
+一歩も動かず、弓を構えずとも[line 3][r]肉袋を断つ程度、一息でこなせましょう。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：難民たち
+あ[line 3]いやあ……！[r]助けて、助けてぇ[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.2]
+[se ad151]
+[wt 0.7]
+[shake 0.05 2 2 0.2]
+[flashin once 0.1 0.1 FF0000AF FF000000]
+[se ad161]
+[effect bit_talk_35]
+[wt 1.5]
+
+[wt 1.0]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠？？？
+愚かなる山の翁よ。貴方はこう言うべきだった。[r]“どうか、指の一本も動かすな”と。
+[k]
+
+[wt 0.5]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wipeout rightToLeft 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[charaFadeout F 0.1]
+[wt 0.3]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+…………！
+[k]
+
+？1：無抵抗の人たちを……！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+堪えて。いま出て行ったら我々も殺される。
+[k]
+
+＠ダ・ヴィンチ
+誇張なしで、あのアーチャーは[r]今までのどんなサーヴァントより強い。
+[k]
+
+＠ダ・ヴィンチ
+彼が立ち去るまで隠れるしかない。[r]……キミたちも、アレが味方とは思えないだろう？
+[k]
+
+[charaFace A 8]
+＠マシュ
+…………はい。[r]その通りです、きっと……
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_3 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[scene 28420]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 1]
+＠マシュ
+……生存者、発見できません。[r]皆さん……確実に、首を斬られて……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+……こちらも状況は把握できたよ。[r]あのアーチャー……容赦が無いにも程がある。
+[k]
+
+＠Dr.ロマン
+敵対勢力同士のようだったけど、[r]それにしたって民間人を一方的に……
+[k]
+
+＠Dr.ロマン
+何か理由あっての事なのか？[r]それとも、ただの殺人鬼だったのか？
+[k]
+
+[charaFace A 4]
+＠マシュ
+………………。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+憶測はまた後で。[r][%1][&君:ちゃん]、せめてもの役割がきたよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+
+[se ad42]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.4]
+＠C：？？？
+……[bgm BGM_EVENT_3 0.1]おのれ……おのれ……[r]この恨み、死んでも死にきれぬ……！
+[k]
+
+＠C：？？？
+なんという未熟さだ[line 3][r]敵の非道さを見誤るとは……！
+[k]
+
+＠C：？？？
+許せぬ[line 3]許せぬ！[r]この無念を、いったい、誰が晴らせよう[line 3]！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+アサシンの体から、これは[line 3][r]怨霊でしょうか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+いや、シャドウサーヴァントだ！
+[k]
+
+＠Dr.ロマン
+この土地と親和性があるからだろう、[r]強い怨念がそのまま残滓として残っている！
+[k]
+
+＠Dr.ロマン
+このままだと見境なく人間を襲う怪物になるぞ！[r][%1][&君:ちゃん]、その前に！
+[k]
+
+？1：……了解。行くぞ、マシュ！
+？2：……楽にしてあげよう
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。[r]騎士として、この魂に安らぎを……！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

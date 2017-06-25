@@ -1,0 +1,66 @@
+
+＄94-00-18-51-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 1001001 1 アルトリア]
+
+[scene 20300]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.4 1]
+[charaFace A 0]
+
+＠アルトリア
+バレンタインの行事は知っています。[r]お祭りと[#政:まつりごと]は切り離せないものですから。
+[k]
+
+[charaFace A 5]
+＠アルトリア
+ですが今は人理焼却の一大事。[r]はしゃぐにしても節度のある姿勢を忘れないように。
+[k]
+
+[charaFace A 0]
+＠アルトリア
+分かっている？　任せてほしい？[r]どんなイベントだろうとすぐに対応できる、ですか？
+[k]
+
+[charaFace A 1]
+＠アルトリア
+さすがは[%1]。[r]私が釘を刺す必要はなかったようですね。
+[k]
+
+＠アルトリア
+では……こほん。
+[k]
+
+[charaFace A 3]
+＠アルトリア
+そんな貴方に、せめてもの報酬を。
+[k]
+
+＠アルトリア
+今の私にできる最上級のものを用意しましたので、[r]受け取っていただければ幸いです。
+[k]
+
+[messageOff]
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[wait effect bit_talk_valentinegift01]
+
+[charaFace A 1]
+＠アルトリア
+その王冠は勝利の祈願と思ってください。
+[k]
+
+＠アルトリア
+マスター。貴方の道行に確かな勝利と、[r]甘い幸福がありますように。
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[end]

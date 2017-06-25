@@ -1,0 +1,495 @@
+
+
+
+＄01-00-07-13-2-0
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4018001 1 ケツァル・コアトル]
+[charaSet F 3028000 1 ジャガーマン]
+[charaSet G 3027000 1 アナ]
+
+
+[scene 34000]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+
+＠ケツァル・コアトル
+お見事デース！[r]あとはうちの仔たちが三日三晩徹夜でやってくれマース！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マーリン
+こっちもギルガメッシュ王に連絡を入れておいたよ。[r]ゴルゴーン襲来一日前には納品できる、と。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+では我々もウルクに戻りましょう。[r]エリドゥから片道二日ですので、若干の余裕はありますが。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+あ、それならちょっとだけ時間をいいかしら？
+[k]
+
+＠ケツァル・コアトル
+せっかくエリドゥに来たのですもの。[r]エリドゥで一番立派な円筒印章を見ていかないとね。
+[k]
+
+？1：円筒印章……？
+
+？！
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[charaFadeout E 0.1]
+[wt 1.0]
+[scene 34300]
+
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.4]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[bgm BGM_EVENT_11 0.1]
+
+＠ケツァル・コアトル
+ここがエリドゥの中心、王権が降りた地よ。[r]余所の神性である私が紹介するのも何ですが。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+＠Dr.ロマン
+王権というのは神々から下された“王の証”……[r]まあ、契約書とか誓約書のようなものと思えばいい。
+[k]
+
+＠Dr.ロマン
+メソポタミアでは王は天が決め、[r]それが支配者たちの間で移動するものとされた。
+[k]
+
+＠Dr.ロマン
+そして円筒印章というのは……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+そこの大きな柱だね。[r]印章とはその名の通り、ようはハンコだ。
+[k]
+
+＠マーリン
+[%1]君の国ではスタンプ型だったかな？[r]版に図面を刻み、これに塗料をつけて押すと
+[k]
+
+＠マーリン
+図面をポンポンと大量にコピーできる、というものだ。
+[k]
+
+＠マーリン
+キミたちの時代から5000年前のウルクでは、[r]この印章は早くも日常化されていた。
+[k]
+
+＠マーリン
+もちろん、お役所的なサインとしてではなく、[r]魔術的な儀式としてね。
+[k]
+
+＠マーリン
+ウルクでは円筒のものに物語を刻み、[r]これを泥において回す事で物語を量産した。
+[k]
+
+＠マーリン
+ここにあるのはその円筒印章の中でも[r]もっとも大きく、そして古いもののようだ。
+[k]
+
+＠マーリン
+どれ。このままではなんだか分からないので、[r]私が空間に転写してみよう。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+[se ad39]
+[effect bit_talk_22]
+[wt 1.0]
+[effectStop bit_talk_22]
+[fadeout white 1.5]
+[wait fade]
+[wt 1.5]
+[fadein white 1.5]
+[wait fade]
+[wt 1.0]
+
+？1：これは……？
+？2：都市と、竜……？
+
+？！
+
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マーリン
+ふうむ。物騒な内容だね。
+[k]
+
+＠マーリン
+天に光の環かかる時、メソポタミアの地は原初に還らん……うむ。[r]つまり今のこの状況を予言した印章だ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[wt 1.0]
+[charaFace B 7]
+
+＠マシュ
+……この都市はウルクなんですね。[r]では大きな竜はティアマト神……ゴルゴーンを示していると？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+女神黙秘権を行使するわ。[r]即ちゴッデスデリカシーを行使するわ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+私もコメントは控えさせていただきマース！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+
+＠ジャガーマン
+あのー。これ、ぶっちゃけティま[charaEffect F bit_talk_13][wt 0.1][se ad76][charaShake F 0.01 5 5 0.4][charaMove F -1000,0 0.2]はふぅ！？
+[k]
+
+
+[charaFadeout F 1.0]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+いけませんよジャガー。[r]これはあくまで観光名所、特に意味はないものです。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+……そうなのですか？[r]でも、観光名所という事は……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+ああ。エリドゥはウルクと同規模の都市だ。
+[k]
+
+＠Dr.ロマン
+メソポタミアの人たちにとって、[r]この印章の内容は広く知れ渡っていると考えられる。
+[k]
+
+＠Dr.ロマン
+ウルクの人たちがティアマト神を恐れていたのは、[r]この印章にある予言を既に知っていたから、という事か。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+…………まあね。その上で魔獣戦線なんてものを[r]展開したのよ、あの金ピカは。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+ヤ。私も『三女神同盟』の一柱だったので言えた義理では[r]ありませんが、ウルクの人たち諦め悪いデース！
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+でもその結果、この地の滅亡を半年も耐え[#凌:しの]いで、[r][%1][&君:さん]というマスターが間に合いました。
+[k]
+
+＠ケツァル・コアトル
+その努力に、今度は私が応える番です。
+[k]
+
+＠ケツァル・コアトル
+お尻の軽い女神ですが、[r]できるかぎりの協力はさせていただきます。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+なに、敵陣営の中をひょいひょいと[#鞍替:くらが]えするのは[r]迷惑だが、味方になってくれる分には歓迎だとも。
+[k]
+
+＠マーリン
+キミがこれを[%1]君に見せたかった理由も、[r]なんとなく察しはついた。
+[k]
+
+＠マーリン
+キミは本当に人間の成長を見守る女神のようだね。[r]過保護でない分、母というより頼れる姉のようだが。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+
+＠ケツァル・コアトル
+うひひ、照れますネー！[r]実際、お姉さんだと言ってますけどネー！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFadein E 0.1 2]
+
+＠ジャガーマン
+ニャハハ、姉貴分なら私もいるぜ！[r]まぜれー！
+[k]
+
+＠ジャガーマン
+[line 3]って、ハ！？[r]気づいてみれば、もの凄い[&ハーレム:ガールズ]状況じゃない、今！？
+[k]
+
+＠ジャガーマン
+女神が三柱、幼女ひとり、後輩ひとり！[r]イソノー、ちょっと女子率高すぎんよー。
+[k]
+
+[charaFace F 3]
+＠ジャガーマン
+これじゃいつ青春イベントが始まるか、[r]知れたものじゃない……ゼ？
+[k]
+
+[charaFace E 1]
+＠ケツァル・コアトル
+あ、ジャガーはここから別行動よ。[r]斧を運ぶ翼竜たちの監督役に任命するわ。
+[k]
+
+[charaFace F 2]
+＠ジャガーマン
+えー、やだー！　それ二軍落ちって事じゃーん！[r]メインカメラたる[%1]の隣がいいニャー！
+[k]
+
+[charaFace E 1]
+＠ケツァル・コアトル
+ふふふ。私に二度、同じ事を言わせるの？[r]（意訳：敷きものと剥製、どちらがいいの？）
+[k]
+
+[charaFace F 0]
+＠ジャガーマン
+オッケー、翼竜たちの指導は任せて！[r]きっちり三日でウルクまでお届けするわ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_11 1.0]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[scene 30400]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+
+＠アナ
+……という事で、ジャガーマンは別行動となりました。[r]ケツァル・コアトルの判断は適確です。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠ケツァル・コアトル
+でしょでしょ？[r]道中、ライバルは少ない方がいいですからネー！
+[k]
+
+[charaFace E 0]
+＠ケツァル・コアトル
+そうだわ。イシュタルも飛べるんだから[r]密林行に付き合う必要はないんじゃない？
+[k]
+
+＠ケツァル・コアトル
+ここは私とアナに任せて、[r]先にウルクに戻るべきでは？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+私も付き合うわよ。[r]下心見え見えの女神を放置して行けるかっての。
+[k]
+
+＠イシュタル
+ね、そうでしょうマシュ？[r]アナタは私側よね？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はあ……わたしはどちら側でもありませんが、[r]帰りの道中、安全である事はいい事かと。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 3]
+
+
+＠Dr.ロマン
+んー……さっきジャガーマンはあんなコト言ったけど、[r]これ[&ハーレム:ガールズ]じゃないぞ……単なる鉄火場だぞ……
+[k]
+
+
+？1：今回は華やかな旅だね
+？2：前回は男ばっかりだったからね
+
+？！
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+はは、揺り返しというヤツかな。[r]確かに、七度も探索をしていればこんな事もあるか。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+これも旅の醍醐味ってヤツだろうね。[r]何にせよ、最後の探索が華やかなのはいい事だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[communicationCharaLoop 98105900 1 5 0 0]
+
+＠Dr.ロマン
+ウルまでに何度か魔獣に襲われるだろうけど、[r]今のキミの敵じゃないだろうし。
+[k]
+
+＠Dr.ロマン
+帰り道、十分に楽しんでくれたまえ。[r]でも油断は禁物だよ？
+[k]
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaEffectStop D bit_talk_10]
+[wt 1.0]
+
+[soundStopAll]
+[end]
+
+

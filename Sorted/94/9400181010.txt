@@ -1,0 +1,317 @@
+
+＄94-00-18-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6010001 1 ステンノ]
+[charaSet D 2012001 1 エウリュアレ]
+[charaSet E 4001001 1 メドゥーサ]
+
+[scene 10204]
+
+
+＠
+感謝の気持ちをありったけ。[r]特別な日に、特別なものを。
+[k]
+
+＠
+あの人にとって特別なものでなくても、[r]あの人にとって自然なことであっても。
+[k]
+
+＠
+この想いは一方通行に、[r]応じてもらうなんてとんでもない。
+[k]
+
+＠
+それでは、茶色のお菓子に真心を込めて。[r]どうか、受け取ってくれますように……
+[k]
+
+[messageOff]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.4 1]
+[wt 0.4]
+＠マシュ
+[line 2]という訳でチョコレートは完成しました。[r]無事に。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……先輩は沢山もらえるようで何よりですが。[r]自分のチョコが認識されるか不安です。
+[k]
+
+＠マシュ
+包装等、少し地味だったでしょうか……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+フォウさん、励ましありがとうございます。[r]それでは、先輩に渡しに行ってきます。
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.5]
+[se ad8]
+[wt 0.5]
+[scene 10310]
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+[wt 0.4]
+＠マシュ
+手紙は先に投函しておいたので、[r]マイルームにいるはずですが……。
+[k]
+
+[se ad50]
+[wait se ad50]
+[wt 0.5]
+
+[charaFace A 13]
+＠マシュ
+先輩？[r]先輩、いらっしゃいますか？
+[k]
+
+＠マシュ
+……。[r]……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……おかしいです。[r]返答がありません。
+[k]
+
+＠マシュ
+……ひとまず退出記録を探って……。[r]退出記録、なし。
+[k]
+
+[charaFace A 7]
+＠マシュ
+となるとまさか、[r]いつかのクリスマスのような[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaSet A 8001001 1 マシュ]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+緊急事態につき、とう！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ！？
+[k]
+
+＠マシュ
+突入します！[r]バックアップお願いします、フォウさん！
+[k]
+
+＠フォウ
+フォフフォフ！？
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wt 0.25]
+[scene 20300]
+[wait wipe]
+[se ad8]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩……いえ、マスター！[r]ご無事ですか！？
+[k]
+
+[messageOff]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+＠マシュ
+……え？[r]わたしは確かに先輩の部屋に入室したのに……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.4]
+＠ステンノ
+ふふふ、ようこそお客様。[r]乱暴な到着、歓迎するわマシュ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+[wt 0.4]
+＠エウリュアレ
+まさに[#ステンノ:わたし]の思惑通りね、デミ・サーヴァント。[r]でも少し残念。
+[k]
+
+[charaFace D 1]
+＠エウリュアレ
+一分でも遅れたら、罰として[#駄妹:メドゥーサ]に[r]お仕置きをする流れだったのに。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+[wt 0.4]
+＠メドゥーサ
+……時間ぴったりに来てくれて、[r]心底から感謝します、マシュ……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+こ、これはどういうことですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ステンノ
+分からないのかしら？[r]バレンタインは女性にとって大切なイベント[line 3]
+[k]
+
+[charaFace C 1]
+＠ステンノ
+それは貴女にも同じこと。[r]なら、カンタンに行っては有り難みがないでしょう？
+[k]
+
+＠ステンノ
+特別な日には特別なイベントが必要不可欠。[r]ですので[line 3]
+[k]
+
+[charaFace D 2]
+＠エウリュアレ
+そう！　こうして私たちが[r]盛り上げてあげるってワケね！
+[k]
+
+＠エウリュアレ
+艱難辛苦を乗り越えてチョコを渡してこそ、[r]マスターとサーヴァントの仲も深まるものだもの！
+[k]
+
+[charaFace D 1]
+＠エウリュアレ
+あれよね、吊り橋効果ってヤツ。[r]ツンとデレのバランスが大事なんでしょう？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メドゥーサ
+あ、はい……もちろんです、上姉様、下姉様。
+[k]
+
+[charaFace E 4]
+＠メドゥーサ
+そして本当に申し訳ありません、マシュ。[r]この二人はそういう感じのアレなので、ええ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk off]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ステンノ・エウリュアレ
+聞こえているわよ、メドゥーサ？[r]聞こえているわよ、メドゥーサ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メドゥーサ
+ごめんなさい、ごめんなさい姉サマーズ！
+[k]
+
+＠メドゥーサ
+えー……そう言った訳でまことに申し訳ないのですが、[r]私たちを倒して進んで下さーい！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+なるほど、そういうことですか。[r]……了解しました。この試練、お受けします！
+[k]
+
+[charaFace A 7]
+＠マシュ
+特別なイベントには特別な試練が似合う……[r]その言葉には正しさがあると受理しましたので！
+[k]
+
+[charaFace A 2]
+＠マシュ
+そして[line 3]先輩に感謝の気持ちを伝えるのは[r]この日しかないのですから……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

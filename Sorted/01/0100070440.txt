@@ -1,0 +1,230 @@
+
+
+
+＄01-00-07-04-4-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet D 3027000 1 アナ]
+[charaSet E 98107600 1 祭祀長シドゥリ]
+[charaSet C 3009000 1 レオニダス]
+
+
+
+[bgm BGM_EVENT_4 0.1]
+[scene 33200]
+[fadein black 1.5]
+[wait fade]
+[charaTalk C]
+[charaFace C 0]
+[se ad10]
+[charaFadein C 0.1 -512,50]
+[charaMove C 0,-100 0.3]
+[wait charaMove C]
+[shake 0.05 5 5 0.7]
+[charaMove C 0,0 0.1]
+[wait charaMove C]
+[shake 0.05 7 10 0.7]
+[charaMove C 1 0.2]
+[wait charaMove C]
+
+＠レオニダス
+とーぅ！　[%1]殿、マシュ殿！[r]おぉはぁよう！　ございます！　今朝もよい天気です！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+レ、レオニダス王！？[r]今朝はこちらから出勤ですか！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠レオニダス
+ははは。王はなしですよ、王は。[r]今の私は一介の兵士。ウルクを守る一枚の盾にすぎません。
+[k]
+
+＠レオニダス
+そして本日は東兵舎にて兵の育成を行う鬼教官！
+[k]
+
+＠レオニダス
+このレオニダス、やや大人げなくはありますが、[r]兵たちをスパルタ地獄にたたき落とす[#歓:よろこ]びで一杯です！
+[k]
+
+？1：それ死ぬのでは？
+
+＠レオニダス
+ははは。訓練がハードすぎて死ぬ、など、[r]気合いが入っていない証拠。
+[k]
+
+＠レオニダス
+つまり、死人のような状態になっているという事でしょう？[r]そんなもの、背中から気合いを入れれば蘇生します！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 20]
+[charaFadein A 0.1 1]
+
+＠マシュ
+おお[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠フォウ
+フォ[line 4]ウ…………
+[k]
+
+？2：北の戦線はいいんですか？
+
+＠レオニダス
+はい。ティグリス河を使った水計が功を奏しまして。[r]数日は魔獣たちの侵攻も弱まるかと。
+[k]
+
+＠レオニダス
+その間にこちらは軍備を整えねばなりません。[r]武器の補充は兵器舎がよくやってくれていますが、
+[k]
+
+＠レオニダス
+兵士たちの質ばかりはどうにもならない。[r]ですので、私が直接！
+[k]
+
+＠レオニダス
+戦場における生存力向上のため、[#這:ハゥ]！　[#闘:トゥ]！を[r]たたき込んでやろうと思った次第です！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠フォウ
+フォーウ……
+[k]
+
+？！
+[charaFadeout B 0.1]
+[bgmStop BGM_EVENT_4 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠祭祀長シドゥリ
+おはようございます、[%1]、マシュ。[r]アナも下りてきましたね。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+
+＠アナ
+……はい。何か、とてもうるさかったので……[r]敵襲かと……
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+＠レオニダス
+敵襲ですと！？　ですがご安心を！[r]このレオニダスがいるかぎり、とりあえずは負けません！
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠アナ
+……レオニダスさん、でしたか……[r]……なら、仕方ありません……ご苦労さまです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠祭祀長シドゥリ
+本日の依頼は東兵舎のレオニダス氏から。
+[k]
+
+＠祭祀長シドゥリ
+兵士たちがいい感じに育ってきたので[r]模擬戦をしてほしい、との事です。数は百人とか。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 3]は？[r]あの、いまなんと？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠祭祀長シドゥリ
+気持ちは分かります。[r]ですが諦めた方が最終的には楽かと。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠レオニダス
+ほう！　百人組み手、いいですな！[r]私も成人の儀式前によく行ったものです！
+[k]
+
+＠レオニダス
+しかし、なぜそんなハードな仕事を？
+[k]
+
+＠レオニダス
+[%1]殿には[r][#ラケダイモニオイ:ス　　パ　　ル　　タ]な知り合いでもおられるのですかな？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠フォウ
+フォウ、フォ[line 3]ウ！[r]（特別意訳：おーまーえーだーよー！）
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

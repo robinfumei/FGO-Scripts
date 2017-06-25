@@ -1,0 +1,387 @@
+＄91-70-04-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10915]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 7004001 1 フラン]
+[charaSet D 98006100 1 ホムンクルス]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠フラン
+……。[r]……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠マシュ
+フランさん。大丈夫ですか？
+[k]
+
+[charaFace C 0]
+＠フラン
+……ゥ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+この時代に、フランさんと同じ人造人間が存在する……。[r]カルデアの分析は、本当に正しいのでしょうか。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ロンドンとも、ヴィクター・フランケンシュタインの[r]生家とも遠く離れているのに……。
+[k]
+
+＠フラン
+ゥゥ。
+[k]
+
+[charaFace A 8]
+＠マシュ
+フランさんにも分からないですよね……。[r]でも、ともかく探してみましょう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+あ、フランさん。[r]マスターを起こしてあげてください。
+[k]
+
+＠マシュ
+わたしは周囲の見回りをしてから[r]合流しますから。
+[k]
+
+[charaFace C 1]
+＠フラン
+ゥ！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout C 0.4]
+[wt 0.6]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+……異常はないですね。[r]よし、後はマスターと合流して[line 2]。
+[k]
+
+[se bac29]
+[wait se]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 14]
+＠マシュ
+な、何事[line 2]！？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.4 0]
+＠フラン
+……ゥゥ！
+[k]
+
+[charaFace A 4]
+＠マシュ
+えーっと。……マスターがなかなか起きなかったので、[r]もしかしたら大変な病気かもと思った。
+[k]
+
+＠マシュ
+そこで、病気には電気ショックだと思って……。[r]『[#磔刑の雷樹:ブラステッド・ツリー]』を叩き込んだ、ですか。
+[k]
+
+[charaFace A 8]
+[bgmStop BGM_EVENT_3 0.4]
+＠マシュ
+……。[r]……。
+[k]
+
+[charaFace A 15]
+[bgm BGM_EVENT_3 0.1]
+＠マシュ
+大変じゃないですか[line 2]！？
+[k]
+
+＠フラン
+ゥ？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.4]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[wt 1.5]
+[charaFace A 0]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk B]
+[fadein black 0.5]
+[wait fade]
+？1：死ぬかと思った
+
+？2：三途の川に行っていた
+
+？！
+
+[charaFace A 13]
+＠マシュ
+生きていて良かったです。
+[k]
+
+[charaFace C 4]
+＠フラン
+ゥ……。
+[k]
+
+[charaFace A 1]
+＠マシュ
+大丈夫ですよ、フランさん。[r]マスターは怒ってませんから。
+[k]
+
+＠フラン
+ゥ？
+[k]
+
+？1：怒ってない
+
+？2：これから気を付けて
+
+？！
+
+[charaFace C 0]
+＠フラン
+ゥー……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+了解だそうです。
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[wt 0.5]
+[bgm BGM_EVENT_5 0.1]
+[scene 20702]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+＠マシュ
+さて、ドクター。間もなく目的地に到着します。[r]何か反応はありますか？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+＠Dr.ロマン
+んー……おかしいな。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+一瞬だが、先ほど強い魔力が計測された。[r]けど、もう消えている。
+[k]
+
+＠Dr.ロマン
+残滓はあるようだけど、それも次第に薄れ始めている。[r]君たちが辿り着く頃には、ゼロに近くなっているだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+何かの召喚儀式でしょうか？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+どうかな……これだけではハッキリとは判らない。[r]敵性と思しき生体反応はないから、安心して調べてくれ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フラン
+……ゥ？[r]ゥ、ゥゥ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+フランさん、どうしました？[r]……あそこに、ヘンなものが見えた……ですか？
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[wt 0.2]
+[scene 20702]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0 1]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+＠マシュ
+これは……何かを埋めた跡でしょうか。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+少し調べてみよう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フラン
+ゥゥゥゥゥ……。
+[k]
+
+？1：どうした？
+
+？2：何かある？
+
+？！
+
+＠フラン
+ゥ、ゥ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+土の下……？
+[k]
+
+[se ad23]
+[wt 0.4]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 15]
+＠マシュ
+え……声！？
+[k]
+
+[charaFace C 4]
+＠フラン
+ゥゥゥゥ……！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ま、待て！[r]それは掘らない方がいい。マズいぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター、ここには一体何が……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そこにあるのは、人間の遺骸だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[se ad54]
+[wait se]
+[se ad54]
+[wait se]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 0.6]
+[charaFadeout D 0.2]
+[charaTalk C]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠フラン
+……！？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠マシュ
+これは……人間ではなくホムンクルス……？[r]しかも、まだ……生きています……！！
+[k]
+
+[charaFace C 2]
+＠フラン
+ゥ[line 6]ッ！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+つい先ほどまで、魔力すら感じさせずに[r]死んでいたってのに……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、行きます！
+[k]
+
+[charaFadeout A 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

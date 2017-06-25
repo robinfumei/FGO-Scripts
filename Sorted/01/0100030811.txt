@@ -1,0 +1,47 @@
+＄01-00-03-08-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 4008002 0 黒髭]
+[charaSet G 4009101 1 メアリー]
+[charaSet H 4009201 1 アン]
+[charaTalk G]
+[charaFace H 4]
+[charaFadein H 0 2]
+[charaFace G 4]
+[charaFadein G 0 0]
+[fadein black 1]
+[wait fade]
+＠メアリー
+……届かなかったか。[r]船長、ごめん。先に行くよ。
+[k]
+
+＠アン
+船長。[r]私たちが居なくなったからって自棄を起こさないで頂戴な。
+[k]
+
+[charaFace H 0]
+＠アン
+……勝者である事があなたの取り柄。それまで無くして[r]しまったら、それこそ私たちが馬鹿みたいでしょう？
+[k]
+
+[messageOff]
+[charaSpecialEffect G flashErasure 0 1]
+[charaSpecialEffect H flashErasure 2 1]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect G]
+[wait charaSpecialEffect H]
+[wt 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

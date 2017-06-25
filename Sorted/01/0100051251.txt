@@ -1,0 +1,346 @@
+
+＄01-00-05-12-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3011001 1 フィン]
+[charaSet C 3002001 1 ディルムッド]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 99200300 1 ロビンフッド]
+[charaSet G 3005002 1 エリザベート]
+[charaSet H 1019001 1 ラーマ]
+
+[scene 20400]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠フィン
+クッ……！！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠ディルムッド
+王！！[r]……ぐ、ダメか……。
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace B 1]
+＠フィン
+はは……まあ、仕方あるまい。[r]いやいや、存分に戦った。戦い尽くした。
+[k]
+
+[charaFace B 0]
+＠フィン
+ディルムッド、私は満足だが[line 2]。[r]おまえは不満か。
+[k]
+
+＠ディルムッド
+……はい。此度こそ、勝利をと思っていたので。
+[k]
+
+＠フィン
+[line 2]まあ、正直な話。[r]勝敗はどうでも良かったのだ、私は。
+[k]
+
+[charaFace B 4]
+＠フィン
+生前の私は、どんどんと薄汚れていく。
+[k]
+
+＠フィン
+輝かんばかりだった眼差しは[#政:まつりごと]に[#澱:よど]み、[r]勝ち得た財宝が、権力が、義理が、私を縛り付けていった。
+[k]
+
+＠フィン
+あれは、苦しい。[r]苦しいのに、手放せない。
+[k]
+
+＠フィン
+[line 2]愛に殉じようとしたおまえが妬ましかったのも、[r]恐らくはそれだろう。
+[k]
+
+＠ディルムッド
+王……貴方は……。
+[k]
+
+[charaFace B 0]
+＠フィン
+共に戦えた。[r]ただ純朴に、貪欲に、勝利を求めた。
+[k]
+
+[charaFace B 1]
+＠フィン
+私は満足だ。……実際のところ、[r]マシュ殿を得られなかったのは残念だが……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……申し訳ありませんが。[r]その要求にはお答えできません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠フィン
+うむ、振られたか！[r]では、未練がましくしがみつかず[line 2]行くとするか。
+[k]
+
+[charaFace B 0]
+＠フィン
+供回りを頼むぞ、ディルムッド。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ディルムッド
+はは！
+[k]
+
+＠フィン
+そして、[#血塗れの聖女:バーサーカー]殿よ。[r]傷ついたのに自分を癒すこともないのかな？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+必要はありません。[r]私を癒す暇などなく、私はそもそも癒されない。
+[k]
+
+＠ナイチンゲール
+私の心は、ただ患者が存在するだけで千々に乱れて[r]しまうのですから。
+[k]
+
+＠ナイチンゲール
+だから……癒されるならば、[r]世界から患者が存在しなくなったとき。
+[k]
+
+＠ナイチンゲール
+それまでは、如何なる傷も代償として受け止めます。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フィン
+うむ。破綻しているが、美しい。[r]その信念はまばゆい貴石のようなもの。
+[k]
+
+＠フィン
+次に召喚される際は君の夢に手を貸してやりたいものだ。[r]などと次の花嫁候補にコナをかける私とか、どう思う？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠ディルムッド
+どうもなにも。[r]実に貴方らしいかと、王よ。
+[k]
+
+[charaFace B 1]
+＠フィン
+うむ、ならば良し！　死ぬ時まで若々しい自分であれば[r]召喚された甲斐もあるというもの！
+[k]
+
+＠フィン
+さらばだ秩序の守り手たちよ！[r]縁があればまた会うこともあるだろう！
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad52]
+[charaSpecialEffect B flashErasure 0 1.7]
+[charaSpecialEffect C flashErasure 2 1.7]
+[wait charaSpecialEffect C]
+
+[wt 1.0]
+[wt 0.3]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 2]霊基の消滅、確認しました。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……最後の最後まで鮮やかで、軽くて[line 3][r]心地よい二人でした。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠ラーマ
+しかし、こちらにこれだけの軍勢を集めたということは、[r]やはり向こう側の暗殺は成功した……のか？
+[k]
+
+[charaFadeout H 0.1]
+
+[se ad13]
+[wait se ad13]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 2]通信が入りました。[r]あれ？[charaFace A 6]　ジェロニモさんではなく、ロビンさん……？
+[k]
+
+[charaFace A 7]
+＠マシュ
+通信をオープンに切り替えます。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+
+[charaTalk F]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[se ad13]
+[charaEffect F bit_talk_10]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[wt 0.3]
+＠ロビンフッド
+[line 2]悪ぃ。しくじった。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk off]
+[charaFace A 6]
+＠マシュ
+……！！[r]現状を[charaFace A 7]教えて下さい、ロビンさん！
+[k]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 0]
+＠ロビンフッド
+ジェロニモのおっさん、ビリー、それからセイバー……[r]ネロも多分、やられた。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk off]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠エリザベート
+[line 8]え？[r]ちょっと、アンタ、なんて言ったの？
+[k]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 5]
+＠ロビンフッド
+今、西部アメリカ軍が廃棄した基地に向かっている。[r]座標は分かるか？　悪いがすぐに来てくれ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk off]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+分かり……ました。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut F -1000,0]
+
+[charaTalk on]
+[wt 0.7]
+
+？1：…………
+？2：何が……？
+
+？！
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……分かりません。[r]ドクター、ロビンさんの指定した場所は分かりますか？
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+あ、ああ。もちろんだ。[r]通信機の座標を取得[line 2]コード受信。
+[k]
+
+＠Dr.ロマン
+目的地までの最短ルートをそちらに送る。[r]すぐに向かってくれ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠エリザベート
+……嘘よね。[r]ねえ、嘘でしょう？　あれ、アイツの冗談よね？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+[soundStopAll]
+[end]

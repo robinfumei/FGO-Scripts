@@ -1,0 +1,325 @@
+＄01-00-06-07-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet E 98084000 1 粛正騎士]
+[charaSet F 98082000 1 難民の女性]
+[charaSet G 98083000 1 難民の子供]
+[charaSet H 1007002 1 ガウェイン]
+
+[scene 28901]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠粛正騎士
+貴女は選ばれた。[r]どうぞ、聖都に入られよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠難民の女性
+やめて、離して！[r]ああ……ルシュド、ルシュド！
+[k]
+
+＠難民の女性
+目を覚まして、ルシュド！[r]子供を殴るなんて、なんて酷いことを……！
+[k]
+
+＠難民の子供
+ぁ………………ぁ……。
+[k]
+
+＠難民の女性
+連れて行くのならわたしの子も！[r]あの子をひとりにはできない！
+[k]
+
+＠粛正騎士
+その子供は選ばれてはいない。忘れよ。[r]既に、貴女の身は貴女のものではない。
+[k]
+
+＠粛正騎士
+例外は許されない。親愛は許されない。[r]理想の魂に、人としての自由は許されない。
+[k]
+
+＠難民の女性
+獅子王様に従います！　何でもします！[r]ですからどうか、この子と一緒に……！
+[k]
+
+＠難民の女性
+きちんとわたしが言いつけますから！[r]これからは獅子王様にお祈りを捧げなさい、と！
+[k]
+
+＠粛正騎士
+……いや。貴方がたは己が神を捨てはしない。[r]それは幼子であってもだ。
+[k]
+
+＠粛正騎士
+[#篤:あつ]き信仰は[#尊:とうと]きものだ。[r]それ故に、命そのものに[#値:あたい]する。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠粛正騎士
+せめて、その信仰と共に眠れ。[r]貴女の息子は、貴方がたの神に選ばれた。
+[k]
+
+＠難民の女性
+ああ[line 3]やめて、やめて[line 3][r]どうか、その子だけは！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_1 0.4]
+[charaFadeout E 0.1]
+[wt 0.2]
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 0.5]
+[effect bit_talk_12]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.1]
+[se bac5]
+[wt 0.3]
+[charaFadeout G 0.4]
+[charaFadeout F 0.4]
+[wt 0.7]
+
+[effect bit_talk_35]
+[se ad46]
+[wt 2.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠粛正騎士
+……馬鹿な。[r]我が子を、[#庇:かば]う、などと。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace F 0]
+[charaFadein F 0.1 -100,0]
+[charaFace G 0]
+[charaFadein G 0.1 100,0]
+＠難民の子供
+あれ……おかあさん？[r]どうしたの、もう朝に、なったの？
+[k]
+
+＠難民の女性
+ああ……ルシュド……よかった。[r]わたしの希望……わたしの……[#人生:いのち]……
+[k]
+
+＠難民の女性
+どうか……健康に……[r]善き毎日が、送れますよう……
+[k]
+
+＠難民の子供
+おかあさん、泣いてるの……？[r]なにか悲しいコトでもあったの……？
+[k]
+
+＠難民の子供
+もう、泣き虫なんだから。[r]あと、そんなにぎゅうっとされると苦しいよ？
+[k]
+
+[charaFadeout F 0.4]
+
+＠難民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠粛正騎士
+コクマー２より報告。一名、生命活動停止。脱落を確認。[r]自らの価値を計れぬ者に、聖都に入る資格はない。
+[k]
+
+＠粛正騎士
+子供を処理した後、聖罰を再開する。[r][line 3]報告、以上。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠難民の子供
+……おかあさん？[r]誰、その人？　おかあさんのトモダチ？
+[k]
+
+[charaMoveReturn E -230,0 0.2]
+[wt 0.1]
+[charaEffect G bit_talk_13]
+[wt 0.1]
+[se bac9]
+[charaShake G 0.05 3 3 0.25]
+[wt 0.4]
+[charaMove G 280,0 0.4]
+[charaFadeout G 0.4]
+[wt 0.1]
+[se ad78]
+[seStop ad78 0.4]
+＠難民の子供
+きゃっ！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠粛正騎士
+不敬な。我ら粛正騎士を脱落者と同格に扱うとは。
+[k]
+
+＠粛正騎士
+先ほどの母親が選ばれたのは何かの間違いだ。[r]母親ともども、下らぬ山の民を処断する[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.3]
+[wipeout leftToRight 0.25 1]
+[wait wipe]
+[charaFadeout E 0.1]
+[wt 0.3]
+[wipein rightToLeft 0.25 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.1 1]
+[effect bit_talk_41]
+＠マシュ
+う、わぁあああああああ[line 3]！
+[k]
+
+[messageOff]
+[cameraMove 0.25 0,0 1.5]
+[wipeout circleIn 0.25 1]
+[wait wipe]
+[cameraMove 0.1 0,0 1.0]
+[charaFadeout A 0.1]
+[wt 0.2]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wipein circleIn 0.25 1]
+[wait wipe]
+[wt 0.1]
+[charaEffect E bit_talk_14]
+[wt 0.1]
+[se bac10]
+[shake 0.05 3 3 0.4]
+[charaShake E 0.05 3 3 0.25]
+[wt 0.2]
+[effectStop bit_talk_41]
+[charaFadeout E 0.4]
+[wt 1.5]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+＠マシュ
+う、く……うう、う……！[r]敵、騎士、撃破、しました……！
+[k]
+
+＠マシュ
+でも、でも……！[r]わたし、見えていたのに、間に合わなかった……！
+[k]
+
+？1：マシュ、その子の保護を頼む！
+？2：……連れて逃げるぞ、マシュ！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい……！[r]マシュ・キリエライト、全力で彼を保護します！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ、ここが[#潮時:しおどき]だ！[r]これ以上、正門に近づいたら戻れなくなる！
+[k]
+
+＠Dr.ロマン
+キミたちも西から突破してくれ！[r]そこからならまだ間に合う！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.2]
+
+[bgmStop BGM_EVENT_5 0.4]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.4 1]
+＠ガウェイン
+それは叶わぬ望みです。[r]貴方がたは、ここで命を終えるのですから。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠ガウェイン
+見事な暴動でした。異教徒にもまだ、[r]貴方がたのように“戦う者”がいたのですね。
+[k]
+
+＠ガウェイン
+ですが、それもここまで。[r]聖都の門を乱した罪は万死に値する。
+[k]
+
+＠ガウェイン
+円卓の騎士、ガウェイン。[r]この聖罰を任された者として、貴方がたを処断します。
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_24 1.4]
+[wait fade]
+[soundStopAll]
+[end]

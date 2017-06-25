@@ -1,0 +1,338 @@
+＄01-00-06-19-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2008000 1 トリスタン]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 1012001 1 ベディヴィエール]
+
+[scene 29121]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+[effect bit_talk_14]
+[wt 0.1]
+[shake 0.05 3 6 0.3]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[se ad32]
+[wait effect bit_talk_14]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+＠静謐のハサン
+くっ……！　[%1]様、[r]この騎士はアーチャーではありません……！
+[k]
+
+＠静謐のハサン
+何か、もっと別の何かです！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+あれは音断ち……！[r]弓の弦を楽器のように弾いて切り裂く、真空の矢です！
+[k]
+
+＠マシュ
+でも、この強さはそれだけでは……！[r]獅子王の[#祝福:ギフト]です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠トリスタン
+……ええ、悲しい事です。私は貴方たち程度の者に[r]王の[#祝福:ギフト]を使いたくないのですが……
+[k]
+
+＠トリスタン
+これは私の自由になる力ではありません。[r]相手が弱者であれ振るわれてしまう無慈悲の刃……
+[k]
+
+[charaFace B 1]
+＠トリスタン
+ああ……私は悲しい。こうしてまた祝福無き者を、[r]冥府に送らねばならないとは。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+いいや……！[r]そこまでだ、トリスタン……！！！！！！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.5]
+[se bac7]
+[effect bit_talk_12_yellow_R]
+[wait effect bit_talk_12_yellow_R]
+[se bac117]
+[wt 0.25]
+[effect bit_talk_17]
+[wt 0.25]
+[flashin once 1.0 2000.0 F2FF5CAF F2FF5C00]
+[fadeout white 1.0]
+[wait fade]
+[effectStop bit_talk_17]
+[flashOff]
+[wt 1.5]
+[fadein white 0.5]
+[se ad32]
+[shake 0.05 2 4 0.4]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[effect bit_talk_14]
+[wt 0.2]
+[charaShake B 0.05 3 3 0.25]
+[wt 0.1]
+[charaAttack B normal -50,0 0.4]
+[wait effect bit_talk_14]
+[wait fade]
+[wt 1.2]
+[charaSet E 6009002 1 静謐のハサン]
+
+
+[charaFace B 0]
+＠トリスタン
+……さらに、ひとり。[r]なんと……まるで夢の中にいるようだ。
+[k]
+
+＠トリスタン
+貴公までこの戦場に現れるとは。[r]そして我らに敵対するとは。
+[k]
+
+[charaFace B 4]
+＠トリスタン
+ああ……私は悲しい。
+[k]
+
+＠トリスタン
+あと一歩で、すべて焼き尽くせたというものを。[r]無念です。嗚呼……それは、とても悲しむべきこと。
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+悲しむべき？[r]それは貴公の行動のすべてに他ならない。
+[k]
+
+＠ベディヴィエール
+トリスタン卿ともあろう者が[r]無抵抗の村人を手にかけ、火を放つなど……！
+[k]
+
+[charaFace F 2]
+＠ベディヴィエール
+円卓の誇りは地に落ちたのか。[r]それとも、それが今の王の考えなのか！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠トリスタン
+……愚かな。円卓に列なる騎士であれば、[r]無辜の民草を手にかけないと？
+[k]
+
+＠トリスタン
+サー・ベディヴィエール。[r]それは大いに誤りです。過ちです。貴方の。
+[k]
+
+＠トリスタン
+ブリテンにおいて、慈悲深き[#我らが王]は、[r]確かに、深追いを[#諫:いさ]めはしましたが[line 3]
+[k]
+
+[charaFace B 6]
+＠トリスタン
+[line 3]決して、[#禁じてはおりません]。
+[k]
+
+＠トリスタン
+……貴公は王の光ばかり見ていた。[r]だからあの方の、本当の恐ろしさを理解できない。
+[k]
+
+[se ad150]
+[wait se ad150]
+
+[charaFadeout F 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠トリスタン
+“王は人の心が分からない[line 3]”[r]私はこの言葉を、何度口にすればいいのでしょうね？
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+トリスタン……！
+[k]
+
+[messageOff]
+[cameraMove 0.25 0,0 1.5]
+[wipeout circleIn 0.25 1]
+[wait wipe]
+[cameraMove 0.1 0,0 1.0]
+[charaFadeout F 0.1]
+[wt 0.2]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wipein circleIn 0.25 1]
+[wait wipe]
+[wt 0.1]
+[charaEffect B bit_talk_12_yellow_R]
+[wait effect bit_talk_12_yellow_R]
+[flashin once 0.1 0.4 C0C0C0AF C0C0C000]
+[wt 0.1]
+[se ad32]
+[shake 0.05 3 5 0.4]
+[charaShake B 0.05 3 3 0.25]
+[wt 0.2]
+[wt 1.0]
+[charaFadeout B 0.1]
+[wt 0.5]
+
+[se ad137]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+っ……！
+[k]
+
+？1：落ち着いて、ベディヴィエール！
+？2：よく見るんだ、ベディヴィエール！
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠トリスタン
+……この怒り、この剣気……[r]穏やかだった貴公がここまでの殺気を放つとは。
+[k]
+
+＠トリスタン
+……その右腕はよほどの宝具のようだ。[r]これは、私も手を抜く事はできそうにありません……
+[k]
+
+[se ad150]
+[wait se ad150]
+
+＠トリスタン
+同じ円卓を囲み語らった騎士を……。[r]共に数多の強敵と戦った騎士を……。
+[k]
+
+＠トリスタン
+この手で、この[#弓:糸]で屠らねばならぬとは……。[r]この哀しみ、決して癒えることはないでしょう。
+[k]
+
+＠トリスタン
+考え直しては下さいませんか、卿。[r]貴方を穿ち、縛り、両断するとは、想像するだけで。
+[k]
+
+＠トリスタン
+この胸が張り裂けます。[r]嗚呼……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+……私も、同じく思う。[r]貴方はいつも悲観的な御仁ではあったが。
+[k]
+
+＠ベディヴィエール
+共に肩を並べた時、貴方ほどに[r]私の歩みに合わせてくれる騎士はいなかった。
+[k]
+
+＠ベディヴィエール
+守りについても。[r]攻めについても。他の何であろうと。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠トリスタン
+ええ、そうですとも。[r]私たちは……。
+[k]
+
+[se ad150]
+[wait se ad150]
+
+[charaFace B 4]
+＠トリスタン
+……友だった。[r]そうですね、ベディヴィエール卿。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠ベディヴィエール
+無論。そして、友だからこそ許せない事がある。
+[k]
+
+＠ベディヴィエール
+貴公の振る舞いを獅子王が許すと言うならば！[r]私は貴公の屍を超えて、獅子王に問うまでのこと！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠トリスタン
+[line 3]それは悲しい。[r]ベディヴィエール卿が今の王と対面するなど[line 3]
+[k]
+
+＠トリスタン
+これ以上悲しい話を、私は知りません。[r]悲しみの子と言われた私ですら正視に耐えない。
+[k]
+
+[charaFace B 6]
+＠トリスタン
+ですので、ここで斬り殺す事に何の[#躊躇:ためら]いもない。[r]友を悲劇から救うのも、友情というものですから。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+敵サーヴァント、来ます！[r]マスター、どうか指示を……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

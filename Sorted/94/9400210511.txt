@@ -1,0 +1,199 @@
+＄94-00-21-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 3005000 1 エリザベート]
+
+[scene 22140]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠エリザベート
+ギ、くっ[line 3][r]痛いじゃない……痛いじゃない、痛いじゃない……！
+[k]
+
+＠エリザベート
+……やめてよ。[r]教えないでよ。
+[k]
+
+お腹を裂くとこんなに痛いとか、[r]そんな本当、[#私:アタシ]に突きつけないでよ……！
+[k]
+
+＠エリザベート
+いまさら[line 3]ニンゲンはみんな同じ作りだった[r]なんて、教えられてもどうしようもない！
+[k]
+
+＠エリザベート
+なんで！？　なんで[#私:アタシ]ばっかり惨めなの！？[r]なんで[#私:アタシ]は何をやっても救われないの！？
+[k]
+
+＠エリザベート
+アナタたちがニンゲンなら、[r][#私:アタシ]はもっと下等なケダモノじゃない……！
+[k]
+
+＠エリザベート
+トカゲみたい、トカゲみたい、トカゲみたい……！[r]地面を這いつくばって、踏み潰され続けろって言うの！？
+[k]
+
+＠エリザベート
+耐えられない。[r][#私:アタシ]にはそんなの耐えられない！
+[k]
+
+＠エリザベート
+だから、ねえ、殺されなさいよ。殺されてよ。[r]お願いだから[line 3]私を、容赦なく殺してよぉぉぉお！
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect F]
+[bgmStop BGM_EVENT_5 0.1]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……サーヴァント、エリザベート消滅しました。[r]でも……今のは……
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィスト
+ええ、あのお嬢さんが常に秘めている本音でしたな！[r][#私:わたくし]には悲鳴にしか聞こえませんでしたが！
+[k]
+
+[charaFace E 3]
+＠メフィスト
+ですが、いいガス抜きになったのでは？[r]あの方、プライドというか、品位？
+[k]
+
+＠メフィスト
+貴族としての教育水準の高さでしょうなあ。[r]支配階級は[#嘆:なげ]いているだけではいけない。
+[k]
+
+＠メフィスト
+上に立つ以上は負わなくてはいけない責務、という[r]ものを心底からたたき込まれているのでしょう。
+[k]
+
+＠メフィスト
+転んでは起き上がり、高みを目指して羽ばたいては[r]また墜落、泥にまみれてはまた起きる[line 3]
+[k]
+
+＠メフィスト
+そんな贖罪を己ずと進んでいくようです。[r]んー、光り物に眩惑される[#竜:トカゲ]のように？
+[k]
+
+[charaFace E 1]
+＠メフィスト
+ですので先ほどの醜態はお気になさらず。[r]次に出会った時、
+[k]
+
+＠メフィスト
+“ところでその角、コラボ的に可愛いね”などと[r]言っておけば万事ＯＫなのですから！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……そうかなあ。今のが彼女の隠された叫びだとしたら、[r]いつか自家中毒で本当に怪物に[line 3]なんだぁ！？
+[k]
+
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[se ad31]
+[seStop ad31 1.5]
+[wt 1.0]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[communicationCharaClear]
+[communicationCharaLoop 5009003 1 5 0 2]
+＠ダ・ヴィンチちゃん
+たたた、タイヘンだロマニ！　理由は不明だけど、[r]いきなりエリザベートが私の工房に攻めてきた！
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチちゃん
+“いま起きたわ。ところでなんか、[r]　すっごく気持ちがスッとしてるから、”
+[k]
+
+＠ダ・ヴィンチちゃん
+“日頃の感謝をこめて夜食を作ってきてあげたの！[r]　さあ食べなさい、泣きながら食べなさい！”
+[k]
+
+[communicationCharaFace 2]
+＠ダ・ヴィンチちゃん
+とか言って！　ああ！　溶けてる！　なぜ皿から[r]こぼれたソースで私のモナリザが焼けてしまうのか！？
+[k]
+
+＠ダ・ヴィンチちゃん
+助けてロマニ！　私ひとりでは誤魔化せない！[r]ああ、なんてコト[line 3]
+[k]
+
+[communicationCharaFace 5]
+＠ダ・ヴィンチちゃん
+ゴーレム三体をまるごと焼いて、[r]お団子状のクッキーにしてみた、だと……？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.1]
+
+[se ad31]
+[wt 0.4]
+[communicationCharaStop]
+[wait communicationChara]
+[seStop ad31 0.4]
+
+[wt 1.4]
+
+[bgm BGM_EVENT_2 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+よし、何もなかった。[r]カルデアはいたって平和だ、[%1][&君:ちゃん]。
+[k]
+
+＠Dr.ロマン
+君は気にせずマンション調査を続けてくれ。[r]ボクも気にせず、君のバックアップに専念する。
+[k]
+
+？1：あ、ハイ。
+？2：せめて、まるごしダビデくんがあれば……！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メフィスト
+ほらね？　叩いてもすぐに戻る形状記憶アイドル。[r]それがエリザベートさんなのデス！
+[k]
+
+[wt 0.25]
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]

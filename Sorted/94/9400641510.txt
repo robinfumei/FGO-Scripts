@@ -1,0 +1,629 @@
+
+＄94-00-64-15-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 5028000 1 イリヤ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 98104300 1 ？？？]
+[charaSet E 98104300 1 ？？？]
+[charaSet F 98104300 1 ？？？]
+[charaSet G 98104300 1 ？？？]
+[charaSet H 98104300 1 ？？？]
+
+
+
+[scene 31300]
+[fadein black 2.0]
+[wait fade]
+
+[messageOff]
+[charaTalk C]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.5]
+
+＠Dr.ロマン
+いよいよ次の国だね。[r]キミたちが到着しかけているのは[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+たぶん『死せる書架の国』……かな。[r]こっちの方向を、二つの宝石が示し続けてたから……。
+[k]
+
+＠Dr.ロマン
+どれ……ふむ、生体反応らしきものがまったく無い。[r]名前通りのエリアということか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+恐ろしくひっそりとしています。[r]これまでとも違って、こぢんまりとした国のようです。
+[k]
+
+＠マシュ
+同じひとけの無さでも、中立地帯とはまた異なる、[r][#厳:おごそ]かな雰囲気ですね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+それと[line 3]見てください先輩、イリヤさん。[r]向こうに巨大な黒い壁が……！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[cameraMove 0.5 -200,-50 1.5]
+[wait camera]
+
+？1：緩やかに湾曲してドーム状になっている……？
+？！
+
+[cameraHome 0.5]
+[wait camera]
+
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+その『死せる書架の国』に隣接した、[r]また異なった性質の区域のようだね。
+[k]
+
+＠Dr.ロマン
+黒壁の向こうに探査がまったく通らないのが[r]なんといっても気掛かりだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それは確かに異常といいますか……[r]意図的なものですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+こんなところに[r]魔法少女なんているのかなあ……。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad21]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+[charaShake B 0.05 3 3 0.5]
+＠イリヤ
+って、きゃああぁぁ[line 2]！！
+[k]
+
+＠イリヤ
+お、お化けー！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace B 7]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+さがって[line 3]！
+[k]
+
+[charaFace A 7]
+＠マシュ
+イリヤさんは、[r]ゴースト系の敵性体を見るのは初めてですか？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[se ad21]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[charaDepth B 1]
+[charaDepth A 3]
+
+[charaTalk depthOff]
+
+[charaTalk B]
+[charaFace A 7]
+[charaFace B 7]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaMove B 1 0.5]
+[wait charaMove]
+[se ad7]
+
+＠イリヤ
+ひぃっ……[r]マ、マシュさ～ん（ひしっ）
+[k]
+
+＠マシュ
+大丈夫です。[r]わたしにまかせてください。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+？1：このゴースト……どこかへ行こうとしてる？
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 3]どうしますかマスター、指示を。
+[k]
+
+
+？1：……相手は一体だ。迂回してやりすごそう
+
+[charaFace A 7]
+＠マシュ
+了解です。[r]他の個体の出現にも警戒しつつ、迂回します。
+[k]
+
+
+？2：[&ははは:ふふふ]、イリヤはお子様だ[&なあ:ねえ]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+実際そうですけど！？　もうっ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+では……交戦は避けますか？[r]了解です。どうやら無害な相手のようです。
+[k]
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_3 1.5]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[wt 1.0]
+[charaFadeout D 0.4]
+[wt 0.5]
+[se ad21]
+[seVolume ad21 0 0.2]
+[wt 2.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 0]
+
+＠マシュ
+……何事もなく立ち去ってくれましたね。[r]例の黒い壁の方向へ、向かったようですが……。
+[k]
+
+＠Dr.ロマン
+[#徘徊:ワンダリング]していただけのようだね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+
+＠イリヤ
+はぁ～、怖かったぁ……。
+[k]
+
+[charaFace B 0]
+＠イリヤ
+でも……ありがとうマシュさん。[r]お化けさんを傷つけないでくれて。
+[k]
+
+[charaFace A 6]
+＠マシュ
+イリヤさん……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+いえ、お礼でしたら、先輩[line 3][r][%1][&お兄さん:お姉さん]に。くすっ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+あのゴーストが気になるのですか？
+[k]
+
+[charaFace B 4]
+＠イリヤ
+うん、とっても怖かったんだけれど……[r]どこか可哀想にも見えちゃって……。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[wipeout rightToLeft 1.5 1]
+[wait wipe]
+
+[charaFadeout A 0]
+[charaFadeout B 0]
+
+[scene 31400]
+
+[wt 1.0]
+[bgm BGM_EVENT_5 1.5]
+[wipein leftToRight 1.5 1]
+[wait wipe]
+
+[se ad60]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠マシュ
+[line 3]廃墟群のほぼ中心部に到達しました。[r]やはり、誰もいません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+シン……と静まりかえって、耳が痛いくらい。[r]本を読んだりするにはよさそうだけど……。
+[k]
+
+？1：ドクター？　どう？
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+今のところ、カルデアとのリンクは無事だ。[r]ただ、その周囲からは何の反応も得られない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+宝石の道案内の光も消えちゃったし……[r]どうしたらいいのかな……？
+[k]
+
+[charaFace B 1]
+＠イリヤ
+[line 3]そうだ！
+[k]
+
+[charaFace B 0]
+＠イリヤ
+わたし、ちょっと空を飛んで[r]上空から周囲の様子を見てきます！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+なるほど、名案では？　こんな小さな国です。[r]飛行生物も棲息していないようですし。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+いいですか？[r]じゃあ、わたしちょっと、行ってきます！
+[k]
+
+
+[charaPut D 1]
+[messageOff]
+[se ad150]
+[charaBackEffect D bit_talk_magicalchange_back]
+[wt 0.5]
+[charaChange B 5028001 0 fade 1.0]
+[wait charaChange B]
+[charaBackEffectStop D bit_talk_magicalchange_back]
+[wt 1.0]
+[charaPut D 1200,1200]
+
+[charaMove B 0,50 0.4]
+[wait charaMove]
+[charaMove B 0,-20 0.3]
+[wait charaMove]
+[charaMove B 0,0 0.2]
+[wait charaMove]
+
+？1：[line 3]ＯＫ。充分、気をつけて
+
+[charaFace B 0]
+＠イリヤ
+はい！
+[k]
+
+[messageOff]
+[charaFadeout B 0.3]
+[se bac122]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+イリヤさんの飛行はキレイですね。[r]舞い散る光が花びらのようで、素敵です。
+[k]
+
+
+？2：ミニスカをひらめかせてこそ魔法少女[&だね:だよ]！
+
+[charaFace B 3]
+＠イリヤ
+………………。
+[k]
+
+[charaFace B 5]
+＠イリヤ
+[&お兄さん:お姉さん]……ちょっと見上げる目つきが[&ヘン:オカシイ]。[r]ルビーっぽい。
+[k]
+
+[se ad60]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 100,0]
+[wt 0.5]
+[seStop ad60]
+
+＠マシュ
+どうぞ行ってください、イリヤさん。[r]わたしが先輩の視界を完璧にシールドしてる間に。
+[k]
+
+[charaFace B 1]
+＠イリヤ
+はーい！
+[k]
+
+[messageOff]
+[charaFadeout B 0.3]
+[se bac122]
+[wt 1.0]
+
+[charaTalk A]
+[charaMove A 1 0.5]
+[wait charaMove]
+＠マシュ
+先輩は少し頭を冷やしましょうか。
+[k]
+
+[charaFace A 13]
+＠マシュ
+まあ……彼女の飛行魔術は、[r]わたしも素直にうらやましいとは思います。
+[k]
+
+？！
+
+
+[charaFace A 6]
+＠マシュ
+…………え？[r]わたしに内密のお話ですか？
+[k]
+
+
+？1：[&ああ:うん]、実は……
+？！
+
+[charaFace A 14]
+＠マシュ
+わたしが……[r]カルデアの管制室で……？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout A 0]
+
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+[fowardEffect bit_talk_eyecatch_04]
+[wait fowardEffect bit_talk_eyecatch_04]
+[fadeout black 0.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 1]
+
+[scene 31400]
+
+[bgm BGM_EVENT_2 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaFace A 7]
+＠マシュ
+[line 3]驚きました。[r]そんな不可解な出来事があったのですか。
+[k]
+
+[charaFace A 4]
+＠マシュ
+はい……確かに、管制室を訪れてから、[r]レイシフト直後までの記憶がおぼろげです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+わたし自身、それをあまり気にしていなかったのは、[r]この世界の雰囲気に流されていたせいでしょうか……。
+[k]
+
+[charaFace A 14]
+＠マシュ
+それとも、わたしの身に変化が……？
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+
+＠B：？？？
+きゃぁー！[r]ちょ、引っ張らないでったらー！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace A 5]
+＠マシュ
+イリヤさんの声が！？[r]……っ……！？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad21]
+[charaTalk off]
+[charaFadein G 0.1 5]
+[charaFadein F 0.1 3]
+[charaFadein E 0.1 1]
+[wt 1.5]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩、こちらにも、[r]建物をすりぬけながら敵性体が！　こんなに！？
+[k]
+
+[charaFace A 15]
+＠マシュ
+このゴーストたちは、[r]あきらかに攻撃的です！
+[k]
+
+
+？1：撃破しながら、イリヤと合流しよう！
+
+[charaFace A 5]
+＠マシュ
+はい！　急ぎましょう！
+[k]
+
+
+？2：デミ魔法少女カルデア☆マシュに変身するフォウ！
+
+[charaFace A 5]
+＠マシュ
+はいっ！……[charaFace A 6]はい！？　フォウ？？
+[k]
+
+[charaFace A 7]
+＠マシュ
+先輩、あとでお話があります！
+[k]
+
+？！
+
+
+[bgm BGM_EVENT_3 0.1]
+
+[messageOff]
+[se bac65]
+[fowardEffect bit_talk_tornado01]
+
+[wt 0.8]
+[charaChange A 8001001 7 fade 0.5]
+[wait charaChange A]
+
+[wt 1.5]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

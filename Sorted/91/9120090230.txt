@@ -1,0 +1,300 @@
+＄91-20-09-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20720]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2009201 2 アルテミス]
+[charaSet E 2009102 2 オリオン]
+[charaFadein D 0.1 1]
+[charaTalk D]
+[charaFace D 5]
+[fadein black 1]
+[wait fade]
+＠アルテミス
+まったくもう！[r]どうしてモンスターばっかり出てくるのかしら！
+[k]
+
+？1：……
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+マスター？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠オリオン
+マスター！
+[k]
+
+＠オリオン
+……悪いが、ちょっと黙っててくれ。[r]俺から言った方がいいと思うし。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[charaFace D 0]
+[charaFace E 5]
+＠アルテミス
+え？　なになに？[r]内緒話？　ダメよ、ちゃんと私にも聞かせて！
+[k]
+
+＠オリオン
+……別に内緒って訳じゃないが。[r]その、だな。
+[k]
+
+＠オリオン
+……要するに、この世界にモンスター出てくるの、[r]俺たちのせいじゃね？
+[k]
+
+[charaFace D 3]
+＠アルテミス
+[line 2]え？
+[k]
+
+＠オリオン
+だってそうだろ。[r]俺はともかく、おまえ仮にも神だぞ。
+[k]
+
+＠オリオン
+そりゃ[#神体:しんたい]じゃなくても、世界に多少の影響は与えるだろ。
+[k]
+
+＠オリオン
+歪んだり、穴開けたりさ。
+[k]
+
+＠オリオン
+そしたら、そこからヘンなのがゾロゾロ出てくるのは[r]当たり前っつーか[line 2]。
+[k]
+
+＠アルテミス
+……じゃあ、なに。[r]私、他所の世界に行くのはダメなの？
+[k]
+
+＠アルテミス
+その……聖杯戦争で戦ってる場所しか？
+[k]
+
+[charaFace E 0]
+＠オリオン
+まあ、そういうことになる……かも。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+＠アルテミス
+……。[r]……。
+[k]
+
+[charaFace D 4]
+＠アルテミス
+う、う、う、うわぁぁぁぁぁぁぁぁぁぁぁぁん！[r]やだやだやだやだやーーだーー！
+[k]
+
+[charaFace E 5]
+＠オリオン
+はぁ、参ったね……。
+[k]
+
+[charaFace D 5]
+＠アルテミス
+だって、せっかく、せっかく外でデートできると[r]思ったのに！
+[k]
+
+＠アルテミス
+お兄ちゃんの目を盗んだりしないで！
+[k]
+
+＠アルテミス
+手を繋いだり、抱き締めたり、[r]いちゃいちゃしたりしたかったのに！！
+[k]
+
+[charaFace D 4]
+＠アルテミス
+うぇぇぇぇああああああああああああん！！
+[k]
+
+[charaFace E 0]
+＠オリオン
+あー……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+……ど、どうしましょうマスター。[r]号泣です。超号泣ですっ。
+[k]
+
+？1：オリオンに任せる
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠オリオン
+ありがとよ、マスター。[r]で、ついでにもうちょっと甘えさせて貰っていいか？
+[k]
+
+？1：構わない
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_6 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[charaFace D 4]
+[charaFace E 5]
+＠アルテミス
+なあに。
+[k]
+
+＠オリオン
+別にさ、いいんじゃねえか？
+[k]
+
+＠アルテミス
+いいって……何が？
+[k]
+
+＠オリオン
+敵が出ようが、別にいいだろ。[r]俺とおまえが出歩かない理由にならないし。
+[k]
+
+[charaFace D 3]
+＠アルテミス
+え……？
+[k]
+
+[charaFace E 2]
+＠オリオン
+大体なあ、おまえ仮にもオリュンポスの神様だぞ。[r]そんな奴が！　他人の迷惑なんか！　気にしてどうする！！
+[k]
+
+[charaFace D 5]
+＠アルテミス
+そ、そんな無茶苦茶な！
+[k]
+
+＠オリオン
+おまえだって覗かれただけで百倍返しとかしてるだろ！
+[k]
+
+[charaFace D 3]
+＠アルテミス
+ああうう。痛いところ突かれた！[r]だって恥ずかしかったんだもん！
+[k]
+
+＠オリオン
+だったらいいだろう！[r]他人の迷惑とか考える神様がどこにいるって話だ！
+[k]
+
+[charaFace D 4]
+＠アルテミス
+でも[line 2]。
+[k]
+
+[charaFace E 5]
+＠オリオン
+それから！　……俺に嫌われるとか、そーゆー下らん[r]考えは冥界にでも放り捨てちまえ！
+[k]
+
+[charaFace E 1]
+＠オリオン
+今更なぁ！　今更、そんなことで俺はおまえを[r]嫌ったりしねーよ、このバカ！
+[k]
+
+[charaFace D 3]
+＠アルテミス
+あ、う……。
+[k]
+
+[charaFace E 3]
+＠オリオン
+……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_6 0.4]
+[wt 0.2]
+[se ad17]
+[wait se ad17]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+ド……ドラゴンです！[r]直上、落ちてきます！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[charaFace D 3]
+[charaFace E 5]
+＠オリオン
+アルテミス、やれるか？
+[k]
+
+[charaFace D 0]
+＠アルテミス
+うん……うん！[r]そうだよね！　私神様だし！　超・偉い立場だし！
+[k]
+
+＠アルテミス
+だからちょっとくらい迷惑かけたってしょうがないよね、[r]神様だから！！
+[k]
+
+[charaFace D 1]
+＠アルテミス
+よーーし、やるぞーー！！[r]オリオン、いつもみたいに頭に乗って！
+[k]
+
+[charaFace E 0]
+＠オリオン
+はいはい。それじゃ、いっちょ勝つとするか！
+[k]
+
+[charaFace D 0]
+＠アルテミス
+うん！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

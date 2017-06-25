@@ -1,0 +1,192 @@
+＄01-00-03-05-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21250 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 7015001 1 エイリーク]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 4008002 0 黒髭]
+[charaSet G 2012001 1 エウリュアレ]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk D]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace D 5]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+チッ、まったく！[r]撤退するしかないか……！
+[k]
+
+[charaFace A 15]
+＠マシュ
+この混戦状況で、撤退できますか！？
+[k]
+
+[charaFace D 2]
+＠ドレイク
+やるしかないだろ！[r]砲弾、再装填！　煙玉を使う、煙幕張りな！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 2]
+＠海賊
+よしきた姐御！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠黒髭
+おーい、無理すんなＢＢＡ～！[r]大人しく、その聖杯を渡せばこっちも見逃してやるよ～？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ドレイク
+聖杯……！？
+[k]
+
+＠マシュ
+聖杯のことを、知っている……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠黒髭
+ねえねえ、聖杯マダー？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ドレイク
+うるせぇ、黙ってろ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠黒髭
+ギャフフフ、こわいこわいｗｗｗ
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk C]
+[charaFadein F 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠エイリーク
+ギギギギギ！　コロス！　コンドコソ、コロスゾォォ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 15]
+＠マシュ
+……エイリーク[#血斧王:けっふおう]！？[r]どうして……！？
+[k]
+
+＠Dr.ロマン
+こ、こいつは倒したはずだろ！？[r]消滅したことも確認していた[line 2]。
+[k]
+
+？1：消滅していない
+
+？2：何かおかしなことが……
+
+？！
+
+＠Dr.ロマン
+そ、そうだ！　確かにあのとき、サーヴァントを形成する[r]魔力の大幅な乱れがあった。
+[k]
+
+＠Dr.ロマン
+あれは……もしかすると転移か？[r]じゃあ元々黒髭が召喚したサーヴァントってことか！
+[k]
+
+[charaFace A 6]
+＠マシュ
+サーヴァントがサーヴァントを召喚する……。[r]まさか、この黒髭が！？
+[k]
+
+[charaFace A 7]
+＠マシュ
+聖杯、もしくは聖杯に関する何かを[line 2]持っている？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+[charaFace C 2]
+＠エイリーク
+ゴロ、ズゥゥゥゥッ！
+[k]
+
+[charaFace A 15]
+＠マシュ
+くっ……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace H 2]
+[charaFadein H 0.1 2]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+＠エウリュアレ
+きゃっ！？
+[k]
+
+＠アステリオス
+し、ね……！
+[k]
+
+[voice 700900_0_S010]
+[wait voice 700900_0_S010]
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 5]
+＠エイリーク
+テメ、ェェェエエエエエエエッ！！
+[k]
+
+[se ad32]
+[wait se ad32]
+[charaFadeout C 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠エウリュアレ
+なにやってるの、アステリオス！[r]ダメ……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+アステリオス、退がって！[r]今度こそ、トドメを刺します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

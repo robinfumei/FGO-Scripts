@@ -1,0 +1,85 @@
+＄91-50-11-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10200]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+？1：……っていう夢を見たんだけどね
+
+？！
+
+[charaFace A 6]
+＠マシュ
+わたしが……えっと……。[r]お姫さま、です……？
+[k]
+
+＠マシュ
+そう、なんですね……？？
+[k]
+
+？1：うん
+
+？2：お姫さまだった
+
+？！
+
+[charaFace A 3]
+＠マシュ
+それはつまり、どういう……。[r]い、いえ、先輩にとってはどういう[line 2]
+[k]
+
+＠マシュ
+い、いえ。いいえ。ええと、[r]先輩にとっては楽しい夢……だったのでしょうか？
+[k]
+
+？1：うん！
+
+？2：ともかく何かスゴい感じだった！
+
+？！
+
+[charaFace A 13]
+＠マシュ
+そうですか。[r]良かった。
+[k]
+
+[charaFace A 1]
+＠マシュ
+先輩が楽しかったのなら、良いと思います。[r]昨晩は良くお眠りになれたんですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+おはよー……って、ん？[r]マシュ、何だかご機嫌かな？
+[k]
+
+[charaTalk A]
+＠マシュ
+いいえ、何も。[r]おはようございます、ドクター。
+[k]
+
+[charaTalk B]
+[charaFace B 3]
+＠Dr.ロマン
+ん？？？
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout B 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,226 @@
+＄91-10-09-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10903]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 1009001 1 モードレッド]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 98025100 1 シャドウサーヴァント]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+何だ、幽霊か。大方、ちょっと前に発生した霧に[r]誘われたってとこだろうな。
+[k]
+
+[charaFace C 4]
+＠モードレッド
+……しかし……。
+[k]
+
+？1：どうした？
+
+？！
+
+[charaFace C 5]
+＠モードレッド
+ああ、別に何でもねえよ。
+[k]
+
+[charaFace C 4]
+＠モードレッド
+ちょっと『[#燦然と輝く王剣:クラレント]』の切れ味が[r]悪いのが気になっただけさ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠マシュ
+さすがに幽霊相手では……。
+[k]
+
+[charaFace C 0]
+＠モードレッド
+そうでもない。この剣が本来の切れ味を取り戻せたら、[r]幽霊だろうと何だろうと斬れるだろうよ。
+[k]
+
+[charaFace C 4]
+＠モードレッド
+……ま、[#簒奪:さんだつ]したオレのせいなんだけどさ。
+[k]
+
+？1：簒奪？
+
+？2：盗んだの？
+
+？！
+
+[charaFace C 0]
+＠モードレッド
+いいや。[r]……ちょっと、永遠に借り受けただけだぞ。
+[k]
+
+＠モードレッド
+何しろ借りたまま死んじゃったからなあ、オレ。[r]おかげでサーヴァントになってからも使えるんだけど。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠フォウ
+フォウ。フォウフォウ。アフォウ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさんがそれは『盗んだ』と同義だ、[r]と言ってます。
+[k]
+
+[charaFace C 5]
+＠モードレッド
+うるさいぞ、小動物。[r]……ん？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+サーヴァントと思しき生体反応が現れた！[r]いや、少し違うか……！？
+[k]
+
+＠Dr.ロマン
+ともかく、ルートを送るからすぐに[r]行ってみてくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[scene 10913]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0 1]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+＠モードレッド
+お、見つけたぞ！[r]今度は幽霊……じゃねえよな。
+[k]
+
+＠モードレッド
+しかしサーヴァント……の割りには、顔がないな。[r]手前、何モンだ？
+[k]
+
+[charaFadeout C 0.1]
+[charaShadow E true]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠？？？
+問おう。[r][line 2]汝は何者か。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠モードレッド
+あん？
+[k]
+
+[charaFadeout C 0.1]
+[charaShadow E true]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+重ねて問おう。[r]汝、何者であるかを開帳せよ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠モードレッド
+……チッ。[r]円卓の騎士、モードレッド。
+[k]
+
+[charaFace C 5]
+＠モードレッド
+それで満足か？
+[k]
+
+[charaFadeout C 0.1]
+[charaShadow E true]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+[line 2]知識は有している。[r]汝は王に対する反逆者。
+[k]
+
+＠？？？
+ならば、王たる余には明白なる敵対者だ。
+[k]
+
+＠？？？
+汝を滅ぼそう。[r]そしてまた、新しい国家を作り上げるのだ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠モードレッド
+ああ、はいはい。[r]要するに、ブッ殺されてえってことだな。
+[k]
+
+[charaFace C 5]
+＠モードレッド
+お前が王を名乗るなら、オレはそれを拒絶する。
+[k]
+
+＠モードレッド
+後にも先にも、王を名乗っていいのは[line 2][r]我らが騎士王だけだ。
+[k]
+
+[charaFace C 0]
+＠モードレッド
+そして王に叛逆できるのは、[r]このオレだけなのさ！
+[k]
+
+[charaFace C 2]
+＠モードレッド
+さあ、掛かってこい……このボケナス！
+[k]
+
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

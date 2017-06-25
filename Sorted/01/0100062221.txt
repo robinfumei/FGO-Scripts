@@ -1,0 +1,183 @@
+＄01-00-06-22-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet D 98086000 1 ホームズ]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 98002000 1 フォウ]
+
+[scene 28801]
+
+[charaBackEffect D bit_talk_haboob_02]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+スフィンクス、迎撃しました！[r]先輩、ここからどう[line 3]きゃ！？
+[k]
+
+[messageOff]
+[se ad10]
+
+[charaFadeout A 0.4]
+[wt 0.8]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠三蔵
+ちょっと、いまマシュったらいきなり消えなかった！？[r]まるで落とし穴に落ちたみたぎゃてぇ！？
+[k]
+
+[messageOff]
+[se ad10]
+
+[charaFadeout E 0.4]
+[wt 0.8]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォフォウ！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace B 5]
+[charaFace F 5]
+[charaFadein B 0.1 2]
+[charaFadein F 0.1 0]
+
+＠俵藤太
+ぬう、これは！
+[k]
+
+＠ベディヴィエール
+はい、これは！
+[k]
+
+？1：落とし穴のトラップだ[line 5]！
+
+？！
+
+[se ad10]
+[messageOff]
+[wipeout rectangleStripDownToUp 0.5 1]
+[wait wipe]
+[charaPut D 1200,1200]
+[charaBackEffectStop D bit_talk_haboob_02]
+
+[charaFadeout B 0]
+[charaFadeout F 0]
+
+[scene 10000]
+[wt 1.0]
+[seStop ad10]
+[se ad57]
+[wt 1.0]
+[seStop ad57]
+[wt 0.5]
+
+[wipein rectangleStripDownToUp 0.5 1]
+[wait wipe]
+
+＠マシュ
+いたた……お尻から落ちてしまいました……
+[k]
+
+＠マシュ
+みなさん、いらっしゃいますか……？[r]落下音は五人分ありましたが……
+[k]
+
+？1：出席番号一番、[%1]、います……
+
+？！
+
+＠ベディヴィエール
+華麗に着地できました。[r]ベディヴィエール、ここに。
+[k]
+
+＠三蔵
+……[#苦厄:クヤク]、[#舍利子:シャリシ][#色不異空:シキフイクー]……[r]はい……玄奘三蔵、ちゃんと出席していますー……
+[k]
+
+＠俵藤太
+ずいぶんと落下したな……[r]それにしては空気があるな？
+[k]
+
+＠フォウ
+フォウ。
+[k]
+
+＠D：？？？
+それは結構。どうやら全員脱出できたようだね。[r]怪我人もなく何よりだ。
+[k]
+
+＠D：？？？
+では明かりを付けよう。[r]少しばかり[#眩暈:めまい]がするが、そこはご愛敬だ。
+[k]
+
+[bgmStop BGM_EVENT_5 2.0]
+
+？1：[line 3]へ？
+？2：[line 3]六人目がいます？
+
+？！
+
+[se ad138]
+[messageOff]
+[wipeout circleOut 0.1 0.5]
+[wait wipe]
+
+[scene 21400]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+
+[wipein circleIn 1.0 0.5]
+[wait wipe]
+[bgm BGM_EVENT_7 0.1]
+
+＠D：？？？
+やあ、こんにちは諸君。[r]そしてようこそ、神秘遙かなりしアトラス院へ！
+[k]
+
+[charaFace D 1]
+＠ホームズ
+私はシャーロック・ホームズ。[r]世界最高の探偵にして唯一の顧問探偵。
+[k]
+
+＠ホームズ
+探偵という概念の結晶、“明かす者”の代表[line 3][r]キミたちを真相に導く、まさに最後の鍵という訳だ！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]

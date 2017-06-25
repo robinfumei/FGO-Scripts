@@ -1,0 +1,71 @@
+＄94-00-62-49-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 5025001 1 エジソン]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠エジソン
+ふはははは、エジソン式ロケットである！[r]フ[charaFace A 1]ォン・ブラウンを呼ぶべきだったかな？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+画期的でありますなー！
+[k]
+
+＠G：うりぼう
+これだけ大人数のサーヴァントを乗せても、[r]びくともしないであります。
+[k]
+
+＠H：うりぼう
+ヘラクレスさんでも、呂布さんでも、[r]何だったらダレイオスさんでも大丈夫であります。
+[k]
+
+＠F：うりぼう
+百人召喚しても大丈夫でありますか？
+[k]
+
+＠G：うりぼう
+大丈夫であります。[r]それでは、遠い空の向こうに行くであります！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠エジソン
+おや、このネジは何かな？[r]……まあ、いいか！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

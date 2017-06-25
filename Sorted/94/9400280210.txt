@@ -1,0 +1,249 @@
+＄94-00-28-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet G 98003003 1 Dr.ロマン]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+
+[scene 10000]
+[fadein black 1.0]
+[wait fade]
+
+＠Dr.ロマン
+そろそろ目的地だ。[r]敵性反応が多数確認できる。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+気をつけてくれ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[scene 10600]
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+うわ、私の工房にそっくり！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 2]
+[charaFace A 6]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠マシュ
+それにモナ・リザだけじゃありません……！
+[k]
+
+[charaFace B 5]
+＠ダ・ヴィンチちゃん
+本当だ！　受胎告知、ウィトルウィウス的人体図……[r]嘘、最後の晩餐まで！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠エミヤ
+２０１５年に現存しているものより、[r]保存状態は良好だな。
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+ん？　これは……。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[se ad77]
+[wt 1.0]
+
+
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+それは貴方の手稿かね？
+[k]
+
+＠ダ・ヴィンチちゃん
+えーっと……うん、こっちは私の。[r]でもって、こっちは贋作。
+[k]
+
+＠マシュ
+こちらが本物、そちらが偽物……。[r]マスター、わたしには区別がさっぱり……。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[cameraMove 1.5 -50,0 1.5]
+[wait camera]
+
+[cameraMove 1.5 100,0 1.5]
+[wait camera]
+
+[cameraHome 1.5]
+[wait camera]
+
+？1：自分もつかない
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+だよねー。多分これ、贋作した本人でも[r]分からないんじゃないかな。
+[k]
+
+[charaFadeout B 0.1]
+
+？2：何となく分かる
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+さすがマスター……。[r]カルデア一の目利きですね。
+[k]
+
+[charaFadeout A 0.1]
+？！
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+レオナルド・ダ・ヴィンチの手稿といえば、[r]現存するだけでも数千頁を超えるという。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+おまけに鏡文字を使っているとなれば、[r]贋作を作るのも一苦労だろう。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+モナ・リザや他の絵画ならともかく、[r]何故手稿まで……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+よし、これも全部持って帰ろう！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 1]
+[charaFace A 6]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠マシュ
+え、これを全部ですか！？
+[k]
+
+[charaFace A 12]
+＠マシュ
+一枚一枚は大したことなくても、これだけの量があると[r]さすがに全て持ち帰るのは……。
+[k]
+
+？1：めんど――
+？！
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+これ持って帰ってくれたら、[r]お店のアイテムと交換してあげるけど？
+[k]
+
+？1：張り切って回収します！
+？！
+
+[charaFace A 2]
+＠マシュ
+どんどん詰めて下さい！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エミヤ
+変わり身が早いな[&おまえ:君]たちは！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+楽しい回収作業のところ悪いけど、[r]エネミーの反応があった！　注意してくれ！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad21]
+[wt 1.0]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+敵性反応確認しました！[r]彼らは……通常のエネミーとは異なるようですが……！
+[k]
+
+＠エミヤ
+なに、力量という点においては十把一絡げに[r]したところで問題のない連中だ。
+[k]
+
+[charaFace C 2]
+＠エミヤ
+[line 2]行くぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

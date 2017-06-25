@@ -1,0 +1,603 @@
+
+
+＄94-00-91-02-1-1
+
+
+
+[charaSet A 99502600 1 マシュ]
+[charaSet B 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4019001 1 マルタ]
+[charaSet E 4014001 1 牛若丸]
+[charaSet F 6011001 1 荊軻]
+[charaSet G 6014001 1 マタ・ハリ]
+[charaSet H 5010001 1 パラケルスス]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 20110]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はぁ、はぁ、はぁ……。[r]か、勝ちました！
+[k]
+
+？1：偉いぞサンタさん
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい、きちんとサンタできました！
+[k]
+
+？2：可愛いよね
+
+[charaFace B 3]
+＠ジャンヌ・オルタ・サンタ・リリィ
+かっ……。
+[k]
+
+[charaFace B 2]
+
+[charaShake B 0.05 4 0 1.0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ちちち違います違います！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+褒めてって言ったのは、もっとこう、[r]サンタ的に褒めて欲しかったんです！
+[k]
+
+[charaFace B 8]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+可愛いとか、そんなの今は必要ないです！[r]うー……。
+[k]
+
+[charaFace B 4]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+ぁりがとぅござぃます……。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠荊軻
+いやー、負けた負けた！[r]やっぱり酔っていると負けても楽しいなー！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+はあ、酔い覚ましになってない……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+さあ、という訳で貴女たちへのプレゼントは[r]こちらです！
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+[wt 1.0]
+
+
+[messageOff]
+[se ad77]
+[charaShake B 0.05 2 0 1.0]
+[seStop ad77 2.0]
+[wt 2.0]
+
+
+
+[equipSet C 9400880 2]
+[wait equipSet C]
+[equipSet D 9400880 2]
+[wait equipSet D]
+[equipSet E 9400880 2]
+[wait equipSet E]
+[equipSet F 9400880 2]
+[wait equipSet F]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaDepth C 9]
+[charaDepth D 9]
+[charaDepth E 9]
+[charaDepth F 9]
+
+[charaScale C 0.8]
+[charaScale D 0.8]
+[charaScale E 0.8]
+[charaScale F 0.8]
+
+[charaFadein C 0.5 -384,-70]
+[wt 0.4]
+[charaFadein D 0.5 -128,-70]
+[wt 0.4]
+[charaFadein E 0.5 128,-70]
+[wt 0.4]
+[charaFadein F 0.5 384,-70]
+[wt 0.4]
+
+[se ad139]
+[wt 1.5]
+
+[charaFadeout C 0.4]
+[wt 0.2]
+[charaFadeout D 0.4]
+[wt 0.2]
+[charaFadeout E 0.4]
+[wt 0.2]
+[charaFadeout F 0.4]
+[wt 0.2]
+
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4019001 1 マルタ]
+[charaSet E 4014001 1 牛若丸]
+[charaSet F 6011001 1 荊軻]
+[wt 0.4]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠荊軻
+あはははは、何これー？[r]（ごきゅごきゅ）
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠牛若丸
+新しいお酒ですか？[r]（ごきゅごきゅ）
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠マタ・ハリ
+変わったお味ねえ。[r]（ごくごく）
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+断酒薬です。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace F 0]
+[charaFace E 0]
+[charaFace G 0]
+[charaDepth F 2]
+[charaDepth E 2]
+[charaDepth G 1]
+[charaFadein F 0.1 0]
+[charaFadein E 0.1 2]
+[charaFadein G 0.1 1]
+＠三人
+え。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+そもそも、サーヴァントなのに[r]アルコールを飲んで酔っ払うなど、何事ですか。
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+いついかなるときでも、サーヴァントとしての[r]自覚を持つ……そのための断酒薬です。
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+あ、気をつけてください。[r]その状態でアルコールを飲むと、ダメージを受けます。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠荊軻
+そ、そんなー！
+[k]
+
+＠荊軻
+お酒が飲めないなんて、[r]我が人生、死んだも同然じゃないか！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠マルタ
+あちゃー……。[r]そっかー、そういう方向性かー……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はあ、クリスマスらしい良いプレゼントを[r]あげられました……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠牛若丸
+ううむ、これから祝い事でてんやわんやだと言うのに、[r]常に素面なのは辛いですね。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠マタ・ハリ
+困ったわねぇ。酔った勢いを利用して、[r]既成事実が作れなくなっちゃうわ……。
+[k]
+
+[charaFace G 3]
+＠マタ・ハリ
+チラッ。
+[k]
+
+？1：！？
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+どうしました、トナカイさん？[r]顔が赤いんですが……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut C 1]
+[charaEffect C bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+どうしましたマスター。[r]何かあったのですかマスター。
+[k]
+
+＠マシュ
+マタ・ハリさんと見つめ合う必要はあるのですかマスター！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut C 1200,1200]
+[charaEffectStop C bit_talk_10]
+[wt 0.3]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠マタ・ハリ
+うふふふふ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マルタ
+えーっと、サンタちゃん。[r]この断酒薬って、あなたが作った訳じゃない……わよね？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい、私の手には余るのでキャスターに作って貰いましたが。[r]えっと、名前は分からないんですけど白い服を着た[line 3]
+[k]
+
+[charaFace B 0]
+
+[charaTalk off]
+
+[charaMove B 0 0.7]
+[wait charaMove B]
+
+[charaFace H 0]
+[charaDepth H 9]
+[charaFilter H silhouette 40404080]
+[charaFadein H 0.7 2]
+[wt 3.0]
+[charaFadeout H 0.7]
+[wt 1.0]
+
+[charaMove B 1 0.6]
+[wait charaMove B]
+
+[charaFace B 1]
+[wt 0.7]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 4 4 1.0]
+＠荊軻
+髪が長い奴？　髪が長い奴だよね？[r]ふふふふふ、よし、刺そう、刺しに行こう。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[charaShake E 0.05 4 4 1.0]
+＠牛若丸
+地獄の果てまでお供します。[r]ふふ、ふふふ、ふふふふふ……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠マタ・ハリ
+それじゃ、私もついでに行ってこようかしら……。[r]マルタ、後はお願いね～。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠マルタ
+お願い、と言われても[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+では、次に向かいましょうトナカイさん！[r]ここはお酒臭くて、頭がクラクラしますし……。
+[k]
+
+[charaTalk off]
+
+[charaFace D 5]
+[charaFadein D 0.1 -1024,0]
+[charaMove B 6 0.4]
+[charaMove D 2 0.4]
+[se ad7]
+[charaShake B 0.05 4 4 1.0]
+＠マルタ
+はいはい、ちょ[line 2]っと待った。[r]（むんず）
+[k]
+
+[wait charaMove B]
+[wait charaMove D]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 1.0]
+むがぎゅ。
+[k]
+
+[charaMove B 2 0.4]
+[charaMove D 0 0.4]
+[wait charaMove B]
+[wait charaMove D]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 1.0]
+な、何ですか何ですか！[r]私はサンタです、忙しいんです！
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+プレゼントを配り終えた人に、[r]用はありません！
+[k]
+
+[charaTalk D]
+[charaFace D 5]
+＠マルタ
+アンタにちょっと話があるのよ。
+[k]
+
+[charaTalk B]
+[charaFace B 5]
+＠ジャンヌ・オルタ・サンタ・リリィ
+アンタじゃなくて、サンタです！
+[k]
+
+[charaTalk D]
+[charaFace D 5]
+＠マルタ
+はいはい、サンタサンタ。
+[k]
+
+[bgmStop BGM_EVENT_7 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_11 0.3]
+
+
+[charaFace D 0]
+＠マルタ
+……さて。[r]あのプレゼント、どういう意図で選んだの？
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+どういう意図と言われても……[r]あの人たちの為になるプレゼントを選んだつもりですけど。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠マルタ
+うーん……クリスマスプレゼントは、[r]実用性よりも喜びの方が大事じゃないかしら。
+[k]
+
+＠マルタ
+一年に一度、あの方が生まれた日を契機として、[r]クリスマスは“誕生”したわ。
+[k]
+
+＠マルタ
+贈り物が良いかどうかではなく、[r]喜びを与えられるかどうかが重要……そう思わない？
+[k]
+
+[charaTalk B]
+[charaFace B 5]
+＠ジャンヌ・オルタ・サンタ・リリィ
+思いません。
+[k]
+
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+クリスマスは祝福の日。[r]ならば、有用な贈り物が正しいはずです。
+[k]
+
+[charaFace B 4]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……確かに、皆さんには喜ばれていない[r]かもしれませんが……。
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+役に立つのなら、喜びはむしろ不要ではないかと。[r]私はそう思うのです。
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+＠マルタ
+……うーん、そっか。[r]そうよね、そういう考え方は[line 3]
+[k]
+
+＠マルタ
+きっと、ありなのよね。[r]でも……。
+[k]
+
+[charaFace D 0]
+＠マルタ
+……トナカイさん、後は任せてもいいのかしら？
+[k]
+
+？1：任せて欲しい
+？！
+
+＠マルタ
+……分かりました、私からは以上です。[r]プレゼントは有り難く頂戴します。
+[k]
+
+＠マルタ
+がんばりなさい、サンタさん。
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ふふん、当たり前です。
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+さあ、次のプレゼントを配りに行きますよ。[r]トナカイさん！
+[k]
+
+
+[se ad59]
+[charaFadeout B 0.4]
+[seStop ad59 1.0]
+[charaTalk off]
+[charaFace D 5]
+[wt 0.6]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+
+[charaTalk on]
+[charaFadeout D 0.1]
+
+[soundStopAll]
+[end]

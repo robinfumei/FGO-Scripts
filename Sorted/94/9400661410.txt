@@ -1,0 +1,319 @@
+＄94-00-66-14-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103400 1 クロエ]
+[charaSet C 98002000 1 フォウ]
+[charaSet E 3002001 1 ディルムッド]
+
+[scene 21810]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠ディルムッド
+く[line 3]
+[k]
+
+[charaShake E 0.05 3 3 0.5]
+[charaFace E 2]
+＠ディルムッド
+く[line 3]来るなぁ！[r]大人のおんなぁ、来るなぁ！
+[k]
+
+
+？1：ディルムッド？
+
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+魔法少女四天王の一人は[r]ディルムッドさんだったのですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+
+？2：いったい何事[&だ:なの]？
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ちょ、血の涙ながして[#慟哭:どうこく]してるわよ？
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠ディルムッド
+大人の女[line 3]大人の女は、したたかだ！
+[k]
+
+[charaFace E 4]
+＠ディルムッド
+計算高くて腹の底では何を考えているか分からない！[r]護られる立場を期待しつつ、その陰で支配しようとする！
+[k]
+
+[charaFace E 0]
+＠ディルムッド
+そこへいくと魔法少女は物理的に強い……[r]すぐに足が痛い、とか言い出さない……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+そんなことも無いんだけど……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ディルムッド
+[#否:いな]、心の構造的にも違いは明らか[line 3]！[r]魂の色から異なると言っても過言ではなく……
+[k]
+
+[charaFace E 3]
+＠ディルムッド
+使命を持ち、[#毅然:きぜん]と戦う魔法少女の美しさよ！[r]う[charaFace E 4]うっ……そこへいくと大人の女とは……
+[k]
+
+＠ディルムッド
+さっきまで『パソコン壊れた直して』とか言ってたのに[r]いつの間にかこちらの態度が悪い、と[#拗:す]ね始める……
+[k]
+
+[charaFace E 5]
+＠ディルムッド
+いいから早くＯＳのバージョンと使用アプリを[r]教えて欲しい……！
+[k]
+
+[charaShake E 0.05 3 3 0.5]
+[charaFace E 4]
+＠ディルムッド
+大人のおんな怖い……怖い……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………ええと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+うわぁ……残念なイケメン……[r]どう見ても正気を失っているわ……
+[k]
+
+＠クロエ
+いったいどんな仕打ちをされたら[r]こんなに悲しく暴落してしまうの？
+[k]
+
+[charaFace B 0]
+＠クロエ
+でも、ちょっとそのダメなところがいいのかも……[r]包んであげたい……
+[k]
+
+
+？1：クロ……！　術中にハマってる！？
+
+[charaFace B 2]
+＠クロエ
+……ハッ！？[r]ぐ[charaFace B 5]、ぐぬぬ……やっかいな[#魅了:ホクロ]持ちね、このダメンズ！
+[k]
+
+
+？2：マシュ、なんともない？
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ど、どうしたんですかマスター、[r]突然、手を握られたりして？
+[k]
+
+[charaFace A 3]
+＠マシュ
+わ、わたしは平常ですが……
+[k]
+
+[charaFace A 11]
+＠マシュ
+い、いえ、少しだけ鼓動が加速して[r]体温が上昇したようにも認められます……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+はいはい[#御馳走:ごちそう]さま！[r]警戒態勢は忘れずに！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ディルムッド
+[line 3]手前の[#許:もと]への来訪の理由、承知しております、[r][%1]殿。
+[k]
+
+[charaFace E 5]
+＠ディルムッド
+されどもどうか、お[#引:ひ]き[#留:とど]めくださるな！
+[k]
+
+[charaFace E 4]
+＠ディルムッド
+魔法少女の[#御前:ごぜん]でだけ、私は相手と対等の存在となり、[r]そしてあらためて忠義を誓うことが出来るのです。
+[k]
+
+[charaFace E 5]
+＠ディルムッド
+かくなる上は、[r]黒髭殿やファントム殿も我が盟友！
+[k]
+
+[charaFace E 4]
+＠ディルムッド
+魔法少女の境地には至れずとも、[r]魔法少女に王冠を[#献:ささ]げる務めは果たせます故[line 3]
+[k]
+
+
+？1：[#自重:じちょう]せよランサー！
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ていうか、頭大丈夫？
+[k]
+
+[charaFace B 4]
+＠クロエ
+ほかのオジさんズに比べて生真面目そうなぶん[r]ちょっと心配なんだけど？
+[k]
+
+[charaFadeout B 0.1]
+
+
+？2：[#自愛:じあい]せよランサー……
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+お、お大事に……本当に……
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ディルムッド
+マシュ殿、[r]そして見慣れぬ褐色の乙女よ……
+[k]
+
+[charaFace E 4]
+＠ディルムッド
+悪いことは申しませぬ、[r]大人の女にだけはお成りになられるな……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+え、え～～っ？[r]その注文はどうかと思ーう！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+鉄の婦長さんの[#遣:や]り[#様:よう]を真似るわけではありませんが[r]わたしも火力強めな治療の必要性を感じます……！
+[k]
+
+？1：よし、いざ参る！
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠ディルムッド
+致し方無い！　お相手[#仕:つかまつ]る[line 3]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

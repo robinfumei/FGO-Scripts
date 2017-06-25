@@ -1,0 +1,129 @@
+＄01-00-04-10-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 10906 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5011001 1 バベッジ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠バベッジ
+……シティの地下へ、行くがいい。
+[k]
+
+＠バベッジ
+……[#地下鉄:アンダーグラウンド]の更に、深い、深い、深い、奥底……[r]其処に……「魔霧計画」の主体が、在る……だろう……
+[k]
+
+＠バベッジ
+都市に充ちる……霧の、発生源……[r]すなわち、我が発明……巨大蒸気機関アングルボダ……
+[k]
+
+＠バベッジ
+聖杯は……[r]アングルボダの動力源として……設置……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠フラン
+………………ゥ、ゥゥ、ァ。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠バベッジ
+……すまぬ。ヴィクターの娘。
+[k]
+
+＠バベッジ
+お前の声は聞こえたが……[r]私は、既に、正しき命を有した、人間……ではなく……
+[k]
+
+[charaFace D 0]
+＠バベッジ
+妄念の……[r]有り得ざるサーヴァント、と、化したのだ……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+…………。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠バベッジ
+……私は……
+[k]
+
+＠バベッジ
+……私は、嗚呼、私の世界を夢見てしまったが……[r]……しかし……それ、とて……
+[k]
+
+[charaFace D 1]
+＠バベッジ
+……私の夢を叶えなかった世界であっても……[r][#隣人:あなた]たちの世界を、終わらせよう、とは、思わない……
+[k]
+
+[messageOff]
+[charaSpecialEffect D flashErasure 1 2]
+[wt 0.5]
+[se ba5]
+[wait charaSpecialEffect D flashErasure]
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[wt 0.5]
+[scene 10906 0]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 0]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠モードレッド
+[line 3]次の行き先、決まったな。
+[k]
+
+＠マシュ
+はい。地下、と。[r]ミスター・バベッジは確かにそう言い残しました。
+[k]
+
+＠モードレッド
+まずはフランをジキルのアパルトメントへ戻す。[r]それから、最後の親玉を潰すぞ。
+[k]
+
+？1：そうしよう
+
+？2：必ず、聖杯を手に入れる
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……はい。先輩。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_6 0.4]
+[wait fade]
+[soundStopAll]
+[end]

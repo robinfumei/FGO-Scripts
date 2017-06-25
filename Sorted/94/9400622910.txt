@@ -1,0 +1,160 @@
+＄94-00-62-29-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 5027000 1 マリー]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk H]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+おばあちゃーん、[r]これちょうだい。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マリー
+はーい、５０万ＱＰよ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+たかーい。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マリー
+なら、５０ＱＰでいいわ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠G：うりぼう
+はーい。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+
+＠マリー
+はいお釣り！　５０万ＱＰ～！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+やったー。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マリーさんとうりぼうさんは[r]何をやっているんでしょう……。
+[k]
+
+？1：駄菓子屋のおばあちゃんごっこ……かな
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マリー
+どう、似合ってるかしら？
+[k]
+
+？2：やりたがってたみたい
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マリー
+うふふ、楽しいわね。[r]嫁がなければ、こんな風にお店をやっていたのかも！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……楽しそうなのでよしとしますか。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

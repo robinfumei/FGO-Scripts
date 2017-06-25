@@ -1,0 +1,146 @@
+＄94-00-12-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 1013001 1 カエサル]
+[charaSet F 1013001 1 ？？？]
+
+[scene 21804]
+[fadein black 2]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠カエサル
+むう……風が……止んだではないか……[r]私の戦いも……ここまで……か……
+[k]
+
+＠カエサル
+だが……悪くない……私とて心苦しかったのだ……[r]真のサンタの手に討たれ、私もようやく……
+[k]
+
+？1：カエサルさん……
+？2：カマクラさん……
+
+？！
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+[line 5]ふん。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[wt 0.1]
+
+[charaEffect F bit_talk_12]
+[se bac1]
+[wt 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[wait charaEffect F]
+
+＠カエサル
+とう！[r]ははは、危ない危ない、雪原はよく滑るな！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+ちょこまかとすばしっこい……[r]氷上のアザラシか、貴様！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠カエサル
+むしろ疾走する雪だるまと讃えてほしい。[r]うむ。というか止まらん。止まらんなこれはー！
+[k]
+
+[charaMove E 0 0.1]
+[wait charaMove]
+[charaFadeout E 0.1]
+
+＠カエサル
+おお、あわよくば主役になりかわり、[r]栄光の星を掴む作戦はこれにてご破算！
+[k]
+
+＠カエサル
+だが、うむ、これで良かったのだ！
+[k]
+
+＠カエサル
+やはり祭りの功労者には私のような者ではなく、[r]見目麗しいサーヴァントが与えられるべきだろう！
+[k]
+
+＠カエサル
+さらばだ黒いサンタよ、トナカイよ！[r]聖誕祭もこれにて終盤……じき25日が来る！
+[k]
+
+＠カエサル
+それまでに存分に靴下を集めておくがいい！[r]聖夜の奇蹟はそなたらの手に舞い降りよう[line 3]！
+[k]
+
+[se ba13]
+[wait se ba13]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+……里まで転がってしまったか。[r]あれではもう追いつけないな。
+[k]
+
+＠サンタオルタ
+しかしこれで問題は解決した。[r]偽サンタは敗れ、二度と人心を惑わすまい。
+[k]
+
+？1：あれが最後のカエサルとは思えない……
+
+[charaFace D 1]
+＠サンタオルタ
+……確かにな。正直、私は偽物ときいて[r]違うローマ皇帝を想像していた。
+[k]
+
+＠サンタオルタ
+赤セイバーはもうひとりいるからな……[r]ヤツともいずれ雌雄を決せねばなるまい。
+[k]
+
+？2：聖夜の奇蹟ってなに？
+
+[charaFace D 3]
+＠サンタオルタ
+わ、私が知るはずがないだろう。[r]その事は忘れろ。貴様の為にならないからな。
+[k]
+
+？！
+
+[charaFace D 0]
+＠サンタオルタ
+[%1]。次こそ最後の夜だ。[r]「お願いサンタさん」レターは残り一通。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+いったいどんなチビッ子が私たちを待っているか、[r]楽しみにしているがいい。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

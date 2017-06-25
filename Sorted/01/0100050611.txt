@@ -1,0 +1,688 @@
+
+＄01-00-05-06-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 5016001 1 ジェロニモ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 1019001 1 ラーマ]
+[charaSet F 98002000 1 フォウ]
+
+[scene 11210]
+[fadein black 2]
+[wait fade]
+
+[wt 0.2]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 1]
+＠ナイチンゲール
+……貴方たちに伺いたいことが一つ、あります。[r]現在、少年の治療は叶いません。
+[k]
+
+＠ナイチンゲール
+先ほど修復したはずの心臓が、既に[r]十パーセント以上損壊しています。
+[k]
+
+＠ナイチンゲール
+底の抜けたバケツ……ほどには酷くはないですが、[r]耐えず治療し続けなければ、すぐに死に至るでしょう。
+[k]
+
+＠ナイチンゲール
+これは[#偏:ひとえ]に、私の力不足です。
+[k]
+
+＠ナイチンゲール
+ですが私は彼を見捨てたくはないし、[r]見捨てる気もありません。
+[k]
+
+＠ナイチンゲール
+この少年は、こんなにも生きたがっている。
+[k]
+
+＠ナイチンゲール
+生きようとする意志あるかぎり、[r]私は絶対に見捨てない！
+[k]
+
+[wt 0.2]
+＠ナイチンゲール
+[line 2]方法を教えて下さい。[r]彼を治療する方法を。私には知らない、その技術を！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……ドクター。[r]ラーマさんの傷に関して、分析をお願いします。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ。詳しいデータを送ってもらう必要はないよ。[r]一目で分かる。それはもう呪いの範疇だ。
+[k]
+
+＠Dr.ロマン
+治療より解呪が先だよ。[r]一番手っ取り早いのは、傷を負わせた本人を倒すこと。
+[k]
+
+＠Dr.ロマン
+ゲイ・ボルクとは、クー・フーリンが持つ魔槍とも[r]投擲術とも伝えられているが[line 3]
+[k]
+
+＠Dr.ロマン
+いずれにせよ、“放てば心臓を破壊する”という[r]現象を起こす一撃であることには違いない。
+[k]
+
+＠Dr.ロマン
+いまラーマが生きているというのは奇跡に等しい。[r]本来なら、死んでいておかしくない……
+[k]
+
+＠Dr.ロマン
+いや、死んでいなければおかしい状況なんだ。
+[k]
+
+＠Dr.ロマン
+インドの二大叙事詩「ラーマーヤナ」の英雄たる[r]ラーマだからこそ、その奇跡を起こせたのだろうけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ラーマ
+うむ。もっと余を褒めるがよい……いたたた。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+現在は本来死んでいるはずの状態を、[r]ラーマが無理矢理逆転させている、と言う方が正しい。
+[k]
+
+＠Dr.ロマン
+つまり、生きている方が世界の因果としては[r][#間違っている状態]なんだ。
+[k]
+
+[shake 0.05 1 4 0.3]
+[se bac11]
+[wait se bac11]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+訂正を、Dr.ロマン。彼が生きていることを、[r]間違いなどとは思いません。
+[k]
+
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そこ、引き金に指をかけない！[r]話を聞こうね、お願いだから！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+先に言ったように、解消する方法としては因果を[r]ねじ曲げた槍を消失させるしかない。
+[k]
+
+＠Dr.ロマン
+だが[line 2]それが困難であることは、[r]こちらからモニターしていてもよく分かる。
+[k]
+
+＠Dr.ロマン
+クー・フーリンの他に最低でも二騎、[r]サーヴァントがいることは確定しているのだし。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ラーマ
+その通り。[r]これはまさに字義通りの「戦争」状態だ。
+[k]
+
+＠ラーマ
+単騎で特攻したところで、死ぬだけだろう。[r]ぐ……[charaFace E 4]すまない、追加の治療を頼む……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+言われずともやっています。[r]大人しくしてください。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+一つだけ、我々には好材料がある。[r]この世界は、[#グラグラ]した状態だということだ。
+[k]
+
+＠Dr.ロマン
+ケルトの戦士たちが、存在もあやふやなのに[r]召喚されては殺し、殺されていくのと同じく……。
+[k]
+
+＠Dr.ロマン
+ラーマ君もまた、違う何かで存在力を強化すれば[r]因果が解消されるか、それに近い状態に戻るはずだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 5]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……フランスのとき、[r]ジークフリートさんの呪いを祓ったようにですか？
+[k]
+
+＠Dr.ロマン
+ああ。一番いいのは、生前の彼を知っている[r]サーヴァントと接触を図ることだ。
+[k]
+
+＠Dr.ロマン
+生前の彼という[#設計図:にくたい]を知っているなら、[r]ミス・ナイチンゲールの治療も効果が上がると思う。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ラーマ
+……一人、いる。[r]この世界のどこかに、召喚されたサーヴァントが。
+[k]
+
+？1：……それは、いったい？
+
+[charaFace E 3]
+＠ラーマ
+う、うむ。[r]余から口にするのは照れくさいのだが……
+[k]
+
+？2：……まさか、エリ―――
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+いけません先輩。[r]口は災いの元、と言います。
+[k]
+
+＠マシュ
+こんなところでその名前を口にしたら、[r]間違いなく召喚されてしまうでしょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠フォウ
+キュー、フォーウ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ラーマ
+エリ……なんだ？[r]残念ながら一文字もあってないぞ？
+[k]
+
+[charaFace E 3]
+？！
+
+＠ラーマ
+もう一人、余と同じ時代から召喚されしもの[line 3][r]それは我が妻、シータだ。
+[k]
+
+[charaFace E 5]
+＠ラーマ
+余も、まだこの眼で見てはいない。[r]だが必ず、この世界の何処かに囚われている。
+[k]
+
+＠ラーマ
+余はそれを糾し、彼女の居場所を知るために、[r]クー・フーリンと刃を交えたのだ。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+なるほど。ラーマの妻、シータか。[r]君に引き摺られる形で召喚されたのかな？
+[k]
+
+＠Dr.ロマン
+彼女を見つけ出せば、治療も不可能ではない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+……ふむ。ラーマは現在召喚されているサーヴァントの[r]中では疑いようもなく最強だ。
+[k]
+
+＠ジェロニモ
+万全の状態であればカルナが相手でも[r]五分の戦いを繰り広げるだろう。
+[k]
+
+＠ジェロニモ
+出来れば、彼に治療を施してやりたい。[r]その為には彼の妻であるシータを探さなければ。
+[k]
+
+＠ジェロニモ
+そのためには一つ、[#“彼女”:ナイチンゲール]にご同行[r]願わなければならないのだが[line 2]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+は？　地の果てだろうと同行しますが、なにか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace B 6]
+[charaFadein B 0.1 2]
+＠ラーマ
+まことか！？[r]いや、助かるが、詳しい話は聞かぬのか！？
+[k]
+
+[charaFace B 5]
+＠ナイチンゲール
+[FFFFFF]？　なぜ患者を見捨てなくてはいけないのです。[-][r]まして、私以外が彼を救えないとすれば尚更でしょう。
+[k]
+
+＠ナイチンゲール
+そのためには……もう少し、効率のいい看護形態を[r]模索するべきですね。
+[k]
+
+＠ナイチンゲール
+ラーマ君、失礼します。[r]あまり暴れないように。
+[k]
+
+[charaFace E 2]
+＠ラーマ
+な、なんとぉ！？　余を軽々と抱き上げたな！？[r]いや、これは余がシータにした抱き方、
+[k]
+
+＠ラーマ
+すなわちお姫様だっこではないか！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+おおー。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+＠ラーマ
+ええい下ろせ！[r]余のこんな姿を民草に見られでもしたらどうする！
+[k]
+
+[charaFace B 0]
+＠ナイチンゲール
+私は気にしません。暴れる患者には慣れています。[r]ではこちらに。専用のベルトを用意しなくては。
+[k]
+
+＠ラーマ
+はなせ、はーなーせー！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+……う、うむ。話が早くて助かる。[r]さすがは兵士たちに恐れ……いや、慕われた天使だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+…………。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 4]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……どうしましたドクター？[r]意気消沈しているようですが……
+[k]
+
+＠Dr.ロマン
+いや、なにね……ラーマ君はまだ若いだろ？[r]なのに奥さんがいるなんて……
+[k]
+
+？1：ロマン、三十歳独身だもんね！
+？2：ロマン、三十歳独身だもんね……
+
+？！
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+なにかな、その同情とも笑いともとれない[r]複雑な目は、[%1][&君:ちゃん]！
+[k]
+
+[charaFace A 0]
+＠マシュ
+[FFFFFF]？　それは事実ですが、ドクターが負い目を[-][r]感じるのもおかしいのではないでしょうか。
+[k]
+
+？1：なんで？
+？2：いや、感じるでしょ？
+
+？！
+
+[charaFace A 6]
+＠マシュ
+い、いえ、だって[line 3][r]ドクターは、その。一度、結婚経験がある筈で……
+[k]
+
+？1：なんだってーーーーー！？
+？2：いつのまにーーーーー！？
+
+？！
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+はぁ！？[r]なんでそんなコト言い出すんだいマシュ！？
+[k]
+
+＠マシュ
+なんでも何も、以前、[r]ドクターがお手洗いしていた時に[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+ゴホン。すまないが、話を戻していいかな。[r]こちらも時間の猶予はない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……そうでした、申し訳ありません。[r]どうぞ、本題を続けてください。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+ラーマの治療と並行して、[r]エジソンとケルトの戦士たちにどう対処するべきか、だ。
+[k]
+
+＠ジェロニモ
+恐らくは彼方の世界にいる魔術師殿。[r]何か腹案はあるだろうか？
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+もちろん。[%1][&君:ちゃん]が前線に出ている以上、[r]情報の整理と考察はボクの仕事だ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+先ほど、我々[line 2]マシュ・キリエライトが[r]フィン・マックールと交戦したときのことです。
+[k]
+
+＠Dr.ロマン
+彼が気になる言葉を呟いていました。
+[k]
+
+＠Dr.ロマン
+『連中は[#女王:クイーン]を母体とする無限の怪物。[r]ここで数千失ったからといって困るものでもない』と。
+[k]
+
+＠Dr.ロマン
+つまり……あのケルトの戦士たちは無限に増殖する[r]兵士なのではないか、と。
+[k]
+
+＠Dr.ロマン
+となると、通常の対応策は通用しない。[r]数を減らす、という戦略が通じないのですから。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+……薄々そんな考えがないでもなかったが。[r]改めて言葉にされると、気が遠くなるな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+エジソンさんの機械化歩兵も似たようなものでしょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、そうだろうね。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+数千失っても平気なケルトの戦士たちに対抗するには、[r]大量生産で補うしかないのだろう。
+[k]
+
+＠Dr.ロマン
+エジソンという発明家は、[r]先進を走るというよりも[line 3]
+[k]
+
+＠Dr.ロマン
+先達の斬新な発明を、より普及に適した形に[r]生まれ変わらせる方が、むしろ得意だったようだ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+それこそ電話や電球といった『文明の利器』と[r]呼ばれるものは、彼の発想なしでは
+[k]
+
+＠Dr.ロマン
+どれだけ発展が遅れたか想像もつかない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+ましてアメリカは大量生産という無機質な形の[r]戦力増産をもっとも得意とする国家だからな。
+[k]
+
+＠ジェロニモ
+なるほど、[r]発明王がこの国の王を名乗るのは最もかもしれん。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ボクら魔術師としては困りものですが。[r]大量生産は神秘の価値を落としてしまうからね。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ともあれ、こちらから[r]進言するべき策はたった一つしかない。
+[k]
+
+＠Dr.ロマン
+『[#暗殺:アサシネイト]』[line 2]サーヴァントたちで、[r]一気に[#王:キング]と[#女王:クイーン]を討ち取ること。
+[k]
+
+＠Dr.ロマン
+まっとうに戦って消耗戦を行っては[r]相手の思うつぼだ。
+[k]
+
+＠Dr.ロマン
+敵が無限増殖するのなら、[r]一気に[#首魁:ボス]を狙う以外に方法はない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+[line 3]その通りだ。[r]よく言ってくれた、ドクター。
+[k]
+
+＠ジェロニモ
+貴方はさぞや名の有る魔術師殿なのだろう。[r]声だけ聞くと頼りないが、その頭は頼りになる。
+[k]
+
+[charaFadeout C 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……ジェロニモにまでダメだしされたぞ……[r]どうなってるんだ、ボクのイメージって……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠フォウ
+フォウフォウ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 4]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+あの、ドクター。[r]フォウさんが『まったくその通り』と。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+いやまあ、軟弱なのは自負してますけどね！？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジェロニモ
+……よし。少しでも暗殺の確率を上げるため、[r]各地に散っているサーヴァントたちを集結させよう。
+[k]
+
+＠ジェロニモ
+彼ら全員と合流して、[r]ケルトの戦士とエジソンたちに対抗する。
+[k]
+
+＠ジェロニモ
+……この大地は、せめて[#人間:ヒト]の手に[r]取り戻さなければな。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+[soundStopAll]
+[end]

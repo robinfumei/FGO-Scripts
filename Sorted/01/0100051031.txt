@@ -1,0 +1,27 @@
+
+＄01-00-05-10-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+＠マシュ
+さあ、急ぎましょう。[r]アルカトラズまで、ノンストップです。
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

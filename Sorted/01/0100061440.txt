@@ -1,0 +1,454 @@
+＄01-00-06-14-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98084000 1 粛正騎士]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 98084000 1 粛正騎士Ｂ]
+[charaSet F 5022001 1 三蔵]
+[charaSet H 98098000 1 アグラヴェイン]
+
+[scene 21401]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+粛正騎士、撃破しました！[r]ですが[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+[se ad166]
+[seStop ad166 1.5]
+
+[wt 0.4]
+[charaFace C 0]
+[charaFadein C 0.7 0]
+[charaFace E 0]
+[charaFadein E 0.7 2]
+[wt 1.5]
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[wt 0.4]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+敵性反応、さらに増加……！[r]次々に地下に粛正騎士たちがやって来ている……！
+[k]
+
+＠Dr.ロマン
+戦闘を続けても数で負ける！[r]逃げ道を探すんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……逃げ道など皆無。[r]これは[line 3]詰められたか、アグラヴェイン……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+当然だ。私は他の円卓とは違う。[r]華やかさは求めない。ただ目的を果たす。
+[k]
+
+＠アグラヴェイン
+諸君らはこれで終わりだ。[r]ありきたりな結末なのは、私も残念だよ。
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[wt 0.5]
+[bgm BGM_EVENT_5 0.1]
+
+＠アグラヴェイン
+（しかし……ガウェインめ。[r]　この程度の者たちを取り逃がしたというのか……？）
+[k]
+
+＠アグラヴェイン
+（よもや王へ不信を抱いて[line 3][r]　いや。ガウェイン卿にかぎってそれはない）
+[k]
+
+＠アグラヴェイン
+（あの男こそ刃こぼれ無き王の剣。[r]　ランスロットなどとは違う）
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+アグラヴェイン。いえ、アッくん。[r]なんとなくだけど、今はそう呼ばせてもらうわ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠粛正騎士
+こ、この娘、アグラヴェイン様に向かってなんという！[r]恐れを知らぬのか！？　酷い目に遭わされるぞ！？
+[k]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠アグラヴェイン
+よい。おまえたちはしばし下がれ。
+[k]
+
+[charaFadeout C 0.4]
+[charaFadeout E 0.4]
+
+＠アグラヴェイン
+玄奘三蔵。おまえと対話する気はない。[r]これまでも、これからもだ。
+[k]
+
+＠アグラヴェイン
+だが、私はおまえの見識の深さを評価している。
+[k]
+
+＠アグラヴェイン
+小娘としての視点ではあるが、[r]さぞ多くの国を見てきたのだろう。
+[k]
+
+＠アグラヴェイン
+その一点において、[r]おまえの話には耳を傾ける価値がある。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+何が小娘よ。[r]あたしとあんまり歳違わないでしょ、アッくん。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠粛正騎士
+[line 6]！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+……一度だけ機会を与えよう。[r]こちらに戻る機会をな。
+[k]
+
+＠アグラヴェイン
+おまえは聖都の暮らしを見た。[r]山の民たちの暮らしも見た。
+[k]
+
+＠アグラヴェイン
+そしてエジプト領、[r]オジマンディアスの国も見てきたのだろう。
+[k]
+
+＠アグラヴェイン
+その上でいま一度問おう。[r]おまえの目から見て、獅子王は間違っているかね？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠三蔵
+それは…………
+[k]
+
+？1：三蔵法師……？
+？2：なんでそこで押し黙る……？
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+そうだ。おまえなら分かる筈だ、玄奘三蔵。[r]聖都こそが真実。聖都こそが理想だと。
+[k]
+
+＠アグラヴェイン
+どの勢力であれ、その思想は同じものだ。[r]我々は生存への道を模索しているにすぎない。
+[k]
+
+＠アグラヴェイン
+“自らの国の民を擁護する”。[r]あのオジマンディアスでさえそこは変わらない。
+[k]
+
+[charaFace H 2]
+＠アグラヴェイン
+だが彼らの方針では何も変えられない。[r]世界と、時代と共に滅びるだけだ。
+[k]
+
+[charaFace H 0]
+＠アグラヴェイン
+聖都の暮らしを思い出せ。[r]誰もが満ち足り。平等であり。磨き合い。尊び合う。
+[k]
+
+＠アグラヴェイン
+かつて騎士王がブリテンに夢見た理想都市が、[r]聖都では実現している。
+[k]
+
+[charaFace H 1]
+＠アグラヴェイン
+それにおまえは背を向けた。[r]それ自体が私への侮辱であるが[line 3]
+[k]
+
+＠アグラヴェイン
+騎士王……いや、獅子王陛下はおまえの思慮深さを[r]良しとした。よって、これが最後の呼びかけだ。
+[k]
+
+[charaFace H 0]
+＠アグラヴェイン
+聖都に戻り、円卓に座れ三蔵。[r]ガレスの空席、おまえであれば埋められよう。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠三蔵
+……そうね。[r]実のところ、あたし、ずっと迷ってた。
+[k]
+
+＠三蔵
+獅子王と太陽王。そして山の民たち。[r]どっちに味方したものかなって。
+[k]
+
+＠三蔵
+はじめっからノリ気じゃなかったんだ。[r]御仏の声も聞こえなかったし。
+[k]
+
+＠三蔵
+御仏が沈黙しているという事は、[r]あたしが口を出すのは余計なお世話ということ。
+[k]
+
+＠三蔵
+御仏は“放っておけ”と、ずっとあたしに言っていた。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、ほとけ様なだけに？
+[k]
+
+？1：ほっとけ！
+？2：ドクターは黙っていて！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠三蔵
+でも[line 3]
+[k]
+
+[charaFace F 3]
+＠三蔵
+…………（チラッ）。
+[k]
+
+[charaFace F 1]
+＠三蔵
+うん、今はもう放っておけない。
+[k]
+
+＠三蔵
+どんなに獅子王の聖都が素晴らしくても、[r]貴方たち円卓のやり方はおかしいって分かるから！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。聖都が理想都市であったとしても！
+[k]
+
+＠マシュ
+人々を選抜し、選ばれなかった者を[r]手にかける非道は許されません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+非道ではない。結論だ。[r]聖都に選ばれなかった者はこの荒野で死に絶える。
+[k]
+
+＠アグラヴェイン
+それだけであればまだいい。だが、選ばれなかった者は[r]いずれ聖都を恨み、妬むだろう。
+[k]
+
+＠アグラヴェイン
+聖都を盤石なものにするため、その禍根は断つ。[r]これは獅子王の慈悲でもある。
+[k]
+
+＠アグラヴェイン
+我々ははじめから強制はしていない。[r]聖都の聖抜を受けるのは難民たちの自由意思だ。
+[k]
+
+＠アグラヴェイン
+そして戦いを行うのは、聖都を敵から守るため。[r]山の民が聖地を諦めるのであれば、我々も戦いはしない。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+そう。[r]じゃあ、なんで[#世界に果て]があるの？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+[line 3]なに？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+あたしは砂漠の向こう側に行ってきたわ。[r]そこでアレを見た。だから戻ってきた。
+[k]
+
+＠三蔵
+アグラヴェイン。知っても泣き出さないから答えて。[r]貴方、何をしようとしているの？
+[k]
+
+＠三蔵
+獅子王は本当に正気なの？
+[k]
+
+＠三蔵
+彼女、もうとっくに人間の心もなくなって、[r]英霊でもなくなってるんじゃないの！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+………自らの足で、あの砂漠を越えたのか。[r]確かに、私は貴女を侮っていたようだ。
+[k]
+
+＠アグラヴェイン
+交渉は決裂した。[r]粛正を再開する。
+[k]
+
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+ちょっと、シツモンに答えなさいよ[line 2]！[r]つーか、そんなコトじゃ本気だすわよ、あたし！
+[k]
+
+[charaFace F 2]
+＠三蔵
+御仏パンチでそんなヘナチョコ騎士、[r]おせんべいみたいにペシャンコなんだから！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+それはどうかな？[r]私の粛正騎士は少し手を加えてあってな。
+[k]
+
+[charaFace H 1]
+＠アグラヴェイン
+……かつて宮廷で逆上し、[r]多くの同胞を斬り殺したあげく遁走した愚か者がいる。
+[k]
+
+[charaFace C 0]
+[charaFadein C 0.7 0]
+[charaFace E 0]
+[charaFadein E 0.7 2]
+＠アグラヴェイン
+この粛正騎士たちは、[#その男]を参考にして強化してある。[r]あさましい狂犬の剣だが、叛逆者には相応だ。
+[k]
+
+[charaFadeout H 0.7]
+
+[se ad7]
+[wt 0.2]
+[se ad166]
+[seStop ad166 1.5]
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.7 0]
+[charaFace E 0]
+[charaFadein E 0.7 2]
+[wt 1.5]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[charaTalk on]
+[soundStopAll]
+[end]
+

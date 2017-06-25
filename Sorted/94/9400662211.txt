@@ -1,0 +1,425 @@
+＄94-00-66-22-1-1
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103400 1 クロエ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98103900 1 テスタメント]
+[charaSet E 98103900 1 ？？？]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+[scene 31200]
+[fadein black 2.0]
+[wait fade]
+
+＠テスタメント
+うう……っ……[r]ううう……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ど、どうしたの……[r]そんなに痛かった……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+だって……[r]誰にでも……
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaFace D 7]
+＠テスタメント
+誰にとっても理想で万能な魔法少女なんて、[r]いるわけないじゃない！
+[k]
+
+[bgm BGM_EVENT_34 0.1]
+
+＠テスタメント
+無理があるでしょう、そんなの！
+[k]
+
+[charaFace D 7]
+＠テスタメント
+[#全紳士:おおとも]さんのリクエストを満たすキャラ付けとか、[r]個性無さすぎで薄れて消えちゃうっての！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ぼろぼろ本音が出てきた！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+で、でしたら、わたしたちのしたことは……？[r]あなたもまた犠牲者なのでは……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+いいえ……これもまた[r][#紳士:おとこ]たちの願望を反映した結果だわ……（チラッ）
+[k]
+
+[charaFace D 3]
+＠テスタメント
+奥底に善の心を隠しつつ、やむなく悪事を働いてたとか[r]萌えるでしょ……？　ある種の定番でしょ？（チラッ）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+[bgmStop BGM_EVENT_34 1.5]
+
+＠クロエ
+わぁ……すごく……[r]救いがたいです……
+[k]
+
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_33 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+[charaPut E 0,-200]
+[charaEffect E bit_talk_06]
+[wt 1.0]
+
+＠テスタメント
+黒髭たちの想いの力はここまでね……。[r]よく保ってくれたわ……それには感謝しなくちゃ……
+[k]
+
+？1：テスタメント……
+？！
+
+
+[charaFace D 0]
+＠テスタメント
+あなたたちはお客様。
+[k]
+
+＠テスタメント
+魔法少女の活躍を目撃するための観客、[r]兼、魔物としてこの世界に呼ばれた。
+[k]
+
+[charaFace D 5]
+＠テスタメント
+私の影響力が消えれば、[r]この固有結界の変質も解ける。
+[k]
+
+[charaFace D 0]
+＠テスタメント
+この世界はまた[#彼女:エレナ]の管理する[r]魔法少女のための安らぎの地に戻るわ。
+[k]
+
+[charaFace D 4]
+＠テスタメント
+それによって、あなたたちは[r]この結界からはじき出されてしまうけれど[line 3]
+[k]
+
+[charaFace D 0]
+＠テスタメント
+カルデアには無事に帰還できるわ。[r]安心しなさい。
+[k]
+
+[charaPut E 1200,1200]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+テスタメントさん……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut E 0,-200]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠テスタメント
+…………
+[k]
+
+[charaFace D 5]
+＠テスタメント
+求められた通り、完璧を成す魔法少女がいるなら、[r]誰がその苦しみをわかるのかしら……
+[k]
+
+＠テスタメント
+誰がその子を救うのかしら？
+[k]
+
+[charaFace D 4]
+＠テスタメント
+誰が魔法少女に[r]魔法をみせてくれるというの……
+[k]
+
+
+[bgmStop BGM_EVENT_33 0.5]
+[messageOff]
+[charaEffectStop E bit_talk_06]
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 1 2.0]
+[wait charaSpecialEffect D]
+[wait se ad52]
+[charaFadeout D 0]
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロ
+…………
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+………………
+[k]
+
+[charaFace A 8]
+＠マシュ
+……身勝手ですけれど、[r]なんだか……悲しい人でしたね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+……そう？　どうせあれも計算よ。
+[k]
+
+[charaFace B 0]
+＠クロエ
+再び第二第三の魔法少女が現れる！[r]な[charaFace B 5]んて捨て台詞を残さないだけマシかもだけど。
+[k]
+
+
+？1：魔法とか奇跡とか、ラクすると何処かに[#皺寄:しわよ]せがいくよね
+
+[charaFace B 4]
+＠クロエ
+そう……かもね。
+[k]
+
+[charaFace B 5]
+＠クロエ
+……でも、苦労や努力をしたからって[r][#報:むく]われないのが世の中でしょ。
+[k]
+
+[charaFace B 0]
+＠クロエ
+だったら、誰もが幸せになっても[r]なんのお[#咎:とが]めも無しってことだってあると思うわ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……？
+[k]
+
+[charaFace A 13]
+＠マシュ
+クロさんは、悲観的なのか楽観的なのか。[r]……謎の多い方ですね。
+[k]
+
+
+[charaFadeout A 0.1]
+
+
+？2：（ようし、こうやる[&のか:んだね]……憶えた）
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……マスター？[r]今、ちょっと悪い顔してませんでしたか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠クロエ
+そうよ？　変な知恵をつけないでね。
+[k]
+
+[charaFace B 2]
+＠クロエ
+他人を思い通りにしようなんてのが、[r]そもそも間違ってるんだから！
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+[bgmStop BGM_EVENT_2 0.1]
+[messageOff]
+[se ad14]
+[shake 0.05 0 4 0]
+[wt 1.0]
+
+
+[seVolume ad14 2.0 0.25]
+[bgm BGM_EVENT_37 0.1]
+
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……どうやら刻限のようですね。[r]歪んでしまった世界を回復させる揺り戻しが。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠クロエ
+ふぅ……
+[k]
+
+[charaFace B 0]
+＠クロエ
+きっかけはアレだったけど、[r]けっこう楽しかったわ。
+[k]
+
+＠クロエ
+今度こそはちゃんとした任務でお願いするわね！[r][%1][&お兄ちゃん:お姉ちゃん]？
+[k]
+
+？1：[&ああ:うん]、約束[&するよ:する]
+
+[charaFace B 1]
+＠クロエ
+うん。それでこそわたしのマスターだわ。[r][line 3]ありがと。
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+？2：（ようし……）今度こそイリヤと一緒に……
+
+[charaFace B 5]
+＠クロエ
+ちょっと！[r]心の声が漏れてるわよ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+時々、マスターが敵か味方か[#無法者:アウトロー]か[r]判別つかなくなりますが……
+[k]
+
+[charaFace A 13]
+＠マシュ
+自分の心に素直なのは、良いことですよね……[r]……思いやる気持ちを忘れずにいるのなら。
+[k]
+
+
+？！
+
+[charaFace A 1]
+＠マシュ
+それでは皆さん、カルデアへ帰還しましょう。[r]フォウさんもお疲れ様です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォーウ！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[shakeStop]
+[bgmStop BGM_EVENT_37 0.4]
+[seStop ad14 0.4]
+[effect bit_talk_07_02]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+[wt 1.0]
+[soundStopAll]
+[end]
+
+
+

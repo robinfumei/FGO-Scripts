@@ -1,0 +1,298 @@
+＄01-00-06-14-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98084000 1 粛正騎士]
+[charaSet D 98084000 1 粛正騎士Ｂ]
+[charaSet E 6009002 1 静謐のハサン]
+[charaSet F 5022001 1 三蔵]
+[charaSet G 2014000 1 俵藤太]
+[charaSet H 98098000 1 アグラヴェイン]
+[scene 21401]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+では次だ。消耗戦だが私は構わない。[r]時間はまだ十分にある。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+こんな狭い空間じゃ逃げ場がない！
+[k]
+
+＠Dr.ロマン
+アグラヴェインを叩こうにも、[r]彼にもギフトがあるんだろう！？
+[k]
+
+＠Dr.ロマン
+ベ……ルキウスがいないと、[r]円卓の騎士のギフトは打倒できない……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、それが[line 3]違います、ドクター。[r]アグラヴェイン卿にはギフトがありません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 2]
+＠Dr.ロマン
+はあ！？　なんでだ！？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+当然だ。ギフトとは獅子王との契約。[r]獅子王のサーヴァントになるようなもの。
+[k]
+
+＠アグラヴェイン
+そんなものを受けてしまえばいざという時に困る。[r]王に対して、何も出来なくなるだろう……？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……そういう事か。[r]でも、おかげで希望が見えた！
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、アグラヴェインを集中攻撃だ！[r]そうすれば状況は好転する！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+するものか、阿呆。[r]私を殺したところで粛正騎士は止まらん。
+[k]
+
+＠アグラヴェイン
+おまえたちはどうあってもここで全滅する。[r]私が出る、とはそういう事だ。
+[k]
+
+＠アグラヴェイン
+なに、死の運命が早まっただけだ。[r]じき聖槍は最終段階に入る。
+[k]
+
+＠アグラヴェイン
+そうなればこの時代は例外なく[line 3][r]……、[bgmStop BGM_EVENT_3 1.5][charaFace H 1]これは！
+[k]
+
+[se ad59]
+[seStop ad59 1.2]
+[charaMove H -250,0 0.4]
+[charaFadeout H 0.4]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠粛正騎士
+アグラヴェイン卿？[r]なぜおひとりで撤退なさ[line 3]う、ぐぐ、ぐ！？
+[k]
+
+[charaFadeout C 0.4]
+[se ad144]
+[shake 0.05 2 4 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠D：粛正騎士
+どういう事だ、手足が、しびれ[line 3][r]息が[line 3]できな[line 3]
+[k]
+
+[charaFadeout D 0.4]
+[se ad144]
+[shake 0.05 2 4 0.4]
+
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+粛正騎士、次々と倒れていきます……！[r]これは一体……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠静謐のハサン
+……お待ちください。[r]それより前に出られては、貴女も毒に冒されます。
+[k]
+
+＠静謐のハサン
+私は静謐のハサン・サッバーハ、夜に咲く毒の華。[r]我が舞踊は風に毒を乗せ、敵を暗殺する[line 3]
+[k]
+
+＠静謐のハサン
+本来であれば風上で使うものですが、[r]密閉された地下施設であればこの通り……
+[k]
+
+[charaFace E 1]
+＠静謐のハサン
+ふふ。皆さんが粛正騎士を止めてくれていたからこそ[r]出来た戦法です。感謝、いたします。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……そしてお待たせいたしました、[r][%1]様。
+[k]
+
+＠静謐のハサン
+私、お役に立てたでしょうか……？
+[k]
+
+？1：あ……うん、もちろん！
+？2：[line 3]（この娘、怖い！）
+
+？！
+
+[wt 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_5 1.0]
+[fadeout black 1.0]
+[wait fade]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaFadeout E 0.1]
+[scene 21401]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+と、とにかく静謐さんのおかげで[r]ピンチは切り抜けられましたが……
+[k]
+
+[charaFace A 11]
+＠マシュ
+あと先輩、近いです。[r]静謐さん、背中にピッタリくっついています。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+おお、これは失礼。失礼マシュ殿。[r]私ともあろうものが、髑髏の如き節穴でした。
+[k]
+
+＠呪腕のハサン
+これ静謐の、離れぬか。
+[k]
+
+＠呪腕のハサン
+触れても死なない人間が珍しい、というのは分かるが、[r]その方は我らの客人にして恩人だ。
+[k]
+
+＠呪腕のハサン
+あまり迷惑をかけぬように。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠静謐のハサン
+……もちろんです。[r]しっかりとお世話させていただきますね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+……アグラヴェインは逃げたわね。[r]毒を察して脇目もふらず地上に走る……
+[k]
+
+＠三蔵
+部下たちはみんな失神してるし、[r]今回はもう襲ってこないでしょ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠俵藤太
+うむ。それで、どうなのだ？[r]そろそろ拙者たちは動いていいものなのか？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……はい。踊りを止めたので毒も薄まってきました。[r]息を吸うと少し痺れますが、もう大丈夫です。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+そ、そうか。では早く地上に出よう。[r]百貌のハサンが心配だ！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]
+

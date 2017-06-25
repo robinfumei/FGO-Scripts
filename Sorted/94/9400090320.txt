@@ -1,0 +1,249 @@
+＄94-00-09-03-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1027000 1 桜セイバー]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaSet F 7011001 1 武田ダレイオス]
+[charaSet G 4001001 1 真田メドゥーサ]
+[fadein black 2]
+[wait fade]
+
+[charaFadein F 0.1 1]
+[charaFace F 4]
+＠武田ダレイオス
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect F flashErasure]
+[wait time 0.3]
+
+[charaFadein G 0.1 1]
+[charaFace G 4]
+＠真田メドゥーサ
+ぺ、ペルシアに旗を立てよ……。[r]と、お館様は申しております。
+[k]
+
+[charaFace G 1]
+＠真田メドゥーサ
+あ、出番おしまいですか？[r]やったー……。
+[k]
+
+
+[messageOff]
+[charaSpecialEffect G flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect G flashErasure]
+[wait time 0.3]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+な、なんとか倒せました……ライダーさんの方は[r]あまりやる気がなかったようですが。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+むう。騎馬殺しと名高いわしの三段撃ちが[r]ライダーにいまいち効いてないようなんじゃが？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+いやその、それはその……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠桜セイバー
+そういわれると私も妙に弓が痛いような……。
+[k]
+
+
+？1：気のせいですよ。
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠桜セイバー
+クラスといえば、マシュさんのクラスは[r]私たちも聞いたことがないのですが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+通常の聖杯戦争では聞きなれないものですが、[r]わ[charaFace A 1]たしは防御重視のシールダーというクラスです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー
+ほう、防御重視のクラスとは珍しいのう。[r]確かにこの胸ならなんでもぽよぽよ弾けそうじゃが。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+
+？2：相性ってありますよね。
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー
+そういえば、マシュとやらは[r]相性とかあんまりなさそうじゃな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+[wt 0.4]
+[charaFace A 1]
+＠マシュ
+はい！　わたしはシールダーですので[r]防御ならなんでもおまかせください！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 0]
+＠桜セイバー
+身体が弱い私としてはちょっとうらやましいですね。[r]やはり、この胸が防御の秘密なのでしょうか？
+[k]
+
+
+？！
+
+[charaFace A 3]
+＠マシュ
+そこは関係ありません！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[wt 0.6]
+
+[se ad7]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet C 1001001 1 ？？？]
+
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠？？？
+やあやあ、我こそは軍神、上杉アルトリア！！[r]武田ダレイオス、いざ宿命の対決ですとも！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+新たなサーヴァント……！？[r]マスター、臨戦態勢を……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+なっ！？　上杉じゃと！？　……って、女ではないか。[r]越後の龍が女なわけなかろう、出直してこい！！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 4]
+＠桜セイバー
+いや、私たちも人の事は言えないんですが……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaSet C 1001001 1 上杉アルトリア]
+
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠上杉アルトリア
+いやその、私は女性説もありましたし……[r]と[charaFace C 0]ころで宿命のライバルらしい武田ダレイオスは？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠桜セイバー
+え？　先ほど消滅しましたけど……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠上杉アルトリア
+な！？　そ、そんな、春日山くんだりから[r]頑張って出陣してきたのにまさかの無駄足……。
+[k]
+
+＠上杉アルトリア
+甲斐の兵糧を根こそぎ奪って[r]美味しいご飯をお腹いっぱい食べたかった……。
+[k]
+
+？1：お引き取りください。
+？2：うわあ、血も涙もない戦国経済だ。
+
+？！
+
+[charaFace C 2]
+＠上杉アルトリア
+かくなる上は仕方ありません！！[r]私のご飯のため……、いや、我が領民のため！！
+[k]
+
+＠上杉アルトリア
+貴方達の兵糧を頂くとしましょう！[r]いざ、毘沙門天の加護ぞある！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠魔人アーチャー
+実際戦国はこんな感じだから困る！！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

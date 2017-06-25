@@ -1,0 +1,470 @@
+＄91-30-11-01-1-0
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3011001 1 フィン]
+[charaSet F 98006000 1 ？？？]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+
+[scene 20800]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+何[line 2][r]私はそれほど、特別な男という訳でもないさ。
+[k]
+
+[charaFace D 1]
+＠フィン
+確かに、大英雄に類されるだろう男ではあるがね？[r]そんなものはただの結果に過ぎないとも。
+[k]
+
+[charaFace D 0]
+＠フィン
+荒ぶる魔の猪を倒しもしたし、[r]冥界より来たる死そのものと言える獣を屠りもした。
+[k]
+
+[charaFace D 5]
+＠フィン
+しかし、だ。それもこれもすべてエリンの守護者、[r][#上王:ハイ・キング]に仕える戦士として当然のことさ。
+[k]
+
+[charaFace D 2]
+＠フィン
+私ならずとも偉業を成すだろう。[r]それこそ、栄光のフィオナ騎士団なのだから！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace D 5]
+[charaFace C 0]
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、フォウさん。[r]……聞くだに英雄らしい活躍だと思います。
+[k]
+
+[charaFace A 7]
+＠マシュ
+でも、あなたは謙遜なさるんですね。[r]エリンの守護者、フィオナのフィン・マックール。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationChara 98003003 0 0 0 2]
+＠Dr.ロマン
+えっ、謙遜？　謙遜なの？[r]ボクには全部自慢に聞こえたんだけど……。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+はは。冗談はよしこさん。[r]私はただの男だ。他者に自慢できることは何も[line 2]
+[k]
+
+[charaFace D 1]
+＠フィン
+確かに？　まあ確かに？[r]確かにああ、私は墜ちたる神霊さえ貫いた勇者だがね？
+[k]
+
+[charaFace D 0]
+＠フィン
+戦神ヌァザの末裔にしてエリン伝説の中心だがね？[r]それはほら、やっぱり結果に過ぎない。
+[k]
+
+[charaFace D 1]
+＠フィン
+私など、ただの男さ。[r]そう[line 2]些かばかり見目の良い、[#ただの美男子]だ。
+[k]
+
+？1：自分で美男子って言った！？
+？2：すごい自信だ
+
+？！
+
+
+[charaTalk B]
+＠Dr.ロマン
+ううっ、まぶしい……！[r]もう溢れんばかりの自信と実績じゃないか！？
+[k]
+
+＠Dr.ロマン
+なんだろう、ボクの胸にぐさぐさ刺さるよ……。[r]これがエリンのリア充、フィン・マックールなのか！
+[k]
+
+
+[charaFadeout D 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+数々の強力な怪物を討伐した平穏の担い手[line 2][r]英雄、まさに大英雄として申し分ない人物ですね。
+[k]
+
+[charaFace A 8]
+＠マシュ
+でも、あの、マスター。[r]その……。
+[k]
+
+[charaFace A 4]
+＠マシュ
+フィンさんには幾つかの問題というか、[r]災難というか、トラブルも多かったはずです……よね。
+[k]
+
+？1：そうなの？
+？2：そういえば聞いたことがある
+
+？！
+
+[charaFace A 0]
+＠マシュ
+……はい。[r]彼には、女難の運命があったといいます。
+[k]
+
+[charaFace A 8]
+＠マシュ
+フィンさん自身に何の責任もない事柄もありましたが、[r]フィオナ騎士団を瓦解へと導いたのは、伝説の通りなら、
+[k]
+
+[charaFace A 7]
+＠マシュ
+彼の行動にも幾らかの非があります。[r]少なくとも、騎士団の人々にはそう映ってしまった。
+[k]
+
+[charaFace A 0]
+＠マシュ
+一度は許した[#部下:ディルムッド]の命を救わなかったことで[r]彼は[#求心力:カリスマ]を失い、騎士団は瓦解して[line 2]
+[k]
+
+
+[charaFadeout D 0.1]
+[charaTalk D]
+[charaFace A 0]
+[charaFace D 1]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠フィン
+ん？ 何の話をしているのかな、マシュ？[r]やはり私との婚姻を考え直したのかい？
+[k]
+
+[charaTalk A]
+[charaFace A 5]
+＠マシュ
+い、いえ、その！[r]そちらは絶対にありえないかと！
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠フィン
+うん？　そうなのかい？[r]ははは、絶対とはまた厳しいな！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+（先輩、ちょっとだけナイショ話です）
+[k]
+
+＠マシュ
+（フィンさんは騎士団の最後を記憶としては[r]　知っているはずですが……きっと、実感はありません）
+[k]
+
+＠マシュ
+（以前、アレキサンダーさんに会いましたよね。[r]　征服王と呼ばれた往年の状態ではなく、少年の姿で）
+[k]
+
+＠マシュ
+（多分、あれと似た状態なのだと思います。[r]　若い状態で召喚されている。ですから[line 2]）
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 0 0 4]
+
+＠Dr.ロマン
+（なるほどね。後年に体験する失敗の類を、[r]　知ってはいてもどこか他人事になっちゃう感じかな？）
+[k]
+
+[charaTalk A]
+＠マシュ
+（はい、ドクター）
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+何を小声でひそひそと……。[r]ああ、そうか、私の噂だね？　そうなんだね？
+[k]
+
+[charaFace D 4]
+＠フィン
+親指の爪をかむかむするまでもなく、[r]私には分かってしまう。マシュ、私を[line 2]
+[k]
+
+[charaFace D 3]
+＠フィン
+[line 2]愛して、しまったのかな。すまない。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFace D 1]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+！？
+[k]
+
+[charaTalk A]
+＠Dr.ロマン
+！？[r]（つい五秒前に絶対にないって言ったのに！？）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ、フォウ！？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+自覚しているんだ、私は。[r]私があまりに[#美男子でありすぎる]ということをね。
+[k]
+
+[charaFace D 4]
+＠フィン
+この顔かたち、この姿。[r]きみたち女性にはあまりに酷なモノなんだろう……。
+[k]
+
+[charaFace D 2]
+＠フィン
+これこそ我が運命、すなわちは[line 2][r]女難！　絶え間なく襲い来る女難の運命！
+[k]
+
+[charaFace D 3]
+＠フィン
+そう、私は佇むだけで姫君に求婚され、[r]美しき魔女の姉妹からツイン告白をされたりもする！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 0 0 2]
+＠Dr.ロマン
+ツ、ツイン告白！[r]そんなことが実際に有り得るだなんて！？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+羨ましすぎるよ……人としてどうかと思うけど、[r]なんて輝かしい男なんだ、フィン・マックール……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フィン
+エリンの宝たる我が最愛の[#女性:ひと]──[r]分かりやすく言うと私の最初の妻だね。
+[k]
+
+うん。彼女と私があまりに相思相愛……[r]刹那にして永遠だったものだから、妬んだ邪悪な妖精が
+[k]
+
+[charaFace D 2]
+＠フィン
+バカみたいにストーキングを仕掛けてくることも[r]あったほどだ！　ああ、それもこれもぜんぶ女難の運命！
+[k]
+
+[charaFace D 4]
+＠フィン
+いや、だが。だがしかし。[r]きみたち女性のせいにはしたくないんだ。
+[k]
+
+[charaFace D 0]
+＠フィン
+運命なのだから仕方ないさ。[r]溢れる美しさは時に、女を狂わせるものだから。
+[k]
+
+[charaFace D 1]
+＠フィン
+私は、ただ……美しすぎた……。
+[k]
+
+？1：眩しい、眩しすぎる……
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい……確かに……
+[k]
+
+？2：あの、そろそろいいですか？
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、聞こえていないと思います[line 2]
+[k]
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……フィンさんは、トラブルの原因を[r]あくまで外部的なものと思っているようですね。
+[k]
+
+[charaFace A 8]
+＠マシュ
+ある意味ではその通りなのかも……[r]でも、その、ううん。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+＠マシュ
+はい、フォウさん。[r]ちょっとだけ……釈然としないというか……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 0 0 2]
+＠Dr.ロマン
+ボクは大いに釈然としないよ！[r]なんでモテる奴ばっかりどんどんモテるんだろう！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ま、まあいいや。[r]それより、だ。わざわざ１世紀に来たのはなぜだい？
+[k]
+
+＠Dr.ロマン
+修正されつつある古代ローマの時代で、[r]しかも、わざわざガリアあたりに赴いたのは[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+ガリアに用がある訳ではないんだがね。[r]エリンの危機を感じたもので、つい、足が向いたのさ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 0 0 5]
+＠Dr.ロマン
+エリン……アイルランドが？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ああそうか、ガリアに来たんじゃなくて、[r]キミはアイルランドに近付こうとしているんだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フィン
+そうさ。[r]そして、まあ、正解というか何と言うべきか。
+[k]
+
+[charaFace D 5]
+＠フィン
+こちらの接近に気付いてか、[r]あちらの方から出向いてくれたようだぞ？
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+Ｇｕｕｕｕ……！
+[k]
+
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+敵性存在を確認！[r]先輩、来ます……戦闘指示をお願いします！
+[k]
+
+？1：正面突破だ！
+？2：落ち着いて！
+
+？！
+
+＠マシュ
+はい、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,203 @@
+
+
+＄91-10-14-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1014001 1 フェルグス]
+[charaSet E 7014001 1 ナイチンゲール]
+
+[scene 21000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フェルグス
+よし、勝利だ！
+[k]
+
+[charaFace D 4]
+＠フェルグス
+ところでお嬢さん、俺にばかり攻撃が[r]集中していたのは気のせいかな……？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠ナイチンゲール
+いいえ、気のせいではありません。[r]……とはいえ、敗北したことは認めましょう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ナイチンゲール
+好きになさい、[%1]。[r]この体はあなたのものです。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠フェルグス
+そこは俺ではないのか！？
+[k]
+
+[charaFace E 4]
+＠ナイチンゲール
+[FFFFFF]？[-]
+[k]
+
+[charaFace E 0]
+＠ナイチンゲール
+勝者はサーヴァントではなく、[r]それを指揮したマスターだと思うのですが。
+[k]
+
+＠フェルグス
+ぐうの音も出ぬ正論よな！？
+[k]
+
+？1：ちょ、ちょっと待って！？
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+そ、そうですとも！[r]マスターはそういう意図で戦った訳ではなくて……！
+[k]
+
+[charaFace A 11]
+＠マシュ
+……そうですよね、マスター？[r]でーすーよーねー？
+[k]
+
+？2：すいませんまたの機会に！
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+その通りです！[r]先輩は世界を救う使命を帯びている身。
+[k]
+
+＠マシュ
+想定外の寄り道は、その、[r]色々危険だと思うのがわたしです！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ナイチンゲール
+何と……。[r]勝者でありながら、欲が無いのですね。
+[k]
+
+[charaFace E 1]
+＠ナイチンゲール
+それでは、またの機会に。[r]さようなら、[%1]。
+[k]
+
+[se ad52]
+[charaSpecialEffect E erasure 1 1.0]
+[wait charaSpecialEffect E]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+ふぅ……危ないところでした。
+[k]
+
+[charaFace A 12]
+＠マシュ
+いえ、何が危ないのかと言われると[r]自分でも分からないのですが……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠フェルグス
+ううむ、結局最後も失敗か。[r]さすがに自信を無くしそうだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+あ、あの……その、ですね。理由はどうあれ、[r]まっすぐな求愛は素晴らしいと思います。
+[k]
+
+[charaFace A 1]
+＠マシュ
+めげずに頑張って下さいね。
+[k]
+
+＠フェルグス
+……。[r]……。
+[k]
+
+[charaFace D 0]
+＠フェルグス
+マシュ殿。よければこの後[line 2]。
+[k]
+
+[charaFace A 7]
+＠マシュ
+あ、それは結構です。
+[k]
+
+[charaFace D 4]
+＠フェルグス
+しょんぼり。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+フェルグス師匠……
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]
+

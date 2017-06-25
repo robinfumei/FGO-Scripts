@@ -1,0 +1,505 @@
+
+
+
+＄01-00-07-15-3-1
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 3028001 1 ジャガーマン]
+[charaSet F 98107500 1 ウルク兵士]
+[charaSet G 98016000 1 ウルク兵士Ｂ]
+[charaSet H 4018001 1 ケツァル・コアトル]
+
+[bgm BGM_EVENT_24 0.1]
+[scene 32940]
+[fadein black 1.5]
+[wait fade]
+
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+敵性魔獣、撃破確認！[r]おつかれさま！
+[k]
+
+＠Dr.ロマン
+周囲にはもう反応はない、バビロンを[r]根城にしていた魔獣たちは今ので全部のようだ！
+[k]
+
+
+？1：どうりで数が多いと思った……
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はい、想定よりハードな戦いになりました。[r]先輩、お体の方は大丈夫でしょうか？
+[k]
+
+＠マシュ
+満足な休息もないまま連戦が続いています。[r]魔力の枯渇には十分に注意してください。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？2：イシュタルが張り切ってくれたから
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+まあね。そう言えば、ここが最初だったなって。[r]そう思ったら気合いが入ったのね、きっと。
+[k]
+
+[charaFace C 1]
+＠イシュタル
+あの時は“なんて失礼な人間、どうやって[r]いじめてやろうかしら”と思ってたけど。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+？！
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マーリン
+[%1]君、お話中悪いが[r]ドクター・ロマンに繋いでくれないか？
+[k]
+
+＠マーリン
+そろそろ一時間経過する。[r]北壁の様子はどうだ？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+
+＠Dr.ロマン
+ああ、ちょうど戦闘が始まったところだ。
+[k]
+
+＠Dr.ロマン
+魔獣の群はその第一波がニップル市を通過、[r]五分後に北壁本隊と交戦を開始する。
+[k]
+
+＠Dr.ロマン
+そして、魔獣たちの先頭にいるのは緑の髪の少年[line 3][r]“ティアマト十一の子供たち”の指揮官、キングゥだ。
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 1.0]
+
+[scene 34600]
+
+[fadein black 1.5]
+[wait fade]
+
+[se ad16]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠G：ウルク兵士
+来るぞ[line 5]！[r]第一陣、構え！　レオニダス王の教えを活かす時だ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：ウルク兵士
+いいな、前線で戦っていいのは半刻だけだ！[r]我々の個々の力は魔獣には及ばん！
+[k]
+
+＠F：ウルク兵士
+体力が尽きた者は四陣にまで後退、[r]休憩と槍の持ち替え！　呼吸を整えて次の出番を待て！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠G：ウルク兵士
+[line 3]接触する！
+[k]
+
+＠G：ウルク兵士
+ここまで生き残った戦線の底力、今こそ王にお見せする時！[r]総員、かかれー！
+[k]
+
+[messageOff]
+[seStop ad16 0.7]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[scene 10000]
+[wipein leftToRight 0.1 1]
+[wait wipe]
+[se ad51]
+[wt 0.7]
+[se ad25]
+[wt 0.4]
+[se ad33]
+[effect bit_talk_kengekiall01]
+[wt 1.0]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 1.0]
+[wipeout rightToLeft 0.1 1]
+[wait wipe]
+[scene 34600]
+[charaSet G 98106000 1 キングゥ]
+[wt 0.1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠ジャガーマン
+どうぶつ大戦争が始まったニャー！[r]よし、私たちも出るかククルん！
+[k]
+
+＠ジャガーマン
+北の皆さんには到着早々、うまい肉を[#奢:おご]ってもらった！[r]こんな出来るモノノフたちを見殺しにはできないニャー！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein E 0.1 0]
+[charaFadein H 0.1 2]
+
+＠ケツァル・コアトル
+同感よジャガー。本来はケンカ両成敗だけど、[r]あの魔獣たちはゴルゴーンにいじられている。
+[k]
+
+＠ケツァル・コアトル
+戦闘能力と引き替えに生殖機能を失ったのね。[r]この戦いが終われば死に絶えるだけの悲しい仔たち。
+[k]
+
+＠ケツァル・コアトル
+善か悪かを問う事はできないけれど、今は[r]“先がないもの”より“先があるもの”を選びましょう。
+[k]
+
+[charaFace E 2]
+＠ジャガーマン
+よっしゃ、行くぜぇ[line 3]！[r]ジャングルの獣の力、見せてやんよ[line 3]！
+[k]
+
+[charaFace H 2]
+＠ケツァル・コアトル
+！　ジャガー！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFadein E 0.1 1]
+[messageOff]
+[charaEffect E bit_talk_38]
+[se bac111]
+[wt 0.4]
+
+[charaEffectStop E bit_talk_38]
+[charaFadein H 0.1 2]
+[charaMove H 0,0 0.2]
+[wait charaMove H]
+[se ad102]
+[charaShake E 0.01 5 5 0.4]
+[charaMove E 0 0.4]
+[charaFadeout E 0.4]
+[wait charaMove E]
+[charaFadeout H 0.1]
+[se ad171]
+[charaEffect H bit_bolg_02y]
+[wt 0.4]
+[se ad32]
+[charaEffect H bit_talk_14]
+[shake 0.05 5 5 0.4]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠キングゥ
+おや。サーヴァントがいるかと思えば、[r]ケツァル・コアトルじゃないか。
+[k]
+
+＠キングゥ
+母上の玉座以来だね。[r]『三女神同盟』は瓦解したと見ていいのかな？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+
+＠ケツァル・コアトル
+ええ。私もエレシュキガルも、ウルクから手を引いたわ。[r]今はこうして人間たちの味方をしています。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠キングゥ
+……そう。残念だよ。[r]キミは聡明な女神だった。
+[k]
+
+＠キングゥ
+エレシュキガルはともかく、キミだけは[r]母さんの嘆きを理解してくれると思ったのに。
+[k]
+
+＠キングゥ
+かつて自分が育てた[#文明:さくもつ]を、[r]野蛮な[#征服者:コルテス]に台無しにされた女神。
+[k]
+
+＠キングゥ
+人間たちをひとりひとり殺してまわる、と[r]言ったキミに、ボクはシンパシーを感じていた。
+[k]
+
+＠キングゥ
+この女神は自分ひとりで世界を背負う[#気概:きがい]のある、[r]殺戮の化身だと。
+[k]
+
+＠キングゥ
+あの時のキミは何処にいってしまったんだい？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠ケツァル・コアトル
+ああ[line 3]こんな顔デスか？[r]この通り、何処にもいっていまセンよ？
+[k]
+
+[messageOff]
+[se ad73]
+[charaMove H -50,0 0.1]
+[charaFadeout H 0.1]
+[wait charaMove H]
+[wt 0.1]
+[charaEffect G bit_talk_kengekiall01]
+[shake 0.05 3 3 0.2]
+[se bac142]
+[wt 0.3]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[shake 0.05 3 3 0.2]
+[se bac136]
+[wt 0.3]
+[shake 0.05 3 3 0.2]
+[se bac137]
+[wt 0.3]
+[se bac143]
+[charaFace G 6]
+[charaEffect G bit_talk_13]
+
+[charaShake G 0.01 2 2 0.7]
+
+＠キングゥ
+ぐっ……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠ケツァル・コアトル
+なーんて、嘘デース！[r]顔芸はもうこれで最後にしマース！
+[k]
+
+[charaFace H 7]
+＠ケツァル・コアトル
+覚悟なさいキングゥ。[r]貴方を倒した後はゴルゴーンよ。
+[k]
+
+＠ケツァル・コアトル
+このまま、まっすぐに進軍して、[r]ティアマト神を[#騙:かた]る彼女の心臓を引きずりだす。
+[k]
+
+＠ケツァル・コアトル
+それが彼女への、私なりの感謝と思いなさい。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠キングゥ
+感謝……？[r]キミが彼女に、何の感謝をすると言うんだ？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+
+＠ケツァル・コアトル
+もちろん、今まで私と殺し合わなかった事に。[r]素敵なマスターに出逢わせてくれた事に。
+[k]
+
+[charaFace H 1]
+＠ケツァル・コアトル
+ええ、[#マスター:あの子]のためなら女神の契りも無視しちゃうわ！
+[k]
+
+＠ケツァル・コアトル
+ゴルゴーンの首は、[r]このケツァル・コアトルがいただきます！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+
+＠キングゥ
+[line 3]呆れた馬鹿力なら、頭まで馬鹿一色とはね。[r]心底失望したよ、ケツァル・コアトル。
+[k]
+
+[charaFace G 8]
+＠キングゥ
+新しい世界に、頭の悪い女神は必要ない。[r]翼竜ともども八つ裂きにしてやろう……！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaSet F 3027000 1 アナ]
+[charaFadeout G 0.1]
+[scene 32940]
+[seStop ad16 1.0]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+現在、ケツァル・コアトルがキングゥを押し止めている。[r]彼女がいるかぎりキングゥはこちらには来ない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マーリン
+よし、作戦通りだな。[r]ケツァル・コアトルめ、中々の[#煽:あお]りスキルじゃないか。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠アナ
+はい。さすが大人の女神です。[r]堂々と嘘を言って、キングゥの怒りを煽っていました。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠マシュ
+[FFFFFF]？[-]　嘘というのは、どのあたりでしょうか？[r]先輩、分かりますか？
+[k]
+
+？1：素敵なマスター、のあたり？
+？2：顔芸はもうしない、のあたり？
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+女神の契りを無視する、のあたりよ。[r]ケツァル・コアトルはゴルゴーンより格上の神性だからね。
+[k]
+
+＠イシュタル
+彼女が自殺覚悟でゴルゴーンを倒す、なんて言い出したら、[r]キングゥは無視できないでしょ？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+そ、そうですね。
+[k]
+
+＠マシュ
+言われて見ればその通りでした……[r]当たり前の事のように聞こえたので、気付かなくて……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マーリン
+なんにせよ作戦は順調だ、次は杉の森に向かおう！[r]ここからは休憩なしだ、飛ばして行くぞ、諸君！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_24 1.5]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

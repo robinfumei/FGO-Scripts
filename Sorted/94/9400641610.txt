@@ -1,0 +1,952 @@
+
+＄94-00-64-16-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98102400 1 イリヤ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5023000 1 エレナ]
+[charaSet E 98103600 1 ルビー]
+[charaSet F 98104100 1 エジソン君]
+[charaSet G 98146000 1 ？？？]
+
+[charaDepth D 1]
+[charaDepth G 3]
+
+[charaTalk depthOff]
+
+[scene 11010]
+
+
+[charaTalk B]
+[charaFace B 3]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+[charaShake E 0.05 3 3 0]
+
+[fadein black 2.0]
+[wait fade]
+
+
+＠イリヤ
+はぁーすごぉい、古めかしい本が壁一面に……。
+[k]
+
+[charaFace B 5]
+＠イリヤ
+……どうしたの、ルビー？　ぶるぶる震えちゃって？[r]この国へ来てから、あんまり喋ってないじゃない？
+[k]
+
+＠ルビー
+い、いえ……っ（ガクガク）[r]お気づきになっておられないのですか（ガクガク）
+[k]
+
+＠ルビー
+イリヤさんたら、らららら……[r]まままー、しし知らぬがホトケですかねー（ガクガク）
+[k]
+
+[charaFace B 1]
+＠イリヤ
+変なルビー。[r]あっ、ライオンのお人形さん☆
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[charaShake E 0.05 3 3 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠エジソン君
+……………………。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠エレナ
+それは、あたしの元パートナーだけれど……。[r]言葉を発しなくなってから、もうずいぶん経つわ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠エジソン君
+…………………………。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ええっ……！？　パートナー？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+（ひそひそ）こんな異様な光景は初めて見たな……[r]どうりで探査が内部に通らないはずだ……。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、マシュ、[r]その部屋の書架にある書物は、全部が魔道書だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ……これらすべてが……ですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+そう、この廃墟は[r]『死せる書架の国』と呼ばれて久しいわ。
+[k]
+
+[charaFace D 0]
+＠エレナ
+その名の由来をお教えしましょう。
+[k]
+
+[charaFace D 4]
+＠エレナ
+外にいた亡霊たち、そしてこの部屋の無数の書物、[r]そのすべては、かつて魔法少女だった者たちのなれの果て。
+[k]
+
+[charaFace D 5]
+＠エレナ
+この世界に[#堕:お]とされた、不幸な少女たちの墓標なの。[r]彼女たちは、『[#亡霊:エコー]』と呼ばれている。
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+エコー……魔法少女の残響、という意味ですね。[r]イアソンさんもそんな単語を口にしていましたが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+イアソン？　大海原と竜の国の？[r]顔[charaFace D 0]に似合わず冒険家なのね、あなたたち。
+[k]
+
+[charaFace D 1]
+＠エレナ
+あそこは物騒だったでしょう？[r]でもここの子たちはみんなおとなしいから安心して。
+[k]
+
+[charaFace D 0]
+＠エレナ
+こうやって魔道書の姿になって眠っているのだもの。[r]魔法少女の多くは、本が大好きだから。
+[k]
+
+[charaFace D 5]
+＠エレナ
+あなたたちに襲いかかった[#亡霊:エコー]は、[r]道連れの仲間を欲しがった……あるいは、
+[k]
+
+[charaFace D 4]
+＠エレナ
+現役時代のように、[#好敵手:ライバル]として[r]魔術を交えたかった……。
+[k]
+
+[charaFace D 0]
+＠エレナ
+あたしが彼女ら、[#亡霊:エコー]に襲われないのは、[r]客人をもてなす役目を負っているから[line 3]
+[k]
+
+＠エレナ
+その象徴としての『宝石』を所持しているから。[r]それだけ。
+[k]
+
+
+？1：もしかして、[&きみ:あなた]が固有結界の所有者[&かい:なの]？
+？！
+
+[charaFace D 5]
+＠エレナ
+あたしが？[line 3]いいえ、違うわ。[r]固有結界の所有者ではない。
+[k]
+
+[charaFace D 0]
+＠エレナ
+……ではもうこの世界が巨大な固有結界の[r]中にあると理解しているのね。
+[k]
+
+[charaFace D 5]
+＠エレナ
+この世界を創ったのは、一人の魔法少女よ。[r]彼女は『ファースト・レディ』と呼ばれている。
+[k]
+
+[charaFace D 4]
+＠エレナ
+[#亡霊:エコー]たちが、そう[#囁:ささや]くの。[r]あたし自身は一度もレディに会ったことはない。
+[k]
+
+[charaFace D 5]
+＠エレナ
+レディはこの世界の中心にある閉鎖空間、[r]黒い壁の向こうにいる、と云われているわ。
+[k]
+
+＠エレナ
+あの黒壁はどんな魔法でも破壊できないし、[r]内側の様子を知ることも不可能よ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+えっ、あれっ……じゃあメイヴさんは？[r]『雪華とハチミツの国』の女王の[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エレナ
+メイヴは魔法少女の一人よ。とても強大な。[r]でもファースト・レディとは違う。
+[k]
+
+＠エレナ
+イリヤといったわね？　先ほどの続きを聞かせて。[r]あなたがメイヴにこだわるのは、なぜ？
+[k]
+
+[charaFace D 5]
+＠エレナ
+よもや、アレを倒してしまっても構わんのだろう？[r]とか言うんじゃ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ち、違いますってば！[r]実[charaFace B 5]は[line 3]。
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[bgmStop BGM_EVENT_5 1.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+[wt 0.5]
+[bgm BGM_EVENT_2 1.5]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+
+＠エレナ
+[line 3]そう。[r]仲間の魔法少女をさらわれたのね。それは災難。
+[k]
+
+[charaFace D 5]
+＠エレナ
+……でも妙ね。そんなことがあるのかしら。
+[k]
+
+[charaFace D 4]
+＠エレナ
+メイヴは宝石以外、興味は無いと思っていたけれど。[r]レディの異変がメイヴにまで影響を……？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ボクからも一つ尋ねさせてほしい。
+[k]
+
+＠Dr.ロマン
+キミは平行世界について[r]かなり正確に知覚しているようだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エレナ
+それは当然のこと。[r]神智学の知識も助けになってはいるけれど。
+[k]
+
+＠エレナ
+あたしたち魔法少女は、元はといえば、[r]様々な平行世界からこの場所に招かれたのだから。
+[k]
+
+[charaFace D 4]
+＠エレナ
+あたしたちはもう、自分の世界では様々な理由で[r]魔法少女ではいられなくなった存在だから。
+[k]
+
+＠エレナ
+ここに来るしかなかった。他に行き場所は無かった。[r]けれど、この世界なら魔法少女であることを続けられる。
+[k]
+
+[charaFace D 0]
+＠エレナ
+ここはある意味、あたしたちの楽園。[r]そして、終着の地なの。
+[k]
+
+
+？1：なぜ、イリヤたちが？
+
+[charaFace D 5]
+＠エレナ
+それはあたしにもわからない。[r]ファースト・レディに聞いてくださる？
+[k]
+
+[charaFace D 4]
+＠エレナ
+ただ……[r]残酷なことを言うようだけど……。
+[k]
+
+[charaFace D 5]
+＠エレナ
+そうやって自分の立場を認められない子たちが[r]外で暴れている[#亡霊:エコー]になるのよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……っ……！？
+[k]
+
+[charaFadeout B 0.1]
+
+
+？2：魔法少女にとっての英霊の座……？
+
+[charaFace D 4]
+＠エレナ
+虚空の記録庫と言われる英霊の座……？[r]残念[charaFace D 5]ながら、それほど[#崇高:すうこう]で[#無垢:むく]な場所ではないわ。
+[k]
+
+[charaFace D 4]
+＠エレナ
+結局、[#醜:みにく]く魔法少女にしがみついた挙げ句、[r]互いに争い、ただの想念、[#亡霊:エコー]になってしまったのだし。
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+前向きには認めたくないのですが……[r]確認しなければいけない事実が。
+[k]
+
+[charaFace A 14]
+＠マシュ
+まさか……やはり、わたしも魔法少女として[r]召喚されてしまった……のでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エレナ
+そう推測するのが妥当では？[r][line 3]そちらの[#守護獣:おとも]さんも一緒にね。
+[k]
+
+
+？1：自分が[#守護獣:おとも]！？
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+本当にわたしが原因だったなんて……[r]ショックです。これでは先輩に顔向けが……。
+[k]
+
+
+？2：マシュのマシュコットならまんざらでもないフォウ？
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩はマシュターでいてくださいっ！[r]っ……い、言い直しません！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+あなたが気にすることは無い。[r]マシュ・キリエライト。いいえ[line 3]
+[k]
+
+[charaFace D 1]
+＠エレナ
+[#肉:ビ][#食:ー][#酒:ス][#乱:ト]系魔法少女ふかふか☆マシュ、だったわね。
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+デミ魔法少女です！……じゃなくてっ、[r]デミ・サーヴァントです！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+[line 3]じゃ、あたしの話は終わり。
+[k]
+
+[charaFace D 0]
+＠エレナ
+宝石が欲しいの？[r]よくってよ。どうぞ、お持ちになって。
+[k]
+
+
+
+[charaFace D 4]
+＠エレナ
+この石は、ヴリルだなんて名付けたけれど、[r]もうどうでもよい話ね。
+[k]
+
+[charaFadeout D 0.1]
+
+
+[se ad39]
+
+[charaTalk off]
+[charaFadein G 0.4 1]
+[charaEffect G bit_talk_blight_02]
+
+[wt 3]
+
+[charaFadeout G 0.4]
+[wt 0.4]
+[charaPut G 1200,1200]
+[charaEffectStop G bit_talk_blight_02]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ……それは……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……エレナさん、でもっ、[r]その宝石が無いと、[#亡霊:エコー]たちに襲われてしまうんじゃ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠エレナ
+……べつにいいの。遅かれ早かれ、[r]ここへメイヴがやって来たでしょうから。
+[k]
+
+[charaFace D 0]
+＠エレナ
+あたしはもう魔法少女じゃない、[r]ただの墓守だから。石の力にはこだわらない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+そんな……っ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠エレナ
+[#躊躇:ためら]う必要は無いわ。[r]あなたも同じ運命をたどるのだから。
+[k]
+
+[charaFace D 4]
+＠エレナ
+いずれあなたも世界に棄てられる時が来る、イリヤ。[r]望みを失う時が。
+[k]
+
+[charaFace D 5]
+＠エレナ
+一番たいせつなことを教えるわ。[r]あなたの友人、美遊・エーデルフェルトについて。
+[k]
+
+＠エレナ
+これは推測だけど、彼女をさらったのはメイヴじゃない。[r][line 3]ファースト・レディだわ。
+[k]
+
+＠エレナ
+黒い壁の向こうにいる彼女が、ひそかにこの世界を[r]観察しているとあたしは[#睨:にら]んでいた。
+[k]
+
+＠エレナ
+自分の使い魔を、他の魔法少女のものに[#紛:まぎ]れ込むように[r]変身させてね。
+[k]
+
+[charaFace D 4]
+＠エレナ
+メイヴに尋ねれば、より真相に近づけるでしょう。[r]その後も生存を許されていればの話だけれど。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+ありがとう……エレナさん……[r]それを、ミユの件を一番知りたかったんです！
+[k]
+
+[charaFace B 0]
+＠イリヤ
+でも宝石までは要りません。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+黒い壁の向こうに行くためには、[r]すべての宝石を合わせた力が必要だとしても？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+えっ……[r]すべての……って……。
+[k]
+
+
+？1：全部の宝石だって？
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ちょ……それはつまりメイヴも含めて、[r]すべての魔法少女の石を奪う必要があるってことかい？
+[k]
+
+＠Dr.ロマン
+ファースト・レディの固有結界を[r]変質させるだけの力が宝石にあると？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+ええ。[r][#亡霊:エコー]たちの[#囁:ささや]きが教えてくれた。
+[k]
+
+＠エレナ
+[line 3]宝石は願いを[#叶:かな]える想いの結晶。[r]壁を越えて、外なる世界にすら届くだろうと。
+[k]
+
+[charaFace D 4]
+
+＠エレナ
+でもそれもまた、レディの狙いの内なのかも。[r]だとしても確かめる手段は一つだけ。石を集めるのみ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaShake E 0.07 0 16 1.0]
+＠ルビー
+ほらほら、[r]わたしの言った通りじゃありませんかー？
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠ルビー
+ま、推測通りでしたら、レディの使い魔さんたちは、[r]例外的に黒い壁を通行可能なわけですけどー？
+[k]
+
+[charaShake E 0.07 0 8 1.0]
+＠ルビー
+でも聞いているかぎりレディさんは、使い魔を[r]他人に奪われるようなヘマはしなさそうですねー？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+それじゃあ魔法少女たちを、[r]レディがわざと戦わせているも同然じゃない……！
+[k]
+
+＠イリヤ
+そんな……そんなひどいこと止めさせなくちゃ！[r]で[charaFace B 4]もどうしたら……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+同感です……わたしたちはそれを望まずとも、[r]その戦いに荷担してしまいました……
+[k]
+
+
+？1：イリヤ、[&きみ:あなた]は世界に棄てられてなんか[&いない:ない]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+[%1][&お兄さん:お姉さん]……。
+[k]
+
+[charaFace B 0]
+＠イリヤ
+うん……。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+この世界のルールに抵抗するつもり？[r]無駄よ。
+[k]
+
+＠エレナ
+イリヤ、あなたの友人はどれだけ強いというの？[r]現に今、何ひとつ反抗など出来ていないでしょう？
+[k]
+
+[charaFace D 4]
+＠エレナ
+この世界ではレディは絶対の存在なのよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+…………っ……。
+[k]
+
+
+？1：エレナ、[&きみ:あなた]だってなれの果てなんかじゃない
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+……いきなり何を言うの？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+そうです！　終わってなんかないです！[r]まだきっと出来ることが……！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠エレナ
+やめて。[r]あたしたちを侮辱しないで……！
+[k]
+
+[messageOff]
+[se ad14]
+[shake 0.05 0 4 0]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+本棚の魔道書たちが……[r]一斉に震えて……。
+[k]
+
+[charaFadeout A 0.1]
+
+[seStop ad14 2.0]
+[shakeStop]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠エレナ
+……この子たちが運命を前に、指をくわえたまま[r]何もしなかったとでも思っているの？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+でも、わたしは……、[r]ここで止まってなんかいられない！
+[k]
+
+[charaFace B 2]
+＠イリヤ
+ぜんぶ自分でやってみるまで、[r]誰かの絶望をそのまま受け入れたりできない！
+[k]
+
+[charaFace B 5]
+＠イリヤ
+ミユも……ミユだって弱くなんかない！[r]今もあきらめずに頑張っているんだから！
+[k]
+
+
+
+？1：エレナ、[&きみ:あなた]は……
+？！
+
+？1：[&きみ:あなた]はイリヤに希望をつなぐ為にいてくれた。此処に
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠エレナ
+……っ……[r][#彼:アル]のような気休めを……。
+[k]
+
+[charaFace D 5]
+
+＠エレナ
+あなたたちに[line 3][r]あなたごときに、あたしの物語の何がわかるの？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠エレナ
+もう疲れたわ。終わりにしたいの！[r]さっさとあたしの宝石を持っていけばいい！
+[k]
+
+＠エレナ
+でなければ、あたしがあなたたちを[r]ここで眠らせるわ！　永遠に！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+…………ルビーっ。
+[k]
+
+
+[charaPut E 1]
+[messageOff]
+[charaBackEffect E bit_talk_magicalchange_back]
+[wt 0.5]
+[charaChange B 5028001 5 fade 1.0]
+[wait charaChange B]
+[charaBackEffectStop E bit_talk_magicalchange_back]
+[wt 1.0]
+[charaPut E 1200,1200]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+イリヤさん……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+……勝手に変身してごめんなさい、マシュさん、[r][%1][&お兄さん:お姉さん]。
+[k]
+
+[charaFace B 2]
+＠イリヤ
+でもわたし、ちょっと、[r]怒ってるんだから……！！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠エレナ
+あなたの具体性の無い、虫の良い望みなど[r]妄想の域を出ないと知りなさいな！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

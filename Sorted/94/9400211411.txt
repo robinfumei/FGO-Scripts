@@ -1,0 +1,138 @@
+＄94-00-21-14-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 0 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 2 メフィスト]
+[charaSet F 2024000 1 ノッブ]
+[charaSet G 1027000 1 おき太]
+
+[scene 22130]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.4 1]
+[effect bit_talk_06]
+＠ノッブ
+……ふ、人間五十年、下天のうちをくらぶれば[r]イベ幻の如くなり……
+[k]
+
+＠ノッブ
+妄執にとらわれた魔王であるわしは消える……[r]さらばじゃマシ……、おっぱいサーヴァント。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+もういいですから！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ノッブ
+ではポイント集め頑張るのじゃ……[r]専用再臨素材も忘れるでないぞ……
+[k]
+
+＠ノッブ
+変なレベルで止まってしまうからのう……[r]ま……是非も……ないよ……ネ……
+[k]
+
+[messageOff]
+[effectStop bit_talk_06]
+[wait effect bit_talk_06]
+[wt 0.2]
+[charaSpecialEffect F flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect F]
+
+[wt 0.4]
+[bgmStop BGM_EVENT_6 0.1]
+[wt 0.6]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+信長さん……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[bgm BGM_EVENT_2 0.1]
+＠両儀式
+で、誰だったんだよコイツ？[r]新手のちんどん屋か？
+[k]
+
+[wt 0.4]
+[se ad45]
+[wait se ad45]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠おき太
+ふう……、今日も不逞浪士をたくさん[r]三段突きできましたとも。沖田さん大勝利～♪
+[k]
+
+＠おき太
+あ、帰りにコンビ二でアイス買って来ましたよ。[r]ノッブはどれにします？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ノッブ
+わし抹茶！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+えっ！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠両儀式
+ストロベリー。
+[k]
+
+＠マシュ
+そっちも！？
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

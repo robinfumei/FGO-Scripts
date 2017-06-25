@@ -1,0 +1,211 @@
+＄01-00-04-04-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 11010]
+[wipeFilter circleIn 0.5 1.0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009003 1 ダ・ヴィンチ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 少年]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+＠少年
+……ようやくか。[r]待ちくたびれたぞ馬鹿ども。
+[k]
+
+＠少年
+おかげで読みたくもない小説を一シリーズ、[r]二十冊近く読み潰すハメになった。
+[k]
+
+？1：誰……？
+
+？2：子供……？
+
+？！
+
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ……？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠少年
+おまえたちがヘンリー・ジキル氏の言っていた救援だな。[r]では、早速こちらの状況を伝えるとしようか。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFadein H 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠モードレッド
+ああ？　なんだ、連絡員ってのはガキかよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+少年、ですね。[r]この古書店の関係者でしょうか。
+[k]
+
+[charaFace A 12]
+＠マシュ
+店主の息子とか、孫……とか。[r]そういった認識で間違っていませんか？
+[k]
+
+[charaFace A 0]
+＠マシュ
+あなたがミスター・ジキルと連絡を取って[r]わたしたちに救援を求めた人物、で良いのですよね。
+[k]
+
+＠少年
+ああそうだ。状況が状況だからな、[r]おおまかな認識はその程度でかまわない。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠モードレッド
+何か……やけにいい声してんだな。[r]変声期か、おまえ？
+[k]
+
+[charaFace H 1]
+＠少年
+ああ、これでも元々は演劇志望でな。
+[k]
+
+＠少年
+まったく恥ずかしい。[r]為し得なかった人生ほど恥ずかしいものはないな！
+[k]
+
+[charaFace H 0]
+＠少年
+まあいい、俺の美声については後回しだ。[r]この先イヤというほど聞かせてやる。
+[k]
+
+＠少年
+今は[#ここ]の話をしよう。[r]この古書店の老主人は、既に魔本に襲われた。
+[k]
+
+＠少年
+ソーホーエリアの半数近くが同じ状況だ。[r]醒めない眠りへと落ち、今も仲良く夢の中という訳さ。
+[k]
+
+＠Dr.ロマン
+いま、魔本がどこにいるかわかるかい？[r]それと、君はなぜ襲われなかったんだろう。
+[k]
+
+＠少年
+あん？　馬鹿かおまえは。声だけでなく頭まで花畑か？[r]そんなもの、逃げたからに決まっているだろう。
+[k]
+
+＠Dr.ロマン
+えっ……あっ、ご、ごめん……そうだね……[r]それはそうだ……はは、ごめんよ……すみません……
+[k]
+
+＠Dr.ロマン
+はは……[r]ははは……
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクター。子供の言葉に傷付かないで下さい。[r]あの年頃の子は、直裁に物を言うことが多いですし。
+[k]
+
+[charaFace H 0]
+＠少年
+魔本がどこにいるか、だったな。[r]ここだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠モードレッド
+あん？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+え？
+[k]
+
+＠少年
+奴は、この古書店二階住居……[r]つまり、まだこの階にいる。隣の書斎だ。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠モードレッド
+はは。[r]何だ、いるのか。そこに？
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+…………！
+[k]
+
+[charaFace A 0]
+＠マシュ
+先輩、屋内戦闘は危険です。[r]狭い閉鎖空間での戦闘はなるべく避けるべきでしょう。
+[k]
+
+＠マシュ
+戦闘による影響が、あの少年と先輩に[r]及んでしまう可能性があります。
+[k]
+
+？1：そういう事なら広い場所で戦闘しよう
+
+？2：外に誘導する！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……はい。[r]では、モードレッドさん。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+んじゃま、さっそく片付けてやるとするか！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

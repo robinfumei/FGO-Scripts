@@ -1,0 +1,141 @@
+＄94-00-62-09-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 9004000 1 マルタ]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マルタ
+また娯楽施設？
+[k]
+
+[charaFace A 5]
+＠マルタ
+ちょっと享楽に走るのも[r]ほどほどにした方がいいんじゃない？
+[k]
+
+＠マルタ
+あんまり娯楽に[#耽:ふけ]りすぎるのはダメよと、[r]主も仰っているはずよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+今回は、皆で楽しめる施設であります！
+[k]
+
+＠G：うりぼう
+和気藹々がモットーであります！
+[k]
+
+＠H：うりぼう
+家族の『和』を深めるのであります。[r]この娯楽施設で死にかけのお爺ちゃんもニッコリ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マルタ
+家族の和かぁ……[charaFace A 0]そういうことなら、まあ。[r]私もお小言はひっこめましょう。
+[k]
+
+[charaFace A 5]
+＠マルタ
+ところで、いま何か酷いこと言わなかった？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+気のせい、マム！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マルタ
+……まあいいわ。[r]で、どんな施設を作るつもり？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+スタジアムとかどうでしょう。
+[k]
+
+＠G：うりぼう
+ブードゥ館的な。
+[k]
+
+＠H：うりぼう
+女神様をモチーフとした、[r]アミューズメントパークとか、いかがでしょうサー。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マルタ
+ふうむ……さすがに娯楽施設を、[r]私の一存で建てる訳にはいきませんね。
+[k]
+
+[charaFace A 0]
+＠マルタ
+マスター、よろしくお願いするわ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

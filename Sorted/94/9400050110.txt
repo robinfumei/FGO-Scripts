@@ -1,0 +1,116 @@
+＄94-00-05-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[backEffect bit_talk_helloween01 1]
+[scene 20805]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+[fadein black 1]
+[wait fade]
+＠マシュ
+到着しました。年代は不明ですが、[r]地層はヨーロッパのもののようです。
+[k]
+
+[charaFace A 13]
+＠マシュ
+ですが……ちょっと雰囲気が怖いような、[r]楽しいような。ヘンな感じですね。
+[k]
+
+[charaFace A 1]
+＠マシュ
+あちこちに[#カボチャのお化け:ジャック・オー・ランタン]がふわふわ浮かんでいますし、[r]骸骨が楽しそうに踊っています。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！　ファッ！
+[k]
+
+[charaFadeout C 0.1]
+[se ad13]
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+予想以上に本格的だぞこりゃ……[r]ちょっと甘く見てたかな……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+はい。……リーさんのコトですから、[r]もっとハリボテ的なものかなって……
+[k]
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+こいつは気を引き締めないとまずいかもだ。
+[k]
+
+＠Dr.ロマン
+周囲に敵性反応は……弱いものがちらほらあるな。[r]何が起こるか分からない。気をつけて探索してくれ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+はい。予想外の風景ですが、[r]期待以上の仕上がりなのは確かです！
+[k]
+
+＠マシュ
+それでは出発しましょうマスター。
+[k]
+
+＠マシュ
+名物にうまいものなし、[r]郷に入れば郷に従え、です！
+[k]
+
+[charaFadeout A 0.5]
+[wt 0.3]
+[messageOff]
+[wipeout leftToRight 1 3]
+[wait wipe]
+[backEffect bit_talk_helloween01 1]
+[scene 20805]
+[bgmStop BGM_EVENT_2 0.1]
+[wipein rightToLeft 1 3]
+[wait wipe]
+[charaSet D 98006200 1]
+[charaFadein D 0.4 1]
+[se ad21]
+[wt 0.3]
+＠？？？
+置いてけぇ～……置いてけぇ～……[r]APとか石置いてけぇ～……
+[k]
+
+[charaFadeout D 0.1]
+[bgm BGM_EVENT_3]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠マシュ
+むむっ！[r]まずはゴースト系ですか……定番ですね。
+[k]
+
+＠マシュ
+サプライズには程遠いですが、まあ、アリです。[r]お化け屋敷は基本中の基本だと書いてありました。
+[k]
+
+[charaFace A 2]
+＠マシュ
+気を取り直して楽しみますとも。[r]先輩、早く早く！　まずは幽霊退治です！
+[k]
+
+[charaFadeout A 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

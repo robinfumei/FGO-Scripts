@@ -1,0 +1,315 @@
+＄94-00-09-05-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 5005001 1 竹中アンデルセン]
+[charaSet D 1027000 1 沖田総司]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaSet F 2002001 1 豊臣ギル吉]
+[charaSet G 5014001 1 黒田メフィスト]
+[fadein black 2]
+[wait fade]
+
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+というか飽きてきたんじゃが……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+そんないい加減な！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠沖田総司
+元はと言えばあなたのせいなんですから[r]きっちり最後まで面倒見てください！
+[k]
+
+[charaFadeout D 0.1]
+
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+そういえば、魔人アーチャーさんと沖田さんは[r]元の世界ではどういったご関係なんですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace E 4]
+＠魔人アーチャー
+どういった関係といっても、そうじゃの……[r]目障りな奴じゃなとにかく、ワープとかうざいし。
+[k]
+
+
+[charaFace D 2]
+＠沖田総司
+それはこっちの台詞ですよ！
+[k]
+
+＠沖田総司
+あなたが聖杯を爆弾なんかに改造しなければ[r]こんな事にはならなかったんです！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+聖杯を[line 3]爆弾に、ですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠魔人アーチャー
+うむ、わし考案の一発逆転の超兵器なのじゃ。
+[k]
+
+[charaFace E 4]
+＠魔人アーチャー
+だがちょっとした弾みで再構成中の炉心に[r]頭から落っこちてしまってな……。
+[k]
+
+＠魔人アーチャー
+おかげでわしの力のほとんどを持っていかれるわ[r]妙な生物が発生するわで散々なのじゃ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+なんだかよく分かりませんが、無茶苦茶していた[r]ことだけはわかりました……。
+[k]
+
+[charaFadeout A 0.1]
+
+[messageOff]
+[fadeout black 2]
+[wait fade]
+[scene 10800]
+[fadein black 2]
+[wait fade]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠沖田総司
+あ、無駄話をしてたら到着しましたよ。[r]ここが特異点の中心地、大坂……、のはずですが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+どう見ても南蛮街なんじゃが……。
+[k]
+
+＠？？？
+フハハハハハ！　よく来たな雑種ども！！
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+こ、この声は！？
+[k]
+
+[charaFadeout A 0.1]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[scene 10800]
+[charaFadein F 0.1 1]
+[charaFace F 1]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+＠豊臣ギル吉
+我が名は、黄金郷ジパングの主にして[r]人類中世の英雄王、豊臣ギル吉！！
+[k]
+
+[charaFace F 1]
+＠豊臣ギル吉
+黄金といわず、茶器といわず[r]この世のすべての財は我のものだぎゃ！！
+[k]
+
+[charaFadeout F 0.1]
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+うわぁ、もうどうにもならない感じに[r]混ざりまくってますね。だぎゃって……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー
+ん～、なんとなくサルを思い出すのう。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 1]
+＠豊臣ギル吉
+勘違いするなよ雑種、この程度の泥で我の存在は[r]塵一粒も揺るぎはせん！　此度は別件だ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+別件、ですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠豊臣ギル吉
+忘れたとは言わさんぞ、我の財宝下賜の件だ！[r]満を持して宝物庫を解き放ったというのに……
+[k]
+
+＠豊臣ギル吉
+やれローマの方が太っ腹だの、やれ黒よこせだの[r]なんやのと雑種の分際で好き放題ぬかしおって！
+[k]
+
+[charaFace A 4]
+
+＠豊臣ギル吉
+黒とか白とか我も欲しかったのだぞ！[r]我も……我もつらい……とてもつらい。
+[k]
+
+＠豊臣ギル吉
+なぜ……ただのひとりも……[r]我の十連にはやってこないのか……ッ！
+[k]
+
+[charaFadeout F 0.1]
+
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+いや、存在が揺るがないっていうか[r]英雄王も大分残念になってますよね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠豊臣ギル吉
+だが我はくじけぬ。手に入らぬから美しいものもある。[r]フッ、逆に考える健康法、というヤツだな。
+[k]
+
+＠豊臣ギル吉
+いずれくる次の記念のため、今は力をためるのみ。
+[k]
+
+＠豊臣ギル吉
+この国の黄金やら地味な茶器やらを集め、[r]次こそは誰が真の王か知らしめてやろうではないか！
+[k]
+
+？1：うわあ、なんかもうアレだ
+？2：次は☆５をお願いします！
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+落ち着いてください、先輩！[r]英雄王が何を言ってるのか分かりませんが
+[k]
+
+＠マシュ
+とにかくラスボスっぽいので[r]サクッと倒して帰って寝ましょう！
+[k]
+
+[charaFace A 12]
+＠マシュ
+正直、ちょっと疲れてきました、別の意味で！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠豊臣ギル吉
+ふん、日輪そのものたる我に刃向かうか、雑種。[r]よかろう、半兵衛、官兵衛、策を申せ！！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaFadein C 0.1 2]
+[charaFadein G 0.1 0]
+[charaFace C 4]
+＠竹中アンデルセン
+そんなもんあるか馬鹿め。[r]大体なんだこの低クオリティな世界観は！
+[k]
+
+＠竹中アンデルセン
+なってないにも程がある！[r]ええい、二次元を三次元の映画にするなと言うのだ！
+[k]
+
+[charaFace G 1]
+＠黒田メフィスト
+いやはやなんとも残念無念ご愁傷様ですねぇ！！[r]しかし、まあこういう機会ですし？
+[k]
+
+＠黒田メフィスト
+同じ馬鹿なら踊らにゃ爆死、とアジアでは申します。[r]せっかくなので派手に弾けるとしましょう！
+[k]
+
+＠黒田メフィスト
+え？　おまえ最近影薄くない？[r]またまたまた！
+[k]
+
+＠黒田メフィスト
+クリスマス仕様メフィストワンチャン[r]ありますかなああああああ！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+ありません！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

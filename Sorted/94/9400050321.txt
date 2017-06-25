@@ -1,0 +1,30 @@
+＄94-00-05-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3]
+[scene 20402]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 6014001 1 マタ・ハリ]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+[fadein black 1]
+[wait fade]
+＠マタ・ハリ
+前座は終わり？[r]じゃ、次は私ね。
+[k]
+
+[charaFace E 1]
+＠マタ・ハリ
+[#陽の眼を持つ女:マタ・ハリ]の異名。[r]篤とご覧あれ！　……というところかしら。
+[k]
+
+[charaFadeout E 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

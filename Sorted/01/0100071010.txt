@@ -1,0 +1,607 @@
+
+
+
+＄01-00-07-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 5018001 1 ギルガメッシュ]
+[charaSet G 98107600 1 祭祀長シドゥリ]
+
+[scene 33100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.4 1]
+＠ギルガメッシュ
+報告は受け取った。[r]ご苦労だったな、[%1]よ。
+[k]
+
+[charaFace F 5]
+＠ギルガメッシュ
+[#戦:いくさ]に犠牲はつきものだ。
+[k]
+
+＠ギルガメッシュ
+失った者への[#追悼:ついとう]、無くしたものへの[#補填:ほてん]は[r]王である[#我:オレ]が考える。貴様らは考えずともよい。
+[k]
+
+[charaFace F 2]
+＠ギルガメッシュ
+ティアマト神の権能を持った女神[line 3]ゴルゴーンは[r]十日後に侵攻を開始する！　確かだな、マーリン！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マーリン
+あれから一日経過したので、正確にはあと九日だけどね。[r]それでは情報を整理しよう。
+[k]
+
+[charaFace C 4]
+＠マーリン
+ゴルゴーン。ギリシャ神話における英雄殺しの女怪。
+[k]
+
+＠マーリン
+魔術王の聖杯によるものか、[r]それとも何かの因果で流れ着いたのか。
+[k]
+
+[charaFace C 0]
+＠マーリン
+どちらにせよ、彼女は魔術王の聖杯によって[r]かつての姿、かつての威勢を取り戻した。
+[k]
+
+＠マーリン
+ゴルゴーンの三姉妹は多くの英雄を殺した怪物だが、[r]彼女自身に怪物を生み出したという逸話はない。
+[k]
+
+＠マーリン
+よって、魔獣を生み出す権能、[r]『[#百獣母胎:ポトニア・テローン]』は聖杯から得たものだろう。
+[k]
+
+？1：ゴルゴーンの三姉妹というのは？
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ギリシャ神話に出てくる三人の姉妹の事だよ。[r]長女ステンノ、次女エウリュアレ、末妹メドゥーサ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+元は辺境の女神だったけど、末妹のメドゥーサが[r]オリンポスの大女神アテナの怒りを買ってね。
+[k]
+
+＠Dr.ロマン
+メドゥーサは怪物に変えられ、それを不憫に思った[r]姉二人と共に孤島である『形のない島』に移り住んだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+けれどアテナに焚きつけられた人間たちは[r]この三姉妹を怪物として捉え、退治しようと躍起になった。
+[k]
+
+＠Dr.ロマン
+多くの勇者を返り討ちにしたメドゥーサはその果てに[r]本当の怪物になり、最愛の姉二人すら取り込んでしまった。
+[k]
+
+＠Dr.ロマン
+そうして誕生したのが『ゴルゴーンの怪物』なんだろう。[r]三姉妹分の神性を持つ、原始の女神の姿だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：ステンノ、エウリュアレのこと？
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。お二人はギリシャ神話における[r]ゴルゴーン三姉妹の長女と次女です。
+[k]
+
+＠マシュ
+三人目の末妹の名は“[#支配する者:メドゥーサ]”。[r]多くの勇者を返り討ちにした女神でしたが、
+[k]
+
+＠マシュ
+度重なる迫害と偏見によって正気を失い、最愛の姉二人[r]すら取り込み、巨大な怪物になったと言われていますが……
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠アナ
+………………。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+フッ。追放された女神が[r]復讐の女神として戻ってくるとはな。
+[k]
+
+＠ギルガメッシュ
+どうせならギリシャ世界を滅ぼせ、と言いたいところだが、[r]それはヤツとて苦渋の思いだろう。
+[k]
+
+[charaFace F 4]
+＠ギルガメッシュ
+それで、ゴルゴーンはこう言ったのだな？[r]女神どもにとって、人間は[#端:はな]から敵ではない、と。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。わたしたち人間は障害物に過ぎず、[r]警戒しているのは他の女神だけだと。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_1 2.0]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+フッ。マシュよ、何を嘆く事がある。[r]ここは不敵に笑うところだぞ？
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+＠ギルガメッシュ
+まったく、ほとほと愚かな連中よ。[r]であれば我らにも十分に勝ち目がある、とな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+そ、そうなのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+そうなのだとも。[r]なあ[%1]？　貴様も同じ見解であろう？
+[k]
+
+？1：[line 3]フッ。もちろん
+
+[charaFace F 0]
+＠ギルガメッシュ
+ははは、であろう、であろう！[r]敵の不仲こそ、つけいるにもっとも愉快な弱点だ！
+[k]
+
+[charaFace F 1]
+＠ギルガメッシュ
+しかし貴様も人が悪いな[%1]？[r]多少は改めるがよい。それでは友人の一人もできんぞ？
+[k]
+
+？2：[line 3]フッ。わからん
+
+[charaFace F 2]
+＠ギルガメッシュ
+おのれ、善良さが服を着て歩く善人だったか！[r]そこに直れ、一から教示してくれる！
+[k]
+
+？！
+
+[charaFace F 5]
+＠ギルガメッシュ
+貴様らの調査によると、[r]三柱の女神どもはそれぞれ性質が異なる。
+[k]
+
+＠ギルガメッシュ
+ゴルゴーンは最大勢力であり、[r]人間への憎悪で動いている。
+[k]
+
+＠ギルガメッシュ
+密林の女神はウル市、エリドゥを緑で覆ったものの、[r]いたずらに住人に手をかけてはいない。
+[k]
+
+＠ギルガメッシュ
+また、この女神は自己顕示欲がない。[r]憎しみはなく、かといって無気力ではなく。
+[k]
+
+＠ギルガメッシュ
+必要なものを必要な時に使い、状況を読んでいる。[r]おそらくもっとも完成された女神だろう。
+[k]
+
+[charaFace F 4]
+＠ギルガメッシュ
+そして三柱め、絶賛、自らの土地である[r]メソポタミアを[#貶:おとし]めている女神だが……
+[k]
+
+？1：女神イシュタルですね……
+
+[charaFace F 3]
+＠ギルガメッシュ
+……ふむ。まあ、そういう事になるな。
+[k]
+
+？2：………………
+
+[charaFace F 0]
+＠ギルガメッシュ
+ほう。イシュタルは敵ではない、と言いたげな顔だな？[r]よい、[#我:オレ]に気を遣うな。
+[k]
+
+＠ギルガメッシュ
+貴様がそう感じたのなら、おそらくはそうなのだろう。[r]そもそもイシュタルは始めから度外視していた。
+[k]
+
+？！
+
+[charaFace F 1]
+＠ギルガメッシュ
+まあ、今さらあの女の欠点をあげつらっても仕方がない。[r]飽きたしな。
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]が示すのは奴らの攻略の順番だ。[r]ゴルゴーンとは交渉できぬが、他の女神は違う。
+[k]
+
+＠ギルガメッシュ
+となれば、まずはイシュタルだ。[r]アレがもっとも御しやすい相手だろうよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠祭祀長シドゥリ
+王よ。イシュタル女神を倒す、と言われるのですか？[r]それは承伏できません。
+[k]
+
+＠祭祀長シドゥリ
+いかにイシュタル女神が被害を広げようと、[r]あの方はウルクの都市神。それに矛を向けるなど……
+[k]
+
+[charaFace F 4]
+＠ギルガメッシュ
+残念すぎるぞ祭祀長シドゥリ……[r][%1]でさえ気付いているというのに……
+[k]
+
+＠祭祀長シドゥリ
+は……？[r]あ、あの、気付いているとは、何にでしょう？
+[k]
+
+？1：イシュタルは悪いけど良い女神だよ
+？2：イシュタルは迷惑だけど悪くない女神だよ
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……これまでの証言を[#纏:まと]めますと、女神イシュタルが[r]爆撃する時は決まって魔獣たちが巻き込まれています。
+[k]
+
+＠マシュ
+この事実から、彼女は魔獣たちに襲われていた牧場を[r]守っていたのでは……と推測されるのです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠祭祀長シドゥリ
+それではイシュタル女神が牧場主から私財をまき[line 3][r]いえ、押収していたのは当然の報酬だったと？
+[k]
+
+＠祭祀長シドゥリ
+イシュタル様はあくまで善意で、[r]ウルクを守っていてくれたのですね！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アナ
+いえ、善意からではないです。[r]あれは『この世界は自分の物だから』という考えです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+いつも通りの阿呆ぶりだろう？[r]あの女はウルクを諦める事はできん。そこに隙がある。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マーリン
+ではまずイシュタルを倒すのかい？[r]彼女もゴルゴーンほどではないけど強敵だよ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+誰が倒すといった。[r]あの愚か者など倒すまでもない。
+[k]
+
+＠ギルガメッシュ
+あれは仲間にするのだ。[r]猛獣を手なずけるようにな。
+[k]
+
+[charaEffect F bit_talk_41]
+＠ギルガメッシュ
+そして当然[line 3][r]その猛獣使いは貴様だ、勇者[%1]よ！
+[k]
+
+？1：勇者の仕事がついにきた……！
+？2：最高の無茶ぶりがついにきた……！
+
+？！
+
+[charaEffectStop F bit_talk_41]
+[wt 0.4]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+あのお[#転婆:てんば]で無軌道な女神さまを説得しろ、ときたか……[r]それって倒すより難しいんじゃないかなぁ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+ですが、戦うよりたいへん建設的です。
+[k]
+
+＠マシュ
+今まで多くのサーヴァントと契約してきた先輩なら、[r]きっと何とかできるかと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アナ
+……ギルガメッシュ王。[r]アナタは女神イシュタルと何度も争ったと聞きます。
+[k]
+
+＠アナ
+そんな女神を仲間に引き入れるというのですか？[r]絶望的にソリが合わないのでは？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+当然だ。[r]そして仲間にしたところで[#旨:うま]みは特にない。
+[k]
+
+＠ギルガメッシュ
+イシュタルは人には使えぬ女神。[r]どれほど能力があろうと役に立たん。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+えっと……あの。[r]それでは、なぜ？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+ヤツとの契約など[%1]がせよ。[r][#我:オレ]はイシュタル自身に期待はせぬからな。
+[k]
+
+＠ギルガメッシュ
+だがヤツの従属である[#天の牡牛:グガランナ]は別よ。
+[k]
+
+＠ギルガメッシュ
+使えば一瞬で都市を壊滅させる焦土兵器だが、[r][#此度:こたび]の戦い、最後には必ずアレが必要になる。
+[k]
+
+＠ギルガメッシュ
+よって仲間とする。[r]何か文句はあるか、マーリン？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+いやいや。そういう事ならＯＫだ。[r]王様も、たまにはそういう遊び心があってもいい。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ギルガメッシュ
+遊びというより博打だがな。
+[k]
+
+＠ギルガメッシュ
+あの女を味方に引き入れるなど、[r]フタをしていない瓶を荷台に載せるようなものだ。
+[k]
+
+[charaFace F 1]
+＠ギルガメッシュ
+まあよい。では具体的な内容を教える。[r]よいか[%1]。イシュタルにはな……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_4 2.0]
+[fadeout black 2.0]
+[wait fade]
+[charaFadeout F 0.1]
+[scene 20730]
+[wt 3.0]
+[fadein black 2.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+という訳で、[r]交渉用の荷物を持ってウルクを出た我々でした。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+アナさん、再会のご挨拶が遅れましたが、[r]改めてよろしくお願いしますね。
+[k]
+
+？1：無事で良かった
+？2：またよろしく
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠アナ
+……はい。またお世話になります。[r]……それと……ニップルでは、力になれなくて……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠マーリン
+それは言いっこなしだよアナ。[r]手酷い敗北をした後は反省より挽回を考えないとね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 1]
+[wt 0.3]
+＠Dr.ロマン
+ああ。ろくに役に立たなかったマーリンが[r]偉そうにしているんだ。そこは気にしなくていいとも。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+それより向かう先はエビフ山でいいんだね？[r]ウルクに来て初めての山道になるけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マーリン
+ああ。女神イシュタルはウルクから飛び出して、[r]自分の領地としたエビフ山に神殿を作っている。
+[k]
+
+＠マーリン
+山道は険しいが、一日もかければ辿り着ける筈だ。[r]まあ、その前に[line 3][charaFace C 3]ロマン君、言っていいよ？
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_2 1.0]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+ああ。本当にいつも通りなんだけど、[r]そこはボクのせいじゃないので我慢してほしい。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaFace 5]
+＠Dr.ロマン
+そういう訳で敵襲だ、みんな！[r]山脈に入る前の、軽い腕ならしと思ってくれ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

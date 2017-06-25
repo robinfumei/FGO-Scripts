@@ -1,0 +1,348 @@
+＄01-00-06-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 6002001 1 ？？？]
+[charaSet F 98083000 1 ルシュド]
+[charaSet G 98081000 1 難民の男性]
+
+[scene 28610]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.2]
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+もう三つは山を越えたんじゃないか？[r]ずいぶんと奥地までやってきたようだけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ルシュド
+うん、もうすぐ村だよ。[r]ボク、このあたり覚えてるもん。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+おや。[r]ルシュド君はこれから行く村を知っているのですか？
+[k]
+
+＠ルシュド
+うん。お母さんが前に連れて来てくれたんだ。[r]その時にね、“困ったらここに来なさい”って。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠難民の男性
+ああ。山で暮らす者たちは、[r]様々な事情から聖地を後にした人々だった。
+[k]
+
+＠難民の男性
+……それでも彼らは聖地に祈りを捧げるため、[r]できるだけ聖地に近い山間に村を作った。
+[k]
+
+＠難民の男性
+それが今から行く東の村だ。[r]彼らが我々を受け入れてくれるといいんだが……
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+……そうか。サラセンの人たちの中だけでも、[r]聖地にまつわる事情があるんだね……
+[k]
+
+＠Dr.ロマン
+今は聖都が作られてしまって、[r]それ以前の問題になってしまったワケだけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+……信仰のよりどころを目の前で奪われる……[r]失われているのは命だけではない、という事ですね……
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+＠？？？
+知ったような口を。[r]聖地を汚した騎士が何を言う。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……！[r]マスター、サーヴァント反応です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え、そんな反応どこに[line 3]アサシンか！[r]気をつけてくれ、[%1][&君:ちゃん]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[se ad73]
+[charaTalk E]
+[charaFace E 5]
+[charaSpecialEffect E appearance 1 0.5]
+[wait charaSpecialEffect E]
+[wt 0.2]
+＠？？？
+我らの村に何用だ、異邦人。これみよがしに騎士など[r]連れてきおって……最後の希望すら[#摘:つ]みに来たか？
+[k]
+
+？1：ここまで逃げてきた
+
+[charaFace E 0]
+＠？？？
+ふん。見れば分かる。[r]貴様らが山に踏み入った時から監視していたわ。
+[k]
+
+？2：ベディヴィエールは円卓の騎士じゃない
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+そうです、ベディヴィエールさんは[r]円卓の騎士ではありません！
+[k]
+
+＠マシュ
+ガウェイン卿のように強くはありませんし、[r]逸話だってあまり特徴のない方ですから！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+あ、はい……そうですよね……[r]私、円卓でも一番の小物でした……ので……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠？？？
+そうなのか？　……それはそれで悲しいな。[r]強く生きられよ、そこな騎士よ。
+[k]
+
+＠？？？
+（……私が指摘したのは彼一人だけではないのだが……[r]　まあ、そこはよいか）
+[k]
+
+？！
+
+[charaFace E 5]
+＠？？？
+[line 3]いや、無駄口は叩かぬ。[r]貴様らの所業など、我らはとうに把握している。
+[k]
+
+＠？？？
+物見から、こう報告があった。[r]“異国の若者が、我らの同胞の助けをしている”と。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そうか、良かった！[r]それなら誤解はされないね！
+[k]
+
+＠Dr.ロマン
+キミはアサシンのサーヴァントだね？[r]話せば長くなるんだけど、ボクたちは[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaPut F 0,180]
+[cameraMove 0.25 0,-90 1.3]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[charaEffect F bit_talk_41]
+＠？？？
+だま[shake 0.05 2 4 0.4]らっしゃい！[r]声だけの臆病者め、出る幕などないわ！
+[k]
+
+[charaEffectStop F bit_talk_41]
+[cameraHome 0.4]
+[wt 0.4]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あわわ、ごめんなさい、ごめんなさーい！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠難民の男性
+待ってくれ、山の翁よ。[r]この人たちはここまで我々を守ってきてくれた方だ。
+[k]
+
+＠難民の男性
+今は円卓の騎士に追われている。[r]どうか、貴方たちの村に[#匿:かくま]ってもらえないだろうか？
+[k]
+
+＠難民の男性
+……これまでさんざん貴方たちを迫害しておいて、[r]虫の良い話だとは分かっているが……
+[k]
+
+＠難民の男性
+頼む。怪我人も、身重の女もいるんだ。[r]オレたちにはここしか逃げる場所が……
+[k]
+
+[charaFace E 4]
+＠？？？
+……その罪悪感があるのなら良い。[r]この村の者たちは素朴な、善い心の持ち主ばかりだ。
+[k]
+
+＠？？？
+彼らには聖地の人々に迫害された、という認識すら[r]あるまいよ。……その善良さに[#酬:むく]いてくれればよい。
+[k]
+
+＠難民の男性
+……すまない。ありがとう、ありがとう……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠？？？
+だが、そこの異邦人たちは別だ。[r]貴様らを村に入れる訳には行かぬ。
+[k]
+
+＠？？？
+そして、帰す事もできぬ。追い返した貴様らが[r]騎士どもに、この村を売らぬともかぎらぬ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩はそんな事はしません！[r]立ち去れと言われるのでしたら、このまま立ち去ります！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠？？？
+……あいにく、今の私は村を任されたもの。[r]確証のない言葉を信じていい立場にはない。
+[k]
+
+＠？？？
+[line 3]構えるがよい。これは暗殺ではない。戦いだ。[r]死にたくなければ私を先に仕留めるのだな！
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……アサシンのサーヴァント、戦闘態勢に入りました！[r]マスター……！
+[k]
+
+？1：峰打ちで行くぞ、マシュ！
+
+[charaFace A 13]
+＠マシュ
+はい！[r]オーダー、お願いします先輩！
+[k]
+
+？2：銀腕で斬ったりしないでね、ベディ！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+ベ、ベディですか……！[r]まあ長い名前ですから、はい！
+[k]
+
+？！
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,406 @@
+
+
+
+＄01-00-07-01-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3008001 1 エルキドゥ]
+
+[scene 32940]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠エルキドゥ
+今の[#毒竜:バシュム]で最後ですね。とりあえずですが、[r]この街にいる魔獣たちは一掃しました。
+[k]
+
+[charaFace D 0]
+＠エルキドゥ
+とはいえ、安全になった訳ではありません。[r]仲間の血の匂いをかぎつけ、すぐに集まってくるでしょう。
+[k]
+
+＠エルキドゥ
+今やこの大地は魔獣たちの巣窟。[r]その数は増える事はあれ、減る事はないのですから。
+[k]
+
+？1：キミは一体……？
+
+？！
+
+[charaFace D 1]
+＠エルキドゥ
+自己紹介はした筈ですよ。[r]僕の事はそちらの魔術師が詳しいのでは？
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+あ、ああ。[r]すまない、あまりの制圧力に言葉を失ってしまった。
+[k]
+
+＠Dr.ロマン
+キミはエルキドゥで間違いないんだね？[r]しかもサーヴァントじゃない。生命として生きている。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+[communicationCharaFace 8]
+＠Dr.ロマン
+つまり現地人だ。それでいてあの能力とは[line 3][r]いやはや、さすが“神の兵器”！
+[k]
+
+＠Dr.ロマン
+ギルガメッシュ王と対等と言われた、[r]世界最強の“意思持つ宝具”の名は伊達じゃなかった！
+[k]
+
+？1：神の兵器……？
+？2：意思持つ宝具……？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。エルキドゥという方は、世界最古の英雄譚である[r]ギルガメッシュ叙事詩に登場する人物です。
+[k]
+
+＠マシュ
+優れた力を持ちながら気ままに過ごし、[r]神々の言いつけを守らなかった王、ギルガメッシュ。
+[k]
+
+＠マシュ
+そのギルガメッシュ王を[#諫:いさ]めるために、[r]神々は“泥”をこね上げて人形を作りました。
+[k]
+
+＠マシュ
+人と同じ魂を持ち、自在に肉体を変形させ、[r]時に宝具そのものとなって敵を[#穿:うが]つ[line 3]
+[k]
+
+＠マシュ
+神々の力の全てを込めて作られた[r]世界最強の“神造人間”。それがエルキドゥです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+その通り！　メソポタミア文明は泥を用いて[r]様々なものを作った文明だけど、
+[k]
+
+＠Dr.ロマン
+その中でも最高峰の芸術品と言っていい！
+[k]
+
+＠Dr.ロマン
+変幻自在の柔さを持ちながら、最高峰の鋭さ！[r]神の獣すら殺し、縛る、大自然の分身！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ギルガメッシュ王が『天の[#楔:くさび]』として[r]神々に作られた人と神の混血なら、
+[k]
+
+＠Dr.ロマン
+エルキドゥはそのギルガメッシュを神々側に[r]戻すために作られた『天の[#鎖:くさり]』なんだ。
+[k]
+
+[communicationCharaFace 8]
+＠Dr.ロマン
+ふ。いまダ・ヴィンチちゃんが“私だってそれぐらい”と[r]拗ねているが、まったくの強がりだと断言しよう！
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+とにかくエルキドゥが来てくれたのなら、こんなに[r]心強い事はない！　彼は人間の味方だ！
+[k]
+
+＠Dr.ロマン
+暴君だったギルガメッシュ王さえ破壊できなかった、[r]正しい心と道徳を持った英雄なんだからね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+[line 2]えっと。[r]そこまで持ち上げられると、いささか照れますね。
+[k]
+
+＠エルキドゥ
+僕は所詮、神々に作られた兵器にすぎません。[r]兵器をどう使うかは使い手次第です。
+[k]
+
+＠エルキドゥ
+僕が善の心に依ったものに見えたのなら、それは、[r]僕を使った人間が秩序を良しとする者だったのでしょう。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……兵器、なのですか？[r]ですが、貴方には心があるように見えますが……
+[k]
+
+[charaFace D 0]
+＠エルキドゥ
+ええ。ありますよ、心。[r]確かに、始まりの頃の僕に感情はありませんでした。
+[k]
+
+＠エルキドゥ
+あったのは兵器としての知性だけでした。[r]何処を制圧し、いつ行動を起こすのか、という。
+[k]
+
+[charaFace D 3]
+＠エルキドゥ
+ですが、そんな僕に人として接してくれた[#女性:ひと]がいた。[r]この姿は彼女を模したものです。
+[k]
+
+＠エルキドゥ
+……かつてのこの[#器:からだ]に心を与えたもの。[r]その心を讃える為に、僕はこの姿を維持しています。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+娼婦にして聖女、シャムハトだね。
+[k]
+
+＠Dr.ロマン
+いや、この時代の娼婦は現代のそれとは[r]意味合いが違うんだけど、そこはあえて割愛しよう。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+エルキドゥ。キミは[%1][&君:ちゃん]を[r]カルデアのマスター、と呼んだ。
+[k]
+
+＠Dr.ロマン
+という事は、こちらの事情は把握しているのかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+はい。時代を乱す聖杯と、[r]聖杯を与えられた者が起こす歴史の改編。
+[k]
+
+＠エルキドゥ
+それによって特異点を発生させ、[r]人理の礎を崩壊させる魔術王の企み。
+[k]
+
+＠エルキドゥ
+それらの事柄はウルクの巫女長によって[r]明かされています。
+[k]
+
+[charaFace D 0]
+＠エルキドゥ
+僕がここに来たのも巫女長の託宣によるものです。[r]異邦から来る最後の客人を保護せよ、と。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+では、この時代はまだ崩壊していないのですね？[r]それだけでなく、魔術王と戦っているのですか？
+[k]
+
+[charaFace D 3]
+＠エルキドゥ
+もちろん。これまでの時代は知りませんが、[r]神代の人間は“世界が滅びる”[#類:たぐい]の災害には屈しません。
+[k]
+
+＠エルキドゥ
+なにしろ、神々の気まぐれで何度も滅亡の危機に[r]瀕してきたもので。基本的に、驚く程しぶといのです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+なるほど、分かります分かります。[r]そのくせ痴話げんかとか夫婦げんかには弱いんだよね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+ええ、困ったものですけどね。[r]大きな問題には結束し、小さな問題には手を焼く。
+[k]
+
+＠エルキドゥ
+それが人間が作り上げる都市の特徴です。[r]この[#市:まち]はご覧の有様になってしまいましたが。
+[k]
+
+[charaFace D 0]
+＠エルキドゥ
+さて。自己紹介はこのあたりでいいでしょう。[r]時間が過ぎれば魔獣たちがやってきます。
+[k]
+
+＠エルキドゥ
+ひとまず安全な場所まで案内しましょう。[r]些末な話はその道中で。
+[k]
+
+？1：よろしく、エルキドゥ
+？2：[%1][&だ:です]、よろしく
+
+？！
+
+[se ad110]
+[seVolume ad110 0 0.7]
+[wt 0.7]
+[charaFace D 5]
+＠エルキドゥ
+[FFFFFF]？[-][r]右手を前に差し出していますが、何か異常でも？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+握手ですよ、エルキドゥさん。[r]先輩はエルキドゥさんと握手がしたいのです。
+[k]
+
+[charaFace D 1]
+＠エルキドゥ
+ああ、これが……[r]すみません、まだ慣れていなくて。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[wt 0.1]
+[se ad215]
+＠エルキドゥ
+改めてよろしく、[%1]。[r]こうして手を握ればいいのですね？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+………………。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+よしよし。仲良くなったところで場所を変えよう。[r]エルキドゥ、案内してくれるのはウルクかな？
+[k]
+
+＠Dr.ロマン
+その世界における最大の都市、[r]ウルク市なら霊脈も安定しているはずだ。
+[k]
+
+[communicationCharaFace 8]
+＠Dr.ロマン
+ダ・ヴィンチちゃんが早くサークルを[r]設置しろってうるさくてね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+サークル……召喚陣ですね。[r]分かりました、急ぎましょう。
+[k]
+
+＠エルキドゥ
+ああ、そうそう。[r]少しだけ遠回りですが、そこは諦めてください。
+[k]
+
+＠エルキドゥ
+魔獣たちを避けるための工夫です。[r]みなさんの安全には代えられませんので。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+はい。よろしくお願いします、エルキドゥさん。[r]助けていただき、ありがとうございました。
+[k]
+
+[charaFace D 3]
+＠エルキドゥ
+いえ。僕も嬉しいです。[r]カルデアからのマスターが、貴方たちのような方で。
+[k]
+
+＠エルキドゥ
+僕はもっと……その、人類を代表するマスターが[r]来る、と言うので……
+[k]
+
+＠エルキドゥ
+あのギルガメッシュのようなタイプが来ると[r]警戒していたんです。でもまったくの杞憂でした。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠エルキドゥ
+ようこそ、神々の朽ちた古きメソポタミアへ。新しい時代を[r]代表して歓迎しましょう、[%1]。
+[k]
+
+
+[messageOff]
+[wt 0.7]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

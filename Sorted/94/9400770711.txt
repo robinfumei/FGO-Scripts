@@ -1,0 +1,296 @@
+
+
+＄94-00-77-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5012001 1 ニトクリス]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1010001 1 エリザベート]
+[charaSet E 7022001 1 茨木童子]
+[charaSet G 3003001 1 ヴラド三世]
+[charaSet H 98105200 1 ？？？]
+
+[scene 32200]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+＠マシュ
+仕留め……きれてません！[r]マスター、戦闘を継続します！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.7 1]
+＠ヴラド三世
+[line 3]いいや、もう終わりだ。[r]やはり汝は理解しておらぬ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+[wt 0.7]
+[charaFace D 4]
+＠エリザベート
+え……？
+[k]
+
+[wt 1.0]
+[bgm BGM_EVENT_5 0.1]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ヴラド三世
+……やり直すがいい、今一度。[r]さもなくば、あの女王の眼前に立つこと敵わぬ。
+[k]
+
+[charaFace G 2]
+＠ヴラド三世
+その戦装束で勇者を名乗るのであれば！[r]それを理解してからにせよ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エリザベート
+一体何のこと[line 3]はえ？
+[k]
+
+[charaFadeout D 0.4]
+[wt 0.1]
+
+[wt 0.4]
+[messageOff]
+
+[wipeout rectangleStripDownToUp 0.3 1.0]
+[wait wipe]
+
+[scene 20322]
+[bgmStop BGM_EVENT_5 0.7]
+[wt 1.5]
+
+
+[charaScale H 0.7]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 -256,-16]
+[charaFadeTime H 0 0.0]
+
+[se ad2]
+[seVolume ad2 0 0.3]
+
+[wipein rectangleStripUpToDown 0.3 1.0]
+[wait wipe]
+[wt 1.0]
+
+＠？？？
+……い。
+[k]
+
+＠？？？
+……ない。
+[k]
+
+＠？？？
+……まない。
+[k]
+
+
+[charaFadeTime H 5.0 0.5]
+[wt 3.0]
+＠？？？
+すまない……。[r]唐突ですまない……。
+[k]
+
+[wait charaFade H]
+[wt 1.0]
+
+[charaTalk off]
+
+
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠エリザベート
+はいぃ！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+え、あの……えー！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[wt 1.0]
+[cameraMove 5.0 128,-96 1.5]
+
+＠？？？
+本当にすまないのだが……。
+[k]
+
+[charaFadeTime H 0.7 0.2]
+[wait charaFade H]
+[charaFace H 4]
+[charaFadeTime H 0.7 0.5]
+
+＠？？？
+ここまで死闘を繰り広げた皆には、[r]すまないと思うのだが[line 3]
+[k]
+
+[wait charaFade H]
+[charaFadeTime H 0.7 0.2]
+[wait charaFade H]
+[charaFadeTime H 0.7 0.5]
+
+＠？？？
+もう一度、墓場からやり直して欲しい……。
+[k]
+
+[wait charaFade H]
+[charaFadeTime H 0.7 0.2]
+[wait charaFade H]
+[charaFace H 0]
+[charaFadeTime H 0.7 0.5]
+
+＠？？？
+[line 3]コホン。
+[k]
+
+[wait charaFade H]
+[charaFadeTime H 1.2 0.1]
+[wait charaFade H]
+[charaFadeTime H 1.2 0.5]
+
+＠？？？
+これは別にシステム的なものではなく、[r]ちゃんと意味があるものなので……。
+[k]
+
+[wait charaFade H]
+[charaFadeTime H 0.7 0.2]
+[wait charaFade H]
+[charaFadeTime H 0.7 0.5]
+
+＠？？？
+[%1]は、[r]踏ん張りどころだと思って欲しい……。
+[k]
+
+[wait charaFade H]
+[charaFadeTime H 0.7 0.2]
+[wait charaFade H]
+[charaFadeTime H 0.7 0.5]
+
+＠？？？
+では[line 3]すまないが、ワープしてもらおう。
+[k]
+
+[wait charaFade H]
+
+[seStop ad2 2.0]
+[cameraHome 3.0]
+[charaFadeTime H 2.0 0.0]
+[wait camera]
+[wait charaFade H]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[messageOff]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+[wt 0.7]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+[wt 0.7]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+[wt 0.7]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+[wt 0.7]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[wt 0.7]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠全員
+[messageShake 0.05 5 5 2.5]
+何でー！？
+[k]
+
+[wt 0.4]
+[messageOff]
+
+[wipeout rectangleStripDownToUp 0.3 1.0]
+[se bac165]
+[seVolume bac165 0 0.5]
+[wait wipe]
+[seStop ad165 3.0]
+[wt 3.0]
+
+[se ad75]
+[seStop ad75 2.0]
+[wt 2.0]
+
+[scene 31800]
+
+[wipein rectangleStripDownToUp 0.2 1.0]
+[se ad74]
+[seVolume ad74 0 0.5]
+[wait wipe]
+[shake 0.05 4 4 2.0]
+
+[wt 2.0]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[soundStopAll]
+[end]

@@ -1,0 +1,95 @@
+＄01-00-04-07-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10906 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+……流石に、ちょっと疲れてきたな。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+そろそろジキルのアパルトメントに戻るか。[r]睡眠は要らないが、オレも魔力の回復に努めたい。
+[k]
+
+＠Dr.ロマン
+あー……[r]その、言い難いんだけども……
+[k]
+
+[charaFace E 5]
+＠モードレッド
+……わかってる。わかってるから皆まで言うな。[r]オレだってとっくに感じてる。多いな。
+[k]
+
+[se ad14]
+[wt 1.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……機械作動音。大型、複数！[r]敵性集団、なおも増大中と予測されます！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠モードレッド
+こんだけ出るならハイドパークあたりにしろっての！[r]オレの宝具で消し炭にしてやるものを！
+[k]
+
+[charaFace A 14]
+＠マシュ
+堪えて下さい。[r]シティエリアでは大規模火力は危険です！
+[k]
+
+[charaFace E 5]
+＠モードレッド
+使う時は気を付ける！[r]なるべくな！
+[k]
+
+？1：頑張ろう！
+
+[charaFace A 7]
+＠マシュ
+はい！
+[k]
+
+？2：だんだん気持ち良くなってきた！
+
+[charaFace A 6]
+＠マシュ
+せ、先輩？
+[k]
+
+？！
+
+[charaFace E 0]
+＠モードレッド
+敵も首魁の一角が崩れて本気になったんだろうさ！[r]いいぜ、とことん[line 3]までやってやる！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[seStop ad14 0.4]
+[wait fade]
+[soundStopAll]
+[end]

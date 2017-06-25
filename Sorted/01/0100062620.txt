@@ -1,0 +1,543 @@
+＄01-00-06-26-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet B 4012000 1 オジマンディアス]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+
+
+[scene 29320]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠オジマンディアス
+ニトクリスを下したか。[r]良い。褒めてつかわす。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+して、何用だ異邦のマスターよ。[r]余に首を預けに来たか、あるいは情けを乞いに来たか。
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+どちらでも良いぞ？[r]望むままに殺してやろう。
+[k]
+
+
+？1：既に目的は伝えてある
+
+？！
+
+[charaFace B 4]
+＠オジマンディアス
+うん？　先ほどの報せだと……？[r]たしか、余と共に戦えだのという戯言だったが[line 3]
+[k]
+
+[charaFace B 2]
+＠オジマンディアス
+なんと！　あれは本気であったのか！[r]はははははははははははははははははははは！
+[k]
+
+＠オジマンディアス
+余ともあろうものが真偽を見抜けぬとは！[r]腹を抱えて笑ったあげく焼き捨てたわ！
+[k]
+
+[charaFace B 1]
+＠オジマンディアス
+だが許す、特に許す！[r]これほど笑ったのはどれほどぶりか！
+[k]
+
+＠オジマンディアス
+認めよう、異邦のマスターよ！[r]おまえには才能がある！
+[k]
+
+＠オジマンディアス
+あまりにも現実離れした夢を見る才能がな！[r]空想を知らぬ余にはない才能だ、ふはははははは！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+……ちょっと。[r]それはないんじゃない、オジマンディアス王。
+[k]
+
+＠三蔵
+馬鹿にするのもたいがいにしなさい。[r]あたしはともかく[%1]は本気なんだから。
+[k]
+
+＠三蔵
+それと、愉快でもないのに笑うのもやめなさい。[r]あなた、ちっとも面白いと思ってないでしょ。
+[k]
+
+？1：三蔵ちゃん……！
+
+[charaFadeout E 0.1]
+
+？2：……太陽王、笑ってない[&のか:の]？
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+ああ、笑ってないね。彼は私たちの提案を認めている。[r]だからここまで何の妨害もしなかった。
+[k]
+
+[charaFadeout C 0.1]
+
+？！
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+[line 3]玄奘三蔵。[r]我がエジプト領を余の断りもなく横断した女か。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+余に何か意見があるようだな。[r]よい。その偉業に免じて、一度のみ質問を許す。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+ありがとうございます。[r]……やっぱりみんなが言っていた通りの人ね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+なに？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠三蔵
+あたし、大神殿には入らなかったけど多くのオアシス、[r]多くの神殿のお世話になったわ。
+[k]
+
+[charaFace E 1]
+＠三蔵
+そこでこの国の人たちの話を聞きました。[r]冷酷で尊大で、でも合理的に民を守る王の話を。
+[k]
+
+＠三蔵
+あなたは獅子王とは違う。[r]国の人たちの生活を第一に考えている。
+[k]
+
+＠三蔵
+それがいちばん国を豊かにする方法だって[r]知っているから。それを王の務めと思っているから。
+[k]
+
+[charaFace E 4]
+＠三蔵
+なのに[line 3]
+[k]
+
+[charaFace E 5]
+＠三蔵
+なのに、あなたはその務めを放棄しようとしている。[r]空想を知らない、と言ったわね？
+[k]
+
+＠三蔵
+あなたは獅子王と戦えば共倒れになると読んだ。[r]だから戦わなくなった。
+[k]
+
+[charaFace E 2]
+＠三蔵
+その結果、国を閉じる道を選んでしまった。[r]自分からこんな砂漠を、この世界に呼んでおいて！
+[k]
+
+＠三蔵
+獅子王には勝てないから、[r]自分の国の民たちを神殿に閉じ込めようとしている！
+[k]
+
+＠三蔵
+この矛盾を、いえ、この諦めを捨てる道が提示された[r]のに、なんで素直に“いいよ”って言えないの！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+たわけ、勝算なき戯言に乗ってなんとする！[r]加えて、獅子王を倒したところで何があろう！
+[k]
+
+[charaFace B 5]
+＠オジマンディアス
+人理焼却により世界は燃え尽きる。[r]であれば、獅子王ひとりを[#斃:たお]したところで無駄なこと。
+[k]
+
+[charaFace B 2]
+＠オジマンディアス
+余は、余の権限で余の民を救うまで！[r]他のものなど、どうなろうと知った事ではない！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠三蔵
+かっち[line 4]ん！[r]頭に来たわ。[#怒髪天:どはつてん]を[#衝:つ]くのだわ！
+[k]
+
+[charaFace E 2]
+＠三蔵
+獅子王もあなたも、いい加減にしなさい！[r]あなた、なんだか悟空みたいに我が儘だわ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+悟空[line 3]斉天大聖か！[r]猿ではないか！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠三蔵
+そう、お猿さんよ！[r]そういえば顔もそっくりだわあなたたち！
+[k]
+
+[charaFace E 5]
+＠三蔵
+いい？　世界の果てはもうそこまで来ているの！
+[k]
+
+＠三蔵
+あなたはよくても、あなたの民たちはこの砂漠を[r]失いたくないの！　それをちゃんと分かりなさい！
+[k]
+
+＠三蔵
+さっきから余の民を守る守るばっかりで、[r]それじゃ獅子王と一緒じゃない！
+[k]
+
+[charaFace E 2]
+＠三蔵
+ファラオ・オジマンディアスはエジプト最強[r]なんでしょう！？　なら格好いいとこ見せてください！
+[k]
+
+＠三蔵
+余の民を守る、じゃなくて[line 3][r]世界を守る、ぐらい言ったらどうなのよ、ばか[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+[line 6]。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+さしもの大王も絶句したか。いやあ、[r]知ってはいたがここ一番の爆発力の凄まじさよ！
+[k]
+
+[bgmStop BGM_EVENT_1 1.5]
+
+[charaFace F 1]
+＠俵藤太
+あれは怒れぬ。なにしろ子供の理屈だからな！[r]子供に本気で怒っては王の立場もないというもの。
+[k]
+
+
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+[line 3]は。
+[k]
+
+[charaFace B 2]
+＠オジマンディアス
+はは。ははは。はははははははははははははは！[r]くはははははははははははははははははははは！
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+？1：王、大丈夫……！？
+？2：本気で笑ってる……！
+
+？！
+
+＠オジマンディアス
+世界を守れ、と来たか！[r]余に世界を！　浅ましき人の世を！
+[k]
+
+＠オジマンディアス
+余が守るのは神々の法！[r]その結果、臣民を庇護しているだけだと言うのにな！
+[k]
+
+[charaFace B 4]
+＠オジマンディアス
+だが、うむ。[r]その可能性は、余の思惑の外にあった。
+[k]
+
+[charaFace B 0]
+＠オジマンディアス
+……さもありなん。[r]余は貴様たち勇者にとって常に障害。
+[k]
+
+＠オジマンディアス
+優れた王とはまた、倒されるべき暴君である。
+[k]
+
+＠オジマンディアス
+よって、余は如何なる時代、如何なる世界であっても、[r]おまえたちの敵として君臨した。
+[k]
+
+＠オジマンディアス
+ファラオ・オジマンディアスは世界を救えぬ。[r]支配し、脅かす側の王であるが故に、な。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠三蔵
+……オジマンディアス王……[r]でも、それは偶々だったんじゃない？
+[k]
+
+＠三蔵
+今回ぐらいは、きっと善いことしても[r][#仏罰:バチ]は当たらないと思うの
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+ふ[line 3]それはどうかな？[r]少なくとも余は今、貴様たちを殺したくて仕方がない！
+[k]
+
+[charaFace B 2]
+＠オジマンディアス
+玄奘三蔵、中々の問いであった！[r]だが貴様の言には一つ、致命的に足りぬものがある！
+[k]
+
+＠オジマンディアス
+心底から余を笑わせた褒美だ。[r]このオジマンディアスの手で、それを補ってやろう！
+[k]
+
+
+[messageOff]
+[se ad14]
+[shake 0.05 0 4 1.5]
+[fowardEffect bit_talk_36]
+[wt 1.5]
+[seStop ad14 1.0]
+
+
+[fowardEffectStop bit_talk_36]
+[wt 0.2]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠三蔵
+え……足りないものってなに……？[r]あたし、また失敗しちゃった？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+言うまでもなかろう？
+[k]
+
+＠オジマンディアス
+貴様らが世界を救うに足るものか否か[line 3][r]その証明がされていない。
+[k]
+
+[charaFace B 2]
+＠オジマンディアス
+故に、その機会を余が与えようと言ったのだ！
+[k]
+
+[messageOff]
+[se bac24]
+[fowardEffect bit_talk_20]
+[wt 2.0]
+[fowardEffectStop bit_talk_20]
+[wt 0.5]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+あれは聖杯か……！[r]オジマンディアス王の手には聖杯がある！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+フッ[line 3]！
+[k]
+
+
+
+[bgmStop BGM_EVENT_5 0.1]
+[charaPut F 200,-100]
+[messageOff]
+[se ad98]
+[charaEffect F bit_talk_12]
+[charaShake B 0.05 3 3 0.5]
+[wt 1.0]
+[se ad142]
+[wt 1.5]
+
+
+[bgm BGM_BATTLE_12 0.1]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+オジマンディアス王が自らを傷つけて[line 3][r]その血を聖杯にそそいでいます……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+おう、それを一息にぐい飲みしおった……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠オジマンディアス
+聖杯に宿りし魔神の陰よ。[r]魔神アモンなる偽の神、是に、正しき名を与える！
+[k]
+
+
+[messageOff]
+[se ad53]
+[charaChange B 98078000 0 fade 2.0]
+[wt 3.0]
+
+＠B：魔神柱アモン・ラー
+七十二柱の魔神が[#一柱:ひとはしら]。[r]魔神アモン[line 3]いいや、真なる名で呼ぶがよい。
+[k]
+
+＠B：魔神柱アモン・ラー
+我が大神殿にて祀る正しき神が[#一柱:ひとはしら]！[r]其の名、大神アモン・ラーである！！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+ヒュウ、とんでもなく大きく出たぞ彼！[r]アモン・ラーは古代エジプトの最高位に類する神性だ！
+[k]
+
+＠ダ・ヴィンチ
+そんな巨大な神性が現界することは有り得ない！[r]だが魔神柱に名を与え、張り付けるのなら話は別だ！
+[k]
+
+＠ダ・ヴィンチ
+一時的なものだろうが、あれは真の神霊[line 3][r]魔神柱の枠組みを超えた怪物だぞ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……それでも、彼を倒さなければ前に進めません！[r]太陽王はそのためにあの姿になったのです！
+[k]
+
+[charaFace A 2]
+＠マシュ
+わたしたちが獅子王を倒す証左として[line 3][r]魔神柱アモン・ラーを撃破します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_12 0.5]
+[wait fade]
+[soundStopAll]
+[end]

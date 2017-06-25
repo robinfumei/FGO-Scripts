@@ -1,0 +1,248 @@
+＄94-00-61-70-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 98101400 1 うりぼう長]
+[charaSet C 98101200 1 うりぼうズ]
+[charaSet D 6024000 1 スカサハ]
+[charaSet E 4024000 1 モードレッド]
+[charaSet F 2026000 1 アルトリア]
+[charaSet G 3024000 1 玉藻の前]
+[charaSet H 5027000 1 マリー]
+
+[scene 30700]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+[charaFace D 0]
+＠スカサハ
+では本日も、そろそろ出発するか！
+[k]
+
+＠スカサハ
+今日の探索メンバーは私と[%1]とマシュ、[r]そして玉藻にマリー……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+＠マシュ
+は、はい！
+[k]
+
+＠スカサハ
+モードレッド、おまえも来るか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠モードレッド
+おー、海岸に行くなら久しぶりに波乗りしたかったんだ！[r]お誘いは断れねえよな、騎士として！
+[k]
+
+
+[se ad173]
+[seStop ad173 1.5]
+[charaFadeout E 0.4]
+[wt 1.2]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠アルトリア
+（仕事をサボるいい口実になりましたか……[r]　帰ってきたら仕事の倍率ドンですね……）
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[scene 20700]
+[charaFadeout F 0.1]
+[wt 0.7]
+
+[wipein leftToRight 1.0 1]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[charaFace D 0]
+[charaFadein D 0.4 2]
+
+＠玉藻の前
+ふぅ、助かります。いえ、何かこう、[r]う[charaFace G 5]りぼうさんの間で恐れられてませんか[#私:わたくし]？
+[k]
+
+[charaTalk D]
+
+[charaFace D 4]
+＠スカサハ
+まあ、うりぼうたちを取って食う邪悪な魔王だからな……。
+[k]
+
+[charaTalk G]
+[charaFace G 2]
+
+＠玉藻の前
+食べてませんよ一度たりとも！？[r]ちょっと食べたいカナー？　と思ったことはありますが！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+
+＠マリー
+あの子たち、食べても美味しくないと思うの……。
+[k]
+
+[charaTalk G]
+[charaFace G 5]
+
+＠玉藻の前
+美味しいとか美味しくないとかの問題ではなく、[r]獣の本能に絡む問題ですからね。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠玉藻の前
+ふーん、いいですいいです！[r]マスター、傷心の玉藻をお慰め下さいまし！
+[k]
+
+？1：よしよし
+
+[charaFace G 3]
+[charaShake G 0.1 0 2 0.3]
+
+＠玉藻の前
+あふん、ちょっと乱暴にどこかソフトに[r][#御髪:おぐし]を撫でるこの技量……。
+[k]
+
+[charaFace G 1]
+
+＠玉藻の前
+モフモフ検定、一級です！
+[k]
+
+？2：玉藻は可愛いね
+
+[charaFace G 3]
+
+＠玉藻の前
+はうっ。そういうどストレート口説き文句、[r]胸にキュンキュン来るので[#私:わたくし]以外には禁止です！
+[k]
+
+？！
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩、真面目に、やりましょう、
+[k]
+
+＠マシュ
+[fontSize large]ね[charaFace A 1]？[fontSize -]
+[k]
+
+？1：はい！
+？！
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.3]
+
+[se bac38]
+[seVolume bac38 0 0.15]
+[wait se bac38]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠玉藻の前
+……ん？[r]何やら音がします、敵襲のようです。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+
+[charaFace G 5]
+[charaFadein G 0.1 2]
+
+＠スカサハ
+またサーヴァントの偽物か？
+[k]
+
+[charaTalk G]
+[charaFace G 4]
+
+＠玉藻の前
+あの音は記憶していますが、[r]ちょっと違うような……。
+[k]
+
+[charaFace G 0]
+
+＠玉藻の前
+ま、倒せば分かるでしょう。
+[k]
+
+[se bac38]
+[wait se bac38]
+
+＠スカサハ
+来るな……よし、行くぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.4]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

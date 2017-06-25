@@ -1,0 +1,250 @@
+＄91-70-08-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7008001 1 ベオウルフ]
+[charaSet D 98006000 1 グレンデル]
+[charaSet E 9001001 1 ジャンヌ]
+[charaSet F 1005001 1 ネロ]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 98016000 1 兵士Ａ]
+
+[scene 20802]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+＠ベオウルフ
+召喚の際に異常？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドクターの話によると、ベオウルフさんが召喚された際、[r]異常な波がこの時代のこの地点から計測されたそうです。
+[k]
+
+＠マシュ
+それが二つ目の宝具を解放できていない理由[r]なのではないか、と。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+俺と同時に何かが召喚された……ってことは、[r]まあ答えは簡単だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+やはり[line 2]グレンデル、ですか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+間違いなくな。この俺の人生において、召喚に影響を[r]与えるほどの存在となると、アイツ以外に考えられまい。
+[k]
+
+[wt 0.4]
+[charaFace C 4]
+＠ベオウルフ
+そりゃ、名も無き火竜がいるにはいるが……。
+[k]
+
+[charaFace C 0]
+＠ベオウルフ
+俺の人生に栄光と、同時に鮮烈な邪悪さを植え付けた[r]怪物となると、コイツしかいねえな。
+[k]
+
+[charaFace C 4]
+＠ベオウルフ
+そう。あれは紛れもなく人を弄ぶ邪悪だった。
+[k]
+
+＠ベオウルフ
+人が住処から離れられぬことを知って、[r]意味もなく殺し続ける邪悪さだ。
+[k]
+
+＠ベオウルフ
+縄張り競争とか、生物的本能とか、[r]そういうモンなら話は分かる。
+[k]
+
+＠ベオウルフ
+だが[line 2]グレンデルは理性があり、知性があり、[r]そしてただ邪悪だった。
+[k]
+
+＠ベオウルフ
+だからこそ、俺にとっては火竜より何より……[r]あれの存在が脅威的だ。
+[k]
+
+＠ベオウルフ
+火竜は財宝に手を出さなければ何もしないただの獣。[r]グレンデルは邪悪を快感とする捻れた怪物。
+[k]
+
+[charaFace C 0]
+＠ベオウルフ
+俺の召喚の余波で、もしそれが蘇っているのなら[line 2]。[r]退治しなければならんな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……では、行きましょう。この先の古城あたりで、[r]一度反応が消失しています。
+[k]
+
+＠マシュ
+見て頂ければ、何か分かるかもしれません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+了解だ。[r]行こうぜ、マイマスター。
+[k]
+
+＠ベオウルフ
+この世には存在しちゃいけねえ生物ってのがいる。[r]俺にとっちゃ、グレンデルがそういう生物なのさ。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout C 0.1]
+[wt 1.0]
+[scene 20405]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+無人[line 2]ですね。[r]誰もいません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+血の臭いはするがね。[r]どうやら、機を逸したようだ。
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 0.5]
+[scene 20522]
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+＠マシュ
+うっ……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+マシュ、おまえさんも分かるか。[r]どうやらこの城の人間、一人残らず殺されたらしいな。
+[k]
+
+[charaFace C 5]
+＠ベオウルフ
+……チッ。[r]こいつは上手くねえな。
+[k]
+
+＠ベオウルフ
+人を喰えば喰うだけ魔性に近付く。[r]アイツが完全成体にならない内に、とっとと潰すしかない。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+でも、一体どこに[line 2]。
+[k]
+
+[wt 0.7]
+[messageOff]
+[bgmStop BGM_EVENT_5 0.1]
+[charaTalk C]
+[se ad46]
+[wait se ad46]
+[wt 0.7]
+[se ad46]
+[wait se ad46]
+[wt 0.7]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[bgm BGM_EVENT_3 0.1]
+＠ベオウルフ
+近くに居るぞ……！[r]マシュ、戦闘準備だ！！
+[k]
+
+[messageOff]
+[charaTalk A]
+[se ad19]
+[wait se ad19]
+
+[wt 0.4]
+
+[charaFadeout C 0.1]
+
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+来ます……！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

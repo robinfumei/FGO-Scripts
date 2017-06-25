@@ -1,0 +1,480 @@
+
+
+＄94-00-15-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1003001 1 リリィ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6018000 1 Ｘ]
+[charaSet E 1005001 1 ネロ]
+[charaSet F 5003001 1 玉藻の前]
+[charaSet G 2001001 1 エミヤ]
+
+[scene 20303]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace B 1]
+＠リリィ
+今日の修行も順調でしたね、マスター、Ｘ師匠！[r]おかげで、もうすぐ宝具の威力もあがりそうです！
+[k]
+
+[charaFace D 0]
+＠Ｘ
+……はあ。リリィは生真面目ですね。[r]修行は順調に進んで結構ですが……
+[k]
+
+＠Ｘ
+わたしの[#使命:ノルマ]は順調とは言えません。[r]もっとエサを大きくするべきでしょうか……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+先輩、先輩。[r]またＸさんが不穏な呟きをもらしています。
+[k]
+
+[charaFace A 7]
+＠マシュ
+わたしも考えを改めました。[r]今こそ、あの疑問を解消すべき時ではないかと。
+[k]
+
+？1：ああ、Ｘさんのクラスの事だね
+
+[charaFace A 3]
+＠マシュ
+いえ、そちらの話ではなくて……[r]正直、わたしもたいへん指摘したい点ですが、
+[k]
+
+[messageOff]
+[fowardEffect bit_talk_37]
+[se ad28]
+[wait se ad28]
+
+[fowardEffectStop]
+
+[charaFace A 11]
+＠マシュ
+きゃっ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠Ｘ
+いっこうにセイバークラスですが、何か！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+……この話題は鬼門のようです。[r]今は直球は避け、絡め手でいきましょうマスター。
+[k]
+
+？2：ああ、Ｘさんの正体だね
+
+[charaFace A 1]
+＠マシュ
+その通りですマスター。彼女のクラスはともかく、[r]出身ぐらいは聞いておきたいですよね。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 0]
+＠リリィ
+ところでＸ師匠はロケットに乗ってやってきましたが、[r]どこの国の英霊なのでしょう？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+（先輩！　聞きづらい空気をいっさい無視して、[r]　リリィさんが突貫しましたー！）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein B 0.1 2]
+[charaFace D 5]
+＠Ｘ
+ほう。わたしの素性が知りたいと。[r]何か企みがあるのですか、リリィは。
+[k]
+
+[charaFace B 4]
+＠リリィ
+いえ……ここまでお世話になっている方の事を何も[r]知らない、というのは心苦しくて……
+[k]
+
+＠リリィ
+せめて、故郷の名物料理や名産お菓子などで[r]お礼をできれば、と思いまして……
+[k]
+
+[charaFace D 3]
+＠Ｘ
+……そ、そうですか。[r]勘ぐっていたのはわたしだけだったのですね……
+[k]
+
+[charaFace D 1]
+＠Ｘ
+そういう事なら改めてお話しましょう！[r][%1][&君:さん]も盾子も聞くように。
+[k]
+
+＠Ｘ
+何を隠そう、わたしは宇宙から来たサーヴァント！[r]未来のサーヴァント界から来た英霊なのです！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠マシュ
+サーヴァント界……ですか？[r]しかも未来？　それで宇宙？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 2]
+[charaFace B 4]
+＠リリィ
+はあ……。[r]あの、Ｘ師匠。それは英霊の座のことでしょうか……？
+[k]
+
+[charaFace D 5]
+＠Ｘ
+ノー。サーヴァント界は英霊の座などという、[r]遊びのない管理倉庫の話ではありません！
+[k]
+
+＠Ｘ
+それはサーヴァントたちがサーヴァントらしく活躍する[r]宇宙的な世界観。即ちユニヴァース。
+[k]
+
+＠Ｘ
+原典という重力から解き放たれ、[r]なんかもう好き放題やっていい世界なのです！
+[k]
+
+？1：よし、まったく分からない
+
+[charaFace B 1]
+＠リリィ
+はい！　でもちょっと楽しそうですね！[r]わたしはいいと思います、ユニヴァース！
+[k]
+
+？2：もしかしてゾンビ化話とかもあるのです？
+
+[charaFace D 0]
+＠Ｘ
+もちろん。サスペンスもメロドラマもミステリも[r]やり尽くせば、当然ホラー路線にも手を伸ばします。
+[k]
+
+＠Ｘ
+あの黄金裸身王が“我こそ人類最古のゾンビよ！”[r]とか言い出した時はいよいよこの世界も終わりだな－、
+[k]
+
+＠Ｘ
+とも思いましたが、[r]なんとか元の宇宙に戻りましたとも。
+[k]
+
+＠Ｘ
+どれほど無茶な冒険をしても、
+[k]
+
+＠Ｘ
+“[line 3]色々あったが、オレはこの町に戻ってきた”。
+[k]
+
+＠Ｘ
+このモノローグをだしながら街に戻れば[r]たいていの話はなかった事として処理されますから。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFace A 12]
+＠マシュ
+サーヴァント界のことは置いておくとして、ですね。[r]未来から来た、というのはどういう事でしょう？
+[k]
+
+＠マシュ
+あのロケットはレイシフトとは違う、[r]正真正銘のタイムマシンなのですか？
+[k]
+
+[charaFace D 0]
+＠Ｘ
+タイムマシン？　ああ、タイムジャンプですね。
+[k]
+
+＠Ｘ
+そりゃあできますとも、ワープできるんですから。[r]光速を越えないと宇宙とか旅していられませんし。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 2]
+[charaFace B 1]
+＠リリィ
+それは凄いです！[r]わたしのお師匠様は時間旅行者でもあったんですね！
+[k]
+
+[charaFace B 3]
+＠Ｘ
+あー……いえ、凄いのはドゥ・スタリオンⅡを作った[r]コンコンチキなのですが……
+[k]
+
+[charaFace B 4]
+＠リリィ
+でも、なぜ未来から来たのですか？[r]もしや運転を間違ってしまったとか……？
+[k]
+
+[charaFace D 2]
+＠Ｘ
+失礼な、わたしの騎乗スキルは完璧です！[r]セイバーなんですから！
+[k]
+
+[charaFace D 4]
+＠Ｘ
+わたしがこの時代に来たのは世界を救うためです。[r]わたしのいる未来は、今や崩壊の危機を迎えています。
+[k]
+
+＠Ｘ
+ある理由で事象が崩壊しかけているのです。[r]その原因を根絶するためにやってきたのですが……
+[k]
+
+[charaFace D 5]
+＠Ｘ
+[#貴女:リリィ]があまりにも放っておけなくて、[r]こうして師として鍛えてあげているのです。
+[k]
+
+[charaFace B 3]
+＠リリィ
+それは……なんという事でしょう。
+[k]
+
+＠リリィ
+世界を救う使命がありながら、[r]わたしの修行にも付き合う余裕があるなんて……
+[k]
+
+[charaFace B 1]
+＠リリィ
+わたし、感服いたしました！[r]Ｘ師匠は言葉通り、セイバーの中のセイバーですね！
+[k]
+
+[charaFace D 3]
+＠Ｘ
+あ、えーと……はあ、まあ。[r]……セイバーですが、何か。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+……Ｘさんもリリィさんの前では形無しですね。[r]不審なところのあるＸさんでしたが、
+[k]
+
+＠マシュ
+リリィさんがいれば問題ない気がしてきました。[r]そうですよね、先輩？
+[k]
+
+？1：そうだね、Ｘ師匠はいいセイバーだよ
+？2：そうかな、Ｘ師匠はあのセイバーだよ？
+
+？！
+
+＠E：？？？
+たのも[line 3]！
+[k]
+
+[charaFace A 6]
+＠マシュ
+おや……？[r]誰かやってきたようですが……あの方は……
+[k]
+
+[messageOff]
+[wipeout leftToRight 1 3]
+[wait wipe]
+[wt 1.0]
+[charaFadeout A 0.1]
+[wipein rightToLeft 1 3]
+[wait wipe]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠ネロ
+たのも[line 3]！！
+[k]
+
+[charaFace E 1]
+＠ネロ
+ここに空から降ってきた船があると聞いた余である！[r]でも長旅で疲れたので持てなしの準備をするがよい！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 0]
+[charaFadein G 0.1 2]
+[charaFace F 4]
+＠玉藻の前
+はあ……相手が誰かも分からぬ状況で皇帝発言……
+[k]
+
+＠玉藻の前
+赤セイバーさん、[r]ここが敵地と分かってらっしゃいます？
+[k]
+
+[charaFace G 0]
+＠エミヤ
+何を言っているキャスター。[r]いまさら彼女に空気を読めとでも？
+[k]
+
+＠エミヤ
+だいいち、あれが正真正銘の宇宙船なら相手は[r]エイリアンだ。言葉など通じまい。
+[k]
+
+＠エミヤ
+ワケの分からない相手には[r]ワケの分からない相手をぶつける。
+[k]
+
+＠エミヤ
+リターンはないがリスクは少ない。[r]まずは皇帝陛下のお手並み拝見といこうじゃないか。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠ネロ
+ばかもの、なぜ貴様はそう後ろ向きなのだアーチャー！[r]相手がえいりあん？であれ、まずは挨拶であろう！
+[k]
+
+＠ネロ
+好意と誠意、そして情熱！[r]生まれた国は違えど胸に宿る想いは似たようなもの！
+[k]
+
+[charaFace E 1]
+＠ネロ
+なので、まずは笑顔で交渉だ。[r]なに、話の通じない相手である筈がない。
+[k]
+
+＠ネロ
+なにしろ[#宙:ソラ]からの来客だぞ？
+[k]
+
+＠ネロ
+ロマンとパッション、[r]そしてフューチャーに満ちた者であるに違いない！
+[k]
+
+＠ネロ
+余はここに自信を持って宣言しよう！[r]あのロケットの持ち主は争いを嫌う文明人だと！
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠Ｘ
+うぉぉぉおりゃあああああああ！[r]死ねぇぇい、赤いのぉぉおおお！
+[k]
+
+[charaFadeout D 0.1]
+
+[messageOff]
+[effect bit_talk_37]
+[se bac45]
+[wait se bac45]
+[wt 0.5]
+[effectStop]
+[wait effect]
+
+[wt 0.3]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠玉藻の前
+ひゃあああ！？[r]あの方、いきなりビーム撃ってきたんですけどぉ！？
+[k]
+
+＠玉藻の前
+しかも色指定してますし！？[r]ちょっとセイバーさん、お知り合いですかぁ！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+[charaFace G 4]
+＠エミヤ
+……やれやれ。[r]これでも高度な文明人だと言い張るかね、セイバー？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠ネロ
+うむ！　まったく話の通じない相手だな！[r]遠慮なくこらしめるとしよう！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+敵一団、戦闘状態に入りました……！[r]仕方ありません、応戦しましょうマスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

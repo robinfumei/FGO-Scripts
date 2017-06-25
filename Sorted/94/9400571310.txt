@@ -1,0 +1,140 @@
+
+
+＄94-00-57-13-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 4024000 1 モードレッド]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 2025200 1 アン]
+[charaSet E 3024000 1 玉藻の前]
+[charaSet F 2025100 1 メアリー]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠玉藻の前
+さて、島の開拓もだいぶ進んできたことでございますし。
+[k]
+
+[charaFace E 1]
+＠玉藻の前
+ここらで一つ、島を一望できるような見晴らし台を[r]作っては、という提案です☆
+[k]
+
+＠玉藻の前
+遙か高みから見下ろす島。涼やかな高所の風。[r]頭には、隣にいる方との思い出のメモリー……[charaFace E 3]きゃっ。
+[k]
+
+＠玉藻の前
+思わず赤面してしまうようなロマンティック建物だと[r]思いませんか、マスター！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+ふむ。ロマンティックかどうかはともかく、役には立つ[r]だろう。何かしら塔のようなものを建てるのはな。
+[k]
+
+＠スカサハ
+問題はその種類だが[line 2]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠玉藻の前
+はい！　率先して手を挙げますと、やはり最上級の木材を[r]ふんだんに使った五重塔がふさわしいのではないかと！
+[k]
+
+＠玉藻の前
+わかります？　あの色、美しいフォルム、一見無駄にも思え、[r]そして実際無駄な屋根の数……まさに和のハイソです……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace F 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+
+＠アン
+お待ちになってください。この島初めての塔を建てられる[r]のですよね？　でしたら、灯台以外にありえませんわ。
+[k]
+
+＠メアリー
+同感だ。優先順位を考えるべきだと思うよ、マスター。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠モードレッド
+塔だあ？　[r]やっぱオマエらのアイデアにはクールさが足りねぇ。
+[k]
+
+[charaFace B 1]
+＠モードレッド
+オレがデザインしてやるよ。サラサラサラ、と……。[r]こんなんでどうだ！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+わざわざスケッチをどうも[line 2][charaFace A 15]うっ。これは……。
+[k]
+
+[charaFace A 14]
+＠マシュ
+いえ、その、こういうものに格好良さを見出す人がいる[r]というのはわかりますが。なぜあえてこれを[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠モードレッド
+へへっ、サーファーと言えばロックンロールだ。[r]この塔はかなりロックだろ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……先輩。よろしくお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

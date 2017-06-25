@@ -1,0 +1,736 @@
+＄01-00-06-14-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6002001 1 呪腕のハサン]
+[charaSet E 6009001 1 静謐のハサン]
+[charaSet F 5022001 1 三蔵]
+[charaSet G 2014000 1 俵藤太]
+[charaSet H 98098000 1 アグラヴェイン]
+
+[scene 11800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+みんな、悪い報せだ！[r]地上で大規模な動体反応がある！
+[k]
+
+＠Dr.ロマン
+おそらく百貌のハサンが敵と交戦しだしたんだ！[r]という事は[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+アグラヴェインが到着したのか……！[r]急ぎますぞ、[%1]殿！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[scene 21410]
+[wt 0.4]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+生体反応、感知しました！[r]この扉の先です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ[line 2]
+[k]
+
+[messageOff]
+[charaFadeout C 0.4]
+[wt 1.0]
+
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[charaFadeout D 0.1]
+
+[wt 0.7]
+[se ad114]
+[wt 1.0]
+[se ad91]
+[scene 21401]
+[wt 3.0]
+
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.4 1]
+＠マシュ
+……床にこびりついた血の跡、[r]壁にかけられたいくつもの器具……
+[k]
+
+＠マシュ
+これは……ただの牢屋ではありません。[r]奥の壁には……鎖に繋がれた、少女？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.7 1]
+[wt 1.0]
+
+[se ad164]
+[wt 1.5]
+
+[charaFace E 0]
+＠E：？？？
+…………だれ？[r]…………まだ、諦めていないの……？
+[k]
+
+＠E：？？？
+何をされようと、私は何も話さない。[r]だから……早く、首を落として。
+[k]
+
+＠E：？？？
+互いに時間の無駄でしょう……？[r]毒も痛みも、私を殺せないのだから。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……いや、その必要はない。[r]よくここまで耐えた、静謐の。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……あなたは……東の村、の？
+[k]
+
+？1：助けにきたぞ！
+
+[charaFace E 0]
+＠静謐のハサン
+……助け……私、に？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……意識がはっきりしていないようだね。[r]サーヴァントを捕らえ、ここまで消耗させるとは……
+[k]
+
+＠Dr.ロマン
+円卓の、いやアグラヴェインの技術だろうな。[r]けど、いくらハサンだからってこんな子供に……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+いえ。たとえ年若い暗殺者であろうと、[r]“山の翁”の名を冠したからには一流の暗殺者。
+[k]
+
+＠呪腕のハサン
+子供、大人は関係ありませぬ。[r]子供扱いはこの静謐への侮辱ですぞ、魔術師殿。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+う……ごめんなさい。[r]そうだよね、頭目になった以上、もう一人前だよね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：真っ黒い鎖だ！
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+あれはアグラヴェインの“鉄の戒め”よ。[r]アイツ、とにかくルールで縛るのが趣味だから。
+[k]
+
+＠三蔵
+サーヴァントであろうと、アイツ特製の鎖に[r]繋がれたら逃げられなくなるわ。
+[k]
+
+[charaFadeout F 0.1]
+
+？！
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……待って。待ちなさい。私に近寄らないで。[r]貴方たちは、本当に山の民なのですか……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、わたしたちは異邦人です。[r]ですが貴女を助けに来たのは真実です。
+[k]
+
+＠マシュ
+呪腕のハサンさん、百貌のハサンさんと協力して、[r]貴女を助けにここまで侵入してきました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+うむ、真実だ静謐のハサンよ。[r]故に警戒はするな。吐息を漏らしてはいかんぞ。
+[k]
+
+[charaFace D 0]
+＠呪腕のハサン
+すまぬが[%1]殿、[#枷:かせ]を外してやってくれ。[r]あの鎖はどうもサーヴァントに対して良くない。
+[k]
+
+？1：もちろん、任せて！
+？2：よく頑張ったね。じっとしていて
+
+？！
+
+[charaFadeout D 0.4]
+[wt 0.4]
+[messageOff]
+[wt 0.7]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 1.0]
+[se bac57]
+[charaShake E 0.05 3 3 0.2]
+[wt 0.7]
+[se ad114]
+[wt 0.7]
+[se bac57]
+[charaShake E 0.05 3 3 0.2]
+[wt 0.7]
+[se ad114]
+[wt 1.5]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+良かった。鎖が外れました。[r]これで自由ですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+…………は、い。
+[k]
+
+[charaAttack E normal -20,0 0.3]
+[wt 0.35]
+[charaAttack E normal 20,0 0.5]
+[wt 0.6]
+[charaAttack E normal 0,0 0.3]
+[wt 0.35]
+
+[wt 0.4]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あっ、危ない、足がもつれて[line 2]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+[wt 0.7]
+
+？1：（咄嗟に助ける）
+
+[charaFadeout E 0.7]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[se ad7]
+[charaShake E 0.05 3 3 0.25]
+＠静謐のハサン
+……っ！？
+[k]
+
+
+？2：（見ている）
+
+[charaShake E 0.05 5 0 0.25]
+＠静謐のハサン
+……っ！！
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_5 0.7]
+[charaFadeout E 0.7]
+[wt 0.5]
+
+[se ad144]
+[se ad58]
+[seStop ad58 0.5]
+[wt 0.1]
+[shake 0.05 3 5 0.4]
+[wt 0.4]
+[se ad165]
+[wt 0.7]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ん。何の音だい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠マシュ
+静謐のハサンさんがふらついてしまって、そこを[r]先輩が間一髪で抱き留める形になりました。
+[k]
+
+[charaFace A 11]
+＠マシュ
+絡み合いながら倒れています。[r]先輩が丁度、クッションとなっている状態です。
+[k]
+
+＠マシュ
+ハサンさんの仮面は、弾みで外れてしまったようです。[r]床に落ちています。
+[k]
+
+＠マシュ
+そして、何故か起き上がりません。[r]両名とも硬直しています。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+むっ！[r]新たなロマンスの予感……！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+じゃなくて、これはいけないな。[r]うん、これはいけない。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+早く起き上がりたまえ、[%1][&君:ちゃん]。[r]気持ちは分かるが、ここは敵地なのですからね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet E 6009002 1 静謐のハサン]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+＠静謐のハサン
+……駄目。[r]もう、この人は立ち上がれません。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+[FFFFFF]？[-]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+私の修得した[#妄想毒身:ザバーニーヤ]は、[r]この身に触れた者の命を奪い取るもの、です。
+[k]
+
+＠静謐のハサン
+……私の体は毒の体。[r]肌も、粘膜も、体液の一滴に至るまで猛毒そのもの。
+[k]
+
+＠静謐のハサン
+遙か東の伝説に在る“毒の娘”を模して[r]教団に作り上げられた私は、生きている毒の塊。
+[k]
+
+＠静謐のハサン
+普通の接触であれば即死はせずとも、[r]今のは、その……
+[k]
+
+＠静謐のハサン
+…………唇……が……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 1]
+＠マシュ
+……はい？
+[k]
+
+＠Dr.ロマン
+ちょっと聞こえなかったナー。何？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+……ごめんなさい。もう、この人は死にます。
+[k]
+
+＠静謐のハサン
+立ち上がることはできません。[r]ごめん、なさい……
+[k]
+
+＠静謐のハサン
+助けに来てくれたのに、[r]私、また、殺してしまった……
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+[wt 1.0]
+[se ad7]
+[wait se ad7]
+
+？1：ちょっと痺れてますけど、生きてますよ
+？2：別の意味でショック死しかけたけど、まあ
+
+？！
+
+[charaFace E 5]
+＠静謐のハサン
+……っ！？
+[k]
+
+＠静謐のハサン
+うそ、起き上がって……。[r]え……何、が……どうして……？
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠マシュ
+はい。先輩には対毒スキル（仮）があるんです。[r]ですので心配は無用ですよ、ハサンさん。
+[k]
+
+＠Dr.ロマン
+ああ。何せロンドンの魔霧でも大丈夫だったんだ。
+[k]
+
+＠Dr.ロマン
+もうこれは疑いようがない。[r][%1][&君:ちゃん]には対不浄の加護がある。
+[k]
+
+＠Dr.ロマン
+おそらくマシュの盾の効果だろう。[r]契約者を病から守る、というね。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+あの……。[r]本当に、大丈夫……なんですか。
+[k]
+
+＠静謐のハサン
+貴方は……[r]私に、触れても……？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩も、それに私も恐らく問題ありません。[r]宝具級の神秘なら多少の影響はあるでしょうが。
+[k]
+
+＠静謐のハサン
+そう……[r]ですか……
+[k]
+
+[charaFace A 0]
+＠マシュ
+……？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠静謐のハサン
+…………。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+それより早く地上に出るんだ。
+[k]
+
+＠Dr.ロマン
+いくら自分の分身を出せるといっても、[r]百貌のハサンひとりじゃ荷が重い。
+[k]
+
+＠Dr.ロマン
+すぐに合流して、円卓の騎士が来る前に[r]休めるところまで移動しよう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+[messageOff]
+[se ad92]
+[wt 3.0]
+
+＠H：？？？
+それは性急というものだ。[r]休息ならここで取っていけばいい。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+……！
+[k]
+
+[charaFadeout D 0.1]
+[charaSet B 98084000 1 粛正騎士Ａ]
+[charaSet C 98084000 1 粛正騎士Ｂ]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+[charaFace B 0]
+[charaFadein B 0.7 0]
+[charaFace C 0]
+[charaFadein C 0.7 2]
+＠H：？？？
+こんにちは諸君。[r]そしてようこそ、私の尋問室へ。
+[k]
+
+＠H：？？？
+盗人だろうと遠方からの客には違いない。[r]歓迎するよ、遙かな[#天文台:カルデア]からのマスター殿。
+[k]
+
+[wt 0.5]
+[messageOff]
+[wt 0.5]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.25]
+[wait fade]
+[charaFadeout H 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[scene 21401]
+[wt 2.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠呪腕のハサン
+円卓の騎士、アグラヴェイン……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠アグラヴェイン
+そうか。名を告げる必要はないようだな。[r]ああ、君たちの名乗りも結構。不要だ。
+[k]
+
+＠アグラヴェイン
+マスターが一人。その専属サーヴァントが一騎。[r]山の翁が二人、そして[line 3]
+[k]
+
+＠アグラヴェイン
+傲慢にも我らが城を後にした三蔵法師と、[r]その護衛サーヴァントが一騎。
+[k]
+
+[charaFace H 1]
+＠アグラヴェイン
+みな粛正の対象だ。[r]早々に片付けさせてもらおう。
+[k]
+
+[charaTalk off]
+[charaFadeout H 0.7]
+[wt 1.5]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+粛正騎士、来ます……！[r]問答無用です……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠三蔵
+あいかわらず遊びがないのねアグラヴェイン！[r]そんなんだからみんなに嫌われてるって分からない！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アグラヴェイン
+それも結構。私は人間嫌いでね。[r]万人に嫌われるのは望むところだ。
+[k]
+
+＠アグラヴェイン
+万人を導きたいなどと夢見る貴女とは正反対の、[r]つまらない男だよ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠三蔵
+…………また貴方は、そんな……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠俵藤太
+そうか、では間違いなく拙者の敵だな！
+[k]
+
+[charaFace G 0]
+＠俵藤太
+南無八幡大菩薩、これなる我が一弓で[r]貴様の憂鬱を晴らしてしんぜよう。なぜなら[line 3]
+[k]
+
+[charaFace G 1]
+＠俵藤太
+うむ、天下太平、世に面白さなくして美味い飯なし！[r]しかめっ面ではせっかくの料理も台無しよ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

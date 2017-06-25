@@ -1,0 +1,425 @@
+＄94-00-61-62-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 9004000 1 マルタ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 6001002 1 小次郎]
+[charaSet F 3004001 1 カルナ]
+
+[scene 20523]
+[fadein black 2.0]
+[wait fade]
+
+[se ad60]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠マシュ
+もうすぐ到着です、マルタさん。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マルタ
+……そう。[r]ここがベオウルフの支配する廃墟なのね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい！[r]彼の圧制を打ち砕くには、マルタさんの拳しかありません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+……いや、なんで私なのよ。[r]もとい。
+[k]
+
+[charaFace B 4]
+＠マルタ
+……どうして私が選ばれたのでしょう？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+それはその[line 3]。
+[k]
+
+[voice NP_100100_1]
+[voiceStop ad1]
+
+？1：鉄の拳で熱く語る同士的な……
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マルタ
+あはははは、面白い冗談ですねマスター。
+[k]
+
+[charaFace B 0]
+＠マルタ
+ところでクイズです。[r]私の目は笑っているでしょうか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+先輩……わたしの後ろに隠れないで[r]下さい。
+[k]
+
+[branch select01]
+
+
+？2：カルデア救世主伝説的な……
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+なるほど。
+[k]
+
+＠マシュ
+救世主というのであれば、確かにマルタさんが[r]最適なサーヴァントかもしれませんね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+……私は救世主のように尊い御方じゃないわよ。[r]まあ、でも。
+[k]
+
+[charaFace B 0]
+
+＠マルタ
+そう呼ばれた以上、[#徒:あだ]や疎かには出来ないわね。[r]……頑張りましょう、力の限り。
+[k]
+
+？！
+
+？1：なんかすいません……
+？！
+
+
+[charaFadeout B 0.1]
+
+[charaTalk off]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠二人
+[FFFFFF]？
+[k]
+
+[charaTalk on]
+
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[label select01]
+
+
+
+[charaFace A 0]
+＠マシュ
+街は荒れ果てたままですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+勿体ない、きちんと開墾すればちゃんと[r]うりぼうたちが住める土地になるって言うのに。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[se ad60]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠小次郎
+[line 3]いやそこは申し訳ない。[r]何しろ、こちらの連中は破壊と暴虐しか能が無くてなあ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace A 6]
+[charaFace B 5]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マルタ
+……ってへちょサムライ！？
+[k]
+
+＠マシュ
+小次郎さん！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠小次郎
+いやあ、久しいなマルタ殿。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠マルタ
+あんた、何してたのよ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠小次郎
+荒波に放り出され、気付けば魔猪の餌にされかけていた[r]ところを、ベオウルフ殿に救われてな。
+[k]
+
+[charaFace E 1]
+＠小次郎
+いや、運命とはかくも味なもの。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+はぁ……つまり、また門番役って訳？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠小次郎
+どうも、[#拙:それがし]は門と縁があるようでな。[r]不本意ではあるが、一宿一飯の恩を返すは人の義理。
+[k]
+
+[charaFace E 0]
+＠小次郎
+なあ、カルナ殿。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ、カルナさんも！[r]ご無事だったんですね！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠カルナ
+ああ。だが、聞いての通り。
+[k]
+
+[charaFace F 5]
+＠カルナ
+俺たちは共に、おまえたちの行く手を阻むよう[r]頼まれている。
+[k]
+
+[charaFace F 1]
+＠カルナ
+とはいえ、本気で阻みたい訳でもないだろう。[r]言うなれば力試しというところか。
+[k]
+
+[charaFadeout F 0.1]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マルタ
+ふーん、なるほど。[r]つまり、私の実力を推し量りたいってことね。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace B 5]
+＠マルタ
+[#上等:ジョートー]よ……やってやろうじゃないの！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠カルナ
+……言うなれば、拳試しというところか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+今、何でわざわざ訂正したの！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠カルナ
+ともかく、拳を構えるがいい。[r]おまえが救世主となれるかどうか[line 3]
+[k]
+
+＠カルナ
+確かめさせて貰うとするか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マルタ
+はあ……。
+[k]
+
+[charaFace B 0]
+＠マルタ
+ま、あんたたちにも浮き世の義理ってものが[r]あるんでしょうね。
+[k]
+
+＠マルタ
+そして武人だから、手加減するのも[r]それはそれで真っ平御免と。
+[k]
+
+[charaFace B 4]
+＠マルタ
+[line 3]まったく、ややこしい生き方よね。[r]あんたたちってば。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠小次郎
+[line 3]フ。[r]だが、その不自由こそ我らの生き様。
+[k]
+
+[charaFace E 0]
+＠小次郎
+それは損得勘定ではなく、名誉ですらない。
+[k]
+
+[charaFace E 5]
+＠小次郎
+[#こうとしか生きられない]と定めた、[r]どうしようもない愚か者よ。
+[k]
+
+＠小次郎
+それでは今一度、[r]尋常に勝負と参ろうかマルタ殿！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,263 @@
+＄94-00-57-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 3025000 1 清姫]
+[charaSet F 5027000 1 マリー]
+[charaSet G 9004000 1 マルタ]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……というわけで、先輩。我々はそれなりに[r]食糧の現地調達を続けてきたわけですが[line 2]
+[k]
+
+＠マシュ
+さすがにただＢＢＱを続けるだけでは飽きが来る。[r]ちゃんと料理用の施設を作るべき、
+[k]
+
+＠マシュ
+という提案が一部の方々からありました。
+[k]
+
+
+？1：もっともだ
+？2：うん、さすがに飽きるよね……
+？！
+
+[charaFace A 13]
+＠マシュ
+あと、持っていた物資の奥に、数は少ないですが[r]多少の穀物も発見しました。
+[k]
+
+＠マシュ
+ちゃんとした料理設備があれば何かを作れるかも[r]しれませんよ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+で、実際にどの設備を作るかですが[line 2]
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+悩みどころです。[r]これは、実に[line 2]悩みどころだと思います。
+[k]
+
+＠アルトリア
+たとえるなら、三つに分けた軍のそれぞれから増援を[r]求められているような[line 2]
+[k]
+
+[charaFace B 6]
+＠アルトリア
+一つを選べば残り二つを切り捨てることになる。くっ。[r]ここでも王の決断が求められているというのですか……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+いえ、最終的な決断はやはり先輩に[r]していただくんですけど……。
+[k]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+安心・安定の日本英霊のワレワレが推すのは勿論！[r]スタンダードなかまどです！
+[k]
+
+[charaFace D 1]
+＠玉藻の前
+圧倒的な使いやすさと汎用性……そしてコメを炊くのに[r]最適な火力！
+[k]
+
+[charaFace D 0]
+＠玉藻の前
+はじめちょろちょろ中ぱっぱ、の呪文を唱えれば、[r]なんとそこにはふっくらと炊けたごはんの姿が！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFace D 0]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+
+＠清姫
+赤子泣いても蓋取るな……赤子……わたくしと[r]ますたぁとの……ふふ……？
+[k]
+
+＠玉藻の前
+清姫ちゃんが絶賛トリップ中なのはおいときまして、[r]とにかく米が食べたいならかまどが一番ですとも！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFace F 0]
+[charaFadein B 0.1 2]
+[charaFadein F 0.1 0]
+
+＠アルトリア
+白米。白米。いいですね。[r]実に……イイ……。
+[k]
+
+＠マリー
+あのね、わたしはね？[r]ピザが焼けるような窯がいいと思うの。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+＠マシュ
+マリーさんは、ピザがお好きだったのですか？
+[k]
+
+[charaFace F 1]
+＠マリー
+ううん？　逆よ逆。食べたことがないから。
+[k]
+
+？1：そうなの？
+？2：やっぱりお菓子……なんでもありません
+？！
+
+[charaFace F 0]
+＠マリー
+平らなパンぐらいなら勿論あるのだけれど、[r]いかにもピザ、っていうのはね？
+[k]
+
+＠マリー
+こう、カルデアでドレイクさん達が美味しそうに手掴みで[r]食べるのを見ていて……
+[k]
+
+＠マリー
+あとカエサルさんがピザとコーラを両手に持って[r]ムシャゲプムシャゲプしてるのを見ていて……
+[k]
+
+＠マリー
+わたしも食べてみたいな、と思うときは何度かあったのだ[r]けれど。
+[k]
+
+＠マリー
+サンソンやアマデウスがそのたびに『マリーがあんな[r]ジャンクなものを食べては！』って止めるから……。
+[k]
+
+[charaFace A 8]
+＠マシュ
+カエサルさんのようになってほしくはないのでしょう。[r]多分……。
+[k]
+
+[charaFace F 0]
+＠マリー
+ね？　だからおねがい！[r]サンソン達がいないこの島だからこそ、ピザを食べてみたいの！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+ピザ。ピザ。いいですね。[r]実に……イイ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+ピザもいいけどよ、あれはわりとチマチマ焼くのが[r]面倒臭いぜ？
+[k]
+
+＠モードレッド
+やっぱり大事なのは量だろ、量。まずはデケェ鍋の一つ[r]でも確保しとくほうが大事だと思うぜ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マルタ
+そうねぇ。[r]一度に作れる量が多いに越したことはないわね。
+[k]
+
+＠マルタ
+鍋があれば、私のベタニア風特製シチューをみんなに[r]振る舞ってあげるわよ？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+シチュー。シチュー。いいですね。[r]実に……イイ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+むー。忠義心のカケラもなく陣営をフラフラしている王様[r]がいらっしゃいますねぇ。……あれはもうだめだ。
+[k]
+
+[charaFace D 1]
+＠玉藻の前
+もはやあとはマスターの御心一つ！　さあ、どれを作るか、[r]サクッと胃袋の求めるままに決めちゃってくださーい！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

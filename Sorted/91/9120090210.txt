@@ -1,0 +1,221 @@
+＄91-20-09-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaSet A 98001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2009201 2 アルテミス]
+[charaSet E 2009102 2 オリオン]
+[wt 0.2]
+[se ad8]
+[wait se ad8]
+[fadein black 2]
+[wait fade]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠アルテミス
+やっほー、マスター！
+[k]
+
+？1：いません、帰って！
+
+？2：留守です！
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+即時対応ですね、先輩。[r]でも、ドアが開いている時点で無理だと思います。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠オリオン
+よーっす。[r]迷惑掛けにきたぞー。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+あ、掛けるの確定なんだ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠アルテミス
+アメリカに行きたいの！[r]連れてって～！
+[k]
+
+？1：嫌です！
+
+？2：ダメです！
+
+？！
+
+[messageOff]
+[wt 0.3]
+[bgmStop BGM_EVENT_2 0.7]
+[effect bit_talk_07]
+[charaFadeout D 0.1]
+[se ad12]
+[wt 4.0]
+[fadeout white 1.0]
+[wait fade]
+[charaSet A 8001001 2 マシュ]
+[scene 20720]
+[wt 1.0]
+[bgm BGM_EVENT_2 0.1]
+[fadein white 1.0]
+[wait fade]
+[charaTalk A]
+[charaFadein A 0.4 1]
+[charaFace A 0]
+＠マシュ
+……アメリカに到着しました。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠アルテミス
+キャー、ブロードウェイ、ブロードウェイに[r]行くわよ、ダーリン！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein E 0.1 0]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFace A 0]
+＠オリオン
+あの……ブロードウェイは……。
+[k]
+
+？1：ない
+
+？！
+
+[charaFace A 12]
+＠マシュ
+あと百年ほど待って戴ければ……。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 0]
+＠アルテミス
+なーんだ、ガッカリー！[r]でもいいの、ダーリンと一緒ならどこでも楽しいから！
+[k]
+
+[charaFace D 1]
+＠アルテミス
+さあ、行きましょう！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠オリオン
+悪いがちょっとばかり付き合ってくれや。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+……仕方ありません。[r]行きましょうか。
+[k]
+
+[wt 0.3]
+[messageOff]
+[wipeout leftToRight 1 3]
+[wait wipe]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[scene 11210]
+[wt 1.0]
+[wipein rightToLeft 1 3]
+[wait wipe]
+[charaTalk D]
+[charaFadein D 0.4 1]
+[charaFace D 1]
+＠アルテミス
+あ、街だわ！　素敵！[r]いかにもウェスタンって感じ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFace A 0]
+＠アルテミス
+……カウボーイはいないの？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[charaFace A 7]
+＠マシュ
+この時代にカウボーイはまだ……いや、待って下さい。[r]いくら何でも街に人一人いないはずは……！
+[k]
+
+[se ad19]
+[wait se ad19]
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+＠マシュ
+この声は……まさか……。[r]ワイバーン！？
+[k]
+
+[charaFace D 1]
+＠アルテミス
+やだ、素敵！[r]ドラゴンだなんて！
+[k]
+
+[charaFace D 3]
+＠アルテミス
+……ありふれてるわね、もう。[r]大体、海で散々戦ったじゃない。
+[k]
+
+＠アルテミス
+誰か知らないけど、エネミー選びのセンスがないわね。
+[k]
+
+[charaFace A 14]
+＠マシュ
+あの、戦いましょう！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠オリオン
+へいへい、合点だ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

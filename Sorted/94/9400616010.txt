@@ -1,0 +1,253 @@
+
+＄94-00-61-60-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 98101600 1 魔猪]
+[charaSet F 98101700 1 巨大魔猪]
+[charaSet G 98025000 1 シャドウサーヴァント]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+……ふむ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+これ、スカサハさんが植えたトネリコですよね？[r]どうかしました？
+[k]
+
+[charaFace C 5]
+＠スカサハ
+いや、ちょっと待ってくれ。[r]この木で新たな槍を作ってみよう。
+[k]
+
+[charaFace A 7]
+＠マシュ
+槍を……？
+[k]
+
+＠スカサハ
+ゲイ・ボルクは海獣の骨から作られたもの。[r]この島で魔槍を複製するのはさすがに難しい。
+[k]
+
+[charaFace C 0]
+＠スカサハ
+だが、ソレに限りなく近いものを複製することは[r]可能なのだ……ルーンの呪力でな。
+[k]
+
+[charaFace A 6]
+＠マシュ
+このトネリコでですか？
+[k]
+
+＠スカサハ
+トネリコとは、北欧の世界樹[line 2]ユグドラシルに連なる[r]樹木の末裔、そしてルーンもまた世界樹から生じたという。
+[k]
+
+＠スカサハ
+そこで、このトネリコの力を限界まで借り受けて、[r]ルーンを使うと[line 2]。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ゲイ・ボルクが増える、ということですか？
+[k]
+
+[charaFace C 1]
+＠スカサハ
+その通り！[r]トネリコ一本につき、一振りの槍を作る。
+[k]
+
+＠スカサハ
+恐らく、私が作ってもそれなりのものになるだろう。[r]少なくとも宝具として耐え切れるレベルのな。
+[k]
+
+[charaFace A 1]
+＠マシュ
+それはつまり……。
+[k]
+
+＠スカサハ
+うむ。これで宝具の威力も上がるだろう。
+[k]
+
+[charaFace C 0]
+＠スカサハ
+……という訳で、今から心を籠めて槍を作るので、[r]すまないがお前たちに防備を任せたい。
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい、防備……？
+[k]
+
+＠スカサハ
+今から一昼夜使って槍を複製するのでな。[r]多分、夜になったら魔猪だの何だのがやってくるだろう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+後は任せた！
+[k]
+
+[messageOff]
+[charaFadeout C 0.3]
+[se bac122]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+
+＠マシュ
+置いていかれました！？
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……仕方ありません。[r]マスター、ひとまず一昼夜をここで過ごしましょう。
+[k]
+
+[charaFace A 7]
+＠マシュ
+魔猪が襲ってこなければいいのですが……。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+[scene 20702]
+
+[charaFadeout A 0.1]
+
+[wt 1.0]
+
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+[se ad117]
+[wt 1.5]
+
+
+
+[se ad58]
+[charaTalk E]
+[charaFadein E 0.4 1]
+[wt 1.0]
+[seStop ad58]
+
+＠魔猪
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+予想通り、魔猪が来ました！
+[k]
+
+？1：よし戦うぞ！
+？！
+
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad60]
+[charaTalk G]
+[charaFadein G 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠シャドウサーヴァント
+……。[r]……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+シャドウサーヴァントも来ました！
+[k]
+
+？1：……まあ何とかなる！
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[se ad109]
+[charaTalk F]
+[charaFadein F 0.4 1]
+
+＠巨大魔猪
+……コーフー……コーフー。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+巨大魔猪も！
+[k]
+
+？1：しつこいよ！？
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

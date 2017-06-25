@@ -1,0 +1,429 @@
+＄94-00-12-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98027500 1 そして船は征く]
+[charaSet B 98027600 1 鋼の鍛錬]
+[charaSet C 98027700 1 優雅たれ]
+[charaSet D 4022000 1 サンタオルタ]
+[charaSet E 4019001 1 マルタ]
+[charaSet F 4014001 1 牛若丸]
+[charaSet G 6011001 1 荊軻]
+
+[scene 20110]
+[fadein black 2]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠荊軻
+敗けた[line 4]！[r]惜しい、あと九歩足りなかった！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠牛若丸
+参りました[line 5]！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠マルタ
+くっ……こんな物盗りに二回も負けるなんて……[r]杖かしら……やっぱり杖は合っていないのかしら……
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+フン。ようやく落ち着いたか。[r]貴様ら。見たところサンタに恨みがあるようだな。
+[k]
+
+＠サンタオルタ
+何事かあったのだろう。言え。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠マルタ
+何って、前にもサンタクロースが来たのよ。
+[k]
+
+[charaFace E 1]
+＠マルタ
+わー、プレゼントだー！　サンタさん、わたし新しい[r]ドイツ製包丁セットが欲しいの！　って喜んだら……
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠牛若丸
+おかしな書類に名前を書かされ、[r]判子を押すよう巧みに誘導され……
+[k]
+
+＠牛若丸
+気がつけば、我々は自分のお金で[r]高額のプレゼントを買っていたのです……
+[k]
+
+[charaFace E 5]
+＠マルタ
+それだけじゃないわ。いざお金が足りないと分かると[r]家財差し押さえ、没収されたのよ。
+[k]
+
+＠マルタ
+なにあれ。新手のセールス？[r]サンタクロースはいつからブラック企業になったのよ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+そのようなコトがあるか！[r]サンタクロースは子供たちの味方なのだからな！
+[k]
+
+[charaFace D 4]
+＠サンタオルタ
+……しかし、貴様たちが被害にあったのは事実のようだ。[r]同じサンタとして無念に思う。
+[k]
+
+？1：きっとそのサンタ、偽物だよ
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠牛若丸
+言われて見れば……サンタオルタ殿は黒い。[r]一見してサンタクロースと分からなかった。
+[k]
+
+＠牛若丸
+しかしあのサンタは一目でサンタクロースと[r]分かる風貌でした。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+？2：サンタオルタは善い悪のサンタだよ
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+＠荊軻
+むぅー、その言い回しは難しいなー。[r]善いのか悪いのかどっちなのよー？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マルタ
+……ブラックサンタね。悪いことをした子供には[r]酷いプレゼントを押しつけるってヤツ。
+[k]
+
+＠マルタ
+子供にとってはひっどいサンタだけど、客観的に見れば[r]子供の悪行を正して善に導いている、と言えるわ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+そんな事はない。[r]私は当人に必要なものを配るだけだ。
+[k]
+
+＠サンタオルタ
+説教をする気もない。[r]その手の高説はアヴェンジャーに任せておけばいい。
+[k]
+
+[charaFace D 0]
+
+？！
+
+＠サンタオルタ
+ともあれ、災難だったな貴様ら。[r]どれ……三人とは予定外だが……
+[k]
+
+[se ad77]
+[wt 0.6]
+
+＠サンタオルタ
+寒そうな女にはこれをやろう。実物はここにはないが、[r]これを持っていれば本物に出会えよう。
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaFadein D 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[wt 0.1]
+[wt 0.3]
+
+[charaDepth A 3]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout A 0.4]
+[wt 0.4]
+[wt 0.3]
+[charaTalk on]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠牛若丸
+ふ、船ですか……小舟ならともかく、[r]ここまで大きなものは……
+[k]
+
+＠牛若丸
+まあいいか……闇夜に乗り込んで真っ先に[#頭:かしら]の首を[r]落とせば、手勢をまるごと戴ける訳ですし……
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+その物騒な発想、まさに天才にして駄犬。[r]兄上とやらも気苦労が絶えまい。
+[k]
+
+＠サンタオルタ
+さて、次は……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠マルタ
+え……私にも戴けるのですか？[r]争った相手にも慈しみを忘れないとは……
+[k]
+
+＠マルタ
+ごめんなさい。私は誤解をしていました。[r]貴女は心の清い、本当のサンタクロース[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+貴様にはこれだな。好きだろう、こういうの？
+[k]
+
+[se ad77]
+[wt 0.6]
+
+[messageOff]
+[charaTalk off]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaFadein D 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+[wt 0.1]
+[wt 0.3]
+
+[charaDepth B 3]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout B 0.4]
+[wt 0.4]
+[wt 0.3]
+[charaTalk on]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠マルタ
+まあ。
+[k]
+
+[charaFace E 2]
+＠マルタ
+じゃないわよ、要らないわよこんなのっ！[r]聖女が筋肉鍛えてどうするのよ！？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+＠荊軻
+ねー、私には－？[r]私にはプレゼントはないのですかー？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+あるとも。ケーカちゃんにはこれだ。
+[k]
+
+[se ad77]
+[wt 0.6]
+
+＠サンタオルタ
+暗殺の標的が目の前にいても慌てず騒がず、[r]エレガントに仕事をこなせるお守りだぞ。
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaFadein D 0.1 0]
+[charaFace G 8]
+[charaFadein G 0.1 2]
+[wt 0.1]
+[wt 0.3]
+
+[charaDepth C 3]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.4]
+[wt 0.7]
+[charaFadeout C 0.4]
+[wt 0.4]
+[wt 0.3]
+[charaTalk on]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠荊軻
+ほははははははははははははははは！
+[k]
+
+？1：大ウケだ！
+？2：……ツボに入ったのかな……
+
+？！
+
+＠荊軻
+素敵！　このヒゲのおじさま素敵[line 3]！[r]あ。ちょっときた。キュンときた。
+[k]
+
+＠荊軻
+私、この人暗殺してくる[line 2]！[r]後ろから刺したくなる顔してる[line 3]！
+[k]
+
+？1：その人、もう暗殺されてるんですよ……
+？2：デストロ　イすぎる……
+
+？！
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 3]
+[charaFadein F 0.1 2]
+＠牛若丸
+……申し訳ありません。荊軻さんは滅多に[r]酔わない人なのですが、今はこの通りで……
+[k]
+
+＠マルタ
+あのサンタクロースにしてやられてから[r]ひたすらやけ酒でしたからね……無理もありません。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+ふむ……貴様たちほどの[#強面:こわもて]女子に[r]不覚をとらせたサンタクロースか……
+[k]
+
+[charaFace D 0]
+＠サンタオルタ
+まあいい。私の知った事ではない。[r]ここでの仕事は、これで終わった。
+[k]
+
+＠サンタオルタ
+行くぞ[%1]！[r]次の困った子供たちが待っている！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.4]
+
+[charaTalk D]
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠牛若丸
+行ってしまいましたね……[r]結果的に見ると良いサンタさんでしたが……
+[k]
+
+[charaFace F 4]
+＠牛若丸
+しかし……となりにいた主殿はなぜトナカイの[r]かぶり物をしていたのでしょう……
+[k]
+
+[charaFace F 3]
+＠牛若丸
+いえ、たいへん愛らしかったので私的には[r]まさにクリスマスプレゼント級の衝撃でしたが……
+[k]
+
+[charaFace E 3]
+＠マルタ
+そ、そういう趣味でもあったんじゃない？[r]ライダーってそういうものだし。それより[line 3]
+[k]
+
+[charaFace E 5]
+＠マルタ
+……ねえ。荊軻の姿、見えないわよね？
+[k]
+
+[charaFace F 2]
+＠牛若丸
+あ。
+[k]
+
+＠牛若丸
+[line 3]よし、手遅れです！[r]髭の紳士のことは忘れましょう！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

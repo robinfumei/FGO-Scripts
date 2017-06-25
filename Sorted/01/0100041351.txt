@@ -1,0 +1,1121 @@
+＄01-00-04-13-5-1
+
+[soundStopAll]
+[bgm BGM_MAP_6 0.1]
+[scene 20201 0]
+[messageOff]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 9935300 1 ソロモン]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5003001 1 玉藻の前]
+[charaSet G 5007001 1 シェイクスピア]
+[charaSet H 5005001 1 アンデルセン]
+[charaFace F 5]
+[charaFadein F 0 2]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[fadein black 1]
+[wait fade]
+[wt 1]
+[se bac18]
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[shake 0.05 0 5 0.5]
+[charaEffect F bit_talk_13]
+[charaEffect G bit_talk_13]
+[charaEffect D bit_talk_13]
+[wt 0.5]
+[se ba5]
+[charaSpecialEffect F erasure 2 1]
+[charaSpecialEffect G erasure 1 1]
+[charaSpecialEffect D erasure 0 1]
+[wt 1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+そら見た事か。ただの英霊が私と同じ地平に立てば、[r]必然、このような結果になる。
+[k]
+
+[charaFadeout C 0.1]
+[charaSet D 9935310 1 ソロモン]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……ドクター、レイシフトを。[r]このままでは全滅です……！
+[k]
+
+＠Dr.ロマン
+それが無理なんだ……！[r]そいつの力場でレイシフトのアンカーが届かない！
+[k]
+
+＠Dr.ロマン
+ソロモンがいるかぎり、[r]キミたちを引き戻すのは不可能だ……！
+[k]
+
+[charaFace A 15]
+＠マシュ
+っ……こうなったら……[r]せめて、先輩だけでも[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+野郎、でかい口を……！
+[k]
+
+＠モードレッド
+だが、確かにハッタリじゃねえ……[r]英霊としての格より、出力そのものが違う。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+テメエ、一体どうなってやがる!?
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+貴様がいま口にした通りだよ。[r]英霊としての格ではない。[#霊器:クラス]の格が違うのだ。
+[k]
+
+＠ソロモン
+さあ、貴様もゴミどもと共に燃え尽きよ。
+[k]
+
+[charaFace C 1]
+＠ソロモン
+王殺しの英霊モードレッド。[r]貴様は特に、念入りに燃やすとしようか。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.5]
+[messageOff]
+[se bac17]
+[charaEffect E bit_talk_13]
+[wt 0.5]
+[se ad32]
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[charaEffect E bit_talk_14]
+[charaEffectStop E]
+[wait charaEffect E]
+[wt 1]
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠アンデルセン
+……ふざけているな。一度防いだだけでこれか。[r]やはりキャスターでは貴様には刃向かえないか。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFadein H 0.1 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠モードレッド
+クソガキ……!?[r]テメエ、なにして[line 3]
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+気まぐれだ、気にするな。[r]おまえには散々働いてもらった借りもあったしな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+……まだ生きていたか、物書き。
+[k]
+
+＠ソロモン
+ザコどもと共に一掃したつもりだったが。[r]その無力さでよく生き延びたものだ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠アンデルセン
+ふん。肉体労働は嫌いでな。見学に徹していたのさ。[r]それもここまでのようだがな。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+だが[line 3]読めたぞソロモン。[r]貴様の正体、その特例の真実をな。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ソロモン
+ほう？　いいぞ、語ってみよ即興詩人。[r]聞き心地のいい賞賛ならば楽に殺してやろう。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+ああ、とくと聞くがいい俗物め。[r]時計塔の記述にはこうあった。
+[k]
+
+＠アンデルセン
+英霊召喚とは抑止力の召喚であり、[r]抑止力とは人類存続を守るもの。
+[k]
+
+＠アンデルセン
+彼等は七つの器を以て現界し、[r][#ただひとつ]の敵を討つ。
+[k]
+
+[charaFace H 5]
+＠アンデルセン
+敵とは何か？　決まっている。[r]我ら霊長の世を阻む大災害！
+[k]
+
+＠アンデルセン
+この星ではなく人間を、[r]築き上げられた文明を滅ぼす終わりの化身！
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+其は文明より生まれ文明を食らうもの[line 3][r]自業自得の[#死の要因:アポトーシス]に他ならない。
+[k]
+
+＠アンデルセン
+そして。これを倒すために喚ばれるものこそ、[r]あらゆる英霊の頂点に立つモノ。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+[line 3]そうだ。七騎の英霊は、[r]ある害悪を滅ぼすために遣わされる天の御使い。
+[k]
+
+＠ソロモン
+人理を護る、その時代最高峰の七騎。[r]英霊の頂点に立つ始まりの七つ。
+[k]
+
+＠ソロモン
+もともと降霊儀式・英霊召喚とは、[r]霊長の世を救う為の決戦魔術だった。
+[k]
+
+＠ソロモン
+それを人間の都合で使えるよう格落ちさせたものが[r]おまえたちの使う召喚システム[line 3]聖杯戦争である。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+な[line 3]オレたちが格落ち、だと……!?
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠アンデルセン
+挑発に乗るなモードレッド。[r]格の問題じゃない。これは器、権限の問題だ。
+[k]
+
+＠アンデルセン
+ヤツはただ単に、俺たちより一段階上の[r]器を持って顕現した英霊にすぎない。
+[k]
+
+[charaFace H 0]
+＠アンデルセン
+我らが個人に対する[#英霊:へいき]なら、[r]アレは世界に対する[#英霊:へいき][line 3]
+[k]
+
+＠アンデルセン
+その属性の英霊たちの頂点に立つもの。[r]即ち、[#冠位:グランド]の器を持つサーヴァント[line 3]
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ソロモン
+そうだ。よくぞその真実に辿り着いた！
+[k]
+
+[charaTalk off]
+[charaDepth D 1]
+[charaFace D 1]
+[charaFadein D 0 1]
+[charaFadeout C 0]
+[wt 0.1]
+[charaDepth D 0]
+[charaTalk on]
+[charaTalk D]
+＠D：ソロモン
+我こそは王の中の王、キャスターの中のキャスター！[r]故にこう[#讃:たた]えるがよい！
+[k]
+
+＠D：ソロモン
+[line 3]グランドキャスター、魔術王ソロモンと！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[charaTalk B]
+＠Dr.ロマン
+グランドのクラス、だって……!?[r]根源に選ばれた英霊とでも言うつもりか……!?
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ソロモン
+[line 3]さて。では褒美だ、受け取れ即興詩人。[r]五体を百に分け、念入りに燃やしてやろう。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+[wt 0.3]
+[se bac18]
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[shake 0.05 0 5 0.5]
+[charaEffect H bit_talk_13]
+＠アンデルセン
+ぐっ[line 3]ぐおおおおぅおぅ……！
+[k]
+
+[se ba5]
+[flashin once 0.4 0.4 FFFFFFFF 00000000]
+[charaSpecialEffect H erasure 2 1]
+[wt 1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+………テメエ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+凡百のサーヴァントよ。[r]所詮、貴様等は生者に喚ばれなければ何もできぬ道具。
+[k]
+
+＠ソロモン
+私のように真の自由性は持ち得ていない。[r]どうあがこうと及ばない壁を理解したか？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+っ[line 3]……、は。[r]ここまで四つも聖杯を奪われて、何を偉そうに。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+もう半分も[%1]にやられて、[r]あわてて出てきたんだろう？
+[k]
+
+[charaFace E 0]
+＠モードレッド
+負け惜しみにしちゃあみっともないぜ？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+[line 3]人類最高峰の馬鹿か、貴様？
+[k]
+
+＠ソロモン
+四つもだと？　違うな。[r]すべてを破壊してようやく、なのだ。
+[k]
+
+[charaFace C 0]
+＠ソロモン
+一つも六つも私には取るに足りぬ些事である。[r][%1]なる者が脅威などと、程遠い話だよ。
+[k]
+
+＠ソロモン
+では帰るか。[r]思いの外時間をとったな。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠マシュ
+え？
+[k]
+
+[charaFace E 5]
+＠モードレッド
+はあ!?　[r]帰るって、テメエ一体なにしにきやがった!?
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+いや、単なる気まぐれだが？
+[k]
+
+＠ソロモン
+ひとつの読書を終え、次の本にとりかかる前に用を[r]足しに立つ事があるだろう？　これはそれだけの話だ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠モードレッド
+なっ……小便ぶっかけにきたっつうのか!?
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ソロモン
+[line 6]、は。
+[k]
+
+[charaFace C 2]
+＠ソロモン
+ハハ、ハ、ギャハハハハハハハハ………！
+[k]
+
+＠ソロモン
+その通り！　実にその通り！[r]実際、貴様らは小便以下だがなァ！
+[k]
+
+[charaFace C 1]
+＠ソロモン
+私はおまえたちなどどうでもいい。[r]ここで殺すも生かすもどうでもいい。
+[k]
+
+＠ソロモン
+わかるか？　私はおまえたちを見逃すのではない。[r]おまえたちなど、はじめから見るに値しないのだ。
+[k]
+
+＠ソロモン
+だが[line 3]ふむ。[r]だが、もしも七つの特異点を全て消去したのなら。
+[k]
+
+＠ソロモン
+その時こそ、おまえたちを、[r]“私が解決すべき案件”として考えてやろう。
+[k]
+
+[charaFadeout C 0.4]
+＠Dr.ロマン
+助かった……のか？[r]見逃されるのは癪だけど、ここは黙って[line 3]
+[k]
+
+＠Dr.ロマン
+ちょっと、[%1][&君:ちゃん]!?
+[k]
+
+？1：なぜこんな事をする!?
+
+？2：世界を燃やして楽しいのか!?
+
+？！
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩……！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ソロモン
+[line 3]ほう。[r]意外な反応をしたな、人間。
+[k]
+
+＠ソロモン
+楽しいか、と問うのか？[r]この私に、人類を滅ぼす事が楽しいかと？
+[k]
+
+[charaTalk off]
+[charaDepth D 1]
+[charaFace D 0]
+[charaFadein D 0 1]
+[charaFadeout C 0]
+[wt 0.1]
+[charaDepth D 0]
+[charaTalk on]
+[charaTalk D]
+＠D：ソロモン
+ああ[line 3][r]無論、無論、無論、無論、最ッッ高に楽しいとも！
+[k]
+
+＠D：ソロモン
+楽しくなければ貴様らを[r]ひとりひとり丁寧に殺すものか！
+[k]
+
+＠D：ソロモン
+私は楽しい。[r]貴様たちの死に様が嬉しい。
+[k]
+
+＠D：ソロモン
+貴様たちの終止符が好ましい。[r]その断末魔がなによりも爽快だ！
+[k]
+
+＠D：ソロモン
+そして、[r]それがおまえたちにとって至上の救いである。
+[k]
+
+＠D：ソロモン
+なぜなら、私だけが、ただの一人も残さず、[r]人類を有効利用してやれるのだから[line 3]！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠モードレッド
+下がってろ、[%1]！[r]コイツと話すのは無駄だ、心底から腐ってやがる！
+[k]
+
+[charaFace A 14]
+＠マシュ
+……魔術王ソロモン。[r]貴方はレフ・ライノールと同じです。
+[k]
+
+[charaFace A 5]
+＠マシュ
+あらゆる生命への感謝がない。[r]人間の、星の命を[#弄:もてあそ]んで楽しんでいる……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+[line 6]。
+[k]
+
+＠ソロモン
+娘。人の分際で生を語るな。[r]死を前提にする時点で、その視点に価値はない。
+[k]
+
+＠ソロモン
+生命への感謝だと？[r]それはこちらが貴様らに抱く疑問だ。
+[k]
+
+＠ソロモン
+[#人間:おまえ]たちはこの二千年なにをしていた？[r]ひたすらに死に続け、ひたすらに無為だった。
+[k]
+
+＠ソロモン
+おまえたちは死を克服できなかった知性体だ。[r]にも関わらず、死への恐怖心を持ち続けた。
+[k]
+
+＠ソロモン
+死を克服できないのであれば、[r]死への恐怖は捨てるべきだったというのに。
+[k]
+
+＠ソロモン
+死を恐ろしいと、無惨なものだと認識するのなら、[r]その知性は捨てるべきだったのに！
+[k]
+
+＠ソロモン
+無様だ。あまりにも無様だ。[r]それはおまえたちも同様だ、カルデアのマスターよ。
+[k]
+
+＠ソロモン
+なぜ戦う。[r]いずれ終わる命、もう終わった命と知って。
+[k]
+
+＠ソロモン
+なぜまだ生き続けようと[#縋:すが]る。[r]おまえたちの未来には、何一つ救いがないと気付きながら。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+………っ。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ソロモン
+あまりにも幼い人間よ。[r]人類最期のマスター、[%1]よ。
+[k]
+
+＠ソロモン
+これは私からの唯一の忠告だ。
+[k]
+
+＠ソロモン
+おまえはここで全てを放棄する事が、[r]最も楽な生き方だと知るがいい。
+[k]
+
+[charaEffect C bit_talk_21]
+[wt 0.5]
+[fadeout white 5.0]
+＠ソロモン
+[line 3]灰すら残らぬまで燃え尽きよ。[r]　　　それが、貴様らの未来である。
+[k]
+
+[messageOff]
+[wait fade]
+[charaEffectStop C]
+[charaFadeout C 0.1]
+[wt 1]
+[scene 20201]
+[fadein white 0.7]
+[wait fade]
+[wt 2]
+[fadeout black 2]
+[messageOff]
+[bgmStop BGM_MAP_6 0.4]
+[wait fade]
+[wt 2]
+[scene 10900 0]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0 1]
+[fadein black 2]
+[bgm BGM_EVENT_6 0.1]
+[wait fade]
+[backEffect bit_talk_06]
+＠モードレッド
+……ここまでだな。[r]聖杯を回収したっていうのに、締まらない気分だぜ。
+[k]
+
+？1：……ごめん。
+
+[charaFace E 1]
+＠モードレッド
+バカ、おまえが謝るなよ。[r]情けないのはオレだけだ。
+[k]
+
+？2：……そうだね。
+
+＠モードレッド
+だよなあ。あんなにヘコんだのは、父上の槍で[line 3][r]いや、なんでもない。なんでもないさ。
+[k]
+
+？！
+
+[charaFace E 0]
+＠モードレッド
+でもまあ、ロンドンは救えたんだ。[r]オレにしちゃあ上出来だ。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+無念なのはここで終わりってコトだな。[r]本音を言えばおまえたちに付いていきたいが……
+[k]
+
+[charaFace E 0]
+＠モードレッド
+この通り限界だ。[r]特異点がなくなってオレの寄る辺もなくなったんだろう。
+[k]
+
+＠モードレッド
+もともと聖杯の霧で喚ばれたんだ。[r]マスターがいない以上、今回は消えるしかない。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+……悔しいがヤツの言う通りだよ。[r]オレたちは喚ばれなければ闘えない。
+[k]
+
+＠モードレッド
+それが英霊の、サーヴァントの限界だ。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+時代を築くのは、いつだってその時代に……[r]最先端の未来に生きている人間だからな。
+[k]
+
+？1：……モードレッド
+
+？2：……生きている、人間……
+
+？！
+
+＠モードレッド
+ああ。だから[line 3][r]おまえが辿り着くんだ、[%1]。
+[k]
+
+＠モードレッド
+オレたちではたどり着けない場所へ。[r]七つの聖杯を乗り越えて、時代の果てに乗り込んで。
+[k]
+
+[charaFace E 1]
+＠モードレッド
+[#魔術王:グランドキャスター]を名乗る、あのいけすかねえ野郎を追いつめる。[r]それはおまえにしか出来ない仕事だよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……モードレッドさん。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+そんな顔するな、マシュ。[r]盾ヤロウは気にくわないがおまえは別だ。
+[k]
+
+[charaFace E 1]
+＠モードレッド
+いつかまた会える。そん時はまた手を貸すぜ。
+[k]
+
+＠モードレッド
+じゃあな、[%1]。[r]こんなオレにだってロンドンぐらい救えたんだ。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+ならおまえはちょいとばかり張り切って、[r]せいぜい世界を救ってみせろ。
+[k]
+
+[messageOff]
+[se ad52]
+[backEffectStop bit_talk_06]
+[charaSpecialEffect E flashErasure 1 2]
+[wait charaSpecialEffect E]
+[wt 0.5]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……全サーヴァントの反応、消失しました。[r]先輩。この時代での[#作戦:オーダー]は、完了です。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationChara 5009003 1 5 0 0]
+＠ダ・ヴィンチ
+アー、テステス。[r]よし、やっと映像が繋がった。
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチ
+二人とも無事ー？[r]無事だね。観測数値にも異常はなし。
+[k]
+
+＠ダ・ヴィンチ
+魔霧もただの霧に戻っているし、[r]もうその時代に用はない。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチ
+早速レイシフトを行うよ。[r]二人とも、やり残したコトはない？　ないね？
+[k]
+
+＠ダ・ヴィンチ
+ではレイシフト、開始！[r]任務達成、お疲れさま－！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[wait effect]
+[scene 10201]
+[charaSet A 98001000 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009000 1 ダ・ヴィンチ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[bgmStop BGM_EVENT_6 0.4]
+[bgm BGM_EVENT_2 0.1]
+[fadein white 1]
+[wait fade]
+[wt 0.5]
+＠ダ・ヴィンチ
+お帰り、二人とも。今回も無事……とは[r]言いがたいけど、とにかく良かった。
+[k]
+
+？1：ところで、なんでダ・ヴィンチちゃんが？
+
+？2：あの、Dr.ロマンは……？
+
+？！
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+ロマニ？[r]ああ、ロマニなら……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+なんてコトだ……こんな……こんなコトが……
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+あの通り、さっきからダメになってる。[r]キミの手で気合いを入れ直してやってくれ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+？1：しっかりしろ、ドクター！
+
+？2：ホントにチキンだな、ドクター！
+
+？！
+
+[charaFace B 2]
+＠Dr.ロマン
+うぇえ!?　あわわ、二人ともいつの間に!?[r]……って、そうか。レオナルドがやってくれたのか……
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+……ごめん、ピンチだったのはキミたちの方なのに。[r]ただ、なんていうか……あまりのショックで……
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk D]
+[charaFadein B 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ダ・ヴィンチ
+はいはい、落ちこむのはそこまでにしなさい。[r]いいかげん、本気で呆れられるぞ？
+[k]
+
+＠Dr.ロマン
+う、うん……。[r]それは……すまない、マシュ、[%1][&君:ちゃん]。
+[k]
+
+＠Dr.ロマン
+もっと早く強制レイシフトをするべきだったのに、[r]ボクの判断が遅れてしまった……。
+[k]
+
+？1：そこは大丈夫です
+
+？2：あれはしょうがない
+
+？！
+
+＠Dr.ロマン
+でも、もしソロモンが[r]キミたちを消しにかかっていたら……
+[k]
+
+＠Dr.ロマン
+……うう、ボクは……。[r]ボクは駄目な人間だ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+……ドクター。[r]いいえ、顔を上げてください。
+[k]
+
+＠マシュ
+わたしたちが作戦を続けることができるのは、[r]あなたの存在があるからです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクターは確かに臆病な面があり、[r]物事を悪い方悪い方へと考えます。
+[k]
+
+[charaFace A 11]
+＠マシュ
+一言でいうとチキンです。[r]男性のクセに、わりとなよってしています。
+[k]
+
+[charaFace A 14]
+＠マシュ
+また、趣味は内向的によりすぎていて、[r]電脳アイドルに依存している残念な研究者です。
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ダ・ヴィンチ
+あー……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+？1：…………あの…………
+
+？2：マシュ、少しは手心をだね……
+
+？！
+
+[charaFace A 13]
+＠マシュ
+でも[line 3]そんなあなたが頑張っているからこそ、[r]カルデアに残された所員は頑張れます。
+[k]
+
+＠マシュ
+カルデアが爆破された時、炎の中で電源を回復させ、[r]生存者を救い、指揮したのはドクターです。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ドクターの短所はただひとつ。[r]自身を、ちょっと過小評価しすぎなところです。
+[k]
+
+＠マシュ
+いまカルデアがあるのはロマニ・アーキマンがいたから。[r]ここにいる全員は一度、貴方に命を救われている。
+[k]
+
+[charaFace A 1]
+＠マシュ
+そう、わたしは思っています。
+[k]
+
+？1：その通りだ
+
+？2：「思ったこと」を言ったね
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……はい、先輩。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+……………。
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+ありがとう、マシュ、[%1][&君:ちゃん]。[r]それならボクも落ち込んでいる暇はない。うん。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+何せ黒幕の正体がわかったんだ。[r]あの異様な強さにも、きっと何かの理屈があるはずだ。
+[k]
+
+＠Dr.ロマン
+引き続き、ボクらは作戦を続けよう。[r]残る特異点を修正して、世界と未来を焼却させない。
+[k]
+
+＠Dr.ロマン
+……あの男。[r]魔術王ソロモンが、何をしようともだ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+グランドキャスター。[r]あれが、わたしたちにとっての本当の敵[line 3]
+[k]
+
+？1：次は勝つ！
+
+？2：もう二度と負けない
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+ヒュー！　その意気だ[%1][&君:ちゃん]。
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+よし、遅くなったけど、[r]今回も本当にお疲れさま！
+[k]
+
+＠Dr.ロマン
+後処理はボクらがやっておくから、[r]二人は一刻も早く休憩に入ってくれ。
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+次に目が覚めた時はいよいよ第五の特異点だ。[r]よろしく頼むよ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout B 0.1]
+[wt 0.5]
+[se ad8]
+[wait se ad8]
+[scene 10310 0]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+……部屋に到着しましたね。[r]先輩、お疲れさまでした。
+[k]
+
+？1：マシュこそお疲れさま
+
+＠マシュ
+いえ。わたしはデミ・サーヴァントですから。[r]体力的な問題はありません。
+[k]
+
+[charaFace A 12]
+＠マシュ
+魔力の減少や疲弊はあるので……[r]疲れている……と、言えるのかもしれないですね。
+[k]
+
+？2：大丈夫、そんなに疲れてない
+
+[charaFace A 3]
+＠マシュ
+ええと、その……[r]すみません。慣用句としての言葉ですから。
+[k]
+
+[charaFace A 13]
+＠マシュ
+それに、先輩は疲れていると思います。[r]部屋でゆっくり休んでください。
+[k]
+
+？！
+
+[charaFace A 8]
+＠マシュ
+……………あの。[r]すみません、どうしても話したい事があって。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……先輩は、ソロモンの話をどう思いましたか？[r]人類を有効利用してやる、というくだりです。
+[k]
+
+？1：ふざけてる。
+
+？2：……マシュはどう思った[&んだ:の]？
+
+？！
+
+[charaFace A 4]
+＠マシュ
+わたしは……[r]わたしは、否定できませんでした。
+[k]
+
+＠マシュ
+自分でもわからないんです。[r]でも、あの言葉には無視できないものがあって……
+[k]
+
+＠マシュ
+命は無意味で、未来には救いがない……[r]そんな悲観的な主観を、彼は希望的に語っていた。
+[k]
+
+[charaFace A 8]
+＠マシュ
+…………申し訳ありません。[r]戦いはこれからなのに、妙な事を口にしてしまって。
+[k]
+
+[charaFace A 13]
+＠マシュ
+おやすみなさい、マスター。[r]また明日、元気な顔を見せてください。
+[k]
+
+[messageOff]
+[charaFadeout A 0]
+
+
+[wait fade]
+[fadeout black 1]
+
+[scene 10000 1]
+
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[soundStopAll]
+
+[fadein black 1]
+[wait fade]
+
+
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[end]

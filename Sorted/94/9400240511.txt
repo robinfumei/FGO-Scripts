@@ -1,0 +1,68 @@
+＄94-00-24-05-1-1
+
+
+[charaSet D 7010001 1 カリギュラ]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 10420]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+[wt 2.0]
+
+＠カリギュラ
+[line 3]故にこそ。
+[k]
+
+＠カリギュラ
+僅かな愛の残滓を信ずるからこそ。[r]反英雄に相応しき身で、英霊として在るからこそ。
+[k]
+
+＠カリギュラ
+余は、狂気なる叫びの中に[r]せめてもの想いを込める。
+[k]
+
+＠カリギュラ
+あまりにささやかではあるが……[r]これこそが、余の、呪われし運命への抵抗である。
+[k]
+
+[charaFace D 1]
+＠カリギュラ
+……[%1]よ。[r]この余でさえそうなのだ。
+[k]
+
+＠カリギュラ
+ならば、愛を知るヒトが堕ちるはずがない。
+[k]
+
+＠カリギュラ
+信じているぞ。歩み続ける子よ。
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad60]
+[wt 1.0]
+[seStop ad60 1.0]
+[wt 1.0]
+
+[se ad8]
+[wt 2.0]
+[se ad8]
+[seStop ad8 1.0]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 1.0]
+[soundStopAll]
+[end]
+
+

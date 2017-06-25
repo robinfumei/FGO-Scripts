@@ -1,0 +1,537 @@
+＄94-00-61-08-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 3001001 1 クー・フーリン]
+[charaSet B 5025001 1 エジソン]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 2026000 1 アルトリア]
+[charaSet E 98100400 1 マシュ]
+[charaSet F 98101600 1 魔猪]
+[charaSet G 98101600 1 魔猪2]
+[charaSet H 98101600 1 魔猪3]
+
+[scene 30800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+なんで……オレまで……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[wt 0.1]
+＠エジソン
+君はともかく……私は関係ないと思うのだが……。[r]ぐへえ。[charaFadeout B 0.4][wt 0.3][shake 0.05 0 4 0.4][se ad144]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠スカサハ
+では軽い運動でエンジンも温まったところで、[r]行くとするか！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠アルトリア
+そうですね！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+おい、ライオンのオッサン。[r]出発だぞ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[wt 0.1]
+[charaFace B 4]
+[charaFadein B 0.7 0]
+＠エジソン
+筋力Ｅランクの私に、[r]この運動は辛いと思うのだが……。
+[k]
+
+[charaFace A 4]
+＠クー・フーリン
+おまえさん、そんな立派な図体してるのに……。
+[k]
+
+[charaFace B 1]
+＠エジソン
+理系だからネ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[wipeout rightToLeft 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[scene 20700]
+[wt 0.7]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+[wt 0.2]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+＠スカサハ
+……む。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 15]
+[charaFadein E 0.1 1]
+＠マシュ
+これは……。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.5 0.5]
+[wait wipe]
+[fadeout black 0.1]
+[wait fade]
+[wipein rectangleStripRightToLeft 0.1 0.5]
+[wait wipe]
+[charaFadeout E 0.1]
+[charaTalk off]
+[charaFadein F 0.1 0,-170]
+[charaFadein G 0.1 -300,-170]
+[charaFadein H 0.1 300,-170]
+[wipeFilter cinema 0.5 0]
+[charaScale F 0.5]
+[charaScale G 0.5]
+[charaScale H 0.5]
+[cameraMove 0.1 150,0 1.5]
+[wt 0.5]
+[fadein black 0.5]
+[wait fade]
+
+[wt 1.5]
+[cameraMove 2.0 -150,0 1.5]
+[wt 4.0]
+
+[fadeout black 0.5]
+[wait fade]
+[wipeOff]
+[wipeout rectangleStripRightToLeft 0.1 0.5]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[cameraMove 0.1 0,0 1.0]
+[wt 0.5]
+[wipein rectangleStripRightToLeft 0.1 0.5]
+[wait wipe]
+
+[wt 0.2]
+[charaTalk on]
+[charaTalk D]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠アルトリア
+スカサハ。どうやら貴女の推測とやらが[r]当たったようですね。
+[k]
+
+＠アルトリア
+この数は尋常ではない。[r]間違いなく、この先に何かがあるという証拠。
+[k]
+
+＠スカサハ
+うむ。しかしだだっ広い荒野というのは[r]人数的に不利だな。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaSet F 4024000 1 モードレッド]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠モードレッド
+ハン。こんなの楽勝だろ。
+[k]
+
+＠モードレッド
+オレが突撃して正面を食い破って、[r]その間にマスターとマシュを抜けさせりゃいい。
+[k]
+
+[charaFace F 1]
+＠モードレッド
+後は残りの連中でこいつらをぶちのめすだけだ。[r]簡単じゃん！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠アルトリア
+……モードレッドの案で行きましょう。[r]スカサハ。貴女がついていってください。
+[k]
+
+[charaSet G 3025000 1 清姫]
+
+＠スカサハ
+他の者は？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+[charaSet B 2025100 1 メアリー]
+[wt 0.4]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠清姫
+[#愛しい旦那様:まいますたぁ]と離れるのは心苦しいですが、[r]致し方ありません。
+[k]
+
+[charaFace G 1]
+＠清姫
+でも、帰ってきたら目一杯可愛がって貰いますから！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaSet A 2025200 1 アン]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠メアリー
+ん、了解。大丈夫、そういう時間稼ぎは生きてる頃から[r]割と得意だからね。
+[k]
+
+[charaSet G 9004000 1 マルタ]
+
+＠アン
+そうですわね。ま、今回は逃げるような人たちじゃないし、[r]頼もしい限りです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaSet E 5027000 1 マリー]
+
+[charaTalk G]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠マルタ
+ええ。この魔猪たちを一斉に改心させますので、[r]あなたたちは突っ走りなさい。
+[k]
+
+＠マリー
+そうですわね。可愛いあの子たちのためにも、[r][%1]さんとマシュ、がんばってくださいね！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaSet A 3024000 1 玉藻の前]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠玉藻の前
+タマモ的に、こういう守戦はどうも苦手なのですが……[r]ええい、[charaFace A 0][#佳:よ]い女とはこういう時こそ本領発揮！
+[k]
+
+[charaFace A 1]
+＠玉藻の前
+さ、マスター。[r]どうぞガツンと殴り込みに行ってらっしゃいまし！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠モードレッド
+なーに、心配すんな！[r]バ……スカサハお姉さんなら大丈夫だってきっと絶対！
+[k]
+
+[charaFace F 4]
+＠モードレッド
+（ギリセーフ！　ギリセーフ！）
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠スカサハ
+（アウト）
+[k]
+
+[charaFadeout C 0.1]
+
+[charaSet A 3001001 1 クー・フーリン]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+どうもこの島だと貧乏くじ引いてる感じするな、オレ！[r]まあ[charaFace A 1]いいや、そら行ってこい行ってこい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet B 5025001 1 エジソン]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠エジソン
+私は……君たちについていこう。[r]元々、この面子では役に立たなそうだしな。
+[k]
+
+[charaFace B 1]
+＠エジソン
+むしろ、聖杯を探す方で役に立って見せよう！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠モードレッド
+よーし、決まりだ！[r]それじゃ、オレの宝具で突破口を開くぜ！
+[k]
+
+[bgmStop BGM_EVENT_4 0.7]
+
+[se ad39]
+[charaEffect F bit_talk_36]
+[charaFace F 2]
+＠モードレッド
+宝具展開[line 3]『[#逆巻く波濤を制する王様気分:プリドゥエン・チューブライディング]！』
+[k]
+
+[charaFadeout F 0.1]
+
+[charaEffectStop F bit_talk_36]
+[wt 0.4]
+[messageOff]
+[wt 0.1]
+[flashin once 0.5 2.5 4FB5DDAF 4FB5DD00]
+[wt 0.1]
+[effect bit_talk_yume01]
+[se ad36]
+[shake 0.05 0 4 0.4]
+[wt 0.05]
+[se bac69]
+[seVolume bac69 0 0.5]
+[wt 0.95]
+[effectStop bit_talk_yume01]
+[wt 2.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠モードレッド
+いよし！[r]道を拓いたぞ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠アルトリア
+さあ、行ってくださいマスター！[r]ここは我々が引き受けます！
+[k]
+
+[charaSet E 98100400 1 マシュ]
+
+？1：突破するぞ！
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠マシュ
+了解です、マスター！[r]マシュ・キリエライト[line 3]突撃します！
+[k]
+
+[charaFadeout E 0.1]
+
+？2：ありがとう、みんな！
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠モードレッド
+いいってことよ！[r]そらそら、行ってきな！
+[k]
+
+＠マルタ
+ガツンとぶちかましてきなさい！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠スカサハ
+よし、どんどん進むぞ！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 0.3]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+
+[charaSet E 98100400 1 マシュ]
+[charaTalk E]
+[se bac60]
+[seVolume bac60 0 0.5]
+[wait se bac60]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠マシュ
+後ろから宝具の音が……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.7 1]
+＠エジソン
+派手にやっている、ということだな！[r]ひぃ、ひぃ……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+＠スカサハ
+エジソン、遅いぞ！
+[k]
+
+＠エジソン
+す、すまない。[r]私は敏捷もＥランクなのでな……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 12]
+[charaFadein E 0.1 2]
+＠マシュ
+耐久はＥＸでは？
+[k]
+
+＠エジソン
+あれは『発明のためなら何日の徹夜にも耐えられる』[r]という意味合いでのＥＸランクなのだ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein C 0.1 2]
+＠スカサハ
+つまりマラソンを走りきる体力はない訳か……！[r]ともかく[charaFace E 5]急げ！
+[k]
+
+＠エジソン
+わ、分かっているとも！[r]ひぃ、ひぃ、ひぃ……！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠エジソン
+くそ、体力のない人間の補助をするパワードスーツとか、[r]今度発明することにしよう！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠スカサハ
+巨大魔猪だ！　迅速に仕留めるぞ！[r]今の我々には、もたついている暇がない！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

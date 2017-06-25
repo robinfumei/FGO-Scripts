@@ -1,0 +1,110 @@
+＄01-00-03-13-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21400 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 2012001 1 エウリュアレ]
+[charaSet C 7001001 1 ヘラクレス]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2005001 1 アタランテ]
+[charaSet F 2006000 1 ダビデ]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0 0]
+[charaFace A 2]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+これで、どうだ……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ドレイク
+押し込めええええええええっ！
+[k]
+
+[se bac21]
+[wt 0.2]
+[se bac21]
+[wt 0.3]
+[voice 700100_0_B100]
+[charaFace C 2]
+＠ヘラクレス
+[image berserker_language_2][line 4]！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ダビデ
+よし、触れたぞ！
+[k]
+
+[se ad39]
+[charaEffect C bit_talk_21]
+[shake 0.05 0 10 0]
+[wt 2]
+[charaFadeout C 0.1]
+[se bac18]
+[charaEffectStop C]
+[fadeout white 0.1]
+[wait charaEffect C bit_talk_21]
+[charaFadeout F 0.1]
+[wait fade]
+[scene 21400]
+[charaFace A 7]
+[shakeStop]
+[charaFadein A 0.1 1]
+[fadein white 0.5]
+[wt 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait fade]
+＠マシュ
+……ヘラクレスを、倒しました。[r]いえ、今のは死んだというより消えた、のですね。
+[k]
+
+[charaFace A 13]
+＠マシュ
+正直、信じられません。[r]マスター、大丈夫ですか！？
+[k]
+
+？1：大丈夫
+
+？2：死ぬかと思った
+
+？！
+
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+＠エウリュアレ
+……気が気でなかったわね。[r]まあでも、野蛮なだけの勇者ではなく。
+[k]
+
+[charaFace B 1]
+＠エウリュアレ
+自分の弱さを知って、出来得るだけのことをした。[r]立派な振る舞いだったわよ、マスター。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ドレイク
+さあ、残るはあのいけ好かないイアソンだ。[r]この海を解放するために、行くよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

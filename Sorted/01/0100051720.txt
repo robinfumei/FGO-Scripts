@@ -1,0 +1,118 @@
+
+＄01-00-05-17-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 99360000 1 兵士]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+[se bac22]
+[wt 1.0]
+[seStop bac21]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 2]終わりました！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ラーマ
+……先遣隊でこの規模か。[r]向こうも南軍が要と見て、精鋭を送ってきたと見える。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+[wt 0.5]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+[se ad16]
+[wt 2.0]
+[seStop ad16 0.5]
+[wipeout rightToLeft 0.5 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+[wt 0.5]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+
+＠ラーマ
+そのようだな。
+[k]
+
+[charaFace B 2]
+＠ラーマ
+本格的な激突までは後わずかだ。[r]全員、気を抜くなよ！
+[k]
+
+[messageOff]
+
+[se ad66]
+[wt 1.0]
+[seStop ad66 1.5]
+[wt 2.5]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[se ad13]
+[communicationChara 98003003 1 5 0 1]
+[wt 0.3]
+＠Dr.ロマン
+さすがコサラの王。[r]どんな姿であれ、絶大なカリスマ性だね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ラーマ
+褒められていると思っていいのか、[r]複雑だな……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[messageOff]
+
+[charaTalk A]
+[se ad19]
+[wt 2.0]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+＠ラーマ
+今度はワイバーンか。[r]よし、[charaFace B 2]マスター……叩き潰すぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

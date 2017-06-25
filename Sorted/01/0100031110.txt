@@ -1,0 +1,328 @@
+＄01-00-03-11-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21330 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2012001 1 エウリュアレ]
+[charaSet F 2009102 1 オリオン]
+[charaSet G 2009201 1 アルテミス]
+[charaSet H 98018100 1 海賊]
+[charaTalk H]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFadein H 0 2]
+[fadein black 1]
+[wait fade]
+＠海賊
+付近に船近影、ありません。
+[k]
+
+＠ドレイク
+……そうか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠エウリュアレ
+……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……マスター。[r]これから先、どうすればいいと思います？
+[k]
+
+？1：『[#契約の箱:アーク]』について
+
+？2：彼らが欲しいものを奪取する
+
+？！
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ドレイク
+その『[#契約の箱:アーク]』ってどんなだい？
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドクター、説明を。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+……『[#契約の箱:アーク]』とは、古代イスラエルの指導者[r]モーセが神から授かった十戒を封じた箱のことだ。
+[k]
+
+＠Dr.ロマン
+歴史的な側面から考えると、[r]真性の聖杯に匹敵する聖遺物だろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ドレイク
+……むぅ。財宝として価値があるんじゃないのかい。[r]そりゃ残念だ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+イアソンたちアルゴノーツは、それを探している。[r]彼は確かにそう言っていました。
+[k]
+
+[charaFace A 14]
+＠マシュ
+黒髭氏が消滅しても特異点は消え去りません。
+[k]
+
+[charaFace A 7]
+＠マシュ
+となると、アルゴノーツの船長であるイアソンが[r]特異点と見るべきでしょう。
+[k]
+
+＠マシュ
+……先んじてアークを奪うべきでしょうか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠オリオン
+『[#契約の箱:アーク]』……ねえ。[r]そんなもん、何をどうやって使う気なんだ？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+……わからない。ボクにはさっぱりだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+＠アルテミス
+ちょっとぉ。貴方、現場にいないんだから[r]こういうときに役立ってもらわないとぉ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+……ああゴメン、そういう意味で言ったんじゃない。
+[k]
+
+＠Dr.ロマン
+ボクにはアークを使う、なんて[r]考えそのものが意味不明だったんだ。
+[k]
+
+？1：考えそのものが意味不明……？
+
+？2：アークって使い途がないの？
+
+？！
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+[#曰:いわ]く、[#十戒:じっかい]が封じられている。[r]開いた者に罰をもたらす。
+[k]
+
+＠Dr.ロマン
+ようは“開けてはならない”系の逸話だ。[r]ギリシャにあるパンドラの箱と同じだよ。
+[k]
+
+＠Dr.ロマン
+そんなものを探して何をしようっていうのか、[r]その愚かな考えがボクにはわからないってコト。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠マシュ
+……なるほど。[r]ドクターは最悪の結末を想像するのが怖いのですね。
+[k]
+
+＠アルテミス
+小心者ね。それとも頭が良すぎるのかしら。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+む……小心者なのは認めるけど……[r]キミたちはアークの伝説を知らないから気楽なんだぞ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ドレイク
+はいはい、ケンカはそこまで。なんであれ、そのアークっ[r]てのを探した方がいいのは間違いないんだろ？
+[k]
+
+＠ドレイク
+ならさっさと手に入れよう。[r]いざとなりゃあ嫌がらせにブッ壊してしまえばいい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+船長、ボクの話を聞いていたかい？[r]『[#契約の箱:アーク]』は壊したり開けたりすると発動するものだ。
+[k]
+
+＠Dr.ロマン
+その効果は、まあ、神の罰だからね。[r]最悪、周囲一帯不毛の世界になるかもだよ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ドレイク
+なんだいそりゃ。なんだってそんな物騒なもん持ってんだ[r]昔の王様は！　みんなまとめて阿呆なのかい!?
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そんなの、ボクに言われたって困る！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠マシュ
+……わたしも『[#契約の箱:アーク]』を手に入れる、[r]という提案には賛成ですけど。
+[k]
+
+[charaFace A 12]
+＠マシュ
+その……アルゴノーツとどう戦えばいいのか。[r]いえ、より端的に言えばヘラクレスとどう戦うべきか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠エウリュアレ
+ヘラクレス……バーサーカーになっていても、[r]大英雄としての力は決して損なわれていなかった。
+[k]
+
+[charaFace E 0]
+＠エウリュアレ
+アステリオスが抑えこんでいたから、[r]私たちは無事に逃げ出せたようなものだし。
+[k]
+
+[charaFace E 4]
+＠エウリュアレ
+……彼は死んだみたいね。
+[k]
+
+[charaFace A 4]
+＠マシュ
+……はい、恐らくは。
+[k]
+
+＠エウリュアレ
+[line 2]なんて愚かなんでしょうね。[r]あれは、私たちが彼の名を呼んだ。ただそれだけで[line 2]
+[k]
+
+＠エウリュアレ
+ただそれだけで、死んでもいいとすら思ったみたい。[r][#怪物:ミノタウロス]ではなく、[#雷光:アステリオス]と呼んだ。
+[k]
+
+[charaFace E 4]
+＠エウリュアレ
+彼が死を賭して私たちを護った理由は……[r]本当に、ただそれだけだったのよ。
+[k]
+
+[charaFace A 0]
+？1：彼に後悔はなかった
+
+？2：彼がいなければ全滅していた
+
+？！
+
+[charaFace E 4]
+＠エウリュアレ
+……かもね。でも、いっそあそこで綺麗さっぱり[r]全滅していた方が良かったのかも。
+[k]
+
+＠エウリュアレ
+アステリオスは死に、ヘラクレスは生きている。[r]ただそれだけで、絶望はこれほど深い。
+[k]
+
+[charaFace E 5]
+＠エウリュアレ
+はぁ、もう。こういう時に限って[r]あの[#駄妹:メドゥーサ]は召喚されてなさそうだし！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ドレイク
+ヘラクレスのヤツ、[r]あと十回くらい死ななきゃいけないんだっけ？
+[k]
+
+[charaFace A 7]
+＠マシュ
+十一回です。ただ、もしかすると最後槍に[r]貫かれた際に一度死んでいるかもしれません。
+[k]
+
+[charaFace A 8]
+＠マシュ
+その場合は十回ですが……大して変わりはないですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein H 0.1 2]
+＠海賊
+姐御。考え中の所すいません。[r]幽霊船が現れました！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 5]
+＠ドレイク
+ああん？　しょうがない、八つ当たりに[r]倒してやるとするか！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

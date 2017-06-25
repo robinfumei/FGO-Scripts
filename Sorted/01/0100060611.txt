@@ -1,0 +1,258 @@
+＄01-00-06-06-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98015000 1 ？？？]
+
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+いてぇ……いてぇ……！[r]ちくしょう、ちくしょう[line 3]
+[k]
+
+＠？？？
+せっかく、上等な肉にありつけると思ったのによぉ……[r]クソが、クソどもが……
+[k]
+
+＠？？？
+なんでおとなしく殺されねぇんだ、[r]クソどもがぁ！
+[k]
+
+[charaFadeout E 0.7]
+[se ad60]
+[seStop ad60 1.5]
+[wt 2.0]
+
+？1：………………
+
+？！
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……戦闘、終了しました。[r]可能なかぎり峰打ちを行ったのですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+痛みで逃げ出したものが大半、[r]それでも襲ってきたものが一割、か。
+[k]
+
+＠ダ・ヴィンチ
+考える頭を持ちながら、自分を止める方法が[r]『死』以外になくなってしまうとこうなる。
+[k]
+
+[bgmStop BGM_EVENT_5 2.0]
+＠ダ・ヴィンチ
+そんなのを相手にするなら、[r]こっちも非情になってしまうものだが[line 3]
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+恐れ[bgm BGM_EVENT_6 0.5]入ったよ、[%1][&君:ちゃん]。[r]結局、死傷者はひとりもなしだ。
+[k]
+
+＠ダ・ヴィンチ
+みんな、悶絶しているけどね。
+[k]
+
+？1：……すみません
+？2：……結果論です
+
+？！
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+なに、そういった心の余裕があるのなら、[r]それはそれで大きな事だ。叱ることじゃない。
+[k]
+
+＠ダ・ヴィンチ
+でも、すぐに移動しないとね。[r]他に仲間がいるともかぎらないし。
+[k]
+
+？1：ところで、食料を置いていっても？
+？2：水とかまだ余裕ありましたよね？
+
+？！
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+！　だそうだ、どう思うマシュちゃん？[r]私は反対だけど、キミは？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、賛成に一票です！[r]二対一で先輩の勝ちですね、ダ・ヴィンチちゃん！
+[k]
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+いいだろう、ほんっとーに単なる気休めだが、[r]たった一口の水が人生の光になる事もある！
+[k]
+
+＠ダ・ヴィンチ
+持っていきたまえ、心を失った諸君！
+[k]
+
+＠ダ・ヴィンチ
+明日には忘れるだろうが、なに、[r]たった半日ばかりの[#蘇生:リアライズ]という事さ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[se ad7]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+ぁ……やったぁ！[r]水だ、水だぁ[line 3]！
+[k]
+
+＠？？？
+どけ、オレのだ、それはオレのだ……！[r]オレがいちばん働いたんだ！　テメェらはその後だ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+よし、撤収！[r]今のうちにスピンクス号に乗り込みなさい！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ！
+[k]
+
+[charaAttack C normal 50,0 0.7]
+[charaFadeout C 0.4]
+[wt 1.0]
+
+[se bac109]
+[shake 0.05 2 2 0.2]
+[wt 0.2]
+[se ad14]
+[wt 1.0]
+[seStop ad14 4.0]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠？？？
+………………。[r]…………………………待ちな。
+[k]
+
+＠？？？
+アンタら、東に行くのか。[r]……まさか、聖都に？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ああ。その[#聖都]に行くのさ。[r]何か問題でも？　ここで唯一の都なんだろう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+……ああ、そうだ。聖都は唯一の街だ。[r]何でもある夢の国だ。
+[k]
+
+＠？？？
+世界を焼き尽くそうとした十字軍を[r]皆殺しにした、偉大な獅子王がいる街だ……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+（……やっぱり十字軍は全滅していたか……[r]　でも、サラセン人たちも追い出されている……？）
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+（しかもまた獅子王……てっきり太陽王の妄言だと[r]　思ったけど実在するらしい……）
+[k]
+
+＠ダ・ヴィンチ
+（でも獅子王って言ったら……[r]　むむう、ますますこんがらがってきたぞ？）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+……気をつけな。[r]綺麗なものほど怖ろしい……
+[k]
+
+＠？？？
+……壁には近づくな。[r]死にたくなかったら、砂漠に戻るんだな！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 0.7]
+[charaFace A 13]
+＠マシュ
+はい……！[r]助言、ありがとうございます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ[line 2]ウ！
+[k]
+
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_6 1.4]
+[wait fade]
+[wt 0.2]
+[soundStopAll]
+[end]

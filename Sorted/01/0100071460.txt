@@ -1,0 +1,1302 @@
+
+
+
+＄01-00-07-14-6-0
+[soundStopAll]
+[voice NP_100100_1]
+[voiceStop NP_100100_1 0]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98108200 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5018001 1 ギルガメッシュ]
+[charaSet E 98104300 1 エレシュキガル]
+[charaSet F 98104300 1 エレシュキガルB]
+[charaSet G 98104300 1 エレシュキガルC]
+[charaSet H 98104300 1 エレシュキガルD]
+
+[bgm BGM_EVENT_7 0.1]
+[effect bit_sepia01]
+
+
+[scene 33800]
+[fadein black 1.5]
+[wait fade]
+
+[flashin once 0.4 0.4 FFFFFFAF FFFFFF00]
+[se ad65]
+[wt 1.0]
+
+[charaScale B 0.76]
+[se ad235]
+[seVolume ad235 0 0.5]
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 0,-80]
+[charaShake B 0.01 30 0 0.4]
+[wt 1.0]
+
+[wipeOff]
+[wipeout windmill 0.4 1]
+[wait wipe]
+[seStop ad235 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[scene 33900]
+
+[wipein windmill 0.4 1]
+[wait wipe]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShake D 0.1 0 10 0.7]
+[se ad234]
+[seVolume ad234 0 0.3]
+[wt 1.0]
+[seStop ad234 0.1]
+[charaFadeout D 0.1]
+[wt 0.4]
+[charaScale B 0.76]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-80]
+[charaShake B 0.01 10 10 0.4]
+[se ad235]
+[seVolume ad235 0 0.5]
+[wt 1.0]
+[seStop ad235 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+[charaShake A 0.1 0 10 0.7]
+[se ad235]
+[seVolume ad235 0 0.5]
+[wt 1.0]
+[seStop ad235 0.1]
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaShake D 0.1 0 10 0.7]
+[se ad234]
+[seVolume ad234 0 0.3]
+[wt 1.0]
+[seStop ad234 0.1]
+[charaTalk A]
+[charaShake A 0.1 10 0 0.7]
+[se ad235]
+[seVolume ad235 0 0.5]
+[wt 1.0]
+[seStop ad235 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaShake D 0.1 10 0 0.7]
+[se ad234]
+[seVolume ad234 0 0.3]
+[wt 1.0]
+[seStop ad234 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0,-80]
+[charaShake B 0.01 10 10 0.4]
+[se ad235]
+[seVolume ad235 0 0.5]
+[wt 1.0]
+[seStop ad235 0.1]
+[charaFadeout B 0.1]
+[messageOff]
+[wipeOff]
+[wipeout windmill 0.4 1]
+[wait wipe]
+[scene 33800]
+[charaFadeout A 0.1]
+[wt 0.1]
+[wipein windmill 0.4 1]
+[wait wipe]
+
+[flashin once 0.4 0.4 FFFFFFAF FFFFFF00]
+[se ad65]
+[wt 1.0]
+
+
+[charaScale B 0.64]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 0,-100]
+[charaShake B 0.01 30 0 0.4]
+[se ad235]
+[seVolume ad235 0 0.5]
+[wt 1.0]
+[seStop ad235 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+[se ad234]
+[seVolume ad234 0 0.3]
+[wt 2.3]
+[seStop ad234 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.4]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0,-100]
+[charaShake B 0.01 10 10 0.4]
+[se ad235]
+[seVolume ad235 0 0.5]
+[wt 1.0]
+[seStop ad235 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[wipeOff]
+[messageOff]
+[wipeout windmill 0.4 1]
+[wait wipe]
+[wt 0.7]
+[scene 33900]
+[wipein windmill 0.4 1]
+[wait wipe]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0,-100]
+[charaShake B 0.01 0 10 0.4]
+[se ad235]
+[seVolume ad235 0 0.5]
+[wt 1.0]
+[seStop ad235 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[charaShake A 0.1 10 0 0.7]
+[se ad235]
+[seVolume ad235 0 0.5]
+[wt 1.0]
+[seStop ad235 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.0]
+[fadeout black 1.5]
+[wait fade]
+[wipeOff]
+[scene 33800]
+[effectStop bit_sepia01]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaScale B 0.52]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.4 0,-120]
+
+＠イシュタル
+うう、ついに手のひらサイズに……[r]情けなくて涙も出てこないわ……
+[k]
+
+＠イシュタル
+シュメルの神々、いえメソポタミア世界の全神話において、[r]こんな目に遭ったの私だけじゃないかしら……！
+[k]
+
+？1：これを機に少しお淑やかになるのは？
+
+[charaFace B 3]
+＠イシュタル
+そうね……とりあえず浪費癖を改めるわ……[r]あとみんなに気持ち、優しくする……
+[k]
+
+＠イシュタル
+今回の件で弱いものの立場がちょっと分かったし……
+[k]
+
+＠イシュタル
+守ってもらえるのって、[r]素直に嬉しい事だって分かったし……
+[k]
+
+？2：エレシュキガルを倒せば元に戻るのでは？
+
+[charaFace B 11]
+＠イシュタル
+だといいけど。アイツの事だから、自分の命と[r]引き替えにしても、私をこのままにしそうで怖いわ……
+[k]
+
+[charaFace B 4]
+＠イシュタル
+そうなったら世界を道連れにして滅びるしかないわね……[r]あ、でもバビロンの宝物庫をぜんぶ貰えるんだから、
+[k]
+
+＠イシュタル
+使い切ってから自爆しないと勿体ないか……[r]何万年かかるのかしら……
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+これ。そこの、無駄話をしている場合か。
+[k]
+
+[charaFace D 0]
+＠ギルガメッシュ
+七つの門はすべて踏破した。[r]この先にある広間がエレシュキガルの宮殿だ。
+[k]
+
+＠ギルガメッシュ
+エレシュキガルは『三女神同盟』の一柱。[r]どうあれ倒さねばならぬ相手だ。
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]が手を貸す以上、勝利は確実。[r]それは良い。だが……
+[k]
+
+[charaFace D 5]
+＠ギルガメッシュ
+倒した後、ヤツをどうするかは[%1]に[r]一任する。女神の処遇、よく考えておけよ。
+[k]
+
+[wt 0.1]
+[bgmStop BGM_EVENT_5 1.0]
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+[scene 33400]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+
+＠マシュ
+ここが……冥界の宮殿……。[r]あの……これは、ただの荒野です。
+[k]
+
+＠マシュ
+これが宮殿だとしたら、あまりにも[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+それが冥界というものだ。[r]ここには華美なものなど、何一つとして存在しない。
+[k]
+
+＠ギルガメッシュ
+そうであろう、エレシュキガル？[r]暗黒のソラを眺める、ガルラ霊たちの女王よ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+＠？？？
+……知ったような口を叩くのね。[r]たかだか半神の王風情が。
+[k]
+
+[bgm BGM_EVENT_24 0.1]
+[messageOff]
+[wipein uzumaki 0.7 1]
+[se ad39]
+[charaPut C 0,800]
+[charaPut A 0,-800]
+[charaPut B 800,0]
+[charaPut D -800,0]
+
+[charaEffect C bit_talk_40]
+[charaEffect A bit_talk_40]
+[charaEffect B bit_talk_40]
+[charaEffect D bit_talk_40]
+[charaMove C 0,100 1.5]
+[charaMove A 0,100 1.5]
+[charaMove B 0,100 1.5]
+[charaMove D 0,100 1.5]
+[fadeout white 1.5]
+[wait charaMove C]
+[wt 0.1]
+[charaPut C 2000,0]
+[charaPut A 2000,0]
+[charaPut B 2000,0]
+[charaPut D 2000,0]
+[charaEffectStop C bit_talk_40]
+[charaEffectStop A bit_talk_40]
+[charaEffectStop B bit_talk_40]
+[charaEffectStop D bit_talk_40]
+
+[effect bit_talk_diremond_dust]
+
+[charaTalk depthOff]
+[charaTalk off]
+[charaDepth E 0]
+[charaDepth F 1]
+[charaDepth G 2]
+[charaDepth H 3]
+[charaFadein E 0.4 1]
+[charaPut F 0,0]
+[charaPut G 0,0]
+[charaPut H 0,0]
+[charaFilter F silhouette 4B008280]
+[charaFilter G silhouette 19197080]
+[charaFadeTime F 0 0.5]
+[charaFadeTime G 0 0.8]
+[charaFadeTime H 0 0.3]
+[wait wipe]
+
+[wt 0.7]
+[fadein white 1.0]
+[wait fade]
+
+＠エレシュキガル
+恐れよ。祈れ。絶望するがいい、人間ども。
+[k]
+
+＠エレシュキガル
+我こそ死の管理者。[r]冥界の女主人、霊峰を[#踏抱:ふみだ]く者[line 3]
+[k]
+
+＠エレシュキガル
+『三女神同盟』の一柱、エレシュキガルである。
+[k]
+
+[messageOff]
+[charaPut E 1000,0]
+[charaPut F 1000,0]
+[charaPut G 1000,0]
+[charaPut H 1000,0]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk depthOn]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+あれが女神エレシュキガル……！[r]凄まじい悪寒です、マスター……！
+[k]
+
+＠マシュ
+大気温度は変わっていないのに、[r]体感温度が急速に低下していきます……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+こちらの計測では、いまそちらの大気状態は……[r]バカな、気圧500[#hPa:ヘクトパスカル]だって！？
+[k]
+
+＠Dr.ロマン
+高度5000メートル以上の山頂に匹敵している！[r]そこは寒いんじゃない！　[#高い]んだ！
+[k]
+
+＠Dr.ロマン
+断熱冷却による気温低下だ、[r]おそらく今の気温マイナス６度！
+[k]
+
+＠Dr.ロマン
+生命活動の限界に近い！　このままでは[#減圧症:ベンズ]だけでなく、[r]肺胞が破裂する！
+[k]
+
+＠Dr.ロマン
+その前にエレシュキガルを倒すんだ、[r][%1]君！
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk depthOff]
+[charaTalk off]
+[charaFadein E 0.1 1]
+[charaFilter F silhouette 4B008280]
+[charaFilter G silhouette 19197080]
+[charaPut F 0,0]
+[charaPut G 0,0]
+[charaPut H 0,0]
+[charaFadeTime F 0.1 0.5]
+[charaFadeTime G 0.1 0.8]
+[charaFadeTime H 0.1 0.3]
+
+＠エレシュキガル
+……たわいのない。[r]我が姿を表しただけでその取り乱しよう。
+[k]
+
+＠エレシュキガル
+カルデアの司令官は臆病者のようだな。[r]これでは張り合いがないわ。
+[k]
+
+[messageOff]
+[charaPut E 1000,0]
+[charaPut F 1000,0]
+[charaPut G 1000,0]
+[charaPut H 1000,0]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk depthOn]
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 0,-120]
+
+＠イシュタル
+ハ。自分で御山の大将気取っておいて[r]それはないんじゃない？
+[k]
+
+＠イシュタル
+だいたい、アナタの姿を見て怖がらない[r]ヤツなんていないわよ。
+[k]
+
+＠イシュタル
+死と[#蛆:ウジ]と[#黴:カビ]と穢れ。[r]棺桶の中の空気がカタチになったような女。
+[k]
+
+＠イシュタル
+それがアナタでしょ、エレシュキガル。
+[k]
+
+＠イシュタル
+生きてる動物はみんな、[r]アナタを怖がるように出来ているのよ。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk depthOff]
+[charaTalk off]
+[charaFadein E 0.1 1]
+[charaFilter F silhouette 4B008280]
+[charaFilter G silhouette 19197080]
+[charaPut F 0,0]
+[charaPut G 0,0]
+[charaPut H 0,0]
+[charaFadeTime F 0.1 0.5]
+[charaFadeTime G 0.1 0.8]
+[charaFadeTime H 0.1 0.3]
+
+＠エレシュキガル
+ほう？　耳障りな羽音がするかと思えば、[r]憐れな女神がいるではないか。
+[k]
+
+＠エレシュキガル
+私の爪先にも満たぬ姿でよく鳴くものよ。[r]どれ、一息に[#摘:つま]んで潰してやろうか。
+[k]
+
+[messageOff]
+[charaPut E 1000,0]
+[charaPut F 1000,0]
+[charaPut G 1000,0]
+[charaPut H 1000,0]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk depthOn]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0,-120]
+
+＠イシュタル
+は、それが本音でしょ、みっともない！
+[k]
+
+＠イシュタル
+自分が醜いから美しいものを汚す。[r]誰も会いに来ないから霊峰の[#頂:いただき]に御座を置く。
+[k]
+
+＠イシュタル
+ぜんぶアンタの八つ当たりじゃない！[r]こんなのが私の半身なんてみっともないにも程があるわ！
+[k]
+
+[charaFace B 2]
+＠イシュタル
+ええ、殺したいのなら勝手にどうぞ！[r]その後、アンタはシュメルで一番[#醜:みにく]い女にランクインよ！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk depthOff]
+[charaTalk off]
+[charaFadein E 0.1 1]
+[charaFilter F silhouette 4B008280]
+[charaFilter G silhouette 19197080]
+[charaPut F 0,0]
+[charaPut G 0,0]
+[charaPut H 0,0]
+[charaFadeTime F 0.1 0.5]
+[charaFadeTime G 0.1 0.8]
+[charaFadeTime H 0.1 0.3]
+
+＠エレシュキガル
+……以前同様、口だけは達者な女神だ。[r]……よかろう。私が醜い、と言ったな。
+[k]
+
+＠エレシュキガル
+貴様らなどに姿を[#晒:さら]すのは[#酔狂:すいきょう]の極みだが、[r]侮辱されたまま、というのも女神の恥。
+[k]
+
+[bgmStop BGM_EVENT_24 1.0]
+＠エレシュキガル
+……特別に見せてやろう。[r]いえ、いいえ………いい加減、この言葉使いもうんざりよ！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠エレシュキガル
+特別に、見せてあげる！[r]驚きなさい、これが私の、女神としての真体よ[line 2]！
+[k]
+
+
+[messageOff]
+[se ad39]
+[charaEffect E bit_talk_17]
+[fadeout white 1.5]
+[wait fade]
+[effectStop bit_talk_diremond_dust]
+[wt 0.4]
+[charaChange E 99371100 1 blink 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wait charaChange E]
+[charaEffectStop E bit_talk_17]
+[se ad63]
+[charaEffect E bit_talk_40]
+[wt 1.5]
+[fadein white 1.5]
+[wt 0.15]
+[charaEffectStop E bit_talk_40]
+[wt 0.35]
+[bgmStop BGM_EVENT_3 1.5]
+[wait fade]
+
+[se ad229]
+[seVolume ad229 0 0.1]
+[wt 1.0]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+な、
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+おお！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 0,-120]
+＠イシュタル
+げ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+なんと！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠エレシュキガル
+ふふん、驚いたかしら？[r]驚いたみたいね？　驚いたようね！
+[k]
+
+＠エレシュキガル
+ガルラ霊の姿なんて、[r]仮の姿に決まってるじゃない！
+[k]
+
+＠エレシュキガル
+シュメルの神々にも見せなかった私の姿を[r]見て驚きなさい、[%1]！
+[k]
+
+？1：…………はあ
+？2：…………まあ
+
+？！
+
+[seStop ad229 0.3]
+[bgmStop BGM_EVENT_3 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace E 7]
+＠エレシュキガル
+な、なによその反応……[r]ものすっごくガッカリしてるじゃない……
+[k]
+
+＠エレシュキガル
+なんで？　これ王道のパターンよね？[r][&恋に落ちる:友人として憧れる]パターンよね？
+[k]
+
+＠エレシュキガル
+人間の本だとこれでいけるってあったわよね？[r]ロマンスの気配とかあるものじゃないの……？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+せ、先輩は驚かないのですか！？[r]女神エレシュキガルの姿は、その、
+[k]
+
+？1：だって知ってたし
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠エレシュキガル
+はあ！？[r]知ってたって、なんで！？
+[k]
+
+？1：会うのはこれで四度目だよね？
+
+
+？！
+[messageOff]
+[charaFace E 13]
+[wt 1.0]
+[charaFace E 11]
+＠エレシュキガル
+そ、そうだけど……もしかして、気付いてたの？
+[k]
+
+＠エレシュキガル
+夜にアナタと話していたのはそこの羽虫じゃなくて、[r]この私なんだって。
+[k]
+
+＠エレシュキガル
+でもどうやって？[r]どこで気がついたの、アナタ！？
+[k]
+
+？1：くしゃみで姿、変わってましたよ
+？2：もう最後には隠してもいませんでしたよ
+
+？！
+
+[charaFace E 12]
+＠エレシュキガル
+な……な……な……っ！
+[k]
+
+[charaShake E 0.05 2 2 0.4]
+＠エレシュキガル
+し、知ってて、あんな恥ずかしいコト？[r]アナタ相手に話してたの、私？
+[k]
+
+[charaShake E 0.05 4 4 0.7]
+[charaFace E 10]
+＠エレシュキガル
+い、い[line 3]いやぁあああああああ！[r]こんな筈じゃない、こんな筈じゃなかったのに[line 3]！
+[k]
+
+[charaShake E 0.05 5 0 0.7]
+[wt 0.7]
+[charaMove E 0,-150 0.4]
+[wait charaMove E]
+[se ad144]
+[charaFadeout E 0.4]
+[wt 0.1]
+[messageOff]
+[charaShakeStop E]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……女神エレシュキガル、頭を抱えて座り込みました。[r]今のうちに撃破しますか、マスター？
+[k]
+
+？1：残念だが仕方がない
+？2：もうちょっと様子を見よう
+
+？！
+[messageOff]
+[wait wipe]
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 0,-150]
+[se ad73]
+[charaMove E 0,0 0.1]
+[wait charaMove E]
+
+
+＠エレシュキガル
+いえ、そうはいかないわ！[r]予定は狂ったけど、それはそれ、これはこれ！
+[k]
+
+＠エレシュキガル
+アナタたちをここで殺す事に変更はありません。[r]ゴルゴーンがウルクを襲うまであと二日。
+[k]
+
+＠エレシュキガル
+その前に私がウルクを落として大杯を手に入れる。[r]それで、この世界の人間はおしまいよ。
+[k]
+
+＠エレシュキガル
+地上の人間は一人残らず冥界に囚われ、[r]私の所有物となる。
+[k]
+
+＠エレシュキガル
+それが私の選択。[r]女神エレシュキガルが選んだ、初めての自分の意思。
+[k]
+
+[charaFace E 5]
+＠エレシュキガル
+……[%1]。[r]その邪魔をするのなら、アナタでも容赦はしないわ。
+[k]
+
+？1：エレシュキガル……
+
+[charaFace E 4]
+＠エレシュキガル
+…………そんな顔しないで。[r]殺しづらくなるじゃない。
+[k]
+
+？2：エレちゃん……
+
+[charaFace E 11]
+＠エレシュキガル
+っ……！
+[k]
+
+[charaFace E 3]
+＠エレシュキガル
+と、とにかく覚悟なさい。[r]冥界に来た以上、すべては私の思うままなんだから。
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+すまぬな。横から邪魔をするぞエレシュキガル。[r]空気を読まぬ王を許すがよい。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠エレシュキガル
+……何よ。殺す気はなかったのに、[r]かってに過労死して冥界に来ちゃった王。
+[k]
+
+＠エレシュキガル
+アナタに用はないわ。冥界に来られても迷惑だから、[r]ゴルゴーンにでも殺されてなさい。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+くくく、中々の減らず口だ。[r]やはり似たもの同士よな。姉妹のようだぞ？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-120]
+
+＠イシュタル
+やめてよね！？[r]私、あんなに恥ずかしい乙女じゃないから！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠エレシュキガル
+私のどこが恥ずかしいというのだわ！[r]怖ろしい死の女神なんですけど！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+ウルクコントはまた後だ。[r]我らのいないところで存分にやるがよい。
+[k]
+
+[charaFace D 5]
+＠ギルガメッシュ
+エレシュキガルよ。[r]貴様はクタ市の都市神でありながら、『三女神同盟』に与した。
+[k]
+
+＠ギルガメッシュ
+その罪は他の女神どもなど比べものにならぬほど重い。
+[k]
+
+＠ギルガメッシュ
+我が身は今死者なれど、[r]王権の元に貴様を断罪する事もできる。
+[k]
+
+＠ギルガメッシュ
+侵略者は力で撃退するものだが、[r]同胞の裏切りは世界そのものが処断する。
+[k]
+
+＠ギルガメッシュ
+王権とはそういうものだ。[r]それは貴様も分かっていよう。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+
+＠エレシュキガル
+……ええ。ディンギルを得た王であれば、[r]全てと引き替えに神さえ処罰できる。
+[k]
+
+＠エレシュキガル
+それが私たちの世界のルールだもの。[r]で、それが？　命と引き替えに私を殺すの、アナタ？
+[k]
+
+[charaFadeout E 0.1]
+[bgmStop BGM_EVENT_5 0.7]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+……それも貴様の返答次第よ。[r]では問うぞ、女神エレシュキガル！
+[k]
+
+[bgm BGM_EVENT_24 0.1]
+[charaFace D 2]
+＠ギルガメッシュ
+貴様はなぜ女神同盟に荷担した！[r]シュメルの文化、シュメルの民を守る事を否定したか！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+
+＠エレシュキガル
+何を問うかと思えば！[r]見損なうな、ウルク王！
+[k]
+
+＠エレシュキガル
+我が責務、我が役割は何も変わらない！[r]私はエレシュキガル、冥界を任されたものだ……！
+[k]
+
+＠エレシュキガル
+すべての人間、すべての魂を冥界に納めるのが[r]我が存在意義にして、我が運命！
+[k]
+
+＠エレシュキガル
+それを全力で行う事に、何の後悔も自責もない！
+[k]
+
+＠エレシュキガル
+[#阻:はば]むというのなら貴様こそ、[r]我が神権によって滅びるがいい！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+ほう。見事な口上だ。[r]であれば、もはや貴様の罪は問うまい！
+[k]
+
+＠ギルガメッシュ
+ただその首を差し出すがいい！[r]敗北を以て貴様の過ちを断罪する！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠エレシュキガル
+望むところよ。[r]一切の[#呵責:かしゃく]なく、全員私の槍で串刺しにしてあげる。
+[k]
+
+[charaFace E 4]
+＠エレシュキガル
+……でも、その前に一つだけ質問するわ。[r][%1]。
+[k]
+
+＠エレシュキガル
+私は気の遠くなる時間、ここで死者の魂を管理してきた。[r]自分の楽しみも、喜びも、悲しみも、友人も[line 3]
+[k]
+
+＠エレシュキガル
+何もないまま、[r]自由気ままに天を[#翔:かけ]る自分の半身を眺めてきた。
+[k]
+
+＠エレシュキガル
+その私に罪を問うの？[r]今さら、魂を集めるのは間違っていると指さすの？
+[k]
+
+＠エレシュキガル
+ずっと一人で[line 3]この仕事をこなしてきた私の努力を、[r]誰も褒めてはくれないの？
+[k]
+
+
+[input selectBranch]
+[scene 33400]
+[seStop ad234 0.1]
+[seStop ad235 0.1]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98108200 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5018001 1 ギルガメッシュ]
+[charaSet E 99371100 1 エレシュキガル]
+[charaSet F 98104300 1 エレシュキガルB]
+[charaSet G 98104300 1 エレシュキガルC]
+[charaSet H 98104300 1 エレシュキガルD]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[messageOff]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+？1：エレシュキガルは、悪くない
+[charaFace E 1]
+＠エレシュキガル
+そうよね！[r]アナタなら分かってくれると思っていたわ！
+[k]
+
+＠エレシュキガル
+[line 3]ふ。ふふ。あははははははははは！[r]それならもう私に怖いものはない！
+[k]
+
+[charaEffect E bit_talk_36]
+[se ad39]
+＠エレシュキガル
+私は間違っていなかった！　たった一人でも[r]人間が賛同してくれるなら私は正義なんだもの！
+[k]
+
+[messageOff]
+
+[charaEffectStop E bit_talk_36]
+[se ad64]
+[charaFadeout E 0.1]
+[fadeout white 0.7]
+[wait fade]
+[charaSet E 98104300 1 エレシュキガル]
+[fadein white 0.7]
+[charaTalk depthOff]
+[charaTalk off]
+[charaDepth E 0]
+[charaDepth F 1]
+[charaDepth G 2]
+[charaDepth H 3]
+[charaFilter F silhouette 4B008280]
+[charaFilter G silhouette 19197080]
+[charaFadein E 0.4 1]
+[charaFadein F 0.4 1]
+[charaFadeTime F 0 0.5]
+[charaFadein G 0.4 1]
+[charaFadeTime G 0 0.8]
+[charaFadein H 0.4 1]
+[charaFadeTime H 0 0.3]
+[wait fade]
+[wt 0.4]
+[charaPut E 1000,0]
+[charaPut F 1000,0]
+[charaPut G 1000,0]
+[charaPut H 1000,0]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+女神エレシュキガル、[#変生:へんじょう]します……！[r]指示を、マスター！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk depthOff]
+[charaTalk off]
+[charaDepth E 0]
+[charaDepth F 1]
+[charaDepth G 2]
+[charaDepth H 3]
+[charaFilter F silhouette 4B008280]
+[charaFilter G silhouette 19197080]
+[charaPut F 0,0]
+[charaPut G 0,0]
+[charaPut H 0,0]
+[charaFadein E 0.1 1]
+[charaFadeTime F 0.1 0.5]
+[charaFadeTime G 0.1 0.8]
+[charaFadeTime H 0.1 0.3]
+
+
+＠エレシュキガル
+じゃあ殺すわ、まず殺すわ！[r]その後で私の話を聞いてください……！
+[k]
+
+＠エレシュキガル
+この世界でただ一人、私の『悪』を[r]肯定してしまった、アナタの負うべき責任として！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_24 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+？2：興味ない。それは、[&キミ:アナタ]が行うべき役割だ
+
+[charaFace E 4]
+＠エレシュキガル
+……え？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+分からぬか、たわけ。当たり前の事を褒めるほど、[r]その[&男:娘]は愚かではないという事だ。
+[k]
+
+＠ギルガメッシュ
+自らに与えられた責務。それを嘆く事はよい。[r]放棄して違う道を探す事もよい。
+[k]
+
+[charaFace D 5]
+＠ギルガメッシュ
+だが[line 3]逃げずにこなし続けた己が義務を[r][#卑下:ひげ]する事は悪であり、
+[k]
+
+＠ギルガメッシュ
+その苦しみを称賛する事は、[r]何より貴様自身への侮辱に他ならない！
+[k]
+
+＠ギルガメッシュ
+称賛されるべきは貴様のなした偉業！[r]貴様の心の苦しみは貴様だけのもの。
+[k]
+
+＠ギルガメッシュ
+他人である以上、貴様の傷は理解できない。[r]だがその仕事は[#尊敬:そんけい]に値する、と……
+[k]
+
+＠ギルガメッシュ
+[%1]は、おまえにそう言ったのだ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[messageOff]
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+[wt 1.0]
+
+[charaFace E 14]
+＠エレシュキガル
+[line 3]いいでしょう。[r]その傲慢な返答を後悔させてあげます。
+[k]
+
+[charaEffect E bit_talk_36]
+[se ad39]
+＠エレシュキガル
+私はエレシュキガル。[r]死の静寂を守り続けた、神々によって生贄にされた女神。
+[k]
+
+＠エレシュキガル
+この憎しみ、この苦しみ[line 3]取るに足りないといった[r]貴殿らに、しっかりと叩きつけさせてもらう！
+[k]
+
+[messageOff]
+
+[charaEffectStop E bit_talk_36]
+[se ad64]
+[charaFadeout E 0.1]
+[fadeout white 0.7]
+[wait fade]
+[charaSet E 98104300 1 エレシュキガル]
+[fadein white 0.7]
+[charaTalk depthOff]
+[charaTalk off]
+[charaDepth E 0]
+[charaDepth F 1]
+[charaDepth G 2]
+[charaDepth H 3]
+[charaFilter F silhouette 4B008280]
+[charaFilter G silhouette 19197080]
+[charaFadein E 0.4 1]
+[charaFadein F 0.4 1]
+[charaFadeTime F 0 0.5]
+[charaFadein G 0.4 1]
+[charaFadeTime G 0 0.8]
+[charaFadein H 0.4 1]
+[charaFadeTime H 0 0.3]
+[wait fade]
+[wt 0.4]
+[charaPut E 1000,0]
+[charaPut F 1000,0]
+[charaPut G 1000,0]
+[charaPut H 1000,0]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+女神エレシュキガル、[#変生:へんじょう]します……！[r]指示を、マスター！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk depthOff]
+[charaTalk off]
+[charaDepth E 0]
+[charaDepth F 1]
+[charaDepth G 2]
+[charaDepth H 3]
+[charaFilter F silhouette 4B008280]
+[charaFilter G silhouette 19197080]
+[charaPut F 0,0]
+[charaPut G 0,0]
+[charaPut H 0,0]
+[charaFadein E 0.1 1]
+[charaFadeTime F 0.1 0.5]
+[charaFadeTime G 0.1 0.8]
+[charaFadeTime H 0.1 0.3]
+
+＠エレシュキガル
+地の底で痛みを[#謳:うた]え！[r]私の過ちとやらを、見事正してみせるがいい！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_24 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+？！
+

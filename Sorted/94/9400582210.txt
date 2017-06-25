@@ -1,0 +1,166 @@
+
+
+＄94-00-58-22-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet H 98002000 1 フォウ]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+ふむ、いいですねえ、この牧歌的な感じ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+土を固めて木の手すりを設置する……その程度のこと[r]ですが、ずいぶん歩きやすくなったと思います。
+[k]
+
+＠フォウ
+フォウッ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+しかし問題が一つありますね、この道には。[r]なんとなくそんな気がしていましたが。
+[k]
+
+
+？1：すみません……それはいったい？
+？2：前向きに善処いたします
+？！
+
+
+[charaFace D 0]
+＠玉藻の前
+ああいえいえ、マスターのせいではございませんよ。[r]むしろ[#私:わたくし]のほうに問題が。
+[k]
+
+＠玉藻の前
+この道があまりにも牧歌的すぎるといいますか[line 2]『この[r]先にいかにも牧場がありそう』感が強すぎてですね。
+[k]
+
+＠玉藻の前
+気を抜くと、こう、ムラムラッときて走り出してしまい[r]たくなる、みたいな[line 2]
+[k]
+
+
+？1：青春が溢れ出す……的な？
+？2：欲求不満……ですか
+？！
+
+[charaFace D 1]
+＠玉藻の前
+まぁなんていいますか、野生ですよ野生。
+[k]
+
+[charaFace D 0]
+＠玉藻の前
+夏の魔物のタマモちゃんサマーだからこそ、我慢できない[r]部分もある、みたいな……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+
+＠マシュ
+……タマモキャットさんみたいに陽気に走り回ってしまいそう、[r]ということですか？　逆に見てみたくはありますが。
+[k]
+
+[charaFace D 5]
+＠玉藻の前
+そうそれー！　それですよ！　[r]そう言われたくないから我慢してるんです！
+[k]
+
+＠玉藻の前
+いいですか、アレと[#私:わたくし]とは別！　[r]この水着バージョンでもまったくの別なのです！
+[k]
+
+[charaFace A 6]
+＠マシュ
+は、はぁ、その……すみません……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+まったく……でも、しかし。[r]やっぱり新しい道の匂いはいいですね。
+[k]
+
+＠玉藻の前
+いやはや実に、この先に無防備な家畜が待っていそうな感が[r]プンプンと……
+[k]
+
+＠玉藻の前
+…………。
+[k]
+
+[charaFace D 2]
+＠玉藻の前
+ヒャア我慢できねぇ！　特に意味はないですが、[r]野生の発散のためにこの道少しランニングしてきます！
+[k]
+
+＠玉藻の前
+途中で野兎とか見つけたらお土産で獲ってきますので[r]こうご期待！　ではっ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad59]
+[wt 0.5]
+[seStop ad59 1.0]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+正直、この島に来てからの玉藻さんは、
+[k]
+
+＠マシュ
+わりとキャットさんに近い意味不明さを持っている[r]ような気がするのですが……
+[k]
+
+？1：しーっ
+？2：見て見ぬフリをしてあげよう……
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

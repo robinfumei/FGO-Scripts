@@ -1,0 +1,397 @@
+＄94-00-12-05-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet D 4022000 1 ？？？]
+[charaSet E 2001000 1 エミヤ]
+[charaSet F 2003001 1 ロビン]
+[charaSet G 2006001 1 ダビデ]
+
+[scene 21200]
+[fadein black 2]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠エミヤ
+竜骨が持たない！　じき限界だ！[r]いい加減、責任の所在を追究したい！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ロビン
+知らねぇーつの、オレのせいじゃねぇーつの！[r]もともとオレとオタク、二人で始まった漁だろうが！
+[k]
+
+＠ロビン
+森の狩りでは互角。なら海ではどうか、ってな。[r]それを[line 3]
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+＠エミヤ
+それを[line 3]こっそり忍び込んだばかりか、[r]我々が船倉で準備をしている隙をつき、
+[k]
+
+＠エミヤ
+“南国美女に会いたいなー”などと述べ、[r]海洋まで船を進めた馬鹿者がいるという話だな！
+[k]
+
+＠エミヤ
+そうだろう、そこの、
+[k]
+
+[charaTalk off]
+＠エミヤ／ロビン
+「ダビデ王！」[r]「ダビデのおっさん！」
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk on]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.4 1]
+＠ダビデ
+うーん。女の子に呼ばれるならともかく、[r]お兄さん二人に怒鳴られるのはイヤだなあ。
+[k]
+
+＠ダビデ
+君たち。[r]年長者は[#敬:うやま]うものだと教わらなかったかい？
+[k]
+
+[charaFace G 2]
+＠ダビデ
+ところで僕はそろそろ陸に[r]帰りたいと思うのだが、どうだろうか！
+[k]
+
+[charaFace G 5]
+＠ダビデ
+なに、帆は折れ魔力備蓄もなくなった？
+[k]
+
+[charaFace G 2]
+＠ダビデ
+それはたいへんだ！[r]二人とも早く海に飛び降りないと！
+[k]
+
+＠ダビデ
+だって僕ひとりの重さなら船は持つし、[r]魔力備蓄も持つだろうしね！　簡単な計算さ！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠ロビン
+ぐわああぁダメだ本気でキレそうだ[line 3]！[r]このおっさん、この状況でなんでこんなに偉そうなの！？
+[k]
+
+＠エミヤ
+古代の王というのはドイツもコイツもこうなのだ！[r]そういう慢心の塊に、ひとり心当たりがある……ッ！
+[k]
+
+[shake 0.1 0 5.0 1.0]
+[wt 1.0]
+
+[charaFace F 0]
+＠ロビン
+つあ……！　にらみ合ってる場合じゃねえぞ、[r]とにかく荷物を捨てろ！
+[k]
+
+＠ロビン
+こんなんで消えちまったらサーヴァント界一の[r]笑いもんになるからな！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ダビデ
+サーヴァント界！　そういう呼び方もあるのか！[r]参考になったよ！　ありがとう！
+[k]
+
+[charaFace G 5]
+＠ダビデ
+それはそれとして、じゃあ現状一番のコメディアンは[r]誰なんだい？　後学のために教えてくれまいか。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ロビン
+あー、そりゃあのお嬢ちゃんでしょ。[r]頭に角が生えてて、竜の羽が生えてるヤツ。
+[k]
+
+＠ロビン
+逸材は他にも山ほどいるが、頭一つ抜けてますよアレ。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠エミヤ
+何を悠長に話している！[r]今ならこの面子を推すがね、私は！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ダビデ
+そうか、すまない！[r]ところで君達はカルネアデスの逸話は知っているかな？
+[k]
+
+[charaFace G 1]
+＠ダビデ
+嵐の海。船が難破して幸運にも生き残った男が[r]小さな木材に身を寄せていると、
+[k]
+
+＠ダビデ
+もうひとり、幸運にも生き残った男が泳いできたんだ。[r]だがそこで問題が発生する。
+[k]
+
+＠ダビデ
+一人なら木材の浮力は足りるのだけど、二人だと[r]どうしても沈んでしまう。そこで男は[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+＠ロビン
+なあ赤マント！　とりあえず[#一人:アイツ]減らそうぜ！[r]オタクとの勝負付けはその後だ！
+[k]
+
+[charaFace E 0]
+＠エミヤ
+珍しく気が合ったな森の狩人！
+[k]
+
+＠エミヤ
+いい機会だ、誰が最優のアーチャーか、[r]ここで答えを出すとしよう！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ダビデ
+哀しいな、争いは何も生まないというのに……[r]そもそも僕が最優なのは分かりきっているのに……
+[k]
+
+[charaFace G 1]
+＠ダビデ
+でもまあ、正当防衛によるふるい落としなら[r]後腐れもないし、その戦い、僕も賛同しよう！！
+[k]
+
+＠ダビデ
+これでも連戦連勝の王様でね。[r]言っておくけど僕はやるよ。かなりやる。
+[k]
+
+＠ダビデ
+サーヴァント界とやらに「常勝の王」という番付が[r]あるなら、きっと一番になるんじゃないかな。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ロビン
+ああそうかい、そいつは結構！[r]王殺しはオレの本懐だ、サクッと楽にしてやるよ！
+[k]
+
+＠？？？
+常勝の王？　最優のアーチャーだと？[r]フッ。星３たちが騒ぎよるわ。
+[k]
+
+[charaFace F 0]
+＠ロビン
+っ！　上か！
+[k]
+
+[charaSet D 4022000 1 サンタオルタ]
+
+＠サンタオルタ
+とーう！[r]着地の邪魔だ、退くがよい！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[se ad54]
+[shake 0.1 0 3.0 0.5]
+[wt 0.5]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[wt 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+
+＠ロビン
+……誰よオタク。[r]オレら、いま立て込んでるんですけどねぇ？
+[k]
+
+＠サンタオルタ
+雷雲渦巻くクリスマスに舞い降りし最強のサンタ。[r]それが私だ。
+[k]
+
+[charaFace F 0]
+＠ロビン
+え、サンタ？　ほんと？[r]というか空？　空から来たのか？
+[k]
+
+＠ロビン
+つまり脱出手段を持ってらっしゃる？
+[k]
+
+＠サンタオルタ
+持っているとも。この嵐だ、ソリとトナカイは[r]暗雲の上に待機させているがな。
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+サーヴァントたるもの、契約者の安全は考える。[r]そうだろう、そこの赤いアーチャーよ。
+[k]
+
+＠ロビン
+およ。おい赤マント、あのサーヴァント、[r]オタクの知り合い？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠エミヤ
+[line 6]（曖昧な表情で沈黙している）
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ダビデ
+アビシャグ！　アビシャグじゃないか！[r]そこの美しい人、キミは間違いなくアビシャグ！
+[k]
+
+＠ダビデ
+ああ、こうしてサーヴァントになっても巡り会える[r]なんて、僕はいつも最高についている！
+[k]
+
+＠ダビデ
+さあ、この冷えた体を温めておくれ。[r]かつてキミが僕にしたように。さあ。遠慮なく。
+[k]
+
+[charaFace D 5]
+＠サンタオルタ
+人違いだダビデ王。[r]私はサンタオルタ。アビシャグではない。
+[k]
+
+[charaFace G 4]
+＠ダビデ
+[FFFFFF]？　美人ならアビシャグだと思うんだけどなあ。[r]あ。今の僕は青年だから分からないのかな？
+[k]
+
+[charaFace G 0]
+＠ダビデ
+キミは老人の頃の妻だったからね。[r]でも大丈夫、僕の心はつねに健全だ。
+[k]
+
+[charaFace G 1]
+＠ダビデ
+羊飼いだった頃も、王だった頃も、老いた後も、[r]基本、僕の精神構造は変わらなかったと断言しよう！
+[k]
+
+[charaFace D 1]
+＠サンタオルタ
+ほう。それは結構。[r]では、常勝の王の勢いは健在という事だな？
+[k]
+
+[charaFace G 4]
+＠ダビデ
+え……？　あ、うん、どうだろう。[r][#戦:いくさ]は強かったよ。戦は。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠エミヤ
+……馬鹿め……虎の尾を踏んだな……
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠サンタオルタ
+ではその強さを見せてもらおう。[r]プレゼントを渡すのはその後だ。
+[k]
+
+＠サンタオルタ
+構えよ、アーチャーども！[r]この剣が貴様らの性根をたたき直す！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ダビデ
+ごめん、ちょっと待った！[r]僕自身はあんまり強くないから、二人ともよろしく！
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ロビン
+はあ？　正気かよオタク。[r]オレらは空飛ぶソリに乗せてほしいだけなんだが……
+[k]
+
+＠ロビン
+まあ、勝てば言うこと聞いてくれそうですし？[r]ケンカなら買いますけど？
+[k]
+
+[charaFace F 5]
+＠ロビン
+セイバークラスがアーチャークラスにケンカを[r]売るなんざ、笑い話にもならないんですけどねぇ？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

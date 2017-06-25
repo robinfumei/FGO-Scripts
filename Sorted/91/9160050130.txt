@@ -1,0 +1,147 @@
+＄91-60-05-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10903]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 8001000 1 マシュ]
+[charaSet C 6005001 1 ジャック]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠ジャック
+ジャックが死んじゃった♪[r]わたしたちも死んじゃった♪
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ジャックさん、物騒な歌を……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジャック
+……ねえ、[#おかあさん:マスター]。
+[k]
+
+[charaFace C 4]
+＠ジャック
+もしね、別のジャックが[line 2]わたしたちより、[r]もっとつよかったら、どうする？
+[k]
+
+＠ジャック
+わたしたち、すてられちゃう？
+[k]
+
+？1：そんなことはしない
+
+？2：強さは関係ない
+
+？！
+
+[charaFace C 0]
+＠ジャック
+……そうなの？[r]でも、聖杯戦争ってそういうものでしょ？
+[k]
+
+[charaFace C 4]
+＠ジャック
+ちがうの？[r]……ふぅん、そうか。ちがうんだ。
+[k]
+
+＠ジャック
+[#おかあさん:マスター]、へんなひと。[r]つよいほうがいいにきまってるのに。
+[k]
+
+[charaFace C 0]
+＠ジャック
+あなただって、そう思うでしょ？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+いいえ、ジャックさん。[r]わたしもマスターも、そうは思いません。
+[k]
+
+＠マシュ
+強い弱いを言うならば、もしかするとわたしたち[r]全員、相手に対して弱いかもしれない。
+[k]
+
+[charaFace A 7]
+＠マシュ
+もちろん、強い方がいいのは確かです。[r]でも強さだけではこれから先、戦い抜けません。
+[k]
+
+[charaFace A 1]
+＠マシュ
+必要なのは、互いの信頼だとわたしは思います。
+[k]
+
+[charaFace A 13]
+＠マシュ
+わたしたちはマスターを信じて戦い、[r]マスターはわたしたちを信じて戦う。
+[k]
+
+[charaFace C 4]
+＠ジャック
+……ふしぎなひと。[r]そんなこと言うひと、今まで会ったことないや。
+[k]
+
+[charaFace A 6]
+＠マシュ
+そう……ですか？
+[k]
+
+[charaFace C 1]
+＠ジャック
+でも、うん、そういう考え、いいよね。[r]さあ、最後のジャックがそこにいるよ。
+[k]
+
+[charaFace C 5]
+＠ジャック
+きっと、わたしたちよりずっと強い。[r]ずっと賢くて、ずっと悪くて、ずっとすごい。
+[k]
+
+＠ジャック
+きっと、あれが本当の“[#切り裂きジャック:ジャック・ザ・リッパー]”だよ。
+[k]
+
+＠ジャック
+みんなが抱いた幻想の結実[line 2]。
+[k]
+
+[charaFace C 4]
+＠ジャック
+わたしたちは、ただそれを利用しただけの[r]かいぶつでしかないかもしれない。
+[k]
+
+[charaFace C 1]
+＠ジャック
+……それでもいいなら。[r]わたしたちはがんばるよ。[#おかあさん:マスター]のために。
+[k]
+
+[charaFace C 2]
+＠ジャック
+……うん、やろう！
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,323 @@
+
+＄94-00-65-02-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_34 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102400 1 イリヤ]
+[charaSet D 4004001 1 偽アストルフォ]
+[charaSet E 4004001 1 偽アストルフォd]
+[charaSet F 98102400 1 イリヤd]
+[charaPut E 0,-250]
+
+[scene 31000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アストルフォ
+おーっとぉ、来ちゃったなァー！[r]モンスターっぽい人たチ！
+[k]
+
+＠偽アストルフォ
+ここから先はボクが相手だヨ！[r]さあほら、角笛の調べとかつま弾いちゃうゾー！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+さわやかに現れたけど……[r]角笛なのにつま弾くって……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アストルフォ
+ああ、それならこうやっテ[line 3][se ad77][charaShake D 0.07 4 0 0.5]（ごそごそ）
+[k]
+
+＠マシュ
+こんなところでおニューの宝具を大公開されなくて[r]いいですので！　偽トルフォさん！？
+[k]
+
+[charaFace D 1]
+＠偽アストルフォ
+いやいや、そうはいかないっテ！
+[k]
+
+＠偽アストルフォ
+今回みたいなクラス『魔法少女』としては[r]アイテムの売り込みが最重要なんだってバ！
+[k]
+
+[charaFace D 0]
+＠偽アストルフォ
+ボクってどこに出しても[r]恥ずかしくない魔法少女だシ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+ほ……ホントだね……！[r]なんだかちょっと悔しい気もするけど……
+[k]
+
+[charaFace C 3]
+
+＠イリヤ
+しかもボクっ娘だなんて[r]あざといっていうか……
+[k]
+
+？1：魔法……少女？
+
+[charaFace C 6]
+＠イリヤ
+えっ、どうして首かしげてるの？[r]わたしヘンなこと言っちゃった……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+おおっとイリヤさーん？
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+あまり追究されると、お恥ずかしいトラブるが[r]待ち受けてますよ～？　ボクっ娘の闇は深い。
+[k]
+
+[charaFace C 3]
+＠イリヤ
+ハッ……！[r]……なんとなく察した！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？2：[&同意する:完全に同意]。非の打ち所の無い魔法少女[&だ:です]
+
+[wt 0.4]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩。キリっと断言する姿は勇ましいのですが、[r]ここは自重してください。
+[k]
+
+[charaFace A 15]
+＠マシュ
+イリヤさんの呼吸までが、やや荒々しく、[r]おかしなスイッチが入りかけてます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠イリヤ
+ボーイッシュ系……[r]魔法少女……
+[k]
+
+＠イリヤ
+ま……ま……[r]まったく[charaShake C 0.05 4 4 0.25]関係ない思いつきだけど！
+[k]
+
+[charaTalk off]
+[charaDepth F 0]
+[charaDepth C 1]
+[charaFace F 3]
+[charaFadein F 0 1]
+[wt 0.1]
+[charaChange C 98102400 8 fade 1.0]
+[wt 0.5]
+[wt 0.4]
+[se ad94]
+[shake 0.05 2 4 0.4]
+[charaFadeout F 0]
+[wt 0.3]
+[seStop ad94 0.4]
+[charaFace C 8]
+＠イリヤ
+ボクっ子といえば、ギルくんが[r][#魔法の杖:ステッキ]で変身したらどうなるのかな……！？
+[k]
+
+＠イリヤ
+[charaShake C 0.06 6 6 1.2]
+ちょっと試してみたいかも……！[r]ぜんぜんこの状況とは関係ないですけどハァハァ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]手遅れ！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アストルフォ
+偽とか余計なものも付いてるけど[r]気にしなイ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ええっと、ともかく一つだけ[r]よろしいでしょうか？　特にルビーさん？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+ハイハイなんですー？
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+そろそろ、盾アクションで魅了する魔法少女界の[r][#超人隊長:キャップ]を目指す気になられましたかー？
+[k]
+
+[charaFace A 7]
+＠マシュ
+違います。[r]レオニダスさんを差し置き……いえ、その話ではなく。
+[k]
+
+[charaFace A 0]
+＠マシュ
+偽トルフォさんの自称『魔法少女』のカテゴライズには[r]信憑性はあるのでしょうか？　その場のノリ以外で。
+[k]
+
+[charaFace A 7]
+＠マシュ
+具体的にいいますと、この固有結界中で[r]わたしの攻撃が通用するのか気になります……！
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+たしかに偽トルフォさんからは[r]なかなかの[#魔法少女力:ＭＳりょく]を感じますねー。
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+ですが、今のマシュさんなら[r]充分対抗できると推測します！
+[k]
+
+[charaFace A 15]
+＠マシュ
+それを聞いてフクザツな不安と安心が[r]微妙に増量しました！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アストルフォ
+ねー、まーダー？　お昼寝していイー？[r]はやく[#戦:や]ろーよ[charaFace D 4]待ちくたびれちゃったヨーｚｚｚ……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+あっ、なんかごめんなさい！[r]すでに眠そう！
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_34 1.5]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+閑話休題、失礼いたしました。[r]わたしも戦う力になれるのであれば、全力で！
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽アストルフォ
+ホント？　うっれしいなア！[r]さあ、ボクの調べで包んであげるからネ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

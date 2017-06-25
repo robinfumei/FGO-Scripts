@@ -1,0 +1,592 @@
+
+
+＄94-00-91-03-1-0
+
+
+
+[charaSet A 99502600 1 マシュ]
+[charaSet B 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet C 6019001 1 風魔小太郎]
+[charaSet D 2014001 1 俵藤太]
+[charaSet E 9002001 1 天草四郎]
+[charaSet F 98003000 1 Dr.ロマン]
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[scene 20322]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+さあ、出発進行ですトナカイさん！
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+次は日本の[#サーヴァント:こ　ど　も]たちに、[r]有用な贈り物を届けましょう！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[se ad187]
+[seVolume ad187 0 0.5]
+[seStop ad187 1.0]
+[wt 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[scene 27500]
+[wt 0.1]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+……まだかな。
+[k]
+
+[charaFadeout C 0.7]
+[wt 0.7]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFace D 0]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+＠俵藤太
+……ふむ、天草殿。[r]風魔めは一体何を待っておるのかな？
+[k]
+
+[charaTalk E]
+＠天草四郎
+あー……サンタクロースにプレゼントの[r]リクエストを出したそうで。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠俵藤太
+ははははは、成る程成る程！[r]風魔忍群の長といえども、人の子であったか！
+[k]
+
+[charaFace D 3]
+＠俵藤太
+いや、[#忍:しのび]とはどれも情を切り捨てた[#絡繰り傀儡:か ら く り く ぐ つ]と[r]思っていたが、初々しいところもあるのだなあ！
+[k]
+
+[charaTalk E]
+＠天草四郎
+我々サーヴァントは、精神年齢が[r]肉体に引き摺られやすいですからね。
+[k]
+
+＠天草四郎
+十五歳の肉体であれば、やはり十五歳に[r]引き戻ってしまうのです。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠俵藤太
+うむうむ。老いた自分の記憶も、[r]どこか他人事のように感じる事も多い。
+[k]
+
+[charaFace D 0]
+＠俵藤太
+けだし、サーヴァントとは不思議なものよ。
+[k]
+
+[charaFace D 6]
+＠俵藤太
+しかし天草殿、サンタクロースとやらは実在するのかね？[r]贈り物を配るとは、天女のようなものか？
+[k]
+
+[charaTalk E]
+[charaFace E 4]
+＠天草四郎
+ええ、まさしく。ただ[&彼:彼女]からの連絡によると、[r]今年は少々問題がありまして……。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠俵藤太
+ほほう、問題とな？[r]それは面白そうだ。はたして如何様な[line 3]
+[k]
+
+[charaMove D 1 0.4]
+[charaMove E 3 0.4]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1024,0]
+[charaMove C 2 0.2]
+[wait charaMove C]
+
+[charaMove C 256,20 0.2]
+[wait charaMove C]
+[charaMove C 256,0 0.1]
+[wait charaMove C]
+＠風魔小太郎
+……来た！
+[k]
+
+[messageOff]
+
+[charaFace D 1]
+[charaFace E 4]
+[wt 0.4]
+[charaMove E -1024,0 0.4]
+[charaFadeout E 0.7]
+[wait charaMove E]
+
+[charaMove D -1024,0 0.7]
+[charaFadeout D 0.7]
+[wait charaMove D]
+
+[charaMove C 1 0.4]
+[wait charaMove C]
+[wt 0.4]
+
+[charaMove C 0,20 0.2]
+[wait charaMove C]
+[charaMove C 0,0 0.1]
+[wait charaMove C]
+[wt 0.2]
+
+[charaMove C 0,20 0.2]
+[wait charaMove C]
+[charaMove C 0,0 0.1]
+[wait charaMove C]
+[wt 0.4]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[se ad187]
+[seStop ad187 1.6]
+[wt 1.6]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+お待たせしました、風魔小太郎さんですね！
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ジャンヌ・ダルク・オルタ・サンタ・リリィ、[r]ただいま到着です！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut F 1]
+[charaEffect F bit_talk_10]
+[wt 0.1]
+[se ad13]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+極東のサーヴァントが集まっていますね……。[r]宴会か何かでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+[charaPut F 1200,1200]
+[charaEffectStop F bit_talk_10]
+[wt 0.3]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+……。[r]………………こども？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+子供じゃありません、サンタなんですけど！[r]もう、どうして皆子供子供と！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace B 2]
+[charaFadein D 0.1 0]
+[charaFadein B 0.1 2]
+＠俵藤太
+いやあ、お主はどう見ても子供でござろう。[r]ほれほれ、飴でもやろうか？
+[k]
+
+[charaTalk B]
+[charaFace B 2]
+[messageShake 0.05 4 4 1.0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+いーりーまーせーん！
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+第一、知らない人から物を貰ってはいけない[r]なんて常識です。
+[k]
+
+？1：いらない？
+
+[charaFace B 3]
+＠ジャンヌ・オルタ・サンタ・リリィ
+トナカイさん、その飴玉はどこから！？
+[k]
+
+[charaFace B 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ラムネ味！　ラムネ味ですか！[r]いいですよね、シュワシュワ感が実に大人っぽいです。
+[k]
+
+
+
+[charaTalk D]
+[charaFace D 4]
+＠俵藤太
+大人とは一体……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？2：飴あげようか？
+
+[charaFace B 3]
+＠ジャンヌ・オルタ・サンタ・リリィ
+え、戴けるんですか！？[r]ありがとうございま……[charaFace B 0]いえ、いいです。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+ハッカ味は、ちょっと、その、あまり、[r]苦手で、こう、大人の味すぎて……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut F 1]
+[charaEffect F bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+なるほど、ハッカ味はオトナの味なのですね。[r]今度、ドクターにリクエストしてみることにします。
+[k]
+
+[charaFadeout A 0.1]
+[charaPut F 1200,1200]
+[charaEffectStop F bit_talk_10]
+[wt 0.3]
+
+？！
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+[charaMove C 0,20 0.2]
+[wait charaMove C]
+[charaMove C 0,0 0.1]
+[wait charaMove C]
+＠風魔小太郎
+サンタ殿、それでプレゼントは……。[r]（そわそわ）
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+分かっています。[r]貴方にとって、真に必要なもの、それは[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 1.0]
+[wt 1.0]
+
+
+[messageOff]
+[se ad77]
+[charaShake B 0.05 2 0 1.0]
+[seStop ad77 2.0]
+[wt 2.0]
+
+[equipSet H 9400170 2]
+[wait equipSet H]
+[charaFace H 0]
+[charaDepth H 9]
+[charaFadein H 0.5 0,-70]
+
+[se ad139]
+[wt 3.0]
+
+[charaFadeout H 0.4]
+[wt 0.2]
+
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+この、和英辞典です！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.4]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+……和英辞典……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい！　風魔小太郎さんの宝具名は、何かこう、[r]文法的なものとか色んなものが間違っていますので。
+[k]
+
+[charaFace B 6]
+＠ジャンヌ・オルタ・サンタ・リリィ
+正しい英語で、正しい宝具に！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠天草四郎
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠俵藤太
+むう、これは拙者にも分かるぞ。実に遊びがない。[r]クリスマスプレゼントに和英辞典とは……。
+[k]
+
+＠俵藤太
+シュヴァイツァーの伝記と並ぶガッカリプレゼントだ。[r]いや、シュヴァイツァー殿は紛れもない偉人なのだが。
+[k]
+
+＠俵藤太
+それはそれとして、ガッカリプレゼントだ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFace D 6]
+[charaFadein B 0.1 2]
+[charaFadein D 0.1 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+な、俵さんまでそんなことを……！[r]これは風魔さんの為になるプレゼントです。
+[k]
+
+[charaTalk D]
+[charaFace D 6]
+＠俵藤太
+しかしクリスマスといえば祝い事と聞いた。[r]拙者たち風に言えば謹賀新年に等しい。
+[k]
+
+＠俵藤太
+誰もが祝い、誰もが喜ぶ。[r]それこそ祭り場の景品のようにな。
+[k]
+
+＠俵藤太
+であれば、贈り物は生活を正すものではなく、[r]喜ばれるものが王道ではないかね？
+[k]
+
+[charaTalk B]
+[charaFace B 4]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……役に立たなければ、プレゼントなんて[r]意味がありません。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+む。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+だって、それならプレゼントはただの自己満足。[r]贈った者が贈ったこと自体を喜んでいるだけです。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+それでは、役に立ってません。[r]世の中のためになりません。
+[k]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+ならば、贈られた側がどれだけ嫌な顔をしようとも、[r]実用一点張りで勝負する。
+[k]
+
+[charaFace B 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+それがサンタの心意気です。
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+＠風魔小太郎
+……そんなことはないよ。
+[k]
+
+[charaTalk B]
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+あります。
+[k]
+
+
+
+[charaTalk C]
+[charaFace C 5]
+＠風魔小太郎
+[messageShake 0.05 2 2 1.0]
+なーいー！
+[k]
+
+[charaTalk B]
+[charaFace B 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 2 2 1.0]
+あーりーまーすー！
+[k]
+
+[charaTalk off]
+
+
+＠二人
+[messageShake 0.05 4 4 1.0]
+むむむむむ！
+[k]
+
+[charaTalk on]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[bgmStop BGM_EVENT_7 0.7]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠俵藤太
+ふぅむ、こうなったら致し方ない。
+[k]
+
+[bgm BGM_EVENT_3 0.4]
+
+＠俵藤太
+我々はサーヴァント、であればどちらの意見を通すかは[r]戦いで決める他あるまい！
+[k]
+
+[charaFace D 5]
+＠俵藤太
+ちなみに拙者は風魔の方につこう。[r]意に沿わぬ贈り物を押しつけるのは大人げない！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……分かりました、それが貴方がたの望みであれば。[r]このサンタがお相手します！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠風魔小太郎
+そうか、ならば……全力で抵抗させて貰います。[r]風魔忍群が五代目御頭、風魔小太郎。
+[k]
+
+[charaFace C 2]
+＠風魔小太郎
+そのプレゼント、無益と散れ[line 3]！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+我が名はジャンヌ・ダルク・オルタ・サンタ・リリィ！[r]このプレゼント、問答無用なりて[line 3]！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[soundStopAll]
+[end]

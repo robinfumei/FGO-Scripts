@@ -1,0 +1,128 @@
+
+＄01-00-05-22-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 7020000 1 クー・フーリン・オルタ]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 1019001 1 ラーマ]
+[charaSet D 98002000 1 フォウ]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[scene 20903]
+[fadein black 2]
+[wait fade]
+
+＠クー・フーリン・オルタ
+[line 2]うし。[r]それじゃあ殺し合うとするか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠ラーマ
+狂王よ。[r]……聖杯を渡す気は？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+欠片もねえ。これは[#誓い:ゲッシュ]だ。[r]メイヴって女は全くどうしようもない悪女だが[line 2]
+[k]
+
+＠クー・フーリン・オルタ
+時代を支配できるはずの願望器を、[r]俺一人の心を奪うために、躊躇いなく使いやがった。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.2]
+
+[charaFace A 0]
+＠　
+[line 2]では、私の願いを。クー・フーリンを王とします。[r][line 2]私と共にあるような、邪悪な王に。
+[k]
+
+[wt 0.2]
+[messageOff]
+[fadein black 0.5]
+[wait fade]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+あれにとっちゃ飽きれば捨てるはずの玩具だろうが、[r]心意気だけは買ってやらねえとな。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+なんで、一切の[#愉悦:あそび]を捨てて戦い続ける。[r]これまでも、そしてこれからもだ。
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaFace A 2]
+＠クー・フーリン・オルタ
+だいたいなあ、テメエら[line 3]
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace A 1]
+＠クー・フーリン・オルタ
+いままでさんざんオレの邪魔をしやがった奴らを、[r]生かして返す道理はねえだろうが。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+来な、小僧ども。[r]アルスターの戦士にケチをつければどうなるか[line 3]
+[k]
+
+[charaFace A 2]
+＠クー・フーリン・オルタ
+その身を八つ裂きして、[r]骨の髄までたたき込んでやるからよォ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ラーマ
+マシュ！　マスター！　これより最後の戦いだ！[r]腑抜けるなよ！　一瞬でも油断すれば地獄行きだ……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォウ！　フォウ！　フォウ……！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+……行きます！[r]マスター、どうかわたしたちに勝利を……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

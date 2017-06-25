@@ -1,0 +1,168 @@
+
+＄94-00-11-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3013001 1 スカサハ]
+[charaSet F 3002001 1 ディルムッド]
+[charaSet G 1018001 1 アルテラ]
+[charaSet H 2009201 1 アルテミス]
+
+[scene 10720]
+[fadein black 2]
+[wait fade]
+
+[charaFadein H 0.1 1]
+[charaFace H 4]
+＠アルテミス
+……あら……？
+[k]
+
+＠アルテミス
+あら、あら……なんだか……[r]随分と手酷くあなたたちをいじめてしまったみたい？
+[k]
+
+＠アルテミス
+ごめんなさいね、ついつい、やってしまったのね、[r]ダーリンに言われた訳でもないのに、私───
+[k]
+
+[se ba5]
+
+[charaSpecialEffect H flashErasure 1 2]
+[wait charaSpecialEffect H]
+
+[wt 0.3]
+
+
+
+[charaFadein F 0.1 1]
+[charaFace F 1]
+＠ディルムッド
+……ただ一度きりの戦いではありましたが、[r]何かのお役に立てたならば、この上ない喜びです。
+[k]
+
+＠ディルムッド
+盾の乙女、仮初めのマスターよ。[r]いつか時の果てを超えて出会うこともありましょう。
+[k]
+
+＠ディルムッド
+いざさらば。[r]嗚呼、スカサハ。───あなたの慈悲に幾万の感謝を。
+[k]
+
+[se ba5]
+
+[charaSpecialEffect F flashErasure 1 2]
+[wait charaSpecialEffect F]
+
+
+？1：ありがとう、ディルムッド・オディナ
+？2：これで、終わった……？
+
+？！
+
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+はい、先輩…………
+[k]
+
+＠マシュ
+スカサハさんは最後の残骸と言っていたはずです。[r]ということは、もう、これで戦いは終わったはず……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+
+[charaFadein A 0.1 2]
+
+[charaFadein D 0.1 0]
+[charaFace D 1]
+＠スカサハ
+正解だ。マシュ。満点をやろう。[r]さてと、まあ、そういうわけであるから───
+[k]
+
+＠スカサハ
+この私も取り敢えずはここまでだ。溢れ出した残骸は、[r]お主たちの[#内側:こころ]からは確かに取り除かれた。
+[k]
+
+＠スカサハ
+ならばもはや、無理を押してまで[r]此度の現界を維持する必然もないのぅ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 2]
+[charaFace C 0]
+＠フォウ
+フォーウ、フォウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 2]
+[charaFace A 4]
+＠マシュ
+スカサハさん───
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠スカサハ
+たとえ死しても、お主たちは残骸とはなるまいよ。[r]故に恐れることはない……と言ってしまうのも酷だがな。
+[k]
+
+＠スカサハ
+恐れながら、怯えながら、[r]死さえも焼却せんとする傲岸に立ち向かうがいい。
+[k]
+
+＠スカサハ
+少なくともこうして[r]一度はお主たちは成したのだ。
+[k]
+
+＠スカサハ
+ならば二度も三度も百度でも同じこと。[r]適度にこなして、人理の修復を成して英雄となれ。
+[k]
+
+？1：百度は無茶ですスカサハさん！
+？2：応ッ！！！
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+…………はい。最後まで、精一杯頑張ります。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+あっ、はい、フォウさんも一緒に！
+[k]
+
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[fadeout white 3]
+[bgmStop BGM_EVENT_6 0.4]
+[wait fade]
+[soundStopAll]
+[end]

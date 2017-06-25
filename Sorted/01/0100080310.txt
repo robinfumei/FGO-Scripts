@@ -1,0 +1,779 @@
+＄01-00-08-03-1-0
+
+
+
+
+[charaSet A 9938200 1 魔神フラウロス]
+[charaSet B 1005001 1 ネロ]
+[charaSet C 7003001 1 呂布]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 7005001 1 スパルタクス]
+[charaSet F 6011001 1 荊軻]
+[charaSet G 98016000 1 ローマ兵]
+[charaSet H 7010001 1 カリギュラ]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_3 0.1]
+
+[scene 36100]
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神フラウロス
+起動せよ。起動せよ。[r]情報室を司る九柱。即ち、
+[k]
+
+＠魔神フラウロス
+オリアス。ウァプラ。ザガン。ウァラク。アンドラス。[r]アンドレアルフス。キマリス。アムドゥシアス。
+[k]
+
+[se ad63]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wt 0.4]
+
+＠魔神フラウロス
+我ら九柱、文字を得るもの。[r]我ら九柱、事象を詠むもの。
+[k]
+
+＠魔神フラウロス
+“七十二柱の魔神”の名にかけて、[r]我ら、この研鑽を消す事能わず……！
+[k]
+[bgmStop BGM_EVENT_3 0.5]
+
+[seStop ad14 0.2]
+[wt 0.3]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[bgm BGM_MAP_17 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠ネロ
+ほう、七十二柱の魔神と名乗ったか[line 3][wt 0.3][charaFace B 2][r]ならば[#ローマの七丘:セプテム・モンテス・ローマ]が貴様たちを阻んでみせよう！
+[k]
+
+[charaDepth B 9]
+[charaDepth D 0]
+
+[charaFace B 1]
+＠ネロ
+待たせたな、[%1]。[r]皇帝ネロ・クラウディウス、待望の再演である！
+[k]
+
+[messageOff]
+
+[charaFace B 4]
+[wt 0.7]
+
+[charaFace B 3]
+
+＠ネロ
+…………うむ、正直なところを述べるとな。
+[k]
+
+
+[charaFace B 0]
+＠ネロ
+仔細隅々までの事情は知り得ていない。
+[k]
+
+[charaFace B 4]
+＠ネロ
+つい先刻まで余は余の執務室にいたような、[r]新大陸の荒野にいたような、[#闘技場:コロセウム]にいたような、
+[k]
+
+＠ネロ
+はたまた、遙か空の彼方にいたような[line 3]
+[k]
+
+[charaFace B 0]
+＠ネロ
+ともあれ気付けば星の海、[r]世界の命運を決するらしき時間神殿とやらだ。
+[k]
+
+＠ネロ
+やはり全てまでは理解できぬ。[r]しかし何をすべきかだけはよく分かる、すなわち！
+[k]
+
+
+[se ad51]
+[wt 0.3]
+
+[charaFace B 2]
+＠ネロ
+これは、戦うべき局面であろう！[r][%1]！
+[k]
+
+[charaFace B 0]
+＠ネロ
+詳しく知らぬが、アレだな。[r]あのおぞましき魔物が敵という事でかまわぬな？
+[k]
+
+[charaFace B 5]
+＠ネロ
+ならばこの機に借りを返そう。[r]友よ、余は全霊をもって隕鉄の剣を振るおう！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaSet D 4011001 1 ブーディカ]
+
+[charaFace C 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFadein C 0.1 2]
+
+＠呂布
+[image berserker_language_1][line 6]！！
+[k]
+
+[charaFadeout E 0.4]
+[charaFadeout C 0.4]
+[wt 0.1]
+[messageOff]
+[wt 0.2]
+
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+＠ブーディカ
+あぁもう、口上が長いもんだから[r]呂布が暴れ始めちゃったじゃないのさ！
+[k]
+
+[charaFace D 1]
+＠ブーディカ
+久しぶり、[%1]にマシュ！
+[k]
+
+[charaFace D 3]
+＠ブーディカ
+ああ、ふたりとも……[r]うんうん。いい顔するようになったじゃないの。
+[k]
+
+[charaFace D 1]
+＠ブーディカ
+おねーさんは嬉しいぞっと。[r]もう、女神アンドラスタの加護をあげちゃおう！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠スパルタクス
+苦境である。これこそが絶体絶命の具現である。[r]さあ戦おう。無限、連綿、戦闘の地平の彼方に光を！
+[k]
+
+[charaFace E 5]
+＠スパルタクス
+いずれ圧制者となる宿命を持つ者よ。[r]だが素晴らしき反抗の日々、抗う時を君は過ごした。
+[k]
+
+[charaFace E 2]
+＠スパルタクス
+さあ、共に並び立とう！[r]さあ、無限に等しき強者を打ち倒す日だ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠荊軻
+……かつてなく機嫌が良いらしい。[r]聞いたか。絶体絶命の具現、とまで言っていた。
+[k]
+
+[charaFace F 0]
+＠荊軻
+絶体の窮地というのは私にもそれなりの覚えが[r]あるが、まあ確かに。これは見事なものだ。
+[k]
+
+[charaFace F 5]
+＠荊軻
+魔神柱とやらがこうまで揃う。[r]一撃必殺とはいかぬのは無粋だが、うむ[line 3]
+[k]
+
+[charaFace F 1]
+＠荊軻
+いいな。殺し甲斐はある。
+[k]
+
+[charaFace F 5]
+＠荊軻
+この世を灼く王のしもべならば、[r]大陸を統べる皇帝程度の格はあろう。
+[k]
+
+[charaFace F 1]
+＠荊軻
+何より、戦いの後の一杯はひどく旨そうだ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ブーディカ
+あははは、荊軻も十分上機嫌だよ！[r]宴をするならあたしも混ぜてよ、何か作るから！
+[k]
+
+[charaFace D 1]
+＠ブーディカ
+一緒に戦った連中みーんな呼んで、[r]一世一代の大酒宴といこう！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠荊軻
+[#佳:よ]い提案だ。ならば……そうか、それは[r]是が非でも生きて[#還:かえ]らねばならんな。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ネロ
+おお、おお！[r]ブーディカに荊軻、呂布にスパルタクス！
+[k]
+
+[charaFace B 0]
+＠ネロ
+……ああ、ようやく思い出してきたぞ。そうだ。[r]余はかつて戦った、貴様たちと共に。
+[k]
+
+[charaFace B 1]
+＠ネロ
+肩を並べて戦った我が客将、[r]一騎当千の[#強者:つわもの]たち。再び集ったのだな！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ブーディカ
+そうさ。いつか一緒に戦ったアンタの軍団さ。[r]何やかやで、ほら、あれを見てご覧。
+[k]
+
+[charaFace D 2]
+＠ブーディカ
+あれはアンタの号令を待つ幾千の軍勢だ。[r]懐かしのローマ兵たちも、一緒に来てるんだよ！
+[k]
+
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98016000 1 ローマ兵]
+
+[charaFadeout D 0.4]
+[wt 0.1]
+[messageOff]
+[wt 0.4]
+
+[se ad16]
+[shake 0.05 4 4 2.0]
+[seStop ad16 3.0]
+[wt 2.0]
+
+[se ad166]
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.7 1]
+[charaFace E 0]
+[charaFadein E 0.7 -290,0]
+[charaFace F 0]
+[charaFadein F 0.7 290,0]
+[seStop ad166 1.0]
+[wt 1.0]
+＠ローマ兵
+万歳！　皇帝！[r]万歳！　我らがネロ・クラウディウス陛下！
+[k]
+
+＠ローマ兵
+陛下に忠誠を誓う精鋭たる第一[#軍団:レギオ]、[r]第一から第十[#大隊:コホルス]までこちらに揃っております！
+[k]
+
+[messageOff]
+
+[charaFadeout G 0.4]
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[wt 0.1]
+[messageOff]
+[wt 0.2]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ネロ
+なんと……我が下に、これほどの兵が……[r]だがおまえたちは一体[line 3]？
+[k]
+
+[charaFace B 4]
+＠ネロ
+よもや、どこぞの征服王のように[r]すべてが英霊ではあるまいに[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ローマ兵
+は。おそれながら陛下、我らは名も無き亡霊。[r]本来であればカタチなど得る筈のない雑念です。
+[k]
+
+＠ローマ兵
+ですが、魔神の柱など何するものぞ。[r]我ら等しく、偉大なるローマの子でありますれば！
+[k]
+
+＠ローマ兵
+真紅と黄金の征くところ！[r]我らはただ、陛下の指示に従うのみ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk on]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ネロ
+…………！！
+[k]
+
+[messageOff]
+
+[charaSet D 1005001 1 ネロ]
+
+[charaDepth B 10]
+[charaDepth D 0]
+
+[charaFace B 1]
+[wt 1.0]
+
+
+[charaFace B 4]
+[wt 0.6]
+
+＠ネロ
+言ってくれたな、我が[#軍団:レギオ]よ……
+[k]
+
+[charaFace B 3]
+＠ネロ
+…………うむ。余は[line 3]嬉しい。
+[k]
+
+[charaFace B 1]
+
+＠ネロ
+心の底からそう言うぞ。こうしている今の余は、[r]何故だかほんの少しだけ、先が見えるのだ。
+[k]
+
+＠ネロ
+それは余の行く末だ。[r]時の果ての神殿であるが故に見た幻かもしれぬが、
+[k]
+
+[charaFace B 4]
+＠ネロ
+正しき歴史に戻った暁には余は帝国を追われ、[r]やがて、ひとりで苦しみ、呻き……
+[k]
+
+＠ネロ
+三度の落陽を迎えた果てに、死へと至る。[r]それはきっと定められた道。変わらぬ過去であろう。
+[k]
+
+[charaFace B 5]
+＠ネロ
+それでも……[r]それでもだ。今この時、余はひとりではない！
+[k]
+
+[charaFace B 2]
+＠ネロ
+[%1]が、客将たちが、軍団の皆がいる！[r]たとえ幻の如きものであったとしても！
+[k]
+
+[messageOff]
+
+[se ad16]
+[shake 0.05 4 4 1.0]
+[charaFadeout B 0.7]
+[charaFadeout D 0.7]
+[seStop ad16 3.0]
+[charaTalk on]
+[wt 1.2]
+
+[charaSet E 1013001 1 カエサル]
+[charaSet G 3010002 1 ロムルス]
+
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.7 1]
+＠カリギュラ
+……そう。幻であろうと、おまえは孤独ではない。
+[k]
+
+[charaFace H 0]
+＠カリギュラ
+我らローマは不滅。たとえ帝国が滅ぼうと[r]紡いだ文明の灯は消えず、想いも、また同じである。
+[k]
+
+＠カリギュラ
+おまえはローマを愛した。[r]ならば、せめて我ら過去の亡者が報いるだろう。
+[k]
+
+[charaFace H 1]
+＠カリギュラ
+おまえは美しい。[r]誇るがいい。その美しさは、魂の気高さだ。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ネロ
+伯父上……喋っ……た……！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠カリギュラ
+オオオォオオオオオ……！！[r]ローマ、不滅……魔神柱、ホロボスゥウウウ……！！
+[k]
+
+＠カリギュラ
+[font large][messageShake 0.05 4 7 1.0]ホロボスウゥウウウウ！！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠カエサル
+嘆くでない、第五皇帝よ。[r]カリギュラが理性を取り戻せるのは僅かな一瞬のみ。
+[k]
+
+[charaFace E 2]
+＠カエサル
+だが、伝えるべき事は伝えたであろう。[r]今回こそは敵対でなく、我ら皇帝の共闘であると！
+[k]
+
+[charaFace E 0]
+＠カエサル
+まあ、厳密に言うと私は皇帝ではないのだが。[r]語呂の問題として流すといい。
+[k]
+
+[charaFace E 1]
+＠カエサル
+なにしろ、一言で表せるというのは重要だ。[r]力のある単語は容易に、他人の心に染み渡るものだからな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ネロ
+な、なんとカエサル殿まで！[wt 0.3][charaFace B 4][r]伯父上は余を褒めてくれたが共闘とは一言も……
+[k]
+
+[charaFace B 0]
+＠ネロ
+いや細かいことはよい！[r]うむ、幻の皇帝と三代皇帝までもが味方とは！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠カエサル
+む、幻の皇帝……いや、言いたいように言うがいい。[r]クチを挟むのはそれこそ[#贅肉:やぼ]というものだ。
+[k]
+
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 1.0]
+
+＠？？？
+[line 3]ネロ。愛し子よ、今こそ告げる時だ。
+[k]
+
+
+＠？？？
+言葉を。天に轟く大号令を。[r]今、ローマがおまえと[%1]とを助けよう。
+[k]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ネロ
+……！！
+[k]
+
+[charaFace B 0]
+＠ネロ
+聞き間違えるはずもない。[r]その響き、その偉容、まごう事なき建国の王……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.7 1]
+[wt 1.0]
+＠ロムルス
+[font x-large][line 3][#私:ローマ]である。
+[k]
+
+＠ロムルス
+我が槍、我が力、我が偉業の全てを以て、[r]おまえとその盟友の敵を打ち砕こう。
+[k]
+
+[charaFace G 1]
+＠ロムルス
+案ずるな。恐れるな。胸を張れ。[r]おまえの四肢には、今、すべてのローマが宿ろう。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ネロ
+おお……神祖よ……余、は[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ロムルス
+私はいつか軍神たる我が父へと述べた。[r]人には、人を愛する心を育むだけの光が在るのだと。
+[k]
+
+＠ロムルス
+史上、多くの邪悪がそれを否定するだろう。[r]見るがいい。魔の神を名乗るものどもがこうも群れる。
+[k]
+
+[charaFace G 4]
+＠ロムルス
+だが、笑止である。[r]立ち止まるには[#能:あた]わず。
+[k]
+
+＠ロムルス
+神の時代はことごとく終わるものである。[r]かつては、我らローマがその一端を証明してみせた。
+[k]
+
+[charaSet F 6011001 1 荊軻]
+
+[charaFace G 0]
+＠ロムルス
+人の時代。[r]それは浪漫の時代である。
+[k]
+
+＠ロムルス
+ネロ。[%1]。[r]そして、マシュなる娘。
+[k]
+
+[charaFace G 1]
+＠ロムルス
+……人は、人を愛するのだ。
+[k]
+
+[messageOff]
+
+[charaFadeout G 0.4]
+[wt 0.1]
+[messageOff]
+[wt 0.2]
+
+[charaSet D 4011001 1 ブーディカ]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ネロ
+[line 3]愛。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ブーディカ
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 -256,-10]
+[wt 0.7]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+[charaFadeout F 0.1]
+[wt 0.7]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 -210,0]
+[charaFadeout H 0.1]
+[wt 0.7]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFadeout E 0.1]
+[wt 0.7]
+
+[charaDepth C 0]
+[charaDepth F 2]
+[charaDepth H 2]
+[charaDepth E 1]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFadein F 0.1 -384,-10]
+[charaFadein E 0.1 -148,0]
+[charaFadein H 0.1 384,0]
+[charaFadein C 0.1 142,0]
+
+＠荊軻＆カエサル＆カリギュラ＆呂布
+[line 6]。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaDepth G 9]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠ロムルス
+それこそが、[#私:ローマ]の願った[#浪漫:ローマ]である。[r]ゆえに[line 3]
+[k]
+
+[effect bit_talk_41 0,170]
+
+[charaFace G 2]
+＠ロムルス
+証明せよ！　戦え！　勝ち取れ！[r]おまえたちには、すべてが許されている！
+[k]
+
+[messageOff]
+
+[se ad16]
+[shake 0.05 4 4 2.0]
+[effectStop bit_talk_41]
+[wt 0.6]
+[charaFadeout G 0.4]
+[wt 0.3]
+
+[shake 0.05 7 7 1.0]
+＠ローマ軍団
+オオオオオオオオオオオオオオオオオオオオオォ……！[r]神祖万歳！　ネロ・クラウディウス陛下万歳！[seStop ad16 3.0]
+[k]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ネロ
+うむ。うむ……！！
+[k]
+
+[charaFace B 5]
+＠ネロ
+真紅と黄金を身にまとえ！[r]余とローマが、勝利の栄光を約束しよう！
+[k]
+
+[charaFace B 0]
+＠ネロ
+魔神どもは知るであろう。[r]何に、自分たちが敗れ去るのかを。
+[k]
+
+＠ネロ
+魔神どもは見るであろう。[r][#宙:ソラ]を絶望の帯が埋めようと、決して消えぬ輝きを。
+[k]
+
+[charaFace B 2]
+＠ネロ
+[line 3]いざ！　決戦開始である！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_MAP_17 0.5]
+[wait fade]
+[soundStopAll]
+[end]

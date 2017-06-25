@@ -1,0 +1,313 @@
+
+＄01-00-05-02-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 3011001 1 フィン]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 5016001 1 ？？？]
+
+[scene 20721]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+ふむ。我々二人でも手に余るとは。[r]これはなかなか……歴戦の勇士だったかな？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、攻めきれませんでした……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+……！[r]怪我人の気配が……！！
+[k]
+
+[se ad55]
+[seStop ad55 1.0]
+[charaFadeout B 0.4]
+
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+って、え！[r]ナイチンゲールさん、どこへ！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠フィン
+おや、彼女は気付いたようだね。
+[k]
+
+＠フィン
+真名を明かせぬシールダーのサーヴァントよ。[r]この聖杯戦争は、字義通りの戦争なんだよ。
+[k]
+
+＠フィン
+我々としては、君を踏み留まらせておけば[r]良かったんだ。
+[k]
+
+[charaFace A 15]
+＠マシュ
+……！[r]他の兵士たちを……！
+[k]
+
+＠フィン
+彼らは名も無き戦士たち。[r]ただただ戦い続ける比類なき怪物だ。
+[k]
+
+
+＠フィン
+もちろん、サーヴァント相手には[#鎧袖一触:がいしゅういっしょく]の存在だが[line 2]。[r]アメリカ軍[charaFace C 1]相手には、どうだろうね？
+[k]
+
+＠マシュ
+くっ……！！
+[k]
+
+[se bac21]
+[seStop bac21 1.5]
+[charaFace C 4]
+[charaShake C 0.05 3 3 0.25]
+[wt 0.3]
+
+＠ディルムッド
+……！[r]王よ、お退がりを！！
+[k]
+
+[charaFace C 5]
+＠フィン
+[line 2]何！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠？？？
+右翼、左翼、敵を包み込め！[r]我々は中央突破を謀るぞ！
+[k]
+
+＠？？？
+連中は目の前のことしか処理できぬ獣だ！[r]こちらには知恵がある！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠フィン
+あれは……噂に聞くレジスタンスか……！[r]サーヴァントが増えたのであれば手の施しようがない。
+[k]
+
+[charaFace C 2]
+＠フィン
+よい。ここは一目散に撤退だディルムッド！[r]戦士たちにも命令を下しなさい！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ディルムッド
+畏まりました。[r]しかし、彼らは我らの[#命:めい]を理解するでしょうか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+うむ？　しないのならしょうがないだろう。[r]颯爽と見捨てよう。何、気にするな。
+[k]
+
+[charaFace C 1]
+＠フィン
+連中は[#女王:クイーン]を母体とする無限の怪物。[r]ここで数千失ったからといって、困るものでもない！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+……そうでしたな。[r]では、[charaFace D 5]我々だけでも撤退します。
+[k]
+
+[messageOff]
+[se ad88]
+[wait se ad88]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フィン
+ああ、その前に大事を忘れていた。[r]麗しきデミ・サーヴァントよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+わ、わたしですか？
+[k]
+
+＠フィン
+そう、君だよ君。[r]君は我々と戦うことを決めているのかな？
+[k]
+
+[charaFace A 0]
+＠マシュ
+……はい。[r]マスターと共に、あなたたちを討ちます。
+[k]
+
+[charaFace C 1]
+＠フィン
+よい眼差しだ。誠実さに満ちている。[r]王に刃を向ける不心得はその眼に免じて流そう。
+[k]
+
+＠フィン
+その代わり[line 3]君が敗北したら、君の心を[#戴:いただ]こう！[r]うん、要するに君を嫁にする。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……はい？
+[k]
+
+＠フィン
+楽しみだな、実に楽しみだ！　実に気持ちのいい約束だ！[r]では、さらば！　さらばなり！
+[k]
+
+[charaFadeout C 0.4]
+[wt 1.0]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ディルムッド
+…………（またあの人は、そういう…………）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠ディルムッド
+失礼。我が王のささやかな悪癖です。[r][#悪戯:いたずら]と思われましょうが、ああ見えて嘘偽りないお方。
+[k]
+
+＠ディルムッド
+あの御方はあなたの勇姿に参ってしまったのでしょう。[r]敗北した[#暁:あかつき]には、どうか降伏と恭順を考慮して戴きたい。
+[k]
+
+[charaFace D 0]
+＠ディルムッド
+では、さらば！　さらばです！
+[k]
+
+[charaFadeout D 0.4]
+[bgmStop BGM_EVENT_5 0.5]
+[wt 1.0]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……あの。[r]最後のあれは何だったのでしょうか。
+[k]
+
+？1：プロポーズされた
+？2：結婚を申し込まれた
+
+？！
+
+[charaFace A 3]
+＠マシュ
+そ、そうなんですか。[r]それはちょっと……驚きですね。
+[k]
+
+＠マシュ
+えっと……あの方自体には何も感想はないのですが、[r]その言葉自体はインパクトがあるというか……
+[k]
+
+＠マシュ
+動悸がするというか……すみません、[r]ちょっと深呼吸をさせてください。
+[k]
+
+＠マシュ
+スー、ハー。[r]スー、ハー。
+[k]
+
+[charaFadeout A 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+おーい、大丈夫かい？[r]ひとまず敵サーヴァントの反応は消えたようだけど、
+[k]
+
+＠Dr.ロマン
+代わりに別のサーヴァントが現れたようだ。[r]そちらに接近している。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+急いでナイチンゲールさんと合流しましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[soundStopAll]
+[end]

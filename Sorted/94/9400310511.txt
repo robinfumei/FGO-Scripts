@@ -1,0 +1,262 @@
+＄94-00-31-05-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 3002000 1 ランサー]
+[charaSet F 98059000 1 ケイネス]
+
+[scene 25800]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 2]
+[charaFadein C 0.4 0]
+＠マシュ
+霊脈基点、またひとつ確保です。[r]順調ですね、マスター。
+[k]
+
+＠フォウ
+フォウ、フォウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ああ。だがそろそろ約束の時間だ。ここで切り上げて[r]ランサーのマスターと交渉に向かおう。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+
+[scene 25700]
+
+[charaFadeout D 0.1]
+
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+[bgm BGM_EVENT_1 2.0]
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+本当に上手く行くのでしょうか……[r]なんとなく、酷薄そうな方のようで……。
+[k]
+
+？1：ああ、間違いなく冷血な魔術師だ……
+？2：うん、毛根なさげ禿頭な魔術師さ……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+任せておけ。ただし[%1]、[r]ケイネス卿との会話はすべて私に一任してもらいたい。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+いちおう念話のパスだけは繋げておくから内緒話は[r]可能だが、決して口を開かないように。いいな？
+[k]
+
+？1：お任せします
+？2：お手並み拝見です
+
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 25400]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ランサー
+……。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 0 5 0 2]
+
+[charaFace A 4]
+[charaFadein A 0.1 2]
+
+＠Dr.ロマン
+（なんか相手のサーヴァントは臨戦態勢ですよ！？）
+[k]
+
+＠マシュ
+（空気が重いです……Ⅱ世さん、一体どうやって[r]切り抜けるつもりなんでしょうか……）
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.4 1]
+＠ケイネス
+昨夜のうちにアーチゾルテに問い合わせた。ライネスの名代[r]などと、よくも根も葉もない法螺を吹いてくれたものだ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFace F 5]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+＠エルメロイ
+それでもなお我々との会見に応じてくださった、[r]という事は……。
+[k]
+
+[charaFace F 0]
+＠ケイネス
+問い糾したい事もまた別にある。[r]昨夜のキャスターについての思わせぶりな発言だが。
+[k]
+
+[charaFace F 5]
+＠ケイネス
+なぜ聖堂教会の動向を事前に知ることができた？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+それが私にとっての事後……遠い昔の記憶だからです。
+[k]
+
+＠ケイネス
+なに？
+[k]
+
+＠エルメロイ
+埠頭でサーヴァント戦が行われた翌朝、監督役が各陣営に[r]招集をかけキャスターの優先的抹殺とその報償を提示する。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+……私の知識は、それだけではありません。
+[k]
+
+＠エルメロイ
+あなたが当初この戦いにおいて召喚する予定だったのが[r]征服王イスカンダルだったこと。そのための聖遺物を、
+[k]
+
+＠エルメロイ
+時計塔の聴講生ウェイバー・ベルベットに盗まれ、やむ[r]なく代わりにディルムッド・オディナを使役していること。
+[k]
+
+[charaFace F 6]
+＠ケイネス
+どうしてそれを……。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+そのサーヴァントに魔力を供給しているのは貴方ではなく、[r]婚約者のソラウ・ヌァザレ・ソフィアリ嬢でしたね。
+[k]
+
+＠エルメロイ
+今は用心のため別室に控えているのでしょう。[r]まぁ警戒なさるのもご[#尤:もっと]も。
+[k]
+
+[charaFace F 6]
+＠ケイネス
+……。
+[k]
+
+[charaFace D 1]
+
+＠エルメロイ
+ああソラウ嬢といえば、貴方の書斎に[r]恋文の下書きが残されていましたよ。
+[k]
+
+＠エルメロイ
+ええと、たしか書き出しは、「麗しき我が想いの君よ、[r]その瞳には朝露の輝きを宿し……」
+[k]
+
+[charaFace F 2]
+＠ケイネス
+ええい、やめんか！　もういい！[r]貴様はいったい何者だ！？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+レディ・ライネスの名代であることは事実です。ただし[r]その肩書きを賜るのは、今から四年ほど後のことになります。
+[k]
+
+＠エルメロイ
+故にいま申し上げた諸々は、[r]すべて私の「過去の記憶」に属する事柄です。
+[k]
+
+[charaFace F 0]
+＠ケイネス
+……ほほう。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+そこで一笑に付さないところは、さすがアーチボルトの長、[r]といったところですな。
+[k]
+
+＠ケイネス
+時間渡航者か。そういう研究に血道を上げている輩も[r]いるとは聞いている。
+[k]
+
+＠ケイネス
+実現の目処などない、馬鹿げた探求だと思っていたが……[r]それにしても、もう少し納得のいく説明が欲しいところだ。
+[k]
+
+＠ケイネス
+魔法に手が届くほどの術理ともなれば、[r]当然、生半可なものではあるまい？
+[k]
+
+
+
+[charaFace D 1]
+＠エルメロイ
+それでは、かいつまんで説明させていただきます。[r]しばしご傾聴を。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_1 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

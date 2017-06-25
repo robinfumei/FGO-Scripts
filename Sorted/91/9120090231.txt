@@ -1,0 +1,67 @@
+＄91-20-09-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20720]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2009201 2 アルテミス]
+[charaSet E 2009102 2 オリオン]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[charaFace D 1]
+[charaFace E 5]
+[fadein black 1]
+[wait fade]
+＠アルテミス
+快勝ーっ！
+[k]
+
+＠アルテミス
+はー、いい汗かいた！
+[k]
+
+＠オリオン
+ぜー、ぜー、毎度のことながら、[r]このぬいぐるみ体での戦いはキツい……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アルテミス
+あ、ねーねーマスター！
+[k]
+
+＠アルテミス
+あのね、今後とも色々と、すごく色々と迷惑[r]かけるかもだけど[line 2]。
+[k]
+
+＠アルテミス
+これからも、よろしくね！
+[k]
+
+？1：分かってる
+
+？2：覚悟の上だ
+
+？！
+
+[charaFace D 1]
+＠アルテミス
+ありがと、えへへ！[r]あなた、オリオンの次に好きよ！
+[k]
+
+＠アルテミス
+好きな神様がいたら言ってね、[r]紹介してあげるから！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

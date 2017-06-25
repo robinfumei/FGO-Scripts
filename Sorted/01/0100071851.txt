@@ -1,0 +1,408 @@
+
+
+
+＄01-00-07-18-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 2020001 1 イシュタル]
+[charaSet F 98108300 1 ティアマト]
+
+[scene 35000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[charaShake F 0.05 3 3 1.0]
+[charaMove F 0,-100 1.0]
+[charaFadeout F 1.0]
+[wt 2.5]
+
+[bgm BGM_EVENT_4 0.1]
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+すごい、やったぞ……！[r]海中のティアマト神、霊基崩壊を確認！
+[k]
+
+＠Dr.ロマン
+魔力炉も停止した！[r]キミたちの攻撃が、あの泥ごとティアマト神を倒したんだ！
+[k]
+
+
+
+＠Dr.ロマン
+後は海の正常化を待って、[r]聖杯を回収すればミッションクリアだ！
+[k]
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.4 1]
+[wt 0.2]
+[wt 0.5]
+
+？1：やったね、マシュ
+
+？！
+
+[bgmStop BGM_EVENT_4 0.5]
+[charaFace B 6]
+[wt 1.0]
+[charaFace B 4]
+[bgm BGM_EVENT_5 0.1]
+＠マシュ
+…………あの、先輩。[r]ティアマト神との交戦中に感じた事なのですが、
+[k]
+
+＠マシュ
+彼女を縛っていたあの拘束具は、[r]彼女自身から生じていたものではないでしょうか。
+[k]
+
+？1：どういう[&事だ:こと]……？
+？2：ティアマト自身が自分を縛っていた……？
+
+？！
+
+[charaFace B 4]
+＠マシュ
+……確証はないのですが、そうとしか考えられなくて。[r]だってティアマト神は、その……
+[k]
+
+＠マシュ
+自分から、わたしたちの攻撃を受けていたんです。[r]わたしたちに命を預けるように。
+[k]
+
+＠マシュ
+でもそれを、わたしたちは感じ取れなくて……[r]ティアマト神は、聖杯の力で目覚めたようですが……
+[k]
+
+＠マシュ
+もしかしたら、ラフムが聖杯さえ届けなければ、[r]ずっと海中にいたままだったのではないでしょうか？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠ケツァル・コアトル
+だとしても結果は同じよ、マシュ。[r]ティアマト神は居るだけで人類にとっての脅威になる。
+[k]
+
+[bgmStop BGM_EVENT_5 5.0]
+
+＠ケツァル・コアトル
+魔術王に引き上げられたにせよ、[#唆:そそのか]されたにせよ、[r]こちらの世界に出てきた段階で倒すしかなかっ[line 3]
+[k]
+
+[charaTalk F]
+
+[bgmStop BGM_EVENT_5 0.4]
+[se ad14]
+[seVolume ad14 0 0.6]
+[shake 0.05 0 3 0]
+
+[charaTalk off]
+[charaFace C 5]
+[charaFace B 7]
+[wt 1.0]
+
+？1：地震……！？
+？2：ドクター、何事！？
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[line 3]霊基、再構成を確認。[r]いや、拡散からの[#超構造体:メガストラクチャ]に変化、[#存在規模:スケール]、上昇[line 3]
+[k]
+
+＠Dr.ロマン
+バカな。こんな生物が有り得るのか。[r]これはもう生き物じゃない。これは、これは[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[seVolume ad14 0.4 0.9]
+[shake 0.05 0 6 0]
+
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 6]
+＠ダ・ヴィンチ
+ペルシア湾の水位、急速に上昇！[r]第一波、湾岸到達まであと五、四、三[line 3]
+[k]
+
+＠ダ・ヴィンチ
+観測所、水没！[r]大波、指向性をともなってなお浸食！
+[k]
+
+＠ダ・ヴィンチ
+これは意図的なものだね！[r]このまま一直線にウルクを飲み込むつもりだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠イシュタル
+ちょっ、何よそれ、止められないの！？[r]ティアマト神は倒したんでしょう！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああ、だがボクらは勘違いをしていた！[r]あのティアマト神はただの頭脳体だ！
+[k]
+
+＠Dr.ロマン
+みんな、急いでその空域から離脱を！[r][#下から、本命が上がって来るぞ]……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.4]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaSet F 98013200 1 ティアマト]
+[shake 0.05 0 2 0]
+[scene 10000]
+[wt 0.1]
+[fadein black 0.5]
+[wait fade]
+[seStop ad14 0.4]
+[scene 35003 0.1]
+[wait scene]
+[wt 1.5]
+[cameraMove 2.0 80,-30 1.2]
+[wait camera]
+[wt 1.0]
+[se bac184]
+[se bac186]
+[shake 0.05 0 6 3.0]
+[scene 35001 1.0]
+[wt 0.4]
+[se ad36]
+[wait scene]
+[wt 1.0]
+[cameraHome 2.0]
+[wt 1.0]
+[se ad34]
+[seVolume ad34 0 0.4]
+[se ad226]
+[shake 0.05 0 10 2.5]
+[scene 35002 2.0]
+[wait scene]
+[wt 0.5]
+[shake 0.05 0 1 1.0]
+[wt 1.0]
+
+
+
+[bgm BGM_EVENT_24 0.1]
+＠マシュ
+[line 6]
+[k]
+
+＠イシュタル
+[line 6]
+[k]
+
+？1：[line 6]
+
+？！
+
+[messageOff]
+[se ad205]
+[effect bit_talk_voice01]
+[wt 2.0]
+
+＠ティアマト
+Aaaaaa[line 3][r]aaaaaaa[line 6]………………
+[k]
+
+[shake 0.05 0 4 0]
+[wait se ad205]
+[effectStop bit_talk_voice01]
+[shakeStop]
+[wt 0.7]
+
+＠Dr.ロマン
+……まさに怪物だ。
+[k]
+
+＠Dr.ロマン
+移動する生体工場。星間すら航行可能な魔力量。[r]体内に貯蔵した膨大な生命原種[line 3]
+[k]
+
+＠Dr.ロマン
+人類があと数百年かけて到達すべき神の箱船[line 3][r]これが[line 3]これが、ティアマト神の正体か！
+[k]
+
+
+＠イシュタル
+私たちを見てもいない……[r]まっすぐにウルクだけを[#睨:にら]んでいる……
+[k]
+
+＠イシュタル
+正直助かるけど、どうなのコレ！？[r]ケツァル・コアトル！　意見を言って！
+[k]
+
+＠ケツァル・コアトル
+ぜっっっっったいに勝てないわ！
+[k]
+
+＠ケツァル・コアトル
+だって大きさ違いすぎるデショウ！？[r]ルチャ最強の奥義、関節技が仕掛けられまセーン！
+[k]
+
+？1：そりゃそうだ
+
+＠ケツァル・コアトル
+イエース！　いいボケです[%1]！[r]ユーモアは大切ネ！
+[k]
+
+？2：ケツァル・コアトルは大きくなれないの？
+
+＠ケツァル・コアトル
+無理に決まってます！[r]神にだって質量保存の法則は働くのです！
+[k]
+
+＠ケツァル・コアトル
+あんなのはもう大絶滅以前の、[r]創世記だけの権能です！　宇宙人でも倒せないヨ！
+[k]
+
+？！
+
+＠Dr.ロマン
+ケツァル・コアトル。キミが持つ本当の宝具……[r]全力の権能でも、このティアマトは倒せないのか？
+[k]
+
+＠ケツァル・コアトル
+……そうね。期待を持たせるのは残酷だから、[r]そこははっきりと断言しておきましょう。
+[k]
+
+＠ケツァル・コアトル
+たとえイシュタルの権能でも、[r]いまメソポタミアにあるどんな手段を使っても[line 3]
+[k]
+
+＠ケツァル・コアトル
+このティアマト神には、傷一つ付けられません。
+[k]
+
+＠Dr.ロマン
+……そうか。ありがとう、こちらも状況が分かった。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[scene 35000]
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 5]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+
+＠Dr.ロマン
+[%1]君、撤退だ！[r]至急ウルクに戻り、ギルガメッシュ王と合流する！
+[k]
+
+＠Dr.ロマン
+我々だけでは手の打ちようがない以上、[r]戦力を集めるしかない！
+[k]
+
+？1：はい！
+？2：了解、ドクター！
+
+？！
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+いい返事だ、まだキミの心は折れていない！[r]なら手段は必ず残されている！
+[k]
+
+[charaTalk F]
+[se bac184]
+[seVolume bac184 0 0.5]
+[shake 0.05 0 6 0.7]
+[wt 0.4]
+[se ad36]
+[seVolume ad36 0 0.5]
+[wt 0.7]
+
+[charaTalk A]
+[communicationCharaFace 5]
+＠Dr.ロマン
+っと、ティアマトが前進した……！？[r]動けるのか、あの比重、あの巨体で！？
+[k]
+
+
+[messageOff]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+[communicationCharaClear]
+[wait communicationChara]
+[scene 35002]
+[wt 0.2]
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[se ad205]
+[effect bit_talk_voice01]
+
+＠ティアマト
+[f large]Aaaaaa[line 3]Aaaaaaaaaa[line 3]！
+[k]
+
+[messageOff]
+[seStop ad205 0.5]
+[se bac184]
+[shake 0.05 0 10 1.0]
+[wt 0.4]
+[se ad36]
+[wt 1.7]
+[effectStop bit_talk_voice01]
+[wipeout leftToRight 0.3 1]
+[wait wipe]
+[scene 35000]
+[wt 0.2]
+[wipein rightToLeft 0.3 1]
+[wait wipe]
+[charaTalk D]
+[communicationCharaLoop 5009003 1 5 0 6]
+＠ダ・ヴィンチ
+海洋浸食、第二波、来た……！[r]いけない、この勢いはウルクまで到達する……！
+[k]
+
+[wt 0.4]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_24 1.4]
+[wait fade]
+[soundStopAll]
+[end]

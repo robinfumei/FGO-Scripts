@@ -1,0 +1,314 @@
+
+
+＄94-00-77-04-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 5012001 1 ニトクリス]
+[charaSet E 1010001 1 エリザベート]
+
+[scene 20115]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠エリザベート
+……意外と大したことなかったわ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadeTime C 0.1 0.5]
+[wt 0.1]
+＠ニトクリス
+お、おかしいです！[r]守護獣スフィンクスがこんなに弱いはずは[line 3]
+[k]
+
+？1：環境が合わなかったんじゃ……
+
+[charaFace C 8]
+＠ニトクリス
+それです！[r]迂闊……暖房器具も用意すべきでした！
+[k]
+
+？2：疲れていたようだけど
+
+[charaFace C 8]
+＠ニトクリス
+……はっ！[r]エジプトからの長旅による疲労……！
+[k]
+
+[charaFace C 4]
+＠ニトクリス
+環境にも適応できなかったのでしょうか！[r]迂闊……！
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠エリザベート
+さあ、とうとうご対面よ！
+[k]
+
+
+[se ad59]
+
+[charaMove E -1024,0 0.4]
+[wait charaMove E]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[seStop ad59 1.5]
+[wt 1.5]
+
+[scene 20115]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+[wt 0.1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.4 1]
+
+＠ニトクリス
+難関に次ぐ難関を突破し、[r]遂にここまで辿り着きましたね。
+[k]
+
+[charaFace C 2]
+＠ニトクリス
+褒めて差し上げましょう！[r]しかしここまでです！
+[k]
+
+[charaFace C 0]
+＠ニトクリス
+何故なら、私は素晴らしく強いのです！[r]ひたすら引き籠もって、魔術の研鑽をしていたのですから！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠エリザベート
+[line 3]なんて奴なの。[r]引き籠もりを自慢げに語るなんて……！
+[k]
+
+[charaFace E 7]
+＠エリザベート
+っていうか平気なの？　[#私:アタシ]は暗くて狭いとことか、[r]もう最悪に苦手なんだけど。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠ニトクリス
+私もそうです！　ですが、今はここが冥府の国！[r]暗黒のファラオ力を高めるにはここしかないのです！
+[k]
+
+[charaFace C 8]
+＠ニトクリス
+ええ、はい。[r]正直、西洋の価値観は自虐的すぎると思います。
+[k]
+
+＠ニトクリス
+エジプトの冥界は広く、過ごしやすく、カラッとしている[r]というのに……なぜ死をマイナスに捉えるのか……
+[k]
+
+[charaFace C 7]
+＠ニトクリス
+いえ、肉体が滅び、魂となったものをなぜ苛むのか……[r]アナタがたの神は、もしや人間が嫌いなのでは？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠エリザベート
+……言うじゃない。なかなかシニカルじゃない。[r]アナタ、体育会系に見えたけど、実は文系？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠ニトクリス
+ぶん……？[r]いえ、私はどちらかというと呪い系で……
+[k]
+
+[charaFace C 6]
+＠ニトクリス
+ファラオとして親書なども書きましたが、[r]基本的には[#呪:まじな]いの文言をですね……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠エリザベート
+つまりベースね！
+[k]
+
+[charaFace E 0]
+＠エリザベート
+重苦しくもナイフのような音を相手に刻む……[r]バンドの味を占める縁の下の力持ち！
+[k]
+
+[charaFace E 7]
+＠エリザベート
+でもたいていはギターの旋律の下に隠されるのよね。[r]メロディを奏でるギター、音程を刻むベース……
+[k]
+
+[charaFace E 4]
+＠エリザベート
+ああ、なんて悲しい！　[wt 0.2]ベースは孤独な、[r]け[charaFace E 1]ど一番ロックな役職だと思うの、[#私:アタシ]！
+[k]
+
+[charaFace E 0]
+＠エリザベート
+アナタ、顔に似合わず苦労人なのね！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ニトクリス
+ベースとやらはよく分かりませんが、[r]苦労人、という評価にはそれなりに感謝しましょう！
+[k]
+
+[charaFace C 1]
+＠ニトクリス
+そしてアナタも中々の苦労人と見ました！[r]特に、アナタの周りにいる方々の苦労がすごい！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠エリザベート
+ええ、もちろん！[r]あれ？　[charaFace E 7]今の褒められたのよね、[#私:アタシ]？
+[k]
+
+？1：もちろんだよ
+
+[charaFace E 1]
+＠エリザベート
+そうよね！[r]敵ながらやるじゃない、あのシマシマ！
+[k]
+
+？2：さすがニトクリス……微妙にズレてる……
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+うん。物事を瞬時に把握する洞察力を持ちながら、[r]なぜ結論がこうも斜めにズレるんだろうね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+？！
+
+[charaFace E 2]
+＠エリザベート
+認めるわ。あの女は中々の強敵だって！[r]だからこそ奇策はなし。真っ向勝負よ……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ニトクリス
+ふふ、腕が鳴りますね。[r]こんな[charaFace C 7]状況でなければ、私たちは[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠エリザベート
+ええ、きっと友達になれたかもしれないわ……！[r]でも、そんな未来はなかった。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠ニトクリス
+悲しいですが、その通り。[r]さあ、勝負です……！！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？1：やっぱり気が合うのでは……？
+？！
+
+[charaTalk off]
+
+[charaFace C 2]
+[charaFace E 2]
+[charaFadein C 0.1 0]
+[charaFadein E 0.1 2]
+＠二人
+[f large][messageShake 0.05 5 5 0.7]あーわーなーいー！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+
+[charaTalk on]
+
+[soundStopAll]
+[end]

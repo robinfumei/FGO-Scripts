@@ -1,0 +1,185 @@
+＄01-00-06-13-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet F 6002001 1 呪腕のハサン]
+[charaSet G 6003001 1 百貌のハサン]
+[charaSet E 5022001 1 ？？？]
+[charaSet H 5022001 1 ttt]
+
+[backEffect bit_talk_haboob_02]
+[se ad2]
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+[seStop ad2 4.0]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠百貌のハサン
+風が出てきたな……ククク。[r]我らにとって砂嵐など[#揺籃:ようらん]の習い。まさに吉兆よ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠呪腕のハサン
+ああ、分かりづらくて申し訳ない。[r]百貌めはこう言いたいのですよ。
+[k]
+
+＠呪腕のハサン
+“砂嵐であれば聖都の兵に見つかるまい、[r][f small]  [f -]我々はツイている。今のうちに急ごう！”と。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠百貌のハサン
+いちいち通訳せずともよいわ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+わたしたちだけでは迷子になる砂嵐ですが、[r]ハサンさんたちがいるなら安心ですね。
+[k]
+
+＠マシュ
+これなら聖都軍に接触する事なく、[r]速やかに砦まで行けそうです。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いや、申し訳ないがサーヴァント反応だ！[r]キミたちの進行方向に一騎、凄まじい反応だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠百貌のハサン
+サーヴァント反応だと……！[r]強いのか！？　Ａランクの強者か！？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あ、いや、ごめん！　訂正する！[r]凄いというより面白い反応だ！
+[k]
+
+＠Dr.ロマン
+なんていうか、キラキラしていて、それでいて[r]ふわふわしていて、でもガッシリしている！
+[k]
+
+＠Dr.ロマン
+円卓の騎士では有り得ない、[r]カラー豊かなサーヴァントの反応だ！
+[k]
+
+？1：それって色モノ……
+？2：強敵の予感……！
+
+？！
+
+＠？？？
+きゃあああああああ[line 2]っ！
+[k]
+
+＠？？？
+たすけてぇ[line 3]！[r]誰か何とかしてぇ[line 3]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+聞こえました、女性の悲鳴です！[r]マスター！
+[k]
+
+？1：助けに行こう！
+？2：女性を襲う英霊だと……！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああ、ともすれば反英雄かも知れない！[r]サーヴァント戦闘だ。充分に注意してくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠百貌のハサン
+なっ……相手の力量も計らないうちに[r]助けに向かうのか、あの愚か者は！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+[charaFace F 1]
+[charaFadein F 0.1 2]
+＠呪腕のハサン
+いやいや。今回は本能より理屈が上回ったと見える。[r]人助け、という理屈がな。
+[k]
+
+＠呪腕のハサン
+[%1]殿は、あれで危険感知は一流だ。[r]勝ち目のない戦いであれば、もう少し躊躇するぞ？
+[k]
+
+[charaFace G 2]
+＠百貌のハサン
+それでも躊躇するだけか！[r]本当に愚か者だな！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

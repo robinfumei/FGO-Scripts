@@ -1,0 +1,306 @@
+
+＄91-40-02-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4002001 1 イスカンダル]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠イスカンダル
+……むう。手合わせをして納得したわ。[r]これは戦ではない。災厄の類だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+というと？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠イスカンダル
+敵の拳に熱がない。情念や血の[#滾:たぎ]りを感じない。[r]あれらは[#蝗:イナゴ]や疫病の眷属だ。断じて戦士ではない。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……えっと。[r]ようは、[charaFace A 12]血が通っていない亡霊だと？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠イスカンダル
+ふむ、あのような連中が[#跳梁跋扈:ちょうりょうばっこ]しているとあっては、[r]さすがに看過できんな。これは。
+[k]
+
+？1：あなたの協力が必要なんだ
+？2：放っておくと後悔します
+
+？！
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaFace D 0]
+＠イスカンダル
+応よ。新たなる征服の前哨に、[r]まずはこの災厄を収束させる必要がありそうだ。
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+＠イスカンダル
+いささか奇妙な成り行きではあるが、此度の召喚、[r]我が剣を助力として差しだそうぞ。マスターよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠Dr.ロマン
+うんうん！　これこそがサーヴァントとの協調だ！[r]交渉次第で何とかなるものだろう、マシュ？
+[k]
+
+＠Dr.ロマン
+正直、マケドニアの王と聞いて身構えていたけど[r]大した人物だ！　粗雑ではない豪快さ、と言うのかな！
+[k]
+
+[charaFace A 8]
+＠マシュ
+交渉というか……　どうにも肉体言語だけで[r]勝手に納得されてしまっただけに思えますが。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠イスカンダル
+さて！　そうと決まれば諸々の[r]下準備が必要になるな。
+[k]
+
+[charaFace D 5]
+＠イスカンダル
+場所が変わり時代が変われば軍略もまた変わる。[r]余はこの時代についてより深く理解しなければ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+おお、世界征服に挑んだ偉人の言葉は[r]さすがに説得力が違うね！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠イスカンダル
+サーヴァントとしての召喚に伴い与えられた[r]知識だけでは、いかんせん実感がない。
+[k]
+
+[charaFace D 3]
+＠イスカンダル
+やはり現物を、こう、肌で味わってみないと、[r]だな……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+それでは具体的に、[r]どういった準備が必要でしょうか？
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+まずは書物による情報。それと地図だ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+……そこまで周到に軍略を練るタイプとは、[r]ちょっと意外です。
+[k]
+
+[charaFace D 3]
+＠イスカンダル
+当然であろうよ。異国の探索にガイドは必須[r]通訳は必要なくても、指標となる書は欲しい。
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+見所スポットとご当地グルメ、混雑する時間帯、[r]委細漏らさず詳細に記述されたものを用意せよ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_4 0.5]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+……は？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠イスカンダル
+あとは……服だな。食と宿泊だけでは[r]現地の文化を堪能したとは言えない。
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+その国に独自の装束！　着るモノが変われば[r]歩き方座り方も、物事の見え方も変わる。
+[k]
+
+＠イスカンダル
+家臣どもはいつも難色を示しておったがな。[r]いや面白いもんなんだぞ、うん。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+……なんという“欲しいものはすべて手に入れる”笑顔……[r]これほどの王気はギルガ……いえ、別の王様以来ではないかと。
+[k]
+
+＠マシュ
+イスカンダル王にこう言われると[r]お財布の紐も緩くなると言わざるを得ません。
+[k]
+
+[charaFace A 2]
+＠マシュ
+これがゴルディアスの結び目をも断った発言力！[r]流石は先輩が引き当てたサーヴァントです！
+[k]
+
+？1：そんなことはない！
+？2：そうかもしれない！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+まぁ、うん、その、えーとだね……[r]雨の中で傘を差さずに踊る者がいてもいい。
+[k]
+
+＠Dr.ロマン
+同じように、観光旅行と征服戦争を[r]混同してる王様がいてもいいんじゃないかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 4]
+＠フォウ
+フォ～ウ？？？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+つまり何が言いたいかといえば、この英霊の[r]状況認識がどのような形であろうと……
+[k]
+
+＠Dr.ロマン
+穏便な協力関係を結んだ上で我々の戦力に[r]なるのなら、大した問題ではないか……な？
+[k]
+
+
+
+
+？1：そうかもしれない……
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠イスカンダル
+ぬはは！　頼もしいではないか。
+[k]
+
+＠イスカンダル
+我が契約者たるもの、そのくらいの度量が[r]なくてはな！
+[k]
+
+？2：そんな事はないかもしれない……
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠イスカンダル
+ぬはは！　まぁそう怖がることはない。[r]人生もまた戦。結局は楽しんだ者の勝ちだ！
+[k]
+
+＠イスカンダル
+いかな苦境にあっても存分に食らい！[r]謳い！　憩うては思索せよ！
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ……（呆れ果てた風に）
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

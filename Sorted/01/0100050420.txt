@@ -1,0 +1,1255 @@
+
+＄01-00-05-04-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5023001 1 ブラヴァツキー]
+[charaSet C 3004001 1 カルナ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 5025001 1 エジソン]
+[charaSet F 99363000 1 機械化歩兵]
+[charaSet G 98003000 1 Dr.ロマン]
+[charaSet H 98002000 1 フォウ]
+
+[scene 20423]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠ブラヴァツキー
+さ、到着。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……アメリカにあるまじき城塞ですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+ホワイトハウスは奪われちゃったし、[r]仕方ないのよ。
+[k]
+
+[charaFace B 0]
+＠ブラヴァツキー
+城は一から作ったわ。やっぱりほら、[r]ケルトにはケルトへの対策を施さないとね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠機械化歩兵
+ブラヴァツキー夫人、カルナ様。[r]大統王がお待ちかねです、すぐにおいでください。
+[k]
+
+[charaFadeout F 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+き、聞き間違いかな。[r]だいとうおう、とか言わなかった、いま？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、間違いなく……たいへん言いづらいのですが、[r]すごく……短絡的と言うか……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+でしょ？　でもそこがいいのよね。[r]私たちからは出ない発想だし。
+[k]
+
+＠ブラヴァツキー
+さ、ついてきて。[r]王様、ああ見えて気が短いから。
+[k]
+
+[charaFadeout B 0.1]
+
+[se ad51]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+……この先に、あなたの雇い主がいるのですね？
+[k]
+
+？1：ナイチンゲール、待って！
+？2：戦闘態勢、待ったなしですか！？
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠カルナ
+待て。それは悪手だナイチンゲール。[r]もうしばらくその撃鉄は休ませてやれ。
+[k]
+
+＠カルナ
+世界の兵士を癒そうと言うのなら、病巣を把握しろ。[r]それとも、おまえも短絡的なのか？
+[k]
+
+＠ナイチンゲール
+……その間に、兵士たちが死んでいく。[r]それに耐えろと言うのですか？
+[k]
+
+＠カルナ
+そうだ。慣れることなく耐えてくれ。[r]おまえには難しいだろうが、これも試練だ。
+[k]
+
+[charaFace C 4]
+＠カルナ
+それとも長期的な治療は主義にもとるのか？[r]だとすれば[line 3]
+[k]
+
+[charaFace C 5]
+＠カルナ
+手の施しようがないのはどちらだ？[r]おまえの方か、この大地の方か？
+[k]
+
+[charaFace D 7]
+＠ナイチンゲール
+なんですって？[r]私の医療が、間違いだとでも？
+[k]
+
+[charaFace C 0]
+＠カルナ
+そうではない。間違いは誰にでもある、という事だ。[r]自身の考えだけが絶対だと信じた時、人間は破滅する。
+[k]
+
+＠カルナ
+……ともあれ。おまえがここで無為な死を迎えれば、[r]それこそ意味が無かろう。
+[k]
+
+＠カルナ
+何事にも順序がある。ここで一時の敵を倒したところで、[r]更なる悪が栄えるだけかもしれんぞ。
+[k]
+
+
+[charaFace D 1]
+＠ナイチンゲール
+[line 2]なるほど、ご高説はよく分かりました。[r]では、この銃はしまっておきましょう。
+[k]
+
+[charaFace C 4]
+＠カルナ
+……まったく。これ以上ないほどの虚言だな。[r]ブラヴァツキー、オレは彼女の行動を監視する。
+[k]
+
+[charaFace C 0]
+＠カルナ
+この世界で唯一のマスターとそのサーヴァントは[r]おまえが面倒を見てくれ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+はいはい、分かりましたよ～。[r]では、我らが王様に拝謁してもらいますか！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+[wt 1.0]
+[scene 20904]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠ブラヴァツキー
+連れてきたわよ、王様～。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠機械化歩兵
+了解しました。[r]大統王閣下がご到着されるまで、あと一分です。
+[k]
+
+[charaFadeout F 0.1]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……緊張してきましたね、先輩。[r]一体どんな王さまなんでしょうか……
+[k]
+
+？1：微妙に嫌な予感がする
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+その予感は当たっているかもだ。
+[k]
+
+＠Dr.ロマン
+新しいサーヴァント反応が近づいてきているけど、[r]これがどうも奇妙というか……
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+うーん……これ、ほんとに英霊なのかなあ？
+[k]
+
+[charaFace A 7]
+＠マシュ
+奇妙……ですか。[r]ドクター、それは一体どんな風に？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+いや、憶測でキミたちに先入観は与えたくない。[r]ともかく、すべては本人と面会してからだ。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.4]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠機械化歩兵
+お待たせ致しました。[r]大統王閣下、ご到着です！
+[k]
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_12 0.1]
+
+[charaTalk E]
+＠E：？？？
+おおおおおおおお！[r]ついにあの天使と対面する時が来たのだな！
+[k]
+
+＠E：？？？
+この瞬間をどれほど焦がれた事か！
+[k]
+
+＠E：？？？
+ケルトどもを駆逐した後に招く予定だったが、[r]早まったのならそれはそれで良し！
+[k]
+
+＠E：？？？
+うむ、予定が早まるのはいい事だ！[r]納期の延期に比べればたいへん良い！
+[k]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+……はあ。歩きながらの独り言は治らないのよねぇ。[r]独り言はもう少し小声でやってくれないものかしら。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+今のは独り言なんですか！？
+[k]
+
+[charaFace A 7]
+＠マシュ
+す、すごい声量です先輩……！[r]人間の限界を超えています！
+[k]
+
+[charaFadeout A 0.1]
+
+[messageOff]
+[se ad55]
+[wt 1.0]
+[seStop ad55]
+[se ad35]
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠E：？？？
+[line 3]率直に言って大義である！[r]みんな、はじめまして、おめでとう！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+？1：……。
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+……。
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[communicationChara 98003003 1 5 0 1]
+＠Dr.ロマン
+あれー？　モニターの故障かなー？[r]クリーチャーしか映ってないぞぅ－？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠E：？？？
+もう一度言おう！[r]諸君、大義である、と！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+ね、驚いたでしょ。[r]ね、ね、ね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠カルナ
+……それはまあ、驚くだろうな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+い、いえ、確かに驚きましたが……[r]大丈夫、こういうのにはわりと慣れてきましたので……
+[k]
+
+[charaFace A 0]
+＠マシュ
+それより、あの……あなたがアメリカ西部を[r]支配する王さま……なのですね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：？？？
+いかにもその通り。
+[k]
+
+＠E：？？？
+我こそはあの野蛮なるケルトを粉砕する役割を[r]背負った、このアメリカを統べる王[line 3]
+[k]
+
+[charaFace E 1]
+＠E：？？？
+サーヴァントにしてサーヴァントを養うジェントルマン！[r]大統王、トーマス・アルバ・エジソンである！！
+[k]
+
+[wt 0.4]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え！？
+[k]
+
+＠Dr.ロマン
+じ！？
+[k]
+
+？1：ソンな馬鹿な！？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+[line 6]。[r]いえ、失礼。絶句してしまいました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+エジソン……発明王エジソンですか？[r]あなたが？　キメラではなく？
+[k]
+
+[charaFace E 1]
+＠エジソン
+いかにも。[r]今は発明王ではなく、大統王であるが。
+[k]
+
+[charaFace E 3]
+＠エジソン
+そして貴女がフローレンス・ナイチンゲール嬢ですな。[r]……報告にある通り、美しい……
+[k]
+
+＠エジソン
+不幸にも生前に知り合う機会はありませんでしたが、[r]今この瞬間こそエネルギーの、いや、魂の奇蹟でしょう。
+[k]
+
+[charaFace E 1]
+＠エジソン
+私は戦場に生きるものではありませんが、[r]だからこそ貴女の信念を、理性を尊敬する。
+[k]
+
+＠エジソン
+是非、力を貸していただきたい。[r]医療の発展はもちろん、兵士の士気向上[line 3]
+[k]
+
+＠エジソン
+広告塔としての効果は計り知れないのだからな！[r]ははははははははははははは！
+[k]
+
+＠ナイチンゲール
+……人間ではなかったとは知りませんでした。
+[k]
+
+？1：控えめに言って……猫科的な……？
+？2：うまく比喩すると……サバンナ的な？
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠エジソン
+何を言う。[r]私はまごうことなき[#人間]である。
+[k]
+
+＠エジソン
+人間とは理性と知性を持つ獣の上位存在であり、[r]それは肌の色や顔の形で区別されるものではない。
+[k]
+
+＠エジソン
+私が獅子の頭になっていたところで、[r]それが変わる訳でもない。
+[k]
+
+＠エジソン
+私は知性ある人間、エジソン。[r]それだけのことである。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……すごいな、言い切ったよこの英霊……。[r]そのポジティブさ、ボクも見習いたい……。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+要するに生前は人間だったけど、[r]召喚されたら獅子の頭になっていて、
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+でも知能が劣化した訳でもないから問題ない！と。[r]いやあ、まさに合理主義の化身だね、このライオン！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター！　みなさん空気を読んで、[r]その名称だけは口にしなかったのに！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+まあ、仕方ないわよね。だってライオンだもん。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠エジソン
+雷音……いい響きだ。[r]そして今のは魔術による遠隔通信かね？
+[k]
+
+[charaFace E 0]
+＠エジソン
+電話で事足りる時代に生きているだろうに、[r]そのような不便なものに搦め捕られているとは。
+[k]
+
+＠エジソン
+やはり生粋の魔術師は非合理的であるな。[r]せっかくの霊界チャンネルの使い所を間違っている。
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+あ、え？　あのですね、電話回線はあれでしょ、[r]同じ空間にしか届きませんよね？
+[k]
+
+＠Dr.ロマン
+こっちはより多機能で、時間と空間をわりとこう、[r]ふわーっと泳ぐ超空間航法的な通信なんですが……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠エジソン
+ほう。では君はこの時代にいないのか！
+[k]
+
+[charaFace E 0]
+＠エジソン
+むう。異なる時代へと通信を送ることができるのは、[r]確かに便利なものだが……ふむ。
+[k]
+
+＠エジソン
+魔術と科学は近しいもの。[r]キミにできて私にできない道理はない。
+[k]
+
+＠エジソン
+電話通信でも同じことができるか試してみたいな。[r]いや、その前に霊フォンの開発をだな……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+はいはい、ミスタ・エジソン。[r]発明はまた今度ね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠エジソン
+……それもそうだな。
+[k]
+
+[charaFace E 0]
+＠エジソン
+さて、キミの名前は[%1]……だったな。[r]この世界において、唯一のマスターよ。
+[k]
+
+＠エジソン
+単刀直入に言おう。四つの時代を修正したその力を[r]活かして、我々と共にケルトを駆逐せぬか？
+[k]
+
+？1：どうしてそれを！？
+
+＠エジソン
+知っているとも。ある人物がな、[r]それを私に知らせてきやがったのだ。
+[k]
+
+[charaFace E 5]
+＠エジソン
+この世で最低最悪のろくでなし！[r]憎っくきあのすっとんきょうめが、
+[k]
+
+[charaFace E 1]
+＠エジソン
+“こんな事があったのだが、私は息災だ。[r]　君にはこんな大冒険はないだろうエジソン君”
+[k]
+
+[charaFace E 5]
+＠エジソン
+などとな！[r]実に不愉快極まる！
+[k]
+
+[charaFace E 0]
+＠エジソン
+[line 3]いや、まあ。今はそれはいい。[r]とにかくケルト人を駆逐するのだ。
+[k]
+
+？2：ケルトを駆逐する理由は？
+
+[charaFace E 4]
+＠エジソン
+むう。口にするまでもない事だと思うが。
+[k]
+
+[charaFace E 0]
+？！
+
+＠エジソン
+言うまでもなく、[r]ケルト人どもは時代を逆行している。
+[k]
+
+＠エジソン
+アメリカ合衆国は資本と合理が生み出した[r]最先端の国家だ。
+[k]
+
+＠エジソン
+この国は我々のものであり、[r]知性ある者たちの住処だ。
+[k]
+
+[charaFace E 4]
+＠エジソン
+だというのに、ヤツらめ、プラナリアの如く増え続け、[r]その兵力の差でアメリカ軍は敗れ去った。
+[k]
+
+[charaFace E 1]
+＠エジソン
+しかし幸いなるかな、[r]この国には英霊たる私が降臨した！
+[k]
+
+＠エジソン
+私が発案した新国家体制、新軍事体制によって[r]戦線は回復し、戦況は互角となった。
+[k]
+
+＠エジソン
+フ[line 3]まさに野蛮人どもよな。[r]大量生産において私と覇を競い合うなど愚の骨頂。
+[k]
+
+＠エジソン
+いずれ我が機械化兵団は地を埋め尽くし、[r]憎っくきケルトどもを殲滅するだろう。
+[k]
+
+[charaFace E 0]
+＠エジソン
+しかし……それでも懸念材料はある。[r]……将、つまりサーヴァントの数が足りぬのだよ。
+[k]
+
+＠エジソン
+我々には統率された軍隊があるが、[r]一騎当千のエースがいない。
+[k]
+
+＠エジソン
+一方、敵にはケルトの名高き蛮人が列を成している。
+[k]
+
+＠エジソン
+せっかく取り戻した拠点も[r]サーヴァントひとりに取り戻されてしまうのだ。
+[k]
+
+＠エジソン
+サーヴァントを倒せるものはサーヴァントのみだからな。[r]こちらのサーヴァントは私を含めて三騎。
+[k]
+
+＠エジソン
+他に召喚されたサーヴァントは散り散りで、[r]こちらにつく素振りも見せぬ。
+[k]
+
+＠エジソン
+私に理性がなければ、[r]まさに絶叫している状況と言えるだろう。
+[k]
+
+[charaFace E 5]
+＠エジソン
+アメリカを救うべき英霊たちが、敵を恐れて戦いを[r]拒否するなど、怠慢にも程があると……！
+[k]
+
+[charaFace E 2]
+[se ad17]
+[wait se ad17]
+
+[wt 0.7]
+
+？1：絶叫しちゃったよこのライオン……！
+？2：……理性、あるんですよね……？
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+お、落ち着いて下さい、ミスタ・プレジデント！
+[k]
+
+[charaFace A 12]
+＠マシュ
+その……世界を救うというならば[r]我々も協力するにやぶさかではありませんので……。
+[k]
+
+[charaFace E 1]
+＠エジソン
+おお！　キミは話が分かる！[r]実にいい、食いつきたくなるボディだ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 2]
+＠フォウ
+フォウ！　フォーウ！
+[k]
+
+[se bac9]
+[wait se bac9]
+
+[charaShake E 0.05 3 0 0.15]
+
+[charaFace E 4]
+＠エジソン
+これ、たたくな、噛むな小動物よ！[r]今のは感動の表現だ、私は淑女に手はあげん！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+……二つほど聞いてよろしいですか？
+[k]
+
+[charaFace E 0]
+＠エジソン
+うむ、なにかね。[r]他ならぬ貴女の言葉だ、真摯に答えよう。
+[k]
+
+[charaFace E 1]
+＠エジソン
+紳士、真摯に答える[line 3]おお、エレガンティック！[r]カルナ君、今のを大統王録に記しておいてくれたまえ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[wt 0.6]
+[charaFace C 1]
+[wt 0.8]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+……一つ目の質問です。[r]ここに到着するまで何度か機械化兵団を見ましたが……
+[k]
+
+＠ナイチンゲール
+あれは貴方の発案なのですか。[r]あなたの言う新体制の目指すところだと？
+[k]
+
+[charaFace E 1]
+＠エジソン
+うむ、その通りである！[r]この国難を打破するため、私は一つの結論に到達した！
+[k]
+
+＠エジソン
+国家団結、市民一群……いや、一軍となっての新生！[r]老若男女、分け隔ての無い国家への奉仕！
+[k]
+
+＠エジソン
+いずれ、すべての国民が機械化兵団となってケルトを[r]侵略者を討つだろう。
+[k]
+
+[charaFace E 0]
+＠エジソン
+無論、そのためには大量生産ラインを[r]維持しなくてはならない。
+[k]
+
+＠エジソン
+各地に散らばった労働力の確保。[r]一日二十時間の労働。休む事のない監視体制。
+[k]
+
+＠エジソン
+無論、福利厚生も最上級のものを用意する。[r]娯楽なくして労働なしだからな。
+[k]
+
+[charaFace E 1]
+＠エジソン
+我々は常人の三倍遊び、三倍働き、三倍勝ち続ける！[r]これが私の目指す、新しいアメリカの姿である！
+[k]
+
+？1：……三倍楽しいなら、いいのかな……？
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+よくないよ、娯楽にだって限度がある！[r]人並みでいいんだって、人並みで！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：……人間の限界を知らないのかな……？
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+同感です……エジソン氏のプランには[r]肉体の限界が考慮されていないと断言します。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+……そんなところに拘っているのですか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠エジソン
+ん？　いま、なんと？
+[k]
+
+＠ナイチンゲール
+いえ、独り言です。気になさらずに。
+[k]
+
+＠ナイチンゲール
+では二つ目の質問です。[r]いかにして世界を救うつもりなのですか。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+それでしたら、聖杯を確保すれば達成されます。
+[k]
+
+＠マシュ
+ケルト軍を打ち倒して聖杯を手に入れ、[r]そして時代を修正する。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ケルト軍の誰が聖杯を所有しているかは不明ですが、[r]聖杯さえ確保できれば後はわたしたちが……
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_12 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠エジソン
+いいや、時代を修正する必要はない。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……？
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠エジソン
+必要はない。聖杯があれば、私が改良することで[r]時代の焼却を防ぐこともできよう。
+[k]
+
+＠エジソン
+そうすれば、他の時代とは全く異なる時間軸に[r]このアメリカという世界が誕生することになる。
+[k]
+
+[charaFace A 14]
+＠マシュ
+な……そんなことが可能なのですか！？
+[k]
+
+＠エジソン
+聖杯の力は、召喚された我々にもよく分かっている。[r]充分に可能だという結論が出た。
+[k]
+
+？1：他の時代はどうなる？
+？！
+
+＠エジソン
+[line 2]滅びるだろうな。
+[k]
+
+[charaFace A 2]
+＠マシュ
+それでは意味がありません！
+[k]
+
+[charaFace E 1]
+＠エジソン
+何を言う。[r]これほど素晴らしい意味があろうか。
+[k]
+
+＠エジソン
+このアメリカを永遠に残すのだ。[r]私の発明が、アメリカを作り直すのだ。
+[k]
+
+＠エジソン
+ただ増え続け、戦い続けるケルト人どもに示してくれる。[r]私の発明こそが人類の光、文明の力なのだとな！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+……その為に戦線を広げるのですか。[r]戦いで命を落とす兵士たちを切り捨てて。
+[k]
+
+[charaFace E 0]
+＠エジソン
+……すべての兵士を救うために奮戦した[r]貴女らしい告発だ、ナイチンゲール婦長。
+[k]
+
+[charaFace E 4]
+＠エジソン
+私とて……私とて、う、ぐ、[r]切り捨てたくて切り捨てるのではない、が[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+エジソン、落ち着いて。[r]フローレンスの言葉はただの意見よ。告発ではないわ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠エジソン
+……承知している。[r]今のはいつもの頭痛だ、気にしないでいい。
+[k]
+
+＠エジソン
+いいかね、ナイチンゲール嬢。
+[k]
+
+＠エジソン
+今の我々[line 3]私にとってはこの国が全てだ。[r]王たるもの、まず何より自国を守護する責務がある。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+で、ですが！
+[k]
+
+＠マシュ
+英霊であるなら、世界を守る義務が……[r]理想が、願いがあるはずです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+……そうですね。今の私ですら、[r]理性の隅でそう考えるところがあります。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠ナイチンゲール
+ミスターエジソン。それを否定するのなら、[r]ただの愛国者にすぎません。
+[k]
+
+＠エジソン
+そうだとも。[r]王たる私が、愛国者で何が悪い？
+[k]
+
+[wt 0.2]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+……そうですか。[r]であれば[line 3]私のするべき事は一つです！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace D 7]
+[charaFadein D 0.1 2]
+＠カルナ
+そこまでだ、ナイチンゲール。[r]ここでの戦闘は許さん。
+[k]
+
+＠カルナ
+それこそ、オレの命に代えてもな。
+[k]
+
+＠ナイチンゲール
+離せ……！　私は知っている！[r]こういう目をした長は、必ず全てを破滅に導く！
+[k]
+
+＠ナイチンゲール
+そうして最後に無責任にも宣うのだ！[r]「[#こんなはずではなかった]」と！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠エジソン
+[%1][line 2]マスターよ。[r]おまえはどう思う？
+[k]
+
+＠エジソン
+私と共にケルトと戦い、聖杯を奪い取るべきではないか？[r]三分の時間を与えよう。それまでに選ぶがいい。
+[k]
+
+[charaFadeout E 0.4]
+
+[wt 1.0]
+
+[charaTalk G]
+[charaFace A 0]
+[communicationCharaLoop 98003003 0 5 0 5]
+[charaFadein A 0.1 2]
+＠Dr.ロマン
+……ここは一つ手を組むというのも手段としては[r]アリじゃないだろうか？
+[k]
+
+[charaFace A 14]
+＠マシュ
+何を言うんですかドクター……！？[r]彼は[#人理:じんり]復元を良しとしていないんですよ！？
+[k]
+
+＠Dr.ロマン
+……いや、しているよ。[r]ただ、ボクらとは捉えている世界が違うだけだ。
+[k]
+
+＠Dr.ロマン
+でも今はその過ちと対決する時間がないし、[r]彼はきっと、最終的には牙を折るだろう。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+これは希望的観測じゃない。[r]歴史的な考察……経験からくる結論だ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+自分の正しさを信じて国を動かすものは、[r]最後には必ず酬いを受ける。どのようなカタチであれ。
+[k]
+
+＠Dr.ロマン
+……いや、そのあたりはどうでもいい。[r]今は戦況の打破だ。
+[k]
+
+＠Dr.ロマン
+ケルトのサーヴァントが集まっているとなると、[r]あまりに戦力差が厳しすぎる。
+[k]
+
+＠Dr.ロマン
+ディルムッドとフィン・マックールでも強敵なのに、[r]あれに比するサーヴァントがあと何体居るのやら。
+[k]
+
+＠Dr.ロマン
+ひとまず協力して聖杯を手に入れて、[r]ケルト神話が北米を支配する、なんて間違いを正す。
+[k]
+
+＠Dr.ロマン
+その後の事は、また落ち着いて考えればいい。
+[k]
+
+[charaFace A 12]
+＠マシュ
+先輩、どうしましょう？[r]……先輩？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.4]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠エジソン
+さて。話はまとまったかね？[r]では答えを聞かせて貰おう。
+[k]
+
+？1：悪い予感がする。協力できない
+？2：聖杯は諦めろ、プレジデントライオン
+
+？！
+
+[charaFace E 4]
+＠エジソン
+……意外といえば、意外な答えだ。
+[k]
+
+＠エジソン
+裏で何を策すにせよ、[r]共闘は承知すると思っていたが。
+[k]
+
+[charaFace E 0]
+＠エジソン
+その誠実さ、真摯さ。トーマス・アルバ・エジソン[r]としては許すべきなのだろう。
+[k]
+
+＠エジソン
+しかし、残念だ。大統王としての私は[r]おまえたちをここで断罪せねばならん。
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[charaTalk off]
+[charaFadein F 0.4 1]
+
+
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+＠エジソン
+やれ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+来ます！[r]マスター、退がって！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

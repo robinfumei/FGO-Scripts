@@ -1,0 +1,369 @@
+
+＄94-00-11-03-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3013001 1 スカサハ]
+[charaSet E 1014001 1 フェルグス]
+[charaSet F 3002001 1 ディルムッド]
+[charaSet G 1018001 1 アルテラ]
+
+
+[scene 10700]
+[fadein black 2]
+[wait fade]
+
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+撃破しました……！[r]お[charaFace A 13]つかれさまでした、先輩っ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ！[r]キャウ、キャーウウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+
+[charaFadein D 0.1 0]
+
+[charaFadein E 0.1 2]
+[charaFace E 1]
+＠フェルグス
+竜とも猪とも大蛇ともつかなかったなァ───[r]ふうむ、ああいった柱の怪物なぞ俺は初めて見るぞ。
+[k]
+
+
+[charaFace D 4]
+＠スカサハ
+ん～…………
+[k]
+
+[charaFace D 0]
+＠スカサハ
+うむ。あれはあれで異界の美ではあろうし、[r]我が影の国の王城を支える支柱としてはそう悪くない。
+[k]
+
+＠スカサハ
+しかし、あまり褒められたものではないな。[r]よりにもよって、随分とねじまがった命名をしたものだ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 2]
+[charaFace A 7]
+＠マシュ
+スカサハさんは、もしかして[r]あれが何であるのかを知っているのですか？
+[k]
+
+
+[charaFace D 0]
+＠スカサハ
+深淵たる魔境の身なればある程度の先見もするが、[r]いいや。今回は、知っているのではなく、あれに連なる
+[k]
+
+＠スカサハ
+未来の一端をかいま見ただけに過ぎぬ。[r]つまりは人理の焼却。だ。
+[k]
+
+[charaFace D 4]
+＠スカサハ
+お主たちとさして変わりはせんとも。まあ……
+[k]
+
+[charaFace D 0]
+＠スカサハ
+こういうものは見えるが……[charaFace D 5]な！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[se ad32]
+[charaEffect D bit_talk_12]
+[wait time 1]
+
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠スカサハ
+……あれを[#躱:かわ]すか。[r]成る程、破壊の大王なぞ名乗るだけのことはあったか？
+[k]
+
+[charaFadeout D 0.1]
+
+
+[charaFadein G 1.5 1]
+[charaFace G 0]
+＠アルテラ
+……それはこちらの言い分だ。[r]私の剣を受けても破壊されない、その槍は───何だ？
+[k]
+
+＠アルテラ
+破壊する。[r]旧い文明も、新しい文明も。
+[k]
+
+＠アルテラ
+この[#惑星:ほし]にある知性の痕跡を、一掃する。[r]私は、私の前に立ちはだかる全てを破壊する。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+───あなたは！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！？[r]キュウ、キャーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠スカサハ
+これもまた、死の残骸なのだろうが……
+[k]
+
+＠スカサハ
+また、随分なモノと行き逢ってしまったものではないか。[r]人理の焼却とはここまで歪めるモノか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+
+[charaFadein D 0.1 0]
+[charaFace D 0]
+
+[charaFadein A 0.1 2]
+[charaFace A 7]
+＠マシュ
+あなたは知っているんですね、[r]あの英霊、竜種にも匹敵する魔力の塊の正体───
+[k]
+
+
+[charaFace D 0]
+＠スカサハ
+お主たちよりはな。数多くの神霊を屠り続けたが故、[r]魔境の智慧を有するがゆえ、ずっと世界の外側に在って
+[k]
+
+[charaFace D 0]
+＠スカサハ
+[#永遠]を成した身であればこそ分かることもある。[r]それは……
+[k]
+
+
+[se ad51]
+
+[charaFace D 2]
+＠スカサハ
+この戦闘機械もどき、残骸として[#顕:あらわ]してしまうには[r]いささか以上にまずいということだ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 2]
+[charaFace E 2]
+＠フェルグス
+そうさな。うむ、まさしくスカサハ姐の言う通り！[r]細い体も好みではあるのだが！
+[k]
+
+[charaFace E 1]
+＠フェルグス
+アレを見ているとこう、股間の芯がぎゅうと締まる！[r]あの娘、下手をするとスカサハ姐以上の逸品！
+[k]
+
+＠フェルグス
+ははは、俺の勘だがな！[r]あの中身、見た目通りの規格ではないようだ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠フェルグス
+先へ進め[%1]、マシュ！
+[k]
+
+＠フェルグス
+我が[#虹霓剣:カラドボルグ]であれば、カタチを[#成してしまった]破壊の王を[r]留めおく程度はできよう！
+[k]
+
+？1：フェルグスさん……！
+？2：応ッ！
+
+？！
+
+[charaFace E 1]
+＠フェルグス
+気にするな、要は相性の問題というやつだ。
+[k]
+
+＠フェルグス
+あやつはどうも、[r]先に壊されると本領発揮できないと見た！
+[k]
+
+[charaFace E 2]
+＠フェルグス
+スカサハ姐にはお主たちを導く役目がある！[r]故に！　行けぇい！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+
+[charaFadein E 0.1 2]
+
+[charaFadein D 0.1 0]
+[charaFace D 0]
+＠スカサハ
+すまんな、フェルグス。[r]後は任せる。
+[k]
+
+
+[charaFace E 1]
+＠フェルグス
+光栄のいたり！　ではいずれ会おう友よ！[r]縁を結んだ以上は、再び巡り会うこともあろう！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+…………はい！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、ファーウ……！！
+[k]
+
+[charaFadeout C 0.1]
+
+[se ad55]
+[wt 0.7]
+[seStop ad55 1]
+
+[messageOff]
+
+
+[fadeout black 2]
+[wait fade]
+[scene 10700]
+[fadein black 2]
+[wait fade]
+
+
+
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠フェルグス
+よしよし、連中は行ったな。[r]……まぁ、再び会った時には敵かもしれん訳だが。
+[k]
+
+＠フェルグス
+何にせよ佳い女のいる側に俺は付く。[r]そればかりは保証できぬ。なんともはや。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠アルテラ
+………………。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠フェルグス
+さて、やろうか。[r]正々堂々、後顧の憂いなくたっぷり殺し合うとしよう。
+[k]
+
+[charaFace E 4]
+＠フェルグス
+しかし、おまえさんも話が分からない癖に律儀なヤツ。[r][%1]を見逃してくれるとは。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠アルテラ
+───同じ事だ。[r]おまえを潰した後、あの人間も破壊する。
+[k]
+
+[charaFace G 0]
+＠アルテラ
+私は、私の視界に入ったものを全て破壊する。[r]そのように作られたものだからだ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠フェルグス
+確かにまあ、こんな風に一度カタチを成しちまった[r]おまえさんを砕くのは骨が折れるだろうがな？
+[k]
+
+[charaFace E 2]
+＠フェルグス
+こちらはこちらで！[r]ある程度の備えがあってなァ！！
+[k]
+
+＠フェルグス
+偶然か、必然か、まあ俺はさっぱり知らんが恐らくは[r]古き神々の呪いあたりか───
+[k]
+
+＠フェルグス
+我が螺旋の剣。遙かな古き神々の欠片こそが正体よ！[r]おまえを殺すに十二分な理由となるか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 5]
+＠アルテラ
+───目標、一体。ただちに破壊する。
+[k]
+
+[charaFadeout G 0.1]
+
+[fadein white 0.4]
+[wait fade]
+
+[se ad33]
+
+[fadein white 0.4]
+[wait fade]
+
+
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 2]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

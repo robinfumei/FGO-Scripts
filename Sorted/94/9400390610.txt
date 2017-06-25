@@ -1,0 +1,433 @@
+＄94-00-39-06-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+[charaSet E 1009002 1 紅孩児]
+[charaSet F 7014000 1 羅刹女]
+
+
+[scene 20703]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠三蔵
+火焔山の猛火を消して、天竺へと進むには、[r]どうしても「芭蕉扇」が必要だわ。
+[k]
+
+＠三蔵
+そして、[r][#芭蕉洞:ばしょうどう]に住む[#羅刹女:らせつにょ]こそが、その持ち主。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 1]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+天下に名高い[#美姫:びき]、別名を[#鉄扇公主:てっせんこうしゅ]か。[r]どんな美貌の人妻なんだろうね？
+[k]
+
+[charaFace B 3]
+＠猪八戒
+年上の人妻ってのも悪くは無いよ、うん。[r]というか、他人の妻だろうと美人はみんな美人だよ。
+[k]
+
+[charaFace A 2]
+＠三蔵
+ちょっと、そこ！[r]人妻要素に興奮しない！　[#慎:つつし]むように！
+[k]
+
+[charaFace A 4]
+＠三蔵
+とにかく、この旅で出会う相手は、[r]あたしも予想できないわ……。
+[k]
+
+？1：モー孩児から聞いた話で[#割:わり]と予想は……
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_2 2.0]
+[maskout black 2.0]
+[wait mask]
+
+[charaFadeout A 0]
+[charaFadeout B 0]
+
+[fowardEffect bit_sepia01]
+
+[scene 20301]
+
+[charaFilter F silhouette 00000000]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0 1]
+
+[bgm BGM_EVENT_7 2.0]
+[maskin black 2.0]
+[wait mask]
+
+＠紅孩児
+とにかく、とぉにかぁく！！[r]母ちゃんは、おっかねえんだぜ！！
+[k]
+
+[messageOff]
+[charaFadeout E 1.0]
+
+[scene 20400 1.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[wait scene]
+
+＠F：？？？
+紅孩児さん。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠紅孩児
+ひゃあ！？　ごめん母ちゃん！[r]ポテチ食べてた！
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace E 3]
+[charaFadein F 0.1 2]
+[charaFadein E 0.1 0]
+
+＠F：？？？
+訂正を。母ちゃん、ではなく母上です。[r]悪性の舌は切断します。
+[k]
+
+＠紅孩児
+ごめん母ちゃん！[r]でも切断は勘弁だぜ！
+[k]
+
+＠F：？？？
+無断外泊の朝帰りまでは許容しましょう……ですが、[r]外出後の手洗いは？
+[k]
+
+[charaFace E 1]
+
+＠紅孩児
+洗ったぜ！　石鹸で念入りに五秒くらい！[r]それで芭蕉扇で乾かしたぜ！
+[k]
+
+＠F：？？？
+洗面所が散らかっていた理由が判明しました。[r]城内に菌をまき散らしてどうするのです。
+[k]
+
+＠F：？？？
+使い捨てタオルを[#用:もち]いなさいとあれほど……[r]む。もしや、外出後のうがいは……？
+[k]
+
+[charaFace E 0]
+
+＠紅孩児
+もちろんしたぜ！[r]コーラ呑むついでに三秒くらい！
+[k]
+
+＠紅孩児
+ほらあ、聞いてくれよオレの美声。[r]オレたち声が似てるよな！　遺伝的に親子だよな！
+[k]
+
+＠F：？？？
+…………紅孩児さん、[r]その[#頬:ほほ]の[#擦過傷:さっかしょう]は？
+[k]
+
+[charaFace E 3]
+
+＠紅孩児
+（ギクッ）
+[k]
+
+[charaFace E 2]
+
+＠紅孩児
+か、かすり傷だぜ！　なんともないぜ！[r]こんなん、ツバをつけときゃ治[line 3]。
+[k]
+
+＠F：？？？
+[line 3]徹底的な更正が必要ですね。[r]医務室へ。母が、直々に治療します。
+[k]
+
+[charaFace E 3]
+
+＠紅孩児
+うわああああああ、母ちゃんごめんよー！
+[k]
+
+＠紅孩児
+もうオキシドールのバケツで[r]顔面ザブザブはいやだぁぁぁぁぁ！！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_7 2.0]
+[maskout black 2.0]
+[wait mask]
+
+[fowardEffectStop bit_sepia01]
+[charaFilter F normal FFFFFF00]
+
+[charaFadeout F 0]
+[charaFadeout E 0]
+
+[scene 20703]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFace B 0]
+[charaFadein C 0 2]
+[charaFadein B 0 0]
+
+[bgm BGM_EVENT_2 2.0]
+[maskin black 2.0]
+[wait mask]
+
+＠沙悟浄
+……国民軍の拷問風景に似ているな。
+[k]
+
+＠猪八戒
+教育熱心なのも考えものだなあ……[r]放置くらいが伸び伸び育つものだけどね？
+[k]
+
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+まず一筋縄ではいかない相手だわ……でもあたしたちは、[r]紅孩児を倒しはしたけれど、[#殺:あや]めてはいない。
+[k]
+
+[charaFace A 0]
+＠三蔵
+羅刹女を怒らせる要因はまずないから、[r]話し合いでスパッと解決しそうね！
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_2 1.0]
+[charaFadeout A 0.8]
+[scene 28301 1.0]
+[wait scene]
+[se ad116]
+[wt 3.0]
+
+
+
+[scene 20602 0.3]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.2 1]
+
+[wait scene]
+
+
+
+
+[se bac28]
+＠羅刹女
+お断りします＆お帰りください。
+[k]
+
+[charaFadeout F 0.1]
+
+[se ad119]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠三蔵
+とりつく[#島:しま]もなし！？
+[k]
+
+[wt 0.5]
+[seStop ad119 0.5]
+[bgm BGM_EVENT_5 0.1]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠羅刹女
+火焔山の一帯では、[r]病人が出たという報告を受けてはいません。
+[k]
+
+＠羅刹女
+あの炎に、強い殺菌の効果があるのでしょう。
+[k]
+
+
+？1：生きてる人もいないよ？
+？2：そこをなんとか！
+
+？！
+
+＠羅刹女
+私の慈善事業に口出しされるのは心外です。
+[k]
+
+＠羅刹女
+芭蕉扇にも様々な使い道があるのです。
+[k]
+
+＠羅刹女
+山火事を[#鎮火:ちんか]したい、程度の理由で、[r][#貸与:たいよ]することはなりません。
+[k]
+
+
+？1：……ところで牛魔王は？
+？！
+
+＠羅刹女
+牛魔王、ですか……私の[#伴侶:はんりょ]はこの城にはいません。[r]どこをほっつき歩いているのやら……。
+[k]
+
+＠羅刹女
+紅孩児まで[#素行:そこう]の乱れを[#見倣:みなら]う始末……。[r]私の[#撃鉄:かんにん]袋もそろそろ火を噴きかねません。
+[k]
+
+
+？1：イライラを息子にぶつけるのよくない
+？！
+
+[charaFace F 7]
+＠羅刹女
+私の教育方針は完璧です！[r]息子の自主性は許可しているのですから！
+[k]
+
+
+？1：許可してるだけ？
+？2：寛容さはありますか？
+
+？！
+
+[charaFace F 9]
+＠羅刹女
+っ……それは……。
+[k]
+
+[charaFace F 6]
+＠羅刹女
+……[%1]と言いましたね。[r]貴方は私を怒らせにきたのですか？
+[k]
+
+＠羅刹女
+私は常に激怒しています。[r]この不衛生な世界に。[#病魔:びょうま]はびこる[#巷:ちまた]に。
+[k]
+
+[charaFace F 7]
+＠羅刹女
+そも！[r]貴方がたのような旅の[#輩:やから]こそが[#度:ど]し[#難:がた]い！
+[k]
+
+[charaFace F 6]
+＠羅刹女
+食や知や色の欲に惹かれ、自分本位に渡り歩き、[r]眠れる遺物をほじくり返しては[#土着:どちゃく]の[#病:やまい]を目覚めさせる。
+[k]
+
+[charaFace F 7]
+＠羅刹女
+まさに青白きパンデミックの運び手……[r]歩く[#培養土:ばいようど]にしか見えません！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+そんな事はないぞぅ！　ちょっと買い食いして、[r]食べ残しの中華まんを道に捨てただけさ！
+[k]
+
+＠猪八戒
+つまり動物たちへの[#施:ほどこ]しだね。[r]僕は捨てるよ。じゃんじゃん捨てるよ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠羅刹女
+[line 3]私ともあろうものが。[r]この山には一つ、足りない施設がありました。
+[k]
+
+＠羅刹女
+豚は全てが役立ちうる家畜、使えないのは鳴き声だけ、と[r]赤いマントのシェフが言っていました。
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+＠羅刹女
+その言葉を試してみましょう。[r]安心してください。私は看護師です。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠羅刹女
+痛みにもだえる鳴き声には慣れています。[r]天を裂くほどの鳴き声をあげなさい。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+ヒュウ、挑発に乗ったねデスナース！[r]では後は任せたよ、[%1]の[&兄貴:姉貴]！
+[k]
+
+[charaFace B 4]
+＠猪八戒
+僕はシャレの通じない女性が大の苦手でね！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠三蔵
+仕方ないわね、応戦するわよ！[r]みんな、お願い[line 3]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

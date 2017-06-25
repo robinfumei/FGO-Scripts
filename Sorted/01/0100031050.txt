@@ -1,0 +1,108 @@
+＄01-00-03-10-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 5017000 1 メディア・リリィ]
+[charaSet F 7001001 1 ヘラクレス]
+[charaSet G 2012001 1 エウリュアレ]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0 0]
+[charaFace E 0]
+[charaFadein E 0 2]
+[fadein black 1]
+[wait fade]
+＠メディア・リリィ
+ごめんなさい、私では押し切れないわ。[r]ヘラクレス[line 2]やっぱり、勇敢なアナタの出番ね？
+[k]
+
+[charaFace F 2]
+＠ヘラクレス
+[image berserker_language_2][line 4]！！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……っ！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFadein G 0.1 2]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠アステリオス
+はな、れる、な……！！
+[k]
+
+[charaFace G 5]
+＠エウリュアレ
+なに言ってるの。[r]迷わず逃げるのが当然でしょ。
+[k]
+
+＠エウリュアレ
+あれはヘラクレス。人類史上最強の英雄よ。[r]あんなの、災害みたいなもの。
+[k]
+
+＠エウリュアレ
+雪崩に立ち向かう人間は、勇者じゃない。[r]ただの無能よ。
+[k]
+
+[charaFace G 4]
+＠エウリュアレ
+……そんな無能を、私、何人も見てきたもの。
+[k]
+
+[charaFace H 1]
+＠アステリオス
+……わかっ、てる。
+[k]
+
+[charaFace G 2]
+＠エウリュアレ
+だったら[line 2]。
+[k]
+
+[charaFace H 0]
+＠アステリオス
+でも、だれかが、やらなきゃ。[r]それなら、おれ、がいい。だって、
+[k]
+
+[charaFace H 4]
+＠アステリオス
+おれ、かいぶつ。なんにんも、こどもを、ころした。[r]なんにんも、なんにんも、なんにんも、なんにんも……！
+[k]
+
+[charaFace H 5]
+＠アステリオス
+だから、おれが、いい……！[r]おれが、たたかう……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+……来ます！
+[k]
+
+[charaFace H 2]
+＠アステリオス
+かのじょ、は、わたさ、ない……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

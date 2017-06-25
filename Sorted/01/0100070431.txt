@@ -1,0 +1,540 @@
+
+
+
+＄01-00-07-04-3-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 4014000 1 牛若丸]
+[charaSet D 3006001 1 弁慶]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 32900]
+[fadein black 1.5]
+[wait fade]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 1]
+
+＠牛若丸
+た、たいへんな事件でした[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠弁慶
+たいへんな事件でしたな[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい……まさか奥方が地下に住まう謎の種族で、[r]地上世界への進出を目論んでいたとは……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+
+＠Dr.ロマン
+しかも郊外の地下にあんな溶岩地帯があったとは。[r]とんだ大冒険だった。一言では言い表せないほどに。
+[k]
+
+＠Dr.ロマン
+でも悲しい事件でもあったよね……
+[k]
+
+＠Dr.ロマン
+彼女の愛は本物だった。[r]その愛が地上世界を救ったなんて……
+[k]
+
+？1：火を吐く愛とか世界共通だったんだ……
+？2：あれが最後のヨヒメンとは思えない……
+
+？！
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+はい。今後はこのような悲劇が起きぬよう、[r]他種族との交友、および婚姻についてきちんと
+[k]
+
+＠牛若丸
+法律を整えるよう、[r]ギルガメッシュ王に進言しておきましょう。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+法典というと、ウル・ナンム法典もハンムラビ法典も[r]メソポタミア文明のものですね。
+[k]
+
+＠マシュ
+ウル・ナンム法典はこの時代から次のアッカド王朝の、[r]その次にあたるウル第三王朝で作られたものです。
+[k]
+
+＠マシュ
+それまで曖昧だった法を一つに纏め、[r]体系立てた人類最古の法典と言われています。
+[k]
+
+？1：ほうほう、マシュは物知りだなぁ
+
+[charaFace A 3]
+＠マシュ
+あ、いえ……わたしも聞きかじり程度のものなので。[r]内容に関して、詳しくは知らないのです。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？2：ハンムラビ法典と言えば……
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+ああ。『目には目を、歯には歯を』で有名な法典だね。[r]現代社会の法律のルーツとも言えるだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+ところで。[%1]殿は[r]こちらに来て日が浅いとか。
+[k]
+
+＠牛若丸
+ウルク市内の案内はこのように食べ歩きなどしつつ[r]しておりますが、ウルクの外についてはどうでしょう？
+[k]
+
+＠牛若丸
+私とそこな弁慶もそこまでは詳しくはありませんが、[r]伝聞でよければお話できますが？
+[k]
+
+？1：『三女神同盟』について聞きたい
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+そうだね、それが目下の重要課題だ。[r]牛若丸くん、ぜひ話してくれ。
+[k]
+
+
+
+？2：牛若丸ってどんな英雄？
+
+[charaFace C 3]
+＠牛若丸
+はあ……私の事、ですか？[r]面と向かって聞かれると難しいですね……
+[k]
+
+[charaFace C 0]
+＠牛若丸
+私は見ての通り、日の本の武士です。[r]とはいえ、出生はやや複雑ですが。
+[k]
+
+＠牛若丸
+平安の頃に生を受け、山奥の寺に預けられ、[r]鞍馬山で天狗と修行をした世間知らず。
+[k]
+
+[charaFace C 3]
+＠牛若丸
+剣の腕前だけは達者ですが、[r]それ以外のものは、どうにも周りとは合わなかった。
+[k]
+
+[charaFace C 4]
+＠牛若丸
+私は兄上の刀にすぎないというか、[r]他に興味がなかったというか……
+[k]
+
+[charaFace C 0]
+＠牛若丸
+さしたる大願も理想もないまま戦場を駆け、[r]敵将の[#御首級:みしるし]をあげていただけです。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠弁慶
+………………。
+[k]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+また、牛若丸というのは幼名です。
+[k]
+
+＠牛若丸
+源氏姓……いえ、立場を持った私が呼ばれるとしたら、[r]それは違う[#霊基:カタチ]なのかもしれません。
+[k]
+
+＠牛若丸
+多くの同胞を死に至らしめながら、最期まで[r]己の愚かさを改められなかった冷血な武士として。
+[k]
+
+[charaFace C 1]
+＠牛若丸
+ですから、私は『牛若丸』で良いのです。[r]今の私は素直に物事を受け止められます。
+[k]
+
+＠牛若丸
+このように晴れやかな気持ちで[%1]殿と[r]話が出来るのも、私が立場を持っていないから。
+[k]
+
+＠牛若丸
+そう思うと、この仮初めの生はたいへん愛おしい。
+[k]
+
+＠牛若丸
+何も知らなかった頃の私が見た、[r]無邪気な夢の中にいるようなものですから。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+
+＠弁慶
+うむ、[%1]殿。[r]牛若丸様に興味がおありのようですな。
+[k]
+
+＠弁慶
+それでしたら後でこっそり拙僧にご相談なさいませ。[r]この武蔵坊弁慶、何を隠そう牛若丸様の一の家来。
+[k]
+
+＠弁慶
+切っても切れぬ主従関係、[r][#竹馬:ちくば]の友の如きマブダチでございます。
+[k]
+
+＠弁慶
+牛若丸様の様々な“ああ……そうなんだ……”系の[r]武勇伝、流離譚、たんまりと聞かせましょうぞ。
+[k]
+
+
+[charaFace C 1]
+＠牛若丸
+ああ、その置物はいずれ壊すので無視してください。
+[k]
+
+[charaFace C 3]
+＠牛若丸
+矢を防ぐ肉壁として[#侍:はべ]らせているのですが、[r]中々そういった機会がなくて。
+[k]
+
+＠弁慶
+ははは、これは手厳しい。[r]拙僧の立場が危うい話題となり申した。
+[k]
+
+＠弁慶
+なので話を変えましょう。[%1]殿は[r]『三女神同盟』を調べているのでは？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+そうだね、それが目下の重要課題だ。[r]牛若丸くん、ぜひ話してくれ。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_2 0.3]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.4]
+[bgm BGM_EVENT_1 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+言うまでもなく、[r]『三女神同盟』はウルクを襲う最大の脅威です。
+[k]
+
+＠牛若丸
+北壁の魔獣戦線。南の密林。[r]そして北東の山脈から飛来するイシュタル無差別爆撃。
+[k]
+
+＠牛若丸
+現在、ウルク市は三方向から、[r]それぞれ別の侵略を受けています。
+[k]
+
+＠牛若丸
+北の魔獣戦線はレオニダス殿が維持していますが、[r]南と北東の問題は対抗策がありません。
+[k]
+
+＠牛若丸
+女神イシュタルが持つ弓は[#天舟:てんせん]と呼ばれる[r]神の乗り物らしく、天空を自在に駆け回る。
+[k]
+
+＠牛若丸
+魔獣戦線の魔獣たちほどの制圧力はありませんが、[r]とにかく迷惑です。
+[k]
+
+[charaFace C 3]
+＠牛若丸
+いつやってくるか分からない嵐のようなものですね。
+[k]
+
+[charaFace C 0]
+＠牛若丸
+また、残る南の密林ですが……[r]こちらは未だ、アレが何なのか分かっていない。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠弁慶
+ギルガメッシュ王も何度か調査隊を出してはいますが、[r]生還者はいまだに無し。
+[k]
+
+＠弁慶
+魔獣の群は動的な侵略ですが、[r]南の密林は静的な侵略と言えましょう。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ウルク侵攻の方法はそれぞれ独自のものなのですね。
+[k]
+
+＠マシュ
+三つの脅威、『三女神同盟』……いったい、[r]どんな女神たちで、何が目的なのでしょう……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+うち一人は女神イシュタルだと判明しているけどね。
+[k]
+
+＠Dr.ロマン
+ギルガメッシュ王が言うには、女神たちの目的は[r]彼が持つ聖杯の奪取だという事だけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠牛若丸
+ウルクの大杯ですね。[r]私もみせびらかされ……失敬、見せていただきました。
+[k]
+
+＠牛若丸
+あれは確かに膨大な魔力の籠もった杯でした。
+[k]
+
+＠牛若丸
+女神であれ英霊であれ人間であれ、[r]あの杯を用いれば王になるのは容易でしょう。
+[k]
+
+＠牛若丸
+女神たちはウルクを滅ぼした後、この世界を[r]思うままに作り替える為に大杯を狙っているのでは？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+
+[bgmStop BGM_EVENT_1 1.5]
+＠Dr.ロマン
+ウルクの大杯……？[r]ギルガメッシュ王はそう言ったのかい、牛若くん？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠牛若丸
+ええ、そんな名を付けてはしゃいでいましたね。[r]私がちょっと触りたい、と言ったら全力で断られました。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠弁慶
+うむ、さすが賢王、賢明な判断でしたな。[r]牛若丸様に手渡し、うっかり落として割るならまだ良し。
+[k]
+
+＠弁慶
+気に入ったので我が物にする、などと言って[r]王の首に斬りかかるまでありますから。はははは。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+
+
+＠Dr.ロマン
+……………………。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+
+＠牛若丸
+ロマン殿、何か？[r]また、弁慶は明日の朝までそこで正座だ。
+[k]
+
+[charaFace D 4]
+＠弁慶
+おお……立ち往生ならぬ座り往生とは……[r]ウルクの人々の生暖かい視線が堪えますな……
+[k]
+
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+いや、ちょっとね。[r]考えてみれば当然の事だった。気にしないでくれ。
+[k]
+
+？1：ウルクの大杯は、この時代の聖杯ではない？
+
+？！
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……うん、まあそういう事だと思う。
+[k]
+
+＠Dr.ロマン
+はじめからギルガメッシュ王は[r]聖杯に値する宝を所持していた。
+[k]
+
+＠Dr.ロマン
+我々はそれを魔術王の聖杯と勘違いしてしまった。
+[k]
+
+＠Dr.ロマン
+そして、ギルガメッシュ王もマーリンも、[r]その勘違いに気づきながらあえて指摘しなかった。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……もどかしいなあ。
+[k]
+
+＠Dr.ロマン
+マーリンは性根が腐っているから、[r]こっちから問いただすと絶対に答えないだろうし、
+[k]
+
+＠Dr.ロマン
+ギルガメッシュ王にいたっては“我の宝を魔術王と[r]同列に扱うな！”って怒るに決まっているし……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+どちらにせよ我々が回収するべき聖杯は[r]ウルクではない、別のどこかにある、という事ですね？
+[k]
+
+？1：あるいは、もう使われてしまった後か、だね
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+……その可能性は高い。普通に考えれば、[r]『三女神同盟』なんてものがある時点でおかしいんだ。
+[k]
+
+＠Dr.ロマン
+聖杯は女神たちを召喚する為に使われたのかも[r]しれないな……
+[k]
+
+？2：三女神たちが持っているとか……？
+[charaFace A 4]
+＠マシュ
+だとしたら厄介ですね……ただでさえ強力な相手なのに、[r]聖杯まで所持されていたら太刀打ちできません……
+[k]
+
+
+？！
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]

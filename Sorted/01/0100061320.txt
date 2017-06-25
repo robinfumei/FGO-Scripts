@@ -1,0 +1,108 @@
+＄01-00-06-13-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet F 6002001 1 呪腕のハサン]
+[charaSet G 6003001 1 百貌のハサン]
+[charaSet H 5022001 1 ？？？]
+
+[backEffect bit_talk_haboob_02]
+[scene 28400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+敵性集団、撃破しました！[r]ですが肝心の悲鳴の発生源が……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ～。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+サーヴァント反応、近いぞ！[r]注意してくれ！
+[k]
+
+
+＠？？？
+たーすーけーてー！[r]あたし美味しくな[line 2]い[line 2]わ[line 2]よ[line 2]！？
+[k]
+
+＠？？？
+あ。やめて。火とか吐かないで。熱いから。[r]よし、あたしすごく美味しいってうーわーさーよー！
+[k]
+
+＠？？？
+だから乱暴な[#調理:こと]はし[line 2]な[line 2]い[line 2]で[line 2]よ[line 2]！[r]お腹、お腹へった[line 3]！　トータのバカ[line 3]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠百貌のハサン
+チィ、面倒な……されど女の悲鳴は無視できぬ。[r]今の私が酷薄なザイードでない事が恨めしいわ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠呪腕のハサン
+あちらです、[%1]殿！[r]敵影、捉えましたぞ！
+[k]
+
+？1：了解、行くぞマシュ！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！[r]マシュ・キリエライト、突撃、救出します！
+[k]
+
+？2：……あの、今の声、聞き覚えあるような？
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+[FFFFFF]？　わたしにはよく分かりませんが……[-]
+[k]
+
+[charaFace A 2]
+＠マシュ
+きっと何かの記憶違いでしょう！[r]行きます、マスター！
+[k]
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

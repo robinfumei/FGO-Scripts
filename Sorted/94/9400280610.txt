@@ -1,0 +1,114 @@
+＄94-00-28-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet G 98003003 1 Dr.ロマン]
+
+[scene 24000]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+ここがルーヴル美術館なんですね……！[r]先輩、[charaFace A 4]後で、余裕があったらでいいのですが……
+[k]
+
+？1：しっかり見て回ろうね
+
+[charaFace A 1]
+＠マシュ
+はい！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+物見遊山とは余裕だな、マスター。[r]……いや、気にするな。
+[k]
+
+[charaFace C 1]
+＠エミヤ
+時間に空きがあれば、[r]ここで芸術を楽しむのも良いだろう。
+[k]
+
+[charaFace C 0]
+＠エミヤ
+ただ、そこに並んでいるのはほとんどが贋作だ。[r]ほぼ寸分違わぬ代物だから楽しめるとは思うが。
+[k]
+
+[charaFadeout C 0.1]
+
+？2：もちろんデートだ！
+
+[charaFace A 3]
+＠マシュ
+デッ……！？[r]デー……。
+[k]
+
+＠マシュ
+あ、あの。わたしでご満足頂けるとは思えませんが！[r]その暁には、何とぞよろしくお願いします！
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[wt 0.1]
+[communicationCharaLoop 98003003 0 5 0 0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠ダ・ヴィンチちゃん
+さて……。[r]ロマン、サーヴァントはいるかい？
+[k]
+
+[bgmStop BGM_EVENT_1 1.0]
+[wt 1.0]
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+探査完了。[r]間違いなく、例の贋作たちがいるね。
+[k]
+
+＠Dr.ロマン
+そのまま真っ直ぐ進んでくれ、[r]他の敵性反応もあるから、気をつけてくれよ。
+[k]
+
+[charaFadeout B 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk C]
+[charaFace A 7]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+ふむ、了解だ。[r]まずは露払いといこうか。
+[k]
+
+＠マシュ
+はい！[r]マスター、指示をお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

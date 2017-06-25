@@ -1,0 +1,137 @@
+
+＄91-70-08-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7008001 1 ベオウルフ]
+[charaSet D 98006000 1 グレンデル]
+[charaSet E 9001001 1 ジャンヌ]
+[charaSet F 1005001 1 ネロ]
+[charaSet G 4003001 1 ドレイク]
+[charaSet H 98016000 1 兵士Ａ]
+
+[scene 20602]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk off]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+＠グレンデル
+お、のれ……！！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wt 0.2]
+[bgmStop BGM_EVENT_3 0.1]
+[se ad20]
+[charaSpecialEffect E enemyErasure 1 1.7]
+[wait charaSpecialEffect D]
+[wait se ad20]
+
+[charaFace F 0]
+[charaFadein F 0.4 0]
+[charaFace G 5]
+[charaFadein G 0.4 2]
+
+[wt 0.4]
+
+[charaSpecialEffect F enemyErasure 1 1.7]
+[se ad48]
+[wait charaSpecialEffect F]
+[wait se ad48]
+
+
+[wt 0.2]
+
+[charaSpecialEffect G enemyErasure 1 1.7]
+[se ad48]
+[wait charaSpecialEffect G]
+[wait se ad48]
+
+[wt 1.0]
+
+[charaTalk on]
+
+[bgm BGM_EVENT_5 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+＠マシュ
+はあ……後味悪かったです……。[r]偽者だと分かっていても、感触があまりにも……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+でも、これで終わりましたね。[r]反応も全くありません。さあ、帰りましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ベオウルフ
+……。[r]……マスター、何かおかしいと思うか？
+[k]
+
+？1：分からない
+
+[charaFace C 4]
+＠ベオウルフ
+そうか……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+？2：何となく
+
+[charaFace C 1]
+＠ベオウルフ
+へえ、勘が良いな。[r]さすが俺のマスターだけある。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+？！
+
+＠マシュ
+どういうことですか？
+[k]
+
+[charaFace C 4]
+＠ベオウルフ
+あれは生き汚い生物でな。[r]足掻きもせずに消滅を受け入れるようなタマじゃねえ。
+[k]
+
+＠ベオウルフ
+……何か臭うな。[r]もう少しだけ探索を続けさせて貰っていいか？
+[k]
+
+[charaFace A 12]
+＠マシュ
+はあ……ベオウルフさんがそうしたいなら、[r]問題ありませんけど。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_5 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

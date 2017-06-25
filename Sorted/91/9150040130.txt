@@ -1,0 +1,445 @@
+＄91-50-04-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 11010]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5004000 1 ナーサリー・ライム]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 5004002 1 ナーサリー・ライム？]
+[wipeFilter circleIn 0.4 0.4]
+[charaTalk D]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFace A 13]
+＠マシュ
+戦闘終了です。一掃しました。[r]お疲れさまでした、先輩。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+解析は進んでいないんだけど、ひとつ報告だ。[r]その近くに、ナーサリー・ライムに酷似した反応がある。
+[k]
+
+＠Dr.ロマン
+さっきの本の軍団も何か似てはいたけど、[r]こっちはもう、何だかそっくり同じに見える反応だ。
+[k]
+
+＠Dr.ロマン
+キミたちをその空間に引き込んだ、[r]張本人かも知れない。接触してみてくれるかい？
+[k]
+
+？1：了解！
+
+？2：他にすることもないしね
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、先輩。[r]移動します[line 2]ナーサリー・ライムさんも。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠ナーサリー・ライム
+[line 4]。
+[k]
+
+[charaFace A 6]
+＠マシュ
+あ、先輩が移動すると、[r]ちゃんと後を付いてきてくれますね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+本がなついてるっていうの、[r]何か……すごく……いいね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。[r]小動物を目にした時のような感慨があります。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+それって……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+[fadeout black 1]
+[wait fade]
+[bgmStop BGM_EVENT_5 0.4]
+[wt 1]
+[bgm BGM_EVENT_1 0.1]
+[scene 11010]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+この先に、いるようです。[r]反応を感じます。
+[k]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+来るぞ。接近してるみたいだ。[r]敵対しているかも知れないから、気を付けて！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.7 1]
+＠ナーサリー・ライム？
+[line 2]こんにちは。もうひとりのわたし。
+[k]
+
+[charaFace E 3]
+＠ナーサリー・ライム？
+会いたかったわ、本のわたし！[r]ページとページの間に折り込まれた想いのかたち。
+[k]
+
+＠ナーサリー・ライム？
+会いたかったわ、ほんもののわたし！[r]ページをめくる指がなければ何もできないわたし。
+[k]
+
+[charaFace E 1]
+＠ナーサリー・ライム？
+わたしは、[#ありす:わたし]。[r]あなたは、[#物語:わたし]。
+[k]
+
+[charaFace E 0]
+＠ナーサリー・ライム？
+いいえ、いいえ。わたしはわたし。[r]ありすではないわ。あなたはその姿でいなさいな？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ありす……？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ナーサリー・ライム
+[line 4]。
+[k]
+
+？1：ナーサリー・ライムが二人？
+
+？2：どういうこと？？
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+正確には、不明です……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ですが、先輩と契約で繋がっているのは[r]本の形態をとっている彼女に間違いありません。
+[k]
+
+[charaFace A 4]
+＠マシュ
+けれど同時に……。[r]あちらの、少女の形態の彼女も……。
+[k]
+
+＠マシュ
+ナーサリー・ライムの偽物、ではないようです。[r]感じられる魔力はあまりに似ています。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+接近したことで詳細に解析できたぞ[line 2][r]うん、マシュの言う通り、魔力の反応はそっくりだ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+あまりに似ている。[r]まるで、同じ存在がもうひとつあるみたいな？
+[k]
+
+＠Dr.ロマン
+有り得ない、と言いたいところだけど[r]そこはある意味ではナーサリー・ライムの内部だ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+彼女の[#核]にあたるものがふたつに[r]分割されている、ということも有り得なくはない！
+[k]
+
+？1：つまり？
+
+？2：もうちょっと簡潔に！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+どちらも本物の彼女、ということです。[r]その可能性があります。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ナーサリー・ライム
+[line 4]そう。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+（喋った！）
+[k]
+
+＠フォウ
+（フォウ！）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ナーサリー・ライム
+[line 4]あれは、わたし。もうひとりのわたし。
+[k]
+
+＠ナーサリー・ライム
+[line 4]ありすの姿をした、わたし。
+[k]
+
+＠ナーサリー・ライム
+[line 4]いないはずの、[#わたし:ありす]。[r][line 4]そのかたちを、わたしが真似したから。
+[k]
+
+＠ナーサリー・ライム
+[line 4]わたしは思ったの。[r][line 4]そのかたちは、ありすのものなのに。
+[k]
+
+＠ナーサリー・ライム
+[line 4]わたしはいいの？[r][line 4]ありすがいないのに、[#わたし:ありす]になっても？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ナーサリー・ライム？
+だめ、だめ、だめ。いけないことよ！[r]わたしは[#物語:わたし]でしょう？
+[k]
+
+＠ナーサリー・ライム？
+ここにはありすがいないのに、[r]ここにはわたししかいないのだから！
+[k]
+
+[charaFace E 5]
+＠ナーサリー・ライム？
+わたしは、[#物語:わたし]でいなさいな。[r]わたしは、[#ありす:わたし]の姿ではいられない。
+[k]
+
+[charaFace E 1]
+＠ナーサリー・ライム？
+そうでしょう[line 2]？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+[FFFFFF]？？[-]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+……そうか、そういうことか！[r]本来は人間の姿を持たないはずのナーサリー・ライム！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+けれど、霊基再臨で少女の姿を得てしまった。[r]その自己矛盾が、彼女の中で膨らんでしまったんだ。
+[k]
+
+＠Dr.ロマン
+だから、こうしてマスターである[r][%1][&君:ちゃん]を自分の内に呼び寄せた。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+回答を得ようとしているんですね。[r]自身の選ぶべき姿について。
+[k]
+
+＠マシュ
+迷う気持ちは、本のナーサリー・ライムに。[r]拒む気持ちは、少女のナーサリー・ライムに。
+[k]
+
+？1：……本人に聞こう
+
+？2：選ぶのは、彼女自身だね
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+はい、先輩。[r]……ナーサリー・ライム、その答えはあなたの中に。
+[k]
+
+[charaFace A 4]
+＠マシュ
+わたしたちでは答えられません。[r]あなたが選んだ少女の姿に、どんな意味があるのか。
+[k]
+
+[charaFace A 8]
+＠マシュ
+なぜ、あなたが迷うのか。[r]何に、誰を想ってそうしているのか。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ですから……。
+[k]
+
+＠ナーサリー・ライム
+[line 4]わたしは、わたし。そんなの知ってるわ。
+[k]
+
+＠ナーサリー・ライム
+[line 4]でも、わたし、[#ありす:わたし]がいいの。[r][line 4]できればその姿でいたい。
+[k]
+
+＠ナーサリー・ライム
+[line 4]ありすの姿で、甘い甘いお茶を飲んで。[r][line 4]ありすの姿で、甘い甘いお菓子を食べるの。
+[k]
+
+＠ナーサリー・ライム
+[line 4]ありすの姿で、遊びたい。
+[k]
+
+＠ナーサリー・ライム
+…………それが。最期までわたしを大切にしてくれた、[r]…………寂しい[#彼女:ありす]の望みだったから。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……先輩。
+[k]
+
+？1：答えは出たね
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい、マスター！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ナーサリー・ライム？
+そう。わたしはそう決めてしまったのね。[r]でも、わたしは許さない！
+[k]
+
+[charaFace E 2]
+＠ナーサリー・ライム？
+わたしはわたし。ここにありすはいないんだから！[r]ハッピーエンドみたいな顔はさせない！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+魔力反応増大！[r]来るぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wipeOff]
+[soundStopAll]
+[end]

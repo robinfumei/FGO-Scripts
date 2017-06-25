@@ -1,0 +1,140 @@
+
+
+
+＄01-00-07-04-2-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98024000 1 ウルク市民]
+[charaSet C 3027000 1 アナ]
+[charaSet D 98003000 1 Dr.ロマン]
+
+[bgm BGM_EVENT_39 0.1]
+[scene 20730]
+[fadein black 1.5]
+[wait fade]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+＠ウルク市民
+いやあ、助かったよ！[r]あの害獣にはほとほと手を焼かされていたんだ！
+[k]
+
+＠ウルク市民
+毛刈りをしている間だけ見張ってくれれば良かったのに、[r]まさか退治までしてくれるなんて……
+[k]
+
+＠ウルク市民
+さすが王直属の精鋭だ！　次もよろしく頼むよ！[r]はいこれ、羊の銀、三つ。
+[k]
+
+＠ウルク市民
+え？　羊の毛刈りはいいのか、だって？[r]いやあ、それがちょっと事情が変わっちゃって……
+[k]
+
+＠ウルク市民
+巫女所の巫女さまたちが銀を払ってもやりたい、と[r]申し出てきて、もう予約が入っているんだ。
+[k]
+
+＠ウルク市民
+まさか毛刈りそのものが商売になる日が来るとは……[r]いやはや、流行ってのは怖いものだねぇ……
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wt 1.0]
+[bgmStop BGM_EVENT_39 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[wt 1.5]
+[scene 32900]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFace C 4]
+[charaFadein A 0.4 2]
+[charaFadein C 0.4 0]
+
+＠マシュ
+…………羊が…………。
+[k]
+
+＠アナ
+…………目の前で、通り過ぎていきました……。
+[k]
+
+？1：二人とも、気を取り直して……
+？2：ひどい事件だったね……
+
+？！
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+
+＠Dr.ロマン
+たいへん残念な結果に終わってしまったようだね……[r]マシュ、アナ君には言葉もない……
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+これも急な貨幣制度の導入で、[r]娯楽が“買える”ようになった弊害なんだろう。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+確かに都市を活性化させるには有効な手段だけど、[r]500年は早かったんじゃないかなぁ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+はい……たしか銀による預かり証はアッカド期から[r]興ったもので、シュメル初期王朝時代にはなかったと……
+[k]
+
+＠マシュ
+ギルガメッシュ王が悪いわけではありませんが、[r]ウルク市民には早すぎたのではないでしょうか……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠アナ
+同感です、マシュ……[r]やはり貨幣は悪い文明……予約制とか良くないです……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.0]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 0.7]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+[wt 0.4]
+
+
+[scene 32901 1.0]
+[wt 2.0]
+[scene 32902 1.0]
+[wt 1.0]
+[se ad117]
+[wt 3.0]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]

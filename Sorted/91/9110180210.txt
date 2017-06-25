@@ -1,0 +1,541 @@
+＄91-10-18-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20302]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 2 フォウ]
+[charaSet C 1018001 1 アルテラ]
+[charaSet D 3012001 0 ブリュンヒルデ]
+[charaSet E 1008001 0 ジークフリート]
+[charaSet F 98003000 0 Dr.ロマン]
+[charaFace C 0]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.1]
+[fadein black 1]
+[wait fade]
+＠Dr.ロマン
+ふうむ[line 3]
+[k]
+
+＠Dr.ロマン
+こちらで観測した限りでは何もないんだよねえ。[r]うーん、範囲を広げてみるかな？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+修正されつつある第二の特異点、[r]一世紀のガリア地方にキミたちはいる訳だけど。
+[k]
+
+＠Dr.ロマン
+このあたりで間違いないんだよね？[r]破壊の大英雄アッティラ[line 3]じゃなくて、アルテラ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠アルテラ
+アッティラと呼ぶな。[r]そう、この付近で間違いない。
+[k]
+
+[charaFace C 0]
+＠アルテラ
+何者かがこの地で私を呼んでいる。[r]確かに、感じた。
+[k]
+
+＠アルテラ
+破壊の……衝動だ。[r]それも、並大抵のものではない。
+[k]
+
+＠アルテラ
+視界のすべてを破壊尽くして、[r]尚、冷めやらぬ……そういう類のものだ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+衝動か、ふうむ。[r]数値で観測できない話はどう捉えたらいいのかなぁ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+たとえば、魔力の類を感知した[line 3][r]という意味かも知れませんね。
+[k]
+
+[charaFadeout A 0]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠アルテラ
+魔力、か。否定はしないが……。
+[k]
+
+[charaFace C 0]
+＠アルテラ
+令呪の強制力を上回る強制、指令のたぐい。[r]私は、そう感じている。
+[k]
+
+？1：確信があるのかな
+
+[charaFace A 7]
+＠マシュ
+そうですね。[r]わたしも、そう思います。
+[k]
+
+？2：強制力か……
+
+[charaFace A 7]
+＠マシュ
+……はい。[r]戦闘を想定した方が良いかもしれません。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ、フォウフォーウ！
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠アルテラ
+もう我々の傍らに接近しているようだ。[r]破壊の衝動、その塊が。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 2]
+＠マシュ
+サーヴァント反応！[r]突然感知したということは……何者かが事前に待ち構えて、
+[k]
+
+＠マシュ
+霊体化しながら潜んでいたようです！[r]先輩！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.4]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.7 1]
+＠ブリュンヒルデ
+………………困ります。
+[k]
+
+＠ブリュンヒルデ
+ああ、そんな……やっぱり、そうなんですね。[r]そんなことだと、私、どうにも困ってしまう……
+[k]
+
+[charaFace D 0]
+＠ブリュンヒルデ
+あのひとの匂いがする……。[r]いいえ、あのひとに[#近い]匂いがするの……。
+[k]
+
+[charaFace D 4]
+＠ブリュンヒルデ
+どうして、感じてしまうの。[r]どうして、私、こんな風に思ってしまうの。
+[k]
+
+＠ブリュンヒルデ
+……あの女性が……。
+[k]
+
+[charaFace D 5]
+＠ブリュンヒルデ
+私の[#あのひと:シグルド]に……。[r]近付こうとする女のひとりに、ちがいない……と……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠アルテラ
+ん？
+[k]
+
+[charaTalk A]
+[charaFace A 12]
+＠マシュ
+ブリュンヒルデさん……ですよね？[r]あなたの[#伴侶:シグルド]に近付く女性？　だ、誰がです？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ブリュンヒルデ
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アルテラ
+私を見ているな。[r]その破壊の衝動、私へ向けられたものか。
+[k]
+
+＠アルテラ
+だが、シグルドなる者には覚えがない。[r]ん……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あっ───[r]いいえアルテラさん、よく思い出してみてください！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+シグルドさんではないですが、ええと、[r]類似した出自と伝説を持つ[#彼]とであれば、そう、
+[k]
+
+＠マシュ
+お会いしていますよね、アルテラさん。[r]そうです、以前にも確かこんなことが───
+[k]
+
+[messageOff]
+[wipeout rollFlashRight 1.5 1]
+[wait wipe]
+[bgmStop BGM_EVENT_3 0.1]
+[charaFadeout A 0]
+[charaFadeout C 0]
+[charaSet A 98001000 2 マシュ]
+[wt 1]
+[scene 10400]
+[wipein rollFlashRight 1 1]
+[bgm BGM_EVENT_2 0.5]
+[wait wipe]
+[wt 0.5]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……え？
+[k]
+
+[charaFace A 8]
+＠マシュ
+あれ？　すみません、[r]混乱しかけたので整理させてください。
+[k]
+
+＠マシュ
+つまり、ええと……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ジークフリートさんとアルテラさんは、[r][#同じ女性]を妻として[#娶:めと]った、ということですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジークフリート
+ああ、そうだ。[r]我が妻クリームヒルトは俺の死後、エッツェル[line 2]
+[k]
+
+＠ジークフリート
+つまりフン族の大王アッティラと再婚した。[r]大王も、妻を亡くした身であったと聞いているが。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アルテラ
+クリームヒルト……。
+[k]
+
+＠アルテラ
+私の妻、か。[r]妻……。
+[k]
+
+[charaFace C 4]
+＠アルテラ
+妻……。
+[k]
+
+？1：覚えてないの？
+
+？2：女同士で結婚したの？
+
+？！
+
+[charaFace C 0]
+＠アルテラ
+名に覚えはある。[r]が、妻と言われても実感が湧かない。
+[k]
+
+＠アルテラ
+私は、戦い、破壊すること以外には[#疎:うと]く、[r]他に意識を向けることはなかった。
+[k]
+
+＠アルテラ
+だから……もしかしたら、[r]傍らにはその女性が寄り添っていた可能性はある。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠Dr.ロマン
+あれだな、これは。臣下の誰かが気を利かせて[r]取りあえず結婚させて外交を云々したりしてたんだな。
+[k]
+
+？1：ドライだ……
+
+？2：そ、そうなんだ
+
+？！
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジークフリート
+……些か思うところはあるが、[r]いや、やめておこう。
+[k]
+
+[charaFace E 0]
+＠ジークフリート
+クリームヒルトは復讐のために[r]エッツェル王を利用したのだと聞いている。
+[k]
+
+＠ジークフリート
+そして、その復讐を導いたのは俺の死だ。[r]故に、俺はエッツェル王を責める立場にはない。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠アルテラ
+エッツェル[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk B]
+[charaFadein C 0.1 0]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ？
+[k]
+
+＠アルテラ
+エッツェルか[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+アルテラさん、どうかしましたか？
+[k]
+
+[charaFace C 0]
+＠アルテラ
+いや。[r]エッツェルという名前は悪くない。
+[k]
+
+？1：可愛い響きだよね
+
+？2：女の子っぽく聞こえるもんね
+
+？！
+
+[charaFace C 3]
+＠アルテラ
+……そういう……ことでは、ない。[r]違う……。
+[k]
+
+＠アルテラ
+違うぞ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠Dr.ロマン
+（正解だなこれは）
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+（正解ですね）
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+＠ジークフリート
+（そうだな）
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFadein B 0.1 2]
+＠フォウ
+（フォウ、フォウフォウ♪）
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠アルテラ
+……違う……。
+[k]
+
+[messageOff]
+[wipeout rollFlashRight 1.5 1]
+[wait wipe]
+[bgmStop BGM_EVENT_2 0.1]
+[charaFadeout B 0]
+[charaSet A 8001001 2 マシュ]
+[wt 1]
+[scene 20302]
+[charaTalk A]
+[charaFace C 0]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFadein C 0 0]
+[wipein rollFlashRight 1 1]
+[bgm BGM_EVENT_5 0.5]
+[wait wipe]
+[wt 0.5]
+＠マシュ
+……というようなことが。ありました。
+[k]
+
+[charaFace C 4]
+＠アルテラ
+確かに、あったが。[r]あれはシグルドなる者とは別の存在、別の英雄だろう。
+[k]
+
+＠アルテラ
+ジークフリートとシグルド。[r]共に、源を同じくする英雄同士であるとは聞くが……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ブリュンヒルデ
+ああ……。[r]何という……ことでしょう……。
+[k]
+
+＠ブリュンヒルデ
+やはり、そうなのですね。[r]妻を……娶る……そんな、そんなことが……。
+[k]
+
+[charaFace D 5]
+[bgmStop BGM_EVENT_5 0.5]
+[se ad51]
+[wt 0.3]
+[bgm BGM_EVENT_3 0]
+＠ブリュンヒルデ
+[line 3]許されるはずもない。
+[k]
+
+？1：話が通じてない！
+
+？2：あっ、これは危険な気配！
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい、先輩！[r]彼女は見るからに戦闘態勢に入っています！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+えっ、サーヴァント戦闘！？[r]いきなり！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ブリュンヒルデ
+……いざ、尋常に。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アルテラ
+ふむ。戦いを望むのか。
+[k]
+
+＠アルテラ
+であれば、応えよう。[r]私にできるのは、ただ破壊の剣を振るうのみ。
+[k]
+
+[charaFace C 5]
+＠アルテラ
+来るがいい。[r][#軍神:マルス]の剣が、おまえの衝動を砕き尽くそう[line 3]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

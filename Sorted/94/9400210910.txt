@@ -1,0 +1,647 @@
+
+
+＄94-00-21-09-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 5014001 1 善メフィスト]
+[charaSet G 5014001 1 悪メフィスト]
+[charaSet H 98006300 1 エネミー]
+
+[scene 22111]
+[fadein black 2.0]
+[wait fade]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+……この階層が一番、霊子密度が濃いな。[r]このマンションの中心に相当するようだ。
+[k]
+
+＠Dr.ロマン
+今まで何十体もゴーストを倒してきたけど、[r]あれらとは比べものにならない反応がある。
+[k]
+
+＠Dr.ロマン
+この特異点もどきを成立させている核……[r]この領域の魂、霊基といったものかな。
+[k]
+
+＠Dr.ロマン
+それがその近くにある。[r]気をつけて進んでくれ、[%1]君。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+了解しました。[r]……廊下もじき終わりです。
+[k]
+
+＠マシュ
+あの部屋が最後の部屋のようですが……[r]式さん、何か感じますか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠両儀式
+あのな。オレは寒気しか感じてないぞ。[r][%1]みたいに魔力感知とか知らないし。
+[k]
+
+＠両儀式
+たいていは勘だよ、勘。[r]あとはどのくらい死があるかって判断だ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+死のあるなし、ですか。
+[k]
+
+＠マシュ
+今まで話しませんでしたが、[r]死が[#視:み]える、というのはどういった感覚なのでしょう？
+[k]
+
+[charaFace D 5]
+＠両儀式
+基本的には気持ち悪い。前にも言ったけど、[r]オレが[#視:み]ているのはモノの寿命だ。
+[k]
+
+＠両儀式
+……万物にはすべて綻びがある。
+[k]
+
+＠両儀式
+それはたいてい線のように[#視:み]えて、[r]ナイフを通せばその部分が“死”ぬ。
+[k]
+
+＠両儀式
+そのあたりの詳しい理屈は、時間ができたら[r]知り合いの魔術師にでも聞けばいい。
+[k]
+
+＠両儀式
+オレの場合はおかしな魔術師と縁があってさ。[r]知りたくもない事を一方的に語りやがった。
+[k]
+
+＠両儀式
+……ま、もう会う事はないだろうけど。[r]もしかしたらそっちに関係者がいるかもな。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+どうだろうね。カルデアはお金こそかかってるけど、[r]基本、山奥の隔離研究施設みたいなものだから。
+[k]
+
+＠Dr.ロマン
+それより君の眼は先天的なものなのかい？[r]生まれたときからそんな怖い視界で生きてきた？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠両儀式
+生まれつきのものだけど、[r]事故に遭うまでは開いていなかった。
+[k]
+
+＠両儀式
+オレは一度死んだようなものなんだ。[r]その後に目が覚めたら、世界が一変してただけ。
+[k]
+
+[charaFace D 5]
+＠両儀式
+……ったく。いいだろ、オレの話なんて。[r]ほら、着いたぜ。ここがマンションの中心だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メフィスト
+ヒヒヒ、ついに辿り着いてしまいましたか。[r]ええ、ええ、ここですともここですとも！
+[k]
+
+＠メフィスト
+見覚えがあります。[r][#私:わたくし]、まずはここで召喚されたのです！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……ではここに、この特異点もどきを[r]成立させている“何か”がいるのですね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+無論ですとも！[r]だって、いないとお話が通りません！
+[k]
+
+＠メフィスト
+ああ、一体誰なのでしょう！　ワクワクです！[r]皆さん、緊張してきました！　よね？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]そうですね。[r]不謹慎ですが、興味は尽きません。
+[k]
+
+＠マシュ
+ありがとうございます。[r]メフィストさんのおかげで緊張がほどけました。
+[k]
+
+？1：場を盛り上げるプロだもんね、メフィスト
+？2：アヒルのパーティーみたいだけどね。
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠メフィスト
+うふふ、それはもう！　[%1]さんのため、[r]いつもの等倍喋っておりますとも！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+普段通りってコトだよね、それ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+何があってもマイペースってコトか。[r]でも、それにしては本気で楽しそうだよな、おまえ
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィスト
+そりゃそうですよぅ。
+[k]
+
+＠メフィスト
+[#私:わたくし]のような悪魔を“なんだかなー”と思いつつ[r]付き合い、使っていただけるマスターといるのです！
+[k]
+
+＠メフィスト
+これが楽しくないワケがない！
+[k]
+
+[charaFace E 3]
+＠メフィスト
+ああ、楽しいですねぇ！　嬉しいですねぇ！[r]本当に、夢のような日々ですねぇ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠両儀式
+……そうだな。[r]おまえにしては素直じゃないか、ハサミ男。
+[k]
+
+[charaFace D 0]
+＠両儀式
+よし。中に入るぞ。[r]いいな、[%1]？
+[k]
+
+？1：もちろん。
+
+？！
+
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 1.5]
+[se ad45]
+[scene 22180]
+[fadein black 2.0]
+[wait fade]
+
+
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なんだこの部屋！？　境界線がないぞ！？
+[k]
+
+＠Dr.ロマン
+スカサハの影の国のようなものだ！[r]こんなのを放っておいたら[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠悪メフィスト
+ようこそ皆さんおそろいで！[r]ここまでご満足いただけましたぁ？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 3]え。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠善メフィスト
+もちろん満足していただけましたとも！[r]こんにちは[#私:わたくし]！　境界式の監視、ごくろうさま！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk off]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace F 3]
+[charaFadein F 0.1 2]
+[wt 1.5]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+メフィストさんがまた二人……！？[r]悪い方はわたしたちが退去させたのに、ですか！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠善メフィスト
+何を言うのですマシュ嬢！[r][#私:わたくし]を見くびらないでいただきたい！
+[k]
+
+＠善メフィスト
+[#私:わたくし]は悪魔ですよ？[r]善の心とか、そりゃあ一つしかありませんけどぉ[line 3]
+[k]
+
+＠善メフィスト
+悪の心は一つや二つで済む訳がないでしょう？[r]それこそ数え切れないくらいあるのでぇす！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+驚きの説得力……！[r]ぐうの音もでない返答を頂きました、マスター！
+[k]
+
+？1：メフィストだからしょうがない
+？2：改心するまで殴り続けるしかないね……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠善メフィスト
+はい、それはもう！[r]みだらに悪に傾倒する[#私:わたくし]を倒してまわる……
+[k]
+
+＠善メフィスト
+そんなマスターの活躍が見たくて[r]ここまで来たのでございますとも！
+[k]
+
+＠善メフィスト
+ささ、どうぞ遠慮なく！[r]あの、悪の[#私:わたくし]の後ろに控える大死霊、
+[k]
+
+＠善メフィスト
+あれこそはこの結界の[#要石:かなめいし]！[r]死霊たちを招き、柱にする[#大無間:だいむげん][#地獄堂:じごくどう]でございます！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[stretchout full 0.4 1.75]
+[wt 0.4]
+
+[wt 0.2]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[wt 1.0]
+[charaFadeout H 0.1]
+[wt 0.2]
+
+[stretchin full 0.4 1.0]
+[wt 0.4]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+……でかいな。どのくらい死に[#難:にく]いんだ、アレ。[r]線が多すぎて斬っても斬ってもキリがないぞ……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠悪メフィスト
+ヒヒヒ！　それはもう！[r]なにしろ億を超える死のコピーペーストですからねぇ！
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+＠悪メフィスト
+皆さんも仲良く死霊の一員になってもらいますとも。[r]ですがあ、その前にぃ[line 3]
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace G 4]
+＠悪メフィスト
+[#私:わたくし]、ちょっと分からないのですよねぇ。[r]いえ、[%1]さんの事が。
+[k]
+
+＠悪メフィスト
+ねえ。なぜここまでやってきたのです？[r]アナタにとっては完全に他人事なのに。
+[k]
+
+＠悪メフィスト
+確かにサーヴァントたちは囚われていました。[r]ですが、彼らは自ら望んで変質した。
+[k]
+
+＠悪メフィスト
+もとから“そうなりたかった”者たちなのです。[r]アナタが骨を折って助ける必要もなかった。
+[k]
+
+＠悪メフィスト
+このマンションはたしかに異界ですが、[r]あくまで特異点もどき。放っておいてもいいのです。
+[k]
+
+＠悪メフィスト
+仮に人理定礎が復元し、世界が元に戻ろうと、[r]ここは世界の外で慎ましやかに恨み辛みを集めるだけ。
+[k]
+
+＠悪メフィスト
+その手の地獄を眺めるのは[#私:わたくし]の生業ゆえ、[r][#私:わたくし]はこうして働いている訳ですが。
+[k]
+
+＠悪メフィスト
+アナタはなぜここまで関わるのです？[r]誰に願われた訳でも、誰に復讐する訳でもなく！
+[k]
+
+＠悪メフィスト
+アナタにとってこの怪異の解決は[r]何の利益にもならないというのに！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠両儀式
+[line 6]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+それは……
+[k]
+[bgmStop BGM_EVENT_5 0.1]
+
+？1：だって、みんな苦しそうだ。
+？2：おまえと同じ、自分の趣味だよ。
+
+？！
+
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 1]
+[wt 1.0]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaFace A 13]
+[wt 0.4]
+＠マシュ
+[line 3]はい！[r]利益とは関係なく、必要だと感じたから解決する！
+[k]
+
+＠マシュ
+先輩はそういう人です！[r]辛いこと、悲しいことから目を背けない。
+[k]
+
+＠マシュ
+そういう人だから、あの管制室で、[r]怯えるわたしの手を握ってくれた……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+みんな苦しそう、か。[r]よりにもよって、死霊相手にみんなって。
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠悪メフィスト
+[line 3]はあ。[r]では殺すしかないですな。
+[k]
+
+＠悪メフィスト
+[#私:わたくし]、悪魔ですので。[r]ただそうしたいから、などと言われては興醒めです。
+[k]
+
+[charaFace G 2]
+＠悪メフィスト
+物欲の駆け引きが通じない。[r]つまり取引相手になりえない！
+[k]
+
+＠悪メフィスト
+そんな人間を前にしたら、ねえ？[r][#私:わたくし]、真の意味で服従するしかないかもですし？
+[k]
+
+＠悪メフィスト
+そんな忠節の[#私:わたくし]はもう[#悪魔:メフィスト]ではない訳ですし？
+[k]
+
+＠悪メフィスト
+[#私:わたくし]は[#私:わたくし]としてここにいる。
+[k]
+
+＠悪メフィスト
+悪魔メフィスト・フェレスとして望まれた以上[line 3][r]役割を果たさなければ素晴らしいマスターに失礼です！
+[k]
+
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_1 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠善メフィスト
+おお、それでこそ[#私:わたくし]！[r]悪魔より悪魔らしい悪魔道！
+[k]
+
+[charaFace F 4]
+＠善メフィスト
+しかし実際、マスター側の[#私:わたくし]は困りもの。[r]あの大死霊には勝てそうにないですしぃ。
+[k]
+
+＠善メフィスト
+悪魔としてマスターに倒されたい悪の[#私:わたくし]。[r]悪魔として自分だけ助かりたい善の[#私:わたくし]。
+[k]
+
+＠善メフィスト
+なんでしょうこれ、[r]善と悪が[#混線:まじ]わって最強に見えますねぇ！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠両儀式
+バカ。いいから黙ってこっちに付いとけ。[r]助かりたいんならその一択だ。
+[k]
+
+＠両儀式
+やるぞ、マシュ、ハサミ男。[r]今の[%1]の答えでオレも納得がいった。
+[k]
+
+＠両儀式
+いや、オレもずっと疑問だったんだ。
+[k]
+
+＠両儀式
+[%1]には帰るところがあるのに[r]なんで人様の地獄に首をつっこむのかって。
+[k]
+
+＠両儀式
+でも、要はアレだった。
+[k]
+
+[charaFace D 7]
+＠両儀式
+コイツ、幹也と同じタイプの大莫迦だ！[r]なら考えても仕方がない！
+[k]
+
+＠両儀式
+だって莫迦には話、通じないからな！[r]まわりが苦労するしかないってオチだ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 7]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+はい……はい！　同感です、式さん！[r]それがわたしたちのマスターです！
+[k]
+
+＠両儀式
+ならさっさと片付けるぞ！
+[k]
+
+＠両儀式
+オレもおまえたちのカルデアとやらに、[r]ちょっと行ってみたくなったからな！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]

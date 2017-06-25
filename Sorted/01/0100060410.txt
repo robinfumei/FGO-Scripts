@@ -1,0 +1,593 @@
+＄01-00-06-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 5012001 1 ニトクリス]
+[charaSet F 4012000 1 オジマンディアス]
+[charaSet G 98085000 1 オジマンディアス]
+
+[scene 28801]
+[backEffect bit_talk_haboob_02]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+神殿の影が見えてきました！[r]目算距離ですが、この丘が最後です！
+[k]
+
+[charaTalk off]
+[charaEffect C bit_talk_haboob_03]
+[charaPut C 0,-140]
+[se ad2]
+＠マシュ
+っ……風が強い……！[r]マスター、気をつけて！　わたしの後ろに！
+[k]
+
+＠マシュ
+宝具、展開しつつ正面から突破します！[r]ここさえ抜ければ[line 3]抜けれ[line 3]え？
+[k]
+
+[messageOff]
+[fadeout white 0.25]
+[bgmStop BGM_EVENT_5 0.25]
+[wait fade]
+[backEffectStop bit_talk_haboob_02]
+[charaEffectStop C bit_talk_haboob_03]
+[charaFadeout A 0.1]
+[charaTalk on]
+[scene 20320]
+[wt 1.0]
+[seStop ad2 2.0]
+[wt 0.7]
+[fadein white 1.5]
+[wait fade]
+[wt 1.0]
+[wipeout downToUp 0.4 1]
+[wait wipe]
+[cameraMove 0.1 -80,-150 2.5]
+[scene 29310]
+[wt 0.4]
+[wipein upToDown 0.4 1]
+[wait wipe]
+
+[wt 0.7]
+[cameraMove 2.5 -80,0 2.5]
+[wait camera]
+[wt 0.7]
+[cameraMove 1.5 0,0 1.0]
+[wait camera]
+
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+[line 6]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+[line 6]。
+[k]
+
+？1：すっごい神殿だ[line 4]！
+？2：何だあのトンデモ建造物[line 4]！？
+
+？！
+
+[bgm BGM_EVENT_1 0.1]
+[charaFace A 1]
+＠マシュ
+まるで砂の海に浮かんだ海上都市のようです！[r]一目で素晴らしい建造技術だと分かります！
+[k]
+
+＠マシュ
+あれが太陽王オジマンディアスの居城[line 3][r]伝説に名高い[#光輝の大複合神殿:ラムセウム・テンティリス]なんですね！
+[k]
+
+？1：うんうん。……それ、誰？
+？2：ふむふむ。……それ、なに？
+
+？！
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+あー、そっか。[r]こういう時はロマンがレクチャーしてたんだっけ。
+[k]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+太陽王オジマンディアス。正しくはラムセス二世。[r]古代エジプト世界に於ける最大最強のファラオさ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい。紀元前１３００年、エジプトに多大な繁栄を[r]もたらし、神王を名乗ったファラオの中のファラオ。
+[k]
+
+＠マシュ
+ファラオが神と自己を同一視するのは珍しく[r]ありませんが、その中で最も太陽に近しい王かと。
+[k]
+
+[charaFace A 13]
+＠マシュ
+また、たいへんな建築家であったとも言われています。
+[k]
+
+＠マシュ
+“地上の神殿はすべて私が作ったものだ[line 3]”[r]そんな発言まであるほどです。
+[k]
+
+＠マシュ
+本当にそうだとしたら、人類最古の発電機、[r]デンデラの電球も彼の逸話に連なるのかもしれません。
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+太陽王の他に建設王の異名も持っているからね。[r]あの大神殿も彼の宝具の一つなんだろう。
+[k]
+
+？1：それは凄い
+？2：家具はニトクリス製じゃないのか……
+
+？！
+
+[charaFace A 1]
+＠マシュ
+さっそくお邪魔しましょう！[r]エジプトの建物は初めてです！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ[line 3]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+見たところ妨害もなさそうだ。[r]中も涼しそうだしね。
+[k]
+
+＠ダ・ヴィンチ
+けどマシュ、その前に確認したい事がある。[r]ロマンからの通信はあったかい？
+[k]
+
+[charaFace A 4]
+＠マシュ
+あ……すみません、浮かれてしまって。[r]ドクターからの通信はいまだ回復していません。
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+やっぱりね。これで私の仮説は立証された。
+[k]
+
+＠ダ・ヴィンチ
+[%1][&君:ちゃん]。マシュ。[r]我々は十三世紀の中東にレイシフトしてきた。
+[k]
+
+＠ダ・ヴィンチ
+それは確かだ。けど、[charaFace D 4]ここは十三世紀の地球じゃない。[r]この杖は魔力の測定機でもあるんだけど……
+[k]
+
+＠ダ・ヴィンチ
+ここに来た時から魔力の質が違っている。[r]この砂漠に満ちた[#魔力:マナ]はもっと古い。
+[k]
+
+＠ダ・ヴィンチ
+ニトクリスはここをエジプト領と言っていた。[r]それは土地の話だけじゃない。
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+ここは紀元前の砂漠だ。[r]どうしてかは分からないが[line 3]
+[k]
+
+＠ダ・ヴィンチ
+この第六特異点には、オジマンディアスが支配する[r]世界がまるごと転移してしまっている。
+[k]
+
+＠ダ・ヴィンチ
+時空が乱れているんだろうね。
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+エルサレムにレイシフトできなかったのも、[r]カルデアと連絡が取れないのもその所為だよ。
+[k]
+
+[charaFace A 14]
+＠マシュ
+そんな……では第六特異点は聖地ではなく、[r]この砂漠なんでしょうか？
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+んー、それはまだ分からない。ただ、このエジプト領が[r]世界にとって異物という事だけさ。
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+加えて、測定機によるとこのエジプト内部に一個所、[r]さらに時空のおかしなところがあるようだ。
+[k]
+
+？1：砂漠よりもっとズレた所がある？
+？2：異物の中の異物、みたいな？
+
+？！
+
+[charaFace D 2]
+＠ダ・ヴィンチ
+うんうん。その表現はいいね。[r]これは予感だが、今回の探索の鍵になりそうだ。
+[k]
+
+＠ダ・ヴィンチ
+それが何なのかは気になるけど、[r]まずは当面の謎を暴きに行こうか。
+[k]
+
+＠ダ・ヴィンチ
+いざ、オジマンディアスの大神殿へ！[r]伝説が本当なら、彼は気難しい美男子である筈さ！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_1 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[scene 29320]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[wt 1.0]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.7 1]
+＠オジマンディアス
+[line 5]ふぅむ。[r]眠いな。余は、とても眠い[line 3]
+[k]
+
+[charaFadeout F 0.4]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+（先輩、神殿につくなりVIP待遇で玉座まで[r]　連れてこられてしまいましたが[line 3]）
+[k]
+
+＠マシュ
+（玉座で目蓋をこすっている褐色の男性……[r]　あの方がオジマンディアス王なのでしょうか！？）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ニトクリス
+やっと来ましたね、怪しき旅の者ども！[r]ちょっと遅かったのは気にしていません！
+[k]
+
+＠ニトクリス
+スフィンクスの試練を越えた貴方たちは、[r][#畏:おそ]れ多くも王への謁見を許されました！
+[k]
+
+＠ニトクリス
+さあ、そこに平伏するのです！
+[k]
+
+＠ニトクリス
+さすれば王は[#倦怠:けんたい]から身を起こし、[r]貴方たちにお言葉をおかけになるでしょう！
+[k]
+
+？1：はは[line 5]っ！
+
+[charaFace E 1]
+＠ニトクリス
+ふっ……！　いい光景です、[r]我が事のように胸が弾みます！
+[k]
+
+？2：貴方がオジマンディアス王？　ホントに？
+
+[charaFace E 4]
+＠ニトクリス
+な……なんと無礼な……！
+[k]
+
+＠ニトクリス
+[#不遜:ふそん]すぎます、[r]地上に在る神たるファラオに対して！
+[k]
+
+？！
+
+[charaFace E 2]
+＠ニトクリス
+この方こそ最も偉大なファラオ。[r]最も勇壮、最も威光に満ちた神たらんとする[line 2]
+[k]
+
+＠ニトクリス
+[line 2]ファラオ・オジマンディアス！[r]この終末の地を平定し、救済する理想の王です！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFadein E 0.1 2]
+＠オジマンディアス
+……珍しいな、ニトクリス。
+[k]
+
+＠オジマンディアス
+そなたは[#大鳥:おおとり]とはいえ、[r]そのように大声をあげる気性ではなかった。
+[k]
+
+＠オジマンディアス
+よほど、その者たちが気に入ったと見える。[r]はは。それは喜ばしい。実に。実に。
+[k]
+
+[charaFace E 3]
+＠ニトクリス
+も、申し訳ありませんファラオ。[r]昂ぶりのまま、貴方の真名を語りあげるなど……
+[k]
+
+＠ニトクリス
+それは本来、貴方さまの成すべき事でございました。[r]……ニトクリス、反省いたします。
+[k]
+
+[charaFace F 1]
+＠オジマンディアス
+そうだな。余の愉しみを奪った罪は重い。[r]後ほど、片腕を切り落とし、瓶に詰めよ。
+[k]
+
+[charaFace E 7]
+＠ニトクリス
+はい。温情、ありがたく……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠オジマンディアス
+……さて。[r]おまえたちが異邦からの旅人か。
+[k]
+
+＠オジマンディアス
+我が名はオジマンディアス。[r]神であり太陽であり、地上を支配するファラオである。
+[k]
+
+＠オジマンディアス
+過去、現在、共にそれは変わることがない上、[r]ライダーだのと呼ばれるのは[#些:いささ]か飽きもした。
+[k]
+
+＠オジマンディアス
+この小さき玉座も、所詮は[r]余にとって無聊の慰みの一つに過ぎぬ。
+[k]
+
+[charaFace F 6]
+＠オジマンディアス
+そして。そして、だ。
+[k]
+
+[charaFace F 0]
+＠オジマンディアス
+[line 3]うむ。今、余は眠い。[r]老人が死の淵から目覚めたばかりのように、だ。
+[k]
+
+＠オジマンディアス
+よって言葉は最小限にとどめる。[r]我が[#玉音:ぎょくおん]、心底に刻むが如く[#拝聴:はいちょう]せよ。
+[k]
+
+[charaFace F 4]
+＠オジマンディアス
+おまえたちがカルデアからの使者である事。[r]これまで五つの特異点を修復した者である事。
+[k]
+
+＠オジマンディアス
+そしてついにこの第六の[#楔:くさび][line 3][r]砂の聖地に現れた事。すべて承知している。
+[k]
+
+＠オジマンディアス
+何故ならおまえたちの探す聖杯は、[r]この通り、余が手にしているからだ。
+[k]
+
+[charaEffect G bit_talk_20]
+[se bas2]
+[wt 2.5]
+
+？1：聖杯……！
+？2：まさか、魔神柱……！？
+
+？！
+
+[charaFace F 5]
+＠オジマンディアス
+誰が魔術王なぞに与するか。[r]これは余がこの地に降臨した際、十字軍めから[line 3]
+[k]
+
+[wt 0.5]
+[bgmStop BGM_EVENT_1 0.5]
+[se ad155]
+[seStop ad54 0.25]
+[charaChange F 98085000 5 fade 0.5]
+[wt 2.0]
+[charaChange F 4012000 5 fade 0.5]
+[wt 0.75]
+
+[charaPut G 0,600]
+[wt 0.7]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ[line 2]ウ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaPut G 0,0]
+＠オジマンディアス
+[line 3]十字軍めから没収したものだ。[r]真の王たる余に相応しいものとして、な。
+[k]
+
+[charaEffectStop G bit_talk_20]
+[wt 0.7]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、あの……オジマンディアス王、[r]それは驚きなのですが、あの！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+←（無言でうんうんと同意している）
+[k]
+
+？1：いま、首がですね！？
+？2：ずるっとですね！？
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠オジマンディアス
+[line 3]あり得ぬ。旅の疲れであろう。[r]不敬だが、一度のみ許す。
+[k]
+
+＠オジマンディアス
+余の首は何ともないのだからな。[r]そして、聖杯を手に入れた事により余は[line 3]おっと
+[k]
+
+[bgmStop BGM_EVENT_1 0.1]
+[se ad155]
+[charaChange F 98085000 5 fade 0.5]
+[wt 1.0]
+[charaChange F 4012000 5 fade 0.5]
+[wt 0.5]
+[wt 0.5]
+
+[charaFace F 4]
+＠オジマンディアス
+………………。（見たか？という沈黙）
+[k]
+
+？1：………………（見なかったフリの沈黙）
+？2：………………（目を逸らすフリの沈黙）
+
+？！
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace F 9]
+＠オジマンディアス
+ニトクリス！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace F 9]
+[charaFadein F 0.1 0]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠ニトクリス
+は！　何用でしょう、ファラオ！
+[k]
+
+[charaFace F 2]
+＠オジマンディアス
+余は調子が出ん！　よって体を動かそう！[r]眠気覚ましに火の精どもを呼ぶがよい！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠オジマンディアス
+では行くぞ、カルデアのマスターとやら！[r]先ほどの沈黙、余は特に気に入った！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、ファラオ・オジマンディアス、[r]意味不明の理由で臨戦態勢です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+よし、想像通り……ッ！　この王様、[r]完全に自分ルールで生きてきた困ったちゃんだ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

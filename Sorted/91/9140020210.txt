@@ -1,0 +1,366 @@
+
+
+＄91-40-02-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4002001 1 イスカンダル]
+[charaSet E 98015000 1 ？？？]
+[charaSet F 98015000 1 ？？？]
+[charaSet G 98015000 1 ？？？]
+
+
+[se ad25]
+[wait se ad25]
+[se ad33]
+[wait se ad33]
+[se ad170]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+[scene 29802]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.4]
+
+[wt 0.4]
+[charaEffect E bit_talk_14]
+[wt 0.1]
+[shake 0.05 2 2 0.4]
+[se bac10]
+[wait se bac10]
+
+[wt 0.7]
+
+[messageOff]
+[se ad26]
+[wt 0.3]
+[charaSpecialEffect E enemyErasure 1 3]
+[wt 1.0]
+[se ad42]
+[wait charaSpecialEffect E]
+[wt 0.5]
+
+
+[se ad25]
+[charaTalk off]
+[charaFace E 0]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadein E 0.4 1]
+[wt 0.2]
+[charaFadein F 0.4 0]
+[charaFadein G 0.7 2]
+[wt 1.2]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+あらためて提言します！　早急に撤退するべきです！[r]この戦闘では何ら得るものはありません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠イスカンダル
+わっはっは。そうは言うがな盾の乙女よ。[r]既に退路も断たれておる。ここは腹を括るしかあるまい。
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+……残念ながら、その通りだマシュ。いざ交戦を始めて[r]しまった以上は、戦って活路を開いてもらうしかない。
+[k]
+
+？1：イスカンダルが余計なちょっかいだすから……
+？2：黙っていればこっそり逃げられたのに……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠イスカンダル
+いやあ、そう言うな！
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+この土地を吹き抜ける風にペルシアの趣をふと感じてな。[r]滾る血潮で駆け抜けた日々の郷愁だ。
+[k]
+
+[charaFace D 4]
+＠イスカンダル
+するとつい、またこの辺で暴れてみたくなってのぉ、[r]そこにほら、丁度手頃なヤツがおったもんだから……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+なんというストレングスな思考回路でしょうか……[r]先輩も、そろそろ注意すべきです！
+[k]
+
+？1：マシュ、余所見している場合じゃないぞ
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠イスカンダル
+わはは！　それでこそ我がマスター。[r]戦場での機微を心得ておるではないか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩は日本出身でしたね……[r]もしや[charaFace A 0]カルデアに来る前はブラック企業に？
+[k]
+
+[charaFace A 7]
+＠マシュ
+つまり、理不尽なハードワークに[r]類い希な適性があるとお見受けしました……！
+[k]
+
+？2：こんな生活もう嫌！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠イスカンダル
+わはは！　まぁそう言うな。ほれ、ブケファラスとて[r]戦いの興奮に昂ぶっておるぞ！
+[k]
+
+[se ad83]
+[wait se ad83]
+[wt 0.2]
+
+[charaFadeout D 0.1]
+
+
+[messageOff]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォ～ウ！[charaMove C 0,15 0.15][wt 0.15][charaMove C 0,0 0.2][wt 0.2]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠イスカンダル
+そこな子リスもまた昂ぶっておるぞ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+フォウさん！？
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠イスカンダル
+それにな……この戦い、ただの戯れのままに終わるかと[r]どうやらそうでもないらしい。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+というと？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠イスカンダル
+かつてこの地に遠征した折、我らの行く手を阻んだのは[r]ダレイオス王の軍だけではない。
+[k]
+
+＠イスカンダル
+丁度いま相手をしておるような魑魅魍魎の類とも、[r]繰り返し遭遇戦を演じたものだ。
+[k]
+
+[charaFace D 3]
+＠イスカンダル
+その頃の追憶に駆られてか……我が軍勢の者どもが[r]久しくなかった血の滾りを訴えておる。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+は？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+[bgmStop BGM_EVENT_3 0.2]
+
+＠イスカンダル
+戦いたがっておるんだよ！　かつてのように猛々しく、[r]雄壮に、短き命と誉れを賭けて！
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+我が覇道のもとに集い、[r]共に砂の海を駆けた勇者達が望むのだ！
+[k]
+
+[se ad39]
+[charaEffect D bit_talk_36]
+
+[charaFace D 5]
+＠イスカンダル
+ならば余は王として、それに応えねばなるまいよ！
+[k]
+
+[charaEffectStop D bit_talk_36]
+[wt 0.3]
+
+[charaFadeout D 0.1]
+[se ad39]
+[wt 0.5]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+いきなり何を言って[wt 0.8][se ad135][seVolume ad135 0 0.5][fadeout white 0.5][wt 0.5][scene 28802][seStop ad135 1.5][se ad2][seVolume ad2 0 0.2][fadein white 2.0][wt 2.0][communicationCharaFace 2][line 3]！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[wt 1.2]
+[cameraMove 0.8 -100,-0 1.25]
+[wait camera]
+[wt 0.8]
+[cameraMove 1.2 100,0 1.25]
+[wait camera]
+[wt 0.8]
+[cameraMove 0.8 0,0 1.0]
+[wait camera]
+[wt 0.8]
+
+？1：……ここは……？
+
+？！
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+固有結界か！　しかし意外だ、まさか騎兵である征服王が[r]こんな大魔術を使うなんて[line 3]
+[k]
+
+[seStop ad2 0.7]
+
+＠Dr.ロマン
+いや、ちょっと待った！[r]近くにサーヴァントの反応を多数確認！
+[k]
+
+＠Dr.ロマン
+これは……一体何が起きているんだ！？[r]反応が一万を超えたぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.5]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠イスカンダル
+おぉ、相も変わらず、皆よい面構えよ！[r]余まで胸が震えてくるわ！
+[k]
+
+[wt 1.0]
+[charaFace D 2]
+＠イスカンダル
+[line 3]さぁ、[#鬨:とき]の声を上げよ！
+[k]
+
+[se ad16]
+[wt 1.5]
+[seStop ad16 1.5]
+
+＠イスカンダル
+瞠目の時だ、[%1]、盾の乙女よ！[r]これぞ我が王道、我が絆、我が最強宝具！
+[k]
+
+[wt 0.4]
+
+＠イスカンダル
+[font large]蹂躙せよ！　「[#王の軍勢:アイオニオン・ヘタイロイ]」！！[-]
+[k]
+
+
+[messageOff]
+[se ad16]
+[wt 0.8]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

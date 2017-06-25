@@ -1,0 +1,571 @@
+
+＄94-00-56-03-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 5027000 1 マリー]
+[charaSet C 3001001 1 クー・フーリン]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet H 98006000 1 ？？？]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あの謎の実だけでは、[r]マスターの食糧問題は解決できなさそうです。
+[k]
+
+＠マシュ
+味もそうですが、食べるたびに敵が来ては……。[r]本当にどうしようもないときの非常食が精々でしょう。
+[k]
+
+＠マシュ
+他に食料の当ては……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠マリー
+まあ、そんなことになっていたの。[r]パンもないのね。
+[k]
+
+？1：…………
+？！
+
+[charaFace B 0]
+＠マリー
+……？　じっと見られても、ごめんなさい、マスター。[r]何か力になれるといいのだけれど……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠クー・フーリン
+んあ？　なんだおまえら、食い物探してんのか。
+[k]
+
+[charaFace C 1]
+＠クー・フーリン
+ちょうど川釣りしに行くところだ。[r]一緒に来るか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+釣り……ですか。確かに魚が釣れるといいですね。[r]でも、わたしは未経験で……それに道具は……？
+[k]
+
+[charaFace C 1]
+＠クー・フーリン
+なんだ、ボウズが怖いのか？　安心しな、[r]素人でも釣れたりすんのが釣りのいいところだ。
+[k]
+
+＠クー・フーリン
+竿ならオレが作ってやるよ。マシュと[%1]、[r]二人分だろ？　ちょろいちょろい。
+[k]
+
+？1：さすがＹＡＲＩＯのひと！
+？2：みんなで釣り大会だ！
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠マリー
+もちろん、わたしもやったことないのだけど。[r]でも、なんだか楽しそうね？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠玉藻の前
+おやおや。川釣りとはまた風流な。[r]そういう日本の夏休み的なことは見逃せませんねぇ。
+[k]
+
+＠玉藻の前
+マスターのために野草とか探しに行こうかナーと[r]考えていたところですが、お供させていただきます。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠クー・フーリン
+一気に増えたな……四人分か、まあいいけどよ。[r]川釣りだ、[charaFace C 1]人数は多い方が退屈はしないわな。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[charaFadeout C 0.1]
+[wt 1.2]
+[scene 30500]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_28 0.1]
+
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+は、はあ、なるほど。[r]このニョロニョロしたのが餌、ですか……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠クー・フーリン
+年期入ってれば餌がなくても釣れるんだがな。[r]初心者にはあったほうがいいだろ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+[wt 0.4]
+
+？1：自分でつけられる、マシュ？
+
+[charaFace A 7]
+＠マシュ
+はい、頑張ってみます！
+[k]
+
+？2：つけてあげようか、マシュ？
+
+[charaFace A 3]
+＠マシュ
+……。[r]い、いいえ、お気持ちはありがたいのですが！
+[k]
+
+＠マシュ
+これぐらいはわたし一人でなんとかできますので。[r]先輩の足は引っ張りません！
+[k]
+
+？！
+
+[charaFace A 12]
+＠マシュ
+……針に、こう……っ……[r]大丈夫、落ち着いて……
+[k]
+
+[charaFace A 1]
+＠マシュ
+……！
+[k]
+
+＠マシュ
+できました！　できました、先輩！
+[k]
+
+？1：えらいっ。なでてあげよう……
+
+[charaMoveReturn A 0,-3 0.4]
+
+[charaFace A 3]
+＠マシュ
+いえこれは、その、当たり前のことで……[r]わたしが物知らずなだけだったので、その……。
+[k]
+
+？2：じゃあ、あとは釣るだけだね
+
+[charaFace A 1]
+＠マシュ
+はい、頑張ります！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+＠玉藻の前
+釣れるも八卦釣れぬも八卦。[r]気楽にいくのが正しいやり方です。
+[k]
+
+[charaFace D 0]
+＠玉藻の前
+マスターのお側に座って、共に同じ水面を眺めて、[r]ただ一緒に時間が過ぎることを楽しむ……
+[k]
+
+[charaFace D 1]
+＠玉藻の前
+[#私:わたくし]にとってはそれだけで充分です。
+[k]
+
+[charaFace D 0]
+＠玉藻の前
+そういう優雅でハイソな娯楽でもあるのです、[r]釣りというものは。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠クー・フーリン
+へーえ、悟ってんじゃねぇか。わりと同感だな。[r]さすがは年の功ってか？
+[k]
+
+[charaMoveReturn D 240,0 0.2]
+[charaFace D 2]
+＠玉藻の前
+とぅわっ！[se ad76][charaShake C 0.05 3 3 0.2]　そういうコトはスカサハさんに[r]言ってみれって言うんですよ[line 3]！　そして[#ＤＩＥ:しね]！
+[k]
+
+[charaFace D 1]
+＠玉藻の前
+っと、いっけない、わたしったらはしたなーい☆[r]今回は優雅な、涼やかなタマモちゃんなのでした☆
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠マリー
+はじめてだけど……エサはなくてもいいのよね？[r]とりあえずこのまま入れてみようっと。
+[k]
+
+[se ad107]
+[wt 0.1]
+[seStop ad107 0.4]
+[wt 0.4]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠クー・フーリン
+そりゃオレみてぇな上級者はって意味だが……[r]ま、[charaFace C 1]いいか。
+[k]
+
+＠クー・フーリン
+キツネの嬢ちゃんが言うとおり、[r]ダメ元で糸を垂らしてりゃそれでいいさ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠玉藻の前
+さてさてますたぁ、[r]のーんびり釣りを楽しみましょうねっ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+わたしは本気です。大物を釣り上げて[line 3]先輩に、[r]栄養のある魚類をたくさん摂っていただかないと！
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[bgmStop BGM_EVENT_28 1.0]
+[wait wipe]
+[charaFace A 7]
+[wt 1.0]
+
+[charaFace A 8]
+
+[scene 30500]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+[wt 0.2]
+
+＠マシュ
+まったく釣れません……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠クー・フーリン
+殺気出しすぎだぜ、盾の嬢ちゃんはよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠玉藻の前
+むぅぅぅぅ……イーライライライラ……。
+[k]
+
+＠玉藻の前
+一緒の時間を過ごすだけでいい、とは言いましたが。[r]さすがにここまで釣れないとなると、少ーしばかり……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠クー・フーリン
+なんだ、もうギブアップか？[r]案外堪え性がねぇんだな。
+[k]
+
+[charaFace D 2]
+＠玉藻の前
+貴方だってボウズでしょうに！
+[k]
+
+[charaFace C 0]
+＠クー・フーリン
+オレは過程を楽しんでるからいいんだよ。[r]まだ腹は減ってねえしなぁ。
+[k]
+
+[charaFace D 5]
+＠玉藻の前
+……竿が悪いのかもしれませんね。こうなればチョクで[r]沢に乗り込み、ランサーらしくグサリと[#銛漁:もりりょう]を[line 3]
+[k]
+
+[charaFace D 4]
+＠玉藻の前
+ハッ。いえいけません、それはハイソじゃないですし、[r]ぶっちゃけキャットがやるような所業……！
+[k]
+
+[charaFace D 5]
+＠玉藻の前
+この高級マヌカンな[#私:わたくし]が、[r]そこまで堕ちるわけにはいかないのです！
+[k]
+
+[charaFace C 0]
+＠クー・フーリン
+つーか、気付いてないみたいだから言うがよ。[r]あっちの姫さんはなんか掴んでるぜ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+あっちの姫さんというと……？
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.4]
+
+[bgm BGM_EVENT_28 0.1]
+
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠マリー
+……えいっ！　ふふ、また釣れちゃった。
+[k]
+
+[charaFace B 4]
+＠マリー
+……でも、あなた。『食べられたくない』って目を[r]しているわね……しょうがないわ。
+[k]
+
+＠マリー
+逃がしてあげるから、もう釣られたりしちゃダメよ？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠クー・フーリン
+ずっとあの調子だぜ。魚のほうが釣られに来てるみてぇだな。[r]やっぱ無欲が釣りの極意ってことなのかねぇ？
+[k]
+
+[charaFace A 8]
+＠マシュ
+食べられたい目をしている魚、というものがいるとは[r]思えないのですが……マリーさん……。
+[k]
+
+[bgmStop BGM_EVENT_28 0.7]
+
+？1：待った、何か様子がおかしいぞ
+？2：あの竿のしなりを見るんだ！
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 3 3 0.25]
+＠マリー
+きゃっ！？　な、何……これ……？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠クー・フーリン
+大物か！　さすがにそりゃ手伝うしかねえな！[r]いま行く、待ってろ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスター！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠玉藻の前
+[#私:わたくし]たちも手伝いましょう！[r]なんだか面白そうなので！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se bac3]
+[effect bit_talk_41]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠マリー
+気を抜くと、わたしが川に引っ張りこまれそう……！
+[k]
+
+？1：呼吸を合わせて！　せーのっ！
+？！
+
+[charaFace C 1]
+＠クー・フーリン
+よーし、見えてきた、見えてきた。[r]次でカタをつけるぞ。[line 3]今だっ！
+[k]
+
+[charaFace D 2]
+＠玉藻の前
+[#大物:フィーッシュ]ッッッ！
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+
+[effectStop bit_talk_41]
+[wt 0.3]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.2]
+
+[messageOff]
+[charaPut A 0,0]
+[charaEffect A bit_talk_21]
+[flashin once 0.25 2.5 7DAEDFFF 7DAEDF00]
+[se ad36]
+
+[wt 0.25]
+
+[charaEffectStop A bit_talk_21]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.7 1]
+
+[wt 1.5]
+
+[wt 2.0]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠マリー
+……。
+[k]
+
+＠マリー
+うん。これは……食べられたくない、というか。[r]わたしたちを食べたがってる目をしてるわね？
+[k]
+
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠玉藻の前
+なんてもの釣り上げてるんですかー！？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

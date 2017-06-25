@@ -1,0 +1,575 @@
+
+
+
+＄01-00-07-10-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 2020001 1 イシュタル]
+[charaSet G 5018001 1 ギルガメッシュ]
+
+[scene 34100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 17]
+[charaFadein F 0.1 1]
+＠イシュタル
+やるじゃない！[r]サーヴァントを駆使するマスターはそうでなくっちゃ！
+[k]
+
+＠イシュタル
+人理とか女神の責任とか、そういうの関係なしで[r]ノッてきた！　ギア、あげていくわよ！
+[k]
+
+？1：ちょっと待って、その前に！
+？2：耳よりのお話があるのですが……
+
+？！
+
+[charaFace F 2]
+＠イシュタル
+なによ、ここまで女をその気にさせておいて、[r]まさか降参するって言うの！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+そうではないのです、女神イシュタル！[r]ここでマスターからの提案があります！
+[k]
+
+？1：[&ああ:そう]、実は[line 3]
+
+？！
+
+[wt 0.2]
+[messageOff]
+[bgmStop BGM_EVENT_3 1.0]
+[wipeout circleIn 1.5 1]
+[wait wipe]
+[effect bit_sepia01]
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[scene 33100]
+[wt 1.0]
+[wipein circleIn 1.5 1]
+[wait wipe]
+
+[bgm BGM_EVENT_40 0.1 0.75]
+
+＠ギルガメッシュ
+イシュタルはあれでもシュメルの女神の頂点に立つもの。[r]イナンナとは[#天の:イン][#女主人:アンナ][line 3]
+[k]
+
+＠ギルガメッシュ
+天空神アンの代理として天を治めた事もある女神だ。[r]力では決して屈せぬし、負けぬ。
+[k]
+
+[charaFace G 4]
+＠ギルガメッシュ
+エビフ山の例もある。追い詰めれば追い詰めるほど[r]出さなくてもよい根性を発揮する。それがヤツだ。
+[k]
+
+[charaFace G 0]
+＠ギルガメッシュ
+だが、そんなイシュタルめにも弱点がある。[r][line 3]宝石の類いよ。
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]は人類の宝すべてを収集するが、[r]あの女は宝石に目が無くてな。
+[k]
+
+[charaFace G 3]
+＠ギルガメッシュ
+そしてここが重要なのだが。[r]あの女には、黄金律というものが致命的に欠けている。
+[k]
+
+＠ギルガメッシュ
+宝石を愛しておきながら宝石に縁がない。[r]今までは人間やら神々やらに[#貢:みつ]がせてきたが、
+[k]
+
+＠ギルガメッシュ
+今はこの通り、ヤツに宝を貢ぐものがいないのだ。
+[k]
+
+[charaFace G 1]
+＠ギルガメッシュ
+となれば、あとは分かろう？[r]文字通り、女神を買収すればよい。
+[k]
+
+＠ギルガメッシュ
+[%1]よ。[r]貴様には我が宝物庫の鉱石類、その三割を委ねる。
+[k]
+
+＠ギルガメッシュ
+契約者にとって交渉こそ最重要の才能よ。[r]見事、[#女神を競り落としてくるがいい]。
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_40 1.0]
+[wipeout circleIn 1.5 1]
+[wait wipe]
+[effectStop bit_sepia01]
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[scene 34100]
+[wt 1.0]
+[wipein circleIn 1.5 1]
+[wait wipe]
+
+[bgm BGM_EVENT_5 1.0]
+[wt 1.0]
+
+？1：実は、イシュタル様に捧げ物があるのです
+
+？！
+
+[charaFace F 10]
+＠イシュタル
+は？　捧げ物ぉ？[r]アナタ程度の[#懐:ふところ]具合でなに言ってるのよ。
+[k]
+
+＠イシュタル
+そこいらで拾ったものなんて貰っても、[r]私は嬉しくもなんとも[line 3]
+[k]
+
+？1：マシュ、まずあちらを
+
+？！
+
+[charaFadeout F 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい！[r]……[charaMoveReturn A 0,-10 0.3]よいしょ、と。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth E 2]
+[se ad194]
+[wt 0.3]
+[charaPut D 0,-100]
+[charaEffect D bit_talk_blight_01]
+[charaPut E 0,-450]
+[charaEffect E bit_talk_diremond_dust]
+[wt 0.1]
+[se ad79]
+[wt 2.0]
+[charaEffectStop D bit_talk_blight_01]
+[charaEffectStop E bit_talk_diremond_dust]
+[wt 0.7]
+[charaPut D 0,-600]
+[charaPut E 0,-1200]
+
+[charaTalk depthOn]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk F]
+[charaFace F 16]
+[charaFadein F 0.1 1]
+＠イシュタル
+な[line 3]なにその荷台いっぱいのラピス・ラズリは！？[r]冠？　もしかして七石の冠もない、それ！？
+[k]
+
+[charaFace F 14]
+＠イシュタル
+これだけあれば魔術用の宝石に困らない……[r]嘘、[charaFace F 16]え、くれるのこれ！？　神か！？
+[k]
+
+＠イシュタル
+途中で嘘です、なんて言わないわよね？[r]あとこれ、もちろん非課税でいいんでしょうね？
+[k]
+
+[charaFace F 11]
+＠イシュタル
+あわわ、目がクラクラしてきた、[r]おちつけ[charaFace F 14]私！　そして[#イシュタル:わたし]！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。この荷台のものは手付け金です。[r]全てさしあげます。ですよね、先輩？
+[k]
+
+？1：そう。手付け金なのだよ、イシュタル君
+？2：そう。手付け金なのです、イシュタル様
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 16]
+[charaFadein F 0.1 1]
+＠イシュタル
+て……手付け金、ですって……！？
+[k]
+
+＠イシュタル
+つまり……（ゴクリ）[r]つまり……？（ゴクリ）
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マーリン
+キミを頼れる戦力として雇いたい。[r]これはウルクの民すべての願いだそうだ。
+[k]
+
+＠マーリン
+その証拠に、ギルガメッシュ王は[r]バビロンの蔵を開放すると約束した。
+[k]
+
+＠マーリン
+[%1]君。[r]その総額を言ってあげたまえ。
+[k]
+
+？1：宝物庫の鉱石類、一割を献上します
+？2：宝物庫の鉱石類、二割を献上します
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+＠イシュタル
+なん……だと……！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ、フォーウ！　ドフォ[line 3]ウ！[r]（特別意訳：ちょろいなこの女神！）
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠アナ
+……静かに、フォウ。[r]言いたい事は分かりますが、とにかく静かに。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠イシュタル
+い、いえ、ちょっと待ってね、[r]私の積年の怒りはその程度じゃ収まらないんだから。
+[k]
+
+＠イシュタル
+バビロンの宝物庫と言っても、あれでしょ、[r]ギルガメッシュが未来に向けて作ってるヤツでしょ？
+[k]
+
+＠イシュタル
+完成すれば底なしだとか、[r]その時の人類の総資産とか、そういう触れ込みの。
+[k]
+
+[charaFace F 10]
+＠イシュタル
+それの一割、オア、二割？[r]そんな量、[#眉唾:まゆつば]すぎて信じられないっていうか、
+[k]
+
+？1：では、2.5割では？
+
+？！
+
+[charaFace F 9]
+＠イシュタル
+まだ上がるの！？[r]しかも2.5割って、つまり25％！？
+[k]
+
+？1：そう、25％です
+？2：喩えるなら四つが三つになるようなものです
+
+？！
+
+[charaFace F 9]
+＠イシュタル
+[line 3]う、ぐ[line 3][r]けど私は女神イシュタル、そんな、浅ましい条件で……
+[k]
+
+？1：マシュ、荷台を下げて
+？2：商談はここまでですか……
+
+？！
+
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_1 1.0 0.5]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、マスター。了解しました。[r]こちらは持ち帰りますね。
+[k]
+
+[charaTalk depthOff]
+[messageOff]
+[se ad194]
+[wt 0.3]
+[charaPut D 0,-100]
+[charaEffect D bit_talk_blight_01]
+[charaPut E 0,-450]
+[charaEffect E bit_talk_diremond_dust]
+[wt 0.7]
+[se ad79]
+[seStop ad79 1.7]
+[charaEffectStop D bit_talk_blight_01]
+[charaEffectStop E bit_talk_diremond_dust]
+[wt 0.7]
+[charaFadeout A 0.4]
+[wt 0.2]
+[charaPut D 0,-600]
+[charaPut E 0,-1200]
+[wt 0.5]
+
+[bgm BGM_EVENT_1 1.0 0.9]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 12]
+[charaFadein F 0.1 1]
+＠イシュタル
+あ、止めて、それ止めて。[r]そういうコトしないで。悲しすぎて死にそうだから。
+[k]
+
+？1：では？
+？2：そろそろご決断を
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+いい加減、観念したまえ。[r]キミには得しかないと思うがね？
+[k]
+
+＠Dr.ロマン
+そもそも、世界のすべてが滅びてしまっては[r]キミの美を後世にまで讃える人々さえ消え失せる。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+せっかくここまで人間が育み、[r]キミたちが適応した美の概念さえもだ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+だがここでキミが[%1]君と[r]商談を結ぶのなら話は別だ。
+[k]
+
+＠Dr.ロマン
+キミは清く正しい女神として、[r]人類史に未来永劫語り継がれるだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 1]
+＠イシュタル
+そ、そうね。それも悪くないわね（チラッ）
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+あっ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 1]
+＠イシュタル
+確かに、その、何？[r]地上のすべてが灼き尽くされれば、ええと（チラッ）
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ、フォーウ！[r]（特別意訳：見てる！　宝見てる！）
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 1]
+＠イシュタル
+あまり面白いものじゃないかもしれないし（チラッ）
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+…………。
+[k]
+
+＠アナ
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 11]
+[charaFadein F 0.1 1]
+＠イシュタル
+……………………………………………………………………[r]……………………………………………………………………。
+[k]
+
+＠イシュタル
+……………………………………………………………………[r]……………………………………………………………………。
+[k]
+
+？1：…………（ゴクリ）
+
+？！
+
+[bgmStop BGM_EVENT_1 0.7]
+[wt 0.4]
+
+[charaFace F 7]
+＠イシュタル
+……よし！[r]そういうコトなら、ま、良しとしましょうか！
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+
+＠イシュタル
+アナタの勝ちよ、[%1]。[r]その条件でアナタの味方になってあげる。
+[k]
+
+＠イシュタル
+なにしろ、いま世界が七度終わるぐらいの間、[r]全力で[#葛藤:かっとう]したし。それだけ悩めばもういいかなって。
+[k]
+
+？1：時間にして二分ぐらいだったよね
+
+[charaFace F 9]
+＠イシュタル
+女神時間でそれぐらいかかったのっ！[r]もうメチャクチャ冒険したんだから、精神世界で！
+[k]
+
+？2：（沈黙は金なり）
+
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFadein F 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+女神イシュタル……！[r]ではウルクの為に戦ってくれるのですね！
+[k]
+
+[charaFace F 0]
+＠イシュタル
+イシュタル、でいいわマシュ。[r]なんか、アナタたちとは長くなりそうだし。
+[k]
+
+＠イシュタル
+いちいち女神とか言われると周りが引くでしょ？
+[k]
+
+[charaFace A 1]
+＠マシュ
+はい！　ではイシュタルさん、ですね！[r]ご協力、ありがとうございます！
+[k]
+
+＠マシュ
+今まで色々ありましたが、[r]どうぞよろしくお願いします！
+[k]
+
+[charaFace F 6]
+＠イシュタル
+ええ。じゃあまずは[%1]、[r]私に[#跪:ひざまづ]いて、足の甲に口づけしてくれる？
+[k]
+
+[charaFace A 3]
+＠マシュ
+え……？　あの、いえ、それはどういう……
+[k]
+
+[charaFace F 7]
+＠イシュタル
+私、一応サーヴァントだから。[r]人間の味方をするのなら、ちゃんと契約したいじゃない？
+[k]
+
+＠イシュタル
+だから、[%1]と関係を結ぼうかなって。
+[k]
+
+＠イシュタル
+どっちが主でどっちが下僕かは、[r]ま、想像にお任せするけど？
+[k]
+
+[charaFace A 14]
+＠マシュ
+い、いけません、却下です！[r]そんな契約の仕方はマニュアルにありませんのでっ……！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_4 1.4]
+[wait fade]
+[soundStopAll]
+[end]

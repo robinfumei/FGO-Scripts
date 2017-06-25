@@ -1,0 +1,106 @@
+＄94-00-05-06-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20902]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 7016001 1 タマモキャット]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+[fadein black 1]
+[wait fade]
+＠タマモキャット
+ニャー！　来た！　見た！　勝った！[r]なんでデブなんだあのイケメン！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠清姫
+負けてますわよ、タマモキャット。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠タマモキャット
+なんと……それは驚きの白さ……[r]試合に勝って勝負に勝った、ではどうか？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠清姫
+試合に負けて勝負にも負けていますね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠タマモキャット
+それでは完全敗北ではないですか……[r]もはや雇い主に合わせる顔がない。
+[k]
+
+[charaFace E 1]
+＠タマモキャット
+うむ。合わせる顔がないので裏切ろう。[r]いさぎよくゴールまで案内するが、いかが？
+[k]
+
+？1：いいよ
+
+[charaFace E 5]
+＠タマモキャット
+フッ、さっきまで殺し合っていたネコ相手に[r]二つ返事ときた……器、でかすぎないカ？
+[k]
+
+[charaFace E 1]
+＠タマモキャット
+それはともかく宇宙船に乗った気で任せよ。[r]ひやうぃごー！
+[k]
+
+？2：なんであれ仕事熱心だね。
+
+[charaFace E 3]
+＠タマモキャット
+うむ、案内役がホントの役割だからな！[r]楽しんでもらえたか、ご主人（真）！
+[k]
+
+？！
+
+[charaFace E 1]
+＠タマモキャット
+では今回の黒幕、招待状の主、[r]この城の支配者の元に案内するワン。
+[k]
+
+[charaFace E 0]
+＠タマモキャット
+その正体は果たして[line 3][r]んー、まあ特に言うことはない、と思われ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠清姫
+はあ……ようやく本丸ですか。
+[k]
+
+＠清姫
+正体は丸わかりなのですが[line 3][r]動機が不明ですわね。
+[k]
+
+[charaFace D 5]
+＠清姫
+あのドラバカ娘、[r]一体何を考えているのでしょう？
+[k]
+
+[charaFadeout D 0.5]
+[wt 0.4]
+[messageOff]
+[fadeout black 0.6]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

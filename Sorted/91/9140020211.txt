@@ -1,0 +1,115 @@
+
+＄91-40-02-03-1-1
+
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 4002001 1 イスカンダル]
+
+[se ad16]
+[wt 1.0]
+[seStop ad16 2.0]
+
+[scene 29802]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.2]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+凄い……[r]今のが宝具なのですか……？
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+サーヴァントの連続召喚とは驚いた！[r]いったい何騎いたんだ！？　あれが全部英霊だとは！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠イスカンダル
+ああまったく。好き放題に暴れ散らしていきおった。[r]相変わらずの連中よな
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+[%1]、そして盾の乙女よ。[r]強敵を前にして一歩も退かぬ不屈の闘志、見事であった。
+[k]
+
+＠イスカンダル
+我が臣下たちも貴様らの蛮勇ぶりを[r]大いに褒めそやしておったわ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 3]
+[charaFadein A 0.1 2]
+＠マシュ
+……そ、それはたいへん光栄です
+[k]
+
+[charaFace D 3]
+＠イスカンダル
+みな次もまた[#轡:くつわ]を並べる機会があれば、[r]是非にも馳せ参じる、とさ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_2 2.0]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+えぇと……状況についていけないんだけれど、[r]次も協力してくれるって事で良いのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠イスカンダル
+うむ。此度の戦について、[r]余は無論、我が臣下たちの総意も出揃った。
+[k]
+
+＠イスカンダル
+故に、改めてここに宣言しよう
+[k]
+
+＠イスカンダル
+征服王イスカンダルの旗のもと、我ら東方遠征混成軍は[r][#Ｇ:グランド]．[#Ｏ:オーダー]に参加する
+[k]
+
+[charaFace D 0]
+＠イスカンダル
+全霊の宝具『王の軍勢』……[r]見事使いこなしてみせるがいい。我がマスターよ
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_4 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

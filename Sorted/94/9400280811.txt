@@ -1,0 +1,202 @@
+＄94-00-28-08-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 11003001 1 ジャンヌ・オルタ]
+[charaSet G 98003003 1 Dr.ロマン]
+
+[scene 20901]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ジャンヌ・オルタ
+……あーあ、やっぱり届かなかったかぁ。[r]でも、[charaFace D 0]いいわ。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+楽しかったもの、あのテケテケ槍女の言う通り。[r]私はとても楽しかった！
+[k]
+
+＠ジャンヌ・オルタ
+だからこの[#物語:はなし]と、私はここでおしまい。
+[k]
+
+？1：……
+？！
+
+[charaFace D 5]
+＠ジャンヌ・オルタ
+ああ、やだやだ辛気臭い！[r]これでいいのよ。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+[#未来:つぎ]の私は、これでアナタと[#縁:えにし]を結べる。[r][#現在:いま]の私は、仲間と共に面白可笑しく散っていく。
+[k]
+
+＠ジャンヌ・オルタ
+[#未来:つぎ]の私は、贋作英霊の事なんて[r]まるで覚えてないでしょう。
+[k]
+
+＠ジャンヌ・オルタ
+だからせめて、[#現在:いま]の私が思い出を[r]抱えてあげないと[line 2]寂しいじゃない。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+……そろそろか。[r]いい、[charaFace D 1]ここまで恥を掻かせたんだからね。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+アナタが、きっちり、責任取るのよ？[r]……さよなら。
+[k]
+
+[bgmStop BGM_EVENT_6 4.0]
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 0 0 1]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[bgm BGM_EVENT_7 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター。聖杯の欠片、回収完了です。
+[k]
+
+[charaFace A 0]
+＠マシュ
+オルレアンのとき、エリザベートさんが[r]聖杯の欠片を回収したように、
+[k]
+
+＠マシュ
+ジャンヌ・オルタさんも聖杯の欠片を、[r]何処かで手に入れていたようですね。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+消滅を確認。[r]これで贋作そのものが増殖する危険性は無くなった。
+[k]
+
+＠Dr.ロマン
+お疲れ様、もう帰還しても問題ないよ。[r]残った贋作を回収してもいいけどね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+マスター、[&おまえ:君]は正しい。[r]時に倒されなければならない者がいる。
+[k]
+
+＠エミヤ
+その命を散らせなければ敗北を認められず、[r]前に進めぬ者がいる。
+[k]
+
+＠エミヤ
+彼女はサーヴァントとして召喚される資格を[r]得たからこそ、倒されなければならなかった。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠ダ・ヴィンチちゃん
+ああ、その通りだ。負ける事、倒される事が[r]先に進む要素になる者も、世の中にはいるんだよ。
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+さあ、帰還しようか。[r]引きこもりっぱなしの私に此度の騒動は堪えた！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。ダ・ヴィンチちゃんも、妙な発明品を[r]弄くり回してないで、たまには運動するべきかと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ダ・ヴィンチちゃん
+えー？　運動なら部屋で自転車運動しているし、[r]これ以上は特に必要ないけどぉ？
+[k]
+
+[charaFace C 1]
+＠エミヤ
+なに、君の運動能力は今回の一件でよく理解できた。[r]白兵戦もいけるクチだったとはな。
+[k]
+
+＠エミヤ
+帰還次第、君も前線に立てるように私とレオニダス王で[r]トレーニングメニューを組んでみよう。
+[k]
+
+[charaFace B 2]
+＠ダ・ヴィンチちゃん
+完全脳筋メニューとかやだー！[r]筋肉がつくとこの黄金比が崩れちゃうじゃん！
+[k]
+
+＠エミヤ
+大丈夫だ、少し鍛えればすぐに前線行きだ。[r]その日が楽しみだな、マスター。
+[k]
+
+？1：今すぐチームに入れたい
+？2：筋肉隆々のダ・ヴィンチちゃん……だと……！？
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+いやだー、そんなのお断りですぅーだっ！[r]私はまだまだ働かない！
+[k]
+
+＠ダ・ヴィンチちゃん
+よっぽどの事がないかぎり前線には出ないからねー！[r]覚えておきなさ[line 4]い！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[soundStopAll]
+[end]

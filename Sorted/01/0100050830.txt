@@ -1,0 +1,618 @@
+＄01-00-05-08-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_13 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5016001 1 ジェロニモ]
+[charaSet C 2010001 1 ビリー]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 7014001 1 ナイチンゲール]
+[charaSet F 3005002 1 エリザベート]
+
+[scene 11210]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[wt 0.4]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.7 1]
+＠エリザベート
+♪ハートがチクチク　箱入り浪漫[r]♪それは乙女のアイアンメイデン
+[k]
+
+＠エリザベート
+♪愛しいアナタを閉じ込めて[r]♪串刺し血塗れキスの嵐としゃれこむの
+[k]
+
+＠エリザベート
+♪浮気はダメよ、マジ恋ダメよ[r]♪アタシが傍にいるんだからネ？
+[k]
+
+[charaFadeout F 0.1]
+
+[wt 0.2]
+
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ビリー
+……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+……。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_13 0.4]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エリザベート
+あ、待って。今のところは「ネ！」って弾んだように[r]歌った方が良かったわよね。絶対。
+[k]
+
+＠エリザベート
+それで、クルッとターンして、振り向きざまに[r]観客席に向かって尻尾をビターン、と……
+[k]
+
+[charaFace F 1]
+＠エリザベート
+ああ、練習って超楽しい！[r]メッキメッキ魅力があがっていく感じ、いい！
+[k]
+
+[charaFace F 3]
+＠エリザベート
+我ながら完璧すぎて怖いわ……[r]天性の才能に加えてこの練習量……神かしら。
+[k]
+
+[charaFace F 1]
+＠エリザベート
+ふふふ、待ってなさい、セイバー[r]この次にまみえるときは前のアタシじゃなくってよ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……あの、マスター。
+[k]
+
+＠マシュ
+ここは一つ、[r]的確な言葉をかけてあげるべきだと思うのですが。
+[k]
+
+？1：[&オレ:わたし]が！？
+？2：何で……？
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。言うべき言葉はただ一つ。[r]先輩ならきっとやってくれると信じています。
+[k]
+
+[charaFace A 1]
+＠マシュ
+では[line 3]張り切ってどうぞ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.4]
+
+？1：何度も出てきて恥ずかしくないんですか？
+？2：何度も出てきて恥ずかしくないんですか？
+
+？！
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠エリザベート
+ちょ！？[r]いきなりアイドルを誹謗中傷するのは誰よ！？
+[k]
+
+＠エリザベート
+言っておくけど、召喚は望んだ訳じゃないわよ！[r]世界ツアーみたいで素敵なんて思ってないから！
+[k]
+
+[wt 0.1]
+[charaFace F 1]
+＠エリザベート
+……って、誰かと思ったら[&子イヌ:子ジカ]と[r]その他大勢じゃない。
+[k]
+
+[charaFace F 0]
+＠エリザベート
+ん？　ああ、緑ネズミもいるわね。[r]何か用なの？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+人を色で覚えるなっつーの！[r]……で、オタクまだここで歌ってた訳か。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エリザベート
+イエス。
+[k]
+
+＠エリザベート
+何しろここは欲望に肥え太ったブタたちの集う[r]究極の芸能地獄。その名も[line 2]
+[k]
+
+[charaFace F 1]
+＠エリザベート
+ブロードウェイ！　なのだから！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……ぶろーどうぇい？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠エリザベート
+うそ、知らないの？[r]ミュージカルの本場、ブロードウェイの栄光を！
+[k]
+
+[charaFace F 3]
+＠エリザベート
+そこは輝ける娯楽の殿堂。[r]なんだかキラキラした天上の表現天国……
+[k]
+
+[charaFace F 0]
+＠エリザベート
+ま、今はまだただの田舎町だけど。[r]このアタシが、ここをブロードウェイと定めたのよ！
+[k]
+
+＠エリザベート
+アメリカで価値があるのはこことあそこだけ。[r]ふふ。アタシには見えるわ。
+[k]
+
+[charaFace F 1]
+＠エリザベート
+このアタシの歌声に聴き惚れたブタたちが、[r]一人また一人と押し寄せて[line 2]
+[k]
+
+＠エリザベート
+やがてここにはアタシ専用のステージと[r]アタシ専用の劇場とアタシ専用の映画館がビルディング。
+[k]
+
+＠エリザベート
+まさに登り切れない魔塔として君臨するでしょう。[r]他に必要なものは[line 2]そうね、彫像よ！
+[k]
+
+[charaFace F 2]
+＠エリザベート
+このアタシの美しさを限りなく忠実に再現した、[r]全長五百メートルの超・彫像！
+[k]
+
+[charaFace F 3]
+＠エリザベート
+トマトを片手に高らかに歌う鮮血の女神として、[r]血で血を洗うアイドル界に終止符を打つの！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠ビリー
+……あの、誰か止めてあげない？
+[k]
+
+[charaFace D 5]
+＠ロビンフッド
+おい何だよ、その目は。[r]嫌だよオレ？　だってほら、夢見るのは自由じゃん！
+[k]
+
+[charaFace C 1]
+＠ビリー
+あっはっは。夢と妄想は違うし、そもそも現状を考えると[r]百年経っても実現しないんだけど、あの[#娘:こ]の願望。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠ナイチンゲール
+声帯を治療するならともかく、[r]妄想を治療するのは私の専門外です。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……。[r]……。
+[k]
+
+？1：マシュ？
+
+？！
+
+[charaFace A 6]
+＠マシュ
+はっ！？[r]……申し訳ありません、マスター。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ちょっとこう、意識が遠のいてました。[r]三度目ですねエリザベートさん！
+[k]
+
+[charaFace A 2]
+＠マシュ
+率直に申し上げると、このままではあなたの観客は[r]襲い掛かるケルトの戦士だけではないかと！
+[k]
+
+＠マシュ
+彼らにはあなたの美声は届きません。[r]お腹のすいた竜の断末魔にしか聞こえないでしょう！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エリザベート
+……え[charaFace F 4]？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠ビリー
+あ、やっと分かった。[r]さっきの連中が弱ってた理由。
+[k]
+
+＠ロビンフッド
+おまえもかよ。オレもだよ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+私も理解できた。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠エリザベート
+お客さまがひっきりなしに押し寄せてくるって[r]張り切っていたのに……
+[k]
+
+＠エリザベート
+あの半裸のマッチョたち、[r]芸術も解さない馬鹿者たちだったの……？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+そうです！　あの方たちはエリザベートさんの[r]ステージには不釣り合いです。
+[k]
+
+＠マシュ
+あなたの歌は、もっとこう、使うべき時、使うべき場所で[r]ブチかますべきです！　ファンとして思います！
+[k]
+
+[charaFace A 1]
+＠マシュ
+この芸術（的に酷い歌）を広めるためにも、[r]どうかわたしたちに力を貸していただけないでしょうか？
+[k]
+
+？1：ナイス、マシュ！
+？2：……ああ、そこに落としこむんだ……
+
+？！
+
+[charaFace F 2]
+＠エリザベート
+[line 2]分かったわ。[r]前後関係まったく分からないけど、分かったわ。
+[k]
+
+＠エリザベート
+とにかく、アタシの力が必要なのね？
+[k]
+
+＠マシュ
+はい！
+[k]
+
+[charaFace F 1]
+＠エリザベート
+フッ……熱心なファンにそこまで頼まれたら[r]イヤとは言えないわね。
+[k]
+
+[charaFace F 2]
+＠エリザベート
+合格よマシュ！このエリザベート・バートリーの[#槍:マイク]、[r]あなたのマスターに預けるわ！
+[k]
+
+＠マシュ
+はい、ありがとうございます！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠ビリー
+……そっかー。[r]ああいう風に話せば良かったんだ、あのドラ娘……
+[k]
+
+＠ロビンフッド
+おだてに弱いのは知ってたんだけどなー。[r]オレにはあそこまで必死に頼み込むのは無理ですわー。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+……我々はサーヴァント故に、[r]目的を果たしたら座に帰還する他ないのだが。
+[k]
+
+＠ジェロニモ
+……果たして、彼女はブロードウェイを[r]打ち立てる暇があるのだろうか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+それは言わない約束ですよ、ジェロニモのオッサン。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ビリー
+さて、次はどっち？
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+ああ、東にある森を抜けるぞ。[r]抜けた先の街に、セイバーがいる。
+[k]
+
+？1：さらにセイバー……だと……？
+
+＠ロビンフッド
+そ、セイバーですよ。[r]こっちのランサーに負けず劣らずのねぇ。
+[k]
+
+？2：あの……それはもしかして赤い方の……？
+
+＠ビリー
+[FFFFFF]？　セイバーって赤いのとか青いのとか、[-][r]そういう区別の仕方なの？
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エリザベート
+ふんふん。ようはバンドメンバーを集めている、と。[r]アタシがボーカルだからぁ……
+[k]
+
+[charaFace F 1]
+＠エリザベート
+読めたわ、次はＡＤってワケね！[r]照明、バリ付け、音響設定！　うん、そういうの大事だわ！
+[k]
+
+＠エリザベート
+行きましょう、マシュ、[%1]。[r]言いそびれてたけど、フランスでのお礼をしてあげる！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ。お礼を言うのはわたしたちの方で……[r]とにかく、ありがとうございます。
+[k]
+
+[charaFace A 13]
+＠マシュ
+クラス・セイバーは戦力として欠かすことができません。[r]行きましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 1.0]
+[bgm BGM_EVENT_5 0.5]
+[scene 20820]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.4]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.4 1]
+＠エリザベート
+うわっ。何、この森！？[r]大きい、怖い！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+西部にあるジャイアント・セコイアの樹木は、[r]これ以上に大きいそうですよ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ビリー
+一見の価値はあるよ。[r]シエラネバダにお越しの際は、是非どうぞ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エリザベート
+ふーん。アメリカの森って凄いのね。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠ジェロニモ
+人の手が加わらなかった木々が多いからな。
+[k]
+
+＠エリザベート
+ゴリラみたいな生き物もいるし。
+[k]
+
+[wt 0.1]
+＠ジェロニモ
+……そう、ゴリラみたいな生き物も……どこにだ？
+[k]
+
+[charaFace F 1]
+＠エリザベート
+そこよ。ほら。こっち見て手を振ってるわ。[r]あれはきっとサイリウムね。間違いないわ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+[charaFace B 4]
+＠ジェロニモ
+……あれはゴリラではなく、半獣半人のエネミーだな。[r]そして手に持っているのは棍棒だ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+せせ、戦闘準備を！[r]どう見ても奇襲です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エリザベート
+なあんだ、敵なの。[r]仕方ないわね、ちゃっちゃと片付けるわよ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

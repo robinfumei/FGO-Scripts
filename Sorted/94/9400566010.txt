@@ -1,0 +1,418 @@
+
+
+
+＄94-00-56-60-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 3024000 1 玉藻の前]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98101600 1 魔猪]
+
+[scene 20300]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+ふんふん～。みっこっここーん♪
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠マシュ
+やたら上機嫌な玉藻さんに連れられてここまで来て[r]しまいましたが……
+[k]
+
+＠マシュ
+目的地はどこなのでしょう？
+[k]
+
+
+？1：ヘーイ、そこのフォックスガール
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+おや、なんですマスター？　この陽気に相応しい、[r]サンシャインでアメリカンな質問スタイルですが。
+[k]
+
+
+？2：質問いいでしょうか、玉藻さん
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠玉藻の前
+はいはい、何なりと！[r]スリーサイズから今いちばん欲しい贈り物の内容まで、
+[k]
+
+＠玉藻の前
+マスターが望むならすべてのタマモ[#情報:ニュース]を[r]公開いたしますとも。んー、どんとこーい！
+[k]
+
+？！
+
+[charaFace A 0]
+＠玉藻の前
+……あ、目的地ですか。いえ別に、[r]漠然とこの辺りかなーという感じなのですけど。
+[k]
+
+[se ad7]
+＠玉藻の前
+よし、それでは、パラソル立ててーの。[r]シート引きーの。バスケット出してーの。
+[k]
+
+[charaFace A 1]
+＠玉藻の前
+はい、準備完了でございます。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+これは。このセッティングは……！
+[k]
+
+＠フォウ
+フォウ、フォウッ♪
+[k]
+
+
+？1：ピクニック……ですね
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+ええまあ、そのような類のものです。
+[k]
+
+？2：そう言えばお腹が減ってきました
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+それは好都合！　ささ、こちらへ。
+[k]
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[se ad89]
+[wt 1.3]
+[seStop ad89]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+せっかくのピクニックなので、いろいろ用意して[r]まいりましたよ。はいどうぞ、召し上がれ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+わ……普段の本拠地の暮らしでは見ない種類のものが[r]いっぱいです！
+[k]
+
+
+？1：料理上手だったんだね
+？2：美味しそう！
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+ふっふっふ。ご存じかとは思いますがこの[#私:わたくし]、[r]良妻となるために日夜励んでおりまして。
+[k]
+
+＠玉藻の前
+もちろん料理教室にも通っておりましたので、そのスキルを[r]遺憾なく発揮させていただいた次第です。
+[k]
+
+＠玉藻の前
+その先生のウズメちゃんは古事記仲間でしてね。
+[k]
+
+＠玉藻の前
+つまりこの島での生活にもひけを取らぬ天然サバイバル[r]時代の食知識もあるわけで、こんなこともあろうかと
+[k]
+
+[charaFace A 5]
+＠玉藻の前
+『グァシッ！　と旦那様の心を掴む自給自足料理』的な[r]ものも教えてもらっていたのですよ！
+[k]
+
+[charaFace A 0]
+＠玉藻の前
+何が食べられるかの知識はスカサハさんには敵わない[r]かもしれませんが、それを美味しく料理することに
+[k]
+
+＠玉藻の前
+かけては引けを取らぬものと自負しております。
+[k]
+
+[charaFace A 1]
+＠玉藻の前
+ささ、これなるはどんぐりのクッキー。[r]どんぐり粉を使ったパンもありますよ？
+[k]
+
+？1：どんぐりって食べられるの？
+？！
+
+[charaFace A 0]
+＠玉藻の前
+ええ、本来はもの凄く毒性分があるといいますか、[r]苦みや渋みが強くて食べられないのですが。
+[k]
+
+＠玉藻の前
+種類によってはそのまま行けますし、そうでなくとも[r]アク抜きをすればなんとかなるのです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠マシュ
+な、なるほど……。[r]たいへん勉強になります。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+他にもこれはトチ餅。トチの実を使って作るもの[r]ですね。これもアク抜きは必須です。
+[k]
+
+＠玉藻の前
+あ、それからこちらは[#私:わたくし]が手ずから摘んできた薬草を[r]スペシャルブレンドしたお茶。美味＆ヘルシー！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+＠マシュ
+凄いですね。[r]失礼ながら、玉藻さんのことを見直してしまいました。
+[k]
+
+
+？1：今までになく家庭的だ……
+？2：同感。どうしていきなり？
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+せっかくの南の島、今回のテーマはセレブ狐の余裕[line 3][r]と決めたはいいのですが。
+[k]
+
+＠玉藻の前
+とはいえ日がな一日パラソルの下で優雅にごろごろして[r]いるだけでは放置プレイと変わりなし。
+[k]
+
+＠玉藻の前
+基本はそうであったとしても、やはりたまにはマスターと[r]触れ合わなければ忘れられちゃうな、という……
+[k]
+
+＠玉藻の前
+まあ、そんな感じの思いつきです。
+[k]
+
+[charaFace A 3]
+＠玉藻の前
+あとですね、そう言えば今の[#私:わたくし]のスタイル、あまり[r]説明していなかったナーと思いまして。それもついでに。
+[k]
+
+
+？1：ランサーでしょ？
+？2：タマモちゃんサマーｖｅｒでしょ？
+？！
+
+[charaFace A 0]
+＠玉藻の前
+ええ、それはそうなのですけれど。夏のヴァカンスという[r]ことで、今の[#私:わたくし]は魔力のほとんどを
+[k]
+
+＠玉藻の前
+身体強化に回しているのです。[r]つまりわりとリアルに夏のビーストなのです。
+[k]
+
+＠玉藻の前
+それこそが、チマチマした呪術師枠ではない、優雅で[r]ハイソなセレブ的立ち位置を掴めるのだ……と思いまして。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+は、はぁ……。セレブとかはよくわかりませんが、[r]肉弾戦ばかりなのはそのせいでしたか……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+とまあそんな感じに[#私:わたくし]は夏のビーストであるわけ[r]ですから、たまにはその野生も発散させねばと思いまして。
+[k]
+
+[charaFace A 0]
+＠玉藻の前
+そのついでに、マスターにピクニック＆レクリエーション[r]を提供さしあげようとここにご案内した次第ですよ？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+レクリエーション……[r]なんでしょう。突然嫌な予感がしてきました。
+[k]
+
+＠フォウ
+フォウフォー。
+[k]
+
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+さて、腹ごしらえもできたことですし、向かいましょうか！
+[k]
+
+＠玉藻の前
+すみませんねぇ、これ以上近付くとさすがに[#私:わたくし][r]のお鼻が曲がって食事どころではなかったもので……。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_2 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+
+[charaFadeout A 0.1]
+[effect bit_talk_gagemist_Purple]
+[wt 0.5]
+
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠魔猪
+ＧＲ……。
+[k]
+
+
+[charaFadeout D 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠マシュ
+魔猪！　しかもここは[line 3]奴の毒の沼地です！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玉藻の前
+勿論、鼻も普段より少しばかり[r]利くようになっておりますので。
+[k]
+
+＠玉藻の前
+たまたまうりぼうさんたちより早く[#私:わたくし]が[r]見つけてしまったというわけです。
+[k]
+
+＠玉藻の前
+さあマスター、ピクニックのシメです。[r]相手にとって不足なし。
+[k]
+
+[charaFace A 1]
+＠玉藻の前
+一緒に溜まった野生を発散させましょう！
+[k]
+
+？1：こっちは別に溜まってませんけどォ！？
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

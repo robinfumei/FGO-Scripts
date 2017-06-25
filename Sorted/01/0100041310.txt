@@ -1,0 +1,374 @@
+＄01-00-04-13-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10909 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 5003001 1 玉藻の前]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠坂田金時
+[line 3]世界の危機、って奴だろ。こりゃあ。
+[k]
+
+[charaFace D 1]
+＠坂田金時
+オレの嗅覚はいつだって正確だ。[r]アンタを止めなきゃ世界がヤバい。そうだろ？
+[k]
+
+＠坂田金時
+どうやらアンタは空へと歩みたい。[r]そうなりゃ世界は炎に加えて霧と雷で更に滅茶苦茶だ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+素晴らしい。貴様の理解は稲妻のように鋭く、[r]稲妻のように迅速だ！
+[k]
+
+＠ニコラ・テスラ
+如何にも。私を止めねば世界は終わる！
+[k]
+
+[charaFace H 3]
+＠ニコラ・テスラ
+しかし[line 3]ふうむ、ほう、[r]これはこれは。なかなかに面白いこともあるものだな。
+[k]
+
+＠ニコラ・テスラ
+実に興味深い事例ではあるだろう。[r]雷電を触媒として魔霧が新たな英霊を召喚したか。
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+キントキ・サカタ。そう言っていたな。[r]君も新たな神話に立ち向かう勇者の一人であるようだ。
+[k]
+
+＠ニコラ・テスラ
+旧き神話たる天の英霊や地の英霊であれば[r]一笑に付して灼き尽くすところだが、君は[line 3]
+[k]
+
+[charaFace H 5]
+＠ニコラ・テスラ
+[line 3][#人の英霊]か。
+[k]
+
+＠ニコラ・テスラ
+私の行き先を阻まんとする者だ。[r]人に寄り添い戦わんとする者だ。
+[k]
+
+[charaFace H 0]
+＠ニコラ・テスラ
+そうだろうキントキ・サカタ？　いや、Mr.ゴールデンと[r]呼ぶべきか。いや呼ぼう。呼ばねば成らぬ。
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+うむ、もはやゴールデン以外の何者でもない！[r]電離体の如く[#眩:まぶ]しいな！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠坂田金時
+おう、外見に似合わずノリがいいじゃねえか。[r]話のわかる相手で何よりだ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+天才は如何なる時にも対象の発言意図を理解する。[r]例え狂化スキルなりを与えられていても！
+[k]
+
+[charaFace H 1]
+＠ニコラ・テスラ
+だが、はは！　手加減は出来ん！[r]ニコラ・テスラ、我が天才の一端をお見せしよう！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠坂田金時
+ハッ、そいつはゴールデンだ！[r]オレも、オレのとっておきを見せてやる[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠玉藻の前
+はいはいすみませんね。[r]そこ[#暫:しばら]く。ちょっ～と待って下さいます？
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+[charaFace F 0]
+＠玉藻の前
+ここ、ロンドンで合ってますよね？[r]霧の都ロンドン。ですよね？
+[k]
+
+＠玉藻の前
+夢の二階建てバスはいずこ？[r]大英博物館、時計塔、セント・ポール大聖堂はいずこ？
+[k]
+
+＠玉藻の前
+この不気味な霧は何です？[r]どうして、昼日中なのに誰もいないんです？
+[k]
+
+[charaFace F 2]
+＠玉藻の前
+楽しみにしていたフィッシュアンドチップスは？[r]密かに憧れていたアフタヌーンティーは？
+[k]
+
+＠玉藻の前
+スコーンは？　クロテッドクリームは？[r]フォートナム＆メイソーンの本店は？
+[k]
+
+＠玉藻の前
+これ、もう半分以上は廃墟っぽい雰囲気ですけれど？
+[k]
+
+[charaFace F 3]
+＠玉藻の前
+みこっ？[r]もしかしてロンドン、サクッと滅びかけてません？
+[k]
+
+＠玉藻の前
+ご主人様とのハネムーンへの予行練習にと、[r]ロンドン旅行に付いて来てみれば何ですこれ？
+[k]
+
+[charaFace F 0]
+＠玉藻の前
+もしや金時さん、[#私:わたくし]を[#謀:たばか]りました？[r]神さま、舐めてます？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFadein F 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠坂田金時
+あ～……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+これは[line 3]
+[k]
+
+＠ニコラ・テスラ
+紛うことなき地の英霊。いや、天か……？[r]この気配、我が天才には判ってしまう。旧き神話か！
+[k]
+
+[charaFace H 3]
+＠ニコラ・テスラ
+しかし、嗚呼しかし、しかし[line 3][r]なんと、眩くも美しい貴婦人であろうか……！！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠玉藻の前
+みこっ？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+既に栄光なき旧き神話の住人といえど、[r]このニコラ・テスラ、麗しきレディには礼を尽くそう。
+[k]
+
+＠ニコラ・テスラ
+オリエントの気配色濃き美しきレディ。[r]ここは危険です。些か、離れていたほうが良い。
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠玉藻の前
+あら素敵なイケ魂[line 3][r]いえ、いえいえ、私はご主人一筋ですからいけませんっ。
+[k]
+
+[charaFace F 0]
+＠玉藻の前
+それにアナタ、心がイケてない感じがありありと。[r]狂化スキルでもくっついてます？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+しかも聡明と来たか。素晴らしい。[r]些か異なるが、その通りではあるのです、レディ。
+[k]
+
+[charaFace H 5]
+＠ニコラ・テスラ
+私の言葉には意味がない。[r]私は言葉とは裏腹に、ひとつの行動を成すのみ！
+[k]
+
+[charaFace H 2]
+＠ニコラ・テスラ
+嗚呼、私は私が憎い！[r]天才であるが故に思考と行動を切り離してしまう[line 3]！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠玉藻の前
+殿方って概ねそうかもですけどぉ[line 3][r]それじゃあいけないというお話ですね。どうなさいます？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠ニコラ・テスラ
+君たち次第！[r]レディ、二対一でも私は一向に構わんとも！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠玉藻の前
+ではお言葉に甘えまして☆[r]さ、金時さん。ちゃっちゃと片付けて旅行の続きをば！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk F]
+[charaFadein F 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠玉藻の前
+ああ、ご安心くださいませ。[r]旅行は一人でいたしますから金時さんは束縛しません☆
+[k]
+
+[charaFace D 3]
+＠坂田金時
+助かる。つーか、アンタ、[r]オレの召喚にタダノリしてきただけじゃん……
+[k]
+
+[charaFace F 5]
+＠玉藻の前
+そんな話は後にして下さいまし。ほらあちらをご注目。[r]あのイケメン、とっくに準備が整ってるようですけど？
+[k]
+
+[charaFace D 4]
+＠坂田金時
+…………。
+[k]
+
+[charaFace F 0]
+＠玉藻の前
+あの。金時さん？[r]急に黙って、目を逸らして、どうしたんです？（ずずい）
+[k]
+
+[charaFace D 3]
+＠坂田金時
+顔[line 3]
+[k]
+
+＠玉藻の前
+はい？
+[k]
+
+[charaFace D 4]
+＠坂田金時
+顔が近ぇんだよ[line 3][r]いや、アンタはできりゃ援護に専念してくれ。オレが殴る。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0,3]
+[bgm BGM_EVENT_3 0.1]
+[charaFadein D 0.1 1]
+[se ad61]
+[backEffect bit_talk_lightning_02g]
+[seStop ad61 5.0]
+[wt 0.5]
+[charaFace D 1]
+＠坂田金時
+んじゃあまあケンカ祭りだ。[r]雷人同士、派手な火花を散らそうか、ニコラ・テスラ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[backEffectStop bit_talk_lightning_02g]
+[wait effect]
+[seStop ad62 0]
+[wt 1]
+[scene 21410 0]
+[charaTalk B]
+[charaFace E 5]
+[charaFadein E 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait fade]
+＠Dr.ロマン
+む……？[r]これは、ニコラ・テスラの動きが止まったようだ。
+[k]
+
+＠Dr.ロマン
+なぜか、突然立ち止まっているみたいだぞ。[r]まだバッキンガム宮殿上空には到着していないはずだが。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+まだ追い付ける、って訳だな。[r]ありがたい。それなら再戦のチャンスがある！
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい。今のうちにわたしたちも地上へ！[r]急ぎましょう、先輩！
+[k]
+
+[charaFace E 2]
+＠モードレッド
+あー、言ってる端からまたでかい連中だけどな！[r]自由になったなら逃げりゃいいもんを！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+敵性反応多数！[r]戦闘になるぞ、切り抜けろ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

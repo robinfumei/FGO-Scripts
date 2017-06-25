@@ -1,0 +1,264 @@
+
+＄01-00-05-21-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 7020000 0 クー・フーリン・オルタ]
+[charaSet B 4013001 1 メイヴ]
+[charaSet C 8001001 1 マシュ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 1019001 1 ラーマ]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace A 0]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+
+[scene 20903]
+[fadein black 2]
+[wait fade]
+
+＠メイヴ
+そろそろ来るのね、王様。[r]体は大丈夫かしら？
+[k]
+
+＠クー・フーリン・オルタ
+修復は完了した。[r]アルジュナ[charaFace A 4]が裏切ったならちと厄介だが[line 2]
+[k]
+
+[charaFace B 1]
+＠メイヴ
+もしもの時は、こっちに[#アレ]を持ってくるわ。
+[k]
+
+＠クー・フーリン・オルタ
+……必要ねえ。[r]オレ一人で充分だ。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン・オルタ
+連中は全て北部戦線に叩き込め。[r]それで戦争も世界も終わりを告げる。
+[k]
+
+＠メイヴ
+[line 2]そうね。[r]あーあ、[charaFace B 4]楽しい女王ごっこもこれでおしまいかぁ。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+楽しいか？
+[k]
+
+[charaFace B 1]
+＠メイヴ
+ええ、とても楽しいわ。[r]だからこそ、最後の最後まで楽しみたいものね。
+[k]
+
+[charaFace B 0]
+＠メイヴ
+クーちゃんは、楽しくないのよね。
+[k]
+
+＠クー・フーリン・オルタ
+どうだかな。[r]おまえは勝手に楽しめばいい。
+[k]
+
+[charaFace A 0]
+＠クー・フーリン・オルタ
+オレはおまえが願った王としてあり続けるだけだ。[r]何があろうと。
+[k]
+
+[charaFace B 3]
+＠メイヴ
+……ん。[r]クーちゃん、愛してるわ。
+[k]
+
+＠クー・フーリン・オルタ
+そうかい。
+[k]
+
+[charaFace B 1]
+＠メイヴ
+さあ、終りの戦いを始めましょう。
+[k]
+
+[charaFace B 0]
+＠メイヴ
+みっともなく足掻いて、もがいて、立ち上がって。[r]決意の眼差しでこちらを睨み付ける彼らを。
+[k]
+
+[charaFace B 5]
+＠メイヴ
+造作もなく踏み潰してあげましょう。[r][line 2]ああ、[charaFace B 3]最高に楽しみ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+
+
+
+
+[scene 11210]
+[wt 1.0]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFace C 0]
+[charaFadein E 0.1 0]
+[charaFadein C 0.1 2]
+
+[scene 11210]
+[fadein black 1.0]
+[wait fade]
+
+＠ラーマ
+到着したな……！
+[k]
+
+＠マシュ
+はい！　マスター、あと一歩です！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+北部戦線も健闘している。[r]これなら何とか[line 2]。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠メイヴ
+[line 2]来ちゃったのね。
+[k]
+
+[charaFace B 4]
+＠メイヴ
+あーあ、やっぱりシャドウサーヴァント程度[r]じゃこんなものか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ラーマ
+おまえは[line 2]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFace E 5]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+＠ナイチンゲール
+メイヴ。[r]ケルトの勇者たちを産み続ける女王ですね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+＠マシュ
+あなたが……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠メイヴ
+アンタたちのガラクタ兵隊と、[r]私の可愛い坊やたち[line 2]果たしてどっちが強いのか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ラーマ
+生憎、雑談に興じている余裕はない。[r]仕留めるぞ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠メイヴ
+きちんと計算しているわ。貴方たちの力、私の力、[r]そして[line 2]私が召喚した戦士や、怪物たちの力。
+[k]
+
+[charaFace B 5]
+＠メイヴ
+……勝ってみせるわ。王様に全てを任されたのは、[r]この女王なんだから……！！
+[k]
+
+[messageOff]
+
+[se ad17]
+[wt 2.0]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+敵性反応を確認した。[r]魔力の波長を解析[line 3]これは……
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+大型の竜種だ！　加えてこれは[line 2]キメラ、[r]さらにシャドウサーヴァントまで！？
+[k]
+
+＠Dr.ロマン
+大盤振る舞いだな、まったく！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠マシュ
+大丈夫です。[r]今更、そんなエネミーに遅れは取りません！
+[k]
+
+[charaFace C 2]
+＠マシュ
+マスター、いきましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

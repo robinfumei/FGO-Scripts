@@ -1,0 +1,261 @@
+
+
+
+＄01-00-07-07-4-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+
+[charaSet B 98106200 1 マーリン]
+[charaSet C 98002000 1 フォウ]
+
+[charaSet D 3027000 1 アナ]
+[charaSet F 2020001 1 イシュタル]
+[charaSet G 98015000 1 スケルトン１]
+[charaSet H 98015000 1 スケルトン２]
+[charaSet E 98015000 1 スケルトン３]
+
+[bgm BGM_EVENT_3 0.1]
+[scene 32942]
+[fadein black 1.5]
+[se ad244]
+[seVolume ad244 0 0.5]
+[wait fade]
+
+[charaSet F 98015000 1 スケルトン４]
+[charaSet D 98015000 1 スケルトン５]
+[charaFadein G 0.4 1]
+[charaFadein F 0.4 192,0]
+[charaFadein H 0.4 -192,0]
+[charaFadein D 0.4 384,0]
+[charaFadein E 0.4 -384,0]
+[seStop ad244 0.7]
+[wt 0.7]
+[effect bit_bolg_02]
+[se bac7]
+[charaShake G 0.01 3 3 0.4]
+[charaShake H 0.01 3 3 0.4]
+[charaShake E 0.01 3 3 0.4]
+[charaShake F 0.01 3 3 0.4]
+[charaShake D 0.01 3 3 0.4]
+[wt 0.4]
+[charaSpecialEffect G enemyErasure 1 1.0]
+[charaSpecialEffect F enemyErasure 1 1.0]
+[charaSpecialEffect H enemyErasure 1 1.0]
+[charaSpecialEffect D enemyErasure 1 1.0]
+[charaSpecialEffect E enemyErasure 1 1.0]
+[se ad42]
+[wait charaSpecialEffect G]
+
+[wt 0.4]
+
+[charaDepth G 2]
+[charaDepth E 0]
+[charaDepth D 0]
+[charaDepth F 1]
+[charaDepth H 1]
+[se ad244]
+[seVolume ad244 0 0.5]
+[charaFadein G 0.4 1]
+[wt 0.4]
+[charaFadein F 0.4 192,0]
+[wt 0.4]
+[charaFadein H 0.4 -192,0]
+[wt 0.4]
+[charaFadein D 0.4 384,0]
+[wt 0.4]
+[charaFadein E 0.4 -384,0]
+[wt 0.7]
+[seStop ad244 0.7]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaSet D 3027000 1 アナ]
+[charaSet F 2020001 1 イシュタル]
+[wt 0.2]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠マーリン
+うーむ。こいつは困った。[r]先ほど、クタ市の総人口より多い、と言ったが訂正しよう。
+[k]
+
+＠マーリン
+これはクタ市の住人とは無関係だ。正しくは、[r]この土地で死亡した過去すべての人間、と言うべきだった。
+[k]
+
+＠マーリン
+だってほら、あれを見てごらん。[r]先祖代々の方まで出てきているんじゃないかな？
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet G 98104300 1 ゴースト]
+[charaSet H 98104300 1 ゴースト２]
+[charaSet E 98104300 1 ゴースト３]
+[wipein rectangleStripLeftToRight 0.3 1]
+[charaDepth H 1]
+[charaFadein G 0.1 -400,0]
+[charaFadein E 0.1 400,0]
+[charaFadein H 0.1 1]
+[wait wipe]
+
+[charaTalk off]
+[se ad21]
+
+[wt 1.7]
+[wipeout rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wipein rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+[charaEffect A bit_talk_13]
+[wt 0.1]
+[se ad32]
+[charaShake A 0.05 2 2 0.4]
+
+＠マシュ
+ダメです、前に進めません……！[r]個体としては弱いのですが、数が多すぎて……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠アナ
+……ごめんなさい。[r]私がもっと大人なら、宝具で蹴散らせるのに……！
+[k]
+
+[wt 0.2]
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.4]
+[charaSet G 98015000 1 スケルトン１]
+[charaSet H 98015000 1 スケルトン２]
+[charaSet E 98015000 1 スケルトン３]
+[charaSet F 98015000 1 スケルトン４]
+[charaSet D 98015000 1 スケルトン５]
+[se ad226]
+[seVolume ad226 0 0.4]
+[se ad14]
+[fowardEffect bit_talk_38]
+[wt 0.2]
+[shake 0.05 0 4 0]
+[wt 1.0]
+
+[shakeStop]
+[fowardEffectStop bit_talk_38]
+[seStop ad14 0.4]
+
+[wt 0.4]
+[charaFadein G 0.1 1]
+[charaFadein F 0.1 192,0]
+[charaFadein H 0.1 -192,0]
+[charaFadein D 0.1 384,0]
+[charaFadein E 0.1 -384,0]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[se bac16]
+[wt 1.0]
+[charaSpecialEffect G enemyErasure 1 1.0]
+[charaSpecialEffect F enemyErasure 1 1.0]
+[charaSpecialEffect H enemyErasure 1 1.0]
+[charaSpecialEffect D enemyErasure 1 1.0]
+[charaSpecialEffect E enemyErasure 1 1.0]
+[se ad42]
+[wait charaSpecialEffect G]
+[wt 0.4]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 0.1]
+
+＠マシュ
+今のは[line 3]！
+[k]
+
+[wt 0.2]
+[messageOff]
+[wipeout rectangleStripDownToUp 0.3 1]
+[wait wipe]
+
+[scene 20322]
+[charaFadeout A 0.1]
+[wt 0.1]
+[wipein rectangleStripUpToDown 0.3 1]
+[wait wipe]
+
+[charaSet F 2020001 1 イシュタル]
+[charaShake F 0.2 0 3 0]
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 0,50]
+[wt 1.0]
+
+[charaFace F 10]
+＠イシュタル
+これに懲りたらクタには近寄らない事ね。[r]一度冥界に囚われたら、そう簡単には戻れないわよ。
+[k]
+
+[messageOff]
+[charaShakeStop F]
+[se ad28]
+[charaMove F 0,0 0.2]
+[wait charaMove]
+
+[charaMove F 0,50 0.05]
+[wait charaMove]
+[charaFadeout F 0.1]
+
+[wipeout upToDown 0.4 1]
+[wait wipe]
+[scene 32942]
+[wt 0.4]
+[wipein downToUp 0.2 1]
+[wait wipe]
+[wt 0.2]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+女神イシュタル、援護射撃の[#後:のち]、[r]北東の空に飛び去っていきました！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+援護射撃というより航空支援だね、今のは。[r]なんの気まぐれか知らないが、とにかく助かった。
+[k]
+
+＠マーリン
+今なら南門から抜けられる。[r]粘土板も手に入れたし、一目散に撤退しよう！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 1.4]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

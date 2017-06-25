@@ -1,0 +1,566 @@
+
+
+
+＄01-00-07-02-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 98107500 1 ウルク兵士]
+[charaSet F 98024000 1 ウルク市民]
+
+[scene 32800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+廃都バビロンにレイシフトしてから三日目……[r]マスター、ようやくウルクに到着しました。
+[k]
+
+＠マシュ
+あちらで[#市:まち]に入るための検問……の[r]ようなものをしているようです。
+[k]
+
+＠マシュ
+まだ距離があるので、見つからないように[#市:まち]に[r]入る事もできそうですが……
+[k]
+
+？1：こんにちはー！
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.7]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠ウルク兵士
+はい、こんにちは[bgm BGM_EVENT_2 0.1]。[r]鋭気充実、たいへん結構です。おはようございます。
+[k]
+
+？2：こっそり通り抜けられるかな……？
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+うん、ボクもそれに賛成だ。[r]間違いなく口論から戦闘に発展しそうだし……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠ウルク兵士
+いけない！　そこのキミたち、[r]道から外れると[#祭祀場:さいしじょう]の[#呪:のろ]いがかかりますよ！？
+[k]
+
+＠ウルク兵士
+ウルからの難民ですか？　なら気をつけて。[r]戦時下につき、王は祭祀場の権限を大きくしています。
+[k]
+
+＠ウルク兵士
+ウルク周囲にかけられているのは魔獣よけの儀式ですが、[r]人間にも多少の効果はあるそうなので。
+[k]
+
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……はい。ご忠告、痛み入ります。
+[k]
+
+[charaFadeout A 0.1]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+？！
+
+＠ウルク兵士
+はい、キミたちは新顔ですね？[r]どこの市の方でしょうか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マーリン
+ああ、彼らはギルスからの難民だ。[r]私はこの通り、祭祀場から商売の許しを得ている。
+[k]
+
+＠マーリン
+彼らをウルクに避難させたいのだけど、[r]手続きは必要かな？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ウルク兵士
+シドゥリ様の印ですね。[r]それでしたら問題はありません。
+[k]
+
+＠ウルク兵士
+難民の受け入れでしたら、[r]今日は西市場のヌゥトラの店が良いでしょう。
+[k]
+
+＠ウルク兵士
+ちょうど二階の倉庫を難民のみなさん用に[r]開放したと報せが届いています。
+[k]
+
+＠ウルク兵士
+当面の生活用品はそれぞれの門の受付で[r]お受け取りください。
+[k]
+
+＠ウルク兵士
+また、臨時の市民登録はラナの娼館で行っています。[r]二週間以上の滞在を予定しているのなら、是非ご利用を。
+[k]
+
+＠ウルク兵士
+ここまでお疲れだったでしょう。[r]まずは体を休めてください。
+[k]
+
+＠ウルク兵士
+ようこそウルク市へ。我々は生きるために戦う者、[r]そのすべてに協力を惜しみません。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい。[r]ありがとうございます！
+[k]
+
+？1：[line 3]（予想外の対応だ！）
+？2：どういう事なの……
+
+？！
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_2 0.7]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ウルク兵士
+む。お待ちなさい。[r]さすがにその同行者は見逃せません。
+[k]
+
+＠ウルク兵士
+黒いずきんのキミ。[r]キミだよ。止まりなさい。
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠アナ
+……………………。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace C 5]
+[charaFadein C 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+（……！　マスター、[r]　アナさんがローブの下に刃物を……！）
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠アナ
+…………私が、何か？
+[k]
+
+＠ウルク兵士
+ええ。こんな小さな体でよくここまで歩いてきましたね。[r]残りものですが、これを持っていきますか？
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+＠ウルク兵士
+娘から昼のおやつとして渡された砂糖菓子なのですが。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+[charaFace D 3]
+＠アナ
+……で、でも、あの。[r]私は、その。
+[k]
+
+＠ウルク兵士
+キミが受け取ってくれるとこちらも助かるのです。[r]少々、私には甘すぎるものなので。
+[k]
+
+？1：アナ、好意に甘えたら？
+
+[charaFace D 0]
+＠アナ
+………………[charaMoveReturn D 256,-5 0.5]（コクン）
+[k]
+
+[charaFace D 3]
+
+？2：それなら自分が貰いますよ？
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩はオトナなので自重してください！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+
+？！
+
+＠アナ
+……[charaMoveReturn D 240,0 1.0]それでは、一つだけ。[r]……ありがとう、ございます。
+[k]
+
+＠ウルク兵士
+いえいえ。[r]私は記憶力の良さを見込まれ、ここに配属されました。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ウルク兵士
+皆さんのお顔は覚えましたので、[r]また生きて再会できる事を望みます。
+[k]
+
+＠ウルク兵士
+戦いに出るにせよ、生まれ故郷に帰る時にせよ、[r]元気な姿を見せてくれる事。それが私の喜びですので。
+[k]
+
+[wt 0.2]
+[messageOff]
+[wt 0.2]
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout E 0.1]
+[scene 32900]
+[wt 1.5]
+
+[se ad5]
+[seVolume ad5 0 0.1]
+[seVolume ad5 1.5 0.4]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_39 0.1 0.5]
+
+[seLoop ad101]
+[seVolume ad101 0 0.4]
+[wt 1.0]
+
+
+＠ウルク市民Ａ
+新入荷、新入荷だよ～～～！[r]秋の麦酒が大量入荷だ～～！
+[k]
+
+＠ウルク市民Ａ
+王もご贔屓のドゥムジ工房の最新作だ！[r]極上の泡立ちは今だけ！　今だけしか味わえない！
+[k]
+
+＠ウルク市民Ｂ
+両替、両替はこちら～！[r]今だけ限定の銀替制度、利用しない手はないよ～！
+[k]
+
+＠ウルク市民Ｂ
+今なら『羊の銀』一つで『魚の銀』五つ、[r]『麦の銀』一つで『亀の銀』が三つだ！
+[k]
+
+＠ウルク市民Ｃ
+うちでメシを食っていくなら鳥の脚肉を[r]一つつけるよ～！　ただし塗り物は持参してくれ！
+[k]
+
+＠ウルク兵士Ａ
+諸君！[r]西地区では粘土運びの人員を募集している！
+[k]
+
+＠ウルク兵士Ａ
+力自慢は日が昇りきるまでに市中運河の停船所に[r]集まってほしい！　みなの腕力に期待する！
+[k]
+
+＠ウルク兵士Ｂ
+いや待て、兵学舎にも人が足りない！[r]このままじゃ北壁に送る槍が木の枝になっちまう！
+[k]
+
+＠ウルク兵士Ｂ
+武器作りの覚えがある者は兵学舎に来やがれ！[r][#櫓:やぐら]造りなんざ後回しだ、後回し！
+[k]
+
+＠ウルク兵士Ｂ
+王からの援助もたっぷりブンどってきたからな、[r]今うちに来れば一財産築けるぞ－！
+[k]
+
+＠ウルク市民Ｄ
+えー、花屋ー、メルルの花屋でございまーす！[r]日々戦いで慌ただしいとは思いますが、
+[k]
+
+＠ウルク市民Ｄ
+生活に[#潤:うるお]いを忘れずにー！[r]お祝い事、奥様への贈り物等、なんでもご相談くださーい！
+[k]
+
+[bgmStop BGM_EVENT_39 1.0]
+
+[seStop ad5 5.0]
+[seStop ad101 5.0]
+[wt 0.5]
+[messageOff]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+す[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠アナ
+す[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+す[line 6]
+[k]
+
+？1：すっごい賑わいだ[line 3]！？
+
+？！
+
+[bgm BGM_EVENT_39 0.1]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ああ、先ほどの兵士といい、[r]この活気といい[line 3]これがウルク市の現状なのか！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+もちろん。[r]これが人類最古の城塞都市、ウルクの現在だ。
+[k]
+
+＠マーリン
+戦時下ではあるが、市は[#騒々:そうぞう]しく賑わい、[r]人々は誰一人としてうなだれていない。
+[k]
+
+＠マーリン
+いたるところに武器を作るための煙があがり、[r]鍛冶の音は連日連夜響いている。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。みなさん、誰もが緊張し、[r]急かされてはいますが、笑顔を忘れていない。
+[k]
+
+＠マシュ
+この街にあるのは絶望ではありません。[r]戦う意志、生きようとする活力に満ちています！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+それだけじゃないぞ……信じられない……[r]なんて無駄のない街並みなんだ。
+[k]
+
+＠Dr.ロマン
+そこの地図を見てくれ。役職ごとにきっちりと[r]分けられた区間、連携の行き届いた交通網！
+[k]
+
+＠Dr.ロマン
+兵産、建築、商業、生活[line 3][r]そのすべてをまかなえるように再設計されている。
+[k]
+
+＠Dr.ロマン
+何が古代都市なもんか。[r]これは現代の都市にも通じる、完璧な“戦闘都市”だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠アナ
+[line 6]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠マーリン
+シュメル人は紀元前四千年紀から歴史に登場した[r]人々だが、その文明は実に細やかなものだった。
+[k]
+
+＠マーリン
+現人類における最古の都市文明。[r]数千人が暮らす村社会の脱却から始まり、
+[k]
+
+＠マーリン
+[#灌漑:かんがい]農耕による穀物の増産を始め、[r]数万人からなる都市国家群を形成した。
+[k]
+
+[charaFace C 0]
+＠マーリン
+もちろんそれだけの国になれば文字の発明、[r]学校による高等教育も行われる。
+[k]
+
+＠マーリン
+木材には恵まれないが、二つの大河に囲まれた[r]肥沃な大地は良質の泥を生みだし、
+[k]
+
+＠マーリン
+彼らは泥を練った粘土で様々な城塞を作り上げた。
+[k]
+
+[charaFace C 3]
+＠マーリン
+それが泥と粘土と麦と羊の国、メソポタミアだ。
+[k]
+
+[charaFace C 1]
+＠マーリン
+さて。“さぞ野蛮な街だろう”と侮っていた[r]ドクター・ロマン。何かコメントはあるかい？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……ありません……すみません……[r]交易[#頼:だよ]りの都市国家と侮っておりました……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠マーリン
+よろしい。ではウルク市の案内は後にして、[r]ジグラットに向かうとしよう。
+[k]
+
+？1：ジグラット……？
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+メソポタミアにおける神殿、祭壇です。[r]あちらに見える、台形の巨大建築がそうかと！
+[k]
+
+
+[charaMove A 64,0 0.4]
+[charaFadeout A 0.4]
+[messageOff]
+[cameraMove 0.7 -30,-20 1.25]
+[wait camera]
+[wt 1.4]
+[cameraHome 0.7]
+[wait camera]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+？2：メソポタミアの神殿ですね？
+
+[charaFace C 0]
+＠マーリン
+ああ。他に都市神を祭る神殿もあるけど、[r]あいにく都市神は不在でね。
+[k]
+
+[charaFace C 1]
+
+？！
+
+＠マーリン
+ではいよいよギルガメッシュ王とご対面だ。[r]張り切っていってみよう！
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[wt 0.2]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_39 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

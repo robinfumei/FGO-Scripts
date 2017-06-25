@@ -1,0 +1,88 @@
+＄91-30-19-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 3019001 1 アルトリア]
+[charaSet D 3019000 1 アルトリア？]
+[scene 20700]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……な、なんとか、撃破しました。[r]戦闘終了です……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+ふう……終わったか……。[r]見てるこっちも冷や汗ものだったよ、まったく。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠アルトリア
+……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFace C 4]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+アルトリア、さん？
+[k]
+
+[charaFace C 0]
+＠アルトリア
+……ん。
+[k]
+
+？1：もしかして、一人で戦いたかった？
+？2：余計な手出しをしたかな？
+
+？！
+
+[charaFace C 4]
+＠アルトリア
+いや[line 2][r]今の私は貴様のサーヴァントに過ぎん。
+[k]
+
+[charaFace C 0]
+＠アルトリア
+戦う力は貴様を含めてのものとなる。[r]今の戦闘も、別段、多対一の卑怯等とは思わん。
+[k]
+
+＠アルトリア
+……満足した、と言うには疑問が残るがな。[r]だが、今はこれで構わん。
+[k]
+
+＠アルトリア
+さて。では、そろそろ[r]貴様の戦いへ戻るとしよう。
+[k]
+
+[charaFace C 1]
+＠アルトリア
+せいぜい、良い戦場を用意しろよ。[r]マスター。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

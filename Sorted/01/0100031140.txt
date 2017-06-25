@@ -1,0 +1,228 @@
+＄01-00-03-11-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20803 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 2005001 1 ？？？]
+[charaSet E 2006000 1 ？？？]
+[charaSet F 2009102 1 オリオン]
+[charaSet G 2009201 1 アルテミス]
+[charaSet H 98018100 1 海賊]
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0 0]
+[charaFace D 0]
+[charaFadein D 0 2]
+[fadein black 1]
+[wait fade]
+＠D：？？？
+よし、届いたぞ。
+[k]
+
+＠E：？？？
+……ふう。矢文に気付かないことはないだろうね。[r]そもそも手掛かり皆無の状態だろうし。
+[k]
+
+＠E：？？？
+この島に来ないはずはない……はずだが。[r]いや、万が一という事もないでは……ない？
+[k]
+
+[charaFace E 4]
+＠E：？？？
+いやだな、不安になってきてしまった。[r]もしや、今の一矢が不明だったら二度と[#機会:チャンス]はない？
+[k]
+
+[charaFace E 0]
+＠E：？？？
+アルゴノーツもこちらを見つけ出しても[r]おかしくない頃だろうし、下手をすると[#王手:チェックメイト]だ。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+……いやだな。たいへんいやだな。[r]痛烈に不安になってきてしまう。胃薬がほしい。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+うるさいぞ。
+[k]
+
+[charaFace D 0]
+＠D：？？？
+彼らに戦う意志がない、それは有り得ない。[r]既に確認している[line 2]彼らは、断固戦う気だ。
+[k]
+
+＠D：？？？
+そして、『[#契約の箱:アーク]』を探しているのも間違いない。[r]そうでなければ、島から島へと渡り歩きはしない。
+[k]
+
+＠D：？？？
+必ず来る。[r]……ま、来なければ世界は砕け散るだろうな。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+もちろん計算式としては正しい。[r]ああ、でも、駄目だ。駄目なんだ、僕は。
+[k]
+
+[charaFace E 2]
+＠E：？？？
+この不安、何をしても無駄という虚無に耐えられない！
+[k]
+
+[charaFace E 1]
+＠E：？？？
+そうだ、麗しい君よ。[r]良ければ手を握らせてくれまいか。
+[k]
+
+＠E：？？？
+君の柔らかな手で、[r]どうか私を安らぎに導いてほしいんだ。切実に。
+[k]
+
+＠D：？？？
+良ければか？[r]じゃあ、良くないので駄目だ。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+……むーう。なぜ良くないのか、[r]そこは論理的に説明してほしいところだけど……
+[k]
+
+[charaFace E 2]
+[charaFace D 2]
+＠二人
+来た！
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20803 0]
+[charaFace F 0]
+[charaFadein F 0.4 2]
+[charaFace G 0]
+[charaFadein G 0.4 0]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait wipe]
+＠オリオン
+なあなあ、おまえ本当にアイツに会うつもりなのか？
+[k]
+
+＠アルテミス
+え、勿論だよ。[r]だって私を慕ってくれている狩人だもの。
+[k]
+
+[charaFace G 1]
+＠アルテミス
+祝福を与えない訳にはいかないもん。
+[k]
+
+[charaFace F 5]
+＠オリオン
+んー、まー、いいけどネー。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 0]
+＠マシュ
+オリオンさん、何かあるんですか？
+[k]
+
+[charaFace F 0]
+＠オリオン
+だってさあ、マシュちゃん。[r]純潔の女神なんだけど、アルテミスって。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+＠アルテミス
+やだ、ダーリン。[r]純潔だなんて、恥ずかしいこと言わないで……。
+[k]
+
+＠アルテミス
+あ、でも純潔を失う日のシミュレーションは[r]毎日やっているのよ？
+[k]
+
+＠オリオン
+なにそれ。
+[k]
+
+[charaFace G 0]
+＠アルテミス
+あのね、あのね。[r]オリオンがね、まず壁をドンッてするのよ。ドンッて。
+[k]
+
+[charaFace G 3]
+＠アルテミス
+で、耳元で『俺じゃダメか？』って言うのよ！[r]渋い声で！　それからそれから[line 2]。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……。
+[k]
+
+[charaFace F 1]
+＠オリオン
+何だかわからないけど、フォウ君のまなざしが[r]泣きたいほどに俺を癒してくれる……！
+[k]
+
+[charaFadeout C 0.1]
+[charaSet E 2012001 1 エウリュアレ]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠エウリュアレ
+[#恋愛脳:スイーツ]すぎる……。[r][#彼女]が見たら、ショックで卒倒するんじゃないかしら。
+[k]
+
+[charaFace E 0]
+＠エウリュアレ
+……あら？
+[k]
+
+[charaFace F 0]
+＠オリオン
+あのぅ、アルテミスさん。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+＠アルテミス
+それでね、それでね？[r]……ってどうしたの、その目？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace F 0]
+＠オリオン
+敵が来たので倒して頂きたいのですが……。
+[k]
+
+[charaFace G 3]
+＠アルテミス
+あらやだ！[r]私ってばドジッ子。てへ☆
+[k]
+
+[charaFace G 0]
+＠アルテミス
+よーし、サクサク倒しちゃうゾー！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,287 @@
+
+
+
+＄94-00-21-16-1-0
+
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 98051000 1 ？？？]
+[charaSet G 98006300 1 エネミー]
+
+[scene 22112]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+先輩、扉です。[r]今までここには何もなかったのに、扉があります。
+[k]
+
+＠マシュ
+非常口……屋上への扉のようです。[r]あ。そういえば以前……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+フォウが妙な鍵を見つけてたな。[r][line 3]そうか。ようやく、黒幕とご対面か。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……やはり。メフィストさんは[r]このマンションが出来てから呼ばれた方です。
+[k]
+
+＠マシュ
+メフィストさんはサーヴァントたちを招きは[r]したものの、変質とやらには関わっていませんでした。
+[k]
+
+＠マシュ
+ですから[line 3]
+[k]
+
+？1：……[&ああ:うん]。あの黒い男がいるはずだ。
+？2：じゃあ、[#仕事]とやらの邪魔をしにいこう。
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+いい気合いじゃないかマスター。[r]頭ってのはそうでなくっちゃな。
+[k]
+
+＠両儀式
+鍵を使うぜ？[r]鬼が出るか蛇がでるかってな。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 1.5]
+[se ad45]
+
+[wait se ad45]
+[scene 22160]
+[se ad2]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_5 0.1]
+
+[seStop ad2 4.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+空が近い[line 3][r]マンション外観からは考えられない高度です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠両儀式
+よくできてる。まるで巫条ビルの屋上だ。
+[k]
+
+＠両儀式
+……明け方が近いな。[r]おい。仕事とやらは終わったのか、そこの黒いの。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠？？？
+終わるものか。[r]我が恩讐が晴れる事はない。永遠に。
+[k]
+
+＠？？？
+確かに、この塔は消え去るだろう。[r]おまえたちの手によって無に帰すだろう。
+[k]
+
+＠？？？
+だがオレの仕事は終わらない。[r]絶望の島。監獄の塔。財宝の城。
+[k]
+
+＠？？？
+それらの姿を思い出すまでは、決して。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、戦闘準備を！[r]敵サーヴァント、確認しました！
+[k]
+
+＠マシュ
+アレは[line 3]この世にいてはいけない英霊です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+[line 3]クッ。[r]はは、はははははははははは！
+[k]
+
+＠？？？
+この世にいてはいけない英霊とは！[r]舌を焼かれるぞデミ・サーヴァント！
+[k]
+
+＠？？？
+死霊も英霊も同じものだといずれ知れ。[r]我らは共に、この世に[#陰:かげ]を落とす呪いなのだと。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[stretchout full 0.3 1.75]
+[wt 0.4]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+[se ad21]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+
+[stretchin full 0.3 1.0]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+アレは[line 3]以前の巨大ゴースト！？[r]もう一体いたんですね……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+いたのではない。消えないのだ。[r]消えないのだよ、呪いというヤツは。
+[k]
+
+＠？？？
+これは既に完成された呪いの[#循環:システム]だ。[r]魔術の王がオレに押しつけた[#人間:オマエタチ]の負債だ。
+[k]
+
+＠？？？
+[#他人:りんじん]がいるかぎり恨み、殺し、[r]その犠牲者の憎しみが次の糧を生み出す。
+[k]
+
+＠？？？
+つまり永遠だ。無限、無間に生きる地獄だ。
+[k]
+
+＠？？？
+敬虔深いものならばこう祈るだろう。[r]決して殺せない不滅の現象[line 3]いと深き場所の神、と。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……前回とは数段上の魔力量です、マスター……！[r]本当に……倒せば倒すほど恨みを増していって、
+[k]
+
+＠マシュ
+その都度に規模を増していくのなら[line 3][r]あの怪物は殺せな[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.8]
+[bgm BGM_EVENT_9 0.1]
+＠両儀式
+[line 3]殺すよ。[r]生きているのなら殺す。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+[line 3]ほう。[r]不滅の現象を、オマエは殺せるというのか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠両儀式
+一万年か一億年か、それ以上の年月“在る”としても、[r]それが人間には不老不死に見えるだけの話だ。
+[k]
+
+＠両儀式
+万物には綻びがある。[r]未来永劫に不変のものなんて、この[#宙:ソラ]には有り得ない。
+[k]
+
+＠両儀式
+消えろ復讐鬼。[r]どれほど長く、偉大な命であろうと[line 3]
+[k]
+
+＠両儀式
+それに終わりがあるのなら、[r]オレは、神様だって殺してみせる[line 3]！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+ハ！[r]いいだろう、見せてみろ冒涜者！
+[k]
+
+＠？？？
+本当に人の悪を否定する事ができるのか、[r]永遠に消えぬものなどないと証明できるのかをな！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_9 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

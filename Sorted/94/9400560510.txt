@@ -1,0 +1,488 @@
+
+
+＄94-00-56-05-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 5027000 1 マリー]
+[charaSet D 98100800 1 うりぼう]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 9004000 1 マルタ]
+[charaSet G 9004000 1 毒]
+
+[scene 30600]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+今日は少数精鋭ですね。
+[k]
+
+＠マシュ
+見に行かねばならないところがある、という話でしたが[r][line 3]どういうことでしょう、スカサハさん？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠スカサハ
+うむ。そこの者からの報告でな。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マリー
+わたし？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+……その腕の中の者、だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+
+
+[charaFadein D 0.1 -70,0]
+[charaFace C 0]
+[charaFadein C 0.1 128,0]
+＠うりぼう
+ぴぎ、ぴぎ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウー。フォウー。フォーウ。
+[k]
+
+？1：（心なしか寂しそうな……）
+？2：（心なしか不機嫌そうな……）
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+居場所が取られたように感じているのでしょうか……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+ええと、フォウさんはフォウさん、うりぼうさんは[r]うりぼうさんですよ。
+[k]
+
+＠マシュ
+はい、フォウさんはわたしの腕においでください。
+[k]
+
+＠フォウ
+フォウッ！
+[k]
+
+[charaAttack E normal 250,0 0.8]
+[charaFadeout E 0.4]
+[wt 0.3]
+[se ad7]
+[wt 0.7]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠マリー
+この子がなんて言ったの？
+[k]
+
+[charaFace B 0]
+＠スカサハ
+最近、島の中で異常が起こっているとな。[r]捨て置けぬ故、見に来たのだ。
+[k]
+
+[charaFace B 4]
+＠スカサハ
+私は……なんというか、普通に見ているだけなのに[r]そやつらを怖がらせて逃がしてしまうことが多い。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+途中で道案内に逃げられてはたまらん故、[r]クッション役としておまえをつれてきた。
+[k]
+
+[charaFace C 4]
+＠マリー
+そうね……あなたはとっても綺麗なのに、いつも[r]どこか視線が険しいわ。
+[k]
+
+[charaFace C 0]
+＠マリー
+騎士や戦士はそういうものなのでしょうけれど、[r]今はせっかく水着姿なのだもの、笑顔が良いわ。
+[k]
+
+？1：はっきり言っちゃった！
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+わたしも……なんというか、水着になっても変わらない[r]その目の圧。
+[k]
+
+＠マシュ
+やっぱりスカサハさんはスカサハさんだな、[r]と思ってしまっていました。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あと基本、まだ害獣を見る目なんですよね、[r]うりぼうさん達に対しては……。
+[k]
+
+[charaFadeout A 0.1]
+
+？2：だがそれがいい。睨まれたい
+
+[charaFace C 0]
+＠マリー
+そういうものかしら？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+せんぱい……。
+[k]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠マリー
+影の国の女王……
+[k]
+
+＠マリー
+一国を背負う御方なのだからこそ、[r]もっと微笑んでいたほうがいいと思うのだけれど。
+[k]
+
+[charaFace C 4]
+＠マリー
+……ああ、でも、王妃と女王の違いなの？[r]わたしも女王だったら同じ風になっていたのかしら？
+[k]
+
+[charaFace B 4]
+＠スカサハ
+性分だ、仕方あるまい。私は門番でもあったからな。
+[k]
+
+＠スカサハ
+影の国にはとかく面倒なモノばかりが押し寄せる。[r]奴らを薙ぎ払うのも我が役目。
+[k]
+
+[charaFace B 0]
+＠スカサハ
+それに女王にもいろいろいる。たとえばメイヴの奴は[r]どちらかと言えばお主寄りだろう。
+[k]
+
+[charaFace C 1]
+＠マリー
+メイヴちゃんは毎日楽しそうだものね。[r]わたし、好きよ？　
+[k]
+
+＠マリー
+恋のお話は、ええ、[r]わたしには難しいかもしれないけれど……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠マルタ
+ところで、どうして私まで？[r]いえ、役目があるのなら別によいのですが。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠スカサハ
+ああ、頼みたいことが出てくるかもしれん。[r]私よりおまえのほうが適役かと思ってな。
+[k]
+
+[charaFace F 0]
+＠マルタ
+適役……槍じゃなくて素手のほうが都合がいいこと、[r]かしら？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠マルタ
+なるほど。殺さず痛めつけたい相手がいる、とか……[r]ええ、殺生はいけませんからね。
+[k]
+
+[charaFace F 1]
+＠マルタ
+ああそれとも、[r]武器使用禁止ルールの聖油デスマッチ……。
+[k]
+
+＠マルタ
+ふふ……腕が鳴るわね……？
+[k]
+
+[se ad86]
+[wt 0.2]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 -70,0]
+[charaFace C 0]
+[charaFadein C 0.1 128,0]
+＠うりぼう
+ひぎっ、ぎー！
+[k]
+
+[charaFace C 0]
+＠マリー
+近いみたいよ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+何か……腐ったような、鼻につんと来るような臭いが[r]風に乗ってきましたね。行ってみましょう。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_2 0.4]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.3]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.2]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+＠うりぼう
+ひぎっ、ぴぎ！
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaPut G 0,-312]
+[charaEffect G bit_talk_19]
+[wt 0.3]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+
+[wt 2.0]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[charaPut G 0,-700]
+[charaEffectStop G bit_talk_19]
+[wt 0.3]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+なるほど。あれか。
+[k]
+
+？1：毒々しい色の……水たまり？
+？2：ダメージゾーンだ……
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、マスター。
+[k]
+
+＠マシュ
+面積的にはマンホールほどのものですが[line 3][r]周囲の植物が完全に枯れてしまっています。
+[k]
+
+＠マシュ
+この嫌な臭いもあそこから届いてきているようです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+マスター、お主は大丈夫だとは思うが、[r]あまり空気を深く吸い込まぬほうがよい。
+[k]
+
+＠スカサハ
+あれは毒の地。漏れ出ているのは、[r]常人が吸えば肺が腐りかねん瘴気だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠マリー
+これをこの子たちが教えてくれたのね。[r]でも、どうしてこんな風になっているのかしら？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠マルタ
+あっ[line 3]近くに敵がいるわよ。[r]あれが原因じゃない？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+＠スカサハ
+いや。あれはこの瘴気に釣られて寄ってきただけの[r]魔物だろう。
+[k]
+
+？1：見たことある奴らばかりだしね
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。こんな毒を出す魔物はいなかったと思います。
+[k]
+
+？2：何が原因なのかな？
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+わかりません……。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.2]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace A 7]
+＠マシュ
+とりあえずあの魔物たちをどうにかしないことには、[r]これ以上調査することもできませんね。
+[k]
+
+＠マシュ
+追い払いましょう、マスター！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

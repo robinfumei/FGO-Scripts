@@ -1,0 +1,122 @@
+＄91-20-09-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21000]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2009201 2 アルテミス]
+[charaSet E 2009102 2 オリオン]
+[charaFadein E 0.1 1]
+[fadein black 1]
+[wait fade]
+＠オリオン
+……ふぅ、やれやれだ。
+[k]
+
+？1：何もやってない
+
+？2：何かした？
+
+？！
+
+[charaFace E 4]
+＠オリオン
+マスター、アンタそういうコト言うのやめてよ。[r]落ち込むから……しゅん、としちゃうから……。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 1]
+＠アルテミス
+落ち込むオリオン可愛いわ！[r]ん～～～～っっ！
+[k]
+
+＠オリオン
+潰れる、むしろ潰れてるから！[r]あと可愛いじゃなくて格好良い、ね！
+[k]
+
+[charaFace D 0]
+＠アルテミス
+さ、他の場所に行きましょ。[r]今度は[#血腥:ちなまぐさ]くないところがいいな、私！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 3]
+＠マシュ
+で、では。他の場所に移動しましょう。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wipeout leftToRight 1 1]
+[wait wipe]
+[scene 20602]
+[wipein rightToLeft 1 1]
+[wait wipe]
+[wt 0.8]
+[fadeout black 1]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaSet F 98006100 1]
+[charaFadein F 0.1 1]
+[scene 20900]
+[fadein black 1]
+[wait fade]
+[wt 0.3]
+[se ad19]
+[wt 0.8]
+[charaFadeout F 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠アルテミス
+……[#血腥:ちなまぐさ]いじゃない！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠マシュ
+すいません。[r]で、でもこの城はとうの昔に浄化されたはずで[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+＠アルテミス
+うぅ。せっかくのハネムーンなのに……。[r]新婚旅行なのに……。
+[k]
+
+＠オリオン
+大丈夫大丈夫、ここに巣食ってる何かを倒せば[r]生臭いのは消えるって。
+[k]
+
+[charaFace D 2]
+＠アルテミス
+むぅ……今の私、とってもイライラしてるんだからね。[r]こんな私に遭遇した方が、運が悪いと諦めて！
+[k]
+
+[charaFace D 5]
+＠アルテミス
+行くわよ、オリオン、マスター！
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

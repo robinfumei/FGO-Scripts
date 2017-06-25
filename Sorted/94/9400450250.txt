@@ -1,0 +1,861 @@
+＄94-00-45-02-5-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 4023001 1 坂田金時]
+[charaSet G 98075000 1 鬼]
+
+[scene 28100]
+[fadein black 1.0]
+[wait fade]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+くそっ、数が多すぎる！　まるでボウフラだ！[r]次から次へと湧いてくるぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+完全に包囲されています……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+この近辺の鬼が集まってきてるみたいだ……[r]……ごめん。僕がもっと慎重に動くべきだった。
+[k]
+
+？1：今さら言っても仕方ないよ
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+マスターの言う通りです。[r]今はここを切り抜ける方法を考えましょう！
+[k]
+
+？2：いや、こっちにも責任はあるよ
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。こんなに集まってくると分かっていれば、[r]他にも手はあったかもしれません……
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+最初から撤退を優先させていれば、だね。[r]でもそれはもしもの話だ。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+今はチャンスを窺うんだ！[r][%1][&君:ちゃん]、みんなに指示を！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+はぁっ！
+[k]
+
+[charaFadeout D 0.1]
+
+[messageOff]
+
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+
+[se bac13]
+[effect bit_talk_12]
+
+
+[wait effect bit_talk_12]
+
+[se ad58]
+[charaFadeout G 0.4]
+[seStop ad58 0.5]
+
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠牛若丸
+……敵将がいないのも厄介ですね。[r]大軍相手にはまず将を、というのが定石。
+[k]
+
+＠牛若丸
+主殿のご命令とあらば、この牛若丸、たとえ万兵の中で[r]あっても敵将の首を獲ってくるところですが[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+＠風魔小太郎
+……いなければどうしようもない、ですね。[r]問題は、ただ、数。
+[k]
+
+？1：何か対抗策は？
+？！
+
+[charaFace E 6]
+
+＠風魔小太郎
+……仕方なし。[r]この期に及んで秘してはいられません……。
+[k]
+
+＠風魔小太郎
+牛若さん。黒い女の子。[r]そして……そこの[%1]、という方。
+[k]
+
+＠風魔小太郎
+僕は因縁からこの地に呼び出された[r]はぐれサーヴァントです。
+[k]
+
+＠風魔小太郎
+ですので、まだ貴方たちの敵でも味方でもない。
+[k]
+
+＠風魔小太郎
+そんな貴方たちに切り札……宝具を見せるのは、[r]ためらいが有りました。
+[k]
+
+[charaFace E 7]
+
+＠風魔小太郎
+ですが、貴方たちは本気で[r]この未熟者の身を案じてくれた。であれば[line 3]
+[k]
+
+＠風魔小太郎
+風魔小太郎、仁義によって身を起こし、[r]信義によって貴方の真心を敬いましょう。
+[k]
+
+[charaFace E 6]
+
+＠風魔小太郎
+ここは我らが聖地足柄山ではなく、[r]ここに我が配下の不可視迅速の乱波もいない。
+[k]
+
+＠風魔小太郎
+この小太郎、風魔の頭領ではなく一人の友として[r]貴方に奥義を預けます。
+[k]
+
+？1：えっと、つまり？
+
+[charaTalk A]
+
+＠マシュ
+先輩、ここは真面目な場面です！[r]ぼっち属性の方が、勇気を振り絞っているんです！
+[k]
+
+？2：ちゃんと喋れるじゃん！
+
+[charaTalk D]
+
+＠牛若丸
+主殿っ！　ここは真剣に！[r]小太郎殿のいい場面ですので！
+[k]
+
+？！
+
+[charaTalk E]
+[charaFace E 9]
+
+＠風魔小太郎
+……えっと。[r]続けていいかな？
+[k]
+
+[charaTalk C]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaTalk E]
+[charaFace E 10]
+
+＠風魔小太郎
+……では。改めまして。
+[k]
+
+[charaFace E 6]
+
+＠風魔小太郎
+マスター殿。我が宝具は風魔の乱波……部下達の霊体を[r]召喚するもの。数だけはこの鬼共に引けを取りません。
+[k]
+
+＠風魔小太郎
+殲滅は敵いませんが、陽動は敵います。
+[k]
+
+＠風魔小太郎
+これは、という逆転の機会をお読みください。[r]その合図をもって、我が宝具を開帳いたします。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+なるほど、目くらましですね。[r]しかし……逆転の機会といっても。
+[k]
+
+＠牛若丸
+一時的にしろ、大軍を一撃で両断する火力が必要です。[r]私の宝具は対人、マシュ殿の宝具は護り……
+[k]
+
+＠牛若丸
+小太郎殿にも申し訳ないが、[r]状況を打破する戦力はどこにも[line 3]
+[k]
+
+
+[bgmStop BGM_EVENT_3 0.1]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[se ad124]
+
+[seStop ad124 2.5]
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+！？[r]この音は[line 3]！？
+[k]
+
+
+
+[se ad123]
+
+[charaFace A 2]
+
+＠マシュ
+な、何かが近付いてきます！[r]もの凄い勢いで！
+[k]
+
+＠マシュ
+方向は……あの崖の上あたりです！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cameraMove 1.0 -100,-100 1.5]
+
+[wait camera]
+
+[charaTalk E]
+
+＠風魔小太郎
+あれは……。
+[k]
+
+
+[charaTalk D]
+
+
+＠牛若丸
+あれはっ！
+[k]
+
+[messageOff]
+
+
+[seStop ad123 0.1]
+[wt 0.3]
+
+
+[se ad126]
+
+[wait se ad126]
+
+[wt 0.5]
+
+[charaTalk B]
+
+＠Dr.ロマン
+崖の上から……そのまま……飛んだァー！？
+[k]
+
+
+[charaTalk C]
+
+＠フォウ
+フォウッ！
+[k]
+
+[messageOff]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[cameraHome 1.3]
+
+[se ad127]
+
+[wait se ad127]
+
+[wait camera]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[se ad125]
+
+[wait camera]
+
+
+＠坂田金時
+いよう。鬼の臭いに釣られてみれば、[r]こいつはご機嫌な展開じゃねえか。
+[k]
+
+[charaFace F 1]
+
+＠坂田金時
+ゴールデンなパーティーだぜ。[r]なあ、そう思わねえか、カルデアの大将さんよぉ！
+[k]
+
+[seStop ad125 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+[wt 0.1]
+
+[charaTalk A]
+
+
+＠マシュ
+あなたは[line 3]マサカリ担いだ金時さん！[r]いえ、Mr.ゴールデン！
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+は？　金太郎？[r]どこにですか、マシュ殿？
+[k]
+
+
+[charaTalk D]
+
+＠牛若丸
+私には外国かぶれのケダモノ一匹しか[r]見えませぬが……
+[k]
+
+
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+……！？[r]あれが……坂田、金時……？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、信じられないとは思いますが、[r]あの方はゴールデンさんです。
+[k]
+
+＠マシュ
+わたしたちも最初は戸惑いました！[r]あ、でも……いつにもまして、今日は特に……
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+そ、そうだ。[r]そのメタルに輝くバイク的なモノはいったい……！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+……チッ。聞くかよそれ。つーか聞いちまうか。[r]やっぱり聞くよなあ、コイツのコトをよぉ！
+[k]
+
+[charaFace F 1]
+
+＠坂田金時
+おう、耳の穴研ぎ澄ませてよーく聞いてくれ！[r]コイツこそ唯一無二のオレの相棒！
+[k]
+
+＠坂田金時
+一噴きで百里をカッ飛ぶ極上アクセル！[r]熊百頭が行く手を阻もうと関係ねぇＪＥＴエンジン！
+[k]
+
+
+＠坂田金時
+まさに[line 3]まさにゴォォォォオルデンッ！[r]こいつこそ足柄山にその[#号:クマ]ありと謳われた伝説ッ！
+[k]
+
+
+
+[effect bit_talk_41]
+
+＠坂田金時
+ハイパー・ウルトラ・デンジャラスマシン[line 2][r]ゴールデンベアー号、つーワケさぁ！
+[k]
+
+？1：か……カァッコイイ……！
+
+[effectStop bit_talk_41]
+
+＠坂田金時
+へへ、やっぱ分かるよな大将！[r]このベアー号のモンスターっぷりがよぉ！
+[k]
+
+
+[charaTalk C]
+
+＠フォウ
+フォウフォウ！
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+おっ、犬コロも分かるか！　見所あるじゃん、[r]おまえの毛もゴールデンに染めてみるか？
+[k]
+
+[charaTalk C]
+
+＠フォウ
+…………フォウン…………。
+[k]
+
+？2：…………
+
+[effectStop bit_talk_41]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 4]
+
+＠マシュ
+…………。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+…………。
+[k]
+
+[communicationCharaClear]
+[charaFadeout A 0.1]
+[wait communicationChara]
+
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+まいったな……いや、まいったぜ……[r]そうだろう、そうだろうともよ……
+[k]
+
+＠坂田金時
+誰だって初めはそうなのさ……[r]あまりの迫力に感想はおろか溜め息すらでねぇ……
+[k]
+
+[charaFace F 1]
+
+＠坂田金時
+それがこのベアー号の魅力ってヤツよ……[r]オレも心底怖ろしいぜ……
+[k]
+
+？！
+
+[charaTalk B]
+
+＠Dr.ロマン
+よし、キミはやっぱりバカだな！[r]それはともかく金時くん！
+[k]
+
+＠Dr.ロマン
+今の状況をよく見てほしい！[r]免許証をとってはしゃぐ高校生じゃないんだから！
+[k]
+
+
+[charaTalk F]
+[charaFace F 5]
+
+＠坂田金時
+オレゃあオトナだっつーの！[r]免許証だって大型だっつーの！
+[k]
+
+[charaFace F 0]
+
+＠坂田金時
+……っと、そうじゃねえ。[r]ＯＫＯＫ、皆まで言うなマッド・ドク。
+[k]
+
+＠坂田金時
+話はきっちり、峠の茶屋で聞かせてもらったぜ！
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+へっ？　マッド・ドク？[r]ボク？
+[k]
+
+[charaTalk F]
+[charaFace F 6]
+
+＠坂田金時
+つーかなんだそりゃ、その鬼ども！[r]何かのギャグか？　能だけにノウってか！？
+[k]
+
+＠坂田金時
+オレっちは鬼退治のプロだがよ、[r]こんな絵に描いたようなマヌケ[#面:づら]、見た事ねえぞ！
+[k]
+
+＠坂田金時
+やべえ、とくに理由はねえのに面白ぇー！[r]笑いすぎて死にそうだ！　ギャハハハハ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+本当に……[r]あれが、坂田……金時……ッ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ストップ、ストップですMr.ゴールデン！[r]なぜそこで大爆笑なのでしょう！？
+[k]
+
+＠マシュ
+それは悪党アクションです！[r]子供たちも悲しみます！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+え……マジかよ……[r]子供に泣かれるのは困るじゃんよ……
+[k]
+
+[charaFace F 3]
+
+＠坂田金時
+……いや、まあ、なんだ。すまん。[r]オレもどうかしてたっつーか……
+[k]
+
+＠坂田金時
+なんでか、そいつら見たら笑っちまったんだよ。[r]どこかで見た覚えがあるのかねぇ……
+[k]
+
+＠坂田金時
+ほら、あれだ。[r]ガキの頃にツボに入った妙な思い出、みたいな。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠鬼
+オオ……オオォォオオ……[r]オオオオオオオオオオ！！！！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+おう、だが腹ァ抱えている場合じゃねえな。
+[k]
+
+＠坂田金時
+相変わらずなんで召喚されたんだかは分かんねえが、[r]オレの仕事はハッキリしてらあ。
+[k]
+
+＠坂田金時
+どうにも急を要する話らしい。[r]このライダースーツがそう言っている。
+[k]
+
+[charaFace F 0]
+
+＠坂田金時
+ゴールデン。[r]風より速く　ゴールデン、ってな。
+[k]
+
+[charaFace F 1]
+
+＠坂田金時
+とあれば話は簡単だ！[r]鬼退治だろう？　大将、盾持ちの嬢ちゃん！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+はい……！[r]マサカリ担いだ金太郎[line 3]貴方の出番です、ミスター！
+[k]
+
+？1：よし、ゴールデン宝具で包囲を突破する！
+
+＠マシュ
+はい、行きましょう、マスター！
+[k]
+
+[charaTalk A]
+[charaFace A 2]
+
+？2：ゴールデンカチコミじゃああ！
+
+
+[charaFace A 6]
+
+＠マシュ
+ま、マスター？
+[k]
+
+[charaTalk A]
+[charaFace A 2]
+
+＠マシュ
+予想外の気合に少しびっくりしてしまいましたが[r]……ともあれ！
+[k]
+
+？！
+
+
+＠マシュ
+小太郎さん、お願いします！
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+あ……はい！
+[k]
+
+[charaFace E 8]
+
+＠風魔小太郎
+我が不滅の忍たちを、ここに錬成す[line 2][r]行け！　[#不滅の混沌旅団:イモータル・カオス・ブリゲイド]！
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+オイオイ、なんだそりゃ、テメェ……。
+[k]
+
+[charaTalk E]
+[charaFace E 4]
+
+＠風魔小太郎
+あ……すみません。[r]何か、気に障るような、ことを……？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+クッソクールな宝具名じゃねぇか！
+[k]
+
+＠坂田金時
+センスありやがるぜおまえ！[r]ゴールデン入ってればさらに完璧だったけどよ！
+[k]
+
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+は、はあ……どうも……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠坂田金時
+っし、オレっちも負けてらんねぇな[line 2][r]ブッコんで行くぜオラァ！
+[k]
+
+＠坂田金時
+寄れよ鬼公ども、冥土の土産によく見とけ！
+[k]
+
+＠坂田金時
+疾風迅雷、電光石火、輝くボディはゴールデン！[r]神馬一体、こいつがオレとベアー号！
+[k]
+
+＠坂田金時
+ついてこれるヤツはついてきな。[r]何だったらケツに乗ってきたって構わねぇ。
+[k]
+
+
+[charaFace F 0]
+
+
+＠坂田金時
+だが、そんときゃ保険に入っておけよ？
+[k]
+
+[charaFace F 1]
+
+＠坂田金時
+なにしろブレーキは存在しねえ。振り落とされたら[r]地獄の底までご案内ってなぁ！
+[k]
+
+
+[se ad128]
+
+[wait se ad128]
+
+[charaFadeout F 0.1]
+[messageOff]
+[wt 0.1]
+
+
+[se ad122]
+
+[wait se ad122]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+…………！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

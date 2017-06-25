@@ -1,0 +1,105 @@
+＄91-50-03-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5003001 1 玉藻の前]
+[charaSet D 98002000 1 フォウ]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠玉藻の前
+んー、タマモちゃん　大　勝　利　！！[r]いやー、絶好調！！　絶好調！！
+[k]
+
+？1：ところで尻尾増えてないよね？
+
+？2：どこかパワーアップした？
+
+？！
+
+[charaFace C 0]
+＠玉藻の前
+ああ、尻尾ですか？[r]そうですねー……、一尾取り戻すのに
+[k]
+
+＠玉藻の前
+あと経験値が五千億ポイントぐらいでしょうか？[r]まあ、しばらくは一尾のままですねぇ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+え？　じゃあ、尻尾が増えると[r]どうこうっていうのは……。
+[k]
+
+[charaFace C 3]
+＠玉藻の前
+ああ、私心配性でして、[r]結構、先の事とか気になっちゃうタイプなんです。
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+でも、もう大丈夫。[r]マスターの信頼を得たいま、私に隙はありません！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そもそも、前回とさっきの戦闘、[r]とくに変わってなかったような……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね……なんだったんでしょう、[r]さっきの話は……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ほら、病は気からとかいうじゃない？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォーウ？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠玉藻の前
+浮き世は一時の夢、[r]人の命は朝露の如し[line 3]
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+されども、私との契約は殺生石より確かなもの。[r]これからも全霊でお仕えいたしますね、マスター♪
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,177 @@
+
+＄94-00-77-03-1-1
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1010000 1 エリザベート]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 5012001 1 ニトクリス]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 20805]
+[wt 0.7]
+[fadein black 1.5]
+[wait fade]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein D 0.4 0]
+[charaFadein C 0.4 2]
+＠エリザベート
+それじゃ、スカウトをスカウトするわ！[r]約束、守ってくれるわね？
+[k]
+
+
+＠ロビンフッド
+あいよー。[r]で、どーすんだ？　すぐに乗り込むのかい？
+[k]
+
+
+＠エリザベート
+いいえ、もう一人欲しいわね。
+[k]
+
+？1：四人パーティくらいが基本だよね
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そ、そうなんですか？[r]わたしは六人パーティが基本かと……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+ともかく、魔術師ゲットよ[&子イヌ:子ジカ]！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：魔術師だ！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠エリザベート
+その通りよ、[&子イヌ:子ジカ]！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+はあ。魔術師をスカウトしにねぇ……。[r]まあ、いいですけどね。
+[k]
+
+＠ロビンフッド
+一応、心当たりがなくはないんだが……。[r]あー……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+何かあるんですか？
+[k]
+
+[charaFace A 4]
+＠マシュ
+心が壊れているとか、箱庭を作っているとか、[r]直流と交流で争うとか、[#空飛ぶ円盤:フライング・ソーサー]を召喚するとか……？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠ロビンフッド
+……まあ、それはそれで問題だろうけどな。[r]似てるんだよ。
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 1]
+
+＠Dr.ロマン
+似てるって、何がだい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+＠ロビンフッド
+（無言で指差し）
+[k]
+
+＠エリザベート
+[#私:アタシ]に？
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_2 1.0]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.7]
+[scene 20115]
+[bgm BGM_EVENT_5 0.3]
+[fadein black 1.0]
+[wait fade]
+[wt 0.4]
+
+[charaFilter E silhouette 00000080]
+[charaFadein E 0.4 1]
+
+＠？？？
+……はっ！[charaShake E 0.05 5 5 0.7][r]今、何か災厄が訪れそうな予感が……！
+[k]
+
+＠？？？
+しかしながら、敵前逃亡はファラオ不覚悟。
+[k]
+
+＠？？？
+それが如何なる災厄であれ、[r]謹んで、迎撃させてもらいましょう……！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.4]
+[wait fade]
+[charaFadeout E 0.1]
+[soundStopAll]
+[end]
+

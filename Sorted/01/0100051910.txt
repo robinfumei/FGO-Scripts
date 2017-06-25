@@ -1,0 +1,483 @@
+
+＄01-00-05-19-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 7014001 1 ナイチンゲール]
+[charaSet C 7020000 1 クー・フーリン・オルタ]
+[charaSet D 1019001 1 ラーマ]
+[charaSet E 3004001 1 カルナ]
+[charaSet F 2015001 1 アルジュナ]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 98003003 1 Dr.ロマン]
+
+[charaTalk H]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+[scene 20721]
+[fadein black 2]
+[wait fade]
+
+＠Dr.ロマン
+生体反応消失！[r]……ふぅ、やれやれ。肝が冷えたよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠マシュ
+ドクター、北部戦線はどうなっていますか？
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+ああ、北部戦線は維持できている。[r]これならいけるかもしれない……！
+[k]
+
+[messageOff]
+[messageOff]
+[wipeout leftToRight 0.5 1]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+[wt 1.0]
+
+[wait wipe]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout A 0]
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.1]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[se bac20]
+[wt 0.2]
+[fowardEffect bit_talk_41]
+[wait se bac20]
+[wt 0.1]
+
+[fowardEffect bit_talk_14]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[fowardEffectStop bit_talk_41]
+[shake 0.05 2 4 0.25]
+[se ad32]
+[wt 1.0]
+[seStop ad32 0.5]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠カルナ
+ハァァァァァァ[line 2]！！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アルジュナ
+シャアアアアアアッ！！
+[k]
+
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+
+[charaFadeout F 0]
+
+[charaTalk D]
+[charaFace B 6]
+[charaFace D 2]
+[charaFadein B 0 2]
+[charaFadein D 0 0]
+
+[wt 0.1]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+＠ラーマ
+カルナとアルジュナか！[r]何て出鱈目な戦闘だ……！
+[k]
+
+＠ラーマ
+全軍あの二人から離れろ！[r]巻き添えを食らうぞ！！
+[k]
+
+[charaFace B 6]
+＠ナイチンゲール
+……カルナの方がわずかに圧していますね。
+[k]
+
+[charaFace D 0]
+＠ラーマ
+ほう、分かるかナイチンゲール。
+[k]
+
+[charaFace D 1]
+＠ラーマ
+やはり弓兵は遠距離戦こそが華。あそこまで接近されては[r]さしものアルジュナでも手に負えまい。
+[k]
+
+[charaFace D 5]
+＠ラーマ
+というより、本来ならばカルナが圧倒していて[r]然るべき状態だ。
+[k]
+
+[charaFace D 4]
+＠ラーマ
+それをほぼ互角に見えるところまで持ち込むとは、[r]さすがアルジュナと言うべきか……！
+[k]
+
+[charaFace D 0]
+＠ラーマ
+だが[line 2]。[r]このままなら勝負は、
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+
+[charaFadeout B 0]
+[charaFadeout D 0]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0 1]
+
+[wt 0.1]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+＠カルナ
+……ッ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[shake 0.05 2 4 0.25]
+[se ad32]
+[wt 1.0]
+
+＠アルジュナ
+くっ[line 4]！
+[k]
+
+[charaTalk D]
+＠ラーマ
+カルナの勝ちだ……！
+[k]
+
+[messageOff]
+[fadeout black 0.1]
+[wait fade]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[scene 10000]
+[fadein black 0.5]
+[wait fade]
+
+＠C：？？？
+[line 2]『[#抉り穿つ鏖殺の槍:ゲイ・ボルク]』。
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[messageOff]
+
+
+[se ad80]
+[wt 0.4]
+[wt 0.8]
+[fowardEffect bit_talk_37]
+[wt 0.1]
+[wt 1.0]
+[wt 0.4]
+
+[scene 20721 0.5]
+[wait scene]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+え……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace D 5]
+[charaFace B 7]
+[charaFadein D 0.1 0]
+[charaFadein B 0.1 2]
+＠ナイチンゲール
+……！
+[k]
+
+[charaFace D 2]
+＠ラーマ
+な、に[line 2]！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+サーヴァント反応が、いきなり……！？[r]ちょ、何が起きた！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠アルジュナ
+……！
+[k]
+
+＠カルナ
+……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[messageOff]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+＠クー・フーリン・オルタ
+悪く思うな、施しの英雄。[r]何しろこいつぁ、ルール無用の殺し合いでね。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+[fowardEffect bit_talk_35]
+
+＠カルナ
+……クー・フーリン……。
+[k]
+
+[wait fowardEffect bit_talk_35]
+[messageOff]
+
+[se ad58]
+[charaFadeout E 0.1]
+[wt 0.5]
+[seStop ad58]
+[wt 0.5]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFace E 0]
+[charaFadein F 0.1 0]
+[charaFadein C 0.1 2]
+＠アルジュナ
+クー・フーリン……貴様……！！
+[k]
+
+[charaFace C 5]
+＠クー・フーリン・オルタ
+[line 2]うるせえ。好き勝手に始めやがって。[r]一騎討ちなんぞオレが認めたか？
+[k]
+
+＠クー・フーリン・オルタ
+テメエの趣味に走るのは趨勢が[r]決まってからだろうが。
+[k]
+
+[charaFace C 0]
+＠クー・フーリン・オルタ
+後ろから刺されなかっただけでも感謝してな、[r]授かりの英雄。
+[k]
+
+[charaFace F 4]
+＠アルジュナ
+っ……！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+さあて[line 2][r]あれが例のマスターか。
+[k]
+
+？1：……！
+？！
+
+＠クー・フーリン・オルタ
+なんだよ、震えてるじゃねえか。[r]歴戦の勇者ってのはこっちの思い込みだったか。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、貴方は……！？
+[k]
+
+？1：冬木のキャスター！
+？2：あの時、一緒に戦った……！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+あいにく記憶にねえ。[r]正真正銘、別人だろう。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+でも……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace A 14]
+[charaFace G 0]
+[charaFadein A 0.1 2]
+[charaFadein G 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+？1：マシュ、冷静に。
+？2：マシュ、あれは敵だ
+
+？！
+
+[charaTalk A]
+[charaFace A 7]
+＠マシュ
+……はい、分かっています。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ラーマ
+待て、クー・フーリン！[r]スカサハは[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+ん？　ああ、スカサハなら倒した。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠ナイチンゲール
+……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠ラーマ
+……あっさりと言ってくれるな。
+[k]
+
+[charaFace A 4]
+＠マシュ
+あのスカサハさんを……そんな……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠クー・フーリン・オルタ
+ああ、弔いの言葉は必要ねえぞ？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace C 1]
+＠クー・フーリン・オルタ
+オマエたちもここで死ぬんだ。[r]舐めあいはあっちで勝手にやっていろ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ラーマ
+来るぞ……！[r]令呪の出し惜しみはするな、全力で戦うぞ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

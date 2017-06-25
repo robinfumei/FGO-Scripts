@@ -1,0 +1,183 @@
+＄01-00-03-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 オリオン]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaSet H 2009201 1 アルテミス]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+もうそろそろ、ヴァイキングたちの海図も使えない、[r]未知の領域に到達する。
+[k]
+
+＠ドレイク
+それは浪漫だから、いいとして！[r]問題は黒髭の船さね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+サーヴァントの数が変わっていなくとも、[r]四人いれば充分に強敵です。
+[k]
+
+[charaFace A 7]
+＠マシュ
+下手に遠距離で遭遇すると、砲弾と銃弾で[r]こちらの船が破壊されます。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+[#速度:あし]なら圧倒的にこちらが速い。[r]思い切って、[#衝角:ラム]でガツンと突撃ってのはどう？
+[k]
+
+＠マシュ
+この海には障害物がほとんどないようですから……[r]前回同様、遠距離で遭遇する可能性が大きいですね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+可能性があるとすれば、[#嵐の夜:ワイルドハント]ですが……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+向こうがこちらに気付かず、こちらが向こうに気付いて、[r]尚且つタイミング良く嵐が来るというのは[line 2]。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+高望みしすぎだよねえ、まったく。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+＠エウリュアレ
+……気付かれる前に、私と彼女で矢を射って[r]混乱させるというのは？
+[k]
+
+[charaFace A 7]
+＠マシュ
+確かに混乱は起きると思いますが、[r]向こうにはサーヴァントがいます。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……特にマスケット銃を持ったあの女性が厄介です。[r]撃ち合いになってしまえば大した混乱も起きません。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠アルテミス
+船がぶつかるより先に、[r]誰かが乗りこんで暴れればいいじゃない？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠オリオン
+お前、バカか。[r]船より先に乗り込むって、どうやってだ……………あ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……どうしました？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+＠アルテミス
+へへー。私、女神様だけど。[r]基本的にはオリオンとして召喚されているのよね。
+[k]
+
+[charaFace H 0]
+＠アルテミス
+だから、オリオンの力が私に宿っている状態な訳。
+[k]
+
+＠Dr.ロマン
+……あ、思い出した。[r]オリオンって、確か水面を歩くことができるんだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エウリュアレ
+そういえば、あなた[#海神:ポセイドン]さまの子供だったわね。[r]それで水面歩けるの…………あれ、それだけ？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠オリオン
+あの……もうちょっと、格好良い力が欲しかったよ[r]俺だって！
+[k]
+
+[charaFace E 4]
+＠オリオン
+何だよ、水面歩けるって……。[r]アメンボ？　アメンボなの？　脂足？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+＠アルテミス
+苦悩するオリオン、素敵……。[r]ぎゅぅ～～と抱きしめたい、ぎゅぅ～～って……
+[k]
+
+[charaFadeout H 0.1]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠オリオン
+マシュちゃん、その胸で慰めて！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+お断りします。
+[k]
+
+[charaFace E 4]
+＠オリオン
+ぬぎゅぅ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ドレイク
+ともかく、新しいカードが配られたワケだ。[r]さーて、ちょっと頼みたいことがあるんだけどさぁ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠オリオン
+ワーオ。[r]何だか、厭な予感でワクワクしてきたぞぅ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

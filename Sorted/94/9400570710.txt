@@ -1,0 +1,255 @@
+
+
+＄94-00-57-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 4024000 1 モードレッド]
+[charaSet E 3024000 1 玉藻の前]
+[charaSet F 2025200 1 アン]
+[charaSet G 2025100 1 メアリー]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+私はなんでもいいです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+くっ……駄目です先輩、既にアルトリアさんは[r]菩薩のような笑みで全てを受け入れる構え！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+とはいえ、最初の牧場だ。どの家畜を飼育するかは[r]きちんと選んだほうがよいだろう。
+[k]
+
+＠スカサハ
+ちなみに私は……そうさな、普通に牛でも推しておくか。[r]乳を搾ってよし肉を食ってよし、だ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+＠モードレッド
+ああ。肉を食えば力が出る！　食わなきゃ出ねえ！[r]単純な理屈だな！
+[k]
+
+[charaFace E 4]
+＠玉藻の前
+あらあら。色気より食い気な方々はこれですから……。
+[k]
+
+[charaFace D 5]
+＠モードレッド
+むっ。お前は違うってのかよ、狐耳。
+[k]
+
+[charaFace E 0]
+＠玉藻の前
+普段の[#私:わたくし]やキャットさんなら野生にフラフラ[r]と流れることもあるかもしれませんがね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠玉藻の前
+今の[#私:わたくし]はセレブな波打ち際巫女狐。
+[k]
+
+＠玉藻の前
+獣臭くワイルドな結論より、ハイソでエレガントな結論の[r]ほうを導き出すのです！
+[k]
+
+＠玉藻の前
+というわけで羊にしましょう羊。高級[#羅紗:ウール]で[r]我々の衣服事情がさらなる発展を遂げますよ！
+[k]
+
+＠玉藻の前
+その後でマトン肉にすれば食糧にもなりますし？
+[k]
+
+
+？1：水着なのに……？
+
+[charaFace E 3]
+＠玉藻の前
+それ以外にもいろいろ用途はあるじゃないですかー。[r]詳しくは出来上がってからのお楽しみ、ですけど！
+[k]
+
+
+？2：モフモフ羊毛かあ……いいね、モフモフ……
+
+[charaFace E 5]
+＠玉藻の前
+はっ、しまった、ボケツ！？
+[k]
+
+＠玉藻の前
+いえいえそれでもこのタマモちゃんの尻尾には敵わない[r]でしょう。つまりはやられ役としての羊毛ですよ。
+[k]
+
+＠玉藻の前
+奴は四天王の中でも一番のうんたらかんたらですよ。[r]負ける要素などない、だから胸を張って推します！
+[k]
+
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace G 0]
+[charaFace F 0]
+[charaFadein G 0.1 2]
+[charaFadein F 0.1 0]
+
+＠アン
+それなら鳥がいいのではないでしょうか？
+[k]
+
+＠メアリー
+食べてよし。羽がいろいろ使える。[r]それに羊よりも飼いやすそうだよ。
+[k]
+
+＠アン
+ところで、牧場作りと言っても、実際はゼロから[r]動物を作り出すわけではないのでしょう？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+さすがに最初のつがいはどこかで見つけなくてはならん。[r]そこから交尾させて繁殖だ。
+[k]
+
+
+？1：クールな顔で、交尾、とか……いいですね
+？2：クールな顔で、繁殖、とか……いいですね
+？！
+
+[charaFace C 4]
+＠スカサハ
+何やらマスターの視線が怪しげだが、[r]特に気にしないことにしておくか……。
+[k]
+
+[charaFace C 0]
+＠スカサハ
+ともあれ牛も羊も、野生のものを島で何体か見かけたから[r]都合はつくはずだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace G 0]
+[charaFace F 0]
+[charaFadein G 0.1 2]
+[charaFadein F 0.1 0]
+
+＠アン
+だったら余計に都合がいいですわ。こないだ、美味しそうな[r]鳥がいっぱい群生している場所を見つけましたのよ。
+[k]
+
+＠メアリー
+最初に牧場に入れる数は多ければ多いほどいい。だろう？[r]その点でも鳥は楽だと思うよ。
+[k]
+
+[charaFace G 1]
+＠メアリー
+それにあの鳥、動きは鈍いし空も飛べない。[r]逃げられる心配もないんだ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+ふむ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+もう一度言いましょう。
+[k]
+
+[charaFace B 0]
+＠アルトリア
+私は　なんでも　いいです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+やはり……うんうん頷きながらわたしたちの話を聞いている[r]ようでいて、その実、未来しか見据えていないかのような
+[k]
+
+[charaFace A 14]
+＠マシュ
+深い眼差し！　これがもしや……[#禅:ＺＥＮ]の境地という[r]ものなのでしょうか……！？
+[k]
+
+
+？1：膳、のほうが正しいかな……
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

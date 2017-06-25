@@ -1,0 +1,129 @@
+
+＄01-00-05-22-3-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 7020002 1 クー・フーリン・オルタ]
+[charaSet B 8001001 1 マシュ]
+[charaSet C 1019001 1 ラーマ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 7020001 1 クー・フーリンオルタ]
+
+[scene 20903]
+[fadein black 2]
+[wait fade]
+
+[charaTalk off]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wt 0.4]
+
+[se ad42]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.7 1]
+[wt 1.5]
+[charaTalk on]
+[charaFadeout E 0.1]
+
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace C 4]
+[charaFace B 15]
+[charaFadein C 0.1 0]
+[charaFadein B 0.1 2]
+＠マシュ
+また姿が……！
+[k]
+
+＠ラーマ
+追い込んでいるはずなのに、[r]追い込めた感覚が全くないな……！
+[k]
+
+[charaFace C 0]
+＠ラーマ
+さすが光の御子。[r]恐らく、世界最強の[#槍兵:ランサー]だろうな……！
+[k]
+
+[charaFace C 5]
+＠ラーマ
+それでも[line 2]負けるものか。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+い、急いでくれ……！[r]もう、北部戦線が保たない！
+[k]
+
+＠Dr.ロマン
+繰り返すが、彼らの敗北はアメリカの敗北だ！[r]その時点で時代が崩壊する可能性が極めて高い！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠マシュ
+了解です、ドクター……。[r]でも……でも……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+[line 2]まだだ。[r]オレを倒すには、まだ足りねぇな……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ラーマ
+やるしかない……！[r]マスター、指示を頼む！
+[k]
+
+[charaFace C 5]
+＠ラーマ
+北部戦線は、あやつらを信じるしかない！
+[k]
+
+？1：分かった！
+？2：全速だ！
+？！
+[bgm BGM_EVENT_5 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠フォウ
+フォウ……！！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

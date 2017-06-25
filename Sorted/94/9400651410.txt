@@ -1,0 +1,362 @@
+
+＄94-00-65-14-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102500 1 イリヤ]
+[charaSet D 2024001 1 偽信長]
+[charaSet E 2024001 1 偽信長d]
+[charaPut E 0,-250]
+
+[scene 31400]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽信長
+わしじャ！[bgmStop BGM_EVENT_5 0.7]　ノッブじャ！[r]来おったな、たわわ南蛮人！
+[k]
+
+[bgm BGM_EVENT_32 0.1]
+
+[charaFace D 5]
+＠偽信長
+なに喰ったらそんなたわわになるんじャ、[r]この魔性の眼鏡が、さっさと下知をせイ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+えっ[line 3]はい？[r]わたしですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽信長
+あれカ……？　毎食、[#金平糖:こんぺいとう]を山盛りカ？[r]それとも焼きマシュマロを茶に浮かべて[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あの……ハラスメントは控えてください。[r]そんなに偏食は無いつもりですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠イリヤ
+ああ、なんだかぐだぐだな感じに……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+もうやめて、偽信長さん！[r]偽信長さんも、何かに操られてるんですよね？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽信長
+貴様には聞いておらんのですけどーォ？
+[k]
+
+[charaFace D 2]
+＠偽信長
+このショミン百パーセントの残念南蛮人！[r]わしに具申するなぞ五十年早いワ。
+[k]
+
+＠偽信長
+そこの[#大名物:おおめいぶつ]×２を見せびらかすたわわ南蛮人の如く、[r]エロスで敵を殴り倒してからもの申セ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+な[messageShake 0.05 3 3 0.7]んですか大名物って！？[r]デミ・サーヴァントです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+ううっ……この食ってかかる感じの喋り方は……[r]つい最近に、すごーく最近、耳にした気が……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽信長
+ふはは！　この第六天魔王に向かって[r]魔法少女らしく振る舞え、とか片腹痛いワ！
+[k]
+
+
+＠偽信長
+そんな演舞なぞ、天下布武の傍らで[r]腐るほどこなしてきたのじャ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+キャー！　のびゅうううううー！！[r]ご出演ありがとうございます色んな意味で！
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+イリヤさんも近頃はすっかりＫＥＮＺＥＮに成長されて[r]多方面を迎え撃つ態勢で万全です！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+超小学生級魔法少女として[r]今後もご期待ください！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 3]
+[charaFadein C 0.1 2]
+＠イリヤ
+何[messageShake 0.05 3 3 0.5]を！？　そこは張り切らなくていいってば！[r]どこに向かって対抗してるの！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_32 1.5]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽信長
+かーっ、なんじゃイヤミか貴様ッッ！？[r]自慢なのカ！？
+[k]
+
+＠偽信長
+わしじゃってなア、わしじゃって、[r]レースクイーンでせくしぃな痛車になったんじゃゾ！
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace D 4]
+＠偽信長
+まあ、色気のかけらも無い[r]にいてんご頭身じゃったがナ……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠イリヤ
+えっ、それ気にしてたんですか……
+[k]
+
+[charaFace C 4]
+
+＠イリヤ
+あの、なんだかうちのルビーが[r]傷をえぐってすみません……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽信長
+[line 3]わしは許そウ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+
+[charaFace D 2]
+＠偽信長
+だが[#三千世界:こいつ]が許すかナ！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[se ad39]
+[effect bit_talk_06]
+＠偽信長
+対軍宝具最大展開じゃ！[r]ノッブ[voice NP_202400_2]ファイッ！
+[k]
+
+[messageOff]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 1.5]
+[wait voice NP_202400_2]
+[effectStop bit_talk_06]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.7]
+
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+あー、原作では[#縮地:ワープ]で[r]さくっと回避されたあれですねー？
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+それなりに痛いですけど、わたしたちには[r]宝具の相性的にあまり効果無いかもー？
+[k]
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_EVENT_32 1.5]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽信長
+……くぅッ！　じゃガ！[r]そんなこともあろうかと備えておったワ！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+＠偽信長
+わしの忠臣、サルの知略と柴田の猛勇を[r]いい感じに合体させた新宝具！
+[k]
+
+[charaEffect D bit_talk_41]
+[charaFace D 2]
+＠偽信長
+ノッブ返しからのかかれノッブ！　そして[r]桶狭間の崖からポイするノッブバスターでとどめじャ！
+[k]
+
+[charaEffectStop D bit_talk_41]
+[wt 0.3]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_3 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk A]
+[charaFace C 6]
+[charaFadein C 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+あの、そのような第二宝具の実装予定は[r]当分無いようですが……。
+[k]
+
+＠イリヤ
+わたしの勉強した歴史とも違うような……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽信長
+そうじゃったカ？　まあ、是非もなシ！
+[k]
+
+[bgmStop BGM_EVENT_32 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace D 2]
+＠偽信長
+おのレ！　清洲会議しとる場合かサルに柴田！[r]そろそろ切実にテコ入れプリーズ！
+[k]
+
+？1：ちゃんとぐだぐだで安心しました！
+？2：イベント第二弾待ってますネ！
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

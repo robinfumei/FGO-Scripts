@@ -1,0 +1,168 @@
+
+＄01-00-05-15-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 3005002 1 エリザベート]
+[charaSet D 2003001 1 ロビンフッド]
+[charaSet E 3004001 1 カルナ]
+
+[scene 20602]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エリザベート
+ぜぇ、ぜぇ、ぜぇ。[r]や、やるわね……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+＠ロビンフッド
+もう引っ込んでろ、そろそろ限界だろ。[r]えーと、赤ツノ。
+[k]
+
+[charaFace C 5]
+＠エリザベート
+うるさいわね。[r]同じランサーとして、譲れないものがあるのよ……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠カルナ
+ランサー？[r]おまえはアイドルではなかったか。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エリザベート
+アイドルは一時休暇中。[r]今[charaFace C 5]は仕方ないから、槍兵として[line 2]戦ってあげるわ！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[flashin once 0.1 0.2 FFFFFFA0 FFFFFF00]
+[wt 0.1]
+[se ad32]
+[shake 0.05 0 5 0.4]
+
+[wt 1.5]
+
+
+[se ad87]
+[seStop ad87 1.0]
+[wait se ad87]
+[wt 0.2]
+
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠カルナ
+……む。[r]戻ってこい、とはおかしな命令を。
+[k]
+
+[charaFace E 0]
+＠カルナ
+だが[line 3]そうか、自らの手で決めたくなったか。[r]そういうところが傲慢だが、仕方あるまい。
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠エリザベート
+なによ、逃げるの！？[r]っていうか勝ち逃げ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+＠カルナ
+別にまだ勝ってもいないが……。
+[k]
+
+[charaFace E 0]
+＠カルナ
+主からの指示でな。玉座に戻れ、とのことだ。[r]ここより先、玉座の間にておまえたちを待つ。
+[k]
+
+＠カルナ
+この国の最大戦力、三人でな。
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.7]
+
+[bgmStop BGM_EVENT_3 0.5]
+[charaFadeout C 0.1]
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[bgm BGM_EVENT_5 0.1]
+＠マシュ
+この国の最大戦力……それは、つまり。
+[k]
+
+？1：サーヴァント
+？2：エジソンたちだ
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そういう事だろうね。さっきは通信越しだったから、[r]直接話をしたいんだろう、エジソンは。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……まあ、どう考えても話し合いの前に[r]戦闘は避けられないだろうけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……そうですね。エジソン氏は一度倒れないかぎり、[r]考えを改めはしない気がします。
+[k]
+
+[charaFace A 0]
+＠マシュ
+マスター、準備を整えてから行きましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+[soundStopAll]
+[end]
+

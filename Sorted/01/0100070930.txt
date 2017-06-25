@@ -1,0 +1,266 @@
+
+
+
+＄01-00-07-09-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 98106900 1 ティアマト]
+
+[se ad55]
+[seVolume ad55 0 0.5]
+
+[scene 34600]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+＠マシュ
+牛若丸さん[line 3]！[r]マスター、牛若丸さんが……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[line 3]マシュ、立ち止まるな！[r]ティアマトの反応、変化なしだ！
+[k]
+
+＠Dr.ロマン
+物凄い速さで追ってくる……！[r]ニップルの壁を突き破ってくるぞ……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[seStop ad55 0.4]
+[wipeout rightToLeft 0.3 1]
+[wait wipe]
+
+[se ad34]
+[se ad14]
+[seVolume ad14 0 0.5]
+[effect bit_talk_40]
+[wt 0.2]
+[shake 0.05 0 10 1.0]
+[charaScale D 1.01]
+
+[wipein leftToRight 0.3 1]
+[wait wipe]
+
+[wt 2.0]
+
+[effectStop bit_talk_40]
+[wt 0.4]
+
+[seStop ad14 0.7]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.7 1]
+＠ティアマト
+[line 3]そこにいたか、虫ども。[r]逃がす筈がなかろう。
+[k]
+
+＠ティアマト
+この身は魔獣に堕ちたとはいえ神である。[r]私に、[#私:かみ]の言葉を[#違:たが]えさせるな。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠マーリン
+まったく、蛇のようにしつこい女神だ！[r]いや蛇に失礼か、彼らは[#恨:うら]み[#辛:つら]みでは動かない！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ティアマト
+口の減らぬ魔術師よ。[r][line 3]よかろう。貴様からすり潰してくれる。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+フッ、できるものならやってみたまえ！[r]そしてその隙に逃げたまえ、[%1]君！
+[k]
+
+＠マーリン
+なあに、今まで隠していたが私は不死身でね。[r]なにしろ半分が夢魔だ。
+[k]
+
+＠マーリン
+この体が“潰れた”瞬間に夢の世界に逃げ込むさ！
+[k]
+
+＠マーリン
+でも戻ってくるのに幾らか時間を必要とするから、[r]合流地点を決めておこう！　そうだな、王様の[line 3]
+[k]
+
+[messageOff]
+[se bac72]
+[fadeout white 0.25]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0]
+[charaShake C 0.05 3 3 0.4]
+
+[charaPut A 1024,-256]
+[wt 0.1]
+[se ad38]
+[shake 0.05 0 4 0.7]
+[fadein white 0.25]
+[wait fade]
+
+＠マーリン
+おっとぉ！？[r]むむ！？　待て、もしかして今のは、
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ティアマト
+無力ゆえの不死、というヤツか？[r]では、久方ぶりに我が眼を使うとしよう。
+[k]
+
+＠ティアマト
+人間どもの彫像なぞ飽きるほど集めたが、[r]半魔の彫像であれば我が神殿に[#飾:かざ]るのも良しだ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠マーリン
+石化の魔眼……！[r]しまった、それは私の天敵だ！
+[k]
+
+＠マーリン
+すまない、前言撤回だ[%1]！[r]なんとしても私を守ってほしい！
+[k]
+
+＠マーリン
+理由は説明できないが、[r]私が意識を停止させるとたいへんな事が起こる！
+[k]
+
+＠マーリン
+石化なんてさせられたら、[r]ここまでの苦労が水の泡だ！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+[wt 0.4]
+
+[se bac35]
+[charaPut B 40,200]
+[charaEffect B bit_talk_hikari01]
+[messageOff]
+
+[wt 1.2]
+[charaClear B]
+
+？1：マシュ、シールドを……！
+？2：始めから、そのつもりです……！
+
+？！
+
+[effectStop bit_talk_41]
+[wt 0.3]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.2 128,0]
+[charaAttack A normal 0,0 0.4]
+[wt 0.2]
+
+[charaMove C -32,0 0.4]
+[charaFadeout C 0.2]
+[wt 0.2]
+[se bac72]
+[wt 0.2]
+
+[charaEffect A bit_talk_30]
+[fadeout white 0.25]
+[wait fade]
+[charaFace A 15]
+[wt 1.0]
+[fadein white 0.25]
+[wt 0.1]
+[se ad170]
+[charaShake A 0.05 4 4 0.4]
+[wait fade]
+[wt 0.7]
+[charaFace A 7]
+[wt 1.0]
+
+[charaFace A 2]
+＠マシュ
+はい！　お任せくださいマスター！[r]北壁まであと少し……何としても逃げ切ります！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ティアマト
+ほう……盾で我が魔眼を防ぐとは、[r]命知らずにも程があるぞ、娘？
+[k]
+
+＠ティアマト
+舌が踊る。唇が濡れる。[r]かつての屈辱に血が[#滾:たぎ]るというもの。
+[k]
+
+＠ティアマト
+生贄になるのは貴様らの方だ、人間ども。[r]我が[#千魔眼:せんまがん]にて、城塞ごと灰燼に帰すがよい！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

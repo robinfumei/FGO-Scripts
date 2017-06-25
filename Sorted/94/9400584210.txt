@@ -1,0 +1,433 @@
+
+＄94-00-58-42-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 3004001 1 カルナ]
+[charaSet E 3001001 1 クー・フーリン]
+[charaSet F 6001002 1 小次郎]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+うおー！　すっげー！[r]こいつは完璧な要塞だぜっ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+鉄の装甲板……塀のトゲ……監視塔……[r]確かに、凄まじい堅固さを発揮できそうですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+いやー、自分で設計しておいて何だが、まさかここまで[r]イメージ通りのものができるとはな[line 2]
+[k]
+
+＠モードレッド
+……飛べるようになんなかったのは残念だけどよ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠スカサハ
+…………。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+（あっ……いくらなんでもできることには限度がある、[r]　という顔です！）
+[k]
+
+
+？1：とりあえず案内よろしく
+？2：格好いいから内部探険だ！
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+へへっ、いいぜ。ついてきな！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウッ！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[wt 0.5]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+＠モードレッド
+中にはいろいろギミックもあるんだぜ。[r]たとえばこのスイッチを押すと[line 2]
+[k]
+
+[charaFadeout C 0.1]
+
+[se ad34]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠クー・フーリン
+なにぃっ！？　[r]通路いっぱいのデケェ鉄球がーッ！？
+[k]
+
+[se ad14]
+＠クー・フーリン
+ちょ、こっち来[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[seStop ad14]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+あの部屋に誰かが入ったら、こうだ！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[shake 0.05 0 4 1.0]
+[se ad57]
+[wt 1.0]
+[seStop ad57]
+
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+吊り天井！　
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠カルナ
+……（槍をつっかい棒にはしたが[line 2]動けん）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠小次郎
+やれやれ、下手に動くのは危険なようでござるな。[r]どれ、ここに座って一服でも[line 2]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+んで、これが落とし穴ボタンな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠小次郎
+なんとおおおぉぉ[fontSize small][se ad75][charaFadeout F 0.5]ぉぉ！
+[k]
+[seStop ad75 0.5]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[wt 0.5]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+と、とんでもない要塞ですね……いろんな守りのシステムが[r]ガッツリ配置されています。
+[k]
+
+
+？1：た、たのもしい……？
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+だろ？　備えあれば憂いなし、ってやつだ。
+[k]
+
+＠モードレッド
+しっかし、まぁ[line 2]
+[k]
+
+
+？2：少しやりすぎでは……？
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+？！
+
+[charaFace C 4]
+＠モードレッド
+…………。
+[k]
+
+[charaFace C 3]
+＠モードレッド
+おい。改めて聞くけどよ。[r]オレがなんでこんなに防御力推しなのかわかるか？
+[k]
+
+[charaFace C 6]
+＠モードレッド
+……オマエだけは守んなくちゃなんねーからだよ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+モードレッドさん……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+島はだいぶ開拓できたが、油断はできねぇ。ここは広い。[r]まだオレ達の知らない敵がいるかもしんねぇ。
+[k]
+
+＠モードレッド
+で[line 2]戦争っつーのはな。アタマが取られりゃそれで[r]だいたいおしまいだ。取り返しなんてつくわきゃねえ。
+[k]
+
+[charaFace C 3]
+＠モードレッド
+だからよ。あー、なんだ……
+[k]
+
+[charaFace C 6]
+＠モードレッド
+オマエはオレとは違って弱いんだからっつーか、[r]オマエが死んだら全部台無しだからっつーか……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+はい[line 2]はい！　同感です、モードレッドさん！[r]マスターの生命は何よりも優先されるべきもの。
+[k]
+
+＠マシュ
+わたしも気持ちは同じです。この島を脱出するまで、[r]何が起こるかわかりません。最後まで油断はできません。
+[k]
+
+[charaFace A 7]
+＠マシュ
+この堅固な要塞を使って、もうこれ以上ないほどの[r]安全確保をしていきましょう！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+へへっ。ま、基本的には最強のオレがいればどんな敵でも[r]どうとでもなるんだがな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウー……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ、フォウさんの毛並みがすごくしんなりと……。[r]確かに、凄い熱がこもっていますからね、ここ。
+[k]
+
+[charaFace A 8]
+＠マシュ
+…………あの。モードレッドさん。
+[k]
+
+[charaFace A 12]
+＠マシュ
+この要塞に、冷房設備などは……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+ん？　あるわけねぇだろ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+どんな敵の潜入も許さない！　許したら絶対生きては帰さ[r]ない！　がコンセプトだからな。冷房じゃ敵は倒せねぇ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あの、普段暮らす先輩達の居住性は……[r]どうなって……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+……よし、海だ！　海に行こう！[r]暑けりゃ波に乗れ！　それで全て解決するぞ！
+[k]
+
+
+？1：なんか凄い勢いで誤魔化された気が！？
+
+
+[charaFace C 0]
+＠モードレッド
+細けえことは気にすんな！　とにかく[line 2][r]オマエはオレと波を信じてりゃいいんだよ！
+[k]
+
+[charaFace C 1]
+＠モードレッド
+ホラ行くぞー！
+[k]
+
+
+？2：ＯＫ、全てを忘れて海に入る！
+
+[charaFace C 1]
+＠モードレッド
+おっ！　そうこなくっちゃな、マスター！
+[k]
+
+？！
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

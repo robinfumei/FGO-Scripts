@@ -1,0 +1,111 @@
+＄91-60-18-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6018001 1 Ｘ]
+[charaSet D 1005001 1 ネロ]
+
+[charaTalk D]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 4]
+[charaFace C 0]
+
+[scene 21600]
+[fadein black 2]
+[wait fade]
+
+＠ネロ
+ま、まさか余が膝を屈するとは……[r]恐ろしい執念と意味不明の力を感じる……
+[k]
+
+[charaFace D 2]
+＠ネロ
+はっ……！　思い出したぞ、貴様！！[r]その顔を失念するとは余が迂闊であった。
+[k]
+
+[charaFace C 5]
+＠Ｘ
+ようやく気づきましたか、ですがもうおそ……
+[k]
+
+[charaFace D 1]
+＠ネロ
+ジャンヌちゃんだな！　豊かな胸が余にも良しな[r]ジャンヌ・ダルクちゃんであろう！！
+[k]
+
+[charaFace C 2]
+＠Ｘ
+風評被害だよカリバー！！
+[k]
+
+[messageOff]
+[charaEffect C bit_talk_36]
+[se ad39]
+[wt 1.0]
+
+
+[fadeout white 0.4]
+
+[charaEffectStop C]
+
+[wait fade]
+[se ad34]
+[wt 1.3]
+
+[wt 1.0]
+[soundStopAll]
+[wt 1.5]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[fadein white 1.5]
+[wait fade]
+
+[wt 0.4]
+[charaTalk C]
+[charaFadein C 0.4 1]
+[charaFace C 1]
+[wt 0.4]
+＠Ｘ
+やりました、マスター！！[r]また一人、セイバーを倒しました！！
+[k]
+
+？1：え？　いやその……、うん。
+？2：つ、次も頑張ろうね。
+
+？！
+
+＠Ｘ
+はい、私以外のセイバー退治は[r]お任せください！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+せ、先輩……[r]そろそろ止めた方が……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+ところでこれ、いつまでやるのかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+

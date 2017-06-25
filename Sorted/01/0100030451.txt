@@ -1,0 +1,505 @@
+＄01-00-03-04-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21510 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 2012001 1 ？？？]
+[charaSet H 7009001 1 アステリオス]
+[charaFace A 15]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+あ、危なかった……って、そんな……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace H 5]
+[charaFadein H 0 1]
+＠アステリオス
+ぐ……ぎ……！[r]う、うぅ……！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ドレイク
+あんだけ鉛玉を喰らってまだ生きてんのか！[r]大食漢にもほどがあるだろう！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein H 0.1 1]
+[charaFace H 2]
+＠アステリオス
+ま……もる……！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadein D 0.1 1]
+＠ドレイク
+ならカルヴァリン砲の出番かねぇ！[r]頭を吹き飛ばせばさすがに倒れるだろうさ！
+[k]
+
+[charaFace D 2]
+＠ドレイク
+さあ[line 2]奈落の底までカッ飛びな！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein H 0 1]
+＠アステリオス
+ぐ……！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠F：？？？
+……お待ちなさい！
+[k]
+
+[charaFadeout F 0]
+[charaTalk A]
+[charaFadein F 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+しまっ……サーヴァントが二体！？
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFace F 5]
+＠F：？？？
+わかった、わかったわよ！[r]私がついていけばいいんでしょ！？
+[k]
+
+＠F：？？？
+煮るなり何なり、好きにすればいいわ！[r]ほら、さっさとしなさい。
+[k]
+
+＠F：？？？
+アステリオスはもう瀕死よ。[r]戦力としては、連れて行く価値もないでしょ。
+[k]
+
+[charaFace F 2]
+＠F：？？？
+それに、モタモタしているとコイツが死んで、[r]迷宮が崩壊する可能性だってあるのよ？
+[k]
+
+[charaFace F 0]
+＠F：？？？
+[line 2]さっさと帰りましょう。[r]道案内は任せなさい。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+＠アステリオス
+……ぅ……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadein A 0.1 2]
+[charaFace A 15]
+＠マシュ
+あ、あの。[r]すいません。少々よろしいですか？
+[k]
+
+[charaFace F 2]
+＠F：？？？
+なに？　ダサい大盾女。[r]さっさと行きましょうよ。“アイツ”のところへ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ダサッ……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ドレイク
+こら、ガキンチョ。[r]助けられる身分で、そう悪口を言うもんじゃないよ。
+[k]
+
+[charaFace F 5]
+＠F：？？？
+はあ？　育ちきった女はお呼びでないんですけど？
+[k]
+
+[charaFace D 0]
+＠ドレイク
+[line 2]ほう。[r]アンタ、船首に備えた女神像の代役でもしたい訳かい？
+[k]
+
+[charaSet F 2012001 1 エウリュアレ]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠エウリュアレ
+女神？　……よくわからないけど、[r]私は女神エウリュアレよ。
+[k]
+
+[charaFace F 3]
+＠エウリュアレ
+なに、そんなことも知らないで追い回してたの？
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+そりゃ、アンタたちの船に私みたいに全身これ[r][#超絶偶像:スーパーアイドル]なんてのはいないでしょうけど。
+[k]
+
+[charaFace F 5]
+＠エウリュアレ
+名前くらい知っておきなさいよ、もう。[r]失礼にも程があるわ。アナタ、どこの三流海賊？
+[k]
+
+[charaFace D 5]
+＠ドレイク
+こ、このガキ……！
+[k]
+
+？1：誤解を解きたい
+
+？2：勘違いしている
+
+？！
+
+[charaFace F 2]
+＠エウリュアレ
+は？　なに？[r]……というかあなた、人間じゃない。
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+ん？　んん？　“アレ”のマスター？[r]でも何でこんなところへ？
+[k]
+
+[charaFace F 5]
+＠エウリュアレ
+いいえ、それよりマスターならサーヴァントを[r]きちんと躾なさいよ！
+[k]
+
+＠エウリュアレ
+なに、あのド変態サーヴァント！[r]あんな気持ち悪いの、ギリシャにもいなかったわよ!?
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+あ、あの！　[line 2]わたしたちは、[r]貴女を追いかけてきた訳ではありません！
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+……はあ？　じゃあいったいどこの誰よ、あなたたち？
+[k]
+
+[charaFace A 0]
+＠マシュ
+わたしたちは[line 2]
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21510 0]
+[charaTalk F]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[charaFace F 5]
+[charaFadein F 0.4 0]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait wipe]
+＠エウリュアレ
+な・に・よ・そ・れ[line 2]！[r]紛らわしいのよ、あなたたち！
+[k]
+
+[charaFace A 14]
+＠マシュ
+そ、それはこちらの台詞です！
+[k]
+
+＠マシュ
+結界が張られて閉じこめられてしまえば、[r]敵だと思うのは当然でしょう！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠アステリオス
+ぐ……。
+[k]
+
+[charaFadeout H 0]
+[charaTalk F]
+[charaFadein H 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠エウリュアレ
+ああ、アステリオス！[r]動かなくていいわよ。
+[k]
+
+[charaFace F 4]
+＠エウリュアレ
+あなた頑丈なんだから、じっとしていれば死なないわよ。[r]……死なないわよね？
+[k]
+
+[charaFace H 0]
+＠アステリオス
+……ん。
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+心配しなくていいわ。[r]こいつらは[#アイツ]じゃないみたいだし。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+……失礼しました、こちらも気が動転して。[r]結界を張ったのはそちらのアステリオスさん、ですね？
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+そうよ。でも、あなたたちを閉じこめたんじゃなくて、[r]外から入ってくる[#連中:てき]を防ぐためのもの。
+[k]
+
+[charaFace A 13]
+＠マシュ
+そうだったのですか。ですが解除していただかないと[r]こちらも立ち往生で……
+[k]
+
+[charaFace F 4]
+＠エウリュアレ
+……むぅ、仕方ないわね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ドレイク
+おや、意外にあっさり納得したね。
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+単純な足し引きの問題でしょ。
+[k]
+
+＠エウリュアレ
+あなたたちが外に出るには、アステリオスが死ぬか[r]結界を解除するしかないんだから。
+[k]
+
+[charaFace F 4]
+＠エウリュアレ
+だったら解除する方がマシ。[r]……一人になるよりは、遥かにね。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+……なるほど。いいね、うん、気に入った。
+[k]
+
+[charaFace D 4]
+＠ドレイク
+でもさ、アンタたち結界？　とやらを張らなきゃ[r]いけないほど、切羽詰まってるんだろう？
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+[line 2]そんなの。あなたに関係ないでしょ。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+ある！[r]アタシはね、面白いモノが好きなんだよ。
+[k]
+
+[charaFace F 3]
+＠エウリュアレ
+……は？
+[k]
+
+[charaFace D 1]
+＠ドレイク
+世界一周とか、冒険とか、地下迷宮とか、怪物とか、[r]世の中には面白いモノばっかりだ！
+[k]
+
+＠ドレイク
+なんでか面白いモンほど金目のものなるってのが世の常[r]なんで海賊に落ち着いちまったが、まあそれはそれだ。
+[k]
+
+＠ドレイク
+で、アンタからは金目の匂いがする。[r]だからウチの船に回収する。
+[k]
+
+[charaFace F 5]
+＠エウリュアレ
+ちょ、何を勝手に決めてるのよ！[r]船に乗る！？　ふざけないで！
+[k]
+
+[charaFace F 2]
+＠エウリュアレ
+私は！[r][#アステリオス:コイツ]を置いていかないって決めてるの！
+[k]
+
+[charaFace D 0]
+＠ドレイク
+そっちこそなに言ってんだい。[r]連れて行くのはそっちのアステリオスもだよ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アステリオス
+……？
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+え……？
+[k]
+
+[charaFadeout H 0.1]
+[charaFadein D 0.1 2]
+[charaFace D 1]
+＠ドレイク
+あんだけ根性があって体力があって、[r]おまけによく見りゃいい男だ！
+[k]
+
+＠ドレイク
+こんな人材を逃したらそれこそ笑いものになっちまう！[r]アンタ、アタシの船の用心棒にならないかい？
+[k]
+
+[charaFace D 4]
+＠ドレイク
+イヤだってんなら仕方ないけどねぇ。[r]アンタ、地下迷宮に籠もってないと死ぬのかい？
+[k]
+
+[charaFace F 3]
+＠エウリュアレ
+別に、そういう訳では、ないけれど。[r]……いいの？
+[k]
+
+[charaFace D 1]
+＠ドレイク
+いいともさ。給金もはずむ。[r]あ、でも福利厚生は期待しないでおくれ。
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+そういう問題ではなく。[r]うぅん……あなたたちが構わないというのなら。
+[k]
+
+＠エウリュアレ
+……アステリオス。あなた、どうする？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠アステリオス
+いく。
+[k]
+
+[charaFace F 4]
+＠エウリュアレ
+……いいの？
+[k]
+
+[charaFace H 3]
+＠アステリオス
+おまえ、が、いく、なら、ついていく。[r]ひとりは、さびしい。
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+そう。……なら、いいわよ。[r]船に乗ってあげる。
+[k]
+
+＠エウリュアレ
+あ、ただし私用に個室を用意してちょうだい。[r]下世話な船員たちに、顔を晒す気はないのよ、私。
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+当然浴室はあるわよね？[r]ああ、それから[line 2]。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩。先輩。[r]……口を挟めないまま、話がとんとんと進みました。
+[k]
+
+？1：めでたしめでたし
+
+？2：終わりよければ――
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……確かにその通りです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それにしても、ミノタウロスといえば生贄に捧げられた[r]子供を食い殺す、紛れもない怪物のはずですが[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein H 0.1 1]
+＠エウリュアレ 
+肩に載せなさい、アステリオス。[r]あらやだ。[#駄妹:メドゥーサ]以上に高いじゃない。
+[k]
+
+[charaFace H 4]
+＠アステリオス
+う、う、う……。
+[k]
+
+＠エウリュアレ 
+ってきゃあ！　もうちょっとしゃがんで頂戴な！[r]頭が擦れちゃうでしょ！
+[k]
+
+＠アステリオス
+うぅ……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠ドレイク
+あっはっは。[r]注文が多いねえ、女神様は！
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

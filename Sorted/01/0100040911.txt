@@ -1,0 +1,442 @@
+＄01-00-04-09-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 11000 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……お疲れさまでした。[r]ヘルタースケルター、撃退完了です。
+[k]
+
+＠Dr.ロマン
+ん。んん？[r]まてよ……待ってくれ、ええと……だからつまり……
+[k]
+
+＠Dr.ロマン
+[line 3]ヘルタースケルター？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+＠Dr.ロマン
+そうだ。そうだったよ！[r]実は、ヘルタースケルターの解析が進んだんだ！
+[k]
+
+＠Dr.ロマン
+あれはやはりボクらには不明の技術で作られた機械だ。[r]恐らくは、魔力で作られた機械[line 2]のはずだ。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+それは……魔術と科学を併せて作られた機械、[r]ということでしょうか？
+[k]
+
+＠Dr.ロマン
+ちょっと違うな。[r]魔力で作られてはいるが、あれは機械なんだ。
+[k]
+
+＠Dr.ロマン
+技術体系は相変わらず訳のわからないものだけど、[r]構造そのものは機械。でも、魔力で形成されている。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジキル
+つまり……[r]ええと……
+[k]
+
+？1：どういうこと？
+
+[charaFace G 3]
+＠ジキル
+僕にはよく、わからないな……
+[k]
+
+？2：宝具みたいなものかな？
+
+＠Dr.ロマン
+正解！　よくわかったね！
+[k]
+
+？！
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……つまり。サーヴァントの宝具のように[r]魔力で形成された武装である、ということですね。
+[k]
+
+＠Dr.ロマン
+うん。なまじ仕組みのある機械なものだから、[r]ボクも魔術によるゴーレムとの近似を探しすぎたよ。
+[k]
+
+＠Dr.ロマン
+要は、あれは宝具なんだ。[r]魔力に依って編み上げられた力あるかたち。
+[k]
+
+＠Dr.ロマン
+剣の宝具が「鋭い刃」である代わりに、[r]ヘルタースケルターは「戦う機械」の宝具なんだ。
+[k]
+
+＠Dr.ロマン
+自律稼働しているように見えるけど、[r]実際は、宝具の所有者あたりが動かしてるようだ。
+[k]
+
+＠Dr.ロマン
+言わば、リモコンで動くロボット軍団さ。[r]リモコン相当の何かを壊せば全機が停止するはずだ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+では、余程の例外を除けば[r]宝具の所有者であるサーヴァントを叩けば[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+＠モードレッド
+連中は消え失せる。[r]何だ、一気に話が見えてきたな？
+[k]
+
+[charaFace A 13]
+＠マシュ
+それでドクター、[r]宝具の所有サーヴァントはどこに？
+[k]
+
+＠Dr.ロマン
+……わかりません。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠ジキル
+……そうだよね。うん、それはそうだ。
+[k]
+
+＠Dr.ロマン
+そこまでは流石のダ・ヴィンチちゃんも[r]わからないというか、面倒みきれないとか言い出して……
+[k]
+
+[charaFace A 6]
+＠マシュ
+えっ。
+[k]
+
+[charaFace G 0]
+＠ジキル
+ん？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+何だ。別の奴が解析したのか。
+[k]
+
+＠Dr.ロマン
+……うう、そうです……だって、ボクだけじゃ、[r]さっぱりどうにもならなくて……
+[k]
+
+＠Dr.ロマン
+医療セクションのスタッフだよボク……[r]それにしては頑張ってると思わない、ねえ……？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+は、はい。ドクターは尽力してくれています。[r]ですよね、先輩？
+[k]
+
+？1：うん
+
+＠Dr.ロマン
+ありがとう、ありがとう……[r][%1][&君:ちゃん]……
+[k]
+
+？2：宝具の所有サーヴァントの位置か…
+
+＠Dr.ロマン
+ウウ……[r]さみしい……
+[k]
+
+？！
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 6]
+＠フラン
+……ゥ……。[r]……ゥ、ゥ、ゥゥ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+やるべきことは決まった。うん。[r]だが、その目的地がどこなのか分からん。か。
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 6]
+＠フラン
+……ゥ……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 5]
+＠モードレッド
+どうしたもんか。[r]こう、一発で、魔力なりを辿ったりできれば……
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+[#遠隔操作器:リモコン]の例えが正確であるなら、[r]確かに、魔力を辿ることもできるかも知れません。
+[k]
+
+＠Dr.ロマン
+こと科学と魔術に長けたダ・ヴィンチちゃんが[r]そう例えてたから、間違いないとは思うんだけどね。
+[k]
+
+＠Dr.ロマン
+でも、魔霧の影響がある上に、[r]魔力の痕跡を辿るなんて繊細な芸当をこなすのは……
+[k]
+
+＠Dr.ロマン
+少なくともボクには無理だ。[r]カルデアの設備でも流石に難しい。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジキル
+僕もお手上げだ。[r]そもそも、本物の魔術師じゃないからね。僕。
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 6]
+＠フラン
+……ゥ……。
+[k]
+
+？1：さっきから、フランが……
+
+？2：何か言いたそうな人がいますよ
+
+？！
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+フランさん？[r]そんなところに隠れて……どうかしましたか？
+[k]
+
+＠フラン
+……ゥ……。[r]……ゥ、ゥゥ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠モードレッド
+何だ、隣の部屋の作家英霊どもから逃げてきたか？[r]あいつらうるさいしな、気持ちは分かるぞ。
+[k]
+
+＠フラン
+……ゥ……。[r]……ゥ、ゥゥ……。
+[k]
+
+[charaFace E 1]
+＠モードレッド
+隠れてないでこっちに顔出せ。[r]ほら、来いよ。
+[k]
+
+[charaFadeout F 0.4]
+[wt 1]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 1.5 2]
+＠フラン
+……ゥ、ゥ……。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+何だ。オレたちに言いたいことでもあるのか？[r]それならはっきり言ってみろ。
+[k]
+
+[charaFace F 4]
+＠フラン
+……ゥ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+構いません。わたしたちで良ければ。[r]ですよね、先輩？
+[k]
+
+？1：勿論
+
+？2：何でも言っていいよ
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.3]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠フラン
+……ゥ、ゥゥ……ァ……。
+[k]
+
+[charaFace F 4]
+＠フラン
+……ァ……。
+[k]
+
+[charaFace F 0]
+＠フラン
+……ァ、ゥ……ゥゥ、ゥ……。
+[k]
+
+[charaFace F 1]
+＠フラン
+……ァ、ァ、ァ……。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+な……それ、本当か！？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+驚きました。[r]フランさんに、まさか、そんなことができるなんて……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジキル
+?
+[k]
+
+＠Dr.ロマン
+ねえ、本当にわかってる？[r]本当になにを言っているかわかってるのかい？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+何となく、です。ジェスチャーもしてくれて[r]いますから、ある種の手話を読むような感じで……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠モードレッド
+わかるらしいぞ、こいつ。[r]ヘルタースケルターのリモコンの場所。
+[k]
+
+＠Dr.ロマン
+え！？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠ジキル
+ほ、本当かい？
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+＠フラン
+……ゥ。
+[k]
+
+[charaFace G 0]
+＠ジキル
+改めて、確認だ。フラン。[r]君は……「彼ら」を操る魔力の痕跡を知覚できるのかい？
+[k]
+
+[charaFace F 1]
+＠フラン
+……ゥ。ゥ。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+＠モードレッド
+ほらな。頷いたろ。[r]よし、そうとわかれば話は早い。行動開始だ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

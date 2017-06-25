@@ -1,0 +1,249 @@
+
+
+＄01-00-07-10-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_11 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 98002000 1 フォウ]
+
+[scene 28700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+これがエビフ山……麓から見た印象では[r]他の山脈より険しそうでしたが、
+[k]
+
+＠マシュ
+なんというか、きちんと道が作られているのですね。[r]登山は登山でも、絶壁を登る登山を覚悟しましたが。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ。エビフ山はシュメルでも最高峰の魔境……[r]というか、霊峰だった。
+[k]
+
+＠Dr.ロマン
+シュメルの最高神アンでさえ恐れていた霊峰でね。[r]アンはエビフ山に執心していたイナンナにこう告げる。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+“エビフ山は豊かである。その恵みも、その深さも”
+[k]
+
+＠Dr.ロマン
+“我が娘、乙女イナンナ。[r][f small]  [f -]エビフ山に逆らうなど、愚かもののする事だ”
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+そう。ところがその忠告がさらにイナンナ……[r]イシュタルの怒りに触れた。
+[k]
+
+＠マーリン
+イシュタルは持てるだけの武器を抱え、[r]嵐を起こしながらエビフ山に立ち向かった。
+[k]
+
+＠マーリン
+山の端から山肌を蹂躙しながら、[r]エビフ山の中心を目指したという。
+[k]
+
+＠マーリン
+無論、神々さえ恐れた霊峰だ。山に棲むあらゆる獣、[r]火山、川、冷気がイシュタルを叩きのめした。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠アナ
+そのたびにイシュタルは文句を言いました。
+[k]
+
+＠アナ
+“蛇毒の霧、落石の雨、灼熱の溶岩！[r][f small]  [f -]信じられない、こんな持てなしを受けるなんて！”
+[k]
+
+＠アナ
+山の息の根を止めようと踏み込んだ自分の事が[r]まるで見えていません。人類最古の居直り強盗です。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウゥゥ……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+エビフ山の失敗は一気に災害を起こさなかった事だ。[r]これなら帰るだろう、これなら帰るだろう、と。
+[k]
+
+＠Dr.ロマン
+嵐を小出しにしたんだね。けど、イシュタルは[r]我が儘なクセに、逆境だとガッツを発揮する性格だった。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+最後にはエビフ山の頂に到達して、
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+“女神はエビフ山の首根っこを引っつかむと、[r][f small]  [f -]その体内に深々と刃を打ち込んだ”
+[k]
+
+＠Dr.ロマン
+“エビフ山はたまらず崩れ落ち、[r][f small]  [f -]その高い背は水滴のように滑り落ちた”
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+こうしてエビフ山の頂は半分に崩れ、イシュタルは[r]人々に“戦いの女神”としての側面を知らしめた。
+[k]
+
+＠Dr.ロマン
+興味深いのは、この時にイシュタルはあの[#舟:ゆみ]を[r]使っていない事だね。
+[k]
+
+＠Dr.ロマン
+どうしてか、この時のイシュタルは弓を使わなかった。[r]わざわざ徒歩で山を横断し、頂に槍を突き刺したんだ。
+[k]
+
+？1：徒歩で
+？2：槍を
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……今さらですが、やや不安です。[r]そんな女神イシュタルと話し合いができるのでしょうか……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+まあ、そこはギルガメッシュ王の秘策を信じよう。[r]王様も今回は断腸の思いだろうし。
+[k]
+
+？1：王様が交渉してくれればいいのに……
+
+？！
+
+[charaFace C 0]
+＠マーリン
+それこそ悪手だ。イシュタルは[r]ギルガメッシュの要請には絶対に応えない。
+[k]
+
+＠マーリン
+そもそも、ギルガメッシュ王は玉座から動けない。[r]精神的にではなく、仕事量的に。
+[k]
+
+＠マーリン
+ウルクだけでなく、メソポタミアすべての市の指導と[r]軍備、戦時下の問題を処理しているんだ。
+[k]
+
+＠マーリン
+それに加えて北壁での大敗と、[r]ゴルゴーン襲来に備えての準備もある。
+[k]
+
+＠マーリン
+この特異点では、もう彼の参戦は望めないだろう。[r]今でさえ、敵と戦う前に過労死しかねないんだから。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+それはそうか……つい勘違いしてしまうけど、[r]あのギルガメッシュ王は“この時代の人間”だ。
+[k]
+
+＠Dr.ロマン
+莫大な魔力量があってもサーヴァントほど頑丈じゃない。[r]無茶はさせられないよね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アナ
+……そもそも、王様は戦いに出ないものです。[r]王なのに戦闘する人たちがおかしいです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+＠マーリン
+おっとアナ、その話題は止めたほうがいい！[r]後々、とても面倒な人たちに難癖をつけられかねない！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+うんうん。[r]深刻な『王、多すぎ』問題だね。
+[k]
+
+[bgmStop BGM_EVENT_11 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaFace 5]
+＠Dr.ロマン
+それはそれとして、みんな、敵性反応だ！
+[k]
+
+＠Dr.ロマン
+おそらくエビフ山の守衛、[r]女神イシュタルが配置した魔像だろう。
+[k]
+
+＠Dr.ロマン
+一体一体の魔力量はＡ級サーヴァントに匹敵する！[r]気を引き締めて迎撃してくれ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

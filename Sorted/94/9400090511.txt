@@ -1,0 +1,173 @@
+＄94-00-09-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10800]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 5005001 1 竹中アンデルセン]
+[charaSet D 1027000 1 沖田総司]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaSet F 2002001 1 豊臣ギル吉]
+[charaSet G 5014001 1 黒田メフィスト]
+[charaFadein F 0.1 1]
+[charaFace F 4]
+[fadein black 2]
+[wait fade]
+
+＠豊臣ギル吉
+まさか我が負けるとは……[r]露と落ち露と消えにし我が身かな……
+[k]
+
+＠豊臣ギル吉
+ウルクの事も夢のまた夢……[r]ウルク民募集……中…（ガクッ）
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect F flashErasure]
+[wait time 0.3]
+
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠竹中アンデルセン
+よし終わったな。これでオレもお役御免だ。
+[k]
+
+＠竹中アンデルセン
+竹中アンデルセンという響きが面白かったので[r]協力してやったが、阿呆の馬鹿笑い声にはうんざりだ。
+[k]
+
+＠竹中アンデルセン
+だいたいニホンという設定がよくない。何かの間違いで[r]頭のゆだった尼に出逢わないともかぎらん。
+[k]
+
+＠竹中アンデルセン
+おまえたちも適度なところで切り上げろよ？[r]この手のマラソンは程ほどにするのが吉だぞ？
+[k]
+
+
+[messageOff]
+[charaSpecialEffect C flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect C flashErasure]
+[wait time 0.3]
+
+[charaFadein G 0.1 1]
+[charaFace G 0]
+＠黒田メフィスト
+いやあ、残念無念、それにしても童話作家殿は[r]存外とお優しいですなぁ！
+[k]
+
+＠黒田メフィスト
+さて我ながらどっちが喋ってるのかさっぱりでしたが[r]せっかくなので私からもこの茶釜をプレゼントです。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+これはどうもご丁寧に……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein G 0.1 1]
+[charaFace G 1]
+＠黒田メフィスト
+いやあ、極東の侘び寂び文化は実に興味深い！[r]爆発する茶釜とは実にエキセントリックですなあ！
+[k]
+
+＠黒田メフィスト
+それではご一緒にカウントダウン！！[r]スリー・ツー・ワン……！
+[k]
+
+
+[messageOff]
+[charaSpecialEffect G flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect G flashErasure]
+[wait time 0.3]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+え！？　これ爆発するんですか！？[r]ど、どうしましょう先輩！？
+[k]
+
+？1：伏せろ！！
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+はい！　先輩、急いでわたしの盾の影に！[r]もっとしっかりくっついてください！　ぴたっと！
+[k]
+
+？2：どこか遠くへ！！
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+わ、わかりました！　マシュ・キリエライト！[r]これより全身全霊の投擲に臨みたいと思います！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠魔人アーチャー
+安心せい、爆発するのは松永のだけじゃ……（ひょい）[r]うむ、この茶釜が変質した聖杯の核のようじゃな
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+
+[charaFace E 0]
+＠魔人アーチャー
+これでわしの力も戻るし一件落着じゃ……
+[k]
+
+[charaFadeout E 0.1]
+
+[se ad14]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+え？　アーチャー……さん？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠沖田総司
+アーチャー……、まさか……！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaSet E 2024000 1 魔神アーチャー？]
+
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠魔人アーチャー？
+そう……、すべて我の思うがままよ……。
+[k]
+
+[charaFadeout E 0.1]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

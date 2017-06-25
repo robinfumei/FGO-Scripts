@@ -1,0 +1,213 @@
+＄94-00-05-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20503]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+[fadein black 1]
+[wait fade]
+＠清姫
+頭蓋骨は妙薬として使われたとか使われないとか[r]耳にしたことがありますが……。
+[k]
+
+＠清姫
+マスター、お使いになります？
+[k]
+
+？1：大変嫌でございます
+
+？2：お断りします
+
+？！
+
+[charaFace D 1]
+＠清姫
+ですよね。[r]さ、出発しましょうか。
+[k]
+
+[charaFadeout D 0.1]
+[messageOff]
+[wt 0.3]
+[bgmStop BGM_EVENT_2 0.4]
+[fadeout black 1]
+[wait fade]
+[scene 20902]
+[fadein black 1]
+[wait fade]
+[bgm BGM_EVENT_5]
+[wt 0.4]
+[charaSet E 5026001 1 ？？？]
+[charaSet F 7016001 1 ？？？]
+[charaFilter E silhouette 00000000]
+[charaFilter F silhouette 00000000]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+ふふふ。[r]どうやら次の[#招待客:ゲスト]がやってきたようね。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠F：？？？
+ククク、次の招待客も何もないのである。[r]めぼしい招待状はすべて返ってきた故な。
+[k]
+
+＠F：？？？
+なので、アレが最初で最後のラブソングなのだな。[r]んー、切ない。
+[k]
+
+＠F：？？？
+だがあれが最後のカモネギとは思えない。[r]仮初めのご主人よ。オキシジェン、いっとく？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+オキシ……なに？[r]アナタ、たまに意味不明なコト言うわよね……
+[k]
+
+＠E：？？？
+まあいいわ。最初で最後だとしてもあれこそ[r][#私:アタシ]の本命だし！
+[k]
+
+＠E：？？？
+壮大に出迎える準備、できているのよね！？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠F：？？？
+任せろ、料理はできたワン！[r]七色スパイスのチキンターキーだ！　うまいぞ！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+さすがね……万能メイドっていう触れ込みで[r]雇ったけど、ホントに万能とは恐れ入るわ……
+[k]
+
+＠E：？？？
+あ、でもメインディッシュは[#私:アタシ]がやるからね。[r]ちゃんと残しておいてちょうだい。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠F：？？？
+のこ……残す？　斬……飯？　[#修羅肉:しゅらにく]……[#林:りん]？[r]むつかしい概念を言うな、このトカゲ。
+[k]
+
+＠F：？？？
+だが、まんべんなくあいわかった。[r]朝飯はすべて平らげる主義だ。ナムアミダブツ。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+ナム……何？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠F：？？？
+日本の便利な上等ワードなり。
+[k]
+
+＠F：？？？
+ケモノゆえ[#殺生:せっしょう]不徳のところ許してください、[r]という意味でアタシは使う。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+……たまに博識ね、アナタ……
+[k]
+
+＠E：？？？
+まあいいわ。[r]皆は配置についた？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠F：？？？
+準備万端、四面楚歌。[r]貴様は城主らしくここでデーンと控えていろな？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+ええ、それではこの宴を[r]せいぜい愉しんで貰うとしましょう。
+[k]
+
+[charaFadeout E 0.1]
+[messageOff]
+[fadeout black 2]
+[wait fade]
+[wt 0.4]
+[scene 10000]
+[fadein black 0.5]
+[wait fade]
+＠E：？？？
+……。[r]……。
+[k]
+
+[fadeout black 1]
+[wait fade]
+[scene 20902]
+[fadein black 0.5]
+[wait fade]
+[wt 0.4]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+ね、やっぱり暇だし……。[r][#私:アタシ]も今から会いに行ってもいいかしら？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaFace F 0]
+＠F：？？？
+んー、殺すぞ？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠E：？？？
+じょ、冗談よ、冗談！[r]言ってみただけだってば！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

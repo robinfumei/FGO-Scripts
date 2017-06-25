@@ -1,0 +1,356 @@
+＄94-00-39-04-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+[charaSet D 7003000 1 白龍馬]
+[charaSet E 1009002 1 紅孩児]
+
+[scene 20300]
+
+[fadein black 2.0]
+[wait fade]
+[se ad115]
+[wt 0.1]
+[seStop ad115 2.0]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠三蔵
+わぁー、風が気持ちいい！[r]ついに砂漠地帯を越えた……これでしばらくは[#安泰:あんたい]ね！
+[k]
+
+[charaFace A 1]
+＠三蔵
+この一帯の地形にも見覚えがある……[r]思い出してきた。
+[k]
+
+＠三蔵
+そう。それで、考えたのだけど！[r]敵の[#拠点:きょてん]をことごとく[#避:さ]けて行けばいいのよ！
+[k]
+
+[charaFace A 0]
+＠三蔵
+場所はもうだいたい解っているんだから！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace C 0]
+[charaFace B 1]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠猪八戒
+それは妙案だね、師匠さま。[r]楽できるのはとてもいいブヒ。
+[k]
+
+[charaFace C 4]
+＠沙悟浄
+元来、御仏の与えし[#艱難辛苦:かんなんしんく]の旅に、[r]そのような[#小賢:こざか]しさが通用するとは思えぬが……。
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace C 0]
+＠沙悟浄
+[line 3]む！？
+[k]
+
+[messageOff]
+[charaTalk E]
+
+[se ad60]
+[wt 0.5]
+[seStop ad60]
+
+＠E：？？？
+待て待て待て、待ったぁー！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠E：？？？
+三蔵法師とその一味だろ！　そうだろ！[r]ここから先は行かせないんだぜ！（チャッ）
+[k]
+
+？1：[#雑:ざつ]な子が来ちゃったなー
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠猪八戒
+まあまあ。ここはひとつ様式美にのっとり[r]素性を[#尋:たず]ねてみようじゃないか。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+？2：あえて[#尋:たず]ねるけど、ｙｏｕは誰？
+
+？！
+
+[charaFace E 1]
+＠E：？？？
+よくぞ聞きやがったなテメエ！
+[k]
+
+[charaFace E 1]
+＠紅孩児
+[#枯松澗:こしょうかん]は[#火雲洞:かうんどう]の[#洞主:どうしゅ]！[r][#聖嬰大王:せいえいだいおう]　[#紅孩児:こうがいじ]とはオレ様のこったあ！
+[k]
+
+＠紅孩児
+うおおしまった、自分から名乗っちまった！[r]けど別に問題ないぜ！（チャッ）
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠三蔵
+紅孩児……菩薩の[#御前:ごぜん]で改心し[#帰服:きふく]したあなたが……[r]どうしてあたしたちの前に立ちはだかるの？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠紅孩児
+だって、父上が[#褒:ほ]めてくれるんだぜ！[r]おまえたちの首を持って帰りゃあな！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+貴様の父上とは、すなわち「[#牛魔王:ぎゅうまおう]」だろう。[r]西遊記の[#筋書:すじが]き通りならば。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠紅孩児
+父上を呼び捨てにするんじゃねぇぞゴラァ！[r][#平天大聖:へいてんたいせい]にして[#大力王:たいりきおう]、[#九首:きゅうしゅ][#牛魔羅王:ぎゅうまらおう]の牛魔王様をよぉ！
+[k]
+
+[charaFace E 1]
+＠紅孩児
+うわぁぁぁしまった、また言っちまったぁ！[r]でもいいか！　父上カッコイイしな！
+[k]
+
+？1：お父様の苦労が忍ばれるね……
+？2：これもう家庭崩壊なんじゃ……
+
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+本来、紅孩児は、変身術やら計略を駆使して[r]三蔵をさらう役回りだが、そんな調子でよいのか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠紅孩児
+フッ。筋書きなんざぶっ壊すためにあるもんさ。[r]元からオレはおまえたちに負ける気はねえからな！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+成る程。短気だが[#弁:べん]は達者のようだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠猪八戒
+ふむ。赤のセイバーの父上殿、か。[r]要は、アルトリアバースの[#一角:いっかく]だね。
+[k]
+
+[charaFace B 0]
+＠猪八戒
+それだったら、青やら白やら、何色かは不明だけど、[r]かなり正体を[#絞:しぼ]れたんじゃないかな？
+[k]
+
+？1：そうとは思えない。全然思えない
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+赤馬クンも同意見か。[r]いっぱい居すぎて分からない、と。
+[k]
+
+[charaFadeout B 0.1]
+
+
+？2：ちなみに誰を予想する？
+
+＠猪八戒
+仮にも牛魔王だからねえ……。
+[k]
+
+[charaFace B 2]
+＠猪八戒
+「涙と共にローストビーフを食べた者でなければ、[r]　　牛肉の本当の味はわからない！　牛セイバー！」
+[k]
+
+[charaFace B 1]
+＠猪八戒
+[line 3]とかかな？[r]あ、ごめんよ。先を続けて？
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠三蔵
+んん～～～～～、[#大:だい]・[#往:おう]・[#生:じょう]ッ！[r]こんなやる気に満ちた修行スタンス、滅多にないわ！
+[k]
+
+＠三蔵
+なんて[#潔:いさぎよ]い相手なのかしら……[r]あの娘とあたし、すごく気が合いそう！
+[k]
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaFace A 5]
+＠三蔵
+でもザンネン、トモダチでも邪魔をするなら[r][#蹴散:けち]らすのがあたしの修行スタンスよ！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace A 2]
+＠三蔵
+覚悟なさい、[r][#頭陀:ズダ]ダダダダっとふるい落とすわ！
+[k]
+
+[charaFace A 0]
+＠三蔵
+その後に改心の余地を与えましょう！[r]だってあたしたち、もう半分ぐらいトモダチだもの！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠紅孩児
+マジかよ、そうだったのかよ！？[r]おまえトモダチ作るのうめぇーな！？
+[k]
+
+[charaFace E 5]
+＠紅孩児
+けど悪いな、トモダチでも手加減はしねえぜ。[r]オレは牛魔王の最愛の息子、紅孩児であるが[#故:ゆえ]！
+[k]
+
+[charaFace E 2]
+＠紅孩児
+玄奘三蔵！[r]てめえを父上に[#捧:ささ]げる[#供物:くもつ]にしてやるぜ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[wt 0.1]
+[charaEffect D bit_talk_41 1]
+[shake 0.05 0 4 1.0]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+[charaPut D 1200,1200]
+[charaEffectStop D]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+わっ、びっくりした。まだ慣れないなぁ……[r][line 3][charaFace A 1][%1]も、覚悟はいい！？
+[k]
+
+？1：もちろん！
+？2：[&ああ:うん]！　素直に経典をくれる相手じゃない！
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

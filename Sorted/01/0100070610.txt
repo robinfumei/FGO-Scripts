@@ -1,0 +1,331 @@
+
+
+
+＄01-00-07-06-1-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98106200 1 マーリン]
+[charaSet C 5018001 1 ギルガメッシュ]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 98003000 1 Dr.ロマン]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 33200]
+[fadein black 1.5]
+[wait fade]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+
+＠マーリン
+ふわぁ～……おはよう、諸君。[r]今朝も仕事待ち、ご苦労さま。
+[k]
+
+＠マーリン
+まだシドゥリ殿が来るまで時間があるね。[r]さて、今日の朝食は、と……
+[k]
+
+[charaFadeout B 0.2]
+[messageOff]
+[bgmStop BGM_EVENT_2 0.7]
+[wt 0.4]
+[se ad60]
+[seVolume ad60 0 0.4]
+[wt 1.0]
+[seStop ad60 1.4]
+[wt 0.7]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[bgm BGM_EVENT_7 0.1]
+
+＠ギルガメッシュ
+邪魔をするぞ。ここが貴様らの住み処か。[r]ほほう、[#雨樋:あまどい]にしては広いではないか。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+
+＠マーリン
+！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+
+＠フォウ
+フォ！？
+[k]
+
+
+？1：ちょっ！？
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ギ、ギルガメッシュお[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+
+＠ギルガメッシュ
+[messageShake 0.05 5 5 0.4]
+そこまで、声が大きいわマシュ！[r]シドゥリめが駆け込んできたらどうする！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+は、はい！[r]失礼をいたしました、ギルガメッシュ王！
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの……それで、今朝はその、[r]どのようなご用件なのでしょうか？
+[k]
+
+＠マシュ
+王様がわざわざ、わたしたちの兵舎にやってくる、[r]なんて……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+フッ。たまには趣向を変えようと思ってな。[r]貴様たちもシドゥリの口上は聞き飽きたであろう？
+[k]
+
+＠ギルガメッシュ
+よって、今回は[#我:オレ]自らが仕事を言い渡そう。[r]なに、荒事ではない。単なる水質調査だ。
+[k]
+
+＠ギルガメッシュ
+荷車は用意してある。これより貴様らは[r]ウルクより南下し、ペルシア湾に向かえ。
+[k]
+
+＠ギルガメッシュ
+ペルシア湾には観測所を設けてある。[r]十日分の瓶があり、自動的に海水を溜める仕組みでな。
+[k]
+
+＠ギルガメッシュ
+そこへ荷車に乗せた[#空:から]の瓶を届け、[r]代わりに海水の入った瓶を持ち帰ればよい。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+荷物運びですね。了解しました。[r]今回のお仕事は簡単そうですね、マスター！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+ああ、簡単だとも。なにしろペルシア湾への道は[r]三女神どもに襲われていない唯一の領域。
+[k]
+
+＠ギルガメッシュ
+安心して任務に励むがよい。[r][#我:オレ]も陰ながら応援してやろう。
+[k]
+
+＠ギルガメッシュ
+ああ、今回はマーリンとアナは不参加とせよ。[r]ペルシア湾までの許可証は二人分のみ余っていたのでな。
+[k]
+
+
+
+[messageOff]
+
+[bgmStop BGM_EVENT_7 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout C 0.1]
+[wt 0.1]
+[wt 2.0]
+[scene 20730]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_MAP_18 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+
+
+＠マシュ
+……という訳で。[r]久しぶりに、先輩と二人の道行き、だったのですが……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+ほう。ザグロス山脈によい雲がかかっておるわ。[r]ここで一句。『白峰の　雲海遥か　杉の山』
+[k]
+
+[charaFace C 3]
+＠ギルガメッシュ
+むう、特に上手くはなかったな……[r]やはり魔術師の真似事ではダメか……
+[k]
+
+？1：ギルガメッシュ王、なぜ同行を？
+
+[charaFace C 1]
+＠ギルガメッシュ
+そうかしこまるな。[r][#我:オレ]とて海を見たくなる時もある、というだけよ。
+[k]
+
+？2：王はお暇なのですか？
+
+[charaFace C 2]
+＠ギルガメッシュ
+たわけ、暇などないわ！　遊ぶ時間がない故、[r]こうして忍び旅をしているのではないか！
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+そ、そうですか。[r]よく分かりませんが、シドゥリさんには内緒なのですね？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠フォウ
+フォ[line 2]ウ…………
+[k]
+
+？1：………………
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠ギルガメッシュ
+なんだ、その[#苦:にが]みほとばしった顔は。
+[k]
+
+＠ギルガメッシュ
+言っておくが、[r]職務に疲れたからではないのだぞ。
+[k]
+
+[charaFace C 0]
+＠ギルガメッシュ
+……………………。
+[k]
+
+[charaFace C 3]
+＠ギルガメッシュ
+刺激が欲しいわけでもないのだぞ。
+[k]
+
+
+？1：なるほど
+？2：なるほどなのだぞ
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk E]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+
+
+＠Dr.ロマン
+はあ……やれやれ。[r]ギルガメッシュ王、ご満悦のところ失礼します。
+[k]
+
+＠Dr.ロマン
+どうやら前方に強い魔力反応があるようです。[r]お望みの通り、トラブルがやってきたようですが？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+[bgmStop BGM_MAP_18 0.1]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[bgm BGM_EVENT_3 0.1]
+
+
+＠ギルガメッシュ
+ほう。あれは捨てられた巨像の類いか。[r]肩慣らしには丁度よい。
+[k]
+
+＠ギルガメッシュ
+荷車を止めるのも面倒だ。[r]みごと蹴散らしてみせよ、[%1]。
+[k]
+
+＠ギルガメッシュ
+また、どうしてもと言うのなら[r][#我:オレ]の手を貸してやらん事もない。
+[k]
+
+＠ギルガメッシュ
+見ればあれはすべて[#暗殺者:アサシン]の石像のようだ。[r]となれば、有利な者は誰か、語るまでもあるまい？
+[k]
+
+＠ギルガメッシュ
+ふ[line 3]どうしても、と言うのであれば。[r]どうしても、と言うのであればな！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

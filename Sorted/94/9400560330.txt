@@ -1,0 +1,339 @@
+
+＄94-00-56-03-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 3001001 1 クー・フーリン]
+[charaSet C 2025200 1 アン]
+[charaSet D 2025100 1 メアリー]
+[charaSet E 2026000 1 アルトリア]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠クー・フーリン
+釣りに誘った手前、責任は感じるな。[r]もうちょい付き合うぜ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、ありがとうございます、クー・フーリンさん。[r]非常に助かります。
+[k]
+
+[charaFace B 0]
+＠クー・フーリン
+で、メシの現地調達っつったら、普通に……[r]まずは狩りだろ。一狩り行こうぜ、ってな話だ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠アン
+なるほど。だから私たちに[r]声がかかったというわけですね。
+[k]
+
+＠メアリー
+食料の現地調達はお手のものさ。[r]ところで[line 3]王様はなぜ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠アルトリア
+何故もなにも、狩猟は騎士の嗜みです。[r]特に今の私はアーチャー。どんな獲物も逃しません。
+[k]
+
+[charaFace E 8]
+＠アルトリア
+頼りになる私の馬、ラムレイにドゥ・スタリオン[line 3][r]そして猟犬カヴァスがいれば万全だったのですが。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠クー・フーリン
+ほぉー、じゃあお手並み拝見といくか。[r]お、ちょうどあそこの山の陰にチラッと鹿が見えたぞ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠アン
+どうしましょうね？　メアリーに追ってもらって、[r]飛び出したところを私が狙撃しましょうか[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠アルトリア
+いえ、ここは一つ私に試させてください。[r]久しぶりの狩猟ということで肩慣らしです。
+[k]
+
+＠アルトリア
+それでは、行きますよ。
+[k]
+
+[bgmStop BGM_EVENT_28 0.4]
+[wt 0.3]
+
+[se ad39]
+[charaEffect A bit_talk_06]
+[charaFace E 2]
+＠アルトリア
+エクス[line 3]
+[k]
+
+？1：！？！？
+？2：ストップすとーっぷ！
+？！
+
+[wt 1.0]
+[seStop ad169 0.4]
+[charaEffectStop A bit_talk_06]
+[wt 0.8]
+[charaPut A 0,1000]
+
+[charaFace E 6]
+＠アルトリア
+何か？
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk B]
+[charaFace E 6]
+[charaFadein E 0.1 2]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+＠クー・フーリン
+何か、じゃねぇよいきなり何すんだよ！
+[k]
+
+[charaFace E 4]
+＠アルトリア
+はて。山の陰や見晴らしの悪い森に獲物が隠れたときは、[r]まずコレを一閃して周囲をすっきりさせるのが
+[k]
+
+＠アルトリア
+手の一つだと思っていたのですが……。
+[k]
+
+[charaFace E 6]
+＠アルトリア
+いつもそうしていたわけではありませんよ？[r]そうすべき場合もある、という感じで。
+[k]
+
+＠アルトリア
+光の御子よ。ケルトの狩り作法的には、何かこう、[r]マナー違反のようなものなのだったりするのですか？
+[k]
+
+[charaFace B 2]
+＠クー・フーリン
+マナー以前の問題だ！　お前の周りにいた奴は誰も[r]何も言わなかったのか？
+[k]
+
+[charaFace E 4]
+＠アルトリア
+バカな、それほどまでにおかしなことだと？
+[k]
+
+＠アルトリア
+狩りの供をしていたアグラヴェインが死んだ魚の[r]ような目で『さすがは陛下。全力ですな』と
+[k]
+
+＠アルトリア
+拍手していたのはただの社交辞令だったと[r]いうのですか……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+社交辞令というか……なんというか……。
+[k]
+
+？1：エクス狩り場……いえなんでもありません
+？2：さすが王様はスケールがデカい
+？！
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_7 0.4]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠メアリー
+と、とにかく宝具の使用は禁止にしよう。[r]あの鹿はボク達に任せて。
+[k]
+
+[charaFace D 5]
+＠メアリー
+さあアン、狩りの時間だ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠アン
+かしこまりましたっ♪[r]私たちの腕前、見せてさしあげましょう！
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait wipe]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 1.0]
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+[bgm BGM_EVENT_28 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠マシュ
+さすがはアルトリアさんですね！[r]鳥に、兎……戦果は上々です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠アルトリア
+まあ、慣れないクラスならばこんなものでしょう。[r]マシュもいい働きをしてくれました。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠メアリー
+鳥撃ちならアンも上手なんだけどね。[r]なにせ海には鳥しかいなかったし。
+[k]
+
+[charaFace C 1]
+＠アン
+まあ、今はこちらの獲物で充分でしょう。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+アンさんとメアリーさんはさっきの鹿を……[r]素晴らしいです。大猟ですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠アルトリア
+とりあえずの食料としてはこれで間に合ったと[r]思いますが……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠アルトリア
+……クー・フーリン。その槍は飾りか？[r]貴公はただ寝ていただけに見えたが。
+[k]
+
+[charaFace B 1]
+＠クー・フーリン
+へっ。手伝おうと思ってたが、[#臭ってた]もんでよ。[r]そっちに意識を向けてただけだ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_28 0.4]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+臭ってた……？
+[k]
+
+[charaTalk B]
+[charaFace A 6]
+[se ad17]
+[wait se ad17]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠クー・フーリン
+ほら、大物が来たぜ。[r]ここはそいつの狩り場でもあったみてぇだな！
+[k]
+
+＠クー・フーリン
+獲物を横取りした手前、[r]黙って立ち去るわけにもいくまい。
+[k]
+
+[charaFace B 5]
+＠クー・フーリン
+狩り場の使用料は、この槍で払わせてもらおうか！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

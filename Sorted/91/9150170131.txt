@@ -1,0 +1,318 @@
+
+＄91-50-17-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5017001 1 メディア・リリィ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4004001 1 アストルフォ]
+
+[charaTalk off]
+[charaDepth E 1]
+[charaFadein D 0.1 0]
+[charaFace D 4]
+[charaFadein E 0.1 2]
+[charaFace E 4]
+
+[scene 20800]
+[fadein black 2]
+[wait fade]
+
+
+＠ジャンヌ＆アストルフォ
+きゅう～～～
+[k]
+
+
+[charaFadeout D 0.4]
+[charaFadeout E 0.4]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+対象、沈黙しました。[r]ですが問題は解決していません。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ、むしろ悪化の一途をたどっている。[r]あの二人、目を覚ましたらいっそう凶暴に[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠メディア・リリィ
+ご心配いりませんわ。ここは私にお任せください。[r]まずは短剣を取り出して、と……
+[k]
+
+[charaFace B 0]
+＠メディア・リリィ
+んー、このあたり？　ここがいいかしら？[r]えーい、ペイン・ブレイカー！
+[k]
+
+[messageOff]
+[se ad39]
+[fadeout white 0.6]
+[wait fade]
+[fadein white 0.3]
+[wait fade]
+[wt 0.2]
+
+[charaFadeout B 0.1]
+
+[charaTalk off]
+[charaFadein D 0.1 0]
+[charaFace D 4]
+[charaFadein E 0.1 2]
+[charaFace E 4]
+
+[charaEffect D bit_talk_13]
+[charaEffect E bit_talk_13]
+[wt 0.1]
+[se bac14]
+[wait charaEffect D]
+[wait charaEffect E]
+
+[wt 0.5]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[wt 0.3]
+[charaTalk on]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+メディアさん！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ななな、なにが起きたんだい！？　まさか、気絶して[r]無抵抗の英霊に宝具をぶっ刺したのかい！？
+[k]
+
+？1：見なかった事にしよう
+？2：……イヤな事件だったね……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠ジャンヌ
+うーん……ハッ！？[r]ここは一体……そして私の上に乗っているのは……
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+アストルフォではないですか！？[r]どうしたのです、この酷いたんこぶは！？
+[k]
+
+＠ジャンヌ
+いったい誰にやられたのです！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+…………えっと、それはジャ、
+[k]
+
+＠Dr.ロマン
+シッ。黙ってるんだマシュ。[r]旗の殴打による痣はなかった。いいね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠アストルフォ
+うーん……ハッ！？[r]ここは一体……そしてボクの下にいるのは……
+[k]
+
+[charaFace E 2]
+＠アストルフォ
+ジャンヌじゃないか！[r]どうしたんだよ、その執拗に胸を狙ったような擦り傷！
+[k]
+
+＠アストルフォ
+いったい誰にやられたのさ！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+ですから、それはアス、
+[k]
+
+？1：黙っていよう、マシュ
+？2：……イヤな事件はなかったね……
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠メディア・リリィ
+良かった。些細な事でケンカになったようですが、[r]おふたりとも、これで元通りです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+……そうか。メディア・リリィは[r]王女メディアとは正反対の属性だった。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+だからその宝具も裏切りの魔女メディアとは正反対。[r]彼女の宝具は[#諍:いさか]いを治すものなんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[charaFace D 0]
+[charaFace E 0]
+＠ジャンヌ
+なんにせよ……はい、どっこいしょっと。[r]他にケガはなさそうで安心しました、アストルフォ。
+[k]
+
+＠ジャンヌ
+そういえば空の旅に連れて行ってもらう約束でしたね。[r]アナタのヒポグリフは健在ですか？
+[k]
+
+[charaFace E 1]
+＠アストルフォ
+もっちろん。ジャンヌ、体重は見た目通りでしょ？[r]なら乗せても飛ぶのに支障はないさ！
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+それは楽しみですね。[r]ヒポグリフの乗り心地はさぞ[line 3]
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+おや。[%1]さんではないですか。[r]それに……スンスン。
+[k]
+
+＠ジャンヌ
+この甘い匂いは……ハチミツですか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+はい。先ほどから、[r]たいへん美味しそうな匂いが漂っています。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+＠メディア・リリィ
+はい。手が空いたので[r]パンケーキを作らせていただきました。
+[k]
+
+＠メディア・リリィ
+イヤな事はこれで忘れて、[r]どうぞ幸せな午後をお過ごしください。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+[charaFace D 0]
+[charaFace E 0]
+＠ジャンヌ
+これはありがたい。なぜかお腹が減っていたのです。[r]……運動でもしたのでしょうか……
+[k]
+
+[charaFace E 1]
+＠アストルフォ
+あ、美味しーい！　このパンケーキ美味しい！[r]ほらジャンヌ、食べてみなよ！
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+ええ、では遠慮なくいただきます。[r]お[line 3]おお、お……！？　これは宝具級の甘みですね！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+＠マシュ
+あっという間に、仲良くスイーツを[r]楽しむ女子二人組になってしまいました……
+[k]
+
+？1：うんうん。仲良きことは美しき哉
+？2：パンケーキ、おかわり
+
+？！
+
+[charaFace B 1]
+＠メディア・リリィ
+ふふふ。[r]これもみなさんが力を貸してくれたおかげです。
+[k]
+
+＠メディア・リリィ
+私の無茶にお付き合いいただき、ありがとうございます。[r]今後もよろしくお願いしますね、マスター。
+[k]
+
+[charaFace A 1]
+＠マシュ
+はい、素晴らしい手腕でした。[r]メディアさんはケンカ仲裁の達人ですね。
+[k]
+
+＠メディア・リリィ
+ええ。[r]だって私、仲良しの魔女ですもの♡
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

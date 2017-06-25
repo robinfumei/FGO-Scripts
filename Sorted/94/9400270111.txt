@@ -1,0 +1,371 @@
+
+
+＄94-00-27-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98052030 1 ネロ]
+[charaSet B 5003001 1 玉藻の前]
+[charaSet C 7016002 1 タマモキャット]
+[charaSet D 98013300 1 セプテムの言祝ぎ]
+
+[scene 20300]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠タマモキャット
+うぐ……うぐ……
+[k]
+
+＠タマモキャット
+アタシはただ、ご主人と自由なオープンフィールドで[r]散歩したかっただけのワンダフルキャットなのに……
+[k]
+
+＠タマモキャット
+あとハイレゾ３Ｄモデルでキャットな肢体を[r]存分に眺めてほしかったとも言ってみる……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠ネロ
+バカモノ！[r]それこそ参戦不可能と知れキャット！
+[k]
+
+＠ネロ
+その姿、こちらでさえスレスレだというのに、[r]３Ｄにしたら貴様は完全アウトである！
+[k]
+
+[charaFace C 2]
+＠タマモキャット
+言われてみればそうだった[line 4]っ！
+[k]
+
+[charaFace C 5]
+＠タマモキャット
+まずは新コスチュームを考えるところから始める、[r]という自分自身のブレ方に戦慄するがまあ良し。
+[k]
+
+[charaFace C 1]
+＠タマモキャット
+勝負は預けたゾ皇帝陛下！[r]EXTELLA、きっちり成功して次回作に繋げてほしいワン！
+[k]
+
+＠タマモキャット
+そう[line 3]いつかタマモナインが勢揃いする[r]ＤＬＣとか、そういうのが許される日を夢見て！
+[k]
+
+[se ad55]
+[seStop ad55 1.5]
+[charaAttack C normal -450,0 0.4]
+[charaFadeout C 0.4]
+[wt 2.0]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠玉藻の前
+そんな夢ねぇーですから。[r]ナイン勢揃いとか与太話だけで結構です。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet A 98052040 1 ネロ]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 1]
+[wt 1.0]
+＠ネロ
+タマモナイン？とかよく知らぬが、[r]とにかく応援、感謝する！
+[k]
+
+＠ネロ
+『Fate/EXTRA』の正当続編、[r]装いも新たに生まれ変わった『Fate/EXTELLA』で、
+[k]
+
+＠ネロ
+いつか貴様の挑戦に応じよう！
+[k]
+
+[wt 0.4]
+[charaTalk D]
+[se ad17]
+[wait se ad17]
+[wt 0.2]
+
+＠セプテムの言祝ぎ
+キシャー！[r]アニメ、キシャー！
+[k]
+
+[charaFace A 1]
+＠ネロ
+おお、七つの丘の一冠、槍の竜インウィディアよ！[r]貴様も祝いに来てくれたのだな！
+[k]
+
+[charaFace A 4]
+＠ネロ
+いつぞやのネロ祭では[r]やられ役を押しつけてしまった事、許すがよい。
+[k]
+
+[charaFace A 1]
+＠ネロ
+なに？　そんな事よりアニメの話をしてほしい？[r]ネロ皇帝はどれほど活躍するのか、だと？
+[k]
+
+[charaFace A 8]
+＠ネロ
+うはは、コイツめ、コイツめー！[r]あまりの嬉しさにアゴを撫でまくる余なのであった！
+[k]
+
+[charaTalk D]
+[se ad17]
+[seStop ad17 2.0]
+[wait se ad17]
+[wt 0.2]
+
+＠セプテムの言祝ぎ
+キシャー！[r]アニメ、キシャー！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaSet A 98052050 1 ネロ]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+[wt 1.0]
+＠ネロ
+うむ。分かっている。[r]TVアニメプロジェクトの話であるな。
+[k]
+
+＠ネロ
+こちらも規制がある故、余から詳しくは話せぬ。
+[k]
+
+＠ネロ
+しかし[line 3]制作会社はあのＳから始まる[r]おもしろおかしい偏屈職人軍団である！
+[k]
+
+＠ネロ
+『Fate/EXTRA』はもともと『Fate』の固定観念を[r]破壊するために生まれたもの。
+[k]
+
+＠ネロ
+彼の者たちならば、既に出来上がった『Fate/EXTRA』の[r]常識さえ破壊し、新生させてくれよう！
+[k]
+
+[charaFace A 6]
+＠ネロ
+そうであろう、キャス狐！[r]というか、貴様のキャラデザを見たのだが[line 3]
+[k]
+
+[charaFace A 7]
+＠ネロ
+玉藻の前、ものごっつい可愛いぞ！[r]貴様、黙っていれば本当に美少女だったのだな！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠玉藻の前
+あー、はいはい。[r]アニメですね、はいー。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet A 98052060 1 ネロ]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 1.0]
+＠ネロ
+む。意外な反応。[r]どうした？　やけにテンション低いではないか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠玉藻の前
+[#私:わたくし]が美少女なのは当たり前です。[r]あと、喋っていても美少女ですから。
+[k]
+
+＠玉藻の前
+……まあ、そんな事より、あれでしょう？[r]アニメといったら基本ルートの映像化でしょうし。
+[k]
+
+＠玉藻の前
+どーせネロさん大勝利なんでしょう？[r][#私:わたくし]の出番なんて、そうですねぇ……
+[k]
+
+＠玉藻の前
+次回予告とか、四回戦の敵になっているとか、[r]その手のゲスト出演でございましょう？
+[k]
+
+＠玉藻の前
+それならヒロインとして確定している[r]EXTELLAをはりきって宣伝した方が、
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet A 98052070 1 ネロ]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+[wt 1.0]
+＠ネロ
+いや、毎話22分たっぷりあるに決まってるではないか！[r]副音声ヒロインとしてな！　シャフトだけに！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[messageShake 0.05 5 5 0.55]
+＠玉藻の前
+アニメなのに動くシーンすらなしとか斬新ですねぇ！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠ネロ
+いやいや。今回は原作者も派手にかりだされている故、[r]余もどうなるかとんと見当が付かぬ。
+[k]
+
+＠ネロ
+なんにせよ、アニメならではの再構成を[r]楽しみにしようではないか。
+[k]
+
+＠ネロ
+そして[line 3][r]ここまで付き合った[%1]よ！
+[k]
+
+[charaFace A 7]
+＠ネロ
+これが吉報第一弾の華麗ビジュアルを使用した[r]記念礼装だ！　受け取るがよい！
+[k]
+
+[messageOff]
+
+[wt 0.1]
+[effect bit_ajcd01]
+[wt 0.1]
+[se ad97]
+[wait effect bit_ajcd01]
+[wt 0.6]
+
+[wt 0.3]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet A 98052080 1 ネロ]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[wt 1.0]
+＠ネロ
+おお……美しい……
+[k]
+
+＠ネロ
+美しすぎて待ち受けにしてしまった……[r]アニメになっても可憐な余を許すがよい。
+[k]
+
+[charaFace A 5]
+＠ネロ
+そしてマスター、いや奏者たちよ！
+[k]
+
+＠ネロ
+『アニメになってから見ればいいやー』などと[r]悲しい事は言わず、予習復習はしっかり頼むぞ！
+[k]
+
+＠ネロ
+スタッフ一同、みなの期待に添う娯楽作品になるよう、[r]連日励んでいるところ故な。
+[k]
+
+＠ネロ
+新しくなったEXTRA[line 3]ゲームもアニメも、[r]共に胸を焦がして待っているがよい！
+[k]
+
+[charaFadeout A 0.4]
+[wt 1.5]
+
+[charaSet A 98052000 1 ネロ]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+[wt 0.4]
+＠ネロ
+……ふぅ。我ながらよい演説であった。[r]ここまで訴えれば余の本気は伝わったと思うのだが……
+[k]
+
+＠ネロ
+キャス狐？[r]どうした、浮かぬ顔をして。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠玉藻の前
+いえ、それが。あのー、皇帝陛下？[r]この新ビジュアル、なんか不穏ですよ？
+[k]
+
+[charaFace A 6]
+＠ネロ
+う、うむ！　『写真はイメージ映像です、[r]実際とは異なります』系であろう！
+[k]
+
+＠ネロ
+余もたまにアンニュイしたくなる時があるしな！[r]き、気にするな、余はちっとも気にしていない！
+[k]
+
+[charaFace B 5]
+＠玉藻の前
+でもぉ、なんかEXTRAの後に[r]みょーな単語入ってますしぃー。
+[k]
+
+[charaFace A 5]
+＠ネロ
+気にするなと！　言っているのだ[line 3]っ！[r]余の後ろ姿だけ愛でておれ[line 3]！
+[k]
+
+[charaFace B 0]
+＠玉藻の前
+ははーん…………これはもしかして、[r]タマモちゃんにワンチャンあり？　とか？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[wt 1.9]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+
+

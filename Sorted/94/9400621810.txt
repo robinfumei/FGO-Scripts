@@ -1,0 +1,101 @@
+＄94-00-62-18-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 5027000 1 マリー]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マリー
+火力発電所……。[r]大きいのね！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+発電所って、男の子の味でありますなぁ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……ところでその、一体何を燃やして[r]火力としているんでしょうか？
+[k]
+
+[charaFace A 12]
+＠マシュ
+石油や石炭ではない……ですよね？
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+アルトリウムであります。
+[k]
+
+＠G：うりぼう
+あれこそは夢のエネルギー。[r]何とかドライブも目じゃありません。
+[k]
+
+＠H：うりぼう
+この島はちょっと掘ればアルトリウムが[r]食いついてくるのであります。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ああ……なるほど……。
+[k]
+
+[charaFace A 14]
+
+＠マシュ
+……食いつく？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

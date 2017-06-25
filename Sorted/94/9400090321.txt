@@ -1,0 +1,205 @@
+＄94-00-09-03-2-1
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 1001001 1 上杉アルトリア]
+[charaSet D 1027000 1 桜セイバー]
+[charaSet E 2024000 1 魔神アーチャー]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+[fadein black 2]
+[wait fade]
+
+＠上杉アルトリア
+くっ……、この私が負けるとは……[r]朝ごはんを３杯で我慢したのが敗因でしょうか……。
+[k]
+
+＠上杉アルトリア
+ところで全然関係ないのですが[r]なんとなく私、黒より影薄くありま……せん……？
+[k]
+
+
+[messageOff]
+[charaSpecialEffect C flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect C flashErasure]
+[wait time 0.3]
+
+[charaFadein A 0.1 1]
+[charaFace A 15]
+＠マシュ
+強敵でしたね先輩。それにしてもサーヴァントの[r]皆[charaFace A 8]さん、何か様子がおかしいような……
+[k]
+
+？1：なんか変だね。
+？2：いまさら！？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFace D 4]
+[charaFadein E 0.1 2]
+[charaFace E 4]
+＠E：魔人アーチャー
+どうやら召喚時にわしが生前無意識下で敵と[r]認識していた武将の因子が加わっておるようだな。
+[k]
+
+＠D：桜セイバー
+また、あなたのせいですか……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+
+
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+＠Dr.ロマン
+大変だ、[%1][&君:ちゃん]、マシュ！[r]すぐにその空間から離れるんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[communicationChara 98003003 0 5 0 2]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠マシュ
+わっ！？[r]いきなりなんですかドクター！？
+[k]
+
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+うん。寝起きの気だるさから、[r]何気なくそのあたりの構成を調べたんだけど……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+結論から言おう。[r]そこにはとある粒子が蔓延している。
+[k]
+
+＠Dr.ロマン
+サーヴァントの霊核に感染して[r]悪影響を及ぼす特殊かつ面白い粒子がね……！！
+[k]
+
+[charaFace A 6]
+＠マシュ
+な、なんですってー！？[r]それはどんな悪影響なんですか！？
+[k]
+
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+ステータスの弱体化、記憶の改竄、霊核の摩耗とか[r]いろいろな悪影響があるけど一番顕著なのは……
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+『　残　念　に　な　る　！！　』
+[k]
+
+[charaFace A 6]
+＠マシュ
+え？　ざ、残念ですか……？
+[k]
+
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+うん、残念になる。
+[k]
+
+[charaFace A 4]
+＠マシュ
+い、言われてみれば先ほどの上杉[#某:なにがし]さんといい[r]以前の今川某さんといい、確かに……。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+いけません先輩！！　わたしたちも、[r]ふにゃっとする前に離脱しましょう！！
+[k]
+
+
+？1：ふにゃっとするの！？
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+ええ、ふにゃっとしたら大変です！
+[k]
+
+＠マシュ
+わたしたちもいずれはあの謎の生物みたいに[r]なってしまうかもしれません！！
+[k]
+
+？2：既にマシュも汚染されて……。
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+え！？　ど、どこかおかしいでしょうか？[r]とにかくお風呂で洗い流すか何かしましょう！！
+[k]
+
+？！
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+あれ？　でも桜セイバーさんと魔人アーチャーさんは[r]特に変化がなさそうですが……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFace D 0]
+＠E：魔人アーチャー
+うむ、わしらは特に変化ないようじゃな。
+[k]
+
+＠D：桜セイバー
+そうですね、私もいつも通り吐血する程度ですし。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[communicationChara 98003003 1 5 0 1]
+＠Dr.ロマン
+うーん、２人は元々残念ってことかな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk off]
+[charaFadein D 0.1 0]
+[charaFace D 7]
+[charaFadein E 0.1 2]
+[charaFace E 6]
+＠アーチャー＆セイバー
+えっ！？（×２）
+[k]
+
+[wt 0.4]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[fadeout black 0.8]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]

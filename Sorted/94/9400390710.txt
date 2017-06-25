@@ -1,0 +1,449 @@
+＄94-00-39-07-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet B 2006001 1 猪八戒]
+[charaSet C 3017001 1 沙悟浄]
+[charaSet D 7003000 1 白龍馬]
+[charaSet E 3019002 1 牛魔王]
+
+[scene 20905]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠牛魔王
+[#余:よ]こそが、天上界を[#轟:とどろ]かし名を[#馳:は]せた[r][#大妖:たいよう][#義兄弟:ぎきょうだい]の長兄[line 3][#九首:きゅうしゅ][#牛魔羅王:ぎゅうまらおう]だ。
+[k]
+
+＠牛魔王
+以後は牛魔王でよい。[r][#跪拝:きはい]の礼を[#解:と]き、楽にせよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+[line 3]はっ、陛下。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠沙悟浄
+…………。
+[k]
+
+＠猪八戒
+…………。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+[cameraMove 1.0 -70,0 1.5]
+[wait camera]
+[wt 1.0]
+
+？1：あの……牛要素……は？
+？！
+
+[shake 0.05 0 4 1.0]
+[charaFace E 2]
+＠牛魔王
+貴様[line 3][#何処:どこ]を見ている？[r]余の口元はもっと上にあるぞ。
+[k]
+
+[cameraHome 0.5]
+[wait camera]
+
+[charaFace E 0]
+＠牛魔王
+[#遙:はる]か唐国より、火焔山を越えてまでの[#長:なが]の旅路、[r][#真:まこと]にご苦労であった。
+[k]
+
+＠牛魔王
+……風に聞くところによれば、我が息子、[r]紅孩児が世話になったそうではないか？
+[k]
+
+[charaFace E 4]
+＠牛魔王
+いや、気を張らずともよい。[r]言葉通りの意味だ。
+[k]
+
+[charaFace E 1]
+＠牛魔王
+不甲斐ない親だと笑っていただきたい。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠三蔵
+[#滅相:めっそう]もないです。[r][line 3]あっ、そうそう。
+[k]
+
+[charaFace A 3]
+＠三蔵
+こちらは陛下の奥方様から……うぇっとぉ……[r]ちょっと[#強請:ねだ]り気味に[#拝借:はいしゃく]いたしました、
+[k]
+
+[charaFace A 0]
+＠三蔵
+エクスカリ芭蕉扇です。
+[k]
+
+[charaFace A 1]
+＠三蔵
+元来、陛下と共有の宝物……と聞いております。[r]お返しいたします。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠牛魔王
+[line 3]うむ、重ねてかたじけない。[r]では、こちらも[#要用:ようよう]を果たそう。
+[k]
+
+[charaFace E 0]
+＠牛魔王
+唐の高僧、玄奘三蔵よ[line 3][r]これは余がもとより[#帯:お]びし経典である。
+[k]
+
+＠牛魔王
+そしてこれは、先にこの[#魔雲洞:まうんどう]の城を訪れた[r][image NPC_font001a][image NPC_font001b]より預かった、もう一つの経典だ。
+[k]
+
+？1：[image NPC_font001a][image NPC_font001b]が？
+？！
+
+＠牛魔王
+この二つの経典は、貴僧に進呈する。[r]これが御仏の意志である。
+[k]
+
+＠牛魔王
+[line 3]つまり、貴僧の旅もここで終わりだ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠三蔵
+……な……なんですって？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠牛魔王
+これが御仏の意志である、と言った。[r]貴僧の手元には、ついに六本の経典が揃ったのだからな。
+[k]
+
+[charaFace E 5]
+＠牛魔王
+[line 3]御仏は、余に使命を与えたもうた。
+[k]
+
+[charaFace E 4]
+＠牛魔王
+貴僧の旅路にちりばめられた経典に、貴僧自身の「[#五欲:ごよく]」[r]に対する[#悟:さと]りの記憶を封じた、と御仏はおっしゃられた。
+[k]
+
+[charaFace E 0]
+＠牛魔王
+五欲とはそれぞれ、[r]「[#色:しき]・[#声:しょう]・[#香:こう]・[#味:み]・[#触:そく]」だ。
+[k]
+
+＠牛魔王
+すなわち、[r]「[#眼:げん]・[#耳:に]・[#鼻:び]・[#舌:ぜつ]・[#身:しん]」の[#根:こん]より生ずる[#執着:しゅうちゃく]を意味する。
+[k]
+
+[charaFace E 1]
+＠牛魔王
+かような法の[#講釈:こうしゃく]は、貴僧には[r]まさに釈迦に説法であろうがな？
+[k]
+
+？1：ひーふーみーよーいつ……最後の一個は？
+？！
+
+[charaFace E 0]
+＠牛魔王
+六本の最後の一つは「[#意:い]」だ。[r]すなわち[#心:こころ]より発する執着。
+[k]
+
+＠牛魔王
+ここで旅を終え、心の底から満ち足りることが[r]貴僧の[#失墜:しっつい]した悟りの回復となる[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+え……え……？[r]ちょっと待って？　待ってよ！
+[k]
+
+[charaFace A 2]
+＠三蔵
+あたしの旅はここで終わりじゃない！[r]まだこの先があるのよ！
+[k]
+
+＠三蔵
+あたしは天竺に行くんだから！[r]そのためにずっと旅をしてきたんだから！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠牛魔王
+経典はすべて[#揃:そろ]ったのだ！
+[k]
+
+[charaFace E 5]
+＠牛魔王
+わからぬのか！？[r]玄奘三蔵ともあろう者が、御仏の慈悲を？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠三蔵
+で、でも、みんなはどうなるの？[r]あたしの大切な弟子たちは？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠牛魔王
+貴僧の[#徒弟:とてい]たちは、このまま天竺へと向かう。[r]彼らはそれで戻るべき世界へと帰還するだろう。
+[k]
+
+[charaFace E 0]
+＠牛魔王
+それとまったく同様に、[r]貴僧にも[#還:かえ]るべき場所があるはずだ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+……還るべき、場所…………[#長安:ちょうあん]の、あたしの家……[r]……………………。
+[k]
+
+[charaFace A 2]
+＠三蔵
+……いやだっ！[r]あたしはまだ旅を続ける！
+[k]
+
+＠三蔵
+だって何もしてない！[r]ありがたいお経だけじゃ、何かが足りない！
+[k]
+
+＠三蔵
+それを正しく[#説:と]けるだけの人間に、[r]わたしはまだなっていない……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠牛魔王
+ふぅ……聞き分けのない。
+[k]
+
+[charaFace E 0]
+＠牛魔王
+[#市井:しせい]にとって御仏の経典はそれだけで価値があるもの。[r]僧侶の語りなぞ誰でもよいと[line 3]。
+[k]
+
+[charaFace E 4]
+＠牛魔王
+そう思う事ができぬとはな。[r]それでは確かに、悟りまでは遠かろう。
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[charaFace E 1]
+＠牛魔王
+[line 3]されども安心めされよ。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 5]
+＠牛魔王
+貴僧の執着は我が宝扇、エクスカリ芭蕉扇でひと思いに[r]吹き消し、[#東土:とうど]の果てまで送り返して[#進:しん]ぜよう。
+[k]
+
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠三蔵
+………………そっか……[r]これはあたしの、あたし自身の戦いなんだ……。
+[k]
+
+＠三蔵
+[%1]……[r]貴方たちは来ちゃダメ……。
+[k]
+
+＠三蔵
+そんなことしたら、仏様はお怒りになって、[r]返してくれなくなっちゃう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠沙悟浄
+……法師。[r]この[#一時:いっとき]のみ師と[#仰:あお]いだものよ。
+[k]
+
+[charaFace C 0]
+＠沙悟浄
+この儂を、[#賢:さか]しく後先を考えて強敵を求むる[#輩:やから]と[r][#推:お]し[#量:はか]っているのなら、とんだ取り違えだ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠猪八戒
+そうそう。僕らはサーヴァントだからね。[r]帰る場所はもとから無いんだ。
+[k]
+
+[charaFace B 4]
+＠猪八戒
+英霊の座に戻るって事は消滅するってコトだし。[r]カルデアは例外だけど、そのカルデアにも戻れない。
+[k]
+
+[charaFace B 3]
+＠猪八戒
+帰りたい場所はあるけれどね。[r]ま、ただ戦って、愉しんで、倒れるのみさ。
+[k]
+
+[charaFace B 1]
+＠猪八戒
+こっちの大きい人も、[r]馬の耳になんとやら？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠白龍馬
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠三蔵
+…………。
+[k]
+
+＠三蔵
+[%1]……ううん、いいえ、[r]あたしの[#不肖:ふしょう]の一番弟子？　[&きみ:あなた]は？
+[k]
+
+＠三蔵
+[&きみ:あなた]はサーヴァントとは違うのだから。[r]大切な人のもとへ帰るべきよ。
+[k]
+
+？1：お師さんは大切な人ですよ
+？2：聞く必要あるの？
+
+？！
+
+[charaFace A 4]
+＠三蔵
+もうっ……このっ……[r]弟ぇ～子ぃ～～。
+[k]
+
+[charaFace A 0]
+＠三蔵
+みんな本当に、怖いもの知らずの馬鹿弟子たちね！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠牛魔王
+[line 3]最期の警告だ！[r]御仏に[#叛:そむ]く事になるぞ！
+[k]
+
+
+？1：そこを[&どけ:どいて]牛魔王！！
+？2：いざ[line 3]西へ！　西へ！
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

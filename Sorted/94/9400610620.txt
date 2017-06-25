@@ -1,0 +1,103 @@
+＄94-00-61-06-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 3001001 1 クー・フーリン]
+[charaSet B 98100400 1 マシュ]
+[charaSet C 98101700 1 魔猪大]
+
+[scene 20701]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+あー、かったりぃ。[r]けどまあ、大体は終わったってとこか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠マシュ
+はい、ラスト一頭です。[r]……九十九頭やっつけちゃいました。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン
+あたぼうよ。師匠の無茶振りなんぞ、[r]慣れたもんだからな。
+[k]
+
+＠クー・フーリン
+さて、それじゃあラスト一頭といくか！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.5 1]
+[bgmStop BGM_EVENT_2 0.5]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.4]
+[se ad2]
+[seVolume ad2 0 0.75]
+[wipein leftToRight 0.5 1]
+[wait wipe]
+[seStop ad2 3.0]
+
+[wt 1.5]
+
+[charaFadeout C 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠クー・フーリン
+デケェッ！？
+[k]
+
+
+＠クー・フーリン
+ディルムッドが[#轢:ひ]き殺された[r]伝説の魔獣クラスじゃねえかコレ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 2]
+[charaFadein A 0.1 0]
+[charaFace B 7]
+[charaFadein B 0.1 2]
+＠マシュ
+はい！　スカサハさんの見立てでは、[r]多分幻獣の領域に踏み込んでいるのではないか、と！
+[k]
+
+[charaFace A 4]
+＠クー・フーリン
+ったく、さすが鬼師匠。[r]最後の最後で爆弾仕込んできやがって……。
+[k]
+
+[charaFace A 5]
+＠クー・フーリン
+しょうがねえ、九十九頭は準備運動と[r]割り切って残り一頭、本番と行くか[line 3]！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

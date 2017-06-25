@@ -1,0 +1,194 @@
+
+＄91-60-21-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 6021000 1 酒呑童子]
+[charaSet D 7006001 1 坂田金時]
+
+[scene 20803]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.1]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad32]
+[shake 0.05 2 2 0.2]
+[wt 1.0]
+
+[se ad73]
+[seStop ad73 0.5]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠坂田金時
+あぶねえな、華奢なクセしてとんでもねえ一撃を[r]見舞いやがって！　ちっとも鈍っちゃいねえってか！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠酒呑童子
+そらそうやろ？[r]腐っても鬼が、負ける[#戦:いくさ]を挑むとでも思たかぇ？
+[k]
+
+[charaFace C 3]
+＠酒呑童子
+でもほんに、さすがの歯応えやなあ……[r]気ぃ抜いたら脳天から股下まで真っ二つやねぇ……。
+[k]
+
+[charaFace C 1]
+＠酒呑童子
+嬉しいわぁ。[r]本気で、小僧はうちへ打ち込んでくれる。
+[k]
+
+[charaFace C 4]
+＠酒呑童子
+でも……[r]うち、こんなのじゃ足らへん。
+[k]
+
+＠酒呑童子
+里の童がきゃっきゃとじゃれ合うでなし、[r]もっと大人同士のやり方でぶち込んで欲しいわぁ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+（え！？）
+[k]
+
+？1：充分強いですよね金時さん
+
+[charaFace A 0]
+＠マシュ
+（は、はい……[r]　いつもより金時さんは苛烈なような気がします）
+[k]
+
+？2：第二戦がありそうだ
+
+[charaFace A 0]
+＠マシュ
+（はい。このままでは終わりそうにないです。[r]　少なくとも、あと一戦くらいはある雰囲気です）
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠坂田金時
+…………ホント、変わんねェな。テメェは。[r]どんだけ経とうが昔のままだ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠酒呑童子
+うちは流行り物には流れへんからなあ。[r]そういう小僧は……
+[k]
+
+[charaFace C 1]
+＠酒呑童子
+ふふ。見てくれは変わりやったけど、[r]根本は変わらへんね。今も、あの頃の小僧のままや。
+[k]
+
+[charaFace C 0]
+＠酒呑童子
+うちに手加減なんかして、[r]そないに女に手ぇ上げるのは苦手なん？
+[k]
+
+＠酒呑童子
+ええよ？[r]もっと、もっともっと激しくして。
+[k]
+
+[charaFace C 1]
+＠酒呑童子
+修羅場が欲しいなら[r][#羆:ひぐま]だって出してもええんよ[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠坂田金時
+羆だぁ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[se ad13]
+[charaTalk B]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+はいはい羆ね。羆、羆と……はい、用意しておいた。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+（あるんですか羆！？）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠酒呑童子
+ほな、続けよか。[r]羆も小僧も、みぃんなうちが蕩かしてまうよって。
+[k]
+
+[charaFace C 1]
+＠酒呑童子
+あ、でも安心してな。[r]小僧の血、地面に一滴もこぼさんとうちが飲み干すわ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠坂田金時
+ハッ、テメェに食われるほど寝ぼけちゃいねえよ！[r]その首取った後、オレの血で紅でも引いてやらぁ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠酒呑童子
+あはははははは！[r]ソレいいわぁ、雅やわぁ！
+[k]
+
+＠酒呑童子
+小僧に死に化粧をさせるなんて、頼光の阿呆も[r]角生やすぐらいに素敵やねぇ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

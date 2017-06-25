@@ -1,0 +1,231 @@
+＄91-60-18-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 6018001 1 Ｘ]
+[charaSet D 1009001 1 モードレッド]
+[charaSet E 1009001 1 司会]
+[charaSet F 98003000 1 Dr.ロマン]
+
+[scene 20500]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+
+＠マシュ
+セイバー・ＴＨＥ・セイバー……ですか？
+[k]
+
+
+＠Ｘ
+そうです、あらゆるセイバーの中で[r]最優、最強、最高の存在……、それこそが
+[k]
+
+[charaFace C 2]
+＠Ｘ
+“セイバー・ＴＨＥ・セイバー”なのです！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+
+＠Dr.ロマン
+で、それを決める大会が開かれる、と……[r]ホントに？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠Ｘ
+真実ですが、何か？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+（いや、キミほんとに聖剣の王さま？[r]　という意味で聞いたんだけど……）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 5]
+＠Ｘ
+とにかく。全世界のセイバーが一堂に会した[r]究極の祭典ですがもはや堪忍袋の緒が切れました！
+[k]
+
+[charaFace C 2]
+＠Ｘ
+なんで私に招待状が来ないんですか！！[r]まずセイバーの中でも唯一にして至高である私に
+[k]
+
+＠Ｘ
+菓子折りとかベーコンハムハムソーセージを添えて[r]丁重かつ厳かに招待状を送るべきでしょう！！
+[k]
+
+？1：そ、そうだね……
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+こ、こうなるとヒロインＸさんは[r]誰にも止められませんね……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+
+？2：いやその、君、アサシンだから
+
+[charaFace C 0]
+＠Ｘ
+またマスターがおかしなことを……[r]私はどこからどう見てもセイバーなのですが
+[k]
+
+？！
+
+[charaFace C 5]
+＠Ｘ
+とにかく、私をないがしろにするような[r]大会を許すわけにはいきません。
+[k]
+
+[charaFace C 2]
+＠Ｘ
+早速乗り込んで真のセイバーとは斯く有るべし！[r]という事を叩き込んであげましょう！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォーウ……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout B 0.1]
+[soundStopAll]
+[scene 21600]
+[wt 1.0]
+[bgm BGM_EVENT_3 0.1]
+[fadein black 1.0]
+[wait fade]
+
+＠司会
+ますます盛り上がる本大会！！[r]それでは第三試合、選手……入場ッッッ！！
+[k]
+
+＠司会
+国元でお留守番ならお手の物！！[r]ひとりで（叛逆）できるもん！！
+[k]
+
+＠司会
+“叛逆の騎士モードレッド”だァッ！！
+[k]
+
+[charaTalk D]
+[charaFadein D 0.4 1]
+[charaFace D 0]
+[se ad16]
+[wt 1.5]
+[seStop ad16 2.0]
+
+＠モードレッド
+へぇ、次の相手はテメェか……、ん？[r]お前[charaFace D 5]どこかで……
+[k]
+
+
+＠Ｘ
+…………（汗）
+[k]
+
+[charaFadeout D 0.1]
+
+＠司会
+出身、経歴、一切不明！！[r]セイバー・ＴＨＥ・セイバーとは私の事！！
+[k]
+
+＠司会
+ところであなたセイバーじゃないですよね？[r]謎のヒロインＸこと
+[k]
+
+＠司会
+“謎のヒロインＸ”だあッッ！！
+[k]
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+[charaFace C 5]
+[se ad5]
+[wt 0.4]
+
+[wt 1.1]
+[seStop ad5 2.0]
+[wt 0.4]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+紹介が被ってますよ……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+
+[charaFadein D 0.1 2]
+[charaFadein C 0.1 0]
+[charaFace D 2]
+＠モードレッド
+あっ、もしかして父上？　父上じゃねぇか！！[r]何してんだよ、変な帽子かぶって……
+[k]
+
+[charaFace C 2]
+＠Ｘ
+どこのお子さんか知りませんが[r]これも世のためセイバーのため！！
+[k]
+
+＠Ｘ
+いざ尋常に、[r]ドテっ腹に風穴あけて死ぬがよい！！
+[k]
+
+[charaFace D 3]
+＠モードレッド
+なんで！？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

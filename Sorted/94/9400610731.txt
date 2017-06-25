@@ -1,0 +1,502 @@
+＄94-00-61-07-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[charaSet A 5025000 1 ？？？]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 98100400 1 マシュ]
+[charaSet D 2026000 1 アルトリア]
+[charaSet E 4024000 1 モードレッド]
+[charaSet F 98002000 1 フォウ]
+[charaSet G 98101200 1 うりぼう]
+[charaSet H 5025001 1 エジソン]
+[charaDepth A 2]
+[charaDepth H 0]
+
+[scene 20110]
+[fadein black 2.0]
+[wait fade]
+
+[charaFilter A silhouette 00000080]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠？？？
+見事！　見事な力である！[r]力こそ全てではないがね！
+[k]
+
+＠？？？
+ともあれ、君たちの実力は把握した！[r]これならば、私が姿を現しても問題はあるまい。
+[k]
+
+＠スカサハ
+ええからはよこい。
+[k]
+
+＠？？？
+この時を待っていたぞ、サーヴァントたちよ。[r]さあ、今こそ我が叡智を授けよう！
+[k]
+
+[charaFace H 0]
+＠？？？
+我がクラスは[#魔術師:キャスター]。[r]そう、人は私を[#メンロパークの魔術師]と呼ぶ！
+[k]
+
+[bgmStop BGM_EVENT_4 1.0]
+＠マシュ
+メンロパークの魔術師……やっぱり！
+[k]
+
+[bgm BGM_EVENT_12 0.1]
+[messageOff]
+[charaTalk off]
+[charaFadeout A 2.0]
+[charaFace H 1]
+[charaFadein H 0 1]
+[wt 2.0]
+＠エジソン
+大統王トーマス・アルバ・エジソンである！！
+[k]
+
+？1：来ちゃってたか……
+
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_12 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠マシュ
+なるほど、この人が本気で掛かれば[r]文明が飛び級レベルで発達する訳です……。
+[k]
+
+[charaFadeout C 0.1]
+
+？2：テスラじゃなかったんだ
+
+[charaFace H 5]
+＠エジソン
+[messageShake 0.05 5 5 0.5]
+違うぞマスター！！
+[k]
+
+＠エジソン
+あのような輩がいては、うりぼうたちの[r]正しい進化など決して望めはしなかった！
+[k]
+
+[charaFace H 3]
+＠エジソン
+私だからこそ、成し得たのだ！[r]そこんとこ宜しくね！　注意！
+[k]
+
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_12 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+？！
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠アルトリア
+（ライオン……もふもふ……髭ふさふさ……もふ……）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+[charaFace D 6]
+[charaFadein D 0.1 2]
+＠モードレッド
+（父上が鋭い目付きをしている……。なるほど、同じ王って[r]　ことで[charaFace E 1]警戒してんだな！　さすがだぜ父上！）
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠エジソン
+さてさて、うりぼう文明はどうなったかな？
+[k]
+
+＠エジソン
+異世界との高速通信くらいは軽く出来る程度の[r]文明レベルに到達していると予測しているのだがね！
+[k]
+
+[charaFadeout H 0.1]
+
+[bgmStop BGM_EVENT_2 0.7]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠スカサハ
+滅んだぞ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠エジソン
+Ｎｏ[se ad18]ｏｏｏｏｏｏｏｏｏｏｏｏｏｏｏｏｏｏ！！！
+[k]
+
+[messageOff]
+[charaFadeout H 0.4]
+[charaMove H -256,0 0.5]
+[se ad55]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout H 0.1]
+[scene 30700]
+[wt 0.3]
+[wipein leftToRight 0.4 1]
+[seStop ad55 0.7]
+[wait wipe]
+[wt 0.4]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.4 1]
+
+
+＠エジソン
+ほ、本当に滅んでいる！[r]イカれた時代にウェルカムという訳か！？
+[k]
+
+＠エジソン
+ああ、何ということだ！[r]この私が！　現代の知識をありったけ伝えたのに！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠マシュ
+大変なことをしてますね……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠エジソン
+それがモンスター如きに木っ端微塵にされるとは！[r]おのれ、許さんぞ魔猪！
+[k]
+
+[se ad18]
+[charaFace H 2]
+＠エジソン
+貴様たちを一頭残らず食肉加工産業に組み込んでやる！[r]全国どこにでも安定供給してやる！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+怖ぇよ！？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠フォウ
+フォウッ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[bgmStop BGM_EVENT_5 0.3]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠スカサハ
+お主だと本気でやりそうなのが怖いな。[r]しかし[charaFace B 0][bgm BGM_EVENT_2 0.1]エジソン、良く生き残っていたな。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠エジソン
+うむ。私はこの鋭い叡智によって、百年後に君たち[line 3][r][#九人の女神:ナイン・シスターズ]がやってくると推測した。
+[k]
+
+＠エジソン
+そして、島から脱出するのに私の力が必要だということも。
+[k]
+
+
+[charaFace H 0]
+＠エジソン
+それ故に、私は当時の技術を結集し……
+[k]
+
+＠エジソン
+エジソン式コールドスリープ装置を完成させ、[r]エジソン式目覚まし時計蓄音機をセットして、
+[k]
+
+＠エジソン
+こうして目覚めるのを待っていたのだ！！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace C 7]
+[charaFadein C 0.1 2]
+＠マシュ
+つまり冬眠ですね。
+[k]
+
+[charaFace H 5]
+＠エジソン
+コールドスリープ！[r]コールドスリープです！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠アルトリア
+大まかな事情は理解しました。
+[k]
+
+[charaFace D 4]
+＠アルトリア
+しかし、貴方がエジソンであるとは少々信じ難い。[r]私たちの知識にある写真とも違いますし。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠エジソン
+むぅ。よく言われるが、[r]確かに私はエジソンなのだ……。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+（何でも自分の目で見ようとする父上、[r]　さすがだぜ……）
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+[wt 0.1]
+[charaFace D 6]
+[charaFadein D 0.7 2]
+＠アルトリア
+では、少々確認を。[r]……もふもふ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+
+[charaShake H 0.05 3 0 0]
+[charaFace H 0]
+＠エジソン
+むぅ、顔を引っ張られるとは……。[r]あ、いたい。いたい。ちょっとまって。
+[k]
+
+＠アルトリア
+もふもふもふもふもふもふもふもふもふもふもふもふもふもふ[r]もふもふもふもふもふもふもふもふもふもふもふもふもふもふ。
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace H 4]
+＠エジソン
+やめてやめて毛が抜けちゃう！？
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+＠マシュ
+アルトリアさんが一心不乱過ぎます！[r]ちょ、止めてあげてくださーい！
+[k]
+
+[charaShakeStop H]
+[charaFadeout C 0.4]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠モードレッド
+（さすがだぜ父上……！）
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+[charaFadeout E 0.1]
+[scene 30800]
+[charaSet D 98100800 1 うりぼう2]
+[charaSet E 98101000 1 うりぼう3]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.4 1]
+＠エジソン
+はっはっは！　久しぶりだな、諸君！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠G：うりぼう
+敬礼！
+[k]
+
+＠D：うりぼう
+これがらいおんＫＩＮ……。
+[k]
+
+[charaFace E 1]
+＠E：うりぼう
+そこまでであります。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠エジソン
+はははは！　相変わらず脈絡ないな諸君！
+[k]
+
+[charaFace H 0]
+＠エジソン
+さて、何から建設する？[r]私の力で何でも建てるぞ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠スカサハ
+いや、まずはだな[line 3][r]カルデアに帰還するための方法を探ってもらおう。
+[k]
+
+[charaFace H 1]
+＠エジソン
+うむ！[r]だがその為に必要なものがある！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠マシュ
+必要なもの、ですか？
+[k]
+
+＠エジソン
+何、大丈夫だ。君たちなら大体所持しているはず。
+[k]
+
+？1：それは一体[line 3]？
+？！
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_4 0.3]
+[wt 0.4]
+
+[se ad63]
+[seStop ad63 2.0]
+[effect bit_talk_41]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠エジソン
+そう……この島のどこかにある、
+[k]
+
+＠エジソン
+[fontSize large]聖杯だ！[fontSize -]
+[k]
+
+
+[effectStop bit_talk_41]
+[wt 0.3]
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace C 6]
+[charaFadein C 0.1 2]
+＠マシュ
+聖杯……！？
+[k]
+
+＠フォウ
+フォウ！！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

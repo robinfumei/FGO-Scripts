@@ -1,0 +1,121 @@
+
+＄94-00-18-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 5007001 1 シェイクスピア]
+[charaSet B 2001001 1 エミヤ]
+[charaSet C 3002001 1 ディルムッド]
+[charaSet D 1013001 1 カエサル]
+
+[scene 10720]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠カエサル
+負けた負けた！　私の負けだ！
+[k]
+
+＠カエサル
+……だが、これでチョコのカロリー分くらいは[r]消費しただろうか？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠エミヤ
+サーヴァントの体格は変わらないのだが……。
+[k]
+
+[charaFace B 0]
+＠エミヤ
+いや、何かのスキルが原因で変わるとしても、[r]この程度ではダイエットになるまい。
+[k]
+
+＠エミヤ
+規則正しい生活と適度な運動と適切な食事、[r]それが伴って初めて健康的なダイエットが行える。
+[k]
+
+[charaFace B 3]
+＠エミヤ
+……ふむ、折角だ。[r]その不健康な肉体、是正してさしあげよう。
+[k]
+
+[charaFace D 5]
+＠カエサル
+え、ちょっと待ってくれ。[r]何故、君は私の手を掴んでいるのかね？
+[k]
+
+[charaFace B 2]
+＠エミヤ
+冬木市民マラソン大炎上モード、[r]貴方も一緒に参加して貰おうか！　用意、ドーン！
+[k]
+
+[charaMove B 4 0.4]
+[charaFadeout B 0.1]
+[wt 0.2]
+[charaMove D 4 0.4]
+[charaFadeout D 0.1]
+[wt 0.2]
+
+＠カエサル
+ドーン！　ドーンと来たか！[r]おお、なんという強引さ……！　口を挟む暇がない！
+[k]
+
+＠カエサル
+しかし待ちたまえ、肉体労働は私のイメージではなく……[r]おお、燃える！　脂肪が燃える！
+[k]
+
+＠カエサル
+いたい、これはいたい！[r]助けてくれディルムッド君！　せめて戦車を用意せよ！
+[k]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ディルムッド
+男同士の友情……素晴らしいですね！[r]お二人とも、私も仲間に加えて頂きたい！
+[k]
+
+[charaMove C 4 0.4]
+[charaFadeout C 0.1]
+[wt 0.2]
+
+＠カエサル
+ディルムッド、おまえもかー！
+[k]
+
+？1：こんなところで名言を……
+？！
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+大丈夫です。カエサル殿は死んでからが[r]本番です。吾輩もそんな感じで描きましたし。
+[k]
+
+[charaFace A 5]
+＠シェイクスピア
+……そしてまだチョコの数は足りませんな。[r]先ほどカエサル殿が言った黒幕も気に掛かりますよね？
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+しかし、急いては事をし損じる。[r]今宵はここまでに致しましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

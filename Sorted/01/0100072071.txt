@@ -1,0 +1,473 @@
+
+
+
+＄01-00-07-20-7-1
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 98013200 1 ティアマト]
+[charaSet B 11004002 1 ゴルゴーン]
+[charaSet C 8001002 1 マシュ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet F 2020001 1 イシュタル]
+
+[scene 20733]
+[fadein black 2.0]
+[wait fade]
+
+＠ティアマト
+[line 3]Aaaa[line 3]
+[k]
+
+[messageOff]
+[se ad14]
+[shake 0.05 0 4 1.2]
+[wt 1.2]
+[seStop ad14 1.0]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 1]
+＠ゴルゴーン
+っ……分身では足止めにもならぬ。[r]やはり、私自身の[#蛇身:からだ]でなければ不可能か……
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠マシュ
+……女神ゴルゴーン。[r]わたしたちに協力してくださるのですか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ゴルゴーン
+……目障りだと言ったが？[r]貴様たちはむしろ邪魔者だ。
+[k]
+
+＠ゴルゴーン
+ここにいられては[#苛立:いらだ]って仕方がない。[r]早々にウルクに逃げ帰るがいい。
+[k]
+
+[charaFace B 7]
+＠ゴルゴーン
+ティアマトの翼は私が砕く。[r]地を這うのはヤツの方だと教えてやらねばな。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+＠マシュ
+で、でしたらやはり協力します！[r]また一緒にたたか[line 3]
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ゴルゴーン
+笑わせるな。ラフムどもに手こずり、[r]ケツァル・コアトルも敗れ、もはや満身創痍。
+[k]
+
+＠ゴルゴーン
+そこなマスターの指先を見よ。[r]もはや魔力不足で[#壊死:えし]する寸前ではないか。
+[k]
+
+＠ゴルゴーン
+貴様も盾すら持ち上げられぬ有様。
+[k]
+
+[charaFace B 7]
+＠ゴルゴーン
+そんなものたちの力など何の足しになる。[r]弱者は弱者らしく、自分たちの家に逃げ帰るがいい。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠マシュ
+それは……
+[k]
+
+？1：……ウルクに戻ろう、マシュ
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠ゴルゴーン
+それでいい。身の程を知るがいい。
+[k]
+
+？2：……任せていいんだ[&な:ね]？
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ゴルゴーン
+貴様に任される事などない。[r]一刻も早く立ち去れ。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+第四波、来るぞ！[r]そこにいるとケイオスタイドに飲み込まれる！
+[k]
+
+＠Dr.ロマン
+マシュ、[%1]君、早く撤退を！[r]ゴルゴーンの言う通り、今は逃げるしかない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠イシュタル
+いくわよ、マシュ。[r]ケツァル・コアトルの翼竜はもういない。
+[k]
+
+＠イシュタル
+[%1]はアナタが抱えて走るしかない。[r]それとも私が運んでいいの？
+[k]
+
+＠イシュタル
+一度[#私の舟:マアンナ]に積んだら、もう私の所有物よ。[r]特異点が回復してもカルデアになんか返さないから。
+[k]
+
+？1：それは困る！
+？2：マシュ、行こう
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 19]
+[charaFadein C 0.1 1]
+＠マシュ
+でも……でも、先輩！[r]あのゴルゴーンさんは、ア[line 3]
+[k]
+
+？1：それは言わないで
+
+？！
+
+[charaFace C 18]
+＠マシュ
+っ……！[r]う、うう……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠ゴルゴーン
+行け。別れは不要だ。[r]私は貴様たちなど知らぬのだから。
+[k]
+
+？1：[line 3]ああ。さよなら、ゴルゴーン
+？2：今までありがとう
+
+？！
+
+[messageOff]
+[charaFace B 7]
+[wt 1.0]
+
+[bgm BGM_EVENT_24 1.5 0.25]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[wt 1.0]
+[bgm BGM_EVENT_24 1.5 0.5]
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.2]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ゴルゴーン
+……そう言えば。[r]ちゃんと、さよならは言っていませんでした。
+[k]
+
+[charaFace B 1]
+＠ゴルゴーン
+でもお花を戴きましたから。[r]私には、それで十分です。
+[k]
+
+[charaFace B 6]
+＠ゴルゴーン
+ティアマト神。[%1]を[r]ウルクに帰したのは、アナタから逃がす為ではありません。
+[k]
+
+＠ゴルゴーン
+この姿を[line 3]
+[k]
+
+＠ゴルゴーン
+怪物になる私の姿を、見せたくなかっただけ。[r]きっと余計な[#瑕:きず]を負わせてしまうから。
+[k]
+
+[charaFace B 2]
+＠ゴルゴーン
+けれどアナタには本当の傷を与えましょう。[r]これまでアナタとして活動したお返しです。
+[k]
+
+[charaFace B 6]
+＠ゴルゴーン
+大いなる蛇身となって大地の竜を地に落とす！[r]複合神性、融合臨界……！
+[k]
+
+[se ad39]
+[charaEffect B bit_talk_06b]
+＠ゴルゴーン
+すべてを溶かせ！[r][#強制封印・万魔神殿:パンデモニウム・ケトゥス]！
+[k]
+
+[bgmStop BGM_EVENT_24 1.5]
+[messageOff]
+[wipeout circleIn 0.5 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[charaEffectStop B bit_talk_06b]
+[charaSet B 11004002 1 ゴルゴーン]
+[scene 10000]
+[wt 0.4]
+[wipein circleIn 0.1 1]
+[wait wipe]
+[se ad64]
+[wt 2.0]
+[wt 0.4]
+[se ad212]
+[seVolume ad212 0 0.6]
+[wt 1.0]
+[se ad191]
+[seVolume ad191 0 0.4]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 1.0]
+[se ad212]
+[wt 1.0]
+[se ad191]
+[seVolume ad191 0 0.8]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.6]
+[se ad191]
+[seVolume ad191 0 0.5]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 2.0]
+
+[effect bit_talk_kengekiall01]
+[se bac137]
+[wt 0.4]
+[se bac138]
+[wt 0.7]
+[effect bit_talk_14]
+[se bac167]
+[wt 1.5]
+[se ad52]
+[wait se ad52]
+[wt 1.0]
+
+[fadeout black 0.1]
+[wait fade]
+[scene 20733]
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.4]
+[shake 0.05 0 5 0.7]
+[wt 1.0]
+[se ad204]
+＠ティアマト
+[line 3]Aaaaaa[line 3][r][line 3]Aaaaaa[line 3]
+[k]
+
+[messageOff]
+[wt 0.4]
+[fadeout black 2.0]
+[wait fade]
+[scene 20733]
+[wt 3.0]
+[fadein black 2.0]
+[wait fade]
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠マシュ
+……ティアマト神の右角、崩壊。[r]女神ゴルゴーン、消滅を肉眼で確認しました……
+[k]
+
+＠マシュ
+でも……ティアマト神は依然、健在です……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+辛いのは分かる。[r]だが急いでその領域から離脱してくれ！
+[k]
+
+＠Dr.ロマン
+ケイオスタイドの第五波だ！[r]もう防波堤はない、黒泥がやってくる！
+[k]
+
+＠Dr.ロマン
+ケイオスタイドの津波に飲み込まれる前に[r]ウルクの城壁に逃げ込むんだ！　早く！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠マシュ
+……っ、はい！[r]マスター、失礼します！
+[k]
+
+[se ad7]
+[shake 0.05 0 4 0.25]
+＠マシュ
+ケツァル・コアトルさんとゴルゴーンさんが[r]作ってくれた時間です！
+[k]
+
+＠マシュ
+もうこれ以上、一秒も無駄にはしません！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaSet A 98107900 1 ベル・ラフム]
+[charaSet B 5018001 1 ギルガメッシュ]
+[charaSet C 99371100 1 エレシュキガル]
+[wt 2.0]
+[scene 35312]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[se ad21]
+＠ベル・ラフム
+キキ[line 3]！[r]キキキキキキキキキキキキキキキキキキ！
+[k]
+
+＠ベル・ラフム
+面白イ！　下ラナイ！[r]女神フタリ　デ　アノ始末！
+[k]
+
+＠ベル・ラフム
+[#十分:ジュップン]！　十分！　タッタ十分！[r]ホンノ少シ！　瞬キホドノ　足止メ　ダッタ！
+[k]
+
+[messageOff]
+[charaEffect A bit_talk_14]
+[wt 0.1]
+[charaShake A 0.05 3 3 0.4]
+[se bac70]
+[wt 0.4]
+[charaFadeout A 0.4]
+[wt 1.2]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 1]
+＠ギルガメッシュ
+[#下種:ゲス]が。[r]どれほど言葉を真似ようと、どこまでも低脳よな。
+[k]
+
+＠ギルガメッシュ
+あれは考え得る中で最大の戦果だ。[r]……女神にもマシな連中がいるのだな。
+[k]
+
+[charaFace B 0]
+＠ギルガメッシュ
+ティアマト神が飛ぼうとは誰が思おう。[r]これを封じた事こそまさに奇蹟。
+[k]
+
+＠ギルガメッシュ
+あの二人が戦わなければ、[r]ここでウルクは落ちていたわ。
+[k]
+
+[charaFace B 2]
+＠ギルガメッシュ
+しかし、それはそれとして、やはり時間が足りぬ！[r]どうなっている、駄目な方の女神よ！
+[k]
+
+＠ギルガメッシュ
+ケイオスタイドの道はできた！[r]ティアマト到達まであと二時間もなかろう！
+[k]
+
+＠ギルガメッシュ
+冥界の門の施工、どうなっているか！
+[k]
+
+＠エレシュキガル
+無理言わないで！[r]急ピッチで魔力を通しているけど、とにかく広すぎるの！
+[k]
+
+＠エレシュキガル
+冥界の[#路:みち]を壊すつもりで強引に進めても、[r]位相を合わせるのが精一杯！
+[k]
+
+＠エレシュキガル
+とてもじゃないけど、門を開ける作業には入れないわ！
+[k]
+
+[charaFace B 5]
+＠ギルガメッシュ
+ぬぅぅ……！[r]やはりそうなるか[line 3]結末は変えられないと？
+[k]
+
+＠ギルガメッシュ
+…………いや、それは違う。[r]そのために、あやつらは今も駆けているのだから。
+[k]
+
+[charaFace B 2]
+＠ギルガメッシュ
+いいだろう、来るがいいティアマト神！[r]このウルクの全てを以て、貴様を虚数世界に叩き返す！
+[k]
+
+＠ギルガメッシュ
+急ぎ戻るがいい、カルデアのマスターよ！
+[k]
+
+＠ギルガメッシュ
+このウルクの全てをかけた最後の一手、[r]貴様に見せてやろうではないか！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_24 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

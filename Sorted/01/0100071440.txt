@@ -1,0 +1,505 @@
+
+
+
+＄01-00-07-14-4-0
+[soundStopAll]
+[voice NP_100100_1]
+[voiceStop NP_100100_1 0]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98108200 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5018001 1 ギルガメッシュ]
+
+
+[scene 33900]
+[fadein black 1.5]
+[wait fade]
+
+＠第三の門
+ぐ[line 2]わ[line 4]
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+[bgm BGM_EVENT_4 0.1]
+
+＠ギルガメッシュ
+ふははははは笑止！[r]今さら山国アラッタの[#支配者:エ　　ン]なぞウルクの敵ではない！
+[k]
+
+＠ギルガメッシュ
+あらっためて来るがいい！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaScale B 1.12]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-50]
+
+＠イシュタル
+（なにあのギルガメッシュ、メチャクチャ上機嫌じゃない！？[r]　アイツもあんな顔するコトがあるんだ……）
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？1：ノリノリですぞ、王
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+であろう、であろう。[r]久方ぶりの戦い故な、[#王甲斐:おうがい]もなく[#饗宴:はしゃい]でしまったわ。
+[k]
+
+[bgmStop BGM_EVENT_4 1.5]
+
+？2：アラッタって何です？
+
+[bgmStop BGM_EVENT_4 0.4]
+[wt 0.4]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[bgm BGM_EVENT_2 0.1]
+
+＠マシュ
+たしかウルク第一王朝の初代王、[r]エンメルカルのライバルだったアラッタ王かと。
+[k]
+
+＠マシュ
+エンメルカル王はギルガメッシュ王より二代前で、[r]ちなみに、この方も女神イナンナ……
+[k]
+
+＠マシュ
+イシュタルさんに乗せられて、[r]鉱石の豊かなアラッタを攻め落としたとか。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 0,-50]
+
+
+＠イシュタル
+あら。そんなコトもあったかしら。[r]悪いわね、ちょっと記憶にございませ～ん☆
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+？！
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[scene 33800]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[flashin once 0.7 0.7 FFFFFFAF FFFFFF00]
+[se ad65]
+[wt 2.0]
+
+[bgm BGM_EVENT_5 0.1]
+[charaScale B 1.00]
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 0,-50]
+
+＠イシュタル
+……また縮んじゃったわ……[r]こんな姿、お父様に見られたらどれほど嘆かれる事か……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+ふはははははははははははははははははははは！[r]おい[%1]、ドクター・ロマン！
+[k]
+
+＠ギルガメッシュ
+何か記録するものはないのか！　こう、パシャッと[r]するものがあるだろう、パシャッとするものが！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0,-50]
+
+＠イシュタル
+悲しめって！　言ってるのよ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk off]
+[charaFace D 0]
+[charaDepth B 1]
+[charaFadein D 0.1 1]
+[charaFadein B 0.1 200,0]
+[charaMove B 1 0.2]
+[wait charaMove B]
+[se ad102]
+[charaShake D 0.01 4 4 0.3]
+[charaFadeout B 0.1]
+[charaMove D -256,0 0.3]
+[wait charaMove D]
+[se ad75]
+[wt 0.2]
+[charaShake D 0.01 2 2 0.4]
+[charaMove D -256,-256 0.4]
+[charaFadeout D 0.4]
+
+＠ギルガメッシュ
+ごふっ！？
+[k]
+
+
+[seStop ad75 0.4]
+[se ad7]
+[charaFace D 2]
+[charaShake D 0.01 2 2 0.4]
+[charaFadein D 0.4 0,-256]
+[charaMove D 0,0 0.4]
+＠ギルガメッシュ
+何をするたわけ！　物凄い突進力だな！？[r]マシュのファインプレーがなければ深淵まで落ちていたわ！
+[k]
+
+[charaTalk on]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+大型の猫がダンプカー並の衝突エネルギーで[r]突っ込んでくる訳だからね……そりゃ落ちるよね……
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[wt 0.7]
+
+？1：王、深淵とは？
+？2：冥界のさらに下があるのですか？
+
+？！
+
+＠ギルガメッシュ
+あるぞ。メソポタミア世界は天と地、地の下のここ冥界、[r]そしてさらなる深淵と繋がっている。
+[k]
+
+＠ギルガメッシュ
+深淵とは無の海だ。その暗い海よりアプスー神と[r]ティアマト神は現れ、メソポタミアの世界を作った。
+[k]
+
+＠ギルガメッシュ
+言うなれば生命が生まれる前の、黎明の海よ。
+[k]
+
+＠ギルガメッシュ
+深淵を管理するエンキ神も消えた今、[r]落ちれば今度こそ帰っては来られまい。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+ギルガメッシュ王が不老不死の霊草を求めた地、ですね。
+[k]
+
+＠マシュ
+そういえば……[r]冥界といえば英雄エルキドゥも因縁があると聞きます。
+[k]
+
+＠マシュ
+たしかギルガメッシュ王の命を受けて、[r]エルキドゥは冥界に向かい、その様子を伝えたのですよね？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+………………。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+（あれは都合の悪い事を黙って流そうとする笑顔だ！）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 0,-50]
+
+
+＠イシュタル
+あら、詳しいじゃないマシュ。[r]でも真相はも～っと、どうしようもないものよ？
+[k]
+
+＠イシュタル
+あれはね、そこの金ピカ王が新しい[#発明品:がっき]に[r]夢中になって、三日三晩宴会していた時の話で、
+[k]
+
+＠イシュタル
+いいかげん[#五月蠅:うるさ]くて頭にきたエレシュキガルが[r]冥界の門をちょこっと開けたのよ。
+[k]
+
+＠イシュタル
+王さまはしこたま酔ってたから、[r]うっかり穴に楽器を落としちゃったの。
+[k]
+
+[charaFace B 1]
+＠イシュタル
+その時のコイツの取り乱しようったらなかったわ！
+[k]
+
+[charaFace B 0]
+＠イシュタル
+で、見るに見かねたエルキドゥが自分から冥界に行くと[r]申し出たのよ。
+[k]
+
+＠イシュタル
+かくしてエルキドゥは冥界を見聞して、きちんと[r]エレシュキガルに礼を尽くして地上に戻ったのでした、と。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ギルガメッシュ
+ええい！　元はと言えば貴様が[r]“ハルブの木に蛇が住み着いたわ～、助けて～”
+[k]
+
+＠ギルガメッシュ
+などと頼み込んだ末の顛末であろう！[r]あの木を切らねば[#楽器:エルラグ]など作らなかったわ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……待ってください。[r]エレシュキガル女神に礼を尽くした……
+[k]
+
+＠マシュ
+つまり、エルキドゥはエレシュキガル女神と関係がある？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+ああ。ヤツはイシュタルは毛嫌いしたが、[r]エレシュキガルには礼を以て接していたからな。
+[k]
+
+＠ギルガメッシュ
+……エルキドゥの遺体を引き取ったのもエレシュキガルだ。[r]地上に神の兵器の残骸は置いてはおけぬ。
+[k]
+
+[charaFace D 4]
+＠ギルガメッシュ
+冥界であれば誰の目に触れる事なく鎮められよう、と。[r]だが……
+[k]
+
+[charaFace D 5]
+＠ギルガメッシュ
+貴様らが来るまで時間もあった。エルキドゥの墓所の[r]様子を見に行ったが、ヤツの遺体は消えていた。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+！　では、キングゥを名乗るあの少年は、[r]本当にエルキドゥさんなのですか！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 0,-50]
+
+
+＠イシュタル
+再起動したエルキドゥ……という事？[r]でも、エルキドゥの魂は神々によって破壊された。
+[k]
+
+＠イシュタル
+サーヴァントとしてならともかく、[r]この時代に生きる者としてアイツが蘇る事は有り得ない。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+イシュタルめの言う通りだ。[r]あのエルキドゥはエルキドゥではない。
+[k]
+
+＠ギルガメッシュ
+埋葬されたものの、まだ残っていた体に宿るものがあった。[r]それがあの者の在り方だ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+
+＠Dr.ロマン
+……埋葬されたものの、まだ残っていた体に……？[r]……そんな事があるのか？　いや、だとしたら[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+本人もキングゥと名乗っているのであろう？[r]であれば、そのように考えるがよい。
+[k]
+
+＠ギルガメッシュ
+そら、そんな事より第四の門が見えてきたぞ？[r]次はどのような質問か、楽しもうではないか。
+[k]
+
+[se ad60]
+[seVolume ad60 0 0.4]
+[messageOff]
+[bgmStop BGM_EVENT_5 0.4]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+
+[charaFadeout D 0.1]
+[wt 1.0]
+
+[scene 33900]
+[wipein leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[seStop ad60 0.4]
+
+[bgm BGM_EVENT_1 0.1]
+
+
+＠第四の門
+答えよ[line 3][r]答えよ[line 3]
+[k]
+
+＠第四の門
+信仰とは報われぬもの……[r]祈りとは与えるもの……
+[k]
+
+＠第四の門
+人は神に恵みを求めず、ただ恵みを捧げるもの……[r]生涯かけての奴隷である[line 3]
+[k]
+
+＠第四の門
+であれば、答えよ[line 3][r]その尊い労働を受け取る資格ある潔癖な女神は、
+[k]
+
+[input selectBranch]
+[scene 33900]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5018001 1 ギルガメッシュ]
+[messageOff]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+？1：ケッペキ……よく読めない。たぶんイシュタルかな？
+
+[bgmStop BGM_EVENT_1 0.3]
+[messageOff]
+[wt 0.4]
+[se ad233]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+
+＠第四の門
+ＤＥ[line 3]ＳＰ[line 3]ＡＩＲ[line 5][r]ふ[line 3]し[line 3]あ[line 3]な[line 3]！
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+？2：エレシュキガル
+
+[bgmStop BGM_EVENT_1 0.3]
+[messageOff]
+[wt 0.4]
+[se ad232]
+[wt 1.2]
+[bgm BGM_EVENT_3 0.1]
+
+＠第四の門
+Ｈ[line 3]Ｏ[line 3]Ｐ[line 3]Ｅ[line 3][r]さ[line 3]ち[line 3]あ[line 3]れ[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+
+？！
+

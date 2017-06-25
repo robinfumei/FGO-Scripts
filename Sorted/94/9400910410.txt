@@ -1,0 +1,563 @@
+
+
+＄94-00-91-04-1-0
+
+
+
+[charaSet A 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet B 6005001 1 ジャック]
+[charaSet C 5004001 1 ナーサリー・ライム]
+[charaSet D 2001001 1 エミヤ]
+[charaSet E 7009001 1 アステリオス]
+[charaSet F 98006000 1 モンスター]
+
+[soundStopAll]
+[bgm BGM_EVENT_7 0.1]
+
+[scene 32300]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk B]
+[charaFace B 1]
+[charaFace C 1]
+[charaFadein B 0.1 1024,0]
+[charaFadein C 0.1 -1024,0]
+[charaMove B 2 0.4]
+＠ジャック
+お皿、もってきたよー！
+[k]
+
+[wait charaMove B]
+
+[charaMove C 0 0.4]
+＠ナーサリー・ライム
+おじ様、他にお手伝いすることはないかしら！[r]あ、クラッカー！　クラッカーは大事よね！
+[k]
+
+[wait charaMove C]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エミヤ
+おじ様……まあ、確かにおじ様か。[r]童心を訂正してはそれこそ老人だな。
+[k]
+
+[charaFace D 0]
+＠エミヤ
+ああ諸君、待ちなさい。[r]クラッカーを鳴らすときは注意するように。
+[k]
+
+＠エミヤ
+迷宮だと音が響いてしまう。[r]祭りの時ほど隣人への気遣いは大切だぞ？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace B 1]
+[charaFace C 1]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+[charaMove B 256,20 0.2]
+[wait charaMove B]
+[charaMove B 256,0 0.1]
+[wait charaMove B]
+
+[charaMove C -256,20 0.2]
+[wait charaMove C]
+[charaMove C -256,0 0.1]
+[wait charaMove C]
+＠二人
+はーい！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エミヤ
+やれやれ、去年の二の舞を避けるために[r]迷宮で一人静かに過ごそうと思っていたのだがね。
+[k]
+
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アステリオス
+う。[r]ごめん。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠エミヤ
+何、君も巻き込まれた口だろう？[r]もっと堂々としていたまえ。
+[k]
+
+[charaFace D 0]
+＠エミヤ
+異国の風習も祝い事となれば、[r]積極的に受け入れた方がいいのも確かだ。
+[k]
+
+[charaFace D 3]
+＠エミヤ
+マスターも私とほぼ同じ時代の人間だ。[r]イベントと称して騒ぐのが好きな世代なのさ。
+[k]
+
+[charaFace D 1]
+＠エミヤ
+私などを気に掛けることなく、[r]大いに騒ぎ、大いに喜びたまえ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠アステリオス
+うん。[r]くりすます……だっけ？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaMove D 0 0.4]
+[wait charaMove D]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFace C 1]
+[charaFadein B 0.1 -1024,0]
+[charaFadein C 0.1 -1024,0]
+
+[charaMove B 0 0.4]
+[wait charaMove B]
+
+[charaMove B -256,20 0.2]
+[wait charaMove B]
+[charaMove B -256,0 0.1]
+[wait charaMove B]
+＠ジャック
+今年はね、今年はね！[r]サンタさんに、お人形さんをリクエストしたんだよ！
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+＠エミヤ
+君らしからぬ……いや失敬、君らしい微笑ましさだな。[wt 0.3][charaFace D 3]
+[k]
+
+[charaTalk B]
+[charaFace B 1]
+＠ジャック
+わたしたちのお人形さんがこーひょー発売中なんだって！[r]だから、それをプレゼントしてもらうの！
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+＠エミヤ
+ほう、いや待て。[r]それは人形というよりフィギュア[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaMove D 2 0.4]
+[wait charaMove D]
+
+[charaMove C 0 0.4]
+[wait charaMove C]
+
+[charaTalk C]
+[charaMove C -256,20 0.2]
+[wait charaMove C]
+[charaMove C -256,0 0.1]
+[wait charaMove C]
+＠ナーサリー・ライム
+わたしはね、わたしはね、ご本をリクエストしたわ！[r]でも新しいティーセットでも良かったのだけど！
+[k]
+
+＠ナーサリー・ライム
+アステリオスは何をお願いしたの？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アステリオス
+うん？[r]ぼくは、べつになにも[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace B 2]
+[charaFace C 2]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+[charaMove B 256,20 0.2]
+[wait charaMove B]
+[charaMove B 256,0 0.1]
+[wait charaMove B]
+
+[charaMove C -256,20 0.2]
+[wait charaMove C]
+[charaMove C -256,0 0.1]
+[wait charaMove C]
+＠二人
+え[line 5]！！[r]もったいな[line 5]い！！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ジャック
+リクエストするよ！[r]かいたいするよ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エミヤ
+解体……いや、買いたいか！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ナーサリー・ライム
+わたしたちが手伝ってあげるわ。[r]アステリオス、何をお願いしたいの？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アステリオス
+うーん……[wt 0.4]ひみつ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFace C 1]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ジャック
+おねがい、かなうといいね！
+[k]
+
+[charaTalk C]
+＠ナーサリー・ライム
+アステリオスの願いが叶うよう、[r]わたしたちも祈ってるわ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠アステリオス
+ありがとう。[r]みんなも、かなうといいね。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エミヤ
+よし、料理も上がったぞ。[r]後は[line 3]
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace B 1]
+[charaFace C 1]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+[charaMove B 256,20 0.2]
+[wait charaMove B]
+[charaMove B 256,0 0.1]
+[wait charaMove B]
+
+[charaMove C -256,20 0.2]
+[wait charaMove C]
+[charaMove C -256,0 0.1]
+[wait charaMove C]
+
+[charaMove B 256,20 0.2]
+[wait charaMove B]
+[charaMove B 256,0 0.1]
+[wait charaMove B]
+
+[charaMove C -256,20 0.2]
+[wait charaMove C]
+[charaMove C -256,0 0.1]
+[wait charaMove C]
+＠二人
+サンタさんを待つだけ！！
+[k]
+
+
+
+[messageOff]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[se ad187]
+[seVolume ad187 0 0.2]
+[seStop ad187 1.0]
+
+[wt 1.0]
+
+[charaTalk on]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アステリオス
+……あ。[r]めいきゅうに、だれかきたみたい。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFace C 1]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ジャック
+きっとサンタさんだね！
+[k]
+
+[charaTalk C]
+＠ナーサリー・ライム
+お出迎えしてあげましょう！
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[wt 0.4]
+
+[se ad184]
+[seStop ad184 1.0]
+
+[charaMove C -1024,0 0.4]
+[charaMove B -1024,0 0.7]
+[wait charaMove C]
+[wait charaMove B]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エミヤ
+元気なことだ。
+[k]
+
+＠エミヤ
+アステリオス、彼女たちが出迎えに行っている間に、[r]準備をしよう。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アステリオス
+さらをならべる……うん、わかった。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エミヤ
+……む。[se ad15]カルデアから秘匿通信……だと？[r]オフの私の連絡先を把握しているとは……もしもし？
+[k]
+
+[fadeout black 2.0]
+[messageOff]
+[bgmStop BGM_EVENT_7 2.0]
+[wt 2.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_5 0.4]
+[scene 21501]
+
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……道に迷いましたね……。
+[k]
+
+？1：迷ったね、見事に
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+はい。迷宮なんてノリでクリアできると思った[r]私の見込みが甘かったです……。
+[k]
+
+？2：ずんどこ歩くから……
+
+[charaFace A 2]
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+こ、こっちが目的地かなって、啓示があったんです！[wt 0.3][r]冷[charaFace A 4]静に振り返ると、単なる気のせいでしたけど！
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.4]
+
+
+
+[messageOff]
+
+[se ad25]
+[seVolume ad25 0 0.5]
+[wt 1.5]
+[seStop ad25 1.5]
+
+[charaFace A 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+む、何か居ます！[wt 0.3][r]良[charaFace A 6]かった、きっとクリスマスのリクエストをした方ですね！
+[k]
+
+[charaFace A 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+こんにちは、ジャンヌ・ダルク・オルタ・サンタ・リリィです。[r]さあ、貴方たちへの贈り物は[line 3]
+[k]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_3 0.4]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠モンスター
+オマエヲ、ハライッパイ、クッテヤルゼェ！！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 4 4 1.0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ギャ[line 3]！
+[k]
+
+？1：プレゼントはワ・タ・シ？
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+そんな甘そうな贈り物、持ってきてません！[r]そういうのは、その、[charaFace A 0]オトナになってからでは！
+[k]
+
+？2：ラビリンス飯
+
+[charaFace A 2]
+＠ジャンヌ・オルタ・サンタ・リリィ
+食べられるのこっちじゃないですかやだもー！
+[k]
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[soundStopAll]
+[end]

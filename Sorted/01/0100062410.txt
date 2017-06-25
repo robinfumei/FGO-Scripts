@@ -1,0 +1,519 @@
+＄01-00-06-24-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1012001 1 ベディヴィエール]
+[charaSet E 5022001 1 三蔵]
+[charaSet F 2014000 1 俵藤太]
+[charaSet G 98002000 1 フォウ]
+[charaSet H 1020000 1 ランスロット]
+
+[scene 28800]
+
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォ[line 3]ウ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace A 0]
+[charaFace E 0]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+
+＠三蔵
+[#羯諦:ギャテイ]、[#羯諦:ギャテイ]。外に出られてネコさんも大喜びね。[r]もちろんあたしも喜無量心、喜びで口がにやけるわ！
+[k]
+
+[charaFace A 1]
+＠マシュ
+長い地下通路でしたからね。[r]砂嵐も止んでいるようです。
+[k]
+
+＠マシュ
+恐らく、アトラス院の真上だからでしょう。[r]ここは太陽王の領域ではない訳ですし。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠俵藤太
+そう喜んでばかりはいられぬようだぞ？[r]出口で待ち伏せとは、まこと気の長い男よ。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[se ad60]
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠ランスロット
+[line 6]。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+サー・ランスロット……！[r]マスター、包囲されてます……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+逃走劇はここまでだ。[r]もはや逃げ道はない。大人しく[#縛:ばく]につけ。
+[k]
+
+[charaFace H 5]
+＠ランスロット
+こちらもこれ以上時間をかける事はできん。[r]抵抗するのなら、誰であれ容赦なく斬り捨てる。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+
+[se ad60]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠ベディヴィエール
+……本気のようですね。[r][%1]、お下がりください。
+[k]
+
+＠ベディヴィエール
+円卓の騎士の不始末は、円卓の騎士がケリをつける。
+[k]
+
+
+？1：……その前に最後の確認をしたい
+？2：……聖槍の話をしておきたい
+
+？！
+
+
+[charaFace B 3]
+＠ベディヴィエール
+そ、それは確かに。[r]……私も頭に血が上っていました。
+[k]
+
+[charaFace B 4]
+＠ベディヴィエール
+円卓の騎士はみな王を信じていますが、[r]聖槍の正体を知っているとは限らない[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。もし聖都の、聖槍の正体を知らないまま[r]獅子王に仕えていたのなら、説得はできる筈です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+ランスロット卿、戦う前に一つ尋ねます！[r]卿は聖槍の正体を、獅子王の目的を知ってますか！？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+……なに？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+聖都は理想都市ではない。あれは最果ての塔。[r]理想の人間を集め、収容する檻であり[line 3]
+[k]
+
+＠ベディヴィエール
+それが成った時、この大地はすべて消滅する！[r]獅子王の行いは人の領域を超えたものだと！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+………………まさか。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+＠マシュ
+（ランスロット卿、剣を下ろしました……！[r]　やっぱり円卓の騎士も聖槍の事は知らされていな、）
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+[charaFadeout H 0.4]
+[wt 0.6]
+[charaScale H 1.5]
+[wt 0.1]
+[charaFadein H 0.2 1]
+
+[se bac94]
+[shake 0.05 0 4 0.5]
+
+＠ランスロット
+ぬん！
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+
+[se bac95]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[charaEffect B bit_talk_12]
+[charaShake B 0.05 3 3 0.5]
+[wt 1.0]
+[charaScale H 1.0]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+まさか、卿がそこまで知っているとはな。[r]この者たちも同様という訳か。
+[k]
+
+[charaFace H 5]
+＠ランスロット
+……ますます逃がす訳にはいかん。[r]いたずらに恐怖をまき散らす事になる。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+ぐっ……！[r]ランスロット、貴方は……！
+[k]
+
+[charaFace B 2]
+＠ベディヴィエール
+聖槍を知っていながら、王に仕えるのですか！[r]過ちを知った上で、なお！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+くどい！[r]我ら円卓に王への不忠はない、と言った筈だ！
+[k]
+
+[charaFace H 0]
+＠ランスロット
+聖抜が終わり、相応しい人間が聖都を満たした時、[r]最果ての塔の扉は開かれる。
+[k]
+
+＠ランスロット
+それは我ら円卓を召喚した際、[r]まっさきに獅子王が宣言した事。
+[k]
+
+＠ランスロット
+我らは、その言葉に従うと誓った。[r]その理想の下、我らは同胞である十字軍を[#屠:ほふ]り[line 3]
+[k]
+
+[charaFace H 5]
+＠ランスロット
+この時代、すべての人間の敵になると決めたのだ。[r]……王の行いに、人ならざる意思を感じてもな。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+話はここまでだ。[r]異論あらば、首をかけて王の御前で語るがいい！
+[k]
+
+
+[messageOff]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.4 1]
+[wt 0.5]
+
+[se ad32]
+[charaEffect A bit_talk_14]
+[charaShake A 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaMove A 2 0.8]
+[charaMove B 0 0.8]
+[wait charaMove]
+
+[charaFace A 2]
+＠マシュ
+た[line 4]あっっっっっ！[r]お[line 2]こ[line 2]り[line 2]ま[line 2]し[line 2]た[line 3]っ！！！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+なに！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace A 2]
+[charaFace B 3]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠ベディヴィエール
+レディ！？
+[k]
+
+？1：マシュ！？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+私のアロンダイトを真っ向から受け止める……？[r]いや、この盾、この気配……君は、まさか……！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+完全に怒り心頭です！　私の中にはもういませんが、[r]きっと彼もそうだと思います！
+[k]
+
+＠マシュ
+ですので、代弁させていただきます！[r]サー・ランスロット！　いい加減にしてください！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+い、いい加減にしてください……？[r]まさか、私は叱られているのか……！？
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いいえ、[#憤慨:ふんがい]しているのです！[r]それでもアーサー王が最も敬愛した騎士なのですか！？
+[k]
+
+＠マシュ
+王に疑いがあるのなら[#糾:ただ]す！[r]王に間違いがあるのならこれと戦う！
+[k]
+
+[charaFace A 7]
+＠マシュ
+それが貴方の[#騎士道:こころ]のはず。[r]それが貴方だけに託された役割でしょう……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠ランスロット
+待て。待つんだ。待ちなさい！[r]親を親とも思わない口ぶり、片目を隠す髪……
+[k]
+
+＠ランスロット
+君は、もしや[line 3]！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+もはや言葉は不要です、サー・ランスロット！[r]改めて、貴方に決闘を申し込みます！
+[k]
+
+？1：マシュ[line 4]！？
+
+？！
+
+＠マシュ
+ご安心を、マスター！[r]わたしは決して、あの人には負けませんっ！
+[k]
+
+[charaFace A 5]
+＠マシュ
+この盾が、この鎧が、この胸が、そう叫んでいるのです！[r]だって、だって[line 3]！
+[k]
+
+
+[se ad29]
+[messageOff]
+[fadeout white 0.8]
+[wait fade]
+
+[charaChange A 8001002 0 fade 0]
+[wt 0.5]
+
+[fadein white 3.0]
+[wait fade]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaFadein G 0.1 0]
+
+＠フォウ
+フォ[line 3]ウ！
+[k]
+
+[charaFace B 10]
+＠ベディヴィエール
+[line 3]レディ。いえ、マシュ殿……！[r]その姿は、まさしく……！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+わたしはマシュ・キリエライト、[r]与えられた英霊の[#真名:な]はギャラハッド！
+[k]
+
+[se ad51]
+＠マシュ
+この[#霊基:からだ]にかけて、[r]今こそ円卓の不浄を断ちましょう[line 3]！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

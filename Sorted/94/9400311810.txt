@@ -1,0 +1,738 @@
+＄94-00-31-18-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98064000 1 臓硯]
+[charaSet E 98066000 1 黒アイリ]
+[charaSet F 98062000 1 アイリスフィール]
+[charaSet G 3002000 1 ディルムッド]
+[charaSet H 1001000 1 アルトリア]
+
+[scene 20200]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠マシュ
+バーサーカー、撃退しました！
+[k]
+
+？1：ロード・エルメロイの容体は？
+
+？！
+
+[charaFace A 4]
+＠マシュ
+意識不明の重体です。一刻も早く手当の必要があります。[r]でも、バーサーカーを倒してしまったという事は……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠臓硯
+カカカ、クカカカカッ！　大馬鹿者どもめ。[r]みすみす自ら儀式の達成に手を貸してくれようとはなァ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そうか、今ので五人目のサーヴァントが脱落……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠臓硯
+ここまで来れば小聖杯で生贄の魔力を汲み取るまでもない。[r]直接に大聖杯に注ぎ込む。我が生涯最後の術式をもって！
+[k]
+
+[messageOff]
+[se ad39]
+[wt 0.15]
+[flashin once 0.3 0.7 FFFFFFAF FFFFFF00]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+ッ！？　私が蓄えていた魔力が抜けていく……。[r]ゾォルケン、[charaFace F 2]あなたなの！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠臓硯
+いいや……儂はただ目覚めを促しただけさ……[r]おぬしのような偽物でなく、本物の器にのォ……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+マスター！[r]大聖杯から誰か……人が出てきます！
+[k]
+
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.2]
+
+[bgmStop BGM_EVENT_5 0.1]
+[se ad36]
+[se ad46]
+[seStop ad36 1.0]
+
+[bgm BGM_EVENT_15 0.1]
+[messageOff]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.7 1]
+[wt 1.0]
+＠黒アイリ
+大義であったぞ、マキリ・ゾォルケン。[r]フフ、しばらく見ぬ間にまた随分と萎びたものよな。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠臓硯
+おおおお、おおおおお……ユスティーツァ、天の杯よ……[r]なんと麗しき姿……。
+[k]
+
+[charaFace D 3]
+＠臓硯
+そうか……そうだったか……[r]おまえの面影を偲ぶためだけに、儂は……。
+[k]
+
+[charaFace E 0]
+＠黒アイリ
+[#耄碌:もうろく]したな我が仇敵よ。だがもう良い。役目は終わりだ。[r]果たし得なかった[charaFace E 2]理想を夢見ながら逝くがいい。
+[k]
+
+[messageOff]
+
+[charaMove E 1 0.1]
+[wait charaMove]
+
+[se bac13]
+[fowardEffect bit_talk_35]
+[charaShake D 0.05 3 3 0.25]
+[wt 1.0]
+
+[charaSpecialEffect D erasure 1 1.7]
+
+[wt 0.7]
+[se ad46]
+[wait charaSpecialEffect D]
+[wt 1.0]
+
+[charaSet D 6015001 1 アサシン？]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+ゾォルケン！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ディルムッド
+バーサーカーのマスターが……食われた！？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠黒アイリ
+足りぬなぁ……まだまだ足りぬ。[r]たかだか五騎の英霊では、我が器は満たされぬ。
+[k]
+
+[charaFace E 3]
+＠黒アイリ
+私を呼び覚ましておきながらこの程度の供物しかないと？[r]饗応の支度がまるで成ってないではないか！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+ユスティーツァ・リズライヒ……いいや違う、[r]この世すべての悪に汚染された聖杯の、なれの果て！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠黒アイリ
+おお？　我が末裔にあるまじき妄言を。我こそは天の杯。[r]根源に至り全ての悪を根絶する、第三魔法の具現であるぞ。
+[k]
+
+[charaFace E 2]
+＠黒アイリ
+さあ捧げよ。その命、その魂を！[r]おまえたち全てを糧に、千年の悲願は成就せり！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace H 0]
+[charaFace G 5]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠ディルムッド
+セイバー、こいつは……！
+[k]
+
+[charaFace H 5]
+＠アルトリア
+ああ、この魔力の密度……我々だけでは到底、[r]勝機はない！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そうか……孔明、いやエルメロイⅡ世が[r]倒れてしまったから、戦力が足りないのか……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFace G 5]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アルトリア
+彼が無事ならばまだ拮抗もできた。だがサーヴァント[r]一騎が欠ければ勝負の趨勢は一気に傾く！
+[k]
+
+＠ディルムッド
+とりわけこれほどの強敵ともなれば致命的な戦力差だ。[r]ここは撤退しかない！
+[k]
+
+＠アルトリア
+我々二人で奴を足止めし、マスターたちを避難させる。[r]いいな？　ランサー！
+[k]
+
+＠ディルムッド
+心得た！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+そんな、セイバー！[r]あなたたちはどうするの！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFace G 5]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠アルトリア
+マスターさえ安全圏に逃れてくれれば、我々は令呪の[r]強制力で即座に戦線を離脱できます。
+[k]
+
+[charaFace H 5]
+＠アルトリア
+全ては令呪を持つあなたたちの安否にかかっている！[r]さあ、急いで！
+[k]
+
+＠ディルムッド
+盾の英霊、抑止力のアサシン！[r]マスターたちの護衛を頼む。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠アサシン？
+ああ、心得た。
+[k]
+
+[charaFace A 2]
+＠マシュ
+わ、分かりました！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_15 2.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet F 98061000 1 ウェイバー]
+
+[scene 20110]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.5]
+
+[se ad7]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……ッ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+良かった、気がつきました！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォ～ウ？
+[k]
+
+
+[charaFace D 4]
+＠エルメロイ
+クッ……霊核が無事でも身体が動かんのでは……[r]これが疑似サーヴァントの限界か……。
+[k]
+
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……セイバーと、ランサーは？
+[k]
+
+？1：大聖杯の中身と戦ってる
+
+？！
+
+[charaFace D 5]
+＠エルメロイ
+ッ！　まさか我々を逃がすために？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+はい。今の戦力では勝ち目はないと……。
+[k]
+
+[charaFace D 2]
+＠エルメロイ
+駄目だ！　逃げたところで補充する戦力がなかろうが！[r]今この場で踏みとどまって戦うしかない！
+[k]
+
+
+
+[se ad60]
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 -900,0]
+[charaMove A 900,0 0.5]
+[charaMove D 2 0.5]
+[charaMove F 0 0.5]
+[wait charaMove]
+[charaFadeout A 0.1]
+[seStop ad60]
+＠ウェイバー
+じゃあどうしろってんだよ！？　あんた、[r]もう加勢できる体力なんて残ってないじゃんか！
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaFace D 0]
+＠エルメロイ
+ウェイバー・ベルベット、貴様が切り札だ。
+[k]
+
+[charaFace F 1]
+＠ウェイバー
+……え？
+[k]
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaFace D 1]
+＠エルメロイ
+知っているぞ。お前というガキを。
+[k]
+
+[charaFace D 7]
+＠エルメロイ
+無力な自分が疎ましい。自らの無能が、凡庸さが憎い。[r]世に誇れるだけの才がないと、劣等感に凝り固まった……。
+[k]
+
+[charaFace F 2]
+＠ウェイバー
+な、何なんだアンタ？　まさか……。
+[k]
+
+＠エルメロイ
+自らの弱さを嘆くという……[charaFace D 0]その甘ったれた青臭い夢から、[r]今すぐに醒める覚悟はあるか？
+[k]
+
+＠エルメロイ
+身に余る力を揮うことの恐怖を。その重すぎる責任が[r]もたらす戦慄を。まだ青二才のうちに味わってみるか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ロード・エルメロイ、君は何を！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_1 1.0]
+
+[charaTalk F]
+[charaFace D 0]
+[charaFace F 0]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+
+＠ウェイバー
+……。
+[k]
+
+[bgm BGM_EVENT_16 0.1]
+
+[charaFace F 7]
+＠ウェイバー
+いいよ。やってやるさ。[r]他にマシな手段なんてないんだろ？
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+フフ、やはり貴様は馬鹿だ。身の程知らずの愚か者だ。[r]まったく何も分かってない。
+[k]
+
+＠エルメロイ
+だが、だからこそ……彼はおまえのようなガキに目を[r]かけてくれたのだろうな……。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+彼方にこそ、栄えあり、か……。
+[k]
+
+[charaFace F 7]
+＠ウェイバー
+教えろ！　何をすればいい？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+私の手を握り、そして念じろ……[r]「それ必勝の術、合変の形は機に在るなり」と。
+[k]
+
+[charaTalk F]
+[charaMove F 1 0.7]
+[wt 0.7]
+[se ad7]
+＠ウェイバー
+えっと……[r]それ必勝の術、合変の形は……機に、在るなり……。
+[k]
+
+[messageOff]
+[se ad39]
+[charaEffect F bit_talk_15]
+[wt 1.0]
+[charaFace F 7]
+[wt 0.25]
+[wt 0.25]
+[charaEffect F bit_talk_17]
+[fadeout white 0.5]
+[wait fade]
+
+[charaEffectStop F bit_talk_17]
+[charaSet F 5019002 1 ウェイバー]
+[wt 0.1]
+[charaEffect F bit_talk_17]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+[charaEffectStop F bit_talk_17]
+[wt 2.0]
+[se ad42]
+
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.5]
+[charaFace F 2]
+＠ウェイバー
+うわ！　うわぁぁぁ！
+[k]
+
+[charaFace F 4]
+＠ウェイバー
+何これ？　何なんだよこれ！？　ボクは一体……。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+ああ、かの軍師のお眼鏡に叶ったみたいだな。[r]かりそめの依代として、おまえを認めてくれたようだ。
+[k]
+
+＠エルメロイ
+私のこの壊れかけの身体の代わりに、[r]さぞや存分にコキ使ってくれるだろうさ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace D 1]
+[charaFace F 3]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+
+＠ウェイバー
+分かる……ボクの中に何かが居る……[r]諸葛、孔明、って……えええ！？
+[k]
+
+＠エルメロイ
+喜べ少年。今こそおまえは夢見たとおりの英雄だ。さあ、[r]できるか？　目指したモノに恥じぬだけの働きが。
+[k]
+
+[charaFace F 2]
+＠ウェイバー
+……ああ、やってやる！　やりゃいいんだろ！
+[k]
+
+
+＠エルメロイ
+[%1]、[r]済まんがこの未熟な疑似サーヴァントを頼む。
+[k]
+
+
+＠エルメロイ
+やや心許ないが戦力にはなるだろう。[r]戻って、セイバーとランサーに加勢を！
+[k]
+
+？1：わかった！
+？2：まかせとけ！
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+急ぎましょう先輩！　セイバーさんとランサーさんが[r]まだ持ちこたえているうちに！
+[k]
+
+[messageOff]
+[se ba2]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[scene 20200]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+[wt 0.5]
+
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+
+＠黒アイリ
+ハハハハッ、この程度のものなの？　不甲斐ない英霊たち。[r]みすみす我が糧になるために居残ったようなものね。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace H 5]
+[charaFace G 4]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠ディルムッド
+くッ……まずいな、そろそろ限界か……。
+[k]
+
+＠アルトリア
+想像していた以上に手強い！[r]このままでは……。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[se ad60]
+[wt 0.5]
+[seStop ad60]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.4 1]
+＠ウェイバー
+このまま押し切るんだ！　もうちょっと頑張って！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace H 2]
+[charaFace G 2]
+[charaFadein H 0.1 2]
+[charaFadein G 0.1 0]
+
+＠ディルムッド
+ッ！？　なぜ戻った！？
+[k]
+
+[charaFace H 5]
+＠アルトリア
+いや、ランサー、この少年は先ほどとは違う……[r]この魔力、明らかにサーヴァント……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ウェイバー
+こちらの戦力は従来通り。それに加えてセイバー、[r]ランサー、さらに抑止力のアサシン……。
+[k]
+
+[charaFace F 2]
+＠ウェイバー
+これであいつの見積もった布陣は整った！[r]あとは采配だけだ。いいね？　[%1]！
+[k]
+
+？1：これが最後の戦いだ！
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠黒アイリ
+愚かな……まとめて喰らい尽くしてあげましょう。[r]我が[charaFace E 2]杯の中で原初に還りなさい！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

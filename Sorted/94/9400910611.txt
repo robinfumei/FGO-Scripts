@@ -1,0 +1,201 @@
+
+
+＄94-00-91-06-1-1
+
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 5004001 1 ナーサリー・ライム]
+[charaSet C 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+[charaSet D 98105700 1 サンタム]
+[charaSet E 98105600 1 サンタアイランド仮面]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 21803]
+
+[fadein black 2.0]
+[wait fade]
+
+
+
+？1：こちらの勝ちですよ
+？！
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠サンタム
+フッ……そして、私の敗北か。
+[k]
+
+[messageOff]
+
+[charaMove D 0,-256 0.7]
+[wt 0.4]
+[charaFadeout D 0.7]
+[wait charaMove D]
+[wt 0.4]
+
+[se ad144]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……何か、極めて手抜きをされていた気がしますが……。[r]ともかく、勝ったのでよし！　とします。
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.7 0,-64]
+[charaShake D 0.05 0 2 1.0]
+[charaMove D 1 1.0]
+[wait charaMove D]
+＠サンタム
+ならば先に進むがいい。[r]如何なる時もサンタであることを忘れるな。
+[k]
+
+＠サンタム
+そして、誰が敵であろうとも……[r]サンタの本分を忘れるな。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠ナーサリー・ライム
+大丈夫よ、だってジャンヌは立派なサンタだもの！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠サンタム
+では我々は負け犬らしく、[r]消え去るとしよう。
+[k]
+
+[messageOff]
+[charaSpecialEffect D erasure 1 1.2]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+……。[r]……。
+[k]
+
+？1：どうしたの？
+
+[charaFace C 0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+あ、いえ！[r]いよいよ海まで、あと少しですね！
+[k]
+
+？2：顔色が悪いけど……
+
+＠ジャンヌ・オルタ・サンタ・リリィ
+何でもありません！[r]大丈夫です、そう、大丈夫……。
+[k]
+
+？！
+
+[wipeout circleIn 2.0 1.0]
+[wt 0.4]
+[messageOff]
+[wait wipe]
+
+[charaFadeout C 0.1]
+
+[wt 0.7]
+
+[scene 30640]
+[wt 0.1]
+
+[wipein circleIn 0.7 1.0]
+
+[bgm BGM_EVENT_5 0.4]
+[wait wipe]
+
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.7 2]
+＠サンタアイランド仮面
+それでは、最後の壁となりに行きましょう！
+[k]
+
+[charaTalk A]
+[se ad13]
+[communicationChara 98003003 0 5 0 1]
+[wt 0.3]
+＠Dr.ロマン
+実に楽しそうだね、天……もとい、[r]サンタアイランド仮面くん。
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+＠サンタアイランド仮面
+それはもう、久方ぶりの悪役。
+[k]
+
+[charaFace E 1]
+＠サンタアイランド仮面
+おまけに裏切りも増し増しとなると、[r]やる気を出さずにはいられません。
+[k]
+
+＠Dr.ロマン
+ははははは。[r]キミ、本当にルーラー？
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+＠サンタアイランド仮面
+ふふふ、何を仰る。[r]今の私は謎のサンタアイランド仮面。
+[k]
+
+＠サンタアイランド仮面
+仮面の男など、裏切るか悪役か、[r]さもなくば名乗れぬ正義の味方の三択でしょう？
+[k]
+
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+あ、正義の味方じゃないんだ。
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+＠サンタアイランド仮面
+少女の夢に立ちはだかる男を、[r]正義の味方とは呼びたくありませんね。
+[k]
+
+＠サンタアイランド仮面
+……という訳で、サンタアイランド仮面。[r]推して参ります。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[soundStopAll]
+[end]

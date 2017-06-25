@@ -1,0 +1,785 @@
+＄94-00-61-63-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2025100 1 メアリー]
+[charaSet C 98100800 1 うりぼう]
+[charaSet D 98101000 1 うりぼう]
+[charaSet E 98101200 1 うりぼう]
+[charaSet F 98002000 1 フォウ]
+[charaSet G 5027000 1 マリー]
+[charaSet H 2025200 1 アン]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠マリー
+さん、はい♪
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk off]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠うりぼうｓ
+でゅ～わ～♪
+[k]
+
+＠うりぼうｓ
+ばらぼんばらぼん～♪
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk on]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠マリー
+はい、お上手よ。[r]もっと続けてみて！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk off]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠うりぼうｓ
+えろいむえっさいむ～♪
+[k]
+
+＠うりぼうｓ
+ふんぐるい　むぐるうなふ　くとぅるう　るるいえ[r]うがふなぐる　ふたぐん♪
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk on]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠マリー
+あれ、何か違うような？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+うりぼうさんの歌声はいいですね。[r]癒されます。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFace H 0]
+[charaFadein B 0.1 2]
+[charaFadein H 0.1 0]
+
+＠メアリー
+そう？[r]ボクはもうちょっと過激な歌の方がいいんだけど。
+[k]
+
+[charaFace B 1]
+＠メアリー
+こう、海賊らしく世間に反抗するロックな感じのさ。
+[k]
+
+[charaFace H 4]
+＠アン
+……途中、充分に過激な呪文があったような[r]気がしたのですけど……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠マリー
+うん、上手い上手い。
+[k]
+
+[charaFace G 0]
+＠マリー
+綺麗な歌声は人を癒すもの、[r]うりぼうさんも歌うことを忘れちゃダメよ？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk off]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠うりぼうｓ
+はーい。
+[k]
+
+[charaTalk on]
+
+＠C：うりぼう
+歌はいいでありますなー。
+[k]
+
+＠D：うりぼう
+文明の極みであります。
+[k]
+
+＠E：うりぼう
+歌を唄えば世界平和は訪れ、[r]武器兵器は消滅し、世界は大混浴温泉になるでありますか？
+[k]
+
+[charaFace D 0]
+[charaFace C 0]
+＠C：うりぼう
+ならない。
+[k]
+
+[charaFace E 0]
+＠E：うりぼう
+そうでありますかー。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マリー
+[FFFFFF]？？？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あれは分かっていない感じの顔ですね。[r]さすが仏ナンバー１のアイドルです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠C：うりぼう
+アイドル。[r]良い響きでありますな。
+[k]
+
+＠E：うりぼう
+コンサートとか、いかがでありますか。[r]実力を試してみたいであります。
+[k]
+
+＠C：うりぼう
+やろう。
+[k]
+
+＠D：うりぼう
+やろう。
+[k]
+
+＠E：うりぼう
+そういうことになった。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マリー
+え、どういうこと？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+
+[charaFace E 1]
+[charaFadein E 0.1 0]
+
+＠E：うりぼう
+女神様。[r]我々、コンサートを開きたいであります！
+[k]
+
+[charaFace G 6]
+＠マリー
+……………………素敵！[r]とってもとっても素敵よ、うりぼうさん！
+[k]
+
+＠E：うりぼう
+照れますなー。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マリー
+でも、それならちゃんとした場所で[r]コンサートをやりたいわね。
+[k]
+
+＠マリー
+……そう言えば、この間建設したのは……。
+[k]
+
+[charaFace G 1]
+＠マリー
+マスター！[r]良いことを思いつきました！
+[k]
+
+[messageOff]
+[charaFadeout G 0.5]
+[scene 20320 1.0]
+[wt 2.0]
+[scene 20700 1.0]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.5 1]
+
+[wait scene]
+
+＠マシュ
+うりぼうさん達によるコンサート……ですか。[r]な[charaFace A 13]かなか素敵なアイデアだと思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠マリー
+でしょう？[r]早速招待状を作りましょう！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠C：うりぼう
+招待状でありますか？
+[k]
+
+＠D：うりぼう
+即ち悪魔のでありますな。
+[k]
+
+＠E：うりぼう
+ざんねん！[r]きみのぼうけんは！
+[k]
+
+＠C：うりぼう
+まだ始まったばかりでありますからな……。
+[k]
+
+＠D：うりぼう
+あれ、なんか違うですぞそれ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……うりぼうさん達、手を動かしましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk off]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠うりぼうｓ
+はーい。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk on]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 0.5]
+[wait wipe]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+[wt 0.5]
+
+[wipein rollLeft 1.5 0.5]
+[wait wipe]
+
+＠マリー
+招待状が沢山作れましたね。[r]これをうりぼうさん達に配りましょう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+
+[charaFace E 1]
+[charaFadein E 0.1 0]
+
+＠E：うりぼう
+印税生活でありますなー。
+[k]
+
+＠マリー
+それはまた今度で。
+[k]
+
+[charaFace E 0]
+＠E：うりぼう
+女神様、女神様。[r]どなたにお配りすればよろしいでしょう？
+[k]
+
+[charaFace G 4]
+＠マリー
+誰……ですか。[r]うーん、仲良くしたい人でいいのでは？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠C：うりぼう
+仲良くしたいですなー。
+[k]
+
+＠D：うりぼう
+世界中に愛と感動を届けたいでありますなー！
+[k]
+
+＠C：うりぼう
+愛も感動もただでありますからなー！
+[k]
+
+＠E：うりぼう
+[#無料:フリー]……良い響きでありますなー。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠マリー
+さ、[%1]さんもマシュさんも[r]招待状を皆さんに届けて下さい。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ええ、分かりました。
+[k]
+
+？1：了解！
+？！
+
+[charaFace A 0]
+＠マシュ
+さて……先輩、どうしましょう。[r]まずはうりぼうさん達に配ってみますか。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[charaTalk off]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+[scene 20703]
+
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk on]
+＠C：うりぼう
+ありがたき幸せ。
+[k]
+
+＠D：うりぼう
+なまんだぶなまんだぶ。
+[k]
+
+＠E：うりぼう
+[#小隊長:マスター]さんの招待状、[r]プレミアがつくでありますなー。
+[k]
+
+＠C：うりぼう
+オークション、オークションであります。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+プレミアはつかないので、[r]招待状を使ってあげてくださいね……。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFace A 0]
+
+[scene 20700]
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+＠マシュ
+結構なうりぼうさん達に配ったはずですが、[r]まだまだ招待状はたっぷりあります。
+[k]
+
+[charaFace A 12]
+＠マシュ
+しかし、ほとんどのうりぼうさんは[r]招待状を見せびらかしてますね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠C：うりぼう
+ご覧になるですか。[r]我が招待状のスペシャルな印刷具合を。
+[k]
+
+＠D：うりぼう
+僕の招待状の方が豪華でありますぞ。[r]色は骨白、書体はしり？　しりあーん・れいる？
+[k]
+
+＠E：うりぼう
+にわか知識であります。
+[k]
+
+＠C：うりぼう
+物質文明の末路を思わせる会話でありますなー。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+フォウさんが『アウト！』と言いたげです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ともかく、うりぼうさん達にはこれ以上配っても[r]意味がなさそうですね……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠マリー
+マシュさん、マスター。[r]どうしました？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace G 0]
+[charaFadein A 0.1 2]
+[charaFadein G 0.1 0]
+
+＠マシュ
+招待状をあらかた配り終えたのですが……。
+[k]
+
+＠マリー
+うーん……[charaFace G 1]そうだわ！[r]他のサーヴァントも招待しましょう。
+[k]
+
+＠マリー
+みんな、うりぼうさんの歌を聴きたがると[r]思うわ。
+[k]
+
+[charaFace A 14]
+＠マシュ
+そ、そうでしょうか。
+[k]
+
+[charaFace G 6]
+＠マリー
+それじゃ、手当たり次第に招待状を[r]ねじり込みに行きましょう！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[charaSet B 2026000 1 アルトリア]
+[charaSet H 4024000 1 モードレッド]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[scene 30700]
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+
+＠アルトリア
+うりぼうたちの歌……ですか？[r]なるほど、良い試みですね。
+[k]
+
+＠アルトリア
+もうすぐ建物が出来上がるので、少し遅れると[r]思いますが、必ず向かいます。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+[scene 30640]
+
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[charaFace H 2]
+＠モードレッド
+はぁ、うりぼうどもの歌？[r]きょ、興味ねーなー。オレ不良だしな！
+[k]
+
+[charaFace H 5]
+＠モードレッド
+あと、純粋にサーフィンで忙しい！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠マリー
+ダメです。[r]モーさんには是が非でも聴いて貰います。
+[k]
+
+[charaFace G 4]
+＠マリー
+うりぼうさん達も楽しみにしています。[r]もしそれでも断るなら[line 2]。
+[k]
+
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_28 1.5]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠モードレッド
+断るなら？
+[k]
+
+[charaFace H 1]
+＠モードレッド
+何だよ、お后サマ。脅迫したいんなら、[r]ちったぁその細腕に筋肉つけてからにしな！
+[k]
+
+[charaFadeout H 0.1]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+
+＠マリー
+いいえ、こうなったらこのビーチボールで[line 2]。[r]叩きのめして、無理矢理招待状をお渡しします！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠モードレッド
+マジで！？[r]そうか！！
+[k]
+
+[charaFace H 3]
+＠モードレッド
+しょーがねーなー！[r]たまには魔猪じゃなくてサーヴァントを相手にするか！
+[k]
+
+[charaFace H 1]
+＠モードレッド
+よっしゃ、掛かってこい！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,533 @@
+＄91-90-02-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 9002001 1 天草四郎]
+[charaSet D 98006200 1 エネミー]
+
+
+
+[scene 20322]
+[fadein black 2.0]
+[wt 1.5]
+[wait fade]
+
+＠
+救う、という行為は本来傲慢なものです。
+[k]
+
+＠
+ですが、その傲慢さを容認しなくては、[r]人は人を引っ張り上げられない。
+[k]
+
+＠
+個々人を救済するのは簡単です。[r]彼ら彼女らに想いを砕けば、それでいい。
+[k]
+
+＠
+では、世界を救済するとは[r]どういうことなのか。
+[k]
+
+＠
+私は分かったつもりでいるのですが、[r]その実何も分かっていないのかもしれません。
+[k]
+
+＠
+だから、必要なのは問答無用の力。
+[k]
+
+＠
+この世全て、万物を公平に[line 3][r]無慈悲なまでに救済する力。
+[k]
+
+＠
+私が召喚に応じたのは、[r]もちろん人理修復が目的ですが、
+[k]
+
+＠
+それでも、心の何処かで[r]その無慈悲な力を探しているのです。
+[k]
+
+＠
+[line 3]そう、聖杯という無慈悲な救済を。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_1 1.5]
+[wait fade]
+
+[scene 20302]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……はっ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[wt 0.4]
+[charaEffect D bit_talk_14]
+[wt 0.1]
+[shake 0.05 2 2 0.4]
+[se bac10]
+[wait se bac10]
+
+[wt 0.7]
+
+[messageOff]
+[se ad26]
+[wt 0.3]
+[charaSpecialEffect D enemyErasure 1 3]
+[wt 1.0]
+[se ad42]
+[wait charaSpecialEffect D]
+[wt 0.5]
+
+[bgmStop BGM_EVENT_3 1.0]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wait charaFade msh]
+
+[bgm BGM_EVENT_2 1.0]
+
+＠マシュ
+敵消滅、確認しました。[r]お疲れ様でした。
+[k]
+
+[charaFadeout A 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+
+＠Dr.ロマン
+了解、このまま進んでくれ。
+[k]
+
+＠Dr.ロマン
+人理が焼却された状態だと、[r]ちょっとした特異点の発生も見逃せなくなる。
+[k]
+
+＠Dr.ロマン
+忙しい時に悪いんだけど、[r]小さい内に潰した方が、圧倒的に効率がいいんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい、マスターもわたしも承知の上です。
+[k]
+
+＠マシュ
+今回は天草さんも助力してくださるので、[r]問題ないかと。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+いえいえ、サーヴァントが[#髀肉:ひにく]を[r]嘆く有様になってはおしまいでしょう。
+[k]
+
+[charaFace C 1]
+＠天草四郎
+存分にコキ使って下さった方が、いいんですよ。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1.0]
+[wait wipe]
+[charaFadeout C 0.1]
+
+
+[scene 20805]
+[wt 1.5]
+[wipein leftToRight 1.0 1.0]
+[wait wipe]
+
+[wt 1.0]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.7 1]
+
+＠マシュ
+ドクター、方向は合ってますか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+もちろん。[r]その森を突っ切れば、洞窟があるはずだ。
+[k]
+
+？1：急ごう！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+落ち着いて下さい、マスター。[r]急いては事をし損じます。
+[k]
+
+＠天草四郎
+じっくりと待つことも大事ですよ。[r]六十年待った自分が言うのですから、確かです。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……六十年……？
+[k]
+
+？2：のんびりいこう
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+正解です、マスター。[r]焦ったところで良い結果は訪れない。
+[k]
+
+[charaFace C 0]
+
+＠天草四郎
+ましてここは未知の森、[r]何が存在するか分からない以上、慎重に行くべきです。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+そう言えば以前から、不思議だったんだけど。[r]天草くんはどうして、黒鍵を使っているんだい？
+[k]
+
+＠Dr.ロマン
+それ、キミの時代のキミが住んでいた土地には[r]存在しないものだろう？
+[k]
+
+？1：こっけん？
+？2：黒鍵？
+？！
+
+＠Dr.ロマン
+聖堂教会の概念礼装でね。[r]詳しくは知らないが、聖書の断片を刀身とする投擲武器だとか。
+[k]
+
+＠Dr.ロマン
+キミが聖堂教会に所属していたという記録はないし、[r]当時の日本で、この技術が輸入されていた訳もないし……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+ああ、それは簡単です。
+[k]
+
+＠天草四郎
+[#この]私はある聖杯戦争で受肉し、[r]聖堂教会に所属した経験がありますから。
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+な。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[communicationChara 98003003 1 5 0 2]
+
+[shake 0.05 5 5 1.0]
+
+＠Dr.ロマン
+なんだって[line 3]！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+受肉……一部のサーヴァントは、聖杯によって[r]肉を持った経験があると確かに記録がありましたが……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[bgm BGM_EVENT_2 1.0]
+
+＠天草四郎
+とはいえ、こちらの世界の記録とは完全に矛盾しているので、[r]恐らく別の、有り得ない過程を辿った末の出来事です。
+[k]
+
+＠天草四郎
+ですが、サーヴァントとして一番役立つのは、[r]間違いなくこの状態です。
+[k]
+
+[charaFace C 1]
+
+＠天草四郎
+本来、私はルーラーにすら成り得ない[r]三流サーヴァントですからね。
+[k]
+
+＠天草四郎
+頑張って、キャスターに引っかかるかどうか、[r]というところです。
+[k]
+
+？1：メディアさんに教えを乞う？
+
+＠天草四郎
+ははははは。[r]無理です死んでしまいます。
+[k]
+
+＠天草四郎
+神代の魔術師さんたちはこう、[r]こちらが自転車なところをバイクでカッ飛びますからね。
+[k]
+
+[charaFace C 0]
+
+＠天草四郎
+まして私はどちらかと言えば、魔術使いの類。
+[k]
+
+＠天草四郎
+魔術を魔術と考えず、『ただ役立つもの』としか[r]認識できないタイプです。
+[k]
+
+＠天草四郎
+……まあ、他サーヴァントにもそういう感じの人が[r]いらっしゃるようですが……。
+[k]
+
+？2：エジソンに教えを乞う？
+
+[charaFace C 0]
+＠天草四郎
+エジソンさんですか……。
+[k]
+
+＠天草四郎
+……。[r]…[charaFace C 4]…。
+[k]
+
+＠天草四郎
+……あの、概念改良されて腕がロケットになった[r]真・天草四郎爆誕という啓示が舞い降りたのですが……。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+しかし、ルーラーとして召喚される資格がないなら、[r]どうして今のキミはルーラーなんだい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[charaFace C 1]
+＠天草四郎
+ああ、それは簡単です。
+[k]
+
+＠天草四郎
+受肉した例の聖杯戦争において、[r]私のマスターがルールを逸脱したのですよ。
+[k]
+
+[charaFace C 0]
+
+＠天草四郎
+本来、ルーラーとは聖杯戦争を調停するために[r]召喚される、第八のクラスです。
+[k]
+
+＠天草四郎
+その為、ルーラーのマスターは『聖杯』であり、[r]中立的な立場であることを求められます。
+[k]
+
+＠天草四郎
+しかし、私のマスターは聖杯戦争に勝利するために、[r]ルーラーを召喚しようとしたのです。
+[k]
+
+＠天草四郎
+通常の聖杯戦争で召喚されたルーラーには、[r]参加したサーヴァント全騎に対する令呪があります。
+[k]
+
+[charaFace C 1]
+
+＠天草四郎
+本来、令呪はサーヴァントへ自害すら命令できる[r]強力なものですので、
+[k]
+
+＠天草四郎
+ルーラーのサーヴァントさえ使い魔にしてしまえば[r]聖杯戦争には勝ったも同然、という算段だったのです。
+[k]
+
+＠天草四郎
+そうやって私は、反則的な行為でルーラーとして[r]召喚された……[charaFace C 4]されてしまった。
+[k]
+
+＠天草四郎
+その事があり、私はルーラーとして召喚される資格を[r]得てしまったのでしょう。
+[k]
+
+[charaFace C 0]
+
+＠天草四郎
+もっとも、人理を修復する程の非常事態でなければ、[r]召喚される可能性は低いでしょうが……。
+[k]
+
+[charaFadeout C 0.1]
+
+[communicationChara 98003003 1 5 0 0]
+
+＠Dr.ロマン
+なるほど。
+[k]
+
+＠Dr.ロマン
+資格があったから、召喚されたのではなく。
+[k]
+
+＠Dr.ロマン
+そうやって召喚されたからこそ、[r]資格があるのだと誤認したという訳か。
+[k]
+
+＠Dr.ロマン
+どうあれそういう記録があるのなら、[r]呼び出す経路が確立しているということ。
+[k]
+
+＠Dr.ロマン
+二度目の召喚は容易だろうからね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠天草四郎
+召喚された聖杯戦争では、勝利できませんでしたが[r]偶然の積み重ねで私は受肉を果たしました。
+[k]
+
+[wt 0.5]
+[bgmStop BGM_EVENT_2 0.3]
+[charaFace C 5]
+[wt 0.5]
+
+＠天草四郎
+……と、昔話に興じている場合ではないようですね。
+[k]
+
+[charaFadeout C 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[messageOff]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 0.5]
+[se ad25]
+[wait se ad25]
+
+[charaFadeout D 0.1]
+
+[communicationChara 98003003 1 5 0 2]
+
+＠Dr.ロマン
+おっと、いけない。[r]ボクまで聞き入ってしまっていた！
+[k]
+
+＠Dr.ロマン
+という訳でエネミーだ、用心してくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ドクター、ちょっと遅いです！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

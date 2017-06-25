@@ -1,0 +1,143 @@
+
+
+＄94-00-57-14-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet E 3025000 1 清姫]
+[charaSet F 5027000 1 マリー]
+[charaSet H 98002000 1 フォウ]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+＠清姫
+家を[line 2]グレードアップすべきだと思います！[r]ドカンと！
+[k]
+
+[charaTalk D]
+[charaFace D 2]
+
+＠玉藻の前
+思います！[r]ミコーンと！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein H 0.1 0]
+
+＠マシュ
+島がここまで発展しているのに、拠点がこのままでは[line 2][r]というのは、確かにわかるところではありますね。
+[k]
+
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+勿論[#私:わたくし]達は[line 2]和風の武家屋敷などよいので[r]はないかと！　広いお庭とー。蔵もあるといいですね？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+大きなおうち？[r]それは[line 2]お城しかないと思うのだけれど。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アルトリア
+同感ですね。王の居所といえば、それはすなわち王城。[r]本来はそうあるべきです。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+むむむ。日本の誇る良妻巫女狐としては[r]屋敷を推したいタマモちゃんも、
+[k]
+
+＠玉藻の前
+夏のセレブとしては城もいいナーと思ってしまうので[r]あった……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+最初の家を作ったときのことをもう忘れたのかよ？[r]オレの主張は変わんねぇぜ。
+[k]
+
+＠モードレッド
+大事なのは[line 2]防御力だ。[r]デカい家？　そりゃデカい要塞ってことになるな！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+は、はぁ。なるほど……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+…………。
+[k]
+
+[charaFace C 1]
+＠モードレッド
+……飛んでもいいぜ？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

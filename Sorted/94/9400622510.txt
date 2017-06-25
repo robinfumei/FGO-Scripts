@@ -1,0 +1,69 @@
+＄94-00-62-25-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+
+[charaSet A 2026000 1 アルトリア]
+[charaSet C 98100400 1 マシュ]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+へい、ミスター。[r]この牛丼屋……。
+[k]
+
+＠G：うりぼう
+ちゃんと牛、つかってる？
+[k]
+
+＠H：うりぼう
+大丈夫でありますよ。[r]ほら、前肢が震えてないでしょう？
+[k]
+
+＠F：うりぼう
+あやしい。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠マシュ
+食欲が失せるような会話は[r]止めて下さい……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠アルトリア
+[FFFFFF]？（もぐもぐ）
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

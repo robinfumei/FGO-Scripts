@@ -1,0 +1,245 @@
+＄94-00-28-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 1008001 1 ジークフリート]
+[charaSet F 98002000 1 フォウ]
+
+[scene 21102]
+
+[fadein black 1.0]
+[wait fade]
+[se ad37]
+[wt 2.5]
+[seStop ad37 2.0]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFace A 6]
+[charaFadein B 0.4 2]
+[charaFadein A 0.4 0]
+＠マシュ
+海岸とあの絵の具と、どういう関係が？
+[k]
+
+＠ダ・ヴィンチちゃん
+炭酸カルシウムの味がしたのさ。[r]貝殻で一部の絵の具を作ったんじゃない？
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+だから海岸に来てみました！[r]さあ、次の贋作は誰でショウ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+＠ジークフリート
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+あの微妙に申し訳なさそうなスタンスは[line 3][r]ジーク[charaFace A 6]フリートさん！？
+[k]
+
+[charaFace C 5]
+＠エミヤ
+待て、マシュ！[r]彼も贋作だ、迂闊に近付くな！
+[k]
+
+[charaFace A 5]
+＠マシュ
+ですがジークフリートさんと言えば！
+[k]
+
+＠マシュ
+サーヴァント界一腰が低く、礼儀正しく、[r]謙虚なセイバーとして名を馳せています！
+[k]
+
+[charaFace A 7]
+＠マシュ
+贋作英霊だとしても、そこに違いはないはず……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジークフリート
+そうだ。[r]オレは、君たちを傷つける事をすまない[line 4]
+[k]
+
+[charaFadeout D 0]
+[charaScale D 3.0]
+[charaFadein D 0 -300,100]
+
+[bgm BGM_EVENT_3 0.1]
+[fowardEffect bit_talk_41]
+[shake 0.04 0 4 1.0]
+[charaFace D 2]
+＠ジークフリート
+[fontSize x-large]などと言うつもりはない！！
+[k]
+
+[fowardEffectStop bit_talk_41]
+[wt 0.5]
+
+？1：なんだと！？
+？2：あわ……あわわ……あわわわわわわわわ！
+？！
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.2]
+[charaScale D 1.0]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[charaShake F 0.05 3 3 0.5]
+＠フォウ
+フォォォォウ！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFace A 6]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠ダ・ヴィンチちゃん
+[%1][&君:ちゃん]とフォウ君が[r]滅茶苦茶動揺してる！？
+[k]
+
+＠マシュ
+わ、わたしも驚いています！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エミヤ
+どうしたんだジークフリート！[r]自己評価マイナスの君らしくないその物言いは！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジークフリート
+それは仕方ない、何しろ贋作だからな。[r]真作が謙虚であれば、それを上回る傲慢で相手を制する。
+[k]
+
+＠ジークフリート
+第一、相手に本当にすまないと思っていないのに[r]謝罪するなど、むしろ失礼ではないだろうか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFace A 0]
+[charaFadein B 0.1 2]
+[charaFadein A 0.1 0]
+＠ダ・ヴィンチちゃん
+正論！　傲慢なのに正論だ！
+[k]
+
+＠ダ・ヴィンチちゃん
+贋作で一生懸命真作を超えようとしているんだけど、[r]何かこう、根っこの部分でやっぱり謙虚じゃないか！
+[k]
+
+[charaFace A 8]
+＠マシュ
+そこらへんはジークフリートさんの[r]お人柄なんだと思います！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジークフリート
+[line 3]俺は三日月の浜に舞い下りし最強の魔竜。[r]謝るところなど何一つない。
+[k]
+
+[charaFace D 5]
+＠ジークフリート
+むしろはだけろ。もっとはだけろ[line 3][r]彼女はそう[#囁:ささや]いている。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ダ・ヴィンチちゃん
+彼女……かぁ。[r]うーん、それは私に恨みがある訳じゃないよね？
+[k]
+
+[charaFace B 0]
+＠ダ・ヴィンチちゃん
+むしろ恨みはなし。だって恨んでいたら、[r]もうちょっと粘着質というか[line 2]。
+[k]
+
+＠ダ・ヴィンチちゃん
+そうだなあ、乾いていると言えば分かりやすいかな。
+[k]
+
+＠ダ・ヴィンチちゃん
+カラカラに乾いたフレスコ画、[r]一世紀は残るけどそれ以上変わる事はない。
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジークフリート
+……さすが、世界で最も有名な芸術家。[r]その慧眼に感服する。
+[k]
+
+[charaFace D 4]
+＠ジークフリート
+とはいえ、教える訳にはいかない。[r]すまな[line 4][charaFace D 5]いや、敵だからすまなくない。
+[k]
+
+＠ジークフリート
+敵に塩を送るのは、余裕がある者の振る舞い。[r]今の俺には、常に余裕がないと言っておこう。
+[k]
+
+[charaFace D 2]
+＠ジークフリート
+では勝負だ、[%1]！[r]特に理由はないが、全力で阻止させて貰おう……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

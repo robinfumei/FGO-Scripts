@@ -1,0 +1,60 @@
+
+
+
+＄94-00-77-10-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 1010001 1 エリザベート]
+[charaSet B 8001001 1 マシュ]
+
+[scene 20805]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaPut A 1]
+[charaEffect A bit_talk_pumpkin01]
+[se bac169]
+[seVolume bac169 0.2 0.1]
+
+
+[wt 0.7]
+[se bac65]
+
+[wt 1.4]
+
+[charaSet A 1010001 1 エリザベート]
+
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠エリザベート
+ここにもカボチャがあったわ！[r]どんどん収穫していきましょう！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠マシュ
+頭のカボチャを外して回るのは、[r]果たして収穫なんでしょうか……。
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

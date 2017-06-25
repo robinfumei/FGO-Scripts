@@ -1,0 +1,357 @@
+
+
+
+＄01-00-07-15-6-0
+
+
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 2020001 1 イシュタル]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 98106000 1 キングゥ]
+[imageSet F cut002_black01 1]
+[imageSet G cut004_festoon 1]
+
+[bgm BGM_EVENT_11 0.1]
+[scene 32400]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+
+＠マシュ
+……玉座、完全に崩落しました。[r]女神ゴルゴーンとアナさんも、一緒に……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaTalk D]
+[communicationChara 98105900 1 5 0 7]
+[wt 0.3]
+
+
+＠Dr.ロマン
+……ゴルゴーン、アナ、霊基反応の消失を確認。
+[k]
+
+＠Dr.ロマン
+……アナの武器は“傷を再生させない鎌”……[r]不死身殺しの宝具だった。
+[k]
+
+＠Dr.ロマン
+彼女の最後の一撃が、[r]ゴルゴーンの不死性を破ったんだ……
+[k]
+
+
+？1：……アナにこれを
+
+？！
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+[se ad7]
+[seVolume ad7 0 0.6]
+[charaDepth F 0]
+[charaFace B 22]
+[charaDepth G 1]
+[charaScale F 1.2]
+[charaScale G 0.8]
+[charaPut G 0,-80]
+[charaCutin F leftToRight 0.4 1.0]
+[wait charaCut F]
+[charaCutin G circleIn 1.0 1.0]
+[wait charaCut G]
+[wt 1.2]
+[charaCutout G 1.0]
+[wait charaCut G]
+[charaCutout F 0.4]
+[wait charaCut F]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠イシュタル
+手向けの花……悲しいけど、[r]それぐらいあってもいいわよね、あの娘には。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠マシュ
+はい……アナさんに、とても似合っていたと思います。
+[k]
+
+[wt 1.0]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[communicationCharaLoop 98105900 1 5 0 10]
+
+＠Dr.ロマン
+しかし……聖杯の反応がないのはどういう事だ……？[r]魔術王の聖杯はゴルゴーンが持っていた筈なのに……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+……ふむ。ゴルゴーンが聖杯の力で[r]“かつての神性”を取り戻したのは確かだ。
+[k]
+
+[charaFace A 0]
+＠マーリン
+彼女には聖杯の恩恵があった。[r]しかし彼女本人は聖杯を所持していなかった。
+[k]
+
+＠マーリン
+となると、答えは一つだけだ。[r]魔術王の聖杯は[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_11 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_24 0.1]
+[charaTalk D]
+[communicationCharaLoop 98105900 1 5 0 5]
+
+＠Dr.ロマン
+！　敵性反応、急接近！[r]この霊基パターンは[line 3]！
+[k]
+
+
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+[se ad68]
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+[wt 0.1]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+
+[se ad73]
+[seStop ad88 0.4]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0,50]
+[charaMove E 0,0 0.2]
+[wait charaMove E]
+
+＠キングゥ
+母上……！[r]ご無事ですか、ゴルゴ[line 4]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+…………そうか。[r]間に合わなかったか。
+[k]
+
+＠キングゥ
+ボクが側にいないんだ。[r]聖杯の力が、彼女を守る筈もなかったな。
+[k]
+
+＠キングゥ
+あの幼い女神の姿がないという事は、[r]やはり捨て身で自分を殺したのか。
+[k]
+
+＠キングゥ
+まったく[line 3]
+[k]
+
+[charaFace E 5]
+＠キングゥ
+女神と言っても、所詮は[#旧:ふる]い世界のものだったね。[r]新世界に残るだけの美しさはなかった、という訳だ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マーリン
+ほう。美しさ、とは何を指すのかなキングゥ。[r]外見の造形かい？　それとも内面の質の事かな？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+…………減らず口は[#慎:つつし]めよ、マーリン。[r]ボクはとても怒っている。
+[k]
+
+＠キングゥ
+本当に、生まれて初めてだと断言できる程に。[r]ボクは人間を排除してきたけど、それは義務としてだ。
+[k]
+
+＠キングゥ
+けれど今、ボクを動かすものは義務ではない。[r]キミたちがとても憎らしい。
+[k]
+
+＠キングゥ
+ボクは今、初めて怒りで人間を殺すだろう。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+
+＠イシュタル
+……やるっていうなら相手になるけど。[r]本当にアナタ、エルキドゥとは違うんだ。
+[k]
+
+＠イシュタル
+アイツは最後まで兵器である事に徹した。[r]感情で敵を殺す、なんて事は一度もなかった。
+[k]
+
+＠イシュタル
+そんなに大切だったんだ、あのお母さまとやらは。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+……キングゥであるボクが、[r]ティアマト神を愛するのは当然の事だ。
+[k]
+
+＠キングゥ
+そして彼女もまた、創造主を愛していた。[r]だから、ただの同情だよ。シンパシーというヤツさ。
+[k]
+
+[messageOff]
+[se bac115]
+[charaFadeout E 0.1]
+[wt 0.4]
+
+[fowardEffect bit_talk_38l]
+[se bac51]
+[wt 0.5]
+[se bac111]
+[wt 1.0]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[fowardEffectStop bit_talk_38l]
+[fowardEffect bit_talk_14]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad32]
+[charaFace B 15]
+[charaShake B 0.05 3 3 0.6]
+[wt 0.7]
+[charaFace B 2]
+＠マシュ
+っ……！　キングゥ、既に戦闘態勢です！[r]マスター、気をつけて……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+ゴルゴーンが消滅した事で、彼女の子供たちは自壊する。
+[k]
+
+＠キングゥ
+ゴルゴーンの力で合成された魔獣だからね。[r]上級はともかく、下級の魔獣は体を保てない。
+[k]
+
+＠キングゥ
+戦いは終わりだ。[r]魔獣戦線はキミたちの勝利だよ。けれど[line 3]
+[k]
+
+[charaFace E 8]
+＠キングゥ
+それをキミたちが味わう事は許さない。[r]おぞましい復讐を踏みにじった善なるものよ。
+[k]
+
+＠キングゥ
+多くの同胞を救えて満足だろう？[r]なら[line 3]その代償に、おまえたちはここで死ね。
+[k]
+
+[messageOff]
+[se ad136]
+[seStop ad136 0.8]
+[charaEffect C bit_talk_06b2]
+[wt 1.5]
+[charaEffectStop C bit_talk_06b2]
+[wt 0.7]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98105900 1 5 0 5]
+
+＠Dr.ロマン
+キングゥの霊基反応が変化……！？[r]こんな事ができるのか、エルキドゥタイプは！
+[k]
+
+＠Dr.ロマン
+[%1]君、気をつけろ……！[r]彼はランサーではなくなった！
+[k]
+
+＠Dr.ロマン
+これは[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠キングゥ
+この一時のみ、ボクは復讐者として戦おう。[r]それが彼女にできる、唯一の手向けの花だ……！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_24 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+
+

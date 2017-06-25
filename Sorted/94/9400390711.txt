@@ -1,0 +1,123 @@
+＄94-00-39-07-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 5022001 1 三蔵]
+[charaSet E 3019002 1 牛魔王]
+
+[scene 20905]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0 1]
+
+[fadein black 2.0]
+[wait fade]
+[wt 0.5]
+
+[charaFace E 2]
+＠牛魔王
+く、余は……。
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaFace E 3]
+＠牛魔王
+[fontSize x-large]余は悪くないもん！
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+＠牛魔王
+御仏に従う代わりに[r]一個だけお願いしただけだもん！
+[k]
+
+＠牛魔王
+羅刹女の食卓が、クロスが、食器がナプキンが！[r]とにかく何から何まで！
+[k]
+
+[charaFace E 2]
+＠牛魔王
+消毒薬の刺激臭にまみれているのを[r]なんとかしてくれませんかって……！
+[k]
+
+[charaFace E 3]
+＠牛魔王
+料理は普通に家庭的な英国料理で[#美味:おい]しいのに……[r]いつも台無しに……うう、さめざめ……。
+[k]
+
+？1：そっち系のメシマズだったかぁ
+？！
+
+
+
+
+[bgmStop BGM_EVENT_7 1.0]
+[messageOff]
+
+[charaFadeout E 0.8]
+[scene 28302 1.0]
+[wait scene]
+[se ad117]
+[wt 2.5]
+
+
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+
+[bgm BGM_EVENT_2 1.0]
+
+[scene 20905 0.5]
+[wait scene]
+
+
+
+＠牛魔王
+………………ふぅ。[r]取り乱して失礼した。
+[k]
+
+[charaFace E 5]
+＠牛魔王
+だが忠告だけはしよう、玄奘三蔵。[r]この先の[#道程:みちのり]は保証しない。
+[k]
+
+[charaFace E 0]
+＠牛魔王
+御仏の加護も、もはやあるまい。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠三蔵
+大丈夫よ、牛魔王。[r]このあたしの信心が、それくらいで揺らぐとでも？
+[k]
+
+＠三蔵
+それに、それでこそ本当の旅だわ！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠牛魔王
+そうか……[r]では貴僧と、貴僧の徒弟たちに、幸運を[line 3]。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

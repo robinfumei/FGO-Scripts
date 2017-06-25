@@ -1,0 +1,138 @@
+＄91-50-03-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10204]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 5003001 1 玉藻の前]
+[charaSet D 98002000 1 フォウ]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0 0]
+[charaFace A 4]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠Dr.ロマン
+いやー、昨日はお楽しみでしたね……。
+[k]
+
+＠マシュ
+なんだったんでしょうね、ほんとに。
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.2]
+[se ad8]
+[wt 0.7]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+＠玉藻の前
+あぁ～ん、マスター～！[r]大変です！！　たいへーん！！
+[k]
+
+？1：どうしたの……？
+
+？2：またメール？
+
+？！
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠マシュ
+今度はなんでしょう。[r]もしや、刑部姫さんからダブルデートのお誘いとか？
+[k]
+
+[charaFace C 0]
+＠玉藻の前
+いえ、刑部姫ちゃんの方は、ほら。[r]初々しくも微笑ましいネット恋愛の真っ最中ですから。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠玉藻の前
+問題はアクティブな清姫ちゃんの方です。[r]なんでも、その……振られちゃった[line 2]、らしいのです。
+[k]
+
+？1：えっ？
+
+？！
+
+[charaFace C 5]
+＠玉藻の前
+ええ、おかげで周囲はとんでもない八つ当たり[r]八熱大地獄になっているそうでして。
+[k]
+
+[charaFace C 4]
+＠玉藻の前
+私も聞かなかった事にしようとは思いましたが、[r]やはり大切なお友達ですし？
+[k]
+
+＠玉藻の前
+一緒に舌切りスズメの[#紅閻魔:べにえんま]ちゃんの[r]料理教室に通うと約束したコトもありますし。
+[k]
+
+[charaFace C 2]
+＠玉藻の前
+ここは海より深い心で、私とマスターで[r]止めて上げなければと思いまして！！
+[k]
+
+[charaFace C 0]
+＠玉藻の前
+ほら、こういう時に支えて上げるのが友達、[r]で、ございましょう？
+[k]
+
+＠玉藻の前
+[line 2]まだ会ったことありませんけど。
+[k]
+
+[charaFace C 1]
+＠玉藻の前
+そんなわけで、ささ、さささささ！[r]ここは私とマスターの絆で傷心の清姫ちゃんを
+[k]
+
+＠玉藻の前
+慰めてあげましょうとも！！[r]いえ、他意はありませんよ、他意みたいのは？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk C]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠玉藻の前
+あ、そちらの盾の方もせっかくですし、[r]ご一緒します？
+[k]
+
+[charaFace A 12]
+＠マシュ
+謹んでお断りします。[r]先輩、どうか焼き殺されないよう注意してくださいね。
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

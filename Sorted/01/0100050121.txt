@@ -1,0 +1,122 @@
+
+＄01-00-05-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98022000 1 兵士]
+[charaSet C 99360000 1 ケルト戦士]
+[charaSet D 7014001 1 ？？？]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 98056000 1 ドクター]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+[wt 0.2]
+
+[se ad25]
+[seStop ad25 1.0]
+＠C：？？？
+[line 6]！
+[k]
+
+[charaFadeout C 0.4]
+
+[wt 0.7]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+やりました！[r]あちらの方たちも下がっていきます！
+[k]
+
+？1：よくやった、マシュ！
+？2：マシュも下がって……！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+は、はい！　わたしたちも急いで下がりましょう！[r]ここに居ると二つの陣営に挟まれて[line 3]
+[k]
+
+[se ad75]
+＠マシュ
+マスターはなるべく後方に退がって[line 3][r]ダメ、[charaFace A 14]逃げて下さい！！
+[k]
+[seStop ad75 1.5]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠フォウ
+フォ[line 11]ウ！！
+[k]
+
+？1：え？
+？2：はい？
+
+？！
+
+[charaFadeout E 0.1]
+
+[se bac36]
+[shake 0.05 0 4 1.5]
+[wait se bac36]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩！？　先輩！！
+[k]
+
+[charaFace A 15]
+＠マシュ
+ドクター！[r]先輩が！　キリモミ回転しました！！
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+はい！？[r]ええと、マシュ。君は何を言ってるんだ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ですからキリモミ回転です！[r]こう、ジャンプと同時にくるくる回って……！
+[k]
+
+
+[charaFace A 4]
+＠マシュ
+先輩！　しっかりしてください！[r]先輩、せんぱい……！
+[k]
+
+[messageOff]
+[wipeout circleIn 2.5 1]
+[bgmStop BGM_EVENT_3 2.0]
+[wait wipe]
+[wt 1.0]
+[charaFadeout A 0.1]
+[scene 10000]
+[fadeout black 0.1]
+[wait fade]
+[wipein circleIn 0.1 1]
+[wait wipe]
+[end]
+

@@ -1,0 +1,248 @@
+＄94-00-61-07-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 2026000 1 アルトリア]
+[charaSet B 6024000 1 スカサハ]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 98100400 1 マシュ]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 5025000 1 ？？？]
+
+[scene 20110]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠アルトリア
+つい熱くなってしまいました。[r]申し訳ない。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠スカサハ
+いや、私も一国の王に対し失礼した。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠モードレッド
+オレは悪くねーし！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+＠マシュ
+もう、モードレッドさんはまた……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[wt 0.7]
+
+？1：そうそう、モーさんは悪くない
+
+[charaFace C 2]
+＠モードレッド
+ああん？[r]なに言ってんだ、オレだって悪いに決まってるだろ！
+[k]
+
+[charaFace C 4]
+
+？2：そうだね、うん、そうだね
+
+[charaFace C 4]
+＠モードレッド
+な、何だよその目……。[r]ったく、そうだよ。オレも悪かったです！
+[k]
+
+？！
+
+[se ad7]
+[seVolume ad7 0 0.5]
+＠モードレッド
+ごめんなさい！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 8]
+[charaFadein D 0.1 2]
+＠マシュ
+（……分かりやすい……）
+[k]
+
+＠フォウ
+フォウフォウ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠アルトリア
+……ともかく、進みましょうか。[r]あと卿は帰還次第、罰として腕立て伏せ十万回で。
+[k]
+
+[charaFace C 1]
+＠モードレッド
+イエス、マイロード！[r]やったぜ、いつもより九十万回少ねぇー！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[wt 0.2]
+[charaFadeout E 0.1]
+[bgmStop BGM_EVENT_2 0.7]
+
+[se ad14]
+[shake 0.05 0 2 0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠スカサハ
+む、地震……ではないな？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マシュ
+地面が震えています。[r]これは[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[messageOff]
+[seStop ad14 2.0]
+
+[bgm BGM_EVENT_12 0.1]
+[wt 2.5]
+[shakeStop]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠モードレッド
+な、何だ何だこの音楽！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠マシュ
+ち、蓄音機……でしょうか！？
+[k]
+
+＠？？？
+ははははは！[r]ははははは！
+[k]
+
+＠？？？
+ふっははははははははははははははははは！！
+[k]
+
+[charaFace D 12]
+
+＠マシュ
+こ、このまるで練習をして完璧に[r]仕上げてきたかのような高笑いは……！
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠スカサハ
+ううむ、聞いたことがあるような無いような……！
+[k]
+
+[charaFace A 2]
+＠アルトリア
+何者か、姿を現せ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.4]
+
+[charaFilter F silhouette 00000080]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.7 1]
+＠？？？
+ふふふ。姿を現したいのはまったくもって山々であるが！
+[k]
+
+＠？？？
+君たちが本当に私の待っていた者かどうか、[r]見定めてやるとしよう！
+[k]
+
+[charaFace F 5]
+
+＠？？？
+この偉大なる王の力、[#篤:とく]と目に焼き付けるが良い！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠マシュ
+謎のサーヴァント及び周囲にエネミー数体確認！[r]行きます！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_12 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

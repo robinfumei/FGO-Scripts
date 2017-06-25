@@ -1,0 +1,580 @@
+
+＄94-00-64-09-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_32 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet D 98102400 1 イリヤ]
+[charaSet E 98103400 1 クロエ]
+[charaSet F 98003000 1 Dr.ロマン]
+
+
+[scene 21260]
+[se ad37]
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+[seStop ad37 1.5]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+わあー、海だー！[r]イルカさんも泳いでるー！
+[k]
+
+[charaFace D 0]
+＠イリヤ
+ここが誰かの心象世界だなんて、[r]まだ信じられないなあ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。本当に。[r]聖杯現象にも匹敵する規模です。
+[k]
+
+＠マシュ
+それに、ルビーさんが操船モードまで[r]備えられているとは、幸運でした。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ほんとうに万能なのですね。わたしたちだけでの[r]航海はとても無理でした。助かりました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+ルビーがちゃんと役に立ってるなんて、意外。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+いやーそれほどでもー（照れ）[r]ってー！　ルビーちゃんは常にお役立ちです！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+わたしの[#秘密機能:シークレットデバイス]は２４式までありますぞ？[r]比較的万能です！
+[k]
+
+
+？1：気持ちいい航海のついでに食事に[&しようか:しよっ]
+？！
+
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いいアイデアですね。[r][line 3][charaFace A 6]おや、それはカルデアからのお弁当？
+[k]
+
+＠マシュ
+わたしたちが選んでよいのですか？[r]……[charaFace A 12]迷います。イリヤさん、どれにしましょう？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+やったあ！　実はお腹ぺこぺこで！[r]ど、れ、に、しようかな[line 3]っと。
+[k]
+
+
+？1：『[#麻婆豆腐:まーぼーどーふ]』
+
+[charaFace D 3]
+＠イリヤ
+あ、[#熱:あふ]っ！　出来たて！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+えっ……これを先輩が調理されたんですか？
+[k]
+
+[charaFace A 7]
+＠マシュ
+赤い[#外套:マント]のシェフに教わったと？[r]ドクターから提供された材料で？　いつのまに……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+すごい、この麻婆豆腐！　食べられる！[r]警戒色じゃないし！　ピリっとしてほんのり甘口！
+[k]
+
+[charaFace D 1]
+＠イリヤ
+ああ～、[r]この世にこんな安全な麻婆豆腐があるなんて！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+それは料理への評価なんですかねぇ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+とてもほっとする美味しさです。[r]けれど、泣かれるほどとは。
+[k]
+
+[charaFace A 6]
+＠マシュ
+あの、ゆっくり食べてください、イリヤさん。[r][#麻婆:まーぼー]は襲いかかってきたりしません。たぶん。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+（あむあむあむ）おいひいよお。
+[k]
+
+
+？2：『なめ[#茸:たけ]』
+
+[se ad119]
+[charaFace D 6]
+＠イリヤ
+な……なめ茸！？　１リットル瓶で！？
+[k]
+
+[seStop ad119 1.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ど、どなたからですか？[r]この差し入れは？
+[k]
+
+[charaFace A 6]
+＠マシュ
+レオニダスさんが？[r]カルデアで、えのき茸栽培に成功された？
+[k]
+
+[charaFace A 7]
+＠マシュ
+そんなご趣味が……さすがですね（メガネくいっ）
+[k]
+
+[charaFace A 13]
+＠マシュ
+しかも温かいごはんまで準備万端とは。[r]で、では[line 3]ありがたくいただきます。
+[k]
+
+[charaFace A 8]
+＠マシュ
+（すんすん）……（ぺろ）……（もぐもぐ）[wt 1.5][r]……[charaFace A 1]あ、意外といけますね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+おいひいです！（まぐまぐ）[r]もりもり地味な作業が[#捗:はかど]る気がします！
+[k]
+
+？！
+
+
+[charaFadeout D 0.1]
+
+[messageOff]
+[charaTalk F]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.5]
+
+＠Dr.ロマン
+やあ、食事中かな。[r]そのままでいいから、ちょっと話を聞いてほしい。
+[k]
+
+＠Dr.ロマン
+イリヤちゃんに確認しておかないと[r]いけないコトがあってね。
+[k]
+
+＠Dr.ロマン
+キミたち魔法少女は、鏡面界へ移動しようとした際に[r]トラブルが起きた、という話だったけれど[line 3]
+[k]
+
+＠Dr.ロマン
+元の現実世界へと帰還する手段は？[r]もう[#目処:めど]はついているのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+
+[communicationCharaLoop 98003003 0 5 0 0]
+
+＠イリヤ
+…………ぜ…………。
+[k]
+
+[charaFace D 7]
+＠イリヤ
+ぜんっ、ぜんっ、考えてなかった……！！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+おお、すごいな……。[r]これが魔法少女の強さの秘密かもしれないな。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+じゃあやはり、現状では帰還は難しいのか。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ええっと、ルビー？[r]キミの見立てを聞かせてくれないか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+はいはーい？　そーですね～。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+イリヤさんや、美遊さんにしても、[r]そこまで高度な術は使えませんねー。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+もっと厳密に言いますとー、術だけは何とか行使しても[r]戻り先を精密に選択する技術と知識がありませーん。
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+その辺は、ご自分でなんとかしていただかないとー？[r]あくまでわたしはステッキですからー。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+ルビーちゃんは、このままでも[r]べつに問題ありませんけどネ？
+[k]
+
+[charaFadeout B 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+困るよ！　大問題だよ！[r]ぜんぜん万能なんかじゃないじゃない、ルビー！
+[k]
+
+[charaFace D 4]
+＠イリヤ
+でも……そうだった……[r]ミユのことで頭がいっぱいになって……。
+[k]
+
+[bgmStop BGM_EVENT_32 1.5]
+
+＠イリヤ
+わたし、いろんなことを忘れてた。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……そうですよね。[r]元の世界にはイリヤさんのご家族や、お友達が。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+うん……、[r]リンさんや、ルヴィアさん[line 3]
+[k]
+
+＠イリヤ
+お兄ちゃんにセラとリズ。学校のみんな……[r]今ごろ心配させちゃってるかも……。
+[k]
+
+[charaFace D 3]
+＠イリヤ
+………………………………はっ……！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+どうかされましたかー？　お顔が真っ青ですよー？[r]まるで、この大海原のように！？（ドヤァ）
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+ど、どうしよう……[r]わたしタイヘンなことを忘れてた……。
+[k]
+
+[messageOff]
+[charaFadeout D 0.5]
+[scene 28300 1.0]
+
+[charaScale E 1.5]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0 1200,1200]
+[charaFadeTime E 0 0]
+[charaPut E 0,50]
+[charaFadeTime E 0.5 0.5]
+
+＠E：イリヤ
+クロを……！[r]クロを[#現実世界:むこう]に置いてきちゃった……！！
+[k]
+
+
+[messageOff]
+[charaFadeout E 0.5]
+[scene 21260 1.0]
+[se ad37]
+[wt 1.0]
+[seStop ad37 1.5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+はあー、それはその通りですが～、[r]クロさんにかぎっては問題ないのでは？
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+クロさんのことですから、心配をされるよりも、[r]今ごろはシロウさんを独占できてシメシメウッシッシ！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+[line 3]とか？　褐色の小悪魔本領発揮で、[r]ほくそ笑んでいる頃ですよ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFace B 0]
+[charaFadein D 0.1 2]
+[charaFadein B 0.1 0]
+
+＠イリヤ
+もっとべつの心配ごとがあるでしょー！！[r]ほらぁ……ア、アレ……アレが……！！
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+え～、なんですか～？　ちゃんと言葉で、[r]そのお口で説明していただけませんか～？
+[k]
+
+[charaFace D 3]
+＠イリヤ
+倫理！
+[k]
+
+
+？1：クロは、イリヤの友達？
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+えっとクロは……クロはね、[r]わたしの双子の妹みたいな、女の子……かな？
+[k]
+
+[charaFace D 4]
+＠イリヤ
+ごめんなさい。[r]話すと長くなっちゃって。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 0]
+
+＠Dr.ロマン
+複雑な事情があるようだね。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+うーん、安請け合いは出来ないが、[r]こちらでも手を尽くしてみるよ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+イリヤちゃんたちの世界と、ボクらの世界との間で[r]なんらかの魔術的な結線がなされる……というのは、
+[k]
+
+＠Dr.ロマン
+実はとても危険なことだからね。[r]やるなら、かなり慎重にやらないとだ。
+[k]
+
+
+？1：この巨大な固有結界についての調査は？
+？！
+
+[bgmStop BGM_EVENT_11 1.5]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+それも解析中だ。[r]ああ、忙しい[line 3]っ……！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠Dr.ロマン
+何かがそちらへ高速で接近しているぞ！[r]これは[line 3]飛行生物だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+ふぇっ……！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+多数のワイバーンの飛来を目視でも確認！[r][line 3]先輩！
+[k]
+
+？1：依然、宝石の示す方角は変わらない。やるしかない
+？！
+
+[charaFace A 7]
+＠マシュ
+はい！　了解です！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠イリヤ
+まだデザート食べてないのにー！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFace B 0]
+[charaFadein D 0.1 2]
+[charaFadein B 0.1 0]
+
+＠イリヤ
+ルビー、こっちに戻って！？[r]転身するよ！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+いえっさー！　よーそろー！☆
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

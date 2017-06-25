@@ -1,0 +1,658 @@
+
+＄01-00-05-13-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 5016001 1 ジェロニモ]
+[charaSet B 2010001 1 ビリー]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1006001 1 ネロ・ブライド]
+[charaSet E 4013001 1 メイヴ]
+[charaSet F 7020000 1 クー・フーリン・オルタ]
+[charaSet G 2015001 1 アルジュナ]
+
+[scene 11900]
+
+[wipeout leftToRight 0.0 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wipein circleIn 2.0 1]
+[wait wipe]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジェロニモ
+この大地を闊歩する精霊よ。■■■■■の真名において、[r]その力を貸し給う。
+[k]
+
+[charaFace A 2]
+＠ジェロニモ
+宝具解放[line 2]『[#大地を創りし者:ツァゴ・デジ・ナレヤ]』！
+[k]
+
+[messageOff]
+[se ad39]
+[fowardEffect bit_talk_36]
+[wt 1.0]
+
+[fadeout white 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[fowardEffectStop bit_talk_36]
+[se ad17]
+[wait se ad17]
+[wt 0.4]
+[fadein white 1.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠アルジュナ
+[line 2]唸れ。『[#炎神の咆哮:アグニ・ガーンディーヴァ]』！
+[k]
+
+[charaFadeout G 0.1]
+
+[messageOff]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[se ad34]
+[shake 0.05 2 6 0.4]
+[wait se ad34]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ジェロニモ
+我が精霊が、ただの一撃で壊れたか。[r]さすがインド最強の英雄……！！
+[k]
+
+[charaFace A 5]
+＠ジェロニモ
+しかし解せぬ。[r]それほどの力がありながら、何故[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アルジュナ
+……事情が色々とありまして。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠ジェロニモ
+くっ……！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ビリー
+[line 2]喰らえ！
+[k]
+
+[charaFadeout B 0.1]
+
+[se bac22]
+[wait se bac22]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠アルジュナ
+……ッ！
+[k]
+
+[se ad7]
+[wt 0.2]
+
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[charaShake G 0.05 3 3 0.15]
+[se ad32]
+[wt 1.0]
+[seStop ad32]
+
+[wt 0.3]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ビリー
+銃弾、弾いちゃうか……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アルジュナ
+その近代の武器で、私に傷を負わせるだけでも[r]賞賛に値するでしょう。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ビリー
+そりゃどうも……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠ジェロニモ
+ぬぅぅ！！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠アルジュナ
+[line 2]しかし。届きません。[r]申し訳ありませんが、決めさせて頂きます。
+[k]
+
+[se bac19]
+[wait se bac19]
+[se bac19]
+[wait se bac19]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[se bac15]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 3 3 0.25]
+＠ジェロニモ
+く……！
+[k]
+
+[charaFadeout A 0.1]
+
+[se bac16]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+[charaShake B 0.05 5 5 0.25]
+＠ビリー
+あ…………。[r]ごめん……ジェロニモ……。
+[k]
+
+＠ビリー
+くそ、もうちょっと役に立ちたかったなあ……。
+[k]
+
+[charaFadeout B 0.4]
+[wt 0.3]
+[se ad58]
+[wt 0.5]
+[seStop ad58]
+
+[wt 0.7]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アルジュナ
+……終わりだ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ジェロニモ
+アルジュナ……貴様、[#まとも]だな。[r]熱に浮かされない[#精神:こころ]を持ちながら……。
+[k]
+
+＠ジェロニモ
+何故、そちらに与した？
+[k]
+
+[charaFadeout A 0.1]
+
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メイヴ
+ふふふふふ！　答えられないわよね、アルジュナ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ジェロニモ
+……女王メイヴ。[r]貴様がクー・フーリンに傅くとはな。
+[k]
+
+[charaFace E 0]
+＠メイヴ
+当たり前よ。だって、クーちゃんが[r]王になるって決めてくれたんだもの。
+[k]
+
+＠メイヴ
+正道でなく、王道でなく、覇道ですらなく。[r]ただただ我を極めてね。
+[k]
+
+＠メイヴ
+アルカトラズに向かった連中は、ベオウルフ、フィン、[r]ディルムッドが始末してくれるわ。
+[k]
+
+＠メイヴ
+ま、できなかったとしてもさして問題はない。[r]もう貴方たちの敗北は決まっている。
+[k]
+
+＠メイヴ
+聖杯が私たちにあるかぎり、[r]この世界は[#弛:たゆ]まず[#輪廻:りんね]する。
+[k]
+
+[charaFace E 1]
+＠メイヴ
+後はエジソンの軍を駆逐するだけ。[r]楽なもんよね～。
+[k]
+
+[charaFace A 1]
+＠ジェロニモ
+[line 2]ああ、そうか。[r]もしかすると、おまえはまだ知らないのか。
+[k]
+
+[charaFace E 4]
+＠メイヴ
+……知らないって、何が？
+[k]
+
+[charaFace A 0]
+＠ジェロニモ
+おまえは大いなる力を手に入れた選ばれし者だと[r]考えているようだが[line 2]。
+[k]
+
+＠ジェロニモ
+実際には、[r]七人の中の一人に過ぎない。
+[k]
+
+＠ジェロニモ
+なるほど聖杯を手に入れたことは、[r]おまえが傑物という証明だろう。
+[k]
+
+＠ジェロニモ
+しかし、稀少ではあるが“[#唯一:ただひとつ]”ではない。[r]そして“唯一”があるとすればこちら側。
+[k]
+
+＠ジェロニモ
+彼らは既に、四つの聖杯を回収している。
+[k]
+
+[charaFace E 5]
+＠メイヴ
+……！
+[k]
+
+＠ジェロニモ
+それ故に。[r]我らがここで朽ち果てても……受け継ぐ者がいる。
+[k]
+
+[charaFace E 0]
+＠メイヴ
+……そう。でもね、我らが王には絶対に敵わない。[r]狂王にして武王。力の頂点に立つ、クーちゃんにはね。
+[k]
+
+[charaFace A 1]
+＠ジェロニモ
+シャーマンとして予言してやろう。幸いにもお前は[r]幸福のままに死ぬだろう。ただし、[#すぐにだ]。
+[k]
+
+[charaFace E 5]
+＠メイヴ
+[line 2]ふん。
+[k]
+
+[bgmStop BGM_EVENT_3 0.5]
+
+[se ad46]
+[charaFadeout A 0.1]
+[wt 0.5]
+[seStop ad46]
+[wt 0.5]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メイヴ
+アルジュナ。[r]さっき逃げたサーヴァント、追って頂戴。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アルジュナ
+……分かりました。
+[k]
+
+
+[charaFadeout G 0.4]
+[wt 0.7]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メイヴ
+さて、クーちゃん。[r]手伝おうか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠クー・フーリン・オルタ
+いらねえ。もう終わる。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ネロ・ブライド
+くっ……！
+[k]
+
+[charaFadeout D 0.1]
+
+[scene 20500 2]
+[wt 2]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠クー・フーリン・オルタ
+結界も切れたか。[r][line 2]これで終わりだな。
+[k]
+
+＠ネロ・ブライド
+……うむ。劇場のいたるところを破壊されては、[r]余も観念するしかない。
+[k]
+
+[charaFace D 0]
+＠ネロ・ブライド
+だが一つ聞きたい。[r]敗者への手向けとして聞かせるがよい。
+[k]
+
+[charaFace F 0]
+＠クー・フーリン・オルタ
+[line 2]何をだ？
+[k]
+
+＠ネロ・ブライド
+武を極めて王になるのはいい。[r]貴様が苛烈な圧政を敷くのもいい。
+[k]
+
+[charaFace D 5]
+＠ネロ・ブライド
+しかし[line 2]貴様、なぜ眉一つ動かさずに行える？
+[k]
+
+＠ネロ・ブライド
+……良心の呵責を問うているのではない。[r]貴様は、[#そもそも楽しんですらいない]だろう。
+[k]
+
+＠ネロ・ブライド
+民の笑顔が報酬だと願う王でもなく。[r]己の夢に邁進する王でもなく。
+[k]
+
+＠ネロ・ブライド
+貴様は一体どこを目指すのだ？
+[k]
+
+[charaFace F 5]
+＠クー・フーリン・オルタ
+どこも目指していねえよ。報酬なんざ不要だ。[r]走った先に休む場所があるなんざ、期待してねえ。
+[k]
+
+＠クー・フーリン・オルタ
+オレはこうあるだけだ。[r]力つきるまで突き進む。
+[k]
+
+[charaFace F 0]
+＠クー・フーリン・オルタ
+しいて言うなら、アレだな。[r]屍を晒したところがオレの終着点なんだろうよ。
+[k]
+
+[charaFace D 4]
+＠ネロ・ブライド
+……なんという。王として生きると決めながら、[r]王として得られる一切に興味がないとは。
+[k]
+
+[charaFace D 2]
+＠ネロ・ブライド
+貴様は誤っている。その在り方は両立できぬものだ。[r]どちらかを捨てるしか道はないぞ、クー・フーリン！
+[k]
+
+＠クー・フーリン・オルタ
+そうか。[r]だが現実はこの通り、俺が勝者で貴様が敗者だ。
+[k]
+
+[charaFace F 5]
+＠クー・フーリン・オルタ
+屍をさらせ、ローマの皇帝。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠クー・フーリン・オルタ
+[line 2]千切れたとて、構うものか。[r]『[#抉り穿つ鏖殺の槍:ゲイ・ボルク]』！！
+[k]
+
+[messageOff]
+[se ad80]
+[charaFadeout F 0.1]
+[wt 0.4]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[wt 0.8]
+[charaEffect D bit_talk_37]
+[wt 0.1]
+[flashin once 0.1 0.3 AD0613DD AD061300]
+[charaFace D 4]
+[charaShake D 0.05 5 5 0.5]
+[wt 1.0]
+
+＠ネロ・ブライド
+ぐ[line 3]不甲斐ない……[r]余の公演も、ここまでか[line 3]
+[k]
+
+[charaFadeout D 0.4]
+[wt 0.3]
+[se ad58]
+[wt 0.5]
+[seStop ad58]
+
+[wt 0.3]
+
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠クー・フーリン・オルタ
+いい感触だ。[r]肝といわず、臓腑すべてを貫いたか。
+[k]
+
+[charaFadeout F 0.1]
+
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ネロ・ブライド
+……すまぬな、ランサー。[r]貴様と共に……歌いたかったが……。
+[k]
+
+[messageOff]
+[charaSpecialEffect D flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect D]
+[wt 1.0]
+
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メイヴ
+終わったね。あとは、[r]あのロビンってサーヴァントでおしまいっと。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠クー・フーリン・オルタ
+口振りじゃ生き残りがいるようだな。[r]追い立てて捻り潰せ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メイヴ
+うん！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠クー・フーリン・オルタ
+……！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メイヴ
+クーちゃん？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠クー・フーリン・オルタ
+[line 2]向こうか。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_5 1.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 1.0]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 3005001 1 エリザベート]
+[charaSet D 1019001 1 ラーマ]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 21000]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+確か指定されたのはここですね。[r]……マスター！
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[charaTalk D]
+[se ad16]
+[wt 1.0]
+[seStop ad16 1.5]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ラーマ
+む、ロビンフッドが戦っているぞ。[r]よし、早速向かおう！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[wt 0.4]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.4 1]
+＠ロビンフッド
+悪ィ、途中でバッタリ連中に[r]出くわしちまった！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]
+

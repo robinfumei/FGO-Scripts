@@ -1,0 +1,588 @@
+＄94-00-31-16-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 6003001 1 アサシン]
+[charaSet F 6015001 1 アサシン？]
+[charaSet G 98062000 1 アイリスフィール]
+[charaSet H 1001000 1 アルトリア]
+
+[scene 20110]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠アサシン
+貴様らは一体……なぜ我らの悲願を、そこまで……[r]ああ、鐘が……鐘の音が、聞こえる……。
+[k]
+
+[charaFace E 4]
+＠アサシン
+偉大なる我らが祖[line 3][r]初代にして最後の翁よ……。
+[k]
+
+＠アサシン
+どうか、お許しを……[r]私は……また……このような無様を……。
+[k]
+
+[messageOff]
+[charaSpecialEffect E flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect E]
+[wt 1.0]
+
+[charaSet E 3002000 1 ディルムッド]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+サーヴァントアサシン、完全消滅です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アサシン？
+「機」を逸し「場」を選べなかった暗殺者など、[r]所詮はこんなものだ。
+[k]
+
+＠アサシン？
+指示を与えたマスターがアサシンの扱いを[r]弁えていなかったようだな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ははあ。マスターが代替していたな。
+[k]
+
+＠エルメロイ
+アーチャーを失った遠坂が、[r]アサシンに乗り換えて再起を図っていたのか。
+[k]
+
+？1：遠坂家は散々だね
+？2：今回貧乏クジすぎじゃないですか優雅な人
+
+？！
+
+[charaFace D 5]
+＠エルメロイ
+フン、才能……は違うな、環境に恵まれた血族なんぞ[r]逆境に陥るぐらいで丁度いいんだ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+普段は公正な方なのですが……[r]ロードさんがまた私たちに見えない何かと戦ってます……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[scene 20200]
+[wt 1.0]
+[bgm BGM_EVENT_1 2.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+ここは……特異点Fのときにも[r]決戦の場所になった空間ですね。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+……フォ～ウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace G 5]
+[charaFadein D 0.1 2]
+[charaFadein G 0.1 0]
+
+＠エルメロイ
+どうかねアインツベルン？　ここまで来れば歴然だろう。[r]大聖杯の放つ魔力が変質していると。
+[k]
+
+[charaFace G 4]
+＠アイリスフィール
+……ええ。残念ながら。[r]これは我々の悲願とする聖杯とは程遠い。
+[k]
+
+[charaFace G 6]
+＠アイリスフィール
+なんて皮肉。ようやく勝利に手が届いたときには、[r]既に勝ち取るべき悲願が潰えていたなんて……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ディルムッド
+中身を検めるまでもなく、[r]内に潜む邪悪の気配がひしひしと伝わってくる。
+[k]
+
+[charaFace E 5]
+＠ディルムッド
+これをただ迂闊に壊してしまっていいものか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+敗退したサーヴァントはまだ三体。[r]アンリマユの覚醒には至っていない。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+中身があふれ出たとしても、今はまだ指向性のない曖昧な[r]呪いの塊だ。ここに揃った戦力だけで充分に対処できる。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_1 1.0]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+……待った。すごい勢いで接近してくる[r]サーヴァントの魔力反応！
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠Dr.ロマン
+これ普通のスピードじゃないぞ。[r]何か機動性を備えた宝具を使っている！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+機動宝具？　それって……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠アルトリア
+ああ。ライダーに違いない。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+ライダー！？　この期に及んでなぜ！？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.2]
+
+[charaSet B 98061000 1 ウェイバー]
+[charaSet E 3002000 1 ディルムッド]
+[charaSet F 4002001 1 イスカンダル]
+
+[charaPut A 0]
+[charaPut B 1]
+[charaPut C 2]
+
+[se ad63]
+[charaEffect A bit_talk_lightning_03t]
+[charaEffect B bit_talk_lightning_03t]
+[charaEffect C bit_talk_lightning_03t]
+
+[wt 0.2]
+[shake 0.05 2 4 0.5]
+[wt 0.5]
+[se ad64]
+[wt 0.2]
+[shake 0.05 1 2 2.0]
+
+[fowardEffect bit_talk_lightning_06i]
+
+[seLoop ad108]
+[wt 2.0]
+[seStop ad108 0.5]
+[se ad109]
+
+[charaEffectStop A bit_talk_lightning_03t]
+[charaEffectStop B bit_talk_lightning_03t]
+[charaEffectStop C bit_talk_lightning_03t]
+
+[wt 1.5]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+＠イスカンダル
+おおう、良し良し。まだ間に合ったようだな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+まさかまだ聖杯戦争を継続するつもりか？[r]大聖杯が放つ呪詛に満ちた魔力が分からないのか？
+[k]
+
+＠エルメロイ
+アレは貴方がたが求めていた願望機などではない！[r]いい加減、騙されていたと気付け！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠イスカンダル
+うん？　いやそんな事はどうでも良いのだ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠ウェイバー
+いいのかよ！？
+[k]
+
+＠イスカンダル
+ああ。余はただ貴様らの勝ち逃げを[r]阻みに来ただけのことさ。
+[k]
+
+＠イスカンダル
+[#顰:しか]め面の軍師よ。むしろ我らが雌雄を決する戦場には[r][#誂:あつら]え向きの場所ではないか。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ～ウ？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……わけが、わからん。[r]何故そうまでして我々に敵対する？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠イスカンダル
+貴様、何やら先の因果の行く末を見通している様子だが、[r]つまんないだろ？　それ。
+[k]
+
+[charaFace F 0]
+＠イスカンダル
+だったらせめて余ぐらいは番狂わせを[r]演じてやるしかなかろうよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠エルメロイ
+なんと？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠イスカンダル
+いや何となく分かるんだよ。貴様は覇道の影を追い求める者。[r]つまりはこの征服王と悦びの形を等しくする者。
+[k]
+
+[charaFace F 1]
+＠イスカンダル
+そういう奴はきちんと楽しませてやらんとな。[r]王たる余の務めだ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+楽しませる……ロードさんを笑わせる為に、[r]我々の敵に？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠アイリスフィール
+無茶苦茶だわ……。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠アルトリア
+ええ。無茶苦茶ではありますが、[r]この英霊ならではの動機です。
+[k]
+
+＠アルトリア
+この王はどこまでも身勝手ながらも、[r]相手に対する関心で動く。つまり[line 3]
+[k]
+
+[charaFace H 5]
+＠アルトリア
+むくつけきゴリ、いや失礼、荒々しい武人に見えて、[r]その実、[charaFace H 1]極めつけのお節介者なのです！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エルメロイ
+あ、あなたとて状況判断は得意とするところだろうに！
+[k]
+
+＠エルメロイ
+この呪いを蓄えた大聖杯がどんな災厄をもたらすかは[r]歴然だろう！　世界の危機だぞ！
+[k]
+
+＠エルメロイ
+なのにそんな、まるで遊び半分のような動機のために、[r]今ここで私と戦うだと？　いったいどういう了見だ！？
+[k]
+
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_3 1.0]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠イスカンダル
+まぁ四の五の言っても貴様だって好きだろ？　ゲーム。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……な……。
+[k]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠イスカンダル
+何を背負い、何を賭するにせよ、[r]挑むとなれば楽しまずして何のための人生か。
+[k]
+
+＠イスカンダル
+もっと熱くなれよ、策士。[r]その掛け金に我が覇道も積んでやる。さあ、勝負だ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠エルメロイ
+そこまでして……私が、矛を交えるに値する相手だと？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠イスカンダル
+応さ。貴様がいったいどういう出自で、[r]余とどんな縁故があるのかまでは知らぬがな。
+[k]
+
+[charaFace F 2]
+＠イスカンダル
+いま余の目の前におる男は、[r]ぜひとも制覇せねば気が済まぬ猛者である。
+[k]
+
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠エルメロイ
+……はは、あはははッ、はっはっはっはッ！
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ロ、ロード？　いったい……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠エルメロイ
+済まない[%1]、[r]我がマスターよ。これが一度かぎりの我侭だ。
+[k]
+
+＠エルメロイ
+あいつと戦わせてくれ。[r]使命も、世界の命運も、全てを忘れた上で……。
+[k]
+
+＠エルメロイ
+あの男だけを見据えて、この私に、[r]勝つか負けるかも分からない競い合いをやらせてくれ！
+[k]
+
+？1：仕方ない
+？2：面白そうだね
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+せ、先輩！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+そう言ってくれるか。フフ、これがもしうちの生徒なら[r]大馬鹿者と叱り飛ばすところだが……。
+[k]
+
+＠エルメロイ
+私を従えるとなれば、それでいい。あいつや私に[r]負けず[charaFace D 9]劣らずの大馬鹿なればこそ、仕える甲斐がある！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！[r]フォウフォウ、フォ[line 4]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+フォウさんまで、そんな雄叫びをあげて……[r]わたしにはちょっと分からない展開です……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠ディルムッド
+嘆くな少女よ。これが男の浪漫というものだ。君も英霊の[r]端くれならば、理解できずとも付き合ってやりたまえ。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

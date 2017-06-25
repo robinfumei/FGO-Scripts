@@ -1,0 +1,360 @@
+
+
+
+＄94-00-21-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 98051000 1 ？？？]
+[charaSet G 98006300 1 エネミー]
+
+[scene 22150]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+ん？　そこは建物の外かい？[r]マンションの敷地内のようだけど……
+[k]
+
+＠Dr.ロマン
+調査するのは建物だよ、[%1][&君:ちゃん]。[r]外には何もな[line 3]
+[k]
+
+[se ad31]
+[wt 0.4]
+[communicationCharaStop]
+[wait communicationChara]
+[seStop ad31 0.4]
+
+＠Dr.ロマン
+む、通信状態が良くないな。[r]そこは妙な磁場[line 3]観測光が静止し[line 3]
+[k]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、ドクターとの通信が途絶えました！
+[k]
+
+＠マシュ
+機材の故障ではなく、[r]この一帯の霊子状態が不安定な為と思われますが……
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの、先輩はどうしてこちらに？[r]ドクターの言う通り、調査対象はマンション内なのに。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠両儀式
+いや。[%1]の勘はあってる。[r]ここ、アタリだぜ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+式さん？
+[k]
+
+[charaFace D 2]
+＠両儀式
+……何か妙なヤツがいる。出てこいよ。[r]隠れてるつもりなら、その殺気をどうにかするんだな。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_5 0.1]
+[wt 1.0]
+[fadeMove black 0.4 0.75]
+[scene 10001 0.4]
+[seLoop ad31]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.7]
+＠？？？
+殺気など抱いていない。[r]オレが抱くものは、正当なる憤怒だけだ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……サ、サーヴァント！？[r]でも……見えない……見えません、マスター！
+[k]
+
+＠マシュ
+目の前にいるのに何もかも真っ黒で……
+[k]
+
+＠マシュ
+サーヴァントの残留霊基である[r]シャドウサーヴァントとも違います！
+[k]
+
+＠マシュ
+それにセイバー、ランサー、アーチャー……[r]七つのクラス、そのどれにも該当しません！
+[k]
+
+？1：じゃあルーラーか！？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+＠？？？
+[#調停:ちょうてい]はオレから最も遠い言葉だ。[r]その推測、挑戦と解釈した。
+[k]
+
+＠？？？
+そもそもなんだ、貴様たち。[r]死霊どもを殺して回るなど、非常識にも程がある。
+[k]
+
+＠？？？
+彼らは生ある時は報われず、[r]無念から死を迎える事も叶わず、
+[k]
+
+＠？？？
+安寧を捨て、“無”を選んだ敗北者。[r]生に見捨てられ、死から置いていかれたもの。
+[k]
+
+＠？？？
+……そう。名前もなく姿もない怪物ども。[r][#彼岸:ひがん]にすら行き場のない魂に、安息を。
+[k]
+
+＠？？？
+地獄が彼らを拒否するのなら、[#新しい地獄を作る]。[r]この塔は怨嗟に満ちねばならん。
+[k]
+
+＠？？？
+それが我が信仰にして存在意義。[r]光よ[line 3]オレの仕事の、邪魔をするな。
+[k]
+
+[messageOff]
+[charaFadeout F 0.7]
+[wt 1.0]
+
+[seStop ad31 1.0]
+[scene 22150 0.4]
+[fadeMove black 0.4 0.0]
+
+[wt 1.0]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFadein G 0.7 1]
+[wt 0.7]
+[se ad21]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠G：？？？
+[line 3][r][line 6]
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ、フォ[line 5]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+フォウさんがかつてないほど興奮しています！[r]あのゴーストはただのゴーストではないようです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠メフィスト
+あーあ。これはいけません。[r]いけませんよぉ、マスター・[%1]。
+[k]
+
+＠メフィスト
+アレは超回復・超体力・超スキルの無辜の怪物。[r]人間を恨みすぎたモノの最終系と申しますか。
+[k]
+
+＠メフィスト
+魔術世界には霊長類だけを確実に殺害する[r]なんとかマーダーというモノがいるそうですが[line 3]
+[k]
+
+＠メフィスト
+アレはその領域にまで手をかけている、[r]名も無いザコゴーストのようでございます。
+[k]
+
+＠メフィスト
+残念です。マスターの破滅を見るという[#私:わたくし]の望みも[r]もはやここまで。だってほら。
+[k]
+
+＠メフィスト
+[#私:わたくし]たち、ここで全滅しますし？
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[wt 0.4]
+[bgm BGM_EVENT_10 0.1]
+[charaSet D 1028000 1 両儀式]
+
+＠両儀式
+それは諦めが早いというものよ、ピエロさん。
+[k]
+
+＠両儀式
+本物のガイアの怪物が相手なら仕方がないけれど、[r]相手はアラヤの怪物の劣化品。
+[k]
+
+＠両儀式
+相手が死に狂った末の幽霊なら、[r]こっちも死にもの狂いで戦えばいいだけの話ですもの。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+式さん？　[line 3]え、え！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠両儀式
+はじめまして、マシュさん。[r]こんばんは、[%1]さん。
+[k]
+
+＠両儀式
+極力出てこないつもりだったけど、[r]相手が相手だから出てきちゃった。
+[k]
+
+＠両儀式
+少しの間だけど、私でよければ使ってあげて。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+は、はい、これはご丁寧に[line 3][r]いえ、そうではなくて！
+[k]
+
+＠マシュ
+先輩、式さんも何かヘンです！[r]いつの間に着替えたとか些末な問題レベルで、その、
+[k]
+
+＠マシュ
+花が散るほどのたおやかな女性らしさと言いますかっ！[r]風光明媚とはこの事ではないでしょうかっ！
+[k]
+
+[charaFace D 3]
+＠両儀式
+あら。驚くのはそこなのね。[r]女の子らしくて新鮮だわ。
+[k]
+
+[charaFace D 6]
+＠両儀式
+……本当。少しだけ残念。[r]マシュさんはやっぱり、戦いに向いていないのね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+[se ad21]
+＠G：？？？
+[line 3][r][line 6]
+[k]
+
+[charaFace D 5]
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFadein D 0.1 1]
+＠両儀式
+……もう、風情のない。[r]せっかく悲しくて温かな気持ちだったのに。
+[k]
+
+＠両儀式
+こんな亡霊がここまで育つなんて、[r]土地が悪かったに決まっているわ。
+[k]
+
+[charaFace D 0]
+＠両儀式
+いま思い出したけど。[r]そういえば、あの魔術師はここで息絶えたのでしたっけ。
+[k]
+
+？1：式……さん、後ろ後ろ！
+
+[charaFace D 1]
+＠両儀式
+分かっているわ。[r]さあ、軽くやっつけてしまいましょう！
+[k]
+
+？2：前にもこんな事があったね
+
+[charaFace D 1]
+＠両儀式
+ええ。私は覚えていないけれど、[r]アナタが覚えているのなら。
+[k]
+
+＠両儀式
+[line 3]ふふ。縁は確かにあったのね。[r]おかしな話だけど、それはとても嬉しいわ。
+[k]
+
+？！
+
+[charaFace D 2]
+＠両儀式
+ここに地獄を作ると言っていたけれど、[r]それは[#閻魔:えんま]の管轄です。
+[k]
+
+＠両儀式
+恨み声だけの蓄音機なんて地獄の鬼も願い下げ[line 3][r]見果てぬ夢ごと、両儀の狭間に消えなさい。
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_10 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

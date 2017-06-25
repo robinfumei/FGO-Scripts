@@ -1,0 +1,504 @@
+
+
+
+＄01-00-07-04-6-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+
+[charaSet C 3027000 1 アナ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 98024000 1 ウルク市民Ａ]
+[charaSet F 98024100 1 ウルク市民Ｂ]
+[charaSet G 98024000 1 ウルク市民Ｃ]
+[charaSet H 98024100 1 ウルク市民Ｄ]
+
+[bgm BGM_EVENT_2 0.1]
+[scene 32900]
+[flashin once 0.1 0.1 000000FF 000000AF]
+[wt 0.2]
+[fadein black 1.5]
+[wait fade]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.4 1]
+
+
+＠アナ
+……お疲れ様でした。[r]これで、この周辺にいた悪霊は払えたと思います……
+[k]
+
+＠アナ
+私ひとりでは逃がしてしまうところだったので……[r]感[charaMoveReturn C 0,-5 0.4]謝、です。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ウルクの地下に空洞がいくつもあったのは驚きですが、[r]先ほどの亡霊も驚きです。
+[k]
+
+＠マシュ
+アナさんはあの亡霊たちが何なのか、[r]ご存じなのですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠アナ
+……分かりませんが、[r]あれは死神のようなもの……の気がします。
+[k]
+
+＠アナ
+お二人は気付いていないようですが、[r]このウルクでは死の病が[#蔓延:まんえん]しています。
+[k]
+
+＠アナ
+体力が落ちた者から永遠の眠りに落ちるのです。[r]あの霊たちはそれと関係があるのでしょう。
+[k]
+
+＠アナ
+だから、あの霊さえ追い払えば[r]衰弱死する人も減るのでは、と……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+
+＠Dr.ロマン
+そうか。[r]神代において、肉体の死と精神の死は別なんだね。
+[k]
+
+＠Dr.ロマン
+肉体が無事であっても、魂が死神に[r]連れ去られてしまえばその人間は死亡する。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠アナ
+そうです。……それと、魂を連れ去られた状態は[r]“死”ではありません。“眠り”です。
+[k]
+
+＠アナ
+肉体さえ無事であれば、連れ去られた魂を[r]取り戻すことで眠りから目覚めます。
+[k]
+
+＠アナ
+神代では“冥府から死者を取り戻す”事は[r]治療行為の一つにすぎません。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+……心停止しても、肉体さえ保存しておけば[r]死から帰ってくる事がある……という事ですか？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠アナ
+はい。……もっとも、魂が冥府に落ちる前に、[r]魂そのものを砕かれては蘇生は叶いませんが。
+[k]
+
+＠アナ
+その場合、肉体も魂と運命を共にします。[r]生命活動を停止し、いずれ土塊になるのです。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk D]
+[communicationCharaLoop 98003003 1 5 0 3]
+
+
+＠Dr.ロマン
+ふむ。『死後の世界がある』神代らしい現象だ。[r]マナの質が違うのも理由の一つなんだろう。
+[k]
+
+＠Dr.ロマン
+地獄に落ちる、イコール『死』ではないんだろうね。[r]死とは冥府、地獄の更に先にある『無』な訳か。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+
+＠アナ
+……ウルクではそれを深淵と呼ぶそうです。
+[k]
+
+＠アナ
+なんであれ、冥府の亡霊は生者を連れ去る[r]人さらいのようなもの。
+[k]
+
+＠アナ
+それが特に多くいたようなので、その、[r]退治を手伝っていただきました。
+[k]
+
+？1：どうして亡霊たちに気がついた[&んだ:の]？
+
+[charaFace C 3]
+＠アナ
+それは…………大通りの花屋の上に、[r]特に集まっていたもので……
+[k]
+
+？2：ウルクの人たちのために？
+
+[charaFace C 0]
+＠アナ
+………違います。[r]単に、目障りだっただけです。
+[k]
+
+？！
+
+[charaFace C 0]
+＠アナ
+……何にせよ、これで亡霊退治は済みました。[r]シドゥリに報告に行くので、失礼します。
+[k]
+
+
+[messageOff]
+[charaFadeout C 0.4]
+[se ad60]
+[seVolume ad60 0 0.7]
+[wt 1.5]
+[seStop ad60 1.0]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+あ、待ってくださいアナさん！[r]わたしも一緒に行きます！
+[k]
+
+[charaFace A 13]
+＠マシュ
+先輩、先に帰っていてください。
+[k]
+
+＠マシュ
+アナさんひとりだと、シドゥリさんに[r]うまく説明できないと思いますので！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.4]
+[se ad59]
+[wt 1.5]
+[seStop ad59 1.0]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠フォウ
+フォーウ……
+[k]
+
+？1：ひとりになっちゃった[&な:ね]
+？2：大使館に戻ろうか
+
+？！
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[wt 0.4]
+[se ad60]
+[seVolume ad60 0 0.7]
+[messageOff]
+[bgmStop BGM_EVENT_2 0.4]
+[wipeout rightToLeft 0.7 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[seStop ad60 1.5]
+[wt 1.0]
+[charaSet C 98107700 1 老人]
+[bgm BGM_EVENT_11 0.1]
+[wipein leftToRight 0.7 1]
+[wait wipe]
+
+[se ad4]
+[seVolume ad4 0 0.3]
+[charaTalk E]
+[charaFace E 1]
+[charaFace F 1]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠ウルク市民Ａ
+……どこの爺さんだよあれ。[r]このあたりのモンじゃないよなぁ？
+[k]
+
+＠ウルク市民Ｂ
+いやだわ、物乞いなんて……[r]片足もあんなに……負傷兵でもあるまいし……
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.2]
+[charaTalk G]
+[charaFace G 1]
+[charaFace H 1]
+[charaFadein G 0.1 2]
+[charaFadein H 0.1 0]
+
+＠ウルク市民Ｃ
+放っておけ、養護係がやってくるだろ。[r]巫女所にはそのための予算がおりてるんだ。
+[k]
+
+＠ウルク市民Ｄ
+それはそうだけど……あの人、随分前からあの場所を[r]動かなくて……二日は何も食べてないんじゃないかしら？
+[k]
+
+[messageOff]
+[seStop ad4 1.5]
+[charaFadeout G 0.4]
+[charaFadeout H 0.4]
+[wt 1.5]
+[charaTalk C]
+[charaFadein C 0.4 1]
+
+＠老人
+………………。
+[k]
+
+[messageOff]
+[wt 0.2]
+[wipeout rectangleStripLeftToRight 0.7 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[wt 0.4]
+[wipein rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠フォウ
+…………フォウ。[r]フォウ、フォーウ……
+[k]
+
+？1：分かってる。ちょっと待ってて、フォウ君
+？2：……たしか、小麦の銀が余ってたから……
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[messageOff]
+[se ad77]
+[wait se ad77]
+[se ad60]
+[seVolume ad60 0 0.7]
+[wipeout rightToLeft 0.7 1]
+[wait wipe]
+[seStop ad60 1.0]
+[wt 2.0]
+[wipein leftToRight 0.7 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFadein C 0.4 1]
+
+＠老人
+………………
+[k]
+
+？1：（そっとパンを置いて去る）
+？2：余ったものなので、どうぞ
+
+？！
+
+[se ad78]
+[wt 0.7]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[messageOff]
+[se ad60]
+[seVolume ad60 0 0.7]
+[bgmStop BGM_EVENT_11 1.5]
+[wipeout leftToRight 0.7 1]
+[wait wipe]
+
+
+＠老人
+待たれよ[seStop ad60 0.4]。
+[k]
+
+＠フォウ
+フォウ！？
+[k]
+
+[messageOff]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠老人
+………………。
+[k]
+
+？1：……えっと、その……
+？2：……出過ぎた真似、だったでしょうか？
+
+？！
+
+＠老人
+……そうだな。実にその通りだ。
+[k]
+
+＠老人
+若者よ。[r]哀れみは時に侮辱となる。覚えておきなさい。
+[k]
+
+＠老人
+謂われのない[#憐憫:れんびん]は悪の一つであり、[r]謂われのない[#慚愧:ざんき]も、また悪の一つ。
+[k]
+
+＠老人
+……だが。細やかな気遣いにまで難癖をつけては、[r]それこそ老害のそしりを受けよう。
+[k]
+
+＠老人
+金銭ではなく、いま私が必要としたものだけを[r]譲り渡した判断には感心した。
+[k]
+
+＠老人
+ありがたく受け取ろう。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFadein B 0.1 1]
+
+＠フォウ
+フォフォウ！？[r]（特別意訳：でも食べないんだ！？）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+
+＠老人
+……ふむ。受け取ってしまったからには[r]こちらも何かを返さなければな。
+[k]
+
+＠老人
+私はジウスドゥラ。[r]見ての通り、明日をも知れぬ身の老人だ。
+[k]
+
+＠老人
+だがそなたは明日ある若者。[r]であれば、忠告こそが最も価値のあるものだろう。
+[k]
+
+＠老人
+心するがよい。[r]これよりウルクには三度の嵐が訪れる。
+[k]
+
+＠老人
+憎しみを持つ者に理解を示してはならぬ。[r]楽しみを持つ者に同調を示してはならぬ。
+[k]
+
+＠老人
+……そして、[r]苦しみを持つ者に賞賛を示してはならぬ。
+[k]
+
+＠老人
+ゆめ忘れるな。これらが人道に反していようが、[r]そも、神を相手に人道を語る事こそ愚かである。
+[k]
+
+？1：あなたは一体……
+？2：三度の嵐……？
+
+？！
+
+[messageOff]
+[flashin once 1.0 1.0 000000FF 000000AF]
+[wt 1.0]
+[wipeout sideBlind 0.1 1]
+[wait wipe]
+[wipein sideBlind 0.1 1]
+[wait wipe]
+[flashin once 0.7 0.7 000000FF 000000AF]
+[wt 0.7]
+[wipeout sideBlind 0.1 1]
+[wait wipe]
+[wipein sideBlind 0.1 1]
+[wait wipe]
+[flashin once 0.5 0.5 000000FF 000000AF]
+[wipeout sideBlind 0.1 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[wipein sideBlind 0.1 1]
+[wait wipe]
+[wipeout openEye 0.4 1]
+[wait wipe]
+[wt 1.0]
+[wipein openEye 1.5 1]
+[wait wipe]
+
+[wt 0.4]
+[bgm BGM_EVENT_11 0.1]
+
+
+？1：誰もいない……
+？2：今のは一体……
+
+？！
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ、フォーウ……
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_11 1.5]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]

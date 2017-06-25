@@ -1,0 +1,842 @@
+
+
+
+＄01-00-07-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 2020001 1 ？？？]
+
+[scene 32940]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+戦闘、終了しました。[r]こちらの損害は軽微。ですが[line 3]
+[k]
+
+？1：今まで見た事もないタイプだった
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。うまく言えないのですが……[r]まったく違う生態系によるものというか……
+[k]
+
+＠マシュ
+獣人やドラゴンも現代にはいない生物ですが、[r]彼らは“淘汰によって時代から退場したもの”です。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ですが今の魔獣たちは、はじめから我々の世界には[r]存在しない生き物のような……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+…………。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 7]
+＠Dr.ロマン
+……始めから存在しない、か。[r]確かに、神代特有の魔獣、とは違うのかもだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ボクらだって万全の準備をしてきた。シュメル時代に[r]存在したであろう幻想種や魔獣のデータは揃えていた。
+[k]
+
+[communicationCharaFace 10]
+＠Dr.ロマン
+なのに、今の魔獣たちはそのどれにも該当しなかった。[r]……これは一体……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 10]
+＠マシュ
+……それに。[r]今の魔獣たちは、明確な殺意を持っていました。
+[k]
+
+＠マシュ
+敵意ではありません。殺意です。
+[k]
+
+[charaFace A 12]
+＠マシュ
+今までの魔獣たちは動物の本能として、[r]我々を食料にするために襲ってきましたが……
+[k]
+
+＠マシュ
+今の魔獣たちは、我々を殺すために襲ってきた。[r]彼らの目には憎悪のようなものがあった気がして……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+憎悪……魔獣が人間を憎んでいる……[r]食事ではなく[#殲滅:せんめつ]が目的だと言うのかい？
+[k]
+
+[communicationCharaFace 3]
+[wt 0.7]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+…………だとしたら危険だ。[r][%1]君、すぐにその街を離れてくれ。
+[k]
+
+？1：どうしてですか？
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+…………。
+[k]
+
+[charaFadeout B 0.1]
+
+？2：……もしかして、この街が廃墟なのは……
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ああ、その可能性は高い。[r]だから早く離れるべきだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？！
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+街を離れるのはわたしも賛成です、マスター。[r]動物は群で行動するもの。
+[k]
+
+[se ad214]
+
+＠？？？
+ど[line 3]い[line 4]て[line 6]
+[k]
+
+＠マシュ
+今のが最後の魔獣とは思えま[line 3][charaFace A 6]おや？
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+＠？？？
+そこの[&キミ:アナタ]、じゃ[line 3]ま[line 4]！[r]“メ”が張れないでしょ[line 7]！
+[k]
+
+[charaFace A 0]
+＠マシュ
+あの、先輩。[r]どこからか人の声のようなものが聞こえませんか？
+[k]
+
+？1：うん、聞こえる。けど諦めよう
+？2：間に合わない。これは躱せない
+
+？！
+
+[charaFace A 6]
+＠マシュ
+え……って、ええ[line 6]！？
+[k]
+
+＠？？？
+ああもう、エアブレーキも間に合わない！[r]ダメダメ、ぶつかる[line 5]！
+[k]
+
+＠？？？
+お父様にバレたら[#免停:とりあげ]間違いナシねコレ！[r]でも先に言っておくわ、私はぜったい悪くな[line 3]い！
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.5 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 10000]
+[effect bit_talk_rarrow01be]
+[wipein rectangleStripLeftToRight 0.1 1]
+[wait wipe]
+[seStop ad214 0.4]
+[se ad80]
+[wt 1.2]
+[seStop ad80 0.4]
+[wt 0.1]
+[se ad34]
+[shake 0.05 5 10 1.0]
+[wt 0.5]
+[fadeout white 0.4]
+[wt 0.2]
+[se ad14]
+[seVolume ad14 0 0.4]
+[seStop ad14 4.5]
+[wait fade]
+[scene 10001]
+[fadein white 0.1]
+[wait fade]
+
+[effect bit_talk_33]
+[wt 2.5]
+
+[fadeout white 0.5]
+[wait fade]
+[wt 0.4]
+[effectStop bit_talk_33]
+[scene 32940]
+[fadein white 0.5]
+[wait fade]
+
+[wt 0.2]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+マスター、ご無事ですか！？[r]いま、全体的にベージュ色の物体が45度の角度で空から、
+[k]
+
+[charaFace A 3]
+＠マシュ
+……空から、降ってきた、のですが。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ……ハニー、フォーウ！
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+[charaFadeout B 0.1]
+[wt 0.2]
+[wipein rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+
+[wt 0.4]
+[se ad111]
+[seVolume ad111 0 0.5]
+[wt 0.7]
+[wt 0.4]
+
+？1：あいたたた……
+？2：あいたたた……
+
+？！
+
+[charaScale D 1.15]
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.7 0,60]
+＠？？？
+あいたたた……酷い目にあったわ……[r]まさか地上から狙撃されるなんて……
+[k]
+
+[charaFace D 7]
+＠？？？
+でも、思ったよりダメージが少ないのは幸運ね。[r]これも私の普段の[#横暴:おこない]が良いから[line 3]
+[k]
+
+[charaFace D 16]
+＠？？？
+[line 3]あれ？
+[k]
+
+[charaMoveReturn D 0,65 0.5]
+[se ad111]
+[seVolume ad111 0 0.5]
+[wt 0.7]
+[wt 0.4]
+
+？1：やあ。クッションだよ
+？2：裁判の……時間だ！
+
+？！
+
+[bgm BGM_EVENT_7 0.1]
+[charaFace D 15]
+＠？？？
+って、[messageShake 0.05 4 4 0.7]なによアンタ[line 4]！
+[k]
+
+[se ad7]
+[charaFadeout D 0.1]
+[wt 0.4]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.3 1]
+[wait wipe]
+[wt 0.2]
+[wipein rectangleStripRightToLeft 0.3 1]
+[wait wipe]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+何かあったのかい！？[r][%1][&君:ちゃん]の反応が真っ赤になったけど！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠マシュ
+それが、空から女性が降ってきまして……[r]あ。謎の女性、先輩から離れました。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+墜落事案が多すぎだねその時代！？[r]でも[communicationCharaFace 0]現地人に会えたのはいい事だ、さっそく情報を[line 3]
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+うえ[line 3]うお[line 3]うおおおおおお！？[r]この反応、本当か！？　間違いでなく！？
+[k]
+
+[bgmStop BGM_EVENT_7 0.7]
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaScale D 1.0]
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.4 1]
+＠？？？
+……なにそれ、遠見の神秘？　なんか、とりあえず[r]文句の一つも言ってやりたい声がするけど。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+＠？？？
+まあいいわ。今はアナタの話をしましょう。[r]この私の[#肢体:からだ]に断りもなく触れた、[#不埒者:ふらちもの]の[#処罰:はなし]をね。
+[k]
+
+＠？？？
+見なれない顔と格好をしているけど、どこの[#市:まち]の人間？[r]こんな所にまだ残っているなんて。
+[k]
+
+＠？？？
+ニップルから逃げてきた生贄？[r]それともバビロンの生き残り？
+[k]
+
+[charaFace D 8]
+＠？？？
+どっちにせよ、その二つだったら年貢の納め時よ。[r]手足を撃ち抜いた後、エビフ山にバラ撒いてあげるから。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+（マスター、目前の女性、既に臨戦態勢です……！[r]　本気でマスターに敵意を向けています……！）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠？？？
+ふうん。黙るって事はそうなのね。[r]良かった。恩情をかけなくて済みそう。
+[k]
+
+[charaFace D 8]
+＠？？？
+ウルクの民なら少しは情けをかけてあげたのにね。[r]自分の不運を呪いなさい。
+[k]
+
+？1：待って。まずは落ち着いて話をしよう
+
+[charaFace D 10]
+＠？？？
+[line 3]話？[r]アナタ、人間の分際で何を言っているの？
+[k]
+
+＠？？？
+話をしたい、ですって？[r]この私と？　巫女でもないアナタたちが？
+[k]
+
+？2：待った。まずは先ほどの事故の示談をしよう
+
+[charaFace D 9]
+＠？？？
+示談[line 3]示談って、つまり裁判！？[r]い、いいえノーよ、その手には乗らないわ！
+[k]
+
+＠？？？
+どんな接触事故であれ乗り物に乗っていた方が[r]不利なんでしょ！？　知ってるんだからね、私！
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+お待ちください……！
+[k]
+
+＠マシュ
+先ほどの衝突は不慮の事故によるもの、[r]どちらにも責任はないように見えました！
+[k]
+
+＠マシュ
+ですので、どうか話を聞かせていただけないでしょうか？[r]えっと、[charaFace A 12]その……ミス……誰でしょう？
+[k]
+
+？1：そうだね。まずは名前からだよね
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠？？？
+[line 6]。[r]アナタたち、私を知らないって、本気で言ってる？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。その……すみません。[r]この時代に来てまだ一時間も経過していないので……
+[k]
+
+＠マシュ
+わたしたちはカルデアと呼ばれる組織の一員です。[r]人理を修復するため、この特異点に送り込まれました。
+[k]
+
+[charaFace A 12]
+＠マシュ
+何を言っているか分からないとは思いますが、[r]決して怪しい者ではなく……
+[k]
+
+[charaFace A 8]
+＠マシュ
+いえ、先ほどの先輩の手つきは十分に怪しかったので、[r]そこは[#糾弾:きゅうだん]されてしかるべきですが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠？？？
+……異邦からの客人ってコト？[r]信じがたい話だけど……ま、そういうコトもあるか。
+[k]
+
+＠？？？
+私だってそのおかげでこうしているんだし。[r][line 3]いいでしょう。その言葉は信じます。
+[k]
+
+[charaFace D 10]
+＠？？？
+つまりアナタたちは私をまったく知らない。[r]この世界の事も、今の状況も知らないのね。
+[k]
+
+[charaFace D 11]
+＠？？？
+……そう。なら[#不敬:ふけい]、[#破廉恥:はれんち]、[#無礼:ぶれい]も仕方ないか。[r]遠い世界の野蛮人なんですものね。
+[k]
+
+[charaFace D 10]
+＠？？？
+あのね。私に許しもなく触るなんて、[r]この世界では有り得ない事なのよ。
+[k]
+
+＠？？？
+シュメル人ならまっさきに謝罪した後、[r]家財まるごと差し出しても許されないぐらい。
+[k]
+
+＠？？？
+今後、それだけは覚えておきなさい。[r]この世界で生きていきたかったらね。
+[k]
+
+[charaFace D 8]
+＠？？？
+あと[#緩衝材:クッション]になってくれてありがとう。[r]干し草ぐらいの助けにはなったわ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+まったく嬉しくない感謝の言葉がきたね……
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+とりあえず落ち着いてくれたようだし、[r]改めて自己紹介をするのはどうかな？
+[k]
+
+＠Dr.ロマン
+ボクはロマニ・アーキマン。[r]カルデアの責任者代理だ。
+[k]
+
+＠Dr.ロマン
+こちらの[&少年:少女]は[%1]。[r]英霊と契約し、これを[#使い魔:サーヴァント]とする[#魔術師:マスター]だ。
+[k]
+
+＠Dr.ロマン
+そして、そのサーヴァントであるのが彼女、[r]マシュ・キリエライト。
+[k]
+
+＠Dr.ロマン
+……さて。こちらの紹介は済んだ。
+[k]
+
+＠Dr.ロマン
+それで、キミは？[r]この反応からすると、間違いなく[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠？？？
+アナタたち程度の人間に名乗らないわよ。[r]私の事は忘れなさい。
+[k]
+
+[charaFace D 10]
+＠？？？
+特に、そこのアナタ。[r][%1]、というのよね。
+[k]
+
+＠？？？
+さっきの事は全部忘れるように。[r]それなら、命だけは見逃してあげるから。
+[k]
+
+？1：さっきの事とは？
+？2：すみません、色々ありすぎて何の事やら……
+
+？！
+
+[charaFace D 14]
+＠？？？
+だーかーらー！[r]私が[#天舟:てんせん]の運転を誤ったとか、私の悲鳴を聞いたとか、
+[k]
+
+＠？？？
+あと今の私の体のサイズとか！　そんな悪質な嘘を[r]流したら、地の果てまで追い詰めてやるからねっ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+（困りましたね先輩。殺意は薄れてくれたようですが、[r]　敵意は依然、変わらないようです）
+[k]
+
+＠マシュ
+（これは私見ですが、彼女から情報を聞き出すのは[r]　たいへん困難ではないかと……）
+[k]
+
+？1：そのようだね……下手をすると殺されかねない
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠？？？
+あら、分かってるじゃない。[r]感心感心。謙虚なことはいい事だわ。
+[k]
+
+＠？？？
+そういう態度なら私だって無下にはしないから、[r]きちんと敬いなさい。一日三回ぐらい。
+[k]
+
+[charaFace D 8]
+
+？2：そうかなぁ？　案外チョロそうだけど……
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠？？？
+聞こえてるわよ！[r]誰がチョロい、ですって！？
+[k]
+
+
+[charaFace D 8]
+
+？！
+
+＠？？？
+……ふん。まあいいわ。[r]野蛮人に腹を立ててたらキリがないもの。
+[k]
+
+＠？？？
+この時代の事が知りたいと言ったわね。[r]そんな事は自分の目と足で知りなさい。
+[k]
+
+＠？？？
+私は何も教えない。[r]むしろアナタたちが教えなさい。
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+[charaFace D 5]
+＠？？？
+そう[line 3][r]このあたりで、大切なものが落ちていなかったか、と！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+はい？
+[k]
+
+＠フォウ
+フォウ？
+[k]
+
+？1：なんです？
+
+？！
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠？？？
+だから、大切なもの、よ。[r]何か落ちてなかった？
+[k]
+
+＠？？？
+こう、見るからに『これはすごい』って思えるもの。
+[k]
+
+＠？？？
+一目見れば分かるタイプのものだから、[r]説明はあえてしないわ。どう？　覚えはある？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+いえ、あの……何か、と言われても。[r]文脈からすると、貴女が落としてしまったのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠？？？
+ばっ、そんなワケないでしょう、[r]何も無くしてなんかないからね、私！
+[k]
+
+＠？？？
+ちょっと頼まれただけだから！[r]あんな[#宝:の]、どうでもいいんだから！
+[k]
+
+？1：これは……ひどい……
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ああ……モニター越しにも分かるよ……[r]辛抱強く対応するんだ、[%1][&君:ちゃん]……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：主語入りで説明してくれません？
+
+[charaFace D 9]
+＠？？？
+しないわよ！　何を落としたか言ったら、[r]私のドジがバレちゃうじゃない！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠フォウ
+フォ[line 3]ウ………………
+[k]
+
+[charaFadeout B 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+＠？？？
+とにかく、アナタたちはこのあたりに『何か』、[r]『あった』か『なかった』かを教えればいいの！
+[k]
+
+＠？？？
+……それで、どうなの。[r]やっぱり落ちてた、アレ？
+[k]
+
+＠？？？
+っていうか壊れてなかった？[r]壊れてた？　私、またやっちゃった？
+[k]
+
+？1：………………
+？2：………………………………
+
+？！
+
+[charaFace D 12]
+＠？？？
+なん[messageShake 0.05 4 4 1.0]とか言いなさいよ[line 4]！？[r]沈黙って、時にいちばん残酷なんだからね[line 3]！？
+[k]
+
+[charaTalk A]
+[bgmStop BGM_EVENT_7 0.4]
+[se ad19]
+＠A：？？？
+Kishaaaaa[line 3]！
+[k]
+
+[charaTalk D]
+[charaFace D 9]
+＠？？？
+きしゃ[line 4]？[r]北？　北って言いたいの？　そうなの！？
+[k]
+
+[charaFadeout D 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+違います、今のは先輩の声ではありません！[r]これは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+すまない、面倒そうだからちょっと目を離してた！[r]北から大量の熱源反応、接近中だ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+さっきの魔獣たちの仲間と思われる！[r]二人とも、迎撃態勢を！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……！[r]マスター、指示を！
+[k]
+
+？1：ＯＫ！　ミス・アンノウンは下がって！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠？？？
+……ふうん。切り替えの早さは中々じゃない。[r]でも、術者としての観察眼はまだまだね。
+[k]
+
+[charaFace D 0]
+＠？？？
+危ないから下がっていろ、ですって？[r]誰にものを言っているのかしら、このお[#上:のぼ]りさん！
+[k]
+
+[charaFace D 5]
+＠？？？
+下がっているのはアナタの方よ。[r]ちょうどムシャクシャしていたところだし[line 3]
+[k]
+
+＠？？？
+目一杯派手に行くわ。[r]アイツらを相手に、憂さを晴らすとしましょうか……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,210 @@
+
+
+＄91-10-14-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1014001 1 フェルグス]
+[charaSet E 7013001 1 清姫]
+
+[scene 21100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 1]
+＠マシュ
+酷い目に遭いました……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠フェルグス
+はっはっは、一度や二度の失敗で凹んでいては[r]この先の人生が辛いぞ。
+[k]
+
+＠フェルグス
+何もかも、生きることすらも所詮は一夜の夢。[r]割り切って生きていかねばな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なんて頼もしい……これはもう先生、いや、[r]師匠と呼ばざるをえないナンパ力だ……
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+よし、フェルグス師匠！[r]次のサーヴァントを用意するよ！
+[k]
+
+＠Dr.ロマン
+こんどは大丈夫、見た目からして[r]愛らしい、平和的な女性を選んだから！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[messageOff]
+[wt 0.4]
+[charaTalk E]
+[se ad42]
+[charaSpecialEffect E appearance 1 1.0]
+[wait charaSpecialEffect E]
+[wt 1.0]
+＠清姫
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩先輩、アウトだと思いますコレ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠フェルグス
+俺もそう思うが、美女とあっては仕方ないな！[r]そこな異国の令嬢よ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠清姫
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk E]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠清姫
+ああ、わたくしですか？[r]失礼しました。何か御用でしょうか？
+[k]
+
+[charaFace D 1]
+＠フェルグス
+うむ。一目見て気に入った！[r]どうだろう。一晩を共にせんか？
+[k]
+
+[charaFace E 4]
+＠清姫
+……。[r]……。
+[k]
+
+[charaFace E 3]
+＠清姫
+あら、まあ。[r]どうしましょう……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え、まさか脈有り？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠フェルグス
+ふふふ、恥ずかしがらずとも良い。
+[k]
+
+＠フェルグス
+このフェルグス、自慢ではないが[#女性:にょしょう]の[r]扱いには定評が[line 2]。
+[k]
+
+[bgmStop BGM_EVENT_2 0.5]
+[se ad51]
+[wait se ad51]
+
+[charaFace E 1]
+＠清姫
+今、何と、仰いました？
+[k]
+
+＠清姫
+女の扱いには定評が？[r]それは[charaFace E 5]つまり[line 2][#浮気ということですね]。
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠フェルグス
+……ふむ。はっはっは！[r]すまん！　地雷を踏んでしまったようだ、マスター！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+フェルグス師匠[line 4]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+やっぱり……！[r]先ほどから選択肢一番目で躓いてます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠清姫
+浮気撲滅！[r]女たらし絶滅！
+[k]
+
+＠清姫
+地獄で後悔しやがりなさいませ！[r]クキャーッ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

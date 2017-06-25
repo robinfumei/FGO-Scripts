@@ -1,0 +1,175 @@
+
+＄94-00-18-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 5007001 1 シェイクスピア]
+[charaSet B 4008001 1 黒髭]
+[charaSet C 98018100 1 部下]
+[charaSet D 5014001 1 メフィストフェレス]
+[charaSet E 7005001 1 スパルタクス]
+
+[scene 21240]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 0.4]
+[charaFace B 2]
+[se bac10]
+[charaEffect B bit_talk_13]
+[wt 0.1]
+[charaShake B 0.05 3 3 0.5]
+[wait charaEffect B]
+[wt 0.4]
+＠黒髭
+ぐはぁっ！
+[k]
+
+？1：ひげくろー！
+？！
+
+[charaFace B 4]
+＠黒髭
+心なしかマスターの呼び掛けにやる気が見られない！[r]ぐ、ぐぅ……しかしこの黒髭、まだまだ倒れませんぞ……。
+[k]
+
+[charaFace B 5]
+＠黒髭
+せ、先生！[r]こういうときに頼りになる先生！
+[k]
+
+[charaFace B 2]
+＠黒髭
+このリア充マスターに天誅とかお与え下さい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+おや、本編に続きヘクトール殿でしょうか？[r]かの御仁はどちらかというとモテ系に属すると思いますが。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+[wt 0.5]
+
+＠スパルタクス
+[fontSize large]チョコレートは圧制。[fontSize -]
+[k]
+
+？1：とんでもねえサーヴァント呼び出した！？
+？2：ふざけんな、冗談になってぬぅえー！
+？！
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠黒髭
+ふはははは！　そう！[r]バレンタインデーとはまさに究極の圧制デー！
+[k]
+
+＠黒髭
+スパルタクス先生が、世界で一番発奮する日なのだ！
+[k]
+
+[charaFace B 0]
+＠黒髭
+チョコに大好きな気持ちを込めよう？[r]乙女にとって大事な日？
+[k]
+
+[charaFace B 2]
+＠黒髭
+へーそーでーコーヒーが沸くわァァァッ！[r]砂糖入れませんわー！　全部圧制！　圧制ですぞぉ！
+[k]
+
+？1：すっかりこじらせてる……。
+？2：元々駄目人間気味だったのが更に……。
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+大体この手の御仁はバレンタインデーになると[r]ブッ壊れる。これエンターテイメントの王道ですな。
+[k]
+
+[charaFace A 5]
+＠シェイクスピア
+“[#ぶっちゃけるとご子息は頭がイカれてますぞ:I will be brief：your noble son is mad.]”的なアレです。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠黒髭
+大体、好きとか嫌いをお菓子に込めるのなんて、[r]邪道でござる！　そう思わんですか、マスター！
+[k]
+
+？1：親愛を示すきっかけとしては悪くないよ？
+？2：感情に邪道も外道もないよ？
+？！
+
+[charaFace B 2]
+＠黒髭
+正論ビィィィィィィム！？
+[k]
+
+[charaFace B 0]
+＠黒髭
+くぅ……マスターらしい、こざっぱりとした[r]文句のつけようもない回答……。
+[k]
+
+＠黒髭
+黒髭マスターに召喚されて良かったと思いつつ、[r]ここだけは意見が合いませぬぞぅ。
+[k]
+
+[charaFace B 5]
+＠黒髭
+という訳でスパルタクス先生！[r]このマスター、圧制者ですぞ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠スパルタクス
+それではその圧制に叛逆する。[r]マスター、チョコレートは私が守らせて貰う……！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+それでは吾輩もお手伝いしましょう！[r]吾輩以外のサーヴァントはお強いですぞぅ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

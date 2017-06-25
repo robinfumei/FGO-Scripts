@@ -1,0 +1,153 @@
+＄01-00-04-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10906 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 6007002 1 ハイド]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0 2]
+[charaFace G 0]
+[charaFadein G 0 0]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+……おまえなあ。[r]大人数ったって、おまえは戦力に数えられないだろーが。
+[k]
+
+[charaFace G 1]
+＠ジキル
+魔術協会跡地の探索だよ？[r]碩学たる者、知的好奇心が疼かない訳がないじゃないか。
+[k]
+
+[charaFace G 0]
+＠ジキル
+それに、僕だっていざという時には役に立つさ。[r][#奥の手]もあるからね。
+[k]
+
+＠ジキル
+それに、きっと君たちが守ってくれるだろう？[r]頼りにしてるよ。セイバー。
+[k]
+
+[charaFace E 3]
+＠モードレッド
+だーから、オレは守ったりなんかしねーっての。[r]勝手にしろ、ったく。
+[k]
+
+＠Dr.ロマン
+さてと。早々に移動しなくちゃね。[r]大英博物館だから、リージェントパークエリアかな。
+[k]
+
+＠Dr.ロマン
+ここからはそれなりに距離があるね。[r]連戦に次ぐ連戦を覚悟しないといけないな。
+[k]
+
+＠Dr.ロマン
+ん？[r]そういえば[line 3]
+[k]
+
+＠Dr.ロマン
+魔術協会という組織は、ロンドン郊外とかに幾つかの[r]学術都市として存在しているんじゃなかった？
+[k]
+
+[charaFace G 1]
+＠ジキル
+それはそれ、ここはここだよ。
+[k]
+
+[charaFace G 0]
+＠ジキル
+ロンドン本部は協会発祥の地で、その後何百年かあと、[r]規模が大きくなったんで施設を増やしたんだ。
+[k]
+
+＠ジキル
+それがロンドンを中心にして点在する各学術都市。[r]魔術協会・時計塔は心臓部分であるロンドンと、
+[k]
+
+＠ジキル
+ロンドンを囲むように作られた複数の都市で[r]構成されているんだよ。
+[k]
+
+[charaFace G 4]
+＠ジキル
+ドクター、君、もしかして時計塔に来たことなかった？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠アンデルセン
+なんだ。どうにも垢抜けないと思ったが、[r]どこぞの田舎者か？
+[k]
+
+＠Dr.ロマン
+う。い、いや違うんだよ？
+[k]
+
+＠Dr.ロマン
+ちょっとロンドンには縁がなかったというか、[r]遠かったというか……
+[k]
+
+＠Dr.ロマン
+で、でもロンドンの事情は知っていたとも！[r]マリー所長だって魔術協会からの出向だったんだしね！
+[k]
+
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+無駄口はいい。[r]さっさと[line 3]ああ、言ってるそばからこれだ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[se ad14]
+[wt 1.5]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+機械作動音、多数！[r]先輩、ヘルタースケルターの出現と思われます！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+＠Dr.ロマン
+さっそくのご登場か。[r]まずは切り抜けて、リージェントパークへ急ぐんだ！
+[k]
+
+？1：了解
+
+？2：切り抜ける！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[seStop ad14 0.4]
+[wait fade]
+[soundStopAll]
+[end]

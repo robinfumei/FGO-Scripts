@@ -1,0 +1,221 @@
+
+＄91-60-21-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 6021000 1 酒呑童子]
+[charaSet D 7006001 1 坂田金時]
+
+[scene 10204]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+……シミュレーション戦闘、終了です。[r]双方とも霊核へのダメージは軽微なようですね。
+[k]
+
+[charaFace A 8]
+＠マシュ
+あと、ええと、あれはソウルイーターです。[r]羆じゃありません。
+[k]
+
+？1：表示名は羆だったね
+
+[charaFace A 7]
+＠マシュ
+ドクターが悪ふざけをしたんです。[r]ドクター、ああいうのは良くないと思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠Dr.ロマン
+ごめん、ボクもつい興が乗って……でも、あれぐらい[r]しないと[charaFace B 0]酒呑童子は収まらなかったと思うよ？
+[k]
+
+＠Dr.ロマン
+彼女は優雅そうに見えてもっとも凶暴な鬼だからね。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+“つまらない”なんて理由で、[r][%1][&君:ちゃん]に襲いかかったかもだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+？2：とりあえず全員生きていて良かった
+
+[charaFace A 0]
+＠マシュ
+はい、そうですね。[r]おふたりとも、極度に昂ぶられていましたが……
+[k]
+
+[charaFace A 13]
+＠マシュ
+ひとまず無事に帰還できて何よりです。[r]先輩も、お疲れさまでした。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠酒呑童子
+ふふ、楽しかったわぁ。[r]マシュもマスターもほんにご苦労様。
+[k]
+
+[charaFace C 1]
+＠酒呑童子
+うちの思い付きにちゃあんと付き合うてくれて、[r]いい子、いい子。愛らしいわぁ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠酒呑童子
+それにもちろん、そこの、汗まみれの小僧もな。[r]即興にしてはいい啖呵切ってくれたやないの？
+[k]
+
+＠酒呑童子
+あの分なら京のお公家相手でも[r]歌詠みなり何なりやれてたのとちゃうん？
+[k]
+
+[charaFace D 3]
+＠坂田金時
+歌やハイクなんざ二度と詠むか。[r]今の流行はバイクだろ、バイク。
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_7 0.1]
+
+＠坂田金時
+……はぁ。くそ、熱くなっちまった。[r]涼しい顔しやがって……結局遊ばれちまったか。
+[k]
+
+＠坂田金時
+どこからどこまでが芝居だっての……[r]あーくそ……疲れたぜ……。
+[k]
+
+[charaFace C 1]
+＠酒呑童子
+ふふふふふふ。どこまでかって？
+[k]
+
+＠酒呑童子
+そら当然、どこまでだってうちは本気やわ。
+[k]
+
+[charaFace D 4]
+＠坂田金時
+……お、おう。
+[k]
+
+＠酒呑童子
+ふふふ、まだまだガキやなぁ。[r]こぉんなに身の丈大きなイケメンなのに、なぁ。
+[k]
+
+＠酒呑童子
+酒に酔いながら命を奪い合う。[r]肌を重ね合いながら騙し合うのこそ乙やないか。
+[k]
+
+[charaFace C 1]
+＠酒呑童子
+[line 3]なあ。マスターもそう思わへん？
+[k]
+
+？1：は、はい
+？2：こ、こっちに振られるとは思わなかった
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+せ、先輩がたじろいでます……！[r]しっかり！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠Dr.ロマン
+いやはや凄いな。お酒の入った酒呑童子の前じゃ、[r]英霊もマスターも興味と翻弄の対象でしかないのかな。
+[k]
+
+＠Dr.ロマン
+鬼というモノの習性なのか、[r]それとも彼女自身の性質なのかまでは分からないけど。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……はい。わたしも、が、がんばります……。
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+うん、マシュはそこはがんばらなくてもいいかな。[r]というか機器の調整の続きをしようね、うん。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠酒呑童子
+ほほほ。あんじょうきばりや、小僧。
+[k]
+
+[charaFace D 3]
+＠坂田金時
+ぐぬぬ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+…………翻弄…………。
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]
+

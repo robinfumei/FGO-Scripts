@@ -1,0 +1,1309 @@
+＄01-00-05-00-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 7020000 1 クー・フーリン・オルタ]
+[charaSet B 5016001 1 ジェロニモ]
+[charaSet C 1019001 1 ？？？]
+[charaSet D 4013001 1 ？？？]
+[charaSet E 98022000 1 兵士]
+[charaSet F 99363000 1 機械化歩兵]
+[charaSet G 99360000 1 ケルト戦士]
+
+[scene 20720]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+
+＠C：？？？
+ハァ、ハァ、ハァ……。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+＠A：？？？
+しつけぇなぁ、小僧。[r]こっちはとっとと終わらせたいんだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠C：？？？
+……おのれ……！
+[k]
+
+
+[flashin once 0.15 0.15 FFFFFFA0 FFFFFF00]
+[wt 0.1]
+[se ad32]
+[shake 0.05 0 3 0.3]
+[wait se ad32]
+
+[charaFace C 4]
+＠C：？？？
+ぐっ……！
+[k]
+
+[messageOff]
+[charaEffect C bit_talk_13]
+[se bac13]
+[wt 0.15]
+[charaShake C 0.05 5 5 0.25]
+
+[fowardEffect bit_talk_35]
+[wait fowardEffect bit_talk_35]
+
+＠C：？？？
+くっ、全身を覆う呪いの膨大さよ、[r]一身で国を背負うほどではないか！
+[k]
+
+[charaFace C 2]
+＠C：？？？
+貴様、それだけの強さを持ちながら[line 2][r]何故、[#魔王:ラーヴァナ]などに堕した！？
+[k]
+
+＠C：？？？
+貴様の[#“武”:つよさ]は何かに授かったものではない。[r]途方もない修練によるものだろう！
+[k]
+
+＠C：？？？
+その領域に達したならば、最早善悪を超越している！[r]下らぬ邪悪に染まるなど、有り得ないのに……！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠A：？？？
+あ？　寝言は寝て言えよ。[r]善悪がぶっとんだからこうなってんだろうが。
+[k]
+
+＠A：？？？
+敵は殺す。[#自身:テメエ]が死ぬまで殺せるまで殺す。[r]それが戦の[#理:ことわり]だろうが。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠C：？？？
+この死体の山を見ろ！[r]圧倒的な弱者を屠ることが、貴様の理か！？
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠A：？？？
+いちいち見るか、くだらねえ。[r]それともなにか？
+[k]
+
+[charaFace A 5]
+＠A：？？？
+手前は相手の質で殺す殺さないを推し量るのか？[r]弱いなら生かす、強いなら殺す、と？
+[k]
+
+＠A：？？？
+[line 3]話にならねえ。[r]優しい殺生がしてえんなら牧場に行けよ、牧場に。
+[k]
+
+＠A：？？？
+ここは戦場だ。[r]持論ほざく前にさっさと死ね。
+[k]
+
+[se ad51]
+[wt 0.4]
+
+[charaFace A 0]
+＠A：？？？
+蠢動しな、[#死棘:しきょく]の魔槍。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠C：？？？
+くっ……。[r][line 2]全解放『[#羅刹を穿つ不滅:ブラフマーストラ]』！！
+[k]
+
+[fowardEffect bit_talk_36]
+[se ad39]
+[wt 1.0]
+[fadeout white 0.1]
+[fowardEffectStop bit_talk_36]
+[wait fade]
+[seStop ad39]
+[se bac36]
+[se bac45]
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFadein A 0.1 1]
+[wt 0.1]
+[fadein white 0.3]
+[shake 0.05 2 4 0.6]
+[wait fade]
+[wt 0.5]
+
+[charaFace A 1]
+＠A：？？？
+ハ。やりゃあできるじゃねえか。[r]だが、あいにくと大道芸だな。
+[k]
+
+[charaFace A 2]
+＠A：？？？
+『[#抉り穿つ:ゲイ・][line 2][#鏖殺の槍:ボルク]』！！
+[k]
+
+
+
+[messageOff]
+[se ad80]
+[charaFadeout A 0.1]
+[wt 0.4]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[wt 0.8]
+[charaEffect C bit_talk_37]
+[wt 0.1]
+[flashin once 0.1 0.3 AD0613DD AD061300]
+[charaFace C 4]
+[charaShake C 0.05 5 5 0.5]
+[wait time 1]
+[charaEffectStop C]
+
+[charaFace C 4]
+＠C：？？？
+……があああああああああああああっ！！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠A：？？？
+[line 2]ああ？[r]今ので死なねえのかよ。どうなってんだよ。
+[k]
+
+＠A：？？？
+面倒くせえ。心臓八割[#散:ち]ったってのに生き[#足掻:あが]く。[r]厄介なモンだな、サーヴァント[line 2]英雄ってヤツは。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠C：？？？
+ガ、ハッ……！
+[k]
+
+＠C：？？？
+負け……て、たま……るか……。[r]シータと……巡り……会う……までは……！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠A：？？？
+誰だそりゃ。知らねえよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠C：？？？
+……く……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[bgmStop BGM_EVENT_5 0.5]
+
+[wt 0.2]
+[se bac11]
+[wt 0.3]
+[seStop bac11]
+[se bac21]
+[wt 0.3]
+[seStop bac21]
+[se bac10]
+[wt 0.5]
+[seStop bac10 0.5]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace A 4]
+＠A：？？？
+あん？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFadein F 0.4 1]
+＠機械化歩兵
+サーヴァント反応を確認。[r]対処します。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠A：？？？
+……西部のガラクタどもか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠兵士
+今だ、ジェロニモ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠C：？？？
+これは……一体……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace C 4]
+[charaFadein C 0.1 0]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠ジェロニモ
+いいから来い！[r]あいつらが争っている内に逃げるぞ……！
+[k]
+
+＠C：？？？
+あなた、は……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[se bac13]
+[wt 0.4]
+[seStop bac13]
+[se bac13]
+[wt 0.4]
+[seStop bac13]
+[se bac16]
+[wt 0.5]
+[seStop bac16]
+
+[wt 0.2]
+[shake 0.05 0 5 0.4]
+[se ad34]
+[wait se ad34]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠A：？？？
+よし分かった。テメエらは全員邪魔だな。[r]邪魔するってことは敵だな。
+[k]
+
+[charaFace A 2]
+＠A：？？？
+つまりは新しい戦場ってワケだ！[r]歓迎するぜぇ、手始めにまず殺してやるよ！
+[k]
+
+[wt 0.2]
+[se bac10]
+[wait se bac10]
+
+[wt 0.1]
+[charaFadeout A 0.1]
+
+[wt 0.4]
+[charaTalk E]
+[charaFadein E 0.1 1]
+＠兵士
+ジェロニモ、行け！[r]ここは我々が食い止める！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ジェロニモ
+……すまん！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠A：？？？
+ハッ、死出の覚悟かしゃらくせぇ！[r]雑兵にしちゃあ士気[#高:たけ]ぇじゃねえか！
+[k]
+
+[messageOff]
+[wt 0.2]
+[shake 0.05 2 4 0.5]
+[se bac14]
+[wait se bac14]
+[wt 0.4]
+[fadeout black 1.0]
+[wait fade]
+[wt 1.0]
+[charaFadeout A 0.1]
+[charaTalk E]
+[fadein black 1.0]
+[wait fade]
+
+＠兵士
+我々は……負けん……。[r]この大地は……決して屈さない……！
+[k]
+
+[shake 0.05 1 3 0.2]
+[se ad46]
+[wait se ad46]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠A：？？？
+っと、不味った。[r]うるせえから潰しちまった。
+[k]
+
+＠A：？？？
+国の王に刃向かったんだ。首は斬って[#晒:さら]しものにした[r]かったんだが……代わりは山ほどあるか。
+[k]
+
+[charaFace A 5]
+＠A：？？？
+おう、小僧。続きだ。[r]肝の次は[#頭蓋:あたま]かち割ってや[line 3]
+[k]
+
+[charaFace A 4]
+＠A：？？？
+なんだよおい、影も形もねえじゃねえか。
+[k]
+
+＠A：？？？
+チッ。つまらねえが、良しとするか。[r]オレの槍は不治の棘だ。そのうち死ぬだろ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠D：？？？
+[line 2]うふふ、いつにもまして勇敢なこと。[r]ねえ。戦うこと、殺すこと、どっちが好き？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠A：？？？
+ああ？　んなもん、どっちも同じことだろうがよ。
+[k]
+
+[charaFace A 5]
+＠A：？？？
+テメエはアレか？[r]生きる事と食べる事を分けて考えるド阿呆か？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠D：？？？
+……面白いわ。クー、貴方本当に違うのね。[r]まるで野生の獣みたい、
+[k]
+
+＠D：？？？
+生前の貴方も、ちょっと、どこか、さりげなく、[r]人の皮を被ったケダモノな部分があったけど……
+[k]
+
+[charaFace D 1]
+＠D：？？？
+今回は混じりけはまったくなし！[r]どこからどう見ても凶悪な獣の王ね！
+[k]
+
+[charaFace D 0]
+＠D：？？？
+ほんとうに素敵。クー・フーリンという英雄に仮想の[r]状況を与えたことで理性の留め具が弾けたのかしら。
+[k]
+
+[charaFace D 1]
+＠D：？？？
+でも、私はどちらのクーも好きよ。[r]ふふふ、ふふふふふ、うふふふふ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.2]
+
+[se bac14]
+[shake 0.05 2 4 0.5]
+[wait se bac14]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠クー・フーリン・オルタ
+おし、これで三十匹め、と……あ？[r]何か言ったか、女？
+[k]
+
+＠クー・フーリン・オルタ
+仕事は済んだ。オレは寝る。[r]何かあったら起こせ。
+[k]
+
+[charaFadeout A 0.4]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠D：？？？
+……もう。野生味あふれまくったのはいいけど、[r]妙に淡泊になっちゃったのは玉に瑕よね。
+[k]
+
+[charaFace D 0]
+＠D：？？？
+でも、まあいいわ。[r]貴方の出番は、もうほとんど無いかも。
+[k]
+
+＠D：？？？
+だってここからは私[line 2]可憐にして完璧、[r]みんな大好き☆女王メイヴのターンだもの！
+[k]
+
+＠ケルト戦士
+……ご命令を。
+[k]
+
+[charaFace D 1]
+＠メイヴ
+さあ、私の勇者たち！　進撃よ！[r]声高らかに、私を褒め称えなさい！
+[k]
+
+＠メイヴ
+そして褒め称えながら敵を殺しなさい！[r]メイヴちゃん、サイコー！
+[k]
+
+[se ad16]
+[wt 1.0]
+[seStop ad16 1.5]
+
+[charaFace D 3]
+＠メイヴ
+ああ、ああ、可愛い私の勇者たち！[r]さあ、あと一息よ！
+[k]
+
+[charaFace D 1]
+＠メイヴ
+この国を！　この大地を！[r]全て私たちのものにするの！
+[k]
+
+＠メイヴ
+永遠、永遠の国。[r]理想郷を作るのよ！
+[k]
+
+[charaFace D 2]
+＠メイヴ
+逆らう者は殺して！[r]逆らわない者も殺して！
+[k]
+
+＠メイヴ
+愚劣な民も、愚劣な指導者も、惰弱な兵も、[r]何もかも要らない！
+[k]
+
+[charaFace D 0]
+＠メイヴ
+アメリカ合衆国は消える。[r]そして、私たちの国が生まれるの。
+[k]
+
+[charaFace D 1]
+＠メイヴ
+私たちを中心とした、[r]私たちだけの、永遠の国が！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_3 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 1.0]
+[bgm BGM_EVENT_5 0.1]
+[scene 11110]
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠ジェロニモ
+彼の様子はどうだ？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace B 0]
+[charaFadein E 0.1 0]
+[charaFadein B 0.1 2]
+＠兵士
+ヒドいもんです。[r]……何で生きているのか、不思議なくらい。
+[k]
+
+＠兵士
+あれがサーヴァントですか。[r]ジェロニモ……貴方のような。
+[k]
+
+＠ジェロニモ
+ああ。……戦力は少しでも欲しい。[r]シャーマンに可能な限りの治療を施すよう伝えてくれ。
+[k]
+
+[charaFace B 5]
+＠ジェロニモ
+ただ……このままではダメだろう。
+[k]
+
+＠兵士
+ジェロニモ、少しいいか？
+[k]
+
+[charaFace B 0]
+＠ジェロニモ
+どうした？
+[k]
+
+＠兵士
+先ほど、東部最後の砦が陥落した。[r]アメリカ西部合衆国は東部から撤退。
+[k]
+
+＠兵士
+[#東西戦争]は長期化するだろう。[r]つまりここは[line 2]。
+[k]
+
+＠ジェロニモ
+宣教師ののたまうところの[#煉獄:れんごく]だな。
+[k]
+
+＠兵士
+煉獄と地獄はどう違う？
+[k]
+
+[charaFace B 1]
+＠ジェロニモ
+大した違いはないさ。[r]いずれにせよ、我々にとっては冬の時代だ。
+[k]
+
+＠兵士
+これから我々はどうする？
+[k]
+
+[charaFace B 0]
+＠ジェロニモ
+お前たちは引き続き、その服で西部軍に潜り込め。
+[k]
+
+＠ジェロニモ
+種族そのものが人間と異なっているケルトの連中と違い、[r]あそこはまだ人間が多い。
+[k]
+
+＠兵士
+ああ、了解した。
+[k]
+
+＠ジェロニモ
+案ずるな、星は既に動き始めた。[r]ようやく魔術協会が本腰を上げた……。
+[k]
+
+＠ジェロニモ
+……いや、違うな。[r]世界が動いたのではなく、世界が回り始めたらしい。
+[k]
+
+＠ジェロニモ
+願わくば。[r]星の光が誇り有るものであるように……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_5 2.0]
+[wait fade]
+[soundStopAll]
+
+
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+[scene 10001]
+[wt 2.0]
+
+[fadein black 1.5]
+[wt 1.0]
+
+[fadeout white 0.1]
+[wait fade]
+[wt 0.5]
+
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98005000 1 アナウンスＡ]
+
+[bgm BGM_EVENT_11 0.1]
+
+[scene 10410]
+
+[fowardEffect bit_sepia01]
+[fadein white 2.0]
+[wait fade]
+
+
+＠A：？？？
+　　　[line 3]今日も、同じ時間に目が覚めた。
+[k]
+
+＠A：？？？
+体温を確認する。五感を確認する。[r]客観的にもわかるように、わたしの名前を口にする。
+[k]
+
+＠A：？？？
+もう随分とこの目覚めにも慣れたと思う。[r]いぜんのわたしの目覚めは、もう少しゆるやかだった。
+[k]
+
+＠A：？？？
+薄氷の上を歩くような、[r]幸せそうに眠っている動物の前をそっと歩くような、
+[k]
+
+＠A：？？？
+そんな、暗闇を手さぐりで進むような行為が、[r]いぜんのわたしの目覚めだった。
+[k]
+
+＠A：？？？
+もちろん今は違う。自意識は安定している。[r]眠りのたびに記憶が消える恐れはない。
+[k]
+
+＠A：？？？
+わたしはわたしだ。[r]わたしは今日も、わたしという自分を感じている。
+[k]
+
+[charaTalk B]
+[charaFilter B silhouette 00000080]
+[charaFadein B 0.4 1]
+＠B：？？？
+おはよう。今朝も時間通りだね。[r]朝食はこれからかい？
+[k]
+
+＠B：？？？
+脳波も安定しているし、[r]この状態が続けばこの無菌室も必要なくなるね。
+[k]
+
+＠B：？？？
+そうなれば君は晴れてカルデアの研究員だ。[r]その時にはお祝いをさせてもらうよ。
+[k]
+
+＠B：？？？
+何か欲しいものはない？[r]ボクにできる範囲でなら用意するよ。
+[k]
+
+＠A：？？？
+欲しいもの、は思いつかなかったけれど、[r]したいことは思いついた。
+[k]
+
+＠A：？？？
+この快適な部屋でも十分すぎるとわかっていたものの、[r]一度でいいから、わたしは外に出てみたかった。
+[k]
+
+＠B：？？？
+いやいや。外にならもうすぐ出られるじゃないか。
+[k]
+
+＠B：？？？
+そんななんでもない事じゃなくて、もっとこう、[r]プレゼント的なものをあげたいんだけど……
+[k]
+
+＠A：？？？
+わたしは首をふって意思を伝えた。
+[k]
+
+＠A：？？？
+見たいのは部屋の外ではなくて、カルデアの外。[r]映像ではなく肉眼で、外の世界を見てみたかった。
+[k]
+
+＠B：？？？
+ああ……そうか、この前ＶＲで見ていた草原とか[r]海とか、そういう自然が見たいんだね。
+[k]
+
+＠B：？？？
+でもそれはちょっと難しい。[r]カルデアは標高6000メートルの雪山にある。
+[k]
+
+＠B：？？？
+これは機密漏洩を防ぐためでもあるんだけど、[r]とにかく、外に出ても見えるものは一面の吹雪だけだ。
+[k]
+
+＠B：？？？
+外が晴れて山間の様子が見られる日なんて[r]一年に一日あるかどうかだし……
+[k]
+
+＠B：？？？
+そもそも、君の体は外の世界には耐えられない。[r]その要望は考え直した方がいいと思うよ？
+[k]
+
+＠B：？？？
+自然が見たいのならＶＲで十分だ。ただでさえ[r]短い活動時間を短縮してまでする事じゃない。
+[k]
+
+＠A：？？？
+彼は申し訳なさそうに、困ったように笑って、[r]わたしから視線をそらした。
+[k]
+
+＠A：？？？
+……ひどく申し訳ない気持ちになる。[r]わたしの発言は、彼を悲しい気持ちにさせたようだ。
+[k]
+
+＠B：？？？
+あ、でもカルデアの中なら君は自由だ。[r]それはボクが責任をもって所長から許可をとってみせる。
+[k]
+
+＠B：？？？
+君は安心してその日を待っていてくれ。[r]プレゼントはボクの方で考えておくよ。
+[k]
+
+＠A：？？？
+ありがとうございます、と返答する。
+[k]
+
+＠A：？？？
+欲しいものは思い当たらなくても、[r]こんなふうに気を遣ってもらえるのは何より嬉しい。
+[k]
+
+＠A：？？？
+わたしはとても幸せだ。
+[k]
+
+＠A：？？？
+今日も一日、なんの変化もなく、[r]穏やかな時間を過ごせるのだから。
+[k]
+
+[messageOff]
+[fadeout white 2.0]
+[bgmStop BGM_EVENT_11 2.0]
+[wait fade]
+
+[fowardEffectStop bit_sepia01]
+[charaFilter B normal 00000000]
+[charaFadeout B 0.1]
+
+[wt 1.5]
+
+[wipeFilter circleIn 0.4 0.6]
+
+[scene 10400]
+
+[bgm BGM_EVENT_2 0.1]
+
+[fadein white 2.0]
+[wait fade]
+
+？1：……今の夢は……
+？2：……どこが幸せなんだろう……？
+
+？！
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ？　フォーウ？
+[k]
+
+？1：あれ……[&オレ:わたし]、泣いてる……？
+？2：……胸が……モヤモヤする……
+
+？！
+
+＠フォウ
+フォウ？[r]キュー……フォウ、フォーウ！
+[k]
+
+[se ad8]
+[charaFadeout C 0.4]
+[wait se ad8]
+[wt 0.4]
+
+？1：そうだ[&な:ね]、こういう時はお医者さんだ
+
+？！
+
+[wt 0.1]
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[wipeOff]
+
+[wt 1.0]
+[scene 10400]
+
+[se ad8]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[wt 1.0]
+[charaFace A 13]
+＠マシュ
+おはようございます先輩。[r]ドクターに何かご用ですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠Dr.ロマン
+おや、[%1][&君:ちゃん]かい？[r]ちょうど良かった。君からも言ってやってくれ。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+ここのところマシュは前線に出すぎている。[r]医師として休憩すべきだと思うんだが……
+[k]
+
+[charaFace A 7]
+＠マシュ
+必要ありません。[r]連続任務は先輩も同じです。
+[k]
+
+＠マシュ
+先輩が戦いに出る以上、[r]わたしが休んでいい理由はないと進言します。
+[k]
+
+＠Dr.ロマン
+この通り、君について行くの一点張りでね。[r][%1][&君:ちゃん]はどう思う？
+[k]
+
+？1：マシュが行きたいのなら止めない
+
+[charaFace A 12]
+＠マシュ
+ほら。ドクターは過保護すぎるんです。[r]司令官なんですから、泰然自若に構えてください。
+[k]
+
+[charaFace A 1]
+＠マシュ
+そしてありがとうございます、先輩。[r]ご期待に応えられるよう、頑張ります。
+[k]
+
+？2：マシュは自分が守るから大丈夫
+
+[charaFace A 1]
+＠マシュ
+はい。信頼しています、マスター。
+[k]
+
+？！
+
+[charaFace B 4]
+＠Dr.ロマン
+はあ……やれやれ、ちょっと目を離した隙に[r]頼もしくなったのは嬉しいんだけどね……
+[k]
+
+＠Dr.ロマン
+まあ、マシュが[%1][&君:ちゃん]に同行しないと[r]いろいろ不便なのも事実だしなあ……
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+仕方ない。マシュの健康管理については予算を増やして[r]対応しよう。でもあまり無理はさせないように。
+[k]
+
+[charaFace A 13]
+＠マシュ
+心配は無用ですドクター。[r]自己管理はわたしの得意するところですから。
+[k]
+
+＠マシュ
+少しでも不調があれば先輩に報告します。[r][#聖杯探索:グランドオーダー]中に油断は許されません。
+[k]
+
+＠マシュ
+わずかな性能低下がマスターを危険に晒すのですから、[r]そこはもう遠慮なしに要望を述べます。
+[k]
+
+[charaFace A 1]
+＠マシュ
+損傷が大きければ治療要請を。[r]糖分が足りなくなれば甘味要請を。
+[k]
+
+＠マシュ
+そのあたり、わたしに抜かりはないと断言します。
+[k]
+
+＠Dr.ロマン
+うーん、本当に逞しくなったなあ。
+[k]
+
+[wt 0.2]
+[se ad13]
+[wait se ad13]
+[wt 0.4]
+
+＠Dr.ロマン
+と、管制室からコール音だ。[r]次のレイシフトの準備が整ったらしい。
+[k]
+
+＠Dr.ロマン
+行こう、[%1][&君:ちゃん]、マシュ。[r]まずはいつものブリーフィングだ。
+[k]
+
+＠マシュ
+はい。急ぎましょう、先輩。
+[k]
+
+[se ad8]
+[wt 0.4]
+[charaFadeout A 0.4]
+[charaFadeout B 0.4]
+[wt 1.5]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+……フォーウ……
+[k]
+
+？1：相談のタイミング、逃しちゃったね……
+？2：まあ、次がある[&さ:よ]。
+
+？！
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 1.0]
+[wait fade]
+[charaFadeout C 0.1]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+[scene 10201]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+ではブリーフィングを始める。[r]所員のみんなも聞いてくれ。
+[k]
+
+＠Dr.ロマン
+ロンドンの戦いで、[r]敵は魔術王ソロモンと明らかになった。
+[k]
+
+＠Dr.ロマン
+様々な情報が与えられたのは幸いだった。[r]……多分、意図的にだろうけど。
+[k]
+
+＠Dr.ロマン
+中でも重要な情報は[line 2]。
+[k]
+
+？1：彼は手を出してこない
+？2：魔術王は戦わない
+
+？！
+
+＠Dr.ロマン
+そうだ。ソロモンは残り三つの特異点を[r]こちらが攻略する分には構わないらしい。
+[k]
+
+＠Dr.ロマン
+それまでは襲わない、と彼は公言した。[r]真意はどうあれ、あの言葉にウソはないだろう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+では、引き続き特異点を修正する、という[r]作戦内容でいいのですね？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+ああ、まずは人類史を正しいカタチに戻す。[r]問題は[line 3]
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ダ・ヴィンチ
+魔術王の対処、だろ？[r]グランドキャスター、魔術師の中の魔術師ときた。
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+この私より上位のキャスターがいるというのはたいへん[r]気にくわないが、相手がアレならしょうがない。
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+受肉した魔神を錨として時代に打ち込むとか、[r]ちょっと常人の発想じゃないからね。
+[k]
+
+＠ダ・ヴィンチ
+同じ天才として認めざるを得ない。[r]現状、探す手段も倒す手段も見当たらないなあ。
+[k]
+
+[charaTalk B]
+[wt 0.4]
+[charaFace B 4]
+＠Dr.ロマン
+…………そうだね。[r]探す手段は現状、存在しないね。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+魔術王が使役した魔神は七十二柱と聞いています。[r]我々が倒した魔神柱は最低でも三つ。つまり[line 2]。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ダ・ヴィンチ
+残り六十九柱。[r]けど柱の数なんて数えてもしょうがない。
+[k]
+
+＠ダ・ヴィンチ
+彼が真のグランドキャスターだというのなら、[r]失われた柱の補填なんていくらでもできるだろうし。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+ああ。『七十二柱の魔神』という使い魔はそれ自体が[r]一つの術式、一つの概念なんだ。
+[k]
+
+＠Dr.ロマン
+彼らは常に七十二柱いる事が前提条件となる。
+[k]
+
+＠Dr.ロマン
+彼らが自らを魔神と語る以上、どのようなカタチであれ[r]ソロモンの周囲には常に七十二の柱が存在するんだ。
+[k]
+
+？1：キリがないってコトですか？
+
+＠Dr.ロマン
+ああ。召喚者であるソロモン王を倒さないかぎり、[r]七十二柱の魔神がこの惑星から消えるコトはない。
+[k]
+
+？2：タコの足じゃあるまいし……
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+いやあ。[r]焼いても美味しくなさそうだけどねぇ、アレ。
+[k]
+
+[charaFace D 4]
+＠ダ・ヴィンチ
+……けど、海洋生物に例えるのはわりと[r]本質を突いているかも……
+[k]
+
+＠ダ・ヴィンチ
+うーん……何かの図鑑で見た覚えがあるんだけど……[r]思い出せないなあ……
+[k]
+
+？！
+
+＠Dr.ロマン
+頭を抱えたいのはみんな同じだよ。[r]けど、やるべきことは分かっている。
+[k]
+
+＠Dr.ロマン
+魔神の除去方法については[r]それを終わらせてから考えることにしよう。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace B 0]
+＠Dr.ロマン
+という訳で、今回のポイントなんだけど[line 2][r]これが、魔術師的には驚きの場所だね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+どちらですか？
+[k]
+
+＠Dr.ロマン
+北アメリカ大陸。[r]“アメリカ合衆国”と呼ばれる超大国だ。
+[k]
+
+＠Dr.ロマン
+歴史上においてこの国を外すことはできないだろう。
+[k]
+
+＠Dr.ロマン
+魔術的には歯牙にも掛けられていない国だけど、[r]歴史的にはローマに匹敵する重要性を持っているからね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……魔術的な価値は薄い……[r]なるほど、ドクターの仰る通りですね。
+[k]
+
+＠マシュ
+確かにアメリカは歴史的にも浅く、[r]聖杯戦争が執り行われたという公式記録もありません。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ははあ。[#私:わたし]的には、[r]いつのまにか暗号を仕込んでいたコトにされた国だな。
+[k]
+
+＠ダ・ヴィンチ
+描いているときにそんな余裕ないっつーの。[r]あるとしたら、クライアントへの愚痴くらいだっつーの。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+とはいえ、では魔術が皆無かというとそうでもない。
+[k]
+
+＠Dr.ロマン
+向こうには精霊を降臨させるような[r]独自の魔術が発達していたようだしね。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+また、英霊の存在も確認している。
+[k]
+
+＠Dr.ロマン
+あの国にはあらゆるものに叛逆するような[r]アウトローの伝説が根強く残っている。
+[k]
+
+＠Dr.ロマン
+これまでに比べると勝手が違うのは明白だ。[r]気を引き締めて探索に望んでほしい。
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+[line 3]ではレイシフトを開始する。[r]マスター・[%1]、準備を。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[wt 0.5]
+[scene 10201 0]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_2 0.4]
+[wait wipe]
+
+＠[51d4ff]アナウンスＡ[-]
+[51d4ff]アンサモンプログラム　スタート。[-][r][51d4ff]霊子変換を開始　します。[-]
+[k]
+
+＠[51d4ff]アナウンスＡ[-]
+[51d4ff]レイシフト開始まで　あと３、２、１……[-]
+[k]
+
+＠[51d4ff]アナウンスＡ[-]
+[51d4ff]全工程　[#完了:クリア]。[-][r][51d4ff]グランドオーダー　実証を　開始　します。[-]
+[k]
+
+[messageOff]
+[wt 0.3]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+[scene 10001]
+[wt 1.5]
+[fadein white 0.1]
+[wait fade]
+
+[fadeout black 1.0]
+[wait fade]
+[wt 1.0]
+
+[soundStopAll]
+[end]

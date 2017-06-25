@@ -1,0 +1,100 @@
+
+＄91-30-11-01-2-0
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3011001 1 フィン]
+[charaSet F 98006000 1 ？？？]
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[scene 20800]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 0 0 2]
+
+[fadein black 1.0]
+[wait fade]
+
+＠Dr.ロマン
+第一陣の撃破を確認！[r]だが、すぐに次が来るぞ－！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+巨大な“手”は初めてではない、ですが[line 2][r]妙な感じがします、先輩！
+[k]
+
+？1：獣人を率いていたような？
+？2：フィンを狙っている？
+
+？！
+
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フィン
+ああ、この感覚は実に久しいなあ。[r]未だ騎士団の皆を率いることもなく旅していた頃だよ。
+[k]
+
+[charaFace D 0]
+＠フィン
+私は[line 2]
+[k]
+
+[charaFace D 5]
+＠フィン
+私は！[r]ただひとりの戦士として邪悪に立ち向かった！
+[k]
+
+[charaFace D 2]
+＠フィン
+無辜の人々を惨くも殺し尽くさんとするモノを！[r]そうとも、私は！　[#おまえたち]を知っている！
+[k]
+
+[charaFace D 5]
+＠フィン
+[line 2]来い！
+[k]
+
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ま、まだ来るんですか！？
+[k]
+
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+Ｇｕｕｕｕ……！
+[k]
+
+[charaFadeout F 0.1]
+[communicationCharaLoop 98003003 1 0 0 2]
+＠Dr.ロマン
+来たぞ、第二陣だ！　いや……再生したのか！？[r]さっきより数が多い！　注意して！
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

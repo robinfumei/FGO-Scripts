@@ -1,0 +1,400 @@
+
+
+
+＄01-00-07-06-2-1
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5018001 1 ギルガメッシュ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 98106000 1 エルキドゥ]
+
+[bgm BGM_EVENT_3 0.1]
+[scene 33300]
+[fadein black 1.5]
+[wait fade]
+
+[effect bit_talk_kengekiall01]
+[se ad33]
+[wt 1.6]
+[fowardEffect bit_talk_14]
+[se ad32]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 5 5 0.4]
+
+＠マシュ
+……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+[wt 0.3]
+
+＠Dr.ロマン
+最上級の武器を際限なく放ってくる……！
+[k]
+
+＠Dr.ロマン
+この戦い方はまさしく、[r]伝え聞く英雄王ギルガメッシュの十八番だ……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠エルキドゥ
+当たり前だろう？[r]無尽蔵に刃を作り、惜しみなく叩きつける。
+[k]
+
+＠エルキドゥ
+それがこの体が行う、戦闘の最適解だ。[r]むしろソイツの方がボクの真似をしているのさ……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[messageOff]
+
+[fowardEffect bit_talk_38]
+[se bac42]
+[wt 0.2]
+[shake 0.05 0 4 0]
+[se bac44]
+[wt 0.4]
+[se bac42]
+[wt 0.1]
+[se bac44]
+[wt 0.2]
+[se bac42]
+[wt 0.1]
+[se bac44]
+[wt 0.2]
+[se bac45]
+[wt 0.5]
+[shakeStop]
+[fowardEffectStop bit_talk_38]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+[wt 0.1]
+[fowardEffect bit_talk_14]
+[wt 0.1]
+[se ad32]
+[charaShake A 0.05 5 5 0.4]
+
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.7]
+[charaFadeout A 0.1]
+[charaShakeStop A]
+[wt 0.4]
+
+＠B：？？？
+ほう。それは異な事を。[r]これは[#我:オレ]の記憶違いか？
+[k]
+
+＠B：？？？
+ヤツはあの時、我が脳裏にひらめいた王の新戦法を[r]“無駄遣いの極み”と[#罵:ののし]った筈だがな。
+[k]
+
+
+
+[charaFadeout A 0.1]
+[messageOff]
+[effect bit_talk_rarrow01br]
+[se bac71]
+[wt 1.2]
+[effect bit_bolg_03y]
+[se ad32]
+[wt 0.7]
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+
+＠マシュ
+！　ギルガメッシュ王……！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+[se ad60]
+[wt 0.7]
+[seStop ad60 1.0]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+
+
+＠ギルガメッシュ
+クッ、やはり[#我:オレ]の見込み通りではないか。[r]見事な悪運だ。そろそろだと思っていたぞ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+
+
+＠エルキドゥ
+あ……な[line 3][r]おまえが[line 3]ギルガメッシュ……？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+
+＠ギルガメッシュ
+他の何に見えるか、間抜け。[r]たかだかサーヴァント程度に時間をかけおって。
+[k]
+
+＠ギルガメッシュ
+冷静沈着な兵器としての無駄のなさはどうした？[r]戦闘を楽しむなぞ、貴様らしくないぞエルキドゥ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+[charaShake D 0.1 1 1 0]
+
+＠エルキドゥ
+[line 3]っ、ぁ[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[charaShakeStop D]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+違います、ギルガメッシュ王！[r]あれは偽者、本当のエルキドゥさんではありません！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠ギルガメッシュ
+ほう、偽者とな。[r]それにしては良く出来ているではないか。
+[k]
+
+＠ギルガメッシュ
+むしろ以前より出力は上かも知れんな？[r]先ほどの飛行速度はかつてなかったものだ。
+[k]
+
+＠ギルガメッシュ
+よほど良い魔力炉心を得たのだろう。[r]三女神とやらの差し金か？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+
+
+＠エルキドゥ
+っ[line 3]。
+[k]
+
+＠エルキドゥ
+……黙、れ。[r]おまえの声は、不快だ。
+[k]
+
+＠エルキドゥ
+この地上で最強の創造物は、ボクだ。[r]おまえのような半端な神の作り物は、要らない。
+[k]
+
+＠エルキドゥ
+愚かなウルクの王、母さんの敵。[r]ギルガメッシュ。おまえは、ボクが必ず殺す。
+[k]
+
+＠エルキドゥ
+忘れるな……！[r]この世界は、おまえの死と共に終わらせてやる……！
+[k]
+
+[messageOff]
+[se ad73]
+[charaMove D 0,-20 0.1]
+[wait charaMove D]
+[charaMove D 0,50 0.1]
+[wait charaMove D]
+[charaFadeout D 0.4]
+[wipeout rectangleStripDownToUp 0.4 1]
+[wait wipe]
+[bgmStop BGM_EVENT_3 0.3]
+[se ad225]
+[seStop ad225 2.5]
+[wt 1.5]
+[fadeout black 0.1]
+[wait fade]
+[wipein rectangleStripDownToUp 0.4 1]
+[wait wipe]
+[fadein black 1.0]
+[wait fade]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+
+＠Dr.ロマン
+……ふう、助かった。[r]エルキドゥ、ウルク北部方面に撤退したようだ。
+[k]
+
+＠Dr.ロマン
+こちらの劣勢だったのに、[r]どうして撤退したのかまるで分からないけどね。
+[k]
+
+
+？1：ギルガメッシュ王の加勢があったから？
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+
+＠ギルガメッシュ
+馬鹿者。[#我:オレ]が手助けしたとしても戦力差は覆らぬ。[r]天の鎖を倒すものは天の[#楔:くさび]のみ。
+[k]
+
+＠ギルガメッシュ
+だが、今の[#我:オレ]に乖離剣は使えぬ。[r]戦いになれば貴様と共に死んでいたわ。
+[k]
+
+？2：……何か、苦しそうだったけど……
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠ギルガメッシュ
+何かの故障か、心肺機能が停止していたな。[r]まあ、そういう事もあるだろう。
+[k]
+
+？！
+
+[charaFace B 0]
+＠ギルガメッシュ
+どちらにせよ過ぎた事だ、気にするな。[r]調べるべきものは調べ、見たいものは見た。
+[k]
+
+＠ギルガメッシュ
+ウルクに帰るぞ[%1]。[r]次は貴様がもっとも得意とする仕事を与えてやろう！
+[k]
+
+[messageOff]
+
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[charaFadeout B 0.1]
+[wt 0.1]
+[scene 20320]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_EVENT_11 0.1]
+
+[se ad2]
+[seVolume ad2 0 0.3]
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+
+＠エルキドゥ
+っ……まだ機能が一致しない。[r]出力と動力のバランスが、乱れている。
+[k]
+
+＠エルキドゥ
+記録が秩序だっていない。[r]以前の戦闘記録ばかり閲覧している[line 3]
+[k]
+
+＠エルキドゥ
+……分からない。[r]この胸の故障はなんだ。
+[k]
+
+[charaFace D 8]
+＠エルキドゥ
+どうして撤退なんかしているんだ、ボクは……！
+[k]
+
+＠エルキドゥ
+……ボクの方が強い。[r]あの王より、ボクの方が強かった……！
+[k]
+
+＠エルキドゥ
+なのに、どうして[line 3]戦えば死ぬ、なんて、[r][#安全装置:ブレーカー]が働いたんだ……！
+[k]
+
+[messageOff]
+
+[flashin once 0.05 0.05 FF0000AF FF000000]
+[wt 0.1]
+[se bac194]
+[wt 0.1]
+[se bac59]
+[shake 0.01 2 2 0.1]
+[flashin once 0.05 0.05 FF0000AF FF000000]
+[wt 0.1]
+[se bac194]
+[wt 0.1]
+[se bac59]
+[shake 0.01 2 2 0.1]
+[wt 0.3]
+[flashin once 0.2 0.2 FF0000AF FF000000]
+[wt 0.4]
+[se bac194]
+[wt 0.3]
+[se bac59]
+[shake 0.01 3 3 0.4]
+
+[charaFace D 5]
+＠エルキドゥ
+……アイツは殺すべき相手だ。[r]母さんにとって、最大の障害だ。
+[k]
+
+＠エルキドゥ
+殺さなくちゃ。殺さなくちゃ。[r]殺さなくちゃ。母さんの為にも、殺さなくちゃ。
+[k]
+
+＠エルキドゥ
+でも話を……いや、会話をする余地はない。[r]ただ殺す。それだけでいい筈なんだ。
+[k]
+
+＠エルキドゥ
+……そうだ。[r]ボクは、エルキドゥではないのだから。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_11 1.4]
+[seStop ad2 1.4]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+
+

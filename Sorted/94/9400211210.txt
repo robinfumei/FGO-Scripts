@@ -1,0 +1,205 @@
+＄94-00-21-12-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 0 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 2 メフィスト]
+[charaSet F 3009000 1 レオニダス]
+
+[scene 22140]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠レオニダス
+うおおおおお[line 4]！[r]うぉおおおおお[line 6]！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[wt 0.2]
+[se bac5]
+[charaEffect B bit_talk_12]
+[wt 0.4]
+[se bac5]
+[charaEffect E bit_talk_12]
+[wt 0.4]
+[wt 0.7]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+今度はレオニダスさん……！？[r]そんな、あり得ません……！
+[k]
+
+＠マシュ
+これまでマンションにいたサーヴァントの方たちは[r]確かに危うい面もありましたが、
+[k]
+
+＠マシュ
+レオニダスさんにそんな暗黒面はない筈です！[r]だって、だって……！
+[k]
+
+[charaFace A 2]
+＠マシュ
+レオニダスさんは他人を恨まず、己を見失わず、[r]最後まで[#殿:しんがり]を勤める炎の守護者……！
+[k]
+
+＠マシュ
+わたしが尊敬する、カルデアが選ぶ春の盾持ち英霊、[r]堂々の第一位なのですから……！
+[k]
+
+＠マシュ
+盾持ちの英霊に悪い人はいないのです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠レオニダス
+うぉおおおおおお！[r]死ねぇ！　死ねぇ[line 5]え！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[wt 0.2]
+[se bac5]
+[charaEffect B bit_talk_12]
+[wt 0.4]
+[se bac5]
+[charaEffect E bit_talk_12]
+[wt 0.4]
+[se bac13]
+[charaEffect F bit_talk_14]
+[wt 0.7]
+[wt 0.7]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+マシュ、気持ちは分かるけど落ち着いて！[r]どこからどう見ても彼は変質している！
+[k]
+
+＠Dr.ロマン
+あの脳き、失礼、あの誠実実直なレオニダス王が、[r]死ねぇ、なんて大声で叫んで暴れる筈がない！
+[k]
+
+＠Dr.ロマン
+彼は他のサーヴァントたち同様、[r]このマンションで悪に堕ちたんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[messageShake 0.05 5 5 0.55]
+＠マシュ
+ドクター、ゲラアウッ！[r]レオニダスさんに悪の側面などないのです！
+[k]
+
+＠マシュ
+そうでなければ誰が、たった３００人の兵士で[r]十万を超える大軍を押しとどめようと奮い立てますかっ！
+[k]
+
+＠マシュ
+荘厳なりし炎門の守護者！[r]不屈の勇者レオニダス王には、悪心も恐怖もなくて、
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠レオニダス
+うおおおお、幽霊こわい[line 5]！[r]こわい[line 4]！　こわい[line 4]！
+[k]
+
+[charaFace F 5]
+＠レオニダス
+不覚、同士たちを助けようと来てみればこの地獄！[r]怖くて部屋から一歩も出られないとは！
+[k]
+
+＠レオニダス
+私、物理が相手なら竜すらワンちゃんに見える男ですが！[r]幽霊だけは！　諸事情からダメなのです！
+[k]
+
+＠レオニダス
+なのに払っても払っても幽霊が！　計算を！[r]ぬ！？　見ればまた新しい幽霊が！
+[k]
+
+[charaFace F 0]
+＠レオニダス
+その姿は！　我がマスターとマシュ嬢！
+[k]
+
+[charaFace F 2]
+＠レオニダス
+おのれ、私のもっとも弱い部分をぶつけてきたくわぁ！[r]なんと頭のいい幽霊なのくわぁ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaSet F 3009001 1 レオニダス]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.4 1]
+＠レオニダス　
+ぬうう、怒髪天を突く、とはこのこと！[r]その姑息さに頭髪が燃えそうな私です！
+[k]
+
+＠レオニダス　
+おおお、助けたまえスパルタの勇者たちよ！[r]いくぞテルモピュライ・エノモタイアゥアゥアゥ！
+[k]
+
+[charaFadeout F 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ごめんマシュ。キミの言う通り彼は変質していない。[r]ただ幽霊が苦手なだけの、いたいけなレオニダス王だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。[r]英霊って悲しいお仕事なんですね、ドクター……。
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,606 @@
+
+
+
+＄01-00-07-15-1-1
+[soundStopAll]
+[charaSet A 98106200 1 マーリン]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 4018001 1 ケツァル・コアトル]
+[charaSet D 5018001 1 ギルガメッシュ]
+[charaSet E 98024000 1 ウルク市民]
+[charaSet F 98024000 1 ウルク市民B]
+[charaSet G 98107500 1 ウルク兵士]
+[charaSet H 98002000 1 フォウ]
+
+[bgm BGM_EVENT_1 0.1]
+[scene 33100]
+[fadein black 1.5]
+[wait fade]
+
+？1：大盤振る舞いだ[line 3]！
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+ふはははそうであろう！[r][#我:オレ]なりの気遣いというヤツだ！
+[k]
+
+＠ギルガメッシュ
+冥界での働き、中々のものだったぞ！[r]次があればまた頼もう！
+[k]
+
+？2：王よ、なぜ戦闘に！？
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+許すがよい、勢いだ！[r]つい興が乗ってしまってな！
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+……ふむ。
+[k]
+
+＠マーリン
+我々はカルデア大使館に戻り、準備ができ次第、[r]北壁に向かうだけとなったが……
+[k]
+
+＠マーリン
+ギルガメッシュ王。[r]キミはここに残るのかな？　文字通り決戦となるが。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+無論だ。指示であればここからでも出せる。[r]……もしも、だ。
+[k]
+
+＠ギルガメッシュ
+もし貴様らが[#力:ちから]及ばなかった場合、[r]次の戦場はこのウルクとなる。
+[k]
+
+[charaFace D 5]
+＠ギルガメッシュ
+ウルクが落ちる時、メソポタミア世界は[#終焉:しゅうえん]を迎える。[r]その時に[#我:オレ]がここにいなくてどうするのだ。
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マーリン
+なるほど、本当に最後の砦になるつもりか。[r]ウルクは人類最古の城塞都市だと知ってはいたがね。
+[k]
+
+＠マーリン
+その根底にあるもの、発端になったものが何であるか、[r]改めて確認したよ。
+[k]
+
+[charaFace A 4]
+＠マーリン
+しかし、だ。[r]ゴルゴーン側にはキングゥがいる。
+[k]
+
+＠マーリン
+彼はこの特異点におけるジョーカーだ。[r]ともすればゴルゴーンより手強い。
+[k]
+
+＠マーリン
+あの偽者を止められるのはキミだけだと思うのだが？[r]それでも北壁には出てこないのかい？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+
+＠ギルガメッシュ
+くどい！　此度の戦い、死に場所があるとすれば[r]このジグラットこそ[#我:オレ]の死に場所よ！
+[k]
+
+＠ギルガメッシュ
+キングゥとやらの迎撃はケツァル・コアトルに一任する！[r]ヤツは女神ではない。同盟の契りは働かぬ。
+[k]
+
+＠ギルガメッシュ
+そうだな、ケツァル・コアトル？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠ケツァル・コアトル
+ええ、任されたわ。
+[k]
+
+＠ケツァル・コアトル
+どのみち、私は鮮血神殿には同行できないしね。[r]北壁でキングゥを止める役割、受け持ちましょう。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+そうか。キミがいいならそのように。[r]ではこれでお別れかな、ギルガメッシュ？
+[k]
+
+＠マーリン
+ゴルゴーンを倒せば当面の危機は去る。[r]魔術王の聖杯も回収され、この時代は崩壊を[#免:まぬが]れる。
+[k]
+
+＠マーリン
+キミから与えられた仕事はそれで終わり、だろう？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠ギルガメッシュ
+そうだとも。これまでよく持ちこたえた。[r]この[#惑星:ほし]の終わりまで、達者でな花の魔術師。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マーリン
+そちらこそ。もしキミの伝説が残る事になったのなら、[r]遙かな未来でまた会おう。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_1 2.0]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[scene 32900]
+[wt 0.7]
+[wipeout leftToRight 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wipein rightToLeft 0.7 1]
+[wait wipe]
+[wt 1.0]
+[wipeout leftToRight 0.7 1]
+[wait wipe]
+[scene 33200]
+[fadeout black 0.1]
+[wait fade]
+[wipein rightToLeft 0.1 1]
+[wait wipe]
+[fadein black 1.5]
+[wait fade]
+[se ad5]
+[seVolume ad5 0 0.6]
+
+[bgm BGM_EVENT_39 0.1]
+
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.4 0]
+[charaFadein F 0.4 2]
+[charaMoveReturn E -256,20 0.4]
+[wait charaMove E]
+[charaMoveReturn E -256,20 0.4]
+[wait charaMove E]
+[charaMoveReturn F 256,20 0.4]
+[wait charaMove F]
+[charaMoveReturn F 256,20 0.4]
+[wait charaMove F]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadein E 0.4 0]
+[charaFadein G 0.4 2]
+[charaMoveReturn E -256,20 0.4]
+[wait charaMove E]
+[charaMoveReturn E -256,20 0.4]
+[wait charaMove E]
+[charaMoveReturn G 256,20 0.4]
+[wait charaMove G]
+[charaMoveReturn G 256,20 0.4]
+[wait charaMove G]
+[charaMoveReturn G 256,20 0.4]
+[wait charaMove G]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+
+[seStop ad5 5.0]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠マシュ
+シドゥリさんの計らいでお料理が沢山並んでいます！[r]ちょっとしたパーティーのようです！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+
+＠マーリン
+ああ、これは目出度い。[r]あれだけ閑散としていたラウンジが人で溢れそうだ。
+[k]
+
+＠マーリン
+今まで何度か仕事を受けた結果、という事かな。[r]食事も花もお酒も、すべてウルク市民からの提供だ。
+[k]
+
+＠マーリン
+こんなに人が多いとアナも緊張しているだろう。[r]ちょっとアナの部屋に迎えに行ってくるよ。
+[k]
+
+＠マーリン
+出立までちょっとだけ余裕はある。[r]キミたちは[#寛:くつろ]いでいてくれ。
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[se ad60]
+[seVolume ad60 0 0.7]
+[wt 1.0]
+[seStop ad60 1.0]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠ウルク市民
+やあ、お疲れさん！　聞いたよ、冥界の冒険！[r]今度はギルガメッシュ王を手助けしたんだって？
+[k]
+
+＠ウルク市民
+ありがとう。ウルク市民を代表して礼を言うよ。
+[k]
+
+＠ウルク市民
+……いやあ。この大使館とやらが出来た時は、[r]よそ者が何の役に立つんだって皆で呆れていたもんだが……
+[k]
+
+＠ウルク市民
+呆れられるべきは我々の方だった。[r]その事も含めてお返しをするべきだってな。
+[k]
+
+＠ウルク市民
+市場でそんな話になったら、[r]気がつけばこんな事になっていた。
+[k]
+
+＠ウルク市民
+出立前で騒がしくなっちまったが、[r]見送るぐらいはさせてくれ。
+[k]
+
+[se ad183]
+[charaShake E 0.05 0 2 0.2]
+[wait se ad183]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein E 0.1 0]
+[charaFadein G 0.1 2]
+
+＠ウルク兵士
+お、握手！　握手だな、それは！[r][%1]たちがよくやるヤツだ！
+[k]
+
+＠ウルク兵士
+オレもやるぞ、握手させてくれ！[r]作戦にはオレも参加するが、その前祝いだ！
+[k]
+
+＠ウルク兵士
+アンタたちにはいつも驚かされる。[r]川に棲み着いたワニ百匹事件の時とかな！
+[k]
+
+＠E：ウルク市民
+いやあ、うちの家の蜂の巣駆除の時ほどじゃない。[r]あの時はもう世界の終わりが来たと焦ったもんだ。
+[k]
+
+＠E：ウルク市民
+部屋が夜になるぐらいの蜂の群だったんだぜ？
+[k]
+
+＠E：ウルク市民
+最後にマシュが盾かまえて突撃した時、[r]オレは心底[#痺:しび]れたよ。蜂の毒で物理的に。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFadein F 0.1 2]
+
+＠F：ウルク市民
+なあ、[%1]の麦酒運びの話はしたっけ？[r]してない？　なら聞いていけ、凄えから！
+[k]
+
+＠F：ウルク市民
+イシン産、ウンマ産、ギルス産の三つの銘柄が名札なしで[r]混ざっちまってさあ、見分けが付かなくなっちまった。
+[k]
+
+＠F：ウルク市民
+仕分けには丸三日かかるが、んな事してたら味が落ちる。[r]そこでこの[&大将:女史]が[#辣腕:らつわん]を振るって……
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+＠マシュ
+皆さん、かわるがわるご挨拶に来てくれています。[r]……なんだか嬉しい反面、寂しいですね。
+[k]
+
+＠マシュ
+これまでの特異点は旅の形式でしたが、[r]今回は一個所に長く滞在しての活動でしたから……
+[k]
+
+＠マシュ
+まるで、ウルクの市民として皆さんに[r]お祝いされている気持ちです。
+[k]
+
+？1：色々あったからね……
+？2：大使館ともこれでお別れか……
+
+？！
+
+＠マシュ
+はい。最後にお掃除がしたかったですが……おや？[r]フォウさん？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ、フォウ！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+
+＠マシュ
+……ふむふむ。先輩、外に人がいるようです。[r]中に入ろうか入るまいかと迷っている、と……
+[k]
+
+＠マシュ
+様子を見にいってみましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_39 1.5]
+[wait fade]
+[scene 32900]
+
+[charaFadeout B 0.1]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+[charaSet G 98016000 1 老婆]
+[imageSet E cut002_black01 1]
+[imageSet F cut004_festoon 1]
+[se ad5]
+[seVolume ad5 0 0.4]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.4 1]
+
+＠マシュ
+失礼します。大使館に何かご用ですか？
+[k]
+
+
+＠老婆
+ああ……よかった。[r]ここがカルデアの大使館なんだねぇ……。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠マシュ
+（先輩……このおばあさん、目が……）
+[k]
+
+
+＠老婆
+見ての通り、歳のせいでずいぶんと目が悪くなってねぇ。
+[k]
+
+＠老婆
+外に出歩くなんてもうないと思っていたけど、[r]最後にどうしても、お礼を言いたくて来たんだよ。
+[k]
+
+[seStop ad5 1.0]
+
+＠マシュ
+お礼、ですか……？[r]あの、わたしたちに？
+[k]
+
+[bgm BGM_EVENT_6 0.1]
+[wt 0.1]
+
+＠老婆
+ああ、そうさ。あの小さな女の子にねぇ。[r]あの子にはそりゃあ、たいそう良くしてもらったのさ。
+[k]
+
+＠老婆
+あたしゃ[#偏屈:へんくつ]でねぇ。家族の反対を聞かないフリして、[r]花屋を続けていたんだよ。
+[k]
+
+＠老婆
+ああ、あくまで格好だけさ。[r]店先にも出られない。呼び込みもできない。
+[k]
+
+＠老婆
+せっかく孫夫婦が持ってきた花を枯らすだけの毎日だった。[r]……それを、あの子が手伝ってくれてねぇ。
+[k]
+
+[charaFace B 13]
+＠老婆
+見えなくなった目にも光を感じる事はあるんだ。[r]ここ数日は若返った気分だったよ。
+[k]
+
+＠老婆
+でも、そんなあたしも例の病気にやられてねぇ……[r]昨日までおさらばしていたんだ。
+[k]
+
+[charaFace B 12]
+＠老婆
+家族は諦めてあたしを旅立たせようとしてくれた。[r]あたしも、もう十分だと受け入れた。
+[k]
+
+＠老婆
+でも、あの子があたしの体にすがってくれたんだ。[r]まだおばあさんは生きている、埋めないで、って。
+[k]
+
+＠老婆
+だからだろうねぇ。冥界で消えかけていたあたしも、[r]もう少し生きていこうと思えたのは。
+[k]
+
+[charaFace B 13]
+＠老婆
+あたしが目を覚ますと、あの子が側にいてくれてね。[r]その時、はじめてあの子の顔に指を当てて……
+[k]
+
+＠老婆
+そうしたらビックリさ。あんな美人とは知らなかった。[r]布で隠すのなんてもったいない。
+[k]
+
+＠老婆
+アンタはきっと街で一番の美人になる。[r]だから顔をおあげ、なんて言っちまったんだが……
+[k]
+
+＠老婆
+あたしもやっぱり歳なんだねぇ。[r]それなら花の飾りの一つもないとしまらない。
+[k]
+
+＠老婆
+だから今日、なんとかひとりで出てきたんだよ。[r]あの子にこれを渡したくて。今までありがとう、ってねぇ。
+[k]
+
+
+[wt 0.2]
+[messageOff]
+[charaDepth E 0]
+[charaFace B 6]
+[charaDepth F 1]
+[charaScale E 1.2]
+[charaScale F 0.8]
+[charaPut F 0,-80]
+[charaCutin E leftToRight 0.4 1.0]
+[wait charaCut E]
+[charaCutin F circleIn 1.0 1.0]
+[wait charaCut F]
+[wt 1.2]
+[charaCutout F 1.0]
+[wait charaCut F]
+[charaCutout E 0.4]
+[wait charaCut E]
+
+[charaFace B 22]
+
+＠マシュ
+……はい。[charaMoveReturn B 0,-10 0.4]確かに受け取りました。[r]アナさんに必ずお渡しします。
+[k]
+
+
+＠老婆
+そうかい、ありがとう。[r]……ああ、良かった。アンタも優しそうな子だ。
+[k]
+
+＠老婆
+あの子は無口で、不器用で、恐がりだったけど。
+[k]
+
+＠老婆
+アンタたちが側にいたのなら、[r]きっと楽しかったんだろうねぇ。
+[k]
+
+＠マシュ
+はい。そうであったのなら嬉しいです。[r]……ありがとうございます、おばあさん。
+[k]
+
+＠マシュ
+アナさんに優しくしてくれて。アナさんもきっと、[r]おばあさんに出会えて嬉しかったと思います。
+[k]
+
+
+＠老婆
+そうかい？[r]それならあたしも長生きした甲斐があった。
+[k]
+
+＠老婆
+もうじきお迎えがくる老いぼれだけど、[r]それでも、まだ誰かのためになれたんだねぇ……
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_6 1.5]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

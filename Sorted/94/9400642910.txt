@@ -1,0 +1,570 @@
+＄94-00-64-29-1-0
+
+
+
+
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98102500 1 イリヤ]
+[charaSet C 98103600 1 ルビー]
+[charaSet D 98103200 1 サファイア]
+[charaSet E 98003000 1 Dr.ロマン]
+[charaSet F 5009001 1 ダ・ヴィンチ]
+[charaSet G 5023000 1 エレナ]
+
+[scene 20304]
+
+[se ad14]
+[shake 0.05 0 4 0]
+[fadein black 2.0]
+[wait fade]
+[seStop ad14 2.0]
+[wt 1.5]
+[shake 0.08 0 2 1.0]
+[wt 0.5]
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……黒い壁がはじけました……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠エレナ
+ついに、レディの王国が……。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[charaMove B 0,50 0.4]
+[wait charaMove]
+[charaMove B 0,-20 0.3]
+[wait charaMove]
+[charaMove B 0,0 0.2]
+[wait charaMove]
+
+＠イリヤ
+わたし、上空から見てきます！
+[k]
+
+[messageOff]
+[charaFadeout B 0.3]
+[se bac122]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+頼みます！[r]くれぐれも気をつけて！
+[k]
+
+
+[messageOff]
+[se ba1]
+[wipeout downToUp 0.3 1]
+[wait wipe]
+
+[charaFadeout A 0]
+
+[scene 28300]
+
+[wipein upToDown 0.3 1]
+[wait wipe]
+
+
+[charaTalk C]
+[charaFace B 5]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+ほっほー？[r]あれがレディさんの王国ですかー。
+[k]
+
+[messageOff]
+[se ba2]
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+
+[charaFadeout B 0]
+[charaFadeout C 0]
+[cameraMove 0.1 0,0 1.5]
+[wait camera]
+[scene 31100]
+
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+[cameraHome 3.0]
+[wait camera]
+
+[charaShake C 0.07 0 8 1.0]
+
+＠ルビー
+時間が凍りついたような寒々しさ……[r]そのただ中にそびえ建つ、孤高の城……
+[k]
+
+＠ルビー
+魔法少女の精神がカタチになったようですネ！
+[k]
+
+[charaFace B 6]
+＠イリヤ
+それどんな精神なの？
+[k]
+
+[messageOff]
+[se ba2]
+[wipeout rightToLeft 0.2 1]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0 1]
+
+[scene 28300]
+
+[wipein leftToRight 0.2 1]
+[wait wipe]
+
+[charaShake D 0.07 0 8 1.0]
+＠サファイア
+……私が脱出をはかった時とは、[r]また雰囲気が異なります。
+[k]
+
+[charaShake D 0.07 0 8 1.0]
+＠サファイア
+障壁が壊れただけでなく、[r]何か内側でも変化があったのでは……？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+変化？[line 3]ん？[r]何かが、こちらへ飛んで来る……？
+[k]
+
+[charaFace B 5]
+＠イリヤ
+鳥……かな……？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShake D 0.07 0 16 1.0]
+＠サファイア
+ハッ……あれは！
+[k]
+
+[se ba1]
+[messageOff]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+
+[scene 20304]
+
+[charaFadeout D 0]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+[wipein downToUp 0.3 1]
+[wait wipe]
+
+＠エレナ
+大きな魔力の流れを感じる……。
+[k]
+
+[charaFace G 5]
+＠エレナ
+ファースト・レディのもとへ、[r]この世界に満ちていた魔力が集結している……。
+[k]
+
+[charaFace G 4]
+＠エレナ
+そんな巨大な魔力を[#湛:たた]えるだけの[#器]を彼女が……？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター。予定通りならそろそろ。
+[k]
+
+？1：[&ああ、:うん。]カルデアからの定時連絡が……来た！
+？！
+
+
+[messageOff]
+[charaFadeout A 0.1]
+
+
+[charaTalk E]
+[se ad13]
+[communicationChara 98003003 1 5 0 1]
+[wt 0.5]
+＠Dr.ロマン
+よしっ、みんな健在だね！[r]心配していたけど、無事でなによりだ！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+……あれ、イリヤちゃんとルビーは？[r]ま、まさか……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+彼女たちもちゃんと無事です。[r]ルビーさんの妹のサファイアさんも合流いたしました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+早速ですがドクター、そちらの状況を！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+妹？　魔術礼装の妹？[line 3][communicationCharaFace 5]いや考えないぞ。[r]今は一刻を争うからね。
+[k]
+
+＠Dr.ロマン
+ダ・ヴィンチちゃんとも協議しながら、[r]技術的な対策を練った。
+[k]
+
+＠Dr.ロマン
+そちらの世界は多くの危険を秘めている。[r]けれど、我々は深く関わってしまった。
+[k]
+
+＠Dr.ロマン
+こうなった以上、既にボクらも関係者、当事者だ。[r]なら野放しには出来ない。
+[k]
+
+＠Dr.ロマン
+個人的な感想を漏らすと、[r]イリヤちゃんたちの苦境も見過ごせないしね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+では……カルデアも、[r]作戦として支援してくださると？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk F]
+[communicationCharaLoop 5009003 1 5 0 1]
+
+＠ダ・ヴィンチちゃん
+そ[line 4]いうこと！！
+[k]
+
+＠ダ・ヴィンチちゃん
+もちろんダ・ヴィンチちゃん個人としては、[r]そちらのグロテス[line 3]怪しげな世界に興味津々だよ？
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチちゃん
+本来ならその空間は……うーん、そうだねえ、[r][#想念の廃棄場]とでも呼ぶべき場所、かな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+
+[communicationCharaLoop 5009003 0 5 0 0]
+
+＠エレナ
+言葉を選ばずともよくってよ。[r]ええ[line 3][#此処:ここ]は[#煉獄:れんごく]そのもの。
+[k]
+
+[charaFace G 4]
+＠エレナ
+果てしない夢をみて、[r]そして届かなかった魔法少女たちの廃棄場[line 3]
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチちゃん
+[#素晴らしい:ブラーヴァ]！[r]よし、話が早い！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+
+＠マシュ
+素晴らしくも、よくもないです！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[communicationCharaLoop 5009003 1 5 0 2]
+
+＠ダ・ヴィンチちゃん
+いいや、断じていいね、とてもいい！[r]『魔法少女』という、極めて不安定な存在[line 3]。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチちゃん
+圧倒的な魔力を持ち、時には正統な儀式も省略して[r]直感的に魔術を行使する。
+[k]
+
+＠ダ・ヴィンチちゃん
+しかしその中で、可能性を[#喪:うしな]った、と絶望した者たちの[r]執着心が、[#象:かたど]られぬまま魔力の流れとなり、
+[k]
+
+[communicationCharaFace 4]
+＠ダ・ヴィンチちゃん
+混沌とした吹き溜まりの[#澱:よど]みとなった……。
+[k]
+
+[communicationCharaFace 5]
+＠ダ・ヴィンチちゃん
+ファースト・レディはその混沌とした想念の焦点となり、[r]なかば自動的に固有結界を形成したのだろう。
+[k]
+
+[communicationCharaFace 0]
+＠ダ・ヴィンチちゃん
+[line 3]そんなところかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+
+[communicationCharaLoop 5009003 0 5 0 0]
+
+＠エレナ
+……あなた、もしかして……天才？
+[k]
+
+[communicationCharaFace 1]
+＠ダ・ヴィンチちゃん
+無論、そうだとも。そして謝罪しよう。[r]天才ともあろう者が、それを言い忘れていたよ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+＠マシュ
+……では……ということは……？
+[k]
+
+？1：レディが消えれば……この世界も元の魔力に還元される？
+？！
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[communicationCharaLoop 5009003 1 5 0 0]
+
+＠ダ・ヴィンチちゃん
+その通りだ！　ダ・ヴィンチちゃんはそれを期待するよ？[r]この事件の根本的な解決策としてね！
+[k]
+
+＠ダ・ヴィンチちゃん
+まあもっとも？　その世界に[#顕現:けんげん]した住人や、[r]現役の魔法少女ご本人はどう思うかなあ？　同胞として。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+また耳に痛いことをずけずけと。[r]それは現実的な解決かもしれないが……。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+だけど、ボクからはこう言わせてもらおう。
+[k]
+
+＠Dr.ロマン
+これまでも到底不可能、無理難題と思ってきたことを[r]成し遂げてきたキミたちだ。
+[k]
+
+＠Dr.ロマン
+安全とか効率とか、念のため、なんて言って[r]尻込みしていたら奇跡なんて起こせる訳がない。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+ここまで来たのなら、[r]キミたちの望むようにやるべきだろう。
+[k]
+
+
+？1：感謝します、ドクター
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ありがとうございます。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠エレナ
+…………イリヤが降ってきた。
+[k]
+
+
+[messageOff]
+[charaFadeout G 0.1]
+
+[bgmStop BGM_EVENT_1 0.1]
+
+[se ad60]
+[charaTalk B]
+[charaFace B 2]
+[charaFace C 0]
+[charaFadein B 0.5 2]
+[charaFadein C 0.5 0]
+[wt 0.5]
+[seStop ad60]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠イリヤ
+[line 3][%1][&お兄さん:お姉さん]！[r]レディの使い魔が向かってくる！　すごい数！
+[k]
+
+[charaShake C 0.07 0 16 1.0]
+＠ルビー
+おお[line 2]！　これはなんと燃えるシチュエーション！[r]空が三、黒が七！　星空が青く見えません！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター！
+[k]
+
+？1：[&ああ:うん]、がんばって美遊を助けよう！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+うんっ！
+[k]
+
+
+？2：……どうかし[&たかい:た]、エレナ？
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠エレナ
+…………なんでもないわ。[r]さ[charaFace G 5]あ、来るわ！
+[k]
+
+[charaFace G 2]
+＠エレナ
+あたしも防壁を張って攻撃を防ぐ。[r][%1]は突破口を開きなさい。
+[k]
+
+？！
+
+
+[messageOff]
+[bgmStop BGM_EVENT_3 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout B 0]
+[charaFadeout G 0]
+
+
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+[fowardEffect bit_queststart80025_06]
+[wait fowardEffect bit_queststart80025_06]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,474 @@
+
+＄01-00-05-11-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 3005002 1 エリザベート]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 7008001 1 ？？？]
+[charaSet F 98055000 1 老人]
+[charaSet G 98058000 1 ？？？]
+
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+到着しました。[r]向こう側にある島が、アルカトラズ島になります。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ラーマ
+意外に近いな。[r]とはいえ、泳ぐ訳にもいくまい。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+敵サーヴァントに気付かれる可能性は[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠エリザベート
+どんな鈍感でも、島に上陸すれば気付く距離でしょ。[r]気にしても始まらないわ。
+[k]
+
+[charaFace C 4]
+＠エリザベート
+それより、アタシ、泳ぐのは嫌だからね？
+[k]
+
+？1：泳げないとか？
+？2：カナヅチ？
+
+？！
+
+[charaFace C 2]
+＠エリザベート
+違うわよ！　ちゃんと泳……いだことはないけど、[r]多分大丈夫なんだから！
+[k]
+
+[charaFace C 5]
+＠エリザベート
+アタシが言いたいのは、[r]こんな海で泳ぐ気にならないってこと。
+[k]
+
+＠エリザベート
+海水なんて、お肌が荒れるでしょ。
+[k]
+
+[charaFadeout C 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+サーヴァントならともかく、マスターである[r][%1][&君:ちゃん]は難しいだろうね。
+[k]
+
+＠Dr.ロマン
+潮流も速く、水温も冷たい。[r]泳ぐには極めて不向きの場所だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+向こう側へ渡るためのボートを探してみます。
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 1.0]
+[wipein rightToLeft 0.5 1]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……あそこにいる老人にボートがないか聞いてみますか。[r]少々よろしいですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠老人
+あん？
+[k]
+
+[charaFace A 7]
+＠マシュ
+向こうの島に渡るための船を探しているのですが[line 2]
+[k]
+
+＠老人
+……やめとけ。[r]あの島には、悪魔が住み着いた。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……悪魔？
+[k]
+
+＠老人
+そうじゃ。ワシは[#英国:イングランド]出身だから知っておる。[r]あれは“竜種”と呼ばれる代物だ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……！？
+[k]
+
+＠老人
+あの島に行きたいのならワシの船を貸してやるが……[r]壊したら弁償しろよ？
+[k]
+
+[messageOff]
+[fadeout black 1]
+[wait fade]
+[wt 1.0]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[fadein black 1]
+[wait fade]
+
+[wt 0.3]
+
+＠マシュ
+……という訳です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エリザベート
+竜種、ふぅん。いいじゃない。私だって竜種だし。[r][#雑種:デミ]だけど。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ラーマ
+え……そうなのか！？
+[k]
+
+[charaFace C 2]
+＠エリザベート
+アナタ、アタシの尻尾と角をどう思っていたワケ！？
+[k]
+
+[charaFace B 4]
+＠ラーマ
+それは……そういう、趣味があるのかと……。
+[k]
+
+＠エリザベート
+怪我が治ったらシータの後にはたくわよ！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+ま、まあまあ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+この行く手に竜が待っていようがいまいが、[r]もうこの患者は限界です。
+[k]
+
+＠ナイチンゲール
+血を流すことを恐れてはいけません。[r]行きましょう。時間が惜しい。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……そうですね。大丈夫です。[r]竜種なら、フランスで嫌というほど殴り合いました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エリザベート
+見渡すかぎりワイバーンだらけだったものね……。[r]同じ雑竜としてうんざりしたわ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ラーマ
+なるほど。[r]世界を救う旅とは、なかなかに難儀なものだな。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+[line 2]では、マスター。
+[k]
+
+？1：出発！
+？2：行くぞ！
+
+？！
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[wt 1.5]
+
+[scene 21900]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠E：？？？
+……ふん。一、二、三、四……四騎か。[r]しかし、内一騎は弱ってるな……負傷してるのか？
+[k]
+
+[charaFace E 4]
+＠E：？？？
+となると実質三騎。[r]何てこった。[#たった]三騎か！
+[k]
+
+＠E：？？？
+食い足りないってコトに[r]ならなきゃいいんだけどなァ……。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+チッ……まあいい、まあいいさ。[r]オラ、仕事だてめえら。
+[k]
+
+＠E：？？？
+惰眠[#貪:むさぼ]って人を喰うだけが仕事じゃねえぞ。[r]とっとと試してこい！
+[k]
+
+[se ad19]
+[wait se ad19]
+
+[wt 0.3]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[scene 11800]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.3]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠G：？？？
+……。[r]……。
+[k]
+
+＠G：？？？
+[line 8]ラーマ、さま？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout G 0.1]
+[wt 1.0]
+[scene 11700]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+到着しました。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+既に幾つかワイバーンの敵性反応が示されている。[r]それから[line 2]。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 5]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+サーヴァントの反応ですね。
+[k]
+
+＠Dr.ロマン
+そうだ。けどサーヴァントは動く様子はない。
+[k]
+
+＠Dr.ロマン
+ワイバーンたちはこの敵性サーヴァントへ[r]向かおうとする道々に配置されているようだ。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠エリザベート
+どゆコト？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ラーマ
+……恐らく、試しているのだろうな。[r]俺はここにいる、かかってこい……という訳だ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+そのサーヴァントを倒さねば、[r]シータという方に会えないのでしょうね。
+[k]
+
+＠ナイチンゲール
+では、真っ直ぐ行きましょう。[r]患者の容態を考慮すると一刻の猶予もありません。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠ナイチンゲール
+執刀許可を待つ時間は不要です。[r]突貫します！
+[k]
+
+[se ad73]
+[wt 0.2]
+[charaFadeout D 0.1]
+[wait se ad73]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+う、ま、待ってください！　……と言っても待つ人じゃ[r]ないですよね、ナイチンゲールさんは……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+追いかけましょう。どう悩んでも、彼女の選択肢が[r]最速である事だけは間違いありませんし。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠エリザベート
+そうね。分かりやすいのはいいコトだわ。[r]まっしぐらに突撃よ！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[wt 0.5]
+
+
+[scene 20803]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+来ました。ワイバーンとケルト戦士たちです！[r]マスター、指示をお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

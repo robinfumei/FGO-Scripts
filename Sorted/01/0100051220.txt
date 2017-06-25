@@ -1,0 +1,236 @@
+
+＄01-00-05-12-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 1019001 1 ラーマ]
+[charaSet C 3005002 1 エリザベート]
+[charaSet D 7008001 1 ベオウルフ]
+[charaSet E 3011001 1 フィン]
+[charaSet F 3002001 1 ディルムッド]
+
+[scene 21413]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+では、島を脱出しましょう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+待った！[r]敵性反応[line 2]サーヴァントが接近してくる！！
+[k]
+
+＠Dr.ロマン
+これは……最初に出会った敵サーヴァントたちだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+最初に出会った敵サーヴァント[line 2]。[r]フィン・マックールとディルムッド・オディナ……！！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[wait fade]
+
+[scene 20400]
+[charaFadeout A 0.1]
+[wt 0.5]
+
+[bgm BGM_EVENT_3 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠フィン
+やあ、マシュ殿。[r]前回の約束は覚えているかな？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……あれですか……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠フィン
+ああ、此度は本気だ。[r]しかし戦った結果、君が敗北してなお生き残ったならば！
+[k]
+
+[charaFace E 1]
+＠フィン
+君を私のものにしたい。[r]つまり、キミを私の嫁にしたい。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠エリザベート
+プロポーズ！？　プロポーズじゃない今の！[r]マシュ、アンタ意外とやるわね！
+[k]
+
+[charaFace A 12]
+＠マシュ
+……いえ。お断りしているというか、[r]現状を考慮するに論外の提案なのですが……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ディルムッド
+まあ、そう言わずに。[r]我ら、マシュ殿の武勇にはつくづく感心しております。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠フィン
+ほう、女が苦手なディルムッドも興味を持ったか！[r]ふふふ、また私の目の前で攫って行く気かい？
+[k]
+
+[charaFace F 2]
+＠ディルムッド
+そ、そのようなコトは決して……！！[r]決して、考えてもおりませぬ！
+[k]
+
+＠ディルムッド
+ただ、ただ私はマシュ殿の怯まぬ勇気に[r]感心したのでありまして……！！
+[k]
+
+[charaFace E 1]
+＠フィン
+はっはっは、冗談だよ。かなり踏み込んだ冗談だ。[r]まったく気にしないでくれ。
+[k]
+
+[charaFace E 0]
+＠フィン
+本来なら私の方が許しを乞わねばならないのだからね。[r]うん、我ながらこの性格はどうにもならないな。
+[k]
+
+＠フィン
+だが、それもここまで。冗談はやめにするとも。[r]生前の遺恨はこれより絶無とする。何故なら[line 3]
+[k]
+
+＠フィン
+若武者よ。我らはこうして共に戦える。[r]それ以上の喜びは、この地上の何処にもない。
+[k]
+
+[charaFace F 1]
+＠ディルムッド
+……！[r]無論。無論でございます、王よ！
+[k]
+
+＠フィン
+[line 2]人数の多寡は、量で平均化することにしよう。[r]ベオウルフ。君はどうする？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ベオウルフ
+……ああ？[r]気分が乗らねぇ。東部に戻るわ。
+[k]
+
+＠ベオウルフ
+元々、好きで引き受けた仕事でもないからな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フィン
+そうか。好きにしたまえ。[r]では[line 2]ここは我々と彼らだけで戦おう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+……来るぞ！[r]ケルト戦士の大軍団だ……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フィン
+何、君たちの方にも一人[line 2]一騎当千の[r]サーヴァントが蘇ったのだろう？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ラーマ
+……その通り！[r]マスター、安心しろ。
+[k]
+
+＠ラーマ
+我が宝具は梵天から預かりし神の刃。[r]数を集めたところで、敵にはならぬ！
+[k]
+
+＠ラーマ
+まして、余は今シータと共にある！
+[k]
+
+＠ラーマ
+余を打倒したいのならば、百万の兵を率い、[r]十の頭と二十の腕を持って掛かってこい！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

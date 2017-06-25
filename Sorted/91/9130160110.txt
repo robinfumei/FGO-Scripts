@@ -1,0 +1,200 @@
+＄91-30-16-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaSet A 98001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3016001 2 ヘクトール]
+[se ad8]
+[wt 0.3]
+[fadein black 1]
+[wt 0.4]
+[charaFadein A 0.1 1]
+[wait fade]
+[wt 0.3]
+＠マシュ
+マスター、ヘクトールさんが[r]ご相談したいことがあるそうです。
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[wipeout leftToRight 1 1]
+[wait fade]
+[se ad8]
+[wt 0.3]
+[scene 10400]
+[wipein rightToLeft 1 1]
+[wait fade]
+[wt 0.3]
+[charaFadein D 0.4 1]
+[wt 0.3]
+＠ヘクトール
+よっ。[r]マスター、いるかい？
+[k]
+
+[charaFace D 1]
+＠ヘクトール
+なに、そう警戒するなって。[r]今の俺ぁ、アンタのサーヴァントなんだから。
+[k]
+
+？1：警戒している訳じゃない
+
+？2：気にしてない
+
+？！
+
+[charaFace D 0]
+＠ヘクトール
+そうかい。そいつぁ、ありがたい。[r]で、ちょいと相談があってな。
+[k]
+
+＠ヘクトール
+マシュもいいかい？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+[charaFadein D 0.1 0]
+＠マシュ
+は、はい。構いませんが……。
+[k]
+
+[charaFace D 1]
+＠ヘクトール
+オッケー。そんじゃ、ま、端的に話すとだな。[r]今の俺、全力じゃないんだよね。
+[k]
+
+？1：手抜き？
+
+？2：本気出せば強い？
+
+？！
+
+[charaFace A 0]
+＠ヘクトール
+そうそう。もちろん手ぇ抜いてる訳じゃないし、[r]本気出したら強いよ、俺は？
+[k]
+
+[charaFace D 4]
+＠ヘクトール
+でもなー、宝具がなー。[r]ちぃっとばっかり弱くなってんだよね。
+[k]
+
+[charaFace A 13]
+＠マシュ
+デュランダルですね。確か……ヘクトールさんは[r]ドゥリンダナ、と呼んでいたような。
+[k]
+
+[charaFace D 0]
+＠ヘクトール
+そうそう、確かそんな名前だっただった。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの、宝具の真名くらいちゃんと覚えておいた方が[r]いいのでは？
+[k]
+
+[charaFace D 1]
+＠ヘクトール
+いやあ、はっはっは。正味な話、槍なんて[r]ブン投げられたらどんなものだって構わないのさ。
+[k]
+
+＠ヘクトール
+大体お前、後生大事にしてる名剣名槍だって戦場じゃ[r]ポッキンポッキン折れるのが当たり前だっつーの。
+[k]
+
+＠ヘクトール
+折れなくても、投擲したら無くなるもんだし？[r]だったら何でも使えるようにしといた方がいいじゃん。
+[k]
+
+[charaFace D 0]
+＠ヘクトール
+ぶっちゃけ石ころ一つありゃ、オジサン一人殺せるぜ？[r]それが英雄だろうが、何だろうが、ね。
+[k]
+
+[charaFace D 4]
+＠ヘクトール
+ただまあ、それはそれとしてこの槍は後世にも[r]伝わっちまう代物だ。
+[k]
+
+[charaFace D 0]
+＠ヘクトール
+少しは切れ味を取り戻しておかなくちゃな。[r]そうさな、あと百人くらい斬っておけば[line 2]。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……では、模擬戦闘プログラムでトレーニングを[r]行いますか？
+[k]
+
+[charaFace D 4]
+＠ヘクトール
+仮想戦闘か……。[r]ま、この際贅沢は言えねぇか。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ヘクトール
+マスター、どうだい。[r]オジサンのトレーニングに一つ、付き合ってくれんかね？
+[k]
+
+？1：仕方ない
+
+？2：構わない
+
+？！
+
+[charaFace D 1]
+＠ヘクトール
+いいねえ、即答ってな人の本性が出る。[r]アンタやっぱり立派なマスターだよ。
+[k]
+
+＠ヘクトール
+それじゃ、行こうぜ。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[soundStopAll]
+[wt 0.3]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[charaSet A 8001001 2 マシュ]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+[fadein black 1.2]
+[scene 20700]
+[wt 0.6]
+＠マシュ
+到着しました。[r]では、エネミーですが[line 2]。
+[k]
+
+＠マシュ
+ひとまず、人型エネミーで問題ありませんか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ヘクトール
+あいよ。とりあえずそいつで肩慣らしと行きますか。[r]ようし、マスター[line 2]指示をくれ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

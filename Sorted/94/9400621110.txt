@@ -1,0 +1,107 @@
+＄94-00-62-11-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 2026000 1 アルトリア]
+[charaSet B 3025000 1 清姫]
+[charaSet C 98100400 1 マシュ]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk H]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+我々うりぼう、思いました。[r]働いたら、負けなのではと。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFace B 5]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠アルトリア
+……いきなり困ったことを[r]言い出し始めましたね……。
+[k]
+
+＠清姫
+トンチキ極まりましたわね。[r]焼きますか。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+
+＠F：うりぼう
+さ、最後まで話を聞いて下さいです！
+[k]
+
+＠G：うりぼう
+働かなくてもご飯が食べられる！[r]そんな世界を夢見てプランしたであります！
+[k]
+
+＠H：うりぼう
+こちら企画書であります。
+[k]
+
+[charaFace F 0]
+[charaFace G 0]
+[charaFace H 0]
+
+＠H：うりぼう
+是非、このソリューションでシンキングを[r]ウィンウィンな関係でグッドシチズン。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠アルトリア
+はあ……。[r]マスター、これはどうしましょうか。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+
+＠マシュ
+捨ててしまいたいところですが、[r]とりあえず見てみますか……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

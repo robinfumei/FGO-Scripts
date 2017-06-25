@@ -1,0 +1,524 @@
+＄01-00-04-10-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10916 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5011001 1 バベッジ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0 0]
+[charaFace F 0]
+[charaFadein F 0 2]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+…………フラン。話がある。
+[k]
+
+[charaFace F 4]
+＠フラン
+……ゥ。
+[k]
+
+＠モードレッド
+おまえ、リモコンへ案内するつもりないだろ。[r]流石にわかるぞ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+そうなんですか？　フランさん[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠モードレッド
+ああ。こいつ、何か迷ってる。[r]あと、だ。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+何か言ってないことがある。[r]そうだな、フラン。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFadein F 0.1 2]
+＠フラン
+……ゥゥ。[r]……ゥゥ、ゥ、ゥ。
+[k]
+
+[charaFace E 2]
+＠モードレッド
+……あのなあ。何度も言っただろ。[r]忘れてないよな？
+[k]
+
+＠モードレッド
+思ってることがあるなら。[r]言いたいことがあるなら、そのまま言ってみろよ。
+[k]
+
+？1：うん、言っていいんだよ
+
+？2：聞かせて欲しい
+
+？！
+
+[charaFace F 0]
+＠フラン
+……ゥ……。
+[k]
+
+[charaFace F 5]
+＠フラン
+……ゥ、ゥ……ゥゥ……。
+[k]
+
+＠フラン
+……ウゥ……ァ……ァ、ァ……ゥゥ……。
+[k]
+
+[charaFace F 4]
+＠フラン
+……ゥゥ……。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+…………ああ。そう、だったんですね。
+[k]
+
+？1：なんて言ってる？
+
+？2：わからない……
+
+？！
+
+[charaFace A 0]
+＠マシュ
+バベッジ氏という人物を、彼女は知っているんです。[r]会って話したことさえあるそうです。
+[k]
+
+＠マシュ
+魔力を辿ることができるのは、[r]彼の気配のようなものを辿っているから、と。
+[k]
+
+[charaFace A 4]
+＠マシュ
+でも、こんなことをする人じゃない。[r]そう彼女は言っています。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+…………。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+確かに、ミスター・ジキルの話にもありました。[r]そこで気付くべきでした、わたしも……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFace F 4]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 2]
+＠モードレッド
+……話はわかった。[r]お前は庇ってる訳だな、フラン。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+だが、それは矛盾してる。[r]バベッジって奴は[#こんなことはしない]んだろ。
+[k]
+
+[charaFace F 0]
+＠フラン
+……ゥ。
+[k]
+
+[charaFace E 3]
+＠モードレッド
+じゃあ後は簡単だ。[r]……あのクソガキの言葉を使うのは癪だが、仕方ない。
+[k]
+
+[charaFace E 0]
+＠モードレッド
+フラン。落ち着いて、[r]想像力ってヤツを働かせてみろ。できるだろ。
+[k]
+
+[charaFace E 4]
+＠モードレッド
+バベッジはこんな事はしない。[r]なのにヘルタースケルターはうろうろしてやがる。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+なら、やっこさんは強要されてんだよ。[r][#こんなことをする]ように、な。
+[k]
+
+[charaFace F 2]
+＠フラン
+……ゥ！
+[k]
+
+[charaFace E 1]
+＠モードレッド
+よし、いい子だ。[r]じゃあ、おまえが何をすればいいかもわかったか？
+[k]
+
+[charaFace F 1]
+＠フラン
+……ゥ、ゥ！
+[k]
+
+？1：話はついたね
+
+？2：今度こそ、リモコンを探そう
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、先輩！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 1]
+[scene 10916 0]
+[charaTalk E]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace E 5]
+[charaFadein E 0 0]
+[fadein black 0.5]
+[bgm BGM_EVENT_5 0.1]
+[wait fade]
+＠モードレッド
+[line 3]近い、な。
+[k]
+
+[charaFace A 15]
+＠マシュ
+はい。わたしにもわかります。[r]魔霧の中でも、魔力の集中がここに在ると。
+[k]
+
+＠モードレッド
+そら、そこだ。[r]もう[%1]にも聞こえてくる筈だぜ。
+[k]
+
+[se ad14]
+[wt 1]
+＠Dr.ロマン
+こちらでも感知したぞ。極めて大型の反応だ。[r]もう、目の前まで来ている。こんな場所にいたのか！
+[k]
+
+[seStop ad14 1]
+＠モードレッド
+シティエリアの中心部とはな。[r]アパルトメントのすぐ近くにいたって訳だ。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+さあ、ご対面だ。[r]もうひとつのリモコンか。それとも[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 2]
+＠フラン
+……ゥ、ゥ……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.5]
+[messageOff]
+[se ad57]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 2]
+[seStop ad57 0.5]
+＠バベッジ
+[line 3]聞け。聞け。聞け。我が名は[#蒸気王:じょうきおう]。
+[k]
+
+＠バベッジ
+有り得た未来を掴むこと叶わず、[r]仮初めとして消え果てた、儚き空想世界の王である。
+[k]
+
+＠バベッジ
+貴様たちには魔術師「Ｂ」として知られる者である。[r]この都市を覆う「魔霧計画」の[#首魁:しゅかい]が一人である。
+[k]
+
+＠バベッジ
+そして[line 3][r]帝国首都の魔霧より現れ出でた、英霊が一騎である。
+[k]
+
+＠マシュ
+……魔術師「Ｂ」、と。
+[k]
+
+＠モードレッド
+……敵の親玉の一人かよ。[r]そういう予想まではしてなかったな、くそ。
+[k]
+
+＠モードレッド
+確かに頭文字は同じだ。Ｂか。[r]あれこれ考えすぎて簡単なことを忘れてたぜ。
+[k]
+
+＠マシュ
+しかし、これは……。[r]ヘルタースケルターと同じ姿……？
+[k]
+
+＠モードレッド
+[#性能:スペック]はこっちの奴が遙かに上だろうな。[r]ただの勘だが、オレのはよく当たる。
+[k]
+
+＠マシュ
+人間には見えません。[r]やはり、彼は……サーヴァント……！
+[k]
+
+[charaFace D 4]
+＠バベッジ
+我が名は蒸気王。[r]ひとたび死して、空想世界と共に在る者である。
+[k]
+
+[charaFace D 5]
+＠バベッジ
+我が空想は固有結界へと昇華されたが、[r]足りぬ。足りぬ。これでは、まだ、足りぬ。
+[k]
+
+＠バベッジ
+見よ。我は欲す者である。[r]見よ。我は抗う者である。
+[k]
+
+＠バベッジ
+鋼鉄にて、蒸気満ちる文明を導かんとする者である。[r]想念にて、有り得ざる文明を導かんとする者である。
+[k]
+
+[charaFace D 2]
+＠バベッジ
+そして[line 3][r]人類と文明、世界と未来の焼却を嘆く一人でもある。
+[k]
+
+＠Dr.ロマン
+ああ、そういうことか……！[r]彼自身が既に固有結界である、ということだ！
+[k]
+
+＠Dr.ロマン
+魔本の時とよく似ている。[r]魔本は自らの現界のために眠りを撒いたが。
+[k]
+
+＠Dr.ロマン
+彼は自らの分身をどこまでも際限なく撒き続ける。[r]恐らくは、そういう[line 3]
+[k]
+
+＠マシュ
+ミスター・バベッジ。[r]仰る言葉が真実なら、わたしたちは対話できます。
+[k]
+
+＠マシュ
+わたしたちも同じです。[r]未来は、焼却されてはならない……！
+[k]
+
+＠モードレッド
+御託はいい。[r]いいか、屑鉄。よく聞け。
+[k]
+
+＠モードレッド
+おまえの知り合いの娘が、おまえを止めに来た。
+[k]
+
+＠モードレッド
+話を聞いてやれ。[r]大層な御託も何もかも、それからだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠フラン
+……ゥ、ゥ！
+[k]
+
+[charaFace F 5]
+＠フラン
+……ウ……ゥゥ、ァ……ア、ァ……！
+[k]
+
+[charaFace F 2]
+＠フラン
+……ア、ァ、ァ……！！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠バベッジ
+[line 3]おお、おお。忘れるはずもなきヴィクターの娘。[r][line 3]そこにいるのか。おまえは。
+[k]
+
+＠バベッジ
+可憐なる人造人間よ。[r]造物主より愛されず、故に愛を欲す哀れなる者よ。
+[k]
+
+＠バベッジ
+嗚呼、お前の言葉が聞こえる。[r]嗚呼、お前の想いが聞こえる。
+[k]
+
+[charaFace D 0]
+＠バベッジ
+そう、だ[line 3][r]私は、我らは、碩学たる務めを果たさねば。
+[k]
+
+＠バベッジ
+我らは人々と文明のためにこそ在るはずだ。[r]故にこそ、私は求めた。空想世界を。夢の新時代を。
+[k]
+
+＠バベッジ
+故にこそ…………
+[k]
+
+[se ad57]
+[wt 1]
+[seStop ad57 0.5]
+[charaFace D 3]
+＠バベッジ
+グ……！？
+[k]
+
+[se ad14]
+[charaShake D 0.1 2 2 0]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 5]
+＠バベッジ
+……グ……ゥ……ガガ、ガ……ガ……！？[r]これ、は……何だ……アングルボダ、の、介入か……！
+[k]
+
+＠バベッジ
+組み込んだ、聖杯……！[r]そうか、「Ｍ」……が……この、私、さえも……！！
+[k]
+
+[charaFace D 2]
+＠バベッジ
+ヴィクターの娘……！[r]逃げ……ろ……！
+[k]
+
+[seStop ad14 1]
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠フラン
+……ゥ！！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠モードレッド
+[line 3]もういい。フラン。
+[k]
+
+＠モードレッド
+おまえは言うべきことを言ったし、[r]あいつはあいつで応えた。よくやった。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+だが、こういうこともある。[r]想いが届かず、刃で決着を付けざるを得ない[line 3]
+[k]
+
+[charaFace E 0]
+＠モードレッド
+そういうことも、な。[r]あるんだよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠バベッジ
+オオ、ォ……！！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+…………来ます！
+[k]
+
+＠Dr.ロマン
+対話不能となって襲って来る！？[r]それは、令呪の強制が実行された状態と酷似して[line 3]
+[k]
+
+＠Dr.ロマン
+聖杯に依るものだとしたら、もう[r]彼を倒す以外にない、マシュ、[%1][&君:ちゃん]！
+[k]
+
+[charaFace A 2]
+＠マシュ
+マスター、指示を。[r]大型サーヴァントとの戦闘が開始されます！
+[k]
+
+？1：仕方ない！
+
+？2：彼を止める！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+[line 3]はい。マスター！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[seStop ad14 0.4]
+[wait fade]
+[soundStopAll]
+[end]

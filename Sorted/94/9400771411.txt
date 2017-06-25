@@ -1,0 +1,382 @@
+
+
+＄94-00-77-14-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+
+[charaSet A 8001001 1 マシュ]
+[charaSet C 2003001 1 ロビンフッド]
+[charaSet D 1010001 1 エリザベート]
+[charaSet E 7022001 1 茨木童子]
+[charaSet F 98003003 1 Dr.ロマン]
+[charaSet G 3003001 1 ヴラド三世]
+[charaSet H 6008001 1 ？？？]
+
+[scene 32200]
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠ヴラド三世
+……吸血鬼などという[r]架空のものに、我が槍が破れるとはな。
+[k]
+
+＠ヴラド三世
+不徳の極みは、[#吾:オレ]の方であったか。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_3 0.7]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.4 1]
+＠エリザベート
+あ、あの……おじ様？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ヴラド三世
+貴様におじ様などと呼ばれる筋合いはない。[r]そう呼ぶべきは王である[#吾:オレ]であろう。
+[k]
+
+＠ヴラド三世
+我々サーヴァントの異なる側面とは、[r]別人に等しい場合もある。
+[k]
+
+＠ヴラド三世
+今の[#吾:オレ]のようにな。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠エリザベート
+でも、それでも。[r]……その、おじ様はおじ様だし……。
+[k]
+
+＠エリザベート
+[#私:アタシ]は嫌われているかもしれないけど、
+[k]
+
+[charaFace D 4]
+＠エリザベート
+……どうしても許されない事を、[r]してしまったのかもしれないけど。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ヴラド三世
+そうだ。貴様は罪を犯した。[r]世界は貴様のあの罪を数えぬだろう。
+[k]
+
+＠ヴラド三世
+貴様の霊基にも、あの罪は刻まれてはいないだろう。[r]何もかも無かった事になった世界での話だからな。
+[k]
+
+[charaFace G 5]
+＠ヴラド三世
+……だが。[#吾:オレ]は忘れる訳にはいかぬ。
+[k]
+
+＠ヴラド三世
+我が妻。我が愛。[r]我が光の最後の理性を、貴様は否定したのだ。
+[k]
+
+[charaEffect G bit_talk_06]
+[charaFace G 0]
+＠ヴラド三世
+あの美しい女の為に、[#吾:オレ]は貴様を赦さぬ。[r]たとえ、あの女が貴様を赦すと言ってもな[line 3]
+[k]
+
+[wt 0.3]
+[messageOff]
+
+[charaSpecialEffect G flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect G]
+[charaEffectStop G bit_talk_06]
+[wt 1.2]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.7 1]
+＠エリザベート
+……。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+＠マシュ
+エリザベートさん……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠ロビンフッド
+……なるほど、オレもなんとなく思い出したわ。[r]厄介だねぇ、人理があやふやな状態ってのは。
+[k]
+
+＠ロビンフッド
+[#あの]ヴラド三世とエリザベートは、ま、[r]ちょっとした因縁があったのさ。
+[k]
+
+[charaFace C 4]
+＠ロビンフッド
+エリザベートとヴラドの旦那、どっちが[r]悪いとか正しいとかの話じゃない。
+[k]
+
+[charaFace C 0]
+＠ロビンフッド
+世界ってのは人間の道徳なんてものには流されない。[r]ただ、『存続に有益なもの』を採用する。
+[k]
+
+＠ロビンフッド
+罪深くても恥知らずでも、[r]とにかく償いをしようと顔を上げたお嬢ちゃんと、
+[k]
+
+[charaFace C 4]
+＠ロビンフッド
+一切の償いを認めず、ただ粛正を求めた[r]あの旦那の信念は、世界にとっちゃ『同じ罪』なのさ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[communicationCharaFace 4]
+[wt 0.3]
+＠Dr.ロマン
+……そうだね。同じだから、有効な方を使う。[r]人理継続の為なら悪であろうと使い、
+[k]
+
+＠Dr.ロマン
+人理継続を願わないのなら、義が有ろうと[r]不要な英霊として不許可とする……か。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+でも、それでいうのなら、あのヴラド三世も[r]人理継続を願ってはいるんだろう。
+[k]
+
+＠Dr.ロマン
+なにしろ、こうやってサーヴァントとして[r]召喚された訳だから。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+＠茨木童子
+……そうなのだろうな。[r][#吾:われ]とて人間は憎い。好かぬし、信用できん。
+[k]
+
+[charaFace E 0]
+＠茨木童子
+だからといって人の世を滅ぼす気はない。[r]なにしろ人間は使い[#途:みち]のある生き物だ。
+[k]
+
+＠茨木童子
+[#人間:てき]がいるから[#吾:われ]がいる。[r]人間のいない世界では[#吾:われ]も酒呑も呼ばれはしまい。
+[k]
+
+[charaFace E 3]
+＠茨木童子
+故に、なんだ。赤角よ。[r]貴様がどれほどの罪を積み上げてきたとしても……
+[k]
+
+[charaFace E 4]
+＠茨木童子
+いまここにいる事を否定できる者は、誰もおらぬ。[r]『無』を望まぬかぎり、貴様も英霊のひとりだ。
+[k]
+
+[charaFace E 1]
+＠茨木童子
+無論、反英霊という、[r]英霊に破れるための生贄としてだがな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.7 1]
+＠エリザベート
+……そうね。ありがと、イバラキ。[r]礼を言うわ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+[wt 1.0]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaFace D 1]
+＠エリザベート
+さて[line 3]待たせたわね、[&子イヌ:子ジカ]。[r]さ、女王との決戦よ！
+[k]
+
+？1：ああ、行こう！
+
+＠エリザベート
+ナイスリアクション！[r]サンキュー、[%1]！
+[k]
+
+[charaFace D 0]
+＠エリザベート
+お城を取り戻したら、[r][#私:アタシ]のライブを手伝う権利を与えるわ！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、立ち所にマスターの顔面が[r]真っ青になりました。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？2：エリちゃんについていく！
+
+[charaFace D 6]
+＠エリザベート
+くっ……ファンに愛称で呼ばれるのは、[r]ちょっと胸がときめくわね……！
+[k]
+
+[charaFace D 1]
+＠エリザベート
+いいわ、ライブの最前列Ｓ席シート、[r]特別に取っておいてあげる！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[communicationCharaLoop 98003003 1 5 0 0]
+[communicationCharaFace 2]
+＠Dr.ロマン
+どうしたんだ！？
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]のメンタルが[r]物凄い動揺を示しているんだが……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.3]
+
+？！
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エリザベート
+[messageShake 0.05 4 4 0.4]
+何で！？
+[k]
+
+[wt 0.4]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_4 2.0]
+[wait fade]
+
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_1 0.5]
+
+[scene 20901]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.4 1]
+＠？？？
+むぅぅぅ、まさか本当に辿り着くとは！[r][#妾:わらわ]の対策が甘かったとでもいうのですかっ！
+[k]
+
+[charaFace H 5]
+＠？？？
+いえ、落ち着くのよ、落ち着きなさい[#妾:わらわ]。[r]失敗は誰にでもあるもの。[#妾:わらわ]とて例外ではない。
+[k]
+
+[charaFace H 2]
+＠？？？
+むしろ美しい女王にのみうっかりミスは許される。[r]逆説的に、うっかりミスこそ女王の証ッッ！
+[k]
+
+[charaFace H 0]
+＠？？？
+よし、いけるわ。[#妾:わらわ]に落ち度はなかったと[r]証明されました。となれば[line 3]
+[k]
+
+＠？？？
+ブタの上に負け犬の騎士ども、立ちなさい！[r]次は総力戦です。
+[k]
+
+＠？？？
+この土地を支配するのに相応しいのはどちらか、[r]白[charaFace H 2]黒ハッキリさせる時！
+[k]
+
+＠？？？
+わら……[#私:わたくし]にも、願いがある。[r]その願いを叶えるために、女王であり続けよう！
+[k]
+
+＠？？？
+それが、あの御方との契約なのですから！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+
+[bgmStop BGM_EVENT_1 2.0]
+[wait fade]
+
+[charaFadeout H 0.1]
+
+[soundStopAll]
+[end]

@@ -1,0 +1,326 @@
+
+
+＄94-00-21-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 3019002 1 ランサーオルタ]
+
+[scene 22111]
+[fadein black 2]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+……[#小癪:こしゃく]な。死を[#視:み]る眼とはな。[r]我が[#死霊:げぼく]どもをこうも[#容易:たやす]く仕留めるか。
+[k]
+
+＠ランサーオルタ
+だが、その者がいるのなら勝機はあるだろう。[r]私が止める理由はなくなったな。
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+
+[se ad51]
+[seStop ad51 0.4]
+[wt 0.5]
+[charaFadeout F 0.4]
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター。[r]ランサーオルタさん、槍を納めてくれました。
+[k]
+
+＠マシュ
+もしや他のサーヴァントとは違い、[r]彼女は変質していないのでは？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メフィスト
+してませんよぉ？[r]だってあの人、素質がちっともありませんから。
+[k]
+
+＠メフィスト
+なんていいましょうか、ハメを外せる度量？[r]欲望に傾倒する勇気？　委員長気質と申しますか？
+[k]
+
+＠メフィスト
+どれほど強大な力を持とうと、[r]冷酷な女王にはならない様子。
+[k]
+
+＠メフィスト
+聖杯にエールをついで飲ませないかぎり、[r][#悪辣:あくらつ]には落ちないのでございますよねぇ……
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+それは……彼女らしいです。[r]でも、それならどうして道を塞いだのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+……ふん。明かりを持たぬ者に、[r]暗闇を進ませる訳にはいくまい。
+[k]
+
+＠ランサーオルタ
+私がこの場を守っていたのは[r]怨念に[#抗:あらが]う術なき者を[#諫:いさ]めるが為。
+[k]
+
+＠ランサーオルタ
+だがその女がいれば、[r]どのような不死であろうと死を迎えるだろう。
+[k]
+
+＠ランサーオルタ
+よって先に進むことを止めはしない。[r][#尤:もっと]も[line 3]
+[k]
+
+[charaFace F 1]
+＠ランサーオルタ
+明かりはあっても獣に食い殺されるのが世の常だ。[r]どこまで行けるか、見世物として愉しませてもらおう。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+うわあ、なんて人の悪い笑いだ……[r]十分、冷酷な女王気質アリだと思うけどね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+口が過ぎるぞ魔術師。私語は厳禁だ。[r]無駄口より手を動かせ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+うへ、叱られてしまった……確かに委員長気質だ。[r]では改めて、必要な質問を。
+[k]
+
+＠Dr.ロマン
+聖槍の英霊よ。そこは一体なんなんだ？[r]君もメフィストに誘われて来たのか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+そこの道化など知らん。[r]私は自らの意思で降り立った。
+[k]
+
+＠ランサーオルタ
+……ここは恩讐の集う果ての塔。[r]かつて死をカタチにし、死を封じ込めた慰霊碑だ。
+[k]
+
+＠ランサーオルタ
+本来なら歴史の闇に没するべきもの。[r]それを何者かが掘り起こし、特異点にしようとした。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+
+＠Dr.ロマン
+何者か……人理焼却を行った連中だね。[r]でも、しようとした、という事は失敗したのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+……それはおまえたちがこれから探る事だ。[r]たしかに[#彼:か]の王の目論見は見当違いに終わった。
+[k]
+
+＠ランサーオルタ
+これは、と選んだ尖兵がくせ者だったのだろう。[r]結果として、ここは特異点ではなく[line 3]
+[k]
+
+＠ランサーオルタ
+サーヴァントたちを招き、閉じ込め、[r]悪鬼に変質させる魔の塔となった。
+[k]
+
+＠ランサーオルタ
+ここには様々な死が[#雪崩:なだ]れこんでいる。[r]いずれは『地獄』と呼ばれる特異点になるだろう。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィスト
+はあい。地獄の門ですねぇ。[r]となると、道案内はやはり[#私:わたくし]が適任では？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+さて。地獄とはここに生まれずとも既にあるもの。[r]別段、新しい穴が増えたところで問題はないが[line 3]
+[k]
+
+＠ランサーオルタ
+それでも看過できないというのであれば[r]好きにするがいい。
+[k]
+
+＠ランサーオルタ
+ここは放っておいても人理焼却には関わりのない辺境だ。[r]サーヴァントどもが変質するのは自業自得でもある。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……だそうです。[r]どうしますか、先輩？
+[k]
+
+？1：もちろん上を目指す。
+？2：変質したサーヴァントを放っておけない。
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい！[r]お付き合いします、マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠両儀式
+……放っておいてもそっちに害はないのに[r]まだやるのか。物好きだな、ホント。
+[k]
+
+＠両儀式
+それともお節介って言うの？[r]カルデアってところはずいぶん余裕があるんだな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+余裕ではない。王者としての義務だ。[r]貴様のような極道には分かるまい。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+馬鹿言うな。極道にだって通す筋はある。[r]特に、自分のシマで起きた揉め事はな。
+[k]
+
+＠両儀式
+まあいいや。怪奇乳出し馬女も倒したし、[r]先に進もうぜ[%1]。
+[k]
+
+＠両儀式
+あんなの見てたらスケール感狂うぞ？[r]過ぎたるは及ばざるが如し、だぜ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+フッ。過ぎたものを持たぬ者はみなそう言う。[r]負け惜しみとして受け取っておこう。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠両儀式
+はいはい。あ、ところでそこの四号室、[r]おまえの部屋なんだよな？　中に入っていいか？
+[k]
+
+＠両儀式
+さぞキレイに片付いているんだよな？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+え[line 3]
+[k]
+
+＠ランサーオルタ
+ば、断じてダメだッ！　入れば死ぬぞっ！[r]何を考えているのだ、貴様はッ！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

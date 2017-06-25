@@ -1,0 +1,224 @@
+
+＄91-30-13-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3013001 1 スカサハ]
+[charaSet E 3001001 1 クー・フーリン]
+
+[scene 20700]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠スカサハ
+くっ……！！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+[line 2]そこだ！
+[k]
+
+[messageOff]
+[flashin once 0.1 0.2 FFFFFFA0 FFFFFF00]
+[se bac14]
+[wt 0.1]
+[shake 0.05 0 4 0.4]
+[wait se bac14]
+[wt 0.4]
+
+[charaFace E 2]
+＠クー・フーリン
+我が手向け、受け取るがいい！[r]『[#刺し穿つ死棘の槍:ゲイボルク]』！！
+[k]
+
+[messageOff]
+[se ad80]
+[wipeout rectangleStripRightToLeft 0.2 1]
+[wait wipe]
+[wt 0.3]
+[charaFadeout E 0]
+[wipein rectangleStripLeftToRight 0.2 1]
+[wait wipe]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠スカサハ
+[line 2]ッ！
+[k]
+
+[charaFace D 2]
+＠スカサハ
+これが最後の一槍か……！！[r]行くぞ[line 4]『[#貫き穿つ死翔の槍:ゲイボルク・オルタナティブ]』！！
+[k]
+
+[messageOff]
+[se ad81]
+[wipeout rectangleStripLeftToRight 0.2 1]
+[wait wipe]
+[wt 0.3]
+[charaFadeout D 0]
+[wipein rectangleStripRightToLeft 0.2 1]
+[wait wipe]
+
+[wt 1.0]
+
+[se bac54]
+[bgmStop BGM_EVENT_3 0.1]
+[fowardEffect bit_talk_41]
+[effect bit_talk_14]
+[wt 0.1]
+[se bac14]
+[fowardEffectStop bit_talk_41]
+[wt 0.1]
+[flashin once 0.1 0.3 AD0613DD AD061300]
+[wt 0.1]
+
+[shake 0.05 0 10 0.5]
+[wt 1.0]
+[wt 1.0]
+
+＠クー・フーリン
+な……！？
+[k]
+
+＠スカサハ
+に……！？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[shake 0.05 0 2.0 0.25]
+[se ad78]
+[wait se ad78]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+……なあ、スカサハ。[r]アンタもしかして[line 2]。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠スカサハ
+う、うむ。どうやら……私の方も、[r]以前より強くなってしまったらしい。
+[k]
+
+[charaFace D 4]
+＠スカサハ
+……いや、そんな気はしていたのだがつい楽しくてな……[r]暇を見ては竜を殺し、巨人を殺し、怪異を殺し、と……
+[k]
+
+[charaFace E 2]
+＠クー・フーリン
+オレ以上に見境ねえな!?[r]死ぬ気あるのかアンタは！？
+[k]
+
+[charaFace D 2]
+＠スカサハ
+し、仕方なかろう！[r]相手が強ければ強いほどその神髄が見たくなる。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+強ければ強いほど敬愛し、[r]刃をかわしたくなるというもの！
+[k]
+
+[charaFace D 2]
+＠スカサハ
+その結果、どうして腕が上がるのは自明の理ではないかっ！[r]私のせいではない！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……はあ。[r]どんだけバトルマニアなの、影の国の女王様……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+さ、さすがにこのインフレにはついていけません。[r]せめてもう少しスローペースでないと……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+一朝一夕でどうにかなるもんじゃねえな……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠スカサハ
+そうだな。[r]……焦る必要はないか。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+クー・フーリン、そして[%1]よ。[r]おぬしたちなら必ず私を殺せる日が来よう。
+[k]
+
+＠スカサハ
+世界を救うその前に、[r]この身を一度でいいから滅ぼしてくれ。
+[k]
+
+[charaFace D 4]
+＠スカサハ
+それこそが我が望み。[r]私はこの身を、その微少な確率に捧げている。
+[k]
+
+[charaFace E 1]
+＠クー・フーリン
+あいあい、わかっているよ。[r]腐れ縁だしな、死なば[line 3]いや、死なせばもろともだ。
+[k]
+
+＠クー・フーリン
+先はそれなりに長いしな。女の我が儘に付き合うのも[r]一流のマスターの条件だぜ、[%1]？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[wt 1.6]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

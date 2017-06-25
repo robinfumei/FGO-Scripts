@@ -1,0 +1,353 @@
+
+＄94-00-18-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 5007001 1 シェイクスピア]
+[charaSet B 5004001 1 ナーサリー・ライム]
+[charaSet C 98001000 1 マシュ]
+[charaSet D 1014001 1 フェルグス]
+
+[scene 20300]
+[fadein black 2]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ナーサリー・ライム
+ひどいのだわ、ひどいのだわ！[r]げんこつは痛いのだわーっ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+これにて終了、と。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠ナーサリー・ライム
+いいもん、それでもチョコ・サーヴァントたちは[r]渡さないんだから！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 2]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+＠シェイクスピア
+ふふふ、それではこのシェイクスピアが[r]残酷な真実を突きつけましょう！
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaFace A 3]
+＠シェイクスピア
+よろしいですか、少女よ。[r]お茶会は楽しい。
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+砂糖たっぷりの紅茶と、砂糖たっぷりの菓子と、[r]砂糖たっぷりのチョコと共に過ごせば、
+[k]
+
+＠シェイクスピア
+それはそれは甘ったるい愉悦が[r]包み込んでくれるでしょう。
+[k]
+
+[charaFace A 5]
+＠シェイクスピア
+しかし[line 2]残念なことに、我々はその享楽を[r]永遠とすることはならないのです。
+[k]
+
+＠シェイクスピア
+色褪せぬ永遠の夏を留めておくことはできても、[r]享楽を永遠とするには代償が必要なのです。
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+“[#悲報が訪れるときは、軍団で押し寄せてくる:When sorrows come, they come not single spies But in battalions.]”と[r]相場が決まっておりますので。
+[k]
+
+[charaFace B 4]
+＠ナーサリー・ライム
+な、なによ。[r]訳の分からないことを言わな…………あいたっ。
+[k]
+
+[charaFace A 4]
+＠シェイクスピア
+[line 2]そう。甘いお菓子、甘い紅茶、それらを代償として、[r]君は[line 8]。
+[k]
+
+[charaFace A 5]
+＠シェイクスピア
+虫歯になります。
+[k]
+
+[charaFace B 2]
+＠ナーサリー・ライム
+きゃああ！？
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+歯科技術が確立しない頃の虫歯は地獄のような痛みで[r]あったと聞き及びます！
+[k]
+
+[charaFace A 2]
+＠シェイクスピア
+辛いですぞぅ、痛いですぞぅ！！
+[k]
+
+[charaFace B 4]
+＠ナーサリー・ライム
+じ、じ、じごく……そんな、何てコト。[r]でもほら、わたしはサーヴァントなのよ？
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+現実のお菓子を食べてたなら、[r]そりゃ虫歯にならないでしょうが……。
+[k]
+
+[charaFace A 3]
+＠シェイクスピア
+サーヴァントがサーヴァントの力で作り出したお菓子を[r]食べていたならさてさて、どうなりますかな……？
+[k]
+
+＠ナーサリー・ライム
+き、きのせいだもん。おくばなんて、いたくないもん。[r]じんじんしてないもん。ちくちくしてないもん。
+[k]
+
+[charaFace B 2]
+＠ナーサリー・ライム
+紅茶を飲むと歯にしみたりしないもん！
+[k]
+
+？1：か、可哀想になってきた
+？2：も、もうその辺で
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+では、[#最後の一撃:フィニッシュ・ストローク]！[r]召喚！　『カルデア一番の歯医者さん』！！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_SUMMON_1 0.1]
+[wt 0.5]
+[effect bit_talk_06]
+[wt 1.0]
+[se su2]
+[wt 3.0]
+[se su6]
+[effectStop bit_talk_06]
+[wt 2.0]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ナーサリー・ライム
+え、え、え……！？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.7]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.7 1]
+[wt 1.0]
+＠フェルグス
+[fontSize large]応ッ！！[fontSize -]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠ナーサリー・ライム
+え[line 16]！？
+[k]
+
+？1：コレ歯医者！？
+？2：無理がないか！？
+
+？！
+
+[charaFadeout B 0.1]
+
+[bgmStop BGM_SUMMON_1 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠フェルグス
+さあ、患者はどこかな……？[r]ほほう、この可愛らしいお嬢さんが……？
+[k]
+
+＠フェルグス
+そうら、お口を開けてごらん……。
+[k]
+
+＠フェルグス
+痛かったら手を挙げるのだぞ？[r]（痛くしないとは言わない）
+[k]
+
+[charaFace B 4]
+＠ナーサリー・ライム
+ひゃぅぅぅぅっ。[r]じ、地獄の門番みたいな笑顔だわ！
+[k]
+
+＠フェルグス
+安心しなさいお嬢さん。[r]この[#歯科ドリル:カラドボルグ]で、[line 2]どんな虫歯も、
+[k]
+
+[charaFace D 2]
+＠フェルグス
+[fontSize large]一・発・粉・砕・なのだからなっ！[fontSize -]
+[k]
+
+[se ad29]
+[seStop ad29 1.5]
+[wt 2.0]
+
+[charaFace B 2]
+＠ナーサリー・ライム
+キャ[line 8]！[r]助けてトゥースフェアリ[line 7]っ！
+[k]
+
+[se ad59]
+[seStop ad59 1.0]
+[charaFadeout B 0.1]
+[charaMove B 6 0.4]
+[wt 0.4]
+
+[wt 1.0]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠シェイクスピア
+ふぅ、これにて解決。[r]それじゃフェルグス殿、帰っていいですよ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠フェルグス
+うむ。いたいけなお嬢さんを脅かしたのは[r]気が咎めるが、悪さを見逃すのもよくない。
+[k]
+
+＠フェルグス
+我が天地天空大回転が役に立つのなら、[r]よろこんで憎まれ役を引き受けよう！　わっはっは！
+[k]
+
+[messageOff]
+[se ad7]
+[wait se ad7]
+[charaFadeout D 0.4]
+[wt 0.7]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+ねえほら、バッドエンドを未然に防げたでしょう？
+[k]
+
+？1：少女が多大なトラウマを負ったような
+？！
+
+[charaFace A 1]
+＠シェイクスピア
+ハッタリが五割くらいでしたが、[r]中々どうして通じるもんですなあ！
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+これでチョコレートも大方、回収終わりました。
+[k]
+
+＠シェイクスピア
+まだ多少足りないですが、それはこれから[r]のんびりと回収すればよろしい。
+[k]
+
+＠シェイクスピア
+これでチョコレート作りを再開できて、[r]女性サーヴァントたち（一部男性）は喜ぶ。
+[k]
+
+＠シェイクスピア
+マスターは受け取ることができてホッとする。
+[k]
+
+＠シェイクスピア
+吾輩はバレンタイン用のアンソロ原稿が[r]すらすら作れてホッとする。
+[k]
+
+？1：原稿……？
+？2：アンソロ……？
+？！
+
+[charaFace A 2]
+＠シェイクスピア
+お気になさるなマスター！[r]何、サーヴァントでもオフは切り替えて楽しまねばね！
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+さあ、吾輩のことなど構っている暇はありません。
+[k]
+
+[charaFace A 1]
+＠シェイクスピア
+無数のチョコレートが、マスター……[&貴方:貴女]を[r]待っておりますぞ！
+[k]
+
+＠シェイクスピア
+ふふふ、まさに[line 2][r]“[#食べるべきか太るべきか、それが問題だ！:To be or not to be, that is the question.]”
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wt 1.9]
+[bgmStop BGM_EVENT_2 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,488 @@
+＄94-00-64-31-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_24 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98102500 1 イリヤ]
+[charaSet C 5023000 1 エレナ]
+[charaSet D 98103600 1 ？？？]
+[charaSet E 98103600 1 ？？？]
+[charaSet F 98103600 1 ？？？]
+[charaSet G 98103600 1 ？？？]
+[charaSet H 98103600 1 ？？？]
+
+
+[charaFilter D silhouette 00000080]
+[charaFilter E silhouette 00000080]
+[charaFilter F silhouette 00000080]
+[charaFilter G silhouette 00000080]
+[charaFilter H silhouette 00000080]
+
+
+[scene 31100]
+
+[charaDepth B 3]
+[charaDepth C 1]
+
+[charaTalk depthOff]
+[charaTalk off]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaFadein D 0.1 200,-900]
+[charaFadein E 0.1 -200,-900]
+[charaFadein F 0.1 0,-900]
+[charaFadein G 0.1 -400,-900]
+[charaFadein H 0.1 400,-900]
+
+[se bac1]
+[charaMove D 200,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove E -200,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove F 0,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove G -400,0 0.2]
+[wt 0.2]
+[seStop bac1]
+
+[se bac1]
+[charaMove H 400,0 0.2]
+[wt 0.5]
+
+[wait charaMove]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[se ad54]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+[charaMove B 0,-100 0.2]
+[wait charaMove]
+
+＠イリヤ
+……ゼェ……ハァッ……[r]まだ……あんなに……っ……。
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.4 -100,0]
+[wt 0.5]
+
+＠エレナ
+しゃんとしなさいな、イリヤ[charaMove B 0,0 0.15][charaShake B 0.05 3 3 0.5][charaFace B 3][se ad111]（ぽすっ）
+[k]
+
+[wt 0.5]
+[wait charaMove]
+
+[charaTalk depthOn]
+
+[charaMove B 2 0.5]
+[charaMove C 0 0.5]
+[wait charaMove]
+
+＠イリヤ
+きゃっ……お尻っ……[r]……エレナさん！？
+[k]
+
+[charaFace B 5]
+[charaFace C 3]
+＠エレナ
+告白するけれど[line 3]イリヤ。
+[k]
+
+[charaFace C 4]
+＠エレナ
+これほどあなたが気概を見せるとは驚かされたわ。[r]魔法少女の[#疑:まが]い[#物:もの]だと、みくびっていた。
+[k]
+
+[charaFace C 0]
+＠エレナ
+伝統、経験、知識……そんな魔術の奥義からは[r]かけ離れた力を隠していると、あらためて気付かされた。
+[k]
+
+[charaFace B 3]
+＠イリヤ
+……ハァ……え？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+[effect bit_talk_06p]
+＠エレナ
+[#来臨:らいりん][line 3]
+[k]
+
+
+[se bas1]
+[effectStop bit_talk_06p]
+
+[charaChange C 98103000 5 fade 1.0]
+[wait charaChange]
+[wt 1.0]
+
+[charaFace C 2]
+＠エレナ
+[fontSize x-large][line 3]セラピスの知恵よ！！
+[k]
+
+[messageOff]
+[se ad39]
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[charaTalk off]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 3]
+[charaFadein H 0.1 5]
+
+[scene 10001]
+
+[fadein white 0.5]
+[wait fade]
+
+[se bac159]
+[charaEffect C bit_talk_gouka]
+[charaEffect D bit_talk_13]
+[charaShake D 0.05 3 3 0.5]
+[charaEffect E bit_talk_13]
+[charaShake E 0.05 3 3 0.5]
+[charaEffect F bit_talk_13]
+[charaShake F 0.05 3 3 0.5]
+[charaEffect G bit_talk_13]
+[charaShake G 0.05 3 3 0.5]
+[charaEffect H bit_talk_13]
+[charaShake H 0.05 3 3 0.5]
+[wt 1.0]
+
+[charaMove C 0,-300 0.5]
+[charaEffectStop C bit_talk_gouka]
+
+[se ad42]
+[scene 31100 1.0]
+[charaFadeout D 1.0]
+[charaFadeout E 1.0]
+[charaFadeout F 1.0]
+[charaFadeout G 1.0]
+[charaFadeout H 1.0]
+[wt 1.5]
+
+[charaSet D 98103200 1 サファイア]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+敵性体が……っ……[r]エレナさん、その姿は[line 3]。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠イリヤ
+カッコいい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠エレナ
+あたしは元からカッコイイの。[r]少し低血圧なだけよ。
+[k]
+
+[charaFace C 0]
+＠エレナ
+さあ、行きなさい、[%1]。[r]イリヤを連れて、レディの元へ[line 3]
+[k]
+
+[charaFace C 5]
+＠エレナ
+あの使い魔たちは魔法少女を狙っている。[r]それなら、あたしが……！
+[k]
+
+？1：……わかった。どうか無事で
+
+[charaFace C 0]
+＠エレナ
+ありがとう、[%1]。
+[k]
+
+[charaFace C 1]
+＠エレナ
+機会があれば、[r]あたしの物語を教えてあげる。
+[k]
+
+
+？2：エレナ、[&きみ:あなた]は……？
+
+[charaFace C 0]
+＠エレナ
+あなたの目には、あたしは[r]サーヴァントとして映っている？
+[k]
+
+[charaFace C 4]
+＠エレナ
+けれどあたしは、[r]とある平行世界の魔法少女、その幻なの。
+[k]
+
+＠エレナ
+誰かの希望にも[#亡霊:エコー]にすらもなれなかった、[#なり損ない]。
+[k]
+
+[charaFace C 5]
+＠エレナ
+だったら……あなたが言ったみたいに、[r]今この場面くらい、[#照明:ライト]をちょうだい。
+[k]
+
+？！
+
+
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠イリヤ
+エレナさん……っ！
+[k]
+
+[charaFace C 2]
+＠エレナ
+あたしの贈った時間を無駄にしないで、[r]早く行って。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[charaShake D 0.07 0 16 1.0]
+＠サファイア
+……心より恩に着ます、エレナ様。[r]さあ、イリヤ様[line 3]皆様もお早く！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+…………っ……。
+[k]
+
+
+
+[messageOff]
+[charaFadeout A 0.4]
+[se ad59]
+[wt 1.0]
+[seStop ad59 1.0]
+[wt 1.0]
+
+[charaSet C 98104100 1 エジソン君]
+[charaSet D 98103600 1 ？？？]
+[charaSet E 98103600 1 ？？？]
+[charaSet F 98103600 1 ？？？]
+[charaSet G 98103600 1 ？？？]
+[charaSet H 98103600 1 ？？？]
+[charaSet A 98103000 1 エレナ]
+
+[charaFilter D silhouette 00000080]
+[charaFilter E silhouette 00000080]
+[charaFilter F silhouette 00000080]
+[charaFilter G silhouette 00000080]
+[charaFilter H silhouette 00000080]
+
+
+[se ad60]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.5]
+[seStop ad60]
+
+＠エレナ
+……ようやく追い払えたわね。
+[k]
+
+[charaFace A 4]
+＠エレナ
+ああ、言い忘れちゃった……。[r]ていうか教えたくなかったのよね、正直。
+[k]
+
+＠エレナ
+イリヤたちが元の世界へ戻るには[r]宝石が必要ってこと。
+[k]
+
+[charaFace A 0]
+＠エレナ
+もう、あたしの石はあげないけれど、[r]イリヤと美遊たちに、二個もあれば充分でしょう。
+[k]
+
+[charaFace A 5]
+＠エレナ
+はからずもメイヴが立証した。[r][#忌々:いまいま]しい石の意味がやっと、わかった……。
+[k]
+
+[bgmStop BGM_EVENT_24 1.5]
+[messageOff]
+[charaFadeout A 0.1]
+
+＠？？？
+それは独り言かね。[r]それとも祈りかね？[line 3]エレナ君。
+[k]
+
+[messageOff]
+[se bas1]
+[effect bit_talk_21]
+[wt 0.5]
+[effectStop bit_talk_21]
+
+[bgm BGM_EVENT_12 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠エレナ
+……アル。[r]呼んだつもりは無かったけれど。
+[k]
+
+[charaShake C 0.07 0 8 1.0]
+＠エジソン君
+探求心を捨てず、戦い続ける君のそばにいよう。[r][line 3]いつかそう語ったはずだ。
+[k]
+
+[charaFace A 0]
+＠エレナ
+……そうだったわね。
+[k]
+
+[charaFace A 1]
+＠エレナ
+[#Ｘａ:ハ]－[#Ｘａ:ハ][#Ｘａ:ハッ]、[r]お互いロートルなのだから無理は禁物よ。
+[k]
+
+[charaFace A 0]
+＠エレナ
+あなたの自慢の直流も[r]すっかり錆び付いてしまった事でしょうし。
+[k]
+
+[charaFace C 3]
+[charaShake C 0.07 0 16 1.0]
+＠エジソン君
+どこぞの交流ふぜいと一緒にしないでくれ！[r]直流、すなわちエターナル！
+[k]
+
+[charaShake C 0.07 0 16 1.0]
+＠エジソン君
+君の活動を支援し、投資し、喜ぶのは私の役目だ！[r]いざ、神秘の書簡を[#繙:ひもと]きたまえ！
+[k]
+
+[charaFace A 1]
+＠エレナ
+ええ。やりましょう。[r][line 3][charaFace A 2]来なさい、レディの使い魔たち！
+[k]
+
+[bgmStop BGM_EVENT_12 0.5]
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.5]
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠エレナ
+海にレムリア！[wt 0.7]　空にハイアラキ！[wt 0.7][r][line 3]そして地にはこのあたし！
+[k]
+
+[messageOff]
+[flashin loop 0.7 0.7 FFFFFFFF 00000000]
+[voice NP_502300_1]
+[wt 3.0]
+[voiceStop NP_502300_1 1.0]
+
+[charaFace A 2]
+＠エレナ
+魔法の少女導師[r]マハトマ♀エレナ[line 3]よくってよ！
+[k]
+
+[messageOff]
+[flashout 0.7]
+[bgmStop BGM_EVENT_4 0.1]
+[scene 10001 4.0]
+[voice NP_502300_3]
+[wt 4.0]
+[voiceStop NP_502300_3]
+[se bac74]
+
+[fadeout white 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[scene 10000]
+
+
+
+[wait se bac74]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

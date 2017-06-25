@@ -1,0 +1,556 @@
+
+
+
+＄01-00-07-18-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1 0.5]
+[se ad2]
+[seVolume ad2 0 0.4]
+[charaSet A 98002000 1 フォウ]
+[charaSet B 8001002 1 マシュ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4018001 1 ケツァル・コアトル]
+[charaSet E 98107900 1 ベル・ラフム]
+
+[effect bit_talk_41]
+[shake 0.05 0 4 0]
+[scene 35010]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠フォウ
+フォフォフォフォフォ[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠マシュ
+今までにないスピードです！[r]禁断のアーラシュフライトが思い返されます、マスタ[line 2]！
+[k]
+
+？1：落ちる、落ちる……！
+？2：翼竜さんが本気を出した……！
+
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ブラックアウト手前だが耐えてくれ！[r]ラフムはペルシア湾中心に向かっている！
+[k]
+
+＠Dr.ロマン
+おそらく、そこにティアマトが沈んでいる！[r]聖杯を落とされたら回収はほぼ不可能だ！
+[k]
+
+＠Dr.ロマン
+それだけじゃない、[r]もし聖杯の魔力でティアマト神が目覚めたら[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+安心して、追いつくわ！[r]背中、捉えた！
+[k]
+
+＠ケツァル・コアトル
+ケツァルコアトルス、これが最後の[#一:ひと]踏ん張りよ！[r]全速で、あのラフムにプランチャぶちかましちゃって！
+[k]
+
+[charaFadeout D 0.1]
+＠ケツァルコアトルス
+クェ[line 5]！
+[k]
+
+[messageOff]
+[seVolume ad2 0.7 0.7]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.7 1]
+[wt 0.4]
+[cameraMove 1.5 0,0 1.5]
+[wt 1.3]
+[effectStop bit_talk_41]
+[wipeout circleIn 0.2 1]
+[wait wipe]
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[shake 0.05 0 10 0.4]
+[se bac10]
+[cameraMove 1.0 0,0 1.0]
+[charaShake E 0.05 4 4 0.7]
+[wipein circleIn 0.2 1]
+[wait wipe]
+[charaMove E 0,-120 0.4]
+[charaFadeout E 0.4]
+[wt 0.2]
+[seVolume ad2 0.7 0.2]
+[wt 0.8]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+イエス、勝負ありデース！[r]海岸に落下するわ、追い掛けてトドメよ！
+[k]
+
+？1：さすがケツァル・コアトルさん！
+？2：この仕事ぶり、イシュタルも見習うべき！
+
+？！
+
+[charaFace D 3]
+＠ケツァル・コアトル
+ヤ、惚れるのは早いヨ－、[%1]！[r]当たり前の事をしただけネー！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ラフム、砂浜に落下する！[r]後は地上で撃破して聖杯を[line 3]
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+[line 3]なんだこの霊基反応は！？[r]ケツァル・コアトル、そこに何がいる！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ケツァル・コアトル
+！
+[k]
+
+[messageOff]
+[seStop ad2 1.0]
+[fadeout black 1.0]
+[wait fade]
+[shakeStop]
+[charaSet A 98106100 1 キングゥ]
+[charaSet B 98107800 1 ラフム]
+[charaSet C 98107800 1 ラフムＢ]
+[charaSet D 98107800 1 ラフムＣ]
+[charaSet E 98107800 1 ラフムＤ]
+[charaSet F 98107800 1 ラフムＥ]
+[wt 1.0]
+
+[se ad59]
+[seVolume ad59 0 0.5]
+[scene 30400]
+[fadein black 1.0]
+[wait fade]
+
+[charaShake A 0.05 0 2 0]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠キングゥ
+こんなはずじゃ[line 3]こんなはずじゃ……！[r]ボクは母さんに作られた、新しい人類だ……！
+[k]
+
+＠キングゥ
+だからこそメソポタミアを滅ぼした。[r]そのために活動してきた……！
+[k]
+
+＠キングゥ
+何の経験も、記録も、愛情もない体でも、[r]母さんからの期待だけはあると信じて……！
+[k]
+
+[se ad27]
+＠ラフム
+ギャハ！　ギャハハ！　ギャハハハハハ！[r]ソッチダ！　ソッチ　逃ゲタゾ！
+[k]
+
+＠ラフム
+追イ詰メロ、捕マエロ！[r]解体ダ、デク人形ノ　解体ダ！
+[k]
+
+[charaFace A 7]
+＠キングゥ
+それが、こんな[line 3]
+[k]
+
+＠キングゥ
+何もなかった、この大地には、何もなかった……！
+[k]
+
+＠キングゥ
+はじめから使い捨てだった……[r]はじめから偽者だったんだ……！
+[k]
+
+＠キングゥ
+未来も、希望も、自分の意思も[line 3][r]友人も、ボクにはいなかった。
+[k]
+
+＠キングゥ
+ただ、ティアマト神の唯一の子供だと。[r]そんな事にすがるしか、なかったのに[line 3]！
+[k]
+
+[seStop ad59 0.7]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[se ad27]
+[charaFadein B 0.4 1]
+＠ラフム
+[line 3]アハ。見ィ　ツケタ。
+[k]
+
+[charaShakeStop A]
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠キングゥ
+[line 6]。
+[k]
+
+[wipeFilter circleIn 0.4 1.0]
+[charaFace A 2]
+＠キングゥ
+（[line 3]これが、終わりか。[r]　なんだ……人間たちみたいに、呆気ない）
+[k]
+
+＠キングゥ
+（……ボクも大した事はなかったんだ。[r]　壊されれば、動けなくなるだけなんだから）
+[k]
+
+＠キングゥ
+（……ああ、こんな事なら。[r]　最後に、アイツに会いに行けば良かったのにね[line 3]）
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wipeOff]
+[charaFadeout A 0.1]
+[wt 1.0]
+[charaTalk A]
+[charaDepth B 0]
+[charaDepth C 2]
+[charaDepth D 2]
+[charaDepth E 1]
+[charaDepth F 1]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaFace C 0]
+[charaFadein C 0.1 -128,0]
+[charaFace D 0]
+[charaFadein D 0.1 128,0]
+[charaFace E 0]
+[charaFadein E 0.1 -384,0]
+[charaFace F 0]
+[charaFadein F 0.1 384,0]
+[se bac135]
+[wt 0.4]
+[se bac136]
+[wt 0.4]
+[se bac135]
+[wt 2.0]
+[wipeout openEye 0.1 1]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[wipein openEye 1.5 1]
+[wait wipe]
+[se ad42]
+[charaSpecialEffect C enemyErasure 1 1.0]
+[wt 0.4]
+[charaSpecialEffect D enemyErasure 1 1.0]
+[wt 0.4]
+[charaSpecialEffect E enemyErasure 1 1.0]
+[wt 0.4]
+[charaSpecialEffect F enemyErasure 1 1.0]
+[wt 0.4]
+[wt 1.0]
+
+[charaTalk on]
+＠ラフム
+[line 6]。
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠キングゥ
+え……？[r]おま、え……助けて、くれたのか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadeTime B 0.1 0.8]
+＠ラフム
+[line 6]逃ゲ、ナ、サイ、エルキ、ドゥ。[r]アナタ、モ、長クハ、ナイデショ、ウ、ケド。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠キングゥ
+！[r]キミは[line 3]昨日、アイツらに連れて来られた……
+[k]
+
+＠キングゥ
+でも、どうして？[r]どうしてキミが、ボクを助け……
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_6 1.0 0.7]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadeTime B 0.1 0.8]
+＠ラフム
+[line 3]シアワ、セニ。[r]ドウカ、シアワセニ、ナリナサイ。
+[k]
+
+＠ラフム
+親愛ナル、友。エルキ、ドゥ。
+[k]
+
+＠ラフム
+私タチ、ウルクノ民ハ、[r]アナタヘの感謝を、忘レハ、しまセん。
+[k]
+
+＠ラフム
+アナタハ、孤高ノ王ニ、人生ヲ、与エマシタ。[r]偉大ナ王ヘノ、道ヲ、示シテクレマしタ。
+[k]
+
+＠ラフム
+アナタノ死ヲ、嘆カナカッタ者ハ、いなカッタ。[r]アナタノ死ヲ、忘レル者ハ、イナカッタ。
+[k]
+
+＠ラフム
+……私、モ。[r]私モ、トテモ、悲しカッタ。
+[k]
+
+＠ラフム
+ダカラ、ドウカ、シアワセに、エルキドゥ。[r]美シイ、緑ノ、ヒト。
+[k]
+
+＠ラフム
+アア[line 3]良カッタ。[r]アリガトウ、言エテ、良カッタ。
+[k]
+
+＠ラフム
+アリガトウ、アリガトウ、アリガ、ト[line 3]
+[k]
+
+[se ad42]
+[charaFadeTime B 1.0 0]
+[wt 1.0]
+[messageOff]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠キングゥ
+[line 3]。
+[k]
+
+＠キングゥ
+なんだ、これは[line 3]キミの事なんて、知らないのに。
+[k]
+
+＠キングゥ
+どうしてキミの名前も、顔も、分かるんだ……[r]ありがとう、なんて[line 3]
+[k]
+
+＠キングゥ
+キミに言われる資格は、ボクにはないのに[line 3][r]う、ぐ[line 3]
+[k]
+
+[charaShake A 0.05 3 3 0.4]
+[charaFadeout A 0.4]
+＠キングゥ
+うう[line 3]ううぅぅぅ……！[r]ううあぁぁぁあああああ…………！！！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_6 1.5]
+[wipeout circleIn 1.5 1]
+[wt 0.75]
+[cameraMove 1.0 0,0 0.9]
+[wait wipe]
+[fadeout black 0.1]
+[wait fade]
+[wipein circleIn 0.1 1]
+[wait wipe]
+[wt 1.0]
+[charaSet A 98003000 1 Dr.ロマン]
+[charaSet B 4018001 1 ケツァル・コアトル]
+[charaSet C 98107400 1 牛若丸]
+[charaSet D 8001002 1 マシュ]
+[charaSet E 98107900 1 ベル・ラフム]
+[cameraMove 0.1 0,0 1.0]
+[wt 0.5]
+
+[bgm BGM_EVENT_3 0.1]
+[scene 35000]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+海岸に霊基反応、サーヴァントだ！[r]しかし、コレは[line 3]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+＠C：？？？
+如何にも。貴様らには万に一つの希望もない。
+[k]
+
+＠C：？？？
+遮那王流離譚が二景……薄緑・天刃縮歩。
+[k]
+
+[messageOff]
+[se ad73]
+[wipeout upToDown 0.2 1]
+[wait wipe]
+[scene 35010]
+[wt 0.1]
+[wipein downToUp 0.2 1]
+[wait wipe]
+[wt 0.2]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.4 1]
+[wt 0.7]
+[charaEffect B bit_talk_ichimon01re]
+[wt 0.1]
+[se bac139]
+[charaFace B 2]
+[charaMove B 0,-256 0.4]
+[charaFadeout B 0.4]
+[wt 1.0]
+
+[wipeout downToUp 0.2 1]
+[wait wipe]
+[scene 35000]
+[wt 0.1]
+[wipein upToDown 0.2 1]
+[wait wipe]
+[wt 0.2]
+[shake 0.05 0 10 0.4]
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaSpecialEffect E erasureReverse 1 0.4]
+[se bac112]
+[wait charaSpecialEffect E]
+[wt 1.7]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.7 1]
+＠ケツァル・コアトル
+っ、あと一手だったのに……！[r]何者か、貴様！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠牛若丸
+ティアマト神が護衛。[r]サーヴァント、牛若丸。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠マシュ
+[line 3]嘘。[r]牛若丸、さん……？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠牛若丸
+聖杯は母上に送り届ける。[r]貴様ら人間どもには過ぎたるものだ。
+[k]
+
+＠牛若丸
+だが追いつきたい、というのなら叶えよう。[r]そのそっ首のみ、黒海に送り届けて進ぜよう。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[line 3]牛若丸じゃない。[r]それは牛若丸じゃない、マシュ！
+[k]
+
+＠Dr.ロマン
+霊基反応、外側の作りは同じでも、中身は完全に別物だ！[r]この変質はラフムのソレと同じだ！
+[k]
+
+＠Dr.ロマン
+[#躊躇:とまど]ってはいけない、マシュ、[%1]君！[r]彼女はもうティアマトの子供たちだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠牛若丸
+[line 3]然り。[r]これほど心地の良い“己”は初めてだ。
+[k]
+
+＠牛若丸
+この刃は恩讐の声。[r]貴様らすべて、我が母への供物になるがよい……！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

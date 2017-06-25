@@ -1,0 +1,334 @@
+＄94-00-61-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 6024000 1 スカサハ]
+[charaSet B 3024000 1 玉藻の前]
+[charaSet C 4024000 1 モードレッド]
+[charaSet D 98100400 1 マシュ]
+[charaSet E 98025100 1 シャドウサーヴァント]
+[charaSet F 98101600 1 魔猪]
+[charaSet G 98101200 1 うりぼう]
+[charaSet H 1001002 1 ？？？]
+[charaFilter H silhouette 00000080]
+
+[scene 20700]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+
+[se bac14]
+[effect bit_bolg_01]
+
+[wt 0.1]
+[charaShake E 0.05 3 3 0.4]
+[wt 0.9]
+
+[se ad24]
+[wt 1.4]
+[charaFadeout E 0.1]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠スカサハ
+ぬるい！
+[k]
+
+[bgm BGM_EVENT_5 0.7 0.1]
+[charaFadeout A 0.1]
+[wt 0.2]
+
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠モードレッド
+ん？[r]待て……何だ！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+
+[messageOff]
+[charaSpecialEffect E enemyErasure 1 1.7]
+[se ad42]
+[wait charaSpecialEffect E]
+
+[bgm BGM_EVENT_5 0.5]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠魔猪
+……。[r]……。
+[k]
+
+[charaFadeout F 0.4]
+
+[wt 0.2]
+[se ad144]
+[shake 0.05 0 4 0.3]
+[wait se ad144]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+[charaSet E 5027000 1 マリー]
+
+＠マシュ
+シャドウサーヴァントの正体が……魔猪！？
+[k]
+
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_5 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_2 0.3]
+
+[charaTalk E]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠マリー
+大丈夫？　怪我はないかしら？
+[k]
+
+＠うりぼう
+……。[r]……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+
+＠マシュ
+ショックで喋れないのでしょうか？[r]というかこの模様、眼鏡みたいですね。
+[k]
+
+？1：可愛いよね、眼鏡
+
+[charaFace D 1]
+
+＠マシュ
+はい、知的な感じで可愛らしいです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+？2：うりぼうに眼鏡……
+
+[charaFace D 7]
+
+＠マシュ
+悪戯……ではないですよね？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+
+＠モードレッド
+悪戯じゃねーの？[r]自分でつけたんじゃないだろ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠うりぼう
+[line 12]め、
+[k]
+
+[charaTalk E]
+
+＠マリー
+め？
+[k]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.4]
+[bgm BGM_EVENT_7 0.3]
+
+[cameraMove 0.5 0,0 1.5]
+[wait camera]
+[effect bit_talk_41]
+
+＠うりぼう
+女神様でありますか[line 6]！！
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.3]
+[charaFadeout G 0.1]
+[cameraMove 0.5 0,0 1.0]
+[wait camera]
+
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠マリー
+……女神様？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+あら、呼びました？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 4]
+[charaFadein C 0.1 2]
+
+＠モードレッド
+違うんじゃねえかな……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠うりぼう
+女神様ご光臨！　ご光臨でありますか！[r]不肖うりぼう、早速ですがお願いします！
+[k]
+
+＠うりぼう
+どうかこの世界を[line 6]。
+[k]
+
+[charaSet E 5027000 1 全員]
+
+＠うりぼう
+お救い下さい！　で、あります！
+[k]
+
+[charaTalk E]
+
+[charaSet C 98002000 1 フォウ]
+
+＠全員
+[fontSize large]……はい？[fontSize -]
+[k]
+
+[charaTalk C]
+
+＠フォウ
+……フォウ？
+[k]
+
+
+[bgmStop BGM_EVENT_7 1.0]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout G 0.1]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_1 0.1]
+
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠？？？
+来るべきものが来たか。
+[k]
+
+＠？？？
+いずれ必ず、この世界を修正するために[r]やってくる連中が……。
+[k]
+
+[charaTalk F]
+
+＠魔猪
+[FFFFFFFF]？[-]
+[k]
+
+[charaTalk H]
+
+＠？？？
+分からずとも良い。[r]お前たちに知性は期待していない。
+[k]
+
+＠？？？
+お前たちは暴虐であり、破壊である。
+[k]
+
+＠？？？
+この世を幾度でもゼロに引き摺り戻すための、[r]荒れ狂う雷である。
+[k]
+
+＠？？？
+[line 3]壊しに行け。[r]抵抗する猪どもは皆殺しにせよ。
+[k]
+
+＠？？？
+膨大な時間は私の味方だ、サーヴァントども。[r]今度こそ私が勝利する！
+[k]
+
+[se ad109]
+[wt 0.2]
+[se ad20]
+[wt 0.4]
+[se ad23]
+[wt 0.2]
+[seStop ad23 0.4]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_1 1.4]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]

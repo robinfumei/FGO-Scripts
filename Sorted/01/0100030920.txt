@@ -1,0 +1,265 @@
+＄01-00-03-09-2-0
+
+[soundStopAll]
+[scene 21200 0]
+[messageOff]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 2009102 1 オリオン]
+[charaSet F 2009201 1 アルテミス]
+[charaSet G 98018100 1 海賊]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk G]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFadein G 0 2]
+[fadein black 1]
+[se bac40]
+[wait se bac40]
+[wait fade]
+[se ad2]
+[wt 3]
+[bgm BGM_EVENT_5 0.1]
+＠海賊
+どうします姐御！？
+[k]
+
+[seStop ad2 3]
+[charaFace D 5]
+＠ドレイク
+やかましい、いま考え中！[r]ええと……あの船との距離がこの位で……。
+[k]
+
+＠ドレイク
+この嵐……範囲は狭い感じかな。[r]距離次第では、向こうにとっては単なる追い風で……。
+[k]
+
+＠ドレイク
+……船の装甲は……あ、そっか。[r]補修作業であれを使ったんだから……。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+よし！
+[k]
+
+＠ドレイク
+お前たち！[r]良い報せと悪い報せ、どっちを聞きたい！？
+[k]
+
+＠海賊
+ええと。悪い報せから……。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+うむ。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+エウリュアレをさらったヘクトールって奴は、[r]多分、この嵐の影響を大して受けない！
+[k]
+
+＠ドレイク
+ここで堪え忍んでいたら、[r]多分追いつけない距離まで引き離される！
+[k]
+
+＠海賊
+……あの。すると良い報せとは。
+[k]
+
+[charaFace D 2]
+＠ドレイク
+というワケで喜べお前ら！[r]この嵐の中だが、帆を全部張って全力疾走するよ！
+[k]
+
+[charaFace D 1]
+＠ドレイク
+もう一度、豪快に[r]海の上をライディングしようじゃないか！
+[k]
+
+＠海賊
+良い報せってどこがですかーーーー！？
+[k]
+
+[charaFace D 2]
+＠ドレイク
+やかましい、蹴るぞ！[r]いいからさっさと動きな！
+[k]
+
+[charaFace D 0]
+＠ドレイク
+マシュ、アステリオス、それから[#女神様:アルテミス]にも[r]手伝って貰うよ！
+[k]
+
+[charaFace D 1]
+＠ドレイク
+……もちろん[%1]にもだ。[r]さあ、やるよ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター……が、がんばりましょう。
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21200 0]
+[charaFace D 2]
+[charaFadein D 0 0]
+[charaFadein G 0 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[se ad2]
+[wt 3]
+＠ドレイク
+そら、進め進め！
+[k]
+
+＠海賊
+姐御！　これ以上は船体が持ちませんよ！
+[k]
+
+[seStop ad2 3]
+[charaFace D 0]
+＠ドレイク
+そうかい？　その割りには、船が安定してないかい？
+[k]
+
+＠海賊
+え？[r]……あれ、そう言えば確かに……。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+忘れたのかい？[r]補修したとき、ドラゴンの鱗をありったけ使っただろ。
+[k]
+
+＠ドレイク
+この程度の嵐で沈むような、[r]柔なつくりじゃないってことだ！
+[k]
+
+[charaFace D 0]
+＠ドレイク
+さあ、わかったらガンガン走るぞ！
+[k]
+
+＠海賊
+姐御、前方に船！
+[k]
+
+＠ドレイク
+追いついたか！？
+[k]
+
+＠海賊
+あ、いや違います。[r]あっしらの船より大きいです！
+[k]
+
+[charaFace D 5]
+＠ドレイク
+あの黒髭の船みてえな奴か！？
+[k]
+
+＠海賊
+はい、ただ[line 2]。
+[k]
+
+＠ドレイク
+ただ？
+[k]
+
+＠海賊
+何かもう、ボロボロな感じっす。[r]嵐なんでそれくらいしかわかりません！
+[k]
+
+＠ドレイク
+望遠鏡、貸しな！
+[k]
+
+[charaFace D 0]
+＠ドレイク
+ふむふむ。[r]……何だありゃ。幽霊船ってやつか……？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+幽霊船、ですか？
+[k]
+
+＠Dr.ロマン
+うわお、ますます海洋冒険小説だ！[r]浪漫があふれすぎて、正直本にしたい！
+[k]
+
+[charaFadeout A 0]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ドレイク
+はん、幽霊船なんて大概はただの無人船さ。[r]叛乱だの飢餓状態だの、原因は色々さね。
+[k]
+
+[charaFace D 5]
+＠ドレイク
+……ん？[r]何か光が……こっちに来て……ひゃぁ！？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠オリオン
+今、ドレイクのねーちゃんがスゲえヘンな声出した！
+[k]
+
+＠アルテミス
+まるで生娘みたいな声出した！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター！？
+[k]
+
+？1：え、何？
+
+？2：どうしたの？
+
+？！
+
+[charaFace A 12]
+＠マシュ
+いえ、ドレイクさんの声につい動揺してしまって。[r]ドレイクさん、何があったのですか？
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠ドレイク
+ア、アタシの悲鳴はどうでもいいから、船首を見ろって！[r]敵襲だ！　幽霊が襲ってくる！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,169 @@
+＄94-00-21-15-1-0
+
+
+[soundStopAll]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 0 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1028001 1 両儀式]
+[charaSet E 5014001 2 メフィスト]
+[charaSet F 6018000 1 ヒロインＸ]
+
+[scene 22130]
+[fadein black 2.0]
+[wait fade]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.4 1]
+＠ヒロインＸ
+最後の住人はわたしですかそうですか！[r]でも出番がもらえたので贅沢は言いません！
+[k]
+
+＠ヒロインＸ
+あれは何だ！？　鳥だ！　飛行機だ！[r]いやセイバーだ！
+[k]
+
+＠ヒロインＸ
+そう、わたしこそはキラキラ光る[#蒼輝:エーテル]宇宙を[r]駆ける一筋のセイバーさん！
+[k]
+
+[fowardEffect bit_talk_41]
+＠ヒロインＸ
+ヒロインＸ、大人気と聞いてまたも不時着いたしました！[r]皆さん、心臓は足りてますか[line 3]！？
+[k]
+
+[wt 0.4]
+
+[charaFadeout F 0.1]
+[fowardEffectStop bit_talk_41]
+[wait fowardEffect bit_talk_41]
+
+[wt 0.7]
+
+？1：……いよいよおしまいだね、マシュ。
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+…………はい。先ほどの信長さんといい、[r]この階は特に時空が乱れているようです……
+[k]
+
+？2：……あれ、両儀さん？
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ですね？　式さん、いなくなっちゃいました？
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ヒロインＸ
+ぬ……！　高濃度のセイバー反応を辿ってみれば、[r]やはり現れたのですね、新たなセイバーが！
+[k]
+
+[charaFace F 2]
+＠ヒロインＸ
+貴女に恨みはありませんが、すべてのセイバーと[r]戦っておくのがわたしのノルマです！
+[k]
+
+[charaFace F 3]
+＠ヒロインＸ
+あ、いえ、間違えました。[r]カルマです、カルマ。格好いい、宿命系の設定で。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、あの、Ｘさん？　いつも変わらぬテンションなのは[r]元気でいい、と思うのですが……
+[k]
+
+＠マシュ
+ここにセイバークラスはいないかと。[r]ここにいる式さんはアサシンクラスですし[line 3]
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+[bgm BGM_EVENT_10 0.1]
+＠両儀式
+もう。何をしているの、二人とも。[r]早く戦いの仕度をしないと。
+[k]
+
+＠両儀式
+宇宙の生き物なんて[line 3]あまら珍しい。[r]鮮度が落ちる前に切れ味を確かめましょう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠ヒロインＸ
+え……なんですかこのひと。[r]日本刀に着物とかガチすぎて怖いというか……。
+[k]
+
+＠ヒロインＸ
+コスモ時空の法則（コメディなので死なない）とか[r]関係なしに殺される気配濃厚というか……
+[k]
+
+[charaFace F 2]
+＠ヒロインＸ
+よし、ごめんなさい、人違いでした！[r]わたし、帰っていいでしょうか！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠両儀式
+まあ。勇ましいだけでなく奥ゆかしいのね。[r]ますますいじりたくなってきたわ。
+[k]
+
+＠両儀式
+お相手をお願いしていいかしら、旅人さん。[r]私、こう見えて十字に斬るのは得意なの。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ヒロインＸ
+よーし、[#緊急離脱:ワープ]失敗！[r]我ながら自業自得ですかそうですか！
+[k]
+
+[bgmStop BGM_EVENT_10 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+＠ヒロインＸ
+こうなったらやってやりますとも！[r]アルトリウムの力、思い知らせてやります！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

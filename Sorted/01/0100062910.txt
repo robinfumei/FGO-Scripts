@@ -1,0 +1,252 @@
+＄01-00-06-29-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチ]
+[charaSet C 1012001 1 ベディヴィエール]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 98014000 1 聖都軍兵士]
+[charaSet F 98098000 1 アグラヴェイン]
+
+[imageSet G talk_img_black_gradation 1]
+[wait imageSet G]
+[charaScale G 1.1]
+[charaCutin G upToDown 0.1 0]
+
+[scene 29000]
+
+[charaEffect D bit_talk_haboob_01]
+
+[se ad134]
+[fadein black 2.0]
+[wait fade]
+[wt 2.0]
+[seStop ad134 0.5]
+[fadeout black 2.0]
+[wait fade]
+
+[charaPut D 1200,1200]
+[charaEffectStop D bit_talk_haboob_01]
+
+[charaFadeout G 0]
+
+[scene 29400]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠聖都軍兵士
+アグラヴェイン様、正門が破られました！[r]至急、獅子王にご報告を！
+[k]
+
+＠聖都軍兵士
+賊軍が城下町まで侵攻するのは時間の問題……[r]一刻も早く、陛下に裁きの光を！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠アグラヴェイン
+その必要はない。正門を破られたところで、[r]こちらには円卓の騎士どもが残っている。
+[k]
+
+＠アグラヴェイン
+城下町にはトリスタンが。[r]外にはモードレッドの遊撃部隊が。
+[k]
+
+＠アグラヴェイン
+敵軍の勢いは一時的なものだ。[r]あの砂嵐もじき消える。それまで防戦に徹しろ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠聖都軍兵士
+いいえ、モードレッド卿の遊撃部隊は潰走！[r]すでに存在しておりません！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠アグラヴェイン
+…………それは驚きだ。[r]この聖地に訪れてから、最大の驚きといっていい。
+[k]
+
+＠アグラヴェイン
+……何が起きた？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠聖都軍兵士
+は……それが、その。[r]遊撃部隊は、遊撃部隊に潰されました。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠アグラヴェイン
+[line 6]。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFadein E 0.1 1]
+
+＠聖都軍兵士
+ランスロット卿の離反でございます。[r]湖の騎士は、もはや聖都の騎士ではありませぬ！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[scene 29802]
+
+[bgm BGM_EVENT_1 2.0]
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+
+[se ad60]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠ベディヴィエール
+これが聖都……聖槍によって作られたキャメロット。[r]……私は、ついにここまで[line 3]
+[k]
+
+
+[charaFadeout C 0.1]
+[bgmStop BGM_EVENT_1 0.1]
+[messageOff]
+[se ad14]
+[se ad16]
+[shake 0.05 0 4 1.5]
+[wt 1.5]
+[seStop ad14]
+[seStop ad16]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk D]
+[se ad13]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.5]
+
+＠Dr.ロマン
+感慨に浸っている暇はないぞ！[r]魔力反応、大量に接近中だ！
+[k]
+
+＠Dr.ロマン
+今までは兵士と粛正騎士の混成部隊だったが、[r]これはもう完全に人間じゃない[line 3]
+[k]
+
+＠Dr.ロマン
+聖槍の魔力で造られた神造兵団だ！[r]これまでとはレベルが違うぞ！
+[k]
+
+
+？1：街の中でも戦闘か……！
+？2：そう言えば、ここの住人たちは[line 2]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……それが、誰もいないんです。[r]建物の中に引きこもってる気配もない。
+[k]
+
+＠マシュ
+聖都の人々は何処にもいません。[r]この街で活動しているのは聖都の兵だけで……
+[k]
+
+[charaFace A 4]
+＠マシュ
+もしや……もう聖抜は終わっていて、[r]人々は聖槍に取り込まれてしまったのでは……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+どうだろう。それなら聖都の外はとっくに[r]世界の果てになっている筈だ。
+[k]
+
+＠ダ・ヴィンチ
+戦いが始まったので避難させている可能性も高い。[r]獅子王にとってここの人々は、掛け替えのない……
+[k]
+
+＠ダ・ヴィンチ
+いや、換えのきかない大切な貴重品だからね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠ベディヴィエール
+……っ。[r]それは……そうなのですがっ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠ダ・ヴィンチ
+すまない、私も人が悪かった！[r]ともあれ、今は応戦だ！
+[k]
+
+＠ダ・ヴィンチ
+来るぞ、聖都直属の粛正騎士たちだ！[r]アレが相手なら遠慮するコトはない！
+[k]
+
+＠ダ・ヴィンチ
+獅子王の分身だからね、[r]前哨戦のつもりで戦おう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

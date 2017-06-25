@@ -1,0 +1,421 @@
+
+
+
+＄01-00-07-11-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_39 0.1]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98106200 1 マーリン]
+[charaSet D 3027000 1 アナ]
+[charaSet E 98002000 1 フォウ]
+[charaSet F 2020001 1 イシュタル]
+[charaSet G 5018001 1 ギルガメッシュ]
+[charaSet H 98107600 1 祭祀長シドゥリ]
+
+[scene 33100]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+＠マーリン
+うーん、これはこれで大変な事になった。[r]まさかケツァル・コアトルが自ら乗り込んでくるとは。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ギルガメッシュ
+まったくだ！　あんなものが市内で暴れれば[r]魔獣戦線の士気にも影響するわ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk H]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠祭祀長シドゥリ
+職人たち、兵士たちも南市場から離れてしまいました。[r]王ご自慢の秘密工作もこれでは……
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+秘密工作……？[r]ギルガメッシュ王、何か作っておられるのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠ギルガメッシュ
+[line 6]。いや。別に。
+[k]
+
+[wt 0.2]
+[charaFadeout G 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠ギルガメッシュ
+……はあ。シドゥリ、どうして貴様はそう面白みがないのか……[r]逆転道具を秘密にしなくてどうするというのか……
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ギルガメッシュ
+ええい、これというのも訳の分からない女神のせいか！[r]イシュタル！　あれは貴様の同類であろう！
+[k]
+
+＠ギルガメッシュ
+分かりやすく何とかせよ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+＠イシュタル
+同類じゃないわよ、あんなの。[r]文化も芸風も違うでしょ。
+[k]
+
+？1：そうなの？
+
+[charaFace F 8]
+＠イシュタル
+そうよ。クラスも武器も違うじゃない。[r]後はだいたい合ってるけど。露出度とか、属性とか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+（つまりお二人は気が合うという事ですね、先輩！）
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+（しっ、黙って……！　話が混線するからね、[r]　事実でも口にしちゃいけないぞマシュ！）
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：そうかな？
+
+[charaFace F 2]
+＠イシュタル
+メッチャクチャ違うじゃない！[r]あんな脳味噌まで筋肉の女神とか、普通いないから！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠フォウ
+フォ～？[r]フォウフォフォ　フォフォフォフォ～？
+[k]
+
+[charaFadeout E 0.1]
+
+？！
+
+[charaTalk F]
+[charaFace F 11]
+[charaFadein F 0.1 1]
+＠イシュタル
+……まあ、でも迷惑なのは確かよね。
+[k]
+
+＠イシュタル
+いちいちひとりひとり人間とケンカしていくとか、[r]発想がいっちゃってるっていうか、律儀っていうか。
+[k]
+
+＠イシュタル
+しかも明日も来るって事は、あの女神、[r]毎日100人殺していくつもりでしょうし……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠祭祀長シドゥリ
+はい。犠牲となった兵士はちょうど100人です。[r]遺体は運ばれてしまった為、埋葬もままなりませんが……
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠ギルガメッシュ
+撃退しようにも歯が立たぬしな。[r]何か策は無いか、ドクター・ロマンとやら。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え、こっちに振る！？[r]そっちにはマーリンがいるだろう！？
+[k]
+
+＠Dr.ロマン
+千里眼でも何でも使って、[r]ケツァル・コアトルの様子を見てみればいいじゃないか！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠マーリン
+そうしたいのは山々だが、千里眼の多用は厳禁だ。[r]ちょっと他の事に魔力を使っているからね。
+[k]
+
+[charaFace C 0]
+＠マーリン
+第一、女神の観察なんかしたら確実に[r]相手にバレてしまう。
+[k]
+
+＠マーリン
+覗き見をされた女神が何をするか、多くの神話が[r]雄弁に語ってくれている。そうだろう、イシュタル？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk depthOff]
+[charaDepth F 0]
+[charaDepth C 1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠イシュタル
+ええ、殺すわ。全権能を使って、[r]そいつのいる場所に宝具ぶっ放すわ。
+[k]
+
+[charaFace C 0]
+＠マーリン
+ほらね？　女神を怒らせるのは[#まだ]早い。[r]だから千里眼でケツァル・コアトルは調べられないのさ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……はあ。千里眼の使用を制限している、なんてコト、[r]もっと早くに言ってほしかったな。
+[k]
+
+＠Dr.ロマン
+どうりでマーリンにしては後手に回っていると思った。[r]キミ、もう自分にできる手は打った後だったのか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠マーリン
+理解が早くて助かる。[r]それで、ロマニ・アーキマン。キミからの提案は？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ではカルデアの作戦指揮官として意見を述べよう。
+[k]
+
+＠Dr.ロマン
+現状、ケツァル・コアトルを迎撃する手段はない。[r]かといって放置できる状態でもない。
+[k]
+
+＠Dr.ロマン
+となれば後は潜入しかない。[r]ケツァル・コアトルの本拠地を叩くんだ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+本来、ケツァル・コアトルはシュメルには[r]縁もゆかりもない女神だ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+その彼女がなぜ、あそこまで高い神性と権能を[r]発揮しているのか？
+[k]
+
+＠Dr.ロマン
+それはどこかに『彼女を祭る神殿』を[r]作っているからだろう。
+[k]
+
+＠Dr.ロマン
+先日、[%1][&君:ちゃん]がウルの調査に[r]向かった時、その南に[#一際:ひときわ]強い魔力反応があった。
+[k]
+
+＠Dr.ロマン
+マナの充満した密林にあっても、[r]“特別”と分かる凄まじい反応がね。
+[k]
+
+＠Dr.ロマン
+ギルガメッシュ王が言っていたエリドゥ市だろう。[r]ケツァル・コアトルがその都市を占拠しているのなら、
+[k]
+
+＠Dr.ロマン
+そこに彼女は自らの神殿を作っていると推測される。[r]神殿を成立させるには象徴となるシンボルが必要だ。
+[k]
+
+＠Dr.ロマン
+ケツァル・コアトルが持つとされる宝、[r]翡翠剣マカナか太陽遍歴ピエドラ・デル・ソル。
+[k]
+
+＠Dr.ロマン
+このどちらかなら、神殿の祭壇として成立する。[r]だから[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アナ
+……シンボルを破壊して神殿を停止させて、[r]ケツァル・コアトルの神格を落とす……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+その通りだアナ。その後ならケツァル・コアトルが[r]相手でも多少の勝機はある。
+[k]
+
+＠Dr.ロマン
+イシュタルが協力してくれるなら、[r]互角以上の戦いができる筈だよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠イシュタル
+あら、私に頼るの？
+[k]
+
+＠イシュタル
+女神同士の戦いはしたくなかったけど、[r][%1]の頼みなら仕方ないわね。
+[k]
+
+[charaFace F 6]
+＠イシュタル
+これが役に立たない王様からのお願いだったら[r]全力で笑った後に断ったでしょうけど！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠ギルガメッシュ
+[line 6]（ニヤリ）
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アナ
+……完全に見透かされています……[r]イシュタルに勝ち目はないですね……
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ギルガメッシュ
+話は決まったようだな。[r][%1]よ、今回の任務を言い渡そう。
+[k]
+
+＠ギルガメッシュ
+女神退治、その二を許す！[r]密林を越えエリドゥに向かえ！
+[k]
+
+＠ギルガメッシュ
+彼の地にてケツァル・コアトルを打倒し、[r]ついでにエリドゥに保管された神具[line 3]
+[k]
+
+[charaFace G 2]
+＠ギルガメッシュ
+ティアマト神殺しの武器、[r]マルドゥークの斧を回収してくるのだ！
+[k]
+
+＠ギルガメッシュ
+エリドゥまで片道二日、往復で四日！
+[k]
+
+＠ギルガメッシュ
+急げよ！[r]貴様が帰還次第、ゴルゴーン討伐にかかる！
+[k]
+
+[wt 0.2]
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_39 1.4]
+[wait fade]
+[soundStopAll]
+[charaFadeout G 0.1]
+[wt 1.0]
+
+[scene 10000]
+[fadein black 1.0]
+[wait fade]
+[effect bit_talk_telop02]
+[wt 6.0]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.4]
+[soundStopAll]
+[end]

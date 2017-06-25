@@ -1,0 +1,410 @@
+＄01-00-06-11-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 1012001 1 ベディヴィエール]
+[charaSet E 6002001 1 呪腕のハサン]
+[charaSet F 2013000 1 アーラシュ]
+[charaSet G 1009001 1 モードレッド]
+
+[scene 28600]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠モードレッド
+チクショウ、何やってんだオレは！[r][#祝福:ギフト]まで受けて圧し負けてんじゃねえ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+モードレッド卿、兜を外しました！[r]あの鎧と“暴走”のギフトは相性が悪いようです……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そうか、不貞隠しの兜……！
+[k]
+
+＠Dr.ロマン
+確かにあの鎧はアーサー王に叛逆する為のもの、[r]獅子王からの祝福とは反発するだろう！
+[k]
+
+＠Dr.ロマン
+なら、まだ全力ではなかったって事か！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠モードレッド
+ああそうだ。テメエら雑魚ども相手に[r]本気を出した日には、円卓の笑われ者だ。
+[k]
+
+＠モードレッド
+……だがな。[r]それで負けてちゃ笑い者にすらなれねえ。
+[k]
+
+＠モードレッド
+オレの[#面目:めんぼく]なんざ捨ててやる。[r]この山とテメエら、まとめて消し飛ばしてやるよ。
+[k]
+
+[se ad39]
+[charaEffect A bit_talk_06b2]
+＠モードレッド
+[line 3]煮えたぎれ星の怒り。[r]クラレント、ブラッド[line 3]
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.15 1]
+[wait wipe]
+[charaEffectStop A bit_talk_06b2]
+[charaPut A 1200,0]
+[charaFadeout G 0]
+[scene 10000]
+[wipein rightToLeft 0 1]
+[wait wipe]
+
+[wt 0.1]
+[se bac20]
+[effect bit_shot_01]
+[wt 0.5]
+
+[wipeout rightToLeft 0 1]
+[wait wipe]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0 1]
+[scene 28600]
+[wipein leftToRight 0.15 1]
+[wait wipe]
+
+[charaShake G 0.05 3 3 0.25]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[se ad32]
+[wt 0.7]
+
+＠モードレッド
+っ！
+[k]
+
+[se bac20]
+[effect bit_shot_01]
+[wt 0.7]
+[charaShake G 0.05 3 3 0.25]
+[flashin once 0.1 0.1 FFFFFFAF FFFFFF00]
+[se ad32]
+[wt 0.7]
+
+＠モードレッド
+どこのどいつだ！？[r]しつこく腕の腱を狙いやがって！　殺されてぇのか！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout G 0]
+[wt 0.2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 1]
+＠アーラシュ
+そりゃあ戦いだ、どっちかは死ぬだろ。[r]特に、自分の限界を無視して前に出る奴とかな。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+アーラシュさん！
+[k]
+
+[charaFace F 0]
+＠アーラシュ
+ああ。いい働きだったぜ、[%1]、マシュ。[r]おまえさんたちのおかげで、ほらこの通り。
+[k]
+
+＠アーラシュ
+その騎士さま以外の兵士は残らず片付けた。[r]後は大将首を獲るだけだが[line 3]
+[k]
+
+[charaFace F 4]
+＠アーラシュ
+……はあ。なんだかなあ、その兄さん。[r]いま、自分もろとも自爆しようとしていたぞ？
+[k]
+
+＠アーラシュ
+暴走のギフトか？　そいつを全解放して、[r]聖剣ごとこの山を吹き飛ばす算段なんだろうさ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠モードレッド
+！　……なんだそれ。[r]おまえ、分かるのか、そういうの。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アーラシュ
+いやあ、たまたまだよ、たまたま！
+[k]
+
+＠アーラシュ
+英霊といえど、魔力を暴走させても自滅するだけだ。[r]できて宝具の威力が増すぐらいかね。
+[k]
+
+[charaFace F 4]
+＠アーラシュ
+だがおまえさんのギフトとやらは別だ。暴走とは[r]聞こえはいいが、そりゃあただのメルトダウンだ。
+[k]
+
+＠アーラシュ
+分かってんのか？　そのギフトを与えた奴はな、[r]おまえをそういうモンとして扱ったって事だぞ？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+[wt 0.7]
+[charaFace G 2]
+＠モードレッド
+ああ、その通りだ！　オレは猟犬だぜ？[r]獲物を殺して殺して、最後は野垂れ死ねば満足だからな！
+[k]
+
+＠モードレッド
+なんで、テメエらはその道連れだ！[r]オレと一緒に死にやが……[se bac20][effect bit_shot_01][wt 0.6][charaShake G 0.05 3 3 0.25][flashin once 0.1 0.1 FFFFFFAF FFFFFF00][se ad32][charaFace G 5]くわっ！？
+[k]
+
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+なんだそりゃ、敵であっても俺は怒るぞ！
+[k]
+
+＠アーラシュ
+剣の勝負に負けたから自爆してチャラだとぅ？[r]勇士の誇りがまるでない！
+[k]
+
+＠アーラシュ
+おまえさん、それでも円卓の騎士か！？[r]勇ましいのは最初だけか！？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠モードレッド
+な[line 3]
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+いいか。自らの命を使うのであれば、[r]自らの誇りと、守るべきものの為に使え！
+[k]
+
+＠アーラシュ
+自暴自棄の我が儘に俺たちを巻き込むな！[r]子供の世話は大好きだが、ガキの面倒は願い下げだ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠モードレッド
+ガ、ガキだと[line 3]！[r]オレのどこがガキだってんだ、テメエ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アーラシュ
+なに？　ガキではなかったのか？[r]……すまん、ちょっとタイム。
+[k]
+
+＠アーラシュ
+おい[%1]、あいつ、何歳なんだ？[r]見た目が若いんで、てっきりおまえさんより年下かと……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠モードレッド
+年上だよ（たぶん）！[r]オレは外見が１６歳で止まってるだけだ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アーラシュ
+そうか。なら立派な大人だな。[r]であれば尚更だ。
+[k]
+
+＠アーラシュ
+悔しいのなら再戦にすべてをかけて出直して来い。[r]今回は引き分けにしておいてやる。
+[k]
+
+＠アーラシュ
+それとも、後詰めで楽をしていた俺と戦うか？[r]体力がまるまる残っているぞ？
+[k]
+
+[charaFadeout F 0.1]
+
+[bgmStop BGM_EVENT_3 1.5]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠モードレッド
+………………クソ。[r]馬鹿の話を聞いてたら冷静になっちまったぜ。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠モードレッド
+いいだろう、口車に乗ってやる。[r]今回はオレの負けだ。部隊も全滅してるしな。
+[k]
+
+＠モードレッド
+この村も見逃してやる。[r]もともとテメエら目当ての山狩りだ。
+[k]
+
+＠モードレッド
+そこのチキン野郎が獅子王に謁見するってんなら、[r]どうあってもオレたちは聖都でご対面だ。
+[k]
+
+＠モードレッド
+……勝負はそれまで預けた。
+[k]
+
+＠モードレッド
+これは命を見逃してもらう代償の、騎士の誓いだ。[r]オレは決して破らない。
+[k]
+
+[charaFace G 2]
+＠モードレッド
+それまで生き延びろよ、雑魚ども！[r]他の円卓にやられたら怒るからな！
+[k]
+
+[se ad60]
+[seStop ad60 1.4]
+[charaFadeout G 1.0]
+[wt 2.0]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+モードレッドの反応、離れていくよ。[r]見逃して良かったのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠呪腕のハサン
+……業腹だが、致し方なし。[r]この場で自爆されては西の村を守れぬ。
+[k]
+
+＠呪腕のハサン
+敵に攻め込まれた時点で我らの負け。[r]それを分けにもっていけたのだ。これ以上は望めまい。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。アーラシュさんの援護射撃で[r]村も守られたようです。
+[k]
+
+＠マシュ
+後は村の中の様子を見て、何か手助けできる事が[r]あれば[line 3]ベディヴィエールさん？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ベディヴィエール
+[line 3]、[line 6]。
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+[charaFadeout D 0.7]
+[wt 0.7]
+[se ad144]
+[seStop ad144 0.5]
+[shake 0.05 2 2 0.3]
+[wt 0.7]
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ベディヴィエールさん！？[r]しっかり、しっかりしてください……！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.2]
+[soundStopAll]
+[end]
+
+

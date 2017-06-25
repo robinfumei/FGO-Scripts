@@ -1,0 +1,383 @@
+＄94-00-61-08-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 5025001 1 エジソン]
+[charaSet C 1001002 1 トゥルッフ・トゥルウィス]
+[charaSet D 6024000 1 スカサハ]
+
+[seLoop ad66]
+[seVolume ad66 0 0.5]
+
+[scene 30630]
+[fadein black 2.0]
+[wait fade]
+[seStop ad66 3.0]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+＠マシュ
+ここ、は……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠エジソン
+油の臭い、鉄の臭い、[#特殊接着剤:ワンダーグルー]の臭い……。[r]うむ、紛う事なき工場だな！
+[k]
+
+[charaFace B 4]
+＠エジソン
+しかし、何を造っている？
+[k]
+
+[wt 1.0]
+
+＠C：？？？
+[line 3]それは、私だ。
+[k]
+
+
+[wt 0.5]
+
+[messageOff]
+
+[wipeout rightToLeft 0.3 0.3]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[fadein black 0.1]
+[wait fade]
+[wipein leftToRight 0.3 0.5]
+[wait wipe]
+
+[wt 0.8]
+
+[charaFadein C 0.7 1]
+[charaFilter C silhouette 00000080]
+
+
+
+
+[wt 2.3]
+
+＠スカサハ
+[line 3]何者だ。
+[k]
+
+[messageOff]
+
+[wt 0.8]
+
+
+[charaFadeout C 0.7]
+[wt 0.6]
+[charaFilter C normal 00000080]
+
+[wt 0.5]
+
+[charaTalk C]
+[charaFadein C 0.7 1]
+
+[wt 0.3]
+
+＠C：？？？
+久しいな、貴様ら。
+[k]
+
+[wt 0.6]
+
+[charaFace C 5]
+＠C：？？？
+……いや、貴様たちにとっては、[r]まさに瞬く間に過ぎたことか。
+[k]
+
+＠C：？？？
+だが、私にとっては地獄だった。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え、アルトリアさん……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠エジソン
+いや、違うな。[r]彼女からも鉄と油の臭いがする。
+[k]
+
+＠エジソン
+かのアーサー王が、そのように現代的な臭いを[r]撒き散らすとは思えん。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠C：アルトリア？
+……その通りだ。
+[k]
+
+＠C：アルトリア？
+この姿はいずれ猪たちを滅ぼす際に使う姿。
+[k]
+
+＠C：アルトリア？
+彼らは私を救世主と定め、言うことに全て従い、[r]そして[line 3]喜んで滅びを受け入れただろう。
+[k]
+
+[charaFace C 5]
+＠C：アルトリア？
+二千年。[r]二千年の復讐を、いま此処に体現する。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠スカサハ
+……なるほど。[r]貴様、アイツか。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+二千年ほど前、[#私たちが叩き潰した]魔猪だな？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+二千年前、一番最初の……巨大魔猪……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠エジソン
+つまり[line 3]彼女たちが二千年前に来訪し、[r]悪さをしていた君を退治した。
+[k]
+
+＠エジソン
+ところが君は生きていて、[r]二千年の間復讐の牙を研ぎ続けた。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠スカサハ
+長いな、長すぎる。[r]それだけ長ければ、貴様は最早[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠C：アルトリア？
+そう、[#おまえと同じだ]。[r]もっとも私は神獣の域に至っただけだがな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+し、神獣……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠スカサハ
+驚くことはない。
+[k]
+
+＠スカサハ
+魔力溢れるこの土地で、聖杯を使い、[r]二千年間生きてきた。
+[k]
+
+＠スカサハ
+ならば、[#此奴:こやつ]が神獣の域に到達するのも、[r]決して不可能ではない。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+その姿は[#かつて敗れた者への意趣返しか]。[r]なあ、[charaFace D 2]トゥルッフ・トゥルウィス！
+[k]
+
+
+[charaFace A 15]
+＠マシュ
+トゥルッフ・トゥルウィス！？[r]それは確か、アーサー王伝説の……！
+[k]
+
+
+[charaFace D 5]
+
+＠スカサハ
+……猪に変化し、七頭の子猪と共にブリテンを[r]食い荒らしたというあの魔猪の王だ。
+[k]
+
+＠スカサハ
+フン、流れ流れて[#こんな国に]辿り着いていた[r]とはな……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+
+＠トゥルッフ・トゥルウィス
+[line 3]私はかつて、騎士王アーサーに敗れた。[r]あの小娘は事もあろうに、私を敵とは見なさなかった。
+[k]
+
+
+[charaFace C 5]
+
+＠トゥルッフ・トゥルウィス
+王ならば、王に対する態度というものがあろう！[r]なのに奴は[line 2]。
+[k]
+
+＠トゥルッフ・トゥルウィス
+苦しむ民を救うため、そして私が持つ巨人の剃刀、[#鋏:はさみ]、[#櫛:くし]を[r]手に入れるためと言って。
+[k]
+
+＠トゥルッフ・トゥルウィス
+徹頭徹尾この私をただの害獣として扱い、[r]ただ打ち負かし、国土から追い払ったのだ！！
+[k]
+
+
+[charaFace C 2]
+
+＠トゥルッフ・トゥルウィス
+あの屈辱、二千年経とうと三千年経とうと[r]忘れるものかッ……！！
+[k]
+
+
+＠トゥルッフ・トゥルウィス
+私は彷徨い彷徨い、ようやくこの島に辿り着いた。[r]我はこの島で聖杯を抱き、神獣に至った大獣。
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+＠トゥルッフ・トゥルウィス
+即ちトゥルッフ・トゥルウィス……！！
+[k]
+
+
+[wt 0.4]
+[messageOff]
+[se ad39]
+[flashin once 0.6 1.2 FFFFFFAF FFFFFF00]
+[charaChange C 98101900 0 blink 1.7]
+[wt 1.7]
+[se ad68]
+[wt 1.0]
+
+？1：メカだ[line 6]！？
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠エジソン
+な、何と言う事か……！[r]自身を機械化して、二千年を生き延びたのか！？
+[k]
+
+＠エジソン
+聖杯の力で、滅びるはずだった自分を強引に[r]生き続けさせた、という訳か。
+[k]
+
+[charaFadeout B 0.1]
+
+？2：……生きてるの？
+
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠スカサハ
+半分生きて、半分死んでおる。
+[k]
+
+＠スカサハ
+生き汚い様は生への執念、[r]死に損なってなおしがみつくは、死の忘却。
+[k]
+
+[charaFace D 2]
+＠スカサハ
+どちらにせよ、まさかこんな場所で[r]伝説の魔獣とお目に掛かるとはな！
+[k]
+
+[charaFadeout D 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……うりぼうさんたちの、生活を邪魔させはしません。[r]ここで、絶対にあなたを倒します！
+[k]
+
+[charaFace A 2]
+＠マシュ
+行きますマスター！[r]指示をお願いします！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

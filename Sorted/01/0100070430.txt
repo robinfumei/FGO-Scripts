@@ -1,0 +1,213 @@
+
+
+
+＄01-00-07-04-3-0
+[soundStopAll]
+[charaSet A 8001002 1 マシュ]
+[charaSet B 3027000 1 アナ]
+[charaSet C 98107600 1 祭祀長シドゥリ]
+[charaSet D 98003000 1 Dr.ロマン]
+[charaSet E 4014000 1 牛若丸]
+[charaSet F 3006001 1 弁慶]
+
+
+[bgm BGM_EVENT_39 0.1]
+[scene 33200]
+[fadein black 1.5]
+[wait fade]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠牛若丸
+おはようございます。[r]今朝は同じ時間に出勤のようですね。
+[k]
+
+＠牛若丸
+シドゥリ殿、[%1]殿の仕事は何と？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠祭祀長シドゥリ
+本日の依頼はキッシナムゥ氏から。
+[k]
+
+＠祭祀長シドゥリ
+奥方がここ数日不穏な活動をしているので[r]調査してほしいとの事です。
+[k]
+
+＠祭祀長シドゥリ
+有り体に言って、浮気調査となります。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 0.7]
+＠マシュ
+う、浮気調査ですか。[r]あの……そ[charaFace A 3]ういうのはご本人たちが解決すべきでは？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠祭祀長シドゥリ
+キッシナムゥ氏は兵器舎の親方です。[r]平日は職場を離れる事はできません。
+[k]
+
+＠祭祀長シドゥリ
+ですが気になって仕事のノリも悪いとのこと。[r]早期解決が望まれます。
+[k]
+
+＠祭祀長シドゥリ
+また裁判になった時の証拠も必要ですので、[r]現行犯逮捕、間男の素性、経歴まで調べていただければ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠牛若丸
+……ほほう。それは面白そうだ。[r][%1]殿。同行してよろしいか？
+[k]
+
+＠牛若丸
+私たちも今日はウルク市の見回り番です。[r][#市:まち]の案内もかねてお手伝いしましょう。
+[k]
+
+？1：よろこんで！
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+
+＠弁慶
+ははは、よい気合いですな！[r]無論、拙僧もお供しましょう。
+[k]
+
+＠弁慶
+浮気調査は[#侮:あなど]れるものではありませぬからなぁ。
+[k]
+
+＠弁慶
+現場を押さえられ、追い詰められた奥方が魔性に転じ、[r]大鉈を振り回して襲ってくる事も日常茶飯事。
+[k]
+
+＠弁慶
+ですが、異国の地であろうと我が法力に[#澱:よど]みなく。[r]この弁慶、無闇やたらに調伏してみせましょう！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠牛若丸
+[%1]殿。言うまでもありませんが、[r]そこのヌリカベの言葉は聞き流して結構です。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+？2：ますますウルクが分からなくなってきた……
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaTalk D]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+
+＠Dr.ロマン
+そうだね……どんどん世知辛い方向に[r]内情が暴かれていくようだね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？！
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アナ
+……あの……私は、別行動です。
+[k]
+
+＠アナ
+先ほど、大通りのおばあさんに手伝いを[r]頼まれてしまって……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ああ、お花屋さんのご婦人ですね。[r]そういえばお店番を募集していましたっけ。
+[k]
+
+＠マシュ
+今回は牛若丸さんたちがお手伝いしてくれますので、[r]こちらは大丈夫ですよ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠アナ
+…………[charaMoveReturn B 0,-5 0.4][charaFace B 9]……（ぺこり）
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[se ad60]
+[seVolume ad60 0 0.4]
+[wt 1.5]
+[seStop ad60 1.0]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠牛若丸
+それでは参りましょう！[r]まずは奥方の尾行からですね。
+[k]
+
+＠牛若丸
+このウルクはもはや私の庭のようなもの、[r]大船に乗った気持ちで付いてきてください！
+[k]
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_39 0.5]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]
+

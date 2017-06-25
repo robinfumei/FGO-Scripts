@@ -1,0 +1,231 @@
+
+＄94-00-45-10-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 4023001 1 坂田金時]
+[charaSet G 5003001 1 玉藻の前]
+
+
+[scene 28210]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠玉藻の前
+ううっ、[r]私はただ……出番が欲しかっただけなのに……。
+[k]
+
+＠玉藻の前
+新しい宝具とか新しいスキルとか、[r]新しい礼装とか新しい着替えが欲しかっただけなのに……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+
+＠坂田金時
+多すぎだろそりゃあ！？[r]ほぼ全部じゃねえかフォックス！
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+
+＠牛若丸
+玉藻の前殿。心中はお察しいたします。
+[k]
+
+＠牛若丸
+しかし、[r]それでも今回は私が犬役なのです。
+[k]
+
+＠牛若丸
+何故なら、玉藻の前殿は主殿より年上ですので……[r]お供の犬というより、帰りを待つ母上様役[line 3]
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠玉藻の前
+アーアー聞こえませーん！[r]年齢とか年季的な話は聞こえませーん！
+[k]
+
+[charaFace G 6]
+
+＠玉藻の前
+いや、代わりに何かが聞こえてきます……[r]これはもしや……天の声……？
+[k]
+
+＠玉藻の前
+『鬼ヶ島編で終わりだと誰が言った？[r]　諦めない限り、第二第三の日本編が……』
+[k]
+
+[charaFace G 4]
+
+＠玉藻の前
+マジすか……期待しないで……待ってます……。[r]…………ガクリ。
+[k]
+
+
+[messageOff]
+[effectStop bit_talk_06]
+[wait effect bit_talk_06]
+[wt 0.2]
+
+[se ad52]
+[charaSpecialEffect G flashErasure 0 0 1]
+[wait charaSpecialEffect G]
+[charaFadeout G 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠マシュ
+とりあえず……勝利、です。[r]いろいろありましたが。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+
+＠坂田金時
+いろいろありすぎだろ。[r]マジに今回はおかしかったぜ、アイツ。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 3]
+[charaFadein F 0.1 2]
+
+
+＠風魔小太郎
+……お酒がどうとか……言っていました。[r]ヤケ酒、というヤツでしょうか……？
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+酒。酒か。[r]まさか……な。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+
+[communicationCharaLoop 98003003 0 5 0 0]
+
+＠Dr.ロマン
+ん、どうしたんだい、金時くん？
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+＠坂田金時
+……いや。何でもねえ。[r]ベアー号に乗ってるときにゃ酒は御法度だって話さ。
+[k]
+
+[communicationCharaFace 2]
+
+＠Dr.ロマン
+お、偉いな！[r]そこはきちんとルールを守るんだ！
+[k]
+
+[charaTalk F]
+
+＠坂田金時
+偉くねえよ、当然だろ。[r]オレぁガキどものヒーローなんだからよ。
+[k]
+
+＠坂田金時
+酒はオトナになってから、歩いて家に帰る時、ってな。
+[k]
+
+＠坂田金時
+オレたちライダーが乗るマシンは、[r]ベアー号でなくてもモンスターだ。
+[k]
+
+[charaTalk F]
+
+
+＠坂田金時
+バイカーたるもの、[r][#手前:テメエ]の不手際で人様に迷惑かけちゃあいけねぇよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+
+＠風魔小太郎
+おお……飲酒運転、撲滅運動ですね……
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+教育的にも非常に素晴らしい発言だと思います。
+[k]
+
+[charaFace A 0]
+
+＠マシュ
+さて[line 2]玉藻さんには悪いですが、[r]青鬼が持っていた鍵も手に入れる事ができました。
+[k]
+
+[charaFace A 1]
+
+＠マシュ
+これでこの大門もクリアです。[r]この調子でさらに進んでいきましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

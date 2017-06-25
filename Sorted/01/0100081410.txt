@@ -1,0 +1,370 @@
+
+
+＄01-00-08-14-1-0
+
+
+
+[soundStopAll]
+
+[bgm BGM_EVENT_42 0.1]
+
+[scene 36301]
+
+[charaSet A 9938700 1 魔神サブナック]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 98106000 1 エルキドゥ]
+[charaSet D 8001002 1 マシュ]
+[charaSet F 3027001 1 アナ]
+[charaSet G 4018001 1 ケツァル・コアトル]
+[charaSet H 3028001 1 ジャガーマン]
+
+[fadein black 2.0]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+
+[wait fade]
+
+
+
+
+[effect bit_talk_kengekiall01]
+
+[wt 0.2]
+[shake 0.05 7 7 0]
+[se bac6]
+
+[wt 0.2]
+
+[se bac9]
+
+[wt 0.2]
+
+[se bac4]
+
+[wt 0.2]
+
+[se bac5]
+[effect bit_talk_13]
+
+
+[effect bit_talk_12_blue_R 256,100]
+
+
+[se bac5]
+[effect bit_talk_14]
+
+
+[fadeout white 0.3]
+[wait fade]
+
+
+[wt 0.5]
+
+[fadein white 1.0]
+
+[se ba6]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+
+[shakeStop 0.1]
+[charaSpecialEffect A enemyErasure]
+
+[wt 0.7]
+[flashOff]
+[wait charaSpecialEffect A]
+[charaFadeout A 0.1]
+
+
+[wt 0.4]
+[seLoop ad14]
+[se ad63]
+[charaSpecialEffect A appearance]
+[wt 0.3]
+[flashin loop 0.2 0.2 FFFFFFFF FFFFFF00]
+[wt 1.3]
+[flashOff]
+[wait charaSpecialEffect A]
+
+
+＠魔神サブナック
+不沈なり。不毛なり。[r]我ら生命を司る九柱、玉座あるかぎり尽きる事能わず。
+[k]
+
+＠魔神サブナック
+神霊の暴威、恐るるに足らず。[r]旧き人理に屈した者など、我らの敵に非ず！
+[k]
+
+[charaFadeout A 0.4]
+[seStop ad14 0.2]
+[wt 0.3]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+人間になんて屈してないわよ、そっちの方が[r][#未来:さき]があるって認めただけだっつーの！
+[k]
+
+[charaFace B 8]
+
+＠イシュタル
+エルキドゥ、アンタとの決着は後回し！[r]アイツら、本気でムカつくわ。徹底的に排除するわよ！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠エルキドゥ
+不本意だけど同意するよ。[r]優先順位は魔神柱の方が上のようだからね。
+[k]
+
+[charaFace C 5]
+
+＠エルキドゥ
+……ああ。今の発言は、僕の友への侮辱に等しい。[r]虎の尾を踏んだね、ソロモン王に作られしモノたち。
+[k]
+
+＠エルキドゥ
+君達が生まれた経緯に思うところはあったけれど、[r]僕とは結論が違うようだ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠ケツァル・コアトル
+ハイ、イシュタルの意見に賛成デース！[r]こうなったら魔力が尽きるまでとことん戦いマース！
+[k]
+
+[charaFace G 5]
+
+＠ケツァル・コアトル
+[line 3]と言いたいところですが、[r]ひとり面子が足りないと思うわ、私！
+[k]
+
+＠ケツァル・コアトル
+マーリンはどこかしら！　またサボっているなら、[r]今度はトップロープから[#断崖式:バスター]デスロックをかけてやるわ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠アナ
+マーリンは今回、不参加です。[r]ここは歩いては来られないので。ざまあみろです。
+[k]
+
+[charaFace F 0]
+
+＠アナ
+でも通信で[%1]に[r]言づてを預かっています。
+[k]
+
+
+
+[charaSet B 98106200 1 マーリン]
+[charaSet C 3009001 1 レオニダス]
+[charaSet G 3006001 1 弁慶]
+[charaSet E 4014001 1 牛若丸]
+
+[charaFadeout F 0.1]
+[messageOff]
+
+[wt 0.1]
+
+[se ad15]
+[wt 0.4]
+[charaTalk B]
+[charaFace B 2]
+[charaPut B 1]
+[charaFadeTime B 0.1 0.5]
+[wt 0.1]
+
+＠マーリン
+“遊びに行けなくてすまない！[r] ちょっとマギ☆マリＨＰの更新が忙しいんだ！”
+[k]
+
+[charaFace B 1]
+
+＠マーリン
+“でもまあ、何度もお邪魔しては限定助っ人の[r] 有り難みが薄れるというもの”
+[k]
+
+＠マーリン
+“君が取り戻した未来で、縁が出来る時を楽しみに[r] 待っているさ。そう、具体的に言うとピックア[line 3]”
+[k]
+
+[se ad15]
+[seStop ad15 0.1]
+
+[charaFadeout B 0.1]
+[wt 0.3]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠アナ
+以上です。最後は聞き苦しいジャーゴンでしたので、[r]私の独断でカットしました。
+[k]
+
+[wt 0.3]
+
+[charaSet F 98105900 1 0]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 3]
+[wt 0.3]
+
+＠Dr.ロマン
+マーリンはホントどうしようもないな、うん。[r]最後まで自分の事しか考えて[line 3]
+[k]
+
+[communicationCharaFace 2]
+
+＠Dr.ロマン
+って、ちょっと待った！？　いま、ボクの人生の楽しみの[r]大部分を台無しにする情報が流れなかった！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+
+＠マシュ
+ドクター……気の毒ですが、ネットアイドルというのは[r]ネットワーク上に自然発生する生命体ではなく、
+[k]
+
+＠マシュ
+第三者の手でプロデュースされたものなので……[r]そろそろ現実を見るべきかと……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 1]
+
+＠Dr.ロマン
+え？　イヤだなあ、マギ☆マリは実在するよ。
+[k]
+
+＠Dr.ロマン
+単に、彼女のマネジメントをしていたのが[r]クソ野郎なだけだったに決まってるじゃないか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+
+＠ジャガーマン
+引きこもり……悲しい生き物ニャ……[r]私同様、かなり現実を見てないんだニャー……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠レオニダス
+いえ、引きこもりが悲しいのではありません。[r]体を鍛えていないのが悲しいのです。
+[k]
+
+＠レオニダス
+たとえ狭い監獄であろうと、筋トレだけは人を裏切りません。[r]鍛えておけば有事の際も輝ける事間違いなし。
+[k]
+
+＠レオニダス
+そう、このように！　こんこんとわき出る魔神柱を、[r]正面から押しとどめる事も可能なのですッ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+
+＠牛若丸
+それにも限度はありますが。[r][line 3]この拠点の魔神柱たちは特に生き汚いようだ。
+[k]
+
+＠牛若丸
+戦況がこちらの優位に[#傾:かたむ]いたのなら長居は無用。[r]どうぞ先を急がれよ、[%1]殿。
+[k]
+
+[charaFace E 1]
+
+＠牛若丸
+幸いにも、こちらには防衛特化のサーヴァントが[r]二騎おりますので。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠弁慶
+牛若丸様の言う通り。ここは我らカルデア大使館が[r]何としても攻め落としましょう！
+[k]
+
+？1：ありがとう、みんな！
+？2：またいつか、宴会を！
+
+？！
+
+[messageOff]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+[wt 0.6]
+[se ad59]
+[charaFadeout E 0.4]
+[wt 0.5]
+[seStop ad59 0.3]
+
+
+
+＠牛若丸
+主殿の許しも得た！[r]いざ参る、魔神ども！
+[k]
+
+＠牛若丸
+なに、何匹出ようと命尽きるまで斬り伏せれば済む話！[r]我が流離譚のすべて、ここで披露してくれよう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_42 0.5]
+[wait fade]
+[soundStopAll]
+[end]

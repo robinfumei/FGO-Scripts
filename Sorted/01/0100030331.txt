@@ -1,0 +1,295 @@
+＄01-00-03-03-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20800 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 7015001 1 エイリーク血斧王]
+[charaFace F 5]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠エイリーク血斧王
+ギ、ギ、ギ……。[r]ガガガッ、ワタサネェ、アレハオレノモノダ……！
+[k]
+
+＠エイリーク血斧王
+オレノ、モノ、ナノニ……！
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect F erasure 1 0.8]
+[wait charaSpecialEffect F]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……エイリーク血斧王、消滅確認しました。
+[k]
+
+＠Dr.ロマン
+あれ、おかしいな。[r]消滅したわりに、サーヴァントの反応が……。
+[k]
+
+[charaFace A 6]
+＠マシュ
+どうしました？
+[k]
+
+＠Dr.ロマン
+あれ、消えてしまった。[r]うーん、この時代に来てからどうも調子が悪いな。
+[k]
+
+＠Dr.ロマン
+済まない、計測機器の調子がいまいちでね。[r]後を追うのはちょっと難しい。
+[k]
+
+＠Dr.ロマン
+もうその島にサーヴァントはいない。[r]先ほどの海賊たちもすべて消滅している。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+そうかい。[r]それじゃあ一丁、お宝を探すとしようじゃないか！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait wipe]
+[wt 0.3]
+[scene 20800 0]
+[charaFace A 12]
+[charaFadein A 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+先輩はお宝があると思います？
+[k]
+
+？1：思う
+
+[charaFace A 13]
+＠マシュ
+そうですか。[r]……確かに、あると面白そうだとは思います。
+[k]
+
+？2：思わない
+
+[charaFace A 13]
+＠マシュ
+冷静に考えれば、そうですよね。[r]……あると、ちょっと楽しそうな気はしますけど。
+[k]
+
+？！
+
+＠ドレイク
+おーい、こっちこっち！[r]見つけたぞー！
+[k]
+
+[charaFace A 6]
+＠マシュ
+え、あった！？[r]行きましょう、マスター！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 21100 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 1]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[wait fade]
+＠ドレイク
+そら、この船。[r]多分、あの王様が乗ってた船じゃないか？
+[k]
+
+＠マシュ
+ドクター、調べられますか？
+[k]
+
+＠Dr.ロマン
+ああ、調べるまでもなさそうだ。[r]ヴァイキングたちが乗っていた船の大型だよ。
+[k]
+
+＠Dr.ロマン
+本来は九世紀くらいの代物だが……新品同様だ。
+[k]
+
+[charaFace A 11]
+＠マシュ
+財宝……ではないですよね。
+[k]
+
+＠ドレイク
+財宝さ。アンタたちはちょっと待ってな。[r]こいつがヴァイキングの船なら、必ずあるはず[line 2]。
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21100 0]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[charaFace D 1]
+[charaFadein D 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ドレイク
+見つけたよ、お宝だ！
+[k]
+
+[charaFace A 6]
+＠マシュ
+……本、ですか？
+[k]
+
+[charaFace D 0]
+＠ドレイク
+ヴァイキングは航海する際に、出発地点から[r]到達地点まであらゆるものを絵と文字で記録した。
+[k]
+
+[charaFace A 0]
+＠ドレイク
+岸の形状、浅瀬の場所、海流の性質と方向[line 2]。
+[k]
+
+＠ドレイク
+こいつらがこの島に出現したってんならともかく、[r]他所からここに辿り着いたんなら……。
+[k]
+
+[se ad7]
+[wait se ad7]
+[charaFace D 1]
+＠ドレイク
+よし、新しいインクの匂いだ！[r]この島と周囲一帯の海図に間違いないよ！
+[k]
+
+＠ドレイク
+そら。これから海洋に乗り出すアタシらにとって、[r]これ以上ないお宝だろう？
+[k]
+
+[charaFace A 13]
+＠マシュ
+……確かにその通りです。ドレイク船長は、その……[r]乱暴そうに見えて、現実的な方なのですね。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+見直したかい？[r]じゃあ、世界一周に付き合う？
+[k]
+
+[charaFace A 3]
+＠マシュ
+ええと……。
+[k]
+
+？1：検討する
+
+？2：この戦いが終わった後なら
+
+？！
+
+[charaFace D 1]
+＠ドレイク
+そうかいそうかい！　アンタたちがいるなら百人力だ！[r]食料と水を確保してから出発だ。
+[k]
+
+＠ドレイク
+さ、船に戻るとするか！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0]
+[wt 0.5]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩、いいんですか？[r]時代が修正されたら、わたしたちの記憶そのものが[line 2]。
+[k]
+
+？1：問題ない
+
+[charaFace A 11]
+＠マシュ
+……記憶そのものが消えるのだから、[r]確かに問題そのものが消えますが……
+[k]
+
+？2：忘れてた
+
+[charaFace A 6]
+＠マシュ
+え、まさか先輩本当に世界一周する[r]つもりだったんですか……？
+[k]
+
+[charaFace A 5]
+＠マシュ
+……もう、からかわないで下さい！
+[k]
+
+？！
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 21230 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[wait fade]
+＠ドレイク
+さて、ヴァイキングの海図に従って行くと[line 2][r]北西に島があるね。
+[k]
+
+＠ドレイク
+速度を考えると十時間後だろう。[r]風を捕らえればもう少し速くなる。
+[k]
+
+[charaFace A 13]
+＠マシュ
+文字の方は解読してもらえますよ。[r]ドクター、データを転送します。
+[k]
+
+＠Dr.ロマン
+いいとも、書籍一冊程度ならここからでも問題ない。[r]とはいえ、早く召喚ポイントを確立させたいところだが。
+[k]
+
+[charaFace A 1]
+＠マシュ
+次の島に霊脈が通っていることを期待しましょう。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+よし、野郎ども！　出航だよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,218 @@
+＄01-00-04-11-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20201 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98026000 1 マキリ]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 7004001 1 フラン]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 2011001 1 ニコラ・テスラ]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 3]魔神バルバトス、完全な沈黙を確認しました。[r]わたしたちの勝利です。
+[k]
+
+？1：お疲れさま
+
+？2：油断はしないで
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい、先輩。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠モードレッド
+訳の分からん化け物だったな。[r]流石に、今のはオレも戦い難かったぞ。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+さて、と。後はデカブツを破壊するだけだ。[r]やるぞ、マシュ。[%1]。
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠マキリ
+……もう、遅い。[r]ロンドンに充ちた魔霧の量は……既に、充分に……
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+おまえ、まだ生きてんのか。[r]しぶといな。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マキリ
+後は……[r]さあ来たれ、我らが最後の英霊よ……
+[k]
+
+[charaFace D 1]
+＠マキリ
+我が悪逆、完成させるに足る……星の開拓者よ……！
+[k]
+
+＠マキリ
+……汝、狂乱の檻に囚われし者……[r]我はその鎖を手繰る者[line 3]
+[k]
+
+[charaFace D 2]
+＠マキリ
+汝三大の言霊を纏う七天！[r]抑止の輪より来たれ、天秤の守り手よ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+これは……英霊召喚の呪文！？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+[fontSize large]うるせえな！！[fontSize -]
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[se bac4]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaEffect D bit_talk_12]
+[flashin once 0.5 0.5 FF000080 00000000]
+[charaFadeout D 0.5]
+[wt 1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+……黙って死んどけ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター、彼の最後の言葉は英霊召喚の呪文でした。[r]それから……狂化をもたらすための一文も。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+残念ながらその通りだ。[r]マシュ、[%1][&君:ちゃん]、サーヴァントが来るぞ！
+[k]
+
+＠Dr.ロマン
+彼が発していたのは完全な呪文ではなかったが、[r]魔霧が魔方陣や残りの呪文の肩代わりをしたらしい。
+[k]
+
+＠Dr.ロマン
+サーヴァント反応がこちらでもはっきりと確認できる。[r]マシュも感じるはずだ、これは……
+[k]
+
+＠Dr.ロマン
+大英雄クラスの魔力反応、いや[line 3]
+[k]
+
+＠マキリ
+どう、だ……[r]我が命と引き替えに、召喚、今こそ果たしたぞ……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠モードレッド
+まだ生きてんのか！？[r]人間だろ、何だこいつのしぶとさ[line 3]
+[k]
+
+＠マキリ
+アングルボダで増幅した、聖杯の、魔力を……[r]魔霧の力を……[#彼]に、集中、させた……
+[k]
+
+＠マキリ
+……最早、神代の領域、に……！
+[k]
+
+＠Dr.ロマン
+魔力反応、極めて増大！[r]来るぞ！！
+[k]
+
+[charaFadeout E 0.1]
+[se ad61]
+[messageOff]
+[effect bit_talk_lightning_01t]
+[flashin once 0.4 0.4 FFFFFF80 FFFF0080]
+[wt 0.1]
+[flashout 0.1]
+[wt 0.1]
+[effectStop]
+[seStop ad61 0.1]
+[se ad62]
+[effect bit_talk_lightning_02t]
+[flashin once 0.4 0.4 FFFFFF80 FFFF0080]
+[wt 0.1]
+[flashout 0.1]
+[wt 0.1]
+[flashin once 0.4 0.4 FFFFFF80 FFFF0080]
+[wt 0.1]
+[flashout 0.1]
+[wait flash]
+[fadeout white 0.1]
+[wait fade]
+[wt 0.1]
+[effectStop]
+[seStop ad62 0.1]
+[scene 20201 0]
+[charaTalk H]
+[charaFace H 0]
+[charaFilter H silhouette 00000080]
+[fadein white 0.4]
+[se ad63]
+[wait fade]
+[charaEffect H bit_talk_lightning_03t]
+[wt 0.3]
+[se ad64]
+[effect bit_talk_lightning_05t]
+[wait charaEffect H bit_talk_lightning_03t]
+[wt 0.1]
+[backEffect bit_talk_lightning_01t]
+[charaFadein H 0.7 1]
+[wt 2]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[effectStop]
+[wait fade]
+[backEffectStop bit_talk_lightning_01t]
+[soundStopAll]
+[end]

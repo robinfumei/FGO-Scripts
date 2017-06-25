@@ -1,0 +1,70 @@
+＄94-00-21-06-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 4011002 1 ブーディカ]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+[scene 22140]
+[fadein black 2.0]
+[wait fade]
+
+＠ブーディカ
+……ああ……あたし……何を……[r]そっか……恥ずかしいところ、見せちゃったな……
+[k]
+
+＠ブーディカ
+[#勝利の女王:ヴィクトリア]、なんて[line 3]たはは……[r]あたし、大事な戦じゃあ、いつも負けていたのにね……？
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 1.7]
+[se ba5]
+[wait charaSpecialEffect F]
+
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……サーヴァント、ブーディカ消滅しました。[r]この部屋にはもう何もありません、マスター。
+[k]
+
+？1：……外に出よう
+？2：……捜査を続けよう。
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。一刻も早く原因を突き止めましょう。
+[k]
+
+＠マシュ
+なぜこんな事になっているのか。[r]なぜこんな事をしているのか。
+[k]
+
+＠マシュ
+その答えを、はっきりと聞き出すために！
+[k]
+
+
+
+[messageOff]
+[fadeout black 1.5]
+[wt 1.4]
+[bgmStop BGM_EVENT_5 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

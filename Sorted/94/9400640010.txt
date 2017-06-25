@@ -1,0 +1,497 @@
+
+
+
+
+
+
+
+
+
+
+
+＄94-00-64-00-1-0
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_33 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 4013001 1 メイヴ]
+
+[scene 10000]
+[charaEffect C bit_talk_yume01]
+[fadein black 2.0]
+[wait fade]
+
+
+＠[FFE3B6]？？？
+[FFE3B6]ねえ、あたしたち、いつまでもどこまでも[r][FFE3B6]ずっとずっとずぅ～っと友だちでいられるよね？　ね？
+[k]
+
+＠[F4906D]？？？
+[F4906D]……おばか。[r][F4906D]ばかじゃないの？
+[k]
+
+＠[F4906D]？？？
+[F4906D]あなた、きのう『もう絶交よ！』って[r][F4906D]私に怒鳴ったばかりのくせに。もう忘れたの……？
+[k]
+
+＠[FFE3B6]？？？
+[FFE3B6]うーん、忘れちゃった。[r][FFE3B6]それにだいじょうぶよ！
+[k]
+
+＠[FFE3B6]？？？
+[FFE3B6]魔法がある。魔法があるもの！[r][FFE3B6]あたしたち魔法少女なんだもの！
+[k]
+
+＠[F4906D]？？？
+[F4906D][#魔法]……[#少女]？　自分で言う？[r][F4906D]ナニそれ？　[#魔女]じゃなくて？
+[k]
+
+＠[F4906D]？？？
+[F4906D]自分から未熟を認めるなんて……恥ずかしくない？[r][F4906D]そんなの単なる[#なり損ない]だわ。それに[line 3]。
+[k]
+
+＠[F4906D]？？？
+[F4906D]わ、私には……魔法の才能なんて、無いし……[r][F4906D]ほんのすこし魔道書が読めるだけ……。
+[k]
+
+＠[FFE3B6]？？？
+[FFE3B6]あら、何言ってるの？　それもりっぱな魔法だわ！[r][FFE3B6]あたしにはとうていムリムリ！　すぐつっかえちゃうし！
+[k]
+
+＠[F4906D]？？？
+[F4906D]自信たっぷり否定しない！　本当におばかなんだから……[r][F4906D]最初からあきらめてちゃしょうがないでしょっ……。
+[k]
+
+＠[F4906D]？？？
+[F4906D]ちゃんと魔法を使いこなしたいんだったら、[r][F4906D]まずはルーン文字の読み方から、しっかりと勉強を[line 3]。
+[k]
+
+＠[FFE3B6]？？？
+[FFE3B6]べんきょ～う……？　あっ、ごめんごめん。[r][FFE3B6]ちゃんとがんばりまーす。
+[k]
+
+＠[F4906D]？？？
+[F4906D]もう……。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_33 3.0]
+[fadeout black 3.0]
+[wait fade]
+[charaEffectStop C bit_talk_yume01]
+[charaPut C 1200,1200]
+
+[fadein black 0.5]
+[wait fade]
+
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+
+[fadein white 1.0]
+[wait fade]
+
+
+
+[fowardEffect bit_queststart80025_01]
+[wait fowardEffect bit_queststart80025_01]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+
+
+[bgm BGM_EVENT_32 0.1]
+[fadein black 2.0]
+[wait fade]
+[wipeout circleIn 1.0 1]
+[wait wipe]
+
+[scene 31500]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠？？？
+……先輩。先輩。[r]しっかりしてください。
+[k]
+
+＠？？？
+寝ている場合ではありません。[r]起きないと……（ムニャムニャ）します。いいんですか。
+[k]
+
+＠？？？
+実行には、わたしの全身全霊、大いなる蛮勇をもって[r]挑まなければいけませんが、致し方ありません。
+[k]
+
+＠？？？
+いいのですね？[r]本当に[line 3]（ムニャムニャ）しますよ？
+[k]
+
+？1：なにそれ怖い。起き[&よう:る]
+
+
+
+[messageOff]
+[fadeMove black 0.1 0.4]
+[wt 0.1]
+[wipein circleIn 0.7 1]
+[wait wipe]
+[wipeout circleIn 0.7 1]
+[wait wipe]
+[fadeMove black 0.1 0.0]
+[wt 0.2]
+
+[wipein circleIn 2.0 1]
+[wait wipe]
+
+＠マシュ
+おはようございます。[r]爽やかな覚醒、それでこそ先輩です。
+[k]
+
+＠マシュ
+場所を選ばない[#レムレム:いねむり]状態から、[r]潜水艦の緊急浮上を彷彿とさせる屹立……
+[k]
+
+＠マシュ
+ここまで成長されるとは、[r]わたしもウカウカしてはいられません。
+[k]
+
+＠マシュ
+やはり今度、清姫さんに[#転身火生起床術:アツアツめざましタイム]を[r]教わらざるをえないようです。
+[k]
+
+？2：……ｚｚｚ（してもらおうじゃ[&ないか:ない]）
+
+＠？？？
+………………む。[r]実はこっそり起きていますね、先輩。
+[k]
+
+＠？？？
+就寝中の先輩は、夢見るフォウさんのように[r]耳がふにふにと動きますから、すぐにわかります。
+[k]
+
+＠？？？
+……………………。[r]…………………………先輩？
+[k]
+
+＠？？？
+今の発言は、ちょっとしたおふざけです。[r]今さら顔面の皮下筋肉を鍛えようとしても無意味なので。
+[k]
+
+＠？？？
+そういう努力を惜しまない先輩は、その、[r]ある意味、尊敬しますが……今は別の努力を。
+[k]
+
+[charaFace A 13]
+[messageOff]
+[fadeMove black 0.1 0.4]
+[wt 0.1]
+[wipein circleIn 0.7 1]
+[wait wipe]
+[wipeout circleIn 0.7 1]
+[wait wipe]
+[fadeMove black 0.1 0.0]
+[wt 0.2]
+
+[wipein circleIn 2.0 1]
+[wait wipe]
+
+＠マシュ
+……やっと起きられましたね。
+[k]
+
+？！
+
+[charaFace A 0]
+＠マシュ
+……どうやら恒例の突発的なレイシフトです。[r]わたしたち二人だけ……のようですが。
+[k]
+
+＠マシュ
+なんというか、初めて見る景色です。
+[k]
+
+？1：[&おお:わあ]……たしかに、変わった風景だね
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。これまでも色々な時代を訪れましたが、[r]もはや地球かどうかすら……
+[k]
+
+[charaFace A 12]
+＠マシュ
+まるで異世界？　のようです。[r]なんだか落ち着きません。
+[k]
+
+？1：周囲の状況を確認しよう
+
+[charaFace A 7]
+＠マシュ
+そうですね。[r]警戒しつつ周囲を探索しましょう。
+[k]
+
+[charaFace A 12]
+＠マシュ
+サーヴァントの皆さんならともかく、[r]フォウさんまで巻き込まれていないか心配です。
+[k]
+
+？2：カルデアに連絡を
+
+[charaFace A 8]
+＠マシュ
+それが……[r]いくら通信を試みても反応が無くて……。
+[k]
+
+[charaFace A 14]
+＠マシュ
+わたしたちがカルデアから消えた、と[r]まだ認識されてないのでしょうか？　だとしても……。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_32 0.3]
+
+＠B：？？？
+キャ[line 3]
+[k]
+
+[se ad75]
+
+[charaFace A 6]
+＠マシュ
+おや[line 3]あちらで何か物音が。[r]フォウさん……ではない、陽気な声が[line 3]
+[k]
+
+＠B：？？？
+キャー　どいてくださーい！
+[k]
+
+[charaFace A 5]
+＠マシュ
+[line 3]！？[r]マスター、危ない！！
+[k]
+
+[se ad74]
+[charaFace A 14]
+[charaShake A 0.05 3 3 0.5]
+
+＠マシュ
+[line 3]はうっ
+[k]
+
+[messageOff]
+[se ad144]
+[charaFadeout A 0.4]
+
+？1：ちょ、マシュ！？　顔面激突？
+？！
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+大丈夫です（涙）[r]シールダーです……っ（涙）
+[k]
+
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_34 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[charaShake B 0.07 0 16 1.0]
+＠B：？？？
+あらあらー、わたしったら出会い頭の濃厚な顔面☆激突！[r]申し訳ありませんー！
+[k]
+
+？1：喋る……ステッキ？
+
+？！
+
+[charaShake B 0.07 0 8 1.0]
+＠B：？？？
+おやおや？　なかなかの魔力反応？[r]ひょっとして、あなたがたも[#異邦人:よそのひと]ですかー？
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠B：？？？
+ややーこれはツイてますねー！[r]それならぜひ、お助け願いたいんですけどー？
+[k]
+
+
+？1：えっと、なにか困りごと？
+
+[charaShake B 0.07 0 8 1.0]
+＠B：？？？
+ハイ！　そーなのです。
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠B：？？？
+と～っても怖い人に追われておりまして！[r]バトルの最中にバヒューンとブッ飛ばされました！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[#戦い:バトル]……！？　この平和そうな地に敵が？[r]あの、あなたはいったい……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[charaShake B 0.07 0 8 1.0]
+＠？？？
+気になりますか～？[r]わたしの魔性にメロメロですかー？
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠？？？
+しからばお教えいたしましょう！[r]何を隠そう、このわたし[line 2]！
+[k]
+
+
+？2：というか、きみはいったい何者？
+
+[charaShake B 0.07 0 16 1.0]
+＠？？？
+あ！　聞いちゃいます？[r]それ聞いちゃいますぅ～？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+なんだかものすごく嬉しそうです……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[charaShake B 0.07 0 16 1.0]
+＠？？？
+しからば名乗りを上げましょう！[r]魔性の人工天然精霊、その名も[line 3]！
+[k]
+
+？！
+
+
+[se ad139]
+[effect bit_talk_41]
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+愛と正義のマジカルステッキ[r]マジカルルビーちゃんです！　イッツミー！
+[k]
+
+[effectStop bit_talk_41]
+[wt 0.2]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+あ、先ほどは顔面失礼いたしました（ぺこり）
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+＠マシュ
+いえ、それはもう[line 3]
+[k]
+[charaFace A 7]
+[bgmStop BGM_EVENT_34 0.3]
+……ッ！！
+[k]
+
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[se bac37]
+[shake 0.05 0 4 1.5]
+[effect bit_talk_29]
+[wait se bac37]
+
+
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.4 1]
+[wt 0.5]
+
+＠C：？？？
+あら、ステッキのほうだった？[r]まだ生きてたの？
+[k]
+
+
+[charaFace C 13]
+＠C：？？？
+ずいぶん頑丈なのねー。[r]宝石魔術系の礼装は、伊達じゃないってとこかしら。
+[k]
+
+？1：いきなり攻撃魔術をぶつけてきた！？
+？！
+
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……！？　しかも、空を飛んで……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+このピンク髪ですよー！[r]わたしをマスターごとブッ飛ばしてくれたのは！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+[#ＷＡＲＮＩＮＧ:わーにん]！　[#ＷＡＲＮＩＮＧ:わーにん]です！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+[soundStopAll]
+[end]

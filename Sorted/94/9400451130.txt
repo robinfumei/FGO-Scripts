@@ -1,0 +1,478 @@
+
+＄94-00-45-11-3-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 7023001 1 源頼光]
+[charaSet D 98002000 1 フォウ]
+[charaSet E 4023001 1 坂田金時]
+[charaSet F 6021001 1 酒呑童子]
+[charaSet G 7022001 1 茨木童子]
+[charaSet H 4014001 1 牛若丸]
+
+
+[scene 27910]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+
+＠茨木童子
+くっ……！　こやつら、諦めが悪い！[r]羅生門の時といい、今回もかッ！
+[k]
+
+＠茨木童子
+今回も[#吾:われ]の動きに対応しおる！[r]強くはないが、戦法の幅が広すぎるわ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+
+[charaFace G 2]
+[charaFadein G 0.1 2]
+
+＠酒呑童子
+まずいなあ……うちら圧されてるわぁ……[r]ちょいと本性、出すしかないかなぁ？
+[k]
+
+[charaTalk G]
+
+＠茨木童子
+ならん！[r]酒呑の本性など人間なんぞに見せてたまるか！
+[k]
+
+[charaTalk G]
+[charaFace G 5]
+
+＠茨木童子
+かくなる上は[#吾:われ]が再び大鬼になろう！[r]酒呑、あの杯を[#吾:われ]に！
+[k]
+
+[charaTalk F]
+[charaFace F 4]
+
+＠酒呑童子
+んー……茨木がそう言うなら止めはせえへんけども。[r]ほれ、使いや。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、あのお酒です！[r]いま茨木童子に羅生門の時の鬼になられたら……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+させねぇよ、その杯ごと真っ二つだ茨木ィ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠茨木童子
+届かぬわ、足柄の猿が！[r]身軽さで[#吾:われ]に敵うと思うてか！
+[k]
+
+＠茨木童子
+待っていろ、今回は前の二倍、いや三倍の[r]酒を飲み干してくれる！
+[k]
+
+＠茨木童子
+貴様らの作り話において、[r]鬼ヶ島に住み着いた鬼の首魁は[#温羅:うら]だったか？
+[k]
+
+＠茨木童子
+身の丈一丈四尺は超える大鬼だというのではないか！[r]見るがいい、[#吾:われ]もその程度には[line 3]
+[k]
+
+[charaTalk F]
+
+＠酒呑童子
+茨木！　後ろや、かがめ！[r][#首]、[#飛ぶで]！
+[k]
+
+
+[charaPut B 0,200]
+
+[se bac5]
+[charaEffect B bit_talk_12]
+
+
+[se ad73]
+
+[charaFace G 2]
+
+[charaMove G 0,-200 0.1]
+
+
+
+
+
+[charaTalk G]
+
+＠茨木童子
+[line 2]にゃんとォ！
+[k]
+
+
+
+
+
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠？？？
+あら……かわされましたか。残念です。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+あ、あなたは……この前の！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+
+[charaFace F 4]
+[charaFadein F 0.1 0]
+
+＠茨木童子
+貴様はッ……！
+[k]
+
+[charaTalk F]
+
+＠酒呑童子
+……やっぱりなあ。[r]あんたはんが出てくる頃やと思ったわ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+……まさかとは思ったがよ。[r]なんでアンタがここにいやがる、[#頼光の大将]！
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+[#頼光:らいこう]……いや、[#源頼光:みなもとのらいこう]かい！？[r]金時くんが四天王として仕えたという！？
+[k]
+
+＠Dr.ロマン
+あれ、でも女性だよ、すごい美女だよ、とんでもない[r]お体ですよ！？　史実とあまりにも違くないか！？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+ドクター、お気持ちは分かりますが黙って！[r]そのあたりはまた後ほど！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+
+＠源頼光
+いけません金時。いつも言っているでしょう。[r]皆さんといる時は礼儀正しい言葉を使いなさい、と。
+[k]
+
+＠源頼光
+それに……ここにいやがる、とはあんまりな物言い。[r]まるで私が厄介者のようではありませんか。
+[k]
+
+[charaFace C 4]
+
+＠源頼光
+……もし。
+[k]
+
+＠源頼光
+もし、本当にそんなことを思っているのだとしたら……[r]母は……泣いてしまいますよ……？
+[k]
+
+？1：……母？
+？2：お母さんを泣かせるのはよくないと思います！
+？！
+
+[charaTalk B]
+
+＠Dr.ロマン
+続けての問題発言だな！
+[k]
+
+＠Dr.ロマン
+平安時代最強の神秘殺し、日本でもっとも高名な[r]退魔の武人が女性ってだけでも信じられないのに、
+[k]
+
+＠Dr.ロマン
+いま、そのご婦人はなんと言ったのかな？[r]金時くん、キミとの関係は……！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+勿論、実の母親じゃねぇよ。
+[k]
+
+＠坂田金時
+オレっちを引き取って育ててくれた、[r]大恩あるひとなのは確かなんだが[line 2]
+[k]
+
+[charaFace E 7]
+
+＠坂田金時
+頼光の大将は最初からこうなんだよ。[r]『私は姉ではなく、母として貴方を鍛えます』ってな。
+[k]
+
+[charaFace E 0]
+
+＠坂田金時
+ま、だから、あれだ。
+[k]
+
+＠坂田金時
+義理の母親みてーなものではあるっつーか、[r]武芸の師でもあるっつーか……。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+[charaShake C 0.1 3 3 99]
+
+＠源頼光
+そんな……義理だなんて。[r]母はそんな風に貴方を育てた覚えはありません……
+[k]
+
+[charaShakeStop C]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+な、涙目でぷるぷるしてらっしゃるんですけど！[r]金時さん、何かフォローされたほうがよいのでは？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFadein D 0.1 1]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+
+[charaFace C 4]
+[charaFadein C 0.1 0]
+
+[charaShake C 0.1 3 3 99]
+
+＠坂田金時
+あー、別に迷惑じゃねえよ迷惑じゃ！[r]むしろ久しぶりに会えて嬉しいっつうの、頼光の大将！
+[k]
+
+[charaShakeStop C]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+
+＠源頼光
+まあ。金時、嬉しいことを言ってくれますね。
+[k]
+
+＠源頼光
+うふふ、母もです。[r]元気な貴方の姿が見られて幸せですよ。
+[k]
+
+[charaFace C 5]
+
+＠源頼光
+[line 3]本当。その周りに、目障りな虫が飛び回って[r]いなければ、さらに幸せだったのですが。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠酒呑童子
+相変わらずやなあ、頼光。[r]子離れできん母親は嫌われんで？
+[k]
+
+＠酒呑童子
+ま、その苦悩も今回までのようやけど。[r]あんたはん、いよいよ、
+[k]
+
+[charaTalk G]
+
+
+＠茨木童子
+酒呑！
+[k]
+
+[messageOff]
+
+
+[se bac5]
+[effect bit_talk_12]
+
+[se ad73]
+
+[charaFace F 1]
+
+[charaMove F -500,0 0.1]
+
+
+[wt 0.7]
+
+
+[charaFadeout F 0.1]
+
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠源頼光
+虫と言の葉を交わす気はありません。[r]消えなさい、[#疾:と]く消えなさい。
+[k]
+
+＠源頼光
+[line 2]誅伐、執行！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+は、始まってしまいました！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠坂田金時
+オレたちも行くしかねぇな。
+[k]
+
+＠坂田金時
+心配すんな、大将の腕前だけは保証すらぁ。[r]百人力も千人力も生温ィ[line 2]万人力だぜ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠牛若丸
+あれが頼光殿……[r]ならばあの太刀筋も納得です。
+[k]
+
+＠牛若丸
+金時殿に加え、頼光殿とも[r]肩を並べて戦える日が来るとは！
+[k]
+
+[charaFace H 2]
+
+＠牛若丸
+源の一員として恥ずかしいところは見せられません。[r]牛若丸、参ります！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

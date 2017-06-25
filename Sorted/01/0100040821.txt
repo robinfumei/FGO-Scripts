@@ -1,0 +1,255 @@
+＄01-00-04-08-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10960 0]
+[wipeFilter circleIn 0.4 1.0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 6007002 1 ハイド]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘終了です、先輩。[r]お疲れさまでした。
+[k]
+
+＠Dr.ロマン
+周囲にヘルタースケルターはいないみたいだけど、[r]代わりに厄介なものが出て来たねえ……。
+[k]
+
+？1：あの外観って……。
+
+？2：見覚えのある形だったね。
+
+？！
+
+[charaFace A 15]
+＠マシュ
+はい、先輩。敵性体の形状は[r]ソーホーで遭遇した魔本に酷似していましたね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ですが、あの時とは違って攻撃が通用しました。[r]アンデルセンさんが名を与えることもなく、ごく単純に、
+[k]
+
+＠マシュ
+通常の攻撃のみで対処が可能でした。[r]形状変化もなく……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠モードレッド
+前に来た時は、あんなのいなかったぜ。[r]ふわふわした本なんざ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠ジキル
+いいかな。予想ではあるけど、あれは多分、[r]魔術書の類が変質してしまったものだと思うんだ。
+[k]
+
+＠ジキル
+地下の魔術協会に秘蔵されていたものが、[r]魔霧の影響を受けることでああなったのかも知れない。
+[k]
+
+＠Dr.ロマン
+（あっ……。[r]　ボクも同じこと思ったんだけど先に言われた……）
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk H]
+[charaFace D 0]
+[charaFace H 0]
+[charaFadein D 0.1 0]
+[charaFadein H 0.1 2]
+＠アンデルセン
+……本が群れを成して襲って来る、か。
+[k]
+
+[charaFace D 4]
+＠シェイクスピア
+……悪夢、もしくは地獄の如き様相でしたな。
+[k]
+
+[charaFace H 5]
+＠アンデルセン
+馬鹿を言え。[r]あんなものは、別にどうということも……
+[k]
+
+[charaFace H 4]
+＠アンデルセン
+…………。
+[k]
+
+＠シェイクスピア
+…………。[r]……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠モードレッド
+ははっ、なんだよ作家ども。[r]今までみたいにぺらぺら喋らねーのか？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk H]
+[charaFace D 4]
+[charaFace H 2]
+[charaFadein D 0.1 0]
+[charaFadein H 0.1 2]
+＠アンデルセン
+……我慢しているだけだ。いいや、やめだ。やめ！[r]ああ気持ち良かった！　最高の気分だ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠モードレッド
+ん？？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFace H 1]
+[charaFadein D 0.1 0]
+[charaFadein H 0.1 2]
+＠シェイクスピア
+本を灼く！　それは有り得ざる行いに他なりません！[r]嗚呼、嘆かわしい……しかし、そこには一縷の甘美あり！
+[k]
+
+＠シェイクスピア
+決して行ってはならない悪行、許されざる蛮行！[r]そこには哀しみしかないはずであるのに[line 3]
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+吾輩はこの瞬間にわずかに一縷、[r]背徳の甘美を感じざるを得ません！　おお、神よ！
+[k]
+
+[charaFace H 2]
+＠アンデルセン
+俺以外の著者の作品など存在せずとも構わん。[r]ああ、もっと言えば俺の著作さえも灼き尽くしたいぞ！
+[k]
+
+[charaFace H 1]
+＠アンデルセン
+本が世界になければ！[r]数多の名著を生涯で読みきれないと嘆くこともない！
+[k]
+
+＠アンデルセン
+本が世界になければ！[r]なんだこのゴミはいい加減にしろと憤ることもない！
+[k]
+
+[charaFace H 2]
+＠アンデルセン
+本が世界になければ！[r]ついぞ俺が〆切に追われることもない！
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+なんと正直な御方か……！[r]嗚呼、しかし、しかしその言葉は吾輩の胸を打つ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[charaTalk C]
+[charaFace E 3]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+＠フォウ
+フォ、フォーウ……。
+[k]
+
+＠モードレッド
+な、なんだこいつら……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジキル
+何か凄いね……[r]本当に……
+[k]
+
+？1：作家というのは歪んでいるんだなあ
+
+？2：作家というのは自己矛盾の生物なのかな…
+
+？！
+
+[charaFadeout G 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+と、ともかく、先輩。[r]わたしたちの行く道はお陰ではっきりしましたね。
+[k]
+
+＠マシュ
+[#書籍:ブック]型の敵性体が出現した際に、[r]地下階層への入口が偶然にも形成されましたから[line 3]
+[k]
+
+＠Dr.ロマン
+そうだね。作家英霊たちが落ち着いたら、[r]早速、地下へ侵入だ！
+[k]
+
+＠Dr.ロマン
+わくわくするなあ。[r]言わば、魔術協会の本部みたいなものだろうし。
+[k]
+
+＠Dr.ロマン
+一体どんな風になってるんだろうねえ。[r]ああ、ボクもその場に行って目の当たりにしたいよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+じゃ、おまえも来いよ。[r]声だけじゃなくて。
+[k]
+
+＠Dr.ロマン
+ボ、ボクはその……ほら……[r]観測とかカルデアの維持とかいろいろあるからほら……
+[k]
+
+＠Dr.ロマン
+よ、よーし！[r]引き続き観測がんばっちゃうぞー！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ、キュキュ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

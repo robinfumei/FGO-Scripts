@@ -1,0 +1,226 @@
+＄91-10-09-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10913]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 1009001 1 モードレッド]
+[charaSet D 98002000 1 フォウ]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠モードレッド
+よし、勝った！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠マシュ
+今のシャドウサーヴァントは……[r]名も無き王のようですね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+歴史に名を刻むほどではなく、[r]武勇も確かではない。
+[k]
+
+＠マシュ
+ただ、王であるという自我によって彷徨っていた[r]亡霊というところでしょうか。
+[k]
+
+[charaFace C 4]
+＠モードレッド
+ったく。それのどこが王だっつーの。[r]自称して王になれる訳じゃねえってのに。
+[k]
+
+[charaFace C 0]
+＠モードレッド
+……ま、いいか。[r]幽霊を斬りまくったせいで、コツも掴めたし。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うん。生体反応は完全に消失した。[r]これで特異点として顕現することもないだろう。
+[k]
+
+＠Dr.ロマン
+帰還してくれても問題ないよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠モードレッド
+じゃ、帰ろうぜ。マスター。
+[k]
+
+[charaFadeout C 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_2 0.7]
+[wait effect bit_talk_06]
+[effect bit_talk_07_02]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[wt 1]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[fadein black 1]
+[wait fade]
+[se ad50]
+[wt 0.5]
+？1：はい？
+
+＠モードレッド
+オレだ、ちょっといいか？
+[k]
+
+？2：マシュ？
+
+＠モードレッド
+違ぇよ、バカ。[r]オレだ、オレ。
+[k]
+
+？！
+
+[se ad8]
+[wt 0.5]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.7 1]
+＠モードレッド
+悪ィ、ちっと勝手に喋るから。[r]そっちは適当に答えてくれ。
+[k]
+
+[charaFace C 4]
+＠モードレッド
+……マスターさあ。[r]オレが王になれると思うか？
+[k]
+
+？1：分からない
+
+？2：どうだろう
+
+？！
+
+＠モードレッド
+……ま、そうだよな。
+[k]
+
+[charaFace C 5]
+＠モードレッド
+オレはオレ自身が王として相応しいと思っていた。[r]だが[line 2]アーサー王は、父上はそれを拒絶した。
+[k]
+
+[charaFace C 4]
+＠モードレッド
+「貴公には、王としての器がないからだ」とな。
+[k]
+
+＠モードレッド
+そうして死んだオレは、それが認められなかった。[r]アーサー王はオレを憎んでいるのだと。
+[k]
+
+＠モードレッド
+姉であるモルガンの手で孕まされた自分を、[r]この上なく憎んでいるんだろうと[line 2]。
+[k]
+
+[charaFace C 0]
+＠モードレッド
+ま、そんなことを思っていた訳さ。
+[k]
+
+＠モードレッド
+だが、その後……本当に様々な出来事が目まぐるしく[r]起きて、オレは王になろうとするのを諦めた。
+[k]
+
+[charaFace C 5]
+＠モードレッド
+いいか、マスター。古来から王ってのは、[r]自分勝手なものってのが当たり前だった。
+[k]
+
+＠モードレッド
+そいつらは欲しいものがあって、王になった。[r]財宝、土地、権力、あるいは誇り。
+[k]
+
+＠モードレッド
+そして他人を巻き込み、夢を囁き、[r]夢に向かって邁進する[line 2]。
+[k]
+
+[charaFace C 0]
+＠モードレッド
+オレの王は、そういうものじゃなかった。[r]多くの人が笑うために、その身命を捧げたんだ。
+[k]
+
+＠モードレッド
+……オレは、どんな王よりも騎士王の志を[r]尊いと思うし、正しいと思う。
+[k]
+
+[charaFace C 5]
+＠モードレッド
+だからそのつまり、[#魔術王:・・・]なんて[r]名乗るような連中に負けやしねえ。
+[k]
+
+＠モードレッド
+絶対に。[r]絶対に[line 2]だ。
+[k]
+
+[charaFace C 3]
+＠モードレッド
+……おい、この話を触れ回るなよ？
+[k]
+
+＠モードレッド
+恥ずかしい話だ、円卓の騎士が他にいるときは[r]絶対に話題に出すなよ？
+[k]
+
+＠モードレッド
+いいか、喋るなよ！[r]絶対に喋るなよ！
+[k]
+
+＠モードレッド
+じゃあな！
+[k]
+
+[se ad8]
+[wt 0.5]
+[charaFadeout C 0.4]
+[wt 1]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.7 1]
+＠フォウ
+モキュキュ……。
+[k]
+
+？1：フォウが楽しそう
+
+？2：フォウが嬉しそう
+
+？！
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout D 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

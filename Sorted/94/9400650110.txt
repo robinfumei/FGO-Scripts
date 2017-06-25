@@ -1,0 +1,273 @@
+
+＄94-00-65-01-1-0
+
+
+
+
+
+
+
+
+
+[soundStopAll]
+[bgm BGM_EVENT_34 0.1]
+[charaSet A 98001000 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102400 1 イリヤ]
+[charaSet D 7016001 1 偽タマモキャット]
+[charaSet E 7016001 1 偽タマモキャットd]
+[charaPut E 0,-250]
+
+[scene 31000]
+[fadein black 2.0]
+[wait fade]
+
+[wt 0.4]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+＠イリヤ
+あれっ？　えっとここは……？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+ややややー？　そこはかとなく[r]本筋から離れたメタいアトモスフィアです？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+たしかに若干能天気なムードを感じます[line 3][r]ドクターに調査を依頼しますか、マスター？
+[k]
+
+[bgmStop BGM_EVENT_34 1.5]
+
+＠D：？？？
+それには及ばないワン……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.7 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠D：？？？
+疲れた朝には糖分がキク。脳ニ。[r]でもザンネン、めぼしい砂糖が見当たらヌ。
+[k]
+
+＠D：？？？
+そんなアタシの前にまろび出たオマエは蜂蜜の如き[r]優しさ・甘さ・エロさを兼ね備えているときタ。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+ぬう、まさにネコまっしぐラ！[r]ピンク色のケーキをいただこウ！
+[k]
+
+[bgmStop BGM_EVENT_5 0.3]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+
+[wt 0.3]
+
+[bgm BGM_EVENT_32 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 3]
+[charaFadein C 0.1 2]
+＠イリヤ
+な、なんか出た……！？
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+殺伐とした魔法界にアルコな生き物が！！[r]しかもサーヴァントのようでサーヴァントでない……？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+彼女もまた魔法少女……なのでしょうか？
+[k]
+
+？1：あれは名も無きザコエネミー[&だ:だよ]
+
+[charaFadeout A 0.1]
+
+[charaShadow E true]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽タマモキャット
+ニャンたるチワ！　ザコとか失礼だワン！
+[k]
+
+[charaFace D 0]
+＠偽タマモキャット
+[#雑魚:ザコ]という名のお魚などいなイ！[r]美味しければそれでイイギョ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠イリヤ
+秒で進化する語尾に[r]もう追いついていけません！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽タマモキャット
+うむ、我は退かぬ、媚びぬ、よく食べル！[r]アタシも時々ブレーキを踏み間違えル。
+[k]
+
+[charaFace D 5]
+＠偽タマモキャット
+まあ、キャットカーには[#加速:アクセル]ペダルと[r][#上昇:ジャンプ]ペダルしか付いていないワケだガ。
+[k]
+
+？2：ただの野良キャット[&だ:だね]。ドクターの魂を賭ける
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽タマモキャット
+グッド！　ノーグッド！[r]うおおおどっちだ、頭いいなオマエ！
+[k]
+
+[charaFace D 5]
+＠偽タマモキャット
+ともあれ訂正していただきたい、その[#宣言:ベット]。[r]なにしろ九尾業界でもいま話題沸騰！
+[k]
+
+＠偽タマモキャット
+タマモナイン会議において、ジーニアス魔法少女役として[r]抜擢されたのがアタシなのだナ。
+[k]
+
+？！
+
+[charaFace D 6]
+＠偽タマモキャット
+んー、つまり何が言いたいかと言うとだな、ご主人。
+[k]
+
+[charaFace D 0]
+＠偽タマモキャット
+アタシこそネコ科最強の魔法少女。[r][#偽]とかついてるけど気にするナ。
+[k]
+
+＠偽タマモキャット
+これはあれ、閉店間際のお魚パックに[r]書かれた値落ちサインと呼ばれるもの故。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaShadow E false]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+…………（じぃー）
+[k]
+
+[charaFace A 6]
+＠マシュ
+……やはりなにか様子がおかしいような。[r]キャットさんにしては会話に一貫性があります。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠イリヤ
+え。これで？　ホントに？
+[k]
+
+？1：ちょっと戦ってみよう
+？！
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+流れ的にそれが最善な気もしてきました。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_32 0.4]
+[wt 0.7]
+[bgm BGM_EVENT_3 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShadow E true]
+[charaFadeTime E 0.1 0.1]
+＠偽タマモキャット
+ニャンだと……[r]ニンジンケーキで手を打つと言ってるのニ……
+[k]
+
+[charaFace D 2]
+＠偽タマモキャット
+どいつもこいつもタマモタマモタマモ！[r]なぜキャットを認めヌ！　特効とか増量よろしク！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

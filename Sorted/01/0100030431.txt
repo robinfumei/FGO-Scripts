@@ -1,0 +1,175 @@
+＄01-00-03-04-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21510 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 98006300 1 正体不明人型]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 8]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+もう……まったく。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+右か、左か……直感、左！
+[k]
+
+？1：勘でいいのかな
+
+[charaFadeout D 0.1]
+[charaFadeout A 0]
+[wt 0.5]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+よくありませんが……。[r]ドレイク船長は一流の海賊です。
+[k]
+
+[charaFace A 12]
+＠マシュ
+一流の海賊なら、その直感も鋭敏でしょう。[r]……た、多分。
+[k]
+
+？2：入口覚えてる？
+
+[charaFadeout D 0.1]
+[charaFadeout A 0]
+[wt 0.5]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+大丈夫です、念のために記録しています。[r]忘れることはありませんが……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+あくまで、それは来た道を戻るだけの記憶です。[r]はぐれたりしたら、大変なことになります。
+[k]
+
+？！
+
+[charaFace A 1]
+＠マシュ
+……そうだ。[r]マスター、手を繋ぎましょう。
+[k]
+
+＠マシュ
+ここで万が一はぐれると、大変です。[r]手を繋げておけば普通ははぐれませんから。
+[k]
+
+？1：ちょっと恥ずかしいな……
+
+？2：そこまでしなくても……
+
+？！
+
+[charaFace A 7]
+＠マシュ
+……あの。気持ちはわかりますが、[r]恥ずかしがっている場合ではありません、マスター。
+[k]
+
+＠マシュ
+万が一はぐれたら、[r]死ぬまでこの迷宮を彷徨う可能性もあるんです。
+[k]
+
+[charaFace A 13]
+＠マシュ
+多少の気恥ずかしさはあるかもしれませんが、[r]それで万が一を防げるのですから。
+[k]
+
+？1：マシュも恥ずかしい？
+
+[charaFace A 3]
+＠マシュ
+……ノ、ノーコメント、です。
+[k]
+
+？2：恥ずかしくはないけど
+
+[charaFace A 3]
+＠マシュ
+そ、それは結構です。[r]……わたしは、少しだけ恥ずかしい……気もします。
+[k]
+
+？！
+
+＠マシュ
+ともかく、手を握ることが必然であることは[r]立証されました。可決もしました。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それでは、失礼します。
+[k]
+
+[charaFadeout A 0.4]
+＠マシュ
+…………そう言えば、あの時も[line 2][r]こうして、手を握ってくれましたね。
+[k]
+
+＠マシュ
+今となっては、懐かしい思い出のような気がします。[r]まだそれほど時間は経っていないのに。
+[k]
+
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ、フォウ！
+[k]
+
+[charaFadeout C 0]
+[charaTalk D]
+[charaFadein C 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ドレイク
+ん？　ちょっと待ちな。[r]……何か、臭うな。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+何ですか？
+[k]
+
+[charaFace D 5]
+＠ドレイク
+血。
+[k]
+
+＠ドレイク
+……ま、商売上どうしても嗅ぎ慣れるからね。[r]こういうのは。
+[k]
+
+[charaFace A 6]
+＠マシュ
+見てください。点々と続いています。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+傷そのものは、大したものじゃなさそうだね。[r]掠り傷ってとこだ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+唯一の手掛かりです。[r]追ってみましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

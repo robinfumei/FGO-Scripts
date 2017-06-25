@@ -1,0 +1,1332 @@
+＄01-00-08-15-1-0
+
+
+
+
+
+
+[charaSet A 9938800 1 魔神アンドロマリウス]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 8001002 1 マシュ]
+[charaSet D 11002001 1 巌窟王]
+[charaSet E 11003001 1 ジャンヌ・オルタ]
+[charaSet F 9002001 1 天草四郎]
+[charaSet G 3012001 1 ブリュンヒルデ]
+[charaSet H 4002001 1 イスカンダル]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_3 0.1]
+
+[scene 36100]
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+
+
+[seLoop ad14]
+[seVolume ad14 0 0.7]
+＠魔神アンドロマリウス
+起動せよ。起動せよ。[r]廃棄孔を司る九柱。即ち、
+[k]
+
+＠魔神アンドロマリウス
+ムルムル。グレモリー。オセ。アミー。[r]ベリアル。デカラビア。セーレ。ダンタリオン。
+[k]
+
+[se ad63]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wt 0.4]
+
+＠魔神アンドロマリウス
+我ら九柱、欠落を埋めるもの。[r]我ら九柱、不和を起こすもの。
+[k]
+
+＠魔神アンドロマリウス
+無念なりや、無常なりや。
+[k]
+
+＠魔神アンドロマリウス
+我ら“七十二柱の魔神”を以てして、[r]この構造を閉じる事叶わず……！
+[k]
+
+[charaFadeout A 0.4]
+[seStop ad14 0.2]
+[wt 0.1]
+[messageOff]
+[wt 0.2]
+
+[messageOff]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+[line 3]八つ目の拠点だって！？[r]なんて事だ、ここの存在は予測外だ！
+[k]
+
+＠Dr.ロマン
+加勢に来てくれた英霊たちは[r]七つの聖杯、七つの特異点で因果を結んだものだが、
+[k]
+
+＠Dr.ロマン
+ここにはその“縁”がない！[r]我々だけで、ここの九柱を制圧しなくてはならない……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠マシュ
+それは[line 3]玉座攻略を残したこの状況で、[r]マスターにこれ以上の負担は[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[seLoop ad14]
+[seVolume ad14 0 0.7]
+＠魔神アンドロマリウス
+そうだ。滅びるがいい最後のマスターよ。[r]貴様が玉座に辿り着く事はない。
+[k]
+
+＠魔神アンドロマリウス
+ここには何もない。[r]我らには何もない。
+[k]
+
+＠魔神アンドロマリウス
+未来も。過去も。因果も。希望も。[r]人が神と名付けた奇蹟すらも。
+[k]
+
+＠魔神アンドロマリウス
+あらゆるものがここでは無価値となった。[r]あらゆるものが不要だと廃棄された。
+[k]
+
+＠魔神アンドロマリウス
+それがこの領域だ。[r]誰一人として[#人間:おまえたち]を助けない死の島だ。
+[k]
+
+＠魔神アンドロマリウス
+膝を折るがいい。顔を伏せるがいい。[r]絶望すら、する必要はない。
+[k]
+
+＠魔神アンドロマリウス
+ここは誰もが[#諦観:ていかん]し、投げ捨てる“意志の終わり”。[r]誰一人として、おまえの名を呼ぶ者のいない[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[seStop ad14 0.2]
+[wt 0.3]
+
+＠D：？？？
+ハ。ハハハ。[r]クハハハハハハハハハハハハハハハハハハハ！
+[k]
+
+[charaTalk A]
+[charaDepth A 1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+＠魔神アンドロマリウス
+！　霊基反応、彼方より超々高速で接近！？[r]馬鹿な、何者か[line 3]！
+[k]
+
+[seStop ad14 0.2]
+[wt 0.3]
+
+
+＠D：？？？
+笑わせるな、廃棄の末に絶望すら忘れた魔神ども！[r]貴様らの同類になぞ、その[&男:娘]がなるとでも！
+[k]
+
+[bgmStop BGM_EVENT_3 2.0]
+
+[messageOff]
+
+？1：この声は……！
+？2：この（笑い）声は……！
+
+？！
+
+[charaFadeout A 0.7]
+[wt 1.0]
+[bgm BGM_BATTLE_18 0.0]
+
+＠D：？？？
+そうだ！
+[k]
+
+＠D：？？？
+この世の果てとも言うべき末世、[r]祈るべき神さえいない事象の地平！
+[k]
+
+＠D：？？？
+確かに[#此処:ここ]は何人も希望を求めぬ[#流刑:るけい]の地。[r]人々より忘れ去られた人理の外だ。だが[line 3]
+[k]
+
+[wt 0.3]
+[messageOff]
+
+[charaTalk D]
+[charaFace D 2]
+[charaDepth D 2]
+[charaFadein D 0.7 1]
+＠巌窟王
+だが！[r]俺を呼んだな、[%1]！
+[k]
+
+＠巌窟王
+ならば俺は虎の如く時空を駆けるのみ！[r]我が名は復讐者、[#巌窟王:がんくつおう]エドモン・ダンテス！
+[k]
+
+＠巌窟王
+恩讐の彼方より、わが共犯者を笑いにきたぞ！
+[k]
+
+？1：巌窟王……！
+？2：監獄塔の人……！
+
+？！
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaDepth E 1]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+
+＠ジャンヌ・オルタ
+なにその嬉しそうな顔。[r]やって来たのはそいつだけじゃないわよ。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+そいつが出るっていうなら、[r]私が出ない訳にはいかないでしょう。
+[k]
+
+[charaFace E 1]
+＠ジャンヌ・オルタ
+名乗りあげとか馬鹿らしいからしたくないけど、[r]竜の魔女ジャンヌ・ダルクよ。退屈しのぎに暴れに来たわ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠天草四郎
+ええ。そして引率役のルーラーです。[r]問題児二人を放ってはおけませんので。
+[k]
+
+[charaFace F 1]
+＠天草四郎
+出しゃばりとは承知していますが、[r]しばし、カルデアの皆さんのお力になれればと。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaDepth E 2]
+[charaFadein E 0.1 0]
+＠ジャンヌ・オルタ
+ほら、アンタも前に出たら。[r]ったく、ほっとくと何も喋らないんだから。
+[k]
+
+
+
+
+[charaFace G 0]
+[charaDepth G 1]
+[charaFadein G 0.7 -200,0]
+
+[charaMove G 2 0.6]
+[wt 0.7]
+
+[charaTalk G]
+[charaFace G 1]
+＠ブリュンヒルデ
+……はい。北欧の[#戦乙女:ワルキューレ]を代表して[r]助力に参りました。
+[k]
+
+[charaFace G 0]
+＠ブリュンヒルデ
+ランサー・ブリュンヒルデ……。[r]どうか、道具として扱いください……
+[k]
+
+[charaFace G 3]
+＠ブリュンヒルデ
+ああ、でも困ります……[r]私のような女に、こんな大役を任せるなんて……
+[k]
+
+[charaFace G 0]
+＠ブリュンヒルデ
+なんて優しいマスターなのでしょう……[r]困ります……困ります……
+[k]
+
+[charaFace G 4]
+＠ブリュンヒルデ
+………………困りすぎて私、[#滾:たぎ]ってしまいます。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠マシュ
+すごい……ジャンヌ・オルタさんに天草さんまで！
+[k]
+
+[charaFace C 13]
+＠マシュ
+いえ、あの黒い[#外套:コート]のサーヴァントさんは[r]存じ上げないのですが……先輩はお知り合いなんですか？
+[k]
+
+？1：ちょっと、悪夢の中で
+
+？！
+
+[charaFace C 1]
+＠マシュ
+なるほど、悪夢の中で！[r][FFFFFF]？[-]　え、えっと、それは良くない方なのでは……
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaSet D 7023001 1 源頼光]
+[charaSet E 6018002 1 Ｘ]
+
+[charaScale B 0.3]
+[charaPut B 256,64]
+[charaEffect B bit_talk_lightning_03g]
+[se bac49]
+[shake 0.05 7 4 2.0]
+[wait charaEffect B]
+
+[charaScale B 0.5]
+[charaPut B -256,32]
+[charaEffect B bit_talk_lightning_03g]
+[se bac49]
+[shake 0.05 7 7 2.0]
+[wait charaEffect B]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠マシュ
+[line 3]あの稲妻は！
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.1]
+[wt 1.0]
+
+[charaScale B 1.0]
+[charaPut B 0,32]
+[charaEffect B bit_talk_lightning_03t]
+[wt 0.2]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ad63]
+[shake 0.05 7 7 2.0]
+[wait charaEffect B]
+[flashOff]
+
+[charaSet F 1028000 1 両儀式]
+[charaSet G 2024001 1 織田信長]
+
+[wt 1.5]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠イスカンダル
+おおう、凄まじい稲妻よ！[r]怖ろしくも清らかだ！　さぞ名のある雷神の子と見た！
+[k]
+
+＠イスカンダル
+名を名乗るがよい、美しい女将軍よ！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠源頼光
+源頼光と申します。[r]かく言うそちらの[#雷霆:らいてい]も人知を超越した覇者のもの。
+[k]
+
+[charaFace D 1]
+＠源頼光
+征服王イスカンダル、と仰られるのですね。[r]野心[#溢:あふ]れながら、一点の邪気もないその眼差し[line 3]
+[k]
+
+＠源頼光
+ふふ、あの子ととても気が合いそうです。[r][#綱:つな]同様、良い兄分になってほしいぐらい。
+[k]
+
+[charaFace D 5]
+＠源頼光
+ですが、雷光の勝負であれば私も譲れません。[r]我が一刀の真の冴え、これよりお目にかけましょう。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+
+
+＠イスカンダル
+おおう、顔に似合わず勇ましい！[r]知っているぞ、マスラオ、というのであろう！
+[k]
+
+[charaFace H 0]
+＠イスカンダル
+今のでまだ八分の力とは恐れ入った！[r]だが[line 3]ふふ、余もまだ走り始めというところ。
+[k]
+
+[charaFace H 2]
+＠イスカンダル
+ブケファラスも自慢の末脚を見せていないしな！[r]良い、共に雷鳴を轟かせようではないか！
+[k]
+
+[charaFace D 4]
+＠源頼光
+益荒男……益荒男……[r]ええ、武者ですから間違いはないのですけど……
+[k]
+
+＠源頼光
+[%1]さんの前で[r]そのように断言されるのは、悲しいです……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+
+
+
+[charaSet D 1027002 1 沖田総司]
+[charaSet H 6019000 1 風魔小太郎]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠Ｘ
+あれはセイバーですか、いえ違う、[r]理性のバーサーカーですかそうですか！
+[k]
+
+＠Ｘ
+セイバーの気配に釣られてひょっこり現れました、[r]ご存じ、最強のセイバー・謎のヒロインＸです！
+[k]
+
+[charaFace E 1]
+＠Ｘ
+あ。[%1][&君:さん]、お久しぶりです。[r]元気でしたか？　私はこの通り元気でした。
+[k]
+
+＠Ｘ
+なにやらサルガッソー並にアウェー感漂いますが、[r]それはいつもの事なので気にしません。
+[k]
+
+[charaFace E 4]
+＠Ｘ
+（[line 3]ところで。[r]　ここだけの話、これは何のイベントでしょう）
+[k]
+
+＠Ｘ
+（なにやら宇宙っぽいのでＳＷ　EPⅡが始まったと思い、[r]　新装備・新クラスで駆けつけて来たのですが……）
+[k]
+
+[messageOff]
+
+[se bac206]
+[scene 10000 1.0]
+
+[charaFace E 2]
+[charaMove E 0,20 0.2]
+[wait charaMove E]
+[charaMove E 1 0.1]
+[wait charaMove E]
+[wt 0.4]
+
+
+[charaPut A 1]
+[charaEffect A bit_talk_ichimon01bl]
+
+[voice NP_102800_4]
+
+[charaMove E 0,-384 0.1]
+[wait charaMove E]
+
+[wt 0.7]
+
+
+[charaShake E 0.05 4 0 1.0]
+
+[scene 36100 1.0]
+
+[charaMove E 0,-64 0.2]
+[wait charaMove E]
+[charaMove E 1 0.1]
+[wait charaMove E]
+
+[charaFace E 5]
+[charaShake E 0.05 4 0 1.0]
+＠Ｘ
+危ない、いま首がジェットするところでした！[r]私だからノリで事なきを得ましたが！
+[k]
+
+＠Ｘ
+識別信号もださず斬りかかってくるとか何事ですか！[r]これだから野蛮な地球人は[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[messageOff]
+
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.7 1]
+＠両儀式
+ごめんなさい、よく聞こえなかったわ。[r]『野蛮な、』何かしら、宇宙のセイバーさん？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace F 1]
+[charaFace E 2]
+[charaFadein F 0.1 0]
+[charaFadein E 0.1 2]
+＠Ｘ
+地球人のみなさんはエレガントで最高ですね！[r]もしやバーサーカーとアサシンしか存在しないのでは？
+[k]
+
+[charaFace F 4]
+＠両儀式
+まあ……なんて事かしら。[r]まさか、貴女と同じ感想を持ってしまうなんて。
+[k]
+
+＠両儀式
+じゃあやっぱり、貴女の世界には[r]バーサーカーとアサシンのセイバーしかいないというの？
+[k]
+
+[charaFace E 1]
+＠Ｘ
+ええ、その通りですとも！[r]そこに気付くとはやはり[#極女将:ごくおかみ]！
+[k]
+
+＠Ｘ
+……あれ？　えーと、どういう意味です？[r]いま、地球の話をしていましたよね、私？
+[k]
+
+[charaFace F 1]
+＠両儀式
+細かい事は忘れましょう。[r]今は可愛いマスターさんの助けをしないと。
+[k]
+
+＠両儀式
+だから約束ね、宇宙人さん？
+[k]
+
+＠両儀式
+このあたりの怪物をみんな斬り殺したら、[r]改めて斬り合わせてちょうだいね？
+[k]
+
+[charaFace E 5]
+＠Ｘ
+んー、ものすごく厄介な人斬りにロックオンされた模様！[r]なぜこんな事になったのか、説明を求めます！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+
+[charaSet B 2027001 1 クロエ]
+[charaSet E 5028001 1 イリヤ]
+[charaSet F 98103600 1 ルビー]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+[se bac57]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.3]
+[flashOff]
+[wt 0.4]
+
+[se bac57]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.3]
+[flashOff]
+[wt 0.4]
+
+[se bac57]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.3]
+[flashOff]
+[wt 0.4]
+
+[charaShake G 0.05 0 4 1.0]
+＠織田信長
+ええい、どうなっておるのじゃ！[r]わしの特攻がまるで通じん！　一言で言ってピンチじゃ！
+[k]
+
+[charaFace G 0]
+＠織田信長
+こやつらもしや、自称魔[#神]のバッタもんなのじゃ？[r]沖田、沖田ー！　[#弾丸:タマ]持ってこい、沖田ー！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠沖田総司
+は。これだから種子島に頼りきりな軟弱な武将は。[r]たまには刀を振るったらどうです。
+[k]
+
+[charaFace D 0]
+＠沖田総司
+はいはい、ちょっと退いてくださいね。[r]相手が何であれ、肉があるのなら斬れば死にます。
+[k]
+
+[charaFace D 5]
+＠沖田総司
+ほらこの通り。[r]ズバズバって。ズバズバって。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[messageOff]
+
+
+
+
+[charaPut B 1]
+[charaEffect B bit_talk_kengekiall01]
+[se bac6]
+[wt 0.2]
+[se bac7]
+[wt 0.3]
+[charaPut B 1024,1024]
+[charaEffectStop B bit_talk_kengekiall01]
+[charaFadeout B 0.1]
+
+[effect bit_talk_35]
+[wt 1.4]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠沖田総司
+余裕の沖田さん大勝利ー！　……こふっ！？[charaFace D 6]
+[k]
+
+[charaShake D 0.05 4 0 1.0]
+[fowardEffect bit_talk_35]
+[wt 1.4]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFace D 6]
+[charaFadein D 0.1 0]
+[charaFadein G 0.1 2]
+＠織田信長
+沖田……沖田[line 4]！？
+[k]
+
+[charaFace D 6]
+＠沖田総司
+……すみません、自分の体舐めてました……[r]沖田さん、長期戦とかメチャクチャ向いてなかったです……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠織田信長
+沖田[line 4]！[r]おのれ、うにゃうにゃした柱とイクラども！　でかした！
+[k]
+
+[charaPut C 1]
+
+[se bac33]
+[wt 0.7]
+
+[charaEffect C bit_talk_gouka]
+[se ad11]
+
+[charaFace G 5]
+＠織田信長
+って、熱っ、こいつら火とか吐くではないかっ！[r]ええい、これというのも本能寺の続きがないから……！
+[k]
+
+[charaFace G 2]
+[charaShake G 0.05 4 0 1.0]
+＠織田信長
+これでは敦盛を舞うも何もない！[r][#乱波:らっぱ]ー！　ラッパーはおらぬか！
+[k]
+
+[charaFace G 0]
+＠織田信長
+いま時代イモータル、もう舞台ブリゲイド、[r]カオスなブレイク　決めるはブレイブ、
+[k]
+
+[charaFace G 2]
+＠織田信長
+[#小太郎:コタロウ][#小太郎:コタロウ]辞世の句でも詠んで[#桶:ＯＫ]！[r]とか言うヤツ、おるじゃろ！？
+[k]
+
+[seStop ad11 0.3]
+[wt 0.3]
+[charaPut C -1200,-1200]
+
+[messageOff]
+
+[charaEffectStop C bit_talk_gouka]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.7 1]
+＠風魔小太郎
+……そんな忍に心当たりはありません。[r]本能寺のように燃え尽きてください。
+[k]
+
+＠風魔小太郎
+僕はその様子を見届けた後、[r]カルデアの皆さんの助力に向かいたいと思います。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠織田信長
+なぜじゃ！？　サルはともかくわしに恨みはない筈では？[r]ぶっちゃけ、北条とか坂東方面あんま興味なかったしネ！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠風魔小太郎
+いえ、そのあたりの因縁は別に。[r]僕は単に武士が嫌いなだけです。
+[k]
+
+＠風魔小太郎
+そこの沖田さんは、まあ……なんとなく[r]クノイチっぽいので、気が向いたら助けますが。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+[charaShake G 0.05 2 0 1.0]
+＠織田信長
+なんじゃ、お主も太ももに惑わされた口かー！[r]わしだって最後まで行くと凄いんじゃけどなー！
+[k]
+
+[charaFace G 5]
+＠織田信長
+まあよい、足軽に忍、あとはわしの鉄砲隊で[r]この[#戦:いくさ]、ひっくり返してくれるわ！
+[k]
+
+＠織田信長
+沖田ァ！　寝とる場合か！　勝って死ね！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠沖田総司
+……お、沖田さんはまだまだ戦えますとも！[r]行きますよ！　なんか忍者っぽい人！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠風魔小太郎
+ぽい、というのは誤りです。忍者ですので。[r]……いえ、覇気が無いのは自覚していますが。
+[k]
+
+＠風魔小太郎
+本音を言えば金時殿と肩を並べたかったのですが、[r]戦場ですから。味方のえり好みはできません。
+[k]
+
+＠風魔小太郎
+お二人に義理はありませんが、これも何かの縁。
+[k]
+
+
+[charaFace H 7]
+＠風魔小太郎
+風魔忍群の頭領として全力を尽くします。[r]忍の神髄、お見せしましょう[line 3]！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaFadeout H 0.1]
+
+[wt 0.4]
+
+
+[charaSet C 5020001 1 アイリスフィール]
+[charaSet D 7022001 1 茨木童子]
+[charaSet G 6021001 1 酒呑童子]
+[charaSet H 6015001 1 エミヤ]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1024,256]
+[se bac122]
+[charaMove E 1 0.4]
+[wt 0.7]
+＠イリヤ
+クロ、こっちこっち！[r]どんどん生えてくる、あの柱！
+[k]
+
+[charaFace E 5]
+＠イリヤ
+ルビー、何なのあれ！？[r]なんか、ものすごく気持ち悪いんですけどー！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[charaMoveReturn F 0,20 0.1]
+[wait charaMove F]
+[charaMoveReturn F 0,20 0.1]
+[wait charaMove F]
+＠ルビー
+あー、これはちょっと今の人類の手には負えませんねー。[r]術式が……するとか、神代マジはんぱねぇー。
+[k]
+
+[charaMoveReturn F 0,32 0.1]
+[wait charaMove F]
+[charaMoveReturn F 0,32 0.1]
+[wait charaMove F]
+＠ルビー
+これ、いくら倒しても復活してくる無理ゲーですけど、[r]それでも戦うんですか、イリヤさん？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠イリヤ
+それは[line 3]もちろん！[r]わたしたちだって、皆さんと一緒に戦わないと！
+[k]
+
+[charaFace E 2]
+＠イリヤ
+だって、その為に[%1]さんと知り合って、[r]その為に、カルデアにいたんだから！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+[wt 0.3]
+
+＠クロエ
+そうね。朝までコースなんて体力的に勘弁してほしいけど、[r]お世話になった借りは返すって言っちゃったし。
+[k]
+
+[charaFace B 0]
+＠クロエ
+触手の相手とか魔法少女的にはＮＧだけど、[r]ま、斬り甲斐だけはありそうだし？
+[k]
+
+[charaFace B 5]
+＠クロエ
+それに、コイツらからは何となく[r][#第三魔法:うちら]への軽視を感じるわ。
+[k]
+
+[charaFace B 2]
+＠クロエ
+[line 3]行くわよイリヤ。欠片とはいえ、[r]アインツベルンの系譜の力、見せてやろうじゃない！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[messageOff]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFace B 0]
+[charaFadein E 0.4 -256,-50]
+[charaFadein B 0.4 256,-50]
+[wt 0.6]
+
+
+
+[se bac122]
+[charaMove E -1024,256 0.4]
+[charaMove B -768,256 0.4]
+[charaFadeout E 0.4]
+[charaFadeout B 0.4]
+[wt 0.7]
+
+
+[charaTalk on]
+
+[charaTalk D]
+[charaFace G 0]
+[charaFace D 5]
+[charaFadein G 0.4 2]
+[charaFadein D 0.4 0]
+＠茨木童子
+ほう。幼子と思っていたが、あやつら、天狗の類か？[r]あそこまで見事に飛ぶとは……[charaShake D 0.05 2 0 1.0]むむう、羨ましい。
+[k]
+
+＠酒呑童子
+そうやねぇ。[r]茨木の背中の[#羽:それ]、格好だけやしなぁ？
+[k]
+
+[charaFace G 4]
+
+＠酒呑童子
+カタチから入って中身入れずに満足とか、[r]ほんま茨木らしいわぁ。うち相方として恥ずかしいわぁ。
+[k]
+
+[charaFace D 3]
+＠茨木童子
+ま、満足などしているものか！[r]これはまだ途中、途中の変化よ！
+[k]
+
+[charaFace D 1]
+＠茨木童子
+見ておれ、いずれ[#鬼面扇子:きめんせんす]を両脇に[#掲:かか]げ、[r]羅生門すら見下ろす大鬼になってみせるわ！
+[k]
+
+＠茨木童子
+その[#暁:あかつき]には今度こそ人間どもから根こそぎ宝を奪い、[r]恐怖で都を支配してくれようではないか！
+[k]
+
+[charaFace G 4]
+＠酒呑童子
+おや。支配とはまた面倒くさいコト言い出して、どしたん？[r]京の都なんぞ焼き払う、が口癖やったのに。
+[k]
+
+[charaFace D 0]
+＠茨木童子
+うむ。人間どもは百害あって一利なし、と言っていたが、[r]アレは改めよう。奴らとて使いようよ。
+[k]
+
+[charaFace D 1]
+＠茨木童子
+クク……特に手先の器用な人間は重宝してやるとも。[r]菓子は味だけでは駄目だ。見かけも良くなくてはな！
+[k]
+
+＠茨木童子
+待っておれ、酒呑！[r]貴様にも極上の時間を分けてやるぞ！
+[k]
+
+[charaFace D 1]
+
+＠茨木童子
+そうなれば酒呑が[#吾:われ]を見直すこと、[r]もはや春に咲く桜の如し！
+[k]
+
+＠茨木童子
+吾らの結束は鬼切丸ですら断ち切れぬものに[r]なるに相違ない！
+[k]
+
+[charaFace D 2]
+＠茨木童子
+そのためには人理とやらを無くす訳にはいかぬ！[r]吾の[#益:えき]にはならぬが、カルデアを守ってやろうではないか！
+[k]
+
+[messageOff]
+
+[se bac1]
+[charaMove D -1024,128 0.2]
+[wait charaMove D]
+
+[charaFadeout D 0.1]
+[wt 0.7]
+
+[charaFace G 0]
+＠酒呑童子
+おーおー、まっすぐに飛び込んで。[r]あんじょう気張りや～。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠酒呑童子
+……しっかし、茨木は甘党やったんか……[r]酒も二瓶程度しか飲めへんから、ま、やむなしやなぁ。
+[k]
+
+[charaFace G 0]
+＠酒呑童子
+酒好きは辛党が通説やけど、[#幸:さいわ]いうちはどっちも[r]いけるクチやし。茨木の頑張りは無駄にはならへん。
+[k]
+
+＠酒呑童子
+ほんに……うちといい、茨木といい、[r][%1]はんは鬼付き合いが良過ぎやわぁ。
+[k]
+
+[charaFace G 4]
+＠酒呑童子
+[line 3]はあ、しゃあない。[r]頼光もおるし、[#偶:たま]にはうちも親身になろか。
+[k]
+
+[charaFace G 2]
+＠酒呑童子
+人理やら秩序やら、なんの足しにもなりゃせんけど、[r]人界が無くなるのは見過ごせへんわ。
+[k]
+
+＠酒呑童子
+旨い酒には楽しい席が必要やさかい。[r]いけずな触手どもなんぞ、酒のつまみにいただこか！
+[k]
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+
+[charaFadeout G 0.1]
+
+[charaSet B 6008000 1 クレオパトラ]
+[charaSet E 7016001 1 タマモキャット]
+[charaSet F 6014001 1 マタ・ハリ]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠エミヤ
+この怪物たち……話に聞くビーストの眷属か。[r]僕のような男に人類悪の相手が回ってくるとはね。
+[k]
+
+[charaFace H 4]
+＠エミヤ
+……酷く頭が痛むな。[r]人理を護る、なんて、まったく柄じゃない。
+[k]
+
+＠エミヤ
+僕の仕事はせいぜい、少しだけ罪のある人間を、[r]独断のもと排除するだけなんだがね……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace H 0]
+[charaFace C 0]
+[charaFadein H 0.1 0]
+[charaFadein C 0.7 2]
+＠アイリスフィール
+いいえ、そんな事はないわフードさん。[r]貴方にだって、この場で戦う資格はあるのだもの。
+[k]
+
+[charaFace C 2]
+＠アイリスフィール
+貴方が遠い世界の[#異聞:いぶん][line 3][r]有り得ない世界の、有り得ない可能性の欠片だとしても。
+[k]
+
+[charaFace C 4]
+＠アイリスフィール
+信じた道を走り抜けて消えてしまった、[r]名前さえ棄てた人物の最後の記録であったとしても。
+[k]
+
+[charaFace C 0]
+＠アイリスフィール
+私は貴方の戦いが正しいものだったと肯定します。[r]たとえその結末が、[#私]の否定であったとしても。
+[k]
+
+[charaFace H 0]
+＠エミヤ
+……君の話は、よく分からない。[r]時々、違う国の言葉で話しているのではと思うほどに。
+[k]
+
+[charaFace H 4]
+＠エミヤ
+ああ、理解できない。君の言う事は何一つ。[r]けれど[line 3]
+[k]
+
+[charaFace H 0]
+＠エミヤ
+君が嘘を言っていない事だけは感じられる。
+[k]
+
+[charaFace H 0]
+＠エミヤ
+その君が、こうしてあの怪物たちと戦うというのなら[line 3][r]僕にも、ここで戦う理由ぐらいは出来る。
+[k]
+
+[charaFace H 0]
+＠エミヤ
+……何の為に戦うかは分からないが、なに。[r]もとから僕は、そういう男だったようだからね。
+[k]
+
+[messageOff]
+
+[charaFace C 1]
+[wt 0.4]
+
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠クレオパトラ
+どういう事なのかしら！[r]これはどういう事なのかしら！
+[k]
+
+＠クレオパトラ
+突然のオファーでしたが、[r]オーラスを[#飾:かざ]るというから参上したというのに！
+[k]
+
+＠クレオパトラ
+24時間も前から万全の状態で、メイクもマイクも[r]完璧なコンディションを維持していたというのに！
+[k]
+
+[charaFace B 5]
+＠クレオパトラ
+なぜこんな世界の端で、[r]最後に余ったメンバーに押し込まれているのかしら！？
+[k]
+
+[charaFace B 2]
+＠クレオパトラ
+説明なさい、そこのバステトっぽい方！[r]あるいは、アラビア風の[#妾:わらわ]には劣りますが極上の美女！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace F 0]
+[charaFace E 1]
+[charaDepth F 1]
+[charaDepth E 9]
+[charaFadein F 0.1 2]
+[charaFadein E 0.1 0]
+＠タマモキャット
+まあそうカリカリするなデルモパトラよ。[r]逆境を楽しめ。あるいは楽しめ。
+[k]
+
+＠タマモキャット
+ここは砂漠ではない故な。[r]むしろ楽が出来て良かったと思うワン。
+[k]
+
+[charaFace E 5]
+＠タマモキャット
+戦うまでもなくギャラをもらいニンジンを戴いて帰る……[r]人類の到達点と言っても過言ではないのでは？
+[k]
+
+[charaFace F 3]
+＠マタ・ハリ
+そうよね～。この状況で戦え、と言われても困るもの。[r]あの魔神さんたち、別に政府高官でもないのだし。
+[k]
+
+[charaFace F 0]
+＠マタ・ハリ
+私に出来る事といったら、[r]みんなのサポートぐらいかしら？
+[k]
+
+[charaFace F 5]
+＠マタ・ハリ
+あ、でも手を抜く気はないから、そこは任せて。[r]サポート役はサポート役として、最後まで戦っちゃうから。
+[k]
+
+[charaFace F 0]
+＠マタ・ハリ
+それに、いい女は後方支援もしなやかにこなすものよ？[r]美しさというものは、本来異性を鼓舞するもの。
+[k]
+
+＠マタ・ハリ
+私や貴女は、[r]ただそこにいるだけで価値があるのではなくて？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠クレオパトラ
+ええ、それはそうなのだけれど！[r][#妾:わらわ]がいるだけで、何もかも上手くいくものだけれど！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠タマモキャット
+至言なのだな。ネコと和解せよ、という事か……
+[k]
+
+[charaFace E 1]
+＠タマモキャット
+ではここで、[r]我ら絶世の美女三人組はご主人の帰りを待つとしよう！
+[k]
+
+＠タマモキャット
+料理はこのタマモキャット！[r]掃除はそこのマタ・ハリ！
+[k]
+
+＠タマモキャット
+そしてクレオパトラは敏腕コンサルタントとして[r]東京砂漠に働きに！
+[k]
+
+＠タマモキャット
+おお……理想のスイートハウスが完成した……ッ！[r]あとは魔神柱どもを蹴散らすだけときた！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠クレオパトラ
+ええ、外交なら[#妾:わらわ]に任せてくれてもよろしくてよ！[r]カルデアを一ヶ月でトップ企業にして見せましょう！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠マタ・ハリ
+んー、そういう事じゃないんだけど、ま、いっか！[r]とりあえず、苦戦している小太郎クンを助けに行きましょう！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_18 0.5]
+[wait fade]
+[soundStopAll]
+[end]

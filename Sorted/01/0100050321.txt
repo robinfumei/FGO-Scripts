@@ -1,0 +1,138 @@
+
+＄01-00-05-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5023001 1 ブラヴァツキー]
+[charaSet C 3004001 1 カルナ]
+[charaSet D 7014001 1 ナイチンゲール]
+[charaSet E 98003000 1 Dr.ロマン]
+
+[scene 21004]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+倒しました！[r]蒸気であれ電動であれ、壊せば倒せます！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+明白な真実ねー。[r]でも、これで終わりっと。
+[k]
+
+[charaFace B 0]
+＠ブラヴァツキー
+じゃ、[#カルナ]！[r]ちゃっちゃとやっちゃってー！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え……。[r]あの、すいません。今、何と……？
+[k]
+
+＠カルナ
+……出番か。心得た。
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+わ！？　いきなりサーヴァント反応だ！[r]君たちの直上！
+[k]
+
+＠Dr.ロマン
+強引に転移させるなんて、令呪なのか！？[r]って、なんだこれ！？
+[k]
+
+＠Dr.ロマン
+この霊基数値、トップクラスのサーヴァントだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+そんな……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠ナイチンゲール
+…………。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ブラヴァツキー
+悪いけど、捕まえちゃってくれないかしらー？[r]一応ほら、敵に回るみたいだし。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.7]
+＠カルナ
+その不誠実な憶測に従おう。
+[k]
+
+[charaFace C 5]
+＠カルナ
+異邦からの客人よ、手荒い歓迎だが悪く思うな。[r][line 2]『[#梵天よ、地を覆え:ブラフマーストラ]』！
+[k]
+
+[se ad39]
+[charaFadeout C 0.1]
+
+＠Dr.ロマン
+撤退し……駄目だ、速すぎる……！！
+[k]
+
+[messageOff]
+
+[wt 0.3]
+
+[fadeout white 0.1]
+[wait fade]
+[fadein white 0.3]
+[wt 0.4]
+
+[fowardEffect bit_talk_29]
+[shake 0.05 0 4 1.0]
+[seStop ad39]
+[se bac36]
+[wt 1.5]
+
+
+[fadeout white 1.5]
+[bgmStop BGM_EVENT_3 1.5]
+[wait fade]
+[wt 1.0]
+[soundStopAll]
+[end]

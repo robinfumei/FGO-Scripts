@@ -1,0 +1,111 @@
+＄91-30-02-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3002001 1 ディルムッド]
+[charaSet E 3011001 1 フィン]
+[charaSet F 98006200 1 ？？？]
+[charaSet G 98006200 1 エネミー]
+[charaSet H 98006200 1 エネミー]
+
+[scene 20800]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFadein F 0.1 1]
+[wt 0.4]
+[fowardEffect bit_talk_13]
+[wt 0.1]
+[se bac13]
+[charaShake F 0.05 3 3 0.2]
+
+[wt 0.4]
+[charaSpecialEffect F enemyErasure 1 1.7]
+[se ad22]
+[wait charaSpecialEffect F enemyErasure]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+＠ディルムッド
+こちらはこれで最後だ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。こちらも全て仕留め終わりました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ディルムッド
+大した敵ではなかったのが幸いか。[r]……うん？
+[k]
+
+[wt 0.7]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.1]
+[se ad39]
+[flashin once 0.7 0.7 FFFFFFAF FFFFFF00]
+[wt 0.7]
+[fowardEffect bit_talk_30]
+[fowardEffectStop bit_talk_30]
+[wait fowardEffect bit_talk_30]
+
+[wt 1.0]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[bgm BGM_EVENT_2 0.1]
+＠マシュ
+どうしました？[r]今の光は……。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ディルムッド
+なるほど、理解できたようだ。
+[k]
+
+＠ディルムッド
+俺の心象風景に存在するエネミーを倒していけば、[r]宝具が真の輝きを取り戻すらしい。
+[k]
+
+[charaFace D 5]
+＠ディルムッド
+マスター、申し訳ありませんが[r]もうしばらくお付き合い願いたい。
+[k]
+
+[wt 0.4]
+[charaFace D 0]
+＠ディルムッド
+では、次の場所へと移りましょう。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

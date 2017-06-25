@@ -1,0 +1,313 @@
+
+
+
+＄94-00-21-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 3019000 1 ランサーオルタ]
+
+[scene 22111]
+[fadein black 2]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+＠マシュ
+……先輩、四階の終わりが見えてきました。[r]一階の例でいけばここにも[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[wt 0.7]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 1]
+[wt 1.1]
+[bgm BGM_EVENT_3 0.1]
+＠ランサーオルタ
+[line 3]立ち去れ。此処より上層は死霊の吹きだまり。[r]生者が足を運ぶ場ではない。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+[line 6]（突然の馬に呆然としている）。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+敵性サーヴァント、出現しました！[r]戦闘準備を、マスター！
+[k]
+
+
+？1：見た事のないサーヴァントだ……！
+？2：怪しい兜、アイツが黒幕だな……！
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+………………む。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい！[r]この威圧感、身にまとった[#禍々:まがまが]しい魔力……！
+[k]
+
+＠マシュ
+メフィストさんを上回る『混沌・悪』の[r]サーヴァントと断定します！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィスト
+ヒャッホー、いかにも！　あれこそは死肉をついばむ[r][#鴉:カラス]の化身、悪の黒騎士でございます！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+………………いや、待て。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+っ、甲冑越しの眼光だけで背筋が凍りそうです！[r]なんて血も涙もないサーヴァント……！
+[k]
+
+＠マシュ
+マスター、気をつけて……！[r]話の通じる相手ではありません！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィスト
+さあ倒しましょう！　ああ笑いが止まらない、[r]クックック、クッ殺、ころころ殺しましょう！
+[k]
+
+＠メフィスト
+おそらく中身はがらんどう、廊下の死霊たちと同様の、[r]骨ばったスケルトンに相違ありませんよぉ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+[line 3]ええい！[r]誰が肉のそげたスケルトンかっ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaSet F 3019002 1 ランサーオルタ]
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_4 0.1]
+
+[se ad7]
+[wt 0.3]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.4 1]
+[wt 0.7]
+＠ランサーオルタ
+この身は聖槍を守る嵐の王だ！[r]目を見開いてよく見るがいいッ！
+[k]
+
+＠ランサーオルタ
+よく！[r]見るがいい！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠両儀式
+[line 6]！（突然の露出に呆然としている）
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なんと[line 4]！？[r]RECだ、久しぶりにRECの準備だ[line 3]っ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ[line 4]ウ！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え……え？[r]あの、もしかして一度、お会いした事がありますか？
+[k]
+
+？1：大空洞で一度戦ったんじゃないかな……
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+……そうだ。[r]やはり貴様の目は確かだな、[%1]
+[k]
+
+＠ランサーオルタ
+あの時の私とは違う側面の私だが、[r]同一人物である事は間違いない。
+[k]
+
+＠ランサーオルタ
+そこは褒めておこう。たいへん見所がある。[r]しかし、だ[line 3]
+[k]
+
+[charaFace F 0]
+
+？2：ぜんぜん覚えがない。別人だよ。だって胸、
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ランサーオルタ
+………………。[r]（その先を言うと殺すぞ、という視線）
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ、フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+？！
+
+
+[bgmStop BGM_EVENT_4 0.1]
+[wt 0.4]
+[bgm BGM_EVENT_3 0.1]
+
+＠ランサーオルタ
+[line 3]私の忍耐は、この鎧ほど頑強ではない。[r]こと恥辱に関しては更に薄い。
+[k]
+
+＠ランサーオルタ
+王の[#尊顔:そんがん]を礼無く[#拝:はい]したのだ。[r]私の素顔を見たからには戦ってもらおうか。
+[k]
+
+＠ランサーオルタ
+生き延び、武勇を示せば先ほどの無礼は許そう。[r][#力:ちから]及ばず倒れるのなら、その魂ごと私のものだ。
+[k]
+
+＠ランサーオルタ
+私は嵐の王、ワイルドハント。[r]我が[#貌:かお]を見るもの、[#悉:ことごと]くを下僕とするもの。
+[k]
+
+＠ランサーオルタ
+さあ、啼きながら集え、我が手足、我が供物。[r][#天鵞絨:ビロード]の如く紅虐に、我が[#蹄:ひづめ]を飾るために。
+[k]
+
+[charaFace F 2]
+＠ランサーオルタ
+今はこの塔こそが我が城塞。[r]行くぞ[line 3]決死を[#以:もっ]て死に抗うがいい、人間！
+[k]
+
+[messageOff]
+[se ad7]
+[seStop ad7 0.3]
+[charaFadeout F 0.1]
+[wt 0.6]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+何か格好いい事を言って[r]ランサーオルタさんが突撃してきます！
+[k]
+
+＠マシュ
+マスター、指示を！[r]そして式さんもしっかり！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠両儀式
+あ、ああ、サンキュー、助かった！[r]おかげで心停止するとこだった！
+[k]
+
+＠両儀式
+まったく[line 3]マンションに馬とか意味不明すぎて、[r]幽霊より怖い怪談だぞ、おまえ！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]

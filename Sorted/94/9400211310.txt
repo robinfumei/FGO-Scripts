@@ -1,0 +1,372 @@
+＄94-00-21-13-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6023000 1 両儀式]
+[charaSet E 5014001 1 メフィスト]
+[charaSet F 5021000 1 クー・フーリン]
+[charaSet G 3013000 1 ？？？]
+
+[scene 22180]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠クー・フーリン
+おう、新しいお客さんかい？[r]遠慮せず入ってきな。別にとって食いやしねぇよ。
+[k]
+
+？1：あれは……池袋とかにいる！
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+言いたい事は分かりますが違いますよ先輩。[r]それにラッパーはもう過去の文化と聞きました！
+[k]
+
+[charaFace A 15]
+
+？2：ＣＭで見た人だ……！
+
+[charaFace F 1]
+＠クー・フーリン
+お？　オレの活躍を知ってんのか[&坊主:お嬢ちゃん]！[r]コイツは邪険にはできねえなあ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+？！
+
+＠マシュ
+しかし……[r]まさかのクー・フーリンさんです、先輩。
+[k]
+
+＠マシュ
+レオニダスさん同様、このマンションに[r]もっとも相応しくない英霊だと思っていましたが……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠クー・フーリン
+ん？　なんだ、オレの真名を知ってんのか。[r]んじゃあ、顔を隠す必要もねえな。
+[k]
+
+[charaFadeout F 0.1]
+
+[se ad7]
+[charaSet F 5021001 1 クー・フーリン]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠クー・フーリン
+よっと。フードは暑苦しくていけねえ。[r]これからバクチを打つってのに堅苦しいのもな？
+[k]
+
+＠クー・フーリン
+そら、まずは座れよお客さん。[r]ご所望のゲームはなんだ？
+[k]
+
+＠クー・フーリン
+カードか？　ダイスか？　ルーレットか？[r]それとも楽しくバックギャモンか？
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……バクチ……ま、まさか。
+[k]
+
+[charaFace A 2]
+＠マシュ
+式さん！[r]近隣住民からの苦情にはなんと！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠両儀式
+“深夜になるとゾンビが集まってうるさい、[r]裸に剥かれたゾンビが泣きながら出てくる”だとさ。
+[k]
+
+[charaFace D 4]
+＠両儀式
+ま、典型的なマンション賭博だな。[r]問答無用で逮捕案件だ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+クー・フーリンさん、アナタという兄貴はまさか……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠クー・フーリン
+ご名答～。暇だったんでつい、趣味に走って[r]カジノとか始めてみました～☆
+[k]
+
+＠クー・フーリン
+いや、せっかくキャスタークラスだしな？[r]この杖持ってるとダイス操作が楽で楽で……
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+違法ギャンブル！　せっかくのドルイド能力を[r]サイコロ操作に使っているのかい！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[wt 0.2]
+
+？1：やっぱり池袋系の……
+？2：ＣＭだとあんなに格好よかったのに……
+
+？！
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠クー・フーリン
+あー……いや、それな？[r]そもそもアレが原因っつーか……
+[k]
+
+[charaFace F 4]
+＠クー・フーリン
+オレだって[#手前:テメエ]から住み着いた訳じゃねえ。[r]師匠とつい口喧嘩しちまってよ。
+[k]
+
+[wt 0.2]
+[charaFace F 1]
+＠クー・フーリン
+まだ行けるワケねーだろ、[r]歳考えろって言ったらマジギレされちまってさあ！
+[k]
+
+＠クー・フーリン
+いやあ、本気の師匠とやりあったのはアレだ、[r]影の国の弟子一同で師匠とやり合った時以来だ！
+[k]
+
+[charaFace F 0]
+＠クー・フーリン
+フェルグス、フェルディア、他二十人はいたかねぇ。[r]師匠は不意にやるんだよ。最終試験ってヤツを。
+[k]
+
+＠クー・フーリン
+“今から全員でワシを殺せ。できなければ死ね。[r]　なぜなら、今からワシは貴様ら全員を殺す”
+[k]
+
+＠クー・フーリン
+ってな。見込みのない戦士をふるい落とすため[r]なんだろうが、遊びがないにも程がある。
+[k]
+
+？1：知ってる。スタンとか超きつい。
+
+[charaFace F 1]
+＠クー・フーリン
+なんだ、どこぞで戦った後か！[r]そりゃあ災難だったな！
+[k]
+
+？2：で、その時は勝ったの？
+
+[charaFace F 4]
+＠クー・フーリン
+倒してなけりゃオレもフェルグス叔父貴も[r]フェルディアも英霊になる前に消えてるよ。
+[k]
+
+＠クー・フーリン
+全員でかかったんだ、[r]普段の師匠にはそりゃあ勝てる。
+[k]
+
+＠クー・フーリン
+問題はその後っつーか……[r]あっさり全滅させられたっつーか……
+[k]
+
+＠クー・フーリン
+オレがバラした事は内緒にしておけよ？[r]あの女な、もう一段階本性を隠してんだよ。
+[k]
+
+＠クー・フーリン
+“よくやった。ようやく半人前になったな馬鹿共。[r]　だが[line 3]私はあと一段階、変身を残している”
+[k]
+
+＠クー・フーリン
+とか言い出しやがって、まあその後は飛ぶ飛ぶ。[r]いや、紙切れのように[#戦士:オレ]たちがな？
+[k]
+
+[charaFace F 5]
+＠クー・フーリン
+……んで、今回もその再現だ。[r]ウィッカーマンごとぶちのめされた。
+[k]
+
+？！
+
+[charaFace F 4]
+＠クー・フーリン
+とにかく、オレは師匠に負けて[r]ここに閉じ込められたってワケだ。
+[k]
+
+＠クー・フーリン
+しばらく反省しろとよ。[r]どこぞの猿あつかいかってーの。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+中国は西遊記に名高い、五行山のお話ですね。
+[k]
+
+＠マシュ
+その境遇には同情しますが、[r]クー・フーリンさんにも落ち度はあったと思います。
+[k]
+
+＠マシュ
+ダメですよ。女性に年齢の話を振っては。[r]それが見栄を張りたい相手なら尚更です。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠クー・フーリン
+そりゃいい忠告だ！[r]美人に言われると骨身に染みる！
+[k]
+
+＠クー・フーリン
+どうだい、バクチはそこそこにして、別の遊びを[r]していくかい？　年若い美人なら大歓迎だ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+キュー、フォーウ！
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+
+[charaFadeout C 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠？？？
+うむ。フォウはよい事を口にするな。[r]“怠ける[#戦士:バカモノ]にはその槍で灸を据えろ”とは。
+[k]
+
+[charaFadeout G 0.1]
+
+[se ad38]
+[shake 0.05 0 5 0.4]
+[wt 0.4]
+
+＠クー・フーリン
+どぅは……ッ！？
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、あなたはスカサハ師匠……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠？？？
+残念ながらケルト最強かつ最美の女戦士ではない。[r]私は闇に忍ぶ、名も無いクノイチだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うん、日本だしね。無理のない設定だ。[r]ではどうぞ師匠。今回はボクらも全力で協力するよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠？？？
+感謝する。では死ねクー・フーリン。[r]一日に二度も三度も死ね。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaSet F 5021000 1 クー・フーリン]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠クー・フーリン
+えー、知りませーん！　あなたドナタ様ですかーぁ！[r]ここにクー・フーリンなんていないんですけどーぉ！
+[k]
+
+？1：あれ、変装だったんだ……！
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[wt 0.4]
+[bgmStop BGM_EVENT_3 0.1]
+[wait fade]
+[soundStopAll]
+[end]
+

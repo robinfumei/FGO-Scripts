@@ -1,0 +1,416 @@
+
+＄94-00-64-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_35 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98103600 1 ルビー]
+[charaSet C 98102500 1 イリヤ]
+[charaSet D 5004001 1 ナーサリー・ライム]
+[charaSet E 98017000 1 ？？？]
+[charaSet F 98003000 1 Dr.ロマン]
+
+
+[scene 20901]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 0.5]
+
+＠D：？？？
+お客様だわ！　お客様だわ！[r]なんていい日なのかしら？
+[k]
+
+[charaFace D 1]
+＠D：？？？
+どうぞいらっしゃい！[r]おいしいお菓子をめしあがれ！
+[k]
+
+
+？1：真っ黒なドレスの少女が……何者[&だろう:かな]？
+
+[charaFace D 3]
+＠ナーサリー・ライム
+わたしはナーサリー・ライムと言うの！[r]はじめまして、新しいお客様！
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+おととい[#淹:い]れたてのお茶をどうぞ？[r]マーマレードとレモン、どちらがいいかしら？
+[k]
+
+
+？2：あれは、ナーサリー・ライム……！？
+
+[charaFace D 0]
+＠ナーサリー・ライム
+わたし……ナーサリー・ライムなの？[r]あなたが言うんだからきっとそうね！
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+なん万なん千回目かのはじめましてをお祝いして、[r]お茶会しましょう！？
+[k]
+
+？！
+
+[charaFace D 0]
+＠ナーサリー・ライム
+ナーサリー・ライムは魔法の少女。[r]トミーサムの可愛い絵本。
+[k]
+
+＠ナーサリー・ライム
+魔法少女のおやくめ果たし[r]にげさるアナタとこわれたワタシ。
+[k]
+
+＠ナーサリー・ライム
+みんなの望みを叶えましょう？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ……[r]…………ドクター？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.5]
+
+＠Dr.ロマン
+おおっと、もう忘れられていたのかと。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ああ、うん[line 3]彼女は確かにサーヴァントだ。[r]巨大な固有結界の所有者とは、異なるようだけどね。
+[k]
+
+＠Dr.ロマン
+そして同時に、マスターでもあるらしい。[r]あれだけの魔法生物を操っているのなら当然か。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+キャスタークラスなら充分考えられるケースだ。[r]くれぐれも注意してくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。了解です[line 3][charaFace A 14]ああっと、イリヤさん！？[r]マスターまで！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+緊張感のかけらも感じられず、[r]お茶会を楽しまれてますねー？
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠ルビー
+さっすがイリヤさん、大物です！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+
+＠イリヤ
+ふぅ～よかったぁ～、[r]まともにお話しができて。
+[k]
+
+[charaFace C 0]
+＠イリヤ
+わたし、イリヤ。[r]イリヤスフィール・フォン・アインツベルン。
+[k]
+
+＠イリヤ
+ナーサリー・ライムは、魔法少女で……[r]それで、しかもこの『お菓子の国』の女王様、なの？
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+そうよ、わたし、えらいの。[r]なんでもめいれいできるの。
+[k]
+
+[charaFace D 0]
+[charaFace C 5]
+＠イリヤ
+じゃ、じゃあ、女王様っ……折り入ってお願いが！
+[k]
+
+[charaFace C 3]
+＠イリヤ
+わたしと一緒に、この世界に来た友達のこと、[r]お菓子の国の人たちに尋ねてもらえないかな？
+[k]
+
+＠イリヤ
+なんでもいいの！[r]知っていることがあったら[line 3]
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+いいわ。わたしと遊んでくれたら、[r]おしえてあげる。
+[k]
+
+[charaFace C 3]
+＠イリヤ
+……えっ……？
+[k]
+
+
+？1：きみの他にも魔法少女がいるの[&かい:かな]？
+？！
+
+[charaFace D 0]
+＠ナーサリー・ライム
+それも、わたしと遊んでくれたら、[r]おしえてあげる。
+[k]
+
+[charaFace C 4]
+＠イリヤ
+ちょっ……ナーサリーちゃん！？[r]遊ぶのはあとでもいいでしょう？
+[k]
+
+[charaFace D 5]
+＠ナーサリー・ライム
+いーやー（ぷるぷるぷる）
+[k]
+
+[charaFace D 2]
+＠ナーサリー・ライム
+だってわたし、タイクツなの。ケンタイキなの。[r]わたしの遊びあいては、いつもいつも黒ひつじさんだけ。
+[k]
+
+[charaFace D 0]
+＠ナーサリー・ライム
+ねえ、わたしの黒ひつじさん、知らないかしら？[r]とってもかわいいひつじさん。
+[k]
+
+[charaFace C 0]
+＠イリヤ
+黒い……ひつじさん？　み、見てないけれど。[r]め、[charaFace C 1]メェェーメェェー、えへへなんちゃって。
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+うふふっ、ぜんぜんちがうわ？[r]イリヤったら、へたくそね。
+[k]
+
+[charaFace C 0]
+[charaFace D 2]
+＠ナーサリー・ライム
+黒ひつじさんの鳴きごえは、こう[line 3][r]ぶ[charaShake D 0.05 3 3 0.5]ぁぁ　ぶぁぁ[line 3]。
+[k]
+
+[charaFace C 6]
+＠イリヤ
+……わっリアル路線。[r]ぶ、ぶぁぁ、ぶぁぁー？
+[k]
+
+[charaFace D 0]
+＠ナーサリー・ライム
+そうよ、じょうずだわ！
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+さあ、みんなで呼びましょう？[r]ぶ[charaShake D 0.05 3 3 0.5]ぁぁ　ぶぁぁ[line 3]。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+[bgmStop BGM_EVENT_35 0.1]
+[se ad14]
+
+[charaPut F 0,-200]
+[charaEffect F bit_talk_06p]
+
+＠ナーサリー・ライム
+ぶぁぁぶぁぁぐらしゃらぼらすはぶゆうえにいぶらっど[r]わのぶだせぶんてぃとぅでもんずぷれじでんとおぶへる
+[k]
+
+＠ナーサリー・ライム
+ぶぁぁぶぁぁぐらしゃらぼらすいあるむなるうがなぐる[r]となろろよらなくしらりぶぁぁぶぁぁぐらしゃらぼらす！
+[k]
+
+[charaFace D 2]
+＠ナーサリー・ライム
+おいでおいで！[r]わたしのかわいい黒ひつじさん！
+[k]
+
+[charaEffectStop F bit_talk_06p]
+
+[messageOff]
+[charaDepth D 3]
+[charaDepth E 0]
+
+[charaTalk depthOff]
+
+
+
+[messageOff]
+[seStop ad14]
+[se ad24]
+[charaTalk E]
+[charaFadein E 0.4 1]
+[wt 1.5]
+
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠イリヤ
+[line 9]！！！
+[k]
+
+[charaShake C 0.05 3 3 0]
+[charaFace C 7]
+＠イリヤ
+ひっ……あわ、あわわわわわわわわ……！[r]聞いてないこんなの聞いてない。
+[k]
+
+[charaShake C 0.05 3 3 0.1]
+
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……っ……そんな！？[r]これは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein E 0.1 1]
+
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠ナーサリー・ライム
+お菓子のヒトたちったら、とっても飽きっぽいの。[r]みんなすぐに、くだけてつぶれて遊べなくなっちゃう。
+[k]
+
+[charaFace D 4]
+＠ナーサリー・ライム
+もとがにんげんのヒトだもの[r]しかたがないわね。
+[k]
+
+[charaFace D 0]
+＠ナーサリー・ライム
+でも、わたしの黒ひつじさんは、だれよりもやさしいの。[r]ずーっとずーっと、えいえんに遊んでくれるわ。
+[k]
+
+[charaFace D 1]
+＠ナーサリー・ライム
+[line 3]さあ、一緒に遊びましょう？
+[k]
+
+
+[charaFadeout D 0.4]
+[messageOff]
+[se ad24]
+[wt 1.0]
+
+？1：全力で遊ぶしかなさそう[&だ:だね]……
+
+[charaFadeout E 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFace B 0]
+[charaFadein C 0.1 2]
+[charaFadein B 0.1 0]
+
+＠イリヤ
+わたしの知ってる、遊ぶ、と[r]根本的にちがうみたいなんですけど……（泣）
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠ルビー
+女王様って、そういうものですよー？[r]いつも刺激に飢えているんです。
+[k]
+
+[charaFace C 3]
+＠イリヤ
+刺激強すぎない！？
+[k]
+
+？2：マシュ、イリヤのサポート[&を頼む:頼むね]！
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠マシュ
+[line 3]はい！　マスター！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFace C 4]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠マシュ
+イリヤさん！[r][#防衛役:ディフェンス]はおまかせください！
+[k]
+
+[charaFace C 5]
+＠イリヤ
+た、頼りにしてますっ！　マシュさん！
+[k]
+
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.5]
+[wait fade]
+[soundStopAll]
+[end]

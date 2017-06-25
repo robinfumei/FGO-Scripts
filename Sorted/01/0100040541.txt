@@ -1,0 +1,178 @@
+＄01-00-04-05-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10958]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6005001 1 ジャック]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 98026000 1 「Ｍ」]
+[charaSet G 5011001 1 「Ｂ」]
+[charaSet H 5010001 1 「Ｐ」]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[fadein black 1]
+[wait fade]
+＠ジャック
+おか……あ、さん……[r]やだ……やだ、やだ、やだ……いたい、よ……
+[k]
+
+[charaFace D 4]
+＠ジャック
+どうして……[r]どうして……
+[k]
+
+＠ジャック
+……どうして、なの……ねえ……ねえ……？
+[k]
+
+[messageOff]
+[charaSpecialEffect D flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect D flashErasure]
+[wt 0.3]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠「Ｐ」
+さようなら、愛を知らぬ子。[r]あなたがきっと、いつしか愛を得られますよう。
+[k]
+
+[charaFace H 0]
+＠「Ｐ」
+[line 3]さて。[r]私も、ここで貴方たちの刃に掛かるべきでしょうね。
+[k]
+
+＠「Ｐ」
+悪逆の魔術師は英雄に倒される。[r]それは、私の望む回答のひとつでもある。
+[k]
+
+[charaFace H 5]
+＠「Ｐ」
+ですが。[r]まずは、私も役を果たす。
+[k]
+
+[charaFace H 1]
+＠「Ｐ」
+さようなら、眩き道を歩まんとする英雄たち。[r]そして円卓の騎士[line 3]
+[k]
+
+＠「Ｐ」
+願わくば、いつまでも貴方が[r]悪逆を倒す[#正義の味方]であり続けますよう。
+[k]
+
+[messageOff]
+[charaSpecialEffect H wipe 1 0.1]
+[wt 2]
+[se ad39]
+[wait charaSpecialEffect H wipe]
+[wt 0.1]
+[charaTalk E]
+[charaFace A 0]
+[charaFace E 2]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+＠モードレッド
+待て！　ああくそ、消えやがった！[r]これだから魔術師って輩は！
+[k]
+
+[charaFace A 7]
+＠マシュ
+空間転移[line 3][r]令呪の使用による強制移動でもなければ、それは。
+[k]
+
+[charaFace A 14]
+＠マシュ
+本来、魔法にも及ぶ領域の技術です。[r]それを、ああして……可能性としては、やはり聖杯……
+[k]
+
+＠Dr.ロマン
+有り得る話だな。この時代を破壊しようとする[r]「魔霧計画」の首謀者のひとり、と名乗ったくらいだ。
+[k]
+
+＠Dr.ロマン
+そうでなくても、聖杯の所有者が[r]彼を転移させたということも考えられる。
+[k]
+
+＠Dr.ロマン
+彼らは……[r]このロンドンで一体、何をしようとしているんだろう。
+[k]
+
+[charaFace E 5]
+＠モードレッド
+なんだって構うかよ。[r]見つけ出して、叩き潰してやるだけだ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[bgmStop BGM_EVENT_5 0.4]
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[wt 1]
+[scene 20201 0]
+[fadein black 0.5]
+[bgm BGM_EVENT_5 0.1]
+[se ad14]
+[wt 2]
+[wait fade]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.7 1]
+＠「Ｐ」
+……ただいま、帰還いたしました。
+[k]
+
+＠「Ｂ」
+シュー……。[r]コォー……。
+[k]
+
+＠「Ｍ」
+ご苦労。[r]……あの少女は倒されたか。
+[k]
+
+[charaFace H 4]
+＠「Ｐ」
+残念ながら死亡しました。[r]メフィストフェレスに続く第二の損害となってしまった。
+[k]
+
+＠「Ｍ」
+[#大勢:たいせい]に影響はない。[r]我らは、我らの「計画」を進めるだけだ。
+[k]
+
+[charaFace H 0]
+＠「Ｐ」
+ええ。そうですね。その通り。[r]私たちは、サーヴァント。ただ[#貴方:マスター]に従うまでのこと。
+[k]
+
+＠「Ｐ」
+悔やむ必要はありません。[r]貴方は、貴方の「計画」を進めるべきでしょう。
+[k]
+
+＠「Ｍ」
+…………わかっている。
+[k]
+
+＠「Ｂ」
+世界と文明を拓く[line 3][r]それこそが、知恵者たる我ら[#碩学]の使命ではあれど。
+[k]
+
+＠「Ｂ」
+世界は焼却され、人類と文明は[r]既に確定されてしまった終焉の時を迎えるのであれば。
+[k]
+
+＠「Ｂ」
+我らは、最早[line 3]
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[seStop ad14 0.4]
+[wait fade]
+[soundStopAll]
+[end]

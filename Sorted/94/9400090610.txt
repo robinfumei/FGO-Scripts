@@ -1,0 +1,373 @@
+＄94-00-09-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10800]
+
+
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 2024000 1 織田信長]
+[charaSet D 1027000 1 沖田総司]
+[charaSet E 2024000 1 悪いノッブ]
+[charaSet F 2024000 1 良いノッブ]
+[charaSet G 2024000 1 魔神アーチャー]
+[fadein black 2]
+[wait fade]
+
+
+
+
+
+[charaFadein G 0.1 1]
+[charaFace G 1]
+＠魔人アーチャー
+ふはははははははははは！[r]今[charaFace G 2]までご苦労だったなお前達！
+[k]
+
+[charaFace G 1]
+＠魔人アーチャー
+すべてわしの思惑通りに事が運んだわ！[r]此度の騒動はすべてわしの計画！
+[k]
+
+＠魔人アーチャー
+聖杯に１２体のサーヴァントの生贄！[r]そして力を取り戻したわし！
+[k]
+
+＠魔人アーチャー
+聖杯の力を使いこの空間を我が物とし[r]貴様らの世界へ乗り込んでくれるわ！
+[k]
+
+
+？1：騙したのか！？
+[charaFadeout G 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+そんな、何となくそんな気はしてましたが！？
+[k]
+
+[charaFadeout A 0.1]
+
+
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠織田信長
+そして今こそ我が真名を明かすとしよう！[r]我が名は第六天魔王、織田信長！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+あ、それはもう知ってます。
+[k]
+
+[charaFadeout A 0.1]
+
+？2：ノッブ、なんでや……。
+
+[charaFadein C 0 1]
+[charaFace C 2]
+[charaFadeout G 0]
+＠織田信長
+そうそう、我が名は第六天魔王、織田ノブ……。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+あ、それはもう知ってます。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 3]
+＠織田信長
+えっ！？　なんでバレとるのじゃ！？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠沖田総司
+さっきお昼ごはんの時に聞いてもいないのに[r]自分から自己紹介してたじゃないですか。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 3]
+＠織田信長
+えっ！？　なにしてんのわし。
+[k]
+
+[charaFadeout C 0.1]
+
+＠？？？
+ふっ！　馬脚を現したな！
+[k]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+この声は……！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet E 2024000 1 織田信長]
+
+[charaFadein E 0.1 1]
+[charaFace E 6]
+＠織田信長　
+そう、わしじゃ！！
+[k]
+
+[charaFadeout E 0.1]
+
+
+[charaFace C 5]
+[charaFace E 6]
+[charaFadein C 0.1 0]
+[charaFadein E 0.1 2]
+
+[wt 0.7]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+信長さんが……、２人！？
+[k]
+
+？1：これは一体！？
+？2：ぐだぐだが極まってきましたね。
+
+？！
+
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFadein C 0.1 0]
+[charaFace C 2]
+[charaFadein E 0.1 2]
+[charaFace E 0]
+＠E：織田信長
+じつはお昼ご飯のあとにトイレに行ったのじゃが[r]そのとき後ろから何者かに襲われたのじゃ！
+[k]
+
+＠E：織田信長
+気がついたらトイレの裏で縛られておってな[r]いましがた何とか脱出してきたのじゃ。
+[k]
+
+＠E：織田信長
+つまりお昼休み以降、おまえ達と一緒にいたのは[r]真っ赤な偽物というわけなのじゃ！
+[k]
+
+[charaFace C 5]
+＠C：織田信長
+おのれ！　我の半身とはいえしぶとい奴め！[r]本物のわしに代わって、わしが本物になるはずが！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠沖田総司
+なるほど、解説ありがとうございます。
+[k]
+
+[charaFace D 4]
+＠沖田総司
+流れは大体わかりましたけど[r]どっちが喋ってるか全然わかりませんね。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+とりあえず、悪いノッブ、良いノッブと[r]仮の名称で区別してはどうでしょう？
+[k]
+
+？1：うん、いいんじゃないかなそれで……。
+？2：もうスキップしていいかな？
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaSet E 2024000 1 悪いノッブ]
+
+[charaTalk E]
+[charaFadein E 0.1 0]
+[charaFace E 2]
+[charaFadein F 0.1 2]
+[charaFace F 1]
+＠悪いノッブ
+うわっ！？　なんか悪いって言われると[r]ちょっと心外なのじゃ、元は同じだというに！
+[k]
+
+＠良いノッブ
+勝った！　わしが良いノッブ！　天下布武、完！
+[k]
+
+＠良いノッブ
+もはや勝敗は決したようなものじゃ[r]降参するが良いぞ、悪いノッブ！！
+[k]
+
+[charaFace E 2]
+＠悪いノッブ
+いい子ぶるでないわ！　元は貴様なんじゃから[r]貴様も悪いノッブじゃろうが！！
+[k]
+
+[charaFace F 1]
+＠良いノッブ
+馬鹿を言うな、悪いノッブの貴様が離れたんじゃから[r]わしは良いノッブ１００％じゃろ？
+[k]
+
+[charaFace E 6]
+＠悪いノッブ
+おのれ！！　口先ばかり達者な良いノッブめ！[r]どう考えても貴様のほうが性根が悪いじゃろ！！
+[k]
+
+[charaFace F 6]
+＠良いノッブ
+ププー、わしの悪いところ見苦しすぎワロタ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠沖田総司
+いやもう、どっちも黙っててください……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠悪いノッブ
+こうなったら、悪いノッブの凄いところを[r]思い知らせてくれるわ！
+[k]
+
+＠悪いノッブ
+良いノッブがいかに口が達者だろうと[r]力の大部分は悪いわしが手にしておる！
+[k]
+
+[se ad14]
+
+＠悪いノッブ
+いざ、[line 3]三界神仏灰燼と帰せ！[r]我が名は第六天魔王波旬、織田信長なり！！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.4]
+[seStop ad14]
+[messageOff]
+
+[se ad11]
+
+[fowardEffect bit_talk_honnouji01]
+
+[wait effect]
+[fadeout black 2]
+[wait fade]
+[scene 10721]
+[fadein black 2]
+[wait fade]
+
+[seStop ad11 0.5]
+
+
+
+[wt 0.7]
+[charaFadein E 1.2 1]
+[charaFace E 2]
+＠悪いノッブ
+ふはははははははははは！[r]神をも殺す我が力の前にひれ伏すが良いわ！！
+[k]
+
+[charaFadeout E 0.1]
+
+[wt 0.5]
+
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠良いノッブ
+おのれ悪いノッブめ！　皆のもの！[r]わしの悪いところを倒すために力を合わせるのじゃ！
+[k]
+
+
+？1：やった、これが最後の戦いだ！
+[charaFadeout F 0.1]
+[wt 0.3]
+[effect bit_talk_06]
+[charaFadein D 0.1 1]
+[charaFace D 6]
+＠沖田総司
+はい！　実は私もそろそろ魔力が切れかけてて[r]今にも体が消滅しそうな所だったので助かります。
+[k]
+
+[wt 0.5]
+[effectStop]
+[wt 0.3]
+[charaFadeout D 0.1]
+
+
+[charaFadein F 0.1 1]
+[charaFace F 2]
+＠良いノッブ
+体弱すぎじゃろ！！
+[k]
+
+？2：二人とも倒す方法はないのかな！？
+[charaFadeout F 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠沖田総司
+なんと！？　その発想はありませんでした。[r]それですよ、それ！　さすがですね！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein E 0.1 0]
+[charaFace E 4]
+[charaFadein F 0.1 2]
+[charaFace F 4]
+＠悪い＆良いノッブ
+えー。
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+と、とにかく悪い信長さんを何とかしましょう！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

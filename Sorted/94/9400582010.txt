@@ -1,0 +1,248 @@
+
+＄94-00-58-20-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 2026000 1 アルトリア]
+[charaSet C 6024000 1 スカサハ]
+[charaSet D 3024000 1 玉藻の前]
+[charaSet G 9004000 1 マルタ]
+[charaSet F 3010001 1 ロムルス]
+[charaSet H 98002000 1 フォウ]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+きゃー☆　これなら立派な羅紗が採れそうですねっ。[r]ありがとうございます、マスター！
+[k]
+
+
+？1：ウール製の水着でも作るの……？
+？2：そんなに『衣』に困ってた？
+？！
+
+[charaFace D 0]
+＠玉藻の前
+またまたー。羊毛で作れば、吸湿性や保湿性の高いスグレ[r]モノになっちゃうアレがあるじゃないですかー。
+[k]
+
+[charaFace D 3]
+＠玉藻の前
+……お布団、です。きゃっ。
+[k]
+
+
+？1：快眠は……大事だよね……
+？2：照れる意味がわからない……
+？！
+
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠マルタ
+羊牧場ができたと聞いて私登場！
+[k]
+
+[charaFace G 0]
+＠マルタ
+ちょうどいいですね。羊と言えば羊飼い。[r]善き羊飼いの説教でもしましょうか？　それとも[line 2]
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+あ。そう言えば羊飼いって役職もありましたね。[r][#私:わたくし]はどちらかと言えば牧羊犬のほうですが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠スカサハ
+ルーンを刻んだ柵で、ある程度は放置気味でも育つようには[r]なっているが。羊飼いがいるにこしたことはなかろうな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+やっぱり一番お似合いなのはダビデさんですかねぇ。[r]ここにいれば確実にお願いしていたところです。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠マルタ
+ダビデ王を本来の羊飼いとして使うなんて。不遜というか[r]なんというか……いいのかしら……？
+[k]
+
+
+？1：意外とノリノリでやってくれそう
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠マシュ
+そうですね。代わりにお金や女性を要求されたり[r]しなければいいのですが……。
+[k]
+
+[charaFadeout A 0.1]
+
+？2：牧場経営が夢って言ってたから……
+
+[charaFadeout G 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玉藻の前
+しかしあまりにベタすぎて面白みがかけるのも事実。[r]他に羊飼い属性を持ってらっしゃる方とかいましたっけ？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+
+[se ad60]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠アルトリア
+[line 2]ロムルス王は羊飼いだったと聞いていますよ。
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk off]
+[charaFace G 5]
+[charaFace D 5]
+[charaFadein G 0.1 2]
+[charaFadein D 0.1 0]
+＠玉藻の前＆マルタ
+……！？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaTalk on]
+
+[scene 20300]
+
+[charaFadeout G 0]
+[charaFadeout D 0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0 1]
+
+[wt 0.5]
+
+[effect bit_sepia01]
+[fadein black 2.0]
+[wait fade]
+
+＠ロムルス
+……ローマ。
+[k]
+
+＠羊
+メェー……。
+[k]
+
+[charaFace F 2]
+＠ロムルス
+[line 2]ローマッ！
+[k]
+
+＠羊
+メェー！
+[k]
+
+[charaFace F 5]
+＠ロムルス
+群れで[#私:ローマ]に逆らうか。ローマはあちらだ！[r]ローマッ！
+[k]
+
+＠羊
+メ、メェー！！！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[effectStop bit_sepia01]
+
+[scene 30400]
+
+[charaFadeout F 0]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+[wt 0.5]
+
+
+[fadein black 2.0]
+[wait fade]
+
+
+＠玉藻の前
+正直……絶対に、羊、任せたくないですね……。
+[k]
+
+
+？1：ノーコメントです
+？！
+
+
+[charaFadeout D 0.1]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+
+＠フォウ
+フォウ。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

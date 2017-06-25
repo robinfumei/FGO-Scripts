@@ -1,0 +1,139 @@
+＄94-00-64-21-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet C 4013001 1 メイヴ]
+[charaSet E 98104000 1 クーちゃん]
+
+
+[scene 21810]
+
+
+[fadein black 2.0]
+[wait fade]
+
+＠メイヴ
+………………。
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaShake E 0.07 0 8 1.0]
+＠クーちゃん
+…………おい。
+[k]
+
+＠メイヴ
+……………………。
+[k]
+
+[se bac9]
+[shake 0.05 0 4 0.5]
+
+[charaFace E 3]
+＠クーちゃん
+……おい（ゲシッ）
+[k]
+
+[se bac10]
+[shake 0.05 0 4 0.8]
+[charaShake E 0.07 0 16 1.0]
+＠クーちゃん
+メイヴ、てめえいつまでくたばってんだ。[r]起きろ（ドスッ）
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+[se ad78]
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.4 1]
+[wt 0.5]
+
+＠メイヴ
+……この世で二番目の幸せは、目覚めるとき、[r]大好きな人の顔がそばにあることだわ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk E]
+[charaFace C 0]
+[charaFace E 2]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+[charaShake E 0.07 0 8 1.0]
+＠クーちゃん
+またそれか。
+[k]
+
+[charaFace C 14]
+＠メイヴ
+……魔力の流れを感じる。[r]黄金の滝が、奈落へと[#奔:はし]る音が聴こえる。
+[k]
+
+[charaFace E 0]
+[charaShake E 0.07 0 8 1.0]
+＠クーちゃん
+ああ。[r]どうやら結界の均衡は、崩れつつある。
+[k]
+
+[charaFace C 6]
+＠メイヴ
+ふふふ、ならば今こそ[#蹂躙:じゅうりん]の幕開け。
+[k]
+
+[charaFace C 14]
+＠メイヴ
+魔法少女にして女王[line 3][r]コナハト☆メイヴの騎行を世界に[#轟:とどろ]かせる時ね！
+[k]
+
+[charaFace E 1]
+[charaShake E 0.07 0 16 1.0]
+＠クーちゃん
+牛だがな。[r]走るってもよ。
+[k]
+
+[charaFace C 10]
+＠メイヴ
+四の五の言わないの！
+[k]
+
+[charaFace C 2]
+＠メイヴ
+さあ、角笛を吹き鳴らして！[r]戦車を出しなさい！
+[k]
+
+[charaFace E 1]
+[charaShake E 0.07 0 16 1.0]
+＠クーちゃん
+おう！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[seLoop ad87]
+[wt 1.8]
+[seStop ad87 2.8]
+[wt 1.8]
+
+
+
+[messageOff]
+[bgmStop BGM_EVENT_5 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+
+[scene 10000]
+[fadein black 0.1]
+[wait fade]
+[fowardEffect bit_queststart80025_05]
+[wait fowardEffect bit_queststart80025_05]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAll]
+[end]

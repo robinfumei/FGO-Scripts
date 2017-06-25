@@ -1,0 +1,102 @@
+＄94-00-62-01-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet B 3024000 1 玉藻の前]
+[charaSet F 98100800 1 うりぼう]
+[charaSet G 98101000 1 うりぼう]
+[charaSet H 98101200 1 うりぼう]
+
+[scene 30640]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+何はともあれ、まずビルの修復から始めましょう。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+まあ、そうでございますね。[r]基本はやはり住居から。
+[k]
+
+＠玉藻の前
+衣食住の内、衣と食は何とかなりそうなのですし、[r]住を充実させましょう。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠F：うりぼう
+摩天楼復活であります！
+[k]
+
+＠G：うりぼう
+和風で攻めるのもありであります！
+[k]
+
+＠H：うりぼう
+ギラついたネオンサイン。[r]そこは歌舞伎町、男の欲望が集う町……であります！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠玉藻の前
+……この三択でございますかねえ。[r]さあ、マスター。如何致しましょう？
+[k]
+
+[charaFace B 0]
+＠玉藻の前
+[#私:わたくし]の好みですと[line 3]
+[k]
+
+[charaFace B 1]
+＠玉藻の前
+安いネオンサインも捨て難いですが、ここは[r]ややアグレッシブに和風！　和風で攻めるべきではないかと！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠H：うりぼう
+どれでも、大丈夫であります！[r][#小隊長:マスター]、選択よろしくであります！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

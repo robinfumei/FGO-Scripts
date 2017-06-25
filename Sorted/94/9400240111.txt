@@ -1,0 +1,260 @@
+＄94-00-24-01-1-1
+
+[charaSet A 98001000 1 マシュ]
+[charaSet B 11002002 1 エドモン・ダンテス]
+[charaSet D 6013001 1 ファントム]
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[scene 23000]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠アヴェンジャー
+脆い脆い！[r]哀れ、醜き殺人者になるしかなかったモノよ！
+[k]
+
+＠アヴェンジャー
+シャトー・ディフはおまえの魂には相応しくない！[r]おまえは殺人者としてはあまりに哀しすぎる！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ファントム
+時の果つる先より　光が　見える……[r]この胸に　想いならざる大穴を開けるのか……
+[k]
+
+[charaFace D 0]
+＠ファントム
+おお　わが心臓よ　いずこ[r]おお　わがこころ　いずこ
+[k]
+
+＠ファントム
+クリスティーヌ　この心臓はきみに捧げよう[r]クリスティーヌ　この愛を　きみへ
+[k]
+
+？1：愛を謳うんだね、きみは
+？2：悲しい歌だ……
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠アヴェンジャー
+果たしてそうか？[r]よく聞け。あれは黒髪の殺人鬼が叫ぶもうひとつの歌だ。
+[k]
+
+[charaFace B 4]
+＠アヴェンジャー
+我が恩讐の彼方よりの一撃は霊核を砕き、[r]あれは最早砕けるまでだが、あの歌は、最後まで続く。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ファントム
+クリスティーヌ　我が愛　私はきみを愛するが[r]クリスティーヌ　私は耐えられぬ
+[k]
+
+[charaFace D 0]
+＠ファントム
+尊きはクリスティーヌ　きみと共に生きる人々を[r]愛しきクリスティーヌ　きみと同じ世界に在るすべてを
+[k]
+
+＠ファントム
+きみと過ごす人々を　朝陽のあたる世界を[r]私は　私は　
+[k]
+
+[charaFace D 2]
+＠ファントム
+[line 3]時に　[#妬ましく]思うのだ　狂おしいほどに[line 3]
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠アヴェンジャー
+はは、ははははははははははは！[r]はははははははははははァ！！
+[k]
+
+[charaFace B 1]
+＠アヴェンジャー
+オペラ座の怪人、おまえの嫉妬を見届けた。[r]おまえを殺し、その醜さだけを胸に秘めてオレは征く！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+[messageOff]
+[se bac13]
+[charaShake D 0.05 3 3 0.5]
+[fowardEffect bit_talk_12]
+[wait fowardEffect bit_talk_12]
+
+[se ad52]
+[charaSpecialEffect D flashErasure 0 0 1]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠アヴェンジャー
+地獄で誇れ。[r]おまえこそが人間だ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+
+[messageOff]
+[se ba1]
+[charaFadeout B 0.2]
+[scene 10200 0.2]
+[wait scene]
+
+[wt 0.5]
+
+
+
+[se ba1]
+[scene 10400 0.2]
+[wait scene]
+
+[bgm BGM_EVENT_2 0.1]
+
+＠ファントム
+…………どうか、気を付けてください。[r]我がクリスティーヌなりし[%1]。
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ファントム
+歪められたシャトー・ディフにあって、[r]あなたを守る者はたったひとりしかいないでしょう。
+[k]
+
+＠ファントム
+そしてそれは、[r]必ずしも善なる者とは限らない。
+[k]
+
+？1：どういう意味？
+
+[charaFace D 0]
+＠ファントム
+申し訳ありません。クリスティーヌ、我が愛。[r]私は多くを語ることができない。
+[k]
+
+？2：今、ファントムは殺されたんじゃ―――
+
+[charaFace D 0]
+＠ファントム
+私は確かに『裁きの間』にて殺されたのでしょう。[r]そして、それは、我が醜さの最たるものでもあった筈。
+[k]
+
+＠ファントム
+ですが、私たちは決して…………
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_2 0.1]
+
+[messageOff]
+[se ba1]
+[charaFadeout D 0.2]
+[scene 23000 0.2]
+[wait scene]
+
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠アヴェンジャー
+ははははははははははは！[r]これが、マスターを有した状態での戦いというやつか！
+[k]
+
+[charaFace B 0]
+＠アヴェンジャー
+見事な采配であったと言ってやろう。[r]仮の契約ではあるが確かにおまえはマスターだ！
+[k]
+
+[charaFace B 1]
+＠アヴェンジャー
+初見の英霊を使いこなしてみせる！[r]しかも[line 3][#規格外:エクストラクラス]、アヴェンジャーたるこのオレを！
+[k]
+
+[se ad7]
+
+＠アヴェンジャー
+さあ、第二の『裁きの間』へと向かうぞ！[r]残る六騎の支配者が待っている！
+[k]
+
+[charaFace B 0]
+＠アヴェンジャー
+虎のように吼えよ。[r]おまえには、[#すべて]が許されているのだから。
+[k]
+
+？1：……待った
+
+[charaFace B 5]
+＠アヴェンジャー
+…………ん？
+[k]
+
+[charaFace B 1]
+＠アヴェンジャー
+ほう。オレと共に進むのが恐いか？[r]正しい道を歩いているという自覚が持てずにいるか？
+[k]
+
+？2：本当に、ここから出られるのか？
+
+[charaFace B 0]
+＠アヴェンジャー
+……フッ。
+[k]
+
+？！
+
+[charaFace B 1]
+＠アヴェンジャー
+いいだろう。[r]おまえの疑念にはただ一言を以て返答するとしよう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+
+[wt 2.0]
+
+＠アヴェンジャー
+“[line 3]待て、しかして希望せよ”だ。
+[k]
+
+[messageOff]
+[wt 1.5]
+[soundStopAll]
+[end]

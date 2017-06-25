@@ -1,0 +1,204 @@
+＄94-00-28-06-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+
+[charaSet A 8001001 1 マシュ]
+[charaSet B 5009001 1 ダ・ヴィンチちゃん]
+[charaSet C 2001001 1 エミヤ]
+[charaSet D 5002001 1 ジル]
+[charaSet G 98003003 1 Dr.ロマン]
+
+[scene 20602]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ジル
+フッ……生憎と彼女は大丈夫です。
+[k]
+
+[charaFace D 0]
+＠ジル
+信仰を押しつけられ、孤独である事を強いられる[r]ひとりぼっちの少女ではない。
+[k]
+
+＠ジル
+癒されぬ傷を抱え、それでも前に進む戦士ではない。[r]全てを赦し、諭そうとする聖女ではない。
+[k]
+
+[charaFace D 4]
+＠ジル
+奇跡は起こらない、啓示もない。
+[k]
+
+[charaFace D 5]
+＠ジル
+贋作であった彼女は一人の人間として、[r]世に羽ばたこうとしている……！
+[k]
+
+[charaFace D 1]
+＠ジル
+いずれ、彼方で再会する日を夢見ておりますぞ。[r]さらば……！
+[k]
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect D flashErasure 0 0 1]
+[wait charaSpecialEffect D]
+[charaFadeout D 0.4]
+[wt 1.0]
+[seStop ad52 1.5]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠エミヤ
+……残るは彼女と一騎、という訳だな。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+彼女が誰かは分かっています。[r]残る一騎が問題ですね。
+[k]
+
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠ダ・ヴィンチちゃん
+私の推測だと、カルナあたりじゃないかな？
+[k]
+
+＠エミヤ
+佐々木小次郎という線もあるな。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+レ、レオニダスさんという線はあるでしょうかっ。[r]こう、がっつり護る系みたいな！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠二人
+ない。ない。ない。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+そ、そうですか……。[r]マスターは誰だと思います？
+[k]
+
+？1：Ｅ・ティーチ
+
+[charaFace A 6]
+＠マシュ
+Ｅ・ティーチ？[r]……あの、どなたでしたっけ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace A 6]
+[charaFace C 0]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+黒髭エドワード・ティーチか。[r]そうか、なるほど……。
+[k]
+
+[charaFace C 5]
+＠エミヤ
+いや待て。[r]それはない、絶対にない。
+[k]
+
+[charaFace A 4]
+＠マシュ
+黒髭さんでしたか…………。[r]………………………………。
+[k]
+
+[charaFace A 5]
+＠マシュ
+有り得ません、マスター！？[r]あ、あの、頭部に衝撃を受けたのでしょうか！？
+[k]
+
+？2：アマデウスとか……
+
+[charaFadeout A 0.1]
+
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+＠エミヤ
+モーツァルトか。[r]まあ、確かに整った顔立ちではあるが……。
+[k]
+
+[charaFace C 4]
+＠エミヤ
+口を開くと駄目なのではないか？
+[k]
+
+[charaFace B 1]
+＠ダ・ヴィンチちゃん
+そこはほら、アレだよ。『無口な音楽家』みたいな設定で[r]縛れば問題ないんじゃないかな。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+なるほど！　口を開かなければ問題ありませんね！
+[k]
+
+[charaFadeout A 0.1]
+
+[wt 0.1]
+[charaTalk G]
+[communicationCharaLoop 98003003 1 5 0 2]
+
+＠Dr.ロマン
+割と酷い事を言ってるなあ、君たち！
+[k]
+
+？！
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

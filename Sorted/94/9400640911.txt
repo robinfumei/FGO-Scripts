@@ -1,0 +1,313 @@
+＄94-00-64-09-1-1
+
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 5017002 1 メディア・リリィ]
+[charaSet B 98104200 1 イアソンくん]
+
+[scene 21360]
+[se ad37]
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+[seStop ad37 1.5]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠A：？？？
+イアソンさま、飛竜の守りをくぐり抜けて、[r]侵入者たちがやって参りました。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+いちいち報告しなくていい、[r]イアっと見えているとも！
+[k]
+
+[charaFace B 0]
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+愛らしい桃色の魔法少女に、[r]ふわふわだけど硬そうな黒色の魔法少女か！
+[k]
+
+[charaFace B 2]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+私の見立てでは、桃色の方は華々しさでキミに勝り、[r]黒色の方はボディランゲージでキミに勝る。
+[k]
+
+[charaFace B 1]
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+これは完敗じゃあないか！[r]戦う前から勝負は決まっているとか笑えないなあオイ！
+[k]
+
+[messageOff]
+[se ad61]
+[effect bit_talk_lightning_03t]
+[wt 0.5]
+[seStop ad61]
+[effectStop bit_talk_lightning_03t]
+[effect bit_talk_29]
+[se bac37]
+[shake 0.05 0 4 1.0]
+[wt 0.3]
+[charaFadeout B 0.1]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠A：？？？
+イアソンさま、イアソンさま。[r]的確な戦力比較を、もう一度お願いします。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+
+[charaFace B 0]
+[charaShake B 0.07 0 8 1.0]
+＠B：一度燃やされたイアソンくん
+イエス。では言葉を変えて発言しよう。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠B：一度燃やされたイアソンくん
+桃色の方よりキミの方が[#クルーエル:フローラル]。[r]黒色の方よりキミの方が[#クレイジィ:セクシィ]。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠B：一度燃やされたイアソンくん
+こんなんで一つ、どうだい？
+[k]
+
+[charaFace A 3]
+＠A：？？？
+まあ……イアソンさまったら、そんな……[r]臆面もなく、恥ずかしい褒め言葉を……
+[k]
+
+[charaFace A 0]
+＠A：？？？
+でも嘘はいけませんよ？
+[k]
+
+＠A：？？？
+[#桃色:あちら]の方のほうが私より[#幼児体型:へしゃむくれ]で、[r][#黒色:あちら]の方のほうが私より[#寒色多め:つめたそう]です。
+[k]
+
+[charaFace B 3]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+（比較対象をナチュラルに[r]　すり替えている……だと……！？）
+[k]
+
+[charaFace B 0]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+まあいいや、とにかく今回も無事、[r]メディアからの無理難題を乗り越えた！
+[k]
+
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+おまえときたら、何気ない会話ですら[r]死と隣り合わせの冒険にしてしまう！
+[k]
+
+[charaFace A 5]
+＠A：メディア・リリィ
+はい。私は平和を愛する者ですが、[r]侵入者にかける温情はありません。
+[k]
+
+＠A：メディア・リリィ
+どろぼうさんには罰を与えます。
+[k]
+
+＠A：メディア・リリィ
+事情があるにしても、それは刑罰をやりきった後に[r]聞けばいい、とキルケーお姉様も言っていました！
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+その通りさ。この『大海原と竜の国』は、[r]私の見た目ほど甘く、スマートじゃない。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+人々はみな穏やかで、誰もが幸福で、[r]民の誰もが私を崇める国に見えるが[line 3]
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+その実、少しでも犯罪をおかした“悪い子”は[r]理性のぶっ飛んだ女王の手でブタに変えられる！
+[k]
+
+[charaFace B 2]
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+それがこの海上独裁国家メディアサイコランドの[r]真実なのだからね！　ふはははたすけて！
+[k]
+
+[charaFace A 0]
+＠メディア・リリィ
+イアソンさま。何か仰いましたか？
+[k]
+
+[charaFace B 0]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+特に何も。[r]ちょっと演説しただけ。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+それより戦争だ。戦争だよメディアくん。
+[k]
+
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+彼女たちはワイバーンをあっさり倒したようだ。[r]知恵者である私の思惑通りに、ね。
+[k]
+
+[charaFace A 3]
+＠メディア・リリィ
+え……ワイバーンたちは本命ではなかったのですか？[r]イアソンさまは、一体どんな作戦を……？
+[k]
+
+[charaFace B 1]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+フッ。[r]戦いにおいて敵を倒す最大の武器はなんだと思う？
+[k]
+
+[charaFace B 0]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+それは強い宝具でも天変地異でもない。[r]油断。油断なんだよメディア。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+たるみきった精神こそ人間を殺す毒だ。[r]その事をこっそり、後から思い知らせてあげよう！
+[k]
+
+[charaFace B 1]
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+ハハハ！　ワイバーン相手に鼻高々に[r]なっているところを、その鼻ごとポッキリ、だ！
+[k]
+
+[charaFace B 2]
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+無論、船ごと粉々に粉砕する！[r]なにしろ魔法少女は史上最悪にしぶといからな！
+[k]
+
+[charaFace B 0]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+倒したと思って安心しきった翌朝、
+[k]
+
+[charaFace B 1]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+“イアソンさま、朝ですよ。起きてください♡”
+[k]
+
+[charaFace B 3]
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+なんて声をかけられたオレの恐怖を思い知るがいい！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+[charaFace A 1]
+＠メディア・リリィ
+わかりました。つまり死ぬまで殺すのですね？[r]そういうコトなら了解です。
+[k]
+
+＠メディア・リリィ
+えーい、魔法のボトルシップ、解放！
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[messageOff]
+[effect bit_talk_06]
+[se bac41]
+[wt 0.3]
+[effectStop bit_talk_06]
+[wt 0.5]
+[shake 0.05 0 4 1.0]
+[se ad36]
+[wt 1.0]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaFace A 3]
+＠メディア・リリィ
+でも……お許しください。加減が分からなかったので、[r]船の準備はこれぐらいしか出来ていないのです……
+[k]
+
+[charaFace A 0]
+＠メディア・リリィ
+搭載した[#竜牙兵:りゅうがへい]５ダース、[r][#衝角:ラム]には“相手の船の竜骨を腐らせる呪い”……
+[k]
+
+＠メディア・リリィ
+この程度のものしか常備しておらず、[r]申し訳ありません……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 3]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[charaShake B 0.07 0 8 1.0]
+＠イアソンくん
+いや怖いよ。それを常に持ち歩いているおまえが怖いよ。[r]どのへんが平和を愛する心なのか聞いておきたいよ。
+[k]
+
+[charaFace A 1]
+＠メディア・リリィ
+はい！　戦いは苦手ですが、頑張ります！[r]では皆さん、突撃です！
+[k]
+
+[charaFace B 2]
+[charaShake B 0.07 0 16 1.0]
+＠イアソンくん
+よし見事に聞いてない！　だがそれがいい！[r]私の嫁、最高に最高だな！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_24 2.0]
+[wait fade]
+[soundStopAll]
+[end]

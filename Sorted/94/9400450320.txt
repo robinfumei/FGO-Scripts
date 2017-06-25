@@ -1,0 +1,376 @@
+
+＄94-00-45-03-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+
+
+[scene 27800]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[communicationChara 98003003 1 5 0 5]
+
+＠Dr.ロマン
+さて、小太郎くんと金時くんには[r]偵察と見回りに行ってもらったワケなんだけど。
+[k]
+
+＠Dr.ロマン
+ボクらはボクらで[r]周囲の状況をセーフティに確かめよう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠マシュ
+はい。ではとりあえず、あの崖から頭を出して[r]こっそりと周囲を窺ってみましょう。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠牛若丸
+いい案ですね。[r]見晴らしがよければ何か見えるかもしれません。
+[k]
+
+＠牛若丸
+この牛若、視力には自信がありますよ。[r]何せ鞍馬の山育ちですから！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1.2]
+[wait wipe]
+
+[cameraMove 0.1 100,0 1.5]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[scene 27800]
+
+
+[wipein leftToRight 1.0 1.2]
+[wait wipe]
+
+
+
+＠Dr.ロマン
+どうだい、何か見えるかな？
+[k]
+
+
+[charaTalk D]
+
+
+＠牛若丸
+……ええ。鬼と……人間が集まっている場所が見えます。[r]広場のような空間ですね。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+人間。やっぱりこの島には人間もいるのか。[r]雰囲気はどんな感じだい？
+[k]
+
+
+
+
+
+
+
+＠マシュ
+強制労働所と言いますか……[r]鬼が人間を監督して働かせているように見えます。
+[k]
+
+
+＠牛若丸
+はい。ムチを振るいながら、何かを怒鳴って[line 2][r]どうやら人語を解する鬼も中にはいるようですね。
+[k]
+
+＠牛若丸
+捕まっている人々は地面に穴を掘ったり、[r]土や丸太を運んだりしていますが……。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+ふむ。本当に強制労働所みたいな光景なんだな。[r]何をさせているんだろう……？
+[k]
+
+
+＠マシュ
+わかりません。わかるのは[line 2][r]鬼達の数の多さだけです。
+[k]
+
+＠マシュ
+働かされている人々を解放しようにも、[r]先ほどと同じ状況になるだけですね……
+[k]
+
+
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.3 1.0]
+[wait wipe]
+
+[cameraHome 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+[wt 0.3]
+
+[wipein rectangleStripLeftToRight 0.3 1.0]
+[wait wipe]
+
+
+＠風魔小太郎
+……はい。あのように人間達が働かされている場所は、[r]一ヵ所ではありませんでした。他にもいくつか。
+[k]
+
+＠風魔小太郎
+それを全て解放するというのは、[r]とても現実的な案とは……言えないでしょう。
+[k]
+
+＠風魔小太郎
+やはりこのまま島を登り進み、まず最奥部の元凶を[r]どうにかするのが最善……でしょう。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウッ？
+[k]
+
+？1：わっ。音もなく背後に立つの禁止！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+すみません……忍なもので……。
+[k]
+
+[charaFace E 0]
+
+？2：おかえり。そっちはどうだった？
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠マシュ
+い、いきなりの小太郎さんでしたが動じませんね。[r]さすがはマスターです。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+
+？！
+
+＠風魔小太郎
+こちらが得た情報は……いま言った通り、[r]作業場のような場所をいくつか見つけた事と……。
+[k]
+
+＠風魔小太郎
+この島の最奥[line 3]あの頂上部への行き方です。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+お、道筋を見つけてきてくれたのかい？
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+結論から言うと、向かうのは簡単です。[r]それほど難しい道筋ではありません。ただ[line 2]
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+……ただ？
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+頂上部に至るには、その手前に鬼達が築き上げた[r]三つの大門を開かねばなりません。迂回は不可能。
+[k]
+
+＠風魔小太郎
+そして……どうやらそれは、[r]基本的には常に閉じられているものらしく。
+[k]
+
+[charaFace E 4]
+
+＠風魔小太郎
+開くには、門番らしい特殊な大鬼が[r]持つ鍵を使わねばならない……と。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+
+＠マシュ
+三つの大門に、門番の大鬼……ですか。
+[k]
+
+[charaTalk E]
+
+＠風魔小太郎
+鬼達のまとめ役のような存在らしい……です。
+[k]
+
+＠風魔小太郎
+下級の鬼どもより遙かに強く、[r]他にはない力を持っているとか。
+[k]
+
+＠風魔小太郎
+そしてさらには、[r]鬼達は怖ろしい用心棒を雇っている……とも。
+[k]
+
+＠風魔小太郎
+残念ながら、そのあたりで逃げられてしまって……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+
+＠牛若丸
+逃げられた、ですか？
+[k]
+
+[charaTalk E]
+[charaFace E 4]
+
+＠風魔小太郎
+情報を引き出すために使った鬼に、です。[r]すみません、尋問は下手なもので。
+[k]
+
+[charaFace E 1]
+
+＠風魔小太郎
+ですが、鬼にしては虚言もなく、[r]よい取引内容だったと思ってましたから……
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠牛若丸
+ははあ。無理に追い掛けて仕留める気はなかった、と。[r]小太郎殿は優しいのですね。
+[k]
+
+＠牛若丸
+私ならすぐさま追い掛けて、[r]逃げだした事を後悔させていたでしょう。
+[k]
+
+[charaTalk E]
+[charaFace E 4]
+
+＠風魔小太郎
+いえ、それは時間の無駄なので……
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+……笑顔で残酷な事を言う牛若丸と、[r]穏やかに合理的な小太郎くん……
+[k]
+
+＠Dr.ロマン
+日本の英霊たちはなんていうか、[r]見かけは優しくても根は怖ろしいよね……
+[k]
+
+？1：わかる
+？2：ニンジャなら仕方ない
+
+？！
+
+[charaTalk E]
+[charaFace E 0]
+
+＠風魔小太郎
+……いえ。申し訳ありません。[r]やっぱり、僕は仕事が甘いようです……
+[k]
+
+[bgm BGM_EVENT_3 0.1]
+
+＠風魔小太郎
+きちんと始末しておくべきでした。[r]ほら、このように[line 3]
+[k]
+
+
+
+
+＠風魔小太郎
+よくないモノをけしかけられたようです。[r]どれほど情けなくても鬼は鬼、でしたか。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+
+＠マシュ
+いえ、小太郎さんの真心は間違っていません！[r]悪いのは逆襲にきた鬼さんです！
+[k]
+
+＠マシュ
+突破します！[r]切り抜けましょう、マスター！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

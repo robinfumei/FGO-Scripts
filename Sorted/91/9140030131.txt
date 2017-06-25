@@ -1,0 +1,149 @@
+＄91-40-03-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20110]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4003001 2 ドレイク]
+[charaSet E 4008001 2 ティーチ]
+[charaFadein E 0.1 1]
+[charaFace E 4]
+[fadein black 1]
+[wait fade]
+＠ティーチ
+またしても……敗北とは……[r]でも仕方ないよね、だって拙者亡霊だから……
+[k]
+
+[charaSpecialEffect E enemyErasure 0 1 2]
+[se ba6]
+[wait time 1]
+[wt 0.6]
+[charaFadein D 0.4 1]
+[charaFace D 4]
+＠ドレイク
+なんだったんだ、いったい……
+[k]
+
+[wt 0.4]
+[charaFace D 0]
+＠ドレイク
+[line 3]よし、忘れた。[r]あの手のバカは忘れるにかぎる。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+それよりお宝、お宝っと……[r]へええ、こいつは質がいい！
+[k]
+
+[se ad44]
+[wt 0.4]
+＠ドレイク
+鉱石、宝石、骨董品！[r]換金しやすく値崩れしないものばかりだ！
+[k]
+
+＠ドレイク
+ほら、アンタも見繕いなよ[%1]！[r]一緒にゴージャスな空気にひたろうじゃないか！
+[k]
+
+？1：……では、お言葉に甘えて……
+
+？2：……ひ、ひとつだけでいいですよ？
+
+？！
+
+[charaFadeout D 0.1]
+[messageOff]
+[fadeout black 1]
+[wait fade]
+[wt 0.3]
+[scene 20110]
+[charaFadein D 0.1 1]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+さて、めぼしいものは回収したね。[r]そろそろ戻ろうか。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+[charaFace A 6]
+＠マシュ
+[line 2]？　船長、まだ骨董品が残っていますよ？
+[k]
+
+[charaFace D 1]
+[charaFace A 0]
+＠ドレイク
+それはいいよ、こっちも少人数だし、[r]欲をかいてもつまらない。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ドレイク
+ああ、でも一つ仕事を忘れてた。[r]……………よし、これでいい。
+[k]
+
+＠Dr.ロマン
+宝箱の内側を傷付けてる……？[r]ドレイク船長、今のは何を？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFadein A 0.1 2]
+＠ドレイク
+黄金の鹿を書いたのさ。[r]アタシがお先にいただいたってサインだね。
+[k]
+
+＠ドレイク
+後でここにきた間抜けはこのサインを見て、[r]“チクショウ、ゴールデンハインドめ！”と悔しがる。
+[k]
+
+[charaFace D 1]
+＠ドレイク
+そうしてアタシの悪名はコツコツと広まるって寸法さ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+鹿……黄金の、鹿……？
+[k]
+
+＠ドレイク
+さあ、行くよ[%1]。[r]さっさと陸に戻って宴会としゃれこもう！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 0 5 0 4]
+＠Dr.ロマン
+う、うん、船長がそういうならそうなんだろう。[r]ほら、ボクらも行こう[%1][&君:ちゃん]。
+[k]
+
+[communicationCharaFace 0]
+[charaFace A 13]
+＠Dr.ロマン
+たしかに長居は禁物だ。[r]いつ次の海賊がやってくるかわからない。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+今回は気持ちよく、[r]船長のおこぼれにあずかろうじゃないか。
+[k]
+
+[charaFace A 1]
+＠マシュ
+はい。早くバーに行って、[r]ドレイク船長の歌を聴くとしましょう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_1 0.4]
+[wait fade]
+[soundStopAll]
+[end]

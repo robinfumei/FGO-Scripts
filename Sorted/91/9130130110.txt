@@ -1,0 +1,480 @@
+＄91-30-13-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 3013001 1 スカサハ]
+[charaSet E 3001001 1 クー・フーリン]
+
+[scene 20800]
+[fadein black 2]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠スカサハ
+……さて、と。[r]用意はいいか、クー・フーリン。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠クー・フーリン
+用意も何も、呼び出された理由さえ聞かされて[r]ないんだが……いやまあ、大体わかるけどよ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠スカサハ
+うむ。こうして召喚されたのも何かの縁。[r]一つ、私を仕留めてもらおうと思ってのう。
+[k]
+
+[charaFace E 4]
+＠クー・フーリン
+あー、はいはい。最高の呼吸と打点をもって、[r]心臓でも脳天でも打ち抜けばいいんだろ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[bgmStop BGM_EVENT_2 0.1]
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+!?　いえ、それは単なる殺傷行為では!?[r]あの、殺し合いは止めて戴きたいのですが……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+嬢ちゃん、無理無理。[r]こうなった師匠は止められねーわ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+せ、先輩どうしましょう……。
+[k]
+
+？1：止めて欲しい
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠スカサハ
+いや、止めてくれるな主殿。[r]これは千載一遇の機会なのだ。
+[k]
+
+？2：何故死にたがるんです？
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠スカサハ
+そりゃあ生きているのなら死にたいだろうさ。[r]それも“ならば良し”と思える、最高の一棘を受けてな。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+贅沢な悩みとも、はた迷惑な望みとも承知している。[r]だが、これは千載一遇の機会なのだ。
+[k]
+
+？！
+
+[charaFace D 4]
+＠スカサハ
+私は死を願えど果たせない体だ。[r]世界に焼き付いた亡霊に近い。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+しかし今回は『世界の焼却』によって影の国も消え、[r]こうして英霊として召喚されたのだ。
+[k]
+
+＠スカサハ
+戦士として戦い、敗北すれば命を失う[line 3][r]そんな、まっとうな人らしい機会が巡ってきた。
+[k]
+
+[charaFace D 1]
+＠スカサハ
+ならば試したいと思うのが人情だろう？[r]もっとも、私を超える戦士がいればの話しだが。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠スカサハ
+のうクー・フーリン？[r]あれから少しは腕は上がったか？
+[k]
+
+＠スカサハ
+私は影の国から出られなかった故、[r]使いを送るぐらいしか確かめる術がなかったか？
+[k]
+
+[charaFace E 4]
+＠クー・フーリン
+ああ、少しはな。下がってな[%1]。[r]この女には言葉より槍の穂先が似合ってる。
+[k]
+
+＠クー・フーリン
+……ったく。何もしらねえガキを使いに送るなんざ、[r]悪趣味にも程がある。
+[k]
+
+[charaFace E 0]
+＠クー・フーリン
+アンタは肉体は死なないかわりに魂が死んでいた。[r]賢人だが、性根は冥府の魔物と変わらん。
+[k]
+
+＠クー・フーリン
+その魂がこうして生き生きと現界していやがるんだ。[r]引導を渡してやるのが弟子のつとめってもんだろう？
+[k]
+
+＠スカサハ
+うむ、それでこそ光の御子。[r]今度こそ私を斃してみるがいい。
+[k]
+
+[bgmStop BGM_EVENT_5 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace E 1]
+＠クー・フーリン
+任せな。我が槍は因果逆転の呪いの一棘、[r]狙った獲物は絶対に外さねぇ。
+[k]
+
+[charaFace E 2]
+＠クー・フーリン
+[line 3]いくぜスカサハ。[r]その心臓、もらい受ける[line 3]！
+[k]
+
+[charaFace D 5]
+＠スカサハ
+よく言った！[r]我が弟子、その紅槍がこの胸を貫くこの瞬間を[line 2]。
+[k]
+
+＠スカサハ
+永遠の底で、[r]凍りながら待ち望んでいたぞ……！！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove E 0 0.3]
+[charaMove D 2 0.3]
+[fadeout white 0.15]
+[wait fade]
+[se bac14]
+[wt 1.5]
+
+[bgmStop BGM_EVENT_3 0.1]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaTalk on]
+
+[wipeout upToDown 0 1]
+[wait wipe]
+
+[fadein white 1.0]
+[wait fade]
+
+[wt 1.5]
+[wipein rollLeft 1.5 1]
+[wait wipe]
+
+[wt 0.7]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+＠クー・フーリン
+すまん。しくじった。
+[k]
+
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠スカサハ
+この馬鹿弟子が[line 3]！[r]なんでこう大事な時に当たらないのだ、おまえの槍はー！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+すごい……ゲイボルクの穂先、[r]遙か彼方までカッ飛んでいったぞ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、まだ軌跡が飛行機雲のように残っています。[r]マッハ出てました、マッハ。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そうか、スカサハの死の運命はここでは見つからなかった[r]から、あんな大暴投になったんだな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠スカサハ
+……はあ。そういう事か。[r]では馬鹿弟子の手加減ではなかったのだな。
+[k]
+
+[charaFace D 2]
+＠スカサハ
+が、それはそれとして、じゃ！[r]これセタンタ！　なんじゃ、あのザマは！
+[k]
+
+＠スカサハ
+おぬし、影の国時代より劣化しているではないか！[r]まるでリスのようじゃ！　鍛錬を怠ったのか！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠クー・フーリン
+へいへい、そうですよー。[r]どうせオレは弱くなってますよー。
+[k]
+
+[charaFace E 0]
+＠クー・フーリン
+なにしろ半分抜けてっからな。自分でもよく分からんが、[r]とにかく全盛期じゃねえんだよ。
+[k]
+
+[charaFace D 5]
+＠スカサハ
+なんだと？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.7]
+[charaFace A 6]
+[wt 0.4]
+＠マシュ
+あ。もしかして……以前、クー・フーリンはキャスターと[r]してわたしたちに協力してくれましたが……
+[k]
+
+[charaFace A 7]
+＠マシュ
+クラスごとに“別のクー・フーリンさん”が在ることで、[r]その容量が分散されているのではないでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+げ。キャスターやってるオレなんていやがるのか。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠スカサハ
+なるほど。そういえばこやつ、生粋の戦士のくせに[r]無駄にルーンが上手かったからのう……
+[k]
+
+[charaFace D 1]
+＠スカサハ
+だがよい話をしてくれた、マシュ。[r]まだ可能性は残っている。
+[k]
+
+[charaFace D 0]
+＠スカサハ
+クー・フーリンよ。その体で修行をし直すがいい。[r]おまえの事だ、無心で鍛錬すれば失った分はすぐに戻る。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……無心って、何も考えるなって事だよねそれ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠クー・フーリン
+ああ？　修行をもう一度やり直せってコトか？
+[k]
+
+＠スカサハ
+それ以外どう聞こえた、ばかもん。基礎は備わっている。[r]後は実戦で経験を積むばよい。
+[k]
+
+＠スカサハ
+よし、決まった。[r]では修行の旅に出るぞ。
+[k]
+
+[charaFace E 2]
+＠クー・フーリン
+はあ、今からかあ!?　[charaMove D 3 0.4][charaFadeout D 0.4]って後ろ髪を引っ張るな！[r]そこの[charaMove E 1 0.4][charaFadeout E 0.4]赤白髪！　笑ってないで何とかしやがれー！
+[k]
+
+[wt 0.4]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……い、行っちゃいました。[r]どうしましょう、マスター。
+[k]
+
+？1：追いかけよう
+？2：同行しよう
+？！
+
+[charaFace A 7]
+＠マシュ
+そうですよね。[r]そうするしかありませんよね、行きましょう！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.1]
+
+[charaFadeout A 0.1]
+[wt 1.5]
+[scene 20700]
+[bgm BGM_EVENT_3 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.4]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.4 1]
+[charaMove D 0 0.4]
+[wt 0.15]
+[charaFace E 4]
+[charaFadein E 0.4 5]
+[charaMove E 2 0.4]
+＠スカサハ
+よし、ではキメラ退治からだ。[r]きりきり働けい。
+[k]
+
+＠クー・フーリン
+分かった、分かったから髪を引っ張るのはナシな！[r]……ったく。面倒だが付き合うしかねえな、こりゃ。
+[k]
+
+[se ad59]
+[wt 0.7]
+＠マシュ
+待ってくださーい！
+[k]
+[charaFadeout E 0.1]
+[seStop ad59 1.0]
+[wt 0.7]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[wt 0.4]
+
+[wt 0.7]
+[charaFace D 0]
+＠スカサハ
+む、おぬしたちも修行に参加するか？
+[k]
+
+？1：チャンスは一人でも多くに
+？！
+
+＠スカサハ
+……なるほど。[r]確かに我らはサーヴァント。
+[k]
+
+＠スカサハ
+マスターのバックアップがあれば、[r]サーヴァントの力もいや増すというもの。
+[k]
+
+[charaFace D 1]
+＠スカサハ
+よし、お前たちも参加を許す。[r]クー・フーリンと共にキメラを倒してみよ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+分かりました！[r]クー・フーリンさん、頑張りましょう！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠クー・フーリン
+アンタらも物好きだねぇ……まあこっちは助かるけどよ。[r]師匠の前で二度も恥を晒す訳にはいかねえ。
+[k]
+
+[charaFace E 1]
+＠クー・フーリン
+行くぞ、マスター！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,77 @@
+＄01-00-06-26-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 8001002 1 マシュ]
+[charaSet C 5009001 1 ダ・ヴィンチ]
+[charaSet G 5012001 1 ニトクリス]
+
+[scene 21510]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠ニトクリス
+[line 6]まさに、歴戦の勇士の剣。[r]それでこそ王への拝謁に値する……
+[k]
+
+＠ニトクリス
+……お許しを、太陽王。私はやはり……[r]ファラオを名乗るには、力不足だったようです……
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+[messageOff]
+[charaFadeout G 0.4]
+[wt 0.5]
+[se ad144]
+[wt 0.5]
+
+[bgm BGM_EVENT_2 0.1]
+
+？1：……なんとか峰打ちできたね
+？2：後で恨まれそうだけど、仕方ない
+
+？！
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい。女王ニトクリスは真剣勝負だったのに、と[r]怒るでしょうけど……
+[k]
+
+＠マシュ
+わたしたちは彼女に何度も助けられました。
+[k]
+
+＠マシュ
+だから一度ぐらい、[r]彼女も受け入れてくれると思います。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ダ・ヴィンチ
+ああ、これこそ因果応報ってヤツだ。[r]助けたんだから助けられても文句は言えないさ。
+[k]
+
+＠ダ・ヴィンチ
+さあ、玉座に向かおう！[r]いよいよ本丸、オジマンディアス王と対決だ！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,301 @@
+＄94-00-31-02-1-0
+
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 98062000 1 アイリスフィール]
+[charaSet F 98060000 1 アルトリア]
+
+[scene 25000]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠エルメロイ
+そもそも冬木の聖杯戦争というのは[r]詐欺みたいなものでね。
+[k]
+
+＠エルメロイ
+願望機を巡るバトルロイヤル、という体裁は、[r]他の参加者を釣るための真っ赤な嘘なんだよ。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+嘘って、そんな……[r]願いが叶うと言って騙すなんて、刑事案件です！
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+まったくだ。どこぞの別世界では聖杯戦争が普遍化したと[r]いうから、その世界でなら訴えられているな。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+ともあれ、こちらの……。
+[k]
+
+＠エルメロイ
+いや、私の世界ではそうはいかない。[r]聖杯戦争はここでしか起きなかったのだから。
+[k]
+
+[charaFace D 5]
+＠エルメロイ
+この戦いは参加したサーヴァントが脱落するにつれ[r]大災害のカウントダウンが進むという婉曲な罠だ。
+[k]
+
+＠エルメロイ
+ここに召喚されたサーヴァントが一定数まで生け贄に[r]なった時点で“[#この世すべての悪:アンリマユ]”が起動する。
+[k]
+
+？1：この世すべての悪？
+？2：なんか物騒な呼び名ですね
+
+？！
+
+[charaFace D 0]
+＠エルメロイ
+詳しい実体まで知る必要はないが、[r]地球破壊爆弾の類似品とでも思っておきたまえ。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+その時点における人類史を破壊し尽くすには[r]充分な威力の代物だ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+君たちが最初に定礎復元した特異点F……。
+[k]
+
+＠エルメロイ
+あれは５度目の聖杯戦争が完遂された後の[r]冬木市の姿なんじゃないかと私は見ている。
+[k]
+
+＠エルメロイ
+世界が崩れだした最初のポイント。[r]成功させてはいけない儀式を成功させてしまった、ね。
+[k]
+
+[charaFace A 14]
+＠マシュ
+でも、どうしてそんな酷い罠を？[r]いったい誰が仕掛けたんです？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+儀式の本来の目的は他にあって、[r]それが馬鹿げた人災で変質してしまったんだが、
+[k]
+
+＠エルメロイ
+それはこの時間軸においても「過去」の話だ。
+[k]
+
+＠エルメロイ
+ともかく問題なのは、シバがこの時点での冬木に[r]聖杯に類する反応を感知したという、その矛盾だ。
+[k]
+
+＠Dr.ロマン
+そうか、聖杯が既にあるということは……。
+[k]
+
+＠エルメロイ
+ああ。聖杯が既に出現しているなら街はとっくに[r]火の海のはず。だが一見したところ何の異常もない。
+[k]
+
+＠エルメロイ
+カルデアで感知された聖杯は、アンリマユに[r]汚染された冬木の大聖杯とはまた別の代物だろう。
+[k]
+
+＠エルメロイ
+私の記憶でも、４度目の聖杯戦争はまだ序盤も序盤だ。[r]戦局が大きく動くのは、今夜が契機だ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+なるほど。[r]それでさっきから時間を気にしてるんですね。
+[k]
+
+＠エルメロイ
+ああ。今はともかく状況に先んじることが肝要だ。[r]そこで、この港湾地区が鍵になる。
+[k]
+
+？1：ここでいったい何が起こるんです？
+
+？！
+
+[bgmStop BGM_EVENT_2 1.5]
+[charaFace D 5]
+＠エルメロイ
+うむ、それを説明してやるより先に、お喋りの時間が[r]尽きたぞ。どうやら状況に追いつかれたようだ。
+[k]
+
+
+[bgm BGM_EVENT_1 0.1]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 1]
+
+＠E：？？？
+そこのあなたたち、いったい何者なの？
+[k]
+
+[charaFace E 5]
+＠E：？？？
+サーヴァントを連れている以上は[r]聖杯戦争の参加者みたいだけれど……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace E 5]
+[charaFace F 0]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+
+＠F：セイバー
+アイリ、奇妙です。[r]さっきまで我々を誘っていたランサーの気配がない。
+[k]
+
+？1：あれは……セイバー？
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[wt 0.1]
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+パッと見はそうだけど、あれは違う。[r]だってもう他のマスターと契約している！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+？2：またしてもヒロインXさん事案？
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+それは忘れましょう、先輩……[r]今回は徹頭徹尾、シリアスなので……。
+[k]
+
+[charaFadeout A 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+あれが第四次聖杯戦争における七英霊の一角、[r]セイバークラスで顕現したアルトリア・ペンドラゴンだ。
+[k]
+
+＠エルメロイ
+そういう訳で申し訳ないがランサーに代わり我々がお相手させて[r]いただきます。アイリスフィール・フォン・アインツベルン。
+[k]
+
+[bgm BGM_EVENT_1 0.5]
+[wt 0.5]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace E 5]
+[charaFace F 2]
+[charaFadein E 0.1 2]
+[charaFadein F 0.1 0]
+＠アルトリア
+な……貴様、どうやって私の真名を！？
+[k]
+
+[charaFace E 2]
+＠アイリスフィール
+只者じゃないわね。男性なのに長髪だし。[r]気をつけて、セイバー！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+[wt 0.5]
+[se bas1]
+[fowardEffect bit_talk_tornado01]
+
+[wt 0.8]
+[charaChange F 1001000 0 fade 0.5]
+[wait charaChange F]
+
+
+
+
+[wt 1.5]
+
+[charaFadeout F 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エルメロイ
+さて[%1]、第二ラウンドだ。[r]今度はさっきのアサシンと違って格段に手強いぞ。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+苦戦を強いられるだろうが重ねて縛りをもうひとつ。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+……悪いが、今この場でセイバーは倒すな。[r]退散させるだけに留めること。
+[k]
+
+？1：そんな無茶な！
+？2：どうしろっていうんです？
+
+？！
+
+[charaFace D 0]
+＠エルメロイ
+立て込んでいると言っただろう。[r]事情は後で説明する。[charaFace D 2]さあ頑張れ！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

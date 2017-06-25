@@ -1,0 +1,920 @@
+＄01-00-06-20-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+
+[charaSet A 98093000 1 獅子王]
+[charaSet B 98098000 1 アグラヴェイン]
+[charaSet C 1020000 1 ランスロット]
+[charaSet D 1007002 1 ガウェイン]
+[charaSet E 2008000 1 トリスタン]
+[charaSet F 1009001 1 モードレッド]
+
+
+[scene 29600]
+
+[fadein black 2.0]
+[wait fade]
+
+[se ad95]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.5]
+[seStop ad95]
+
+＠ランスロット
+只今戻りました陛下。補佐官殿より火急の任が入り、[r]帰還が遅れた事、お詫び致します。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠獅子王
+良い。卿に命じた任務は[r][#聖抜:せいばつ]に[#適:かな]う人間を保護する事だ。
+[k]
+
+＠獅子王
+それが達成されているのなら、[r]私から下す罰はない。面を上げるがいい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+は。有りがたきお言葉。陛下の御心を汚さず済んだ事、[r]このランスロット至上の喜び。
+[k]
+
+＠ランスロット
+聖抜に適った者は十二名。[r]既に聖都に入場し、管理官に引き継ぎを行いました。
+[k]
+
+[charaFace C 5]
+＠ランスロット
+[line 3]以後は私も聖都の守備に入ります。[r]補佐官殿も、それでよろしいかな？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アグラヴェイン
+……もちろん。叛逆者の討伐に長く時間をかけた事は[r]問題だが、王の赦しがあったのだ。不問としよう。
+[k]
+
+＠アグラヴェイン
+卿には第三尖塔の守備に入ってもらう。[r]卿の活躍により王の計画は最終段階に入った。
+[k]
+
+＠アグラヴェイン
+オジマンディアスとの対決も近い。[r]第三尖塔こそ王城の守りの[#要:かなめ]。
+[k]
+
+＠アグラヴェイン
+それを任された事を光栄に思うがいい。[r][line 3]早々に塔に向かわれよ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+……その前に。[r]どうか質問を許されたい、我が王よ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠アグラヴェイン
+不敬、かつ不要である。[r]王には聖槍の準備が待っている。発言は控えよ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠獅子王
+待てアグラヴェイン。長きにわたる任務にも褒美一つ[r]求めぬ騎士の願いだ。無下にはできない。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠アグラヴェイン
+…………は。[r]発言を許す。何かね、ランスロット卿。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+今回、私はトリスタン卿の要請に応え、[r]叛乱分子の村を攻撃いたしました。
+[k]
+
+＠ランスロット
+その村に、聖都正門で罪を侵した[r]叛逆者たちがいた故の協力です。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠獅子王
+聞いている。見事な活躍だったなランスロット。[r]それが？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+……なぜ、聖槍を振るわれたのです。[r]戦いはトリスタン卿の焼き討ちですら過剰でした。
+[k]
+
+＠ランスロット
+その上に裁きの光を落とすのは過酷極まりない。[r]王はこの荒野を治めるために聖槍を振るってきた。
+[k]
+
+[charaFace C 4]
+＠ランスロット
+されど、たとえ叛乱分子であろうと、その居住区に[r]裁きの光を落とした事は一度もない。
+[k]
+
+[charaFace C 0]
+＠ランスロット
+……この危機下、統治を早めるには恐怖を利用する。[r]それが獅子王の正義だと私たちは信じてきた。
+[k]
+
+＠ランスロット
+ですが村に聖槍を振るわれるのは違う。[r]それは正義でもなく、恐怖すら通り越している。
+[k]
+
+[charaFace C 5]
+＠ランスロット
+王よ。なぜ村にあのような仕打ちをなさったのです。[r]その真意をお聞かせ願いたい。
+[k]
+
+＠ランスロット
+それが貴方の決定ではなく、貴方以外の者[line 3][r][#政:まつりごと]を預かる者の意見であるなら尚のことです。
+[k]
+
+＠ランスロット
+卿らもそれが気になるのではないか？[r]王の判断は、本当に王によるものだったのかと。
+[k]
+
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk off]
+
+[charaFace F 5]
+[charaFace D 5]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アグラヴェイン
+………何が言いたいのかな、ランスロット卿。[r]ずいぶんと、含みのある物言いだが。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+そう聞こえるのは邪念ある者だけだ。[r]探られれば痛む腹など、我ら円卓には不用なり。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+[charaFadeout B 0.4]
+[wt 0.6]
+[charaScale B 1.2]
+[wt 0.1]
+
+[se ad51]
+[charaFadein B 0.4 1]
+
+＠アグラヴェイン
+………………貴様。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaScale B 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠獅子王
+下がれアグラヴェイン。……ふ。ランスロットが[r]相手となると、貴卿はなぜか短気になる。
+[k]
+
+[charaFace A 0]
+＠獅子王
+そして聞け、我が騎士たちよ。[r]聖槍による粛正は、すべて我が意思によるもの。
+[k]
+
+[charaFace A 0]
+＠獅子王
+これまで居住区に落とさなかった理由は明白だ。[r]村を焼けば反抗勢力の火は強くなる。
+[k]
+
+＠獅子王
+山の民たちの結束は強まり、[r]聖都を侵攻する軍備の一つも整えるだろう。
+[k]
+
+＠獅子王
+それは無用である。聖槍の準備が整うまで、[r]下らぬ掃討戦にかまける時間はない。
+[k]
+
+[charaFace A 0]
+＠獅子王
+だが[line 3]聖槍は最終段階に入った。[r]最果ての塔は、ついに我らを迎え入れる。
+[k]
+
+[charaFace A 0]
+＠獅子王
+……我らにとって最大の敵は時間だった。
+[k]
+
+[charaFace A 0]
+＠獅子王
+人理焼却を終えた彼の王が次の段階に入る前までに、[r]最果ての塔を開かねばならなかった。
+[k]
+
+＠獅子王
+そして、それはじき成ろうとしている。[r]もはや山の民たちの反抗など些事にすぎない。
+[k]
+
+＠獅子王
+よって、村への直接粛正を行った。[r]これにより反抗勢力が蜂起するのであれば、それも良い。
+[k]
+
+＠獅子王
+少数による聖都への玉砕ならば、[r]その殲滅はガウェイン卿一騎で事足りる。
+[k]
+
+＠獅子王
+これが我が真意だ。[r]異論はあるか、サー・ランスロット。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+しかし……！[r]そうであれば粛正の必要もありますまい！
+[k]
+
+[charaFace C 4]
+＠ランスロット
+聖都の守りが完全であるのなら、[r]無闇に彼らの命を奪う必要など……！
+[k]
+
+[charaFadeout C 0.1]
+
+[messageOff]
+[se ad95]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.5]
+[seStop ad95]
+
+＠トリスタン
+……いえ。それが完全ではありません。[r]王の御心を乱す脅威はまだ生きています。
+[k]
+
+＠トリスタン
+……ランスロット卿。[r]私たちの失態によって、ですが。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+＠ガウェイン
+戻ったのですねトリスタン。[r]……しかし、今のはどういう？
+[k]
+
+＠トリスタン
+……悲しい事に。[r]東の村は消滅しておりません。
+[k]
+
+＠トリスタン
+叛逆者についていたサーヴァントによる抵抗でしょう。[r]あろうことか、彼らは王の光を防ぎきった。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+
+＠アグラヴェイン
+聖槍の一撃を防いだ、だと！？[r]奴らにそんな手駒はいなかったぞ……！
+[k]
+
+[charaFace E 5]
+＠トリスタン
+それがひとり、いたのです。[r]アーラシュ・カマンガー。私と競り合う程の名手でした。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠モードレッド
+マジかよ！[r]あの野郎、やるじゃねえか！
+[k]
+
+＠アグラヴェイン
+おまえは黙っていろモードレッド！[r]獅子王のお叱りを受けるぞ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠トリスタン
+……ええ、大したものです。[r]そして、彼はランスロット卿にお願いした相手でもある。
+[k]
+
+＠トリスタン
+……私の判断の甘さもありましたが、[r]貴方の落ち度でもあります、ランスロット。
+[k]
+
+[charaFace E 0]
+＠トリスタン
+結果、叛逆者たちは生き延び、山を去りました。[r]砂漠方面に向かいましたが、そこで私の[#弦:いと]は切れた。
+[k]
+
+[charaFace E 5]
+＠トリスタン
+おそらくオジマンディアスと手を組む腹でしょう。[r]……考え得るかぎり、最悪の組み合わせです。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠アグラヴェイン
+なんという不手際だ……！[r]どう責任をとる、ランスロット！
+[k]
+
+[charaFace C 5]
+＠ランスロット
+………………無論。[r]叛逆者を追い、これを捕らえる。
+[k]
+
+[charaFace C 4]
+＠ランスロット
+処罰はその後に。[r]汚名をそそいだ後、王にこの首を預けるのみ。
+[k]
+
+[charaFace B 3]
+＠アグラヴェイン
+要らぬわ、たわけ！　追撃は他の者に任せる！[r]貴様にかける温情はない！
+[k]
+
+[charaFace B 3]
+＠アグラヴェイン
+ガウェイン卿、ランスロットを捕らえよ！[r]翌朝をもってその任を解き、幽閉刑と[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠獅子王
+[line 3]間に合うのか、ランスロット。[r]叛逆者たちの星は速く、また自由だ。
+[k]
+
+＠獅子王
+貴公にその星を捕まえられると？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.1 2]
+[charaFadein C 0.1 0]
+
+＠ランスロット
+無論。[r]我が宝剣、アロンダイトにかけて。
+[k]
+
+[charaFace B 0]
+＠アグラヴェイン
+王！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠獅子王
+叛逆者の追撃を命じる、ランスロット。[r]急げよ。王城の壁はじき現れる。その前に戻るがいい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠ランスロット
+は！
+[k]
+
+[messageOff]
+[charaFadeout C 0.4]
+[wt 0.8]
+
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠アグラヴェイン
+っ……！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠獅子王
+そう猛るな、アグラヴェイン。[r]ランスロットであれば間違いはない。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠アグラヴェイン
+…………そう、でしょうな。[r]貴方はいつも、そう信じていらした。
+[k]
+
+[charaFace B 0]
+＠アグラヴェイン
+……出過ぎた発言でした。[r]お許しください、我が王よ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace B 0]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠トリスタン
+……アグラヴェイン卿。[r]もう一つ、報告を続けてよろしいでしょうか。
+[k]
+
+＠アグラヴェイン
+なんだ。これ以上何があると？
+[k]
+
+[charaFace E 4]
+＠トリスタン
+……はい。[r]叛逆者たちの中に、彼の者がいたのです。
+[k]
+
+＠トリスタン
+隻腕の騎士。円卓の中でもっとも忠義に厚きもの。[r]……我らが盟友、サー・ベディヴィエールの姿が。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk off]
+
+[charaFace F 4]
+[charaFace D 5]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+[wt 1.0]
+
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠アグラヴェイン
+なん……だと？
+[k]
+
+＠アグラヴェイン
+ベディヴィエールだと！？[r]なぜヤツが現れる！？　そんな筈がない！
+[k]
+
+[charaFace B 0]
+＠アグラヴェイン
+冗談は酒場か、女にのみ披露したまえトリスタン卿！[r]ベディヴィエールなど、もっとも有り得ない話だ！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace B 0]
+[charaFace F 0]
+[charaFadein B 0.1 2]
+[charaFadein F 0.1 0]
+
+＠モードレッド
+ああ、その通りだぜアグラヴェイン。
+[k]
+
+[charaFace F 1]
+＠モードレッド
+おかしいにも程があるだろ？[r]アイツみてぇな軟弱騎士が、なんでかあっちの[line 3]
+[k]
+
+[charaFace B 3]
+＠アグラヴェイン
+モードレッド！　貴様、知っていたのか！？
+[k]
+
+[charaFace F 3]
+＠モードレッド
+あ……いや、そう重要な話でもないかなって！[r]だってさ、そもそもガウェインだって黙ってただろ！？
+[k]
+
+[charaFace B 0]
+＠アグラヴェイン
+下らない言い逃れは[line 6]いや、そうか。[r]正門での戦いは、そういう事だったのか。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk B]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠アグラヴェイン
+ガウェイン卿。これはどういう事だ。[r]なぜ我々に、王に報告しなかった。
+[k]
+
+＠アグラヴェイン
+ベディヴィエールが叛逆者に手を貸しているなど、[r]それではトリスタン卿も不覚を取るというもの。
+[k]
+
+＠アグラヴェイン
+あの男は技量こそ未熟だが、我ら円卓の内情に詳しい！[r]加えて、王にとって最も近い従者[line 3]
+[k]
+
+[charaFace B 3]
+＠アグラヴェイン
+いや、それはいい。[r]私情でその判断を誤ったというか！
+[k]
+
+[charaFace D 5]
+＠ガウェイン
+ベディヴィエール卿について報告しなかったのは、[r]それが取るに足りない事だからです。
+[k]
+
+＠ガウェイン
+彼は獅子王に召喚される事もなかった未熟者。[r]叛逆者にすぎない。
+[k]
+
+[charaFace D 0]
+＠ガウェイン
+そんな騎士を特別視する必要はありません。[r]なぜなら[line 3]我らが王は完全です。
+[k]
+
+＠ガウェイン
+その判断も、理念も、行いも。[r]一点の過ちもなきものと私は信じる。
+[k]
+
+＠ガウェイン
+であれば騎士の一人や二人、[r]寝返ったところで大局に影響はない。
+[k]
+
+＠ガウェイン
+サー・ベディヴィエール、なにするものぞ。[r]彼が何をしようが、獅子王の御心は乱れない。
+[k]
+
+[charaFace D 0]
+＠ガウェイン
+違いますか、アグラヴェイン？
+[k]
+
+[charaFace B 0]
+＠アグラヴェイン
+………………確かに。[r]あの男が敵に回って、何ができる訳でもない。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠アグラヴェイン
+……ご苦労だった、ガウェイン卿。[r]正門の守備に戻りたまえ。
+[k]
+
+
+[charaFadeout B 0.1]
+
+[charaTalk E]
+[charaFace B 0]
+[charaFace E 0]
+[charaFadein B 0.1 2]
+[charaFadein E 0.1 0]
+
+＠トリスタン
+……何ができる筈もない、ですか。[r]確かに、以前のサー・ベディヴィエールであれば。
+[k]
+
+[charaFace B 0]
+＠アグラヴェイン
+……含みのある物言いだな。
+[k]
+
+＠アグラヴェイン
+ベディヴィエールは卿にとって近しい友だった。[r]処断しなかったのは、卿の有情によるものか？
+[k]
+
+[charaFace E 1]
+＠トリスタン
+……まさか。[r]私に私情はありませんでした。
+[k]
+
+＠トリスタン
+私に与えられた[#祝福:ギフト]は“反転”です。[r]それをお忘れではないでしょう？
+[k]
+
+＠アグラヴェイン
+……忘れるものか。[r]確かに、今の卿が私情に流される筈もなかったな。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アグラヴェイン
+トリスタン卿は城下町の警護に。[r]モードレッド卿は聖都周辺の掃討を続けよ。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[charaTalk off]
+
+[charaFace F 0]
+[charaFace E 0]
+[charaFace D 0]
+[charaFadein F 0.1 2]
+[charaFadein D 0.1 0]
+[charaDepth E 3]
+[charaFadein E 0.1 1]
+[wt 1.0]
+
+[charaFadeout F 0.4]
+[charaFadeout E 0.4]
+[charaFadeout D 0.4]
+[wt 0.5]
+[charaTalk on]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠アグラヴェイン
+…………。[r]玉座を騒がせた無礼、お許しください王よ。
+[k]
+
+[charaFace B 0]
+＠アグラヴェイン
+ベディヴィエール卿の事はどうかお気になさらず。[r]トリスタン卿の誤認、という事もありえます。
+[k]
+
+＠アグラヴェイン
+仮に本物だったとしても、その時は改めて[r]獅子王の円卓に迎え入れればいいだけの話。
+[k]
+
+＠アグラヴェイン
+……問題は何もありません。[r]万全の準備で最果ての塔への扉をお開けください。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠獅子王
+…………いや。[r]卿らは、先ほどから何の話をしている？
+[k]
+
+[charaFace B 3]
+＠アグラヴェイン
+は？
+[k]
+
+＠獅子王
+ベディヴィエール[line 6]
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+[charaFace A 0]
+＠獅子王
+ベディヴィエールとは、誰の事だ？
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[charaChange A 8001001 0 fade 0]
+[charaChange B 1012001 0 fade 0]
+
+[charaSet G 98002000 1 フォウ]
+
+[charaFadeout A 0]
+[charaFadeout B 0]
+
+[wt 1.0]
+[bgm BGM_EVENT_3 0.1]
+
+[scene 28400]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠ベディヴィエール
+前方に敵影です！[r]皆さん、戦闘準備を！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.5]
+
+＠Dr.ロマン
+反応自体はそう大したものじゃない、[r]今のキミたちなら蹴散らせる相手だ！
+[k]
+
+＠Dr.ロマン
+ここを越えたらもう砂漠に入る、[r]砂漠ではボクからの通信は届かない。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でも[%1][&君:ちゃん]の反応は[r]常にモニターしているから、意味消失する事はない！
+[k]
+
+＠Dr.ロマン
+ナビゲートできないのは残念だけど、[r]とにかく気をつけて！
+[k]
+
+＠Dr.ロマン
+砂漠から荒野に戻ってきた時、一回り成長した[r][%1][&君:ちゃん]の姿を見せてくれ！
+[k]
+
+？1：任せて！
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+ああ、信頼しているとも！[r]グッドラック！
+[k]
+
+？2：いつもありがとう、ドクター！
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+いやいや、こちらこそ。[r]キミには感謝してもしたりない程だ。個人的にね。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+おっと、長話している場合じゃなかったな。[r]ボクもしっかりしないと。
+[k]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk G]
+[charaFadein G 0.1 1]
+
+＠フォウ
+フォ[line 5]ウ！
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠マシュ
+接敵します！[r]総員、馬から降りて迎撃開始です！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.5]
+[wait fade]
+[soundStopAll]
+[end]

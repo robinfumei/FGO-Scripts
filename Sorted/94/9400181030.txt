@@ -1,0 +1,147 @@
+
+＄94-00-18-10-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 7013001 1 清姫]
+
+[scene 21100]
+[fadein black 2]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.4 1]
+[wt 0.4]
+＠清姫
+[line 2]試練です！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+くっ……来る来るとは思っていましたが、[r]やはり清姫さん……！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠清姫
+はい、色恋沙汰のイベントでコミカルに[r]炎を振りまく、わたくし清姫でございます。
+[k]
+
+[charaFace C 2]
+＠清姫
+……コミカルじゃありませんけど！[r]純愛、シリアス、サスペンスが持ち味なんですけどね！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠フォウ
+フォー……？[r]フォ……ラー？
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+フォウさんがホラーは入らないのか、と[r]言いたげですがそれはともかく。
+[k]
+
+[charaFace A 7]
+＠マシュ
+全力で試練を受けさせて頂きます。[r]では[line 3]
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠清姫
+まあ、お待ちなさいマシュさん。[r]……マシュさんは、[#旦那様:マスター]のことをどう思っているの？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+はい！　誰より尊敬するべき先輩です！[r]あの人のサーヴァントであることを誇りに思います！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠清姫
+……そういうのではなくて。[r]もっとこう、直截的に。
+[k]
+
+＠清姫
+……恋や愛で、結びつきたくないのですか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+[FFFFFF]？[-][r]それはどういう意味合いでしょうか？
+[k]
+
+[messageOff]
+[fadeout black 1]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 1.0]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[fadein black 1]
+[wait fade]
+
+＠清姫
+……わかりました。その言葉に嘘はありません。[r]しかしそれはそれ、これはこれ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[bgm BGM_EVENT_3 0.1]
+
+[wt 0.1]
+[charaFace C 5]
+＠清姫
+試練の締めくくりとして[line 3]わたくしの焔。[r]受けていただきましょう！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+了解です！[r]このチョコレートは守ってみせます……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

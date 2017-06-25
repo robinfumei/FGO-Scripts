@@ -1,0 +1,1117 @@
+
+
+＄01-00-08-08-1-0
+
+
+[soundStopAll]
+
+[bgm BGM_EVENT_42 0.1]
+
+[scene 36301]
+[charaSet A 1009001 1 モードレッド]
+[charaSet B 6007001 1 ジキル]
+[charaSet C 5005001 1 アンデルセン]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 7004001 1 フランケンシュタイン]
+[charaSet F 5011001 1 バベッジ]
+[charaSet G 4023000 1 坂田金時]
+[charaSet H 5003001 1 玉藻の前]
+
+[fadein black 2.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+……ったく本気でキリがねぇな。とは言えだ！
+[k]
+
+＠モードレッド
+かろうじて道はできただろ。[r]行け、[%1]。
+[k]
+
+[charaFace A 5]
+
+＠モードレッド
+何だその顔。脚が動かないってか？[r]それなら言ってやる、いつまでも居られると邪魔だ！
+[k]
+
+
+[charaFace A 2]
+
+＠モードレッド
+ここから先は消耗戦、持久戦！[r]多少の魔術が使える人間程度がいても邪魔だ邪魔！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠ジキル
+今かなりぐさぐさと胸に刺さったんだけども、[r]そうだね。
+[k]
+
+[charaFace B 5]
+
+＠ジキル
+[%1]、マシュ。[r]行ってくれ。
+[k]
+
+
+＠ジキル
+この拠点は僕たちが引き受けるべきだ。[r]君たちには、まだ行くべき場所があるだろう？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 0]
+[charaFace C 0]
+[charaFadein C 0.4 2]
+
+＠シェイクスピア
+そこまで言われれば心苦しいですが仕方ありませんな！[r]不肖[#私:ワタクシ]、物語の行く末を見届けるため、いざさらば！
+[k]
+
+
+[charaFace C 1]
+
+＠アンデルセン
+意見が完全に合ったな劇作家！[r]俺もそろそろこの戦線には飽きてきたところだ。
+[k]
+
+[charaFace C 0]
+
+＠アンデルセン
+[#吶喊:とっかん]英霊どもの補佐なんぞキリがない。[r]英霊になってまで腱鞘炎になったらどうしてくれよう。
+[k]
+
+＠アンデルセン
+[line 3]まあ、そんなものになった事は一度もないが。[r]では全力で奮闘するがいい、いつかの家主と居候ども。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+おまえらじゃねぇよ！[r]いやおまえらもある意味邪魔っちゃ邪魔だけどアレだ、
+[k]
+
+[charaFace A 0]
+
+＠モードレッド
+おまえらがちょくちょくやってくる補助も[r]役立つから、いないと困るんだよ！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+
+[charaFace C 5]
+[charaFadein C 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+
+＠シェイクスピア＆アンデルセン
+…………チッ。[r]これだから、連載ものというヤツは……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaTalk on]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠モードレッド
+いちいちシンクロして舌打ちすんな、バカ！[r]芸風違うクセに仲良すぎだ！
+[k]
+
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[scene 36300]
+[wt 0.4]
+[charaFadeout A 0.1]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+
+＠玉藻の前
+うーん。[r]随分と張り切ってらっしゃるようですが。
+[k]
+
+[charaFace H 5]
+
+＠玉藻の前
+魔力、随分と減らしてしまって大丈夫なんです？[r][#私:わたくし]の応援にも限度はありましょう。
+[k]
+
+＠玉藻の前
+一応全員でチームみたいなものなんですし、[r]前のめりに倒れてタイムアウトとか勘弁ですよ？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+
+
+＠坂田金時
+へへッ。そういうアンタだって魔力の限界MAXまで[r]踏ん張って見えるぜフォックス？
+[k]
+
+＠坂田金時
+相も変わらずグレートな呪詛テクだがよ、そっちにも[r]リミットはあンだろうが。少しは休んでいいんだぜ？
+[k]
+
+
+[charaTalk H]
+[charaFace H 1]
+
+＠玉藻の前
+いえいえ、ご心配には及びません。[r]私、身を粉にしてまで尽くす女ではありませんので。
+[k]
+
+＠玉藻の前
+いざともなれば一人お先に黒天洞、[r]天岩戸に退避させていただきますから♡
+[k]
+
+
+[charaTalk G]
+[charaFace G 3]
+
+＠坂田金時
+（やっべえ……[r]　ここまでバレバレの嘘とか返しに困るジャン……）
+[k]
+
+[charaFace G 7]
+
+＠坂田金時
+（このフォックス、自分のこと見えてねえジャン？）
+[k]
+
+
+[charaTalk H]
+[charaFace H 5]
+
+
+＠玉藻の前
+なにか？[r]私の笑顔に文句がありまして？
+[k]
+
+
+[charaTalk G]
+[charaFace G 3]
+
+＠坂田金時
+い、いや、ねえジャン？[r]そうそう、オタク薄情だもんな？
+[k]
+
+[charaFace G 0]
+
+＠坂田金時
+やばくなったら真っ先に逃げる女って事で、ＯＫ？
+[k]
+
+
+[charaTalk H]
+[charaFace H 1]
+
+＠玉藻の前
+はい。そういう訳で心配は無用です。[r]いえ、気遣いは嬉しいのでお礼は言いますが。
+[k]
+
+
+[charaFace H 4]
+
+＠玉藻の前
+……しかし。[r]思えばお互い遠くへ来たものですねぇ。
+[k]
+
+＠玉藻の前
+英国旅行までならいざ知らず、何処の時空とも知れぬ[r]神殿もどきなぞで血みどろの[#いくさ]だなんて。
+[k]
+
+＠玉藻の前
+おかしな縁もあったもの。かつての京で、[r]互いに安倍晴明に迷惑を掛けられた者同士……
+[k]
+
+
+[charaTalk G]
+[charaFace G 0]
+
+＠坂田金時
+ああ。そうだなフォックス。
+[k]
+
+＠玉藻の前
+かつての京で思うさまアレやコレやの享楽に[r]耽りまくっていた[#慮外者:りょがいもの]同士……
+[k]
+
+
+＠坂田金時
+ああ。そうだな……って[messageShake 0.1 4 4 0.5][charaFace G 3]ノー、ノーだ！[r]いや待てオイラは全然そういうのはしてねーから。
+[k]
+
+[charaFace G 2]
+
+＠坂田金時
+天下の頼光四天王だ、清く正しいに決まってンだろ！
+[k]
+
+[charaFace G 0]
+
+＠坂田金時
+今も昔もガキに人気の金時さんだぜ！[r]江戸時代なんておまえ、老若男女問わずのアレだ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠玉藻の前
+どうですかねぇ。[r]あの頼光さんのアレのですしねぇ……
+[k]
+
+[charaFace H 0]
+
+＠玉藻の前
+ま、そんなコトはどうでも良いのです。[r]兎も角も魔神柱。流石に私もちょっぴり苛つきます。
+[k]
+
+[charaFace H 5]
+
+＠玉藻の前
+つーかガンガン聞こえます。[r]太陽殿に鎮座まします大本の、熱誠、激情、気炎万丈！
+[k]
+
+＠玉藻の前
+らしくもなく荒々しく昂ぶって、[r]これじゃあ荒魂なんだか和魂なんだか！
+[k]
+
+[charaFace H 0]
+
+＠玉藻の前
+ああ、もう。仕方ありません。[r]追加の尻尾を仮想展開しちゃったりしなかったり、
+[k]
+
+[charaFace H 1]
+
+＠玉藻の前
+やってしまおうじゃありませんか！[r]ただし、今後の霊基にそのまま刻むとかはＮＧで！
+[k]
+
+[messageOff]
+
+
+[se ad39]
+[fadeout white 1.0]
+[wait fade]
+
+[charaChange H 5003002 0 fade 1]
+[wt 1.0]
+[seStop ad39 1.0]
+[fadein white 1.0]
+[wait fade]
+
+
+
+＠玉藻の前
+[line 3]みこーん、っとタマモ七変幻っ☆
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠坂田金時
+ＯＫ、ゴールデンチェンジって訳だな！[r]こっちもいよいよヒュージ・ベアー号のお披露目だ！
+[k]
+
+[charaFace G 1]
+
+＠坂田金時
+行くぜ相棒[line 3][r]メガ・ゴージャス・ゴールデン・ヒュージ・ベアー！
+[k]
+
+[charaFadeout G 0.1]
+[messageOff]
+
+[se ad270]
+
+[wt 1.8]
+
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠玉藻の前
+あらまあ、なんとも[#巨:おお]きな大具足。[r]これってアレですか、ええとほら北山蓮台野の？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠坂田金時
+おうよ、大土蜘蛛を退治してみせた秘蔵の大具足だ！
+[k]
+
+[charaFace G 1]
+
+＠坂田金時
+南無八幡、ゴールデン・ハチマン・ドライブ！[r]喰らわせてやるぜェ[line 3]魔神柱の管制塔サンよ！
+[k]
+
+
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+[charaFadeout G 0.1]
+
+[scene 36301]
+
+[charaSet G 5010001 1 パラケルスス]
+[charaSet H 6005001 1 ジャック]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.4 1]
+
+＠パラケルスス
+良いですか、少女たち。[r]決して単騎での突出などはなさいませんよう。
+[k]
+
+＠パラケルスス
+ジャック、フランケンシュタイン。[r]貴方たちは努めて[#二人組:ツーマンセル]を心掛けてください。
+[k]
+
+＠パラケルスス
+後方より私とナーサリー・ライムが援護します。[r]ですが、それも絶対の効果ではありませんので[line 3]
+[k]
+
+[charaFace G 4]
+
+＠パラケルスス
+……そうですね、ヒット・アンド・アウェイです。
+[k]
+
+[charaFace G 0]
+
+＠パラケルスス
+一撃離脱。[#是:これ]を基本戦術とするように。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠フランケンシュタイン
+ゥ、ゥ。ゥゥ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ジャック
+うん、分かった。一人で突っ込んでいかないよ。[r]でもわたしたちはいいよね。一人じゃないし。
+[k]
+
+＠ジャック
+わたしたちは、わたしたちだから……[r]やりたくなったら突っ込んで抉ってもいいんだよね。
+[k]
+
+[charaFace H 4]
+
+＠ジャック
+あ、でもフランケンシュタインを[r]一人にさせちゃうから……ううん、だめかな。
+[k]
+
+＠ジャック
+……だめかな？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠パラケルスス
+駄目です。二人とも一緒に戦うように。
+[k]
+
+[charaSet B 5004001 1 ナーサリー・ライム]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.4 1]
+
+＠ナーサリー・ライム
+聞き分けなさいな、ジャック。[r]パラケルススの言うことを聞くのは嫌だろうけれど。
+[k]
+
+[charaFace B 0]
+
+＠ナーサリー・ライム
+このひと、今はちゃんとしているわ。[r]ううん、普段と違うという意味ならちゃんとしてない？
+[k]
+
+＠ナーサリー・ライム
+いいひとみたいな顔をして。[r]いいひとみたいな言葉を言っている。不思議ね。
+[k]
+
+＠ナーサリー・ライム
+どっちがアナタかしら、パラケルスス。[r]どっちがニセモノ、どっちがホンモノ。
+[k]
+
+＠ナーサリー・ライム
+子供を死なせる悪いひと？[r]子供を心配する良いひと？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠パラケルスス
+ええ。私は、かつて悪逆に敗北した者です。[r]悪いひとですよ。
+[k]
+
+＠パラケルスス
+ですが、今は。[%1]がいます。[r]私は、きっと再び良いひとのように振る舞える。
+[k]
+
+[charaFace G 4]
+
+＠パラケルスス
+かつての生前のように。或いは……
+[k]
+
+
+
+[charaSet A 5014001 1 メフィストフェレス]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+
+＠メフィストフェレス
+くひひひ！　いやまたおかしな魔術師もいたものですねぇ、[r]悪か善かでお茶の時間を費やせるとは思いませなんだ！
+[k]
+
+[charaFace A 2]
+
+＠メフィストフェレス
+けれど面白い、面白いですよぉアナタ[line 3]
+[k]
+
+＠メフィストフェレス
+まるでカードの表裏。[r]くるりくるりと立場を変えて、しかしとても、それは。
+[k]
+
+[charaFace A 1]
+
+＠メフィストフェレス
+[#人間そのものであるかのようです]。
+[k]
+
+＠メフィストフェレス
+英霊などは皆一様に亡者の類だというのに、[r]アナタはそれを分かっていないかのように振る舞う。
+[k]
+
+[charaFace A 0]
+
+＠メフィストフェレス
+狂っていますか？　狂っていますよね、霊基？[r]こう、落としたケーキを足で踏ん付けてトドメを刺したように！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠パラケルスス
+…………ええ、そうでしょうね。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠ジャック
+でも。パラケルスス。[r]そういうスキルは付いてないよね。
+[k]
+
+
+[charaTalk E]
+
+
+＠フランケンシュタイン
+……ゥ、ゥ。シンパイ、イラナイ、ヨ……
+[k]
+
+
+[charaTalk H]
+[charaFace H 1]
+
+＠ジャック
+え。なに？
+[k]
+
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[se ad67]
+[wt 0.5]
+[seStop ad67 0.7]
+
+
+＠バベッジ
+[line 3]或る説に依れば。[r]賢者の石は、正義なき者には作り出せぬという。
+[k]
+
+[charaFace F 1]
+
+＠バベッジ
+万人に佳き絶対の正義ではなかろうと、[r]少なくとも、いつか世界は奴の正義を認めたのだろう。
+[k]
+
+＠バベッジ
+ならば如何なる不思議もなし。[r]彼の心根のいずこかには、正しき想いが在るのだ。
+[k]
+
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠メフィストフェレス
+ははぁ。正しき想いとやら……[r]ソレがどれだけささやかであろうとも、ですかな！
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[se ad67]
+[wt 0.5]
+[seStop ad67 0.7]
+
+＠バベッジ
+然り。如何にささやかでも。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠メフィストフェレス
+くっ、くく…………ぷっ、ぷふぁおぁはは！！[r]あっはは、あはははははははははははははは！！！
+[k]
+
+[charaFace A 1]
+
+＠メフィストフェレス
+なるほどなるほど面白い！　いいでしょう！
+[k]
+
+＠メフィストフェレス
+極東の作家風に言えば、アレですよアレ、[r]地獄に蜘蛛が垂らす糸といったところでしょうかねぇ！
+[k]
+
+＠メフィストフェレス
+一縷の善が、希望が、希望が！[r]彼にもあるのだとおっしゃる！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[messageOff]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[se ad67]
+[wt 0.5]
+[seStop ad67 0.7]
+
+＠バベッジ
+……………。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠メフィストフェレス
+ならばよろしい、この私が！[r]この悪魔メフィストフェレスが！
+[k]
+
+＠メフィストフェレス
+七十二の魔神と相対する一人の男、[r]その魂に秘めた悪と正義を見届けてあげましょう！
+[k]
+
+
+[charaSet G 2011001 1 ニコラ・テスラ]
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1]
+[wait wipe]
+
+[scene 36300]
+
+[wt 1.0]
+
+[charaFadeout A 0.1]
+
+[wipein rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ニコラ・テスラ
+…………ふうむ。やっとのご到着ですか、クィーン。
+[k]
+
+[messageOff]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[se ad61]
+[effect bit_talk_lightning_02t]
+
+
+[charaSet A 3019001 1 アルトリア]
+
+
+[wt 1.5]
+
+[se bas1]
+[flashin loop 0.5 0.5 5528ff 5528ff]
+[wt 0.5]
+[seStop ad61 0.1]
+
+[effectStop bit_talk_lightning_02t 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+[wt 1.0]
+
+
+[flashout 1.0]
+
+
+[wait se bas1]
+
+
+
+＠アルトリア
+[line 8]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠ニコラ・テスラ
+連鎖召喚。或いはと思ってはいましたが、[r]こうして目の当たりにすると驚嘆するものではある。
+[k]
+
+＠ニコラ・テスラ
+前回はロンディニウムの地と、サー・モードレッド。[r]それが連鎖の触媒のようなもの。
+[k]
+
+＠ニコラ・テスラ
+今回はサー・モードレッドと[%1]が[r]連鎖召喚の引き金といったところでしょうな。
+[k]
+
+[charaFace G 4]
+
+＠ニコラ・テスラ
+[line 3]ご息女と[#見:まみ]えずによろしいのかな、クィーン？
+[k]
+
+＠ニコラ・テスラ
+きっと口にはしますまいが、[r]彼女は貴女からのお言葉を喜ぶに違いない。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠アルトリア
+…………不要。[r]あれは私の娘などではなく、円卓の一員たる[line 3]
+[k]
+
+[charaFace A 4]
+
+＠アルトリア
+いいや。止めておこう。[r]私は、イフの向こうから来たる私にすぎない。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ニコラ・テスラ
+ほう？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠アルトリア
+聖槍を手にした私が女神と成り果てるさなか、[r]万が一、億が一の偶然として発生した[#可能性:カタチ]だ。
+[k]
+
+＠アルトリア
+私が私のままで在りながら槍を手にした可能性。[r]そして。聖杯の呪いを受け止めたが故の可能性。
+[k]
+
+＠アルトリア
+この私は、荒ぶる『嵐』としての性質から離れられず、[r]人を統べる王のようには振る舞えぬ。
+[k]
+
+[charaFace A 4]
+
+＠アルトリア
+ゆえに……[r]私は、この私を定義する。
+[k]
+
+[charaFace A 5]
+
+＠アルトリア
+ただ眼前に在るモノを粉砕する[line 3]『嵐』であると。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠ニコラ・テスラ
+成る程。お言葉は理解いたしました。[r]ならば私を粉砕なさいますかな、クィーン？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+
+＠アルトリア
+いいや。我が前には、異形の肉柱が蠢くばかり。[r]世を救わんとする英霊なぞは目に入らぬ。
+[k]
+
+[charaBackEffect A bit_talk_lightning_01t]
+
+[charaChange A 3019002 1 fade 1.0]
+
+
+[voice NP_301900_1]
+
+[wt 1.5]
+
+＠アルトリア
+[line 6]聖槍、抜錨。
+[k]
+
+[charaBackEffectStop A bit_talk_lightning_01t 0.1]
+
+
+
+
+[se bas1]
+
+[voice NP_301900_2]
+[messageOff]
+[flashin once 0.4 0.4 FFFFFF80 00000000]
+[fadeout white 0.5]
+
+[wt 1.5]
+[charaFadeout A 0.1]
+
+[voiceStop NP_301900_2 3.0]
+
+
+＠ニコラ・テスラ
+はは、ははははははははははははは！[r]素晴らしい！　交流も直流も超える光の奔流、星の……！
+[k]
+
+＠ニコラ・テスラ
+天の英霊も地の英霊も実際気に入らんが、[r]いいや、いいや、貴女は別だ嵐の王、ワイルドハント！
+[k]
+
+＠ニコラ・テスラ
+共に参りましょう、クィーン！[r]雑兵どもはこの私が蹴散らしてご覧に入れよう！
+[k]
+
+[messageOff]
+
+[scene 36301]
+[fadein white 1.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+
+＠アンデルセン
+何だおまえ。[r]まだこんなところにいたか。
+[k]
+
+＠アンデルセン
+お人好しも大概にしておくものだ、[r][%1]。
+[k]
+
+＠アンデルセン
+九時方向に光を見たな？[r]あれは、まず間違いなく嵐の王の顕現だろうよ。
+[k]
+
+＠アンデルセン
+あんな宝具を間近で展開されては、[r]サーヴァントであろうと霊基が保つものか。
+[k]
+
+[charaFace C 1]
+＠アンデルセン
+まあ、大喜びで溶かされに行く[r]大馬鹿者もどこかにはいるだろうが[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠シェイクスピア
+残念至極。かの光を最前列で目の当たりにすれば、[r]それは壮絶な着想を得ようというものを！
+[k]
+
+[charaFace D 2]
+
+＠シェイクスピア
+……[#おお、殺すのならば刃をもて、言葉はやめろ！:Ah, kill me with thy weapon, not with words!]
+[k]
+
+[charaFace D 0]
+
+＠シェイクスピア
+刃ならざる光の死、[r]それは尋常ならざる最期として魂に刻まれましょう。
+[k]
+
+＠シェイクスピア
+我が現界の最期としては悪くないのですが。[r]いやはやしかし、物語の終幕は残念ながら今ではない。
+[k]
+
+[charaFace D 3]
+
+＠シェイクスピア
+あなたが幕を下ろすのです。[r][%1]。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠アンデルセン
+……劇作家。珍しくまともで殊勝な事を言ったのか？[r]それなら明日は雪が降りかねん。
+[k]
+
+＠アンデルセン
+さて。[%1]。[r]そしてマシュ・キリエライト。
+[k]
+
+＠アンデルセン
+時間神殿の最奥まで見物したいところだが、[r]こちらは見ての通り、どうにも取材で忙しい。
+[k]
+
+＠アンデルセン
+[#碩学:せきがく]の尊称を受ける大学者どころか[r]脳筋体育会系のキャスターどもに、[#補助:バフ]も掛けんとな。
+[k]
+
+＠アンデルセン
+先へ進め、[%1]。[r]それともまさか、俺たちに言わせる気か？
+[k]
+
+＠アンデルセン
+もう何度繰り返されたのかも分からない、あの、[r]幾つもの英雄物語で繰り返されてきたであろう台詞を？
+[k]
+
+？1：それって
+
+[charaFace C 2]
+
+＠アンデルセン
+その『それ』だ、バカめ！
+[k]
+
+？2：もしかして
+
+[charaFace C 2]
+
+＠アンデルセン
+ああ貴様、わざわざトスをしたな！　バカめ！
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+
+＠シェイクスピア
+宜しい！[r]ならば期待に応えて差し上げる！
+[k]
+
+[charaFace D 2]
+
+＠シェイクスピア
+さあ[line 3][#此処は我らに任せて先へと進め][line 3]！
+[k]
+
+？1：頼んだよ、みんな！
+？2：どうか無事で[line 3]
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+
+＠アンデルセン
+行け！[r]行って貴様が救え、[%1]！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_42 2.0]
+[wait fade]
+[soundStopAll]
+[end]

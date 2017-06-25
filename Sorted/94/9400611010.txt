@@ -1,0 +1,608 @@
+＄94-00-61-10-1-0
+
+
+
+[soundStopAll]
+[charaSet A 5025001 1 エジソン]
+[charaSet B 3001001 1 クー・フーリン]
+[charaSet C 98101200 1 うりぼう]
+[charaSet D 98100800 1 うりぼう2]
+[charaSet E 98101000 1 うりぼう3]
+[charaSet F 5027000 1 マリー]
+[charaSet G 98101400 1 うりぼう長]
+[charaSet H 4024000 1 モードレッド]
+
+[scene 30800]
+[fadein black 2.0]
+[wait fade]
+
+
+[bgm BGM_EVENT_4 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+＠エジソン
+……という訳でいよいよ出発である！
+[k]
+
+[se ad90]
+[seVolume ad90 0 0.5]
+
+＠H：全員
+おー！
+[k]
+
+[charaFace A 0]
+＠エジソン
+忘れ物はないか、よく確認した後に出発。
+[k]
+
+＠エジソン
+島から離脱次第、カルデアとの連絡を再開、[r]レイシフトで元に戻ることができる！　……はず[charaFace A 4]だ。
+[k]
+
+[charaFadeout A 0.1]
+
+[bgmStop BGM_EVENT_4 1.5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠クー・フーリン
+そこは自信持てよおまえ……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠C：うりぼう
+女神様、御出立でありますか！
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+＠D：うりぼう
+うりぼう一同、敬礼であります！
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+[charaChange E 98101100 0 fade 0.1]
+＠E：うりぼう
+それはそれとして寂しいであります……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠マリー
+ごめんね、うりぼうさん。[r]でも、今度こそ行かなきゃいけないの。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠うりぼう長
+皆さん……。[r]この島をお救い下さり、本当にありがとうございます。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaSet A 2026000 1 アルトリア]
+
+[charaTalk H]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 1]
+[charaFadein H 0.1 2]
+＠モードレッド
+なーに、いいってことよ！[r]楽しかったし、問題なしだ！
+[k]
+
+[charaFadeout H 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠アルトリア
+……どうか末永く、平和な国を築いて下さい。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaSet B 9004000 1 マルタ]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠マルタ
+あまり傲り高ぶると、[r]また魔猪みたいなのが出てくるからね。
+[k]
+
+＠うりぼう長
+肝に銘じておきまする、鉄拳の女神様。
+[k]
+
+[charaTalk B]
+[charaFace B 4]
+[wt 0.7]
+
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk B]
+[charaFadein B 0.1 1]
+＠マルタ
+……うん。[charaFace B 0]大丈夫、大人になった私は[r]敢えてその理不尽な名前を呑み込むことにするわ。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaSet F 2025100 1 メアリー]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠メアリー
+理不尽も何も、妥当な名称だと思うんだけど。
+[k]
+
+[charaFace B 5]
+＠マルタ
+やかましいわ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaSet B 2025200 1 アン]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠アン
+楽しかったバカンスもおしまいね。[r]……お肉ばかり食べて太ってないかしら……。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+＠メアリー
+チッ。
+[k]
+
+[se ad10]
+[seVolume ad10 0 0.4]
+[wait se ad10]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+
+[charaSet B 98100400 1 マシュ]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠マシュ
+……いま、何か友情の壊れる音がしたような……
+[k]
+
+[charaFace B 13]
+＠マシュ
+うりぼうさんたちもお元気で。[r]マスターからも、何か一言。
+[k]
+
+[charaSet E 98101000 1 うりぼう3]
+
+？1：みんな、仲良く！
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠C：うりぼう
+おー。
+[k]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFace D 1]
+
+＠D：うりぼう
+我々は宇宙船地球号の乗組員で[r]ありますからなー！
+[k]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFace E 1]
+
+＠E：うりぼう
+ラブアンドピースですなー！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+？2：自然との調和を
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+
+＠C：うりぼう
+なるほど、調和でありますな！
+[k]
+
+[charaTalk D]
+[charaFace C 0]
+[charaFace D 1]
+
+＠D：うりぼう
+[#自然主義者:ナチュラリスト]でありますな！
+[k]
+
+[charaTalk E]
+[charaFace D 0]
+[charaFace E 1]
+
+＠E：うりぼう
+エコでロハスで本を売って左団扇ですな－。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠うりぼう長
+……おまえたちはいつ大人になるんじゃろうな。[r]いえ、お言葉ありがとうございます。
+[k]
+
+[charaFace G 1]
+＠うりぼう長
+[%1]様は、いずれ十人目の神として[r]讃えられるでしょう。
+[k]
+
+[charaFace G 0]
+
+？！
+
+＠うりぼう長
+では[%1]様。[r]写真を撮らせて下さい。今の内に巨大彫像を造りましょう。
+[k]
+
+？1：結構です！
+？！
+
+[charaFadeout G 0.1]
+
+[charaSet F 98002000 1 フォウ]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaSet F 6024000 1 スカサハ]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠スカサハ
+[line 3]では、そろそろか。[r]しかし[charaFace F 1]何とまあ、見違えたものよ。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠アルトリア
+[FFFFFF]？[-][r]まだまだ復興半ば、という感じですが。
+[k]
+
+＠スカサハ
+……いやいや、そうではない。
+[k]
+
+＠スカサハ
+私にとっては、二千年前も、そして今も。[r][#見違えたような風景であることに変わりはない]。
+[k]
+
+[bgmStop BGM_EVENT_2 2.0]
+
+[charaFace F 0]
+＠スカサハ
+[line 3]何しろ、ここは。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+
+[charaSet A 5025001 1 エジソン]
+
+[se ad14]
+[wt 1.0]
+[seStop ad14 1.4]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠エジソン
+それでは出発だ諸君！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+
+[charaFadeout A 0.1]
+
+
+
+[scene 20320]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+[wt 0.7]
+[bgm BGM_EVENT_6 0.1]
+
+[wt 0.2]
+[charaTalk F]
+[charaFace F 0]
+
+[charaFadein F 0.7 1]
+
+
+＠スカサハ
+[line 3]ここはな、本来私が守らなければならぬ場所。[r]即ち、『影の国』。スカイ島の一部だ。
+[k]
+
+＠スカサハ
+影の国も例外なく人理焼却に巻き込まれたが、[r]何かの拍子にこの島だけが分断されたのだろう。
+[k]
+
+＠スカサハ
+一体どういう経緯を辿れば、[r]ここに生物が住み着き、文明を築き上げたのか。
+[k]
+
+＠スカサハ
+どういう奇跡が起これば、[r]我々がここに漂流できたのか。
+[k]
+
+＠スカサハ
+この島はもう、あらゆる人理から解き放たれた。[r]私たちが抜け出せば、迷い込む者など二度とあるまい。
+[k]
+
+＠スカサハ
+この島が楽園になるのか、それともやはり島の本質[line 3][r]死と暗黒が支配する影の国に堕ちるのか。
+[k]
+
+[charaFace F 1]
+＠スカサハ
+ま、人間が暮らしているならともかく、[r]あの呑気こいたうりぼうたちなら……大丈夫だろうさ。
+[k]
+
+＠スカサハ
+どれほど文明を発達させようとも、[r]結局あいつらは武器らしいものを何一つ持たなかった。
+[k]
+
+＠スカサハ
+であれば。[r]外敵が存在せぬ限り、平和に過ごしていくだろう。
+[k]
+
+＠スカサハ
+……これは皆には内緒だが。[r]念のため、島には忘却のルーンを仕掛けておいた。
+[k]
+
+＠スカサハ
+うりぼうたちはいずれ文明を忘れ、言葉も忘れ、[r]ありきたりの動物として、のんびりと過ごしていくはずだ。
+[k]
+
+
+？1：本当に大丈夫かな？
+
+＠スカサハ
+……だといいのだがなあ。[r]こればかりは、私にも分かりかねる結末である。
+[k]
+
+？2：そうだといいね
+
+＠スカサハ
+そう思うなら祈ってくれ、マスター。[r]お前の祈りなら、きっと聞き届けられるだろうよ。
+[k]
+
+？！
+
+[charaFadeout F 0.7]
+[bgmStop BGM_EVENT_6 1.0]
+[wt 1.5]
+
+[messageOff]
+
+[se ad31]
+[charaSet G 98003000 1 Dr.ロマン]
+[wt 2.0]
+[seStop ad31 4.0]
+
+＠Dr.ロマン
+……。[r]……………………ん？
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+[se ad13]
+[charaTalk G]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+[%1][&君:ちゃん]！？[r]それにマシュ！
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+……やった！[r]ようやく通信が繋がったぞ！
+[k]
+
+
+
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+どうやら特異点になりつつあった何かも[r]修正できているようだね。
+[k]
+
+＠Dr.ロマン
+いや、今回は早かった。[r]スピード記録じゃないかな！
+[k]
+
+＠Dr.ロマン
+一旦、カルデアに帰還させるよ。[r]準備は出来ているかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+
+＠マシュ
+はい、ドクター！
+[k]
+
+[charaFace B 13]
+
+＠マシュ
+ところで、行方不明になってから[r]どれくらいの日にちが経ってますか？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+何言ってるんだい？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+常にキミたちをモニターしていたけど、[r]レイシフトから一時間も経ってないじゃないか！
+[k]
+
+[charaTalk B]
+[charaFace B 14]
+
+[bgmStop BGM_EVENT_2 1.0]
+
+＠マシュ
+え……えええええ！？
+[k]
+
+[charaSet H 98002000 1 フォウ]
+
+[communicationCharaClear]
+[charaFadeout B 0.1]
+[wait communicationChara]
+
+[charaTalk H]
+[charaFadein H 0.1 1]
+
+＠フォウ
+フォウ！？
+[k]
+
+
+[charaFadeout H 0.1]
+[wt 0.3]
+
+[bgm BGM_EVENT_28 0.1 0.5]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠スカサハ
+ふふ、どうやらカルデアの夏は[r]まだ終わらないようだな。
+[k]
+
+＠スカサハ
+ならば、もうしばらく[r]この夏を堪能するとしようか！
+[k]
+
+[wt 0.4]
+[charaFadeout F 0.4]
+[wt 0.4]
+[messageOff]
+
+[wt 0.4]
+
+
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_28 0.4]
+[effect bit_talk_07_02]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+[scene 10001]
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+[wt 0.4]
+[soundStopAll]
+[end]
+

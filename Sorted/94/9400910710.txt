@@ -1,0 +1,349 @@
+
+
+＄94-00-91-07-1-0
+
+[charaSet A 99502600 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 6005001 1 ジャック]
+[charaSet D 5004001 1 ナーサリー・ライム]
+[charaSet E 3026000 1 ジャンヌ・オルタ・サンタ・リリィ]
+
+[soundStopAll]
+
+[bgm BGM_EVENT_6 0.1]
+
+[scene 20320]
+
+[fadein black 2.0]
+[wait fade]
+
+
+＠
+[line 3]海へ近付いていく。[r]私たちの短い、難所だらけの旅も終わる。
+[k]
+
+＠
+私はサンタクロースでいられるのだろうか。[r]贈り物を、希望を届ける存在でいられるのだろうか。
+[k]
+
+＠
+それとも、あるいは。[r]一夜の夢とばかりに消えてしまうのだろうか。
+[k]
+
+＠
+……それでもいい、と最初は思っていたのに。
+[k]
+
+＠
+今はそう思えないのは、どうしてなんだろう？
+[k]
+
+
+[fadeout black 2.0]
+[messageOff]
+[bgmStop BGM_EVENT_6 2.0]
+[wt 1.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+[scene 10000]
+
+[fadein black 0.5]
+[wait fade]
+
+[fowardEffect bit_queststart94009107_01]
+[wt 0.1]
+[wait fowardEffect bit_queststart94009107_01]
+[wt 0.9]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 21803]
+
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_3 0.4]
+
+？1：走れ[line 3]！！
+？！
+
+[se ad132]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace C 2]
+[charaFace D 4]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+[charaShake D 0.05 4 0 1.0]
+＠ナーサリー・ライム
+人形が追いかけてくるのだわ！[r]怖いのだわ[line 3]！
+[k]
+
+[charaTalk C]
+＠ジャック
+かいたいさせてくれればいいのにー！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 2 2 1.0]
+わわわ私、ああいう無機質なのダメです！[r]生き物なら何でも平気ですけど、あれはダメ！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[se ad13]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+だ、大丈夫ですかマスター！[r]いつのまにか、三人を抱えてますけど！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 1]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ジャック
+らくちーん。
+[k]
+
+[charaTalk D]
+＠ナーサリー・ライム
+ごうごうと走っているの！[r]まるでヒポグリフのように速いわ！
+[k]
+
+？1：軽い！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+そ、そうでしょう。[r]私もスタイルの維持には気をつけてますから！
+[k]
+
+？2：重い！
+
+[charaTalk D]
+[charaFace D 2]
+＠ナーサリー・ライム
+まあ！[r]レディに対して失礼なのだわ！
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+＠ジャック
+むくー。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+あとで体重計を。[r]私が如何に軽いか、証明して差し上げます！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+あ！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk D]
+[charaFace C 2]
+[charaFace D 2]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠ナーサリー・ライム
+足下！
+[k]
+
+[charaTalk C]
+＠ジャック
+小石だよー？
+[k]
+
+？1：ぶぎゃ！？
+？！
+
+
+[shake 0.05 0 10 0.5]
+[charaMove C 256,-128 0.1]
+[charaMove D -256,-128 0.1]
+[charaShake C 0.05 0 8 1.0]
+[charaShake D 0.05 0 8 1.0]
+[wait charaMove C]
+[wait charaMove D]
+
+[se ad144]
+[wt 1.0]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+先輩！　先輩！　顔面から転げましたね！？[r]大丈夫ですかー！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-128]
+[charaMove E 1 0.7]
+[charaShake E 0.05 4 0 1.0]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[#トナカイさん:マ　ス　タ　ー]……転ぶときも、私たちだけは守り通すなんて……。
+[k]
+
+[wait charaMove E]
+[charaFace E 3]
+＠ジャンヌ・オルタ・サンタ・リリィ
+ちょっと好感度上がっちゃうじゃないですか！[r]もう！　もう！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ジャック
+だいじょうぶ？[r]いたい？　かいたい？
+[k]
+
+？1：隙あらば解体しようとするのやめて！
+
+[charaFace C 0]
+＠ジャック
+ざんねーん。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：鼻血が……
+
+[charaFace C 3]
+＠ジャック
+痛そう。[r]……なめてあげようか？
+[k]
+
+＠ジャック
+あーん。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+[messageShake 0.05 4 4 0.7]
+やーめーなーさーい！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 4 0 1.0]
+＠ナーサリー・ライム
+そんなことやっている間に、[r]追いつかれちゃったじゃないのー！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaEffect B bit_talk_10]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+[wt 0.3]
+＠マシュ
+向こうは戦闘する気満々です。[r]ひとまず、武器を構えて下さい！
+[k]
+
+[charaFadeout A 0.1]
+[charaPut B 1200,1200]
+[charaEffectStop B bit_talk_10]
+[wt 0.3]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ・サンタ・リリィ
+わ、分かりました……[r]うう、怖くない、怖くない、こーわーくーなーいー！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 1.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[soundStopAll]
+[end]

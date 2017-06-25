@@ -1,0 +1,233 @@
+
+
+＄94-00-58-33-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_28 0.1]
+[charaSet A 98100400 1 マシュ]
+[charaSet F 5027000 1 マリー]
+[charaSet H 98002000 1 フォウ]
+
+[scene 30400]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠マリー
+すごーい！　すごいわ、マスター！　ありがとう！
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+意外にも本格的な迷路園になりましたね。
+[k]
+
+＠マシュ
+どこを見ても、一分の狂いもないこの生け垣の刈り込み[r][line 2]スカサハさんの剪定テクニックは見事なものです。
+[k]
+
+
+？1：おかげで本当に迷いそう
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+迷っちゃえばいいのよ。[r]だってそれが迷路の楽しみ方なんだもの。
+[k]
+
+＠マリー
+せっかくの迷路なのに迷わないなんて、つまらないわ。[r]だから[line 2]
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk H]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFadein H 0.1 0]
+
+＠フォウ
+フォウ？
+[k]
+
+＠マリー
+うふふ、あなたは先を歩くの禁止ね。匂いで出口を見つけ[r]ちゃうかもしれないから。わたしが抱いていてあげる！
+[k]
+
+
+＠フォウ
+フォウ！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+[wt 0.5]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+＠マリー
+～♪
+[k]
+
+
+？1：迷路、好きなの？
+
+＠マリー
+ええ、好きよ。だーい好き。
+[k]
+
+
+？2：ゴキゲンですね、姫様
+
+＠マリー
+うふふ、その通りであるぞ、みたいに言えば[r]いいのかしら？　苦しゅうない、わよ？
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠マシュ
+迷路が好きな理由などはあるのですか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠マリー
+うん？　そうね……改めて聞かれると難しいわ。[r]わたしが住んでいた場所にはずっとあったから。
+[k]
+
+＠マリー
+ヴェルサイユにも、オーストリアのシェーンブルンにも。[r]あ、アマデウスと初めて会ったときに住んでた家ね？
+[k]
+
+＠マリー
+でもヴェルサイユのはなくなっちゃったの。[r]わたしは好きだったんだけど、旦那さまがね……。
+[k]
+
+＠マリー
+そう[line 2]そのへんが理由かしら。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠マシュ
+……？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠マリー
+王の妃になって、王室に入って。[r]わたしには、迷うことが許されない部分もあったの。
+[k]
+
+
+＠マリー
+すべきことは決まっていて、してはいけないことも決まっ[r]ていた。いろいろ大変な思いもしたわ。
+[k]
+
+＠マリー
+でも[line 2]迷路の中では迷っていいの。[r]子供みたいに、ただ迷って、出口を探せばいいの。
+[k]
+
+＠マリー
+そうね。それが逆に、ストレス解消みたいになっていたの[r]かしら？　よくわからないけれど。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠マシュ
+いえ。なんとなく、ですが……わかる気がします。
+[k]
+
+
+？1：うん。よし、張り切って迷うぞ！
+
+＠マシュ
+張り切らなくても迷ってしまいそうですが……[r]そうですね。楽しみましょう。
+[k]
+
+
+？2：うん。とりあえず……こっちだー！
+
+[charaFace A 14]
+＠マシュ
+先輩、そっちは今来たばかりの道です！
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk H]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFadein H 0.1 0]
+
+＠フォウ
+フッ、フォウ……。
+[k]
+
+＠マリー
+あっ、この子が『こんな迷路の出口の匂いも感じ取れないのか、[r]愚かな人間たちめ』みたいな顔をしているわ！
+[k]
+
+
+[charaFace F 1]
+＠マリー
+よーし、負けないように頑張って脱出しちゃいましょう！
+[k]
+
+＠マリー
+……でもごはんどきになってまだ出られなかったら、[r]この子に助けてもらいましょうね？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_28 2.0]
+[wait fade]
+[soundStopAll]
+[end]

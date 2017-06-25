@@ -1,0 +1,829 @@
+＄94-00-31-18-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98065000 1 エルメロイ]
+[charaSet E 5019002 1 ウェイバー]
+[charaSet F 98062000 1 アイリスフィール]
+[charaSet G 1001000 1 アルトリア]
+[charaSet H 98066000 1 黒アイリ]
+
+[scene 20210]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠黒アイリ
+そんな……この、手は……星々の果てにまで[r]届いたはずが……。
+[k]
+
+[bgmStop BGM_EVENT_5 2.0]
+[messageOff]
+[charaSpecialEffect H flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect H]
+[wt 1.0]
+
+[charaSet H 3002000 1 ディルムッド]
+
+[bgm BGM_EVENT_6 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠アルトリア
+やった……のか？
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+敵魔力の完全消滅を確認……我々の、勝利です！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ウェイバー
+……。
+[k]
+
+？1：よくやったね！
+？2：大丈夫？
+
+？！
+
+＠ウェイバー
+こんなの……こんなの、聞いてない！
+[k]
+
+＠ウェイバー
+戦うことが、命懸けの勝負が……[r]こんなにも、怖いだなんて……。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.3]
+
+[charaPut C 1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFace H 1]
+[charaFadein G 0.1 2]
+[charaFadein H 0.1 0]
+
+[charaEffect C bit_talk_06]
+
+＠アルトリア
+あなたは、よくやった。[r]初陣にしては充分な働きです。
+[k]
+
+＠ディルムッド
+竦んで立ち止まらなかっただけでも賞讃に値します。[r]勝利の誉れ、胸を張って受け取ってほしい。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaPut C 1200,1200]
+[charaEffectStop C bit_talk_06]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ウェイバー
+あ、みんな……。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+彼らは大聖杯の介在によって冬木に召喚されていた英霊よ。[r]その大聖杯が消失した今、現界は保てない……。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.3]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+[effect bit_talk_06]
+＠アルトリア
+お別れです。皆さん。数奇な戦いでしたが、[r]望ましい結末で良かった。
+[k]
+
+
+[effectStop bit_talk_06]
+[wait effect bit_talk_06]
+[messageOff]
+[charaSpecialEffect G flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect G]
+[wt 1.0]
+
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+[effect bit_talk_06]
+＠ディルムッド
+いつかまた違う戦場で。世界の命運が問われるときは、[r]再び巡り会うこともあるだろう。
+[k]
+
+[effectStop bit_talk_06]
+[wait effect bit_talk_06]
+[messageOff]
+[charaSpecialEffect H flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect H]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ……。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaSet G 6015001 1 アサシン？]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠エルメロイ
+さて、カルデアが検知した聖杯は、[r]けっきょく出現することもなく姿を消した。
+[k]
+
+＠エルメロイ
+あとは、聖杯になり得たかもしれない、という可能性の[r]存在だったアイリスフィール、貴女の身の振り方だが……。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace D 0]
+[charaFace F 6]
+[charaFadein D 0.1 2]
+[charaFadein F 0.1 0]
+
+＠アイリスフィール
+ええ、聖杯戦争が無意味になった今、[r]私は存在価値そのものを失ったも同然ね。
+[k]
+
+[charaFace F 4]
+＠アイリスフィール
+そもそも、この手で大聖杯を壊してしまった身で、[r]おめおめとアインツベルンに戻れるはずもないし……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+あの、我々の本来の目的には、[r]特異点に出現した聖杯の回収も含まれています。
+[k]
+
+[charaFace A 13]
+＠マシュ
+もし宜しければ、一緒にカルデアに来ませんか？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そうだね。彼女のような存在を放置したら、後々[r]もっと厄介な輩に目をつけられて悪用されかねない。
+[k]
+
+＠Dr.ロマン
+ボクらの庇護下に入ってもらえるなら、[r]それに越したことはないんだが。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+……寄る辺ない身にとっては、またとないお誘いね。
+[k]
+
+[charaFace F 1]
+＠アイリスフィール
+ええ、それならば是非。この身はあなた方の手に委ねます。[r]どうかよろしく。違う世界のマスターさん。
+[k]
+
+？1：こちらこそ
+？2：歓迎します！
+
+？！
+
+[charaFadeout F 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ウェイバー
+オマエらも……帰るのか？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+
+＠エルメロイ
+ああ。おまえの中の孔明も一緒だ。安心しろ。[r]おまえは普通の、凡俗な自分に逆戻りだ。
+[k]
+
+[charaFace E 4]
+＠ウェイバー
+……。
+[k]
+
+＠ウェイバー
+あんたに言われた通りだった。[r]こんな力、とてもじゃないがボクには手に余る。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+それが実感できたなら、[r]尚のこと今後の研鑽に励むがいい。
+[k]
+
+＠エルメロイ
+いつの日か、[r]おまえはこの力を担う羽目になると予言しよう。
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+まだ時はある、というだけが慰めだ。[r]鍛えられるうちに鍛えておくことだな。
+[k]
+
+[charaFace E 0]
+＠ウェイバー
+あんたの言い方、まるでライダーみたいだな。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+フン、面映ゆいことを言うな。[r]かの征服王には、まだまだ私など及ばないさ。
+[k]
+
+＠ウェイバー
+「まだまだ」なんて言い方するあたり、つまりあんたも、[r]鍛えてるのか？　いつかアイツに及ぶために？
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+……。
+[k]
+
+[wt 0.2]
+[charaFace D 0]
+＠エルメロイ
+地上まで送ろう。途中の洞窟は迷路だからな。[r]そこで、解散だ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[bgmStop BGM_EVENT_6 1.5]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォ～ウ。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+
+[bgm BGM_EVENT_17 0.1]
+[wt 1.0]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+＠アサシン？
+では、僕ともここまでだな。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠ウェイバー
+あんたは地上に戻らないのか？
+[k]
+
+[charaFace G 1]
+＠アサシン？
+もとよりこの世界の住人ではないんだ。無駄足さ。[r]このまま待てば、ほどなく「座」へと呼び戻される。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エルメロイ
+そうか、おまえはそういう存在だったな。
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アイリスフィール
+……。
+[k]
+
+[charaFadeout F 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠アサシン？
+……不思議だな。君とは出会ったが最後、[r]どちらかが死んで別れるものと思っていたのだが。
+[k]
+
+[charaFace F 0]
+＠アイリスフィール
+ええ。不思議。なぜそれが不思議なのかさえ分からない[r]けれど……この違和感、不愉快ではありません。
+[k]
+
+[charaFace G 1]
+＠アサシン？
+ああ。僕も……。
+[k]
+
+＠アサシン？
+……何かを切り捨てることでしか使命を果たせない、[r]そういう星の元に生まれたと諦めていたんだが。
+[k]
+
+＠アサシン？
+今ここで初めて、本当の意味で、[r]「何かを守る」ために戦えた気がする。
+[k]
+
+[charaFace G 3]
+＠アサシン？
+ありがとう。[r]……果たして、礼を言う筋合いかどうかも分からないが。
+[k]
+
+[charaFace F 1]
+＠アイリスフィール
+ええ、さようなら。[r]あなたと出会えて良かったわ。名も知らぬ英霊の人。
+[k]
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_17 2.0]
+[wait fade]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[scene 10000]
+[wt 0.5]
+[fadein black 0.1]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1.0]
+[wait fade]
+
+[charaSet E 11001000 1 アンリマユ]
+
+[wt 2.0]
+
+[scene 10204]
+
+[bgm BGM_EVENT_2 0.1]
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 1]
+＠Dr.ロマン
+お疲れさま！　今回も大活躍だったね。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ、フォ～ウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+アイリスフィール嬢はいまダ・ヴィンチちゃんが[r]精密検査中だ。
+[k]
+
+＠Dr.ロマン
+驚いたね。ああいう形で存在する「聖杯」というのも[r]アリだっていうのは。
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+ロード・エルメロイさんは？[r]怪我の容体はどうなのでしょう……？
+[k]
+
+＠マシュ
+純正のサーヴァントと比べて、わたしやロードさんの[r]ように人間の肉体を依り代にしているサーヴァントは
+[k]
+
+[charaFace A 4]
+＠マシュ
+ダメージによる消滅が、[r]そのまま死に直結しますから……。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+ああ。彼はしばらくICU送り。[r]出てきた後も絶対安静だ。
+[k]
+
+＠Dr.ロマン
+瀕死の重傷を負った上に英霊との契約を他人と代替する[r]なんて、無茶にも程がある。
+[k]
+
+＠Dr.ロマン
+君らに心配させないよう平気なフリして喋っていたけど、[r]あれは本当にヤバかったんだよ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ～ウ。
+[k]
+
+[charaFadeout C 0.1]
+
+[charaTalk A]
+[charaFace B 5]
+[charaFadein B 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+でもおかげで、わたしたちは命拾いをしました。……あと、[r]抑止力の代行者だっていう、あの英霊……。
+[k]
+
+＠Dr.ロマン
+ああ。これまた不思議なものと出会ったもんだ。[r]人類史が焼却された後でもまだ、抑止力が機能しうるとは。
+[k]
+
+？1：そもそも抑止力って？
+？2：彼はいったい何者だったの？
+
+？！
+
+＠Dr.ロマン
+この世界に人類を存続させるべく働く概念的な力……[r]それが「抑止力」だよ。
+[k]
+
+＠Dr.ロマン
+生前に類い稀な功績を残した人間は、この抑止力によって[r]召し上げられ、使役されることになるという。
+[k]
+
+＠Dr.ロマン
+彼らは人類に破滅の危機が訪れるたび、時間と空間を[r]超えて召喚され、災厄の原因を取り除く役目を課される。
+[k]
+
+[charaFace A 0]
+＠マシュ
+つまりマスターとの契約もなく、ただ戦う理由だけを[r]与えられて召喚されるサーヴァント、という事ですか？
+[k]
+
+＠Dr.ロマン
+そうなるね。死してなお、決して終わることのない[r]戦いの使命を背負い続ける魂だ。
+[k]
+
+＠Dr.ロマン
+彼らの心境を計ることはできないが……[r]並大抵の苦労と心労ではないだろうね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……はい。わたし自身は英霊ではなく、[r]あくまでデミ・サーヴァントに過ぎませんが。
+[k]
+
+[charaFace A 4]
+＠マシュ
+マスターがいないまま戦場に呼び出されるなんて、[r]想像したくもありません。
+[k]
+
+？1：そうなの？
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。わたしが戦う上で支えになっているのは、[r]先輩という契約者がいてくれるからです。
+[k]
+
+＠マシュ
+その絆を信じて、勇気を振い、恐怖を乗り越えていける。[r]そういう[charaFace A 12]支えがない戦いは、過酷だと思うのです……。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 3.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[scene 20210]
+[wt 1.5]
+
+[bgm BGM_EVENT_18 0.1]
+[fadein black 2.0]
+[wait fade]
+
+[se ad60]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wt 0.5]
+[seStop ad60]
+
+＠アサシン？
+……。
+[k]
+
+＠アサシン？
+そろそろ出てきたらどうだ？　真打ち。[r]もう邪魔は入らないぞ。
+[k]
+
+[charaFadeout G 0.1]
+
+＠E：？？？
+ハッ、何だよお見通しか。[r]ああ、いやだいやだ、そいつはまったく面倒くさい！
+[k]
+
+＠E：？？？
+ほら、何事も省エネがこの時代の流行ですし？[r]油断してるところをザクッといきたかったんだがねぇ。
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.7 1]
+
+＠E：？？？
+しかしまあ、逆に捉えれば悪くない。[r]出迎えご苦労さん。一人で出てくるよりずっといい。
+[k]
+
+＠E：？？？
+しかし、なんでお仲間に[r]忠告してやらなかったんだい？
+[k]
+
+＠E：？？？
+連中が壊したのはあくまで「汚染された聖杯」だけだ。
+[k]
+
+＠E：？？？
+中身としての[#オレ:アンリマユ]は[r]こうして別に控えてる、ってさ。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アサシン？
+別世界からの介入者に、[r]そこまで頼るわけにもいかない。
+[k]
+
+＠アサシン？
+貴様の呪いはあくまでこの世界だけのもの。彼らの世界に[r]までは及ばない。なら僕だけが引き受け始末するのが筋だ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠アンリマユ
+そいつは結構。[r]仕事にプライドを持ってんのは善い事ですよ？
+[k]
+
+＠アンリマユ
+ほら。やり合う相手が、やれ悲しい、とか憐れだー、とか[r]言ってくるのは辛いでしょ。どっちも報われない。
+[k]
+
+＠アンリマユ
+なんにせよ全ては喜びあってこそってな。[r]しかし、まあ[line 3]
+[k]
+
+[charaFace E 0]
+＠アンリマユ
+……そういった意味で言えば、[r]アンタもオレと同じ負け犬だったか。
+[k]
+
+＠アンリマユ
+まぁ匂いで分かっちゃいたけどさ、[#鏖殺者:おうさつしゃ]のダンナ。
+[k]
+
+＠アンリマユ
+賭けてもいいぜ。アンタ、最後には「こっち」に来る。[r]永遠に酷使されて磨り減った果てに、な。
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アサシン？
+心外だ。僕は自ら望んだ運命の果てにここにいる。[r]誰に強いられたわけでも、屈したわけでもない。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠アンリマユ
+だからだよ。アンタはどこかで折れて、砕けるべきだった。[r]そうすれば安息や救いを得るチャンスだってあったのに。
+[k]
+
+＠アンリマユ
+最後まで「正義の味方」を辞められなかったばっかりに、[r]死んだ後まで止まれずに、抑止力なんて装置の歯車だ。
+[k]
+
+＠アンリマユ
+これが負け犬じゃなくて何だってのさ？
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠アサシン？
+こうなるべくして生きて、至った場所だ。悔いはない。[r]だが僕と貴様が同類というのは認めよう。
+[k]
+
+＠アサシン？
+貴様は世界を呪い続け、僕は救い続ける。お互いに[r]そういう機能だけを備えた装置。ただそれだけのことだ。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠アンリマユ
+[line 3]（ニタリ）
+[k]
+
+＠アンリマユ
+ＯＫ。それを断言するようなのが相手なら、[r]オレも敬意を表さなくっちゃあなあ。
+[k]
+
+
+
+
+[messageOff]
+[se ad42]
+[charaChange E 11001001 0 fade 1.0]
+[wait charaChange E]
+
+
+[charaFace E 0]
+＠アンリマユ
+呪いと救いが噛み合ったなら、後はもうこれしかない。[r]お互い一番得意で、お似合いの求愛行為だ。
+[k]
+
+
+＠アンリマユ
+最後に名乗りぐらい上げちゃどうだい？[r]オレと違って憶えてるんだろ？　自分の名前。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+[se ad7]
+[charaChange G 6015002 0 fade 1.0]
+[wait charaChange G]
+
+＠G：衛宮切嗣
+……衛宮、切嗣。かつてそう呼ばれていた。[r]まだ人として生きた頃には、な。
+[k]
+[wait charaChange]
+
+[charaFace G 5]
+＠G：衛宮切嗣
+僕は世界を救うんだ。[r]これまでも、これからも。
+[k]
+
+[charaFadeout G 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠アンリマユ
+人間に救えるような世界はねえよ。[r]その結論を、オタクはどこまで覆せるかねぇ……！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[se ad73]
+
+[effect bit_talk_41]
+[wt 0.4]
+[stretchout full 0.3 1.5]
+[wt 0.1]
+[wt 0.2]
+
+[scene 10000]
+[charaEffect E bit_talk_14]
+[wt 0.1]
+[flashin once 0.1 0.4 FFFFFFAF FFFFFF00]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_18 0.1]
+[se ad32]
+[shake 0.05 2 4 0.4]
+[effectStop bit_talk_41]
+
+[wt 0.2]
+[fadeout black 2.0]
+[wt 0.5]
+
+[wait fade]
+[effectStop bit_talk_41]
+[wt 0.5]
+[soundStopAll]
+[end]
+

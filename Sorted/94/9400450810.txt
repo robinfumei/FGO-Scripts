@@ -1,0 +1,405 @@
+
+
+＄94-00-45-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet F 98076000 1 弁慶]
+[charaSet G 98075000 1 鬼]
+[charaSet H 4023001 1 坂田金時]
+
+
+[scene 27800]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+…………。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+難しい顔ですね、牛若丸さん。[r]何か気になることでも？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠牛若丸
+無論、弁慶です。[r]さきほどの関の事もそうですが。
+[k]
+
+＠牛若丸
+主殿。あやつ、あれほど強かったでしょうか？[r]どう見ても身体が膨らんでいますし……。
+[k]
+
+？1：弱くなってるよりいいよ
+
+[charaFace D 3]
+
+＠牛若丸
+それはまあ、そうなのですが。
+[k]
+
+＠牛若丸
+不自然すぎるのはどうかと。[r]何かおかしな草でも[#食:は]んでいるとか……
+[k]
+
+？2：ドーピング疑惑……？
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠弁慶
+ははは、ご冗談を。[r]拙僧、御仏に誓えぬような行いはいたしませぬ。
+[k]
+
+＠弁慶
+茶屋で美味い茶は飲みましたが。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+お茶……ですか。この島で？
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+
+＠弁慶
+ええ。次の大門の先になるのでしょうが、拙僧が[r]最初に降り立った集落には一軒の茶屋があったのです。
+[k]
+
+＠弁慶
+店は明るく、客も先程の集落の人々のように[r]陰気ではなく、繁盛しておりました。
+[k]
+
+＠弁慶
+情報収集ならばそこに行くのはどうでしょうか。[r]何か話が聞けるかもしれませぬぞ。
+[k]
+
+？1：いいね、行きたい！
+？2：そういえば小次郎さんもそんな事を……
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFadein C 0.1 1]
+
+＠フォウ
+フォウフォウ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 2]
+
+[charaFace D 0]
+[charaFadein D 0.1 0]
+
+＠坂田金時
+おう。サービスエリアでの休憩は旅の醍醐味だ。[r]とりあえずの目的地としちゃあ文句はねえな。
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+ふむ。[r]実は私も、ちょうど喉が渇いていたところです。
+[k]
+
+[charaFadeout H 0.1]
+
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+
+＠弁慶
+おお、それはよくない。
+[k]
+
+＠弁慶
+そう言えば、あまりの美味さ故、水筒に茶屋の茶を[r]詰めてもらっておりました。どうぞ、お飲みくだされ。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠牛若丸
+おお、気が利くな。いただくぞ。
+[k]
+
+＠牛若丸
+んぐんぐ……むぅ……不思議な味の茶だ……[r]確かに美味いが……。
+[k]
+
+
+[charaFace D 6]
+
+＠牛若丸
+………………ひっく。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+
+＠マシュ
+……！？[r]う、牛若丸さん？　どうしました？
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+
+＠牛若丸
+何を言っているのですかな、マシュ殿は。[r]私はどうもしませんよ。
+[k]
+
+
+＠牛若丸
+さ、方向性が決まったところで前進しましょう。[r]おお、見てください主殿。
+[k]
+
+＠牛若丸
+こんなところにも道端に地蔵がありますね。[r]まだ信心を残している人間もいるのでしょうか。
+[k]
+
+[charaTalk A]
+[charaFace A 12]
+
+＠マシュ
+……何か顔色が普段と違うような気もしましたが……。[r]普通ですね。
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠牛若丸
+…………。
+[k]
+
+[charaTalk B]
+
+＠Dr.ロマン
+いや……道端のお地蔵さんをじーっと見つめて[r]動きを止めてるけど。いったい……？
+[k]
+
+[charaTalk D]
+[charaFace D 2]
+
+＠牛若丸
+あ……兄上ーッ！
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+
+＠マシュ
+！？
+[k]
+
+[charaTalk D]
+
+＠牛若丸
+これは……この地蔵の顔は！　まさに兄上です！
+[k]
+
+[charaTalk A]
+
+＠マシュ
+そ、そうなんですか？　[r]私には普通のお地蔵さんに見えますが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 2]
+
+[charaFace E 0]
+[charaFadein E 0.1 0]
+
+＠坂田金時
+ああ。デフォルトでスタンダードな地蔵さまだぜ。
+[k]
+
+＠風魔小太郎
+（……こくこく）
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠牛若丸
+皆様は兄上を知らないからです！　このつるりとした肌、[r]石のような佇まい、独特の存在感……そしてこの表情！
+[k]
+
+＠牛若丸
+まさに、なんとも言えない目で[r]私を見る時の兄上の顔ではないですか！
+[k]
+
+[charaTalk F]
+
+＠弁慶
+義経様がそう言うのならそうなのでしょうな。
+[k]
+
+＠牛若丸
+おお、このような逸品にこんなところで出会えるとは……[r]さぞや名のある石工か僧の手によるものでしょう。
+[k]
+
+＠牛若丸
+しかしここは鬼ヶ島。いつ何時、価値のわからぬ[r]鬼の手によって打ち壊されても不思議ではありません。
+[k]
+
+[charaFace D 0]
+
+＠牛若丸
+であれば、大切な兄上はもちろん保護です。[r]よっこらしょ。
+[k]
+
+[charaTalk A]
+
+＠マシュ
+牛若丸さんが地蔵を小脇に抱えて……完全に持ち歩く構え[r]なのですが。い、いいんでしょうかあれ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[communicationCharaLoop 98003003 1 5 0 4]
+
+＠Dr.ロマン
+よくはないんだろうけど、所有権を主張する人も[r]いなさそうだしなぁ……。
+[k]
+
+＠Dr.ロマン
+それにしても牛若丸くん、いきなり言動が一線を越えた[r]というか、テンションが変わったというか[line 2]
+[k]
+
+[communicationCharaFace 5]
+
+＠Dr.ロマン
+ん？　一見普通そうに見えて、なんだかおかしい……[r]こんなこと、前にもあったような……？
+[k]
+
+
+[bgm BGM_EVENT_3 0.1]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk D]
+[charaFadein G 0.1 1]
+
+
+＠牛若丸
+そして唐突に敵です！[r]好都合！
+[k]
+
+[charaTalk A]
+
+＠マシュ
+えっ、敵ですよ？[r]どうしてですか？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+
+[charaFace D 6]
+
+[charaFadein D 0.1 1]
+
+＠牛若丸
+もちろん[line 2][r]兄上に敵の[#首:しるし]を捧げられるからです！
+[k]
+
+＠牛若丸
+この兄上を確保してすぐ敵とは、やはり兄上が常に[r]敵将の首を求めているという証拠[line 3]
+[k]
+
+[charaFace D 7]
+
+＠牛若丸
+ひい、ふう、みい[line 2]たくさん！[r]うーん、多くて実にいいですね！
+[k]
+
+
+
+＠牛若丸
+血の滴る新鮮な鬼の首を山積みにお供えして、[r]私は兄上に褒めてもらうのです！
+[k]
+
+[charaFace D 8]
+
+＠牛若丸
+“またかヨシツゥネ、よくもやってくれた。[r]　マサコゥが怒鳴りこんでくる前に戦場に帰れ”と！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠マシュ
+マスター、牛若丸さんが致命的なエラーを！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠坂田金時
+首をどうするかはともかく、やることは変わんねぇ。[r]相も変わらぬ鬼退治、行くぜオラァ！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

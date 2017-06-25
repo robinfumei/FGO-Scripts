@@ -1,0 +1,134 @@
+
+＄94-00-45-03-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet E 6019000 1 風魔小太郎]
+[charaSet G 7023001 1 ？？？]
+
+[scene 27800]
+[fadein black 1.0]
+[wait fade]
+
+
+[communicationChara 98003003 1 5 0 4]
+
+＠Dr.ロマン
+ふう、なんとかなった……。
+[k]
+
+[communicationCharaFace 0]
+
+＠Dr.ロマン
+しかし小太郎くんはさすがは忍者だ。[r]索敵の能力も一級品みたいだね。
+[k]
+
+？1：さっきもドクターより早く気付いてたしね
+
+[communicationCharaFace 2]
+
+＠Dr.ロマン
+同時！　同時でしたよ！？
+[k]
+
+＠Dr.ロマン
+そっちとはタイムラグがある分、[r]ボクの方が不利なんだぞう！！
+[k]
+
+？2：これからも頼りにさせてもらおう
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠風魔小太郎
+他人の気配には、敏感なので……
+[k]
+
+＠風魔小太郎
+できるかぎり、[%1][&君:さん]の[r]お力になれればと思います。
+[k]
+
+[messageOff]
+
+
+
+[wipeout rightToLeft 0.6 1.2]
+[wait wipe]
+
+[charaFadeout E 0.1]
+
+[charaFace G 0]
+[charaFilter G silhouette 00000000]
+[charaFadein G 0.1 2]
+
+[wipein leftToRight 0.6 1.2]
+[wait wipe]
+
+[bgmStop BGM_EVENT_2 0.3]
+[wt 0.3]
+
+[bgm BGM_EVENT_5 0.1]
+
+
+[wt 1.2]
+
+[wipeout leftToRight 0.3 1.2]
+[wait wipe]
+
+[charaFadeout G 0.1]
+
+[wipein rightToLeft 0.3 1.2]
+
+[wt 0.5]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+
+
+＠風魔小太郎
+…………？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+
+＠マシュ
+どうかなさいましたか、小太郎さん？
+[k]
+
+[charaTalk E]
+
+
+＠風魔小太郎
+……いえ。何でもありません。
+[k]
+
+＠風魔小太郎
+（……今、視線を感じたような気がしたが……[r]　気のせい、か……？）
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[wt 0.1]
+[soundStopAll]
+[end]

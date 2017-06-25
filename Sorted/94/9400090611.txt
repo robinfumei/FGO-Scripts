@@ -1,0 +1,320 @@
+＄94-00-09-06-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10721]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 2024000 1 織田信長（本物）]
+[charaSet D 1027000 1 沖田総司]
+[charaSet F 2024000 1 悪いノッブ]
+[charaSet G 2024000 1 良いノッブ]
+[charaFadein F 0.1 1]
+[charaFace F 4]
+[fadein black 2]
+[wait fade]
+
+
+[wt 0.5]
+＠悪いノッブ
+お、おのれ、良いノッブめ……[r]だがわしは貴様らに負けたのではないぞ
+[k]
+
+＠悪いノッブ
+わしの心の中にある良きノッブに敗れたのじゃ[r]それに、わしはまた必ず現れる……、そう……
+[k]
+
+[charaFace F 2]
+＠悪いノッブ
+おまえ達が大地への感謝を忘れたときとかにな！
+[k]
+
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect F flashErasure]
+[wait time 0.3]
+
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+それっぽい事を言って消えてしまいましたね。[r]これでミッション完了、でしょうか？
+[k]
+
+
+？1：そうだね、帰ろうか。
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+戦利品の茶器もたくさん手に入りましたし[r]ダ・ヴィンチさんも喜んでくれるでしょう。
+[k]
+
+？2：長かった。
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+そうですね、いろんな意味で長かったですね……。[r]あ、集めた茶器も持って帰らないと。
+[k]
+
+？！
+
+[se ad14]
+
+[charaFadeout A 0.1]
+
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+うん、その空間も消滅が始まったみたいだ。[r]気をつけて戻ってきてくれ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠織田信長（本物）
+うむ、わしの力もようやく完全に戻ったようじゃ。
+[k]
+
+
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+
+[charaFace C 2]
+＠織田信長（本物）
+……ふはははは！[r]これで貴様らも本当の本当に用済み……
+[k]
+
+[wt 0.3]
+[seStop ad42]
+[se bac9]
+
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠沖田総司
+そういうのもういいですから。
+[k]
+
+[bgmStop BGM_EVENT_3 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_6 0.1]
+
+[charaFace D 1]
+＠沖田総司
+あ、皆さん、今回は御世話になりました。[r]今度は是非私たちの世界にも遊びに来てください。
+[k]
+
+＠沖田総司
+大戦真っ最中ですけど。
+[k]
+
+
+[charaFadeout D 0.1]
+
+[charaSet C 2024000 1 織田信長]
+
+[effect bit_talk_06]
+
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠織田信長
+うむ、本来交わることの無い世界じゃったが[r]おまえ達は気に入ったのじゃ！
+[k]
+
+＠織田信長
+もしわしを召喚するようなことがあったら[r]第六天魔王の力、存分に振るってやろう！
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠沖田総司
+そうですね、確率はとても低いでしょうが
+[k]
+
+＠沖田総司
+そのときは私も[%1]、[r]あなたにこの剣を預けましょう！
+[k]
+
+？1：うん、よろしく！
+？2：召喚……確率……、うっ、頭が……！？
+
+？！
+
+[charaFadeout D 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+さようなら、沖田さんに信長さん！[r]お昼ごはんのたくあん美味しかったです！
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠沖田総司
+ふふ、それではまたどこかで逢いましょう！
+[k]
+
+[charaFadeout D 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠織田信長
+うむ、短い間じゃったがよき采配であったぞ[r]では[%1]よ、さらばじゃ！
+[k]
+
+
+[messageOff]
+[seStop ad14 1]
+[fadeout white 2]
+[wait fade]
+[charaFadeout C 0.1]
+[effectStop]
+[soundStopAll]
+[wt 1]
+[scene 10204]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 98001000 2 マシュ]
+[fadein black 2]
+[wait fade]
+
+
+
+
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+[line 3]この間は大変でしたね、先輩。
+[k]
+
+
+
+？1：なんだか夢だったみたいだ。
+[charaFadein A 0.1 1]
+[charaFace A 13]
+＠マシュ
+お二人は今頃どうしてますかね？
+[k]
+
+＠マシュ
+例の帝都聖杯とやらもどうなったか[r]少し気になりますね。
+[k]
+
+？2：うん、ぐだぐだだったね。
+[charaFadein A 0.1 1]
+[charaFace A 8]
+＠マシュ
+ええ、わたしたちもあの妙な生物になってしまって
+[k]
+
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+マシュマシュー！
+[k]
+
+[charaFadein A 0.1 1]
+[charaFace A 3]
+＠マシュ
+とかいう羽目にならなくてよかったです。
+[k]
+
+？！
+
+[soundStopAll]
+[wt 0.]
+[se ad9]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.2]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+これは！？
+[k]
+
+[wt 1]
+[seStop ad9]
+
+[wt 0.4]
+[se ad7]
+
+[charaFadeout A 0.1]
+
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠織田信長
+おう！[r]おまえたち、元気にしておったか？
+[k]
+
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+信長さん！？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 4]
+＠沖田総司
+お久しぶりです、皆さん。[r]実は今度は私の悪い心が暴走をですね……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+帰ってください！
+[k]
+
+？1：もう勘弁してください……。
+？2：最後までぐだぐだなんじゃが……。
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠沖田総司
+ホントいろいろすみません。
+[k]
+
+[charaFadeout D 0.1]
+
+[wt 0.5]
+
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠織田信長
+是非もないネ！！
+[k]
+
+
+[messageOff]
+[charaFadeout C 0.1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

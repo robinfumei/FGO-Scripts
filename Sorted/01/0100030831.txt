@@ -1,0 +1,315 @@
+＄01-00-03-08-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21330 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98018100 1 海賊]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 4008002 0 黒髭]
+[charaSet F 3016000 1 ヘクトール]
+[charaSet G 2012001 1 エウリュアレ]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk H]
+[charaFace F 0]
+[charaFadein F 0 0]
+[charaFace H 5]
+[charaFadein H 0 2]
+[fadein black 1]
+[wait fade]
+[se bac12]
+[flashin once 1 0.4 FF000080 00000000]
+[wt 0.3]
+＠アステリオス
+ぐ、ぅぅ！！
+[k]
+
+＠エウリュアレ
+アステリオス……！！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[wt 0.3]
+[charaFadein E 0.1 1]
+[se bac22]
+[wait se bac22]
+[wt 0.5]
+[charaFadeout E 0.1]
+[charaFadein F 0.1 1]
+[charaFace F 5]
+＠ヘクトール
+ちっ！[r]……おいおい、船長。アンタまだ生きてんのか。
+[k]
+
+＠黒髭
+ぐひひひひ。愛の力ですぞ！[r]……何てな、今のが最後の一撃さ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein F 0.1 0]
+[charaFadein G 0.1 2]
+[charaFace F 2]
+＠ヘクトール
+ちっ……！[r]だが、目的は達した。悪いな、海賊諸君。
+[k]
+
+[charaFadein G 0.1 1]
+[charaFace G 3]
+[se bac1]
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+[wt 0.3]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaSet G 2009102 1 オリオン]
+[charaSet H 2009201 1 アルテミス]
+[charaTalk G]
+[charaFace H 5]
+[charaFadein H 0.4 0]
+[charaFace G 5]
+[charaFadein G 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠オリオン
+あ、くそ。アイツ、船用意してやがった！[r]ちゃっかりしてんなぁ！
+[k]
+
+[charaFace H 2]
+＠アルテミス
+追いかけようか、ダーリン。[r]私たちなら[line 2]。
+[k]
+
+[charaFace G 2]
+＠オリオン
+駄目だ！
+[k]
+
+[charaFace H 5]
+＠アルテミス
+……何で？
+[k]
+
+[charaFace G 5]
+＠オリオン
+今のおまえも、そして俺もサーヴァントだってことを[r]忘れんな。
+[k]
+
+[charaFace H 4]
+＠アルテミス
+むぅ。ダーリンは、私が負けると思ってるわけね？
+[k]
+
+[charaFace G 0]
+＠オリオン
+ありゃランサーだ。[r]それもヘクトールっつったらアレだろ。
+[k]
+
+＠オリオン
+オリュンポスの神々が介入した最大の戦争、[r]トロイア戦争における大英雄。
+[k]
+
+＠オリオン
+あの万能無敵勇者アキレウスが[r]数年掛けてやっと倒したような相手だぞ。
+[k]
+
+[charaFace G 5]
+＠オリオン
+[#神体:ホント]のおまえならまだしも、[r]俺の力をベースにしている今は、ちょっと手に余る。
+[k]
+
+[charaFace H 0]
+＠アルテミス
+むぅ。意外と冷静だね。
+[k]
+
+[charaFace G 0]
+＠オリオン
+そうでもねえけどな。何か、全員怒り心頭みたいだし。[r]一人くらい冷静な奴がいなきゃ、どーしよーもねーだろ。
+[k]
+
+[charaFace H 1]
+＠アルテミス
+キャー、素敵！[r]ダーリン！　抱いて！　滅茶苦茶にして！
+[k]
+
+[charaFace G 2]
+＠オリオン
+だからぬいぐるみに無茶言うなや！
+[k]
+
+[charaFadeout G 0.4]
+[charaFadeout H 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230 0]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait wipe]
+＠マシュ
+黒髭の手下たちが……消えちゃいました。
+[k]
+
+＠Dr.ロマン
+黒髭が保有していた魔力で産み出されたものだからね。[r]聖杯もなくなった今、維持できる力もないようだ。
+[k]
+
+＠Dr.ロマン
+……その割りに本人は、何かまだ元気一杯っぽいけど。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+＠黒髭
+さあて、そろそろさよならのお時間ですな！[r]ＢＢＡ、これで勝ったと思うなよでござるよ！？
+[k]
+
+＠ドレイク
+ああ、はいはい。[r]もうなに言われても負け犬の遠吠えだから。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+さっさと消滅しちまいな、黒髭。[r]生き続けるのもキツいんだろ、今のアンタ。
+[k]
+
+[charaFace E 0]
+＠黒髭
+おおおのれ。そんな優しい言葉を掛けられれば……[r]ＢＢＡにデレたくなってしまう……。
+[k]
+
+[charaFace E 3]
+＠黒髭
+結婚します、一生幸せにしますとか言っちゃう……。[r]ＢＢＡ、どうせ彼氏居ない歴＝年齢でしょう？
+[k]
+
+[charaFace D 2]
+＠ドレイク
+滅茶苦茶間に合ってるわ、このボケェッ！！[r]さっさとおっちね！
+[k]
+
+[charaFace E 1]
+＠黒髭
+ハハハ、ナイスな罵倒ですな！
+[k]
+
+＠黒髭
+さあて、満足したし死ぬとするか！[r]だが、今度こそは首を刎ねられてやらねえですぞ。
+[k]
+
+＠黒髭
+だって拙者、大海賊ですからな！[r]面白おかしく海賊やって、そして死ぬ！
+[k]
+
+＠黒髭
+ハーレムできなかったのは無念だが[r]楽しかったからよしとしよう！
+[k]
+
+[charaFace E 0]
+＠黒髭
+……あ、でもＢＢＡや。[r]拙者がライバルとして蘇るルートとか必要では？
+[k]
+
+[charaFace E 1]
+＠黒髭
+おまえを倒すのは、この拙者と決めている……！[r]みたいな台詞と共に、復活とか良くない？
+[k]
+
+[charaFace D 5]
+＠ドレイク
+……要らない要らない。[r]そらそら、逝けよ。
+[k]
+
+[charaFace D 0]
+＠ドレイク
+アンタの最期はマシュから聞いた。[r]その首はきっちり忘れず持って行きな！
+[k]
+
+＠黒髭
+そうか、じゃあしょうがないな！[r]は、いいさ、いいさ、いいってことさ！
+[k]
+
+[charaFace E 0]
+＠黒髭
+黒髭が誰より尊敬した女が！[r]誰より焦がれた海賊が！
+[k]
+
+[charaFace E 1]
+＠黒髭
+黒髭の死を看取ってくれる上に、[r]この首をそのまま残してくれるなんてな！
+[k]
+
+[charaFace E 2]
+＠黒髭
+それじゃあ、さらばだ人類！[r]さらばだ海賊！
+[k]
+
+[charaFace E 1]
+＠黒髭
+黒髭は死ぬぞ！[r]くっ、ははははははははははははは！！
+[k]
+
+[messageOff]
+[charaSpecialEffect E flashErasure 0 1]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[wt 0.3]
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠ドレイク
+ああ、さっさと死になエドワード。[r]どうせアンタもアタシも地獄行きだ。
+[k]
+
+＠ドレイク
+海賊らしく無様にみっともなく、[r]悪行の報いとやらを受けようじゃないか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……船が崩れます。[r]戻りましょう！
+[k]
+
+[charaFadeout A 0.1]
+[charaSet H 7009001 1 アステリオス]
+[charaTalk A]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+さあ、アステリオスさん。[r]掴まって下さい。
+[k]
+
+＠アステリオス
+うぅ……。[r]えう、りゅあ、れ……。
+[k]
+
+[charaFace A 4]
+＠マシュ
+……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

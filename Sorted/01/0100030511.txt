@@ -1,0 +1,246 @@
+＄01-00-03-05-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4003001 1 ドレイク]
+[charaSet E 98018100 1 海賊]
+[charaSet F 2012001 1 エウリュアレ]
+[charaSet G 7009001 1 アステリオス]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ドレイク
+……さて、地図によれば次の島はもう少し先か……。[r]ん？
+[k]
+
+[charaFace A 6]
+＠マシュ
+どうしました？
+[k]
+
+[charaFace D 4]
+＠ドレイク
+あー、ちょっと風向きが変わったな。[r]こりゃ、陽が沈む頃に嵐になるかもしれないねぇ。
+[k]
+
+[charaFace D 2]
+＠ドレイク
+お前たち、貨物や食料を整理しておきな！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein E 0.1 2]
+＠海賊
+あいよ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠エウリュアレ
+～♪
+[k]
+
+[charaFace G 3]
+＠アステリオス
+……うた？
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+あら、聞こえてた？
+[k]
+
+＠アステリオス
+うん。
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+ま、いいわよ。[r]特別に聞かせてあげる。
+[k]
+
+＠エウリュアレ
+ラ、ラ、ラ……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠ドレイク
+いいねえ。[r]綺麗な歌は癒されるわー。
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+あら船長。[r]船長に聞いていいと許可を出したつもりはないけど？
+[k]
+
+[charaFace D 4]
+＠ドレイク
+意地悪言わないでおくれよぅ！
+[k]
+
+＠エウリュアレ
+しょうがないわね。[r]滅多に聞かせるものでもないんだから。
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+ありがたく拝聴しなさい、女神の歌を。
+[k]
+
+[wt 0.5]
+[charaFadeout D 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+……綺麗な歌ですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォゥ……。
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+はい、おしまい。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+＠アステリオス
+うん……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+エウリュアレさん。一つ質問が。[r]あなたはどうして追われていたのです？
+[k]
+
+[charaFace F 4]
+＠エウリュアレ
+厭なこと思い出させるわね、あなたは。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……ごめんなさい。[r]それでも聞いておくべきだと思ったのです。
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+……ふうん。[r]ま、悪気はないようだから許してあげる。
+[k]
+
+＠エウリュアレ
+……ほら。私、可愛いじゃない。
+[k]
+
+[charaFace A 6]
+＠マシュ
+……はい？
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+だから、私可愛いでしょ？
+[k]
+
+[charaFace A 8]
+＠マシュ
+ええとその……はい。
+[k]
+
+＠エウリュアレ
+あなたもそう思うわよね？
+[k]
+
+？1：どこかでみたぐらいに可愛い
+
+？2：どこかでみたぐらいに美しい
+
+？！
+
+[charaFace F 4]
+＠エウリュアレ
+そう。私可愛いし、可憐なの。[r]だからいつも男共に狙われるんだけど……
+[k]
+
+[charaFace F 5]
+＠エウリュアレ
+今回は特別たちの悪いヘンタイに狙われたみたい。[r]ドレイクと同じ、妙な海賊にね。
+[k]
+
+[charaFace A 6]
+＠マシュ
+海賊に……？
+[k]
+
+[charaFace F 0]
+＠エウリュアレ
+ただの海賊じゃないわ。[r][#海賊のサーヴァント]に狙われたの。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……！
+[k]
+
+＠エウリュアレ
+真名は知らないわ。[r]ただ、世界最強の気持ち悪さなのは確かよ。
+[k]
+
+＠エウリュアレ
+アイツの前じゃスキュラも自分の体を見直すぐらいに。
+[k]
+
+[charaFace A 15]
+＠マシュ
+……強いでも怖いでもなく、気持ち悪い……[r]一体どんな海賊なんでしょうか……。
+[k]
+
+[charaFace F 4]
+＠エウリュアレ
+そんなことより、アステリオス。[r]怪我はもういいの？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠アステリオス
+……ん。
+[k]
+
+[charaFace F 1]
+＠エウリュアレ
+ふぅん、そ。[r]じゃあ、私を肩に載せても問題ないわね？
+[k]
+
+[charaFace G 4]
+＠アステリオス
+う……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

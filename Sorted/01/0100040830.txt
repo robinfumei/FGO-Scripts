@@ -1,0 +1,171 @@
+＄01-00-04-08-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 21410 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5007001 1 シェイクスピア]
+[charaSet E 1009001 1 モードレッド]
+[charaSet F 6007002 1 ハイド]
+[charaSet G 6007001 1 ジキル]
+[charaSet H 5005001 1 アンデルセン]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0 1]
+[fadein black 1]
+[se ad60]
+[wt 2]
+[wait fade]
+[seStop ad60 0.3]
+＠ジキル
+…………まるで無限に続く[#迷宮:ダンジョン]、だな。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk H]
+[charaFace D 4]
+[charaFace H 4]
+[charaFadein D 0.1 0]
+[charaFadein H 0.1 2]
+＠アンデルセン
+暗いな。
+[k]
+
+＠シェイクスピア
+然り。更には、いやに空気も湿っていますな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠モードレッド
+魔術師の住処ってのはそういうもんだろ、[r]暗くてじめじめしたところが好きって相場が決まってる。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein C 0.1 1]
+＠フォウ
+キュー、キャーウ！[r]フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk E]
+[charaFadein C 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠モードレッド
+ほら、小動物もそうだって言ってるぜ。[r]ここはいかにも魔術師に相応しい、ってな。なー？
+[k]
+
+＠フォウ
+キュー！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさん？[r]なんだか、興奮しているような……
+[k]
+
+？1：何か感じるものがあるのかな？
+
+＠フォウ
+キュキュ……キャーウ……。
+[k]
+
+？2：モードレッドに凄く同意してるんだね
+
+＠フォウ
+キュー、キャーウ！[r]キュー！
+[k]
+
+[charaFace A 13]
+＠マシュ
+そうなんですね。フォウさん、[r]モードレッドさんに懐いたんでしょうか。
+[k]
+
+＠フォウ
+フォーウ……。
+[k]
+
+？！
+
+＠Dr.ロマン
+こうして暗い通路が続いてるのは、まあ、あれだよ、[r]瓦礫で塞がっていない通路を選んで歩いているからかな。
+[k]
+
+＠Dr.ロマン
+部屋への入口はどこもかしこも潰れていたり、[r]瓦礫で埋まっていたり……
+[k]
+
+＠Dr.ロマン
+どうも、念入りに破壊された節があるな。[r]実際のところ、生き残りの魔術師さえいないんだ。
+[k]
+
+＠Dr.ロマン
+この推測が確かなら、敵は[r]戦力をここへ送り込んだはずだ。それが[line 3]
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 2]
+＠モードレッド
+今も残ってるかも知れない、ってか？[r]それで合ってるみたいだぜ。
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+魔力反応、感知しました！[r]先輩、曲がり角の先に何かがいます！
+[k]
+
+？1：戦闘だ！
+
+？2：閉鎖空間だから注意して！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+[line 3]了解です、マスター！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アンデルセン
+やれやれ。[r]今回は特別に俺が助力してやろう。本当に特別だぞ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

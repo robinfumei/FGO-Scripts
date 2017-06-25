@@ -1,0 +1,213 @@
+
+＄94-00-18-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[charaSet A 5007001 1 シェイクスピア]
+[charaSet B 4008001 1 黒髭]
+[charaSet C 98018100 1 部下]
+[charaSet D 5014001 1 メフィストフェレス]
+[charaSet E 7005001 1 スパルタクス]
+
+[scene 21240]
+
+[fadein black 2]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠スパルタクス
+叛逆失敗……がくっ。[r]ではマスター、圧制はほどほどに……。
+[k]
+
+[messageOff]
+[charaSpecialEffect E flashErasure 0 1.7]
+[se ba5]
+[wait charaSpecialEffect E]
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠黒髭
+三年Ｂ組アッセイ先生[line 3]！！[r]拙者の野望もここに潰えた……！
+[k]
+
+[charaFace B 4]
+＠黒髭
+チョコ・サーヴァントたちを上手くマシュちゃんや[r]エウリュアレちゃん、アタランテちゃん、アルテミスちゃん、
+[k]
+
+＠黒髭
+マタ・ハリちゃん、ブーディカちゃん、清姫ちゃ……は[r]ちょっと怖いから保留だけど、その他色々に加工して……。
+[k]
+
+＠黒髭
+色々と、色々と、お楽しみしたかったのに……！
+[k]
+
+
+？1：さ、最低の発想だ……！
+？2：ドレイクさん、こいつです！
+？！
+
+[charaFadeout B 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+ふぅむ……マスター、マスター！
+[k]
+
+＠シェイクスピア
+チョコ・サーヴァントを数えていましたが、[r]まだ人数が足りませんぞ。
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+どうやら他にも、どさくさに紛れてチョコを[r]強奪した方がいらっしゃるようですな！
+[k]
+
+[charaFace A 2]
+＠シェイクスピア
+面白くなってきました！
+[k]
+
+？1：面白がってるよね！？
+
+＠シェイクスピア
+ええ、愉快ですとも！　重厚な悲劇も得意ですが、[r]やはり観客の肩の力を抜かせるには喜劇が一番。
+[k]
+
+？2：本当に黒幕じゃないんだよね！？
+
+[charaFace A 4]
+＠シェイクスピア
+………………………………はい！
+[k]
+
+[charaFace A 1]
+＠シェイクスピア
+どうどうです、マスター。
+[k]
+
+[charaFace A 0]
+＠シェイクスピア
+意味深な「……」のせいで、やっぱり怪しいみたいな[r]メタフィクション的思考はおやめください。
+[k]
+
+＠シェイクスピア
+吾輩、超潔癖ですから。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠黒髭
+ふ、ふふふ。これで勝ったと思うなでおじゃる。[r]この黒髭は所詮、四天王の中でもっとも格上……。
+[k]
+
+[charaFace B 3]
+＠黒髭
+まだまだむせ返るほどの汗臭さを皆に[r]お届け致しますぞぅ！
+[k]
+
+？1：やる気が削がれる一言、ありがとう！
+？！
+
+[charaFace B 1]
+＠黒髭
+では黒髭はこれにて！
+[k]
+
+＠黒髭
+以後は青空をバックに何とかフェードな状態で[r]出演させていただきます！
+[k]
+
+[charaFadeout B 0.1]
+
+[charaTalk D]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠メフィストフェレス
+では黒髭殿、爆弾をお一つ。うふ。
+[k]
+
+[charaFace B 3]
+＠黒髭
+や、メフィスト氏。[r]これはどうも頂きます。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠黒髭
+……。[r]……………………要らないデスｙ
+[k]
+
+[se bac37]
+[effect bit_talk_29]
+[wt 0.4]
+[charaFace B 2]
+[charaShake B 0.05 3 3 0]
+[wait effect bit_talk_29]
+[charaShakeStop B]
+
+[charaFace B 2]
+＠黒髭
+ＹＯォォォォォォォッ！？
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[wt 0.7]
+
+[scene 20320 2.0]
+[wt 2.4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.7 1]
+[wt 1.0]
+＠黒髭
+チョコレートは……圧制さ……。
+[k]
+
+[messageOff]
+[charaFadeout B 0.7]
+[wt 1.0]
+[wt 0.4]
+
+[scene 21240 2.0]
+[wt 2.4]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠シェイクスピア
+青空をバックにすれば、大体良いこと言ってる感[r]出るもんですな、マスター。
+[k]
+
+？1：そうかなぁ……
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

@@ -1,0 +1,207 @@
+＄01-00-06-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaSet E 98080000 1 ？？？]
+[charaSet F 98081000 1 商人たち]
+[charaSet G 98081000 1 商人たち]
+
+[scene 29020]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.2]
+[charaEffect E bit_talk_13]
+[wt 0.1]
+[charaShake E 0.05 3 3 0.25]
+[se bac11]
+[wt 1.0]
+＠？？？
+つぁ、まいったあ！　降参だ、降参だ！[r]しけた稼ぎで命を獲られちゃかなわねぇ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+ずいぶん引き際のいい盗賊だ。[r]言葉のなまりといい、もしかしてムスリム商人？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+あん？　懐かしい名前を言うねぇ奥方。[r]ちょっと前までなら、確かにそんなのもあったがねぇ。
+[k]
+
+＠？？？
+楽しい欲張り共の集まり！[r]十字軍が相手だろうといい商売をしたもんさ！
+[k]
+
+＠？？？
+ま、聖都が出来ちまった後は、[r]あっさり獅子王の補佐官殿に潰されたがね。
+[k]
+
+＠？？？
+オレは[#目端:めはし]がきいたからなぁ。[r]土下座して見逃してもらったのさ。
+[k]
+
+＠？？？
+顔をあげたらオレ以外みーんな首を[r]はねられていたのは今でも笑い話だがよ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……そんな。[r]現地の商人を、一方的に殺害したなんて……
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+お。チャーンス、気が抜けたな騎士の嬢ちゃん！[r]テメエら、逃げろ逃げろ！
+[k]
+
+[charaFadeout E 0.1]
+
+[charaTalk off]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[wt 0.2]
+[se ad59]
+[seStop ad59 1.5]
+[charaAttack F normal -500,0 0.4]
+[charaAttack G normal 0,0 0.4]
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+＠商人たち
+ヒュー！[r]セルハンのお頭、お先！
+[k]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+あ、待ちなさい！　もっと詳しい話をだね！？
+[k]
+
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：セルハン
+話を聞きたきゃブツをだしな！　と言っても、[r]アンタらはおっかないから交換はしねえけどな！
+[k]
+
+＠E：セルハン
+あばよ、ヘンな[&兄ちゃん:嬢ちゃん]たち！[r]……だが引き返せってのは本気の忠告だぜ？
+[k]
+
+＠E：セルハン
+悪い事は言わねぇ。[r]人間でいたかったら、あの城には近づくな。
+[k]
+
+[bgmStop BGM_EVENT_5 0.7]
+[charaAttack E normal -250,0 0.4]
+[charaFadeout E 0.4]
+[se ad59]
+[seStop ad59 1.5]
+
+[wt 1.5]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……盗賊集団、撤退しました。[r]追いますか、マスター？
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠ダ・ヴィンチ
+いや、その必要はないよ。[r]というか、あんなの捕まえられそうにない。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そうだね。物騒なコトを言っていたけど、[r]こっちは虎穴に飛び込むしかないんだ。
+[k]
+
+＠Dr.ロマン
+それと、今のは現地人だね。[r]サーヴァント反応がまったくなかった。
+[k]
+
+＠Dr.ロマン
+もしかしたらロンドンの時のジキル君のように、[r]違う年代から混ざってしまったのかもしれないが。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+そうだったんですか。サーヴァントでなくとも、[r]たいへんな強さでしたが……
+[k]
+
+[charaFace D 5]
+＠ダ・ヴィンチ
+んー。自分で商人とか言っていたけど、[r]ホントは軍人だったのかもだ。
+[k]
+
+＠ダ・ヴィンチ
+ま、そのあたりは私たちでは与り知らない事だ。[r]それより聖都に急ごう。そろそろ動きがありそうだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk B]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ、みんな気をつけて。[r]マントで体を隠して、極力目立たないようにね！
+[k]
+
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_2 0.9]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.1]
+[soundStopAll]
+[end]

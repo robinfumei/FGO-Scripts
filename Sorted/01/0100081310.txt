@@ -1,0 +1,744 @@
+＄01-00-08-13-1-0
+
+
+
+[soundStopAll]
+
+[bgm BGM_EVENT_3 0.1]
+
+[scene 36100]
+
+[charaSet A 9938700 1 魔神サブナック]
+[charaSet B 2020001 1 イシュタル]
+[charaSet C 98106000 1 エルキドゥ]
+[charaSet D 8001002 1 マシュ]
+[charaSet E 11004001 1 ゴルゴーン]
+[charaSet F 3027001 1 アナ]
+[charaSet G 4018001 1 ケツァル・コアトル]
+[charaSet H 3028001 1 ジャガーマン]
+
+[charaTalk A]
+[charaFadein A 0.1 1]
+
+[fadein black 2.0]
+[wait fade]
+
+[seLoop ad14]
+[seVolume ad14 0 0.5]
+
+＠魔神サブナック
+起動せよ。起動せよ。[r]生命院を司る九柱。即ち、
+[k]
+
+＠魔神サブナック
+シャックス。ヴィネ。ビフロンス。ウヴァル。[r]ハーゲンティ。クロケル。フルカス。バラム。
+[k]
+
+[se ad63]
+[flashin loop 0.1 0.1 FFFFFFFF FFFFFF00]
+[wt 0.7]
+[flashOff]
+[wt 0.4]
+
+＠魔神サブナック
+我ら九柱、誕生を祝うもの。[r]我ら九柱、接合を讃えるもの。
+[k]
+
+＠魔神サブナック
+“七十二柱の魔神”の名にかけて、[r]我ら、この賛美を蔑む事能わず……！
+[k]
+
+
+[messageOff]
+
+[bgmStop BGM_EVENT_3 0.3]
+[wt 0.3]
+
+[se ad226]
+[seVolume ad226 0 0.4]
+[se ad14]
+[fowardEffect bit_talk_38]
+[wt 0.2]
+[shake 0.05 0 4 0]
+[wt 1.0]
+
+[shakeStop]
+[fowardEffectStop bit_talk_38]
+[seStop ad14 0.4]
+
+[wt 0.4]
+
+
+
+＠魔神サブナック
+威嚇目的ではない、殲滅の為の一斉掃射……！[r]なんという外道、名を名乗れ……！
+[k]
+
+[bgm BGM_MAP_18 0.1]
+
+[charaTalk B]
+
+＠B：？？？
+あ[line 3]はっはっはっは！[r]いま美って言ったの？　魔神もどきが賛美って！
+[k]
+
+[charaFadeout A 0.4]
+[seStop ad14 0.2]
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 17]
+[charaFadein B 0.4 1]
+
+＠イシュタル
+でもざーんねん、口は災いの元ってね！[r]賛美と聞いたら黙ってはいられないわ！
+[k]
+
+＠イシュタル
+我こそは美と戦い、豊穣と金星の化身！
+[k]
+
+＠イシュタル
+天翔る女神イシュタル、[r]魔術王とやらに、借りを返しに降臨したわ！
+[k]
+
+[charaFace B 2]
+
+＠イシュタル
+[line 3]って、なんとォ！？
+[k]
+
+
+
+[messageOff]
+
+[charaMove B -1500,0 0.3]
+
+[fowardEffect bit_talk_38l]
+[se bac51]
+[wt 0.5]
+[se bac111]
+
+
+[wt 0.7]
+
+[fowardEffectStop bit_talk_38l]
+[wt 0.6]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.4 1]
+[wt 0.3]
+
+＠イシュタル
+って、危ないじゃないエルキドゥ！[r]アンタ、私がいるって分かったのに撃ったでしょ、今！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+
+＠エルキドゥ
+ああ。ごめん、手が滑ってしまった。[r]もろとも串刺しにするつもりが、紙一重で避けられるなんて。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+うふふ。[r]やっぱり根っこから壊れてるようね。
+[k]
+
+[charaFace B 6]
+
+＠イシュタル
+ちゃーんと油は差してきたのかしらー？[r]本音がだだ漏れだぞ、このポンコツ♡
+[k]
+
+＠イシュタル
+[%1]の前なんだから、[r]あんまり怒らせないでよね？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠エルキドゥ
+へえ。人間の体を借りてしおらしくなった、という[r]のは本当だったんだ。
+[k]
+
+＠エルキドゥ
+らしくないね、女神イシュタル。[r]君はもっと我が儘で、低俗で、珍妙でいるべきだよ。
+[k]
+
+＠エルキドゥ
+ほら、ちょうどそこの魔神柱の残骸を拾うといい。[r]君の髪飾りにピッタリだ。
+[k]
+
+＠エルキドゥ
+何しろ、どちらも人の世に仇なす邪神だからね。[r]このあたりで本性をさらけ出してみてはどうかな？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+[line 6]。
+[k]
+
+[wt 0.4]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+
+＠マシュ
+あわわ、イシュタルさん、かつてない殺気です！[r]笑顔かつ無言なのが余計に不穏です！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.4 1]
+
+＠ゴルゴーン
+好きにさせておけ。その二人は神話時代から犬猿の仲だ。[r]どのような状況であろうと手を取り合う事はない。
+[k]
+
+＠ゴルゴーン
+キン……エルキドゥとイシュタルの殺し合いのついでに、[r]まわりにいる魔神柱が始末できれば御の字だろうよ。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠マシュ
+[line 3]！　女神ゴルゴーン……！？[r]まさか、貴女まで助力に……！？
+[k]
+
+？1：もしかして、アナ……？
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+
+＠アナ
+……その、アナ、という名前は知りませんが。[r]私でしたら、ここにいます。
+[k]
+
+？2：ところでアナは？
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠ゴルゴーン
+そこにいるだろう。[r]小さすぎて見えないのは分かるがな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+
+＠アナ
+……大きければいい、というものではありません。[r]貴女はもう少し体重を落とすべきです。
+[k]
+
+？！
+
+＠アナ
+……[%1]さん、ですね。[r]私も、そのゴルゴーンも、貴方の知る英霊ではありませんが……
+[k]
+
+[charaFace F 1]
+
+＠アナ
+私たちの核になる[#魂:モノ]が、[r]貴方への感謝を覚えています。
+[k]
+
+[charaFace F 0]
+
+＠アナ
+私たちのような怪物に覚えられても迷惑でしょうが、[r]どうか協力させてください。
+[k]
+
+[charaFace F 3]
+
+＠アナ
+……恩を返す、とか、そういうのではなくて。[r]私もゴルゴーンも、そうしたいと純粋に思うのです。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+
+＠ゴルゴーン
+……私はどちらでも良かったのだ。[r]だが、そこの女がとにかく[#喧:やかま]しくてな。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+
+＠ケツァル・コアトル
+ハイ、もちろんデース！[r]ここでポイント稼いでおかないと、ゴルゴーンは一生ぼっちデース！
+[k]
+
+＠ケツァル・コアトル
+契約のもらい手がないとか、[r]同じ蛇属性女神として放っておけまセーン！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+
+＠ジャガーマン
+それはククルんも同じなんだけどニャー。
+[k]
+
+＠ジャガーマン
+ルチャ女神とかニッチすぎて嫁のもらい手がないって[r]言うか、[%1]に会いたい会いたいって
+[k]
+
+＠ジャガーマン
+南米チャットでうるさいから、今回は[r]特[charaFace H 2]別に私が手を回してグボォア！？[effect bit_talk_13 50,0][se bac10][charaMove H -1000,50 0.4]
+[k]
+
+
+[wait charaMove H]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠ケツァル・コアトル
+え、えーと……まあ、そういうコトですネ！
+[k]
+
+[charaFace G 0]
+
+＠ケツァル・コアトル
+ええ。ゴルゴーンをダシにしてやってきちゃったわ、[r][%1][&君:さん]。
+[k]
+
+＠ケツァル・コアトル
+貴方たちの全てを懸けた決戦ですものね。
+[k]
+
+＠ケツァル・コアトル
+“無償で人を助けるべからず”なーんて女神の制約、[r]守ってはいられないわ。
+[k]
+
+[charaSet A 99371100 1 エレシュキガル]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+
+＠エレシュキガル
+そうなの。私は違うけれど。[r]そこの人間なんてどうでもいいわ。
+[k]
+
+＠エレシュキガル
+私は単に、一時でもうちの冥界に落ちた英霊の頼みで、[r]こうして運んできてあげただけだから。
+[k]
+
+？1：エレシュキガル……！
+
+[charaFace A 11]
+
+＠エレシュキガル
+……………………。[r]（落ち着け、わたしー！　クールに、クールに！）
+[k]
+
+＠エレシュキガル
+（今回は顔見せ！　顔見せよエレシュキガル……！[r]　クール系女神でやり直すチャンスなんだから……！）
+[k]
+
+？2：誰でしたっけ？
+
+[charaFace A 7]
+
+＠エレシュキガル
+[messageShake 0.06 3 3 0.4]
+マジか！？[r]綺麗さっぱり忘れてらっしゃる[line 3]！？
+[k]
+
+？！
+
+[charaFace A 2]
+
+＠エレシュキガル
+ま、まあいいわ。[r]早速、仕事にかかるのだわ。
+[k]
+
+＠エレシュキガル
+出でよ、冥界にて修練を終えた英霊よ！[r]冥界修復の労働を以て、汝らを解放する！
+[k]
+
+[messageOff]
+
+[se ad39]
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[charaSet C 3009001 1 レオニダス]
+[charaSet G 3006001 1 弁慶]
+[charaSet H 4014001 1 牛若丸]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[fadein white 1.0]
+[wait fade]
+
+
+
+＠レオニダス
+ぬぅぅぅぅわぁああああ！[charaMoveReturn C 0,40 0.2][wt 0.2][charaMoveReturn C 0,30 0.1][r]雄叫びと共に猛々しき肉、完・全・復・活！
+[k]
+
+＠レオニダス
+お待たせしました[%1]殿！[r]ランサー・レオニダス一世、ここに超・回・復！　です！
+[k]
+
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 20]
+[charaFadein D 0.1 1]
+
+＠マシュ
+レオニダス王……！[r]ああ、それに[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+
+＠弁慶
+武蔵坊弁慶、ここにまかり越してございます。[r]ほら、牛若丸様。そっぽを向いてないで挨拶ぐらい。
+[k]
+
+[charaFace G 0]
+
+＠弁慶
+気まずいのは分かりますが、[r][%1]殿はお許しくださるかと。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.4 1]
+
+＠牛若丸
+いえ。別に気まずくはないです。[r]私は特に悪くありませんし。
+[k]
+
+＠牛若丸
+というか、アレは私ではありませんし。[r]この牛若、なぜかウルクでの事は何も覚えていませんし。
+[k]
+
+＠牛若丸
+ここで思う存分魔神柱どもに憂さを晴らし、[r]座に帰ればノーカンです。ノーカン。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠弁慶
+おお……この拗ねようときたら……[r]頼朝様に言い訳をする時とまったく同じです……
+[k]
+
+＠弁慶
+申し訳ありませぬ、[%1]殿。
+[k]
+
+＠弁慶
+我ら三騎、通常であれば消滅した者なのですが……[r]神代という事でそこの女神に囚われておりまして。
+[k]
+
+＠弁慶
+実はウルクから霊基が続いているのです。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠レオニダス
+はい。女神エレシュキガルに無理矢理……いえ、[r]退去する為の交換条件として冥界の修復作業に従事し、
+[k]
+
+＠レオニダス
+これを無事済ませ、後は退去するだけとなったのですが、[r]牛若丸殿が女神エレシュキガルと交渉して。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠弁慶
+『このまま消えるのはイヤだ。[r]　[%1]殿に謝罪できなければ腹を斬る』
+[k]
+
+[charaFace G 1]
+
+＠弁慶
+と駄々をこねましてございます。[r]はっはっは。はっはっは。はっはっは。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠牛若丸
+エレシュキガル殿、やはり弁慶は冥界に差し上げる！[r]五万年ほど労働力として使い捨てて良し！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠エレシュキガル
+え……困るわ、こんな暑苦しいのもらっても。[r]冥界の美観を損ねるし。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad119]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+[wt 1.3]
+
+
+[charaFadeout G 0.1]
+[wt 0.3]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+ちょっと、そこ！[r]もう戦闘、始まってるんですけどー！
+[k]
+
+＠イシュタル
+無駄話は後、まずはエルキドゥと魔神柱を……
+[k]
+
+[charaFace B 16]
+[charaShake B 0.1 4 4 0.3]
+
+＠イシュタル
+エレシュキガル！？　アンタ、なんでここにいるの！？[r]しかも前の姿のまま！？　消えたんじゃないの！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠エレシュキガル
+しー、しーっ……！[r]それは黙ってて、ややこしくなるから！
+[k]
+
+[charaFace A 3]
+
+＠エレシュキガル
+確かに私は冥界の制約を破って深淵に落ちたわ。[r]でも、その後……なに、レイシフトってヤツ？
+[k]
+
+＠エレシュキガル
+あれで……[%1]が……[r]その……なんていうか……
+[k]
+
+[charaFace A 11]
+
+＠エレシュキガル
+とにかく、色々あってこの霊基のまま復帰したのよ！[r]はい、この話はここでおしまい！
+[k]
+
+[charaFace A 14]
+
+＠エレシュキガル
+私はここで退去します！[r]せいぜい頑張って、いつか私を助けに来なさい！
+[k]
+
+[se ad59]
+[charaFadeout A 0.4]
+[wt 0.7]
+[seStop ad59 0.3]
+[wt 0.3]
+
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠イシュタル
+……私の陰気な部分、ぜんぶ持っていったからかぁ……[r]我が事ながら面倒くさいわね、あの子……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+
+＠アナ
+すみません。戦わないのならお帰りください。[r]もともと私とゴルゴーンだけで助力は十分です。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠牛若丸
+ほう。アナ殿と競い合うつもりはありませんが、[r]そこの怪物となれば話は別だ。
+[k]
+
+＠牛若丸
+以前は不覚をとったが、今回は勝手が違う。
+[k]
+
+＠牛若丸
+敵はあのように無尽蔵。[r]でかいだけのウドの大木では良い標的になるだけでしょうに。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠ゴルゴーン
+[line 3]小虫が。[r]一度地獄を見て、口が達者になったと見える。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠牛若丸
+フッ。地獄であれば三度は見たわ。[r]であれば、四度目の地獄も同じこと。
+[k]
+
+[charaFace H 5]
+
+＠牛若丸
+恥を承知で舞い戻ったのは死に場所を探しての事ではない。[r]何としても、主の戦いに酬いる為。
+[k]
+
+＠牛若丸
+行くぞ弁慶！　我ら二人、今こそ[r][%1]殿の道の礎とならん！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠弁慶
+おお、お任せあれ！[r]地獄の底までお付き合いいたしましょう！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_MAP_18 0.5]
+[wait fade]
+[soundStopAll]
+[end]
