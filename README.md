@@ -12,13 +12,13 @@ Each set represents the following:
 xx  |  Story arc  
 \-\-  
 xx  |  
---  
+\-\-  
 xx  |  Order / Singularity  
---  
+\-\-  
 xx  |  Chapter / Node  
---  
+\-\-  
 x   |  Subchapter / Node Arrow  
---  
+\-\-  
 x   |  Pre / post battle scene  
 
 **Example:**
