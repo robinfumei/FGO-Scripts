@@ -4,5 +4,13 @@ Names follow the below convention:
 **Unsorted files:**
 
 * `Story/`
+ * Orleans
+ * Septem
+ * Okeanos
+ * London
+ * America
+ * Camelot
+ * Babylonia
+ * Solomon
 * `Interlude/`
 * `Event/`
