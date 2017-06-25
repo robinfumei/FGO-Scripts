@@ -27,9 +27,9 @@ Given the file name `0100011531`, it would represent the following:
 
 | Digit Set | Meaning |
 | --- | --- |
-| 01 | Story arc |
+| 01 | Story arc 1 |
 | 00 | |
-| 01 | Order / Singularity |
-| 15 | Chapter / Node |
-| 3 | Subchapter / Node Arrow |
-| 1 | Pre / post battle scene |
+| 01 | Orleans Singularity |
+| 15 | Chapter / Node #15 |
+| 3 | Arrow 3 on the node |
+| 1 | Post battle scene |
