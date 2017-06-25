@@ -3,24 +3,23 @@
 A compilation of FGO scripts, sorted and edited for easier navigation.
 
 ## Navigation
-
 ### Story
 
-Each file name consists of 10 digits, in sets of 6. These sets are 2/2/2/2/1/1 digits long, respectively.
+Each file name consists of 10 digits, in sets of 6. These sets are 2 / 2 / 2 / 2 / 1 / 1 digits long, respectively.
 
 Each set represents the following:
 
-xx  |  Story arc
---
+xx  |  Story arc  
+--  
 xx  |  
---
-xx  |  Order / Singularity
---
-xx  |  Chapter / Node
---
-x   |  Subchapter / Node Arrow
---
-x   |  Pre / post battle scene 
+--  
+xx  |  Order / Singularity  
+--  
+xx  |  Chapter / Node  
+--  
+x   |  Subchapter / Node Arrow  
+--  
+x   |  Pre / post battle scene  
 
 **Example:**
 
