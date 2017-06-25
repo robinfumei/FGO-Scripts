@@ -1,5 +1,5 @@
 Names follow the below convention:  
-`Story Arc - Order - Chapter - Node Arrow - Pre/Post Battle`
+`Order - Chapter - Node Arrow - Pre/Post Battle`
 
 **Unsorted files:**
 
@@ -11,6 +11,6 @@ Names follow the below convention:
   * America
   * Camelot
   * Babylonia
-  * Solomon
+  * Salomon
 * `Interlude/`
 * `Event/`
